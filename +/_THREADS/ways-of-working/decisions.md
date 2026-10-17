@@ -855,3 +855,14 @@ Dispatched: harness chain quiet-gate-harness, quiet-style, restart-standard, har
 Kris, as received: "Okay, so do you want to take me through it so you can get answers to the things that you need? It's going to be quite difficult for me to read that document. I thought you were going to give me a diagram, actually, maybe I misunderstood. Or maybe you're still working on things."
 
 Taken as: walk Kris through the work-model queries in conversation, a few at a time, with the diagram, rather than asking Kris to read the report; the questions that do not depend on the on-hold state go first while work-model-hold runs.
+
+## 2026-10-18 00:33 BST - WORK-HOME, WORK-HISTORY, WORK-THEME, WORK-REGULAR (walkthrough)
+
+Kris answered in the walkthrough, as received:
+
+- WORK-THEME: "Theme, keep nesting", with the note "rename theme, but I'm not sure if we want to lose the folder or not now, can you give me some pros and cons".
+- WORK-REGULAR: "Honestly, I'm not sure about this one now. So again, we need to talk about some pros and cons on it, but I suspect conceptually regular activities sit at the temperature level or theme level or something like that, right? Or even at the project level if there's a project exists. Obviously, once the project finishes, there'll be no need anymore for that activity, right? So I suspect more often than not more so equivalents to projects." ("temperature level" read as territory level.)
+- WORK-HOME: option a), flat folder per piece of work with a minimal work.md and Git history as the logbook.
+- WORK-HISTORY: option a), never rewrite shared history; prune the working area at every mark; a separate working repository only if size measurably hurts.
+
+Settled: WORK-HOME and WORK-HISTORY. Open, counsel owed: WORK-THEME (rename to theme agreed; folder kept or not) and WORK-REGULAR (activities belong at the level they serve: territory, theme or Project).
