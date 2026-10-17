@@ -5,7 +5,7 @@ label: 'Knowledge Islands Model: knowledge-acquisition'
 role: coordination
 state: active
 created_at: 2026-10-08T08:35:00Z
-updated_at: 2026-10-17T17:24:00Z
+updated_at: 2026-10-17T17:40:00Z
 ---
 
 # knowledge-islands-model.knowledge-acquisition
@@ -25,6 +25,7 @@ Open queries for Kris (option a) recommended for each):
 - BACK-LINK: the acquire side (field amendment, seeds folder, `folded` disposition) as one roadmap item in acquire, coordinated by this thread (INTAKE-ROLE). a) yes.
 - PILOT-GO: build and stage the Known World seed pack on Sonnet, publishing nothing yet, once state-of-play has copied section 4 of the foundations-coherence report into its thread folder. a) yes.
 - INTAKE-SCOPE: INTAKE-ROLE (16 October) returns acquisition coordination here, reversing HANDED-OFF for engineering items. a) launch a read-only stock-take of open acquisition items in acquire and the harness, reported as one list for Kris.
+- IMAGE-SOURCE (Kris, 17 October): photos and screenshots (phone, WhatsApp downloads) as a new acquisition source, captured in bulk and dealt with later. a) fold it into the INTAKE-SCOPE stock-take, which also reports the binary-storage questions (BINARY-HOME, BINARY-HOLD) and the WhatsApp spool, then propose one triage record; no record before Kris approves, under the burn-down rule.
 
 Detail for SEED-HOME to PILOT-GO: `loop-design.report.md`.
 
