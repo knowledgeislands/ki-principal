@@ -5,24 +5,22 @@ label: 'Knowledge Islands Model: knowledge-acquisition'
 role: coordination
 state: active
 created_at: 2026-10-08T08:35:00Z
-updated_at: 2026-10-17T21:45:00Z
+updated_at: 2026-10-17T21:44:00Z
 ---
 
 # knowledge-islands-model.knowledge-acquisition
 
 **Pick-up - mark 2026-10-15T14:59Z (15:59 BST)**
 
-Status: busy. 17 October 22:50 BST: Kris answered HOLDING-RECORD, ACQ-STALE, BINARY-NEXT and SUCCESSOR-RECORD (decisions.md). Done: KB-ACQUIRE-006 "Image and video holding area" captured in acquire, triage (`011e350`, `5bb2836`, pushed); bridge parked pending a review of the whole approach, desktop ChatGPT download is the tactical route. Running: `successor` (accept KI-HARNESS-OPS-005, capture its follow-up at Next). Queued: `acq-stale` (drop the resize wording in acquire, draft the Acer ZIP request). Waiting on state-of-play: PILOT-SEED and OBSERVATORY-FIRST.
+Status: rest. 17 October: Kris's 22:50 BST answers delivered. KB-ACQUIRE-006 "Image and video holding area" captured in acquire, triage (`011e350`, `5bb2836`, pushed). KI-HARNESS-OPS-005 accepted done and KI-HARNESS-OPS-009 "Complete AI session acquisition" captured at Next (harness `bf227839`, `e0fbc5da`, `2008a8d7`, pushed). ACQ-STALE: no resize instruction remains in acquire, nothing to change; the Acer ZIP request message is drafted (in the 17 October summary; name `2026-10-13-acer-windows-11-performance-attachments.zip`, save to OneDrive `sources-acquire`, then tell acquire intake). Bridge parked pending a review of the whole approach. Running: nothing. Queued: nothing. Waiting on state-of-play: PILOT-SEED and OBSERVATORY-FIRST. Waiting on Kris: the Acer ZIP download.
 
-Open queries for Kris: HOLDING-RECORD-ADOPT (leave KB-ACQUIRE-006 in triage until the approach review, then adopt); HOLDING-RECORD-BIND (check read-only whether acquire can bind a sources store, chezmoi diff to Kris first).
+Open queries for Kris: HOLDING-RECORD-ADOPT (keep KB-ACQUIRE-006 in triage until the approach review, then adopt); HOLDING-RECORD-BIND (check read-only whether acquire can bind a sources store, chezmoi diff to Kris first); PUSH-PRINCIPAL (push ki-principal main with other sessions' commits if checks pass).
 
-Standing rules: FOLD-AUTHORITY; FOLD-TRIGGER; reports to Kris in plain language.
+Standing rules: FOLD-AUTHORITY; FOLD-TRIGGER; reports to Kris in plain language. KI-PRINCIPAL-MOD-009 stays unlisted in the Project note (rule STREAM-9: records name their Project).
 
 Held: KB-DOTFILES-UE-035 with chezmoi, review 21 October. Parked: ChatGPT territory keys to kebab-case names.
 
-Unpushed: ki-principal main is 11 commits ahead, including other sessions' (0060254 mac-studio-setup, fecd757 and later ways-of-working); Kris decides the push. `adr-followup.report.md` untracked with malformed frontmatter; review and delete at the next rest.
-
-Next steps: report successor and acq-stale; send Kris the Acer ZIP message; launch PILOT-GO's seed pack once state-of-play answers.
+Next steps: take Kris's answers; once the Acer ZIP lands, hand the nine-photo intake to acquire intake; launch PILOT-GO's seed pack once state-of-play answers; follow state-of-play on the Observatory.
 
 Resume line: Resume Knowledge Islands Model: knowledge-acquisition under current ki-pmo and ki-delegation since 2026-10-15T14:59:00Z: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.
 
