@@ -13,6 +13,7 @@ updated_at: 2026-10-17T21:50:00Z
 
 - None open. Acted on 17 October 18:14 BST: INTERIM-MESSAGING and DIAGRAMS-NOW joined the thread working rules; RESTART-ORDER holds every launch; ECO-PRUNE-CHECKS, CLI-139-FRONTMATTER, GOV-195-RENUMBER, AWAITING-REVIEW, MGIT-OUTPUT, MGIT-ESCAPE, THREADS-CLEAR and PMO-7-BACKLOG joined the next steps; KI-AGENTS-NAME closed (nothing renamed); STALE-PRS was already done on 16 October.
 - 2026-10-17 · TOOLS-PUSH · KI > Model > ways of working: "Hand the five tools-ki commits (33770a8d, 80246ca6, 30513f9c, 4ef7b9c0, 90807355) to tools burndown: it reconciles the stack, cuts v0.10.6 and bumps ki-principal's .github/ki-version; the tools-ki state tooling joins KI-TOOL-KI-CLI-137."
+- 2026-10-17 · KI-QUIET · KI > Model > ways of working: "Yes: capture an unadopted tools-ki record for a KI_QUIET setting implying --concise --progress never, and an unadopted ki-agentic-harness record for a PreToolUse quietening hook, first checking the current Claude Code hooks reference; decide whether to build them after a week of the source-level cuts."; the tools-ki half is an unadopted record for a KI_QUIET setting implying --concise --progress never
 
 ## Pick-up
 
