@@ -888,3 +888,9 @@ Did we capture the confidence along with recommended approaches? Has that become
 I was replying to your earlier comments, so I can now look at your queries again."
 
 Taken as ideation steering WORK-THEME and WORK-REGULAR, not answers: regular work and project work as the two forms of work under territory work, each optionally tagged with a theme; Streams/Initiatives becomes Streams/Themes with a theme page; design material leaves Streams for the working area. Acted on: run work-model-shape revises the diagram and adds a folder tree to the report.
+
+## 2026-10-18 00:46 BST - REISSUE
+
+Kris, as received: "Or maybe take this into account and then reissue your queries."
+
+Taken as: when work-model-shape finishes, reissue the full work-model query set with its changes folded in, in place of answering the earlier set.
