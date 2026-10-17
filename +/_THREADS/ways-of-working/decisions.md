@@ -808,3 +808,7 @@ Dispatched: harness chain quiet-gate-harness, quiet-style, restart-standard, har
 ## Decision 190 (2026-10-17T22:16:00Z)
 
 - WORK-CASCADE - (Kris, 17 October 23:16 BST) "Yeah, sorry, there's actually an interesting distinction here. Fundamentally, you as the agent managing this conversation, you're responsible also for responding, but also for managing people doing work against it. So it's not whether it's with the when it says agent in this, it's not this session entry point and text, it's about knowing where the work lies, whether it's working or blocking on things. I think Paperclip has a concept around this, and Public Ass City does, and effectively, what I'm saying is there's some level of work, and things cascade up and down it." Ideation: dispatched a read-only design run, `work-cascade`, after thread-states-rev. ("Public Ass City" is unidentified speech-to-text; asked Kris.)
+
+## Decision 191 (2026-10-17T22:17:00Z)
+
+- LOGBOOK - (Kris, 17 October 23:17 BST) "Oh, I really like the logbook idea. That's really interesting." On the coordinator's suggestion of one folder per conversation holding a logbook (state, who holds the work and since when, decisions, reports), merging today's checkpoint and thread folder. Ideation: added to work-cascade's brief.
