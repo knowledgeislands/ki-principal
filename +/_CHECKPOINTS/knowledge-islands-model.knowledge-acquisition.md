@@ -5,33 +5,22 @@ label: 'Knowledge Islands Model: knowledge-acquisition'
 role: coordination
 state: active
 created_at: 2026-10-08T08:35:00Z
-updated_at: 2026-10-17T17:40:00Z
+updated_at: 2026-10-17T21:36:00Z
 ---
 
 # knowledge-islands-model.knowledge-acquisition
 
 **Pick-up - mark 2026-10-15T14:59Z (15:59 BST)**
 
-Status: rest. Kris back 2026-10-17 18:15 BST. folder-tidy finished 18:20 BST (`356a3e5`): reports already linked, `run-decisions.md` moved to the run state folder, folder audit clean. checkpoint-audit finished 18:21 BST (`4ee5536`): `role: coordination` added and the pick-up heading made a bold line, so the checkpoint passes the ki-pmo audit. Both reports deleted at resting points. Running: nothing. Queued: nothing. The run state folder now exists on this machine and holds only the inbox; the old stale `heading-trim` entry is gone with the other machine's state.
+Status: busy. Kris answered all ten queries at 22:30 BST on 17 October (decisions.md). Running (run `knowledge-acquisition`, Sonnet): `mod-accept` (close KI-PRINCIPAL-MOD-006 through ki-accept), `acquire-loop` (one acquire roadmap item for the seed-and-return loop), `stock-take` (read-only acquisition overview, open-items list and image/video proposal). Queued: `adr-followup` (capture the ADR-KI-PRINCIPAL-001 staging-wording record), waiting on mod-accept. Waiting on state-of-play: PILOT-SEED, asked through its inbox at 2026-10-17T21:35:00Z, to copy section 4 of the foundations-coherence report into its thread folder; PILOT-GO launches then.
 
-Open queries for Kris (option a) recommended for each):
+Standing rules from Kris's answers: FOLD-AUTHORITY (approval of a named fold-back proposal stands in for a record for an Emerging Concepts note, except a new note, a folder restructure or Admin/); FOLD-TRIGGER (fold back only on Kris's word; list tagged, unfolded captures at each mark).
 
-- AUDIT-GATE: accept KI-PRINCIPAL-MOD-006 as done through ki-accept (presented under AWAITING-REVIEW, 17 October), despite other sessions' audit failures. a) accept now. Detail: `mod-006.report.md`.
-- ADR-HARBOUR: amend ADR-KI-PRINCIPAL-001's staging wording to match acquire. a) capture a small follow-up record.
-- SEED-HOME: where a seed lives in acquire. a) `context/chatgpt/<territory-key>/seeds/<seed-slug>.md` plus an "Open seeds" line, committed in acquire from a pack staged in `-`.
-- FIELD-SHAPE: return capture fields. a) accept `ki_project`, `ki_concept`, `ki_island`, `ki_seed`; CAPTURE-CHATGPT.md amended in acquire.
-- FOLD-AUTHORITY: Kris's approval of a named fold-back proposal stands in for a record for an Emerging Concepts note. a) yes, except a new note, a folder restructure or `Admin/`.
-- FOLD-TRIGGER: fold-back only on Kris's word. a) yes; list tagged, unfolded captures at each mark.
-- BACK-LINK: the acquire side (field amendment, seeds folder, `folded` disposition) as one roadmap item in acquire, coordinated by this thread (INTAKE-ROLE). a) yes.
-- PILOT-GO: build and stage the Known World seed pack on Sonnet, publishing nothing yet, once state-of-play has copied section 4 of the foundations-coherence report into its thread folder. a) yes.
-- INTAKE-SCOPE: INTAKE-ROLE (16 October) returns acquisition coordination here, reversing HANDED-OFF for engineering items. a) launch a read-only stock-take of open acquisition items in acquire and the harness, reported as one list for Kris.
-- IMAGE-SOURCE (Kris, 17 October): photos and screenshots (phone, WhatsApp downloads) as a new acquisition source, captured in bulk and dealt with later. a) fold it into the INTAKE-SCOPE stock-take, which also reports the binary-storage questions (BINARY-HOME, BINARY-HOLD) and the WhatsApp spool, then propose one triage record; no record before Kris approves, under the burn-down rule.
+Open queries: none until the stock-take reports; its proposed image record comes back as a query.
 
-Detail for SEED-HOME to PILOT-GO: `loop-design.report.md`.
+Held: DOTFILES-UE-035 with chezmoi. Parked: ChatGPT territory keys to kebab-case names.
 
-Held: DOTFILES-UE-035 with chezmoi. Not started: the harness side of KI-HARNESS-OPS-005. Parked: ChatGPT territory keys to kebab-case names.
-
-Next steps: take Kris's answers, record them in `decisions.md`, then launch the authorised work: ki-accept for KI-PRINCIPAL-MOD-006, the ADR follow-up record, the acquire roadmap item, the stock-take and, once the seed prompt is copied, the seed pack.
+Next steps: report each agent's outcome; launch PILOT-GO's seed pack (Sonnet, publish nothing) once state-of-play has copied the seed prompt; put the stock-take's list and image proposal to Kris.
 
 Resume line: Resume Knowledge Islands Model: knowledge-acquisition under current ki-pmo and ki-delegation since 2026-10-15T14:59:00Z: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.
 
