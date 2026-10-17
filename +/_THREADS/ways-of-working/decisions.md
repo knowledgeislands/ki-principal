@@ -866,3 +866,9 @@ Kris answered in the walkthrough, as received:
 - WORK-HISTORY: option a), never rewrite shared history; prune the working area at every mark; a separate working repository only if size measurably hurts.
 
 Settled: WORK-HOME and WORK-HISTORY. Open, counsel owed: WORK-THEME (rename to theme agreed; folder kept or not) and WORK-REGULAR (activities belong at the level they serve: territory, theme or Project).
+
+## 2026-10-18 00:33 BST - CONFIDENCE-STANDARD
+
+Kris, as received: "CONFIDENCE-STANDARD / Launch a ki-agentic-harness background run to add to the ki-pmo standard that every recommended option carries a confidence level (high, medium or low) with a one-line reason, and deliver it to Awaiting review."
+
+Acted on: run confidence-standard queued in ki-agentic-harness.
