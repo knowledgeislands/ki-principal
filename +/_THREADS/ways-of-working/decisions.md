@@ -872,3 +872,19 @@ Settled: WORK-HOME and WORK-HISTORY. Open, counsel owed: WORK-THEME (rename to t
 Kris, as received: "CONFIDENCE-STANDARD / Launch a ki-agentic-harness background run to add to the ki-pmo standard that every recommended option carries a confidence level (high, medium or low) with a one-line reason, and deliver it to Awaiting review."
 
 Acted on: run confidence-standard queued in ki-agentic-harness.
+
+## 2026-10-18 00:46 BST - REGULAR-WORK, THEMES-PAGE, FOLDER-TREE
+
+Kris, as received: "Well, first of all, that diagram is really good. I think regular activities are defined at the territory level, right? They're not on the individual repos. So that makes sense because they're in the principal thing, and then effectively they could create work item records, though, right? So, would we not see it in that picture as though regular activities are alongside project work, which can also talk down to the individual things. So, maybe rather than regular activities, we can call it regular work and project work. That's the two forms of work that happen, right? Yeah, that could have really tied you up. And then I think the supervisor sits to the side, like we said. And then execution gets passed down to that bottom block.Can you revise a diagram so that you know we've got regular work alongside project work?
+
+Okay. Maybe what's interesting here is that regular work and project work are both part of the hub overall territory work, but we can associate both of those with a particular theme.
+
+So on initiatives becoming themes, under streams we have initiatives and I think maybe we should have themes instead. And I think it makes sense for themes themselves to have a page because you can document why it's a theme, what's important about it, any general direction, and guidance, which is common across them. But in itself, the work is either always done by a regular activity, a regular work or a project work. I guess you could have ad hoc pieces of work that fit a theme as well, right, technically speaking. So there's thematic work. Either way, at the minute, we've got some we've got germ in the principal repository under initiatives, we've got knowledge island model, and then we've got design under that. I'm not sure that makes sense in the streams, for example, because all the design stuff shouldn't that be over in the new work area, like the feds and checkpoints will be? Maybe that's just a hangover from where we are, right? But effectively that would be nice to keep those, really clean.
+
+So when we're talking about the folder, are we talking about the folder under the working area? Maybe it's worth giving some kind of another diagram which is like a folder structured one. It might not be a diagram, it could just be a code block, right? Like a dirt output, dirt tree output.
+
+Did we capture the confidence along with recommended approaches? Has that become durable?
+
+I was replying to your earlier comments, so I can now look at your queries again."
+
+Taken as ideation steering WORK-THEME and WORK-REGULAR, not answers: regular work and project work as the two forms of work under territory work, each optionally tagged with a theme; Streams/Initiatives becomes Streams/Themes with a theme page; design material leaves Streams for the working area. Acted on: run work-model-shape revises the diagram and adds a folder tree to the report.
