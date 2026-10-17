@@ -1,6 +1,6 @@
 # [Knowledge Islands model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Initiatives/knowledge-islands-model/knowledge-islands-model.md) › [Ways of working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working/ways-of-working.md) › work-model
 
-**Run report at 00:20 BST · last mark 22:34 BST**
+**Run report at 00:02 BST · last mark 22:34 BST**
 
 ---
 
@@ -630,7 +630,7 @@ Agree section 9 of work-model.report.md: write GDR-KI-PRINCIPAL-009 and the Work
 ```
 
 ```text
-╭─ run report · 2026-10-17T23:20:00Z ──────────────╮
+╭─ run report · 2026-10-17T23:02:00Z ──────────────╮
 │                                                  │
 │  █▀▀▄ █▀▀▀ █▀▀▀ ▀▀█▀   · thread at rest          │
 │  █▀▀▄ █▀▀  ▀▀▀█   █    · nothing running         │
