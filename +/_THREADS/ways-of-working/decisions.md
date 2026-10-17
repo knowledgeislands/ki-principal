@@ -816,3 +816,4 @@ Dispatched: harness chain quiet-gate-harness, quiet-style, restart-standard, har
 ## Decision 192 (2026-10-17T22:17:00Z)
 
 - CONVERSATION-LEVELS - (Kris, 17 October 23:17 BST) "I guess then the status of the IT's definitely a conversation, isn't it? It's definitely like you say, it's either a territory level or project level or even like initiative level conversation. Is there such a thing as an initiative level conversation? Not really covered that, have we? The cascade diagram's not very good by the way, I can really see it." Ideation: added to work-cascade's brief; diagrams in the reply now drawn as nested Markdown lists rather than text art.
+- CONVERSATION-LEVELS, follow-up - (Kris, 17 October 23:17 BST) "Maybe you can use Archify and embed an image like an SVG or something." Added to work-cascade's brief: Archify diagrams through ki-diagrams, exported as static light SVG and embedded.
