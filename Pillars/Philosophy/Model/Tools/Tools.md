@@ -49,7 +49,7 @@ Start with [[How Tools Connect]], the narrative chapter note that frames the too
 
 ## KB Filesystem
 
-[[KB Filesystem]] documents `mcp-ki-kb-fs`, the programmatic interface for reading and writing one or more knowledge bases through named aliases. Its significance is safety: access is gated by level, and paths are validated server-side so a call cannot escape its base or reach outside the declared zones and staging areas. The note summarises the read and write tools and points to the authoritative catalogue.
+[[KB Filesystem]] documents `mcp-ki-kb-fs`, the programmatic interface for reading and writing one or more knowledge bases through named aliases. Its significance is safety: access is gated by level, and paths are validated server-side so a call cannot escape its base or reach outside the declared zones and working areas. The note summarises the read and write tools and points to the authoritative catalogue.
 
 ---
 

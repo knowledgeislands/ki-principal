@@ -46,7 +46,7 @@ Changes to `Admin`, `Pillars` or `Resources` must go through the [Enactment Proc
 
 ### Index notes (strictly enforced)
 
-Every folder has a same-name index note, created with the folder and shaped as `ki-repo-kb` describes under index note shape. Calendar year folders need a `YYYY.md` index; month and week folders use their periodic notes instead. `+` and `-` are staging areas and are exempt ([[Outbound]] documents `-`).
+Every folder has a same-name index note, created with the folder and shaped as `ki-repo-kb` describes under index note shape. Calendar year folders need a `YYYY.md` index; month and week folders use their periodic notes instead. `+` and `-` are working areas and are exempt ([[Outbound]] documents `-`).
 
 ## Knowledge management
 

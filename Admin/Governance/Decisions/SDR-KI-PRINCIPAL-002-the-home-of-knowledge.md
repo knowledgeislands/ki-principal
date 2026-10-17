@@ -28,7 +28,7 @@ The Library holds stable internal knowledge in `Pillars/` and external reference
 
 `Streams/Roadmap/` holds flat finite work records and their allocation ledger. Horizon and lifecycle are record metadata, not focus folders. Recurring obligations are Activity notes in the configured collection; opted-in housekeeping Activities create ordinary roadmap runs. The Streams, Activity and housekeeping skills own those contracts.
 
-The Harbour is the entry metaphor for inbound staging in `+/`; `-/` holds outbound staging. Staging is not canonical knowledge and does not grant acceptance or transfer permission.
+The Harbour is the entry metaphor for the inbound working area `+/`; `-/` is the outbound working area. Staging is not canonical knowledge and does not grant acceptance or transfer permission.
 
 The Capital is the territorial governance role held by its one principal island. Every Knowledge Base has local governance infrastructure without becoming another Capital. Independent stores and audience boundaries survive shared territorial governance.
 
