@@ -9,6 +9,7 @@
 - **Heading, single rule.** The report heading now starts at its `#` line, in the chat and in a saved file alike, and keeps the one `---` after the form line, so no report file ever opens with `---` and NOTE-1a no longer reads one as an unterminated front-matter fence. This is what Kris asked for on 17 October in [the decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/decisions.md) ("we can just go single horizontal rule").
 - **Where it changed.** The heading is now updated in four places: the [ki-pmo standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-pmo/references/standards-pmo.md) (its Report heading rules, its example and the Owner report Heading rule), the hook line, the `ki-coordinator` output style, and the ki-pmo PMO-6 and ki-delegation RUN-4 rubric items. The banner and hook tests and both source reviews were updated to match. The hook line, the output style and both rubric files were regenerated with the tools-ki binary, and its check reports all 7 generated surfaces in sync. The ki-delegation Reporting section and ki-checkpoint only link to the heading rather than quote it, so they needed no change. The ki-pmo standard had no MD041 workaround guidance to drop.
 - **Committed and pushed.** The commit is ki-agentic-harness `2289f7c3`, `docs(ki-pmo): open reports with a single rule that never starts a file`. It went through the gate (lint-staged, TypeScript, and the staged ki-skills audit, which passed with 2 old refresh warnings) and was pushed as a fast-forward with only my commit ahead of origin.
+- **Report, committed but not pushed.** This report is committed in ki-principal as `6874818`, with `d59d1da` putting each option back on its own line after the gate's Markdown fixer had joined them. It is not pushed, because other sessions' commits sit beneath mine, from `05d9552` down to `fecd757`. Another session's commit `05d9552` (observatory-goals) also swept in my first draft of this file; I left that commit untouched.
 - **Checks.** `bun run test`: 1208 pass, 0 fail. `bunx tsc --noEmit`: clean. The ki-delegation audit passes. Two audits fail on things this change did not touch:
   - The ki-repo-harness audit fails CAP-2: the generated catalogue in `skills/README.md` differs from the SKILL.md frontmatter. No SKILL.md was touched here.
   - The ki-pmo audit fails PMO-7 on `+/_THREADS/skill-reviews/` reports in the harness, which leave a record identifier unlinked or point at a missing record file, and warns PMO-9 on that folder.
@@ -107,6 +108,7 @@ Yes: capture an unadopted tools-ki record for a `KI_QUIET` setting implying `--c
 - [waiting] QUIET-STYLE
 - [waiting] QUIET-HOOK
 - [committed] harness 2289f7c3, pushed
+- [unpushed] ki-principal report, beneath other sessions' commits
 ```
 
 ```text
