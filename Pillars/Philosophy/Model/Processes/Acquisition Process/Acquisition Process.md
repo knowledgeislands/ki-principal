@@ -89,7 +89,7 @@ Initial routing may be wrong and need not be perfect. A capture can move within 
 
 ## Source retirement
 
-Archiving or deleting a source session or a staged capture is **undecided**. Successful discovery, staging or harvesting alone does not authorise mutating a source. The threshold needs a later, provider-specific safety decision recorded in the owning repository's roadmap.
+Archiving or deleting a source session or a staged capture is **undecided**. Successful discovery, staging or harvesting alone does not authorise mutating a source. The threshold needs a later, provider-specific safety decision recorded in the owning repository's roadmap. A downloaded drop (such as an attachments ZIP in a holding area) may be deleted once every file in it is verified in Git and pushed, as step 8 of [`acquire`'s CAPTURE-CHATGPT.md](https://github.com/krisb/acquire/blob/main/CAPTURE-CHATGPT.md) sets out; provider-side sources (ChatGPT chats, Granola meetings) stay under the rule above.
 
 ---
 
