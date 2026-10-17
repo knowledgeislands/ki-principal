@@ -54,7 +54,7 @@ Git tooling needs no new unit to be useful: the Repositories Instrument exists, 
 
 Source: [goals-map.architecture.json](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/state-of-play/observatory-goals/goals-map.architecture.json). Exported as a static light SVG by the same flatten step the diagram-fix run used, checked through the strict non-CSS renderer.
 
-Commit: this report and the `observatory-goals/` diagram folder, committed on `main` by explicit path and pushed fast-forward from a temporary worktree at `origin/main`, because five commits by other sessions sit unpushed on local `main` (`fecd757`, `424d95a`, `7d3adc5`, `0060254`, `0658112`) and are not mine to push. Local `main` therefore needs a rebase onto `origin/main` before its next push; my duplicate commit drops out of that rebase by patch identity.
+Commit: this report and the `observatory-goals/` diagram folder landed in `05d9552` on local `main`, by explicit path, gate passed for the staged paths. Two faults to own. First, the index already held the ways-of-working session's staged `+/_THREADS/ways-of-working/note1a-quiet.report.md`, so `05d9552` carried that file as well; that session then committed `6874818` and `d59d1da` on top, so I could not amend my commit without rewriting theirs, and I left it. Nothing is lost, but that file's first commit is wrongly mine. Second, not pushed: `05d9552` sits on five unpushed commits by other sessions (`fecd757`, `424d95a`, `7d3adc5`, `0060254`, `0658112`) and under the two above, so a fast-forward push would carry theirs; a worktree cherry-pick onto `origin/main` would leave local `main` to a conflicting rebase. The push is yours. The report correction itself is a second small commit, named in the status file.
 
 ## In Progress
 
@@ -123,7 +123,7 @@ Restart the Observatory thread now under the single Project, with unit 1 as its 
 - [waiting] OBS-OWNER
 - [waiting] OBS-SLICE
 - [waiting] OBS-NOW
-- [committed] report and diagram, pushed from a worktree; five other sessions' commits stay unpushed on local main
+- [unpushed] report and diagram committed on local main beneath other sessions' commits; the push is Kris's
 
 ```text
 Resume Master: state-of-play under current ki-pmo and ki-delegation since 16:14 BST: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.
