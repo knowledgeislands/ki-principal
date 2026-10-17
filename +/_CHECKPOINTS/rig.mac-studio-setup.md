@@ -4,15 +4,15 @@ thread: rig.mac-studio-setup
 label: 'Rig: mac-studio-setup'
 state: active
 created_at: 2026-10-08T08:45:00Z
-updated_at: 2026-10-17T17:24:00Z
+updated_at: 2026-10-17T21:33:00Z
 ---
 
 # rig.mac-studio-setup
 
 ## Pick-up
 
-- **Status:** at rest, 2026-10-17 18:24 BST. Running: nothing.
-- **Resume line:** `Resume Rig: mac-studio-setup under current ki-pmo and ki-delegation since 2026-10-14T16:47Z: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.`
+- **Status:** at rest, 2026-10-17 22:33 BST (marked). Running: nothing.
+- **Resume line:** `Resume Rig: mac-studio-setup under current ki-pmo and ki-delegation since 2026-10-17T21:33Z: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.`
 - **Next:** answers to RIG-LANE and RIG-PRUNE-PUSH; tools-rig burndown lane (RIG-OWNER) starts on RIG-LANE; RIG-CATALOGUE is an idea only (ADR-KI-TOOL-RIG-002, KI-OBSERVA-VIS-021); FOOTER-RECORD waits for the tools-ki rebase; Kris at-screen items on both Macs (Adobe script now at Streams/Projects/mac-studio-setup/adobe-remove.sh).
 
 ## Objective
