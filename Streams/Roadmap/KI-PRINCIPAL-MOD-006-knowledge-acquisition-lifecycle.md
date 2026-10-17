@@ -9,13 +9,12 @@ component: model
 tags:
   - topic/knowledge-islands
   - topic/acquisition
-status: awaiting-review
-horizon: now
+status: done
 blocks: []
 blocked_by: []
 baseline_ref: 3c8544a21e8a80680ed1669e56a6f9c4f8850bcd
 created_at: 2026-08-23T12:33:49Z
-updated_at: 2026-10-15T02:20:00Z
+updated_at: 2026-10-17T21:31:36Z
 ---
 
 # Knowledge Acquisition Lifecycle
@@ -127,6 +126,10 @@ Goal met: one Pillars note gives the operational lifecycle. Scope held. Regressi
 ### Mini recap
 
 Delivered the lifecycle note, kept the ADR as is, and found that the ADR's Harbour wording lags the `acquire` consolidation. Proposed learning route: a possible ADR amendment record if the owner confirms.
+
+## Done
+
+Accepted 2026-10-17 by Kris Brown on the review packet above.
 
 ## Discussion
 
