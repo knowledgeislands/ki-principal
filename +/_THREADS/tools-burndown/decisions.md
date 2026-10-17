@@ -176,3 +176,25 @@ Applied as given. Standing from UNPUSHED-COMMITS: push ki-principal fast-forward
 Kris answered PUSH-REBASE, ACCEPT-CLEAN, EVENTS-REPLAY, LIVE-CHECKS, GOV-195-RENUMBER, TOOLS-KI-BRANCHES and CI-RED-PRINCIPAL with option a) as written in that Summary's reply block, verbatim. Still open: TMP-HOME, DIGESTS-SCAFFOLD. ACCEPT-CLEAN, EVENTS-REPLAY and LIVE-CHECKS: Kris runs ki-accept once main is back; EVENTS-REPLAY authorises one new triage record.
 
 MGIT-MEMBERS, Kris, verbatim: "Please review and simplify external repository membership in tools-mgit. ... The current generated manifest puts the external checkout under registered.members, using its relative physical path as the key. I think it should simply be another members entry: the path identifies the member, and the entry should carry kind, type, and source like any other repository. ... Please assess and implement that model. ... Preserve the existing rule that repair does not unexpectedly clone external repositories. Handle migration from existing registered.members manifests deliberately. Verify that dotfiles is dispatched exactly once from both ~/workspaces/personal and ~/workspaces, including when its navigation symlink exists. ... Coordinate any consumer migration with that source; do not leave source and live manifests inconsistent. Do not apply unrelated chezmoi changes." (Full text in the thread transcript; the brief carries it whole.) Authorises one tools-mgit record for it. No mgit release without asking.
+
+## 2026-10-17 18:25 BST - RIG-TARGET-SPEED
+
+Kris, 17 October: "Investigate and fix slow single-target operations in tools-rig. ... Applying or previewing one scheduled-job target takes noticeably too long before reaching useful output. The example is scheduled-job:hnr-email-route-triage in profile laptop. Check targeted show as well. ... Measure phase timings ... Compare single-target operations with full-profile operations using disposable fixtures of different catalogue sizes. Reduce unnecessary work for selected targets while preserving configuration validation, profile/platform rules, dependency closure, repeated targets, scope restrictions, and unrelated-resource safety. Add regression coverage proving unrelated work is avoided, without brittle wall-clock assertions. ... Report before/after measurements and any remaining unavoidable cost. Boundaries: Do not enable, load, or execute the HNR mail job. Do not run mutating Rig operations against the real workstation. Do not read or print credential stores or mcporter configuration values. Commit locally by explicit path; do not push or release."
+
+Taken as a direct owner instruction for one tools-rig run, outside RESTART-ORDER's held work; launched as `rig-target-speed`.
+
+## 2026-10-17 22:25 BST - answers to the 18:14 BST Summary
+
+Kris, 17 October, in their words:
+
+- PUSH-REBASE-CODE: "Once restart is cleared, one tools-ki run checks that no live session still owns the rebase started at 01:16 BST and aborts it if none does; replays all 31 local commits onto origin/main, settling every clash including KI-TOOL-KI-CLI-139; checks -139's frontmatter and rewrites its two "Decision 55" citations by my words and date; repoints KI-TOOL-KI-CLI-137 to KI-HARNESS-GOV-200; runs the gate and pushes fast-forward."
+- MGIT-DIVERGE: "One tools-mgit run rebases the 4 local commits onto origin, merges the two KI-TOOL-MGIT-CLI-017 records into the one delivered record under that number, captures the MGIT-OUTPUT and MGIT-ESCAPE records, and holds the push until MGIT-ACCEPT."
+- BRANCH-PRUNE: "Delete the tools-ki paperclip KIS-46 origin branch; keep the granola branch for KI-TOOL-KI-CLI-128."
+- MGIT-ACCEPT: "An independent review run on KI-TOOL-MGIT-CLI-017, then I ki-accept it in the group, then push tools-mgit."
+- CONSUMER-MIGRATE: "Wait for the mgit release, then migrate the chezmoi dot_mgit.toml source and the live manifest together."
+- NOTE1A-HEADING: "Is this due to the triple separator? We can get rid of that using a different approach to the separator. If we could get the noise level down, we wouldn't even need it. What I really need to do is look aggressively at how we can quieten down the output in the thread of the tool responses and such. Because if we can get on top of that, and again, that might be something that works for a while and then seems to degrade, it might be something that needs to also be handled by a hook. If we got rid of that, we can just go to a single horizontal rule so we don't cause a problem and fix the other part." Routed to Ways of working, which owns ki-pmo.
+- DESK-KIT-ROUTE: "what is this?" Explained; query stays open.
+- TMP-HOME: "Use $TMPDIR/ki-agents/<run>/<name>/ for KI-TOOL-KI-CLI-137."
+- DIGESTS-SCAFFOLD: "Keep -/_DIGESTS/ as the declared scaffold."
+
+Launched now: mgit-diverge, mgit-review after it, branch-prune. PUSH-REBASE-CODE waits for RESTART-ORDER.
