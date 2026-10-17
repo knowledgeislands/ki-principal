@@ -43,9 +43,7 @@ Outstanding - no action requested now:
 
 **Options:**
 
-a) (recommended) Yes: one agent per repository edits the pre-commit hooks to use `lint-staged --quiet` and the concise FAIL-only audit, prints the full audit again on failure, and commits through each repository's own gate.
-b) Only the harness gate now; ki-principal later.
-c) Leave the gates as they are and rely on the style rule alone.
+a) (recommended) Yes: one agent per repository edits the pre-commit hooks to use `lint-staged --quiet` and the concise FAIL-only audit, prints the full audit again on failure, and commits through each repository's own gate. b) Only the harness gate now; ki-principal later. c) Leave the gates as they are and rely on the style rule alone.
 
 ### QUIET-STYLE - tell coordinating threads to run tools quietly
 
@@ -55,8 +53,7 @@ c) Leave the gates as they are and rely on the style rule alone.
 
 **Options:**
 
-a) (recommended) Yes: a harness agent adds the quiet-tools rule to the ki-pmo standard and its run-report and brief sources, cuts the hook line to a pointer plus the five hard rules, regenerates with `ki dev skill generate ki-pmo --write`, and commits.
-b) Add the quiet-tools rule only; keep the hook line as it is.
+a) (recommended) Yes: a harness agent adds the quiet-tools rule to the ki-pmo standard and its run-report and brief sources, cuts the hook line to a pointer plus the five hard rules, regenerates with `ki dev skill generate ki-pmo --write`, and commits. b) Add the quiet-tools rule only; keep the hook line as it is.
 
 ### QUIET-HOOK - a quietening hook and a ki quiet setting
 
@@ -66,9 +63,7 @@ b) Add the quiet-tools rule only; keep the hook line as it is.
 
 **Options:**
 
-a) (recommended) Yes: capture an unadopted tools-ki record for a `KI_QUIET` setting and an unadopted harness record for a PreToolUse quietening hook (first checking the current Claude Code hooks reference), and decide whether to build them after a week of the source-level cuts.
-b) Capture and build the tools-ki quiet setting now; leave the hook out.
-c) Capture nothing yet.
+a) (recommended) Yes: capture an unadopted tools-ki record for a `KI_QUIET` setting and an unadopted harness record for a PreToolUse quietening hook (first checking the current Claude Code hooks reference), and decide whether to build them after a week of the source-level cuts. b) Capture and build the tools-ki quiet setting now; leave the hook out. c) Capture nothing yet.
 
 ```text
 QUIET-GATE
