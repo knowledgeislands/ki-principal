@@ -5,15 +5,15 @@ label: 'KI > Model > ways of working'
 role: coordination
 state: active
 created_at: 2026-10-09T20:58:00Z
-updated_at: '2026-10-17T22:58:00Z'
+updated_at: '2026-10-17T23:40:00Z'
 ---
 
 # knowledge-islands-model.ways-of-working
 
 **Pick-up - mark 2026-10-17T21:34:13Z (22:34 BST)**
 
-- **Status:** busy: work-model-hold is folding Kris's on-hold state (WORK-STATES, 17 October) into the [work-model report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/work-model.report.md); then its nine queries go to Kris as one set. thread-states, thread-states-rev, work-cascade, work-model and work-model-rev have finished. Working areas is applied (ki-agentic-harness `aa5d0b03`, ki-principal `4662b1e`, pushed).
-- **Resume:** `Resume KI > Model > ways of working from its checkpoint under current ki-pmo and ki-delegation since 2026-10-17T21:34:13Z: re-bootstrap, reconcile running agents with ki agent status, take stock, restart only what stopped, then banner.`
+- **Status:** at rest. work-model-hold folded On hold into the [work-model report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/work-model.report.md); confidence-standard found [KI-HARNESS-GOV-207](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-207-recommendation-confidence.md) already delivered to Awaiting review by another session (`b7ab7eff`) and changed nothing. Walkthrough with Kris under way: WORK-HOME and WORK-HISTORY settled option a) on 18 October; open WORK-THEME, WORK-REGULAR (counsel given), WORK-MODEL, WORK-WORDS, DECISIONS-STRIKE, WORK-BANNER, WORK-SETTLE and CONFIDENCE-CHECK.
+- **Resume:** `Resume KI > Model > ways working under current ki-pmo and ki-delegation since 2026-10-17T21:34:13Z: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.`
 - **Next steps, in order:** give the Summary with the work-model queries WORK-MODEL, WORK-WORDS, WORK-THEME, WORK-REGULAR, WORK-HOME, DECISIONS-STRIKE, WORK-HISTORY, WORK-BANNER and WORK-SETTLE, with one reply block, when work-model-hold reports; at the next mark delete the thread-lifecycle, thread-states and work-cascade reports, whose queries work-model supersedes; after Kris answers, GDR-KI-PRINCIPAL-009, the Work Process Pillars note, the SHAPE-AGREE migration with the work model folded in, and the observatory contract. Parked: the Personal > SoP handoff for Kris to relay (`~/.local/state/ki/agents/ways-of-working/personal-handoff.md`, ACT-WORK); the HARNESS-ACCEPT sitting (KI-HARNESS-GOV-195, -198, -203 and KI-HARNESS-OPS-005 as one group); SYNC-GUARD's KI-HARNESS-GOV-189 amendment; QUIET-HOOK a week after the quiet gates; AREAS-DISPATCH waits on OBS-MERGE and NEW-AREAS.
 
 **Messages** - the receiving thread acts on each line, then removes it.
