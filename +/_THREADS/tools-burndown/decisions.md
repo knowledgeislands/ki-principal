@@ -204,3 +204,9 @@ Launched now: mgit-diverge, mgit-review after it, branch-prune. PUSH-REBASE-CODE
 Kris, 17 October: "Can you give me an overview of what's left in the roadmap for each of the tools so I can get an understanding of what we're trying to achieve? We need to start getting this down because we've got 17 tickets for the KI tool, we've got 12 for rig. One of the key ones I want to do is make MGear better. ... So, for MGIT, what I want to do is have a command that the whole kind of raw and bare capability, but also have some things which give me, again, it could be similar. Like, we had the Git Almanac thing. I'm thinking I want some kind of Git something a bit more than status, it tells me things like what branches are, whether they're obsolete, in a really nice format and output. So similar to I think what we did with Almanac was amazing, so something similar that tells me what's outstanding across all the repos, I like a sync that's a better syncing than it is at the minute, because essentially it steps through every single one of them. Yeah, we just need a really good approach to these kinds of things. It's better to maybe plan out what we want, so that's why I want to know what the whole roadmap approach is."
 
 Launched read-only as `roadmap-overview`: the roadmap per tool plus a proposed mgit plan. Plan first, no implementation.
+
+## 2026-10-17 22:33 BST - DESK-KIT-ROUTE
+
+Kris, 17 October: "This is fully resolved. I've got my webcam with a mic and video camera on it, and it's working really well. So it meets all my needs at the minute. So we can get rid of that entire area."
+
+DESK-KIT-ROUTE closed. Launched `desk-kit-close` to retire the desk-kit area.
