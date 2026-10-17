@@ -837,3 +837,7 @@ Dispatched: harness chain quiet-gate-harness, quiet-style, restart-standard, har
 ## Decision 197 (2026-10-17T22:44:00Z)
 
 - SETTLE-MODEL - (Kris, 17 October 23:44 BST) "I really want to bottom this out. I don't want to go back over this again. This dumb forever then and then we can get this into the observatory, right?" ("dumb forever" read as "done forever".) Added to work-model-rev's brief: a settlement path - one decision record, one model note, then the observatory contract.
+
+## Decision 198 (2026-10-17T22:44:00Z)
+
+- WORKING-AREAS - (Kris, 17 October 23:44 BST) "What do we call the plus and minus? Do we call them workzones?" The thread answered that ki-repo-kb already calls them working areas (and, inconsistently, staging areas) and that "zone" is reserved for the five canonical zones; added to work-model-rev's vocabulary.
