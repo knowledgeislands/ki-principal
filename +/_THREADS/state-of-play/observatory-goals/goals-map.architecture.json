@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Observatory as operations centre · goals, capabilities and owners",
+    "output": "goals-map.html",
+    "quality_profile": "showcase",
+    "viewBox": [1180, 760],
+    "legend": {
+      "mode": "all",
+      "entries": {
+        "external": { "label": "Goal, in Kris's words" },
+        "backend": { "label": "Built today" },
+        "frontend": { "label": "Partial" },
+        "cloud": { "label": "Missing" },
+        "security": { "label": "Owner today" },
+        "database": { "visible": false },
+        "messagebus": { "visible": false }
+      }
+    }
+  },
+  "components": [
+    { "id": "g1", "type": "external", "label": "Per Rig, uniform address", "sublabel": "a browser tab for now", "pos": [30, 90], "size": [230, 56] },
+    { "id": "g2", "type": "external", "label": "Knowability", "sublabel": "see and understand the knowledge", "pos": [30, 170], "size": [230, 56] },
+    { "id": "g3", "type": "external", "label": "Feedback", "sublabel": "returns into the capture cycle", "pos": [30, 250], "size": [230, 56] },
+    { "id": "g4", "type": "external", "label": "Documents to review", "sublabel": "found across the territory's repos", "pos": [30, 330], "size": [230, 56] },
+    { "id": "g5", "type": "external", "label": "Git tooling", "sublabel": "repository state and hygiene", "pos": [30, 410], "size": [230, 56] },
+    { "id": "g6", "type": "external", "label": "Air-traffic control", "sublabel": "threads and agent sessions", "pos": [30, 490], "size": [230, 56] },
+
+    { "id": "c1", "type": "backend", "label": "Service on each host", "sublabel": "Rig service, 127.0.0.1:1675", "pos": [340, 50], "size": [270, 56] },
+    { "id": "c2", "type": "cloud", "label": "Name instead of port", "sublabel": "observatory.<name> over the tailnet", "pos": [340, 130], "size": [270, 56] },
+    { "id": "c3", "type": "backend", "label": "Knowledge Bases + Documents", "sublabel": "read-only notes, search, docs", "pos": [340, 210], "size": [270, 56] },
+    { "id": "c7", "type": "frontend", "label": "Roadmap per scope", "sublabel": "records yes; Projects, threads no", "pos": [340, 290], "size": [270, 56] },
+    { "id": "c4", "type": "cloud", "label": "Confirmed feedback write", "sublabel": "every write refused today", "pos": [340, 370], "size": [270, 56] },
+    { "id": "c5", "type": "frontend", "label": "Review queue", "sublabel": "Beacon ranks roadmap + repo signals only", "pos": [340, 450], "size": [270, 56] },
+    { "id": "c6", "type": "backend", "label": "Repositories + git audit", "sublabel": "fetch, pull, push; intake open", "pos": [340, 530], "size": [270, 56] },
+    { "id": "c8", "type": "cloud", "label": "Sessions and threads view", "sublabel": "runs, waiting agents, sub-agents", "pos": [340, 610], "size": [270, 56] },
+
+    { "id": "o6", "type": "security", "label": "Rig: chezmoi", "sublabel": "service definition in Rig config", "pos": [700, 50], "size": [240, 56] },
+    { "id": "o3", "type": "security", "label": "Host network", "sublabel": "Project, no thread yet", "pos": [700, 130], "size": [240, 56] },
+    { "id": "o1", "type": "security", "label": "Observatory: product", "sublabel": "thread, no Project note", "pos": [700, 290], "size": [240, 56] },
+    { "id": "o4", "type": "security", "label": "Knowledge acquisition", "sublabel": "Project and thread", "pos": [700, 410], "size": [240, 56] },
+    { "id": "o5", "type": "security", "label": "Tools burndown", "sublabel": "mgit, ki repo audit", "pos": [700, 530], "size": [240, 56] },
+    { "id": "o2", "type": "security", "label": "Command centre", "sublabel": "Project, thread drained", "pos": [700, 610], "size": [240, 56] }
+  ],
+  "connections": [
+    { "id": "g1-c1", "from": "g1", "to": "c1" },
+    { "id": "g1-c2", "from": "g1", "to": "c2" },
+    { "id": "g2-c3", "from": "g2", "to": "c3" },
+    { "id": "g2-c7", "from": "g2", "to": "c7" },
+    { "id": "g3-c4", "from": "g3", "to": "c4" },
+    { "id": "g4-c5", "from": "g4", "to": "c5" },
+    { "id": "g5-c6", "from": "g5", "to": "c6" },
+    { "id": "g6-c8", "from": "g6", "to": "c8", "variant": "emphasis" },
+    { "id": "g6-c7", "from": "g6", "to": "c7" },
+    { "id": "c1-o6", "from": "c1", "to": "o6" },
+    { "id": "c2-o3", "from": "c2", "to": "o3" },
+    { "id": "c3-o1", "from": "c3", "to": "o1" },
+    { "id": "c7-o1", "from": "c7", "to": "o1" },
+    { "id": "c4-o1", "from": "c4", "to": "o1" },
+    { "id": "c4-o4", "from": "c4", "to": "o4", "label": "landing folder" },
+    { "id": "c5-o1", "from": "c5", "to": "o1" },
+    { "id": "c6-o1", "from": "c6", "to": "o1" },
+    { "id": "c6-o5", "from": "c6", "to": "o5", "label": "hygiene checks" },
+    { "id": "c8-o2", "from": "c8", "to": "o2", "variant": "emphasis" }
+  ],
+  "boundaries": [
+    { "kind": "region", "label": "Goals · OBSERVATORY-CENTRE and OBSERVATORY-ATC", "wraps": ["g1", "g2", "g3", "g4", "g5", "g6"], "pad": 16 },
+    { "kind": "region", "label": "Capabilities in apps-observatory.local", "wraps": ["c1", "c2", "c3", "c7", "c4", "c5", "c6", "c8"], "pad": 16 },
+    { "kind": "region", "label": "Owner today", "wraps": ["o6", "o3", "o1", "o4", "o5", "o2"], "pad": 16 }
+  ],
+  "cards": [
+    { "dot": "amber", "title": "Not a goal", "items": ["An agentic editor: no prompt box, no launching or steering of sessions; Zed keeps that."] },
+    { "dot": "cyan", "title": "Recommendation", "items": ["One owner: fold Command centre and Observatory: product into a single Observatory Project.", "First slice: sessions and threads view, review queue, feedback write, then the tailnet name."] }
+  ]
+}
