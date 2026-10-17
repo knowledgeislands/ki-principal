@@ -841,3 +841,7 @@ Dispatched: harness chain quiet-gate-harness, quiet-style, restart-standard, har
 ## Decision 198 (2026-10-17T22:44:00Z)
 
 - WORKING-AREAS - (Kris, 17 October 23:44 BST) "What do we call the plus and minus? Do we call them workzones?" The thread answered that ki-repo-kb already calls them working areas (and, inconsistently, staging areas) and that "zone" is reserved for the five canonical zones; added to work-model-rev's vocabulary.
+
+## Decision 199 (2026-10-17T22:45:00Z)
+
+- WORKING-AREAS, settled - (Kris, 17 October 23:45 BST) "Yeah, working areas is fine. Staging is just a state that a piece of work can be in. It's definitely working areas, so we should make that the case. For example, when stuff's brought into a repository, it goes into the plus working area and it's staged. So I think that's where the two terms have got mixed up." Owner instruction for a bounded change: dispatched `working-areas`.
