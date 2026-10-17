@@ -1,6 +1,6 @@
 # [Knowledge Islands model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Initiatives/knowledge-islands-model/knowledge-islands-model.md) › [Ways of working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working/ways-of-working.md) › work-model
 
-**Run report at 23:58 BST · last mark 22:34 BST**
+**Run report at 00:20 BST · last mark 22:34 BST**
 
 ---
 
@@ -8,6 +8,7 @@
 
 - Brought the [thread-states report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/thread-states.report.md), the [work-cascade report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/work-cascade.report.md) and Kris's CONVERSATIONS-FOLDER and WORK-UNIT words of 17 October into one model. Where I choose between them, the section says so and why.
 - Revised in place by `work-model-rev` to fold in Kris's WORK-LEVELS, SETTLE-MODEL and WORKING-AREAS words of 17 October 23:43 to 23:45 BST, read verbatim in the [decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/decisions.md). Section 0 shows what each point changed and which points the first version had already covered. Section 9, Settling it, is new.
+- Revised again by `work-model-hold` to fold in Kris's WORK-STATES idea of 17 October 23:50 BST: On hold is a fourth kind of state, between with someone and Finished, with two reasons. Section 1 models it and maps the work states onto the roadmap item statuses; section 2 gives "hold" one meaning; section 6 renders it; WORK-MODEL and WORK-WORDS carry it. The diagram shows levels and roles, not states, so only its list label gains "on hold", edited in the SVG and its Archify source and checked by eye through `rsvg-convert`.
 - Read the whole decisions log and sorted every entry for the worked example in section 4. The sort was made from the log and the report trail, not checked line by line against each durable home.
 - Redrew the Archify diagram for the new levels and roles, exported it through the `ki-diagrams` exporter, flattened it to static light SVG with the one-off script `diagram-fix` left, and checked it by eye through `rsvg-convert`. It reads cleanly. A nested-list fallback sits under it, and its source is beside this report.
 - Read [apps-observatory.local](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local) read-only for the observatory contract in section 9.
@@ -30,6 +31,7 @@
 | Recompressing Git history now and then | No | Counsel against in section 5, with safer alternatives (WORK-HISTORY) |
 | Worker and supervisor; a stuck worker comes back to its supervisor | No: holders were agent and owner | Changed: roles are relative per handoff, and the banner words follow (sections 1, 2, 6) |
 | Settle it once and get it into the observatory | No | Section 9: complete queries, the durable home, the migration and the observatory contract |
+| WORK-STATES: with someone, handed off, on hold (paused, or done for now with more to come), or done; "very similar to the roadmap item statuses, but it's a higher level" | In part: hold was only a receive word that drained | New: On hold is a state with two reasons and a release (section 1), mapped onto the roadmap statuses and horizons (section 1), "hold" given one meaning (section 2), and rendered (section 6) |
 
 ### 1. The model on one page
 
@@ -38,7 +40,7 @@
 - what is being worked on;
 - its current state, in one small work file;
 - its own **decisions**;
-- where it lies: **with** its worker or its supervisor, or in **handoff** to a named target.
+- where it lies: **with** its worker or its supervisor, in **handoff** to a named target, **on hold** by agreement, or **finished**.
 
 Its **logbook** is the Git history of its folder, as Kris put it: "The logbook could be the gate history. Yeah, I think it's probably the Git history." A chat session is only the channel through which a party works on it. The work outlives any session and is committed at every send.
 
@@ -58,7 +60,7 @@ Why the theme is a label: Kris called it "just a theme banner", and the first ve
 - Project work coordinates work items and runs;
 - only work items, done by runs or people, execute.
 
-Attention comes back up. Each level reads the work files beneath it and rolls up four lists: with you, oldest first; stuck; blocked; moving.
+Attention comes back up. Each level reads the work files beneath it and rolls up five lists: with you, oldest first; stuck; blocked; moving; on hold.
 
 **Roles.** Every handoff has a **worker** and a **supervisor**, and the roles are relative to that handoff:
 
@@ -75,24 +77,71 @@ A stuck worker comes back to its supervisor: it sends the work back with a block
 - to **send** is to put the work, or one of its items, into handoff to a target;
 - to **receive** is to take it out of handoff and make it with you.
 
-The rules the thread-states report settled carry over: a message mid-run is a steer and moves nothing; a reply moves through With supervisor on its way; hold drains, then sends and receives; finishing is a move to Finished.
+The rules the thread-states report settled carry over: a message mid-run is a steer and moves nothing; a reply moves through With supervisor on its way; finishing is a move to Finished. Two more are agreed rather than sent: putting work on hold, and taking it off.
 
-**States.** The states take Kris's role words:
+**States.** Kris named four kinds of state on 17 October 23:50 BST: "It's either with someone or it's been handed off to someone or we've agreed effectively that it's like on hold ... or we can say it's done, at which point that area is concluded." The states take those kinds and Kris's role words:
 
-| The work's items | State | Whose move |
+| Kind | The work's items | State | Whose move |
+|---|---|---|---|
+| with someone | any item with a run, or the coordinator mid-turn | With worker | worker |
+| with someone | the supervisor has said `with me`, `ack`, `got it` or `seen` | With supervisor | supervisor |
+| handed off | the worker has sent, and the supervisor has not received | Handoff to supervisor | supervisor |
+| handed off | the supervisor has replied, and no session has yet received it | Handoff to worker | worker |
+| handed off | sent to other work, a run or a person | Handoff to `<target>` | target |
+| on hold | agreed and drained: nothing running, nothing queued, nothing in handoff | On hold · paused, or On hold · more expected | nobody until its release |
+| done | closed; "that area is concluded" | Finished | nobody |
+
+The supervisor's receive and the hold are the only states that are set rather than derived. Everything else is derived from where the items lie.
+
+**On hold.** On hold sits between with someone and Finished: the work is not moving, nobody owes a move, and it is not over. It has two reasons, both Kris's:
+
+- **paused**: "the work can be paused for now and we're working on something else". It names a release condition, such as "after the harness migration" or "when Kris says resume". This is what a ki-pmo hold is today: a move between hosts, or the thread closed for a period.
+- **more expected**: "all the work is done, but we know there's going to be more to come into this". Its release is new work arriving. Regular activities rest here between occurrences, and a Project can rest here between waves.
+
+What moves it in:
+
+- only from With supervisor, because a hold is agreed and the supervisor is the party who agrees. The supervisor says `pause` or `done for now`; a worker may propose a hold in its send, and the supervisor's receive with `pause` or `done for now` agrees it in one move.
+- the worker then **drains**: it lets a run that will finish within about 15 minutes finish, stops any other at a safe point with where it stopped recorded, and launches nothing new. A drain that cannot finish leaves the work With worker, blocked, and says why.
+
+What a move into On hold persists. It is the natural drain point, so it is also a mark:
+
+- every repository the work touched is committed and pushed fast-forward, and any other session's commit or dirty file is named, not touched;
+- each open query is parked in the work file with its tag, one line of context and its recommended option, with every held and waiting-on item and the next steps;
+- the work file's front matter carries `state: on-hold`, the reason, the release condition and since;
+- decisions are struck to their live entries and the working area is tidied, as at any mark;
+- one commit carries it, `docs(work): <id> hold, paused` or `docs(work): <id> hold, more expected`, and the hold report is the send that announces it.
+
+What moves it out:
+
+- **resume**, by the supervisor, or the release condition being met: the work moves to Handoff to worker, and the worker re-reads the work file, puts the parked queries back and starts. This is today's resume line.
+- **new work arriving**, for more expected only: a message, an Activity occurrence or a new item sent into it moves it to Handoff to worker in the same way.
+- **finish**, by the supervisor: On hold to Finished, with the close-out tidy. Done for now often ends here.
+
+On hold has no heartbeat and is never stuck. A paused hold older than 31 days is flagged in the on hold list, borrowing the roadmap checker's warning for a stale held record.
+
+**The same machine one level up.** Kris: "that kind of maps very similar to the roadmap item statuses, but it's a higher level, right?" It does. A work item's record already carries the machine, in two fields that `ki-work-roadmap` keeps apart: `status` says how far work has got, and `horizon` says when it is intended, with `hold` one of its horizons. So work items need no new fields:
+
+| Work state | Record, under `ki-work-roadmap` | Note |
 |---|---|---|
-| any item with a run, or the coordinator mid-turn | With worker | worker |
-| the worker has sent, and the supervisor has not received | Handoff to supervisor | supervisor |
-| the supervisor has said `with me`, `ack`, `got it`, `seen` or `hold` | With supervisor | supervisor |
-| the supervisor has replied, and no session has yet received it | Handoff to worker | worker |
-| sent to other work, a run or a person | Handoff to `<target>` | target |
-| closed | Finished | nobody |
+| With worker | `in-progress`, horizon `now`; or `draft` while `ki-plan` shapes it | |
+| Handoff to supervisor | `awaiting-review` | the review packet is the send |
+| With supervisor | `triage`, or `draft` awaiting approval | adoption and plan approval are the supervisor's moves |
+| Handoff to worker | `ready` | changed from the first version: ready means the supervisor has approved the plan, so the next move is the worker's |
+| Handoff to `<target>` | `blocked_by` an open record, or horizon `hold` with reason `waiting-for` | |
+| On hold · paused | horizon `hold` with reason `parked` | |
+| On hold · more expected | none | see below |
+| Finished | `done` or `cancelled` | |
 
-The supervisor's receive is the one state only the supervisor can set. Everything else is derived from where the items lie.
+Its since is `updated_at`. Where the two levels differ:
 
-**Work items need no new fields.** A record's status maps to the same states: `triage`, `draft` and `ready` are With supervisor; `in-progress` is With worker; `awaiting-review` is Handoff to supervisor; `done` and `cancelled` are Finished. Its since is `updated_at`.
+- **Hold is a state up here and a horizon down there.** A held record keeps its status, so `in-progress` on hold is one record in two fields. Work is drained on the way in, so nothing is left in flight to keep, and one field suffices.
+- **Waiting is not holding.** The roadmap's `waiting-for` reason is a hold on an external condition. Up here, waiting on a named party is Handoff to `<target>`, because someone owes the move; On hold means nobody does. The roadmap's `parked` is the true match for paused.
+- **Done for now exists only up here.** A record is finite: when its outcome lands it is `done`, and more work is a new record. Territory work, Project work between waves and regular activities do accrue more, so they need a resting state that is not an ending.
+- **One ending, not two.** The roadmap ends `done` or `cancelled` with a resolution. Work ends Finished; the closing commit says whether the area concluded or was abandoned.
+- **Holds are agreed up here and approved down there.** A record's move to `hold` is a `ki-next` selection the owner approves; a work hold is the supervisor's word in a receive. Both need the supervisor, so the authority is the same.
+- **Release is shared.** Both name a release condition; the work level borrows the roadmap's rule that a hold says what ends it.
 
-**Stuck and the heartbeat.** A heartbeat runs only while work lies with a worker: an update when something changes, at least every 5 minutes, and always by 10. An item with a worker that has neither moved nor beaten for 10 minutes is stuck. Nobody sets stuck. Work with the supervisor is never stuck, only older, so with you is listed oldest first.
+**Stuck and the heartbeat.** A heartbeat runs only while work lies with a worker: an update when something changes, at least every 5 minutes, and always by 10. An item with a worker that has neither moved nor beaten for 10 minutes is stuck. Nobody sets stuck. Work with the supervisor is never stuck, only older, so with you is listed oldest first. Work on hold has no heartbeat.
 
 ![The work model on one page](work-model.svg)
 
@@ -101,7 +150,7 @@ Fallback, if the diagram does not render:
 - Territory work `ki`: the state of play coordinates the coordinations
   - dispatches occurrences to regular activities `ki.regular`, the standing home, no Project
   - sends direction down to Project work
-  - shows Kris with you, stuck, blocked and moving
+  - shows Kris with you, stuck, blocked, moving and on hold
 - Theme `Model`: a label around Project work, not a level
   - Project work `ki.ways-of-working`: worker to Kris, supervisor to its runs
     - sends attention up
@@ -137,12 +186,27 @@ Fallback, if the diagram does not render:
 | With supervisor | state: the supervisor has received it | none | none |
 | Handoff to worker | state: the supervisor has replied | none | none |
 | Handoff to `<target>` | state: sent to other work, a run or a person | "blocked on another thread" | none |
-| Finished | state: closed | DONE | ki-work's `done` status, which maps onto it |
-| with you, stuck, blocked, moving | the four view lists, by holder, across work | `[waiting]` items | none |
+| On hold | state: agreed and drained; nobody owes a move until its release | HOLD, the ki-pmo drained-thread state | the roadmap's `hold` horizon, which maps onto it: its `parked` reason is paused, its `waiting-for` reason is a handoff |
+| paused, more expected | the two reasons for On hold | the hold's "move between hosts or close for a period" | none |
+| release | what ends a hold: a named condition, or new work arriving | resume line | the roadmap's release condition, which means the same |
+| Finished | state: closed | DONE | ki-work's `done` and `cancelled` statuses, which map onto it |
+| with you, stuck, blocked, moving, on hold | the five view lists, by holder, across work | `[waiting]` and `[held]` items | none |
 | `with me`, `ack`, `got it`, `seen` | the supervisor's receive | none | none |
-| `hold` | the receive with a drain | hold as a separate request | the HOLD frame retires |
+| `pause`, `done for now` | the supervisor's receive that agrees a hold, with its reason | `hold`, as a receive word and as a request to drain | none |
+| `resume` | the supervisor's move off hold | resume | none |
+| `finish` | the supervisor's move to Finished | close | none |
+| drain | the activity on the way into On hold | drain | none: it stays an activity, never a state |
 | working area | `+` inbound and `-` outbound; not canonical, history not durable | staging area | settled by Kris on 17 October 23:45 BST, "Staging is just a state that a piece of work can be in"; "zone" stays for the five canonical zones; `working-areas` is applying it |
 | mark | the point at which decisions are struck and the working area tidied | mark | none |
+
+**One meaning for "hold".** Today the word carries four:
+
+- the ki-pmo glossary's hold, "a mark plus stopping all work", the drained-thread state behind the HOLD frame and the hold report;
+- this report's first versions, where `hold` was a supervisor receive word that also drained;
+- the roadmap's `hold` horizon, with reasons `waiting-for` and `parked`;
+- Kris's THREAD-STATES words, "hold means I've read and accepted it and I'm putting my responses on hold".
+
+My counsel: **hold means On hold, the agreed state, and nothing else.** The ki-pmo state is the same thing, a paused hold, so it keeps the word and gains the second reason; its drain stays the activity into it and its hold report stays the send that announces it. The roadmap horizon is the same machine one level down and keeps its word too. What retires is `hold` as a receive word: receiving and holding are different moves, and one word for both is why a received report and a drained thread read alike. The supervisor receives with `with me`, `ack`, `got it` or `seen`, agrees a hold with `pause` or `done for now`, which receives in the same move, and lifts it with `resume`. THREAD-STATES's sense, read and accepted, is With supervisor; putting responses on hold is `pause`.
 
 ### 3. Where it lives
 
@@ -158,7 +222,7 @@ Fallback, if the diagram does not render:
 
 **Links point upward.** The work file names its Project and links to the note; the note does not link down into the working area. `ki` finds the folder from the id.
 
-**The work file.** `work.md` is the minimal current state that remains once Git is the log. Its front matter is the observatory contract of section 9: id, level, title, theme, worker, supervisor, state, holder, target, since, received, mark and the items below it. Its body has three parts:
+**The work file.** `work.md` is the minimal current state that remains once Git is the log. Its front matter is the observatory contract of section 9: id, level, title, theme, worker, supervisor, state, holder, target, hold reason and release, since, received, mark and the items below it. Its body has three parts:
 
 - next steps;
 - Messages, the directions sent down to it, keeping that name so it does not collide with the `ki agent` inbox;
@@ -166,7 +230,7 @@ Fallback, if the diagram does not render:
 
 Nothing else. No moves list: each move is a commit, and `git log -- +/_WORK/<id>/` is the logbook. Kris's "we don't need to know everything about every state transition" is met because only sends and the supervisor's receives commit.
 
-**Commit subjects carry the move.** `docs(work): ki.ways-of-working send to owner`, `docs(work): ki.ways-of-working receive by owner`. An agent's receive is committed with whatever it next sends in the same turn.
+**Commit subjects carry the move.** `docs(work): ki.ways-of-working send to owner`, `docs(work): ki.ways-of-working receive by owner`, `docs(work): ki.ways-of-working hold, paused`. An agent's receive is committed with whatever it next sends in the same turn.
 
 **Briefs move in.** A brief goes in `+/_WORK/<id>/briefs/<run>.md` while its handoff is open and is deleted once the report is received; Git keeps it. This reverses THREADS-CONTENT's briefs in the state folder.
 
@@ -218,7 +282,7 @@ Local size, if it ever matters on one machine, is a `git gc` or partial-clone qu
 
 ### 6. Banner
 
-There is one form. The glyphs come first and the last glyph is whose move it is: 🤖 an agent, 🧑 Kris, 👤 another person, 🏁 nobody. The words give the state and, where it helps, the holder.
+There is one form. The glyphs come first and the last glyph is whose move it is: 🤖 an agent, 🧑 Kris, 👤 another person, ⏸️ nobody until the release, 🏁 nobody. The words give the state and, where it helps, the holder.
 
 The report heading's form line takes the same prefix:
 
@@ -267,11 +331,26 @@ The footer replaces the block-letter frame with one heading, one line of counts,
 
 - [handoff] site copy review · person/<handle> · since 15:00
 
+### ⏸️ On hold · paused until the harness migration lands · since 00:10 BST
+
+⏸️ drained · 🧑 0 with you · 🅿️ 9 queries parked
+
+- [on hold] committed and pushed in ki-principal and ki-agentic-harness · since 00:10
+- [parked] WORK-MODEL to WORK-SETTLE, in the work file
+- [release] after the harness migration lands, or `resume`
+
+### ⏸️ On hold · more expected · since Fri 17:00
+
+⏸️ drained · 🧑 0 with you
+
+- [on hold] regular activities, between occurrences · since Fri 17:00
+- [release] the next Activity occurrence, or new work sent in
+
 ### 🏁 Finished · Ways of working closed at 18:00 BST
 
 - [finished] 14 work items accepted, folder pruned
 
-A stuck worker's send reads `🤖 → 🧑 Handoff to supervisor · blocked`. The resume line becomes the send line and appears only when the work is in handoff to Kris. The block-letter frames retire when the model is written in; past reports keep theirs, and so does this one.
+A stuck worker's send reads `🤖 → 🧑 Handoff to supervisor · blocked`. The resume line becomes the send line and appears only when the work is in handoff to Kris; on hold, the send line is the resume that lifts it, given in the hold report. The hold report keeps its name and its `Done`, `Parked` and `Left over` sections under the On hold heading. The block-letter frames retire when the model is written in; past reports keep theirs, and so does this one.
 
 ### 7. What retires, and the migration
 
@@ -280,14 +359,15 @@ Each item is one line and goes into SHAPE-AGREE's single migration after the res
 - `+/_CHECKPOINTS/` and `+/_THREADS/` become `+/_WORK/<dotted id>/`, with `work.md`, `decisions.md`, reports and open briefs.
 - `ki-checkpoint` becomes the work-file skill.
 - The pick-up block becomes the work file's front matter, and the moves list goes to Git.
-- REST, BUSY, HOLD and DONE frames become the glyph heading; `[waiting]` becomes `[with you]`.
+- REST, BUSY, HOLD and DONE frames become the glyph heading; `[waiting]` becomes `[with you]`; `[hold]` becomes `[on hold]` with its reason and release.
+- The ki-pmo glossary's hold is redefined as On hold with its two reasons, drain stays its activity, and `hold` leaves the receive words.
 - The resume line becomes the send line.
 - The `.sop` id becomes `ki`; Project ids drop the theme segment.
 - Initiative becomes theme: `Streams/Initiatives/` becomes `Streams/Themes/`, Projects stay flat in `Streams/Projects/` with a `theme` key, amending SHAPE-AGREE's nested shape before it runs.
 - Recurring work's home becomes regular activities under the territory, amending ACT-HOME's "Initiative stays the default" and [KI-HARNESS-GOV-206](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-206-activity-homes-and-coordination.md).
 - DECISIONS-HOME's `decisions.md` in Streams is reversed; THREADS-CONTENT's briefs in the state folder are reversed.
 - "Staging area" becomes "working area" in ki-repo-kb, already dispatched as `working-areas`.
-- In tools-ki, under [KI-TOOL-KI-CLI-127](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-127-agent-status-live-threads.md): the `thread.status` parser reads `work.md`, a work-status reader gives the section 9 contract, the registry reader reads themes, and the four lists are shown.
+- In tools-ki, under [KI-TOOL-KI-CLI-127](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-127-agent-status-live-threads.md): the `thread.status` parser reads `work.md`, a work-status reader gives the section 9 contract, the registry reader reads themes, and the five lists are shown.
 - This log is struck to its 26 entries at the first mark after the migration.
 
 ### 8. Against these choices
@@ -310,7 +390,7 @@ Kris, 17 October 23:44 BST: "I really want to bottom this out. I don't want to g
 
 | Choice | Query |
 |---|---|
-| the unit, the levels, the cascade rule, relative roles, states and work items' mapping, stuck and the heartbeat | WORK-MODEL |
+| the unit, the levels, the cascade rule, relative roles, states including On hold, the mapping to the roadmap, stuck and the heartbeat | WORK-MODEL |
 | every word in section 2 | WORK-WORDS |
 | Initiative to theme, flat Projects and two-part ids | WORK-THEME |
 | the home of recurring and ad hoc work | WORK-REGULAR |
@@ -341,7 +421,8 @@ What it would read is one tools-ki command, `ki work status --format json`, owne
 | `title` | the display title |
 | `theme` | the theme label, or null |
 | `worker`, `supervisor` | the two parties, such as `agent` and `owner` |
-| `state` | `with-worker`, `handoff-to-supervisor`, `with-supervisor`, `handoff-to-worker`, `handoff` or `finished` |
+| `state` | `with-worker`, `handoff-to-supervisor`, `with-supervisor`, `handoff-to-worker`, `handoff`, `on-hold` or `finished` |
+| `hold` | while on hold, `reason` (`paused` or `more-expected`) and `release`, the condition in words; else null |
 | `holder` | the party it lies with now |
 | `role` | the holder's role, `worker` or `supervisor`, or null for another target |
 | `target` | the named target while in handoff, else null |
@@ -352,7 +433,7 @@ What it would read is one tools-ki command, `ki work status --format json`, owne
 | `path` | the repository-relative path of `work.md` |
 | `items` | each item below: `id` (`run/<name>`, `work/<id>`, `person/<handle>` or a record id), `kind`, `holder`, `role`, `state`, `target`, `blocking`, `since` |
 
-The Observatory derives the lists as stated rules, as its Roadmap instrument derives stale: with you is every work or item whose holder is `owner`, oldest `since` first; stuck is a worker-held item whose later of `since` and `beat` is more than 10 minutes old; blocked is `blocking` true or the Roadmap's own blocked signal; moving is the rest. In the Beacon, with you and stuck are attention and blocked is blocking, all in its existing "work and review" category. `apps-observatory` is not in this Capital's choreography list, so its record, a Work instrument and a Beacon contributor, is for Kris to have captured there once the tools-ki read lands.
+The Observatory derives the lists as stated rules, as its Roadmap instrument derives stale: with you is every work or item whose holder is `owner`, oldest `since` first; stuck is a worker-held item whose later of `since` and `beat` is more than 10 minutes old; blocked is `blocking` true or the Roadmap's own blocked signal; on hold is `state` `on-hold`, with a paused hold flagged after 31 days; moving is the rest. In the Beacon, with you and stuck are attention and blocked is blocking, all in its existing "work and review" category. `apps-observatory` is not in this Capital's choreography list, so its record, a Work instrument and a Beacon contributor, is for Kris to have captured there once the tools-ki read lands.
 
 ## In Progress
 
@@ -370,7 +451,7 @@ These nine supersede every open query in the thread-states and work-cascade repo
 
 ### WORK-MODEL - work as the unit, levels, roles and the cascade
 
-**Context:** Section 1 sets out the model. Work is the unit at three levels where it can lie: territory work (state of play, coordinating the coordinations), Project work (finite, coordinating) and the work item (execution, its record's status mapped to the states). Work cascades down to the lowest level that can do it, and attention rolls up in four lists. Every handoff has a worker and a supervisor, relative to it, so the coordinator is worker to Kris and supervisor to its runs; a stuck worker sends back to its supervisor. Six states use those role words, and only the supervisor's receive is set rather than derived. Stuck is a worker's item quiet for 10 minutes. This supersedes HANDOFF-SHAPE, CASCADE-SHAPE, INITIATIVE-THREAD and the first version's WORK-MODEL.
+**Context:** Section 1 sets out the model. Work is the unit at three levels where it can lie: territory work (state of play, coordinating the coordinations), Project work (finite, coordinating) and the work item (execution, its record's status mapped to the states). Work cascades down to the lowest level that can do it, and attention rolls up in four lists. Every handoff has a worker and a supervisor, relative to it, so the coordinator is worker to Kris and supervisor to its runs; a stuck worker sends back to its supervisor. Kris's WORK-STATES words give four kinds of state: with someone, handed off, on hold and done. Seven states use those kinds and the role words; only the supervisor's receive and the hold are set rather than derived. On hold is agreed from With supervisor, drained on the way in, and has two reasons, paused (for other work, with a named release) and more expected (done for now; released by new work arriving); the move into it is a mark that commits, pushes and parks everything, and resume or new work moves it to Handoff to worker, or finish to Finished. The states map onto a record's `status` and `horizon`: one machine, one level up, differing in that hold is a state here and a horizon there, waiting on a party is a handoff here rather than a hold, done for now exists only here, and `ready` is Handoff to worker. Stuck is a worker's item quiet for 10 minutes; on hold has no heartbeat. This supersedes HANDOFF-SHAPE, CASCADE-SHAPE, INITIATIVE-THREAD and the first version's WORK-MODEL.
 
 **Query:** Should section 1 be agreed as the one model of work?
 
@@ -382,11 +463,13 @@ b) Agree it, but give the theme a standing piece of work and session between ter
 
 c) Agree it, but keep agent and owner as fixed holders instead of relative worker and supervisor roles.
 
+d) Agree it, but fold done for now into Finished, with new work reopening it, so On hold has the one reason paused.
+
 ### WORK-WORDS - the vocabulary
 
-**Context:** Section 2 lists every term. The main choices are: work item for the lowest level, with "task" fine in speech; the work file `work.md` in place of "head", which collides with Git's HEAD; worker and supervisor; the states With worker, Handoff to supervisor, With supervisor, Handoff to worker, Handoff to `<target>` and Finished; the view lists with you, stuck, blocked and moving; the receive words `with me`, `ack`, `got it`, `seen` and `hold`. This supersedes STATE-NAMES, RECEIVE-WORDS, LEVEL-NAME and the first version's WORK-WORDS.
+**Context:** Section 2 lists every term. The main choices are: work item for the lowest level, with "task" fine in speech; the work file `work.md` in place of "head", which collides with Git's HEAD; worker and supervisor; the states With worker, Handoff to supervisor, With supervisor, Handoff to worker, Handoff to `<target>`, On hold and Finished, with On hold's reasons paused and more expected and its release; the view lists with you, stuck, blocked, moving and on hold; the receive words `with me`, `ack`, `got it` and `seen`; and the supervisor's `pause`, `done for now`, `resume` and `finish`. "Hold" today means four things: the ki-pmo drained-thread state, this report's earlier receive-with-drain word, the roadmap's `hold` horizon and Kris's "read and accepted" in THREAD-STATES. Section 2 gives it one meaning, On hold the agreed state, which the ki-pmo state and the roadmap horizon already are; `hold` leaves the receive words, `pause` and `done for now` replace it, drain stays the activity and the hold report keeps its name. This supersedes STATE-NAMES, RECEIVE-WORDS, LEVEL-NAME and the first version's WORK-WORDS.
 
-**Query:** Should the vocabulary in section 2 be adopted?
+**Query:** Should the vocabulary in section 2 be adopted, with "hold" meaning only the agreed On hold state?
 
 **Options:**
 
@@ -395,6 +478,8 @@ a) (recommended) Adopt section 2 as it stands.
 b) Adopt it, but keep "With you" and "Handoff to you" as state words when the supervisor is Kris.
 
 c) Adopt it, but call the lowest level "task" rather than work item.
+
+d) Adopt it, but keep `hold` as the receive word that agrees a hold, in place of `pause` and `done for now`.
 
 ### WORK-THEME - Initiative becomes a theme label
 
@@ -493,13 +578,13 @@ b) Agree it, but run the work model as a second migration after SHAPE-AGREE land
 ```text
 WORK-MODEL
 
-Agree section 1 of work-model.report.md as the one model of work: territory work, Project work and the work item as the levels, work cascading to the lowest level that can do it, relative worker and supervisor roles per handoff, the six role-word states with only the supervisor's receive set, work items' status mapped to the states, stuck as a worker's item quiet for 10 minutes; nothing written into standards until WORK-SETTLE's migration.
+Agree section 1 of work-model.report.md as the one model of work: territory work, Project work and the work item as the levels, work cascading to the lowest level that can do it, relative worker and supervisor roles per handoff, the four kinds of state (with someone, handed off, on hold, done) as seven role-word states with only the supervisor's receive and the hold set, On hold agreed from With supervisor and drained on the way in with the reasons paused (named release) and more expected (released by new work), the move into it a mark that commits, pushes and parks everything, resume or new work moving it to Handoff to worker and finish to Finished, the states mapped onto a record's status and horizon with ready as Handoff to worker, stuck as a worker's item quiet for 10 minutes and no heartbeat on hold; nothing written into standards until WORK-SETTLE's migration.
 
 ---
 
 WORK-WORDS
 
-Adopt section 2 of work-model.report.md as it stands: work item (task in speech), work file work.md, worker and supervisor, the states With worker, Handoff to supervisor, With supervisor, Handoff to worker, Handoff to <target> and Finished, the lists with you, stuck, blocked and moving, and the receive words with me, ack, got it, seen and hold.
+Adopt section 2 of work-model.report.md as it stands: work item (task in speech), work file work.md, worker and supervisor, the states With worker, Handoff to supervisor, With supervisor, Handoff to worker, Handoff to <target>, On hold (paused or more expected, with a release) and Finished, the lists with you, stuck, blocked, moving and on hold, the receive words with me, ack, got it and seen, and the supervisor's pause, done for now, resume and finish; hold means only the agreed On hold state, which the ki-pmo hold and the roadmap hold horizon already are, hold leaves the receive words, drain stays the activity and the hold report keeps its name.
 
 ---
 
@@ -545,7 +630,7 @@ Agree section 9 of work-model.report.md: write GDR-KI-PRINCIPAL-009 and the Work
 ```
 
 ```text
-╭─ run report · 2026-10-17T22:58:00Z ──────────────╮
+╭─ run report · 2026-10-17T23:20:00Z ──────────────╮
 │                                                  │
 │  █▀▀▄ █▀▀▀ █▀▀▀ ▀▀█▀   · thread at rest          │
 │  █▀▀▄ █▀▀  ▀▀▀█   █    · nothing running         │
@@ -563,7 +648,7 @@ Agree section 9 of work-model.report.md: write GDR-KI-PRINCIPAL-009 and the Work
 - [waiting] WORK-HISTORY
 - [waiting] WORK-BANNER
 - [waiting] WORK-SETTLE
-- [committed] work-model report and diagram, revised
+- [committed] work-model report, revised for On hold
 ```
 
 ```text

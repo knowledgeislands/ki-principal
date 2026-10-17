@@ -14,7 +14,7 @@
 {"id":"t-a","from":"t","to":"a","label":"dispatches occurrences","variant":"dashed"},
 {"id":"p-k","from":"p","to":"k","label":"send: handoff to supervisor","variant":"emphasis","fromSide":"right","toSide":"left"},
 {"id":"k-p","from":"k","to":"p","label":"send: handoff to worker","variant":"dashed"},
-{"id":"t-k","from":"t","to":"k","label":"with you · stuck · blocked · moving","variant":"emphasis"},
+{"id":"t-k","from":"t","to":"k","label":"with you · stuck · blocked · moving · on hold","variant":"emphasis"},
 {"id":"p-w","from":"p","to":"w","label":"work cascades down","fromSide":"bottom","toSide":"top"},
 {"id":"p-r","from":"p","to":"r","label":"brief out, report back","fromSide":"bottom","toSide":"top"},
 {"id":"p-o","from":"p","to":"o","label":"handoff with target","variant":"dashed","fromSide":"bottom","toSide":"top"}],
