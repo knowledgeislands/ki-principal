@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "The work model · one piece of work at each level",
+    "output": "work-model.html",
+    "quality_profile": "showcase",
+    "locale": "en",
+    "legend": {
+      "mode": "all",
+      "entries": {
+        "frontend": {
+          "label": "a piece of work: logbook, decisions, holder, since"
+        },
+        "backend": {
+          "label": "an item the work has handed below it"
+        },
+        "external": {
+          "label": "the owner, who alone sets the receive"
+        },
+        "security": {
+          "visible": false
+        },
+        "cloud": {
+          "visible": false
+        },
+        "database": {
+          "visible": false
+        },
+        "messagebus": {
+          "visible": false
+        }
+      }
+    }
+  },
+  "components": [
+    {
+      "id": "t",
+      "type": "frontend",
+      "label": "Territory · ki",
+      "sublabel": "state of play reads every head",
+      "pos": [
+        250,
+        60
+      ],
+      "size": [
+        280,
+        64
+      ]
+    },
+    {
+      "id": "m",
+      "type": "frontend",
+      "label": "Initiative · ki.model",
+      "sublabel": "short name Model; on demand",
+      "pos": [
+        250,
+        200
+      ],
+      "size": [
+        280,
+        64
+      ]
+    },
+    {
+      "id": "p",
+      "type": "frontend",
+      "label": "Project · ki.model.ways-of-working",
+      "sublabel": "with agent or handoff to you",
+      "pos": [
+        250,
+        340
+      ],
+      "size": [
+        280,
+        64
+      ]
+    },
+    {
+      "id": "k",
+      "type": "external",
+      "label": "Kris",
+      "sublabel": "receives with me; sends by replying",
+      "pos": [
+        650,
+        340
+      ],
+      "size": [
+        200,
+        64
+      ]
+    },
+    {
+      "id": "r",
+      "type": "backend",
+      "label": "Run · run/<name>",
+      "sublabel": "queued · running · stuck",
+      "pos": [
+        100,
+        510
+      ],
+      "size": [
+        190,
+        60
+      ]
+    },
+    {
+      "id": "o",
+      "type": "backend",
+      "label": "Other work · <id>",
+      "sublabel": "handoff until it receives",
+      "pos": [
+        310,
+        510
+      ],
+      "size": [
+        190,
+        60
+      ]
+    },
+    {
+      "id": "w",
+      "type": "backend",
+      "label": "Work record · repo",
+      "sublabel": "ready · in progress · review",
+      "pos": [
+        520,
+        510
+      ],
+      "size": [
+        190,
+        60
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "region",
+      "label": "Work · +/_WORK/<id>/",
+      "wraps": [
+        "t",
+        "m",
+        "p"
+      ],
+      "pad": 20
+    },
+    {
+      "kind": "region",
+      "label": "Items the Project's work has handed on",
+      "wraps": [
+        "r",
+        "o",
+        "w"
+      ],
+      "pad": 20
+    }
+  ],
+  "connections": [
+    {
+      "id": "t-m",
+      "from": "t",
+      "to": "m",
+      "label": "direction: Messages line",
+      "variant": "security"
+    },
+    {
+      "id": "m-p",
+      "from": "m",
+      "to": "p",
+      "label": "direction: Messages line",
+      "variant": "security"
+    },
+    {
+      "id": "p-t",
+      "from": "p",
+      "to": "t",
+      "label": "attention up: head read",
+      "variant": "emphasis",
+      "fromSide": "left",
+      "toSide": "left",
+      "via": [
+        [
+          205,
+          372
+        ],
+        [
+          205,
+          92
+        ]
+      ]
+    },
+    {
+      "id": "p-k",
+      "from": "p",
+      "to": "k",
+      "label": "send: handoff to you",
+      "variant": "emphasis",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "k-p",
+      "from": "k",
+      "to": "p",
+      "label": "send: handoff to agent",
+      "variant": "dashed"
+    },
+    {
+      "id": "t-k",
+      "from": "t",
+      "to": "k",
+      "label": "with you · stuck · blocked · moving",
+      "variant": "emphasis"
+    },
+    {
+      "id": "p-r",
+      "from": "p",
+      "to": "r",
+      "label": "brief out, report back",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "p-o",
+      "from": "p",
+      "to": "o",
+      "label": "handoff with target",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "p-w",
+      "from": "p",
+      "to": "w",
+      "label": "held by repo or reviewer",
+      "variant": "dashed",
+      "fromSide": "bottom",
+      "toSide": "top"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "emerald",
+      "title": "A piece of work",
+      "items": [
+        "Says what is being worked on; keeps a logbook and its own decisions",
+        "Is with one holder, or in handoff to a named target",
+        "Every send and receive commits its folder"
+      ]
+    },
+    {
+      "dot": "rose",
+      "title": "Whose move",
+      "items": [
+        "The last glyph in the headline is whose move it is",
+        "Derived from where its items lie, except Kris's receive"
+      ]
+    }
+  ]
+}
