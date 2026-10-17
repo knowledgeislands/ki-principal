@@ -849,3 +849,9 @@ Dispatched: harness chain quiet-gate-harness, quiet-style, restart-standard, har
 ## Decision 200 (2026-10-17T22:50:00Z)
 
 - WORK-STATES - (Kris, 17 October 23:50 BST) "Just a thought on this on the state machine for a piece of work. It's either with someone or it's been handed off to someone or we've agreed effectively that it's like on hold, effectively, that means either we're saying the work can be paused for now and we're working on something else or it's all the work is done, but we know there's going to be more to come into this, or we can say it's done, at which point that area is concluded. And that kind of maps very similar to the roadmap item statuses, but it's a higher level, right?" Ideation; added to work-model-rev's brief.
+
+## 2026-10-18 00:00 BST - WALKTHROUGH
+
+Kris, as received: "Okay, so do you want to take me through it so you can get answers to the things that you need? It's going to be quite difficult for me to read that document. I thought you were going to give me a diagram, actually, maybe I misunderstood. Or maybe you're still working on things."
+
+Taken as: walk Kris through the work-model queries in conversation, a few at a time, with the diagram, rather than asking Kris to read the report; the questions that do not depend on the on-hold state go first while work-model-hold runs.
