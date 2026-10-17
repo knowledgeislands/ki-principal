@@ -5,18 +5,18 @@ label: 'Knowledge Islands Model: knowledge-acquisition'
 role: coordination
 state: active
 created_at: 2026-10-08T08:35:00Z
-updated_at: 2026-10-17T21:36:00Z
+updated_at: 2026-10-17T21:38:00Z
 ---
 
 # knowledge-islands-model.knowledge-acquisition
 
 **Pick-up - mark 2026-10-15T14:59Z (15:59 BST)**
 
-Status: busy. Kris answered all ten queries at 22:30 BST on 17 October (decisions.md). Running (run `knowledge-acquisition`, Sonnet): `mod-accept` (close KI-PRINCIPAL-MOD-006 through ki-accept), `acquire-loop` (one acquire roadmap item for the seed-and-return loop), `stock-take` (read-only acquisition overview, open-items list and image/video proposal). Queued: `adr-followup` (capture the ADR-KI-PRINCIPAL-001 staging-wording record), waiting on mod-accept. Waiting on state-of-play: PILOT-SEED, asked through its inbox at 2026-10-17T21:35:00Z, to copy section 4 of the foundations-coherence report into its thread folder; PILOT-GO launches then.
+Status: busy. Kris answered all ten queries at 22:30 BST on 17 October (decisions.md). mod-accept finished 22:33 BST: KI-PRINCIPAL-MOD-006 closed done (`37b5f55`, pushed). Running (run `knowledge-acquisition`, Sonnet): `adr-followup` (capture the ADR-KI-PRINCIPAL-001 staging-wording record), `acquire-loop` (one acquire roadmap item for the seed-and-return loop), `stock-take` (read-only acquisition overview, open-items list and image/video proposal). Queued: nothing. Waiting on state-of-play: PILOT-SEED, asked through its inbox at 2026-10-17T21:35:00Z, to copy section 4 of the foundations-coherence report into its thread folder; PILOT-GO launches then.
 
 Standing rules from Kris's answers: FOLD-AUTHORITY (approval of a named fold-back proposal stands in for a record for an Emerging Concepts note, except a new note, a folder restructure or Admin/); FOLD-TRIGGER (fold back only on Kris's word; list tagged, unfolded captures at each mark).
 
-Open queries: none until the stock-take reports; its proposed image record comes back as a query.
+Open queries: OBSERVATORY-FIRST (Kris, 17 October 22:35 BST, wants acquisition managed through the Observatory): a) message state-of-play to prioritise getting the Observatory running and pass on the stock-take's overview as the acquisition requirements; keep this thread's work going. The stock-take's proposed image record comes back as a query. Reports to Kris in plain language (he was not following).
 
 Held: DOTFILES-UE-035 with chezmoi. Parked: ChatGPT territory keys to kebab-case names.
 
