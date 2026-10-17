@@ -845,3 +845,7 @@ Dispatched: harness chain quiet-gate-harness, quiet-style, restart-standard, har
 ## Decision 199 (2026-10-17T22:45:00Z)
 
 - WORKING-AREAS, settled - (Kris, 17 October 23:45 BST) "Yeah, working areas is fine. Staging is just a state that a piece of work can be in. It's definitely working areas, so we should make that the case. For example, when stuff's brought into a repository, it goes into the plus working area and it's staged. So I think that's where the two terms have got mixed up." Owner instruction for a bounded change: dispatched `working-areas`.
+
+## Decision 200 (2026-10-17T22:50:00Z)
+
+- WORK-STATES - (Kris, 17 October 23:50 BST) "Just a thought on this on the state machine for a piece of work. It's either with someone or it's been handed off to someone or we've agreed effectively that it's like on hold, effectively, that means either we're saying the work can be paused for now and we're working on something else or it's all the work is done, but we know there's going to be more to come into this, or we can say it's done, at which point that area is concluded. And that kind of maps very similar to the roadmap item statuses, but it's a higher level, right?" Ideation; added to work-model-rev's brief.
