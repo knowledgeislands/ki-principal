@@ -5,7 +5,7 @@ label: 'Knowledge Islands Model: knowledge-acquisition'
 role: coordination
 state: active
 created_at: 2026-10-08T08:35:00Z
-updated_at: 2026-10-17T22:37:00Z
+updated_at: 2026-10-17T22:45:00Z
 ---
 
 # knowledge-islands-model.knowledge-acquisition
@@ -14,9 +14,9 @@ updated_at: 2026-10-17T22:37:00Z
 
 Status: rest. 17 October, to 23:37 BST: the nine Acer photos are in acquire as originals (`66a1dce`, pushed) and the ZIP is retired. KB-ACQUIRE-006 (triage) now records the `sources-acquire/+/<source>/` drop inbox, OneDrive paths mirroring acquire's capture paths, and retirement of a drop once wholly in Git and pushed (`ff95822`, `3334aeb`, `a0e7efb`). ChatGPT image intake is self-serve from acquire's intake session (`ad58b72`: reusable ZIP request in CAPTURE-CHATGPT.md step 8, waiting-ZIP route in README); per Kris 23:45 BST, day-to-day intake runs there, not here. KI-HARNESS-OPS-005 accepted; KI-HARNESS-OPS-009 captured at Next. Slip: mirror-layout first pushed with --force-with-lease (own single commit, no harm); briefs now forbid it by name. Running: nothing. Queued: nothing. Waiting on state-of-play: PILOT-SEED and OBSERVATORY-FIRST.
 
-Open queries for Kris: HOLDING-RECORD-ADOPT (keep KB-ACQUIRE-006 in triage until the approach review, then adopt); HOLDING-RECORD-BIND (read-only check whether acquire can bind a sources store, chezmoi diff to Kris first); PILLAR-RETIRE (add one line to the Acquisition Process note: a downloaded drop may be deleted once wholly in Git and pushed; provider-side sources unchanged); PUSH-PRINCIPAL (push ki-principal main with state-of-play's 7835618 if checks pass).
+Open queries for Kris: none. Under PROCEED-DEFAULT (Kris, 23:40 BST) HOLDING-RECORD-ADOPT a), HOLDING-RECORD-BIND a) and PILLAR-RETIRE a) were taken; the Acquisition Process note gained the drop-retirement sentence (`a84567f`, on origin).
 
-Standing rules: FOLD-AUTHORITY; FOLD-TRIGGER; reports to Kris in plain language; a verified, pushed drop is retired as the last intake step (Kris, 23:40 BST).
+Standing rules: PROCEED-DEFAULT (act on the recommended course and report it; ask only where his rules require his word); FOLD-AUTHORITY; FOLD-TRIGGER; reports to Kris in plain language; a verified, pushed drop is retired as the last intake step (Kris, 23:40 BST).
 
 Held: KB-DOTFILES-UE-035 with chezmoi, review 21 October. Parked: ChatGPT territory keys to kebab-case names.
 
