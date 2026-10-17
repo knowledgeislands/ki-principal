@@ -13,6 +13,7 @@
 - IDEAS-ROOTING, acting on "Ideas start as Idea: bullets in the owning Project or Initiative note": wrote the rule into the `ki-work-roadmap` repository-roadmap standard's ideas section, its `SKILL.md` summary line and its source list's review entry, commit `903aac66`. `_IDEAS.md` now holds only ideas that no Project or Initiative owns. The skill has no generated surfaces to refresh.
 - Checks: `bun run test` passed; `bunx tsc --noEmit` passed; `ki repo audit --skill ki-work-roadmap` passed; `ki repo audit --skill ki-skills` gave no failures and two old refresh-cadence warnings, which are fleet findings this run did not cause; every commit went through the gate.
 - Pushed all five harness commits fast-forward. Nothing else was on top of origin, and no other session's commits were stacked beneath them.
+- Committed this report in ki-principal and pushed it fast-forward. Under ROUTINE, the push also carried two of the coordinating thread's decisions-log commits that were beneath it: `f8b750a`, which logs the handoff refinement, and `ac9edfb`, which logs the counsel preference.
 
 ## In Progress
 
