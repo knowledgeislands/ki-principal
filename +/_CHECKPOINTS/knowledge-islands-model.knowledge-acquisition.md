@@ -5,27 +5,24 @@ label: 'Knowledge Islands Model: knowledge-acquisition'
 role: coordination
 state: active
 created_at: 2026-10-08T08:35:00Z
-updated_at: 2026-10-17T21:41:00Z
+updated_at: 2026-10-17T21:45:00Z
 ---
 
 # knowledge-islands-model.knowledge-acquisition
 
 **Pick-up - mark 2026-10-15T14:59Z (15:59 BST)**
 
-Status: rest. 17 October: Kris answered all ten queries at 22:30 BST and OBSERVATORY-FIRST at 22:40 BST (decisions.md). Done: KI-PRINCIPAL-MOD-006 accepted (`37b5f55`); KB-ACQUIRE-005 seed-and-return item captured in acquire (`a52c881`, pushed); KI-PRINCIPAL-MOD-009 ADR follow-up captured (`424d95a`); stock-take reported (`stock-take.report.md`, kept: open queries); OBSERVATORY-FIRST and PILOT-SEED sent to the state-of-play inbox. Running: nothing. Queued: nothing. Waiting on state-of-play: PILOT-SEED (section 4 of the foundations-coherence report, for PILOT-GO) and OBSERVATORY-FIRST (cross-project priority).
+Status: busy. 17 October 22:50 BST: Kris answered HOLDING-RECORD, ACQ-STALE, BINARY-NEXT and SUCCESSOR-RECORD (decisions.md). Done: KB-ACQUIRE-006 "Image and video holding area" captured in acquire, triage (`011e350`, `5bb2836`, pushed); bridge parked pending a review of the whole approach, desktop ChatGPT download is the tactical route. Running: `successor` (accept KI-HARNESS-OPS-005, capture its follow-up at Next). Queued: `acq-stale` (drop the resize wording in acquire, draft the Acer ZIP request). Waiting on state-of-play: PILOT-SEED and OBSERVATORY-FIRST.
 
-Open queries for Kris (from stock-take; option a) recommended):
+Open queries for Kris: HOLDING-RECORD-ADOPT (leave KB-ACQUIRE-006 in triage until the approach review, then adopt); HOLDING-RECORD-BIND (check read-only whether acquire can bind a sources store, chezmoi diff to Kris first).
 
-- HOLDING-RECORD: approve an acquire record for an image and video holding area (bulk drops outside Git in a OneDrive source store, a receipt per batch in Git, chosen images up to about 2 MB promoted into Git, no video in Git, 90-day review). The record number is now KB-ACQUIRE-006, since KB-ACQUIRE-005 went to the seed loop.
-- ACQ-STALE: finish the nine Acer photos by ZIP handoff under the current rule and drop the old resize finish line everywhere.
-- BINARY-NEXT: park BINARY-HOME and BINARY-HOLD until the holding-area record is accepted, running the iPhone zero-build check first.
-- SUCCESSOR-RECORD: accept KI-HARNESS-OPS-005 as delivered, then capture one successor record in the harness, at Next, for its eight remaining steps.
-
-Standing rules from Kris's answers: FOLD-AUTHORITY (approval of a named fold-back proposal stands in for a record for an Emerging Concepts note, except a new note, a folder restructure or Admin/); FOLD-TRIGGER (fold back only on Kris's word; list tagged, unfolded captures at each mark; none yet). Reports to Kris in plain language.
+Standing rules: FOLD-AUTHORITY; FOLD-TRIGGER; reports to Kris in plain language.
 
 Held: KB-DOTFILES-UE-035 with chezmoi, review 21 October. Parked: ChatGPT territory keys to kebab-case names.
 
-Next steps: take Kris's answers to the four queries; launch PILOT-GO's seed pack (Sonnet, publish nothing) once state-of-play has copied the seed prompt; follow state-of-play's answer on the Observatory.
+Unpushed: ki-principal main is 11 commits ahead, including other sessions' (0060254 mac-studio-setup, fecd757 and later ways-of-working); Kris decides the push. `adr-followup.report.md` untracked with malformed frontmatter; review and delete at the next rest.
+
+Next steps: report successor and acq-stale; send Kris the Acer ZIP message; launch PILOT-GO's seed pack once state-of-play answers.
 
 Resume line: Resume Knowledge Islands Model: knowledge-acquisition under current ki-pmo and ki-delegation since 2026-10-15T14:59:00Z: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.
 
