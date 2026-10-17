@@ -175,14 +175,21 @@ launchd_items() {
   done
 }
 
+# Adobe labels loaded in one launchd domain. Only the services block counts: the disabled
+# services list keeps a label's override after its plist has gone.
+loaded_labels() {
+  launchctl print "$1" 2>/dev/null |
+    awk '/^\tservices = \{/ { on = 1; next } on && /^\t\}/ { exit } on' |
+    grep -ioE 'com\.adobe\.[a-z0-9._-]*|Adobe_Genuine[a-z_]*' | sort -u
+}
+
 leftovers() {
   section "What is left: apps, launchd items, helpers and processes"
   ls -d /Applications/Adobe* /Applications/Utilities/Adobe* 2>/dev/null
   launchd_items
   find /Library/PrivilegedHelperTools -maxdepth 1 -name 'com.adobe.*' 2>/dev/null
-  launchctl print system 2>/dev/null | grep -io 'com\.adobe\.[a-z0-9._-]*' | sort -u | sed 's/^/  loaded (system): /'
-  launchctl print "gui/$target_uid" 2>/dev/null | grep -io 'com\.adobe\.[a-z0-9._-]*' | sort -u |
-    sed 's/^/  loaded (user): /'
+  loaded_labels system | sed 's/^/  loaded (system): /'
+  loaded_labels "gui/$target_uid" | sed 's/^/  loaded (user): /'
   list_adobe_processes
   products apps | cut -f1,2,6 | sed 's/^/  recorded app: /'
   products components | cut -f1,2,6 | sed 's/^/  recorded component: /'
