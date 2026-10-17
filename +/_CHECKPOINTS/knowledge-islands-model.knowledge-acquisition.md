@@ -5,22 +5,22 @@ label: 'Knowledge Islands Model: knowledge-acquisition'
 role: coordination
 state: active
 created_at: 2026-10-08T08:35:00Z
-updated_at: 2026-10-17T21:44:00Z
+updated_at: 2026-10-17T22:37:00Z
 ---
 
 # knowledge-islands-model.knowledge-acquisition
 
 **Pick-up - mark 2026-10-15T14:59Z (15:59 BST)**
 
-Status: rest. 17 October: Kris's 22:50 BST answers delivered. KB-ACQUIRE-006 "Image and video holding area" captured in acquire, triage (`011e350`, `5bb2836`, pushed). KI-HARNESS-OPS-005 accepted done and KI-HARNESS-OPS-009 "Complete AI session acquisition" captured at Next (harness `bf227839`, `e0fbc5da`, `2008a8d7`, pushed). ACQ-STALE: no resize instruction remains in acquire, nothing to change; the Acer ZIP request message is drafted (in the 17 October summary; name `2026-10-13-acer-windows-11-performance-attachments.zip`, save to OneDrive `sources-acquire`, then tell acquire intake). Bridge parked pending a review of the whole approach. Running: nothing. Queued: nothing. Waiting on state-of-play: PILOT-SEED and OBSERVATORY-FIRST. Waiting on Kris: the Acer ZIP download.
+Status: rest. 17 October, to 23:37 BST: the nine Acer photos are in acquire as originals (`66a1dce`, pushed) and the ZIP is retired. KB-ACQUIRE-006 (triage) now records the `sources-acquire/+/<source>/` drop inbox, OneDrive paths mirroring acquire's capture paths, and retirement of a drop once wholly in Git and pushed (`ff95822`, `3334aeb`, `a0e7efb`). ChatGPT image intake is self-serve from acquire's intake session (`ad58b72`: reusable ZIP request in CAPTURE-CHATGPT.md step 8, waiting-ZIP route in README); per Kris 23:45 BST, day-to-day intake runs there, not here. KI-HARNESS-OPS-005 accepted; KI-HARNESS-OPS-009 captured at Next. Slip: mirror-layout first pushed with --force-with-lease (own single commit, no harm); briefs now forbid it by name. Running: nothing. Queued: nothing. Waiting on state-of-play: PILOT-SEED and OBSERVATORY-FIRST.
 
-Open queries for Kris: HOLDING-RECORD-ADOPT (keep KB-ACQUIRE-006 in triage until the approach review, then adopt); HOLDING-RECORD-BIND (check read-only whether acquire can bind a sources store, chezmoi diff to Kris first); PUSH-PRINCIPAL (push ki-principal main with other sessions' commits if checks pass).
+Open queries for Kris: HOLDING-RECORD-ADOPT (keep KB-ACQUIRE-006 in triage until the approach review, then adopt); HOLDING-RECORD-BIND (read-only check whether acquire can bind a sources store, chezmoi diff to Kris first); PILLAR-RETIRE (add one line to the Acquisition Process note: a downloaded drop may be deleted once wholly in Git and pushed; provider-side sources unchanged); PUSH-PRINCIPAL (push ki-principal main with state-of-play's 7835618 if checks pass).
 
-Standing rules: FOLD-AUTHORITY; FOLD-TRIGGER; reports to Kris in plain language. KI-PRINCIPAL-MOD-009 stays unlisted in the Project note (rule STREAM-9: records name their Project).
+Standing rules: FOLD-AUTHORITY; FOLD-TRIGGER; reports to Kris in plain language; a verified, pushed drop is retired as the last intake step (Kris, 23:40 BST).
 
 Held: KB-DOTFILES-UE-035 with chezmoi, review 21 October. Parked: ChatGPT territory keys to kebab-case names.
 
-Next steps: take Kris's answers; once the Acer ZIP lands, hand the nine-photo intake to acquire intake; launch PILOT-GO's seed pack once state-of-play answers; follow state-of-play on the Observatory.
+Next steps: take Kris's answers; follow state-of-play on the Observatory and PILOT-GO; move the thread on to the next acquisition work Kris names.
 
 Resume line: Resume Knowledge Islands Model: knowledge-acquisition under current ki-pmo and ki-delegation since 2026-10-15T14:59:00Z: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.
 
