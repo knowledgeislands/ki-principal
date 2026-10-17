@@ -11,7 +11,7 @@
 - I reworked the move and sync table and the three name sets; set a), "Sent and with", is recommended, with `with me` as the speech-safe receive word and `back to you` as the bare send. I also reworked the banner candidates. Form A is recommended: party glyphs with an arrow, `🤖 → 🧑 Sent to you`, so direction and target read at a glance.
 - I added the section "What the target buys later": agent-to-agent handoff, handoff between threads and to State of play, another person as a target, and how `thread.status` and `ki agent status` would show target and age.
 - The migration section is kept but marked held. STATES-WRITE is withdrawn, because THREAD-STATES-IDEATION says nothing goes into standards while ideating.
-- Both reports are committed in ki-principal by explicit path, with the outcome given below the reply block. No standard, skill, hook, style, record or checkpoint was changed.
+- Both reports committed in ki-principal as `c09e7be` by explicit path. The Markdown lint passed after one duplicate heading was fixed, and the KI repository audit passed with no failures. No standard, skill, hook, style, record or checkpoint was changed.
 
 ## In Progress
 
