@@ -5,16 +5,16 @@ label: 'KI > Model > ways of working'
 role: coordination
 state: active
 created_at: 2026-10-09T20:58:00Z
-updated_at: '2026-10-17T22:12:42Z'
+updated_at: '2026-10-17T22:58:00Z'
 ---
 
 # knowledge-islands-model.ways-of-working
 
 **Pick-up - mark 2026-10-17T21:34:13Z (22:34 BST)**
 
-- **Status:** busy: thread-states is running the thread-states design, with thread-states-rev queued behind it on Kris's THREAD-STATES-HANDOFF. The restart standard has landed in ki-pmo, ki-delegation and ki-checkpoint (ki-agentic-harness `0e4cdebd`, pushed); this checkpoint runs on it and READY is in the state-of-play Messages block. Kris answered all fifteen queries with option a) at 22:50 BST on 17 October (decisions log); no query is open.
+- **Status:** busy: work-model-hold is folding Kris's on-hold state (WORK-STATES, 17 October) into the [work-model report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/work-model.report.md); then its nine queries go to Kris as one set. thread-states, thread-states-rev, work-cascade, work-model and work-model-rev have finished. Working areas is applied (ki-agentic-harness `aa5d0b03`, ki-principal `4662b1e`, pushed).
 - **Resume:** `Resume KI > Model > ways of working from its checkpoint under current ki-pmo and ki-delegation since 2026-10-17T21:34:13Z: re-bootstrap, reconcile running agents with ki agent status, take stock, restart only what stopped, then banner.`
-- **Next steps, in order:** tell Kris READY is written, so the state-of-play thread writes each thread's FIRST-STEP line and hands out the resume lines; give the Summary with the thread-states queries when thread-states-rev reports; give Kris the Personal > SoP handoff from `~/.local/state/ki/agents/ways-of-working/personal-handoff.md` to relay (ACT-WORK). After the restart: the HARNESS-ACCEPT ki-accept sitting (AWAITING-REVIEW: present KI-HARNESS-GOV-195, -198, -203 and KI-HARNESS-OPS-005 to Kris as one group; Kris accepts), the SHAPE-AGREE migration (harness checker first, with ACT-NAMES), the ACT-WORK harness record, SYNC-GUARD's KI-HARNESS-GOV-189 amendment; the QUIET-HOOK decision a week after the quiet gates land. AREAS-DISPATCH waits on state-of-play's OBS-MERGE and NEW-AREAS.
+- **Next steps, in order:** give the Summary with the work-model queries WORK-MODEL, WORK-WORDS, WORK-THEME, WORK-REGULAR, WORK-HOME, DECISIONS-STRIKE, WORK-HISTORY, WORK-BANNER and WORK-SETTLE, with one reply block, when work-model-hold reports; at the next mark delete the thread-lifecycle, thread-states and work-cascade reports, whose queries work-model supersedes; after Kris answers, GDR-KI-PRINCIPAL-009, the Work Process Pillars note, the SHAPE-AGREE migration with the work model folded in, and the observatory contract. Parked: the Personal > SoP handoff for Kris to relay (`~/.local/state/ki/agents/ways-of-working/personal-handoff.md`, ACT-WORK); the HARNESS-ACCEPT sitting (KI-HARNESS-GOV-195, -198, -203 and KI-HARNESS-OPS-005 as one group); SYNC-GUARD's KI-HARNESS-GOV-189 amendment; QUIET-HOOK a week after the quiet gates; AREAS-DISPATCH waits on OBS-MERGE and NEW-AREAS.
 
 **Messages** - the receiving thread acts on each line, then removes it.
 
