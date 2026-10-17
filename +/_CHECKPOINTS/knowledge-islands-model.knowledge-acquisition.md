@@ -5,22 +5,27 @@ label: 'Knowledge Islands Model: knowledge-acquisition'
 role: coordination
 state: active
 created_at: 2026-10-08T08:35:00Z
-updated_at: 2026-10-17T21:38:00Z
+updated_at: 2026-10-17T21:41:00Z
 ---
 
 # knowledge-islands-model.knowledge-acquisition
 
 **Pick-up - mark 2026-10-15T14:59Z (15:59 BST)**
 
-Status: busy. Kris answered all ten queries at 22:30 BST on 17 October (decisions.md). mod-accept finished 22:33 BST: KI-PRINCIPAL-MOD-006 closed done (`37b5f55`, pushed). Running (run `knowledge-acquisition`, Sonnet): `adr-followup` (capture the ADR-KI-PRINCIPAL-001 staging-wording record), `acquire-loop` (one acquire roadmap item for the seed-and-return loop), `stock-take` (read-only acquisition overview, open-items list and image/video proposal). Queued: nothing. Waiting on state-of-play: PILOT-SEED, asked through its inbox at 2026-10-17T21:35:00Z, to copy section 4 of the foundations-coherence report into its thread folder; PILOT-GO launches then.
+Status: rest. 17 October: Kris answered all ten queries at 22:30 BST and OBSERVATORY-FIRST at 22:40 BST (decisions.md). Done: KI-PRINCIPAL-MOD-006 accepted (`37b5f55`); KB-ACQUIRE-005 seed-and-return item captured in acquire (`a52c881`, pushed); KI-PRINCIPAL-MOD-009 ADR follow-up captured (`424d95a`); stock-take reported (`stock-take.report.md`, kept: open queries); OBSERVATORY-FIRST and PILOT-SEED sent to the state-of-play inbox. Running: nothing. Queued: nothing. Waiting on state-of-play: PILOT-SEED (section 4 of the foundations-coherence report, for PILOT-GO) and OBSERVATORY-FIRST (cross-project priority).
 
-Standing rules from Kris's answers: FOLD-AUTHORITY (approval of a named fold-back proposal stands in for a record for an Emerging Concepts note, except a new note, a folder restructure or Admin/); FOLD-TRIGGER (fold back only on Kris's word; list tagged, unfolded captures at each mark).
+Open queries for Kris (from stock-take; option a) recommended):
 
-Open queries: OBSERVATORY-FIRST (Kris, 17 October 22:35 BST, wants acquisition managed through the Observatory): a) message state-of-play to prioritise getting the Observatory running and pass on the stock-take's overview as the acquisition requirements; keep this thread's work going. The stock-take's proposed image record comes back as a query. Reports to Kris in plain language (he was not following).
+- HOLDING-RECORD: approve an acquire record for an image and video holding area (bulk drops outside Git in a OneDrive source store, a receipt per batch in Git, chosen images up to about 2 MB promoted into Git, no video in Git, 90-day review). The record number is now KB-ACQUIRE-006, since KB-ACQUIRE-005 went to the seed loop.
+- ACQ-STALE: finish the nine Acer photos by ZIP handoff under the current rule and drop the old resize finish line everywhere.
+- BINARY-NEXT: park BINARY-HOME and BINARY-HOLD until the holding-area record is accepted, running the iPhone zero-build check first.
+- SUCCESSOR-RECORD: accept KI-HARNESS-OPS-005 as delivered, then capture one successor record in the harness, at Next, for its eight remaining steps.
 
-Held: DOTFILES-UE-035 with chezmoi. Parked: ChatGPT territory keys to kebab-case names.
+Standing rules from Kris's answers: FOLD-AUTHORITY (approval of a named fold-back proposal stands in for a record for an Emerging Concepts note, except a new note, a folder restructure or Admin/); FOLD-TRIGGER (fold back only on Kris's word; list tagged, unfolded captures at each mark; none yet). Reports to Kris in plain language.
 
-Next steps: report each agent's outcome; launch PILOT-GO's seed pack (Sonnet, publish nothing) once state-of-play has copied the seed prompt; put the stock-take's list and image proposal to Kris.
+Held: KB-DOTFILES-UE-035 with chezmoi, review 21 October. Parked: ChatGPT territory keys to kebab-case names.
+
+Next steps: take Kris's answers to the four queries; launch PILOT-GO's seed pack (Sonnet, publish nothing) once state-of-play has copied the seed prompt; follow state-of-play's answer on the Observatory.
 
 Resume line: Resume Knowledge Islands Model: knowledge-acquisition under current ki-pmo and ki-delegation since 2026-10-15T14:59:00Z: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.
 
