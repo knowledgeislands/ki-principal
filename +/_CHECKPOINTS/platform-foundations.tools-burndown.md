@@ -4,7 +4,7 @@ thread: platform-foundations.tools-burndown
 label: 'Fnd: tools-burndown'
 state: rest
 created_at: 2026-10-16T00:05:00Z
-updated_at: 2026-10-17T17:20:00Z
+updated_at: 2026-10-17T21:50:00Z
 ---
 
 # platform-foundations.tools-burndown
@@ -15,9 +15,9 @@ updated_at: 2026-10-17T17:20:00Z
 
 ## Pick-up
 
-- Status: rest. Nothing running or queued; ten owner queries open (below). RESTART-ORDER: launch nothing until Ways of working reports ready to Kris and Master: state-of-play.
+- Status: rest. Nothing running or queued; ten owner queries open (below). RESTART-ORDER still holds the tools-ki rebase and push.
 - Resume line: `Resume Fnd: tools-burndown under current ki-pmo and ki-delegation since 2026-10-16T00:05:00Z: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.`
-- Next steps, once RESTART-ORDER clears: (1) on PUSH-REBASE-CODE, one tools-ki run settles the stopped rebase and replays the 31 local commits onto origin/main, checks KI-TOOL-KI-CLI-139 frontmatter, rewrites its two "Decision 55" citations by Kris's words and date, updates KI-TOOL-KI-CLI-137 to cite KI-HARNESS-GOV-200, then pushes; (2) on MGIT-DIVERGE, one tools-mgit run reconciles the two KI-TOOL-MGIT-CLI-017 records and captures MGIT-OUTPUT and MGIT-ESCAPE records, push held for MGIT-ACCEPT; (3) present KI-TOOL-KI-CLI-126, -130, -133, -141 and KI-TOOL-MGIT-CLI-017 to Kris as one ki-accept group (AWAITING-REVIEW), with -123, -127, -135 and -138 after; (4) move the events.seen marker past event 21; (5) plan and deliver -131 then -136; (6) thread-folder tidy under THREADS-CLEAR and PMO-7-BACKLOG. Push ki-principal at each resting point.
+- Next steps: (1) on Kris's answers, the mgit records run (ESTATE-HOME, ESCAPE-NAMES, OVERVIEW-VERB, MGIT-RECORDS, MGIT-DRAFT, MGIT-OUTPUT-ROUTE) and the low-findings record (MGIT-REVIEW-LOWS); (2) Kris ki-accepts KI-TOOL-MGIT-CLI-017, then push tools-mgit (6 local commits) after a fetch; (3) RIG-TARGET-SPEED-ACCEPT review, then Kris ki-accepts KI-TOOL-RIG-CORE-060, then push tools-rig (4 local commits); (4) once RESTART-ORDER clears, PUSH-REBASE-CODE as Kris answered 17 October 22:25 BST, carrying TMP-HOME into KI-TOOL-KI-CLI-137; then the tools-ki ki-accept group, events.seen past 21, -131 then -136; (5) DESK-KIT-SOP line to state-of-play if answered a); (6) thread-folder tidy of the older reports under THREADS-CLEAR and PMO-7-BACKLOG. Push ki-principal at each resting point.
 
 ## Objective
 
@@ -25,7 +25,7 @@ Burn down the open roadmap work of [tools-burndown](/Users/krisbrown/workspaces/
 
 ## Current state
 
-- Running: nothing. Queued: nothing. Held by RESTART-ORDER.
+- Running: nothing. Queued: nothing. tools-ki rebase and push held by RESTART-ORDER.
 - Mark: none yet; thread opened 2026-10-16T00:05:00Z.
 - tools-ki: a rebase onto origin/main `e9770dc6` started 17 October 01:16 BST, not by this thread, stopped at step 3 of 31 on a conflict in KI-TOOL-KI-CLI-139; local main 31 ahead, 9 behind. Installed `ki` runs from this working tree.
 - tools-mgit: 4 local commits (KI-TOOL-MGIT-CLI-017, unified members) and 2 on origin from another session that reserve and capture their own KI-TOOL-MGIT-CLI-017.
@@ -42,12 +42,13 @@ Burn down the open roadmap work of [tools-burndown](/Users/krisbrown/workspaces/
 
 ## Open queries
 
-- PUSH-REBASE-CODE: now covers the stopped 01:16 BST rebase and 31 commits; recommended a).
-- MGIT-DIVERGE: rebase tools-mgit onto origin, merging the two KI-TOOL-MGIT-CLI-017 records into one; recommended a).
-- BRANCH-PRUNE: delete tools-ki origin paperclip KIS-46 branch (already on main as 3ec53d54), keep granola branch for KI-TOOL-KI-CLI-128; recommended a).
-- MGIT-ACCEPT: independent review of KI-TOOL-MGIT-CLI-017, then Kris accepts; recommended a).
-- CONSUMER-MIGRATE: dot_mgit.toml waits for an mgit release that reads the members form; recommended a).
-- NOTE1A-HEADING: harness fixes NOTE-1a versus the ki-pmo report heading once; recommended a).
-- DESK-KIT-ROUTE: state-of-play passes desk-kit its CI-RED-PRINCIPAL line; recommended a).
-- TMP-HOME: $TMPDIR/ki-agents/<run>/<name>/ for KI-TOOL-KI-CLI-137; recommended a).
-- DIGESTS-SCAFFOLD: keep -/_DIGESTS/ as the declared scaffold; recommended a).
+- ESTATE-HOME: mgit owns `mgit overview` with --json; KI-TOOL-KI-CLI-140 reads it; recommended a).
+- ESCAPE-NAMES: `--git`/`-G` and `--raw`/`-R`, retire `-B/--bare`; recommended a).
+- OVERVIEW-VERB: new verb `mgit overview`; recommended a).
+- MGIT-RECORDS: one tools-mgit run rewords CLI-018/019, captures sync and overview records, hands off -140; recommended a).
+- MGIT-DRAFT: keep KI-TOOL-MGIT-CLI-018 and -019 as triage until the MGIT-RECORDS run; recommended a).
+- MGIT-OUTPUT-ROUTE: keep mgit pure Bash, borrow Git Almanac's separation, settle by Decision Record at planning; recommended a).
+- MGIT-REVIEW-LOWS: accept KI-TOOL-MGIT-CLI-017 as it stands, capture L1-L4 as one triage record; recommended a).
+- RIG-TARGET-SPEED-ACCEPT: independent review of KI-TOOL-RIG-CORE-060, then Kris ki-accepts, then push tools-rig; recommended a).
+- RIG-TARGET-SPEED-LOAD: leave the ~3.6 s configuration load as it is; recommended a).
+- DESK-KIT-SOP: state-of-play drops the stale desk-kit lines at its next mark; recommended a).
