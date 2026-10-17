@@ -1,5 +1,5 @@
 ---
-areas: { ECO: 14, EXT: 3, GOV: 33, MOD: 8, OPS: 13 }
+areas: { ECO: 14, EXT: 3, GOV: 33, MOD: 9, OPS: 13 }
 ---
 
 # Roadmap issue ledger
@@ -9,5 +9,5 @@ This ledger reserves fixed issuing-area namespaces. Allocate the next work item 
 - `ECO` reserves through `014`.
 - `EXT` reserves through `003`.
 - `GOV` reserves through `033`.
-- `MOD` reserves through `008`.
+- `MOD` reserves through `009`.
 - `OPS` reserves through `013`.
