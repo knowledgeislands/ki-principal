@@ -972,3 +972,9 @@ Taken as ideation; counsel given as RUN-SHAPE, nothing acted on. migrate-phase1 
 Kris, as received: "keep me updated"
 
 Taken as: carry on with timed updates while migrate-phase1 runs; RUN-SHAPE stays open.
+
+## 2026-10-18 02:46 BST - DRAIN-CHECK (question)
+
+Kris, as received: "so are you fully drained and waiting to resume when told?"
+
+Taken as a question, not a hold instruction: answered that this thread is not drained, because it is the one running the migration (migrate-phase1 live); asked whether Kris meant another thread or wants this one held.
