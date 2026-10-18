@@ -1085,3 +1085,9 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 - **OBS-NOW:** "Restart the Observatory thread now under the single Project, with the Sessions and threads Instrument as its first record, applying ways of working's standards when they land; give me its resume line."
 - **PILOT-SEED:** "At the next state-of-play session with the terra checkout, after a fetch, copy section 4 of foundations-coherence.report.md into +/_THREADS/state-of-play/pilot-seed.md with a provenance line, push it and tell knowledge acquisition through its Messages block."
 - Dispatched OBS-OWNER, OBS-SLICE and OBS-NOW as `obs-fold`; PILOT-SEED held for a session with the terra checkout.
+
+## 2026-10-18 01:45 BST - WRAP-UP
+
+- Acted on ways of working's 17 October READY as `first-steps`: each restartable thread has a RUN-HYGIENE FIRST-STEP line; READY removed.
+- Kris, about 01:40 BST: "The observatory thread has been resumed. I think I also have the tools burned down". Knowledge acquisition's resume line given, recommended next for the dispatch handover.
+- **WRAP-UP:** "We're going to do some quite big updates for "ways of working". So I think it's probably a good idea for you to wrap up any outstanding points you've got and make sure that you've persisted everything into the checkpoints and the threads."
