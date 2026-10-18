@@ -321,3 +321,15 @@
 ## Decision 79 (2026-10-15T14:59:00Z)
 
 - 2026-10-15, Kris: DRAIN CHECK - 'A drain is a mark plus stopping all work, so that the thread can be archived on terra and resumed on sol from the repository alone.' Mark struck at 2026-10-15T14:59Z; checkpoint state set to drained, with the open queries, held, parked and waiting-on items and the next step parked in it.
+
+## Decision 80 (2026-10-16T20:58:17Z)
+
+home: +/_CHECKPOINTS/rig.chezmoi.md
+
+- Resume Rig: chezmoi on sol from its checkpoint under current ki-pmo and ki-delegation since 2026-10-15T14:59Z: re-bootstrap, read the parked queries, take stock, restart authorised work, then banner.
+
+## Decision 81 (2026-10-18T01:27:32Z)
+
+home: +/_CHECKPOINTS/rig.chezmoi.md
+
+- We're going to do some quite big updates for "ways of working". So I think it's probably a good idea for you to wrap up any outstanding points you've got and make sure that you've persisted everything into the checkpoints and the threads.
