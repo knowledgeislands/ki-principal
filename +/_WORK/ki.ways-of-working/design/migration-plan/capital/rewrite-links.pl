@@ -67,14 +67,19 @@ sub cited_path {
   return $new eq '' ? $whole : "$lead$new";
 }
 
-for my $move (@moves) {
-  my $pattern = quotemeta $move->[0];
-  $text =~ s{(ki-principal/|(?<=[`"'\s(]))($pattern(?:/[^\s`"')>\]]*[^\s`"')>\].,:;])?/?)(?=[`"'\s)>\]#:,.]|$)}{ cited_path($&, $1, $2) }gem;
+# A MIGRATED line records where its work file came from, so it keeps the old path.
+my @lines = split /(?<=\n)/, $text;
+for my $line (@lines) {
+  next if $line =~ /MIGRATED - this (?:file|folder) was/;
+  for my $move (@moves) {
+    my $pattern = quotemeta $move->[0];
+    $line =~ s{(ki-principal/|(?<=[`"'\s(]))($pattern(?:/[^\s`"')>\]]*[^\s`"')>\].,:;])?/?)(?=[`"'\s)>\]#:,.]|$)}{ cited_path($&, $1, $2) }gem;
+  }
+  for my $stem (sort { length $b <=> length $a } keys %ids) {
+    my $pattern = quotemeta $stem;
+    $line =~ s{`$pattern`}{`$ids{$stem}`}g;
+  }
 }
-
-for my $stem (sort { length $b <=> length $a } keys %ids) {
-  my $pattern = quotemeta $stem;
-  $text =~ s{`$pattern`}{`$ids{$stem}`}g;
-}
+$text = join q(), @lines;
 
 print $text;

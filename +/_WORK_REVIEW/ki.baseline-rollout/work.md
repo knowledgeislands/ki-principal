@@ -32,7 +32,7 @@ Resume line: `Resume Fnd: baseline-rollout on sol from its checkpoint under curr
 
 ## Messages
 
-- MIGRATED - this file was `+/_WORK_REVIEW/ki.baseline-rollout/work.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
+- MIGRATED - this file was `+/_CHECKPOINTS/platform-foundations.baseline-rollout.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
 
 ## Parked
 

@@ -43,7 +43,7 @@ created_at: 2026-10-06T21:07:00Z
 
 ## Messages
 
-- MIGRATED - this file was `+/_WORK/ki/work.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
+- MIGRATED - this file was `+/_CHECKPOINTS/_state-of-play.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
 
 ## Parked
 

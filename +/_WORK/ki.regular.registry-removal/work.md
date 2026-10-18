@@ -33,7 +33,7 @@ Resume registry removal from `+/_WORK/ki.regular.registry-removal/work.md` on so
 
 ## Messages
 
-- MIGRATED - this file was `+/_WORK/ki.regular.registry-removal/work.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
+- MIGRATED - this file was `+/_CHECKPOINTS/registry-removal.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
 
 ## Parked
 

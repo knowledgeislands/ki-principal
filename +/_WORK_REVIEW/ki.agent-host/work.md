@@ -33,7 +33,7 @@ On sol: re-bootstrap from this checkpoint, then wait on Kris for CLI-133-DELIVER
 
 ## Messages
 
-- MIGRATED - this file was `+/_WORK_REVIEW/ki.agent-host/work.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
+- MIGRATED - this file was `+/_CHECKPOINTS/techne.agent-host.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
 
 ## Parked
 

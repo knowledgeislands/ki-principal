@@ -54,7 +54,7 @@ Then reconcile gate repairs and tested restore evidence before FW-DECLARE-NOW so
 
 ## Messages
 
-- MIGRATED - this file was `+/_WORK/ki.chezmoi/work.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
+- MIGRATED - this file was `+/_CHECKPOINTS/rig.chezmoi.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
 
 ## Parked
 
