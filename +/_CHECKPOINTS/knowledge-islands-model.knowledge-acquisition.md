@@ -26,6 +26,8 @@ Resume line: Resume Knowledge Islands Model: knowledge-acquisition under current
 
 **Messages from Master: state-of-play** - the receiving thread acts on each line, then removes it.
 
+- 2026-10-18 · DISPATCH-HANDOVER · Master: state-of-play, on Kris's handover of 18 October from Personal > SoP: "this is something that we need to bring over into knowledge acquisition on another project". Personal has retired Acquire > Dispatch; four items (ChatGPT exports refresh, MS3 receipt questions, ChatGPT Personal README routing, stale acquire pointers) and the dispatch Activity come to this Project. No item is approved for pulling, provider action or cleanup until this thread decides; fetch Personal and acquire first, as this host does not yet show the retirements. MS3-SPLIT waits on Kris · Kind: handover · detail: [handover](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/state-of-play/personal-acquire-handover.md), [routing report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/state-of-play/dispatch-handover.report.md)
+
 ## Objective
 
 The provider-neutral acquisition lifecycle is documented in one Pillars note, AI sessions are acquired into owning repositories with verified retirement of the source, and the browser-runtime and WhatsApp spool questions are settled ([knowledge-acquisition](../../Streams/Projects/knowledge-acquisition.md), Initiative [knowledge-islands-model](../../Streams/Initiatives/knowledge-islands-model/knowledge-islands-model.md)).
