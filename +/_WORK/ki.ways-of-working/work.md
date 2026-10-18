@@ -68,6 +68,7 @@ Then:
 
 ## Messages
 
+- COORD-RENAME-HANDOFF - from coordination-rename, 18 October: `ki-pmo` is now `ki-coordination` and `ki-pmo-design` is `ki-work-design`, with no alias ([KI-HARNESS-GOV-217](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-217-coordination-and-work-design-renames.md)). Outside Knowledge Islands, these still declare `[skills.ki-pmo]` and stop resolving under the local `ki` until changed: the `.ki.toml` of er-principal, hnr-principal, legal-principal, si-principal, tmx-principal, va-principal and personal-principal. The chezmoi source (`dot_config/ki/config.toml`, which also declares `[skills.ki-pmo-design]`; `tests/ki-config-skills.test.mjs`; `dot_claude/private_communication.md` and `private_delegation.md.tmpl`; `dot_codex/private_AGENTS.md.tmpl`) needs the same rename and a reviewed `chezmoi apply`. Route each to its territory's owner session.
 - MIGRATED - this file was `+/_CHECKPOINTS/knowledge-islands-model.ways-of-working.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
 
 ## Parked
