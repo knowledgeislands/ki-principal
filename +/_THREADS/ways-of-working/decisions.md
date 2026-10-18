@@ -932,3 +932,13 @@ Taken as: RENAME-KI closed - "rename KI" meant the `ki agent` command. WORKER-CL
 Kris, as received, with a screenshot of the Claude Code session list (Acquire > intake (sol), Chezmoi > misc (sol), then under ki-principal: KI > Model > ways of working, KI > Model > ports, KI > SoP, KI > Rig > mac studio setup, KI > Model > observatory, KI > Fnd > tools burndown): "This is how it looks for me at the minute."
 
 Taken as: context for how titles read today. Raised TITLE-THEME: whether session titles keep the theme as display text once ids drop it under WORK-THEME.
+
+## 2026-10-18 02:01 BST - TIDY-AND-PLAN
+
+Kris, as received: "yeah, I was thinking similar about `ki-pmo`
+
+I think once we've got this ways of working all fully bottomed out, we can do a bit of an audit of some of the skills, right? But I'd really like to get this to the end.
+
+Can you make sure that everything that you're doing is committed and pushed, and also you've tied up for a few things? Also, when are we planning to do the rollout to move from the threads and checkpoints into this new work structure and a review of all the items that are in it? Also, the same whenever we're going to apply the changes to initiatives and the streams to become themes."
+
+Taken as: ki-pmo's name may also no longer fit (with ki-checkpoint and ki agent); a skills audit follows once the work model is finished; tidy the thread folder, confirm everything is committed and pushed, and say when the migration moves checkpoints and threads into +/_WORK with a review of each item, and when Streams/Initiatives becomes Streams/Themes.
