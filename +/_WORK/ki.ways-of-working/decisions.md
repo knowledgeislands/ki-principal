@@ -1256,3 +1256,12 @@ Read back as taken (speech-to-text: "Mgate"/"MGear"/"MD Sync" = mgit / mgit sync
 - MGIT-SYNC-PRECHECK (new question) - after a fetch, can sync tell whether a merge would conflict without trying it? Thread answer: yes, `git merge-tree --write-tree` (Git 2.38+) computes the merge in memory and reports conflicts without touching the worktree. Captured as an idea record for diverged branches.
 - TEST-FATAL a) - keep the fix, and add the `|| false` rule for every Bats suite to ki-repo-tools.
 - GOV-206-FORM - not yet answered.
+
+## 2026-10-18 BST - owner answers (typed)
+
+> GOV-206-FORM - yes MGIT-FLAGS - yes, I recommend that we check in dotfiles for any `mgit -B` use and it changes to `mgit -R`, can look across any repos too, and then migrate that.
+
+Read back as taken:
+
+- GOV-206-FORM a) - KI-HARNESS-GOV-206 stays closed as merged into KI-HARNESS-GOV-210.
+- MGIT-FLAGS - confirmed: remove the deprecated -B now, keep -R and -G, -G temporary until -B returns as the bypass-to-Git flag. First migrate every `mgit -B` use in the chezmoi source and across any repositories to `mgit -R` (excluding ki-design and apps-knowledgeislands.info, which other sessions own), then remove -B. Chezmoi source is committed, not applied: `chezmoi apply` waits for Kris's review of `chezmoi diff`.
