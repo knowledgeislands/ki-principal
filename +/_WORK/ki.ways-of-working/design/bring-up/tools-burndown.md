@@ -170,7 +170,7 @@ From the checkpoint's open queries and next steps, unchanged by the migration ex
 - **The tools-ki rebase.** Kris is looking at the stuck rebase (REBASE-LOOK, 18 October). PUSH-REBASE-CODE, which carries TMP-HOME and the state tooling into [KI-TOOL-KI-CLI-137 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/a22214ee581b73a1f395da88f9a118ad89814bb9/docs/roadmap/KI-TOOL-KI-CLI-137-agent-run-tmp-home.md), depends on it.
 - **TOOLS-RELEASE.** The v0.10.6 cut may be overtaken by the one release phase 2 cuts under RUN-SHAPE; put it back to Kris as superseded, recommending no separate cut.
 - **One tools-ki writer at a time.** While phase 2 runs in `tools-ki`, this work launches nothing there.
-- MGIT-PLAN, MGIT-REVIEW-LOWS, RIG-TARGET-SPEED-ACCEPT, RIG-TARGET-SPEED-LOAD, DESK-KIT-SOP and WRAP-NOW, as parked; [KI-TOOL-MGIT-CLI-017](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-017-unified-external-members.md) and [KI-TOOL-RIG-CORE-060](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-060-single-target-operation-speed.md) awaiting Kris's acceptance.
+- MGIT-PLAN, MGIT-REVIEW-LOWS, RIG-TARGET-SPEED-ACCEPT, RIG-TARGET-SPEED-LOAD, DESK-KIT-SOP and WRAP-NOW, as parked; [KI-TOOL-MGIT-CLI-017 (pruned)](https://github.com/knowledgeislands/tools-mgit/blob/af6e677/docs/roadmap/KI-TOOL-MGIT-CLI-017-unified-external-members.md) and [KI-TOOL-RIG-CORE-060](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-060-single-target-operation-speed.md) awaiting Kris's acceptance.
 - The thread-folder tidy under THREADS-CLEAR and PMO-7-BACKLOG is replaced by the work folder's prune at each mark.
 
 ## 4. Restart prompt

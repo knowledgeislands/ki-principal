@@ -12,7 +12,7 @@
   - The tests were written first. The record also updates the linking rule in the standard, the COORD-7 description and the generated rubric.
 - SCR-11 in `ki-engineering` now accepts `bunx lint-staged --quiet || exit 1` as the hook's first line, and CONFORM keeps that choice (commit `0a349e4e`, ki-agentic-harness). Tests were written first, and the standard says this in one sentence. The harness hook, which already used `--quiet`, now passes SCR-11.
 - ki-principal's pre-commit hook has `--quiet` back, undoing `12ce215` (commit `6b6eb13`). Locally, `ki repo audit --skill ki-engineering` passes, SCR-11 included.
-- Checks: `bun run test` passed (1260 tests). `bunx tsc --noEmit` passed. Both rubrics are in sync. The `ki-coordination`, `ki-skills` and `ki-engineering` audits pass in the harness. `ki-work-roadmap` fails only on [KI-HARNESS-GOV-210](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-210-work-model-write-in.md)'s Review section, which existed before this run.
+- Checks: `bun run test` passed (1260 tests). `bunx tsc --noEmit` passed. Both rubrics are in sync. The `ki-coordination`, `ki-skills` and `ki-engineering` audits pass in the harness. `ki-work-roadmap` fails only on [KI-HARNESS-GOV-210 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/08468196/docs/roadmap/KI-HARNESS-GOV-210-work-model-write-in.md)'s Review section, which existed before this run.
 - COORD-7 in ki-principal on this machine:
   - No `misshapen` findings.
   - 8 `missing` findings, all real. They are pruned records in other checkouts on this machine, linked from reports in the ki.chezmoi, ki.mac-studio-setup and ki.tools-burndown folders.
