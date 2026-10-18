@@ -1020,3 +1020,9 @@ Taken as: the thread keeps delegating every unit; each run prefers mechanical co
 Kris, as received: "well we will do the skills audit too"
 
 Taken as: the skills audit is part of this thread's plan in the tools-down window, not a later project. Asked where it falls (AUDIT-WHEN): recommended after the check pass and before the other territories, so they migrate once onto the final skill names.
+
+## 2026-10-18 02:50 BST - AUDIT-WHEN (answered)
+
+Kris, as selected: "Before other territories (Recommended)".
+
+Taken as the order: Knowledge Islands done, tools in line, check pass, skills audit, then other territories, then the tolerance window closes.
