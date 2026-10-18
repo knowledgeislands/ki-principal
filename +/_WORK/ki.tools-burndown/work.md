@@ -6,8 +6,8 @@ project: tools-burndown
 theme: foundations
 worker: agent
 supervisor: owner
-state: with-worker
-since: 2026-10-18T19:29:22Z
+state: handoff-to-supervisor
+since: 2026-10-18T19:41:33Z
 received: 2026-10-18T19:21:29Z
 beat: null
 created_at: 2026-10-16T00:05:00Z
@@ -17,15 +17,12 @@ created_at: 2026-10-16T00:05:00Z
 
 ## Next steps
 
-- Mark: 2026-10-18T19:21Z. Sent to Kris at 2026-10-18T19:29:22Z with TKI-PRUNE-LINKS, MGIT-PRUNE-PIN, TOOLS-PUSH and UNCLEAR-REPORTS open. Run reports live at the packet path, ~/.local/state/ki/agents/tools-burndown/<name>.report.md, not in this folder; briefs no longer name a report path.
-- (1) TKI-PRUNE-LINKS: free and prune the 17 Done tools-ki records. KI-TOOL-KI-CLI-146 stays held under QUIET-146.
-- (2) MGIT-PRUNE-PIN: pin the last three local links, then prune KI-TOOL-MGIT-CLI-020, -021 and -022.
-- (3) TOOLS-PUSH: tools-ki (5 commits to a22214ee), tools-rig (3 to 7ba7513) and tools-mgit (e91c008) wait for Kris's word.
-- (4) After tki: the KI_QUIET triage record (KI-QUIET); events.seen past 21; then KI-TOOL-KI-CLI-131 and -136.
-- (5) KI-TOOL-KI-CLI-139's "Decision 55" citations, once the decisions move settles (source: hnr-principal 5g-emerge-phase3 decisions, SRC-TOOLING, 16 October).
-- (6) AUDIT-TIDY remainder: link the record identifiers COORD-7 flags in the reports that stay, after UNCLEAR-REPORTS settles which stay.
-- (7) ROADMAP-DIAGNOSTICS: runs diag-personal, diag-rigsite and diag-er-legal fix the estate roadmap overview's diagnostics and warnings at source, committed locally.
-- (8) All recommendations of the 20:29 Summary taken at 20:31 BST: tki (pin, prune, push tools-ki) and mgit (prune, push tools-mgit and tools-rig) relaunched; seven spent reports deleted.
+- Mark: 2026-10-18T19:21Z. Sent to Kris at 2026-10-18T19:41:33Z with RIG-SITE-001-SHAPE, LGL-PRIORITY, CANDIDATE-FIELD and DIAG-PUSH open. Run reports live at the packet path, ~/.local/state/ki/agents/tools-burndown/<name>.report.md.
+- Done since the mark: 17 Done tools-ki records and KI-TOOL-MGIT-CLI-020 to -022 pruned and pushed; tools-ki, tools-rig, tools-mgit and ki-agentic-harness pushed; roadmap diagnostics fixed in personal-principal (cd5804d0), apps-rig.midnight.ninja (b131840), er-principal (be0c4cc) and legal-principal (b67076fa), all local.
+- (1) DIAG-PUSH, CANDIDATE-FIELD, LGL-PRIORITY and RIG-SITE-001-SHAPE as Kris answers.
+- (2) KI-TOOL-KI-CLI-146 stays held under QUIET-146; then the KI_QUIET triage record (KI-QUIET); events.seen past 21; then KI-TOOL-KI-CLI-131 and -136.
+- (3) KI-TOOL-KI-CLI-139's "Decision 55" citations, once the decisions move settles (source: hnr-principal 5g-emerge-phase3 decisions, SRC-TOOLING, 16 October).
+- (4) Hand the ki-coordination COORD-1 rubric error ("audit outcome 0 uses an undeclared level") to ki-agentic-harness.
 
 ## Messages
 
