@@ -235,3 +235,7 @@ Read back as taken:
 - "any work that you've done is good": tonight's tools-ki merge, tools-mgit and tools-rig pushes stand.
 - DESK-KIT-SOP: a), state-of-play drops the desk-kit lines.
 - WRAP-NOW: hold now; no coding changes; nothing launched.
+
+## 2026-10-18 04:00 BST - WOW-HANDOFF
+
+Kris: "give me a sort of handoff prompt of where you are at ... I can give it to the ways of working thread who's going to be making the essential changes ... they can work around whatever you're planning to do or make the changes and then when they're finished hand off the rest back to you and give me a prompt to give to you". Read back: the thread stays on hold; Ways of working receives a handoff prompt through Kris and returns a resume prompt when its changes land.
