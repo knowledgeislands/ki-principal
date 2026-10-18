@@ -254,3 +254,7 @@ Kris resumed the work from its work file at 18:08 BST. Acted on the Messages, FI
 ## 2026-10-18 18:15 BST - MGIT-ACCEPT-BUSY (coordinator)
 
 mgit-accept stopped because another session is active in tools-mgit, with `tests/mgit.bats` uncommitted and c76b4d5 committed at 18:10. Coordinator took a): relaunch the prune after that session finishes, pruning only KI-TOOL-MGIT-CLI-020, -021 and -022 and keeping -017, -018 and -019. tools-git-almanac had nothing to accept or prune. The listing shows the mgit plan already delivered (KI-TOOL-MGIT-CLI-018 to -022 and -025), so MGIT-PLAN and MGIT-REVIEW-LOWS look overtaken; this goes to Kris to confirm.
+
+## 2026-10-18 18:20 BST - rig-accept received
+
+KI-TOOL-RIG-CORE-060 had already been accepted by Ways of working's rig-review run (`92d2d27`), so RIG-TARGET-SPEED-ACCEPT is closed by that run. Its deletion went to origin inside another session's capture commit `3a33d51` rather than a prune-only commit (PRUNE-SWEPT, with Kris).
