@@ -1407,3 +1407,9 @@ Read back:
 > Stopped: Sol's migration did not meet the required checks. Version: currently v0.11.1. The earlier migration ran under the previously authorised development build. Paths: both remembered paths migrated unchanged to locals.toml. Before/after evidence is in the report. Checks: doctor passed before and after. Diagnostics retains one legacy-config warning. Active harness bindings stayed unchanged; on/off verification remains incomplete. Failure: bootstrap reformatted the territories array in config.toml. Parsed values match, but the file was not left untouched. Terra: no verified completion evidence found. Chezmoi source removal and apply remain held. Nothing was pushed. The latest instruction is recorded but uncommitted because existing staged work prevented a safe isolated commit.
 
 Read back: information, no decision. The ki.chezmoi work stopped the KI-TOOL-KI-CLI-143 migration on Sol because `ki` bootstrap rewrote the formatting of `config.toml` (values unchanged). Terra has no verified evidence. The chezmoi apply stays held. Raised as query SOL-CONFIG-REFORMAT; nothing launched until Kris answers.
+
+## 2026-10-18 11:01 BST - owner answers SOL-CONFIG-REFORMAT; asks for a Summary
+
+> Proceed as you think, please. I agree with your recommendations. Can you tell me what's going on at the minute? What's your currently processed work? What's changed since the last mark? What's next? Any queries that you have.
+
+Read back: SOL-CONFIG-REFORMAT a) - a tools-ki fix, folded into KI-TOOL-KI-CLI-143, so `ki` never rewrites `config.toml` when nothing in it changes, released in v0.11.2; then the ki.chezmoi work re-runs Sol and does a verified Terra run on v0.11.2. Summary requested; strike the mark first.
