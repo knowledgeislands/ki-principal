@@ -258,3 +258,11 @@ mgit-accept stopped because another session is active in tools-mgit, with `tests
 ## 2026-10-18 18:20 BST - rig-accept received
 
 KI-TOOL-RIG-CORE-060 had already been accepted by Ways of working's rig-review run (`92d2d27`), so RIG-TARGET-SPEED-ACCEPT is closed by that run. Its deletion went to origin inside another session's capture commit `3a33d51` rather than a prune-only commit (PRUNE-SWEPT, with Kris).
+
+## 2026-10-18 19:09 BST - answers and mark
+
+Kris: "agreed with all the recommendations" and "take a mark". Read back as taken:
+
+- PRUNE-SWEPT a): `3a33d51` in tools-rig stands as the prune of KI-TOOL-RIG-CORE-060. This is an exception to the prune-only-commit rule, recorded here.
+- MGIT-OVERTAKEN a): MGIT-PLAN and MGIT-REVIEW-LOWS are closed as overtaken by KI-TOOL-MGIT-CLI-020, -021, -022 and -025. This work keeps only the prune of the Done mgit records.
+- RIG-TARGET-SPEED-LOAD a): Rig's configuration-load cost is left as it is, and no record is captured. Mark struck at 2026-10-18T18:09:07Z.

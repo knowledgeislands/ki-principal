@@ -6,9 +6,9 @@ project: tools-burndown
 theme: foundations
 worker: agent
 supervisor: owner
-state: handoff-to-supervisor
-since: 2026-10-18T17:20:00Z
-received: 2026-10-18T17:08:00Z
+state: with-worker
+since: 2026-10-18T18:09:07Z
+received: 2026-10-18T18:09:07Z
 beat: null
 created_at: 2026-10-16T00:05:00Z
 ---
@@ -17,10 +17,10 @@ created_at: 2026-10-16T00:05:00Z
 
 ## Next steps
 
-- 18:10 BST: resumed from this work file; accept-prune runs launched for tools-rig (rig-accept) and for tools-mgit with tools-git-almanac (mgit-accept).
-- 18:15 BST: mgit-accept found another session active in tools-mgit and stopped; the prune of KI-TOOL-MGIT-CLI-020, -021 and -022 is relaunched once that session finishes. The mgit plan appears delivered already (KI-TOOL-MGIT-CLI-018 to -022, -025), so MGIT-PLAN and MGIT-REVIEW-LOWS go to Kris as overtaken.
-- 18:20 BST: rig-accept found KI-TOOL-RIG-CORE-060 already accepted by Ways of working and its deletion committed inside another session's `3a33d51` (PRUNE-SWEPT). Sent to Kris: PRUNE-SWEPT, MGIT-OVERTAKEN, RIG-TARGET-SPEED-LOAD.
-- Then: (1) the tools-mgit prune once the other session is quiet; (2) once migrate-phase2b reports ki 0.10.6 here, the tools-ki work: ACCEPT-PRUNE for tools-ki, the ki-accept group (KI-TOOL-KI-CLI-126, -130, -133, -141, -135, -123, -127 and -138), the KI_QUIET triage record (KI-QUIET), events.seen past 21, then -131 and -136; (3) -139's "Decision 55" citations once the decisions move settles; (4) the DESK-KIT-SOP line for state-of-play; (5) at the next mark, cut this file as the MIGRATED line asks and tidy the work folder.
+- Mark: 2026-10-18T18:09:07Z. Kris's answers are in decisions.md. mark-tidy is pruning this work folder, striking decisions, cutting this file under MIGRATED and sending state-of-play the DESK-KIT-SOP line.
+- (1) Prune KI-TOOL-MGIT-CLI-020, -021 and -022 once tools-mgit is quiet (another session is active there), keeping -017, -018 and -019 for Ways of working.
+- (2) After Ways of working reports ki 0.10.6 released: ACCEPT-PRUNE for tools-ki; the ki-accept group (KI-TOOL-KI-CLI-126, -130, -133, -141, -135, -123, -127 and -138); the KI_QUIET triage record (KI-QUIET); events.seen past 21; then -131 and -136.
+- (3) KI-TOOL-KI-CLI-139's "Decision 55" citations, once the decisions move settles (source: hnr-principal 5g-emerge-phase3 decisions, SRC-TOOLING, 16 October).
 
 ## Messages
 
@@ -30,5 +30,4 @@ created_at: 2026-10-16T00:05:00Z
 
 ## Parked
 
-- RIG-TARGET-SPEED-LOAD: leave the ~3.6 s configuration load as it is; recommended a).
-- With Kris: PRUNE-SWEPT ([rig-accept](rig-accept.report.md)), MGIT-OVERTAKEN (MGIT-PLAN and MGIT-REVIEW-LOWS, [mgit-accept](mgit-accept.report.md)).
+None. Kris answered PRUNE-SWEPT, MGIT-OVERTAKEN and RIG-TARGET-SPEED-LOAD a) at the mark.
