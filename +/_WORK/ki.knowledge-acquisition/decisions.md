@@ -163,3 +163,7 @@ dispatch-take's Project-note edit failed the STREAM-9 audit rule (registry notes
 - The owner's questions about `.acquire/` and intake pruning are captured as open design questions, not enacted moves or disposal policy. Existing state and source-preservation boundaries stay in force. The earlier MS3-DROPPED instruction remains in force.
 
 Scope readback: use of this work folder records local progress; the broader Project hold remains while the active Project cap is full. No cap increase, historical-run restart, receipt-pruning rule or state migration is inferred.
+
+## 2026-10-18T17:59:40Z - whole-capability review mark
+
+The owner requests an assessment of all Acquire capability and outstanding items, aiming for a much cleaner repository, specifically questioning the overlap between `.acquire/` and `intake/` and the retained `+/_CHECKPOINTS/` and `+/_THREADS/` areas. The owner then says "take a mark". The [initial assessment](design/acquire-capability-review.md) records the inventory and incomplete review at that mark. Existing obligations and proposed changes carry forward; this is not approval to delete source/state evidence, merge receipt and provider contracts, accept work records or perform a migration. No work-folder report is pruned at this mark because the retained stocktake is still being reconciled and both design notes remain open.
