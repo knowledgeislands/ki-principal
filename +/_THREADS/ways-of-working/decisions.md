@@ -1141,3 +1141,9 @@ Taken as: every run commits each finished step by explicit path as it goes and p
 Kris, as received: "How's it going with merging the checkpoints and threads into work? I can still see checkpoints and threads, for example in the principal repository. Are you just working on work trees? I mean no one else is working on the stuff that much, so you should be able to just work on the main."
 
 Taken as: every run works in the main checkout, not a worktree. The move itself is migrate-apply, queued behind the 0.10.6 release as Kris chose in APPLY-TRIGGER ("After release").
+
+## 2026-10-18 04:26 BST - KEEP-PUSHING
+
+Kris, as received: "Also, please don't end up stalling or getting stuck. I want you to just keep pushing and pushing and get as much done as you can. Obviously, until we've got this phase of working rolled out, we're not going to be able to get any of the other things up and running. And you can get on with all the rest of the work, tools burned down, you can get through the roadmap as far as you can. The only other thing that I've got going on is I've got Claude desktop looking at some design documents and things like that for the aesthetics of knowledge islands and I've created a new repo called KI-Design to hold that in. So you can stay clear of that if that is one of the things that causes you a problem. Get as much of it as you done as you can. I really want to see commits pushing in with yeah, merging of all these different ways of working concepts first and foremost."
+
+Taken as: start the move into work folders now on main rather than after the release, re-running its final check once 0.10.6 is out; then resume the tools burndown roadmap in tools-ki after the release, as far as it goes; every run takes the recommended course on a judgement call inside the pre-approvals, records it as provisional and carries on, stopping only on reserved items; nothing touches ki-design.
