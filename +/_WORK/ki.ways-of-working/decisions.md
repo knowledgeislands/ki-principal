@@ -1295,3 +1295,23 @@ Read back as taken, all option a) as last shown:
 > can you give me a new batch, I've lost the preious
 
 Read back: Kris lost the skills-audit batch; re-present it in full (PMO-NAME, CHECKPOINT-FATE, WORK-FOLDER-DEDUP, DESIGN-NAME, STREAMS-SLIM, WORKER-CLI) with the new ACCEPT-136. No decision taken.
+
+## 2026-10-18 10:05 BST - owner answers, skills-audit batch
+
+> Yes, I think KI coordination is spot on. So that's good. Let's get rid of PMO and go with KI coordination. There's no need to accept it as an alias. We just need to get on with this. He's aware that Richard is from a whole other century. You look at the rest of the and then you look at you are asked and it's the same thing. So, yes, all those things can add the work in the description. Yeah, actually I think as well what you suggested with KI work file might work. It could become work pack. Yeah, the workflow that DG presumably goes with the two renames we just talked about, right? So when you do those, it's also a good opportunity to get the delineation of responsibilities correct across them. And yes, I think KI work design is good as well. So is slimming down the streams, that makes a lot of sense. Yeah, I think KI agent makes a lot of sense as well, right? It doesn't have to be just robots, right? We've talked about this before and a clear error messages make a lot of sense, so I think that's that list reviewed.
+
+Then:
+
+> By the way, can you make sure that you're committing and pushing any changes, just so I can see the update? It looks like the roadmap's growing rather than shrinking, and we seem to be accepting a lot of work here.
+
+Read back:
+
+- PMO-NAME a), amended - rename ki-pmo to `ki-coordination` outright, with no `ki-pmo` alias.
+- CHECKPOINT-FATE a) - one skill owns `+/_WORK/`; name open between `ki-work-file` and `ki-work-pack` (asked).
+- WORK-FOLDER-DEDUP a) - done together with the renames, using them to set clear responsibilities across ki-coordination, the work-file skill and ki-delegation.
+- Middle passage garbled in speech; read as "PMO is dated" and "the skill descriptions should say work"; no separate decision.
+- DESIGN-NAME a) - `ki-work-design`.
+- STREAMS-SLIM a).
+- WORKER-CLI a) - keep `ki agent`; an agent need not be a robot.
+- ACCEPT-136 a) - accept KI-TOOL-KI-CLI-136, access grant first next time `storeFix` changes.
+- VISIBLE-PUSH - commit and push every change as it lands so Kris can see it; roadmap is growing, so fold new work into existing records rather than capturing new ones where possible, and report the net count.
