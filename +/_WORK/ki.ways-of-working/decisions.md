@@ -1315,3 +1315,9 @@ Read back:
 - WORKER-CLI a) - keep `ki agent`; an agent need not be a robot.
 - ACCEPT-136 a) - accept KI-TOOL-KI-CLI-136, access grant first next time `storeFix` changes.
 - VISIBLE-PUSH - commit and push every change as it lands so Kris can see it; roadmap is growing, so fold new work into existing records rather than capturing new ones where possible, and report the net count.
+
+## 2026-10-18 10:15 BST - owner message, work-folder skill
+
+> Okay, let's talk about work file vs. work path then. I thought you were talking about everything that's under that work directory, or effectively, what skill is responsible for making sure that it's clean and tidy. Those kinds of things. Basically, we want a skill that's managing things that are under su_work/ID, right? So, maybe just think about that one a bit more. Let's go up with the right approach because I think we just need to consider what the confidence is in terms of other files or things that might change things in there.
+
+Read back: WORK-FILE-NAME and the work-folder half of CHECKPOINT-FATE and WORK-FOLDER-DEDUP are reopened. The aim is one skill that owns everything under `+/_WORK/<id>/` and keeps it clean and tidy. Before naming or building it, a design run maps every party and tool that writes, reads or deletes in that folder, says how confident we can be that one owner holds, and recommends the approach and name. The coordination-rename run defers the work-folder skill and the dedup until that answer; the other renames go ahead.
