@@ -359,8 +359,7 @@ home: +/_WORK/ki.chezmoi/work.md
 3. Run `ki bootstrap`. It moves the remembered harness paths into `$XDG_STATE_HOME/ki/locals.toml` (`[locals]`) once, and leaves `config.toml` untouched.
 4. Check that `locals.toml` holds the same paths, that `ki doctor` and `ki diag` are clean, and that `ki dev local on`/`off` behave as before. If anything differs, stop and report.
 5. Only on the second of the two hosts to finish, and only once both have passed step 4: remove the `[locals]` table from the chezmoi source of the ki config, show Kris the `chezmoi diff`, and apply only with Kris's explicit approval. Commit the chezmoi source by explicit path. Do not push unless Kris asks.
-6. Report per host: version, before and after paths, check results, and whether the chezmoi step was done or is still waiting for the other host.
-Never move a checkout, switch the active harness or change sources. No --no-verify, no force-push.
+6. Report per host: version, before and after paths, check results, and whether the chezmoi step was done or is still waiting for the other host. Never move a checkout, switch the active harness or change sources. No --no-verify, no force-push.
 
 ## Decision 85 (2026-10-18T09:18:10Z)
 
@@ -373,8 +372,7 @@ home: +/_WORK/ki.chezmoi/work.md
 3. Run `ki bootstrap`. It moves the remembered harness paths into `$XDG_STATE_HOME/ki/locals.toml` (`[locals]`) once, and leaves `config.toml` untouched.
 4. Check that `locals.toml` holds the same paths, that `ki doctor` and `ki diag` are clean, and that `ki dev local on`/`off` behave as before. If anything differs, stop and report.
 5. Only on the second of the two hosts to finish, and only once both have passed step 4: remove the `[locals]` table from the chezmoi source of the ki config, show Kris the `chezmoi diff`, and apply only with Kris's explicit approval. Commit the chezmoi source by explicit path. Do not push unless Kris asks.
-6. Report per host: version, before and after paths, check results, and whether the chezmoi step was done or is still waiting for the other host.
-Never move a checkout, switch the active harness or change sources. No --no-verify, no force-push.
+6. Report per host: version, before and after paths, check results, and whether the chezmoi step was done or is still waiting for the other host. Never move a checkout, switch the active harness or change sources. No --no-verify, no force-push.
 
 ## Decision 86 (2026-10-18T17:06:31Z)
 
@@ -393,3 +391,15 @@ home: +/_WORK/ki.chezmoi/work.md class: operational
 home: +/_WORK/ki.chezmoi/work.md class: operational
 
 - take a mark
+
+## Decision 89 (2026-10-18T17:14:03Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- commit and push please
+
+## Decision 90 (2026-10-18T17:14:03Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- and fix the drift
