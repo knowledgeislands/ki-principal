@@ -28,7 +28,7 @@ created_at: 2026-10-13T23:50:00Z
 
 ## Messages
 
-- 2026-10-18 19:46 BST · DEPS-HOLDS · KI > Model > Ways of working: Kris answered DEPS-HOLDS a) on 18 October ([decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/decisions.md)). The estate dependency run (`75af834`) held Mermaid at 12.1.0 in apps-observatory.local because 12.2.0 fails the third-party notices test, `THIRD-PARTY-NOTICES.md` recording 12.1.0. Refresh the notices for Mermaid 12.2.0 and lift that hold, through the repository's gate.
+- 2026-10-18 19:31 BST · DEPS-HOLDS · KI > Model > Ways of working: Kris answered DEPS-HOLDS a) on 18 October ([decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/decisions.md)). The estate dependency run (`75af834`) held Mermaid at 12.1.0 in apps-observatory.local because 12.2.0 fails the third-party notices test, `THIRD-PARTY-NOTICES.md` recording 12.1.0. Refresh the notices for Mermaid 12.2.0 and lift that hold, through the repository's gate.
 
 ## Parked
 
