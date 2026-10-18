@@ -1032,3 +1032,9 @@ Taken as the order: Knowledge Islands done, tools in line, check pass, skills au
 Kris, as received: "this is a massive knowledge islands push and you are leading it"
 
 Taken as: this thread leads the whole push and plans ahead rather than step by step; launched migrate-plan now, read-only on every repository, to build the dry-run move scripts and the +/_WORK / +/_WORK_REVIEW classification for the Capital and the rest of the territory, so the apply runs start the moment tools-ki is released.
+
+## 2026-10-18 02:51 BST - RESTART-PROMPTS
+
+Kris, as received: "soon as you are done with the observatory and the tools, let me know as I can restart those threads with you giving me a prompt about how they should be working"
+
+Taken as: a milestone in the plan - once the observatory and the tools (tools-ki and the other tools repositories) are in line, tell Kris at once and give one restart prompt per thread (observatory, tools burndown and any other tools thread), saying how it now works under the work model, its +/_WORK home and id, and its prioritised bring-up items. Kris restarts those threads; this thread does not.
