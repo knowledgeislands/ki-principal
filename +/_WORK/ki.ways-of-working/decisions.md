@@ -186,3 +186,17 @@ Read back as taken:
 - RESTARTS - Kris has sent the resume prompts to chezmoi, Tools burndown and Observatory; those works are no longer on hold here.
 - RESUME-PWD - every resume and send line names the working directory its session must be grounded in, the primary checkout of the repository holding the work file, for example `in /Users/krisbrown/workspaces/knowledge-islands/ki-principal`. Folded into the glyph-owner run, which already edits the ki-coordination standard, the Work Process note and the output style.
 - MARK - mark struck at 18:12 BST (2026-10-18T17:12:06Z); the queued mark-prune-2 run prunes to this mark.
+
+## 2026-10-18 19:05 BST - owner answers, evening Summary batch; mark
+
+Kris, 18 October:
+
+> All as recommended with the following exceptions / changes:
+>
+> CLI-F-FILTER
+>
+> I'd like to consider another option, is there a standard for such a param?
+>
+> Take a mark
+
+Read back as taken: a) for KI-RELEASE (ki v0.11.3 pinning the current harness, with the launcher report-path part if ready; it waits for the GOV-197 and HOOK-QUIET harness changes so one release carries them), RIG-CI-RED, RIG-VERSION (v0.7.0), RIG-FLAKY-FIREWALL, GOV-197-NEXT, HOOK-QUIET, PRUNE-HELD, MOD-010-PACKET, ACQUIRE-CHECKPOINTS, USER-SKILL-STALE, DESK-KIT-HOME, RUMDL-EXCLUDED (deferred until Claude Design finishes), DEPS-HOLDS, CLI-DEPARTURES and PARKED-STALE. CLI-F-FILTER stays open: Kris asks whether a standard exists for a filter option; answered in the reply and re-asked with new options. MARK struck at 19:05 BST (2026-10-18T18:05:04Z).
