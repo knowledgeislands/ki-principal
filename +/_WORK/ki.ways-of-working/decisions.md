@@ -1413,3 +1413,11 @@ Read back: information, no decision. The ki.chezmoi work stopped the KI-TOOL-KI-
 > Proceed as you think, please. I agree with your recommendations. Can you tell me what's going on at the minute? What's your currently processed work? What's changed since the last mark? What's next? Any queries that you have.
 
 Read back: SOL-CONFIG-REFORMAT a) - a tools-ki fix, folded into KI-TOOL-KI-CLI-143, so `ki` never rewrites `config.toml` when nothing in it changes, released in v0.11.2; then the ki.chezmoi work re-runs Sol and does a verified Terra run on v0.11.2. Summary requested; strike the mark first.
+
+## 2026-10-18 11:03 BST - owner asks for quiet `mgit st` now
+
+> By the way, this is an example of the mIT ST output, which is largely speaking 22 responses which have no change and 1 which is of significance. This is exactly what I mean by that change over there. So I'd actually, I'm happy if you and a dispatcher sub-agent to correct that right now because it'd be really useful for me in the workout I'm doing. You don't have to wait for the tools burned down to do that, you're still the single thread of control right now.
+
+(The pasted `mgit st` output across 23 repositories followed: 21 printed only `## main...origin/main` or `## ki/stable...origin/ki/stable`; ki-design was ahead 2 with changes; ki-principal had local changes; the summary read "0 quiet, 23 with output".)
+
+Read back: MGIT-ST-QUIET - launch a run now, not waiting for Tools burndown, so that `mgit st` treats a repository that is clean and level with its upstream as quiet and prints only the ones with something to show (ahead, behind, diverged, changes, untracked, no upstream, detached). Make it live on this Mac as soon as it passes; a new release or tap update asks first.
