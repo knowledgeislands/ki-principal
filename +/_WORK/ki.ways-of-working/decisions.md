@@ -1164,3 +1164,12 @@ Fable's advisory ([fable-opinion-1](fable-opinion-1.report.md)) weighed the four
 - HARNESS-PATHS: adopt and plan KI-TOOL-KI-CLI-143 and implement against isolated HOME and XDG fixtures, provisional, on Fable's opinion; no live migration of `config.toml` and no chezmoi change, which wait for Kris.
 - DESK-KIT-SOP: option a), provisional, on Fable's opinion. A Messages line goes into the KI state-of-play work file.
 - TOOLS-RELEASE: left for Kris. v0.11.1 is not cut tonight.
+
+## 2026-10-18 06:36 BST - TOOLS-BLOCKERS (provisional, on Fable's opinion)
+
+Fable's second advisory ([fable-opinion-2](fable-opinion-2.report.md)) weighed what blocks the tools burndown. Taken under FABLE-OPINION and KEEP-PUSHING, each provisional, on Fable's opinion, for Kris to confirm; nothing pruned:
+
+- KI-TOOL-KI-CLI-126: an independent read-only review first; accept only if it finds nothing, noting the unobserved ki-principal CI criterion. Then KI-TOOL-KI-CLI-131 and -136, then -147 and -146, one tools-ki run at a time, to Awaiting review.
+- KI-TOOL-MGIT-CLI-017 and KI-TOOL-RIG-CORE-060: accept, as their independent reviews passed.
+- KI-TOOL-MGIT-CLI-018 to -022: adopt and plan, build in the order -022, -021, -018, -019, -020 to Awaiting review, with -B and --bare kept as deprecated aliases and -020 built only on disposable fixtures.
+- Read-only independent reviews of the Awaiting-review Rig records, and KI-TOOL-RIG-CORE-061 planned. The other Awaiting-review records are reviewed but not accepted; they stay for Kris.
