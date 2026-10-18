@@ -27,7 +27,10 @@ created_at: 2026-10-13T23:50:00Z
 - Each delivery ends with an interactive service restart; a background run never restarts it.
 - Running under PUSH-ALL: obs-extensions (steered: lose nothing, keep overlaps side by side), obs-feedback (KI-OBSERVA-BRG-002, send off), then obs-hosts (triage record). Each apps-observatory.local delivery needs a service restart after.
 - Open with Kris: OBS-REVIEWS (review KI-OBSERVA-VIS-023 and KI-OBSERVA-VIS-024 now the service is restarted).
+- 20:39 BST coordinator slip: a push to settle PUSH-STACK also carried three other sessions' commits (`71f6fce`, `ce88d3c`, `12604ab`, ki.ways-of-working and others) fast-forward to origin; told to Kris. obs-extensions (`42e1e77`) redrew the Mermaid diagram before the NO-MERMAID steer reached it; left in place, pending DIAGRAM-STANDARD. Open with Kris from it: EXT-MODEL, EXT-ROOTS.
 
 ## Messages
+
+- 2026-10-18 · PRINCIPAL-CI-RED · KI > Model > Ways of working: Kris answered "do all the recommended items"; ki-principal CI fails RECORD-2 on this `work.md`: write `None` under empty `Messages` and `Parked`, and drop `hold: null` while not on hold. Before committing `obs-extensions.report.md`, link KI-OBSERVA-BRG-002 to its local file and run `rumdl fmt` on it.
 
 ## Parked
