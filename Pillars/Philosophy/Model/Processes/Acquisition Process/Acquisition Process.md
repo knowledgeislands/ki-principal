@@ -20,7 +20,7 @@ Acquisition is not session archiving. A source is visible because it holds trans
 
 ## End-to-end flow
 
-The port is acquire's function: the single point where material enters the territories and leaves again for the island that should have it. Material goes into acquire and out of it in a coordinated form, in six steps.
+Acquire is the capability called ports: acquire is the port, with one port of entry per source. It is the single point where material enters the territories and leaves again for the island that should have it. Material goes into acquire and out of it in a coordinated form, in six steps. "Harbour" is the port's [[Pillars/Philosophy/Realisation/Arcadia/Arcadia|Arcadian]] register, the romantic, historical way of seeing it, because shipping carried things between islands.
 
 ```mermaid
 flowchart LR
@@ -40,7 +40,7 @@ flowchart LR
 - **Sources and drops.** Material is born at a source: an AI session, a meeting, a message, a voice note, a photo. Where it cannot be read directly, Kris drops it in a holding place to wait for intake. A drop is not yet acquired.
 - **1. Intake.** Acquire receives the material faithfully, verifies it and writes a receipt. It decides nothing about meaning.
 - **2. Sorting.** Acquire decides only who should have each item: the territory and its receiving principal. It does not decide what matters, where it is filed or whether it changes a decision. Anything it is unsure of goes to Kris.
-- **3. Dispatch.** Acquire places the item in the receiving island's inbound area. The mechanism is still being chosen.
+- **3. Dispatch.** The port delivers whole packets into the receiving principal's `+/_ACQUIRED/` only, retires its copy once delivered and read back, and takes back returns marked by the island.
 - **4. Island triage.** The receiving principal, which knows its own world far better than acquire, decides what each item is worth: file it, turn it into work, park it or return it.
 - **5. Filing and fold-back.** The receiving principal files what it keeps under its own Enactment Process and folds returning knowledge back into the notes it belongs to.
 - **6. Retirement.** Acquire retires its copy once the item is dispatched, as [[#Source retirement]] sets out.
