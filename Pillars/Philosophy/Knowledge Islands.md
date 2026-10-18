@@ -42,7 +42,7 @@ The first part establishes the problem and the model. It does not assume the rea
 - [[Layers of Knowledge]] - individual to collective to civilisational; the scope of the problem
 - [[Prior Art]] - Zettelkasten, PARA, LLM wikis, OKF; what each gets right and what each leaves open
 - [[The Cycle of Knowledge]] - capture, connect, reflect; the engine that keeps an island alive
-- [[The Home of Knowledge]] ★ - the island, Capital, Library, Streams, Harbour; the model lands here
+- [[The Home of Knowledge]] ★ - the island, Capital, Library, Streams, Port; the model lands here
 
 ### Concept
 

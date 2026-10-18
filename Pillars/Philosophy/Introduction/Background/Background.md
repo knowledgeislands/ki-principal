@@ -55,4 +55,4 @@ The notes are written to be read in order. After a short orienting entry point, 
 
 ## The Home of Knowledge
 
-[[The Home of Knowledge]] is where the model lands. It introduces the Knowledge Island as a bounded home for the cycle and describes its internal geography: the Capital with its Library and Council Hall, the Streams that carry work in motion, and the Harbour where incoming material is assessed before routing. It is the bridge into the Concept chapter, which takes this single island and explains how islands relate, who acts within them and how their knowledge is governed.
+[[The Home of Knowledge]] is where the model lands. It introduces the Knowledge Island as a bounded home for the cycle and describes its internal geography: the Capital with its Library and Council Hall, the Streams that carry work in motion, and the Port where incoming material is assessed before routing. It is the bridge into the Concept chapter, which takes this single island and explains how islands relate, who acts within them and how their knowledge is governed.

@@ -19,7 +19,7 @@ The chapter has two parts, read in order. Background builds the problem and arri
 
 ## Background
 
-[[Background/Background|Background]] makes the case for the model. Its notes move from an orienting entry point through the history of knowledge systems, the distinction between information, knowledge and wisdom, the scales at which knowledge lives and the prior art the model draws on, to the cycle of capture, connection and reflection and finally the island as the home of knowledge. Read it first: it is where the island, its Capital, Library, Streams and Harbour are introduced.
+[[Background/Background|Background]] makes the case for the model. Its notes move from an orienting entry point through the history of knowledge systems, the distinction between information, knowledge and wisdom, the scales at which knowledge lives and the prior art the model draws on, to the cycle of capture, connection and reflection and finally the island as the home of knowledge. Read it first: it is where the island, its Capital, Library, Streams and Port are introduced.
 
 ---
 

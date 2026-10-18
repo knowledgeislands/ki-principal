@@ -57,7 +57,7 @@ Core conceptual themes:
 
 ## Geographic Metaphor
 
-Knowledge is represented geographically. Common motifs: islands, archipelagos, coastlines, sea routes, bridges, harbours, lighthouses, libraries, observatories, pathways, flowing currents, woven connective threads, cartographic lines, layered terrain.
+Knowledge is represented geographically. Common motifs: islands, archipelagos, coastlines, sea routes, bridges, ports, lighthouses, libraries, observatories, pathways, flowing currents, woven connective threads, cartographic lines, layered terrain.
 
 The world should feel explorable, interconnected, breathable, calm, and layered with meaning.
 
@@ -83,8 +83,9 @@ Visual symbols carry consistent conceptual meaning across all outputs. See [[Sym
 | -------------------- | ----------------------------- |
 | Island               | Domain of knowledge           |
 | Archipelago          | Federated knowledge ecosystem |
-| Harbour              | Integration point             |
-| Lighthouse           | Guidance / governance         |
+| Port                 | Entry and exit; integration   |
+| Lighthouse           | Guidance                      |
+| Council Hall         | Governance                    |
 | Observatory          | Insight / analytics           |
 | Route                | Relationship                  |
 | Current              | Information flow              |
@@ -107,10 +108,10 @@ Different forms of knowledge may be represented through terrain metaphors. This 
 | Stable foundational knowledge | Mountains / stone                       |
 | Emerging knowledge            | Jungle / growth                         |
 | Experimental ideas            | Fog / shifting sands                    |
-| Operational systems           | Harbours / ports                        |
+| Entry and exchange            | Ports and their docks, depots, airports |
 | Human wisdom                  | Ancient forests                         |
 | AI synthesis                  | Currents / atmospheric systems          |
-| Governance                    | Lighthouses / citadels                  |
+| Governance                    | Council Halls / citadels                |
 | Active collaboration          | Trade routes / interconnected waterways |
 
 ---

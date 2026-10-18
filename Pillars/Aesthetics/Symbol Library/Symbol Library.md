@@ -28,8 +28,9 @@ The sixteen canonical symbols, their meanings, and terrain associations:
 | ----------------- | ----------------------------- |
 | Island            | Domain of knowledge           |
 | Archipelago       | Federated knowledge ecosystem |
-| Harbour           | Integration point             |
-| Lighthouse        | Guidance / governance         |
+| Port              | Entry and exit; integration   |
+| Lighthouse        | Guidance                      |
+| Council Hall      | Governance                    |
 | Observatory       | Insight / analytics           |
 | Route             | Relationship                  |
 | Current           | Information flow              |
@@ -40,8 +41,20 @@ The sixteen canonical symbols, their meanings, and terrain associations:
 | Weave / Fabric    | Cross-domain synthesis        |
 | Cartographic Grid | Structure / orientation       |
 | Celestial Guide   | Long-range orientation        |
-| Port              | Operational systems           |
 | Trade Route       | Collaboration / exchange      |
+
+The Port replaced the Harbour, and the Lighthouse and Council Hall took separate meanings, under [[GDR-KI-PRINCIPAL-010-the-port|GDR-KI-PRINCIPAL-010]]. The Harbour is retired as a symbol; operational systems, the old Port meaning, belong to `Admin/Operations`.
+
+### Port modes
+
+A Port has four modes, each drawn as a district of one Port:
+
+| Mode          | Meaning                                                  |
+| ------------- | -------------------------------------------------------- |
+| Dock          | By sea; exchange with other islands, material carried in |
+| Rail depot    | Scheduled, high-volume flows along fixed lines           |
+| Airport       | Fast, long-range connections to distant lands            |
+| Customs house | Where what enters or leaves is inspected and declared    |
 
 ---
 

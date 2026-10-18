@@ -25,7 +25,7 @@ The visual language is grounded in the same metaphors that underpin the model it
 
 ## Symbol Library
 
-[[Symbol Library/Symbol Library|Symbol Library]] documents the canonical set of visual symbols used across Knowledge Islands outputs. Each symbol carries a defined conceptual meaning - Island, Archipelago, Harbour, Lighthouse, and so on - and is provided as a reference tile and as standalone illustration artwork. The library ensures symbolic consistency across diagrams, presentations, and interfaces.
+[[Symbol Library/Symbol Library|Symbol Library]] documents the canonical set of visual symbols used across Knowledge Islands outputs. Each symbol carries a defined conceptual meaning - Island, Archipelago, Port, Lighthouse, and so on - and is provided as a reference tile and as standalone illustration artwork. The library ensures symbolic consistency across diagrams, presentations, and interfaces.
 
 ---
 

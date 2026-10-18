@@ -12,7 +12,7 @@ author: Mixed
 
 ## Overview
 
-An island has geography - both natural and constructed. The streams run through the landscape; the harbour opens onto the sea; the library is built at the heart of the capital. Each zone has a different character: some feel organic, shaped by flow and movement; others feel institutional, shaped by governance and permanence. Both are of the place.
+An island has geography - both natural and constructed. The streams run through the landscape; the port opens onto the sea and the lands beyond; the library is built at the heart of the capital. Each zone has a different character: some feel organic, shaped by flow and movement; others feel institutional, shaped by governance and permanence. Both are of the place.
 
 Structure is where those geographic conventions are specified. Each zone has its own section covering its internal organisation, routing rules, and governing logic.
 
@@ -141,9 +141,9 @@ Streams carry knowledge in motion: finite forward work, runs of recurring obliga
 
 ---
 
-## Harbour
+## Port
 
-> [!todo] Harbour The Harbour is the port of entry - where incoming material arrives before being assessed and routed inward. Nothing flows directly from the Harbour into the Library; all material is assessed first, relevant content routed to the right Stream or zone, the rest discarded. The Harbour's structural conventions are not yet fully specified.
+> [!todo] Port The Port is the island's point of entry and exit - where incoming material arrives before being assessed and routed inward, and where outgoing material leaves. The inbound working area `+/` and the outbound working area `-/` are its two sides. It has four modes: the dock, the rail depot, the airport and the customs house ([[GDR-KI-PRINCIPAL-010-the-port|GDR-KI-PRINCIPAL-010]]). Nothing flows directly from the Port into the Library; all material is assessed first, relevant content routed to the right Stream or zone, the rest discarded. The Port's structural conventions are not yet fully specified.
 
 ---
 
