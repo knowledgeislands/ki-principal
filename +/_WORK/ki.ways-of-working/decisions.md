@@ -1339,3 +1339,37 @@ Read back: steer for work-folder-design - the work-folder skill is the gatekeepe
 > Or at least it's the canonical source of the specification of how to handle it, even if that gets encoded into the tooling
 
 Read back: refines the check-in steer - the work-folder skill is at least the canonical specification of how `+/_WORK/<id>/` is handled; tooling (`ki` commands, the audit, sweep) may encode it, but encodes that specification rather than its own rules, and other skills cite it rather than restate it.
+
+## 2026-10-18 10:18 BST - owner answers, Rig batch
+
+> The rig dock missing, rig firewall range, and the gov194 refresh are all agreed with. The recommendations are
+
+Then:
+
+> Be sure to make sure that you've committed and pushed everything though, right?
+
+Read back:
+
+- RIG-DOCK-MISSING a) - fix the code under KI-TOOL-RIG-CORE-042 to check every included app, fixture-only, before acceptance.
+- RIG-FIREWALL-RANGE a) - correct KI-TOOL-RIG-CORE-047, its specification and ADR-KI-TOOL-RIG-009 to state the residual `100.64.0.0/10` risk; capture one follow-up record to narrow the rule to the Macs' own tailnet addresses, refreshed at apply.
+- GOV194-REFRESH a) - queue a run with network access for the LONG-3 refresh under KI-HARNESS-GOV-194.
+- Commit and push everything, and confirm.
+
+## 2026-10-18 10:21 BST - owner message
+
+> Okay, is that some other background agent that's dealing with that then? I'm gonna trust that you're managing that with them.
+
+Read back: yes - coordination-rename fixes ki-principal's `.ki.toml` declaration; the coordinator watches for it and commits and pushes the held work-folder files as soon as the hook passes.
+
+## 2026-10-18 10:23 BST - owner answers, observatory batch
+
+> Okay, I agree with all the recommendations of those. I'm gonna put my trust in you more than I used to be able to do, but I'm believing that we're getting to really good results here.
+
+Read back:
+
+- OBS-SESSIONS-RETIRE a) - capture a retirement record for the Sessions instrument's checkpoint and thread readers, blocked on phase 5, taken alongside KI-OBSERVA-VIS-027.
+- OBS-STREAMS-VIEW a) - that record renames the instrument Streams, with `sessions` addresses redirecting.
+- OBS-WITH-YOU-SIGNAL a) - one Beacon note per item with the owner, confirmed.
+- OBS-KI-CONTRACT-GAPS a) - hand tools-ki a request for the five views and the review count in `ki/work-status/v2`; the Observatory keeps its own derivation until then.
+- OBS-RECORD-FIELDS a) - `project: ways-of-working` and the shortened titles confirmed.
+- CLI134-GRANTS a) - a harness run drafts `grant-fetch.md` and `grant-machine.md` under KI-HARNESS-GOV-201 for Kris's review; nothing is adopted until he approves the wording.
