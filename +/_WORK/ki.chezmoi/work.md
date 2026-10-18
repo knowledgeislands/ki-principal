@@ -1,14 +1,25 @@
 ---
-type: ki-checkpoint
-thread: rig.chezmoi
-label: 'Rig: chezmoi'
-role: coordination
-state: active
+id: ki.chezmoi
+level: project
+title: 'KI > Rig > chezmoi'
+project: chezmoi
+theme: rig
+worker: agent
+supervisor: owner
+state: on-hold
+hold:
+  reason: paused
+  release: after the ways of working reports are ready
+since: 2026-10-18T03:30:38Z
+received: null
+beat: null
+mark: 2026-10-15T14:59:00Z
 created_at: 2026-10-08T08:40:00Z
-updated_at: 2026-10-18T01:31:20Z
 ---
 
-# rig.chezmoi
+# ki.chezmoi
+
+## Next steps
 
 **Pick-up - mark 2026-10-15T14:59Z (15:59 BST)**
 
@@ -37,47 +48,15 @@ updated_at: 2026-10-18T01:31:20Z
 - 2026-10-16 · CI-RED-PRINCIPAL · Fnd: tools-burndown, on Kris's decision of 16 October: `ki repo audit` fails these reports in `+/_THREADS/chezmoi/`, for this thread to fix in its own folder: apply-groups, burn-a, burn-b, burn-order, coord-style, src-trio and ue086-a (PMO-7). PMO-7 wants every full record identifier in prose linked to its local file, or as `<ID> (pruned)` to the GitHub file at its last revision; NOTE-1a reads a report's opening `---` rules as unterminated frontmatter, which tools-burndown cleared by putting a `<!-- markdownlint-disable-file MD041 -->` line above the unchanged rules.
 - 2026-10-17 · PMO-7-BACKLOG · Master: state-of-play, on Kris's decision of 15 October: "Each thread relinks or deletes its own reports at its next mark under the thread-tidy rule, and the state-of-play thread tells each one so." Apply it to this thread's own folder, [`+/_THREADS/chezmoi/`](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/chezmoi/) · detail: [ways-of-working decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/decisions.md)
 
-## Objective
+Delivery stays parked until ways-of-working reports READY to Kris and Master: state-of-play and state-of-play directs restart. Re-read this entire checkpoint/messages, current ki-pmo, ki-delegation and canonical ki-checkpoint, and both completed reports plus the wrap-up report. Recheck FIRST-STEP and retain identity `rig.chezmoi`, role coordination and mark `2026-10-15T14:59Z`; no implicit mark.
 
-Coordinate [chezmoi](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/chezmoi.md>) under [Rig](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Initiatives/rig.md>), with source authority in /Users/krisbrown/.local/share/chezmoi. Preserve source review, live apply and owner acceptance as separate gates.
+Then reconcile gate repairs and tested restore evidence before FW-DECLARE-NOW source first; full source verification and bounded non-secret diff/doctor review precede its source commit. Follow SEAT-BIND/SEAT-HOSTS with SEAT-CHANGE, PAPERCLIP-OFF and approved SSH-CONSOLE guide correction. Fold CHEZMOI-APPLY and TOML-OPENER into explicitly bounded restart delivery with existing apply gates. RIG-CATALOGUE remains an idea owned by mac-studio-setup, not implementation here. Keep IWORK, STYLE-LINK, DIR-PRUNE, REST-HOLD, rig-vault/macOS-settings handoffs, held privacy/rationale work, WhatsApp/zshenv receiver work and PMO-7-BACKLOG visible. No apply, install, service mutation, acceptance, pruning or report deletion is authorised by this persistence pass.
 
-## Current state
+## Messages
 
-Mark: 2026-10-15T14:59Z
+- MIGRATED - this file was `+/_CHECKPOINTS/rig.chezmoi.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
 
-ki-pmo read at 08cadf35
-
-Thread folder: +/_THREADS/chezmoi/
-
-Running: no active delivery or queued source work. Both [resume report](../_THREADS/chezmoi/resume-20261016.report.md) and [preflight report](../_THREADS/chezmoi/source-preflight-20261017.report.md) are reconciled. This persistence pass does not restart the source lane; RESTART-ORDER and the owner's 18 October wrap-up instruction control it. FIRST-STEP is met for this snapshot's exact form and coordination role, and must be checked again under guidance current at restart. Every unacted message above is retained.
-
-Portable firewall recovery: [historical rollout report](https://github.com/knowledgeislands/ki-principal/blob/24eb3909689a58ce734ddadf234b5e1fed169d3d/%2B/_THREADS/state-of-play/fw-rollout.report.md), commit `24eb3909689a58ce734ddadf234b5e1fed169d3d`, path `+/_THREADS/state-of-play/fw-rollout.report.md`. Recover from this repository with `git show 24eb3909689a58ce734ddadf234b5e1fed169d3d:+/_THREADS/state-of-play/fw-rollout.report.md > /tmp/chezmoi-fw-rollout.report.md`. Verified against the earlier recovery byte-for-byte; SHA-256 `32956faa4e76b9d844d550226e092e5c2e29e2cff1203c3b3a053b543f0e07ff`. The temporary destination is disposable; Git history is the authority. The declaration is in lines 27-36 and restore procedure in lines 43-47. Neither requires the launcher state folder.
-
-SOURCE-RESTART is prerequisite tracking under existing authority: the missing ki-self projection and Emerge json5 resolution require sequential [KB-DOTFILES-UE-092](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-092-restore-local-skill-projection.md) then [KB-DOTFILES-UE-093](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-093-restore-emerge-test-prerequisites.md). Preflight found both draft Next, preparation-only; readiness and delivery boundaries must be reconciled before repairs, then complete source gates proved green. No new repair, install or source delivery occurred here.
-
-FW-DECLARE-NOW remains authorised first: exact historical table into `dot_config/rig/conf.d/private_45-firewall.toml`, laptop only, port 22 excluded. Attach completed same-machine restore rehearsal evidence before connection-critical delivery; the historical plan supplies no completed rehearsal. Terra physical admin console and sol tailnet SSH with physical console fallback must be tested, including sol NordVPN on/off survival. Fixture tests do not prove reconnection. Emergency recovery stops the daemon before flushing only its anchor without Rig; profile deselection is not retirement. Return terra's attended steps to the launcher; no live rollout or acceptance here. Confirm sol Rig >= 0.6.0 before any chezmoi apply carrying this table. RIG-063 lookup is complete at v0.6.3 as historically checked; rig apply remains held on both Macs until explicitly lifted.
-
-SEAT-BIND/SEAT-HOSTS remain one authorised host-data change incorporating SEAT-CHANGE: terra home, sol hub; terra humans-not-robots; sol valle-armonia, sacred-inquiry, techmedix and equal-remedy; knowledge-islands, personal and legal on both, tipped to sol. Review bounded rendering before any apply.
-
-PAPERCLIP-OFF: retain legacy declaration, plist and scripts until per-host rebuild. Source stopped/manual and laptop-only does not prove live unload/non-use on either host; each host's authorised session must verify it and prevent apply/load. SSH-SPARE-KEY is answered: both Macs physically reachable, no spare key; SSH-CONSOLE remains approved documentation for the macOS workstation guide. Preserve completed key-only SSH evidence and acknowledge that before-terra ordering cannot be recreated; no SSH reapply or renewed approval question.
-
-CHEZMOI-APPLY remains an existing restart instruction for `673b999`, `d81a80c` and `d1a6e6d`, not permission to apply in this pass. Preflight found source ahead three/behind one against its existing tracking ref, incoming `132dd2d` workspace registration; source owner must fetch/reconcile, inspect each actual diff and safely review target changes. Preserve both histories, verify integration and source gates, honour per-host restrictions and the rig-apply hold. This pass neither integrates nor publishes those other-session source commits. TOML-OPENER remains ready small work: declare Zed rather than Warp for `.toml` in the nearest macOS settings source after restart, requiring Rig >= 0.6.1 for default handlers.
-
-SSH rollout evidence remains in [KB-DOTFILES-UE-088](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-088-ssh-alias-for-sol.md); terra alignment in [KB-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-086-finish-software-alignment.md), sol privacy in [KB-DOTFILES-UE-094](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-094-audit-sol-privacy-permissions.md), and Continuity in [KB-DOTFILES-UE-095](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-095-guide-continuity-check.md). Preserve earlier owner-supplied apply evidence, UTM installation-source and Headroom findings without claiming new live verification.
-
-Thread working rules: coordinator only on restart; substantive work goes through detached agents under then-current guidance. This explicitly bounded persistence worker uses no subagents. Quiet, timestamped owner updates; complete owner reports; preserve unrelated edits, explicit-path commits and serial Git writes. No new feature capture, acceptance, pruning, report deletion or new mark. DIAGRAMS-NOW applies to future design/consolidation; this pass records state only. Read the messages block on bootstrap and Summary and remove only acted directions. PMO-7-BACKLOG report tidying stays parked for the thread's own explicitly requested mark and state-of-play instruction.
-
-Publication: initial fresh fetch found Principal main level with origin/main and an empty index. Earlier 5ccc8d7 block is historical, resolved by other sessions; this worker may publish only its own verified documentation commits. Recheck the stack before each push and stop on any other-session unpublished ancestor or contested staging.
-
-## Decisions made
-
-The [decisions log](../_THREADS/chezmoi/decisions.md) retains the exact owner instructions: 16 October resume and 18 October wrap-up entries, inspected and included in this documentation unit. The 18 October instruction parks delivery for ways-of-working and state-of-play restart direction; it does not lift any hold or strike a mark. Existing firewall-first, host-binding, Paperclip and SSH-console authorisations remain next work within their prerequisites, not renewed questions. Only IWORK, STYLE-LINK, DIR-PRUNE and REST-HOLD remain parked owner choices; recommendations and context follow. Receiver-owned work remains with its owners.
-
-## Files touched
-
-Owned documentation: this checkpoint; [decisions log](../_THREADS/chezmoi/decisions.md) outstanding resume/wrap-up entries; [preflight report](../_THREADS/chezmoi/source-preflight-20261017.report.md) portable recovery correction; [wrap-up report](../_THREADS/chezmoi/wrap-ways-20261018.report.md). No source/configuration or canonical knowledge edits. Preserve all unrelated changes and the observatory report; do not stage or delete them. Runtime status files duplicate tracked state only; nothing durable depends on their survival.
-
-## Open questions
+## Parked
 
 - **IWORK:** Keynote, Numbers and Pages remain catalogue-only in the approved burn-down report. The later native MAS fix does not by itself answer this completion choice. Recommendation: Keep Keynote, Numbers and Pages catalogue-only and complete the A8 source step, retaining owner review and acceptance. See [Finish the iWork source step](</Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-086-finish-software-alignment.md>).
 
@@ -90,9 +69,3 @@ Owned documentation: this checkpoint; [decisions log](../_THREADS/chezmoi/decisi
 Retained burn-down records: [KB-DOTFILES-UE-076](</Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-076-always-run-latest-source.md>), [KB-DOTFILES-UE-077](</Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-077-reorganise-1password-vaults-safely.md>), [KB-DOTFILES-UE-082](</Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-082-tolerate-missing-template-tools.md>), [KB-DOTFILES-UE-086](</Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-086-finish-software-alignment.md>), [KB-DOTFILES-UE-087](</Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-087-manage-headroom-profile-arguments.md>), [KB-DOTFILES-UE-088](</Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-088-ssh-alias-for-sol.md>), [KB-DOTFILES-UE-090](</Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-090-close-rig-bring-up-gaps.md>), [KB-DOTFILES-UE-091](</Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-091-shared-dock-tool-links.md>). Future: [KB-DOTFILES-UE-089](</Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-089-ki-tool-release-channels.md>). Held: [KB-DOTFILES-UE-071](</Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-071-audit-macos-privacy-permissions.md>), [KB-DOTFILES-UE-027](</Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-027-honest-rationales-per-tool.md>), [KB-DOTFILES-UE-035](</Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-035-install-whatsapp-spool-refresh.md>), [KB-DOTFILES-UE-084](</Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-084-render-zshenv-on-vega.md>).
 
 Held: both-Mac rig apply until Kris lifts it; privacy and rationale audits until owner resumes; WhatsApp refresh and vega rendering remain parked. Non-blocking Rig-vault and macOS-settings proposals remain with their receiving threads.
-
-## Next step
-
-Delivery stays parked until ways-of-working reports READY to Kris and Master: state-of-play and state-of-play directs restart. Re-read this entire checkpoint/messages, current ki-pmo, ki-delegation and canonical ki-checkpoint, and both completed reports plus the wrap-up report. Recheck FIRST-STEP and retain identity `rig.chezmoi`, role coordination and mark `2026-10-15T14:59Z`; no implicit mark.
-
-Then reconcile gate repairs and tested restore evidence before FW-DECLARE-NOW source first; full source verification and bounded non-secret diff/doctor review precede its source commit. Follow SEAT-BIND/SEAT-HOSTS with SEAT-CHANGE, PAPERCLIP-OFF and approved SSH-CONSOLE guide correction. Fold CHEZMOI-APPLY and TOML-OPENER into explicitly bounded restart delivery with existing apply gates. RIG-CATALOGUE remains an idea owned by mac-studio-setup, not implementation here. Keep IWORK, STYLE-LINK, DIR-PRUNE, REST-HOLD, rig-vault/macOS-settings handoffs, held privacy/rationale work, WhatsApp/zshenv receiver work and PMO-7-BACKLOG visible. No apply, install, service mutation, acceptance, pruning or report deletion is authorised by this persistence pass.
