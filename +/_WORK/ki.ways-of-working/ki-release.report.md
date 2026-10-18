@@ -75,7 +75,7 @@ Outstanding - no action requested now:
 
 a) (recommended, confidence high - each work keeps writing its own files, and it is the fastest route to green CI) One run adds the missing links to the ways-of-working reports. ki.chezmoi, ki.tools-burndown and ki.observatory each get a Messages line asking them to fix their own reports or work file. b) Prune the affected reports at the next mark instead of linking them, and send ki.observatory a Messages line about its hold fields. c) Leave CI red until each work's next tidy.
 
-### CLI-150-LAUNCH - Plan the launch part of KI-TOOL-KI-CLI-150
+### CLI-150-LAUNCH - Plan the launch part of [KI-TOOL-KI-CLI-150](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md)
 
 **Context:** The rest of [KI-TOOL-KI-CLI-150](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md) has not been released. That includes:
 

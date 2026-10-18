@@ -13,15 +13,15 @@
   - The open concern of [KI-TOOL-MGIT-CLI-017](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-017-unified-external-members.md), the external member in `dot_mgit.toml` after a release, is in the Context of [KI-TOOL-MGIT-CLI-023](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-023-hands-on-behaviour-check.md) (tools-mgit, pushed).
 - **Stale edge dropped.** The `blocks` edge from [KI-HARNESS-GOV-210](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-210-work-model-write-in.md) to [KI-HARNESS-GOV-206 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/08468196/docs/roadmap/KI-HARNESS-GOV-206-activity-homes-and-coordination.md) is gone, along with its reciprocal `blocked_by`.
   - In the same commit I moved a GLYPH-OWNER amendment, which another run had put inside GOV-210's Review, to Discussion. That cleared the roadmap audit's Review-order failure.
-- **KI-HARNESS-GOV-201 repointed** to its GitHub copy at `f7982a61`, in [KI-TOOL-KI-CLI-134](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-134-launch-footer-follows-brief.md) and in the `ki-delegation` sources note. KI-TOOL-KI-CLI-134 had one link, not two. Both repositories are pushed.
-- **Links pinned in tools-mgit.** Links to done records in KI-TOOL-MGIT-CLI-017, -018, -019, -023, -024, -025, -026 and -027 now point at their GitHub copies (tools-mgit, pushed).
+- **[KI-HARNESS-GOV-201](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-201-fetch-and-machine-grants.md) repointed** to its GitHub copy at `f7982a61`, in [KI-TOOL-KI-CLI-134](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-134-launch-footer-follows-brief.md) and in the `ki-delegation` sources note. [KI-TOOL-KI-CLI-134](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-134-launch-footer-follows-brief.md) had one link, not two. Both repositories are pushed.
+- **Links pinned in tools-mgit.** Links to done records in [KI-TOOL-MGIT-CLI-017](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-017-unified-external-members.md), -018, -019, -023, -024, -025, -026 and -027 now point at their GitHub copies (tools-mgit, pushed).
   - This clears the tools-mgit side of tools-burndown's MGIT-PRUNE-LINKS query.
-  - Only [KI-TOOL-KI-CLI-140](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-140-git-hygiene-estate-audit.md)'s links to KI-TOOL-MGIT-CLI-021 still hold that prune.
+  - Only [KI-TOOL-KI-CLI-140](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-140-git-hygiene-estate-audit.md)'s links to [KI-TOOL-MGIT-CLI-021 (pruned)](https://github.com/knowledgeislands/tools-mgit/blob/e91c0081/docs/roadmap/KI-TOOL-MGIT-CLI-021-estate-overview.md) still hold that prune.
 - **MOD-010 accepted.** [KI-PRINCIPAL-MOD-010 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/6bd48a4/Streams/Roadmap/KI-PRINCIPAL-MOD-010-work-model-terminology-sweep.md)'s evidence is reshaped into the six-heading review packet and the record is accepted as done.
   - Delivery commit `b567fb0`.
   - I re-checked it against `854b557`: the terminology grep is clean and no absolute links are broken.
 - **Messages lines sent.** One PIN-DONE-LINKS line went to each of the four owning works: [ki.tools-burndown](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/work.md), [ki.knowledge-acquisition](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.knowledge-acquisition/work.md), [ki.chezmoi](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.chezmoi/work.md) and [ki](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/work.md). Each line names every held record, its holding file and the GitHub revision to pin it to (ki-principal, pushed).
-  - The tools-burndown line also covers the tools-ki holders: KI-TOOL-KI-CLI-140, -142, -148 and -150.
+  - The tools-burndown line also covers the tools-ki holders: [KI-TOOL-KI-CLI-140](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-140-git-hygiene-estate-audit.md), -142, -148 and -150.
   - It also covers the tools-rig holder, [KI-TOOL-RIG-CORE-063](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-063-fatal-bats-assertions.md), which waits for the running rig-release run to leave tools-rig clean.
 - **Records pruned.** In each repository, the links were pinned in an earlier commit and the prune commit contains deletions only. All are pushed:
   - [KI-HARNESS-GOV-206 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/08468196/docs/roadmap/KI-HARNESS-GOV-206-activity-homes-and-coordination.md), which was cancelled.
@@ -57,19 +57,19 @@
   - [KI-HARNESS-GOV-201](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-201-fetch-and-machine-grants.md): tools-burndown
   - [KI-HARNESS-GOV-203](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-203-git-clean-down-criteria.md):
     - tools-burndown
-    - KI-TOOL-KI-CLI-140
-    - KI-TOOL-MGIT-CLI-021
-  - KI-HARNESS-GOV-208: the hnr-principal `+/_THREADS/5g-emerge-phase3/impl-208.report.md`.
+    - [KI-TOOL-KI-CLI-140](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-140-git-hygiene-estate-audit.md)
+    - [KI-TOOL-MGIT-CLI-021 (pruned)](https://github.com/knowledgeislands/tools-mgit/blob/e91c0081/docs/roadmap/KI-TOOL-MGIT-CLI-021-estate-overview.md)
+  - [KI-HARNESS-GOV-208](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-208-branch-previews-behind-access.md): the hnr-principal `+/_THREADS/5g-emerge-phase3/impl-208.report.md`.
   - [KI-HARNESS-GOV-210](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-210-work-model-write-in.md):
     - harness records GOV-189, -199 and -200
     - the `ki-coordination`, `ki-work-roadmap` and `ki-work` standards
-  - [KI-HARNESS-GOV-211](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-211-bats-fatal-assertions.md): KI-TOOL-RIG-CORE-063
-  - KI-HARNESS-GOV-217: KI-TOOL-KI-CLI-148 and -150.
+  - [KI-HARNESS-GOV-211](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-211-bats-fatal-assertions.md): [KI-TOOL-RIG-CORE-063](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-063-fatal-bats-assertions.md)
+  - [KI-HARNESS-GOV-217](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-217-coordination-and-work-design-renames.md): [KI-TOOL-KI-CLI-148 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/683abf5f/docs/roadmap/KI-TOOL-KI-CLI-148-coordination-rename-cli-side.md) and -150.
   - [KI-HARNESS-OPS-005](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-OPS-005-acquire-ai-sessions.md):
     - tools-burndown
     - knowledge-acquisition
     - personal acquire
-    - KI-HARNESS-OPS-009
+    - [KI-HARNESS-OPS-009](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-OPS-009-complete-ai-session-acquisition.md)
   - [KI-PRINCIPAL-MOD-006](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-006-knowledge-acquisition-lifecycle.md):
     - knowledge-acquisition
     - ki
@@ -77,8 +77,8 @@
   - [KI-TOOL-KI-CLI-143 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/a22214ee581b73a1f395da88f9a118ad89814bb9/docs/roadmap/KI-TOOL-KI-CLI-143-separate-local-harness-paths.md):
     - tools-burndown
     - chezmoi
-    - KI-TOOL-KI-CLI-142
-  - KI-TOOL-MGIT-CLI-017, -018 and -019: tools-burndown reports and the done records KI-TOOL-MGIT-CLI-020 to -022.
+    - [KI-TOOL-KI-CLI-142 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/683abf5f/docs/roadmap/KI-TOOL-KI-CLI-142-preserve-harness-release-settings.md)
+  - [KI-TOOL-MGIT-CLI-017](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-017-unified-external-members.md), -018 and -019: tools-burndown reports and the done records [KI-TOOL-MGIT-CLI-020 (pruned)](https://github.com/knowledgeislands/tools-mgit/blob/e91c0081/docs/roadmap/KI-TOOL-MGIT-CLI-020-safe-parallel-sync.md) to -022.
   - Several are also held by this work's own reports and design files. These are:
     - `accept-prune`
     - `cli-conventions`
@@ -87,7 +87,7 @@
     - `design/bring-up/tools-burndown.md`
     - the migration-plan dry-run files
 - **Not written to (no work file):**
-  - The personal `acquire` repository holds OPS-005, MOD-006, GOV-175 and GOV-195. The links are in retired-path reports under `+/_THREADS/acquire-intake/` and in KB-ACQUIRE-002 and -003. I noted this in the knowledge-acquisition Messages line.
+  - The personal `acquire` repository holds OPS-005, MOD-006, GOV-175 and GOV-195. The links are in retired-path reports under `+/_THREADS/acquire-intake/` and in [KB-ACQUIRE-002](/Users/krisbrown/workspaces/personal/acquire/docs/roadmap/KB-ACQUIRE-002-migrate-granola-state.md) and -003. I noted this in the knowledge-acquisition Messages line.
   - hnr-principal holds GOV-208. personal-principal holds none of these records.
 
 Outstanding - no action requested now:
@@ -116,13 +116,13 @@ Outstanding - no action requested now:
 **Context:**
 
 - Fourteen Done records stay held, mostly by other works' reports. Their owners now each have a PIN-DONE-LINKS line.
-- KI-HARNESS-GOV-210 is held only inside the harness and by this work's own files. The holders are GOV-189, -199 and -200, three skill standards, and the `accept-prune` and `cli-conventions` reports.
+- [KI-HARNESS-GOV-210](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-210-work-model-write-in.md) is held only inside the harness and by this work's own files. The holders are GOV-189, -199 and -200, three skill standards, and the `accept-prune` and `cli-conventions` reports.
 - Several others are also held by harness records GOV-200, -214, -215 and OPS-009.
 - This brief did not cover editing those live records or standards.
 
 **Query:** Should one follow-up run pin the in-harness and own-folder links and then prune every Done record that is free by then?
 
-**Options:** a) (recommended, confidence medium - it frees GOV-210 at once and the rest as owners act, but the standards' links may deserve a durable target rather than a pinned copy) Authorise one follow-up run, once the owning works have acted on their Messages lines. It would pin the links in harness records and this work's own files, point the three standards' GOV-210 links at the GitHub copy, and prune whatever is free then. b) Pin and prune only KI-HARNESS-GOV-210 now, and leave the rest to each owner's mark. c) Leave the fourteen records in place.
+**Options:** a) (recommended, confidence medium - it frees GOV-210 at once and the rest as owners act, but the standards' links may deserve a durable target rather than a pinned copy) Authorise one follow-up run, once the owning works have acted on their Messages lines. It would pin the links in harness records and this work's own files, point the three standards' GOV-210 links at the GitHub copy, and prune whatever is free then. b) Pin and prune only [KI-HARNESS-GOV-210](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-210-work-model-write-in.md) now, and leave the rest to each owner's mark. c) Leave the fourteen records in place.
 
 ### 🤖 → 👤 Handoff to supervisor · since 19:25 BST
 

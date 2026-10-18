@@ -36,7 +36,7 @@ Nothing.
 
 **Context:** [KI-TOOL-RIG-DIST-012](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-DIST-012-green-main-ci.md) is delivered with green CI evidence and is awaiting review. RIG-CI-RED a) proposed reclassifying the 14 records' `theme`. Moving the pin made that unnecessary, so the records are unchanged.
 
-**Query:** Will you accept KI-TOOL-RIG-DIST-012 as delivered?
+**Query:** Will you accept [KI-TOOL-RIG-DIST-012](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-DIST-012-green-main-ci.md) as delivered?
 
 **Options:** a) Accept it as it stands. b) Also reclassify the 14 records' `theme`. c) Something else.
 
