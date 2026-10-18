@@ -6,8 +6,8 @@ project: ways-of-working
 theme: model
 worker: agent
 supervisor: owner
-state: handoff-to-supervisor
-since: 2026-10-18T16:39:10Z
+state: with-worker
+since: 2026-10-18T17:03:00Z
 received: null
 beat: null
 mark: 2026-10-18T10:06:05Z
