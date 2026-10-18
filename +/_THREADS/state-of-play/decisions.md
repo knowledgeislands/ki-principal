@@ -1091,3 +1091,7 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 - Acted on ways of working's 17 October READY as `first-steps`: each restartable thread has a RUN-HYGIENE FIRST-STEP line; READY removed.
 - Kris, about 01:40 BST: "The observatory thread has been resumed. I think I also have the tools burned down". Knowledge acquisition's resume line given, recommended next for the dispatch handover.
 - **WRAP-UP:** "We're going to do some quite big updates for "ways of working". So I think it's probably a good idea for you to wrap up any outstanding points you've got and make sure that you've persisted everything into the checkpoints and the threads."
+
+## 2026-10-18 02:24 BST - MS3-DROPPED
+
+- **MS3-DROPPED** (replaces MS3-SPLIT): "Forget about the MS3 stuff. I'm not sure what it was all about. I'm not bothered." Item 2 of Personal's dispatch handover (the held MS3 receipt questions) is dropped. Dispatched `ms3-drop` to tell knowledge acquisition.
