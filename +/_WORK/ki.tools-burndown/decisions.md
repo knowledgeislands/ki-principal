@@ -239,3 +239,14 @@ Read back as taken:
 ## 2026-10-18 04:00 BST - WOW-HANDOFF
 
 Kris: "give me a sort of handoff prompt of where you are at ... I can give it to the ways of working thread who's going to be making the essential changes ... they can work around whatever you're planning to do or make the changes and then when they're finished hand off the rest back to you and give me a prompt to give to you". Read back: the thread stays on hold; Ways of working receives a handoff prompt through Kris and returns a resume prompt when its changes land.
+
+## 2026-10-18 18:10 BST - Resume on the work file; ACCEPT-PRUNE read back
+
+Kris resumed the work from its work file at 18:08 BST. Acted on the Messages, FIRST-STEP first:
+
+- FIRST-STEP (Ways of working hand-back, 04:02 BST): tools-ki is left alone until migrate-phase2b reports ki 0.10.6 here; the ki release and `.github/ki-version` bump are dropped from this work (Ways of working owns them); KI-TOOL-KI-CLI-127 joins the tools-ki ki-accept group; the new report forms apply; Rig and mgit are clear to start.
+- ACCEPT-PRUNE, in Kris's words of 18 October relayed by Ways of working: "anything which is awaiting acceptance can be accepted, and then we can prune anything which is in a state of done". Read back as taken:
+  - tools-rig: accept KI-TOOL-RIG-CORE-060 on its recorded verification evidence, and prune it once Done. This takes the place of the separate review that RIG-TARGET-SPEED-ACCEPT asked for. Other Rig work's records are left to their owners.
+  - tools-mgit and tools-git-almanac: accept each Awaiting review record whose verification evidence is recorded, list those without it, and prune the Done ones. KI-TOOL-MGIT-CLI-017, -024 and -025 are left to Ways of working.
+  - tools-ki: deferred until 0.10.6 has been released.
+  - MCP repositories: none is in this work's scope, so they are listed but not acted on (MCP-SCOPE).
