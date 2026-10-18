@@ -1151,3 +1151,7 @@ Taken as: start the move into work folders now on main rather than after the rel
 ## 2026-10-18 04:33 BST - RELEASE-NUMBER (thread note)
 
 The approved release from migrate-phase2b is being cut as v0.11.0 rather than 0.10.6, because it adds the `ki work status` command. It is still the one release Kris approved. The pre-approved fix release becomes 0.11.1 if this one ships as 0.11.0, and the queued briefs now say so. Kris to confirm in the morning.
+
+## 2026-10-18 04:52 BST - REHOME (thread call)
+
+migrate-phase2b asked whether to point this run at its work folder; took option a), mechanical and high confidence: `ki agent home ways-of-working --work ki.ways-of-working` after migrate-apply finished. migrate-apply left MIGRATE-CALLS, five provisional judgement calls, for Kris to confirm in the morning.
