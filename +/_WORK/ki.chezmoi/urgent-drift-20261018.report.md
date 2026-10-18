@@ -22,7 +22,7 @@ Initial report commit `416553796b76bf0bb0b0fd729a2ff8c232da89d7` was published a
 
 Preserved previous SSH evidence, held source work, checkpoint and other-session decisions-log edits. Wrap-ways was DONE before report writes. No firewall, SSH, Headroom, scheduler, credential or service mutation, installation, message sending, acceptance, pruning or feature work occurred. No source Git locks remain.
 
-Roadmap inspection found an existing duplicate identifier between [Gmail routing](</Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-096-configure-gmail-routing-paths.md>) and [thread identity registration](</Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-096-thread-identity-hook-registration.md>); no roadmap repair was included.
+Roadmap inspection found an existing duplicate identifier between [Gmail routing](</Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-097-configure-gmail-routing-paths.md>) and [thread identity registration](</Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-096-thread-identity-hook-registration.md>); no roadmap repair was included.
 
 ## In Progress
 

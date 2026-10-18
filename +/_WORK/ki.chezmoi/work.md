@@ -19,11 +19,19 @@ created_at: 2026-10-08T08:40:00Z
 
 ## Next steps
 
-Mark 2026-10-18T17:57:57Z: repair remains unfinished: six source edits and five chezmoi drift entries; required source gates failed. Preserve all open queries, the reviewed diff and existing activation holds. This bookkeeping mark preserves handoff-to-supervisor and blocking state; it does not resume delivery or close the repair.
+Mark 2026-10-18T17:57:57Z retained. The 18 October prerequisite run started with six source edits (five authorised skill-rename paths plus the unrelated mgit edit); the fresh native inventory has five target entries, not the six stated in the successor brief. Source prerequisites are repaired and the complete local gate passes; the concrete four-target apply remains unapproved. Preserve all open queries, the reviewed diff and existing activation holds. This bookkeeping mark preserves handoff-to-supervisor and blocking state; it does not resume delivery or close the repair.
 
 Mark tidy: retain the decisions log where durable homes or complete answers have not been proved. Keep all reports, including the launcher-homed [publication handoff](publish-first-step.report.md), failed-gate and apply-review evidence, and real-host verification limitations. Remove only the received host-locals-sol, resume-first-step and publish-first-step briefs; their reports remain recoverable here. The current mark brief stays until this run is received.
 
-**Pick-up - mark 2026-10-18T17:12:15Z (18:12 BST)**
+**Current pick-up - finish-drift-prerequisites, 18 October 2026**
+
+Review `/Users/krisbrown/.local/state/ki/agents/chezmoi/finish-drift-prerequisites.review.diff` (freshly generated; SHA-256 `717414930011156a95ea6cc247ce1b07cfae8afbd9232de58a804ef2b35cc178`) before any four-target, scripts-excluded apply. Source changes are verified; local skill projection is restored. Emerge's offline frozen dependency check succeeds with no package or tracked-file changes, and its isolated session test passes. The existing thread-identity record keeps `KB-DOTFILES-UE-096`; Gmail routing is preserved as `KB-DOTFILES-UE-097`, with cross-links and historical-identity explanation.
+
+The five fresh target entries are `.claude/communication.md`, `.claude/delegation.md`, `.codex/AGENTS.md`, `.config/ki/config.toml` and `.codex/config.toml`. Claude Desktop and Claude Code settings have no pending native diff at this check. Codex separately proposes trust for the `ki-design` checkout; exclude it from the four-target apply and review its source inventory before any adoption. The KI config's territories array differs only in formatting; its parsed values and retained locals match. No broad reverse merge or secret material is needed for these four targets.
+
+Live `ki repair` remains behind its own dry-run review boundary. Keep the Sol protected-byte failure and unverified Terra pass open; retain the shared source locals and all firewall, rollout, job, service and activation holds. The latest run report is launcher-homed after completion; it owns the final commit/publication receipt. Historical pick-up text below records earlier failed prerequisites and does not override this current state. Unrelated mgit remains with its owner.
+
+**Historical pick-up - mark 2026-10-18T17:12:15Z (18:12 BST)**
 
 - **Status:** resumed under Kris's 18 October instruction; old delivery pause lifted. Nothing running or queued. FIRST-STEP source rename prepared in its five named files, uncommitted because the required repository audit and full tests fail. No source apply or live repair authorised by this run.
 - **Guidance:** ki-coordination read at 807b93bb; canonical ki-delegation and ki-work-folder read from the harness checkout. Identity remains unchanged. The owner explicitly requested the new mark, committed by the coordinator at 18:12 BST; it is not a hold or stop.
