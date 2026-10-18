@@ -1321,3 +1321,9 @@ Read back:
 > Okay, let's talk about work file vs. work path then. I thought you were talking about everything that's under that work directory, or effectively, what skill is responsible for making sure that it's clean and tidy. Those kinds of things. Basically, we want a skill that's managing things that are under su_work/ID, right? So, maybe just think about that one a bit more. Let's go up with the right approach because I think we just need to consider what the confidence is in terms of other files or things that might change things in there.
 
 Read back: WORK-FILE-NAME and the work-folder half of CHECKPOINT-FATE and WORK-FOLDER-DEDUP are reopened. The aim is one skill that owns everything under `+/_WORK/<id>/` and keeps it clean and tidy. Before naming or building it, a design run maps every party and tool that writes, reads or deletes in that folder, says how confident we can be that one owner holds, and recommends the approach and name. The coordination-rename run defers the work-folder skill and the dedup until that answer; the other renames go ahead.
+
+## 2026-10-18 10:19 BST - owner answer, MGIT-FLAGS-APPLY
+
+> regarding mgit, yes, just apply the completions now.
+
+Read back: MGIT-FLAGS-APPLY a) - `chezmoi apply ~/.zsh/completions/_mgit` on this Mac only, after confirming the diff is still the four lines shown; Terra and Sol take it at their next normal apply.
