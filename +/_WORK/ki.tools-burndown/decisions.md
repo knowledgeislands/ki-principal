@@ -54,3 +54,11 @@ Kris, 17 October: "Keep -/_DIGESTS/ as the declared scaffold."
 - HOST-WRITES (14 October): the replacement-policy investigation stays parked with Techne: agent-host; held in [ki.estate-factorisation](../../_WORK_REVIEW/ki.estate-factorisation/work.md).
 - HOST-GUARDS (14 October): [KI-TOOL-TECHNE-CLI-006](/Users/krisbrown/workspaces/knowledge-islands/tools-techne/docs/roadmap/KI-TOOL-TECHNE-CLI-006-guarded-host-commands.md) stays on Hold, review on 12 November; the record carries it.
 - FOOTER-GRANTS (16 October): separate `--allow fetch` and `--allow machine` grants; [KI-TOOL-KI-CLI-134](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-134-launch-footer-follows-brief.md) carries it.
+
+## Messages acted on at the mark (18 October)
+
+PIN-DONE-LINKS, relayed by Ways of working at 19:30 BST: "Kris answered PRUNE-HELD a) on 18 October; these Done records are held only by local links, so at your next mark pin each link to the GitHub copy at the revision named, or delete the report if it is spent." Read back as taken: tools-ki, tools-rig and this work folder's roadmap-overview, mgit-diverge and mgit-prune reports pin their links; MGIT-PRUNE-LINKS is now held only by KI-TOOL-KI-CLI-140's link to KI-TOOL-MGIT-CLI-021, so the mgit prune follows the tools-ki pin.
+
+CLI-DEPARTURES, relayed by Ways of working at 19:31 BST: "Kris answered CLI-DEPARTURES a) on 18 October. Add these departures from the ki-repo-tools command-line conventions (KI-HARNESS-GOV-218) to each tool's existing records and fix them at its next change." Read back as taken: the departures are recorded now on tools-mgit, tools-rig and tools-ki records; each fix waits for that tool's next change; `-f, --filter` stays excluded under CLI-F-FILTER.
+
+tools-ki gate read as met: tools-ki shipped v0.11.3 (`4b2506f1`), past the ki 0.10.6 the deferral waited for, so ACCEPT-PRUNE for tools-ki and the ki-accept group restart at this mark.
