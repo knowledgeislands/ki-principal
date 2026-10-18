@@ -214,3 +214,7 @@ DESK-KIT-ROUTE closed. Launched `desk-kit-close` to retire the desk-kit area.
 ## 2026-10-18 02:22 BST - WRAP-UP
 
 Kris: "We're going to do some quite big updates for "ways of working". So I think it's probably a good idea for you to wrap up any outstanding points you've got and make sure that you've persisted everything into the checkpoints and the threads." Acted on: FIRST-STEP (role added), TOOLS-PUSH and KI-QUIET folded into next steps; open queries regrouped for a quick sitting; nothing launched.
+
+## 2026-10-18 02:40 BST - MAINLINE-NOW
+
+Kris, on the tools-mgit and tools-rig commits held locally: "can you get it into main line ASAP". Read as: push tools-mgit and tools-rig main fast-forward now, ahead of acceptance; KI-TOOL-MGIT-CLI-017 and KI-TOOL-RIG-CORE-060 stay Awaiting review until Kris ki-accepts. tools-ki is not covered: another session's rebase owns it.
