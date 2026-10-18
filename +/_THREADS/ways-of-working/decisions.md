@@ -954,3 +954,9 @@ Taken as:
 - TITLE-THEME a), WORK-THEME-SLUGS a), TARGET-GLYPH a) (👤 for every target).
 - MIGRATION-LAUNCH a): start now. Kris is putting nearly all territories on hold for a clear run; the other machine has checked in its work.
 Acted on: run migrate-phase1 (ki-agentic-harness), which first folds these answers into the migration brief.
+
+## 2026-10-18 02:21 BST - HOLD-ON
+
+Kris, as received: "Hold on."
+
+Taken as: wait for more from Kris; no agent named, so migrate-phase1 keeps running unless Kris names it and says stop.
