@@ -5,22 +5,22 @@ label: 'Knowledge Islands Model: knowledge-acquisition'
 role: coordination
 state: active
 created_at: 2026-10-08T08:35:00Z
-updated_at: 2026-10-18T00:37:00Z
+updated_at: 2026-10-18T00:48:00Z
 ---
 
 # knowledge-islands-model.knowledge-acquisition
 
 **Pick-up - mark 2026-10-15T14:59Z (15:59 BST)**
 
-Status: rest. 18 October to 01:37 BST: Kris accepted the six-step acquisition flow (01:20 BST), retire-on-dispatch with a return route for rejected knowledge, routing knowledge in acquire, PORT-NAME a) and the ports/harbour registers (01:35 BST). The Acquisition Process note carries the end-to-end flow, the port term and retire-on-dispatch (`7966373`); KI-PRINCIPAL-MOD-009 widened to dispatch. dispatch-options.report.md lays out six dispatch approaches (push, outbox pull, Kris carries, ledger, Observatory, ki-trades). Running: nothing. Queued: nothing. Waiting on state-of-play: PILOT-SEED and OBSERVATORY-FIRST.
+Status: rest. 18 October to 01:48 BST, Kris's go-ahead (01:40 BST) on DISPATCH-PUSH, RETURN-ROUTE, ROUTING-SOURCE and PORTS-RENAME delivered as records, nothing built: KB-ACQUIRE-007 "Dispatch push and return" and KB-ACQUIRE-008 "Routing knowledge cards" in acquire (triage), acquire's AGENTS.md and README describe the port with durable routing knowledge (`c02f1ea`), KI-HARNESS-GOV-209 "+/_ACQUIRED/ inbound area" in the harness linked to KB-ACQUIRE-007 (`c6b6dd4b`), and the Acquisition Process note names the capability "ports", the harbour as its Arcadian register, and the push dispatch rule (`cbf5de6`). Personal's Decision 7 (pull to push) sent via the state-of-play inbox for Personal's acquire-dispatch thread. Two Haiku fix runs died mid-task; Sonnet reruns finished them. All repositories pushed. Running: nothing. Queued: nothing. Waiting on state-of-play: PILOT-SEED, OBSERVATORY-FIRST, and forwarding Decision 7 to Personal.
 
-Open queries for Kris (dispatch-options.report.md; he asked to discuss the approaches first): DISPATCH-PUSH (the port pushes whole packets into each principal's `+/_ACQUIRED/` only); RETURN-ROUTE (island marks a packet returned; the port takes it back as source `return`); ROUTING-SOURCE (the port keeps per-territory routing cards read from each Capital, then capture the proposed records); PORTS-RENAME (rename the knowledge-acquisition Project and capability to "ports").
+Open queries for Kris: none (PROCEED-DEFAULT).
 
 Standing rules: PROCEED-DEFAULT (act on the recommended course and report it; ask only where his rules require his word); FOLD-AUTHORITY; FOLD-TRIGGER; reports to Kris in plain language; a verified, pushed drop is retired as the last intake step (Kris, 23:40 BST).
 
 Held: KB-DOTFILES-UE-035 with chezmoi, review 21 October. Parked: ChatGPT territory keys to kebab-case names.
 
-Next steps: take Kris's answers; follow state-of-play on the Observatory and PILOT-GO; move the thread on to the next acquisition work Kris names.
+Next steps: plan KB-ACQUIRE-007, KB-ACQUIRE-008 and KI-HARNESS-GOV-209 when Kris names acquisition work next, piloting dispatch on one territory; follow state-of-play on the Observatory and PILOT-GO; move the thread on to the next acquisition work Kris names.
 
 Resume line: Resume Knowledge Islands Model: knowledge-acquisition under current ki-pmo and ki-delegation since 2026-10-15T14:59:00Z: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.
 
