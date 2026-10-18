@@ -1,6 +1,6 @@
 ---
 note_type: streams/index
-updated: 2026-10-16T00:00:47Z
+updated: 2026-10-18T00:14:17Z
 author: Written with Claude
 ---
 
@@ -44,12 +44,6 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ---
 
-## Command centre
-
-[[command-centre]] makes the Observatory on each host Kris's command centre - Instruments, Beacon and Bridge, a read-only Sessions view with token use and account windows, and later a messaging endpoint per host over the tailnet - running one shared vocabulary and model. "Council" stays Knowledge Islands Principal's governance body.
-
----
-
 ## Delta evaluation
 
 [[delta-evaluation]] decides whether Delta earns a bounded trial as a delivery and review interface alongside Paperclip.
@@ -83,6 +77,12 @@ Links point upwards only: a work record names its Project, and a Project names i
 ## Mac Studio setup
 
 [[mac-studio-setup]] brings Kris's Mac Studio, unused for over a month, back to full estate capability: chezmoi, Rig, Homebrew `ki`, the workspace and an agent runtime, so any thread can resume there. It sits under [[rig|Rig]] because the Mac Studio is a workstation.
+
+---
+
+## Observatory
+
+[[observatory|Observatory]] makes the Observatory the operations centre for one or more territories - per Rig at a uniform address, read-only over knowledge, threads and agent sessions, with a review queue, Git tooling and feedback into the capture cycle. It absorbed Command centre on 2026-10-18.
 
 ---
 

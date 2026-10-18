@@ -7,7 +7,7 @@ initiative: platform-foundations
 lifecycle: planned
 lead: Kris Brown
 target: null
-updated: 2026-10-14T23:30:00Z
+updated: 2026-10-18T00:14:17Z
 author: Written with Claude
 ---
 
@@ -15,7 +15,7 @@ author: Written with Claude
 
 ## Outcome
 
-Decide how the estate gets metrics out of its use of AI tooling: how token use is measured and attributed per run, per thread and per account, OTLP included. `ki-tokenomics` keeps budget and model-purpose policy, [[command-centre|Command centre]] shows the result and [[ways-of-working]] acts on it. The test: Kris has decided, and the decision has a durable home and any delivery records an owning repository.
+Decide how the estate gets metrics out of its use of AI tooling: how token use is measured and attributed per run, per thread and per account, OTLP included. `ki-tokenomics` keeps budget and model-purpose policy, [[observatory|Observatory]] shows the result and [[ways-of-working]] acts on it. The test: Kris has decided, and the decision has a durable home and any delivery records an owning repository.
 
 This Project sits in [[platform-foundations|Platform foundations]]. Kris opened it on 2026-10-14 as a planned Project whose Outcome is a decision, with no thread yet: "Open host-network under Rig and ai-observability under Platform foundations, both planned with a decision as their Outcome".
 
