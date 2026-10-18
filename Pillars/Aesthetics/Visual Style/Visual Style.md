@@ -86,6 +86,8 @@ Visual symbols carry consistent conceptual meaning across all outputs. See [[Sym
 | Port                 | Entry and exit; integration   |
 | Lighthouse           | Guidance                      |
 | Council Hall         | Governance                    |
+| Citadel              | Civic heart of a Capital      |
+| Tower                | Watching and guiding          |
 | Observatory          | Insight / analytics           |
 | Route                | Relationship                  |
 | Current              | Information flow              |

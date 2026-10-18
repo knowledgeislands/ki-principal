@@ -22,7 +22,7 @@ For the full symbolic semantics table and terrain language, see [[Visual Style/V
 
 ## Symbols
 
-The sixteen canonical symbols, their meanings, and terrain associations:
+The eighteen canonical symbols, their meanings, and terrain associations:
 
 | Symbol            | Meaning                       |
 | ----------------- | ----------------------------- |
@@ -31,6 +31,8 @@ The sixteen canonical symbols, their meanings, and terrain associations:
 | Port              | Entry and exit; integration   |
 | Lighthouse        | Guidance                      |
 | Council Hall      | Governance                    |
+| Citadel           | Civic heart of a Capital      |
+| Tower             | Watching and guiding          |
 | Observatory       | Insight / analytics           |
 | Route             | Relationship                  |
 | Current           | Information flow              |
@@ -44,6 +46,8 @@ The sixteen canonical symbols, their meanings, and terrain associations:
 | Trade Route       | Collaboration / exchange      |
 
 The Port replaced the Harbour, and the Lighthouse and Council Hall took separate meanings, under [[GDR-KI-PRINCIPAL-010-the-port|GDR-KI-PRINCIPAL-010]]. The Harbour is retired as a symbol; operational systems, the old Port meaning, belong to `Admin/Operations`.
+
+The Citadel and the Tower were confirmed under [[GDR-KI-PRINCIPAL-011-the-citadel-and-the-tower|GDR-KI-PRINCIPAL-011]]. The Citadel holds the Library, the Council Hall and the Tower, and is drawn across a 7-hex flower. The Tower is the mark of the local app, the Observatory; the domed Observatory symbol keeps its meaning of insight and is never the app's mark.
 
 ### Port modes
 
