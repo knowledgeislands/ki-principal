@@ -14,7 +14,7 @@ blocks: []
 blocked_by: []
 baseline_ref: null
 created_at: 2026-10-17T22:50:00Z
-updated_at: 2026-10-17T22:50:00Z
+updated_at: 2026-10-18T00:35:00Z
 ---
 
 # Amend ADR-KI-PRINCIPAL-001 Staging Wording
@@ -40,3 +40,4 @@ The ADR's decision says `ki acquire import --adapter <provider>` stages material
 - Decide whether the ADR names `acquire` as the staging home or states the principle (staging in a Git-backed holding area owned outside the receiving island) and lets the Acquisition Process note carry the location.
 - Check the other wording that follows from the same sentence: the Context paragraph on the Harbour, and the ADR's consequences about `tools-ki` owning staging mechanics.
 - Keep the [[Acquisition Process]] note consistent with the amended wording.
+- Widen the amendment to cover the end-to-end flow Kris accepted on 2026-10-18 and recorded in the [[Acquisition Process#End-to-end flow|Acquisition Process]] note: dispatch into the receiving island's inbound area, acquire retiring its copy once dispatched (keeping the receipt and fingerprints, with returned items coming back as rejected knowledge), and "the port" as the name of acquire's function, with "harbour" kept for the island imagery.

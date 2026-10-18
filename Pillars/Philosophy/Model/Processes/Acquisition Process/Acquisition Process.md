@@ -18,6 +18,37 @@ Acquisition is not session archiving. A source is visible because it holds trans
 
 ---
 
+## End-to-end flow
+
+The port is acquire's function: the single point where material enters the territories and leaves again for the island that should have it. Material goes into acquire and out of it in a coordinated form, in six steps.
+
+```mermaid
+flowchart LR
+  S["Sources<br/>AI sessions, meetings,<br/>messages, voice, images"] --> D["Drops<br/>holding folders, exports"]
+  D --> I["1. Intake<br/>receive, verify, receipt"]
+  S --> I
+  I --> R["2. Sorting<br/>who should have it"]
+  R -->|unsure| K["Kris decides"]
+  K --> R
+  R --> P["3. Dispatch<br/>into the island's inbound area"]
+  P --> T["4. Island triage"]
+  T --> F["5. Filing and fold-back"]
+  P --> X["6. Retirement<br/>receipt and fingerprints kept"]
+  T -->|not about this island| I
+```
+
+- **Sources and drops.** Material is born at a source: an AI session, a meeting, a message, a voice note, a photo. Where it cannot be read directly, Kris drops it in a holding place to wait for intake. A drop is not yet acquired.
+- **1. Intake.** Acquire receives the material faithfully, verifies it and writes a receipt. It decides nothing about meaning.
+- **2. Sorting.** Acquire decides only who should have each item: the territory and its receiving principal. It does not decide what matters, where it is filed or whether it changes a decision. Anything it is unsure of goes to Kris.
+- **3. Dispatch.** Acquire places the item in the receiving island's inbound area. The mechanism is still being chosen.
+- **4. Island triage.** The receiving principal, which knows its own world far better than acquire, decides what each item is worth: file it, turn it into work, park it or return it.
+- **5. Filing and fold-back.** The receiving principal files what it keeps under its own Enactment Process and folds returning knowledge back into the notes it belongs to.
+- **6. Retirement.** Acquire retires its copy once the item is dispatched, as [[#Source retirement]] sets out.
+
+Acquire holds the routing knowledge sorting needs, and it is also a place where Kris reasons with his material across all his territories, which is why it belongs to Personal.
+
+---
+
 ## Lifecycle stages
 
 The ADR fixes six stages. Each has an owner for its mechanics; the receiving island owns acceptance of anything it keeps.
@@ -29,7 +60,7 @@ The ADR fixes six stages. Each has an owner for its mechanics; the receiving isl
 | Stage | Write the capture and its provenance into the receiving working area, with an incremental checkpoint | `tools-ki` (`ki acquire import --adapter <provider>`) |
 | Harvest | Review the capture and promote reviewed knowledge into the island | The receiving island |
 | Durable knowledge | Accepted notes in `Pillars`, `Resources` or `Calendar` | The receiving island, under its Enactment Process |
-| Archive or delete source | Retire the transient source or staged capture | Open: see [[#Source retirement]] |
+| Archive or delete source | Retire the transient source or staged capture | Acquire for captures; open for provider-side sources: see [[#Source retirement]] |
 
 Reusable provider-facing skills and their paired adapter surfaces belong to `ki-agentic-harness`.
 
@@ -89,7 +120,9 @@ Initial routing may be wrong and need not be perfect. A capture can move within 
 
 ## Source retirement
 
-Archiving or deleting a source session or a staged capture is **undecided**. Successful discovery, staging or harvesting alone does not authorise mutating a source. The threshold needs a later, provider-specific safety decision recorded in the owning repository's roadmap. A downloaded drop (such as an attachments ZIP in a holding area) may be deleted once every file in it is verified in Git and pushed, as step 8 of [`acquire`'s CAPTURE-CHATGPT.md](https://github.com/krisb/acquire/blob/main/CAPTURE-CHATGPT.md) sets out; provider-side sources (ChatGPT chats, Granola meetings) stay under the rule above.
+Acquire retires its copy of a capture once it is dispatched, keeping the receipt and the fingerprints (the content hashes), so that acquire never becomes a second copy of everything the territories have dealt with. It does not wait for the receiving island to accept the item. A receiver may return anything that is not about it; the return comes back into acquire as a new acquisition, rejected knowledge, and goes through intake and sorting again.
+
+Archiving or deleting a provider-side source session is **undecided**. Successful discovery, staging or harvesting alone does not authorise mutating a source. The threshold needs a later, provider-specific safety decision recorded in the owning repository's roadmap. A downloaded drop (such as an attachments ZIP in a holding area) may be deleted once every file in it is verified in Git and pushed, as step 8 of [`acquire`'s CAPTURE-CHATGPT.md](https://github.com/krisb/acquire/blob/main/CAPTURE-CHATGPT.md) sets out; provider-side sources (ChatGPT chats, Granola meetings) stay under the rule above.
 
 ---
 
