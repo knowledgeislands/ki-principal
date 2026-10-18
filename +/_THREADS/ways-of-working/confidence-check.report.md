@@ -14,6 +14,7 @@
 - `ki repo audit --skill ki-skills` shows three LONG-3 refresh-cadence warnings, all on untouched skills.
 - The remediation-inventory test's criterion counts went up by one for the new item.
 - ki-agentic-harness was pushed fast-forward to `d6dc28d7`. `git pull --rebase` refused because another session has uncommitted changes in `docs/roadmap/KI-HARNESS-GOV-209-acquired-inbound-area.md`. Origin had not moved since the fetch, and the push went through as a fast-forward. I left that file alone. My two commits were the only ones pushed.
+- ki-principal: this report was pushed fast-forward. Under ROUTINE, the push also carried another session's commit `8af2d4f` (docs(checkpoints): hold the sol restart until Kris picks it up), which sat beneath it.
 
 ## In Progress
 
