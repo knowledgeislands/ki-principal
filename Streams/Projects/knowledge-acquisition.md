@@ -37,3 +37,4 @@ This Project sits in [[knowledge-islands-model|Knowledge Islands model]].
 
   Open questions carried with them: the provisional Spirituality project binding, and what happens to the 77 export files referenced by no conversation. The harness's staging checkpoint of 2026-10-14 holds the evidence pattern (immutable project bindings, explicit omissions, checksums from a clean checkout) the Pillars lifecycle note can draw on.
 - **Known World part, 2026-10-15.** On 15 October Kris placed the foundations model in [[Known World]] and gave this Project its part: the inception loop, publishing a seed into acquire's ChatGPT context and folding back the capture that returns with `ki_project`. [[Known World]] is the loop's first pilot, and an [[Emerging Concepts]] note is a seed and fold-back target as well as a Project's Notes.
+- **Dispatch came from Personal, 2026-10-18.** On 18 October Personal retired its Acquire > Dispatch Activity and Kris brought it into this Project.
