@@ -1002,3 +1002,9 @@ Taken as: put RUN-SHAPE to Kris as a prompt with options.
 Kris, as selected: RUN-SHAPE - "This thread does it (Recommended)": this thread runs phases 2-4, edits tools-ki and the on-hold projects' checkouts, and gives each project (observatory, tools burndown) a prioritised bring-up item for its product work. Release - "Yes, one release (Recommended)": this thread cuts one tools-ki release through Homebrew once phase 2 passes its checks, and asks before any follow-up release.
 
 Taken as: PHASE2-OWNER answered with RUN-SHAPE; migrate-phase2 queued in tools-ki behind migrate-phase1.
+
+## 2026-10-18 02:49 BST - MIGRATION-ORDER
+
+Kris, as received: "you can get moving, I suggest though that you fully do knowledge islands first, then we get the tools updated, then we do some check etc, before we do other territories"
+
+Taken as the order: (1) phase 1 harness, running; (2) tools-ki reader and one release, kept ahead of the Capital because `ki agent` and the registry read checkpoints and Initiatives today, so moving them first would break this thread's own runs; (3) the Capital; (4) the rest of the Knowledge Islands territory; (5) the other tools brought in line (observatory and the rest) with their bring-up items; (6) a check pass with Kris; (7) other territories only after that; (8) tolerance window closes, then the skills audit. Kris can say "Capital before tools-ki" to override step 2.
