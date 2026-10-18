@@ -26,7 +26,7 @@ created_at: 2026-10-13T23:50:00Z
 - Then: deliver KI-OBSERVA-BRG-002 when the harness change lands; shape live artifacts as extensions of the Observatory (ARTIFACTS-EXTEND; obs-extensions reworking [design/live-artifacts.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/design/live-artifacts.md) - running); [KI-OBSERVA-OPS-003](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-OPS-003-observatory-serving-location.md) waits in triage; unit 4, the tailnet name, waits for Host network.
 - Each delivery ends with an interactive service restart; a background run never restarts it.
 - Running under PUSH-ALL: obs-extensions (steered: lose nothing, keep overlaps side by side), obs-feedback (KI-OBSERVA-BRG-002, send off), then obs-hosts (triage record). Each apps-observatory.local delivery needs a service restart after.
-- Open with Kris: OBS-REVIEWS (review now the service is restarted); retired from the list: OBS-FEEDBACK-WAIT, OBS-REVIEWS, OBS-HOSTS.
+- Open with Kris: OBS-REVIEWS (review KI-OBSERVA-VIS-023 and KI-OBSERVA-VIS-024 now the service is restarted).
 
 ## Messages
 
