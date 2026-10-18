@@ -333,3 +333,17 @@ home: +/_CHECKPOINTS/rig.chezmoi.md
 home: +/_CHECKPOINTS/rig.chezmoi.md
 
 - We're going to do some quite big updates for "ways of working". So I think it's probably a good idea for you to wrap up any outstanding points you've got and make sure that you've persisted everything into the checkpoints and the threads.
+
+## Decision 82 (2026-10-18T01:33:37Z)
+
+home: +/_CHECKPOINTS/rig.chezmoi.md
+
+- can you sort out the chezmoi drift asap please
+
+## Decision 83 (2026-10-18T01:44:54Z)
+
+home: +/_CHECKPOINTS/rig.chezmoi.md
+
+- DRIFT-APPLY-FOUR
+
+Apply the four remaining reviewed targets with scripts excluded, then verify chezmoi and Rig. Keep job activation held.
