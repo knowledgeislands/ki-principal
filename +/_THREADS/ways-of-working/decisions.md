@@ -978,3 +978,9 @@ Taken as: carry on with timed updates while migrate-phase1 runs; RUN-SHAPE stays
 Kris, as received: "so are you fully drained and waiting to resume when told?"
 
 Taken as a question, not a hold instruction: answered that this thread is not drained, because it is the one running the migration (migrate-phase1 live); asked whether Kris meant another thread or wants this one held.
+
+## 2026-10-18 02:47 BST - DRAIN-CHECK (answered)
+
+Kris, as received: "Yes, it was meant to be a different thread. You're the one who's actually doing the work right now. Keep going."
+
+Taken as: this thread is not held; migrate-phase1 continues; RUN-SHAPE stays open.
