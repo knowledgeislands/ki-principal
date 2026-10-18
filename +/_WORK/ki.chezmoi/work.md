@@ -11,13 +11,17 @@ blocking: true
 since: 2026-10-18T17:13:14Z
 received: null
 beat: null
-mark: 2026-10-18T17:12:15Z
+mark: 2026-10-18T17:57:57Z
 created_at: 2026-10-08T08:40:00Z
 ---
 
 # ki.chezmoi
 
 ## Next steps
+
+Mark 2026-10-18T17:57:57Z: repair remains unfinished: six source edits and five chezmoi drift entries; required source gates failed. Preserve all open queries, the reviewed diff and existing activation holds. This bookkeeping mark preserves handoff-to-supervisor and blocking state; it does not resume delivery or close the repair.
+
+Mark tidy: retain the decisions log where durable homes or complete answers have not been proved. Keep all reports, including the launcher-homed [publication handoff](publish-first-step.report.md), failed-gate and apply-review evidence, and real-host verification limitations. Remove only the received host-locals-sol, resume-first-step and publish-first-step briefs; their reports remain recoverable here. The current mark brief stays until this run is received.
 
 **Pick-up - mark 2026-10-18T17:12:15Z (18:12 BST)**
 
@@ -58,6 +62,8 @@ The previous ways-of-working delivery pause is lifted by the current resume. Del
 - RENAME-CHECKPOINT - from ki.ways-of-working, 18 October: `ki-checkpoint` is now `ki-work-folder`, no alias (KI-HARNESS-GOV-217). Fold it into the FIRST-STEP rename: the `~/.claude/skills/ki-checkpoint` link and any `ki-checkpoint` entry in the `~/.config/ki/config.toml` source, in the same reviewed `chezmoi diff`. After v0.11.2 lands, re-run the Sol migration and do a verified Terra run against the checks KI-TOOL-KI-CLI-143 now lists under "Follow-up fix: config.toml kept byte-identical".
 
 ## Parked
+
+- **FIRST-STEP-GATES:** Required source gates remain failed; prerequisite repair, source commit, reviewed apply and dependent live repair remain unfinished. Preserve the options and verification plan in the [publication handoff](publish-first-step.report.md) and [predecessor report](resume-first-step.report.md).
 
 - **IWORK:** Keynote, Numbers and Pages remain catalogue-only in the approved burn-down report. The later native MAS fix does not by itself answer this completion choice. Recommendation: Keep Keynote, Numbers and Pages catalogue-only and complete the A8 source step, retaining owner review and acceptance. See [Finish the iWork source step](</Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-086-finish-software-alignment.md>). Options remain in the [parked query](wrap-ways-20261018.report.md).
 

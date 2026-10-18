@@ -403,3 +403,9 @@ home: +/_WORK/ki.chezmoi/work.md class: operational
 home: +/_WORK/ki.chezmoi/work.md class: operational
 
 - and fix the drift
+
+## Decision 91 (2026-10-18T17:57:57Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- take a mark
