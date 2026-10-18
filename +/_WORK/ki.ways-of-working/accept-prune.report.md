@@ -29,7 +29,7 @@ Nothing is running.
 
 ### Outstanding - no action requested now
 
-- [KI-PRINCIPAL-MOD-010](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-010-work-model-terminology-sweep.md) was left awaiting review. Its evidence is recorded and its re-check passes, but it has no six-heading Review packet; see MOD-010-PACKET.
+- [KI-PRINCIPAL-MOD-010 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/420d47e/Streams/Roadmap/KI-PRINCIPAL-MOD-010-work-model-terminology-sweep.md) was left awaiting review. Its evidence is recorded and its re-check passes, but it has no six-heading Review packet; see MOD-010-PACKET.
 - These Done records are kept because live links point to them from other repositories or other works (see PRUNE-HELD):
   - [KI-PRINCIPAL-MOD-006](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-006-knowledge-acquisition-lifecycle.md), linked from other works' reports, personal-principal KB-ACQUIRE-002 and -003, and KI-PRINCIPAL-MOD-009.
   - [KI-HARNESS-GOV-175](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-175-delegation-run-events.md), linked from tools-ki KI-TOOL-KI-CLI-123 and other works' reports.
@@ -46,7 +46,7 @@ Nothing is running.
 - Other records kept:
   - [KI-HARNESS-GOV-201](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-201-fetch-and-machine-grants.md) waits on the open PRUNE-GOV-201 query in the review-gov194-201 report.
   - [KI-HARNESS-GOV-210](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-210-work-model-write-in.md) will receive the queued glyph-owner run.
-  - [KI-HARNESS-GOV-206](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-206-activity-homes-and-coordination.md) (cancelled) is still named by KI-HARNESS-GOV-210's `blocks` field, which fails ITEM-5 if it is pruned.
+  - [KI-HARNESS-GOV-206 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/08468196/docs/roadmap/KI-HARNESS-GOV-206-activity-homes-and-coordination.md) (cancelled) is still named by KI-HARNESS-GOV-210's `blocks` field, which fails ITEM-5 if it is pruned.
 - Records that other works have in flight were left alone.
 - Files from other sessions were left untouched:
   - ki-principal, untracked: `+/_WORK/ki.chezmoi/publish-first-step.report.md` and `+/_WORK/ki.ways-of-working/{desk-kit-sop,mgit-learn,principal-audit,records-fold,review-gov194-201,threads-fix}.report.md`.
@@ -58,7 +58,7 @@ Nothing is running.
 
 ### MOD-010-PACKET - Give the terminology sweep a review packet before acceptance
 
-**Context:** [KI-PRINCIPAL-MOD-010](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-010-work-model-terminology-sweep.md) is awaiting review and its verification evidence passes a re-check: the git grep is clean and the kb-streams and work-roadmap audits pass. However, ki-accept needs the six-heading Review packet and a Discussion section, and the record has neither, so the run did not accept it.
+**Context:** [KI-PRINCIPAL-MOD-010 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/420d47e/Streams/Roadmap/KI-PRINCIPAL-MOD-010-work-model-terminology-sweep.md) is awaiting review and its verification evidence passes a re-check: the git grep is clean and the kb-streams and work-roadmap audits pass. However, ki-accept needs the six-heading Review packet and a Discussion section, and the record has neither, so the run did not accept it.
 
 **Query:** Should a short run reshape the existing evidence into the Review packet and then accept the record under the same grant?
 
