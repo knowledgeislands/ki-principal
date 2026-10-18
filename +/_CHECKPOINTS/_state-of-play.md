@@ -11,11 +11,11 @@ updated_at: 2026-10-17T12:58:00Z
 
 ## Pick-up - mark 2026-10-15T15:14:39Z (16:14 BST)
 
-- **Status:** rest. Running: nothing. 2026-10-18 01:19 BST: Kris answered OBS-OWNER, OBS-SLICE, OBS-NOW and PILOT-SEED; obs-fold folded Command centre into the Observatory Project and readied the Observatory thread (resume line given to Kris); dispatch-handover routed Personal's Acquire > Dispatch handover to knowledge acquisition. Open query: MS3-SPLIT.
+- **Status:** rest. Running: nothing. 2026-10-18 01:24 BST: obs-fold folded Command centre into the Observatory Project; dispatch-handover routed Personal's Acquire > Dispatch handover to knowledge acquisition; first-steps acted on ways of working's READY and wrote each thread's RUN-HYGIENE FIRST-STEP line. Tools burndown and Observatory resume lines given to Kris. Open query: MS3-SPLIT.
 - **Resume:** `Resume Master: state-of-play under current ki-pmo and ki-delegation since 2026-10-15T15:14:39Z: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.`
 - **Next steps, in order:**
-  0. Act on Kris's answer to MS3-SPLIT (dispatch-handover report). Watch this checkpoint's Messages block for ways of working's READY, then give Kris tools burndown's resume line. PILOT-SEED at a session with the terra checkout (decisions log, 18 October).
-  1. After tools burndown, give Kris the two Rig threads in parallel, then knowledge acquisition, then Host network (fifth, HOST-NETWORK-THREAD), then Command centre.
+  0. Act on Kris's answer to MS3-SPLIT (dispatch-handover report). PILOT-SEED at a session with the terra checkout (decisions log, 18 October).
+  1. As tools burndown and the Observatory rest, give Kris the two Rig threads in parallel, then knowledge acquisition, then Host network (fifth, HOST-NETWORK-THREAD).
   2. On Kris's return: REBASE-OWNER and MGIT-017-CLASH (bug-census report); check whether SEAT-PUSH, LABEL-FORM and PROJECT-OVERLAP (seat-change and tools-project reports) were answered before 17 October, and delete those reports if so.
   3. THREADS-ORPHANS remainder: desk-kit reports (frontmatter now fixed) belong to Rig: mac-studio-setup (setup-note) and KI > mics / webcams (cam-check, webcam-compare).
   4. STASH-DROP at a session with the terra checkout.
