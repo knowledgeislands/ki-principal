@@ -10,7 +10,7 @@ state: with-worker
 since: 2026-10-18T03:30:38Z
 received: null
 beat: null
-mark: 2026-10-18T10:01:58Z
+mark: 2026-10-18T10:06:05Z
 created_at: 2026-10-09T20:58:00Z
 ---
 
@@ -18,13 +18,12 @@ created_at: 2026-10-09T20:58:00Z
 
 ## Next steps
 
-Mark struck 18 October 11:01 BST. Owner answers since the last mark: the Summary batch (RESTART-ORDER, RELEASE-REPIN, USER-SKILL-LINKS, WORK-FOLDER-OWNER, WORK-FOLDER-NAME `ki-work-folder`, WORK-FOLDER-CHECKS, RIG-LINUX-RANGE, all a) and SOL-CONFIG-REFORMAT a), in the decisions log.
+Mark struck 18 October 11:06 BST. Owner answers since the last mark: the Summary batch (RESTART-ORDER, RELEASE-REPIN, USER-SKILL-LINKS, WORK-FOLDER-OWNER, WORK-FOLDER-NAME `ki-work-folder`, WORK-FOLDER-CHECKS, RIG-LINUX-RANGE, all a) and SOL-CONFIG-REFORMAT a), in the decisions log.
 
 1. Chain in flight: grant-drafts (harness), then work-folder-rename (ki-checkpoint to ki-work-folder, the §4 split, GOV-200 checks, one tools-ki record); config-preserve (tools-ki, `config.toml` left byte-identical, in KI-TOOL-KI-CLI-143); then release-ki-0112 (v0.11.2 repins the harness after both renames, includes config-preserve, bumps ki-principal's ki version). mark-prune tidies this folder.
 2. After v0.11.2: a Messages line to ki.chezmoi to re-run Sol and run Terra verified; give Kris the resume prompts for KI > Foundations > Tools burndown and KI > Model > Observatory, then KI > SoP. Mac Studio setup and Knowledge acquisition when Kris wants them. ki.chezmoi is restartable now (FIRST-STEP written).
-3. With Kris: the five gov194-refresh queries; OTHER-TERRITORY-RENAME.
+3. Answered at this mark, all a): GOV194-DELIVER, ASTRA-SOURCE, CSI-HOST, HAIKU-5.5, RUMDL-0.3, GRANT-WORDING, OTHER-TERRITORY-RENAME. Runs: harness-upkeep and rumdl-upgrade after work-folder-rename; territory-rename after release-ki-0112. mgit-st-quiet running (MGIT-ST-QUIET).
 4. Owed launches: DESK-KIT-SOP (remove the desk-kit lines); RIG-LOCK-FOLLOWUP independent review, then a Rig ki-accept sitting and the Rig release (RIG-LOCK-RELEASE a).
-5. Outstanding: seven `.ki.toml` files outside Knowledge Islands (er, hnr, legal, si, tmx, va and personal principals) still declare `[skills.ki-pmo]`, and will need `ki-checkpoint` renamed too; other territories are Kris's call.
 
 ## Messages
 
