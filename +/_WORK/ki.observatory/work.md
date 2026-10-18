@@ -6,9 +6,9 @@ project: observatory
 theme: model
 worker: agent
 supervisor: owner
-state: with-worker
+state: handoff-to-supervisor
 hold: null
-since: 2026-10-18T18:06:07Z
+since: 2026-10-18T18:11:12Z
 received: 2026-10-18T18:06:07Z
 beat: null
 mark: 2026-10-18T18:08:11Z
@@ -24,12 +24,13 @@ created_at: 2026-10-13T23:50:00Z
 - With Kris: review [KI-OBSERVA-VIS-023](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-023-sessions-and-threads.md) and [KI-OBSERVA-VIS-024](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-024-review-queue.md) in the running Observatory; on "accept", close each through ki-accept.
 - Then: deliver KI-OBSERVA-BRG-002 when the harness change lands; next, consolidate the live artifacts into the Observatory (named in the record's Discussion); [KI-OBSERVA-OPS-003](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-OPS-003-observatory-serving-location.md) waits in triage; unit 4, the tailnet name, waits for Host network.
 - Each delivery ends with an interactive service restart; a background run never restarts it.
-- Running: obs-artifacts - read-only inventory of live artifacts across the territory, with a proposal and diagram in `design/live-artifacts.md` (OBS-ARTIFACTS a).
+- Live-artifact inventory done: [design/live-artifacts.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/design/live-artifacts.md), four waves; awaiting OBS-ARTIFACTS-ORDER. Nothing running.
 
 ## Messages
 
 ## Parked
 
+- [OBS-ARTIFACTS-ORDER](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/obs-artifacts.report.md) - approve the four-wave order; recommended a).
 - OBS-FEEDBACK-WAIT - build KI-OBSERVA-BRG-002 now with send switched off; recommended a).
 - OBS-REVIEWS - review KI-OBSERVA-VIS-023 and KI-OBSERVA-VIS-024 before unit 3; recommended a).
 - OBS-HOSTS - runs from every host in one Sessions view; recommended a) triage linked to unit 4.
