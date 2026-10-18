@@ -122,3 +122,7 @@ When every territory reports its move done: remove the legacy readers from the h
 
 - **WORK-THEME-SLUGS** a): theme pages take the SHORT-NAMES slugs, with path-form wikilinks.
 - **WORK-FILE-NAME** b), through SKILL-NAMES: `ki-checkpoint` keeps its name and becomes the work-file standard; the name goes to the skills audit.
+
+## Method (Kris, 18 October)
+
+"I want you to delegate and use mechnical commands as much as possible." Prefer mechanical commands to hand edits: generate a move or rewrite plan as a script (`git mv`, `sed`, `ki` subcommands, the skill generators), dry-run it, apply it, then check it with the rubrics and `ki` checks. Edit by hand only where judgement is needed, and say in the report which steps were mechanical and which were by hand.

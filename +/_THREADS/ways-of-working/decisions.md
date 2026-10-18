@@ -1008,3 +1008,9 @@ Taken as: PHASE2-OWNER answered with RUN-SHAPE; migrate-phase2 queued in tools-k
 Kris, as received: "you can get moving, I suggest though that you fully do knowledge islands first, then we get the tools updated, then we do some check etc, before we do other territories"
 
 Taken as the order: (1) phase 1 harness, running; (2) tools-ki reader and one release, kept ahead of the Capital because `ki agent` and the registry read checkpoints and Initiatives today, so moving them first would break this thread's own runs; (3) the Capital; (4) the rest of the Knowledge Islands territory; (5) the other tools brought in line (observatory and the rest) with their bring-up items; (6) a check pass with Kris; (7) other territories only after that; (8) tolerance window closes, then the skills audit. Kris can say "Capital before tools-ki" to override step 2.
+
+## 2026-10-18 02:49 BST - MECHANICAL
+
+Kris, as received: "I want you to delegate and use mechnical commands as much as possible"
+
+Taken as: the thread keeps delegating every unit; each run prefers mechanical commands over hand edits - a generated move plan run as a script (`git mv`, `sed`, `ki` subcommands, generators), dry run first, then applied and checked - with hand edits only where judgement is needed. Added to the migration brief and the queued migrate-phase2 brief.
