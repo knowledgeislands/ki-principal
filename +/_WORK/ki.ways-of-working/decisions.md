@@ -1327,3 +1327,9 @@ Read back: WORK-FILE-NAME and the work-folder half of CHECKPOINT-FATE and WORK-F
 > regarding mgit, yes, just apply the completions now.
 
 Read back: MGIT-FLAGS-APPLY a) - `chezmoi apply ~/.zsh/completions/_mgit` on this Mac only, after confirming the diff is still the four lines shown; Terra and Sol take it at their next normal apply.
+
+## 2026-10-18 10:22 BST - owner message, work-folder skill check-in
+
+> Well, I would suggest that there's other skills and tools check in with it, right?
+
+Read back: steer for work-folder-design - the work-folder skill is the gatekeeper; other skills and tools do not write into `+/_WORK/<id>/` on their own terms but check in with it (go through its declared entry points or contract) before writing, deleting or relying on the folder's shape. The design run designs that check-in.
