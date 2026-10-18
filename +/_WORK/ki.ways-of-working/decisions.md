@@ -1333,3 +1333,9 @@ Read back: MGIT-FLAGS-APPLY a) - `chezmoi apply ~/.zsh/completions/_mgit` on thi
 > Well, I would suggest that there's other skills and tools check in with it, right?
 
 Read back: steer for work-folder-design - the work-folder skill is the gatekeeper; other skills and tools do not write into `+/_WORK/<id>/` on their own terms but check in with it (go through its declared entry points or contract) before writing, deleting or relying on the folder's shape. The design run designs that check-in.
+
+## 2026-10-18 10:26 BST - owner message, work-folder skill as canonical specification
+
+> Or at least it's the canonical source of the specification of how to handle it, even if that gets encoded into the tooling
+
+Read back: refines the check-in steer - the work-folder skill is at least the canonical specification of how `+/_WORK/<id>/` is handled; tooling (`ki` commands, the audit, sweep) may encode it, but encodes that specification rather than its own rules, and other skills cite it rather than restate it.
