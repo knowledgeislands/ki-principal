@@ -1265,3 +1265,27 @@ Read back as taken:
 
 - GOV-206-FORM a) - KI-HARNESS-GOV-206 stays closed as merged into KI-HARNESS-GOV-210.
 - MGIT-FLAGS - confirmed: remove the deprecated -B now, keep -R and -G, -G temporary until -B returns as the bypass-to-Git flag. First migrate every `mgit -B` use in the chezmoi source and across any repositories to `mgit -R` (excluding ki-design and apps-knowledgeislands.info, which other sessions own), then remove -B. Chezmoi source is committed, not applied: `chezmoi apply` waits for Kris's review of `chezmoi diff`.
+
+## 2026-10-18 09:37 BST - owner message
+
+> next set
+
+Thread: no answer given on REPO-OWNERSHIP, COV-1, RECORD-LINKS, PMO-CODE, REPORT-SHAPE, SITE-PARSER; carried open, next batch shown.
+
+## 2026-10-18 BST - owner answers, batches 6 and 7 (typed)
+
+> yes, go ahead with all the recommended
+
+Read back as taken, all option a) as last shown:
+
+- REPO-OWNERSHIP a) - one harness record teaches ki-repo `+/_WORK/` and `+/_WORK_REVIEW/`, still accepting the old areas with a warning; lands before any other territory migrates.
+- COV-1 a) - ki-checkpoint's coverage marker moves to `+/_WORK/`, accepting `+/_CHECKPOINTS/` through the tolerance window; lands before the next territory.
+- RECORD-LINKS a) - the eight records linking into other territories' `+/_THREADS/` are repointed during each territory's migration.
+- PMO-CODE a) - harness record: PMO-7 skips inline code spans.
+- REPORT-SHAPE a) - work-model run report shape for every brief from now on.
+- SITE-PARSER a) - `4f70461` and `05af1ad` stand.
+- MARK-RULE-SPLIT a) - split the mark rule into its own harness record; KI-HARNESS-GOV-175 to Awaiting review.
+- PMO12-LEVEL a) - PMO-12 stays WARN, a leading lint directive still fails it, promote to FAIL once folders are pruned.
+- IDENTITY-TIMING a) - keep the identity section landed; Phase 3 waits on KI-TOOL-KI-CLI-145 and KB-DOTFILES-UE-096.
+- COMPOSE-REPLY-BLOCK a) - fold the reply-block wording fix into KI-TOOL-KI-CLI-134.
+- UPDATE-SHAPE a) - adopt three-part coordinator updates in ki-pmo at the report-shape review around 21 October, regenerating hook line and output style.
