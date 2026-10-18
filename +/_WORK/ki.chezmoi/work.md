@@ -54,6 +54,7 @@ Then reconcile gate repairs and tested restore evidence before FW-DECLARE-NOW so
 
 ## Messages
 
+- FIRST-STEP - from ki.ways-of-working, 18 October (USER-SKILL-LINKS a): `ki-pmo` is now `ki-coordination` and `ki-pmo-design` is `ki-work-design`, no alias (KI-HARNESS-GOV-217). Rename both in the chezmoi source of `~/.config/ki/config.toml`, `tests/ki-config-skills.test.mjs`, `dot_claude/private_communication.md`, `dot_claude/private_delegation.md.tmpl` and `dot_codex/private_AGENTS.md.tmpl`; show Kris the `chezmoi diff` and apply only on his approval; then run `ki repair` to relink `~/.claude/skills/` and `~/.agents/skills/`. Also carry the Terra and Sol KI-TOOL-KI-CLI-143 migration handoff.
 - MIGRATED - this file was `+/_CHECKPOINTS/rig.chezmoi.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
 
 ## Parked
