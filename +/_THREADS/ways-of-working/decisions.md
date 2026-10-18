@@ -894,3 +894,19 @@ Taken as ideation steering WORK-THEME and WORK-REGULAR, not answers: regular wor
 Kris, as received: "Or maybe take this into account and then reissue your queries."
 
 Taken as: when work-model-shape finishes, reissue the full work-model query set with its changes folded in, in place of answering the earlier set.
+
+## 2026-10-18 01:38 BST - WORK-MODEL, WORK-WORDS, WORK-THEME, WORK-REGULAR, DECISIONS-STRIKE, WORK-BANNER, WORK-SETTLE, CONFIDENCE-CHECK answered; REPLY-BLOCK raised
+
+Kris, as received: "Well, the diagram is really good, I agree with that completely, and also the folder tree is correct, so that's good. In terms of the words that could reference the things that are happening, yeah, I think they make sense. We probably just need to see how it comes out in use, like you say. Yeah, work themes make sense, becomes stream/slash themes. No, I think they should be flat in streams/projects. So you recommend the options there. It's not necessarily the state of play dispatches all regular work; it's just that there's no coordination thread needed for it because it is sort of self-coordinating, but there's no reason why the state of play thread can't sort of talk about it, and yeah I agree with the ki. regular folder. The decision is, go with a. Yeah, the work banner, let's go with a bitch text format, a bit like a nicer, nice, we can start to use it in this thread so we can see what that looks like. Yeah, I guess this also governs the fact that we do really need to rename KI. Yes, on the work settle, making it stick, I agree with the recommendation, and yes, I agree with the confidence check, we can get on with that as well and accept it with the small change.
+
+I also think I'm starting to outlive the copy block as well with the recommended options. Maybe the best approach is just for me to talk like this if it's clear."
+
+Taken as:
+
+- WORK-MODEL a), WORK-WORDS a) (to be proven in use), WORK-THEME a) (Streams/Themes, Projects flat in Streams/Projects), DECISIONS-STRIKE a), WORK-SETTLE a).
+- WORK-REGULAR a) amended: regular work is self-coordinating and needs no coordination thread; state of play may discuss it but does not necessarily dispatch it; the ki.regular folder agreed.
+- WORK-BANNER a): the rich-text banner ("bitch text" read as rich text), used in this thread from now on so Kris can see it.
+- CONFIDENCE-CHECK a): add the PMO-11 warning to KI-HARNESS-GOV-207, then accept it.
+- "we do really need to rename KI": meaning unclear; asked.
+- REPLY-BLOCK: Kris may be outgrowing the copyable reply block and would rather answer in speech; raised as a query, not acted on.
+Acted on: runs settle-model (ki-principal) and confidence-check (ki-agentic-harness).
