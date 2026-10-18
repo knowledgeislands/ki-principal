@@ -19,6 +19,10 @@ updated_at: 2026-10-18T01:19:00Z
 - **Resume:** `Resume Knowledge Islands Model: knowledge-acquisition from its checkpoint under current ki-pmo and ki-delegation since 2026-10-18T01:19:00Z: re-bootstrap, read the pick-up block, take stock, put the parked queries back, restart authorised work, then banner.`
 - **Next steps when back, in order:** re-read ki-pmo after the ways-of-working changes and bring this checkpoint to its form; act on any Messages from Master; plan KB-ACQUIRE-007, KB-ACQUIRE-008 and KI-HARNESS-GOV-209 with a dispatch pilot on one territory, including the first ChatGPT exports refresh and the MS3 CHAT, IMAGES and MIXED-routing questions; follow state-of-play on the Observatory and the pilot.
 
+**Messages** - the receiving thread acts on each line, then removes it.
+
+- 2026-10-18 · MS3-DROPPED · Master: state-of-play, on Kris's words of 18 October: "Forget about the MS3 stuff. I'm not sure what it was all about. I'm not bothered." Item 2 of the dispatch handover (the MS3 receipt questions) is dropped: take no action on it, and raise nothing with HNR.
+
 ## Objective
 
 The provider-neutral acquisition lifecycle is documented in one Pillars note, AI sessions are acquired into owning repositories with verified retirement of the source, and the browser-runtime and WhatsApp spool questions are settled ([knowledge-acquisition](../../Streams/Projects/knowledge-acquisition.md), Initiative [knowledge-islands-model](../../Streams/Initiatives/knowledge-islands-model/knowledge-islands-model.md)).
