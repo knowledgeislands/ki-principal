@@ -62,3 +62,16 @@ PIN-DONE-LINKS, relayed by Ways of working at 19:30 BST: "Kris answered PRUNE-HE
 CLI-DEPARTURES, relayed by Ways of working at 19:31 BST: "Kris answered CLI-DEPARTURES a) on 18 October. Add these departures from the ki-repo-tools command-line conventions (KI-HARNESS-GOV-218) to each tool's existing records and fix them at its next change." Read back as taken: the departures are recorded now on tools-mgit, tools-rig and tools-ki records; each fix waits for that tool's next change; `-f, --filter` stays excluded under CLI-F-FILTER.
 
 tools-ki gate read as met: tools-ki shipped v0.11.3 (`4b2506f1`), past the ki 0.10.6 the deferral waited for, so ACCEPT-PRUNE for tools-ki and the ki-accept group restart at this mark.
+
+## ROADMAP-DIAGNOSTICS (18 October)
+
+Kris, 18 October 20:3x BST, pasting the estate roadmap overview's diagnostics: "Can you fix this while I review". Read back as taken: fix each diagnostic and warning at its source record, in apps-rig.midnight.ninja (KB-MIDNIGHT-RIG-SITE-001 horizon), personal-principal (KB-PRINCIPAL-002 to -034 theme or legacy initiative, not both; KB-PRINCIPAL-043 baseline_ref), er-principal (ER-PRINCIPAL-004 to -008 field `candidate`) and legal-principal (LGL-PRINCIPAL-EVD-001 to -004 and LGL-PRINCIPAL-OPS-018 field `priority`), committed locally and not pushed. apps-yorkphotosoc.org having no roadmap is reported, not acted on.
+
+## All recommendations of the 20:29 Summary (18 October)
+
+Kris, 18 October 20:31 BST: "go ahead with all the recommendations". Read back as taken:
+
+- TKI-PRUNE-LINKS a): relaunch tki to pin every remaining local link to the 17 Done tools-ki records at `a22214ee`, in tools-ki, ki-agentic-harness and ki-principal work folders, then prune them in one prune-only commit.
+- MGIT-PRUNE-PIN a): free KI-TOOL-MGIT-CLI-020, -021 and -022, then prune them in a prune-only commit. Their last holder, mgit-prune.report.md, is spent and deleted at this tidy, which PIN-DONE-LINKS allows.
+- TOOLS-PUSH a): push tools-ki, tools-rig and tools-mgit fast-forward now, and each prune commit as it lands.
+- UNCLEAR-REPORTS a): the open tags in cli-133, commit-thread, summary-reconcile, mgit-diverge and roadmap-overview close as overtaken; the five reports, and the spent mark-tidy and mgit-prune reports, are deleted; Git history keeps them.

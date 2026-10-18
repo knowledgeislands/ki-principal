@@ -6,7 +6,7 @@ project: tools-burndown
 theme: foundations
 worker: agent
 supervisor: owner
-state: handoff-to-supervisor
+state: with-worker
 since: 2026-10-18T19:29:22Z
 received: 2026-10-18T19:21:29Z
 beat: null
@@ -24,6 +24,8 @@ created_at: 2026-10-16T00:05:00Z
 - (4) After tki: the KI_QUIET triage record (KI-QUIET); events.seen past 21; then KI-TOOL-KI-CLI-131 and -136.
 - (5) KI-TOOL-KI-CLI-139's "Decision 55" citations, once the decisions move settles (source: hnr-principal 5g-emerge-phase3 decisions, SRC-TOOLING, 16 October).
 - (6) AUDIT-TIDY remainder: link the record identifiers COORD-7 flags in the reports that stay, after UNCLEAR-REPORTS settles which stay.
+- (7) ROADMAP-DIAGNOSTICS: runs diag-personal, diag-rigsite and diag-er-legal fix the estate roadmap overview's diagnostics and warnings at source, committed locally.
+- (8) All recommendations of the 20:29 Summary taken at 20:31 BST: tki (pin, prune, push tools-ki) and mgit (prune, push tools-mgit and tools-rig) relaunched; seven spent reports deleted.
 
 ## Messages
 
