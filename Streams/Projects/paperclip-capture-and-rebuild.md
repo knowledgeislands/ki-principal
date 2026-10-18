@@ -21,7 +21,15 @@ This Project sits in [[Themes/techne|Techne]]. Hosting the rebuild on `sol` belo
 
 ---
 
-## Capture
+## Notes
+
+- **Deferred clean-up.** The `terra` instance data, rotating backups, the npm rollback payload, the repair snapshots and the `paperclip/aligned-20260926/*` agent branches are kept until Kris decides what goes.
+- **Permission-update defect.** The agent permission-update defect has no owner; it goes with the fork if the rebuild keeps it.
+- **One service per host, 2026-10-15.** Kris decided on 15 October, as this Project's part of the [[Known World]] model: 'one Paperclip service per host; each territory's company live only on its seat host and absent on the standby; the Knowledge Islands company live on the hub, with Terra reaching it over the tailnet. This replaces "build on Sol" in its Design phase and leaves the Techne Programme Hold unchanged.'
+- **Old service files kept but inactive, 2026-10-15.** The old Paperclip service files in the chezmoi source (the launchd declaration, plist and scripts) stay there until the per-host rebuild is designed, but must not be active on `terra` or `sol`. Kris, 15 October: 'Keep them till the per host rebuild is designed. Ensure that it isn't used by either terra or sol for now though.' The Rig: chezmoi thread carries it.
+- **Six agent branches kept, 2026-10-15.** Kris decided on 15 October to keep the six unmerged `paperclip/aligned-20260926/*` branches until the per-host rebuild is planned: hnr-principal HNR-15 and HNR-49, hnr-agentic-harness HNR-30 and HUM-21, hnr-shared HNR-38, and tools-ki KIS-46. When the rebuild is planned, one run per repository triages its branches, bringing each into that repository's roadmap or deleting it.
+
+### Capture
 
 Done on 2026-10-14.
 
@@ -29,11 +37,11 @@ Done on 2026-10-14.
 - [[paperclip-rebuild-structure]] in this Project's `design/` folder records the structure to recreate: companies and codes, projects per repository, agents with roles, routines and adapter settings.
 - Agent instruction bundles and configuration, minus secrets, are in the Knowledge Islands source store under `paperclip/2026-10-approach/`. Issues, comments, runs, database backups and a cold copy were deliberately not kept.
 
-## Shut down
+### Shut down
 
 Done on 2026-10-14. The chezmoi Rig declarations hold `service.paperclip` stopped with a manual start policy, `port.paperclip` on demand, and `tool.paperclip-agents` in no profile. A targeted `rig apply` stopped the service, and a stop-start flip of the declaration proved the switch works both ways. Nothing was deleted; what could go awaits Kris's decision.
 
-## Design
+### Design
 
 Waits on the [[ways-of-working]] model. Questions to settle:
 
@@ -48,16 +56,6 @@ Waits on the [[ways-of-working]] model. Questions to settle:
 - **Run MCP connection.** Verify that a local Paperclip run reaches the host's mcporter bridge through a granted remote MCP connection, so coordination conformance rests on live evidence.
 - **Naming themes.** Each company's agent naming theme belongs in its home repository: VA Sanskrit role-nouns (confirmed), TMX ordinary first names capped at three (Kris's choice); HNR one-word nicknames, the personal company archaic `-eth` verbs and ER Greek personifications of justice were proposed; LGL Norse law deities and KI trade and office nouns were only inferred.
 
-## Rebuild
+### Rebuild
 
 Waits on the Design phase. Build fresh per host from [[paperclip-rebuild-structure]]: one Paperclip service per host; each territory's company live only on its seat host and absent on the standby; the Knowledge Islands company live on the hub, with Terra reaching it over the tailnet. The [[Techne Programme Hold]] is unchanged. Kris set this design on 15 October (PAPERCLIP-SEAT, the "One service per host" bullet under [[#Notes|Notes]]), and [[ADR-KI-PRINCIPAL-007-territory-seats-on-hosts|ADR-KI-PRINCIPAL-007]] records the territory seats it follows. Each service uses current repository paths, no migration of the `terra` data, and the authenticated deployment mode or a tailnet access policy limited to Kris's own devices before any exposure beyond loopback.
-
----
-
-## Notes
-
-- **Deferred clean-up.** The `terra` instance data, rotating backups, the npm rollback payload, the repair snapshots and the `paperclip/aligned-20260926/*` agent branches are kept until Kris decides what goes.
-- **Permission-update defect.** The agent permission-update defect has no owner; it goes with the fork if the rebuild keeps it.
-- **One service per host, 2026-10-15.** Kris decided on 15 October, as this Project's part of the [[Known World]] model: 'one Paperclip service per host; each territory's company live only on its seat host and absent on the standby; the Knowledge Islands company live on the hub, with Terra reaching it over the tailnet. This replaces "build on Sol" in its Design phase and leaves the Techne Programme Hold unchanged.'
-- **Old service files kept but inactive, 2026-10-15.** The old Paperclip service files in the chezmoi source (the launchd declaration, plist and scripts) stay there until the per-host rebuild is designed, but must not be active on `terra` or `sol`. Kris, 15 October: 'Keep them till the per host rebuild is designed. Ensure that it isn't used by either terra or sol for now though.' The Rig: chezmoi thread carries it.
-- **Six agent branches kept, 2026-10-15.** Kris decided on 15 October to keep the six unmerged `paperclip/aligned-20260926/*` branches until the per-host rebuild is planned: hnr-principal HNR-15 and HNR-49, hnr-agentic-harness HNR-30 and HUM-21, hnr-shared HNR-38, and tools-ki KIS-46. When the rebuild is planned, one run per repository triages its branches, bringing each into that repository's roadmap or deleting it.
