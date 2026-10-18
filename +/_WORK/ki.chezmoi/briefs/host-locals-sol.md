@@ -1,0 +1,12 @@
+# Sol host-local harness paths
+
+Execute Kris's exact 18 October migration request in this work folder's decisions log (latest entry), as a bounded exception to parked broader delivery. Read AGENTS and relevant guidance. No background subagents. Never end your session while waiting.
+
+1. Prove installed KI includes CLI-143: `ki` is a Bun source runner for tools-ki main, version 0.11.0; verify ancestry and implementation rather than assuming the version is sufficient. Stop if absent. No source pull or build changes.
+2. Capture protected before evidence for doctor, diag, config locals, active bindings, config bytes and harness selection; never expose secrets. Read every finding.
+3. Run only the authorised `ki bootstrap`, verify exact config bytes unchanged, exact mappings moved once to host-local state, active bindings and source selection unchanged. Stop on any difference or failure; report honestly.
+4. Verify doctor/diag after. Check local on/off semantics with isolated fixtures or read-only status commands; NEVER toggle the live active harness. If full verification cannot be established within that restriction, report the limitation and stop rather than claiming it passed.
+5. Find actual shared Terra results without assuming common paths establish Terra verification. No remote-host mutation. Only if Terra has already passed and this is the second host, remove just the locals table from the managed config source, show bounded non-secret diff and verification plan, commit explicit source path after repository gate, and HOLD apply for Kris. Otherwise leave source untouched. No push anywhere.
+6. Report current host version/build proof, before/after paths, command outcomes and every finding, on/off validation method, Terra evidence or absence, and chezmoi step status. Preserve prior SSH evidence and broader job/source holds. Check the prior urgent drift report for final outcome, without changing that rollout.
+
+Write final report to the run state as host-locals-sol.report.md and preserve it with the current work folder; commit only owned documentation if safe, no push. Existing decision log and this brief are owned coordinator work for this request and can be included explicitly, but leave unrelated edits/staging alone. Use quiet tools and report outcomes, not command output. General footer prohibitions yield only for the explicitly authorised host-local bootstrap; no other environment changes. Keep broader delivery parked. Status and progress protocol as launcher defines.
