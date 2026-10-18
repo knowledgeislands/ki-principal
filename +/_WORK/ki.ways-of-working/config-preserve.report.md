@@ -38,3 +38,7 @@
 - **Options:**
   - a) **Recommended (confidence: medium).** Ship it on the tests and the gate. The Sol and Terra re-runs then serve as the live proof. The change is limited to the writer, and it falls back to the old layout whenever it cannot verify an edit.
   - b) Run a short independent review of the fix before release-ki-0112 cuts v0.11.2.
+
+```text
+CONFIG-PRESERVE-REVIEW: a
+```

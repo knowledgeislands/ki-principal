@@ -6,7 +6,7 @@ project: ways-of-working
 theme: model
 worker: agent
 supervisor: owner
-state: with-worker
+state: handoff-to-supervisor
 since: 2026-10-18T03:30:38Z
 received: null
 beat: null
