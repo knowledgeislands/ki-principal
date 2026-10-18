@@ -1155,3 +1155,12 @@ The approved release from migrate-phase2b is being cut as v0.11.0 rather than 0.
 ## 2026-10-18 04:52 BST - REHOME (thread call)
 
 migrate-phase2b asked whether to point this run at its work folder; took option a), mechanical and high confidence: `ki agent home ways-of-working --work ki.ways-of-working` after migrate-apply finished. migrate-apply left MIGRATE-CALLS, five provisional judgement calls, for Kris to confirm in the morning.
+
+## 2026-10-18 06:07 BST - TOOLS-BURNDOWN queries (provisional, on Fable's opinion)
+
+Fable's advisory ([fable-opinion-1](fable-opinion-1.report.md)) weighed the four tools-burndown queries. Taken under FABLE-OPINION and KEEP-PUSHING:
+
+- RIG-APPLY-LOCK: option a), provisional, on Fable's opinion. Build in tools-rig with isolated tests only, amend RIG-STATE-030 alongside RIG-STATE-025 as the opinion notes, no live `rig apply` or `rig upgrade` on either Mac, deliver to Awaiting review.
+- HARNESS-PATHS: adopt and plan KI-TOOL-KI-CLI-143 and implement against isolated HOME and XDG fixtures, provisional, on Fable's opinion; no live migration of `config.toml` and no chezmoi change, which wait for Kris.
+- DESK-KIT-SOP: option a), provisional, on Fable's opinion. A Messages line goes into the KI state-of-play work file.
+- TOOLS-RELEASE: left for Kris. v0.11.1 is not cut tonight.
