@@ -38,6 +38,8 @@ Read the `dispatch-take` result, decide the Personal dispatch items with Kris wh
 
 ## Messages
 
+- FIRST-STEP - 2026-10-18T10:07:36Z - Owner direction: acquire-intake has temporarily picked up local acquisition design and trials while continuing knowledge intake. Its working record is `krisb/acquire:+/_THREADS/acquire-intake/local-working.md`, with continuity in `+/_CHECKPOINTS/acquire-intake.md`. On resumption, reconcile those local results and outstanding changes before older next steps; accepted model knowledge returns to Knowledge Islands, then intake steps back to its ordinary remit. Keep this as the single parent handover during the experiment.
+
 - MIGRATED - this file was `+/_CHECKPOINTS/knowledge-islands-model.knowledge-acquisition.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
 
 ## Parked
