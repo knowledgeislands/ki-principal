@@ -6,11 +6,9 @@ project: chezmoi
 theme: rig
 worker: agent
 supervisor: owner
-state: on-hold
-hold:
-  reason: paused
-  release: after the ways of working reports are ready
-since: 2026-10-18T17:09:57Z
+state: handoff-to-supervisor
+blocking: true
+since: 2026-10-18T17:13:14Z
 received: null
 beat: null
 mark: 2026-10-18T17:12:15Z
@@ -21,13 +19,13 @@ created_at: 2026-10-08T08:40:00Z
 
 ## Next steps
 
-**Pick-up - mark 2026-10-15T14:59Z (15:59 BST)**
+**Pick-up - mark 2026-10-18T17:12:15Z (18:12 BST)**
 
 - **Status:** resumed under Kris's 18 October instruction; old delivery pause lifted. Nothing running or queued. FIRST-STEP source rename prepared in its five named files, uncommitted because the required repository audit and full tests fail. No source apply or live repair authorised by this run.
-- **Guidance:** ki-coordination read at 807b93bb; canonical ki-delegation and ki-work-folder read from the harness checkout. Identity and mark remain unchanged.
+- **Guidance:** ki-coordination read at 807b93bb; canonical ki-delegation and ki-work-folder read from the harness checkout. Identity remains unchanged. The owner explicitly requested the new mark, committed by the coordinator at 18:12 BST; it is not a hold or stop.
 - **Next steps, in order:** resolve the known local skill projection, duplicate roadmap identifier and Emerge test prerequisite under bounded authority, then rerun the complete source gate and commit only the five rename paths. Review the four-target, scripts-excluded non-secret chezmoi diff with Kris; it also restores the earlier territories-array formatting. Apply only on explicit approval, then review and run the dependent `ki repair`. No `ki-checkpoint` entry or managed source link exists to rename; its runtime projection belongs to KI repair.
 - **Migration:** installed KI reports 0.11.2 and the byte-preservation follow-up was read. Live config still has the failed run's formatting and retired skill names, so bootstrap recovery/reverification waits for the reviewed source apply and repair. Preserve protected Sol evidence; use isolated on/off checks, never toggle the active harness. Terra has no verified real-host pass in the locally available handoffs and must be handled on Terra. Keep the shared locals table until both real passes.
-- **Latest steer:** the supervisor's 18 October inbox says to fix task-relevant prerequisites within the existing bounded scope and retain this run's no-remote footer; `publish-first-step` is held until this run finishes. Required dependency installation and other machine changes remain outside that scope. A concurrently appended owner decision and the successor brief belong to the supervisor; leave them unstaged here.
+- **Latest steer:** the supervisor's 18 October inbox says to fix task-relevant prerequisites within the existing bounded scope and retain this run's no-remote footer; `publish-first-step` is held until this run finishes. Required dependency installation and other machine changes remain outside that scope. The coordinator has committed the owner steers and explicit mark in `12fb1ec`; the successor brief still belongs to the supervisor. This run corrects only the stale hold state and does not repeat the mark or publish.
 - **Delivery after those prerequisites:** reconcile source gates and tested connection restore evidence; firewall declaration first, then host bindings with SEAT-CHANGE, Paperclip safeguards and SSH-console documentation. Carry CHEZMOI-APPLY and TOML-OPENER in their bounded scope. No completed SSH or seven-target drift is to be replayed. Do not install, activate jobs, switch harness, move checkouts, accept, prune or push. **Messages from Master: state-of-play** - outstanding source directions retained until acted on; reactivation and CHEZMOI-RESUME are reconciled below.
 - 2026-10-18 · FIRST-STEP · Master: state-of-play, carrying RUN-HYGIENE from ways of working's READY of 17 October: "each thread fixes its checkpoint form and adds role on its FIRST-STEP line at restart". Before launching work, bring this checkpoint to the current ki-checkpoint and ki-pmo form and add `role` to its front matter · [restart report (deleted)](https://github.com/knowledgeislands/ki-principal/blob/ab526abed0d493bddd9c44ddb48c104d7fa2c846/+/_THREADS/ways-of-working/restart.report.md)
 - 2026-10-17 · CHEZMOI-APPLY · KI > Model > ways of working: "Rig chezmoi reviews chezmoi diff for 673b999, d81a80c and d1a6e6d, applies and pushes them on its restart."; the commits change ~/.claude/communication.md, ~/.claude/delegation.md and ~/.codex/AGENTS.md
