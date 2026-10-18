@@ -1109,3 +1109,11 @@ Taken as unclear: the tag alone, no option. A prompt was offered and closed with
 Kris, as received: "I'm really confused. You're the ways of working and tools breakdown has been paused from what I can understand and everything's been committed and pushed. So I think we just need one project to move all of your ways of working rollouts through and thought that you were going to do that."
 
 Taken as: every part of the ways-of-working rollout runs through this project (ki.ways-of-working), including the tools-ki follow-on items - BRINGUP-PROJECT answered b). Tools burndown stays paused; its FIRST-STEP line waits in its checkpoint and the resume prompt is used only when Kris chooses to restart it. No more routing questions to Kris.
+
+## 2026-10-18 04:06 BST - PRE-APPROVALS for the night
+
+Kris, as received: "So I'm here for the next five minutes, so if you've got any questions for me, ask them now so I can give you them any pre-approvals that you need and then I can leave you for the next few hours so I can get some sleep."
+
+Kris, as selected: APPLY-NIGHT - "Yes, apply (Recommended)": once ki 0.10.6 is out, runs apply the scripted moves in the Capital, harness and tools-rig overnight, hand steps included, Kris's instruction standing in for the Enactment record (Streams, Admin and Pillars link rewrites), pushing as they go. ACCEPT-NIGHT - "Yes if review passes (Recommended)": an independent review run may accept KI-HARNESS-GOV-210 and KI-TOOL-KI-CLI-127 if the review passes; any finding leaves the record for Kris. FIX-RELEASE - "Yes, one fix release (Recommended)": one fix release (0.10.7) through Homebrew if the apply hits a ki bug, after checks pass; a second still asks. NIGHT-SCOPE - "Check pass report, Observatory bring-up, Rest of KI territory, Skills audit report".
+
+Taken as: the overnight chain is migrate-apply (after migrate-phase2b; tools burndown is paused and drained so its rows move too, chezmoi stays held), observatory-bringup (after migrate-phase2b, apps-observatory.local to Awaiting review), accept-review (after migrate-apply), territory-rest (after accept-review), skills-audit (read-only, after territory-rest) and check-pass (report, last). Other territories still wait for the check pass with Kris.
