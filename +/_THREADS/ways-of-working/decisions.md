@@ -920,3 +920,9 @@ Taken as:
 - REPLY-BLOCK a): no copyable reply block; Kris answers in speech, the thread reads each answer back as taken in the decisions log and asks one line where unclear. Written into ki-pmo with the work-model migration.
 - BANNER-GLYPH: a settled state shows its holder's glyph alone (🤖 With worker); an arrow appears only in a handoff state (🤖 → 🧑 Handoff to supervisor). Folded into the Work Process note by banner-glyph after settle-model.
 - RENAME-KI: Kris asks for the context of "we do really need to rename KI"; given in the reply.
+
+## 2026-10-18 01:59 BST - RENAME-KI resolved; WORKER-CLI idea
+
+Kris, as received: "Oh, yeah, no, that's something I backed off. I was wondering though, we currently have KI space agent in the tooling, so that's not the word space, that's the letter space and I was wondering if that should become rather being KI agent, it should become KI worker. But I think it's fine for now, we could add that as an idea or consideration further out."
+
+Taken as: RENAME-KI closed - "rename KI" meant the `ki agent` command. WORKER-CLI parked as an idea for later: rename `ki agent` to `ki worker` to match the work model's worker role; offered to the tools burndown thread with phase 2 of the work migration, not acted on now.
