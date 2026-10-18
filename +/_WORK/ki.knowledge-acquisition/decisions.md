@@ -155,3 +155,11 @@ Applied to the Master's DISPATCH-HANDOVER of 18 October: dispatch and its four i
 ## 2026-10-18 01:58 BST - OPS-009-POINTER (thread, under PROCEED-DEFAULT)
 
 dispatch-take's Project-note edit failed the STREAM-9 audit rule (registry notes name no work records). Taken: keep the note that dispatch came from Personal on 18 October, drop the record pointer, and make sure KI-HARNESS-OPS-009 names this Project in its own frontmatter instead, which is what the rule intends.
+
+## 2026-10-18 - local trial reconciliation and work-folder tracking
+
+- The owner authorised local acquisition working and trials while new knowledge continues to arrive, then selected the existing work folder: "I think now you can use `/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.knowledge-acquisition` for tracking your work too". This continues the existing Project, with [the reconciled design note](design/intake-and-clearance.md) holding the working synthesis; it creates no duplicate Project or queue.
+- Current work uses `ki-work-folder` and the current coordination contract, preserving a conversational exchange while bounded acquisition continues in Acquire. The old first-step handover has been reconciled, the migrated-work reminder has been consumed and the run-home regression instruction has been applied. No historical agent or dispatch work was restarted.
+- The owner's questions about `.acquire/` and intake pruning are captured as open design questions, not enacted moves or disposal policy. Existing state and source-preservation boundaries stay in force. The earlier MS3-DROPPED instruction remains in force.
+
+Scope readback: use of this work folder records local progress; the broader Project hold remains while the active Project cap is full. No cap increase, historical-run restart, receipt-pruning rule or state migration is inferred.

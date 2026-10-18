@@ -8,8 +8,8 @@ worker: agent
 supervisor: owner
 state: on-hold
 hold:
-  reason: paused
-  release: after the work migration lands
+  reason: more-expected
+  release: explicit programme restart within the active Project cap after local trial reconciliation
 since: 2026-10-18T03:30:38Z
 received: null
 beat: null
@@ -21,31 +21,27 @@ created_at: 2026-10-08T08:35:00Z
 
 ## Next steps
 
-**Pick-up - mark 2026-10-18T01:19:00Z (02:19 BST)**
+ki-coordination read at 807b93bb.
 
-- **Status:** hold. Kris asked at 02:19 BST on 18 October for the thread to wrap up before big ways-of-working updates. Nothing running or queued; acquire, the harness and ki-principal are committed and pushed. Since the previous mark: Acer photos taken in by ZIP and the ZIP retired; image and video holding (KB-ACQUIRE-006) and self-serve intake from acquire; KI-HARNESS-OPS-005 accepted, successor KI-HARNESS-OPS-009 at Next; the acquisition model settled (six steps, push dispatch through the port into each principal's `+/_ACQUIRED/`, retire on delivery, `returned <reason>` back to acquire, per-territory routing cards; "ports" with harbour as its Arcadian register) in the Acquisition Process note and records KB-ACQUIRE-007, KB-ACQUIRE-008 and KI-HARNESS-GOV-209; Personal's dispatch handed over 18 October and taken (acquire `321f55f`, HNR's MS3 share sent through state-of-play, MS3-SPLIT as recommended).
-- **Parked queries:** none open. Standing rule PROCEED-DEFAULT (Kris, 18 October: "you shouldn't need to ask me anything").
-- **Waiting on state-of-play:** OBSERVATORY-FIRST (the Observatory's first step); PILOT-SEED and PILOT-GO (dispatch pilot); forwarding the push-not-pull Decision 7 line to Personal, possibly moot now Personal's dispatch is retired.
-- **Held:** DOTFILES-UE-035 with chezmoi until the 21 October review, which also settles the dispatch envelope with ki-trades. **Parked:** ChatGPT territory keys to kebab-case names.
-- **Resume:** `Resume Knowledge Islands Model: knowledge-acquisition from its checkpoint under current ki-pmo and ki-delegation since 2026-10-18T01:19:00Z: re-bootstrap, read the pick-up block, take stock, put the parked queries back, restart authorised work, then banner.`
-- **Next steps when back, in order:** re-read ki-pmo after the ways-of-working changes and bring this checkpoint to its form; act on any Messages from Master; plan KB-ACQUIRE-007, KB-ACQUIRE-008 and KI-HARNESS-GOV-209 with a dispatch pilot on one territory, including the first ChatGPT exports refresh and the MS3 CHAT, IMAGES and MIXED-routing questions; follow state-of-play on the Observatory and the pilot.
+The owner has selected this existing work folder to track the acquisition design and practical intake trials. The broader Project remains on hold while bounded conversational intake and local reconciliation continue; the tracking request does not activate a fifth Project above the current cap. The earlier local first-step handover has been reconciled into [the working design note](design/intake-and-clearance.md); its source evidence and canonical receipts remain in Acquire. Continue the conversational exchange and faithful intake while developing the method, then return to ordinary intake/distribution when the approach settles.
 
-**Messages** - the receiving thread acts on each line, then removes it.
+1. Read the design note and [current canonical intake state](https://github.com/krisb/acquire/blob/main/intake/README.md) before changes. The recent canonical-source and OneDrive clearance work is published; two receipt scopes remain pending. Verify new source bytes directly where available and reuse existing captures.
+2. Discuss Customs/clearance terminology and one mirrored Git/source-store layout. Develop the already captured holding, dispatch and routing-card work into a bounded trial; do not rename existing capture paths or adopt a pruning rule from a proposal.
+3. Resolve the remaining independent-state-placement dependency before any `.acquire/` move. Retention safeguards have landed, but current importer and adapter contracts still select the old state path.
+4. Define the compact surviving proof needed before any intake pruning. Receipt closure currently hides a request from pending discovery and preserves its record.
+5. Recheck Observatory, dispatch-pilot and chezmoi/trades dependencies before broader work resumes. MS3 remains dropped. No historical background run has been restarted.
 
-- 2026-10-18 · MS3-DROPPED · Master: state-of-play, on Kris's words of 18 October: "Forget about the MS3 stuff. I'm not sure what it was all about. I'm not bothered." Item 2 of the dispatch handover (the MS3 receipt questions) is dropped: take no action on it, and raise nothing with HNR.
-
-Read the `dispatch-take` result, decide the Personal dispatch items with Kris where his rules need his word, and delegate what is authorised; commit by explicit path.
+The legacy run home is now this work folder. Any later authorised launch uses `+/_WORK/ki.knowledge-acquisition/`, never the retired thread/checkpoint paths. The existing mark and creation time are preserved; no new mark was requested.
 
 ## Messages
 
-- FIRST-STEP - 2026-10-18T10:07:36Z - Owner direction: acquire-intake has temporarily picked up local acquisition design and trials while continuing knowledge intake. Its working record is `krisb/acquire:+/_THREADS/acquire-intake/local-working.md`, with continuity in `+/_CHECKPOINTS/acquire-intake.md`. On resumption, reconcile those local results and outstanding changes before older next steps; accepted model knowledge returns to Knowledge Islands, then intake steps back to its ordinary remit. Keep this as the single parent handover during the experiment.
-
-- 2026-10-18 · THREADS-REGRESSION · KI > Model > Ways of working: your `knowledge-acquisition` run is still homed in the retired `+/_THREADS/knowledge-acquisition/` (`~/.local/state/ki/agents/knowledge-acquisition/thread.json`), so the installed `ki` copies every report there; briefs such as `project-note` named `+/_THREADS/knowledge-acquisition/` paths. Before your next launch run `ki agent home knowledge-acquisition --work ki.knowledge-acquisition` from this repository and write report paths as `+/_WORK/ki.knowledge-acquisition/`, never `+/_THREADS/` or `+/_CHECKPOINTS/`. The next `ki` release follows a retired home automatically, under [KI-TOOL-KI-CLI-150](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md), and the audit now fails either folder beside `+/_WORK/`, under [KI-HARNESS-GOV-200](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md).
-
-- MIGRATED - this file was `+/_CHECKPOINTS/knowledge-islands-model.knowledge-acquisition.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
+None.
 
 ## Parked
 
-- Handed off (HANDED-OFF, Kris, 2026-10-15): acquire-intake owns all acquire work; ways-of-working owns DIAGRAMS and the report-heading fix. Not tracked here.
-- Held: KB-DOTFILES-UE-035 with chezmoi, review 21 October.
-- Parked 2026-10-11: ChatGPT territory keys move to kebab-case territory names; island-model-and-tending renames the kit-principal capture folders.
+- STATE-PLACEMENT - [current evidence and the existing migration owner](design/intake-and-clearance.md#the-acquire-state-directory). Recommended: preserve current state until importer/configuration support and a verified relocation plan exist.
+- RECEIPT-RETENTION - [current contract and compaction proposal](design/intake-and-clearance.md#intake-retention-and-pruning). Recommended: retain compact identity and handling proof; prune redundant commentary only under an agreed preservation boundary.
+- OBSERVATORY-FIRST - [the carried-forward Observatory dependency](design/intake-and-clearance.md#next-bounded-decisions). Recommended: check its current owner before scheduling acquisition work around it.
+- PILOT-SEED / PILOT-GO - [the carried-forward dispatch-pilot dependencies](design/intake-and-clearance.md#next-bounded-decisions). Recommended: reconcile the existing seed and pilot direction before a trial.
+- EXISTING-DEPENDENCIES - [the 21 October chezmoi/trades review and historical territory-key question](design/intake-and-clearance.md#next-bounded-decisions). Keep their existing owners; do not infer a rename or restart.
+- STOCK-TAKE-HOME - [the retained stocktake](stock-take.report.md) still needs its provider overview and holding analysis reconciled into their durable owners before pruning. Recommended: retain it through that check rather than delete on the audit listing alone.
