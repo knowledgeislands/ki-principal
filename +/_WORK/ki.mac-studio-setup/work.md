@@ -29,6 +29,7 @@ On resume: remind Kris of ADOBE-RESTART, then put RIG-ORDER back first, step by 
 
 ## Messages
 
+- 2026-10-18 · THREADS-REGRESSION · KI > Model > Ways of working: your `mac-studio-setup` run is still homed in the retired `+/_THREADS/mac-studio-setup/` (`~/.local/state/ki/agents/mac-studio-setup/thread.json`), so the installed `ki` copies every report there; briefs such as `adobe-clear` named `+/_THREADS/mac-studio-setup/` report paths, and a `decisions.md` still sits in the run's state folder for `ki agent decide` to adopt. Before your next launch run `ki agent home mac-studio-setup --work ki.mac-studio-setup` from this repository and write report paths as `+/_WORK/ki.mac-studio-setup/`, never `+/_THREADS/` or `+/_CHECKPOINTS/`. The next `ki` release follows a retired home automatically, under [KI-TOOL-KI-CLI-150](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md), and the audit now fails either folder beside `+/_WORK/`, under [KI-HARNESS-GOV-200](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md).
 - MIGRATED - this file was `+/_CHECKPOINTS/rig.mac-studio-setup.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
 
 ## Parked
