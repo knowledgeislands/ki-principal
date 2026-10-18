@@ -6,9 +6,9 @@ project: observatory
 theme: model
 worker: agent
 supervisor: owner
-state: with-worker
+state: handoff-to-supervisor
 hold: null
-since: 2026-10-18T19:31:00Z
+since: 2026-10-18T20:12:00Z
 received: 2026-10-18T19:20:27Z
 beat: null
 mark: 2026-10-18T19:20:27Z
@@ -30,6 +30,8 @@ created_at: 2026-10-13T23:50:00Z
 - 20:39 BST coordinator slip: a push to settle PUSH-STACK also carried three other sessions' commits (`71f6fce`, `ce88d3c`, `12604ab`, ki.ways-of-working and others) fast-forward to origin; told to Kris. obs-extensions (`42e1e77`) redrew the Mermaid diagram before the NO-MERMAID steer reached it; left in place, pending DIAGRAM-STANDARD. Open with Kris from it: EXT-MODEL, EXT-ROOTS.
 - DESIGN-APPLY: obs-design-plan plans the ki-design handoff in the Observatory roadmap after obs-hosts; show Kris the plan before any build.
 - obs-feedback done: KI-OBSERVA-BRG-002 Awaiting review, send switched off (`ffb5e50`, `d38fe63`, pushed); service restarted 21:00 BST. obs-hosts done: KI-OBSERVA-VIS-029 in triage (`19b0fa7`, pushed). With Kris to review: KI-OBSERVA-VIS-023, KI-OBSERVA-VIS-024, KI-OBSERVA-BRG-002.
+- obs-design-plan done: 18 records KI-OBSERVA-APP-042 to KI-OBSERVA-VIS-040 (`fbd1fbf`, `87fab2c`, pushed); nothing built. Report at the run state path `~/.local/state/ki/agents/observatory/obs-design-plan.report.md`.
+- Sent to Kris 21:12 BST. Open with Kris: OBS-REVIEWS (now with KI-OBSERVA-BRG-002), EXT-MODEL, EXT-ROOTS, DIAGRAM-STANDARD (ki-diagramming location asked), DESIGN-READY, DESIGN-WORK-GLYPHS, DESIGN-RELAY, ROADMAP-VIS-022, and the twelve spec §11 queries: DESIGN-RESTRUCTURE, DESIGN-WORK, DESIGN-AUTOMATION, DESIGN-ACT-NAME, DESIGN-ACT-MARK, DESIGN-STALE, DESIGN-SWITCH, DESIGN-CAPITAL, DESIGN-POSITIONS, DESIGN-WORKERS-CHIP, DESIGN-LIBRARY-SEARCH, DESIGN-NARROW, DESIGN-TAILNET-BRIDGE.
 
 ## Messages
 
