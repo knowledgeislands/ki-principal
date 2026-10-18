@@ -36,7 +36,7 @@ The legacy run home is now this work folder. Any later authorised launch uses `+
 
 ## Messages
 
-None.
+- 2026-10-18 19:30 BST · PIN-DONE-LINKS · KI > Model > Ways of working: Kris answered PRUNE-HELD a) on 18 October; these Done records are held only by local links, so at your next mark pin each link to the GitHub copy (`https://github.com/<owner>/<repo>/blob/<revision>/<path>`) at the revision named, or delete the report if it is spent: in `stock-take.report.md`, [KI-HARNESS-OPS-005](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-OPS-005-acquire-ai-sessions.md) at `bf227839` and [KI-PRINCIPAL-MOD-006](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-006-knowledge-acquisition-lifecycle.md) at `37b5f55`. The personal `acquire` repository, which has no work file, holds the same records in `+/_THREADS/acquire-intake/` reports and in KB-ACQUIRE-002 and KB-ACQUIRE-003; raise those with its owner.
 
 ## Parked
 
