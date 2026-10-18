@@ -1383,3 +1383,19 @@ obs-answers asked whether KI-OBSERVA-VIS-028 stays an adopted draft on hold, wai
 > Sorry, I got distracted again, so can you give me an update on what you need from me, and where we are with restarting the other threads?
 
 Read back: give a Summary in owner-report form with every open query, and the state of restarting the other works (sessions) under the renamed skills and work model. No decision taken.
+
+## 2026-10-18 10:53 BST - owner answers, Summary queries; mark
+
+> Okay, thanks for all the updates. So we can take a mark at this point, so we don't need to go back past that to give me those updates again. So we're in good shape. In pro, things are in progress, that's all good. See queries restart order. Yes, I agree with that. Release ref. Yes, I agree with that. User skills link agreed with that as well. Yes, looks like we've got good output on the work folder owner as well. Yeah, actually work forward makes a lot of sense, right? So let's go with that. Yep, and the workflow checks we can go with and also with the big Linus changes. Okay, so there's lots for you to do there. Let me know what we're getting on, please. I'm really keen to get the rest of the threads running.
+
+Read back:
+
+- MARK - strike a mark now; later reports start from it.
+- RESTART-ORDER a) - restart chezmoi now; Tools burndown and Observatory once v0.11.2 and the work-folder rename land, with a fresh prompt each; SoP after; Mac Studio setup and Knowledge acquisition when Kris wants them.
+- RELEASE-REPIN a) - release v0.11.2 repinning the harness and bump ki-principal's ki version. Sequenced after the work-folder rename so one release pins both renames.
+- USER-SKILL-LINKS a) - FIRST-STEP line to ki.chezmoi; Kris approves the `chezmoi diff` before apply and `ki repair`.
+- WORK-FOLDER-OWNER a) - the work-folder skill is the canonical specification; ki-coordination timing and judgement; ki-delegation run side only; ki-work-design graduation; others check in on the four-point contract.
+- WORK-FOLDER-NAME a) - `ki-work-folder` ("work forward" in speech).
+- WORK-FOLDER-CHECKS a) - audit checks into KI-HARNESS-GOV-200; one new tools-ki record for the close-gate parse, unnumbered `decide`, launch refusal and `ki work message`/`prune`.
+- RIG-LINUX-RANGE a) - "the big Linus changes" read as Rig Linux, recommended option: stays noted in KI-TOOL-RIG-CORE-047, decided when KI-TOOL-RIG-CORE-062 is planned.
+- Priority: get the paused works running again.
