@@ -287,7 +287,7 @@ Local size, if it ever matters on one machine, is a `git gc` or partial-clone qu
 
 ### 6. Banner
 
-There is one form. The glyphs come first and the last glyph is whose move it is: 🤖 an agent, 🧑 Kris, 👤 another person, ⏸️ nobody until the release, 🏁 nobody. The words give the state and, where it helps, the holder.
+There is one form. The glyphs come first and the last glyph is whose move it is: 🤖 an agent, 🧑 Kris, 👤 a named target, ⏸️ nobody until the release, 🏁 nobody. A settled state shows its holder's glyph alone; an arrow appears only in a handoff state, as Kris set on 18 October (BANNER-GLYPH). The words give the state and, where it helps, the holder.
 
 The report heading's form line takes the same prefix:
 
@@ -322,15 +322,15 @@ The footer replaces the block-letter frame with one heading, one line of counts,
 
 🤖 nothing running yet · 🧑 0 with you
 
-- [handoff] reply block of 07:55 · agent · since 07:55
+- [handoff] Kris's answers of 07:55 · agent · since 07:55
 
-### 🤖 → 🤖 Handoff to KI > Tools burndown · since 23:10 BST
+### → 👤 Handoff to KI > Tools burndown · since 23:10 BST
 
 🤖 1 elsewhere · 🧑 0 with you
 
 - [handoff] gate fix · work/ki.tools-burndown · since 23:10
 
-### 🤖 → 👤 Handoff to a reviewer · since 15:00 BST
+### → 👤 Handoff to a reviewer · since 15:00 BST
 
 👤 1 with another person · 🧑 0 with you
 
@@ -356,6 +356,8 @@ The footer replaces the block-letter frame with one heading, one line of counts,
 - [finished] 14 work items accepted, folder pruned
 
 A stuck worker's send reads `🤖 → 🧑 Handoff to supervisor · blocked`. The resume line becomes the send line and appears only when the work is in handoff to Kris; on hold, the send line is the resume that lifts it, given in the hold report. The hold report keeps its name and its `Done`, `Parked` and `Left over` sections under the On hold heading. The block-letter frames retire when the model is written in; past reports keep theirs, and so does this one.
+
+Answers change with the banner, as Kris set on 18 October (REPLY-BLOCK): an owner report carries no copyable reply block. Each query keeps its Context, Query and Options with confidence; Kris answers in speech, and the thread reads each answer back as taken in the decisions log and asks one line where an answer is unclear.
 
 ### 7. What retires, and the migration
 
