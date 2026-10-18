@@ -84,7 +84,9 @@ Nothing is running.
 
 **Options:**
 
-a) (recommended, confidence medium - SHORT-NAMES is a standing answer and the tree read as illustrative) Apply SHORT-NAMES: `Streams/Themes/model.md` and `Streams/Themes/foundations.md`, with path-form wikilinks such as `[[Themes/model|Model]]`. b) Keep today's slugs, `Streams/Themes/knowledge-islands-model.md` and `Streams/Themes/platform-foundations.md`, and drop that part of SHORT-NAMES.
+a) (recommended, confidence medium - SHORT-NAMES is a standing answer and the tree read as illustrative) Apply SHORT-NAMES: `Streams/Themes/model.md` and `Streams/Themes/foundations.md`, with path-form wikilinks such as `[[Themes/model|Model]]`.
+
+b) Keep today's slugs, `Streams/Themes/knowledge-islands-model.md` and `Streams/Themes/platform-foundations.md`, and drop that part of SHORT-NAMES.
 
 ### WORK-FILE-NAME - What the checkpoint skill becomes
 
@@ -94,7 +96,9 @@ a) (recommended, confidence medium - SHORT-NAMES is a standing answer and the tr
 
 **Options:**
 
-a) (recommended, confidence medium - the name then matches the file it governs) Rename it `ki-work-file` in the phase 1 harness run, keeping a pointer under the old name until the tolerance window closes. b) Keep the name `ki-checkpoint` and rewrite its content only.
+a) (recommended, confidence medium - the name then matches the file it governs) Rename it `ki-work-file` in the phase 1 harness run, keeping a pointer under the old name until the tolerance window closes.
+
+b) Keep the name `ki-checkpoint` and rewrite its content only.
 
 ### MIGRATION-LAUNCH - Launch the work migration
 
@@ -104,7 +108,9 @@ a) (recommended, confidence medium - the name then matches the file it governs) 
 
 **Options:**
 
-a) (recommended, confidence high - the order and gates are the ones you agreed, and each phase is gated) Once WORK-THEME-SLUGS and WORK-FILE-NAME are answered, launch phase 1 in ki-agentic-harness and send phase 2 to the tools burndown thread with the KI-TOOL-KI-CLI-127 handoff, then the Capital after the release. b) Hold the brief until the restart, and launch nothing yet.
+a) (recommended, confidence high - the order and gates are the ones you agreed, and each phase is gated) Once WORK-THEME-SLUGS and WORK-FILE-NAME are answered, launch phase 1 in ki-agentic-harness and send phase 2 to the tools burndown thread with the KI-TOOL-KI-CLI-127 handoff, then the Capital after the release.
+
+b) Hold the brief until the restart, and launch nothing yet.
 
 ```text
 WORK-THEME-SLUGS
