@@ -1129,3 +1129,9 @@ Taken as: overnight, when a run stops on a judgement or approval question, this 
 Kris, as received: "Well, given I'm not gonna be here, it'd be nice to get, as part of this, a published summary that I can then ultimately view in the observatory in the morning."
 
 Taken as: a last run, morning-summary, after check-pass, writes the overnight summary in owner-report form into the ways-of-working work folder as a committed and pushed report, and makes sure the observatory shows it: observatory-bringup adds a view of each work's latest summary, and morning-summary checks it renders, adding the smallest view itself if missing.
+
+## 2026-10-18 04:10 BST - COMMIT-AS-YOU-GO
+
+Kris, as received: "Please, for the love of God as well, do your commits as you go. It's important, and you can push when you get to good points. So, when I come back, what should I expect to see?"
+
+Taken as: every run commits each finished step by explicit path as it goes and pushes fast-forward at good points; the thread commits and pushes its own log at once. Added to every queued brief.
