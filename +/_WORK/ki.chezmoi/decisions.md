@@ -361,3 +361,35 @@ home: +/_WORK/ki.chezmoi/work.md
 5. Only on the second of the two hosts to finish, and only once both have passed step 4: remove the `[locals]` table from the chezmoi source of the ki config, show Kris the `chezmoi diff`, and apply only with Kris's explicit approval. Commit the chezmoi source by explicit path. Do not push unless Kris asks.
 6. Report per host: version, before and after paths, check results, and whether the chezmoi step was done or is still waiting for the other host.
 Never move a checkout, switch the active harness or change sources. No --no-verify, no force-push.
+
+## Decision 85 (2026-10-18T09:18:10Z)
+
+home: +/_WORK/ki.chezmoi/work.md
+
+- Migrate this host's KI harness paths to host-local state (tools-ki KI-TOOL-KI-CLI-143, approved by Kris on 18 October under HARNESS-PATHS a; Terra and Sol use the same paths).
+
+1. Run `ki --version` and confirm the installed ki includes KI-TOOL-KI-CLI-143 (v0.11.1 or later). If it does not, run `brew upgrade ki` only if Kris has said so; otherwise stop and tell Kris.
+2. Before changing anything, record `ki doctor` and `ki diag`, and note the `[locals]` entries in the live ki `config.toml`. Do not print secrets.
+3. Run `ki bootstrap`. It moves the remembered harness paths into `$XDG_STATE_HOME/ki/locals.toml` (`[locals]`) once, and leaves `config.toml` untouched.
+4. Check that `locals.toml` holds the same paths, that `ki doctor` and `ki diag` are clean, and that `ki dev local on`/`off` behave as before. If anything differs, stop and report.
+5. Only on the second of the two hosts to finish, and only once both have passed step 4: remove the `[locals]` table from the chezmoi source of the ki config, show Kris the `chezmoi diff`, and apply only with Kris's explicit approval. Commit the chezmoi source by explicit path. Do not push unless Kris asks.
+6. Report per host: version, before and after paths, check results, and whether the chezmoi step was done or is still waiting for the other host.
+Never move a checkout, switch the active harness or change sources. No --no-verify, no force-push.
+
+## Decision 86 (2026-10-18T17:06:31Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- Resume KI > Rig > chezmoi from its work file under current ki-coordination and ki-delegation since 2026-10-15T14:59:00Z: re-read the work file and decisions, act on its Messages FIRST-STEP first, take stock, put the parked queries back, restart authorised work, then banner.
+
+## Decision 87 (2026-10-18T17:09:32Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- commit and push and fix and drift?
+
+## Decision 88 (2026-10-18T17:12:30Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- take a mark
