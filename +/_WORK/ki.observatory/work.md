@@ -28,6 +28,7 @@ created_at: 2026-10-13T23:50:00Z
 - Running under PUSH-ALL: obs-extensions (steered: lose nothing, keep overlaps side by side), obs-feedback (KI-OBSERVA-BRG-002, send off), then obs-hosts (triage record). Each apps-observatory.local delivery needs a service restart after.
 - Open with Kris: OBS-REVIEWS (review KI-OBSERVA-VIS-023 and KI-OBSERVA-VIS-024 now the service is restarted).
 - 20:39 BST coordinator slip: a push to settle PUSH-STACK also carried three other sessions' commits (`71f6fce`, `ce88d3c`, `12604ab`, ki.ways-of-working and others) fast-forward to origin; told to Kris. obs-extensions (`42e1e77`) redrew the Mermaid diagram before the NO-MERMAID steer reached it; left in place, pending DIAGRAM-STANDARD. Open with Kris from it: EXT-MODEL, EXT-ROOTS.
+- DESIGN-APPLY: obs-design-plan plans the ki-design handoff in the Observatory roadmap after obs-hosts; show Kris the plan before any build.
 
 ## Messages
 
