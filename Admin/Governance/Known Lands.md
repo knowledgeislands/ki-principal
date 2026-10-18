@@ -19,7 +19,7 @@ Any island may maintain its own chart of useful topics, sources and destinations
 
 ## Internal inventory
 
-The current inventory contains 20 canonical KI repository identities: Knowledge Islands Principal and 19 member islands. This owner-approved inventory agrees with the single ordered territorial roster in `.ki.toml`, including Knowledge Islands Principal. `territory_prefix = "knowledge-islands"` supplies the short selection handle and Paperclip retains organisation code `KIS`. The machine-readable member list is `territory_members` under `[skills.ki-repo]` in Knowledge Islands Principal's `.ki.toml`, and every member names Knowledge Islands Principal in its own `[skills.ki-repo].capital`. A change to this inventory updates both in the same enactment.
+The current inventory contains 21 canonical KI repository identities: Knowledge Islands Principal and 20 member islands. This owner-approved inventory agrees with the single ordered territorial roster in `.ki.toml`, including Knowledge Islands Principal. `territory_prefix = "knowledge-islands"` supplies the short selection handle and Paperclip retains organisation code `KIS`. The machine-readable member list is `territory_members` under `[skills.ki-repo]` in Knowledge Islands Principal's `.ki.toml`, and every member names Knowledge Islands Principal in its own `[skills.ki-repo].capital`. A change to this inventory updates both in the same enactment.
 
 Each island owns its accepted knowledge or executable behaviour within the shared governance. The roles below distinguish Capital, specialist knowledge, reusable capabilities, products, integrations, tools and delivery without turning a product boundary into another territory.
 
@@ -29,6 +29,7 @@ Each island owns its accepted knowledge or executable behaviour within the share
 | [apps-observatory.local][apps-observatory.local] | Product | Repository and knowledge reader |
 | [homebrew-tap][homebrew-tap] | Delivery | Homebrew distribution |
 | [ki-agentic-harness][ki-agentic-harness] | Capability | Reusable agentic contracts |
+| [ki-design][ki-design] | Capability | Shared design system |
 | [ki-principal][ki-principal] | Capital | KI governance, model and engineering practice |
 | [ki-specifications][ki-specifications] | Standards | Portable contracts after V1 |
 | [ki-techne-harness][ki-techne-harness] | Product | Controller and execution fabric |
@@ -103,6 +104,7 @@ Membership and ownership changes follow the territory's Enactment Process and th
 [apps-observatory.local]: https://github.com/knowledgeislands/apps-observatory.local
 [homebrew-tap]: https://github.com/knowledgeislands/homebrew-tap
 [ki-agentic-harness]: https://github.com/knowledgeislands/ki-agentic-harness
+[ki-design]: https://github.com/knowledgeislands/ki-design
 [ki-principal]: https://github.com/knowledgeislands/ki-principal
 [ki-plugins]: https://github.com/knowledgeislands/ki-plugins
 [ki-specifications]: https://github.com/knowledgeislands/ki-specifications
