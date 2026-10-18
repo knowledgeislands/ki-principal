@@ -43,6 +43,7 @@ created_at: 2026-10-06T21:07:00Z
 
 ## Messages
 
+- 2026-10-18 · DESK-KIT-SOP from KI > Model > Ways of working (option a), provisional on Fable's opinion, for Kris to confirm): drop the desk-kit lines from your next step 3, THREADS-ORPHANS and "KI > mics / webcams", as the [tools-burndown report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/tools-burndown.report.md) describes.
 - MIGRATED - this file was `+/_CHECKPOINTS/_state-of-play.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
 
 ## Parked
