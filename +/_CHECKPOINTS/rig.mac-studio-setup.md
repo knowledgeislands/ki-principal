@@ -4,16 +4,16 @@ thread: rig.mac-studio-setup
 label: 'Rig: mac-studio-setup'
 state: active
 created_at: 2026-10-08T08:45:00Z
-updated_at: 2026-10-17T22:44:00Z
+updated_at: 2026-10-18T00:40:00Z
 ---
 
 # rig.mac-studio-setup
 
 ## Pick-up
 
-- **Status:** at rest, 2026-10-17 23:44 BST. Running: nothing.
+- **Status:** at rest, 2026-10-18 01:40 BST. Running: nothing. Walking Kris through items one at a time (step-by-step, with a recommendation and reason).
 - **Resume line:** `Resume Rig: mac-studio-setup under current ki-pmo and ki-delegation since 2026-10-17T21:33Z: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.`
-- **Next:** answers to RIG-LANE and RIG-STACK-PUSH (tools-rig prune now under 4 other-session KI-TOOL-RIG-CORE-060 commits); tools-rig burndown lane (RIG-OWNER) starts on RIG-LANE; RIG-CATALOGUE is an idea only (ADR-KI-TOOL-RIG-002, KI-OBSERVA-VIS-021); FOOTER-RECORD waits for the tools-ki rebase; Kris at-screen items on both Macs (Adobe script now at Streams/Projects/mac-studio-setup/adobe-remove.sh).
+- **Next:** ADOBE-RUN part 3 on sol: restart sol, re-run ./adobe-remove.sh as a dry run, check apps and add-ons read none and What is left is empty, then ls -d /Applications/Adobe* /Applications/Utilities/Adobe* ~/Pictures/Lightroom/*.lrcat shows only the catalogue; then ADOBE-LOG, RIG-ORDER (rig-lane.report.md), then sol at-screen items (key-only SSH, KB-DOTFILES-UE-086 steps 0-12, UTM, Observatory), then terra. RIG-STACK-PUSH answered: leave the tools-rig push to the KI-TOOL-RIG-CORE-060 session. FOOTER-RECORD waits for the tools-ki rebase.
 
 **Messages** - the receiving thread acts on each line, then removes it.
 
