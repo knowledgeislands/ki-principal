@@ -6,9 +6,9 @@ project: observatory
 theme: model
 worker: agent
 supervisor: owner
-state: with-worker
+state: handoff-to-supervisor
 hold: null
-since: 2026-10-18T17:09:34Z
+since: 2026-10-18T17:17:34Z
 received: 2026-10-18T17:09:34Z
 beat: null
 mark: 2026-10-18T01:27:13Z
@@ -21,14 +21,17 @@ created_at: 2026-10-13T23:50:00Z
 
 - Resumed from hold on Kris's send line of 18 October; mark 2026-10-18T01:27:13Z.
 - Units 1 and 2 are delivered and Awaiting review on `origin/main` of `apps-observatory.local`: [KI-OBSERVA-VIS-023](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-023-sessions-and-threads.md) Sessions and threads and [KI-OBSERVA-VIS-024](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-024-review-queue.md) Review queue; the service runs them since the interactive restart of 02:30 BST.
-- Running: obs-feedback-plan - capture unit 3, Capture feedback, chained behind KI-OBSERVA-VIS-024, and shape it to Ready, stopping there for Kris's approval of the plan; also capture the serving and live-reload idea as unadopted triage.
-- Then: on Kris's approval, deliver unit 3; unit 4, the tailnet name, waits for Host network.
+- Unit 3 shaped: [KI-OBSERVA-BRG-002](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-002-capture-feedback.md) Capture feedback, in draft awaiting OBS-FEEDBACK-PLAN; the serving idea is triage record [KI-OBSERVA-OPS-003](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-OPS-003-observatory-serving-location.md). Nothing running.
+- Then: on approval, set KI-OBSERVA-BRG-002 to Ready and deliver it in one detached run, after any harness change OBS-FEEDBACK-HOME needs; reword the Project note's unit 3 line once OBS-FEEDBACK-HOME is answered; unit 4, the tailnet name, waits for Host network.
 - Each delivery ends with an interactive service restart; a background run never restarts it.
 
 ## Messages
 
 ## Parked
 
+- [OBS-FEEDBACK-PLAN](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/obs-feedback-plan.report.md)
+- [OBS-FEEDBACK-HOME](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/obs-feedback-plan.report.md)
+- [OBS-FEEDBACK-PUSH](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/obs-feedback-plan.report.md)
 - [OBS-SESSIONS-ACCEPT](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/obs-land.report.md)
 - [OBS-REVIEW-ACCEPT](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/obs-land.report.md)
 - [OBS-REVIEW-OPEN](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/obs-land.report.md)
