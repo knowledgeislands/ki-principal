@@ -15,6 +15,7 @@
 - **Net records:** none opened in any repository. Both changes are folded into existing records: tools-mgit 0, ki-agentic-harness 0, ki-principal 0.
 - **Out of scope:** tools-ki and the chezmoi source were not touched.
 - **Other sessions' files:** I left them alone. In ki-principal these are `+/_WORK/ki.chezmoi/mark-tidy-current.report.md` and `+/_WORK/ki.ways-of-working/small-fixes.report.md`, both untracked.
+- **ki-principal `9dd4573`, pushed:** this report and the ki.chezmoi Messages line; no other session's commits went with it.
 
 ## In Progress
 
