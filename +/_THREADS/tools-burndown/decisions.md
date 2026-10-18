@@ -210,3 +210,7 @@ Launched read-only as `roadmap-overview`: the roadmap per tool plus a proposed m
 Kris, 17 October: "This is fully resolved. I've got my webcam with a mic and video camera on it, and it's working really well. So it meets all my needs at the minute. So we can get rid of that entire area."
 
 DESK-KIT-ROUTE closed. Launched `desk-kit-close` to retire the desk-kit area.
+
+## 2026-10-18 02:22 BST - WRAP-UP
+
+Kris: "We're going to do some quite big updates for "ways of working". So I think it's probably a good idea for you to wrap up any outstanding points you've got and make sure that you've persisted everything into the checkpoints and the threads." Acted on: FIRST-STEP (role added), TOOLS-PUSH and KI-QUIET folded into next steps; open queries regrouped for a quick sitting; nothing launched.
