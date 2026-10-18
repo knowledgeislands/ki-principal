@@ -1,6 +1,6 @@
 ---
 note_type: admin/governance/decision
-updated: 2026-10-18T12:00:00Z
+updated: 2026-10-18T09:30:00Z
 status: current - October 2026
 ---
 
@@ -53,4 +53,3 @@ Arcadia maintains these engineering decisions, adopted from the retired Techné 
 ## Symbol decisions
 
 1. [GDR-KI-PRINCIPAL-010](GDR-KI-PRINCIPAL-010-the-port.md) - The Port
-2. [GDR-KI-PRINCIPAL-011](GDR-KI-PRINCIPAL-011-the-citadel-and-the-tower.md) - The Citadel and the Tower
