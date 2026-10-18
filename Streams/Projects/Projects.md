@@ -8,7 +8,7 @@ author: Written with Claude
 
 ## Overview
 
-This folder is the Knowledge Islands territory's Project registry, held by Knowledge Islands Principal as Capital. A Project is a finite outcome with a lead, a target and a `lifecycle` (`planned`, `active`, `paused`, `completed` or `cancelled`); the Initiative is the long-lived direction it serves, held in the sibling [[Initiatives]] folder. Each Project note is named by its slug, so a work record's `project` value resolves to a path here.
+This folder is the Knowledge Islands territory's Project registry, held by Knowledge Islands Principal as Capital. A Project is a finite outcome with a lead, a target and a `lifecycle` (`planned`, `active`, `paused`, `completed` or `cancelled`); the Initiative is the long-lived direction it serves, held in the sibling [[Themes]] folder. Each Project note is named by its slug, so a work record's `project` value resolves to a path here.
 
 Links point upwards only: a work record names its Project, and a Project names its Initiative. A Project note carries its outcome and notes - ideas and context worth keeping - and lists no records; status lives in each record and in the note's `lifecycle`, and `ki` produces the views. Membership is classification, not authority: each owning repository keeps its plan, priority and acceptance. Work that never finishes, such as standards upkeep and workstation hygiene, is projectless and described under its Initiative. "Project" here means a registry entry, not the `project` repository shape.
 
@@ -16,13 +16,13 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## Initiatives
 
-[[Initiatives]] is the sibling folder holding one note for each Initiative. Each Initiative note states its direction and the context worth keeping about it.
+[[Themes]] is the sibling folder holding one note for each Initiative. Each Initiative note states its direction and the context worth keeping about it.
 
 ---
 
 ## AI observability
 
-[[ai-observability]] decides how AI-tooling use, token use above all, is measured and attributed per run, per thread and per account, OTLP included. It sits under [[platform-foundations|Platform foundations]].
+[[ai-observability]] decides how AI-tooling use, token use above all, is measured and attributed per run, per thread and per account, OTLP included. It sits under [[Themes/foundations|Foundations]].
 
 ---
 
@@ -40,7 +40,7 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## chezmoi
 
-[[chezmoi]] works the open KB-DOTFILES-UE records in the chezmoi source, keeping the workstation accurate, tidy and observable. Its records live in the chezmoi roadmap. It sits under [[rig|Rig]].
+[[chezmoi]] works the open KB-DOTFILES-UE records in the chezmoi source, keeping the workstation accurate, tidy and observable. Its records live in the chezmoi roadmap. It sits under [[Themes/rig|Rig]].
 
 ---
 
@@ -58,7 +58,7 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## Host network
 
-[[host-network]] decides how hosts and services are set up and addressed on the tailnet: naming, name URLs, ACLs and tailnet-only listeners. It sits under [[rig|Rig]].
+[[host-network]] decides how hosts and services are set up and addressed on the tailnet: naming, name URLs, ACLs and tailnet-only listeners. It sits under [[Themes/rig|Rig]].
 
 ---
 
@@ -76,7 +76,7 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## Mac Studio setup
 
-[[mac-studio-setup]] brings Kris's Mac Studio, unused for over a month, back to full estate capability: chezmoi, Rig, Homebrew `ki`, the workspace and an agent runtime, so any thread can resume there. It sits under [[rig|Rig]] because the Mac Studio is a workstation.
+[[mac-studio-setup]] brings Kris's Mac Studio, unused for over a month, back to full estate capability: chezmoi, Rig, Homebrew `ki`, the workspace and an agent runtime, so any thread can resume there. It sits under [[Themes/rig|Rig]] because the Mac Studio is a workstation.
 
 ---
 
@@ -100,7 +100,7 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## Secrets hygiene
 
-[[secrets-hygiene]] organises Kris's 1Password vaults by a clear layout and precedence, has chezmoi read secrets through one logical-name map from a dedicated `Rig` vault with a pre-apply reference check, and keeps it that way with a monthly triage. It sits under [[rig|Rig]] because those secrets are part of the workstation.
+[[secrets-hygiene]] organises Kris's 1Password vaults by a clear layout and precedence, has chezmoi read secrets through one logical-name map from a dedicated `Rig` vault with a pre-apply reference check, and keeps it that way with a monthly triage. It sits under [[Themes/rig|Rig]] because those secrets are part of the workstation.
 
 ---
 
@@ -124,7 +124,7 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## Tools burndown
 
-[[tools-burndown]] burns the `tools-ki`, `tools-mgit` and `tools-git-almanac` roadmaps and the CLI-shaped `ki-agentic-harness` records down to zero, ending with the `ki` and `mgit` releases. It sits under [[platform-foundations|Platform foundations]].
+[[tools-burndown]] burns the `tools-ki`, `tools-mgit` and `tools-git-almanac` roadmaps and the CLI-shaped `ki-agentic-harness` records down to zero, ending with the `ki` and `mgit` releases. It sits under [[Themes/foundations|Foundations]].
 
 ---
 

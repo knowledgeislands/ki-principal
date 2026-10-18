@@ -1,7 +1,7 @@
 ---
-note_type: streams/initiative
-slug: knowledge-islands-model
-title: Knowledge Islands model
+note_type: streams/theme
+slug: model
+title: Model
 direction: Define what a Knowledge Island is and how islands are tended, trade, take in outside knowledge, and are specified and presented.
 lifecycle: active
 lead: Kris Brown
@@ -9,11 +9,11 @@ updated: 2026-10-18T00:14:17Z
 author: Written with Claude
 ---
 
-# Knowledge Islands Model
+# Model
 
 ## Direction
 
-What a Knowledge Island is and how islands work together: the model and its tending practice, trade between islands, how outside knowledge comes in, and how the model is specified and presented to others. Knowledge Islands Principal, as Capital, owns most of it. The tooling that checks and serves islands belongs to [[platform-foundations|Platform foundations]].
+What a Knowledge Island is and how islands work together: the model and its tending practice, trade between islands, how outside knowledge comes in, and how the model is specified and presented to others. Knowledge Islands Principal, as Capital, owns most of it. The tooling that checks and serves islands belongs to [[Themes/foundations|Foundations]].
 
 ---
 

@@ -17,7 +17,7 @@ author: Written with Claude
 
 Kris's 1Password vaults are organised by a clear layout and precedence, and chezmoi depends on them through one narrow, checked seam. The test: every vault has a stated purpose and a precedence for where an item belongs; chezmoi reads every secret through one logical-name map from a dedicated `Rig` vault rather than scattered `op://` references; a pre-apply check catches a reference that no longer resolves before `chezmoi apply` renders; and a monthly triage keeps the vaults and the map in that state.
 
-This Project sits in [[rig|Rig]], because the secrets chezmoi renders are part of the workstation. Kris agreed it on 2026-10-09 in the chezmoi thread, creating a secrets-hygiene Project under Rig to hold the two chezmoi secrets records.
+This Project sits in [[Themes/rig|Rig]], because the secrets chezmoi renders are part of the workstation. Kris agreed it on 2026-10-09 in the chezmoi thread, creating a secrets-hygiene Project under Rig to hold the two chezmoi secrets records.
 
 ---
 

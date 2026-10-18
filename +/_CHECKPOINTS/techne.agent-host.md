@@ -19,7 +19,7 @@ updated_at: 2026-10-15T14:59:23Z
 
 ## Objective
 
-Reconstruct the `techne` coordination thread if its session is lost. Status, open records and ideas live in the [[agent-host]] Project note under the [[Initiatives/techne|Techne]] Initiative; this checkpoint copies none of them.
+Reconstruct the `techne` coordination thread if its session is lost. Status, open records and ideas live in the [[agent-host]] Project note under the [[Themes/techne|Techne]] Initiative; this checkpoint copies none of them.
 
 The thread moves agent work off the laptop onto the one agent host the [Techne Programme Hold](<../../Admin/Governance/Policies/Techne Programme Hold.md>) exempts. It delivers the durability rollout of [ODR-KI-PRINCIPAL-001](../../Admin/Governance/Decisions/ODR-KI-PRINCIPAL-001-keeping-work-safe-on-the-agent-host.md) and the workstation rollout of [ADR-KI-PRINCIPAL-003](../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-003-the-agent-host-workstation-model.md). The [[baseline-rollout]] Project is separate and does not gate it. Mac Studio work belongs to the `mac-studio-bootstrap` thread.
 

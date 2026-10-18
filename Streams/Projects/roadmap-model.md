@@ -15,9 +15,9 @@ author: Written with Claude
 
 ## Outcome
 
-Every Knowledge Islands repository records work under the roadmap model of 2026-10-07: `theme` gives way to `kind`, optional `purpose`, a territory `project` or `initiative` and a repository `component`, holds and cancellations are explicit, and the territory registry in [[Projects]] and [[Initiatives]] groups the work. The test: the roadmap checker enforces the model, after its migration tolerance window closes.
+Every Knowledge Islands repository records work under the roadmap model of 2026-10-07: `theme` gives way to `kind`, optional `purpose`, a territory `project` or `initiative` and a repository `component`, holds and cancellations are explicit, and the territory registry in [[Projects]] and [[Themes]] groups the work. The test: the roadmap checker enforces the model, after its migration tolerance window closes.
 
-This Project sits in [[platform-foundations|Platform foundations]].
+This Project sits in [[Themes/foundations|Foundations]].
 
 ---
 
@@ -29,4 +29,4 @@ This Project sits in [[platform-foundations|Platform foundations]].
 
 ### Close-out assessment
 
-The Outcome is delivered. Every Knowledge Islands repository records work under the model, `ki` reads its fields and builds the Project and Initiative views from the registry, and the migration tolerance window has closed, so the roadmap checker now fails retired shapes. A few residual shapes still only warn, by design of the standard rather than as unfinished work. No follow-up is needed; refinements to the model are standards upkeep under [[platform-foundations|Platform foundations]]. The Project awaits Kris's close decision.
+The Outcome is delivered. Every Knowledge Islands repository records work under the model, `ki` reads its fields and builds the Project and Initiative views from the registry, and the migration tolerance window has closed, so the roadmap checker now fails retired shapes. A few residual shapes still only warn, by design of the standard rather than as unfinished work. No follow-up is needed; refinements to the model are standards upkeep under [[Themes/foundations|Foundations]]. The Project awaits Kris's close decision.

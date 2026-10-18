@@ -159,13 +159,13 @@ Streams/
 ├── Streams.md
 ├── Themes/                                holds no work
 │   ├── Themes.md
-│   ├── knowledge-islands-model.md         theme page: why a theme, what matters, direction, common guidance
-│   ├── platform-foundations.md
+│   ├── model.md                           theme page: why a theme, what matters, direction, common guidance
+│   ├── foundations.md
 │   ├── rig.md
 │   └── techne.md
 ├── Projects/                              flat, one note each, theme: key
 │   ├── Projects.md
-│   ├── ways-of-working.md                 theme: knowledge-islands-model
+│   ├── ways-of-working.md                 theme: model
 │   └── ...
 └── Roadmap/                               work item records
 +/

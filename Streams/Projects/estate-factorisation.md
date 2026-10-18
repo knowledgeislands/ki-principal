@@ -17,7 +17,7 @@ author: Written with Claude
 
 Finish Knowledge Islands estate factorisation: consistent repository structure vocabulary, explicit ownership seams, behavioural MCP policy evidence, a single OpenAI housekeeping product, observable copies and running systems, and one alignment item per surviving repository. Knowledge Islands Principal coordinates; each item is delivered through a work record in its owning repository. The test is the phase gates below, ending with EVAL-1 and EVAL-2.
 
-This Project sits in [[platform-foundations|Platform foundations]]. [[baseline-rollout]] and the Techne [[agent-host]] work do not wait on it.
+This Project sits in [[Themes/foundations|Foundations]]. [[baseline-rollout]] and the Techne [[agent-host]] work do not wait on it.
 
 ---
 

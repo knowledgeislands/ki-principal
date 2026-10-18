@@ -17,7 +17,7 @@ author: Written with Claude
 
 Give the Knowledge Islands website two things it lacks: landing pages where **Get Started** starts something and **Contribute** explains what it is for without restating the Contribution Process, and an interactive, accessible diagram of an island rendered from Knowledge Islands Principal's canonical geography model and tile set. The test: every record that names this Project is delivered or closed. This finite outcome is for Kris to confirm.
 
-This Project sits in [[knowledge-islands-model|Knowledge Islands model]].
+This Project sits in [[Themes/model|Model]].
 
 ---
 

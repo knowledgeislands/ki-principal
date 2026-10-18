@@ -17,7 +17,7 @@ author: Written with Claude
 
 Define how Kris works with agents - one master thread for project management, a small number of Project threads, detached background agents and the `ki` tools - in skills that transfer to any repository and runtime, rather than in personal preferences. The test: the thread and delegation rules live in `ki-delegation` and its sibling skills, a thread can roll up what has happened since a mark, and Kris can see the state of play across Projects and Initiatives at a glance.
 
-This Project sits in [[knowledge-islands-model|Knowledge Islands model]].
+This Project sits in [[Themes/model|Model]].
 
 ---
 

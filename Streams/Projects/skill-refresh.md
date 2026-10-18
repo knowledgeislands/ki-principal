@@ -17,7 +17,7 @@ author: Written with Claude
 
 Every skill in `ki-agentic-harness` is kept current and still earns its place. The test: `ki repo audit` prompts each skill's REFRESH mode when it falls due, every REFRESH asks whether the skill should be kept, merged or retired, one master checklist covers updating and double-checking every skill, and every skill has a `sources.md`.
 
-This Project sits in [[platform-foundations|Platform foundations]]. Kris agreed it on 2026-10-07 (decisions 12 and 13 of the state-of-play design).
+This Project sits in [[Themes/foundations|Foundations]]. Kris agreed it on 2026-10-07 (decisions 12 and 13 of the state-of-play design).
 
 ---
 

@@ -17,7 +17,7 @@ author: Written with Claude
 
 Bring `ki-specifications` to a consistent, dormant pre-v1 state: the repository review records each tracked file's authority class and makes the process documents agree, and the transferred Knowledge Base Extraction Protocol (KBEP) and Knowledge Base Ingress Protocol (KBIP) each get a short disposition note with one recommendation. The test: every record that names this Project is delivered or closed. This finite outcome is for Kris to confirm.
 
-This Project sits in [[knowledge-islands-model|Knowledge Islands model]].
+This Project sits in [[Themes/model|Model]].
 
 ---
 
