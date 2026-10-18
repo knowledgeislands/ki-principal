@@ -1,10 +1,10 @@
 # [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Ways of working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md)
 
-**🤖 → 🧑 Handoff to supervisor · Summary at 05:35 BST · last mark 22:34 BST**
+**🤖 → 🧑 Handoff to supervisor · Summary at 05:31 BST · last mark 22:34 BST**
 
 ---
 
-**Where to read this in the Observatory:** the Observatory now has a Work view that shows this summary as the newest report of Ways of working. I checked this at 05:36 BST on a second copy, started from today's code on port 1676 and stopped afterwards, which rendered the whole summary. The service you normally open, `http://127.0.0.1:1675/`, still runs code from before tonight, so it has no Work view yet. To see it there, run `launchctl kickstart -k "gui/$(id -u)/uk.me.kris.rig.observatory"` and open the Work view. Until then the file is `/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/overnight-summary.report.md`.
+**Where to read this in the Observatory:** the Observatory now has a Work view that shows this summary as the newest report of Ways of working. I checked this at 05:30 BST on a second copy, started from today's code on port 1676 and stopped afterwards, which rendered the whole summary. The service you normally open, `http://127.0.0.1:1675/`, still runs code from before tonight, so it has no Work view yet. To see it there, run `launchctl kickstart -k "gui/$(id -u)/uk.me.kris.rig.observatory"` and open the Work view. Until then the file is `/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/overnight-summary.report.md`.
 
 ## Done
 
@@ -278,7 +278,7 @@ a) (recommended, confidence medium - open records are still acted on, and the re
 
 a) (recommended, confidence medium - a code span quotes literal text) Capture a harness record so that PMO-7 skips inline code spans. b) Keep the rule, and rewrite such quotes without backticks.
 
-### 🤖 → 🧑 Handoff to supervisor · since 05:35 BST
+### 🤖 → 🧑 Handoff to supervisor · since 05:31 BST
 
 🤖 1 running · 🧑 25 with you
 

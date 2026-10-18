@@ -1,6 +1,6 @@
 # [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Ways of working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md) › morning-summary
 
-**🤖 → 🧑 Handoff to supervisor · Run report at 05:40 BST · last mark 22:34 BST**
+**🤖 → 🧑 Handoff to supervisor · Run report at 05:31 BST · last mark 22:34 BST**
 
 ---
 
