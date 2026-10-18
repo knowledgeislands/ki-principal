@@ -1123,3 +1123,9 @@ Taken as: the overnight chain is migrate-apply (after migrate-phase2b; tools bur
 Kris, as received: "If you need some support on whether or not something's approved or confidence in a step, you can always ask Fable to give you an opinion and you can take that into account and then it can be your approval for now."
 
 Taken as: overnight, when a run stops on a judgement or approval question, this thread launches an advisory run on claude-fable-5-1 with the question and evidence, weighs its opinion, and may approve the step provisionally; each such approval is logged here as "provisional, on Fable's opinion" for Kris to confirm in the morning. Still not covered and left for Kris: publishing to npm or any public registry, a second fix release, force-push or history rewrite, other territories, and anything Kris has reserved.
+
+## 2026-10-18 04:08 BST - MORNING-SUMMARY
+
+Kris, as received: "Well, given I'm not gonna be here, it'd be nice to get, as part of this, a published summary that I can then ultimately view in the observatory in the morning."
+
+Taken as: a last run, morning-summary, after check-pass, writes the overnight summary in owner-report form into the ways-of-working work folder as a committed and pushed report, and makes sure the observatory shows it: observatory-bringup adds a view of each work's latest summary, and morning-summary checks it renders, adding the smallest view itself if missing.
