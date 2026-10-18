@@ -5,16 +5,16 @@ label: 'KI > Model > ways of working'
 role: coordination
 state: active
 created_at: 2026-10-09T20:58:00Z
-updated_at: '2026-10-18T01:05:00Z'
+updated_at: '2026-10-18T01:28:00Z'
 ---
 
 # knowledge-islands-model.ways-of-working
 
 **Pick-up - mark 2026-10-17T21:34:13Z (22:34 BST)**
 
-- **Status:** at rest. The work model is settled: [GDR-KI-PRINCIPAL-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md) and the [Work Process](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Work Process/Work Process.md>) note written, GDR-KI-PRINCIPAL-005 amended, the [work-migration brief](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/work-migration.brief.md) drafted, not launched. PMO-11 landed with KI-HARNESS-GOV-207 (accepted and pruned by the product-management thread). Kris dropped the reply block and adopted the rich-text banner in this thread on 18 October. Open: TITLE-THEME, WORK-THEME-SLUGS, SKILL-NAMES (was WORK-FILE-NAME; ki-pmo, ki-checkpoint and ki agent together), TARGET-GLYPH, MIGRATION-REVIEW and MIGRATION-LAUNCH. Thread folder tidied on 18 October: only decisions.md, the migration brief, the work-model report and diagram, and the settle-model, banner-glyph and sync-telemetry reports remain. A skills audit follows once the work model is finished (Kris, 18 October).
+- **Status:** busy. migrate-phase1 is running phase 1 of the work migration in ki-agentic-harness, after Kris answered MIGRATION-REVIEW (confident items to `+/_WORK/`, the rest to `+/_WORK_REVIEW/`), SKILL-NAMES (keep the names for now; revisit in the skills audit), TITLE-THEME, WORK-THEME-SLUGS, TARGET-GLYPH (👤 for every target) and MIGRATION-LAUNCH on 18 October, with most territories put on hold for the run. Open: RUN-SHAPE, which takes in PHASE2-OWNER: whether this thread organises everyone's move while tools are down, including tools-ki, its release and other projects' checkouts. The work model is settled in [GDR-KI-PRINCIPAL-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md) and the [Work Process](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Work Process/Work Process.md>) note. A skills audit follows once the work model is finished (Kris, 18 October).
 - **Resume:** `Resume KI > Model > ways working under current ki-pmo and ki-delegation since 2026-10-17T21:34:13Z: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.`
-- **Next steps, in order:** on Kris's answers, launch phase 1 of the work migration in ki-agentic-harness and send phase 2 with the KI-TOOL-KI-CLI-127 work-status handoff (in `settle-model.report.md`) to the tools burndown thread; Parked: WORKER-CLI, Kris's idea of 18 October to rename `ki agent` to `ki worker`, offered to the tools burndown thread with phase 2; Personal > SoP handoff (ACT-WORK); HARNESS-ACCEPT sitting (KI-HARNESS-GOV-195, -198, -203, KI-HARNESS-OPS-005); SYNC-GUARD's KI-HARNESS-GOV-189 amendment; QUIET-HOOK; AREAS-DISPATCH.
+- **Next steps, in order:** see migrate-phase1 through; on RUN-SHAPE, run phase 2 with the KI-TOOL-KI-CLI-127 work-status handoff (in `settle-model.report.md`) to the tools burndown thread; Parked: WORKER-CLI, Kris's idea of 18 October to rename `ki agent` to `ki worker`, offered to the tools burndown thread with phase 2; Personal > SoP handoff (ACT-WORK); HARNESS-ACCEPT sitting (KI-HARNESS-GOV-195, -198, -203, KI-HARNESS-OPS-005); SYNC-GUARD's KI-HARNESS-GOV-189 amendment; QUIET-HOOK; AREAS-DISPATCH.
 
 **Messages** - the receiving thread acts on each line, then removes it.
 
