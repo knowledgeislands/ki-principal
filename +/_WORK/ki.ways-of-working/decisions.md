@@ -178,3 +178,11 @@ Read back: taken as a question on STYLE-STALE, not yet an answer to it. The coor
 ## 2026-10-18 20:20 BST - receive in a fresh session; mark
 
 Kris sent the work back to its worker in a fresh session, as the coordinator advised at 20:18 BST. Read back as taken: the STYLE-STALE restart is done; its second part, re-reading the style file at re-anchoring, stays open. MARK struck at 20:20 BST (2026-10-18T19:20:01Z). Struck at this mark: the 18:04 BST entry (MGIT-LEARN-FLAG carried by tools-mgit `main`, GLYPH-OWNER by the current style and standard) and the 18:12 BST entry (RESUME-PWD carried by the send line, RESTARTS done).
+
+## 2026-10-18 20:33 BST - owner answers, re-bootstrap queries
+
+Kris, 18 October:
+
+> do all the recommended items, we just need to move forwards
+
+Read back as taken: a) for all twelve. STYLE-STALE (a harness run folds the re-read of the style file at re-anchoring into an existing ki-coordination record), PRINCIPAL-CI-RED (one run links this work's reports; Messages lines to ki.chezmoi, ki.tools-burndown and ki.observatory), CLI-150-LAUNCH (planning run to Ready, common rules move first), GOV-197-ACCEPT (independent review, then acceptance with Kris), PRUNE-FOLLOW-UP (one run pins the freed links, including KI-TOOL-KI-CLI-134's, and prunes what is free), DESK-KIT-CLOSE (coordinator reruns the close), ACQUIRE-THREADS (one acquire run), MGIT-RELEASE (wait for the hands-on check), RIG-TAG-SIGN (annotated tag accepted), RIG-DIST-012-ACCEPT (accept as it stands), KI-PIN-ESTATE (one run moves every pin to v0.11.3) and RIG-UPGRADE-MACHINES (Kris upgrades Terra and Sol, then a live-acceptance run).
