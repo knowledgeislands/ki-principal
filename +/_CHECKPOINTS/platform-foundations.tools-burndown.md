@@ -12,6 +12,7 @@ updated_at: 2026-10-18T02:55:00Z
 
 **Messages from Master: state-of-play** - the receiving thread acts on each line, then removes it.
 
+- 2026-10-18 04:02 BST · FIRST-STEP from KI > Model > Ways of working (hand-back): you resume on this old-shape checkpoint; ways of working moves it and +/_THREADS/tools-burndown/ into +/_WORK/ki.tools-burndown/ at your next hold and will tell you here. (1) tools-ki stays with ways of working until its run migrate-phase2b releases ki 0.10.6 and says so here - do not touch tools-ki until then. (2) Your plan step 3 (ki release and the ki-principal .github/ki-version bump) is taken over by ways of working under Kris's RUN-SHAPE and release answers of 18 October; drop it. (3) KI-TOOL-KI-CLI-127 goes to Awaiting review through migrate-phase2b; keep it in your ki-accept group. (4) New forms from today's ki-pmo and ki-delegation (harness, KI-HARNESS-GOV-210): report heading with the glyph-state form line, Done / In Progress / Queries, closing glyph banner, no reply block, Kris's spoken answers read back in the decisions log; run briefs and run reports follow the same - re-read ki-pmo and ki-delegation before your first report. (5) Rig first and mgit are clear to start.
 - None open. Acted on 18 October 02:25 BST: FIRST-STEP (`role` added; ways of working's READY of 17 October clears RESTART-ORDER; a full ki-checkpoint form check joins the next steps), TOOLS-PUSH (folded into PUSH-REBASE-CODE; the v0.10.6 cut is query TOOLS-RELEASE) and KI-QUIET (the tools-ki KI_QUIET triage record joins the tools-ki chain).
 
 ## Pick-up

@@ -1091,3 +1091,9 @@ HAND BACK When your changes land, write any FIRST-STEP line into the work file's
 Resume Fnd: tools-burndown from <work file> under current ki-pmo and ki-delegation since <mark>: re-read the work file and decisions, act on its Messages FIRST-STEP first, take stock, put the parked queries back, restart authorised work (Rig first), then banner."
 
 Taken as: tools-burndown is drained, so its held rows in the migration plan (ki.tools-burndown) are released into the Capital apply; the ki release changes order - migrate-phase2b cuts it (0.10.6) under RUN-SHAPE, and the ki-version bump in ki-principal joins the apply; KI-TOOL-KI-CLI-127 leaves the ki-accept group for Awaiting review via phase 2b; hand-back writes a FIRST-STEP into ki.tools-burndown's work file Messages naming those changes and the new brief and report forms, and gives Kris the resume prompt filled in. This also answers BRINGUP-PROJECT in effect: tools-ki bring-up items file under tools-burndown (recommended a), pending Kris's word.
+
+## 2026-10-18 04:02 BST - WHAT-NEEDED, HAND-BACK tools-burndown
+
+Kris, as received: "So I'm not sure what's going on. What do you need from me? I think it's all stable now. You should just be able to get over things. Give me the handover part. What can we from the project?"
+
+Taken as: hand tools-burndown back now rather than after the Capital apply. Wrote one FIRST-STEP line into its checkpoint Messages block (old shape; it moves to +/_WORK at its next hold; tools-ki stays with migrate-phase2b until 0.10.6; release step taken over; -127 via phase 2b; new forms; Rig first and mgit clear). Gave Kris its resume prompt. The only thing needed from Kris is BRINGUP-PROJECT. Last phrase unclear ("What can we from the project?"); asked in one line.
