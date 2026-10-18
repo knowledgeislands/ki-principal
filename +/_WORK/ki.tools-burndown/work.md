@@ -24,6 +24,7 @@ created_at: 2026-10-16T00:05:00Z
 
 ## Messages
 
+- 2026-10-18 · DESK-KIT-SOP · KI > Model > Ways of working: delivered. Kris confirmed DESK-KIT-SOP a) and widened it; the desk-kit lines are gone from the [state-of-play work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/work.md). Drop item (4) "the DESK-KIT-SOP line for state-of-play" from your next steps and close the DESK-KIT-SOP tag.
 - MIGRATED - this file was `+/_CHECKPOINTS/platform-foundations.tools-burndown.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
 
 ## Parked

@@ -26,15 +26,14 @@ created_at: 2026-10-06T21:07:00Z
   0. PILOT-SEED at a session with the terra checkout (decisions log, 18 October).
   1. Once ways of working's updates land, re-bootstrap on them. Then confirm knowledge acquisition has restarted; then the two Rig threads in parallel, then Host network (fifth, HOST-NETWORK-THREAD).
   2. On Kris's return: REBASE-OWNER and MGIT-017-CLASH (bug-census report); check whether SEAT-PUSH, LABEL-FORM and PROJECT-OVERLAP (seat-change and tools-project reports) were answered before 17 October, and delete those reports if so.
-  3. THREADS-ORPHANS remainder: desk-kit reports (frontmatter now fixed) belong to Rig: mac-studio-setup (setup-note) and KI > mics / webcams (cam-check, webcam-compare).
-  4. STASH-DROP at a session with the terra checkout.
-  5. At the next mark, THREAD-TIDY the thread folder.
+  3. STASH-DROP at a session with the terra checkout.
+  4. At the next mark, THREAD-TIDY the thread folder.
   - Rule from Kris, 2026-10-15 22:50 BST: the thread dispatches changes to coordination threads and does not ask whether to. GO-AHEAD, 2026-10-17: "you've got permission to get on with anything."
-- **Live threads (2026-10-16):** KI > SoP; KI > Fnd > tools burndown; KI > Model > ways of working; KI > Model > knowledge acquisition; KI > Rig > mac studio setup; KI > mics / webcams; Acquire > intake (sol); Chezmoi > misc (sol), carrying Rig: chezmoi.
+- **Live threads (2026-10-16):** KI > SoP; KI > Fnd > tools burndown; KI > Model > ways of working; KI > Model > knowledge acquisition; KI > Rig > mac studio setup; Acquire > intake (sol); Chezmoi > misc (sol), carrying Rig: chezmoi.
 
 **Messages from Master: state-of-play** - the receiving thread acts on each line, then removes it.
 
-- 2026-10-16 · THREADS-ORPHANS · KI Model: ways-of-working, on Kris's MSG-ORPHANS of 16 October (option a)): the empty `+/_THREADS/mac-studio-bootstrap/` is removed. Still to do: `+/_THREADS/desk-kit/` has no checkpoint; its untracked reports (`setup-note.report.md`, headed Rig › Mac Studio setup, and `cam-check` and `webcam-compare`, apparently KI > mics / webcams) need their owning thread found and THREADS-CLEAR passed on; Rig: chezmoi gets its THREADS-CLEAR line when its session rests.
+- 2026-10-16 · THREADS-ORPHANS · KI Model: ways-of-working, on Kris's MSG-ORPHANS of 16 October (option a)): the empty `+/_THREADS/mac-studio-bootstrap/` is removed. Still to do: Rig: chezmoi gets its THREADS-CLEAR line when its session rests.
 
 1. Follow the pick-up block's next steps in order.
 2. Commit this thread's checkpoint, thread folder and `decisions.md` through a private index by explicit path at each mark, pull with rebase and push fast-forward when the stack is only this thread's.
@@ -44,7 +43,6 @@ created_at: 2026-10-06T21:07:00Z
 ## Messages
 
 - 2026-10-18 · THREADS-REGRESSION · KI > Model > Ways of working: your `state-of-play` run is still homed in the retired `+/_THREADS/state-of-play/` (`~/.local/state/ki/agents/state-of-play/thread.json`), so the installed `ki` copies every report there; briefs such as `ms3-drop` named `+/_THREADS/state-of-play/` report paths. Before your next launch run `ki agent home state-of-play --work ki` from this repository and write report paths as `+/_WORK/ki/`, never `+/_THREADS/` or `+/_CHECKPOINTS/`. The next `ki` release follows a retired home automatically, under [KI-TOOL-KI-CLI-150](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md), and the audit now fails either folder beside `+/_WORK/`, under [KI-HARNESS-GOV-200](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md).
-- 2026-10-18 · DESK-KIT-SOP from KI > Model > Ways of working (option a), provisional on Fable's opinion, for Kris to confirm): drop the desk-kit lines from your next step 3, THREADS-ORPHANS and "KI > mics / webcams", as the [tools-burndown report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/tools-burndown.report.md) describes.
 - MIGRATED - this file was `+/_CHECKPOINTS/_state-of-play.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
 
 ## Parked
