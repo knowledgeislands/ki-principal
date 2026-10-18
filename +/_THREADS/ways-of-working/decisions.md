@@ -990,3 +990,9 @@ Taken as: this thread is not held; migrate-phase1 continues; RUN-SHAPE stays ope
 Kris, as received: "Every update, I want to know what's outstanding, what's left on the plan, and what's been done."
 
 Taken as: from now on every timed update in this thread carries three short lines - Done, Left on the plan, Outstanding - beside the running step. Applied in this thread now; whether ki-pmo adopts it for every coordinator is a candidate for the skills audit.
+
+## 2026-10-18 02:48 BST - PROMPT-ME
+
+Kris, as received: "can you prompt me"
+
+Taken as: put RUN-SHAPE to Kris as a prompt with options.
