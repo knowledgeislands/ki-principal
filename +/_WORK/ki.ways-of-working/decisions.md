@@ -1373,3 +1373,7 @@ Read back:
 - OBS-KI-CONTRACT-GAPS a) - hand tools-ki a request for the five views and the review count in `ki/work-status/v2`; the Observatory keeps its own derivation until then.
 - OBS-RECORD-FIELDS a) - `project: ways-of-working` and the shortened titles confirmed.
 - CLI134-GRANTS a) - a harness run drafts `grant-fetch.md` and `grant-machine.md` under KI-HARNESS-GOV-201 for Kris's review; nothing is adopted until he approves the wording.
+
+## 2026-10-18 10:37 BST - coordinator note, OBS-RETIRE-HOLD
+
+obs-answers asked whether KI-OBSERVA-VIS-028 stays an adopted draft on hold, waiting for phase 5. Taken as already decided by Kris's OBS-SESSIONS-RETIRE a) ("capture a retirement record, blocked on phase 5"): kept on hold. Not raised to Kris as a separate query; reported in the next update.
