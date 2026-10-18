@@ -926,3 +926,9 @@ Taken as:
 Kris, as received: "Oh, yeah, no, that's something I backed off. I was wondering though, we currently have KI space agent in the tooling, so that's not the word space, that's the letter space and I was wondering if that should become rather being KI agent, it should become KI worker. But I think it's fine for now, we could add that as an idea or consideration further out."
 
 Taken as: RENAME-KI closed - "rename KI" meant the `ki agent` command. WORKER-CLI parked as an idea for later: rename `ki agent` to `ki worker` to match the work model's worker role; offered to the tools burndown thread with phase 2 of the work migration, not acted on now.
+
+## 2026-10-18 02:00 BST - SIDEBAR
+
+Kris, as received, with a screenshot of the Claude Code session list (Acquire > intake (sol), Chezmoi > misc (sol), then under ki-principal: KI > Model > ways of working, KI > Model > ports, KI > SoP, KI > Rig > mac studio setup, KI > Model > observatory, KI > Fnd > tools burndown): "This is how it looks for me at the minute."
+
+Taken as: context for how titles read today. Raised TITLE-THEME: whether session titles keep the theme as display text once ids drop it under WORK-THEME.
