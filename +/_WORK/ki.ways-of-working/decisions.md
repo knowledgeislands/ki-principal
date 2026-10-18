@@ -328,3 +328,9 @@ CONFIG-PRESERVE-REVIEW: config-preserve asked whether its `config.toml` fix need
 > can you save anything you need into a repository so that I can take a break and recover from it, don't move the last mark though as I'll need to review from it
 
 Read back: HOLD - put the work on hold (more expected): nothing is running, so nothing to drain; save the state and park the 13 open queries in the work file; commit and push. The mark stays at 11:06 BST; no prune and no decision striking, so every report since the mark stays in the folder for Kris's review.
+
+## 2026-10-18 17:39 BST - owner returns, asks for an update since the mark
+
+> ok - so I'm back, can you update me on things since the last mark?
+
+Read back: RESUME - lift the hold and give a recap since the 11:06 BST mark with the 13 parked queries back on the table. Nothing changed during the break: no new commits, no Messages, the four paused works still on hold. The mark does not move.

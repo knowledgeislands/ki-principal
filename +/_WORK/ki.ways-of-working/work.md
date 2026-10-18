@@ -6,10 +6,8 @@ project: ways-of-working
 theme: model
 worker: agent
 supervisor: owner
-state: on-hold
-reason: owner break; more expected
-release: Kris resumes with the resume line
-since: 2026-10-18T11:40:38Z
+state: handoff-to-supervisor
+since: 2026-10-18T16:39:10Z
 received: null
 beat: null
 mark: 2026-10-18T10:06:05Z
@@ -20,7 +18,7 @@ created_at: 2026-10-09T20:58:00Z
 
 ## Next steps
 
-On hold since 18 October 12:40 BST. The mark stays at 11:06 BST (`2026-10-18T10:06:05Z`) so Kris can review from it; every run report since the mark is kept in this folder, and the Summary of 11:47 BST is rebuilt from them.
+Resumed 18 October 17:39 BST after a hold from 12:40 BST; parked queries back with Kris. The mark stays at 11:06 BST (`2026-10-18T10:06:05Z`) so Kris can review from it; every run report since the mark is kept in this folder, and the Summary of 11:47 BST is rebuilt from them.
 
 Done since the mark (reports here): mgit-st-quiet (`mgit st` quiet, live, KI-TOOL-MGIT-CLI-024; a `git stash` slip, restored), mark-prune, work-folder-rename (`ki-work-folder`, §4 division, GOV-200 checks recorded, KI-TOOL-KI-CLI-150 at triage), config-preserve (KI-TOOL-KI-CLI-143 follow-up), release-ki-0112 (v0.11.2 released, Homebrew, ki-principal pins it), harness-upkeep (KI-HARNESS-GOV-194 and -201 awaiting review, grants adopted, Haiku 5.5 noted), rumdl-upgrade (harness on 0.3.0), territory-rename (seven other-territory `.ki.toml` renamed and pushed). Nothing is running or queued.
 
