@@ -12,8 +12,8 @@
 
 Two reading caveats:
 
-- **tools-ki has diverged.** Local `main` and `origin/main` have each moved on. Local `main` has 17 open records (the 17 you counted). `origin/main` also has three that are not on local `main`: [KI-TOOL-KI-CLI-141](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-141-granola-screenshots-markers.md), [KI-TOOL-KI-CLI-142](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-142-preserve-harness-release-settings.md) and [KI-TOOL-KI-CLI-143](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-143-separate-local-harness-paths.md). The other session's rebase will bring them together, giving 20. While the rebase is still running, the working tree has no files for KI-TOOL-KI-CLI-144 and KI-TOOL-KI-CLI-145, so their links below will not open until it finishes.
-- **mgit re-read after mgit-diverge's commits.** By 22:33 BST tools-mgit `main` had the two KI-TOOL-MGIT-CLI-017 records merged into one, with MGIT-OUTPUT captured as [KI-TOOL-MGIT-CLI-018](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-018-estate-scale-output.md) and MGIT-ESCAPE as [KI-TOOL-MGIT-CLI-019](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-019-pass-through-escape-hatch.md). mgit-diverge was still writing its report then; the mgit section reflects that `main`.
+- **tools-ki has diverged.** Local `main` and `origin/main` have each moved on. Local `main` has 17 open records (the 17 you counted). `origin/main` also has three that are not on local `main`: [KI-TOOL-KI-CLI-141](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-141-granola-screenshots-markers.md), [KI-TOOL-KI-CLI-142](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-142-preserve-harness-release-settings.md) and [KI-TOOL-KI-CLI-143](https://github.com/knowledgeislands/tools-ki/blob/47bb069f646b9d20b585de486f9b5b14cf273415/docs/roadmap/KI-TOOL-KI-CLI-143-separate-local-harness-paths.md). The other session's rebase will bring them together, giving 20. While the rebase is still running, the working tree has no files for KI-TOOL-KI-CLI-144 and KI-TOOL-KI-CLI-145, so their links below will not open until it finishes.
+- **mgit re-read after mgit-diverge's commits.** By 22:33 BST tools-mgit `main` had the two KI-TOOL-MGIT-CLI-017 records merged into one, with MGIT-OUTPUT captured as [KI-TOOL-MGIT-CLI-018](https://github.com/knowledgeislands/tools-mgit/blob/2ca3a8e06b88deb72b48476420f0f2211e56f5b8/docs/roadmap/KI-TOOL-MGIT-CLI-018-estate-scale-output.md) and MGIT-ESCAPE as [KI-TOOL-MGIT-CLI-019](https://github.com/knowledgeislands/tools-mgit/blob/2ca3a8e06b88deb72b48476420f0f2211e56f5b8/docs/roadmap/KI-TOOL-MGIT-CLI-019-pass-through-escape-hatch.md). mgit-diverge was still writing its report then; the mgit section reflects that `main`.
 
 ### 1. Overview
 
@@ -49,7 +49,7 @@ The "Held" column counts drafts in the `hold` horizon. They are not counted agai
 - [KI-TOOL-KI-CLI-131](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-131-host-absent-store-state.md) Host-absent store state - draft, next; blocked by 126, blocks 136
 - [KI-TOOL-KI-CLI-136](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-136-errors-suggest-fixes.md) Errors suggest fixes - draft, next; blocked by 131
 - [KI-TOOL-KI-CLI-142](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-142-preserve-harness-release-settings.md) Preserve harness release settings - triage, origin only. A real defect: rewriting the configuration drops the release settings.
-- [KI-TOOL-KI-CLI-143](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-143-separate-local-harness-paths.md) Separate local harness paths - triage, origin only. This should follow 142.
+- [KI-TOOL-KI-CLI-143](https://github.com/knowledgeislands/tools-ki/blob/47bb069f646b9d20b585de486f9b5b14cf273415/docs/roadmap/KI-TOOL-KI-CLI-143-separate-local-harness-paths.md) Separate local harness paths - triage, origin only. This should follow 142.
 
 **Theme C - records and skills tooling.** This keeps roadmap records clean and lets a skill's standard generate its own runtime files.
 
@@ -90,7 +90,7 @@ The "Held" column counts drafts in the `hold` horizon. They are not counted agai
 **Theme D - distribution and dev mode (all held).**
 
 - [KI-TOOL-RIG-CORE-048](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-048-signed-release-install-kind.md) Signed-release install kind - draft, held. It depends on [KI-TOOL-KI-CLI-125](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-125-ki-release-contract.md) defining the signed release, so both should be released together.
-- [KI-TOOL-RIG-CLI-026](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CLI-026-per-tool-development-mode-switch.md) Per-tool development mode switch - draft, held. This partly overlaps `ki dev` local/release switching and [KI-TOOL-KI-CLI-143](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-143-separate-local-harness-paths.md).
+- [KI-TOOL-RIG-CLI-026](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CLI-026-per-tool-development-mode-switch.md) Per-tool development mode switch - draft, held. This partly overlaps `ki dev` local/release switching and [KI-TOOL-KI-CLI-143](https://github.com/knowledgeislands/tools-ki/blob/47bb069f646b9d20b585de486f9b5b14cf273415/docs/roadmap/KI-TOOL-KI-CLI-143-separate-local-harness-paths.md).
 - [KI-TOOL-RIG-DIST-011](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-DIST-011-stale-terra-rig-link.md) Stale vega rig link - draft, held. Likely stale: the file is still named after `terra` but the title says `vega`, and it is a one-host fix that the vega rebuild may already have dealt with.
 
 The running `rig-target-speed` agent has no record. It works under your direct instruction of 17 October.
@@ -99,13 +99,13 @@ The running `rig-target-speed` agent has no record. It works under your direct i
 
 **Theme A - one member model.**
 
-- [KI-TOOL-MGIT-CLI-017](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-017-unified-external-members.md) Unified external members - awaiting review
+- [KI-TOOL-MGIT-CLI-017](https://github.com/knowledgeislands/tools-mgit/blob/af6e67736262ec4c0e0fa5f74507849bda48a503/docs/roadmap/KI-TOOL-MGIT-CLI-017-unified-external-members.md) Unified external members - awaiting review
 - The duplicate KI-TOOL-MGIT-CLI-017 capture ("Unify repository members", same number) has been merged into the record above by mgit-diverge, so that duplicate is resolved.
 
 **Theme B - an estate tool rather than a loop.** Quiet, readable output at estate scale, plus escape hatches so mgit can own verbs without blocking plain Git.
 
-- [KI-TOOL-MGIT-CLI-018](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-018-estate-scale-output.md) Estate-scale output (MGIT-OUTPUT) - triage
-- [KI-TOOL-MGIT-CLI-019](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-019-pass-through-escape-hatch.md) Pass-through escape hatch (MGIT-ESCAPE) - triage. It notes a gap today: because mgit owns `worktree`, `git worktree` cannot be run across the set at all.
+- [KI-TOOL-MGIT-CLI-018](https://github.com/knowledgeislands/tools-mgit/blob/2ca3a8e06b88deb72b48476420f0f2211e56f5b8/docs/roadmap/KI-TOOL-MGIT-CLI-018-estate-scale-output.md) Estate-scale output (MGIT-OUTPUT) - triage
+- [KI-TOOL-MGIT-CLI-019](https://github.com/knowledgeislands/tools-mgit/blob/2ca3a8e06b88deb72b48476420f0f2211e56f5b8/docs/roadmap/KI-TOOL-MGIT-CLI-019-pass-through-escape-hatch.md) Pass-through escape hatch (MGIT-ESCAPE) - triage. It notes a gap today: because mgit owns `worktree`, `git worktree` cannot be run across the set at all.
 
 #### tools-git-almanac
 
@@ -124,21 +124,21 @@ Each of these is the standards half of a tools-ki record. Each pair is best acce
 
 | Harness record | Status | tools-ki pair |
 |---|---|---|
-| [KI-HARNESS-GOV-175](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-175-delegation-run-events.md) Delegation run events | draft, next | KI-TOOL-KI-CLI-123 |
+| [KI-HARNESS-GOV-175](https://github.com/knowledgeislands/ki-agentic-harness/blob/87da1b262fcc60678a31850461dd63c4a848e592/docs/roadmap/KI-HARNESS-GOV-175-delegation-run-events.md) Delegation run events | draft, next | KI-TOOL-KI-CLI-123 |
 | [KI-HARNESS-GOV-199](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-199-thread-identity-role-native-sessions.md) Thread identity and role | in progress | KI-TOOL-KI-CLI-145 |
 | [KI-HARNESS-GOV-196](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-196-scratch-output-in-temp.md) Scratch output in temp | triage | KI-TOOL-KI-CLI-137 |
 | [KI-HARNESS-GOV-200](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md) Thread folder closed list | triage | KI-TOOL-KI-CLI-137, 133. **Overlaps GOV-196**: both set the temporary home rule, so they are candidates to merge |
-| [KI-HARNESS-GOV-201](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-201-fetch-and-machine-grants.md) Fetch and machine grants | triage | KI-TOOL-KI-CLI-134 |
+| [KI-HARNESS-GOV-201](https://github.com/knowledgeislands/ki-agentic-harness/blob/f7982a616236486ac9c944671a636cfcf319b0c8/docs/roadmap/KI-HARNESS-GOV-201-fetch-and-machine-grants.md) Fetch and machine grants | triage | KI-TOOL-KI-CLI-134 |
 | [KI-HARNESS-GOV-189](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-189-move-thread-between-hosts.md) Move thread between hosts | triage | none yet; would need `ki agent` support |
-| [KI-HARNESS-GOV-195](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-195-granola-screenshots-markers.md) Granola screenshots and markers | awaiting review | KI-TOOL-KI-CLI-141 |
-| [KI-HARNESS-GOV-203](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-203-git-clean-down-criteria.md) Git clean-down criteria | awaiting review | KI-TOOL-KI-CLI-140, and the mgit estate overview |
-| [KI-HARNESS-OPS-005](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-OPS-005-acquire-ai-sessions.md) Acquire AI sessions | awaiting review | none on main |
+| [KI-HARNESS-GOV-195](https://github.com/knowledgeislands/ki-agentic-harness/blob/87da1b262fcc60678a31850461dd63c4a848e592/docs/roadmap/KI-HARNESS-GOV-195-granola-screenshots-markers.md) Granola screenshots and markers | awaiting review | KI-TOOL-KI-CLI-141 |
+| [KI-HARNESS-GOV-203](https://github.com/knowledgeislands/ki-agentic-harness/blob/87da1b262fcc60678a31850461dd63c4a848e592/docs/roadmap/KI-HARNESS-GOV-203-git-clean-down-criteria.md) Git clean-down criteria | awaiting review | KI-TOOL-KI-CLI-140, and the mgit estate overview |
+| [KI-HARNESS-OPS-005](https://github.com/knowledgeislands/ki-agentic-harness/blob/bf227839a07091a342dff0cab6e3be5d031941a3/docs/roadmap/KI-HARNESS-OPS-005-acquire-ai-sessions.md) Acquire AI sessions | awaiting review | none on main |
 
 **Cross-tool overlaps in one place:**
 
-- Estate Git hygiene: [KI-TOOL-KI-CLI-140](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-140-git-hygiene-estate-audit.md), [KI-HARNESS-GOV-203](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-203-git-clean-down-criteria.md), the proposed mgit overview, and git-almanac's look and feel.
+- Estate Git hygiene: [KI-TOOL-KI-CLI-140](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-140-git-hygiene-estate-audit.md), [KI-HARNESS-GOV-203](https://github.com/knowledgeislands/ki-agentic-harness/blob/87da1b262fcc60678a31850461dd63c4a848e592/docs/roadmap/KI-HARNESS-GOV-203-git-clean-down-criteria.md), the proposed mgit overview, and git-almanac's look and feel.
 - Signed releases: [KI-TOOL-KI-CLI-125](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-125-ki-release-contract.md) and [KI-TOOL-RIG-CORE-048](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-048-signed-release-install-kind.md).
-- Local versus release tools: [KI-TOOL-RIG-CLI-026](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CLI-026-per-tool-development-mode-switch.md) and [KI-TOOL-KI-CLI-143](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-143-separate-local-harness-paths.md).
+- Local versus release tools: [KI-TOOL-RIG-CLI-026](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CLI-026-per-tool-development-mode-switch.md) and [KI-TOOL-KI-CLI-143](https://github.com/knowledgeislands/tools-ki/blob/47bb069f646b9d20b585de486f9b5b14cf273415/docs/roadmap/KI-TOOL-KI-CLI-143-separate-local-harness-paths.md).
 - Agent temporary home: [KI-TOOL-KI-CLI-137](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-137-agent-run-tmp-home.md), [KI-HARNESS-GOV-196](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-196-scratch-output-in-temp.md) and [KI-HARNESS-GOV-200](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md).
 
 ### 3. Suggested burn-down order
@@ -239,7 +239,7 @@ output      progress bar on stderr while working (TTY only)
 - it is an `automation/*`, `dependabot/*` or `renovate/*` branch that is already merged
 - it has been idle beyond a threshold
 
-The criteria should come from [KI-HARNESS-GOV-203](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-203-git-clean-down-criteria.md), so mgit and `ki` judge alike. mgit only shows obsolete branches and never deletes them. Proposing clean-down stays with `ki repo conform --skill ki-git` ([KI-TOOL-KI-CLI-140](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-140-git-hygiene-estate-audit.md)), which reads `mgit overview --json` instead of collecting the same facts a second time.
+The criteria should come from [KI-HARNESS-GOV-203](https://github.com/knowledgeislands/ki-agentic-harness/blob/87da1b262fcc60678a31850461dd63c4a848e592/docs/roadmap/KI-HARNESS-GOV-203-git-clean-down-criteria.md), so mgit and `ki` judge alike. mgit only shows obsolete branches and never deletes them. Proposing clean-down stays with `ki repo conform --skill ki-git` ([KI-TOOL-KI-CLI-140](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-140-git-hygiene-estate-audit.md)), which reads `mgit overview --json` instead of collecting the same facts a second time.
 
 **Design risk.** Bash 3.2 has no `wait -n`. The worker pool would be background jobs writing result files, with a job-slot poll. This is doable and testable with bats, but it is the part most likely to grow. If it proves fragile, the fallback is a TypeScript/Bun mgit core, which is a larger, separate decision.
 
@@ -247,9 +247,9 @@ The criteria should come from [KI-HARNESS-GOV-203](/Users/krisbrown/workspaces/k
 
 | Order | Record | Action | What it covers |
 |---|---|---|---|
-| 1 | [KI-TOOL-MGIT-CLI-017](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-017-unified-external-members.md) | accept (mgit-review is lined up for it) | one member model |
-| 2 | [KI-TOOL-MGIT-CLI-019](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-019-pass-through-escape-hatch.md) (MGIT-ESCAPE) | **reword** | `--git` and `--raw` escape hatches, retire `-B/--bare` with an error naming the replacement, clearer `-P/-L` help and `diag` line. Goes first among the new records because it is the breaking change, and it frees mgit to own verbs |
-| 3 | [KI-TOOL-MGIT-CLI-018](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-018-estate-scale-output.md) (MGIT-OUTPUT) | **narrow** | one shared parallel runner and output layer (jobs, progress bar, results at end, changes-only, `--verbose`, `--json`) that every multi-repository command uses |
+| 1 | [KI-TOOL-MGIT-CLI-017](https://github.com/knowledgeislands/tools-mgit/blob/af6e67736262ec4c0e0fa5f74507849bda48a503/docs/roadmap/KI-TOOL-MGIT-CLI-017-unified-external-members.md) | accept (mgit-review is lined up for it) | one member model |
+| 2 | [KI-TOOL-MGIT-CLI-019](https://github.com/knowledgeislands/tools-mgit/blob/2ca3a8e06b88deb72b48476420f0f2211e56f5b8/docs/roadmap/KI-TOOL-MGIT-CLI-019-pass-through-escape-hatch.md) (MGIT-ESCAPE) | **reword** | `--git` and `--raw` escape hatches, retire `-B/--bare` with an error naming the replacement, clearer `-P/-L` help and `diag` line. Goes first among the new records because it is the breaking change, and it frees mgit to own verbs |
+| 3 | [KI-TOOL-MGIT-CLI-018](https://github.com/knowledgeislands/tools-mgit/blob/2ca3a8e06b88deb72b48476420f0f2211e56f5b8/docs/roadmap/KI-TOOL-MGIT-CLI-018-estate-scale-output.md) (MGIT-OUTPUT) | **narrow** | one shared parallel runner and output layer (jobs, progress bar, results at end, changes-only, `--verbose`, `--json`) that every multi-repository command uses |
 | 4 | new: Safe parallel sync | **new**, split from KI-TOOL-MGIT-CLI-018 | fetch in parallel, classify, fast-forward-only apply, push, diverged or dirty reported as a warning and never touched |
 | 5 | new: Estate overview | **new** | `mgit overview` facts and table, the obsolete branch rule from KI-HARNESS-GOV-203, `--json` contract |
 | 6 | KI-TOOL-KI-CLI-140 | **reword** in tools-ki (handoff) | consume `mgit overview --json` for rubric findings and conform proposals instead of its own collector |
