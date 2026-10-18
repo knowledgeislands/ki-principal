@@ -18,16 +18,12 @@ created_at: 2026-10-09T20:58:00Z
 
 ## Next steps
 
-Resumed 18 October 17:39 BST after a hold from 12:40 BST; parked queries back with Kris. The mark stays at 11:06 BST (`2026-10-18T10:06:05Z`) so Kris can review from it; every run report since the mark is kept in this folder, and the Summary of 11:47 BST is rebuilt from them.
+Mark struck 18:12 BST (`2026-10-18T17:12:06Z`); the folder is pruned and the decisions log struck to it. Nothing is owed beyond the runs below.
 
-Done since the mark (reports here): mgit-st-quiet (`mgit st` quiet, live, KI-TOOL-MGIT-CLI-024; a `git stash` slip, restored), mark-prune, work-folder-rename (`ki-work-folder`, §4 division, GOV-200 checks recorded, KI-TOOL-KI-CLI-150 at triage), config-preserve (KI-TOOL-KI-CLI-143 follow-up), release-ki-0112 (v0.11.2 released, Homebrew, ki-principal pins it), harness-upkeep (KI-HARNESS-GOV-194 and -201 awaiting review, grants adopted, Haiku 5.5 noted), rumdl-upgrade (harness on 0.3.0), territory-rename (seven other-territory `.ki.toml` renamed and pushed). Nothing is running or queued.
-
-On resume:
-
-1. Give Kris the Summary since the mark with the parked queries below, in batches.
-2. Restarts with Kris: KI > Rig > chezmoi (Messages carry the rename, then the Sol and Terra re-runs on v0.11.2); KI > Foundations > Tools burndown (since 2026-10-18T03:30:38Z) and KI > Model > Observatory (since 2026-10-18T01:27:13Z), prompts given at 11:41 BST; then KI > SoP; Mac Studio setup and Knowledge acquisition when wanted.
-3. Owed launches: DESK-KIT-SOP (remove the desk-kit lines); RIG-LOCK-FOLLOWUP independent review, then a Rig ki-accept sitting and the Rig release (RIG-LOCK-RELEASE a).
-4. Outstanding, no action: KI-HARNESS-GOV-200 checks and KI-TOOL-KI-CLI-150 unbuilt; the thread-model diagram and two `ki agent` "thread home" strings still carry old names; ki-engineering SCR-11 fails in the harness (pre-existing).
+1. Running: estate-deps (DEPS-LATEST with RUMDL-ESTATE) and cli-conventions (CLI-CONVENTIONS into `ki-repo-tools`).
+2. Finished, reports here to receive: threads-fix, review-gov194-201, mgit-learn, records-fold, rig-lock-review, desk-kit-sop, principal-audit, accept-prune and glyph-owner.
+3. Kept with an open query: work-folder-rename (LAUNCH-REPORT-PATH, never answered or parked).
+4. Queued: none.
 
 ## Messages
 
