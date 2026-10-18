@@ -1173,3 +1173,41 @@ Fable's second advisory ([fable-opinion-2](fable-opinion-2.report.md)) weighed w
 - KI-TOOL-MGIT-CLI-017 and KI-TOOL-RIG-CORE-060: accept, as their independent reviews passed.
 - KI-TOOL-MGIT-CLI-018 to -022: adopt and plan, build in the order -022, -021, -018, -019, -020 to Awaiting review, with -B and --bare kept as deprecated aliases and -020 built only on disposable fixtures.
 - Read-only independent reviews of the Awaiting-review Rig records, and KI-TOOL-RIG-CORE-061 planned. The other Awaiting-review records are reviewed but not accepted; they stay for Kris.
+
+## 2026-10-18 08:52 BST - owner message
+
+> how do I see this best with the observatory?
+
+Thread: answered with the observatory route to the published summary.
+
+## 2026-10-18 08:54 BST - owner message
+
+> Okay, I think the best thing to do is for you to walk me through things.
+
+Thread: walking the open queries in batches, provisional approvals first.
+
+## 2026-10-18 08:4x BST - owner answers, batch 1 (walk-through)
+
+> Okay, I'm happy with the lock choices, that makes sense.
+>
+> Yeah, I'm found with the unharness path as well. Obviously, the way it's set up, both Solt and Terror use the same paths. I think the only thing to make sure is that we have a handoff for the chain moi thread I have running on each machine to say to do the migration. You can Google that in response to this so I can win it on both. Yes, absolutely the desk kit lines from the state of play should be removed. In fact, they can be removed from wherever now. And yes, the story perfect is good, so is the single target speed. So are the M gate acceptances. Although I do have some feedback on that a little bit, but I guess that's probably better to well I can give you it and then we can do a prompt, can't we, to hand off to tools burndown once we've gone through the rest of our list. My basic feedback is that it works really well with the way that it now does the progress and then tells you there's no output, but for certain commands, there's a standard output which could be said to be normal, so we need to have a way of being able to do that. For example, if you do a git pull on a repo, you'll always get some output, and if you do a git push, you'll always get some output. So we need to be able to ignore the ones which are just the standard responses for no changes.
+
+Read back as taken (speech-to-text: "chain moi" = chezmoi, "Solt"/"Terror" = Sol/Terra, "Google" = give, "win" = run, "story perfect" = store repair fix, "M gate" = mgit):
+
+- RIG-LOCK-CHOICES a) - confirmed, design and all four choices.
+- HARNESS-PATHS a) - confirmed, all six choices. Sol and Terra use the same paths. Thread to give a handoff prompt for the chezmoi session on each machine to do the migration.
+- DESK-KIT-SOP a) - confirmed, widened: remove the desk-kit lines from state of play and from anywhere else they appear.
+- ACCEPT-126-CI a) - confirmed.
+- RIG-060-ACCEPT a) - confirmed.
+- ACCEPT-017-ADOPT a) - confirmed.
+- MGIT-QUIET-NORMAL (new feedback, for a tools-burndown handoff after the walk-through): the progress then "no output" display works well, but some commands always print normal output, such as `git pull` and `git push` with nothing to do. mgit needs a way to treat those standard no-change responses as no output.
+
+## 2026-10-18 BST - owner answers, batch 2 (walk-through)
+
+> Yeah, we can give the lock of a try. Let's have it and see what's going on. The release number for KI is fine. Yeah, the migrate colts are fine.
+
+Read back as taken ("colts" = calls):
+
+- RIG-LOCK-FOLLOWUP a) - confirmed: adoption, plan and build of KI-TOOL-RIG-CORE-061 stand; an independent review runs before the Rig acceptances.
+- RELEASE-NUMBER a) - confirmed: v0.11.0 was the night's one release; the fix release is 0.11.1.
+- MIGRATE-CALLS a) - confirmed, all five.
