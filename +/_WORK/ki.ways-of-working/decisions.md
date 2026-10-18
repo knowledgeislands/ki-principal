@@ -1241,3 +1241,18 @@ Read back as taken:
 > Okay, by the way, I've got Claude Design making some improvements to the website. So don't worry if you see changes there.
 
 Read back as taken: apps-knowledgeislands.info has another session (Claude Design) making changes. Runs stay out of it, as with ki-design, and leave its changes alone. Added to future briefs.
+
+## 2026-10-18 BST - owner answers, batch 5 (walk-through)
+
+> Tools-sitting, yes, accepted. Yeah, we need to do a review of the git output, but we need to accept what's there and decide if it's the right approach, right? Yeah, no, like that. But I think minus K can just be dropped anyway. You've got an idea of everything that I run on my machine. So yeah, on the past to a scare patch, I think I'd rather go with that, which is a raw and a, and then I'd really, we could run that for a little while and we can say that minus G is a temporary gap and then it goes back to minus B for a bypass. I'm guessing on MD Sync, if it did a fetch, can it work out if it's going to conflict, if it did a merge or not, or does it actually have to try and do a rebase or merge first? Either way, I'm interested to see what's happening. I think there's a bunch of probably checks for me to do on Mgate by the looks of things. But as it is, we accept what's there basically, and then anything else I come back with, we can do remedial work with maybe we can have a single roadmap item that's left for MGear, which is to check the behaviors or something like that, so we can accept everything. Test fatal, that makes sense as well.
+
+Read back as taken (speech-to-text: "Mgate"/"MGear"/"MD Sync" = mgit / mgit sync, "past to a scare patch" = pass-through escape hatch, "minus K" read as -B, to confirm):
+
+- TOOLS-SITTING a) - accept the ten reviewed tools-ki records (-123, -130, -133, -135, -137, -138, -141, -142, -143, -144), then cut v0.11.1 and install it on this Mac.
+- ACCEPT-018, -019, -020, -021, -022 - accept everything mgit has as built; Kris will check the behaviour hands-on.
+- MGIT-BEHAVIOUR-CHECK (new) - one mgit roadmap record for Kris's hands-on check of the new behaviours, which carries any remedial work he comes back with.
+- MGIT-QUIET-NORMAL - captured as its own follow-on record (standard no-change output treated as quiet).
+- MGIT-FLAGS (new, read-back to confirm) - drop the deprecated -B now (Kris's own usage is known); keep -R (raw) and -G; -G is temporary, and later -B returns as the bypass-to-Git flag in its place. Captured, not built until Kris confirms.
+- MGIT-SYNC-PRECHECK (new question) - after a fetch, can sync tell whether a merge would conflict without trying it? Thread answer: yes, `git merge-tree --write-tree` (Git 2.38+) computes the merge in memory and reports conflicts without touching the worktree. Captured as an idea record for diverged branches.
+- TEST-FATAL a) - keep the fix, and add the `|| false` rule for every Bats suite to ki-repo-tools.
+- GOV-206-FORM - not yet answered.
