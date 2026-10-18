@@ -4,20 +4,16 @@ thread: rig.mac-studio-setup
 label: 'Rig: mac-studio-setup'
 state: active
 created_at: 2026-10-08T08:45:00Z
-updated_at: 2026-10-18T00:40:00Z
+updated_at: 2026-10-18T01:20:00Z
 ---
 
 # rig.mac-studio-setup
 
 ## Pick-up
 
-- **Status:** at rest, 2026-10-18 01:40 BST. Running: nothing. Walking Kris through items one at a time (step-by-step, with a recommendation and reason).
-- **Resume line:** `Resume Rig: mac-studio-setup under current ki-pmo and ki-delegation since 2026-10-17T21:33Z: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.`
-- **Next:** REMIND Kris at the next resume (deferred 2026-10-18, "remind me another day"): ADOBE-RUN part 3 on sol: restart sol, re-run ./adobe-remove.sh as a dry run, check apps and add-ons read none and What is left is empty, then ls -d /Applications/Adobe* /Applications/Utilities/Adobe* ~/Pictures/Lightroom/*.lrcat shows only the catalogue; then ADOBE-LOG, RIG-ORDER (rig-lane.report.md), then sol at-screen items (key-only SSH, KB-DOTFILES-UE-086 steps 0-12, UTM, Observatory), then terra. RIG-STACK-PUSH answered: leave the tools-rig push to the KI-TOOL-RIG-CORE-060 session. FOOTER-RECORD waits for the tools-ki rebase.
-
-**Messages** - the receiving thread acts on each line, then removes it.
-
-- 2026-10-18 · FIRST-STEP · Master: state-of-play, carrying RUN-HYGIENE from ways of working's READY of 17 October: "each thread fixes its checkpoint form and adds role on its FIRST-STEP line at restart". Before launching work, bring this checkpoint to the current ki-checkpoint and ki-pmo form and add `role` to its front matter · [restart report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/restart.report.md)
+- **Status:** hold, 2026-10-18 02:20 BST (mark 2026-10-18T01:20Z), drained for the ways-of-working updates at Kris's request. Running: nothing.
+- **Resume line:** `Resume Rig: mac-studio-setup from its checkpoint under current ki-pmo and ki-delegation since 2026-10-18T01:20Z: re-bootstrap, read the pick-up block, take stock, put the parked queries back, restart authorised work, then banner.`
+- **Next:** first REMIND Kris of the deferred sol restart (ADOBE-RESTART). Then put the parked queries back one at a time, each with a recommendation and its reason (Kris 2026-10-17: step by step), starting with RIG-ORDER.
 
 ## Objective
 
@@ -32,9 +28,18 @@ Bring Kris's Mac Studio back to full estate capability as a reliably reachable r
 
 ## Current state
 
-Mark: 2026-10-14T16:47Z (previous marks 2026-10-14T14:51Z, 14:48Z and 14:35Z, the last when the thread moved from terra to sol).
+Mark: 2026-10-18T01:20Z, hold (previous marks 2026-10-17T21:33Z, 2026-10-14T16:47Z, 2026-10-14T14:51Z, 14:48Z and 14:35Z, the last when the thread moved from terra to sol).
 
 ki-pmo read at dfa52a12.
+
+**02:20 BST (2026-10-18). Hold.** Running: nothing. Since 2026-10-17:
+
+- The thread tidy is done.
+- KI-TOOL-RIG-CORE-059 was pruned in tools-rig. The prune is local and sits under 5 other-session KI-TOOL-RIG-CORE-060 commits; RIG-STACK-PUSH was answered "leave it" for that session to push.
+- GOV195-DUP was overtaken.
+- RIG-LANE was answered yes, so SOL-APPLY, SOL-CLT and TERRA-READ count as answered. rig-lane proposed an order (rig-lane.report.md).
+- The sol Adobe removal is applied and clean: 0 failed steps, nothing left loaded. The script fix 5ffea19 is pushed. The logs and Adobe reports are deleted (Kris: "get rid of everything"). terra has no Adobe install. adobe-remove.sh is kept for the restart check.
+- The ki-principal stash "mac-studio-setup 18:22 BST autostash, kept for safety" duplicates content already in place; drop it at the next mark.
 
 **21:54 BST (2026-10-16).** At rest. Done since 21:38: KI-HARNESS-GOV-189 fully renamed and pushed (ki-agentic-harness 809f8898, level). FOOTER-RECORD approved but held: tools-ki checkout still mid-rebase from another session; launch the KI-TOOL-KI-CLI-134 handoff note once main is clean (FOOTER-REBASE). Correction logged: the 21:37 thread-folder push carried 16 other-session commits; check origin/main..HEAD before every push. Open: GOV195-DUP. Held for Kris: key-only SSH, adobe-remove.sh, UE-086 steps 0-12, UTM swap, Observatory restart, Headroom request, desk kit; second Mac: Adobe, Rig upgrade and apply, HOSTKEY-APPLY, key-only. ADOBE-DATA after both Macs run the script.
 
@@ -75,11 +80,15 @@ This checkpoint, the [Project note](/Users/krisbrown/workspaces/knowledge-island
 
 ## Open questions
 
-Waiting on Kris:
+Parked at the 2026-10-18 hold (Kris; put back one at a time, with a recommendation and reason):
 
-- **`SOL-APPLY` - Kris applies at sol's screen.** Pull chezmoi on `sol` first, then `chezmoi apply` for `10-applications.toml`, `rig apply --dry-run` (Telegram and the SVG handler only), then `rig apply`, signed in to the App Store.
-- **`SOL-CLT` - one at-screen session on `sol`.** Kris installs the Command Line Tools for Xcode 27.0; then an agent runs `brew reinstall pkgconf` and `rig upgrade`, and does KB-DOTFILES-UE-086 section C plus the mise prune. In the same session, `SOL-TELEGRAM`: quit Telegram, approve removal of the App Store copy, run `rig apply` to install the Homebrew cask, and sign in again.
-- **`TERRA-READ` - read-only evidence pass at terra's next session.** Append terra's evidence to the rig-diff table, settle terra's extra registry entry, and check that terra's apps-rig.midnight.ninja checkout fast-forwards to `189928e`; Remote Login stays off.
+- **`RIG-ORDER`** - the tools-rig burndown order in rig-lane.report.md. Recommended a): first clear the review queue (KI-TOOL-RIG-CORE-060 and KI-TOOL-RIG-CORE-047, Kris), then deliver KI-TOOL-RIG-CORE-042, then ready KI-TOOL-RIG-CORE-052, KI-TOOL-RIG-CORE-054 and KI-TOOL-RIG-CORE-055 in one ki-plan sitting, then KI-TOOL-RIG-CORE-058. b) puts the correctives first.
+- **`ADOBE-RESTART`** - deferred, "remind me another day". Restart sol, run `./adobe-remove.sh` as a dry run (apps and add-ons none, nothing under What is left), then `ls -d /Applications/Adobe* /Applications/Utilities/Adobe* ~/Pictures/Lightroom/*.lrcat`, which should show only the catalogue.
+- **`ADOBE-DATA`** - about 8 GB of leftover Adobe data on sol, including the Lightroom catalogue. Recommended: keep the catalogue and delete the rest at a sol screen session (it needs sudo). Not deleted on Kris's broad "get rid of everything".
+- **At sol's screen:** key-only SSH (ssh-keyonly.report.md), KB-DOTFILES-UE-086 steps 0-12 (ue086-walk.report.md), the UTM swap (UTM-SOL), the Observatory restart (OBS-RESTART), and the KI-TOOL-RIG-CORE-047 live firewall test.
+- **At terra's screen:** pull tools-rig and upgrade Rig past 0.6.3; pull chezmoi and run `chezmoi apply ~/.config/rig && rig doctor`; HOSTKEY-APPLY steps 6-9 (hostkey-check.report.md); then key-only SSH.
+- **Anywhere:** the Headroom favicon request and the desk kit.
+- **`FOOTER-RECORD`** - approved, held until another session's tools-ki rebase clears (stuck since 2026-10-16 08:51). Then an agent commits only the KI-TOOL-KI-CLI-134 note locally (launcher-footer.report.md).
 
 Parked (Kris, 2026-10-14), each described in the run folder reports `old-trees`, `sol-build` and `records`: `FW-LIVE` (terra rule comparison; reboot check at the next natural restart), `SOL-FW-TEST`, `UE-089-SHAPE`, `OLD-ORPHANS` (four repositories GitHub no longer serves), `MGIT-PRESEED` (an unfinished `tools-mgit` change saved as a patch in terra's run folder), `SOL-SOURCES`, `SOL-HNR-HARNESS`, `SOL-WHATSAPP`, `SOL-KI-CONFIG-DRIFT`.
 
@@ -87,4 +96,4 @@ No action now: `ZED-MD` (later, at `sol`), `FW-LINUX-LIVE` (needs a Linux host),
 
 ## Next step
 
-Put SOL-APPLY, SOL-CLT and TERRA-READ to Kris. The firewall test on `sol` follows the terra rule comparison; the parked declaration file is on terra and must be copied or committed before it.
+On resume: remind Kris of ADOBE-RESTART, then put RIG-ORDER back first, step by step.
