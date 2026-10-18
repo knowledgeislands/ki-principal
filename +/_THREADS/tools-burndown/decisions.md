@@ -222,3 +222,16 @@ Kris, on the tools-mgit and tools-rig commits held locally: "can you get it into
 ## 2026-10-18 02:50 BST - TOOLS-KI-MERGE
 
 Kris: "I've put tools-ki back onto main locally, so can you do a merge and just resolve any conflicts to get it back onto the right track?" Read as: one tools-ki run merges origin/main into local main (merge, not rebase), settles every clash, carries the content edits of the 17 October PUSH-REBASE-CODE answer (-139 frontmatter and "Decision 55" citations, -137 repointed to KI-HARNESS-GOV-200 with TMP-HOME and the tools-ki state tooling), runs the gate and pushes fast-forward. No release: TOOLS-RELEASE is still open.
+
+## 2026-10-18 03:55 BST - HOLD for the ways-of-working updates
+
+Kris: "we're in the process of moving some of the decisions around so that might be confusing to you. And we don't need to quit release yet because there's gonna be some more things coming, I think unless you are told to do that. But yeah, we do need to do one soon, so let's keep on top of that. Yeah, I think also it'd be good to get as much of the robot stuff done as possible. Bearing in mind there might be someone else acting in that repository. Yeah, any work that you've done is good, except it. Yeah, the desk kit stuff is gone so you can go to that." Then: "That said, I prefer if you didn't make any coding changes right now, that your system might get changed pretty soon, so probably the idea to do is just to hold where you are."
+
+Read back as taken:
+
+- TOOLS-RELEASE: no ki release until told; one is due soon, so keep it on the next steps.
+- DECISION-55-CITATIONS: leave -139's citations while the decisions move; revisit after.
+- "robot stuff" read as Rig (speech-to-text): on resume, push the Rig work as far as possible, checking first for another session in tools-rig.
+- "any work that you've done is good": tonight's tools-ki merge, tools-mgit and tools-rig pushes stand.
+- DESK-KIT-SOP: a), state-of-play drops the desk-kit lines.
+- WRAP-NOW: hold now; no coding changes; nothing launched.
