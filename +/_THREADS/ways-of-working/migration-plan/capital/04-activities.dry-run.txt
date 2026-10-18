@@ -1,0 +1,40 @@
+== 04-activities.sh (dry-run) in ki-principal at 2026-10-18T02:20:13Z
+Name the theme in each Activity
+  edit Admin/Operations/Activities/Briefings Activity.md
+    --- a/Admin/Operations/Activities/Briefings Activity.md
+    +++ b/Admin/Operations/Activities/Briefings Activity.md
+    @@ -4,7 +4,7 @@
+       - card/note
+       - topic/knowledge-islands
+     status: active
+    -initiative: knowledge-islands-model
+    +theme: model
+     component: operations
+     purpose: upkeep
+     realization: scheduled-task
+  edit Admin/Operations/Activities/Schedule.md
+    --- a/Admin/Operations/Activities/Schedule.md
+    +++ b/Admin/Operations/Activities/Schedule.md
+    @@ -5,7 +5,7 @@
+       - topic/knowledge-islands
+     status: active
+     realization: manual
+    -initiative: knowledge-islands-model
+    +theme: model
+     author: Written with Claude
+     memory_file: reference_{ki_prefix}_key_notes.md
+     ---
+  edit Admin/Operations/Activities/Tending Activity.md
+    --- a/Admin/Operations/Activities/Tending Activity.md
+    +++ b/Admin/Operations/Activities/Tending Activity.md
+    @@ -4,7 +4,7 @@
+       - card/note
+       - topic/knowledge-islands
+     status: active
+    -initiative: knowledge-islands-model
+    +theme: model
+     component: operations
+     purpose: upkeep
+     realization: workflow
+By hand
+  HAND: Briefings Activity, Schedule and Tending Activity: name the territory's regular work, ki.regular, as each one's home, taking the Model page's Recurring work paragraph

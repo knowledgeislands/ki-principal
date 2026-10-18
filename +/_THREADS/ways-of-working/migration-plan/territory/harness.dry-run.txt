@@ -1,0 +1,114 @@
+== harness.sh (dry-run) in ki-agentic-harness at 2026-10-18T02:20:21Z
+Create the review area's index note
+  create +/_WORK_REVIEW/README.md
+    | # Work for review
+    | 
+    | Work folders the migration could not place with confidence. Each waits here for Kris's review and moves itself to `+/_WORK/` at its next mark, or is finished and deleted, with Git keeping it. This area is not counted, and its folders are not checked against the closed list until they leave it.
+    | 
+    | - [ki.regular.skill-reviews](ki.regular.skill-reviews/work.md) - the archived skill-diagram thread of KI-HARNESS-GOV-193, committed at the territory hold on 15 October with no checkpoint; probably finished.
+Move skill-reviews to review
+  create +/_WORK_REVIEW/ki.regular.skill-reviews/work.md
+    | ---
+    | id: ki.regular.skill-reviews
+    | level: regular
+    | title: 'KI > Regular > Skill reviews'
+    | theme: null
+    | worker: agent
+    | supervisor: owner
+    | state: on-hold
+    | hold:
+    |   reason: paused
+    |   release: Kris's review
+    | since: 2026-10-18T02:20:21Z
+    | received: null
+    | beat: null
+    | created_at: 2026-10-18T02:20:21Z
+    | ---
+    | 
+    | # ki.regular.skill-reviews
+    | 
+    | ## Next steps
+    | 
+    | - Decide with Kris whether this archived thread is finished; if it is, delete the folder, Git keeping it.
+    | 
+    | ## Messages
+    | 
+    | - MIGRATED - this folder was `+/_THREADS/skill-reviews/` until the work migration of 2026-10-18. At your next mark, move it out of review or finish it, then remove this line.
+    | 
+    | ## Parked
+    | 
+    | None.
+  mkdir -p +/_WORK_REVIEW/ki.regular.skill-reviews
+  git mv -- +/_THREADS/skill-reviews/area-layout.report.md +/_WORK_REVIEW/ki.regular.skill-reviews/area-layout.report.md
+  mkdir -p +/_WORK_REVIEW/ki.regular.skill-reviews/briefs
+  git mv -- +/_THREADS/skill-reviews/brief-area-layout.md +/_WORK_REVIEW/ki.regular.skill-reviews/briefs/area-layout.md
+  mkdir -p +/_WORK_REVIEW/ki.regular.skill-reviews/briefs
+  git mv -- +/_THREADS/skill-reviews/brief-functional-pass.md +/_WORK_REVIEW/ki.regular.skill-reviews/briefs/functional-pass.md
+  mkdir -p +/_WORK_REVIEW/ki.regular.skill-reviews/briefs
+  git mv -- +/_THREADS/skill-reviews/brief-regroup.md +/_WORK_REVIEW/ki.regular.skill-reviews/briefs/regroup.md
+  mkdir -p +/_WORK_REVIEW/ki.regular.skill-reviews
+  git mv -- +/_THREADS/skill-reviews/decisions.md +/_WORK_REVIEW/ki.regular.skill-reviews/decisions.md
+  mkdir -p +/_WORK_REVIEW/ki.regular.skill-reviews
+  git mv -- +/_THREADS/skill-reviews/functional-pass.report.md +/_WORK_REVIEW/ki.regular.skill-reviews/functional-pass.report.md
+  mkdir -p +/_WORK_REVIEW/ki.regular.skill-reviews
+  git mv -- +/_THREADS/skill-reviews/regroup.report.md +/_WORK_REVIEW/ki.regular.skill-reviews/regroup.report.md
+  - stray outside the closed list: +/_THREADS/skill-reviews/scratch -> design/
+  mkdir -p +/_WORK_REVIEW/ki.regular.skill-reviews/design
+  git mv -- +/_THREADS/skill-reviews/scratch +/_WORK_REVIEW/ki.regular.skill-reviews/design/scratch
+  - stray outside the closed list: +/_THREADS/skill-reviews/screens -> design/
+  mkdir -p +/_WORK_REVIEW/ki.regular.skill-reviews/design
+  git mv -- +/_THREADS/skill-reviews/screens +/_WORK_REVIEW/ki.regular.skill-reviews/design/screens
+Retire the empty checkpoint scaffold
+  git rm -r -q -- +/_CHECKPOINTS/README.md
+Name the theme in the housekeeping records
+  edit docs/housekeeping/KI-HARNESS-HK-001-engineering-alignment-review.md
+    --- a/docs/housekeeping/KI-HARNESS-HK-001-engineering-alignment-review.md
+    +++ b/docs/housekeeping/KI-HARNESS-HK-001-engineering-alignment-review.md
+    @@ -10,7 +10,7 @@
+     spawn-policy: when-due
+     spawn-horizon: now
+     active-run: null
+    -initiative: platform-foundations
+    +theme: foundations
+     purpose: upkeep
+     ---
+     
+  edit docs/housekeeping/KI-HARNESS-HK-002-knowledge-reconciliation.md
+    --- a/docs/housekeeping/KI-HARNESS-HK-002-knowledge-reconciliation.md
+    +++ b/docs/housekeeping/KI-HARNESS-HK-002-knowledge-reconciliation.md
+    @@ -10,7 +10,7 @@
+     spawn-policy: when-due
+     spawn-horizon: now
+     active-run: null
+    -initiative: platform-foundations
+    +theme: foundations
+     purpose: upkeep
+     ---
+     
+  edit docs/housekeeping/KI-HARNESS-HK-003-weekly-model-radar-review.md
+    --- a/docs/housekeeping/KI-HARNESS-HK-003-weekly-model-radar-review.md
+    +++ b/docs/housekeeping/KI-HARNESS-HK-003-weekly-model-radar-review.md
+    @@ -8,7 +8,7 @@
+     spawn-policy: when-due
+     spawn-horizon: now
+     active-run: null
+    -initiative: platform-foundations
+    +theme: foundations
+     component: governance
+     purpose: upkeep
+     ---
+  edit docs/housekeeping/KI-HARNESS-HK-005-weekly-agentic-radar-review.md
+    --- a/docs/housekeeping/KI-HARNESS-HK-005-weekly-agentic-radar-review.md
+    +++ b/docs/housekeeping/KI-HARNESS-HK-005-weekly-agentic-radar-review.md
+    @@ -8,7 +8,7 @@
+     spawn-policy: when-due
+     spawn-horizon: now
+     active-run: null
+    -initiative: platform-foundations
+    +theme: foundations
+     component: governance
+     purpose: upkeep
+     ---
+By hand
+  HAND: apply after tools-ki ships ki work status and accepts theme on records, and after the ki-checkpoint work-file standard in flight in skills/governance/ki-checkpoint is committed
+  HAND: rewrite citations of +/_THREADS/skill-reviews/ in live harness files once moved: git grep -n '+/_THREADS/skill-reviews' -- ':(exclude)+/_WORK_REVIEW/ki.regular.skill-reviews'

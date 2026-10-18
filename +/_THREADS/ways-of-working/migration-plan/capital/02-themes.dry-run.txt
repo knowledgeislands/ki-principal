@@ -1,0 +1,599 @@
+== 02-themes.sh (dry-run) in ki-principal at 2026-10-18T02:20:10Z
+Move the Initiative notes to theme pages
+  mkdir -p Streams/Themes
+  git mv -- Streams/Initiatives/Initiatives.md Streams/Themes/Themes.md
+  mkdir -p Streams/Themes
+  git mv -- Streams/Initiatives/knowledge-islands-model/knowledge-islands-model.md Streams/Themes/model.md
+  mkdir -p Streams/Themes
+  git mv -- Streams/Initiatives/platform-foundations.md Streams/Themes/foundations.md
+  mkdir -p Streams/Themes
+  git mv -- Streams/Initiatives/rig.md Streams/Themes/rig.md
+  mkdir -p Streams/Themes
+  git mv -- Streams/Initiatives/techne.md Streams/Themes/techne.md
+Retype and rename the theme pages
+  edit Streams/Initiatives/Initiatives.md
+    --- a/Streams/Initiatives/Initiatives.md
+    +++ b/Streams/Initiatives/Initiatives.md
+    @@ -4,7 +4,7 @@
+     author: Written with Claude
+     ---
+     
+    -# Initiatives
+    +# Themes
+     
+     ## Overview
+     
+  edit Streams/Initiatives/knowledge-islands-model/knowledge-islands-model.md
+    --- a/Streams/Initiatives/knowledge-islands-model/knowledge-islands-model.md
+    +++ b/Streams/Initiatives/knowledge-islands-model/knowledge-islands-model.md
+    @@ -1,7 +1,7 @@
+     ---
+    -note_type: streams/initiative
+    -slug: knowledge-islands-model
+    -title: Knowledge Islands model
+    +note_type: streams/theme
+    +slug: model
+    +title: Model
+     direction: Define what a Knowledge Island is and how islands are tended, trade, take in outside knowledge, and are specified and presented.
+     lifecycle: active
+     lead: Kris Brown
+    @@ -9,7 +9,7 @@
+     author: Written with Claude
+     ---
+     
+    -# Knowledge Islands Model
+    +# Model
+     
+     ## Direction
+     
+  edit Streams/Initiatives/platform-foundations.md
+    --- a/Streams/Initiatives/platform-foundations.md
+    +++ b/Streams/Initiatives/platform-foundations.md
+    @@ -1,7 +1,7 @@
+     ---
+    -note_type: streams/initiative
+    -slug: platform-foundations
+    -title: Platform foundations
+    +note_type: streams/theme
+    +slug: foundations
+    +title: Foundations
+     direction: Keep a solid, shared base under every island - the `ki` toolchain, the harness standards and a clearly owned estate.
+     lifecycle: active
+     lead: Kris Brown
+    @@ -9,7 +9,7 @@
+     author: Written with Claude
+     ---
+     
+    -# Platform Foundations
+    +# Foundations
+     
+     ## Direction
+     
+  edit Streams/Initiatives/rig.md
+    --- a/Streams/Initiatives/rig.md
+    +++ b/Streams/Initiatives/rig.md
+    @@ -1,5 +1,5 @@
+     ---
+    -note_type: streams/initiative
+    +note_type: streams/theme
+     slug: rig
+     title: Rig
+     direction: Rig every host for its role, and keep the workstations every agent and person runs on accurate, tidy and observable.
+  edit Streams/Initiatives/techne.md
+    --- a/Streams/Initiatives/techne.md
+    +++ b/Streams/Initiatives/techne.md
+    @@ -1,5 +1,5 @@
+     ---
+    -note_type: streams/initiative
+    +note_type: streams/theme
+     slug: techne
+     title: Techne
+     direction: Take hosts to ready, move agent work into a governed Techne footprint and make the agent fleet useful, within the Techne Programme Hold.
+Rewrite live wikilinks to the theme pages
+  edit +/_CHECKPOINTS/techne.agent-host.md
+    --- a/+/_CHECKPOINTS/techne.agent-host.md
+    +++ b/+/_CHECKPOINTS/techne.agent-host.md
+    @@ -19,7 +19,7 @@
+     
+     ## Objective
+     
+    -Reconstruct the `techne` coordination thread if its session is lost. Status, open records and ideas live in the [[agent-host]] Project note under the [[Initiatives/techne|Techne]] Initiative; this checkpoint copies none of them.
+    +Reconstruct the `techne` coordination thread if its session is lost. Status, open records and ideas live in the [[agent-host]] Project note under the [[Themes/techne|Techne]] Initiative; this checkpoint copies none of them.
+     
+     The thread moves agent work off the laptop onto the one agent host the [Techne Programme Hold](<../../Admin/Governance/Policies/Techne Programme Hold.md>) exempts. It delivers the durability rollout of [ODR-KI-PRINCIPAL-001](../../Admin/Governance/Decisions/ODR-KI-PRINCIPAL-001-keeping-work-safe-on-the-agent-host.md) and the workstation rollout of [ADR-KI-PRINCIPAL-003](../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-003-the-agent-host-workstation-model.md). The [[baseline-rollout]] Project is separate and does not gate it. Mac Studio work belongs to the `mac-studio-bootstrap` thread.
+     
+  edit Streams/Initiatives/Initiatives.md
+    --- a/Streams/Initiatives/Initiatives.md
+    +++ b/Streams/Initiatives/Initiatives.md
+    @@ -16,22 +16,22 @@
+     
+     ## Platform foundations
+     
+    -[[platform-foundations]] is the shared base every island stands on: the `ki` toolchain and its baseline, the harness standards, and the factorisation of the estate into clearly owned repositories, with the standards upkeep that keeps the harness and `ki` accurate.
+    +[[Themes/foundations|Foundations]] is the shared base every island stands on: the `ki` toolchain and its baseline, the harness standards, and the factorisation of the estate into clearly owned repositories, with the standards upkeep that keeps the harness and `ki` accurate.
+     
+     ---
+     
+     ## Techne
+     
+    -[[Initiatives/techne|Techne]] moves agent work into a governed Techne footprint and makes the agent fleet useful, within the Techne Programme Hold.
+    +[[Themes/techne|Techne]] moves agent work into a governed Techne footprint and makes the agent fleet useful, within the Techne Programme Hold.
+     
+     ---
+     
+     ## Knowledge Islands model
+     
+    -[[knowledge-islands-model]] is what a Knowledge Island is and how islands work together: the model and its tending, trade between islands, how outside knowledge comes in, and how the model is specified and presented. Knowledge Islands Principal's recurring Tending and Briefings Activities serve it.
+    +[[Themes/model|Model]] is what a Knowledge Island is and how islands work together: the model and its tending, trade between islands, how outside knowledge comes in, and how the model is specified and presented. Knowledge Islands Principal's recurring Tending and Briefings Activities serve it.
+     
+     ---
+     
+     ## Rig
+     
+    -[[rig]] is the workstation every agent and person runs on: chezmoi-managed configuration, local services and their hygiene. Its work is mostly projectless workstation-hygiene upkeep.
+    +[[Themes/rig|Rig]] is the workstation every agent and person runs on: chezmoi-managed configuration, local services and their hygiene. Its work is mostly projectless workstation-hygiene upkeep.
+  edit Streams/Initiatives/knowledge-islands-model/knowledge-islands-model.md
+    --- a/Streams/Initiatives/knowledge-islands-model/knowledge-islands-model.md
+    +++ b/Streams/Initiatives/knowledge-islands-model/knowledge-islands-model.md
+    @@ -13,7 +13,7 @@
+     
+     ## Direction
+     
+    -What a Knowledge Island is and how islands work together: the model and its tending practice, trade between islands, how outside knowledge comes in, and how the model is specified and presented to others. Knowledge Islands Principal, as Capital, owns most of it. The tooling that checks and serves islands belongs to [[platform-foundations|Platform foundations]].
+    +What a Knowledge Island is and how islands work together: the model and its tending practice, trade between islands, how outside knowledge comes in, and how the model is specified and presented to others. Knowledge Islands Principal, as Capital, owns most of it. The tooling that checks and serves islands belongs to [[Themes/foundations|Foundations]].
+     
+     ---
+     
+  edit Streams/Initiatives/platform-foundations.md
+    --- a/Streams/Initiatives/platform-foundations.md
+    +++ b/Streams/Initiatives/platform-foundations.md
+    @@ -13,7 +13,7 @@
+     
+     ## Direction
+     
+    -The shared base every island stands on: the `ki` toolchain and its baseline, the harness standards and rubrics, the roadmap model, and the factorisation of the estate into clearly owned repositories. It covers how work is recorded, checked and released across the territory. Agent hosting and the agent fleet belong to [[Initiatives/techne|Techne]]; the workstation itself belongs to [[rig|Rig]]; what an island is belongs to the [[knowledge-islands-model|Knowledge Islands model]].
+    +The shared base every island stands on: the `ki` toolchain and its baseline, the harness standards and rubrics, the roadmap model, and the factorisation of the estate into clearly owned repositories. It covers how work is recorded, checked and released across the territory. Agent hosting and the agent fleet belong to [[Themes/techne|Techne]]; the workstation itself belongs to [[Themes/rig|Rig]]; what an island is belongs to the [[Themes/model|Model]].
+     
+     ---
+     
+  edit Streams/Initiatives/rig.md
+    --- a/Streams/Initiatives/rig.md
+    +++ b/Streams/Initiatives/rig.md
+    @@ -13,7 +13,7 @@
+     
+     ## Direction
+     
+    -Rig owns the role layer: once [[Initiatives/techne|Techne]] has made a host ready, the `tools-rig` engine applies the tools that host's role needs, on macOS or Linux. It also keeps the workstations every agent and person runs on accurate, tidy and observable: chezmoi-managed configuration, local services, secrets hygiene and agent state. A host's base and workspace belong to Techne, its personal layer to chezmoi or Cheztoi, and the shared toolchain to [[platform-foundations|Platform foundations]].
+    +Rig owns the role layer: once [[Themes/techne|Techne]] has made a host ready, the `tools-rig` engine applies the tools that host's role needs, on macOS or Linux. It also keeps the workstations every agent and person runs on accurate, tidy and observable: chezmoi-managed configuration, local services, secrets hygiene and agent state. A host's base and workspace belong to Techne, its personal layer to chezmoi or Cheztoi, and the shared toolchain to [[Themes/foundations|Foundations]].
+     
+     Three roles are recognised. A **workstation** has a person at the keyboard (`terra`, `sol`). A **remote agentic rig** runs agent sessions the owner opens over Tailscale SSH (`vega`, `sol`); `sol` and `vega` share one agentic-rig role definition. An **appliance** runs one service with no personal shell; it is recorded as a role but has no recipe. Omarchy is kept in view for a future owned Linux workstation, not for `vega`.
+     
+  edit Streams/Initiatives/techne.md
+    --- a/Streams/Initiatives/techne.md
+    +++ b/Streams/Initiatives/techne.md
+    @@ -13,7 +13,7 @@
+     
+     ## Direction
+     
+    -Techne takes hosts to ready: it owns a host's base (provisioning, patching, identity, secrets delivery, the operator user and lifecycle) and its workspace (the repository set, `ki bootstrap` and working rules, through `ki`). [[rig|Rig]] then applies the host's role, and the shared toolchain belongs to [[platform-foundations|Platform foundations]]. Techne also moves agent work into a governed footprint and makes the agent fleet deliver reviewed work. The [[Techne Programme Hold]] bounds what may run remotely; Knowledge Islands Principal owns the engineering decisions, while `ki-techne-harness` and `tools-techne` own their implementation.
+    +Techne takes hosts to ready: it owns a host's base (provisioning, patching, identity, secrets delivery, the operator user and lifecycle) and its workspace (the repository set, `ki bootstrap` and working rules, through `ki`). [[Themes/rig|Rig]] then applies the host's role, and the shared toolchain belongs to [[Themes/foundations|Foundations]]. Techne also moves agent work into a governed footprint and makes the agent fleet deliver reviewed work. The [[Techne Programme Hold]] bounds what may run remotely; Knowledge Islands Principal owns the engineering decisions, while `ki-techne-harness` and `tools-techne` own their implementation.
+     
+     The `agent-host` recipe is the AWS base for a remote agentic rig. `vega` stays on Ubuntu LTS, for its security-only update channel, Livepatch and ready-made images. The appliance role has no recipe until the hold is reshaped.
+     
+  edit Streams/Projects/Projects.md
+    --- a/Streams/Projects/Projects.md
+    +++ b/Streams/Projects/Projects.md
+    @@ -8,7 +8,7 @@
+     
+     ## Overview
+     
+    -This folder is the Knowledge Islands territory's Project registry, held by Knowledge Islands Principal as Capital. A Project is a finite outcome with a lead, a target and a `lifecycle` (`planned`, `active`, `paused`, `completed` or `cancelled`); the Initiative is the long-lived direction it serves, held in the sibling [[Initiatives]] folder. Each Project note is named by its slug, so a work record's `project` value resolves to a path here.
+    +This folder is the Knowledge Islands territory's Project registry, held by Knowledge Islands Principal as Capital. A Project is a finite outcome with a lead, a target and a `lifecycle` (`planned`, `active`, `paused`, `completed` or `cancelled`); the Initiative is the long-lived direction it serves, held in the sibling [[Themes]] folder. Each Project note is named by its slug, so a work record's `project` value resolves to a path here.
+     
+     Links point upwards only: a work record names its Project, and a Project names its Initiative. A Project note carries its outcome and notes - ideas and context worth keeping - and lists no records; status lives in each record and in the note's `lifecycle`, and `ki` produces the views. Membership is classification, not authority: each owning repository keeps its plan, priority and acceptance. Work that never finishes, such as standards upkeep and workstation hygiene, is projectless and described under its Initiative. "Project" here means a registry entry, not the `project` repository shape.
+     
+    @@ -16,13 +16,13 @@
+     
+     ## Initiatives
+     
+    -[[Initiatives]] is the sibling folder holding one note for each Initiative. Each Initiative note states its direction and the context worth keeping about it.
+    +[[Themes]] is the sibling folder holding one note for each Initiative. Each Initiative note states its direction and the context worth keeping about it.
+     
+     ---
+     
+     ## AI observability
+     
+    -[[ai-observability]] decides how AI-tooling use, token use above all, is measured and attributed per run, per thread and per account, OTLP included. It sits under [[platform-foundations|Platform foundations]].
+    +[[ai-observability]] decides how AI-tooling use, token use above all, is measured and attributed per run, per thread and per account, OTLP included. It sits under [[Themes/foundations|Foundations]].
+     
+     ---
+     
+    @@ -40,7 +40,7 @@
+     
+     ## chezmoi
+     
+    -[[chezmoi]] works the open KB-DOTFILES-UE records in the chezmoi source, keeping the workstation accurate, tidy and observable. Its records live in the chezmoi roadmap. It sits under [[rig|Rig]].
+    +[[chezmoi]] works the open KB-DOTFILES-UE records in the chezmoi source, keeping the workstation accurate, tidy and observable. Its records live in the chezmoi roadmap. It sits under [[Themes/rig|Rig]].
+     
+     ---
+     
+    @@ -58,7 +58,7 @@
+     
+     ## Host network
+     
+    -[[host-network]] decides how hosts and services are set up and addressed on the tailnet: naming, name URLs, ACLs and tailnet-only listeners. It sits under [[rig|Rig]].
+    +[[host-network]] decides how hosts and services are set up and addressed on the tailnet: naming, name URLs, ACLs and tailnet-only listeners. It sits under [[Themes/rig|Rig]].
+     
+     ---
+     
+    @@ -76,7 +76,7 @@
+     
+     ## Mac Studio setup
+     
+    -[[mac-studio-setup]] brings Kris's Mac Studio, unused for over a month, back to full estate capability: chezmoi, Rig, Homebrew `ki`, the workspace and an agent runtime, so any thread can resume there. It sits under [[rig|Rig]] because the Mac Studio is a workstation.
+    +[[mac-studio-setup]] brings Kris's Mac Studio, unused for over a month, back to full estate capability: chezmoi, Rig, Homebrew `ki`, the workspace and an agent runtime, so any thread can resume there. It sits under [[Themes/rig|Rig]] because the Mac Studio is a workstation.
+     
+     ---
+     
+    @@ -100,7 +100,7 @@
+     
+     ## Secrets hygiene
+     
+    -[[secrets-hygiene]] organises Kris's 1Password vaults by a clear layout and precedence, has chezmoi read secrets through one logical-name map from a dedicated `Rig` vault with a pre-apply reference check, and keeps it that way with a monthly triage. It sits under [[rig|Rig]] because those secrets are part of the workstation.
+    +[[secrets-hygiene]] organises Kris's 1Password vaults by a clear layout and precedence, has chezmoi read secrets through one logical-name map from a dedicated `Rig` vault with a pre-apply reference check, and keeps it that way with a monthly triage. It sits under [[Themes/rig|Rig]] because those secrets are part of the workstation.
+     
+     ---
+     
+    @@ -124,7 +124,7 @@
+     
+     ## Tools burndown
+     
+    -[[tools-burndown]] burns the `tools-ki`, `tools-mgit` and `tools-git-almanac` roadmaps and the CLI-shaped `ki-agentic-harness` records down to zero, ending with the `ki` and `mgit` releases. It sits under [[platform-foundations|Platform foundations]].
+    +[[tools-burndown]] burns the `tools-ki`, `tools-mgit` and `tools-git-almanac` roadmaps and the CLI-shaped `ki-agentic-harness` records down to zero, ending with the `ki` and `mgit` releases. It sits under [[Themes/foundations|Foundations]].
+     
+     ---
+     
+  edit Streams/Projects/agent-host/agent-host.md
+    --- a/Streams/Projects/agent-host/agent-host.md
+    +++ b/Streams/Projects/agent-host/agent-host.md
+    @@ -17,7 +17,7 @@
+     
+     Move agent work into the Techne footprint on an agent host, inside the standing exemption from the [[Techne Programme Hold]]. Agent hosts are harness-defined recipes that a person binds into named instances, and the prototype is reviewed before the exemption is kept, widened or withdrawn.
+     
+    -This Project sits in [[Initiatives/techne|Techne]]. It and [[baseline-rollout]] do not gate each other.
+    +This Project sits in [[Themes/techne|Techne]]. It and [[baseline-rollout]] do not gate each other.
+     
+     [[Hosts, Roles and Layers]] explains how a host is built in layers and which role `vega` plays.
+     
+  edit Streams/Projects/ai-observability.md
+    --- a/Streams/Projects/ai-observability.md
+    +++ b/Streams/Projects/ai-observability.md
+    @@ -17,11 +17,11 @@
+     
+     Decide how the estate gets metrics out of its use of AI tooling: how token use is measured and attributed per run, per thread and per account, OTLP included. `ki-tokenomics` keeps budget and model-purpose policy, [[observatory|Observatory]] shows the result and [[ways-of-working]] acts on it. The test: Kris has decided, and the decision has a durable home and any delivery records an owning repository.
+     
+    -This Project sits in [[platform-foundations|Platform foundations]]. Kris opened it on 2026-10-14 as a planned Project whose Outcome is a decision, with no thread yet: "Open host-network under Rig and ai-observability under Platform foundations, both planned with a decision as their Outcome".
+    +This Project sits in [[Themes/foundations|Foundations]]. Kris opened it on 2026-10-14 as a planned Project whose Outcome is a decision, with no thread yet: "Open host-network under Rig and ai-observability under Platform foundations, both planned with a decision as their Outcome".
+     
+     ---
+     
+     ## Notes
+     
+    -- **Idea for evaluation, 2026-10-14: AI-tooling observability (OTLP), with token economics.** Moved here from the [[platform-foundations|Platform foundations]] Initiative Notes when this Project opened. Kris: OTLP is "about us getting metrics out of use of AI tooling", and should be its own Project under Platform foundations (observability); and "we also need to think about token economics as part of it." Ideas to evaluate: one OpenTelemetry Collector per host on loopback (`127.0.0.1:4318`, OTLP over HTTP) writing under `~/.local/state/ki/telemetry/`, read by an Observatory Instrument; emitters from Claude Code, Codex and `ki agent` (a span per run), plus `rig` results; measuring and attributing token use per run, per thread and per account - tokens, cost labelled `~`, model actually used and stop reason - with account windows read from claude-swap and CodexBar and Headroom's statistics as a cross-check only; `ki-tokenomics` keeps budget and model-purpose policy. Local-first, so it stays outside the Techne Programme Hold until cross-host aggregation reaches `vega`; any cross-host forwarder is a tailnet-only listener and connection-critical. Showing it belongs to [[command-centre]] and acting on it to [[ways-of-working]]. Evidence: [sync-telemetry](<../../+/_THREADS/state-of-play/sync-telemetry.report.md>) stage 2 and [areas-tokens](<../../+/_THREADS/state-of-play/areas-tokens.report.md>).
+    +- **Idea for evaluation, 2026-10-14: AI-tooling observability (OTLP), with token economics.** Moved here from the [[Themes/foundations|Foundations]] Initiative Notes when this Project opened. Kris: OTLP is "about us getting metrics out of use of AI tooling", and should be its own Project under Platform foundations (observability); and "we also need to think about token economics as part of it." Ideas to evaluate: one OpenTelemetry Collector per host on loopback (`127.0.0.1:4318`, OTLP over HTTP) writing under `~/.local/state/ki/telemetry/`, read by an Observatory Instrument; emitters from Claude Code, Codex and `ki agent` (a span per run), plus `rig` results; measuring and attributing token use per run, per thread and per account - tokens, cost labelled `~`, model actually used and stop reason - with account windows read from claude-swap and CodexBar and Headroom's statistics as a cross-check only; `ki-tokenomics` keeps budget and model-purpose policy. Local-first, so it stays outside the Techne Programme Hold until cross-host aggregation reaches `vega`; any cross-host forwarder is a tailnet-only listener and connection-critical. Showing it belongs to [[command-centre]] and acting on it to [[ways-of-working]]. Evidence: [sync-telemetry](<../../+/_THREADS/state-of-play/sync-telemetry.report.md>) stage 2 and [areas-tokens](<../../+/_THREADS/state-of-play/areas-tokens.report.md>).
+     - **Known World part, 2026-10-15.** On 15 October Kris placed the foundations model in [[Known World]] and gave this Project its part: measuring token use per run, per thread, per territory and per account; `ki-tokenomics` keeps the policy. It depends on nothing new.
+  edit Streams/Projects/baseline-rollout.md
+    --- a/Streams/Projects/baseline-rollout.md
+    +++ b/Streams/Projects/baseline-rollout.md
+    @@ -17,7 +17,7 @@
+     
+     Reach a solid Knowledge Islands baseline and roll it out to every island. The test: `ki repo audit --estate` is green and the released `ki` is installed everywhere. Knowledge Islands Principal coordinates; each item is delivered through a work record in its owning repository.
+     
+    -This Project sits in [[platform-foundations|Platform foundations]]. The move of agent work into the Techne footprint is the separate [[agent-host]] Project, and neither gates the other. [[estate-factorisation]] owns structure, MCP, distribution and `ki` pin automation, and its remainder does not gate this Project; [[paperclip-capture-and-rebuild]] and [[trades-revamp]] own their own scope.
+    +This Project sits in [[Themes/foundations|Foundations]]. The move of agent work into the Techne footprint is the separate [[agent-host]] Project, and neither gates the other. [[estate-factorisation]] owns structure, MCP, distribution and `ki` pin automation, and its remainder does not gate this Project; [[paperclip-capture-and-rebuild]] and [[trades-revamp]] own their own scope.
+     
+     ---
+     
+  edit Streams/Projects/chezmoi.md
+    --- a/Streams/Projects/chezmoi.md
+    +++ b/Streams/Projects/chezmoi.md
+    @@ -17,7 +17,7 @@
+     
+     Work the open KB-DOTFILES-UE records in the chezmoi source, keeping the workstation accurate, tidy and observable. The records live in the chezmoi repository (`~/.local/share/chezmoi`, GitHub `krisb/dotfiles`), in its roadmap under `docs/roadmap/`, which keeps their plan, priority and acceptance.
+     
+    -This Project sits in [[rig|Rig]]. The Rig: chezmoi thread works it, from its checkpoint at [rig.chezmoi](<../../+/_CHECKPOINTS/rig.chezmoi.md>); chezmoi does not declare `ki-checkpoint`, so the checkpoint lives in Knowledge Islands Principal.
+    +This Project sits in [[Themes/rig|Rig]]. The Rig: chezmoi thread works it, from its checkpoint at [rig.chezmoi](<../../+/_CHECKPOINTS/rig.chezmoi.md>); chezmoi does not declare `ki-checkpoint`, so the checkpoint lives in Knowledge Islands Principal.
+     
+     ---
+     
+  edit Streams/Projects/delta-evaluation.md
+    --- a/Streams/Projects/delta-evaluation.md
+    +++ b/Streams/Projects/delta-evaluation.md
+    @@ -17,7 +17,7 @@
+     
+     Kris decides whether [Delta](https://delta.dev/) earns a bounded trial as a delivery and review interface alongside Paperclip, and the outcome is routed to its durable owner. Delta is assessed as a possible complement to the present KI coordination arrangement, not a Paperclip replacement. The test: Kris has answered yes or no, and either a draft trial record exists or the assessment summary has a durable home.
+     
+    -This Project sits in [[Initiatives/techne|Techne]], beside [[paperclip-capture-and-rebuild]].
+    +This Project sits in [[Themes/techne|Techne]], beside [[paperclip-capture-and-rebuild]].
+     
+     ---
+     
+  edit Streams/Projects/estate-factorisation.md
+    --- a/Streams/Projects/estate-factorisation.md
+    +++ b/Streams/Projects/estate-factorisation.md
+    @@ -17,7 +17,7 @@
+     
+     Finish Knowledge Islands estate factorisation: consistent repository structure vocabulary, explicit ownership seams, behavioural MCP policy evidence, a single OpenAI housekeeping product, observable copies and running systems, and one alignment item per surviving repository. Knowledge Islands Principal coordinates; each item is delivered through a work record in its owning repository. The test is the phase gates below, ending with EVAL-1 and EVAL-2.
+     
+    -This Project sits in [[platform-foundations|Platform foundations]]. [[baseline-rollout]] and the Techne [[agent-host]] work do not wait on it.
+    +This Project sits in [[Themes/foundations|Foundations]]. [[baseline-rollout]] and the Techne [[agent-host]] work do not wait on it.
+     
+     ---
+     
+  edit Streams/Projects/host-network.md
+    --- a/Streams/Projects/host-network.md
+    +++ b/Streams/Projects/host-network.md
+    @@ -17,13 +17,13 @@
+     
+     Decide how hosts and services are set up and addressed on the tailnet across `terra`, `sol` and `vega`: names for hosts and services, name URLs rather than IP and port, tailnet ACLs, and tailnet-only listeners. The tailnet is the VPN substrate, not the interaction mechanism. The test: Kris has decided, and the decision has a durable home and any delivery records an owning repository. Every change it leads to is connection-critical and needs a rollout plan with a tested restore path that reconnects first.
+     
+    -This Project sits in [[rig|Rig]]. Kris opened it on 2026-10-14 as a planned Project whose Outcome is a decision, with no thread yet: "Open host-network under Rig and ai-observability under Platform foundations, both planned with a decision as their Outcome".
+    +This Project sits in [[Themes/rig|Rig]]. Kris opened it on 2026-10-14 as a planned Project whose Outcome is a decision, with no thread yet: "Open host-network under Rig and ai-observability under Platform foundations, both planned with a decision as their Outcome".
+     
+     ---
+     
+     ## Notes
+     
+    -- **Idea for evaluation, 2026-10-14: setting up and addressing hosts on the tailnet.** Moved here from the [[rig|Rig]] Initiative Notes when this Project opened. Kris: host-network setup "needs its own thought", and the tailnet is the VPN substrate, not the interaction mechanism. It spans `terra`, `sol` and `vega`, so it fits neither [[mac-studio-setup|Mac Studio setup]] nor [[agent-host|Agent host]]. Ideas to evaluate: naming hosts and services, with name URLs rather than IP and port; tailnet ACLs; tailnet-only listeners following the tailnet-only listener pattern in `tools-rig`; and the host and service naming scheme Paperclip is waiting for. Every change here is connection-critical and needs a rollout plan with a tested restore path that reconnects first. When Mac Studio bootstrap closes, its `hosts.md` would move here. Evidence: [areas-proposal](<../../+/_THREADS/state-of-play/areas-proposal.report.md>) and [sync-telemetry](<../../+/_THREADS/state-of-play/sync-telemetry.report.md>).
+    +- **Idea for evaluation, 2026-10-14: setting up and addressing hosts on the tailnet.** Moved here from the [[Themes/rig|Rig]] Initiative Notes when this Project opened. Kris: host-network setup "needs its own thought", and the tailnet is the VPN substrate, not the interaction mechanism. It spans `terra`, `sol` and `vega`, so it fits neither [[mac-studio-setup|Mac Studio setup]] nor [[agent-host|Agent host]]. Ideas to evaluate: naming hosts and services, with name URLs rather than IP and port; tailnet ACLs; tailnet-only listeners following the tailnet-only listener pattern in `tools-rig`; and the host and service naming scheme Paperclip is waiting for. Every change here is connection-critical and needs a rollout plan with a tested restore path that reconnects first. When Mac Studio bootstrap closes, its `hosts.md` would move here. Evidence: [areas-proposal](<../../+/_THREADS/state-of-play/areas-proposal.report.md>) and [sync-telemetry](<../../+/_THREADS/state-of-play/sync-telemetry.report.md>).
+     - **Territory-to-host primacy.** On 14 October Kris set a territory-to-host primacy: each territory primarily used and maintained on one host, with all eight territories still checked out on both `terra` and `sol`; in Kris's words of 14 October 2026 in the state-of-play decisions log, "a given territory is primarily used or interacted with by a given host" and "both Terra and Sol should have all eight territories checked out on them in Git". It is pending the foundations-coherence review.
+     - **Handoff from [[island-model-and-tending|Island model and Tending]].** Territory addressing stays there as a model question; the tailnet and DNS work it leads to comes here later as a handoff.
+     - **Known World part, 2026-10-15.** On 15 October Kris placed the foundations model in [[Known World]] and gave this Project its part: turning addresses into names, with tailnet naming, seat resolution and failover, and tailnet-only listeners; every change is connection-critical. It depends on the address scheme held in [[island-model-and-tending|Island model and Tending]].
+  edit Streams/Projects/island-model-and-tending.md
+    --- a/Streams/Projects/island-model-and-tending.md
+    +++ b/Streams/Projects/island-model-and-tending.md
+    @@ -19,7 +19,7 @@
+     
+     It also holds the foundations model (realms, territories, seats, addresses and cultures) as the emerging concept [[Known World]], until the whole-philosophy review adopts, reshapes or drops it.
+     
+    -This Project sits in [[knowledge-islands-model|Knowledge Islands model]]. Its geography work feeds the paused [[website]] Project.
+    +This Project sits in [[Themes/model|Model]]. Its geography work feeds the paused [[website]] Project.
+     
+     ---
+     
+    @@ -31,7 +31,7 @@
+     - On 2026-10-11, reconciling the ChatGPT acquisition of 2026-10-03: the Realm model (what a Realm defines, islands and territories within it, Avatar names per Realm), the Island, Landscape and Realm semantics, time and historical state, a Knowledge Realms registry and the fictional lineage remained open; they are now held as emerging concepts in [[Realm Model]] and [[Fictional Lineage]], under [[Emerging Concepts]], for the whole-philosophy review.
+     - **Idea: territory rollout.** Roll the Knowledge Islands shape out to Kris's other territories (kit, hnr with 5g-emerge, equalremedy, vallearmonia, infoschematics, techmedix and any others in `ki registry list`), so every registered repository follows the Initiatives, Projects, roadmap and audit model. Open: which territory goes first, whether each gets its own Initiative registry or homes Projects in its principal island, and whether pre-existing audit failures are fixed first. legal-principal and apps-midnight.ninja have recurring work with no Initiative home. Start with `ki repo audit` on every registered path outside knowledgeislands. Kept as an idea on 2026-10-11 in place of the removed territory-rollout checkpoint, which Kris approved on 2026-10-11 in the state-of-play run, 'CKPT approved (delta-evaluation and roadmap-model on hold; remove territory-rollout checkpoint)'.
+     - **Idea for evaluation, 2026-10-14: territory addressing.** Kris, on 2026-10-14, wants a level above the tailnet: "a register capability where you can say that this is your territory, and therefore, as part of that, you get some DNS and routing, you get the ability for messages to get routed into you, a kind of front entry for that ... something which is addressable, which is not just a tailnet DNS". Examples: `krisb.knowledgelandscapes.info` (Kris, personal, machines), `knowledge-islands.knowledgelandscapes.info`, `humans-not-robots.knowledgelandscapes.info`, and machines beneath a territory such as `sol.krisb.knowledgelandscapes.info` and `terra.krisb.knowledgelandscapes.info`. "Of course we don't have to expose everything and of course I'm not trying to create another DNS service. But what I am trying to create is a mapping of the knowledge landscape onto a DNS system in some way." Held here because it is a model question: what a territory register is, how territory codes become names, and which parts face outward. Earlier captures: the Knowledge Realms registry, portal or protocol in [[Realm Model#Knowledge Realms|Realm Model]]; `knowledgelandscapes.info` as "The Ecosystem & Registry" in the ChatGPT conversation of 2026-05-13 (`acquire/captures/knowledge-islands/chatgpt/account-export-2026-09-22/2026-05-13-knowledge-islands-distributed-agent-civilisations`) and as the "cartographic engine / world model" sister domain in that of 2026-05-14 (`2026-05-14-from-knowledge-islands-to-living-landscapes`); and the front-door actor that routes work in the Techne ideas conversation of 2026-09-14. Related: the tailnet host and service naming idea in [[host-network|Host network]], the message transport in [[observatory|Observatory]], the Domains table in [[Known Lands]] (`knowledgelandscapes.info` is not listed, and whether it is registered is unconfirmed), and territory codes per [[ADR-KI-PRINCIPAL-002-territory-derived-repository-selection|ADR-KI-PRINCIPAL-002]]. No DNS, domain, Cloudflare or tailnet change follows from this note.
+    -- **Territory addressing stays here.** Kris decided on 2026-10-14: "Keep territory addressing in Island model and Tending to settle the territory register and naming; if host-network opens, it takes the tailnet and DNS work later as a handoff. I used `*.knowledgelandscapes.info` as some examples, but I forgot I'd also considered realms and knowledge realms too." So the register and naming model is settled here, with "realms" and "knowledge realms" as candidate names alongside `*.knowledgelandscapes.info`, and [[host-network|Host network]], now open under [[rig|Rig]], takes the tailnet and DNS work later as a handoff.
+    +- **Territory addressing stays here.** Kris decided on 2026-10-14: "Keep territory addressing in Island model and Tending to settle the territory register and naming; if host-network opens, it takes the tailnet and DNS work later as a handoff. I used `*.knowledgelandscapes.info` as some examples, but I forgot I'd also considered realms and knowledge realms too." So the register and naming model is settled here, with "realms" and "knowledge realms" as candidate names alongside `*.knowledgelandscapes.info`, and [[host-network|Host network]], now open under [[Themes/rig|Rig]], takes the tailnet and DNS work later as a handoff.
+     - **Known World, 2026-10-15.** Kris decided on 15 October to hold the foundations model (realms, territories, seats, addresses and cultures, with the bindings and flows between them) as the emerging concept [[Known World]], beside [[Realm Model]] and not adopted, rather than in a new Project. It goes to the whole-philosophy review with the rest of [[Emerging Concepts]], and it is the first pilot of the inception loop in [[knowledge-acquisition|Knowledge acquisition]].
+     
+     ### Close-out assessment
+  edit Streams/Projects/knowledge-acquisition.md
+    --- a/Streams/Projects/knowledge-acquisition.md
+    +++ b/Streams/Projects/knowledge-acquisition.md
+    @@ -17,7 +17,7 @@
+     
+     Document the provider-neutral knowledge acquisition lifecycle in one Pillars note, acquire AI sessions into their owning repositories with source conversations retired only once each move is verified, and settle the browser-runtime and WhatsApp spool questions. The test: every record that names this Project is delivered or closed. The direction follows [[ADR-KI-PRINCIPAL-001-provider-neutral-knowledge-acquisition|ADR-KI-PRINCIPAL-001]]; Kris is to confirm the finite outcome.
+     
+    -This Project sits in [[knowledge-islands-model|Knowledge Islands model]].
+    +This Project sits in [[Themes/model|Model]].
+     
+     ---
+     
+  edit Streams/Projects/mac-studio-setup/mac-studio-setup.md
+    --- a/Streams/Projects/mac-studio-setup/mac-studio-setup.md
+    +++ b/Streams/Projects/mac-studio-setup/mac-studio-setup.md
+    @@ -17,7 +17,7 @@
+     
+     Kris's Mac Studio, unused for over a month, is back to full estate capability. The test: chezmoi is applied from the current source, `rig status` and `rig doctor` show the declared machine, Homebrew `ki` passes `ki doctor`, every workspace repository is cloned and in the `ki` registry, and a Claude Code or Zed thread there can resume any checkpoint in [[Projects]].
+     
+    -This Project sits in [[rig|Rig]], because the Mac Studio, `sol` on the tailnet, is Kris's own hardware: Rig and chezmoi build and maintain it as Kris's rig on another machine, with the `studio` profile on `core`, declared in the chezmoi source. Techne may deploy onto it later but never owns its build recipe, and it is separate from Techne's [[agent-host]] Project.
+    +This Project sits in [[Themes/rig|Rig]], because the Mac Studio, `sol` on the tailnet, is Kris's own hardware: Rig and chezmoi build and maintain it as Kris's rig on another machine, with the `studio` profile on `core`, declared in the chezmoi source. Techne may deploy onto it later but never owns its build recipe, and it is separate from Techne's [[agent-host]] Project.
+     
+     Under [[GDR-KI-PRINCIPAL-004-standing-agent-host-exemption-from-the-techne-programme-hold|GDR-KI-PRINCIPAL-004]] it is an exempt remote agent host: agents administer it over Tailscale and SSH, with Kris approving each step.
+     
+    @@ -36,7 +36,7 @@
+     - The bootstrap is delivered: chezmoi applied on `sol`, Rig declarations reconciled, the released `ki` installed and passing `ki doctor`, and agents can reach `sol` over Tailscale and SSH, with GitHub through agent forwarding.
+     - **Remaining: a restart test.** FileVault is on, so a reboot leaves `sol` offline until Kris unlocks it in person. Kris restarts it, no earlier than Monday evening 2026-10-12, and the Project stays open until Tailscale is proven to relaunch and reconnect after the unlock.
+     - 1Password-backed chezmoi targets render only at `sol`'s screen, so Kris applies those there.
+    -- Follow-ups are handed on and none blocks this Project: software removal, Dock items, self-updating apps, undeclared software decisions and the later workstation items to [[rig|Rig]]; tolerating missing template tools to the chezmoi thread; rendering `.zshenv` on the agent host to chezmoi's roadmap under [[agent-host]].
+    +- Follow-ups are handed on and none blocks this Project: software removal, Dock items, self-updating apps, undeclared software decisions and the later workstation items to [[Themes/rig|Rig]]; tolerating missing template tools to the chezmoi thread; rendering `.zshenv` on the agent host to chezmoi's roadmap under [[agent-host]].
+     - [[decisions-in-force|Decisions in force]] states the decisions that still guide `sol`. The full decisions log is machine-local run state on the laptop at `~/.local/state/ki/agents/mac-studio-setup/decisions.md`, not in Git.
+     - [[hosts|Hosts]] names the estate's machines - `vega`, `sol` and `terra` - and their machine types, from which the Rig profiles and the Cheztoi host profile take their names.
+     - The thread's checkpoint is [rig.mac-studio-setup](../../../+/_CHECKPOINTS/rig.mac-studio-setup.md).
+  edit Streams/Projects/observatory.md
+    --- a/Streams/Projects/observatory.md
+    +++ b/Streams/Projects/observatory.md
+    @@ -19,7 +19,7 @@
+     
+     Kris set this Project on 2026-10-18 (OBS-OWNER): "Fold Command centre into one Observatory Project under the Knowledge Islands model, with the Outcome "the operations centre for one or more territories" and the seven goals from the observatory-goals report; the Observatory thread is its one thread, the command-centre checkpoint closes into it, and cross-territory vocabulary stays with ways of working." It replaces the Command centre Project, whose Notes it carries below.
+     
+    -This Project sits in [[knowledge-islands-model|Knowledge Islands model]].
+    +This Project sits in [[Themes/model|Model]].
+     
+     ## Goals
+     
+    @@ -64,6 +64,6 @@
+     - **Idea: the Observatory as host command centre.** Kris asked whether command-centre and the Observatory are "one thing" and pointed to the bridge docs. The Observatory's own decision on Observatory, Beacon and Bridge makes Instruments read-only, the Beacon the attention ranker and the Bridge the governed command side, with Rig as "the first Bridge aspect". OBS-OWNER settled it: one Project, with `apps-observatory` keeping product ownership. Evidence: [areas-proposal](<../../+/_THREADS/state-of-play/areas-proposal.report.md>).
+     - **Idea: inter-agent pub-sub communication.** Kris: inter-agent pub-sub is its own topic; ntfy is "decent but maybe not long term"; consider "a decentralised system per host with the Observatory as command centre for host and cross-tailnet communication"; the tailnet is the VPN substrate, not the interaction mechanism. Open questions: whether ntfy on `sol`, tailnet-only, serves as the interim cross-host channel (each Observatory subscribing outbound and relaying to its page over Server-Sent Events, chosen over WebRTC on 2026-10-13), and what the decentralised per-host endpoint, peered over the tailnet, should be. Any tailnet listener follows the tailnet-only listener pattern in `tools-rig` and is connection-critical. The event contract the transport carries stays with [[ways-of-working]]. Evidence: [sync-telemetry](<../../+/_THREADS/state-of-play/sync-telemetry.report.md>), stage 3.
+     - **Idea: a single pane of glass, with agents advertising themselves.** Kris: "I'm wondering though if the observatory can also see those agentic sessions. I'm not suggesting that I want that to become the graphical user interface for the harness at this point ... but I think some kind of single pane of glass for what's going on like this would be really, really useful as well. And then, obviously, this would allow things like agents to advertise themselves." The proposal widens the read-only view from threads to every agentic session on the host, as a read-only "Sessions" Observatory Instrument: `ki agent` runs, threads and agents with their status lines, and live Claude Code sessions from `~/.claude/sessions/` by metadata only (name, repository, busy or idle, start time), never transcripts. Codex shows as "not observable live" until it has a registry. It is never a harness GUI: no prompt box, no launching, stopping or resuming; acting on a session would be a later Bridge aspect with its own decision. No cross-host view in the first slice. Zed stays where Kris talks to sessions, Paperclip stays company coordination and Delta stays with [[delta-evaluation]]. Evidence: [areas-glass](<../../+/_THREADS/state-of-play/areas-glass.report.md>).
+    -- **Idea: token economics in the glass.** Kris: "Another key aspect of this whole command centre piece, the observatory, OTLP, the pub sub mechanism, all of that good stuff, is that we also need to think about token economics as part of it." This Project's part is showing it: per-run and per-thread token totals beside each session, each account's 5-hour and 7-day windows with reset times (read from claude-swap and CodexBar, adding no new provider call), and Beacon attention when a window passes 90 % or a run stops on a limit. Measuring belongs with [[ai-observability|AI observability]] under [[platform-foundations|Platform foundations]], and acting (fallback and concurrency) with [[ways-of-working]]. Evidence: [areas-tokens](<../../+/_THREADS/state-of-play/areas-tokens.report.md>).
+    +- **Idea: token economics in the glass.** Kris: "Another key aspect of this whole command centre piece, the observatory, OTLP, the pub sub mechanism, all of that good stuff, is that we also need to think about token economics as part of it." This Project's part is showing it: per-run and per-thread token totals beside each session, each account's 5-hour and 7-day windows with reset times (read from claude-swap and CodexBar, adding no new provider call), and Beacon attention when a window passes 90 % or a run stops on a limit. Measuring belongs with [[ai-observability|AI observability]] under [[Themes/foundations|Foundations]], and acting (fallback and concurrency) with [[ways-of-working]]. Evidence: [areas-tokens](<../../+/_THREADS/state-of-play/areas-tokens.report.md>).
+     - **OBSERVATORY-ATC, 2026-10-17.** Captured from Kris's intake, no design: "understanding all of the initiatives and projects and work streams and roadmap items that are running within a given territory ... could be really well done through the observatory ... see which threads are running, which sessions, agentic sessions, are associated to those. I don't want to see the updates from those sessions. I want those to still stay ... in ... my main Agentic environment ... But ... observability over those things so I can see when agents are waiting, whether they've got sub-agents that they've subbed out to ... like looking down on ... from the tower in your castle and seeing all the villagers moving around ... a little bit like air traffic control". Goal 7 and unit 1 carry it. Detail: [themes.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/state-of-play/themes.md).
+     - **KB-READER, 2026-10-17.** Captured from Kris's GO-AHEAD, no design: "hopefully, all this gets captured back into Knowledge Island in the Knowledge Base, and then there's the observatory's built, we can start to look at and understand all these in a reader-only fashion. Not everything that we do needs to be in the public set of information on the website." The Observatory as a read-only reader over the knowledge base, with a private/public boundary against the website. Goal 3 carries it.
+  edit Streams/Projects/paperclip-capture-and-rebuild/paperclip-capture-and-rebuild.md
+    --- a/Streams/Projects/paperclip-capture-and-rebuild/paperclip-capture-and-rebuild.md
+    +++ b/Streams/Projects/paperclip-capture-and-rebuild/paperclip-capture-and-rebuild.md
+    @@ -17,7 +17,7 @@
+     
+     Paperclip's approach is captured in the island, the service on `terra` is stopped, and a fresh rebuild is designed once the [[ways-of-working]] model settles. Kris chose on 2026-10-14 to keep the approach and lose the history: 'I don't want the history or a database backup, I want to recreate it with the same approach but fresh'. The rebuild starts from the captured structure, not from the old instance.
+     
+    -This Project sits in [[Initiatives/techne|Techne]]. Hosting the rebuild on `sol` belongs to [[mac-studio-setup]], and whether Paperclip may run there at all is governed by the [[Techne Programme Hold]]. It replaces the earlier bootstrap-and-recovery outcome, which aimed at one reviewed VA delivery; that aim is moot now the instance is stopped.
+    +This Project sits in [[Themes/techne|Techne]]. Hosting the rebuild on `sol` belongs to [[mac-studio-setup]], and whether Paperclip may run there at all is governed by the [[Techne Programme Hold]]. It replaces the earlier bootstrap-and-recovery outcome, which aimed at one reviewed VA delivery; that aim is moot now the instance is stopped.
+     
+     ---
+     
+  edit Streams/Projects/roadmap-model.md
+    --- a/Streams/Projects/roadmap-model.md
+    +++ b/Streams/Projects/roadmap-model.md
+    @@ -15,9 +15,9 @@
+     
+     ## Outcome
+     
+    -Every Knowledge Islands repository records work under the roadmap model of 2026-10-07: `theme` gives way to `kind`, optional `purpose`, a territory `project` or `initiative` and a repository `component`, holds and cancellations are explicit, and the territory registry in [[Projects]] and [[Initiatives]] groups the work. The test: the roadmap checker enforces the model, after its migration tolerance window closes.
+    +Every Knowledge Islands repository records work under the roadmap model of 2026-10-07: `theme` gives way to `kind`, optional `purpose`, a territory `project` or `initiative` and a repository `component`, holds and cancellations are explicit, and the territory registry in [[Projects]] and [[Themes]] groups the work. The test: the roadmap checker enforces the model, after its migration tolerance window closes.
+     
+    -This Project sits in [[platform-foundations|Platform foundations]].
+    +This Project sits in [[Themes/foundations|Foundations]].
+     
+     ---
+     
+    @@ -29,4 +29,4 @@
+     
+     ### Close-out assessment
+     
+    -The Outcome is delivered. Every Knowledge Islands repository records work under the model, `ki` reads its fields and builds the Project and Initiative views from the registry, and the migration tolerance window has closed, so the roadmap checker now fails retired shapes. A few residual shapes still only warn, by design of the standard rather than as unfinished work. No follow-up is needed; refinements to the model are standards upkeep under [[platform-foundations|Platform foundations]]. The Project awaits Kris's close decision.
+    +The Outcome is delivered. Every Knowledge Islands repository records work under the model, `ki` reads its fields and builds the Project and Initiative views from the registry, and the migration tolerance window has closed, so the roadmap checker now fails retired shapes. A few residual shapes still only warn, by design of the standard rather than as unfinished work. No follow-up is needed; refinements to the model are standards upkeep under [[Themes/foundations|Foundations]]. The Project awaits Kris's close decision.
+  edit Streams/Projects/secrets-hygiene.md
+    --- a/Streams/Projects/secrets-hygiene.md
+    +++ b/Streams/Projects/secrets-hygiene.md
+    @@ -17,7 +17,7 @@
+     
+     Kris's 1Password vaults are organised by a clear layout and precedence, and chezmoi depends on them through one narrow, checked seam. The test: every vault has a stated purpose and a precedence for where an item belongs; chezmoi reads every secret through one logical-name map from a dedicated `Rig` vault rather than scattered `op://` references; a pre-apply check catches a reference that no longer resolves before `chezmoi apply` renders; and a monthly triage keeps the vaults and the map in that state.
+     
+    -This Project sits in [[rig|Rig]], because the secrets chezmoi renders are part of the workstation. Kris agreed it on 2026-10-09 in the chezmoi thread, creating a secrets-hygiene Project under Rig to hold the two chezmoi secrets records.
+    +This Project sits in [[Themes/rig|Rig]], because the secrets chezmoi renders are part of the workstation. Kris agreed it on 2026-10-09 in the chezmoi thread, creating a secrets-hygiene Project under Rig to hold the two chezmoi secrets records.
+     
+     ---
+     
+  edit Streams/Projects/skill-refresh.md
+    --- a/Streams/Projects/skill-refresh.md
+    +++ b/Streams/Projects/skill-refresh.md
+    @@ -17,7 +17,7 @@
+     
+     Every skill in `ki-agentic-harness` is kept current and still earns its place. The test: `ki repo audit` prompts each skill's REFRESH mode when it falls due, every REFRESH asks whether the skill should be kept, merged or retired, one master checklist covers updating and double-checking every skill, and every skill has a `sources.md`.
+     
+    -This Project sits in [[platform-foundations|Platform foundations]]. Kris agreed it on 2026-10-07 (decisions 12 and 13 of the state-of-play design).
+    +This Project sits in [[Themes/foundations|Foundations]]. Kris agreed it on 2026-10-07 (decisions 12 and 13 of the state-of-play design).
+     
+     ---
+     
+  edit Streams/Projects/specification-review.md
+    --- a/Streams/Projects/specification-review.md
+    +++ b/Streams/Projects/specification-review.md
+    @@ -17,7 +17,7 @@
+     
+     Kris reviews every Specification across the projects with an agent, one repository at a time, and each file is confirmed, revised or retired in its owning repository. The test: every file in the scope below has a recorded review outcome, and the owning repositories have landed any agreed changes.
+     
+    -This Project sits in [[platform-foundations|Platform foundations]]. Kris agreed it on 2026-10-07 (decision 13 of the state-of-play design). It carries the step the retired state-of-play plan decided on: "after the roadmaps are down, every specification across the projects is reviewed with Kris" (plan step 6).
+    +This Project sits in [[Themes/foundations|Foundations]]. Kris agreed it on 2026-10-07 (decision 13 of the state-of-play design). It carries the step the retired state-of-play plan decided on: "after the roadmaps are down, every specification across the projects is reviewed with Kris" (plan step 6).
+     
+     ---
+     
+  edit Streams/Projects/specifications.md
+    --- a/Streams/Projects/specifications.md
+    +++ b/Streams/Projects/specifications.md
+    @@ -17,7 +17,7 @@
+     
+     Bring `ki-specifications` to a consistent, dormant pre-v1 state: the repository review records each tracked file's authority class and makes the process documents agree, and the transferred Knowledge Base Extraction Protocol (KBEP) and Knowledge Base Ingress Protocol (KBIP) each get a short disposition note with one recommendation. The test: every record that names this Project is delivered or closed. This finite outcome is for Kris to confirm.
+     
+    -This Project sits in [[knowledge-islands-model|Knowledge Islands model]].
+    +This Project sits in [[Themes/model|Model]].
+     
+     ---
+     
+  edit Streams/Projects/tools-burndown.md
+    --- a/Streams/Projects/tools-burndown.md
+    +++ b/Streams/Projects/tools-burndown.md
+    @@ -17,7 +17,7 @@
+     
+     Burn the `tools-ki`, `tools-mgit` and `tools-git-almanac` roadmaps, and the `ki-agentic-harness` records about the `ki` CLI, its commands, release or packaging, down to zero: every record closed, merged or rejected. No new feature record is captured, except the one `tools-ki` triage record Kris's REPO-GIT-HYGIENE decision of 16 October 2026 asks for. The Project ends with the `ki` and `mgit` releases, each cut only after Kris approves it.
+     
+    -This Project sits in [[platform-foundations|Platform foundations]]. Kris revived it on 16 October 2026 with TOOLS-PROJECT: "Revive tools-burndown as a Project under Platform foundations, thread KI > Foundations > tools burndown, scoped to tools-ki, tools-mgit, tools-git-almanac and the CLI-shaped ki-agentic-harness records, excluding tools-rig and tools-techne, ending with the ki and mgit releases."
+    +This Project sits in [[Themes/foundations|Foundations]]. Kris revived it on 16 October 2026 with TOOLS-PROJECT: "Revive tools-burndown as a Project under Platform foundations, thread KI > Foundations > tools burndown, scoped to tools-ki, tools-mgit, tools-git-almanac and the CLI-shaped ki-agentic-harness records, excluding tools-rig and tools-techne, ending with the ki and mgit releases."
+     
+     ---
+     
+  edit Streams/Projects/trades-revamp.md
+    --- a/Streams/Projects/trades-revamp.md
+    +++ b/Streams/Projects/trades-revamp.md
+    @@ -17,7 +17,7 @@
+     
+     Make the territory trade policy succinct without changing what it grants, retire `map_bonus`, and keep the related roadmap items consistent with the result. The test: Knowledge Islands Principal's `.ki.toml` declares the same routes in the agreed shorter form, `ki` parses it, the `ki-trades` audit passes, and no record cites a retired declaration. Exchange across territories remains open and is outside this outcome.
+     
+    -This Project sits in [[knowledge-islands-model|Knowledge Islands model]]. It is `planned` until Kris agrees the proposed form below.
+    +This Project sits in [[Themes/model|Model]]. It is `planned` until Kris agrees the proposed form below.
+     
+     ---
+     
+  edit Streams/Projects/ways-of-working/ways-of-working.md
+    --- a/Streams/Projects/ways-of-working/ways-of-working.md
+    +++ b/Streams/Projects/ways-of-working/ways-of-working.md
+    @@ -17,7 +17,7 @@
+     
+     Define how Kris works with agents - one master thread for project management, a small number of Project threads, detached background agents and the `ki` tools - in skills that transfer to any repository and runtime, rather than in personal preferences. The test: the thread and delegation rules live in `ki-delegation` and its sibling skills, a thread can roll up what has happened since a mark, and Kris can see the state of play across Projects and Initiatives at a glance.
+     
+    -This Project sits in [[knowledge-islands-model|Knowledge Islands model]].
+    +This Project sits in [[Themes/model|Model]].
+     
+     ---
+     
+  edit Streams/Projects/website.md
+    --- a/Streams/Projects/website.md
+    +++ b/Streams/Projects/website.md
+    @@ -17,7 +17,7 @@
+     
+     Give the Knowledge Islands website two things it lacks: landing pages where **Get Started** starts something and **Contribute** explains what it is for without restating the Contribution Process, and an interactive, accessible diagram of an island rendered from Knowledge Islands Principal's canonical geography model and tile set. The test: every record that names this Project is delivered or closed. This finite outcome is for Kris to confirm.
+     
+    -This Project sits in [[knowledge-islands-model|Knowledge Islands model]].
+    +This Project sits in [[Themes/model|Model]].
+     
+     ---
+     
+  edit Streams/Roadmap/Roadmap.md
+    --- a/Streams/Roadmap/Roadmap.md
+    +++ b/Streams/Roadmap/Roadmap.md
+    @@ -17,4 +17,4 @@
+     
+     ## Using the roadmap
+     
+    -Select, shape, deliver, review, and close roadmap work through the shared change-management lifecycle. Horizon is metadata - it is not represented by another folder. Each adopted record also declares its `kind`, and optionally its `purpose`, the territory [[Projects|Project]] or [[Initiatives|Initiative]] it serves, and a `component` from the vocabulary in `.ki.toml`; the area only issues its identifier. Completed work remains a `done` record, and withdrawn work a `cancelled` one with its resolution, until its owner explicitly selects it for pruning.
+    +Select, shape, deliver, review, and close roadmap work through the shared change-management lifecycle. Horizon is metadata - it is not represented by another folder. Each adopted record also declares its `kind`, and optionally its `purpose`, the territory [[Projects|Project]] or [[Themes|Initiative]] it serves, and a `component` from the vocabulary in `.ki.toml`; the area only issues its identifier. Completed work remains a `done` record, and withdrawn work a `cancelled` one with its resolution, until its owner explicitly selects it for pruning.
+  edit Streams/Streams.md
+    --- a/Streams/Streams.md
+    +++ b/Streams/Streams.md
+    @@ -26,4 +26,4 @@
+     
+     ## Initiatives
+     
+    -[[Initiatives]] holds one note per long-lived Initiative, named by its slug, which its Projects and projectless records name. Each note gives its direction and Notes for ideas, context and the projectless upkeep it carries; it lists neither its Projects nor their records or Activities, and carries no dated review or status section.
+    +[[Themes]] holds one note per long-lived Initiative, named by its slug, which its Projects and projectless records name. Each note gives its direction and Notes for ideas, context and the projectless upkeep it carries; it lists neither its Projects nor their records or Activities, and carries no dated review or status section.
+Bring the Work Process tree into line
+  edit Pillars/Philosophy/Model/Processes/Work Process/Work Process.md
+    --- a/Pillars/Philosophy/Model/Processes/Work Process/Work Process.md
+    +++ b/Pillars/Philosophy/Model/Processes/Work Process/Work Process.md
+    @@ -159,13 +159,13 @@
+     ├── Streams.md
+     ├── Themes/                                holds no work
+     │   ├── Themes.md
+    -│   ├── knowledge-islands-model.md         theme page: why a theme, what matters, direction, common guidance
+    -│   ├── platform-foundations.md
+    +│   ├── model.md                           theme page: why a theme, what matters, direction, common guidance
+    +│   ├── foundations.md
+     │   ├── rig.md
+     │   └── techne.md
+     ├── Projects/                              flat, one note each, theme: key
+     │   ├── Projects.md
+    -│   ├── ways-of-working.md                 theme: knowledge-islands-model
+    +│   ├── ways-of-working.md                 theme: model
+     │   └── ...
+     └── Roadmap/                               work item records
+     +/
+By hand
+  HAND: rewrite each theme page as a theme page: why a theme, what matters, direction, common guidance; no Project or design pointers
+  HAND: move the Model page's Recurring work paragraph, and Foundations' recurring-upkeep paragraph, to the Activities they describe
+  HAND: rewrite Themes.md (was Initiatives.md) as the theme index; reword Initiative to theme in the prose the link rewrite leaves
+  HAND: Streams/Roadmap/Roadmap.md: [[Themes|Initiative]] reads as theme
+  HAND: git rm the empty Streams/Initiatives folder once nothing is left in it

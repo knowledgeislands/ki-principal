@@ -1,0 +1,161 @@
+== tools-rig.sh (dry-run) in tools-rig at 2026-10-18T02:20:21Z
+Name the theme in each roadmap record
+  edit docs/roadmap/KI-TOOL-RIG-CLI-026-per-tool-development-mode-switch.md
+    --- a/docs/roadmap/KI-TOOL-RIG-CLI-026-per-tool-development-mode-switch.md
+    +++ b/docs/roadmap/KI-TOOL-RIG-CLI-026-per-tool-development-mode-switch.md
+    @@ -3,7 +3,7 @@
+     area: CLI
+     title: Per-tool development mode switch
+     purpose: capability
+    -initiative: rig
+    +theme: rig
+     kind: deliver
+     status: draft
+     horizon: hold
+  edit docs/roadmap/KI-TOOL-RIG-CORE-042-profile-filtered-dock-items.md
+    --- a/docs/roadmap/KI-TOOL-RIG-CORE-042-profile-filtered-dock-items.md
+    +++ b/docs/roadmap/KI-TOOL-RIG-CORE-042-profile-filtered-dock-items.md
+    @@ -2,7 +2,7 @@
+     id: KI-TOOL-RIG-CORE-042
+     area: CORE
+     title: Profile-filtered Dock items
+    -initiative: rig
+    +theme: rig
+     kind: deliver
+     horizon: now
+     status: ready
+  edit docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md
+    --- a/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md
+    +++ b/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md
+    @@ -2,7 +2,7 @@
+     id: KI-TOOL-RIG-CORE-047
+     area: CORE
+     title: Tailnet-only listener firewall
+    -initiative: rig
+    +theme: rig
+     kind: deliver
+     horizon: now
+     status: awaiting-review
+  edit docs/roadmap/KI-TOOL-RIG-CORE-048-signed-release-install-kind.md
+    --- a/docs/roadmap/KI-TOOL-RIG-CORE-048-signed-release-install-kind.md
+    +++ b/docs/roadmap/KI-TOOL-RIG-CORE-048-signed-release-install-kind.md
+    @@ -3,7 +3,7 @@
+     area: CORE
+     title: Signed-release install kind
+     purpose: capability
+    -initiative: rig
+    +theme: rig
+     kind: deliver
+     status: draft
+     horizon: hold
+  edit docs/roadmap/KI-TOOL-RIG-CORE-052-doctor-service-launch-prerequisites.md
+    --- a/docs/roadmap/KI-TOOL-RIG-CORE-052-doctor-service-launch-prerequisites.md
+    +++ b/docs/roadmap/KI-TOOL-RIG-CORE-052-doctor-service-launch-prerequisites.md
+    @@ -3,7 +3,7 @@
+     area: CORE
+     title: Doctor service launch prerequisites
+     purpose: capability
+    -initiative: rig
+    +theme: rig
+     status: triage
+     blocks: []
+     blocked_by: []
+  edit docs/roadmap/KI-TOOL-RIG-CORE-053-macos-menu-bar-declarations.md
+    --- a/docs/roadmap/KI-TOOL-RIG-CORE-053-macos-menu-bar-declarations.md
+    +++ b/docs/roadmap/KI-TOOL-RIG-CORE-053-macos-menu-bar-declarations.md
+    @@ -3,7 +3,7 @@
+     area: CORE
+     title: macOS menu bar declarations
+     purpose: capability
+    -initiative: rig
+    +theme: rig
+     status: triage
+     blocks: []
+     blocked_by: []
+  edit docs/roadmap/KI-TOOL-RIG-CORE-054-command-line-tools-check.md
+    --- a/docs/roadmap/KI-TOOL-RIG-CORE-054-command-line-tools-check.md
+    +++ b/docs/roadmap/KI-TOOL-RIG-CORE-054-command-line-tools-check.md
+    @@ -3,7 +3,7 @@
+     area: CORE
+     title: Command Line Tools check
+     purpose: capability
+    -initiative: rig
+    +theme: rig
+     status: triage
+     blocks: []
+     blocked_by: []
+  edit docs/roadmap/KI-TOOL-RIG-CORE-055-interpreter-port-owner-matching.md
+    --- a/docs/roadmap/KI-TOOL-RIG-CORE-055-interpreter-port-owner-matching.md
+    +++ b/docs/roadmap/KI-TOOL-RIG-CORE-055-interpreter-port-owner-matching.md
+    @@ -3,7 +3,7 @@
+     area: CORE
+     title: Interpreter port owner matching
+     purpose: capability
+    -initiative: rig
+    +theme: rig
+     status: triage
+     blocks: []
+     blocked_by: []
+  edit docs/roadmap/KI-TOOL-RIG-CORE-056-menu-bar-order-persistence.md
+    --- a/docs/roadmap/KI-TOOL-RIG-CORE-056-menu-bar-order-persistence.md
+    +++ b/docs/roadmap/KI-TOOL-RIG-CORE-056-menu-bar-order-persistence.md
+    @@ -3,7 +3,7 @@
+     area: CORE
+     title: Menu bar order persistence
+     purpose: capability
+    -initiative: rig
+    +theme: rig
+     kind: investigate
+     status: draft
+     horizon: future
+  edit docs/roadmap/KI-TOOL-RIG-CORE-057-github-desktop-repository-list.md
+    --- a/docs/roadmap/KI-TOOL-RIG-CORE-057-github-desktop-repository-list.md
+    +++ b/docs/roadmap/KI-TOOL-RIG-CORE-057-github-desktop-repository-list.md
+    @@ -3,7 +3,7 @@
+     area: CORE
+     title: GitHub Desktop repository list
+     purpose: capability
+    -initiative: rig
+    +theme: rig
+     status: triage
+     blocks: []
+     blocked_by: []
+  edit docs/roadmap/KI-TOOL-RIG-CORE-058-apply-lock-handler-history.md
+    --- a/docs/roadmap/KI-TOOL-RIG-CORE-058-apply-lock-handler-history.md
+    +++ b/docs/roadmap/KI-TOOL-RIG-CORE-058-apply-lock-handler-history.md
+    @@ -3,7 +3,7 @@
+     area: CORE
+     title: Apply lock, handler history
+     purpose: corrective
+    -initiative: rig
+    +theme: rig
+     status: triage
+     blocks: []
+     blocked_by: []
+  edit docs/roadmap/KI-TOOL-RIG-CORE-060-single-target-operation-speed.md
+    --- a/docs/roadmap/KI-TOOL-RIG-CORE-060-single-target-operation-speed.md
+    +++ b/docs/roadmap/KI-TOOL-RIG-CORE-060-single-target-operation-speed.md
+    @@ -3,7 +3,7 @@
+     area: CORE
+     title: Single-target operation speed
+     purpose: corrective
+    -initiative: rig
+    +theme: rig
+     kind: deliver
+     horizon: now
+     status: awaiting-review
+  edit docs/roadmap/KI-TOOL-RIG-DIST-011-stale-terra-rig-link.md
+    --- a/docs/roadmap/KI-TOOL-RIG-DIST-011-stale-terra-rig-link.md
+    +++ b/docs/roadmap/KI-TOOL-RIG-DIST-011-stale-terra-rig-link.md
+    @@ -3,7 +3,7 @@
+     area: DIST
+     title: Stale vega rig link
+     purpose: corrective
+    -initiative: rig
+    +theme: rig
+     kind: deliver
+     status: draft
+     horizon: hold
+By hand
+  HAND: apply after tools-ki accepts theme on roadmap records, so ki repo audit does not flag the key as unknown
+  HAND: tools-rig is ahead of origin by its own session's commits; push them first or apply on top and name them

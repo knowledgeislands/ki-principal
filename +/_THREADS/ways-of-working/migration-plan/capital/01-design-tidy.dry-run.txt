@@ -1,0 +1,22 @@
+== 01-design-tidy.sh (dry-run) in ki-principal at 2026-10-18T02:20:10Z
+Delete the territory-selection design papers
+  git rm -r -q -- Streams/Initiatives/knowledge-islands-model/design
+Move each Project's design folder into its work folder
+  mkdir -p +/_WORK_REVIEW/ki.agent-host
+  git mv -- Streams/Projects/agent-host/design +/_WORK_REVIEW/ki.agent-host/design
+  mkdir -p +/_WORK/ki.mac-studio-setup
+  git mv -- Streams/Projects/mac-studio-setup/design +/_WORK/ki.mac-studio-setup/design
+  mkdir -p +/_WORK_REVIEW/ki.paperclip-capture-and-rebuild
+  git mv -- Streams/Projects/paperclip-capture-and-rebuild/design +/_WORK_REVIEW/ki.paperclip-capture-and-rebuild/design
+  mkdir -p +/_WORK/ki.ways-of-working
+  git mv -- Streams/Projects/ways-of-working/design +/_WORK/ki.ways-of-working/design
+  mkdir -p +/_WORK/ki.mac-studio-setup/design
+  git mv -- Streams/Projects/mac-studio-setup/adobe-remove.sh +/_WORK/ki.mac-studio-setup/design/adobe-remove.sh
+  mkdir -p +/_WORK/ki.mac-studio-setup/design
+  git mv -- Streams/Projects/mac-studio-setup/favicons-headroom.svg +/_WORK/ki.mac-studio-setup/design/favicons-headroom.svg
+By hand
+  HAND: merge +/_WORK/ki.mac-studio-setup/design/hosts.md into Pillars/Engineering Practice/Architecture/Hosts, Roles and Layers.md, then git rm it
+  HAND: fold +/_WORK/ki.mac-studio-setup/design/decisions-in-force.md into the Mac Studio setup Project note's Notes, then git rm it
+  HAND: Mac Studio setup Project note: make ## Remit a ### under ## Notes
+  HAND: Paperclip capture and rebuild Project note: make ## Capture, ## Shut down, ## Design and ## Rebuild ### under ## Notes
+  HAND: point each design folder's design.md index at its new parent, the work file
