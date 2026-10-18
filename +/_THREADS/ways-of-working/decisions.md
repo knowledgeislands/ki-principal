@@ -1026,3 +1026,9 @@ Taken as: the skills audit is part of this thread's plan in the tools-down windo
 Kris, as selected: "Before other territories (Recommended)".
 
 Taken as the order: Knowledge Islands done, tools in line, check pass, skills audit, then other territories, then the tolerance window closes.
+
+## 2026-10-18 02:50 BST - LEAD
+
+Kris, as received: "this is a massive knowledge islands push and you are leading it"
+
+Taken as: this thread leads the whole push and plans ahead rather than step by step; launched migrate-plan now, read-only on every repository, to build the dry-run move scripts and the +/_WORK / +/_WORK_REVIEW classification for the Capital and the rest of the territory, so the apply runs start the moment tools-ki is released.
