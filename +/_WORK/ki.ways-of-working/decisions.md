@@ -314,5 +314,7 @@ Read back, all a):
 ## 2026-10-18 11:14 BST - owner message, quiet output for the other mgit commands
 
 > By the way, the changes that you've made to the mgetst are amazing, so that's exactly what we need to do for the rest of the commands that I run. I'm not sure what to do about mgit st because effectively that's an alias over some other command that I run as well, so does mgit start to learn from it or do we have a set of things that we agree are standard responses. How do we deal with that? Is that some kind of config that gets stored alongside mgit in its xdg location?
+>
+> Sorry, I haven't even gone my shower yet, so I am going for one now.
 
-Read back: MGIT-ST-QUIET accepted as exactly right. Kris wants the same for every command he runs through mgit, and asks how mgit should know what counts as no news: learning, an agreed set of standard responses, or configuration in mgit's XDG location. Raised as MGIT-QUIET-RULES with a recommendation; nothing launched until answered.
+Read back: MGIT-ST-QUIET accepted as exactly right. Kris wants the same for every command he runs through mgit and asks how mgit should know what counts as no news. Raised as MGIT-QUIET-RULES for his return; nothing launched until answered. Kris is away for about 10 minutes.
