@@ -1044,3 +1044,9 @@ Taken as: a milestone in the plan - once the observatory and the tools (tools-ki
 Kris, as selected: TOOLS-KI-REBASE - "Own worktree (Recommended)"; APPLY-TRIGGER - "After release (Recommended)"; REVIEW-SPLIT - "Accept (Recommended)"; SECTIONS-DROP, STRAYS-DESIGN and LINK-DEBT - "All three a) (Recommended)".
 
 Taken as: migrate-phase2 works in its own tools-ki worktree from origin and leaves the other session's rebase untouched; the plan applies after the tools-ki release, Capital then harness then tools-rig, hand steps after; the five (and harness skill-reviews) go to +/_WORK_REVIEW; the conversion drops the four old sections, strays go to design/, and report links are fixed at each work's first-mark prune.
+
+## 2026-10-18 03:40 BST - REBASE-LOOK
+
+Kris, as received: "I'm looking at the rebase, is that blocking?"
+
+Taken as: Kris is handling the stuck tools-ki rebase; TOOLS-KI-REBASE waits on Kris saying the checkout is clean (or "worktree"). Answered: yes, it is the critical path for phase 2 and so for the Capital apply. Meanwhile launched bring-up, read-only, to draft the bring-up items and restart prompts for the observatory and tools threads.
