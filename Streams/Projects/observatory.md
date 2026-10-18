@@ -7,7 +7,7 @@ theme: model
 lifecycle: active
 lead: Kris Brown
 target: null
-updated: 2026-10-18T00:14:17Z
+updated: 2026-10-18T17:58:41Z
 author: Written with Claude
 ---
 
@@ -41,7 +41,7 @@ Kris set the order on 2026-10-18 (OBS-SLICE): "Build the four units in order: Se
 
 1. **Sessions and threads Instrument** (`apps-observatory.local`). For the selected territory: themes and Projects from `Streams/`, work from `+/_WORK/`, and `ki agent` runs from the state folder, each linked to its Project, with a Beacon signal when an agent's status is stale or waiting. Read-only, this machine, no transcripts.
 2. **Review queue** (`apps-observatory.local`, chained after unit 1). One Beacon source listing what awaits a human across every repository in scope: records awaiting review, thread reports with open queries, acquire captures at Stage and `+/` intake folders.
-3. **Capture feedback** (`apps-observatory.local`, chained after unit 2). The first confirmed Bridge write: a short Markdown note with provenance written into the territory's capture landing, which [[knowledge-acquisition|Knowledge acquisition]] decides, with a receipt; every other write still refused.
+3. **Capture feedback** (`apps-observatory.local`, chained after unit 2). The first confirmed Bridge write: Kris's comments on a document, consolidated into one feedback package with provenance in the folder of the work that produced it, `+/_WORK/<id>/feedback/<date>-<slug>.md`, and linked from one line in that work's Messages section, committed with a receipt and pushed only by the governed push; every other write still refused.
 4. **A name instead of a port** ([[host-network|Host network]], in `tools-rig` and chezmoi). `observatory.<name>` on each host over the tailnet, connection-critical with a tested restore path, as LOCAL-DNS asks, when the Host network thread opens.
 
 ---
