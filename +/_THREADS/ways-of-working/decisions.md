@@ -910,3 +910,13 @@ Taken as:
 - "we do really need to rename KI": meaning unclear; asked.
 - REPLY-BLOCK: Kris may be outgrowing the copyable reply block and would rather answer in speech; raised as a query, not acted on.
 Acted on: runs settle-model (ki-principal) and confidence-check (ki-agentic-harness).
+
+## 2026-10-18 01:55 BST - REPLY-BLOCK answered; BANNER-GLYPH; RENAME-KI context asked
+
+Kris, as received: "Yeah, I can't remember where I used this. We really need to rename. Can you give me the context and a bit more detail around it? I can give you more answer. And yes, the new reply block is better. I guess what does it mean by with worker? I think you've got a human to the worker, and then with worker, I think you just need a robot saying with a robot."
+
+Taken as:
+
+- REPLY-BLOCK a): no copyable reply block; Kris answers in speech, the thread reads each answer back as taken in the decisions log and asks one line where unclear. Written into ki-pmo with the work-model migration.
+- BANNER-GLYPH: a settled state shows its holder's glyph alone (🤖 With worker); an arrow appears only in a handoff state (🤖 → 🧑 Handoff to supervisor). Folded into the Work Process note by banner-glyph after settle-model.
+- RENAME-KI: Kris asks for the context of "we do really need to rename KI"; given in the reply.
