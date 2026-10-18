@@ -393,3 +393,17 @@ Kris, 18 October:
 > I meant the `ki-repo-tools` skill then
 
 Read back as taken: CLI-CONVENTIONS goes into `ki-repo-tools` as a reference linked from its SKILL.md; the queued cli-conventions brief is corrected and no KI-TOOLS-SKILL query is raised.
+
+## 2026-10-18 18:12 BST - owner messages, restarts sent, resume grounding; mark
+
+Kris, 18 October:
+
+> all of the resumes have been dispatched. I think resume prompts should also say in which `pwd` they are grounded
+>
+> take a mark
+
+Read back as taken:
+
+- RESTARTS - Kris has sent the resume prompts to chezmoi, Tools burndown and Observatory; those works are no longer on hold here.
+- RESUME-PWD - every resume and send line names the working directory its session must be grounded in, the primary checkout of the repository holding the work file, for example `in /Users/krisbrown/workspaces/knowledge-islands/ki-principal`. Folded into the glyph-owner run, which already edits the ki-coordination standard, the Work Process note and the output style.
+- MARK - mark struck at 18:12 BST (2026-10-18T17:12:06Z); the queued mark-prune-2 run prunes to this mark.
