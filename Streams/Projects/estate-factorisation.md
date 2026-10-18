@@ -3,7 +3,7 @@ note_type: streams/project
 slug: estate-factorisation
 title: Estate factorisation
 outcome: The Knowledge Islands estate is factorised - consistent repository structure vocabulary, explicit ownership seams, behavioural MCP policy evidence, a single OpenAI housekeeping product, observable copies and running systems, and one alignment item per surviving repository.
-initiative: platform-foundations
+theme: foundations
 lifecycle: active
 lead: Kris Brown
 target: null

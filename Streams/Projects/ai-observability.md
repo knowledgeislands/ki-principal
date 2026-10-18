@@ -3,7 +3,7 @@ note_type: streams/project
 slug: ai-observability
 title: AI observability
 outcome: Kris decides how AI-tooling use, token use above all, is measured and attributed per run, per thread and per account, OTLP included, and the decision is routed to its durable owner.
-initiative: platform-foundations
+theme: foundations
 lifecycle: planned
 lead: Kris Brown
 target: null

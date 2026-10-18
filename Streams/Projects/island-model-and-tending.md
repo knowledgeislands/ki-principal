@@ -3,7 +3,7 @@ note_type: streams/project
 slug: island-model-and-tending
 title: Island model and Tending
 outcome: Knowledge Islands Principal's current island-model and tending records are each delivered, handed to their owner or closed, leaving the model and its tending practice with no speculative backlog.
-initiative: knowledge-islands-model
+theme: model
 lifecycle: active
 lead: Kris Brown
 target: null

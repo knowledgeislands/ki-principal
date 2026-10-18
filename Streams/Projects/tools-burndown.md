@@ -3,7 +3,7 @@ note_type: streams/project
 slug: tools-burndown
 title: Tools burndown
 outcome: The tools-ki, tools-mgit and tools-git-almanac roadmaps and the CLI-shaped ki-agentic-harness records are burned down to zero - every record closed, merged or rejected - ending with the ki and mgit releases.
-initiative: platform-foundations
+theme: foundations
 lifecycle: active
 lead: Kris Brown
 target: null

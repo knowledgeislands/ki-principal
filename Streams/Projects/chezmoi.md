@@ -3,7 +3,7 @@ note_type: streams/project
 slug: chezmoi
 title: chezmoi
 outcome: The open KB-DOTFILES-UE records in the chezmoi source are worked, keeping the workstation accurate, tidy and observable.
-initiative: rig
+theme: rig
 lifecycle: active
 lead: Kris Brown
 target: null

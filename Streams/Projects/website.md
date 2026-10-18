@@ -3,7 +3,7 @@ note_type: streams/project
 slug: website
 title: Website
 outcome: The Knowledge Islands website has deliberate Get Started and Contribute landing pages and an interactive, accessible island diagram rendered from Knowledge Islands Principal's geography model.
-initiative: knowledge-islands-model
+theme: model
 lifecycle: paused
 lead: Kris Brown
 target: null

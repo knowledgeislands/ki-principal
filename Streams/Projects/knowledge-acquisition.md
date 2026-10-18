@@ -3,7 +3,7 @@ note_type: streams/project
 slug: knowledge-acquisition
 title: Knowledge acquisition
 outcome: The provider-neutral acquisition lifecycle is documented in one Pillars note, AI sessions are acquired into their owning repositories with verified retirement of the source, and the browser-runtime and WhatsApp spool questions are settled.
-initiative: knowledge-islands-model
+theme: model
 lifecycle: active
 lead: Kris Brown
 target: null

@@ -3,7 +3,7 @@ note_type: streams/project
 slug: secrets-hygiene
 title: Secrets hygiene
 outcome: Kris's 1Password vaults follow a clear layout and precedence, chezmoi reads secrets through one logical-name map from a dedicated Rig vault with a pre-apply reference check, and a monthly triage keeps it that way.
-initiative: rig
+theme: rig
 lifecycle: active
 lead: Kris Brown
 target: null

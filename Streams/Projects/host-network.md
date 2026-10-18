@@ -3,7 +3,7 @@ note_type: streams/project
 slug: host-network
 title: Host network
 outcome: Kris decides how hosts and services are set up and addressed on the tailnet - naming, name URLs, ACLs and tailnet-only listeners - and the decision is routed to its durable owner.
-initiative: rig
+theme: rig
 lifecycle: planned
 lead: Kris Brown
 target: null

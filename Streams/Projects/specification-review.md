@@ -3,7 +3,7 @@ note_type: streams/project
 slug: specification-review
 title: Specification review
 outcome: Kris has reviewed every Specification across the Knowledge Islands projects, and each one is confirmed, revised or retired.
-initiative: platform-foundations
+theme: foundations
 lifecycle: planned
 lead: Kris Brown
 target: null

@@ -3,7 +3,7 @@ note_type: streams/project
 slug: roadmap-model
 title: Roadmap model
 outcome: The territory records work under the roadmap model, and the roadmap checker enforces it.
-initiative: platform-foundations
+theme: foundations
 lifecycle: paused
 lead: Kris Brown
 target: null

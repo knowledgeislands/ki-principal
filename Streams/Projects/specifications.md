@@ -3,7 +3,7 @@ note_type: streams/project
 slug: specifications
 title: Specifications
 outcome: KI Specifications presents one consistent account of its authority and retained process, and the transferred KBEP and KBIP protocols each have a recorded disposition.
-initiative: knowledge-islands-model
+theme: model
 lifecycle: paused
 lead: Kris Brown
 target: null

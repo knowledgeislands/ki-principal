@@ -3,7 +3,7 @@ note_type: streams/project
 slug: agent-host
 title: Agent host
 outcome: Agent work runs on a Techne agent host within the Techne Programme Hold's standing exemption, modelled as harness-defined recipes and person-owned bindings, with the prototype reviewed.
-initiative: techne
+theme: techne
 lifecycle: active
 lead: Kris Brown
 target: null

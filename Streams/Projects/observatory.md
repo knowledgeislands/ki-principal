@@ -3,7 +3,7 @@ note_type: streams/project
 slug: observatory
 title: Observatory
 outcome: The Observatory is the operations centre for one or more territories - deployed per Rig at a uniform address, read-only over the territory's knowledge, threads and agent sessions, with documents to review found across its repositories, Git tooling, and feedback that returns into the capture cycle.
-initiative: knowledge-islands-model
+theme: model
 lifecycle: active
 lead: Kris Brown
 target: null

@@ -22,7 +22,7 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## AI observability
 
-[[ai-observability]] decides how AI-tooling use, token use above all, is measured and attributed per run, per thread and per account, OTLP included. It sits under [[Themes/foundations|Foundations]].
+[[ai-observability]] decides how AI-tooling use, token use above all, is measured and attributed per run, per thread and per account, OTLP included.
 
 ---
 
@@ -40,7 +40,7 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## chezmoi
 
-[[chezmoi]] works the open KB-DOTFILES-UE records in the chezmoi source, keeping the workstation accurate, tidy and observable. Its records live in the chezmoi roadmap. It sits under [[Themes/rig|Rig]].
+[[chezmoi]] works the open KB-DOTFILES-UE records in the chezmoi source, keeping the workstation accurate, tidy and observable. Its records live in the chezmoi roadmap.
 
 ---
 
@@ -58,7 +58,7 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## Host network
 
-[[host-network]] decides how hosts and services are set up and addressed on the tailnet: naming, name URLs, ACLs and tailnet-only listeners. It sits under [[Themes/rig|Rig]].
+[[host-network]] decides how hosts and services are set up and addressed on the tailnet: naming, name URLs, ACLs and tailnet-only listeners.
 
 ---
 
@@ -124,7 +124,7 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## Tools burndown
 
-[[tools-burndown]] burns the `tools-ki`, `tools-mgit` and `tools-git-almanac` roadmaps and the CLI-shaped `ki-agentic-harness` records down to zero, ending with the `ki` and `mgit` releases. It sits under [[Themes/foundations|Foundations]].
+[[tools-burndown]] burns the `tools-ki`, `tools-mgit` and `tools-git-almanac` roadmaps and the CLI-shaped `ki-agentic-harness` records down to zero, ending with the `ki` and `mgit` releases.
 
 ---
 

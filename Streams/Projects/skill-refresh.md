@@ -3,7 +3,7 @@ note_type: streams/project
 slug: skill-refresh
 title: Skill refresh
 outcome: Every Knowledge Islands skill is kept current and still relevant, prompted as part of the repository audit rather than found stale after the fact.
-initiative: platform-foundations
+theme: foundations
 lifecycle: planned
 lead: Kris Brown
 target: null

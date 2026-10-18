@@ -3,7 +3,7 @@ note_type: streams/project
 slug: paperclip-capture-and-rebuild
 title: Paperclip capture and rebuild
 outcome: Paperclip's approach is captured in the island, the terra service is stopped, and a fresh rebuild is designed once the ways-of-working model settles.
-initiative: techne
+theme: techne
 lifecycle: active
 lead: Kris Brown
 target: null
@@ -44,7 +44,7 @@ Waits on the [[ways-of-working]] model. Questions to settle:
 - **Heartbeats and continuity.** Whether any timer heartbeat is justified, and which organisations run continuously.
 - **Execution workspaces.** The worktree policy, and how a reviewed candidate reaches local main.
 - **Logins, budgets and skills.** Login isolation per organisation, budgets, and KI skills through mise.
-- **Coordination rules.** Agent instructions should cite the harness [coordination skill](../../../../ki-agentic-harness/skills/agentic-systems/ki-agent-coordination-paperclip/SKILL.md) rather than restate its rules, so agents cannot act on a diverged copy.
+- **Coordination rules.** Agent instructions should cite the harness [coordination skill](../../../ki-agentic-harness/skills/agentic-systems/ki-agent-coordination-paperclip/SKILL.md) rather than restate its rules, so agents cannot act on a diverged copy.
 - **Run MCP connection.** Verify that a local Paperclip run reaches the host's mcporter bridge through a granted remote MCP connection, so coordination conformance rests on live evidence.
 - **Naming themes.** Each company's agent naming theme belongs in its home repository: VA Sanskrit role-nouns (confirmed), TMX ordinary first names capped at three (Kris's choice); HNR one-word nicknames, the personal company archaic `-eth` verbs and ER Greek personifications of justice were proposed; LGL Norse law deities and KI trade and office nouns were only inferred.
 

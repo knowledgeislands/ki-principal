@@ -3,7 +3,7 @@ note_type: streams/project
 slug: baseline-rollout
 title: Baseline rollout
 outcome: Every Knowledge Islands repository meets the solid baseline - `ki repo audit --estate` is green and the released `ki` is installed on every island.
-initiative: platform-foundations
+theme: foundations
 lifecycle: active
 lead: Kris Brown
 target: null

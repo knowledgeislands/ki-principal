@@ -3,7 +3,7 @@ note_type: streams/project
 slug: delta-evaluation
 title: Delta evaluation
 outcome: Kris decides whether Delta earns a bounded trial as a delivery and review interface alongside Paperclip, and the outcome is routed to its durable owner.
-initiative: techne
+theme: techne
 lifecycle: planned
 lead: Kris Brown
 target: null

@@ -3,7 +3,7 @@ note_type: streams/project
 slug: trades-revamp
 title: Trades revamp
 outcome: The territory trade policy is succinct without changing what it grants, `map_bonus` is retired, and the related roadmap items agree with the result.
-initiative: knowledge-islands-model
+theme: model
 lifecycle: planned
 lead: Kris Brown
 target: null
