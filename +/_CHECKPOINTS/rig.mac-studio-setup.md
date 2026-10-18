@@ -13,7 +13,7 @@ updated_at: 2026-10-18T00:40:00Z
 
 - **Status:** at rest, 2026-10-18 01:40 BST. Running: nothing. Walking Kris through items one at a time (step-by-step, with a recommendation and reason).
 - **Resume line:** `Resume Rig: mac-studio-setup under current ki-pmo and ki-delegation since 2026-10-17T21:33Z: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.`
-- **Next:** ADOBE-RUN part 3 on sol: restart sol, re-run ./adobe-remove.sh as a dry run, check apps and add-ons read none and What is left is empty, then ls -d /Applications/Adobe* /Applications/Utilities/Adobe* ~/Pictures/Lightroom/*.lrcat shows only the catalogue; then ADOBE-LOG, RIG-ORDER (rig-lane.report.md), then sol at-screen items (key-only SSH, KB-DOTFILES-UE-086 steps 0-12, UTM, Observatory), then terra. RIG-STACK-PUSH answered: leave the tools-rig push to the KI-TOOL-RIG-CORE-060 session. FOOTER-RECORD waits for the tools-ki rebase.
+- **Next:** REMIND Kris at the next resume (deferred 2026-10-18, "remind me another day"): ADOBE-RUN part 3 on sol: restart sol, re-run ./adobe-remove.sh as a dry run, check apps and add-ons read none and What is left is empty, then ls -d /Applications/Adobe* /Applications/Utilities/Adobe* ~/Pictures/Lightroom/*.lrcat shows only the catalogue; then ADOBE-LOG, RIG-ORDER (rig-lane.report.md), then sol at-screen items (key-only SSH, KB-DOTFILES-UE-086 steps 0-12, UTM, Observatory), then terra. RIG-STACK-PUSH answered: leave the tools-rig push to the KI-TOOL-RIG-CORE-060 session. FOOTER-RECORD waits for the tools-ki rebase.
 
 **Messages** - the receiving thread acts on each line, then removes it.
 
