@@ -190,3 +190,15 @@ Kris, 18 October:
 > Take a mark
 
 Read back as taken: a) for KI-RELEASE (ki v0.11.3 pinning the current harness, with the launcher report-path part if ready; it waits for the GOV-197 and HOOK-QUIET harness changes so one release carries them), RIG-CI-RED, RIG-VERSION (v0.7.0), RIG-FLAKY-FIREWALL, GOV-197-NEXT, HOOK-QUIET, PRUNE-HELD, MOD-010-PACKET, ACQUIRE-CHECKPOINTS, USER-SKILL-STALE, DESK-KIT-HOME, RUMDL-EXCLUDED (deferred until Claude Design finishes), DEPS-HOLDS, CLI-DEPARTURES and PARKED-STALE. CLI-F-FILTER stays open: Kris asks whether a standard exists for a filter option; answered in the reply and re-asked with new options. MARK struck at 19:05 BST (2026-10-18T18:05:04Z).
+
+## 2026-10-18 19:08 BST - owner answer, CLI-F-FILTER; mark
+
+Kris, 18 October:
+
+> CLI-F-FILTER
+>
+> I'm thinking we just go with `--filter` and no short version
+>
+> mark
+
+Read back as taken: CLI-F-FILTER c) - ki and mgit keep only the long `--filter`; `-f` becomes a usage error naming `--filter` (as `-G` was handled), freeing `-f` for force or file. The `ki-repo-tools` guidance records `--filter` with no short letter as the house form. tools-ki's change rides in the queued ki-release run; tools-mgit, the guidance and the chezmoi completion note go to run mgit-filter. MARK struck at 19:08 BST (2026-10-18T18:08:19Z).
