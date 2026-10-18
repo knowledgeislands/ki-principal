@@ -1038,3 +1038,9 @@ Taken as: this thread leads the whole push and plans ahead rather than step by s
 Kris, as received: "soon as you are done with the observatory and the tools, let me know as I can restart those threads with you giving me a prompt about how they should be working"
 
 Taken as: a milestone in the plan - once the observatory and the tools (tools-ki and the other tools repositories) are in line, tell Kris at once and give one restart prompt per thread (observatory, tools burndown and any other tools thread), saying how it now works under the work model, its +/_WORK home and id, and its prioritised bring-up items. Kris restarts those threads; this thread does not.
+
+## 2026-10-18 03:31 BST - TOOLS-KI-REBASE, APPLY-TRIGGER, REVIEW-SPLIT, SECTIONS-DROP, STRAYS-DESIGN, LINK-DEBT (answered)
+
+Kris, as selected: TOOLS-KI-REBASE - "Own worktree (Recommended)"; APPLY-TRIGGER - "After release (Recommended)"; REVIEW-SPLIT - "Accept (Recommended)"; SECTIONS-DROP, STRAYS-DESIGN and LINK-DEBT - "All three a) (Recommended)".
+
+Taken as: migrate-phase2 works in its own tools-ki worktree from origin and leaves the other session's rebase untouched; the plan applies after the tools-ki release, Capital then harness then tools-rig, hand steps after; the five (and harness skill-reviews) go to +/_WORK_REVIEW; the conversion drops the four old sections, strays go to design/, and report links are fixed at each work's first-mark prune.
