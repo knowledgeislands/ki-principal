@@ -18,7 +18,8 @@ created_at: 2026-10-16T00:05:00Z
 ## Next steps
 
 - 18:10 BST: resumed from this work file; accept-prune runs launched for tools-rig (rig-accept) and for tools-mgit with tools-git-almanac (mgit-accept).
-- Then: (1) the MGIT-PLAN records run and the MGIT-REVIEW-LOWS triage record, on Kris's answers; (2) once migrate-phase2b reports ki 0.10.6 here, the tools-ki work: ACCEPT-PRUNE for tools-ki, the ki-accept group (KI-TOOL-KI-CLI-126, -130, -133, -141, -135, -123, -127 and -138), the KI_QUIET triage record (KI-QUIET), events.seen past 21, then -131 and -136; (3) -139's "Decision 55" citations once the decisions move settles; (4) the DESK-KIT-SOP line for state-of-play; (5) at the next mark, cut this file as the MIGRATED line asks and tidy the work folder.
+- 18:15 BST: mgit-accept found another session active in tools-mgit and stopped; the prune of KI-TOOL-MGIT-CLI-020, -021 and -022 is relaunched once that session finishes. The mgit plan appears delivered already (KI-TOOL-MGIT-CLI-018 to -022, -025), so MGIT-PLAN and MGIT-REVIEW-LOWS go to Kris as overtaken.
+- Then: (1) the tools-mgit prune once the other session is quiet; (2) once migrate-phase2b reports ki 0.10.6 here, the tools-ki work: ACCEPT-PRUNE for tools-ki, the ki-accept group (KI-TOOL-KI-CLI-126, -130, -133, -141, -135, -123, -127 and -138), the KI_QUIET triage record (KI-QUIET), events.seen past 21, then -131 and -136; (3) -139's "Decision 55" citations once the decisions move settles; (4) the DESK-KIT-SOP line for state-of-play; (5) at the next mark, cut this file as the MIGRATED line asks and tidy the work folder.
 
 ## Messages
 

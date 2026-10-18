@@ -250,3 +250,7 @@ Kris resumed the work from its work file at 18:08 BST. Acted on the Messages, FI
   - tools-mgit and tools-git-almanac: accept each Awaiting review record whose verification evidence is recorded, list those without it, and prune the Done ones. KI-TOOL-MGIT-CLI-017, -024 and -025 are left to Ways of working.
   - tools-ki: deferred until 0.10.6 has been released.
   - MCP repositories: none is in this work's scope, so they are listed but not acted on (MCP-SCOPE).
+
+## 2026-10-18 18:15 BST - MGIT-ACCEPT-BUSY (coordinator)
+
+mgit-accept stopped because another session is active in tools-mgit, with `tests/mgit.bats` uncommitted and c76b4d5 committed at 18:10. Coordinator took a): relaunch the prune after that session finishes, pruning only KI-TOOL-MGIT-CLI-020, -021 and -022 and keeping -017, -018 and -019. tools-git-almanac had nothing to accept or prune. The listing shows the mgit plan already delivered (KI-TOOL-MGIT-CLI-018 to -022 and -025), so MGIT-PLAN and MGIT-REVIEW-LOWS look overtaken; this goes to Kris to confirm.
