@@ -41,6 +41,7 @@ The first part establishes the problem and the model. It does not assume the rea
 - [[What is Knowledge]] - defines the raw material; separates information, knowledge, and wisdom
 - [[Layers of Knowledge]] - individual to collective to civilisational; the scope of the problem
 - [[Prior Art]] - Zettelkasten, PARA, LLM wikis, OKF; what each gets right and what each leaves open
+- [[Influences Along the Way]] - gstack, Paperclip, Gas City, Hermes Agent, OpenClaw; what was met along the journey and what each informed
 - [[The Cycle of Knowledge]] - capture, connect, reflect; the engine that keeps an island alive
 - [[The Home of Knowledge]] ★ - the island, Capital, Library, Streams, Port; the model lands here
 

@@ -47,6 +47,12 @@ The notes are written to be read in order. After a short orienting entry point, 
 
 ---
 
+## Influences Along the Way
+
+[[Influences Along the Way]] records what was met later, along the journey, rather than at the start: gstack, Paperclip, Gas City, Hermes Agent and OpenClaw. For each it says what the project is and what it informed in Knowledge Islands, from roles and the separation of work to coordination, the agent host and the harnesses. Read it beside Prior Art to see which influences came from putting the model to work with agents.
+
+---
+
 ## The Cycle of Knowledge
 
 [[The Cycle of Knowledge]] describes the engine that keeps an island alive: capture, connect and reflect, running in parallel at different cadences. It distinguishes informational change, driven by new material, from reflective change, which reworks what is already held. This is the dynamic half of the model, and the reason later chapters care about activities, review cadence and the human role in reflection.
