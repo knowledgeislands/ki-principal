@@ -22,13 +22,14 @@ For the full symbolic semantics table and terrain language, see [[Visual Style/V
 
 ## Symbols
 
-The sixteen canonical symbols, their meanings, and terrain associations:
+The seventeen canonical symbols, their meanings, and terrain associations:
 
 | Symbol            | Meaning                       |
 | ----------------- | ----------------------------- |
 | Island            | Domain of knowledge           |
 | Archipelago       | Federated knowledge ecosystem |
 | Port              | Entry and exit; integration   |
+| Capital           | Civic heart of an island      |
 | Lighthouse        | Guidance                      |
 | Council Hall      | Governance                    |
 | Observatory       | Insight / analytics           |
@@ -44,6 +45,8 @@ The sixteen canonical symbols, their meanings, and terrain associations:
 | Trade Route       | Collaboration / exchange      |
 
 The Port replaced the Harbour, and the Lighthouse and Council Hall took separate meanings, under [[GDR-KI-PRINCIPAL-010-the-port|GDR-KI-PRINCIPAL-010]]. The Harbour is retired as a symbol; operational systems, the old Port meaning, belong to `Admin/Operations`.
+
+The Capital was confirmed under [[GDR-KI-PRINCIPAL-011-the-capital|GDR-KI-PRINCIPAL-011]]. It holds the Library and the Council Hall and is drawn civic, a square and never a fortress; the symbol language stays non-combative, with no citadels, towers, keeps or battlements. The Observatory is also the mark of the local app.
 
 ### Port modes
 

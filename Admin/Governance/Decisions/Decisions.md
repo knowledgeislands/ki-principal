@@ -53,3 +53,4 @@ Arcadia maintains these engineering decisions, adopted from the retired Techné 
 ## Symbol decisions
 
 1. [GDR-KI-PRINCIPAL-010](GDR-KI-PRINCIPAL-010-the-port.md) - The Port
+2. [GDR-KI-PRINCIPAL-011](GDR-KI-PRINCIPAL-011-the-capital.md) - The Capital

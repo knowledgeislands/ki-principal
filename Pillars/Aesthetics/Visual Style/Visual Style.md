@@ -84,6 +84,7 @@ Visual symbols carry consistent conceptual meaning across all outputs. See [[Sym
 | Island               | Domain of knowledge           |
 | Archipelago          | Federated knowledge ecosystem |
 | Port                 | Entry and exit; integration   |
+| Capital              | Civic heart of an island      |
 | Lighthouse           | Guidance                      |
 | Council Hall         | Governance                    |
 | Observatory          | Insight / analytics           |
@@ -111,7 +112,7 @@ Different forms of knowledge may be represented through terrain metaphors. This 
 | Entry and exchange            | Ports and their docks, depots, airports |
 | Human wisdom                  | Ancient forests                         |
 | AI synthesis                  | Currents / atmospheric systems          |
-| Governance                    | Council Halls / citadels                |
+| Governance                    | Council Halls in the Capital            |
 | Active collaboration          | Trade routes / interconnected waterways |
 
 ---
