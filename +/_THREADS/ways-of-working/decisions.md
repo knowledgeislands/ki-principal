@@ -984,3 +984,9 @@ Taken as a question, not a hold instruction: answered that this thread is not dr
 Kris, as received: "Yes, it was meant to be a different thread. You're the one who's actually doing the work right now. Keep going."
 
 Taken as: this thread is not held; migrate-phase1 continues; RUN-SHAPE stays open.
+
+## 2026-10-18 02:47 BST - UPDATE-SHAPE
+
+Kris, as received: "Every update, I want to know what's outstanding, what's left on the plan, and what's been done."
+
+Taken as: from now on every timed update in this thread carries three short lines - Done, Left on the plan, Outstanding - beside the running step. Applied in this thread now; whether ki-pmo adopts it for every coordinator is a candidate for the skills audit.
