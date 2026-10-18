@@ -27,6 +27,8 @@ created_at: 2026-10-13T23:50:00Z
 
 ## Messages
 
+- 2026-10-18 · AUDIT-TIDY · KI > Model > Ways of working: Kris answered PRINCIPAL-AUDIT-RED a), "do what you need to do to get that working". At your next mark, remove the `hold: null` front-matter key (RECORD-2: absent unless on hold), delete obs-land if homed, and link the record identifiers COORD-7 flags in obs-feedback-plan and obs-land; detail in the [principal-audit report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/principal-audit.report.md).
+
 ## Parked
 
 - [OBS-FEEDBACK-PLAN](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/obs-feedback-plan.report.md)
