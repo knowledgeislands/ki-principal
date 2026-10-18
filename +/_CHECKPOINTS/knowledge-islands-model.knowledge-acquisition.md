@@ -5,16 +5,16 @@ label: 'Knowledge Islands Model: knowledge-acquisition'
 role: coordination
 state: active
 created_at: 2026-10-08T08:35:00Z
-updated_at: 2026-10-18T00:12:00Z
+updated_at: 2026-10-18T00:37:00Z
 ---
 
 # knowledge-islands-model.knowledge-acquisition
 
 **Pick-up - mark 2026-10-15T14:59Z (15:59 BST)**
 
-Status: rest. 17 October, to 23:37 BST: the nine Acer photos are in acquire as originals (`66a1dce`, pushed) and the ZIP is retired. KB-ACQUIRE-006 (triage) now records the `sources-acquire/+/<source>/` drop inbox, OneDrive paths mirroring acquire's capture paths, and retirement of a drop once wholly in Git and pushed (`ff95822`, `3334aeb`, `a0e7efb`). ChatGPT image intake is self-serve from acquire's intake session (`ad58b72`: reusable ZIP request in CAPTURE-CHATGPT.md step 8, waiting-ZIP route in README); per Kris 23:45 BST, day-to-day intake runs there, not here. KI-HARNESS-OPS-005 accepted; KI-HARNESS-OPS-009 captured at Next. Slip: mirror-layout first pushed with --force-with-lease (own single commit, no harm); briefs now forbid it by name. Running: nothing. Queued: nothing. Waiting on state-of-play: PILOT-SEED and OBSERVATORY-FIRST.
+Status: rest. 18 October to 01:37 BST: Kris accepted the six-step acquisition flow (01:20 BST), retire-on-dispatch with a return route for rejected knowledge, routing knowledge in acquire, PORT-NAME a) and the ports/harbour registers (01:35 BST). The Acquisition Process note carries the end-to-end flow, the port term and retire-on-dispatch (`7966373`); KI-PRINCIPAL-MOD-009 widened to dispatch. dispatch-options.report.md lays out six dispatch approaches (push, outbox pull, Kris carries, ledger, Observatory, ki-trades). Running: nothing. Queued: nothing. Waiting on state-of-play: PILOT-SEED and OBSERVATORY-FIRST.
 
-Open queries for Kris (18 October, from acquisition-model.report.md, the end-to-end model surfaced for his sanity check before anything is built): DISPATCH-PUSH (acquire may write, commit and push its own packets into each territory principal's `+/_ACQUIRED/` and nowhere else; capture the dispatch-packet and inbound-area records; widen KI-PRINCIPAL-MOD-009); DISPATCH-CARRIER (acquire's own light packet now, close to a ki-trades knowledge trade, revisit at the 21 October trades review); CAPTURE-RETIRE (after a one-territory pilot, retire a capture's content once every portion is acknowledged, keeping receipt and hashes); PORT-NAME (keep "harbour" in the island imagery and use "port" for the acquisition function).
+Open queries for Kris (dispatch-options.report.md; he asked to discuss the approaches first): DISPATCH-PUSH (the port pushes whole packets into each principal's `+/_ACQUIRED/` only); RETURN-ROUTE (island marks a packet returned; the port takes it back as source `return`); ROUTING-SOURCE (the port keeps per-territory routing cards read from each Capital, then capture the proposed records); PORTS-RENAME (rename the knowledge-acquisition Project and capability to "ports").
 
 Standing rules: PROCEED-DEFAULT (act on the recommended course and report it; ask only where his rules require his word); FOLD-AUTHORITY; FOLD-TRIGGER; reports to Kris in plain language; a verified, pushed drop is retired as the last intake step (Kris, 23:40 BST).
 
