@@ -1056,3 +1056,38 @@ Taken as: Kris is handling the stuck tools-ki rebase; TOOLS-KI-REBASE waits on K
 Kris, as received: "Okay, I think the file system should be stable now."
 
 Taken as: TOOLS-KI-REBASE resolved by Kris; migrate-phase2 relaunched as migrate-phase2b in the main tools-ki checkout, stopping only if a rebase is still in progress; it pushes any commits stacked beneath its own fast-forward, naming them. BRINGUP-PROJECT stays open.
+
+## 2026-10-18 03:54 BST - HANDOFF-IN tools-burndown (received)
+
+Kris passed on, as received: "Handoff from Fnd: tools-burndown (Platform foundations › Tools burndown) to KI Model > Ways of working, 18 October 04:00 BST. Kris passes this on; tools-burndown is on hold and will not start anything until you hand back.
+
+WHERE IT STANDS
+
+- Checkpoint: /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_CHECKPOINTS/platform-foundations.tools-burndown.md (old shape, state: hold, mark 2026-10-18T02:55:00Z). Decisions log: +/_THREADS/tools-burndown/decisions.md. Agent run: tools-burndown, nothing running or queued.
+- Every repository the thread touched is committed, pushed and level with origin: tools-ki merged with origin at d9769ce4 (KI-TOOL-KI-CLI-137 repointed to KI-HARNESS-GOV-200, carrying TMP-HOME and the TOOLS-PUSH state tooling; ki 0.10.5, no release); tools-mgit KI-TOOL-MGIT-CLI-017 on main, awaiting review; tools-rig KI-TOOL-RIG-CORE-060 on main, awaiting review; ki-principal level with origin.
+- Not this thread's: an uncommitted +/_THREADS/chezmoi/decisions.md in ki-principal.
+
+WHAT IT PLANS NEXT, IN ORDER (no coding changes until you hand back)
+
+1. Rig first: independent review of KI-TOOL-RIG-CORE-060, then Kris's ki-accept; check no other session is in tools-rig.
+2. mgit: one records run, MGIT-PLAN (mgit overview --json, --git/-G and --raw/-R retiring -B/--bare, pure Bash, KI-TOOL-MGIT-CLI-018 and -019 to draft, two new tickets, a KI-TOOL-KI-CLI-140 handoff); one triage ticket for the four low review findings; then Kris's ki-accept of KI-TOOL-MGIT-CLI-017.
+3. A ki release: due soon, only when Kris says; then bump ki-principal's .github/ki-version.
+4. tools-ki: the KI_QUIET triage ticket (KI-QUIET); the ki-accept group KI-TOOL-KI-CLI-126, -130, -133, -141, -135, -123, -127 and -138; move events.seen past 21; deliver -131, then -136.
+5. KI-TOOL-KI-CLI-139's two "Decision 55" citations, once the decisions move settles (source hnr-principal +/_THREADS/5g-emerge-phase3/decisions.md, SRC-TOOLING, 16 October).
+6. A line asking Master: state-of-play to drop its desk-kit lines (DESK-KIT-SOP a), at Kris's request.
+7. A thread-folder tidy under THREADS-CLEAR and PMO-7-BACKLOG.
+
+- Parked owner queries: MGIT-PLAN, MGIT-REVIEW-LOWS, RIG-TARGET-SPEED-ACCEPT and RIG-TARGET-SPEED-LOAD.
+
+WHAT TO WORK AROUND OR CHANGE
+
+- Move the checkpoint to the new work file (+/_WORK/<id>/work.md) and move the decisions log, if your migration does that. tools-burndown has written to neither since the hold.
+- The installed ki runs from the tools-ki checkout, so tools-burndown will not touch tools-ki while you are changing ki.
+- Tell tools-burndown in its Messages section if the release order, the ki-accept group or the thread folder's home changes.
+- Please add the new form for agent briefs and reports to the handback. Tonight's run report already used the glyph banner.
+
+HAND BACK When your changes land, write any FIRST-STEP line into the work file's Messages section, then give Kris this prompt to paste into tools-burndown, with <work file> and <mark> filled in:
+
+Resume Fnd: tools-burndown from <work file> under current ki-pmo and ki-delegation since <mark>: re-read the work file and decisions, act on its Messages FIRST-STEP first, take stock, put the parked queries back, restart authorised work (Rig first), then banner."
+
+Taken as: tools-burndown is drained, so its held rows in the migration plan (ki.tools-burndown) are released into the Capital apply; the ki release changes order - migrate-phase2b cuts it (0.10.6) under RUN-SHAPE, and the ki-version bump in ki-principal joins the apply; KI-TOOL-KI-CLI-127 leaves the ki-accept group for Awaiting review via phase 2b; hand-back writes a FIRST-STEP into ki.tools-burndown's work file Messages naming those changes and the new brief and report forms, and gives Kris the resume prompt filled in. This also answers BRINGUP-PROJECT in effect: tools-ki bring-up items file under tools-burndown (recommended a), pending Kris's word.
