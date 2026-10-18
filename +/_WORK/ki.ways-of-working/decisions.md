@@ -8,13 +8,8 @@
 
 - SESSION-IDENTITY and SESSION-ROLE - (Kris, 16 October) session metadata, logical thread identity and role discovery; carried by [KI-TOOL-KI-CLI-145](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-145-thread-session-bindings-role.md), Phase 3 waiting under IDENTITY-TIMING.
 
-## 2026-10-16 22:06 BST - ROUTINE
+## 2026-10-17 22:50 BST - DIAGRAMS-EXPORT
 
-- ROUTINE - (Kris, 16 October) "Take the recommended option a) for OTHER-PUSH, REPIN, GATE-PRINCIPAL, PMO-CI, CI-FINDINGS, MSG-LANDED, MSG-ORPHANS, THREADS-TRIM and TMP-CLOSE, including pushing other sessions' commits that sit beneath this thread's in ki-agentic-harness and ki-principal."
-
-## 2026-10-17 22:50 BST - CHEZMOI-APPLY, DIAGRAMS-EXPORT
-
-- CHEZMOI-APPLY - (Kris, 17 October) Rig chezmoi reviews `chezmoi diff` for 673b999, d81a80c and d1a6e6d, applies and pushes on its restart; with the [ki.chezmoi work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.chezmoi/work.md).
 - DIAGRAMS-EXPORT - (Kris, 17 October) a static flattened light SVG export and the rule that design reports use inline text diagrams or exported static SVGs; carried by [KI-HARNESS-GOV-205](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-205-static-light-diagram-export.md).
 
 ## 2026-10-17 23:09 BST - COUNSEL
@@ -69,12 +64,7 @@ Taken as: start the move into work folders now on main rather than after the rel
 
 ## 2026-10-18 08:4x BST - owner answers, batch 1 (walk-through)
 
-- DESK-KIT-SOP a) - (Kris, 18 October) "Yes, absolutely the desk kit lines from the state of play should be removed. In fact, they can be removed from wherever now."; carried by the desk-kit-sop run.
 - HARNESS-PATHS a) - (Kris, 18 October) the chezmoi session on Sol and on Terra does the migration; carried by the [ki.chezmoi work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.chezmoi/work.md), with the v0.11.2 re-runs SOL-CONFIG-REFORMAT set.
-
-## 2026-10-18 BST - owner answers, batch 2 (walk-through)
-
-- RIG-LOCK-FOLLOWUP a) - confirmed: adoption, plan and build of KI-TOOL-RIG-CORE-061 stand; an independent review runs before the Rig acceptances.
 
 ## 2026-10-18 BST - owner answers, batch 3 (walk-through)
 
