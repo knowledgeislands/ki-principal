@@ -5,16 +5,16 @@ label: 'KI > Model > ways of working'
 role: coordination
 state: active
 created_at: 2026-10-09T20:58:00Z
-updated_at: '2026-10-18T00:00:00Z'
+updated_at: '2026-10-18T01:02:00Z'
 ---
 
 # knowledge-islands-model.ways-of-working
 
 **Pick-up - mark 2026-10-17T21:34:13Z (22:34 BST)**
 
-- **Status:** at rest. work-model-shape revised the [work-model report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/work-model.report.md) and diagram for regular work beside Project work, theme pages and the folder tree (section 10). Kris asked on 18 October to reissue the queries with this folded in: WORK-MODEL, WORK-WORDS, WORK-THEME, WORK-REGULAR, DECISIONS-STRIKE, WORK-BANNER, WORK-SETTLE and CONFIDENCE-CHECK open; WORK-HOME and WORK-HISTORY settled option a).
+- **Status:** at rest. The work model is settled: [GDR-KI-PRINCIPAL-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md) and the [Work Process](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Work Process/Work Process.md>) note written, GDR-KI-PRINCIPAL-005 amended, the [work-migration brief](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/work-migration.brief.md) drafted, not launched. PMO-11 landed with KI-HARNESS-GOV-207 (accepted and pruned by the product-management thread). Kris dropped the reply block and adopted the rich-text banner in this thread on 18 October. Open: WORK-THEME-SLUGS, WORK-FILE-NAME, MIGRATION-LAUNCH, TARGET-GLYPH, RENAME-KI.
 - **Resume:** `Resume KI > Model > ways working under current ki-pmo and ki-delegation since 2026-10-17T21:34:13Z: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.`
-- **Next steps, in order:** give the Summary with the work-model queries WORK-MODEL, WORK-WORDS, WORK-THEME, WORK-REGULAR, WORK-HOME, DECISIONS-STRIKE, WORK-HISTORY, WORK-BANNER and WORK-SETTLE, with one reply block, when work-model-hold reports; at the next mark delete the thread-lifecycle, thread-states and work-cascade reports, whose queries work-model supersedes; after Kris answers, GDR-KI-PRINCIPAL-009, the Work Process Pillars note, the SHAPE-AGREE migration with the work model folded in, and the observatory contract. Parked: the Personal > SoP handoff for Kris to relay (`~/.local/state/ki/agents/ways-of-working/personal-handoff.md`, ACT-WORK); the HARNESS-ACCEPT sitting (KI-HARNESS-GOV-195, -198, -203 and KI-HARNESS-OPS-005 as one group); SYNC-GUARD's KI-HARNESS-GOV-189 amendment; QUIET-HOOK a week after the quiet gates; AREAS-DISPATCH waits on OBS-MERGE and NEW-AREAS.
+- **Next steps, in order:** on Kris's answers, launch phase 1 of the work migration in ki-agentic-harness and send phase 2 with the KI-TOOL-KI-CLI-127 work-status handoff (in `settle-model.report.md`) to the tools burndown thread; at the next mark delete the thread-lifecycle, thread-states, work-cascade, work-model-rev, work-model-hold, work-model-shape, working-areas, confidence-standard, confidence-check and banner-glyph reports once their outcomes are homed. Parked: Personal > SoP handoff (ACT-WORK); HARNESS-ACCEPT sitting (KI-HARNESS-GOV-195, -198, -203, KI-HARNESS-OPS-005); SYNC-GUARD's KI-HARNESS-GOV-189 amendment; QUIET-HOOK; AREAS-DISPATCH.
 
 **Messages** - the receiving thread acts on each line, then removes it.
 
