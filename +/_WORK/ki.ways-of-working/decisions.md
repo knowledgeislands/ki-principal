@@ -1289,3 +1289,9 @@ Read back as taken, all option a) as last shown:
 - IDENTITY-TIMING a) - keep the identity section landed; Phase 3 waits on KI-TOOL-KI-CLI-145 and KB-DOTFILES-UE-096.
 - COMPOSE-REPLY-BLOCK a) - fold the reply-block wording fix into KI-TOOL-KI-CLI-134.
 - UPDATE-SHAPE a) - adopt three-part coordinator updates in ki-pmo at the report-shape review around 21 October, regenerating hook line and output style.
+
+## 2026-10-18 09:56 BST - owner message
+
+> can you give me a new batch, I've lost the preious
+
+Read back: Kris lost the skills-audit batch; re-present it in full (PMO-NAME, CHECKPOINT-FATE, WORK-FOLDER-DEDUP, DESIGN-NAME, STREAMS-SLIM, WORKER-CLI) with the new ACCEPT-136. No decision taken.
