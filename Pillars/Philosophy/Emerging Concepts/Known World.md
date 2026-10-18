@@ -1,6 +1,6 @@
 ---
 note_type: pillars/note
-updated: 2026-10-17T00:26:00Z
+updated: 2026-10-18T06:47:00Z
 tags:
   - card/note
   - topic/knowledge-islands
@@ -40,7 +40,7 @@ Hosts appear here by role, home and hub, not by machine name. Public governance 
 
 ## The flows
 
-- **Coordination.** Pub-sub and Paperclip route by seat: a message or task for a territory goes to its seat host, and falls back to the standby only when the seat is unreachable. Git and the checkpoint stay the source of truth, and the bus only nudges.
+- **Coordination.** Pub-sub and Paperclip route by seat: a message or task for a territory goes to its seat host, and falls back to the standby only when the seat is unreachable. Git and the work file stay the source of truth, and the bus only nudges.
 - **Observation.** The Observatory on each host is the pane of glass over that host's seated territories and its sessions, and shows each account's token windows.
 - **Thinking.** Inception, elaboration and acquisition form one loop: an idea-stage Project's Notes, or an Emerging Concepts note, go out as a seed into acquire's ChatGPT context, a philosophy conversation elaborates them, and the capture comes back carrying `ki_project`, folded into the Project's Notes or the concept note.
 - **Spend.** Token economics follows the same lines as everything else: accounts belong to hosts, runs belong to territories, so usage is attributed per run, per thread, per territory and per account, measured once and shown in the glass.
