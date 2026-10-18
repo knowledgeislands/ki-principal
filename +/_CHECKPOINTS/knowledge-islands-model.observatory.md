@@ -5,7 +5,7 @@ label: 'KI > Knowledge Islands model > Observatory'
 role: coordination
 state: active
 created_at: 2026-10-13T23:50:00Z
-updated_at: 2026-10-18T00:42:06Z
+updated_at: 2026-10-18T01:21:00Z
 ---
 
 # knowledge-islands-model.observatory
