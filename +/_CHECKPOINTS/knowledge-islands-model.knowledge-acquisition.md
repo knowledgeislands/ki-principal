@@ -5,16 +5,19 @@ label: 'Knowledge Islands Model: knowledge-acquisition'
 role: coordination
 state: active
 created_at: 2026-10-08T08:35:00Z
-updated_at: 2026-10-18T00:59:00Z
+updated_at: 2026-10-18T01:19:00Z
 ---
 
 # knowledge-islands-model.knowledge-acquisition
 
-**Pick-up - mark 2026-10-15T14:59Z (15:59 BST)**
+**Pick-up - mark 2026-10-18T01:19:00Z (02:19 BST)**
 
-- **Status:** rest. 18 October to 01:48 BST, Kris's go-ahead (01:40 BST) on DISPATCH-PUSH, RETURN-ROUTE, ROUTING-SOURCE and PORTS-RENAME delivered as records, nothing built: KB-ACQUIRE-007 "Dispatch push and return" and KB-ACQUIRE-008 "Routing knowledge cards" in acquire (triage), acquire's AGENTS.md and README describe the port with durable routing knowledge (`c02f1ea`), KI-HARNESS-GOV-209 "+/_ACQUIRED/ inbound area" in the harness linked to KB-ACQUIRE-007 (`c6b6dd4b`), and the Acquisition Process note names the capability "ports", the harbour as its Arcadian register, and the push dispatch rule (`cbf5de6`). Personal's Decision 7 (pull to push) sent via the state-of-play inbox for Personal's acquire-dispatch thread. Two Haiku fix runs died mid-task; Sonnet reruns finished them. All repositories pushed. Dispatch handover from Personal taken 18 October (01:55 to 01:58 BST): dispatch-take pushed acquire `321f55f` (KB-ACQUIRE-007 carries the ChatGPT exports refresh step and the MS3 CHAT, IMAGES and MIXED-routing questions; context/chatgpt/personal/README.md routes uncertain or mixed chats to `_review`; AGENTS.md and README.md name this Project as dispatch's owner); HNR's MS3 share (COPY-HASH, ATTACH, RECEIVER, PROPOSALS, EXCLUDED) sent through the state-of-play inbox; Project note says dispatch came from Personal on 18 October (`85d5d22`, record IDs dropped under STREAM-9). Running: nothing. Queued: nothing. Waiting on state-of-play: PILOT-SEED, OBSERVATORY-FIRST, and forwarding Decision 7 to Personal. Open queries for Kris: none (PROCEED-DEFAULT).
-- **Resume:** `Resume Knowledge Islands Model: knowledge-acquisition under current ki-pmo and ki-delegation since 2026-10-15T14:59:00Z: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.`
-- **Next steps, in order:** plan KB-ACQUIRE-007, KB-ACQUIRE-008 and KI-HARNESS-GOV-209 when Kris names acquisition work next, piloting dispatch on one territory; follow state-of-play on the Observatory and PILOT-GO.
+- **Status:** hold. Kris asked at 02:19 BST on 18 October for the thread to wrap up before big ways-of-working updates. Nothing running or queued; acquire, the harness and ki-principal are committed and pushed. Since the previous mark: Acer photos taken in by ZIP and the ZIP retired; image and video holding (KB-ACQUIRE-006) and self-serve intake from acquire; KI-HARNESS-OPS-005 accepted, successor KI-HARNESS-OPS-009 at Next; the acquisition model settled (six steps, push dispatch through the port into each principal's `+/_ACQUIRED/`, retire on delivery, `returned <reason>` back to acquire, per-territory routing cards; "ports" with harbour as its Arcadian register) in the Acquisition Process note and records KB-ACQUIRE-007, KB-ACQUIRE-008 and KI-HARNESS-GOV-209; Personal's dispatch handed over 18 October and taken (acquire `321f55f`, HNR's MS3 share sent through state-of-play, MS3-SPLIT as recommended).
+- **Parked queries:** none open. Standing rule PROCEED-DEFAULT (Kris, 18 October: "you shouldn't need to ask me anything").
+- **Waiting on state-of-play:** OBSERVATORY-FIRST (the Observatory's first step); PILOT-SEED and PILOT-GO (dispatch pilot); forwarding the push-not-pull Decision 7 line to Personal, possibly moot now Personal's dispatch is retired.
+- **Held:** DOTFILES-UE-035 with chezmoi until the 21 October review, which also settles the dispatch envelope with ki-trades. **Parked:** ChatGPT territory keys to kebab-case names.
+- **Resume:** `Resume Knowledge Islands Model: knowledge-acquisition from its checkpoint under current ki-pmo and ki-delegation since 2026-10-18T01:19:00Z: re-bootstrap, read the pick-up block, take stock, put the parked queries back, restart authorised work, then banner.`
+- **Next steps when back, in order:** re-read ki-pmo after the ways-of-working changes and bring this checkpoint to its form; act on any Messages from Master; plan KB-ACQUIRE-007, KB-ACQUIRE-008 and KI-HARNESS-GOV-209 with a dispatch pilot on one territory, including the first ChatGPT exports refresh and the MS3 CHAT, IMAGES and MIXED-routing questions; follow state-of-play on the Observatory and the pilot.
 
 ## Objective
 
@@ -29,7 +32,7 @@ The provider-neutral acquisition lifecycle is documented in one Pillars note, AI
 - 2026-10-18 messages acted on: RUN-HYGIENE FIRST-STEP (this checkpoint brought to current form, `role` set) and DISPATCH-HANDOVER (taken; MS3-SPLIT as recommended under Kris's "you shouldn't need to ask me anything").
 - ki-pmo read at c6b6dd4b.
 - Thread folder: +/_THREADS/knowledge-acquisition/ ([thread folder](../_THREADS/knowledge-acquisition/)).
-- Mark: 2026-10-15T14:59:00Z.
+- Mark: 2026-10-18T01:19:00Z.
 
 ## Decisions made
 
