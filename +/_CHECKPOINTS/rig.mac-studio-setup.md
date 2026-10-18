@@ -15,6 +15,10 @@ updated_at: 2026-10-17T22:44:00Z
 - **Resume line:** `Resume Rig: mac-studio-setup under current ki-pmo and ki-delegation since 2026-10-17T21:33Z: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.`
 - **Next:** answers to RIG-LANE and RIG-STACK-PUSH (tools-rig prune now under 4 other-session KI-TOOL-RIG-CORE-060 commits); tools-rig burndown lane (RIG-OWNER) starts on RIG-LANE; RIG-CATALOGUE is an idea only (ADR-KI-TOOL-RIG-002, KI-OBSERVA-VIS-021); FOOTER-RECORD waits for the tools-ki rebase; Kris at-screen items on both Macs (Adobe script now at Streams/Projects/mac-studio-setup/adobe-remove.sh).
 
+**Messages** - the receiving thread acts on each line, then removes it.
+
+- 2026-10-18 · FIRST-STEP · Master: state-of-play, carrying RUN-HYGIENE from ways of working's READY of 17 October: "each thread fixes its checkpoint form and adds role on its FIRST-STEP line at restart". Before launching work, bring this checkpoint to the current ki-checkpoint and ki-pmo form and add `role` to its front matter · [restart report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/restart.report.md)
+
 ## Objective
 
 Bring Kris's Mac Studio back to full estate capability as a reliably reachable remote agent host, kept up to date remotely, under the Project [Mac Studio setup](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/mac-studio-setup/mac-studio-setup.md) in the [Rig Initiative](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Initiatives/rig.md). The bootstrap and the restart test are done; the Project stays open until the tailnet-only firewall is live on `sol` and remote `chezmoi apply` works over SSH (Kris's closure condition, 2026-10-14). Kris widened the remit on 2026-10-14 to the Rig differences between `sol` and the laptop (RIG-DIFF, SOL-SCOPE, LOCAL-MODE-CHECK), as the Project note's Remit section states.

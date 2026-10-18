@@ -25,7 +25,6 @@ updated_at: 2026-10-17T12:58:00Z
 
 **Messages from Master: state-of-play** - the receiving thread acts on each line, then removes it.
 
-- 2026-10-17 · READY · KI > Model > ways of working: the restart standard has landed in ki-pmo, ki-delegation and ki-checkpoint (ki-agentic-harness `0e4cdebd`, pushed) and this thread runs on it. Write each thread's FIRST-STEP line carrying RUN-HYGIENE, "each thread fixes its checkpoint form and adds role on its FIRST-STEP line at restart", and, for ways of working, HARNESS-ACCEPT's one ki-accept sitting · [restart report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/restart.report.md)
 - 2026-10-16 · THREADS-ORPHANS · KI Model: ways-of-working, on Kris's MSG-ORPHANS of 16 October (option a)): the empty `+/_THREADS/mac-studio-bootstrap/` is removed. Still to do: `+/_THREADS/desk-kit/` has no checkpoint; its untracked reports (`setup-note.report.md`, headed Rig › Mac Studio setup, and `cam-check` and `webcam-compare`, apparently KI > mics / webcams) need their owning thread found and THREADS-CLEAR passed on; Rig: chezmoi gets its THREADS-CLEAR line when its session rests.
 
 ## Objective

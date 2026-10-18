@@ -26,6 +26,7 @@ Resume line: Resume Knowledge Islands Model: knowledge-acquisition under current
 
 **Messages from Master: state-of-play** - the receiving thread acts on each line, then removes it.
 
+- 2026-10-18 · FIRST-STEP · Master: state-of-play, carrying RUN-HYGIENE from ways of working's READY of 17 October: "each thread fixes its checkpoint form and adds role on its FIRST-STEP line at restart". Before launching work, bring this checkpoint to the current ki-checkpoint and ki-pmo form; its `role` is already set · [restart report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/restart.report.md)
 - 2026-10-18 · DISPATCH-HANDOVER · Master: state-of-play, on Kris's handover of 18 October from Personal > SoP: "this is something that we need to bring over into knowledge acquisition on another project". Personal has retired Acquire > Dispatch; four items (ChatGPT exports refresh, MS3 receipt questions, ChatGPT Personal README routing, stale acquire pointers) and the dispatch Activity come to this Project. No item is approved for pulling, provider action or cleanup until this thread decides; fetch Personal and acquire first, as this host does not yet show the retirements. MS3-SPLIT waits on Kris · Kind: handover · detail: [handover](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/state-of-play/personal-acquire-handover.md), [routing report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/state-of-play/dispatch-handover.report.md)
 
 ## Objective
