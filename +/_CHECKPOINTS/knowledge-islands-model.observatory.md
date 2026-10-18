@@ -5,7 +5,7 @@ label: 'KI > Knowledge Islands model > Observatory'
 role: coordination
 state: active
 created_at: 2026-10-13T23:50:00Z
-updated_at: 2026-10-18T01:21:00Z
+updated_at: 2026-10-18T01:27:13Z
 ---
 
 # knowledge-islands-model.observatory
@@ -24,9 +24,9 @@ Kris folded Command centre into this Project on 2026-10-18 (OBS-OWNER), so the c
 
 ## Current state
 
-- Mark: 2026-10-18T00:39:40Z (01:39 BST, struck on Kris's resume instruction of 18 October).
+- Mark: 2026-10-18T01:27:13Z (02:27 BST, struck at the hold Kris asked for on 18 October).
 - ki-pmo read at b7ab7eff.
-- **Running.** obs-sessions, launched at restart for unit 1, the Sessions and threads Instrument (FIRST-STEP, OBS-NOW and OBS-SLICE of 18 October).
+- **Running.** Nothing.
 - **Roadmap.** In the last stock-take, one triage record, [KI-OBSERVA-VIS-021](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-021-explain-tool-storage.md), and the 16 October Personal repository-manager intake under the repository's `+/` folder. Units 1 to 3 are not yet records; obs-sessions is shaping unit 1.
 - **The app.** Twelve Instruments, a Beacon, governed Git operations, read-only Knowledge Base and Documents reading, and a Rig-managed login service running under launchd on each host at `127.0.0.1:1675`; the tab icon is on `origin/main`.
 - **KI-OBSERVA-INT-002 accepted.** Kris reviewed it in the Observatory and in Cowork and passed it (Decision 160). Closed as done in `0cf59ec` ([record at that commit](https://github.com/knowledgeislands/apps-observatory.local/blob/0cf59ec/docs/roadmap/KI-OBSERVA-INT-002-portable-live-artifact-interface.md)) and pruned in `74a0eea`; the ChatGPT publication server and a confirmed write operation sit under Gaps in `docs/specs/artifacts.md`.
