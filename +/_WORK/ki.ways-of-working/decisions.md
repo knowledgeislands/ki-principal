@@ -310,3 +310,9 @@ Read back, all a):
 - GRANT-WORDING a) - both grant texts approved as drafted; a harness run adopts them under KI-HARNESS-GOV-201.
 - OTHER-TERRITORY-RENAME a) - after v0.11.2, one run changes the two skill names in the seven other-territory `.ki.toml` files, checks `ki repo repair`, commits only that file and pushes. Authority for those seven repositories covers this change only.
 - MARK - struck now (11:06 BST). Kris returns in about 10 minutes for a full summary since this mark.
+
+## 2026-10-18 11:14 BST - owner message, quiet output for the other mgit commands
+
+> By the way, the changes that you've made to the mgetst are amazing, so that's exactly what we need to do for the rest of the commands that I run. I'm not sure what to do about mgit st because effectively that's an alias over some other command that I run as well, so does mgit start to learn from it or do we have a set of things that we agree are standard responses. How do we deal with that? Is that some kind of config that gets stored alongside mgit in its xdg location?
+
+Read back: MGIT-ST-QUIET accepted as exactly right. Kris wants the same for every command he runs through mgit, and asks how mgit should know what counts as no news: learning, an agreed set of standard responses, or configuration in mgit's XDG location. Raised as MGIT-QUIET-RULES with a recommendation; nothing launched until answered.
