@@ -385,3 +385,11 @@ Kris, 18 October:
 > Can I also suggest that any common params and handling that are unix / linux standards are captured in the `ki-tools` skill so that can act as design guidance.
 
 Read back as taken: CLI-CONVENTIONS - the Unix and Linux conventions for common flags and handling (for example `-L`/`-P`/`-H` for symbolic links, `-h`/`--help`, `--version`, `-v`/`-q`, `-n`/`--dry-run`, `-f`, `-r`/`-R`, `--` ending options, `-` for standard input, exit codes, standard output versus standard error, `NO_COLOR`, XDG directories) become design guidance in the harness skill that owns command-line tool design. No skill named `ki-tools` exists in ki-agentic-harness; the run folds the guidance into the existing owner (for example `ki-engineering`) and raises a query if a separate `ki-tools` skill looks better. It starts after mgit-learn, reusing its research.
+
+## 2026-10-18 18:08 BST - owner correction, CLI conventions home
+
+Kris, 18 October:
+
+> I meant the `ki-repo-tools` skill then
+
+Read back as taken: CLI-CONVENTIONS goes into `ki-repo-tools` as a reference linked from its SKILL.md; the queued cli-conventions brief is corrected and no KI-TOOLS-SKILL query is raised.
