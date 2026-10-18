@@ -29,6 +29,7 @@ created_at: 2026-10-13T23:50:00Z
 - Open with Kris: OBS-REVIEWS (review KI-OBSERVA-VIS-023 and KI-OBSERVA-VIS-024 now the service is restarted).
 - 20:39 BST coordinator slip: a push to settle PUSH-STACK also carried three other sessions' commits (`71f6fce`, `ce88d3c`, `12604ab`, ki.ways-of-working and others) fast-forward to origin; told to Kris. obs-extensions (`42e1e77`) redrew the Mermaid diagram before the NO-MERMAID steer reached it; left in place, pending DIAGRAM-STANDARD. Open with Kris from it: EXT-MODEL, EXT-ROOTS.
 - DESIGN-APPLY: obs-design-plan plans the ki-design handoff in the Observatory roadmap after obs-hosts; show Kris the plan before any build.
+- obs-feedback done: KI-OBSERVA-BRG-002 Awaiting review, send switched off (`ffb5e50`, `d38fe63`, pushed); service restarted 21:00 BST. obs-hosts done: KI-OBSERVA-VIS-029 in triage (`19b0fa7`, pushed). With Kris to review: KI-OBSERVA-VIS-023, KI-OBSERVA-VIS-024, KI-OBSERVA-BRG-002.
 
 ## Messages
 
