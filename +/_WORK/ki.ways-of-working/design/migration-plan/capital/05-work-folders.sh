@@ -137,7 +137,7 @@ done < <(rows)
 
 say "Retire the old areas"
 for old in +/_CHECKPOINTS +/_THREADS; do
-  left=$(find "$old" -mindepth 1 -not -name README.md -not -name .DS_Store 2> /dev/null | head -1)
+  left=$(find "$old" -mindepth 1 -not -name README.md -not -name .DS_Store 2> /dev/null | head -1 || true)
   if [ "$MODE" = apply ] && [ -z "$left" ]; then
     [ -e "$old/README.md" ] && remove "$old/README.md"
   else
