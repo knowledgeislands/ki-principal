@@ -960,3 +960,9 @@ Acted on: run migrate-phase1 (ki-agentic-harness), which first folds these answe
 Kris, as received: "Hold on."
 
 Taken as: wait for more from Kris; no agent named, so migrate-phase1 keeps running unless Kris names it and says stop.
+
+## 2026-10-18 02:23 BST - RUN-SHAPE (ideation)
+
+Kris, as received: "One of the problems at the minute is that we're making changes still in Knowledge Islands and are asking the other threads to effectively put their tools down so that you can do your migration. Do you think it's worthwhile? I think it probably is, by the way, you structure in the repositories as you intend them to be. And then once you've done that, we will probably send a prompt on to these other projects to pick up, and that way you don't have to deal with migrating or handling migrations, and they can just do a consolidated piece of work to get in line with the ways of work along with whatever else they're doing. So, what do I mean by that? I mean, for example, once you've done the changes you need to do, we can then send a hand off prompt to the observatory in the tools burn down threads so they can bring themselves in line with this because I'm sure that we'll need some tools aligning with it. Of course because there will be staple and everything will be stored and stayed, it's also entirely possible that we just do it all through your thread and you can make any changes you want to as well to those projects that bring them in line with everything. Maybe it's safer just to say everyone's got the tools down and then you organise everyone move into these new ways of working so that effectively everything can come back up again after that, and you prioritise the work that they need to do to make it happen."
+
+Taken as ideation; counsel given as RUN-SHAPE, nothing acted on. migrate-phase1 continues.
