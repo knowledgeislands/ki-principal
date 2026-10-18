@@ -1135,3 +1135,9 @@ Taken as: a last run, morning-summary, after check-pass, writes the overnight su
 Kris, as received: "Please, for the love of God as well, do your commits as you go. It's important, and you can push when you get to good points. So, when I come back, what should I expect to see?"
 
 Taken as: every run commits each finished step by explicit path as it goes and pushes fast-forward at good points; the thread commits and pushes its own log at once. Added to every queued brief.
+
+## 2026-10-18 04:25 BST - MAIN-NOT-WORKTREES
+
+Kris, as received: "How's it going with merging the checkpoints and threads into work? I can still see checkpoints and threads, for example in the principal repository. Are you just working on work trees? I mean no one else is working on the stuff that much, so you should be able to just work on the main."
+
+Taken as: every run works in the main checkout, not a worktree. The move itself is migrate-apply, queued behind the 0.10.6 release as Kris chose in APPLY-TRIGGER ("After release").
