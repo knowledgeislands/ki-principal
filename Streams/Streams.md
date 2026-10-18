@@ -24,6 +24,6 @@ Streams are Knowledge Islands Principal's operational container for knowledge in
 
 ---
 
-## Initiatives
+## Themes
 
-[[Themes]] holds one note per long-lived Initiative, named by its slug, which its Projects and projectless records name. Each note gives its direction and Notes for ideas, context and the projectless upkeep it carries; it lists neither its Projects nor their records or Activities, and carries no dated review or status section.
+[[Themes]] holds one theme page per long-lived theme, named by its slug, which its Projects, projectless records and Activities name. Each page gives a Direction section, saying why it is a theme, what matters, its direction and the guidance common to its work, and Notes for ideas and context; it lists neither its Projects nor their records or Activities, and carries no lifecycle, lead, dated review or status section.

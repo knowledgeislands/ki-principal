@@ -3,9 +3,7 @@ note_type: streams/theme
 slug: model
 title: Model
 direction: Define what a Knowledge Island is and how islands are tended, trade, take in outside knowledge, and are specified and presented.
-lifecycle: active
-lead: Kris Brown
-updated: 2026-10-18T00:14:17Z
+updated: 2026-10-18T03:32:46Z
 author: Written with Claude
 ---
 
@@ -13,14 +11,12 @@ author: Written with Claude
 
 ## Direction
 
-What a Knowledge Island is and how islands work together: the model and its tending practice, trade between islands, how outside knowledge comes in, and how the model is specified and presented to others. Knowledge Islands Principal, as Capital, owns most of it. The tooling that checks and serves islands belongs to [[Themes/foundations|Foundations]].
+The Model is a theme because the idea of a Knowledge Island runs under almost everything the territory does: what an island is, how it is tended, how islands trade with one another, how outside knowledge comes in, how the model is specified and how it is presented to others. What matters most is that the model stays one coherent account, written down in the Capital's [[Pillars/Philosophy/Philosophy|Philosophy]] and enforced by the harness standards, so that every island can be read and checked the same way.
+
+Knowledge Islands Principal, as Capital, owns most of the work under this theme. Work under it changes canonical content through the [Enactment Process](<../../Admin/Operations/Processes/Enactment Process.md>), keeps the work model in the [Work Process](<../../Pillars/Philosophy/Model/Processes/Work Process/Work Process.md>) note as its single description, and records lasting choices as Decision Records, such as [[ADR-KI-PRINCIPAL-002-territory-derived-repository-selection|ADR-KI-PRINCIPAL-002]] for territory-derived repository selection. The tooling that checks and serves islands belongs to [[Themes/foundations|Foundations]].
 
 ---
 
 ## Notes
 
-- **Recurring work.** This Initiative is the home of Knowledge Islands Principal's recurring island upkeep: tending the island, the daily briefings and the day-type schedule they run on, with component `operations` and purpose `upkeep`. It also carries the periodic review of the territory's hold on new trades. Each recurring definition names this Initiative, which never completes, so the work needs no Project. Paused placeholder Activities spawn no runs and need no home.
-- Knowledge Islands Principal's finite model and tending work belongs to a Project.
-- How Kris works with master and Project threads, background agents and the tools belongs to the [[ways-of-working]] Project.
-- The Observatory as the operations centre for one or more territories, including the read-only state-of-play view, belongs to the [[observatory|Observatory]] Project, which absorbed Command centre on 2026-10-18; cross-territory vocabulary belongs to [[ways-of-working]].
-- The territory-selection design papers sit in this Initiative's [[knowledge-islands-model/design/design|design folder]] until [[ADR-KI-PRINCIPAL-002-territory-derived-repository-selection|ADR-KI-PRINCIPAL-002]] consolidates them.
+- The island's recurring upkeep, tending, briefings and the day-type schedule, carries this theme as its label; each Activity names its home.

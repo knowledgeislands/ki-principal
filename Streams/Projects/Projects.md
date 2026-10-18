@@ -8,15 +8,15 @@ author: Written with Claude
 
 ## Overview
 
-This folder is the Knowledge Islands territory's Project registry, held by Knowledge Islands Principal as Capital. A Project is a finite outcome with a lead, a target and a `lifecycle` (`planned`, `active`, `paused`, `completed` or `cancelled`); the Initiative is the long-lived direction it serves, held in the sibling [[Themes]] folder. Each Project note is named by its slug, so a work record's `project` value resolves to a path here.
+This folder is the Knowledge Islands territory's Project registry, held by Knowledge Islands Principal as Capital. A Project is a finite outcome with a lead, a target and a `lifecycle` (`planned`, `active`, `paused`, `completed` or `cancelled`); it may carry a theme, the long-lived direction it serves, held in the sibling [[Themes]] folder. Each Project note is named by its slug, so a work record's `project` value resolves to a path here.
 
-Links point upwards only: a work record names its Project, and a Project names its Initiative. A Project note carries its outcome and notes - ideas and context worth keeping - and lists no records; status lives in each record and in the note's `lifecycle`, and `ki` produces the views. Membership is classification, not authority: each owning repository keeps its plan, priority and acceptance. Work that never finishes, such as standards upkeep and workstation hygiene, is projectless and described under its Initiative. "Project" here means a registry entry, not the `project` repository shape.
+Links point upwards only: a work record names its Project, and a Project names its theme. A Project note carries its outcome and notes - ideas and context worth keeping - and lists no records; status lives in each record and in the note's `lifecycle`, and `ki` produces the views. Membership is classification, not authority: each owning repository keeps its plan, priority and acceptance. Work that never finishes, such as standards upkeep and workstation hygiene, is projectless and names its theme directly. "Project" here means a registry entry, not the `project` repository shape.
 
 ---
 
-## Initiatives
+## Themes
 
-[[Themes]] is the sibling folder holding one note for each Initiative. Each Initiative note states its direction and the context worth keeping about it.
+[[Themes]] is the sibling folder holding one page for each theme. Each theme page states why it is a theme, its direction, the guidance common to its work and the context worth keeping about it.
 
 ---
 
@@ -76,7 +76,7 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## Mac Studio setup
 
-[[mac-studio-setup]] brings Kris's Mac Studio, unused for over a month, back to full estate capability: chezmoi, Rig, Homebrew `ki`, the workspace and an agent runtime, so any thread can resume there. It sits under [[Themes/rig|Rig]] because the Mac Studio is a workstation.
+[[mac-studio-setup]] brings Kris's Mac Studio, unused for over a month, back to full estate capability: chezmoi, Rig, Homebrew `ki`, the workspace and an agent runtime, so any thread can resume there.
 
 ---
 
@@ -94,13 +94,13 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## Roadmap model
 
-[[roadmap-model]] moves the territory's work records onto the roadmap model - classification by kind, purpose, Project or Initiative and component in place of themes - and finishes when the roadmap checker enforces it.
+[[roadmap-model]] moves the territory's work records onto the roadmap model - classification by kind, purpose, Project or theme and component in place of the former free-form themes - and finishes when the roadmap checker enforces it.
 
 ---
 
 ## Secrets hygiene
 
-[[secrets-hygiene]] organises Kris's 1Password vaults by a clear layout and precedence, has chezmoi read secrets through one logical-name map from a dedicated `Rig` vault with a pre-apply reference check, and keeps it that way with a monthly triage. It sits under [[Themes/rig|Rig]] because those secrets are part of the workstation.
+[[secrets-hygiene]] organises Kris's 1Password vaults by a clear layout and precedence, has chezmoi read secrets through one logical-name map from a dedicated `Rig` vault with a pre-apply reference check, and keeps it that way with a monthly triage. Those secrets are part of the workstation.
 
 ---
 

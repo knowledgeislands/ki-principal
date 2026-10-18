@@ -3,9 +3,7 @@ note_type: streams/theme
 slug: foundations
 title: Foundations
 direction: Keep a solid, shared base under every island - the `ki` toolchain, the harness standards and a clearly owned estate.
-lifecycle: active
-lead: Kris Brown
-updated: 2026-10-16T00:00:47Z
+updated: 2026-10-18T03:32:46Z
 author: Written with Claude
 ---
 
@@ -13,13 +11,14 @@ author: Written with Claude
 
 ## Direction
 
-The shared base every island stands on: the `ki` toolchain and its baseline, the harness standards and rubrics, the roadmap model, and the factorisation of the estate into clearly owned repositories. It covers how work is recorded, checked and released across the territory. Agent hosting and the agent fleet belong to [[Themes/techne|Techne]]; the workstation itself belongs to [[Themes/rig|Rig]]; what an island is belongs to the [[Themes/model|Model]].
+Foundations is a theme because every island stands on the same base: the `ki` toolchain and its baseline, the harness standards and rubrics, the roadmap model, and the factorisation of the estate into clearly owned repositories. It covers how work is recorded, checked and released across the territory. What matters is that the base is accurate and dependable, so that an island can trust what `ki` and the audits tell it.
+
+Common guidance: change a standard and its checker together; release `ki` through its own release process and the Homebrew tap; keep each repository's ownership clear, so that no repository writes into another's canonical content. Standards upkeep keeps the harness standards, rubrics and `ki` tooling accurate and never finishes, so its records name this theme directly, usually with `purpose: upkeep`. The roadmap model is recorded in [[GDR-KI-PRINCIPAL-005-the-roadmap-model|GDR-KI-PRINCIPAL-005]].
+
+Agent hosting and the agent fleet belong to [[Themes/techne|Techne]]; the workstation itself belongs to [[Themes/rig|Rig]]; what an island is belongs to the [[Themes/model|Model]].
 
 ---
 
 ## Notes
 
-- **Projectless upkeep.** Standards upkeep keeps the harness standards, rubrics and `ki` tooling accurate and never finishes, so its records name this Initiative directly. It is mostly harness standard and audit refinements and `tools-ki` roadmap and rubric fixes, plus the harness's recurring housekeeping reviews.
-- **Recurring work.** This Initiative is the home of the estate's recurring engineering upkeep: each repository's regular review, which includes consolidating its Decision Records, and the harness housekeeping reviews of engineering alignment, knowledge reconciliation and the weekly model and agentic radars. Each recurring definition names this Initiative, which never completes, so the work needs no Project.
-- **Tools burndown.** [[tools-burndown|Tools burndown]] burns the `tools-ki`, `tools-mgit` and `tools-git-almanac` roadmaps and the CLI-shaped harness records down to zero, ending with the `ki` and `mgit` releases.
-- The roadmap model and its refinements are recorded in [[GDR-KI-PRINCIPAL-005-the-roadmap-model|GDR-KI-PRINCIPAL-005]].
+- The estate's recurring engineering upkeep, each repository's regular review and the harness housekeeping reviews, carries this theme as its label; each housekeeping record names it.
