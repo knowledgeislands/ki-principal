@@ -377,3 +377,11 @@ Read back as taken:
 - MARK - mark struck at 18:04 BST (2026-10-18T17:04:25Z); the reports kept for review from the 11:06 BST mark may now be pruned under the work-folder rules.
 - MGIT-LEARN-FLAG a) - learning is the subcommand `mgit learn <command>`, with no short flag; `-L` and `-P` keep their Unix symbolic-link meanings. Sent to the running mgit-learn run.
 - GLYPH-OWNER a) - Kris appears as 👤 everywhere; any other target becomes 🎯. One run updates the ki-coordination standard, the Work Process note (owner instruction under the Enactment Process), the ki-coordinator output style and every other place the glyphs are printed.
+
+## 2026-10-18 18:07 BST - owner suggestion, CLI conventions
+
+Kris, 18 October:
+
+> Can I also suggest that any common params and handling that are unix / linux standards are captured in the `ki-tools` skill so that can act as design guidance.
+
+Read back as taken: CLI-CONVENTIONS - the Unix and Linux conventions for common flags and handling (for example `-L`/`-P`/`-H` for symbolic links, `-h`/`--help`, `--version`, `-v`/`-q`, `-n`/`--dry-run`, `-f`, `-r`/`-R`, `--` ending options, `-` for standard input, exit codes, standard output versus standard error, `NO_COLOR`, XDG directories) become design guidance in the harness skill that owns command-line tool design. No skill named `ki-tools` exists in ki-agentic-harness; the run folds the guidance into the existing owner (for example `ki-engineering`) and raises a query if a separate `ki-tools` skill looks better. It starts after mgit-learn, reusing its research.
