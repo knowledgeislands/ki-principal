@@ -1,6 +1,6 @@
 ---
 note_type: admin/governance/decision
-updated: 2026-10-14T23:45:00Z
+updated: 2026-10-18T02:30:00Z
 status: current - October 2026
 ---
 
@@ -45,3 +45,7 @@ Arcadia maintains these engineering decisions, adopted from the retired Techné 
 ## Estate decisions
 
 1. [GDR-KI-PRINCIPAL-008](GDR-KI-PRINCIPAL-008-capital-naming.md) - Capital Naming
+
+## Work decisions
+
+1. [GDR-KI-PRINCIPAL-009](GDR-KI-PRINCIPAL-009-the-work-model.md) - The work model

@@ -13,7 +13,7 @@ author: Written with Claude
 
 Processes are how governance is carried out in practice. Within the Model act, this chapter holds the active procedures that move knowledge from an idea to accepted content, as distinct from the conventions that describe what accepted content looks like. They are what give an island's council authority a concrete form.
 
-The chapter has three processes. One governs change within an island; one governs how knowledge passes between a territory and the shared Knowledge Islands model; one describes how external material is acquired and harvested. Both preserve the authority of whoever owns the receiving knowledge.
+The chapter has four processes. One governs change within an island; one governs how knowledge passes between a territory and the shared Knowledge Islands model; one describes how external material is acquired and harvested; one describes how coordinated work moves between the people and agents doing it. Each preserves the authority of whoever owns the receiving knowledge.
 
 Start with [[How Change Happens]], the narrative chapter note, before reading either process in detail.
 
@@ -40,3 +40,9 @@ Start with [[How Change Happens]], the narrative chapter note, before reading ei
 ## Acquisition Process
 
 [[Acquisition Process/Acquisition Process|Acquisition Process]] describes the provider-neutral lifecycle by which material from AI sessions, meetings and other external sources is discovered, acquired, staged, harvested into durable knowledge and eventually retired from its transient source. It tabulates the provenance each source actually provides, records the harvest checkpoint as observed, and states that the archive and deletion threshold is still undecided. Read it when working on acquisition adapters or harvesting captured material.
+
+---
+
+## Work Process
+
+[[Work Process/Work Process|Work Process]] is the canonical description of the work model that GDR-KI-PRINCIPAL-009 decides: territory work, regular work and Project work, and the work items beneath them; the worker and supervisor roles; the seven states, with On hold and its two reasons; the words; the working-area folders and Git as the logbook; the decisions life cycle; the banner; and the fields the Observatory reads. Read it when coordinating, delegating or reporting on work; the harness skills cite it rather than restate it.
