@@ -1,15 +1,84 @@
-# Live artifacts across the territories, and what comes into the Observatory first
+# Live artifacts as extensions of the Observatory
 
-A read-only inventory of the live artifacts built across the estate, taken on 18 October 2026 for OBS-ARTIFACTS a), and a proposed order for bringing them into the Observatory. Kris's words that started it: "I really want to get the live artifacts that we've had built over the different various purposes to sort of consolidate a lot of those into the observatory too." Nothing here is decided; Kris decides from the proposal under OBS-ARTIFACTS-ORDER.
+The live artifacts built across the estate, and how each becomes a natural extension of the Observatory while staying its own thing. The inventory was taken read-only on 18 October 2026 for OBS-ARTIFACTS a). The first proposal absorbed artifacts into Instruments and retired Kit Git Repo Audit; Kris withdrew it the same day under ARTIFACTS-EXTEND: "Kit Git Repo Audit is far richer though, and I'd much prefer it over the basic tool in the observatory. Really, we want Live Artifacts to be natural extensions of the Observatory rather than something inside it." OBS-ARTIFACTS-ORDER is superseded. Nothing here is decided, and this note captures no records.
 
-## What the Observatory can take today
+## The extension model
 
-Two routes exist, and they set the order.
+An **extension** is a live artifact that its own repository owns, authors and changes, that runs wherever its data can be reached, and that declares which part of the Observatory it extends. The Observatory does not take it in, restyle it or reimplement it. It finds the extension, links to it from the view it extends, frames it where it can answer the extension's reads, and says plainly where it cannot. Five units carry the model; each names its boundary and what it hands on.
 
-- **Instrument.** A view the Observatory renders itself from observed evidence behind a typed backend port, sharing the design language and feeding the Beacon. Any data source can sit behind a port, but it costs product work in `apps-observatory.local`.
-- **Portable live-artifact interface** (the Artifacts Instrument, OBS-ART, PDR-KI-OBSERVA-006). It frames a Knowledge Base's pair unchanged, but only a pair directly under `Admin/Operations/Live Artifacts/` whose Markdown declares `artifact_bridge: 1`, `artifact_id` and `artifact_tools` (OBS-ART-001), and it answers only the read tools it reproduces, which today means `mcp-ki-kb-fs` `kb_list` and `kb_read` (OBS-ART-005, OBS-ART-006). Reads under `+/` or `-/` are refused. It calls no LLM and no provider MCP (OBS-ART-008).
+### 1. Registration: the manifest
 
-So an artifact that reads only its own Knowledge Base outside `+/` can be shown portably for the cost of a manifest. One that reads Linear, Slack, Microsoft 365, a calendar or a local MCP server other than `mcp-ki-kb-fs` cannot be served portably, and only comes in as an Instrument or not at all.
+The Markdown half of the pair stays the extension's only declaration. Today's manifest (OBS-ART-001) already names `artifact_bridge`, `artifact_id`, `artifact_tools` and `artifact_servers`. The extension model adds three keys, all optional so that every pair offered today stays offered:
+
+| Key | Says | Example |
+| --- | --- | --- |
+| `artifact_extends` | The Instruments it extends, by Instrument id | `[repositories]` |
+| `artifact_subject` | What it observes: its own Knowledge Base, the selected scope, or this machine | `machine` |
+| `artifact_runs` | The hosts it is written for: `observatory`, `cowork`, or both | `[observatory, cowork]` |
+
+Discovery stays where the `ki-repo-kb-live-artifacts` standard puts the pair: directly under `Admin/Operations/Live Artifacts/` in a Knowledge Base the selected scope holds, with the Markdown and HTML sharing a stem. Several personal and HNR artifacts sit instead in a `Pillars/.../Integrations/Claude/Live Artifacts/` folder, and Kit Git Repo Audit's halves do not share a stem (`Kit Git Repo Audit Artifact.md` beside `Kit Git Repo Audit.html`). Each such artifact registers by moving its pair, which is its own repository's change; the Observatory gains no second discovery rule.
+
+- Boundary: the owning repository writes the manifest; the Observatory only reads it and refuses what does not parse, by name and reason, as now.
+- Hands on: a validated list of extensions, each with the Instruments it extends, to navigation.
+
+### 2. Navigation both ways
+
+From the Observatory to the extension. An Instrument that an offered extension names shows it in the Instrument's own header as **Extended by** with the extension's title and the host it runs in, so a reader on Repositories sees "Kit Git Repo Audit" without hunting for it. A Beacon row raised by that Instrument carries the same link in its detail. The Artifacts view becomes the directory of every extension in scope, grouped by the Instrument each extends, including those that run only in Cowork, which are listed with where they run and why they do not open here.
+
+From the extension to the Observatory. An extension links back to the Observatory address of the view it extends, which the shell already makes stable: `?scope=<scope>&view=<instrument>` with the Instrument's grouping and filters. Inside the Observatory's opaque-origin frame a page cannot open a window (OBS-ART-003), so the link travels as a host request over the MCP Apps wire, which the host answers only for its own addresses by moving the page itself; in Cowork the same link is a plain loopback address. Which MCP Apps request carries it is to be checked against SEP-1865 when shaped.
+
+- Boundary: the Observatory draws the links on its side and answers navigation requests; the extension authors its own back-links.
+- Hands on: nothing new to the backend; navigation is page-side.
+
+### 3. Shared look and identity
+
+The Observatory's identity is derived from `ki-website` and held by digest (PDR-KI-OBSERVA-002). An extension reads as part of the Observatory when it uses the same tokens: paper, ink, muted, ocean, forest, gold and rust in both themes, the meaning roles `--accent`, `--ok`, `--warn` and `--bad` with their washes, and the system serif and sans stacks. The host hands them over at start: the answer to `ui/initialize` carries the current theme and the token values as host context, and the bridge sets them as custom properties on the frame's `:root`. An extension that reads `var(--ok, <its own value>)` looks native in the Observatory and keeps its own palette in Cowork, unchanged. The Observatory frame still loads no stylesheet from outside itself.
+
+- Boundary: the Observatory owns the token set and its digest; the extension chooses to read it.
+- Hands on: one host-context field in the bridge, versioned with it.
+
+### 4. Data access
+
+Three tiers, decided per tool by the manifest:
+
+| Tier | Reads | Answered by | Today |
+| --- | --- | --- | --- |
+| Portable | `mcp-ki-kb-fs` `kb_list` and `kb_read` over the extension's own Knowledge Base, outside `+/` and `-/` | The Observatory, natively from tracked files (OBS-ART-005, OBS-ART-006) | Conforming |
+| Own server | The extension's own local MCP server, such as `mcp-git-audit` or `mcp-housekeeping-claude` | The Observatory backend, through a typed port to the server it already reaches through mcporter, for the read tools the manifest declares | A listed gap in OBS-ART |
+| Provider or inference | Linear, Slack, Microsoft 365, calendars, `askClaude`, `runScheduledTask` | Cowork only | Answered unavailable (OBS-ART-008) |
+
+A write an extension asks for, such as Kit Git Repo Audit's commit or push, is refused in the Observatory until it can be carried out as a confirmed Bridge operation with a receipt, which OBS-ART already lists as a gap. The extension keeps its writes in Cowork in the meantime, and should show "not available here" rather than an empty result, as the bridge's typed errors allow.
+
+- Boundary: the backend owns every process and MCP call, and the browser still receives only typed answers; the extension owns its tool list.
+- Hands on: one backend port per own-server tier, each with its declared read tools.
+
+### 5. What runs where
+
+| Host | Runs on | Reaches | Suits |
+| --- | --- | --- | --- |
+| Observatory | This machine and each host, loopback only, under Rig's launchd service | Tracked files natively; local MCP servers through the backend; no LLM, no provider connector | Mechanical, read-only extensions; and, once ported, own-server reads |
+| Cowork | Claude Desktop on this machine | The MCP servers configured for Claude Desktop, claude.ai provider connectors, `askClaude` and scheduled tasks | Provider-fed and inference-led extensions, and every write until Bridge writes exist |
+| Published site | Static hosting | Nothing at view time | Catalogues and personal dashboards outside the estate's evidence |
+
+One HTML page runs in both live hosts unchanged (PDR-KI-OBSERVA-006). The Cowork artifact folder on this machine is empty, so a Cowork-only extension has to be re-saved into Cowork from its HTML half before it opens there again.
+
+## Built-in view or richer extension
+
+Where an extension covers ground an Instrument already covers, the Instrument stays as the floor and the extension becomes the preferred surface. The Instrument keeps what only it can do: it feeds the Beacon, degrades with a stated reason (OBS-ART-009 and each Instrument's degraded rule), records receipts for governed operations, and needs no LLM, no Cowork and no particular artifact to be present. It stops growing toward the extension: it links to the extension under Extended by, and new interactive depth goes into the extension's own repository.
+
+### Worked case: Kit Git Repo Audit and Repositories
+
+| | Repositories (Instrument) | Kit Git Repo Audit (extension) |
+| --- | --- | --- |
+| Scope | The selected scope's checkouts | Every repository under its declared roots, grouped by root, plus chezmoi |
+| Shape | Ranked table by what warrants attention, with history and raw status in detail | Heatmap by group, commit recency and branch state, expandable detail with diff |
+| Operations | Fetch dry run, fetch, fast-forward pull and push, each confirmed with a receipt | Fetch, pull, commit and push per repository and in bulk per group, with live progress |
+| Extras | Committed Archify diagrams; Beacon signals | Open in VS Code and GitHub Desktop; commit message suggested through `askClaude` |
+| Source | `git` directly, with the `mcp-git-audit` bridge for counts | `mcp-git-audit` throughout, at the server's `destructive` access level |
+
+Keep both. Repositories stays the Beacon's source and the governed, receipted path. Kit Git Repo Audit is the place Kris works from, and Repositories links to it. In the Observatory frame its scan, audit, detail and diff are own-server reads; its fetch, pull, commit and push wait for Bridge writes and stay in Cowork until then; its commit suggestion answers unavailable. The suggested message is a plain imperative line rather than a Conventional Commit, which its owner may want to change at the same time.
+
+**Fix for its owner, `personal-principal`.** The page's `ROOT_DEFS` still scans `~/workspaces/hnr` and `~/workspaces/kit`, which no longer exist, so in Cowork it finds no repository but chezmoi. The `mcp-git-audit` safe roots configured in chezmoi already list the eight territory roots, `~/workspaces/_external` and chezmoi, so the server needs no change: the fix is the artifact's own `ROOT_DEFS` and recipe, ideally read from the territory roots rather than written in. Moving the pair under `Admin/Operations/Live Artifacts/` with one stem and a manifest is the same change. Both are handoffs to `personal-principal`, not changes here.
 
 ## Inventory
 
@@ -48,66 +117,97 @@ The Knowledge Islands Principal artifact index says "None adopted yet". No live 
 
 These came up in the sweep and are not live artifacts in the sense meant here: the product dashboards in `hnr-backend` (CloudWatch, analytics and Grafana definitions are product code), the Lighthouse run reports in `hnr-benchmarks`, the 5G-EMERGE presentation slides and diagrams, the `ki-agentic-harness` skill-area diagrams (already readable through the Documents Instrument), and the review previews under `+/_THREADS/` in `hnr-principal`.
 
-## Proposal
+## The artifacts under the extension model
 
-| Order | Artifact | Route | Reason | Confidence |
-| --- | --- | --- | --- | --- |
-| 1 | HNR Council | Show portably, as now | Already offered and reads only its own Knowledge Base | High |
-| 1 | Legal Activity Status | Show portably, as now | Already offered and reads only its own Knowledge Base | High |
-| 1 | Legal Hearing Dashboard | Show portably, add a manifest in `legal-principal` | A manifest is the only gap; it reads only `kb_list` and `kb_read` | High |
-| 1 | Legal Command Centre | Show portably, add a manifest; drop the Session Threads tab | The Areas and Items view is legal-specific; the threads tab reads `+/`, which the host refuses, and Sessions covers threads | Medium - the tab may matter more to the legal owner than the record shows |
-| 1 | Kit Git Repo Audit | Retire as duplicated | Repositories already shows checkout health with governed fetch, pull and push, and the artifact still scans the old workspace roots | High |
-| 1 | Kit The Tower Dashboard | Retire the recipe | Already archived; the dashboard lives in `apps-tower.midnight.ninja` | High |
-| 2 | Estate Map, with Estate Targets | Absorb as an Instrument | Kris already approved it as an Observatory idea (ESTATE-MAP-OBSERVATORY, 16 October); the JSON is a ready machine source and the map is static, so a portable frame would add nothing | Medium - the editable read-back Kris asked for is a Bridge write, not yet designed |
-| 3 | HNR Streams Tracker | Retire once Sessions reads HNR Streams; until then move it under `Admin/Operations/Live Artifacts/` with a manifest | Sessions and Roadmap own themes, Projects and records; the tracker's priority pipeline is the one HNR-specific part | Medium - depends on whether the HNR pipeline buckets map onto Sessions |
-| 4 | Kit Claude Housekeeping | Absorb as an Instrument behind a backend port | Storage, memory and plugin health is this-machine evidence like MCP servers and Automation, and sits beside the token-economics view the Project already plans | Medium - large surface; could wait for the Sessions token work |
-| - | HNR Email Pulse, Architecture Tracker, Linear Open Issues Tracker, Slack Digest; Kit Week at a Glance | Leave in Cowork | They read provider connectors or need an LLM, which the Observatory's mechanical-first boundary keeps out | High |
-| - | GitHub Organisation Management | Leave where it is | A work list with no render; it belongs in Streams if anywhere | High |
-| - | `rig.midnight.ninja`, `tower.midnight.ninja` | Leave where they are | Separate published sites; the Rig Instrument already covers the operational side of the first | Medium - the Rig site may later be generated from the same evidence |
+Every artifact stays with the repository that owns it. Order 1 needs no product work; order 2 is the first Observatory unit, the extension model itself; later orders each wait on one named port or on Cowork.
 
-Each step lands in the repository that owns the artifact: manifests in `legal-principal` and `hnr-principal`, retirements as each island's own change, Instruments in `apps-observatory.local`. This note captures no records.
+| Order | Artifact | Extends | Tier and host | First step, and who owns it | Confidence |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Kit Git Repo Audit | Repositories | Own server; Cowork now, Observatory after the `mcp-git-audit` port | `personal-principal`: replace the stale `ROOT_DEFS` with the territory roots, give the pair one stem under `Admin/Operations/Live Artifacts/` with a manifest, re-save it into Cowork | High - the roots and the server's safe roots were checked directly |
+| 1 | HNR Council | Work, Sessions, Beacon | Portable; both | `hnr-principal`: add `artifact_extends` when the key exists; offered today | High |
+| 1 | Legal Activity Status | Automation | Portable; both | `legal-principal`: add `artifact_extends` when the key exists; offered today | High |
+| 1 | Legal Hearing Dashboard | None; a legal-only view listed in Artifacts | Portable; both | `legal-principal`: add the manifest | High |
+| 1 | Legal Command Centre | Work and Sessions, for its Session Threads tab | Portable for Areas and Items; the threads tab stays Cowork-only, since the host refuses `+/` | `legal-principal`: add the manifest, and have the tab say it is unavailable in the Observatory rather than drop it | Medium - the tab reads `+/_RESUME`, which the estate has since replaced with `+/_WORK` |
+| 2 | Extension model in the Observatory | All | - | `apps-observatory.local`: the three manifest keys, Extended by links, the Artifacts directory grouped by Instrument, host-context tokens, navigation requests | Medium - the MCP Apps request names are still to be checked |
+| 3 | Estate Map, with Estate Targets | Repositories and Trade routes | Portable: the static page reads `Estate Targets.json` through `kb_read`; both | `personal-principal`: add the Markdown half and manifest, and have the page read the JSON rather than embed it. The editable read-back Kris asked for under ESTATE-MAP-OBSERVATORY on 16 October waits for Bridge writes | Medium - the page must be changed to read rather than embed |
+| 3 | HNR Streams Tracker | Sessions and Roadmap | Portable; both | `hnr-principal`: move the pair under `Admin/Operations/Live Artifacts/` with a manifest; its priority pipeline stays HNR's own | High - it reads only `mcp-ki-kb-fs` |
+| 4 | Kit Git Repo Audit in the Observatory | Repositories | Own server | `apps-observatory.local`: a read port to `mcp-git-audit` for scan, audit, detail and diff; writes later as confirmed Bridge operations | Medium - the first own-server port sets the pattern |
+| 5 | Kit Claude Housekeeping | MCP servers and Sessions | Own server, `mcp-housekeeping-claude`, machine subject | `personal-principal`: move and manifest; then `apps-observatory.local`: a read port on the order 4 pattern | Medium - a large surface, and the server's reads touch private Claude state |
+| 6 | HNR Email Pulse, Architecture Tracker, Linear Open Issues Tracker, Slack Digest; Kit Week at a Glance | Listed in Artifacts only | Provider or inference; Cowork | Each owner: move and manifest with `artifact_runs: [cowork]`, so the Observatory lists them with where they run | High - nothing here crosses the Observatory's no-LLM, no-provider line |
+| - | Kit The Tower Dashboard recipe | None | None | Nothing; it is archived and `apps-tower.midnight.ninja` succeeded it | High |
+| - | GitHub Organisation Management | None | Markdown only | Nothing; a work list with no render, which belongs in Streams if anywhere | High |
+| - | `rig.midnight.ninja` | Rig | Published site | Link both ways between the Rig Instrument and the site; the site may later be generated from the same evidence | Medium |
+| - | `tower.midnight.ninja` | None | Published site | Nothing; personal and outside the estate's evidence | High |
+
+Each step lands in the repository that owns it, as a handoff through `ki-work-roadmap` when approved: manifests and moves in `personal-principal`, `hnr-principal` and `legal-principal`, the model and ports in `apps-observatory.local`.
+
+## Where the model forks
+
+### Fork 1 - data for an extension that needs its own server
+
+a) **The backend answers the declared read tools through mcporter (recommended).** Kit Git Repo Audit opens in the Observatory with its own page and live data; writes come later as confirmed Bridge operations. Cost: one typed port per server, each answer validated and stripped of paths the way OBS-ART-006 shapes `mcp-ki-kb-fs`; the Observatory's MCP surface widens by each server it serves.
+
+b) **Link out only.** The Observatory lists the extension and links to it; it runs in Cowork alone. Cost: almost no product work, but the extension never sits inside the Observatory's frame or look, needs Claude Desktop open, and has to be re-saved into Cowork's now empty folder first.
+
+c) **Pass every declared tool through, writes included, at the server's access level.** Cost: the least product work for full function, but it breaks the Bridge rule that every change shows its inputs, is confirmed and leaves a receipt, and puts `destructive` git operations one click from a framed page.
+
+### Fork 2 - what a built-in Instrument does beside a richer extension
+
+a) **The Instrument stays as the floor and links to the extension (recommended).** Cost: two views over the same ground, kept apart by role; the Instrument's interactive depth stops where it is.
+
+b) **The extension replaces the Instrument's tab when it is offered.** Cost: one place to look, but the Beacon loses that Instrument's signals unless the extension emits them through a new contract, and the view vanishes whenever the extension, its server or Cowork is missing.
+
+c) **The Instrument grows to match the extension.** Cost: the product work ARTIFACTS-EXTEND turned away, and two rich implementations to keep level.
+
+### Fork 3 - where an extension registers
+
+a) **In its own Knowledge Base, under `Admin/Operations/Live Artifacts/`, with the manifest (recommended).** Cost: moving the Integrations-folder pairs in `personal-principal` and `hnr-principal`, and giving Kit Git Repo Audit one stem.
+
+b) **Wherever the base's `.ki.toml` `artifacts_dir` declares.** Cost: no moves, but OBS-ART-001 changes, bases differ in where their artifacts live, and the `ki-repo-kb-live-artifacts` audit and the Observatory must read the same binding.
+
+c) **A registry in the Observatory's own configuration.** Cost: quickest to start, but the Observatory then owns knowledge about other repositories' artifacts, against its product boundary.
 
 ## Diagram
 
 ```mermaid
 flowchart LR
-  subgraph W1["Wave 1 - no product work"]
+  subgraph OWN["Owning repositories - each extension stays its own"]
     direction TB
-    C1["HNR Council<br/>hnr-principal"]
-    A1["Activity Status<br/>legal-principal"]
-    H1["Hearing Dashboard<br/>legal-principal<br/>+ manifest"]
-    CC["Command Centre<br/>legal-principal<br/>+ manifest, no threads tab"]
-  end
-  subgraph W2["Wave 2 - first new Instrument"]
-    EM["Estate Map + Estate Targets<br/>personal-principal"]
-  end
-  subgraph W3["Wave 3 - fold into Sessions"]
-    ST["HNR Streams Tracker<br/>hnr-principal"]
-  end
-  subgraph W4["Wave 4 - later Instrument"]
+    GA["Kit Git Repo Audit<br/>personal-principal<br/>fix roots, move, manifest"]
+    PORT["Portable now or by manifest<br/>HNR Council, Activity Status,<br/>Hearing Dashboard, Command Centre"]
+    LATER["Portable after a move<br/>Estate Map + Targets,<br/>HNR Streams Tracker"]
     HK["Kit Claude Housekeeping<br/>personal-principal"]
-  end
-  subgraph RET["Retire as duplicated"]
-    GA["Kit Git Repo Audit"]
-    TW["Kit Tower recipe"]
-  end
-  subgraph LEAVE["Leave where they are"]
-    PV["Provider-fed Cowork artifacts<br/>Email Pulse, Architecture, Linear,<br/>Slack Digest, Week at a Glance"]
-    GO["GitHub Organisation Management"]
-    SITES["rig and tower sites"]
+    COW["Cowork-only<br/>Email Pulse, Architecture, Linear,<br/>Slack Digest, Week at a Glance"]
   end
 
-  W1 -->|portable interface| ART(["Artifacts Instrument"])
-  EM -->|absorb| NEWI(["Estate Instrument"])
-  ST -->|retire into| SES(["Sessions and Roadmap"])
-  HK -->|absorb| NEWH(["Housekeeping Instrument"])
-  GA -.->|covered by| REP(["Repositories"])
-  TW -.->|lives in| SITES
-  CC -.->|threads covered by| SES
+  subgraph OBS["Observatory - apps-observatory.local"]
+    direction TB
+    MODEL{{"Extension model<br/>manifest keys, Extended by,<br/>tokens, navigation"}}
+    REP(["Repositories"])
+    ART(["Artifacts directory"])
+    WS(["Work, Sessions, Roadmap,<br/>Automation, Trade routes"])
+    MS(["MCP servers"])
+    BEA(["Beacon"])
+  end
 
-  ART --> OBS{{"Observatory"}}
-  NEWI --> OBS
-  SES --> OBS
-  NEWH --> OBS
-  REP --> OBS
+  CW["Cowork<br/>Claude Desktop"]
+
+  PORT -->|"1 manifest, portable reads"| MODEL
+  LATER -->|"3 move, portable reads"| MODEL
+  GA -->|"1 runs in"| CW
+  GA -->|"4 mcp-git-audit read port"| MODEL
+  HK -->|"5 housekeeping read port"| MODEL
+  COW -->|"6 runs in"| CW
+  COW -.->|"6 listed only"| ART
+
+  MODEL --> ART
+  MODEL -->|"Extended by"| REP
+  MODEL -->|"Extended by"| WS
+  MODEL -->|"Extended by"| MS
+  REP --> BEA
+  WS --> BEA
+  MS --> BEA
+  REP -.->|"links to"| GA
 ```
+
+Solid arrows are the order's steps, numbered by order; dotted arrows are links, not data. The Beacon takes signals from Instruments only, never from an extension.
