@@ -357,3 +357,23 @@ Read back as taken:
 - CHANNEL-TELEMETRY - a), with an evaluation of ntfy against alternatives before KI-TOOL-KI-CLI-123 phase 2 commits to it; telemetry deferred.
 - GLYPH-OWNER - no decision on a profile glyph survives in this log since the prune; the standard prints 🧑 for Kris and 👤 for other targets. Query GLYPH-OWNER; Git history to be searched.
 - RESTARTS - Kris may send Tools burndown and Observatory now; chezmoi after threads-fix has moved its stray report.
+
+## 2026-10-18 18:04 BST - owner answers, MGIT-LEARN-FLAG and GLYPH-OWNER; mark
+
+Kris, 18 October:
+
+> Take a mark at this point.
+>
+> MGIT-LEARN-FLAG
+>
+> Agreed, `mgit learn` is the right approach.
+>
+> GLYPH-OWNER
+>
+> As recommended
+
+Read back as taken:
+
+- MARK - mark struck at 18:04 BST (2026-10-18T17:04:25Z); the reports kept for review from the 11:06 BST mark may now be pruned under the work-folder rules.
+- MGIT-LEARN-FLAG a) - learning is the subcommand `mgit learn <command>`, with no short flag; `-L` and `-P` keep their Unix symbolic-link meanings. Sent to the running mgit-learn run.
+- GLYPH-OWNER a) - Kris appears as 👤 everywhere; any other target becomes 🎯. One run updates the ki-coordination standard, the Work Process note (owner instruction under the Enactment Process), the ki-coordinator output style and every other place the glyphs are printed.
