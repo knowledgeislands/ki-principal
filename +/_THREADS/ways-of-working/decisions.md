@@ -1103,3 +1103,9 @@ Taken as: hand tools-burndown back now rather than after the Capital apply. Wrot
 Kris, as received: "BRINGUP-PROJECT"
 
 Taken as unclear: the tag alone, no option. A prompt was offered and closed without an answer; asked in one line.
+
+## 2026-10-18 04:04 BST - ONE-PROJECT (answers BRINGUP-PROJECT)
+
+Kris, as received: "I'm really confused. You're the ways of working and tools breakdown has been paused from what I can understand and everything's been committed and pushed. So I think we just need one project to move all of your ways of working rollouts through and thought that you were going to do that."
+
+Taken as: every part of the ways-of-working rollout runs through this project (ki.ways-of-working), including the tools-ki follow-on items - BRINGUP-PROJECT answered b). Tools burndown stays paused; its FIRST-STEP line waits in its checkpoint and the resume prompt is used only when Kris chooses to restart it. No more routing questions to Kris.
