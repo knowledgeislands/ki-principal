@@ -39,7 +39,7 @@ The Port absorbs the Harbour's meaning of "integration point". The Harbour is re
 
 - The Symbol Library, Visual Style, Structure, The Home of Knowledge and the Philosophy notes that name the island's places use the Port, and the Lighthouse and Council Hall with their separate meanings.
 - Earlier Decision Records and roadmap records keep their Harbour wording as a historical record; read "Harbour" in them as the Port under this record.
-- The KI Website and `ki-design` switch their Harbour wording to the Port and mark the Port, its four modes, the Lighthouse and the Council Hall as canon.
+- The KI Website and `ki-design` switch their Harbour wording to the Port and mark the Port, its four modes, the Lighthouse and the Council Hall as official.
 - How `Admin/Operations` is drawn stays open in `ki-design` until a later decision.
 
 ## References
