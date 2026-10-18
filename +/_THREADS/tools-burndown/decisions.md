@@ -218,3 +218,7 @@ Kris: "We're going to do some quite big updates for "ways of working". So I thin
 ## 2026-10-18 02:40 BST - MAINLINE-NOW
 
 Kris, on the tools-mgit and tools-rig commits held locally: "can you get it into main line ASAP". Read as: push tools-mgit and tools-rig main fast-forward now, ahead of acceptance; KI-TOOL-MGIT-CLI-017 and KI-TOOL-RIG-CORE-060 stay Awaiting review until Kris ki-accepts. tools-ki is not covered: another session's rebase owns it.
+
+## 2026-10-18 02:50 BST - TOOLS-KI-MERGE
+
+Kris: "I've put tools-ki back onto main locally, so can you do a merge and just resolve any conflicts to get it back onto the right track?" Read as: one tools-ki run merges origin/main into local main (merge, not rebase), settles every clash, carries the content edits of the 17 October PUSH-REBASE-CODE answer (-139 frontmatter and "Decision 55" citations, -137 repointed to KI-HARNESS-GOV-200 with TMP-HOME and the tools-ki state tooling), runs the gate and pushes fast-forward. No release: TOOLS-RELEASE is still open.
