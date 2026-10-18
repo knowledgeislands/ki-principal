@@ -7,10 +7,10 @@ theme: model
 worker: agent
 supervisor: owner
 state: handoff-to-supervisor
-since: 2026-10-18T18:43:42Z
-received: null
+since: 2026-10-18T19:20:01Z
+received: 2026-10-18T19:20:01Z
 beat: null
-mark: 2026-10-18T18:08:19Z
+mark: 2026-10-18T19:20:01Z
 created_at: 2026-10-09T20:58:00Z
 ---
 
@@ -18,16 +18,16 @@ created_at: 2026-10-09T20:58:00Z
 
 ## Next steps
 
-Mark struck 19:05 BST (`2026-10-18T18:05:04Z`); the folder is pruned and the decisions log struck to it.
+Kris sent the work back at 20:20 BST in a fresh session, which loads the current coordinator style (the STYLE-STALE restart). Mark struck at 20:20 BST (`2026-10-18T19:20:01Z`); the folder is pruned to it and the decisions log struck.
 
-1. Running: gov197-hook (GOV-197-NEXT with HOOK-QUIET in the harness) and rig-release (RIG-CI-RED, RIG-FLAKY-FIREWALL and RIG-VERSION, Rig v0.7.0, reading `rig-lock-review.report.md`).
-2. Queued: prune-held (PRUNE-HELD, MOD-010-PACKET and DESK-KIT-HOME, reading `accept-prune.report.md` and `review-gov194-201.report.md`), then small-fixes (ACQUIRE-CHECKPOINTS, DEPS-HOLDS and the other small answers, reading `estate-deps.report.md` and `cli-conventions.report.md`); ki-release (ki v0.11.3) waits for gov197-hook.
-3. Kept with an open query: cli-conventions (CLI-F-FILTER, re-asked with new options).
-4. Then receive each run's report, prune the reports the runs above needed, and send to Kris.
+1. Nothing is running; every run authorised by the 19:05 and 19:08 BST answers has reported.
+2. With Kris: STYLE-STALE, PRINCIPAL-CI-RED, CLI-150-LAUNCH, GOV-197-ACCEPT, PRUNE-FOLLOW-UP (carrying PRUNE-GOV-201), DESK-KIT-CLOSE, ACQUIRE-THREADS, MGIT-RELEASE, RIG-TAG-SIGN, RIG-DIST-012-ACCEPT, KI-PIN-ESTATE and RIG-UPGRADE-MACHINES.
+3. Outstanding, not this work's: DESK-CAM (`webcam-compare` and `cam-check` reports) belongs to Mac Studio setup, restarted when Kris wants it; FEEDBACK-KIND is carried by KI-HARNESS-GOV-219 in triage.
+4. On answers: record them, launch the runs they authorise, receive, prune and send.
 
 ## Messages
 
-- 2026-10-18 · FEEDBACK-KIND · KI > Model > Observatory: Kris agreed on 18 October (OBS-FEEDBACK-HOME a) that consolidated feedback lands in the producing work's folder. [KI-HARNESS-GOV-219](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-219-feedback-work-folder-kind.md), captured as triage, adds a `feedback/<date>-<slug>.md` kind to the `ki-work-folder` closed list and the owner, through the Observatory, as a Messages sender. It blocks [KI-OBSERVA-BRG-002](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-002-capture-feedback.md).
+None.
 
 ## Parked
 

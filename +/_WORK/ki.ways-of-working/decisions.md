@@ -127,26 +127,6 @@ Read back as taken:
 - GLYPH-OWNER - no decision on a profile glyph survives in this log since the prune; the standard prints 🧑 for Kris and 👤 for other targets. Query GLYPH-OWNER; Git history to be searched.
 - RESTARTS - Kris may send Tools burndown and Observatory now; chezmoi after threads-fix has moved its stray report.
 
-## 2026-10-18 18:04 BST - owner answers, MGIT-LEARN-FLAG and GLYPH-OWNER; mark
-
-Kris, 18 October:
-
-> Take a mark at this point.
->
-> MGIT-LEARN-FLAG
->
-> Agreed, `mgit learn` is the right approach.
->
-> GLYPH-OWNER
->
-> As recommended
-
-Read back as taken:
-
-- MARK - mark struck at 18:04 BST (2026-10-18T17:04:25Z); the reports kept for review from the 11:06 BST mark may now be pruned under the work-folder rules.
-- MGIT-LEARN-FLAG a) - learning is the subcommand `mgit learn <command>`, with no short flag; `-L` and `-P` keep their Unix symbolic-link meanings. Sent to the running mgit-learn run.
-- GLYPH-OWNER a) - Kris appears as 👤 everywhere; any other target becomes 🎯. One run updates the ki-coordination standard, the Work Process note (owner instruction under the Enactment Process), the ki-coordinator output style and every other place the glyphs are printed.
-
 ## 2026-10-18 18:07 BST - owner suggestion, CLI conventions
 
 Kris, 18 October:
@@ -162,20 +142,6 @@ Kris, 18 October:
 > I meant the `ki-repo-tools` skill then
 
 Read back as taken: CLI-CONVENTIONS goes into `ki-repo-tools` as a reference linked from its SKILL.md; the queued cli-conventions brief is corrected and no KI-TOOLS-SKILL query is raised.
-
-## 2026-10-18 18:12 BST - owner messages, restarts sent, resume grounding; mark
-
-Kris, 18 October:
-
-> all of the resumes have been dispatched. I think resume prompts should also say in which `pwd` they are grounded
->
-> take a mark
-
-Read back as taken:
-
-- RESTARTS - Kris has sent the resume prompts to chezmoi, Tools burndown and Observatory; those works are no longer on hold here.
-- RESUME-PWD - every resume and send line names the working directory its session must be grounded in, the primary checkout of the repository holding the work file, for example `in /Users/krisbrown/workspaces/knowledge-islands/ki-principal`. Folded into the glyph-owner run, which already edits the ki-coordination standard, the Work Process note and the output style.
-- MARK - mark struck at 18:12 BST (2026-10-18T17:12:06Z); the queued mark-prune-2 run prunes to this mark.
 
 ## 2026-10-18 19:05 BST - owner answers, evening Summary batch; mark
 
@@ -208,3 +174,7 @@ Read back as taken: CLI-F-FILTER c) - ki and mgit keep only the long `--filter`;
 > so should I start a new sesson for this work package?
 
 Read back: taken as a question on STYLE-STALE, not yet an answer to it. The coordinator advised yes: open a fresh session in ki-principal and paste the 19:44 send line. Nothing is running and the work folder is pushed. The other eight queries carry over to the new session.
+
+## 2026-10-18 20:20 BST - receive in a fresh session; mark
+
+Kris sent the work back to its worker in a fresh session, as the coordinator advised at 20:18 BST. Read back as taken: the STYLE-STALE restart is done; its second part, re-reading the style file at re-anchoring, stays open. MARK struck at 20:20 BST (2026-10-18T19:20:01Z). Struck at this mark: the 18:04 BST entry (MGIT-LEARN-FLAG carried by tools-mgit `main`, GLYPH-OWNER by the current style and standard) and the 18:12 BST entry (RESUME-PWD carried by the send line, RESTARTS done).
