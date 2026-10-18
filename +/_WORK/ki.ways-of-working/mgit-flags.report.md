@@ -62,7 +62,7 @@ a) (recommended, confidence high - two lines, no template, and the diff matches 
 
 b) Wait, and regenerate the whole snapshot from `mgit completion zsh` at the next mgit release instead. This also picks up `-G`, `-j`, `-v`, `--json` and `overview`.
 
-### MGIT-FLAGS-ACCEPT - closing KI-TOOL-MGIT-CLI-025
+### MGIT-FLAGS-ACCEPT - closing [KI-TOOL-MGIT-CLI-025](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-025-escape-hatch-flag-names.md)
 
 **Context:** [KI-TOOL-MGIT-CLI-025](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-025-escape-hatch-flag-names.md) is at Awaiting review. The gate is green and its review packet is in the record.
 

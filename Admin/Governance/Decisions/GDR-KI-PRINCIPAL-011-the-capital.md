@@ -14,7 +14,7 @@ decision_depends_on: ['SDR-KI-PRINCIPAL-002', 'GDR-KI-PRINCIPAL-010']
 
 ## Context
 
-[[SDR-KI-PRINCIPAL-002-the-home-of-knowledge|SDR-KI-PRINCIPAL-002]] and [[The Home of Knowledge]] place the Capital at the heart of every island. The Capital contains two buildings: the Library, the canonical record, and the Council Hall, where decisions are made. [[GDR-KI-PRINCIPAL-010-the-port|GDR-KI-PRINCIPAL-010]] gave the Council Hall the meaning of governance.
+[[SDR-KI-PRINCIPAL-002-the-home-of-knowledge|SDR-KI-PRINCIPAL-002]] and [The Home of Knowledge](https://github.com/knowledgeislands/ki-principal/blob/1e745753963b9dd1fa286e2d39d1ff8353233f9b/Pillars/Philosophy/Introduction/Background/The%20Home%20of%20Knowledge/The%20Home%20of%20Knowledge.md) place the Capital at the heart of every island. The Capital contains two buildings: the Library, the canonical record, and the Council Hall, where decisions are made. [[GDR-KI-PRINCIPAL-010-the-port|GDR-KI-PRINCIPAL-010]] gave the Council Hall the meaning of governance.
 
 The `ki-design` work had drawn the civic heart as a walled Citadel and given the local app, the Observatory, a third building there: the Tower. A first record of those names was withdrawn on the same day while the naming was reopened, because a Tower and a Citadel read as dictatorial and fortified beside the friendlier Library and Council Hall. Visual Style also listed "citadels" as the terrain metaphor for governance.
 
@@ -47,4 +47,4 @@ On 2026-10-18 Kris decided: "I think it's capital... Let's stay with something w
 - [[SDR-KI-PRINCIPAL-002-the-home-of-knowledge|SDR-KI-PRINCIPAL-002]] - the Home of Knowledge, which placed the Library and the Council Hall in the Capital.
 - [[SDR-KI-PRINCIPAL-004-the-enactment-process|SDR-KI-PRINCIPAL-004]] - an explicit owner instruction for a bounded change stands in for a proposal.
 - [[GDR-KI-PRINCIPAL-010-the-port|GDR-KI-PRINCIPAL-010]] - the Port, and the Lighthouse and Council Hall split.
-- [[Symbol Library]] - the canonical symbols this record adds to.
+- [Symbol Library](https://github.com/knowledgeislands/ki-principal/blob/2b394a0fd80b7474661bd5679b67a71fee5b5576/Pillars/Aesthetics/Symbol%20Library/Symbol%20Library.md) - the canonical symbols this record adds to.

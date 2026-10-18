@@ -88,7 +88,7 @@ The desk-kit half has been overtaken. The setup note was committed before retire
 
 - **READY:** ways of working has not posted READY. RESTART-AGREE still waits on Kris, and the harness run that follows it now queues behind `note1a-quiet`.
 - **REBASE-OWNER:** overtaken as a question. Kris answered the same matter through tools burndown's PUSH-REBASE-CODE at 22:25 BST: one tools-ki run finishes the stopped rebase and pushes. The work has not been done: tools-ki is still mid-rebase, and the run waits for the restart order.
-- **MGIT-017-CLASH:** overtaken. Kris answered MGIT-DIVERGE at 22:25 BST, `mgit-diverge` merged the two KI-TOOL-MGIT-CLI-017 records at 22:31, and `mgit-review` is running. tools-mgit sits six commits ahead of origin, with the push held for MGIT-ACCEPT.
+- **MGIT-017-CLASH:** overtaken. Kris answered MGIT-DIVERGE at 22:25 BST, `mgit-diverge` merged the two [KI-TOOL-MGIT-CLI-017](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-017-unified-external-members.md) records at 22:31, and `mgit-review` is running. tools-mgit sits six commits ahead of origin, with the push held for MGIT-ACCEPT.
 
 ### Uncommitted and unpushed in ki-principal
 
@@ -107,7 +107,7 @@ Uncommitted files and the threads they belong to:
 
 Local `main` holds five commits from other sessions that have not been pushed:
 
-- knowledge acquisition: reserving and capturing KI-PRINCIPAL-MOD-009, and its stock-take report
+- knowledge acquisition: reserving and capturing [KI-PRINCIPAL-MOD-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-009-amend-adr-001-staging-wording.md), and its stock-take report
 - mac-studio-setup: its mark
 - ways of working: its mark and NOTE1A-QUIET
 
@@ -117,7 +117,7 @@ Knowledge acquisition's PUSH-STACK covers them. This run did not push past them.
 
 - `observatory-goals` (state-of-play): reading the Observatory's Projects and decisions under OBSERVATORY-CENTRE.
 - `note1a-quiet` (ways of working): changing the harness report heading and designing quieter tool output.
-- `mgit-review` (tools burndown): the independent review of KI-TOOL-MGIT-CLI-017, at its verification gate.
+- `mgit-review` (tools burndown): the independent review of [KI-TOOL-MGIT-CLI-017](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-017-unified-external-members.md), at its verification gate.
 - `rig-target-speed` (tools burndown): profiling tools-rig configuration validation.
 - Waiting on Kris: RESTART-AGREE, which gates READY and with it the restart order for tools burndown's tools-ki rebase.
 
@@ -131,7 +131,7 @@ Outstanding - no action requested now:
 
 ### BUGCENSUS-CLOSE - close REBASE-OWNER and MGIT-017-CLASH as overtaken
 
-**Context:** The bug-census report raised two queries. REBASE-OWNER asked who finishes the stopped tools-ki rebase. MGIT-017-CLASH asked about the two different KI-TOOL-MGIT-CLI-017 records. Tools burndown has since put both to Kris as PUSH-REBASE-CODE and MGIT-DIVERGE, and Kris answered both at 22:25 BST. The mgit merge is done and under review. The tools-ki rebase is assigned to tools burndown and waits only for the restart order.
+**Context:** The bug-census report raised two queries. REBASE-OWNER asked who finishes the stopped tools-ki rebase. MGIT-017-CLASH asked about the two different [KI-TOOL-MGIT-CLI-017](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-017-unified-external-members.md) records. Tools burndown has since put both to Kris as PUSH-REBASE-CODE and MGIT-DIVERGE, and Kris answered both at 22:25 BST. The mgit merge is done and under review. The tools-ki rebase is assigned to tools burndown and waits only for the restart order.
 
 **Query:** Should state-of-play close both bug-census queries as overtaken by tools burndown's answers?
 
@@ -177,7 +177,7 @@ Send knowledge acquisition a Messages line in /Users/krisbrown/workspaces/knowle
 
 - [running] observatory-goals - the Observatory's goals under OBSERVATORY-CENTRE
 - [running] note1a-quiet - ways of working, harness heading and quieter output
-- [running] mgit-review - tools burndown, KI-TOOL-MGIT-CLI-017 review
+- [running] mgit-review - tools burndown, [KI-TOOL-MGIT-CLI-017](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-017-unified-external-members.md) review
 - [running] rig-target-speed - tools burndown, tools-rig validation speed
 - [waiting] BUGCENSUS-CLOSE
 - [waiting] ACQUIRE-LOOP-REPORT

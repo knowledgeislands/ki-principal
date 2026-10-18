@@ -46,4 +46,4 @@ The Port absorbs the Harbour's meaning of "integration point". The Harbour is re
 
 - [[SDR-KI-PRINCIPAL-002-the-home-of-knowledge|SDR-KI-PRINCIPAL-002]] - the Home of Knowledge, which defined the Harbour and the inbound and outbound working areas.
 - [[SDR-KI-PRINCIPAL-004-the-enactment-process|SDR-KI-PRINCIPAL-004]] - an explicit owner instruction for a bounded change stands in for a proposal.
-- [[Symbol Library]] - the canonical symbols this record changes.
+- [Symbol Library](https://github.com/knowledgeislands/ki-principal/blob/2b394a0fd80b7474661bd5679b67a71fee5b5576/Pillars/Aesthetics/Symbol%20Library/Symbol%20Library.md) - the canonical symbols this record changes.

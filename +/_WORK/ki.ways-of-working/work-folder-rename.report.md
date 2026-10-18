@@ -20,7 +20,7 @@
 - **Records.** The rename is folded into [KI-HARNESS-GOV-217](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-217-coordination-and-work-design-renames.md) and [KI-TOOL-KI-CLI-148](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-148-coordination-rename-cli-side.md), both awaiting review (`0828bd06`).
   - New record [KI-TOOL-KI-CLI-150](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md), at triage, reserved in its own commit (`8dd55884`). It covers the close gate parsing timestamp headings, unnumbered `decide` with `reconcile` addressed by timestamp, the launch refusal, and `ki work message` and `ki work prune`.
   - None of it is built: each part changes behaviour that every live coordinator depends on.
-- **Net open records.** ki-agentic-harness +0; tools-ki +1 (KI-TOOL-KI-CLI-150); Knowledge Islands Principal +0.
+- **Net open records.** ki-agentic-harness +0; tools-ki +1 ([KI-TOOL-KI-CLI-150](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md)); Knowledge Islands Principal +0.
 - **Gates, ki-agentic-harness.** `bun run test` passed 1253 tests and `bunx tsc --noEmit` passed after each commit. Generated surfaces and rubrics are in sync.
   - Focused audits PASS: `ki-work-folder`, `ki-coordination`, `ki-delegation`, `ki-repo`, `ki-skills`, `ki-authoring` and `ki-work-roadmap`.
   - `ki-repo-harness` has no failures, only DIAG-4 freshness warnings from before this run.
@@ -47,8 +47,8 @@ Nothing is running.
 
 Outstanding - no action requested now:
 
-- The launcher still fills the run skeleton's report path with the work-folder path and only warns on it, while the run packet now says the state folder only. The work-folder standard's "Audit and conform boundary" section, and the ki-coordination COORD-9 flagging line, still describe today's checks. KI-TOOL-KI-CLI-150 and KI-HARNESS-GOV-200 correct both.
-- `ki agent decide` still writes numbered headings, against the coordination standard's no-numbering rule, until KI-TOOL-KI-CLI-150 lands.
+- The launcher still fills the run skeleton's report path with the work-folder path and only warns on it, while the run packet now says the state folder only. The work-folder standard's "Audit and conform boundary" section, and the ki-coordination COORD-9 flagging line, still describe today's checks. [KI-TOOL-KI-CLI-150](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md) and [KI-HARNESS-GOV-200](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md) correct both.
+- `ki agent decide` still writes numbered headings, against the coordination standard's no-numbering rule, until [KI-TOOL-KI-CLI-150](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md) lands.
 - Released `ki` v0.11.1 pins a harness carrying `ki-checkpoint`. The RELEASE-REPIN release follows this run.
 - These Knowledge Islands Principal files still mention `ki-checkpoint` as history:
   - `Streams/Projects/ways-of-working.md`, lines 31-32;
@@ -69,11 +69,11 @@ Outstanding - no action requested now:
 
 ### LAUNCH-REPORT-PATH - Bring forward the launcher's report-path fix
 
-**Context:** The run packet now says an agent writes its report to the state folder only. The launcher still fills briefs' report path with the work-folder path and only warns, so every new brief contradicts the standard until the launch part of KI-TOOL-KI-CLI-150 lands. The change is small, but it affects every live coordinator.
+**Context:** The run packet now says an agent writes its report to the state folder only. The launcher still fills briefs' report path with the work-folder path and only warns, so every new brief contradicts the standard until the launch part of [KI-TOOL-KI-CLI-150](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md) lands. The change is small, but it affects every live coordinator.
 
-**Query:** Should the launch part of KI-TOOL-KI-CLI-150 go ahead before the rest of that record?
+**Query:** Should the launch part of [KI-TOOL-KI-CLI-150](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md) go ahead before the rest of that record?
 
-**Options:** a) (recommended, confidence medium - a small change, but it touches every brief) Plan and deliver the launch part first, with the run-prompt wording, and release it in v0.11.2 alongside the repin. b) Leave it with the rest of KI-TOOL-KI-CLI-150 under normal planning.
+**Options:** a) (recommended, confidence medium - a small change, but it touches every brief) Plan and deliver the launch part first, with the run-prompt wording, and release it in v0.11.2 alongside the repin. b) Leave it with the rest of [KI-TOOL-KI-CLI-150](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md) under normal planning.
 
 ### 🤖 → 🧑 Handoff to supervisor · since 11:27 BST
 

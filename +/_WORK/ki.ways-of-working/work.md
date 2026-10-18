@@ -31,6 +31,8 @@ On resume:
 
 ## Messages
 
+None
+
 ## Parked
 
 - MGIT-QUIET-RULES - how mgit knows no-news replies for other commands (decisions log 11:14). a) built-in rules for common Git commands with alias expansion, plus your own rules in `~/.config/mgit/` kept in chezmoi, after a run proposes rules from the commands you use.
