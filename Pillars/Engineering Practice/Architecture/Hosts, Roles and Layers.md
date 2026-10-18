@@ -1,6 +1,6 @@
 ---
 note_type: pillars/note
-updated: 2026-10-13T12:00:00Z
+updated: 2026-10-18T03:32:46Z
 author: Written with Claude
 ---
 
@@ -64,6 +64,14 @@ A role is what a machine is _for_. A machine has one base and one or more roles.
 | Physical machine | A body in our solar system | `sol` (the Mac Studio), `terra` (the laptop) |
 | Peripheral | A moon | `luna`, `phobos` (external drives) |
 | Non-physical host | A star system of its own | `vega` (the AWS host) |
+
+Each machine has a machine type and an operating system. The Rig profiles (`core`, `laptop` and `studio`) and the Cheztoi host profile (`--host`, `target_host`) take their names from the machine type.
+
+| Name | Machine type | OS |
+| --- | --- | --- |
+| `vega` | agent-host | Ubuntu |
+| `sol` | studio | macOS |
+| `terra` | laptop | macOS |
 
 Machine names are not recipe names. The Techne recipe that builds `vega`'s base stays called `agent-host` and is described as "the AWS base for a remote agentic rig". A second recipe, for an appliance or an owned host, would be the moment to revisit that name.
 

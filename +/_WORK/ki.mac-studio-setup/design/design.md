@@ -1,6 +1,6 @@
 ---
 note_type: streams/index
-updated: 2026-10-11T03:52:00Z
+updated: 2026-10-18T03:32:46Z
 author: Written with Claude
 ---
 
@@ -8,12 +8,8 @@ author: Written with Claude
 
 ## Overview
 
-This folder holds the supporting notes for the [[mac-studio-setup|Mac Studio setup]] Project. They record working context that the Project note points to but should not carry itself. Like other design papers, they are temporary: once their content is settled in a durable home, they are deleted in one commit.
+This folder holds the supporting notes for the work [`ki.mac-studio-setup`](../work.md) of the [[mac-studio-setup|Mac Studio setup]] Project. They record working context the Project note should not carry itself. Like other design papers, they are temporary: once their content is settled in a durable home, they are deleted in one commit.
 
-## Decisions in force
+## Supporting files
 
-[[decisions-in-force|Decisions in force]] consolidates the decisions that still guide `sol`: who owns it, how agents reach it, why a reboot needs Kris present, how software is declared and swapped, and when the Project closes. It points to the full decisions log, which stays machine-local run state on the laptop rather than in Git.
-
-## Hosts
-
-[[hosts|Hosts]] is the table of the estate's machines - `vega`, `sol` and `terra` - with each one's machine type and operating system. It explains that the Rig profiles and the Cheztoi host profile take their names from this table, and notes that an Omarchy move for `vega` is a separate idea belonging to the [[agent-host]] Project.
+`adobe-remove.sh` removes Adobe Creative Cloud and every app it installed from a Mac, as a dry run unless given `--apply`, and `favicons-headroom.svg` the favicon drawn for the local Headroom page. The decisions in force now sit in the Project note's Notes and the host table in [[Hosts, Roles and Layers]], both merged on 18 October.
