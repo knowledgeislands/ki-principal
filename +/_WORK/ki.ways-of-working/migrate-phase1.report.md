@@ -14,10 +14,10 @@
   - the Project registry, Streams and roadmap standards and checkers: themes, flat Project notes, no `design/` under `Streams/`;
   - `ki-repo-kb-activities` and `ki-work-recurring`: an Activity's home is regular work or its Project, with `theme` optional and `initiative` warning;
   - `ki-pmo-design`: design notes in `+/_WORK/<id>/design/`.
-- The records are amended: [KI-HARNESS-GOV-206](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-206-activity-homes-and-coordination.md), now blocked by KI-HARNESS-GOV-210; [KI-HARNESS-GOV-200](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md), now about the work folder's closed list; [KI-HARNESS-GOV-199](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-199-thread-identity-role-native-sessions.md), where `level` replaces `role` and work naming replaces thread naming; [KI-HARNESS-GOV-189](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-189-move-thread-between-hosts.md), which now uses on-hold and tracked briefs, with the DONE form left to planning.
+- The records are amended: [KI-HARNESS-GOV-206](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-206-activity-homes-and-coordination.md), now blocked by [KI-HARNESS-GOV-210](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-210-work-model-write-in.md); [KI-HARNESS-GOV-200](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md), now about the work folder's closed list; [KI-HARNESS-GOV-199](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-199-thread-identity-role-native-sessions.md), where `level` replaces `role` and work naming replaces thread naming; [KI-HARNESS-GOV-189](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-189-move-thread-between-hosts.md), which now uses on-hold and tracked briefs, with the DONE form left to planning.
 - No skill is renamed and `ki agent` is unchanged.
 - Verification: `bun run test` and `bunx tsc --noEmit` pass; `ki dev skill generate ki-pmo` reports every surface current; the `ki-work-roadmap`, `ki-checkpoint`, `ki-delegation`, `ki-skills` and `ki-work-recurring` audits pass.
-- The `ki-pmo` audit reports FAIL=4 and WARN=2. These are the baseline's findings, from PMO-7 and an unlinked KI-HARNESS-GOV-193 in `+/_THREADS/skill-reviews`, and none is in the contract under change. `ki-pmo-design` has no declared audit, so the staged `ki-skills` audit covered it.
+- The `ki-pmo` audit reports FAIL=4 and WARN=2. These are the baseline's findings, from PMO-7 and an unlinked [KI-HARNESS-GOV-193 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/c092431687d3542e55058cecd545e816a1dbadcf/docs/roadmap/KI-HARNESS-GOV-193-area-diagrams-with-html.md) in `+/_THREADS/skill-reviews`, and none is in the contract under change. `ki-pmo-design` has no declared audit, so the staged `ki-skills` audit covered it.
 - Fleet findings against Knowledge Islands Principal. None is caused by this change; all wait for phase 3:
   - `ki-checkpoint`: FAIL=8 and WARN=11. These are old-form checkpoints that already failed at HEAD: RECORD-2 in `_state-of-play.md`, `platform-foundations.tools-burndown.md` and `rig.mac-studio-setup.md`, and LIFECYCLE-1 in `platform-foundations.tools-burndown.md`.
   - `ki-repo-kb-streams`: five `design/` folders under `Streams/` fail, as expected until phase 3: the ways-of-working, paperclip-capture-and-rebuild, agent-host and mac-studio-setup Projects, and the knowledge-islands-model Initiative. The STREAM-10 warnings were already there.
@@ -30,7 +30,7 @@ Nothing is running.
 
 Outstanding - no action requested now:
 
-- Phase 2 in tools-ki, under [KI-TOOL-KI-CLI-127](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-127-agent-status-live-threads.md), can start once KI-HARNESS-GOV-210 has been reviewed. It covers `ki work status`, the readers and a release.
+- Phase 2 in tools-ki, under [KI-TOOL-KI-CLI-127](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-127-agent-status-live-threads.md), can start once [KI-HARNESS-GOV-210](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-210-work-model-write-in.md) has been reviewed. It covers `ki work status`, the readers and a release.
 - The phase-3 legacy findings listed under Done clear when the Capital moves into `+/_WORK/` and `Streams/Themes/`.
 
 ## Queries
@@ -39,21 +39,21 @@ Outstanding - no action requested now:
 
 **Context:** [KI-HARNESS-GOV-210](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-210-work-model-write-in.md) is at awaiting-review. Its Review section lists what was delivered and how it was verified. Phase 2 builds on this record.
 
-**Query:** Should an independent review run check KI-HARNESS-GOV-210 against its baseline before it is accepted?
+**Query:** Should an independent review run check [KI-HARNESS-GOV-210](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-210-work-model-write-in.md) against its baseline before it is accepted?
 
 **Options:**
 
 a) (recommended, confidence high - acceptance needs a review by someone other than the author) Launch one review run on `be65ccad..ebc05eb2` against the record's Verify, and accept the record when it passes. b) Accept it on this report.
 
-### GOV-206-CLOSE - whether KI-HARNESS-GOV-206 closes with the write-in
+### GOV-206-CLOSE - whether [KI-HARNESS-GOV-206](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-206-activity-homes-and-coordination.md) closes with the write-in
 
 **Context:** Phase 1 wrote in every item of [KI-HARNESS-GOV-206](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-206-activity-homes-and-coordination.md): Activity homes, an optional theme, and self-coordinating regular work. Its Discussion leaves the outcome to planning.
 
-**Query:** Should KI-HARNESS-GOV-206 close as delivered by KI-HARNESS-GOV-210?
+**Query:** Should [KI-HARNESS-GOV-206](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-206-activity-homes-and-coordination.md) close as delivered by [KI-HARNESS-GOV-210](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-210-work-model-write-in.md)?
 
 **Options:**
 
-a) (recommended, confidence medium - the boundary is covered, but its review evidence lives in another record) Close KI-HARNESS-GOV-206 as delivered by KI-HARNESS-GOV-210 once that record is accepted. b) Keep it open for a separate delivery and review.
+a) (recommended, confidence medium - the boundary is covered, but its review evidence lives in another record) Close [KI-HARNESS-GOV-206](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-206-activity-homes-and-coordination.md) as delivered by [KI-HARNESS-GOV-210](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-210-work-model-write-in.md) once that record is accepted. b) Keep it open for a separate delivery and review.
 
 ### REPO-OWNERSHIP - ki-repo still names the thread-model paths
 
@@ -63,7 +63,7 @@ a) (recommended, confidence medium - the boundary is covered, but its review evi
 
 **Options:**
 
-a) (recommended, confidence high - the change is small and must land before phase 3) Capture one ki-agentic-harness record that adds `+/_WORK/` and `+/_WORK_REVIEW/` to `ki-repo`'s ownership and COVERAGE, accepts the old paths with a warning, and lands before phase 3. b) Fold it into the review run for KI-HARNESS-GOV-210.
+a) (recommended, confidence high - the change is small and must land before phase 3) Capture one ki-agentic-harness record that adds `+/_WORK/` and `+/_WORK_REVIEW/` to `ki-repo`'s ownership and COVERAGE, accepts the old paths with a warning, and lands before phase 3. b) Fold it into the review run for [KI-HARNESS-GOV-210](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-210-work-model-write-in.md).
 
 ### REPORT-SHAPE - this report follows the brief, not the live style
 
@@ -78,13 +78,13 @@ a) (recommended, confidence high - the live standard now sets it) Phase 2 and la
 ```text
 GOV-210-REVIEW
 
-Launch one review run on ki-agentic-harness be65ccad..ebc05eb2 against KI-HARNESS-GOV-210's Verify, and accept KI-HARNESS-GOV-210 when it passes.
+Launch one review run on ki-agentic-harness be65ccad..ebc05eb2 against [KI-HARNESS-GOV-210](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-210-work-model-write-in.md)'s Verify, and accept [KI-HARNESS-GOV-210](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-210-work-model-write-in.md) when it passes.
 
 ---
 
 GOV-206-CLOSE
 
-Close KI-HARNESS-GOV-206 as delivered by KI-HARNESS-GOV-210 once KI-HARNESS-GOV-210 is accepted.
+Close [KI-HARNESS-GOV-206](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-206-activity-homes-and-coordination.md) as delivered by [KI-HARNESS-GOV-210](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-210-work-model-write-in.md) once [KI-HARNESS-GOV-210](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-210-work-model-write-in.md) is accepted.
 
 ---
 

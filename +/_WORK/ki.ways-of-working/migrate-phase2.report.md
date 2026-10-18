@@ -17,13 +17,13 @@
 
 ### TOOLS-KI-REBASE - the tools-ki checkout is stuck mid-rebase
 
-**Context:** The primary tools-ki checkout is partway through an interactive rebase of `main` onto `e9770dc6`, begun at 01:16 BST on 17 October by an earlier session and left there for about 26 hours. Three of its 31 commits have been replayed and 28 are still to go. It stopped on a conflict in `docs/roadmap/KI-TOOL-KI-CLI-139-ebu-sources-sync.md`, and roadmap records KI-TOOL-KI-CLI-131 and 134 to 140 are staged. Local `main` (`90807355`) is 31 commits ahead of origin and 15 behind it, so it will not fast-forward. No running tools-burndown run claims the rebase: every run there reads DONE, and the two tools-burndown push runs of 16 October both stopped before pushing. The brief says to stop and report in this case, and these are another session's commits, so I have not aborted, resolved or continued the rebase.
+**Context:** The primary tools-ki checkout is partway through an interactive rebase of `main` onto `e9770dc6`, begun at 01:16 BST on 17 October by an earlier session and left there for about 26 hours. Three of its 31 commits have been replayed and 28 are still to go. It stopped on a conflict in `docs/roadmap/KI-TOOL-KI-CLI-139-ebu-sources-sync.md`, and roadmap records [KI-TOOL-KI-CLI-131](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-131-host-absent-store-state.md) and 134 to 140 are staged. Local `main` (`90807355`) is 31 commits ahead of origin and 15 behind it, so it will not fast-forward. No running tools-burndown run claims the rebase: every run there reads DONE, and the two tools-burndown push runs of 16 October both stopped before pushing. The brief says to stop and report in this case, and these are another session's commits, so I have not aborted, resolved or continued the rebase.
 
 **Query:** Who should finish the stuck tools-ki rebase so that phase 2 can start on a clean `main`?
 
 **Options:**
 
-a) (recommended, confidence medium - its owner is inferred from the dates, not confirmed) One bounded run takes over the rebase: it resolves the KI-TOOL-KI-CLI-139 conflict and any later ones by keeping both sessions' roadmap edits, finishes the rebase, runs the gate and pushes fast-forward under ROUTINE, naming the 31 commits; then migrate-phase2 is relaunched unchanged.
+a) (recommended, confidence medium - its owner is inferred from the dates, not confirmed) One bounded run takes over the rebase: it resolves the [KI-TOOL-KI-CLI-139](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-139-ebu-sources-sync.md) conflict and any later ones by keeping both sessions' roadmap edits, finishes the rebase, runs the gate and pushes fast-forward under ROUTINE, naming the 31 commits; then migrate-phase2 is relaunched unchanged.
 
 b) Authorise this thread to abort the rebase, which puts `main` back at `90807355` with nothing lost, and launch a run that rebases the 31 commits afresh before phase 2.
 

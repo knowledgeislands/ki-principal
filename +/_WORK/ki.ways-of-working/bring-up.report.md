@@ -27,7 +27,7 @@ Outstanding - no action requested now:
 
 ### BRINGUP-PROJECT - which Project the tools-ki items file under
 
-**Context:** RUN-SHAPE gives each Project its own bring-up items for its product work, so the `tools-ki` drafts carry `project: tools-burndown`, theme `foundations`. Their source, KI-TOOL-KI-CLI-127, sits under `ways-of-working`, which runs phase 2 itself. Only the `project:` key changes either way.
+**Context:** RUN-SHAPE gives each Project its own bring-up items for its product work, so the `tools-ki` drafts carry `project: tools-burndown`, theme `foundations`. Their source, [KI-TOOL-KI-CLI-127](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-127-agent-status-live-threads.md), sits under `ways-of-working`, which runs phase 2 itself. Only the `project:` key changes either way.
 
 **Query:** Should the `tools-ki` bring-up items file under tools burndown or under ways of working?
 
@@ -35,7 +35,7 @@ Outstanding - no action requested now:
 
 a) (recommended, confidence medium - RUN-SHAPE's wording points to it, but the items finish ways-of-working's own model) File them under `tools-burndown`, so that work owns their delivery after its restart.
 
-b) File them under `ways-of-working`, beside KI-TOOL-KI-CLI-127, with tools burndown only delivering them.
+b) File them under `ways-of-working`, beside [KI-TOOL-KI-CLI-127](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-127-agent-status-live-threads.md), with tools burndown only delivering them.
 
 ### 🤖 → 🧑 Handoff to supervisor · since 03:47 BST
 

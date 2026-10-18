@@ -12,7 +12,7 @@
   - `05af1ad`: regenerated the command list from `sync:cli` at v0.11.0. That gives 119 commands in 18 groups, adds the Work model and Estate convergence groups, and replaces `--by initiative` with `--by theme`. The commands page's source moves to v0.11.0, and the ki project card's stale "Eighty-eight commands across fourteen groups" now reads 119 commands across 18 groups. The provenance check passes on 39 pages. The release bot had already merged "advertise ki v0.11.0" (#41) before this.
 - KI Agentic Harness: removed the empty, untracked `+/_THREADS/skill-reviews/` directory that accept-review flagged. Nothing was tracked there, so there is no commit.
 - ki-specifications needed nothing. It has no old areas, keys or citations, and `ki repo audit` gives no FAIL, with one HOOK-1 warning.
-- ki-techne-harness needed nothing, under the Techne Programme Hold. I made no change and no commit. Its audit has two FAILs, and neither comes from the work model: KNIP-2 fails because the toolchain is not installed on this machine, and ITEM-3 fails because the accepted record KI-TECHNE-OPS-027 has no `## Done` section.
+- ki-techne-harness needed nothing, under the Techne Programme Hold. I made no change and no commit. Its audit has two FAILs, and neither comes from the work model: KNIP-2 fails because the toolchain is not installed on this machine, and ITEM-3 fails because the accepted record [KI-TECHNE-OPS-027](/Users/krisbrown/workspaces/knowledge-islands/ki-techne-harness/docs/roadmap/KI-TECHNE-OPS-027-agent-host-tailscale-key-minting.md) has no `## Done` section.
 - tools-ki needed nothing more. phase 2 already moved its README, guides and manual to `+/_WORK/` and `Streams/Themes/` in v0.11.0. What still names the old paths is the tolerance-window reader code, its tests, the legacy-warning texts and history in roadmap records, so I left it.
 - I left these as the plan says: apps-observatory.local, whose dated handover is history; mcp-m365 and mcp-gsuite, which wait for the Humans Not Robots migration; and tools-mgit, tools-techne, homebrew-tap and the other MCP repositories, which have nothing to change.
 
@@ -26,7 +26,7 @@ Outstanding - no action requested now:
 - tools-mgit has two unpushed commits of its own session, `55fecf0` and `ca71902`, the mgit plan records. They are not mine to push.
 - The site's `command-groups.md` still cites the manual at v0.10.1. Its prose was reviewed at that release and does not describe the two new groups. Raising it to v0.11.0 needs a prose review, not a sed, so I left it for the website's own work.
 - The website's full `bun test scripts` cannot run here: `sync-tool-release.ts` needs the `json5` package, and nothing is installed. Its pre-commit hooks are not installed either, so the commits went through the CI gate only.
-- ki-techne-harness's ITEM-3 finding on KI-TECHNE-OPS-027 waits for the Techne Programme Hold to lift.
+- ki-techne-harness's ITEM-3 finding on [KI-TECHNE-OPS-027](/Users/krisbrown/workspaces/knowledge-islands/ki-techne-harness/docs/roadmap/KI-TECHNE-OPS-027-agent-host-tailscale-key-minting.md) waits for the Techne Programme Hold to lift.
 
 ## Queries
 

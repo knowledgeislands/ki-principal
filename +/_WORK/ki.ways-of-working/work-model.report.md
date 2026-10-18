@@ -6,7 +6,7 @@
 
 ## Done
 
-- Revised again by `work-model-shape` on 18 October to fold in Kris's REGULAR-WORK, THEMES-PAGE and FOLDER-TREE ideas of 00:46 BST, read verbatim in the [decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/decisions.md): regular work and Project work as the two forms of work under territory work, the theme as a label with its own page, and design material leaving `Streams/`. Section 0 shows what each point changed. Section 10, the folder tree, is new. WORK-THEME and WORK-REGULAR are rewritten, and every recommended option now carries its confidence in [KI-HARNESS-GOV-207](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-207-recommendation-confidence.md)'s form. WORK-HOME and WORK-HISTORY, which Kris answered a) in the walkthrough, leave the queries.
+- Revised again by `work-model-shape` on 18 October to fold in Kris's REGULAR-WORK, THEMES-PAGE and FOLDER-TREE ideas of 00:46 BST, read verbatim in the [decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/decisions.md): regular work and Project work as the two forms of work under territory work, the theme as a label with its own page, and design material leaving `Streams/`. Section 0 shows what each point changed. Section 10, the folder tree, is new. WORK-THEME and WORK-REGULAR are rewritten, and every recommended option now carries its confidence in [KI-HARNESS-GOV-207 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/08cadf35c720f5c5e50bef3952b57bd8bade1717/docs/roadmap/KI-HARNESS-GOV-207-recommendation-confidence.md)'s form. WORK-HOME and WORK-HISTORY, which Kris answered a) in the walkthrough, leave the queries.
 - Redrew the diagram in the same style: territory work at the top, regular work and Project work side by side beneath it, Kris to the side, execution at the bottom, and the theme as a label node rather than a level. It passed Archify's gates, was exported through the `ki-diagrams` exporter, flattened to static light SVG with a fresh one-off script and checked by eye through `rsvg-convert`; it reads cleanly.
 - Brought the [thread-states report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/thread-states.report.md), the [work-cascade report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/work-cascade.report.md) and Kris's CONVERSATIONS-FOLDER and WORK-UNIT words of 17 October into one model. Where I choose between them, the section says so and why.
 - Revised in place by `work-model-rev` to fold in Kris's WORK-LEVELS, SETTLE-MODEL and WORKING-AREAS words of 17 October 23:43 to 23:45 BST, read verbatim in the [decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/decisions.md). Section 0 shows what each point changed and which points the first version had already covered. Section 9, Settling it, is new.
@@ -316,7 +316,7 @@ The footer replaces the block-letter frame with one heading, one line of counts,
 🧑 4 with you · ⚠️ 1 stuck · ⛔ 2 blocked · 🤖 3 moving
 
 - [with you] HARNESS-ACCEPT · owner · since Tue 18:10
-- [stuck] KI-HARNESS-GOV-199 review · repo/ki-agentic-harness · since Wed 09:00
+- [stuck] [KI-HARNESS-GOV-199](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-199-thread-identity-role-native-sessions.md) review · repo/ki-agentic-harness · since Wed 09:00
 
 ### 🧑 → 🤖 Handoff to worker · since 07:55 BST
 
@@ -384,7 +384,7 @@ Each item is one line and goes into SHAPE-AGREE's single migration after the res
 
 **Other objections, in descending weight:**
 
-- **Regular work is a Project in all but name.** It differs in two ways that matter: it never closes, and it has no coordinator session. Calling it a Project would force an exception into GDR-KI-PRINCIPAL-005's rule that a Project is finite, which is why WORK-REGULAR keeps it apart.
+- **Regular work is a Project in all but name.** It differs in two ways that matter: it never closes, and it has no coordinator session. Calling it a Project would force an exception into [GDR-KI-PRINCIPAL-005](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-005-the-roadmap-model.md)'s rule that a Project is finite, which is why WORK-REGULAR keeps it apart.
 - **Two places for one piece of work.** A Project has a note in `Streams/` and a folder in `+/_WORK/`. That is the price of keeping churn out of canonical zones, and `ki` finding the folder from the id closes most of the gap.
 - **Role words are longer.** "Handoff to supervisor" is longer than "Handoff to you". The lists still say "with you", so what Kris scans stays short.
 - **Commits.** Committing at every send adds commits in a busy evening. Since Git is now the logbook, those commits are the record, not noise.
@@ -412,7 +412,7 @@ The working-area name needs no query: Kris settled it at 23:45 BST.
 
 **The durable home, once answered.**
 
-- **One Governance Decision Record,** GDR-KI-PRINCIPAL-009, The work model, in [Admin/Governance/Decisions/](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/Decisions.md), through the [Enactment Process](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Operations/Processes/Enactment%20Process.md) with Kris's answer standing in for a record. It records the decisions and supersedes the ones it replaces: the Checkpoints bullet and the recurring-work home in [GDR-KI-PRINCIPAL-005](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-005-the-roadmap-model.md), amended in place as that record allows; and, from this log, THREADS-CONTENT, THREAD-IDS-AGREE, DECISIONS-HOME, ACT-HOME's default, SHAPE-AGREE's nesting and the banner and frame decisions. No ki-agentic-harness Decision Record governs threads or checkpoints; [ADR-KI-HARNESS-014](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/decisions/ADR-KI-HARNESS-014-route-state-by-authority-and-durability.md) on routing state by durability stands and agrees with it.
+- **One Governance Decision Record,** [GDR-KI-PRINCIPAL-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md), The work model, in [Admin/Governance/Decisions/](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/Decisions.md), through the [Enactment Process](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Operations/Processes/Enactment%20Process.md) with Kris's answer standing in for a record. It records the decisions and supersedes the ones it replaces: the Checkpoints bullet and the recurring-work home in [GDR-KI-PRINCIPAL-005](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-005-the-roadmap-model.md), amended in place as that record allows; and, from this log, THREADS-CONTENT, THREAD-IDS-AGREE, DECISIONS-HOME, ACT-HOME's default, SHAPE-AGREE's nesting and the banner and frame decisions. No ki-agentic-harness Decision Record governs threads or checkpoints; [ADR-KI-HARNESS-014](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/decisions/ADR-KI-HARNESS-014-route-state-by-authority-and-durability.md) on routing state by durability stands and agrees with it.
 - **One canonical model note,** `Pillars/Philosophy/Model/Processes/Work Process/Work Process.md`, beside the Enactment, Contribution and Acquisition Processes in [Processes](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Processes.md), with its index line added there. It explains the model; the decision record says why. ki-pmo, ki-delegation, the work-file skill, ki-work, ki-repo-kb-activities and ki-work-recurring cite it and do not restate it.
 
 **The write-in, as one migration.** In SHAPE-AGREE's order: the harness checker and standards first, then the tools-ki readers and a `ki` release, then the Capital's folders, work files, decisions logs and ids together, then the other territories, with Personal's handoff carried as ACT-WORK set out.
@@ -585,7 +585,7 @@ Streams/
 ### Outstanding - no action requested now
 
 - The diagram again used a one-off flatten script, rewritten for this revision and deleted with the run's temporary folder. [KI-HARNESS-GOV-205](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-205-static-light-diagram-export.md) would make it a supported export.
-- The confidence form follows [KI-HARNESS-GOV-207](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-207-recommendation-confidence.md), which sits at Awaiting review and is not yet durable in ki-pmo.
+- The confidence form follows [KI-HARNESS-GOV-207 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/08cadf35c720f5c5e50bef3952b57bd8bade1717/docs/roadmap/KI-HARNESS-GOV-207-recommendation-confidence.md), which sits at Awaiting review and is not yet durable in ki-pmo.
 - `working-areas` is applying Kris's settled WORKING-AREAS answer separately; section 2 assumes it lands.
 - Other sessions' files are dirty or untracked in ki-principal, including `+/_THREADS/chezmoi/decisions.md`. They were left alone.
 
@@ -647,11 +647,11 @@ c) Nest them and keep THREAD-IDS-AGREE's three-part ids as well.
 
 **Options:**
 
-a) (recommended, confidence high - it is Kris's own framing of 18 October, and keeping a Project's checks with it follows [GDR-KI-PRINCIPAL-005](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-005-the-roadmap-model.md)'s rule that a Project is finite) Make regular work, `ki.regular`, the territory-level form of work beside Project work: defined in the Capital, dispatched by state of play, creating work items in any repository, carrying an optional theme label and holding ad hoc work as `ki.regular.<slug>`; a Project's own recurring checks stay with the Project and end with it; Activity notes' `initiative:` becomes an optional `theme:`; amend ACT-HOME and KI-HARNESS-GOV-206 to match.
+a) (recommended, confidence high - it is Kris's own framing of 18 October, and keeping a Project's checks with it follows [GDR-KI-PRINCIPAL-005](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-005-the-roadmap-model.md)'s rule that a Project is finite) Make regular work, `ki.regular`, the territory-level form of work beside Project work: defined in the Capital, dispatched by state of play, creating work items in any repository, carrying an optional theme label and holding ad hoc work as `ki.regular.<slug>`; a Project's own recurring checks stay with the Project and end with it; Activity notes' `initiative:` becomes an optional `theme:`; amend ACT-HOME and [KI-HARNESS-GOV-206](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-206-activity-homes-and-coordination.md) to match.
 
 b) As a), but all recurring work, a Project's own checks included, lives in regular work.
 
-c) Make regular work a standing Project in each territory, amending GDR-KI-PRINCIPAL-005's rule that a Project is finite.
+c) Make regular work a standing Project in each territory, amending [GDR-KI-PRINCIPAL-005](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-005-the-roadmap-model.md)'s rule that a Project is finite.
 
 ### DECISIONS-STRIKE - decisions apart, struck once durable
 
@@ -681,13 +681,13 @@ b) Keep the block-letter frame and add the glyph heading above it.
 
 ### WORK-SETTLE - the durable home, the migration and the observatory
 
-**Context:** Section 9 settles the model once the other eight are answered: one Governance Decision Record, GDR-KI-PRINCIPAL-009, through the Enactment Process with Kris's answer standing in, superseding the decisions it lists; one model note, `Work Process`, under `Pillars/Philosophy/Model/Processes/`, which the harness skills cite rather than restate; the write-in as SHAPE-AGREE's one migration, harness first, then tools-ki and a release, then the Capital, then the other territories; and the observatory contract, `ki work status --format json` with the fields in section 9, under KI-TOOL-KI-CLI-127, with an Observatory Work instrument and Beacon contributor to be captured in apps-observatory. This supersedes the first version's WORK-MIGRATE.
+**Context:** Section 9 settles the model once the other eight are answered: one Governance Decision Record, [GDR-KI-PRINCIPAL-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md), through the Enactment Process with Kris's answer standing in, superseding the decisions it lists; one model note, `Work Process`, under `Pillars/Philosophy/Model/Processes/`, which the harness skills cite rather than restate; the write-in as SHAPE-AGREE's one migration, harness first, then tools-ki and a release, then the Capital, then the other territories; and the observatory contract, `ki work status --format json` with the fields in section 9, under [KI-TOOL-KI-CLI-127](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-127-agent-status-live-threads.md), with an Observatory Work instrument and Beacon contributor to be captured in apps-observatory. This supersedes the first version's WORK-MIGRATE.
 
 **Query:** Should the model be settled through one decision record, one model note, one migration and the section 9 observatory contract?
 
 **Options:**
 
-a) (recommended, confidence medium - the order follows SHAPE-AGREE, but the observatory contract is unproven against tools-ki) Agree section 9: write GDR-KI-PRINCIPAL-009 and the Work Process note first, then brief SHAPE-AGREE's one migration with section 7 folded in, add the work-status contract to KI-TOOL-KI-CLI-127, and have the Observatory record captured once that read lands.
+a) (recommended, confidence medium - the order follows SHAPE-AGREE, but the observatory contract is unproven against tools-ki) Agree section 9: write [GDR-KI-PRINCIPAL-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md) and the Work Process note first, then brief SHAPE-AGREE's one migration with section 7 folded in, add the work-status contract to [KI-TOOL-KI-CLI-127](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-127-agent-status-live-threads.md), and have the Observatory record captured once that read lands.
 
 b) Agree it, but run the work model as a second migration after SHAPE-AGREE lands.
 
@@ -712,7 +712,7 @@ Keep Project notes flat in Streams/Projects/ with initiative: renamed theme:; re
 
 WORK-REGULAR
 
-Make regular work, ki.regular, the territory-level form of work beside Project work: defined in the Capital, dispatched by state of play, creating work items in any repository, carrying an optional theme label and holding ad hoc work as ki.regular.<slug>; a Project's own recurring checks stay with the Project and end with it; Activity notes' initiative: becomes an optional theme:; amend ACT-HOME and KI-HARNESS-GOV-206 to match.
+Make regular work, ki.regular, the territory-level form of work beside Project work: defined in the Capital, dispatched by state of play, creating work items in any repository, carrying an optional theme label and holding ad hoc work as ki.regular.<slug>; a Project's own recurring checks stay with the Project and end with it; Activity notes' initiative: becomes an optional theme:; amend ACT-HOME and [KI-HARNESS-GOV-206](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-206-activity-homes-and-coordination.md) to match.
 
 ---
 
@@ -730,7 +730,7 @@ Adopt section 6 of work-model.report.md: one glyph-heading banner for every stat
 
 WORK-SETTLE
 
-Agree section 9 of work-model.report.md: write GDR-KI-PRINCIPAL-009 and the Work Process note under Pillars/Philosophy/Model/Processes/ first, then brief SHAPE-AGREE's one migration with sections 7 and 10 folded in, add the ki work status contract to KI-TOOL-KI-CLI-127, and have the Observatory Work instrument record captured once that read lands.
+Agree section 9 of work-model.report.md: write [GDR-KI-PRINCIPAL-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md) and the Work Process note under Pillars/Philosophy/Model/Processes/ first, then brief SHAPE-AGREE's one migration with sections 7 and 10 folded in, add the ki work status contract to [KI-TOOL-KI-CLI-127](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-127-agent-status-live-threads.md), and have the Observatory Work instrument record captured once that read lands.
 ```
 
 ```text

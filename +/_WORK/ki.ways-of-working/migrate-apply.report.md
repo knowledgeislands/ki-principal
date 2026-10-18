@@ -50,7 +50,7 @@ Outstanding - no action requested now:
 - The [paperclip-capture-and-rebuild](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/paperclip-capture-and-rebuild.md) Project note still links `[[paperclip-rebuild-structure]]`, in a work folder's `design/`. I left it for that work's review.
 - `ki.ways-of-working` shows as stuck in `ki work status` until its coordinator writes its next beat. That file is not mine to edit.
 - STREAM-10 warns that chezmoi, mac-studio-setup, paperclip-capture-and-rebuild and website have no open records. Each needs a close-out assessment or its next work.
-- Records ADR-KI-PRINCIPAL-004 to 006 appear after 007 in [Decisions](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/Decisions.md), so INDEX-8 warns.
+- Records [ADR-KI-PRINCIPAL-004](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/ADR-KI-PRINCIPAL-004-provider-neutral-isolated-agent-execution.md) to 006 appear after 007 in [Decisions](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/Decisions.md), so INDEX-8 warns.
 - In the harness, MD051 and CAP-2 belong to the sessions behind the ki-pmo commits. SCR-11, in both repositories, belongs to whoever owns the commit-gate shape.
 - The empty `+/_THREADS/` directory is left in Knowledge Islands Principal, because `ki agent status` still records this run's path there. No new file has landed in it.
 - `desk-kit` stays on the defer list. Its folder no longer exists.
