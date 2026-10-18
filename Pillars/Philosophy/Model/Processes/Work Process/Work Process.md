@@ -205,13 +205,13 @@ Streams/
 
 ## Banner
 
-A report shows its state in rich text. The heading's glyphs come first and the last glyph is whose move it is: 🤖 an agent, 🧑 Kris, 👤 a named target, ⏸️ nobody until the release, 🏁 nobody. A settled state shows its holder's glyph alone: `🤖 With worker`, `🧑 With supervisor`, `⏸️ On hold`, `🏁 Finished`. An arrow appears only in a handoff state, pointing to whose move it is: `🤖 → 🧑 Handoff to supervisor`, `🧑 → 🤖 Handoff to worker`, `→ 👤 Handoff to <target>`. The heading gives the state in role words; a line of counts follows; then the list `- [state] what · holder · since`. The counts and lists say "with you", because they are views by holder. The report's form line takes the same prefix, as in **🤖 → 🧑 Handoff to supervisor · Summary at 23:52 BST · last mark 22:34 BST**.
+A report shows its state in rich text. The heading's glyphs come first and the last glyph is whose move it is: 🤖 an agent, 👤 Kris, 🎯 a named target, ⏸️ nobody until the release, 🏁 nobody. A settled state shows its holder's glyph alone: `🤖 With worker`, `👤 With supervisor`, `⏸️ On hold`, `🏁 Finished`. An arrow appears only in a handoff state, pointing to whose move it is: `🤖 → 👤 Handoff to supervisor`, `👤 → 🤖 Handoff to worker`, `→ 🎯 Handoff to <target>`. The heading gives the state in role words; a line of counts follows; then the list `- [state] what · holder · since`. The counts and lists say "with you", because they are views by holder. The report's form line takes the same prefix, as in **🤖 → 👤 Handoff to supervisor · Summary at 23:52 BST · last mark 22:34 BST**.
 
 An example of work with its worker:
 
 > ### 🤖 With worker · since 23:41 BST
 >
-> 🤖 2 running · 🧑 1 with you · ⛔ 1 blocked
+> 🤖 2 running · 👤 1 with you · ⛔ 1 blocked
 >
 > - [running] work-model · run/work-model · since 23:20
 > - [with you] WORK-HOME · owner · since 22:58
@@ -221,12 +221,12 @@ And on hold:
 
 > ### ⏸️ On hold · paused until the harness migration lands · since 00:10 BST
 >
-> ⏸️ drained · 🧑 0 with you · 🅿️ 9 queries parked
+> ⏸️ drained · 👤 0 with you · 🅿️ 9 queries parked
 >
 > - [on hold] committed and pushed in ki-principal and ki-agentic-harness · since 00:10
 > - [release] after the harness migration lands, or `resume`
 
-The other headings follow the same form: `🧑 With supervisor`, `🤖 → 🧑 Handoff to supervisor`, `🧑 → 🤖 Handoff to worker`, `→ 👤 Handoff to <target>`, where the target is other work, a run or a person, `⏸️ On hold · more expected` and `🏁 Finished`. A stuck worker's send reads `🤖 → 🧑 Handoff to supervisor · blocked`. The send line appears only when the work is in handoff to Kris; on hold, the hold report gives the resume that lifts it. The hold report keeps its name and its Done, Parked and Left over sections.
+The other headings follow the same form: `👤 With supervisor`, `🤖 → 👤 Handoff to supervisor`, `👤 → 🤖 Handoff to worker`, `→ 🎯 Handoff to <target>`, where the target is other work, a run or a person, `⏸️ On hold · more expected` and `🏁 Finished`. A stuck worker's send reads `🤖 → 👤 Handoff to supervisor · blocked`. The send line appears only when the work is in handoff to Kris, and it and the resume name the checkout their session must be grounded in, the primary checkout of the repository holding the work file; on hold, the hold report gives the resume that lifts it. The hold report keeps its name and its Done, Parked and Left over sections.
 
 **Answers.** An owner report carries no copyable reply block. Each query keeps its Context, its one-sentence Query and its lettered Options, the recommended option first with its confidence. Kris answers in speech; the worker reads each answer back as taken in the decisions log and asks one line where an answer is unclear.
 
