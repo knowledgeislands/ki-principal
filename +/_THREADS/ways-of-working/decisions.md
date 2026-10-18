@@ -942,3 +942,15 @@ I think once we've got this ways of working all fully bottomed out, we can do a 
 Can you make sure that everything that you're doing is committed and pushed, and also you've tied up for a few things? Also, when are we planning to do the rollout to move from the threads and checkpoints into this new work structure and a review of all the items that are in it? Also, the same whenever we're going to apply the changes to initiatives and the streams to become themes."
 
 Taken as: ki-pmo's name may also no longer fit (with ki-checkpoint and ki agent); a skills audit follows once the work model is finished; tidy the thread folder, confirm everything is committed and pushed, and say when the migration moves checkpoints and threads into +/_WORK with a review of each item, and when Streams/Initiatives becomes Streams/Themes.
+
+## 2026-10-18 02:19 BST - MIGRATION-REVIEW, SKILL-NAMES, TITLE-THEME, WORK-THEME-SLUGS, TARGET-GLYPH, MIGRATION-LAUNCH
+
+Kris, as received: "Okay, so I'm going through your queries. I guess we could do the migration review where I do that, but maybe the way to do it is to put everything which you're confident in into the work folder and then put everything else into a underscore work review folder or something like that and then you can continue and get everything done. You can get everything looking like it's working, but you're not waiting on me to answer those, and then we can pick up on the review ones later. Yeah, I think we need to keep the skill names the same for now. Although I think I don't well, I'm wondering what the checkpoint one does anymore, but yes, let's come back to the naming of the skills and the naming of the agents of demand on the KI tool. Yes, the title theme, I go with your recommendation. And yes, I think we should use the work theme slugs as you recommend. A target glyph, yeah, I think using a profile picture like that is better than a person or a man or a woman picture, so that's much better choice and I think here we should start the migration launch. Let's get everything ready to go then and I'll get the other threads all sorted out. Now, the important thing is that the other machine has checked in all of its work, and therefore I'm putting literally virtually all of the territories on hold so that you can have a really good run of getting this done."
+
+Taken as:
+
+- MIGRATION-REVIEW: step 3 moves every item it is confident in into +/_WORK/ and every other item into +/_WORK_REVIEW/, without waiting on Kris; Kris reviews those later.
+- SKILL-NAMES a): keep skill names and `ki agent` for now; their names, and whether ki-checkpoint still has a job, go to the skills audit.
+- TITLE-THEME a), WORK-THEME-SLUGS a), TARGET-GLYPH a) (👤 for every target).
+- MIGRATION-LAUNCH a): start now. Kris is putting nearly all territories on hold for a clear run; the other machine has checked in its work.
+Acted on: run migrate-phase1 (ki-agentic-harness), which first folds these answers into the migration brief.
