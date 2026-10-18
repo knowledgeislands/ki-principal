@@ -1377,3 +1377,9 @@ Read back:
 ## 2026-10-18 10:37 BST - coordinator note, OBS-RETIRE-HOLD
 
 obs-answers asked whether KI-OBSERVA-VIS-028 stays an adopted draft on hold, waiting for phase 5. Taken as already decided by Kris's OBS-SESSIONS-RETIRE a) ("capture a retirement record, blocked on phase 5"): kept on hold. Not raised to Kris as a separate query; reported in the next update.
+
+## 2026-10-18 10:45 BST - owner message
+
+> Sorry, I got distracted again, so can you give me an update on what you need from me, and where we are with restarting the other threads?
+
+Read back: give a Summary in owner-report form with every open query, and the state of restarting the other works (sessions) under the renamed skills and work model. No decision taken.
