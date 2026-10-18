@@ -36,7 +36,7 @@ Prior urgent drift final outcome was checked in the [retained report](urgent-dri
 
 Previous SSH evidence, broader source delivery, Rig apply and job activation holds remain intact. No SSH, firewall, Headroom, scheduler, credential or other environment mutation occurred beyond the explicitly authorised bootstrap. No remote call, push, acceptance or pruning occurred.
 
-Documentation preservation: this report, the request brief and its latest authority entry are the only intended commit paths in ki-principal. Commit and gate receipt will be recorded in the run-state handoff after the commit attempt.
+Documentation preserved in local commit `e9565f80b224012fca2b61bad6cd088e499156d7`: only this report, the owned brief and latest authority entry. Report Markdown check, lint-staged, syncpack check and hook-backed three-path Knowledge Base audit passed; committed paths were inspected explicitly. The audit also reported four out-of-scope STREAM-10 warnings, each read: chezmoi, mac-studio-setup, paperclip-capture-and-rebuild and website Project notes lack close-out assessments despite no open records. No assessment or work record was changed. This receipt is preserved in a follow-up report-only commit; the final commit identifier is retained in the protected runtime receipt. No source implementation gate or source commit was made.
 
 ## In Progress
 
