@@ -13,4 +13,4 @@ while read -r note; do edit "$note" "$SCRATCH/activity.sed"; done < <(grep -rl -
 say "By hand"
 hand "Briefings Activity, Schedule and Tending Activity: name the territory's regular work, ki.regular, as each one's home, taking the Model page's Recurring work paragraph"
 
-commit "docs(admin): Activities name the Model theme"
+commit "docs(admin): activities name the Model theme"

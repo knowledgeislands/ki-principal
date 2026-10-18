@@ -60,4 +60,4 @@ hand "rewrite Themes.md (was Initiatives.md) as the theme index; reword Initiati
 hand "Streams/Roadmap/Roadmap.md: [[Themes|Initiative]] reads as theme"
 hand "git rm the empty Streams/Initiatives folder once nothing is left in it"
 
-commit "docs(streams): Initiatives become themes in Streams/Themes"
+commit "docs(streams): initiatives become themes in Streams/Themes"

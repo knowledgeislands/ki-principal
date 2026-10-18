@@ -94,7 +94,7 @@ while IFS=$'\t' read -r id where confidence checkpoint thread project theme titl
         /^## / {
           heading = substr($0, 4)
           if (heading ~ /^(Pick-up|Next step)/) part = "next"
-          else if (heading ~ /^Open (questions|queries)/) part = "parked"
+          else if (heading ~ /^(Open|Parked) (questions|queries)/) part = "parked"
           else { part = "drop"; gone = gone (gone ? ", " : "") heading }
           next
         }
