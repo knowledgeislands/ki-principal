@@ -996,3 +996,9 @@ Taken as: from now on every timed update in this thread carries three short line
 Kris, as received: "can you prompt me"
 
 Taken as: put RUN-SHAPE to Kris as a prompt with options.
+
+## 2026-10-18 02:48 BST - RUN-SHAPE (answered), PHASE2-RELEASE
+
+Kris, as selected: RUN-SHAPE - "This thread does it (Recommended)": this thread runs phases 2-4, edits tools-ki and the on-hold projects' checkouts, and gives each project (observatory, tools burndown) a prioritised bring-up item for its product work. Release - "Yes, one release (Recommended)": this thread cuts one tools-ki release through Homebrew once phase 2 passes its checks, and asks before any follow-up release.
+
+Taken as: PHASE2-OWNER answered with RUN-SHAPE; migrate-phase2 queued in tools-ki behind migrate-phase1.
