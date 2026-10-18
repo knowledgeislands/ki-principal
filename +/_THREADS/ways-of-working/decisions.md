@@ -1050,3 +1050,9 @@ Taken as: migrate-phase2 works in its own tools-ki worktree from origin and leav
 Kris, as received: "I'm looking at the rebase, is that blocking?"
 
 Taken as: Kris is handling the stuck tools-ki rebase; TOOLS-KI-REBASE waits on Kris saying the checkout is clean (or "worktree"). Answered: yes, it is the critical path for phase 2 and so for the Capital apply. Meanwhile launched bring-up, read-only, to draft the bring-up items and restart prompts for the observatory and tools threads.
+
+## 2026-10-18 03:50 BST - CLEAN
+
+Kris, as received: "Okay, I think the file system should be stable now."
+
+Taken as: TOOLS-KI-REBASE resolved by Kris; migrate-phase2 relaunched as migrate-phase2b in the main tools-ki checkout, stopping only if a rebase is still in progress; it pushes any commits stacked beneath its own fast-forward, naming them. BRINGUP-PROJECT stays open.
