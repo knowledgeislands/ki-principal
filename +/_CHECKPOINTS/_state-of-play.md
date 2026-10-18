@@ -11,7 +11,7 @@ updated_at: 2026-10-17T12:58:00Z
 
 ## Pick-up - mark 2026-10-15T15:14:39Z (16:14 BST)
 
-- **Status:** rest, wrapped up for ways of working's updates (WRAP-UP, 2026-10-18 01:45 BST). Running: nothing. 2026-10-18: obs-fold folded Command centre into the Observatory Project; dispatch-handover routed Personal's Acquire > Dispatch handover to knowledge acquisition; first-steps acted on ways of working's READY. Kris has resumed the Observatory and tools burndown; knowledge acquisition's resume line was given and is recommended next. Open query: MS3-SPLIT (dispatch-handover report; HNR submission 19 October).
+- **Status:** rest, wrapped up for ways of working's updates (WRAP-UP, 2026-10-18 02:19 BST). Running: nothing. 2026-10-18: obs-fold folded Command centre into the Observatory Project; dispatch-handover routed Personal's Acquire > Dispatch handover to knowledge acquisition; first-steps acted on ways of working's READY. Kris has resumed the Observatory and tools burndown; knowledge acquisition's resume line was given and is recommended next. Open query: MS3-SPLIT (dispatch-handover report; HNR submission 19 October).
 - **Resume:** `Resume Master: state-of-play under current ki-pmo and ki-delegation since 2026-10-15T15:14:39Z: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.`
 - **Next steps, in order:**
   0. Act on Kris's answer to MS3-SPLIT (dispatch-handover report). PILOT-SEED at a session with the terra checkout (decisions log, 18 October).
