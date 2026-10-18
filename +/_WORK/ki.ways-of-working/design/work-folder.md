@@ -154,7 +154,7 @@ Two entry-point commands would make the contract mechanical rather than hoped fo
 - `ki work message <id> <line>`: appends one shaped Messages line and commits that path alone.
 - `ki work prune <id> [--write]`: lists prune candidates and, with `--write`, runs `git rm` on the named ones in one commit. Run by the work's own steward only.
 
-Folding, under VISIBLE-PUSH: the rubric and skeleton parts fold into [KI-HARNESS-GOV-200](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md) (triage, already the closed-list record), and the ownership lines into the rename work under WORK-FOLDER-DEDUP. The close-gate parse and the two commands need one tools-ki record, since [KI-TOOL-KI-CLI-147](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-147-agent-state-folder-tooling.md) is done.
+Folding, under VISIBLE-PUSH: the rubric and skeleton parts fold into [KI-HARNESS-GOV-200](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md) (triage, already the closed-list record), and the ownership lines into the rename work under WORK-FOLDER-DEDUP. The close-gate parse and the two commands need one tools-ki record, since [KI-TOOL-KI-CLI-147 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/a22214ee581b73a1f395da88f9a118ad89814bb9/docs/roadmap/KI-TOOL-KI-CLI-147-agent-state-folder-tooling.md) is done.
 
 ## 5. Name
 

@@ -6,7 +6,7 @@
 
 ## Done
 
-- [KI-TOOL-KI-CLI-133](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-133-retired-reports-come-back.md) is Ready, committed and pushed to `main` as `6736178` (record only). `ki repo audit --skill ki-work-roadmap` and rumdl pass.
+- [KI-TOOL-KI-CLI-133 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/a22214ee581b73a1f395da88f9a118ad89814bb9/docs/roadmap/KI-TOOL-KI-CLI-133-retired-reports-come-back.md) is Ready, committed and pushed to `main` as `6736178` (record only). `ki repo audit --skill ki-work-roadmap` and rumdl pass.
 - **Reproduced** against the installed `ki`, in a throwaway repo under `/tmp` with `KI_STATE_HOME` pointed at a temporary directory (since removed; no real run, thread folder or checkout touched). `ki agent decide` and `ki agent close` both re-copy a retired report as an untracked file whenever the state folder still holds a copy. `launch`, `queue` and `new` do not.
 - **Build:** the installed `ki` runs tools-ki's working-tree source (`bun .../src/main.ts`), so it is HEAD and behaves identically.
 - **Root cause:** `adoptStateFiles` treats "present in the thread folder" as "delivered", so a retired report looks undelivered. The 55 state copies were left over from hand-copying before the launcher became the writer; the later `decide` calls adopted them.
@@ -21,9 +21,9 @@ Nothing. No source change has been made.
 
 ### CLI-133-DELIVER
 
-**Context:** [KI-TOOL-KI-CLI-133](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-133-retired-reports-come-back.md) is Ready with the Git-history skip rule above, a small change in `src/core/agent/thread.ts` plus tests and documentation.
+**Context:** [KI-TOOL-KI-CLI-133 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/a22214ee581b73a1f395da88f9a118ad89814bb9/docs/roadmap/KI-TOOL-KI-CLI-133-retired-reports-come-back.md) is Ready with the Git-history skip rule above, a small change in `src/core/agent/thread.ts` plus tests and documentation.
 
-**Query:** Do you give the go-ahead to deliver [KI-TOOL-KI-CLI-133](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-133-retired-reports-come-back.md) now?
+**Query:** Do you give the go-ahead to deliver [KI-TOOL-KI-CLI-133 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/a22214ee581b73a1f395da88f9a118ad89814bb9/docs/roadmap/KI-TOOL-KI-CLI-133-retired-reports-come-back.md) now?
 
 **Options:**
 

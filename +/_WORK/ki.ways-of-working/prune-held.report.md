@@ -74,7 +74,7 @@
     - knowledge-acquisition
     - ki
     - personal acquire
-  - [KI-TOOL-KI-CLI-143](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-143-separate-local-harness-paths.md):
+  - [KI-TOOL-KI-CLI-143 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/a22214ee581b73a1f395da88f9a118ad89814bb9/docs/roadmap/KI-TOOL-KI-CLI-143-separate-local-harness-paths.md):
     - tools-burndown
     - chezmoi
     - KI-TOOL-KI-CLI-142

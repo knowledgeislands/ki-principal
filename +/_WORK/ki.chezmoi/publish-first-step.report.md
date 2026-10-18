@@ -40,7 +40,7 @@ Review gate after prerequisite repairs: rerun `ki repo audit --repo .`, `node --
 
 Proposed verification accompanying that future approval: check targeted status and diff, review `ki repair --dry-run` and obtain the bounded live-repair authority before applying its expected user-skill projection changes; verify replacement and retired links, focused tests, KI doctor and full diagnostics, protected config bytes and active harness identity. This run grants or exercises none of those mutations.
 
-Outstanding - no action requested now: Sol config-byte recovery and real-host reverification still depend on the reviewed source apply and link repair. The previous exact-byte failure remains authoritative; no actual Terra pass is available. Keep the shared locals source table until both real-host passes and a separate reviewed removal/apply. Existing [migration follow-up](</Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-143-separate-local-harness-paths.md>) evidence is not replaced by matching parsed values or fixtures.
+Outstanding - no action requested now: Sol config-byte recovery and real-host reverification still depend on the reviewed source apply and link repair. The previous exact-byte failure remains authoritative; no actual Terra pass is available. Keep the shared locals source table until both real-host passes and a separate reviewed removal/apply. Existing [migration follow-up (pruned)](https://github.com/knowledgeislands/tools-ki/blob/a22214ee581b73a1f395da88f9a118ad89814bb9/docs/roadmap/KI-TOOL-KI-CLI-143-separate-local-harness-paths.md) evidence is not replaced by matching parsed values or fixtures.
 
 Outstanding - no action requested now: firewall-first work, seat bindings, Paperclip safeguards, SSH-console documentation and TOML opener work retain their order and prerequisites. Broad source rollout, jobs, Rig apply, packages, services, harness changes and receiver-owned work remain held; connection-critical work still requires its tested restore path. No unexpected publication stack remains blocked at this run’s final check. The pending handoff is the uncommitted chezmoi repair on Sol/main and its failed gate, not unpushed commits from this run.
 
@@ -108,7 +108,7 @@ b) Plan bring-up gaps 7 to 9 separately for review.
 
 ### HOST-LOCALS-BYTES - retain real-host verification
 
-**Context:** The Sol bootstrap changed config presentation despite equal parsed TOML. The writer correction is installed, but protected-byte recovery, prerequisite apply/repair and actual Terra proof remain outstanding under the [migration follow-up](</Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-143-separate-local-harness-paths.md>).
+**Context:** The Sol bootstrap changed config presentation despite equal parsed TOML. The writer correction is installed, but protected-byte recovery, prerequisite apply/repair and actual Terra proof remain outstanding under the [migration follow-up (pruned)](https://github.com/knowledgeislands/tools-ki/blob/a22214ee581b73a1f395da88f9a118ad89814bb9/docs/roadmap/KI-TOOL-KI-CLI-143-separate-local-harness-paths.md).
 
 **Query:** How should the byte failure be resolved before either host is treated as passed?
 

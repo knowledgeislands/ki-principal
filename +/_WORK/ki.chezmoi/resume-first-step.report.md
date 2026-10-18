@@ -26,7 +26,7 @@ Current Rig check: unhealthy, 1 finding, 241 passed checks and 17 skipped; UTM h
 
 Current KI check: version 0.11.2; doctor fails on the two retired configured skill names (15 pass, 2 fail), while diagnostics has 0 errors and 1 warning that config locals are ignored in favour of host-local state. No bootstrap, repair, live on/off command or harness switch was run.
 
-Migration review: read the [byte-preservation follow-up](</Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-143-separate-local-harness-paths.md>) and locally available actual handoffs; no verified Terra host pass was found. The [prior Sol failure and protected evidence](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.chezmoi/host-locals-sol.report.md>) remain authoritative, not the implementation fixtures or matching paths.
+Migration review: read the [byte-preservation follow-up (pruned)](https://github.com/knowledgeislands/tools-ki/blob/a22214ee581b73a1f395da88f9a118ad89814bb9/docs/roadmap/KI-TOOL-KI-CLI-143-separate-local-harness-paths.md) and locally available actual handoffs; no verified Terra host pass was found. The [prior Sol failure and protected evidence](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.chezmoi/host-locals-sol.report.md>) remain authoritative, not the implementation fixtures or matching paths.
 
 Live config SHA-256 remains `c61124f13a65c35b578ac065ab625d1a50a7193aed1978e309f88813e29ad47a`, identical before and after this run; the original pre-failure bytes remain in the earlier protected evidence. No config-byte recovery is claimed.
 
