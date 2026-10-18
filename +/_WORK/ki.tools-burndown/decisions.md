@@ -1,268 +1,56 @@
 # Decisions
 
-## Decision 1 (2026-10-14T10:59:11Z)
+Struck at the mark of 2026-10-18T18:09:07Z. Git history holds every struck entry; [historical-decisions.md](design/historical-decisions.md) keeps the 11 to 14 October log as evidence.
 
-home: +/_CHECKPOINTS/platform-foundations.estate-factorisation.md
+## Standing push and branch-delete authorities (16 October)
 
-- Resume under current ki-pmo and ki-delegation since last mark: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner.
+Kris, 16 October 01:05 BST: "stop to ask me before any ki or mgit release", and from Master: state-of-play: "Remote branch deletes and any ki or mgit release ask me first."
 
-## Resume authority (2026-10-14T11:02:57Z)
+Kris, 16 October 21:40 BST, UNPUSHED-COMMITS: "Push ki-principal's 16 commits fast-forward now and at each resting point, other sessions' included". Standing: push ki-principal fast-forward at each resting point.
 
-home: +/_CHECKPOINTS/platform-foundations.estate-factorisation.md
+## One tools-ki writer (16 October)
 
-Owner instruction received 14 October 2026: "Resume under current ki-pmo and ki-delegation since last mark: re-bootstrap, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner."
+OWNER-LANE a), taken under BURN-OVERNIGHT on 16 October: "tools-burndown runs the only tools-ki writer for all in-scope records; tell the ways-of-working and knowledge-acquisition threads through Messages from Master, and they keep priority and acceptance input."
 
-This worker has no background-subagent, acceptance, prune, deletion, release or provider authority. It may preserve tracked thread knowledge and update this checkpoint, verify documentation, commit by explicit path through the managed-config guard and publish own-only fast-forward if safe. Earlier runtime decisions are retained in historical-decisions.md as evidence, without asserting that their quotations are newly verified or that a proposed reply was approved. Complete receiver boundaries and open points remain in the checkpoint.
+## tools-ki deferred until ki 0.10.6 (18 October)
 
-## Decision 2 (2026-10-14T20:22:55Z)
+FIRST-STEP, the Ways of working hand-back of 04:02 BST, acted on at 18:10 BST: tools-ki is left alone until migrate-phase2b reports ki 0.10.6 here; the ki release and `.github/ki-version` bump are dropped from this work (Ways of working owns them); KI-TOOL-KI-CLI-127 joins the tools-ki ki-accept group.
 
-home: +/_CHECKPOINTS/platform-foundations.estate-factorisation.md
+## ACCEPT-PRUNE (18 October)
 
-- Re-bootstrap under current ki-pmo and ki-delegation (ki-agentic-harness main at daa63224 or later; pull first): re-read the ki-pmo standard and your checkpoint in full, take a new mark, give a fresh full summary in the current report shape with every open query and the full stacked reply block, take stock, restart authorised work, then banner.
+Kris, 18 October, relayed by Ways of working: "anything which is awaiting acceptance can be accepted, and then we can prune anything which is in a state of done". Read back as taken:
 
-Commit everything: the thread commits, by explicit path, all work it does or oversees. At each report and resting point, check that every finished agent's work is committed and pushed in its repository, and commit your checkpoint and +/_THREADS/<run>/ folder. Name any uncommitted or unpushed work in the report rather than leaving it silent.
+- tools-rig: accept KI-TOOL-RIG-CORE-060 on its recorded verification evidence, and prune it once Done. Other Rig work's records are left to their owners.
+- tools-mgit and tools-git-almanac: accept each Awaiting review record whose verification evidence is recorded, list those without it, and prune the Done ones. KI-TOOL-MGIT-CLI-017, -024 and -025 are left to Ways of working.
+- tools-ki: deferred until 0.10.6 has been released.
+- MCP repositories: none is in this work's scope, so they are listed but not acted on (MCP-SCOPE).
 
-Clean up +/_THREADS state: at this mark and every mark after, delete by explicit path every report in your +/_THREADS/<run>/ folder whose queries are all answered and whose outcome has a durable home; keep only reports with open queries and decisions.md, with Git history holding the rest. Commit the deletions.
+## PRUNE-SWEPT (18 October)
 
-Heartbeat (not yet in ki-pmo; apply it now): while dispatched work runs, wake at least every 5 minutes, or sooner when an agent finishes, using a background check that exits on any agent finishing or after 5 minutes and is then re-armed. Each wake gives a one-to-two-line timed update naming each running agent's current step from ki agent status. No heartbeat at rest.
+Kris, 18 October 19:09 BST, "agreed with all the recommendations": `3a33d51` in tools-rig stands as the prune of KI-TOOL-RIG-CORE-060. This is an exception to the prune-only-commit rule, recorded here.
 
-Caveat for ki-principal: its pre-commit gate still audits the whole tree and fails on STREAM-9 in Streams/Projects/mac-studio-bootstrap/mac-studio-bootstrap.md, so commits there are blocked until the scoped gate (ki repo audit --staged) lands from the ways-of-working thread's gate-release run. Until then, tidy and report but leave ki-principal changes uncommitted and say so, never use --no-verify, and commit them through a private index by explicit path at your next mark after the gate switches. Work in other repositories commits and pushes as normal.
+## MGIT-OVERTAKEN (18 October)
 
-## Decision 3 (2026-10-14T20:28:38Z)
+Kris, 18 October 19:09 BST, "agreed with all the recommendations": MGIT-PLAN and MGIT-REVIEW-LOWS are closed as overtaken by KI-TOOL-MGIT-CLI-020, -021, -022 and -025. This work keeps only the prune of the Done mgit records, KI-TOOL-MGIT-CLI-020, -021 and -022, keeping -017, -018 and -019 for Ways of working.
 
-home: +/_CHECKPOINTS/platform-foundations.estate-factorisation.md
+## RIG-TARGET-SPEED-LOAD (18 October)
 
-- We are getting close to our token limits and have already hit the limit on fable. Prioritise mechanical work and a lower model level to optimise remaining allowance until reset. Preserve work already in flight; do not infer new delivery, closure or release approval.
+Kris, 18 October 19:09 BST, "agreed with all the recommendations": Rig's configuration-load cost is left as it is, and no record is captured.
 
-## Accountability reconciliation (2026-10-14T20:25:02Z)
+## KI-TOOL-KI-CLI-139 "Decision 55" deferral (18 October)
 
-This is an audit annotation, not a new owner quotation or a re-numbering of historical decisions. The exact 14 October owner file has SHA-256 `f4e2b3fc8c234370e5ad359303091622a1fd86baccf2ff0de3c699b821a7b312`; its full instruction is already preserved in the owner entry above. Earlier quotations remain historical evidence and are not newly certified from a transcript. Proposed replies remain proposals. The owner instruction and the scoped run packet authorise this bounded mark, audit, working-rule refresh and report; no background subagents, acceptance, work-record prune, release, provider or held operation.
+Kris, 18 October 03:55 BST: "we're in the process of moving some of the decisions around so that might be confusing to you." Read back as DECISION-55-CITATIONS: leave -139's citations while the decisions move; revisit after (source: hnr-principal 5g-emerge-phase3 decisions, SRC-TOOLING, 16 October).
 
-- Historical entry 1: operational. Bootstrap and scope boundaries; checkpoint and original operational log. Source: [historical log](historical-decisions.md#decision-1-2026-10-11).
-- Historical entry 2: operational. Observatory adoption/planning; accepted delivery packet in Git. Source: [historical log](historical-decisions.md#decision-2-2026-10-11).
-- Historical entry 3: operational. Prioritise existing delivery and return defects; published deliveries. Source: [historical log](historical-decisions.md#decision-3-2026-10-11).
-- Historical entry 4: operational. Parallel tooling work through agents; completed run packets and reports. Source: [historical log](historical-decisions.md#decision-4-2026-10-11).
-- Historical entry 5: rule. Territory names and source/configuration owner boundaries; receiving governance and historical log. Source: [historical log](historical-decisions.md#decision-5-2026-10-11).
-- Historical entry 6: operational. Accept completed in-scope deliveries; published Rig Done packets and history. Source: [historical log](historical-decisions.md#decision-6-2026-10-11).
-- Historical entry 7: operational. Tool/app/MCP/tap burndown objective; this checkpoint and Project. Source: [historical log](historical-decisions.md#decision-7-2026-10-11).
-- Historical entry 8: operational. Capital stores and aliases plan handoff; tools-ki accepted delivery, external governance carry retained. Source: [historical log](historical-decisions.md#decision-8-2026-10-11).
-- Historical entry 9: operational. KI close-out preparation and owner gates; published acceptance/prune history, release carry retained. Source: [historical log](historical-decisions.md#decision-9-2026-10-12).
-- Historical entry 10: operational. Whole-scope review and triage recommendations; reports, no inferred adoption. Source: [historical log](historical-decisions.md#decision-10-2026-10-12).
-- Historical entry 11: operational. Adopt held writes/Dock/guards and patch planning; actual adoption commits, later dispositions supersede. Source: [historical log](historical-decisions.md#decision-11-2026-10-12).
-- Historical entry 12: operational. Accept evidenced awaiting-review work and prune eligible Done; actual closure/deletion commits. Source: [historical log](historical-decisions.md#decision-12-2026-10-12).
-- Historical entry 13: operational. Vega prerequisite/readiness preparation; receiver-owned rebuild subsequently completed. Source: [historical log](historical-decisions.md#decision-13-2026-10-12).
-- Historical entry 14: operational. Route owner-led rebuild to agent-host; receiving log and operator runbook. Source: [historical log](historical-decisions.md#decision-14-2026-10-12).
-- Historical entry 15: held. Investigate any-host reservations and release local planning; reservation policy remains unapproved, Dock approved Ready, patching completed, guards later re-held. Source: [historical log](historical-decisions.md#decision-15-2026-10-12).
-- Historical entry 16: rule. Burn down without new feature records; current thread rules and owner instruction. Source: [historical log](historical-decisions.md#decision-16-2026-10-14).
-- Historical entry 17: rule. Re-anchor, report fully and preserve publication/restore gates; current thread rules. Source: [historical log](historical-decisions.md#decision-17-2026-10-14).
-- Historical entry 18: operational. Checkpoint refresh and bounded local message recovery; published refresh commits. Source: [historical log](historical-decisions.md#decision-18-2026-10-14).
+## CONSUMER-MIGRATE (17 October)
 
-The two current resume instructions, the bounded resume-authority annotation and the concurrent 14 October allowance instruction are operational; preserve in-flight work and prioritise mechanical work without widening authority. Their durable reconstruction home is the [estate-factorisation checkpoint](../../_CHECKPOINTS/platform-foundations.estate-factorisation.md), with audit evidence and the current full report in this thread folder. The older full reports remain until every query answer and durable home is proven. No standalone decision has been newly adopted here; HOST-WRITES remains an unadopted policy proposal, not a homeless accepted decision.
+Kris, 17 October: "Wait for the mgit release, then migrate the chezmoi dot_mgit.toml source and the live manifest together."
 
-### Report retention applied 2026-10-14T20:37:46Z
+## DIGESTS-SCAFFOLD (17 October)
 
-Operational bookkeeping under the owner instruction of 14 October: coordinator removed these five hash-verified, answered and durably homed reports; all had tracked remote history. Remaining reports stay open or unverified. Deletions are uncommitted under the after-mark gate exception; commit by explicit path through a private index at the next mark.
+Kris, 17 October: "Keep -/_DIGESTS/ as the declared scaffold."
 
-- `+/_THREADS/tools-burndown/dock-plan-resume.report.md`
-- `+/_THREADS/tools-burndown/obs-correct.report.md`
-- `+/_THREADS/tools-burndown/patching-plan.report.md`
-- `+/_THREADS/tools-burndown/rig-correct.report.md`
-- `+/_THREADS/tools-burndown/rig-deliver.report.md`
+## Pointers
 
-## Decision 4 (2026-10-14T21:07:05Z)
-
-home: +/_CHECKPOINTS/platform-foundations.estate-factorisation.md
-
-- STORE-REPAIR
-
-Adopt KI-TOOL-KI-CLI-126 for planning through Techne: agent-host. Agree the tools-ki writer first; implementation remains separately gated.
-
-Record: /Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-126-unavailable-store-breaks-repair.md
-
----
-
-HOST-WRITES
-
-Keep the replacement-policy investigation parked with Techne: agent-host. Retain current writing-checkout policy and create no replacement record.
-
-Receiver: /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_CHECKPOINTS/techne.agent-host.md
-
----
-
-HOST-GUARDS
-
-Retain KI-TOOL-TECHNE-CLI-006 on Hold through Techne: agent-host, with review on 12 November. Require explicit receiver release and plan review before implementation.
-
-Record: /Users/krisbrown/workspaces/knowledge-islands/tools-techne/docs/roadmap/KI-TOOL-TECHNE-CLI-006-guarded-host-commands.md
-
-### Receiver-state reconciliation 2026-10-14T21:13:18Z
-
-Operational reconciliation of the approved STORE-REPAIR handoff: the separately authorised, already-published Ready / Now record in ways-of-working is preserved. This run does not infer implementation approval, propose a rollback, or ask Kris to repeat the adoption decision. Techne is asked to confirm the existing writer; no agreement is inferred from silence. HOST-WRITES and HOST-GUARDS are answered exactly as the owner instructed. At this annotation, Principal publication remained deferred to the next owner-authorised mark; the later 14 October commit instruction supersedes that deferral.
-
-## Decision 5 (2026-10-14T21:22:54Z)
-
-home: +/_CHECKPOINTS/platform-foundations.estate-factorisation.md
-
-- I can’t stress this enough and I’ll be saying this to every single thread, but it’s absolutely imperative that you commit your work.
-
-## Decision 6 (2026-10-15T09:54:22Z)
-
-Classification: operational. Durable home: the estate-factorisation checkpoint and drain-sol report. This is a drain, not authority for new delivery, release or foreign publication.
-
-> DRAIN FOR SOL (Kris, 15 October 2026). I am moving working to sol next. Bring this thread to a clean, recoverable rest now. Do not start new work and do not launch new background agents.
->
-> 1. Running work: let any background agent that will finish within about 15 minutes finish. Otherwise stop it at a safe point and record exactly where it stopped and how to restart it.
-> 2. Commit: in every repository this thread or its agents touched, commit your own finished work by explicit path, under the repository's gate. Never use --no-verify and never force-push. Leave work in progress uncommitted only if committing it would break something, and record it in the checkpoint instead.
-> 3. Push: pull with rebase, then push fast-forward only. If origin/main..HEAD holds another session's commits, or a rebase or merge is already in progress, do not push them or resolve it. Name it in your report.
-> 4. Make your recovery state durable: ~/.local/state/ki/agents/<run>/ does not travel to sol. Copy into your thread folder (+/_THREADS/<run>/) anything needed to resume: decisions.md, any report with open queries, and the brief of any unfinished run. Remove re-copied retired reports by explicit path (KI-TOOL-KI-CLI-133). Never git add the folder wholesale.
-> 5. Checkpoint: update it so a fresh session on sol can resume from it alone. Set running to nothing, then give the open queries, held and parked items, waiting-on items, the next step and the resume line. Commit and push it with the thread folder.
-> 6. Do not make a baseline or empty commit; Kris does that across all repositories afterwards. Do not tidy beyond the above; tidy-ups happen on sol.
-> 7. Finish with your owner report and REST banner. Per repository it lists: committed and pushed, anything unpushed and why, and anything uncommitted that belongs to another session (named, not touched). End with your resume line.
-
-## Decision 7 (2026-10-15T12:22:39Z)
-
-Classification: operational. Durable home: the estate-factorisation checkpoint and drain-sol report. Kris explicitly authorises this thread to reconcile the shared documentation history and publish it, superseding the drain restriction against carrying the named other-session commits for this bounded recovery. Preserve unrelated working files and staging, run normal gates, pull with rebase, and push fast-forward only. No product work, release or new agent is authorised.
-
-> so can you fix the commits, fix pulling and then pushing
-
-## Decision 8 (2026-10-15T15:04:22Z)
-
-Classification: operational. Durable home: the drained estate-factorisation checkpoint and Drain report. Kris explicitly orders a new drain mark, stopped work, repository-only recovery, explicit-path gated commits and fast-forward publication. The reusable ki-pmo update is for KI Model: ways-of-working only. No product work, new agent, release, baseline commit or foreign-file mutation is authorised.
-
-> DRAIN CHECK (Kris, 15 October 2026). A mark is a point in time. A drain is a mark plus stopping all work, so that the thread can be archived on terra and resumed on sol from the repository alone.
->
-> Park everything in the checkpoint. Strike a mark. Move every open query (tag, one-line context, recommended option), held item, parked item, waiting-on item and the next step into the checkpoint, set running to nothing and state to drained, and copy into the thread folder anything from ~/.local/state/ki/agents/<run>/ needed to resume. Remove re-copied retired reports by explicit path. Commit and push the checkpoint and thread folder.
-
-The final form is Drain report: Done, Parked and Left over; no Context/Query/Options and no reply block, followed by the owner-supplied DRAINED frame and sol resume line.
-
-## 2026-10-16 01:05 BST - Thread reopened as Fnd: tools-burndown
-
-Kris: "Open Fnd: tools-burndown as a coordination thread under ki-pmo ... dispatch the burn-down to background agents - chain same-repository work, about three at once, no new feature records beyond REPO-GIT-HYGIENE's one, and stop to ask me before any ki or mgit release - then banner."
-
-Kris, Messages from Master: "state-of-play now hold REPO-GIT-HYGIENE with STALE-BRANCHES, AUTOMATION-BRANCHES, UNPUSHED-COMMITS and STAGING-LEFTOVERS folded in; they are yours from 16 October 01:00 BST ... Start by checking what mgit already reports, capture the one ki-next triage record in tools-ki, route the rubric rule to KI Model: ways-of-working, and remove the lines once acted on. Remote branch deletes and any ki or mgit release ask me first."
-
-## 2026-10-16 01:40 BST - BURN-OVERNIGHT
-
-Kris: "Get through as many of these as you can to get the room up down as much as possible and focus on the ones which you have the most confidence in and also that there's a good overlap between some areas that have been tackled at the same time. I'm going to sleep for a few hours now."
-
-Applied as option a) for OWNER-LANE, STORE-REPAIR (up to evidence; acceptance stays with Kris), RETIRED-REPORTS, TRIAGE-ADOPT, RELEASE-CONTRACT, MGIT-RELEASE and STAGING-LEFTOVERS, and the ff-only levelling part of UNPUSHED-COMMITS. Not taken without an explicit answer, under Kris's standing "Remote branch deletes and any ki or mgit release ask me first": STALE-BRANCHES and AUTOMATION-BRANCHES deletes and PR closes (read-only re-check only), pushing other sessions' ki-principal commits, ki-accept, and any ki or mgit release.
-
-## 2026-10-16 21:40 BST - answers to the 03:24 BST Summary
-
-Kris, verbatim:
-
-> ACCEPT-WAVE: Dispatch one independent review agent across KI-TOOL-KI-CLI-126, KI-TOOL-KI-CLI-130, KI-TOOL-KI-CLI-133, KI-TOOL-KI-CLI-135, KI-TOOL-KI-CLI-123, KI-TOOL-KI-CLI-127 and KI-TOOL-KI-CLI-138, including a check of ki-principal's hosted CI run for KI-TOOL-KI-CLI-126; it reports findings only, and I then accept the clean ones with ki-accept.
->
-> PUSH-ORDER: Push tools-ki main's 22 commits from this thread's runs fast-forward now, with no --no-verify.
->
-> UNPUSHED-COMMITS: Push ki-principal's 16 commits fast-forward now and at each resting point, other sessions' included; Rig: chezmoi reconciles chezmoi, and ways-of-working answers OTHER-PUSH.
->
-> STALE-BRANCHES: Delete chezmoi's local agent/add-hermes-agent, plus chezmoi's phase7-sweep and ki-principal's hold/2026-10-15/working-state on origin; send every other branch with commits not on main to its territory thread.
->
-> AUTOMATION-BRANCHES: Close apps-knowledgeislands.info PR #23 and ki-agentic-harness PR #27 with "superseded by a later release", then delete the five automation/* branches on origin.
->
-> FOOTER-GRANTS: KI-TOOL-KI-CLI-134 delivers separate --allow fetch and --allow machine grants beside --rules <tier>, each a harness-owned section that lifts only the matching ban; the harness owner opens a ki-delegation record for the two grant texts, and KI-TOOL-KI-CLI-134 becomes Ready once that is agreed.
->
-> GOV-195-COLLISION: The harness session that owns f0f62c02 renumbers its thread-folder record to the next free KI-HARNESS-GOV identifier when it rebases, before pushing; tools-burndown then updates KI-TOOL-KI-CLI-137's reference.
->
-> HARNESS-FOLLOW-ONS: The next ki-agentic-harness session folds the four wording follow-ons (run events, ki-delegation flags, the coordinator-reminder Codex check, unique agent names) into KI-HARNESS-GOV-175 and lands them together.
->
-> DEPS-1-TYPES-NODE: The next tools-ki run in this thread adopts @types/node 26.6.4 with a frozen install, full test, type and audit gates, and one local chore(deps) commit.
-
-Applied as given. Standing from UNPUSHED-COMMITS: push ki-principal fast-forward at each resting point. Not answered, still open: TMP-HOME, DIGESTS-SCAFFOLD.
-
-## 2026-10-16 22:01 BST - answers to the 21:56 BST Summary, and MGIT-MEMBERS
-
-Kris answered PUSH-REBASE, ACCEPT-CLEAN, EVENTS-REPLAY, LIVE-CHECKS, GOV-195-RENUMBER, TOOLS-KI-BRANCHES and CI-RED-PRINCIPAL with option a) as written in that Summary's reply block, verbatim. Still open: TMP-HOME, DIGESTS-SCAFFOLD. ACCEPT-CLEAN, EVENTS-REPLAY and LIVE-CHECKS: Kris runs ki-accept once main is back; EVENTS-REPLAY authorises one new triage record.
-
-MGIT-MEMBERS, Kris, verbatim: "Please review and simplify external repository membership in tools-mgit. ... The current generated manifest puts the external checkout under registered.members, using its relative physical path as the key. I think it should simply be another members entry: the path identifies the member, and the entry should carry kind, type, and source like any other repository. ... Please assess and implement that model. ... Preserve the existing rule that repair does not unexpectedly clone external repositories. Handle migration from existing registered.members manifests deliberately. Verify that dotfiles is dispatched exactly once from both ~/workspaces/personal and ~/workspaces, including when its navigation symlink exists. ... Coordinate any consumer migration with that source; do not leave source and live manifests inconsistent. Do not apply unrelated chezmoi changes." (Full text in the thread transcript; the brief carries it whole.) Authorises one tools-mgit record for it. No mgit release without asking.
-
-## 2026-10-17 18:25 BST - RIG-TARGET-SPEED
-
-Kris, 17 October: "Investigate and fix slow single-target operations in tools-rig. ... Applying or previewing one scheduled-job target takes noticeably too long before reaching useful output. The example is scheduled-job:hnr-email-route-triage in profile laptop. Check targeted show as well. ... Measure phase timings ... Compare single-target operations with full-profile operations using disposable fixtures of different catalogue sizes. Reduce unnecessary work for selected targets while preserving configuration validation, profile/platform rules, dependency closure, repeated targets, scope restrictions, and unrelated-resource safety. Add regression coverage proving unrelated work is avoided, without brittle wall-clock assertions. ... Report before/after measurements and any remaining unavoidable cost. Boundaries: Do not enable, load, or execute the HNR mail job. Do not run mutating Rig operations against the real workstation. Do not read or print credential stores or mcporter configuration values. Commit locally by explicit path; do not push or release."
-
-Taken as a direct owner instruction for one tools-rig run, outside RESTART-ORDER's held work; launched as `rig-target-speed`.
-
-## 2026-10-17 22:25 BST - answers to the 18:14 BST Summary
-
-Kris, 17 October, in their words:
-
-- PUSH-REBASE-CODE: "Once restart is cleared, one tools-ki run checks that no live session still owns the rebase started at 01:16 BST and aborts it if none does; replays all 31 local commits onto origin/main, settling every clash including KI-TOOL-KI-CLI-139; checks -139's frontmatter and rewrites its two "Decision 55" citations by my words and date; repoints KI-TOOL-KI-CLI-137 to KI-HARNESS-GOV-200; runs the gate and pushes fast-forward."
-- MGIT-DIVERGE: "One tools-mgit run rebases the 4 local commits onto origin, merges the two KI-TOOL-MGIT-CLI-017 records into the one delivered record under that number, captures the MGIT-OUTPUT and MGIT-ESCAPE records, and holds the push until MGIT-ACCEPT."
-- BRANCH-PRUNE: "Delete the tools-ki paperclip KIS-46 origin branch; keep the granola branch for KI-TOOL-KI-CLI-128."
-- MGIT-ACCEPT: "An independent review run on KI-TOOL-MGIT-CLI-017, then I ki-accept it in the group, then push tools-mgit."
-- CONSUMER-MIGRATE: "Wait for the mgit release, then migrate the chezmoi dot_mgit.toml source and the live manifest together."
-- NOTE1A-HEADING: "Is this due to the triple separator? We can get rid of that using a different approach to the separator. If we could get the noise level down, we wouldn't even need it. What I really need to do is look aggressively at how we can quieten down the output in the thread of the tool responses and such. Because if we can get on top of that, and again, that might be something that works for a while and then seems to degrade, it might be something that needs to also be handled by a hook. If we got rid of that, we can just go to a single horizontal rule so we don't cause a problem and fix the other part." Routed to Ways of working, which owns ki-pmo.
-- DESK-KIT-ROUTE: "what is this?" Explained; query stays open.
-- TMP-HOME: "Use $TMPDIR/ki-agents/<run>/<name>/ for KI-TOOL-KI-CLI-137."
-- DIGESTS-SCAFFOLD: "Keep -/_DIGESTS/ as the declared scaffold."
-
-Launched now: mgit-diverge, mgit-review after it, branch-prune. PUSH-REBASE-CODE waits for RESTART-ORDER.
-
-## 2026-10-17 22:30 BST - ROADMAP-OVERVIEW and MGIT-VISION
-
-Kris, 17 October: "Can you give me an overview of what's left in the roadmap for each of the tools so I can get an understanding of what we're trying to achieve? We need to start getting this down because we've got 17 tickets for the KI tool, we've got 12 for rig. One of the key ones I want to do is make MGear better. ... So, for MGIT, what I want to do is have a command that the whole kind of raw and bare capability, but also have some things which give me, again, it could be similar. Like, we had the Git Almanac thing. I'm thinking I want some kind of Git something a bit more than status, it tells me things like what branches are, whether they're obsolete, in a really nice format and output. So similar to I think what we did with Almanac was amazing, so something similar that tells me what's outstanding across all the repos, I like a sync that's a better syncing than it is at the minute, because essentially it steps through every single one of them. Yeah, we just need a really good approach to these kinds of things. It's better to maybe plan out what we want, so that's why I want to know what the whole roadmap approach is."
-
-Launched read-only as `roadmap-overview`: the roadmap per tool plus a proposed mgit plan. Plan first, no implementation.
-
-## 2026-10-17 22:33 BST - DESK-KIT-ROUTE
-
-Kris, 17 October: "This is fully resolved. I've got my webcam with a mic and video camera on it, and it's working really well. So it meets all my needs at the minute. So we can get rid of that entire area."
-
-DESK-KIT-ROUTE closed. Launched `desk-kit-close` to retire the desk-kit area.
-
-## 2026-10-18 02:22 BST - WRAP-UP
-
-Kris: "We're going to do some quite big updates for "ways of working". So I think it's probably a good idea for you to wrap up any outstanding points you've got and make sure that you've persisted everything into the checkpoints and the threads." Acted on: FIRST-STEP (role added), TOOLS-PUSH and KI-QUIET folded into next steps; open queries regrouped for a quick sitting; nothing launched.
-
-## 2026-10-18 02:40 BST - MAINLINE-NOW
-
-Kris, on the tools-mgit and tools-rig commits held locally: "can you get it into main line ASAP". Read as: push tools-mgit and tools-rig main fast-forward now, ahead of acceptance; KI-TOOL-MGIT-CLI-017 and KI-TOOL-RIG-CORE-060 stay Awaiting review until Kris ki-accepts. tools-ki is not covered: another session's rebase owns it.
-
-## 2026-10-18 02:50 BST - TOOLS-KI-MERGE
-
-Kris: "I've put tools-ki back onto main locally, so can you do a merge and just resolve any conflicts to get it back onto the right track?" Read as: one tools-ki run merges origin/main into local main (merge, not rebase), settles every clash, carries the content edits of the 17 October PUSH-REBASE-CODE answer (-139 frontmatter and "Decision 55" citations, -137 repointed to KI-HARNESS-GOV-200 with TMP-HOME and the tools-ki state tooling), runs the gate and pushes fast-forward. No release: TOOLS-RELEASE is still open.
-
-## 2026-10-18 03:55 BST - HOLD for the ways-of-working updates
-
-Kris: "we're in the process of moving some of the decisions around so that might be confusing to you. And we don't need to quit release yet because there's gonna be some more things coming, I think unless you are told to do that. But yeah, we do need to do one soon, so let's keep on top of that. Yeah, I think also it'd be good to get as much of the robot stuff done as possible. Bearing in mind there might be someone else acting in that repository. Yeah, any work that you've done is good, except it. Yeah, the desk kit stuff is gone so you can go to that." Then: "That said, I prefer if you didn't make any coding changes right now, that your system might get changed pretty soon, so probably the idea to do is just to hold where you are."
-
-Read back as taken:
-
-- TOOLS-RELEASE: no ki release until told; one is due soon, so keep it on the next steps.
-- DECISION-55-CITATIONS: leave -139's citations while the decisions move; revisit after.
-- "robot stuff" read as Rig (speech-to-text): on resume, push the Rig work as far as possible, checking first for another session in tools-rig.
-- "any work that you've done is good": tonight's tools-ki merge, tools-mgit and tools-rig pushes stand.
-- DESK-KIT-SOP: a), state-of-play drops the desk-kit lines.
-- WRAP-NOW: hold now; no coding changes; nothing launched.
-
-## 2026-10-18 04:00 BST - WOW-HANDOFF
-
-Kris: "give me a sort of handoff prompt of where you are at ... I can give it to the ways of working thread who's going to be making the essential changes ... they can work around whatever you're planning to do or make the changes and then when they're finished hand off the rest back to you and give me a prompt to give to you". Read back: the thread stays on hold; Ways of working receives a handoff prompt through Kris and returns a resume prompt when its changes land.
-
-## 2026-10-18 18:10 BST - Resume on the work file; ACCEPT-PRUNE read back
-
-Kris resumed the work from its work file at 18:08 BST. Acted on the Messages, FIRST-STEP first:
-
-- FIRST-STEP (Ways of working hand-back, 04:02 BST): tools-ki is left alone until migrate-phase2b reports ki 0.10.6 here; the ki release and `.github/ki-version` bump are dropped from this work (Ways of working owns them); KI-TOOL-KI-CLI-127 joins the tools-ki ki-accept group; the new report forms apply; Rig and mgit are clear to start.
-- ACCEPT-PRUNE, in Kris's words of 18 October relayed by Ways of working: "anything which is awaiting acceptance can be accepted, and then we can prune anything which is in a state of done". Read back as taken:
-  - tools-rig: accept KI-TOOL-RIG-CORE-060 on its recorded verification evidence, and prune it once Done. This takes the place of the separate review that RIG-TARGET-SPEED-ACCEPT asked for. Other Rig work's records are left to their owners.
-  - tools-mgit and tools-git-almanac: accept each Awaiting review record whose verification evidence is recorded, list those without it, and prune the Done ones. KI-TOOL-MGIT-CLI-017, -024 and -025 are left to Ways of working.
-  - tools-ki: deferred until 0.10.6 has been released.
-  - MCP repositories: none is in this work's scope, so they are listed but not acted on (MCP-SCOPE).
-
-## 2026-10-18 18:15 BST - MGIT-ACCEPT-BUSY (coordinator)
-
-mgit-accept stopped because another session is active in tools-mgit, with `tests/mgit.bats` uncommitted and c76b4d5 committed at 18:10. Coordinator took a): relaunch the prune after that session finishes, pruning only KI-TOOL-MGIT-CLI-020, -021 and -022 and keeping -017, -018 and -019. tools-git-almanac had nothing to accept or prune. The listing shows the mgit plan already delivered (KI-TOOL-MGIT-CLI-018 to -022 and -025), so MGIT-PLAN and MGIT-REVIEW-LOWS look overtaken; this goes to Kris to confirm.
-
-## 2026-10-18 18:20 BST - rig-accept received
-
-KI-TOOL-RIG-CORE-060 had already been accepted by Ways of working's rig-review run (`92d2d27`), so RIG-TARGET-SPEED-ACCEPT is closed by that run. Its deletion went to origin inside another session's capture commit `3a33d51` rather than a prune-only commit (PRUNE-SWEPT, with Kris).
-
-## 2026-10-18 19:09 BST - answers and mark
-
-Kris: "agreed with all the recommendations" and "take a mark". Read back as taken:
-
-- PRUNE-SWEPT a): `3a33d51` in tools-rig stands as the prune of KI-TOOL-RIG-CORE-060. This is an exception to the prune-only-commit rule, recorded here.
-- MGIT-OVERTAKEN a): MGIT-PLAN and MGIT-REVIEW-LOWS are closed as overtaken by KI-TOOL-MGIT-CLI-020, -021, -022 and -025. This work keeps only the prune of the Done mgit records.
-- RIG-TARGET-SPEED-LOAD a): Rig's configuration-load cost is left as it is, and no record is captured. Mark struck at 2026-10-18T18:09:07Z.
+- HOST-WRITES (14 October): the replacement-policy investigation stays parked with Techne: agent-host; held in [ki.estate-factorisation](../../_WORK_REVIEW/ki.estate-factorisation/work.md).
+- HOST-GUARDS (14 October): [KI-TOOL-TECHNE-CLI-006](/Users/krisbrown/workspaces/knowledge-islands/tools-techne/docs/roadmap/KI-TOOL-TECHNE-CLI-006-guarded-host-commands.md) stays on Hold, review on 12 November; the record carries it.
+- FOOTER-GRANTS (16 October): separate `--allow fetch` and `--allow machine` grants; [KI-TOOL-KI-CLI-134](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-134-launch-footer-follows-brief.md) carries it.

@@ -26,8 +26,7 @@ created_at: 2026-10-16T00:05:00Z
 
 - 2026-10-18 · AUDIT-TIDY · KI > Model > Ways of working: Kris answered PRINCIPAL-AUDIT-RED a), "do what you need to do to get that working". At your next mark, delete each answered, homed report the audit's COORD-9 lists (40, from adoption-review to vega-rebuild-plan) and link the record identifiers COORD-7 flags in the reports that stay; detail in the [principal-audit report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/principal-audit.report.md).
 - 2026-10-18 · DESK-KIT-SOP · KI > Model > Ways of working: delivered. Kris confirmed DESK-KIT-SOP a) and widened it; the desk-kit lines are gone from the [state-of-play work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/work.md). Drop item (4) "the DESK-KIT-SOP line for state-of-play" from your next steps and close the DESK-KIT-SOP tag.
-- MIGRATED - this file was `+/_CHECKPOINTS/platform-foundations.tools-burndown.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
 
 ## Parked
 
-None. Kris answered PRUNE-SWEPT, MGIT-OVERTAKEN and RIG-TARGET-SPEED-LOAD a) at the mark.
+None.
