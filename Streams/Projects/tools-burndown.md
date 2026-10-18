@@ -34,10 +34,10 @@ This Project sits in [[Themes/foundations|Foundations]]. Kris revived it on 16 O
 
 ### Inventory
 
-This note names no work records: each record carries its own Project, and in-scope membership is by the Scope above rather than by that field. The live inventory is read from each repository's roadmap; the 16 October 2026 snapshot is the thread's [inventory report](../../+/_THREADS/tools-burndown/inventory.report.md).
+This note names no work records: each record carries its own Project, and in-scope membership is by the Scope above rather than by that field. The live inventory is read from each repository's roadmap; the 16 October 2026 snapshot is the thread's [inventory report](../../+/_WORK/ki.tools-burndown/inventory.report.md).
 
 `tools-mgit` and `tools-git-almanac` held no open records on 16 October 2026, and `tools-mgit` has no change since `v0.17.0`. The open `ki-agentic-harness` records are left out because they change skills and standards or acquisition, not the `ki` CLI, its commands, release or packaging, and the CLI mechanics two of them need are already `tools-ki` records.
 
 ### History
 
-The earlier tools-burndown thread, run under the [Estate factorisation](estate-factorisation.md) checkpoint, is this Project's history: its folder `+/_THREADS/tools-burndown/`, its `decisions.md` and its `historical-decisions.md`.
+The earlier tools-burndown thread, run under the [Estate factorisation](estate-factorisation.md) checkpoint, is this Project's history: its folder `+/_WORK/ki.tools-burndown/`, its `decisions.md` and its `historical-decisions.md`.

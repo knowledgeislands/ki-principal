@@ -24,5 +24,5 @@ The `agent-host` recipe is the AWS base for a remote agentic rig. `vega` stays o
 ## Notes
 
 - [[Techne Programme Hold]] bounds what may run remotely. Remote delivery needs its own repository-owned policy.
-- The agent-host Project thread keeps its own checkpoint, [techne.agent-host](../../+/_CHECKPOINTS/techne.agent-host.md), for thread reconstruction.
+- The agent-host Project thread keeps its own checkpoint, [techne.agent-host](../../+/_WORK_REVIEW/ki.agent-host/work.md), for thread reconstruction.
 - There is no projectless upkeep and no recurring Activity.

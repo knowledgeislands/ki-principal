@@ -7,7 +7,7 @@
   "quality": "showcase",
   "startedAt": "2026-10-14T09:38:15.321Z",
   "specification": {
-    "path": "/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working/design/change-management-skills.architecture.json",
+    "path": "/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/change-management-skills.architecture.json",
     "sha256": "7e3965e13339ed1ac59f19d39ca1447c3dfd2cac61eda96215a9429f94287f4a",
     "bytes": 25239
   },
@@ -27,7 +27,7 @@
         "/Users/krisbrown/.agents/skills/archify/bin/archify.mjs",
         "deliver",
         "architecture",
-        "/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working/design/change-management-skills.architecture.json",
+        "/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/change-management-skills.architecture.json",
         "/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/diagrams/change-management-skills/change-management-skills.html",
         "--quality",
         "showcase",
@@ -62,7 +62,7 @@
         "/Users/krisbrown/.agents/skills/archify/bin/archify.mjs",
         "deliver",
         "architecture",
-        "/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working/design/change-management-skills.architecture.json",
+        "/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/change-management-skills.architecture.json",
         "/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/diagrams/change-management-skills/change-management-skills.html",
         "--quality",
         "showcase",
@@ -76,7 +76,7 @@
         "ok": true,
         "command": "deliver",
         "type": "architecture",
-        "input": "/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working/design/change-management-skills.architecture.json",
+        "input": "/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/change-management-skills.architecture.json",
         "output": "/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/diagrams/change-management-skills/change-management-skills.html",
         "specification": {
           "sha256": "7e3965e13339ed1ac59f19d39ca1447c3dfd2cac61eda96215a9429f94287f4a",

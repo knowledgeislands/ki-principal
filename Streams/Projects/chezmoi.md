@@ -17,7 +17,7 @@ author: Written with Claude
 
 Work the open KB-DOTFILES-UE records in the chezmoi source, keeping the workstation accurate, tidy and observable. The records live in the chezmoi repository (`~/.local/share/chezmoi`, GitHub `krisb/dotfiles`), in its roadmap under `docs/roadmap/`, which keeps their plan, priority and acceptance.
 
-This Project sits in [[Themes/rig|Rig]]. The Rig: chezmoi thread works it, from its checkpoint at [rig.chezmoi](<../../+/_CHECKPOINTS/rig.chezmoi.md>); chezmoi does not declare `ki-checkpoint`, so the checkpoint lives in Knowledge Islands Principal.
+This Project sits in [[Themes/rig|Rig]]. The Rig: chezmoi thread works it, from its checkpoint at [rig.chezmoi](<../../+/_WORK/ki.chezmoi/work.md>); chezmoi does not declare `ki-checkpoint`, so the checkpoint lives in Knowledge Islands Principal.
 
 ---
 

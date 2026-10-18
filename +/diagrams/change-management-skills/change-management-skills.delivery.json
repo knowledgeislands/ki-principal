@@ -4,7 +4,7 @@
   "status": "current",
   "command": "deliver",
   "type": "architecture",
-  "input": "/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working/design/change-management-skills.architecture.json",
+  "input": "/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/change-management-skills.architecture.json",
   "output": "/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/diagrams/change-management-skills/change-management-skills.html",
   "specification": {
     "sha256": "7e3965e13339ed1ac59f19d39ca1447c3dfd2cac61eda96215a9429f94287f4a",

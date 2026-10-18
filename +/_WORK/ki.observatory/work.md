@@ -26,7 +26,7 @@ created_at: 2026-10-13T23:50:00Z
 - **Status:** hold. Drained on Kris's request of 18 October ahead of large ways-of-working updates; nothing running or queued, everything committed and pushed.
 - **Resume:** `Resume KI > Knowledge Islands model > Observatory from its checkpoint under current ki-pmo and ki-delegation since 2026-10-18T01:27:13Z: re-bootstrap, read the pick-up block, take stock, put the parked queries back, restart authorised work, then banner.`
 - **Where it stopped:** units 1 and 2 delivered, Awaiting review and pushed to `origin/main` of `apps-observatory.local` at `042539d`: KI-OBSERVA-VIS-023 Sessions and threads (renumbered from 022 by obs-land, the remote having given 022 to another session's record) and KI-OBSERVA-VIS-024 Review queue. The service was restarted interactively at 02:30 BST on 18 October at `042539d` and answers on `127.0.0.1:1675` with both Instruments. Unit 3 not started.
-- **Parked queries** (detail in `+/_THREADS/observatory/obs-land.report.md`):
+- **Parked queries** (detail in `+/_WORK/ki.observatory/obs-land.report.md`):
   - OBS-SESSIONS-ACCEPT - unit 1 awaits review; recommended a) review the Sessions view against the record's review notes, accept through ki-accept or send back with notes.
   - OBS-REVIEW-ACCEPT - unit 2 awaits review; recommended a) review KI-OBSERVA-VIS-024 in the running Observatory, accept or send back.
   - OBS-REVIEW-OPEN - whether `+/` items open read-only from the Review queue; recommended a) keep the staging refusal and show paths, revisit while planning unit 3.
@@ -39,8 +39,8 @@ Take obs-sessions' report, then capture the Sessions and threads Instrument as t
 
 ## Messages
 
-- MIGRATED - this file was `+/_CHECKPOINTS/knowledge-islands-model.observatory.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
+- MIGRATED - this file was `+/_WORK/ki.observatory/work.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
 
 ## Parked
 
-- None of this thread's own. CC-HANDOFFS, held from Command centre, moved with the vocabulary to the [Ways of working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working/ways-of-working.md) Project Notes.
+- None of this thread's own. CC-HANDOFFS, held from Command centre, moved with the vocabulary to the [Ways of working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md) Project Notes.

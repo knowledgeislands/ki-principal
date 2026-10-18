@@ -43,7 +43,7 @@ created_at: 2026-10-06T21:07:00Z
 
 ## Messages
 
-- MIGRATED - this file was `+/_CHECKPOINTS/_state-of-play.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
+- MIGRATED - this file was `+/_WORK/ki/work.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
 
 ## Parked
 
@@ -85,14 +85,14 @@ Settled on 15 October (foundations-apply; fw-route):
 
 - **FOUNDATIONS-HOME:** the [Known World](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Pillars/Philosophy/Emerging Concepts/Known World.md>) Emerging Concepts note, held by a widened Outcome in [Island model and Tending](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/island-model-and-tending.md), with each other Project's part in its Notes.
 - **FOUNDATIONS-NOTE:** carried out with FOUNDATIONS-HOME in the same [Known World](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Pillars/Philosophy/Emerging Concepts/Known World.md>) note.
-- **SEAT-RECORD:** [ADR-KI-PRINCIPAL-007](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/ADR-KI-PRINCIPAL-007-territory-seats-on-hosts.md) and the Seat column in [Known Lands](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Known Lands.md>); SEAT-BIND sent to the [Rig: chezmoi checkpoint](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_CHECKPOINTS/rig.chezmoi.md) and its inbox.
-- **PAPERCLIP-SEAT, PAPERCLIP-CHEZMOI, PAPERCLIP-BRANCHES:** Notes of [Paperclip capture and rebuild](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/paperclip-capture-and-rebuild/paperclip-capture-and-rebuild.md); PAPERCLIP-OFF sent to the Rig: chezmoi checkpoint and its inbox.
-- **INCEPTION-PILOT:** a message in the [knowledge-acquisition checkpoint](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_CHECKPOINTS/knowledge-islands-model.knowledge-acquisition.md).
-- **ROOTING-OWNER, TERRITORY-RULE:** the ROOTING-MODEL direction and the adopted territory rule at the top of the [ways-of-working checkpoint](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_CHECKPOINTS/knowledge-islands-model.ways-of-working.md); ROOTING-OWNER's concept-note target also in the knowledge-acquisition checkpoint.
-- **FW-DECLARE:** sent to the [Rig: chezmoi checkpoint](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_CHECKPOINTS/rig.chezmoi.md) and its inbox: commit `dot_config/rig/conf.d/private_45-firewall.toml` with `profiles = ["laptop"]`, no chezmoi apply on sol before Rig 0.6.0, then Kris runs the terra steps.
+- **SEAT-RECORD:** [ADR-KI-PRINCIPAL-007](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/ADR-KI-PRINCIPAL-007-territory-seats-on-hosts.md) and the Seat column in [Known Lands](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Known Lands.md>); SEAT-BIND sent to the [Rig: chezmoi checkpoint](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.chezmoi/work.md) and its inbox.
+- **PAPERCLIP-SEAT, PAPERCLIP-CHEZMOI, PAPERCLIP-BRANCHES:** Notes of [Paperclip capture and rebuild](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/paperclip-capture-and-rebuild.md); PAPERCLIP-OFF sent to the Rig: chezmoi checkpoint and its inbox.
+- **INCEPTION-PILOT:** a message in the [knowledge-acquisition checkpoint](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.knowledge-acquisition/work.md).
+- **ROOTING-OWNER, TERRITORY-RULE:** the ROOTING-MODEL direction and the adopted territory rule at the top of the [ways-of-working checkpoint](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/work.md); ROOTING-OWNER's concept-note target also in the knowledge-acquisition checkpoint.
+- **FW-DECLARE:** sent to the [Rig: chezmoi checkpoint](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.chezmoi/work.md) and its inbox: commit `dot_config/rig/conf.d/private_45-firewall.toml` with `profiles = ["laptop"]`, no chezmoi apply on sol before Rig 0.6.0, then Kris runs the terra steps.
 - **FW-ADR:** applied by the acceptance run on Kris's pass: it accepts [KI-TOOL-RIG-CORE-047](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md) and marks both [ADR-KI-TOOL-RIG-009](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/decisions/ADR-KI-TOOL-RIG-009-system-domain-resources-under-an-attended-grant.md) and [ADR-KI-TOOL-RIG-010](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/decisions/ADR-KI-TOOL-RIG-010-linux-firewall-through-a-rig-owned-nftables-table.md) accepted.
-- **AREAS-PATTERN:** adopted; sent to the [ways-of-working checkpoint](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_CHECKPOINTS/knowledge-islands-model.ways-of-working.md) and its inbox, Ways of working holding the rule.
-- **RIG-PROJECTS-LIST:** no change; the [Rig](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Initiatives/rig.md) Initiative note keeps no Projects list, the `initiative` field being the link.
+- **AREAS-PATTERN:** adopted; sent to the [ways-of-working checkpoint](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/work.md) and its inbox, Ways of working holding the rule.
+- **RIG-PROJECTS-LIST:** no change; the [Rig](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/rig.md) Initiative note keeps no Projects list, the `initiative` field being the link.
 
 Dated queue:
 

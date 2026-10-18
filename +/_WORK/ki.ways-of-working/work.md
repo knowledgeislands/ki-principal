@@ -27,12 +27,12 @@ created_at: 2026-10-09T20:58:00Z
 **Messages** - the receiving thread acts on each line, then removes it.
 
 - 2026-10-18 · FIRST-STEP · Master: state-of-play, carrying RUN-HYGIENE from ways of working's READY of 17 October: "each thread fixes its checkpoint form and adds role on its FIRST-STEP line at restart". Before launching work, bring this checkpoint to the current ki-checkpoint and ki-pmo form; its `role` is already set. Then, for HARNESS-ACCEPT, present KI-HARNESS-GOV-195, KI-HARNESS-GOV-198, KI-HARNESS-GOV-203 and KI-HARNESS-OPS-005 to Kris in one ki-accept sitting after the restart, with the KI-HARNESS-GOV-203 30-day stale threshold put to Kris there · [restart report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/restart.report.md)
-- 2026-10-14 · AREAS-DISPATCH · Two ideas for evaluation are added to the [Ways of working Project note](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working/ways-of-working.md) Notes: agent-advertisement fields in the run-events contract (with a `--json` live-threads listing asked of tools-ki), and acting on token economics (usage and a `limit` stop reason on run events, a fallback ladder per model purpose in ki-tokenomics from Kris's "change them to claude-opus-5-5 at their same effort, at least until the next reset", and a concurrency gate read from account windows); placement rests on Kris's open OBS-MERGE and NEW-AREAS · detail: [areas-tokens report (deleted)](https://github.com/knowledgeislands/ki-principal/blob/70fa1e63b4afc56129c4d9a1c5ab41c244502793/+/_THREADS/state-of-play/areas-tokens.report.md)
-- 2026-10-14 · SYNC-GUARD · Kris: fold "level before resume and at every mark" into [KI-HARNESS-GOV-189](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-189-move-thread-between-hosts.md) (mgit fetch, then mcp-git-audit ahead/behind, at session start, every mark and before leaving a host, with [behind] and [unpushed] footer items); a tools-ki `ki repo level` record only if that proves too slow · detail: [sync-telemetry report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/sync-telemetry.report.md)
+- 2026-10-14 · AREAS-DISPATCH · Two ideas for evaluation are added to the [Ways of working Project note](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md) Notes: agent-advertisement fields in the run-events contract (with a `--json` live-threads listing asked of tools-ki), and acting on token economics (usage and a `limit` stop reason on run events, a fallback ladder per model purpose in ki-tokenomics from Kris's "change them to claude-opus-5-5 at their same effort, at least until the next reset", and a concurrency gate read from account windows); placement rests on Kris's open OBS-MERGE and NEW-AREAS · detail: [areas-tokens report (deleted)](https://github.com/knowledgeislands/ki-principal/blob/70fa1e63b4afc56129c4d9a1c5ab41c244502793/+/_THREADS/state-of-play/areas-tokens.report.md)
+- 2026-10-14 · SYNC-GUARD · Kris: fold "level before resume and at every mark" into [KI-HARNESS-GOV-189](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-189-move-thread-between-hosts.md) (mgit fetch, then mcp-git-audit ahead/behind, at session start, every mark and before leaving a host, with [behind] and [unpushed] footer items); a tools-ki `ki repo level` record only if that proves too slow · detail: [sync-telemetry report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/sync-telemetry.report.md)
 
 Handover for a fresh agent taking this thread:
 
-- Re-bootstrap: read this checkpoint and ki-pmo, run `/Users/krisbrown/workspaces/knowledge-islands/tools-ki/bin/ki agent status ways-of-working`, read the tail of the [decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/ways-of-working/decisions.md), then give the Re-bootstrap report. On another host, first fetch and level ki-principal, ki-agentic-harness and tools-ki, since the state folder and run history do not travel. The restart prompt is the pick-up block's resume line, verbatim.
+- Re-bootstrap: read this checkpoint and ki-pmo, run `/Users/krisbrown/workspaces/knowledge-islands/tools-ki/bin/ki agent status ways-of-working`, read the tail of the [decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/decisions.md), then give the Re-bootstrap report. On another host, first fetch and level ki-principal, ki-agentic-harness and tools-ki, since the state folder and run history do not travel. The restart prompt is the pick-up block's resume line, verbatim.
 - Launch pattern: `/Users/krisbrown/workspaces/knowledge-islands/tools-ki/bin/ki agent launch --rules push ways-of-working <name> <workdir> <prompt> --runtime claude --model claude-opus-5-5 --effort medium`, the prompt built from a task body followed by this `Rules:` block, copied verbatim from the old host's `svg-extract.md` because the state folder does not travel (set the trailer to the model actually launched):
 
   ```text
@@ -53,7 +53,7 @@ Handover for a fresh agent taking this thread:
   Do not use background subagents. Never end your session while waiting.
   ```
 
-- Push only this thread's own commits: those touching `+/_THREADS/ways-of-working/` or this checkpoint, or made by its agents. If other sessions' commits sit beneath, hold and ask Kris. Never autostash, reset shared `main` or force-push.
+- Push only this thread's own commits: those touching `+/_WORK/ki.ways-of-working/` or this checkpoint, or made by its agents. If other sessions' commits sit beneath, hold and ask Kris. Never autostash, reset shared `main` or force-push.
 - Kris's layout session owns `docs/diagrams/` in ki-agentic-harness and the dirty harness files; leave them alone.
 
 Then:
@@ -68,7 +68,7 @@ Then:
 
 ## Messages
 
-- MIGRATED - this file was `+/_CHECKPOINTS/knowledge-islands-model.ways-of-working.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
+- MIGRATED - this file was `+/_WORK/ki.ways-of-working/work.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
 
 ## Parked
 
