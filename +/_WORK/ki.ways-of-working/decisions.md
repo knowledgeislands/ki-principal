@@ -1235,3 +1235,9 @@ Read back as taken:
 - STATE-TOOLING-147 a) - accept KI-TOOL-KI-CLI-147 with its four answers; a run previews then sweeps the live agent state folders.
 - HOME-MATCH a) - keep the contents-based check as delivered.
 - QUIET-146 a) - hold KI-TOOL-KI-CLI-146 at Awaiting review until the week of source-level cuts ends, then decide alongside KI-HARNESS-GOV-204.
+
+## 2026-10-18 09:2x BST - owner note
+
+> Okay, by the way, I've got Claude Design making some improvements to the website. So don't worry if you see changes there.
+
+Read back as taken: apps-knowledgeislands.info has another session (Claude Design) making changes. Runs stay out of it, as with ki-design, and leave its changes alone. Added to future briefs.
