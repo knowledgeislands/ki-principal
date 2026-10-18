@@ -1211,3 +1211,27 @@ Read back as taken ("colts" = calls):
 - RIG-LOCK-FOLLOWUP a) - confirmed: adoption, plan and build of KI-TOOL-RIG-CORE-061 stand; an independent review runs before the Rig acceptances.
 - RELEASE-NUMBER a) - confirmed: v0.11.0 was the night's one release; the fix release is 0.11.1.
 - MIGRATE-CALLS a) - confirmed, all five.
+
+## 2026-10-18 BST - owner answers, batch 3 (walk-through)
+
+> all fine with the recommendations
+
+Read back as taken:
+
+- TOOLS-RELEASE a) - cut v0.11.1 once Kris has taken the tools-ki records in a ki-accept sitting.
+- RIG-LOCK-RELEASE a) - release Rig once Kris has taken the Rig records in a ki-accept sitting.
+- HARNESS-PATHS-LIVE a) - covered by the chezmoi handoff; run on both Macs once v0.11.1 is installed.
+- TOOLS-PUSH a) - the push of `1d72fa94` stands; its author keeps responsibility for the content.
+
+## 2026-10-18 BST - owner answers, batch 4 (walk-through)
+
+> Agreed with all of the recommendations.
+
+Read back as taken:
+
+- HARN-ANCHOR a) - a fresh independent review accepts KI-HARNESS-GOV-210 if every audit passes, and tidies the thread-model wording in the record's sentence.
+- GOV-206-CLOSE a) - close KI-HARNESS-GOV-206 as delivered once KI-HARNESS-GOV-210 is accepted.
+- ACCEPT-131 a) - accept KI-TOOL-KI-CLI-131 with its four calls; a later run sets KI-TOOL-KI-CLI-136 Ready and builds it.
+- STATE-TOOLING-147 a) - accept KI-TOOL-KI-CLI-147 with its four answers; a run previews then sweeps the live agent state folders.
+- HOME-MATCH a) - keep the contents-based check as delivered.
+- QUIET-146 a) - hold KI-TOOL-KI-CLI-146 at Awaiting review until the week of source-level cuts ends, then decide alongside KI-HARNESS-GOV-204.
