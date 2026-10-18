@@ -1,6 +1,6 @@
 # [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Ways of working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md) › skills-audit
 
-**🤖 → 🧑 Handoff to supervisor · Run report at 05:27 BST · last mark 22:34 BST**
+**🤖 → 🧑 Handoff to supervisor · Run report at 05:04 BST · last mark 22:34 BST**
 
 ---
 
@@ -73,15 +73,15 @@ Outstanding - no action requested now:
 
 **Context:** On 18 October Kris said, "Every update, I want to know what's outstanding, what's left on the plan, and what's been done". This thread applies it now, but ki-pmo's Coordinator responsiveness section still asks only for one or two timed lines. **Query:** Should ki-pmo require the Done, Left on the plan and Outstanding lines in every coordinator's timed updates? **Options:** a) (recommended, confidence medium - it is a general preference with nothing specific to this Project in it, and it lands with the report-shape review around 21 October) Adopt it in ki-pmo and regenerate the hook line and the output style at the report-shape review. b) Keep it as a rule for this thread only.
 
-### 🤖 → 🧑 Handoff to supervisor · since 05:27 BST
+### 🤖 → 🧑 Handoff to supervisor · since 05:04 BST
 
 🧑 7 with you
 
-- [with you] PMO-NAME · owner · since 05:27
-- [with you] CHECKPOINT-FATE · owner · since 05:27
-- [with you] WORK-FOLDER-DEDUP · owner · since 05:27
-- [with you] DESIGN-NAME · owner · since 05:27
-- [with you] STREAMS-SLIM · owner · since 05:27
-- [with you] WORKER-CLI · owner · since 05:27
-- [with you] UPDATE-SHAPE · owner · since 05:27
+- [with you] PMO-NAME · owner · since 05:04
+- [with you] CHECKPOINT-FATE · owner · since 05:04
+- [with you] WORK-FOLDER-DEDUP · owner · since 05:04
+- [with you] DESIGN-NAME · owner · since 05:04
+- [with you] STREAMS-SLIM · owner · since 05:04
+- [with you] WORKER-CLI · owner · since 05:04
+- [with you] UPDATE-SHAPE · owner · since 05:04
 - [committed] skills-audit report, ki-principal
