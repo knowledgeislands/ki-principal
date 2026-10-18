@@ -202,3 +202,9 @@ Kris, 18 October:
 > mark
 
 Read back as taken: CLI-F-FILTER c) - ki and mgit keep only the long `--filter`; `-f` becomes a usage error naming `--filter` (as `-G` was handled), freeing `-f` for force or file. The `ki-repo-tools` guidance records `--filter` with no short letter as the house form. tools-ki's change rides in the queued ki-release run; tools-mgit, the guidance and the chezmoi completion note go to run mgit-filter. MARK struck at 19:08 BST (2026-10-18T18:08:19Z).
+
+## 2026-10-18 20:18 BST - owner question, new session
+
+> so should I start a new sesson for this work package?
+
+Read back: taken as a question on STYLE-STALE, not yet an answer to it. The coordinator advised yes: open a fresh session in ki-principal and paste the 19:44 send line. Nothing is running and the work folder is pushed. The other eight queries carry over to the new session.
