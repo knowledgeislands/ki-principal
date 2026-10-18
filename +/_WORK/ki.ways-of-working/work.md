@@ -27,7 +27,7 @@ Mark struck 18:12 BST (`2026-10-18T17:12:06Z`); the folder is pruned and the dec
 
 ## Messages
 
-None
+- 2026-10-18 · FEEDBACK-KIND · KI > Model > Observatory: Kris agreed on 18 October (OBS-FEEDBACK-HOME a) that consolidated feedback lands in the producing work's folder. [KI-HARNESS-GOV-219](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-219-feedback-work-folder-kind.md), captured as triage, adds a `feedback/<date>-<slug>.md` kind to the `ki-work-folder` closed list and the owner, through the Observatory, as a Messages sender. It blocks [KI-OBSERVA-BRG-002](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-002-capture-feedback.md).
 
 ## Parked
 
