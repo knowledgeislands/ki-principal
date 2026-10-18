@@ -6,7 +6,7 @@
 
 ## Done
 
-- Phase 3 is applied in Knowledge Islands Principal and pushed. The commits are `f5c888d` (defer list), `25e2bfd`, `aa3c788`, `d2e3c2e`, `58bc680`, `319c169` and `9906b82` (capital steps 1-6), and `b1be9ac` and `dc571b1` (plan fixes). The hand steps are `2990311`, `b540311`, `7f663a3`, `c3802db`, `44656a1` and `6fb5599`. One other session's commit sits beneath mine and went up with them: `05fd137 docs(work): note the release number`, in the decisions log.
+- Phase 3 is applied in Knowledge Islands Principal and pushed. The commits are `f5c888d` (defer list), `25e2bfd`, `aa3c788`, `d2e3c2e`, `58bc680`, `319c169` and `9906b82` (capital steps 1-6), and `b1be9ac` and `dc571b1` (plan fixes). The hand steps are `2990311`, `b540311`, `7f663a3`, `c3802db`, `44656a1` and `6fb5599`. Two other sessions' commits sat beneath mine and went up with them: `05fd137 docs(work): note the release number`, in the decisions log, and `2173d1f docs(work): add the migrate-phase2b run report`.
 - The theme pages follow the theme-page standard. Foundations, Techne, Model and Rig each carry a Direction and Notes and no lifecycle or lead. None of them lists Projects, records or work folders. `Streams/Themes/Themes.md`, `Streams/Streams.md`, `Streams/Projects/Projects.md` and `Streams/Roadmap/Roadmap.md` now say theme rather than Initiative.
 - Briefings, Schedule and Tending each name `ki.regular` as their home.
 - The Project notes have their old sections moved under `## Notes` and their links into work folders removed.
