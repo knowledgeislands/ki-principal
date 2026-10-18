@@ -5,7 +5,7 @@ tags:
   - topic/knowledge-islands
 status: active
 realization: manual
-initiative: knowledge-islands-model
+theme: model
 author: Written with Claude
 memory_file: reference_{ki_prefix}_key_notes.md
 ---

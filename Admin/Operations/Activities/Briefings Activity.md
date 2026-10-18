@@ -4,7 +4,7 @@ tags:
   - card/note
   - topic/knowledge-islands
 status: active
-initiative: knowledge-islands-model
+theme: model
 component: operations
 purpose: upkeep
 realization: scheduled-task
