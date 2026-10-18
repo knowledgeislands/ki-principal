@@ -56,6 +56,7 @@ Then reconcile gate repairs and tested restore evidence before FW-DECLARE-NOW so
 
 - FIRST-STEP - from ki.ways-of-working, 18 October (USER-SKILL-LINKS a): `ki-pmo` is now `ki-coordination` and `ki-pmo-design` is `ki-work-design`, no alias (KI-HARNESS-GOV-217). Rename both in the chezmoi source of `~/.config/ki/config.toml`, `tests/ki-config-skills.test.mjs`, `dot_claude/private_communication.md`, `dot_claude/private_delegation.md.tmpl` and `dot_codex/private_AGENTS.md.tmpl`; show Kris the `chezmoi diff` and apply only on his approval; then run `ki repair` to relink `~/.claude/skills/` and `~/.agents/skills/`. Also carry the Terra and Sol KI-TOOL-KI-CLI-143 migration handoff.
 - MIGRATED - this file was `+/_CHECKPOINTS/rig.chezmoi.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
+- RENAME-CHECKPOINT - from ki.ways-of-working, 18 October: `ki-checkpoint` is now `ki-work-folder`, no alias (KI-HARNESS-GOV-217). Fold it into the FIRST-STEP rename: the `~/.claude/skills/ki-checkpoint` link and any `ki-checkpoint` entry in the `~/.config/ki/config.toml` source, in the same reviewed `chezmoi diff`. After v0.11.2 lands, re-run the Sol migration and do a verified Terra run against the checks KI-TOOL-KI-CLI-143 now lists under "Follow-up fix: config.toml kept byte-identical".
 
 ## Parked
 

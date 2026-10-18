@@ -318,3 +318,7 @@ Read back, all a):
 > Sorry, I haven't even gone my shower yet, so I am going for one now.
 
 Read back: MGIT-ST-QUIET accepted as exactly right. Kris wants the same for every command he runs through mgit and asks how mgit should know what counts as no news. Raised as MGIT-QUIET-RULES for his return; nothing launched until answered. Kris is away for about 10 minutes.
+
+## 2026-10-18 11:27 BST - coordinator note, config fix ships in v0.11.2
+
+CONFIG-PRESERVE-REVIEW: config-preserve asked whether its `config.toml` fix needs an independent review before v0.11.2. Taken as covered by SOL-CONFIG-REFORMAT a), which said the fix is released in v0.11.2: it ships on its tests (seven byte-identity tests that failed on the old code, 100% coverage) and the gate, with the Sol and Terra re-runs as live proof. Kris may still say "review first" before release-ki-0112 cuts the tag. ACQUIRE-RENAME: work-folder-rename found an eighth other-territory `.ki.toml`, `personal/acquire`, outside the seven OTHER-TERRITORY-RENAME named; held for Kris.
