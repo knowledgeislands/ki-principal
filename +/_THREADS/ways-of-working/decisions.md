@@ -1014,3 +1014,9 @@ Taken as the order: (1) phase 1 harness, running; (2) tools-ki reader and one re
 Kris, as received: "I want you to delegate and use mechnical commands as much as possible"
 
 Taken as: the thread keeps delegating every unit; each run prefers mechanical commands over hand edits - a generated move plan run as a script (`git mv`, `sed`, `ki` subcommands, generators), dry run first, then applied and checked - with hand edits only where judgement is needed. Added to the migration brief and the queued migrate-phase2 brief.
+
+## 2026-10-18 02:50 BST - SKILLS-AUDIT
+
+Kris, as received: "well we will do the skills audit too"
+
+Taken as: the skills audit is part of this thread's plan in the tools-down window, not a later project. Asked where it falls (AUDIT-WHEN): recommended after the check pass and before the other territories, so they migrate once onto the final skill names.
