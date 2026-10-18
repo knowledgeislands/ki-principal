@@ -21,7 +21,13 @@
 
 **Query:** Who should finish the stuck tools-ki rebase so that phase 2 can start on a clean `main`?
 
-**Options:** a) (recommended, confidence medium - its owner is inferred from the dates, not confirmed) one bounded run takes over the rebase: it resolves the KI-TOOL-KI-CLI-139 conflict and any later ones by keeping both sessions' roadmap edits, finishes the rebase, runs the gate and pushes fast-forward under ROUTINE, naming the 31 commits; then migrate-phase2 is relaunched unchanged b) authorise this thread to abort the rebase, which puts `main` back at `90807355` with nothing lost, and launch a run that rebases the 31 commits afresh before phase 2 c) the session that began the rebase, or tools burndown when it comes off hold, finishes it, and phase 2 waits for that
+**Options:**
+
+a) (recommended, confidence medium - its owner is inferred from the dates, not confirmed) One bounded run takes over the rebase: it resolves the KI-TOOL-KI-CLI-139 conflict and any later ones by keeping both sessions' roadmap edits, finishes the rebase, runs the gate and pushes fast-forward under ROUTINE, naming the 31 commits; then migrate-phase2 is relaunched unchanged.
+
+b) Authorise this thread to abort the rebase, which puts `main` back at `90807355` with nothing lost, and launch a run that rebases the 31 commits afresh before phase 2.
+
+c) The session that began the rebase, or tools burndown when it comes off hold, finishes it, and phase 2 waits for that.
 
 ### 🤖 → 🧑 Handoff to supervisor · blocked · since 03:28 BST
 
