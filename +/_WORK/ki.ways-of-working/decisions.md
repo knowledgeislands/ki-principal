@@ -322,3 +322,9 @@ Read back: MGIT-ST-QUIET accepted as exactly right. Kris wants the same for ever
 ## 2026-10-18 11:27 BST - coordinator note, config fix ships in v0.11.2
 
 CONFIG-PRESERVE-REVIEW: config-preserve asked whether its `config.toml` fix needs an independent review before v0.11.2. Taken as covered by SOL-CONFIG-REFORMAT a), which said the fix is released in v0.11.2: it ships on its tests (seven byte-identity tests that failed on the old code, 100% coverage) and the gate, with the Sol and Terra re-runs as live proof. Kris may still say "review first" before release-ki-0112 cuts the tag. ACQUIRE-RENAME: work-folder-rename found an eighth other-territory `.ki.toml`, `personal/acquire`, outside the seven OTHER-TERRITORY-RENAME named; held for Kris.
+
+## 2026-10-18 12:40 BST - owner pauses the work, mark kept
+
+> can you save anything you need into a repository so that I can take a break and recover from it, don't move the last mark though as I'll need to review from it
+
+Read back: HOLD - put the work on hold (more expected): nothing is running, so nothing to drain; save the state and park the 13 open queries in the work file; commit and push. The mark stays at 11:06 BST; no prune and no decision striking, so every report since the mark stays in the folder for Kris's review.
