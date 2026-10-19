@@ -7,7 +7,7 @@ theme: rig
 lifecycle: planned
 lead: Kris Brown
 target: null
-updated: 2026-10-17T00:26:00Z
+updated: 2026-10-19T22:10:00Z
 author: Written with Claude
 ---
 
@@ -31,3 +31,4 @@ This Project sits in [[Themes/rig|Rig]]. Kris opened it on 2026-10-14 as a plann
 - **Seat amendment, 2026-10-17.** Kris moved personal and legal from `terra` alone to both machines, in these words: "update this so that personal and legal is both machines, tipped to sol". They are now seated as knowledge-islands is; humans-not-robots stays on `terra`. The binding above, [[Known Lands]] and [[ADR-KI-PRINCIPAL-007-territory-seats-on-hosts|ADR-KI-PRINCIPAL-007]] read accordingly, and [[chezmoi|Rig: chezmoi]] carries the change into host data under SEAT-HOSTS.
 - **LOCAL-DNS, 2026-10-17.** Captured from Kris's intake, no design: "I want every one of my hosts to have an observatory. I actually prefer not to hit 127.0.0.1 and the port number. I'd rather hit observatory.whatever it is locally ... it'd be nice if I could use observatory.midnight.ninja, but that's never ever public, it's only internal, or it could be observatory.local.midnight.ninja ... setting that up sooner rather than later would be really interesting." Every change here is connection-critical, tools-rig's tailnet-only listener firewall record being the pattern; whether `midnight.ninja` is the personal identity domain belongs to the personal territory; when this Project gets a thread waits on Kris's HOST-NETWORK-THREAD. Detail: [themes.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/design/themes.md).
 - **Thread opening, 2026-10-17.** Kris answered HOST-NETWORK-THREAD: "Open the Host network thread fifth in the restart order, after tools burndown and the two Rig threads, with a decision paper on tailnet service names and a tested restore path as its first step; LOCAL-DNS stays captured in the Project's Notes until then." The thread's first step is that decision paper, with a tested restore path; Headroom's icon is to be revisited once own DNS exists, as Kris put it under FAVICON-FOLLOWUPS: "maybe we can sort that out when we have our own DNS".
+- **Reverse dead man's switch, 2026-10-15.** Kris's idea: each host periodically pulls a control repository and re-applies its declared state, so a host that loses inbound access heals itself rather than waiting to be reached. It is a design input for the firewall and key-only SSH rollouts and for the restore-path decision paper. Kris approved homing it here on 19 October.
