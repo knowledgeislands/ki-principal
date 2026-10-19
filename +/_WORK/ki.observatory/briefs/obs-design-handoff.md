@@ -1,6 +1,0 @@
-# obs-design-handoff
-
-Work: KI > Model > Observatory. Decisions: `+/_WORK/ki.observatory/decisions.md` in ki-principal (DESIGN-APPLY, AS-RECOMMENDED-PLUS). Background: the obs-answers and obs-relay reports at `~/.local/state/ki/agents/observatory/`. Repository: apps-observatory.local.
-
-1. DESIGN-THREAD-HOME: write `-/design-handoff/INSTRUCTION.md` in apps-observatory.local, shaped like ki-design's `-/observatory-handoff/INSTRUCTION.md`, addressed to the Knowledge Islands design thread: the 14-point "app wins" list, the ask to reconsider the banner glyphs, and the ask for a Capital glyph, each with its source record linked (repository path and GitHub URL, since the reader works in ki-design). Follow the repository's outbound `-` conventions; add an index note if it requires one. No screenshots or fixtures from real estate data.
-2. TERRITORY-REGISTER b): capture a triage record so the Observatory's territory error names the unregistered member (repository URL, not a path), citing ROADMAP-TERRITORY. Run the gate and roadmap audit; commit by explicit path; push fast-forward only your own commits. Never restart the service. Report in one short owner report giving the handoff file's absolute path.
