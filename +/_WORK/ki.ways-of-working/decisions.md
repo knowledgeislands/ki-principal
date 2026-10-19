@@ -323,3 +323,9 @@ Kris, on the Terra legal strays and broken user-level links: "yeah that was done
 Kris: "go with recommendations"
 
 Read back taken: MGIT-RELEASE a), wait for Kris's KI-TOOL-MGIT-CLI-023 hands-on check, then release once; nothing to launch now. WORK-AREA-CITATIONS a), leave run reports as they are; authorises citation-lines, a run that adds one `messages.md` line to each work whose live package files (`work.md`, `state.md`, `queries.md`, `messages.md`) still cite retired paths, asking its worker to rewrite them at its next mark.
+
+## 2026-10-19 18:56 BST - received citation-lines; messages.md disposition, RESTART-WALKTHROUGH; mark
+
+citation-lines finished with nothing sent: 11 hits in 9 works, none a live citation; its query WORK-AREA-CITATIONS-SEND is copied into `queries.md`.
+
+RESTART-WALKTHROUGH (IMPORTANT line from the previous session): taken. citation-lines received first; Kris is walked through the restarts one at a time, each with its send line, in the order `ki`, `ki.tools-burndown`, `ki.observatory`, `ki.specifications`, `ki.chezmoi`, `ki.mac-studio-setup`, `ki.baseline-rollout`, `ki.timelines`, then acquire's intake work in its own repository, recommending a new session for each long-running one with the old one archived. The "Sol work-package rollout alignment" session is finished and can be archived. Line removed. Mark struck at 18:56 BST.

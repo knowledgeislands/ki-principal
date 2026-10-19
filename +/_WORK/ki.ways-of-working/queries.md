@@ -2,6 +2,22 @@
 
 ## Open
 
+### WORK-AREA-CITATIONS-SEND - Send old-citation lines when nothing needs rewriting
+
+since 2026-10-19 18:53 BST · from citation-lines (run report in `~/.local/state/ki/agents/ways-of-working/`)
+
+**Context:** WORK-AREA-CITATIONS a) authorised a line to each work whose live package files still cite retired paths, asking its worker to rewrite them. citation-lines found 11 hits in 9 works, and checked each one directly: two pinned links in hnr.email-routing that already resolve, four MIGRATED provenance lines in `+/_WORK_REVIEW/` works, a quotation of Kris's 18 October instruction in ki, and accurate descriptions in ki.chezmoi, ki.tools-burndown and kb.personal-tower. None is a live citation to follow, and rewriting the pinned links would break them. It sent no lines.
+
+**Query:** Should the old-citation lines still go to the 9 works?
+
+**Options:**
+
+a) (recommended, confidence high - every hit was checked directly and none is a live citation) send no lines and close WORK-AREA-CITATIONS: nothing in live package files needs rewriting
+
+b) send a line to all 9 works with each raw count, and let each worker judge
+
+c) send only to kb.personal-tower and ki.chezmoi, worded "check whether you still need to name the retired path"
+
 ### DESK-CAM - Which webcam to buy for sol
 
 since 2026-10-15 · from [webcam-compare](webcam-compare.report.md) · parked: listed as outstanding and not this work's; release: Kris's purchase decision
