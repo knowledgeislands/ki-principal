@@ -404,3 +404,7 @@ Read back taken: TOUCH-SCOPE a) - once the converter exists, editing a file conv
 ## 2026-10-19 22:32 BST - hold, more expected
 
 Per ROUND-END. Mark struck at 22:32 BST; nothing running, no open queries, nothing parked. Pointers sent to State of play (HOLD-POINTERS). Next round: graduate the seven `design/` files design-triage marked; home Kris's words in the two thread-model notes, then delete them; record the harness-checkout lesson (link1-baseline) in Mistakes and Lessons.
+
+## 2026-10-19 22:33 BST - mark
+
+Kris: "mark". Mark struck at 22:33 BST while on hold; nothing new to strike or prune.
