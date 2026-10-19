@@ -2,7 +2,7 @@
 id: ki.observatory
 state: with-worker
 since: 2026-10-19T18:46:00Z
-received: 2026-10-19T18:51:00Z
+received: 2026-10-19T18:52:00Z
 beat: null
 mark: 2026-10-19T18:02:00Z
 method_read: 2026-10-19T18:02:00Z
@@ -13,8 +13,9 @@ method_read: 2026-10-19T18:02:00Z
 ## Now
 
 - With worker since 19:46 BST on 19 October, after Kris's answers at 19:44 BST; marked at 19:02 BST.
-- Running: obs-accept-answers (apps-observatory.local: accept four, merge seven, capture follow-ups, fold answers into records), obs-condition (harness and tools-ki maturity handoffs) and obs-overlay-review (blind review of the reworded OVERLAY-COMMITTED).
+- Running: obs-accept-answers (apps-observatory.local: accept four, merge seven, capture follow-ups, fold answers into records), obs-overlay-review (blind review of the reworded OVERLAY-COMMITTED).
 - Received obs-pies-tables at 19:51 BST: KB-PRINCIPAL-046 in personal-principal and HNR-PRINCIPAL-KM-018 in hnr-principal carry PIES-TABLE-BARS, both in triage and committed locally, unpushed.
+- Received obs-condition at 19:52 BST: KI-HARNESS-GOV-223 (maturity scale and `.ki.toml` key) and KI-TOOL-KI-CLI-159 (`ki` exposes maturity and health), both triage, committed locally in ki-agentic-harness and tools-ki, unpushed. Its MATURITY-SCALE query is in blind review as obs-scale-review.
 - Kris pushes ki-principal and apps-observatory.local himself (PUSH-KRIS).
 - Run reports sit in `~/.local/state/ki/agents/observatory/`.
 
