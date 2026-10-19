@@ -309,3 +309,7 @@ Kris pasted Terra's report: every repository level except apps-tower.midnight.ni
 Kris: "but I already agreed to the LGL stuff"
 
 Read back taken: REPORT-SWEEP a) covers Terra's copies too. Terra deletes the seven reports identical to copies `5c43f459` deleted, commits the one new report, `helen-update.report.md`, into `+/_WORK/lgl/` with a Messages line asking the lgl worker to receive it, then fast-forwards legal-principal and pushes that one commit. The three broken user-level links go too, as they point at retired skills.
+
+## 2026-10-19 18:49 BST - received harness-files10
+
+`[skills.ki-acquire]` moved above Relationships so `[skills.ki-trades]` is last (`bda6e4a0`, on origin); `ki repo audit --repo .` PASS locally on 0.11.4, 1286 tests pass. Harness CI's pinned v0.11.3 run is still to confirm. Note: the run found the common-rules file the brief named missing, and worked from the brief alone; the 18:49 entry above and the TERRA-ALIGN entry carry times one to two minutes ahead of the clock.
