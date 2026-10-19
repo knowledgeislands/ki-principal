@@ -1100,3 +1100,7 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 
 - **RESUME:** "Resume KI > SoP from its work file in /Users/krisbrown/workspaces/knowledge-islands/ki-principal under current ki-coordination and ki-delegation since 2026-10-15T15:14:39Z: re-read the work file and decisions, take stock, put the parked queries back, restart authorised work, then banner." Taken on sol. The `state-of-play` run is rehomed to `+/_WORK/ki` (THREADS-REGRESSION). Dispatched `sop-restock` to act on the Messages section, prune the work folder and restock the parked queries.
 - **KA-VIA-INTAKE (11:10 BST):** "knowledge acquisition is happening through Acuire > intake". Knowledge acquisition needs no separate restart; the Acquire > intake session (sol) carries it.
+
+## 2026-10-19 11:20 BST - ROADMAP-FIELDS
+
+- **ROADMAP-FIELDS:** "can you fix these roadmnap items please", on the roadmap diagnostics naming unsupported or repeated fields: `size` in KI-OBSERVA-APP-045 and KI-OBSERVA-VIS-042 (apps-observatory.local), `priority` in KI-DESIGN-OBS-001 to 015 (ki-design) and KI-TOOL-MGIT-CLI-028 (tools-mgit). Dispatched `roadmap-fields`.
