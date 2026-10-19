@@ -293,3 +293,7 @@ harness-link-fix repointed the one absolute link (`ec30caaf`, on origin; 1286 te
 Kris, on waiting for the Terra and Sol reports: "can't we just keep foing?"
 
 Read back taken: yes. TERRA-ALIGN and SOL-ALIGN no longer gate the rollout. Kris resumes other threads now; each machine's session handles its own findings, and anything it surfaces comes here only if it needs this work.
+
+## 2026-10-19 18:47 BST - received review-surface
+
+Standard and rubric changed in the harness (`eff6163b`, on origin): territory work raises `+/_WORK_REVIEW/` holdings as one REVIEW-HOLD query at bootstrap, resume and re-anchoring, and COORD-3 warns while an area is non-empty. Holdings: ki-principal 5, personal-principal 3, hnr-principal 1, ki-agentic-harness 1; REVIEW-HOLD lines in each territory work's queue, pushed. Slip: this work's ALIGN-NO-GATE commit (`f91c51f5`) swept in the run's staged ki-principal messages line, because `git commit` took the whole index; the content is the intended line. From now on this work commits with `git commit -- <paths>`.
