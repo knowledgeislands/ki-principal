@@ -1,7 +1,7 @@
 ---
 id: ki
-state: with-worker
-since: 2026-10-19T18:40:45Z
+state: handoff-to-supervisor
+since: 2026-10-19T18:45:39Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-10-19T17:58:50Z
@@ -12,7 +12,7 @@ method_read: 2026-10-19T17:59:32Z
 
 ## Now
 
-- Handoff to supervisor since 19:08 BST on 19 October, on sol; the move lies with Kris. Received at 18:58 BST and marked at 18:58 BST.
+- Handoff to supervisor since 19:45 BST on 19 October, on sol; the move lies with Kris, with eight queries reviewed under QUERY-REVIEW where they needed it. Received at 18:58 BST and marked at 18:58 BST.
 - Nothing running. `sop-mark` checked the package and struck the decisions log from 261 entries to 28 (commit 6252698a); `review-hold` assessed the six held work folders ([report](review-hold.report.md)).
 - Open with Kris: REVIEW-HOLD, HOMELESS-STANDING, CHEZMOI-CARRY, MODEL-FALLBACK, PILOT-SEED-HOME, LIVE-MAN-SWITCH, THREADS-CHECKINS, RIG-FULLSCREEN.
 
