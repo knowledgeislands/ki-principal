@@ -1,167 +1,133 @@
 # Commit-gate hooks standard
 
-Design note for HOOKS-STANDARD (19 October 2026), the [Tools burndown](../work.md) work, routed from ki.ways-of-working on Kris's direction of 19 October: "add an urgent message to it to standardise". It sets out one commit-gate convention for the estate, the harness standard and rubric changes it needs, the `ki repo` and estate-repair changes in tools-ki, the rollout order and the gate each package-less repository should run. It is investigation only: no record, standard, hook or binding has changed.
+Design note for HOOKS-STANDARD, the [Tools burndown](../work.md) work, rewritten on 19 October 2026 for the shape Kris decided that evening: GIT-HOOKS a), COMMIT-MSG a), ROLLOUT-AUTHORITY a), HOOK-AUDIT and NON-KI a), all in the [decisions log](../decisions.md). It sets out the convention, the mechanical audit checks, the exact harness and tools-ki changes, and the rollout waves. It folds in the former `git-hooks.md` answer and its options note, both deleted here with Git holding them, and the caveats of the blind ghreview run. No standard, hook, binding or other repository has changed; the only record captured is [KI-TOOL-KI-CLI-161](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-161-git-check-message.md).
 
-Sources read at 18:20 to 18:50 BST on 19 October: the `ki-repo` [commit gate section](/Users/krisbrown/.local/share/ki/harnesses/knowledgeislands/ki-agentic-harness/skills/keystone/ki-repo/references/standards-repository.md) and its `HOOK-1` and `HOOK-2` checker (`keystone/ki-repo/scripts/rubric/contexts/hooks.ts`); [ADR-KI-HARNESS-SKILLS-017](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/decisions/ADR-KI-HARNESS-SKILLS-017-commit-gate-existence-and-content-are-owned-separately.md); the `ki-engineering` [standard](/Users/krisbrown/.local/share/ki/harnesses/knowledgeislands/ki-agentic-harness/skills/governance/ki-engineering/references/standards-engineering.md) (`SCR-5`, `SCR-11` and the hook-stub paragraph) and `git-hooks.ts`; `ki-repo-kb` `GATE-1`, `ki-repo-dotfiles-chezmoi` `GIT-2` and `ki-repo-tools` `SHELL-HOOK`; `ki-git`'s standard; the `.githooks` and `.husky` files of ki-principal, ki-agentic-harness and ki-design; tools-ki's `src/core/repository/operations/conform.ts`, `src/core/estate/` and `src/core/manage/repair.ts`; and a local scan of the 57 Git checkouts under `~/workspaces` plus the chezmoi source.
+Sources: the `ki-repo` [commit gate section](/Users/krisbrown/.local/share/ki/harnesses/knowledgeislands/ki-agentic-harness/skills/keystone/ki-repo/references/standards-repository.md) and its `HOOK-1`, `HOOK-2` checker; [ADR-KI-HARNESS-SKILLS-017](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/decisions/ADR-KI-HARNESS-SKILLS-017-commit-gate-existence-and-content-are-owned-separately.md); the `ki-engineering` [standard](/Users/krisbrown/.local/share/ki/harnesses/knowledgeislands/ki-agentic-harness/skills/governance/ki-engineering/references/standards-engineering.md), "Common local Git hooks", with `PKG-5`, `PKG-6`, `SCR-5` and `SCR-11`; `ki-repo-kb` `GATE-1`, `ki-repo-dotfiles-chezmoi` `GIT-2` and `ki-repo-tools` `SHELL-HOOK`; `ki-git`'s standard, "Package-backed commit-message binding"; ki-principal's `.githooks/` and `.husky/`; tools-ki's `src/`, which has no hook handling; a local scan of 57 checkouts on 19 October; and the ghreview run's 23 scratch-repository assertions under Git 2.56.0 and Husky 9.1.7.
 
 ## Short answers
 
-- **The harness already has one convention, and it is not "Husky only".** [ADR-KI-HARNESS-SKILLS-017](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/decisions/ADR-KI-HARNESS-SKILLS-017-commit-gate-existence-and-content-are-owned-separately.md), from [KI-HARNESS-GOV-109 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/6387e0d29ff3d75cb20bcae042342df1c1752f77/docs/roadmap/KI-HARNESS-GOV-109-fail-when-commit-gates-absent.md), requires every repository to commit `.githooks/pre-commit` and bind `core.hooksPath` to `.githooks` (`HOOK-1`, `HOOK-2`, both at WARN). Husky is the `ki-engineering` content layer for Bun repositories (`SCR-11`), and `.githooks` stubs wrapping Husky are optional there. The estate drifted the other way: 25 KI repositories bind `.husky/_` and fail `HOOK-2` quietly.
-- **Recommended convention: Husky for content, `.githooks` for the binding, everywhere.** Every KI repository commits `.githooks/pre-commit` (and `.githooks/commit-msg` where a message check exists) and binds `.githooks`. In a Bun repository the stub refuses when the tooling is missing, then hands over to `.husky/<hook>`, which holds all the content. In a package-less repository the stub holds the content itself. This is the ki-principal and ki-agentic-harness shape, made uniform. It is the only shape that gates a package-less repository and a linked worktree that has never run `bun install`.
-- **The worktree refusal cannot move into Husky.** Husky's runtime is the untracked `.husky/_`, which `bun install` generates. A linked worktree without an install has no `.husky/_`, so a repository bound to it commits unchecked and nothing runs that could refuse. The refusal must live in a committed, bound file.
-- **The knowledge-base audit moves into `.husky/pre-commit` where a package exists.** The stubs then become generated, content-free wrappers, identical across the estate apart from the tool list. `GATE-1`, `GIT-2` and `SHELL-HOOK` read the effective gate: the stub plus the Husky hook it hands to.
-- **tools-ki needs three changes:** hook-file composition and writing in `ki repo conform`, the clone-local binding in `ki repo conform`, and a binding sweep across every registered clone on a machine for the estate repair. It has no hook handling today.
+- **One home for hooks: a committed `.githooks/`, in every KI repository.** It holds `pre-commit` and `commit-msg`, each the whole hook: refusal when a tool is missing, `node_modules/.bin` on `PATH` where a package exists, then the content. `core.hooksPath .githooks` binds it in every clone.
+- **Husky leaves.** Once a committed hook is bound, Husky does nothing a one-line `prepare` does not: `prepare` becomes `git config core.hooksPath .githooks`, with the boundary-install suffix kept where it exists. `husky` leaves every manifest and `PKG-5`, and `.husky/` leaves every repository.
+- **The knowledge-base audit stays in `.githooks/pre-commit`,** where `GATE-1` already reads it. KB-AUDIT falls away, and so does the "effective gate" reading the first design needed.
+- **Package-less repositories get `commit-msg` when `ki git check-message` ships** ([KI-TOOL-KI-CLI-161](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-161-git-check-message.md)); until then they run `pre-commit` only. Bun repositories keep Commitlint, now called from `.githooks/commit-msg`.
+- **`ki repo audit` checks it mechanically** (section 3), at WARN through the rollout and FAIL after the last wave.
+- **Rollout runs in waves, each under one owner grant,** committing by explicit path locally; Kris pushes. Only repositories with `.ki.toml` take part.
 
-## 1. The estate as it stands
+## 1. Why outside `.git`, and why not Husky
 
-The scan read each checkout's `core.hooksPath`, tracked `.husky` and `.githooks` files, `package.json`, Bun lockfile and `.ki.toml` shape skills. Of 57 checkouts, 51 declare `.ki.toml`.
+Git runs hooks from `.git/hooks/` by default, but that directory is never tracked, so nothing there is reviewed or versioned, `git clone` does not copy it, and every clone on both machines would need installing and keeping in step. A tracked `.githooks/` puts the hook in the repository: it is reviewed with the code, every clone and worktree runs the hook at the revision it has checked out, and a change reaches the other machine with an ordinary pull. The one per-clone step left is the binding.
 
-| Group | Count | Repositories |
-| --- | --- | --- |
-| Bound to `.githooks`, stubs wrapping Husky | 2 | ki-principal (stub adds the KB audit and a `ki` presence check), ki-agentic-harness (stub wraps Husky only; no KB audit) |
-| Husky bound to `.husky/_`, KI | 25 | 5g-emerge-apex, 5g-emerge-demos, 5g-emerge-phase2, 5g-emerge-phase3, 5g-emerge-testbed, hnr-agentic-harness, infoschematics, apps-observatory.local, ki-techne-harness, mcp-acquire-whatsapp, mcp-git-audit, mcp-gsuite, mcp-housekeeping-chatgpt, mcp-housekeeping-claude, mcp-ki-kb-fs, mcp-ki-kb-notion-mirror, mcp-m365, tools-git-almanac, tools-ki, tools-techne, apps-midnight.ninja, apps-rig.midnight.ninja, apps-tower.midnight.ninja, apps-markhowarth.com, apps-vallearmonia.com |
-| Hooks committed, unbound | 3 | ki-design (`.githooks` and `.husky`, `prepare` is plain `husky` and the binding is unset), apps-knowledgeislands.info (`.husky`, Bun), apps-yorkphotosoc.org (`.husky/pre-commit` only, npm, no Bun lockfile) |
-| No gate, KI | 21 | Knowledge Bases: er-principal, hnr-principal, legal-principal, personal-principal, si-principal, tmx-principal, va-principal. Harnesses: er-, legal-, personal-, si-, tmx- and va-agentic-harness. Bash tools: tools-mgit, tools-rig. Others: the chezmoi source, homebrew-tap, ki-specifications, apps-dafacts.org, apps-kris.me.uk, personal/acquire |
-| Not KI (no `.ki.toml`) | 6 | hnr-backend and hnr-frontend (npm Husky with `pre-push` and `require-tools.sh`, bound to `.husky/_`), hnr-benchmarks, hnr-shared, kw-website, paperclip (no gate) |
-
-Two corrections to the 18:01 BST survey. Only ki-principal's stub runs the knowledge-base audit; ki-agentic-harness's stub wraps Husky and nothing else. The Husky-bound count here is 27 including the two non-KI HNR repositories, against 30 in the survey; the difference is probably checkouts on the other machine, and the rollout sweep should recount on each.
-
-hnr-principal and legal-principal carry a `package.json` without a lockfile or `ki-engineering`, so they count as package-less.
+Husky 9.1.7 is about 30 lines. Its one real service is setting the binding automatically on `bun install`. Its runtime is the untracked, install-generated `.husky/_`, so an uninstalled clone or worktree commits unchecked, and its lifecycle wants a `package.json`, which about 21 KI repositories lack. ki-principal and ki-agentic-harness already bypass Husky's runner by calling `sh .husky/pre-commit` from a committed stub, and their `prepare` overrides Husky's binding immediately after setting it. Dropping Husky removes a second hook directory, generated files and a binding that installation overwrites.
 
 ## 2. The convention
 
-### 2.1 Layers
+### 2.1 Binding
 
-1. **Binding (`ki-repo`).** `core.hooksPath` is `.githooks` in every clone of every KI repository. `HOOK-2` already checks this. In a Bun repository, `prepare` sets it: `husky && git config core.hooksPath .githooks`, which `SCR-5` already allows. This becomes the only form `SCR-5` accepts. Husky's own `prepare` step still generates `.husky/_`, but nothing binds it.
-2. **Entry (`ki-repo`).** `.githooks/pre-commit`, and `.githooks/commit-msg` where the repository checks messages, are tracked, executable regular files. The template has four parts: find the root, refuse unless every required tool is present, put `node_modules/.bin` on `PATH` where a package exists, and run the content. The refusal text is the ki-principal text ("a gate that cannot run is unknown, not a pass"), with the install command a parameter (`bun install`, `npm install`, or the tool to install).
-3. **Content (shape skills).** In a Bun repository the content lives only in `.husky/pre-commit` and `.husky/commit-msg`, and the stub ends `exec sh "$root/.husky/<hook>" "$@"`. In a package-less repository the content lives in the stub after the refusal. Each shape skill keeps the commands it owns: `SCR-11` for Husky, `GATE-1` for the KB audit, `GIT-2` for chezmoi, `SHELL-HOOK` for Bash tools.
+`core.hooksPath` is the relative `.githooks` in every clone of every KI repository. A relative value resolves from the root of the working tree that is committing, so one setting serves the clone and all its linked worktrees.
 
-### 2.2 The knowledge-base audit
+- **Bun repositories:** `prepare` is `git config core.hooksPath .githooks`, followed by `&& bun install --frozen-lockfile --cwd tooling/boundaries` where that install root exists. `bun install` then binds a fresh clone.
+- **Package-less repositories:** `ki repo conform` sets the binding, and the estate sweep sets it in every registered clone (section 5).
 
-ki-principal's KB audit moves from `.githooks/pre-commit` to the end of `.husky/pre-commit`, and `ki` joins the stub's required tools. Its stub then matches every other Bun repository's stub except for the tool list. A package-less Knowledge Base, which is every principal except ki-principal, keeps the audit in its stub, because it has no Husky.
+### 2.2 Hook files
 
-`GATE-1`, `GIT-2` and `SHELL-HOOK` currently read only `.githooks/pre-commit`. They change to read the effective gate: the stub, and `.husky/pre-commit` where the stub hands over to it. The check-only rule (no `ki repo conform`, no `--fix` or `--write`) applies to both files. Without this change, moving the audit into Husky would turn `GATE-1` from PASS to FAIL in ki-principal.
+`.githooks/pre-commit` and `.githooks/commit-msg` are tracked regular files with mode `100755`; Git ignores a non-executable hook. Each follows one template:
 
-### 2.3 Not chosen
+1. `#!/bin/sh`, then `root="$(git rev-parse --show-toplevel)" || exit 1`.
+2. Refuse unless every required tool is present: `node_modules/.bin/<tool>` in a Bun repository, `command -v <tool>` otherwise. The refusal names the missing tools and the install step, and ends with ki-principal's line: "do not bypass with --no-verify; a gate that cannot run is unknown, not a pass."
+3. In a Bun repository, put `$root/node_modules/.bin` on `PATH`.
+4. The content, each command ending `|| exit 1` so failure propagates, with `"$@"` forwarded where a hook takes arguments.
 
-- **Husky only (`core.hooksPath .husky/_` everywhere).** Every package-less repository, 21 of them, would need a `package.json`, `husky` and an install just to run `ki repo audit` or `shellcheck`. A fresh linked worktree would commit unchecked, the gap [ADR-KI-HARNESS-SKILLS-017](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/decisions/ADR-KI-HARNESS-SKILLS-017-commit-gate-existence-and-content-are-owned-separately.md) records under Consequences and the stubs were written to close. It would also reverse a current decision for no gain beyond the directory name.
-- **Commit `.husky/` and bind it directly, dropping Husky's runtime.** This gives one directory name, but `bun install` would rebind `.husky/_` through `prepare`, so `husky` would have to leave every manifest and `PKG-5`. It would also put a directory called `.husky` in repositories that have no Husky.
+Content by shape, each owned by the criterion named:
 
-## 3. Harness standard and rubric changes
-
-All of these sit in ki-agentic-harness, inside ki.tools-burndown's hooks-standard scope.
-
-| Skill | Change |
-| --- | --- |
-| Decision record | Refine [ADR-KI-HARNESS-SKILLS-017](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/decisions/ADR-KI-HARNESS-SKILLS-017-commit-gate-existence-and-content-are-owned-separately.md) in place: the stub template and the Husky hand-over become part of the decision, and "Adding a stub is a receiver-owned trade" gives way to the rollout authority Kris chooses (ROLLOUT-AUTHORITY). |
-| `ki-repo` | The standard states the stub template and that a Bun repository's stub hands over to Husky. "`ki-repo` never writes hook" becomes: conform writes the stub from the template and sets the binding, and never writes content. `HOOK-1` adds the template's shape (refusal before content) as a check. `HOOK-2` names `.husky/_` as the common wrong value in its message (the test already covers it). Both move from WARN to FAIL at the end of the rollout. `HOOK-J1` is unchanged. |
-| `ki-engineering` | `.githooks` stubs move from MAY to MUST for package-backed repositories. `SCR-5` accepts only `husky && git config core.hooksPath .githooks`, keeping the existing `tooling/boundaries` suffix. `SCR-11` keeps the Husky content and adds "content lives only in `.husky/`". The stub tool list is derived from the Husky hooks (`lint-staged`, `syncpack`, `tsc` where used, `commitlint`). |
-| `ki-repo-kb` | `GATE-1` reads the effective gate; the standard names `.husky/pre-commit` as the KB audit's home where a package exists. `contributes` gains `.husky/pre-commit`. |
-| `ki-repo-dotfiles-chezmoi`, `ki-repo-tools` | `GIT-2` and `SHELL-HOOK` read the effective gate. No content change. |
-| `ki-repo-harness` | No content criterion exists for a harness's hook. Add one: `ki repo audit --staged` check-only, matching `GATE-1`. |
-| `ki-git` | One line in the standard: a commit gate that cannot run refuses, and the remedy is the install the refusal names, never `--no-verify`. It also cites `ki-repo` for the binding. `ki-git` still installs nothing. If COMMIT-MSG a) is chosen, `ki-git` owns the vocabulary a non-Bun `commit-msg` checks. |
-
-## 4. tools-ki changes
-
-tools-ki has no hook handling today. `ki repo conform` runs each declared skill's conform operation and composes only `package.json` scripts through claims. `ki estate converge` moves, clones, re-remotes and relinks checkouts. `ki repair` repairs user skill links.
-
-1. **Hook composition in `ki repo conform`.** A claims mechanism for `.githooks/pre-commit` and `.githooks/commit-msg`, on the model of the package-script claims: `ki-repo` supplies the template and each shape skill claims its content lines (package-less) or the Husky hand-over (Bun). Conform writes the file deterministically, mode `100755`, and refuses a file that has hand-written lines it cannot attribute rather than overwriting them. ki-principal's and ki-agentic-harness's current stubs should re-render byte-identical apart from the moved KB audit, which makes them the fixtures.
-2. **Binding in `ki repo conform`.** Where a tracked `.githooks/pre-commit` exists and `core.hooksPath` is unset or `.husky/_`, conform sets it to `.githooks`. This is clone-local Git configuration, not a tracked change, and reverses with `git config --unset core.hooksPath`. It never overrides any other value; it reports it.
-3. **Estate binding sweep.** The binding belongs to each clone, so every machine needs it after every pull that adds a stub. Add it to the estate repair: `ki estate converge` plans a `hooks-path` action for every registered clone whose tracked stub is unbound, and apply sets it, with the same preview, apply and roll-back as other converge actions. Converge already repairs worktrees, so it is the natural home; `ki repair` is about the user runtime and is not. Linked worktrees share the clone's configuration, so one action per clone is enough.
-4. **Optional, under COMMIT-MSG a): `ki git check-message <file>`.** This checks a message against the `ki-git` Conventional Commit vocabulary with no Node dependency, so a package-less repository's `.githooks/commit-msg` can call it.
-
-tools-ki is itself a Bun repository bound to `.husky/_`, so it takes its own stubs in the pilot wave. [KI-TOOL-KI-CLI-156](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-156-ci-runs-local-gate.md) leaves the Husky hooks alone and does not conflict.
-
-## 5. Rollout order
-
-1. **Standard.** Refine the decision and change the five skills in section 3, with `HOOK-1` and `HOOK-2` still at WARN. Harness tests cover the effective-gate reading and the stub template.
-2. **Tool.** Ship the tools-ki changes in section 4 (one record each for composition, binding and the estate sweep, plus `check-message` if chosen). Both machines run tools from their checkouts (LOCAL-MODE, 19 October), so a pull delivers them without a release.
-3. **Pilot.** Run three repositories that between them exercise every path: ki-design (stubs already present: change `prepare`, bind), ki-principal (move the KB audit into Husky, re-render the stub) and one package-less Knowledge Base, va-principal. Then tools-ki itself. Check that a commit refuses in a fresh linked worktree with no install, and passes after it.
-4. **Bun wave.** The 25 Husky-bound KI repositories plus apps-knowledgeislands.info: add stubs, change `prepare`, bind. Knowledge Islands repositories go first, then Humans Not Robots, personal and Valle Armonia. This is mechanical, one commit per repository.
-5. **Package-less wave.** The 20 ungated KI repositories in section 6, then apps-yorkphotosoc.org. The chezmoi source goes to ki.chezmoi as a handoff, because Rig and dotfiles are outside this work.
-6. **Machines and severity.** Run the estate sweep on Terra and on Sol, re-scan both, then raise `HOOK-1` and `HOOK-2` to FAIL.
-
-## 6. Gate content for package-less repositories
-
-Every package-less stub refuses first when a tool it needs is absent from `PATH`. The table gives what follows the refusal. All commands are check-only.
-
-| Repositories | Required tools | `pre-commit` content | Owning criterion |
+| Shape | `pre-commit` content | `commit-msg` content | Owner |
 | --- | --- | --- | --- |
-| er-principal, hnr-principal, legal-principal, personal-principal, si-principal, tmx-principal, va-principal | `ki` | `ki repo audit --repo "$root" --skill ki-repo-kb --staged --concise --progress never --reporter-levels FAIL`, rerun in full on failure (the ki-principal form) | `GATE-1` |
-| er-, legal-, personal-, si-, tmx- and va-agentic-harness | `ki` | `ki repo audit --repo "$root" --skill ki-repo-harness --staged`, same concise-then-full form | new `ki-repo-harness` criterion |
-| tools-mgit, tools-rig | `shellcheck`, `bats` | `shellcheck` over the staged shell files, then the `bats` suite | `SHELL-HOOK` |
-| chezmoi source (handoff to ki.chezmoi) | `ki` | `ki repo audit --repo "$root" --skill ki-repo-dotfiles-chezmoi --staged`, concise-then-full | `GIT-2` |
-| homebrew-tap | `ki` | `ki repo audit --repo "$root" --skill ki-repo-homebrew-tap --staged`, concise-then-full | none today; `HOOK-1` only |
-| ki-specifications | `ki` | `ki repo audit --repo "$root" --skill ki-repo-specifications --staged`, concise-then-full | none today; `HOOK-1` only |
-| apps-dafacts.org, apps-kris.me.uk, personal/acquire | `ki` | `ki repo audit --repo "$root" --staged`, concise-then-full, over the declared skills | none today; `HOOK-1` only |
-| apps-yorkphotosoc.org (npm) | `node_modules/.bin` entries its `.husky/pre-commit` uses | stub hands over to the existing `.husky/pre-commit`; install command `npm install` | `HOOK-1` only, as it does not declare `ki-engineering` |
+| Bun (`ki-engineering`) | `lint-staged` (or `lint-staged --quiet`), then `syncpack format --check`, then any repository-specific fast checks | `commitlint --edit "$1"`; may switch to `ki git check-message "$1"` once [KI-TOOL-KI-CLI-161](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-161-git-check-message.md) ships | `SCR-11` |
+| Knowledge Base (`ki-repo-kb`) | adds `ki repo audit --repo "$root" --skill ki-repo-kb --staged`, concise then full on failure, as ki-principal runs it today | as its package shape, or `ki git check-message "$1"` | `GATE-1` |
+| Harness (`ki-repo-harness`) | adds `ki repo audit --repo "$root" --skill ki-repo-harness --staged`, concise then full | as above | new criterion, section 4 |
+| Bash tool (`ki-repo-tools`) | `shellcheck` over staged shell files, then `bats` | `ki git check-message "$1"` | `SHELL-HOOK` |
+| chezmoi source | `ki repo audit --skill ki-repo-dotfiles-chezmoi --staged`, concise then full | as above | `GIT-2` |
+| Others with `.ki.toml` (homebrew-tap, ki-specifications, apps without a package) | `ki repo audit --repo "$root" --staged` over the declared skills | as above | `HOOK-1` only |
 
-The `bats` timing in tools-rig and tools-mgit was not measured. If either suite is slow, the pilot should say so before the package-less wave fixes `SHELL-HOOK` on every commit. `--staged` was confirmed only with `--skill ki-repo-kb`. The pilot confirms it for the other skills.
+A repository with both a package and a KB, such as ki-principal, keeps the Bun lines first and the KB audit after them, in the one file. Every command is check-only: no `ki repo conform`, `--fix` or `--write`.
 
-`commit-msg` for these repositories waits on COMMIT-MSG.
+### 2.3 Caveats carried from the ghreview run
 
-## 7. Decisions for Kris
+- A fresh clone has no binding under any option: the binding is clone-local configuration, which `git clone` does not copy. `prepare`, conform and the sweep exist for this.
+- A worktree checked out at a revision without `.githooks/` commits unchecked despite the inherited binding. This shrinks as the rollout lands and is not otherwise fixable locally.
+- `extensions.worktreeConfig` lets a worktree override `core.hooksPath`, so linked worktrees share the binding only by default. `HOOK-2` must read the effective value from the working tree it audits.
+- Working-tree-root resolution holds for ordinary commit hooks in non-bare repositories; bare repositories and receive-side hooks are out of scope.
+- Husky's installer runs without a manifest when called directly; "needs a `package.json`" is a property of its package lifecycle, not of Git. This does not change the decision.
+- Migration must keep each repository's own checks after the common prefix, argument forwarding, the tool refusal and failure propagation, and the boundary-install suffix in `prepare`.
+- Local hooks are bypassable with `--no-verify`; CI and the repository audit remain the authoritative gate. Hosted checks and branch protection were not inspected, so mandatory CI enforcement is unverified.
+- Counts differ by machine: ghreview's directory saw 21 checkouts with `.ki.toml` (13 bound to `.husky/_`, two to `.githooks`, six unset) against this note's 51 of 57. Each wave recounts on the machine it runs on.
 
-### HOOKS-CONVENTION - which convention "standardise on Husky" means
+## 3. Mechanical audit checks (HOOK-AUDIT)
 
-**Context:** The harness standard and its current decision record already require a committed `.githooks/pre-commit` bound by `core.hooksPath .githooks` in every repository, with Husky as the content layer only where a Bun package exists. 25 repositories bind Husky's untracked `.husky/_` instead. A Husky-only binding cannot gate the 21 package-less repositories without adding a package to each, and it lets a fresh linked worktree commit unchecked.
+What `ki repo audit` verifies once the standard lands. All start at WARN and move to FAIL after the last wave. Checks that read clone-local state are not applicable in CI, as `HOOK-2` is today.
 
-**Query:** Should the estate converge on Husky for content behind committed `.githooks` stubs, or on Husky alone?
+| Check | Verifies | Criterion | Local only |
+| --- | --- | --- | --- |
+| Committed `pre-commit` | `.githooks/pre-commit` tracked, regular file, mode `100755` | `HOOK-1` (exists) | no |
+| Committed `commit-msg` | `.githooks/commit-msg` tracked, regular file, mode `100755`; required now in a package-backed repository, and in a package-less one once `ki git check-message` ships, until then not applicable there | `HOOK-3` (new, `ki-repo`) | no |
+| Bound to `.githooks` | the effective `core.hooksPath`, read with `git config --get core.hooksPath` from the audited working tree so a worktree override shows, equals `.githooks`; the message names `.husky/_` as the common wrong value and gives the exact command | `HOOK-2` (exists, message sharpened) | yes |
+| Refusal before content | each hook starts `#!/bin/sh` and refuses on a missing tool before its first content command; it never suggests `--no-verify` | `HOOK-4` (new, `ki-repo`) | no |
+| No Husky | no tracked `.husky/` path; no `husky` in `dependencies` or `devDependencies`; `prepare` does not call `husky`; no hook references `.husky/`; locally, no leftover untracked `.husky/_` | `HOOK-5` (new, `ki-repo`), with `PKG-5` and `SCR-5` | the `.husky/_` part only |
+| Bun content | `.githooks/pre-commit` runs `lint-staged` then `syncpack format --check`; `.githooks/commit-msg` runs `commitlint --edit "$1"` or `ki git check-message "$1"` | `SCR-11` (moved from `.husky/`) | no |
+| KB audit in `pre-commit` | where `ki-repo-kb` is declared, `.githooks/pre-commit` runs the check-only `ki repo audit --skill ki-repo-kb --staged` | `GATE-1` (exists, unchanged) | no |
+| Shape content | `GIT-2`, `SHELL-HOOK` and the new harness criterion each find their check-only command in `.githooks/pre-commit` | existing, plus one new | no |
 
-**Options:**
+## 4. Exact changes
 
-a) (recommended, confidence medium - the only shape that gates package-less repositories and fresh worktrees and keeps the current decision, but it reads "Husky" more narrowly than Kris may have meant) Husky holds the content wherever a Bun package exists; every repository commits `.githooks` stubs and binds `.githooks`.
+### 4.1 ki-agentic-harness
 
-b) Husky alone: bind `.husky/_` everywhere, add a `package.json` and `husky` to every package-less repository, accept that unbuilt worktrees commit unchecked, and supersede the current decision.
+Not edited by this run: another session holds uncommitted changes there (`ki-repo-kb` link and KB context scripts). The changes do not overlap those files but should land in a separate unit once that session commits.
 
-c) Commit `.husky/` and bind it directly, dropping Husky's runtime and the `husky` dependency estate-wide.
+| Where | Change |
+| --- | --- |
+| [ADR-KI-HARNESS-SKILLS-017](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/decisions/ADR-KI-HARNESS-SKILLS-017-commit-gate-existence-and-content-are-owned-separately.md) | Refine in place: `.githooks/` holds all hook content, `pre-commit` and `commit-msg` both; Husky is retired; "adding a stub is a receiver-owned trade" gives way to ROLLOUT-AUTHORITY a), one owner grant per wave. Existence and binding stay with `ki-repo`, content with shape skills. |
+| `ki-repo` standard, "Commit gate" | "should commit `.githooks/pre-commit`" becomes "commits `.githooks/pre-commit` and `.githooks/commit-msg`"; add the template of section 2.2; conform writes the template frame and the binding, and shape skills supply content. |
+| `ki-repo` rubric and `scripts/rubric/{contexts,items}/hooks.ts` | `HOOK-2` reads the effective value per working tree and names `.husky/_`; add `HOOK-3` (commit-msg), `HOOK-4` (refusal before content), `HOOK-5` (no Husky); the WARN-to-FAIL step at rollout end. `HOOK-J1` unchanged. |
+| `ki-engineering` standard, "Common local Git hooks" | Rewrite: hooks live in `.githooks/`; drop the MAY-stub paragraph, since the stub is now the hook; `.husky/pre-commit` and `.husky/commit-msg` prefixes become `.githooks/` prefixes called without `bunx`, with `node_modules/.bin` on `PATH`; remove `husky` from the toolchain list. |
+| `PKG-5` | Drop `husky` from the required devDependencies; a declared `husky` fails, through `HOOK-5`. |
+| `PKG-6` | Reword "the husky pre-commit fan-out" to "the pre-commit fan-out"; the check is unchanged. |
+| `SCR-5` | Accept only `git config core.hooksPath .githooks`, plus the boundary-install suffix; reject any `husky` call. CONFORM rewrites the two current forms. |
+| `SCR-11` | Read `.githooks/pre-commit` and `.githooks/commit-msg` instead of `.husky/`; accept `ki git check-message "$1"` beside `commitlint`. CONFORM repairs the prefixes in `.githooks/` and refuses a symlink or unsafe file, as now. |
+| `ki-engineering` scripts | `contexts/git-hooks.ts`, `contexts/engineering.ts`, `contexts/audit-evidence.ts` (toolchain list and the `.husky` writer), `items/scripts.ts`, `items/package.ts` and their tests follow the four criteria above. The "Binding these hooks for the first time" paragraph drops Husky and keeps the Syncpack, install and Knip sequence. |
+| `ki-engineering` `SKILL.md`, `exemplars.md` | Exemplar `"prepare": "husky"` becomes `"prepare": "git config core.hooksPath .githooks"`; `contributes` swaps `.husky/*` for `.githooks/*` where listed. |
+| `ki-git` standard, "Package-backed commit-message binding", and `SKILL.md` | Rename to "Commit-message binding": every KI repository binds the deterministic rules through `.githooks/commit-msg`, by Commitlint where a package exists or `ki git check-message`; `ki-git` stays the sole owner of the vocabulary and the command reads it from there. Add one line: a gate that cannot run refuses, and the remedy is the install it names, never `--no-verify`. Drop "Husky can be bypassed" for "a local hook can be bypassed". |
+| `ki-repo-kb` `GATE-1` | No change to the check. Standard text drops any Husky mention; `contributes` already names `.githooks/pre-commit`. |
+| `ki-repo-dotfiles-chezmoi` `GIT-2`, `ki-repo-tools` `SHELL-HOOK` | No change to the checks; they already read `.githooks/pre-commit`. `SHELL-HOOK`'s standard gains the `commit-msg` line once KI-TOOL-KI-CLI-161 ships. |
+| `ki-repo-harness` | Add a content criterion: `.githooks/pre-commit` runs `ki repo audit --skill ki-repo-harness --staged`, check-only, not applicable without a hook, matching `GATE-1`. |
 
-### KB-AUDIT - where the knowledge-base audit lives
+### 4.2 tools-ki
 
-**Context:** ki-principal runs the KB audit from its `.githooks/pre-commit` stub; the rubric criteria read only that file. Moving the audit into `.husky/pre-commit` makes every Bun stub a generated wrapper, but the criteria must then read the stub and the Husky hook together.
+| Change | Status |
+| --- | --- |
+| `ki git check-message <file>`: the deterministic `ki-git` rules with no Node dependency, for `.githooks/commit-msg` | Captured at triage, [KI-TOOL-KI-CLI-161](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-161-git-check-message.md) |
+| Hook composition in `ki repo conform`: a claims mechanism for `.githooks/pre-commit` and `.githooks/commit-msg` on the model of the package-script claims; `ki-repo` supplies the frame, each shape skill claims its content lines; written deterministically at mode `100755`; refuses a file with lines it cannot attribute rather than overwrite them. ki-principal's hooks, with the Husky hand-over inlined, are the fixture | To capture |
+| Binding in `ki repo conform`: where a tracked `.githooks/pre-commit` exists and `core.hooksPath` is unset or `.husky/_`, set `.githooks` and remove a leftover untracked `.husky/_`; report any other value without changing it. Reversible with `git config --unset core.hooksPath` | To capture |
+| Estate binding sweep: `ki estate converge` plans a `hooks-path` action for every registered clone whose tracked hook is unbound, with its usual preview, apply and roll-back; one action per clone covers its worktrees | To capture |
+| Audit plumbing: `HOOK-2` and `HOOK-5` need the effective `core.hooksPath` and the untracked `.husky/_` state of the audited working tree; confirm the rubric context supplies both, or extend it | To check during planning |
 
-**Query:** Should the KB audit move into `.husky/pre-commit` where a package exists?
+tools-ki itself is a Bun repository bound to `.husky/_` and takes its own conversion in the first wave. [KI-TOOL-KI-CLI-156](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-156-ci-runs-local-gate.md) runs the local gate in CI; its plan should read the gate from `.githooks/` once that lands.
 
-**Options:**
+## 5. Rollout
 
-a) (recommended, confidence medium - one content home per repository and uniform stubs, at the cost of a small change to three checkers) Move it into `.husky/pre-commit` where a package exists, keep it in the stub where none does, and make `GATE-1`, `GIT-2` and `SHELL-HOOK` read the effective gate.
+Order, each step a unit of its own:
 
-b) Keep the KB audit in the stub everywhere, so a stub may carry content even beside Husky.
+1. **Standard.** The harness changes in 4.1, with the new checks at WARN, once the other harness session's changes are committed.
+2. **Tool.** The tools-ki composition, binding and sweep; `check-message` when ready. Both machines run tools from their checkouts, so a pull delivers them without a release.
+3. **Waves.** Each wave is one owner grant naming its repositories. Per repository, one commit by explicit path, local only: write `.githooks/pre-commit` and `.githooks/commit-msg` (Husky content inlined, repository-specific lines kept), change `prepare`, remove `husky` from `package.json` and the lockfile, delete `.husky/`, rebind the clone, then prove a commit refuses in a fresh linked worktree with no install and passes after `bun install`. `prepare` and the `husky` removal go in the same commit as the hooks, or a later `bun install` rebinds to `.husky/_`. Kris pushes.
+4. **Machines and severity.** After the last wave, run the estate sweep on Terra and on Sol, re-scan both, then raise the hook checks to FAIL.
 
-### COMMIT-MSG - message checks in package-less repositories
+Only repositories with `.ki.toml` take part (NON-KI a)); hnr-backend, hnr-frontend, hnr-benchmarks, hnr-shared, kw-website and paperclip stay out unless they adopt it. The chezmoi source goes to ki.chezmoi as a handoff rather than a wave entry.
 
-**Context:** Commitlint needs Node and an install, so the 21 package-less repositories have no message check. A shell pattern in each stub would copy the `ki-git` vocabulary 21 times and drift from it.
+### Proposed waves
 
-**Query:** How should package-less repositories check commit messages?
-
-**Options:**
-
-a) (recommended, confidence medium - one source of the vocabulary and no Node dependency, but it adds a tools-ki command) Add `ki git check-message`, which `.githooks/commit-msg` calls; until it ships, these repositories have `pre-commit` only.
-
-b) A generated shell pattern in `.githooks/commit-msg`, rendered from the `ki-git` vocabulary by conform.
-
-c) No message check outside Bun repositories.
-
-### ROLLOUT-AUTHORITY - who writes the stubs in other repositories
-
-**Context:** The current decision makes adding a stub "that repository's change, raised as a receiver-owned trade", and the Charter gives territory selection no cross-repository write authority. Kris asked for the rollout to run through `ki repo` and the estate repair, which means one run writing stubs in about 47 repositories.
-
-**Query:** Should one owner grant cover `ki repo conform` writing and committing the stubs, wave by wave, in every KI repository?
-
-**Options:**
-
-a) (recommended, confidence medium - it matches Kris's "through `ki repo`" and the change is mechanical, but each wave writes to repositories ki.tools-burndown does not own) One grant per wave in section 5: a run commits the conformed stubs and `prepare` change by explicit path in each listed repository, local only, and the pushes are Kris's.
-
-b) Receiver-owned trades: ki.tools-burndown ships the standard and tool, and each repository's owning work runs `ki repo conform` itself.
-
-### NON-KI - repositories without `.ki.toml`
-
-**Context:** hnr-backend and hnr-frontend run their own npm Husky gates with `pre-push`; hnr-benchmarks, hnr-shared, kw-website and paperclip have none. `ki repo` does not reach a repository without `.ki.toml`.
-
-**Query:** Are the six non-KI repositories outside this rollout?
-
-**Options:**
-
-a) (recommended, confidence high - `ki repo` cannot reach them, and the HNR gates are deliberate and working) Leave them out. They join only if they adopt `.ki.toml`.
-
-b) Bring them in by declaring `.ki.toml` first.
+| Wave | Repositories | Why together |
+| --- | --- | --- |
+| 1, pilot | ki-principal (Bun with KB audit), tools-ki (Bun tool, the hooks' own author), va-principal (package-less KB, `pre-commit` only) | Exercises every path once; ki-principal and tools-ki become the fixtures |
+| 2, Knowledge Islands Bun | ki-agentic-harness, ki-design, ki-techne-harness, tools-techne, tools-git-almanac, apps-knowledgeislands.info, apps-observatory.local, the eight `mcp-*` repositories | The territory's own package-backed repositories |
+| 3, other Bun | hnr-agentic-harness, infoschematics, the five `5g-emerge-*` repositories, apps-midnight.ninja, apps-rig.midnight.ninja, apps-tower.midnight.ninja, apps-markhowarth.com, apps-vallearmonia.com, apps-yorkphotosoc.org (npm) | Mechanical repeat of wave 2 in other groups |
+| 4, package-less | the six other principals, the six other agentic harnesses, tools-mgit, tools-rig, homebrew-tap, ki-specifications, apps-dafacts.org, apps-kris.me.uk, personal/acquire | `pre-commit` only; `bats` timing in tools-mgit and tools-rig measured first |
+| 5, messages | `commit-msg` in every wave-4 repository, then the sweep and FAIL step | Waits on KI-TOOL-KI-CLI-161 |
