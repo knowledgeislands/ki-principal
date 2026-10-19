@@ -222,3 +222,11 @@ Kris:
 > push
 
 Read back as taken: push ki-principal with the stacked ki.observatory commit `f54d2a8` and any other stacked commits, fast-forward only.
+
+## 2026-10-19 08:05 BST - owner note, Rig upgraded
+
+Kris:
+
+> I've updated rig on both
+
+Read back as taken: Terra and Sol run Rig v0.7.0 (RIG-UPGRADE-MACHINES a)); the live-acceptance run for KI-TOOL-RIG-CORE-042 and KI-TOOL-RIG-CORE-047 launches now, read-only on both machines, acceptance with Kris.
