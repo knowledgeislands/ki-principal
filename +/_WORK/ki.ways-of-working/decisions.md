@@ -351,3 +351,9 @@ Read back taken: BURNDOWN-PUSH - one IMPORTANT line in each of ki.tools-burndown
 Kris: "I pushed" and "WORK-AREA-CITATIONS-SEND - as recommended".
 
 Read back taken: the ki-principal stack is pushed. WORK-AREA-CITATIONS-SEND a) - no old-citation lines are sent and WORK-AREA-CITATIONS closes: nothing in live package files needs rewriting. The standing push grant offered for tonight was not taken; sessions keep naming stacked commits to Kris.
+
+## 2026-10-19 19:42 BST - owner answers, push, mgit check, DESK-CAM
+
+Kris: "pushed, mgit checked, desk cam is done, drop that entirely"
+
+Read back taken: the ki-principal stack is pushed. MGIT-RELEASE a) is now due: the hands-on check of [KI-TOOL-MGIT-CLI-023](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-023-hands-on-behaviour-check.md) passed, so an IMPORTANT line asks ki.tools-burndown, which owns tools-mgit and its releases, to accept the record with Kris and release mgit once. DESK-CAM dropped entirely: the query and `webcam-compare.report.md` are removed.
