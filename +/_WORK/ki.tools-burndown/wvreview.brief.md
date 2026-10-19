@@ -1,3 +1,0 @@
-# wvreview - blind review of WAVE-PLAN
-
-Read /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/design/wave-plan.options.md and /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/design/hooks-standard.md only; do not read any hooksv2 report or +/_WORK/ki.tools-burndown/queries.md. Check the claims directly against the KI repositories under /Users/krisbrown/workspaces and ki-agentic-harness's current rules (ki-engineering PKG-5, SCR-5, SCR-11; ADR-KI-HARNESS-SKILLS-017). Pick one option with confidence and reason, and list what you checked. Write nothing in any repository. Report as your footer says.
