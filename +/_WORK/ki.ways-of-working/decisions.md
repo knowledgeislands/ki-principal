@@ -226,3 +226,7 @@ Kris: "mark". MARK struck at 08:07 BST (2026-10-19T07:07:16Z). Struck at this ma
 ## 2026-10-19 08:14 BST - owner answers, mark recap
 
 Kris: "do all recommendations including any pushes needed". Taken as a) on all seven: CLI-150-ACCEPT a) accept KI-TOOL-KI-CLI-150 as delivered, the three minor points recorded as known limits; PRIORITY-VOCAB a) high, medium, low; SIZE-VOCAB a) s, m, l, xl with one-line meanings, xl meaning split before Ready; SIZE-BACKFILL a) owners backfill by judgement, `ki work` lists the gaps; SIZE-WINDOW a) warn from the next ki release with capture requiring both fields, fail in the first release after `ki work` shows no gaps estate-wide; PUSH-MARK a) push, carrying ki.observatory's 5245a84; REJECTED-CALL a) keep the SIZE-PRIORITY entry. Authorises: accept-release (accept CLI-150, then KI-RELEASE-NEXT a): Verify 6, release ki v0.11.4, move the ki-principal CI pin, push) after biome-fix; size-priority (harness standard change, GDR reversing PRIORITY-FIELD, tools-ki handoff record, push).
+
+## 2026-10-19 08:16 BST - owner request, ITEM-FIELDS discussion
+
+Kris: "I want to discuss a little bit about roadmap item [fields]. There seems to be some thinking around the different fields that we carry on them. So I want you to really help me with that. Can you tell me the fields that we've got currently and others that have been considered and adopted or otherwise". Authorises: field-survey, a read-only inventory run. size-priority continues unless Kris says stop.
