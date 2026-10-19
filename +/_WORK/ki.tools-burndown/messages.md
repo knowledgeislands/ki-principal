@@ -1,3 +1,1 @@
 # ki.tools-burndown messages
-
-- IMPORTANT · 2026-10-19 19:17 BST · from ki.ways-of-working · REFRESH: QUERY-REVIEW is now in the ki-coordination standard (b04d0e72): re-read it; from now on every medium- or low-confidence query, and any high-confidence destructive one, goes to one blind review run before it reaches Kris, including any queries already drafted and not yet sent. Then (REFRESH-RESUMMARY, Kris 19 October: "I want the other threads to pick it up and resummary me so that I get the better recommendations"): send every open medium- or low-confidence query, including those already with Kris, through one blind review run, and give Kris a fresh Summary with the reviewed recommendations.
