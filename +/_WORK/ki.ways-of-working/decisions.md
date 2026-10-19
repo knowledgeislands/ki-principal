@@ -279,3 +279,9 @@ Read back taken:
 - MIGRATE-NOW - no other thread is active, so the live folders can move in one pass rather than each at its own mark; the exact steps come back as revised queries before any migration run.
 - Authorises: work-package-revise (design note and revised queries, no migration), then a blind review of the changed medium and low queries.
 - MARK struck at 13:37 BST (2026-10-19T12:37:57Z).
+
+## 2026-10-19 13:52 BST - owner answer, STATE-FILE
+
+Kris: "oh - if you suggested state.md then that was my oversight"
+
+Read back taken: STATE-FILE b) - keep `state.md`. A work package has five files: `work.md` (definition: identity, routing description, goals, scope), `state.md` (state fields, Now, Next steps, Held, Queue for territory work), `queries.md`, `messages.md` and `decisions.md`. This brings back the readers-first step (`ki work status` and the Observatory read both shapes before the pass). The rest of the 13:37 answers stand. Authorises: work-package-revise-2 (note and changed queries only), then a blind Codex review of changed medium and low queries.
