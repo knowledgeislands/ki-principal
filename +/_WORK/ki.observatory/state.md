@@ -20,7 +20,7 @@ method_read: 2026-10-19T18:02:00Z
 
 ## Next steps
 
-1. When obs-burndown reports, bring its acceptance batch and cancel and merge list to Kris.
+1. When obs-burndown reports, send its medium- or low-confidence queries, and any destructive one, to one blind review run (QUERY-REVIEW, under Codex at high effort) before bringing the acceptance batch and cancel and merge list to Kris.
 2. When obs-reader reports, receive it and return the Work Instrument confirmation to ki.ways-of-working's `messages.md`, which is blocked on it.
 3. KI-OBSERVA-BRG-003 is Awaiting review (BRG-003-REVIEW); KI-OBSERVA-VIS-030 is ready to promote to Next.
 4. In triage: KI-OBSERVA-APP-045, KI-OBSERVA-VIS-042, KI-OBSERVA-OPS-003, and KI-TOOL-KI-CLI-154 in tools-ki.
