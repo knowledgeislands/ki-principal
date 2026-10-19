@@ -404,3 +404,9 @@ Read back taken: the METHOD-READ refresh line goes also to the State of play wor
 ## 2026-10-19 21:34 BST - received gfm-scope
 
 gfm-scope (read-only): ki-principal's 1,025 wikilinks and 15 embeds convert mechanically with an Obsidian-order resolver; judgement remains for 2 custom callouts, 2 Dataview blocks, 10 heading links, 7 ambiguous links and 21 templates. `ki-repo-kb` LINK-1 mandates wikilinks today while ki-principal's `.rumdl.toml` already forbids them. A converted island loses its only link check unless LINK-1 becomes exact-case resolution; the `ki-decision-records` link parser mishandles angle-bracket paths with spaces; the Notion mirror reads wikilinks only. Draft `ki-authoring` clause and a six-step plan (harness rules, tools-ki converter, verification, zone batches, one Enactment record, other islands by their owners). Queries GFM-ORDER, GFM-LINK-FORM, GFM-ENACT (medium) and FLAVOUR-FIELD, TOUCH-SCOPE (high) copied; all five go to one blind review (gfm-review, Codex). Full report: `~/.local/state/ki/agents/ways-of-working/gfm-scope.report.md`.
+
+## 2026-10-19 21:35 BST - owner correction, METHOD-READ-CAPITALS misread
+
+Kris: "whats the method_read thing? ... this was in realition to the gfm migration"
+
+Read back taken: the 21:38 direction ("you could add something about it to the SoP work pacjage in all the capitals") meant GFM-MIGRATION, not METHOD-READ; method-read-capitals ran on my misreading and is put to Kris to stop or let finish. GFM-CAPITALS: once the GFM queries are answered, a line goes to State of play in every capital so each island plans its own conversion.
