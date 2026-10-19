@@ -1,0 +1,7 @@
+# mgitdep - home the mgit CLI convention departures
+
+Repository: /Users/krisbrown/workspaces/knowledge-islands/tools-mgit. Read /Users/krisbrown/.local/state/ki/agents/tools-burndown/mgitrel.report.md, query MGIT-DEPARTURES-HOME, taken as a) by the coordinator.
+
+The CLI-DEPARTURES finding (18 October) lives only on [KI-TOOL-MGIT-CLI-023](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-023-hands-on-behaviour-check.md): `--jobs=2` and `-j2` refused; `-vW` not grouped; `--dry-run` has no `-n`; `worktree remove --force` has no `-f`. Capture one triage record in tools-mgit under `ki-next` for the four departures, with priority and size, citing CLI-DEPARTURES and KI-TOOL-MGIT-CLI-023, and point KI-TOOL-MGIT-CLI-023's Outstanding concerns at it. Do not touch the prepared release commit `9a3564d` or change any status; commit on top by explicit path and report whether the tag should then sit on `9a3564d` or the new HEAD.
+
+Work under ki-delegation and ki-git: commit your own changes by explicit path, never push, tag, publish or delete a remote branch, never use --no-verify. Write your report to /Users/krisbrown/.local/state/ki/agents/tools-burndown/mgitdep.report.md in the ki-coordination owner-report shape (Done, In Progress, Queries with Context, Query and lettered Options, a) recommended with confidence). Raise a blocking query in the report and stop rather than guess.
