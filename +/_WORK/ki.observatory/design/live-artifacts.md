@@ -1,12 +1,28 @@
-# Live artifacts as extensions of the Observatory
+# Live artifacts and the Observatory: a two-way bridge
 
-The live artifacts built across the estate, and how each becomes a natural extension of the Observatory while staying its own thing. The inventory was taken read-only on 18 October 2026 for OBS-ARTIFACTS a). The first proposal absorbed artifacts into Instruments and retired Kit Git Repo Audit; Kris withdrew it the same day under ARTIFACTS-EXTEND: "Kit Git Repo Audit is far richer though, and I'd much prefer it over the basic tool in the observatory. Really, we want Live Artifacts to be natural extensions of the Observatory rather than something inside it." OBS-ARTIFACTS-ORDER is superseded. Nothing here is decided, and this note captures no records.
+The live artifacts built across the estate, and how each becomes a natural extension of the Observatory while staying its own thing. The inventory was taken read-only on 18 October 2026 for OBS-ARTIFACTS a). The first proposal absorbed artifacts into Instruments and retired Kit Git Repo Audit; Kris withdrew it the same day under ARTIFACTS-EXTEND: "Kit Git Repo Audit is far richer though, and I'd much prefer it over the basic tool in the observatory. Really, we want Live Artifacts to be natural extensions of the Observatory rather than something inside it." OBS-ARTIFACTS-ORDER is superseded. On 19 October Kris settled the model under EXT-MODEL: "observatory extensions has an adapter or bridge to those written as live-artifacts, and we should have the reverse too, so we have a live artifact adapter for observatory? kit git repo audit I would like to become a first class view in the observatory, so it would be subsumed into the observatory replacing the existing simplier git management view and then if I want it in claude desktop it becomes available through the Observatory live artifact bridge". The model is now a two-way bridge, and Kit Git Repo Audit becomes a first-class Observatory view replacing Repositories. The records live in `apps-observatory.local`: [KI-OBSERVA-INT-003](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-INT-003-extensions-switchboard.md) inbound, [KI-OBSERVA-INT-004](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-INT-004-outbound-live-artifact-adapter.md) outbound and [KI-OBSERVA-VIS-041](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-041-git-view-replaces-repositories.md) the Git view, each waiting on [KI-OBSERVA-APP-042](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-042-design-tokens-and-glyphs.md) for the ki-design tokens and glyphs.
 
-## The extension model
+## The two-way bridge
+
+The bridge has two halves, and a view or artifact crosses it in one direction only.
+
+| Half | Direction | What crosses | Record |
+| --- | --- | --- | --- |
+| Inbound adapter, Observatory Extensions | Live artifact into the Observatory | A live artifact its own repository owns, framed as an extension of the view it names, on the five units below | [KI-OBSERVA-INT-003](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-INT-003-extensions-switchboard.md) |
+| Outbound adapter, the live-artifact adapter | Observatory view out to Claude Desktop | A view the Observatory builds, offered as a live artifact that reads the Observatory's typed read contracts | [KI-OBSERVA-INT-004](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-INT-004-outbound-live-artifact-adapter.md) |
+
+- Boundary: the inbound half never reimplements an artifact, and the outbound half never reimplements a view; what is built lives on one side only. Neither half carries a write: inbound writes wait for confirmed Bridge operations, and a write from Claude Desktop into the Observatory needs its own decision on authority, confirmation and receipts across hosts.
+- Hands on: inbound, a validated list of extensions to navigation; outbound, a live artifact pair Claude Desktop opens.
+
+When something both halves could carry is wanted in the Observatory and in Claude Desktop, the Observatory builds it once as a view and the outbound adapter carries it out. Kit Git Repo Audit is the first case.
+
+The rest of this section is the inbound half.
+
+### The extension model
 
 An **extension** is a live artifact that its own repository owns, authors and changes, that runs wherever its data can be reached, and that declares which part of the Observatory it extends. The Observatory does not take it in, restyle it or reimplement it. It finds the extension, links to it from the view it extends, frames it where it can answer the extension's reads, and says plainly where it cannot. Five units carry the model; each names its boundary and what it hands on.
 
-### 1. Registration: the manifest
+#### 1. Registration: the manifest
 
 The Markdown half of the pair stays the extension's only declaration. Today's manifest (OBS-ART-001) already names `artifact_bridge`, `artifact_id`, `artifact_tools` and `artifact_servers`. The extension model adds three keys, all optional so that every pair offered today stays offered:
 
@@ -21,7 +37,7 @@ Discovery stays where the `ki-repo-kb-live-artifacts` standard puts the pair: di
 - Boundary: the owning repository writes the manifest; the Observatory only reads it and refuses what does not parse, by name and reason, as now.
 - Hands on: a validated list of extensions, each with the Instruments it extends, to navigation.
 
-### 2. Navigation both ways
+#### 2. Navigation both ways
 
 From the Observatory to the extension. An Instrument that an offered extension names shows it in the Instrument's own header as **Extended by** with the extension's title and the host it runs in, so a reader on Repositories sees "Kit Git Repo Audit" without hunting for it. A Beacon row raised by that Instrument carries the same link in its detail. The Artifacts view becomes the directory of every extension in scope, grouped by the Instrument each extends, including those that run only in Cowork, which are listed with where they run and why they do not open here.
 
@@ -30,14 +46,14 @@ From the extension to the Observatory. An extension links back to the Observator
 - Boundary: the Observatory draws the links on its side and answers navigation requests; the extension authors its own back-links.
 - Hands on: nothing new to the backend; navigation is page-side.
 
-### 3. Shared look and identity
+#### 3. Shared look and identity
 
 The Observatory's identity is derived from `ki-website` and held by digest (PDR-KI-OBSERVA-002). An extension reads as part of the Observatory when it uses the same tokens: paper, ink, muted, ocean, forest, gold and rust in both themes, the meaning roles `--accent`, `--ok`, `--warn` and `--bad` with their washes, and the system serif and sans stacks. The host hands them over at start: the answer to `ui/initialize` carries the current theme and the token values as host context, and the bridge sets them as custom properties on the frame's `:root`. An extension that reads `var(--ok, <its own value>)` looks native in the Observatory and keeps its own palette in Cowork, unchanged. The Observatory frame still loads no stylesheet from outside itself.
 
 - Boundary: the Observatory owns the token set and its digest; the extension chooses to read it.
 - Hands on: one host-context field in the bridge, versioned with it.
 
-### 4. Data access
+#### 4. Data access
 
 Three tiers, decided per tool by the manifest:
 
@@ -52,7 +68,7 @@ A write an extension asks for, such as Kit Git Repo Audit's commit or push, is r
 - Boundary: the backend owns every process and MCP call, and the browser still receives only typed answers; the extension owns its tool list.
 - Hands on: one backend port per own-server tier, each with its declared read tools.
 
-### 5. What runs where
+#### 5. What runs where
 
 | Host | Runs on | Reaches | Suits |
 | --- | --- | --- | --- |
@@ -66,7 +82,17 @@ One HTML page runs in both live hosts unchanged (PDR-KI-OBSERVA-006). The Cowork
 
 Where an extension covers ground an Instrument already covers, the Instrument stays as the floor and the extension becomes the preferred surface. The Instrument keeps what only it can do: it feeds the Beacon, degrades with a stated reason (OBS-ART-009 and each Instrument's degraded rule), records receipts for governed operations, and needs no LLM, no Cowork and no particular artifact to be present. It stops growing toward the extension: it links to the extension under Extended by, and new interactive depth goes into the extension's own repository.
 
-### Worked case: Kit Git Repo Audit and Repositories
+### Worked case: Kit Git Repo Audit becomes the Git view
+
+Under EXT-MODEL this worked case no longer keeps both. Kit Git Repo Audit is subsumed into the Observatory as a first-class view replacing Repositories ([KI-OBSERVA-VIS-041](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-041-git-view-replaces-repositories.md)), and reaches Claude Desktop through the outbound adapter ([KI-OBSERVA-INT-004](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-INT-004-outbound-live-artifact-adapter.md)). Under PUSH-ALL every Repositories capability, governed operation and `?view=` address carries over, so nothing is lost:
+
+- Capabilities: the scope selector, the attention ranking and its printed rule, every Beacon signal and the row it lands on, the `git` source with the `mcp-git-audit` bridge and its stated fallback, history, raw status and committed Archify diagrams.
+- Governed operations: fetch dry run, fetch, fast-forward pull and push, with their tiers, confirmations and receipts under the authority specification, and the declare, confirm, receipt presentation of KI-OBSERVA-BRG-003.
+- Addresses: `?view=repositories` keeps opening the view for good, by id or by redirect.
+
+From the artifact the view takes grouping by root, chezmoi, the heatmap, diff and bulk per group where each can be served without an LLM. Commit and every bulk write wait for confirmed Bridge operations; the `askClaude` commit suggestion stays Cowork-only, since the Observatory has no LLM path; open in VS Code and GitHub Desktop would launch a process from the page and stays out. The artifact itself stays in `personal-principal` until its owner decides its future.
+
+The comparison and reading below are the 18 October case, kept for the record.
 
 | | Repositories (Instrument) | Kit Git Repo Audit (extension) |
 | --- | --- | --- |
@@ -76,9 +102,9 @@ Where an extension covers ground an Instrument already covers, the Instrument st
 | Extras | Committed Archify diagrams; Beacon signals | Open in VS Code and GitHub Desktop; commit message suggested through `askClaude` |
 | Source | `git` directly, with the `mcp-git-audit` bridge for counts | `mcp-git-audit` throughout, at the server's `destructive` access level |
 
-Keep both. Repositories stays the Beacon's source and the governed, receipted path. Kit Git Repo Audit is the place Kris works from, and Repositories links to it. In the Observatory frame its scan, audit, detail and diff are own-server reads; its fetch, pull, commit and push wait for Bridge writes and stay in Cowork until then; its commit suggestion answers unavailable. The suggested message is a plain imperative line rather than a Conventional Commit, which its owner may want to change at the same time.
+Superseded by EXT-MODEL: keep both. Repositories stays the Beacon's source and the governed, receipted path. Kit Git Repo Audit is the place Kris works from, and Repositories links to it. In the Observatory frame its scan, audit, detail and diff are own-server reads; its fetch, pull, commit and push wait for Bridge writes and stay in Cowork until then; its commit suggestion answers unavailable. The suggested message is a plain imperative line rather than a Conventional Commit, which its owner may want to change at the same time.
 
-**Fix for its owner, `personal-principal`.** The page's `ROOT_DEFS` still scans `~/workspaces/hnr` and `~/workspaces/kit`, which no longer exist, so in Cowork it finds no repository but chezmoi. The `mcp-git-audit` safe roots configured in chezmoi already list the eight territory roots, `~/workspaces/_external` and chezmoi, so the server needs no change: the fix is the artifact's own `ROOT_DEFS` and recipe, ideally read from the territory roots rather than written in. Moving the pair under `Admin/Operations/Live Artifacts/` with one stem and a manifest is the same change. Both are handoffs to `personal-principal`, not changes here.
+**Fix for its owner, `personal-principal`.** The page's `ROOT_DEFS` still scans `~/workspaces/hnr` and `~/workspaces/kit`, which no longer exist, so in Cowork it finds no repository but chezmoi. The `mcp-git-audit` safe roots configured in chezmoi already list the eight territory roots, `~/workspaces/_external` and chezmoi, so the server needs no change: the fix is the artifact's own `ROOT_DEFS` and recipe, ideally read from the territory roots rather than written in. Moving the pair under `Admin/Operations/Live Artifacts/` with one stem and a manifest is the same change. Both are handoffs to `personal-principal`, not changes here; under EXT-ROOTS they went to `personal-principal` (KB-PRINCIPAL-044) and `mcp-git-audit` (KI-MCP-GIT-FND-006), the interim until the Git view lands.
 
 ## Inventory
 
@@ -131,7 +157,7 @@ Every artifact stays with the repository that owns it. Order 1 needs no product 
 | 2 | Extension model in the Observatory | All | - | `apps-observatory.local`: the three manifest keys, Extended by links, the Artifacts directory grouped by Instrument, host-context tokens, navigation requests | Medium - the MCP Apps request names are still to be checked |
 | 3 | Estate Map, with Estate Targets | Repositories and Trade routes | Portable: the static page reads `Estate Targets.json` through `kb_read`; both | `personal-principal`: add the Markdown half and manifest, and have the page read the JSON rather than embed it. The editable read-back Kris asked for under ESTATE-MAP-OBSERVATORY on 16 October waits for Bridge writes | Medium - the page must be changed to read rather than embed |
 | 3 | HNR Streams Tracker | Sessions and Roadmap | Portable; both | `hnr-principal`: move the pair under `Admin/Operations/Live Artifacts/` with a manifest; its priority pipeline stays HNR's own | High - it reads only `mcp-ki-kb-fs` |
-| 4 | Kit Git Repo Audit in the Observatory | Repositories | Own server | `apps-observatory.local`: a read port to `mcp-git-audit` for scan, audit, detail and diff; writes later as confirmed Bridge operations | Medium - the first own-server port sets the pattern |
+| 4 | Kit Git Repo Audit in the Observatory | Repositories | Own server | `apps-observatory.local`: a read port to `mcp-git-audit` for scan, audit, detail and diff; writes later as confirmed Bridge operations. Under EXT-MODEL this becomes the Git view replacing Repositories, [KI-OBSERVA-VIS-041](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-041-git-view-replaces-repositories.md), carried to Claude Desktop by [KI-OBSERVA-INT-004](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-INT-004-outbound-live-artifact-adapter.md) | Medium - the first own-server port sets the pattern |
 | 5 | Kit Claude Housekeeping | MCP servers and Sessions | Own server, `mcp-housekeeping-claude`, machine subject | `personal-principal`: move and manifest; then `apps-observatory.local`: a read port on the order 4 pattern | Medium - a large surface, and the server's reads touch private Claude state |
 | 6 | HNR Email Pulse, Architecture Tracker, Linear Open Issues Tracker, Slack Digest; Kit Week at a Glance | Listed in Artifacts only | Provider or inference; Cowork | Each owner: move and manifest with `artifact_runs: [cowork]`, so the Observatory lists them with where they run | High - nothing here crosses the Observatory's no-LLM, no-provider line |
 | - | Kit The Tower Dashboard recipe | None | None | Nothing; it is archived and `apps-tower.midnight.ninja` succeeded it | High |
@@ -152,6 +178,8 @@ b) **Link out only.** The Observatory lists the extension and links to it; it ru
 c) **Pass every declared tool through, writes included, at the server's access level.** Cost: the least product work for full function, but it breaks the Bridge rule that every change shows its inputs, is confirmed and leaves a receipt, and puts `destructive` git operations one click from a framed page.
 
 ### Fork 2 - what a built-in Instrument does beside a richer extension
+
+For Kit Git Repo Audit, EXT-MODEL took none of these: the extension is built into the Observatory as the view itself, so the Beacon keeps its signals and nothing vanishes when the artifact is missing. The forks stand for every other extension.
 
 a) **The Instrument stays as the floor and links to the extension (recommended).** Cost: two views over the same ground, kept apart by role; the Instrument's interactive depth stops where it is.
 
@@ -211,3 +239,5 @@ flowchart LR
 ```
 
 Solid arrows are the order's steps, numbered by order; dotted arrows are links, not data. The Beacon takes signals from Instruments only, never from an extension.
+
+Pending DIAGRAM-STANDARD: this diagram predates EXT-MODEL and shows the inbound half only. Under NO-MERMAID it is left as it is, and the two-way bridge and the Git view are not drawn until the diagram standard is settled.
