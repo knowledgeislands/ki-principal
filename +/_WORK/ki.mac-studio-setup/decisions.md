@@ -67,3 +67,7 @@
 - 2026-10-19 23:50 BST, IMPORTANT TRIAGE-ALL from State of play (Kris, 19 October: "Okay, there's a lot of items in triage. I need them all triaging. So I want them all running out with the high order functions and anything which is High confidence recommended. Let's move it into now and get it done. Especially to focus on anything to do with the tools burn-downs first."): run rig-triage queued behind plan027 in tools-rig; CAPTURE-GATE applied, no new records; no roadmap cap.
 
 - 2026-10-19 23:50 BST, BURN-WAVE-1 and LANE-OWNERS from State of play: the lane it names (agent-host holds, ki-techne-harness) is not this work's; returned to State of play once, with the reason; CAPTURE-GATE and no-cap parts applied.
+
+- 2026-10-19 23:54 BST, LANE-OWNERS confirmed by State of play: this work's lane is tools-rig and the agent-host hold cluster, which waits with the on-hold ki.agent-host until TECHNE-FOCUS is settled; ki-techne-harness is off the lane; ki.tools-burndown leaves tools-rig alone. The line is removed, which clears the work-package audit failure its format raised.
+
+- 2026-10-19 23:54 BST, scope-review received: the blind review agrees with Q-062-SCOPE a), so its confidence rises to high, with the review's wording added (the remaining case includes TCP; "tailnet-only" not presented as authenticated ingress); brief pruned.

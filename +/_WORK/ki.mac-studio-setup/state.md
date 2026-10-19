@@ -13,31 +13,21 @@ method_read: 84b61942
 ## Now
 
 - With worker since 23:30 BST on 19 October; marked at 23:36 BST on 19 October.
-- rig-capture received 23:31 BST: RIG-UNLOAD-LABEL, every caller proven to guarantee a non-empty label, no record; TOML-HANDLER captured as KI-TOOL-RIG-CORE-069 (Triage); tools-rig commits ccd14ac and 4f97d74, local, unpushed; BOOTOUT-GUARD raised and closed by Kris with no record.
-- core063 received 23:45 BST: KI-TOOL-RIG-CORE-063 delivered to Awaiting review (41adda2, 7665767; 582 of 582 Bats tests pass), local, unpushed.
-- plan062 received 23:49 BST: KI-TOOL-RIG-CORE-062 shaped to draft (85bafea), Ready waits on Q-062-SCOPE (in blind review, scope-review) and Q-062-ABSENT; deliver it before or after KI-TOOL-RIG-CORE-068, not alongside.
-- Running in tools-rig: plan027 (plan KI-TOOL-RIG-CLI-027), then rig-triage (TRIAGE-ALL: triage every unadopted record, deliver high-confidence adoptions to Awaiting review, one RIG-TRIAGE query for the rest); scope-review alongside, read-only. Local commits only, no push.
-- Nothing with Kris. SOL-FW-TEST closed: the sol firewall test is finished and good (Kris, 23:41 BST); KI-TOOL-RIG-CORE-047 still awaits Kris's acceptance. BOOTOUT-GUARD closed: no record.
-- ki-principal push left to the owning sessions (PUSH-STACK a).
-- FIRST-STEP done: `ki-work-package` and all five files re-read, description, Goals and Scope confirmed as drafted, `method_read` set.
-- REPORT-SWEEP received: the four kept reports stay, their outcomes not yet homed; rig-lane's query is RIG-ORDER, and the other three are the held at-screen steps below.
-- Decisions struck at the 23:36 BST mark by decision-strike (64ddf80f): 139 deleted, three pointers, 24 kept.
-- Looks resolved, to confirm with Kris: terra key-only SSH and HOSTKEY-APPLY steps 6-9 (KB-DOTFILES-UE-088 records both applied and verified on both Macs on 16 October), and the parked SOL-HNR-HARNESS (the Project note says the HNR harness stays on sol).
-- Run reports sit in `~/.local/state/ki/agents/mac-studio-setup/`, retired ones in its `archive/`.
+- Running in tools-rig: rig-triage (TRIAGE-ALL: high-confidence adoptions delivered to Awaiting review, one RIG-TRIAGE query for the rest). plan027 (KI-TOOL-RIG-CLI-027) has finished and waits to be received.
+- Records: KI-TOOL-RIG-CORE-047 and KI-TOOL-RIG-CORE-063 await Kris's acceptance; KI-TOOL-RIG-CORE-062 is draft, Ready waiting on Q-062-SCOPE and Q-062-ABSENT; KI-TOOL-RIG-CORE-069 is in Triage. Pushes are left to Kris and the owning sessions.
+- Lane, confirmed by State of play on 19 October: tools-rig and the agent-host hold cluster, which waits with the on-hold ki.agent-host until TECHNE-FOCUS is settled.
+- Looks resolved, to confirm with Kris: terra key-only SSH and HOSTKEY-APPLY steps 6-9 (KB-DOTFILES-UE-088), and the parked SOL-HNR-HARNESS.
 
 ## Next steps
 
-1. With Kris, ADOBE-RESTART first (deferred, "remind me another day"): restart sol, run [`./adobe-remove.sh`](design/adobe-remove.sh) as a dry run (apps and add-ons none, nothing under What is left), then `ls -d /Applications/Adobe* /Applications/Utilities/Adobe* ~/Pictures/Lightroom/*.lrcat`, which should show only the catalogue.
-2. Receive scope-review, plan027 and rig-triage; send Q-062-SCOPE, Q-062-ABSENT and RIG-TRIAGE (after its blind review) to Kris; then Kris accepts the Awaiting-review records, KI-TOOL-RIG-CORE-063 included, at the next sol session.
-3. Then put the parked queries in `queries.md` back one at a time, each with a recommendation and its reason.
+1. With Kris, ADOBE-RESTART first (deferred, "remind me another day"): restart sol, run [`./adobe-remove.sh`](design/adobe-remove.sh) as a dry run (nothing under What is left), then `ls -d /Applications/Adobe* /Applications/Utilities/Adobe* ~/Pictures/Lightroom/*.lrcat`, which should show only the catalogue.
+2. Receive plan027 and rig-triage; send Q-062-SCOPE, Q-062-ABSENT and RIG-TRIAGE (after its blind review) to Kris; then Kris accepts the Awaiting-review records at the next sol session.
+3. Then put the parked queries back one at a time, each with a recommendation and its reason.
 
 ## Held
 
-- At sol's screen: key-only SSH ([ssh-keyonly](ssh-keyonly.report.md)), KB-DOTFILES-UE-086 steps 0-12 ([ue086-walk](ue086-walk.report.md)), the UTM swap (UTM-SOL), the Observatory restart (OBS-RESTART) and accepting KI-TOOL-RIG-CORE-047, whose live test is done - until Kris is at sol's screen.
-- At terra's screen: pull tools-rig and upgrade Rig past 0.6.3; pull chezmoi and run `chezmoi apply ~/.config/rig && rig doctor`; HOSTKEY-APPLY steps 6-9 ([hostkey-check](hostkey-check.report.md)); then key-only SSH - until Kris is at terra's screen.
-- Anywhere: the Headroom favicon request ([favicons-headroom.svg](design/favicons-headroom.svg)) - until Kris takes it up.
-- FW-LIVE's reboot check - at terra's next natural restart.
-- ZED-MD - later, at sol.
-- RIG-FULLSCREEN - an idea only (full-screen Rig terminal mode, btop-style panes); no record until Kris asks.
-- FW-LINUX-LIVE - until a Linux host is available.
-- KEYCHAIN-SSH - with ki.chezmoi, to which it was handed (looks resolved; the worker judges).
+- At sol's screen: key-only SSH ([ssh-keyonly](ssh-keyonly.report.md)), KB-DOTFILES-UE-086 steps 0-12 ([ue086-walk](ue086-walk.report.md)), UTM-SOL, OBS-RESTART and accepting KI-TOOL-RIG-CORE-047.
+- At terra's screen: pull tools-rig and upgrade Rig past 0.6.3; pull chezmoi and run `chezmoi apply ~/.config/rig && rig doctor`; HOSTKEY-APPLY steps 6-9 ([hostkey-check](hostkey-check.report.md)); then key-only SSH.
+- Anywhere: the Headroom favicon request ([favicons-headroom.svg](design/favicons-headroom.svg)).
+- FW-LIVE's reboot check at terra's next restart; ZED-MD later at sol; FW-LINUX-LIVE until a Linux host exists.
+- RIG-FULLSCREEN, an idea only, no record until Kris asks; KEYCHAIN-SSH with ki.chezmoi (looks resolved).

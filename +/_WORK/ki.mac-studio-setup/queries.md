@@ -4,17 +4,17 @@
 
 ### Q-062-SCOPE - How far the own-address firewall destination goes
 
-since 2026-10-19 · plan062 run report, 23:48 BST · in blind review (scope-review) before it reaches Kris
+since 2026-10-19 · plan062 run report, 23:48 BST · blind review scope-review agreed, 23:51 BST
 
-**Context:** KI-TOOL-RIG-CORE-062 would narrow Screen Sharing to traffic addressed to the Mac's own tailnet address. That stops scanning neighbours on carrier-grade NAT or hotspot networks, but not one who knows the address and sends to it directly over the local network. Matching the `utunN` interface closes that case but silently blocks tailnet access after any Tailscale restart until an attended reapply.
+**Context:** KI-TOOL-RIG-CORE-062 would narrow Screen Sharing to traffic addressed to the Mac's own tailnet address. That stops a neighbour on a carrier-grade NAT or hotspot network reaching the Mac's ordinary local address, but not one who knows the tailnet address and sends to it directly over the local network; where the Mac's reply routes back over the LAN, a TCP connection can complete, so the remaining risk is not UDP-only. Matching the `utunN` interface closes that case, but the firewall loader cannot follow a renamed interface, so any Tailscale restart would silently block tailnet Screen Sharing until an attended reapply.
 
 **Query:** Deliver the own-address destination and record the remaining targeted case as a risk?
 
 **Options:**
 
-a) (recommended by plan062, confidence medium - closes the common scanning case at no availability cost) Deliver it with no interface match, recording the narrowed risk in the specification, ADR-KI-TOOL-RIG-009 and the guide.
+a) (recommended, confidence high - reviewed: an independent review on Codex reached the same course from the code; closes the common case at no availability cost) Deliver it with no interface match, stating the remaining targeted TCP and UDP case in the specification, ADR-KI-TOOL-RIG-009 and the guide, and wording "tailnet-only" so it does not promise authenticated Tailscale ingress; keep the advice to turn Screen Sharing off on untrusted shared networks.
 
-b) Also match the discovered `utunN` interface, accepting the silent lockout.
+b) Also match the discovered `utunN` interface, accepting the silent lockout after a Tailscale restart.
 
 c) Build nothing; keep the range rule and the operational advice.
 
