@@ -381,3 +381,9 @@ query-review put QUERY-REVIEW into the `ki-coordination` standard and output sty
 hook-clause-review (Codex, high effort, read-only, no commits) disagreed with query-review on HOOK-REVIEW-CLAUSE: it recommends raising the hook test's ceiling to 1,500 and adding the clause to the fourth hard rule (high); the hook is 1,362 characters and the clause adds about 102. Both views go to Kris in HOOK-REVIEW-CLAUSE, recommended course the reviewer's at medium.
 
 Message WORK-PACKAGE-READER from ki.observatory, disposition: received; the Observatory reads both package shapes (KI-OBSERVA-VIS-025, awaiting review), closing next step 4. Its note that installed `ki` 0.11.4 rejects migrated folders is already ki.tools-burndown's (wpreader running); nothing routed. Line removed.
+
+## 2026-10-19 19:29 BST - owner decision, HOOK-REVIEW-CLAUSE
+
+Kris: "Regarding the hook review clause, I agreed that we should increase the limit, but also is there a way that we can reduce the existing clause, so that we actually get down to a much more compact one that still is effective."
+
+Read back taken: HOOK-REVIEW-CLAUSE a) with a compaction - raise the hook test's limit to 1,500, add the query-review clause to the fourth hard rule, and rewrite the whole hook line as compactly as it can be while every rule stays effective. Authorises hook-compact, a harness run that edits the standard's hook-line source, regenerates, tests, commits by path and pushes fast-forward only when its own commits alone are stacked, reporting the old and new line for Kris.
