@@ -330,76 +330,13 @@ citation-lines finished with nothing sent: 11 hits in 9 works, none a live citat
 
 RESTART-WALKTHROUGH (IMPORTANT line from the previous session): taken. citation-lines received first; Kris is walked through the restarts one at a time, each with its send line, in the order `ki`, `ki.tools-burndown`, `ki.observatory`, `ki.specifications`, `ki.chezmoi`, `ki.mac-studio-setup`, `ki.baseline-rollout`, `ki.timelines`, then acquire's intake work in its own repository, recommending a new session for each long-running one with the old one archived. The "Sol work-package rollout alignment" session is finished and can be archived. Line removed. Mark struck at 18:56 BST.
 
-## 2026-10-19 19:00 BST - owner answer, WALKTHROUGH-HOME
+## 2026-10-19 20:10 BST - mark; decisions since 18:56 BST struck
 
-Kris: "`KI > SoP` is done", then, asked whether the SoP session will ask for the others, "go ahead with recommendation".
+Kris: "I think I've done all those things that are with me, so I suggest you take a mark and then we're good, right?"
 
-Read back taken: `ki` restarted. WALKTHROUGH-HOME a) - this work keeps walking Kris through the remaining eight restarts here, one send line at a time, in the RESTART-WALKTHROUGH order; nothing goes to `ki`'s queue.
+Read back taken: mark struck at 20:10 BST. Struck as wholly homed: WALKTHROUGH-HOME and the walk-through pace (all nine restarted); WORK-AREA-CITATIONS-SEND (closed); the push answers and DESK-CAM (dropped); QUERY-REVIEW-STANDARD (harness `b04d0e72`); REFRESH-RESUMMARY (REFRESH lines in nine queues, eight picked up); HOOK-REVIEW-CLAUSE (harness `979e075a`); MARK-AT-START (harness `5a3616e4`, received from mark-at-start); WORK-PACKAGE-READER (Observatory reads both shapes). The clock-drift correction goes with them.
 
-## 2026-10-19 19:03 BST - owner direction, walk-through pace
+Pointers still governing live work:
 
-Kris: "next, give me 2 at a time if ok". Read back taken: `ki.tools-burndown` restarted; the walk-through now gives two send lines per turn.
-
-## 2026-10-19 19:25 BST - owner decision, BURNDOWN-PUSH
-
-Kris, quoting the offer (an IMPORTANT burndown line to Tools burndown, Observatory and chezmoi: prune everything done, one acceptance batch for everything awaiting review, cancel or merge triage records aiming for at least half, each with a one-line reason to confirm): "I agree".
-
-Read back taken: BURNDOWN-PUSH - one IMPORTANT line in each of ki.tools-burndown, ki.observatory and ki.chezmoi's `messages.md`; each worker owns its pass, and no record is cancelled before Kris confirms. Also: acquire intake's resume line given; eight restarts done.
-
-## 2026-10-19 19:36 BST - owner answer, WORK-AREA-CITATIONS-SEND; PUSH
-
-Kris: "I pushed" and "WORK-AREA-CITATIONS-SEND - as recommended".
-
-Read back taken: the ki-principal stack is pushed. WORK-AREA-CITATIONS-SEND a) - no old-citation lines are sent and WORK-AREA-CITATIONS closes: nothing in live package files needs rewriting. The standing push grant offered for tonight was not taken; sessions keep naming stacked commits to Kris.
-
-## 2026-10-19 19:42 BST - owner answers, push, mgit check, DESK-CAM
-
-Kris: "pushed, mgit checked, desk cam is done, drop that entirely"
-
-Read back taken: the ki-principal stack is pushed. MGIT-RELEASE a) is now due: the hands-on check of [KI-TOOL-MGIT-CLI-023](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-023-hands-on-behaviour-check.md) passed, so an IMPORTANT line asks ki.tools-burndown, which owns tools-mgit and its releases, to accept the record with Kris and release mgit once. DESK-CAM dropped entirely: the query and `webcam-compare.report.md` are removed.
-
-## 2026-10-19 19:48 BST - owner decision, QUERY-REVIEW-STANDARD
-
-Kris, asked whether medium- and low-confidence queries are now double-checked, and offered a) the rule in the `ki-coordination` standard with a REFRESH line to every running session: "agreed, please go ahead".
-
-Read back taken: QUERY-REVIEW-STANDARD a) - QUERY-REVIEW (19 October 08:22) becomes a rule of the `ki-coordination` standard for every coordinator, ahead of the trial evidence. Authorises query-review, a harness run that writes it, regenerates the hook line, output style and run-report surfaces, commits and pushes, then puts an IMPORTANT REFRESH line in the `messages.md` of `ki`, `ki.tools-burndown`, `ki.observatory`, `ki.specifications`, `ki.chezmoi`, `ki.mac-studio-setup`, `ki.baseline-rollout`, `ki.timelines` and acquire's `kb.regular.acquire-intake`.
-
-Correction: the entries timed 19:00 to 19:48 BST above, and the BURNDOWN-PUSH lines' 19:25, ran ahead of the clock; query-review launched at 19:12 BST by the system clock.
-
-## 2026-10-19 19:17 BST - owner direction, REFRESH-RESUMMARY
-
-Kris: "because I want the other threads to pick it up and resummary me so that I get the better recommendations"
-
-Read back taken: REFRESH-RESUMMARY - the REFRESH line each running work receives also asks it to send every open medium- or low-confidence query, including those already with Kris, through one blind review run, then give Kris a fresh Summary with the reviewed recommendations. Applied by amending query-review's REFRESH lines when it finishes, before Kris nudges the works that are with him.
-
-## 2026-10-19 19:20 BST - received query-review; REFRESH-RESUMMARY applied
-
-query-review put QUERY-REVIEW into the `ki-coordination` standard and output style (harness `b04d0e72`, pushed; new rubric item COORD-13) and REFRESH lines into all nine queues; the hook line is unchanged for length (query HOOK-REVIEW-CLAUSE, medium, sent to blind review as hook-clause-review on Codex under the new rule). Each REFRESH line now also carries REFRESH-RESUMMARY.
-
-## 2026-10-19 19:22 BST - received hook-clause-review; WORK-PACKAGE-READER
-
-hook-clause-review (Codex, high effort, read-only, no commits) disagreed with query-review on HOOK-REVIEW-CLAUSE: it recommends raising the hook test's ceiling to 1,500 and adding the clause to the fourth hard rule (high); the hook is 1,362 characters and the clause adds about 102. Both views go to Kris in HOOK-REVIEW-CLAUSE, recommended course the reviewer's at medium.
-
-Message WORK-PACKAGE-READER from ki.observatory, disposition: received; the Observatory reads both package shapes (KI-OBSERVA-VIS-025, awaiting review), closing next step 4. Its note that installed `ki` 0.11.4 rejects migrated folders is already ki.tools-burndown's (wpreader running); nothing routed. Line removed.
-
-## 2026-10-19 19:29 BST - owner decision, HOOK-REVIEW-CLAUSE
-
-Kris: "Regarding the hook review clause, I agreed that we should increase the limit, but also is there a way that we can reduce the existing clause, so that we actually get down to a much more compact one that still is effective."
-
-Read back taken: HOOK-REVIEW-CLAUSE a) with a compaction - raise the hook test's limit to 1,500, add the query-review clause to the fourth hard rule, and rewrite the whole hook line as compactly as it can be while every rule stays effective. Authorises hook-compact, a harness run that edits the standard's hook-line source, regenerates, tests, commits by path and pushes fast-forward only when its own commits alone are stacked, reporting the old and new line for Kris.
-
-## 2026-10-19 19:35 BST - received hook-compact; send to owner
-
-hook-compact rewrote the coordinator hook line from 1,362 to 1,267 characters, the query-review clause included (about 1,090 without it), raised the test ceiling to 1,500 and asserts the clause (harness `979e075a`, pushed fast-forward; GitHub noted the `build` status check was bypassed on the direct push). Tests, type check, generation and audit passed. `hooks/README.md` still describes the older line. HOOK-REVIEW-CLAUSE closed.
-
-## 2026-10-19 19:40 BST - owner answers, nudges and push
-
-Kris: "ok - right all `check messages.md` sent. I pushed all"
-
-Read back taken: the seven works with Kris (State of play, Specifications, chezmoi, Mac Studio setup, Baseline rollout, Timelines, Acquire intake) have been told to read their REFRESH lines; ki-principal and acquire are pushed.
-
-## 2026-10-19 20:06 BST - owner direction, MARK-AT-START
-
-Kris: "when we start a new thread up it should take a mark at the initial point of starting the thread so it's always got a mark"
-
-Read back taken: MARK-AT-START - a work opened, bootstrapped or restarted in a new session with no mark strikes one at its start, so `state.md` always carries a mark. Authorises mark-at-start, a harness run that writes it into the `ki-coordination` standard and `ki-work-package`, regenerates, tests, commits by path and pushes fast-forward only when its own commits alone are stacked. Kris's focus for now: Acquire intake, Observatory, Tools burndown and this work.
+- BURNDOWN-PUSH, 19 October: Tools burndown, Observatory and chezmoi each prune done records, bring one acceptance batch and propose triage cuts for Kris to confirm; held in their packages.
+- Focus, 19 October: Kris is attending to Acquire intake, Observatory, Tools burndown and this work; the other five wait with their Summaries.
