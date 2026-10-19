@@ -1,5 +1,6 @@
 ---
 note_type: pillars/index
+updated: 2026-10-19T07:00:00Z
 tags:
   - card/note
   - topic/knowledge-islands
@@ -30,7 +31,7 @@ An external source store is opt-in, not inferred from the repository name. The l
 
 ### Governance Infrastructure
 
-The Capital holds shared governance for its territory. Each island retains its own source permissions, canonical acceptance and product responsibilities. An archipelago groups islands by shared character and does not independently confer jurisdiction.
+The Capital holds shared governance for its territory. Each island retains its own source permissions, canonical acceptance and product responsibilities. A territory is drawn and described as an archipelago; the drawing confers no jurisdiction of its own.
 
 Collaboration tools, companies and working sets implement the owners' chosen processes. They do not appoint a Capital or grant cross-repository authority. Temporary working folders likewise confer no canonical standing.
 

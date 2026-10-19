@@ -28,7 +28,7 @@ The eighteen canonical symbols, their meanings, and terrain associations:
 | Symbol            | Meaning                                                             |
 | ----------------- | ------------------------------------------------------------------- |
 | Island            | Domain of knowledge                                                 |
-| Archipelago       | Federated knowledge ecosystem                                       |
+| Archipelago       | A territory, drawn; federated knowledge ecosystem                   |
 | Port              | Entry and exit; integration                                         |
 | Capital           | Civic heart of an island                                            |
 | Lighthouse        | Guidance                                                            |

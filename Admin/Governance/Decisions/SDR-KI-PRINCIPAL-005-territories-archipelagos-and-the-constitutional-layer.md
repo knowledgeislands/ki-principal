@@ -3,6 +3,7 @@ note_type: admin/governance/decision
 id: SDR-KI-PRINCIPAL-005
 title: 'Territories, Archipelagos, and the Constitutional Layer'
 date: 2026-10-11
+updated: 2026-10-19
 status: current
 decision_type_url: https://knowledgeislands.info/specifications/decision-records/sdr
 decision_type: strategy
@@ -17,6 +18,8 @@ Knowledge Islands needs to distinguish shared jurisdiction, subject expertise, r
 
 Shared governance also needs to accommodate different audiences and protected sources within one territory. Registry resolution, working sets and coordination bindings describe operational relationships but cannot substitute for governed membership or permission.
 
+An archipelago was first read as a grouping by proximity or shared character, independent of jurisdiction, so a chart needed two grouping lines. On 2026-10-19 Kris agreed with [GDR-KI-DESIGN-015](https://github.com/knowledgeislands/ki-design/blob/c56d394f3fbb4f28eac0ef9b2bf19958e79f7f9a/docs/decisions/GDR-KI-DESIGN-015-islands-and-archipelagos.md) in `ki-design` that a territory is drawn and described as an archipelago. Under [[SDR-KI-PRINCIPAL-004-the-enactment-process|SDR-KI-PRINCIPAL-004]] his explicit instruction for this bounded change is the ratification.
+
 ## Decision
 
 ### Territories and the Capital
@@ -29,7 +32,7 @@ Territorial membership is declared by the accountable authority in the Charter a
 
 ### Archipelagos and Known Lands
 
-An archipelago groups islands by proximity or shared character, independently of jurisdiction. A territory may span archipelagos and an archipelago may span territories.
+An archipelago is a territory as it is drawn and described: the territory's islands in one sea region. An island may sit apart from that region as an exclave without leaving its territory. Islands that share a subject or character across territories are described in words, never drawn as a second grouping.
 
 The Capital's Known Lands distinguishes authoritative internal membership from external signposting. Any island may keep a local chart of useful sources, topics and destinations. A person's home island need not be a territorial principal. Public records name canonical identities; machine-local locations are resolved through the registry.
 
@@ -62,9 +65,12 @@ Restricted exchange requires the participating owners' explicit audience, purpos
 - Public model adoption remains useful to independent and private consumers without granting KI jurisdiction over them.
 - Internal routing preserves repository-owned access, canonical acceptance and executable boundaries.
 - Known Lands can describe external relationships without confusing awareness with authority.
+- Every territory is drawn as one archipelago, so a chart carries a single grouping line.
 - Charter and Conformance provide an adopted baseline, while provenance and owner permission govern knowledge movement.
 
 ## References
 
 - [SDR-KI-PRINCIPAL-001: Knowledge Islands - The Strategy](SDR-KI-PRINCIPAL-001-knowledge-islands-the-strategy.md)
 - [SDR-KI-PRINCIPAL-003: The Governance of an Island](SDR-KI-PRINCIPAL-003-the-governance-of-an-island.md)
+- [SDR-KI-PRINCIPAL-004: The Enactment Process](SDR-KI-PRINCIPAL-004-the-enactment-process.md)
+- [GDR-KI-DESIGN-015](https://github.com/knowledgeislands/ki-design/blob/c56d394f3fbb4f28eac0ef9b2bf19958e79f7f9a/docs/decisions/GDR-KI-DESIGN-015-islands-and-archipelagos.md) - repositories are islands; territories are archipelagos.

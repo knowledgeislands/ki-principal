@@ -1,5 +1,6 @@
 ---
 note_type: admin/governance/convention
+updated: 2026-10-19T07:00:00Z
 tags:
   - card/note
   - topic/knowledge-islands
@@ -20,7 +21,7 @@ A reference for Knowledge Islands terminology - concepts, acronyms, and structur
 | Term | Meaning |
 | --- | --- |
 | Knowledge Island (KI) | A discrete, self-contained body of knowledge - a repository of notes with its own governance and identity |
-| Archipelago | A geographic grouping of islands by proximity or shared natural character; independent of governance† |
+| Archipelago | A territory as it is drawn and described: its islands in one sea region† |
 | Principal Island | The seat of governance for a territory ‡ |
 | Satellite Island | A governed extension of a territory, ring-fenced for a specific purpose § |
 | Islet | A small, purpose-specific knowledge area sharing its principal island's governance ¶ |
@@ -29,7 +30,7 @@ A reference for Knowledge Islands terminology - concepts, acronyms, and structur
 | Known Lands | A map of known islands held in an island ‡‡ |
 | Capital | The seat of governance for a jurisdiction §§ |
 
-† A territory may contain one or more archipelagos; an archipelago may span multiple territories. The boundary rule (customs vs. free knowledge flow) determines territory; proximity and shared character determine archipelago.
+† Each territory is one archipelago. An island may sit apart from its territory's region as an exclave. The boundary rule (customs vs. free knowledge flow) determines the territory; the archipelago is how it is drawn.
 
 ‡ Holds the Capital, the governance infrastructure, and the Cowork project for the whole territory.
 

@@ -80,25 +80,25 @@ The connective fabric should feel more like ecosystems, ocean currents, migrator
 
 Visual symbols carry consistent conceptual meaning across all outputs. See [[Symbol Library/Symbol Library|Symbol Library]] for the full library and artwork.
 
-| Symbol               | Meaning                       |
-| -------------------- | ----------------------------- |
-| Island               | Domain of knowledge           |
-| Archipelago          | Federated knowledge ecosystem |
-| Port                 | Entry and exit; integration   |
-| Capital              | Civic heart of an island      |
-| Lighthouse           | Guidance                      |
-| Council Hall         | Governance                    |
-| Observatory          | Insight / analytics           |
-| Route                | Relationship                  |
-| Current              | Information flow              |
-| Causeway             | Translation layer             |
-| Reef                 | Risk / ambiguity              |
-| Terrain elevation    | Depth / maturity              |
-| Ancient forest       | Wisdom / continuity           |
-| Weave / Fabric       | Cross-domain synthesis        |
-| Cartographic grid    | Structure / orientation       |
-| Celestial references | Long-range guidance           |
-| Mill                 | Operational systems           |
+| Symbol               | Meaning                                           |
+| -------------------- | ------------------------------------------------- |
+| Island               | Domain of knowledge                               |
+| Archipelago          | A territory, drawn; federated knowledge ecosystem |
+| Port                 | Entry and exit; integration                       |
+| Capital              | Civic heart of an island                          |
+| Lighthouse           | Guidance                                          |
+| Council Hall         | Governance                                        |
+| Observatory          | Insight / analytics                               |
+| Route                | Relationship                                      |
+| Current              | Information flow                                  |
+| Causeway             | Translation layer                                 |
+| Reef                 | Risk / ambiguity                                  |
+| Terrain elevation    | Depth / maturity                                  |
+| Ancient forest       | Wisdom / continuity                               |
+| Weave / Fabric       | Cross-domain synthesis                            |
+| Cartographic grid    | Structure / orientation                           |
+| Celestial references | Long-range guidance                               |
+| Mill                 | Operational systems                               |
 
 ---
 

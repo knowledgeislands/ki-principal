@@ -1,5 +1,6 @@
 ---
 note_type: pillars/index
+updated: 2026-10-19T07:00:00Z
 tags:
   - card/note
   - topic/knowledge-islands
@@ -25,7 +26,7 @@ Every concept here is portable and island-agnostic. Where Knowledge Islands Prin
 
 ## Territories and Archipelagos
 
-[[Territories and Archipelagos]] explains how islands relate at scale. It distinguishes a territory, a governed collection of islands under one accountable authority with exactly one Capital, from an archipelago, a grouping by proximity or shared character that confers no authority. It also covers Known Lands and signposting, the distinct forms of knowledge exchange between islands, and the constitutional baseline a territory accepts when it adopts the model. It is the longest note in the chapter and the one most directly reflected in Knowledge Islands Principal's own governance.
+[[Territories and Archipelagos]] explains how islands relate at scale. It distinguishes a territory, a governed collection of islands under one accountable authority with exactly one Capital, and explains why each territory is drawn and described as an archipelago. It also covers Known Lands and signposting, the distinct forms of knowledge exchange between islands, and the constitutional baseline a territory accepts when it adopts the model. It is the longest note in the chapter and the one most directly reflected in Knowledge Islands Principal's own governance.
 
 ---
 

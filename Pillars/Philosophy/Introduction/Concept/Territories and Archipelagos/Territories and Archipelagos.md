@@ -1,5 +1,6 @@
 ---
 note_type: pillars/index
+updated: 2026-10-19T07:00:00Z
 tags:
   - card/note
   - topic/knowledge-islands
@@ -11,7 +12,7 @@ author: Mixed
 
 ## Overview
 
-Knowledge Islands distinguishes shared governance from subject matter, geography and the products that put knowledge to work. A territory is a governed collection of islands under one accountable authority. An archipelago groups islands by proximity or shared character. These relationships may overlap without being equivalent.
+Knowledge Islands distinguishes shared governance from subject matter, geography and the products that put knowledge to work. A territory is a governed collection of islands under one accountable authority, and it is drawn and described as an archipelago.
 
 An island is a governed repository of knowledge or work. It may be a Knowledge Base or a product repository; neither subject expertise nor executable ownership makes it a territorial principal.
 
@@ -29,9 +30,9 @@ Repository selection derives from the Capital's ordered `territory_members`, inc
 
 ## Archipelagos
 
-An archipelago is a grouping of islands by proximity or shared character, independent of governance. A territory may contain one archipelago or span several; an archipelago may sit within one territory or include islands from several.
+An archipelago is a territory as it is drawn and described: the territory's islands in one sea region. An island may sit apart from that region as an exclave without leaving its territory. Islands that share a subject or character across territories are described in words, never drawn as a second grouping.
 
-Use the territory to answer who governs a collection and where authority ends. Use the archipelago to describe what its islands have in common. Neither geographic grouping nor open access alone establishes jurisdiction.
+The territory answers who governs a collection and where authority ends; the archipelago is how that collection appears on a chart. Membership comes from the Capital's governed inventory, never from proximity or open access.
 
 ## Known Lands and signposting
 

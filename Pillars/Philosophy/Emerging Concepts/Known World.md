@@ -1,6 +1,6 @@
 ---
 note_type: pillars/note
-updated: 2026-10-18T06:47:00Z
+updated: 2026-10-19T07:00:00Z
 tags:
   - card/note
   - topic/knowledge-islands
@@ -24,7 +24,7 @@ Hosts appear here by role, home and hub, not by machine name. Public governance 
 
 - **Realm.** The governed environment, with its own rules for identity, capability and crossing. Knowledge Islands is the first realm. A realm is what gets a public name; "knowledge realms" is the registry where realms declare themselves (see [[Realm Model]]).
 - **Territory.** Eight of them, each with one Capital, one accountable authority and one harness. This is the unit everything else routes by.
-- **Island.** A repository. It belongs to one territory and may sit in several archipelagos.
+- **Island.** A repository. It belongs to one territory and is drawn in that territory's archipelago, or apart from it as an exclave.
 - **Host.** A physical place: the home host (the workstation), the hub host (the always-on studio) and the Techne agent host, under its exemption. Every one of Kris's hosts holds all eight territories in Git, so any host can stand in for any other.
 - **Culture.** The population of agents working in a territory: its norms come from the territory's `*-agentic-harness` and the shared KI skills, its runtimes are Claude Code, Codex and Paperclip companies, and its homeland is the territory's seat host. An Avatar is the one persona that crosses between cultures and realms.
 
