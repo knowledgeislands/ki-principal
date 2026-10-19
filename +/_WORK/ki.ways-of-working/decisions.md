@@ -214,3 +214,11 @@ Kris:
 > as recommended
 
 Read back as taken: CLI-150-REVIEW a) - one independent review run checks tools-ki `949ff512` and harness `1fe52516` against KI-TOOL-KI-CLI-150, then acceptance with Kris. BIOME-DRIFT a) - fold into an existing tools-ki chore record if one fits, otherwise capture one; one run moves `biome.json` to the 2.5.15 schema and clears the findings. KI-RELEASE-NEXT a) - ki v0.11.4 under the tools-ki release guide straight after KI-TOOL-KI-CLI-150 is accepted, Verify 6 rerun first, then the ki-principal CI pin moved. Not taken as a push: the stacked ki.observatory commit `f54d2a8` still waits for Kris's word.
+
+## 2026-10-19 08:05 BST - owner answer, push
+
+Kris:
+
+> push
+
+Read back as taken: push ki-principal with the stacked ki.observatory commit `f54d2a8` and any other stacked commits, fast-forward only.
