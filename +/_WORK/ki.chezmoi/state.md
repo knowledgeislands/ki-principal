@@ -13,7 +13,7 @@ method_read: 979e075a
 ## Now
 
 - With worker since 20:31 BST on 19 October; marked at 20:10 BST.
-- Running: apply-terra (five Rig targets and the Dock on Terra, TOML left out). Done on Sol: Dock and Paperclip applied; the TOML handler fails in tools-rig, sent to ki.mac-studio-setup as TOML-HANDLER.
+- Running: apply-terra rerun, Terra fed from Sol because its GitHub pull fails over SSH (five Rig targets and the Dock on Terra, TOML left out). Done on Sol: Dock and Paperclip applied; the TOML handler fails in tools-rig, sent to ki.mac-studio-setup as TOML-HANDLER.
 - With Kris: RIG-FIREWALL-RUN, the attended Terra rehearsal.
 
 ## Next steps

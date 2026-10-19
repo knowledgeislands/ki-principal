@@ -57,3 +57,9 @@ Read back as option a) of APPLY-CARRY and of RIG-FIREWALL-REHEARSE, including pu
 home: +/_WORK/ki.chezmoi/work.md class: operational
 
 - TOML-HANDLER, reviewed a) high, narrows Kris's APPLY-CARRY go-ahead of 20:30 BST: carry Terra without the TOML target, route the dynamic-type fallback to tools-rig through ki.mac-studio-setup, and accept the TOML drift finding on both Macs until it lands. No new owner authority taken.
+
+## Decision 105 (2026-10-19T19:55:50Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- TERRA-PULL, from apply-terra, a) high, under Kris's standing "It can do anything that's high confidence": fast-forward Terra's chezmoi checkout from Sol over SSH and rerun apply-terra; no credential or sshd change.
