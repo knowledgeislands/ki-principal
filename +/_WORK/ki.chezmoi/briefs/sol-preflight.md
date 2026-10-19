@@ -18,3 +18,25 @@ Do, on Sol, without root:
    Follow the guard style of `firewall-rehearse-v2.md`. Each block says what Kris should see.
 
 Stop and report if step 1 finds anything that enabling pf could turn on unexpectedly. Report under the owner report, with the work's report heading and `› sol-preflight`, including the diff for Kris to review.
+
+## Rerun (sol-preflight-2), after SOL-PF-ROOT
+
+Kris ran the read-only root check on Sol at about 22:26 BST:
+
+```text
+== status: Status: Disabled
+== references: No pf starter references held
+== root rules: scrub-anchor "com.apple/*" all fragment reassemble | anchor "com.apple/*" all
+== root nat/rdr: nat-anchor "com.apple/*" all | rdr-anchor "com.apple/*" all
+== root dummynet: dummynet-anchor "com.apple/*" all
+== root anchors: NordVPN, com.apple
+== com.apple anchors: com.apple/200.AirDrop, com.apple/250.ApplicationFirewall
+S0 RESULT: NOT STOCK (unexpected anchors: NordVPN; unexpected rules: none)
+```
+
+Reading: root's main ruleset is Apple's boot ruleset and calls only `com.apple/*`. A root-level `NordVPN` anchor exists in the kernel, but no root rule calls it, so pf does not evaluate it when enabled. Confirm or correct this reading in your report. Then continue from step 2 of the brief, with these changes to `sol-apply.md`:
+
+- Its pre-apply gate accepts a root ruleset whose rules are only the `com.apple/*` anchor lines. It tolerates an uncalled `NordVPN` anchor, and prints that anchor's rules for the record. It refuses if any root rule calls anything else, or if NordVPN is connected.
+- After the apply, a check proves that root still calls `com.apple/*` and that the new anchor is listed under it.
+
+Also capture, in `KI-TOOL-RIG-CORE-047` under tools-rig's record rules, the follow-up that a NordVPN connection replaces root's ruleset and bypasses the anchor. Commit that by explicit path; no push. Report as `› sol-preflight-2`.

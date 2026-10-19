@@ -73,3 +73,9 @@ home: +/_WORK/ki.chezmoi/work.md class: operational
 - I'm happy to go with your suggestion of a quick read-only check of Sol's firewall, and then apply with me on Sol, and then check that screen sharing works from Terra. That's fine.
 
 Read back as SOL-FIREWALL a): read-only pre-flight after firewall-record, then an attended `chezmoi apply` of the named targets on Kris's reviewed diff and `rig apply --sudo` of the firewall target at Sol, then Screen Sharing from Terra. LAN refusal is left unchecked by Kris's choice.
+
+## Decision 115 (2026-10-19T21:26:09Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- SOL-PF-ROOT: Kris ran the read-only root check (option a). Root rules are Apple's boot ruleset; an uncalled `NordVPN` root anchor exists. Read as safe to enable; sol-preflight-2 finishes step 2, writes `sol-apply.md` with a gate tolerating only the uncalled anchor, and captures the NordVPN bypass in KI-TOOL-RIG-CORE-047.

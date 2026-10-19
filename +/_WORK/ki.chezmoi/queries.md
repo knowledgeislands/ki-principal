@@ -2,15 +2,7 @@
 
 ## Open
 
-### SOL-PF-ROOT - Check what Sol's root pf ruleset holds
-
-since 2026-10-19 · from run sol-preflight ([report, with the read-only block](/Users/krisbrown/.local/state/ki/agents/chezmoi/sol-preflight.report.md))
-
-**Context:** Sol's pf files are Apple's defaults, but NordVPN's helper can replace root's ruleset with a block-by-default one; if it is still loaded, the first `pfctl -E` would switch it on and could cut SSH, Tailscale and Screen Sharing, and a NordVPN connection would bypass the anchor. Only root can see which.
-
-**Query:** Will Kris run the read-only block on Sol and give the result line?
-
-**Options:** a) (recommended, confidence high - settles the unknown without changing anything; the apply sequence re-checks it before enabling pf) Run it; on `STOCK`, sol-preflight finishes and gates the apply on a stock ruleset with NordVPN disconnected, and the NordVPN bypass goes to KI-TOOL-RIG-CORE-047. b) Disconnect or quit NordVPN first, then run it. c) Hold Sol's apply until KI-TOOL-RIG-CORE-047 settles NordVPN.
+None.
 
 ## Parked
 
