@@ -23,6 +23,7 @@ created_at: 2026-10-16T00:05:00Z
 - (2) NEXT-TOOLS-KI a) done: KI-QUIET is KI-TOOL-KI-CLI-146, reviewed and held under QUIET-146 until about 24 October with KI-HARNESS-GOV-204 (QUIET-146-DATE); events.seen cursor moved from 21 to 115; KI-TOOL-KI-CLI-131 and -136 were already accepted and pruned.
 - (3) COORD-1 handed to ki-agentic-harness as KI-HARNESS-GOV-220 (5c85710f, pushed); it affects the seven Capitals still holding +/_CHECKPOINTS/_state-of-play.md.
 - (3a) KI-TOOL-KI-CLI-146 accepted. KI-TOOL-KI-CLI-153 handed over (CLI-153-HANDOVER): run review153 reviews it independently, then run biomeci captures BIOME-CI; bring -153 to Kris for acceptance. KI-TOOL-KI-CLI-155 (priority and size) now in scope; KI-TOOL-KI-CLI-154 is another work's.
+- (3b) Run mgitlearn: mgit learn majority rule with confirmation (MGIT-LEARN-MAJORITY), to Awaiting review, no release.
 - (4) KI-TOOL-KI-CLI-139's "Decision 55" citations, once the decisions move settles (source: hnr-principal 5g-emerge-phase3 decisions, SRC-TOOLING, 16 October).
 - (5) LGL-PRINCIPAL-OPS-018 carries horizon triage, which the format does not allow; legal-principal owns it.
 
