@@ -1,7 +1,7 @@
 ---
 id: ki.ways-of-working
-state: handoff-to-supervisor
-since: 2026-10-19T19:10:00Z
+state: with-worker
+since: 2026-10-19T19:17:00Z
 received: 2026-10-19T16:57:00Z
 beat: null
 mark: 2026-10-19T19:10:00Z
@@ -12,7 +12,7 @@ method_read: eff6163b
 
 ## Now
 
-- Sent to Kris at 20:10 BST with a mark: nothing running and nothing with Kris. QUERY-REVIEW, the compact hook and MARK-AT-START are in the harness (`b04d0e72`, `979e075a`, `5a3616e4`). Kris's focus: Acquire intake, Observatory, Tools burndown and this work.
+- Received from Kris at 20:17 BST: DESIGN-AT-MARK to blind review; design-review running (Codex, read-only).
 - Run reports sit in `~/.local/state/ki/agents/ways-of-working/`.
 
 ## Next steps

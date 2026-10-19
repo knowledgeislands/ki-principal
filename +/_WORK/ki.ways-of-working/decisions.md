@@ -352,3 +352,9 @@ Read back taken: the ki-principal stack is pushed; nothing of this work's waits 
 Kris: "You're absolutely right, I wasn't pushing in the right place. That's a bit annoying. Its now pushed."
 
 Read back taken: the ki-principal stack is pushed. DESIGN-TRIAGE (triage and blind review of `design/`, plus resolving graduated notes at each mark) offered, not yet answered.
+
+## 2026-10-19 20:17 BST - owner direction, DESIGN-AT-MARK review
+
+Kris: "Are you confident though that that's going to be the right approach, worth an extra check??"
+
+Read back taken: DESIGN-AT-MARK (resolve graduated design notes at each mark rather than only at Project close) is medium confidence, its rationale for the present exemption inferred rather than read; it goes to one blind review on Codex (design-review) before it returns to Kris. The `design/` triage waits for the answer.
