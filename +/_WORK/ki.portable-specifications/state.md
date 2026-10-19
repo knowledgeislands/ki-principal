@@ -2,7 +2,7 @@
 id: ki.portable-specifications
 state: with-worker
 blocking: false
-since: 2026-10-19T22:28Z
+since: 2026-10-19T22:45Z
 received: 2026-10-19T18:00Z
 beat: null
 mark: 2026-10-19T18:00Z
@@ -13,22 +13,16 @@ method_read: f4d6c521
 
 ## Now
 
-- PROJECT-NAME and ENTRY-NAMES decided; rename (run/specifications) waits on plan, then renames this work to ki.portable-specifications and writes its Project note. After plan reports: review its queries blind, then start its steps within the decided answers.
-- Kris, 23:37 BST: SPEC-HOME, SPEC-VERSION and CONFORMANCE-LEVELS taken as a); PROJECT-NAME and ENTRY-NAMES asked again with the review's view; the plan's steps start when plan reports, within those answers.
-- STOCKTAKE-PLAN (Kris, 23:28 BST): plan (run/specifications) re-verifies the queries and drafts and writes `design/plan.md`; its queries then go to one blind review before Kris gets a fresh Summary. The fresh Summary promised after query-review at 19:44 BST was not sent; it folds into that one.
-- REFRESH acted on: query-review (Codex, high effort) reported at 19:43 BST; it agreed on SPEC-HOME and SPEC-VERSION, now high and reviewed, and disagreed on PROJECT-NAME and ENTRY-NAMES, whose queries show both views. It compared against the local Agent Skills reference, not the live page. Fresh Summary sent at 19:46 BST.
-- Kris sent the work back at 19:00 BST; stock taken, and nothing authorised can run, since every next step waits on an answer in [queries](queries.md).
-- HANDOFF-SPECS from ki.ways-of-working received: the stocktake and the three drafts are in [design/](design/spec-areas.md); ENTRY-NAMES, SPEC-VERSION and CONFORMANCE-LEVELS copied into queries, and the drafts' SPEC-HOME merged into this work's.
-- create-project was received earlier and its report pruned; it changed nothing in the existing `Streams/Projects/specifications.md`.
+- Decided: SPEC-HOME, SPEC-VERSION, CONFORMANCE-LEVELS, ENTRY-NAMES (upper case) and PROJECT-NAME (keep apart, `portable-specifications`); query-review-3 confirmed PROJECT-NAME at high confidence.
+- rename landed in `d935e493` (the pure moves rode in ki.baseline-rollout's `a90aea3b`); the Project note is [portable-specifications](../../Streams/Projects/portable-specifications.md).
+- plan received; [design/plan.md](design/plan.md) holds the ten steps. SPEC-LIVE-READ decided and live-read running; four queries with Kris: WORK-PROFILE, KNOWLEDGE-SKILL, MOVE-GATE, SPEC-LOCATION.
+- HOOKS-MIGRATION (IMPORTANT, State of play, 23:41 BST) replaces HOOK-GUARD; this work holds no `package.json`, `bun.lock`, `.husky/` or `.githooks/` changes, so nothing to commit for it.
 
 ## Next steps
 
-1. On PROJECT-NAME: write or conform the Project note, register it in `Streams/Projects/Projects.md` and on the Model theme page, then link its `outcome` from the work file's Goals.
-2. On SPEC-HOME: brief one run that homes each spec as the answer sets, with a new owning skill for `knowledge` if one is needed.
-3. On ENTRY-NAMES, SPEC-VERSION and CONFORMANCE-LEVELS: brief one run that revises the drafts in `design/specs/`, chained after step 2; route an entry-file rename of the live work package, if taken, to ki.ways-of-working's `messages.md`.
-
-- HOOK-GUARD (IMPORTANT, from State of play, 23:24 BST) taken: never run `ki repo conform` without `--dry-run` on a KI repository until ki.tools-burndown lifts it; every brief for this work carries it, and plan is read only.
-- REFRESH-BANNER (from ki.ways-of-working, 23:35 BST) taken: banner on every state-changing or where-it-stands reply; stacked pushes only as `[unpushed]`; clean hold banner.
+1. On SPEC-LIVE-READ: one read-only run writes `design/agentskills-check.md`.
+2. After it and WORK-PROFILE, KNOWLEDGE-SKILL and SPEC-LOCATION: one run revises the drafts (plan step 3), then a blind review and SPEC-TEXT to Kris.
+3. Then home the specs in `ki-work-package`, `ki-acquire` and the new knowledge skill, in parallel, in ki-agentic-harness.
 
 ## Held
 

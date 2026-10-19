@@ -49,3 +49,13 @@ Read back taken: ENTRY-NAMES a) - upper-case entry files for all three, `WORK.md
 Kris: "Go with recommendations."
 
 Read back taken: PROJECT-NAME a) - keep the paused `specifications` Project untouched; this Project becomes `portable-specifications`, titled "Portable specifications" under Model, its work `ki.portable-specifications` (KI > Model > Portable specifications). Authorises: rename, one run chained after plan, that writes and registers the Project note under OPEN-PROJECT's authority, renames this work folder and its id, and repoints links; nothing pushed.
+
+## Note - PROJECT-NAME confirmed
+
+query-review-3, a blind Codex review run after the plan raised Kris's opening words, recommended keeping the Projects apart at high confidence; Kris's PROJECT-NAME decision stands.
+
+## 2026-10-19 23:44 BST - owner decision, SPEC-LIVE-READ
+
+Kris: "SPEC-LIVE-READ as recommended"
+
+Read back taken: SPEC-LIVE-READ a) - one read-only run, live-read, reads the live agentskills.io specification, its licence and the `skills-ref` validator source, and writes `design/agentskills-check.md`; nothing else changes.
