@@ -14,7 +14,7 @@ method_read: 979e075a
 
 - Handoff to supervisor since 21:02 BST on 19 October; marked at 20:10 BST.
 - Both Macs carried: chezmoi at `8b9ee66`, five Rig targets and the Dock applied, Paperclip held; only the accepted TOML drift remains, with tools-rig through ki.mac-studio-setup ([apply-terra-2](/Users/krisbrown/.local/state/ki/agents/chezmoi/apply-terra-2.report.md)).
-- Terra shut down at 21:07 BST: the rehearsal's step 2 ran `launchctl bootout system/$L` with `L` empty (the hand-run sequence's fault, not pf or Rig; [firewall-freeze](/Users/krisbrown/.local/state/ki/agents/chezmoi/firewall-freeze.report.md)). Terra healthy, rules restored. Running: firewall-seq-review, a blind review of a literal-label sequence before Kris re-runs it.
+- Terra shut down at 21:07 BST: the rehearsal's step 2 ran `launchctl bootout system/$L` with `L` empty (the hand-run sequence's fault, not pf or Rig; [firewall-freeze](/Users/krisbrown/.local/state/ki/agents/chezmoi/firewall-freeze.report.md)). Terra healthy, rules restored. Kris is running the reviewed, guarded sequence ([firewall-rehearse-v2](/Users/krisbrown/.local/state/ki/agents/chezmoi/firewall-rehearse-v2.md)) from Sol, with Terra's console as the second route in.
 
 ## Next steps
 
