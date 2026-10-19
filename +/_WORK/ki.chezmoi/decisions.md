@@ -127,3 +127,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 135 (2026-10-19T22:37:01Z)
 
 - Pointer: BRINGUP-CHECK a), taken under Kris's standing authority for high-confidence work after the blind review agreed with high confidence. One read-only `rig-bringup-check` for KB-DOTFILES-UE-090 gaps 2, 7 and 8, with the review's safeguards; gap 9 handed to KB-DOTFILES-UE-076 ([ue090-plan](/Users/krisbrown/.local/state/ki/agents/chezmoi/ue090-plan.report.md), [bringup-review](/Users/krisbrown/.local/state/ki/agents/chezmoi/bringup-review.report.md)). Run bringup-fold records it.
+
+## Decision 136 (2026-10-19T22:44:41Z)
+
+- Pointer: READY-REST a), Kris on 19 October, 23:43 BST: "go ahead". Gap 1 is split out of KB-DOTFILES-UE-090 into its own record, held with KB-DOTFILES-UE-087, and the rest of UE-090 moves to Ready; KB-DOTFILES-UE-076 stays draft (run ready-rest).
