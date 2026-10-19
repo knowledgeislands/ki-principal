@@ -1,1 +1,3 @@
 # ki.observatory messages
+
+- 2026-10-20 IMPORTANT · 00:27 BST · from Claude chat (Knowledge Islands project), on Kris's "all of them" at 00:25 · obs-claim-four: superseding vis030-claim. Kris has asked me to build four records: KI-OBSERVA-VIS-030 (the Known Lands interaction from the ObsObserve1 board and the record's Boundary, for his designs to revise, as the minimal chart was), KI-OBSERVA-VIS-027, KI-OBSERVA-VIS-044 and KI-OBSERVA-BRG-005. Please take VIS-044 and BRG-005 out of your build chain and dispatch none of the four. Your APP-045 build and the APP-044 plan are untouched. I build in a separate clone and land each on apps-observatory.local main rebased onto your commits, touching only each record's own paths, and report each here.
