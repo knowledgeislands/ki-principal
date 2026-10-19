@@ -10,7 +10,13 @@ since 2026-10-19 · from mgitplan.report.md in the run state folder · reviewed 
 
 **Query:** Which outcomes should the tally count, and where does each kind of skip fall?
 
-**Options:** a) (recommended, confidence medium - every checkout gets exactly one outcome, and "failed" means Git itself went wrong) Use five outcomes: in sync, pulled, pushed, skipped and failed. Skipped covers local changes, detached HEAD, no upstream, diverged, failed fetch, bare repositories and your own `-i` refusals. Failed covers only `status failed`, `cannot compare`, `pull failed` and `push failed`. b) Add a sixth outcome, "need attention", as `overview` has. It would take diverged, dirty, detached and no-upstream checkouts, and leave skipped for bare repositories and your refusals. c) Count a failed fetch as failed, not skipped.
+**Options:**
+
+a) (recommended, confidence medium - every checkout gets exactly one outcome, and "failed" means Git itself went wrong) Use five outcomes: in sync, pulled, pushed, skipped and failed. Skipped covers local changes, detached HEAD, no upstream, diverged, failed fetch, bare repositories and your own `-i` refusals. Failed covers only `status failed`, `cannot compare`, `pull failed` and `push failed`.
+
+b) Add a sixth outcome, "need attention", as `overview` has. It would take diverged, dirty, detached and no-upstream checkouts, and leave skipped for bare repositories and your refusals.
+
+c) (reviewer's view, confidence high - A fetch error belongs with operational failures within five exclusive outcomes) Count a failed fetch as failed, not skipped.
 
 ### SYNC-TALLY - Tally shape
 
@@ -20,7 +26,13 @@ since 2026-10-19 · from mgitplan.report.md in the run state folder · reviewed 
 
 **Query:** What should the closing tally line look like?
 
-**Options:** a) (recommended, confidence high - the counts then always add up to the total, and the line reads like dispatch's) `mgit sync: 57 repositories: 55 in sync, 0 pulled, 1 pushed, 1 skipped, 0 failed`. It keeps the `mgit sync:` prefix that sync's other lines use, prints zero counts, and counts each repository once. b) The same line, but leave out the zero counts. c) Use dispatch's bare `mgit:` prefix.
+**Options:**
+
+a) (recommended, confidence high - reviewed: the counts then always add up to the total, and the line reads like dispatch's) `mgit sync: 57 repositories: 55 in sync, 0 pulled, 1 pushed, 1 skipped, 0 failed`. It keeps the `mgit sync:` prefix that sync's other lines use, prints zero counts, and counts each repository once.
+
+b) The same line, but leave out the zero counts.
+
+c) Use dispatch's bare `mgit:` prefix.
 
 ### SYNC-SKIPDETAIL - Where skipped detail goes
 
@@ -30,7 +42,13 @@ since 2026-10-19 · from mgitplan.report.md in the run state folder · reviewed 
 
 **Query:** Where should the run name each skipped or failed repository and its reason?
 
-**Options:** a) (recommended, confidence medium - this repeats the warnings where you will see them, and stays readable when several repositories need attention) Keep the per-repository lines as they are. After the tally, add one indented line for each skipped or failed repository, such as `ki-agentic-harness: local changes, 5 ahead`. b) List them on the tally line itself, as dispatch lists its failures. c) Leave them only in the per-repository lines, with the counts added there.
+**Options:**
+
+a) (recommended, confidence high - reviewed: this repeats the warnings where you will see them, and stays readable when several repositories need attention) Keep the per-repository lines as they are. After the tally, add one indented line for each skipped or failed repository, such as `ki-agentic-harness: local changes, 5 ahead`.
+
+b) List them on the tally line itself, as dispatch lists its failures.
+
+c) Leave them only in the per-repository lines, with the counts added there.
 
 ### SYNC-HELD - Which held commits to count
 
@@ -40,7 +58,13 @@ since 2026-10-19 · from mgitplan.report.md in the run state folder · reviewed 
 
 **Query:** Which unpushed and unpulled commits should the skipped detail report?
 
-**Options:** a) (recommended, confidence medium - this covers the stranded-work case without new scanning) Count the checked-out branch only, as `mgit st` does. Give a dirty checkout its up-to-date ahead and behind counts. Give a failed fetch its counts against the last-fetched upstream, marked `stale`. Give detached heads and branches without an upstream no counts. b) The same as a), but give a failed fetch no counts. c) Also count other local branches that are ahead of their upstreams.
+**Options:**
+
+a) (recommended, confidence high - reviewed: this covers the stranded-work case without new scanning) Count the checked-out branch only, as `mgit st` does. Give a dirty checkout its up-to-date ahead and behind counts. Give a failed fetch its counts against the last-fetched upstream, marked `stale`. Give detached heads and branches without an upstream no counts.
+
+b) The same as a), but give a failed fetch no counts.
+
+c) Also count other local branches that are ahead of their upstreams.
 
 ### SYNC-STREAMS - Standard streams
 
@@ -50,7 +74,11 @@ since 2026-10-19 · from mgitplan.report.md in the run state folder · reviewed 
 
 **Query:** Should this record move sync's warning lines to standard error?
 
-**Options:** a) (recommended, confidence medium - this keeps the record bounded, and lets one record settle streams for every command) Leave the streams as they are, and record the departure on KI-TOOL-MGIT-CLI-029. b) Do it here: move the skip, warning and progress lines to standard error, and keep the tally and the per-repository result lines on standard output.
+**Options:**
+
+a) (recommended, confidence medium - this keeps the record bounded, and lets one record settle streams for every command) Leave the streams as they are, and record the departure on KI-TOOL-MGIT-CLI-029.
+
+b) (reviewer's view, confidence medium - Apply the existing stream convention while changing this output contract) Do it here: move the skip, warning and progress lines to standard error, and keep the tally and the per-repository result lines on standard output.
 
 ### SYNC-EXIT - Exit status
 
@@ -60,7 +88,13 @@ since 2026-10-19 · from mgitplan.report.md in the run state folder · reviewed 
 
 **Query:** Should the exit status change, and what should a quit under `-i` print?
 
-**Options:** a) (recommended, confidence medium - the exit status stays stable, and a quit no longer hides what was reached) Keep the exit status exactly as it is, with no extra explanation on the tally line, since the skipped and failed counts already show why. When you quit under `-i`, print the tally and detail for the repositories reached so far. b) Keep the exit status, and keep quitting silent, as now. c) Exit `1` only for failed checkouts, and treat skips as success.
+**Options:**
+
+a) (recommended, confidence high - reviewed: the exit status stays stable, and a quit no longer hides what was reached) Keep the exit status exactly as it is, with no extra explanation on the tally line, since the skipped and failed counts already show why. When you quit under `-i`, print the tally and detail for the repositories reached so far.
+
+b) Keep the exit status, and keep quitting silent, as now.
+
+c) Exit `1` only for failed checkouts, and treat skips as success.
 
 ### SYNC-JSON - Machine output
 
@@ -70,7 +104,11 @@ since 2026-10-19 · from mgitplan.report.md in the run state folder · reviewed 
 
 **Query:** Should sync gain `--json` in this record?
 
-**Options:** a) (recommended, confidence medium - nothing needs it yet, and adding it would grow the record past size m) Defer it to a new triage record. b) Add it here, with a `summary` object that matches dispatch and `overview`, and one result for each repository.
+**Options:**
+
+a) (recommended, confidence high - reviewed: nothing needs it yet, and adding it would grow the record past size m) Defer it to a new triage record.
+
+b) Add it here, with a `summary` object that matches dispatch and `overview`, and one result for each repository.
 
 ### SYNC-VERBOSE - Verbose mode
 
@@ -80,7 +118,11 @@ since 2026-10-19 · from mgitplan.report.md in the run state folder · reviewed 
 
 **Query:** Should the tally depend on `-v`?
 
-**Options:** a) (recommended, confidence high - one fixed output is simpler to read and to test) Print the same tally with and without `-v`, with bare repositories always counted as skipped. `-v` then adds only progress lines. b) Keep today's split, and count bare repositories in the tally only without `-v`.
+**Options:**
+
+a) (recommended, confidence high - reviewed: one fixed output is simpler to read and to test) Print the same tally with and without `-v`, with bare repositories always counted as skipped. `-v` then adds only progress lines.
+
+b) Keep today's split, and count bare repositories in the tally only without `-v`.
 
 ### SYNC-CLEANFETCH - Clean-branch wording
 
@@ -90,7 +132,11 @@ since 2026-10-19 · from mgitplan.report.md in the run state folder · reviewed 
 
 **Query:** Should the documents change to match the code, or the code to match the documents?
 
-**Options:** a) (recommended, confidence high - the code's behaviour is what makes the dirty-checkout counts possible) Correct the specification, manual and guide to say that every tracking branch is fetched. b) Narrow the fetch to clean branches, which loses the up-to-date behind counts for dirty checkouts.
+**Options:**
+
+a) (recommended, confidence high - reviewed: the code's behaviour is what makes the dirty-checkout counts possible) Correct the specification, manual and guide to say that every tracking branch is fetched.
+
+b) Narrow the fetch to clean branches, which loses the up-to-date behind counts for dirty checkouts.
 
 ### TRIAGE-NEXT - Plan the two high-priority tools-ki records
 
