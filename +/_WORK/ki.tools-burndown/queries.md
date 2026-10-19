@@ -44,7 +44,7 @@ since 2026-10-19 · from the MGIT-RELEASE message
 
 **Options:**
 
-a) (recommended, confidence high - your check passed and MGIT-RELEASE a) asks for exactly this, gated on verification) Yes, accept KI-TOOL-MGIT-CLI-023, and cut the release when the gate passes; KI-TOOL-MGIT-CLI-028 rides with it only if you accept it in the burndown acceptance batch.
+a) (recommended, confidence medium - your check passed and MGIT-RELEASE a) asks for exactly this, but publishing rests on run reports I have not verified directly) Yes, accept KI-TOOL-MGIT-CLI-023, and cut the release when the gate passes; KI-TOOL-MGIT-CLI-028 rides with it only if you accept it in the burndown acceptance batch.
 
 b) Bring the acceptance and the finished release back to you before the tag.
 
@@ -58,7 +58,7 @@ since 2026-10-19 · from the KI-PATCH-RELEASE message
 
 **Options:**
 
-a) (recommended, confidence high - it is the release you asked for, and it is gated on verification and the harness fix) Yes: cut it on those two conditions, then reply with the tag in ki.ways-of-working's `messages.md`.
+a) (recommended, confidence medium - it is the release you asked for, but publishing rests on run reports I have not verified directly) Yes: cut it on those two conditions, then reply with the tag in ki.ways-of-working's `messages.md`.
 
 b) No: bring the finished change back to you before the tag.
 
