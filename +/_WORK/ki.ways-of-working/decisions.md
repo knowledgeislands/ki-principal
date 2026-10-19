@@ -313,3 +313,7 @@ Read back taken: REPORT-SWEEP a) covers Terra's copies too. Terra deletes the se
 ## 2026-10-19 18:49 BST - received harness-files10
 
 `[skills.ki-acquire]` moved above Relationships so `[skills.ki-trades]` is last (`bda6e4a0`, on origin); `ki repo audit --repo .` PASS locally on 0.11.4, 1286 tests pass. Harness CI's pinned v0.11.3 run is still to confirm. Note: the run found the common-rules file the brief named missing, and worked from the brief alone; the 18:49 entry above and the TERRA-ALIGN entry carry times one to two minutes ahead of the clock.
+
+## 2026-10-19 18:51 BST - Terra legal tidy done
+
+Kris, on the Terra legal strays and broken user-level links: "yeah that was done". TERRA-ALIGN closed.
