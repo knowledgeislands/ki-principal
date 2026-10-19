@@ -138,6 +138,22 @@ a) (recommended, confidence medium - all are work-folder and decision documentat
 
 b) Leave them until those threads push their own.
 
+### OBS-PACKAGE-FOLLOWUPS - Two Observatory readers still use the old shape
+
+since 2026-10-19 · from [obs-reader](/Users/krisbrown/.local/state/ki/agents/observatory/obs-reader.report.md)
+
+**Context:** Feedback send writes only into the `## Messages` section of `work.md`, so it refuses to send to any migrated work. Feedback send is switched off for now. The Review queue takes open queries from run reports, not from `queries.md`. Once reports are pruned after their queries are copied into `queries.md`, those queries will drop out of the Review queue.
+
+**Query:** Should these two be captured as Observatory records now?
+
+**Options:**
+
+a) (recommended, confidence high - both break as the migrated works tidy up) Capture two triage records under `ki-next`: feedback writing to `messages.md`, and the Review queue reading `## Open` in `queries.md`.
+
+b) Capture only the Review queue one, since feedback send is still switched off.
+
+c) Leave both until the migration pass has finished.
+
 ## Parked
 
 None.

@@ -1,8 +1,8 @@
 ---
 id: ki.observatory
 state: with-worker
-since: 2026-10-19T18:02:00Z
-received: 2026-10-19T18:02:00Z
+since: 2026-10-19T18:13:00Z
+received: 2026-10-19T18:13:00Z
 beat: null
 mark: 2026-10-19T18:02:00Z
 method_read: 2026-10-19T18:02:00Z
@@ -13,8 +13,8 @@ method_read: 2026-10-19T18:02:00Z
 ## Now
 
 - Sent back to the worker and marked at 19:02 BST on 19 October; the work package was re-read and its migrated description, Goals and Scope confirmed.
-- obs-reader is running in apps-observatory.local: the Observatory reads both work-folder shapes (WORK-PACKAGE-READER from ki.ways-of-working).
-- obs-burndown is queued behind obs-reader: the roadmap burndown push in apps-observatory.local (BURNDOWN-PUSH).
+- Received obs-reader at 19:13 BST: KI-OBSERVA-VIS-025 now reads both work-folder shapes and is Awaiting review, committed locally; the Work Instrument confirmation was returned to ki.ways-of-working.
+- obs-burndown is running: the roadmap burndown push in apps-observatory.local (BURNDOWN-PUSH).
 - The Observatory service serves KI-OBSERVA-BRG-003, Awaiting review.
 - Run reports sit in `~/.local/state/ki/agents/observatory/`.
 
