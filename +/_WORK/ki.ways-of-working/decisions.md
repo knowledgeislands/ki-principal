@@ -339,3 +339,9 @@ Read back taken: `ki` restarted. WALKTHROUGH-HOME a) - this work keeps walking K
 ## 2026-10-19 19:03 BST - owner direction, walk-through pace
 
 Kris: "next, give me 2 at a time if ok". Read back taken: `ki.tools-burndown` restarted; the walk-through now gives two send lines per turn.
+
+## 2026-10-19 19:25 BST - owner decision, BURNDOWN-PUSH
+
+Kris, quoting the offer (an IMPORTANT burndown line to Tools burndown, Observatory and chezmoi: prune everything done, one acceptance batch for everything awaiting review, cancel or merge triage records aiming for at least half, each with a one-line reason to confirm): "I agree".
+
+Read back taken: BURNDOWN-PUSH - one IMPORTANT line in each of ki.tools-burndown, ki.observatory and ki.chezmoi's `messages.md`; each worker owns its pass, and no record is cancelled before Kris confirms. Also: acquire intake's resume line given; eight restarts done.
