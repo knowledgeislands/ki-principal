@@ -44,7 +44,7 @@ since 2026-10-19 · from the MGIT-RELEASE message
 
 **Options:**
 
-a) (recommended, confidence medium - your check passed and MGIT-RELEASE a) asks for exactly this, but publishing rests on run reports I have not verified directly) Yes, accept KI-TOOL-MGIT-CLI-023, and cut the release when the gate passes; KI-TOOL-MGIT-CLI-028 rides with it only if you accept it in the burndown acceptance batch.
+a) (recommended, confidence medium - reviewed, your check passed and the blind review reran all 135 Bats cases, but publishing rests on remote steps not verified) Yes: accept KI-TOOL-MGIT-CLI-023 and cut `v0.18.0` on `9a3564d`, once you have accepted KI-TOOL-MGIT-CLI-028 under BURNDOWN-ACCEPT, because its change already ships in that commit.
 
 b) Bring the acceptance and the finished release back to you before the tag.
 
@@ -52,13 +52,13 @@ b) Bring the acceptance and the finished release back to you before the tag.
 
 since 2026-10-19 · from the KI-PATCH-RELEASE message
 
-**Context:** Through ki.ways-of-working you asked for one `ki` patch release "soon", carrying KI-TOOL-KI-CLI-155 so `priority` and `size` stop dropping 18 records, and pinning a ki-agentic-harness that provides `ki-work-package`, so ki-principal CI stops failing at "Install released KI". Your standing rule is to ask before any `ki` release. The cli155 run is building the change now and stops before tagging, pushing or publishing.
+**Context:** Through ki.ways-of-working you asked for one `ki` patch release "soon", carrying KI-TOOL-KI-CLI-155 so `priority` and `size` stop dropping 18 records, and pinning a ki-agentic-harness that provides `ki-work-package`, so ki-principal CI stops failing at "Install released KI". Your standing rule is to ask before any `ki` release. The cli155 run is building the change now and stops before tagging, pushing or publishing. Since then the harness pin landed (`c55a6c42`) and the reciprocal link (`0720a05`), with the full suite green; the audit still fails on the wpreader run's new record KI-TOOL-KI-CLI-158, which wpreader is fixing. The blind review prefers b): the live gate is red and code is still being edited, so you should see the clean, fully gated final candidate before authorising its tag.
 
 **Query:** May I cut, push and publish the patch release as soon as KI-TOOL-KI-CLI-155 passes verification and the harness pin sits at or after the harness-link-fix commit?
 
 **Options:**
 
-a) (recommended, confidence medium - it is the release you asked for, but publishing rests on run reports I have not verified directly) Yes: cut it on those two conditions, then reply with the tag in ki.ways-of-working's `messages.md`.
+a) (recommended, confidence medium - review disagrees, it is the release you asked for, but publishing rests on run reports I have not verified directly) Yes: cut it on those two conditions, then reply with the tag in ki.ways-of-working's `messages.md`.
 
 b) No: bring the finished change back to you before the tag.
 
