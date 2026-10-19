@@ -2,35 +2,7 @@
 
 ## Open
 
-### SOL-FW-TEST - What this parked tag meant
-
-since 2026-10-19 · reviewed by query-review, 19:48 BST, which disagrees with the coordinator
-
-**Context:** First seen in `4352cecc` among parked tags in the old checkpoint, with no definition; its text is lost. The same checkpoint separately calls for a sol firewall test with a NordVPN check, which the archived firewall-deliver report specifies under KI-TOOL-RIG-CORE-047 (awaiting review). The sol firewall test stays held for sol's screen either way.
-
-**Query:** Is SOL-FW-TEST only the held sol firewall test, NordVPN check included, or something else still open?
-
-**Options:**
-
-a) (recommended by the reviewer, confidence high - the wording is lost, and keeping the tag avoids silently dropping a separate requirement; the coordinator recommended b at low) Kris restates or confirms it; keep the entry until then.
-
-b) Treat it as the held sol firewall test with its NordVPN check, and delete the separate entry.
-
-### BOOTOUT-GUARD - Guard every bootout site against an empty label
-
-since 2026-10-19 · rig-capture run report, 23:31 BST · reviewed by bootout-review, 23:34 BST, which agrees
-
-**Context:** An empty-label `launchctl bootout system/` shut terra down at 21:07 on 19 October during a hand-run rehearsal. Rig has three bootout sites, `rig_firewall_apply`, `rig_firewall_retire` and `rig_launchd_unload`; none checks its label itself, each relying on validation earlier in the call chain, and native firewall retirement does not enforce its own preflight. The normal commands are safe today, and no test bypasses the earlier checks. KI-TOOL-RIG-CORE-047 is awaiting review, and the launchd site lies outside its firewall scope.
-
-**Query:** Capture a separate tools-rig record that refuses an empty or invalid label at all three bootout sites?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; all three missing local checks verified directly, and a Triage record is reversible) Capture a Triage record for a local refusal at each site, before any other side effect, with a fixture test each that bypasses earlier validation and proves refusal with no native change.
-
-b) Capture nothing; accept reliance on the earlier checks.
-
-c) Fold the guards into KI-TOOL-RIG-CORE-047 when it is next planned.
+No open queries.
 
 ## Parked
 

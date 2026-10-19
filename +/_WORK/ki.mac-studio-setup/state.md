@@ -13,9 +13,9 @@ method_read: 84b61942
 ## Now
 
 - With worker since 23:30 BST on 19 October; marked at 23:36 BST on 19 October.
-- rig-capture received 23:31 BST: RIG-UNLOAD-LABEL, every caller proven to guarantee a non-empty label, no record; TOML-HANDLER captured as KI-TOOL-RIG-CORE-069 (Triage); tools-rig commits ccd14ac and 4f97d74, local, unpushed; BOOTOUT-GUARD raised; bootout-review agreed at 23:34 BST, now high and with Kris.
+- rig-capture received 23:31 BST: RIG-UNLOAD-LABEL, every caller proven to guarantee a non-empty label, no record; TOML-HANDLER captured as KI-TOOL-RIG-CORE-069 (Triage); tools-rig commits ccd14ac and 4f97d74, local, unpushed; BOOTOUT-GUARD raised and closed by Kris with no record.
 - Running, chained in tools-rig: core063 (plan and deliver KI-TOOL-RIG-CORE-063 to Awaiting review), then plan062 (plan KI-TOOL-RIG-CORE-062), then plan027 (plan KI-TOOL-RIG-CLI-027); local commits only, no push.
-- With Kris: SOL-FW-TEST, Kris to restate or confirm it; BOOTOUT-GUARD.
+- Nothing with Kris. SOL-FW-TEST closed: the sol firewall test is finished and good (Kris, 23:41 BST); KI-TOOL-RIG-CORE-047 still awaits Kris's acceptance. BOOTOUT-GUARD closed: no record.
 - ki-principal push left to the owning sessions (PUSH-STACK a).
 - FIRST-STEP done: `ki-work-package` and all five files re-read, description, Goals and Scope confirmed as drafted, `method_read` set.
 - REPORT-SWEEP received: the four kept reports stay, their outcomes not yet homed; rig-lane's query is RIG-ORDER, and the other three are the held at-screen steps below.
@@ -31,7 +31,7 @@ method_read: 84b61942
 
 ## Held
 
-- At sol's screen: key-only SSH ([ssh-keyonly](ssh-keyonly.report.md)), KB-DOTFILES-UE-086 steps 0-12 ([ue086-walk](ue086-walk.report.md)), the UTM swap (UTM-SOL), the Observatory restart (OBS-RESTART) and the KI-TOOL-RIG-CORE-047 live firewall test - until Kris is at sol's screen.
+- At sol's screen: key-only SSH ([ssh-keyonly](ssh-keyonly.report.md)), KB-DOTFILES-UE-086 steps 0-12 ([ue086-walk](ue086-walk.report.md)), the UTM swap (UTM-SOL), the Observatory restart (OBS-RESTART) and accepting KI-TOOL-RIG-CORE-047, whose live test is done - until Kris is at sol's screen.
 - At terra's screen: pull tools-rig and upgrade Rig past 0.6.3; pull chezmoi and run `chezmoi apply ~/.config/rig && rig doctor`; HOSTKEY-APPLY steps 6-9 ([hostkey-check](hostkey-check.report.md)); then key-only SSH - until Kris is at terra's screen.
 - Anywhere: the Headroom favicon request ([favicons-headroom.svg](design/favicons-headroom.svg)) - until Kris takes it up.
 - FW-LIVE's reboot check - at terra's next natural restart.
