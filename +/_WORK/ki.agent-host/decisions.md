@@ -296,3 +296,11 @@
 
 - RELEASE (Kris, 20 October 2026, under OVERNIGHT at 00:30 BST: "You can do anything on a high confidence level that you recommend"): State of play took TECHNE-FOLLOWUPS a), reviewed high, and dispatched `agent-host-resume` after KI-PRINCIPAL-GOV-035 was accepted. This package's release condition, the Techne Programme Hold lifting, is met: the [Techne Programme Focus](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Policies/Techne%20Programme%20Focus.md) replaced the hold, keeps building and running vega in scope within its operating bounds, and carries no programme hold. Scope of the run: fix the current-policy links in ki-techne-harness and tools-techne, and re-validate the holds the package owns; no implementation beyond those documentation fixes, and no acceptance, release, vega or remote-host operation. Class: operational.
 - Outcome of `agent-host-resume` (20 October 2026): policy links fixed in ki-techne-harness and tools-techne. Holds re-validated one at a time: KI-TECHNE-OPS-018 stays held, neither gate met; KI-TECHNE-OPS-024 stays held, re-worded from parked on the thread resuming to waiting for the role-profile move inside KI-TECHNE-OPS-018; KI-TOOL-TECHNE-CLI-006 released to next, its plan still awaiting review; KB-DOTFILES-UE-084 released to soon with a Shaping section, because vega was rebuilt on 14 October; KI-TOOL-RIG-CORE-048 and KI-TOOL-KI-CLI-125 left held, with CHAIN-GATE and CLI125-HOLD in `queries.md`.
+
+## Decision 71 (2026-10-19T23:45:57Z)
+
+- CHAIN-GATE a) (Kris, 20 October 2026), taken under OVERNIGHT, reviewed by query-review-6: KI-TOOL-RIG-CORE-048 released from hold to soon with Shaping; KI-TECHNE-OPS-018 and KI-TECHNE-OPS-024 stay held. Class: operational.
+
+## Decision 72 (2026-10-19T23:45:57Z)
+
+- CLI125-HOLD a) (Kris, 20 October 2026), taken under OVERNIGHT, reviewed by query-review-6: KI-TOOL-KI-CLI-125 stays held, its condition reduced to "An ARM host is needed", review date unchanged. Class: operational.
