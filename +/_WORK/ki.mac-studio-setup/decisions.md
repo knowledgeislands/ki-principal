@@ -649,3 +649,5 @@
 - 2026-10-19 23:30 BST, messages taken in queue order: HOOK-GUARD (IMPORTANT) folded into every brief; RIG-UNLOAD-LABEL and TOML-HANDLER sent to run rig-capture in tools-rig, ahead of core063 because of the safety question; METHOD-READ applied, `method_read` set to `84b61942`; RIG-FULLSCREEN held here as an idea only, with no record or implementation authority (Kris approved, 19 October): an interactive full-screen Rig terminal mode with btop-style panes, distinct from the two-line progress footer, wording at 135fe9e1 in +/_THREADS/state-of-play/decisions.md line 367.
 
 - 2026-10-19 23:30 BST, correction: the first launch of the four runs at 23:28 BST failed (the launcher command was not split), and nothing ran; relaunched at 23:30 BST.
+
+- 2026-10-19 23:33 BST, rig-capture received: RIG-UNLOAD-LABEL needs no record (callers proven); KI-TOOL-RIG-CORE-069 captured for TOML-HANDLER, unpushed in tools-rig; its BOOTOUT-GUARD query (medium) sent to blind review run bootout-review on Codex at high effort; rig-capture brief pruned.

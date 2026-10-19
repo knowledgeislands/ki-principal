@@ -16,6 +16,22 @@ a) (recommended by the reviewer, confidence high - the wording is lost, and keep
 
 b) Treat it as the held sol firewall test with its NordVPN check, and delete the separate entry.
 
+### BOOTOUT-GUARD - Guard every bootout site against an empty label
+
+since 2026-10-19 · rig-capture run report, 23:31 BST · in blind review (bootout-review) before it reaches Kris
+
+**Context:** An empty-label `launchctl bootout system/` shut terra down at 21:07 on 19 October. Rig's `rig_firewall_retire` and `rig_firewall_load_state` do not check the locator themselves and rely on an earlier preflight, which always runs today; `rig_launchd_unload` has the same shape in the user domain. Not a live defect.
+
+**Query:** Capture a defence-in-depth record that refuses an empty or invalid label at every bootout site?
+
+**Options:**
+
+a) (recommended by rig-capture, confidence medium - small and cheap, closes the one input that turns a service bootout into a machine shutdown, but nothing is broken today) Capture a Triage record in tools-rig for a guard at each bootout site, with a fixture test each.
+
+b) Capture nothing; the current guards are proven.
+
+c) Fold the guard into KI-TOOL-RIG-CORE-047 when it is next planned.
+
 ## Parked
 
 Parked at the 2026-10-18 hold (Kris; put back one at a time, with a recommendation and reason):
