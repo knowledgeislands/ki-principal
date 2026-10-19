@@ -1,0 +1,3 @@
+# ideas - home two mgit ideas in the Project note
+
+In ki-principal, read the MGIT-ESCAPE and MGIT-OUTPUT entries (17 October intake) in `+/_WORK/ki/decisions.md`. Add each as one idea line, in its own words with the date and source, to the ideas section of `Streams/Projects/tools-burndown.md` (create the section if it has none, matching the note's shape). Create no roadmap record (CAPTURE-GATE). Then add one line to `+/_WORK/ki/messages.md`: "<date time> BST · from ki.tools-burndown · MARK-FOLLOWUP: MGIT-ESCAPE and MGIT-OUTPUT now live as ideas in the tools-burndown Project note; strike them." Commit both by explicit path; never --no-verify. Do not push. Report briefly under Done, In Progress and Queries.
