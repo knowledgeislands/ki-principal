@@ -1104,3 +1104,4 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 ## 2026-10-19 11:20 BST - ROADMAP-FIELDS
 
 - **ROADMAP-FIELDS:** "can you fix these roadmnap items please", on the roadmap diagnostics naming unsupported or repeated fields: `size` in KI-OBSERVA-APP-045 and KI-OBSERVA-VIS-042 (apps-observatory.local), `priority` in KI-DESIGN-OBS-001 to 015 (ki-design) and KI-TOOL-MGIT-CLI-028 (tools-mgit). Dispatched `roadmap-fields`.
+- roadmap-fields found the 18 records correct (GDR-KI-PRINCIPAL-016); installed `ki` 0.11.4 lags the format. Under GO-AHEAD, CLI-FIELDS a) is acted on: `cli155-route` sends KI-TOOL-KI-CLI-155 to Tools burndown through its Messages section. No record is edited.
