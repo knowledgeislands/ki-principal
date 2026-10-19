@@ -115,3 +115,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 132 (2026-10-19T22:28:29Z)
 
 - Pointer: MCPORTER-RESTART, Kris on 19 October, 23:30 BST: "McPorter restart: you can just do it if you need to." Sol's daemon is restarted with the existing `mcporter_restart` (run mcporter-restart).
+
+## Decision 133 (2026-10-19T22:29:49Z)
+
+- Pointer: STYLE-WHEN a), taken under Kris's standing authority for high-confidence work. The dead output-style link warns at render time (`warnf`, chezmoi `7ac9047`), on every apply, diff and status, rather than in a `run_after_` script that would keep `chezmoi status` permanently dirty ([parked-three](/Users/krisbrown/.local/state/ki/agents/chezmoi/parked-three.report.md)).

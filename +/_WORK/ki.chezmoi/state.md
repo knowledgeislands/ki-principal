@@ -1,10 +1,10 @@
 ---
 id: ki.chezmoi
 state: with-worker
-since: 2026-10-19T21:48:17Z
+since: 2026-10-19T22:28:00Z
 received: null
 beat: null
-mark: 2026-10-19T22:12:22Z
+mark: 2026-10-19T22:30:05Z
 method_read: 979e075a
 ---
 
@@ -12,25 +12,25 @@ method_read: 979e075a
 
 ## Now
 
-- With worker; marked at 23:12 BST on 19 October.
-- Sol firewall applied and verified 22:50–23:06 BST: S4 PROTECTED twice, undo rehearsed, T checks pass (tailnet 5900 answers, LAN 5900 blocked, LAN 22 open), VNC from Terra works, `rig doctor` unchanged at 3 findings. The gate's anchor-listed check was too strict (an emptied anchor stays listed) and was corrected in the session.
-- Sol SSH key delivery applied and fully verified at 22:48 BST ([sol-ssh-apply](/Users/krisbrown/.local/state/ki/agents/chezmoi/sol-ssh-apply.report.md)).
-- GUIDE-REMOTE blind review back ([guide-remote-review](/Users/krisbrown/.local/state/ki/agents/chezmoi/guide-remote-review.report.md)): update now with qualified wording and a NordVPN caveat on both Macs.
-- Sol's evidence recorded in KI-TOOL-RIG-CORE-047 (tools-rig `2ab9354`, unpushed); `sol-apply.md` gate and R block fixed.
-- terra-nordvpn: a connected NordVPN replaces root's pf ruleset (`main/*`) and bypasses Rig's anchor; Terra protected now (NordVPN not connected since Dec 2024). Attended N/P check offered, not run.
-- GUIDE-REMOTE and TERRA-NORDVPN a) approved 23:13 BST. Running: nordvpn-review (blind review), guide-remote; queued: nordvpn-record (waits for the review, stops if it disagrees).
+- With worker; marked at 23:30 BST on 19 October.
+- Sol's SSH key delivery and firewall are applied and verified; the evidence is in KI-TOOL-RIG-CORE-047 (tools-rig `2ab9354`, unpushed).
+- The NordVPN bypass follow-up is captured as KI-TOOL-RIG-CORE-068 (tools-rig `6c06d8c`, `abb734b`, unpushed); detection only, no attended trial approved.
+- KI-TOOL-RIG-CORE-047 stays awaiting-review: the NordVPN on/off checks and Terra's `rig apply --sudo` are outstanding (Decision 131). State of play is told.
+- parked-three is received: IWORK, STYLE-LINK and DIR-PRUNE are committed in chezmoi (`2470321`, `7ac9047`, `d5ac9c9`, unpushed); STYLE-WHEN a) taken (Decision 133).
+- Running: ue090-plan (plans the open UE-090 gaps), mcporter-restart (Decision 132).
+- With Kris: CLAUDE-APPLY.
 
 ## Next steps
 
-1. Receive each run: copy its queries into `queries.md`, blind-review any medium, low or destructive one, home outcomes.
-2. Apply nothing beyond the two authorised runs without Kris's explicit approval; the LOCALS-DIFF warning stands ([reinstall-check report](/Users/krisbrown/.local/state/ki/agents/ways-of-working/reinstall-check.report.md)).
-3. Receive nordvpn-review, guide-remote and nordvpn-record; then bring back the six parked queries one at a time.
-4. CONSUMER-MIGRATE: mgit v0.18.0 is released (ki.tools-burndown, 21:47 BST); check what migration this work owes.
-5. Then put the parked queries in `queries.md` back one at a time, each with a recommendation and its reason.
+1. Receive ue090-plan and mcporter-restart; blind-review any medium, low or destructive query.
+2. On Kris's CLAUDE-APPLY answer, launch the targeted diff, apply and verification of `~/.claude/settings.json` and `~/.claude/output-styles/ki-coordinator.md`.
+3. CONSUMER-MIGRATE: mgit v0.18.0 is released; check what migration this work owes.
+4. Pushing tools-rig, chezmoi and the ki-principal work folder is Kris's call.
 
 ## Held
 
 - Both-Mac Rig apply - until Kris lifts it.
+- REST-HOLD, narrowed to UE-090 gap 1 together with UE-087.
+- The attended NordVPN trial - until a tested restore path exists (KI-TOOL-RIG-CORE-068).
 - Privacy and rationale audits - until the owner resumes them.
 - WhatsApp refresh and vega rendering - parked until Kris takes them up.
-- Non-blocking Rig-vault and macOS-settings proposals - with their receiving works, until they act.
