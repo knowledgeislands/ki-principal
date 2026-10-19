@@ -1,8 +1,8 @@
 ---
 id: ki.baseline-rollout
-state: handoff-to-supervisor
-since: 2026-10-19T22:27:24Z
-received: 2026-10-19T22:27:24Z
+state: with-worker
+since: 2026-10-19T22:39:56Z
+received: 2026-10-19T22:39:56Z
 beat: null
 mark: 2026-10-19T22:27:24Z
 method_read: 2026-10-19T18:03:40Z
@@ -12,14 +12,14 @@ method_read: 2026-10-19T18:03:40Z
 
 ## Now
 
-- Received `wave1-review` (Codex, high effort, blind): it agrees with WAVE-1 a); confidence lifted to high, marked reviewed. Brief pruned; marked and sent to Kris at 23:28 BST.
-- With Kris: WAVE-1.
-- Nothing running in run `baseline-rollout`.
-- HOOK-GUARD (ki.tools-burndown via State of play, 23:24 BST): never run `ki repo conform` without `--dry-run` on a KI repository until ki.tools-burndown lifts it; every wave brief carries this.
+- Kris answered WAVE-1 at 23:30 BST, "go with recommendations": wave 1 launched read-only at 23:40 BST in run `baseline-rollout`.
+- Running: `wave1-audit` (territory audits, installed `ki` versions, harness status; brief `brief-wave1-audit.md`) and `wave1-sweep` (roadmap conformance sweep; brief `brief-wave1-sweep.md`), both Claude at high effort, read-only.
+- REFRESH-BANNER (ways-of-working, 23:35 BST) applied: banner on every state-moving reply; pushes only as `[unpushed]` housekeeping; clean hold banners.
+- HOOK-GUARD: never run `ki repo conform` without `--dry-run` on a KI repository until ki.tools-burndown lifts it; every wave brief carries this.
 
 ## Next steps
 
-1. On Kris's WAVE-1 answer, record it in `decisions.md`, then launch the read-only first wave through `ki agent` in run `baseline-rollout`: `ki territory audit` for the six territories, a finding-only file sweep (retired theme slugs, issue-ledger form, size declarations), and harness status for KI-HARNESS-GOV-205, KI-HARNESS-GOV-221 and KI-HARNESS-GOV-220 (COORD-1); findings stay in the run state folder.
+1. On each wave 1 report, receive it, copy its queries into `queries.md`, and once both are in give Kris a fresh Summary, sending medium- and low-confidence queries through one blind review first.
 2. METHOD-READ: at the next re-read of `ki-work-package` and `ki-coordination`, set `method_read` to the harness short revision read (not a UTC time).
 3. Stay responsive; Kris's messages steer, and stop or abort only when Kris expressly says so, naming the work.
 

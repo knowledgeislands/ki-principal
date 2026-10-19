@@ -8,3 +8,7 @@
 - hnr-shared: "has no AGENTS.md, .ki.toml or roadmap; its changes route through hnr-principal."
 - Background agents: "run substantive work through `ki agent` in run `baseline-rollout`; stay responsive."
 - Steering: "my messages steer; stop or abort only when I expressly say so, naming the work."
+
+## 2026-10-19 - WAVE-1
+
+- Kris, 23:30 BST: "go with recommendations", taken as WAVE-1 a): launch wave 1 as proposed, read-only, and bring the findings back before any registration or repository write.
