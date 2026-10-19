@@ -397,3 +397,9 @@ hook-compact rewrote the coordinator hook line from 1,362 to 1,267 characters, t
 Kris: "ok - right all `check messages.md` sent. I pushed all"
 
 Read back taken: the seven works with Kris (State of play, Specifications, chezmoi, Mac Studio setup, Baseline rollout, Timelines, Acquire intake) have been told to read their REFRESH lines; ki-principal and acquire are pushed.
+
+## 2026-10-19 20:06 BST - owner direction, MARK-AT-START
+
+Kris: "when we start a new thread up it should take a mark at the initial point of starting the thread so it's always got a mark"
+
+Read back taken: MARK-AT-START - a work opened, bootstrapped or restarted in a new session with no mark strikes one at its start, so `state.md` always carries a mark. Authorises mark-at-start, a harness run that writes it into the `ki-coordination` standard and `ki-work-package`, regenerates, tests, commits by path and pushes fast-forward only when its own commits alone are stacked. Kris's focus for now: Acquire intake, Observatory, Tools burndown and this work.
