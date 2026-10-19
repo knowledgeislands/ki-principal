@@ -390,3 +390,7 @@ gfm-harness pushed five harness commits (`2d28656f` to `af4cb478`): the `ki-auth
 ## 2026-10-19 22:12 BST - mark
 
 Kris: "take a mark". Mark struck at 22:12 BST; 13 entries since the 21:25 mark struck or reduced to pointers. `design/` reviewed: `gfm-migration.md` is live; the rest as triaged.
+
+## 2026-10-19 22:17 BST - received link1-baseline
+
+link1-baseline pushed harness `1b8ab57b`: LINK-1 fails only where it failed before (ambiguous wikilinks); missing, wrong-case and template targets are WARN; a converted island opts into strict resolution with `strict_link_resolution = true` under `[skills.ki-repo-kb]`. Full audits on ki-principal, personal-principal and hnr-principal show no new FAIL (ki-principal findings FAIL 34 to 26). Lesson: a run editing the harness checkout breaks every island's pre-commit audit while its edit is half-done (22:12 to 22:14 BST).
