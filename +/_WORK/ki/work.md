@@ -6,7 +6,7 @@ theme: null
 worker: agent
 supervisor: owner
 state: handoff-to-supervisor
-since: 2026-10-19T10:12:08Z
+since: 2026-10-19T12:31:54Z
 received: 2026-10-19T10:04:55Z
 beat: null
 mark: 2026-10-15T15:14:39Z
@@ -18,7 +18,7 @@ created_at: 2026-10-06T21:07:00Z
 ## Next steps
 
 - **Status:** resumed on sol on 19 October ([decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/decisions.md), RESUME); the sop-restock run acted on the Messages, pruned the work folder and restocked the parked queries.
-- **Restart order:** Rig: chezmoi ([work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.chezmoi/work.md)) and Rig: mac studio setup ([work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.mac-studio-setup/work.md)) have restarted. Knowledge acquisition ([work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.knowledge-acquisition/work.md)) is on hold, more expected; it runs through the Acquire > intake session (KA-VIA-INTAKE, 19 October), and Kris is asking that session whether it has taken the work on. Host network ([Project](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/host-network.md)) has no work file yet; it opens fifth with a decision paper on tailnet service names and a tested restore path as its first step (HOST-NETWORK-THREAD, decisions log, 17 October).
+- **Restart order:** Rig: chezmoi ([work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.chezmoi/work.md)) and Rig: mac studio setup ([work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.mac-studio-setup/work.md)) have restarted. Knowledge acquisition ([work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.knowledge-acquisition/work.md)) is on hold, more expected; it runs through the Acquire > intake session (KA-VIA-INTAKE, 19 October), and that session has picked it up (knowledge acquisition reconcile and send to owner, 19 October). Host network ([Project](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/host-network.md)) has no work file yet; it opens fifth with a decision paper on tailnet service names and a tested restore path as its first step (HOST-NETWORK-THREAD, decisions log, 17 October).
 - **At a session with the terra checkout:** PILOT-SEED, after a fetch ([pilot-seed report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/pilot-seed.report.md); its destination is PILOT-SEED-HOME below). STASH-DROP, approved on 16 October (FIRST-WAVE): delete `refs/rebase-repair/autostash-f091d468` in ki-principal on terra once nothing still needs it; the stash list was already empty at the territory hold.
 - **Dated queue:**
   - 2026-10-21: the trades and Delta follow-up ([Delta evaluation](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/delta-evaluation.md)); HOLD-1 warnings begin 2026-10-22. About the same day, review the logged report-shape tweaks.
@@ -26,6 +26,7 @@ created_at: 2026-10-06T21:07:00Z
   - 2026-11-12: review the holds [KI-TECHNE-OPS-018](/Users/krisbrown/workspaces/knowledge-islands/ki-techne-harness/docs/roadmap/KI-TECHNE-OPS-018-converge-tools-through-rig.md) and [KB-DOTFILES-UE-084](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-084-render-zshenv-on-vega.md).
   - 2026-11-16: the vega and agent-host holds [KI-TOOL-KI-CLI-125](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-125-ki-release-contract.md) and [KI-TOOL-RIG-CORE-048](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-048-signed-release-install-kind.md).
 - **Later:** keep the burn-down moving through the Project work, then offer the ki release and the specification review; the Paperclip rebuild, with its decision cards, once the work model settles ([Paperclip capture and rebuild](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/paperclip-capture-and-rebuild.md)); rebuild vega.
+- **CLI-FIELDS:** `ki` 0.11.4 rejects the supported `priority` and `size` fields on 18 records; KI-TOOL-KI-CLI-155 sent to Tools burndown through its Messages section on 19 October; the records stay as they are.
 - **Follow-ups, no Kris action:** clean up old knowledge-base aliases in `~/workspaces/claude-desktop/` at Kris's next Cowork session; the retired `kit-mcp-gmail` entry remains in the chezmoi `.chezmoiignore` for Rig: chezmoi (legal-principal's settings no longer carry it).
 
 ## Messages
