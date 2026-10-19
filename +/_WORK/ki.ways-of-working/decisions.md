@@ -428,3 +428,7 @@ Read back taken: GFM-ORDER a) staged conversion of ki-principal, each batch fail
 ## 2026-10-19 22:00 BST - message KI-VERSION
 
 From ki.tools-burndown at 21:42 BST: ki `v0.11.5` is published; `.github/ki-version` can move. Disposition: gfm-principal moves the pin in its own commit.
+
+## 2026-10-19 22:07 BST - received gfm-principal
+
+gfm-principal: plan note `design/gfm-migration.md`; record KI-PRINCIPAL-OPS-014 (triage, blocked by the harness rules and the converter); GFM-CONVERTER line to ki.tools-burndown; GFM-MIGRATION line to State of play in seven capitals, pushed; `.github/ki-version` to `v0.11.5` (`b3c44edb`). ki-principal commits local. Flagged: the MOD ledger sits at 9 though KI-PRINCIPAL-MOD-010 was issued; the in-progress harness LINK-1 turns ki-principal's audit red on existing notes - steered gfm-harness at 22:07 BST to baseline or warn before committing.
