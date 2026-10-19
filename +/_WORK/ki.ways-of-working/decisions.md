@@ -230,3 +230,9 @@ Kris:
 > I've updated rig on both
 
 Read back as taken: Terra and Sol run Rig v0.7.0 (RIG-UPGRADE-MACHINES a)); the live-acceptance run for KI-TOOL-RIG-CORE-042 and KI-TOOL-RIG-CORE-047 launches now, read-only on both machines, acceptance with Kris.
+
+## 2026-10-19 08:06 BST - owner request, SIZE-PRIORITY
+
+Kris, through the SIZE-PRIORITY Messages line from Tools burndown and this session's opener: "work should have a size and a priority, even if its horizon isn't now or next"; settle the priority and size vocabularies, make both required on every record from capture whatever its horizon, for roadmap and KB Streams records, in ki-work-roadmap's work-item format and the ki-work crosswalk; record it in a Governance Decision Record reversing the 15 October PRIORITY-FIELD answer; hand tools-ki a follow-up to stop warning on `priority` and warn, then fail, on a missing field after a migration window; "Bring me the vocabulary and migration-window choices as queries before any standard or validator changes".
+
+Read back as taken: no standard, record or validator changes until Kris answers PRIORITY-VOCAB, SIZE-VOCAB, SIZE-BACKFILL and SIZE-WINDOW. The findings in the Messages line stand as context (no standard defines either field; tools-ki `src/core/work/items.ts` warns on `priority` since `6aa676a0`; none of 367 records carries either beyond legal-principal's five being restored; GDR-KI-PRINCIPAL-009 silent).
