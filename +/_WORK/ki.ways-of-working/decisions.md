@@ -335,3 +335,7 @@ RESTART-WALKTHROUGH (IMPORTANT line from the previous session): taken. citation-
 Kris: "`KI > SoP` is done", then, asked whether the SoP session will ask for the others, "go ahead with recommendation".
 
 Read back taken: `ki` restarted. WALKTHROUGH-HOME a) - this work keeps walking Kris through the remaining eight restarts here, one send line at a time, in the RESTART-WALKTHROUGH order; nothing goes to `ki`'s queue.
+
+## 2026-10-19 19:03 BST - owner direction, walk-through pace
+
+Kris: "next, give me 2 at a time if ok". Read back taken: `ki.tools-burndown` restarted; the walk-through now gives two send lines per turn.
