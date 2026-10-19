@@ -345,3 +345,9 @@ Kris: "next, give me 2 at a time if ok". Read back taken: `ki.tools-burndown` re
 Kris, quoting the offer (an IMPORTANT burndown line to Tools burndown, Observatory and chezmoi: prune everything done, one acceptance batch for everything awaiting review, cancel or merge triage records aiming for at least half, each with a one-line reason to confirm): "I agree".
 
 Read back taken: BURNDOWN-PUSH - one IMPORTANT line in each of ki.tools-burndown, ki.observatory and ki.chezmoi's `messages.md`; each worker owns its pass, and no record is cancelled before Kris confirms. Also: acquire intake's resume line given; eight restarts done.
+
+## 2026-10-19 19:36 BST - owner answer, WORK-AREA-CITATIONS-SEND; PUSH
+
+Kris: "I pushed" and "WORK-AREA-CITATIONS-SEND - as recommended".
+
+Read back taken: the ki-principal stack is pushed. WORK-AREA-CITATIONS-SEND a) - no old-citation lines are sent and WORK-AREA-CITATIONS closes: nothing in live package files needs rewriting. The standing push grant offered for tonight was not taken; sessions keep naming stacked commits to Kris.
