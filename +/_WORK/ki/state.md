@@ -1,6 +1,6 @@
 ---
 id: ki
-state: handoff-to-supervisor
+state: with-worker
 since: 2026-10-19T22:56:10Z
 received: 2026-10-19T17:58:50Z
 beat: null
@@ -12,9 +12,9 @@ method_read: f4d6c521
 
 ## Now
 
-- Handoff to supervisor since 23:56 BST on 19 October, on sol. Kris's ANSWERS are delivered except TECHNE-FOCUS, which waits on TECHNE-WORDING.
-- Nothing running from State of play. The five lanes run TRIAGE-ALL in their own works, ki.tools-burndown first.
-- Open with Kris: EMAIL-OWNER, TECHNE-WORDING.
+- With worker since 00:07 BST on 20 October, on sol, acting on Kris's 20 October answers.
+- Running: `gov035-deliver` (TECHNE-WORDING a)) and `roadmap-census-2` (hold re-validation and triage coverage). The lanes run TRIAGE-ALL in their own works.
+- The 12 email-routing records now belong to Humans not Robots (hnr.email-routing), held until Kris resumes HNR work.
 - KI-TOOL-RIG-CORE-047 stays Awaiting review with ki.chezmoi until its NordVPN checks and Terra's `rig apply --sudo` run, or Kris narrows it.
 - No roadmap cap (ROADMAP-CAP, 19 October): the focus is getting through the burn-down.
 
