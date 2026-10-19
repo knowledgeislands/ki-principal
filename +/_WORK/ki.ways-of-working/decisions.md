@@ -247,7 +247,7 @@ Kris: "KI > SoP is back and coordinating the Knowledge Islands territory, resume
 
 ## 2026-10-19 12:04 BST - owner answers, 11:13 Summary
 
-Kris: "do everything recommended", then "mark". Taken as a) on all seven: SIZE-MEANING a) size as relative end-to-end effort with delivery-shape examples, provisional at capture and revisited before Ready, Ready with xl fails; SELECTION-ORDER a) adoption, holds and dependencies, then horizon, then priority, then size smallest first, priority never crossing horizons, with Codex's meanings for high, medium and low; VALIDATOR-PARITY a) tools-burndown captures a shared rule table record after KI-TOOL-KI-CLI-155, the harness the source; FIELDS-MIGRATE a) per-repository mechanical migration runs each approved by Kris, kind and size proposed and owner-confirmed, closed records exempt, inventory named, window closing on a complete no-gaps scan or a date backstop, whichever first; FIELDS-CORE a) theme comes from the Project, naming both fails after the window; FIELDS-KEPT a) keep decide, resolution_target and task_links, revisit task_links at Wave F; PUSH-STACKED a) do not push over others' commits. Authorises: fields-follow-up (harness and ki-principal), a Messages line to tools-burndown.
+Pointer: SIZE-MEANING, SELECTION-ORDER, FIELDS-MIGRATE, FIELDS-CORE and FIELDS-KEPT carried by [GDR-KI-PRINCIPAL-016](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-016-priority-and-size-on-work-records.md) and the harness roadmap standard; VALIDATOR-PARITY with ki.tools-burndown; PUSH-STACKED a) still governs: do not push over others' commits.
 
 ## 2026-10-19 12:04 BST - mark
 
@@ -267,3 +267,15 @@ Read back taken:
 - WOW-REFRESH - a) for now: while the method is being defined, Ways of working writes refresh lines straight into live work files; afterwards refreshes come from State of play.
 - WORK-PACKAGE - design the work folder as a package, as a skill is: `work.md` defines the work (name, goals, a routing description for progressive reveal), with state, next steps, queries, decisions and parked items in their own files; settle the name; stocktake every current work folder. Authorises: work-package-design (read-only stocktake, design note in this work's `design/`), then blind reviews on the strongest Claude model and Codex, then a merged report with queries.
 - FIELDS-MIGRATE-ORDER - not yet answered; review sided with a smaller pilot (apps-markhowarth.com) before personal-principal.
+
+## 2026-10-19 13:37 BST - owner answers, work package; mark
+
+Kris: "None of the other threads are active at the minute, so I think we [change] the work package to what we've now described with the different files in it. work.md, queries.md, messages.md and decisions.md. Also, I want `ki-work-package` please, where it lives is a folder. Take that into account and then come back with revised queries." Then: "mark now too".
+
+Read back taken:
+
+- PACKAGE-NAME - the idea and its skill are the work package, `ki-work-package` (renamed from `ki-work-folder`); the place it lives is still called the work folder, `+/_WORK/<id>/`.
+- FILES - a work package has four files: `work.md`, `queries.md`, `messages.md` and `decisions.md`. No `state.md`: state, next steps and held items stay in `work.md` (taken; confirmed in the revised queries).
+- MIGRATE-NOW - no other thread is active, so the live folders can move in one pass rather than each at its own mark; the exact steps come back as revised queries before any migration run.
+- Authorises: work-package-revise (design note and revised queries, no migration), then a blind review of the changed medium and low queries.
+- MARK struck at 13:37 BST (2026-10-19T12:37:57Z).

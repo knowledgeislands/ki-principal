@@ -6,11 +6,11 @@ project: ways-of-working
 theme: model
 worker: agent
 supervisor: owner
-state: handoff-to-supervisor
-since: 2026-10-19T11:42:52Z
+state: with-worker
+since: 2026-10-19T12:37:57Z
 received: 2026-10-18T19:20:01Z
 beat: null
-mark: 2026-10-19T11:04:18Z
+mark: 2026-10-19T12:37:57Z
 created_at: 2026-10-09T20:58:00Z
 ---
 
@@ -18,9 +18,9 @@ created_at: 2026-10-09T20:58:00Z
 
 ## Next steps
 
-Sent to Kris at 12:17 BST on 19 October with three queries (FIELDS-MIGRATE-ORDER, WORK-ROUTING, WOW-REFRESH), each blind-reviewed by query-review-2 (Codex). Mark 12:04 BST. Run reports sit in `~/.local/state/ki/agents/ways-of-working/`. SoP is back (11:05 BST); write nothing to `+/_WORK/ki/` this morning, and anything for SoP goes to Kris as a query.
+Marked at 13:37 BST on 19 October. Run reports sit in `~/.local/state/ki/agents/ways-of-working/`. SoP is back (11:05 BST); write nothing to `+/_WORK/ki/` this morning, and anything for SoP goes to Kris as a query.
 
-1. Sent to Kris 12:43 BST: 15 queries from work-package-merge (design note `design/work-package.md`, amended in 48a56fbf; blind reviews by Codex and Fable): PACKAGE-NAME, STATE-FILE, FILES-AT-CREATION, QUERIES-FILE, PARKED-HOME, MESSAGES-FILE, DESCRIPTION-SHAPE, ROUTE-RECEIPT, REFRESH-TARGET, INBOX-CHECK, PICKUP-READS, STATE-HISTORY, STEWARD-HOME, MIGRATE-PATH, FIELDS-MIGRATE-ORDER. On answers: decisions into the note, then readers-first harness and `ki` work, then the pilot.
+1. Running: work-package-revise (design note and revised queries for `ki-work-package` with four files, migrating all live folders in one pass while no thread is active), then a blind review of changed medium and low queries. No migration until Kris answers. FIELDS-MIGRATE-ORDER still with Kris.
 2. Done: fields-follow-up (harness standard and checkers, GDR-KI-PRINCIPAL-016 amended, inventory of 341 records in 51 repositories).
 3. With tools-burndown (Messages line sent 12:04): VALIDATOR-PARITY record after KI-TOOL-KI-CLI-155, plus the `ki work` sort, gap listing and checks to match; KI-TOOL-KI-CLI-155 and KI-TOOL-KI-CLI-156 at triage.
 4. With ki.chezmoi (Messages line RIG-LIVE): KB-DOTFILES-UE-091 without ChatGPT and the firewall declaration; then Kris's attended Rig applies; then acceptance of KI-TOOL-RIG-CORE-042 and -047.
