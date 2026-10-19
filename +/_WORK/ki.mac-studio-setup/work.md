@@ -6,8 +6,8 @@ project: mac-studio-setup
 theme: rig
 worker: agent
 supervisor: owner
-state: with-worker
-since: 2026-10-19T10:10:00Z
+state: handoff-to-supervisor
+since: 2026-10-19T10:20:00Z
 received: 2026-10-19T10:04:00Z
 beat: null
 mark: 2026-10-18T01:20:00Z
@@ -18,8 +18,9 @@ created_at: 2026-10-08T08:45:00Z
 
 ## Next steps
 
-- **Status:** with worker since 2026-10-19 11:10 BST, resumed from the 2026-10-18 hold. Running: footer-record (tools-ki), rig-refresh (tools-rig read-only, rig-lane report links).
-- **Next:** ADOBE-RESTART reminder given at resume. Restate RIG-ORDER from rig-refresh (tools-rig CORE-052, 054, 055, 058 and 060 are gone from the roadmap since the hold; CORE-042 and CORE-047 await review). Then the remaining parked items one at a time, each with a recommendation and its reason.
+- **Status:** handoff to supervisor since 2026-10-19 11:20 BST. Running: nothing.
+- **With Kris, one at a time:** ADOBE-RESTART (restart sol, then the dry-run and catalogue checks), then RIG-ORDER (refreshed 2026-10-19 in rig-lane.report.md; recommended: plan and deliver KI-TOOL-RIG-CORE-063 in the background, plan KI-TOOL-RIG-CORE-062 and KI-TOOL-RIG-CLI-027, and Kris takes the Wave 0 acceptances, KI-TOOL-RIG-CORE-042 and KI-TOOL-RIG-CORE-047, at the next sol session after KB-DOTFILES-UE-091 lands).
+- **Then:** the remaining parked items, each with a recommendation and its reason.
 
 ## Messages
 
@@ -35,7 +36,6 @@ Parked at the 2026-10-18 hold (Kris; put back one at a time, with a recommendati
 - **At sol's screen:** key-only SSH (ssh-keyonly.report.md), KB-DOTFILES-UE-086 steps 0-12 (ue086-walk.report.md), the UTM swap (UTM-SOL), the Observatory restart (OBS-RESTART), and the KI-TOOL-RIG-CORE-047 live firewall test.
 - **At terra's screen:** pull tools-rig and upgrade Rig past 0.6.3; pull chezmoi and run `chezmoi apply ~/.config/rig && rig doctor`; HOSTKEY-APPLY steps 6-9 (hostkey-check.report.md); then key-only SSH.
 - **Anywhere:** the Headroom favicon request.
-- **`FOOTER-RECORD`** - approved; the tools-ki rebase has cleared and footer-record is running (2026-10-19). Then an agent commits only the KI-TOOL-KI-CLI-134 note locally (launcher-footer.report.md).
 
 Parked (Kris, 2026-10-14), each described in the run folder reports `old-trees`, `sol-build` and `records`: `FW-LIVE` (terra rule comparison; reboot check at the next natural restart), `SOL-FW-TEST`, `UE-089-SHAPE`, `OLD-ORPHANS` (four repositories GitHub no longer serves), `MGIT-PRESEED` (an unfinished `tools-mgit` change saved as a patch in terra's run folder), `SOL-SOURCES`, `SOL-HNR-HARNESS`, `SOL-WHATSAPP`, `SOL-KI-CONFIG-DRIFT`.
 

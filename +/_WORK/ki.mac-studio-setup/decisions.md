@@ -629,3 +629,11 @@
 ## Decision 156 (2026-10-18T01:20:26Z)
 
 - Kris 2026-10-18 02:19 BST: 'We're going to do some quite big updates for "ways of working". So I think it's probably a good idea for you to wrap up any outstanding points you've got and make sure that you've persisted everything into the checkpoints and the threads.' - drain to a hold; mark 2026-10-18T01:20Z; open queries parked in the checkpoint.
+
+## Decision 157 (2026-10-19T10:04:52Z)
+
+- Kris 2026-10-19 11:04 BST pasted the resume line: hold lifted; re-bootstrap under the work model; run rehomed to +/_WORK/ki.mac-studio-setup; put parked queries back one at a time, ADOBE-RESTART reminder first.
+
+## Decision 158 (2026-10-19T10:09:16Z)
+
+- 2026-10-19 11:20 BST: FOOTER-RECORD overtaken - KI-TOOL-KI-CLI-134 already committed and pushed in tools-ki and has moved on (named --allow grants, 18 October harness handoff); nothing committed; launcher-footer and footer-record reports pruned.
