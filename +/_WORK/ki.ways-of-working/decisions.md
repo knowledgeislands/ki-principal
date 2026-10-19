@@ -307,3 +307,9 @@ Read back taken:
 Kris: "so you can sort out any migration of territories outside of knowledge islands as they are 100% not in use"
 
 Read back taken: TERRITORIES-MIGRATE - this work may migrate the other territories' repositories directly (Equal Remedy, Humans not Robots, Legal, Personal, TechMedix, Valle Armonia, and any other outside Knowledge Islands), with no handoff, since none is in use: the work-record field migration in all their remaining repositories; the `ki-work-package` rename in their `.ki.toml` once the harness rename lands; and moving their old checkpoint or thread shapes, and `kb.regular.acquire-intake`, into five-file work packages. ki.chezmoi's dotfiles repository stays with ki.chezmoi. Authorises: fields-rest (after fields-personal-principal) and territories-package (after work-package-standard).
+
+## 2026-10-19 14:09 BST - owner note, AGENTSPECS
+
+Kris: "I don't want to change anything we are doing at first though, just see if it helps or conflicts etc"
+
+Read back taken: AGENTSPECS - agentspecs-scan's findings are information only: nothing in the work-package standard, the rename or the migrations changes because of it; anything worth taking up comes back later as a separate query.
