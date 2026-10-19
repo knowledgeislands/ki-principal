@@ -161,3 +161,4 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
   - Queries: CLI006-PLAN a) is high and taken under OVERNIGHT, so `cli006-replan` is dispatched. CHAIN-GATE and CLI125-HOLD are medium, so they go to `query-review-6` (Codex, high).
   - Note: the run amended its own unpushed commits to correct their `updated_at` stamps.
 - 00:41 BST: HANDOFF-GOV-222 from ki.timelines routed to ki.ways-of-working, which holds the harness roadmap. Line removed.
+- 00:44 BST: `query-review-6` received, blind, and agrees with a) on both. CHAIN-GATE is raised to high (reviewed: the Rig install kind is the explicit, already-adopted prerequisite, and releasing it adds no record). CLI125-HOLD is raised to high (reviewed: there is no ARM consumer). Both are taken under OVERNIGHT, and `hold-apply` is dispatched.
