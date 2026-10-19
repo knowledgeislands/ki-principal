@@ -375,3 +375,9 @@ Read back taken: REFRESH-RESUMMARY - the REFRESH line each running work receives
 ## 2026-10-19 19:20 BST - received query-review; REFRESH-RESUMMARY applied
 
 query-review put QUERY-REVIEW into the `ki-coordination` standard and output style (harness `b04d0e72`, pushed; new rubric item COORD-13) and REFRESH lines into all nine queues; the hook line is unchanged for length (query HOOK-REVIEW-CLAUSE, medium, sent to blind review as hook-clause-review on Codex under the new rule). Each REFRESH line now also carries REFRESH-RESUMMARY.
+
+## 2026-10-19 19:22 BST - received hook-clause-review; WORK-PACKAGE-READER
+
+hook-clause-review (Codex, high effort, read-only, no commits) disagreed with query-review on HOOK-REVIEW-CLAUSE: it recommends raising the hook test's ceiling to 1,500 and adding the clause to the fourth hard rule (high); the hook is 1,362 characters and the clause adds about 102. Both views go to Kris in HOOK-REVIEW-CLAUSE, recommended course the reviewer's at medium.
+
+Message WORK-PACKAGE-READER from ki.observatory, disposition: received; the Observatory reads both package shapes (KI-OBSERVA-VIS-025, awaiting review), closing next step 4. Its note that installed `ki` 0.11.4 rejects migrated folders is already ki.tools-burndown's (wpreader running); nothing routed. Line removed.
