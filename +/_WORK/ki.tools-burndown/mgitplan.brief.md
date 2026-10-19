@@ -1,0 +1,5 @@
+# mgitplan - promote KI-TOOL-MGIT-CLI-030 to Next
+
+MGIT-030-NEXT a). In tools-mgit, promote [KI-TOOL-MGIT-CLI-030](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-030-sync-closing-summary.md) to Next as a draft through `ki-next`, replacing its promotion condition, with honest draft planning sections and the gaps named. Then prepare the nine open output-design choices for Kris: return each as a Query with a stable tag, lettered options and a recommended option with confidence, so planning under `ki-plan` can settle them. Do not mark it Ready. MGIT-026-SIZE a) is noted for when KI-TOOL-MGIT-CLI-026 is planned; leave that record alone.
+
+Authority: Kris, 19 October 23:42 BST, quoted in /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/decisions.md. Commit by explicit path; never --no-verify or force-push; no push. Report under Done, In Progress and Queries in British English and ASCII hyphens; put anything needing Kris as a Query with a recommended option and confidence.

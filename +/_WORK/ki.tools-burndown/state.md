@@ -11,6 +11,7 @@ method_read: 9c17df3c
 
 ## Now
 
+- Kris took KNIP-HUSKY a), MGIT-030-NEXT a) and MGIT-026-SIZE a): knipfix held on granola (last tools-ki writer in the chain), mgitplan running in tools-mgit.
 - release finished 23:41 BST short of publishing: KI-TOOL-KI-CLI-163 done (aa37f512), -157 blocker fixed (e5224f33), -162 already accepted and pruned by another session; stopped on the release guide's harness pin bump. HARNESS-PIN-FETCH taken a) under the release grant; release2 held on tritools. estmig-org steered to the source-linked ki; granola told to commit after release2.
 - messages 23:37 BST: GRANOLA-TRUST (IMPORTANT, Personal > Acquire intake) taken: granola run held on tritools captures, plans and delivers the tools-ki change, no release, ledger file untouched. REFRESH-BANNER (ki.ways-of-working) applied: ESTATE-PUSH withdrawn as a query under PUSH-NOT-WITH-YOU; migration commits stay local and show as [unpushed] housekeeping. KNIP-HUSKY at blind review qreview5.
 - wave1 finished 23:31 BST: tools-ki d88d494b, ki-principal 2646d94b, va-principal 7f61803 converted and proven, local (ki-principal pushed under the standing grant). Pilot passed on the source build. Estate runs told to add Knip ignores by hand, restore the unrelated .rumdl.toml rewrite and test refusal with only git on PATH. KNIP-HUSKY to blind review. Outstanding: the ki-authoring .rumdl.toml drift (conform drops MD005 and MD075 disables); va-principal commit-msg waits on KI-TOOL-KI-CLI-161; tools-ki ITEM-5 on KI-TOOL-KI-CLI-157 after another session pruned -155.
