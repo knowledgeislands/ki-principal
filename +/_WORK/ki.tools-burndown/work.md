@@ -6,8 +6,8 @@ project: tools-burndown
 theme: foundations
 worker: agent
 supervisor: owner
-state: with-worker
-since: 2026-10-19T10:01:59Z
+state: handoff-to-supervisor
+since: 2026-10-19T10:05:15Z
 received: 2026-10-18T19:21:29Z
 beat: null
 created_at: 2026-10-16T00:05:00Z
@@ -17,7 +17,7 @@ created_at: 2026-10-16T00:05:00Z
 
 ## Next steps
 
-- Mark: 2026-10-19T10:01:59Z. Runs accept153 and sitereply out (HIGH-CONFIDENCE). Open with Kris: BIOME-CI-STANDARD, MGIT-LEARN-UNATTENDED, SITE-CONFIG-SHAPE, SITE-CONFIG-DATA, MANAGERS-AS-TOOLS. Run reports live at ~/.local/state/ki/agents/tools-burndown/<name>.report.md.
+- Mark: 2026-10-19T10:01:59Z. Sent to Kris at 2026-10-19T10:05:15Z; KI-TOOL-KI-CLI-153 accepted (a9571e5b), site reply drafted in design/rig-site-reply.md for Kris to pass on. Open with Kris: BIOME-CI-STANDARD, MGIT-LEARN-UNATTENDED, SITE-CONFIG-SHAPE, SITE-CONFIG-DATA, MANAGERS-AS-TOOLS. Run reports live at ~/.local/state/ki/agents/tools-burndown/<name>.report.md.
 - Since the last mark: 17 Done tools-ki records and KI-TOOL-MGIT-CLI-020 to -022 pruned; CLI departures captured as KI-TOOL-KI-CLI-151, KI-TOOL-RIG-CLI-027 and on KI-TOOL-MGIT-CLI-023; the estate roadmap diagnostics fixed; KB-MIDNIGHT-RIG-SITE-001 reshaped; legal-principal priorities restored (bf5d2529); everything pushed except personal-principal a39a490c (PP-PUSH, Kris).
 - (1) PP-PUSH pushed on 19 October; Kris drops the pointer at acceptance of KB-MIDNIGHT-RIG-SITE-001 (RIG-SITE-001-POINTER).
 - (2) NEXT-TOOLS-KI a) done: KI-QUIET is KI-TOOL-KI-CLI-146, reviewed and held under QUIET-146 until about 24 October with KI-HARNESS-GOV-204 (QUIET-146-DATE); events.seen cursor moved from 21 to 115; KI-TOOL-KI-CLI-131 and -136 were already accepted and pruned.
