@@ -69,3 +69,11 @@ home: +/_WORK/ki.chezmoi/work.md class: operational
 home: +/_WORK/ki.chezmoi/work.md class: operational
 
 - PAPERCLIP-PLIST, from apply-terra-2, a) high, under Kris's standing "It can do anything that's high confidence": leave Terra's disabled `uk.me.kris.rig.paperclip.plist` in place until the Paperclip rebuild is designed.
+
+## Decision 107 (2026-10-19T20:04:44Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- RIG-FIREWALL-RUN are you walking me though it?
+
+Read back as option a): Kris runs the Terra rehearsal from Sol now, walked through step by step; a follow-up run records the evidence and commits the `core` declaration, no push or apply.
