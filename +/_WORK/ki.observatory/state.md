@@ -2,7 +2,7 @@
 id: ki.observatory
 state: with-worker
 since: 2026-10-19T19:42:00Z
-received: 2026-10-19T19:13:00Z
+received: 2026-10-19T19:57:00Z
 beat: null
 mark: 2026-10-19T18:02:00Z
 method_read: 2026-10-19T18:02:00Z
@@ -13,7 +13,8 @@ method_read: 2026-10-19T18:02:00Z
 ## Now
 
 - With worker since 20:42 BST on 19 October after GET-MOVING; NARROW-DECLARE answered a) at 20:40 BST, needing no change; marked at 19:02 BST.
-- Running: obs-step3-build (apps-observatory.local: up to three authorised step 3 records, Act board parts first).
+- Running: obs-step3-review, blind review of five step 3 queries (VIS-030-CHART-DELIVERY, VIS-030-POSITIONS, VIS-030-ESTATE, BRG-005-COUNTS, VIS-031-TABLES).
+- Received obs-step3-build at 20:57 BST: KI-OBSERVA-VIS-030 hex renderer vendored with drift check and `capital` glyph (a4ea2ad, record in progress); KI-OBSERVA-BCN-008 Beacon signal anatomy built, awaiting review (23f2ba5); service restarted, 15 tabs answer; stopped early on five queries; both commits local.
 - Received obs-declare-review at 20:13 BST: the review agrees with keeping the declaration, so NARROW-DECLARE goes to Kris at high confidence.
 - Received obs-answers-2 at 20:12 BST: KI-OBSERVA-APP-044, KI-OBSERVA-BCN-008, KI-OBSERVA-VIS-030 and KI-OBSERVA-VIS-031 reworded to large screens first, not only, with the narrow rule and test kept; KI-OBSERVA-VIS-042 carries OVERLAY-SYNC, depending on KI-HARNESS-GOV-224; commit 9f56976, local.
 - Received obs-viewer-sync at 20:11 BST: KI-HARNESS-GOV-224 (diagram viewer receipts, triage) captured and KI-HARNESS-GOV-223 set to `founding`, `growing`, `settled`, `thriving`; three local commits in ki-agentic-harness, unpushed.
@@ -25,7 +26,7 @@ method_read: 2026-10-19T18:02:00Z
 
 ## Next steps
 
-1. Receive obs-step3-build; if step 3 has more authorised records, chain the next build run.
+1. When obs-step3-review reports, copy the five queries into `queries.md` and send to Kris; KI-OBSERVA-BCN-008 awaits Kris's acceptance.
 2. Four triage records await a later merge decision: KI-OBSERVA-VIS-029, KI-OBSERVA-VIS-032, KI-OBSERVA-VIS-033, KI-OBSERVA-VIS-034.
 3. Four done records (KI-OBSERVA-APP-042, KI-OBSERVA-VIS-023, KI-OBSERVA-VIS-024, KI-OBSERVA-BRG-002) stay until their peer links and BRG-002's frozen figure are re-pointed.
 4. `ki work status` (installed `ki` 0.11.4) is blind to five-file packages until ki.tools-burndown changes the tools-ki reader.
