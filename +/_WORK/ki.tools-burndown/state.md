@@ -11,6 +11,7 @@ method_read: 9c17df3c
 
 ## Now
 
+- trimga finished 23:24 BST: tools-mgit's 3 triage records adopted (KI-TOOL-MGIT-CLI-027 Next, -029 Soon, -030 Soon high), commit 977bec6 local; tools-git-almanac had none. MGIT-030-NEXT and ESTATE-PUSH at blind review qreview4 (ESTATE-PUSH reached Kris before review, a lapse). messages.md: ACCEPT-AWAITING from ki (23:19) is covered by the release run, which accepts KI-TOOL-KI-CLI-163; line removed.
 - Kris ordered the whole estate off Husky now (HOOK-GUARD b), waves 2 to 5 collapsed): estmig-org held on release, estmig-ki held on tritools and ends by moving HOOK-3 to HOOK-5 to FAIL. Commits local; push needs Kris. State of play told.
 - Kris took the recommendations, with HOOK-RELEASE b) release now, and asked for the tool triage at once: release held on wave1, tritools (HOOK-CAPTURE records, design note, tools-ki triage) held on release, trimga (tools-mgit and tools-git-almanac triage) running; wave1 given VA-HOOKS a). HOOK-GUARD open.
 - hcreview finished 23:19 BST: agreed a) on VA-HOOKS, HOOK-RELEASE and HOOK-CAPTURE (all lifted to high; HOOK-CAPTURE ownership corrected) and found the source-linked `ki` already exposes the unreleased conversion; HOOK-GUARD raised, IMPORTANT warning sent to State of play at 23:20 BST.

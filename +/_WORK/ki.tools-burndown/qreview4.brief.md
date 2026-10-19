@@ -1,0 +1,3 @@
+# qreview4 - blind review of two queries
+
+Read-only. Read /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/design/qreview4.options.md and whatever you need in tools-mgit, the ki-agentic-harness skills ki-git, ki-delegation and ki-work-roadmap, and /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/design/hooks-standard.md. Do not read any `*.report.md`, `queries.md`, `decisions.md` or `state.md`. For each query choose the option you recommend, give confidence high, medium or low with a one-line reason, and note any missed option. Report under Done, In Progress and Queries, British English, ASCII hyphens. No edits, commits or pushes.
