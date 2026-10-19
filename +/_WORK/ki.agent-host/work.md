@@ -5,7 +5,7 @@ title: 'KI > Techne > Agent host'
 project: agent-host
 theme: techne
 description: >-
-  Builds the Techne agent host within the Techne Programme Hold's standing exemption, as harness-defined recipes and person-owned bindings. Takes host recipes, bindings and the prototype review. Not taking new units while on hold. Not for Rig workstation setup (ki.mac-studio-setup) or the `ki` CLI (ki.tools-burndown).
+  Builds and runs the Techne agent host vega within the Techne Programme Focus, as harness-defined recipes and person-owned bindings. Takes host recipes, bindings, the agent-host records in ki-techne-harness and tools-techne, and their Rig, ki and chezmoi dependencies. Not for Rig workstation setup or the Mac Studio (ki.mac-studio-setup) or the `ki` CLI (ki.tools-burndown).
 worker: agent
 supervisor: owner
 created_at: 2026-10-07T09:05:00Z
