@@ -138,6 +138,26 @@ since 2026-10-20 · from `raise-va` at 00:15 BST · awaiting blind review
 
 **Options:** a) (recommended, confidence medium - it follows the grouping PROJECTS already proposes, but it relabels 18 records across three repositories and depends on your PROJECTS answer) Create `community-presence` and `company`. Relabel GOV-003 and KNW-001 to `company`, and the website and Mark Howarth labels to `community-presence`, through handoff items in those repositories. b) Create a page for each of the nine labels in use, leaving every record as it is.
 
+### SIZEKIND-CONFIRM-1 - Confirm the size and kind proposals for humans-not-robots, legal and personal
+
+since 2026-10-20 · from `sizekind-1` at 00:15 BST · tables in `report-sizekind-1.md` · awaiting blind review
+
+**Context:** The tables above propose a `size` for 129 open records and a `kind` for 21 adopted records in 12 repositories, plus the mechanical `initiative` to `theme` fix on 4 dotfiles records. Rows marked "Uncertain" carry the proposal's own doubt. The standard says size and kind need judgement: a run proposes them, the owner confirms them, and the migration runs one repository at a time. Sizes set now stay provisional and are revisited before each record becomes Ready.
+
+**Query:** Should the write passes apply these tables as proposed, one repository at a time?
+
+**Options:** a) (recommended, confidence medium - most rows follow plainly from the record's plan, but 14 rows carry a stated uncertainty) Confirm each repository's table as proposed, naming any row to change, then run one write pass per repository that also makes the dotfiles `theme` fix. b) Review the flagged "Uncertain" rows one by one before any write pass, and confirm the rest wholesale.
+
+### SPLIT-5GE-004 - Split the Phase 2 and MS3 completion record
+
+since 2026-10-20 · from `sizekind-1` at 00:15 BST · tables in `report-sizekind-1.md` · awaiting blind review
+
+**Context:** [HNR-PRINCIPAL-5GE-004](/Users/krisbrown/workspaces/humans-not-robots/hnr-principal/Streams/Roadmap/HNR-PRINCIPAL-5GE-004-phase-2-ms3-completion.md) is a triage record covering telemetry integrations, operational ownership, registry entries, dashboards, outputs and the wider MS3 obligations. It reads as several records, so it is proposed as `xl`. An `xl` record is allowed in triage but must be split before it becomes Ready.
+
+**Query:** Should HNR-PRINCIPAL-5GE-004 be recorded as `xl` and left for hnr-principal to split when it adopts the record?
+
+**Options:** a) (recommended, confidence medium - the scope plainly spans several deliveries, but the split is hnr-principal's call) Record `size: xl` now and leave the split to hnr-principal's triage review. b) Record `size: l` and treat it as one chained delivery.
+
 ## Parked
 
 None.

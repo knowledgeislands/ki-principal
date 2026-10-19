@@ -21,7 +21,8 @@ method_read: 2026-10-19T18:03:40Z
 - Standing answer applied to new high-confidence queries: HNR-QUEUE routed to hnr-principal's `hnr` work package; SITE003-CONCERN to run `va-site003-concern`.
 - `raise-capitals` received 00:14 BST: theme-registry records captured and committed in legal-principal, personal-principal and er-principal, unpushed.
 - `raise-va` received 00:15 BST: VA-PRINCIPAL-GOV-007 and VA-PRINCIPAL-GOV-008 captured and committed in va-principal, unpushed.
-- Running in run `baseline-rollout`: `sizekind-1`, `va-site003-concern`, `sizekind-2`; queued: none; `sizekind-2` (after raise-va). Records are captured as triage and committed locally, never pushed.
+- `sizekind-1` received 00:16 BST: proposals for 129 sizes and 21 kinds across 12 repositories, tables kept in `report-sizekind-1.md`; SIZEKIND-CONFIRM-1 and SPLIT-5GE-004 copied.
+- Running in run `baseline-rollout`: `va-site003-concern`, `sizekind-2`; then one batched blind review of every medium query. `sizekind-2` (after raise-va). Records are captured as triage and committed locally, never pushed.
 - HOOKS-MIGRATION: the estate moves from Husky to `.githooks` tonight; briefs keep off `package.json`, `bun.lock`, `.husky/`, `.githooks/` and non-dry-run conform.
 
 ## Next steps
