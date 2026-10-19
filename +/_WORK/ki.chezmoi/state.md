@@ -12,8 +12,9 @@ method_read: 979e075a
 
 ## Now
 
-- With worker since 22:47 BST: sol-ssh-apply running, and SOL-APPLY being walked through with Kris at Sol's console, starting at S1 once the SSH run is done.
-- Sol's chezmoi is fast-forwarded to `655acd1`, and its age identity has been restored from 1Password. `chezmoi init` added only the encryption settings. Nothing is applied yet.
+- With worker since 22:47 BST: SOL-APPLY being walked through with Kris at Sol's console, starting at S1.
+- Sol SSH key delivery applied and fully verified at 22:48 BST ([sol-ssh-apply](/Users/krisbrown/.local/state/ki/agents/chezmoi/sol-ssh-apply.report.md)): key identical, mode 600, no targeted drift, no OneDrive fallback, `ssh -T` authenticates as `krisb` with no prompt.
+- Sol's chezmoi is at `655acd1`, with its age identity restored from 1Password.
 - Terra's firewall rehearsal passed. The declaration (`dd2a062`) is on `origin`. The tools-rig evidence commits `1fc21ff` and `f7ef0fd` are not pushed.
 
 ## Next steps
