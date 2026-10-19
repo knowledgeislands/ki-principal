@@ -358,3 +358,7 @@ Read back taken: the ki-principal stack is pushed. DESIGN-TRIAGE (triage and bli
 Kris: "Are you confident though that that's going to be the right approach, worth an extra check??"
 
 Read back taken: DESIGN-AT-MARK (resolve graduated design notes at each mark rather than only at Project close) is medium confidence, its rationale for the present exemption inferred rather than read; it goes to one blind review on Codex (design-review) before it returns to Kris. The `design/` triage waits for the answer.
+
+## 2026-10-19 20:20 BST - received design-review
+
+design-review (Codex, read-only) agreed with DESIGN-AT-MARK a) at high: no rationale for a Project-long exemption exists; the adopted rule (`8f23d27c`), `ki-work-package`'s tidy rule and GDR-KI-PRINCIPAL-009 delete design on graduation, close being a backstop. Its guards are copied into the query. Rough count of this `design/`: 10 graduated, 27 obsolete, 7 live; triage candidates, not a deletion manifest. Confidence lifted to high, reviewed.

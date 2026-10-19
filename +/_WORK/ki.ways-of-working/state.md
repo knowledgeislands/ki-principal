@@ -1,7 +1,7 @@
 ---
 id: ki.ways-of-working
-state: with-worker
-since: 2026-10-19T19:17:00Z
+state: handoff-to-supervisor
+since: 2026-10-19T19:20:00Z
 received: 2026-10-19T16:57:00Z
 beat: null
 mark: 2026-10-19T19:10:00Z
@@ -12,7 +12,7 @@ method_read: eff6163b
 
 ## Now
 
-- Received from Kris at 20:17 BST: DESIGN-AT-MARK to blind review; design-review running (Codex, read-only).
+- Sent to Kris at 20:20 BST: DESIGN-AT-MARK, reviewed high (design-review agreed).
 - Run reports sit in `~/.local/state/ki/agents/ways-of-working/`.
 
 ## Next steps
