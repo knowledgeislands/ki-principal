@@ -15,7 +15,7 @@ method_read: 979e075a
 - With worker; marked at 22:14 BST on 19 October.
 - Both Macs carried to `8b9ee66`: five Rig targets and the Dock applied, Paperclip held; only the accepted TOML drift remains.
 - Terra firewall rehearsal passed 22:03–22:06 BST; evidence in KI-TOOL-RIG-CORE-047 (tools-rig `1fc21ff`) and `[firewall.screen-sharing-tailnet]` declared in `core` (chezmoi `dd2a062`), both unpushed, nothing applied ([firewall-record](/Users/krisbrown/.local/state/ki/agents/chezmoi/firewall-record.report.md)).
-- Running: sol-preflight, read-only, then the attended Sol apply with Kris.
+- sol-preflight stopped at step 1: Sol's pf files are stock, but NordVPN's privileged helper can load its own block-by-default root ruleset, which only root can see. With Kris: SOL-PF-ROOT, a read-only root check on Sol ([sol-preflight](/Users/krisbrown/.local/state/ki/agents/chezmoi/sol-preflight.report.md)).
 - ki-principal commits are blocked from about 22:10 BST by the pre-commit audit error "rubric item LINK-1 audit outcome 0 uses an undeclared level", likely from ki-agentic-harness `624b39f1`; not this work's to fix.
 
 ## Next steps
