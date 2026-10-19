@@ -70,11 +70,6 @@ Taken as: start the move into work folders now on main rather than after the rel
 
 - RIG-LOCK-RELEASE a) - release Rig once Kris has taken the Rig records in a ki-accept sitting.
 
-## 2026-10-18 BST - owner answers, batch 4 (walk-through)
-
-- STATE-TOOLING-147 a) - accept KI-TOOL-KI-CLI-147 with its four answers; a run previews then sweeps the live agent state folders.
-- QUIET-146 a) - (Kris, 18 October) hold until the week of source-level cuts ends, then decide with [KI-HARNESS-GOV-204](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-204-pretooluse-quietening-hook.md); carried by [KI-TOOL-KI-CLI-146](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-146-ki-quiet-setting.md).
-
 ## 2026-10-18 09:2x BST - owner note
 
 > Okay, by the way, I've got Claude Design making some improvements to the website. So don't worry if you see changes there.
@@ -83,10 +78,8 @@ Read back as taken: apps-knowledgeislands.info has another session (Claude Desig
 
 ## 2026-10-18 BST - owner answers, batches 6 and 7 (typed)
 
-- REPO-OWNERSHIP a) - one harness record teaches ki-repo `+/_WORK/` and `+/_WORK_REVIEW/`, still accepting the old areas with a warning; lands before any other territory migrates.
 - RECORD-LINKS a) - the eight records linking into other territories' `+/_THREADS/` are repointed during each territory's migration.
 - PMO-CODE a) - harness record: PMO-7 skips inline code spans.
-- REPORT-SHAPE a) - work-model run report shape for every brief from now on.
 - PMO12-LEVEL a) - (Kris, 18 October) PMO-12 stays WARN until folders are pruned; carried by [KI-HARNESS-GOV-215](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-215-pmo-12-to-fail.md).
 - IDENTITY-TIMING a) - (Kris, 18 October) Phase 3 waits on KB-DOTFILES-UE-096 and [KI-TOOL-KI-CLI-145](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-145-thread-session-bindings-role.md); carried by [KI-HARNESS-GOV-199](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-199-thread-identity-role-native-sessions.md).
 - COMPOSE-REPLY-BLOCK a) - (Kris, 18 October) carried by [KI-TOOL-KI-CLI-134](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-134-launch-footer-follows-brief.md).
@@ -126,22 +119,6 @@ Read back as taken:
 - CHANNEL-TELEMETRY - a), with an evaluation of ntfy against alternatives before KI-TOOL-KI-CLI-123 phase 2 commits to it; telemetry deferred.
 - GLYPH-OWNER - no decision on a profile glyph survives in this log since the prune; the standard prints 🧑 for Kris and 👤 for other targets. Query GLYPH-OWNER; Git history to be searched.
 - RESTARTS - Kris may send Tools burndown and Observatory now; chezmoi after threads-fix has moved its stray report.
-
-## 2026-10-18 18:07 BST - owner suggestion, CLI conventions
-
-Kris, 18 October:
-
-> Can I also suggest that any common params and handling that are unix / linux standards are captured in the `ki-tools` skill so that can act as design guidance.
-
-Read back as taken: CLI-CONVENTIONS - the Unix and Linux conventions for common flags and handling (for example `-L`/`-P`/`-H` for symbolic links, `-h`/`--help`, `--version`, `-v`/`-q`, `-n`/`--dry-run`, `-f`, `-r`/`-R`, `--` ending options, `-` for standard input, exit codes, standard output versus standard error, `NO_COLOR`, XDG directories) become design guidance in the harness skill that owns command-line tool design. No skill named `ki-tools` exists in ki-agentic-harness; the run folds the guidance into the existing owner (for example `ki-engineering`) and raises a query if a separate `ki-tools` skill looks better. It starts after mgit-learn, reusing its research.
-
-## 2026-10-18 18:08 BST - owner correction, CLI conventions home
-
-Kris, 18 October:
-
-> I meant the `ki-repo-tools` skill then
-
-Read back as taken: CLI-CONVENTIONS goes into `ki-repo-tools` as a reference linked from its SKILL.md; the queued cli-conventions brief is corrected and no KI-TOOLS-SKILL query is raised.
 
 ## 2026-10-18 19:05 BST - owner answers, evening Summary batch; mark
 
@@ -197,110 +174,25 @@ Kris:
 
 Read back as taken: ACQUIRE-DECISIONS-LINKS a) - a Messages line asks acquire-intake to repoint Decisions 27, 32, 34 and 35 to `work.md` and fix the log's blank lines at its next resume. PUSH - push ki-principal with the stacked ki.observatory commit `ee62a4d`. Kris is upgrading Rig on Terra and Sol and doing the mgit hands-on check. KI-TOOL-KI-CLI-150's launch part comes to Kris for review when cli150-deliver finishes.
 
-## 2026-10-19 08:03 BST - owner answers, morning Summary
-
-Kris:
-
-> as recommended
-
-Read back as taken: CLI-150-REVIEW a) - one independent review run checks tools-ki `949ff512` and harness `1fe52516` against KI-TOOL-KI-CLI-150, then acceptance with Kris. BIOME-DRIFT a) - fold into an existing tools-ki chore record if one fits, otherwise capture one; one run moves `biome.json` to the 2.5.15 schema and clears the findings. KI-RELEASE-NEXT a) - ki v0.11.4 under the tools-ki release guide straight after KI-TOOL-KI-CLI-150 is accepted, Verify 6 rerun first, then the ki-principal CI pin moved. Not taken as a push: the stacked ki.observatory commit `f54d2a8` still waits for Kris's word.
-
-## 2026-10-19 08:05 BST - owner note, Rig upgraded
-
-Kris:
-
-> I've updated rig on both
-
-Read back as taken: Terra and Sol run Rig v0.7.0 (RIG-UPGRADE-MACHINES a)); the live-acceptance run for KI-TOOL-RIG-CORE-042 and KI-TOOL-RIG-CORE-047 launches now, read-only on both machines, acceptance with Kris.
-
-## 2026-10-19 08:06 BST - owner request, SIZE-PRIORITY
-
-Pointer: carried by [GDR-KI-PRINCIPAL-016](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-016-priority-and-size-on-work-records.md); Kris's words are in Git history.
-
-## 2026-10-19 08:07 BST - mark
-
-Kris: "mark". MARK struck at 08:07 BST (2026-10-19T07:07:16Z). Struck at this mark: the 20:18 BST new-session question, the fresh-session receive entry and the push entry, all one-offs now done. Correction: the SIZE-PRIORITY receive call, which showed as rejected, had already committed as `7aa0739` (Messages line removed, request recorded above); its queries are put to Kris in the mark recap.
-
-## 2026-10-19 08:14 BST - owner answers, mark recap
-
-Pointer: carried by [GDR-KI-PRINCIPAL-016](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-016-priority-and-size-on-work-records.md); Kris's words are in Git history. CLI-150, PUSH-MARK and REJECTED-CALL were carried out the same morning.
-
 ## 2026-10-19 08:22 BST - owner answer, QUERY-REVIEW
 
 Kris: "QUERY-REVIEW - agreed, make it so". Taken as a): from the next Summary, every medium- or low-confidence query (and any high-confidence destructive one) goes to one blind review run on the strongest model at high effort (Codex where independence matters) before it reaches Kris; agreement lifts confidence one level, marked reviewed; disagreement shows both. Capture a harness record for the ki-coordination standard after two or three reviews show whether it helps.
-
-## 2026-10-19 08:35 BST - owner answers, ITEM-FIELDS
-
-Pointer: carried by [GDR-KI-PRINCIPAL-016](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-016-priority-and-size-on-work-records.md); Kris's words are in Git history.
 
 ## 2026-10-19 08:40 BST - owner answers, Summary queries
 
 Kris: "Go with the recommendations with the following: FIELDS in general, can you get some views from higher level models please. Take a mark". Taken as: FIELDS-READBACK a) as taken, plus blind views on the whole field model from the strongest Claude model and from Codex, any change they suggest coming back as a query; BIOME-CI a) one tools-ki triage record for CI to run the local gate; CLI-153-ACCEPT a) read-only review, then accept if clean; RIG-DOCK-LIVE a) hold, ki.chezmoi delivers KB-DOTFILES-UE-091 without linking ChatGPT, then Kris applies on Sol attended; RIG-FIREWALL-LIVE a) hold, ki.chezmoi adds the firewall declaration, then Kris runs `rig apply --sudo` attended on Terra then Sol. Authorises: fields-view-fable, fields-view-codex, tools-ki-153; a Messages line to ki.chezmoi.
 
-## 2026-10-19 08:40 BST - mark
-
-MARK struck at 08:40 BST (2026-10-19T07:40:55Z). Struck: the ITEM-FIELDS discussion request (survey reported, answers logged) and the stop of size-priority (its edit taken over by size-priority-2).
-
-## 2026-10-19 11:12 BST - owner note, SoP restarted
-
-Kris: "KI > SoP is back and coordinating the Knowledge Islands territory, resumed on sol at 11:05 BST on 19 October ... It reads your work file directly, so there is nothing to report back here ... Send anything another piece of work must act on as a dated Messages line in that work's own work file. Do not write to +/_WORK/ki/ this morning, because a restock run is rewriting it; anything for SoP goes to Kris as a Needs-tagged query instead. Push only your own commits; name anyone else's stacked commits to Kris." SOP-RESTART answered by the restart itself.
-
 ## 2026-10-19 12:04 BST - owner answers, 11:13 Summary
 
 Pointer: SIZE-MEANING, SELECTION-ORDER, FIELDS-MIGRATE, FIELDS-CORE and FIELDS-KEPT carried by [GDR-KI-PRINCIPAL-016](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-016-priority-and-size-on-work-records.md) and the harness roadmap standard; VALIDATOR-PARITY with ki.tools-burndown; PUSH-STACKED a) still governs: do not push over others' commits.
 
-## 2026-10-19 12:04 BST - mark
-
-MARK struck at 12:04 BST (2026-10-19T11:04:18Z). Struck: TOOLS-KI-WRITER (handover done, KI-TOOL-KI-CLI-153 accepted by tools-burndown) and the QUERY-REVIEW request (its answer governs). Reduced to pointers: SIZE-PRIORITY request, mark-recap answers and ITEM-FIELDS answers, now carried by GDR-KI-PRINCIPAL-016.
-
-## 2026-10-19 12:09 BST - owner request, WORK-ROUTING model
-
-Kris (speech, lightly cleaned): "your ways of working is really good. You've got multiple reviewers for the recommendations and I don't think other threads are doing that. Also, there's now a number of active threads, and I think somehow we need to mark them as active so that we know that we can push work to them, because we don't want to just create any thread to do any work ... if a thread is parked, that's fine, we can also push work into it ... the state of play decides [which] thread of work and the work package ... you can give me a prompt for me to ask it. If it then decides it's your work, you have to accept it. And as we make improvements to the ways of working, presumably we need a thread to periodically refresh itself from the ways of working ... how would we do that? And also, if a thread has a potential way to improve the way of working, it should also ask me to give that to the ways of working ... ways of working and state of play probably overlap ... Perhaps there's two high-level coordination pieces: one which is state of play, and one which is ways of working. What do you think?" Model proposed to Kris; nothing launched.
-
 ## 2026-10-19 12:24 BST - owner answers, WORK-ROUTING and WOW-REFRESH; request WORK-PACKAGE
 
-Kris (speech, lightly cleaned): "I agree about the split of state of play. I think ways of working goes away and actually then usually state of play is a dispatch agent overall. So actually improvements should really go back to state of play. The exception to that obviously is whilst we're defining the ways of working, that ways of working can directly do that into the other [works], like we say on the refresh, whereas ordinarily that would come from [state of play] ... looking at the work folders ... Are they work packages? ... the work package needs a really clear understanding ... like we talked about before with skills and also with knowledge ... work should have a package idea and it should be clear about what its goals are and maybe a description to help things route it, so we've got that kind of progressive reveal capability ... think about what the file structures are within it, like a skill has. So we have a work.md file which defines what it is. Currently a lot of the work.md files have got loads of stuff in them ... maybe that should be another file so it's really quite straightforward ... like the decisions one, there should be a Q one ... take a bit of a stock take really. Can you take all this into account please and think what we should do? Maybe get a review on it as well from some high-level models."
-
-Read back taken:
-
-- WORK-ROUTING - split agreed, amended: State of play is the single dispatch coordinator; it routes work and receives method improvements from every work. Ways of working is finite: once the method is defined it goes away, and its stewardship passes to State of play.
-- WOW-REFRESH - a) for now: while the method is being defined, Ways of working writes refresh lines straight into live work files; afterwards refreshes come from State of play.
-- WORK-PACKAGE - design the work folder as a package, as a skill is: `work.md` defines the work (name, goals, a routing description for progressive reveal), with state, next steps, queries, decisions and parked items in their own files; settle the name; stocktake every current work folder. Authorises: work-package-design (read-only stocktake, design note in this work's `design/`), then blind reviews on the strongest Claude model and Codex, then a merged report with queries.
-- FIELDS-MIGRATE-ORDER - not yet answered; review sided with a smaller pilot (apps-markhowarth.com) before personal-principal.
-
-## 2026-10-19 13:37 BST - owner answers, work package; mark
-
-Kris: "None of the other threads are active at the minute, so I think we [change] the work package to what we've now described with the different files in it. work.md, queries.md, messages.md and decisions.md. Also, I want `ki-work-package` please, where it lives is a folder. Take that into account and then come back with revised queries." Then: "mark now too".
-
-Read back taken:
-
-- PACKAGE-NAME - the idea and its skill are the work package, `ki-work-package` (renamed from `ki-work-folder`); the place it lives is still called the work folder, `+/_WORK/<id>/`.
-- FILES - a work package has four files: `work.md`, `queries.md`, `messages.md` and `decisions.md`. No `state.md`: state, next steps and held items stay in `work.md` (taken; confirmed in the revised queries).
-- MIGRATE-NOW - no other thread is active, so the live folders can move in one pass rather than each at its own mark; the exact steps come back as revised queries before any migration run.
-- Authorises: work-package-revise (design note and revised queries, no migration), then a blind review of the changed medium and low queries.
-- MARK struck at 13:37 BST (2026-10-19T12:37:57Z).
-
-## 2026-10-19 13:52 BST - owner answer, STATE-FILE
-
-Kris: "oh - if you suggested state.md then that was my oversight"
-
-Read back taken: STATE-FILE b) - keep `state.md`. A work package has five files: `work.md` (definition: identity, routing description, goals, scope), `state.md` (state fields, Now, Next steps, Held, Queue for territory work), `queries.md`, `messages.md` and `decisions.md`. This brings back the readers-first step (`ki work status` and the Observatory read both shapes before the pass). The rest of the 13:37 answers stand. Authorises: work-package-revise-2 (note and changed queries only), then a blind Codex review of changed medium and low queries.
+Pointer: WORK-ROUTING (Kris, 19 October) carried by the [coordinating-work standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md); WOW-REFRESH a) by the Goals of the [ki.ways-of-working work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/work.md); WORK-PACKAGE by the [work-package standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md); Kris's words are in Git history.
 
 ## 2026-10-19 14:02 BST - owner answers, 13:51 Summary; request WORK-QUEUE-PRIORITY
 
-Kris (speech, lightly cleaned): "file to creation ... create them, 'cause then someone can send messages or whatever to that to start queuing work up ... Yes to the recommended [queries] files. Yes, the [parked] ... I agree with the description shape recommendation. The route [receipt] is interesting, so work is actually given from the state of play to that particular work package, and the key thing is that effectively, once it's given it, it has to do something with it, it can't reject it, it can then say it wants it to be given to someone else, and we can pass that message back to the state of play. But we have to be careful about things just [bouncing] in between things, right? So you should try to do what you can with it at least, and give back anything else it feels is not good for it. Yes ... Yes, the pickup reads. Yes, the state history. Ways of working can come back as a project to life if we need to improve the ways of working ... it becomes the model ... potentially it could be ways of working or it could be a more targeted project. The state of play should keep an eye on things if it thinks there's improvements, it should be responsible for coordinating that ... everything should be trying to continually improve and I think that should be coordinated by state of play ... I agree with the [rename]. We just need to get that done as quickly as we can and in parallel. ... [migrate path] makes sense. Do we need to do it in the pilot? ... do as you recommend. Yes migrate gate. Yes migrate self. ... the fields ... I think also we should just do those ... so we can get on with that. Something else ... the priority of work. Whatever the order of priority of work is, it should come into the queue ... an agent working on that work package ... can [group] things to make sense for things like similar work ... But if something's added to the top of it with an important flag, it must be processed in that order and that allows the state of play to tell something to change its way of working, for example."
-
-Read back taken:
-
-- FILES-AT-CREATION a) - all five files exist from creation, so others can queue work into `messages.md` at once.
-- QUERIES-FILE a), PARKED-HOME a) (Held in `state.md`), DESCRIPTION-SHAPE a), REFRESH-TARGET a), INBOX-CHECK a) (taken from "yes" between REFRESH-TARGET and PICKUP-READS), PICKUP-READS a), STATE-HISTORY a).
-- ROUTE-RECEIPT a), amended - a work cannot reject routed work; it does what it can with it and gives back to State of play only the part it judges is not its own, with a reason; a unit is returned once and then goes to Kris, so nothing bounces between works.
-- STEWARD-HOME a), amended - State of play watches for improvements and coordinates continual improvement; a significant change revives Ways of working, or a more targeted Project under the Model theme, as a Project.
-- RENAME-ORDER a) - as fast as possible, in parallel runs.
-- MIGRATE-PATH a) with this work as pilot; MIGRATE-GATE a); MIGRATE-SELF a).
-- FIELDS-MIGRATE-ORDER a) - approved as a sequence: apps-markhowarth.com pilot now, then personal-principal, hnr-principal, 5g-emerge-phase2 and legal-principal, then the remaining retired horizons; kind and size in code repositories after the `ki` release.
-- WORK-QUEUE-PRIORITY - a work package's incoming work is a queue taken in priority order; the worker may group similar items; a line added at the top with an important flag must be taken first, in that order, which lets State of play change how a work works.
-- Authorises: fields-pilot-markhowarth now; after work-package-revise-2 and query-review-4, work-package-standard (harness rename to `ki-work-package` with alias, standard and ki-coordination rewritten to these answers, design note finalised) and work-package-enact (ki-principal configuration, Work Process note, GDR-KI-PRINCIPAL-009) in parallel; Messages lines to ki.tools-burndown (both-shape reader, help text) and ki.observatory (both-shape reader); then the gated migration pass.
+Pointer: FILES-AT-CREATION, QUERIES-FILE, PARKED-HOME, DESCRIPTION-SHAPE, REFRESH-TARGET, INBOX-CHECK, PICKUP-READS, STATE-HISTORY, ROUTE-RECEIPT, STEWARD-HOME, MIGRATE-PATH, MIGRATE-GATE, MIGRATE-SELF and WORK-QUEUE-PRIORITY (Kris, 19 October) carried by the [work-package standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md) and the [coordinating-work standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md); FIELDS-MIGRATE-ORDER a) by [GDR-KI-PRINCIPAL-016](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-016-priority-and-size-on-work-records.md), its kind-and-size step waiting on the `ki` release in [state.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/state.md); Kris's words are in Git history.
 
 ## 2026-10-19 14:07 BST - owner grant, TERRITORIES-MIGRATE
 
@@ -337,43 +229,11 @@ Read back taken: PUSH-HARD - roll the work package out across every territory as
 
 ## 2026-10-19 14:27 BST - owner definition, SPEC-AREAS
 
-Kris: "For these 3 spec areas I want: `work` - essentially what we are doing with work packages, without infering our ways of working; `knowledge` - similar but it is a package of knowledge that is well curated. The example for this is say that I want to learn something about a particular topic that I should be able to understand from the description, what that if this knowledge package effectively is the thing to give me that information, and then it contains a body of knowledge, probably a collection of Markdown files, and in a similar way to the way that skills work as well. `acquire` - This one is more focused on how we would go about acquiring knowledge. So not knowledge at rest, but knowledge acquisition itself. So it could be based on how you use a particular tool, for example. They all work on the basis of progressive disclosure and are done in line with agentskills.io spec standards. We could put these in skills, or we could externalise them to `https://knowledgeislands.info/specs/{work,knowledge,acquire}` - in a similar format to <https://agentskills.io/specification>"
-
-Read back taken:
-
-- SPEC-AREAS, refined - three specifications, named `work`, `knowledge` and `acquire`:
-  - `work` is the portable work package, with nothing of the Knowledge Islands ways of working in it;
-  - `knowledge` is a curated body of knowledge on a topic: a description that tells a reader whether this is the package that answers their question, then a collection of Markdown files;
-  - `acquire` is a package for acquiring knowledge, such as how to use a particular tool: knowledge acquisition itself, not knowledge at rest.
-- All three use progressive disclosure and follow the agentskills.io specification's conventions.
-- SPEC-HOME is open: specs held in the owning skills, or published at `knowledgeislands.info/specs/{work,knowledge,acquire}` in the agentskills.io specification's page format.
-- Authorises: spec-drafts, chained after spec-areas-design. It drafts the three specs in this work's `design/specs/` in the agentskills.io specification format, ready for either home. Nothing is published.
+Pointer: SPEC-AREAS, refined (Kris, 19 October) carried in Kris's words by the [ki.specifications work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.specifications/work.md), with SPEC-HOME open in its [queries](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.specifications/queries.md).
 
 ## 2026-10-19 14:27 BST - owner decision, SPECIFICATIONS-PROJECT
 
-Kris: "I wonder if I should start a project under model called specifications?" then "can you give me a prompt to start a new thread on this"
-
-Read back taken: SPECIFICATIONS-PROJECT - Kris opens a new Project, KI > Model > Specifications (`ki.specifications`, run `specifications`), in its own session. It owns the three specs (`work`, `knowledge`, `acquire`), SPEC-HOME, publication and the later move into KI Specifications. This work runs spec-areas-design and spec-drafts to completion, then hands their outputs over with a dated line in `ki.specifications`'s `messages.md`; SPEC-HOME passes with them.
-
-## 2026-10-19 14:28 BST - owner note, SPECIFICATIONS-OPENED
-
-Kris: "I did the handoff"
-
-Read back taken: the ki.specifications session is open. This work still owes it the spec-areas-design stocktake (done) and spec-drafts (running): a dated line in its `messages.md` once its work package exists, and again when spec-drafts lands.
-
-## 2026-10-19 14:31 BST - owner direction, KI-FIRST
-
-Kris: "can you do knowledge islands now before the rest so they can continue" then "oh - don't we have a standard defined"
-
-Read back taken: KI-FIRST - the Knowledge Islands territory's work folders migrate now, working from the finalised design note (`design/work-package.md`, commit `fba56feb`), and no longer wait for work-package-standard's harness rewrite; other territories follow after this territory. migrate-pass is relaunched to start now, and territories-package is re-chained to wait for migrate-pass.
-
-## 2026-10-19 14:50 BST - FIRST-STEP disposition
-
-The migration's FIRST-STEP line was acted on: `ki-work-package` and all five files re-read; the drafted description, Goals and Scope confirmed as written; `method_read` set to harness `9c9ae922`; unreceived reports' queries are carried to the next Summary. Line removed.
-
-## 2026-10-19 14:57 BST - REPO-LINKS taken under PUSH-HARD
-
-reinstall-check asked whether to run `ki repo --estate repair` now: it would add 19 `ki-work-package` links and remove 19 dangling `ki-work-folder` links in 10 repositories. Taken a) under PUSH-HARD and NO-ALIAS ("lets just get it renamed"), as finishing the rename. Authorises: repo-links, chained after territories-package, applying only the work-package link changes and listing anything else.
+Pointer: SPECIFICATIONS-PROJECT (Kris, 19 October) carried by the [ki.specifications work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.specifications/work.md) and OPEN-PROJECT in its [decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.specifications/decisions.md); this work's handoff is done.
 
 ## 2026-10-19 17:57 BST - owner decisions on the 15:17 BST Summary
 
@@ -397,12 +257,6 @@ Read back taken: HOOKS-STANDARD - an IMPORTANT line goes to ki.tools-burndown's 
 Kris: "will those get fixed to the new format though?" then "ok - make that happen then."
 
 Read back taken: REPORT-SWEEP a) - one run surveys every work folder in the estate for run reports beside the package files; deletes each already pruned elsewhere or whose queries are all in that work's `queries.md`; for each it cannot safely delete, leaves the file and puts a line in that work's `messages.md` for its coordinator to receive. Untracked files on other machines and the `ki` release there are outside it. Authorises: report-sweep, chained after citations-rewrite.
-
-## 2026-10-19 18:11 BST - owner note, PUSH-KIP
-
-Kris: "I think I've pushed everything's back aligned again now."
-
-Read back taken: PUSH-KIP (and chezmoi-migrate's PUSH-CHEZMOI-MIGRATE) closed - Kris pushed the ki-principal stack. This work pushes its own later commits fast-forward when they alone are stacked.
 
 ## 2026-10-19 18:19 BST - owner note, LOCAL-MODE
 
