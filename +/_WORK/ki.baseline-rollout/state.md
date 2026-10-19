@@ -12,7 +12,7 @@ method_read: 2026-10-19T18:03:40Z
 
 ## Now
 
-- Kris, 23:59 BST: "Anything high confidence can be done." Eight queries answered a); REGISTER-HNR (medium) stays with Kris.
+- Kris, 23:59 BST: "Anything high confidence can be done." Eight queries answered a). Kris, 00:12 BST: REGISTER-HNR "no, these stay outside of KI"; exclusion routed to hnr.
 - Routed: CHECKER-GAPS to ki.ways-of-working and ki.tools-burndown, TERRITORY-TECHMEDIX to ki.tools-burndown, one `messages.md` line each.
 - `ki-brew` received 00:01 BST: Homebrew `ki` upgraded 0.11.4 to 0.11.5; v0.12.0 (hooks migration) prepared in tools-ki but not yet tagged or in the tap.
 - `raise-tmx` received 00:05 BST: [TMX-PRINCIPAL-KB-008](/Users/krisbrown/workspaces/techmedix/tmx-principal/Streams/Roadmap/TMX-PRINCIPAL-KB-008-retitle-issuing-areas.md) and [TMX-PRINCIPAL-KB-009](/Users/krisbrown/workspaces/techmedix/tmx-principal/Streams/Roadmap/TMX-PRINCIPAL-KB-009-establish-theme-registry.md) captured and committed in tmx-principal, unpushed; TMX-AREA-TITLES and TMX-THEMES copied, awaiting one batched blind review with the other naming queries once all raise runs finish.
