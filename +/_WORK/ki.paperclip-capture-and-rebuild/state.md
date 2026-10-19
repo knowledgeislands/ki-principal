@@ -7,7 +7,7 @@ hold:
 since: 2026-10-19T22:47:51Z
 received: null
 beat: null
-mark: None
+mark: null
 ---
 
 # ki.paperclip-capture-and-rebuild state
