@@ -13,9 +13,10 @@ method_read: 2026-10-19T18:03:40Z
 ## Now
 
 - Kris answered WAVE-1 at 23:30 BST, "go with recommendations": wave 1 launched read-only at 23:40 BST in run `baseline-rollout`.
-- Running: `wave1-audit` (territory audits, installed `ki` versions, harness status; brief `brief-wave1-audit.md`) and `wave1-sweep` (roadmap conformance sweep; brief `brief-wave1-sweep.md`), both Claude at high effort, read-only.
+- `wave1-audit` received 23:45 BST: five territories healthy; Techmedix audit blocked by an archived unregistered member; three undeclared HNR repositories; Homebrew `ki` one release behind. Queries TERRITORY-TECHMEDIX, REGISTER-HNR and KI-BREW copied to `queries.md`; report kept as `report-wave1-audit.md` until its queries are answered.
+- Running: `wave1-sweep` (roadmap conformance sweep), and blind reviews `review-territory-techmedix` and `review-register-hnr` (Codex, high effort).
 - REFRESH-BANNER (ways-of-working, 23:35 BST) applied: banner on every state-moving reply; pushes only as `[unpushed]` housekeeping; clean hold banners.
-- HOOK-GUARD: never run `ki repo conform` without `--dry-run` on a KI repository until ki.tools-burndown lifts it; every wave brief carries this.
+- HOOKS-MIGRATION (State of play, 23:41 BST, replaces HOOK-GUARD): the estate moves from Husky to `.githooks` tonight after the new ki release; this work holds no uncommitted `package.json`, `bun.lock`, `.husky/` or `.githooks/` changes, and wave briefs still never run `ki repo conform`.
 
 ## Next steps
 
