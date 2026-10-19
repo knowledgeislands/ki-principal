@@ -1,3 +1,0 @@
-# estpush - push the estate hook migration commits
-
-estmig-org (/Users/krisbrown/.local/state/ki/agents/tools-burndown/estmig-org.report.md) committed the hook migration locally in 20 repositories and pushed none. Under Kris's push style (push this work's own commits fast-forward when they alone are stacked), push each one: for each repository it lists under Done, fetch, and if the commits between the upstream and HEAD are only estmig-org's commit (and wave1's or estmig-ki's hook commits from this work, if any), pull with rebase and push fast-forward. If any other commit is stacked, or the checkout is dirty in the hook files, leave it unpushed and list it. Never --no-verify or force-push. Report one line per repository under Done.
