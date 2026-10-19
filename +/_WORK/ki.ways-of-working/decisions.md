@@ -357,3 +357,11 @@ Read back taken: the ki-principal stack is pushed. WORK-AREA-CITATIONS-SEND a) -
 Kris: "pushed, mgit checked, desk cam is done, drop that entirely"
 
 Read back taken: the ki-principal stack is pushed. MGIT-RELEASE a) is now due: the hands-on check of [KI-TOOL-MGIT-CLI-023](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-023-hands-on-behaviour-check.md) passed, so an IMPORTANT line asks ki.tools-burndown, which owns tools-mgit and its releases, to accept the record with Kris and release mgit once. DESK-CAM dropped entirely: the query and `webcam-compare.report.md` are removed.
+
+## 2026-10-19 19:48 BST - owner decision, QUERY-REVIEW-STANDARD
+
+Kris, asked whether medium- and low-confidence queries are now double-checked, and offered a) the rule in the `ki-coordination` standard with a REFRESH line to every running session: "agreed, please go ahead".
+
+Read back taken: QUERY-REVIEW-STANDARD a) - QUERY-REVIEW (19 October 08:22) becomes a rule of the `ki-coordination` standard for every coordinator, ahead of the trial evidence. Authorises query-review, a harness run that writes it, regenerates the hook line, output style and run-report surfaces, commits and pushes, then puts an IMPORTANT REFRESH line in the `messages.md` of `ki`, `ki.tools-burndown`, `ki.observatory`, `ki.specifications`, `ki.chezmoi`, `ki.mac-studio-setup`, `ki.baseline-rollout`, `ki.timelines` and acquire's `kb.regular.acquire-intake`.
+
+Correction: the entries timed 19:00 to 19:48 BST above, and the BURNDOWN-PUSH lines' 19:25, ran ahead of the clock; query-review launched at 19:12 BST by the system clock.

@@ -1,7 +1,7 @@
 ---
 id: ki.ways-of-working
-state: handoff-to-supervisor
-since: 2026-10-19T18:42:00Z
+state: with-worker
+since: 2026-10-19T18:12:00Z
 received: 2026-10-19T16:57:00Z
 beat: null
 mark: 2026-10-19T17:56:00Z
@@ -12,7 +12,7 @@ method_read: eff6163b
 
 ## Now
 
-- Sent to Kris at 19:42 BST: restart walk-through complete; BURNDOWN-PUSH and MGIT-RELEASE with ki.tools-burndown; DESK-CAM dropped; ki-principal pushed by Kris; nothing running and no open query. Marked at 18:56 BST.
+- Received from Kris at 19:12 BST: QUERY-REVIEW-STANDARD a); query-review running in the harness, then REFRESH lines to the nine running works. Earlier: walk-through complete; BURNDOWN-PUSH and MGIT-RELEASE with ki.tools-burndown; DESK-CAM dropped.
 - Run reports sit in `~/.local/state/ki/agents/ways-of-working/`.
 
 ## Next steps
