@@ -133,3 +133,13 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
   - LIVE-MAN-SWITCH a): dispatched `live-man-switch` to capture the idea in the Host network Project's Notes as a design input for the firewall and key-only SSH rollouts.
   - RIG-FULLSCREEN a): route line sent to ki.mac-studio-setup's messages.md, idea only.
 - Still with Kris: REVIEW-HOLD, HOMELESS-STANDING, MODEL-FALLBACK, THREADS-CHECKINS (medium).
+
+## 2026-10-19 23:11 BST - MESSAGES
+
+- `live-man-switch` added the idea to Host network but its commit was refused: Project notes may not name work records (STREAM-9). Relaunched as `live-man-switch-2` to drop the pruned record reference and commit.
+- MCPORTER-LEAK (from Rig: chezmoi): dispatched `mcporter-route` to find the owning work and route it there.
+- METHOD-READ (ways of working): `method_read` set to harness `84b61942`.
+- AUDIT-CONFORMANCE (tools burndown, Kris's words): the estate-wide audit and conformance review of skills is placed after the roadmap burn-down, in state.md; hooks checks stay with ki.tools-burndown.
+- TECHNE-FOCUS (Acquire intake, Kris's 14 October words): drafted as a query, held for blind review with the census queries.
+- HOLD-POINTERS (ways of working): seven items carried in state.md.
+- All five lines removed.

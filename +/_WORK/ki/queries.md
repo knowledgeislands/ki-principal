@@ -49,3 +49,15 @@ since 2026-10-19 · from sop-restock, reviewed by query-review-2 (disagrees)
 **Options:**
 
 a) (recommended, confidence medium - review disagrees; only Kris can say whether the frequency now suits) Close it as delivered, and raise it again only if check-ins still feel excessive. b) The reviewer's course: keep it open for a short explanation of the current cadence and a talk with Kris about frequency.
+
+### TECHNE-FOCUS - reconcile the Techné focus with the programme hold
+
+since 2026-10-19 · from Acquire intake (misrouted) · awaiting blind review before it reaches Kris
+
+**Context:** On 14 October Kris said, in a session that routed it to Acquire intake: "the hold is gone, but for now we're only focusing on setting up and running the Mac Studio and the agent host, and that any other pieces of work are not something that we're building as part of Techno just now [...] keep them as ideas". The governing [Techne Programme Hold](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Policies/Techne%20Programme%20Hold.md) policy still restricts remote agent execution, and [GDR-KI-PRINCIPAL-004](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-004-standing-agent-host-exemption-from-the-techne-programme-hold.md) exempts the agent host. Policy and instruction disagree, and REVIEW-HOLD's option c) leans on the hold.
+
+**Query:** Should the hold policy be revised to record Kris's 14 October focus?
+
+**Options:**
+
+a) (recommended, confidence medium - the words are clear, but they reached State of play second-hand and change canonical Admin content) Revise the policy through the Enactment Process: lift the programme hold and replace it with a focus rule, Mac Studio and agent host only, all other Techné work kept as ideas, superseding GDR-KI-PRINCIPAL-004 with a new record. b) Keep the hold as written; treat the 14 October words as context only.
