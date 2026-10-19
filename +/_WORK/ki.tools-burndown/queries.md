@@ -96,6 +96,80 @@ b) One combined record.
 
 c) No Rig change: declare `[tool.homebrew]` as a catalogue-only public tool in chezmoi and add the `requires` links by hand.
 
+### HOOKS-CONVENTION - Which convention "standardise on Husky" means
+
+since 2026-10-19 · from hooksstd.report.md in the run state folder · [design note](design/hooks-standard.md)
+
+**Context:** The harness standard and [ADR-KI-HARNESS-SKILLS-017](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/decisions/ADR-KI-HARNESS-SKILLS-017-commit-gate-existence-and-content-are-owned-separately.md) already require a committed `.githooks/pre-commit` bound by `core.hooksPath .githooks` in every repository, with Husky as the content layer where a Bun package exists. 25 KI repositories bind Husky's untracked `.husky/_` instead. Husky alone cannot gate the 21 package-less repositories without adding a package to each, and lets a fresh linked worktree with no install commit unchecked.
+
+**Query:** Should the estate converge on Husky for content behind committed `.githooks` stubs, or on Husky alone?
+
+**Options:**
+
+a) (recommended, confidence medium - the only shape that gates package-less repositories and fresh worktrees, and it keeps the current decision, but it reads "Husky" more narrowly than you may have meant) Husky holds the content wherever a Bun package exists; every repository commits `.githooks` stubs and binds `.githooks`.
+
+b) Husky alone: bind `.husky/_` everywhere and add a `package.json` and `husky` to every package-less repository; unbuilt worktrees commit unchecked and the decision is superseded.
+
+c) Commit `.husky/` and bind it directly, dropping Husky's runtime and dependency across the estate.
+
+### KB-AUDIT - Where the knowledge-base audit lives
+
+since 2026-10-19 · from hooksstd.report.md in the run state folder
+
+**Context:** ki-principal runs the KB audit from its `.githooks/pre-commit` stub, and the rubric criteria read only that file. Moving it into `.husky/pre-commit` makes every Bun stub a generated wrapper, and `GATE-1`, `GIT-2` and `SHELL-HOOK` would read the stub and the Husky hook together.
+
+**Query:** Should the KB audit move into `.husky/pre-commit` where a package exists?
+
+**Options:**
+
+a) (recommended, confidence medium - one content home per repository and uniform stubs, at the cost of a small change to three checkers) Move it into `.husky/pre-commit` where a package exists, keep it in the stub where none does, and have the three criteria read the effective gate.
+
+b) Keep the KB audit in the stub everywhere.
+
+### COMMIT-MSG - Message checks in package-less repositories
+
+since 2026-10-19 · from hooksstd.report.md in the run state folder
+
+**Context:** Commitlint needs Node and an install, so the 21 package-less repositories have no message check. A shell pattern in each stub would copy the `ki-git` vocabulary 21 times and drift.
+
+**Query:** How should package-less repositories check commit messages?
+
+**Options:**
+
+a) (recommended, confidence medium - one source for the vocabulary and no Node dependency, though it adds a tools-ki command) Add `ki git check-message` for `.githooks/commit-msg` to call; until it ships, those repositories have `pre-commit` only.
+
+b) A shell pattern in `.githooks/commit-msg`, generated from the `ki-git` vocabulary by conform.
+
+c) No message check outside Bun repositories.
+
+### ROLLOUT-AUTHORITY - Who writes the stubs in other repositories
+
+since 2026-10-19 · from hooksstd.report.md in the run state folder
+
+**Context:** The current decision makes adding a stub "that repository's change, raised as a receiver-owned trade", and the Charter gives territory selection no cross-repository write authority. Rolling out through `ki repo` and the estate repair means runs writing stubs in about 47 repositories.
+
+**Query:** Should one owner grant per wave cover `ki repo conform` writing and committing the stubs in every listed KI repository?
+
+**Options:**
+
+a) (recommended, confidence medium - it matches "through `ki repo`" and the change is mechanical, but each wave writes to repositories this work does not own) One grant per wave; a run commits the stubs and the `prepare` change by explicit path in each listed repository, local only, and you push.
+
+b) Receiver-owned trades: this work ships the standard and the tool, and each repository's owning work runs `ki repo conform` itself.
+
+### NON-KI - Repositories without `.ki.toml`
+
+since 2026-10-19 · from hooksstd.report.md in the run state folder
+
+**Context:** hnr-backend and hnr-frontend run their own npm Husky gates with `pre-push`; hnr-benchmarks, hnr-shared, kw-website and paperclip have no gate. `ki repo` does not reach a repository without `.ki.toml`.
+
+**Query:** Are the six non-KI repositories outside this rollout?
+
+**Options:**
+
+a) (recommended, confidence high - `ki repo` cannot reach them, and the HNR gates are deliberate and working) Leave them out; they join only if they adopt `.ki.toml`.
+
+b) Bring them in by declaring `.ki.toml` in each first.
+
 ## Parked
 
 ### ASK-B - Coarse acquisition kind in the public export
