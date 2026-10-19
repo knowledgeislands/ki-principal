@@ -234,3 +234,7 @@ Kris: "I want to discuss a little bit about roadmap item [fields]. There seems t
 ## 2026-10-19 08:17 BST - owner instruction, stop size-priority
 
 Kris: "stop size-priority". The run is stopped while editing the harness work-item format; its uncommitted edits are left in place, not committed or reverted, until the ITEM-FIELDS discussion settles the fields.
+
+## 2026-10-19 08:19 BST - owner request, QUERY-REVIEW
+
+Kris: "I've been thinking a bit more about recommendation confidence for queries. So I think what would be good is to get some kind of little review going, maybe out to a sub-agent ... you could get the recommendation based on another agent ... ask a higher level model with reasoning to help with a decision. Especially ... where the recommendation is medium and especially if it's low, to try and help improve the confidence that we have around the recommendation." Shape proposed to Kris; nothing launched yet.
