@@ -3,7 +3,7 @@ note_type: admin/governance/decision
 id: GDR-KI-PRINCIPAL-010
 title: 'The Port'
 date: 2026-10-18
-updated: 2026-10-18
+updated: 2026-10-19
 status: current
 decision_type_url: https://knowledgeislands.info/specifications/decision-records/gdr
 decision_type: governance
@@ -31,7 +31,7 @@ A Port has four modes, each a district of one Port:
 - **Airport** - fast, long-range connections to distant lands: other systems and agents.
 - **Customs house** (or border crossing) - where what enters or leaves is inspected and declared.
 
-The Port absorbs the Harbour's meaning of "integration point". The Harbour is retired as a Knowledge Islands term and symbol; "harbour" survives only as plain English and as the Port's Arcadian register in prose. The former Port meaning of "operational systems" moves to `Admin/Operations`, whose drawn form is not yet decided.
+The Port absorbs the Harbour's meaning of "integration point". The Harbour is retired as a Knowledge Islands term and symbol; "harbour" survives only as plain English and as the Port's Arcadian register in prose. The former Port meaning of "operational systems" moves to `Admin/Operations`, drawn as the Mill under [[GDR-KI-PRINCIPAL-013-the-causeway-and-the-mill|GDR-KI-PRINCIPAL-013]].
 
 **The Lighthouse means guidance. The Council Hall means governance:** decisions, not storage.
 
@@ -40,7 +40,7 @@ The Port absorbs the Harbour's meaning of "integration point". The Harbour is re
 - The Symbol Library, Visual Style, Structure, The Home of Knowledge and the Philosophy notes that name the island's places use the Port, and the Lighthouse and Council Hall with their separate meanings.
 - Earlier Decision Records and roadmap records keep their Harbour wording as a historical record; read "Harbour" in them as the Port under this record.
 - The KI Website and `ki-design` switch their Harbour wording to the Port and mark the Port, its four modes, the Lighthouse and the Council Hall as official.
-- How `Admin/Operations` is drawn stays open in `ki-design` until a later decision.
+- `Admin/Operations` is drawn as the Mill under [[GDR-KI-PRINCIPAL-013-the-causeway-and-the-mill|GDR-KI-PRINCIPAL-013]].
 
 ## References
 

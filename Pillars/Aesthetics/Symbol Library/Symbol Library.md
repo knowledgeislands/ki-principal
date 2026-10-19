@@ -1,5 +1,6 @@
 ---
 note_type: pillars/index
+updated: 2026-10-19T07:00:00Z
 tags:
   - card/note
   - topic/aesthetics
@@ -22,29 +23,32 @@ For the full symbolic semantics table and terrain language, see [[Visual Style/V
 
 ## Symbols
 
-The seventeen canonical symbols, their meanings, and terrain associations:
+The eighteen canonical symbols, their meanings, and terrain associations:
 
-| Symbol            | Meaning                       |
-| ----------------- | ----------------------------- |
-| Island            | Domain of knowledge           |
-| Archipelago       | Federated knowledge ecosystem |
-| Port              | Entry and exit; integration   |
-| Capital           | Civic heart of an island      |
-| Lighthouse        | Guidance                      |
-| Council Hall      | Governance                    |
-| Observatory       | Insight / analytics           |
-| Route             | Relationship                  |
-| Current           | Information flow              |
-| Bridge            | Translation layer             |
-| Reef              | Risk / ambiguity              |
-| Terrain           | Depth / maturity              |
-| Ancient Forest    | Wisdom / continuity           |
-| Weave / Fabric    | Cross-domain synthesis        |
-| Cartographic Grid | Structure / orientation       |
-| Celestial Guide   | Long-range orientation        |
-| Trade Route       | Collaboration / exchange      |
+| Symbol            | Meaning                                                             |
+| ----------------- | ------------------------------------------------------------------- |
+| Island            | Domain of knowledge                                                 |
+| Archipelago       | Federated knowledge ecosystem                                       |
+| Port              | Entry and exit; integration                                         |
+| Capital           | Civic heart of an island                                            |
+| Lighthouse        | Guidance                                                            |
+| Council Hall      | Governance                                                          |
+| Observatory       | Insight / analytics                                                 |
+| Route             | Relationship                                                        |
+| Current           | Information flow                                                    |
+| Causeway          | Translation layer                                                   |
+| Reef              | Risk / ambiguity                                                    |
+| Terrain           | Depth / maturity                                                    |
+| Ancient Forest    | Wisdom / continuity                                                 |
+| Weave / Fabric    | Cross-domain synthesis                                              |
+| Cartographic Grid | Structure / orientation                                             |
+| Celestial Guide   | Long-range orientation                                              |
+| Trade Route       | Collaboration / exchange                                            |
+| Mill              | Operational systems: the running of the island, routines and upkeep |
 
 The Port replaced the Harbour, and the Lighthouse and Council Hall took separate meanings, under [[GDR-KI-PRINCIPAL-010-the-port|GDR-KI-PRINCIPAL-010]]. The Harbour is retired as a symbol; operational systems, the old Port meaning, belong to `Admin/Operations`.
+
+The Causeway replaced the Bridge as the translation layer, and the Mill was added for operational systems, under [[GDR-KI-PRINCIPAL-013-the-causeway-and-the-mill|GDR-KI-PRINCIPAL-013]]. Both are official. The Mill is the drawn form of `Admin/Operations`: a stone house with a waterwheel. "Bridge" now names the local app's Act command, not a symbol.
 
 The Capital was confirmed under [[GDR-KI-PRINCIPAL-011-the-capital|GDR-KI-PRINCIPAL-011]]. It holds the Library and the Council Hall and is drawn civic, a square and never a fortress; the symbol language stays non-combative, with no citadels, towers, keeps or battlements. The Observatory is also the mark of the local app.
 

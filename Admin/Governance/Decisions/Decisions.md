@@ -1,6 +1,6 @@
 ---
 note_type: admin/governance/decision
-updated: 2026-10-18T12:00:00Z
+updated: 2026-10-19T07:00:00Z
 status: current - October 2026
 ---
 
@@ -55,3 +55,4 @@ Arcadia maintains these engineering decisions, adopted from the retired Techné 
 1. [GDR-KI-PRINCIPAL-010](GDR-KI-PRINCIPAL-010-the-port.md) - The Port
 2. [GDR-KI-PRINCIPAL-011](GDR-KI-PRINCIPAL-011-the-capital.md) - The Capital
 3. [GDR-KI-PRINCIPAL-012](GDR-KI-PRINCIPAL-012-official-not-canon.md) - Official, not canon
+4. [GDR-KI-PRINCIPAL-013](GDR-KI-PRINCIPAL-013-the-causeway-and-the-mill.md) - The Causeway and the Mill

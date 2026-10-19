@@ -1,5 +1,6 @@
 ---
 note_type: pillars/index
+updated: 2026-10-19T07:00:00Z
 tags:
   - card/note
   - topic/aesthetics
@@ -57,7 +58,7 @@ Core conceptual themes:
 
 ## Geographic Metaphor
 
-Knowledge is represented geographically. Common motifs: islands, archipelagos, coastlines, sea routes, bridges, ports, lighthouses, libraries, observatories, pathways, flowing currents, woven connective threads, cartographic lines, layered terrain.
+Knowledge is represented geographically. Common motifs: islands, archipelagos, coastlines, sea routes, causeways, ports, lighthouses, libraries, observatories, pathways, flowing currents, woven connective threads, cartographic lines, layered terrain.
 
 The world should feel explorable, interconnected, breathable, calm, and layered with meaning.
 
@@ -90,13 +91,14 @@ Visual symbols carry consistent conceptual meaning across all outputs. See [[Sym
 | Observatory          | Insight / analytics           |
 | Route                | Relationship                  |
 | Current              | Information flow              |
-| Bridge               | Translation layer             |
+| Causeway             | Translation layer             |
 | Reef                 | Risk / ambiguity              |
 | Terrain elevation    | Depth / maturity              |
 | Ancient forest       | Wisdom / continuity           |
 | Weave / Fabric       | Cross-domain synthesis        |
 | Cartographic grid    | Structure / orientation       |
 | Celestial references | Long-range guidance           |
+| Mill                 | Operational systems           |
 
 ---
 
