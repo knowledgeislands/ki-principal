@@ -61,3 +61,9 @@
 - 2026-10-19 23:44 BST, IMPORTANT HOOKS-MIGRATION line from ki (State of play): this work leaves no uncommitted package.json, bun.lock, .husky/ or .githooks/ changes in ki-principal or tools-rig (tools-rig checked clean on those paths); HOOK-GUARD superseded, the briefs' extra --dry-run caution left in place as harmless.
 
 - 2026-10-19 23:45 BST, core063 received: KI-TOOL-RIG-CORE-063 at Awaiting review, not self-accepted, commits 41adda2 and 7665767 local in tools-rig; no queries; brief pruned.
+
+- 2026-10-19 23:50 BST, plan062 received: KI-TOOL-RIG-CORE-062 at draft (85bafea); Q-062-SCOPE (medium) sent to blind review run scope-review on Codex at high effort; Q-062-ABSENT (high, not destructive) held for Kris; brief pruned.
+
+- 2026-10-19 23:50 BST, IMPORTANT TRIAGE-ALL from State of play (Kris, 19 October: "Okay, there's a lot of items in triage. I need them all triaging. So I want them all running out with the high order functions and anything which is High confidence recommended. Let's move it into now and get it done. Especially to focus on anything to do with the tools burn-downs first."): run rig-triage queued behind plan027 in tools-rig; CAPTURE-GATE applied, no new records; no roadmap cap.
+
+- 2026-10-19 23:50 BST, BURN-WAVE-1 and LANE-OWNERS from State of play: the lane it names (agent-host holds, ki-techne-harness) is not this work's; returned to State of play once, with the reason; CAPTURE-GATE and no-cap parts applied.

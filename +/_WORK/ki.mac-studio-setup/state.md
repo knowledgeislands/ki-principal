@@ -15,7 +15,8 @@ method_read: 84b61942
 - With worker since 23:30 BST on 19 October; marked at 23:36 BST on 19 October.
 - rig-capture received 23:31 BST: RIG-UNLOAD-LABEL, every caller proven to guarantee a non-empty label, no record; TOML-HANDLER captured as KI-TOOL-RIG-CORE-069 (Triage); tools-rig commits ccd14ac and 4f97d74, local, unpushed; BOOTOUT-GUARD raised and closed by Kris with no record.
 - core063 received 23:45 BST: KI-TOOL-RIG-CORE-063 delivered to Awaiting review (41adda2, 7665767; 582 of 582 Bats tests pass), local, unpushed.
-- Running, chained in tools-rig: core063 (plan and deliver KI-TOOL-RIG-CORE-063 to Awaiting review), then plan062 (plan KI-TOOL-RIG-CORE-062), then plan027 (plan KI-TOOL-RIG-CLI-027); local commits only, no push.
+- plan062 received 23:49 BST: KI-TOOL-RIG-CORE-062 shaped to draft (85bafea), Ready waits on Q-062-SCOPE (in blind review, scope-review) and Q-062-ABSENT; deliver it before or after KI-TOOL-RIG-CORE-068, not alongside.
+- Running in tools-rig: plan027 (plan KI-TOOL-RIG-CLI-027), then rig-triage (TRIAGE-ALL: triage every unadopted record, deliver high-confidence adoptions to Awaiting review, one RIG-TRIAGE query for the rest); scope-review alongside, read-only. Local commits only, no push.
 - Nothing with Kris. SOL-FW-TEST closed: the sol firewall test is finished and good (Kris, 23:41 BST); KI-TOOL-RIG-CORE-047 still awaits Kris's acceptance. BOOTOUT-GUARD closed: no record.
 - ki-principal push left to the owning sessions (PUSH-STACK a).
 - FIRST-STEP done: `ki-work-package` and all five files re-read, description, Goals and Scope confirmed as drafted, `method_read` set.
@@ -27,7 +28,7 @@ method_read: 84b61942
 ## Next steps
 
 1. With Kris, ADOBE-RESTART first (deferred, "remind me another day"): restart sol, run [`./adobe-remove.sh`](design/adobe-remove.sh) as a dry run (apps and add-ons none, nothing under What is left), then `ls -d /Applications/Adobe* /Applications/Utilities/Adobe* ~/Pictures/Lightroom/*.lrcat`, which should show only the catalogue.
-2. Receive plan062 and plan027; then Kris accepts the Awaiting-review records, KI-TOOL-RIG-CORE-063 included, at the next sol session.
+2. Receive scope-review, plan027 and rig-triage; send Q-062-SCOPE, Q-062-ABSENT and RIG-TRIAGE (after its blind review) to Kris; then Kris accepts the Awaiting-review records, KI-TOOL-RIG-CORE-063 included, at the next sol session.
 3. Then put the parked queries in `queries.md` back one at a time, each with a recommendation and its reason.
 
 ## Held
