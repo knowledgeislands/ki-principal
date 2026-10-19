@@ -25,7 +25,7 @@ method_read: 2026-10-19T17:59:32Z
 ## Next steps
 
 1. On Kris's answers: act on each open query in `queries.md`, dispatching any work they authorise.
-2. At a session with the terra checkout (sol is not terra): PILOT-SEED, after a fetch, once PILOT-SEED-HOME is answered ([pilot-seed report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/pilot-seed.report.md)); STASH-DROP, approved on 16 October (FIRST-WAVE): delete `refs/rebase-repair/autostash-f091d468` in ki-principal on terra once nothing still needs it.
+2. At a session with the terra checkout (sol is not terra): PILOT-SEED, after a fetch: stage section 4 as a seed pack in `-` under SEED-HOME with a provenance line and tell knowledge acquisition (PILOT-SEED-HOME a), 19 October) ([pilot-seed report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/pilot-seed.report.md)); STASH-DROP, approved on 16 October (FIRST-WAVE): delete `refs/rebase-repair/autostash-f091d468` in ki-principal on terra once nothing still needs it.
 3. Later: keep the burn-down moving through the Project work, then offer the ki release and the specification review; the Paperclip rebuild once the work model settles ([Paperclip capture and rebuild](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/paperclip-capture-and-rebuild.md)); rebuild vega.
 4. Follow-ups, no Kris action: clean up old knowledge-base aliases in `~/workspaces/claude-desktop/` at Kris's next Cowork session; the retired `kit-mcp-gmail` entry remains in the chezmoi `.chezmoiignore` for Rig: chezmoi.
 

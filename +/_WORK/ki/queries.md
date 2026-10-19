@@ -26,18 +26,6 @@ since 2026-10-19 · from sop-mark, reviewed by query-review-2 (disagrees)
 
 a) (recommended, confidence medium - review disagrees; it would flag more than the standard asks) Add one `homeless:` line per rule to `state.md`, and route PRFLOW, PIN, RIG-REL-PATCH and the burn-down focus to ki.ways-of-working for a home in a standard or `AGENTS.md`. b) The reviewer's course: classify each entry first; route PRFLOW, PIN, RIG-REL-PATCH and the burn-down focus to ki.ways-of-working; carry live operational restrictions in `state.md` or queries; flag `homeless:` only genuinely standalone decisions. c) Leave them in the log and decide at the next mark.
 
-### CHEZMOI-CARRY - Rig: chezmoi decisions held only in its run reports
-
-since 2026-10-19 · from sop-mark
-
-**Context:** Five decisions govern live Rig: chezmoi work but appear only in its run reports, which its tidies delete: FW-DECLARE, FW-DECLARE-NOW, the SSH-SPARE-KEY console note, the SEAT-RECORD host binding (home to terra, hub to sol) and TOML-OPENER. The firewall declaration is not yet in the chezmoi source, so they are kept here.
-
-**Query:** Should State of play ask ki.chezmoi to carry these in its own package, so the next mark can strike them here?
-
-**Options:**
-
-a) (recommended, confidence high - one route line within State of play's authority, changing nothing in chezmoi) Send one line to ki.chezmoi's `messages.md` naming the five, and strike them here once its package carries them. b) Keep them here until ki.chezmoi finishes.
-
 ### MODEL-FALLBACK - a time-limited instruction
 
 since 2026-10-19 · from sop-mark, reviewed by query-review-2 (disagrees)
@@ -50,30 +38,6 @@ since 2026-10-19 · from sop-mark, reviewed by query-review-2 (disagrees)
 
 a) (recommended, confidence medium - review disagrees; the wording sets a minimum, not an end) Strike it at the next mark, and treat later expired, time-limited entries the same way. b) Keep it until Kris clarifies it or the standard says how such entries are handled. c) Strike it here as carried by the Ways of working Project note's evaluation idea.
 
-### PILOT-SEED-HOME - where the copied seed section goes
-
-since 2026-10-19 · from sop-restock, reviewed by query-review-2 (agrees)
-
-**Context:** On 18 October Kris asked for section 4 of the foundations-coherence report to be copied into `+/_THREADS/state-of-play/`. That folder is retired, and the work folder's closed list does not allow a copied report section. Knowledge acquisition's SEED-HOME (17 October) commits seeds from packs staged in `-`. The report is only on terra, so the copy waits for a terra session either way.
-
-**Query:** Where should the terra session put the section 4 copy?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; SEED-HOME names this path) Stage it as a seed pack in `-` under SEED-HOME with a provenance line, and tell knowledge acquisition in one messages line. b) Hand the copy to knowledge acquisition to home in its own Project's material.
-
-### LIVE-MAN-SWITCH - where the reverse dead man's switch idea lives
-
-since 2026-10-19 · from sop-restock
-
-**Context:** On 15 October Kris proposed that each host periodically pull a control repository and re-apply its declared state, so a host that loses inbound access heals itself. Its likely home, [KI-TOOL-RIG-CORE-046 (pruned)](https://github.com/knowledgeislands/tools-rig/blob/06da52aec5de/docs/roadmap/KI-TOOL-RIG-CORE-046-remote-access-and-continuity.md), was cancelled and pruned, and no Project note mentions the idea.
-
-**Query:** Where should the idea live?
-
-**Options:**
-
-a) (recommended, confidence high - Host network owns host access and restore paths) Capture it in the Host network Project's Notes as a design input for the firewall and key-only SSH rollouts. b) Send it to Rig: mac studio setup as a tools-rig idea.
-
 ### THREADS-CHECKINS - Kris's question on check-ins
 
 since 2026-10-19 · from sop-restock, reviewed by query-review-2 (disagrees)
@@ -85,15 +49,3 @@ since 2026-10-19 · from sop-restock, reviewed by query-review-2 (disagrees)
 **Options:**
 
 a) (recommended, confidence medium - review disagrees; only Kris can say whether the frequency now suits) Close it as delivered, and raise it again only if check-ins still feel excessive. b) The reviewer's course: keep it open for a short explanation of the current cadence and a talk with Kris about frequency.
-
-### RIG-FULLSCREEN - the Rig full-screen mode idea
-
-since 2026-10-19 · from sop-restock, reviewed by query-review-2 (agrees)
-
-**Context:** On 12 October Kris parked an idea for an interactive full-screen Rig terminal mode with btop-style panes, to be captured when the Rig work resumed; the reviewer recovered the wording from Git. Rig's new two-line progress footer is a different feature. Rig: mac studio setup owns the tools-rig lane under RIG-OWNER.
-
-**Query:** Should the idea go to Rig: mac studio setup?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; RIG-OWNER gives it the lane) Send it to Rig: mac studio setup as an idea, with no record or implementation authority, in one messages line. b) Drop it, since Git history keeps it.

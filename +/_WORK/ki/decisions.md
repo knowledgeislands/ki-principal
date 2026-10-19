@@ -124,3 +124,12 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 ## 2026-10-19 23:08 BST - ROADMAP-GROWTH
 
 - **ROADMAP-GROWTH:** "the roadmap keep growing, I need to get this sorted, help me get there". Taken as: measure the territory's roadmaps and their inflow and closure, diagnose the growth, and bring Kris a burn-down plan with a few decisions. Dispatched `roadmap-census`, read-only; no record is changed until Kris decides.
+
+## 2026-10-19 23:09 BST - HIGH-CONFIDENCE
+
+- **HIGH-CONFIDENCE:** "do high confidence recommenations". Read back as taken: option a) on the four queries whose recommendation is high confidence:
+  - CHEZMOI-CARRY a): route line sent to ki.chezmoi's messages.md; strike the five here once its package carries them.
+  - PILOT-SEED-HOME a): the terra session stages section 4 as a seed pack in `-` under SEED-HOME with a provenance line and tells knowledge acquisition in one messages line.
+  - LIVE-MAN-SWITCH a): dispatched `live-man-switch` to capture the idea in the Host network Project's Notes as a design input for the firewall and key-only SSH rollouts.
+  - RIG-FULLSCREEN a): route line sent to ki.mac-studio-setup's messages.md, idea only.
+- Still with Kris: REVIEW-HOLD, HOMELESS-STANDING, MODEL-FALLBACK, THREADS-CHECKINS (medium).
