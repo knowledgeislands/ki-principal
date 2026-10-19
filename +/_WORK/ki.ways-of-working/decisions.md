@@ -227,14 +227,6 @@ Kris: "mark". MARK struck at 08:07 BST (2026-10-19T07:07:16Z). Struck at this ma
 
 Kris: "do all recommendations including any pushes needed". Taken as a) on all seven: CLI-150-ACCEPT a) accept KI-TOOL-KI-CLI-150 as delivered, the three minor points recorded as known limits; PRIORITY-VOCAB a) high, medium, low; SIZE-VOCAB a) s, m, l, xl with one-line meanings, xl meaning split before Ready; SIZE-BACKFILL a) owners backfill by judgement, `ki work` lists the gaps; SIZE-WINDOW a) warn from the next ki release with capture requiring both fields, fail in the first release after `ki work` shows no gaps estate-wide; PUSH-MARK a) push, carrying ki.observatory's 5245a84; REJECTED-CALL a) keep the SIZE-PRIORITY entry. Authorises: accept-release (accept CLI-150, then KI-RELEASE-NEXT a): Verify 6, release ki v0.11.4, move the ki-principal CI pin, push) after biome-fix; size-priority (harness standard change, GDR reversing PRIORITY-FIELD, tools-ki handoff record, push).
 
-## 2026-10-19 08:16 BST - owner request, ITEM-FIELDS discussion
-
-Kris: "I want to discuss a little bit about roadmap item [fields]. There seems to be some thinking around the different fields that we carry on them. So I want you to really help me with that. Can you tell me the fields that we've got currently and others that have been considered and adopted or otherwise". Authorises: field-survey, a read-only inventory run. size-priority continues unless Kris says stop.
-
-## 2026-10-19 08:17 BST - owner instruction, stop size-priority
-
-Kris: "stop size-priority". The run is stopped while editing the harness work-item format; its uncommitted edits are left in place, not committed or reverted, until the ITEM-FIELDS discussion settles the fields.
-
 ## 2026-10-19 08:19 BST - owner request, QUERY-REVIEW
 
 Kris: "I've been thinking a bit more about recommendation confidence for queries. So I think what would be good is to get some kind of little review going, maybe out to a sub-agent ... you could get the recommendation based on another agent ... ask a higher level model with reasoning to help with a decision. Especially ... where the recommendation is medium and especially if it's low, to try and help improve the confidence that we have around the recommendation." Shape proposed to Kris; nothing launched yet.
@@ -246,3 +238,11 @@ Kris: "QUERY-REVIEW - agreed, make it so". Taken as a): from the next Summary, e
 ## 2026-10-19 08:35 BST - owner answers, ITEM-FIELDS
 
 Kris, on the field survey: "1. I'm not sure they overlap, horizon is about when, and then priority is about how important. changing horizon does change priority. I think it matter more when there is a lot of items in the roadmap and choosing what is next. so lets add it. if there isn't a priority today, default to `medium` 2. yes, I think size is useful and it allows us to visualise the efforts involved in the work, and like you say, its useful in guiding to split work up. 3. we should tighten up a little 4. yes, clean up then please". Taken as: priority (high, medium, low) added beside horizon, an absent priority reading as `medium`; size (s, m, l, xl) added to show effort and guide splitting, owners backfilling by judgement; tighten: tools-ki fails what the harness audit fails (retired horizons, missing `kind` on adopted records) after the same warn window, `ki work` listing the gaps; clean up barely used or dead fields and values (`resolution_target`, purpose `adoption`, kind `decide`, `task_links`, `initiative`), keeping any that prove load-bearing with the reason. Supersedes the 08:14 SIZE-BACKFILL answer for priority only. Authorises: size-priority-2, resuming the stopped run's uncommitted harness edit.
+
+## 2026-10-19 08:40 BST - owner answers, Summary queries
+
+Kris: "Go with the recommendations with the following: FIELDS in general, can you get some views from higher level models please. Take a mark". Taken as: FIELDS-READBACK a) as taken, plus blind views on the whole field model from the strongest Claude model and from Codex, any change they suggest coming back as a query; BIOME-CI a) one tools-ki triage record for CI to run the local gate; CLI-153-ACCEPT a) read-only review, then accept if clean; RIG-DOCK-LIVE a) hold, ki.chezmoi delivers KB-DOTFILES-UE-091 without linking ChatGPT, then Kris applies on Sol attended; RIG-FIREWALL-LIVE a) hold, ki.chezmoi adds the firewall declaration, then Kris runs `rig apply --sudo` attended on Terra then Sol. Authorises: fields-view-fable, fields-view-codex, tools-ki-153; a Messages line to ki.chezmoi.
+
+## 2026-10-19 08:40 BST - mark
+
+MARK struck at 08:40 BST (2026-10-19T07:40:55Z). Struck: the ITEM-FIELDS discussion request (survey reported, answers logged) and the stop of size-priority (its edit taken over by size-priority-2).

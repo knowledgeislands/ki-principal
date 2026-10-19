@@ -10,7 +10,7 @@ state: with-worker
 since: 2026-10-19T07:07:16Z
 received: 2026-10-18T19:20:01Z
 beat: null
-mark: 2026-10-19T07:07:16Z
+mark: 2026-10-19T07:40:55Z
 created_at: 2026-10-09T20:58:00Z
 ---
 
@@ -18,15 +18,14 @@ created_at: 2026-10-09T20:58:00Z
 
 ## Next steps
 
-Marked at 08:07 BST on 19 October. Run reports sit in `~/.local/state/ki/agents/ways-of-working/`.
+Marked on 19 October. Run reports sit in `~/.local/state/ki/agents/ways-of-working/`.
 
-1. Running: biome-fix (BIOME-DRIFT a), tools-ki repo-wide Biome) and rig-live (read-only live evidence for KI-TOOL-RIG-CORE-042 and -047 after Kris's Rig upgrade on both Macs).
-2. With Kris: CLI-150-ACCEPT (review-cli150 clean, three minor points); PRIORITY-VOCAB, SIZE-VOCAB, SIZE-BACKFILL and SIZE-WINDOW (SIZE-PRIORITY). No standard or validator change before the SIZE answers.
-3. After CLI-150-ACCEPT: `ki-accept` closes KI-TOOL-KI-CLI-150, then KI-RELEASE-NEXT a): rerun Verify 6, release ki v0.11.4, move the ki-principal CI pin; then `ki agent close` for cli150-deliver.
-4. QUERY-REVIEW (trial): before each Summary, send its medium and low queries to one blind review run (`--model` strongest, `--effort high`, or `--runtime codex`); after two or three, capture a harness record for the ki-coordination standard.
-5. Kris is on: the mgit hands-on check, then MGIT-RELEASE.
-6. At the next mark: recheck ki-principal CI (CI-RED-REST, waiting on ki.chezmoi and ki.observatory) and ki-agentic-harness CI (KI-HARNESS-GOV-210 links); check whether desk-kit is already closed.
-7. Outstanding, not this work's: DESK-CAM with Mac Studio setup; KI-HARNESS-GOV-219 in triage; pre-existing CI red in apps-observatory.local, mcp-m365, tools-mgit and ki-techne-harness; acquire-intake's ACQUIRE-DECISIONS-LINKS Messages line.
+1. Running: size-priority-2 (priority and size, tightening and clean-up in the harness standard and checker; GDR reversing PRIORITY-FIELD; tools-ki handoff); fields-view-fable and fields-view-codex (blind views on the whole field model; any change they suggest goes to Kris as a query, then a follow-up to size-priority-2's work); tools-ki-153 (review then accept KI-TOOL-KI-CLI-153; capture the BIOME-CI record).
+2. With ki.chezmoi (Messages line sent): KB-DOTFILES-UE-091 without linking ChatGPT, and the firewall declaration. Then Kris: attended Dock apply on Sol (RIG-DOCK-LIVE) and attended `rig apply --sudo` on Terra then Sol (RIG-FIREWALL-LIVE); then acceptance runs for KI-TOOL-RIG-CORE-042 and -047.
+3. Kris is on: the mgit hands-on check, then MGIT-RELEASE.
+4. QUERY-REVIEW (trial, one review so far): before each Summary, send its medium and low queries to one blind review run; after two or three, capture a harness record for the ki-coordination standard.
+5. At the next mark: recheck ki-principal CI (CI-RED-REST, owned by ki.chezmoi, ki.knowledge-acquisition and the GDR records) and ki-agentic-harness CI; check whether desk-kit is closed; clear cli150-deliver's gate logs and close it.
+6. Outstanding, not this work's: DESK-CAM with Mac Studio setup; pre-existing CI red in apps-observatory.local, mcp-m365, tools-mgit and ki-techne-harness; acquire-intake's ACQUIRE-DECISIONS-LINKS Messages line; another session's uncommitted KI-HARNESS-GOV-220.
 
 ## Messages
 
