@@ -29,4 +29,4 @@ You may read anything in the repositories named below and run read-only Git comm
 
 ## Report
 
-Write `/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.mac-studio-setup/query-review.report.md`, starting with a `# query-review report` heading. Give one `##` section per tag with your recommended course, its confidence and reason, and the evidence you checked. Use British English and ASCII hyphens only. Do not commit it.
+Write `/Users/krisbrown/.local/state/ki/agents/mac-studio-setup/query-review.report.md`, starting with a `# query-review report` heading. Give one `##` section per tag with your recommended course, its confidence and reason, and the evidence you checked. Use British English and ASCII hyphens only. Do not commit it.
