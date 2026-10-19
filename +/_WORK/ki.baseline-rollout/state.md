@@ -16,7 +16,8 @@ method_read: 2026-10-19T18:03:40Z
 - Routed: CHECKER-GAPS to ki.ways-of-working and ki.tools-burndown, TERRITORY-TECHMEDIX to ki.tools-burndown, one `messages.md` line each.
 - `ki-brew` received 00:01 BST: Homebrew `ki` upgraded 0.11.4 to 0.11.5; v0.12.0 (hooks migration) prepared in tools-ki but not yet tagged or in the tap.
 - `raise-tmx` received 00:05 BST: [TMX-PRINCIPAL-KB-008](/Users/krisbrown/workspaces/techmedix/tmx-principal/Streams/Roadmap/TMX-PRINCIPAL-KB-008-retitle-issuing-areas.md) and [TMX-PRINCIPAL-KB-009](/Users/krisbrown/workspaces/techmedix/tmx-principal/Streams/Roadmap/TMX-PRINCIPAL-KB-009-establish-theme-registry.md) captured and committed in tmx-principal, unpushed; TMX-AREA-TITLES and TMX-THEMES copied, awaiting one batched blind review with the other naming queries once all raise runs finish.
-- Running in run `baseline-rollout`: `raise-hnr`, `va-plan`, `raise-capitals`; queued: `raise-va` (after va-plan), `raise-capitals` (after raise-tmx), `sizekind-1` (after raise-hnr), `sizekind-2` (after raise-va). Records are captured as triage and committed locally, never pushed.
+- `raise-hnr` received 00:09 BST: five triage records in hnr-principal and the three 5g-emerge repositories, committed, unpushed; report kept as `report-raise-hnr.md`; its queries await the batched blind review.
+- Running in run `baseline-rollout`: `va-plan`, `raise-capitals`, `sizekind-1`; queued: `raise-va` (after va-plan), `sizekind-2` (after raise-va). Records are captured as triage and committed locally, never pushed.
 - HOOKS-MIGRATION: the estate moves from Husky to `.githooks` tonight; briefs keep off `package.json`, `bun.lock`, `.husky/`, `.githooks/` and non-dry-run conform.
 
 ## Next steps

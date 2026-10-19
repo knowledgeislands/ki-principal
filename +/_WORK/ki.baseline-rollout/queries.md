@@ -38,6 +38,48 @@ since 2026-10-20 · from `raise-tmx` at 00:04 BST · awaiting blind review
 
 **Options:** a) (recommended, confidence medium - it follows the assessment you already have, but the change relabels one record) Create `company-record` and `knowledge-stewardship`, and relabel KB-003 from `knowledge-base` to `knowledge-stewardship`. b) Create `company-record` and `knowledge-base`, leaving every record as it is.
 
+### AREA-WORDING - Confirm the proposed area titles
+
+since 2026-10-20 · from `raise-hnr` at 00:08 BST · awaiting blind review
+
+**Context:** The four records propose these titles. 5g-emerge-apex: `GOV` KI conformance, `HK` Housekeeping, `OPS` Deployment operations, `WEB` Public website. 5g-emerge-demos: `CONTRACT` Interface contracts, `DBD` Dashboard, `DEPLOY` Deployment and tooling. 5g-emerge-testbed: `DATA` Source data, `GOV` KI conformance, `HK` Housekeeping, `OPS` Deployment operations. hnr-principal: `5GE` 5G-EMERGE programme, `ENG` Engineering, `FIN` Company finance, `KM` Knowledge management, `PRD` Product, `RES` Research. The shared codes reuse the titles 5g-emerge-phase2 already has. Every code and allocation stays as it is.
+
+**Query:** Should the area titles be adopted as proposed when each record is adopted?
+
+**Options:**
+
+a) (recommended, confidence medium - the scratch audits pass, but the wording is your call) Confirm all the titles as proposed, so that each record can be adopted and delivered as written.
+
+b) Confirm them with changes you name, which each record takes before adoption.
+
+### DEMO-AREA - Issuing area for the demos record
+
+since 2026-10-20 · from `raise-hnr` at 00:08 BST · awaiting blind review
+
+**Context:** 5g-emerge-demos has no conformance area like its siblings' `GOV`. I therefore issued its record in `DEPLOY`, the nearest fit, because the only earlier `DEPLOY` record fixed a tooling audit. The record proposes retitling that area "Deployment and tooling" to match. Its identity stays the same whichever option you choose.
+
+**Query:** Should 5g-emerge-demos keep conformance work in `DEPLOY`, or gain a `GOV` area?
+
+**Options:**
+
+a) (recommended, confidence medium - it adds nothing to the configuration, but a `GOV` area would match the sibling repositories) Keep `DEPLOY`, titled "Deployment and tooling", as the home for conformance and tooling work.
+
+b) Add `GOV = "KI conformance"` in the same change, for future conformance records.
+
+### HNR-QUEUE - Tell hnr's own work package about these records
+
+since 2026-10-20 · from `raise-hnr` at 00:08 BST · awaiting blind review
+
+**Context:** hnr-principal's `hnr` work package has two open queries of its own that these records touch. Its AREA-TITLES asks whether to title the areas across the Capital and the 5g-emerge repositories in one pass, and HNR-PRINCIPAL-KM-019 now carries that work. Its INIT-MODEL asks which Initiatives the territory keeps, and that decides the theme set HNR-PRINCIPAL-KM-020 needs. I did not write to that work package, because the brief did not cover it.
+
+**Query:** Should a line go to the `hnr` work package's `messages.md`, pointing its AREA-TITLES query at HNR-PRINCIPAL-KM-019 and its INIT-MODEL query at HNR-PRINCIPAL-KM-020?
+
+**Options:**
+
+a) (recommended, confidence high - it only routes information and decides nothing) Route one `messages.md` line to `hnr` naming both records, so its worker can link or settle its own queries.
+
+b) Leave it, and let the hnr worker find the records at its next take-stock.
+
 ## Parked
 
 None.
