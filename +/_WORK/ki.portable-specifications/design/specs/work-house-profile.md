@@ -2,12 +2,13 @@
 
 **Owner:** Kris Brown · **Owning repository:** knowledgeislands/ki-principal · **Owning work:** `ki.portable-specifications` · **Date:** 2026-10-19
 
-Written by the run revise under WORK-PROFILE (Kris, 19 October, "as recommended", read back: "the house work package stays a mapped profile of `work` with an explicit field and state mapping; the house rules move out of the spec into the profile"). It maps the house work package, as the `ki-work-package` [work-package standard](/Users/krisbrown/.local/share/ki/harnesses/knowledgeislands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md) defines it, onto the portable [work specification](work.md), draft 0.2. When the spec is homed, this mapping goes beside it in `ki-work-package`; the house standard itself does not change.
+Written by the run revise under WORK-PROFILE (Kris, 19 October, "as recommended", read back: "the house work package stays a mapped profile of `work` with an explicit field and state mapping; the house rules move out of the spec into the profile"). It maps the house work package, as the `ki-work-package` [work-package standard](/Users/krisbrown/.local/share/ki/harnesses/knowledgeislands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md) defines it, onto the portable [work specification](work.md), draft 0.3. When the spec is homed, this mapping goes beside it in `ki-work-package`; the house standard itself does not change. The run revise-2 added the conversion rules and every destination key on 20 October, after the blind review of draft 0.2.
 
 ## Contents
 
 - [Conformance today](#conformance-today)
 - [Folder and files](#folder-and-files)
+- [Conversion rules](#conversion-rules)
 - [Work file](#work-file)
 - [State file](#state-file)
 - [Queries, messages and decisions](#queries-messages-and-decisions)
@@ -31,8 +32,19 @@ Under WORK-PROFILE a), the house package stays as it is and a portable reader re
 | `+/_WORK/<id>/`, dotted id such as `ki.observatory` | Package directory named for `name`; `.` allowed between segments | Conforms |
 | `work.md` | `WORK.md` | Maps; ENTRY-NAMES renames it |
 | `state.md`, `queries.md`, `messages.md`, `decisions.md` | The same four files | Conforms |
-| All five files from creation, starting as `None` | All five from creation, empty or `None` | Conforms |
+| All five files from creation, `work.md` and `state.md` with their front matter and the initial state, the other three starting as `None` | All five from creation, `WORK.md` and `state.md` valid, the other three empty or `None` | Conforms |
 | Run reports `<name>.report.md`, `briefs/<run>.md`, `design/` | Additional files and directories, allowed | Conforms; the spec's optional `references/` is not used |
+
+## Conversion rules
+
+A portable reader reads a house package through these rules, so that any two readers give the same result:
+
+- **Destination keys:** a house field the spec does not define goes to `metadata` under `ki-` and the house field name, with `_` written as `-`: `created_at` becomes `metadata.ki-created-at`, `method_read` becomes `metadata.ki-method-read`. The tables below name every destination.
+- **Strings:** copied unchanged, including holders such as `owner` or `run/<name>`.
+- **Timestamps:** copied unchanged as their UTC RFC 3339 string, such as `"2026-10-19T11:25:41Z"`.
+- **Booleans:** written as the string `"true"` or `"false"`.
+- **Nulls and absent fields:** a field that is `null` or absent is omitted, never written as the string `"null"`. The house standard gives `null` and absence the same meaning for every field that admits `null`, `theme`, `received`, `beat` and `method_read`, so nothing is lost.
+- **Mappings:** `hold` is split into its two keys, as the state file table shows.
 
 ## Work file
 
@@ -40,8 +52,14 @@ Under WORK-PROFILE a), the house package stays as it is and a portable reader re
 | --- | --- | --- |
 | `id` | `name` | Maps by rename; the value conforms |
 | `description`, at most 500 characters in the DESCRIPTION-SHAPE voice | `description`, at most 1,024 characters | Conforms; the house limit and voice are profile rules |
-| `level`, `title`, `label`, `project`, `theme`, `worker`, `supervisor` | `metadata` keys, as strings | Maps: a portable reader would find them as `metadata.ki-level` and so on; `theme: null` is omitted |
-| `created_at` | `metadata.ki-created-at` | Maps |
+| `level` | `metadata.ki-level` | Maps |
+| `title` | `metadata.ki-title` | Maps |
+| `label` | `metadata.ki-label`, omitted when absent | Maps |
+| `project` | `metadata.ki-project`, omitted when absent | Maps |
+| `theme` | `metadata.ki-theme`, omitted when absent or `null` | Maps |
+| `worker` | `metadata.ki-worker` | Maps |
+| `supervisor` | `metadata.ki-supervisor` | Maps |
+| `created_at` | `metadata.ki-created-at`, omitted when absent | Maps |
 | No `spec` | `metadata.spec` absent, so `work/1` | Conforms |
 | Body `# <id>`, `## Goals`, `## Scope` with `In:` and `Out:` lines | Recommended `## Goals` and `## Scope` | Conforms; the H1, the upward links and the `In:` and `Out:` form are profile rules |
 
@@ -52,10 +70,14 @@ Under WORK-PROFILE a), the house package stays as it is and a portable reader re
 | `id` | No field; the name is in `WORK.md` | Maps to `metadata.ki-id` |
 | `since` | `updated` | Maps by rename; both are UTC RFC 3339 |
 | `state` | `state`, with the house value kept as `metadata.ki-state` | Maps, by the state table below |
-| `target` | `waiting-on` in `handoff`; kept as `metadata.ki-target` | Maps |
+| `target` | `waiting-on` in `handoff`, and `metadata.ki-target`; omitted when absent | Maps |
 | `hold.release` | `release` | Maps |
-| `hold.reason` | `metadata.ki-hold-reason` | Maps |
-| `blocking`, `received`, `beat`, `mark`, `method_read` | `metadata.ki-blocking` and so on, as strings | Maps |
+| `hold.reason` | `metadata.ki-hold-reason`, `"paused"` or `"more-expected"` | Maps |
+| `blocking` | `metadata.ki-blocking`, `"true"` or `"false"`; omitted when absent | Maps |
+| `received` | `metadata.ki-received`; omitted when absent or `null` | Maps |
+| `beat` | `metadata.ki-beat`; omitted when absent or `null` | Maps |
+| `mark` | `metadata.ki-mark`; omitted when absent | Maps |
+| `method_read` | `metadata.ki-method-read`; omitted when absent or `null` | Maps |
 | Body `## Now`, `## Next steps`, `## Held`, and `## Queue` for territory work | Free body: where the work stands and what whoever picks it up does first | Conforms; the sections and their caps are profile rules |
 
 The seven house states map onto the four by Kris's four kinds of state in the Work Process note, "with someone", "handed off", "on hold" and "done":
@@ -64,10 +86,10 @@ The seven house states map onto the four by Kris's four kinds of state in the Wo
 | --- | --- | --- | --- |
 | `with-worker` | with someone | `active` | - |
 | `with-supervisor` | with someone | `active` | - |
-| `handoff-to-supervisor` | handed off | `waiting` | the supervisor, from `work.md` |
-| `handoff-to-worker` | handed off | `waiting` | the worker, from `work.md` |
-| `handoff` | handed off | `waiting` | `target` |
-| `on-hold` | on hold | `on-hold` | `hold.release` |
+| `handoff-to-supervisor` | handed off | `waiting` | `waiting-on` is `work.md`'s `supervisor`, copied unchanged |
+| `handoff-to-worker` | handed off | `waiting` | `waiting-on` is `work.md`'s `worker`, copied unchanged |
+| `handoff` | handed off | `waiting` | `waiting-on` is `target`, copied unchanged |
+| `on-hold` | on hold | `on-hold` | `release` is `hold.release`, copied unchanged |
 | `finished` | done | `done` | - |
 
 This differs from draft 0.1's mapping, which put `with-supervisor` under `waiting`: in the house model the supervisor holds the work and the next move is theirs, which is the spec's `active`.

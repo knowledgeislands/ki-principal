@@ -2,7 +2,7 @@
 
 **Owner:** Kris Brown · **Owning repository:** knowledgeislands/ki-principal · **Owning work:** `ki.portable-specifications` · **Date:** 2026-10-19
 
-Draft 0.1 was written by the run spec-drafts under Kris's definition of the three areas at 14:27 BST on 19 October, in ki.ways-of-working. Draft 0.2 was written by the run revise, step 3 of [the plan](../plan.md#steps), to every owner decision in [decisions.md](../../decisions.md) and the findings of the [live Agent Skills check](../agentskills-check.md). Each is a portable, tool-neutral specification in the [Agent Skills specification](https://agentskills.io/specification)'s page format. Under SPEC-HOME and KNOWLEDGE-SKILL each will be held as one reference in its owning skill, `ki-work-package`, a new `ki-knowledge-package` and `ki-acquire`, and published from the same text later in this Project. Nothing here is published.
+Draft 0.1 was written by the run spec-drafts under Kris's definition of the three areas at 14:27 BST on 19 October, in ki.ways-of-working. Draft 0.2 was written by the run revise, step 3 of [the plan](../plan.md#steps), to every owner decision in [decisions.md](../../decisions.md) and the findings of the [live Agent Skills check](../agentskills-check.md). Draft 0.3 was written by the run revise-2 on 20 October to the findings of the blind review of draft 0.2, [draft-review](../../draft-review.report.md). Each is a portable, tool-neutral specification in the [Agent Skills specification](https://agentskills.io/specification)'s page format. Under SPEC-HOME and KNOWLEDGE-SKILL each will be held as one reference in its owning skill, `ki-work-package`, a new `ki-knowledge-package` and `ki-acquire`, and published from the same text later in this Project. Nothing here is published.
 
 ## The three specifications
 
@@ -20,8 +20,9 @@ All three add, as their own rules rather than Agent Skills':
 
 - **One entry file in upper case,** named for the spec, as `SKILL.md` is (ENTRY-NAMES). Agent Skills fixes only the name `SKILL.md` and sets no rule on the case of other files.
 - **A closed list of top-level keys,** stated in words. Agent Skills' page lists six fields without saying no others are allowed; its validator, `skills-ref`, rejects any other.
-- **Every added field in `metadata`, as a string** (SPEC-LOCATION): `spec`, `knowledge`'s `updated`, `owner` and `acquired-with`, and `acquire`'s `source`, `mutation`, `produces` and `omissions`, the last one comma-separated string. A reader ignores `metadata` keys it does not know, and a profile adds its own there with a prefix, following Agent Skills' advice that keys be reasonably unique. So `knowledge` and `acquire` packages, renamed to `SKILL.md`, pass `skills-ref validate` as read on 19 October; a `work` package does not, because of its dotted name and its extra required files.
+- **Every added field in `metadata`, as a string** (SPEC-LOCATION): `spec`, `knowledge`'s `updated`, `owner` and `acquired-with`, and `acquire`'s `source`, `mutation`, `produces` and `omissions`, the last one comma-separated string. A reader ignores `metadata` keys it does not know, and a profile adds its own there with a prefix, following Agent Skills' advice that keys be reasonably unique. So `knowledge` and `acquire` packages, renamed to `SKILL.md`, pass `skills-ref validate` as read on 19 October. A `work` package makes no such claim: its entry file is `WORK.md`, and renamed to `SKILL.md` its front matter passes only when its `name` has no `.`; its four other required files are additional files, which Agent Skills allows.
 - **`metadata.spec`** (SPEC-VERSION): `work/1`, `knowledge/1` or `acquire/1`; absent means version 1 for good; a reader rejects a major version it does not support, and validation checks the field.
+- **Internal links and external references:** a relative link inside the package must resolve; anything outside it, another package or evidence kept elsewhere, is an external reference by package name, URL or a relative path beginning `../`, checked for its form but not required to resolve.
 - **One level of validity** (CONFORMANCE-LEVELS), with size limits warned and never failed.
 - **Attribution:** each draft carries the CC BY 4.0 attribution line the [live check](../agentskills-check.md#4-licence-of-the-specification-text) sets, and each published page must carry it too.
 
@@ -38,9 +39,9 @@ Each spec stays self-contained, as Agent Skills is. A drift check, one rubric cr
            cited as the method a piece of work follows
 ```
 
-An acquire package produces or refreshes a knowledge package, and each names the other in `metadata`. A work package may cite either, but contains neither: the work ends, while knowledge and methods outlast it.
+An acquire package may produce or refresh a knowledge package; where that persistent relationship is declared, each names the other in `metadata`, and a method whose output is transient names none. A work package may cite either, but contains neither: the work ends, while knowledge and methods outlast it.
 
-Curation, turning an acquire run's output or a piece of work's findings into a knowledge package, sits between the specs. `knowledge` asks only that the result names its sources, including the run output it was taken from; what curation must do and record, and who owns it, is not yet decided.
+Curation, turning an acquire run's output or a piece of work's findings into a knowledge package, sits between the specs. `knowledge` requires only a Sources section, which for content curated from an acquire run names the acquire package, the run output it was taken from and when that run read the source; what curation must further do and record, and who owns it, is not yet decided.
 
 ## Where earlier material maps
 

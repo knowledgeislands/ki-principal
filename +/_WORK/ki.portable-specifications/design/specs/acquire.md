@@ -2,7 +2,7 @@
 
 > The format for an acquire package: how to acquire knowledge from one source or with one tool, faithfully and repeatably, so that what it yields can be curated into a knowledge package.
 
-**Status:** draft 0.2, 19 October 2026. Name `acquire`. To be held in `ki-acquire` as `references/standards-acquire-spec.md`. Follows the [Agent Skills specification](https://agentskills.io/specification); see [Relation to Agent Skills](#relation-to-agent-skills).
+**Status:** draft 0.3, 20 October 2026. Name `acquire`. To be held in `ki-acquire` as `references/standards-acquire-spec.md`. Follows the [Agent Skills specification](https://agentskills.io/specification); see [Relation to Agent Skills](#relation-to-agent-skills).
 
 Structure and some wording adapted from the [Agent Skills specification](https://agentskills.io/specification), originally developed by Anthropic and published under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); changed to describe acquire packages.
 
@@ -87,7 +87,7 @@ A map from string keys to string values, as Agent Skills. This specification def
 - `source` (required) - max 200 characters. The source or tool read, and the interface used to read it, such as `Meeting-notes service, official MCP server` or `git command-line help and man pages, local install`. Two packages reading the same source through different interfaces are different methods and say so here.
 - `mutation` (required) - `none` or `declared`: what the method may change at the source. `none` means it only reads. `declared` means it makes changes the body's Mutation section lists one by one, each with its confirmation step, such as marking an item as acquired in a private folder. Anything not listed is forbidden; an advertised write operation the source offers grants no permission. Most acquire packages should be `none`.
 - `omissions` (recommended) - what the source holds that this method does not capture, such as audio, edit history or deleted items, as one comma-separated list in a single string. Declaring omissions lets the curator and every later reader tell "not captured" from "not there". An omission not declared is a defect in the package.
-- `produces` - the name or relative path of the [knowledge package](knowledge.md) this method feeds. The knowledge package names this acquire package back in its `metadata.acquired-with`.
+- `produces` - an [external reference](#references-outside-the-package) to the [knowledge package](knowledge.md) this method feeds: its name, a URL or a relative path. A method whose output is transient omits it. Where it is declared, the knowledge package should name this acquire package back in its `metadata.acquired-with`.
 - `spec` - the specification and major version the package follows, `acquire/1`. Absent means `acquire/1`, now and in every later version. A reader that does not support the major version named rejects the package rather than reading it as an earlier one.
 
 Any other property goes here as a string, with a key name unlikely to clash with another reader's, such as a prefix of the profile that defines it. A reader ignores `metadata` keys it does not know. A package's own version, where it has one, goes in `metadata.version`, as Agent Skills' examples do.
@@ -110,7 +110,7 @@ Keep `ACQUIRE.md` under 500 lines and about 5,000 tokens; move the source's deta
 
 ### `scripts/`
 
-Executable steps, as Agent Skills: self-contained or with stated dependencies, clear errors, and a dry run for any step that writes. A script must stop rather than continue when the source's responses change shape.
+Executable steps. As Agent Skills recommends, a script is self-contained or documents its dependencies, gives helpful error messages and handles edge cases gracefully. This specification adds two requirements of its own: a script offers a dry run for any step that writes, and stops rather than continues when the source's responses change shape.
 
 ### `references/`
 
@@ -128,7 +128,17 @@ Templates for output items, schemas, and small fixtures for testing the scripts.
 
 ## File references
 
-Use relative paths from the package root, one level deep, as Agent Skills does. Make execution intent explicit: "Run `scripts/list.py`" executes it, "See `scripts/list.py` for the paging rules" reads it.
+Use relative paths from the package root, one level deep, as Agent Skills does. Make execution intent explicit: "Run `scripts/list.py`" executes it, "See `scripts/list.py` for the paging rules" reads it. Such an internal link stays inside the package and must resolve.
+
+### References outside the package
+
+Anything outside the package, such as the [knowledge package](knowledge.md) it feeds or the place a run's output is kept, is an external reference, written in one of three forms:
+
+- **A package name**, such as `project-history`: it resolves to the package of that name the reader can see, first a sibling directory of this package, then any collection of packages the reader is given
+- **A URL**: it resolves as the URL does
+- **A relative path that leaves the package**, beginning `../`: it resolves from the directory of the file that holds it, as any relative link does
+
+An external reference must have one of these forms, but validation does not require it to resolve, because what it names lives, moves and ends on its own. A reader that cannot resolve one reports it as unresolved and goes on reading the package.
 
 ## Validation
 
@@ -139,16 +149,16 @@ A package is valid when:
 - `metadata` maps strings to strings and holds `source` and `mutation` meeting their constraints; `metadata.spec`, where present, is `acquire/` followed by a major version the reader supports
 - the body has the Scope, Procedure, Output and Verification sections, and a Mutation section when `metadata.mutation` is `declared`
 - no file in the package holds a credential, token or captured source content
-- every relative link resolves inside the package
+- every internal link resolves inside the package, and every external reference, including `metadata.produces`, has one of the three forms above
 
 There is one level of validity. Size limits are recommendations, warned and never failed. Whether the procedure really finds everything in scope, whether its rigour suits the source, and whether the declared omissions are the whole list are judgements a reviewer makes against a trial run. No reference validator exists yet.
 
 ## Relation to Agent Skills
 
-- **Reused unchanged:** a package is a directory named for it; an entry file with YAML front matter and a Markdown body; `name`, `description`, `license`, `compatibility`, `metadata` and `allowed-tools` with their constraints, and Agent Skills' advice that `metadata` keys be reasonably unique; `scripts/`, `references/` and `assets/`; three disclosure tiers; relative file references one level deep.
-- **Different, and why:** the entry file is `ACQUIRE.md`, in upper case as `SKILL.md` is, which is this specification's rule, not Agent Skills'; `metadata` is required and must hold `source` and `mutation`, because a reader must see what is read and whether the source can be changed before trusting a run, and both are read in the first tier; `metadata.omissions` and `metadata.produces` are defined, so the gaps and the destination are machine-readable; `metadata.spec` is defined so a reader can tell the version; the body has required sections, because completeness, provenance and verification are the guarantees acquisition exists to give; no captured content or credentials may sit in the package.
+- **Reused unchanged:** a package is a directory named for it; an entry file with YAML front matter and a Markdown body; `name`, `description`, `license`, `compatibility`, `metadata` and `allowed-tools` with their constraints, and Agent Skills' advice that `metadata` keys be reasonably unique; `scripts/`, with Agent Skills' recommendations for scripts, `references/` and `assets/`; three disclosure tiers; relative file references one level deep.
+- **Different, and why:** the entry file is `ACQUIRE.md`, in upper case as `SKILL.md` is, which is this specification's rule, not Agent Skills'; `metadata` is required and must hold `source` and `mutation`, because a reader must see what is read and whether the source can be changed before trusting a run, and both are read in the first tier, which is therefore about 150 tokens rather than 100; `metadata.omissions` and `metadata.produces` are defined, so the gaps and the destination are machine-readable; `metadata.spec` is defined so a reader can tell the version; the body has required sections, because completeness, provenance and verification are the guarantees acquisition exists to give; scripts must offer a dry run for any step that writes and must stop when the source's responses change shape, because a write made unseen or a response misread breaks those guarantees; external references to other packages and to kept output are defined, because a method feeds knowledge it does not contain; no captured content or credentials may sit in the package.
 - **Skill validity:** every added field sits in `metadata`, so the front matter uses only fields Agent Skills defines; renamed to `SKILL.md`, a conforming package passed the checks `skills-ref validate` made when its source was read on 19 October 2026, and is a skill whose task is acquisition.
 
 ## Relation to the other specifications
 
-An acquire package produces or refreshes a [knowledge package](knowledge.md): a run's output is curated into it, and the two name each other through `metadata.produces` and `metadata.acquired-with`. A [work package](work.md) may cite an acquire package as the method a piece of its work follows; the method itself outlasts the work.
+An acquire package may produce or refresh a [knowledge package](knowledge.md): a run's output is curated into it. Where that persistent relationship is declared, the two name each other through `metadata.produces` and `metadata.acquired-with`; a method whose output is transient names no knowledge package. A [work package](work.md) may cite an acquire package as the method a piece of its work follows; the method itself outlasts the work.

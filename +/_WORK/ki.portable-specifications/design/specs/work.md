@@ -2,7 +2,7 @@
 
 > The format for a work package: one piece of work, its definition and its current state, packaged so that any person or agent can pick it up.
 
-**Status:** draft 0.2, 19 October 2026. Name `work`. To be held in `ki-work-package` as `references/standards-work-spec.md`. Follows the [Agent Skills specification](https://agentskills.io/specification); see [Relation to Agent Skills](#relation-to-agent-skills).
+**Status:** draft 0.3, 20 October 2026. Name `work`. To be held in `ki-work-package` as `references/standards-work-spec.md`. Follows the [Agent Skills specification](https://agentskills.io/specification); see [Relation to Agent Skills](#relation-to-agent-skills).
 
 Structure and some wording adapted from the [Agent Skills specification](https://agentskills.io/specification), originally developed by Anthropic and published under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); changed to describe work packages.
 
@@ -28,7 +28,7 @@ work-name/
 `-- ...              # Any additional files or directories
 ```
 
-All five files exist from the moment the package is created, empty or saying `None` until they have content, so that a reader never meets a missing file.
+All five files exist from the moment the package is created, so that a reader never meets a missing file. `WORK.md` and `state.md` are valid from creation: `WORK.md` with its required front matter, and `state.md` with its required front matter and the work's initial state. `queries.md`, `messages.md` and `decisions.md` may start empty or saying `None` until they have content.
 
 ## `WORK.md` format
 
@@ -167,14 +167,24 @@ The Agent Skills conventions apply. `references/` holds documents read when anot
 A work package is read in three tiers, as a skill is:
 
 1. **Metadata** (about 100 tokens): `name` and `description` from `WORK.md` and the `state.md` front matter, read to tell what each package is and where it stands without opening it
-2. **Package** (bounded by the size limits below): the `WORK.md` body, then `state.md`, `queries.md`, `messages.md` and `decisions.md`, read in full by whoever takes the work on
+2. **Package** (up to about 25,000 tokens, at the limits below): the `WORK.md` body, then `state.md`, `queries.md`, `messages.md` and `decisions.md`, read in full by whoever takes the work on
 3. **Resources** (as needed): `references/` and `assets/`, read only when another file names them
 
-Keep `WORK.md` and each of the other required files under 500 lines and about 5,000 tokens; move detail into `references/`.
+Keep `WORK.md` and each of the other required files under 500 lines and about 5,000 tokens; move detail into `references/`. The second tier reads five files, so at those limits it may reach about 25,000 tokens, five times a skill's body; keep it well below that by moving detail into `references/` and removing queries, messages and decisions once settled. These limits are recommendations.
 
 ## File references
 
-Use relative paths from the package root, one level deep, as Agent Skills does: `See [the cut-over plan](references/cut-over-plan.md).`
+Use relative paths from the package root, one level deep, as Agent Skills does: `See [the cut-over plan](references/cut-over-plan.md).` Such an internal link stays inside the package and must resolve.
+
+### References outside the package
+
+Anything outside the package, such as a [knowledge package](knowledge.md), an [acquire package](acquire.md) or evidence kept elsewhere, is an external reference, written in one of three forms:
+
+- **A package name**, such as `uk-vat-for-freelancers`: it resolves to the package of that name the reader can see, first a sibling directory of this package, then any collection of packages the reader is given
+- **A URL**: it resolves as the URL does
+- **A relative path that leaves the package**, beginning `../`: it resolves from the directory of the file that holds it, as any relative link does
+
+An external reference must have one of these forms, but validation does not require it to resolve, because what it names lives, moves and ends on its own. A reader that cannot resolve one reports it as unresolved and goes on reading the package.
 
 ## Validation
 
@@ -185,15 +195,16 @@ A package is valid when:
 - `metadata`, in either file, maps strings to strings, and `metadata.spec`, where present, is `work/` followed by a major version the reader supports
 - `state.md` front matter has only the fields listed above, with a valid `state` and `updated` and with `waiting-on` or `release` where its state requires one
 - `WORK.md` carries no state
-- every relative link resolves inside the package
+- every internal link resolves inside the package, and every external reference has one of the three forms above
 
 There is one level of validity. Size limits are recommendations, warned and never failed. No reference validator exists yet; `skills-ref validate` checks only a `SKILL.md`, and would reject a dotted `name`.
 
 ## Relation to Agent Skills
 
-- **Reused unchanged:** a package is a directory named for it; an entry file with YAML front matter and a Markdown body; `description`, `license`, `compatibility` and `metadata` with their constraints, and Agent Skills' advice that `metadata` keys be reasonably unique; `references/` and `assets/`; three disclosure tiers; relative file references one level deep; soft size limits.
-- **Different, and why:** the entry file is `WORK.md`, in upper case as `SKILL.md` is, which is this specification's rule, not Agent Skills'; five required files rather than one, because a work package carries changing state beside a stable definition and keeping them apart lets the definition stay small and rarely edited; `name` admits `.` between segments, because work nests within larger work, so a work package is never a valid skill; `metadata.spec` is defined, because work packages are long-lived and a reader must tell which version wrote one; the closed list of top-level keys is stated in words, where Agent Skills states it only through its validator; the metadata tier also reads the `state.md` front matter, because where work stands is part of what it is; no `scripts/` or `allowed-tools`, because a work package directs work rather than performing it.
+- **Reused unchanged:** a package is a directory named for it; an entry file with YAML front matter and a Markdown body; `description`, `license`, `compatibility` and `metadata` with their constraints, and Agent Skills' advice that `metadata` keys be reasonably unique; `references/` and `assets/`; three disclosure tiers; relative file references one level deep; soft size limits for each file.
+- **Different, and why:** the entry file is `WORK.md`, in upper case as `SKILL.md` is, which is this specification's rule, not Agent Skills'; five required files rather than one, because a work package carries changing state beside a stable definition and keeping them apart lets the definition stay small and rarely edited; `name` admits `.` between segments, because work nests within larger work; `metadata.spec` is defined, because work packages are long-lived and a reader must tell which version wrote one; the closed list of top-level keys is stated in words, where Agent Skills states it only through its validator; the metadata tier also reads the `state.md` front matter, because where work stands is part of what it is; the package tier reads five files, up to about 25,000 tokens at the per-file limits against a skill body's 5,000, because whoever takes the work on needs its definition, state, questions, messages and decisions together; external references to other packages and evidence are defined, because work cites methods and knowledge it does not contain; no `scripts/` or `allowed-tools`, because a work package directs work rather than performing it.
+- **Skill validity:** a work package makes no claim to be a skill. Its entry file is `WORK.md`, not `SKILL.md`. Renamed to `SKILL.md`, the `WORK.md` of a package with an undotted `name` passed the checks `skills-ref validate` made when its source was read on 19 October 2026, while a dotted `name` fails them; the four other required files are additional files, which Agent Skills allows.
 
 ## Relation to the other specifications
 
-A work package may cite a [knowledge package](knowledge.md) as the background its worker reads, or an [acquire package](acquire.md) as the method a piece of its work follows, by relative path or name in any of its files. Neither belongs inside a work package: the work ends, while knowledge and acquisition methods outlast it.
+A work package may cite a [knowledge package](knowledge.md) as the background its worker reads, or an [acquire package](acquire.md) as the method a piece of its work follows, by an [external reference](#references-outside-the-package) in any of its files. Neither belongs inside a work package: the work ends, while knowledge and acquisition methods outlast it.
