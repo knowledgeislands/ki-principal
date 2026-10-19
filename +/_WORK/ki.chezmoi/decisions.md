@@ -159,3 +159,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 143 (2026-10-19T23:36:00Z)
 
 - Pointer: CMIGRATE-PIN a), taken under OVERNIGHT with confidence high after blind review: vega's Linux `tool.mgit` pin moves from v0.16.0 to v0.18.0 in source only, with the checksum confirmed from the tag and `rig doctor` before and after; vega rendering stays held ([cmigrate](/Users/krisbrown/.local/state/ki/agents/chezmoi/cmigrate.report.md), [cpin-blind](/Users/krisbrown/.local/state/ki/agents/chezmoi/cpin-blind.report.md)). Run cpin.
+
+## Decision 144 (2026-10-19T23:48:00Z)
+
+- Pointer: RIGDOC-DETAIL a), taken under OVERNIGHT with confidence high after blind review: the bring-up check keeps `rig doctor`'s exit codes, and structured JSON counts are looked at in KB-DOTFILES-UE-090 round 3, because doctor's JSON groups prose findings rather than typed counts ([ue090-r1](/Users/krisbrown/.local/state/ki/agents/chezmoi/ue090-r1.report.md), [r1-review](/Users/krisbrown/.local/state/ki/agents/chezmoi/r1-review.report.md)). Round 1's gate failed on two defects (runtime declaration coverage, unbounded zero timeout); run ue090-r1b fixes them before a re-review.
