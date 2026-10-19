@@ -45,3 +45,9 @@ Read back taken:
 Kris: "VA:LID_SKILL as recommended"
 
 Read back taken: VALID-SKILL a) - every added field of `knowledge` and `acquire` sits in `metadata`, `omissions` as one string with a defined separator, and the valid-skill claim stays, qualified that the entry file is presented as `SKILL.md`; `work` lists its fields as a difference. Draft 0.2 already reads so.
+
+## 2026-10-20 00:01 BST - owner definition, KNOWLEDGE-AS-SKILL (answers CURATION-OWNER)
+
+Kris: "Acquire into the knowledge package isn't really a transition between the two; it's where we want to condense or take a piece of knowledge out of a particular area and factorize it into a skill, effectively. But it the focus of that skill is the knowledge rather than doing something or learning something or being able to perform an action. So really that's what I said about it being a skill extension, really, first and foremost."
+
+Read back taken: KNOWLEDGE-AS-SKILL - a knowledge package is first and foremost an Agent Skills extension: a skill into which a piece of knowledge from a particular area is condensed and factored, whose focus is the knowledge rather than doing, learning or performing an action (his earlier "in a similar way to the way that skills work"). `acquire` does not feed `knowledge` as a pipeline stage, so CURATION-OWNER's premise falls: condensing and factoring is what making a knowledge package is, owned by the `knowledge` spec under `ki-knowledge-package`, and the drafts drop the acquire-to-knowledge transition. Authorises: revise-3, chained after revise-2, reframing `knowledge` and `specs.md` to this.
