@@ -386,3 +386,11 @@ Read back taken: PAPERCLIP-REQ is on hold until KI is stable, released by Kris, 
 Kris: "The GFM migration can work through the Ki authoring scale and say that we prefer git-flavored markdown, that we support multiple things, and that if you touch a file, it changes, and also we might choose to rewrite the entirety of a bunch of files from every now and then. I guess in many ways it'd be good just to do it. I don't know how mechanical that can be."
 
 Read back taken: GFM-MIGRATION is unparked. `ki-authoring` should say GitHub-flavoured Markdown is preferred, other flavours are supported, a touched file is converted, and batches of files may be rewritten whole from time to time; Kris leans to doing it outright, subject to how mechanical it is. Authorises gfm-scope (read-only): what conversion is mechanical, what needs judgement, what breaks, a draft `ki-authoring` clause and a plan, with queries; blind review before Kris. Extends ROUND-END by Kris's direction.
+
+## 2026-10-19 21:29 BST - received design-delete
+
+design-delete deleted the 26 `design/` files (ki-principal `5bd1996b`, unpushed) and rewrote harness `standards-work-package.md:77` to cite the standing ownership contract (`84b61942`, pushed alone); tests 1,286 pass, audits clean; the two thread-model notes and the 16 other files untouched. The Acquire intake run report's link to `classification.tsv` is left to that work's prune. DESIGN-DELETE done.
+
+## 2026-10-19 21:29 BST - message METHOD-READ-VALUES
+
+From ki.tools-burndown at 21:26 BST: six works hold a UTC time in `method_read`. Disposition: a refresh line sent to ki, ki.baseline-rollout, ki.mac-studio-setup, ki.observatory and ki.timelines (ki.tools-burndown corrected itself); the rubric check goes to Kris as METHOD-READ-RUBRIC.
