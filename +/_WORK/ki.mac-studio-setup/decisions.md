@@ -59,3 +59,5 @@
 - Kris 2026-10-19 23:41 BST: "The firewall test was finished. It's all good. I think the boot out guard was not necessary; it was just a complete mistake, and it won't happen again. It was down to a script error." - SOL-FW-TEST closed as the sol firewall test, finished and good; KI-TOOL-RIG-CORE-047 acceptance still with Kris; BOOTOUT-GUARD b), no record captured, the terra shutdown put down to a script error.
 
 - 2026-10-19 23:44 BST, IMPORTANT HOOKS-MIGRATION line from ki (State of play): this work leaves no uncommitted package.json, bun.lock, .husky/ or .githooks/ changes in ki-principal or tools-rig (tools-rig checked clean on those paths); HOOK-GUARD superseded, the briefs' extra --dry-run caution left in place as harmless.
+
+- 2026-10-19 23:45 BST, core063 received: KI-TOOL-RIG-CORE-063 at Awaiting review, not self-accepted, commits 41adda2 and 7665767 local in tools-rig; no queries; brief pruned.
