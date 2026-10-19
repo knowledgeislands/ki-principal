@@ -11,6 +11,7 @@ method_read: 9c17df3c
 
 ## Now
 
+- hooksv2 finished 22:16 BST: hooks-standard rewritten to the decided shape with HOOK-AUDIT checks (HOOK-3 to HOOK-5, WARN then FAIL) and the exact harness changes; KI-TOOL-KI-CLI-161 (`ki git check-message`) captured in tools-ki, local. WAVE-PLAN (medium) to wvreview.
 - Marked at 22:13 BST on 19 October; decisions struck to live entries, work folder pruned.
 - Running: hooksv2 (hooks design for the decided shape, mechanical audit checks, tools-ki `ki git check-message` record); gfmconv queued after it (GitHub-flavoured Markdown converter in tools-ki).
 - Released today: `ki` v0.11.5 at `395060ae` and mgit v0.18.0 at `9a3564d`; KI-TOOL-MGIT-CLI-028 and KI-TOOL-MGIT-CLI-023 accepted.
