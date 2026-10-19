@@ -1,8 +1,8 @@
 ---
 id: ki.baseline-rollout
-state: handoff-to-supervisor
-since: 2026-10-19T18:03:40Z
-received: 2026-10-19T18:03:40Z
+state: with-worker
+since: 2026-10-19T18:40:39Z
+received: 2026-10-19T18:40:39Z
 beat: null
 mark: 2026-10-19T18:03:40Z
 method_read: 2026-10-19T18:03:40Z
@@ -12,15 +12,15 @@ method_read: 2026-10-19T18:03:40Z
 
 ## Now
 
-- Received from Kris at 19:04 BST on 19 October, marked then and sent back to Kris: nothing is authorised to run until WAVE-1 is answered.
-- FIRST-STEP done: `ki-work-package` and all five files re-read; description, Goals and Scope confirmed against the opener decisions; WAVE-1 restated in `queries.md` with a fresh recommendation.
-- With Kris: WAVE-1.
-- Nothing running; run `baseline-rollout` is empty.
+- Acted at 19:42 BST on the ways-of-working REFRESH line (QUERY-REVIEW, REFRESH-RESUMMARY): standard re-read; WAVE-1, at medium confidence, sent to blind review; line removed.
+- Running: `wave1-review` in run `baseline-rollout`, Codex at high effort, read-only, brief `brief-wave1-review.md`.
+- WAVE-1 stays with Kris meanwhile; nothing else is authorised.
 
 ## Next steps
 
-1. On Kris's WAVE-1 answer, record it in `decisions.md`, then launch the first wave through `ki agent` in run `baseline-rollout`, read-only: `ki territory audit` across the six territories, the roadmap conformance sweep, and a harness status check for KI-HARNESS-GOV-205, KI-HARNESS-GOV-221 and COORD-1.
-2. Stay responsive; Kris's messages steer, and stop or abort only when Kris expressly says so, naming the work.
+1. On `wave1-review`'s report, fold its view into WAVE-1 (agreement lifts confidence one level, marked reviewed; disagreement shows both), prune the brief, and give Kris a fresh Summary.
+2. On Kris's WAVE-1 answer, record it in `decisions.md`, then launch the read-only first wave through `ki agent` in run `baseline-rollout`.
+3. Stay responsive; Kris's messages steer, and stop or abort only when Kris expressly says so, naming the work.
 
 ## Held
 
