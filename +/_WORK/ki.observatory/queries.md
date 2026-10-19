@@ -10,8 +10,6 @@ Awaiting review, for the morning: KI-OBSERVA-VIS-043, BRG-006, APP-045, VIS-044;
 
 From obs-app044-plan at 00:35 BST, medium. obs-review-4 (Codex, high) agreed on a) but disagreed on Work: keep Work and its mapping until the Streams proposal shows where its views go, limit Waiting for you to the Review rename, keep the step-3 promotion gate; stays medium, both views to Kris. Factual fixes to the record under obs-app044-fix. Report: ~/.local/state/ki/agents/observatory/obs-app044-plan.report.md
 
-- ACCEPT batch, when the builds finish: KI-OBSERVA-VIS-043, BRG-006, APP-045 (and VIS-044), KI-WEBSITE-SITE-044, KI-DESIGN-TOK-001, MAP-001.
-
 ## Parked
 
 None.
