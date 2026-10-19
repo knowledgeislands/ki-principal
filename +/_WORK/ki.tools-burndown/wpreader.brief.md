@@ -1,7 +1,0 @@
-# wpreader - ki work status reads the work package
-
-Repository: /Users/krisbrown/workspaces/knowledge-islands/tools-ki. Starts after cli155. Work package: /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown.
-
-Under the [work-package standard](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/work-package.md#migration) (points 35 and 39): make `ki work status`, its help text and man page read both shapes, state fields from `state.md` where it exists, else `work.md`; add `description`, `method_read` and a pending-message count; rename `ki-work-folder` to `ki-work-package`. Blocking: the KI folders have migrated and today's `ki work status` misses them. Capture the record (check KI-TOOL-KI-CLI-149, -150 and -152 for overlap first and extend rather than duplicate), plan and implement it to Awaiting review, verify with the repository gate and `ki work status` over ki-principal's `+/_WORK/`. Report whether it can ride the patch release cli155 prepared.
-
-Work under ki-delegation and ki-git: commit your own changes by explicit path, never push, tag, publish or delete a remote branch, never use --no-verify. Write your report to ~/.local/state/ki/agents/tools-burndown/wpreader.report.md in the ki-coordination owner-report shape (Done, In Progress, Queries with Context, Query and lettered Options, a) recommended with confidence). Raise a blocking query in the report and stop rather than guess.

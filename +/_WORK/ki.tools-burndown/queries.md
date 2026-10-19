@@ -48,19 +48,21 @@ a) (recommended, confidence medium - reviewed, your check passed and the blind r
 
 b) Bring the acceptance and the finished release back to you before the tag.
 
-### KI-RELEASE-GO - Cut the ki patch release once it is ready
+### KI-RELEASE-GO - Cut the ki v0.11.5 patch release
 
-since 2026-10-19 · from the KI-PATCH-RELEASE message
+since 2026-10-19 · from the KI-PATCH-RELEASE message, updated at 21:26 BST with wpreader's RIDE-0115
 
-**Context:** Through ki.ways-of-working you asked for one `ki` patch release "soon", carrying KI-TOOL-KI-CLI-155 so `priority` and `size` stop dropping 18 records, and pinning a ki-agentic-harness that provides `ki-work-package`, so ki-principal CI stops failing at "Install released KI". Your standing rule is to ask before any `ki` release. The cli155 run is building the change now and stops before tagging, pushing or publishing. Since then the harness pin landed (`c55a6c42`) and the reciprocal link (`0720a05`), with the full suite green; the audit still fails on the wpreader run's new record KI-TOOL-KI-CLI-158, which wpreader is fixing. The blind review prefers b): the live gate is red and code is still being edited, so you should see the clean, fully gated final candidate before authorising its tag.
+**Context:** Through ki.ways-of-working you asked for one `ki` patch release "soon", carrying KI-TOOL-KI-CLI-155 so `priority` and `size` stop dropping 18 records, and a harness pin providing `ki-work-package` so ki-principal CI stops failing. Your standing rule is to ask before any `ki` release. `v0.11.5` now carries the pin (`c55a6c42`), KI-TOOL-KI-CLI-155, and KI-TOOL-KI-CLI-158, which lets `ki work status` see the migrated work packages that the released `ki` cannot see at all; the wpreader run reports the full gate green at `1cfc11a5`, with 1,354 tests at 100% coverage and `ki repo audit` FAIL=0. Another session has since added two roadmap-only commits (KI-TOOL-KI-CLI-159). The first blind review preferred bringing the clean final candidate back to you because the gate was then red and code was still moving; a second review of the updated facts is running.
 
-**Query:** May I cut, push and publish the patch release as soon as KI-TOOL-KI-CLI-155 passes verification and the harness pin sits at or after the harness-link-fix commit?
+**Query:** May I tag `v0.11.5` on the current tools-ki HEAD after re-running the full gate there, push, publish, and send the tag to ki.ways-of-working?
 
 **Options:**
 
-a) (recommended, confidence medium - review disagrees, it is the release you asked for, but publishing rests on run reports I have not verified directly) Yes: cut it on those two conditions, then reply with the tag in ki.ways-of-working's `messages.md`.
+a) (recommended, confidence medium - review pending, the gate is reported green and the release is the one you asked for, but publishing rests on run reports I have not verified directly) Yes, on a green re-run at HEAD.
 
-b) No: bring the finished change back to you before the tag.
+b) Tag `0720a053` without KI-TOOL-KI-CLI-158 and cut `v0.11.6` for it afterwards.
+
+c) Bring the clean final candidate back to you before the tag.
 
 ### BIOME-CI-STANDARD - The record conflicts with the Minimal CI rule
 
