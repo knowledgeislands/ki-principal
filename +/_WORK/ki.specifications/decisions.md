@@ -20,7 +20,7 @@ Kris's SPECIFICATIONS-PROJECT, 19 October, in [ki.ways-of-working's decisions](.
 
 Kris's QUERY-REVIEW and QUERY-REVIEW-STANDARD, 19 October, live in the ki-coordination standard; REFRESH-RESUMMARY, Kris 19 October, "I want the other threads to pick it up and resummary me so that I get the better recommendations", reached this work through ki.ways-of-working's REFRESH line and authorises the query-review run.
 
-## 2026-10-19 19:50 BST - owner instruction, STOCKTAKE-PLAN
+## 2026-10-19 23:28 BST - owner instruction, STOCKTAKE-PLAN
 
 Kris: "Can we take stock on this, and just double-check everything again, see if we can come up with a really solid plan?"
 
