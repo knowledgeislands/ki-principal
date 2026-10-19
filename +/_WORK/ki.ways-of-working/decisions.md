@@ -362,3 +362,9 @@ Read back taken: DESIGN-AT-MARK (resolve graduated design notes at each mark rat
 ## 2026-10-19 20:20 BST - received design-review
 
 design-review (Codex, read-only) agreed with DESIGN-AT-MARK a) at high: no rationale for a Project-long exemption exists; the adopted rule (`8f23d27c`), `ki-work-package`'s tidy rule and GDR-KI-PRINCIPAL-009 delete design on graduation, close being a backstop. Its guards are copied into the query. Rough count of this `design/`: 10 graduated, 27 obsolete, 7 live; triage candidates, not a deletion manifest. Confidence lifted to high, reviewed.
+
+## 2026-10-19 20:28 BST - owner decision, DESIGN-AT-MARK
+
+Kris: "agreed witht eh recommendation"
+
+Read back taken: DESIGN-AT-MARK a) - the standard's prune clause is aligned so each mark reviews `design/` and resolves graduated or superseded notes under the graduation guards, keeping the close-out gate; this work's `design/` is triaged into a delete list, blind-reviewed, for Kris to confirm before anything is deleted. Authorises design-clause (harness: clause, generated surfaces, and the pending `hooks/README.md` alignment; commit, push fast-forward only when its own commits alone are stacked) and design-triage (ki-principal, read-only list), then a blind review of the list.

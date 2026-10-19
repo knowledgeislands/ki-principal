@@ -1,7 +1,7 @@
 ---
 id: ki.ways-of-working
-state: handoff-to-supervisor
-since: 2026-10-19T19:20:00Z
+state: with-worker
+since: 2026-10-19T19:28:00Z
 received: 2026-10-19T16:57:00Z
 beat: null
 mark: 2026-10-19T19:10:00Z
@@ -12,7 +12,7 @@ method_read: eff6163b
 
 ## Now
 
-- Sent to Kris at 20:20 BST: DESIGN-AT-MARK, reviewed high (design-review agreed).
+- Received from Kris at 20:28 BST: DESIGN-AT-MARK a); design-clause (harness) and design-triage (read-only list) running; the list then goes to blind review and to Kris before any deletion.
 - Run reports sit in `~/.local/state/ki/agents/ways-of-working/`.
 
 ## Next steps
