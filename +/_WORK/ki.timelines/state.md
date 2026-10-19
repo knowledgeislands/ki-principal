@@ -4,14 +4,14 @@ state: with-worker
 since: 2026-10-19T22:26:30Z
 received: 2026-10-19T22:26:30Z
 beat: null
-method_read: 2026-10-19T18:03:54Z
+method_read: 84b61942
 ---
 
 # ki.timelines state
 
 ## Now
 
-- Kris answered all six queries at 19:50 BST (TIMELINE-IMPROVEMENTS, QUERIES-AGREED in `decisions.md`).
+- Kris answered all six queries at 23:24 BST (TIMELINE-IMPROVEMENTS, QUERIES-AGREED in `decisions.md`).
 - tl-design, the `ki-work-design` run, is running; brief [tl-design.brief.md](tl-design.brief.md); it writes only under `design/`.
 - Last mark 19:03 BST; the survey is [design/survey.md](design/survey.md).
 
@@ -23,4 +23,4 @@ method_read: 2026-10-19T18:03:54Z
 
 ## Held
 
-None.
+- HOOK-GUARD (relayed from ki.tools-burndown, 19 October): never run `ki repo conform` without `--dry-run` on a KI repository until ki.tools-burndown lifts it; no Timelines run is authorised to conform.
