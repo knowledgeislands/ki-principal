@@ -12,3 +12,7 @@
 ## 2026-10-19 - WAVE-1
 
 - Kris, 23:30 BST: "go with recommendations", taken as WAVE-1 a): launch wave 1 as proposed, read-only, and bring the findings back before any registration or repository write.
+
+## 2026-10-19 - wave 1 queries
+
+- Kris, 23:59 BST: "Anything high confidence can be done.", taken as option a) for TERRITORY-TECHMEDIX, KI-BREW, AREA-TITLES, LEDGER-FORM, SIZE-KIND, VA-PLANNING, THEME-REGISTRY and CHECKER-GAPS, including the repository writes those options name (triage records captured in the named repositories, `ki-plan` and an evidence repair in apps-vallearmonia.com, `brew upgrade ki` on this machine), committed locally and not pushed. REGISTER-HNR, at medium confidence, stays with Kris.
