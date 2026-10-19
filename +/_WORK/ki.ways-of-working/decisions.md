@@ -391,3 +391,9 @@ Read back taken:
 Kris: "Do we use the `.githooks` anywhere else? I thought we used `.husky`?" then "yes, add an urgent message to it to standardise"
 
 Read back taken: HOOKS-STANDARD - an IMPORTANT line goes to ki.tools-burndown's `messages.md` asking it to standardise the commit-gate hooks across the estate on one convention, Husky. The survey at 18:01 BST found 30 repositories on Husky, three with `.githooks` (ki-principal and ki-agentic-harness wrapping Husky, and ki-design not bound), two with `.husky` but no `core.hooksPath` (apps-knowledgeislands.info, apps-yorkphotosoc.org) and 25 with no gate at all. ki.tools-burndown owns the design and the rollout.
+
+## 2026-10-19 18:09 BST - owner decision, REPORT-SWEEP
+
+Kris: "will those get fixed to the new format though?" then "ok - make that happen then."
+
+Read back taken: REPORT-SWEEP a) - one run surveys every work folder in the estate for run reports beside the package files; deletes each already pruned elsewhere or whose queries are all in that work's `queries.md`; for each it cannot safely delete, leaves the file and puts a line in that work's `messages.md` for its coordinator to receive. Untracked files on other machines and the `ki` release there are outside it. Authorises: report-sweep, chained after citations-rewrite.
