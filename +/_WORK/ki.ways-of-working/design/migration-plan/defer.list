@@ -1,4 +1,0 @@
-# Paths held back from the migration: <repository> <path or path prefix>. Another session has them in flight; a
-# step skips each one and names it, and the next run picks it up once its session has committed. Any path with
-# unstaged or untracked changes is held too, without being listed here. Remove a line when its session lands.
-ki-principal +/_THREADS/desk-kit
