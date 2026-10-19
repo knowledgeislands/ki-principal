@@ -10,6 +10,7 @@ method_read: 84b61942
 
 # ki.observatory state
 
+- 00:45 BST received obs-vis041-plan: KI-OBSERVA-VIS-041 Ready with an eleven-item read-parity checklist pinned to the artifact at personal-principal f161cc8b, Beacon severities and 90-day staleness kept (high), writes, launchers and the Claude suggestion as later gated phases; KI-OBSERVA-VIS-038 tool-storage phase now waits on KI-HARNESS-GOV-227 (04a2ebb, local). obs-vis041-build started.
 - 00:43 BST received obs-design-answers: KI-DESIGN-OBS-015 answered as GDR-KI-DESIGN-037 (f41cbc5), ICO-001 five new glyphs (a3034a3), SYM-001 (09e001f), TIL-001 flat-chart check (d845e32), all Awaiting review, gates pass, local; the new glyphs want Kris's eye on packages/icons/contact-sheet.png (thriving and quiet differ only by smoke at 16 px).
 - 00:41 BST received obs-review-4: RESTRUCTURE stays medium (agrees on a), disagrees on folding Work now); factual corrections to KI-OBSERVA-APP-044 (renderer name, shell and CLI alias handling, Review rename independence) are high and non-destructive, so obs-app044-fix is queued after obs-vis041-build.
 - 00:36 BST received obs-app044-plan: KI-OBSERVA-APP-044 planned and set to now, still draft (063b585, local); OPS-004 and VIS-029 hold reworded; RESTRUCTURE (medium) in blind review under obs-review-4; obs-vis041-plan starts.
