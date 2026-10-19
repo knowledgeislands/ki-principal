@@ -2,7 +2,7 @@
 id: ki.observatory
 state: with-worker
 since: 2026-10-19T21:38:00Z
-received: 2026-10-19T20:41:00Z
+received: 2026-10-19T21:51:00Z
 beat: null
 mark: 2026-10-19T21:50:00Z
 method_read: 84b61942
@@ -13,15 +13,16 @@ method_read: 84b61942
 ## Now
 
 - With worker since 22:38 BST on 19 October; marked at 22:50 BST.
-- Running: obs-tab-and-workers (apps-observatory.local): Known Lands tab with a scrolling bar committed (6b2096c), KI-OBSERVA-BRG-005 counts shaped (09762d9), KI-OBSERVA-VIS-031 worker column in its gate.
-- Queued: obs-beacon-accept, after obs-tab-and-workers (KI-OBSERVA-BCN-008 to done).
+- Running: obs-authors-review, blind review of COMMIT-AUTHORS.
+- Received obs-tab-and-workers at 22:51 BST: Known Lands tab with a scrolling bar (6b2096c), KI-OBSERVA-BRG-005 counts shaped (09762d9), KI-OBSERVA-VIS-031 worker column built and awaiting review (52f18bf); raised COMMIT-AUTHORS (medium) and WORKERS-JOIN (high).
+- Running: obs-beacon-accept (KI-OBSERVA-BCN-008 to done).
 - Since the previous mark: roadmap 35 to 27 records; KI-OBSERVA-BCN-008 built (23f2ba5) and accepted; minimal Known Lands chart (a4ea2ad, 21be3a6); handoff records KI-HARNESS-GOV-223, KI-HARNESS-GOV-224, KI-TOOL-KI-CLI-159, KB-PRINCIPAL-046, HNR-PRINCIPAL-KM-018.
 - Kris pushes ki-principal and apps-observatory.local (PUSH-KRIS).
 - Run reports sit in `~/.local/state/ki/agents/observatory/`.
 
 ## Next steps
 
-1. Receive obs-tab-and-workers; receive obs-beacon-accept.
+1. When obs-authors-review reports, send COMMIT-AUTHORS and WORKERS-JOIN to Kris; receive obs-beacon-accept.
 2. Four triage records await a later merge decision: KI-OBSERVA-VIS-029, KI-OBSERVA-VIS-032, KI-OBSERVA-VIS-033, KI-OBSERVA-VIS-034.
 3. Four done records (KI-OBSERVA-APP-042, KI-OBSERVA-VIS-023, KI-OBSERVA-VIS-024, KI-OBSERVA-BRG-002) stay until their peer links and BRG-002's frozen figure are re-pointed.
 4. `ki work status` (installed `ki` 0.11.4) is blind to five-file packages until ki.tools-burndown changes the tools-ki reader.

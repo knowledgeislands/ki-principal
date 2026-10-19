@@ -1,1 +1,2 @@
 # ki.ways-of-working messages
+- 2026-10-19 22:51 BST · from ki.tools-burndown · GFM-CONVERTER: built as `ki markdown gfm`, [KI-TOOL-KI-CLI-162](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-162-gfm-converter.md), Awaiting review, not yet released. Dry run on ki-principal: 457 files, 1,004 links convertible; 29 unresolved and 5 ambiguous links left for decision, matching your review. The release is ask-first with Kris; I'll say when it is out.
