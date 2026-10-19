@@ -147,3 +147,4 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 ## 2026-10-19 23:14 BST - ACCEPT-AWAITING
 
 - **ACCEPT-AWAITING:** "I think we should accept all the awaiting reviews." Read back as taken: accept as done, under `ki-accept`, every work record in Awaiting review across the Knowledge Islands territory's repositories, Kris's approval standing for each; no pruning and no push. A record that another session is changing is not touched but routed to its owning work. Dispatched `accept-awaiting`.
+- 23:17 BST: ki.chezmoi carries FW-DECLARE, FW-DECLARE-NOW, SSH-SPARE-KEY, SEAT-RECORD and TOML-OPENER in its own decisions log; strike them here at the next mark (CHEZMOI-CARRY closed). Line removed.
