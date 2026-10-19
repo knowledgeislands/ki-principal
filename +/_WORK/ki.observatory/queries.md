@@ -154,6 +154,40 @@ b) Capture only the Review queue one, since feedback send is still switched off.
 
 c) Leave both until the migration pass has finished.
 
+### BURNDOWN-ACCEPT - The four records awaiting your review
+
+since 2026-10-19 · from [obs-burndown](/Users/krisbrown/.local/state/ki/agents/observatory/obs-burndown.report.md), reviewed by [obs-query-review](/Users/krisbrown/.local/state/ki/agents/observatory/obs-query-review.report.md)
+
+**Context:** Four Observatory records are awaiting review. All of them passed test, typecheck, build, knip and rumdl, and none has been checked in a browser because Chromium is not on this Mac. [KI-OBSERVA-BCN-007](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BCN-007-beacon-raises-stuck-work.md) has the Beacon raise work that is stuck, blocked, on hold past 31 days or waiting for you; a stuck run can be raised twice until KI-OBSERVA-VIS-028 lands. [KI-OBSERVA-BRG-003](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-003-governed-act-presentation.md) is the declare, confirm and receipt presentation for actions; five parts of the design board are left out because there is no data for them. [KI-OBSERVA-VIS-025](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-025-work-instrument.md) is the Work Instrument, now reading both work-folder shapes. [KI-OBSERVA-VIS-026](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-026-review-queue-work-folders.md) has the Review queue read `+/_WORK/` and show work waiting with you. The blind review found that the code supports all four deliveries, and that the gaps left in KI-OBSERVA-BRG-003 should be accepted explicitly as a scope concession.
+
+**Query:** Which of the four do you accept?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed, the code supports each delivery and you look before accepting) Look at them in the running service and accept all four, with KI-OBSERVA-BRG-003's five missing board parts captured as a triage record.
+
+b) Accept KI-OBSERVA-VIS-025 and KI-OBSERVA-VIS-026 now, and hold KI-OBSERVA-BCN-007 and KI-OBSERVA-BRG-003 until a browser smoke check.
+
+c) Hold all four until Chromium is installed and the smoke check has run.
+
+### BURNDOWN-TRIAGE - Merging and cancelling triage records
+
+since 2026-10-19 · from [obs-burndown](/Users/krisbrown/.local/state/ki/agents/observatory/obs-burndown.report.md), reviewed by [obs-query-review](/Users/krisbrown/.local/state/ki/agents/observatory/obs-query-review.report.md)
+
+**Context:** There are 21 triage records, and the burndown proposed closing 11. Ten would be merges: VIS-040 and INT-004 into [KI-OBSERVA-INT-003](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-INT-003-extensions-switchboard.md); VIS-035 and VIS-036 into [KI-OBSERVA-VIS-030](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md); VIS-037 and VIS-029 into [KI-OBSERVA-VIS-031](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-031-who-is-working.md); VIS-021 into [KI-OBSERVA-VIS-038](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-038-machine-instrument.md); and VIS-039, VIS-032 and VIS-034 into [KI-OBSERVA-APP-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md). The eleventh would cancel [KI-OBSERVA-VIS-033](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-033-waiting-for-you.md) as covered by KI-OBSERVA-VIS-026. Nothing has been merged or cancelled. The blind review disagrees on all but one, the merge of [KI-OBSERVA-INT-004](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-INT-004-outbound-live-artifact-adapter.md) into INT-003 (one two-way bridge). It found that each target record explicitly excludes the step-4 consolidation, rename or extra scope the source carries, so merging would lose outcomes. On the same evidence it found that KI-OBSERVA-VIS-026 does not deliver VIS-033's Waiting instrument.
+
+**Query:** Which of these merges and cancellations do you confirm?
+
+**Options:**
+
+a) (recommended, confidence medium - review disagrees, finding every target excludes the source's consolidation, so a merge would lose scope) Confirm only the merge of INT-004 into INT-003, keeping both directions' acceptance checks, and keep the other ten in triage until KI-OBSERVA-APP-044 decides the restructure.
+
+b) Confirm all 11, as the burndown first proposed: it projects 23 records.
+
+c) Confirm items 1 to 5, 7 and 8 only: VIS-040, INT-004, VIS-035, VIS-036, VIS-037, VIS-021 and VIS-039.
+
+d) Confirm none for now.
+
 ## Parked
 
 None.
