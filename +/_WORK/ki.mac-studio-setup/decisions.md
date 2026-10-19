@@ -73,3 +73,5 @@
 - 2026-10-19 23:54 BST, scope-review received: the blind review agrees with Q-062-SCOPE a), so its confidence rises to high, with the review's wording added (the remaining case includes TCP; "tailnet-only" not presented as authenticated ingress); brief pruned.
 
 - 2026-10-19 23:59 BST, plan027 received: KI-TOOL-RIG-CLI-027 planned to Ready (size m, local commit in tools-rig, unpushed), `--json` documented with `--format text|json` kept as an equivalent; no queries; brief pruned.
+
+- Kris 2026-10-20 00:16 BST: "Q-062-SCOPE/ABSENT proceed with recommendation" - taken as a) on both: Q-062-SCOPE, deliver KI-TOOL-RIG-CORE-062's own-address destination with no interface match, the remaining targeted TCP and UDP case stated in the specification, ADR-KI-TOOL-RIG-009 and the guide, "tailnet-only" not presented as authenticated ingress, the shared-network advice kept; Q-062-ABSENT, refuse with `unknown` and `tailnet-address-undiscoverable`, installing or rewriting nothing. Run core062 queued behind rig-triage in tools-rig to deliver it to Awaiting review, local commits, no push.
