@@ -1,8 +1,8 @@
 ---
 id: ki.observatory
-state: with-worker
-since: 2026-10-19T20:23:00Z
-received: 2026-10-19T20:39:00Z
+state: handoff-to-supervisor
+since: 2026-10-19T20:42:00Z
+received: 2026-10-19T20:41:00Z
 beat: null
 mark: 2026-10-19T18:02:00Z
 method_read: 84b61942
@@ -12,9 +12,9 @@ method_read: 84b61942
 
 ## Now
 
-- With worker since 21:23 BST on 19 October after VIS-030-MINIMAL; BRG-005-COUNTS and VIS-031-TABLES still with Kris; marked at 19:02 BST.
-- Running: obs-tabbar-review, blind review of TAB-ROOM.
-- Received obs-vis030-minimal at 21:39 BST, blocked: Known Lands backend and SVG route committed (21be3a6, local), KI-OBSERVA-VIS-030 updated, service checked; the tab is built but uncommitted, saved in the run's temp folder `ki-agents/observatory/obs-vis030-minimal/tab/`, because a sixteenth tab overflows the 1,440 px bar test (TAB-ROOM).
+- Sent to Kris at 21:42 BST on 19 October with TAB-ROOM, BRG-005-COUNTS and VIS-031-TABLES; marked at 19:02 BST. Nothing is running.
+- Received obs-tabbar-review at 21:41 BST: disagrees on TAB-ROOM, preferring a scrolling bar at high confidence.
+- Received obs-vis030-minimal at 21:39 BST, blocked: Known Lands backend and SVG route committed (21be3a6, local), KI-OBSERVA-VIS-030 updated, service checked; the tab is built but uncommitted, copied to `design/known-lands-tab/` in this package, because a sixteenth tab overflows the 1,440 px bar test (TAB-ROOM).
 - Received obs-step3-review at 21:01 BST: agrees on four queries, disagrees on VIS-030-POSITIONS.
 - Received obs-step3-build at 20:57 BST: KI-OBSERVA-VIS-030 hex renderer vendored with drift check and `capital` glyph (a4ea2ad, record in progress); KI-OBSERVA-BCN-008 Beacon signal anatomy built, awaiting review (23f2ba5); service restarted, 15 tabs answer; stopped early on five queries; both commits local.
 - Received obs-declare-review at 20:13 BST: the review agrees with keeping the declaration, so NARROW-DECLARE goes to Kris at high confidence.
@@ -28,7 +28,7 @@ method_read: 84b61942
 
 ## Next steps
 
-1. When obs-tabbar-review reports, send TAB-ROOM to Kris; on the answer, land the saved tab; act on BRG-005-COUNTS and VIS-031-TABLES when answered; KI-OBSERVA-BCN-008 awaits Kris's acceptance.
+1. On Kris's TAB-ROOM answer, land the tab from `design/known-lands-tab/`; act on BRG-005-COUNTS and VIS-031-TABLES when answered; KI-OBSERVA-BCN-008 awaits Kris's acceptance.
 2. Four triage records await a later merge decision: KI-OBSERVA-VIS-029, KI-OBSERVA-VIS-032, KI-OBSERVA-VIS-033, KI-OBSERVA-VIS-034.
 3. Four done records (KI-OBSERVA-APP-042, KI-OBSERVA-VIS-023, KI-OBSERVA-VIS-024, KI-OBSERVA-BRG-002) stay until their peer links and BRG-002's frozen figure are re-pointed.
 4. `ki work status` (installed `ki` 0.11.4) is blind to five-file packages until ki.tools-burndown changes the tools-ki reader.
