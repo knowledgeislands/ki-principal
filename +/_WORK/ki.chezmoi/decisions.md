@@ -107,3 +107,9 @@ home: +/_WORK/ki.chezmoi/work.md class: operational
 - no, its fine, I'm happy if the instructions are clear
 
 Read back as: do not hold; Kris runs the guarded Terra rehearsal tonight once firewall-seq-write delivers clear, tested blocks.
+
+## Decision 112 (2026-10-19T21:06:37Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- Terra rehearsal passed at 22:06 BST with Kris attended (A0, B, A1, A2, B, B, A0 all pass). RIG-FIREWALL-RUN a) proceeds: firewall-record writes the evidence and the `core` declaration, no push or apply. RECOVERY-ROUTE answered by Kris being at Terra's console.

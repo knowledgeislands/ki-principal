@@ -2,19 +2,7 @@
 
 ## Open
 
-### RIG-FIREWALL-RUN - Run Terra's firewall restore rehearsal attended
-
-since 2026-10-19 · from run firewall-rehearse ([report, with the two-terminal sequence](/Users/krisbrown/.local/state/ki/agents/chezmoi/firewall-rehearse.report.md))
-
-**Context:** Every rehearsal step needs `sudo`, which asks for a password on Terra, so the run stopped before any change after recording Terra's state: anchor and LaunchDaemon present, daemon loaded with last exit 0, Screen Sharing listening, SSH from Sol working. Port 22 is outside the anchor, so SSH should hold throughout; a second terminal proves it. Sol still needs its own rehearsal before its `rig apply --sudo`.
-
-**Query:** Will Kris run the sequence from two terminals on Sol and paste the output or say "passed"?
-
-**Options:**
-
-a) (recommended, confidence high - every step reversible, an open session stays as fallback) Run it now from Sol; a follow-up run records the evidence in [KI-TOOL-RIG-CORE-047](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md) and writes, gates and commits the `core` declaration, no push or apply.
-
-b) Hold until Kris is at Terra and run it on Terra's console.
+None.
 
 ## Parked
 
