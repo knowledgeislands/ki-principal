@@ -5,9 +5,8 @@ title: 'KI > SoP'
 theme: null
 worker: agent
 supervisor: owner
-state: with-worker
-hold: null
-since: 2026-10-19T10:04:55Z
+state: handoff-to-supervisor
+since: 2026-10-19T10:12:08Z
 received: 2026-10-19T10:04:55Z
 beat: null
 mark: 2026-10-15T15:14:39Z
@@ -19,7 +18,7 @@ created_at: 2026-10-06T21:07:00Z
 ## Next steps
 
 - **Status:** resumed on sol on 19 October ([decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/decisions.md), RESUME); the sop-restock run acted on the Messages, pruned the work folder and restocked the parked queries.
-- **Restart order:** Rig: chezmoi ([work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.chezmoi/work.md)) and Rig: mac studio setup ([work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.mac-studio-setup/work.md)) have restarted. Knowledge acquisition ([work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.knowledge-acquisition/work.md)) is on hold, more expected, until Kris restarts it. Host network ([Project](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/host-network.md)) has no work file yet; it opens fifth with a decision paper on tailnet service names and a tested restore path as its first step (HOST-NETWORK-THREAD, decisions log, 17 October).
+- **Restart order:** Rig: chezmoi ([work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.chezmoi/work.md)) and Rig: mac studio setup ([work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.mac-studio-setup/work.md)) have restarted. Knowledge acquisition ([work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.knowledge-acquisition/work.md)) is on hold, more expected; it runs through the Acquire > intake session (KA-VIA-INTAKE, 19 October), and Kris is asking that session whether it has taken the work on. Host network ([Project](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/host-network.md)) has no work file yet; it opens fifth with a decision paper on tailnet service names and a tested restore path as its first step (HOST-NETWORK-THREAD, decisions log, 17 October).
 - **At a session with the terra checkout:** PILOT-SEED, after a fetch ([pilot-seed report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/pilot-seed.report.md); its destination is PILOT-SEED-HOME below). STASH-DROP, approved on 16 October (FIRST-WAVE): delete `refs/rebase-repair/autostash-f091d468` in ki-principal on terra once nothing still needs it; the stash list was already empty at the territory hold.
 - **Dated queue:**
   - 2026-10-21: the trades and Delta follow-up ([Delta evaluation](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/delta-evaluation.md)); HOLD-1 warnings begin 2026-10-22. About the same day, review the logged report-shape tweaks.

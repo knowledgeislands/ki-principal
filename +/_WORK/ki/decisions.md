@@ -1099,3 +1099,4 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 ## 2026-10-19 11:05 BST - RESUME
 
 - **RESUME:** "Resume KI > SoP from its work file in /Users/krisbrown/workspaces/knowledge-islands/ki-principal under current ki-coordination and ki-delegation since 2026-10-15T15:14:39Z: re-read the work file and decisions, take stock, put the parked queries back, restart authorised work, then banner." Taken on sol. The `state-of-play` run is rehomed to `+/_WORK/ki` (THREADS-REGRESSION). Dispatched `sop-restock` to act on the Messages section, prune the work folder and restock the parked queries.
+- **KA-VIA-INTAKE (11:10 BST):** "knowledge acquisition is happening through Acuire > intake". Knowledge acquisition needs no separate restart; the Acquire > intake session (sol) carries it.
