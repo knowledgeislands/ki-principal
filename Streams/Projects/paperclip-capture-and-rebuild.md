@@ -7,7 +7,7 @@ theme: techne
 lifecycle: active
 lead: Kris Brown
 target: null
-updated: 2026-10-14T23:30:00Z
+updated: 2026-10-19T23:16:23Z
 author: Written with Claude
 ---
 
@@ -17,12 +17,13 @@ author: Written with Claude
 
 Paperclip's approach is captured in the island, the service on `terra` is stopped, and a fresh rebuild is designed once the [[ways-of-working]] model settles. Kris chose on 2026-10-14 to keep the approach and lose the history: 'I don't want the history or a database backup, I want to recreate it with the same approach but fresh'. The rebuild starts from the captured structure, not from the old instance.
 
-This Project sits in [[Themes/techne|Techne]]. Hosting the rebuild on `sol` belongs to [[mac-studio-setup]], and whether Paperclip may run there at all is governed by the [[Techne Programme Hold]]. It replaces the earlier bootstrap-and-recovery outcome, which aimed at one reviewed VA delivery; that aim is moot now the instance is stopped.
+This Project sits in [[Themes/techne|Techne]]. Hosting the rebuild on `sol` belongs to [[mac-studio-setup]], and whether Paperclip may run there at all is governed by the [[Techne Programme Focus]], which keeps remote Paperclip in any form as an idea. It replaces the earlier bootstrap-and-recovery outcome, which aimed at one reviewed VA delivery; that aim is moot now the instance is stopped.
 
 ---
 
 ## Notes
 
+- **Idea: remote Paperclip.** Running Paperclip remotely in any form, including the per-host rebuild below, is kept as an idea under the [[Techne Programme Focus]] from 20 October 2026, when Kris approved the focus wording (TECHNE-WORDING a)). It is neither built nor run until the island owner takes it up through the Enactment Process, which also settles its remote-delivery policy. The capture of Paperclip's approach is design work on paper and continues.
 - **Deferred clean-up.** The `terra` instance data, rotating backups, the npm rollback payload, the repair snapshots and the `paperclip/aligned-20260926/*` agent branches are kept until Kris decides what goes.
 - **Permission-update defect.** The agent permission-update defect has no owner; it goes with the fork if the rebuild keeps it.
 - **One service per host, 2026-10-15.** Kris decided on 15 October, as this Project's part of the [[Known World]] model: 'one Paperclip service per host; each territory's company live only on its seat host and absent on the standby; the Knowledge Islands company live on the hub, with Terra reaching it over the tailnet. This replaces "build on Sol" in its Design phase and leaves the Techne Programme Hold unchanged.'
@@ -58,4 +59,4 @@ Waits on the [[ways-of-working]] model. Questions to settle:
 
 ### Rebuild
 
-Waits on the Design phase. Build fresh per host from [[paperclip-rebuild-structure]]: one Paperclip service per host; each territory's company live only on its seat host and absent on the standby; the Knowledge Islands company live on the hub, with Terra reaching it over the tailnet. The [[Techne Programme Hold]] is unchanged. Kris set this design on 15 October (PAPERCLIP-SEAT, the "One service per host" bullet under [[#Notes|Notes]]), and [[ADR-KI-PRINCIPAL-007-territory-seats-on-hosts|ADR-KI-PRINCIPAL-007]] records the territory seats it follows. Each service uses current repository paths, no migration of the `terra` data, and the authenticated deployment mode or a tailnet access policy limited to Kris's own devices before any exposure beyond loopback.
+Waits on the Design phase. Build fresh per host from [[paperclip-rebuild-structure]]: one Paperclip service per host; each territory's company live only on its seat host and absent on the standby; the Knowledge Islands company live on the hub, with Terra reaching it over the tailnet. Remote Paperclip stays an idea under the [[Techne Programme Focus]]. Kris set this design on 15 October (PAPERCLIP-SEAT, the "One service per host" bullet under [[#Notes|Notes]]), and [[ADR-KI-PRINCIPAL-007-territory-seats-on-hosts|ADR-KI-PRINCIPAL-007]] records the territory seats it follows. Each service uses current repository paths, no migration of the `terra` data, and the authenticated deployment mode or a tailnet access policy limited to Kris's own devices before any exposure beyond loopback.

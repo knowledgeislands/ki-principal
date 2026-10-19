@@ -1,6 +1,6 @@
 ---
 note_type: admin/governance/policy
-updated: 2026-10-13T00:00:00Z
+updated: 2026-10-19T23:16:23Z
 tags:
   - card/note
   - topic/knowledge-islands
@@ -50,7 +50,7 @@ Knowledge Islands Principal also holds the territory's trade-route policy. Its `
 
 Repository selection derives from the Capital's ordered `territory_members`, including Knowledge Islands Principal, with `territory_prefix = "knowledge-islands"` as the short handle. KI and mgit support `-t knowledge-islands`, `--estate` and literal, case-sensitive directory-name prefix filters through `-f`. The registry resolves canonical identities to machine-local locations, and a Paperclip company coordinates admitted work with organisation code `KIS`. None establishes territorial membership, permission or cross-repository write authority. Reconcile any disagreement with this Charter and Known Lands through the accountable owners.
 
-Knowledge Islands Principal owns the Techné engineering discipline in [[Engineering Practice/Engineering Practice|Engineering Practice]], including canonical architecture, operating models, technology posture and engineering decision criteria. The former `knowledgeislands/ki-techne-principal` knowledge tree was retired on 4 October 2026 and is archived read-only as historical evidence; it holds no live work and is not another Capital or canonical engineering owner. The [[Techne Programme Hold]] restricts remote running and remote-environment management across the harness and CLI while local engineering continues under repository standards. Knowledge adoption and source retirement do not themselves integrate candidates or alter services.
+Knowledge Islands Principal owns the Techné engineering discipline in [[Engineering Practice/Engineering Practice|Engineering Practice]], including canonical architecture, operating models, technology posture and engineering decision criteria. The former `knowledgeislands/ki-techne-principal` knowledge tree was retired on 4 October 2026 and is archived read-only as historical evidence; it holds no live work and is not another Capital or canonical engineering owner. The [[Techne Programme Focus]] narrows Techné work across the harness and CLI to the agent host and the Mac Studio, keeping all other Techné work as ideas, while both products stay current with their repository standards. Knowledge adoption and source retirement do not themselves integrate candidates or alter services.
 
 ---
 

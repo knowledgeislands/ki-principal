@@ -1,6 +1,6 @@
 ---
 note_type: pillars/note
-updated: 2026-10-18T03:32:46Z
+updated: 2026-10-19T23:16:23Z
 author: Written with Claude
 ---
 
@@ -53,7 +53,7 @@ A role is what a machine is _for_. A machine has one base and one or more roles.
 | Remote agentic rig | Agent sessions Kris opens over Tailscale SSH, with the KI toolchain and a workspace | chezmoi on owned machines, Cheztoi on less-trusted ones | `vega`, `sol` |
 | Appliance | Runs one service, such as a Paperclip environment, with no remote desktop and no personal shell | none, or a minimal Cheztoi payload | none yet |
 
-`sol` carries two roles at once: it is a workstation and a remote agentic rig. `vega` and `sol` are the same role on different bases, a cloud instance and an owned Mac, so they should share one definition of the agentic-rig toolchain. The appliance role is recorded but has no recipe: anything that runs Paperclip remotely stays held by the [[Techne Programme Hold]]. `vega`'s own exemption is [[GDR-KI-PRINCIPAL-004-standing-agent-host-exemption-from-the-techne-programme-hold|GDR-KI-PRINCIPAL-004]].
+`sol` carries two roles at once: it is a workstation and a remote agentic rig. `vega` and `sol` are the same role on different bases, a cloud instance and an owned Mac, so they should share one definition of the agentic-rig toolchain. The appliance role is recorded but has no recipe: anything that runs Paperclip remotely is kept as an idea by the [[Techne Programme Focus]]. [[GDR-KI-PRINCIPAL-004-techne-focus-on-the-agent-host-and-the-mac-studio|GDR-KI-PRINCIPAL-004]] keeps `vega` and `sol` in scope.
 
 ---
 

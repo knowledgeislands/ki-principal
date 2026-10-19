@@ -10,22 +10,22 @@ component: governance
 tags:
   - topic/knowledge-islands
   - topic/techne
-status: ready
+status: awaiting-review
 horizon: now
 priority: high
 size: m
 blocks: []
 blocked_by: []
-baseline_ref: null
+baseline_ref: 8895ff0fecf654f5f25eca52cb9361174216312c
 created_at: 2026-10-19T22:48:36Z
-updated_at: 2026-10-19T23:10:00Z
+updated_at: 2026-10-19T23:18:00Z
 ---
 
 # Turn the Techne Programme Hold into a Focus Rule
 
 ## Goal
 
-Replace the [[Techne Programme Hold]] with a focus rule: Techné builds and runs the agent host and the Mac Studio only, keeps every other piece of work as an idea, and keeps the operating bounds the hold's exemption set. Rewrite [[GDR-KI-PRINCIPAL-004-standing-agent-host-exemption-from-the-techne-programme-hold|GDR-KI-PRINCIPAL-004]] to record the focus in place of the exemption.
+Replace the Techne Programme Hold with a focus rule, now the [[Techne Programme Focus]]: Techné builds and runs the agent host and the Mac Studio only, keeps every other piece of work as an idea, and keeps the operating bounds the hold's exemption set. Rewrite [[GDR-KI-PRINCIPAL-004-techne-focus-on-the-agent-host-and-the-mac-studio|GDR-KI-PRINCIPAL-004]] to record the focus in place of the exemption.
 
 ## Context
 
@@ -160,11 +160,11 @@ Techné carries no programme hold. It focuses on the agent host and the Mac Stud
 ## Steps
 
 - [x] Kris approves the policy and Decision Record wording above, or the changes to it. Approved as drafted on 20 October; see Approval.
-- [ ] Rename and rewrite the policy note; rename and rewrite GDR-KI-PRINCIPAL-004, updating its `Decisions.md` entry.
-- [ ] Sweep this island's citations of the hold and of GDR-KI-PRINCIPAL-004's old filename: root `README.md` and `AGENTS.md` (the Techné programme hold section becomes a focus section); `Admin/Admin.md`, `Admin/MEMORY.md`, `Governance.md`, the Charter, Known Lands and `Policies.md`; the Agent Host Prototype Rollout note and its diagram; ADR-KI-PRINCIPAL-003, ADR-KI-PRINCIPAL-006, ADR-KI-PRINCIPAL-007 and ODR-KI-PRINCIPAL-001; the `Pillars/Technē`, `Pillars/Engineering Practice` and Emerging Concepts notes that cite it, and the Great Library of Arcadia note; and the Techne theme page and the Project notes that cite it.
-- [ ] Record each piece of Techné work kept as an idea as an `Idea:` line on its Project note or the Techne theme page.
-- [ ] Hand off to `ki-techne-harness` and `tools-techne` the update of their `README.md`, `AGENTS.md`, guides and roadmap records that cite the hold; the `ki-authority` tag value stays as it is.
-- [ ] Audit with `ki-decision-records` and `ki-repo-kb` and review the result against this record.
+- [x] Rename and rewrite the policy note; rename and rewrite GDR-KI-PRINCIPAL-004, updating its `Decisions.md` entry.
+- [x] Sweep this island's citations of the hold and of GDR-KI-PRINCIPAL-004's old filename: root `README.md` and `AGENTS.md` (the Techné programme hold section becomes a focus section); `Admin/Admin.md`, `Admin/MEMORY.md`, `Governance.md`, the Charter, Known Lands and `Policies.md`; the Agent Host Prototype Rollout note and its diagram; ADR-KI-PRINCIPAL-003, ADR-KI-PRINCIPAL-006, ADR-KI-PRINCIPAL-007 and ODR-KI-PRINCIPAL-001; the `Pillars/Technē`, `Pillars/Engineering Practice` and Emerging Concepts notes that cite it, and the Great Library of Arcadia note; and the Techne theme page and the Project notes that cite it.
+- [x] Record each piece of Techné work kept as an idea as an `Idea:` line on its Project note or the Techne theme page.
+- [x] Hand off to `ki-techne-harness` and `tools-techne` the update of their `README.md`, `AGENTS.md`, guides and roadmap records that cite the hold; the `ki-authority` tag value stays as it is. Listed in the delivery run's report rather than captured, under the coordinator's capture gate of 19 October; see Outstanding concerns.
+- [x] Audit with `ki-decision-records` and `ki-repo-kb` and review the result against this record.
 
 ## Files touched
 
@@ -182,6 +182,43 @@ Techné carries no programme hold. It focuses on the agent host and the Mac Stud
 ## Dependencies / blocks
 
 None. The follow-ups in `ki-techne-harness` and `tools-techne` are handed off and do not block acceptance.
+
+## Review
+
+### Delivered
+
+The approved boundary: the policy note and GDR-KI-PRINCIPAL-004 rewritten to the approved wording and renamed, the island's citations swept, the ideas recorded, and the follow-ups in `ki-techne-harness` and `tools-techne` listed. Excluded, as the boundary sets: every remote operation, every edit in another repository, and acceptance. Baseline `8895ff0fecf654f5f25eca52cb9361174216312c`; the result is the delivery commit that lands this review.
+
+### Change Summary
+
+- `Admin/Governance/Policies/Techne Programme Focus.md` and `Admin/Governance/Decisions/GDR-KI-PRINCIPAL-004-techne-focus-on-the-agent-host-and-the-mac-studio.md` carry the two approved texts exactly, extracted from Proposed wording. Placeholders filled: the delivery time and date, and the Provenance link to this record at `ee568843`, the last revision holding the approved wording. One addition: GDR-KI-PRINCIPAL-004 keeps its `note_type: admin/governance/decision` front-matter line, which the draft omitted and the island's decision records carry. The renames themselves landed in `0836bcae`, a concurrent session's commit that picked up the staged renames with no content change.
+- `Decisions.md` and `Policies.md` entries rewritten.
+- Citations swept in `README.md`, `AGENTS.md` (the section is now "Techné programme focus"), `Admin/Admin.md`, `Admin/MEMORY.md`, `Governance.md`, the Charter, Known Lands, the Agent Host Prototype Rollout note, ADR-KI-PRINCIPAL-003, ADR-KI-PRINCIPAL-006, ADR-KI-PRINCIPAL-007, ODR-KI-PRINCIPAL-001 and GDR-KI-PRINCIPAL-006; in `Pillars/`, Technē, Tool Ecosystem Map, Emerging Concepts, Avatar Roles and Oversight, Known World, Great Library of Arcadia, Engineering Practice and its MEMORY, Hosts, Roles and Layers, Diagrams and the Agent Host Prototype Concept Map note, source and SVG; and in `Streams/`, the Techne theme page and its direction, Themes, the Rig theme, Projects, and the agent-host (outcome and notes), paperclip-capture-and-rebuild, mac-studio-setup, ways-of-working, tools-burndown, ai-observability and delta-evaluation Project notes.
+- Ideas recorded as `Idea:` lines: Kitteth and Avatars, messaging channels, wider K3s and controller changes, the execution fabric and other environments on the Techne theme page; remote Paperclip on the paperclip-capture-and-rebuild Project note.
+- Left as historical on purpose: ADR-KI-PRINCIPAL-004's note that the hold was unchanged by the archive move, Kris's quoted 15 October decision on the Paperclip Project, the Rollout diagram's "Hold amended" gate, which records the 7 October event, and the work packages under `+/_WORK/`, which other works own.
+- The Concept Map's labels were edited as text in both the Archify source and the exported SVG, the same strings in each, rather than re-rendered through Archify's viewer.
+
+### Verification
+
+- No live note outside `+/`, `-/` and this record cites the hold as a note or the old decision file name; the surviving mentions are the historical ones above. Pass.
+- Every link to the two renamed files resolves: LINK-1 lists no link to either. Pass.
+- `ki repo audit`: `ki-decision-records` four failures, all pre-existing in GDR-KI-PRINCIPAL-005, -010, -014 and -015; `ki-repo-kb` and `ki-repo-kb-streams` no failures and only pre-existing warnings; `ki-authoring` one failure, the Markdown mechanical gate on other works' `+/_WORK/` reports. No new failure or warning from this change.
+- The two canonical texts match the approved wording, by extraction from this record. Pass.
+- No em-dash or en-dash in the changed lines. Pass.
+
+### Outstanding concerns
+
+- The follow-ups in `ki-techne-harness` (`README.md`, `AGENTS.md`, `docs/guides/operator/agent-host.md`, and records KI-TECHNE-OPS-018 and KI-TECHNE-OPS-024) and `tools-techne` (`README.md`, `AGENTS.md`, `docs/guides/user/agent-host.md`, and record KI-TOOL-TECHNE-CLI-006) are listed, not captured, under the capture gate. Their GitHub links to `Techne%20Programme%20Hold.md` on `main` break once this commit is pushed.
+- The Concept Map SVG was text-edited, not re-exported; a later Archify re-render from the source gives the same labels.
+- The on-hold `ki.agent-host` and `ki.paperclip-capture-and-rebuild` work packages name "the Techne Programme Hold lifting" as their release; their coordinators own that.
+
+### Post-change review
+
+The goal is met: the canonical texts are the approved ones, the identifier and its AWS tag stay true, and every live citation reads the focus. Scope held: no remote operation and no edit outside this island. Regression risk is low; the changes are documentary and links resolve. Ready for Kris's review.
+
+### Mini recap
+
+Delivered the Techne Programme Focus and the rewritten GDR-KI-PRINCIPAL-004, swept about forty citing notes and recorded six ideas. Verification passed with only pre-existing audit findings. Concerns: the cross-repository follow-ups and the text-edited diagram. Learning route proposed: a staged `git mv` in a shared working tree can be swept into another session's commit, so a shared tree should rename with a plain `mv` and stage only at commit, by explicit path; the route is the island's Mistakes and Lessons note, and nothing has been promoted automatically.
 
 ## Discussion
 

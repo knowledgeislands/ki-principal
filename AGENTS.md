@@ -8,9 +8,9 @@ Knowledge Islands Principal is the Capital of the Knowledge Islands territory. [
 
 Knowledge Islands Principal owns Techné's canonical [Engineering Practice](<Pillars/Engineering Practice/Engineering Practice.md>) and engineering decisions. The former `ki-techne-principal` knowledge tree is retired and archived read-only as historical evidence; it holds no live work. `ki-techne-harness` and `tools-techne` retain separate implementation ownership.
 
-## Techné programme hold
+## Techné programme focus
 
-The [Techne Programme Hold](<Admin/Governance/Policies/Techne Programme Hold.md>) restricts remote agent execution and remote-environment management across the harness and CLI. Read it before Techné work. Local implementation, architecture, testing, review and branch integration may continue under each repository's normal authority and declared engineering standards; knowledge consolidation alone does not authorise remote operations or accept candidates.
+The [Techne Programme Focus](<Admin/Governance/Policies/Techne Programme Focus.md>) narrows Techné work across the harness and CLI to building and running the agent host and the Mac Studio, within its operating bounds. Read it before Techné work. Every other piece of Techné work is kept as an idea until the island owner takes it up through the Enactment Process; both products stay building and current with their declared engineering standards, and knowledge consolidation alone does not accept candidates.
 
 ## Progress and commits
 

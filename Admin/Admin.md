@@ -1,6 +1,6 @@
 ---
 note_type: admin/zone
-updated: 2026-10-11T01:41:00Z
+updated: 2026-10-19T23:16:23Z
 tags:
   - card/note
   - topic/knowledge-islands
@@ -20,7 +20,7 @@ author: Written with Claude
 
 ## MEMORY
 
-[[Admin/MEMORY|MEMORY]] is the root memory index named by the root `CLAUDE.md`. It lists the active zones and Pillars - Governance, Operations, the portable Knowledge Islands model and Engineering Practice - so that a session can scope itself before substantive work. It also signposts the Techne Programme Hold, the standing constraint every engineering session must read first.
+[[Admin/MEMORY|MEMORY]] is the root memory index named by the root `CLAUDE.md`. It lists the active zones and Pillars - Governance, Operations, the portable Knowledge Islands model and Engineering Practice - so that a session can scope itself before substantive work. It also signposts the Techne Programme Focus, the standing rule every engineering session must read first.
 
 ## Operations
 

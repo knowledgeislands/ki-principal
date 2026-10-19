@@ -1,6 +1,6 @@
 ---
 note_type: pillars/note
-updated: 2026-10-12T06:01:00Z
+updated: 2026-10-19T23:16:23Z
 author: AI-assisted
 ---
 
@@ -38,4 +38,4 @@ The website selects and publishes material under its own authority without acqui
 
 The former Techné knowledge repository, `ki-techne-principal`, was retired on 4 October 2026 and is archived read-only as historical evidence. It holds no live work; its snapshots are noncanonical, and its decision copies are frozen projections of the Arcadia-maintained records.
 
-The [[Techne Programme Hold]] remains effective across the harness and operator CLI. This map changes neither services, runtime bindings, work states nor release authority.
+The [[Techne Programme Focus]] governs the harness and operator CLI. This map changes neither services, runtime bindings, work states nor release authority.

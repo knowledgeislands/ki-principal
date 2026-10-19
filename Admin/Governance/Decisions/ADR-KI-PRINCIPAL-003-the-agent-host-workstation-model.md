@@ -3,7 +3,7 @@ note_type: admin/governance/decision
 id: ADR-KI-PRINCIPAL-003
 title: 'The agent host workstation model'
 date: 2026-10-08
-updated: 2026-10-13
+updated: 2026-10-20
 status: current
 decision_type_url: https://knowledgeislands.info/specifications/decision-records/adr
 decision_type: architecture
@@ -14,7 +14,7 @@ decision_depends_on: ['GDR-KI-PRINCIPAL-004', 'ODR-KI-PRINCIPAL-001']
 
 ## Context
 
-[[GDR-KI-PRINCIPAL-004-standing-agent-host-exemption-from-the-techne-programme-hold|GDR-KI-PRINCIPAL-004]] exempts one agent host, `ki-techne-agent-host`, from the Techne Programme Hold, and [[ODR-KI-PRINCIPAL-001-keeping-work-safe-on-the-agent-host|ODR-KI-PRINCIPAL-001]] keeps work on it safe. The host's binding owner opens sessions there, so the host must feel like the owner's own workstation running on another machine: the same tools, skills, shell and working rules. The `agent-host` recipe serves any binding owner and any host, a cloud instance or an owned machine, running Linux or macOS. The model therefore holds for the hardest case: a host the owner may not own or administer, whose operator user may have no root access, which cannot reach the owner's private configuration source, and which must stay inside its exemption's bounds: no new credential and no unattended process. The current host is such a case: a Linux cloud instance.
+[[GDR-KI-PRINCIPAL-004-techne-focus-on-the-agent-host-and-the-mac-studio|GDR-KI-PRINCIPAL-004]] keeps one cloud agent host, `vega`, within the Techne Programme Focus, and [[ODR-KI-PRINCIPAL-001-keeping-work-safe-on-the-agent-host|ODR-KI-PRINCIPAL-001]] keeps work on it safe. The host's binding owner opens sessions there, so the host must feel like the owner's own workstation running on another machine: the same tools, skills, shell and working rules. The `agent-host` recipe serves any binding owner and any host, a cloud instance or an owned machine, running Linux or macOS. The model therefore holds for the hardest case: a host the owner may not own or administer, whose operator user may have no root access, which cannot reach the owner's private configuration source, and which must stay inside the focus's operating bounds: no new credential and no unattended process. The current host is such a case: a Linux cloud instance.
 
 Each binding owner keeps their personal configuration in their own source, outside the recipe; for example, Kris keeps it in a chezmoi source whose Rig catalogue declares Kris's tools for macOS only. Rig runs on Linux and macOS without root and has non-Homebrew providers, but it has no install path for `ki`'s signed release archives and no proof on a real Linux host. `ki` and `techne` ship the same signed release archive pattern: per-platform archives, a checksum manifest and an Ed25519 signature over it. The `agent-host` recipe's `converge.sh` installs the shared tools itself.
 
@@ -29,7 +29,7 @@ The agent host becomes the binding owner's working machine through two layers wi
 - **Rig.** The recipe's pin file is a Rig fragment declaring the `agent-host` profile, `converge.sh` installs Rig at a pinned tag and bootstraps Rig and mise, and `status.sh` reports drift through `rig status`. The owner's personal tools install through the payload's Rig fragment by `rig apply`.
 - **Installing `ki`.** Rig installs `ki` through a built-in signed-release install kind in `tools-rig`, which verifies the release's checksum manifest against its signature and never falls back to a checksum-only download. The same kind serves every tool shipped under that release pattern, so no harness carries its own provider.
 - **Shell.** The interactive shell is a per-binding choice: the binding's optional `shell` field names it, and the recipe's default is zsh. The recipe installs the chosen shell, keeps the host environment sourceable from any shell, and hands off to the chosen shell from the login shell through a guarded hand-off, with every shell entry path tested; a personal payload may refine the shell's own startup files but not replace the hand-off. Where the provider sets the operator user's login shell, it sets the binding's shell at the next rebuild that happens for another reason; no rebuild is made for it.
-- **Delegation.** The host receives a variant of the delegation instructions without detached agents until supervision and termination of detached runs are settled, because the exemption allows agents only in sessions the binding owner opens.
+- **Delegation.** The host receives a variant of the delegation instructions without detached agents until supervision and termination of detached runs are settled, because the focus allows agents only in sessions the binding owner opens.
 - **Not a writing checkout.** Nothing in either layer marks the host as a roadmap writing checkout, adds a credential or starts an unattended process.
 
 ## Consequences
@@ -44,5 +44,5 @@ The agent host becomes the binding owner's working machine through two layers wi
 
 ## References
 
-- [[GDR-KI-PRINCIPAL-004-standing-agent-host-exemption-from-the-techne-programme-hold|GDR-KI-PRINCIPAL-004]] - the exemption whose bounds the host's profile stays within.
+- [[GDR-KI-PRINCIPAL-004-techne-focus-on-the-agent-host-and-the-mac-studio|GDR-KI-PRINCIPAL-004]] - the focus whose operating bounds the host's profile stays within.
 - [[ODR-KI-PRINCIPAL-001-keeping-work-safe-on-the-agent-host|ODR-KI-PRINCIPAL-001]] - the durability model whose pins and writing-checkout rule this builds on.

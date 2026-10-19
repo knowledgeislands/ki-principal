@@ -1,6 +1,6 @@
 ---
 note_type: pillars/index
-updated: 2026-10-02T02:58:15Z
+updated: 2026-10-19T23:16:23Z
 author: AI-assisted
 ---
 
@@ -20,4 +20,4 @@ Engineering meaning, architecture and decision criteria belong to Knowledge Isla
 
 [[Tool Ecosystem Map]] signposts the ecosystem's knowledge, reusable capabilities and implementation products. It reflects repository ownership without treating a runtime, provider or future specification as the authority for engineering knowledge.
 
-The [[Techne Programme Hold]] restricts remote running and remote-environment management. This compatibility entry point grants no operational authority or candidate acceptance.
+The [[Techne Programme Focus]] narrows Techné to building and running the agent host and the Mac Studio. This compatibility entry point grants no operational authority or candidate acceptance.

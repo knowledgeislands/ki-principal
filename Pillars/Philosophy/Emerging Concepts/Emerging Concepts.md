@@ -1,6 +1,6 @@
 ---
 note_type: pillars/index
-updated: 2026-10-14T23:30:00Z
+updated: 2026-10-19T23:16:23Z
 tags:
   - card/note
   - topic/knowledge-islands
@@ -32,7 +32,7 @@ The folder exists so that open concepts live in the knowledge base proper, where
 
 ## Avatar Roles and Oversight
 
-[[Avatar Roles and Oversight]] holds three open Techne questions about delegated agency: whether an Avatar may ever act as Operator or Architect, how events from delegated work reach the human, and what agent telemetry to capture. They stay open while the Techne Programme Hold keeps every Avatar held.
+[[Avatar Roles and Oversight]] holds three open Techne questions about delegated agency: whether an Avatar may ever act as Operator or Architect, how events from delegated work reach the human, and what agent telemetry to capture. They stay open while the Techne Programme Focus keeps every Avatar as an idea.
 
 ---
 

@@ -3,7 +3,7 @@ note_type: admin/governance/decision
 id: ADR-KI-PRINCIPAL-007
 title: 'Territory seats on hosts'
 date: 2026-10-15
-updated: 2026-10-17
+updated: 2026-10-20
 status: current
 decision_type: architecture
 decision_type_url: https://knowledgeislands.info/specifications/decision-records/adr
@@ -36,7 +36,7 @@ The seats are recorded by role in the Estate territories table of Known Lands: h
 - Because Git is the source of truth, any host can stand in for any other: the seat decides where work is coordinated, not where it may be done.
 - Renaming or replacing a machine changes one binding in chezmoi's host data, not this record or Known Lands.
 - The per-host Paperclip rebuild, the Observatory's scoping and the pub-sub topics follow the seats; each is designed in its own Project.
-- Live agent-host authority stays with the Techne Programme Hold; this record grants none.
+- Live agent-host authority stays with the Techne Programme Focus; this record grants none.
 
 ## References
 

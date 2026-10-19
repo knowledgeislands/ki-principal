@@ -1,6 +1,6 @@
 ---
 note_type: admin/index
-updated: 2026-10-12T05:30:00Z
+updated: 2026-10-19T23:16:23Z
 tags:
   - card/note
   - topic/knowledge-islands
@@ -40,4 +40,4 @@ The [[Admin/Governance/Charter|Charter]] is the authoritative declaration of wha
 
 ## Policies
 
-[[Admin/Governance/Policies/Policies|Policies]] holds persistent operating constraints under Knowledge Islands Principal's governance. Its principal policy is the [[Techne Programme Hold]], which restricts remote agent execution and remote-environment management across the Techné products, together with a diagram of how the hold's single agent-host exemption is used. A policy's presence does not replace its owner's approval; substantive changes follow the Enactment Process.
+[[Admin/Governance/Policies/Policies|Policies]] holds persistent operating constraints under Knowledge Islands Principal's governance. Its principal policy is the [[Techne Programme Focus]], which narrows the Techné products to the agent host and the Mac Studio, together with a diagram of how the agent host came into use and how it stops. A policy's presence does not replace its owner's approval; substantive changes follow the Enactment Process.

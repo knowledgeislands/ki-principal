@@ -1,6 +1,6 @@
 ---
 note_type: pillars/index
-updated: 2026-10-13T23:49:00Z
+updated: 2026-10-19T23:16:23Z
 tags:
   - card/note
   - topic/knowledge-islands
@@ -49,7 +49,7 @@ Arcadia's library earns the allusion through its role rather than its size. As t
 
 ### Engineering Practice
 
-[[Engineering Practice/Engineering Practice|Engineering Practice]] holds Techné, the engineering discipline maintained in Arcadia: foundations, architecture, operating model and technology posture. Its scope and the [[Techne Programme Hold]] are recorded in [[Engineering Practice/MEMORY|Engineering Practice memory]]. Implementation remains with `ki-techne-harness` and `tools-techne`.
+[[Engineering Practice/Engineering Practice|Engineering Practice]] holds Techné, the engineering discipline maintained in Arcadia: foundations, architecture, operating model and technology posture. Its scope and the [[Techne Programme Focus]] are recorded in [[Engineering Practice/MEMORY|Engineering Practice memory]]. Implementation remains with `ki-techne-harness` and `tools-techne`.
 
 ### Technē
 

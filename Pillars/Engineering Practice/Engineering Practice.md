@@ -1,6 +1,6 @@
 ---
 note_type: pillars/index
-updated: 2026-10-15T21:34:08Z
+updated: 2026-10-19T23:16:23Z
 author: AI-assisted
 ---
 
@@ -44,7 +44,7 @@ Its architecture, decisions, evaluations, and operating guidance evolve through 
 
 ## MEMORY
 
-[[Engineering Practice/MEMORY|MEMORY]] is the scoped memory index for this pillar, loaded before substantive engineering knowledge work. It states the pillar's scope and its current boundaries, including the [[Techne Programme Hold]] and the separate implementation ownership of `ki-techne-harness` and `tools-techne`.
+[[Engineering Practice/MEMORY|MEMORY]] is the scoped memory index for this pillar, loaded before substantive engineering knowledge work. It states the pillar's scope and its current boundaries, including the [[Techne Programme Focus]] and the separate implementation ownership of `ki-techne-harness` and `tools-techne`.
 
 ## Operating Model
 

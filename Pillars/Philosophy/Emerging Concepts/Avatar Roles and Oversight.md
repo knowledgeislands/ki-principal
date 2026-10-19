@@ -1,6 +1,6 @@
 ---
 note_type: pillars/note
-updated: 2026-10-11T03:17:00Z
+updated: 2026-10-19T23:16:23Z
 tags:
   - card/note
   - topic/knowledge-islands
@@ -12,7 +12,7 @@ author: Written with Claude
 
 ## Overview
 
-This is an emerging concept, not adopted philosophy. It holds three Techne questions about delegated agency that stay open while the [[Techne Programme Hold]] keeps Kitteth and every Avatar held. They belong to the reshaping of that hold and to the whole-philosophy review, not to current work.
+This is an emerging concept, not adopted philosophy. It holds three Techne questions about delegated agency that stay open while the [[Techne Programme Focus]] keeps Kitteth and every Avatar as an idea. They belong to taking that idea up and to the whole-philosophy review, not to current work.
 
 ---
 

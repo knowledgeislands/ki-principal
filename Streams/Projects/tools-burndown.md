@@ -7,7 +7,7 @@ theme: foundations
 lifecycle: active
 lead: Kris Brown
 target: null
-updated: 2026-10-19T22:51:19Z
+updated: 2026-10-19T23:16:23Z
 author: Written with Claude
 ---
 
@@ -26,7 +26,7 @@ This Project sits in [[Themes/foundations|Foundations]]. Kris revived it on 16 O
 ### Scope
 
 - **In:** `tools-ki`, `tools-mgit` and `tools-git-almanac` roadmaps; `ki-agentic-harness` records about the `ki` CLI, its commands, release or packaging.
-- **Out:** `tools-rig`, which the Rig threads own, and `tools-techne`, under the [Techne Programme Hold](<../../Admin/Governance/Policies/Techne Programme Hold.md>).
+- **Out:** `tools-rig`, which the Rig threads own, and `tools-techne`, under the [Techne Programme Focus](<../../Admin/Governance/Policies/Techne Programme Focus.md>).
 - Membership is classification, not authority. Several in-scope records name another Project. Under OWNER-LANE, applied on 16 October 2026 through Kris's BURN-OVERNIGHT, this Project runs the single `tools-ki` writer for every in-scope record, because the installed `ki` runs the primary checkout and two writers would collide; the owning threads, ways-of-working and knowledge-acquisition, keep priority and acceptance input.
 - **Held outside the burn-to-zero:** under RELEASE-CONTRACT, applied on 16 October 2026 through BURN-OVERNIGHT, the `tools-ki` KI release contract record stays on Hold with the agent-host Project until its 2026-11-16 review. It is excluded from this Project's burn-to-zero and from the `ki` release gate; `ki` already ships signed archives for the platforms in use, so the release proceeds without it.
 - **mgit release:** under MGIT-RELEASE, applied on 16 October 2026 through BURN-OVERNIGHT, an `mgit` release is cut only if `mgit` changes land during the Project, with Kris's approval; otherwise `v0.17.0` stands as the Project's `mgit` release.

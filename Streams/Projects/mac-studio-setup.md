@@ -7,7 +7,7 @@ theme: rig
 lifecycle: active
 lead: Kris Brown
 target: null
-updated: 2026-10-14T23:49:00Z
+updated: 2026-10-19T23:16:23Z
 author: Written with Claude
 ---
 
@@ -19,7 +19,7 @@ Kris's Mac Studio, unused for over a month, is back to full estate capability. T
 
 This Project sits in [[Themes/rig|Rig]], because the Mac Studio, `sol` on the tailnet, is Kris's own hardware: Rig and chezmoi build and maintain it as Kris's rig on another machine, with the `studio` profile on `core`, declared in the chezmoi source. Techne may deploy onto it later but never owns its build recipe, and it is separate from Techne's [[agent-host]] Project.
 
-Under [[GDR-KI-PRINCIPAL-004-standing-agent-host-exemption-from-the-techne-programme-hold|GDR-KI-PRINCIPAL-004]] it is an exempt remote agent host: agents administer it over Tailscale and SSH, with Kris approving each step.
+Under [[GDR-KI-PRINCIPAL-004-techne-focus-on-the-agent-host-and-the-mac-studio|GDR-KI-PRINCIPAL-004]] it is one of the two hosts the Techne Programme Focus keeps in scope, as a remote agent host: agents administer it over Tailscale and SSH, with Kris approving each step.
 
 ---
 
@@ -51,7 +51,7 @@ The decisions that still guide `sol`, the Mac Studio, as they stand. The full de
 #### Ownership and access
 
 - `sol` is Kris's own hardware. Rig and chezmoi build and maintain it as Kris's rig on another machine, on the `studio` profile, which builds on `core`. Techne may deploy onto it but never owns its build.
-- Remote agent use of `sol` is exempt from the Techne hold under [[GDR-KI-PRINCIPAL-004-standing-agent-host-exemption-from-the-techne-programme-hold|GDR-KI-PRINCIPAL-004]]. Agents administer it over Tailscale and SSH, with Kris approving each step.
+- Remote agent use of `sol` is within the Techne Programme Focus under [[GDR-KI-PRINCIPAL-004-techne-focus-on-the-agent-host-and-the-mac-studio|GDR-KI-PRINCIPAL-004]]. Agents administer it over Tailscale and SSH, with Kris approving each step.
 - The laptop's SSH key passes through to `sol` by agent forwarding, for `sol` only, so remote sessions there can reach GitHub.
 - The HNR harness stays on `sol` and in its `ki` registry.
 

@@ -1,6 +1,6 @@
 ---
 note_type: admin/governance/decision
-updated: 2026-10-19T07:43:00Z
+updated: 2026-10-19T23:16:23Z
 status: current - October 2026
 ---
 
@@ -25,7 +25,7 @@ Records are ordered by reveal order - the logical sequence in which the decision
 9. [GDR-KI-PRINCIPAL-003](GDR-KI-PRINCIPAL-003-capital-governed-trade-routes.md) - Capital-governed trade routes
 10. [SDR-KI-PRINCIPAL-006](SDR-KI-PRINCIPAL-006-agents-in-the-knowledge-islands-model.md) - Agents in the Knowledge Islands Model
 11. [SDR-KI-PRINCIPAL-007](SDR-KI-PRINCIPAL-007-the-great-library-of-arcadia.md) - The Great Library of Arcadia
-12. [GDR-KI-PRINCIPAL-004](GDR-KI-PRINCIPAL-004-standing-agent-host-exemption-from-the-techne-programme-hold.md) - Standing agent-host exemption from the Techne Programme Hold
+12. [GDR-KI-PRINCIPAL-004](GDR-KI-PRINCIPAL-004-techne-focus-on-the-agent-host-and-the-mac-studio.md) - Techne focus on the agent host and the Mac Studio
 13. [GDR-KI-PRINCIPAL-005](GDR-KI-PRINCIPAL-005-the-roadmap-model.md) - The roadmap model
 14. [GDR-KI-PRINCIPAL-006](GDR-KI-PRINCIPAL-006-knowledge-islands-ecosystem-fundamentals.md) - Knowledge Islands ecosystem fundamentals
 15. [ADR-KI-PRINCIPAL-002](ADR-KI-PRINCIPAL-002-territory-derived-repository-selection.md) - Territory-derived repository selection

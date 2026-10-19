@@ -19,7 +19,7 @@
           "label": "Live: access, human only"
         },
         "messagebus": {
-          "label": "HELD under the Techne Programme Hold"
+          "label": "IDEAS under the Techne Programme Focus"
         },
         "cloud": {
           "label": "Logical, not a technology (later)"
@@ -236,7 +236,7 @@
   "boundaries": [
     {
       "kind": "region",
-      "label": "Live under the standing exemption (GDR-KI-PRINCIPAL-004)",
+      "label": "Live within the Techne Programme Focus (GDR-KI-PRINCIPAL-004)",
       "wraps": [
         "rig",
         "tailnet",
@@ -249,7 +249,7 @@
     },
     {
       "kind": "region",
-      "label": "Held: Techne Programme Hold",
+      "label": "Ideas: Techne Programme Focus",
       "wraps": [
         "ctlhost",
         "k3s",
@@ -371,11 +371,11 @@
     },
     {
       "dot": "rose",
-      "title": "Held",
+      "title": "Kept as ideas",
       "items": [
         "Controller instance, its K3s and dispatcher: preserved as is",
         "Kitteth, Paperclip in any form, Telegram and other channels",
-        "The three hold prerequisites still apply to everything else"
+        "Taking any of these up needs the owner's Enactment decision"
       ]
     },
     {

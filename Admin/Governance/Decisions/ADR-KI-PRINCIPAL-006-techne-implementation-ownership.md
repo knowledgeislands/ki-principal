@@ -3,7 +3,7 @@ note_type: admin/governance/decision
 id: ADR-KI-PRINCIPAL-006
 title: Techne implementation ownership
 date: 2026-10-07
-updated: 2026-10-13
+updated: 2026-10-20
 status: current
 decision_type: architecture
 decision_type_url: https://knowledgeislands.info/specifications/decision-records/adr
@@ -54,7 +54,7 @@ Arcadia retains authority over engineering meaning, roles, invariants and decisi
 - Cross-repository integration requires explicit, versioned or immutable interfaces rather than source-tree adjacency.
 - Public CLI publication and Homebrew packaging begin only from an accepted `tools-techne` release and its immutable checksums.
 - One person can hold several agent hosts of several recipes, each a separate binding with its own footprint; adding a binding, provider or recipe changes configuration, a harness provider section or a CLI adapter, not the other repository.
-- Live agent-host authority is governed separately under the Techne Programme Hold; this record grants none.
+- Live agent-host authority is governed separately under the Techne Programme Focus; this record grants none.
 - Persona identity, governed work, credentials, canonical execution evidence and accepted portable specifications remain outside both implementation repositories unless another governing decision assigns them.
 
 Arcadia holds the only live copy of this decision record.

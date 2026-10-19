@@ -1,6 +1,6 @@
 ---
 note_type: streams/index
-updated: 2026-10-19T22:39:27Z
+updated: 2026-10-19T23:16:23Z
 author: Written with Claude
 ---
 
@@ -28,7 +28,7 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## Agent host
 
-[[agent-host]] moves agent work into the Techne footprint on an agent host, modelled as harness-defined recipes and person-owned bindings, within the standing exemption from the Techne Programme Hold.
+[[agent-host]] moves agent work into the Techne footprint on an agent host, modelled as harness-defined recipes and person-owned bindings, within the Techne Programme Focus.
 
 ---
 

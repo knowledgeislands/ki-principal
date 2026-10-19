@@ -1,6 +1,6 @@
 ---
 note_type: streams/index
-updated: 2026-10-18T03:32:46Z
+updated: 2026-10-19T23:16:23Z
 author: Written with Claude
 ---
 
@@ -22,7 +22,7 @@ Links point upwards only: a Project, record or Activity names its theme, and a t
 
 ## Techne
 
-[[Themes/techne|Techne]] takes hosts to ready, moves agent work into a governed Techne footprint and makes the agent fleet useful, within the Techne Programme Hold.
+[[Themes/techne|Techne]] takes the agent host and the Mac Studio to ready and runs governed agent work on them, within the Techne Programme Focus.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 note_type: pillars/note
-updated: 2026-10-11T14:00:00Z
+updated: 2026-10-19T23:16:23Z
 author: AI-assisted
 ---
 
@@ -18,7 +18,7 @@ Current material establishes the v0.1 foundation. Remote engineering, local and 
 
 Adopted into Knowledge Islands Principal from [the retained Techné source](https://github.com/knowledgeislands/ki-techne-principal/blob/b25e9c950fd87715d12f76b69bb2079c3a4fc054/Pillars/Engineering%20Practice/MEMORY.md) at revision `b25e9c950fd87715d12f76b69bb2079c3a4fc054`. Knowledge Islands Principal owns this canonical engineering knowledge; the original source revision remains evidence.
 
-The [[Techne Programme Hold]] restricts remote agent running and remote-environment management. Local implementation, review and integration continue under the owning repositories' standards; knowledge adoption alone grants no remote-operation authority. Its one exemption covers setting up and operating the single agent host `ki-techne-agent-host`; it stands until Kris changes or withdraws it, with a scheduled review on 2026-11-06.
+The [[Techne Programme Focus]] narrows Techné to building and running the agent host `vega` and the Mac Studio `sol`, within its operating bounds, and keeps every other piece of Techné work as an idea. Both owning repositories stay building and current with their standards; knowledge adoption alone grants no remote-operation authority. It stands until Kris changes it, with no fixed review date.
 
 Agent hosts are modelled as **recipes** (harness-defined kinds of agent host, the prototype being `agent-host`), **bindings** (a person's named, configured instance of a recipe), **providers** (the infrastructure a binding's footprint lives on, AWS first) and **footprints** (what a binding leaves on its provider and host). Recipes and provider stacks live in `ki-techne-harness`; the grammar, binding loader and provider adapters in `tools-techne`; Kris's bindings in chezmoi. [[ADR-KI-PRINCIPAL-006-techne-implementation-ownership|ADR-KI-PRINCIPAL-006]] owns the split.
 

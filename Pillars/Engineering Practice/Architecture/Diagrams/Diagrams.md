@@ -1,6 +1,6 @@
 ---
 note_type: pillars/index
-updated: 2026-10-11T02:19:55Z
+updated: 2026-10-19T23:16:23Z
 author: AI-assisted
 ---
 
@@ -18,7 +18,7 @@ The [[Pillars/Engineering Practice/Architecture/Diagrams/Engineering Estate.svg|
 
 ## Agent Host Prototype Concept Map
 
-The [[Agent Host Prototype Concept Map]] reads the [KI-PRINCIPAL-GOV-020](https://github.com/knowledgeislands/ki-principal/blob/fddfca69b4642cb4db4113123aa7dc613c3e92f4/Streams/Roadmap/KI-ARCADIA-GOV-020-limited-remote-agent-prototype.md) limited remote agent prototype in Knowledge Islands terms: Human, Rig, tailnet, Footprint and agent sessions, and the Operator access and Techne provisioning path, all live for the prototype's term. It sets these against what stays held under the [[Techne Programme Hold]]: the controller, K3s, the dispatcher, Kitteth, Paperclip and Telegram. The note explains each region; the SVG sits beside its Archify source.
+The [[Agent Host Prototype Concept Map]] reads the [KI-PRINCIPAL-GOV-020](https://github.com/knowledgeislands/ki-principal/blob/fddfca69b4642cb4db4113123aa7dc613c3e92f4/Streams/Roadmap/KI-ARCADIA-GOV-020-limited-remote-agent-prototype.md) limited remote agent prototype in Knowledge Islands terms: Human, Rig, tailnet, Footprint and agent sessions, and the Operator access and Techne provisioning path, all live for the prototype's term. It sets these against what the [[Techne Programme Focus]] keeps as ideas: the controller, K3s, the dispatcher, Kitteth, Paperclip and Telegram. The note explains each region; the SVG sits beside its Archify source.
 
 ## Provenance
 

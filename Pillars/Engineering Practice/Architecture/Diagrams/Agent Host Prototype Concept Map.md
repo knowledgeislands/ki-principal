@@ -1,6 +1,6 @@
 ---
 note_type: pillars/note
-updated: 2026-10-11T02:19:55Z
+updated: 2026-10-19T23:16:23Z
 author: AI-assisted
 ---
 
@@ -8,7 +8,7 @@ author: AI-assisted
 
 ## Overview
 
-This diagram maps the limited remote agent prototype onto Knowledge Islands concepts, and separates what is live for the prototype from what stays held under the [[Techne Programme Hold]]. It reads the prototype in the vocabulary of the model rather than of AWS, so that a technology choice is never mistaken for a concept. [KI-PRINCIPAL-GOV-020](https://github.com/knowledgeislands/ki-principal/blob/fddfca69b4642cb4db4113123aa7dc613c3e92f4/Streams/Roadmap/KI-ARCADIA-GOV-020-limited-remote-agent-prototype.md) defined the prototype and [[GDR-KI-PRINCIPAL-004-standing-agent-host-exemption-from-the-techne-programme-hold|GDR-KI-PRINCIPAL-004]] records its standing exemption from the hold.
+This diagram maps the limited remote agent prototype onto Knowledge Islands concepts, and separates what is live for the prototype from what the [[Techne Programme Focus]] keeps as ideas. It reads the prototype in the vocabulary of the model rather than of AWS, so that a technology choice is never mistaken for a concept. [KI-PRINCIPAL-GOV-020](https://github.com/knowledgeislands/ki-principal/blob/fddfca69b4642cb4db4113123aa7dc613c3e92f4/Streams/Roadmap/KI-ARCADIA-GOV-020-limited-remote-agent-prototype.md) defined the prototype and [[GDR-KI-PRINCIPAL-004-techne-focus-on-the-agent-host-and-the-mac-studio|GDR-KI-PRINCIPAL-004]] now records the focus that keeps the agent host in scope.
 
 ![[Agent Host Prototype Concept Map.svg]]
 
@@ -16,7 +16,7 @@ This diagram maps the limited remote agent prototype onto Knowledge Islands conc
 
 ## Live for the prototype
 
-The upper region is live while the standing exemption holds, until Kris changes or withdraws it. Kris, the Human, holds intent and authority and works from the Rig, Kris's Mac with Zed, Tailscale and Granted. The Rig connects over the tailnet, whose Tailscale SSH policy admits only the `techne` user, to one new Footprint, the agent host `ki-techne-agent-host`, which hosts agent sessions.
+The upper region is live within the Techne Programme Focus, until Kris changes it. Kris, the Human, holds intent and authority and works from the Rig, Kris's Mac with Zed, Tailscale and Granted. The Rig connects over the tailnet, whose Tailscale SSH policy admits only the `techne` user, to one new Footprint, the agent host `ki-techne-agent-host`, which hosts agent sessions.
 
 Those sessions are Kris's own actions, not an Avatar's. Kris acts as Operator and Architect through an account-local IAM role that only a human assumes, and provisions the host through Techne, implemented in `ki-techne-harness`. Access, shown in red, is always human only.
 
@@ -24,7 +24,7 @@ Those sessions are Kris's own actions, not an Avatar's. Kris acts as Operator an
 
 The lower region stays held. The controller Footprint `ki-techne-ops-007-primary`, its single-node K3s and the `techne-controller` dispatcher are preserved as they are. The dispatcher is a proto-handoff with no agency: it polls Telegram as `kitteth_bot`, but it is not the Avatar.
 
-The Avatar, Kitteth, would hold delegated agency within the Realm, alongside Paperclip and talking through Telegram. All of that stays held, and the hold's three prerequisites still apply to everything outside the prototype.
+The Avatar, Kitteth, would hold delegated agency within the Realm, alongside Paperclip and talking through Telegram. All of that is kept as an idea under the focus; taking any of it up needs the island owner's decision through the Enactment Process.
 
 ## Readings
 

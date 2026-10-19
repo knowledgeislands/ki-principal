@@ -3,7 +3,7 @@ note_type: admin/governance/decision
 id: GDR-KI-PRINCIPAL-006
 title: 'Knowledge Islands ecosystem fundamentals'
 date: 2026-09-24
-updated: 2026-10-12
+updated: 2026-10-20
 status: current
 decision_type_url: https://knowledgeislands.info/specifications/decision-records/gdr
 decision_type: governance
@@ -22,7 +22,7 @@ Some work has a natural repository owner, while estate-wide initiatives and unre
 This record separates five factorisation dimensions: repository structure; authority and responsibility; projection and distribution; runtime binding and mutable state; and repository-boundary justification. A change in one dimension does not imply a change in another.
 
 - `ki-principal` owns philosophy, the conceptual model, shared ecosystem governance, estate-wide initiative records, the Knowledge Islands territory roster, and routing where no natural repository owner exists. Arcadia owns the question, participating set, evidence, and completion condition; an implementation becomes repository work only when its receiving owner accepts it.
-- `ki-techne-principal` is archived read-only. It holds no live work and establishes no knowledge or principal authority; Arcadia owns canonical engineering knowledge, and the Techné programme hold applies as Arcadia declares it.
+- `ki-techne-principal` is archived read-only. It holds no live work and establishes no knowledge or principal authority; Arcadia owns canonical engineering knowledge, and the Techné programme focus applies as Arcadia declares it.
 - `ki-agentic-harness` owns the reusable agent-facing capabilities it publishes and generic MCP governance, binding semantics, and conformance assets. It does not contain or own executable MCP products merely because those products consume its governance.
 - `tools-ki` owns generic repository host mechanics and the public `ki` command grammar. `ki-techne-harness` owns Techne execution-harness applications, controller and execution-fabric implementation, packaging, deployment, and provider adapters. `tools-techne` owns the independently released `techne` operator command. [[ADR-KI-PRINCIPAL-006-techne-implementation-ownership|ADR-KI-PRINCIPAL-006]] decides this split in detail.
 - Each application, tool, and MCP product repository owns its executable source, behaviour, provider policy, schema, trust boundary, compatibility, tests, build identity, release, and lifecycle. `apps-observatory` owns the Observatory application and governed operator experience.
