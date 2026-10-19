@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
-state: with-worker
-since: 2026-10-19T18:56:48Z
+state: handoff-to-supervisor
+since: 2026-10-19T19:28:07Z
 received: null
 beat: null
 mark: 2026-10-19T19:10:00Z
@@ -12,14 +12,14 @@ method_read: 979e075a
 
 ## Now
 
-- With worker since 19:48 BST on 19 October; marked at 20:10 BST.
-- Running: carry-directions. Done since the mark: rig-dock, KB-DOTFILES-UE-091 delivered to Awaiting review, firewall declaration not written.
-- With Kris: RIG-FIREWALL-REHEARSE (reviewed, review disagrees); and the attended Dock apply on Sol ([rig-dock report](/Users/krisbrown/.local/state/ki/agents/chezmoi/rig-dock.report.md)).
+- Handoff to supervisor since 20:28 BST on 19 October; marked at 20:10 BST.
+- Nothing running. Run reports sit in `~/.local/state/ki/agents/chezmoi/`.
+- With Kris: APPLY-CARRY and RIG-FIREWALL-REHEARSE in `queries.md`.
 
 ## Next steps
 
 1. Receive each run: copy its queries into `queries.md`, blind-review any medium, low or destructive one, home outcomes.
-2. Bring the rig-dock and carry-directions diffs to Kris for attended applies; apply nothing else without Kris's explicit approval. The LOCALS-DIFF warning stands for any full `chezmoi diff` ([reinstall-check report](/Users/krisbrown/.local/state/ki/agents/ways-of-working/reinstall-check.report.md)).
+2. On APPLY-CARRY a), support Kris's attended applies on Sol then Terra; apply nothing else without Kris's explicit approval. The LOCALS-DIFF warning stands for any full `chezmoi diff` ([reinstall-check report](/Users/krisbrown/.local/state/ki/agents/ways-of-working/reinstall-check.report.md)).
 3. Then put the parked queries in `queries.md` back one at a time, each with a recommendation and its reason.
 
 ## Held

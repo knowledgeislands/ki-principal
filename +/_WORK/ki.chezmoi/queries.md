@@ -2,6 +2,20 @@
 
 ## Open
 
+### APPLY-CARRY - Apply the Dock, TOML and Paperclip source changes on both Macs
+
+since 2026-10-19 · from runs rig-dock and carry-directions ([report](/Users/krisbrown/.local/state/ki/agents/chezmoi/carry-directions.report.md))
+
+**Context:** Five Rig targets differ under `~/.config/rig/conf.d/`, nothing applied: `40-macos` (Dock tool links from [KB-DOTFILES-UE-091](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-091-shared-dock-tool-links.md) plus the `.toml` handler to Zed), `90-profiles` (Dock), and `15-command-line`, `50-services`, `55-ports` (Paperclip held off every profile). Seat bindings render nothing yet. Removing Paperclip from profiles does not unload a launchd job an earlier apply installed; on Terra it was declared stopped but nobody has checked. Live `rig doctor` has one standing finding, `utm` drifted via the App Store, which needs Kris to reinstall.
+
+**Query:** Apply these on Sol and then Terra, attended?
+
+**Options:**
+
+a) (recommended, confidence high - each step reviewed and reversible) On each Mac: review `chezmoi diff ~/.config/rig`, apply those five targets only, `rig apply --target dock:workstation` and `--target default-application:toml` (dry run first), `rig doctor`; on Terra also check `launchctl print gui/$(id -u)/uk.me.kris.rig.paperclip`.
+
+b) Hold them and fold them into a later combined review.
+
 ### RIG-FIREWALL-REHEARSE - Where to rehearse the firewall restore
 
 since 2026-10-19 · from run rig-dock ([report](/Users/krisbrown/.local/state/ki/agents/chezmoi/rig-dock.report.md)) · reviewed ([firewall-review](/Users/krisbrown/.local/state/ki/agents/chezmoi/firewall-review.report.md))
