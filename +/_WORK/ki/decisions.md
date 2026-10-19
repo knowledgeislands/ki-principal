@@ -152,3 +152,4 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 - **GOV035-ACCEPT a)**, taken under OVERNIGHT: `gov035-accept` dispatched, which also releases KI-PRINCIPAL-MOD-008 to next.
 - **TECHNE-FOLLOWUPS a)**, taken under OVERNIGHT: `agent-host-resume` is chained after gov035-accept.
 - **WOW-RESUME a)**, taken under PROGRESS-ALL and OVERNIGHT: with no ways-of-working session open, `wow-triage` is dispatched as that package's worker.
+- 00:31 BST: `gov035-accept` received. KI-PRINCIPAL-GOV-035 is accepted and done (`a54cd931`), and KI-PRINCIPAL-MOD-008 is released to next. Links are clean. `agent-host-resume` dispatched. Note: State of play's OVERNIGHT entry and briefs were taken into ki.timelines' commit `e0489e42` during a lock race. Nothing was lost.
