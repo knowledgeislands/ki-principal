@@ -2,6 +2,38 @@
 
 ## Open
 
+### BURNDOWN-ACCEPT - Accept the one record awaiting review
+
+since 2026-10-19 · from burndown.report.md in the run state folder
+
+**Context:** Only one in-scope record is Awaiting review. [KI-TOOL-MGIT-CLI-028](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-028-learn-majority-output.md): `mgit learn` writes a template only after a `[y/N]` on a terminal. It does so when every repository, or strictly more than half, agree, and it can learn from a single repository. Its verification: Bats 135 of 135 under macOS Bash 3.2, shellcheck, `bash -n` and mandoc lint pass, and `ki repo audit` shows FAIL=0 with the same 7 warnings as at baseline. Known limits: unattended learning, unanimous included, now refuses with exit 1; the terminal cases skip when `python3` is missing; any failed repository still blocks learning. KI-TOOL-MGIT-CLI-023 is still `draft`, so it is not in this batch; the mgitrel run brings it forward under MGIT-GO.
+
+**Query:** Do you accept KI-TOOL-MGIT-CLI-028 as done?
+
+**Options:**
+
+a) (recommended, confidence high - delivered exactly to both of your MGIT-LEARN-MAJORITY instructions, with the full gate passing) Accept all: KI-TOOL-MGIT-CLI-028 is done and rides with the mgit release.
+
+b) Accept with named exceptions; with one record, this means naming a limit to fix first, such as an explicit unattended flag.
+
+c) Decline: it stays at Awaiting review.
+
+### TRIAGE-PROPOSAL - Keep all eight triage records
+
+since 2026-10-19 · from burndown.report.md in the run state folder
+
+**Context:** The goal was to cancel or merge at least half. I found no honest case for any of them. Each one is either a live dependency, part of a run writing now, or something you asked for in the last two days: KI-TOOL-KI-CLI-145 (thread bindings, `ki thread`): keep, because KI-HARNESS-GOV-199 Phase 3 and KB-DOTFILES-UE-096 wait on it; its text still speaks of checkpoints and `role`, and planning should reread it for the work model's work id and `level`. KI-TOOL-KI-CLI-149 (work status views contract): keep, because a live run is writing it and the brief rules it out. KI-TOOL-KI-CLI-151 (CLI convention departures): keep, because CLI-DEPARTURES a) made it the single carrier, and none of the four departures is fixed yet. KI-TOOL-KI-CLI-152 (work folder housekeeping commands): keep, because a live run is writing it and the brief rules it out; its goal still names `ki-work-folder`, which has become `ki-work-package`. KI-TOOL-KI-CLI-154 (territory tolerates unregistered members): keep, because the defect is real (the territories spec line 29 requires the hard fail) and your TERRITORY-REGISTER c) handed it here today. KI-TOOL-KI-CLI-156 (CI runs the local gate): keep, because your open BIOME-CI-STANDARD answer decides its shape, not its existence. KI-TOOL-MGIT-CLI-027 (fatal Bats assertions): keep, because all 8 bare assertions are still present in `tests/territory-producer.bats` and `tests/territory-protocol.bats`. KI-MCP-GIT-FND-006 (ground roots in `~/workspaces`): keep, because `DEFAULT_SAFE_ROOTS` is still `~` and your EXT-ROOTS answer asked for it today. I also checked for overlap with KI-TOOL-KI-CLI-125, -134, -140 and -149, and with KI-TOOL-MGIT-CLI-026: none.
+
+**Query:** Do you confirm keeping all eight, which leaves the "at least half" goal unmet?
+
+**Options:**
+
+a) (recommended, confidence medium - every record has a live owner or dependency, and cutting any of them would lose work you asked for) Accept all: keep all eight. KI-TOOL-KI-CLI-145 and -152 get rewritten for the work model when they are planned.
+
+b) Accept with named exceptions: name any record to cancel anyway, with its resolution (obsolete, rejected, duplicate, merged or superseded), and I'll carry it out under `ki-accept`.
+
+c) Decline: send it back for a second pass with a firmer cut, for example cancelling KI-TOOL-KI-CLI-151 and fixing each departure without a record.
+
 ### MGIT-GO - Accept KI-TOOL-MGIT-CLI-023 and cut the mgit release
 
 since 2026-10-19 · from the MGIT-RELEASE message
