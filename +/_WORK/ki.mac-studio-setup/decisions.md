@@ -651,3 +651,5 @@
 - 2026-10-19 23:30 BST, correction: the first launch of the four runs at 23:28 BST failed (the launcher command was not split), and nothing ran; relaunched at 23:30 BST.
 
 - 2026-10-19 23:33 BST, rig-capture received: RIG-UNLOAD-LABEL needs no record (callers proven); KI-TOOL-RIG-CORE-069 captured for TOML-HANDLER, unpushed in tools-rig; its BOOTOUT-GUARD query (medium) sent to blind review run bootout-review on Codex at high effort; rig-capture brief pruned.
+
+- Kris 2026-10-19 23:36 BST: 'mark' - mark moved to 2026-10-19T22:36Z; bootout-review agreed with BOOTOUT-GUARD a), lifted to high, with Kris; REFRESH-BANNER applied (banner on every state reply, push only as [unpushed], clean hold banner); decision strike sent to run decision-strike; bootout-review brief pruned; the four kept reports stay, outcomes not yet homed.

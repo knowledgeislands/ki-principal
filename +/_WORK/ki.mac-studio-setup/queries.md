@@ -18,19 +18,19 @@ b) Treat it as the held sol firewall test with its NordVPN check, and delete the
 
 ### BOOTOUT-GUARD - Guard every bootout site against an empty label
 
-since 2026-10-19 · rig-capture run report, 23:31 BST · in blind review (bootout-review) before it reaches Kris
+since 2026-10-19 · rig-capture run report, 23:31 BST · reviewed by bootout-review, 23:34 BST, which agrees
 
-**Context:** An empty-label `launchctl bootout system/` shut terra down at 21:07 on 19 October. Rig's `rig_firewall_retire` and `rig_firewall_load_state` do not check the locator themselves and rely on an earlier preflight, which always runs today; `rig_launchd_unload` has the same shape in the user domain. Not a live defect.
+**Context:** An empty-label `launchctl bootout system/` shut terra down at 21:07 on 19 October during a hand-run rehearsal. Rig has three bootout sites, `rig_firewall_apply`, `rig_firewall_retire` and `rig_launchd_unload`; none checks its label itself, each relying on validation earlier in the call chain, and native firewall retirement does not enforce its own preflight. The normal commands are safe today, and no test bypasses the earlier checks. KI-TOOL-RIG-CORE-047 is awaiting review, and the launchd site lies outside its firewall scope.
 
-**Query:** Capture a defence-in-depth record that refuses an empty or invalid label at every bootout site?
+**Query:** Capture a separate tools-rig record that refuses an empty or invalid label at all three bootout sites?
 
 **Options:**
 
-a) (recommended by rig-capture, confidence medium - small and cheap, closes the one input that turns a service bootout into a machine shutdown, but nothing is broken today) Capture a Triage record in tools-rig for a guard at each bootout site, with a fixture test each.
+a) (recommended, confidence high - reviewed; all three missing local checks verified directly, and a Triage record is reversible) Capture a Triage record for a local refusal at each site, before any other side effect, with a fixture test each that bypasses earlier validation and proves refusal with no native change.
 
-b) Capture nothing; the current guards are proven.
+b) Capture nothing; accept reliance on the earlier checks.
 
-c) Fold the guard into KI-TOOL-RIG-CORE-047 when it is next planned.
+c) Fold the guards into KI-TOOL-RIG-CORE-047 when it is next planned.
 
 ## Parked
 

@@ -4,7 +4,7 @@ state: with-worker
 since: 2026-10-19T22:30:00Z
 received: 2026-10-19T22:27:00Z
 beat: null
-mark: 2026-10-19T18:01:00Z
+mark: 2026-10-19T22:36:00Z
 method_read: 84b61942
 ---
 
@@ -12,14 +12,14 @@ method_read: 84b61942
 
 ## Now
 
-- With worker since 23:30 BST on 19 October; marked at 19:01 BST on 19 October.
-- rig-capture received 23:31 BST: RIG-UNLOAD-LABEL, every caller proven to guarantee a non-empty label, no record; TOML-HANDLER captured as KI-TOOL-RIG-CORE-069 (Triage); tools-rig commits ccd14ac and 4f97d74, local, unpushed; BOOTOUT-GUARD raised, in blind review (bootout-review, Codex).
+- With worker since 23:30 BST on 19 October; marked at 23:36 BST on 19 October.
+- rig-capture received 23:31 BST: RIG-UNLOAD-LABEL, every caller proven to guarantee a non-empty label, no record; TOML-HANDLER captured as KI-TOOL-RIG-CORE-069 (Triage); tools-rig commits ccd14ac and 4f97d74, local, unpushed; BOOTOUT-GUARD raised; bootout-review agreed at 23:34 BST, now high and with Kris.
 - Running, chained in tools-rig: core063 (plan and deliver KI-TOOL-RIG-CORE-063 to Awaiting review), then plan062 (plan KI-TOOL-RIG-CORE-062), then plan027 (plan KI-TOOL-RIG-CLI-027); local commits only, no push.
-- With Kris: SOL-FW-TEST, Kris to restate or confirm it.
+- With Kris: SOL-FW-TEST, Kris to restate or confirm it; BOOTOUT-GUARD.
 - ki-principal push left to the owning sessions (PUSH-STACK a).
 - FIRST-STEP done: `ki-work-package` and all five files re-read, description, Goals and Scope confirmed as drafted, `method_read` set.
 - REPORT-SWEEP received: the four kept reports stay, their outcomes not yet homed; rig-lane's query is RIG-ORDER, and the other three are the held at-screen steps below.
-- Decisions not yet struck at this mark; the next mark takes it as a run.
+- Decisions being struck by run decision-strike, launched at the 23:36 BST mark.
 - Run reports sit in `~/.local/state/ki/agents/mac-studio-setup/`, retired ones in its `archive/`.
 
 ## Next steps
