@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
-state: with-worker
-since: 2026-10-19T20:10:23Z
+state: handoff-to-supervisor
+since: 2026-10-19T21:44:22Z
 received: null
 beat: null
 mark: 2026-10-19T21:34:11Z
@@ -12,10 +12,9 @@ method_read: 979e075a
 
 ## Now
 
-- With worker; marked at 22:32 BST on 19 October.
-- Both Macs carried to `8b9ee66`: five Rig targets and the Dock applied, Paperclip held; only the accepted TOML drift remains.
-- Terra firewall rehearsal passed 22:03–22:06 BST; evidence in KI-TOOL-RIG-CORE-047 (tools-rig `1fc21ff`) and `[firewall.screen-sharing-tailnet]` declared in `core` (chezmoi `dd2a062`), both unpushed, nothing applied ([firewall-record](/Users/krisbrown/.local/state/ki/agents/chezmoi/firewall-record.report.md)).
-- Running: sol-preflight-2. Sol's root pf ruleset is Apple's, with an uncalled `NordVPN` anchor; it finishes the pre-flight and writes the attended `sol-apply.md`.
+- With Kris since 22:45 BST: SSH-APPLY and SOL-APPLY.
+- Sol's chezmoi is fast-forwarded to `655acd1`, and its age identity has been restored from 1Password. `chezmoi init` added only the encryption settings. Nothing is applied yet.
+- Terra's firewall rehearsal passed. The declaration (`dd2a062`) is on `origin`. The tools-rig evidence commits `1fc21ff` and `f7ef0fd` are not pushed.
 
 ## Next steps
 
