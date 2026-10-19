@@ -34,6 +34,20 @@ b) `founding`, `settled`, `thriving`: three levels, coarser but each one distinc
 
 c) `outpost`, `village`, `town`, `city`: a settlement-size metaphor that drops "settled" and "thriving"
 
+### LARGE-SCREEN-EXISTING - Retire the shipped narrow-screen behaviour?
+
+since 2026-10-19 · from [obs-accept-answers](/Users/krisbrown/.local/state/ki/agents/observatory/obs-accept-answers.report.md), reviewed by [obs-screen-review](/Users/krisbrown/.local/state/ki/agents/observatory/obs-screen-review.report.md)
+
+**Context:** You set the Observatory for large screens, with narrow layouts only if they're easy. Tables already drop columns below 760 px. That behaviour is set in [PDR-KI-OBSERVA-002](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/decisions/PDR-KI-OBSERVA-002-observatory-design-language.md) and covered by a width test, and every new table currently has to declare its dropped columns. [KI-OBSERVA-APP-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md) now says its decision record retires the rule and the test. The blind review thinks that goes further than you asked. The shipped behaviour already gives cheap best effort, so it would keep that behaviour and its test and only drop the requirement that new tables declare columns.
+
+**Query:** Should the shipped narrow-screen behaviour be retired, or kept while new work stops planning for narrow screens?
+
+**Options:**
+
+a) (recommended, confidence medium - review disagrees, one rule to maintain matches "no column-dropping scheme") Retire the rule and its test through KI-OBSERVA-APP-044's decision record, as now written.
+
+b) Keep the shipped narrow behaviour and its test, drop the requirement that new tables declare columns, and reword KI-OBSERVA-APP-044.
+
 ## Parked
 
 None.
