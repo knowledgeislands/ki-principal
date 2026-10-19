@@ -6,12 +6,9 @@ project: mac-studio-setup
 theme: rig
 worker: agent
 supervisor: owner
-state: on-hold
-hold:
-  reason: paused
-  release: after the work migration lands
-since: 2026-10-18T03:30:38Z
-received: null
+state: with-worker
+since: 2026-10-19T10:10:00Z
+received: 2026-10-19T10:04:00Z
 beat: null
 mark: 2026-10-18T01:20:00Z
 created_at: 2026-10-08T08:45:00Z
@@ -21,17 +18,11 @@ created_at: 2026-10-08T08:45:00Z
 
 ## Next steps
 
-- **Status:** hold, 2026-10-18 02:20 BST (mark 2026-10-18T01:20Z), drained for the ways-of-working updates at Kris's request. Running: nothing.
-- **Resume line:** `Resume Rig: mac-studio-setup from its checkpoint under current ki-pmo and ki-delegation since 2026-10-18T01:20Z: re-bootstrap, read the pick-up block, take stock, put the parked queries back, restart authorised work, then banner.`
-- **Next:** first REMIND Kris of the deferred sol restart (ADOBE-RESTART). Then put the parked queries back one at a time, each with a recommendation and its reason (Kris 2026-10-17: step by step), starting with RIG-ORDER.
-
-On resume: remind Kris of ADOBE-RESTART, then put RIG-ORDER back first, step by step.
+- **Status:** with worker since 2026-10-19 11:10 BST, resumed from the 2026-10-18 hold. Running: footer-record (tools-ki), rig-refresh (tools-rig read-only, rig-lane report links).
+- **Next:** ADOBE-RESTART reminder given at resume. Restate RIG-ORDER from rig-refresh (tools-rig CORE-052, 054, 055, 058 and 060 are gone from the roadmap since the hold; CORE-042 and CORE-047 await review). Then the remaining parked items one at a time, each with a recommendation and its reason.
 
 ## Messages
 
-- 2026-10-18 · PRINCIPAL-CI-RED · KI > Model > Ways of working: Kris answered "do all the recommended items"; ki-principal CI fails COORD-7 on `rig-lane.report.md`: its KI-TOOL-RIG-CORE-058 link targets a pruned file. Repoint it as `KI-TOOL-RIG-CORE-058 (pruned)` to [its copy at 6ac358fb](https://github.com/knowledgeislands/tools-rig/blob/6ac358fb/docs/roadmap/KI-TOOL-RIG-CORE-058-apply-lock-handler-history.md), or prune the report at your mark.
-- 2026-10-18 · THREADS-REGRESSION · KI > Model > Ways of working: your `mac-studio-setup` run is still homed in the retired `+/_THREADS/mac-studio-setup/` (`~/.local/state/ki/agents/mac-studio-setup/thread.json`), so the installed `ki` copies every report there; briefs such as `adobe-clear` named `+/_THREADS/mac-studio-setup/` report paths, and a `decisions.md` still sits in the run's state folder for `ki agent decide` to adopt. Before your next launch run `ki agent home mac-studio-setup --work ki.mac-studio-setup` from this repository and write report paths as `+/_WORK/ki.mac-studio-setup/`, never `+/_THREADS/` or `+/_CHECKPOINTS/`. The next `ki` release follows a retired home automatically, under [KI-TOOL-KI-CLI-150](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md), and the audit now fails either folder beside `+/_WORK/`, under [KI-HARNESS-GOV-200](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md).
-- 2026-10-18 · DESK-KIT-SOP · KI > Model > Ways of working: drop "and the desk kit" from your **Anywhere** next step. Kris confirmed on 17 October that the webcam meets their needs, the desk-kit area was retired in ki-principal `23b161e`, and on 18 October Kris asked for the desk-kit lines to be removed wherever they appear (decisions log of [ki.ways-of-working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/decisions.md), DESK-KIT-SOP).
 - MIGRATED - this file was `+/_CHECKPOINTS/rig.mac-studio-setup.md` until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
 
 ## Parked
@@ -43,8 +34,8 @@ Parked at the 2026-10-18 hold (Kris; put back one at a time, with a recommendati
 - **`ADOBE-DATA`** - about 8 GB of leftover Adobe data on sol, including the Lightroom catalogue. Recommended: keep the catalogue and delete the rest at a sol screen session (it needs sudo). Not deleted on Kris's broad "get rid of everything".
 - **At sol's screen:** key-only SSH (ssh-keyonly.report.md), KB-DOTFILES-UE-086 steps 0-12 (ue086-walk.report.md), the UTM swap (UTM-SOL), the Observatory restart (OBS-RESTART), and the KI-TOOL-RIG-CORE-047 live firewall test.
 - **At terra's screen:** pull tools-rig and upgrade Rig past 0.6.3; pull chezmoi and run `chezmoi apply ~/.config/rig && rig doctor`; HOSTKEY-APPLY steps 6-9 (hostkey-check.report.md); then key-only SSH.
-- **Anywhere:** the Headroom favicon request and the desk kit.
-- **`FOOTER-RECORD`** - approved, held until another session's tools-ki rebase clears (stuck since 2026-10-16 08:51). Then an agent commits only the KI-TOOL-KI-CLI-134 note locally (launcher-footer.report.md).
+- **Anywhere:** the Headroom favicon request.
+- **`FOOTER-RECORD`** - approved; the tools-ki rebase has cleared and footer-record is running (2026-10-19). Then an agent commits only the KI-TOOL-KI-CLI-134 note locally (launcher-footer.report.md).
 
 Parked (Kris, 2026-10-14), each described in the run folder reports `old-trees`, `sol-build` and `records`: `FW-LIVE` (terra rule comparison; reboot check at the next natural restart), `SOL-FW-TEST`, `UE-089-SHAPE`, `OLD-ORPHANS` (four repositories GitHub no longer serves), `MGIT-PRESEED` (an unfinished `tools-mgit` change saved as a patch in terra's run folder), `SOL-SOURCES`, `SOL-HNR-HARNESS`, `SOL-WHATSAPP`, `SOL-KI-CONFIG-DRIFT`.
 
