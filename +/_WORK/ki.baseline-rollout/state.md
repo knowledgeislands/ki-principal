@@ -14,7 +14,8 @@ method_read: 2026-10-19T18:03:40Z
 
 - Kris answered WAVE-1 at 23:30 BST, "go with recommendations": wave 1 launched read-only at 23:40 BST in run `baseline-rollout`.
 - `wave1-audit` received 23:45 BST: five territories healthy; Techmedix audit blocked by an archived unregistered member; three undeclared HNR repositories; Homebrew `ki` one release behind. Queries TERRITORY-TECHMEDIX, REGISTER-HNR and KI-BREW copied to `queries.md`; report kept as `report-wave1-audit.md` until its queries are answered.
-- Running: `wave1-sweep` (roadmap conformance sweep), ; blind reviews received and agreed: `review-register-hnr` 23:46 BST (REGISTER-HNR lifted to medium) and `review-territory-techmedix` 23:47 BST (TERRITORY-TECHMEDIX lifted to high).
+- `wave1-sweep` received 23:50 BST: 19 retired theme slugs in 5 area maps, 7 superseded ledgers, 191 open records missing size and 61 missing kind, apps-vallearmonia.com still 7 planning gaps, Mermaid all covered bar one captured conversation; six queries copied, report kept as `report-wave1-sweep.md`. Blind reviews of TERRITORY-TECHMEDIX and REGISTER-HNR received and agreed.
+- Running: blind reviews of the six sweep queries (Codex, high effort): `review-area-titles`, `review-ledger-form`, `review-size-kind`, then `review-va-planning`, `review-theme-registry`, `review-checker-gaps` chained behind them.
 - REFRESH-BANNER (ways-of-working, 23:35 BST) applied: banner on every state-moving reply; pushes only as `[unpushed]` housekeeping; clean hold banners.
 - HOOKS-MIGRATION (State of play, 23:41 BST, replaces HOOK-GUARD): the estate moves from Husky to `.githooks` tonight after the new ki release; this work holds no uncommitted `package.json`, `bun.lock`, `.husky/` or `.githooks/` changes, and wave briefs still never run `ki repo conform`.
 
