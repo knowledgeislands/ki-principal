@@ -194,3 +194,15 @@ Kris:
 > go ahead with recommendations
 
 Read back as taken: a) for all five. GOV-197-ACCEPT-NOW (a harness run accepts KI-HARNESS-GOV-197 under `ki-accept`, minor notes left), CI-RED-REST (ki.chezmoi and ki.observatory fix their own files; CI rechecked at the next mark), HARNESS-DIRECT (the harness wording lands as a direct commit citing KI-TOOL-KI-CLI-150; taken with "move forwards" as authorising the launch-part delivery run under `ki-implement` to Awaiting review, with no release), PRUNE-BEFORE-PIN (acquire's links left to knowledge-acquisition's next mark; hnr-principal's retired-path reports accepted as spent history) and ACQUIRE-STALE-LINKS (one run in `personal/acquire` repoints the links).
+
+## 2026-10-19 07:54 BST - owner answers, morning check
+
+Kris:
+
+> 1. as recommended
+> 2. push
+> 3. I'm on it
+> 4. I'm on it
+> 5. ok
+
+Read back as taken: ACQUIRE-DECISIONS-LINKS a) - a Messages line asks acquire-intake to repoint Decisions 27, 32, 34 and 35 to `work.md` and fix the log's blank lines at its next resume. PUSH - push ki-principal with the stacked ki.observatory commit `ee62a4d`. Kris is upgrading Rig on Terra and Sol and doing the mgit hands-on check. KI-TOOL-KI-CLI-150's launch part comes to Kris for review when cli150-deliver finishes.
