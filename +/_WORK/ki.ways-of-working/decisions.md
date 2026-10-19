@@ -222,3 +222,7 @@ Read back as taken: no standard, record or validator changes until Kris answers 
 ## 2026-10-19 08:07 BST - mark
 
 Kris: "mark". MARK struck at 08:07 BST (2026-10-19T07:07:16Z). Struck at this mark: the 20:18 BST new-session question, the fresh-session receive entry and the push entry, all one-offs now done. Correction: the SIZE-PRIORITY receive call, which showed as rejected, had already committed as `7aa0739` (Messages line removed, request recorded above); its queries are put to Kris in the mark recap.
+
+## 2026-10-19 08:14 BST - owner answers, mark recap
+
+Kris: "do all recommendations including any pushes needed". Taken as a) on all seven: CLI-150-ACCEPT a) accept KI-TOOL-KI-CLI-150 as delivered, the three minor points recorded as known limits; PRIORITY-VOCAB a) high, medium, low; SIZE-VOCAB a) s, m, l, xl with one-line meanings, xl meaning split before Ready; SIZE-BACKFILL a) owners backfill by judgement, `ki work` lists the gaps; SIZE-WINDOW a) warn from the next ki release with capture requiring both fields, fail in the first release after `ki work` shows no gaps estate-wide; PUSH-MARK a) push, carrying ki.observatory's 5245a84; REJECTED-CALL a) keep the SIZE-PRIORITY entry. Authorises: accept-release (accept CLI-150, then KI-RELEASE-NEXT a): Verify 6, release ki v0.11.4, move the ki-principal CI pin, push) after biome-fix; size-priority (harness standard change, GDR reversing PRIORITY-FIELD, tools-ki handoff record, push).
