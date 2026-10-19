@@ -11,6 +11,7 @@ method_read: 9c17df3c
 
 ## Now
 
+- Kris took the recommendations, with HOOK-RELEASE b) release now, and asked for the tool triage at once: release held on wave1, tritools (HOOK-CAPTURE records, design note, tools-ki triage) held on release, trimga (tools-mgit and tools-git-almanac triage) running; wave1 given VA-HOOKS a). HOOK-GUARD open.
 - hcreview finished 23:19 BST: agreed a) on VA-HOOKS, HOOK-RELEASE and HOOK-CAPTURE (all lifted to high; HOOK-CAPTURE ownership corrected) and found the source-linked `ki` already exposes the unreleased conversion; HOOK-GUARD raised, IMPORTANT warning sent to State of play at 23:20 BST.
 - hookconf finished 23:16 BST: KI-TOOL-KI-CLI-163 githooks conversion Awaiting review, local tools-ki commits d33a38e5..1f39dc52 (includes the KI-TOOL-KI-CLI-161 retitle), 1,405 tests 100%, audit no failures. Queries VA-HOOKS, HOOK-RELEASE and HOOK-CAPTURE at blind review (hcreview, Codex). wave1 steered: local source build, tools-ki and ki-principal first, va-principal held for VA-HOOKS.
 - gfmconv finished 22:50 BST: KI-TOOL-KI-CLI-162 `ki markdown gfm` Awaiting review, 13 requirements, 24 fixtures, gate green except ITEM-1 on KI-TOOL-KI-CLI-161's title; ki-principal dry run 457 files, 1,004 links, the 29 unresolved and 5 ambiguous match the review. Not released. CLI161-TITLE taken by the coordinator as a), sent to hookconf's inbox (this work captured -161). ki.ways-of-working told. Next: after hookconf, a blind-reviewed release query for -162 and the conform change.

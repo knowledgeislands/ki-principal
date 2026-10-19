@@ -1,0 +1,6 @@
+# tritools - capture the hook follow-ups and triage tools-ki
+
+1. HOOK-CAPTURE a): capture into triage, scopes only with plans left for pilot evidence, a tools-ki record for the `ki estate converge` hook-binding sweep, a tools-ki record for hook composition and the claims host, and a linked ki-agentic-harness record for the claim declarations and standards. Update "To capture" in /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/design/hooks-standard.md to cite them, and note there under §4.1 that SCR-5 conform keeps Husky's `prepare` until committed hooks exist (SCR5-CONFORM a).
+2. Triage every tools-ki roadmap record in triage, under ki-work-roadmap: priority, size, project and next state for each. Do not decline, merge or delete a record yourself; put each such case as a Query. Commit locally only; no push.
+
+Authority: Kris, 19 October 23:21 BST, quoted in /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/decisions.md. Commit by explicit path; never --no-verify or force-push. Report under Done, In Progress and Queries in British English and ASCII hyphens; put anything needing Kris as a Query with a recommended option and confidence.
