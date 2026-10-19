@@ -57,3 +57,19 @@ since 2026-10-19 · from [sop-restock](sop-restock.report.md) · put back at the
 a) (recommended, confidence medium - the idea's original wording is only in Git history) Send it to Rig: mac studio setup as a tools-rig idea, through one Messages line.
 
 b) Drop it, since Git history keeps it.
+
+### REVIEW-HOLD - live or dead for six held work folders
+
+since 2026-10-19 · from [review-hold](review-hold.report.md)
+
+**Context:** Six folders are held for review. ki.agent-host and ki.paperclip-capture-and-rebuild belong to active Techne Projects whose Project notes link design papers in these folders. ki.estate-factorisation is the only home of its active Project's close-out. ki.baseline-rollout is the old copy of a package rebuilt in `+/_WORK/` today, and two of its parked lines are not carried anywhere else. ki.regular.command-centre is fully carried by the Observatory and Ways of working Project notes. ki.regular.skill-reviews is finished: its record was accepted and pruned, and its commits are pushed. On-hold packages do not count against the cap.
+
+**Query:** Do you agree that the three Project folders return to `+/_WORK/` on hold and the other three are deleted, after the two baseline-rollout parked lines are moved into the live package?
+
+**Options:**
+
+a) (recommended, confidence medium - every live call and both deletion homes were checked directly; the estate-factorisation gates and the unfetched `origin/main` were not) Move ki.agent-host, ki.estate-factorisation and ki.paperclip-capture-and-rebuild to `+/_WORK/` with `git mv`, in package shape at `state: on-hold`. Copy CHECKLIST and the `update-ki-pin.yml` payload mismatch into `+/_WORK/ki.baseline-rollout/queries.md` under Parked. Then delete `+/_WORK_REVIEW/ki.baseline-rollout/`, `+/_WORK_REVIEW/ki.regular.command-centre/` and the harness's `+/_WORK_REVIEW/ki.regular.skill-reviews/`, removing each index line in the same commit.
+
+b) Same as a), except ki.estate-factorisation is deleted too: send its PROJECT-CLOSE, OBS-ACTIVATION, GOVERNANCE and ALIAS-OWNERS items to State of play's `messages.md` first, and leave the Project to be reconciled from there.
+
+c) Keep all six held until the Techne Programme Hold lifts, and delete only ki.regular.command-centre and ki.regular.skill-reviews now.
