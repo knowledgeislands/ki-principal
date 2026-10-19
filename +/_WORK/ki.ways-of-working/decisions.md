@@ -301,3 +301,9 @@ Read back taken:
 - FIELDS-MIGRATE-ORDER a) - approved as a sequence: apps-markhowarth.com pilot now, then personal-principal, hnr-principal, 5g-emerge-phase2 and legal-principal, then the remaining retired horizons; kind and size in code repositories after the `ki` release.
 - WORK-QUEUE-PRIORITY - a work package's incoming work is a queue taken in priority order; the worker may group similar items; a line added at the top with an important flag must be taken first, in that order, which lets State of play change how a work works.
 - Authorises: fields-pilot-markhowarth now; after work-package-revise-2 and query-review-4, work-package-standard (harness rename to `ki-work-package` with alias, standard and ki-coordination rewritten to these answers, design note finalised) and work-package-enact (ki-principal configuration, Work Process note, GDR-KI-PRINCIPAL-009) in parallel; Messages lines to ki.tools-burndown (both-shape reader, help text) and ki.observatory (both-shape reader); then the gated migration pass.
+
+## 2026-10-19 14:07 BST - owner grant, TERRITORIES-MIGRATE
+
+Kris: "so you can sort out any migration of territories outside of knowledge islands as they are 100% not in use"
+
+Read back taken: TERRITORIES-MIGRATE - this work may migrate the other territories' repositories directly (Equal Remedy, Humans not Robots, Legal, Personal, TechMedix, Valle Armonia, and any other outside Knowledge Islands), with no handoff, since none is in use: the work-record field migration in all their remaining repositories; the `ki-work-package` rename in their `.ki.toml` once the harness rename lands; and moving their old checkpoint or thread shapes, and `kb.regular.acquire-intake`, into five-file work packages. ki.chezmoi's dotfiles repository stays with ki.chezmoi. Authorises: fields-rest (after fields-personal-principal) and territories-package (after work-package-standard).
