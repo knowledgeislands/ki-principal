@@ -99,3 +99,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 128 (2026-10-19T22:13:47Z)
 
 - Pointer: TOML-OPENER, Kris on 17 October: ".toml files are currently opening up in [Warp], and I don't want that. I'd rather they opened up in [Zed] ... I think it must have some kind of default opener on it." Delivered in chezmoi `faa4d3a`; applying it waits on TOML-HANDLER. Held in the [State of play decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/decisions.md).
+
+## Decision 129 (2026-10-19T22:17:07Z)
+
+- Pointer: Kris on 19 October, 23:13 BST, "go with the recommendations", which Kris confirmed at 23:17 covered the six parked queries too. FIRST-STEP-GATES is closed as resolved. IWORK: Keynote, Numbers and Pages stay catalogue-only and the A8 step is completed. STYLE-LINK: a read-only dead-link check runs after apply, with no harness pull. DIR-PRUNE: a managed-set state file, so only entries that left the declaration are pruned. REST-HOLD: rechecked against the delivered Dock work. GUIDE-REMOTE was already delivered (chezmoi `43d45d3`).
