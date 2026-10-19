@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
-state: with-worker
-since: 2026-10-19T22:44:41Z
+state: handoff-to-supervisor
+since: 2026-10-19T22:46:55Z
 received: null
 beat: null
 mark: 2026-10-19T22:44:55Z
