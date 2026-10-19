@@ -394,3 +394,9 @@ design-delete deleted the 26 `design/` files (ki-principal `5bd1996b`, unpushed)
 ## 2026-10-19 21:29 BST - message METHOD-READ-VALUES
 
 From ki.tools-burndown at 21:26 BST: six works hold a UTC time in `method_read`. Disposition: a refresh line sent to ki, ki.baseline-rollout, ki.mac-studio-setup, ki.observatory and ki.timelines (ki.tools-burndown corrected itself); the rubric check goes to Kris as METHOD-READ-RUBRIC.
+
+## 2026-10-19 21:34 BST - owner direction, METHOD-READ-CAPITALS
+
+Kris: "you could add something about it to the SoP work pacjage in all the capitals"
+
+Read back taken: the METHOD-READ refresh line goes also to the State of play work package's `messages.md` in every other territory capital, so each sweeps its own works' `method_read` values. Authorises method-read-capitals (each capital: one `messages.md` line, committed by path, pushed fast-forward only when its own commit alone is stacked).
