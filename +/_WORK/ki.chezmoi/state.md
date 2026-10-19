@@ -14,7 +14,7 @@ method_read: 979e075a
 
 - Handoff to supervisor since 21:02 BST on 19 October; marked at 20:10 BST.
 - Both Macs carried: chezmoi at `8b9ee66`, five Rig targets and the Dock applied, Paperclip held; only the accepted TOML drift remains, with tools-rig through ki.mac-studio-setup ([apply-terra-2](/Users/krisbrown/.local/state/ki/agents/chezmoi/apply-terra-2.report.md)).
-- Terra rehearsal stopped at step 2: Terra froze and was hard-restarted at about 21:06 BST; on boot the anchor's eight rules reloaded (pf enabled, daemon exit 0, no panic, a shutdown-stall report). Running: firewall-freeze, read-only diagnosis. Sol's firewall apply is held until the cause is known.
+- Terra shut down at 21:07 BST: the rehearsal's step 2 ran `launchctl bootout system/$L` with `L` empty (the hand-run sequence's fault, not pf or Rig; [firewall-freeze](/Users/krisbrown/.local/state/ki/agents/chezmoi/firewall-freeze.report.md)). Terra healthy, rules restored. Running: firewall-seq-review, a blind review of a literal-label sequence before Kris re-runs it.
 
 ## Next steps
 
