@@ -2,7 +2,7 @@
 
 > The format for a knowledge package: an Agent Skills extension, a skill into which the knowledge of one area is condensed and factored, described so that a reader can tell whether it is the package that tells them what they want to know, and read progressively.
 
-**Status:** draft 0.6, 20 October 2026. Name `knowledge`. To be held in a new skill, `ki-knowledge-package`, as `references/standards-knowledge-spec.md`. Follows the [Agent Skills specification](https://agentskills.io/specification); see [Relation to Agent Skills](#relation-to-agent-skills).
+**Status:** draft 0.7, 20 October 2026. Name `knowledge`. To be held in a new skill, `ki-knowledge-package`, as `references/standards-knowledge-spec.md`. Follows the [Agent Skills specification](https://agentskills.io/specification); see [Relation to Agent Skills](#relation-to-agent-skills).
 
 Structure and some wording adapted from the [Agent Skills specification](https://agentskills.io/specification), originally developed by Anthropic and published under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); changed to describe knowledge packages.
 

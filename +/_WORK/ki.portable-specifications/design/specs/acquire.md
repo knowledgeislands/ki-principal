@@ -2,7 +2,7 @@
 
 > The format for an acquire package: how to acquire knowledge from one source or with one tool, faithfully and repeatably, so that what it yields can be traced and relied on.
 
-**Status:** draft 0.6, 20 October 2026. Name `acquire`. To be held in `ki-acquire` as `references/standards-acquire-spec.md`. Follows the [Agent Skills specification](https://agentskills.io/specification); see [Relation to Agent Skills](#relation-to-agent-skills).
+**Status:** draft 0.7, 20 October 2026. Name `acquire`. To be held in `ki-acquire` as `references/standards-acquire-spec.md`. Follows the [Agent Skills specification](https://agentskills.io/specification); see [Relation to Agent Skills](#relation-to-agent-skills).
 
 Structure and some wording adapted from the [Agent Skills specification](https://agentskills.io/specification), originally developed by Anthropic and published under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); changed to describe acquire packages.
 
@@ -35,7 +35,7 @@ The `ACQUIRE.md` file must contain YAML front matter followed by Markdown conten
 | - | - | - |
 | `name` | Yes | Max 64 characters. Lowercase ASCII letters `a-z`, digits `0-9` and hyphens only. Must not start or end with a hyphen or contain `--`. Must match the directory name. |
 | `description` | Yes | Max 1024 characters. Non-empty. Says which source it reads, what knowledge it yields and when to use it. |
-| `metadata` | Yes | A map from string keys to string values. Must hold `source` and `mutation`; may hold `omissions` and `spec`, and any property this specification does not define. |
+| `metadata` | Yes | A map from string keys to string values. Must hold `source` and `mutation`, and `omissions` when the method leaves gaps within its Scope; may hold `spec`, and any property this specification does not define. |
 | `compatibility` | No | Max 500 characters. Non-empty if present. Tools, accounts and network access the method needs. |
 | `license` | No | Licence name or reference to a bundled licence file. |
 | `allowed-tools` | No | Space-separated pre-approved tools, as Agent Skills. Experimental. |
@@ -98,7 +98,7 @@ A map from string keys to string values, as Agent Skills. This specification def
 
 - `source` (required) - max 200 characters. The source or tool read, and the interface used to read it, such as `Meeting-notes service, official MCP server` or `git command-line help and man pages, local install`. Two packages reading the same source through different interfaces are different methods and say so here.
 - `mutation` (required) - `none` or `declared`: what the method may change at the source. `none` means it only reads. `declared` means it makes changes the body's Mutation section lists one by one, each with its confirmation step, such as marking an item as acquired in a private folder. Anything not listed is forbidden; an advertised write operation the source offers grants no permission. Most acquire packages should be `none`.
-- `omissions` (recommended) - what the source holds that this method does not capture, such as audio, edit history or deleted items, as one comma-separated list in a single string. Declaring omissions lets every later reader tell "not captured" from "not there". An omission not declared is a defect in the package.
+- `omissions` (required when the method has gaps) - what the method does not capture of what its Scope section covers: each kind of content or class of item that the in-scope part of the source holds and a run does not yield, such as audio, edit history or deleted items, as one comma-separated list in a single string. Material the Scope section puts out of scope is not an omission and is not listed here; what one run fails to reach is reported by that run under Verification, not declared here. A method with any gap declares every one in this key and nowhere else, so that every later reader can tell "not captured" from "not there"; absence means the method captures everything its Scope covers. A gap left undeclared is a defect in the package.
 - `spec` - the specification and major version the package follows, `acquire/1`. Absent means `acquire/1`, now and in every later version. A reader that does not support the major version named rejects the package rather than reading it as an earlier one.
 
 Any other property goes here as a string, with a key name unlikely to clash with another reader's, such as a prefix of the profile that defines it. A reader ignores `metadata` keys it does not know. A package's own version, where it has one, goes in `metadata.version`, as Agent Skills' examples do.
@@ -183,7 +183,7 @@ A package is valid when:
 - no file in the package holds a credential, token or captured source content
 - every file reference is a package name, a URL or a relative path in the forms above; every relative path that lands inside the package resolves there
 
-There is one level of validity. Size limits are recommendations, warned and never failed. A reviewer judges what cannot be checked by machine, against a trial run: whether the procedure really finds everything in scope, whether its rigour suits the source, and whether the declared omissions are the whole list; whether the Mutation section lists each permitted write with its confirmation; whether each script offers a dry run for any step that writes and stops when the source's responses change shape; and whether `assets/` holds no real captured content. No reference validator for this specification exists yet.
+There is one level of validity. Size limits are recommendations, warned and never failed. A reviewer judges what cannot be checked by machine, against a trial run: whether the procedure really finds everything in scope, whether its rigour suits the source, and whether `metadata.omissions` names every gap within the Scope and nothing the Scope excludes, its absence being the package's claim that there is no such gap; whether the Mutation section lists each permitted write with its confirmation; whether each script offers a dry run for any step that writes and stops when the source's responses change shape; and whether `assets/` holds no real captured content. No reference validator for this specification exists yet.
 
 ## Relation to Agent Skills
 
