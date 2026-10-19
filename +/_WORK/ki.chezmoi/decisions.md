@@ -43,3 +43,11 @@ home: +/_WORK/ki.chezmoi/work.md class: operational
 - You can take a mark since the last update that you gave me, so next time the summary gives me what I need to know.
 
 Read back as: mark at 2026-10-19T19:10:00Z, the 20:10 BST update.
+
+## Decision 103 (2026-10-19T19:43:22Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- go ahead with the 2 recommendsations.
+
+Read back as option a) of APPLY-CARRY and of RIG-FIREWALL-REHEARSE, including pushing this work's chezmoi source commits so terra can pull.
