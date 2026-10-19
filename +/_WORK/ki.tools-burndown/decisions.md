@@ -42,3 +42,10 @@ Kris, 19 October: "push and as recommended". Read back as taken:
 
 - PP-PUSH: push personal-principal's `ff650150`, `60f03eb0` and `a39a490c` fast-forward now.
 - NEXT-TOOLS-KI a): send the COORD-1 rubric error to ki-agentic-harness as a handoff record now, then work through KI-QUIET (with KI-TOOL-KI-CLI-146 under QUIET-146), events.seen past 21, KI-TOOL-KI-CLI-131 and -136 one at a time, bringing each back to Kris before any acceptance or release.
+
+## Answers to the 08:18 Summary (19 October)
+
+Kris, 19 October: "QUIET-146-DATE - accept now please. TOOLS-KI-WRITER - try to get your changes in, do you know who is doing it, cos really they should hand the work to you". Read back as taken:
+
+- QUIET-146-DATE b): accept KI-TOOL-KI-CLI-146 now, lifting the QUIET-146 hold; KI-HARNESS-GOV-204 is decided on its own.
+- TOOLS-KI-WRITER: OWNER-LANE stands, tools-burndown is the tools-ki writer. Land this work's tools-ki changes without touching the other session's; find who is working KI-TOOL-KI-CLI-153 and ask that work, through its Messages section, to hand KI-TOOL-KI-CLI-153 to tools-burndown.
