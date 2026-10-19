@@ -52,13 +52,13 @@ b) Bring the acceptance and the finished release back to you before the tag.
 
 since 2026-10-19 · from the KI-PATCH-RELEASE message, updated at 21:26 BST with wpreader's RIDE-0115
 
-**Context:** Through ki.ways-of-working you asked for one `ki` patch release "soon", carrying KI-TOOL-KI-CLI-155 so `priority` and `size` stop dropping 18 records, and a harness pin providing `ki-work-package` so ki-principal CI stops failing. Your standing rule is to ask before any `ki` release. `v0.11.5` now carries the pin (`c55a6c42`), KI-TOOL-KI-CLI-155, and KI-TOOL-KI-CLI-158, which lets `ki work status` see the migrated work packages that the released `ki` cannot see at all; the wpreader run reports the full gate green at `1cfc11a5`, with 1,354 tests at 100% coverage and `ki repo audit` FAIL=0. Another session has since added two roadmap-only commits (KI-TOOL-KI-CLI-159). The first blind review preferred bringing the clean final candidate back to you because the gate was then red and code was still moving; a second review of the updated facts is running.
+**Context:** Through ki.ways-of-working you asked for one `ki` patch release "soon", carrying KI-TOOL-KI-CLI-155 so `priority` and `size` stop dropping 18 records, and a harness pin providing `ki-work-package` so ki-principal CI stops failing. Your standing rule is to ask before any `ki` release. `v0.11.5` now carries the pin (`c55a6c42`), KI-TOOL-KI-CLI-155, and KI-TOOL-KI-CLI-158, which lets `ki work status` see the migrated work packages that the released `ki` cannot see at all; the wpreader run reports the full gate green at `1cfc11a5`, with 1,354 tests at 100% coverage and `ki repo audit` FAIL=0. Another session has since added two roadmap-only commits (KI-TOOL-KI-CLI-159). The first blind review preferred bringing the clean final candidate back to you because the gate was then red and code was still moving; a second review of the updated facts is running. The blind review (qreview3, 21:32 BST) prefers c): its full re-run at HEAD `395060ae` in a clean worktree failed, with 1,347 tests passing and seven installer tests timing out because its sandbox denied loopback listeners, so it could not confirm the gate green; TypeScript, Biome, lint and the command inventory passed, and the candidate lists all twelve works. It found no reason to leave KI-TOOL-KI-CLI-158 out.
 
 **Query:** May I tag `v0.11.5` on the current tools-ki HEAD after re-running the full gate there, push, publish, and send the tag to ki.ways-of-working?
 
 **Options:**
 
-a) (recommended, confidence medium - review pending, the gate is reported green and the release is the one you asked for, but publishing rests on run reports I have not verified directly) Yes, on a green re-run at HEAD.
+a) (recommended, confidence medium - review disagrees, it is the release you asked for and the failure looks environmental, but no clean green re-run at HEAD has been seen) Yes, once a full re-run at HEAD with loopback allowed passes; otherwise it comes back to you.
 
 b) Tag `0720a053` without KI-TOOL-KI-CLI-158 and cut `v0.11.6` for it afterwards.
 
@@ -217,6 +217,20 @@ since 2026-10-19 · from hooksstd.report.md in the run state folder
 a) (recommended, confidence high - `ki repo` cannot reach them, and the HNR gates are deliberate and working) Leave them out; they join only if they adopt `.ki.toml`.
 
 b) Bring them in by declaring `.ki.toml` in each first.
+
+### ROUTING-VIEW - Routing view for State of play in `ki work status`
+
+**Context:** The wpreader run delivered KI-TOOL-KI-CLI-158, which reads work packages and emits each work's id, state, pending-message count and description in JSON, but explicitly leaves out the human routing view State of play would read. The run recommended capturing that view only when State of play asks for it. The blind review (qreview3, 21:32 BST) prefers b): the finalised work-package design in ki.ways-of-working, point 35, already asks for exactly this register, and the JSON now carries its data. Capture does not delay the v0.11.5 release; tools-ki keeps its priority.
+
+**Query:** Shall I capture a tools-ki triage record for the routing view now?
+
+**Options:**
+
+a) (recommended, confidence medium - review prefers it and I now agree, the agreed design already asks for it, the reader's own pick was to wait) Capture it now, planned straight after KI-TOOL-KI-CLI-158.
+
+b) Capture it only when State of play asks for the view.
+
+c) Leave it out.
 
 ## Parked
 
