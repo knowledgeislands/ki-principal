@@ -75,3 +75,12 @@ Kris, 18 October 20:31 BST: "go ahead with all the recommendations". Read back a
 - MGIT-PRUNE-PIN a): free KI-TOOL-MGIT-CLI-020, -021 and -022, then prune them in a prune-only commit. Their last holder, mgit-prune.report.md, is spent and deleted at this tidy, which PIN-DONE-LINKS allows.
 - TOOLS-PUSH a): push tools-ki, tools-rig and tools-mgit fast-forward now, and each prune commit as it lands.
 - UNCLEAR-REPORTS a): the open tags in cli-133, commit-thread, summary-reconcile, mgit-diverge and roadmap-overview close as overtaken; the five reports, and the spent mark-tidy and mgit-prune reports, are deleted; Git history keeps them.
+
+## Answers to the 20:41 Summary (19 October)
+
+Kris, 19 October: "As recommended with the following: RIG-SITE-001-SHAPE - fix now. LGL-PRIORITY - work should have a size and a priority, even if its horizon isn't now or next. Maybe we have a quick look at that? is that something to hand off to ways of working?" Read back as taken:
+
+- DIAG-PUSH a): push personal-principal, apps-rig.midnight.ninja and er-principal fast-forward. legal-principal `b67076fa` is held unpushed, because it removed the priority Kris now says work should carry.
+- CANDIDATE-FIELD a): remove `candidate: true` from the six personal-principal records in one commit, then push.
+- RIG-SITE-001-SHAPE b): fix KB-MIDNIGHT-RIG-SITE-001 now: add `kind`, set `baseline_ref` to the commit before the 15 October delivery, reshape the body to the current sections, then push.
+- LGL-PRIORITY: neither option; Kris's view is that every work item carries a size and a priority whatever its horizon. A quick read-only look establishes what ki-work-roadmap says and why, and drafts a handoff to Ways of working, which owns the work model; whether to restore the legal priorities follows from that.
