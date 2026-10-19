@@ -387,3 +387,7 @@ Message WORK-PACKAGE-READER from ki.observatory, disposition: received; the Obse
 Kris: "Regarding the hook review clause, I agreed that we should increase the limit, but also is there a way that we can reduce the existing clause, so that we actually get down to a much more compact one that still is effective."
 
 Read back taken: HOOK-REVIEW-CLAUSE a) with a compaction - raise the hook test's limit to 1,500, add the query-review clause to the fourth hard rule, and rewrite the whole hook line as compactly as it can be while every rule stays effective. Authorises hook-compact, a harness run that edits the standard's hook-line source, regenerates, tests, commits by path and pushes fast-forward only when its own commits alone are stacked, reporting the old and new line for Kris.
+
+## 2026-10-19 19:35 BST - received hook-compact; send to owner
+
+hook-compact rewrote the coordinator hook line from 1,362 to 1,267 characters, the query-review clause included (about 1,090 without it), raised the test ceiling to 1,500 and asserts the clause (harness `979e075a`, pushed fast-forward; GitHub noted the `build` status check was bypassed on the direct push). Tests, type check, generation and audit passed. `hooks/README.md` still describes the older line. HOOK-REVIEW-CLAUSE closed.

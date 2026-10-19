@@ -1,7 +1,7 @@
 ---
 id: ki.ways-of-working
-state: with-worker
-since: 2026-10-19T18:29:00Z
+state: handoff-to-supervisor
+since: 2026-10-19T18:35:00Z
 received: 2026-10-19T16:57:00Z
 beat: null
 mark: 2026-10-19T17:56:00Z
@@ -12,7 +12,7 @@ method_read: eff6163b
 
 ## Now
 
-- Received from Kris at 19:29 BST: HOOK-REVIEW-CLAUSE a) with a compaction; hook-compact running in the harness. Earlier: QUERY-REVIEW in the standard (`b04d0e72`); REFRESH lines with REFRESH-RESUMMARY in all nine queues; walk-through complete; BURNDOWN-PUSH and MGIT-RELEASE with ki.tools-burndown; DESK-CAM dropped.
+- Sent to Kris at 19:35 BST: hook-compact done (harness `979e075a`, hook line 1,267 characters with the query-review clause); `hooks/README.md` still describes the older line. Earlier: QUERY-REVIEW in the standard (`b04d0e72`); REFRESH lines with REFRESH-RESUMMARY in all nine queues; walk-through complete; BURNDOWN-PUSH and MGIT-RELEASE with ki.tools-burndown; DESK-CAM dropped.
 - Run reports sit in `~/.local/state/ki/agents/ways-of-working/`.
 
 ## Next steps
