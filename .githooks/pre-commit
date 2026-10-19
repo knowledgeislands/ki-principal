@@ -1,8 +1,6 @@
 #!/bin/sh
-# Committed stub bound by `core.hooksPath` so every working tree, including a linked
-# worktree with no install, resolves a hook. Without the gate's tooling it refuses the
-# commit rather than letting Git find no hook and commit unchecked; with it, it runs
-# the governed Husky hook unchanged, then the Knowledge Base's check-only audit.
+# Committed pre-commit gate, bound by `core.hooksPath` so every working tree runs it.
+# Without its tools it refuses the commit rather than letting it pass unchecked.
 root="$(git rev-parse --show-toplevel)" || exit 1
 missing=''
 for tool in lint-staged syncpack; do
@@ -14,15 +12,20 @@ if [ -n "$missing" ]; then
   echo "pre-commit: do not bypass with --no-verify; a gate that cannot run is unknown, not a pass." >&2
   exit 1
 fi
-if ! command -v ki >/dev/null 2>&1; then
-  echo "pre-commit: the commit gate cannot run; the \`ki\` CLI is not on PATH." >&2
-  echo "pre-commit: install \`ki\`, then commit again." >&2
+missing=''
+for tool in ki; do
+  if ! command -v "$tool" >/dev/null 2>&1; then missing="$missing $tool"; fi
+done
+if [ -n "$missing" ]; then
+  echo "pre-commit: the commit gate cannot run; not on PATH:$missing" >&2
+  echo "pre-commit: install them, then commit again." >&2
   echo "pre-commit: do not bypass with --no-verify; a gate that cannot run is unknown, not a pass." >&2
   exit 1
 fi
 PATH="$root/node_modules/.bin:$PATH"
 export PATH
-sh "$root/.husky/pre-commit" "$@" || exit 1
+lint-staged --quiet || exit 1
+syncpack format --check || exit 1
 # The focused Knowledge Base audit is the island's own shape gate (ki-repo-kb GATE-1).
 # It stays check-only and leaves machine-local checks, such as registry and runtime
 # activation, to the full audit and CI. `--staged` keeps evaluation whole-tree but
