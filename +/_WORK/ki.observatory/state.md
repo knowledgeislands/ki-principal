@@ -1,7 +1,7 @@
 ---
 id: ki.observatory
 state: with-supervisor
-since: 2026-10-19T19:15:00Z
+since: 2026-10-19T19:40:00Z
 received: 2026-10-19T19:13:00Z
 beat: null
 mark: 2026-10-19T18:02:00Z
@@ -12,7 +12,7 @@ method_read: 2026-10-19T18:02:00Z
 
 ## Now
 
-- With Kris since 20:15 BST on 19 October; NARROW-DECLARE answered a) at 20:15 BST, needing no change; no authorised work remains; marked at 19:02 BST. Nothing is running.
+- With Kris since 20:40 BST on 19 October; NARROW-DECLARE answered a) at 20:40 BST, needing no change; no authorised work remains; marked at 19:02 BST. Nothing is running.
 - Received obs-declare-review at 20:13 BST: the review agrees with keeping the declaration, so NARROW-DECLARE goes to Kris at high confidence.
 - Received obs-answers-2 at 20:12 BST: KI-OBSERVA-APP-044, KI-OBSERVA-BCN-008, KI-OBSERVA-VIS-030 and KI-OBSERVA-VIS-031 reworded to large screens first, not only, with the narrow rule and test kept; KI-OBSERVA-VIS-042 carries OVERLAY-SYNC, depending on KI-HARNESS-GOV-224; commit 9f56976, local.
 - Received obs-viewer-sync at 20:11 BST: KI-HARNESS-GOV-224 (diagram viewer receipts, triage) captured and KI-HARNESS-GOV-223 set to `founding`, `growing`, `settled`, `thriving`; three local commits in ki-agentic-harness, unpushed.
