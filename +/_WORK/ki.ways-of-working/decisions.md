@@ -221,4 +221,4 @@ Read back as taken: no standard, record or validator changes until Kris answers 
 
 ## 2026-10-19 08:07 BST - mark
 
-Kris: "mark". MARK struck at 08:07 BST (2026-10-19T07:07:16Z). Struck at this mark: the 20:18 BST new-session question, the fresh-session receive entry and the push entry, all one-offs now done. The SIZE-PRIORITY Messages line stays in the work file until its queries are put to Kris.
+Kris: "mark". MARK struck at 08:07 BST (2026-10-19T07:07:16Z). Struck at this mark: the 20:18 BST new-session question, the fresh-session receive entry and the push entry, all one-offs now done. Correction: the SIZE-PRIORITY receive call, which showed as rejected, had already committed as `7aa0739` (Messages line removed, request recorded above); its queries are put to Kris in the mark recap.
