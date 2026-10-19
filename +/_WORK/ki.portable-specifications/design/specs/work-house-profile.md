@@ -2,7 +2,7 @@
 
 **Owner:** Kris Brown · **Owning repository:** knowledgeislands/ki-principal · **Owning work:** `ki.portable-specifications` · **Date:** 2026-10-19
 
-Written by the run revise under WORK-PROFILE (Kris, 19 October, "as recommended", read back: "the house work package stays a mapped profile of `work` with an explicit field and state mapping; the house rules move out of the spec into the profile"). It maps the house work package, as the `ki-work-package` [work-package standard](/Users/krisbrown/.local/share/ki/harnesses/knowledgeislands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md) defines it, onto the portable [work specification](work.md), draft 0.3. When the spec is homed, this mapping goes beside it in `ki-work-package`; the house standard itself does not change. The run revise-2 added the conversion rules and every destination key on 20 October, after the blind review of draft 0.2.
+Written by the run revise under WORK-PROFILE (Kris, 19 October, "as recommended", read back: "the house work package stays a mapped profile of `work` with an explicit field and state mapping; the house rules move out of the spec into the profile"). It maps the house work package, as the `ki-work-package` [work-package standard](/Users/krisbrown/.local/share/ki/harnesses/knowledgeislands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md) defines it, onto the portable [work specification](work.md), draft 0.5. When the spec is homed, this mapping goes beside it in `ki-work-package`; the house standard itself does not change. The run revise-2 added the conversion rules and every destination key on 20 October, after the blind review of draft 0.2; the run revise-4 corrected the state file's identifier on 20 October, after the second blind review.
 
 ## Contents
 
@@ -19,9 +19,11 @@ Written by the run revise under WORK-PROFILE (Kris, 19 October, "as recommended"
 The house work package does not conform to `work` as built. The earlier claim in [specs.md](specs.md), that the `work` spec "holds nothing of the Knowledge Islands ways of working" and the house package "conforms to it as a profile", was wrong on both counts: draft 0.1 restated house practice, and the house package fails the spec's validation on:
 
 - the entry file, `work.md` rather than `WORK.md`
-- `id` where the spec requires `name`, in `work.md` and again in `state.md`
+- `work.md`'s identifier, `id` where the spec requires `name`
 - top-level `work.md` fields outside the spec's closed list: `level`, `title`, `label`, `project`, `theme`, `worker`, `supervisor`, `created_at`
+- `state.md`'s `id`, a top-level key outside its closed list; the spec requires no identifier in `state.md`, so the mapping moves it to `metadata.ki-id`
 - `state.md`'s seven `state` values against the spec's four, `since` where the spec requires `updated`, and top-level `target`, `hold`, `blocking`, `received`, `beat`, `mark` and `method_read`
+- links by absolute path, such as those in run reports and briefs, where the spec admits a package name, a URL or a relative path
 
 Under WORK-PROFILE a), the house package stays as it is and a portable reader reads it through the mapping below. The one change already decided is the entry file's case: ENTRY-NAMES (Kris, 19 October) renames `work.md` to `WORK.md`, a change routed to ki.ways-of-working. Until it lands, the mapping reads `work.md` as `WORK.md`.
 

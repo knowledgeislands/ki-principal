@@ -2,7 +2,7 @@
 
 > The format for a knowledge package: an Agent Skills extension, a skill into which the knowledge of one area is condensed and factored, described so that a reader can tell whether it is the package that tells them what they want to know, and read progressively.
 
-**Status:** draft 0.4, 20 October 2026. Name `knowledge`. To be held in a new skill, `ki-knowledge-package`, as `references/standards-knowledge-spec.md`. Follows the [Agent Skills specification](https://agentskills.io/specification); see [Relation to Agent Skills](#relation-to-agent-skills).
+**Status:** draft 0.5, 20 October 2026. Name `knowledge`. To be held in a new skill, `ki-knowledge-package`, as `references/standards-knowledge-spec.md`. Follows the [Agent Skills specification](https://agentskills.io/specification); see [Relation to Agent Skills](#relation-to-agent-skills).
 
 Structure and some wording adapted from the [Agent Skills specification](https://agentskills.io/specification), originally developed by Anthropic and published under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); changed to describe knowledge packages.
 
@@ -16,11 +16,11 @@ A person or an agent who wants to learn about the area, or has a question about 
 
 Making a knowledge package is condensing and factoring: drawing the knowledge of one area out of wherever it lies, condensing it to what holds, and factoring it into an overview and focused files. This specification sets no workflow for doing so, and there is no separate curation stage. However a package is made, it must leave a reader with three things:
 
-- **The scope of the area:** what the package covers and where it stops. The `description` names the area and its boundaries, and the body says what lies outside it, in the recommended Limits section.
-- **What was drawn out:** what the package holds and where. The overview's Contents names every file and what it covers; a package with no other files holds what was drawn out in its overview.
+- **The scope of the area:** what the package covers and where it stops. The `description` must name the area and where it stops, and the body must say what lies outside it.
+- **What was drawn out:** what the package holds and where. Whenever the package holds any file besides `KNOWLEDGE.md`, the body must map every one of them, in `references/`, `assets/` or any other directory, with what each covers; a package with no other files holds what was drawn out in its body, and needs no map.
 - **Provenance:** where each part came from, in the required [Sources](#body-content) section.
 
-These belong to the package's own contract: [Validation](#validation) checks them where they can be checked, and a reviewer judges them where they cannot.
+All three are required. The headings under which the body gives its limits and its map are the author's to choose; [Body content](#body-content) recommends them. [Validation](#validation) checks these outcomes where they can be checked, and a reviewer judges them where they cannot.
 
 ## Directory structure
 
@@ -42,8 +42,8 @@ The `KNOWLEDGE.md` file must contain YAML front matter followed by Markdown cont
 
 | Field | Required | Constraints |
 | - | - | - |
-| `name` | Yes | Max 64 characters. Lowercase letters, numbers and hyphens only. Must not start or end with a hyphen. Must match the directory name. |
-| `description` | Yes | Max 1024 characters. Non-empty. Says what the knowledge covers, who it is for and at what depth, and what it answers. |
+| `name` | Yes | Max 64 characters. Lowercase letters, numbers and hyphens only. Must not start or end with a hyphen or contain `--`. Must match the directory name. |
+| `description` | Yes | Max 1024 characters. Non-empty. Names the area and where it stops; says who it is for and at what depth, and what it answers. |
 | `license` | No | Licence name or reference to a bundled licence file. |
 | `metadata` | No | A map from string keys to string values. Holds `updated`, `owner` and `spec`, and any property this specification does not define. |
 
@@ -73,7 +73,7 @@ metadata:
 ---
 ```
 
-Both examples show the front matter only; the body of a conforming package also needs its `## Sources` section.
+Both examples show the front matter only; the body of a conforming package also needs its `## Sources` section and its limits, and a map when it holds other files.
 
 #### `name` field
 
@@ -84,7 +84,7 @@ As Agent Skills: 1-64 characters; lowercase `a-z`, `0-9` and `-` only; no leadin
 The required `description` field is the one thing a reader sees before choosing, so it decides whether the package is found and whether the right reader opens it.
 
 - Must be 1-1024 characters
-- Must name the area it covers, and should say where it stops
+- Must name the area it covers and say where it stops
 - Should say who it is for and at what depth: an introduction for a newcomer, a working guide for a practitioner, or a reference for someone who knows the field
 - Should say what a reader can learn or answer with it ("Use to ..." or "Answers ..."), then any close neighbours it does not cover ("Not for ...")
 - Should use the words a person asking about the area would use
@@ -109,15 +109,13 @@ Any other property goes here as a string, with a key name unlikely to clash with
 
 ### Body content
 
-The Markdown body is the overview: enough to answer the commonest questions directly, to orient a newcomer, and to route every other question to the right file. It has one required section:
+The Markdown body is the overview: enough to answer the commonest questions directly, to orient a newcomer, and to route every other question to the right file. It must give its sources and its limits, and a map whenever the package holds other files; the sources go under a fixed heading, the limits and the map under headings of the author's choice:
 
 - **`## Sources`** (required) - where the knowledge comes from, with links or citations, so every claim can be traced. Knowledge drawn from an acquisition's output cites it as any other source, by [external reference](#references-outside-the-package): the output it was taken from and when the acquisition read the source, and, where it helps a reader, the [acquire package](acquire.md) that made it. Knowledge written from the owner's own experience says so. The section is never empty.
+- **The limits** (required) - what the package does not cover, with known gaps or open questions. Recommended heading `## Limits`.
+- **The map** (required whenever the package holds any file besides `KNOWLEDGE.md`) - a link to every such file, in `references/`, `assets/` or any other directory, with a line on what it covers and when to read it, in the order a newcomer would read them where there is one. A directory of like files, such as a set of diagrams, may be mapped by one link to the directory. `KNOWLEDGE.md` itself, and a licence file the `license` field names, need no entry. Recommended heading `## Contents`.
 
-Recommended sections:
-
-- **Overview** - the area in a few paragraphs, with the key terms defined once, and what a reader is assumed to know already
-- **Contents** - one line per file in the package: what it covers and when to read it, in the order a newcomer would read them where there is one
-- **Limits** - what the package does not cover, and known gaps or open questions
+Recommended besides: **`## Overview`** - the area in a few paragraphs, with the key terms defined once, and what a reader is assumed to know already.
 
 Keep `KNOWLEDGE.md` under 500 lines and about 5,000 tokens; move detail into `references/`.
 
@@ -125,11 +123,11 @@ Keep `KNOWLEDGE.md` under 500 lines and about 5,000 tokens; move detail into `re
 
 ### `references/`
 
-The body of knowledge itself, where it is factored: Markdown files, each focused on one subtopic, named for its content (`flat-rate-scheme.md`, not `part-2.md`). Split mutually exclusive subtopics so a question loads only what it needs. A file longer than about 100 lines opens with its own contents list, so a partial read still shows its scope. Every file is listed in the overview's Contents.
+The body of knowledge itself, where it is factored: Markdown files, each focused on one subtopic, named for its content (`flat-rate-scheme.md`, not `part-2.md`). Split mutually exclusive subtopics so a question loads only what it needs. A file longer than about 100 lines opens with its own contents list, so a partial read still shows its scope. Every file is in the body's map.
 
 ### `assets/`
 
-Diagrams, images, tables of data and schemas the knowledge refers to.
+Diagrams, images, tables of data and schemas the knowledge refers to. Every file is in the body's map, alone or by its directory.
 
 A knowledge package has no `scripts/`: its focus is knowledge, not action. Executable steps belong in an ordinary skill, or, for acquiring knowledge from a source, in an [acquire package](acquire.md).
 
@@ -137,40 +135,63 @@ A knowledge package has no `scripts/`: its focus is knowledge, not action. Execu
 
 1. **Metadata** (about 100 tokens): `name`, `description` and `metadata.updated`, read for every candidate package to decide which suits the reader and how far to trust its currency
 2. **Overview** (under 5,000 tokens recommended): the `KNOWLEDGE.md` body, read once the package is chosen
-3. **Body** (as needed): files in `references/` and `assets/`, read only when the Contents line says the reader needs them
+3. **Body** (as needed): files in `references/`, `assets/` and any other directory, read only when the map says the reader needs them
 
 ## File references
 
-Use relative paths from the package root, one level deep from `KNOWLEDGE.md`: every file is linked from the Contents, and files in `references/` do not depend on chains of further links to be understood. A file may link a sibling for related detail. Such an internal link stays inside the package and must resolve.
+A file reference is the target of a Markdown link in any file of the package. It is written in one of three notations, told apart by their form alone, without resolving them:
+
+- **A package name**, `package:` followed by the package's `name`, such as `package:hmrc-guidance`
+- **A URL**, beginning with a scheme other than `package:`, such as `https:`
+- **A relative path**, anything else, such as `references/flat-rate-scheme.md`; it must not begin with `/`
+
+A fragment, `#` and what follows it, is not part of the reference.
+
+### Relative paths
+
+A relative path resolves from the directory of the file that holds it, as any Markdown link does. In `KNOWLEDGE.md` that directory is the package root, so its map's `[Flat rate scheme](references/flat-rate-scheme.md)` reads as it would in a skill. The resolved path, with its `.` and `..` segments removed, is then classified by where it lands:
+
+- **Internal:** it lands inside the package directory. It must resolve to a file or directory there, whether or not it begins `../`.
+- **External:** it lands outside the package directory. It is an external reference.
+
+From `references/flat-rate-scheme.md`, a file one level down:
+
+- `registration.md` lands at `references/registration.md`: internal, and must resolve
+- `../assets/flat-rate-percentages.csv` lands at `assets/flat-rate-percentages.csv`: internal, and must resolve, though it begins `../`
+- `../../uk-income-tax-for-freelancers/KNOWLEDGE.md` lands outside the package: external
+
+Keep file references one level deep from `KNOWLEDGE.md`: every file is linked from its map, and files in `references/` do not depend on chains of further links to be understood. A file may link a sibling for related detail.
 
 ### References outside the package
 
-Anything outside the package, such as a document, another package or an acquisition's output cited in Sources, is an external reference, written in one of three forms:
+Anything outside the package, such as a document, another package or an acquisition's output cited in Sources, is an external reference: a package name, a URL, or a relative path that lands outside the package.
 
-- **A package name**, such as `hmrc-guidance`: it resolves to the package of that name the reader can see, first a sibling directory of this package, then any collection of packages the reader is given
-- **A URL**: it resolves as the URL does
-- **A relative path that leaves the package**, beginning `../`: it resolves from the directory of the file that holds it, as any relative link does
+- **A package name** resolves first to its sibling, the package of that name in the directory that holds this package. Only when there is no sibling does it resolve to the package of that name in any collection of packages the reader is given; if those collections hold more than one, the reader reports the reference as ambiguous, naming the candidates, and resolves it to none of them. `<name>` is 1-64 lowercase letters, numbers, hyphens and full stops, starting and ending with a letter or number, with no two of `-` and `.` together, which admits the name of every work, knowledge and acquire package.
+- **A URL** resolves as the URL does.
+- **A relative path** resolves from the directory of the file that holds it, as above.
 
-An external reference must have one of these forms, but validation does not require it to resolve, because what it names lives, moves and ends on its own. A reader that cannot resolve one reports it as unresolved and goes on reading the package.
+An external reference must have one of these forms, but validation does not require it to resolve, because what it names lives, moves and ends on its own. A reader that cannot resolve one, or finds it ambiguous, reports it and goes on reading the package. A Sources entry citing `package:hmrc-guidance` when no package of that name is in sight is well formed, and the package is valid.
 
 ## Validation
 
 A package is valid when:
 
 - `KNOWLEDGE.md` exists and begins with a YAML front matter mapping
-- the front matter has only the fields listed above, `name` and `description` meet their constraints, and `name` matches the directory
+- the front matter has only the fields listed above, every field present meets its constraints, and `name` matches the directory
 - `metadata` maps strings to strings; `metadata.updated`, where present, is a valid `YYYY-MM-DD` date no later than today; `metadata.spec`, where present, is `knowledge/` followed by a major version the reader supports
 - the body has a `## Sources` section that is not empty
-- every file under `references/` is linked from `KNOWLEDGE.md`, every internal link resolves inside the package, and every external reference has one of the three forms above
+- every file in the package other than `KNOWLEDGE.md` and a licence file the `license` field names is linked from `KNOWLEDGE.md`, itself or through a link to a directory that holds it
+- the package has no `scripts/` directory
+- every file reference is a package name, a URL or a relative path in the forms above; every relative path that lands inside the package resolves there
 
-There is one level of validity. Size limits are recommendations, warned and never failed. Whether the description routes well and names its audience, the sources support the claims and the content is current are judgements a reviewer makes. No reference validator exists yet.
+There is one level of validity. Size limits are recommendations, warned and never failed. A reviewer judges what cannot be checked by machine: that the description names the area and where it stops, and names its audience and depth; that the body states what lies outside the area; that the map says what each file covers; that each part of the knowledge can be traced through Sources to where it came from, and the sources support the claims; and that the content is current. No reference validator exists yet.
 
 ## Relation to Agent Skills
 
-- **Reused unchanged:** a package is a directory named for it; an entry file with YAML front matter and a Markdown body; `name`, `description`, `license` and `metadata` with their constraints, and Agent Skills' advice that `metadata` keys be reasonably unique; `references/` and `assets/`; three disclosure tiers with the same budgets; relative file references one level deep.
-- **Different, and why:** the entry file is `KNOWLEDGE.md`, in upper case as `SKILL.md` is, which is this specification's rule, not Agent Skills'; the body is condensed knowledge, not instructions, so the package must leave a reader with the scope of its area, what was drawn out and its provenance, its body requires a Sources section and recommends Overview, Contents and Limits, and `references/` is the body proper rather than supporting detail; `metadata.updated` is defined and read in the first tier, because knowledge goes stale and a reader must judge its currency before choosing; `metadata.owner` is defined, so a reader knows who stands behind it; `metadata.spec` is defined, so a reader can tell the version; external references to other packages and evidence are defined, because a package cites the sources it was condensed from, an acquisition's output among them; the description names its audience and depth, because a learner must tell whether a package suits them; `compatibility`, `allowed-tools` and `scripts/` are dropped, because a skill whose focus is knowledge, not action, needs no environment and runs nothing.
+- **Reused unchanged:** a package is a directory named for it; an entry file with YAML front matter and a Markdown body; `name`, `description`, `license` and `metadata` with their constraints, and Agent Skills' advice that `metadata` keys be reasonably unique; `references/` and `assets/`; three disclosure tiers with the same budgets; file references one level deep.
+- **Different, and why:** the entry file is `KNOWLEDGE.md`, in upper case as `SKILL.md` is, which is this specification's rule, not Agent Skills'; the body is condensed knowledge, not instructions, so the package must leave a reader with the scope of its area, what was drawn out and its provenance: its description must say where the area stops, its body requires a Sources section, a statement of its limits and a map of every other file, under recommended headings, and `references/` is the body proper rather than supporting detail; `metadata.updated` is defined and read in the first tier, because knowledge goes stale and a reader must judge its currency before choosing; `metadata.owner` is defined, so a reader knows who stands behind it; `metadata.spec` is defined, so a reader can tell the version; a relative path resolves from the directory of the file that holds it rather than from the package root, which gives the same target in `KNOWLEDGE.md` and lets a link in a nested file work in any Markdown viewer; external references to other packages and evidence are defined, in three notations a validator tells apart by form, because a package cites the sources it was condensed from, an acquisition's output among them; the description names its audience and depth, because a learner must tell whether a package suits them; `compatibility`, `allowed-tools` and `scripts/` are dropped, because a skill whose focus is knowledge, not action, needs no environment and runs nothing.
 - **Skill validity:** every added field sits in `metadata`, so the front matter uses only fields Agent Skills defines; renamed to `SKILL.md`, a conforming package passed the checks `skills-ref validate` made when its source was read on 19 October 2026. It is a skill whose focus is knowledge rather than action.
 
 ## Relation to the other specifications
 
-A knowledge package and an [acquire package](acquire.md) are separate extensions of Agent Skills, and neither is a stage of the other: acquire is a skill whose task is acquisition, knowledge one whose focus is what is known. Neither names the other in its `metadata`. A knowledge package may cite an acquisition's output, or the acquire package that made it, in its Sources, as it cites any other source. A [work package](work.md) may cite a knowledge package as the background its worker reads, and the durable findings of a piece of work may be condensed into one.
+A knowledge package and an [acquire package](acquire.md) are separate extensions of Agent Skills, and neither is a stage of the other: acquire is a skill whose task is acquisition, knowledge one whose focus is what is known. Neither specification defines or requires a `metadata` field linking a package to the other kind; a profile's own `metadata` keys are not restricted by this. A knowledge package may cite an acquisition's output, or the acquire package that made it, in its Sources, as it cites any other source. A [work package](work.md) may cite a knowledge package as the background its worker reads, and the durable findings of a piece of work may be condensed into one.
