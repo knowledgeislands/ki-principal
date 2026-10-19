@@ -32,19 +32,21 @@ b) Settle the four promotion choices with Kris as Soon shaping first, then promo
 
 c) Leave it at Soon until the burndown reaches it.
 
-### KNIP-HUSKY - Teach conform the Knip side of the conversion
+### KNIP-HUSKY - Let Knip read the committed hooks directly
 
-since 2026-10-19 · from wave1.report.md in the run state folder · blind review qreview5 running
+since 2026-10-19 · from wave1.report.md in the run state folder · reviewed by qreview5 (Codex, high), amended
 
-**Context:** Knip saw Commitlint and lint-staged through its Husky plugin; once Husky goes it reports them unused, failing Knip. wave1 added them to `ignoreDependencies` by hand, and the estate runs were told at 23:32 BST to do the same so the migration is not held up.
+**Context:** Once Husky goes, Knip stops seeing Commitlint, lint-staged and syncpack and fails them as unused. The pilot and tonight's estate runs add ignores by hand. The review proved locally that Knip's Husky plugin can be pointed at `.githooks` directly, which passes without any ignores and keeps the detection honest.
 
-**Query:** Should `ki repo conform`'s conversion add those Knip ignores itself, for repositories converted later and for new ones?
+**Query:** Should conform and new-repository scaffolding configure Knip to read `.githooks` directly, replacing the hand-added ignores?
 
 **Options:**
 
-a) (recommended, confidence medium - it keeps future conversions mechanical, at the cost of one more tools-ki change) Extend the KI-TOOL-KI-CLI-163 conversion in a follow-up release, and have the harness's Knip guidance name it.
+a) (recommended, confidence high - reviewed: direct discovery passed locally without the three ignores) A tools-ki follow-up configures Knip's Husky plugin for the committed hooks in conversion and scaffolding, cleans up already-converted repositories, and the harness Knip guidance names it.
 
-b) Leave conform as it is; the estate runs fix it by hand tonight and later conversions rely on the audit.
+b) Have conform add the dependency ignores automatically, as a documented exception.
+
+c) Leave the hand fixes; later audits catch the gap.
 
 ## Parked
 
