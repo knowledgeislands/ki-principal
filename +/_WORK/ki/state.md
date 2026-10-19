@@ -1,7 +1,7 @@
 ---
 id: ki
 state: with-worker
-since: 2026-10-19T22:11:50Z
+since: 2026-10-19T22:08:00Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-10-19T17:58:50Z
@@ -12,9 +12,9 @@ method_read: 84b61942
 
 ## Now
 
-- With worker since 23:08 BST on 19 October, on sol: `roadmap-census` is measuring the territory's roadmaps for ROADMAP-GROWTH. Received at 18:58 BST and marked at 18:58 BST.
-- Nothing running. `sop-mark` checked the package and struck the decisions log from 261 entries to 28 (commit 6252698a); `review-hold` assessed the six held work folders ([report](review-hold.report.md)).
-- Open with Kris: REVIEW-HOLD, HOMELESS-STANDING, CHEZMOI-CARRY, MODEL-FALLBACK, PILOT-SEED-HOME, LIVE-MAN-SWITCH, THREADS-CHECKINS, RIG-FULLSCREEN.
+- With worker since 23:08 BST on 19 October, on sol. Received at 18:58 BST and marked at 18:58 BST.
+- Running: `accept-awaiting` (ACCEPT-AWAITING, accepting every Awaiting review record territory-wide, no prune or push) and `query-review-3` (blind Codex review of ROADMAP-CAP, LANE-OWNERS and TECHNE-FOCUS).
+- Open with Kris: REVIEW-HOLD, HOMELESS-STANDING, MODEL-FALLBACK, THREADS-CHECKINS, TECHNE-FOCUS, CAPTURE-GATE, ROADMAP-CAP, LANE-OWNERS, BURN-WAVE-1. On the two runs' reports, send to Kris with the full Summary.
 
 ## Queue
 
