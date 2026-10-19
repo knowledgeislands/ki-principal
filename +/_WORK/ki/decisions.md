@@ -115,3 +115,7 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 - Messages: FIRST-STEP dispatched as `sop-mark` (check description, Goals and Scope against `ki-work-package`, set `method_read`). REPORT-SWEEP: sop-restock received, its four queries already in queries.md and its outcome homed in state.md, so the report is pruned; pilot-seed kept until PILOT-SEED-HOME is answered and a terra session homes it. REVIEW-HOLD, five items in ki-principal and one in ki-agentic-harness: dispatched `review-hold` for a live-or-dead recommendation each, to be raised as one query. All four lines removed.
 - PILOT-SEED-HOME, LIVE-MAN-SWITCH, THREADS-CHECKINS and RIG-FULLSCREEN put back as open; their release was Kris's answer.
 - Mark: the decisions strike is dispatched as `sop-mark`.
+
+## 2026-10-19 19:40 BST - REFRESH
+
+- Ways of working's IMPORTANT REFRESH line (QUERY-REVIEW in the ki-coordination standard; REFRESH-RESUMMARY, Kris 19 October: "I want the other threads to pick it up and resummary me so that I get the better recommendations") is acted on: `query-review` dispatched under Codex at high effort as one blind review of the six medium-confidence queries (REVIEW-HOLD, HOMELESS-STANDING, MODEL-FALLBACK, PILOT-SEED-HOME, THREADS-CHECKINS, RIG-FULLSCREEN); CHEZMOI-CARRY and LIVE-MAN-SWITCH are high and not destructive. A fresh Summary follows its report. Line removed.

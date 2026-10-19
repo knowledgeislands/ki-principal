@@ -1,7 +1,7 @@
 ---
 id: ki
-state: handoff-to-supervisor
-since: 2026-10-19T18:08:21Z
+state: with-worker
+since: 2026-10-19T18:40:45Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-10-19T17:58:50Z
