@@ -230,3 +230,7 @@ Kris: "do all recommendations including any pushes needed". Taken as a) on all s
 ## 2026-10-19 08:16 BST - owner request, ITEM-FIELDS discussion
 
 Kris: "I want to discuss a little bit about roadmap item [fields]. There seems to be some thinking around the different fields that we carry on them. So I want you to really help me with that. Can you tell me the fields that we've got currently and others that have been considered and adopted or otherwise". Authorises: field-survey, a read-only inventory run. size-priority continues unless Kris says stop.
+
+## 2026-10-19 08:17 BST - owner instruction, stop size-priority
+
+Kris: "stop size-priority". The run is stopped while editing the harness work-item format; its uncommitted edits are left in place, not committed or reverted, until the ITEM-FIELDS discussion settles the fields.
