@@ -1,8 +1,8 @@
 ---
 id: ki.mac-studio-setup
-state: handoff-to-supervisor
-since: 2026-10-19T18:02:00Z
-received: 2026-10-19T18:01:00Z
+state: with-worker
+since: 2026-10-19T18:41:00Z
+received: 2026-10-19T18:40:00Z
 beat: null
 mark: 2026-10-19T18:01:00Z
 method_read: 2026-10-19T18:01:00Z
@@ -12,8 +12,8 @@ method_read: 2026-10-19T18:01:00Z
 
 ## Now
 
-- Handoff to supervisor since 19:02 BST on 19 October; marked at 19:01 BST on 19 October, on Kris's send-back since the 02:20 BST mark of 18 October.
-- Nothing is running; nothing was authorised to restart, since every next move needs Kris.
+- With worker since 19:41 BST on 19 October; marked at 19:01 BST on 19 October.
+- Running: query-review (Codex, high effort), a blind review of SOL-FW-TEST and PUSH-STACK under QUERY-REVIEW; when it reports, give Kris a fresh Summary with the reviewed recommendations. RIG-ORDER is high-confidence and not destructive, so it is not reviewed.
 - FIRST-STEP done: `ki-work-package` and all five files re-read, description, Goals and Scope confirmed as drafted, `method_read` set.
 - REPORT-SWEEP received: the four kept reports stay, their outcomes not yet homed; rig-lane's query is RIG-ORDER, and the other three are the held at-screen steps below.
 - Decisions not yet struck at this mark; the next mark takes it as a run.
