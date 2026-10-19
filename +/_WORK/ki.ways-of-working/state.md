@@ -12,6 +12,8 @@ method_read: eff6163b
 
 ## Now
 
+- HOOK-GUARD (23:24 BST): no `ki repo conform` without `--dry-run` in any brief until ki.tools-burndown lifts it.
+- GFM converter `ki markdown gfm` built (KI-TOOL-KI-CLI-162), awaiting review and release; KI-PRINCIPAL-OPS-014's pilot waits on it.
 - PUSH-NOT-WITH-YOU and HOLD-CLEAN from Kris at 23:22 BST lift the hold; banner-push-hold running; the hold resumes when it lands.
 - BANNER-ON-STATE from Kris at 22:36 BST lifts the hold; banner-on-state landed (harness `6baab0b0`); on hold again at 22:42 BST.
 - Received from Kris at 20:28 BST: DESIGN-AT-MARK a); design-clause done (harness `9c17df3c`); design-triage received; DESIGN-DELETE a) from Kris at 21:25 BST; design-delete received at 21:29 BST (26 deleted); mark struck at 21:25 BST; the list then goes to blind review and to Kris before any deletion.
