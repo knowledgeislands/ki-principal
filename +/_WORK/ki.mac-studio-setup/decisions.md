@@ -637,3 +637,5 @@
 ## Decision 158 (2026-10-19T10:09:16Z)
 
 - 2026-10-19 11:20 BST: FOOTER-RECORD overtaken - KI-TOOL-KI-CLI-134 already committed and pushed in tools-ki and has moved on (named --allow grants, 18 October harness handoff); nothing committed; launcher-footer and footer-record reports pruned.
+
+- Kris 2026-10-19 19:00 BST pasted the send line: sent back to its worker since the 2026-10-18T01:20Z mark; re-read, marked at 2026-10-19T18:01Z; FIRST-STEP done and REPORT-SWEEP received (all four reports kept, outcomes not homed); nothing authorised to restart; sent to Kris with ADOBE-RESTART first.
