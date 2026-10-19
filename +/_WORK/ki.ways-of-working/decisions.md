@@ -400,3 +400,7 @@ From ki.tools-burndown at 21:26 BST: six works hold a UTC time in `method_read`.
 Kris: "you could add something about it to the SoP work pacjage in all the capitals"
 
 Read back taken: the METHOD-READ refresh line goes also to the State of play work package's `messages.md` in every other territory capital, so each sweeps its own works' `method_read` values. Authorises method-read-capitals (each capital: one `messages.md` line, committed by path, pushed fast-forward only when its own commit alone is stacked).
+
+## 2026-10-19 21:34 BST - received gfm-scope
+
+gfm-scope (read-only): ki-principal's 1,025 wikilinks and 15 embeds convert mechanically with an Obsidian-order resolver; judgement remains for 2 custom callouts, 2 Dataview blocks, 10 heading links, 7 ambiguous links and 21 templates. `ki-repo-kb` LINK-1 mandates wikilinks today while ki-principal's `.rumdl.toml` already forbids them. A converted island loses its only link check unless LINK-1 becomes exact-case resolution; the `ki-decision-records` link parser mishandles angle-bracket paths with spaces; the Notion mirror reads wikilinks only. Draft `ki-authoring` clause and a six-step plan (harness rules, tools-ki converter, verification, zone batches, one Enactment record, other islands by their owners). Queries GFM-ORDER, GFM-LINK-FORM, GFM-ENACT (medium) and FLAVOUR-FIELD, TOUCH-SCOPE (high) copied; all five go to one blind review (gfm-review, Codex). Full report: `~/.local/state/ki/agents/ways-of-working/gfm-scope.report.md`.

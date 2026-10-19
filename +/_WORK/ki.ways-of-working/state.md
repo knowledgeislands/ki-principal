@@ -13,7 +13,7 @@ method_read: eff6163b
 ## Now
 
 - Received from Kris at 20:28 BST: DESIGN-AT-MARK a); design-clause done (harness `9c17df3c`); design-triage received; DESIGN-DELETE a) from Kris at 21:25 BST; design-delete received at 21:29 BST (26 deleted); mark struck at 21:25 BST; the list then goes to blind review and to Kris before any deletion.
-- GFM-MIGRATION unparked by Kris at 21:28 BST; gfm-scope (read-only) running.
+- GFM-MIGRATION unparked by Kris at 21:28 BST; gfm-scope received at 21:34 BST; five queries in blind review (gfm-review).
 - METHOD-READ-CAPITALS from Kris at 21:34 BST; method-read-capitals running.
 - ROUND-END (20:32 BST): after the design runs, the reviewed delete list and Kris's confirmation, hand pointers to State of play and hold, more expected.
 - Run reports sit in `~/.local/state/ki/agents/ways-of-working/`.
