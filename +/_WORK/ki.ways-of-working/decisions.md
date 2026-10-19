@@ -277,3 +277,9 @@ Found on origin at 18:34 BST: acquire's `2a70d45` and `4f1afea`, and apps-tower.
 Kris: "why are we getting these errors on the roadmap summary??" then "can you sort that please"
 
 Read back taken: CI-RED-MAIN a), joined with CLI-FIELDS. Authorises: harness-link-fix, a run that repoints the absolute local link in `ki-work-package`'s `standards-work-package.md` (and any other KI-LINK-2 failure) so harness CI goes green; and an IMPORTANT line to ki.tools-burndown asking for one `ki` patch release carrying KI-TOOL-KI-CLI-155 (the `priority` and `size` fields, clearing the 18 roadmap diagnostics) and pinning the fixed harness. After the release, this work moves ki-principal's `.github/ki-version`. The release itself stays ki.tools-burndown's.
+
+## 2026-10-19 18:39 BST - owner decision, REVIEW-SURFACE
+
+Kris, on `+/_WORK_REVIEW/`: "well I think state of play threads need to bring that to attention then when they come back"
+
+Read back taken: territory work (State of play) raises every item held in its territory's `+/_WORK_REVIEW/` areas as a query when it bootstraps, resumes or re-anchors, with a live-or-dead recommendation, until the area is empty. Authorises review-surface, a run after harness-link-fix: write the rule into the `ki-coordination` standard (and the rubric if it fits), and add a Messages line to each territory work whose repositories hold a `+/_WORK_REVIEW/` area today (hnr-principal, ki-agentic-harness, ki-principal, personal-principal).
