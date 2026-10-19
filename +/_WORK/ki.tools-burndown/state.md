@@ -11,6 +11,7 @@ method_read: 9c17df3c
 
 ## Now
 
+- hookstd finished 22:41 BST: harness `95a1ab58`, local only, `feat(hooks): standardise committed githooks and retire husky` (ADR-KI-HARNESS-SKILLS-017 refined in place, HOOK-2 to HOOK-5, PKG-5, PKG-6, SCR-5, SCR-11, ki-git, GATE-1, wording in three standards); SCR5-CONFORM (high) to Kris.
 - 22:33 BST: WAVE-PLAN a) granted; wave1 queued after hookconf, and it checks hookstd has landed before converting.
 - wvreview finished 22:19 BST: agrees WAVE-PLAN a), now high and with Kris. hookstd launched (harness standard and rubric change, local) and hookconf queued after gfmconv (tools-ki conform change), both under HOOKS-STANDARD.
 - hooksv2 finished 22:16 BST: hooks-standard rewritten to the decided shape with HOOK-AUDIT checks (HOOK-3 to HOOK-5, WARN then FAIL) and the exact harness changes; KI-TOOL-KI-CLI-161 (`ki git check-message`) captured in tools-ki, local. WAVE-PLAN (medium) to wvreview.
