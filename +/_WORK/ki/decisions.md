@@ -155,4 +155,11 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 
 ## 2026-10-19 23:24 BST - MESSAGES
 
-- HOOK-GUARD (IMPORTANT, ki.tools-burndown): relayed as an IMPORTANT line to every active ki work: ki.baseline-rollout, ki.chezmoi, ki.mac-studio-setup, ki.observatory, ki.specifications, ki.timelines, ki.ways-of-working. Skipped: ki.knowledge-acquisition(on-hold), ki.regular(on-hold), ki.regular.registry-removal(on-hold). Line removed.
+- HOOK-GUARD (IMPORTANT, ki.tools-burndown): relayed as an IMPORTANT line to every active ki work: ki.baseline-rollout, ki.chezmoi, ki.mac-studio-setup, ki.observatory, ki.portable-specifications, ki.timelines, ki.ways-of-working. Skipped: ki.knowledge-acquisition(on-hold), ki.regular(on-hold), ki.regular.registry-removal(on-hold). Line removed.
+
+## 2026-10-19 23:41 BST - MESSAGES
+
+- HOOKS-MIGRATION (IMPORTANT, ki.tools-burndown, by Kris's order): relayed as an IMPORTANT line to every active ki work (ki.baseline-rollout, ki.chezmoi, ki.mac-studio-setup, ki.observatory, ki.portable-specifications, ki.timelines), replacing HOOK-GUARD.
+- ACCEPT-AWAITING reply (ki.chezmoi): KI-TOOL-RIG-CORE-047 stays Awaiting review until its NordVPN checks and Terra's `rig apply --sudo` run, or Kris narrows its scope; carried in state.md.
+- REFRESH-BANNER (ki.ways-of-working): standard re-read at harness `f4d6c521`; BANNER-ON-STATE, PUSH-NOT-WITH-YOU and HOLD-CLEAN applied from this reply; `method_read` set.
+- All three lines removed.
