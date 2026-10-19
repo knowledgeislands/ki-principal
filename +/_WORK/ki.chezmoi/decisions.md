@@ -71,3 +71,11 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 121 (2026-10-19T22:05:15Z)
 
 - Pointer: SOL-APPLY a) carried out with Kris at Sol's console, 22:50–23:06 BST. All blocks passed. The S3 gate check was corrected from "anchor listed" to "anchor holds entries" within the same authority. Evidence goes to KI-TOOL-RIG-CORE-047 through sol-firewall-record.
+
+## Decision 122 (2026-10-19T22:11:19Z)
+
+- Pointer: Kris on 19 October, 23:13 BST, "go with the recommendations": GUIDE-REMOTE. Update the Remote access section now, using the blind review's qualified wording and the NordVPN caveat ([guide-remote-review](/Users/krisbrown/.local/state/ki/agents/chezmoi/guide-remote-review.report.md)).
+
+## Decision 123 (2026-10-19T22:11:19Z)
+
+- Pointer: Kris on 19 October, 23:13 BST, the same answer: TERRA-NORDVPN a). Open a Rig follow-up record for detecting the bypass ([terra-nordvpn](/Users/krisbrown/.local/state/ki/agents/chezmoi/terra-nordvpn.report.md)). It is given ahead of its blind review, which is still running, so the record run waits for the review and stops if the review disagrees.
