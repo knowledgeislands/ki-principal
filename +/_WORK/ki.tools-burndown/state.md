@@ -13,6 +13,7 @@ method_read: 9c17df3c
 
 Mark at 23:45 BST, 19 October.
 
+- 00:18 BST: received acceptrig (KI-TOOL-RIG-CORE-063 accepted and pruned; CANCEL-MERGE routed to ki.mac-studio-setup through State of play under LANE-FIX; its tools-rig commits added to estpush) and ideas (MGIT-ESCAPE and MGIT-OUTPUT on the Project note, MARK-FOLLOWUP sent).
 - 00:17 BST: received estmig-org: 20 of 26 other-organisation repositories converted, local commits; estpush pushes them. YORK-YARN, PKG-NO-HUSKY and NO-GATE at qreview9. Conform's .rumdl.toml rewrite and rumdl --fix reflow reverted 20 times - outstanding.
 - 00:16 BST: received release2, granola, qreview7. TRIAGE-NEXT and HOOK-ADOPT applied (sent to burnki). FOREIGN-COMMITS closed: the commits were granola's; release3 ships v0.12.0 after knipfix. GRANOLA-CHECKPOINT (medium) at qreview8. Still to receive: estmig-org, acceptrig (CANCEL-MERGE to ki.mac-studio-setup), ideas.
 - 00:14 BST 20 October: messages acted on. LANE-FIX: tools-rig is ki.mac-studio-setup's; burnrig told to touch only mcp-git-audit and tools-git-almanac, and acceptrig's tools-rig CANCEL-MERGE goes to ki.mac-studio-setup at receive. TERRITORY-TECHMEDIX folded into KI-TOOL-KI-CLI-154 and CHECKER-GAPS taken as a small fix, both sent to burnki under HIGH-APPLY. release2, granola, estmig-org, acceptrig, qreview7 and ideas finished, to receive.

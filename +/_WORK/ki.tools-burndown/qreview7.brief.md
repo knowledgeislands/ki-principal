@@ -1,3 +1,0 @@
-# qreview7 - blind review of two triage queries
-
-Read-only. Read /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/design/qreview7.options.md, the tools-ki records KI-TOOL-KI-CLI-152, -161, -164 and -165 and ki-agentic-harness KI-HARNESS-GOV-225, /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/design/hooks-standard.md, and the ki-work-roadmap standard as needed. Do not read any `*.report.md`, `queries.md`, `decisions.md` or `state.md`. For each query choose the option you recommend, give confidence high, medium or low with a one-line reason, and note any missed option. Report under Done, In Progress and Queries, British English, ASCII hyphens. No edits, commits or pushes.
