@@ -313,3 +313,60 @@ Read back taken: TERRITORIES-MIGRATE - this work may migrate the other territori
 Kris: "I don't want to change anything we are doing at first though, just see if it helps or conflicts etc"
 
 Read back taken: AGENTSPECS - agentspecs-scan's findings are information only: nothing in the work-package standard, the rename or the migrations changes because of it; anything worth taking up comes back later as a separate query.
+
+## 2026-10-19 14:17 BST - owner request, SPEC-AREAS
+
+Kris: "ok - so lets stick with our plan. Basically, I see that we've got 3 specification area at the minute (in addition agentskills.io). One which is effectively knowledge packages, or effectively our acquiring is a knowledge package, and then another one which is knowledge work package, and then I think the agent knowledge spec is something that we've also got in the acquire, but it's the thing about the context I've acknowledged this thing is very old. Perhaps the acquire package and context package are similar but I think different. I want to get those spec'd within a skill that owns them for now, then we formalise out of them later"
+
+Read back taken:
+
+- KI-SPECS-PLAN - the KI Specifications plan stands: on hold until the v1 boundary, KIPs feeding KISs, formalised later. The three open queries (MIGRATE-GATE, KI-TOML-PACKAGE, PUSH-STACKED) are not taken as answered.
+- SPEC-AREAS - three specification areas besides agentskills.io: the knowledge package (what acquire produces), the work package, and the agent context package (the older agent knowledge spec in acquire); the acquire and context packages may be similar but distinct. Each is specified now inside the skill that owns it, and KI Specifications formalises from those later. Authorises: spec-areas-design (read-only stocktake and design note in this work's `design/`, with ownership and shape queries), then blind review of its medium and low queries.
+
+## 2026-10-19 14:20 BST - owner answer, NO-ALIAS
+
+Kris: "we no longer support `ki-work-folder` - lets just get it renamed. lets live with any fall out"
+
+Read back taken: NO-ALIAS - `ki-work-folder` is dropped outright, with no temporary alias; this replaces the alias in RENAME-ORDER a) and answers KI-TOML-PACKAGE b): switch ki-principal's `.ki.toml` now. Audit or gate failures elsewhere until each repository is switched are accepted. Authorises: ki-toml-switch now (ki-principal `.ki.toml`), and no-alias-sweep after work-package-standard (remove any alias from the harness; switch every Knowledge Islands repository's declaration except tools-ki and the chezmoi source, which are listed for their owners).
+
+## 2026-10-19 14:20 BST - owner direction, PUSH-HARD
+
+Kris: "push hard to get this done, max effort and sub agents, I want it rolled out. all territories are waiting on this now"
+
+Read back taken: PUSH-HARD - roll the work package out across every territory as fast as possible: runs at high effort, using in-session subagents to work in parallel, with no further pauses for the owner's go-ahead. MIGRATE-GATE a) taken from "all territories are waiting on this now": nothing else will resume until the pass commits. Authorises: migrate-pass, chained after work-package-standard. It migrates this work's folder as the pilot, then every other live work folder in parallel. It commits ki-principal's `.ki.toml` switch once the harness's ki-coordination names `ki-work-package`, and writes the both-shape reader requests into the `messages.md` of ki.tools-burndown and ki.observatory.
+
+## 2026-10-19 14:27 BST - owner definition, SPEC-AREAS
+
+Kris: "For these 3 spec areas I want: `work` - essentially what we are doing with work packages, without infering our ways of working; `knowledge` - similar but it is a package of knowledge that is well curated. The example for this is say that I want to learn something about a particular topic that I should be able to understand from the description, what that if this knowledge package effectively is the thing to give me that information, and then it contains a body of knowledge, probably a collection of Markdown files, and in a similar way to the way that skills work as well. `acquire` - This one is more focused on how we would go about acquiring knowledge. So not knowledge at rest, but knowledge acquisition itself. So it could be based on how you use a particular tool, for example. They all work on the basis of progressive disclosure and are done in line with agentskills.io spec standards. We could put these in skills, or we could externalise them to `https://knowledgeislands.info/specs/{work,knowledge,acquire}` - in a similar format to <https://agentskills.io/specification>"
+
+Read back taken:
+
+- SPEC-AREAS, refined - three specifications, named `work`, `knowledge` and `acquire`:
+  - `work` is the portable work package, with nothing of the Knowledge Islands ways of working in it;
+  - `knowledge` is a curated body of knowledge on a topic: a description that tells a reader whether this is the package that answers their question, then a collection of Markdown files;
+  - `acquire` is a package for acquiring knowledge, such as how to use a particular tool: knowledge acquisition itself, not knowledge at rest.
+- All three use progressive disclosure and follow the agentskills.io specification's conventions.
+- SPEC-HOME is open: specs held in the owning skills, or published at `knowledgeislands.info/specs/{work,knowledge,acquire}` in the agentskills.io specification's page format.
+- Authorises: spec-drafts, chained after spec-areas-design. It drafts the three specs in this work's `design/specs/` in the agentskills.io specification format, ready for either home. Nothing is published.
+
+## 2026-10-19 14:27 BST - owner decision, SPECIFICATIONS-PROJECT
+
+Kris: "I wonder if I should start a project under model called specifications?" then "can you give me a prompt to start a new thread on this"
+
+Read back taken: SPECIFICATIONS-PROJECT - Kris opens a new Project, KI > Model > Specifications (`ki.specifications`, run `specifications`), in its own session. It owns the three specs (`work`, `knowledge`, `acquire`), SPEC-HOME, publication and the later move into KI Specifications. This work runs spec-areas-design and spec-drafts to completion, then hands their outputs over with a dated line in `ki.specifications`'s `messages.md`; SPEC-HOME passes with them.
+
+## 2026-10-19 14:28 BST - owner note, SPECIFICATIONS-OPENED
+
+Kris: "I did the handoff"
+
+Read back taken: the ki.specifications session is open. This work still owes it the spec-areas-design stocktake (done) and spec-drafts (running): a dated line in its `messages.md` once its work package exists, and again when spec-drafts lands.
+
+## 2026-10-19 14:31 BST - owner direction, KI-FIRST
+
+Kris: "can you do knowledge islands now before the rest so they can continue" then "oh - don't we have a standard defined"
+
+Read back taken: KI-FIRST - the Knowledge Islands territory's work folders migrate now, working from the finalised design note (`design/work-package.md`, commit `fba56feb`), and no longer wait for work-package-standard's harness rewrite; other territories follow after this territory. migrate-pass is relaunched to start now, and territories-package is re-chained to wait for migrate-pass.
+
+## 2026-10-19 14:50 BST - FIRST-STEP disposition
+
+The migration's FIRST-STEP line was acted on: `ki-work-package` and all five files re-read; the drafted description, Goals and Scope confirmed as written; `method_read` set to harness `9c9ae922`; unreceived reports' queries are carried to the next Summary. Line removed.
