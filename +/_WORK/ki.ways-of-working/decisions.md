@@ -365,45 +365,13 @@ design-triage (read-only) sorted the 44 `design/` files: delete 28 (25 applied m
 
 delete-review (Codex, read-only): migration-plan group and `work-folder.md` delete at high, after rewriting harness `standards-work-package.md:77` (and an Acquire intake run report's link, left to that work's prune); the two thread-model notes keep at high, as some of Kris's original words (banner request, BANNER-LETTERS, BANNER-MARK confirmation, DECISION-HOME, DESIGN-RETENTION rationale) have no durable home. DESIGN-DELETE now recommends the 26, reviewed high.
 
-## 2026-10-19 21:25 BST - owner decision, DESIGN-DELETE
+## 2026-10-19 21:27 BST - PAPERCLIP-REQ (pointer)
 
-Kris: "as recommended"
+Kris: "paperclip is just on hold whilst I get KI stable, no need to tie it to a Wave". Held in `state.md`.
 
-Read back taken: DESIGN-DELETE a) - delete the 25 migration-plan files and `work-folder.md` in one commit, with harness `standards-work-package.md:77` rewritten so it no longer cites the note; keep the two thread-model notes until Kris's words in them are homed. Authorises design-delete (ki-principal and harness; commit by path, push fast-forward only when its own commits alone are stacked).
+## 2026-10-19 21:28 BST - GFM-MIGRATION (pointer)
 
-## 2026-10-19 21:25 BST - mark
-
-Kris: "mark". Mark struck at 21:25 BST; 5 entries since the 20:10 mark struck or reduced to pointers; PAPERCLIP-REQ's pointer now names `state.md`.
-
-## 2026-10-19 21:27 BST - owner direction, PAPERCLIP-REQ
-
-Kris: "paperclip is just on hold whilst I get KI stable, no need to tie it to a Wave"
-
-Read back taken: PAPERCLIP-REQ is on hold until KI is stable, released by Kris, with no Wave F tie; it supersedes the 13 October "until Wave F" wording.
-
-## 2026-10-19 21:28 BST - owner direction, GFM-MIGRATION
-
-Kris: "The GFM migration can work through the Ki authoring scale and say that we prefer git-flavored markdown, that we support multiple things, and that if you touch a file, it changes, and also we might choose to rewrite the entirety of a bunch of files from every now and then. I guess in many ways it'd be good just to do it. I don't know how mechanical that can be."
-
-Read back taken: GFM-MIGRATION is unparked. `ki-authoring` should say GitHub-flavoured Markdown is preferred, other flavours are supported, a touched file is converted, and batches of files may be rewritten whole from time to time; Kris leans to doing it outright, subject to how mechanical it is. Authorises gfm-scope (read-only): what conversion is mechanical, what needs judgement, what breaks, a draft `ki-authoring` clause and a plan, with queries; blind review before Kris. Extends ROUND-END by Kris's direction.
-
-## 2026-10-19 21:29 BST - received design-delete
-
-design-delete deleted the 26 `design/` files (ki-principal `5bd1996b`, unpushed) and rewrote harness `standards-work-package.md:77` to cite the standing ownership contract (`84b61942`, pushed alone); tests 1,286 pass, audits clean; the two thread-model notes and the 16 other files untouched. The Acquire intake run report's link to `classification.tsv` is left to that work's prune. DESIGN-DELETE done.
-
-## 2026-10-19 21:29 BST - message METHOD-READ-VALUES
-
-From ki.tools-burndown at 21:26 BST: six works hold a UTC time in `method_read`. Disposition: a refresh line sent to ki, ki.baseline-rollout, ki.mac-studio-setup, ki.observatory and ki.timelines (ki.tools-burndown corrected itself); the rubric check goes to Kris as METHOD-READ-RUBRIC.
-
-## 2026-10-19 21:34 BST - owner direction, METHOD-READ-CAPITALS
-
-Kris: "you could add something about it to the SoP work pacjage in all the capitals"
-
-Read back taken: the METHOD-READ refresh line goes also to the State of play work package's `messages.md` in every other territory capital, so each sweeps its own works' `method_read` values. Authorises method-read-capitals (each capital: one `messages.md` line, committed by path, pushed fast-forward only when its own commit alone is stacked).
-
-## 2026-10-19 21:34 BST - received gfm-scope
-
-gfm-scope (read-only): ki-principal's 1,025 wikilinks and 15 embeds convert mechanically with an Obsidian-order resolver; judgement remains for 2 custom callouts, 2 Dataview blocks, 10 heading links, 7 ambiguous links and 21 templates. `ki-repo-kb` LINK-1 mandates wikilinks today while ki-principal's `.rumdl.toml` already forbids them. A converted island loses its only link check unless LINK-1 becomes exact-case resolution; the `ki-decision-records` link parser mishandles angle-bracket paths with spaces; the Notion mirror reads wikilinks only. Draft `ki-authoring` clause and a six-step plan (harness rules, tools-ki converter, verification, zone batches, one Enactment record, other islands by their owners). Queries GFM-ORDER, GFM-LINK-FORM, GFM-ENACT (medium) and FLAVOUR-FIELD, TOUCH-SCOPE (high) copied; all five go to one blind review (gfm-review, Codex). Full report: `~/.local/state/ki/agents/ways-of-working/gfm-scope.report.md`.
+Kris's direction: GFM preferred, other flavours supported, a touched file converted, batches rewritten from time to time; "it'd be good just to do it". Homed in `design/gfm-migration.md` and KI-PRINCIPAL-OPS-014.
 
 ## 2026-10-19 21:35 BST - owner correction, METHOD-READ-CAPITALS misread
 
@@ -411,28 +379,14 @@ Kris: "whats the method_read thing? ... this was in realition to the gfm migrati
 
 Read back taken: the 21:38 direction ("you could add something about it to the SoP work pacjage in all the capitals") meant GFM-MIGRATION, not METHOD-READ; method-read-capitals ran on my misreading and is put to Kris to stop or let finish. GFM-CAPITALS: once the GFM queries are answered, a line goes to State of play in every capital so each island plans its own conversion.
 
-## 2026-10-19 21:36 BST - received method-read-capitals
+## 2026-10-19 22:00 BST - GFM decisions (pointer)
 
-method-read-capitals put the METHOD-READ line into State of play's `messages.md` in seven capitals, each committed alone and pushed: er `b79d5f9`, hnr `0a58b11`, lgl `d3a545fb`, kb (personal-principal) `9db228f8`, tmx `a257377`, va `582de5a`, and si (si-principal, found in the registry) `38dbd16`. Run on a misreading; the lines are accurate and stand unless Kris says revert.
-
-## 2026-10-19 21:41 BST - received gfm-review
-
-gfm-review (Codex, read-only) agrees with all five GFM recommendations, adding: fix the Decision Record and Activities link parsers first; decide four width-800 image embeds, 10 heading links (the Observatory drops fragments), 2 callouts and templates before their batches; verify per link, not by totals; apply only reviewed paths against unchanged bytes with a rollback manifest; Enactment needs a preview checkpoint. TOUCH-SCOPE held at medium (converter must refuse unsafe files). Confidences lifted where agreed; queries rewritten for Kris.
-
-## 2026-10-19 22:00 BST - owner decisions, GFM and METHOD-READ-RUBRIC
-
-Kris: "Do all recommended and ... TOUCH-SCOPE - if we are doing in full then we don't need this do we?"
-
-Read back taken: GFM-ORDER a) staged conversion of ki-principal, each batch failing closed; FLAVOUR-FIELD a) dropped, repository-level setting only if an island stays Obsidian-flavoured; GFM-LINK-FORM a) note-relative paths in angle brackets, `%20` normalised, audit fails dangling or wrong-case links; GFM-ENACT a) one `Streams/Roadmap/` record; METHOD-READ-RUBRIC a) add the check. TOUCH-SCOPE not answered: Kris asks whether full conversion makes it unnecessary; answered in the turn, query stays open. Authorises gfm-harness (harness rules, link audit, parser fixes, method_read check) and gfm-principal (plan note, Roadmap record, converter handoff to ki.tools-burndown, GFM-CAPITALS lines, ki pin).
-
-## 2026-10-19 22:00 BST - message KI-VERSION
-
-From ki.tools-burndown at 21:42 BST: ki `v0.11.5` is published; `.github/ki-version` can move. Disposition: gfm-principal moves the pin in its own commit.
-
-## 2026-10-19 22:07 BST - received gfm-principal
-
-gfm-principal: plan note `design/gfm-migration.md`; record KI-PRINCIPAL-OPS-014 (triage, blocked by the harness rules and the converter); GFM-CONVERTER line to ki.tools-burndown; GFM-MIGRATION line to State of play in seven capitals, pushed; `.github/ki-version` to `v0.11.5` (`b3c44edb`). ki-principal commits local. Flagged: the MOD ledger sits at 9 though KI-PRINCIPAL-MOD-010 was issued; the in-progress harness LINK-1 turns ki-principal's audit red on existing notes - steered gfm-harness at 22:07 BST to baseline or warn before committing.
+Kris: "Do all recommended". GFM-ORDER, FLAVOUR-FIELD, GFM-LINK-FORM, GFM-ENACT a) homed in `design/gfm-migration.md`, KI-PRINCIPAL-OPS-014 and harness `2d28656f` to `af4cb478`; METHOD-READ-RUBRIC done (`af4cb478`). TOUCH-SCOPE open.
 
 ## 2026-10-19 22:09 BST - received gfm-harness
 
 gfm-harness pushed five harness commits (`2d28656f` to `af4cb478`): the `ki-authoring` GFM clause with the touch paragraph standing alone, LINK-1 as exact-case resolution of every link form, the Decision Records and Activities parser fixes, evals and mirror stripper, and the `method_read` check; tests 1,292 pass, audits clean. Defect: LINK-1 has no baseline, so existing islands' full audits go red (ki-principal FAIL=1 at 22:08), against the review's "recorded baseline for pre-existing failures"; the steer never reached the run. Fix launched as link1-baseline under GFM-ORDER a). Its query GFM-HOSTING-RULES (GitHub reported the push bypassed the harness PR and required-build rules) is not this work's; it goes to State of play at the hold.
+
+## 2026-10-19 22:12 BST - mark
+
+Kris: "take a mark". Mark struck at 22:12 BST; 13 entries since the 21:25 mark struck or reduced to pointers. `design/` reviewed: `gfm-migration.md` is live; the rest as triaged.

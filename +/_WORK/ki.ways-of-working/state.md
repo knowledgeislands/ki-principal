@@ -4,7 +4,7 @@ state: with-worker
 since: 2026-10-19T21:00:00Z
 received: 2026-10-19T16:57:00Z
 beat: null
-mark: 2026-10-19T20:25:00Z
+mark: 2026-10-19T21:12:00Z
 method_read: eff6163b
 ---
 
@@ -29,6 +29,7 @@ method_read: eff6163b
 6. With ki.tools-burndown: accept the mgit hands-on record and release mgit once (MGIT-RELEASE a)); check passed 19:42 BST. Harness CI's pinned v0.11.3 run after `bda6e4a0` still to confirm.
 7. Outstanding, not this work's: pre-existing CI red in apps-observatory.local, mcp-m365, tools-mgit and ki-techne-harness; acquire-intake's ACQUIRE-DECISIONS-LINKS; untracked KI-HARNESS-GOV-220 and KI-TOOL-KI-CLI-154.
 8. Next round: graduate the seven `design/` files design-triage marked (design.md, the work-model pair, work-package.md, the three bring-up files), then delete the two thread-model notes once Kris's words in them are homed.
+9. To State of play at the hold: GFM-HOSTING-RULES (GitHub let the harness push bypass its PR and required-build rules); the ki-principal MOD ledger sits at 9 though KI-PRINCIPAL-MOD-010 was issued.
 
 ## Held
 
