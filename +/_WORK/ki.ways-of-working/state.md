@@ -13,6 +13,7 @@ method_read: 9c9ae922
 ## Now
 
 - Received from Kris at 17:57 BST on 19 October: everything pushed; CITATIONS-DANGLE b), CHEZMOI-MIGRATE a), MARK-READOPT a). chezmoi-migrate done (`40a6a6cd`, ki.chezmoi now five files). Running: citations-rewrite; report-sweep queued after it. Marked at 18:12 BST on 19 October; mark-tidy strikes the decisions log and runs the mark checks.
+- Drift noted 18:14 BST: the coordinator ran the 18:01 hooks survey and the 18:05 legal report-history check itself rather than as runs; both were read-only and short. Further investigation goes to a run.
 - Run reports sit in `~/.local/state/ki/agents/ways-of-working/`.
 
 ## Next steps
