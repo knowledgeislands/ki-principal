@@ -71,3 +71,5 @@
 - 2026-10-19 23:54 BST, LANE-OWNERS confirmed by State of play: this work's lane is tools-rig and the agent-host hold cluster, which waits with the on-hold ki.agent-host until TECHNE-FOCUS is settled; ki-techne-harness is off the lane; ki.tools-burndown leaves tools-rig alone. The line is removed, which clears the work-package audit failure its format raised.
 
 - 2026-10-19 23:54 BST, scope-review received: the blind review agrees with Q-062-SCOPE a), so its confidence rises to high, with the review's wording added (the remaining case includes TCP; "tailnet-only" not presented as authenticated ingress); brief pruned.
+
+- 2026-10-19 23:59 BST, plan027 received: KI-TOOL-RIG-CLI-027 planned to Ready (size m, local commit in tools-rig, unpushed), `--json` documented with `--format text|json` kept as an equivalent; no queries; brief pruned.

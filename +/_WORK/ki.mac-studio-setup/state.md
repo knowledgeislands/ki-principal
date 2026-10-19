@@ -13,7 +13,7 @@ method_read: 84b61942
 ## Now
 
 - With worker since 23:30 BST on 19 October; marked at 23:36 BST on 19 October.
-- Running in tools-rig: rig-triage (TRIAGE-ALL: high-confidence adoptions delivered to Awaiting review, one RIG-TRIAGE query for the rest). plan027 (KI-TOOL-RIG-CLI-027) has finished and waits to be received.
+- Running in tools-rig: rig-triage (TRIAGE-ALL: high-confidence adoptions delivered to Awaiting review, one RIG-TRIAGE query for the rest). plan027 received: KI-TOOL-RIG-CLI-027 planned to Ready, size m, not implemented.
 - Records: KI-TOOL-RIG-CORE-047 and KI-TOOL-RIG-CORE-063 await Kris's acceptance; KI-TOOL-RIG-CORE-062 is draft, Ready waiting on Q-062-SCOPE and Q-062-ABSENT; KI-TOOL-RIG-CORE-069 is in Triage. Pushes are left to Kris and the owning sessions.
 - Lane, confirmed by State of play on 19 October: tools-rig and the agent-host hold cluster, which waits with the on-hold ki.agent-host until TECHNE-FOCUS is settled.
 - Looks resolved, to confirm with Kris: terra key-only SSH and HOSTKEY-APPLY steps 6-9 (KB-DOTFILES-UE-088), and the parked SOL-HNR-HARNESS.
