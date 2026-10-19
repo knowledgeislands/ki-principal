@@ -13,6 +13,7 @@ method_read: 9c17df3c
 
 Mark at 23:45 BST, 19 October.
 
+- 00:25 BST: acceptgit stopped on ACCEPT-AUTHORITY (footer conflict); relaunched as acceptgit2 with --rules prune. burnmgit: KI-TOOL-MGIT-CLI-026 at Awaiting review.
 - 00:24 BST: received burnrig: KI-MCP-GIT-FND-006 delivered to Awaiting review, CI pin fix in mcp-git-audit and tools-git-almanac, tools-git-almanac has no records. acceptgit (Codex high) accepts FND-006 and pushes both. estpush received: 13 pushed, 7 left under other sessions' commits.
 - 00:21 BST: received qreview9; YORK-YARN, PKG-NO-HUSKY and NO-GATE applied, estfix launched; NO-GATE gate declaration sent to ki.ways-of-working through State of play. estpush finished, to receive.
 - 00:20 BST: Kris set TO-DONE and is away four hours. SYNC-CATEGORIES c), SYNC-STREAMS b), GRANOLA-CHECKPOINT a) applied. burnmcp1 and burnmcp2 launched for the six other MCP repositories; burnmgit, burnrig and burnki extended to triage, unhold and keep going. Next: as each burn run finishes, launch a Codex high accept run on its repositories, then continuation burns until nothing can move. roadmap-census-2 acted on; tools-rig and tools-techne passed to State of play.
