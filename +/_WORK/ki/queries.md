@@ -61,3 +61,43 @@ since 2026-10-19 · from Acquire intake (misrouted) · awaiting blind review bef
 **Options:**
 
 a) (recommended, confidence medium - the words are clear, but they reached State of play second-hand and change canonical Admin content) Revise the policy through the Enactment Process: lift the programme hold and replace it with a focus rule, Mac Studio and agent host only, all other Techné work kept as ideas, superseding GDR-KI-PRINCIPAL-004 with a new record. b) Keep the hold as written; treat the 14 October words as context only.
+
+### CAPTURE-GATE - stop runs creating records
+
+since 2026-10-19 · from [roadmap-census](roadmap-census.report.md)
+
+**Context:** 209 records were added in the six days after the 14 October "no new feature records" focus. 57 open records (46%) are unadopted triage, mostly findings and follow-ups captured automatically by runs. The 14 October rule names what may be captured but never says who captures. `ki-next` permits triage capture without approval.
+
+**Query:** Should only the coordinator of the owning work create records, with runs listing follow-ups in their reports?
+
+**Options:** a) (recommended, confidence high - the inflow data is direct and the rule only narrows who captures) Runs never capture. The owning work's coordinator captures only a blocker, a defect seen failing or a Kris request, naming the work. Ideas go to Project notes. Small audit fixes are done without a record. State of play adds this to every brief and routes a method change to ki.ways-of-working for `ki-next` and `ki-delegation`. b) Keep automatic triage capture but cap triage at 10 per repository.
+
+### ROADMAP-CAP - caps and weekly measure
+
+since 2026-10-19 · from [roadmap-census](roadmap-census.report.md)
+
+**Context:** The roadmap went from 148 to 16 in two weeks when focused, then back to 126 in seven days. There is no cap, so nothing forces a lane to close before it captures. The 14 October ROADMAP-SIZING decision already agreed daily count snapshots.
+
+**Query:** Should the territory run to caps of 60 by 2 November and 40 by 16 November, with per-lane limits and a Monday measure?
+
+**Options:** a) (recommended, confidence medium - the targets are judgement, though the first wave alone reaches about 90) Territory 60 or fewer by 2 November and 40 or fewer by 16 November. Per lane: Now 5 or fewer, Awaiting review 5 or fewer, triage 10 or fewer. A lane at its cap closes before it captures. State of play reports per lane each Monday. b) No hard caps; a weekly measure only.
+
+### LANE-OWNERS - who owns each roadmap
+
+since 2026-10-19 · from [roadmap-census](roadmap-census.report.md)
+
+**Context:** 36 open records have no live work: ki-design's 24, whose `project: ki-design` has no Project note, and the 12 email-routing drafts in mcp-m365 and mcp-gsuite. The other repositories map onto existing works. Seven holds share the agent-host unblocker.
+
+**Query:** Do you agree the lane owners as proposed, with ki-design under ki.observatory and the email-routing cluster held as one?
+
+**Options:** a) (recommended, confidence medium - the ki-design hand-off is Observatory-driven, but ki-design may deserve its own work) ki.tools-burndown takes the tools repositories and mcp-git-audit. ki.observatory takes apps-observatory.local, ki-design and the website's design adoption. ki.ways-of-working takes ki-agentic-harness, ki-principal and ki-specifications. ki.chezmoi takes chezmoi. ki.mac-studio-setup takes the agent-host hold cluster and ki-techne-harness. The 12 email-routing records move to one hold until a Project opens. b) Open a separate ki.design work for ki-design, and give the email-routing records to ki.knowledge-acquisition.
+
+### BURN-WAVE-1 - authorise the first wave
+
+since 2026-10-19 · from [roadmap-census](roadmap-census.report.md)
+
+**Context:** 22 records can close by acceptance or prune: 14 ki-design hand-off decisions, 3 tools-ki, 2 tools-rig, 1 harness, plus [KI-OBSERVA-VIS-031](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-031-who-is-working.md) and [KB-DOTFILES-UE-095](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-095-guide-continuity-check.md). About 12 more are cancellation, merge or idea candidates, listed under Done by repository. Together they take the territory from 125 to about 90.
+
+**Query:** Should each lane run its acceptance pass now and bring its cancel and merge list to you for one approval per lane?
+
+**Options:** a) (recommended, confidence high - acceptance stays with you per lane, and nothing is cancelled without your approval) Each lane owner runs one `ki-accept` pass on its Awaiting review records and presents its cancel, merge and idea list as a single query. The 14 ki-design records go as one batch. b) Present every record to you individually.

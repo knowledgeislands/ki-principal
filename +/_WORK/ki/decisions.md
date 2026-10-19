@@ -148,3 +148,4 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 
 - **ACCEPT-AWAITING:** "I think we should accept all the awaiting reviews." Read back as taken: accept as done, under `ki-accept`, every work record in Awaiting review across the Knowledge Islands territory's repositories, Kris's approval standing for each; no pruning and no push. A record that another session is changing is not touched but routed to its owning work. Dispatched `accept-awaiting`.
 - 23:17 BST: ki.chezmoi carries FW-DECLARE, FW-DECLARE-NOW, SSH-SPARE-KEY, SEAT-RECORD and TOML-OPENER in its own decisions log; strike them here at the next mark (CHEZMOI-CARRY closed). Line removed.
+- 23:18 BST: `roadmap-census` received (report kept until its queries are answered). CAPTURE-GATE and BURN-WAVE-1 are high and not destructive; ROADMAP-CAP, LANE-OWNERS and TECHNE-FOCUS dispatched to blind review as `query-review-3` under Codex.
