@@ -12,7 +12,7 @@ method_read: 979e075a
 
 ## Now
 
-- With worker; marked at 23:14 BST on 19 October.
+- With worker; marked at 23:12 BST on 19 October.
 - Sol firewall applied and verified 22:50–23:06 BST: S4 PROTECTED twice, undo rehearsed, T checks pass (tailnet 5900 answers, LAN 5900 blocked, LAN 22 open), VNC from Terra works, `rig doctor` unchanged at 3 findings. The gate's anchor-listed check was too strict (an emptied anchor stays listed) and was corrected in the session.
 - Sol SSH key delivery applied and fully verified at 22:48 BST ([sol-ssh-apply](/Users/krisbrown/.local/state/ki/agents/chezmoi/sol-ssh-apply.report.md)).
 - GUIDE-REMOTE blind review back ([guide-remote-review](/Users/krisbrown/.local/state/ki/agents/chezmoi/guide-remote-review.report.md)): update now with qualified wording and a NordVPN caveat on both Macs.
