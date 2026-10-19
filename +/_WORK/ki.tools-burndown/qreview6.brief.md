@@ -1,3 +1,0 @@
-# qreview6 - blind review of nine mgit sync summary choices
-
-Read-only. Read /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/design/qreview6.options.md, the tools-mgit record `docs/roadmap/KI-TOOL-MGIT-CLI-030-sync-closing-summary.md`, the sync code, specification and manual, and the ki-engineering CLI conventions in ki-agentic-harness as needed. Do not read any `*.report.md`, `queries.md`, `decisions.md` or `state.md`. For each of the nine queries choose the option you recommend, give confidence high, medium or low with a one-line reason, and note any missed option. Report under Done, with one line per tag, then In Progress and Queries, British English, ASCII hyphens. No edits, commits or pushes.

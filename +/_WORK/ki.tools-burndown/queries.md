@@ -4,9 +4,9 @@
 
 ### SYNC-CATEGORIES - Outcome categories
 
-since 2026-10-19 · from mgitplan.report.md in the run state folder · blind review qreview6 pending
+since 2026-10-19 · from mgitplan.report.md in the run state folder · reviewed by qreview6 (Codex, high)
 
-**Context:** Today sync prints one line for each checkout that changed or has a problem, but it adds none of them up. The record needs a fixed set of outcomes that every repository falls into.
+**Context:** Today sync prints one line for each checkout that changed or has a problem, but it adds none of them up. The record needs a fixed set of outcomes that every repository falls into. Reviewer adds: specify precedence for dirty checkouts whose fetch also failed, retaining both reasons.
 
 **Query:** Which outcomes should the tally count, and where does each kind of skip fall?
 
@@ -14,9 +14,9 @@ since 2026-10-19 · from mgitplan.report.md in the run state folder · blind rev
 
 ### SYNC-TALLY - Tally shape
 
-since 2026-10-19 · from mgitplan.report.md in the run state folder · blind review qreview6 pending
+since 2026-10-19 · from mgitplan.report.md in the run state folder · reviewed by qreview6 (Codex, high)
 
-**Context:** Ordinary dispatch ends with `mgit: N repositories: ...` and always prints zero counts. A checkout can never both pull and push, because a branch that is both ahead and behind has diverged and is skipped.
+**Context:** Ordinary dispatch ends with `mgit: N repositories: ...` and always prints zero counts. A checkout can never both pull and push, because a branch that is both ahead and behind has diverged and is skipped. Reviewer adds: count selected checkouts under --all-worktrees, rather than distinct repositories.
 
 **Query:** What should the closing tally line look like?
 
@@ -24,7 +24,7 @@ since 2026-10-19 · from mgitplan.report.md in the run state folder · blind rev
 
 ### SYNC-SKIPDETAIL - Where skipped detail goes
 
-since 2026-10-19 · from mgitplan.report.md in the run state folder · blind review qreview6 pending
+since 2026-10-19 · from mgitplan.report.md in the run state folder · reviewed by qreview6 (Codex, high)
 
 **Context:** With 50 or more repositories, a skip line printed early in the run scrolls off the screen long before the end. That is how the five unpushed commits went unnoticed.
 
@@ -34,9 +34,9 @@ since 2026-10-19 · from mgitplan.report.md in the run state folder · blind rev
 
 ### SYNC-HELD - Which held commits to count
 
-since 2026-10-19 · from mgitplan.report.md in the run state folder · blind review qreview6 pending
+since 2026-10-19 · from mgitplan.report.md in the run state folder · reviewed by qreview6 (Codex, high)
 
-**Context:** A dirty checkout's branch is still fetched, so up-to-date ahead and behind counts are available for it. A checkout whose fetch failed can only be compared with the copy of the upstream from its last successful fetch. A detached HEAD, or a branch with no upstream, has nothing to compare with.
+**Context:** A dirty checkout's branch is still fetched, so up-to-date ahead and behind counts are available for it. A checkout whose fetch failed can only be compared with the copy of the upstream from its last successful fetch. A detached HEAD, or a branch with no upstream, has nothing to compare with. Reviewer adds: check fetch freshness even for dirty checkouts, and distinguish unavailable comparisons from zero counts.
 
 **Query:** Which unpushed and unpulled commits should the skipped detail report?
 
@@ -44,9 +44,9 @@ since 2026-10-19 · from mgitplan.report.md in the run state folder · blind rev
 
 ### SYNC-STREAMS - Standard streams
 
-since 2026-10-19 · from mgitplan.report.md in the run state folder · blind review qreview6 pending
+since 2026-10-19 · from mgitplan.report.md in the run state folder · reviewed by qreview6 (Codex, high)
 
-**Context:** Today every sync line goes to standard output. The `ki-repo-tools` command-line conventions put warnings and progress on standard error. [KI-TOOL-MGIT-CLI-029](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-029-cli-convention-departures.md) owns departures from those conventions across the commands.
+**Context:** Today every sync line goes to standard output. The `ki-repo-tools` command-line conventions put warnings and progress on standard error. [KI-TOOL-MGIT-CLI-029](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-029-cli-convention-departures.md) owns departures from those conventions across the commands. Reviewer adds: include prompts and diagnostic detail on standard error; the proposed deferral record currently excludes new departures.
 
 **Query:** Should this record move sync's warning lines to standard error?
 
@@ -54,9 +54,9 @@ since 2026-10-19 · from mgitplan.report.md in the run state folder · blind rev
 
 ### SYNC-EXIT - Exit status
 
-since 2026-10-19 · from mgitplan.report.md in the run state folder · blind review qreview6 pending
+since 2026-10-19 · from mgitplan.report.md in the run state folder · reviewed by qreview6 (Codex, high)
 
-**Context:** Today every skip except your own `-i` refusal makes sync exit with `1`, and so does any bare repository. Answering `q`, or input ending, under `-i` exits `1` with no closing lines at all.
+**Context:** Today every skip except your own `-i` refusal makes sync exit with `1`, and so does any bare repository. Answering `q`, or input ending, under `-i` exits `1` with no closing lines at all. Reviewer adds: label incomplete runs and targets not reached; counts cannot explain every non-zero exit, and q currently reprompts rather than quits.
 
 **Query:** Should the exit status change, and what should a quit under `-i` print?
 
@@ -64,7 +64,7 @@ since 2026-10-19 · from mgitplan.report.md in the run state folder · blind rev
 
 ### SYNC-JSON - Machine output
 
-since 2026-10-19 · from mgitplan.report.md in the run state folder · blind review qreview6 pending
+since 2026-10-19 · from mgitplan.report.md in the run state folder · reviewed by qreview6 (Codex, high)
 
 **Context:** Dispatch and `overview` both give `--json` a `summary` object; sync has no `--json`. No consumer has asked for one, and the record is already size m.
 
@@ -74,7 +74,7 @@ since 2026-10-19 · from mgitplan.report.md in the run state folder · blind rev
 
 ### SYNC-VERBOSE - Verbose mode
 
-since 2026-10-19 · from mgitplan.report.md in the run state folder · blind review qreview6 pending
+since 2026-10-19 · from mgitplan.report.md in the run state folder · reviewed by qreview6 (Codex, high)
 
 **Context:** Today bare repositories are counted only without `-v`. With `-v`, each one gets its own line instead.
 
@@ -84,9 +84,9 @@ since 2026-10-19 · from mgitplan.report.md in the run state folder · blind rev
 
 ### SYNC-CLEANFETCH - Clean-branch wording
 
-since 2026-10-19 · from mgitplan.report.md in the run state folder · blind review qreview6 pending
+since 2026-10-19 · from mgitplan.report.md in the run state folder · reviewed by qreview6 (Codex, high)
 
-**Context:** MGIT-WS-018, the manual and the running-commands guide say sync fetches every _clean_ tracking branch. The code fetches every tracking branch, which is why a dirty checkout's behind count is up to date.
+**Context:** MGIT-WS-018, the manual and the running-commands guide say sync fetches every _clean_ tracking branch. The code fetches every tracking branch, which is why a dirty checkout's behind count is up to date. Reviewer adds: qualify local upstreams with remote '.', which need no remote fetch.
 
 **Query:** Should the documents change to match the code, or the code to match the documents?
 
