@@ -2,7 +2,7 @@
 
 **Owner:** Kris Brown · **Work:** `ki.timelines` · **Report:** [timelines-skill-report.md](timelines-skill-report.md) · **Decisions:** [decisions.md](../decisions.md) · **Date:** 2026-10-20
 
-This note is the design as decided. It takes every settled point from the owner's decisions, cited by tag, and the points the [merged report](timelines-skill-report.md) settled on cited evidence, marked "merge". DESIGN-HIGH and DESIGN-REVIEWED were taken under OVERNIGHT-AUTONOMY; Kris may reverse any of them on return, and this note follows any reversal. The skill's name is still open, so `<skill>` stands wherever it would appear. Case content from legal-principal is not reproduced.
+This note is the design as decided. It takes every settled point from the owner's decisions, cited by tag, and the points the [merged report](timelines-skill-report.md) settled on cited evidence, marked "merge". DESIGN-HIGH, DESIGN-REVIEWED and NAME-AND-PROVIDER were taken under OVERNIGHT-AUTONOMY; Kris may reverse any of them on return, and this note follows any reversal. The skill is `ki-calendars` (NAME-AND-PROVIDER). Case content from legal-principal is not reproduced.
 
 ## Contents
 
@@ -21,7 +21,8 @@ This note is the design as decided. It takes every settled point from the owner'
 ## Scope
 
 - **Milestone-centred.** A base keeps its key dates, due dates and milestones and may publish one or more calendar sets to subscribe to (TIMELINES-OPEN). The calendar carries milestones, not elapsed time; a span never takes busy time in a subscriber's calendar (TIMELINE-IMPROVEMENTS).
-- **One skill.** `<skill>` owns the dated item's meaning, the feed projection and the view data format. Website rendering stays with `ki-repo-website-content`, base rendering with `ki-repo-kb-live-artifacts`, provider input and output with the connector repositories (SKILL-SHAPE, DESIGN-HIGH).
+- **One skill.** `ki-calendars` owns the dated item's meaning, the feed projection and the view data format. Website rendering stays with `ki-repo-website-content`, base rendering with `ki-repo-kb-live-artifacts`, provider input and output with the connector repositories (SKILL-SHAPE, DESIGN-HIGH).
+- **Description boundary (NAME-AND-PROVIDER).** The skill's description separates milestone-centred dated sets and their feeds and views from two neighbours it does not govern: a base's `Calendar/` period notes (daily, weekly, monthly and meeting notes, under `ki-repo-kb`'s zone model), and appointment management (booking, inviting, accepting or moving meetings in a provider calendar, left to the provider and its connectors).
 - **Out of v1:** recurrence, spans in feeds, private publication before its adapter is proved, the Mermaid gantt's redraw (ki.observatory's LGL-PRINCIPAL-OPS-028), any cross-base Observatory view (ki.observatory), the `ki` CLI and npm publication.
 
 ## Model
@@ -106,11 +107,11 @@ One editable home per date (ONE-SOURCE, QUERIES-AGREED). A base declares its sou
 
 ## View data format
 
-The core emits one view document per base, `schema: "<skill>-view/1"`, from the same items as the feeds. It is a superset of 5G's `ViewData` (`apps/site/lib/calendars.ts`), so 5G's `calendarView` becomes a thin adapter and its pages do not change.
+The core emits one view document per base, `schema: "ki-calendars-view/1"`, from the same items as the feeds. It is a superset of 5G's `ViewData` (`apps/site/lib/calendars.ts`), so 5G's `calendarView` becomes a thin adapter and its pages do not change.
 
 ```json5
 {
-  schema: '<skill>-view/1',
+  schema: 'ki-calendars-view/1',
   generated_from: { manifest: '<path in base>', digest: '<sha256 of resolved sources>', schema_version: 1 },
   sets: [
     { id: '', title: '', code: '', colour: 1, group: '', zone: 'Europe/London', audience: 'public', page: '', count: 0 }
@@ -177,12 +178,12 @@ The audit regenerates deterministically and compares; it is not a generator stam
 
 ## Open points
 
-- **SKILL-NAME** (with Kris): `ki-key-dates`, which names the kept thing and avoids the `Calendar/` zone's word, or `ki-calendars`, which names the subscribable sets Kris asked for. The skill directory, view schema and manifest key take the name.
+- **SKILL-NAME** (closed, NAME-AND-PROVIDER): `ki-calendars`, which names the subscribable sets Kris asked for, its description separating them from `Calendar/` period notes and appointment management (see [Scope](#scope)). The skill directory, view schema and manifest key take the name; nothing is built under it until the harness plans KI-HARNESS-GOV-222, so Kris can still change it.
 - **Manifest home** (harness planning): a section of `.ki.toml` or a declared file in the base.
 - **Invalid item in feeds** (harness planning may confirm): this note reads TIMED-BUSY's "stays visible with a diagnostic" as visible in views and left out of feeds until fixed.
 - **UID form** (harness planning may confirm): `<logical id>@<uid domain>`, reconciling the merge's base namespace with 5G's kept host suffix.
 - **Cancelled items** (harness planning): whether a cancellation is written `STATUS:CANCELLED` for a while or dropped at once.
-- **Provider for the first adapter**: a query in this run's report.
+- **Provider for the first adapter** (closed, NAME-AND-PROVIDER): Google first through `mcp-gsuite`; see rollout step 4.
 
 ## Rollout plan
 
@@ -194,7 +195,7 @@ The order is ADOPTION-ORDER (DESIGN-REVIEWED). Each receiving repository capture
 | 2 | 5G parity pilot: vendor the core with provenance and a drift check | `5g-emerge-phase3` | Step 1 accepted | At a fixed build clock, feeds are identical apart from `PRODID` through options and the new busy properties; UIDs, feed paths, page anchors, escaping, folding, empty sets and List content unchanged; drift check and publication-boundary test pass in `bun test` |
 | 3a | 5G source merge: generate the programme timeline from the registry | `5g-emerge-phase3` | Step 2 accepted | Each of the eleven timeline files mapped to its registry entry with `seeAlso` and source wording kept, the mapping reviewed before deletion; timeline page anchors unchanged |
 | 3b | legal local timeline: field map, milestone keys, `hearing_date` resolved, view in `legal-command-centre` | `legal-principal` | Step 2 accepted; independent of 3a | A read-only comparison accounts for every current FR Timeline row; the artifact shows the generated view; the Working Note and gantt stay until legal's owner confirms nothing is lost |
-| 4 | Connector work: all-day writes, transparency or `showAs`, calendar selector, update by provider id, a marker for events the tool created | `mcp-gsuite` and/or `mcp-m365` | Provider chosen (query PROVIDER-FIRST); steps 3a and 3b need not wait | Offline connector tests for each new capability; no live call in tests |
+| 4 | Connector work: all-day writes, transparency or `showAs`, calendar selector, update by provider id, a marker for events the tool created | `mcp-gsuite`; `mcp-m365` only if needed | Google first through `mcp-gsuite` (NAME-AND-PROVIDER); at the step's start, revalidate Kris's actual scheduling tool and add Microsoft through `mcp-m365` only if that or the acceptance matrix needs it; steps 3a and 3b need not wait | Offline connector tests for each new capability; no live call in tests |
 | 5 | Adapter proof: sync runner in the skill's `scripts/`, run as an Activity under `ki-repo-kb-activities` | `ki-agentic-harness`, a new record | Step 4 accepted; Kris's explicit grant for remote calls on a test calendar | On a test calendar: dry-run comparison, provider-id mapping, sole ownership of created events, safe removal, content comparison; the acceptance matrix (account type; own, dedicated and subscribed calendar; free, busy, tentative, all-day and timed; display and free/busy result; Kris's actual scheduling tool); private subscription, refresh and revocation verified |
 | 6 | personal set: Kris authors a few dates into frontmatter; a small private set syncs | `personal-principal` | Authoring may start once step 1 fixes the frontmatter shape; sync waits on step 5 and Kris's approval of the set and its disclosure | The set's events match the source; free default and busy items behave as the matrix showed; revocation removes access |
 | 7 | legal sync: private publication of legal's set | `legal-principal` | Steps 5 and 6 passed; Kris's explicit approval of legal's disclosure | As step 6, plus timed items with `duration_minutes` and all-day obligations checked against the artifact view |
@@ -216,7 +217,7 @@ Draft for the coordinator to route to `ki-agentic-harness` through State of play
   >
   > On 19 October Kris settled (QUERIES-AGREED): a per-item `busy`, default free, with firmness separate; one editable source per date, generating both views and feeds; an optional time of day per item and one IANA zone per calendar set, never inventing a time or duration.
   >
-  > On 20 October, under Kris's overnight grant and after two independent design reviews and a blind review, these were taken (Kris may reverse any): one skill owning the dated item, feeds and view data format, rendering left to `ki-repo-website-content` and `ki-repo-kb-live-artifacts`; code in the skill's own `scripts/`, which 5G Emerge vendors with a drift check; spans stay out of feeds in v1, an end that matters being its own milestone; private sets stay unpublished in v1, with account sync a later adapter proved on a test calendar then a few personal dates; a busy timed item needs an explicit end or a positive `duration_minutes`, end after start, inconsistent values rejected, an invalid item staying visible with a diagnostic; adoption by a 5G parity pilot first, then 5G's source merge and legal-principal's local timeline independently, then the adapter proof, a small personal set, and legal sync last.
+  > On 20 October, under Kris's overnight grant and after two independent design reviews and a blind review, these were taken (Kris may reverse any): one skill owning the dated item, feeds and view data format, rendering left to `ki-repo-website-content` and `ki-repo-kb-live-artifacts`; code in the skill's own `scripts/`, which 5G Emerge vendors with a drift check; spans stay out of feeds in v1, an end that matters being its own milestone; private sets stay unpublished in v1, with account sync a later adapter proved on a test calendar then a few personal dates; a busy timed item needs an explicit end or a positive `duration_minutes`, end after start, inconsistent values rejected, an invalid item staying visible with a diagnostic; adoption by a 5G parity pilot first, then 5G's source merge and legal-principal's local timeline independently, then the adapter proof, a small personal set, and legal sync last. Also under the grant: the skill is named `ki-calendars`, its description separating milestone-centred dated sets and feeds from `Calendar/` period notes and appointment management, a name Kris can still change before anything is built under it; and the first provider adapter is Google through `mcp-gsuite`, with Kris's actual scheduling tool revalidated when the connector step starts and Microsoft added only if that or the acceptance matrix needs it.
 
 - **Goal (unchanged in substance):** a harness skill governs the dated things a knowledge base keeps, its key dates, due dates and milestones, so each base can keep them in one source, show them as a timeline and publish calendar sets people subscribe to, each item stating whether it takes busy time.
 - **Boundary to add:**
@@ -228,6 +229,7 @@ Draft for the coordinator to route to `ki-agentic-harness` through State of play
   - **Sources:** never scan prose; a failed or partial read produces no output; the audit regenerates from the manifest and compares rather than trusting a stamp.
   - **Privacy:** audience (`public`, `private`) is separate from target visibility, which each base declares; a private set never reaches a public target; public outputs carry an allowlist of fields; private items carry a note title and item id, never a path.
   - **Source component:** 5G Emerge phase 3's `apps/site/lib/ics.ts`, `lib/calendars.ts`, `src/_data/calendars.json5` and `tests/calendars.test.ts`; legal-principal's Command Centre Guide, "Dates and calendar semantics" and "Derived-view contract".
-  - **Decisions still needed:** the skill's name, `ki-key-dates` or `ki-calendars`, which Kris holds; where a base's manifest lives; whether an invalid timed busy item is left out of feeds while it shows in views.
-- **Dependencies / blocks to add:** none inbound; the skill builds on the 5G Emerge component as it stands. Later work in other repositories builds on it: 5G Emerge's vendored pilot and source merge, legal-principal's local timeline and later sync, personal-principal's authored dates and private set, and calendar-writing capabilities in `mcp-gsuite` or `mcp-m365`. A separate harness record will be needed for the sync adapter once connector work lands.
+  - **Name:** `ki-calendars`, with the view format `ki-calendars-view/1`; the description excludes `Calendar/` period notes and appointment management.
+  - **Decisions still needed:** where a base's manifest lives; whether an invalid timed busy item is left out of feeds while it shows in views.
+- **Dependencies / blocks to add:** none inbound; the skill builds on the 5G Emerge component as it stands. Later work in other repositories builds on it: 5G Emerge's vendored pilot and source merge, legal-principal's local timeline and later sync, personal-principal's authored dates and private set, and calendar-writing capabilities in `mcp-gsuite` first, with `mcp-m365` only if the step-4 revalidation of Kris's scheduling tool or the acceptance matrix needs it. A separate harness record will be needed for the sync adapter once connector work lands.
 - **Verify, for planning:** every check's fixture passes offline, including times, clock changes, milestone-key aliases, spans, busy rules, privacy refusal and failed reads.
