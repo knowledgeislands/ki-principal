@@ -422,3 +422,7 @@ banner-on-state pushed harness `6baab0b0` from a worktree: BANNER-ON-STATE in th
 ## 2026-10-19 22:42 BST - hold, more expected
 
 BANNER-ON-STATE landed; the hold resumes. Mark struck at 22:42 BST; nothing running, no open queries, nothing parked; pointers already with State of play.
+
+## 2026-10-19 22:49 BST - mark
+
+Kris: "mark". Mark struck at 22:49 BST while on hold; nothing new to strike or prune.
