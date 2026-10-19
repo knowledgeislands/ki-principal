@@ -12,9 +12,9 @@ author: Written with Claude
 
 ## Overview
 
-The Work Process is how coordinated work moves through a territory: who holds it, how it passes between parties, where its state is kept and how it is shown. It is the one canonical description of the model that [[GDR-KI-PRINCIPAL-009-the-work-model|GDR-KI-PRINCIPAL-009]] decides. The harness standards and skills that govern coordination, delegation, the work file, forward work, Activities and recurring work cite this note rather than restate it.
+The Work Process is how coordinated work moves through a territory: who holds it, how it passes between parties, how new work reaches it, where its state is kept and how it is shown. It is the one canonical description of the model that [[GDR-KI-PRINCIPAL-009-the-work-model|GDR-KI-PRINCIPAL-009]] decides. The harness standards and skills that govern coordination, delegation, the work package, forward work, Activities and recurring work cite this note rather than restate it.
 
-The unit is work, in Kris's words "the unit is work, not a conversation". A piece of work carries four things: what is being worked on, its current state in one small work file, its own decisions, and where it lies. A chat session is only the channel through which a party works on it. The work outlives every session and is committed at every send.
+The unit is work, in Kris's words "the unit is work, not a conversation". A piece of work is packaged as a skill is: a short definition saying what it is, what its goals are and what it takes, read first, and detail files, its state, its queries, its incoming messages and its own decisions, read only when needed. A chat session is only the channel through which a party works on it. The work outlives every session and is committed at every send.
 
 ![The work model on one page](work-model.svg)
 
@@ -40,7 +40,7 @@ Work lies at three levels. Kris named the two forms at the middle one: "regular 
 
 | Level | Id | What it does | Ends |
 | --- | --- | --- | --- |
-| Territory work | `ki` | The state of play: coordinates the coordinators, executes nothing | Never |
+| Territory work | `ki` | The state of play: coordinates the coordinators, routes new work and stewards the method, executes nothing | Never |
 | Regular work | `ki.regular` | The territory's recurring work, defined in the Capital's Activity notes; self-coordinating; creates work items in any repository; holds ad hoc work as `ki.regular.<slug>` | Never; rests On hold, more expected, between occurrences |
 | Project work | `ki.<project>` | Coordinates one Project's work items and runs, and briefs runs | Finished when the Project closes |
 | Work item | the record's id | One record in any repository, executed by a run or a person | `done` or `cancelled` |
@@ -55,7 +55,7 @@ Work lies at three levels. Kris named the two forms at the middle one: "regular 
 - regular work and Project work each send work items down to any repository, and Project work also briefs runs and hands work to other work;
 - only work items, done by runs or people, execute.
 
-Attention comes back up: each level reads the work files beneath it and rolls up the five views.
+Attention comes back up: each level reads the work packages beneath it and rolls up the five views.
 
 ---
 
@@ -96,7 +96,7 @@ Only the supervisor's receive and the hold are set; every other state is derived
 - **paused**: the work waits while other work goes on, with a named release condition, such as "after the harness migration" or "when Kris says resume";
 - **more expected**: the work is done for now, and new work arriving releases it. Regular work rests here between occurrences, and a Project may rest here between waves.
 
-A hold is agreed only from With supervisor: the supervisor says `pause` or `done for now`, and a worker may propose one in its send. The worker then **drains**, letting a run that will finish within about 15 minutes finish, stopping any other at a safe point with where it stopped recorded, and launching nothing new; a drain that cannot finish leaves the work With worker, blocked. The move into On hold is a mark: every repository the work touched is committed and pushed fast-forward, each open query is parked in the work file with its tag, one line of context and its recommended option, the front matter records `state: on-hold`, the reason, the release and since, decisions are struck and the working area tidied. `resume`, or the release condition being met, or new work arriving for more expected, moves it to Handoff to worker; `finish` moves it to Finished.
+A hold is agreed only from With supervisor: the supervisor says `pause` or `done for now`, and a worker may propose one in its send. The worker then **drains**, letting a run that will finish within about 15 minutes finish, stopping any other at a safe point with where it stopped recorded, and launching nothing new; a drain that cannot finish leaves the work With worker, blocked. The move into On hold is a mark: every repository the work touched is committed and pushed fast-forward, each open query is parked in the queries file with its tag, one line of context and its recommended option, the state file records `state: on-hold`, the reason, the release and since, decisions are struck and the working area tidied. `resume`, or the release condition being met, or new work arriving for more expected, moves it to Handoff to worker; `finish` moves it to Finished.
 
 **Stuck and the heartbeat.** A heartbeat runs only while work lies with a worker: an update on change, at least every 5 minutes and always by 10. A worker's item that has neither moved nor beaten for 10 minutes is stuck; nobody sets stuck. Work with the supervisor is never stuck, only older, so with you is listed oldest first. On hold has no heartbeat, and a paused hold older than 31 days is flagged.
 
@@ -123,9 +123,16 @@ Done for now exists only at the work level: a record is finite, and more work is
 | work | the unit: territory work, regular work, Project work or a work item |
 | work item | one record, executed by a run or a person; "task" is fine in speech |
 | theme | a label on work, with its own page; holds no work |
-| work file | `work.md`: the current state, next steps, Messages and parked query tags |
+| work package | one piece of work above a work item, packaged as a skill is: five files, the definition read first and the rest when needed; not the project-management sense, the lowest deliverable of a breakdown, which here is the work item |
+| work folder | `+/_WORK/<id>/`, the place a work package lives |
+| work file | `work.md`: the definition, what the work is, its goals and its scope, with the routing description in its front matter |
+| state file | `state.md`: where the work lies, its state fields, now, next steps and held work |
+| queries | `queries.md`: every open and parked query in full |
+| messages | `messages.md`: the work's inbox, one line per message, taken as a queue in priority order |
 | logbook | the Git history of a work folder |
 | decisions | `decisions.md`: Kris's decisions about this work not yet durable elsewhere |
+| route | State of play's placing of a new unit of work in one work's messages |
+| refresh | a line telling a work that the method it last read has changed |
 | worker, supervisor | the two roles of one handoff |
 | holder | the party the work lies with now, derived |
 | handoff | in transit to a named target |
@@ -148,11 +155,23 @@ The words are agreed to be proven in use, in Kris's words "We probably just need
 
 ## Homes
 
-**The work folder.** Each piece of work above a work item has one flat folder in the working area, `+/_WORK/<id>/`, named by its dotted id. A work item has no folder: its record is its home. Runs keep hyphenated slugs.
+**The work package and its folder.** Each piece of work above a work item is a work package, and it lives in one flat folder in the working area, `+/_WORK/<id>/`, the work folder, named by its dotted id. A work item has no package: its record is its home. Runs keep hyphenated slugs. Kris named it: "work should have a package idea and it should be clear about what its goals are and maybe a description to help things route it, so we've got that kind of progressive reveal capability".
 
-**The work file.** `work.md` is the minimal current state. Its front matter carries the fields the observatory reads, below; its body holds next steps, Messages (the directions sent down to it) and the tags of parked queries, each linked to the report that holds it. Nothing else: there is no moves list, because each move is a commit.
+A work package has exactly five files, all created with it, so that a reader never meets a missing file and another work can queue a message from the start. Run reports, open briefs and design papers sit beside them.
 
-**Canonical and working.** `Streams/` holds only definitions and records: Project notes flat in `Streams/Projects/` with a `theme:` key, theme pages in `Streams/Themes/`, and work items in `Streams/Roadmap/`. Everything that churns, the work file, decisions, reports, briefs and design papers, stays in the work folder. Links point upward: the work file names its Project; the Project note does not link down. Briefs sit in `briefs/<run>.md` while their handoff is open. The run state folder, `~/.local/state/ki/agents/<slug>/`, holds only runtime state.
+| File | Holds | Read |
+| --- | --- | --- |
+| `work.md`, the work file | the definition: identity, supervision and a routing `description` in front matter, saying in a few sentences what the work does, what it takes and which neighbouring works it is not for; a body of Goals, linking upward to the Project note's outcome, the Activity note or the Charter, and Scope, naming what is in and what belongs to which other work | first, by routing and by any new session; changed rarely |
+| `state.md`, the state file | where the work lies: the state fields the Observatory reads, below, and the method revision the worker last read, in front matter; a body of Now, Next steps and Held work with its release, with territory work's ordered queue | by the worker at pick-up and at each move |
+| `queries.md` | every open and parked query in full, with its Context, Query and Options; the owner report's Queries are rendered from it | by the worker at pick-up |
+| `messages.md` | the inbox: one dated line per message from other work or State of play | by the worker at each wake |
+| `decisions.md` | Kris's decisions about this work not yet durable elsewhere | by the worker at pick-up |
+
+Nothing in the package is a log. History stays in Git and the run reports: there is no moves list, because each move is a commit, and evidence such as commit identifiers and test counts lives in the report and the commit, not in the state file. Splitting definition from state splits the logbook usefully: `git log -- work.md` is the history of what the work is, and `git log -- state.md` the history of its moves. `ki-work-package` owns the exact form of each file, their front matter and their limits.
+
+**The inbox is a queue.** A work's incoming messages are taken in priority order, and the worker may group similar items so that like work is done together. A line added at the top and marked important must be taken first, in that order; that is how State of play changes the way a work works. Other work and State of play write into a package only by adding a line to its `messages.md`, or replacing their own line not yet acted on.
+
+**Canonical and working.** `Streams/` holds only definitions and records: Project notes flat in `Streams/Projects/` with a `theme:` key, theme pages in `Streams/Themes/`, and work items in `Streams/Roadmap/`. Everything that churns, the work package, reports, briefs and design papers, stays in the work folder. Links point upward: the work file names its Project; the Project note does not link down. Briefs sit in `briefs/<run>.md` while their handoff is open. The run state folder, `~/.local/state/ki/agents/<slug>/`, holds only runtime state.
 
 ```text
 Streams/
@@ -169,17 +188,16 @@ Streams/
 │   └── ...
 └── Roadmap/                               work item records
 +/
-├── _WORK/                                 one flat folder per live piece of work
-│   ├── ki/                                territory work
-│   │   ├── work.md
-│   │   └── decisions.md
-│   ├── ki.regular/                        regular work
-│   │   ├── work.md
-│   │   └── decisions.md
+├── _WORK/                                 one flat folder per live work package
+│   ├── ki/                                territory work, the same five files
+│   ├── ki.regular/                        regular work, the same five files
 │   ├── ki.ways-of-working/                Project work
-│   │   ├── work.md
+│   │   ├── work.md                        definition: description, Goals, Scope
+│   │   ├── state.md                       state fields, Now, Next steps, Held
+│   │   ├── queries.md                     open and parked queries in full
+│   │   ├── messages.md                    inbox, a queue in priority order
 │   │   ├── decisions.md
-│   │   ├── <run>.report.md                open reports only
+│   │   ├── <run>.report.md                until its outcome is homed
 │   │   ├── briefs/<run>.md                while its handoff is open
 │   │   └── design/                        design papers
 │   └── ...
@@ -190,6 +208,22 @@ Streams/
 **Git is the logbook.** `git log -- +/_WORK/<id>/` is the history. Only sends and the supervisor's receives commit, each subject carrying the move: `docs(work): ki.ways-of-working send to owner`, `docs(work): ki.ways-of-working receive by owner`, `docs(work): ki.ways-of-working hold, paused`. An agent's receive is committed with whatever it next sends.
 
 **Shared history is never rewritten.** A rewrite breaks every clone and every revision link and needs a force-push. Instead, the working area is pruned at every mark, a finished work folder is deleted at the mark that closes it with Git keeping it, and a separate working repository is considered only if clone size or `git log` speed measurably hurts.
+
+---
+
+## Routing and stewardship
+
+**State of play routes.** Territory work, State of play, is the single dispatch coordinator. Every new unit of work without a clear owner comes to it: an owner dump, a handoff with no owning work, a cross-work item whose owner is unclear, and every method improvement, whether Kris pastes it there or another work sends it as a line in State of play's messages. A unit that already has an owner goes direct: a work's own follow-ups, an item in a record that names its work, and a reply to a message never pass through the hub.
+
+State of play matches the unit against each work's description and, where two match, their Scope, chooses one work and adds one dated route line to that work's `messages.md`. It keeps no copy of the register, which `ki work status` derives from the work packages. Where nothing matches, it proposes to Kris either a new piece of work or a record captured through `ki-next`.
+
+**A routed work cannot reject.** In Kris's words, "once it's given it, it has to do something with it, it can't reject it, it can then say it wants it to be given to someone else ... we have to be careful about things just [bouncing] in between things". The receiving worker acts on each line at its next wake and does what it can with it: what its existing authority covers goes into its next steps, and what needs Kris's authority, capacity or a change of scope becomes a query. It gives back to State of play only the part it judges is not its own, with a reason. A unit is returned once; if State of play cannot place it elsewhere, it goes to Kris as a query rather than round again. Routing confers no authority to execute: owning a unit means owning what is done with it.
+
+**Held work keeps its hold.** A line routed to work On hold, paused, waits in its messages without waking it, and State of play shows the count. Work On hold, more expected, is released by the new work arriving, under the usual release.
+
+**State of play stewards the method.** Every work tries to improve continually, and State of play coordinates it: it watches for improvements, and every work sends a proposed improvement to the method as a line in State of play's messages. State of play dispatches each improvement as small regular work or into the Project it most affects; a significant change revives the Ways of working Project, or a more targeted Project under the Model theme. While the method is being defined, Ways of working writes refresh lines straight into the live works' messages; afterwards State of play sends them.
+
+**Refresh is targeted.** Each state file records the method revision its worker last read. After an approved method change lands, the sender adds one dated refresh line only to the works the change affects whose recorded revision predates it, linking the standard at its revision and stating the practical effect in a sentence. A sender may replace its own refresh line not yet acted on, keeping every pending effect, so changes coalesce. The receiver rereads the method at its next safe point, before launching further work, and records the new revision; that record is the confirmation, and no acknowledgement is sent. Held work is not woken; the line waits.
 
 ---
 
@@ -234,11 +268,11 @@ The other headings follow the same form: `👤 With supervisor`, `🤖 → 👤 
 
 ## Observatory fields
 
-The Observatory reads work state only through the `ki` command surface: `ki work status --format json`, schema `ki/work-status/v1`, one entry per work file in each selected territory. Paths are repository-relative.
+The Observatory reads work state only through the `ki` command surface: `ki work status --format json`, schema `ki/work-status/v1`, one entry per work package in each selected territory. It reads the state fields from `state.md`, and from `work.md` in a folder not yet migrated to the package, so its output is the same for both. Paths are repository-relative.
 
 | Field | Meaning |
 | --- | --- |
-| `identity` | the registered repository holding the work file |
+| `identity` | the registered repository holding the work package |
 | `id` | the dotted work id, such as `ki.ways-of-working` |
 | `level` | `territory`, `regular` or `project` |
 | `title` | the display title |
@@ -253,7 +287,7 @@ The Observatory reads work state only through the `ki` command surface: `ki work
 | `since` | UTC time of the last move |
 | `received` | UTC time of the supervisor's receive, or null |
 | `beat` | UTC time of the last heartbeat while with a worker, or null |
-| `path` | the repository-relative path of `work.md` |
+| `path` | the repository-relative path of the file holding the state fields, `state.md`, or `work.md` before migration |
 | `items` | each item below it: `id`, `kind`, `holder`, `role`, `state`, `target`, `blocking`, `since` |
 
 The five views are derived by stated rules: **with you** is every work or item whose holder is `owner`, oldest `since` first; **stuck** is a worker-held item whose later of `since` and `beat` is more than 10 minutes old; **blocked** is `blocking` true or the roadmap's own blocked signal; **on hold** is `state` `on-hold`, a paused hold flagged after 31 days; **moving** is the rest. Work items are read through the Observatory's existing roadmap read and need no new field.
