@@ -67,3 +67,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 120 (2026-10-19T21:48:17Z)
 
 - Pointer: Kris on 19 October, 22:47 BST, the same answer. SOL-APPLY a): run the whole [sol-apply](/Users/krisbrown/.local/state/ki/agents/chezmoi/sol-apply.md) sequence at Sol's console with the undo rehearsal included and NordVPN off. This includes the S1 `chezmoi apply` of `55-ports.toml`.
+
+## Decision 121 (2026-10-19T22:05:15Z)
+
+- Pointer: SOL-APPLY a) carried out with Kris at Sol's console, 22:50–23:06 BST. All blocks passed. The S3 gate check was corrected from "anchor listed" to "anchor holds entries" within the same authority. Evidence goes to KI-TOOL-RIG-CORE-047 through sol-firewall-record.
