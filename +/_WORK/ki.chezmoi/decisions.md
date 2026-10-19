@@ -27,3 +27,9 @@ Terra is migrated and verified on KI v0.11.4. Both paths and active harnesses ar
 Check Sol’s KI version, record doctor/diag and existing paths, then run ki bootstrap. Verify identical paths in host-local locals.toml, unchanged configuration and active harnesses, and healthy diagnostics. Check development switches using isolated test state.
 
 Stop on unexpected differences. Once Sol passes, prepare removal of [locals] from the shared chezmoi source, show Kris the diff, and wait for explicit apply approval. Commit by explicit path; never push.
+
+## Decision 100 (2026-10-19T18:13:48Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- BURNDOWN-PUSH, Kris's agreement routed from KI > Model > Ways of working on 19 October: "prune every record that is done under `ki-work-roadmap`; bring every record awaiting review to Kris as one acceptance batch; and cancel or merge triage records, aiming for at least half, each with a one-line reason, for Kris to confirm before anything is cancelled." Run burndown-push found nothing to prune or accept; TRIAGE-CUT carries the proposals.

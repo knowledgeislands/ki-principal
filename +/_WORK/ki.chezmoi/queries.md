@@ -32,6 +32,52 @@ a) (recommended, confidence medium - follows Kris's routed choice; the record ne
 
 b) Keep REST-HOLD as parked until CORE-042 is released.
 
+### MGIT-APPLY - Apply the regenerated mgit completion
+
+since 2026-10-19 · from run mgit-completion ([report](/Users/krisbrown/.local/state/ki/agents/chezmoi/mgit-completion.report.md))
+
+**Context:** The source holds `_mgit` regenerated for mgit 0.17.0, gate green. The live target is unchanged. The diff drops `-f`, adds `overview`, `learn`, `-B/--bypass`, `--learn`, `-j/--jobs`, `-v`, `--json` and `--principals`, and rewords `-P`, `-L` and `-W`. The `_codex`, `_git-almanac`, `_ki` and `_rig` snapshots are also stale.
+
+**Query:** Apply this one target, then verify an empty one-target diff and a new zsh loading `_mgit`?
+
+**Options:**
+
+a) (recommended, confidence high - one tool-generated file, every gate passing) Apply `~/.zsh/completions/_mgit` alone and verify.
+
+b) Regenerate the other stale snapshots first and apply them together.
+
+c) Do not apply.
+
+### TRIAGE-CUT - Cut two of the three triage records
+
+since 2026-10-19 · from run burndown-push ([report](/Users/krisbrown/.local/state/ki/agents/chezmoi/burndown-push.report.md))
+
+**Context:** 20 open records, none Done or awaiting review, so nothing was pruned and the acceptance batch is empty. Of the 3 triage records: [KB-DOTFILES-UE-095](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-095-guide-continuity-check.md) edits the same guide [KB-DOTFILES-UE-090](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-090-close-rig-bring-up-gaps.md) covers; [KB-DOTFILES-UE-096](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-096-thread-identity-hook-registration.md) waits on [KI-HARNESS-GOV-199](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-199-thread-identity-role-native-sessions.md) and [KI-TOOL-KI-CLI-145](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-145-thread-session-bindings-role.md); [KB-DOTFILES-UE-098](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-098-workspaces-git-audit-roots.md) is decided and ready to adopt.
+
+**Query:** Which cuts go ahead?
+
+**Options:**
+
+a) (recommended, confidence medium - the merge is clear-cut; the cancel goes against an earlier capture) Merge UE-095 into UE-090 and cancel UE-096 until GOV-199 Phase 3 lands; keep UE-098. Net 20 to 18.
+
+b) Merge UE-095 only and move UE-096 to Hold. Net 20 to 19.
+
+c) Cut neither.
+
+### CARRY-DIRECTIONS - Deliver the dropped source directions
+
+since 2026-10-19 · from run mark-tidy-1019 ([report](/Users/krisbrown/.local/state/ki/agents/chezmoi/mark-tidy-1019.report.md))
+
+**Context:** Kris authorised these between 15 and 17 October, and none is delivered: SEAT-BIND and SEAT-HOSTS as SEAT-CHANGE amends them (each host's seat role and territories in chezmoi host data); PAPERCLIP-OFF (keep the declaration, neither Mac applies or loads it); TOML-OPENER (`.toml` opens in Zed, not Warp); SSH-CONSOLE (physical-console fallback in the macOS workstation guide). The 19 October apply run dropped them from the work file. The firewall directions ride with RIG-LIVE-DELIVER.
+
+**Query:** Should one source-only run deliver these four, each diff held for review?
+
+**Options:**
+
+a) (recommended, confidence medium - all authorised and none withdrawn, but dormant since 17 October and the seat map has changed) One source-only run after RIG-LIVE-DELIVER, `rig doctor` before and after, no apply.
+
+b) Put each back to Kris before any run.
+
 ## Parked
 
 - **SOURCE-LOCALS-GATE:** Resolved, the worker judges: the source removal of `[locals]` landed in `dot_config/ki/config.toml` at 17:39 BST on 19 October and the test correction followed. Closes with SOURCE-LOCALS-LIVE.
