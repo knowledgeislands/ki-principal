@@ -15,7 +15,7 @@ method_read: 9c17df3c
 - Running: hooksv2 (hooks design for the decided shape, mechanical audit checks, tools-ki `ki git check-message` record); gfmconv queued after it (GitHub-flavoured Markdown converter in tools-ki).
 - Released today: `ki` v0.11.5 at `395060ae` and mgit v0.18.0 at `9a3564d`; KI-TOOL-MGIT-CLI-028 and KI-TOOL-MGIT-CLI-023 accepted.
 - Captured today, local only: KI-TOOL-KI-CLI-160 and the BIOME-CI-STANDARD note on KI-TOOL-KI-CLI-156 (tools-ki, 4 commits); KI-TOOL-RIG-CORE-065 to -067 (tools-rig, 2); KB-DOTFILES-UE-099 (chezmoi, 2); KI-TOOL-MGIT-CLI-030 (tools-mgit, 2). Unpushed until Kris says push.
-- Blocked: ki-principal's commit gate fails on "rubric item LINK-1 audit outcome 0 uses an undeclared level", from another session's uncommitted harness rubric change; my commits wait for it, never `--no-verify`.
+- Unblocked: the ki-principal commit gate passed again at the mark; the LINK-1 rubric error had cleared.
 - With Kris: no open queries; ASK-B parked; the rig.midnight.ninja reply in [rig-site-reply](design/rig-site-reply.md) to pass on.
 - Flagged: another session wrote KI-TOOL-KI-CLI-159 in tools-ki despite OWNER-LANE; it shipped in the v0.11.5 tag.
 
