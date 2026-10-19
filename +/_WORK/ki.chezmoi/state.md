@@ -1,6 +1,6 @@
 ---
 id: ki.chezmoi
-state: handoff-to-supervisor
+state: with-worker
 since: 2026-10-19T23:28:00Z
 received: null
 beat: null
@@ -22,7 +22,7 @@ method_read: f4d6c521
 
 ## Next steps
 
-1. Take Kris's answers to the RAT-* batch, or park it on `pause`.
+1. OVERNIGHT: receive ue100-sol and cmigrate; next, judge KB-DOTFILES-UE-090 round 1 (source-only). The RAT-* batch waits for Kris.
 2. CONSUMER-MIGRATE: mgit v0.18.0 is released; check what migration this work owes.
 3. Sol's chezmoi commits reach Terra only after a push, which is Kris's call.
 

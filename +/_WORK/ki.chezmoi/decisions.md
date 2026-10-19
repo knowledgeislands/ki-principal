@@ -151,3 +151,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 141 (2026-10-19T23:14:56Z)
 
 - Pointer: TRIAGE-LANE a), Kris on 20 October, 00:16 BST: "go ahead". KB-DOTFILES-UE-099 stays at triage until a released Rig supports service subject links (KI-TOOL-RIG-CORE-065), the Paperclip path fix coming forward only if Paperclip is re-enabled first. KB-DOTFILES-UE-100 is adopted for a bounded diagnostic stage, read-only on Sol and attended on Terra, with any mitigation a separate reviewed decision ([triage-review](/Users/krisbrown/.local/state/ki/agents/chezmoi/triage-review.report.md)). Run triage-dispose.
+
+## Decision 142 (2026-10-19T23:30:00Z)
+
+- OVERNIGHT, Kris on 20 October, 00:30 BST: "I'm going to bed now. I want you to keep looking every 10 minutes to see if there's any new work for yourself in some way. And if there is, I want you to progress it. You can do anything on a high confidence level that you recommend. If you can get a good recommendation, you can move on to the next one, and as you do more and work, it might be that when you come back to ones that you couldn't get a good recommendation for, it might be more accurate." Taken as: check messages and runs at least every 10 minutes; launch and take every high-confidence recommendation; keep medium and low ones for Kris and revisit them as evidence grows. No push, no `chezmoi apply` and no attended step on Terra: those still need Kris. The RAT-* rationale batch stays with Kris: only Kris can confirm a personal reason. Runs ue100-sol and cmigrate.
