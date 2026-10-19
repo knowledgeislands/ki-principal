@@ -35,17 +35,5 @@ Kris, 17 October: "Keep -/_DIGESTS/ as the declared scaffold."
 - FOOTER-GRANTS (16 October): separate `--allow fetch` and `--allow machine` grants; [KI-TOOL-KI-CLI-134](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-134-launch-footer-follows-brief.md) carries it.
 - SIZE-PRIORITY (19 October): Kris, "work should have a size and a priority, even if its horizon isn't now or next"; handed to Ways of working through its Messages section, and Kris confirmed the handoff done on 19 October; [ki.ways-of-working](../ki.ways-of-working/work.md) carries it.
 - RIG-SITE-001-POINTER a) (19 October): at Kris's acceptance of KB-MIDNIGHT-RIG-SITE-001, drop the bootstrap-guide pointer as overtaken by `c416154`.
-
-## Answers to the 08:08 Summary (19 October)
-
-Kris, 19 October: "push and as recommended". Read back as taken:
-
-- PP-PUSH: push personal-principal's `ff650150`, `60f03eb0` and `a39a490c` fast-forward now.
-- NEXT-TOOLS-KI a): send the COORD-1 rubric error to ki-agentic-harness as a handoff record now, then work through KI-QUIET (with KI-TOOL-KI-CLI-146 under QUIET-146), events.seen past 21, KI-TOOL-KI-CLI-131 and -136 one at a time, bringing each back to Kris before any acceptance or release.
-
-## Answers to the 08:18 Summary (19 October)
-
-Kris, 19 October: "QUIET-146-DATE - accept now please. TOOLS-KI-WRITER - try to get your changes in, do you know who is doing it, cos really they should hand the work to you". Read back as taken:
-
-- QUIET-146-DATE b): accept KI-TOOL-KI-CLI-146 now, lifting the QUIET-146 hold; KI-HARNESS-GOV-204 is decided on its own.
-- TOOLS-KI-WRITER: OWNER-LANE stands, tools-burndown is the tools-ki writer. Land this work's tools-ki changes without touching the other session's; find who is working KI-TOOL-KI-CLI-153 and ask that work, through its Messages section, to hand KI-TOOL-KI-CLI-153 to tools-burndown.
+- TOOLS-KI-WRITER (19 October): OWNER-LANE stands; the handover of KI-TOOL-KI-CLI-153 is asked in [ki.ways-of-working](../ki.ways-of-working/work.md) Messages.
+- KI-153-ACCEPT a) (19 October), Kris: "accept". Once ways-of-working hands KI-TOOL-KI-CLI-153 over, tools-burndown arranges its independent review and brings it to Kris for acceptance.
