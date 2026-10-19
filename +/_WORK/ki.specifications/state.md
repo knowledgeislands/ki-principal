@@ -13,6 +13,7 @@ method_read: f4d6c521
 
 ## Now
 
+- PROJECT-NAME and ENTRY-NAMES decided; rename (run/specifications) waits on plan, then renames this work to ki.portable-specifications and writes its Project note. After plan reports: review its queries blind, then start its steps within the decided answers.
 - Kris, 23:37 BST: SPEC-HOME, SPEC-VERSION and CONFORMANCE-LEVELS taken as a); PROJECT-NAME and ENTRY-NAMES asked again with the review's view; the plan's steps start when plan reports, within those answers.
 - STOCKTAKE-PLAN (Kris, 23:28 BST): plan (run/specifications) re-verifies the queries and drafts and writes `design/plan.md`; its queries then go to one blind review before Kris gets a fresh Summary. The fresh Summary promised after query-review at 19:44 BST was not sent; it folds into that one.
 - REFRESH acted on: query-review (Codex, high effort) reported at 19:43 BST; it agreed on SPEC-HOME and SPEC-VERSION, now high and reviewed, and disagreed on PROJECT-NAME and ENTRY-NAMES, whose queries show both views. It compared against the local Agent Skills reference, not the live page. Fresh Summary sent at 19:46 BST.

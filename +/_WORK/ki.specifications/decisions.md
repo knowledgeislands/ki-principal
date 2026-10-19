@@ -43,3 +43,9 @@ Read back taken:
 Kris: "Yeah, I think entry name should be uppercase, I think that's a good idea. It seems to be the convention, right?"
 
 Read back taken: ENTRY-NAMES a) - upper-case entry files for all three, `WORK.md`, `KNOWLEDGE.md` and `ACQUIRE.md`, with the house work package renaming `work.md` to `WORK.md`; that rename is ki.ways-of-working's, routed to its `messages.md`.
+
+## 2026-10-19 23:38 BST - owner decision, PROJECT-NAME
+
+Kris: "Go with recommendations."
+
+Read back taken: PROJECT-NAME a) - keep the paused `specifications` Project untouched; this Project becomes `portable-specifications`, titled "Portable specifications" under Model, its work `ki.portable-specifications` (KI > Model > Portable specifications). Authorises: rename, one run chained after plan, that writes and registers the Project note under OPEN-PROJECT's authority, renames this work folder and its id, and repoints links; nothing pushed.
