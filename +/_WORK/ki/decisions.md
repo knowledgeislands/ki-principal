@@ -1095,3 +1095,7 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 ## 2026-10-18 02:24 BST - MS3-DROPPED
 
 - **MS3-DROPPED** (replaces MS3-SPLIT): "Forget about the MS3 stuff. I'm not sure what it was all about. I'm not bothered." Item 2 of Personal's dispatch handover (the held MS3 receipt questions) is dropped. Dispatched `ms3-drop` to tell knowledge acquisition.
+
+## 2026-10-19 11:05 BST - RESUME
+
+- **RESUME:** "Resume KI > SoP from its work file in /Users/krisbrown/workspaces/knowledge-islands/ki-principal under current ki-coordination and ki-delegation since 2026-10-15T15:14:39Z: re-read the work file and decisions, take stock, put the parked queries back, restart authorised work, then banner." Taken on sol. The `state-of-play` run is rehomed to `+/_WORK/ki` (THREADS-REGRESSION). Dispatched `sop-restock` to act on the Messages section, prune the work folder and restock the parked queries.

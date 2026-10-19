@@ -5,12 +5,10 @@ title: 'KI > SoP'
 theme: null
 worker: agent
 supervisor: owner
-state: on-hold
-hold:
-  reason: paused
-  release: after the work migration lands
-since: 2026-10-18T03:30:38Z
-received: null
+state: with-worker
+hold: null
+since: 2026-10-19T10:04:55Z
+received: 2026-10-19T10:04:55Z
 beat: null
 mark: 2026-10-15T15:14:39Z
 created_at: 2026-10-06T21:07:00Z
