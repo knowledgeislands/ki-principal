@@ -287,3 +287,9 @@ Read back taken: territory work (State of play) raises every item held in its te
 ## 2026-10-19 18:41 BST - received harness-link-fix; CI-RED-FILES10 taken under "can you sort that please"
 
 harness-link-fix repointed the one absolute link (`ec30caaf`, on origin; 1286 tests pass). Harness CI stays red on FILES-10: `[skills.ki-acquire]` (from `8bc9d49d`) sits after `[skills.ki-trades]` in `.ki.toml`. Kris's "can you sort that please" was to get CI green, so the run's recommended a), a one-table reorder, is taken under it rather than asked again: harness-files10, chained after review-surface in the same checkout.
+
+## 2026-10-19 18:45 BST - owner decision, ALIGN-NO-GATE
+
+Kris, on waiting for the Terra and Sol reports: "can't we just keep foing?"
+
+Read back taken: yes. TERRA-ALIGN and SOL-ALIGN no longer gate the rollout. Kris resumes other threads now; each machine's session handles its own findings, and anything it surfaces comes here only if it needs this work.
