@@ -14,7 +14,8 @@ method_read: 2026-10-19T18:03:40Z
 
 - Kris, 23:59 BST: "Anything high confidence can be done." Eight queries answered a); REGISTER-HNR (medium) stays with Kris.
 - Routed: CHECKER-GAPS to ki.ways-of-working and ki.tools-burndown, TERRITORY-TECHMEDIX to ki.tools-burndown, one `messages.md` line each.
-- Running in run `baseline-rollout`: `raise-hnr`, `va-plan`, `ki-brew`; queued: `raise-tmx` (after ki-brew), `raise-va` (after va-plan), `raise-capitals` (after raise-tmx), `sizekind-1` (after raise-hnr), `sizekind-2` (after raise-va). Records are captured as triage and committed locally, never pushed.
+- `ki-brew` received 00:01 BST: Homebrew `ki` upgraded 0.11.4 to 0.11.5; v0.12.0 (hooks migration) prepared in tools-ki but not yet tagged or in the tap.
+- Running in run `baseline-rollout`: `raise-hnr`, `va-plan`, `raise-tmx`; queued: `raise-va` (after va-plan), `raise-capitals` (after raise-tmx), `sizekind-1` (after raise-hnr), `sizekind-2` (after raise-va). Records are captured as triage and committed locally, never pushed.
 - HOOKS-MIGRATION: the estate moves from Husky to `.githooks` tonight; briefs keep off `package.json`, `bun.lock`, `.husky/`, `.githooks/` and non-dry-run conform.
 
 ## Next steps
@@ -25,6 +26,7 @@ method_read: 2026-10-19T18:03:40Z
 
 ## Held
 
+- KI-BREW rerun (`brief-ki-brew.md` kept): relaunch `ki-brew` with `--relaunch` once tools-ki tags v0.12.0 and the tap is bumped.
 - LEDGER-FORM for apps-kris.me.uk, apps-dafacts.org, er-agentic-harness and apps-markhowarth.com: `--dry-run`-checked conform, one repository at a time on Kris's go, once ki.tools-burndown clears conform after tonight's release.
 - SIZE-KIND write passes, after Kris confirms each repository's proposals.
 - Registration and every write in another territory's repositories, until Kris's go, repository by repository.
