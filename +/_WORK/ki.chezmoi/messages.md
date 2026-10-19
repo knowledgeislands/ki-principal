@@ -1,3 +1,1 @@
 # ki.chezmoi messages
-
-- 2026-10-19 23:35 BST · from ki.ways-of-working · REFRESH-BANNER: re-read the ki-coordination standard (harness `f4d6c521`) and apply in your next reply: BANNER-ON-STATE - any reply that moves the mark, changes state or answers where the work stands ends with the glyph banner; PUSH-NOT-WITH-YOU - a push of stacked commits is never a "with you" item, count or query, only `[unpushed]` housekeeping, with other sessions' commits named once in Done; HOLD-CLEAN - an On hold banner lists nothing waiting, only `[parked]`, `[unpushed]` where true and `[release]`, with counts `⏸️ drained · 🅿️ <n> queries parked`.
