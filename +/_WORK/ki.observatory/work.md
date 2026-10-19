@@ -33,6 +33,7 @@ created_at: 2026-10-13T23:50:00Z
 - obs-design-plan done: 18 records KI-OBSERVA-APP-042 to KI-OBSERVA-VIS-040 (`fbd1fbf`, `87fab2c`, pushed); nothing built. Report at the run state path `~/.local/state/ki/agents/observatory/obs-design-plan.report.md`.
 - Sent to Kris 21:12 BST. Open with Kris: OBS-REVIEWS (now with KI-OBSERVA-BRG-002), EXT-MODEL, EXT-ROOTS, DIAGRAM-STANDARD (ki-diagramming location asked), DESIGN-READY, DESIGN-WORK-GLYPHS, DESIGN-RELAY, ROADMAP-VIS-022, and the twelve spec §11 queries: DESIGN-RESTRUCTURE, DESIGN-WORK, DESIGN-AUTOMATION, DESIGN-ACT-NAME, DESIGN-ACT-MARK, DESIGN-STALE, DESIGN-SWITCH, DESIGN-CAPITAL, DESIGN-POSITIONS, DESIGN-WORKERS-CHIP, DESIGN-LIBRARY-SEARCH, DESIGN-NARROW, DESIGN-TAILNET-BRIDGE.
 - Received 19 October: EXT-MODEL, EXT-ROOTS, DIAGRAM-STANDARD, MEDIUM-UP. Running obs-tokens (KI-OBSERVA-APP-042), obs-roots, obs-diagrams; obs-answers waits on obs-tokens. Open with Kris: OBS-REVIEWS; low ones DESIGN-WORK, DESIGN-STALE, DESIGN-WORKERS-CHIP.
+- obs-roots done: KB-PRINCIPAL-044 in personal-principal (unpushed, another session's `cd5804d0` stacked: PUSH-PERSONAL) and KI-MCP-GIT-FND-006 in mcp-git-audit (pushed); asks ROOTS-DOTFILES. obs-diagrams done (read-only): `ki-diagrams` in the harness, Archify adopted, D2 for code maps; asks DIAGRAM-STANDARD, DIAGRAM-MIGRATION, DIAGRAM-NAME. Reports at the run state path.
 
 ## Messages
 
