@@ -1,5 +1,6 @@
 ---
 note_type: pillars/index
+updated: 2026-10-19T07:00:00Z
 tags:
   - card/note
   - topic/aesthetics
@@ -26,6 +27,12 @@ The visual language is grounded in the same metaphors that underpin the model it
 ## Symbol Library
 
 [[Symbol Library/Symbol Library|Symbol Library]] documents the canonical set of visual symbols used across Knowledge Islands outputs. Each symbol carries a defined conceptual meaning - Island, Archipelago, Port, Lighthouse, and so on - and is provided as a reference tile and as standalone illustration artwork. The library ensures symbolic consistency across diagrams, presentations, and interfaces.
+
+---
+
+## Lore Sheet
+
+[[Lore Sheet/Lore Sheet|Lore Sheet]] names the eight motifs that give Knowledge Islands its world - the Great Library, the Capital, the Port and its customs house, the Mill, the tides, the Known Lands and their fog, the compass and the Ruins - and rules out creatures, magic and crystals.
 
 ---
 

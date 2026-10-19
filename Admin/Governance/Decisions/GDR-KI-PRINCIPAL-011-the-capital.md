@@ -3,7 +3,7 @@ note_type: admin/governance/decision
 id: GDR-KI-PRINCIPAL-011
 title: 'The Capital'
 date: 2026-10-18
-updated: 2026-10-18
+updated: 2026-10-19
 status: current
 decision_type_url: https://knowledgeislands.info/specifications/decision-records/gdr
 decision_type: governance
@@ -29,7 +29,7 @@ On 2026-10-18 Kris decided: "I think it's capital... Let's stay with something w
 
 **The Capital is drawn civic and welcoming: a square, never a fortress.** Each tile set draws it in its own way - a civic quarter and square in a modern set, a hilltop forum or acropolis in an ancient one.
 
-**The symbol language stays non-combative.** Knowledge Islands draws no citadels, towers, keeps or battlements. "Citadel" is retired as a Knowledge Islands term, and the Tower is dropped.
+**The symbol language stays non-combative.** Knowledge Islands draws no citadels, keeps, battlements or fortified towers. "Citadel" is retired as a Knowledge Islands term, and the Tower is dropped as a symbol. Civic towers - a clock tower, a cloister tower - may stand as architecture, never fortified and never on the Capital. Kris confirmed this on 2026-10-19.
 
 **The Observatory is the mark of the local app.** The Observatory already means insight, and it is the app's name.
 
@@ -40,6 +40,7 @@ On 2026-10-18 Kris decided: "I think it's capital... Let's stay with something w
 - The Symbol Library and Visual Style list the Capital, and the governance row of the terrain language names the Council Hall in the Capital rather than citadels.
 - The Observatory symbol keeps its meaning of insight and analytics and is also the local app's mark.
 - `ki-design` and the KI Website retire their Citadel and Tower wording, draw the Capital as civic, and mark the Capital, the Library and the Council Hall as official.
+- Visual Style states the non-combative principle, including the civic towers it allows.
 - Roadmap records keep their Citadel and Tower wording as a historical record.
 
 ## References

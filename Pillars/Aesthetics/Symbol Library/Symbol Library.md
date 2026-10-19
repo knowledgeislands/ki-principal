@@ -50,7 +50,7 @@ The Port replaced the Harbour, and the Lighthouse and Council Hall took separate
 
 The Causeway replaced the Bridge as the translation layer, and the Mill was added for operational systems, under [[GDR-KI-PRINCIPAL-013-the-causeway-and-the-mill|GDR-KI-PRINCIPAL-013]]. Both are official. The Mill is the drawn form of `Admin/Operations`: a stone house with a waterwheel. "Bridge" now names the local app's Act command, not a symbol.
 
-The Capital was confirmed under [[GDR-KI-PRINCIPAL-011-the-capital|GDR-KI-PRINCIPAL-011]]. It holds the Library and the Council Hall and is drawn civic, a square and never a fortress; the symbol language stays non-combative, with no citadels, towers, keeps or battlements. The Observatory is also the mark of the local app.
+The Capital was confirmed under [[GDR-KI-PRINCIPAL-011-the-capital|GDR-KI-PRINCIPAL-011]]. It holds the Library and the Council Hall and is drawn civic, a square and never a fortress; the symbol language stays non-combative, with no citadels, keeps, battlements or fortified towers. Civic towers - a clock tower, a cloister tower - may stand as architecture, never fortified and never on the Capital. The Observatory is also the mark of the local app.
 
 ### Port modes
 

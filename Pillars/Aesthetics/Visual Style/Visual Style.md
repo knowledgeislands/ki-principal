@@ -64,6 +64,8 @@ The world should feel explorable, interconnected, breathable, calm, and layered 
 
 **Avoid:** disconnected floating UI panels, abstract technical voids, sterile grid-only environments.
 
+**Non-combative.** The world draws no citadels, keeps, battlements or fortified towers ([[GDR-KI-PRINCIPAL-011-the-capital|GDR-KI-PRINCIPAL-011]]). Civic towers - a clock tower, a cloister tower - may stand as architecture, never fortified and never on the Capital. The motifs it may draw on are named in the [[Lore Sheet/Lore Sheet|Lore Sheet]].
+
 ---
 
 ## Knowledge Fabric
