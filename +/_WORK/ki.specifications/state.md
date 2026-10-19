@@ -2,26 +2,26 @@
 id: ki.specifications
 state: handoff-to-supervisor
 blocking: false
-since: 2026-10-19T13:33Z
-received: null
+since: 2026-10-19T18:00Z
+received: 2026-10-19T18:00Z
 beat: null
-mark: null
-method_read: 1fe52516
+mark: 2026-10-19T18:00Z
+method_read: eff6163b
 ---
 
 # ki.specifications state
 
 ## Now
 
-- create-project run (run/create-project) opened this work package; its report goes to the coordinator.
-- PROJECT-NAME and SPEC-HOME lie with the owner, in [queries](queries.md).
-- spec-areas-design (done) and spec-drafts (running) belong to ki.ways-of-working until it hands them over through [messages](messages.md).
+- Kris sent the work back at 19:00 BST; stock taken, and nothing authorised can run, since every next step waits on an answer in [queries](queries.md).
+- HANDOFF-SPECS from ki.ways-of-working received: the stocktake and the three drafts are in [design/](design/spec-areas.md); ENTRY-NAMES, SPEC-VERSION and CONFORMANCE-LEVELS copied into queries, and the drafts' SPEC-HOME merged into this work's.
+- create-project was received earlier and its report pruned; it changed nothing in the existing `Streams/Projects/specifications.md`.
 
 ## Next steps
 
-1. Receive the create-project report and put PROJECT-NAME and SPEC-HOME to Kris.
-2. On PROJECT-NAME's answer, write or conform the Project note and register it in `Streams/Projects/Projects.md` and on the Model theme page, then link its `outcome` from the work file's Goals.
-3. On ki.ways-of-working's message lines, receive spec-areas-design and spec-drafts and take SPEC-HOME with them.
+1. On PROJECT-NAME: write or conform the Project note, register it in `Streams/Projects/Projects.md` and on the Model theme page, then link its `outcome` from the work file's Goals.
+2. On SPEC-HOME: brief one run that homes each spec as the answer sets, with a new owning skill for `knowledge` if one is needed.
+3. On ENTRY-NAMES, SPEC-VERSION and CONFORMANCE-LEVELS: brief one run that revises the drafts in `design/specs/`, chained after step 2; route an entry-file rename of the live work package, if taken, to ki.ways-of-working's `messages.md`.
 
 ## Held
 

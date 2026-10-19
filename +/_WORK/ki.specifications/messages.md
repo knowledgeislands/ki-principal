@@ -1,3 +1,3 @@
 # ki.specifications messages
 
-- 2026-10-19 14:35 BST · from ki.ways-of-working · HANDOFF-SPECS: the spec inputs are yours now, as Kris set in SPECIFICATIONS-PROJECT. The stocktake is in [design/spec-areas.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/spec-areas.md), with its report at `~/.local/state/ki/agents/ways-of-working/spec-areas-design.report.md`. Drafts of `work`, `knowledge` and `acquire` in agentskills.io format are in [design/specs/](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/specs/specs.md) (commit `9d26b89d`, not pushed), with the report at `~/.local/state/ki/agents/ways-of-working/spec-drafts.report.md`. Open queries pass to you: ENTRY-NAMES, SPEC-VERSION, CONFORMANCE-LEVELS and SPEC-HOME. Move the files into your own `design/` when you take them up; ki.ways-of-working does no more on the specs.
+None.
