@@ -84,3 +84,12 @@ Kris, 19 October: "As recommended with the following: RIG-SITE-001-SHAPE - fix n
 - CANDIDATE-FIELD a): remove `candidate: true` from the six personal-principal records in one commit, then push.
 - RIG-SITE-001-SHAPE b): fix KB-MIDNIGHT-RIG-SITE-001 now: add `kind`, set `baseline_ref` to the commit before the 15 October delivery, reshape the body to the current sections, then push.
 - LGL-PRIORITY: neither option; Kris's view is that every work item carries a size and a priority whatever its horizon. A quick read-only look establishes what ki-work-roadmap says and why, and drafts a handoff to Ways of working, which owns the work model; whether to restore the legal priorities follows from that.
+
+## Answers to the 07:56 Summary (19 October)
+
+Kris, 19 October: "as recommended". Read back as taken:
+
+- SIZE-PRIORITY a): the SIZE-PRIORITY line, with the look's findings written in, goes to Ways of working's Messages section; Ways of working settles the vocabulary and records the decision.
+- LGL-PRIORITY a): revert legal-principal `b67076fa` and push both commits fast-forward, restoring the five priorities ahead of the standard.
+- PP-PUSH a): Kris looks over personal-principal `ff650150` and `60f03eb0`, then pushes all three; nothing for this work to do.
+- RIG-SITE-001-POINTER a): drop the bootstrap-guide pointer, noting at Kris's acceptance of KB-MIDNIGHT-RIG-SITE-001 that `c416154` overtook it.

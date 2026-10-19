@@ -29,7 +29,7 @@ Sent to Kris at 07:59 BST on 19 October. Every run Kris authorised on 18 and 19 
 
 ## Messages
 
-None.
+- 2026-10-19 08:00 BST · SIZE-PRIORITY · KI > Foundations > Tools burndown: Kris, 19 October: "work should have a size and a priority, even if its horizon isn't now or next", and answered SIZE-PRIORITY a) to hand you the standard change. Findings: no standard defines `priority` or `size`; `horizon` has been the only ordering signal since your PRIORITY-FIELD answer of 15 October (ki-principal `b4a2306`, `c275d26`; ki-agentic-harness `45bbaea6`), and triage, done and cancelled records carry none; tools-ki `src/core/work/items.ts` warns on `priority` as unknown (`6aa676a0`); no size field has ever existed; none of the estate's 367 records carries either, the last five being legal-principal LGL-PRINCIPAL-EVD-001 to -004 and LGL-PRINCIPAL-OPS-018 (high, medium, medium, low, medium), which Tools burndown is restoring by revert; [GDR-KI-PRINCIPAL-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md) is silent on both. Proposed, for you to settle: `priority` (high, medium, low) and `size` (s, m, l, xl) required on every record from capture whatever its horizon, defined for both adapters in the [work-item format](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-work-roadmap/references/standards-work-item-format.md) and the `ki-work` crosswalk, values set by the owning repository; a Governance Decision Record reversing PRIORITY-FIELD; a tools-ki follow-up to stop warning on `priority` and warn, then fail, on a missing field after a migration window.
 
 ## Parked
 
