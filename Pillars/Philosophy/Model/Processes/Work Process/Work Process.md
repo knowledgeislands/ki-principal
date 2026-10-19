@@ -255,10 +255,12 @@ And on hold:
 
 > ### ⏸️ On hold · paused until the harness migration lands · since 00:10 BST
 >
-> ⏸️ drained · 👤 0 with you · 🅿️ 9 queries parked
+> ⏸️ drained · 🅿️ 9 queries parked
 >
-> - [on hold] committed and pushed in ki-principal and ki-agentic-harness · since 00:10
+> - [parked] 9 queries in `queries.md`
 > - [release] after the harness migration lands, or `resume`
+
+An On hold banner lists nothing waiting: no "with you", running or per-repository status item. Its items are only `[parked]`, `[release]` and, where true, `[unpushed]`; what each repository did stays in the hold report's Done. A push of stacked commits is never with Kris, a count or a query: it shows only as `[unpushed]`, the report's Done names other sessions' stacked commits once, and Kris pushes them when ready.
 
 The other headings follow the same form: `👤 With supervisor`, `🤖 → 👤 Handoff to supervisor`, `👤 → 🤖 Handoff to worker`, `→ 🎯 Handoff to <target>`, where the target is other work, a run or a person, `⏸️ On hold · more expected` and `🏁 Finished`. A stuck worker's send reads `🤖 → 👤 Handoff to supervisor · blocked`. The send line appears only when the work is in handoff to Kris, and it and the resume name the checkout their session must be grounded in, the primary checkout of the repository holding the work file; on hold, the hold report gives the resume that lifts it. The hold report keeps its name and its Done, Parked and Left over sections.
 
