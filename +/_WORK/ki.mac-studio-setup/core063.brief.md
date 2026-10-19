@@ -8,10 +8,11 @@ Take [KI-TOOL-RIG-CORE-063](/Users/krisbrown/workspaces/knowledge-islands/tools-
 
 ## Authority
 
-- Owner decision, Kris, 2026-10-19 19:55 BST, on RIG-ORDER: "All three are high confidence to do them", taking option a): plan and deliver KI-TOOL-RIG-CORE-063 in the background now, then plan KI-TOOL-RIG-CORE-062 and KI-TOOL-RIG-CLI-027.
+- Owner decision, Kris, 2026-10-19 23:27 BST, on RIG-ORDER: "All three are high confidence to do them", taking option a): plan and deliver KI-TOOL-RIG-CORE-063 in the background now, then plan KI-TOOL-RIG-CORE-062 and KI-TOOL-RIG-CLI-027.
 - Work only in `/Users/krisbrown/workspaces/knowledge-islands/tools-rig`. Before you start, run `git -C /Users/krisbrown/workspaces/knowledge-islands/tools-rig status`; if another session has uncommitted changes there, do not touch them, and stop and report if they overlap the files you need.
 - Commit only your own completed, verified unit, staged by explicit path under `ki-git`, with Conventional Commit subjects ending in the attribution line `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Never use `--no-verify`.
 - Do not push, release, tag, accept, prune or touch any other repository. No remote operations beyond `git fetch`. Do not change sol's or terra's live configuration: no `chezmoi apply`, `rig apply`, `sudo`, launchd loads or firewall changes.
+- HOOK-GUARD (IMPORTANT, relayed from ki.tools-burndown on 19 October): never run `ki repo conform` without `--dry-run` on any KI repository, since the source-linked `ki` would convert Husky to `.githooks`, rewrite `package.json` and `bun.lock` and delete `.husky/`.
 - If the work needs a decision from Kris, stop at a safe point and raise it as a query.
 
 ## Report

@@ -1,19 +1,19 @@
 ---
 id: ki.mac-studio-setup
 state: with-worker
-since: 2026-10-19T18:57:00Z
-received: 2026-10-19T18:55:00Z
+since: 2026-10-19T22:30:00Z
+received: 2026-10-19T22:27:00Z
 beat: null
 mark: 2026-10-19T18:01:00Z
-method_read: 2026-10-19T18:01:00Z
+method_read: 84b61942
 ---
 
 # ki.mac-studio-setup state
 
 ## Now
 
-- With worker since 19:57 BST on 19 October; marked at 19:01 BST on 19 October.
-- Running, chained in tools-rig: core063 (plan and deliver KI-TOOL-RIG-CORE-063 to Awaiting review), then plan062 (plan KI-TOOL-RIG-CORE-062), then plan027 (plan KI-TOOL-RIG-CLI-027); local commits only, no push.
+- With worker since 23:30 BST on 19 October; marked at 19:01 BST on 19 October.
+- Running, chained in tools-rig: rig-capture (RIG-UNLOAD-LABEL safety check and TOML-HANDLER capture), then core063 (plan and deliver KI-TOOL-RIG-CORE-063 to Awaiting review), then plan062 (plan KI-TOOL-RIG-CORE-062), then plan027 (plan KI-TOOL-RIG-CLI-027); local commits only, no push.
 - With Kris: SOL-FW-TEST, Kris to restate or confirm it.
 - ki-principal push left to the owning sessions (PUSH-STACK a).
 - FIRST-STEP done: `ki-work-package` and all five files re-read, description, Goals and Scope confirmed as drafted, `method_read` set.
@@ -24,7 +24,7 @@ method_read: 2026-10-19T18:01:00Z
 ## Next steps
 
 1. With Kris, ADOBE-RESTART first (deferred, "remind me another day"): restart sol, run [`./adobe-remove.sh`](design/adobe-remove.sh) as a dry run (apps and add-ons none, nothing under What is left), then `ls -d /Applications/Adobe* /Applications/Utilities/Adobe* ~/Pictures/Lightroom/*.lrcat`, which should show only the catalogue.
-2. Receive core063, plan062 and plan027; then Kris accepts the two Awaiting-review records at the next sol session; SOL-FW-TEST when Kris restates it.
+2. Receive rig-capture, core063, plan062 and plan027; then Kris accepts the two Awaiting-review records at the next sol session; SOL-FW-TEST when Kris restates it.
 3. Then put the parked queries in `queries.md` back one at a time, each with a recommendation and its reason.
 
 ## Held
@@ -34,5 +34,6 @@ method_read: 2026-10-19T18:01:00Z
 - Anywhere: the Headroom favicon request ([favicons-headroom.svg](design/favicons-headroom.svg)) - until Kris takes it up.
 - FW-LIVE's reboot check - at terra's next natural restart.
 - ZED-MD - later, at sol.
+- RIG-FULLSCREEN - an idea only (full-screen Rig terminal mode, btop-style panes); no record until Kris asks.
 - FW-LINUX-LIVE - until a Linux host is available.
 - KEYCHAIN-SSH - with ki.chezmoi, to which it was handed (looks resolved; the worker judges).

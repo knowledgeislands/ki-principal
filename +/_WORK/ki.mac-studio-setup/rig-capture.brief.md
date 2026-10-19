@@ -1,0 +1,21 @@
+# rig-capture brief
+
+Run for the work `ki.mac-studio-setup` in Knowledge Islands Principal, handling two lines routed from ki.chezmoi. Do RIG-UNLOAD-LABEL first: it is a safety question.
+
+## Task
+
+1. RIG-UNLOAD-LABEL: `launchctl bootout system/` with an empty label shut macOS down on terra at 21:07 on 19 October. In tools-rig, `rig_launchd_unload` in `src/rig/20-orchestration.bash` runs `bootout "$domain/$label"`. Read every caller and say whether each one guarantees a non-empty label. If any does not, or you cannot prove it, capture a Triage record with `ki-next` for a guard that refuses an empty label, citing the evidence. Read-only beyond that: do not edit the code and never run `launchctl`. Evidence: [firewall-freeze](/Users/krisbrown/.local/state/ki/agents/chezmoi/firewall-freeze.report.md).
+2. TOML-HANDLER: Rig's `macos-handlers` provider (`src/rig/29-default-applications.bash`) cannot set a handler for an extension with no declared content type: `rig apply --target default-application:toml` fails on sol with -50 (`dyn.age81k55rru`). Capture a Triage record with `ki-next` for a dynamic-type fallback. Evidence: [apply-carry](/Users/krisbrown/.local/state/ki/agents/chezmoi/apply-carry.report.md), [toml-review](/Users/krisbrown/.local/state/ki/agents/chezmoi/toml-review.report.md).
+
+## Authority
+
+- The lane carries the tools-rig burndown for Kris (RIG-OWNER, 17 October); capturing an unadopted Triage record with `ki-next` is within it. Do not plan, adopt or implement.
+- Work only in `/Users/krisbrown/workspaces/knowledge-islands/tools-rig`. Before you start, run `git -C /Users/krisbrown/workspaces/knowledge-islands/tools-rig status`; if another session has uncommitted changes there, do not touch them, and stop and report if they overlap the files you need.
+- Commit only your own completed, verified unit, staged by explicit path under `ki-git`, with Conventional Commit subjects ending in the attribution line `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Never use `--no-verify`.
+- Do not push, release, tag, accept, prune or touch any other repository. No remote operations beyond `git fetch`. Do not change sol's or terra's live configuration: no `chezmoi apply`, `rig apply`, `sudo`, launchd loads or firewall changes.
+- HOOK-GUARD (IMPORTANT, relayed from ki.tools-burndown on 19 October): never run `ki repo conform` without `--dry-run` on any KI repository, since the source-linked `ki` would convert Husky to `.githooks`, rewrite `package.json` and `bun.lock` and delete `.husky/`.
+- If the work needs a decision from Kris, stop at a safe point and raise it as a query.
+
+## Report
+
+Write `/Users/krisbrown/.local/state/ki/agents/mac-studio-setup/rig-capture.report.md` in the `ki-coordination` owner-report shape for a run report: Done, In Progress and Queries, each query with Context, Query and lettered Options, the recommended one first with confidence and reason. Cite every record by its full identifier, linked to its local file by absolute path. Name every commit you made, and the record's resulting status. Use British English and ASCII hyphens only.
