@@ -13,6 +13,7 @@ method_read: 9c17df3c
 
 Mark at 23:45 BST, 19 October.
 
+- mgitplan finished 23:48 BST: KI-TOOL-MGIT-CLI-030 at Next as a draft (tools-mgit 5b2a4cd local), nine SYNC-* design queries copied in and at blind review qreview6.
 - messages 23:47 BST: BURN-WAVE-1 and LANE-OWNERS taken. acceptrig (tools-rig, tools-git-almanac, mcp-git-audit) running; acceptki (tools-ki, tools-mgit) held on knipfix. CAPTURE-GATE sent to every live run; the records tritools, granola and knipfix create are coordinator-briefed for Kris requests (HOOK-CAPTURE a), GRANOLA-TRUST, KNIP-HUSKY a)).
 - Hooks: pilot done and proven (tools-ki d88d494b, ki-principal 2646d94b pushed, va-principal 7f61803 local). Kris ordered the whole `.ki.toml` estate off Husky tonight: estmig-org converting other organisations on the source-linked ki; estmig-ki queued after tritools, ending with HOOK-3 to HOOK-5 at FAIL. Estate runs add Knip ignores by hand, restore the stray `.rumdl.toml` rewrite and test refusal with only git on PATH. Commits stay local; pushing is housekeeping, not a query (PUSH-NOT-WITH-YOU).
 - Release: KI-TOOL-KI-CLI-163 done (aa37f512), KI-TOOL-KI-CLI-157 blocker fixed (e5224f33), KI-TOOL-KI-CLI-162 accepted and pruned by another session. release2, queued after tritools, bumps the harness pin (HARNESS-PIN-FETCH a), cuts v0.12.0, pushes tools-ki and upgrades Homebrew `ki` (installed 0.11.5).
