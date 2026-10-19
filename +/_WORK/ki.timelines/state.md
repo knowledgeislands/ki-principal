@@ -1,7 +1,7 @@
 ---
 id: ki.timelines
-state: handoff-to-supervisor
-since: 2026-10-19T18:03:54Z
+state: with-worker
+since: 2026-10-19T18:41:11Z
 received: 2026-10-19T18:03:54Z
 beat: null
 method_read: 2026-10-19T18:03:54Z
@@ -11,10 +11,10 @@ method_read: 2026-10-19T18:03:54Z
 
 ## Now
 
-- Received and marked at 19:03 BST on 19 October, then sent straight back to Kris: no work is authorised until TIMELINE-IMPROVEMENTS is answered.
-- Nothing is running; the six open queries are in `queries.md`.
-- Description, Goals and Scope confirmed against `ki-work-package` at this mark (FIRST-STEP).
-- The tl-seed survey report sits in `~/.local/state/ki/agents/timelines/`; the survey itself is [design/survey.md](design/survey.md).
+- Received REFRESH from ki.ways-of-working at 19:40 BST (QUERY-REVIEW, REFRESH-RESUMMARY): tl-review, a blind Codex review of FEED-HOME, BUSY-STATUS, ONE-SOURCE and DATE-MODEL, is running; brief [tl-review.brief.md](tl-review.brief.md).
+- TIMELINE-IMPROVEMENTS and SKILL-SHAPE are high-confidence and not destructive, so they skip review.
+- When tl-review reports, fold its views into `queries.md` and give Kris a fresh Summary.
+- Last mark 19:03 BST; the survey is [design/survey.md](design/survey.md).
 
 ## Next steps
 
