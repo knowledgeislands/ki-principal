@@ -12,6 +12,7 @@ method_read: 84b61942
 
 ## Now
 
+- 00:06 BST received obs-triage-apply (dff8890: 5 now, 3 next, 1 soon, VIS-033 merged into APP-044, 9 held, audit FAIL=0) and obs-lane-sweep (no triage or Awaiting review records in the lane); under TRIAGE-ALL launched obs-design-batch (five ki-design v0 records, LANE-TRIAGE a) high) and obs-site044-record (KI-WEBSITE-SITE-044 to Awaiting review); pruning KI-OBSERVA-VIS-033 and accepting SITE-044 wait for Kris after blind review.
 - 23:59 BST messages: TRIAGE-ALL and BURN-WAVE-1 recorded, obs-lane-sweep launched for ki-design and the website's design adoption plus the acceptance list; MARK-FOLLOWUP taken, observatory-goals moved into design/ from ki's folder.
 - Kris answered the triage batch at 23:50 BST (TRIAGE-ANSWERS); running obs-triage-apply, then builds chained one at a time: VIS-043, BRG-006, APP-045, VIS-044, BRG-005.
 - Sent the reviewed triage batch to Kris at 23:46 BST: obs-triage-review (Codex, high) agreed on three queries and disagreed on TRIAGE-NOW's way-in field; obs-vis031-pins pinned four links to the pruned KI-OBSERVA-VIS-031 (76ffaa8).
