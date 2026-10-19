@@ -128,3 +128,11 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 - **TECHNE-WORDING:** "Let's get on with the technique word in, yes." Taken as option a): approve both texts as drafted, retiring the two readiness gates and adding the `Idea:` storage rule. Dispatched `gov035-deliver` to take KI-PRINCIPAL-GOV-035 to Awaiting review.
 - **PROGRESS-ALL:** "Can you go through any items which are triaged in knowledge islands and get them progressed? We need to move as much as we can forwards in the roadmap so it gets done." Taken as: TRIAGE-ALL stands. The ki.tools-burndown, ki.mac-studio-setup, ki.observatory and ki.chezmoi lanes are running; `roadmap-census-2` finds any repository whose triage pile has no live pass.
 - **HOLD-REVALIDATE:** "And then things that are on hold, we need to re-validate everything, make sure it really is. On hold, why is anything on hold in the observatory, for example?" Taken as: re-validate every hold across the territory, answering Observatory first. Releases go to their owning works; cancellations come to Kris as one query. Dispatched as part of `roadmap-census-2`.
+- 00:17 BST: `roadmap-census-2` received.
+  - Triage: 28 records left, down from 58 at 23:00 BST on 19 October.
+  - Holds: of the 25 KI roadmap holds, 3 are met, 2 are stale or deadlocked and 20 are valid. Every Observatory hold is real; KI-DESIGN-OBS-015 waits on an answer rather than a dependency.
+  - Cancellations: none found, so HOLD-CANCEL does not go to Kris.
+  - Routed under PROGRESS-ALL and HOLD-REVALIDATE: ki.observatory, ki.ways-of-working, ki.chezmoi, ki.tools-burndown, ki.regular.registry-removal and ki.paperclip-capture-and-rebuild.
+  - WOW-RESUME a) is taken as covered by Kris's 20 October instruction. ki.ways-of-working needs a session to pick it up.
+  - Held until KI-PRINCIPAL-GOV-035 is accepted: resume ki.agent-host, release KI-TOOL-RIG-DIST-011, KI-TECHNE-OPS-024 and KI-TOOL-TECHNE-CLI-006, and release KI-PRINCIPAL-MOD-008 to next, because its "roadmap mostly cleared" condition is met.
+  - Finding: `0836bcae` (ki.baseline-rollout) swept in gov035-deliver's renames. Check at gov035-deliver's receipt.

@@ -1,1 +1,3 @@
 # ki.chezmoi messages
+
+- 2026-10-20 IMPORTANT · 00:17 BST · from ki (State of play) · roadmap-census-2 (Kris, 20 October: "Can you go through any items which are triaged in knowledge islands and get them progressed?" and "things that are on hold, we need to re-validate everything"): your state is with-worker but no run is live. Run a triage pass over your 2 triage records. Release KB-DOTFILES-UE-096 to soon, blocked by KI-TOOL-KI-CLI-145, which is the real gate because the GOV-199 Phase 3 condition is deadlocked. Put KB-DOTFILES-UE-027's rationale proposals to Kris as a decision batch. UE-035's 21 October review is stale on sol, where its LaunchAgent is not loaded: check the log on the host that runs the job, or settle which host should.
