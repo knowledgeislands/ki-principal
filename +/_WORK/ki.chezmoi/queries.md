@@ -2,8 +2,7 @@
 
 ## Open
 
-- **SSH-APPLY** (Needs Kris): Sol is ready to receive the encrypted SSH key. The decrypted key is byte-identical to Sol's existing key, and the only pending change is one `~/.ssh/config` hunk that drops the OneDrive `IdentityFile` fallback. Its backup is in `~/.ssh/backup-20261019T224316/` and restores identical bytes. Recommendation: a) approve `chezmoi apply --exclude=scripts ~/.ssh/config ~/.ssh/kris@kris.me.uk` and a verification run (confidence high, because the key matches, the change is one hunk and the backup is tested). From [sol-ssh-key](/Users/krisbrown/.local/state/ki/agents/chezmoi/sol-ssh-key.report.md).
-- **SOL-APPLY** (Needs Kris): Sol's attended firewall apply, with you at Sol's console. Recommendation: a) run the whole [sol-apply](/Users/krisbrown/.local/state/ki/agents/chezmoi/sol-apply.md) sequence block by block, undo rehearsal included and NordVPN left off, starting by approving S1's `chezmoi apply` of `55-ports.toml` (confidence high, because it proves the restore path on Sol, and every block refuses unless Sol is in the expected state). Authority: SOL-FIREWALL a). From [sol-preflight-2](/Users/krisbrown/.local/state/ki/agents/chezmoi/sol-preflight-2.report.md).
+None.
 
 ## Parked
 

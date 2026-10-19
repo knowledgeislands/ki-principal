@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
-state: handoff-to-supervisor
-since: 2026-10-19T21:44:22Z
+state: with-worker
+since: 2026-10-19T21:48:17Z
 received: null
 beat: null
 mark: 2026-10-19T21:34:11Z
@@ -12,7 +12,7 @@ method_read: 979e075a
 
 ## Now
 
-- With Kris since 22:45 BST: SSH-APPLY and SOL-APPLY.
+- With worker since 22:47 BST: sol-ssh-apply running, and SOL-APPLY being walked through with Kris at Sol's console, starting at S1 once the SSH run is done.
 - Sol's chezmoi is fast-forwarded to `655acd1`, and its age identity has been restored from 1Password. `chezmoi init` added only the encryption settings. Nothing is applied yet.
 - Terra's firewall rehearsal passed. The declaration (`dd2a062`) is on `origin`. The tools-rig evidence commits `1fc21ff` and `f7ef0fd` are not pushed.
 
