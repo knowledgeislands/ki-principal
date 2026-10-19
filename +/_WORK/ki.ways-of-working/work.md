@@ -6,8 +6,8 @@ project: ways-of-working
 theme: model
 worker: agent
 supervisor: owner
-state: with-worker
-since: 2026-10-19T11:20:57Z
+state: handoff-to-supervisor
+since: 2026-10-19T11:42:52Z
 received: 2026-10-18T19:20:01Z
 beat: null
 mark: 2026-10-19T11:04:18Z
@@ -20,7 +20,7 @@ created_at: 2026-10-09T20:58:00Z
 
 Sent to Kris at 12:17 BST on 19 October with three queries (FIELDS-MIGRATE-ORDER, WORK-ROUTING, WOW-REFRESH), each blind-reviewed by query-review-2 (Codex). Mark 12:04 BST. Run reports sit in `~/.local/state/ki/agents/ways-of-working/`. SoP is back (11:05 BST); write nothing to `+/_WORK/ki/` this morning, and anything for SoP goes to Kris as a query.
 
-1. Running: work-package-design (stocktake of every work folder, then the work-package design note in `design/work-package.md`), then blind reviews work-package-review-fable and work-package-review-codex; then a merged report with queries. WORK-ROUTING and WOW-REFRESH answered 12:24 (see decisions); FIELDS-MIGRATE-ORDER still with Kris.
+1. Sent to Kris 12:43 BST: 15 queries from work-package-merge (design note `design/work-package.md`, amended in 48a56fbf; blind reviews by Codex and Fable): PACKAGE-NAME, STATE-FILE, FILES-AT-CREATION, QUERIES-FILE, PARKED-HOME, MESSAGES-FILE, DESCRIPTION-SHAPE, ROUTE-RECEIPT, REFRESH-TARGET, INBOX-CHECK, PICKUP-READS, STATE-HISTORY, STEWARD-HOME, MIGRATE-PATH, FIELDS-MIGRATE-ORDER. On answers: decisions into the note, then readers-first harness and `ki` work, then the pilot.
 2. Done: fields-follow-up (harness standard and checkers, GDR-KI-PRINCIPAL-016 amended, inventory of 341 records in 51 repositories).
 3. With tools-burndown (Messages line sent 12:04): VALIDATOR-PARITY record after KI-TOOL-KI-CLI-155, plus the `ki work` sort, gap listing and checks to match; KI-TOOL-KI-CLI-155 and KI-TOOL-KI-CLI-156 at triage.
 4. With ki.chezmoi (Messages line RIG-LIVE): KB-DOTFILES-UE-091 without ChatGPT and the firewall declaration; then Kris's attended Rig applies; then acceptance of KI-TOOL-RIG-CORE-042 and -047.
