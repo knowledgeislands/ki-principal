@@ -2,6 +2,20 @@
 
 ## Open
 
+### KI-RELEASE-GO - Cut the ki patch release once it is ready
+
+since 2026-10-19 · from the KI-PATCH-RELEASE message
+
+**Context:** Through ki.ways-of-working you asked for one `ki` patch release "soon", carrying KI-TOOL-KI-CLI-155 so `priority` and `size` stop dropping 18 records, and pinning a ki-agentic-harness that provides `ki-work-package`, so ki-principal CI stops failing at "Install released KI". Your standing rule is to ask before any `ki` release. The cli155 run is building the change now and stops before tagging, pushing or publishing.
+
+**Query:** May I cut, push and publish the patch release as soon as KI-TOOL-KI-CLI-155 passes verification and the harness pin sits at or after the harness-link-fix commit?
+
+**Options:**
+
+a) (recommended, confidence high - it is the release you asked for, and it is gated on verification and the harness fix) Yes: cut it on those two conditions, then reply with the tag in ki.ways-of-working's `messages.md`.
+
+b) No: bring the finished change back to you before the tag.
+
 ### BIOME-CI-STANDARD - The record conflicts with the Minimal CI rule
 
 since 2026-10-19 · from biomeci.report.md in the run state folder

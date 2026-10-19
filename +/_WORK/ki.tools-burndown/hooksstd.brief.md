@@ -1,0 +1,9 @@
+# hooksstd - commit-gate hooks convention design
+
+Read-only survey; the only write is /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/design/hooks-standard.md, committed by explicit path in ki-principal.
+
+Kris (19 October, via ki.ways-of-working, HOOKS-STANDARD): "add an urgent message to it to standardise". Standardise the commit-gate hooks across the estate on one convention, Husky, rolled out through `ki repo` and the estate repair. Survey at 18:01 BST: 30 repositories on Husky with `core.hooksPath` at `.husky/_`; ki-principal and ki-agentic-harness bind `.githooks` stubs that wrap Husky and add the knowledge-base audit (the pattern the ki-repo-kb standard and its rubric name); ki-design has both but no hooks path; apps-knowledgeislands.info and apps-yorkphotosoc.org have `.husky` but no hooks path; 25 have no gate (list in ki.ways-of-working decisions, "HOOKS-STANDARD").
+
+Write a design note under ki-work-design: the convention (including whether the knowledge-base audit and the worktree refusal move into Husky), the harness standard and rubric changes it needs (which skills: ki-repo, ki-repo-kb, ki-git, ki-engineering), the `ki repo` conform and estate-repair changes in tools-ki, the rollout order, and the per-repository gate content for non-Bun repositories. Give Kris's decisions as queries with a recommended option. Capture no records and change no other repository.
+
+Work under ki-delegation and ki-git: commit your own changes by explicit path, never push, tag, publish or delete a remote branch, never use --no-verify. Write your report to ~/.local/state/ki/agents/tools-burndown/hooksstd.report.md in the ki-coordination owner-report shape (Done, In Progress, Queries with Context, Query and lettered Options, a) recommended with confidence). Raise a blocking query in the report and stop rather than guess.
