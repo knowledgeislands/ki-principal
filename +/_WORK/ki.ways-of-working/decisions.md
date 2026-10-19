@@ -374,3 +374,14 @@ The migration's FIRST-STEP line was acted on: `ki-work-package` and all five fil
 ## 2026-10-19 14:57 BST - REPO-LINKS taken under PUSH-HARD
 
 reinstall-check asked whether to run `ki repo --estate repair` now: it would add 19 `ki-work-package` links and remove 19 dangling `ki-work-folder` links in 10 repositories. Taken a) under PUSH-HARD and NO-ALIAS ("lets just get it renamed"), as finishing the rename. Authorises: repo-links, chained after territories-package, applying only the work-package link changes and listing anything else.
+
+## 2026-10-19 17:57 BST - owner decisions on the 15:17 BST Summary
+
+Kris: "I pushed everything / CITATIONS-DANGLE - fix them now please / CHEZMOI-MIGRATE - I commited it, fix what you need to / MARK-READOPT - yep"
+
+Read back taken:
+
+- PUSH-ALL and DEPLOY-PUSH: closed. Kris pushed every stack, including the three site repositories, accepting their redeploys.
+- CITATIONS-DANGLE: b) one mechanical rewrite run now. Kris's instruction stands in for an Enactment record for the canonical notes it touches. Authorises: citations-rewrite, which re-scans every registered repository and rewrites old `+/_CHECKPOINTS/` and `+/_THREADS/` citations to their work-package successors, linking a pruned target at its last revision.
+- CHEZMOI-MIGRATE: a), with "fix what you need to". Authorises: chezmoi-migrate, a one-folder migration of `+/_WORK/ki.chezmoi/` to the five-file package, leaving any other session's uncommitted file alone, with a FIRST-STEP line and the `[locals]` drift note in its `messages.md`.
+- MARK-READOPT: a) taken. The VA-MARK records stay in triage and are adopted when picked up. Nothing to launch.

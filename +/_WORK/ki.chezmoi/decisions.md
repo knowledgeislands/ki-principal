@@ -453,3 +453,9 @@ Terra is migrated and verified on KI v0.11.4. Both paths and active harnesses ar
 Check Sol’s KI version, record doctor/diag and existing paths, then run ki bootstrap. Verify identical paths in host-local locals.toml, unchanged configuration and active harnesses, and healthy diagnostics. Check development switches using isolated test state.
 
 Stop on unexpected differences. Once Sol passes, prepare removal of [locals] from the shared chezmoi source, show Kris the diff, and wait for explicit apply approval. Commit by explicit path; never push.
+
+## Decision 98 (2026-10-19T16:55:24Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- well its more so the hooks that are using lint-staged, I think they should be silent if nothing staged
