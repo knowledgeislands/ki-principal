@@ -18,10 +18,10 @@ created_at: 2026-10-09T20:58:00Z
 
 ## Next steps
 
-Marked at 11:15 BST on 19 October. Run reports sit in `~/.local/state/ki/agents/ways-of-working/`. SoP is back (11:05 BST); write nothing to `+/_WORK/ki/` this morning, and anything for SoP goes to Kris as a query.
+Marked at 12:04 BST on 19 October. Run reports sit in `~/.local/state/ki/agents/ways-of-working/`. SoP is back (11:05 BST); write nothing to `+/_WORK/ki/` this morning, and anything for SoP goes to Kris as a query.
 
 1. Running: fields-follow-up (SIZE-MEANING, SELECTION-ORDER, FIELDS-MIGRATE, FIELDS-CORE and FIELDS-KEPT into the harness standard and checkers; amend GDR-KI-PRINCIPAL-016 and align GDR-KI-PRINCIPAL-005; name the migration inventory and per-repository counts). Then Kris approves per-repository mechanical migration runs one by one.
-2. With tools-burndown (Messages line sent 11:15): VALIDATOR-PARITY record after KI-TOOL-KI-CLI-155, plus the `ki work` sort, gap listing and checks to match; KI-TOOL-KI-CLI-155 and KI-TOOL-KI-CLI-156 at triage.
+2. With tools-burndown (Messages line sent 12:04): VALIDATOR-PARITY record after KI-TOOL-KI-CLI-155, plus the `ki work` sort, gap listing and checks to match; KI-TOOL-KI-CLI-155 and KI-TOOL-KI-CLI-156 at triage.
 3. With ki.chezmoi (Messages line RIG-LIVE): KB-DOTFILES-UE-091 without ChatGPT and the firewall declaration; then Kris's attended Rig applies; then acceptance of KI-TOOL-RIG-CORE-042 and -047.
 4. Kris is on: the mgit hands-on check, then MGIT-RELEASE.
 5. QUERY-REVIEW (trial, three reviews): capture the harness record for the ki-coordination standard with fields-follow-up's harness work or the next run.
