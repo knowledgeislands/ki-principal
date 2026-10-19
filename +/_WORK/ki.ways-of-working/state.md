@@ -12,6 +12,7 @@ method_read: eff6163b
 
 ## Now
 
+- WOW-RESUME a) (Kris, 20 October) served by lane-triage; wow-triage (State of play, 00:31 BST) wrote NO-GATE and GFM-HOSTING-RULES into `queries.md`, both medium; GFM-HOSTING-RULES goes to blind review before Kris, NO-GATE already reviewed.
 - OVERNIGHT-AUTONOMY from Kris at 00:27 BST: check for new work every 10 minutes (5 while runs are out); deliver high-confidence recommendations; revisit medium and low later; morning Summary for what needs Kris.
 - Kris said "read messages" at 00:23 BST, lifting the hold. lane-triage (TRIAGE-ALL, roadmap-census-2, BURN-WAVE-1 accept pass, GOV-215, UE-096 line) and checker-gaps running. Queued, harness chain: ENTRY-NAMES (work.md to WORK.md, ki-work-package contract and readers), then HOMELESS-STANDING with CAPTURE-GATE into ki-next and ki-delegation.
 - HOOK-GUARD (23:24 BST): no `ki repo conform` without `--dry-run` in any brief until ki.tools-burndown lifts it.
@@ -35,7 +36,8 @@ method_read: eff6163b
 6. With ki.tools-burndown: accept the mgit hands-on record and release mgit once (MGIT-RELEASE a)); check passed 19:42 BST. Harness CI's pinned v0.11.3 run after `bda6e4a0` still to confirm.
 7. Outstanding, not this work's: pre-existing CI red in apps-observatory.local, mcp-m365, tools-mgit and ki-techne-harness; acquire-intake's ACQUIRE-DECISIONS-LINKS; untracked KI-HARNESS-GOV-220 and KI-TOOL-KI-CLI-154.
 8. Next round: graduate the seven `design/` files design-triage marked (design.md, the work-model pair, work-package.md, the three bring-up files), then delete the two thread-model notes once Kris's words in them are homed.
-9. To State of play at the hold: GFM-HOSTING-RULES (GitHub let the harness push bypass its PR and required-build rules); the ki-principal MOD ledger sits at 9 though KI-PRINCIPAL-MOD-010 was issued.
+9. To State of play at the hold: the ki-principal MOD ledger sits at 9 though KI-PRINCIPAL-MOD-010 was issued. GFM-HOSTING-RULES came back and is in `queries.md`.
+10. Receive lane-triage: GOV-219 and GOV-224 to Awaiting review, the adoptions, KI-HARNESS-GOV-215's release (COORD-12 met in all eight Capitals at 00:29 BST) and its lane queries.
 
 ## Held
 
