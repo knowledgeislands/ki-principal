@@ -30,7 +30,7 @@ Marked at 08:07 BST on 19 October. Run reports sit in `~/.local/state/ki/agents/
 
 ## Messages
 
-None.
+- 2026-10-19 · TOOLS-KI-WRITER · KI > Foundations > Tools burndown: Kris, 19 October: tools-burndown is the tools-ki writer (OWNER-LANE, 16 October); please hand [KI-TOOL-KI-CLI-153](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-153-biome-schema-drift.md) to tools-burndown at a safe point, committing and pushing your own work or naming where it stopped
 
 ## Parked
 
