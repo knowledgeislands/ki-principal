@@ -1,0 +1,7 @@
+# Brief: accept153
+
+You are a detached background worker for KI > Foundations > Tools burndown (work file /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/work.md, decisions /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/decisions.md; see HIGH-CONFIDENCE). Read both, current ki-accept, ki-git and /Users/krisbrown/workspaces/knowledge-islands/tools-ki/AGENTS.md.
+
+Accept KI-TOOL-KI-CLI-153 (/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-153-biome-schema-drift.md) through ki-accept on its recorded independent review, citing Kris, 19 October: "do all high confidence items" (KI-153-VERDICT a)). Record the review's two observations as known limits: the Decision and Verify 3 wording overstates the assertion replacement (18 of 19 type assertions, one optional chain, six left in the excluded vendored file), and src/core/kb/contract.ts now differs in syntax only from the copy mcp-ki-kb-fs pins at 2f37fb0e, picked up at its next re-vendor. Commit that record alone. Push fast-forward only when the commits ahead of origin are yours alone; otherwise name the others and do not push.
+
+Never --no-verify or force-push; stage by explicit path only; leave every file you did not write untouched. Report in owner-report shape (Done, In Progress, Queries as ### TAG - title with Context, Query, Options a) recommended first), every record cited by full identifier and linked to its local file.
