@@ -13,8 +13,8 @@ method_read: 979e075a
 ## Now
 
 - With worker since 19:48 BST on 19 October; marked at 20:10 BST.
-- Running: carry-directions, and firewall-review (blind review of RIG-FIREWALL-REHEARSE). Done since the mark: rig-dock, KB-DOTFILES-UE-091 delivered to Awaiting review, firewall declaration not written.
-- With Kris after review: RIG-FIREWALL-REHEARSE; and the attended Dock apply on Sol ([rig-dock report](/Users/krisbrown/.local/state/ki/agents/chezmoi/rig-dock.report.md)).
+- Running: carry-directions. Done since the mark: rig-dock, KB-DOTFILES-UE-091 delivered to Awaiting review, firewall declaration not written.
+- With Kris: RIG-FIREWALL-REHEARSE (reviewed, review disagrees); and the attended Dock apply on Sol ([rig-dock report](/Users/krisbrown/.local/state/ki/agents/chezmoi/rig-dock.report.md)).
 
 ## Next steps
 

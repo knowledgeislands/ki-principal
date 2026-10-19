@@ -2,7 +2,21 @@
 
 ## Open
 
-None.
+### RIG-FIREWALL-REHEARSE - Where to rehearse the firewall restore
+
+since 2026-10-19 · from run rig-dock ([report](/Users/krisbrown/.local/state/ki/agents/chezmoi/rig-dock.report.md)) · reviewed ([firewall-review](/Users/krisbrown/.local/state/ki/agents/chezmoi/firewall-review.report.md))
+
+**Context:** The firewall declaration (tailnet-only Screen Sharing on `tcp:5900` and `udp:5900` for every Mac in `core`, adopting Terra's anchor) is not written, because the connection-critical rule needs the restore rehearsed before the change on the same machine. Sol has no anchor, daemon or service; this session has no `sudo`. Terra's daemon was recorded loaded since 15 October, but its kernel anchor being loaded is unproved, and "tailnet-only" still allows shared-range LAN access and forged-source UDP ([KI-TOOL-RIG-CORE-047](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md)). The review prefers c): a) proves Terra's restore only before applying on Sol too, and b) rehearses after the change.
+
+**Query:** Where should the restore be rehearsed before the declaration is written?
+
+**Options:**
+
+a) (recommended, confidence high - review disagrees, it would still need a Sol rehearsal before the Sol apply) Attended, from Sol: run the restore on Terra over SSH, confirm SSH holds and the rules are gone, re-bootstrap, record evidence; then a run writes the declaration for an attended `rig apply --sudo` on Terra, then Sol.
+
+b) Attended on Sol: apply with `--sudo` and rehearse the restore there at once.
+
+c) Leave the firewall to KI-TOOL-RIG-CORE-047's live acceptance and write no declaration now.
 
 ## Parked
 
