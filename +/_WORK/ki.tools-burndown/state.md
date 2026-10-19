@@ -1,7 +1,7 @@
 ---
 id: ki.tools-burndown
-state: handoff-to-supervisor
-since: 2026-10-19T21:03:55Z
+state: with-worker
+since: 2026-10-19T21:08:53Z
 received: 2026-10-19T18:00:08Z
 beat: null
 method_read: 9c17df3c
@@ -11,6 +11,7 @@ method_read: 9c17df3c
 
 ## Now
 
+- 22:08 BST: SYNC-SUMMARY taken; syncsum launched in tools-mgit. COMMIT-MSG and ROLLOUT-AUTHORITY still with Kris.
 - routeview finished: KI-TOOL-KI-CLI-160 captured at triage in tools-ki, local only. Sent to Kris with COMMIT-MSG and ROLLOUT-AUTHORITY.
 - 22:02 BST: GIT-HOOKS a) and ROUTING-VIEW a) taken; routeview launched in tools-ki. COMMIT-MSG and ROLLOUT-AUTHORITY back with Kris next.
 - ci156 finished: BIOME-CI-STANDARD a) recorded on KI-TOOL-KI-CLI-156, tools-ki `02e1de52`, local only. All runs finished; sent to Kris with GIT-HOOKS and ROUTING-VIEW open, the four hooks queries held behind GIT-HOOKS.

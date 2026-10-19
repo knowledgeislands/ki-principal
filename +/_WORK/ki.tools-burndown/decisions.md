@@ -55,3 +55,7 @@ Taken as: KI-RELEASE-GO a), tag `v0.11.5` at tools-ki HEAD once a full re-run th
 Kris: "ok - I'm good with the recommendations, but one final thing on githooks, is there a recognised way of dealing with this in general?"
 
 Taken as: GIT-HOOKS a), committed `.githooks` holding all hook content in every KI repository, bound by `core.hooksPath`, Husky and `.husky` removed, so HOOKS-CONVENTION is settled by it and KB-AUDIT falls away; ROUTING-VIEW a), capture the tools-ki routing-view record now, planned after KI-TOOL-KI-CLI-158. The general-practice question was answered in the reply. COMMIT-MSG and ROLLOUT-AUTHORITY return to Kris before any rollout.
+
+## 19 October, 22:08 BST - SYNC-SUMMARY
+
+Kris: "mgit sync could do with a better summary", with a run where ki-agentic-harness was skipped for local changes while 5 commits ahead, ki-principal pushed 1 commit and 55 were in sync. Taken as: capture a tools-mgit triage record for a clearer closing summary of `mgit sync`.
