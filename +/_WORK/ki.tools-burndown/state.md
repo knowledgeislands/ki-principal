@@ -11,6 +11,7 @@ method_read: 9c17df3c
 
 ## Now
 
+- Kris ordered the whole estate off Husky now (HOOK-GUARD b), waves 2 to 5 collapsed): estmig-org held on release, estmig-ki held on tritools and ends by moving HOOK-3 to HOOK-5 to FAIL. Commits local; push needs Kris. State of play told.
 - Kris took the recommendations, with HOOK-RELEASE b) release now, and asked for the tool triage at once: release held on wave1, tritools (HOOK-CAPTURE records, design note, tools-ki triage) held on release, trimga (tools-mgit and tools-git-almanac triage) running; wave1 given VA-HOOKS a). HOOK-GUARD open.
 - hcreview finished 23:19 BST: agreed a) on VA-HOOKS, HOOK-RELEASE and HOOK-CAPTURE (all lifted to high; HOOK-CAPTURE ownership corrected) and found the source-linked `ki` already exposes the unreleased conversion; HOOK-GUARD raised, IMPORTANT warning sent to State of play at 23:20 BST.
 - hookconf finished 23:16 BST: KI-TOOL-KI-CLI-163 githooks conversion Awaiting review, local tools-ki commits d33a38e5..1f39dc52 (includes the KI-TOOL-KI-CLI-161 retitle), 1,405 tests 100%, audit no failures. Queries VA-HOOKS, HOOK-RELEASE and HOOK-CAPTURE at blind review (hcreview, Codex). wave1 steered: local source build, tools-ki and ki-principal first, va-principal held for VA-HOOKS.
