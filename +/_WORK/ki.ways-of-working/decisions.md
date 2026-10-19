@@ -378,3 +378,7 @@ Read back taken: ROUND-END - this round ends in a hold, more expected, not Proje
 ## 2026-10-19 20:32 BST - received design-clause
 
 design-clause put DESIGN-AT-MARK into the harness (`9c17df3c`, pushed fast-forward alone): the prune clause keeps only live design notes and reviews `design/` at each mark under new design-note guards in the standard; the work-design, work-package and output-style surfaces align, and `hooks/README.md` now matches the current hook line. Tests 1,286 pass, type check and audits clean. DESIGN-AT-MARK's rule part is homed.
+
+## 2026-10-19 20:38 BST - received design-triage
+
+design-triage (read-only) sorted the 44 `design/` files: delete 28 (25 applied migration-plan files, `work-folder.md`, the two thread-model notes), graduate first 7 (`design.md`, the work-model pair, `work-package.md`, the three bring-up files), keep 9 (the change-management bundle, roadmap sizing, `applied-map.tsv`). Two rewrites precede deletion: `change-management-decisions.md:125` and harness `standards-work-package.md:77`. Query DESIGN-DELETE (medium) goes to blind review (delete-review, Codex) before Kris. Also noted: PAPERCLIP-REQ's pointer should name `state.md`, not the work file. Full table: `~/.local/state/ki/agents/ways-of-working/design-triage.report.md`.
