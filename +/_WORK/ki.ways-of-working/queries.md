@@ -60,6 +60,23 @@ b) Launch one more mechanical run that rewrites the live package files (`work.md
 
 c) Leave everything in the work areas as it is.
 
+### CI-RED-MAIN - Both Capital and harness CI red on main
+
+since 2026-10-19 18:21 BST · from mark-tidy
+
+**Context:** Two separate faults keep `main` red in both repositories.
+
+- **ki-principal:** CI installs the pinned ki v0.11.4, which brings a harness from before the `ki-work-package` rename, so the audit cannot find the skill that `.ki.toml` now declares. This clears only when a `ki` release pins a harness that carries `ki-work-package`.
+- **Harness:** `standards-work-package.md` carries an absolute `/Users/...` link to a tools-ki record, which KI-LINK-2 rejects on CI. A one-line link change fixes it.
+
+**Query:** Should one harness run fix the link now, and the next `ki` release pin the fixed harness so ki-principal's CI goes green?
+
+**Options:**
+
+a) (recommended, confidence medium - both causes read directly from the CI logs, but the release timing sits with ki.tools-burndown) A harness run repoints the link to a GitHub or relative form. Then ask ki.tools-burndown, through a `messages.md` line, for a `ki` patch release pinning that harness, and move ki-principal's `.github/ki-version` after it.
+
+b) Fix only the harness link now, and leave ki-principal red until the next scheduled `ki` release.
+
 ## Parked
 
 ### DESK-CAM - Which webcam to buy for sol
