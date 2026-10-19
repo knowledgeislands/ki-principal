@@ -414,3 +414,11 @@ Kris: "mark". Mark struck at 22:33 BST while on hold; nothing new to strike or p
 Kris: "ok - so why didn't you show that?" then "no - do it now"
 
 Read back taken: BANNER-ON-STATE - any coordinator reply that moves the mark, changes the work's state or answers where the work stands ends with the glyph banner, even when it is not a full report; a plain answer that does none of these needs none. Lifts the hold; authorises banner-on-state (harness standard, output style and generated surfaces; edited in a worktree so island hooks never read a half-done checkout; push fast-forward only when alone).
+
+## 2026-10-19 22:42 BST - received banner-on-state
+
+banner-on-state pushed harness `6baab0b0` from a worktree: BANNER-ON-STATE in the standard's Banner section, coordinating practice, Reply forms and output style, and as one clause in hook rule 4 (about 1,375 of 1,500 characters); tests 1,295 pass, audits clean. Its query NOTE-BANNER (medium, unverified) closed without Kris: the Work Process note's Banner section defines the banner's shape, not when it appears, and the standard owns the when, so the note needs no sentence (checked directly).
+
+## 2026-10-19 22:42 BST - hold, more expected
+
+BANNER-ON-STATE landed; the hold resumes. Mark struck at 22:42 BST; nothing running, no open queries, nothing parked; pointers already with State of play.
