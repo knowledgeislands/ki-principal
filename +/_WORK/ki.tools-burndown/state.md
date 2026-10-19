@@ -13,6 +13,7 @@ method_read: 9c17df3c
 
 Mark at 23:45 BST, 19 October.
 
+- 00:20 BST: Kris set TO-DONE and is away four hours. SYNC-CATEGORIES c), SYNC-STREAMS b), GRANOLA-CHECKPOINT a) applied. burnmcp1 and burnmcp2 launched for the six other MCP repositories; burnmgit, burnrig and burnki extended to triage, unhold and keep going. Next: as each burn run finishes, launch a Codex high accept run on its repositories, then continuation burns until nothing can move. roadmap-census-2 acted on; tools-rig and tools-techne passed to State of play.
 - 00:18 BST: received acceptrig (KI-TOOL-RIG-CORE-063 accepted and pruned; CANCEL-MERGE routed to ki.mac-studio-setup through State of play under LANE-FIX; its tools-rig commits added to estpush) and ideas (MGIT-ESCAPE and MGIT-OUTPUT on the Project note, MARK-FOLLOWUP sent).
 - 00:17 BST: received estmig-org: 20 of 26 other-organisation repositories converted, local commits; estpush pushes them. YORK-YARN, PKG-NO-HUSKY and NO-GATE at qreview9. Conform's .rumdl.toml rewrite and rumdl --fix reflow reverted 20 times - outstanding.
 - 00:16 BST: received release2, granola, qreview7. TRIAGE-NEXT and HOOK-ADOPT applied (sent to burnki). FOREIGN-COMMITS closed: the commits were granola's; release3 ships v0.12.0 after knipfix. GRANOLA-CHECKPOINT (medium) at qreview8. Still to receive: estmig-org, acceptrig (CANCEL-MERGE to ki.mac-studio-setup), ideas.
