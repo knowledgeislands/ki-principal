@@ -397,3 +397,9 @@ Read back taken: HOOKS-STANDARD - an IMPORTANT line goes to ki.tools-burndown's 
 Kris: "will those get fixed to the new format though?" then "ok - make that happen then."
 
 Read back taken: REPORT-SWEEP a) - one run surveys every work folder in the estate for run reports beside the package files; deletes each already pruned elsewhere or whose queries are all in that work's `queries.md`; for each it cannot safely delete, leaves the file and puts a line in that work's `messages.md` for its coordinator to receive. Untracked files on other machines and the `ki` release there are outside it. Authorises: report-sweep, chained after citations-rewrite.
+
+## 2026-10-19 18:11 BST - owner note, PUSH-KIP
+
+Kris: "I think I've pushed everything's back aligned again now."
+
+Read back taken: PUSH-KIP (and chezmoi-migrate's PUSH-CHEZMOI-MIGRATE) closed - Kris pushed the ki-principal stack. This work pushes its own later commits fast-forward when they alone are stacked.

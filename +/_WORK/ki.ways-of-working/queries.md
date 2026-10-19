@@ -16,20 +16,6 @@ a) (recommended, confidence medium - one release carries the hands-on fixes and 
 
 b) Release v0.18.0 now from `main`, so the machines agree today.
 
-### PUSH-KIP - ki-principal has other sessions' commits stacked with mine
-
-since 2026-10-19 18:08 BST · from the Recap, and chezmoi-migrate's PUSH-CHEZMOI-MIGRATE folded in
-
-**Context:** ki-principal holds this work's `4f268ad0`, `2534def9`, `034bee0c` and chezmoi-migrate's `40a6a6cd` on top of ki.chezmoi's `964f8910` and the launcher baselines `d70f6ed7` and `fd50f58d`. Until pushed, other machines see ki.chezmoi in the old shape and miss HOOKS-STANDARD.
-
-**Query:** May the coordinator push ki-principal fast-forward now, other sessions' commits included?
-
-**Options:**
-
-a) (recommended, confidence medium - routine bookkeeping from today's sessions, not read line by line) Push now, and again after each run lands.
-
-b) Kris looks at the baselines first, then pushes.
-
 ## Parked
 
 ### DESK-CAM - Which webcam to buy for sol
