@@ -7,7 +7,7 @@ theme: foundations
 lifecycle: active
 lead: Kris Brown
 target: null
-updated: 2026-10-16T21:07:14Z
+updated: 2026-10-19T22:51:19Z
 author: Written with Claude
 ---
 
@@ -37,6 +37,13 @@ This Project sits in [[Themes/foundations|Foundations]]. Kris revived it on 16 O
 This note names no work records: each record carries its own Project, and in-scope membership is by the Scope above rather than by that field. The live inventory is read from each repository's roadmap; the 16 October 2026 snapshot is the thread's [inventory report](../../+/_WORK/ki.tools-burndown/inventory.report.md).
 
 `tools-mgit` and `tools-git-almanac` held no open records on 16 October 2026, and `tools-mgit` has no change since `v0.17.0`. The open `ki-agentic-harness` records are left out because they change skills and standards or acquisition, not the `ki` CLI, its commands, release or packaging, and the CLI mechanics two of them need are already `tools-ki` records.
+
+### Ideas
+
+They are ideas, not records: under CAPTURE-ONLY Kris asked for capture now and a prioritisation phase later, so none becomes a roadmap record until then.
+
+- **MGIT-ESCAPE** (Kris, 17 October 2026 intake, [ki decisions log](../../+/_WORK/ki/decisions.md)): an escape hatch from mgit's own commands, which override the git pass-through - "Git has got work tree. We've got mgit work tree, so it'd be nice to have an escape hatch". `--bare` runs the git subcommand in each child, bypassing mgit's command; `--raw` runs any command as a shell in each repository directory; mind clashes with the physical and follow-symlinks options.
+- **MGIT-OUTPUT** (Kris, 17 October 2026 intake, [ki decisions log](../../+/_WORK/ki/decisions.md)): "I really want MGIT to have much better output" - a progress bar across the estate, then results at the end listing only the repositories that changed; try it first on `sync`, where a pull that hits a rebase or merge warning aborts automatically and warns instead; perhaps with code behind it, as with the Git Almanac.
 
 ### History
 
