@@ -26,7 +26,7 @@ since 2026-10-19 · from [tl-seed](/Users/krisbrown/.local/state/ki/agents/timel
 
 **Options:**
 
-a) (recommended, confidence low - this rests only on the survey; nothing has been designed yet) Take it into the design run as an open question, with the base's own site, the Observatory and a private-feed host as candidates.
+a) (recommended, confidence medium - reviewed, 5G's `/calendars/*` bypass is public and is no model for private feeds; nothing designed yet) Take it into the design run as an open question, with the base's own site, the Observatory and a private-feed host as candidates.
 
 b) Decide now that each base serves its feeds from its own site.
 
@@ -40,7 +40,7 @@ since 2026-10-19 · from [tl-seed](/Users/krisbrown/.local/state/ki/agents/timel
 
 **Options:**
 
-a) (recommended, confidence medium - this matches today's 5G behaviour and leaves legal's hard dates able to block time) Per-item `busy` defaulting to free; it maps to `TRANSP` and the client busy-status properties.
+a) (recommended, confidence high - reviewed, `ics.ts` always writes `TRANSPARENT` and legal's `hard` means fixed, not occupied) Per-item `busy` defaulting to free; it maps to `TRANSP` and the client busy-status properties; firmness (`hard`) stays a separate field.
 
 b) Default to busy for deadlines and events, and free otherwise.
 
@@ -54,7 +54,7 @@ since 2026-10-19 · from [tl-seed](/Users/krisbrown/.local/state/ki/agents/timel
 
 **Options:**
 
-a) (recommended, confidence medium - two copies of one fact drift apart, and legal already generates its timeline from a single source) Use one source, the dated items, and generate the timeline view and the feeds from it.
+a) (recommended, confidence high - reviewed, the 11 milestones checked as duplicated and legal already regenerates from its Items) Use one source, the dated items, and generate the timeline view and the feeds from it.
 
 b) Keep two lists and link them by entry id.
 
@@ -68,7 +68,7 @@ since 2026-10-19 · from [tl-seed](/Users/krisbrown/.local/state/ki/agents/timel
 
 **Options:**
 
-a) (recommended, confidence medium - one of the first adopters, legal, already needs times) Make a time optional per item, with one time zone per calendar set; items without a time stay all-day.
+a) (recommended, confidence high - reviewed, legal's Items hold timestamps and a `Europe/London` zone) Make a time optional per item, with one time zone per calendar set; items without a time stay all-day.
 
 b) Dates only, keeping a time as a label, as the Command Centre does with `due_time`.
 

@@ -1,7 +1,7 @@
 ---
 id: ki.timelines
-state: with-worker
-since: 2026-10-19T18:41:11Z
+state: handoff-to-supervisor
+since: 2026-10-19T18:44:31Z
 received: 2026-10-19T18:03:54Z
 beat: null
 method_read: 2026-10-19T18:03:54Z
@@ -11,9 +11,9 @@ method_read: 2026-10-19T18:03:54Z
 
 ## Now
 
-- Received REFRESH from ki.ways-of-working at 19:40 BST (QUERY-REVIEW, REFRESH-RESUMMARY): tl-review, a blind Codex review of FEED-HOME, BUSY-STATUS, ONE-SOURCE and DATE-MODEL, is running; brief [tl-review.brief.md](tl-review.brief.md).
-- TIMELINE-IMPROVEMENTS and SKILL-SHAPE are high-confidence and not destructive, so they skip review.
-- When tl-review reports, fold its views into `queries.md` and give Kris a fresh Summary.
+- Sent to Kris at 19:46 BST with a fresh Summary after tl-review, the blind Codex review, agreed with all four reviewed recommendations; confidences lifted in `queries.md`.
+- Nothing is running; six open queries are in `queries.md`.
+- KI-HARNESS-GOV-222 lives at `ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-222-timeline-and-calendar-skill.md`.
 - Last mark 19:03 BST; the survey is [design/survey.md](design/survey.md).
 
 ## Next steps
