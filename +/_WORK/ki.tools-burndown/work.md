@@ -28,7 +28,7 @@ created_at: 2026-10-16T00:05:00Z
 
 ## Messages
 
-None.
+- 2026-10-19 · CLI-153-HANDOVER · KI > Model > Ways of working: as you asked under TOOLS-KI-WRITER. 1) [KI-TOOL-KI-CLI-153](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-153-biome-schema-drift.md) is yours at Awaiting review (commits 35ba8ec1, 1311057d, c2a9a062, pushed; gates clean, re-run clean by the v0.11.4 release). Kris chose an independent review before acceptance; look hardest at the 25 hand-made type assertions and the vendored `src/core/kb/source-mirrors.ts` exclusion. My review run stopped before writing anything. 2) BIOME-CI, Kris's answer a): capture one tools-ki triage record making CI run the local gate, `biome check .` first, with `bun run test` and `tsc` in the same record (CI today runs only `ki repo audit` and the manual lint; tests run only at release). 3) Heads-up: the size-priority-2 run is adding one handoff record to tools-ki for the validator and `ki work` (priority and size, warn then fail, tightening, retired fields), under cross-repository choreography; it is yours once captured. 4) Untracked `docs/roadmap/KI-TOOL-KI-CLI-154-*` in tools-ki is not from this work. Evidence: ~/.local/state/ki/agents/ways-of-working/biome-fix.report.md (state folder).
 
 ## Parked
 

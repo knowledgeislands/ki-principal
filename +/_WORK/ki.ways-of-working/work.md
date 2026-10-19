@@ -20,7 +20,7 @@ created_at: 2026-10-09T20:58:00Z
 
 Marked on 19 October. Run reports sit in `~/.local/state/ki/agents/ways-of-working/`.
 
-1. Running: size-priority-2 (priority and size, tightening and clean-up in the harness standard and checker; GDR reversing PRIORITY-FIELD; tools-ki handoff); fields-view-fable and fields-view-codex (blind views on the whole field model; any change they suggest goes to Kris as a query, then a follow-up to size-priority-2's work); tools-ki-153 (review then accept KI-TOOL-KI-CLI-153; capture the BIOME-CI record).
+1. Running: size-priority-2 (priority and size, tightening and clean-up in the harness standard and checker; GDR reversing PRIORITY-FIELD; tools-ki handoff); fields-view-fable and fields-view-codex (blind views on the whole field model; any change they suggest goes to Kris as a query, then a follow-up to size-priority-2's work). KI-TOOL-KI-CLI-153 and BIOME-CI are handed to tools-burndown (TOOLS-KI-WRITER); this work writes nothing else in tools-ki.
 2. With ki.chezmoi (Messages line sent): KB-DOTFILES-UE-091 without linking ChatGPT, and the firewall declaration. Then Kris: attended Dock apply on Sol (RIG-DOCK-LIVE) and attended `rig apply --sudo` on Terra then Sol (RIG-FIREWALL-LIVE); then acceptance runs for KI-TOOL-RIG-CORE-042 and -047.
 3. Kris is on: the mgit hands-on check, then MGIT-RELEASE.
 4. QUERY-REVIEW (trial, one review so far): before each Summary, send its medium and low queries to one blind review run; after two or three, capture a harness record for the ki-coordination standard.
@@ -29,7 +29,7 @@ Marked on 19 October. Run reports sit in `~/.local/state/ki/agents/ways-of-worki
 
 ## Messages
 
-- 2026-10-19 · TOOLS-KI-WRITER · KI > Foundations > Tools burndown: Kris, 19 October: tools-burndown is the tools-ki writer (OWNER-LANE, 16 October); please hand [KI-TOOL-KI-CLI-153](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-153-biome-schema-drift.md) to tools-burndown at a safe point, committing and pushing your own work or naming where it stopped
+None.
 
 ## Parked
 
