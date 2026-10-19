@@ -3,28 +3,25 @@ id: ki.regular
 level: regular
 title: 'KI > Regular'
 theme: null
+description: >-
+  Holds the territory's recurring regular work, defined in the Capital's Activity notes and self-coordinating, and
+  the ad hoc pieces it holds as ki.regular.<slug>; it creates work items in any repository. Takes Activity
+  occurrences and small one-off work with no Project. Not for territory dispatch (ki), Project work and a Project's
+  own recurring checks (ki.chezmoi, ki.observatory and the other Project works) or the registry removal
+  (ki.regular.registry-removal).
 worker: agent
 supervisor: owner
-state: on-hold
-hold:
-  reason: more-expected
-  release: new regular work arriving
-since: 2026-10-18T03:30:38Z
-received: null
-beat: null
 created_at: 2026-10-18T03:30:38Z
 ---
 
 # ki.regular
 
-## Next steps
+## Goals
 
-- New regular work, named in the brief; no checkpoint or thread exists yet.
+- Run the territory's [regular work](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Work Process/Work Process.md#levels-and-forms-of-work>) as the Work Process defines it.
+- Run each occurrence the Capital's [Activity notes](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Operations/Activities/Activities.md) define, sending work items down to the repository that executes them.
 
-## Messages
+## Scope
 
-- MIGRATED - this file was new until the work migration of 2026-10-18. At your next mark, cut it to next steps, Messages and the tags of parked queries, each linked to its report; move anything else to its durable home, then remove this line.
-
-## Parked
-
-None.
+- In: recurring occurrences under the Capital's Activity notes; new ad hoc regular work, seeded as `ki.regular.<slug>`; the work items these create in any repository.
+- Out: territory dispatch and the Project queue (ki); Project work and a Project's own recurring checks (ki.chezmoi, ki.observatory, ki.tools-burndown and the other Project works); the registry removal (ki.regular.registry-removal); the work model itself (ki.ways-of-working).
