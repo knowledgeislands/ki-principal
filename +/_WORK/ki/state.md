@@ -1,7 +1,7 @@
 ---
 id: ki
-state: with-worker
-since: 2026-10-19T22:08:00Z
+state: handoff-to-supervisor
+since: 2026-10-19T22:23:09Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-10-19T17:58:50Z
@@ -12,9 +12,10 @@ method_read: 84b61942
 
 ## Now
 
-- With worker since 23:08 BST on 19 October, on sol. Received at 18:58 BST and marked at 18:58 BST.
-- Running: `accept-awaiting` (ACCEPT-AWAITING, accepting every Awaiting review record territory-wide, no prune or push) and `query-review-3` (blind Codex review of ROADMAP-CAP, LANE-OWNERS and TECHNE-FOCUS).
-- Open with Kris: REVIEW-HOLD, HOMELESS-STANDING, MODEL-FALLBACK, THREADS-CHECKINS, TECHNE-FOCUS, CAPTURE-GATE, ROADMAP-CAP, LANE-OWNERS, BURN-WAVE-1. On the two runs' reports, send to Kris with the full Summary.
+- Handoff to supervisor since 23:25 BST on 19 October, on sol, with the full Summary. Received and marked at 18:58 BST.
+- Nothing running. `accept-awaiting` accepted 20 records in five repositories (not pushed); `query-review-3` reviewed the last three queries.
+- Open with Kris: REVIEW-HOLD, HOMELESS-STANDING, MODEL-FALLBACK, THREADS-CHECKINS, TECHNE-FOCUS, CAPTURE-GATE, ROADMAP-CAP, LANE-OWNERS, BURN-WAVE-1.
+- Unpushed: accepted records in ki-agentic-harness, ki-design, tools-ki, tools-rig and chezmoi; State of play's own commits in ki-principal.
 
 ## Queue
 

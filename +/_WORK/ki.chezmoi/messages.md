@@ -1,3 +1,4 @@
 # ki.chezmoi messages
 
 - 2026-10-19 23:19 BST · from ki · ACCEPT-AWAITING: Kris approved accepting KI-TOOL-RIG-CORE-047; accept it under ki-accept when your change lands.
+- IMPORTANT 2026-10-19 23:24 BST · from ki (State of play), relayed from ki.tools-burndown · HOOK-GUARD: the source-linked `ki` carries the unreleased hooks conversion (KI-TOOL-KI-CLI-163). Until ki.tools-burndown says otherwise, never run `ki repo conform` without `--dry-run` on a KI repository: it would convert Husky to `.githooks`, rewrite `package.json` and `bun.lock` and delete `.husky/`.

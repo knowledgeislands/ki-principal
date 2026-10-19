@@ -150,3 +150,9 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 - 23:17 BST: ki.chezmoi carries FW-DECLARE, FW-DECLARE-NOW, SSH-SPARE-KEY, SEAT-RECORD and TOML-OPENER in its own decisions log; strike them here at the next mark (CHEZMOI-CARRY closed). Line removed.
 - 23:18 BST: `roadmap-census` received (report kept until its queries are answered). CAPTURE-GATE and BURN-WAVE-1 are high and not destructive; ROADMAP-CAP, LANE-OWNERS and TECHNE-FOCUS dispatched to blind review as `query-review-3` under Codex.
 - 23:21 BST: `mcporter-route` received: MCPORTER-LEAK routed to ki.chezmoi, which owns the mcporter launchers and config (f468db5e). `live-man-switch-2` received: the idea is in Host network's Notes (b2877d36). No queries; briefs pruned.
+- 23:22 BST: `accept-awaiting` received: 20 records accepted as done in ki-agentic-harness, ki-design, tools-ki, tools-rig and chezmoi, Kris's words recorded in each, audits and hooks passing; not pushed. Two routed rather than touched: KI-TOOL-RIG-CORE-047 to ki.chezmoi (uncommitted changes, named by a running agent) and KI-TOOL-KI-CLI-163 to ki.tools-burndown. Brief pruned.
+- 23:23 BST: `query-review-3` received, blind. Agrees on TECHNE-FOCUS with bounds carried forward (raised to high); disagrees on ROADMAP-CAP (trial per-Project limits, set totals after two weekly measures) and LANE-OWNERS (assign by purpose, open ki.design, email routing already has HNR Email routing). queries.md updated; brief and the roadmap-census brief pruned.
+
+## 2026-10-19 23:24 BST - MESSAGES
+
+- HOOK-GUARD (IMPORTANT, ki.tools-burndown): relayed as an IMPORTANT line to every active ki work: ki.baseline-rollout, ki.chezmoi, ki.mac-studio-setup, ki.observatory, ki.specifications, ki.timelines, ki.ways-of-working. Skipped: ki.knowledge-acquisition(on-hold), ki.regular(on-hold), ki.regular.registry-removal(on-hold). Line removed.
