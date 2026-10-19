@@ -6,11 +6,11 @@ project: ways-of-working
 theme: model
 worker: agent
 supervisor: owner
-state: handoff-to-supervisor
-since: 2026-10-19T07:48:05Z
+state: with-worker
+since: 2026-10-19T11:04:18Z
 received: 2026-10-18T19:20:01Z
 beat: null
-mark: 2026-10-19T07:40:55Z
+mark: 2026-10-19T11:04:18Z
 created_at: 2026-10-09T20:58:00Z
 ---
 
@@ -18,16 +18,15 @@ created_at: 2026-10-09T20:58:00Z
 
 ## Next steps
 
-Sent to Kris at 08:49 BST on 19 October. Nothing is running. Run reports sit in `~/.local/state/ki/agents/ways-of-working/`.
+Marked at 11:15 BST on 19 October. Run reports sit in `~/.local/state/ki/agents/ways-of-working/`. SoP is back (11:05 BST); write nothing to `+/_WORK/ki/` this morning, and anything for SoP goes to Kris as a query.
 
-1. With Kris: SIZE-MEANING, SELECTION-ORDER, VALIDATOR-PARITY, FIELDS-MIGRATE, FIELDS-CORE and FIELDS-KEPT (from the two blind field views and size-priority-2); SOP-RESTART. On the answers, one follow-up run makes all field changes together in the harness and ki-principal, including the one-line GDR-KI-PRINCIPAL-005 alignment; tools-ki asks go to tools-burndown by Messages line (TOOLS-KI-WRITER).
-2. Landed: GDR-KI-PRINCIPAL-016; harness d9cd8718 and 7b8c4fb1; KI-TOOL-KI-CLI-155 at triage (tools-burndown's). Records cannot carry priority or size until a ki release accepts them.
-3. With ki.chezmoi (Messages line sent): KB-DOTFILES-UE-091 without linking ChatGPT, and the firewall declaration. Then Kris: attended Dock apply on Sol and attended `rig apply --sudo` on Terra then Sol; then acceptance runs for KI-TOOL-RIG-CORE-042 and -047.
-4. With tools-burndown: KI-TOOL-KI-CLI-153 review and acceptance, BIOME-CI capture, KI-TOOL-KI-CLI-155.
-5. Kris is on: the mgit hands-on check, then MGIT-RELEASE.
-6. QUERY-REVIEW (trial, three reviews so far, all useful): before each Summary, send its medium and low queries to one blind review run; capture a harness record for the ki-coordination standard at the next mark.
-7. At the next mark: recheck ki-principal and ki-agentic-harness CI; check whether desk-kit is closed; clear cli150-deliver's gate logs and close it.
-8. Outstanding, not this work's: DESK-CAM with Mac Studio setup; pre-existing CI red in apps-observatory.local, mcp-m365, tools-mgit and ki-techne-harness; acquire-intake's ACQUIRE-DECISIONS-LINKS Messages line; other sessions' untracked KI-HARNESS-GOV-220 and KI-TOOL-KI-CLI-154.
+1. Running: fields-follow-up (SIZE-MEANING, SELECTION-ORDER, FIELDS-MIGRATE, FIELDS-CORE and FIELDS-KEPT into the harness standard and checkers; amend GDR-KI-PRINCIPAL-016 and align GDR-KI-PRINCIPAL-005; name the migration inventory and per-repository counts). Then Kris approves per-repository mechanical migration runs one by one.
+2. With tools-burndown (Messages line sent 11:15): VALIDATOR-PARITY record after KI-TOOL-KI-CLI-155, plus the `ki work` sort, gap listing and checks to match; KI-TOOL-KI-CLI-155 and KI-TOOL-KI-CLI-156 at triage.
+3. With ki.chezmoi (Messages line RIG-LIVE): KB-DOTFILES-UE-091 without ChatGPT and the firewall declaration; then Kris's attended Rig applies; then acceptance of KI-TOOL-RIG-CORE-042 and -047.
+4. Kris is on: the mgit hands-on check, then MGIT-RELEASE.
+5. QUERY-REVIEW (trial, three reviews): capture the harness record for the ki-coordination standard with fields-follow-up's harness work or the next run.
+6. At the next mark: confirm the 11:12 SoP-note commit reached the remote (PUSH-STACKED a)); recheck ki-principal and harness CI; check desk-kit closed; clear cli150-deliver's gate logs and close it.
+7. Outstanding, not this work's: DESK-CAM; pre-existing CI red in apps-observatory.local, mcp-m365, tools-mgit and ki-techne-harness; acquire-intake's ACQUIRE-DECISIONS-LINKS; untracked KI-HARNESS-GOV-220 and KI-TOOL-KI-CLI-154.
 
 ## Messages
 

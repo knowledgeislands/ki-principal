@@ -215,9 +215,7 @@ Read back as taken: Terra and Sol run Rig v0.7.0 (RIG-UPGRADE-MACHINES a)); the 
 
 ## 2026-10-19 08:06 BST - owner request, SIZE-PRIORITY
 
-Kris, through the SIZE-PRIORITY Messages line from Tools burndown and this session's opener: "work should have a size and a priority, even if its horizon isn't now or next"; settle the priority and size vocabularies, make both required on every record from capture whatever its horizon, for roadmap and KB Streams records, in ki-work-roadmap's work-item format and the ki-work crosswalk; record it in a Governance Decision Record reversing the 15 October PRIORITY-FIELD answer; hand tools-ki a follow-up to stop warning on `priority` and warn, then fail, on a missing field after a migration window; "Bring me the vocabulary and migration-window choices as queries before any standard or validator changes".
-
-Read back as taken: no standard, record or validator changes until Kris answers PRIORITY-VOCAB, SIZE-VOCAB, SIZE-BACKFILL and SIZE-WINDOW. The findings in the Messages line stand as context (no standard defines either field; tools-ki `src/core/work/items.ts` warns on `priority` since `6aa676a0`; none of 367 records carries either beyond legal-principal's five being restored; GDR-KI-PRINCIPAL-009 silent).
+Pointer: carried by [GDR-KI-PRINCIPAL-016](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-016-priority-and-size-on-work-records.md); Kris's words are in Git history.
 
 ## 2026-10-19 08:07 BST - mark
 
@@ -225,11 +223,7 @@ Kris: "mark". MARK struck at 08:07 BST (2026-10-19T07:07:16Z). Struck at this ma
 
 ## 2026-10-19 08:14 BST - owner answers, mark recap
 
-Kris: "do all recommendations including any pushes needed". Taken as a) on all seven: CLI-150-ACCEPT a) accept KI-TOOL-KI-CLI-150 as delivered, the three minor points recorded as known limits; PRIORITY-VOCAB a) high, medium, low; SIZE-VOCAB a) s, m, l, xl with one-line meanings, xl meaning split before Ready; SIZE-BACKFILL a) owners backfill by judgement, `ki work` lists the gaps; SIZE-WINDOW a) warn from the next ki release with capture requiring both fields, fail in the first release after `ki work` shows no gaps estate-wide; PUSH-MARK a) push, carrying ki.observatory's 5245a84; REJECTED-CALL a) keep the SIZE-PRIORITY entry. Authorises: accept-release (accept CLI-150, then KI-RELEASE-NEXT a): Verify 6, release ki v0.11.4, move the ki-principal CI pin, push) after biome-fix; size-priority (harness standard change, GDR reversing PRIORITY-FIELD, tools-ki handoff record, push).
-
-## 2026-10-19 08:19 BST - owner request, QUERY-REVIEW
-
-Kris: "I've been thinking a bit more about recommendation confidence for queries. So I think what would be good is to get some kind of little review going, maybe out to a sub-agent ... you could get the recommendation based on another agent ... ask a higher level model with reasoning to help with a decision. Especially ... where the recommendation is medium and especially if it's low, to try and help improve the confidence that we have around the recommendation." Shape proposed to Kris; nothing launched yet.
+Pointer: carried by [GDR-KI-PRINCIPAL-016](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-016-priority-and-size-on-work-records.md); Kris's words are in Git history. CLI-150, PUSH-MARK and REJECTED-CALL were carried out the same morning.
 
 ## 2026-10-19 08:22 BST - owner answer, QUERY-REVIEW
 
@@ -237,7 +231,7 @@ Kris: "QUERY-REVIEW - agreed, make it so". Taken as a): from the next Summary, e
 
 ## 2026-10-19 08:35 BST - owner answers, ITEM-FIELDS
 
-Kris, on the field survey: "1. I'm not sure they overlap, horizon is about when, and then priority is about how important. changing horizon does change priority. I think it matter more when there is a lot of items in the roadmap and choosing what is next. so lets add it. if there isn't a priority today, default to `medium` 2. yes, I think size is useful and it allows us to visualise the efforts involved in the work, and like you say, its useful in guiding to split work up. 3. we should tighten up a little 4. yes, clean up then please". Taken as: priority (high, medium, low) added beside horizon, an absent priority reading as `medium`; size (s, m, l, xl) added to show effort and guide splitting, owners backfilling by judgement; tighten: tools-ki fails what the harness audit fails (retired horizons, missing `kind` on adopted records) after the same warn window, `ki work` listing the gaps; clean up barely used or dead fields and values (`resolution_target`, purpose `adoption`, kind `decide`, `task_links`, `initiative`), keeping any that prove load-bearing with the reason. Supersedes the 08:14 SIZE-BACKFILL answer for priority only. Authorises: size-priority-2, resuming the stopped run's uncommitted harness edit.
+Pointer: carried by [GDR-KI-PRINCIPAL-016](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-016-priority-and-size-on-work-records.md); Kris's words are in Git history.
 
 ## 2026-10-19 08:40 BST - owner answers, Summary queries
 
@@ -247,10 +241,14 @@ Kris: "Go with the recommendations with the following: FIELDS in general, can yo
 
 MARK struck at 08:40 BST (2026-10-19T07:40:55Z). Struck: the ITEM-FIELDS discussion request (survey reported, answers logged) and the stop of size-priority (its edit taken over by size-priority-2).
 
-## 2026-10-19 08:42 BST - owner request, TOOLS-KI-WRITER
-
-Kris, via the Messages line from Tools burndown: "tools-burndown is the tools-ki writer (OWNER-LANE, 16 October); please hand KI-TOOL-KI-CLI-153 to tools-burndown at a safe point, committing and pushing your own work or naming where it stopped". Done: tools-ki-153 stopped during its read-only review, nothing written in tools-ki; KI-TOOL-KI-CLI-153 (Awaiting review) and the BIOME-CI a) capture handed to tools-burndown by Messages line; tools-burndown arranges the independent review and brings it to Kris. size-priority-2's one tools-ki handoff record stands under cross-repository choreography, tools-burndown owning it once captured. This work writes nothing else in tools-ki.
-
 ## 2026-10-19 11:12 BST - owner note, SoP restarted
 
 Kris: "KI > SoP is back and coordinating the Knowledge Islands territory, resumed on sol at 11:05 BST on 19 October ... It reads your work file directly, so there is nothing to report back here ... Send anything another piece of work must act on as a dated Messages line in that work's own work file. Do not write to +/_WORK/ki/ this morning, because a restock run is rewriting it; anything for SoP goes to Kris as a Needs-tagged query instead. Push only your own commits; name anyone else's stacked commits to Kris." SOP-RESTART answered by the restart itself.
+
+## 2026-10-19 12:04 BST - owner answers, 11:13 Summary
+
+Kris: "do everything recommended", then "mark". Taken as a) on all seven: SIZE-MEANING a) size as relative end-to-end effort with delivery-shape examples, provisional at capture and revisited before Ready, Ready with xl fails; SELECTION-ORDER a) adoption, holds and dependencies, then horizon, then priority, then size smallest first, priority never crossing horizons, with Codex's meanings for high, medium and low; VALIDATOR-PARITY a) tools-burndown captures a shared rule table record after KI-TOOL-KI-CLI-155, the harness the source; FIELDS-MIGRATE a) per-repository mechanical migration runs each approved by Kris, kind and size proposed and owner-confirmed, closed records exempt, inventory named, window closing on a complete no-gaps scan or a date backstop, whichever first; FIELDS-CORE a) theme comes from the Project, naming both fails after the window; FIELDS-KEPT a) keep decide, resolution_target and task_links, revisit task_links at Wave F; PUSH-STACKED a) do not push over others' commits. Authorises: fields-follow-up (harness and ki-principal), a Messages line to tools-burndown.
+
+## 2026-10-19 12:04 BST - mark
+
+MARK struck at 12:04 BST (2026-10-19T11:04:18Z). Struck: TOOLS-KI-WRITER (handover done, KI-TOOL-KI-CLI-153 accepted by tools-burndown) and the QUERY-REVIEW request (its answer governs). Reduced to pointers: SIZE-PRIORITY request, mark-recap answers and ITEM-FIELDS answers, now carried by GDR-KI-PRINCIPAL-016.
