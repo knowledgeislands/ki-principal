@@ -13,8 +13,8 @@ For each, recommend live (still-open work that should return to `+/_WORK/`, nami
 
 ## Boundaries
 
-Write nothing except your report. Commit only the report, by explicit path, with the subject `docs(work): ki review-hold report`. Do not push. If the index is locked, wait and retry.
+Write nothing except your report, and commit nothing.
 
 ## Report
 
-Write `+/_WORK/ki/review-hold.report.md`: a table per item (item, repository, live or dead, reason, confidence, evidence path), then one query `### REVIEW-HOLD - live or dead for six held work folders` with Context, Query and Options, a) recommended with its confidence.
+Report to the path your run packet names, which the launcher homes in the work folder: a table per item (item, repository, live or dead, reason, confidence, evidence path), then one query `### REVIEW-HOLD - live or dead for six held work folders` with Context, Query and Options, a) recommended with its confidence.

@@ -10,8 +10,8 @@ You are a detached background agent for KI > SoP, the territory's State of play 
 
 ## Boundaries
 
-Write only `+/_WORK/ki/decisions.md`, `state.md`, `work.md` and your report. If another session's change conflicts, keep theirs and stop.
+Write only `+/_WORK/ki/decisions.md`, `state.md` and `work.md`, plus your report at the run packet's path. If another session's change conflicts, keep theirs and stop.
 
 ## Report
 
-Write `+/_WORK/ki/sop-mark.report.md`, committed with your work: the outcome (entries struck, pointered and kept; file size before and after), any entry you kept because unsure, and any query as `### <TAG> - <title>` with Context, Query and Options, a) recommended with its confidence.
+Report to the path your run packet names, which the launcher homes in the work folder: the outcome (entries struck, pointered and kept; file size before and after), any entry you kept because unsure, and any query as `### <TAG> - <title>` with Context, Query and Options, a) recommended with its confidence.
