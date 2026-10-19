@@ -13,9 +13,10 @@ method_read: f4d6c521
 ## Now
 
 - With worker since 23:45 BST on 19 October, on sol, acting on Kris's answers (ANSWERS, 19 October). Received at 18:58 BST; marked at 23:46 BST at Kris's word (`sop-mark-2` strikes the decisions log).
-- Running: `review-hold-apply`, `techne-focus`, `email-routing-hold`, `sop-mark-2`. Each lane has its burn-down line (BURN-WAVE-1, LANE-OWNERS, CAPTURE-GATE).
+- Running: `review-hold-apply`, `techne-focus`, `sop-mark-2`. Each lane has its burn-down line (BURN-WAVE-1, LANE-OWNERS, CAPTURE-GATE).
 - KI-TOOL-RIG-CORE-047 stays Awaiting review with ki.chezmoi until its NordVPN checks and Terra's `rig apply --sudo` run, or Kris narrows it.
 - TRIAGE-ALL (23:47 BST, 19 October), to log in decisions.md once `sop-mark-2` commits: "Okay, there's a lot of items in triage. I need them all triaging. So I want them all running out with the high order functions and anything which is High confidence recommended. Let's move it into now and get it done. Especially to focus on anything to do with the tools burn-downs first." Taken as: every lane triages all its triage records now, high-confidence adoptions go straight to Now and are delivered, the rest come to Kris; ki.tools-burndown first. IMPORTANT route lines sent to the five lanes.
+- 23:49 BST, to log once `sop-mark-2` commits: `email-routing-hold` received. All 12 are held (mcp-m365 `fdd6708`, mcp-gsuite `2fd5471`, not pushed), and EMAIL-OWNER is copied to queries.md for blind review. Follow-up with no record: drop the dangling `KI-MCP-M365-TOOL-010` from KI-MCP-M365-TOOL-012's `blocked_by`.
 - No roadmap cap (ROADMAP-CAP, 19 October): the focus is getting through the burn-down.
 
 ## Homeless
