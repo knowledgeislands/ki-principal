@@ -2,6 +2,20 @@
 
 ## Open
 
+### MGIT-GO - Accept KI-TOOL-MGIT-CLI-023 and cut the mgit release
+
+since 2026-10-19 · from the MGIT-RELEASE message
+
+**Context:** Through ki.ways-of-working: you ran the hands-on check of [KI-TOOL-MGIT-CLI-023](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-023-hands-on-behaviour-check.md) and it passed, and MGIT-RELEASE a) asks for acceptance with you and then one mgit release. The record still reads `draft`. [KI-TOOL-MGIT-CLI-028](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-028-learn-majority-output.md) is also Awaiting review. The mgitrel run records your check, prepares both for acceptance and builds the release locally, after the burndown run's tools-mgit prunes; it stops before the tag.
+
+**Query:** May I accept KI-TOOL-MGIT-CLI-023 on your passed check and cut, push and publish the mgit release once the tools-mgit gate passes?
+
+**Options:**
+
+a) (recommended, confidence high - your check passed and MGIT-RELEASE a) asks for exactly this, gated on verification) Yes, accept KI-TOOL-MGIT-CLI-023, and cut the release when the gate passes; KI-TOOL-MGIT-CLI-028 rides with it only if you accept it in the burndown acceptance batch.
+
+b) Bring the acceptance and the finished release back to you before the tag.
+
 ### KI-RELEASE-GO - Cut the ki patch release once it is ready
 
 since 2026-10-19 · from the KI-PATCH-RELEASE message
