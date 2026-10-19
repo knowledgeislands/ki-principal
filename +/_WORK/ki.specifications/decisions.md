@@ -37,3 +37,9 @@ Read back taken:
 - CONFORMANCE-LEVELS a) - one validity level per spec, soft limits warned.
 - "all the things" - the plan run's steps start when it reports, within these answers; nothing is published or pushed on this authority, and the plan's own queries come back first.
 - PROJECT-NAME and ENTRY-NAMES are not taken: their blind review disagreed with option a) and Kris had not seen it; asked in one line each.
+
+## 2026-10-19 23:35 BST - owner decision, ENTRY-NAMES
+
+Kris: "Yeah, I think entry name should be uppercase, I think that's a good idea. It seems to be the convention, right?"
+
+Read back taken: ENTRY-NAMES a) - upper-case entry files for all three, `WORK.md`, `KNOWLEDGE.md` and `ACQUIRE.md`, with the house work package renaming `work.md` to `WORK.md`; that rename is ki.ways-of-working's, routed to its `messages.md`.

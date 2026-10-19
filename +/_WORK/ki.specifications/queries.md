@@ -12,27 +12,11 @@ since 2026-10-19 · from create-project · reviewed by query-review, 19:43 BST
 
 **Options:**
 
-a) (recommended, confidence medium - review disagrees; both end in KI Specifications and the paused one has nothing in flight, but this widens a Project Kris paused) Fold the paused Project into this one: conform `specifications.md` to a new outcome covering the three specs, their home, publication and the move into KI Specifications, carrying the repository review and the KBEP and KBIP dispositions as a later step, and rewrite its `Projects.md` entry; the work id stays `ki.specifications`.
+a) (recommended, confidence high - reviewed; the two outcomes differ, the paused one waits on its own release, and Kris asked for a new Project) Keep the paused Project as it is and give this one a new slug, such as `portable-specifications`, renaming this work folder and its id to match.
 
-b) Keep the paused Project as it is and give this one a new slug, such as `portable-specifications`, renaming this work folder and its id to match.
+b) Fold the paused Project into this one: conform `specifications.md` to a new outcome covering the three specs, their home, publication and the move into KI Specifications, carrying the repository review and the KBEP and KBIP dispositions as a later step, and rewrite its `Projects.md` entry; the work id stays `ki.specifications`.
 
 c) Rename the paused Project, such as to `ki-specifications-review`, with its registry entry and links, and give this Project the `specifications` slug.
-
-### ENTRY-NAMES - Upper-case entry files for the three packages
-
-since 2026-10-19 · from spec-drafts · reviewed by query-review, 19:43 BST
-
-**Context:** Agent Skills names a package's entry file `SKILL.md` and keeps every other file lower-case. The drafts follow that with `WORK.md`, `KNOWLEDGE.md` and `ACQUIRE.md`. The live work-package contract requires a lower-case `work.md`, and names tools that depend on it, so upper case means a case-only rename of each live `work.md`, which ki.ways-of-working would carry during its current migration pass, needing a two-step `git mv` on macOS. The blind review recommends c) instead, at medium confidence: Agent Skills fixes one filename, `SKILL.md`, rather than a general rule that entry files are upper case, so the analogy brings no shown interoperability gain for the cost of changing the live contract.
-
-**Query:** Should the entry files be upper case, `WORK.md`, `KNOWLEDGE.md` and `ACQUIRE.md`, as Agent Skills does?
-
-**Options:**
-
-a) (recommended, confidence medium - review disagrees; it matches Agent Skills and marks the entry file at a glance, at the cost of one rename across the estate) Upper case for all three, with the house work package renaming `work.md` to `WORK.md` in the current migration pass.
-
-b) Upper case for `KNOWLEDGE.md` and `ACQUIRE.md` only, keeping `work.md` as built, so the work spec is the one exception.
-
-c) Lower case for all three: `work.md`, `knowledge.md` and `acquire.md`.
 
 ## Parked
 
