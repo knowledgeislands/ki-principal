@@ -1,7 +1,7 @@
 ---
 id: ki.observatory
-state: handoff-to-supervisor
-since: 2026-10-19T19:13:00Z
+state: with-supervisor
+since: 2026-10-19T19:15:00Z
 received: 2026-10-19T19:13:00Z
 beat: null
 mark: 2026-10-19T18:02:00Z
@@ -12,7 +12,7 @@ method_read: 2026-10-19T18:02:00Z
 
 ## Now
 
-- Sent to Kris at 20:13 BST on 19 October with NARROW-DECLARE open; marked at 19:02 BST. Nothing is running.
+- With Kris since 20:15 BST on 19 October; NARROW-DECLARE answered a) at 20:15 BST, needing no change; no authorised work remains; marked at 19:02 BST. Nothing is running.
 - Received obs-declare-review at 20:13 BST: the review agrees with keeping the declaration, so NARROW-DECLARE goes to Kris at high confidence.
 - Received obs-answers-2 at 20:12 BST: KI-OBSERVA-APP-044, KI-OBSERVA-BCN-008, KI-OBSERVA-VIS-030 and KI-OBSERVA-VIS-031 reworded to large screens first, not only, with the narrow rule and test kept; KI-OBSERVA-VIS-042 carries OVERLAY-SYNC, depending on KI-HARNESS-GOV-224; commit 9f56976, local.
 - Received obs-viewer-sync at 20:11 BST: KI-HARNESS-GOV-224 (diagram viewer receipts, triage) captured and KI-HARNESS-GOV-223 set to `founding`, `growing`, `settled`, `thriving`; three local commits in ki-agentic-harness, unpushed.
@@ -24,7 +24,7 @@ method_read: 2026-10-19T18:02:00Z
 
 ## Next steps
 
-1. Act on Kris's NARROW-DECLARE answer.
+1. Awaiting Kris's next steer; the items below wait on their own decisions or other threads.
 2. Four triage records await a later merge decision: KI-OBSERVA-VIS-029, KI-OBSERVA-VIS-032, KI-OBSERVA-VIS-033, KI-OBSERVA-VIS-034.
 3. Four done records (KI-OBSERVA-APP-042, KI-OBSERVA-VIS-023, KI-OBSERVA-VIS-024, KI-OBSERVA-BRG-002) stay until their peer links and BRG-002's frozen figure are re-pointed.
 4. `ki work status` (installed `ki` 0.11.4) is blind to five-file packages until ki.tools-burndown changes the tools-ki reader.
