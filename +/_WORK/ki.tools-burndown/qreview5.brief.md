@@ -1,0 +1,3 @@
+# qreview5 - blind review of one query
+
+Read-only. Read /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/design/qreview5.options.md, tools-ki's `src/core/repository/hooks.ts` and KI-TOOL-KI-CLI-163, Knip's documentation on its Husky and lint-staged plugins if you need it, and the ki-engineering Knip guidance in ki-agentic-harness. Do not read any `*.report.md`, `queries.md`, `decisions.md` or `state.md`. Choose the option you recommend, give confidence high, medium or low with a one-line reason, and note any missed option (for example Knip configuration that detects hooks in `.githooks` directly). Report under Done, In Progress and Queries, British English, ASCII hyphens. No edits, commits or pushes.
