@@ -459,3 +459,9 @@ Stop on unexpected differences. Once Sol passes, prepare removal of [locals] fro
 home: +/_WORK/ki.chezmoi/work.md class: operational
 
 - well its more so the hooks that are using lint-staged, I think they should be silent if nothing staged
+
+## Decision 99 (2026-10-19T17:10:24Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- ok
