@@ -2,65 +2,45 @@
 
 ## Open
 
-### FEED-HOME - Where a private base without a site publishes its dates
+### FEED-HOME - Where a private base without a site publishes
 
-since 2026-10-19 · from [tl-design](/Users/krisbrown/.local/state/ki/agents/timelines/tl-design.report.md) · held for the merged report and blind review, not yet with Kris
+since 2026-10-20 · from [tl-merge](/Users/krisbrown/.local/state/ki/agents/timelines/tl-merge.report.md) · held for blind review (tl-qreview)
 
-**Context:** legal-principal and personal-principal have no site, and their dates are private. legal's include court dates. 5G serves public static `.ics` files, with a bypass around its Cloudflare Access gate. The Observatory listens only on the local machine, so no phone or hosted calendar can reach it. Subscribed calendars probably don't count towards the subscriber's own free/busy, so the settled `busy` flag only blocks time when items are written into the owner's own calendar. That claim is for the reviewers to check. `mcp-gsuite` and `mcp-m365` can already write calendar events.
+**Context:** legal-principal and personal-principal have no site, and their dates are private. legal's include court dates. The brief proposed writing them into Kris's own Google or Microsoft calendar through `mcp-gsuite` and `mcp-m365`. The code shows neither can do that yet. Google's create tool takes only timed start and end values, and has no field for free/busy, all-day dates or a stable event key. The Microsoft server has no update tool and can only write to the default calendar. Whether a subscribed calendar counts towards free/busy is untested; both reviewers relied on memory of how the clients behave. Kris asked for sets people can subscribe to. A dedicated Google calendar has its own private subscription address, which would cover that, but this also comes from memory and is untested.
 
-**Query:** Where should a private base without a site publish its calendar sets?
+**Query:** How should private calendar sets be published?
 
-**Options:** a) (recommended, confidence medium - keeps private dates off any public URL and makes `busy` actually block time, but replaces "subscribe" with "write into" and needs a write credential; the coordinator will send this for blind review) Account sync: write each private set into a dedicated calendar in the owner's Google or Microsoft account through the existing MCP servers. Re-runs are keyed by event UID, so they update events rather than duplicate them. Sites keep static feeds for public sets. b) A capability URL: an unguessable feed path on a public host. This keeps the subscribe model, but anyone who gets the URL sees every date. c) A private feed host behind a token-checking Cloudflare Worker. This means new infrastructure to build and secure.
-
-### SPAN-FEED - How a feed carries a span
-
-since 2026-10-19 · from [tl-design](/Users/krisbrown/.local/state/ki/agents/timelines/tl-design.report.md) · held for the merged report and blind review, not yet with Kris
-
-**Context:** Kris settled that a span never takes busy time and may show in the timeline view. How a feed carries one was left open. The brief gives items three types: milestone, event (including multi-day events such as 5G's JCB on 3-4 November) and span. Most of legal's "waiting on other side" rows are really single dates by which someone else should act.
-
-**Query:** Should spans appear in calendar feeds at all?
-
-**Options:** a) (recommended, confidence medium - the calendar stays milestone-centred and nothing can block time by mistake; the coordinator will send this for blind review) No. Spans appear only in the timeline view. Where a span's end matters, that end is its own milestone item, which can go in a feed. The rubric fails a busy span. b) Feeds carry spans as free all-day blocks across their dates. c) Feeds carry only a span's start and end as two free markers.
-
-### SKILL-SHAPE - One skill or a skill plus a view
-
-since 2026-10-19 · from [tl-design](/Users/krisbrown/.local/state/ki/agents/timelines/tl-design.report.md) · held for the merged report and blind review, not yet with Kris
-
-**Context:** The views are the 5G site's List, Months and Runway views, and in a knowledge base, a generated timeline. The site rendering already belongs to the website skills, and in a base the live-artifact skill governs a Markdown source paired with rendered HTML.
-
-**Query:** Should the timeline view live in the same skill as the dated items and feeds, or in its own skill?
-
-**Options:** a) (recommended, confidence medium - the view is generated from the same model, and the existing website and live-artifact skills already own its rendering; the coordinator will send this for blind review) One skill. It owns the item model, the feeds and a view JSON contract. Sites render that JSON with their own stack, and bases render it as a live-artifact pair. b) A dated-items skill plus a separate timeline-view skill.
+**Options:** a) (recommended, confidence medium - honours "publish ... to subscribe to" once proved, keeps court dates off any public URL, and promises nothing the connectors cannot do yet; the coordinator will send this for blind review) Keep private sets unpublished in v1, shown in the base's generated view. Build account sync as a separate adapter after the connector work, prove it on a test calendar and then on a few personal dates, and use the provider calendar's private address for subscribing on other devices. b) Account sync now, as the brief proposed. This first needs the connector work. c) An unguessable feed URL on a public host, chosen base by base. Anyone who gets the URL sees every date. d) A private feed host behind a token-checking Cloudflare Worker. New infrastructure to build and secure.
 
 ### SKILL-NAME - The skill's name
 
-since 2026-10-19 · from [tl-design](/Users/krisbrown/.local/state/ki/agents/timelines/tl-design.report.md) · held for the merged report and blind review, not yet with Kris
+since 2026-10-20 · from [tl-merge](/Users/krisbrown/.local/state/ki/agents/timelines/tl-merge.report.md) · held for blind review (tl-qreview)
 
-**Context:** The naming decision ADR-KI-HARNESS-SKILLS-003 asks for a plural name when the skill governs a collection, and none of the three candidates is taken. `ki-calendars` suggests busy-time calendars, which Kris set aside in favour of milestones. "Timeline" is already a diagram type in `ki-diagrams` and Archify. "Key dates" names the single source that both outputs come from.
+**Context:** The naming decision ADR-KI-HARNESS-SKILLS-003 allows all three names, and none is taken. The brief said "timeline" clashes with `ki-diagrams`. The source shows otherwise: `ki-diagrams` never mentions timelines, though Archify does list timeline diagrams. "Calendar" is already the name of the `Calendar/` folder for daily and weekly notes in every base. Kris's own words were "a calendar with the milestones". Both reviews favour `ki-key-dates`.
 
 **Query:** Which name should the skill take?
 
-**Options:** a) (recommended, confidence medium - it names the canonical source rather than one output, and avoids both the busy-calendar reading and the clash with timeline diagrams; the coordinator will send this for blind review) `ki-key-dates`. b) `ki-calendars`. c) `ki-timelines`, matching the Project's name.
+**Options:** a) (recommended, confidence medium - names the stored source rather than one output, and avoids both the clash with the `Calendar/` folder and the busy-calendar reading; the coordinator will send this for blind review) `ki-key-dates`. b) `ki-calendars`, matching Kris's words. c) `ki-timelines`, matching the Project's name.
 
-### CODE-HOME - Where the extracted code lives
+### ADOPTION-ORDER - The order of adoption
 
-since 2026-10-19 · from [tl-design](/Users/krisbrown/.local/state/ki/agents/timelines/tl-design.report.md) · held for the merged report and blind review, not yet with Kris
+since 2026-10-20 · from [tl-merge](/Users/krisbrown/.local/state/ki/agents/timelines/tl-merge.report.md) · held for blind review (tl-qreview)
 
-**Context:** `ics.ts` and the view logic have no dependencies. `ki-diagrams` already keeps generator scripts inside the skill. Kris prefers a vendored copy with a drift check, or a pinned reference, over publishing a package. The 5G site imports the feed builder when it builds.
+**Context:** Kris named the first adopters as legal-principal, personal-principal and 5G Emerge. 5G already has the component and a host, so it can prove the extracted code behaves the same, but its data has no times, spans or private dates. legal has the most urgent dates, running to February 2027. The reviews agree on splitting legal into a local part and a sync part, and on testing any write to a real calendar on low-stakes data before court dates.
 
-**Query:** Where should the shared feed builder, item model and rubric live?
+**Query:** In what order should the bases adopt the skill?
 
-**Options:** a) (recommended, confidence medium - it follows the `ki-diagrams` precedent and Kris's preference for shared code, and it needs no package publication; the coordinator will send this for blind review) In the skill's own `scripts/` in the harness. 5G vendors a copy with a drift check, and `tools-ki` gains a command only if a stable machine contract is needed later. b) A `ki` command in `tools-ki` that owns building and syncing. c) A shared package used through a workspace or a pinned Git reference.
+**Options:** a) (recommended, confidence medium - keeps Kris's three adopters, gets legal its view early with no credentials, and keeps the first real calendar write away from court dates; the coordinator will send this for blind review) 5G first, as a pilot proving the feeds come out unchanged. Then 5G's timeline merge and legal's local timeline. Then the sync adapter, proved on a test calendar and then on a few personal dates. legal's sync comes last. b) The brief's order: 5G, then all of legal, then personal-principal. c) legal first, for its urgent dates.
 
-### ADOPTION-ORDER - Which base adopts first
+### TIMED-BUSY - A busy item with a time but no end
 
-since 2026-10-19 · from [tl-design](/Users/krisbrown/.local/state/ki/agents/timelines/tl-design.report.md) · held for the merged report and blind review, not yet with Kris
+since 2026-10-20 · from [tl-merge](/Users/krisbrown/.local/state/ki/agents/timelines/tl-merge.report.md) · held for blind review (tl-qreview)
 
-**Context:** 5G already has the component and a public host, so adopting it there proves the extracted code behaves the same, with feeds unchanged except for `PRODID` and the busy properties, and removes its duplicate timeline list. legal has the most time-critical value, with dates running to February 2027, and is the first to use times, spans and private sync. personal-principal first needs its dates moved out of prose into frontmatter.
+**Context:** In the calendar standard, a timed event with no end takes no time at all, so marking it busy blocks nothing. Kris settled "never invent a time or duration". legal already records a numeric `duration_minutes` field, which can supply a real end. Both reviews raised the gap.
 
-**Query:** What is the adoption order?
+**Query:** How should a busy item with a time but no end be handled?
 
-**Options:** a) (recommended, confidence medium - the lowest-risk pilot proves the extraction before the private-sync work; the coordinator will send this for blind review) 5G Emerge as the pilot, then legal-principal, then personal-principal. b) legal-principal as the pilot for early value, then 5G Emerge, then personal-principal.
+**Options:** a) (recommended, confidence medium - keeps "never invent a duration" while making busy mean something; the coordinator will send this for blind review) The checks require a real end, either an end time or `duration_minutes`, and fail the item without one. b) Write it as an all-day busy item, which blocks the whole day. c) Allow it and write it with no duration, which blocks nothing.
 
 ## Parked
 

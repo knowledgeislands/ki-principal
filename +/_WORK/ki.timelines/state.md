@@ -1,7 +1,7 @@
 ---
 id: ki.timelines
 state: with-worker
-since: 2026-10-19T22:32:29Z
+since: 2026-10-19T23:28:37Z
 received: 2026-10-19T22:26:30Z
 beat: null
 method_read: 84b61942
@@ -11,13 +11,14 @@ method_read: 84b61942
 
 ## Now
 
-- tl-design wrote the [design brief](design/timelines-skill-brief.md); its six design queries are in `queries.md`, held for the merge.
-- The Fable review is in [design/timelines-skill-review-fable.md](design/timelines-skill-review-fable.md). The first Astra run started on `gpt-6.1-sol` by mistake and stopped (MODEL-RUN); relaunched on `gpt-6-astra`, with tl-merge relaunched and held until it finishes (SECOND-REVIEW, option a).
-- Last mark 19:03 BST; the survey is [design/survey.md](design/survey.md).
+- Kris is away overnight under OVERNIGHT-AUTONOMY (`decisions.md`): high-confidence recommendations are taken, the rest held.
+- The [merged report](design/timelines-skill-report.md) is in, built on the Fable and Astra reviews; its four high-confidence queries are decided (DESIGN-HIGH).
+- Running: tl-qreview, a blind Codex review of FEED-HOME, SKILL-NAME, ADOPTION-ORDER and TIMED-BUSY; brief [tl-qreview.brief.md](tl-qreview.brief.md).
+- Last mark 19:03 BST on 19 October.
 
 ## Next steps
 
-1. Receive tl-merge; send its medium- and low-confidence queries to one blind review; give Kris a Summary.
+1. Receive tl-qreview; take any query that reaches high; then brief the next `ki-work-design` stage (rollout plan and handoffs) on what is decided.
 2. KI-HARNESS-GOV-222 still names `project: observatory`; moving it is the harness's call.
 3. legal-principal's "FR Timeline to FDR" gantt stays as Mermaid meanwhile (DIAGRAM-GANTT, ki.observatory).
 
