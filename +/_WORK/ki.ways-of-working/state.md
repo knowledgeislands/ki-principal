@@ -15,7 +15,7 @@ method_read: eff6163b
 - Received from Kris at 20:28 BST: DESIGN-AT-MARK a); design-clause done (harness `9c17df3c`); design-triage received; DESIGN-DELETE a) from Kris at 21:25 BST; design-delete received at 21:29 BST (26 deleted); mark struck at 21:25 BST; the list then goes to blind review and to Kris before any deletion.
 - GFM-MIGRATION unparked by Kris at 21:28 BST; gfm-scope received at 21:34 BST; gfm-review received at 21:41 BST; five GFM queries and METHOD-READ-RUBRIC with Kris.
 - METHOD-READ-CAPITALS from Kris at 21:34 BST; method-read-capitals received at 21:36 BST, seven capitals (ran on a misreading; Kris meant GFM); GFM-CAPITALS follows the GFM answers.
-- GFM decided by Kris at 22:00 BST (all recommended; TOUCH-SCOPE open); gfm-principal received at 22:07 BST (KI-PRINCIPAL-OPS-014, ki pin `v0.11.5`); gfm-harness running, steered on LINK-1 red.
+- GFM decided by Kris at 22:00 BST (all recommended; TOUCH-SCOPE open); gfm-principal received at 22:07 BST (KI-PRINCIPAL-OPS-014, ki pin `v0.11.5`); gfm-harness received at 22:09 BST (pushed `af4cb478`); link1-baseline running to stop LINK-1 turning existing islands red.
 - ROUND-END (20:32 BST): after the design runs, the reviewed delete list and Kris's confirmation, hand pointers to State of play and hold, more expected.
 - Run reports sit in `~/.local/state/ki/agents/ways-of-working/`.
 

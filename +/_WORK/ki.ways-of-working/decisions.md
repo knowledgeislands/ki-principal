@@ -432,3 +432,7 @@ From ki.tools-burndown at 21:42 BST: ki `v0.11.5` is published; `.github/ki-vers
 ## 2026-10-19 22:07 BST - received gfm-principal
 
 gfm-principal: plan note `design/gfm-migration.md`; record KI-PRINCIPAL-OPS-014 (triage, blocked by the harness rules and the converter); GFM-CONVERTER line to ki.tools-burndown; GFM-MIGRATION line to State of play in seven capitals, pushed; `.github/ki-version` to `v0.11.5` (`b3c44edb`). ki-principal commits local. Flagged: the MOD ledger sits at 9 though KI-PRINCIPAL-MOD-010 was issued; the in-progress harness LINK-1 turns ki-principal's audit red on existing notes - steered gfm-harness at 22:07 BST to baseline or warn before committing.
+
+## 2026-10-19 22:09 BST - received gfm-harness
+
+gfm-harness pushed five harness commits (`2d28656f` to `af4cb478`): the `ki-authoring` GFM clause with the touch paragraph standing alone, LINK-1 as exact-case resolution of every link form, the Decision Records and Activities parser fixes, evals and mirror stripper, and the `method_read` check; tests 1,292 pass, audits clean. Defect: LINK-1 has no baseline, so existing islands' full audits go red (ki-principal FAIL=1 at 22:08), against the review's "recorded baseline for pre-existing failures"; the steer never reached the run. Fix launched as link1-baseline under GFM-ORDER a). Its query GFM-HOSTING-RULES (GitHub reported the push bypassed the harness PR and required-build rules) is not this work's; it goes to State of play at the hold.
