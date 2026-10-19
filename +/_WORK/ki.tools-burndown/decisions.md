@@ -49,3 +49,9 @@ Kris, 17 October: "Keep -/_DIGESTS/ as the declared scaffold."
 Kris: "All recommended with the following changes or queries. NON-KI - 100% not included in this, only ki repos. GIT HOOKS (query to resolve before any of the questions you have). Do we need to use Husky? What advantage does that bring? Can we just put the git hooks inside the `.git` folder? Or is it better to have it outside of the `.git` folder?"
 
 Taken as: KI-RELEASE-GO a), tag `v0.11.5` at tools-ki HEAD once a full re-run there passes, then push, publish and tell ki.ways-of-working, Kris answering before qreview3's disagreement reached them and the green re-run guarding it; MGIT-GO a) and BURNDOWN-ACCEPT a), accept KI-TOOL-MGIT-CLI-028 and KI-TOOL-MGIT-CLI-023 and publish mgit `v0.18.0` on `9a3564d`; TRIAGE-PROPOSAL a), keep all eight; BIOME-CI-STANDARD a); MGIT-LEARN-UNATTENDED a); SITE-CONFIG-SHAPE a); SITE-CONFIG-DATA a); MANAGERS-AS-TOOLS a); NON-KI a), outright, only KI repositories. HOOKS-CONVENTION, KB-AUDIT, COMMIT-MSG and ROLLOUT-AUTHORITY are held behind the new GIT-HOOKS query. ROUTING-VIEW was not yet before Kris.
+
+## 19 October, 22:02 BST - Summary of 21:54 answered
+
+Kris: "ok - I'm good with the recommendations, but one final thing on githooks, is there a recognised way of dealing with this in general?"
+
+Taken as: GIT-HOOKS a), committed `.githooks` holding all hook content in every KI repository, bound by `core.hooksPath`, Husky and `.husky` removed, so HOOKS-CONVENTION is settled by it and KB-AUDIT falls away; ROUTING-VIEW a), capture the tools-ki routing-view record now, planned after KI-TOOL-KI-CLI-158. The general-practice question was answered in the reply. COMMIT-MSG and ROLLOUT-AUTHORITY return to Kris before any rollout.

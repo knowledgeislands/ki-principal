@@ -1,7 +1,7 @@
 ---
 id: ki.tools-burndown
-state: handoff-to-supervisor
-since: 2026-10-19T20:53:35Z
+state: with-worker
+since: 2026-10-19T21:02:22Z
 received: 2026-10-19T18:00:08Z
 beat: null
 method_read: 9c17df3c
@@ -11,6 +11,7 @@ method_read: 9c17df3c
 
 ## Now
 
+- 22:02 BST: GIT-HOOKS a) and ROUTING-VIEW a) taken; routeview launched in tools-ki. COMMIT-MSG and ROLLOUT-AUTHORITY back with Kris next.
 - ci156 finished: BIOME-CI-STANDARD a) recorded on KI-TOOL-KI-CLI-156, tools-ki `02e1de52`, local only. All runs finished; sent to Kris with GIT-HOOKS and ROUTING-VIEW open, the four hooks queries held behind GIT-HOOKS.
 - rigcap finished 21:55 BST: KI-TOOL-RIG-CORE-065, -066, -067 in tools-rig and KB-DOTFILES-UE-099 in chezmoi at triage, local only (cross-repository dependency written under Dependencies). ci156 launched to home BIOME-CI-STANDARD a) on KI-TOOL-KI-CLI-156.
 - mgitgo finished 21:51 BST: KI-TOOL-MGIT-CLI-028 and KI-TOOL-MGIT-CLI-023 accepted (done, not pruned); mgit v0.18.0 published on `9a3564d`, installer verified, homebrew-tap PR #48 merged; ki.chezmoi told in `4305f841` (CONSUMER-MIGRATE).
