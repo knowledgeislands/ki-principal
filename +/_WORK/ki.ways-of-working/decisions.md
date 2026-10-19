@@ -438,3 +438,13 @@ Read back taken: PUSH-NOT-WITH-YOU - a push of stacked commits is never a "with 
 IMPORTANT HOOK-GUARD (from ki, relayed from ki.tools-burndown, 23:24 BST): never run `ki repo conform` without `--dry-run` on a KI repository until ki.tools-burndown says otherwise. Disposition: held in `state.md` as a standing guard on every brief; banner-push-hold's brief runs no conform.
 
 GFM-CONVERTER (from ki.tools-burndown, 22:51 BST): `ki markdown gfm` built under KI-TOOL-KI-CLI-162, awaiting review and an ask-first release; dry run on ki-principal finds 1,004 links convertible and 29 unresolved plus 5 ambiguous for decision. Disposition: KI-PRINCIPAL-OPS-014's pilot waits on the release; noted in `state.md`.
+
+## 2026-10-19 23:34 BST - received banner-push-hold; owner direction, REFRESH-BANNER
+
+banner-push-hold landed PUSH-NOT-WITH-YOU and HOLD-CLEAN in the harness standard, output style, examples, `ki-delegation` and tests (`f4d6c521`, pushed), and the Work Process note (`be2e6ec6`, local; other sessions' commits stacked beneath it).
+
+Kris: "Okay then, how do we make sure that happens to all the threads? Will they just pick that up automatically?" Read back taken: send one refresh line to every live work's `messages.md` in ki-principal and to State of play in each capital to relay, as proposed. Authorises refresh-banner.
+
+## 2026-10-19 23:40 BST - received refresh-banner; mark; hold, more expected
+
+refresh-banner sent REFRESH-BANNER to all 11 live works in ki-principal (`5691c105`, local) and to State of play in er, hnr, lgl, kb, tmx, si and va (va `fc62871` local; the rest pushed). The installed output style is a symlink into the harness checkout and carries all three rules. Mark struck; on hold under ROUND-END, more expected.

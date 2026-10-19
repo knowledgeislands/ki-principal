@@ -1,10 +1,12 @@
 ---
 id: ki.ways-of-working
-state: with-worker
-since: 2026-10-19T22:22:00Z
+state: on-hold
+reason: round done, more expected
+release: Kris's next direction, or resume
+since: 2026-10-19T22:40:00Z
 received: 2026-10-19T16:57:00Z
 beat: null
-mark: 2026-10-19T21:49:00Z
+mark: 2026-10-19T22:40:00Z
 method_read: eff6163b
 ---
 
@@ -14,7 +16,7 @@ method_read: eff6163b
 
 - HOOK-GUARD (23:24 BST): no `ki repo conform` without `--dry-run` in any brief until ki.tools-burndown lifts it.
 - GFM converter `ki markdown gfm` built (KI-TOOL-KI-CLI-162), awaiting review and release; KI-PRINCIPAL-OPS-014's pilot waits on it.
-- PUSH-NOT-WITH-YOU and HOLD-CLEAN from Kris at 23:22 BST lift the hold; banner-push-hold running; the hold resumes when it lands.
+- PUSH-NOT-WITH-YOU and HOLD-CLEAN from Kris at 23:22 BST lift the hold; banner-push-hold received at 23:34 BST (harness `f4d6c521`, Work Process note `be2e6ec6`); refresh-banner received at 23:40 BST (11 live works here, State of play in seven capitals); on hold at 23:40 BST, more expected.
 - BANNER-ON-STATE from Kris at 22:36 BST lifts the hold; banner-on-state landed (harness `6baab0b0`); on hold again at 22:42 BST.
 - Received from Kris at 20:28 BST: DESIGN-AT-MARK a); design-clause done (harness `9c17df3c`); design-triage received; DESIGN-DELETE a) from Kris at 21:25 BST; design-delete received at 21:29 BST (26 deleted); mark struck at 21:25 BST; the list then goes to blind review and to Kris before any deletion.
 - GFM-MIGRATION unparked by Kris at 21:28 BST; gfm-scope received at 21:34 BST; gfm-review received at 21:41 BST; five GFM queries and METHOD-READ-RUBRIC with Kris.
