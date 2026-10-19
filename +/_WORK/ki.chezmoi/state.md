@@ -13,7 +13,7 @@ method_read: 979e075a
 ## Now
 
 - With worker since 19:48 BST on 19 October; marked at 19:02 BST.
-- Running: mgit-apply (one live target) and triage-cut; then rig-dock, then carry-directions, chained in the chezmoi source.
+- Running: rig-dock, then carry-directions, chained in the chezmoi source. Done: mgit-apply (`_mgit` live and verified) and triage-cut (UE-095 merged into UE-090, UE-096 on Hold; 19 open).
 - With Kris: nothing. The `[locals]` migration is closed with no apply left.
 
 ## Next steps
