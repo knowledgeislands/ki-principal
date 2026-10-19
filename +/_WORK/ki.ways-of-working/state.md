@@ -4,7 +4,7 @@ state: with-worker
 since: 2026-10-19T16:57:00Z
 received: 2026-10-19T16:57:00Z
 beat: null
-mark: 2026-10-19T12:37:57Z
+mark: 2026-10-19T17:12:48Z
 method_read: 9c9ae922
 ---
 
@@ -12,7 +12,7 @@ method_read: 9c9ae922
 
 ## Now
 
-- Received from Kris at 17:57 BST on 19 October: everything pushed; CITATIONS-DANGLE b), CHEZMOI-MIGRATE a), MARK-READOPT a). chezmoi-migrate done (`40a6a6cd`, ki.chezmoi now five files). Running: citations-rewrite; report-sweep queued after it. Marked at 13:37 BST on 19 October.
+- Received from Kris at 17:57 BST on 19 October: everything pushed; CITATIONS-DANGLE b), CHEZMOI-MIGRATE a), MARK-READOPT a). chezmoi-migrate done (`40a6a6cd`, ki.chezmoi now five files). Running: citations-rewrite; report-sweep queued after it. Marked at 18:12 BST on 19 October; mark-tidy strikes the decisions log and runs the mark checks.
 - Run reports sit in `~/.local/state/ki/agents/ways-of-working/`.
 
 ## Next steps
@@ -24,7 +24,7 @@ method_read: 9c9ae922
 5. With ki.observatory (`messages.md` line `5763aed5`): the Observatory reads both shapes.
 6. With ki.chezmoi (RIG-LIVE): KB-DOTFILES-UE-091 without ChatGPT and the firewall declaration; then Kris's attended Rig applies; then acceptance of KI-TOOL-RIG-CORE-042 and -047.
 7. Kris is on: the mgit hands-on check, then MGIT-RELEASE.
-8. At the next mark: QUERY-REVIEW harness record; recheck ki-principal and harness CI; check desk-kit closed; clear cli150-deliver's gate logs and close it.
+8. Mark 18:12 BST: mark-tidy runs the QUERY-REVIEW harness record check, the ki-principal and harness CI recheck, the desk-kit close check and the cli150-deliver close, and strikes the decisions log.
 9. Outstanding, not this work's: pre-existing CI red in apps-observatory.local, mcp-m365, tools-mgit and ki-techne-harness; acquire-intake's ACQUIRE-DECISIONS-LINKS; untracked KI-HARNESS-GOV-220 and KI-TOOL-KI-CLI-154.
 
 ## Held
