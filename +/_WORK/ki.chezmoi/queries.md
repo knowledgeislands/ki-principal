@@ -44,20 +44,6 @@ a) (recommended, confidence high - preserves the explicit apply boundary) Keep t
 
 b) Defer source removal entirely while retaining the migration evidence.
 
-### HUSKY-APPLY - Review and apply the single target
-
-since 2026-10-19 · from the [husky-empty-index run report](/Users/krisbrown/.local/state/ki/agents/chezmoi/husky-empty-index.report.md), which holds the proposed apply and verification commands
-
-**Context:** The focused source is verified and locally committed. The [bounded target diff](/Users/krisbrown/.local/state/ki/agents/chezmoi/husky-empty-index.evidence/target.diff) has not been applied. Repository guidance explicitly requires Kris's diff review before apply.
-
-**Query:** Approve the single-target apply and the isolated verification below, or keep it held?
-
-**Options:**
-
-a) (recommended, confidence high - actual installed-wrapper fixtures cover the requested boundaries) Review the bounded diff, then approve this exact apply and verification.
-
-b) Keep live apply held and request a source revision. Neither option authorises pushing or wider rollout.
-
 ## Parked
 
 - **FIRST-STEP-GATES:** Resolved for this owned scope: prerequisites committed and published, source gates pass, four-target apply and user-link repair verified. Historical failure reports remain evidence, not current blockers. Looks resolved; carried for the worker to judge.
