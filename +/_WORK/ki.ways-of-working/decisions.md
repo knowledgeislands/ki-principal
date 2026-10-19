@@ -297,3 +297,7 @@ Read back taken: yes. TERRA-ALIGN and SOL-ALIGN no longer gate the rollout. Kris
 ## 2026-10-19 18:47 BST - received review-surface
 
 Standard and rubric changed in the harness (`eff6163b`, on origin): territory work raises `+/_WORK_REVIEW/` holdings as one REVIEW-HOLD query at bootstrap, resume and re-anchoring, and COORD-3 warns while an area is non-empty. Holdings: ki-principal 5, personal-principal 3, hnr-principal 1, ki-agentic-harness 1; REVIEW-HOLD lines in each territory work's queue, pushed. Slip: this work's ALIGN-NO-GATE commit (`f91c51f5`) swept in the run's staged ki-principal messages line, because `git commit` took the whole index; the content is the intended line. From now on this work commits with `git commit -- <paths>`.
+
+## 2026-10-19 18:48 BST - received SOL-ALIGN
+
+Kris pasted Sol's report: all 51 registered repositories level with GitHub and clean at 18:45; no skill-link changes needed (`ki-work-package` resolves everywhere, `ki-work-folder` gone); ki-coordinator style current, no chezmoi drift; ki 0.11.4 and mgit 0.17.0 from local checkouts; one untracked stray deleted on Sol (`+/_WORK/ki.chezmoi/husky-apply.report.md`, an exact copy of its run report; this Mac's copy belongs to another session and is untouched); no commits. Sessions already open on Sol need a restart to see `ki-work-package`.
