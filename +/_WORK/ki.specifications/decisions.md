@@ -25,3 +25,15 @@ Kris's QUERY-REVIEW and QUERY-REVIEW-STANDARD, 19 October, live in the ki-coordi
 Kris: "Can we take stock on this, and just double-check everything again, see if we can come up with a really solid plan?"
 
 Read back taken: STOCKTAKE-PLAN - one run, plan, re-verifies every fact behind the five open queries and the handed-over drafts, and writes a sequenced delivery plan for the Project to `design/plan.md`, with each step's gate on an owner answer; read only beyond that file, nothing published. Its queries go to blind review before they reach Kris.
+
+## 2026-10-19 23:37 BST - owner decision, SPEC-HOME, SPEC-VERSION, CONFORMANCE-LEVELS
+
+Kris: "Go with the recommendations and all the things, I'm happy with that."
+
+Read back taken:
+
+- SPEC-HOME a) - hold each spec as one reference in its owning skill, `ki-work-package` for `work`, `ki-acquire` for `acquire` and a new skill for `knowledge`, in the agentskills.io page format; publish the same text on the website later in this Project, with the path chosen then.
+- SPEC-VERSION a) - keep the optional `spec` field, absence meaning version 1 for good, readers rejecting an unsupported major and validation checking the field.
+- CONFORMANCE-LEVELS a) - one validity level per spec, soft limits warned.
+- "all the things" - the plan run's steps start when it reports, within these answers; nothing is published or pushed on this authority, and the plan's own queries come back first.
+- PROJECT-NAME and ENTRY-NAMES are not taken: their blind review disagreed with option a) and Kris had not seen it; asked in one line each.
