@@ -1,6 +1,6 @@
 ---
 note_type: admin/governance/decision
-updated: 2026-10-19T07:00:00Z
+updated: 2026-10-19T07:43:00Z
 status: current - October 2026
 ---
 
@@ -49,6 +49,7 @@ Arcadia maintains these engineering decisions, adopted from the retired Techné 
 ## Work decisions
 
 1. [GDR-KI-PRINCIPAL-009](GDR-KI-PRINCIPAL-009-the-work-model.md) - The work model
+2. [GDR-KI-PRINCIPAL-016](GDR-KI-PRINCIPAL-016-priority-and-size-on-work-records.md) - Priority and size on work records
 
 ## Symbol decisions
 
