@@ -14,13 +14,13 @@ since 2026-10-19 · from `wave1-audit` at 23:44 BST · in blind review
 
 ### REGISTER-HNR - Admit or exclude hnr-backend, hnr-frontend and hnr-benchmarks
 
-since 2026-10-19 · from `wave1-audit` at 23:44 BST · in blind review
+since 2026-10-19 · from `wave1-audit` at 23:44 BST · blind-reviewed by `review-register-hnr` at 23:45 BST, which agreed
 
-**Context:** These three active, clean Git repositories under `workspaces/humans-not-robots/` belong to `humansnotrobots`. None is declared in hnr-principal's `territory_members` or Known Lands, none is registered, and none has a `.ki.toml`, although hnr-frontend has an AGENTS.md. hnr-principal's ADR Consolidation notes already cite hnr-backend as a source of evidence. The audit reports nothing about them because it checks only declared members.
+**Context:** hnr-benchmarks holds the frontend Playwright suites and backend measurements, and hnr-principal's ADR consolidation already cites backend and frontend as evidence. These three active, clean Git repositories under `workspaces/humans-not-robots/` belong to `humansnotrobots`. None is declared in hnr-principal's `territory_members` or Known Lands, none is registered, and none has a `.ki.toml`, although hnr-frontend has an AGENTS.md. hnr-principal's ADR Consolidation notes already cite hnr-backend as a source of evidence. The audit reports nothing about them because it checks only declared members.
 
 **Query:** Should these three repositories become Humans Not Robots territory members?
 
-**Options:** a) (recommended, confidence low - I have not checked their purpose or ownership beyond the READMEs) Admit them in a later wave: hnr-principal declares them in `territory_members` and Known Lands through its Enactment Process, each repository adopts a baseline `.ki.toml`, and then they are registered. b) Leave them outside the territory as product codebases with no KI governance, and record that exclusion in Known Lands, as was done for hnr-shared. c) Decide one repository at a time, for example admitting hnr-backend and hnr-frontend and leaving hnr-benchmarks out.
+**Options:** a) (recommended, confidence medium - reviewed: the blind review traced all three as active parts of the HNR product that existing governance already accommodates; live GitHub ownership not checked) Admit them in a later wave: hnr-principal declares them in `territory_members` and Known Lands through its Enactment Process, each repository adopts a baseline `.ki.toml`, and then they are registered. b) Leave them outside the territory as product codebases with no KI governance, and record that exclusion in Known Lands, as was done for hnr-shared. c) Decide one repository at a time, for example admitting hnr-backend and hnr-frontend and leaving hnr-benchmarks out.
 
 ### KI-BREW - Homebrew ki is one release behind
 
