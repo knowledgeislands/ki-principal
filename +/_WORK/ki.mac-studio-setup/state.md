@@ -26,7 +26,7 @@ method_read: 84b61942
 ## Next steps
 
 1. With Kris, ADOBE-RESTART first (deferred, "remind me another day"): restart sol, run [`./adobe-remove.sh`](design/adobe-remove.sh) as a dry run (apps and add-ons none, nothing under What is left), then `ls -d /Applications/Adobe* /Applications/Utilities/Adobe* ~/Pictures/Lightroom/*.lrcat`, which should show only the catalogue.
-2. Receive rig-capture, core063, plan062 and plan027; then Kris accepts the two Awaiting-review records at the next sol session; SOL-FW-TEST when Kris restates it.
+2. Receive core063, plan062 and plan027; then Kris accepts the Awaiting-review records, KI-TOOL-RIG-CORE-063 included, at the next sol session.
 3. Then put the parked queries in `queries.md` back one at a time, each with a recommendation and its reason.
 
 ## Held
