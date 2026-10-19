@@ -10,7 +10,7 @@ component: governance
 tags:
   - topic/knowledge-islands
   - topic/techne
-status: draft
+status: ready
 horizon: now
 priority: high
 size: m
@@ -18,7 +18,7 @@ blocks: []
 blocked_by: []
 baseline_ref: null
 created_at: 2026-10-19T22:48:36Z
-updated_at: 2026-10-19T22:48:36Z
+updated_at: 2026-10-19T23:10:00Z
 ---
 
 # Turn the Techne Programme Hold into a Focus Rule
@@ -34,6 +34,14 @@ On 14 October Kris said, in a session routed to Acquire intake: "the hold is gon
 The hold today restricts every remote agent run and every act of remote-environment management until three prerequisites are evidenced, and carries one standing exemption for the agent host `ki-techne-agent-host` and the Mac Studio `sol`. It permits local Techné tool-building generally. The focus rule reverses that shape: no general restriction on remote operation, but active Techné work narrowed to the two hosts, locally and remotely.
 
 The decision keeps its identifier. `ki-decision-records` keeps Decision Records as living present-state records edited in place, with no supersession chain, and serials contiguous; and the live agent-host resources carry `ki-authority=GDR-KI-PRINCIPAL-004` as an AWS tag, set by the `ki-techne-harness` stack, `provision.sh`, the `agent-host` recipe and its checks. Keeping the identifier leaves those tags true with no remote change. The record is retitled, so its filename changes and every citation moves with it.
+
+## Approval
+
+On 20 October Kris answered TECHNE-WORDING a) in these words: "Let's get on with the technique word in, yes." ("technique word in" is speech-to-text for "Techné wording".) That approves both texts below exactly as drafted, and with them the retirement of the two readiness gates, the review-to-live-main and recovery prerequisite and the Paperclip capability review, and the `Idea:` storage rule.
+
+## Current state
+
+The policy is `Admin/Governance/Policies/Techne Programme Hold.md` and the decision is `GDR-KI-PRINCIPAL-004-standing-agent-host-exemption-from-the-techne-programme-hold.md`, both as they stand at `49849f87`. About forty live notes in this island cite one or the other by name, path or wikilink.
 
 ## Boundary
 
@@ -151,12 +159,29 @@ Techné carries no programme hold. It focuses on the agent host and the Mac Stud
 
 ## Steps
 
-- [ ] Kris approves the policy and Decision Record wording above, or the changes to it.
+- [x] Kris approves the policy and Decision Record wording above, or the changes to it. Approved as drafted on 20 October; see Approval.
 - [ ] Rename and rewrite the policy note; rename and rewrite GDR-KI-PRINCIPAL-004, updating its `Decisions.md` entry.
 - [ ] Sweep this island's citations of the hold and of GDR-KI-PRINCIPAL-004's old filename: root `README.md` and `AGENTS.md` (the Techné programme hold section becomes a focus section); `Admin/Admin.md`, `Admin/MEMORY.md`, `Governance.md`, the Charter, Known Lands and `Policies.md`; the Agent Host Prototype Rollout note and its diagram; ADR-KI-PRINCIPAL-003, ADR-KI-PRINCIPAL-006, ADR-KI-PRINCIPAL-007 and ODR-KI-PRINCIPAL-001; the `Pillars/Technē`, `Pillars/Engineering Practice` and Emerging Concepts notes that cite it, and the Great Library of Arcadia note; and the Techne theme page and the Project notes that cite it.
 - [ ] Record each piece of Techné work kept as an idea as an `Idea:` line on its Project note or the Techne theme page.
 - [ ] Hand off to `ki-techne-harness` and `tools-techne` the update of their `README.md`, `AGENTS.md`, guides and roadmap records that cite the hold; the `ki-authority` tag value stays as it is.
 - [ ] Audit with `ki-decision-records` and `ki-repo-kb` and review the result against this record.
+
+## Files touched
+
+- `Admin/Governance/Policies/Techne Programme Hold.md`, renamed to `Techne Programme Focus.md`, and `Policies.md`.
+- `Admin/Governance/Decisions/GDR-KI-PRINCIPAL-004-*.md`, renamed, and `Decisions.md`.
+- The citing notes the sweep step lists, in `README.md`, `AGENTS.md`, `Admin/`, `Pillars/` and `Streams/Themes/` and `Streams/Projects/`.
+
+## Verify
+
+- No live note outside `+/`, `-/` and this record cites `Techne Programme Hold` as a note or `standing-agent-host-exemption` as a file name; each surviving mention of the hold is historical.
+- Every wikilink and Markdown link to the two renamed files resolves.
+- `ki repo audit` for `ki-decision-records`, `ki-repo-kb` and `ki-repo-kb-streams` reports no new failure or warning.
+- The two canonical texts match the approved wording, with only the placeholders filled.
+
+## Dependencies / blocks
+
+None. The follow-ups in `ki-techne-harness` and `tools-techne` are handed off and do not block acceptance.
 
 ## Discussion
 
