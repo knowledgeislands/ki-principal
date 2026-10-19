@@ -1,6 +1,6 @@
 ---
 note_type: streams/index
-updated: 2026-10-18T00:14:17Z
+updated: 2026-10-19T10:03:14Z
 author: Written with Claude
 ---
 
@@ -119,6 +119,12 @@ Links point upwards only: a work record names its Project, and a Project names i
 ## Specifications
 
 [[specifications]] brings `ki-specifications` to a consistent dormant pre-v1 state and records dispositions for the transferred KBEP and KBIP protocols.
+
+---
+
+## Timelines
+
+[[timelines]] extracts a timeline and calendar skill from the 5G Emerge phase 3 calendar component, so each knowledge base keeps its key dates, due dates and milestones and publishes calendar sets to subscribe to.
 
 ---
 
