@@ -169,16 +169,6 @@ Kris, 18 October:
 
 Read back as taken: CLI-F-FILTER c) - ki and mgit keep only the long `--filter`; `-f` becomes a usage error naming `--filter` (as `-G` was handled), freeing `-f` for force or file. The `ki-repo-tools` guidance records `--filter` with no short letter as the house form. tools-ki's change rides in the queued ki-release run; tools-mgit, the guidance and the chezmoi completion note go to run mgit-filter. MARK struck at 19:08 BST (2026-10-18T18:08:19Z).
 
-## 2026-10-18 20:18 BST - owner question, new session
-
-> so should I start a new sesson for this work package?
-
-Read back: taken as a question on STYLE-STALE, not yet an answer to it. The coordinator advised yes: open a fresh session in ki-principal and paste the 19:44 send line. Nothing is running and the work folder is pushed. The other eight queries carry over to the new session.
-
-## 2026-10-18 20:20 BST - receive in a fresh session; mark
-
-Kris sent the work back to its worker in a fresh session, as the coordinator advised at 20:18 BST. Read back as taken: the STYLE-STALE restart is done; its second part, re-reading the style file at re-anchoring, stays open. MARK struck at 20:20 BST (2026-10-18T19:20:01Z). Struck at this mark: the 18:04 BST entry (MGIT-LEARN-FLAG carried by tools-mgit `main`, GLYPH-OWNER by the current style and standard) and the 18:12 BST entry (RESUME-PWD carried by the send line, RESTARTS done).
-
 ## 2026-10-18 20:33 BST - owner answers, re-bootstrap queries
 
 Kris, 18 October:
@@ -215,14 +205,6 @@ Kris:
 
 Read back as taken: CLI-150-REVIEW a) - one independent review run checks tools-ki `949ff512` and harness `1fe52516` against KI-TOOL-KI-CLI-150, then acceptance with Kris. BIOME-DRIFT a) - fold into an existing tools-ki chore record if one fits, otherwise capture one; one run moves `biome.json` to the 2.5.15 schema and clears the findings. KI-RELEASE-NEXT a) - ki v0.11.4 under the tools-ki release guide straight after KI-TOOL-KI-CLI-150 is accepted, Verify 6 rerun first, then the ki-principal CI pin moved. Not taken as a push: the stacked ki.observatory commit `f54d2a8` still waits for Kris's word.
 
-## 2026-10-19 08:05 BST - owner answer, push
-
-Kris:
-
-> push
-
-Read back as taken: push ki-principal with the stacked ki.observatory commit `f54d2a8` and any other stacked commits, fast-forward only.
-
 ## 2026-10-19 08:05 BST - owner note, Rig upgraded
 
 Kris:
@@ -236,3 +218,7 @@ Read back as taken: Terra and Sol run Rig v0.7.0 (RIG-UPGRADE-MACHINES a)); the 
 Kris, through the SIZE-PRIORITY Messages line from Tools burndown and this session's opener: "work should have a size and a priority, even if its horizon isn't now or next"; settle the priority and size vocabularies, make both required on every record from capture whatever its horizon, for roadmap and KB Streams records, in ki-work-roadmap's work-item format and the ki-work crosswalk; record it in a Governance Decision Record reversing the 15 October PRIORITY-FIELD answer; hand tools-ki a follow-up to stop warning on `priority` and warn, then fail, on a missing field after a migration window; "Bring me the vocabulary and migration-window choices as queries before any standard or validator changes".
 
 Read back as taken: no standard, record or validator changes until Kris answers PRIORITY-VOCAB, SIZE-VOCAB, SIZE-BACKFILL and SIZE-WINDOW. The findings in the Messages line stand as context (no standard defines either field; tools-ki `src/core/work/items.ts` warns on `priority` since `6aa676a0`; none of 367 records carries either beyond legal-principal's five being restored; GDR-KI-PRINCIPAL-009 silent).
+
+## 2026-10-19 08:07 BST - mark
+
+Kris: "mark". MARK struck at 08:07 BST (2026-10-19T07:07:16Z). Struck at this mark: the 20:18 BST new-session question, the fresh-session receive entry and the push entry, all one-offs now done. The SIZE-PRIORITY Messages line stays in the work file until its queries are put to Kris.
