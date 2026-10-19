@@ -457,3 +457,9 @@ Kris: "read messages". Read back taken: lift the hold and act on the queue, IMPO
 - BURN-WAVE-1 and LANE-OWNERS (from ki): lane accepted (ki-agentic-harness, ki-principal, ki-specifications); CAPTURE-GATE and no roadmap cap held as standing rules; HOMELESS-STANDING and CAPTURE-GATE edits queued in the harness chain; MODEL-FALLBACK applied at the next mark; THREADS-CHECKINS noted closed.
 - CHECKER-GAPS (from ki.baseline-rollout, Kris: "Anything high confidence can be done."): checker-gaps launched.
 - ENTRY-NAMES (from ki.portable-specifications): taken; queued after checker-gaps in the harness chain.
+
+## 2026-10-20 00:27 BST - owner direction, OVERNIGHT-AUTONOMY
+
+Kris: "I'm going to bed now. I want you to keep looking every 10 minutes to see if there's any new work for yourself in some way. And if there is, I want you to progress it. You can do anything on a high confidence level that you recommend. If you can get a good recommendation, you can move on to the next one, and as you do more and work, it might be that when you come back to ones that you couldn't get a good recommendation for, it might be more accurate. We've got autonomy to make this happen, so I'm going to leave you with this in your safe hands."
+
+Read back taken: overnight, check `messages.md`, the lane's triage and Now records and run reports at least every 10 minutes (every 5 while runs are out); take any high-confidence recommendation straight into delivery without asking; set medium and low ones aside and revisit them as later work sharpens the picture. Limits kept: a high-confidence destructive, deletion or publication course still goes through one blind review first and is not applied unless review agrees; no release or publication to a public registry; pushes fast-forward only when this work's commits alone are stacked; HOOK-GUARD and CAPTURE-GATE stand. What still needs Kris waits for the morning Summary.

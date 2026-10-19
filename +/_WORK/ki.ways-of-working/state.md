@@ -12,6 +12,7 @@ method_read: eff6163b
 
 ## Now
 
+- OVERNIGHT-AUTONOMY from Kris at 00:27 BST: check for new work every 10 minutes (5 while runs are out); deliver high-confidence recommendations; revisit medium and low later; morning Summary for what needs Kris.
 - Kris said "read messages" at 00:23 BST, lifting the hold. lane-triage (TRIAGE-ALL, roadmap-census-2, BURN-WAVE-1 accept pass, GOV-215, UE-096 line) and checker-gaps running. Queued, harness chain: ENTRY-NAMES (work.md to WORK.md, ki-work-package contract and readers), then HOMELESS-STANDING with CAPTURE-GATE into ki-next and ki-delegation.
 - HOOK-GUARD (23:24 BST): no `ki repo conform` without `--dry-run` in any brief until ki.tools-burndown lifts it.
 - GFM converter `ki markdown gfm` built (KI-TOOL-KI-CLI-162), awaiting review and release; KI-PRINCIPAL-OPS-014's pilot waits on it.
