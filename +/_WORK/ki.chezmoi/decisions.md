@@ -33,3 +33,11 @@ Stop on unexpected differences. Once Sol passes, prepare removal of [locals] fro
 home: +/_WORK/ki.chezmoi/work.md class: operational
 
 - BURNDOWN-PUSH, Kris's agreement routed from KI > Model > Ways of working on 19 October: "prune every record that is done under `ki-work-roadmap`; bring every record awaiting review to Kris as one acceptance batch; and cancel or merge triage records, aiming for at least half, each with a one-line reason, for Kris to confirm before anything is cancelled." Run burndown-push found nothing to prune or accept; TRIAGE-CUT carries the proposals.
+
+## Decision 101 (2026-10-19T18:56:48Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- It can do anything that's high confidence.
+
+Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal intentional, no `[locals]` apply remains), MGIT-APPLY, TRIAGE-CUT, RIG-LIVE-DELIVER and CARRY-DIRECTIONS.
