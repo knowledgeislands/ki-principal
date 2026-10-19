@@ -2,7 +2,7 @@
 
 **Owner:** Kris Brown · **Owning repository:** knowledgeislands/ki-principal · **Owning work:** `ki.ways-of-working` · **Date:** 2026-10-19
 
-Design note under `ki-work-design`, stage one (brief), revised after Kris's answers at 13:37 and 13:52 BST on 19 October: the concept and skill are the work package, `ki-work-package`; a package has five files, `state.md` restored; the readers accept both shapes before any folder moves; and the live folders then migrate in one approved pass. Superseded text, including the two reviews' targets, is in Git. Draft; it graduates when its decisions have homes in `ki-work-package` (renamed from `ki-work-folder`), `ki-coordination`, the Work Process note and GDR-KI-PRINCIPAL-009, and is deleted in the same change.
+Design note under `ki-work-design`, finalised to the decided model after Kris's answers at 13:37, 13:52 and 14:02 BST on 19 October: the concept and skill are the work package, `ki-work-package`; a package has five files, all created at once; `messages.md` is a queue taken in priority order, with an important flag; a routed work cannot reject what it is given; State of play coordinates continual improvement; the readers accept both shapes before any folder moves; and the live folders then migrate in one approved pass. Every query is settled ([Decisions](#decisions)). Superseded text, including the two reviews' targets and the options not taken, is in Git. It graduates when its decisions have homes in `ki-work-package` (renamed from `ki-work-folder`), `ki-coordination`, the Work Process note and GDR-KI-PRINCIPAL-009, and is deleted in the same change.
 
 ## Contents
 
@@ -26,7 +26,7 @@ Design note under `ki-work-design`, stage one (brief), revised after Kris's answ
   - [Fit with the owning skills and the Work Process note](#fit-with-the-owning-skills-and-the-work-process-note)
   - [The rename](#the-rename)
   - [Migration](#migration)
-- [Open decisions](#open-decisions)
+- [Decisions](#decisions)
 
 ## Problem
 
@@ -70,7 +70,23 @@ Read back and taken, same entry:
 
 > STATE-FILE b) - keep `state.md`. A work package has five files: `work.md` (definition: identity, routing description, goals, scope), `state.md` (state fields, Now, Next steps, Held, Queue for territory work), `queries.md`, `messages.md` and `decisions.md`. This brings back the readers-first step (`ki work status` and the Observatory read both shapes before the pass). The rest of the 13:37 answers stand.
 
-These answers settle PACKAGE-NAME, MESSAGES-FILE and STATE-FILE, and replace MIGRATE-PATH's per-mark path with a one-pass path that runs only after the readers accept both shapes. Where `state.md` returns, the design the two reviews agreed is restored; everything else the reviews agreed and these answers do not touch is unchanged below.
+These answers settle PACKAGE-NAME, MESSAGES-FILE and STATE-FILE, and replace MIGRATE-PATH's per-mark path with a one-pass path that runs only after the readers accept both shapes. Where `state.md` returns, the design the two reviews agreed is restored.
+
+Kris, 19 October 2026, 14:02 BST, "owner answers, 13:51 Summary; request WORK-QUEUE-PRIORITY", speech lightly cleaned:
+
+> file to creation ... create them, 'cause then someone can send messages or whatever to that to start queuing work up ... Yes to the recommended [queries] files. Yes, the [parked] ... I agree with the description shape recommendation. The route [receipt] is interesting, so work is actually given from the state of play to that particular work package, and the key thing is that effectively, once it's given it, it has to do something with it, it can't reject it, it can then say it wants it to be given to someone else, and we can pass that message back to the state of play. But we have to be careful about things just [bouncing] in between things, right? So you should try to do what you can with it at least, and give back anything else it feels is not good for it. Yes ... Yes, the pickup reads. Yes, the state history. Ways of working can come back as a project to life if we need to improve the ways of working ... it becomes the model ... potentially it could be ways of working or it could be a more targeted project. The state of play should keep an eye on things if it thinks there's improvements, it should be responsible for coordinating that ... everything should be trying to continually improve and I think that should be coordinated by state of play ... I agree with the [rename]. We just need to get that done as quickly as we can and in parallel. ... [migrate path] makes sense. Do we need to do it in the pilot? ... do as you recommend. Yes migrate gate. Yes migrate self. ... the fields ... I think also we should just do those ... so we can get on with that. Something else ... the priority of work. Whatever the order of priority of work is, it should come into the queue ... an agent working on that work package ... can [group] things to make sense for things like similar work ... But if something's added to the top of it with an important flag, it must be processed in that order and that allows the state of play to tell something to change its way of working, for example.
+
+Read back and taken, same entry:
+
+> - FILES-AT-CREATION a) - all five files exist from creation, so others can queue work into `messages.md` at once.
+> - QUERIES-FILE a), PARKED-HOME a) (Held in `state.md`), DESCRIPTION-SHAPE a), REFRESH-TARGET a), INBOX-CHECK a) (taken from "yes" between REFRESH-TARGET and PICKUP-READS), PICKUP-READS a), STATE-HISTORY a).
+> - ROUTE-RECEIPT a), amended - a work cannot reject routed work; it does what it can with it and gives back to State of play only the part it judges is not its own, with a reason; a unit is returned once and then goes to Kris, so nothing bounces between works.
+> - STEWARD-HOME a), amended - State of play watches for improvements and coordinates continual improvement; a significant change revives Ways of working, or a more targeted Project under the Model theme, as a Project.
+> - RENAME-ORDER a) - as fast as possible, in parallel runs.
+> - MIGRATE-PATH a) with this work as pilot; MIGRATE-GATE a); MIGRATE-SELF a).
+> - WORK-QUEUE-PRIORITY - a work package's incoming work is a queue taken in priority order; the worker may group similar items; a line added at the top with an important flag must be taken first, in that order, which lets State of play change how a work works.
+
+These answers settle every open query. The design below is the decided model; where an answer amended a recommendation, the amended text governs.
 
 ## Established facts
 
@@ -154,14 +170,14 @@ Each numbered point is one claim a reviewer can agree with, differ from or exten
 ├── work.md          definition: what the work is, its goals, what it takes; routing description in front matter
 ├── state.md         where the work lies: state fields in front matter; Now, Queue (territory), Next steps, Held
 ├── queries.md       every open and parked query in full, Needs-tagged
-├── messages.md      inbox: dated lines from other work and State of play
+├── messages.md      incoming queue: dated lines from other work and State of play, taken in priority order
 ├── decisions.md     the owner's decisions not yet durable elsewhere (unchanged)
 ├── <run>.report.md  run reports, kept until their outcome is homed
 ├── briefs/<run>.md  open briefs (unchanged)
 └── design/          design notes and diagram sources (unchanged)
 ```
 
-4. **All five files are required at creation,** `queries.md`, `messages.md` and `decisions.md` starting as `None`. A reader never meets a missing file, and a sender never creates one. The folder is created by State of play when it seeds the work, as the Seeding rule already says. `ki.regular`, which has no decisions log today, gains one at migration. Codex's objection, that five compulsory files overbuild small work, stands against this point (FILES-AT-CREATION).
+4. **All five files are required at creation,** `queries.md`, `messages.md` and `decisions.md` starting as `None`, so that others can queue work into `messages.md` at once (FILES-AT-CREATION a)). A reader never meets a missing file, and a sender never creates one. The folder is created by State of play when it seeds the work, as the Seeding rule already says. `ki.regular`, which has no decisions log today, gains one at migration.
 5. **Separating definition from state splits the logbook usefully:** `git log -- work.md` becomes the history of what the work is, and `git log -- state.md` the history of its moves; `queries.md`, `messages.md` and `decisions.md` each give one history of their own. Today all of it is interleaved in one file.
 
 ### What each file holds
@@ -177,7 +193,9 @@ Each numbered point is one claim a reviewer can agree with, differ from or exten
    - **History stays out.** The recap since the mark reads `git log -- +/_WORK/<id>/` and the run reports, so nothing needs a dated log in `## Now` or `## Next steps`. Evidence (commit SHAs, test counts, artefact hashes) lives in the run report and the commit; `state.md` may link one, not copy it.
 8. **`queries.md`, the Q file beside `decisions.md`.** Two sections, `## Open` and `## Parked`. Each query is a `### <TAG> - <title>` block carrying **Context**, **Query** and **Options** exactly as the owner report renders them, with one line beneath the heading giving `since <date>` and its source report, if any. Parking moves the whole block from Open to Parked with its reason and release; putting back moves it again. A parked tangent, an owner side topic not yet shaped as a query, is a one-line entry under `## Parked`. When the owner answers, the read-back goes into `decisions.md` and the block is deleted in the same commit, Git keeping it. The owner report's `## Queries` section is rendered from `## Open`, so the two cannot diverge.
 9. **Copying queries in at receive decouples reports from the tidy.** When the coordinator receives a run report, it copies each query into `queries.md`; the report then stays only until its outcome is homed, not until its queries are answered. On today's evidence that would let `ki.chezmoi` drop most of its 25 reports at its next tidy.
-10. **`messages.md`, the inbox.** One line per message, in today's Messages line shape (`- <date> · <TAG> · <sender title>: <words, links>`, about 60 words). Other work and State of play may append one line, or replace their own line not yet acted on, and commit that path alone; that is their only write into the folder, now checkable at the file level. Appends and removals are committed one at a time. The receiver records each line's disposition where it lands (see 25), names it in the commit that removes the line, and only then removes it.
+10. **`messages.md`, the incoming queue.** One line per message, in today's Messages line shape (`- <date> · <TAG> · <sender title>: <words, links>`, about 60 words), beneath the H1 `# <id> messages`. Other work and State of play may add one line, or replace their own line not yet acted on, and commit that path alone; that is their only write into the folder, now checkable at the file level. Additions and removals are committed one at a time. The receiver records each line's disposition where it lands (see 25), names it in the commit that removes the line, and only then removes it.
+
+    **The queue is taken in priority order** (WORK-QUEUE-PRIORITY). Lines stand in the order of their priority, top first: an ordinary line is added at the end, and State of play, dispatching, may place a line at the position its priority warrants. The worker takes the queue from the top and may group similar lines into one unit of work where that makes sense, naming every line it groups in the commit that removes them. A line added at the top with the important flag, `- IMPORTANT · <date> · <TAG> · <sender title>: ...`, is taken first, before any ordinary line, and the important lines are taken in their order, one at a time, never grouped or reordered. That is how State of play changes how a work works: a method change or a stop-and-redirect goes in as an important line. `FIRST-STEP` lines are important lines.
 11. **`Parked` is dissolved.** Parked queries and tangents go to `queries.md` `## Parked`; held work to `state.md` `## Held`, each with its release condition; ideas to the Project note's Notes or a record; resolved items are deleted by the work's own worker. No separate `parked.md`, which would recreate the catch-all.
 12. **`decisions.md` keeps its life cycle** under `ki-coordination`, with one entry format (H2 entries, the majority form today) settled at each work's migration.
 
@@ -224,7 +242,7 @@ method_read: 1a2b3c4
 
    `state`, `target`, `hold`, `blocking`, `since`, `received`, `beat` and `mark` keep today's rules. `id` repeats `work.md`'s, so the file read alone identifies itself and the rubric can check the pair agree. One field is new: `method_read`, the short ki-agentic-harness revision whose `ki-coordination` and `ki-work-package` guidance the worker last read in its harness checkout. It replaces the uneven body line and makes refresh targetable (see 29).
 
-14. **The description is written for routing,** in the skill description's voice: third person, what the work does, then "Takes ..." naming the kinds of unit it accepts, then "Not for ..." naming the neighbouring works by id. The work's steward writes it at seeding with State of play, and only the steward edits it; State of play may propose a change by a line in `messages.md`. Its exact shape is open (DESCRIPTION-SHAPE).
+14. **The description is written for routing,** in the skill description's voice: third person, what the work does, then "Takes ..." naming the kinds of unit it accepts, then "Not for ..." naming the neighbouring works by id. The work's steward writes it at seeding with State of play, and only the steward edits it; State of play may propose a change by a line in `messages.md`. Its shape is at most 500 characters, "Takes ... Not for ..." naming neighbours by id, beside `## Scope`, tested against a handful of ambiguous routing examples (DESCRIPTION-SHAPE a)).
 
 15. **No `active` or `accepts` field.** Whether a work can take a routed unit is derived from its state: every state except `finished` can receive; `on-hold` receives without waking (see 26). A work winding down says "Not taking new units" in its description, as Ways of working will before it closes.
 
@@ -241,9 +259,9 @@ method_read: 1a2b3c4
 | 3. Pick-up | `state.md`, `messages.md`, `queries.md`, `decisions.md` | as small as the limits below keep them | the work's own worker at bootstrap, re-anchoring, each owner message and each move |
 | 4. On demand | reports, briefs, `design/` | unbounded | only when `state.md` or `queries.md` names one |
 
-18. **Routing reads level 1 only.** Across today's 11 works that is a few thousand tokens at most, against about 5,000 words of work files now. A sender reads nothing in the receiver's folder: it appends to `messages.md`. A run reads its brief and what the brief names.
+18. **Routing reads level 1 only.** Across today's 11 works that is a few thousand tokens at most, against about 5,000 words of work files now. A sender reads nothing in the receiver's folder: it adds a line to `messages.md`. A run reads its brief and what the brief names.
 
-19. **Pick-up stays within the turn budget.** One read of the package's files counts as one call - all five at bootstrap and re-anchoring, the four pick-up files otherwise, `work.md` being read again only when it has changed - and a write to its files with a brief counts as one write set, so the five-call budget is not spent before the first launch. After bootstrap the coordinator reads only what changed since its last read, plus the entries that bear on the question, not every decision and query at each owner message. The `ki-coordinator` output style's "reads limited to the work file ..." and "writes limited to the work file, the decisions log and a brief" become "the work package" (PICKUP-READS).
+19. **Pick-up stays within the turn budget.** One read of the package's files counts as one call - all five at bootstrap and re-anchoring, the four pick-up files otherwise, `work.md` being read again only when it has changed - and a write to its files with a brief counts as one write set, so the five-call budget is not spent before the first launch. After bootstrap the coordinator reads only what changed since its last read, plus the entries that bear on the question, not every decision and query at each owner message. The `ki-coordinator` output style's "reads limited to the work file ..." and "writes limited to the work file, the decisions log and a brief" become "the work package" (PICKUP-READS a)).
 
 ### Size limits
 
@@ -266,17 +284,19 @@ method_read: 1a2b3c4
 22. **State of play is the single dispatch coordinator,** as Kris agreed. Every new unit of work - an owner dump, a handoff with no owning work, a cross-work item whose owner is unclear, and every method improvement - comes to State of play, by Kris pasting a prompt there or by a line in State of play's own `messages.md`.
 23. **Already-owned units go direct.** A work's own follow-ups, an item in a record that already names its work, and a reply to a message do not pass through the hub; State of play routes only what has no clear owner, as the review advised.
 24. **State of play matches the unit against the register** (level 1) and, if needed, the definitions (level 2), chooses one work and writes one dated line in that work's `messages.md`: `- <date> · ROUTE · <Territory> > SoP: <the unit in the owner's words, with links>`. Where nothing matches, it proposes to Kris either a new piece of work, within the cap, or a record captured through `ki-next`. The register is derived from the work folders by `ki work status`; State of play keeps no copy of it, and shows lines nobody has picked up.
-25. **Receipt is compulsory; execution authority is not conferred.** The receiving worker acts on each line at its next bootstrap or owner message, as now, and records one disposition: taken into `state.md` next steps where its existing authority covers it; turned into a query in `queries.md` where it needs Kris's authority, capacity or a scope change; or sent back to State of play's `messages.md` with the reason where it is outside the work's scope. A unit is returned once: if State of play cannot place it elsewhere, it goes to Kris as a query rather than round again. Kris's "you have to accept it" is read as owning the disposition, never as authority to execute what the work's decisions do not cover.
+25. **A routed work cannot reject what it is given; execution authority is not conferred** (ROUTE-RECEIPT a), amended). The receiving worker acts on each line at its next wake, bootstrap or owner message, in queue order, and does what it can with it: the part its existing authority covers goes into `state.md` next steps; the part that needs Kris's authority, capacity or a scope change becomes a query in `queries.md`; and only the part it judges is not its own goes back to State of play's `messages.md`, once, with the reason. There is no rejection of the whole: a work returns a part only after doing what it can with the rest. A returned part is routed once more at most: if State of play cannot place it elsewhere, or it would come back again, it goes to Kris as a query, so nothing bounces between works. Kris's "it has to do something with it" is read as owning the disposition, never as authority to execute what the work's decisions do not cover.
+
+    **The inbox is checked at each wake** (INBOX-CHECK a)). A coordinator's five-minute wake, armed while work lies with a worker, compares `messages.md`'s last commit and the method revision with what it last read; a new line is acted on at once, in queue order, without stopping running work. Nothing adds a wake where none is armed: for works not waking, State of play shows the age of their unread lines and gives Kris the resume line.
 26. **Held work keeps its hold.** A line routed to work On hold, paused, waits in `messages.md` without waking it; its count shows in State of play's register. Work On hold, more expected, is released by new work arriving under the existing rule, moving to Handoff to worker, and State of play gives Kris its resume line. If a paused work's line is urgent, State of play asks Kris to lift the hold.
-27. **Method improvements go to State of play from every work,** by a `METHOD` line in its `messages.md`. While Ways of working exists, State of play routes them to it like any other unit, its description saying it takes method changes. That keeps one dispatch point and needs no exception.
+27. **Every work tries to improve continually, and State of play coordinates it** (STEWARD-HOME a), amended). Method improvements go to State of play from every work, by a `METHOD` line in its `messages.md`, and State of play itself watches the works for improvements. While Ways of working exists, State of play routes them to it like any other unit, its description saying it takes method changes. That keeps one dispatch point and needs no exception.
 28. **While the method is being defined, Ways of working sends refresh lines directly** into each affected live work's `messages.md`, under WOW-REFRESH a). Afterwards State of play sends them.
-29. **Refresh is targeted and recorded.** After an approved method change lands, the sender writes one dated `REFRESH` line, only to works whose `method_read` predates the change and whom the change affects, linking the standard at its revision and stating the practical effect in a sentence. One revision vouches for `ki-coordination` and `ki-work-package` together in the harness checkout. A sender may replace its own earlier `REFRESH` line not yet acted on, so changes coalesce, and the replacement keeps every pending effect of the line it replaces. The receiver rereads at its next safe point, before launching further work, and sets `method_read`; updating the field is the confirmation, so no acknowledgement message is sent. Held work is not woken; the line waits. The existing bootstrap and update revision checks stay as the fallback.
-30. **When Ways of working closes,** its description says "Not taking new units" for its last wave; at Finished, State of play's `work.md` description gains method stewardship and its Scope names where method changes go next (open decision STEWARD-HOME). State of play still executes nothing.
+29. **Refresh is targeted and recorded.** After an approved method change lands, the sender writes one dated `REFRESH` line, flagged important so that it is taken before ordinary lines (point 10), only to works whose `method_read` predates the change and whom the change affects, linking the standard at its revision and stating the practical effect in a sentence. One revision vouches for `ki-coordination` and `ki-work-package` together in the harness checkout. A sender may replace its own earlier `REFRESH` line not yet acted on, so changes coalesce, and the replacement keeps every pending effect of the line it replaces. The receiver rereads at its next safe point, before launching further work, and sets `method_read`; updating the field is the confirmation, so no acknowledgement message is sent. Held work is not woken; the line waits. The existing bootstrap and update revision checks stay as the fallback.
+30. **When Ways of working closes,** its description says "Not taking new units" for its last wave; at Finished, State of play's `work.md` description gains method stewardship and its Scope says where method changes go next. State of play keeps a method backlog and dispatches each accepted small improvement as small regular work, or into the Project it most affects, with design reviews for changes of shape; lasting method authority stays in the skills and decision records. A significant change revives Ways of working, or a more targeted Project under the Model theme, as a Project. State of play still executes nothing.
 
 ### Fit with the owning skills and the Work Process note
 
 31. **`ki-work-package`**, renamed from `ki-work-folder`, owns the change: the closed list gains `state.md`, `queries.md` and `messages.md`; the work file's exact form becomes the definition form, and the state file's form is `## Now`, territory `## Queue`, `## Next steps` and `## Held`, with `## Messages` and `## Parked` gone; the front matter divides between the two files, gaining `description` in `work.md` and `id` and `method_read` in `state.md`; the entry-point table gives other work one write, appending or replacing its own line in `messages.md`; the tidy keeps a report until its outcome is homed, its queries having been copied at receive; the rubric's RECORD-2 and LIFECYCLE-1 follow the new files, and new criteria check the description, the size limits, the history heuristic and that `work.md` and `state.md` name the same `id`. The rubric reads both shapes, telling them apart by whether `state.md` exists, before any folder moves (point 41); its description keeps the old `+/_CHECKPOINTS/` tolerance and adds the old work-file shape for the migration window.
-32. **`ki-coordination`** keeps timing and judgement: Messages between work points at `messages.md`; Parking tangents and Putting work on hold park into `queries.md`; the owner report's Queries are rendered from `queries.md`; Territory work gains a Dispatch section (points 22 to 27); Refreshing this guidance gains targeted refresh and `method_read`; Bootstrap step 4 reads `messages.md`; the rubric gains the open-query count. The `ki-coordinator` output style's references to the work file's Messages section and its turn budget follow (point 19).
+32. **`ki-coordination`** keeps timing and judgement: Messages between work points at `messages.md`, a queue taken in priority order with the important flag (point 10), with route receipt (point 25) and the inbox check at each wake; Parking tangents and Putting work on hold park into `queries.md`; the owner report's Queries are rendered from `queries.md`; Territory work gains a Dispatch section (points 22 to 27); Refreshing this guidance gains targeted refresh and `method_read`; Picking work up gains the pick-up reads (point 19) and the recap's history source (point 7); Territory work gains State of play's stewardship of continual improvement (points 27 and 30); Bootstrap step 4 reads `messages.md`; the rubric gains the open-query count. The `ki-coordinator` output style's references to the work file's Messages section and its turn budget follow (point 19).
 33. **`ki-delegation`** gains one line: at receive, the coordinator copies a report's queries into `queries.md`. The launcher still homes reports and never deletes.
 34. **The Work Process note** changes its Words table (work package, work folder, work file as definition, state file, queries, messages), its Homes tree, its work-file paragraph, the source of the Observatory fields and its skill name; GDR-KI-PRINCIPAL-009 is refined in place, since it owns the work model. Under the Enactment Process that needs one ki-principal roadmap record for the note, the Decision Record and ki-principal's `.ki.toml` declaration together.
 35. **`tools-ki`** changes `ki work status` to read the state fields from `state.md` where it exists and from `work.md` otherwise (output schema unchanged, three additive fields, `path` naming `state.md` where it exists), adds a routing view listing each work's id, state, pending-message count and description, the register State of play reads, and renames the skill in its help text and man page. tools-ki is written only by `ki.tools-burndown`, so this work sends it as one handoff, a line in that work's Messages written as `ki-work-roadmap` describes for work another repository must deliver and marked blocking for the migration pass, from which `ki.tools-burndown` captures or folds the tools-ki record; `ki.tools-burndown` owns its priority, plan, release and install. One tools-ki record.
@@ -288,7 +308,7 @@ method_read: 1a2b3c4
 38. **What is renamed:** every place the text names the skill or the concept, `ki-work-folder` becoming `ki-work-package` and "work folder" as the concept becoming "work package". **What is not:** "work folder" where it names the directory `+/_WORK/<id>/`, which stays; and historical text, meaning decisions logs, past design notes, CHANGELOG entries and done records, which keeps the name it was written with.
 39. **Order, readers first.** Every reader that would misread a split folder accepts both shapes before any folder moves, and the rename rides with the standard so that each file moves once:
     1. This work sends the two reader handoffs at the start, so that they run alongside the harness change: the both-shapes `ki work status` to `ki.tools-burndown` (point 35), and the Observatory confirmation and date fix to `ki.observatory` (point 36).
-    2. One harness change moves `skills/governance/ki-work-folder/` to `ki-work-package/` and rewrites its standard and rubric to the package shape in the same series, the rubric reading both shapes; it updates every cross-reference, the diagrams, the skills README and the harness `.ki.toml`, and accepts `[skills.ki-work-folder]` as a deprecated alias of `ki-work-package` for a tolerance window.
+    2. One harness change moves `skills/governance/ki-work-folder/` to `ki-work-package/` and rewrites its standard and rubric to the package shape in the same series, the rubric reading both shapes; it updates every cross-reference, the diagrams, the skills README and the harness `.ki.toml`, and accepts `[skills.ki-work-folder]` as a deprecated alias of `ki-work-package` for a tolerance window. Because `ki` resolves a declaration by the skill's exact name and knows no alias, the alias is a thin deprecated `ki-work-folder` skill that only warns, naming the new declaration, and `ki-coordination` takes `ki-work-package` or its alias as an optional dependency until the window closes, so that no repository declaring the old name fails to resolve.
     3. ki-principal's `.ki.toml`, the Work Process note and GDR-KI-PRINCIPAL-009 change under one Enactment record.
     4. `ki.tools-burndown` lands, releases and installs the tools-ki change: the both-shapes reader, the additive fields, and the skill's new name in the help text and man page.
     5. The payload is reinstalled and checked: no stale `ki-work-folder` skill installed, `ki repair` clean, `chezmoi diff` showing no drift; and the readers are proven on a scratch copy of ki-principal's `+/_WORK/` outside the repository, where one folder split by hand gives the same `ki work status` row as before and the rubric passes both shapes.
@@ -331,88 +351,28 @@ method_read: 1a2b3c4
 
    The closed-list breaches in `design/` (`ki.mac-studio-setup`'s script, `ki.tools-burndown`'s JSON evidence) are left for each work's own mark.
 
-## Open decisions
+## Decisions
 
-Settled by Kris: PACKAGE-NAME (work package, `ki-work-package`, place still the work folder) and MESSAGES-FILE (`messages.md`) at 13:37 BST; STATE-FILE (`state.md` restored, five files) at 13:52 BST. The open queries, with their full Context and options, are in the `work-package-revise-2` run report; in brief:
+Every query is settled; the options not taken are in Git and the answers in the [decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/decisions.md).
 
-### FILES-AT-CREATION - Whether all five files exist from creation
-
-- a) (recommended, confidence medium - an empty file costs one line, while optional files make every reader, sender and rubric check handle absence; Codex holds that five compulsory files overbuild small work) All five at creation, three starting as `None`.
-- b) (Codex) `work.md` and `state.md` at creation; the others created when first written.
-- c) `work.md`, `state.md` and `messages.md` at creation, so no sender ever creates a file; `queries.md` and `decisions.md` when first written.
-
-### QUERIES-FILE - Full text in `queries.md`
-
-- a) (recommended, confidence high - reviewed: Codex and Fable agree) Every open and parked query in full; owner report rendered from it; reports pruned once their outcome is homed.
-- b) An index of tags pointing at reports.
-
-### PARKED-HOME - Where parked items go
-
-- a) (recommended, confidence high - reviewed: Codex and Fable agree) Parked queries and tangents in `queries.md` `## Parked`; held work in `state.md` `## Held` with its release; ideas to the Project note or a record; no `parked.md`.
-- b) One `parked.md`, a sixth file.
-
-### DESCRIPTION-SHAPE - The routing description
-
-- a) (recommended, confidence medium - routing reads only descriptions first, so exclusions must be there) Up to 500 characters, "Takes ... Not for ..." by id, plus `## Scope`, tested against ambiguous examples.
-- b) About 300 characters of plain prose, ids in `## Scope` only.
-- c) Route on the Project `outcome` alone.
-
-### ROUTE-RECEIPT - What a routed work must do
-
-- a) (recommended, confidence high - reviewed: Codex and Fable agree) Compulsory disposition at the next bootstrap or owner message; no conferred authority; one return, then a query to Kris.
-- b) Only at the next mark.
-
-### REFRESH-TARGET - Targeted refresh
-
-- a) (recommended, confidence high - reviewed: Codex and Fable agree) `method_read` in `state.md`; one coalescing, lossless `REFRESH` line to affected works behind.
-- b) Broadcast with acknowledgements.
-
-### INBOX-CHECK - Check the inbox at each wake
-
-- a) (recommended, confidence medium - one comparison per wake) Each wake compares `messages.md` and the method revision with the last read; State of play shows unread age for works not waking.
-- b) As a), plus a 15-minute inbox-only wake while the work is with Kris.
-- c) No standing rule.
-
-### PICKUP-READS - The turn budget for a package
-
-- a) (recommended, confidence high - reviewed: Fable agrees; only the file count has changed) One read of the package's files counts as one call, all five at bootstrap and the four pick-up files otherwise; after bootstrap read only what changed.
-- b) Keep the budget and accept fewer launches.
-- c) A `ki work` command printing the package and its changes since the last read.
-
-### STATE-HISTORY - Keeping history out of `state.md`
-
-- a) (recommended, confidence high - reviewed: Fable agrees; only the file it applies to has changed) Recap reads `git log` of the folder and run reports; the check warns on bulk history in the `state.md` body, not a single link.
-- b) A strict pattern check, no stated recap source.
-
-### STEWARD-HOME - Method changes after Ways of working closes
-
-- a) (recommended, confidence medium - reviewed: Codex and Fable agree) State of play keeps a method backlog and dispatches each improvement as small regular work or into the Project it most affects.
-- b) A standing regular work under an Activity note, if volume shows the need.
-
-### RENAME-ORDER - Readers first, then the `ki-work-package` rename
-
-- a) (recommended, confidence medium - the rename order was reviewed, but the two reader handoffs make the pass wait on other works' delivery and a `ki` release) Point 39: reader handoffs sent at the start; rename with the standard and a both-shapes rubric in one harness change with a deprecated alias; then ki-principal; then tools-ki through `ki.tools-burndown`, released and installed; then reinstall and a scratch check; then the pass.
-- b) Rename first and migrate under a pass that moves only Messages and Parked, leaving the state fields in `work.md` until the readers land, then move them in a second pass.
-- c) Migrate the folders under the old skill name first, and rename afterwards as a separate change.
-- d) Rename everywhere, including the eight other territories' `.ki.toml`, in one approved sweep with no alias, after the readers.
-
-### MIGRATE-PATH - The one-pass migration's steps
-
-- a) (recommended, confidence medium - mechanical moves only, but the pass now moves the state fields, so a stale session could fork them; the rubric's check catches that) Points 41, 43, 44 and 46.
-- b) As a), and the pass also tidies: prunes reports whose queries are copied, strikes decisions, deletes resolved parked items.
-
-### MIGRATE-GATE - What must hold before the pass launches
-
-- a) (recommended, confidence medium - three other works committed within half an hour, so session safety rests on Kris's confirmation and a last-commit check) Point 42.
-- b) Launch on `ki agent status` and the readers alone, trusting "no other thread is active".
-- c) As a), but leave out any folder that moved on 19 October and let it migrate itself at its own next mark.
-
-### MIGRATE-SELF - How this live session takes part
-
-- a) (recommended, confidence high - reviewed: Fable agrees; only the file count and the pilot's reader check have changed) Point 45: launch the pass with this folder first as the pilot, write nothing in it until the pass reports, then re-anchor from all five files.
-- b) Migrate this folder in a separate pilot run first, then launch the pass for the other ten after Kris sees the pilot.
-
-### FIELDS-MIGRATE-ORDER - Where the field migration starts (carried from the merge report)
-
-- a) (recommended, confidence medium - a four-record run tests the run's shape cheaply) apps-markhowarth.com first as a mechanical pilot, then personal-principal and the rest.
-- b) personal-principal first as the pilot.
+| Tag | Settled | Outcome |
+| --- | --- | --- |
+| PACKAGE-NAME | 13:37 BST | The concept and skill are the work package, `ki-work-package`; the place is still the work folder (points 1 and 2) |
+| MESSAGES-FILE | 13:37 BST | `messages.md` (point 10) |
+| STATE-FILE | 13:52 BST, b) | `state.md` kept; five files (points 3 and 7) |
+| FILES-AT-CREATION | 14:02 BST, a) | All five files at creation (point 4) |
+| QUERIES-FILE | 14:02 BST, a) | Every open and parked query in full in `queries.md` (points 8 and 9) |
+| PARKED-HOME | 14:02 BST, a) | Parked queries in `queries.md`, held work in `state.md` `## Held` (point 11) |
+| DESCRIPTION-SHAPE | 14:02 BST, a) | Up to 500 characters, "Takes ... Not for ..." by id, plus `## Scope` (point 14) |
+| ROUTE-RECEIPT | 14:02 BST, a) amended | No rejection: do what it can, return only the part not its own, once, with a reason, then to Kris (point 25) |
+| REFRESH-TARGET | 14:02 BST, a) | `method_read` in `state.md`; one coalescing `REFRESH` line to works behind (point 29) |
+| INBOX-CHECK | 14:02 BST, a) | Each wake checks `messages.md` and the method revision; unread age shown for works not waking (point 25) |
+| PICKUP-READS | 14:02 BST, a) | One read of the package counts as one call; after bootstrap read only what changed (point 19) |
+| STATE-HISTORY | 14:02 BST, a) | Recap reads `git log` and run reports; a warning on bulk history in `state.md` (points 7 and 21) |
+| STEWARD-HOME | 14:02 BST, a) amended | State of play coordinates continual improvement; a significant change revives Ways of working or a targeted Model Project (points 27 and 30) |
+| WORK-QUEUE-PRIORITY | 14:02 BST | `messages.md` is a queue in priority order; similar lines may be grouped; important lines at the top are taken first, in order (point 10) |
+| RENAME-ORDER | 14:02 BST, a) | Readers first; rename with a both-shape rubric and a deprecated alias; as fast as possible, in parallel runs (point 39) |
+| MIGRATE-PATH | 14:02 BST, a) | Mechanical one-pass moves, this work as pilot (points 41, 43, 44 and 46) |
+| MIGRATE-GATE | 14:02 BST, a) | Point 42 |
+| MIGRATE-SELF | 14:02 BST, a) | Point 45 |
+| FIELDS-MIGRATE-ORDER | 14:02 BST, a) | apps-markhowarth.com pilot, then personal-principal and the rest; outside this note |
