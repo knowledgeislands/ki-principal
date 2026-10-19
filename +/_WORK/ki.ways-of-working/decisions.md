@@ -391,3 +391,9 @@ Read back taken: HOOK-REVIEW-CLAUSE a) with a compaction - raise the hook test's
 ## 2026-10-19 19:35 BST - received hook-compact; send to owner
 
 hook-compact rewrote the coordinator hook line from 1,362 to 1,267 characters, the query-review clause included (about 1,090 without it), raised the test ceiling to 1,500 and asserts the clause (harness `979e075a`, pushed fast-forward; GitHub noted the `build` status check was bypassed on the direct push). Tests, type check, generation and audit passed. `hooks/README.md` still describes the older line. HOOK-REVIEW-CLAUSE closed.
+
+## 2026-10-19 19:40 BST - owner answers, nudges and push
+
+Kris: "ok - right all `check messages.md` sent. I pushed all"
+
+Read back taken: the seven works with Kris (State of play, Specifications, chezmoi, Mac Studio setup, Baseline rollout, Timelines, Acquire intake) have been told to read their REFRESH lines; ki-principal and acquire are pushed.
