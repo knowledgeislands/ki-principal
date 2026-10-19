@@ -2,8 +2,10 @@
 
 ## Open
 
-No open queries.
+### GFM-MIGRATION - prefer GitHub-flavoured Markdown
+
+since 2026-10-19 21:28 BST · unparked by Kris · in scoping (gfm-scope)
 
 ## Parked
 
-- Parked 2026-10-09: a gradual move from Obsidian-style to GitHub-flavoured Markdown, starting with a front-matter field declaring a note's flavour.
+Nothing parked.
