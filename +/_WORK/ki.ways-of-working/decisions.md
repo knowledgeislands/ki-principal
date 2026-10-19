@@ -301,3 +301,11 @@ Standard and rubric changed in the harness (`eff6163b`, on origin): territory wo
 ## 2026-10-19 18:48 BST - received SOL-ALIGN
 
 Kris pasted Sol's report: all 51 registered repositories level with GitHub and clean at 18:45; no skill-link changes needed (`ki-work-package` resolves everywhere, `ki-work-folder` gone); ki-coordinator style current, no chezmoi drift; ki 0.11.4 and mgit 0.17.0 from local checkouts; one untracked stray deleted on Sol (`+/_WORK/ki.chezmoi/husky-apply.report.md`, an exact copy of its run report; this Mac's copy belongs to another session and is untouched); no commits. Sessions already open on Sol need a restart to see `ki-work-package`.
+
+## 2026-10-19 18:50 BST - received TERRA-ALIGN; owner decision on Terra's legal strays
+
+Kris pasted Terra's report: every repository level except apps-tower.midnight.ninja (the tower session's own 2 commits and live work, left alone) and legal-principal (1 behind, 8 untracked reports in `+/_WORK/lgl/`); skill links repaired (97 added, 41 stale removed, 14 repositories); ki 0.11.4, mgit 0.17.0; three broken user-level links proposed for removal (`~/.claude/skills/ki-pmo`, `ki-pmo-design`, `ki-design-loop`); no commits.
+
+Kris: "but I already agreed to the LGL stuff"
+
+Read back taken: REPORT-SWEEP a) covers Terra's copies too. Terra deletes the seven reports identical to copies `5c43f459` deleted, commits the one new report, `helen-update.report.md`, into `+/_WORK/lgl/` with a Messages line asking the lgl worker to receive it, then fast-forwards legal-principal and pushes that one commit. The three broken user-level links go too, as they point at retired skills.
