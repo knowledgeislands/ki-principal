@@ -79,3 +79,23 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 123 (2026-10-19T22:11:19Z)
 
 - Pointer: Kris on 19 October, 23:13 BST, the same answer: TERRA-NORDVPN a). Open a Rig follow-up record for detecting the bypass ([terra-nordvpn](/Users/krisbrown/.local/state/ki/agents/chezmoi/terra-nordvpn.report.md)). It is given ahead of its blind review, which is still running, so the record run waits for the review and stops if the review disagrees.
+
+## Decision 124 (2026-10-19T22:13:47Z)
+
+- Pointer: FW-DECLARE, Kris on 15 October: "The Rig: chezmoi thread commits the firewall declaration as conf.d/private_45-firewall.toml with profiles = [\"laptop\"], and does not apply chezmoi on sol until sol's Rig is 0.6.0 or later; then give me the terra steps." Delivered as `[firewall.screen-sharing-tailnet]` in `private_55-ports.toml` (chezmoi `dd2a062`) and applied on Sol under SOL-APPLY. Held in the [State of play decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/decisions.md).
+
+## Decision 125 (2026-10-19T22:13:47Z)
+
+- Pointer: FW-DECLARE-NOW, Kris on 16 October: "Rig: chezmoi commits the FW-DECLARE firewall declaration (dot_config/rig/conf.d/private_45-firewall.toml, profiles = [\"laptop\"]) as its first step; no chezmoi apply on sol until sol's Rig is 0.6.0 or later; then give me the terra steps for KI-TOOL-RIG-CORE-047." Covered by RIG-LIVE-DELIVER ([mark-tidy-1019](/Users/krisbrown/.local/state/ki/agents/chezmoi/mark-tidy-1019.report.md)); held in the [State of play decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/decisions.md).
+
+## Decision 126 (2026-10-19T22:13:47Z)
+
+- Pointer: SSH-SPARE-KEY, Kris on 16 October: "Both Macs are always within physical reach, so the console is the restore path: no spare key is needed, and Rig: chezmoi notes the console fallback in the chezmoi macOS workstation guide before key-only SSH applies on terra." The console note is not yet in `docs/guides/user/macos-workstation.md`; its delivery is authorised as SSH-CONSOLE under CARRY-DIRECTIONS a) ([mark-tidy-1019](/Users/krisbrown/.local/state/ki/agents/chezmoi/mark-tidy-1019.report.md)). Held in the [State of play decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/decisions.md).
+
+## Decision 127 (2026-10-19T22:13:47Z)
+
+- Pointer: SEAT-RECORD host binding, Kris on 15 October: "... A message to Rig: chezmoi asks it to bind home to terra and hub to sol in host data." Delivered in chezmoi `856c8f1` under CARRY-DIRECTIONS a). Held in the [State of play decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/decisions.md).
+
+## Decision 128 (2026-10-19T22:13:47Z)
+
+- Pointer: TOML-OPENER, Kris on 17 October: ".toml files are currently opening up in [Warp], and I don't want that. I'd rather they opened up in [Zed] ... I think it must have some kind of default opener on it." Delivered in chezmoi `faa4d3a`; applying it waits on TOML-HANDLER. Held in the [State of play decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/decisions.md).
