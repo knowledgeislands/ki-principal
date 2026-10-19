@@ -2,7 +2,7 @@
 
 > The format for an acquire package: how to acquire knowledge from one source or with one tool, faithfully and repeatably, so that what it yields can be traced and relied on.
 
-**Status:** draft 0.5, 20 October 2026. Name `acquire`. To be held in `ki-acquire` as `references/standards-acquire-spec.md`. Follows the [Agent Skills specification](https://agentskills.io/specification); see [Relation to Agent Skills](#relation-to-agent-skills).
+**Status:** draft 0.6, 20 October 2026. Name `acquire`. To be held in `ki-acquire` as `references/standards-acquire-spec.md`. Follows the [Agent Skills specification](https://agentskills.io/specification); see [Relation to Agent Skills](#relation-to-agent-skills).
 
 Structure and some wording adapted from the [Agent Skills specification](https://agentskills.io/specification), originally developed by Anthropic and published under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); changed to describe acquire packages.
 
@@ -33,7 +33,7 @@ The `ACQUIRE.md` file must contain YAML front matter followed by Markdown conten
 
 | Field | Required | Constraints |
 | - | - | - |
-| `name` | Yes | Max 64 characters. Lowercase letters, numbers and hyphens only. Must not start or end with a hyphen or contain `--`. Must match the directory name. |
+| `name` | Yes | Max 64 characters. Lowercase ASCII letters `a-z`, digits `0-9` and hyphens only. Must not start or end with a hyphen or contain `--`. Must match the directory name. |
 | `description` | Yes | Max 1024 characters. Non-empty. Says which source it reads, what knowledge it yields and when to use it. |
 | `metadata` | Yes | A map from string keys to string values. Must hold `source` and `mutation`; may hold `omissions` and `spec`, and any property this specification does not define. |
 | `compatibility` | No | Max 500 characters. Non-empty if present. Tools, accounts and network access the method needs. |
@@ -73,12 +73,14 @@ metadata:
 
 #### `name` field
 
-The required `name` field, as Agent Skills:
+The required `name` field, as Agent Skills except that letters and digits are ASCII only:
 
 - Must be 1-64 characters
-- May only contain lowercase alphanumeric characters (`a-z`, `0-9`) and hyphens (`-`)
+- May only contain lowercase ASCII letters `a-z`, digits `0-9` and hyphens (`-`)
 - Must not start or end with a hyphen, and must not contain `--`
 - Must match the parent directory name
+
+Agent Skills' text admits Unicode lowercase alphanumeric characters; this specification keeps to `a-z` and `0-9`, its own portability choice, so that a name reads the same on every file system and in every `package:` reference.
 
 Name the source and what is taken from it (`tracker-issues`, `git-help`), not the action alone (`importer`). **Invalid:** `Git-Help` (uppercase), `-git-help` (leading hyphen), `git--help` (consecutive hyphens).
 
@@ -164,7 +166,7 @@ Keep file references one level deep from `ACQUIRE.md`, as Agent Skills does: nam
 
 Anything outside the package, such as the place a run's output is kept, the source's own documentation or another acquire package, is an external reference: a package name, a URL, or a relative path that lands outside the package.
 
-- **A package name** resolves first to its sibling, the package of that name in the directory that holds this package. Only when there is no sibling does it resolve to the package of that name in any collection of packages the reader is given; if those collections hold more than one, the reader reports the reference as ambiguous, naming the candidates, and resolves it to none of them. `<name>` is 1-64 lowercase letters, numbers, hyphens and full stops, starting and ending with a letter or number, with no two of `-` and `.` together, which admits the name of every work, knowledge and acquire package.
+- **A package name** resolves first to its sibling, the package of that name in the directory that holds this package. Only when there is no sibling does it resolve to the package of that name in any collection of packages the reader is given; if those collections hold more than one, the reader reports the reference as ambiguous, naming the candidates, and resolves it to none of them. `<name>` is 1-64 characters of lowercase ASCII letters `a-z`, digits `0-9`, hyphens and full stops, starting and ending with a letter or digit, with no two of `-` and `.` together, which admits the name of every work, knowledge and acquire package.
 - **A URL** resolves as the URL does.
 - **A relative path** resolves from the directory of the file that holds it, as above.
 
@@ -181,13 +183,13 @@ A package is valid when:
 - no file in the package holds a credential, token or captured source content
 - every file reference is a package name, a URL or a relative path in the forms above; every relative path that lands inside the package resolves there
 
-There is one level of validity. Size limits are recommendations, warned and never failed. A reviewer judges what cannot be checked by machine, against a trial run: whether the procedure really finds everything in scope, whether its rigour suits the source, and whether the declared omissions are the whole list; whether the Mutation section lists each permitted write with its confirmation; whether each script offers a dry run for any step that writes and stops when the source's responses change shape; and whether `assets/` holds no real captured content. No reference validator exists yet.
+There is one level of validity. Size limits are recommendations, warned and never failed. A reviewer judges what cannot be checked by machine, against a trial run: whether the procedure really finds everything in scope, whether its rigour suits the source, and whether the declared omissions are the whole list; whether the Mutation section lists each permitted write with its confirmation; whether each script offers a dry run for any step that writes and stops when the source's responses change shape; and whether `assets/` holds no real captured content. No reference validator for this specification exists yet.
 
 ## Relation to Agent Skills
 
-- **Reused unchanged:** a package is a directory named for it; an entry file with YAML front matter and a Markdown body; `name`, `description`, `license`, `compatibility`, `metadata` and `allowed-tools` with their constraints, and Agent Skills' advice that `metadata` keys be reasonably unique; `scripts/`, with Agent Skills' recommendations for scripts, `references/` and `assets/`; three disclosure tiers; file references one level deep.
-- **Different, and why:** the entry file is `ACQUIRE.md`, in upper case as `SKILL.md` is, which is this specification's rule, not Agent Skills'; `metadata` is required and must hold `source` and `mutation`, because a reader must see what is read and whether the source can be changed before trusting a run, and both are read in the first tier, which is therefore about 150 tokens rather than 100; `metadata.omissions` is defined, so the gaps are machine-readable; `metadata.spec` is defined so a reader can tell the version; the body has required sections, because completeness, provenance and verification are the guarantees acquisition exists to give; scripts must offer a dry run for any step that writes and must stop when the source's responses change shape, because a write made unseen or a response misread breaks those guarantees; a relative path resolves from the directory of the file that holds it rather than from the package root, which gives the same target in `ACQUIRE.md` and lets a link in a nested file work in any Markdown viewer; external references to other packages and to kept output are defined, in three notations a validator tells apart by form, because a run's output is kept outside the method; no captured content or credentials may sit in the package.
-- **Skill validity:** every added field sits in `metadata`, so the front matter uses only fields Agent Skills defines; renamed to `SKILL.md`, a conforming package passed the checks `skills-ref validate` made when its source was read on 19 October 2026, and is a skill whose task is acquisition.
+- **Reused unchanged:** a package is a directory named for it; an entry file with YAML front matter and a Markdown body; `description`, `license`, `compatibility`, `metadata` and `allowed-tools` with their constraints, `name`'s length, hyphen and directory rules, and Agent Skills' advice that `metadata` keys be reasonably unique; `scripts/`, with Agent Skills' recommendations for scripts, `references/` and `assets/`; three disclosure tiers; file references one level deep.
+- **Different, and why:** the entry file is `ACQUIRE.md`, in upper case as `SKILL.md` is, which is this specification's rule, not Agent Skills'; `name`'s letters and digits are ASCII `a-z` and `0-9` only, where Agent Skills' text admits Unicode lowercase alphanumeric characters, so that a name reads the same on every file system and in every `package:` reference; `metadata` is required and must hold `source` and `mutation`, because a reader must see what is read and whether the source can be changed before trusting a run, and both are read in the first tier, which is therefore about 150 tokens rather than 100; `metadata.omissions` is defined, so the gaps are machine-readable; `metadata.spec` is defined so a reader can tell the version; the body has required sections, because completeness, provenance and verification are the guarantees acquisition exists to give; scripts must offer a dry run for any step that writes and must stop when the source's responses change shape, because a write made unseen or a response misread breaks those guarantees; a relative path resolves from the directory of the file that holds it rather than from the package root, which gives the same target in `ACQUIRE.md` and lets a link in a nested file work in any Markdown viewer; external references to other packages and to kept output are defined, in three notations a validator tells apart by form, because a run's output is kept outside the method; no captured content or credentials may sit in the package.
+- **Skill validity:** every added field sits in `metadata`, so the front matter uses only fields Agent Skills defines, and a conforming name is a valid skill name; renamed to `SKILL.md`, a conforming package is a valid skill under the Agent Skills specification, one whose task is acquisition. That is a claim about the format. Of `skills-ref`, the reference validator Agent Skills links, which its README calls a demonstration not meant for production, this specification claims only what inspecting its source as read on 19 October 2026 supports, without running it: its field checks accept the front matter of the examples above, written as shown. Its parser is narrower than the format: it reads the front matter with `strictyaml`, a subset of YAML, and ends it at the first `---` after the opening one wherever that falls, so a value holding three hyphens in a row, which this specification allows, such as in `metadata.source`, cuts the front matter short and the package fails to parse there. That is a limit of the validator; this specification does not narrow its values to suit it.
 
 ## Relation to the other specifications
 

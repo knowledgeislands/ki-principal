@@ -2,7 +2,7 @@
 
 > The format for a work package: one piece of work, its definition and its current state, packaged so that any person or agent can pick it up.
 
-**Status:** draft 0.5, 20 October 2026. Name `work`. To be held in `ki-work-package` as `references/standards-work-spec.md`. Follows the [Agent Skills specification](https://agentskills.io/specification); see [Relation to Agent Skills](#relation-to-agent-skills).
+**Status:** draft 0.6, 20 October 2026. Name `work`. To be held in `ki-work-package` as `references/standards-work-spec.md`. Follows the [Agent Skills specification](https://agentskills.io/specification); see [Relation to Agent Skills](#relation-to-agent-skills).
 
 Structure and some wording adapted from the [Agent Skills specification](https://agentskills.io/specification), originally developed by Anthropic and published under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); changed to describe work packages.
 
@@ -38,7 +38,7 @@ All five files exist from the moment the package is created, so that a reader ne
 
 | Field | Required | Constraints |
 | - | - | - |
-| `name` | Yes | Max 64 characters. Lowercase letters, numbers and hyphens, with `.` allowed between segments. Must match the directory name. |
+| `name` | Yes | Max 64 characters. Lowercase ASCII letters `a-z`, digits `0-9` and hyphens, with `.` allowed between segments. Must match the directory name. |
 | `description` | Yes | Max 1024 characters. Non-empty. Says what the work does and what it covers. |
 | `license` | No | Licence name or reference to a bundled licence file. |
 | `compatibility` | No | Max 500 characters. Non-empty if present. Environment requirements, such as tools or access the work needs. |
@@ -74,7 +74,7 @@ metadata:
 The required `name` field:
 
 - Must be 1-64 characters
-- May only contain lowercase alphanumeric characters (`a-z`, `0-9`), hyphens (`-`) and full stops (`.`)
+- May only contain lowercase ASCII letters `a-z`, digits `0-9`, hyphens (`-`) and full stops (`.`)
 - Must not start or end with a hyphen or a full stop, and must not contain `--`, `..`, `-.` or `.-`
 - Must match the parent directory name
 
@@ -201,7 +201,7 @@ Keep file references one level deep from the required files: link what a reader 
 
 Anything outside the package, such as a [knowledge package](knowledge.md), an [acquire package](acquire.md) or evidence kept elsewhere, is an external reference: a package name, a URL, or a relative path that lands outside the package.
 
-- **A package name** resolves first to its sibling, the package of that name in the directory that holds this package. Only when there is no sibling does it resolve to the package of that name in any collection of packages the reader is given; if those collections hold more than one, the reader reports the reference as ambiguous, naming the candidates, and resolves it to none of them. `<name>` is 1-64 lowercase letters, numbers, hyphens and full stops, starting and ending with a letter or number, with no two of `-` and `.` together, which admits the name of every work, knowledge and acquire package.
+- **A package name** resolves first to its sibling, the package of that name in the directory that holds this package. Only when there is no sibling does it resolve to the package of that name in any collection of packages the reader is given; if those collections hold more than one, the reader reports the reference as ambiguous, naming the candidates, and resolves it to none of them. `<name>` is 1-64 characters of lowercase ASCII letters `a-z`, digits `0-9`, hyphens and full stops, starting and ending with a letter or digit, with no two of `-` and `.` together, which admits the name of every work, knowledge and acquire package.
 - **A URL** resolves as the URL does.
 - **A relative path** resolves from the directory of the file that holds it, as above.
 
@@ -219,13 +219,13 @@ A package is valid when:
 - `WORK.md` carries no state
 - every file reference is a package name, a URL or a relative path in the forms above; every relative path that lands inside the package resolves there
 
-There is one level of validity. Size limits are recommendations, warned and never failed. Whether each message carries its date and sender, and each decision its date, who decided and the decision, are judgements a reviewer makes. No reference validator exists yet. `skills-ref validate` validates an Agent Skills entry, not the five-file contract of a work package: the specification requires that entry to be named `SKILL.md`, and the validator also tolerates a lower-case `skill.md` when `SKILL.md` is absent. It would reject a dotted `name`.
+There is one level of validity. Size limits are recommendations, warned and never failed. Whether each message carries its date and sender, and each decision its date, who decided and the decision, are judgements a reviewer makes. No reference validator for this specification exists yet. `skills-ref validate` validates an Agent Skills entry, not the five-file contract of a work package: the specification requires that entry to be named `SKILL.md`, and the validator also tolerates a lower-case `skill.md` when `SKILL.md` is absent. It would reject a dotted `name`.
 
 ## Relation to Agent Skills
 
 - **Reused unchanged:** a package is a directory named for it; an entry file with YAML front matter and a Markdown body; `description`, `license`, `compatibility` and `metadata` with their constraints, and Agent Skills' advice that `metadata` keys be reasonably unique; `references/` and `assets/`; three disclosure tiers; file references one level deep; soft size limits for each file.
-- **Different, and why:** the entry file is `WORK.md`, in upper case as `SKILL.md` is, which is this specification's rule, not Agent Skills'; five required files rather than one, because a work package carries changing state beside a stable definition and keeping them apart lets the definition stay small and rarely edited; `name` admits `.` between segments, because work nests within larger work; `metadata.spec` is defined, because work packages are long-lived and a reader must tell which version wrote one; the closed list of top-level keys is stated in words, where Agent Skills states it only through its validator; the metadata tier also reads the `state.md` front matter, because where work stands is part of what it is; the package tier reads five files, up to about 25,000 tokens at the per-file limits against a skill body's 5,000, because whoever takes the work on needs its definition, state, questions, messages and decisions together; a relative path resolves from the directory of the file that holds it rather than from the package root, which gives the same target in the required files and lets a link in a nested file work in any Markdown viewer; external references to other packages and evidence are defined, in three notations a validator tells apart by form, because work cites methods and knowledge it does not contain; no `scripts/` or `allowed-tools`, because a work package directs work rather than performing it.
-- **Skill validity:** a work package makes no claim to be a skill. Its entry file is `WORK.md`, not `SKILL.md`. Renamed to `SKILL.md`, the `WORK.md` of a package with an undotted `name` passed the checks `skills-ref validate` made when its source was read on 19 October 2026, while a dotted `name` fails them; the four other required files are additional files, which Agent Skills allows.
+- **Different, and why:** the entry file is `WORK.md`, in upper case as `SKILL.md` is, which is this specification's rule, not Agent Skills'; five required files rather than one, because a work package carries changing state beside a stable definition and keeping them apart lets the definition stay small and rarely edited; `name` admits `.` between segments, because work nests within larger work, and its letters and digits are ASCII `a-z` and `0-9` only, where Agent Skills' text admits Unicode lowercase alphanumeric characters, so that a name reads the same on every file system and in every `package:` reference; `metadata.spec` is defined, because work packages are long-lived and a reader must tell which version wrote one; the closed list of top-level keys is stated in words, where Agent Skills states it only through its validator; the metadata tier also reads the `state.md` front matter, because where work stands is part of what it is; the package tier reads five files, up to about 25,000 tokens at the per-file limits against a skill body's 5,000, because whoever takes the work on needs its definition, state, questions, messages and decisions together; a relative path resolves from the directory of the file that holds it rather than from the package root, which gives the same target in the required files and lets a link in a nested file work in any Markdown viewer; external references to other packages and evidence are defined, in three notations a validator tells apart by form, because work cites methods and knowledge it does not contain; no `scripts/` or `allowed-tools`, because a work package directs work rather than performing it.
+- **Skill validity:** a work package makes no claim to be a skill. Its entry file is `WORK.md`, not `SKILL.md`. Renamed to `SKILL.md`, the `WORK.md` of a package with an undotted `name` uses only fields and a name Agent Skills allows, while a dotted `name` breaks Agent Skills' name rule; the four other required files are additional files, which Agent Skills allows. Of `skills-ref`, the reference validator Agent Skills links, which its README calls a demonstration not meant for production, this specification claims only what inspecting its source as read on 19 October 2026 supports, without running it: its field checks accept the undotted example above, written as shown, and reject the dotted one. Its parser reads the front matter with `strictyaml`, a subset of YAML, and ends it at the first `---` after the opening one wherever that falls, so a value holding three hyphens in a row, which this specification allows, cuts the front matter short and it fails to parse there. That is a limit of the validator; this specification does not narrow its values to suit it.
 
 ## Relation to the other specifications
 
