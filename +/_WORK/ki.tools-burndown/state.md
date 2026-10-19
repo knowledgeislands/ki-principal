@@ -11,6 +11,7 @@ method_read: 9c17df3c
 
 ## Now
 
+- wave1 finished 23:31 BST: tools-ki d88d494b, ki-principal 2646d94b, va-principal 7f61803 converted and proven, local (ki-principal pushed under the standing grant). Pilot passed on the source build. Estate runs told to add Knip ignores by hand, restore the unrelated .rumdl.toml rewrite and test refusal with only git on PATH. KNIP-HUSKY to blind review. Outstanding: the ki-authoring .rumdl.toml drift (conform drops MD005 and MD075 disables); va-principal commit-msg waits on KI-TOOL-KI-CLI-161; tools-ki ITEM-5 on KI-TOOL-KI-CLI-157 after another session pruned -155.
 - trimga finished 23:24 BST: tools-mgit's 3 triage records adopted (KI-TOOL-MGIT-CLI-027 Next, -029 Soon, -030 Soon high), commit 977bec6 local; tools-git-almanac had none. MGIT-030-NEXT and ESTATE-PUSH at blind review qreview4 (ESTATE-PUSH reached Kris before review, a lapse). messages.md: ACCEPT-AWAITING from ki (23:19) is covered by the release run, which accepts KI-TOOL-KI-CLI-163; line removed.
 - Kris ordered the whole estate off Husky now (HOOK-GUARD b), waves 2 to 5 collapsed): estmig-org held on release, estmig-ki held on tritools and ends by moving HOOK-3 to HOOK-5 to FAIL. Commits local; push needs Kris. State of play told.
 - Kris took the recommendations, with HOOK-RELEASE b) release now, and asked for the tool triage at once: release held on wave1, tritools (HOOK-CAPTURE records, design note, tools-ki triage) held on release, trimga (tools-mgit and tools-git-almanac triage) running; wave1 given VA-HOOKS a). HOOK-GUARD open.

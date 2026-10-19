@@ -48,6 +48,20 @@ b) Settle the four promotion choices with Kris as Soon shaping first, then promo
 
 c) Leave it at Soon until the burndown reaches it.
 
+### KNIP-HUSKY - Teach conform the Knip side of the conversion
+
+since 2026-10-19 · from wave1.report.md in the run state folder · blind review pending
+
+**Context:** Knip saw Commitlint and lint-staged through its Husky plugin; once Husky goes it reports them unused, failing Knip. wave1 added them to `ignoreDependencies` by hand, and the estate runs were told at 23:32 BST to do the same so the migration is not held up.
+
+**Query:** Should `ki repo conform`'s conversion add those Knip ignores itself, for repositories converted later and for new ones?
+
+**Options:**
+
+a) (recommended, confidence medium - it keeps future conversions mechanical, at the cost of one more tools-ki change) Extend the KI-TOOL-KI-CLI-163 conversion in a follow-up release, and have the harness's Knip guidance name it.
+
+b) Leave conform as it is; the estate runs fix it by hand tonight and later conversions rely on the audit.
+
 ## Parked
 
 ### ASK-B - Coarse acquisition kind in the public export
