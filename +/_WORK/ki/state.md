@@ -1,6 +1,6 @@
 ---
 id: ki
-state: handoff-to-supervisor
+state: with-worker
 since: 2026-10-19T23:23:42Z
 received: 2026-10-19T17:58:50Z
 beat: null
@@ -12,8 +12,8 @@ method_read: f4d6c521
 
 ## Now
 
-- Handoff to supervisor since 00:23 BST on 20 October, on sol. Nothing is running from State of play, and the lanes run TRIAGE-ALL in their own works.
-- With Kris: GOV035-ACCEPT and TECHNE-FOLLOWUPS, and opening a session to resume ki.ways-of-working (WOW-RESUME, taken as covered by PROGRESS-ALL).
+- With worker since 00:27 BST on 20 October, on sol, working overnight under OVERNIGHT: acting on high-confidence recommendations, no push, checking every 10 minutes when idle.
+- Running: `gov035-accept`, then `agent-host-resume`, which is chained after it; `wow-triage` runs in parallel.
 - After GOV-035 is accepted: resume ki.agent-host with the Techne follow-ups, release KI-TOOL-RIG-DIST-011, KI-TECHNE-OPS-024 and KI-TOOL-TECHNE-CLI-006, and release KI-PRINCIPAL-MOD-008 to next.
 - The 12 email-routing records now belong to Humans not Robots (hnr.email-routing), held until Kris resumes HNR work.
 - KI-TOOL-RIG-CORE-047 stays Awaiting review with ki.chezmoi until its NordVPN checks and Terra's `rig apply --sudo` run, or Kris narrows it.

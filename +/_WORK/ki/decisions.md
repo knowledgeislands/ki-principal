@@ -140,3 +140,15 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 - 00:20 BST: CANCEL-MERGE from ki.tools-burndown, which is acceptrig's proposal to cancel KI-TOOL-RIG-DIST-011, merge KI-TOOL-RIG-CORE-056 into CORE-053, and reject CORE-057 and CORE-064. Routed to ki.mac-studio-setup, which owns tools-rig and runs its own blind review. Note the conflict: roadmap-census-2 found DIST-011 about to be met by GOV-035 rather than obsolete. Line removed.
 - 00:23 BST: `query-review-5` received, blind, and agrees on TECHNE-FOLLOWUPS a), so its confidence is raised to high. Its finding: ki-principal was pushed at 00:21 BST, so the Techne repositories' links to the old policy are already broken.
 - 00:23 BST: NO-GATE from ki.tools-burndown routed to ki.ways-of-working, which owns the hooks standard. That work picks it up when it resumes. Line removed.
+
+## 2026-10-20 00:27 BST - OVERNIGHT
+
+- **OVERNIGHT:** "I'm going to bed now. I want you to keep looking every 10 minutes to see if there's any new work for yourself in some way. And if there is, I want you to progress it. You can do anything on a high confidence level that you recommend. If you can get a good recommendation, you can move on to the next one, and as you do more and work, it might be that when you come back to ones that you couldn't get a good recommendation for, it might be more accurate. We've got autonomy to make this happen, so I'm going to leave you with this in your safe hands."
+  - Taken as: until Kris returns, State of play acts on every high-confidence recommendation, its own and its runs'.
+  - A medium or low query goes to a blind review. If the review agrees, it rises to high and is acted on; if not, it is parked for Kris and revisited later.
+  - Destructive actions still need a review that agrees.
+  - No push: Kris's standing "never push without a request" is not lifted.
+  - Checks run every 10 minutes when idle, and every 5 minutes while runs are going.
+- **GOV035-ACCEPT a)**, taken under OVERNIGHT: `gov035-accept` dispatched, which also releases KI-PRINCIPAL-MOD-008 to next.
+- **TECHNE-FOLLOWUPS a)**, taken under OVERNIGHT: `agent-host-resume` is chained after gov035-accept.
+- **WOW-RESUME a)**, taken under PROGRESS-ALL and OVERNIGHT: with no ways-of-working session open, `wow-triage` is dispatched as that package's worker.
