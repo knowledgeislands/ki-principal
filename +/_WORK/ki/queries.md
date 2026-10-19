@@ -11,11 +11,11 @@
   - b) Set it to Ready now.
   - c) Keep it as draft at `next`.
 
-### CLI006-CONFIRM - How rebuild and withdraw meet `destroy.sh`'s confirmation (in blind review: query-review-7)
+### CLI006-CONFIRM - How rebuild and withdraw meet `destroy.sh`'s confirmation
 
-- **Context:** `destroy.sh` needs `CONFIRM_DESTROY_AGENT_HOST` set to the stack name, but the recipe manifest does not declare it.
-- **Query:** How should the CLI meet it?
+- **Context:** `destroy.sh` needs `CONFIRM_DESTROY_AGENT_HOST` set to the stack name, and the recipe manifest does not declare it. The script fails closed today. The review found that on a clean host the script destroys with no typed prompt, so an exported variable left over from an earlier run could confirm a destroy without fresh consent.
+- **Query:** How should `techne host rebuild` and `withdraw` meet the confirmation?
 - **Options:**
-  - a) (medium) Pass it through from your environment.
-  - b) The Harness declares it in `[operations]`.
-  - c) The CLI prompts for it and sets it.
+  - a) (recommended, confidence medium - review disagrees: the planner prefers pass-through, which works today with no Harness change; the reviewer prefers b) at high, because pass-through gives no fresh consent and leaves the interface undeclared) Pass it through from your environment, preferably scoped to the one command rather than exported.
+  - b) The Harness declares the confirmation in its manifest, including fresh interactive consent. The CLI prompts with the target and operation and passes the value only to that run. Rebuild and withdraw wait for this; status and stop go ahead.
+  - c) The CLI prompts and sets the undeclared variable itself, which needs a change to ADR-KI-PRINCIPAL-006's boundary.
