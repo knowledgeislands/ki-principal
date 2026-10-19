@@ -22,7 +22,7 @@ method_read: null
 
 ## Next steps
 
-1. Review [the delivered capture consolidation](/Users/krisbrown/workspaces/personal/acquire/docs/roadmap/KB-ACQUIRE-011-consolidate-capture-contracts.md), left Awaiting review, with Kris. Continue the open discussions in `queries.md` without reopening completed source imports.
+1. Review the delivered capture consolidation [KB-ACQUIRE-011 (pruned)](https://github.com/krisb/acquire/blob/e370006a8a5f5d79346146998030fb94ad30aa58/docs/roadmap/KB-ACQUIRE-011-consolidate-capture-contracts.md), left Awaiting review, with Kris. Continue the open discussions in `queries.md` without reopening completed source imports.
 2. Before changes, read [the working design note](design/intake-and-clearance.md) and [the current canonical intake state](https://github.com/krisb/acquire/blob/main/intake/README.md); two receipt scopes remain pending there. Acquire starts at `CAPTURE.md` and the selected local guide. Keep intake receipts and source capture evidence separate from capability tracking.
 3. Use the agreed `captures/<territory>/<source-or-ingress>/` and `context/<territory>/` layout; the local follow-through updates callers and routing wording. Keep mirrored Git/source-store item locators; dispatch, holding and routing-card trials remain their existing work, not a condition for simple capture.
 4. Discuss what technical state must survive (STATE-PLACEMENT): Granola import/reconcile/mark reads its handling ledger; the ChatGPT checkpoint/converter and migration files are retained batch/provenance proof; `.acquire/` is not inherently required as a directory. Agree the minimal surviving-proof model and destination before tooling or state relocation.

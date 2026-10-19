@@ -120,24 +120,24 @@ These are current canonical states, not self-acceptance or permission to start e
 | Record | State | Consolidation disposition |
 | --- | --- | --- |
 | [KB-ACQUIRE-002][acq-002] | Draft | Existing carrier for physical state relocation; tooling prerequisite remains. |
-| [KB-ACQUIRE-003][acq-003] | Awaiting review | Keep offline delivery distinct from unproved live bridge; settle prototype ownership. |
-| [KB-ACQUIRE-004][acq-004] | Awaiting review | Working screenshots/markers have delivery evidence; no new importer is needed. |
+| [KB-ACQUIRE-003 (pruned)][acq-003] | Awaiting review | Keep offline delivery distinct from unproved live bridge; settle prototype ownership. |
+| [KB-ACQUIRE-004 (pruned)][acq-004] | Awaiting review | Working screenshots/markers have delivery evidence; no new importer is needed. |
 | [KB-ACQUIRE-005][acq-005] | Triage | Later dispatch trial; not a prerequisite for capturing supplied knowledge. |
-| [KB-ACQUIRE-006][acq-006] | Triage | Incorporate demonstrated store/clearance paths; retain prospective scope separately. |
+| [KB-ACQUIRE-006 (pruned)][acq-006] | Triage | Incorporate demonstrated store/clearance paths; retain prospective scope separately. |
 | [KB-ACQUIRE-007][acq-007] | Triage | Downstream dispatch/return; not part of capture's completion claim. |
 | [KB-ACQUIRE-008][acq-008] | Triage | Use to develop context refresh; do not make the trial depend on another queue. |
-| [KB-ACQUIRE-009][acq-009] | Awaiting review | Preserve working source marks and explicit coverage; inspect before changing common rules. |
-| [KB-ACQUIRE-010][acq-010] | Awaiting review | Already delivers the single front door; consolidate around it. |
+| [KB-ACQUIRE-009 (pruned)][acq-009] | Awaiting review | Preserve working source marks and explicit coverage; inspect before changing common rules. |
+| [KB-ACQUIRE-010 (pruned)][acq-010] | Awaiting review | Already delivers the single front door; consolidate around it. |
 
 [acq-002]: /Users/krisbrown/workspaces/personal/acquire/docs/roadmap/KB-ACQUIRE-002-migrate-granola-state.md
-[acq-003]: /Users/krisbrown/workspaces/personal/acquire/docs/roadmap/KB-ACQUIRE-003-investigate-binary-bridge.md
-[acq-004]: /Users/krisbrown/workspaces/personal/acquire/docs/roadmap/KB-ACQUIRE-004-granola-acquired-workflow.md
+[acq-003]: https://github.com/krisb/acquire/blob/e370006a8a5f5d79346146998030fb94ad30aa58/docs/roadmap/KB-ACQUIRE-003-investigate-binary-bridge.md
+[acq-004]: https://github.com/krisb/acquire/blob/e370006a8a5f5d79346146998030fb94ad30aa58/docs/roadmap/KB-ACQUIRE-004-granola-acquired-workflow.md
 [acq-005]: /Users/krisbrown/workspaces/personal/acquire/docs/roadmap/KB-ACQUIRE-005-seed-and-return-loop.md
-[acq-006]: /Users/krisbrown/workspaces/personal/acquire/docs/roadmap/KB-ACQUIRE-006-image-video-holding-area.md
+[acq-006]: https://github.com/krisb/acquire/blob/e370006a8a5f5d79346146998030fb94ad30aa58/docs/roadmap/KB-ACQUIRE-006-image-video-holding-area.md
 [acq-007]: /Users/krisbrown/workspaces/personal/acquire/docs/roadmap/KB-ACQUIRE-007-dispatch-packet-push-and-return.md
 [acq-008]: /Users/krisbrown/workspaces/personal/acquire/docs/roadmap/KB-ACQUIRE-008-routing-knowledge-cards.md
-[acq-009]: /Users/krisbrown/workspaces/personal/acquire/docs/roadmap/KB-ACQUIRE-009-chat-capture-marks.md
-[acq-010]: /Users/krisbrown/workspaces/personal/acquire/docs/roadmap/KB-ACQUIRE-010-general-capture-entry-point.md
+[acq-009]: https://github.com/krisb/acquire/blob/e370006a8a5f5d79346146998030fb94ad30aa58/docs/roadmap/KB-ACQUIRE-009-chat-capture-marks.md
+[acq-010]: https://github.com/krisb/acquire/blob/e370006a8a5f5d79346146998030fb94ad30aa58/docs/roadmap/KB-ACQUIRE-010-general-capture-entry-point.md
 
 The earlier stocktake remains useful source material, but its historical provider counts, holding suggestions and outstanding queries are not current operating instructions. Do not revive its proposed size caps, schedules or old bridge launches as part of this cleanup.
 
