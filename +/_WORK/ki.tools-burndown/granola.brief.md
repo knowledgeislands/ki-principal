@@ -1,5 +1,0 @@
-# granola - trust the Granola Acquired folder alone
-
-Kris decided (relayed by Personal > Acquire intake, 19 October): "Yeah, I completely trust the acquire folder alone. So, let's get the tools KI change done." In tools-ki, under ki-work-roadmap: capture, plan and deliver a record so that membership of the Granola Acquired folder alone skips a meeting in `ki acquire granola`, with no ledger lookup, no `verifyGranolaPreservation` re-check and no `acquired-without-proof` flag for marked meetings (`src/core/acquire/granola/import.ts` about lines 400-427). Settle what the ledger still records, if anything, and say so in the record. Do not retire or touch Acquire's `.acquire/granola/ledger.json`. Full gate green (tests at 100%, tsc, biome, rumdl, knip, ki repo audit); leave the record Awaiting review; no release.
-
-Authority: Kris, as quoted, under OWNER-LANE. Commit by explicit path; never --no-verify or force-push; no push. Report under Done, In Progress and Queries in British English and ASCII hyphens; put anything needing Kris as a Query with a recommended option and confidence.
