@@ -19,7 +19,8 @@ method_read: 84b61942
 - ki-principal push left to the owning sessions (PUSH-STACK a).
 - FIRST-STEP done: `ki-work-package` and all five files re-read, description, Goals and Scope confirmed as drafted, `method_read` set.
 - REPORT-SWEEP received: the four kept reports stay, their outcomes not yet homed; rig-lane's query is RIG-ORDER, and the other three are the held at-screen steps below.
-- Decisions being struck by run decision-strike, launched at the 23:36 BST mark.
+- Decisions struck at the 23:36 BST mark by decision-strike (64ddf80f): 139 deleted, three pointers, 24 kept.
+- Looks resolved, to confirm with Kris: terra key-only SSH and HOSTKEY-APPLY steps 6-9 (KB-DOTFILES-UE-088 records both applied and verified on both Macs on 16 October), and the parked SOL-HNR-HARNESS (the Project note says the HNR harness stays on sol).
 - Run reports sit in `~/.local/state/ki/agents/mac-studio-setup/`, retired ones in its `archive/`.
 
 ## Next steps
