@@ -13,8 +13,8 @@ method_read: 979e075a
 ## Now
 
 - With worker since 19:48 BST on 19 October; marked at 20:10 BST.
-- Running: rig-dock, then carry-directions, chained in the chezmoi source. Done: mgit-apply (`_mgit` live and verified) and triage-cut (UE-095 merged into UE-090, UE-096 on Hold; 19 open).
-- With Kris: nothing. The `[locals]` migration is closed with no apply left.
+- Running: carry-directions, and firewall-review (blind review of RIG-FIREWALL-REHEARSE). Done since the mark: rig-dock, KB-DOTFILES-UE-091 delivered to Awaiting review, firewall declaration not written.
+- With Kris after review: RIG-FIREWALL-REHEARSE; and the attended Dock apply on Sol ([rig-dock report](/Users/krisbrown/.local/state/ki/agents/chezmoi/rig-dock.report.md)).
 
 ## Next steps
 
