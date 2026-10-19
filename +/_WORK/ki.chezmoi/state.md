@@ -22,7 +22,7 @@ method_read: f4d6c521
 
 ## Next steps
 
-1. OVERNIGHT: receive ue100-sol, ue090-r1 (KB-DOTFILES-UE-090 round 1, source-only). cpin delivered chezmoi `fc3b7fd` (vega mgit pin at v0.18.0, source only, `rig doctor` 4 before and after). RIG-DRIFT, the 4 standing `rig doctor` findings on Sol, is with blind review run rigdrift-blind. cmigrate delivered chezmoi `82cc247` (mgit push template managed; completions and manifests already current). The RAT-* batch waits for Kris.
+1. OVERNIGHT: receive ue100-sol; ue090-r1 delivered KB-DOTFILES-UE-090 round 1 (chezmoi `55ac30b`, record In progress at Now), its review gate and RIGDOC-DETAIL with run r1-review; round 2 only after a pass. cpin delivered chezmoi `fc3b7fd` (vega mgit pin at v0.18.0, source only, `rig doctor` 4 before and after). RIG-DRIFT, the 4 standing `rig doctor` findings on Sol, is with blind review run rigdrift-blind. cmigrate delivered chezmoi `82cc247` (mgit push template managed; completions and manifests already current). The RAT-* batch waits for Kris.
 2. CONSUMER-MIGRATE: mgit v0.18.0 is released; check what migration this work owes.
 3. Sol's chezmoi commits reach Terra only after a push, which is Kris's call.
 
