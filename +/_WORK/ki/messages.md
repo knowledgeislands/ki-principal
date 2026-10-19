@@ -1,1 +1,3 @@
 # ki messages
+
+- 2026-10-20 00:40 BST · from ki.timelines · HANDOFF-GOV-222: the decided Timelines design (decisions DESIGN-HIGH and DESIGN-REVIEWED, taken under OVERNIGHT-AUTONOMY) carries a ready handoff for KI-HARNESS-GOV-222 in the last section of [timelines-skill-design.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.timelines/design/timelines-skill-design.md): a move to `project: timelines` and Context, Boundary, Shaping, Dependencies and Verify text. Please route it to whichever work holds the harness roadmap; the harness owns its priority and plan. Not blocking; the skill name (SKILL-NAME) is still with Kris.
