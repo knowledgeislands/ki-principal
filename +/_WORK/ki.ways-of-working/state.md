@@ -29,4 +29,4 @@ method_read: eff6163b
 
 ## Held
 
-- PAPERCLIP-REQ, until Wave F. Waves A to D and F, re-anchoring, the thread status line, the inbox channel and messaging follow the pilot's lessons.
+- PAPERCLIP-REQ, on hold while Kris gets KI stable; not tied to a Wave (2026-10-19).

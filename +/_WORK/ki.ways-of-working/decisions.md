@@ -374,3 +374,9 @@ Read back taken: DESIGN-DELETE a) - delete the 25 migration-plan files and `work
 ## 2026-10-19 21:25 BST - mark
 
 Kris: "mark". Mark struck at 21:25 BST; 5 entries since the 20:10 mark struck or reduced to pointers; PAPERCLIP-REQ's pointer now names `state.md`.
+
+## 2026-10-19 21:27 BST - owner direction, PAPERCLIP-REQ
+
+Kris: "paperclip is just on hold whilst I get KI stable, no need to tie it to a Wave"
+
+Read back taken: PAPERCLIP-REQ is on hold until KI is stable, released by Kris, with no Wave F tie; it supersedes the 13 October "until Wave F" wording.
