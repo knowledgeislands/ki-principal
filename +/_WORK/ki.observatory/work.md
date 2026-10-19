@@ -6,7 +6,7 @@ project: observatory
 theme: model
 worker: agent
 supervisor: owner
-state: handoff-to-supervisor
+state: with-worker
 since: 2026-10-19T08:05:51Z
 received: 2026-10-19T07:14:00Z
 beat: null
@@ -23,6 +23,7 @@ created_at: 2026-10-13T23:50:00Z
 - Outstanding: KI-OBSERVA-VIS-029 and KI-OBSERVA-OPS-004 wait for unit 4 (Host network); KI-OBSERVA-OPS-003 in triage. Open with Kris: TIMELINE-THREAD.
 - All runs done by 09:05 BST: design handoff at apps-observatory.local `-/design-handoff/INSTRUCTION.md`; KI-OBSERVA-APP-045 and KI-TOOL-KI-CLI-154 in triage; KI-HARNESS-GOV-222 timeline and calendar skill; diagram records KB-MIDNIGHT-TOWER-SITE-019, LGL-PRINCIPAL-OPS-028, ER-PRINCIPAL-015, VA-WEBSITE-GOV-005, KB-PRINCIPAL-045; apps-vallearmonia.com roadmap conformed and pushed (VA-CONFORM); KI-OBSERVA-APP-043 built, Awaiting review, PDR-KI-OBSERVA-009; service restarted 09:05 BST.
 - Sent to Kris 09:05 BST. Open with Kris: ACCEPT-STEP-2, HNR-HOME, TIMELINE-THREAD, DIAGRAM-PIES.
+- Received 09:10 BST: AS-RECOMMENDED-0910, OVERLAY, ROLLOUT-THREAD. Running obs-accept-step2 then obs-overlay (apps-observatory.local), obs-hnr-record (hnr-principal). Timeline and rollout openers given to Kris. Open with Kris: DIAGRAM-PIES.
 
 ## Messages
 
