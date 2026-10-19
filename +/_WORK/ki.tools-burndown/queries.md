@@ -28,7 +28,7 @@ since 2026-10-19 · from burndown.report.md in the run state folder
 
 **Options:**
 
-a) (recommended, confidence medium - every record has a live owner or dependency, and cutting any of them would lose work you asked for) Accept all: keep all eight. KI-TOOL-KI-CLI-145 and -152 get rewritten for the work model when they are planned.
+a) (recommended, confidence high - reviewed, every record has a live owner or dependency, and cutting any of them would lose work you asked for) Accept all: keep all eight. KI-TOOL-KI-CLI-145 and -152 get rewritten for the work model when they are planned.
 
 b) Accept with named exceptions: name any record to cancel anyway, with its resolution (obsolete, rejected, duplicate, merged or superseded), and I'll carry it out under `ki-accept`.
 
@@ -38,7 +38,7 @@ c) Decline: send it back for a second pass with a firmer cut, for example cancel
 
 since 2026-10-19 · from the MGIT-RELEASE message
 
-**Context:** Through ki.ways-of-working: you ran the hands-on check of [KI-TOOL-MGIT-CLI-023](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-023-hands-on-behaviour-check.md) and it passed, and MGIT-RELEASE a) asks for acceptance with you and then one mgit release. The record still reads `draft`. [KI-TOOL-MGIT-CLI-028](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-028-learn-majority-output.md) is also Awaiting review. KI-TOOL-MGIT-CLI-023 is now Awaiting review with your check as its evidence, and `v0.18.0` is prepared locally (`9a3564d`): Bats 135 of 135, shellcheck, mandoc and `ki repo audit` FAIL=0. Cutting it pushes main and the tag, creates the GitHub release, verifies the installer and lets the Homebrew tap notifier open its formula pull request; CONSUMER-MIGRATE (ki.chezmoi) follows.
+**Context:** Through ki.ways-of-working: you ran the hands-on check of [KI-TOOL-MGIT-CLI-023](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-023-hands-on-behaviour-check.md) and it passed, and MGIT-RELEASE a) asks for acceptance with you and then one mgit release. The record still reads `draft`. [KI-TOOL-MGIT-CLI-028](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-028-learn-majority-output.md) is also Awaiting review. KI-TOOL-MGIT-CLI-023 is now Awaiting review with your check as its evidence, and `v0.18.0` is prepared locally (`9a3564d`): Bats 135 of 135, shellcheck, mandoc and `ki repo audit` FAIL=0. mgitdep then added KI-TOOL-MGIT-CLI-029 (the four CLI departures) as two roadmap-only commits on top; the tag goes on the gated `9a3564d` (MGIT-TAG-TARGET a), taken by the coordinator). Cutting it pushes main and the tag, creates the GitHub release, verifies the installer and lets the Homebrew tap notifier open its formula pull request; CONSUMER-MIGRATE (ki.chezmoi) follows.
 
 **Query:** May I accept KI-TOOL-MGIT-CLI-023 on your passed check and cut, push and publish the mgit release once the tools-mgit gate passes?
 
@@ -72,7 +72,7 @@ since 2026-10-19 · from biomeci.report.md in the run state folder
 
 **Options:**
 
-a) (recommended, confidence medium - it keeps your choice and leaves the evidence to planning) Keep the record as captured, and have planning check the latest CI runs first. If the audit gate turns out to be broken, fix it rather than repeat its checks.
+a) (recommended, confidence high - reviewed, it keeps your choice and leaves the evidence to planning) Keep the record as captured, and have planning check the latest CI runs first. If the audit gate turns out to be broken, fix it rather than repeat its checks.
 
 b) Keep the explicit steps whatever planning finds, and hand ki-agentic-harness a Minimal CI exception.
 
@@ -88,7 +88,7 @@ since 2026-10-19 · from mgitlearn2.report.md in the run state folder
 
 **Options:**
 
-a) (recommended, confidence medium - you asked for a prompt "just in case", and nobody has asked for a scripted use yet) keep it impossible for now and capture a flag only if a need comes up;
+a) (recommended, confidence high - reviewed, you asked for a prompt "just in case", and nobody has asked for a scripted use yet) keep it impossible for now and capture a flag only if a need comes up;
 
 b) capture a record now for a `--yes` style flag, which the current boundary leaves out.
 
@@ -102,7 +102,7 @@ since 2026-10-19 · from rigsite-config.report.md in the run state folder
 
 **Options:**
 
-a) (recommended, confidence medium - this matches how default applications already work, the reason for each flag can be checked, and the public export stays untouched) Capture it with an explicit `tool` subject link, `configured_by` in the `rig show` JSON, and a new specification clause covering that JSON.
+a) (recommended, confidence high - reviewed, this matches how default applications already work, the reason for each flag can be checked, and the public export stays untouched) Capture it with an explicit `tool` subject link, `configured_by` in the `rig show` JSON, and a new specification clause covering that JSON.
 
 b) Capture it with the handoff's plain `configured: true|false` instead of the list.
 
@@ -114,13 +114,13 @@ d) Capture nothing until Kris declares configuration that actually differs betwe
 
 since 2026-10-19 · from rigsite-config.report.md in the run state folder
 
-**Context:** Once Rig accepts `tool`, the resources that really concern a catalogue tool need the link added: the claude-swap, mcporter and paperclip services and the rig-update job. Separately, the observatory and paperclip services hard-code mise install paths, including node 24.15.0, and declare no `requires`. A node upgrade would silently break paperclip (G5).
+**Context:** Once Rig accepts `tool`, the resources that really concern a catalogue tool need the link added: the claude-swap, mcporter and paperclip services and the rig-update job. Separately, the observatory and paperclip services hard-code mise install paths, including node 24.15.0, and declare no `requires`. A node upgrade would silently break paperclip (G5). The blind review prefers b): the brittle service paths can be fixed now, and the subject links should follow the accepted Rig schema without holding that repair.
 
 **Query:** Shall I capture a krisb/dotfiles record for both pieces of data work, blocked by the SITE-CONFIG-SHAPE record?
 
 **Options:**
 
-a) (recommended, confidence medium - one data pass covers both, and the path fix is worth having on its own) Capture one record covering both.
+a) (recommended, confidence medium - review disagrees, one data pass covers both, and the path fix is worth having on its own) Capture one record covering both.
 
 b) Capture only the path fix now and add the links when the Rig record lands.
 
@@ -136,7 +136,7 @@ since 2026-10-19 · from rigsite-config.report.md in the run state folder
 
 **Options:**
 
-a) (recommended, confidence medium - G2 and G3 are small, self-contained fixes, and the model change deserves its own design) Two records at triage: "Doctor reports the selected plan's managers, and uv installs before its tools" (G2, G3), and "Package managers as catalogue tools", a `provides` field that lets Rig derive manager links, prerequisites and findings from data (G1, G4).
+a) (recommended, confidence high - reviewed, G2 and G3 are small, self-contained fixes, and the model change deserves its own design) Two records at triage: "Doctor reports the selected plan's managers, and uv installs before its tools" (G2, G3), and "Package managers as catalogue tools", a `provides` field that lets Rig derive manager links, prerequisites and findings from data (G1, G4).
 
 b) One combined record.
 
@@ -152,7 +152,7 @@ since 2026-10-19 · from hooksstd.report.md in the run state folder · [design n
 
 **Options:**
 
-a) (recommended, confidence medium - the only shape that gates package-less repositories and fresh worktrees, and it keeps the current decision, but it reads "Husky" more narrowly than you may have meant) Husky holds the content wherever a Bun package exists; every repository commits `.githooks` stubs and binds `.githooks`.
+a) (recommended, confidence high - reviewed, the only shape that gates package-less repositories and fresh worktrees, and it keeps the current decision, but it reads "Husky" more narrowly than you may have meant) Husky holds the content wherever a Bun package exists; every repository commits `.githooks` stubs and binds `.githooks`.
 
 b) Husky alone: bind `.husky/_` everywhere and add a `package.json` and `husky` to every package-less repository; unbuilt worktrees commit unchecked and the decision is superseded.
 
@@ -168,7 +168,7 @@ since 2026-10-19 · from hooksstd.report.md in the run state folder
 
 **Options:**
 
-a) (recommended, confidence medium - one content home per repository and uniform stubs, at the cost of a small change to three checkers) Move it into `.husky/pre-commit` where a package exists, keep it in the stub where none does, and have the three criteria read the effective gate.
+a) (recommended, confidence high - reviewed, one content home per repository and uniform stubs, at the cost of a small change to three checkers) Move it into `.husky/pre-commit` where a package exists, keep it in the stub where none does, and have the three criteria read the effective gate.
 
 b) Keep the KB audit in the stub everywhere.
 
@@ -182,7 +182,7 @@ since 2026-10-19 · from hooksstd.report.md in the run state folder
 
 **Options:**
 
-a) (recommended, confidence medium - one source for the vocabulary and no Node dependency, though it adds a tools-ki command) Add `ki git check-message` for `.githooks/commit-msg` to call; until it ships, those repositories have `pre-commit` only.
+a) (recommended, confidence high - reviewed, one source for the vocabulary and no Node dependency, though it adds a tools-ki command) Add `ki git check-message` for `.githooks/commit-msg` to call; until it ships, those repositories have `pre-commit` only.
 
 b) A shell pattern in `.githooks/commit-msg`, generated from the `ki-git` vocabulary by conform.
 
@@ -192,13 +192,13 @@ c) No message check outside Bun repositories.
 
 since 2026-10-19 · from hooksstd.report.md in the run state folder
 
-**Context:** The current decision makes adding a stub "that repository's change, raised as a receiver-owned trade", and the Charter gives territory selection no cross-repository write authority. Rolling out through `ki repo` and the estate repair means runs writing stubs in about 47 repositories.
+**Context:** The current decision makes adding a stub "that repository's change, raised as a receiver-owned trade", and the Charter gives territory selection no cross-repository write authority. Rolling out through `ki repo` and the estate repair means runs writing stubs in about 47 repositories. The blind review prefers b): ADR-KI-HARNESS-SKILLS-017 explicitly requires receiver-owned trades and the Charter denies inferred cross-repository authority, though an explicit bounded wave grant could authorise a different arrangement.
 
 **Query:** Should one owner grant per wave cover `ki repo conform` writing and committing the stubs in every listed KI repository?
 
 **Options:**
 
-a) (recommended, confidence medium - it matches "through `ki repo`" and the change is mechanical, but each wave writes to repositories this work does not own) One grant per wave; a run commits the stubs and the `prepare` change by explicit path in each listed repository, local only, and you push.
+a) (recommended, confidence medium - review disagrees, it matches "through `ki repo`" and the change is mechanical, but each wave writes to repositories this work does not own) One grant per wave; a run commits the stubs and the `prepare` change by explicit path in each listed repository, local only, and you push.
 
 b) Receiver-owned trades: this work ships the standard and the tool, and each repository's owning work runs `ki repo conform` itself.
 
