@@ -15,4 +15,3 @@
 - 2026-10-19 · GET-MOVING · Kris: "so, can you get some of the changes moving?" Still governs: build the step 3 work already authorised in apps-observatory.local, one record at a time, tested and committed locally.
 - 2026-10-19 · VIS-030-MINIMAL · Pointer: the minimal Known Lands chart is in place for Kris's designs to revise; positions, interaction and look await them (KI-OBSERVA-VIS-030).
 - 2026-10-19 · COUNTS-TABLES · Kris: "Counts seems fine and tables let's go with it for now." Pointer: counts shaped into KI-OBSERVA-BRG-005 (09762d9); the worker column on Repositories, Roadmap and Sessions, labelled where repository-level only, is being built in KI-OBSERVA-VIS-031.
-- 2026-10-19 · BEACON-ACCEPT · Kris: "accepted". Pointer: KI-OBSERVA-BCN-008 to done, queued as obs-beacon-accept.

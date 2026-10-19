@@ -15,7 +15,7 @@ method_read: 84b61942
 - With worker since 22:38 BST on 19 October; marked at 22:50 BST.
 - Running: obs-authors-review, blind review of COMMIT-AUTHORS.
 - Received obs-tab-and-workers at 22:51 BST: Known Lands tab with a scrolling bar (6b2096c), KI-OBSERVA-BRG-005 counts shaped (09762d9), KI-OBSERVA-VIS-031 worker column built and awaiting review (52f18bf); raised COMMIT-AUTHORS (medium) and WORKERS-JOIN (high).
-- Running: obs-beacon-accept (KI-OBSERVA-BCN-008 to done).
+- Received obs-beacon-accept at 22:51 BST: KI-OBSERVA-BCN-008 done (22ea8dc, local).
 - Since the previous mark: roadmap 35 to 27 records; KI-OBSERVA-BCN-008 built (23f2ba5) and accepted; minimal Known Lands chart (a4ea2ad, 21be3a6); handoff records KI-HARNESS-GOV-223, KI-HARNESS-GOV-224, KI-TOOL-KI-CLI-159, KB-PRINCIPAL-046, HNR-PRINCIPAL-KM-018.
 - Kris pushes ki-principal and apps-observatory.local (PUSH-KRIS).
 - Run reports sit in `~/.local/state/ki/agents/observatory/`.
