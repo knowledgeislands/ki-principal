@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
 state: with-worker
-since: 2026-10-19T23:14:56Z
+since: 2026-10-19T23:19:26Z
 received: null
 beat: null
 mark: 2026-10-19T22:44:55Z
@@ -12,7 +12,7 @@ method_read: f4d6c521
 
 ## Now
 
-- KB-DOTFILES-UE-090 is Ready at Next (chezmoi `e939158`); gap 1 is split out as KB-DOTFILES-UE-101, held on KB-DOTFILES-UE-087 (`a326e3d`, `e939158`, unpushed). KB-DOTFILES-UE-098 is Awaiting review (chezmoi `85e36b8`, apply attended); TRIAGE-LANE a) approved; run triage-dispose records UE-099 and plans UE-100's diagnostic stage. bringup-fold folded the review safeguards into KB-DOTFILES-UE-090 and handed gap 9 to KB-DOTFILES-UE-076 (chezmoi `45488d1`, unpushed).
+- KB-DOTFILES-UE-090 is Ready at Next (chezmoi `e939158`); gap 1 is split out as KB-DOTFILES-UE-101, held on KB-DOTFILES-UE-087 (`a326e3d`, `e939158`, unpushed). KB-DOTFILES-UE-098 is Awaiting review (chezmoi `85e36b8`, apply attended); TRIAGE-LANE a) delivered (chezmoi `3244bd6`): UE-099 kept at triage; UE-100's diagnostic stage Ready, not run. Run census-2 acts on roadmap-census-2 (UE-096, UE-027, UE-035). bringup-fold folded the review safeguards into KB-DOTFILES-UE-090 and handed gap 9 to KB-DOTFILES-UE-076 (chezmoi `45488d1`, unpushed).
 - Sol's SSH key delivery and firewall are applied and verified; the evidence is in KI-TOOL-RIG-CORE-047 (tools-rig `2ab9354`, unpushed).
 - KI-TOOL-RIG-CORE-047 stays awaiting-review: the NordVPN on/off checks and Terra's `rig apply --sudo` are outstanding (Decision 131). The NordVPN bypass follow-up is KI-TOOL-RIG-CORE-068, detection only.
 - IWORK, STYLE-LINK and DIR-PRUNE are committed in chezmoi (`2470321`, `7ac9047`, `d5ac9c9`, unpushed) and the two Claude targets are applied and verified on Sol (Decision 134): settings unchanged, 58 directories recorded.
