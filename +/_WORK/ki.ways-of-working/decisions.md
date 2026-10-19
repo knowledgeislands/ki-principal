@@ -267,3 +267,13 @@ Read back taken: LOCAL-MODE - Terra and Sol run the tools from their checkouts, 
 ## 2026-10-19 18:33 BST - messages.md disposition, REPORT-SWEEP
 
 report-sweep's line asked this work to receive `webcam-compare.report.md`. Kept on purpose: it backs the parked DESK-CAM query, whose text is already in `queries.md` and links to it; it goes when DESK-CAM is answered. Line removed.
+
+## 2026-10-19 18:36 BST - ACQUIRE-PUSH and TOWER-PUSH overtaken
+
+Found on origin at 18:34 BST: acquire's `2a70d45` and `4f1afea`, and apps-tower.midnight.ninja's citation commit (rebased as `922762b`). Both queries closed; no owner answer needed.
+
+## 2026-10-19 18:36 BST - owner decision, CI-RED-MAIN and CLI-FIELDS
+
+Kris: "why are we getting these errors on the roadmap summary??" then "can you sort that please"
+
+Read back taken: CI-RED-MAIN a), joined with CLI-FIELDS. Authorises: harness-link-fix, a run that repoints the absolute local link in `ki-work-package`'s `standards-work-package.md` (and any other KI-LINK-2 failure) so harness CI goes green; and an IMPORTANT line to ki.tools-burndown asking for one `ki` patch release carrying KI-TOOL-KI-CLI-155 (the `priority` and `size` fields, clearing the 18 roadmap diagnostics) and pinning the fixed harness. After the release, this work moves ki-principal's `.github/ki-version`. The release itself stays ki.tools-burndown's.
