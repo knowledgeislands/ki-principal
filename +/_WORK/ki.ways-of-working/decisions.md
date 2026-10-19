@@ -317,3 +317,9 @@ Read back taken: REPORT-SWEEP a) covers Terra's copies too. Terra deletes the se
 ## 2026-10-19 18:51 BST - Terra legal tidy done
 
 Kris, on the Terra legal strays and broken user-level links: "yeah that was done". TERRA-ALIGN closed.
+
+## 2026-10-19 18:50 BST - owner decision, MGIT-RELEASE and WORK-AREA-CITATIONS
+
+Kris: "go with recommendations"
+
+Read back taken: MGIT-RELEASE a), wait for Kris's KI-TOOL-MGIT-CLI-023 hands-on check, then release once; nothing to launch now. WORK-AREA-CITATIONS a), leave run reports as they are; authorises citation-lines, a run that adds one `messages.md` line to each work whose live package files (`work.md`, `state.md`, `queries.md`, `messages.md`) still cite retired paths, asking its worker to rewrite them at its next mark.
