@@ -12,7 +12,7 @@ method_read: 84b61942
 ## Now
 
 - tl-design wrote the [design brief](design/timelines-skill-brief.md); its six design queries are in `queries.md`, held for the merge.
-- Running: tl-review-fable (Claude Code) and tl-review-astra (Codex), then tl-merge gated on both; prompts in `~/.local/state/ki/agents/timelines/`.
+- The Fable review is in [design/timelines-skill-review-fable.md](design/timelines-skill-review-fable.md). The first Astra run started on `gpt-6.1-sol` by mistake and stopped (MODEL-RUN); relaunched on `gpt-6-astra`, with tl-merge relaunched and held until it finishes (SECOND-REVIEW, option a).
 - Last mark 19:03 BST; the survey is [design/survey.md](design/survey.md).
 
 ## Next steps
