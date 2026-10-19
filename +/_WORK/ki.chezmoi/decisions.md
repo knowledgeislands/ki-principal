@@ -85,3 +85,11 @@ home: +/_WORK/ki.chezmoi/work.md class: operational
 - wow, terra just went black and I had to do a hard restart. / I just copied all the lines into it
 
 Read back as: the Terra rehearsal stops at step 2 and is not repeated; Terra's rules reloaded on boot; a read-only diagnosis follows, and Sol's firewall apply is held until the cause is known.
+
+## Decision 109 (2026-10-19T20:14:30Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- Terra's own screen
+
+Read back as evidence for firewall-freeze: Terra's physical display went black, not a Screen Sharing view, so the freeze was local to Terra rather than a lost remote session.
