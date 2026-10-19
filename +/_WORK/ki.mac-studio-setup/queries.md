@@ -18,19 +18,33 @@ b) Put capability first: plan [KI-TOOL-RIG-CORE-053](/Users/krisbrown/workspaces
 
 c) Hold the lane until Wave 0 is accepted, so nothing builds on unaccepted work.
 
-### SOL-FW-TEST - Query text not recovered
+### SOL-FW-TEST - What this parked tag meant
 
-since 2026-10-14 · named parked by Kris on 14 October in the work file
+since 2026-10-19 · reviewed by query-review, 19:48 BST, which disagrees with the coordinator
 
-**Context:** Kris parked SOL-FW-TEST with eight other tags on 14 October, each said to be described in the run reports `old-trees`, `sol-build` and `records`. The other eight were recovered from the retired reports in `~/.local/state/ki/agents/mac-studio-setup/archive/`; SOL-FW-TEST is in none of them, nor in the decisions log or Git history. It probably names the KI-TOOL-RIG-CORE-047 live firewall test on sol, which `state.md` holds for sol's screen.
+**Context:** First seen in `4352cecc` among parked tags in the old checkpoint, with no definition; its text is lost. The same checkpoint separately calls for a sol firewall test with a NordVPN check, which the archived firewall-deliver report specifies under KI-TOOL-RIG-CORE-047 (awaiting review). The sol firewall test stays held for sol's screen either way.
 
-**Query:** What was SOL-FW-TEST, and is it still open?
+**Query:** Is SOL-FW-TEST only the held sol firewall test, NordVPN check included, or something else still open?
 
 **Options:**
 
-a) (recommended, confidence low - the text is lost, so this rests on the tag's name) Treat it as the KI-TOOL-RIG-CORE-047 live firewall test on sol, already held for sol's screen, and delete this entry.
+a) (recommended by the reviewer, confidence high - the wording is lost, and keeping the tag avoids silently dropping a separate requirement; the coordinator recommended b at low) Kris restates or confirms it; keep the entry until then.
 
-b) Kris restates it from memory.
+b) Treat it as the held sol firewall test with its NordVPN check, and delete the separate entry.
+
+### PUSH-STACK - Push the stacked commits in ki-principal
+
+since 2026-10-19 · reviewed by query-review, 19:48 BST
+
+**Context:** Another session has already pushed this work's mark commit. Two commits are still unpushed on main: `b6d1020f`, a ki State of play review handoff, and `d3d58f21`, this work's review relaunch. Both are bounded package edits. The shared-stack rule leaves another session's commits to Kris.
+
+**Query:** Leave the push to the owning sessions, or push the stack now?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed; another session's commit is in the stack and the shared-stack rule is explicit) Leave it to the next owning session that pushes, which fetches and rechecks first.
+
+b) Kris authorises this exact stack; fetch, recheck and push fast-forward only.
 
 ## Parked
 

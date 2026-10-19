@@ -641,3 +641,5 @@
 - Kris 2026-10-19 19:00 BST pasted the send line: sent back to its worker since the 2026-10-18T01:20Z mark; re-read, marked at 2026-10-19T18:01Z; FIRST-STEP done and REPORT-SWEEP received (all four reports kept, outcomes not homed); nothing authorised to restart; sent to Kris with ADOBE-RESTART first.
 
 - 2026-10-19 19:40 BST, IMPORTANT REFRESH line from ki.ways-of-working (QUERY-REVIEW; REFRESH-RESUMMARY, Kris 19 October: "I want the other threads to pick it up and resummary me so that I get the better recommendations"): standard re-read; SOL-FW-TEST (low) and PUSH-STACK (medium) sent to one blind review run, query-review, on Codex at high effort; RIG-ORDER (high, not destructive) not reviewed; a fresh Summary follows the report.
+
+- 2026-10-19 19:51 BST, query-review received: the reviewer disagrees on SOL-FW-TEST and recommends Kris restate or confirm it (both views shown); it agrees on PUSH-STACK, now high; the mark commit was already pushed by another session; the brief and report pruned, their outcome homed in queries.md; sent to Kris with a fresh Summary.
