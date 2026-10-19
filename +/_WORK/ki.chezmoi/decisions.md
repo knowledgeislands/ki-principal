@@ -36,39 +36,13 @@ home: +/_WORK/ki.chezmoi/work.md class: operational
 
 Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal intentional, no `[locals]` apply remains), MGIT-APPLY, TRIAGE-CUT, RIG-LIVE-DELIVER and CARRY-DIRECTIONS.
 
-## Decision 102 (2026-10-19T19:10:57Z)
-
-home: +/_WORK/ki.chezmoi/work.md class: operational
-
-- You can take a mark since the last update that you gave me, so next time the summary gives me what I need to know.
-
-Read back as: mark at 2026-10-19T19:10:00Z, the 20:10 BST update.
-
-## Decision 103 (2026-10-19T19:43:22Z)
-
-home: +/_WORK/ki.chezmoi/work.md class: operational
-
-- go ahead with the 2 recommendsations.
-
-Read back as option a) of APPLY-CARRY and of RIG-FIREWALL-REHEARSE, including pushing this work's chezmoi source commits so terra can pull.
-
 ## Decision 104 (2026-10-19T19:53:54Z)
 
-home: +/_WORK/ki.chezmoi/work.md class: operational
-
-- TOML-HANDLER, reviewed a) high, narrows Kris's APPLY-CARRY go-ahead of 20:30 BST: carry Terra without the TOML target, route the dynamic-type fallback to tools-rig through ki.mac-studio-setup, and accept the TOML drift finding on both Macs until it lands. No new owner authority taken.
-
-## Decision 105 (2026-10-19T19:55:50Z)
-
-home: +/_WORK/ki.chezmoi/work.md class: operational
-
-- TERRA-PULL, from apply-terra, a) high, under Kris's standing "It can do anything that's high confidence": fast-forward Terra's chezmoi checkout from Sol over SSH and rerun apply-terra; no credential or sshd change.
+- Pointer: TOML-HANDLER, 19 October: Terra carried without the TOML target; the `.toml` drift finding is accepted on both Macs until tools-rig's `macos-handlers` falls back for dynamic types (sent to ki.mac-studio-setup).
 
 ## Decision 106 (2026-10-19T20:02:14Z)
 
-home: +/_WORK/ki.chezmoi/work.md class: operational
-
-- PAPERCLIP-PLIST, from apply-terra-2, a) high, under Kris's standing "It can do anything that's high confidence": leave Terra's disabled `uk.me.kris.rig.paperclip.plist` in place until the Paperclip rebuild is designed.
+- Pointer: PAPERCLIP-PLIST, 19 October: Terra's disabled `uk.me.kris.rig.paperclip.plist` stays until the Paperclip rebuild is designed.
 
 ## Decision 107 (2026-10-19T20:04:44Z)
 
@@ -78,38 +52,24 @@ home: +/_WORK/ki.chezmoi/work.md class: operational
 
 Read back as option a): Kris runs the Terra rehearsal from Sol now, walked through step by step; a follow-up run records the evidence and commits the `core` declaration, no push or apply.
 
-## Decision 108 (2026-10-19T20:10:50Z)
-
-home: +/_WORK/ki.chezmoi/work.md class: operational
-
-- wow, terra just went black and I had to do a hard restart. / I just copied all the lines into it
-
-Read back as: the Terra rehearsal stops at step 2 and is not repeated; Terra's rules reloaded on boot; a read-only diagnosis follows, and Sol's firewall apply is held until the cause is known.
-
-## Decision 109 (2026-10-19T20:14:30Z)
-
-home: +/_WORK/ki.chezmoi/work.md class: operational
-
-- Terra's own screen
-
-Read back as evidence for firewall-freeze: Terra's physical display went black, not a Screen Sharing view, so the freeze was local to Terra rather than a lost remote session.
-
-## Decision 110 (2026-10-19T20:23:46Z)
-
-home: +/_WORK/ki.chezmoi/work.md class: operational
-
-- RESEQ, blind review b) high, under Kris's rehearsal go-ahead of 21:04 BST: rewrite the Terra rehearsal with host and phase gates, a filter-only flush, fresh-SSH checks, proven restore and pf reference accounting before Kris runs it. No new owner authority taken.
-
-## Decision 111 (2026-10-19T20:25:21Z)
-
-home: +/_WORK/ki.chezmoi/work.md class: operational
-
-- no, its fine, I'm happy if the instructions are clear
-
-Read back as: do not hold; Kris runs the guarded Terra rehearsal tonight once firewall-seq-write delivers clear, tested blocks.
-
 ## Decision 112 (2026-10-19T21:06:37Z)
 
 home: +/_WORK/ki.chezmoi/work.md class: operational
 
 - Terra rehearsal passed at 22:06 BST with Kris attended (A0, B, A1, A2, B, B, A0 all pass). RIG-FIREWALL-RUN a) proceeds: firewall-record writes the evidence and the `core` declaration, no push or apply. RECOVERY-ROUTE answered by Kris being at Terra's console.
+
+## Decision 113 (2026-10-19T21:11:52Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- I've checked the screen sharing, and if we made it work with Terra, then we can be sure that the same rules on Sol will work, because they're just the same machines, right?
+
+Read back as: Kris has checked Screen Sharing on Terra by hand (tailnet reachability; LAN refusal not yet stated), and asks whether Sol needs its own rehearsal. Answered: the rules carry over; the difference is that pf is currently disabled on Sol (seen at 21:0x BST), so its first apply turns pf on for the first time. A read-only pre-flight of Sol's pf configuration replaces the remove-and-restore rehearsal, pending Kris's agreement.
+
+## Decision 114 (2026-10-19T21:13:36Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- I'm happy to go with your suggestion of a quick read-only check of Sol's firewall, and then apply with me on Sol, and then check that screen sharing works from Terra. That's fine.
+
+Read back as SOL-FIREWALL a): read-only pre-flight after firewall-record, then an attended `chezmoi apply` of the named targets on Kris's reviewed diff and `rig apply --sudo` of the firewall target at Sol, then Screen Sharing from Terra. LAN refusal is left unchecked by Kris's choice.
