@@ -1,7 +1,7 @@
 ---
 id: ki.observatory
-state: handoff-to-supervisor
-since: 2026-10-19T20:02:00Z
+state: with-worker
+since: 2026-10-19T20:23:00Z
 received: 2026-10-19T20:01:00Z
 beat: null
 mark: 2026-10-19T18:02:00Z
@@ -12,7 +12,8 @@ method_read: 2026-10-19T18:02:00Z
 
 ## Now
 
-- Sent to Kris at 21:02 BST on 19 October with five reviewed step 3 queries; marked at 19:02 BST. Nothing is running.
+- With worker since 21:23 BST on 19 October after VIS-030-MINIMAL; BRG-005-COUNTS and VIS-031-TABLES still with Kris; marked at 19:02 BST.
+- Running: obs-vis030-minimal (apps-observatory.local: minimal Known Lands chart, to be revised by Kris's designs).
 - Received obs-step3-review at 21:01 BST: agrees on four queries, disagrees on VIS-030-POSITIONS.
 - Received obs-step3-build at 20:57 BST: KI-OBSERVA-VIS-030 hex renderer vendored with drift check and `capital` glyph (a4ea2ad, record in progress); KI-OBSERVA-BCN-008 Beacon signal anatomy built, awaiting review (23f2ba5); service restarted, 15 tabs answer; stopped early on five queries; both commits local.
 - Received obs-declare-review at 20:13 BST: the review agrees with keeping the declaration, so NARROW-DECLARE goes to Kris at high confidence.
@@ -26,7 +27,7 @@ method_read: 2026-10-19T18:02:00Z
 
 ## Next steps
 
-1. Act on Kris's answers to the five step 3 queries, then chain the next build run; KI-OBSERVA-BCN-008 awaits Kris's acceptance.
+1. Receive obs-vis030-minimal; act on BRG-005-COUNTS and VIS-031-TABLES when answered; KI-OBSERVA-BCN-008 awaits Kris's acceptance.
 2. Four triage records await a later merge decision: KI-OBSERVA-VIS-029, KI-OBSERVA-VIS-032, KI-OBSERVA-VIS-033, KI-OBSERVA-VIS-034.
 3. Four done records (KI-OBSERVA-APP-042, KI-OBSERVA-VIS-023, KI-OBSERVA-VIS-024, KI-OBSERVA-BRG-002) stay until their peer links and BRG-002's frozen figure are re-pointed.
 4. `ki work status` (installed `ki` 0.11.4) is blind to five-file packages until ki.tools-burndown changes the tools-ki reader.
