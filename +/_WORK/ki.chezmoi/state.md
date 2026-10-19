@@ -14,8 +14,8 @@ method_read: 979e075a
 
 - With worker; marked at 22:14 BST on 19 October.
 - Both Macs carried to `8b9ee66`: five Rig targets and the Dock applied, Paperclip held; only the accepted TOML drift remains.
-- Terra firewall rehearsal passed 22:03–22:06 BST. Running: firewall-record, evidence into KI-TOOL-RIG-CORE-047 and the `core` declaration committed, no push or apply.
-- Queued: sol-preflight (waits for firewall-record), read-only, then the attended Sol apply with Kris.
+- Terra firewall rehearsal passed 22:03–22:06 BST; evidence in KI-TOOL-RIG-CORE-047 (tools-rig `1fc21ff`) and `[firewall.screen-sharing-tailnet]` declared in `core` (chezmoi `dd2a062`), both unpushed, nothing applied ([firewall-record](/Users/krisbrown/.local/state/ki/agents/chezmoi/firewall-record.report.md)).
+- Running: sol-preflight, read-only, then the attended Sol apply with Kris.
 - ki-principal commits are blocked from about 22:10 BST by the pre-commit audit error "rubric item LINK-1 audit outcome 0 uses an undeclared level", likely from ki-agentic-harness `624b39f1`; not this work's to fix.
 
 ## Next steps
