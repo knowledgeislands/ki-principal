@@ -382,3 +382,7 @@ design-clause put DESIGN-AT-MARK into the harness (`9c17df3c`, pushed fast-forwa
 ## 2026-10-19 20:38 BST - received design-triage
 
 design-triage (read-only) sorted the 44 `design/` files: delete 28 (25 applied migration-plan files, `work-folder.md`, the two thread-model notes), graduate first 7 (`design.md`, the work-model pair, `work-package.md`, the three bring-up files), keep 9 (the change-management bundle, roadmap sizing, `applied-map.tsv`). Two rewrites precede deletion: `change-management-decisions.md:125` and harness `standards-work-package.md:77`. Query DESIGN-DELETE (medium) goes to blind review (delete-review, Codex) before Kris. Also noted: PAPERCLIP-REQ's pointer should name `state.md`, not the work file. Full table: `~/.local/state/ki/agents/ways-of-working/design-triage.report.md`.
+
+## 2026-10-19 20:46 BST - received delete-review
+
+delete-review (Codex, read-only): migration-plan group and `work-folder.md` delete at high, after rewriting harness `standards-work-package.md:77` (and an Acquire intake run report's link, left to that work's prune); the two thread-model notes keep at high, as some of Kris's original words (banner request, BANNER-LETTERS, BANNER-MARK confirmation, DECISION-HOME, DESIGN-RETENTION rationale) have no durable home. DESIGN-DELETE now recommends the 26, reviewed high.
