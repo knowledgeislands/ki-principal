@@ -12,6 +12,7 @@ method_read: 84b61942
 
 ## Now
 
+- 00:21 BST received obs-design-batch (KI-DESIGN-TOK-001, MAP-001 Awaiting review; ICO-001, SYM-001, TIL-001 Ready, stopped on CONDITION-GLYPHS and TILE-CHECK; elements tests unrun for want of an online install) and obs-two-queries (BANNER-GLYPHS high, STORAGE-OWNER medium); obs-review-2 blind-reviews CONDITION-GLYPHS and STORAGE-OWNER. Message vis030-claim from the Claude chat: KI-OBSERVA-VIS-030 is theirs meanwhile, not dispatched here.
 - 00:18 BST received obs-build-brg006 (KI-OBSERVA-BRG-006 Awaiting review, 107c852) and obs-site044-record (KI-WEBSITE-SITE-044 Awaiting review, f9f03f5); message ROADMAP-CENSUS-2 recorded and acted on: obs-app044-plan queued after obs-build-brg005, obs-two-queries drafting BANNER-GLYPHS and STORAGE-OWNER.
 - 00:15 BST relaunched obs-site044-record: the website's hooks change is committed (783effb) and the tree is clean; the brief adds a frozen-lockfile install before the checks.
 - 00:07 BST received obs-build-vis043 (KI-OBSERVA-VIS-043 Awaiting review, f81db93; service restarted) and obs-site044-record (blocked: website checks fail on missing dependencies while another session converts its hooks; relaunch the same brief once apps-knowledgeislands.info's hooks change is committed and installed). KI-OBSERVA-VIS-033 was pruned by another session (ddef90c), so no prune query is needed.
