@@ -1,9 +1,7 @@
 ---
 id: ki.ways-of-working
-state: on-hold
-reason: round ended at Kris's direction (ROUND-END), more expected
-release: Kris's resume line
-since: 2026-10-19T21:32:00Z
+state: with-worker
+since: 2026-10-19T21:36:00Z
 received: 2026-10-19T16:57:00Z
 beat: null
 mark: 2026-10-19T21:33:00Z
@@ -14,6 +12,7 @@ method_read: eff6163b
 
 ## Now
 
+- BANNER-ON-STATE from Kris at 22:36 BST lifts the hold; banner-on-state running; the hold resumes when it lands.
 - Received from Kris at 20:28 BST: DESIGN-AT-MARK a); design-clause done (harness `9c17df3c`); design-triage received; DESIGN-DELETE a) from Kris at 21:25 BST; design-delete received at 21:29 BST (26 deleted); mark struck at 21:25 BST; the list then goes to blind review and to Kris before any deletion.
 - GFM-MIGRATION unparked by Kris at 21:28 BST; gfm-scope received at 21:34 BST; gfm-review received at 21:41 BST; five GFM queries and METHOD-READ-RUBRIC with Kris.
 - METHOD-READ-CAPITALS from Kris at 21:34 BST; method-read-capitals received at 21:36 BST, seven capitals (ran on a misreading; Kris meant GFM); GFM-CAPITALS follows the GFM answers.

@@ -408,3 +408,9 @@ Per ROUND-END. Mark struck at 22:32 BST; nothing running, no open queries, nothi
 ## 2026-10-19 22:33 BST - mark
 
 Kris: "mark". Mark struck at 22:33 BST while on hold; nothing new to strike or prune.
+
+## 2026-10-19 22:36 BST - owner decision, BANNER-ON-STATE
+
+Kris: "ok - so why didn't you show that?" then "no - do it now"
+
+Read back taken: BANNER-ON-STATE - any coordinator reply that moves the mark, changes the work's state or answers where the work stands ends with the glyph banner, even when it is not a full report; a plain answer that does none of these needs none. Lifts the hold; authorises banner-on-state (harness standard, output style and generated surfaces; edited in a worktree so island hooks never read a half-done checkout; push fast-forward only when alone).
