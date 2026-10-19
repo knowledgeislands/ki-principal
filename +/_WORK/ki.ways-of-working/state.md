@@ -23,7 +23,7 @@ method_read: 9c9ae922
 3. Done 18:08 BST: chezmoi-migrate (`40a6a6cd`). Running: citations-rewrite; queued: report-sweep. With Kris: PUSH-KIP. With ki.tools-burndown: HOOKS-STANDARD. Kind and size proposals wait for the `ki` release.
 4. With ki.tools-burndown (`messages.md` line `527d1a91`): `ki work status` reads both shapes; until then migrated works drop out of its views. Also VALIDATOR-PARITY, KI-TOOL-KI-CLI-155 and KI-TOOL-KI-CLI-156.
 5. With ki.observatory (`messages.md` line `5763aed5`): the Observatory reads both shapes.
-6. With ki.chezmoi (RIG-LIVE): KB-DOTFILES-UE-091 without ChatGPT and the firewall declaration; then Kris's attended Rig applies; then acceptance of KI-TOOL-RIG-CORE-042 and -047.
+6. With ki.chezmoi (RIG-LIVE): KB-DOTFILES-UE-091 without ChatGPT and the firewall declaration; then Kris's attended Rig applies; then acceptance of KI-TOOL-RIG-CORE-042 and -047. 6a. With Kris on Terra (sent 18:16 BST): the TERRA-ALIGN prompt - repositories level, skill links refreshed to `ki-work-package`, stray work-folder files listed; its report comes back to this work.
 7. Kris is on: the mgit hands-on check, then MGIT-RELEASE.
 8. Mark 18:12 BST: mark-tidy runs the QUERY-REVIEW harness record check, the ki-principal and harness CI recheck, the desk-kit close check and the cli150-deliver close, and strikes the decisions log.
 9. Outstanding, not this work's: pre-existing CI red in apps-observatory.local, mcp-m365, tools-mgit and ki-techne-harness; acquire-intake's ACQUIRE-DECISIONS-LINKS; untracked KI-HARNESS-GOV-220 and KI-TOOL-KI-CLI-154.
