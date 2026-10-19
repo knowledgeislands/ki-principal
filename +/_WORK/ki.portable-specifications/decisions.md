@@ -1,30 +1,8 @@
 # Decisions - ki.portable-specifications
 
-## 2026-10-19 14:30 BST - owner instruction, OPEN-PROJECT
-
-Kris: "New Project: the work folder does not exist yet. First have a run create the Project note Streams/Projects/specifications.md under the Model theme and the five-file work package under ki-work-package. Take its goals from my words in the "owner definition, SPEC-AREAS" and "owner decision, SPECIFICATIONS-PROJECT" entries of +/_WORK/ki.ways-of-working/decisions.md: three portable specs, `work`, `knowledge` and `acquire`, using progressive disclosure and following agentskills.io's specification conventions, with SPEC-HOME (owning skills or knowledgeislands.info/specifications/{name}) as the first query. ki.ways-of-working hands over the spec-areas-design stocktake and the spec-drafts drafts through your messages.md when they finish."
-
-Read back taken: OPEN-PROJECT - open Project work `ki.specifications` (KI > Model > Specifications, run `specifications`), renamed `ki.portable-specifications` (KI > Model > Portable specifications) under PROJECT-NAME. Authorises: create-project, one run that writes the Project note under the Model theme and the five-file work package, with goals from the two ki.ways-of-working entries and SPEC-HOME as the first query. The owner instruction stands in for an Enactment record for this bounded change. Nothing is published.
-
-## 2026-10-19 19:00 BST - owner instruction, SEND-BACK
-
-Kris: "Send KI > Model > Specifications back to its worker in /Users/krisbrown/workspaces/knowledge-islands/ki-principal under current ki-coordination and ki-delegation since 2026-10-19T13:33:00Z: re-read the work package, mark, fresh summary with carried-forward open points, take stock, restart authorised work, then banner."
-
-Read back taken: SEND-BACK - receive the work, strike the mark at 19:00 BST, receive HANDOFF-SPECS into `design/`, and restart only work already authorised; none is, since every next step waits on PROJECT-NAME, SPEC-HOME, ENTRY-NAMES, SPEC-VERSION or CONFORMANCE-LEVELS, so the work goes back to Kris.
-
 ## Pointer - SPECIFICATIONS-PROJECT
 
 Kris's SPECIFICATIONS-PROJECT, 19 October, in [ki.ways-of-working's decisions](../ki.ways-of-working/decisions.md), sets this Project's scope and the spec handoff.
-
-## Pointer - QUERY-REVIEW and REFRESH-RESUMMARY
-
-Kris's QUERY-REVIEW and QUERY-REVIEW-STANDARD, 19 October, live in the ki-coordination standard; REFRESH-RESUMMARY, Kris 19 October, "I want the other threads to pick it up and resummary me so that I get the better recommendations", reached this work through ki.ways-of-working's REFRESH line and authorises the query-review run.
-
-## 2026-10-19 23:28 BST - owner instruction, STOCKTAKE-PLAN
-
-Kris: "Can we take stock on this, and just double-check everything again, see if we can come up with a really solid plan?"
-
-Read back taken: STOCKTAKE-PLAN - one run, plan, re-verifies every fact behind the five open queries and the handed-over drafts, and writes a sequenced delivery plan for the Project to `design/plan.md`, with each step's gate on an owner answer; read only beyond that file, nothing published. Its queries go to blind review before they reach Kris.
 
 ## 2026-10-19 23:37 BST - owner decision, SPEC-HOME, SPEC-VERSION, CONFORMANCE-LEVELS
 
@@ -44,18 +22,20 @@ Kris: "Yeah, I think entry name should be uppercase, I think that's a good idea.
 
 Read back taken: ENTRY-NAMES a) - upper-case entry files for all three, `WORK.md`, `KNOWLEDGE.md` and `ACQUIRE.md`, with the house work package renaming `work.md` to `WORK.md`; that rename is ki.ways-of-working's, routed to its `messages.md`.
 
-## 2026-10-19 23:38 BST - owner decision, PROJECT-NAME
-
-Kris: "Go with recommendations."
-
-Read back taken: PROJECT-NAME a) - keep the paused `specifications` Project untouched; this Project becomes `portable-specifications`, titled "Portable specifications" under Model, its work `ki.portable-specifications` (KI > Model > Portable specifications). Authorises: rename, one run chained after plan, that writes and registers the Project note under OPEN-PROJECT's authority, renames this work folder and its id, and repoints links; nothing pushed.
-
-## Note - PROJECT-NAME confirmed
-
-query-review-3, a blind Codex review run after the plan raised Kris's opening words, recommended keeping the Projects apart at high confidence; Kris's PROJECT-NAME decision stands.
-
 ## 2026-10-19 23:44 BST - owner decision, SPEC-LIVE-READ
 
 Kris: "SPEC-LIVE-READ as recommended"
 
 Read back taken: SPEC-LIVE-READ a) - one read-only run, live-read, reads the live agentskills.io specification, its licence and the `skills-ref` validator source, and writes `design/agentskills-check.md`; nothing else changes.
+
+## 2026-10-19 23:45 BST - owner decision, WORK-PROFILE, KNOWLEDGE-SKILL, MOVE-GATE, SPEC-LOCATION
+
+Kris: "as recommended", then "mark".
+
+Read back taken:
+
+- WORK-PROFILE a) - the house work package stays a mapped profile of `work` with an explicit field and state mapping; the house rules move out of the spec into the profile.
+- KNOWLEDGE-SKILL a) - a new governance skill, such as `ki-knowledge-package`, owns the `knowledge` spec and later its rubric.
+- MOVE-GATE a) - the Project finishes at publication, with a handoff record in KI Specifications' roadmap that its restart unblocks.
+- SPEC-LOCATION a) - `spec` and the other single-value added fields sit in `metadata` as strings; list fields are decided after live-read.
+- Authorises: revise, one run chained after live-read, that revises the three drafts in `design/specs/` to every decision so far (plan step 3); nothing outside `design/specs/` changes, nothing is published.
