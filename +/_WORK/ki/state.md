@@ -1,10 +1,10 @@
 ---
 id: ki
 state: with-worker
-since: 2026-10-19T22:23:09Z
+since: 2026-10-19T22:46:02Z
 received: 2026-10-19T17:58:50Z
 beat: null
-mark: 2026-10-19T17:58:50Z
+mark: 2026-10-19T22:46:02Z
 method_read: f4d6c521
 ---
 
@@ -12,8 +12,8 @@ method_read: f4d6c521
 
 ## Now
 
-- With worker since 23:45 BST on 19 October, on sol, acting on Kris's answers (ANSWERS, 19 October). Received and marked at 18:58 BST.
-- Running: `review-hold-apply`, `techne-focus`, `email-routing-hold`. Each lane has its burn-down line (BURN-WAVE-1, LANE-OWNERS, CAPTURE-GATE).
+- With worker since 23:45 BST on 19 October, on sol, acting on Kris's answers (ANSWERS, 19 October). Received at 18:58 BST; marked at 23:46 BST at Kris's word (`sop-mark-2` strikes the decisions log).
+- Running: `review-hold-apply`, `techne-focus`, `email-routing-hold`, `sop-mark-2`. Each lane has its burn-down line (BURN-WAVE-1, LANE-OWNERS, CAPTURE-GATE).
 - KI-TOOL-RIG-CORE-047 stays Awaiting review with ki.chezmoi until its NordVPN checks and Terra's `rig apply --sudo` run, or Kris narrows it.
 - No roadmap cap (ROADMAP-CAP, 19 October): the focus is getting through the burn-down.
 
