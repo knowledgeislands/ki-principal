@@ -410,3 +410,7 @@ gfm-scope (read-only): ki-principal's 1,025 wikilinks and 15 embeds convert mech
 Kris: "whats the method_read thing? ... this was in realition to the gfm migration"
 
 Read back taken: the 21:38 direction ("you could add something about it to the SoP work pacjage in all the capitals") meant GFM-MIGRATION, not METHOD-READ; method-read-capitals ran on my misreading and is put to Kris to stop or let finish. GFM-CAPITALS: once the GFM queries are answered, a line goes to State of play in every capital so each island plans its own conversion.
+
+## 2026-10-19 21:36 BST - received method-read-capitals
+
+method-read-capitals put the METHOD-READ line into State of play's `messages.md` in seven capitals, each committed alone and pushed: er `b79d5f9`, hnr `0a58b11`, lgl `d3a545fb`, kb (personal-principal) `9db228f8`, tmx `a257377`, va `582de5a`, and si (si-principal, found in the registry) `38dbd16`. Run on a misreading; the lines are accurate and stand unless Kris says revert.
