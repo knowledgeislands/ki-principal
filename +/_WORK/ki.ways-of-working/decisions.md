@@ -250,3 +250,7 @@ MARK struck at 08:40 BST (2026-10-19T07:40:55Z). Struck: the ITEM-FIELDS discuss
 ## 2026-10-19 08:42 BST - owner request, TOOLS-KI-WRITER
 
 Kris, via the Messages line from Tools burndown: "tools-burndown is the tools-ki writer (OWNER-LANE, 16 October); please hand KI-TOOL-KI-CLI-153 to tools-burndown at a safe point, committing and pushing your own work or naming where it stopped". Done: tools-ki-153 stopped during its read-only review, nothing written in tools-ki; KI-TOOL-KI-CLI-153 (Awaiting review) and the BIOME-CI a) capture handed to tools-burndown by Messages line; tools-burndown arranges the independent review and brings it to Kris. size-priority-2's one tools-ki handoff record stands under cross-repository choreography, tools-burndown owning it once captured. This work writes nothing else in tools-ki.
+
+## 2026-10-19 11:12 BST - owner note, SoP restarted
+
+Kris: "KI > SoP is back and coordinating the Knowledge Islands territory, resumed on sol at 11:05 BST on 19 October ... It reads your work file directly, so there is nothing to report back here ... Send anything another piece of work must act on as a dated Messages line in that work's own work file. Do not write to +/_WORK/ki/ this morning, because a restock run is rewriting it; anything for SoP goes to Kris as a Needs-tagged query instead. Push only your own commits; name anyone else's stacked commits to Kris." SOP-RESTART answered by the restart itself.
