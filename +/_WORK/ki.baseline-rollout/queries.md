@@ -18,6 +18,26 @@ b) Leave all three outside the territory and record their exclusion in Known Lan
 
 c) Decide one at a time, for example admitting backend and frontend and leaving benchmarks out, which splits the product from its test repository.
 
+### TMX-AREA-TITLES - Confirm Techmedix area titles
+
+since 2026-10-20 · from `raise-tmx` at 00:04 BST · awaiting blind review
+
+**Context:** [TMX-PRINCIPAL-KB-008](/Users/krisbrown/workspaces/techmedix/tmx-principal/Streams/Roadmap/TMX-PRINCIPAL-KB-008-retitle-issuing-areas.md) replaces the retired slugs `company-record` (`CO`) and `knowledge-base` (`KB`) in `.ki.toml` with noun-phrase titles. Area codes and allocations do not change. `CO` issues commercial history, finance evidence and compliance work. `KB` issues base structure, source mirrors, naming and governance alignment.
+
+**Query:** Which titles should the two Techmedix areas carry?
+
+**Options:** a) (recommended, confidence medium - both fit the noun-phrase rule, but the wording is your call) `CO` = "Company records", `KB` = "Knowledge base". b) `CO` = "Company record and compliance", `KB` = "Knowledge base".
+
+### TMX-THEMES - Confirm Techmedix themes
+
+since 2026-10-20 · from `raise-tmx` at 00:04 BST · awaiting blind review
+
+**Context:** Only two theme labels are in use in Techmedix: `company-record` on CO-001, CO-002 and CO-006, and `knowledge-base` on KB-003. The 13 October alignment assessment proposed `company-record` and `knowledge-stewardship` as the territory's two themes. `knowledge-base` reads as the old `KB` area slug, not a theme. [TMX-PRINCIPAL-KB-009](/Users/krisbrown/workspaces/techmedix/tmx-principal/Streams/Roadmap/TMX-PRINCIPAL-KB-009-establish-theme-registry.md) proposes two pages under `Streams/Themes/`.
+
+**Query:** Which theme pages should the Techmedix registry hold?
+
+**Options:** a) (recommended, confidence medium - it follows the assessment you already have, but the change relabels one record) Create `company-record` and `knowledge-stewardship`, and relabel KB-003 from `knowledge-base` to `knowledge-stewardship`. b) Create `company-record` and `knowledge-base`, leaving every record as it is.
+
 ## Parked
 
 None.
