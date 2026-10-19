@@ -66,19 +66,25 @@ a) (recommended, confidence medium - it adds nothing to the configuration, but a
 
 b) Add `GOV = "KI conformance"` in the same change, for future conformance records.
 
-### HNR-QUEUE - Tell hnr's own work package about these records
+### SANC008-SPLIT - Split stage 4 out of the Sanctuary packaging record
 
-since 2026-10-20 · from `raise-hnr` at 00:08 BST · awaiting blind review
+since 2026-10-20 · from `va-plan` at 00:09 BST · awaiting blind review
 
-**Context:** hnr-principal's `hnr` work package has two open queries of its own that these records touch. Its AREA-TITLES asks whether to title the areas across the Capital and the 5g-emerge repositories in one pass, and HNR-PRINCIPAL-KM-019 now carries that work. Its INIT-MODEL asks which Initiatives the territory keeps, and that decides the theme set HNR-PRINCIPAL-KM-020 needs. I did not write to that work package, because the brief did not cover it.
+**Context:** [VA-WEBSITE-SANC-008](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SANC-008-package-the-sanctuary.md) covers stages 2 to 4 of ADR-VA-WEBSITE-009, which means three chained runs. Stage 4 alone moves 21 components and their test suites into `packages/sanctuary/` and changes the root workspaces, `turbo.json` and `bun.lock`. A record needing several chained runs needs a Delegation section, and an `xl` record cannot become Ready.
 
-**Query:** Should a line go to the `hnr` work package's `messages.md`, pointing its AREA-TITLES query at HNR-PRINCIPAL-KM-019 and its INIT-MODEL query at HNR-PRINCIPAL-KM-020?
+**Query:** Before VA-WEBSITE-SANC-008 becomes Ready, should stage 4 be split into its own record?
 
-**Options:**
+**Options:** a) (recommended, confidence medium - stage 4 differs in kind and risk from stages 2 and 3, but how big it is depends on how the tests move) Split stage 4 into a new record that VA-WEBSITE-SANC-008 blocks, and keep stages 2 and 3 here. b) Keep all three stages in one record at size `l`, with a Delegation section giving one run per stage.
 
-a) (recommended, confidence high - it only routes information and decides nothing) Route one `messages.md` line to `hnr` naming both records, so its worker can link or settle its own queries.
+### VA-READY - Which plans to approve as Ready
 
-b) Leave it, and let the hnr worker find the records at its next take-stock.
+since 2026-10-20 · from `va-plan` at 00:09 BST · awaiting blind review
+
+**Context:** All four drafts now have every planning section, but none has `size` yet. [VA-WEBSITE-CONT-005](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-CONT-005-resolve-image-review-flags.md) and [VA-WEBSITE-SITE-004](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SITE-004-choose-the-home-page-layout.md) are concrete and checkable. [VA-WEBSITE-SANC-009](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SANC-009-close-the-editorial-audit.md) needs access to Kit's private audit doc. [VA-WEBSITE-SANC-008](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SANC-008-package-the-sanctuary.md) waits on SANC008-SPLIT.
+
+**Query:** Which of the four drafts should be approved to Ready, and when?
+
+**Options:** a) (recommended, confidence medium - the plans are complete, but size must be settled before Ready and each step needs Kit's input) Once SIZE-KIND has set `size` and `kind`, approve VA-WEBSITE-CONT-005 and VA-WEBSITE-SITE-004. Approve VA-WEBSITE-SANC-009 once Kit's audit doc is reachable, and VA-WEBSITE-SANC-008 after SANC008-SPLIT. b) Keep all four in draft until each is next selected for delivery.
 
 ## Parked
 
