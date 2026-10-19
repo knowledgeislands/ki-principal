@@ -13,7 +13,7 @@ method_read: 84b61942
 ## Now
 
 - With worker since 23:30 BST on 19 October; marked at 23:36 BST on 19 October.
-- Running: core062 in tools-rig. RIG-TRIAGE and RIG-MANAGERS, reviewed, wait for Kris at the Summary. rig-triage received: KI-TOOL-RIG-CORE-065 and KI-TOOL-RIG-CORE-066 at Awaiting review; KI-TOOL-RIG-CLI-027 is Ready.
+- Overnight autonomy (OVERNIGHT, 00:28 BST): check every 10 minutes, act on high confidence. Chained in tools-rig: core062, rig-dispose, deliver027, plan069, plan068. The rest of RIG-TRIAGE (057, 064, DIST-011) waits for Kris. rig-triage received: KI-TOOL-RIG-CORE-065 and KI-TOOL-RIG-CORE-066 at Awaiting review; KI-TOOL-RIG-CLI-027 is Ready.
 - Records: KI-TOOL-RIG-CORE-047 and KI-TOOL-RIG-CORE-063 await Kris's acceptance; KI-TOOL-RIG-CORE-062's two queries are answered and run core062 is queued behind rig-triage to deliver it; KI-TOOL-RIG-CORE-069 is in Triage. Pushes are left to Kris and the owning sessions.
 - Lane, confirmed by State of play on 19 October: tools-rig and the agent-host hold cluster, which waits with the on-hold ki.agent-host until TECHNE-FOCUS is settled.
 - Looks resolved, to confirm with Kris: terra key-only SSH and HOSTKEY-APPLY steps 6-9 (KB-DOTFILES-UE-088), and the parked SOL-HNR-HARNESS.
@@ -21,7 +21,7 @@ method_read: 84b61942
 ## Next steps
 
 1. With Kris, ADOBE-RESTART first (deferred, "remind me another day"): restart sol, run [`./adobe-remove.sh`](design/adobe-remove.sh) as a dry run (nothing under What is left), then `ls -d /Applications/Adobe* /Applications/Utilities/Adobe* ~/Pictures/Lightroom/*.lrcat`, which should show only the catalogue.
-2. Receive rig-triage; receive core062; send RIG-TRIAGE and RIG-MANAGERS to Kris; then Kris accepts the Awaiting-review records at the next sol session.
+2. Receive rig-triage; receive the chain, then look for the next high-confidence work; give Kris the Summary with the rest of RIG-TRIAGE in the morning; then Kris accepts the Awaiting-review records at the next sol session.
 3. Then put the parked queries back one at a time, each with a recommendation and its reason.
 
 ## Held
