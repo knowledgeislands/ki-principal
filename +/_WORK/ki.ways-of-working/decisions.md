@@ -238,3 +238,7 @@ Kris: "stop size-priority". The run is stopped while editing the harness work-it
 ## 2026-10-19 08:19 BST - owner request, QUERY-REVIEW
 
 Kris: "I've been thinking a bit more about recommendation confidence for queries. So I think what would be good is to get some kind of little review going, maybe out to a sub-agent ... you could get the recommendation based on another agent ... ask a higher level model with reasoning to help with a decision. Especially ... where the recommendation is medium and especially if it's low, to try and help improve the confidence that we have around the recommendation." Shape proposed to Kris; nothing launched yet.
+
+## 2026-10-19 08:22 BST - owner answer, QUERY-REVIEW
+
+Kris: "QUERY-REVIEW - agreed, make it so". Taken as a): from the next Summary, every medium- or low-confidence query (and any high-confidence destructive one) goes to one blind review run on the strongest model at high effort (Codex where independence matters) before it reaches Kris; agreement lifts confidence one level, marked reviewed; disagreement shows both. Capture a harness record for the ki-coordination standard after two or three reviews show whether it helps.
