@@ -138,20 +138,6 @@ a) (recommended, confidence medium - all are work-folder and decision documentat
 
 b) Leave them until those threads push their own.
 
-### ROLLOUT-PROJECT - Where the rollout thread lives
-
-since 2026-10-19 · from the Summary at 11:15 BST · (looks resolved; the worker judges): at 12:16 BST the coordinator answered Kris's question, "Baseline rollout covers every repository run on the Knowledge Islands method, in every territory, not just the Knowledge Islands repositories", and the 12:25 BST Summary no longer listed it; STEP3-ANSWERS still names it open
-
-**Context:** The rollout opener reuses the existing [Baseline rollout](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/baseline-rollout.md) Project rather than opening a new one.
-
-**Query:** Should rollout to other territories live in Baseline rollout?
-
-**Options:**
-
-a) (recommended, confidence medium - the rollout items fit its scope, so no new Project is needed) Yes, keep it in Baseline rollout.
-
-b) Open a separate rollout Project, and I'll adjust the opener.
-
 ## Parked
 
 None.

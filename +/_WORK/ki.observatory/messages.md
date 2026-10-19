@@ -1,4 +1,1 @@
 # ki.observatory messages
-
-- IMPORTANT · 2026-10-19 · FIRST-STEP · KI > Model > Ways of working (migrate-pass): migrated to the [work package](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/work-package.md). Before any write, re-read `ki-work-package` and all five files; confirm the drafted description, Goals and Scope; set `method_read`.
-- 2026-10-19 · WORK-PACKAGE-READER · KI > Model > Ways of working: under the [work-package standard](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/work-package.md#migration) (point 36), make the Observatory read both shapes, through `ki work status` once tools-ki does; move `review.ts`'s dating of review-held folders from `work.md` to `state.md` where it exists, folded into an existing record; confirm the Work Instrument shows a migrated folder unchanged. Blocking for that confirmation.
