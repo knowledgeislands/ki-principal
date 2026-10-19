@@ -16,19 +16,75 @@ a) (recommended, confidence medium - one release carries the hands-on fixes and 
 
 b) Release v0.18.0 now from `main`, so the machines agree today.
 
-### PUSH-STACKED - Query text not recovered
+### PUSH-ALL - Push the stacks that hold other sessions' commits
 
-since 2026-10-19 · named open in the decisions log at 14:17 BST on 19 October
+since 2026-10-19 15:17 BST · from migrate-pass, work-package-standard, no-alias-sweep and territories-package
 
-**Context:** The decisions log records PUSH-STACKED as one of three open queries at 14:17 BST on 19 October; the other two, MIGRATE-GATE and KI-TOML-PACKAGE, were answered at 14:20 BST. Its full text was in a Summary that was not saved, and the migration pass could not recover it. The earlier answer, PUSH-STACKED a) "do not push over others' commits", still governs.
+**Context:** ki-principal is 34 commits ahead (six from ki.specifications, ki.knowledge-acquisition and ki.chezmoi); ki-agentic-harness 8 ahead (including the acquire consolidation, `8bc9d49d` and `88cce3e5`); personal/acquire 4 ahead (`cd439cd` and `c8af3d4` from another session). Until pushed, other machines do not see the migrated packages or the harness rename.
 
-**Query:** What was the open PUSH-STACKED question, and is it still open?
+**Query:** May the coordinator push all three stacks fast-forward now?
 
 **Options:**
 
-a) (recommended, confidence low - the text is lost, so the worker restates it from its own context) The coordinator restates PUSH-STACKED in full at its next Summary, or deletes this entry if PUSH-HARD answered it.
+a) (recommended, confidence medium - all are routine work-folder, roadmap or documentation commits from sessions Kris opened today, not reviewed line by line) Push all three now, pull with rebase first.
 
-b) Kris answers it in speech from memory.
+b) Kris looks over the other sessions' commits first, then pushes.
+
+### DEPLOY-PUSH - Site repositories whose push deploys
+
+since 2026-10-19 · from fields-rest
+
+**Context:** 5g-emerge-phase2, 5g-emerge-demos and apps-tower.midnight.ninja each hold one field-migration commit (front matter only) unpushed, because a push to `main` deploys the site; another session's commit sits in each too.
+
+**Query:** Push them, accepting a redeploy?
+
+**Options:**
+
+a) (recommended, confidence medium - front matter only, but a live deploy follows) Push all three; the sites redeploy with no visible change.
+
+b) Leave them for the next deliberate site release.
+
+### CITATIONS-DANGLE - Old-path citations outside the work areas
+
+since 2026-10-19 · from territories-package
+
+**Context:** Tracked notes still cite `+/_CHECKPOINTS/` or `+/_THREADS/` paths that no longer exist: hnr-principal 48, acquire 8, personal-principal 5, legal 4, tmx 2, er 1, va 1. Git keeps the targets.
+
+**Query:** Rewrite them now or leave them to each territory?
+
+**Options:**
+
+a) (recommended, confidence medium - mechanical, but canonical notes fall under each island's Enactment Process) A line in each territory's `messages.md` naming the count and the rewrite, done at resume.
+
+b) One mechanical rewrite run across the seven repositories now.
+
+### CHEZMOI-MIGRATE - ki.chezmoi's folder is still single-file
+
+since 2026-10-19 · from migrate-pass
+
+**Context:** ki.chezmoi's `work.md` holds uncommitted changes from its run sol-locals-complete, so the pass skipped it.
+
+**Query:** How does it reach the package shape?
+
+**Options:**
+
+a) (recommended, confidence high - keeps its coordinator's authority over its own folder) Once its coordinator commits that receive, a one-folder migrate run from this work.
+
+b) Its coordinator migrates its own folder at that receive.
+
+### MARK-READOPT - VA-MARK records left in triage
+
+since 2026-10-19 · from fields-pilot-markhowarth
+
+**Context:** The field pilot moved apps-markhowarth.com's records off the retired triage horizon to `status: triage`, which drops their adoption.
+
+**Query:** Re-adopt them now or leave them in triage?
+
+**Options:**
+
+a) (recommended, confidence medium - adoption is cheap when work is picked up) Leave them in triage and adopt each when picked up.
+
+b) Re-adopt them now with a kind and size each.
 
 ## Parked
 
