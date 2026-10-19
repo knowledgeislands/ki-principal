@@ -7,7 +7,7 @@ theme: model
 worker: agent
 supervisor: owner
 state: handoff-to-supervisor
-since: 2026-10-18T19:54:40Z
+since: 2026-10-19T06:59:31Z
 received: 2026-10-18T19:20:01Z
 beat: null
 mark: 2026-10-18T19:20:01Z
@@ -18,13 +18,14 @@ created_at: 2026-10-09T20:58:00Z
 
 ## Next steps
 
-Sent to Kris at 20:54 BST. Every run authorised by Kris's "do all the recommended items" (20:33 BST) has reported; their reports sit in the run state folder `~/.local/state/ki/agents/ways-of-working/`, the path KI-TOOL-KI-CLI-150 adopts.
+Sent to Kris at 07:59 BST on 19 October. Every run Kris authorised on 18 and 19 October has reported; reports sit in `~/.local/state/ki/agents/ways-of-working/`.
 
 1. Nothing is running.
-2. With Kris: GOV-197-ACCEPT-NOW (review-gov197), CI-RED-REST (ci-red), HARNESS-DIRECT (cli150-plan), PRUNE-BEFORE-PIN (prune-follow-up) and ACQUIRE-STALE-LINKS (acquire-threads).
-3. Waiting on Kris, no query: RIG-UPGRADE-MACHINES (upgrade Terra and Sol, then a live-acceptance run for KI-TOOL-RIG-CORE-042 and -047); MGIT-RELEASE (after the hands-on check).
-4. Outstanding, not this work's: DESK-CAM with Mac Studio setup; KI-HARNESS-GOV-219 in triage; CI red, pre-existing, in apps-observatory.local, mcp-m365, tools-mgit and ki-techne-harness; ki-agentic-harness red on four links to the pruned KI-HARNESS-GOV-210, which prune-follow-up's `041a74fe` may already cover (recheck at the next mark); `ki agent close desk-kit` reports no such run (check at the next mark).
-5. Lesson: the queue needs `ki agent dispatch`, whose `--max` appears to count other works' agents; and the acquire brief named the wrong repository (coordinator's error, rerun in `personal/acquire`).
+2. With Kris: CLI-150-REVIEW (KI-TOOL-KI-CLI-150 at Awaiting review), BIOME-DRIFT (cli150-deliver) and KI-RELEASE-NEXT.
+3. Kris is on: Rig upgrade on Terra and Sol, then a live-acceptance run for KI-TOOL-RIG-CORE-042 and -047; the mgit hands-on check, then MGIT-RELEASE.
+4. KI-TOOL-KI-CLI-150 step 2 is done: this work's common rules and queued briefs name the state-folder report path; reports no longer go into this folder. cli150-deliver's before-copies stay in its temporary folder as the restore path until acceptance, so `ki agent close` waits.
+5. At the next mark: recheck ki-principal CI (CI-RED-REST, waiting on ki.chezmoi and ki.observatory) and ki-agentic-harness CI (KI-HARNESS-GOV-210 links); check whether desk-kit is already closed.
+6. Outstanding, not this work's: DESK-CAM with Mac Studio setup; KI-HARNESS-GOV-219 in triage; pre-existing CI red in apps-observatory.local, mcp-m365, tools-mgit and ki-techne-harness; acquire-intake's ACQUIRE-DECISIONS-LINKS Messages line.
 
 ## Messages
 
