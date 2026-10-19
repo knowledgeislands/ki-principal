@@ -1,8 +1,8 @@
 ---
 id: ki.observatory
-state: with-worker
-since: 2026-10-19T21:38:00Z
-received: 2026-10-19T21:51:00Z
+state: handoff-to-supervisor
+since: 2026-10-19T21:54:00Z
+received: 2026-10-19T21:53:00Z
 beat: null
 mark: 2026-10-19T21:50:00Z
 method_read: 84b61942
@@ -12,8 +12,8 @@ method_read: 84b61942
 
 ## Now
 
-- With worker since 22:38 BST on 19 October; marked at 22:50 BST.
-- Running: obs-authors-review, blind review of COMMIT-AUTHORS.
+- Sent to Kris at 22:54 BST on 19 October with COMMIT-AUTHORS and WORKERS-JOIN; nothing running; marked at 22:50 BST.
+- Received obs-authors-review at 22:53 BST: disagrees on COMMIT-AUTHORS, preferring to reopen KI-OBSERVA-VIS-031 for authors.
 - Received obs-tab-and-workers at 22:51 BST: Known Lands tab with a scrolling bar (6b2096c), KI-OBSERVA-BRG-005 counts shaped (09762d9), KI-OBSERVA-VIS-031 worker column built and awaiting review (52f18bf); raised COMMIT-AUTHORS (medium) and WORKERS-JOIN (high).
 - Received obs-beacon-accept at 22:51 BST: KI-OBSERVA-BCN-008 done (22ea8dc, local).
 - Since the previous mark: roadmap 35 to 27 records; KI-OBSERVA-BCN-008 built (23f2ba5) and accepted; minimal Known Lands chart (a4ea2ad, 21be3a6); handoff records KI-HARNESS-GOV-223, KI-HARNESS-GOV-224, KI-TOOL-KI-CLI-159, KB-PRINCIPAL-046, HNR-PRINCIPAL-KM-018.
@@ -22,7 +22,7 @@ method_read: 84b61942
 
 ## Next steps
 
-1. When obs-authors-review reports, send COMMIT-AUTHORS and WORKERS-JOIN to Kris; receive obs-beacon-accept.
+1. Act on Kris's COMMIT-AUTHORS and WORKERS-JOIN answers, which settle KI-OBSERVA-VIS-031's acceptance; receive obs-beacon-accept.
 2. Four triage records await a later merge decision: KI-OBSERVA-VIS-029, KI-OBSERVA-VIS-032, KI-OBSERVA-VIS-033, KI-OBSERVA-VIS-034.
 3. Four done records (KI-OBSERVA-APP-042, KI-OBSERVA-VIS-023, KI-OBSERVA-VIS-024, KI-OBSERVA-BRG-002) stay until their peer links and BRG-002's frozen figure are re-pointed.
 4. `ki work status` (installed `ki` 0.11.4) is blind to five-file packages until ki.tools-burndown changes the tools-ki reader.
