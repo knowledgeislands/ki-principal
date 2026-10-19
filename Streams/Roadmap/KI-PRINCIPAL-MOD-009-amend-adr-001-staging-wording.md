@@ -9,12 +9,15 @@ component: model
 tags:
   - topic/knowledge-islands
   - topic/acquisition
-status: triage
+priority: medium
+size: m
+status: draft
+horizon: now
 blocks: []
 blocked_by: []
 baseline_ref: null
 created_at: 2026-10-17T22:50:00Z
-updated_at: 2026-10-18T00:35:00Z
+updated_at: 2026-10-19T23:32:23Z
 ---
 
 # Amend ADR-KI-PRINCIPAL-001 Staging Wording
