@@ -20,17 +20,17 @@ b) Investigate who changed the protected target before continuing; leave current
 
 ### RIG-LIVE-DELIVER - Deliver the Dock tool links before the held Rig records
 
-since 2026-10-19 · from the RIG-LIVE line of KI > Model > Ways of working
+since 2026-10-19 · from the RIG-LIVE line of KI > Model > Ways of working · reviewed ([query-review](/Users/krisbrown/.local/state/ki/agents/chezmoi/query-review.report.md))
 
-**Context:** Kris chose to hold [KI-TOOL-RIG-CORE-042](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-042-profile-filtered-dock-items.md) and [KI-TOOL-RIG-CORE-047](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md) until this work delivers [KB-DOTFILES-UE-091](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-091-shared-dock-tool-links.md) without linking ChatGPT (`chatgpt-current` belongs to no profile, so linking it drops ChatGPT off both Docks), and adds a firewall declaration that adopts Terra's unreceipted Rig anchor and covers Sol; Kris then applies both attended. The parked REST-HOLD query held the Dock work for CORE-042, so this reverses that order. Evidence: [rig-live report](/Users/krisbrown/.local/state/ki/agents/ways-of-working/rig-live.report.md).
+**Context:** Kris chose to hold KI-TOOL-RIG-CORE-042 and -047 until this work delivers [KB-DOTFILES-UE-091](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-091-shared-dock-tool-links.md) without linking ChatGPT, and adds a firewall declaration that adopts Terra's unreceipted Rig anchor and covers Sol; Kris then applies both attended. That supersedes the parked REST-HOLD. The record still proposes adopting and linking `chatgpt-current`, so planning must cut that. The [connection-critical rule](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-engineering/references/standards-engineering.md) needs rehearsed same-machine restore evidence before any firewall change, which the evidence so far does not show.
 
-**Query:** Plan and deliver KB-DOTFILES-UE-091 source-side now, with the firewall declaration, and no apply?
+**Query:** Plan and deliver UE-091 source-side now, with the firewall declaration, and no apply?
 
 **Options:**
 
-a) (recommended, confidence medium - follows Kris's routed choice; the record needs planning to Ready first) Launch a plan-then-implement run for UE-091 and the firewall declaration, source only, `rig doctor` before and after, then show the diff for an attended apply.
+a) (recommended, confidence high - reviewed, Kris's later answer supersedes REST-HOLD) Plan UE-091 to Ready with `chatgpt-current` left unlinked and unadopted, implement it source-only with `rig doctor` before and after; rehearse the firewall restore on this Mac before writing the firewall declaration; then show the diff for an attended apply.
 
-b) Keep REST-HOLD as parked until CORE-042 is released.
+b) Keep the Dock work held until CORE-042 is released.
 
 ### MGIT-APPLY - Apply the regenerated mgit completion
 
@@ -48,33 +48,33 @@ b) Regenerate the other stale snapshots first and apply them together.
 
 c) Do not apply.
 
-### TRIAGE-CUT - Cut two of the three triage records
+### TRIAGE-CUT - Cut the triage records
 
-since 2026-10-19 · from run burndown-push ([report](/Users/krisbrown/.local/state/ki/agents/chezmoi/burndown-push.report.md))
+since 2026-10-19 · from run burndown-push · reviewed ([query-review](/Users/krisbrown/.local/state/ki/agents/chezmoi/query-review.report.md))
 
-**Context:** 20 open records, none Done or awaiting review, so nothing was pruned and the acceptance batch is empty. Of the 3 triage records: [KB-DOTFILES-UE-095](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-095-guide-continuity-check.md) edits the same guide [KB-DOTFILES-UE-090](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-090-close-rig-bring-up-gaps.md) covers; [KB-DOTFILES-UE-096](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-096-thread-identity-hook-registration.md) waits on [KI-HARNESS-GOV-199](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-199-thread-identity-role-native-sessions.md) and [KI-TOOL-KI-CLI-145](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-145-thread-session-bindings-role.md); [KB-DOTFILES-UE-098](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-098-workspaces-git-audit-roots.md) is decided and ready to adopt.
+**Context:** 20 open records, none Done or awaiting review, so nothing was pruned and the acceptance batch is empty. Of the 3 triage records: [KB-DOTFILES-UE-095](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-095-guide-continuity-check.md) edits the guide [KB-DOTFILES-UE-090](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-090-close-rig-bring-up-gaps.md) covers; [KB-DOTFILES-UE-098](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-098-workspaces-git-audit-roots.md) is decided and ready to adopt. The first proposal had the dependency backwards: [KI-HARNESS-GOV-199](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-199-thread-identity-role-native-sessions.md) waits on [KB-DOTFILES-UE-096](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-096-thread-identity-hook-registration.md), so cancelling UE-096 removes one of its prerequisites. Holding UE-096 means adopting it as a draft on Hold with a release condition.
 
 **Query:** Which cuts go ahead?
 
 **Options:**
 
-a) (recommended, confidence medium - the merge is clear-cut; the cancel goes against an earlier capture) Merge UE-095 into UE-090 and cancel UE-096 until GOV-199 Phase 3 lands; keep UE-098. Net 20 to 18.
+a) (recommended, confidence high - reviewed, the review's own pick once the dependency was corrected) Merge UE-095 into UE-090, adopt UE-096 as a draft on Hold until GOV-199 Phase 3 starts, keep UE-098. Net 20 to 19.
 
-b) Merge UE-095 only and move UE-096 to Hold. Net 20 to 19.
+b) Merge UE-095 and cancel UE-096 as first proposed. Net 20 to 18, but breaks GOV-199's prerequisite.
 
 c) Cut neither.
 
 ### CARRY-DIRECTIONS - Deliver the dropped source directions
 
-since 2026-10-19 · from run mark-tidy-1019 ([report](/Users/krisbrown/.local/state/ki/agents/chezmoi/mark-tidy-1019.report.md))
+since 2026-10-19 · from run mark-tidy-1019 · reviewed ([query-review](/Users/krisbrown/.local/state/ki/agents/chezmoi/query-review.report.md))
 
-**Context:** Kris authorised these between 15 and 17 October, and none is delivered: SEAT-BIND and SEAT-HOSTS as SEAT-CHANGE amends them (each host's seat role and territories in chezmoi host data); PAPERCLIP-OFF (keep the declaration, neither Mac applies or loads it); TOML-OPENER (`.toml` opens in Zed, not Warp); SSH-CONSOLE (physical-console fallback in the macOS workstation guide). The 19 October apply run dropped them from the work file. The firewall directions ride with RIG-LIVE-DELIVER.
+**Context:** Kris authorised these between 15 and 17 October; a 19 October run dropped them from the work file. Still undelivered: SEAT-BIND and SEAT-HOSTS as SEAT-CHANGE amends them (each host's seat role and territories in chezmoi host data) and TOML-OPENER (`.toml` opens in Zed, not Warp). Half done: PAPERCLIP-OFF, declared stopped and manual but still selected for the laptop profile. Already done: SSH-CONSOLE, in the [macOS workstation guide](/Users/krisbrown/.local/share/chezmoi/docs/guides/user/macos-workstation.md) since 15 October.
 
-**Query:** Should one source-only run deliver these four, each diff held for review?
+**Query:** Should one source-only run deliver the remaining three?
 
 **Options:**
 
-a) (recommended, confidence medium - all authorised and none withdrawn, but dormant since 17 October and the seat map has changed) One source-only run after RIG-LIVE-DELIVER, `rig doctor` before and after, no apply.
+a) (recommended, confidence high - reviewed, all authorised and none withdrawn) One source-only run after RIG-LIVE-DELIVER finishes seat bindings, the TOML handler and the Paperclip exclusion, `rig doctor` before and after, no apply.
 
 b) Put each back to Kris before any run.
 
