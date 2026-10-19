@@ -143,3 +143,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 139 (2026-10-19T22:55:55Z)
 
 - Pointer: TRIAGE-ALL, Kris on 19 October via State of play: triage KB-DOTFILES-UE-098, UE-099 and UE-100 under `ki-next`, adopt and deliver high-confidence ones to Awaiting review, and bring medium, low, cancellation, merge or deletion ones as one lane query after one blind review. Run triage-lane, after ready-rest-3.
+
+## Decision 140 (2026-10-19T23:09:17Z)
+
+- Pointer: TRIAGE-ROOTS-GATE a), taken under Kris's standing authority for high-confidence work. The pending-apply `CLAUDEBIND-1` mismatch for KB-DOTFILES-UE-098's git-audit roots is excepted for its source-only commit; applying stays gated ([triage-lane](/Users/krisbrown/.local/state/ki/agents/chezmoi/triage-lane.report.md)). Run roots-commit. TRIAGE-SERVICE-SEQUENCE and TRIAGE-LEAK-DIAGNOSIS, both medium, go to blind review (run triage-review).
