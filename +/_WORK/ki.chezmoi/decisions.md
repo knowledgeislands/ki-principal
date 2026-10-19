@@ -99,3 +99,11 @@ Read back as evidence for firewall-freeze: Terra's physical display went black, 
 home: +/_WORK/ki.chezmoi/work.md class: operational
 
 - RESEQ, blind review b) high, under Kris's rehearsal go-ahead of 21:04 BST: rewrite the Terra rehearsal with host and phase gates, a filter-only flush, fresh-SSH checks, proven restore and pf reference accounting before Kris runs it. No new owner authority taken.
+
+## Decision 111 (2026-10-19T20:25:21Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- no, its fine, I'm happy if the instructions are clear
+
+Read back as: do not hold; Kris runs the guarded Terra rehearsal tonight once firewall-seq-write delivers clear, tested blocks.
