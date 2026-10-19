@@ -346,3 +346,9 @@ Pointers still governing live work:
 Kris: "Okay, I've done a push. Is there anything else that you're waiting for me?"
 
 Read back taken: the ki-principal stack is pushed; nothing of this work's waits on Kris.
+
+## 2026-10-19 20:14 BST - owner answer, push
+
+Kris: "You're absolutely right, I wasn't pushing in the right place. That's a bit annoying. Its now pushed."
+
+Read back taken: the ki-principal stack is pushed. DESIGN-TRIAGE (triage and blind review of `design/`, plus resolving graduated notes at each mark) offered, not yet answered.
