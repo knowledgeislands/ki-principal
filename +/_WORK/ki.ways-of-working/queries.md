@@ -16,17 +16,17 @@ a) (recommended, confidence medium - one release carries the hands-on fixes and 
 
 b) Release v0.18.0 now from `main`, so the machines agree today.
 
-### ACQUIRE-PUSH - Push the acquire citation commit
+### ACQUIRE-PUSH - Push the two acquire commits
 
 since 2026-10-19 18:18 BST · from citations-rewrite
 
-**Context:** acquire's `AGENTS.md` line 29 says never to push without explicit authority, so the helper committed `2a70d45` on `main` on this machine and did not push. It is the only commit stacked and changes documentation links only: 15 rewritten, 7 pruned links.
+**Context:** acquire's `AGENTS.md` says never to push without explicit authority, so two commits from this work sit unpushed: citations-rewrite's `2a70d45` (documentation links: 15 rewritten, 7 pruned) and report-sweep's `4f1afea` (one REPORT-SWEEP line in kb.regular.acquire-intake). Nothing else is stacked.
 
 **Query:** Should the acquire commit be pushed now?
 
 **Options:**
 
-a) (recommended, confidence high - one docs-only commit of this run's own, nothing else stacked) Push `2a70d45` fast-forward now, as a follow-up run or by hand.
+a) (recommended, confidence high - both commits are this work's received runs, documentation only, nothing else stacked) Push `2a70d45` and `4f1afea` fast-forward now.
 
 b) Leave it for acquire's own session to push with its next work.
 

@@ -263,3 +263,7 @@ Read back taken: REPORT-SWEEP a) - one run surveys every work folder in the esta
 Kris: "btw, both machines are in local mode so if they pull they have the latest tools"
 
 Read back taken: LOCAL-MODE - Terra and Sol run the tools from their checkouts, so a pull gives them the current `ki` (with KI-TOOL-KI-CLI-150's report-path refusal) and harness. The "install the `ki` release on every machine" step is not needed there; the Terra prompt's `ki --version` check stands as a check only.
+
+## 2026-10-19 18:33 BST - messages.md disposition, REPORT-SWEEP
+
+report-sweep's line asked this work to receive `webcam-compare.report.md`. Kept on purpose: it backs the parked DESK-CAM query, whose text is already in `queries.md` and links to it; it goes when DESK-CAM is answered. Line removed.

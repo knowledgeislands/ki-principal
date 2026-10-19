@@ -1,7 +1,7 @@
 ---
 id: ki.ways-of-working
-state: with-worker
-since: 2026-10-19T16:57:00Z
+state: handoff-to-supervisor
+since: 2026-10-19T17:33:00Z
 received: 2026-10-19T16:57:00Z
 beat: null
 mark: 2026-10-19T17:12:48Z
@@ -12,15 +12,15 @@ method_read: 9c9ae922
 
 ## Now
 
-- Received from Kris at 17:57 BST on 19 October: everything pushed; CITATIONS-DANGLE b), CHEZMOI-MIGRATE a), MARK-READOPT a). chezmoi-migrate done (`40a6a6cd`, ki.chezmoi now five files). citations-rewrite done (18 repositories, 0 unresolved). mark-tidy done (`09e3e775`, decisions log 405 to 265 lines). Running: report-sweep. Marked at 18:12 BST on 19 October; mark-tidy strikes the decisions log and runs the mark checks.
-- Drift noted 18:14 BST: the coordinator ran the 18:01 hooks survey and the 18:05 legal report-history check itself rather than as runs; both were read-only and short. Further investigation goes to a run.
+- Sent to Kris at 18:33 BST on 19 October: every run has finished (chezmoi-migrate, citations-rewrite, mark-tidy, report-sweep); the Terra and Sol alignment reports are with Kris; five queries open. Marked at 18:12 BST on 19 October.
+- Drift noted 18:13 BST: the coordinator ran the 18:01 hooks survey and the 18:05 legal report-history check itself rather than as runs; both were read-only and short.
 - Run reports sit in `~/.local/state/ki/agents/ways-of-working/`.
 
 ## Next steps
 
 1. Done 15:17 BST: territories-package (every other territory migrated and pushed, acquire unpushed), state-note-fix (`024b069b`, `db30d0ca`), reinstall-check (clean), repo-links (19 links in 10 repositories, estate repair PASS).
 2. Done 19 October: `ki-work-package` in the harness with no alias (`9e174750`, `3d50e252`, `9c9ae922`); ki-principal's Work Process note, GDR-KI-PRINCIPAL-009 and `.ki.toml` (`f5781619`, `6f258c74`); ten Knowledge Islands work folders migrated (migrate-pass); field migration across every territory (three site repositories committed but not pushed, DEPLOY-PUSH); spec stocktake and drafts handed to ki.specifications (`c6b5376b`).
-3. Done 18:08 BST: chezmoi-migrate (`40a6a6cd`). Done 18:18 BST: citations-rewrite. mark-tidy done (`09e3e775`, decisions log 405 to 265 lines). Running: report-sweep. With Kris: ACQUIRE-PUSH, TOWER-PUSH. With ki.tools-burndown: HOOKS-STANDARD. Kind and size proposals wait for the `ki` release.
+3. Done 19 October evening: chezmoi-migrate (`40a6a6cd`), citations-rewrite (15 repositories, 0 unresolved), mark-tidy (`09e3e775`; desk-kit closed; cli150-deliver closes with the run), report-sweep (133 deleted, 104 kept with lines in 14 works). With Kris: CI-RED-MAIN, WORK-AREA-CITATIONS, ACQUIRE-PUSH, TOWER-PUSH, MGIT-RELEASE. With ki.tools-burndown: HOOKS-STANDARD.
 4. With ki.tools-burndown (`messages.md` line `527d1a91`): `ki work status` reads both shapes; until then migrated works drop out of its views. Also VALIDATOR-PARITY, KI-TOOL-KI-CLI-155 and KI-TOOL-KI-CLI-156.
 5. With ki.observatory (`messages.md` line `5763aed5`): the Observatory reads both shapes.
 6. With ki.chezmoi (RIG-LIVE): KB-DOTFILES-UE-091 without ChatGPT and the firewall declaration; then Kris's attended Rig applies; then acceptance of KI-TOOL-RIG-CORE-042 and -047. 6a. With Kris on Terra (sent 18:16 BST): the TERRA-ALIGN prompt - repositories level, skill links refreshed to `ki-work-package`, stray work-folder files listed; its report comes back to this work. SOL-ALIGN running too (sent 18:19 BST, local-mode version).
