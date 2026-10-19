@@ -368,3 +368,9 @@ design-review (Codex, read-only) agreed with DESIGN-AT-MARK a) at high: no ratio
 Kris: "agreed witht eh recommendation"
 
 Read back taken: DESIGN-AT-MARK a) - the standard's prune clause is aligned so each mark reviews `design/` and resolves graduated or superseded notes under the graduation guards, keeping the close-out gate; this work's `design/` is triaged into a delete list, blind-reviewed, for Kris to confirm before anything is deleted. Authorises design-clause (harness: clause, generated surfaces, and the pending `hooks/README.md` alignment; commit, push fast-forward only when its own commits alone are stacked) and design-triage (ki-principal, read-only list), then a blind review of the list.
+
+## 2026-10-19 20:32 BST - owner direction, ROUND-END
+
+Kris: "I have to say I'm getting a bit lost with all the work at the minute ... It'd be good if your work was finished in somewhere." Then: "well, it doesn't have to be a final farewell, I think ways of working will still need some work, but it would be good to get to the end of this round"
+
+Read back taken: ROUND-END - this round ends in a hold, more expected, not Project close. Finish design-clause and design-triage, put the reviewed delete list to Kris once, carry out what he confirms, hand cross-work pointers to State of play in one `messages.md` line, then hold. State of play is Kris's single guide across works; this work launches nothing new this round.

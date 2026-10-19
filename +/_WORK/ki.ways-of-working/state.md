@@ -13,6 +13,7 @@ method_read: eff6163b
 ## Now
 
 - Received from Kris at 20:28 BST: DESIGN-AT-MARK a); design-clause (harness) and design-triage (read-only list) running; the list then goes to blind review and to Kris before any deletion.
+- ROUND-END (20:32 BST): after the design runs, the reviewed delete list and Kris's confirmation, hand pointers to State of play and hold, more expected.
 - Run reports sit in `~/.local/state/ki/agents/ways-of-working/`.
 
 ## Next steps
