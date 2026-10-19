@@ -105,3 +105,13 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
   - ROADMAP-CAP: no cap and no weekly cap measure; the focus is getting through the burn-down.
   - LANE-OWNERS a): ki.tools-burndown the tools repositories and mcp-git-audit; ki.observatory apps-observatory.local, ki-design and the website's design adoption; ki.ways-of-working ki-agentic-harness, ki-principal and ki-specifications; ki.chezmoi chezmoi; ki.mac-studio-setup the agent-host hold cluster and ki-techne-harness; the 12 email-routing drafts to one hold until a Project opens (dispatched `email-routing-hold`). Route lines sent to each lane.
   - BURN-WAVE-1 a): each lane runs one `ki-accept` pass on remaining Awaiting review records and brings Kris its cancel, merge and idea list as a single query; carried in each lane's route line.
+
+## 2026-10-19 23:48 BST - TRIAGE-ALL
+
+- **TRIAGE-ALL:** "Okay, there's a lot of items in triage. I need them all triaging. So I want them all running out with the high order functions and anything which is High confidence recommended. Let's move it into now and get it done. Especially to focus on anything to do with the tools burn-downs first." Taken as: every lane triages all its triage records now, high-confidence adoptions go straight to Now and are delivered, the rest come to Kris; ki.tools-burndown first. IMPORTANT route lines sent to the five lanes. This was held in `state.md` while `sop-mark-2` rewrote the log.
+
+## 2026-10-19 23:49 BST - RECEIPTS
+
+- 23:49 BST: `email-routing-hold` received. All 12 are held (mcp-m365 `fdd6708`, mcp-gsuite `2fd5471`, not pushed), and EMAIL-OWNER is copied to queries.md for blind review. Follow-up with no record: drop the dangling `KI-MCP-M365-TOOL-010` from KI-MCP-M365-TOOL-012's `blocked_by`.
+- Correction: State of play's commit `6faf8f0c` also took in `review-hold-apply`'s staged renames of the three live folders. They were content-free moves, so nothing was lost. From now on, commits carry explicit paths on the commit command itself.
+- 23:49 BST: `sop-mark-2` received. The log is struck (`c3847f88`), and `design/` is unchanged. Follow-ups routed: `design/personal-acquire-handover.md` to ki.knowledge-acquisition, `design/observatory-goals/` to ki.observatory, and MGIT-ESCAPE and MGIT-OUTPUT to ki.tools-burndown as ideas.
