@@ -111,3 +111,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 131 (2026-10-19T22:27:44Z)
 
 - Pointer: ACCEPT-047 a), taken under Kris's standing authority for high-confidence work ("It can do anything that's high confidence"). KI-TOOL-RIG-CORE-047 stays awaiting-review: the record still lists the NordVPN on/off checks and `rig apply --sudo` on Terra as outstanding, so acceptance waits for them ([accept-047](/Users/krisbrown/.local/state/ki/agents/chezmoi/accept-047.report.md)). Narrowing the scope instead (option b) is left to Kris.
+
+## Decision 132 (2026-10-19T22:28:29Z)
+
+- Pointer: MCPORTER-RESTART, Kris on 19 October, 23:30 BST: "McPorter restart: you can just do it if you need to." Sol's daemon is restarted with the existing `mcporter_restart` (run mcporter-restart).
