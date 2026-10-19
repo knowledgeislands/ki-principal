@@ -19,3 +19,9 @@ Kris's SPECIFICATIONS-PROJECT, 19 October, in [ki.ways-of-working's decisions](.
 ## Pointer - QUERY-REVIEW and REFRESH-RESUMMARY
 
 Kris's QUERY-REVIEW and QUERY-REVIEW-STANDARD, 19 October, live in the ki-coordination standard; REFRESH-RESUMMARY, Kris 19 October, "I want the other threads to pick it up and resummary me so that I get the better recommendations", reached this work through ki.ways-of-working's REFRESH line and authorises the query-review run.
+
+## 2026-10-19 19:50 BST - owner instruction, STOCKTAKE-PLAN
+
+Kris: "Can we take stock on this, and just double-check everything again, see if we can come up with a really solid plan?"
+
+Read back taken: STOCKTAKE-PLAN - one run, plan, re-verifies every fact behind the five open queries and the handed-over drafts, and writes a sequenced delivery plan for the Project to `design/plan.md`, with each step's gate on an owner answer; read only beyond that file, nothing published. Its queries go to blind review before they reach Kris.

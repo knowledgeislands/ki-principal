@@ -1,8 +1,8 @@
 ---
 id: ki.mac-studio-setup
-state: handoff-to-supervisor
-since: 2026-10-19T18:52:00Z
-received: 2026-10-19T18:51:00Z
+state: with-worker
+since: 2026-10-19T18:57:00Z
+received: 2026-10-19T18:55:00Z
 beat: null
 mark: 2026-10-19T18:01:00Z
 method_read: 2026-10-19T18:01:00Z
@@ -12,8 +12,10 @@ method_read: 2026-10-19T18:01:00Z
 
 ## Now
 
-- Handoff to supervisor since 19:52 BST on 19 October; marked at 19:01 BST on 19 October.
-- Nothing is running. query-review received at 19:51 BST: SOL-FW-TEST shows both views, PUSH-STACK reviewed to high; RIG-ORDER, high and not destructive, was not reviewed.
+- With worker since 19:57 BST on 19 October; marked at 19:01 BST on 19 October.
+- Running, chained in tools-rig: core063 (plan and deliver KI-TOOL-RIG-CORE-063 to Awaiting review), then plan062 (plan KI-TOOL-RIG-CORE-062), then plan027 (plan KI-TOOL-RIG-CLI-027); local commits only, no push.
+- With Kris: SOL-FW-TEST, Kris to restate or confirm it.
+- ki-principal push left to the owning sessions (PUSH-STACK a).
 - FIRST-STEP done: `ki-work-package` and all five files re-read, description, Goals and Scope confirmed as drafted, `method_read` set.
 - REPORT-SWEEP received: the four kept reports stay, their outcomes not yet homed; rig-lane's query is RIG-ORDER, and the other three are the held at-screen steps below.
 - Decisions not yet struck at this mark; the next mark takes it as a run.
@@ -22,7 +24,7 @@ method_read: 2026-10-19T18:01:00Z
 ## Next steps
 
 1. With Kris, ADOBE-RESTART first (deferred, "remind me another day"): restart sol, run [`./adobe-remove.sh`](design/adobe-remove.sh) as a dry run (apps and add-ons none, nothing under What is left), then `ls -d /Applications/Adobe* /Applications/Utilities/Adobe* ~/Pictures/Lightroom/*.lrcat`, which should show only the catalogue.
-2. Then RIG-ORDER (`queries.md`, refreshed on 19 October in [rig-lane](rig-lane.report.md)), and SOL-FW-TEST.
+2. Receive core063, plan062 and plan027; then Kris accepts the two Awaiting-review records at the next sol session; SOL-FW-TEST when Kris restates it.
 3. Then put the parked queries in `queries.md` back one at a time, each with a recommendation and its reason.
 
 ## Held

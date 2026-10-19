@@ -2,22 +2,6 @@
 
 ## Open
 
-### RIG-ORDER - where the refreshed burndown starts
-
-since 2026-10-19 · from [rig-lane](rig-lane.report.md), Update 2026-10-19; it replaces the RIG-ORDER of 17 October
-
-**Context:** tools-rig has 13 open records. 2 are Awaiting review and need Kris at the screen. 1 is done and needs only pruning. 6 are in Triage, 1 is Future, and 3 are on hold. None of the open records is Ready, so every background delivery starts with `ki-plan`.
-
-**Query:** Which order does the lane follow?
-
-**Options:**
-
-a) (recommended, confidence high - it makes the tests trustworthy before more delivery, and keeps the screen work in one sitting) Plan and deliver [KI-TOOL-RIG-CORE-063](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-063-fatal-bats-assertions.md) in the background now, then plan [KI-TOOL-RIG-CORE-062](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-062-own-address-firewall-destination.md) and [KI-TOOL-RIG-CLI-027](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CLI-027-command-line-convention-departures.md). Kris takes all of Wave 0 at the next sol session, after KB-DOTFILES-UE-091 has landed.
-
-b) Put capability first: plan [KI-TOOL-RIG-CORE-053](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-053-macos-menu-bar-declarations.md) now that it is unblocked, ahead of the Wave 1 debt.
-
-c) Hold the lane until Wave 0 is accepted, so nothing builds on unaccepted work.
-
 ### SOL-FW-TEST - What this parked tag meant
 
 since 2026-10-19 · reviewed by query-review, 19:48 BST, which disagrees with the coordinator
@@ -31,20 +15,6 @@ since 2026-10-19 · reviewed by query-review, 19:48 BST, which disagrees with th
 a) (recommended by the reviewer, confidence high - the wording is lost, and keeping the tag avoids silently dropping a separate requirement; the coordinator recommended b at low) Kris restates or confirms it; keep the entry until then.
 
 b) Treat it as the held sol firewall test with its NordVPN check, and delete the separate entry.
-
-### PUSH-STACK - Push the stacked commits in ki-principal
-
-since 2026-10-19 · reviewed by query-review, 19:48 BST
-
-**Context:** Another session has already pushed this work's mark commit. Two commits are still unpushed on main: `b6d1020f`, a ki State of play review handoff, and `d3d58f21`, this work's review relaunch. Both are bounded package edits. The shared-stack rule leaves another session's commits to Kris.
-
-**Query:** Leave the push to the owning sessions, or push the stack now?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; another session's commit is in the stack and the shared-stack rule is explicit) Leave it to the next owning session that pushes, which fetches and rechecks first.
-
-b) Kris authorises this exact stack; fetch, recheck and push fast-forward only.
 
 ## Parked
 
