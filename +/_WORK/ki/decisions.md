@@ -163,3 +163,16 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 - ACCEPT-AWAITING reply (ki.chezmoi): KI-TOOL-RIG-CORE-047 stays Awaiting review until its NordVPN checks and Terra's `rig apply --sudo` run, or Kris narrows its scope; carried in state.md.
 - REFRESH-BANNER (ki.ways-of-working): standard re-read at harness `f4d6c521`; BANNER-ON-STATE, PUSH-NOT-WITH-YOU and HOLD-CLEAN applied from this reply; `method_read` set.
 - All three lines removed.
+
+## 2026-10-19 23:45 BST - ANSWERS
+
+- **ANSWERS:** "I agree with all the recommendations in here, apart from the roadmap cap, I don't think we need one, I just think we need to focus on what we're doing now, which is to get through it." Read back as taken, option a) on eight queries and no cap on the ninth:
+  - REVIEW-HOLD a): ki.agent-host, ki.estate-factorisation and ki.paperclip-capture-and-rebuild return to `+/_WORK/` on hold; CHECKLIST and the `update-ki-pin.yml` payload mismatch are copied into the live ki.baseline-rollout's parked queries; then the old ki.baseline-rollout, ki.regular.command-centre and ki.regular.skill-reviews are deleted. Dispatched `review-hold-apply`.
+  - HOMELESS-STANDING a): one `homeless:` line per rule in state.md; PRFLOW, PIN, RIG-REL-PATCH and the burn-down focus routed to ki.ways-of-working for a home in a standard or `AGENTS.md`.
+  - MODEL-FALLBACK a): strike it at the next mark, and treat later expired time-limited entries the same way.
+  - THREADS-CHECKINS a): closed as delivered by the work model; raise again only if check-ins still feel excessive.
+  - TECHNE-FOCUS a): revise the Techne Programme Hold through the Enactment Process to a focus rule, Mac Studio and agent host only, other Techné work kept as ideas, carrying forward the hold's operating bounds; Kris approves the exact wording before GDR-KI-PRINCIPAL-004 is superseded. Dispatched `techne-focus` to draft it.
+  - CAPTURE-GATE a): runs never create records; the owning work's coordinator captures only a blocker, a defect seen failing or a Kris request; ideas go to Project notes; small audit fixes need no record. Added to every brief from now; method change routed to ki.ways-of-working.
+  - ROADMAP-CAP: no cap and no weekly cap measure; the focus is getting through the burn-down.
+  - LANE-OWNERS a): ki.tools-burndown the tools repositories and mcp-git-audit; ki.observatory apps-observatory.local, ki-design and the website's design adoption; ki.ways-of-working ki-agentic-harness, ki-principal and ki-specifications; ki.chezmoi chezmoi; ki.mac-studio-setup the agent-host hold cluster and ki-techne-harness; the 12 email-routing drafts to one hold until a Project opens (dispatched `email-routing-hold`). Route lines sent to each lane.
+  - BURN-WAVE-1 a): each lane runs one `ki-accept` pass on remaining Awaiting review records and brings Kris its cancel, merge and idea list as a single query; carried in each lane's route line.

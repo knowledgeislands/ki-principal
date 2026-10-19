@@ -1,6 +1,6 @@
 ---
 id: ki
-state: handoff-to-supervisor
+state: with-worker
 since: 2026-10-19T22:23:09Z
 received: 2026-10-19T17:58:50Z
 beat: null
@@ -12,11 +12,20 @@ method_read: f4d6c521
 
 ## Now
 
-- Handoff to supervisor since 23:25 BST on 19 October, on sol, with the full Summary. Received and marked at 18:58 BST.
-- Nothing running. `accept-awaiting` accepted 20 records in five repositories (not pushed); `query-review-3` reviewed the last three queries.
+- With worker since 23:45 BST on 19 October, on sol, acting on Kris's answers (ANSWERS, 19 October). Received and marked at 18:58 BST.
+- Running: `review-hold-apply`, `techne-focus`, `email-routing-hold`. Each lane has its burn-down line (BURN-WAVE-1, LANE-OWNERS, CAPTURE-GATE).
 - KI-TOOL-RIG-CORE-047 stays Awaiting review with ki.chezmoi until its NordVPN checks and Terra's `rig apply --sudo` run, or Kris narrows it.
-- Open with Kris: REVIEW-HOLD, HOMELESS-STANDING, MODEL-FALLBACK, THREADS-CHECKINS, TECHNE-FOCUS, CAPTURE-GATE, ROADMAP-CAP, LANE-OWNERS, BURN-WAVE-1.
-- Unpushed: accepted records in ki-agentic-harness, ki-design, tools-ki, tools-rig and chezmoi; State of play's own commits in ki-principal.
+- No roadmap cap (ROADMAP-CAP, 19 October): the focus is getting through the burn-down.
+
+## Homeless
+
+- homeless: the roadmap burn-down focus (14 October), routed to ki.ways-of-working.
+- homeless: GO-AHEAD (17 October).
+- homeless: PRFLOW and PIN (9 October), routed to ki.ways-of-working.
+- homeless: RIG-REL-PATCH, ask first for follow-up Rig releases (14 October), routed to ki.ways-of-working.
+- homeless: keep the other territories parked (12 October).
+- homeless: SPEC-REVIEW before KI-RELEASE (12 October).
+- Strike MODEL-FALLBACK at the next mark.
 
 ## Queue
 
