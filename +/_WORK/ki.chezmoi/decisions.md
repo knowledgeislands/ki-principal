@@ -131,3 +131,15 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 136 (2026-10-19T22:44:41Z)
 
 - Pointer: READY-REST a), Kris on 19 October, 23:43 BST: "go ahead". Gap 1 is split out of KB-DOTFILES-UE-090 into its own record, held with KB-DOTFILES-UE-087, and the rest of UE-090 moves to Ready; KB-DOTFILES-UE-076 stays draft (run ready-rest).
+
+## Decision 137 (2026-10-19T22:51:40Z)
+
+- Pointer: READY-PREFLIGHT a), Kris on 19 October, 23:47 BST: "yes you can retry". One-run exception to the stop-on-warning preflight for the 20 existing roadmap migration warnings only; any new warning or failure still stops the run ([ready-rest-1](/Users/krisbrown/.local/state/ki/agents/chezmoi/ready-rest-1.report.md)).
+
+## Decision 138 (2026-10-19T22:55:55Z)
+
+- Pointer: READY-GATE a) and READY-DETAIL a), taken under Kris's standing authority for high-confidence work. The one-run exception also covers the three existing full-audit warnings (`.rumdl.toml` drift, the ADR-KB-DOTFILES-003 amendment heading, the absent `.githooks/pre-commit`); after the split, the gap-5 fallback and the size-l delivery rounds are shaped before Ready is reassessed ([ready-rest-2](/Users/krisbrown/.local/state/ki/agents/chezmoi/ready-rest-2.report.md)). Run ready-rest-3.
+
+## Decision 139 (2026-10-19T22:55:55Z)
+
+- Pointer: TRIAGE-ALL, Kris on 19 October via State of play: triage KB-DOTFILES-UE-098, UE-099 and UE-100 under `ki-next`, adopt and deliver high-confidence ones to Awaiting review, and bring medium, low, cancellation, merge or deletion ones as one lane query after one blind review. Run triage-lane, after ready-rest-3.
