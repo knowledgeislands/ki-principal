@@ -1,20 +1,31 @@
 # Specification drafts: work, knowledge and acquire
 
-**Owner:** Kris Brown · **Owning repository:** knowledgeislands/ki-principal · **Owning work:** `ki.ways-of-working`, handing over to `ki.portable-specifications` · **Date:** 2026-10-19
+**Owner:** Kris Brown · **Owning repository:** knowledgeislands/ki-principal · **Owning work:** `ki.portable-specifications` · **Date:** 2026-10-19
 
-Drafts written by the run spec-drafts under Kris's definition of the three areas at 14:27 BST on 19 October (decisions log entry "owner definition, SPEC-AREAS"). Each is a portable, tool-neutral specification in the [Agent Skills specification](https://agentskills.io/specification)'s page format, ready either to sit in an owning skill or to be published at `knowledgeislands.info/specs/{work,knowledge,acquire}`; that choice, SPEC-HOME, passes to `ki.portable-specifications` with these drafts. Nothing here is published. The open choices are in the spec-drafts run report, not here.
+Draft 0.1 was written by the run spec-drafts under Kris's definition of the three areas at 14:27 BST on 19 October, in ki.ways-of-working. Draft 0.2 was written by the run revise, step 3 of [the plan](../plan.md#steps), to every owner decision in [decisions.md](../../decisions.md) and the findings of the [live Agent Skills check](../agentskills-check.md). Each is a portable, tool-neutral specification in the [Agent Skills specification](https://agentskills.io/specification)'s page format. Under SPEC-HOME and KNOWLEDGE-SKILL each will be held as one reference in its owning skill, `ki-work-package`, a new `ki-knowledge-package` and `ki-acquire`, and published from the same text later in this Project. Nothing here is published.
 
 ## The three specifications
 
-| Spec | Entry file | What the package holds | Read by |
-| --- | --- | --- | --- |
-| [work](work.md) | `WORK.md` + four pick-up files | One piece of work: its definition and its current state, questions, incoming queue and decisions | Whoever routes work to it, and whoever picks it up |
-| [knowledge](knowledge.md) | `KNOWLEDGE.md` | A curated body of knowledge on one topic, as a collection of Markdown files | A person or agent with a question about the topic |
-| [acquire](acquire.md) | `ACQUIRE.md` | The method for acquiring knowledge from one source or with one tool | Whoever captures or refreshes knowledge from that source |
+| Spec | Entry file | What the package holds | Read by | Owning skill |
+| --- | --- | --- | --- | --- |
+| [work](work.md) | `WORK.md` + four other required files | One piece of work: its definition and its current state, questions, incoming messages and decisions | Whoever looks for work or picks it up | `ki-work-package` |
+| [knowledge](knowledge.md) | `KNOWLEDGE.md` | A curated body of knowledge on one topic, as a collection of Markdown files | A person or agent who wants to learn about the topic or has a question about it | `ki-knowledge-package` |
+| [acquire](acquire.md) | `ACQUIRE.md` | The method for acquiring knowledge from one source or with one tool | Whoever captures or refreshes knowledge from that source | `ki-acquire` |
 
 ## Shared conventions
 
-All three take from Agent Skills, unchanged: a package is a directory named for it; an upper-case entry file with YAML front matter and a Markdown body; `name` (Agent Skills rules, with `.` also allowed between segments of a work name), `description` (at most 1,024 characters, the routing signal), `license` and `metadata`; the optional `references/` and `assets/` directories; progressive disclosure from metadata to entry body to resources; relative file references one level deep; soft size limits. All three add an optional `spec` field (`work/1`, `knowledge/1`, `acquire/1`) and let a reader ignore top-level keys it does not know, so a local profile can extend a package without breaking a portable reader.
+All three take from Agent Skills: a package is a directory named for it; an entry file with YAML front matter and a Markdown body; `name` (Agent Skills rules, with `.` also allowed between segments of a work name), `description` (at most 1,024 characters), `license` and `metadata`; the optional `references/` and `assets/` directories; progressive disclosure in three tiers, from metadata to entry body to resources; relative file references one level deep; soft size limits.
+
+All three add, as their own rules rather than Agent Skills':
+
+- **One entry file in upper case,** named for the spec, as `SKILL.md` is (ENTRY-NAMES). Agent Skills fixes only the name `SKILL.md` and sets no rule on the case of other files.
+- **A closed list of top-level keys,** stated in words. Agent Skills' page lists six fields without saying no others are allowed; its validator, `skills-ref`, rejects any other.
+- **Every added field in `metadata`, as a string** (SPEC-LOCATION): `spec`, `knowledge`'s `updated`, `owner` and `acquired-with`, and `acquire`'s `source`, `mutation`, `produces` and `omissions`, the last one comma-separated string. A reader ignores `metadata` keys it does not know, and a profile adds its own there with a prefix, following Agent Skills' advice that keys be reasonably unique. So `knowledge` and `acquire` packages, renamed to `SKILL.md`, pass `skills-ref validate` as read on 19 October; a `work` package does not, because of its dotted name and its extra required files.
+- **`metadata.spec`** (SPEC-VERSION): `work/1`, `knowledge/1` or `acquire/1`; absent means version 1 for good; a reader rejects a major version it does not support, and validation checks the field.
+- **One level of validity** (CONFORMANCE-LEVELS), with size limits warned and never failed.
+- **Attribution:** each draft carries the CC BY 4.0 attribution line the [live check](../agentskills-check.md#4-licence-of-the-specification-text) sets, and each published page must carry it too.
+
+Each spec stays self-contained, as Agent Skills is. A drift check, one rubric criterion in each owning skill naming these shared rules, keeps them in step.
 
 ## How they relate
 
@@ -24,10 +35,12 @@ All three take from Agent Skills, unchanged: a package is a directory named for 
     ^      (produces <-> acquired-with)                               |
     |                                                                 |
     +---------------------------- work -------------------------------+
-           cited as the method a unit follows
+           cited as the method a piece of work follows
 ```
 
-An acquire package produces or refreshes a knowledge package, and each names the other. A work package may cite either, but contains neither: it is removed when the work is done, while knowledge and methods outlast it, and its durable findings are curated into a knowledge package first.
+An acquire package produces or refreshes a knowledge package, and each names the other in `metadata`. A work package may cite either, but contains neither: the work ends, while knowledge and methods outlast it.
+
+Curation, turning an acquire run's output or a piece of work's findings into a knowledge package, sits between the specs. `knowledge` asks only that the result names its sources, including the run output it was taken from; what curation must do and record, and who owns it, is not yet decided.
 
 ## Where earlier material maps
 
@@ -35,32 +48,15 @@ Kris's definitions of 14:27 BST supersede the framing in [spec-areas.md](../spec
 
 | Earlier material | Maps to |
 | --- | --- |
-| spec-areas.md's "agent context package": curated, progressively read knowledge going out to agents | `knowledge`. Its Knowledge Manifest fields map as: scope and relevance to `description`, currency to `updated`, provenance to the Sources section, discovery routes to the Contents section; authority is left to a profile's `metadata`. |
-| spec-areas.md's "knowledge package": acquire's sealed, hash-identified capture (the KEP, `kep.toml`, and Granola's `meeting.md` packages) | Not one of the three. It is the capture an acquire package's `## Output` describes, kept as an implementation format by `ki-acquire` and tools-ki; the resulting knowledge package cites it in its Sources. The name "knowledge package" now means the curated package. |
-| The work package of the `ki-work-package` skill | `work`, as its Knowledge Islands profile; see below. |
-| The `ki-acquire-granola` and `ki-acquire-chatgpt` skills, with `ki-acquire`'s common standard | `acquire` in substance: their `ki-acquire-*` front matter maps onto `source`, `mutation` (`read-only` to `none`, `explicit-marker` to `declared`), `omissions` and `compatibility`, and the common standard's scope, coverage, identity, preservation and verification rules became the required body sections. tools-ki's actions, properties, checkpoint and reset scopes stay profile fields. |
-| `ki-pulse` | An acquisition method whose output is transient; it could become an acquire package without `produces`. |
+| spec-areas.md's "agent context package": curated, progressively read knowledge going out to agents | `knowledge`. Its Knowledge Manifest fields map as: scope and relevance to `description`, currency to `metadata.updated`, provenance to the Sources section, discovery routes to the Contents section, ownership to `metadata.owner`; authority is left to a profile's `metadata`. |
+| spec-areas.md's "knowledge package": acquire's sealed, hash-identified capture (the KEP, `kep.toml`, and Granola's `meeting.md` packages) | Not one of the three. It is the output an acquire package's `## Output` describes, kept as an implementation format by `ki-acquire` and tools-ki; the resulting knowledge package cites it in its Sources. The name "knowledge package" now means the curated package. |
+| The work package of the `ki-work-package` skill | A mapped profile of `work`, not a conforming package; see [work-house-profile.md](work-house-profile.md). |
+| The `ki-acquire-granola` and `ki-acquire-chatgpt` skills, with `ki-acquire`'s common standard | `acquire` in substance: their `ki-acquire-*` front matter maps onto `metadata.source`, `metadata.mutation` (`read-only` to `none`, `explicit-marker` to `declared`), `metadata.omissions` and `compatibility`, and the common standard's scope, coverage, identity, preservation and verification rules became the required body sections, with coverage levels and checksums recommended rather than required. tools-ki's actions, properties, checkpoint and reset scopes stay profile fields. |
+| `ki-pulse` | An acquisition method whose output is transient; it could become an acquire package without `metadata.produces`. |
 | acquire's `context/<territory>/README.md` exports and seeds | Candidate knowledge packages, one per territory. |
 | The retired KIS-0001 Knowledge Package (July 2026) | Prior art: its digests, terminology and open questions inform `knowledge`; its tasks, deliverables and handover inform `work`. Its Minimal, Standard and Extended conformance levels are not carried over. |
 | Google's Open Knowledge Format (OKF v0.1) | An aligned external reference for `knowledge`, not read in full for these drafts. |
 
 ## The Knowledge Islands work-package profile
 
-The `work` spec holds nothing of the Knowledge Islands ways of working. The house work package conforms to it as a profile:
-
-| Knowledge Islands | `work` |
-| --- | --- |
-| `+/_WORK/<id>/`, dotted id such as `ki.observatory` | Package directory; dotted names conform |
-| `work.md` | `WORK.md`, subject to ENTRY-NAMES |
-| `id` | `name` |
-| `level`, `title`, `label`, `project`, `theme`, `worker`, `supervisor`, `created_at` | Profile fields, ignored by a portable reader |
-| `state.md` `state`: `with-worker` | `active` |
-| `handoff-to-supervisor`, `with-supervisor`, `handoff-to-worker`, `handoff` | `waiting`, `target` mapping to `waiting-on` |
-| `on-hold`, `hold.release` | `on-hold`, `release` |
-| `finished` | `done` |
-| `since` | `updated` |
-| `blocking`, `received`, `beat`, `mark`, `method_read` | Profile fields |
-| Run reports, `briefs/`, `design/` | Additional files, or `references/` and `assets/` |
-| `messages.md` lines with a required tag and sender title | Messages lines, tag optional |
-
-To conform, the profile keeps the four-value `state` and moves its seven states into a profile field (for example `ki-state`), or a reader maps them; that choice comes with the profile, not these drafts.
+The house work package, as built, does not conform to `work`; draft 0.1's claim that it did was wrong. Under WORK-PROFILE it stays a mapped profile, and [work-house-profile.md](work-house-profile.md) gives the field and state mapping and lists the house rules draft 0.2 moved out of the spec.

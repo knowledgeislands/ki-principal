@@ -14,7 +14,7 @@ method_read: f4d6c521
 ## Now
 
 - Every open query is decided: SPEC-HOME, SPEC-VERSION, CONFORMANCE-LEVELS, ENTRY-NAMES (upper case), PROJECT-NAME (keep apart), SPEC-LIVE-READ, WORK-PROFILE, KNOWLEDGE-SKILL, MOVE-GATE and SPEC-LOCATION, all in [decisions](decisions.md).
-- live-read received: [design/agentskills-check.md](design/agentskills-check.md); `skills-ref` rejects unknown top-level keys, the spec text is CC BY 4.0, and Agent Skills sets no case rule beyond `SKILL.md`. It raised VALID-SKILL, now in query-review-4 (Codex) before it reaches Kris. revise is running on the drafts in `design/specs/`. Harness reference drift D1 and D2 are for the next `ki-skills` REFRESH.
+- live-read received: [design/agentskills-check.md](design/agentskills-check.md); `skills-ref` rejects unknown top-level keys, the spec text is CC BY 4.0, and Agent Skills sets no case rule beyond `SKILL.md`. It raised VALID-SKILL, now in query-review-4 (Codex) before it reaches Kris. revise received: draft 0.2 of all three and `design/specs/work-house-profile.md`; it already moved every added field into `metadata`, which is VALID-SKILL a) ahead of its answer. draft-review (Codex) reviews draft 0.2 (plan step 4) and blind-reviews CURATION-OWNER. Harness reference drift D1 and D2 are for the next `ki-skills` REFRESH.
 - Mark struck at 2026-10-19T22:45Z; the Project note is [portable-specifications](../../Streams/Projects/portable-specifications.md) and the plan is [design/plan.md](design/plan.md).
 
 ## Next steps
