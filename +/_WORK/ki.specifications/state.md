@@ -1,8 +1,8 @@
 ---
 id: ki.specifications
-state: with-worker
+state: handoff-to-supervisor
 blocking: false
-since: 2026-10-19T13:30:00Z
+since: 2026-10-19T13:33Z
 received: null
 beat: null
 mark: null
