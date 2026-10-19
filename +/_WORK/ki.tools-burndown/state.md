@@ -11,6 +11,7 @@ method_read: 9c17df3c
 
 ## Now
 
+- mgitgo finished 21:51 BST: KI-TOOL-MGIT-CLI-028 and KI-TOOL-MGIT-CLI-023 accepted (done, not pruned); mgit v0.18.0 published on `9a3564d`, installer verified, homebrew-tap PR #48 merged; ki.chezmoi told in `4305f841` (CONSUMER-MIGRATE).
 - kirel finished 21:47 BST: full gate green at `395060ae` with loopback allowed (qreview3's timeouts were environmental); `ki` v0.11.5 tagged, release workflow succeeded and published; ki.ways-of-working told in `fe2dda30`.
 - githooks and ghreview finished: GIT-HOOKS reviewed, high, drop Husky for committed `.githooks`; in `queries.md`.
 - 21:34 BST answers taken (decisions.md): launching kirel (ki v0.11.5), mgitgo (accept -028/-023, mgit v0.18.0), rigcap after mgitgo (tools-rig and chezmoi records), githooks then ghreview (GIT-HOOKS). Next tools-ki run after kirel: note BIOME-CI-STANDARD a) on KI-TOOL-KI-CLI-156.
