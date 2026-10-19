@@ -167,3 +167,11 @@ Scope readback: use of this work folder records local progress; the broader Proj
 ## 2026-10-18T17:59:40Z - whole-capability review mark
 
 The owner requests an assessment of all Acquire capability and outstanding items, aiming for a much cleaner repository, specifically questioning the overlap between `.acquire/` and `intake/` and the retained `+/_CHECKPOINTS/` and `+/_THREADS/` areas. The owner then says "take a mark". The [initial assessment](design/acquire-capability-review.md) records the inventory and incomplete review at that mark. Existing obligations and proposed changes carry forward; this is not approval to delete source/state evidence, merge receipt and provider contracts, accept work records or perform a migration. No work-folder report is pruned at this mark because the retained stocktake is still being reconciled and both design notes remain open.
+
+## 2026-10-19 - common capture consolidation authority
+
+Kris: "CAPTURE-CHATGPT.md can go, lets not focus backwards" and "The rest of it I agreed to so we can move the rest on, whilst we make discussions about these."
+
+Readback: proceed with the common `ki-acquire` contract, provider composition, one CAPTURE entry, source-independent context and concise local orientation. Remove the compatibility entry. Keep intake, but discuss its tie-up/retention rule. Discuss the need for retained technical state and the offline prototype before any state relocation or prototype disposal. This is not authority to migrate/reset `.acquire/`, prune receipts, deploy the bridge, operate providers, accept roadmap items or publish unrelated commits.
+
+The approved bounded delivery is recorded in [KB-ACQUIRE-011](/Users/krisbrown/workspaces/personal/acquire/docs/roadmap/KB-ACQUIRE-011-consolidate-capture-contracts.md). Shared capture rules are now in the canonical Harness; local authority and paths remain in Acquire. No broader programme restart or mark movement follows.

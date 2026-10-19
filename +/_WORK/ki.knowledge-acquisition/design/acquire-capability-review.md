@@ -1,6 +1,6 @@
 # Acquire capability consolidation
 
-Reviewed 19 October 2026 against Acquire, the canonical KI acquisition skills and the current tools-ki importer. This replaces the initial inventory as the working assessment. It proposes a bounded consolidation; it does not approve implementation, accept roadmap records or change source/state bytes.
+Reviewed 19 October 2026 against Acquire, the canonical KI acquisition skills and the current tools-ki importer. This replaces the initial inventory as the working assessment. The owner subsequently approved the common-skill, entry-point and context consolidation, explicitly removing the compatibility entry. That bounded delivery is tracked by KB-ACQUIRE-011. Technical state placement, intake tie-up and prototype disposition remain discussion; no roadmap acceptance or source/state-byte change is inferred.
 
 ## Conclusion
 
@@ -36,7 +36,7 @@ The existing two acquisition skill entry points pass the scoped mechanical `ki-s
 | KI Principal | Durable acquisition model, rationale and accepted policy. |
 | tools-ki | Executable importers, manifests, state persistence and safe relocation. |
 
-`CAPTURE-CHATGPT.md` should remain a tiny compatibility pointer while existing prompts use it. It already is a pointer; it is not a second entry policy. Do not remove it merely to reduce the root file count. Capture detail belongs under `docs/guides/`, not in two root procedures.
+The owner explicitly removed `CAPTURE-CHATGPT.md` from the target on 19 October: no compatibility pointer is required. `CAPTURE.md` is the sole capture entry. Capture detail stays under `docs/guides/`, not in another root procedure.
 
 Orientation can briefly state purpose and link onwards; detailed rules must have one maintained owner. Repository guides must retain enough local instruction for a connector-only capture to start without checking out another repository. A new skill must not make installed CLI tooling or another runtime a prerequisite for a simple text submission.
 
@@ -76,7 +76,7 @@ Both skills currently repeat lifecycle separation, identities, version/hash evid
 | `-/` | The existing outbound working area. |
 | `.agents/` and existing configuration | Managed skills/bindings and repository configuration. |
 
-Keep `captures/` as the physical package root. Customs describes the facility and clearance describes a lifecycle stage; neither needs another directory or a rename of thousands of files. Earlier Customs/clearance discussion did not enact a capture-root migration. This recommendation needs owner agreement before being treated as the final naming decision.
+Keep `captures/` as the physical package root. Customs describes the facility and clearance describes a lifecycle stage; neither needs another directory or a rename of thousands of files. Earlier Customs/clearance discussion did not enact a capture-root migration. The owner agreed this part of the plan; retain `captures/` and source-independent `context/` rather than adding another physical waiting area.
 
 There is no separate acquisition log to introduce. Git records changes; intake receipts record owner requests; package manifests and technical state record source preservation and handling. They should link to each other rather than repeat every field or copy original bytes.
 
@@ -91,7 +91,7 @@ The store's `+/` remains inbound delivery, not an archive. Remove only a specifi
 The 26 files are not a second owner-request inbox:
 
 - The Granola ledger supplies source/account identity, versions, capture locators, image/transcript evidence and handled-source suppression. Removing it can re-import already handled material or invalidate marker evidence.
-- The ChatGPT checkpoint preserves export bindings, conversion outcomes, conversation identities and receiver moves. It serves a different source contract from intake receipts.
+- The ChatGPT checkpoint preserves export bindings, conversion outcomes, conversation identities and receiver moves. The historical converter writes it; no current tools-ki acquisition reader was found for that path. Treat it as retained batch/provenance proof, not a second live owner-request queue.
 - Migration manifests, original receiver ledgers and reconciliation evidence prove earlier moves and variants.
 - The historical export converter is a reproducibility artefact; it is not a reusable importer merely because it ends in `.py`.
 
@@ -141,18 +141,18 @@ These are current canonical states, not self-acceptance or permission to start e
 
 The earlier stocktake remains useful source material, but its historical provider counts, holding suggestions and outstanding queries are not current operating instructions. Do not revive its proposed size caps, schedules or old bridge launches as part of this cleanup.
 
-## Implementation plan for agreement
+## Delivery and remaining decisions
 
-1. Finish the source-independent context change with the owner: agree ownership of the moved files, update live callers and summary wording, then verify bootstrap and territory links. Do not stage the owner's pre-existing moves without that ownership agreement.
-2. Establish the small common `ki-acquire` contract in the canonical Harness, then point the provider contracts at it while retaining their capability declarations and fidelity. Declare/install it through the native managed route. Verify ordinary supplied text, live digest, complete export, Granola import, required-original gaps and unchanged retry.
-3. Consolidate Acquire's `CAPTURE.md`, `AGENTS.md`, README and guides around the responsibility table. Keep the compatibility stub. Shorten the receipt explanation, retaining its existing schema and exact evidence. Make the folder map describe the actual implemented structure.
-4. Complete the tools-ki state-root prerequisite and the reviewed state/proof migration under the existing work carrier. Verify every retained state/proof byte and handled disposition before removing `.acquire/`; leave source packages and provider state untouched by the documentation pass.
+1. Delivered: the owner committed the context move in `a8f0ba2`; the approved follow-through updates its live callers and provider-independent routing wording. Bootstrap and territory links verify, without changing territorial knowledge or source packages.
+2. Delivered: the canonical Harness now owns `ki-acquire`, composed by both provider skills. Native management activates it in both declared consumers. Adapter metadata and stronger source fidelity remain unchanged. Verification includes simple-text/digest/export/Granola/gap/retry contract scenarios, full Harness tests, TypeScript and focused native checks.
+3. Delivered: CAPTURE is the single entry; AGENTS owns authority, README navigation and local guides practical steps. The compatibility file is removed. Receipt schema/evidence remain unchanged and root orientation briefly explains their separate purpose. KB-ACQUIRE-011 holds the detailed delivery/review evidence.
+4. Open discussion: agree the smallest retained handling/provenance proof and its destination before changing state placement. The importer-backed migration remains under its existing carrier. All current `.acquire/` bytes are unchanged; no move or reset has been performed.
 5. Resolve the binary prototype's engineering home or retained-evidence disposition under the existing review. Remove the top-level scripts surface only after that home and recovery evidence are established. Review existing delivered records with the owner; do not automatically accept or reopen them.
 
 The initial documentation/skill consolidation and the later executable state relocation are distinct delivery boundaries. Continue ordinary intake throughout. No new coordination thread, source-store binding, provider import window, remote service, schedule, source retirement or receiver write follows from this plan.
 
 ## Acceptance checks
 
-A new operator can start from `CAPTURE.md`, choose one route and complete a simple text capture without loading every provider guide or acquiring another runtime. AGENTS supplies repository authority and short pointers. Compatibility prompts still reach the same entry point. `context/<territory>/` is discoverable without a provider name. Each shared rule has one detailed owner and provider-specific source guarantees remain intact.
+A new operator can start from `CAPTURE.md`, choose one route and complete a simple text capture without loading every provider guide or acquiring another runtime. AGENTS supplies repository authority and short pointers. There is no compatibility entry to maintain. `context/<territory>/` is discoverable without a provider name. Each shared rule has one detailed owner and provider-specific source guarantees remain intact.
 
 Retries reuse the right identities; amended content remains explicit. Required-original gaps stay visible. Exact source bytes, historical package paths, receipts, handling evidence and variants survive. The later state relocation neither reacquires handled sources nor grants provider mutation. A receipt's pending status is discoverable without a second queue. Existing roadmap records retain their lifecycle until separately reviewed.
