@@ -40,7 +40,7 @@ Read back taken:
 - SPEC-LOCATION a) - `spec` and the other single-value added fields sit in `metadata` as strings; list fields are decided after live-read.
 - Authorises: revise, one run chained after live-read, that revises the three drafts in `design/specs/` to every decision so far (plan step 3); nothing outside `design/specs/` changes, nothing is published.
 
-## 2026-10-20 23:58 BST - owner decision, VALID-SKILL
+## 2026-10-19 23:58 BST - owner decision, VALID-SKILL
 
 Kris: "VA:LID_SKILL as recommended"
 
