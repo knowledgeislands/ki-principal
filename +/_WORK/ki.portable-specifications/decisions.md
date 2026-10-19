@@ -39,3 +39,9 @@ Read back taken:
 - MOVE-GATE a) - the Project finishes at publication, with a handoff record in KI Specifications' roadmap that its restart unblocks.
 - SPEC-LOCATION a) - `spec` and the other single-value added fields sit in `metadata` as strings; list fields are decided after live-read.
 - Authorises: revise, one run chained after live-read, that revises the three drafts in `design/specs/` to every decision so far (plan step 3); nothing outside `design/specs/` changes, nothing is published.
+
+## 2026-10-20 23:58 BST - owner decision, VALID-SKILL
+
+Kris: "VA:LID_SKILL as recommended"
+
+Read back taken: VALID-SKILL a) - every added field of `knowledge` and `acquire` sits in `metadata`, `omissions` as one string with a defined separator, and the valid-skill claim stays, qualified that the entry file is presented as `SKILL.md`; `work` lists its fields as a difference. Draft 0.2 already reads so.
