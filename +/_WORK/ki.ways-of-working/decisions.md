@@ -371,3 +371,7 @@ Correction: the entries timed 19:00 to 19:48 BST above, and the BURNDOWN-PUSH li
 Kris: "because I want the other threads to pick it up and resummary me so that I get the better recommendations"
 
 Read back taken: REFRESH-RESUMMARY - the REFRESH line each running work receives also asks it to send every open medium- or low-confidence query, including those already with Kris, through one blind review run, then give Kris a fresh Summary with the reviewed recommendations. Applied by amending query-review's REFRESH lines when it finishes, before Kris nudges the works that are with him.
+
+## 2026-10-19 19:20 BST - received query-review; REFRESH-RESUMMARY applied
+
+query-review put QUERY-REVIEW into the `ki-coordination` standard and output style (harness `b04d0e72`, pushed; new rubric item COORD-13) and REFRESH lines into all nine queues; the hook line is unchanged for length (query HOOK-REVIEW-CLAUSE, medium, sent to blind review as hook-clause-review on Codex under the new rule). Each REFRESH line now also carries REFRESH-RESUMMARY.
