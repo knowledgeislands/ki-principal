@@ -23,7 +23,9 @@ method_read: 2026-10-19T18:03:40Z
 - `raise-va` received 00:15 BST: VA-PRINCIPAL-GOV-007 and VA-PRINCIPAL-GOV-008 captured and committed in va-principal, unpushed.
 - `sizekind-1` received 00:16 BST: proposals for 129 sizes and 21 kinds across 12 repositories, tables kept in `report-sizekind-1.md`; SIZEKIND-CONFIRM-1 and SPLIT-5GE-004 copied.
 - `va-site003-concern` received 00:17 BST: [VA-WEBSITE-SITE-005](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SITE-005-guard-sanctuary-style-tokens.md) captured as triage and cited from SITE-003, which stays awaiting review; committed `4a8ba36` and `f9733f2` in apps-vallearmonia.com, unpushed; no queries.
-- Running in run `baseline-rollout`: `sizekind-2`; then one batched blind review of every medium query. Records are captured as triage and committed locally, never pushed.
+- `sizekind-2` received 00:19 BST: proposals for 61 sizes and 40 kinds across six repositories, tables kept in `report-sizekind-2.md`; SIZEKIND-CONFIRM-2 and ICO-DATE copied.
+- Kris, 00:28 BST: overnight autonomy, checks every 10 minutes, high-confidence options carried out.
+- Running in run `baseline-rollout`: `review-naming`, `review-themes`, `review-plans-sizes`, blind reviews of the 15 open queries. Records are captured as triage and committed locally, never pushed.
 - HOOKS-MIGRATION: the estate moves from Husky to `.githooks` tonight; briefs keep off `package.json`, `bun.lock`, `.husky/`, `.githooks/` and non-dry-run conform.
 
 ## Next steps

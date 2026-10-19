@@ -20,3 +20,7 @@
 ## 2026-10-20 - REGISTER-HNR
 
 - Kris, 00:12 BST: "REGISTER-HNR - no, these stay outside of KI", taken as option b): hnr-backend, hnr-frontend and hnr-benchmarks stay outside the territory, unregistered and with no KI baseline; recording the exclusion in Known Lands is routed to hnr-principal's own work, which owns it.
+
+## 2026-10-20 - overnight autonomy
+
+- Kris, 00:28 BST: "I'm going to bed now. I want you to keep looking every 10 minutes to see if there's any new work for yourself in some way. And if there is, I want you to progress it. You can do anything on a high confidence level that you recommend. If you can get a good recommendation, you can move on to the next one, and as you do more and work, it might be that when you come back to ones that you couldn't get a good recommendation for, it might be more accurate. We've got autonomy to make this happen, so I'm going to leave you with this in your safe hands." Taken as: check every 10 minutes for new work (finished runs, `messages.md` lines, held items whose condition has cleared); carry out every option at high confidence, including one lifted to high by an agreeing blind review, with the repository writes it names, committed locally and never pushed; revisit queries still at medium or low as later results come in; leave the rest for Kris. Standing limits stay: no push, no `ki repo conform` without `--dry-run` while ki.tools-burndown holds it, no `package.json`, `bun.lock`, `.husky/` or `.githooks/` changes.

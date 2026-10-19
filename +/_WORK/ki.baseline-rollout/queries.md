@@ -158,6 +158,36 @@ since 2026-10-20 · from `sizekind-1` at 00:15 BST · tables in `report-sizekind
 
 **Options:** a) (recommended, confidence medium - the scope plainly spans several deliveries, but the split is hnr-principal's call) Record `size: xl` now and leave the split to hnr-principal's triage review. b) Record `size: l` and treat it as one chained delivery.
 
+### SIZEKIND-CONFIRM-2 - Confirm the size and kind proposals for Equal Remedy, Valle Armonia and Techmedix
+
+since 2026-10-20 · from `sizekind-2` at 00:19 BST · tables in `report-sizekind-2.md` · awaiting blind review
+
+**Context:** The tables above propose 61 sizes and 40 kinds across six repositories. Each row carries its own confidence. 57 rows are high or medium and rest on the record text and the standard's shapes. The 4 low rows (ER-PRINCIPAL-004, VA-WEBSITE-MEM-001, VA-WEBSITE-WEB-001 and TMX-PRINCIPAL-KB-003) are flagged as needing investigation. The standard says a run proposes and you confirm, one repository at a time, before a write pass. Each write pass stages one repository's records by explicit path and follows that repository's AGENTS.md.
+
+**Query:** Which proposals should the write passes apply?
+
+**Options:**
+
+a) (recommended, confidence medium - the high and medium rows follow the record text closely, and the low rows are honest guesses the standard says to investigate) Apply every high and medium row in all six repositories, one write run per repository, and leave the low rows without `size` until each record's next planning pass.
+
+b) Apply every row, low ones included, and revisit sizes before Ready as the standard already requires.
+
+c) Confirm repository by repository, starting with the largest, er-agentic-harness.
+
+### ICO-DATE - TechMedix's ICO registration may already have lapsed
+
+since 2026-10-20 · from `sizekind-2` at 00:19 BST · tables in `report-sizekind-2.md` · awaiting blind review
+
+**Context:** [TMX-PRINCIPAL-CO-006](/Users/krisbrown/workspaces/techmedix/tmx-principal/Streams/Roadmap/TMX-PRINCIPAL-CO-006-resolve-ico-data-protection-fee.md) is unadopted triage. It records renewal coverage through 16 October 2026, an unpaid reminder dated 16 September, and a goal of avoiding "a registration lapse or a duplicate payment". Today is 20 October, four days after that coverage date. This run cannot see whether anything has been paid. Adoption and priority belong to TechMedix's Capital, not to this rollout.
+
+**Query:** Should the ICO question be raised with TechMedix's Capital now, outside the size and kind backfill?
+
+**Options:**
+
+a) (recommended, confidence medium - the date has passed on the record's own evidence, but payment may have happened outside the repository) Route one line to the TechMedix master thread's `messages.md` asking it to check the registration status and consider adopting the record at `high` priority.
+
+b) Leave it as triage with size `s` and let TechMedix pick it up in its own time.
+
 ## Parked
 
 None.
