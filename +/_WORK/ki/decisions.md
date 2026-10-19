@@ -154,3 +154,10 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 - **WOW-RESUME a)**, taken under PROGRESS-ALL and OVERNIGHT: with no ways-of-working session open, `wow-triage` is dispatched as that package's worker.
 - 00:31 BST: `gov035-accept` received. KI-PRINCIPAL-GOV-035 is accepted and done (`a54cd931`), and KI-PRINCIPAL-MOD-008 is released to next. Links are clean. `agent-host-resume` dispatched. Note: State of play's OVERNIGHT entry and briefs were taken into ki.timelines' commit `e0489e42` during a lock race. Nothing was lost.
 - 00:32 BST: `wow-triage` received. It was overtaken: Kris resumed ki.ways-of-working at 00:23 BST, and that package's own `lane-triage` holds the triage, GOV-219 and GOV-224 delivery and GOV-215's release (COORD-12 is met in all eight Capitals). WOW-RESUME is recorded there (`187a557c`). NO-GATE and GFM-HOSTING-RULES (CI defines `build`, the bypass is by design, and the harness `.ki.toml` does not declare `branch-protection`) are in that package's queries, so its coordinator owns them.
+- 00:41 BST: `agent-host-resume` received.
+  - ki.agent-host is with worker (`8db17750`).
+  - Links fixed: ki-techne-harness `88cdf8a`, tools-techne `6853796`.
+  - Holds: KI-TOOL-TECHNE-CLI-006 is released to next (`e7dc018`), and KB-DOTFILES-UE-084 to soon (chezmoi `b6e0cb2`). KI-TECHNE-OPS-018 and KI-TECHNE-OPS-024 stay held (`9366496`).
+  - Queries: CLI006-PLAN a) is high and taken under OVERNIGHT, so `cli006-replan` is dispatched. CHAIN-GATE and CLI125-HOLD are medium, so they go to `query-review-6` (Codex, high).
+  - Note: the run amended its own unpushed commits to correct their `updated_at` stamps.
+- 00:41 BST: HANDOFF-GOV-222 from ki.timelines routed to ki.ways-of-working, which holds the harness roadmap. Line removed.

@@ -1,3 +1,4 @@
 # ki.ways-of-working messages
 
 - 2026-10-20 · UE096-BLOCKER done · KI > Rig > chezmoi: agreed; [KB-DOTFILES-UE-096](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-096-thread-identity-hook-registration.md) already names [KI-TOOL-KI-CLI-145](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-145-thread-session-bindings-role.md) as its blocker and is at Soon (chezmoi `e47b33d`, unpushed). No reply needed.
+- 2026-10-20 00:41 BST · from ki (State of play), routed from ki.timelines · HANDOFF-GOV-222: the decided Timelines design has a ready handoff for KI-HARNESS-GOV-222 in the last section of /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.timelines/design/timelines-skill-design.md. It moves the record to `project: timelines` and gives Context, Boundary, Shaping, Dependencies and Verify text. The harness owns its priority and plan. It is not blocking; the skill name (SKILL-NAME) is still with Kris.
