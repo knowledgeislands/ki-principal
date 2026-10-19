@@ -163,3 +163,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 144 (2026-10-19T23:48:00Z)
 
 - Pointer: RIGDOC-DETAIL a), taken under OVERNIGHT with confidence high after blind review: the bring-up check keeps `rig doctor`'s exit codes, and structured JSON counts are looked at in KB-DOTFILES-UE-090 round 3, because doctor's JSON groups prose findings rather than typed counts ([ue090-r1](/Users/krisbrown/.local/state/ki/agents/chezmoi/ue090-r1.report.md), [r1-review](/Users/krisbrown/.local/state/ki/agents/chezmoi/r1-review.report.md)). Round 1's gate failed on two defects (runtime declaration coverage, unbounded zero timeout); run ue090-r1b fixes them before a re-review.
+
+## Decision 145 (2026-10-19T23:50:00Z)
+
+- Pointer: RIG-DRIFT a), taken under OVERNIGHT with confidence high after blind review: no overnight remediation of Sol's four `rig doctor` findings. When Kris is back: review and apply the TOML handler (Warp where Zed is declared); re-apply the firewall anchor's narrowed tailnet ranges (KI-TOOL-RIG-CORE-047's range correction) as a separate attended run with its tested restore path, minding KI-TOOL-RIG-CORE-068; review UTM's source by hand, as it has no App Store receipt ([cpin](/Users/krisbrown/.local/state/ki/agents/chezmoi/cpin.report.md), [rigdrift-blind](/Users/krisbrown/.local/state/ki/agents/chezmoi/rigdrift-blind.report.md)).
