@@ -4,7 +4,7 @@ state: with-worker
 since: 2026-10-19T18:56:48Z
 received: null
 beat: null
-mark: 2026-10-19T18:02:56Z
+mark: 2026-10-19T19:10:00Z
 method_read: 979e075a
 ---
 
@@ -12,7 +12,7 @@ method_read: 979e075a
 
 ## Now
 
-- With worker since 19:48 BST on 19 October; marked at 19:02 BST.
+- With worker since 19:48 BST on 19 October; marked at 20:10 BST.
 - Running: rig-dock, then carry-directions, chained in the chezmoi source. Done: mgit-apply (`_mgit` live and verified) and triage-cut (UE-095 merged into UE-090, UE-096 on Hold; 19 open).
 - With Kris: nothing. The `[locals]` migration is closed with no apply left.
 

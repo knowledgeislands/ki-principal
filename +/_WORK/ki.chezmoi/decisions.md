@@ -28,12 +28,6 @@ Check Sol’s KI version, record doctor/diag and existing paths, then run ki boo
 
 Stop on unexpected differences. Once Sol passes, prepare removal of [locals] from the shared chezmoi source, show Kris the diff, and wait for explicit apply approval. Commit by explicit path; never push.
 
-## Decision 100 (2026-10-19T18:13:48Z)
-
-home: +/_WORK/ki.chezmoi/work.md class: operational
-
-- BURNDOWN-PUSH, Kris's agreement routed from KI > Model > Ways of working on 19 October: "prune every record that is done under `ki-work-roadmap`; bring every record awaiting review to Kris as one acceptance batch; and cancel or merge triage records, aiming for at least half, each with a one-line reason, for Kris to confirm before anything is cancelled." Run burndown-push found nothing to prune or accept; TRIAGE-CUT carries the proposals.
-
 ## Decision 101 (2026-10-19T18:56:48Z)
 
 home: +/_WORK/ki.chezmoi/work.md class: operational
@@ -41,3 +35,11 @@ home: +/_WORK/ki.chezmoi/work.md class: operational
 - It can do anything that's high confidence.
 
 Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal intentional, no `[locals]` apply remains), MGIT-APPLY, TRIAGE-CUT, RIG-LIVE-DELIVER and CARRY-DIRECTIONS.
+
+## Decision 102 (2026-10-19T19:10:57Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- You can take a mark since the last update that you gave me, so next time the summary gives me what I need to know.
+
+Read back as: mark at 2026-10-19T19:10:00Z, the 20:10 BST update.
