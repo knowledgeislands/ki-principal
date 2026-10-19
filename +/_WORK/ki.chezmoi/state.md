@@ -13,8 +13,8 @@ method_read: 979e075a
 ## Now
 
 - With worker since 20:31 BST on 19 October; marked at 20:10 BST.
-- Running: apply-carry (five Rig targets, Sol then Terra), then firewall-rehearse (Terra restore rehearsal over SSH, then the declaration).
-- With Kris: nothing yet; either run may hand back an attended `sudo` step.
+- Running: apply-terra (five Rig targets and the Dock on Terra, TOML left out). Done on Sol: Dock and Paperclip applied; the TOML handler fails in tools-rig, sent to ki.mac-studio-setup as TOML-HANDLER.
+- With Kris: RIG-FIREWALL-RUN, the attended Terra rehearsal.
 
 ## Next steps
 

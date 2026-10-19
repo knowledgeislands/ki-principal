@@ -51,3 +51,9 @@ home: +/_WORK/ki.chezmoi/work.md class: operational
 - go ahead with the 2 recommendsations.
 
 Read back as option a) of APPLY-CARRY and of RIG-FIREWALL-REHEARSE, including pushing this work's chezmoi source commits so terra can pull.
+
+## Decision 104 (2026-10-19T19:53:54Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- TOML-HANDLER, reviewed a) high, narrows Kris's APPLY-CARRY go-ahead of 20:30 BST: carry Terra without the TOML target, route the dynamic-type fallback to tools-rig through ki.mac-studio-setup, and accept the TOML drift finding on both Macs until it lands. No new owner authority taken.
