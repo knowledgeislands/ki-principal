@@ -1,7 +1,7 @@
 ---
 id: ki.timelines
-state: with-worker
-since: 2026-10-19T23:40:58Z
+state: handoff-to-supervisor
+since: 2026-10-19T23:43:12Z
 received: 2026-10-19T22:26:30Z
 beat: null
 method_read: 84b61942
@@ -11,19 +11,15 @@ method_read: 84b61942
 
 ## Now
 
-- Kris is away overnight under OVERNIGHT-AUTONOMY (`decisions.md`): high-confidence recommendations are taken, the rest held.
-- The [merged report](design/timelines-skill-report.md) is in, built on the Fable and Astra reviews; its four high-confidence queries are decided (DESIGN-HIGH).
-- tl-qreview agreed on FEED-HOME, ADOPTION-ORDER and TIMED-BUSY, now decided (DESIGN-REVIEWED); it disagrees on SKILL-NAME, held for Kris.
-- The [decided design](design/timelines-skill-design.md) and its seven-step rollout plan are written; its KI-HARNESS-GOV-222 handoff is routed to State of play (HANDOFF-GOV-222).
-- SKILL-NAME (`ki-calendars`) and PROVIDER-FIRST (Google first) decided (NAME-AND-PROVIDER); no open queries.
-- Running: tl-name, filling the name and provider into the design note; brief [tl-name.brief.md](tl-name.brief.md).
-- Last mark 19:03 BST on 19 October.
+- Marked and sent to Kris at 00:43 BST on 20 October; the design is decided under OVERNIGHT-AUTONOMY and Kris may reverse any of it.
+- The [decided design](design/timelines-skill-design.md) names `ki-calendars` and carries a seven-step rollout plan and the KI-HARNESS-GOV-222 handoff, routed through State of play (HANDOFF-GOV-222).
+- Nothing is running and no query is open; the overnight check reads `messages.md` every 10 minutes.
 
 ## Next steps
 
-1. Receive tl-name; then the work waits on Kris for rollout steps 2 and 3 (5G Emerge, legal-principal) and on the harness for KI-HARNESS-GOV-222; check `messages.md` every 10 minutes overnight.
-2. KI-HARNESS-GOV-222 still names `project: observatory`; moving it is the harness's call.
-3. legal-principal's "FR Timeline to FDR" gantt stays as Mermaid meanwhile (DIAGRAM-GANTT, ki.observatory).
+1. Kris confirms or reverses the overnight decisions (DESIGN-HIGH, DESIGN-REVIEWED, NAME-AND-PROVIDER).
+2. Rollout steps 2 and 3 run in 5G Emerge and legal-principal, outside this territory; capture their records once Kris agrees.
+3. The harness plans KI-HARNESS-GOV-222 from the handoff; step 1 builds the skill there.
 
 ## Held
 
