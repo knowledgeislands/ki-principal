@@ -120,3 +120,7 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 
 - Ways of working's IMPORTANT REFRESH line (QUERY-REVIEW in the ki-coordination standard; REFRESH-RESUMMARY, Kris 19 October: "I want the other threads to pick it up and resummary me so that I get the better recommendations") is acted on: `query-review` dispatched under Codex at high effort as one blind review of the six medium-confidence queries (REVIEW-HOLD, HOMELESS-STANDING, MODEL-FALLBACK, PILOT-SEED-HOME, THREADS-CHECKINS, RIG-FULLSCREEN); CHEZMOI-CARRY and LIVE-MAN-SWITCH are high and not destructive. A fresh Summary follows its report. Line removed.
 - 19:45 BST: `query-review-2` received. Agrees on REVIEW-HOLD, PILOT-SEED-HOME and RIG-FULLSCREEN; disagrees on HOMELESS-STANDING, MODEL-FALLBACK and THREADS-CHECKINS. queries.md carries the reviewed queries. Limitation: the run read queries.md and the review-hold report, so it saw the recommendations and was not fully blind.
+
+## 2026-10-19 23:08 BST - ROADMAP-GROWTH
+
+- **ROADMAP-GROWTH:** "the roadmap keep growing, I need to get this sorted, help me get there". Taken as: measure the territory's roadmaps and their inflow and closure, diagnose the growth, and bring Kris a burn-down plan with a few decisions. Dispatched `roadmap-census`, read-only; no record is changed until Kris decides.
