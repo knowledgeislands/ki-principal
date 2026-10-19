@@ -1,7 +1,7 @@
 ---
 id: ki.observatory
-state: handoff-to-supervisor
-since: 2026-10-19T22:46:00Z
+state: with-worker
+since: 2026-10-19T22:50:00Z
 received: 2026-10-19T22:45:00Z
 beat: null
 mark: 2026-10-19T21:50:00Z
@@ -12,6 +12,7 @@ method_read: 84b61942
 
 ## Now
 
+- Kris answered the triage batch at 23:50 BST (TRIAGE-ANSWERS); running obs-triage-apply, then builds chained one at a time: VIS-043, BRG-006, APP-045, VIS-044, BRG-005.
 - Sent the reviewed triage batch to Kris at 23:46 BST: obs-triage-review (Codex, high) agreed on three queries and disagreed on TRIAGE-NOW's way-in field; obs-vis031-pins pinned four links to the pruned KI-OBSERVA-VIS-031 (76ffaa8).
 - With worker after WORKERS-HOME a); received obs-workers-record at 23:21 BST (KI-OBSERVA-VIS-045 Workers instrument captured, 24c4bd8; fa16595 had pruned APP-042, BCN-008, BRG-002, INT-004, VIS-023, VIS-024, leaving seven unpinned links); received obs-triage at 23:45 BST (19 triage records shaped and grouped, caa4d63; batch queries in blind review under obs-triage-review) and obs-link-pins (b6bd1f9, audit FAIL=0; running obs-vis031-pins for the links to the pruned KI-OBSERVA-VIS-031); messages: HOOK-GUARD superseded by HOOKS-MIGRATION, HOOKS-MIGRATION needs nothing here (apps-observatory.local has no uncommitted hook paths), REFRESH-BANNER applied; received obs-vis031-accept at 23:09 BST (KI-OBSERVA-VIS-031 done, KI-OBSERVA-VIS-044 captured, 650b2a9); received obs-workers-review (agrees on WORKERS-HOME) and obs-audit-fix at 23:13 BST: the seven audit failures came from a 23:07 prune of KI-OBSERVA-APP-042 (fa16595) that left `blocked_by` entries; fixed in fc1864d, audit passes; marked at 22:50 BST.
 - Received obs-authors-review at 22:53 BST: disagrees on COMMIT-AUTHORS, preferring to reopen KI-OBSERVA-VIS-031 for authors.
@@ -23,7 +24,7 @@ method_read: 84b61942
 
 ## Next steps
 
-1. Read back Kris's triage answers in decisions.md, then set horizons by hand and launch the Ready builds one record at a time.
+1. Receive obs-triage-apply and the five builds in turn; bring each built record to Kris for acceptance.
 2. Four triage records await a later merge decision: KI-OBSERVA-VIS-029, KI-OBSERVA-VIS-032, KI-OBSERVA-VIS-033, KI-OBSERVA-VIS-034.
 3. `ki work status` (installed `ki` 0.11.4) is blind to five-file packages until ki.tools-burndown changes the tools-ki reader.
 4. Each design convergence step needs Kris's go (DESIGN-APPLY); the design thread's answers come back through ki-design's `-/observatory-handoff/`.
