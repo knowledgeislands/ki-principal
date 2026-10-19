@@ -27,7 +27,7 @@ Amend the staging wording of [[ADR-KI-PRINCIPAL-001-provider-neutral-knowledge-a
 
 The ADR's decision says `ki acquire import --adapter <provider>` stages material in the receiving island's `+` Harbour. Granola captures now stage in the shared private `acquire` repository, where `captures/<territory>/granola/` holds each capture and `.acquire/granola/ledger.json` holds the checkpoint state; the 2026-10-10 consolidation retired the per-island Harbour staging, including this island's `+/_ACQUIRE/granola/`. The six-stage model (discover, acquire, stage, harvest, durable knowledge, archive or delete source) still holds, so this is wording drift, not a contradiction.
 
-[[KI-PRINCIPAL-MOD-006-knowledge-acquisition-lifecycle|KI-PRINCIPAL-MOD-006]] found the mismatch and, as its record instructed, left the ADR unchanged. Kris decided on 2026-10-17 (ADR-HARBOUR): "Capture a small follow-up record to amend ADR-KI-PRINCIPAL-001's staging wording to match acquire." The evidence is in the Acquisition Process note delivered by that record and in the `acquire` ledger and migration manifest it cites.
+[KI-PRINCIPAL-MOD-006 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/37b5f55/Streams/Roadmap/KI-PRINCIPAL-MOD-006-knowledge-acquisition-lifecycle.md) found the mismatch and, as its record instructed, left the ADR unchanged. Kris decided on 2026-10-17 (ADR-HARBOUR): "Capture a small follow-up record to amend ADR-KI-PRINCIPAL-001's staging wording to match acquire." The evidence is in the Acquisition Process note delivered by that record and in the `acquire` ledger and migration manifest it cites.
 
 ## Boundary
 
