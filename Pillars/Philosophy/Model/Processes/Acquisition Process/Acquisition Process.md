@@ -22,6 +22,11 @@ Acquisition is not session archiving. A source is visible because it holds trans
 
 Acquire is the capability called ports: acquire is the port, with one port of entry per source, in the sense of [[GDR-KI-PRINCIPAL-010-the-port|GDR-KI-PRINCIPAL-010]]. It is the single point where material enters the territories and leaves again for the island that should have it. Material goes into acquire and out of it in a coordinated form, in six steps. "Harbour" is the port's [[Pillars/Philosophy/Realisation/Arcadia/Arcadia|Arcadian]] register, the romantic, historical way of seeing it, because shipping carried things between islands.
 
+![How material enters an island through the acquire port](acquisition-flow.svg)
+
+<details>
+<summary>Earlier Mermaid diagram, kept until the Archify diagram above is signed off. The Archify diagram is a plain light export and will be re-exported in the KI theme once KI-HARNESS-GOV-205 lands.</summary>
+
 ```mermaid
 flowchart LR
   S["Sources<br/>AI sessions, meetings,<br/>messages, voice, images"] --> D["Drops<br/>holding folders, exports"]
@@ -36,6 +41,8 @@ flowchart LR
   P --> X["6. Retirement<br/>receipt and fingerprints kept"]
   T -->|not about this island| I
 ```
+
+</details>
 
 - **Sources and drops.** Material is born at a source: an AI session, a meeting, a message, a voice note, a photo. Where it cannot be read directly, Kris drops it in a holding place to wait for intake. A drop is not yet acquired.
 - **1. Intake.** Acquire receives the material faithfully, verifies it and writes a receipt. It decides nothing about meaning.

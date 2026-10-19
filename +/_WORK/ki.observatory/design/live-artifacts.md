@@ -197,6 +197,11 @@ c) **A registry in the Observatory's own configuration.** Cost: quickest to star
 
 ## Diagram
 
+![Live artifacts as Observatory extensions, inbound half](live-artifacts/extension-model.svg)
+
+<details>
+<summary>Earlier Mermaid diagram, kept until the Archify diagram above is signed off. The Archify diagram is a plain light export and will be re-exported in the KI theme once KI-HARNESS-GOV-205 lands.</summary>
+
 ```mermaid
 flowchart LR
   subgraph OWN["Owning repositories - each extension stays its own"]
@@ -238,6 +243,8 @@ flowchart LR
   REP -.->|"links to"| GA
 ```
 
+</details>
+
 Solid arrows are the order's steps, numbered by order; dotted arrows are links, not data. The Beacon takes signals from Instruments only, never from an extension.
 
-Pending DIAGRAM-STANDARD: this diagram predates EXT-MODEL and shows the inbound half only. Under NO-MERMAID it is left as it is, and the two-way bridge and the Git view are not drawn until the diagram standard is settled.
+This diagram predates EXT-MODEL and shows the inbound half only. It was redrawn in Archify under DIAGRAM-REPLACE on 19 October 2026, meaning for meaning; the outbound half of the two-way bridge and the Git view are still to draw.

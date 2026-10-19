@@ -1,0 +1,274 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "Acquisition Process · how material enters an island",
+    "output": "acquisition-flow.html",
+    "quality_profile": "showcase",
+    "locale": "en",
+    "repository": {
+      "url": "https://github.com/knowledgeislands/ki-principal",
+      "provider": "github",
+      "link_mode": "web",
+      "revision": "01e51118c24889c00220fb2646dc701ba4b298fd"
+    },
+    "legend": {
+      "mode": "all",
+      "entries": {
+        "external": {
+          "label": "Outside the port"
+        },
+        "backend": {
+          "label": "Acquire port step"
+        },
+        "security": {
+          "label": "Kris decides"
+        },
+        "frontend": {
+          "label": "Receiving island step"
+        },
+        "database": {
+          "label": "Retired, receipt kept"
+        },
+        "cloud": {
+          "visible": false
+        },
+        "messagebus": {
+          "visible": false
+        }
+      }
+    }
+  },
+  "lanes": [
+    {
+      "id": "outside",
+      "label": "Sources"
+    },
+    {
+      "id": "port",
+      "label": "Acquire port"
+    },
+    {
+      "id": "kris",
+      "label": "Kris",
+      "variant": "exception"
+    },
+    {
+      "id": "island",
+      "label": "Receiving island"
+    }
+  ],
+  "mainPath": [
+    "sources",
+    "intake",
+    "sorting",
+    "dispatch",
+    "triage",
+    "filing"
+  ],
+  "nodes": [
+    {
+      "id": "sources",
+      "lane": "outside",
+      "col": 0,
+      "type": "external",
+      "label": "Sources: AI sessions",
+      "sublabel": "meetings, messages, voice, images",
+      "sources": [
+        {
+          "path": "Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md",
+          "line": 40
+        }
+      ]
+    },
+    {
+      "id": "drops",
+      "lane": "outside",
+      "col": 1,
+      "type": "external",
+      "label": "Drops",
+      "sublabel": "holding folders, exports",
+      "sources": [
+        {
+          "path": "Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md",
+          "line": 40
+        }
+      ]
+    },
+    {
+      "id": "intake",
+      "lane": "port",
+      "col": 2,
+      "type": "backend",
+      "label": "1. Intake",
+      "sublabel": "receive, verify, receipt",
+      "sources": [
+        {
+          "path": "Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md",
+          "line": 41
+        }
+      ]
+    },
+    {
+      "id": "sorting",
+      "lane": "port",
+      "col": 3,
+      "type": "backend",
+      "label": "2. Sorting",
+      "sublabel": "who should have it",
+      "sources": [
+        {
+          "path": "Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md",
+          "line": 42
+        }
+      ]
+    },
+    {
+      "id": "kris",
+      "lane": "kris",
+      "col": 3,
+      "type": "security",
+      "label": "Kris decides",
+      "sublabel": "when sorting is unsure",
+      "sources": [
+        {
+          "path": "Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md",
+          "line": 42
+        }
+      ]
+    },
+    {
+      "id": "dispatch",
+      "lane": "port",
+      "col": 4,
+      "type": "backend",
+      "label": "3. Dispatch",
+      "sublabel": "into the island's inbound area",
+      "sources": [
+        {
+          "path": "Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md",
+          "line": 43
+        }
+      ]
+    },
+    {
+      "id": "retire",
+      "lane": "port",
+      "col": 5,
+      "type": "database",
+      "label": "6. Retirement",
+      "sublabel": "receipt and fingerprints kept",
+      "sources": [
+        {
+          "path": "Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md",
+          "line": 46
+        }
+      ]
+    },
+    {
+      "id": "triage",
+      "lane": "island",
+      "col": 4,
+      "type": "frontend",
+      "label": "4. Island triage",
+      "sublabel": "file, work, park or return",
+      "sources": [
+        {
+          "path": "Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md",
+          "line": 44
+        }
+      ]
+    },
+    {
+      "id": "filing",
+      "lane": "island",
+      "col": 5,
+      "type": "frontend",
+      "label": "5. Filing and fold-back",
+      "sublabel": "under its Enactment Process",
+      "sources": [
+        {
+          "path": "Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md",
+          "line": 45
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "src-drop",
+      "from": "sources",
+      "to": "drops",
+      "label": "dropped"
+    },
+    {
+      "id": "src-intake",
+      "from": "sources",
+      "to": "intake",
+      "label": "read directly",
+      "variant": "emphasis"
+    },
+    {
+      "id": "drop-intake",
+      "from": "drops",
+      "to": "intake"
+    },
+    {
+      "id": "intake-sort",
+      "from": "intake",
+      "to": "sorting",
+      "variant": "emphasis"
+    },
+    {
+      "id": "sort-kris",
+      "from": "sorting",
+      "to": "kris",
+      "label": "unsure",
+      "variant": "security",
+      "role": "branch"
+    },
+    {
+      "id": "kris-sort",
+      "from": "kris",
+      "to": "sorting",
+      "label": "decided",
+      "variant": "security",
+      "role": "return"
+    },
+    {
+      "id": "sort-dispatch",
+      "from": "sorting",
+      "to": "dispatch",
+      "variant": "emphasis"
+    },
+    {
+      "id": "dispatch-triage",
+      "from": "dispatch",
+      "to": "triage",
+      "label": "whole packets",
+      "variant": "emphasis"
+    },
+    {
+      "id": "dispatch-retire",
+      "from": "dispatch",
+      "to": "retire",
+      "label": "once delivered",
+      "variant": "dashed",
+      "role": "branch"
+    },
+    {
+      "id": "triage-filing",
+      "from": "triage",
+      "to": "filing",
+      "variant": "emphasis"
+    },
+    {
+      "id": "triage-return",
+      "from": "triage",
+      "to": "intake",
+      "label": "not about this island",
+      "variant": "dashed",
+      "role": "return"
+    }
+  ]
+}

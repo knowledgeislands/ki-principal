@@ -1,0 +1,431 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Live artifacts as Observatory extensions · inbound half",
+    "output": "extension-model.html",
+    "quality_profile": "showcase",
+    "locale": "en",
+    "repository": {
+      "url": "https://github.com/knowledgeislands/ki-principal",
+      "provider": "github",
+      "link_mode": "web",
+      "revision": "01e51118c24889c00220fb2646dc701ba4b298fd"
+    },
+    "legend": {
+      "mode": "all",
+      "entries": {
+        "external": {
+          "label": "Owning repository's artifact"
+        },
+        "cloud": {
+          "label": "Cowork host"
+        },
+        "backend": {
+          "label": "Observatory extension model"
+        },
+        "frontend": {
+          "label": "Observatory Instrument"
+        },
+        "messagebus": {
+          "label": "Beacon"
+        },
+        "database": {
+          "visible": false
+        },
+        "security": {
+          "visible": false
+        }
+      }
+    }
+  },
+  "components": [
+    {
+      "id": "ga",
+      "type": "external",
+      "label": "Kit Git Repo Audit",
+      "sublabel": "personal-principal",
+      "tag": "fix roots, move, manifest",
+      "pos": [
+        40,
+        40
+      ],
+      "size": [
+        320,
+        80
+      ],
+      "sources": [
+        {
+          "path": "+/_WORK/ki.observatory/design/live-artifacts.md",
+          "line": 149
+        }
+      ]
+    },
+    {
+      "id": "port",
+      "type": "external",
+      "label": "Portable now or by manifest",
+      "sublabel": "HNR Council, Activity Status, Hearing Dashboard, Command Centre",
+      "pos": [
+        40,
+        170
+      ],
+      "size": [
+        320,
+        80
+      ],
+      "sources": [
+        {
+          "path": "+/_WORK/ki.observatory/design/live-artifacts.md",
+          "line": 150,
+          "end_line": 153
+        }
+      ]
+    },
+    {
+      "id": "later",
+      "type": "external",
+      "label": "Portable after a move",
+      "sublabel": "Estate Map + Targets, HNR Streams Tracker",
+      "pos": [
+        40,
+        300
+      ],
+      "size": [
+        320,
+        80
+      ],
+      "sources": [
+        {
+          "path": "+/_WORK/ki.observatory/design/live-artifacts.md",
+          "line": 155,
+          "end_line": 156
+        }
+      ]
+    },
+    {
+      "id": "hk",
+      "type": "external",
+      "label": "Kit Claude Housekeeping",
+      "sublabel": "personal-principal",
+      "pos": [
+        40,
+        430
+      ],
+      "size": [
+        320,
+        80
+      ],
+      "sources": [
+        {
+          "path": "+/_WORK/ki.observatory/design/live-artifacts.md",
+          "line": 158
+        }
+      ]
+    },
+    {
+      "id": "cow",
+      "type": "external",
+      "label": "Cowork-only",
+      "sublabel": "Email Pulse, Architecture, Linear, Slack Digest, Week at a Glance",
+      "pos": [
+        40,
+        560
+      ],
+      "size": [
+        320,
+        80
+      ],
+      "sources": [
+        {
+          "path": "+/_WORK/ki.observatory/design/live-artifacts.md",
+          "line": 159
+        }
+      ]
+    },
+    {
+      "id": "cw",
+      "type": "cloud",
+      "label": "Cowork",
+      "sublabel": "Claude Desktop",
+      "pos": [
+        40,
+        720
+      ],
+      "size": [
+        320,
+        64
+      ],
+      "sources": [
+        {
+          "path": "+/_WORK/ki.observatory/design/live-artifacts.md",
+          "line": 149
+        }
+      ]
+    },
+    {
+      "id": "model",
+      "type": "backend",
+      "label": "Extension model",
+      "sublabel": "manifest keys, Extended by, tokens, navigation",
+      "pos": [
+        550,
+        280
+      ],
+      "size": [
+        260,
+        110
+      ],
+      "sources": [
+        {
+          "path": "+/_WORK/ki.observatory/design/live-artifacts.md",
+          "line": 154
+        }
+      ]
+    },
+    {
+      "id": "rep",
+      "type": "frontend",
+      "label": "Repositories",
+      "pos": [
+        910,
+        40
+      ],
+      "size": [
+        180,
+        70
+      ],
+      "sources": [
+        {
+          "path": "+/_WORK/ki.observatory/design/live-artifacts.md",
+          "line": 149
+        }
+      ]
+    },
+    {
+      "id": "ws",
+      "type": "frontend",
+      "label": "Work, Sessions, Roadmap",
+      "sublabel": "Automation, Trade routes",
+      "pos": [
+        910,
+        160
+      ],
+      "size": [
+        180,
+        70
+      ],
+      "sources": [
+        {
+          "path": "+/_WORK/ki.observatory/design/live-artifacts.md",
+          "line": 150,
+          "end_line": 156
+        }
+      ]
+    },
+    {
+      "id": "ms",
+      "type": "frontend",
+      "label": "MCP servers",
+      "pos": [
+        910,
+        280
+      ],
+      "size": [
+        180,
+        70
+      ],
+      "sources": [
+        {
+          "path": "+/_WORK/ki.observatory/design/live-artifacts.md",
+          "line": 158
+        }
+      ]
+    },
+    {
+      "id": "art",
+      "type": "frontend",
+      "label": "Artifacts directory",
+      "pos": [
+        910,
+        565
+      ],
+      "size": [
+        180,
+        70
+      ],
+      "sources": [
+        {
+          "path": "+/_WORK/ki.observatory/design/live-artifacts.md",
+          "line": 152
+        }
+      ]
+    },
+    {
+      "id": "bea",
+      "type": "messagebus",
+      "label": "Beacon",
+      "sublabel": "Instrument signals only",
+      "pos": [
+        910,
+        410
+      ],
+      "size": [
+        180,
+        70
+      ],
+      "sources": [
+        {
+          "path": "+/_WORK/ki.observatory/design/live-artifacts.md",
+          "line": 241
+        }
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "region",
+      "label": "Owning repositories - each extension stays its own",
+      "wraps": [
+        "ga",
+        "port",
+        "later",
+        "hk",
+        "cow"
+      ]
+    },
+    {
+      "kind": "region",
+      "label": "Observatory - apps-observatory.local",
+      "wraps": [
+        "model",
+        "rep",
+        "ws",
+        "ms",
+        "art",
+        "bea"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "port-model",
+      "from": "port",
+      "to": "model",
+      "label": "1 manifest, portable reads",
+      "variant": "emphasis"
+    },
+    {
+      "id": "later-model",
+      "from": "later",
+      "to": "model",
+      "label": "3 move, portable reads",
+      "variant": "emphasis"
+    },
+    {
+      "id": "ga-model",
+      "from": "ga",
+      "to": "model",
+      "label": "4 mcp-git-audit read port",
+      "variant": "emphasis"
+    },
+    {
+      "id": "hk-model",
+      "from": "hk",
+      "to": "model",
+      "label": "5 housekeeping read port",
+      "variant": "emphasis"
+    },
+    {
+      "id": "ga-cw",
+      "from": "ga",
+      "to": "cw",
+      "label": "1 runs in",
+      "fromSide": "left",
+      "toSide": "left",
+      "via": [
+        [
+          18,
+          80
+        ],
+        [
+          18,
+          752
+        ]
+      ]
+    },
+    {
+      "id": "cow-cw",
+      "from": "cow",
+      "to": "cw",
+      "label": "6 runs in"
+    },
+    {
+      "id": "cow-art",
+      "from": "cow",
+      "to": "art",
+      "label": "6 listed only",
+      "variant": "dashed"
+    },
+    {
+      "id": "model-art",
+      "from": "model",
+      "to": "art"
+    },
+    {
+      "id": "model-rep",
+      "from": "model",
+      "to": "rep",
+      "label": "Extended by"
+    },
+    {
+      "id": "model-ws",
+      "from": "model",
+      "to": "ws",
+      "label": "Extended by"
+    },
+    {
+      "id": "model-ms",
+      "from": "model",
+      "to": "ms",
+      "label": "Extended by"
+    },
+    {
+      "id": "rep-bea",
+      "from": "rep",
+      "to": "bea",
+      "fromSide": "right",
+      "toSide": "right"
+    },
+    {
+      "id": "ws-bea",
+      "from": "ws",
+      "to": "bea",
+      "fromSide": "right",
+      "toSide": "right"
+    },
+    {
+      "id": "ms-bea",
+      "from": "ms",
+      "to": "bea"
+    },
+    {
+      "id": "rep-ga",
+      "from": "rep",
+      "to": "ga",
+      "label": "links to",
+      "variant": "dashed"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "Reading it",
+      "items": [
+        "Solid arrows are the order's steps, numbered by order",
+        "Dashed arrows are links, not data",
+        "The Beacon takes signals from Instruments only, never from an extension"
+      ]
+    }
+  ]
+}
