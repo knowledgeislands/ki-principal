@@ -107,3 +107,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 130 (2026-10-19T22:19:39Z)
 
 - Pointer: REST-HOLD a), taken under Kris's standing authority for high-confidence work ("It can do anything that's high confidence"). The hold is narrowed to UE-090 gap 1 together with UE-087. The other open UE-090 gaps go to `ki-plan` (run ue090-plan, after parked-three). CORE-042's acceptance goes to Kris, with the Dock evidence from both Macs ([rest-hold-check](/Users/krisbrown/.local/state/ki/agents/chezmoi/rest-hold-check.report.md)).
+
+## Decision 131 (2026-10-19T22:27:44Z)
+
+- Pointer: ACCEPT-047 a), taken under Kris's standing authority for high-confidence work ("It can do anything that's high confidence"). KI-TOOL-RIG-CORE-047 stays awaiting-review: the record still lists the NordVPN on/off checks and `rig apply --sudo` on Terra as outstanding, so acceptance waits for them ([accept-047](/Users/krisbrown/.local/state/ki/agents/chezmoi/accept-047.report.md)). Narrowing the scope instead (option b) is left to Kris.
