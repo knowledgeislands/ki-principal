@@ -22,7 +22,7 @@ method_read: f4d6c521
 
 ## Next steps
 
-1. OVERNIGHT: receive ue100-sol, ue090-r1 (KB-DOTFILES-UE-090 round 1, source-only) and cpin-blind (CMIGRATE-PIN). cmigrate delivered chezmoi `82cc247` (mgit push template managed; completions and manifests already current). The RAT-* batch waits for Kris.
+1. OVERNIGHT: receive ue100-sol, ue090-r1 (KB-DOTFILES-UE-090 round 1, source-only) and cpin (CMIGRATE-PIN a), source-only pin to mgit v0.18.0). cmigrate delivered chezmoi `82cc247` (mgit push template managed; completions and manifests already current). The RAT-* batch waits for Kris.
 2. CONSUMER-MIGRATE: mgit v0.18.0 is released; check what migration this work owes.
 3. Sol's chezmoi commits reach Terra only after a push, which is Kris's call.
 
