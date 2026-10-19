@@ -59,3 +59,9 @@ Taken as: GIT-HOOKS a), committed `.githooks` holding all hook content in every 
 ## 19 October, 22:08 BST - SYNC-SUMMARY
 
 Kris: "mgit sync could do with a better summary", with a run where ki-agentic-harness was skipped for local changes while 5 commits ahead, ki-principal pushed 1 commit and 55 were in sync. Taken as: capture a tools-mgit triage record for a clearer closing summary of `mgit sync`.
+
+## 19 October, 22:11 BST - Summary of 22:04 answered
+
+Kris: "I agree with the recommendations. You may think though that perhaps given the usefulness of githooks that we should add some mechanical checks for this in the audit. I think that's actually a massive area that we need to go back and look at anyway, but that's probably something to pass up to the state of play. We need to do that whole proper audit and checking of skills and everything. There's a massive conformance piece if we ever get to the point of getting this roadmap down to something sensible."
+
+Taken as: COMMIT-MSG a), a `ki git check-message` command for `.githooks/commit-msg`, pre-commit only until it ships; ROLLOUT-AUTHORITY a), one owner grant per wave, runs commit by explicit path locally and Kris pushes; HOOK-AUDIT, mechanical hooks checks join this work's rubric change; AUDIT-CONFORMANCE, the estate-wide audit and conformance of skills passed to State of play's messages.md.

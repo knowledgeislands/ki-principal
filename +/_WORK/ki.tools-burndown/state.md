@@ -11,6 +11,7 @@ method_read: 9c17df3c
 
 ## Now
 
+- 22:11 BST: COMMIT-MSG a), ROLLOUT-AUTHORITY a), HOOK-AUDIT taken; hooksv2 launched (design for the decided shape, mechanical audit checks, tools-ki check-message record). AUDIT-CONFORMANCE sent to State of play. Rollout waves need Kris's grant per wave.
 - 22:08 BST: SYNC-SUMMARY taken; syncsum launched in tools-mgit. COMMIT-MSG and ROLLOUT-AUTHORITY still with Kris.
 - routeview finished: KI-TOOL-KI-CLI-160 captured at triage in tools-ki, local only. Sent to Kris with COMMIT-MSG and ROLLOUT-AUTHORITY.
 - 22:02 BST: GIT-HOOKS a) and ROUTING-VIEW a) taken; routeview launched in tools-ki. COMMIT-MSG and ROLLOUT-AUTHORITY back with Kris next.
