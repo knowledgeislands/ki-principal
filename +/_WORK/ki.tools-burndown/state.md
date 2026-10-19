@@ -11,6 +11,8 @@ method_read: 9c17df3c
 
 ## Now
 
+- kirel finished 21:47 BST: full gate green at `395060ae` with loopback allowed (qreview3's timeouts were environmental); `ki` v0.11.5 tagged, release workflow succeeded and published; ki.ways-of-working told in `fe2dda30`.
+- githooks and ghreview finished: GIT-HOOKS reviewed, high, drop Husky for committed `.githooks`; in `queries.md`.
 - 21:34 BST answers taken (decisions.md): launching kirel (ki v0.11.5), mgitgo (accept -028/-023, mgit v0.18.0), rigcap after mgitgo (tools-rig and chezmoi records), githooks then ghreview (GIT-HOOKS). Next tools-ki run after kirel: note BIOME-CI-STANDARD a) on KI-TOOL-KI-CLI-156.
 - Received from Kris at 18:58 BST on 19 October and marked; `ki-work-package` re-read and the description, Goals and Scope confirmed, Scope now carrying HOOKS-STANDARD.
 - qreview3 finished 21:32 BST: KI-RELEASE-GO review disagrees (gate not confirmed green, loopback denied in its sandbox), ROUTING-VIEW review prefers capture now; both in `queries.md`.
