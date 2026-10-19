@@ -415,3 +415,29 @@ home: +/_WORK/ki.chezmoi/work.md class: operational
 home: +/_WORK/ki.chezmoi/work.md class: operational
 
 - can you commit any of your changes please
+
+## Decision 93 (2026-10-19T06:29:20Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- can you fix your drift please
+
+## Decision 94 (2026-10-19T07:59:25Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- can you take a look at managed/unmanaged please? some need adding to `.chezmoiignore` but others might need including that are effectively not showing up because of wide rules in the ignores.
+
+one example is ~/.config/mgit/templates
+
+## Decision 95 (2026-10-19T10:08:32Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- please go ahead
+
+## Decision 96 (2026-10-19T10:10:09Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: rule
+
+- KI > SoP is back and coordinating the Knowledge Islands territory, resumed on sol at 11:05 BST on 19 October from +/_WORK/ki/work.md in /Users/krisbrown/workspaces/knowledge-islands/ki-principal. It reads your work file directly, so there is nothing to report back here. Keep your work file's front matter and next steps current at every send and commit them by explicit path. Act on your Messages section, FIRST-STEP first, and remove each line once it is done. Send anything another piece of work must act on as a dated Messages line in that work's own work file. Do not write to +/_WORK/ki/ this morning, because a restock run is rewriting it; anything for SoP goes to Kris as a Needs-tagged query instead. Push only your own commits; name anyone else's stacked commits to Kris.

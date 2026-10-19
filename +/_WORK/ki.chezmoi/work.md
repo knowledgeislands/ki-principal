@@ -8,7 +8,7 @@ worker: agent
 supervisor: owner
 state: handoff-to-supervisor
 blocking: true
-since: 2026-10-18T17:13:14Z
+since: 2026-10-19T12:53:05Z
 received: null
 beat: null
 mark: 2026-10-18T17:57:57Z
@@ -19,7 +19,7 @@ created_at: 2026-10-08T08:40:00Z
 
 ## Next steps
 
-Coverage source implementation, 19 October: Kris's "please go ahead" approved the audit's exact six-path scope. Source commit `c64ca851cb32ea24c6dd024cd290c566c3f709aa` on Sol/main adopts the five audited mGit templates and adds sixteen precise runtime ignores plus nine exact-parent/file allowlist rules. Native matcher preserves all 213 prior leaf mappings, includes all five new mappings and excludes future templates/runtime siblings; 26 exclusion and six visible-sibling fixtures passed and were removed. Full source gate completed: audit zero failures with 27 retained warnings, Node 268 passed/two skipped, Markdown passed. The fresh scripts-excluded five-file target diff is empty because live templates already equal source; source/ignore review remains necessary. Review artifacts are at `/Users/krisbrown/.local/state/ki/agents/chezmoi/coverage-implement.source.diff` and `coverage-implement.target.diff`; the run report remains in launcher state until homed. Source is committed locally only: no apply or push is authorised before review. Preserve the current mark, remaining Codex app drift, migration holds and all Messages; completion regeneration and other preference adoption remain separate. Publication handoff: reconcile Sol/main in chezmoi before using another machine; inspect unpublished ancestry, then publish only after explicit review approval.
+Coverage verified on 19 October: the agreed ignore changes and five mGit template sources are committed and present on origin/main after fresh fetch. All five live template files match source byte-for-byte and their bounded target diff is empty; no content-changing apply is needed on Sol and none was run. Review evidence remains in [the coverage implementation report](coverage-implement.report.md). Cross-host application remains separately reviewed. Source checkout is clean. The remaining Codex app-owned drift, real-host migration evidence, completion work and parked choices remain separate. Knowledge publication is held behind four inspected other-session commits; preserve their ownership and ask Kris before carrying their stack.
 
 Mark `2026-10-18T17:57:57Z` retained. Kris's 19 October instruction authorised the reviewed four-target, scripts-excluded apply and necessary declared skill-link repair. Both are complete; no source edits remain in chezmoi, and prerequisite source commits are published. Do not replay the historical failed-gate or unapproved-apply claims in retained reports.
 
