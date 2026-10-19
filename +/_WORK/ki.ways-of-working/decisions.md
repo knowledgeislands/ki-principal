@@ -283,3 +283,7 @@ Read back taken: CI-RED-MAIN a), joined with CLI-FIELDS. Authorises: harness-lin
 Kris, on `+/_WORK_REVIEW/`: "well I think state of play threads need to bring that to attention then when they come back"
 
 Read back taken: territory work (State of play) raises every item held in its territory's `+/_WORK_REVIEW/` areas as a query when it bootstraps, resumes or re-anchors, with a live-or-dead recommendation, until the area is empty. Authorises review-surface, a run after harness-link-fix: write the rule into the `ki-coordination` standard (and the rubric if it fits), and add a Messages line to each territory work whose repositories hold a `+/_WORK_REVIEW/` area today (hnr-principal, ki-agentic-harness, ki-principal, personal-principal).
+
+## 2026-10-19 18:41 BST - received harness-link-fix; CI-RED-FILES10 taken under "can you sort that please"
+
+harness-link-fix repointed the one absolute link (`ec30caaf`, on origin; 1286 tests pass). Harness CI stays red on FILES-10: `[skills.ki-acquire]` (from `8bc9d49d`) sits after `[skills.ki-trades]` in `.ki.toml`. Kris's "can you sort that please" was to get CI green, so the run's recommended a), a one-table reorder, is taken under it rather than asked again: harness-files10, chained after review-surface in the same checkout.
