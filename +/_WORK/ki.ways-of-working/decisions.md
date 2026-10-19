@@ -329,3 +329,9 @@ Read back taken: MGIT-RELEASE a), wait for Kris's KI-TOOL-MGIT-CLI-023 hands-on 
 citation-lines finished with nothing sent: 11 hits in 9 works, none a live citation; its query WORK-AREA-CITATIONS-SEND is copied into `queries.md`.
 
 RESTART-WALKTHROUGH (IMPORTANT line from the previous session): taken. citation-lines received first; Kris is walked through the restarts one at a time, each with its send line, in the order `ki`, `ki.tools-burndown`, `ki.observatory`, `ki.specifications`, `ki.chezmoi`, `ki.mac-studio-setup`, `ki.baseline-rollout`, `ki.timelines`, then acquire's intake work in its own repository, recommending a new session for each long-running one with the old one archived. The "Sol work-package rollout alignment" session is finished and can be archived. Line removed. Mark struck at 18:56 BST.
+
+## 2026-10-19 19:00 BST - owner answer, WALKTHROUGH-HOME
+
+Kris: "`KI > SoP` is done", then, asked whether the SoP session will ask for the others, "go ahead with recommendation".
+
+Read back taken: `ki` restarted. WALKTHROUGH-HOME a) - this work keeps walking Kris through the remaining eight restarts here, one send line at a time, in the RESTART-WALKTHROUGH order; nothing goes to `ki`'s queue.

@@ -17,7 +17,7 @@ method_read: eff6163b
 
 ## Next steps
 
-1. Restart walk-through with Kris, one at a time: `ki` (raises REVIEW-HOLD), `ki.tools-burndown` (KI-PATCH-RELEASE ask), `ki.observatory`, `ki.specifications`, `ki.chezmoi`, `ki.mac-studio-setup`, `ki.baseline-rollout`, `ki.timelines`, then acquire's intake work in its own repository.
+1. Restart walk-through with Kris, one at a time (`ki` restarted 18:58 BST): `ki.tools-burndown` (KI-PATCH-RELEASE ask), `ki.observatory`, `ki.specifications`, `ki.chezmoi`, `ki.mac-studio-setup`, `ki.baseline-rollout`, `ki.timelines`, then acquire's intake work in its own repository.
 2. WORK-AREA-CITATIONS-SEND: on Kris's answer, close or send the lines.
 3. With ki.tools-burndown: patch release with KI-TOOL-KI-CLI-155 and the harness pin, then this work moves `.github/ki-version`; HOOKS-STANDARD; `ki work status` reading both shapes (`messages.md` line `527d1a91`); VALIDATOR-PARITY, KI-TOOL-KI-CLI-155 and KI-TOOL-KI-CLI-156.
 4. With ki.observatory (`messages.md` line `5763aed5`): the Observatory reads both shapes.
