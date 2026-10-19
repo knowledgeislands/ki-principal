@@ -87,3 +87,11 @@ home: +/_WORK/ki.chezmoi/work.md class: operational
 - no I use NorvVPN on terra really
 
 Read back as: NordVPN is used on Terra, not Sol. The NordVPN-and-anchor interaction in KI-TOOL-RIG-CORE-047 therefore matters on Terra, the laptop; add that at receipt of sol-preflight-2. Whether Sol keeps NordVPN installed is a later Rig lifecycle question, not taken up now.
+
+## Decision 117 (2026-10-19T21:27:50Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- yes
+
+Read back as: after Sol's apply, write a read-only Terra check for Kris to run with NordVPN connected (root ruleset, whether the Screen Sharing anchor is still evaluated, reachability from tailnet and LAN); its result decides whether the fix lies in Rig (KI-TOOL-RIG-CORE-047) or a NordVPN setting.
