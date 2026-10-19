@@ -1,0 +1,5 @@
+# release2 - finish the ki v0.12.0 release
+
+Continue from the release run's report (~/.local/state/ki/agents/tools-burndown/release.report.md): KI-TOOL-KI-CLI-162 and -163 are done, gate green, nothing pushed. HARNESS-PIN-FETCH a) is taken by the coordinator under Kris's release grant: download the public ki-agentic-harness codeload archive for `f4d6c521` once to compute the pin digest, commit the pin bump in its own `fix(bootstrap)` commit, prepare v0.12.0 under tools-ki's release guide and rerun the gate. Then push `main` fast-forward and the tag, start the Release workflow for v0.12.0 and watch it to the end, upgrade the Homebrew `ki` and check `ki --version`. The push carries this work's local tools-ki commits, tritools' triage included; if `main` carries any commit not from this work, stop and report it instead of pushing.
+
+Authority: Kris, 19 October, "Happy for you to do it now, straight off the back of this" (HOOK-RELEASE b), quoted in /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/decisions.md. Never --no-verify or force-push. Report under Done, In Progress and Queries in British English and ASCII hyphens.
