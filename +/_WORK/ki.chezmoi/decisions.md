@@ -77,3 +77,11 @@ home: +/_WORK/ki.chezmoi/work.md class: operational
 - RIG-FIREWALL-RUN are you walking me though it?
 
 Read back as option a): Kris runs the Terra rehearsal from Sol now, walked through step by step; a follow-up run records the evidence and commits the `core` declaration, no push or apply.
+
+## Decision 108 (2026-10-19T20:10:50Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- wow, terra just went black and I had to do a hard restart. / I just copied all the lines into it
+
+Read back as: the Terra rehearsal stops at step 2 and is not repeated; Terra's rules reloaded on boot; a read-only diagnosis follows, and Sol's firewall apply is held until the cause is known.
