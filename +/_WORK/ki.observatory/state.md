@@ -13,7 +13,7 @@ method_read: 2026-10-19T18:02:00Z
 ## Now
 
 - With worker since 19:46 BST on 19 October, after Kris's answers at 19:44 BST; marked at 19:02 BST.
-- Running: obs-accept (apps-observatory.local: accept four, merge seven, capture follow-ups, fold answers into records), obs-condition (harness and tools-ki maturity handoffs), obs-pies-tables (personal-principal and hnr-principal records), obs-overlay-review (blind review of the reworded OVERLAY-COMMITTED).
+- Running: obs-accept-answers (apps-observatory.local: accept four, merge seven, capture follow-ups, fold answers into records), obs-condition (harness and tools-ki maturity handoffs), obs-pies-tables (personal-principal and hnr-principal records), obs-overlay-review (blind review of the reworded OVERLAY-COMMITTED).
 - Kris pushes ki-principal and apps-observatory.local himself (PUSH-KRIS).
 - Run reports sit in `~/.local/state/ki/agents/observatory/`.
 

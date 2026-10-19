@@ -1,4 +1,4 @@
-# obs-accept - Accept, merge and record Kris's answers
+# obs-accept-answers - Accept, merge and record Kris's answers
 
 This run is for KI > Model > Observatory (`ki.observatory`) in apps-observatory.local. Kris answered on 2026-10-19 at 19:44 BST, and his words are in ki-principal `+/_WORK/ki.observatory/decisions.md` under BURNDOWN-ANSWERS, CONDITION-TOML, LARGE-SCREEN and STEP3-LATER. Kris's approval covers every step below.
 
