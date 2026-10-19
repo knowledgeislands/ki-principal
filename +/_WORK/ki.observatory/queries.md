@@ -2,21 +2,21 @@
 
 ## Open
 
-### OVERLAY-COMMITTED - Interactive button for saved viewers
+### OVERLAY-COMMITTED - Keeping saved diagram viewers in sync
 
-since 2026-10-19 · reworded after Kris asked at 19:44 BST why a saved viewer could differ from its diagram; in blind review as obs-overlay-review
+since 2026-10-19 · reworded after Kris asked at 19:44 BST why a saved viewer could differ from its diagram; reviewed by [obs-overlay-review](/Users/krisbrown/.local/state/ki/agents/observatory/obs-overlay-review.report.md)
 
-**Context:** Some Archify diagrams have their interactive viewer saved in Git rather than built on this Mac, so a saved viewer can be older than its diagram. [KI-OBSERVA-VIS-042](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-042-diagram-overlay-everywhere.md) can compare dates and flag a stale one.
+**Context:** Twelve harness diagrams, and the 5G Emerge phase 2 and 3 sites, save their interactive viewer in Git as a generated HTML file. That file is rewritten only when someone re-renders the diagram. Nothing checks it at commit or in audit, so if the source changes and nobody re-renders, the saved viewer falls behind without anyone noticing. The review found none out of step today. Two phase 2 receipts already record content hashes of source and HTML, and both match. Dates can't prove the two match, but hashes can. [KI-OBSERVA-VIS-042](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-042-diagram-overlay-everywhere.md) would add an **Interactive** button that opens these viewers.
 
-**Query:** Should the **Interactive** button open saved viewers too?
+**Query:** How should saved viewers be kept in sync, and when should the Interactive button open them?
 
 **Options:**
 
-a) (recommended, confidence medium - the harness already saves twelve) Yes, with a "may be out of date" flag.
+a) (recommended, confidence high - reviewed, hashes prove a match where dates cannot) Make sync mechanical. Rendering writes the HTML together with a receipt of the source and HTML hashes, and `ki repo audit` and the commit check fail when the receipt is missing or doesn't match. The button opens a viewer only when its receipt matches, and otherwise shows it as stale. This needs a harness record and an update to KI-OBSERVA-VIS-042.
 
-b) Yes, without a flag.
+b) Leave sync as it is, and have the button open saved viewers with a "may be out of date" flag when dates differ.
 
-c) No, only viewers built on this Mac.
+c) Open only viewers built on this Mac.
 
 ### MATURITY-SCALE - Names for the island maturity scale
 
