@@ -25,4 +25,4 @@ created_at: 2026-10-06T21:07:00Z
 ## Scope
 
 - In: owner dumps, handoffs with no owning work, cross-work items whose owner is unclear, `METHOD` lines and other method improvements, the Project-work queue and cap, territory-wide dated reviews of held records, and route lines into each work's `messages.md`.
-- Out: executing any Project's work (ki.baseline-rollout, ki.chezmoi, ki.knowledge-acquisition, ki.mac-studio-setup, ki.observatory, ki.specifications, ki.timelines, ki.tools-burndown, ki.ways-of-working); recurring and ad hoc work (ki.regular, ki.regular.registry-removal); method design (ki.ways-of-working); `ki work status` and tools-ki (ki.tools-burndown); units that already have an owner, which go to it direct.
+- Out: executing any Project's work (ki.baseline-rollout, ki.chezmoi, ki.knowledge-acquisition, ki.mac-studio-setup, ki.observatory, ki.portable-specifications, ki.timelines, ki.tools-burndown, ki.ways-of-working); recurring and ad hoc work (ki.regular, ki.regular.registry-removal); method design (ki.ways-of-working); `ki work status` and tools-ki (ki.tools-burndown); units that already have an owner, which go to it direct.

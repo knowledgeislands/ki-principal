@@ -9,7 +9,7 @@ description: >-
   preserves and dispatches knowledge. Takes acquisition lifecycle design, capture contracts and provider skills,
   intake tie-up and receipt retention, acquisition-state placement and dispatch-and-return design. Not for tools-ki
   importers (ki.tools-burndown), the Observatory (ki.observatory), chezmoi and trades (ki.chezmoi) or the acquire
-  specification (ki.specifications).
+  specification (ki.portable-specifications).
 worker: agent
 supervisor: owner
 created_at: 2026-10-08T08:35:00Z
@@ -28,4 +28,4 @@ created_at: 2026-10-08T08:35:00Z
 ## Scope
 
 - In: the acquisition model and its design notes; the common `ki-acquire` contract and provider skills; Acquire's `captures/<territory>/<source-or-ingress>/` and `context/<territory>/` layout and mirrored Git/source-store locators; intake tie-up and receipt retention; `.acquire/` state placement; the binary prototype's disposition; dispatch and return design; the KB-ACQUIRE records this Project coordinates.
-- Out: day-to-day intake in Acquire (kb.regular.acquire-intake, personal territory); tools-ki importers and `ki work status` (ki.tools-burndown); the Observatory (ki.observatory); chezmoi and the trades review (ki.chezmoi); the `acquire` specification (ki.specifications); the work model (ki.ways-of-working); the Project cap and territory dispatch (ki).
+- Out: day-to-day intake in Acquire (kb.regular.acquire-intake, personal territory); tools-ki importers and `ki work status` (ki.tools-burndown); the Observatory (ki.observatory); chezmoi and the trades review (ki.chezmoi); the `acquire` specification (ki.portable-specifications); the work model (ki.ways-of-working); the Project cap and territory dispatch (ki).

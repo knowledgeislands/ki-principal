@@ -1,8 +1,8 @@
 ---
-id: ki.specifications
+id: ki.portable-specifications
 level: project
-title: 'KI > Model > Specifications'
-project: specifications
+title: 'KI > Model > Portable specifications'
+project: portable-specifications
 theme: model
 description: >-
   Drafts, homes and publishes three portable specifications, `work`, `knowledge` and `acquire`, each using
@@ -14,11 +14,11 @@ supervisor: owner
 created_at: 2026-10-19T13:30:00Z
 ---
 
-# ki.specifications
+# ki.portable-specifications
 
 ## Goals
 
-- The Project note's `outcome` is not yet linked: `Streams/Projects/specifications.md` holds a different, paused Project, and PROJECT-NAME in [queries](queries.md) settles the note.
+- The [Portable specifications Project note's outcome](<../../../Streams/Projects/portable-specifications.md#outcome>): three portable specifications, `work`, `knowledge` and `acquire`, held in their owning skills, published on the website and handed to KI Specifications when it opens v1.
 - Kris, 19 October 2026: "`work` - essentially what we are doing with work packages, without infering our ways of working".
 - Kris: "`knowledge` - similar but it is a package of knowledge that is well curated. The example for this is say that I want to learn something about a particular topic that I should be able to understand from the description, what that if this knowledge package effectively is the thing to give me that information, and then it contains a body of knowledge, probably a collection of Markdown files, and in a similar way to the way that skills work as well."
 - Kris: "`acquire` - This one is more focused on how we would go about acquiring knowledge. So not knowledge at rest, but knowledge acquisition itself. So it could be based on how you use a particular tool, for example."

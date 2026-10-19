@@ -1,8 +1,8 @@
 # Specification drafts: work, knowledge and acquire
 
-**Owner:** Kris Brown · **Owning repository:** knowledgeislands/ki-principal · **Owning work:** `ki.ways-of-working`, handing over to `ki.specifications` · **Date:** 2026-10-19
+**Owner:** Kris Brown · **Owning repository:** knowledgeislands/ki-principal · **Owning work:** `ki.ways-of-working`, handing over to `ki.portable-specifications` · **Date:** 2026-10-19
 
-Drafts written by the run spec-drafts under Kris's definition of the three areas at 14:27 BST on 19 October (decisions log entry "owner definition, SPEC-AREAS"). Each is a portable, tool-neutral specification in the [Agent Skills specification](https://agentskills.io/specification)'s page format, ready either to sit in an owning skill or to be published at `knowledgeislands.info/specs/{work,knowledge,acquire}`; that choice, SPEC-HOME, passes to `ki.specifications` with these drafts. Nothing here is published. The open choices are in the spec-drafts run report, not here.
+Drafts written by the run spec-drafts under Kris's definition of the three areas at 14:27 BST on 19 October (decisions log entry "owner definition, SPEC-AREAS"). Each is a portable, tool-neutral specification in the [Agent Skills specification](https://agentskills.io/specification)'s page format, ready either to sit in an owning skill or to be published at `knowledgeislands.info/specs/{work,knowledge,acquire}`; that choice, SPEC-HOME, passes to `ki.portable-specifications` with these drafts. Nothing here is published. The open choices are in the spec-drafts run report, not here.
 
 ## The three specifications
 

@@ -1,5 +1,5 @@
 ---
-id: ki.specifications
+id: ki.portable-specifications
 state: with-worker
 blocking: false
 since: 2026-10-19T22:28Z
@@ -9,7 +9,7 @@ mark: 2026-10-19T18:00Z
 method_read: f4d6c521
 ---
 
-# ki.specifications state
+# ki.portable-specifications state
 
 ## Now
 

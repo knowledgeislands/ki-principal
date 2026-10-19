@@ -1,6 +1,6 @@
 ---
 note_type: streams/index
-updated: 2026-10-19T10:03:14Z
+updated: 2026-10-19T22:39:27Z
 author: Written with Claude
 ---
 
@@ -89,6 +89,12 @@ Links point upwards only: a work record names its Project, and a Project names i
 ## Paperclip capture and rebuild
 
 [[paperclip-capture-and-rebuild]] captures Paperclip's approach in the island, keeps the `terra` service stopped, and designs a fresh rebuild once the ways-of-working model settles.
+
+---
+
+## Portable specifications
+
+[[portable-specifications]] drafts, homes and publishes three portable specifications, `work`, `knowledge` and `acquire`, held in their owning skills, published on the website and later moved into KI Specifications.
 
 ---
 

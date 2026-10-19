@@ -229,11 +229,11 @@ Read back taken: PUSH-HARD - roll the work package out across every territory as
 
 ## 2026-10-19 14:27 BST - owner definition, SPEC-AREAS
 
-Pointer: SPEC-AREAS, refined (Kris, 19 October) carried in Kris's words by the [ki.specifications work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.specifications/work.md), with SPEC-HOME open in its [queries](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.specifications/queries.md).
+Pointer: SPEC-AREAS, refined (Kris, 19 October) carried in Kris's words by the [ki.portable-specifications work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.portable-specifications/work.md), with SPEC-HOME open in its [queries](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.portable-specifications/queries.md).
 
 ## 2026-10-19 14:27 BST - owner decision, SPECIFICATIONS-PROJECT
 
-Pointer: SPECIFICATIONS-PROJECT (Kris, 19 October) carried by the [ki.specifications work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.specifications/work.md) and OPEN-PROJECT in its [decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.specifications/decisions.md); this work's handoff is done.
+Pointer: SPECIFICATIONS-PROJECT (Kris, 19 October) carried by the [ki.portable-specifications work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.portable-specifications/work.md) and OPEN-PROJECT in its [decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.portable-specifications/decisions.md); this work's handoff is done.
 
 ## 2026-10-19 17:57 BST - owner decisions on the 15:17 BST Summary
 
@@ -328,7 +328,7 @@ Read back taken: MGIT-RELEASE a), wait for Kris's KI-TOOL-MGIT-CLI-023 hands-on 
 
 citation-lines finished with nothing sent: 11 hits in 9 works, none a live citation; its query WORK-AREA-CITATIONS-SEND is copied into `queries.md`.
 
-RESTART-WALKTHROUGH (IMPORTANT line from the previous session): taken. citation-lines received first; Kris is walked through the restarts one at a time, each with its send line, in the order `ki`, `ki.tools-burndown`, `ki.observatory`, `ki.specifications`, `ki.chezmoi`, `ki.mac-studio-setup`, `ki.baseline-rollout`, `ki.timelines`, then acquire's intake work in its own repository, recommending a new session for each long-running one with the old one archived. The "Sol work-package rollout alignment" session is finished and can be archived. Line removed. Mark struck at 18:56 BST.
+RESTART-WALKTHROUGH (IMPORTANT line from the previous session): taken. citation-lines received first; Kris is walked through the restarts one at a time, each with its send line, in the order `ki`, `ki.tools-burndown`, `ki.observatory`, `ki.portable-specifications`, `ki.chezmoi`, `ki.mac-studio-setup`, `ki.baseline-rollout`, `ki.timelines`, then acquire's intake work in its own repository, recommending a new session for each long-running one with the old one archived. The "Sol work-package rollout alignment" session is finished and can be archived. Line removed. Mark struck at 18:56 BST.
 
 ## 2026-10-19 20:10 BST - mark; decisions since 18:56 BST struck
 
