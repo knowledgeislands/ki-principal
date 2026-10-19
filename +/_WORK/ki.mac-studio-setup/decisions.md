@@ -79,3 +79,5 @@
 - 2026-10-20 00:22 BST, rig-triage received: KI-TOOL-RIG-CORE-065 and KI-TOOL-RIG-CORE-066 delivered to Awaiting review (local, unpushed); the other six Triage records (053, 057, 064, 067, 068, 069) recorded with medium or low recommendations for the RIG-TRIAGE lane query; brief pruned, report kept until its queries are answered.
 
 - 2026-10-20 00:22 BST, CANCEL-MERGE from State of play (routed from ki.tools-burndown's acceptrig): cancel KI-TOOL-RIG-DIST-011, merge KI-TOOL-RIG-CORE-056 into KI-TOOL-RIG-CORE-053, reject KI-TOOL-RIG-CORE-057 and KI-TOOL-RIG-CORE-064; medium and destructive, and overlapping RIG-TRIAGE on 053, 057 and 064, so both go to one blind review, run triage-review on Codex at high effort, before either reaches Kris.
+
+- 2026-10-20 00:26 BST, triage-review received: RIG-TRIAGE (CANCEL-MERGE folded in, all three views shown since the review disagreed in places) and RIG-MANAGERS (high) copied into queries.md for Kris at the Summary; brief pruned, report kept until answered.

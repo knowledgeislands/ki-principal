@@ -2,7 +2,35 @@
 
 ## Open
 
-None.
+### RIG-TRIAGE - Where the remaining Rig records go
+
+since 2026-10-20 · rig-triage and triage-review run reports, 00:24 BST, with CANCEL-MERGE from ki.tools-burndown's acceptrig folded in · the review disagreed with both proposals in places, so all three views are shown
+
+**Context:** Eight tools-rig records are undecided: KI-TOOL-RIG-CORE-053 (report-only menu-bar declarations), KI-TOOL-RIG-CORE-056 (finding out how menu-bar order persists), KI-TOOL-RIG-CORE-057 (GitHub Desktop repository list), KI-TOOL-RIG-CORE-064 (scan for unmanaged configuration), KI-TOOL-RIG-CORE-067 (package managers as catalogue tools), KI-TOOL-RIG-CORE-068 (a replaced pf root ruleset can bypass the firewall), KI-TOOL-RIG-CORE-069 (dynamic-type handler fallback) and KI-TOOL-RIG-DIST-011 (stale Rig link on vega). The blind review found DIST-011 not repaired and its hold now lifted by the approved Techne Programme Focus, whose record KI-PRINCIPAL-GOV-035 still awaits review; it found 056's outcome deliberately separate from 053's.
+
+**Query:** Which disposition package should tools-rig apply?
+
+**Options:**
+
+a) (recommended by triage-review, confidence medium - the technical boundaries are clear, but the two new owners have to acknowledge their handoffs) Next for 053 and 067; 056 stays in Future; 057 handed to tools-mgit and 064 to ki.chezmoi, keeping the requests; Now for planning 068 (implementation waits for the attended NordVPN check and a tested restore path) and for diagnosing and planning 069; DIST-011 kept and released to Next, with ki.agent-host running anything on the host once GOV-035's review is settled.
+
+b) (rig-triage) Next for 053 and 067; 057 and 064 to Future in Rig; 068 to Next, plan only; 069 to Now after a live handler check at sol; 056 and DIST-011 unchanged.
+
+c) (acceptrig) Cancel DIST-011 as obsolete, merge 056 into 053, and reject 057 and 064 from Rig.
+
+### RIG-MANAGERS - What happens to KI-TOOL-RIG-CORE-066's undelivered doctor part
+
+since 2026-10-20 · rig-triage report, sharpened by triage-review, 00:24 BST
+
+**Context:** KI-TOOL-RIG-CORE-066 is at Awaiting review with its uv-from-mise fix (G3) delivered. Its G2, a manager summary in `rig doctor`, rests on a false premise: the fixed manager list only runs when configuration fails, and loaded configuration already reports a missing provider for each tool. The useful part, one manager-level finding, already sits inside KI-TOOL-RIG-CORE-067.
+
+**Query:** Fold G2 into KI-TOOL-RIG-CORE-067 and narrow KI-TOOL-RIG-CORE-066 to the delivered fix?
+
+**Options:**
+
+a) (recommended, confidence high - removes a false premise and gives the remaining need one owner) Fold G2 into KI-TOOL-RIG-CORE-067, keeping built-in and custom-provider availability and one actionable manager-level finding; narrow KI-TOOL-RIG-CORE-066's goal to G3 and review that for acceptance.
+
+b) Keep G2 in KI-TOOL-RIG-CORE-066 as a loaded-configuration manager summary and send that part back for planning, without calling the record done.
 
 ## Parked
 
