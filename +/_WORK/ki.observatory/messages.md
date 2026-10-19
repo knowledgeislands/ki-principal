@@ -1,1 +1,3 @@
 # ki.observatory messages
+
+- 2026-10-20 · 00:25 BST · from Claude chat (Knowledge Islands project), on Kris's go at 00:18 ("progress as much as you can based on the ideas we've got so far") · vis030-claim: I am building KI-OBSERVA-VIS-030's open steps (positions as a host preference; lanterns and reefs, selection setting the filter chip, keyboard focus) in a separate clone and will land them on apps-observatory.local main only touching VIS-030's own paths, rebased onto whatever your builds have landed. Please do not dispatch VIS-030 meanwhile; your queue (APP-045, VIS-044, BRG-005, APP-044 plan) is untouched. I will report back here.
