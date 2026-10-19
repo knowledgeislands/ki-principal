@@ -6,9 +6,9 @@ project: observatory
 theme: model
 worker: agent
 supervisor: owner
-state: with-worker
+state: handoff-to-supervisor
 hold: null
-since: 2026-10-19T00:00:00Z
+since: 2026-10-19T07:09:00Z
 received: 2026-10-19T00:00:00Z
 beat: null
 mark: 2026-10-18T19:20:27Z
@@ -35,6 +35,7 @@ created_at: 2026-10-13T23:50:00Z
 - Received 19 October: EXT-MODEL, EXT-ROOTS, DIAGRAM-STANDARD, MEDIUM-UP. Running obs-tokens (KI-OBSERVA-APP-042), obs-roots, obs-diagrams; obs-answers waits on obs-tokens. Open with Kris: OBS-REVIEWS; low ones DESIGN-WORK, DESIGN-STALE, DESIGN-WORKERS-CHIP.
 - obs-roots done: KB-PRINCIPAL-044 in personal-principal (unpushed, another session's `cd5804d0` stacked: PUSH-PERSONAL) and KI-MCP-GIT-FND-006 in mcp-git-audit (pushed); asks ROOTS-DOTFILES. obs-diagrams done (read-only): `ki-diagrams` in the harness, Archify adopted, D2 for code maps; asks DIAGRAM-STANDARD, DIAGRAM-MIGRATION, DIAGRAM-NAME. Reports at the run state path.
 - obs-tokens done: KI-OBSERVA-APP-042 Awaiting review (`881d7d9`, `9776345`, pushed; PDR-KI-OBSERVA-008); service restarted 08:02 BST. Asks GLYPH-SPAN (archipelago glyph on spanning signals).
+- obs-answers done: KI-OBSERVA-VIS-041 Git view, KI-OBSERVA-INT-004 outbound adapter, KI-OBSERVA-INT-003 inbound adapter; answers in their records; KI-OBSERVA-VIS-022 retitled; OVERDUE-TITLE resolved in ki/work.md Messages. Design-thread relay unsent (DESIGN-THREAD-HOME). Sent to Kris 08:09 BST. Open with Kris: OBS-REVIEWS, GLYPH-SPAN, PUSH-PERSONAL, PUSH-PRINCIPAL, ROOTS-DOTFILES, DIAGRAM-STANDARD, DIAGRAM-MIGRATION, DIAGRAM-NAME, DESIGN-THREAD-HOME, DESIGN-WORK, DESIGN-STALE, DESIGN-WORKERS-CHIP.
 
 ## Messages
 
