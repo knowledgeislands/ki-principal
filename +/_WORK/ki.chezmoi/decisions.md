@@ -63,3 +63,9 @@ home: +/_WORK/ki.chezmoi/work.md class: operational
 home: +/_WORK/ki.chezmoi/work.md class: operational
 
 - TERRA-PULL, from apply-terra, a) high, under Kris's standing "It can do anything that's high confidence": fast-forward Terra's chezmoi checkout from Sol over SSH and rerun apply-terra; no credential or sshd change.
+
+## Decision 106 (2026-10-19T20:02:14Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- PAPERCLIP-PLIST, from apply-terra-2, a) high, under Kris's standing "It can do anything that's high confidence": leave Terra's disabled `uk.me.kris.rig.paperclip.plist` in place until the Paperclip rebuild is designed.
