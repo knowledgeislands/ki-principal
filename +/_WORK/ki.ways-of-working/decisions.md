@@ -374,3 +374,7 @@ Read back taken: DESIGN-AT-MARK a) - the standard's prune clause is aligned so e
 Kris: "I have to say I'm getting a bit lost with all the work at the minute ... It'd be good if your work was finished in somewhere." Then: "well, it doesn't have to be a final farewell, I think ways of working will still need some work, but it would be good to get to the end of this round"
 
 Read back taken: ROUND-END - this round ends in a hold, more expected, not Project close. Finish design-clause and design-triage, put the reviewed delete list to Kris once, carry out what he confirms, hand cross-work pointers to State of play in one `messages.md` line, then hold. State of play is Kris's single guide across works; this work launches nothing new this round.
+
+## 2026-10-19 20:32 BST - received design-clause
+
+design-clause put DESIGN-AT-MARK into the harness (`9c17df3c`, pushed fast-forward alone): the prune clause keeps only live design notes and reviews `design/` at each mark under new design-note guards in the standard; the work-design, work-package and output-style surfaces align, and `hooks/README.md` now matches the current hook line. Tests 1,286 pass, type check and audits clean. DESIGN-AT-MARK's rule part is homed.
