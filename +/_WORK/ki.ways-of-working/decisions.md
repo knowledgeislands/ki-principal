@@ -370,3 +370,7 @@ Read back taken: KI-FIRST - the Knowledge Islands territory's work folders migra
 ## 2026-10-19 14:50 BST - FIRST-STEP disposition
 
 The migration's FIRST-STEP line was acted on: `ki-work-package` and all five files re-read; the drafted description, Goals and Scope confirmed as written; `method_read` set to harness `9c9ae922`; unreceived reports' queries are carried to the next Summary. Line removed.
+
+## 2026-10-19 14:57 BST - REPO-LINKS taken under PUSH-HARD
+
+reinstall-check asked whether to run `ki repo --estate repair` now: it would add 19 `ki-work-package` links and remove 19 dangling `ki-work-folder` links in 10 repositories. Taken a) under PUSH-HARD and NO-ALIAS ("lets just get it renamed"), as finishing the rename. Authorises: repo-links, chained after territories-package, applying only the work-package link changes and listing anything else.
