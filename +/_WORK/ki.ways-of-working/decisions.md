@@ -418,3 +418,13 @@ method-read-capitals put the METHOD-READ line into State of play's `messages.md`
 ## 2026-10-19 21:41 BST - received gfm-review
 
 gfm-review (Codex, read-only) agrees with all five GFM recommendations, adding: fix the Decision Record and Activities link parsers first; decide four width-800 image embeds, 10 heading links (the Observatory drops fragments), 2 callouts and templates before their batches; verify per link, not by totals; apply only reviewed paths against unchanged bytes with a rollback manifest; Enactment needs a preview checkpoint. TOUCH-SCOPE held at medium (converter must refuse unsafe files). Confidences lifted where agreed; queries rewritten for Kris.
+
+## 2026-10-19 22:00 BST - owner decisions, GFM and METHOD-READ-RUBRIC
+
+Kris: "Do all recommended and ... TOUCH-SCOPE - if we are doing in full then we don't need this do we?"
+
+Read back taken: GFM-ORDER a) staged conversion of ki-principal, each batch failing closed; FLAVOUR-FIELD a) dropped, repository-level setting only if an island stays Obsidian-flavoured; GFM-LINK-FORM a) note-relative paths in angle brackets, `%20` normalised, audit fails dangling or wrong-case links; GFM-ENACT a) one `Streams/Roadmap/` record; METHOD-READ-RUBRIC a) add the check. TOUCH-SCOPE not answered: Kris asks whether full conversion makes it unnecessary; answered in the turn, query stays open. Authorises gfm-harness (harness rules, link audit, parser fixes, method_read check) and gfm-principal (plan note, Roadmap record, converter handoff to ki.tools-burndown, GFM-CAPITALS lines, ki pin).
+
+## 2026-10-19 22:00 BST - message KI-VERSION
+
+From ki.tools-burndown at 21:42 BST: ki `v0.11.5` is published; `.github/ki-version` can move. Disposition: gfm-principal moves the pin in its own commit.
