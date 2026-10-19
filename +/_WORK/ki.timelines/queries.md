@@ -16,20 +16,6 @@ a) (recommended, confidence high - the read-back puts this before any design run
 
 b) Start design on the scope as it stands and fold the improvements in later.
 
-### PUSH-STACK - Push the stacked ki-principal commits
-
-since 2026-10-19 · from [tl-seed](/Users/krisbrown/.local/state/ki/agents/timelines/tl-seed.report.md) · (looks resolved; the worker judges): all three commits are on `origin/main` at the migration
-
-**Context:** `origin/main` in ki-principal lacks three commits: my survey commit `602f714` and two ki.mac-studio-setup commits from another session, `1a9af8a` and `de7c19e`. I may push only my own commits, so I pushed nothing.
-
-**Query:** Should the three stacked commits be pushed together?
-
-**Options:**
-
-a) (recommended, confidence medium - the other two are docs-only work-folder and Project commits, but I have not reviewed them) Let the mac-studio-setup session or you push all three fast-forward.
-
-b) Leave them unpushed until the mac-studio-setup session pushes its own work.
-
 ### FEED-HOME - Where subscription feeds are served
 
 since 2026-10-19 · from [tl-seed](/Users/krisbrown/.local/state/ki/agents/timelines/tl-seed.report.md) · survey open question 1
