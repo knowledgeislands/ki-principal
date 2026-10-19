@@ -50,41 +50,90 @@ b) Leave it as it is, since the source runner comes first on PATH for interactiv
 
 ### AREA-TITLES - Retitle retired theme-slug areas
 
-since 2026-10-19 · from `wave1-sweep` at 23:49 BST · in blind review
+since 2026-10-19 · from `wave1-sweep` at 23:49 BST · blind-reviewed by `review-area-titles` at 23:52 BST, which agreed
 
-**Context:** The area-to-theme map in `.ki.toml` is retired. An area title should now be a short capitalised noun phrase. Five repositories still use theme slugs as area titles, 19 in all: 5g-emerge-apex, 5g-emerge-demos, 5g-emerge-testbed (all three failing ROAD-6), hnr-principal and tmx-principal. None of the slugs is a live KI theme. Separately, va-principal issues `GOV` and `KNW` records but declares no area map. legal-principal and 5g-emerge-phase2 already show the target form. The fix is a `.ki.toml` edit in each repository, which needs your authority. **Query:** Should I raise conformance records to retitle these areas, and declare va-principal's map, in each territory's repositories? **Options:** a) (recommended, confidence medium - the edit is mechanical, but the titles need wording you approve) Raise one conformance record per affected repository, routed through each territory's Capital: the three 5g-emerge repositories and hnr-principal through hnr-principal, tmx-principal on its own, and va-principal on its own. Each record proposes noun-phrase titles for you to confirm. b) Raise one combined record in each Capital, hnr-principal, tmx-principal and va-principal, covering its territory's repositories.
+**Context:** The area-to-theme map in `.ki.toml` is retired: an area title should now be a short capitalised noun phrase. Five repositories still use 19 theme slugs as area titles: 5g-emerge-apex, 5g-emerge-demos and 5g-emerge-testbed (all three failing the audit) and hnr-principal and tmx-principal (which the checker misses). None is a live theme. va-principal issues `GOV` and `KNW` records with no area map declared at all. legal-principal and 5g-emerge-phase2 already show the target form. Each fix is a `.ki.toml` edit in that repository and needs your authority there.
+
+**Query:** Should this Project raise conformance records to retitle the areas, and to declare va-principal's map, in each affected repository?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed: the blind review agreed that repository-owned records keep local delivery and acceptance while Capitals coordinate routing) Raise one conformance record per affected repository, routed through its Capital: the three 5g-emerge repositories and hnr-principal through hnr-principal, tmx-principal and va-principal each through themselves; each record proposes noun-phrase titles for you to confirm.
+
+b) Raise one combined record in each Capital covering its territory's repositories, which would need explicit per-repository delivery and acceptance scopes.
 
 ### LEDGER-FORM - Repair superseded issue ledgers
 
-since 2026-10-19 · from `wave1-sweep` at 23:49 BST · in blind review
+since 2026-10-19 · from `wave1-sweep` at 23:49 BST · blind-reviewed by `review-ledger-form` at 23:52 BST, which agreed
 
-**Context:** Seven project-roadmap ledgers still use a superseded canonical form, which the audit warns on: 5g-emerge-apex, 5g-emerge-demos, 5g-emerge-testbed, apps-kris.me.uk, apps-dafacts.org, er-agentic-harness and apps-markhowarth.com. The three 5g-emerge ledgers also fail for being in the wrong issuing mode. That is probably a knock-on effect of their slug-valued area maps, though I have not verified it. `ki repo conform --skill ki-work-roadmap` rewrites a superseded ledger and keeps its allocation, but HOOK-GUARD bars conform until ki.tools-burndown lifts it. **Query:** How should the superseded ledgers be repaired? **Options:** a) (recommended, confidence medium - conform is the designed repair but is held, and the wrong-mode cause is inferred) Fold the three 5g-emerge ledgers into their AREA-TITLES records. Repair the other four with a `--dry-run`-checked conform once HOOK-GUARD lifts, one repository at a time on your go. b) Hand-edit all seven ledgers now under conformance records, without waiting for conform.
+**Context:** Seven roadmap ledgers use a superseded form, which the audit warns on: 5g-emerge-apex, 5g-emerge-demos, 5g-emerge-testbed, apps-kris.me.uk, apps-dafacts.org, er-agentic-harness and apps-markhowarth.com; the three 5g-emerge ledgers also fail for the wrong issuing mode. The review verified exact legacy matches and that a repair can keep every area code and allocation. `ki repo conform --skill ki-work-roadmap` is the designed repair, but conform stays barred without `--dry-run` while the Husky-to-`.githooks` migration lands tonight.
 
-### SIZE-KIND - Backfill size and kind
+**Query:** How should the superseded ledgers be repaired?
 
-since 2026-10-19 · from `wave1-sweep` at 23:49 BST · in blind review
+**Options:**
 
-**Context:** 191 open records in 18 repositories have no `size`, and 61 adopted open records have no `kind`. The largest gaps are personal-principal (33), legal-principal (28), er-agentic-harness (22, all also without kind), hnr-principal (20), dotfiles (16) and apps-vallearmonia.com (15). The field migration window opened on 2026-10-19 and closes on a complete clean scan or a 60-day backstop, after which these warnings become fails. The standard says size and kind need judgement: a run proposes them and you confirm them, one repository at a time. dotfiles also has 4 records still naming `initiative`, which is a mechanical fix. **Query:** How should the size and kind backfill run? **Options:** a) (recommended, confidence medium - it follows the standard's migration rule, but the volume makes the confirmation load real) One read-only proposal run per territory, each producing a size and kind table for you to confirm. Then one write run per repository on your confirmation, fixing the dotfiles `initiative` fields in the same pass. b) Leave the backfill to each repository's next planning pass and accept the risk of fails at the backstop.
+a) (recommended, confidence high - reviewed: the blind review verified the legacy matches and an allocation-preserving repair) Fold the three 5g-emerge ledger repairs into their AREA-TITLES records; repair the other four with a `--dry-run`-checked conform once ki.tools-burndown clears conform after tonight's release, one repository at a time on your go.
+
+b) Hand-edit all seven ledger bodies now under conformance records, keeping every allocation, without waiting for conform.
+
+### SIZE-KIND - Backfill size and kind on open records
+
+since 2026-10-19 · from `wave1-sweep` at 23:49 BST · blind-reviewed by `review-size-kind` at 23:52 BST, which agreed
+
+**Context:** 191 open records in 18 repositories have no `size`, and 61 adopted open records have no `kind`; the largest gaps are personal-principal (33), legal-principal (28), er-agentic-harness (22, all also without kind), hnr-principal (20), dotfiles (16) and apps-vallearmonia.com (15); dotfiles also has 4 records still naming `initiative`. The field migration window opened on 2026-10-19 and closes on a complete clean scan or a 60-day backstop, after which these warnings become failures. The standard says size and kind need judgement: a run proposes, you confirm, one repository at a time.
+
+**Query:** How should the size and kind backfill run?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed: the blind review agreed, from direct counts and the migration rule) Run one read-only proposal pass per territory, giving a table per repository of each record's proposed size and kind with a short reason or open uncertainty; you confirm per repository, then one approved write pass runs per repository.
+
+b) Leave the backfill to each repository's next planning pass, accepting that untouched records become failures when the window closes.
 
 ### VA-PLANNING - Close apps-vallearmonia.com planning gaps
 
-since 2026-10-19 · from `wave1-sweep` at 23:49 BST · in blind review
+since 2026-10-19 · from `wave1-sweep` at 23:49 BST · blind-reviewed by `review-va-planning` at 23:55 BST, which disagreed; the worker now takes the review's course
 
-**Context:** apps-vallearmonia.com still has 7 planning gaps, all body-shape fails (ITEM-3) across 5 records. VA-WEBSITE-CONT-005 and VA-WEBSITE-SANC-009 are Now drafts, and VA-WEBSITE-SANC-008 and VA-WEBSITE-SITE-004 are Next drafts. All four lack the Current state, Files touched, Dependencies / blocks and Documentation impact sections. VA-WEBSITE-SITE-003 is awaiting review without a complete review packet or a final Discussion. Shaping a record is `ki-plan` work in that repository and needs your authority there. **Query:** Should I launch a planning pass in apps-vallearmonia.com to close the 7 gaps? **Options:** a) (recommended, confidence medium - a bounded single-repository change, but every plan needs your approval to become Ready) Launch one `ki-plan` run in apps-vallearmonia.com that shapes the four drafts and completes VA-WEBSITE-SITE-003's review packet, leaving every record short of Ready until you approve it. b) Leave the gaps until those records are next selected.
+**Context:** apps-vallearmonia.com still has 7 planning gaps across 5 records. Four drafts, [VA-WEBSITE-CONT-005](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-CONT-005-resolve-image-review-flags.md) and [VA-WEBSITE-SANC-009](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SANC-009-close-the-editorial-audit.md) (Now) and [VA-WEBSITE-SANC-008](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SANC-008-package-the-sanctuary.md) and [VA-WEBSITE-SITE-004](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SITE-004-choose-the-home-page-layout.md) (Next), lack their planning sections; [VA-WEBSITE-SITE-003](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SITE-003-consolidate-the-design-system.md) is awaiting review without a complete review packet or final Discussion. The worker first proposed one `ki-plan` run for all five; the review found `ki-plan` accepts only drafts and excludes review-packet assembly, and that SITE-003's verification claims need real evidence, so the worker now recommends splitting the repair by lifecycle state.
 
-### THEME-REGISTRY - Migrate territory theme registries
+**Query:** Should the repair run as `ki-plan` on the four drafts plus a separate evidence-backed repair of SITE-003?
 
-since 2026-10-19 · from `wave1-sweep` at 23:49 BST · in blind review
+**Options:**
 
-**Context:** No Capital in the six territories has `Streams/Themes/`. hnr-principal, legal-principal and personal-principal keep the legacy `Streams/Initiatives/` registry, which the audit warns on. er-principal, va-principal and tmx-principal have no registry at all, so every theme their records name goes unresolved. Several record themes appear in no registry, such as `harness-foundation`, `source-data`, `ki-conformance`, `housekeeping` and `dashboard`. **Query:** Should this Project raise theme-registry migration records in the territories' Capitals? **Options:** a) (recommended, confidence medium - the warnings are clear, but which themes each territory keeps is your call) Raise one record in each of hnr-principal, legal-principal and personal-principal to move Initiatives to `Streams/Themes/` pages. Leave er-principal, va-principal and tmx-principal without a registry until one of their records needs a theme. b) Raise a record in all six Capitals, giving each a theme registry now.
+a) (recommended, confidence high - reviewed: the review verified the defects and `ki-plan`'s boundary directly; the worker's single-run plan crossed that boundary) Authorise `ki-plan` for the four drafts, keeping them draft until you approve each plan, and separately an evidence-backed repair of SITE-003 that keeps it awaiting review and reports any evidence it cannot recover.
 
-### CHECKER-GAPS - Report audit blind spots to the harness
+b) One `ki-plan` run covering all five, the worker's original proposal, which needs an explicit override of `ki-plan`'s scope.
 
-since 2026-10-19 · from `wave1-sweep` at 23:49 BST · in blind review
+c) Leave the gaps until those records are next selected.
 
-**Context:** The Streams adapter applies neither ROAD-6 nor the area-declaration check, so slug-valued area titles in hnr-principal and tmx-principal pass unflagged, and so do va-principal's undeclared `GOV` and `KNW` areas. Separately, `ki repo audit --repo` refuses a symlinked repository path (`personal/dotfiles`). Changes to harness and tools belong to ki.ways-of-working and ki.tools-burndown, not to this Project. **Query:** Should these blind spots go to the harness and tools-ki as handoff items? **Options:** a) (recommended, confidence medium - the evidence is direct, but whether symlinks should be accepted is a design choice) Route the two Streams checker gaps to ki.ways-of-working, and the symlink refusal to ki.tools-burndown, each as one `messages.md` line. b) Note them in this Project only and take them up after the territory rollout.
+### THEME-REGISTRY - Give territory Capitals a theme registry
+
+since 2026-10-19 · from `wave1-sweep` at 23:49 BST · blind-reviewed by `review-theme-registry` at 23:54 BST, which disagreed; the worker now takes the review's course
+
+**Context:** No Capital in the six territories has `Streams/Themes/`. hnr-principal, legal-principal and personal-principal keep the legacy `Streams/Initiatives/` registry, which the audit warns on; er-principal, va-principal and tmx-principal have none, so their records' themes go unresolved, and labels such as `harness-foundation`, `source-data`, `ki-conformance`, `housekeeping` and `dashboard` appear in no registry. The worker first proposed records for the three legacy Capitals only, deferring the other three until a record needed a theme; the review verified that open records in all three already name themes, so that condition is already met. Raising records asks each Capital for work it owns; it approves no delivery.
+
+**Query:** Should this Project raise theme-registry migration records in all six Capitals?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed: the review verified theme references in all six Capitals, which defeats the worker's reason for deferring three) Raise one record in each of hnr-principal, legal-principal, personal-principal, er-principal, va-principal and tmx-principal: inventory the territory's actual theme references, migrate legacy Initiatives pages where they exist, and have the Capital reconcile unresolved labels rather than create a page for every string.
+
+b) Raise records only in hnr-principal, legal-principal and personal-principal, the worker's original proposal, deferring the other three.
+
+### CHECKER-GAPS - Report audit blind spots to the harness and tools-ki
+
+since 2026-10-19 · from `wave1-sweep` at 23:49 BST · blind-reviewed by `review-checker-gaps` at 23:55 BST, which agreed
+
+**Context:** The Streams roadmap adapter applies neither the area-title check (ROAD-6) nor the area-declaration check, so slug-valued area titles in hnr-principal and tmx-principal, and va-principal's undeclared `GOV` and `KNW` areas, pass unflagged. Separately, `ki repo audit --repo` refuses a symlinked repository path (`personal/dotfiles`). Harness checks belong to ki.ways-of-working and `ki` changes to ki.tools-burndown, not this Project.
+
+**Query:** Should the blind spots go to the harness and tools-ki as handoff items?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed: the blind review agreed on the direct evidence and the owners) Route the two Streams checker gaps to ki.ways-of-working and the symlink refusal to ki.tools-burndown, one `messages.md` line each.
+
+b) Note them in this Project only and take them up after the territory rollout.
 
 ## Parked
 
-- **CHECKLIST** - from the old ki.baseline-rollout package, held since 15 October: whether to adopt the stock Repository review Activity across the estate. Recommended: adopt it estate-wide only once Kris approves it for the Capital first.
-- **PIN-PAYLOAD** - from the old ki.baseline-rollout package, parked 10 October with the pin-receiver idea: `update-ki-pin.yml` filters on `client_payload.source_repository` but tools-ki `release.yml` sends `client_payload.repository`, so `tool-release-published` dispatches would be skipped; the Capital's `.github/ki-version` and `update-ki-pin.yml` stay inert until the tools-release bot App and secrets are on it. Recommended: align the two field names when the pin-receiver idea is revived.
+None.
