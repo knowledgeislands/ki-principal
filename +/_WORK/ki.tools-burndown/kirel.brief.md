@@ -1,0 +1,7 @@
+# kirel - cut ki v0.11.5
+
+Work: ki.tools-burndown (/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown). Authority: Kris, 19 October, KI-RELEASE-GO a) in /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/decisions.md: tag v0.11.5 at tools-ki HEAD once a full re-run there passes, then push, publish and tell ki.ways-of-working.
+
+1. In /Users/krisbrown/workspaces/knowledge-islands/tools-ki, run the full gate at HEAD (`bun run test:coverage`, TypeScript, Biome, lint, the command-inventory check, `ki repo audit`) with loopback networking allowed. qreview3 saw seven installer tests time out because its sandbox denied 127.0.0.1 listeners; confirm whether that was environmental. If anything is red for a real reason, stop and report a query; do not tag.
+2. If green, follow /Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/guides/developer/releasing.md exactly: tag v0.11.5 at HEAD, push main and the tag fast-forward only, and complete publication and its checks. HEAD includes another session's KI-TOOL-KI-CLI-159 roadmap commits; Kris authorised the tag at HEAD.
+3. Append one line to /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/messages.md: the ki v0.11.5 tag is out, so ki-principal's .github/ki-version can move. Commit that file alone by explicit path in ki-principal and push fast-forward. Never --no-verify, never force-push. Report the outcome and any query as your footer says.
