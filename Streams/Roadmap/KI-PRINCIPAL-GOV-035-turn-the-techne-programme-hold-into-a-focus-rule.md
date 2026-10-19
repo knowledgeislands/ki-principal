@@ -10,15 +10,14 @@ component: governance
 tags:
   - topic/knowledge-islands
   - topic/techne
-status: awaiting-review
-horizon: now
+status: done
 priority: high
 size: m
 blocks: []
 blocked_by: []
 baseline_ref: 8895ff0fecf654f5f25eca52cb9361174216312c
 created_at: 2026-10-19T22:48:36Z
-updated_at: 2026-10-19T23:18:00Z
+updated_at: 2026-10-19T23:30:00Z
 ---
 
 # Turn the Techne Programme Hold into a Focus Rule
@@ -220,8 +219,13 @@ The goal is met: the canonical texts are the approved ones, the identifier and i
 
 Delivered the Techne Programme Focus and the rewritten GDR-KI-PRINCIPAL-004, swept about forty citing notes and recorded six ideas. Verification passed with only pre-existing audit findings. Concerns: the cross-repository follow-ups and the text-edited diagram. Learning route proposed: a staged `git mv` in a shared working tree can be swept into another session's commit, so a shared tree should rename with a plain `mv` and stage only at commit, by explicit path; the route is the island's Mistakes and Lessons note, and nothing has been promoted automatically.
 
+## Done
+
+Accepted 2026-10-20 by Kris Brown on the review packet above.
+
 ## Discussion
 
+- **Acceptance.** Taken on 20 October under Kris's OVERNIGHT authority of 20 October, 00:30 BST: "You can do anything on a high confidence level that you recommend." The State of play coordinator recommended acceptance as GOV035-ACCEPT a), confidence high, and took it under that authority. Before closing, a fresh check found root `AGENTS.md` and every live note linking to `Techne Programme Focus.md`; the surviving mentions of the hold are the historical ones the Change Summary lists.
 - **Identifier.** Rewriting GDR-KI-PRINCIPAL-004 in place, rather than writing a new record that supersedes it, follows `ki-decision-records` and keeps the live AWS tag `ki-authority=GDR-KI-PRINCIPAL-004` true. A new record would mean removing GDR-KI-PRINCIPAL-004, renumbering GDR-KI-PRINCIPAL-005 to GDR-KI-PRINCIPAL-016 and retagging live resources, which is a remote operation.
 - **Prerequisites.** The hold's three prerequisites retire as general gates. The third, a remote-delivery policy, survives as a condition on taking up any remote idea; the first two, the review-to-live-main cycle and the Paperclip review, return only if that decision asks for them.
 - **Local building.** The hold allowed local Techné tool-building generally; Kris's words narrow active building to the two hosts. Keeping both repositories building and current is upkeep, not new work.

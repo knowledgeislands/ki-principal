@@ -10,16 +10,12 @@ component: model
 tags:
   - topic/knowledge-islands
 status: draft
-horizon: hold
-hold:
-  reason: parked
-  condition: most of Arcadia's roadmap is cleared
-  review: 2026-10-23
+horizon: next
 blocks: []
 blocked_by: []
 baseline_ref: null
 created_at: 2026-10-11T03:26:34Z
-updated_at: 2026-10-17T13:45:00Z
+updated_at: 2026-10-19T23:31:00Z
 ---
 
 # Whole-Philosophy Coherence Review
@@ -35,6 +31,8 @@ Kris judges the established philosophy - the concepts the website was built from
 Parked until most of Arcadia's roadmap is cleared, so the review reads a settled philosophy rather than one still moving underneath it (Kris's decision of 2026-10-12). At each review date, if most of the roadmap is cleared, consider releasing it for progressing; if not, move the review date on by one week and reassess then.
 
 Hold reviewed 2026-10-17, a day late: the roadmap is not yet mostly cleared, with the tools burndown and the awaiting-review backlog still open, so the hold stands and the review moves on one week to 2026-10-23.
+
+Released to `next` on 20 October, ahead of that review date: the condition is met, because the State of play coordinator's second roadmap census of 20 October found five Knowledge Islands Principal records left on the roadmap. Release changes only the horizon; the review itself is not started.
 
 ## Boundary
 
