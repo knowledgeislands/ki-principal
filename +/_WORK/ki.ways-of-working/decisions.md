@@ -426,3 +426,9 @@ BANNER-ON-STATE landed; the hold resumes. Mark struck at 22:42 BST; nothing runn
 ## 2026-10-19 22:49 BST - mark
 
 Kris: "mark". Mark struck at 22:49 BST while on hold; nothing new to strike or prune.
+
+## 2026-10-19 23:22 BST - owner direction, PUSH-NOT-WITH-YOU and HOLD-CLEAN
+
+Kris: "By the way, I'm sick and tired of having with me saying pushing stuff, right? That's not an issue. Can we get that removed? Why'd you need to put that against me? I can just push it. Also this is on hold, but it says on hold pushed to agentic harness. You're not on hold on if you're waiting on something."
+
+Read back taken: PUSH-NOT-WITH-YOU - a push of stacked commits is never a "with you" item or query; it shows only as `[unpushed]` housekeeping, naming the other sessions' commits once in Done, and Kris pushes when he likes. HOLD-CLEAN - an On hold banner lists nothing waiting: no "with you", running or per-repository status item; only `[parked]`, `[unpushed]` where true, and `[release]`. Both go into the harness standard, output style and examples, and the Work Process note's Banner section where it carries the same example (Kris's instruction stands in for a record). Lifts the hold; authorises banner-push-hold.
