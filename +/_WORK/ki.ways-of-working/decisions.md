@@ -414,3 +414,7 @@ Read back taken: the 21:38 direction ("you could add something about it to the S
 ## 2026-10-19 21:36 BST - received method-read-capitals
 
 method-read-capitals put the METHOD-READ line into State of play's `messages.md` in seven capitals, each committed alone and pushed: er `b79d5f9`, hnr `0a58b11`, lgl `d3a545fb`, kb (personal-principal) `9db228f8`, tmx `a257377`, va `582de5a`, and si (si-principal, found in the registry) `38dbd16`. Run on a misreading; the lines are accurate and stand unless Kris says revert.
+
+## 2026-10-19 21:41 BST - received gfm-review
+
+gfm-review (Codex, read-only) agrees with all five GFM recommendations, adding: fix the Decision Record and Activities link parsers first; decide four width-800 image embeds, 10 heading links (the Observatory drops fragments), 2 callouts and templates before their batches; verify per link, not by totals; apply only reviewed paths against unchanged bytes with a rollback manifest; Enactment needs a preview checkpoint. TOUCH-SCOPE held at medium (converter must refuse unsafe files). Confidences lifted where agreed; queries rewritten for Kris.

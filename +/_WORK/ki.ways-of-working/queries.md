@@ -2,77 +2,75 @@
 
 ## Open
 
-### GFM-ORDER - convert ki-principal outright or by touch only
+### GFM-ORDER - convert ki-principal outright, in verified batches
 
-since 2026-10-19 21:36 BST · from gfm-scope · in blind review (gfm-review)
+since 2026-10-19 21:36 BST · from gfm-scope · blind review (gfm-review, Codex) at 21:40 BST: agrees, adding prerequisites
 
-**Context:** Every ki-principal construct except 2 callouts, 2 Dataview blocks, 10 heading links, 7 ambiguous links and the templates converts mechanically: 1,025 wikilinks and 15 embeds. Kris leans to "just do it". Doing it outright needs the harness rule change and a tools-ki converter first. Touch-only converts nothing until files are edited, which leaves the island mixed for months.
+**Context:** ki-principal holds about 1,000 Obsidian links and 15 image embeds; the review reproduced the counts and most convert by script. Some need a decision before their batch writes: four images fixed at width 800, which plain Markdown images cannot express; 10 links to headings, whose heading part the Observatory drops; 2 custom callouts; 2 Dataview blocks; the templates. Two harness checks misread the new link form, and the link audit checks wikilinks only, so those are fixed first. Plan: harness rules and audit fixes, a tools-ki converter with dry run and per-link verification, a 23-link pilot, then Streams, Admin and Pillars. Other islands convert when their owners choose.
 
-**Query:** Should ki-principal be converted outright, in zone batches, once the rule change and converter land?
+**Query:** Should ki-principal be converted outright in zone batches, once the rules, converter, fixes and pilot are verified?
 
 **Options:**
 
-a) (recommended, confidence medium - the inventory shows the work is mechanical, but the converter does not yet exist and the pilot has not run) Land the harness rules and the tools-ki converter, pilot on the 23 links in Resources, Calendar, root and `-`, then batch Streams, Admin and Pillars, followed by the judgement pass and the convention notes.
+a) (recommended, confidence high - reviewed: the blind review reproduced the inventory and agrees, adding the fixes and per-batch exception decisions before any write) staged conversion as above, each batch failing closed on unresolved or unsafe links
 
-b) Adopt the clause now and convert on touch only, with no batches until a later decision.
+b) adopt the GFM preference now and convert on touch only until the pilot proves batches
 
-c) Convert ki-principal by hand now in batches, without building a converter, and leave the other islands until one exists.
+### FLAVOUR-FIELD - drop the per-note flavour field
 
-### FLAVOUR-FIELD - drop the 2026-10-09 front-matter flavour field
+since 2026-10-19 21:36 BST · from gfm-scope · blind review (gfm-review, Codex) at 21:40 BST: agrees
 
-since 2026-10-19 21:36 BST · from gfm-scope · in blind review (gfm-review)
-
-**Context:** On 2026-10-09 the idea was a per-note front-matter field declaring flavour, so the standard could change gradually. Touch-to-convert plus batch rewrites now does that job, and flavour is detectable mechanically. A long-term Obsidian-flavour island could instead declare it once in `.ki.toml`.
+**Context:** On 2026-10-09 the idea was a front-matter field naming each note's flavour, so the change could be gradual. Converting on touch plus batch rewrites now does that job; a field would state intent without checking anything.
 
 **Query:** Should the per-note flavour field be dropped?
 
 **Options:**
 
-a) (recommended, confidence high - detection is mechanical and a declared field would duplicate it and drift) Drop it. Add a repository-level `[skills.ki-authoring]` flavour key only if an island opts to stay Obsidian-flavoured.
+a) (recommended, confidence high - reviewed: both runs agree a field adds upkeep and verifies nothing) drop it; define a repository-level setting only if an island chooses to stay Obsidian-flavoured
 
-b) Keep the per-note field as the marker of a converted note during the transition.
+b) keep a per-note field as the marker of a converted note
 
-### GFM-LINK-FORM - relative angle-bracket paths as the house link form
+### GFM-LINK-FORM - relative links in angle brackets
 
-since 2026-10-19 21:36 BST · from gfm-scope · in blind review (gfm-review)
+since 2026-10-19 21:36 BST · from gfm-scope · blind review (gfm-review, Codex) at 21:40 BST: agrees
 
-**Context:** Only document-relative paths resolve the same on GitHub, Zed, the Observatory and Obsidian. Root-relative `/Admin/...` links work on GitHub but not in Obsidian, and Obsidian's "absolute in vault" form breaks on GitHub. The house standard already prescribes angle brackets for paths with spaces, and 441 ki-principal links point at such paths. Obsidian itself writes `%20`. Relative paths change when the linking file moves outside Obsidian, so a resolution audit becomes essential.
+**Context:** Only links relative to the note, such as `[Note](<../Folder/Note.md>)`, can work in GitHub, Zed, the Observatory and Obsidian alike. The authoring standard already uses angle brackets for paths with spaces; Obsidian itself writes `%20`, and the Observatory reads both. GitHub, Zed and Obsidian navigation are checked in the pilot.
 
-**Query:** Should the house link form for KB notes be document-relative paths in angle brackets?
-
-**Options:**
-
-a) (recommended, confidence medium - this is the only form all four readers resolve, but the cost when files move rests on a new audit) Use document-relative paths in angle brackets, have `ki repo conform` normalise Obsidian's `%20` form, and have the new LINK check fail on any dangling or wrong-case link.
-
-b) Use document-relative paths with `%20` encoding, which matches what Obsidian writes, at the cost of less readable source.
-
-### GFM-ENACT - one Enactment record for the ki-principal conversion
-
-since 2026-10-19 21:36 BST · from gfm-scope · in blind review (gfm-review)
-
-**Context:** The mechanical batches change link syntax across Admin and Pillars but not meaning. The convention notes (`AGENTS.md`, the Charter, Structure, Format, Notes, Obsidian, Tending) and the Wikilink Review Activity need substantive rewording. Under ki-principal's rules, related changes share one record, and Kris's explicit instruction can stand in only for a bounded change.
-
-**Query:** Should a single Roadmap record carry the whole ki-principal conversion through the Enactment Process?
+**Query:** Should the house link form be note-relative paths in angle brackets?
 
 **Options:**
 
-a) (recommended, confidence medium - the scale makes the formatting exemption a stretch, and the convention rewrites need a record in any case) Open one `Streams/Roadmap/` record covering the batches, the judgement pass and the convention notes.
+a) (recommended, confidence high - reviewed: matches the existing authoring convention; the review confirmed Observatory and Obsidian parsing) note-relative paths in angle brackets, `ki repo conform` normalising Obsidian's `%20` form, and an audit failing any dangling or wrong-case link
 
-b) Treat the mechanical batches as exempt formatting and open a record only for the convention notes and the Activity.
+b) note-relative paths with `%20`, as Obsidian writes them
+
+### GFM-ENACT - one Enactment record for ki-principal
+
+since 2026-10-19 21:36 BST · from gfm-scope · blind review (gfm-review, Codex) at 21:40 BST: agrees
+
+**Context:** The batches change link syntax across Admin and Pillars without changing meaning, but the convention notes (`AGENTS.md`, the Charter, Structure, Format, Notes, Obsidian, Tending) and the Wikilink Review Activity need real rewording, so this is not trivial formatting.
+
+**Query:** Should one Roadmap record carry the whole ki-principal conversion through the Enactment Process?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed: related changes share one record under the existing rule) one `Streams/Roadmap/` record covering the batches, exceptions, convention notes and the Activity
+
+b) your explicit bounded instruction in place of a record, with a record only for the convention rewrites
 
 ### TOUCH-SCOPE - what "touch" converts
 
-since 2026-10-19 21:36 BST · from gfm-scope · in blind review (gfm-review)
+since 2026-10-19 21:36 BST · from gfm-scope · blind review (gfm-review, Codex) at 21:40 BST: agrees on the whole file, at lower confidence
 
-**Context:** "If you touch a file, it changes" could mean converting the whole file whenever it is edited, or converting only the lines edited. Whole-file conversion keeps each file single-flavour and is mechanical through the converter. It does add link churn to unrelated diffs, which makes them noisier to review.
+**Context:** "If you touch a file, it changes" could mean the whole file or only the edited lines. Scoping said whole file at high. The review agrees but at medium: a touched file may hold unresolved links, generated content or constructs with no GFM form, so the converter must stop and flag those rather than rewrite them, and generated or protected files need rules before the rule switches on.
 
-**Query:** Does touching a file convert the whole file?
+**Query:** Does editing a file convert the whole file, once the safe converter exists?
 
 **Options:**
 
-a) (recommended, confidence high - single-flavour files are what make the audit and the Obsidian settings coherent) Convert the whole file, using the converter on that path, in the same change.
+a) (recommended, confidence medium - reviewed: the review backs whole-file conversion only once the converter refuses unsafe files; scoping had it high) whole file in the same change, via the converter; an unsafe file is flagged or given a recorded exception
 
-b) Convert only the edited lines and leave the rest for a batch.
+b) edited lines only during the transition, the rest left for a batch
 
 ### METHOD-READ-RUBRIC - flag a non-revision `method_read`
 

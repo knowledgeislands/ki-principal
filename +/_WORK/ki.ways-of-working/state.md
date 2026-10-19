@@ -1,7 +1,7 @@
 ---
 id: ki.ways-of-working
-state: with-worker
-since: 2026-10-19T20:25:00Z
+state: handoff-to-supervisor
+since: 2026-10-19T20:41:00Z
 received: 2026-10-19T16:57:00Z
 beat: null
 mark: 2026-10-19T20:25:00Z
@@ -13,7 +13,7 @@ method_read: eff6163b
 ## Now
 
 - Received from Kris at 20:28 BST: DESIGN-AT-MARK a); design-clause done (harness `9c17df3c`); design-triage received; DESIGN-DELETE a) from Kris at 21:25 BST; design-delete received at 21:29 BST (26 deleted); mark struck at 21:25 BST; the list then goes to blind review and to Kris before any deletion.
-- GFM-MIGRATION unparked by Kris at 21:28 BST; gfm-scope received at 21:34 BST; five queries in blind review (gfm-review).
+- GFM-MIGRATION unparked by Kris at 21:28 BST; gfm-scope received at 21:34 BST; gfm-review received at 21:41 BST; five GFM queries and METHOD-READ-RUBRIC with Kris.
 - METHOD-READ-CAPITALS from Kris at 21:34 BST; method-read-capitals received at 21:36 BST, seven capitals (ran on a misreading; Kris meant GFM); GFM-CAPITALS follows the GFM answers.
 - ROUND-END (20:32 BST): after the design runs, the reviewed delete list and Kris's confirmation, hand pointers to State of play and hold, more expected.
 - Run reports sit in `~/.local/state/ki/agents/ways-of-working/`.
