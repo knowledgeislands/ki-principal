@@ -7,7 +7,7 @@ theme: model
 worker: agent
 supervisor: owner
 state: handoff-to-supervisor
-since: 2026-10-19T10:11:56Z
+since: 2026-10-19T11:25:41Z
 received: 2026-10-19T07:14:00Z
 beat: null
 mark: 2026-10-19T07:47:18Z
@@ -25,6 +25,7 @@ created_at: 2026-10-13T23:50:00Z
 - Sent to Kris 09:05 BST. Open with Kris: ACCEPT-STEP-2, HNR-HOME, TIMELINE-THREAD, DIAGRAM-PIES.
 - Received 09:10 BST: AS-RECOMMENDED-0910, OVERLAY, ROLLOUT-THREAD. Running obs-accept-step2 then obs-overlay (apps-observatory.local), obs-hnr-record (hnr-principal). Timeline and rollout openers given to Kris. Open with Kris: DIAGRAM-PIES.
 - All runs done by 11:11 BST: KI-OBSERVA-APP-043 closed and step 3 plan returned; KI-OBSERVA-VIS-042 diagram overlay in triage; HNR-PRINCIPAL-ENG-002 in hnr-principal. Sent to Kris 11:11 BST. Open with Kris: STEP3-ACT, CONDITION, NEW-MARK, BEACON-NARROW, HEXMAP, CAPITAL-GLYPH, RUN-EVIDENCE, STEP3-TRIAGE, DIAGRAM-PIES, OVERLAY-COMMITTED, ROLLOUT-PROJECT.
+- Received 12:16 BST: STEP3-ANSWERS, DESIGN-HANDED. obs-step3 built KI-OBSERVA-BRG-003 (Awaiting review), updated KI-OBSERVA-VIS-030 and KI-OBSERVA-BCN-008; service restarted 12:25 BST. obs-pies found four email-triage pies in personal-principal and hnr-principal. Sent to Kris 12:25 BST. Open with Kris: BRG-003-REVIEW, CONDITION-HOME, DIAGRAM-PIES, NEW-MARK, BEACON-NARROW, RUN-EVIDENCE, STEP3-TRIAGE, OVERLAY-COMMITTED, PUSH-STACKED.
 
 ## Messages
 
