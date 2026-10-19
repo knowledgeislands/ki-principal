@@ -2,9 +2,21 @@
 
 ## Open
 
-### GIT-HOOKS - Do we need Husky, and should hooks live inside `.git`?
+### GIT-HOOKS - Where hooks live, and whether Husky keeps a role
 
-**Context:** Kris asked at 21:34 BST, before any other hooks query is answered: do we need Husky, what does it bring, can the hooks go inside `.git`, or is outside better? HOOKS-CONVENTION, KB-AUDIT, COMMIT-MSG and ROLLOUT-AUTHORITY wait on this. The githooks run writes the options and a blind review checks them.
+**Context:** You asked whether we need Husky, what it brings, and whether hooks can live inside `.git`. Hooks in `.git/hooks` work, worktrees included, but are untracked and never cloned, so each clone on each machine must be installed by hand and drifts unreviewed. A committed `.githooks` folder reaches every clone and worktree at its revision and needs one binding per clone (`core.hooksPath`); ADR-KI-HARNESS-SKILLS-017 already requires it. Husky only sets that binding on `bun install` and runs files under `.husky`; ki-principal's and the harness's stubs already call that content directly, bypassing Husky's runner. Dropping Husky means amending ki-engineering SCR-5, SCR-11 and PKG-5 and editing the Husky repositories' `prepare` scripts, which the rollout touches anyway. KB-AUDIT then falls away and HOOKS-CONVENTION is answered by this. The blind review checked Git's behaviour in 23 scratch tests and agreed; it adds that a fresh clone still needs the binding under any option, a worktree without `.githooks` commits unchecked, and the rollout must keep both pre-commit and commit-msg and each repository's own checks.
+
+**Query:** Should the estate keep hooks in a committed `.githooks` folder and drop Husky?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed, Git already does what Husky adds once the stub is bound, and one hook home removes KB-AUDIT) Committed `.githooks` everywhere holding all hook content, bound by `core.hooksPath`; `prepare` becomes `git config core.hooksPath .githooks`, and `husky` and `.husky` leave every repository.
+
+b) Committed `.githooks` stubs everywhere, with Husky kept in Bun repositories as the content behind them (HOOKS-CONVENTION a).
+
+c) Husky alone everywhere, adding a package to each repository without one.
+
+d) Hooks inside `.git/hooks`, installed into every clone by `ki repo conform`, with nothing tracked.
 
 ### HOOKS-CONVENTION - Which convention "standardise on Husky" means
 
