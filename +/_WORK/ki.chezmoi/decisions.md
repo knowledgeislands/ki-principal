@@ -93,3 +93,9 @@ home: +/_WORK/ki.chezmoi/work.md class: operational
 - Terra's own screen
 
 Read back as evidence for firewall-freeze: Terra's physical display went black, not a Screen Sharing view, so the freeze was local to Terra rather than a lost remote session.
+
+## Decision 110 (2026-10-19T20:23:46Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- RESEQ, blind review b) high, under Kris's rehearsal go-ahead of 21:04 BST: rewrite the Terra rehearsal with host and phase gates, a filter-only flush, fresh-SSH checks, proven restore and pf reference accounting before Kris runs it. No new owner authority taken.
