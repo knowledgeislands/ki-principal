@@ -4,7 +4,7 @@ state: with-worker
 since: 2026-10-19T20:10:23Z
 received: null
 beat: null
-mark: 2026-10-19T21:12:46Z
+mark: 2026-10-19T21:34:11Z
 method_read: 979e075a
 ---
 
@@ -12,11 +12,10 @@ method_read: 979e075a
 
 ## Now
 
-- With worker; marked at 22:14 BST on 19 October.
+- With worker; marked at 22:32 BST on 19 October.
 - Both Macs carried to `8b9ee66`: five Rig targets and the Dock applied, Paperclip held; only the accepted TOML drift remains.
 - Terra firewall rehearsal passed 22:03–22:06 BST; evidence in KI-TOOL-RIG-CORE-047 (tools-rig `1fc21ff`) and `[firewall.screen-sharing-tailnet]` declared in `core` (chezmoi `dd2a062`), both unpushed, nothing applied ([firewall-record](/Users/krisbrown/.local/state/ki/agents/chezmoi/firewall-record.report.md)).
 - Running: sol-preflight-2. Sol's root pf ruleset is Apple's, with an uncalled `NordVPN` anchor; it finishes the pre-flight and writes the attended `sol-apply.md`.
-- ki-principal commits are blocked from about 22:10 BST by the pre-commit audit error "rubric item LINK-1 audit outcome 0 uses an undeclared level", likely from ki-agentic-harness `624b39f1`; not this work's to fix.
 
 ## Next steps
 

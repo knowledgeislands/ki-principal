@@ -44,54 +44,14 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 
 - Pointer: PAPERCLIP-PLIST, 19 October: Terra's disabled `uk.me.kris.rig.paperclip.plist` stays until the Paperclip rebuild is designed.
 
-## Decision 107 (2026-10-19T20:04:44Z)
-
-home: +/_WORK/ki.chezmoi/work.md class: operational
-
-- RIG-FIREWALL-RUN are you walking me though it?
-
-Read back as option a): Kris runs the Terra rehearsal from Sol now, walked through step by step; a follow-up run records the evidence and commits the `core` declaration, no push or apply.
-
-## Decision 112 (2026-10-19T21:06:37Z)
-
-home: +/_WORK/ki.chezmoi/work.md class: operational
-
-- Terra rehearsal passed at 22:06 BST with Kris attended (A0, B, A1, A2, B, B, A0 all pass). RIG-FIREWALL-RUN a) proceeds: firewall-record writes the evidence and the `core` declaration, no push or apply. RECOVERY-ROUTE answered by Kris being at Terra's console.
-
-## Decision 113 (2026-10-19T21:11:52Z)
-
-home: +/_WORK/ki.chezmoi/work.md class: operational
-
-- I've checked the screen sharing, and if we made it work with Terra, then we can be sure that the same rules on Sol will work, because they're just the same machines, right?
-
-Read back as: Kris has checked Screen Sharing on Terra by hand (tailnet reachability; LAN refusal not yet stated), and asks whether Sol needs its own rehearsal. Answered: the rules carry over; the difference is that pf is currently disabled on Sol (seen at 21:0x BST), so its first apply turns pf on for the first time. A read-only pre-flight of Sol's pf configuration replaces the remove-and-restore rehearsal, pending Kris's agreement.
-
 ## Decision 114 (2026-10-19T21:13:36Z)
 
-home: +/_WORK/ki.chezmoi/work.md class: operational
-
-- I'm happy to go with your suggestion of a quick read-only check of Sol's firewall, and then apply with me on Sol, and then check that screen sharing works from Terra. That's fine.
-
-Read back as SOL-FIREWALL a): read-only pre-flight after firewall-record, then an attended `chezmoi apply` of the named targets on Kris's reviewed diff and `rig apply --sudo` of the firewall target at Sol, then Screen Sharing from Terra. LAN refusal is left unchecked by Kris's choice.
-
-## Decision 115 (2026-10-19T21:26:09Z)
-
-home: +/_WORK/ki.chezmoi/work.md class: operational
-
-- SOL-PF-ROOT: Kris ran the read-only root check (option a). Root rules are Apple's boot ruleset; an uncalled `NordVPN` root anchor exists. Read as safe to enable; sol-preflight-2 finishes step 2, writes `sol-apply.md` with a gate tolerating only the uncalled anchor, and captures the NordVPN bypass in KI-TOOL-RIG-CORE-047.
+- Pointer: SOL-FIREWALL a), Kris on 19 October: read-only pre-flight, then an attended `chezmoi apply` of the named targets on Kris's reviewed diff and `rig apply --sudo` of the firewall target at Sol, then Screen Sharing from Terra; LAN refusal left unchecked.
 
 ## Decision 116 (2026-10-19T21:26:30Z)
 
-home: +/_WORK/ki.chezmoi/work.md class: operational
-
-- no I use NorvVPN on terra really
-
-Read back as: NordVPN is used on Terra, not Sol. The NordVPN-and-anchor interaction in KI-TOOL-RIG-CORE-047 therefore matters on Terra, the laptop; add that at receipt of sol-preflight-2. Whether Sol keeps NordVPN installed is a later Rig lifecycle question, not taken up now.
+- Pointer: Kris on 19 October: NordVPN is used on Terra, not Sol; whether Sol keeps it is a later Rig lifecycle question.
 
 ## Decision 117 (2026-10-19T21:27:50Z)
 
-home: +/_WORK/ki.chezmoi/work.md class: operational
-
-- yes
-
-Read back as: after Sol's apply, write a read-only Terra check for Kris to run with NordVPN connected (root ruleset, whether the Screen Sharing anchor is still evaluated, reachability from tailnet and LAN); its result decides whether the fix lies in Rig (KI-TOOL-RIG-CORE-047) or a NordVPN setting.
+- Pointer: Kris on 19 October: after Sol's apply, a read-only Terra check with NordVPN connected decides whether the fix lies in Rig (KI-TOOL-RIG-CORE-047) or a NordVPN setting; carried as next step 3 in `state.md`.
