@@ -186,3 +186,11 @@ Kris, 18 October:
 > do all the recommended items, we just need to move forwards
 
 Read back as taken: a) for all twelve. STYLE-STALE (a harness run folds the re-read of the style file at re-anchoring into an existing ki-coordination record), PRINCIPAL-CI-RED (one run links this work's reports; Messages lines to ki.chezmoi, ki.tools-burndown and ki.observatory), CLI-150-LAUNCH (planning run to Ready, common rules move first), GOV-197-ACCEPT (independent review, then acceptance with Kris), PRUNE-FOLLOW-UP (one run pins the freed links, including KI-TOOL-KI-CLI-134's, and prunes what is free), DESK-KIT-CLOSE (coordinator reruns the close), ACQUIRE-THREADS (one acquire run), MGIT-RELEASE (wait for the hands-on check), RIG-TAG-SIGN (annotated tag accepted), RIG-DIST-012-ACCEPT (accept as it stands), KI-PIN-ESTATE (one run moves every pin to v0.11.3) and RIG-UPGRADE-MACHINES (Kris upgrades Terra and Sol, then a live-acceptance run).
+
+## 2026-10-19 07:48 BST - owner answers, Summary queries
+
+Kris:
+
+> go ahead with recommendations
+
+Read back as taken: a) for all five. GOV-197-ACCEPT-NOW (a harness run accepts KI-HARNESS-GOV-197 under `ki-accept`, minor notes left), CI-RED-REST (ki.chezmoi and ki.observatory fix their own files; CI rechecked at the next mark), HARNESS-DIRECT (the harness wording lands as a direct commit citing KI-TOOL-KI-CLI-150; taken with "move forwards" as authorising the launch-part delivery run under `ki-implement` to Awaiting review, with no release), PRUNE-BEFORE-PIN (acquire's links left to knowledge-acquisition's next mark; hnr-principal's retired-path reports accepted as spent history) and ACQUIRE-STALE-LINKS (one run in `personal/acquire` repoints the links).
