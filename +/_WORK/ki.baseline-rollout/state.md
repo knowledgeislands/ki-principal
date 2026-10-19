@@ -19,7 +19,8 @@ method_read: 2026-10-19T18:03:40Z
 - `raise-hnr` received 00:09 BST: five triage records in hnr-principal and the three 5g-emerge repositories, committed, unpushed; report kept as `report-raise-hnr.md`; its queries await the batched blind review.
 - `va-plan` received 00:10 BST: four drafts shaped, SITE-003 repaired from evidence and still awaiting review, roadmap audit fails 7 to 0; committed `f0087d7` in apps-vallearmonia.com, unpushed. SANC008-SPLIT and VA-READY await the batched blind review.
 - Standing answer applied to new high-confidence queries: HNR-QUEUE routed to hnr-principal's `hnr` work package; SITE003-CONCERN to run `va-site003-concern`.
-- Running in run `baseline-rollout`: `raise-capitals`, `sizekind-1`, `raise-va`; queued: `va-site003-concern` (after raise-capitals), `sizekind-2` (after raise-va). Records are captured as triage and committed locally, never pushed.
+- `raise-capitals` received 00:14 BST: theme-registry records captured and committed in legal-principal, personal-principal and er-principal, unpushed.
+- Running in run `baseline-rollout`: `sizekind-1`, `raise-va`, `va-site003-concern`; queued: `sizekind-2` (after raise-va). Records are captured as triage and committed locally, never pushed.
 - HOOKS-MIGRATION: the estate moves from Husky to `.githooks` tonight; briefs keep off `package.json`, `bun.lock`, `.husky/`, `.githooks/` and non-dry-run conform.
 
 ## Next steps
