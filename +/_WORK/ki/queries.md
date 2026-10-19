@@ -73,3 +73,34 @@ a) (recommended, confidence medium - every live call and both deletion homes wer
 b) Same as a), except ki.estate-factorisation is deleted too: send its PROJECT-CLOSE, OBS-ACTIVATION, GOVERNANCE and ALIAS-OWNERS items to State of play's `messages.md` first, and leave the Project to be reconciled from there.
 
 c) Keep all six held until the Techne Programme Hold lifts, and delete only ki.regular.command-centre and ki.regular.skill-reviews now.
+
+### HOMELESS-STANDING - standing rules kept with no home in the work's next steps
+
+**Context:** The decisions life cycle wants each standalone or standing entry that has no Decision Record yet to be carried as `homeless: <TAG>` in `state.md`'s next steps, so the Summary shows it. My brief let me change only `method_read` there. The standing entries kept in the log with no other home are:
+
+- the roadmap burn-down focus (14 October);
+- GO-AHEAD (17 October);
+- PRFLOW and PIN (9 October);
+- RIG-REL-PATCH's follow-up releases ask first (14 October);
+- the other territories kept parked (12 October);
+- SPEC-REVIEW and KI-RELEASE ordering (12 October).
+
+**Query:** Should the coordinator add `homeless:` lines for these at its next state write and route each to a proper home?
+
+**Options:** a) (recommended, confidence medium - the standard asks for it, but which entries count as standalone is a judgement) The coordinator adds one `homeless: <TAG>` line per standing entry to `state.md`'s next steps and routes the harness and tools rules (PRFLOW, PIN, RIG-REL-PATCH, burn-down) to ki.ways-of-working for a home in a standard or `AGENTS.md`. b) Leave them in the log until the next mark and decide then.
+
+### CHEZMOI-CARRY - Rig: chezmoi items carried only in its run reports
+
+**Context:** FW-DECLARE, FW-DECLARE-NOW, the SSH-SPARE-KEY console note, the SEAT-RECORD host binding (home to terra, hub to sol) and TOML-OPENER all govern live work in ki.chezmoi. Inside its package they appear only in run reports, which get deleted at its tidies. None of them is in its decisions log or queries, and the firewall declaration is not yet in the chezmoi source. So I kept them here rather than reducing them to pointers.
+
+**Query:** Should State of play send ki.chezmoi one messages line asking it to carry these in its own package, so the next mark can strike them here?
+
+**Options:** a) (recommended, confidence high - this is a route line within State of play's authority, and it changes nothing in chezmoi) Send one line to ki.chezmoi's `messages.md` naming the five items, and strike them here once its package carries them. b) Keep them here until ki.chezmoi finishes.
+
+### MODEL-FALLBACK - a spent instruction kept
+
+**Context:** On 14 October Kris said: "If any of our threads get stuck, change them to claude-opus-5-5 at their same effort, at least until the next reset." The reset it waited for has long passed. No home carries it, so under the strike rule I kept it.
+
+**Query:** Can a time-bound instruction whose window has passed be struck at the next mark without a home?
+
+**Options:** a) (recommended, confidence medium - it no longer governs anything, but the strike rule as written needs a home) Yes: strike it at the next mark, and strike any later entry that is spent and bounded in time in the same way. b) Keep it until the standard says how spent entries are handled.

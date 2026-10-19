@@ -1,7 +1,7 @@
 ---
 id: ki
-state: with-worker
-since: 2026-10-19T17:58:50Z
+state: handoff-to-supervisor
+since: 2026-10-19T18:08:21Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-10-19T17:58:50Z
@@ -12,9 +12,9 @@ method_read: 2026-10-19T17:59:32Z
 
 ## Now
 
-- With worker since 18:58 BST on 19 October, on sol: sent back by Kris and received; mark struck at 18:58 BST.
-- Running in run `state-of-play`: `sop-mark` (FIRST-STEP and the decisions strike) and `review-hold` (live or dead for the six held work folders). Reports land in this folder.
-- Open with Kris: PILOT-SEED-HOME, LIVE-MAN-SWITCH, THREADS-CHECKINS, RIG-FULLSCREEN.
+- Handoff to supervisor since 19:08 BST on 19 October, on sol; the move lies with Kris. Received at 18:58 BST and marked at 18:58 BST.
+- Nothing running. `sop-mark` checked the package and struck the decisions log from 261 entries to 28 (commit 6252698a); `review-hold` assessed the six held work folders ([report](review-hold.report.md)).
+- Open with Kris: REVIEW-HOLD, HOMELESS-STANDING, CHEZMOI-CARRY, MODEL-FALLBACK, PILOT-SEED-HOME, LIVE-MAN-SWITCH, THREADS-CHECKINS, RIG-FULLSCREEN.
 
 ## Queue
 
@@ -24,7 +24,7 @@ method_read: 2026-10-19T17:59:32Z
 
 ## Next steps
 
-1. Receive `sop-mark` and `review-hold`; raise REVIEW-HOLD to Kris as one query.
+1. On Kris's answers: act on each open query in `queries.md`, dispatching any work they authorise.
 2. At a session with the terra checkout (sol is not terra): PILOT-SEED, after a fetch, once PILOT-SEED-HOME is answered ([pilot-seed report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/pilot-seed.report.md)); STASH-DROP, approved on 16 October (FIRST-WAVE): delete `refs/rebase-repair/autostash-f091d468` in ki-principal on terra once nothing still needs it.
 3. Later: keep the burn-down moving through the Project work, then offer the ki release and the specification review; the Paperclip rebuild once the work model settles ([Paperclip capture and rebuild](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/paperclip-capture-and-rebuild.md)); rebuild vega.
 4. Follow-ups, no Kris action: clean up old knowledge-base aliases in `~/workspaces/claude-desktop/` at Kris's next Cowork session; the retired `kit-mcp-gmail` entry remains in the chezmoi `.chezmoiignore` for Rig: chezmoi.
