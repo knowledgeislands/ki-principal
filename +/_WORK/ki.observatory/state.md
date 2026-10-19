@@ -10,6 +10,7 @@ method_read: 84b61942
 
 # ki.observatory state
 
+- 00:41 BST received obs-review-4: RESTRUCTURE stays medium (agrees on a), disagrees on folding Work now); factual corrections to KI-OBSERVA-APP-044 (renderer name, shell and CLI alias handling, Review rename independence) are high and non-destructive, so obs-app044-fix is queued after obs-vis041-build.
 - 00:36 BST received obs-app044-plan: KI-OBSERVA-APP-044 planned and set to now, still draft (063b585, local); OPS-004 and VIS-029 hold reworded; RESTRUCTURE (medium) in blind review under obs-review-4; obs-vis041-plan starts.
 - 00:33 BST received obs-harness-handoffs: KI-HARNESS-GOV-226 (banner rendered glyphs, BANNER-GLYPHS a)) and KI-HARNESS-GOV-227 (repository storage declarations, STORAGE-OWNER a)) captured at triage in ki-agentic-harness (0f9eedf7, 5daad99e, local), audit FAIL=0; adoption stays with the harness queue.
 
