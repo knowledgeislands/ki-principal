@@ -11,6 +11,7 @@ method_read: 9c17df3c
 
 ## Now
 
+- hookconf finished 23:16 BST: KI-TOOL-KI-CLI-163 githooks conversion Awaiting review, local tools-ki commits d33a38e5..1f39dc52 (includes the KI-TOOL-KI-CLI-161 retitle), 1,405 tests 100%, audit no failures. Queries VA-HOOKS, HOOK-RELEASE and HOOK-CAPTURE at blind review (hcreview, Codex). wave1 steered: local source build, tools-ki and ki-principal first, va-principal held for VA-HOOKS.
 - gfmconv finished 22:50 BST: KI-TOOL-KI-CLI-162 `ki markdown gfm` Awaiting review, 13 requirements, 24 fixtures, gate green except ITEM-1 on KI-TOOL-KI-CLI-161's title; ki-principal dry run 457 files, 1,004 links, the 29 unresolved and 5 ambiguous match the review. Not released. CLI161-TITLE taken by the coordinator as a), sent to hookconf's inbox (this work captured -161). ki.ways-of-working told. Next: after hookconf, a blind-reviewed release query for -162 and the conform change.
 - hookstd finished 22:41 BST: harness `95a1ab58`, local only, `feat(hooks): standardise committed githooks and retire husky` (ADR-KI-HARNESS-SKILLS-017 refined in place, HOOK-2 to HOOK-5, PKG-5, PKG-6, SCR-5, SCR-11, ki-git, GATE-1, wording in three standards); SCR5-CONFORM (high) to Kris.
 - 22:33 BST: WAVE-PLAN a) granted; wave1 queued after hookconf, and it checks hookstd has landed before converting.
