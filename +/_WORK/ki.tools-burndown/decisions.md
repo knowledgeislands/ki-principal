@@ -1,6 +1,6 @@
 # Decisions
 
-Struck at the mark of 2026-10-19T21:13:09Z. Git history holds every struck entry; [historical-decisions.md](design/historical-decisions.md) keeps the 11 to 14 October log as evidence.
+Struck at the mark of 2026-10-19T22:45:48Z. Git history holds every struck entry; [historical-decisions.md](design/historical-decisions.md) keeps the 11 to 14 October log as evidence.
 
 ## Standing push and branch-delete authorities (16 October)
 
@@ -47,9 +47,6 @@ Kris, 22:02 BST: "ok - I'm good with the recommendations, but one final thing on
 
 Kris, 22:11 BST: "I agree with the recommendations. You may think though that perhaps given the usefulness of githooks that we should add some mechanical checks for this in the audit. I think that's actually a massive area that we need to go back and look at anyway, but that's probably something to pass up to the state of play." COMMIT-MSG a): `ki git check-message` for `.githooks/commit-msg`, pre-commit only until it ships. ROLLOUT-AUTHORITY a): one owner grant per wave, runs commit by explicit path locally, Kris pushes. HOOK-AUDIT: mechanical hooks checks join this work's rubric change. The estate-wide conformance audit went to State of play as AUDIT-CONFORMANCE.
 
-Kris, 22:33 BST: "go with recommendations". WAVE-PLAN a): wave 1 granted, the pilot in ki-principal, tools-ki and va-principal, to run after the harness rule change (hookstd) and the tools-ki conform change (hookconf) land; runs commit locally by explicit path and Kris pushes; later waves come back to Kris one at a time.
-
-- CLI161-TITLE (19 October, 22:51 BST): taken by the coordinator as a), this work having captured KI-TOOL-KI-CLI-161; hookconf retitles it.
 - Kris, 19 October 23:21 BST: "Go ahead with the recommendations. Although the hook release, I'm not sure we need to wait for a repo confirmed because we'll never get there. So can we just get on with it? Happy for you to do it now, straight off the back of this." Taken: SCR5-CONFORM a), VA-HOOKS a), HOOK-CAPTURE a), and HOOK-RELEASE b): release now, granting this work the ki release, tag and tools-ki push. HOOK-GUARD reached Kris after this answer and stays open.
 - Kris, 19 October 23:21 BST: "There are 23 tickets across triage for the tool projects, can we get those triaged immediately?" Taken: triage every triage record in tools-ki, tools-mgit and tools-git-almanac now, commits local.
 - Kris, 19 October 23:24 BST: "No, let's just migrate everything to the new form of hooks right now. Let's just get rid of the husky stuff across the entire estate. Let's just make it happen, if that's the plan, let's do it." Taken: HOOK-GUARD b), no opt-in switch; waves 2 to 5 collapse into one estate-wide migration of every `.ki.toml` repository on the released ki, commits local; then HOOK-3 to HOOK-5 move from WARN to FAIL, as HOOK-AUDIT set.

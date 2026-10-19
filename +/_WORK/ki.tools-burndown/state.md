@@ -1,7 +1,7 @@
 ---
 id: ki.tools-burndown
 state: with-worker
-since: 2026-10-19T21:08:53Z
+since: 2026-10-19T22:45:48Z
 received: 2026-10-19T18:00:08Z
 beat: null
 method_read: 9c17df3c
@@ -11,27 +11,13 @@ method_read: 9c17df3c
 
 ## Now
 
-- Kris took KNIP-HUSKY a), MGIT-030-NEXT a) and MGIT-026-SIZE a): knipfix held on granola (last tools-ki writer in the chain), mgitplan running in tools-mgit.
-- release finished 23:41 BST short of publishing: KI-TOOL-KI-CLI-163 done (aa37f512), -157 blocker fixed (e5224f33), -162 already accepted and pruned by another session; stopped on the release guide's harness pin bump. HARNESS-PIN-FETCH taken a) under the release grant; release2 held on tritools. estmig-org steered to the source-linked ki; granola told to commit after release2.
-- messages 23:37 BST: GRANOLA-TRUST (IMPORTANT, Personal > Acquire intake) taken: granola run held on tritools captures, plans and delivers the tools-ki change, no release, ledger file untouched. REFRESH-BANNER (ki.ways-of-working) applied: ESTATE-PUSH withdrawn as a query under PUSH-NOT-WITH-YOU; migration commits stay local and show as [unpushed] housekeeping. KNIP-HUSKY at blind review qreview5.
-- wave1 finished 23:31 BST: tools-ki d88d494b, ki-principal 2646d94b, va-principal 7f61803 converted and proven, local (ki-principal pushed under the standing grant). Pilot passed on the source build. Estate runs told to add Knip ignores by hand, restore the unrelated .rumdl.toml rewrite and test refusal with only git on PATH. KNIP-HUSKY to blind review. Outstanding: the ki-authoring .rumdl.toml drift (conform drops MD005 and MD075 disables); va-principal commit-msg waits on KI-TOOL-KI-CLI-161; tools-ki ITEM-5 on KI-TOOL-KI-CLI-157 after another session pruned -155.
-- trimga finished 23:24 BST: tools-mgit's 3 triage records adopted (KI-TOOL-MGIT-CLI-027 Next, -029 Soon, -030 Soon high), commit 977bec6 local; tools-git-almanac had none. MGIT-030-NEXT and ESTATE-PUSH at blind review qreview4 (ESTATE-PUSH reached Kris before review, a lapse). messages.md: ACCEPT-AWAITING from ki (23:19) is covered by the release run, which accepts KI-TOOL-KI-CLI-163; line removed.
-- Kris ordered the whole estate off Husky now (HOOK-GUARD b), waves 2 to 5 collapsed): estmig-org held on release, estmig-ki held on tritools and ends by moving HOOK-3 to HOOK-5 to FAIL. Commits local; push needs Kris. State of play told.
-- Kris took the recommendations, with HOOK-RELEASE b) release now, and asked for the tool triage at once: release held on wave1, tritools (HOOK-CAPTURE records, design note, tools-ki triage) held on release, trimga (tools-mgit and tools-git-almanac triage) running; wave1 given VA-HOOKS a). HOOK-GUARD open.
-- hcreview finished 23:19 BST: agreed a) on VA-HOOKS, HOOK-RELEASE and HOOK-CAPTURE (all lifted to high; HOOK-CAPTURE ownership corrected) and found the source-linked `ki` already exposes the unreleased conversion; HOOK-GUARD raised, IMPORTANT warning sent to State of play at 23:20 BST.
-- hookconf finished 23:16 BST: KI-TOOL-KI-CLI-163 githooks conversion Awaiting review, local tools-ki commits d33a38e5..1f39dc52 (includes the KI-TOOL-KI-CLI-161 retitle), 1,405 tests 100%, audit no failures. Queries VA-HOOKS, HOOK-RELEASE and HOOK-CAPTURE at blind review (hcreview, Codex). wave1 steered: local source build, tools-ki and ki-principal first, va-principal held for VA-HOOKS.
-- gfmconv finished 22:50 BST: KI-TOOL-KI-CLI-162 `ki markdown gfm` Awaiting review, 13 requirements, 24 fixtures, gate green except ITEM-1 on KI-TOOL-KI-CLI-161's title; ki-principal dry run 457 files, 1,004 links, the 29 unresolved and 5 ambiguous match the review. Not released. CLI161-TITLE taken by the coordinator as a), sent to hookconf's inbox (this work captured -161). ki.ways-of-working told. Next: after hookconf, a blind-reviewed release query for -162 and the conform change.
-- hookstd finished 22:41 BST: harness `95a1ab58`, local only, `feat(hooks): standardise committed githooks and retire husky` (ADR-KI-HARNESS-SKILLS-017 refined in place, HOOK-2 to HOOK-5, PKG-5, PKG-6, SCR-5, SCR-11, ki-git, GATE-1, wording in three standards); SCR5-CONFORM (high) to Kris.
-- 22:33 BST: WAVE-PLAN a) granted; wave1 queued after hookconf, and it checks hookstd has landed before converting.
-- wvreview finished 22:19 BST: agrees WAVE-PLAN a), now high and with Kris. hookstd launched (harness standard and rubric change, local) and hookconf queued after gfmconv (tools-ki conform change), both under HOOKS-STANDARD.
-- hooksv2 finished 22:16 BST: hooks-standard rewritten to the decided shape with HOOK-AUDIT checks (HOOK-3 to HOOK-5, WARN then FAIL) and the exact harness changes; KI-TOOL-KI-CLI-161 (`ki git check-message`) captured in tools-ki, local. WAVE-PLAN (medium) to wvreview.
-- Marked at 22:13 BST on 19 October; decisions struck to live entries, work folder pruned.
-- Running: hooksv2 (hooks design for the decided shape, mechanical audit checks, tools-ki `ki git check-message` record); gfmconv queued after it (GitHub-flavoured Markdown converter in tools-ki).
-- Released today: `ki` v0.11.5 at `395060ae` and mgit v0.18.0 at `9a3564d`; KI-TOOL-MGIT-CLI-028 and KI-TOOL-MGIT-CLI-023 accepted.
-- Captured today, local only: KI-TOOL-KI-CLI-160 and the BIOME-CI-STANDARD note on KI-TOOL-KI-CLI-156 (tools-ki, 4 commits); KI-TOOL-RIG-CORE-065 to -067 (tools-rig, 2); KB-DOTFILES-UE-099 (chezmoi, 2); KI-TOOL-MGIT-CLI-030 (tools-mgit, 2). Unpushed until Kris says push.
-- Unblocked: the ki-principal commit gate passed again at the mark; the LINK-1 rubric error had cleared.
-- With Kris: no open queries; ASK-B parked; the rig.midnight.ninja reply in [rig-site-reply](design/rig-site-reply.md) to pass on.
-- Flagged: another session wrote KI-TOOL-KI-CLI-159 in tools-ki despite OWNER-LANE; it shipped in the v0.11.5 tag.
+Mark at 23:45 BST, 19 October.
+
+- Hooks: pilot done and proven (tools-ki d88d494b, ki-principal 2646d94b pushed, va-principal 7f61803 local). Kris ordered the whole `.ki.toml` estate off Husky tonight: estmig-org converting other organisations on the source-linked ki; estmig-ki queued after tritools, ending with HOOK-3 to HOOK-5 at FAIL. Estate runs add Knip ignores by hand, restore the stray `.rumdl.toml` rewrite and test refusal with only git on PATH. Commits stay local; pushing is housekeeping, not a query (PUSH-NOT-WITH-YOU).
+- Release: KI-TOOL-KI-CLI-163 done (aa37f512), KI-TOOL-KI-CLI-157 blocker fixed (e5224f33), KI-TOOL-KI-CLI-162 accepted and pruned by another session. release2, queued after tritools, bumps the harness pin (HARNESS-PIN-FETCH a), cuts v0.12.0, pushes tools-ki and upgrades Homebrew `ki` (installed 0.11.5).
+- tools-ki chain, one writer at a time: tritools (HOOK-CAPTURE records, hooks design note, tools-ki triage of 11 records) -> release2 -> granola (GRANOLA-TRUST, Acquired folder alone) -> knipfix (KNIP-HUSKY a), Knip reads `.githooks`, harness guidance).
+- tools-mgit: triage done (977bec6 local); mgitplan promoting KI-TOOL-MGIT-CLI-030 to Next and returning its nine design choices as queries. MGIT-026-SIZE a) applies when KI-TOOL-MGIT-CLI-026 is planned. tools-git-almanac has no records.
+- Outstanding: ki-authoring `.rumdl.toml` drift (conform drops MD005 and MD075 disables); va-principal `commit-msg` waits on KI-TOOL-KI-CLI-161; estate Knip cleanup after the next release; KI-TOOL-KI-CLI-159 OWNER-LANE flag; rig-site-reply still to pass on.
 
 ## Next steps
 
