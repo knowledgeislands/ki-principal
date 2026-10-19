@@ -10,6 +10,8 @@ method_read: 84b61942
 
 # ki.observatory state
 
+- 00:33 BST received obs-harness-handoffs: KI-HARNESS-GOV-226 (banner rendered glyphs, BANNER-GLYPHS a)) and KI-HARNESS-GOV-227 (repository storage declarations, STORAGE-OWNER a)) captured at triage in ki-agentic-harness (0f9eedf7, 5daad99e, local), audit FAIL=0; adoption stays with the harness queue.
+
 ## Now
 
 - 00:30 BST received obs-build-vis044 (KI-OBSERVA-VIS-044 Awaiting review, 6fa1837; the Claude chat's claim on VIS-044 is now moot); obs-app044-plan started.
