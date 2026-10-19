@@ -20,7 +20,7 @@ created_at: 2026-10-09T20:58:00Z
 
 Marked at 13:37 BST on 19 October. Run reports sit in `~/.local/state/ki/agents/ways-of-working/`. SoP is back (11:05 BST); write nothing to `+/_WORK/ki/` this morning, and anything for SoP goes to Kris as a query.
 
-1. Running: work-package-revise-2 (STATE-FILE b): five files with `state.md` restored, readers first), then query-review-4 (Codex, blind); then the revised queries to Kris. No rename or migration until Kris answers.
+1. Running (14:03 BST): query-review-4 (Codex), then work-package-standard (harness rename to `ki-work-package` with alias, standard and ki-coordination rewritten, design note finalised) and work-package-enact (ki-principal Work Process note, GDR-KI-PRINCIPAL-009, `.ki.toml`) in parallel; fields-pilot-markhowarth now. Then: Messages lines to ki.tools-burndown and ki.observatory for both-shape readers (from work-package-standard's report), reinstall checks, the gated migration pass with this folder as pilot (MIGRATE-GATE needs Kris's confirmation that no other session resumes), and the field runs personal-principal, hnr-principal, 5g-emerge-phase2, legal-principal after the pilot.
 2. Done: fields-follow-up (harness standard and checkers, GDR-KI-PRINCIPAL-016 amended, inventory of 341 records in 51 repositories).
 3. With tools-burndown (Messages line sent 12:04): VALIDATOR-PARITY record after KI-TOOL-KI-CLI-155, plus the `ki work` sort, gap listing and checks to match; KI-TOOL-KI-CLI-155 and KI-TOOL-KI-CLI-156 at triage.
 4. With ki.chezmoi (Messages line RIG-LIVE): KB-DOTFILES-UE-091 without ChatGPT and the firewall declaration; then Kris's attended Rig applies; then acceptance of KI-TOOL-RIG-CORE-042 and -047.
