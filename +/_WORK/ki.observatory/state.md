@@ -12,6 +12,7 @@ method_read: 84b61942
 
 ## Now
 
+- 00:18 BST received obs-build-brg006 (KI-OBSERVA-BRG-006 Awaiting review, 107c852) and obs-site044-record (KI-WEBSITE-SITE-044 Awaiting review, f9f03f5); message ROADMAP-CENSUS-2 recorded and acted on: obs-app044-plan queued after obs-build-brg005, obs-two-queries drafting BANNER-GLYPHS and STORAGE-OWNER.
 - 00:15 BST relaunched obs-site044-record: the website's hooks change is committed (783effb) and the tree is clean; the brief adds a frozen-lockfile install before the checks.
 - 00:07 BST received obs-build-vis043 (KI-OBSERVA-VIS-043 Awaiting review, f81db93; service restarted) and obs-site044-record (blocked: website checks fail on missing dependencies while another session converts its hooks; relaunch the same brief once apps-knowledgeislands.info's hooks change is committed and installed). KI-OBSERVA-VIS-033 was pruned by another session (ddef90c), so no prune query is needed.
 - 00:06 BST received obs-triage-apply (dff8890: 5 now, 3 next, 1 soon, VIS-033 merged into APP-044, 9 held, audit FAIL=0) and obs-lane-sweep (no triage or Awaiting review records in the lane); under TRIAGE-ALL launched obs-design-batch (five ki-design v0 records, LANE-TRIAGE a) high) and obs-site044-record (KI-WEBSITE-SITE-044 to Awaiting review); pruning KI-OBSERVA-VIS-033 and accepting SITE-044 wait for Kris after blind review.
