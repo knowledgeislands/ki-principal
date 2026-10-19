@@ -26,7 +26,7 @@ Kris, 17 October: "Keep -/_DIGESTS/ as the declared scaffold."
 
 ## Pointers
 
-- HOST-WRITES (14 October): the replacement-policy investigation stays parked with Techne: agent-host; held in [ki.estate-factorisation](../../_WORK_REVIEW/ki.estate-factorisation/work.md).
+- HOST-WRITES (14 October): the replacement-policy investigation stays parked with Techne: agent-host; held in [ki.estate-factorisation](../ki.estate-factorisation/work.md).
 - HOST-GUARDS (14 October): [KI-TOOL-TECHNE-CLI-006](/Users/krisbrown/workspaces/knowledge-islands/tools-techne/docs/roadmap/KI-TOOL-TECHNE-CLI-006-guarded-host-commands.md) stays on Hold, review on 12 November; the record carries it.
 - FOOTER-GRANTS (16 October): separate `--allow fetch` and `--allow machine` grants; [KI-TOOL-KI-CLI-134](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-134-launch-footer-follows-brief.md) carries it.
 - SIZE-PRIORITY (19 October): Kris, "work should have a size and a priority, even if its horizon isn't now or next"; handed to Ways of working through its Messages section, and Kris confirmed the handoff done on 19 October; [ki.ways-of-working](../ki.ways-of-working/work.md) carries it.

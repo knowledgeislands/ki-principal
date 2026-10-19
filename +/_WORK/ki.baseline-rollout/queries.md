@@ -50,4 +50,5 @@ b) Leave it as it is, since the source runner comes first on PATH for interactiv
 
 ## Parked
 
-None.
+- **CHECKLIST** - from the old ki.baseline-rollout package, held since 15 October: whether to adopt the stock Repository review Activity across the estate. Recommended: adopt it estate-wide only once Kris approves it for the Capital first.
+- **PIN-PAYLOAD** - from the old ki.baseline-rollout package, parked 10 October with the pin-receiver idea: `update-ki-pin.yml` filters on `client_payload.source_repository` but tools-ki `release.yml` sends `client_payload.repository`, so `tool-release-published` dispatches would be skipped; the Capital's `.github/ki-version` and `update-ki-pin.yml` stay inert until the tools-release bot App and secrets are on it. Recommended: align the two field names when the pin-receiver idea is revived.
