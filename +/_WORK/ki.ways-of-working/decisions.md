@@ -347,37 +347,15 @@ Kris: "Okay, I've done a push. Is there anything else that you're waiting for me
 
 Read back taken: the ki-principal stack is pushed; nothing of this work's waits on Kris.
 
-## 2026-10-19 20:14 BST - owner answer, push
+## 2026-10-19 20:28 BST - DESIGN-AT-MARK (pointer)
 
-Kris: "You're absolutely right, I wasn't pushing in the right place. That's a bit annoying. Its now pushed."
-
-Read back taken: the ki-principal stack is pushed. DESIGN-TRIAGE (triage and blind review of `design/`, plus resolving graduated notes at each mark) offered, not yet answered.
-
-## 2026-10-19 20:17 BST - owner direction, DESIGN-AT-MARK review
-
-Kris: "Are you confident though that that's going to be the right approach, worth an extra check??"
-
-Read back taken: DESIGN-AT-MARK (resolve graduated design notes at each mark rather than only at Project close) is medium confidence, its rationale for the present exemption inferred rather than read; it goes to one blind review on Codex (design-review) before it returns to Kris. The `design/` triage waits for the answer.
-
-## 2026-10-19 20:20 BST - received design-review
-
-design-review (Codex, read-only) agreed with DESIGN-AT-MARK a) at high: no rationale for a Project-long exemption exists; the adopted rule (`8f23d27c`), `ki-work-package`'s tidy rule and GDR-KI-PRINCIPAL-009 delete design on graduation, close being a backstop. Its guards are copied into the query. Rough count of this `design/`: 10 graduated, 27 obsolete, 7 live; triage candidates, not a deletion manifest. Confidence lifted to high, reviewed.
-
-## 2026-10-19 20:28 BST - owner decision, DESIGN-AT-MARK
-
-Kris: "agreed witht eh recommendation"
-
-Read back taken: DESIGN-AT-MARK a) - the standard's prune clause is aligned so each mark reviews `design/` and resolves graduated or superseded notes under the graduation guards, keeping the close-out gate; this work's `design/` is triaged into a delete list, blind-reviewed, for Kris to confirm before anything is deleted. Authorises design-clause (harness: clause, generated surfaces, and the pending `hooks/README.md` alignment; commit, push fast-forward only when its own commits alone are stacked) and design-triage (ki-principal, read-only list), then a blind review of the list.
+Kris: "agreed witht eh recommendation". Rule homed in harness `9c17df3c`; this work's deletions run under DESIGN-DELETE.
 
 ## 2026-10-19 20:32 BST - owner direction, ROUND-END
 
 Kris: "I have to say I'm getting a bit lost with all the work at the minute ... It'd be good if your work was finished in somewhere." Then: "well, it doesn't have to be a final farewell, I think ways of working will still need some work, but it would be good to get to the end of this round"
 
 Read back taken: ROUND-END - this round ends in a hold, more expected, not Project close. Finish design-clause and design-triage, put the reviewed delete list to Kris once, carry out what he confirms, hand cross-work pointers to State of play in one `messages.md` line, then hold. State of play is Kris's single guide across works; this work launches nothing new this round.
-
-## 2026-10-19 20:32 BST - received design-clause
-
-design-clause put DESIGN-AT-MARK into the harness (`9c17df3c`, pushed fast-forward alone): the prune clause keeps only live design notes and reviews `design/` at each mark under new design-note guards in the standard; the work-design, work-package and output-style surfaces align, and `hooks/README.md` now matches the current hook line. Tests 1,286 pass, type check and audits clean. DESIGN-AT-MARK's rule part is homed.
 
 ## 2026-10-19 20:38 BST - received design-triage
 
@@ -386,3 +364,13 @@ design-triage (read-only) sorted the 44 `design/` files: delete 28 (25 applied m
 ## 2026-10-19 20:46 BST - received delete-review
 
 delete-review (Codex, read-only): migration-plan group and `work-folder.md` delete at high, after rewriting harness `standards-work-package.md:77` (and an Acquire intake run report's link, left to that work's prune); the two thread-model notes keep at high, as some of Kris's original words (banner request, BANNER-LETTERS, BANNER-MARK confirmation, DECISION-HOME, DESIGN-RETENTION rationale) have no durable home. DESIGN-DELETE now recommends the 26, reviewed high.
+
+## 2026-10-19 21:25 BST - owner decision, DESIGN-DELETE
+
+Kris: "as recommended"
+
+Read back taken: DESIGN-DELETE a) - delete the 25 migration-plan files and `work-folder.md` in one commit, with harness `standards-work-package.md:77` rewritten so it no longer cites the note; keep the two thread-model notes until Kris's words in them are homed. Authorises design-delete (ki-principal and harness; commit by path, push fast-forward only when its own commits alone are stacked).
+
+## 2026-10-19 21:25 BST - mark
+
+Kris: "mark". Mark struck at 21:25 BST; 5 entries since the 20:10 mark struck or reduced to pointers; PAPERCLIP-REQ's pointer now names `state.md`.

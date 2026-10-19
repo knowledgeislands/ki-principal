@@ -1,10 +1,10 @@
 ---
 id: ki.ways-of-working
-state: handoff-to-supervisor
-since: 2026-10-19T19:46:00Z
+state: with-worker
+since: 2026-10-19T20:25:00Z
 received: 2026-10-19T16:57:00Z
 beat: null
-mark: 2026-10-19T19:10:00Z
+mark: 2026-10-19T20:25:00Z
 method_read: eff6163b
 ---
 
@@ -12,7 +12,7 @@ method_read: eff6163b
 
 ## Now
 
-- Received from Kris at 20:28 BST: DESIGN-AT-MARK a); design-clause done (harness `9c17df3c`); design-triage received; DESIGN-DELETE reviewed and with Kris; the list then goes to blind review and to Kris before any deletion.
+- Received from Kris at 20:28 BST: DESIGN-AT-MARK a); design-clause done (harness `9c17df3c`); design-triage received; DESIGN-DELETE a) from Kris at 21:25 BST; design-delete running; mark struck at 21:25 BST; the list then goes to blind review and to Kris before any deletion.
 - ROUND-END (20:32 BST): after the design runs, the reviewed delete list and Kris's confirmation, hand pointers to State of play and hold, more expected.
 - Run reports sit in `~/.local/state/ki/agents/ways-of-working/`.
 
@@ -25,6 +25,7 @@ method_read: eff6163b
 5. With ki.chezmoi (RIG-LIVE): KB-DOTFILES-UE-091 without ChatGPT and the firewall declaration; then Kris's attended Rig applies; then acceptance of KI-TOOL-RIG-CORE-042 and -047.
 6. With ki.tools-burndown: accept the mgit hands-on record and release mgit once (MGIT-RELEASE a)); check passed 19:42 BST. Harness CI's pinned v0.11.3 run after `bda6e4a0` still to confirm.
 7. Outstanding, not this work's: pre-existing CI red in apps-observatory.local, mcp-m365, tools-mgit and ki-techne-harness; acquire-intake's ACQUIRE-DECISIONS-LINKS; untracked KI-HARNESS-GOV-220 and KI-TOOL-KI-CLI-154.
+8. Next round: graduate the seven `design/` files design-triage marked (design.md, the work-model pair, work-package.md, the three bring-up files), then delete the two thread-model notes once Kris's words in them are homed.
 
 ## Held
 
