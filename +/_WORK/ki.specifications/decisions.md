@@ -15,3 +15,7 @@ Read back taken: SEND-BACK - receive the work, strike the mark at 19:00 BST, rec
 ## Pointer - SPECIFICATIONS-PROJECT
 
 Kris's SPECIFICATIONS-PROJECT, 19 October, in [ki.ways-of-working's decisions](../ki.ways-of-working/decisions.md), sets this Project's scope and the spec handoff.
+
+## Pointer - QUERY-REVIEW and REFRESH-RESUMMARY
+
+Kris's QUERY-REVIEW and QUERY-REVIEW-STANDARD, 19 October, live in the ki-coordination standard; REFRESH-RESUMMARY, Kris 19 October, "I want the other threads to pick it up and resummary me so that I get the better recommendations", reached this work through ki.ways-of-working's REFRESH line and authorises the query-review run.
