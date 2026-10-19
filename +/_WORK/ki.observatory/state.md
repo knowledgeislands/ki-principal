@@ -1,8 +1,8 @@
 ---
 id: ki.observatory
-state: with-worker
-since: 2026-10-19T18:21:00Z
-received: 2026-10-19T18:21:00Z
+state: handoff-to-supervisor
+since: 2026-10-19T18:26:00Z
+received: 2026-10-19T18:25:00Z
 beat: null
 mark: 2026-10-19T18:02:00Z
 method_read: 2026-10-19T18:02:00Z
@@ -12,22 +12,20 @@ method_read: 2026-10-19T18:02:00Z
 
 ## Now
 
-- Sent back to the worker and marked at 19:02 BST on 19 October; the work package was re-read and its migrated description, Goals and Scope confirmed.
-- Received obs-reader at 19:13 BST: KI-OBSERVA-VIS-025 now reads both work-folder shapes and is Awaiting review, committed locally; the Work Instrument confirmation was returned to ki.ways-of-working.
-- Received obs-burndown at 19:20 BST: KI-OBSERVA-APP-043 pruned (35 to 34 records); four done records kept for peer links; one commit, 837ee05, unpushed in apps-observatory.local. Its queries BURNDOWN-ACCEPT and BURNDOWN-TRIAGE are in blind review (obs-query-review, Codex) before they go to Kris; the report is at `~/.local/state/ki/agents/observatory/obs-burndown.report.md`.
-- The Observatory service serves KI-OBSERVA-BRG-003, Awaiting review.
+- With Kris since 19:26 BST on 19 October; marked at 19:02 BST.
+- Nothing is running; the open queries are in `queries.md`, the burndown ones blind-reviewed.
+- The Observatory at <http://127.0.0.1:1675/> serves `main` at `837ee05`, with KI-OBSERVA-VIS-025, restarted at 19:25 BST.
 - Run reports sit in `~/.local/state/ki/agents/observatory/`.
 
 ## Next steps
 
-1. When obs-query-review reports, apply agreement or disagreement to BURNDOWN-ACCEPT and BURNDOWN-TRIAGE, copy them into `queries.md` and bring them to Kris.
-2. When obs-reader reports, receive it and return the Work Instrument confirmation to ki.ways-of-working's `messages.md`, which is blocked on it.
-3. KI-OBSERVA-BRG-003 is Awaiting review (BRG-003-REVIEW); KI-OBSERVA-VIS-030 is ready to promote to Next.
-4. In triage: KI-OBSERVA-APP-045, KI-OBSERVA-VIS-042, KI-OBSERVA-OPS-003, and KI-TOOL-KI-CLI-154 in tools-ki.
-5. Each design convergence step needs Kris's go (DESIGN-APPLY). The design thread's answers come back through ki-design's `-/observatory-handoff/`; the Observatory's handoff is apps-observatory.local `-/design-handoff/INSTRUCTION.md`.
-6. Diagram conversion: originals stay collapsed beneath each Archify replacement until Kris signs off; the conversion records in the six other repositories are theirs to deliver. legal-principal's gantt stays as Mermaid until ki.timelines lands (DIAGRAM-GANTT).
-7. ki-principal holds this work's commits unpushed among other sessions' (PUSH-STACKED); pushing stays with Kris.
-8. `ki repo roadmap promote` refuses on an unrelated size field in KI-OBSERVA-APP-045, so set horizons by hand until fixed; `ki agent note` does not exist in this `ki`.
+1. On Kris's answers: accept the BURNDOWN-ACCEPT records under `ki-accept`, and merge or cancel the BURNDOWN-TRIAGE records Kris confirms, each by a run in apps-observatory.local.
+2. Four done records (KI-OBSERVA-APP-042, KI-OBSERVA-VIS-023, KI-OBSERVA-VIS-024, KI-OBSERVA-BRG-002) stay until their peer links in ki-principal's work folders and BRG-002's frozen figure are re-pointed.
+3. `ki work status` (installed `ki` 0.11.4) is blind to five-file packages until ki.tools-burndown changes the tools-ki reader; the Observatory reads them itself until then.
+4. Each design convergence step needs Kris's go (DESIGN-APPLY). The design thread's answers come back through ki-design's `-/observatory-handoff/`.
+5. Diagram conversion: originals stay collapsed beneath each Archify replacement until Kris signs off; the conversion records in six other repositories are theirs to deliver. legal-principal's gantt stays as Mermaid until ki.timelines lands (DIAGRAM-GANTT).
+6. Pushing stays with Kris (PUSH-STACKED): ki-principal is 12 ahead among other sessions' commits; apps-observatory.local is 1 ahead, `837ee05`.
+7. `ki repo roadmap promote` refuses on an unrelated size field in KI-OBSERVA-APP-045, so set horizons by hand until fixed.
 
 ## Held
 

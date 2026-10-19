@@ -2,20 +2,6 @@
 
 ## Open
 
-### BRG-003-REVIEW - Accept the Act presentation
-
-since 2026-10-19 · from the Summary at 12:25 BST, after [obs-step3](/Users/krisbrown/.local/state/ki/agents/observatory/obs-step3.report.md)
-
-**Context:** [KI-OBSERVA-BRG-003](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-003-governed-act-presentation.md) is live on the Observatory now, under Rig and Repositories. Its review notes list five parts of the design board left out because the plan and receipt data have no field for them: the scope row, withheld inputs, the button's count, the receipt's counts and the receipt's way in.
-
-**Query:** Should KI-OBSERVA-BRG-003 be accepted and closed once you've looked?
-
-**Options:**
-
-a) (recommended, confidence medium - all checks pass but the browser smoke check was skipped) You look at Rig's Act panel, then a run accepts and closes it and captures the five gaps as a triage record.
-
-b) Accept it as it stands without looking.
-
 ### CONDITION-HOME - Where maturity and decline live
 
 since 2026-10-19 · from the Summary at 12:25 BST, after [obs-step3](/Users/krisbrown/.local/state/ki/agents/observatory/obs-step3.report.md)
@@ -128,13 +114,13 @@ c) No, only viewers built on this Mac.
 
 since 2026-10-19 · from the Summary at 12:25 BST
 
-**Context:** ki-principal has about 20 unpushed commits. Mine (the Observatory work folder) are mixed in with commits from SoP, ki.ways-of-working, ki.knowledge-acquisition, ki.mac-studio-setup, ki.timelines, and an amendment to GDR-KI-PRINCIPAL-016. So I can't push mine alone.
+**Context:** ki-principal is 12 commits ahead of its remote. This work's work-folder commits are mixed in with commits from State of play, Ways of working and other sibling sessions, so they can't be pushed alone. apps-observatory.local is 1 ahead: `837ee05`, obs-burndown's fix to KI-OBSERVA-APP-042's `blocks` list, this work's only.
 
-**Query:** Should ki-principal be pushed with those commits?
+**Query:** Should ki-principal be pushed with those commits, and apps-observatory.local with its one?
 
 **Options:**
 
-a) (recommended, confidence medium - all are work-folder and decision documentation commits by sibling sessions in this checkout) You check and push them all.
+a) (recommended, confidence medium - all are work-folder and decision documentation commits by sibling sessions in this checkout) You check and push them all, and push apps-observatory.local.
 
 b) Leave them until those threads push their own.
 
