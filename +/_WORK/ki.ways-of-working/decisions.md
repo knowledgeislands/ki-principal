@@ -365,3 +365,9 @@ Kris, asked whether medium- and low-confidence queries are now double-checked, a
 Read back taken: QUERY-REVIEW-STANDARD a) - QUERY-REVIEW (19 October 08:22) becomes a rule of the `ki-coordination` standard for every coordinator, ahead of the trial evidence. Authorises query-review, a harness run that writes it, regenerates the hook line, output style and run-report surfaces, commits and pushes, then puts an IMPORTANT REFRESH line in the `messages.md` of `ki`, `ki.tools-burndown`, `ki.observatory`, `ki.specifications`, `ki.chezmoi`, `ki.mac-studio-setup`, `ki.baseline-rollout`, `ki.timelines` and acquire's `kb.regular.acquire-intake`.
 
 Correction: the entries timed 19:00 to 19:48 BST above, and the BURNDOWN-PUSH lines' 19:25, ran ahead of the clock; query-review launched at 19:12 BST by the system clock.
+
+## 2026-10-19 19:17 BST - owner direction, REFRESH-RESUMMARY
+
+Kris: "because I want the other threads to pick it up and resummary me so that I get the better recommendations"
+
+Read back taken: REFRESH-RESUMMARY - the REFRESH line each running work receives also asks it to send every open medium- or low-confidence query, including those already with Kris, through one blind review run, then give Kris a fresh Summary with the reviewed recommendations. Applied by amending query-review's REFRESH lines when it finishes, before Kris nudges the works that are with him.
