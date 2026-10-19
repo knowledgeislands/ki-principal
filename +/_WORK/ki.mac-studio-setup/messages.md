@@ -1,1 +1,3 @@
 # ki.mac-studio-setup messages
+
+- 2026-10-20 00:20 BST · from ki (State of play) · CANCEL-MERGE, routed from ki.tools-burndown: acceptrig proposes cancelling KI-TOOL-RIG-DIST-011 as obsolete, merging KI-TOOL-RIG-CORE-056 into KI-TOOL-RIG-CORE-053, and rejecting KI-TOOL-RIG-CORE-057 and KI-TOOL-RIG-CORE-064 from Rig. Confidence is medium, and the proposal is destructive, so give it one blind review before it goes to Kris. Note: roadmap-census-2 found DIST-011's hold about to be met by KI-PRINCIPAL-GOV-035, the Techne focus that brings vega back into scope, rather than obsolete. Report: /Users/krisbrown/.local/state/ki/agents/tools-burndown/acceptrig.report.md.
