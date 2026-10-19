@@ -123,3 +123,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 134 (2026-10-19T22:32:44Z)
 
 - Pointer: CLAUDE-APPLY a), Kris on 19 October, 23:33 BST: "yes". An agent shows the targeted diff of `~/.claude/settings.json` and `~/.claude/output-styles/ki-coordinator.md`, applies only those two if it is empty, and verifies (run claude-apply).
+
+## Decision 135 (2026-10-19T22:37:01Z)
+
+- Pointer: BRINGUP-CHECK a), taken under Kris's standing authority for high-confidence work after the blind review agreed with high confidence. One read-only `rig-bringup-check` for KB-DOTFILES-UE-090 gaps 2, 7 and 8, with the review's safeguards; gap 9 handed to KB-DOTFILES-UE-076 ([ue090-plan](/Users/krisbrown/.local/state/ki/agents/chezmoi/ue090-plan.report.md), [bringup-review](/Users/krisbrown/.local/state/ki/agents/chezmoi/bringup-review.report.md)). Run bringup-fold records it.
