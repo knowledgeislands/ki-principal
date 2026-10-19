@@ -385,3 +385,9 @@ Read back taken:
 - CITATIONS-DANGLE: b) one mechanical rewrite run now. Kris's instruction stands in for an Enactment record for the canonical notes it touches. Authorises: citations-rewrite, which re-scans every registered repository and rewrites old `+/_CHECKPOINTS/` and `+/_THREADS/` citations to their work-package successors, linking a pruned target at its last revision.
 - CHEZMOI-MIGRATE: a), with "fix what you need to". Authorises: chezmoi-migrate, a one-folder migration of `+/_WORK/ki.chezmoi/` to the five-file package, leaving any other session's uncommitted file alone, with a FIRST-STEP line and the `[locals]` drift note in its `messages.md`.
 - MARK-READOPT: a) taken. The VA-MARK records stay in triage and are adopted when picked up. Nothing to launch.
+
+## 2026-10-19 18:03 BST - owner direction, HOOKS-STANDARD
+
+Kris: "Do we use the `.githooks` anywhere else? I thought we used `.husky`?" then "yes, add an urgent message to it to standardise"
+
+Read back taken: HOOKS-STANDARD - an IMPORTANT line goes to ki.tools-burndown's `messages.md` asking it to standardise the commit-gate hooks across the estate on one convention, Husky. The survey at 18:01 BST found 30 repositories on Husky, three with `.githooks` (ki-principal and ki-agentic-harness wrapping Husky, and ki-design not bound), two with `.husky` but no `core.hooksPath` (apps-knowledgeislands.info, apps-yorkphotosoc.org) and 25 with no gate at all. ki.tools-burndown owns the design and the rollout.
