@@ -1,10 +1,12 @@
 ---
 id: ki.ways-of-working
-state: handoff-to-supervisor
-since: 2026-10-19T21:17:00Z
+state: on-hold
+reason: round ended at Kris's direction (ROUND-END), more expected
+release: Kris's resume line
+since: 2026-10-19T21:32:00Z
 received: 2026-10-19T16:57:00Z
 beat: null
-mark: 2026-10-19T21:12:00Z
+mark: 2026-10-19T21:32:00Z
 method_read: eff6163b
 ---
 
@@ -15,7 +17,7 @@ method_read: eff6163b
 - Received from Kris at 20:28 BST: DESIGN-AT-MARK a); design-clause done (harness `9c17df3c`); design-triage received; DESIGN-DELETE a) from Kris at 21:25 BST; design-delete received at 21:29 BST (26 deleted); mark struck at 21:25 BST; the list then goes to blind review and to Kris before any deletion.
 - GFM-MIGRATION unparked by Kris at 21:28 BST; gfm-scope received at 21:34 BST; gfm-review received at 21:41 BST; five GFM queries and METHOD-READ-RUBRIC with Kris.
 - METHOD-READ-CAPITALS from Kris at 21:34 BST; method-read-capitals received at 21:36 BST, seven capitals (ran on a misreading; Kris meant GFM); GFM-CAPITALS follows the GFM answers.
-- GFM decided by Kris at 22:00 BST (all recommended; TOUCH-SCOPE open); gfm-principal received at 22:07 BST (KI-PRINCIPAL-OPS-014, ki pin `v0.11.5`); gfm-harness received at 22:09 BST (pushed `af4cb478`); link1-baseline received at 22:17 BST (`1b8ab57b`, no island red); TOUCH-SCOPE with Kris, then the hold.
+- GFM decided by Kris at 22:00 BST (all recommended; TOUCH-SCOPE open); gfm-principal received at 22:07 BST (KI-PRINCIPAL-OPS-014, ki pin `v0.11.5`); gfm-harness received at 22:09 BST (pushed `af4cb478`); link1-baseline received at 22:17 BST (`1b8ab57b`, no island red); TOUCH-SCOPE a) from Kris at 22:32 BST; on hold at 22:32 BST, more expected.
 - ROUND-END (20:32 BST): after the design runs, the reviewed delete list and Kris's confirmation, hand pointers to State of play and hold, more expected.
 - Run reports sit in `~/.local/state/ki/agents/ways-of-working/`.
 

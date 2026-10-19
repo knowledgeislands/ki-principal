@@ -394,3 +394,13 @@ Kris: "take a mark". Mark struck at 22:12 BST; 13 entries since the 21:25 mark s
 ## 2026-10-19 22:17 BST - received link1-baseline
 
 link1-baseline pushed harness `1b8ab57b`: LINK-1 fails only where it failed before (ambiguous wikilinks); missing, wrong-case and template targets are WARN; a converted island opts into strict resolution with `strict_link_resolution = true` under `[skills.ki-repo-kb]`. Full audits on ki-principal, personal-principal and hnr-principal show no new FAIL (ki-principal findings FAIL 34 to 26). Lesson: a run editing the harness checkout breaks every island's pre-commit audit while its edit is half-done (22:12 to 22:14 BST).
+
+## 2026-10-19 22:32 BST - owner decision, TOUCH-SCOPE
+
+Kris: "agreed"
+
+Read back taken: TOUCH-SCOPE a) - once the converter exists, editing a file converts the whole file in the same change. Already the `ki-authoring` clause (`2d28656f`); recorded in `design/gfm-migration.md`. No run needed.
+
+## 2026-10-19 22:32 BST - hold, more expected
+
+Per ROUND-END. Mark struck at 22:32 BST; nothing running, no open queries, nothing parked. Pointers sent to State of play (HOLD-POINTERS). Next round: graduate the seven `design/` files design-triage marked; home Kris's words in the two thread-model notes, then delete them; record the harness-checkout lesson (link1-baseline) in Mistakes and Lessons.

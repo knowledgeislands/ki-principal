@@ -86,3 +86,5 @@ All batches run under [KI-PRINCIPAL-OPS-014](<../../../../Streams/Roadmap/KI-PRI
 ## Other islands
 
 Each island owns its own conversion and plans it when its owner chooses, with the tools-ki converter once it is released. The scoping run suggests smallest first: va-principal, er-principal (41 front-matter links), hnr-principal (callouts, inline tags, Dataview), personal-principal last (about 7,200 links, 635 unresolved, 362 ambiguous, 46 embeds). An island mirrored to Notion waits until mcp-ki-kb-notion-mirror reads Markdown-link edges; whether any island is mirrored was checked only against `.ki.toml`. State of play in each other capital has been told.
+
+TOUCH-SCOPE decided 2026-10-19 22:32 BST, Kris: "agreed" - option a): once the converter exists, editing a file converts the whole file in the same change; a file the converter refuses is flagged or given a recorded exception. The `ki-authoring` clause already says so.
