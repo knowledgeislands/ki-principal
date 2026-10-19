@@ -79,3 +79,11 @@ Read back as SOL-FIREWALL a): read-only pre-flight after firewall-record, then a
 home: +/_WORK/ki.chezmoi/work.md class: operational
 
 - SOL-PF-ROOT: Kris ran the read-only root check (option a). Root rules are Apple's boot ruleset; an uncalled `NordVPN` root anchor exists. Read as safe to enable; sol-preflight-2 finishes step 2, writes `sol-apply.md` with a gate tolerating only the uncalled anchor, and captures the NordVPN bypass in KI-TOOL-RIG-CORE-047.
+
+## Decision 116 (2026-10-19T21:26:30Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- no I use NorvVPN on terra really
+
+Read back as: NordVPN is used on Terra, not Sol. The NordVPN-and-anchor interaction in KI-TOOL-RIG-CORE-047 therefore matters on Terra, the laptop; add that at receipt of sol-preflight-2. Whether Sol keeps NordVPN installed is a later Rig lifecycle question, not taken up now.
