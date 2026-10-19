@@ -143,3 +143,7 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 - TECHNE-FOCUS (Acquire intake, Kris's 14 October words): drafted as a query, held for blind review with the census queries.
 - HOLD-POINTERS (ways of working): seven items carried in state.md.
 - All five lines removed.
+
+## 2026-10-19 23:14 BST - ACCEPT-AWAITING
+
+- **ACCEPT-AWAITING:** "I think we should accept all the awaiting reviews." Read back as taken: accept as done, under `ki-accept`, every work record in Awaiting review across the Knowledge Islands territory's repositories, Kris's approval standing for each; no pruning and no push. A record that another session is changing is not touched but routed to its owning work. Dispatched `accept-awaiting`.
