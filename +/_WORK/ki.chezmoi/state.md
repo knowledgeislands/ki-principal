@@ -12,7 +12,7 @@ method_read: f4d6c521
 
 ## Now
 
-- KB-DOTFILES-UE-090 is Ready at Next (chezmoi `e939158`); gap 1 is split out as KB-DOTFILES-UE-101, held on KB-DOTFILES-UE-087 (`a326e3d`, `e939158`, unpushed). KB-DOTFILES-UE-098 is Awaiting review (chezmoi `85e36b8`, apply attended); TRIAGE-LANE a) delivered (chezmoi `3244bd6`): UE-099 kept at triage; UE-100's diagnostic stage Ready, not run. census-2 delivered (chezmoi `e47b33d`, unpushed): KB-DOTFILES-UE-096 released to Soon, blocked by KI-TOOL-KI-CLI-145; KB-DOTFILES-UE-035 stays on Hold, Terra-only by declaration, needing an attended read of Terra's log; KB-DOTFILES-UE-027's ten rationale queries are with blind review run rat-review-2. bringup-fold folded the review safeguards into KB-DOTFILES-UE-090 and handed gap 9 to KB-DOTFILES-UE-076 (chezmoi `45488d1`, unpushed).
+- KB-DOTFILES-UE-090 is Ready at Next (chezmoi `e939158`); gap 1 is split out as KB-DOTFILES-UE-101, held on KB-DOTFILES-UE-087 (`a326e3d`, `e939158`, unpushed). KB-DOTFILES-UE-098 is Awaiting review (chezmoi `85e36b8`, apply attended); TRIAGE-LANE a) delivered (chezmoi `3244bd6`): UE-099 kept at triage; UE-100's diagnostic stage Ready, not run. census-2 delivered (chezmoi `e47b33d`, unpushed): KB-DOTFILES-UE-096 released to Soon, blocked by KI-TOOL-KI-CLI-145; KB-DOTFILES-UE-035 stays on Hold, Terra-only by declaration, needing an attended read of Terra's log; KB-DOTFILES-UE-027's ten rationale queries are with blind review run ue027-blind. bringup-fold folded the review safeguards into KB-DOTFILES-UE-090 and handed gap 9 to KB-DOTFILES-UE-076 (chezmoi `45488d1`, unpushed).
 - Sol's SSH key delivery and firewall are applied and verified; the evidence is in KI-TOOL-RIG-CORE-047 (tools-rig `2ab9354`, unpushed).
 - KI-TOOL-RIG-CORE-047 stays awaiting-review: the NordVPN on/off checks and Terra's `rig apply --sudo` are outstanding (Decision 131). The NordVPN bypass follow-up is KI-TOOL-RIG-CORE-068, detection only.
 - IWORK, STYLE-LINK and DIR-PRUNE are committed in chezmoi (`2470321`, `7ac9047`, `d5ac9c9`, unpushed) and the two Claude targets are applied and verified on Sol (Decision 134): settings unchanged, 58 directories recorded.
@@ -22,7 +22,7 @@ method_read: f4d6c521
 
 ## Next steps
 
-1. Receive rat-review-2, then put the KB-DOTFILES-UE-027 batch to Kris, offered as parked for the hold.
+1. Receive ue027-blind, then put the KB-DOTFILES-UE-027 batch to Kris, offered as parked for the hold.
 2. CONSUMER-MIGRATE: mgit v0.18.0 is released; check what migration this work owes.
 3. Sol's chezmoi commits reach Terra only after a push, which is Kris's call.
 
