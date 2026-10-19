@@ -441,3 +441,15 @@ home: +/_WORK/ki.chezmoi/work.md class: operational
 home: +/_WORK/ki.chezmoi/work.md class: rule
 
 - KI > SoP is back and coordinating the Knowledge Islands territory, resumed on sol at 11:05 BST on 19 October from +/_WORK/ki/work.md in /Users/krisbrown/workspaces/knowledge-islands/ki-principal. It reads your work file directly, so there is nothing to report back here. Keep your work file's front matter and next steps current at every send and commit them by explicit path. Act on your Messages section, FIRST-STEP first, and remove each line once it is done. Send anything another piece of work must act on as a dated Messages line in that work's own work file. Do not write to +/_WORK/ki/ this morning, because a restock run is rewriting it; anything for SoP goes to Kris as a Needs-tagged query instead. Push only your own commits; name anyone else's stacked commits to Kris.
+
+## Decision 97 (2026-10-19T13:29:12Z)
+
+home: +/_WORK/ki.chezmoi/work.md class: operational
+
+- Complete KI harness-path migration on Sol under the existing HARNESS-PATHS approval.
+
+Terra is migrated and verified on KI v0.11.4. Both paths and active harnesses are unchanged; doctor is healthy. Its only diagnostic warning is the expected ignored legacy [locals] table.
+
+Check Sol’s KI version, record doctor/diag and existing paths, then run ki bootstrap. Verify identical paths in host-local locals.toml, unchanged configuration and active harnesses, and healthy diagnostics. Check development switches using isolated test state.
+
+Stop on unexpected differences. Once Sol passes, prepare removal of [locals] from the shared chezmoi source, show Kris the diff, and wait for explicit apply approval. Commit by explicit path; never push.
