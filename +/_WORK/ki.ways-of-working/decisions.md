@@ -403,3 +403,9 @@ Read back taken: REPORT-SWEEP a) - one run surveys every work folder in the esta
 Kris: "I think I've pushed everything's back aligned again now."
 
 Read back taken: PUSH-KIP (and chezmoi-migrate's PUSH-CHEZMOI-MIGRATE) closed - Kris pushed the ki-principal stack. This work pushes its own later commits fast-forward when they alone are stacked.
+
+## 2026-10-19 18:19 BST - owner note, LOCAL-MODE
+
+Kris: "btw, both machines are in local mode so if they pull they have the latest tools"
+
+Read back taken: LOCAL-MODE - Terra and Sol run the tools from their checkouts, so a pull gives them the current `ki` (with KI-TOOL-KI-CLI-150's report-path refusal) and harness. The "install the `ki` release on every machine" step is not needed there; the Terra prompt's `ki --version` check stands as a check only.

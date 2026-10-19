@@ -16,6 +16,50 @@ a) (recommended, confidence medium - one release carries the hands-on fixes and 
 
 b) Release v0.18.0 now from `main`, so the machines agree today.
 
+### ACQUIRE-PUSH - Push the acquire citation commit
+
+since 2026-10-19 18:18 BST · from citations-rewrite
+
+**Context:** acquire's `AGENTS.md` line 29 says never to push without explicit authority, so the helper committed `2a70d45` on `main` on this machine and did not push. It is the only commit stacked and changes documentation links only: 15 rewritten, 7 pruned links.
+
+**Query:** Should the acquire commit be pushed now?
+
+**Options:**
+
+a) (recommended, confidence high - one docs-only commit of this run's own, nothing else stacked) Push `2a70d45` fast-forward now, as a follow-up run or by hand.
+
+b) Leave it for acquire's own session to push with its next work.
+
+### TOWER-PUSH - Push the apps-tower citation commit, which redeploys the site
+
+since 2026-10-19 18:18 BST · from citations-rewrite
+
+**Context:** apps-tower.midnight.ninja deploys on push through Workers Builds, so `1112a83` is committed and not pushed. It changes links in 10 Markdown files under `docs/` only: 3 rewritten and 13 pruned links. The site's built content is not affected, but a push would still trigger a redeploy.
+
+**Query:** Should the apps-tower commit be pushed now, accepting a redeploy?
+
+**Options:**
+
+a) (recommended, confidence medium - the change is docs-only, but a push redeploys, which you have accepted before) Push `1112a83` now and accept the redeploy.
+
+b) Leave it to go out with the site's next intended deploy.
+
+### WORK-AREA-CITATIONS - Old-path citations inside work packages
+
+since 2026-10-19 18:18 BST · from citations-rewrite
+
+**Context:** This run did not touch citations inside `+/_WORK/` and `+/_WORK_REVIEW/`, as the CITATIONS-DANGLE query framed it ("outside the work areas"), and other works' files take only a Messages line. Files there that still cite old paths: hnr-principal 88, ki-principal 45, personal-principal 13, ki-agentic-harness 8, legal-principal 8, acquire 2. Most are moved run reports and design files, where the old path is historical text, about 74 in legal's `hold-park.report.md` alone. A few are live package files.
+
+**Query:** Should the citations inside work packages be rewritten too?
+
+**Options:**
+
+a) (recommended, confidence medium - reports are history that each mark prunes, while live package files belong to each work's worker) Leave reports as they are, and add one line to each affected work's `messages.md` asking its worker to rewrite old paths in its live package files at its next mark.
+
+b) Launch one more mechanical run that rewrites the live package files (`work.md`, `state.md`, `queries.md`, `messages.md`) across the estate with the same successor map, leaving reports and decisions logs alone.
+
+c) Leave everything in the work areas as it is.
+
 ## Parked
 
 ### DESK-CAM - Which webcam to buy for sol
