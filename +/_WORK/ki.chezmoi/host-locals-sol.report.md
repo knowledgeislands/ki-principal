@@ -6,7 +6,7 @@
 
 ## Done
 
-Sol bootstrap ran once and exited 0 under the [18 October migration authority](decisions.md#decision-84-2026-10-18t081504z); migration verification FAILED because exact config bytes changed. No further migration or recovery was attempted.
+Sol bootstrap ran once and exited 0 under the [18 October migration authority](decisions.md#decision-85-2026-10-18t091810z); migration verification FAILED because exact config bytes changed. No further migration or recovery was attempted.
 
 Installed build proof: `ki --version` is 0.11.0; `/Users/krisbrown/.local/bin/ki` resolves to `.ki-local-runner`, whose exact bytes execute Bun against `/Users/krisbrown/workspaces/knowledge-islands/tools-ki/src/main.ts`. Bun is 1.4.2; tools-ki branch is `main`, HEAD `6afdd4778c62f438e59a913a0b49e3a181d80ea6`. Exact ancestry of CLI-143 implementation `49686ca36a31ab79cd0a0b1de9b33e1ec3ae00a9` passed; implementation files match HEAD. No pull, fetch, build or source change occurred.
 
@@ -32,7 +32,7 @@ Terra evidence search covered locally available shared ki-principal work reports
 
 Chezmoi status before bootstrap was empty; source Git had an unrelated edit at `workspaces/knowledge-islands/dot_mgit.toml`, left untouched. Roadmap listing failed on the existing duplicate identifier ending 096, already recorded by the urgent drift run; no repair was attempted. Managed KI source remains untouched: no locals-table removal, source diff, apply or source commit. The source-change gate was not run because its two-host condition failed.
 
-Prior urgent drift final outcome was checked in the [retained report](urgent-drift-20261018.report.md) and runtime review: all seven reviewed targets were applied and verified; no drift approval remains outstanding. Rig doctor retained two findings: UTM MAS source mismatch (`source-mismatch:unclassified`) and Headroom port ownership by Python instead of headroom-ai. These remain outside this task; no new Rig check or rollout change was made.
+Prior urgent drift final outcome was checked in the [retained report (pruned)](https://github.com/knowledgeislands/ki-principal/blob/12604ab7ef59dddd803580bf64afb12d13cee827/%2B/_WORK/ki.chezmoi/urgent-drift-20261018.report.md) and runtime review: all seven reviewed targets were applied and verified; no drift approval remains outstanding. Rig doctor retained two findings: UTM MAS source mismatch (`source-mismatch:unclassified`) and Headroom port ownership by Python instead of headroom-ai. These remain outside this task; no new Rig check or rollout change was made.
 
 Previous SSH evidence, broader source delivery, Rig apply and job activation holds remain intact. No SSH, firewall, Headroom, scheduler, credential or other environment mutation occurred beyond the explicitly authorised bootstrap. No remote call, push, acceptance or pruning occurred.
 

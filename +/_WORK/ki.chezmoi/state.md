@@ -24,7 +24,8 @@ method_read: eff6163b
 3. On Kris's SOURCE-LOCALS-LIVE answer, close SOURCE-LOCALS-GATE and SOURCE-LOCALS-APPLY and record whether any `[locals]` apply remains. Keep the [historical Sol evidence](host-locals-sol.report.md).
 4. Apply nothing without Kris's next explicit approval, scripts excluded and one reviewed target at a time. The LOCALS-DIFF warning stands: a full `chezmoi diff` may drop dev-linked harness `[locals]` entries and change the Codex config ([reinstall-check report](/Users/krisbrown/.local/state/ki/agents/ways-of-working/reinstall-check.report.md)).
 5. On RIG-LIVE-DELIVER a), plan and deliver [KB-DOTFILES-UE-091](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-091-shared-dock-tool-links.md) source-side with the firewall declaration, `rig doctor` before and after.
-6. Then put the parked queries in `queries.md` back one at a time, each with a recommendation and its reason.
+6. Carry Kris's authorised, undelivered source directions, dropped from the work file on 19 October; their words are in the [work file at 541a5d91](https://github.com/knowledgeislands/ki-principal/blob/541a5d9149af8a8d9a4b10201a21e34cafcab3a7/%2B/_WORK/ki.chezmoi/work.md) and the [State of play decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/decisions.md): SEAT-BIND and SEAT-HOSTS as SEAT-CHANGE amends them, PAPERCLIP-OFF, TOML-OPENER and SSH-CONSOLE (the physical-console fallback in the macOS workstation guide); FW-DECLARE and FW-DECLARE-NOW ride RIG-LIVE-DELIVER. Each is source-only, with its `chezmoi diff` reviewed before any apply.
+7. Then put the parked queries in `queries.md` back one at a time, each with a recommendation and its reason.
 
 ## Held
 
