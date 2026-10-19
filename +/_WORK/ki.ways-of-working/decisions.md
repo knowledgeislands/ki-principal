@@ -448,3 +448,12 @@ Kris: "Okay then, how do we make sure that happens to all the threads? Will they
 ## 2026-10-19 23:40 BST - received refresh-banner; mark; hold, more expected
 
 refresh-banner sent REFRESH-BANNER to all 11 live works in ki-principal (`5691c105`, local) and to State of play in er, hnr, lgl, kb, tmx, si and va (va `fc62871` local; the rest pushed). The installed output style is a symlink into the harness checkout and carries all three rules. Mark struck; on hold under ROUND-END, more expected.
+
+## 2026-10-20 00:23 BST - owner direction, read messages; five messages taken
+
+Kris: "read messages". Read back taken: lift the hold and act on the queue, IMPORTANT first.
+
+- IMPORTANT roadmap-census-2 and IMPORTANT TRIAGE-ALL (from ki, Kris's words quoted there): taken together with BURN-WAVE-1's `ki-accept` pass; lane-triage launched. GOV-219 and GOV-224 first; medium, low, cancel, merge and delete come back as one query per lane after blind review.
+- BURN-WAVE-1 and LANE-OWNERS (from ki): lane accepted (ki-agentic-harness, ki-principal, ki-specifications); CAPTURE-GATE and no roadmap cap held as standing rules; HOMELESS-STANDING and CAPTURE-GATE edits queued in the harness chain; MODEL-FALLBACK applied at the next mark; THREADS-CHECKINS noted closed.
+- CHECKER-GAPS (from ki.baseline-rollout, Kris: "Anything high confidence can be done."): checker-gaps launched.
+- ENTRY-NAMES (from ki.portable-specifications): taken; queued after checker-gaps in the harness chain.

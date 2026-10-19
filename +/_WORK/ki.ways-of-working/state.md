@@ -1,9 +1,7 @@
 ---
 id: ki.ways-of-working
-state: on-hold
-reason: round done, more expected
-release: Kris's next direction, or resume
-since: 2026-10-19T22:40:00Z
+state: with-worker
+since: 2026-10-19T23:23:00Z
 received: 2026-10-19T16:57:00Z
 beat: null
 mark: 2026-10-19T22:40:00Z
@@ -14,6 +12,7 @@ method_read: eff6163b
 
 ## Now
 
+- Kris said "read messages" at 00:23 BST, lifting the hold. lane-triage (TRIAGE-ALL, roadmap-census-2, BURN-WAVE-1 accept pass, GOV-215, UE-096 line) and checker-gaps running. Queued, harness chain: ENTRY-NAMES (work.md to WORK.md, ki-work-package contract and readers), then HOMELESS-STANDING with CAPTURE-GATE into ki-next and ki-delegation.
 - HOOK-GUARD (23:24 BST): no `ki repo conform` without `--dry-run` in any brief until ki.tools-burndown lifts it.
 - GFM converter `ki markdown gfm` built (KI-TOOL-KI-CLI-162), awaiting review and release; KI-PRINCIPAL-OPS-014's pilot waits on it.
 - PUSH-NOT-WITH-YOU and HOLD-CLEAN from Kris at 23:22 BST lift the hold; banner-push-hold received at 23:34 BST (harness `f4d6c521`, Work Process note `be2e6ec6`); refresh-banner received at 23:40 BST (11 live works here, State of play in seven capitals); on hold at 23:40 BST, more expected.
