@@ -1,5 +1,6 @@
 ---
 note_type: pillars/index
+updated: 2026-10-19T07:00:00Z
 tags:
   - card/note
   - topic/knowledge-islands
@@ -34,3 +35,21 @@ Start with [[Who Acts on the Island]], the narrative chapter note, before readin
 ## Agentic AI
 
 [[Agentic AI]] holds the conventions for AI operation that apply regardless of which AI system does the work. It explains what belongs at this tool-independent level and what should instead live with a specific agent, tool or activity. It also contains [[AI Automation Patterns]], the reusable design patterns any AI agent should draw on when implementing an island activity rather than re-deriving them.
+
+---
+
+## Roles
+
+A role is a hat, not a species: any agent, human or AI, may wear one. Roles name work the model already describes and grant no authority; standing and the island's process still decide what an agent may do. [[GDR-KI-PRINCIPAL-014-steward-roles|GDR-KI-PRINCIPAL-014]] made seven roles official and folded the Guardian into the Steward.
+
+| Role         | Does                                      | Already in the model as                                       |
+| ------------ | ----------------------------------------- | ------------------------------------------------------------- |
+| Steward      | Tends an island and holds its boundaries  | Council standing, the Tending activities and Conformance      |
+| Archivist    | Curates the Library                       | Curation; Inbox Review                                        |
+| Cartographer | Maps links and routes                     | The Connect stage of the cycle; Wikilink Review; Known Lands  |
+| Builder      | Builds tools and harnesses                | The Tools chapter and the Engineering Practice pillar         |
+| Navigator    | Works the trade routes, at the Port       | Capital-governed trade routes and the Port                    |
+| Scout        | Acquires and captures new material        | The Capture stage of the cycle; knowledge acquisition         |
+| Historian    | Reflects on what has happened; retrospect | The Reflect stage of the cycle; Status and Convergence checks |
+
+An AI agent wearing the Steward's hat tends but does not ratify, which stays a Council act. An AI agent wearing the Historian's hat prepares the retrospect; a person judges it, because reflection is the distinctly human stage of the cycle.

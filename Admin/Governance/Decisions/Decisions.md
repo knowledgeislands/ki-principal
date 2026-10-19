@@ -56,3 +56,4 @@ Arcadia maintains these engineering decisions, adopted from the retired Techné 
 2. [GDR-KI-PRINCIPAL-011](GDR-KI-PRINCIPAL-011-the-capital.md) - The Capital
 3. [GDR-KI-PRINCIPAL-012](GDR-KI-PRINCIPAL-012-official-not-canon.md) - Official, not canon
 4. [GDR-KI-PRINCIPAL-013](GDR-KI-PRINCIPAL-013-the-causeway-and-the-mill.md) - The Causeway and the Mill
+5. [GDR-KI-PRINCIPAL-014](GDR-KI-PRINCIPAL-014-steward-roles.md) - Steward roles
