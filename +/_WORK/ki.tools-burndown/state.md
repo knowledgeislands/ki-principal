@@ -11,6 +11,7 @@ method_read: 9c17df3c
 
 ## Now
 
+- wvreview finished 22:19 BST: agrees WAVE-PLAN a), now high and with Kris. hookstd launched (harness standard and rubric change, local) and hookconf queued after gfmconv (tools-ki conform change), both under HOOKS-STANDARD.
 - hooksv2 finished 22:16 BST: hooks-standard rewritten to the decided shape with HOOK-AUDIT checks (HOOK-3 to HOOK-5, WARN then FAIL) and the exact harness changes; KI-TOOL-KI-CLI-161 (`ki git check-message`) captured in tools-ki, local. WAVE-PLAN (medium) to wvreview.
 - Marked at 22:13 BST on 19 October; decisions struck to live entries, work folder pruned.
 - Running: hooksv2 (hooks design for the decided shape, mechanical audit checks, tools-ki `ki git check-message` record); gfmconv queued after it (GitHub-flavoured Markdown converter in tools-ki).

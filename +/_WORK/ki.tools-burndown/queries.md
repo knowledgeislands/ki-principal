@@ -12,13 +12,13 @@
 4. Package-less repositories, pre-commit only.
 5. `commit-msg` for the package-less repositories once KI-TOOL-KI-CLI-161 ships, then the estate sweep on Terra and Sol, then the FAIL step.
 
-Converting before the standard changes would make `PKG-5` and `SCR-11` fail in the converted repositories. That is why the harness change comes first, and it is held behind the other harness session.
+Converting before the standard changes would make `PKG-5` and `SCR-11` fail in the converted repositories. That is why the harness change comes first, and it is held behind the other harness session. The blind review agreed with a): changing the rules first is needed, because converting early fails PKG-5 and SCR-11 and also warns on SCR-5; it recounts 51 KI repositories, 19 of them without a package, and notes that the harness rule change and the tools-ki conform change are not yet built.
 
 **Query:** Do you grant wave 1, the pilot in ki-principal, tools-ki and va-principal, to run once the harness standard change has landed?
 
 **Options:**
 
-a) (recommended, confidence medium - the pilot covers every path, Bun with a KB audit, Bun tool and package-less KB, in three repositories, and it waits for the standard so audits stay green, but it cannot start until the other harness session commits) Grant wave 1 now, to run after the harness standard and the tools-ki conform changes land. Later waves come back to you one at a time.
+a) (recommended, confidence high - reviewed, the pilot covers every path, Bun with a KB audit, Bun tool and package-less KB, in three repositories, and it waits for the standard so audits stay green, but it cannot start until the other harness session commits) Grant wave 1 now, to run after the harness standard and the tools-ki conform changes land. Later waves come back to you one at a time.
 
 b) Grant wave 1 to run now, by hand from the template, ahead of the standard. This accepts WARN or FAIL findings on `PKG-5` and `SCR-11` in the three repositories until the harness change lands.
 
