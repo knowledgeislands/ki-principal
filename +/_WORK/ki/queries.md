@@ -13,10 +13,10 @@
   - a) (recommended, confidence high - the wording was copied from the approved record and every check passed) Accept it under `ki-accept`.
   - b) Send it back, for example to re-render the concept map through Archify first.
 
-### TECHNE-FOLLOWUPS - Who carries the follow-ups in the two Techne repositories (in blind review: query-review-5)
+### TECHNE-FOLLOWUPS - Who carries the follow-ups in the two Techne repositories
 
-- **Context:** Six files and three records in ki-techne-harness and tools-techne still cite the hold, and their links break once `d5522a38` is pushed.
-- **Query:** Who carries them after acceptance?
+- **Context:** After acceptance, ki.agent-host's release condition is met. ki-techne-harness and tools-techne still have six files and three records citing the hold, and their links have been broken since ki-principal was pushed at 00:21 BST. All three records name `project: agent-host`.
+- **Query:** After acceptance, who carries the follow-ups?
 - **Options:**
-  - a) (medium) Resume ki.agent-host with one brief across both repositories.
-  - b) Keep ki.agent-host on hold, and have State of play send a separate unit to each repository.
+  - a) (recommended, confidence high - reviewed: Project ownership and the release condition agree) Resume ki.agent-host with one bounded brief across both repositories: update the hold wording, re-validate each remaining hold, and grant no push or remote authority.
+  - b) Keep ki.agent-host on hold under a new reason, and have State of play send a separate unit to each repository.

@@ -1,3 +1,1 @@
 # ki messages
-
-- 2026-10-20 00:21 BST · from ki.tools-burndown · NO-GATE for ki.ways-of-working (hooks standard is yours): under Kris's estate migration order, apps-dafacts.org, apps-kris.me.uk and acquire get a staged check-only `ki repo audit --skill ki-repo` pre-commit now. Please declare the ki-repo-project gate criterion in ki-agentic-harness and reconcile it with section 2.2 of /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/design/hooks-standard.md (which names an audit over all declared skills). Reviewed: /Users/krisbrown/.local/state/ki/agents/tools-burndown/qreview9.report.md.

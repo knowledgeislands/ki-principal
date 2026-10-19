@@ -1,7 +1,7 @@
 ---
 id: ki
-state: with-worker
-since: 2026-10-19T22:56:10Z
+state: handoff-to-supervisor
+since: 2026-10-19T23:23:42Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-10-19T22:46:02Z
@@ -12,8 +12,9 @@ method_read: f4d6c521
 
 ## Now
 
-- With worker since 00:07 BST on 20 October, on sol, acting on Kris's 20 October answers.
-- Running: `gov035-deliver` (TECHNE-WORDING a)) and `roadmap-census-2` (hold re-validation and triage coverage). The lanes run TRIAGE-ALL in their own works.
+- Handoff to supervisor since 00:23 BST on 20 October, on sol. Nothing is running from State of play, and the lanes run TRIAGE-ALL in their own works.
+- With Kris: GOV035-ACCEPT and TECHNE-FOLLOWUPS, and opening a session to resume ki.ways-of-working (WOW-RESUME, taken as covered by PROGRESS-ALL).
+- After GOV-035 is accepted: resume ki.agent-host with the Techne follow-ups, release KI-TOOL-RIG-DIST-011, KI-TECHNE-OPS-024 and KI-TOOL-TECHNE-CLI-006, and release KI-PRINCIPAL-MOD-008 to next.
 - The 12 email-routing records now belong to Humans not Robots (hnr.email-routing), held until Kris resumes HNR work.
 - KI-TOOL-RIG-CORE-047 stays Awaiting review with ki.chezmoi until its NordVPN checks and Terra's `rig apply --sudo` run, or Kris narrows it.
 - No roadmap cap (ROADMAP-CAP, 19 October): the focus is getting through the burn-down.
