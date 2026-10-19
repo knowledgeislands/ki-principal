@@ -4,7 +4,7 @@ state: with-worker
 since: 2026-10-19T21:38:00Z
 received: 2026-10-19T20:41:00Z
 beat: null
-mark: 2026-10-19T18:02:00Z
+mark: 2026-10-19T21:50:00Z
 method_read: 84b61942
 ---
 
@@ -12,25 +12,16 @@ method_read: 84b61942
 
 ## Now
 
-- With worker since 22:38 BST on 19 October after TAB-SCROLL and COUNTS-TABLES; BEACON-ACCEPT answered (accepted); marked at 19:02 BST.
-- Running: obs-tab-and-workers (apps-observatory.local: Known Lands tab with a scrolling bar, KI-OBSERVA-BRG-005 counts shaped, KI-OBSERVA-VIS-031 worker column built).
-- Queued: obs-beacon-accept, after obs-tab-and-workers (apps-observatory.local: KI-OBSERVA-BCN-008 to done).
-- Received obs-tabbar-review at 21:41 BST: disagrees on TAB-ROOM, preferring a scrolling bar at high confidence.
-- Received obs-vis030-minimal at 21:39 BST, blocked: Known Lands backend and SVG route committed (21be3a6, local), KI-OBSERVA-VIS-030 updated, service checked; the tab is built but uncommitted, copied to `design/known-lands-tab/` in this package, because a sixteenth tab overflows the 1,440 px bar test (TAB-ROOM).
-- Received obs-step3-review at 21:01 BST: agrees on four queries, disagrees on VIS-030-POSITIONS.
-- Received obs-step3-build at 20:57 BST: KI-OBSERVA-VIS-030 hex renderer vendored with drift check and `capital` glyph (a4ea2ad, record in progress); KI-OBSERVA-BCN-008 Beacon signal anatomy built, awaiting review (23f2ba5); service restarted, 15 tabs answer; stopped early on five queries; both commits local.
-- Received obs-declare-review at 20:13 BST: the review agrees with keeping the declaration, so NARROW-DECLARE goes to Kris at high confidence.
-- Received obs-answers-2 at 20:12 BST: KI-OBSERVA-APP-044, KI-OBSERVA-BCN-008, KI-OBSERVA-VIS-030 and KI-OBSERVA-VIS-031 reworded to large screens first, not only, with the narrow rule and test kept; KI-OBSERVA-VIS-042 carries OVERLAY-SYNC, depending on KI-HARNESS-GOV-224; commit 9f56976, local.
-- Received obs-viewer-sync at 20:11 BST: KI-HARNESS-GOV-224 (diagram viewer receipts, triage) captured and KI-HARNESS-GOV-223 set to `founding`, `growing`, `settled`, `thriving`; three local commits in ki-agentic-harness, unpushed.
-- Received obs-pies-tables at 19:51 BST: KB-PRINCIPAL-046 in personal-principal and HNR-PRINCIPAL-KM-018 in hnr-principal carry PIES-TABLE-BARS, both in triage and committed locally, unpushed.
-- Received obs-condition at 19:52 BST: KI-HARNESS-GOV-223 (maturity scale and `.ki.toml` key) and KI-TOOL-KI-CLI-159 (`ki` exposes maturity and health), both triage, committed locally in ki-agentic-harness and tools-ki, unpushed. Its MATURITY-SCALE query is reviewed (review prefers three levels) and in `queries.md`.
-- Received obs-accept-answers at 20:03 BST: four records accepted, seven merged, three triage records captured (KI-OBSERVA-BRG-005, KI-OBSERVA-BRG-006, KI-OBSERVA-VIS-043), answers folded in, ten pruned; 34 to 27 records; five local commits in apps-observatory.local.
+- With worker since 22:38 BST on 19 October; marked at 22:50 BST.
+- Running: obs-tab-and-workers (apps-observatory.local): Known Lands tab with a scrolling bar committed (6b2096c), KI-OBSERVA-BRG-005 counts shaped (09762d9), KI-OBSERVA-VIS-031 worker column in its gate.
+- Queued: obs-beacon-accept, after obs-tab-and-workers (KI-OBSERVA-BCN-008 to done).
+- Since the previous mark: roadmap 35 to 27 records; KI-OBSERVA-BCN-008 built (23f2ba5) and accepted; minimal Known Lands chart (a4ea2ad, 21be3a6); handoff records KI-HARNESS-GOV-223, KI-HARNESS-GOV-224, KI-TOOL-KI-CLI-159, KB-PRINCIPAL-046, HNR-PRINCIPAL-KM-018.
 - Kris pushes ki-principal and apps-observatory.local (PUSH-KRIS).
 - Run reports sit in `~/.local/state/ki/agents/observatory/`.
 
 ## Next steps
 
-1. Receive obs-tab-and-workers; then remove `design/known-lands-tab/` once the tab is committed; receive obs-beacon-accept.
+1. Receive obs-tab-and-workers; receive obs-beacon-accept.
 2. Four triage records await a later merge decision: KI-OBSERVA-VIS-029, KI-OBSERVA-VIS-032, KI-OBSERVA-VIS-033, KI-OBSERVA-VIS-034.
 3. Four done records (KI-OBSERVA-APP-042, KI-OBSERVA-VIS-023, KI-OBSERVA-VIS-024, KI-OBSERVA-BRG-002) stay until their peer links and BRG-002's frozen figure are re-pointed.
 4. `ki work status` (installed `ki` 0.11.4) is blind to five-file packages until ki.tools-burndown changes the tools-ki reader.
