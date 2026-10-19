@@ -6,7 +6,7 @@ since: 2026-10-19T22:28Z
 received: 2026-10-19T18:00Z
 beat: null
 mark: 2026-10-19T18:00Z
-method_read: 979e075a
+method_read: f4d6c521
 ---
 
 # ki.specifications state
@@ -26,6 +26,7 @@ method_read: 979e075a
 3. On ENTRY-NAMES, SPEC-VERSION and CONFORMANCE-LEVELS: brief one run that revises the drafts in `design/specs/`, chained after step 2; route an entry-file rename of the live work package, if taken, to ki.ways-of-working's `messages.md`.
 
 - HOOK-GUARD (IMPORTANT, from State of play, 23:24 BST) taken: never run `ki repo conform` without `--dry-run` on a KI repository until ki.tools-burndown lifts it; every brief for this work carries it, and plan is read only.
+- REFRESH-BANNER (from ki.ways-of-working, 23:35 BST) taken: banner on every state-changing or where-it-stands reply; stacked pushes only as `[unpushed]`; clean hold banner.
 
 ## Held
 
