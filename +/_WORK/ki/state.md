@@ -1,7 +1,7 @@
 ---
 id: ki
-state: with-worker
-since: 2026-10-19T22:46:02Z
+state: handoff-to-supervisor
+since: 2026-10-19T22:56:10Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-10-19T22:46:02Z
@@ -12,8 +12,9 @@ method_read: f4d6c521
 
 ## Now
 
-- With worker since 23:45 BST on 19 October, on sol, acting on Kris's answers (ANSWERS, 19 October). Received at 18:58 BST; marked at 23:46 BST at Kris's word (log struck by `sop-mark-2`).
-- Running: `review-hold-apply`, `techne-focus`. Each lane has its burn-down line (BURN-WAVE-1, LANE-OWNERS, CAPTURE-GATE).
+- Handoff to supervisor since 23:56 BST on 19 October, on sol. Kris's ANSWERS are delivered except TECHNE-FOCUS, which waits on TECHNE-WORDING.
+- Nothing running from State of play. The five lanes run TRIAGE-ALL in their own works, ki.tools-burndown first.
+- Open with Kris: EMAIL-OWNER, TECHNE-WORDING.
 - KI-TOOL-RIG-CORE-047 stays Awaiting review with ki.chezmoi until its NordVPN checks and Terra's `rig apply --sudo` run, or Kris narrows it.
 - No roadmap cap (ROADMAP-CAP, 19 October): the focus is getting through the burn-down.
 
