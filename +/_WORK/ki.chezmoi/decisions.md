@@ -267,3 +267,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 170 (2026-10-20T02:47:00Z)
 
 - Pointer: Kris (03:47 BST, spoken; "Audit Lynn" read as AUDIT-LINT, "shame wire" as chezmoi). MAIN-PUSH: "I will do a push now." Kris pushes the three mains himself; no push rule given.
+
+## Decision 171 (2026-10-20T03:36:00Z)
+
+- Pointer: Kris (04:36 BST): "STRICTNESS-CONFORM - lets make it happen then, are we rolling it out?" Read back as: STRICTNESS-CONFORM d), the coordinator's recommendation: a canonical hook per shape, audited exact and written mechanically, with no extension point; tools-rig's `assemble-rig --check` becomes a `ki-repo-tools` criterion in the focused staged audit. Roll out now: run roll-standards (note section 6.1), then the repository hooks (6.2) and the tools-ki composer. MSG-UNIFY stays open; the rollout keeps the current message split.
