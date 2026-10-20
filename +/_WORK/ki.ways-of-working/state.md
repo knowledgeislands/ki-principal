@@ -38,6 +38,7 @@ method_read: eff6163b
 
 ## Next steps
 
+0. UPDATE-SHAPE (was KI-HARNESS-GOV-216) at the report-shape review around 21 October: timed updates say done, left on the plan and outstanding; open on three lines or one, and whether the heartbeat step folds in.
 1. Done: `hooks/README.md` aligned (`9c17df3c`); harness CI `build` on `979e075a` and `9c17df3c` still to confirm.
 2. Watch the REFRESH pickup: the five works outside Kris's focus hold reviewed Summaries for him.
 3. With ki.tools-burndown: patch release with KI-TOOL-KI-CLI-155 and the harness pin, then this work moves `.github/ki-version`; HOOKS-STANDARD; `ki work status` reading both shapes (`messages.md` line `527d1a91`); VALIDATOR-PARITY, KI-TOOL-KI-CLI-155 and KI-TOOL-KI-CLI-156.
