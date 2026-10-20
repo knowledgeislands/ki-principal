@@ -659,3 +659,7 @@ Taken as: this work coordinates an overnight burndown in order tools, MCPs, apps
 ## 2026-10-20 05:44 BST - message from ki.chezmoi
 
 CONFIG-UNDER-CONTROL delivered: KB-DOTFILES-HK-001 now a monthly read-only per-Mac scan of unmanaged configuration (chezmoi `64b0fbb`, unpushed); KI-TOOL-RIG-CORE-064 left to apply-sweep's narrowing. Noted: a ki.chezmoi session is still answering, though Kris said no other threads tonight. Line removed.
+
+## 2026-10-20 05:59 BST - received apply-sweep
+
+Accepted and pruned fourteen: six Observatory, five ki-design, three Rig. Merged KI-MCP-M365-TOOL-020 into -018 (pushed). Cancelled and kept: KI-HARNESS-GOV-216, -222, -226, KI-TOOL-KI-CLI-151, KI-TOOL-RIG-DIST-011 (obsolete, now message lines), KI-TOOL-RIG-CORE-057 and KI-TOOL-RIG-CLI-026 (rejected, Idea lines on the Rig theme page). Knip line to ki.tools-burndown; KI-TOOL-KI-CLI-167 handled in tools-ki. Both ki-principal stashes dropped after checking. Some repositories not pushed where other sessions' commits interleave. The cancelled records stay until a prune-only pass at the end of the burndown, under Kris's "roadmaps down to zero". Brief removed.
