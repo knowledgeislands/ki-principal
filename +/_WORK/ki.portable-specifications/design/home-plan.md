@@ -2,11 +2,12 @@
 
 **Owner:** Kris Brown · **Owning repository:** knowledgeislands/ki-principal · **Owning work:** `ki.portable-specifications` · **Date:** 2026-10-20
 
-Written by the read-only run home-plan to prepare [plan](plan.md#steps) step 6 (6a home-work, 6b home-acquire, 6c home-knowledge), so the three runs can start when Kris accepts the texts under SPEC-TEXT. It applies SPEC-HOME, ENTRY-NAMES, KNOWLEDGE-SKILL and WORK-PROFILE in [decisions](../decisions.md). Every fact was checked locally on 20 October against ki-agentic-harness at `5daad99e`, whose working tree was clean; the installed harness `knowledgeislands/ki-agentic-harness` is a link to that checkout, so a new skill resolves without an install step. Nothing was changed outside this file.
+Written by the read-only run home-plan to prepare [plan](plan.md#steps) step 6 (6a home-work, 6b home-acquire, 6c home-knowledge), so the three runs can start when Kris accepts the texts under SPEC-TEXT. It applies SPEC-HOME, ENTRY-NAMES, KNOWLEDGE-SKILL and WORK-PROFILE in [decisions](../decisions.md). Every fact was checked locally on 20 October against ki-agentic-harness at `5daad99e`, whose working tree was clean; the installed harness `knowledgeislands/ki-agentic-harness` is a link to that checkout, so a new skill resolves without an install step. Nothing was changed outside this file. The run home-amend amended it on 20 October to CATALOGUE-WRITE and HOMING-REVIEW, decided a) under OVERNIGHT-AUTONOMY at 01:13 BST, and to every correction in [query-review-6](../query-review-6.report.md).
 
 ## Contents
 
 - [Gate and order](#gate-and-order)
+- [Records, review and acceptance](#records-review-and-acceptance)
 - [The homing transform](#the-homing-transform)
 - [6a home-work: ki-work-package](#6a-home-work-ki-work-package)
 - [6b home-acquire: ki-acquire](#6b-home-acquire-ki-acquire)
@@ -19,14 +20,26 @@ Written by the read-only run home-plan to prepare [plan](plan.md#steps) step 6 (
 
 ## Gate and order
 
-- **Gate:** SPEC-TEXT accepted; the approved text is the drafts in `design/specs/` at the commit Kris approves, which each run names in its brief and its skill's `sources.md`.
-- **6b and 6c** start together the moment SPEC-TEXT is accepted.
-- **6a** waits for ki.ways-of-working's queued harness chain, ENTRY-NAMES (`work.md` to `WORK.md`, across the `ki-work-package` contract and its readers), which rewrites the same `SKILL.md`, standard, rubric context and `sources.md`. If that rename has landed when 6a runs, the profile's entry-file lines change with it (see [6a](#6a-home-work-ki-work-package)).
-- **Records and review:** see HOMING-REVIEW under [What needs Kris](#what-needs-kris).
+- **Gate:** SPEC-TEXT accepted, with HOMING-EDITS folded into it, both pending Kris. The approved text is the drafts in `design/specs/` at the commit Kris approves, edited by [the homing transform](#the-homing-transform) and nothing else; each run names that commit in its brief and its skill's `sources.md`.
+- **Records:** each step also needs its harness record adopted, planned to Ready and given implementation authority before its run starts; SPEC-TEXT alone does not pass that gate ([Records, review and acceptance](#records-review-and-acceptance)).
+- **6b and 6c** start together once SPEC-TEXT is accepted and their records are Ready, each in its own worktree ([Running the three in parallel](#running-the-three-in-parallel)).
+- **6a** keeps the ENTRY-NAMES prerequisite: it waits until ki.ways-of-working's queued harness chain, ENTRY-NAMES (`work.md` to `WORK.md`, across the `ki-work-package` contract and its readers), has integrated into the harness's local `main`, because that chain rewrites the same `SKILL.md`, standard, rubric context and `sources.md`. The profile's entry-file lines change with it (see [6a](#6a-home-work-ki-work-package)).
+
+## Records, review and acceptance
+
+HOMING-REVIEW a) sets this route. For this coordinator route it replaces the Steward gate in [plan](plan.md#steps) steps 6a to 6c and its harness review latency risk. The harness's `AGENTS.md` keeps its solo direct-to-`main` workflow apart from its Paperclip local-delivery route, where Wright implements, Steward reviews the exact commit and Convenor integrates; these runs do not enter that route, and nothing here waives or replaces Steward review within it.
+
+1. **Capture.** One run, home-records, deduplicates against the harness roadmap, then captures three triage records under `ki-next`, one each for 6a, 6b and 6c, because each has its own boundary and verification. It re-reads `docs/roadmap/_ISSUES.md` immediately before allocating identities and commits each ledger advance; GOV-227 is the ledger's current high-water mark, not a reservation of the next three. Capture is triage only and authorises no delivery.
+2. **Ready.** After SPEC-TEXT, each record is adopted and selected under `ki-next`, planned to Ready under `ki-plan` and given implementation authority before its run starts.
+3. **Deliver.** Each run delivers its record under `ki-implement`, from an immutable baseline to Awaiting review, on its own branch in its own worktree, and returns immutable delivery evidence and the six-part review packet.
+4. **Review.** One blind Codex review per candidate reviews the exact candidate commit and its combined result with the harness's local `main`, with the harness's sequential `bun run test`, `bunx tsc --noEmit` and the focused audits under [Verification](#verification) run on that combined result; a prose review alone does not pass. A changed candidate returns to review.
+5. **Integrate.** Integration into local `main` is serialised, one candidate at a time, after its review passes ([Running the three in parallel](#running-the-three-in-parallel)).
+6. **Accept.** Kris accepts each record under `ki-accept`, or a separately evidenced exact closure grant does. Review, integration and any Paperclip completion are not KI acceptance.
+7. **Consistency.** Once all three candidates are available, SPEC-1 is read across the three homed texts ([Verification](#verification) step 6).
 
 ## The homing transform
 
-Each homed reference is its approved draft with these edits and no others; any other wording change goes back to Kris under SPEC-TEXT.
+Each homed reference is its approved draft with these edits and no others. HOMING-EDITS, folded into SPEC-TEXT and pending Kris, asks Kris to accept these four as part of the approved text, so the homed files count as that text; any other wording change goes back to Kris under SPEC-TEXT. If Kris takes HOMING-EDITS b) instead, each homed file comes back to Kris for approval after its run.
 
 1. **Status line:** `**Status:** draft 0.8, 20 October 2026. Name <name>. To be held in ...` becomes `**Status:** version 1, accepted <date of SPEC-TEXT>. Name <name>. Held here until it is published and moved to KI Specifications.` The draft history stays in Git and in this work folder.
 2. **Attribution line:** kept word for word, as the [live check](agentskills-check.md#4-licence-of-the-specification-text) sets. The harness is MIT; the file carries its own CC BY 4.0 notice, which is what the licence asks.
@@ -50,7 +63,7 @@ Root: `skills/governance/ki-work-package/`.
 | `scripts/rubric/contexts/work-package.ts` | Change: add `'SPEC'` to the subject's `families` list (line 1001) |
 | `references/rubric.md` | Regenerate: `ki dev skill rubric ki-work-package --write` |
 
-**The profile's edits.** Title `# Knowledge Islands work-package profile`. The provenance paragraph shrinks to one sentence: "This profile maps the house work package, as [the work-package standard](standards-work-package.md) defines it, onto [the portable work specification](standards-work-spec.md); it changes neither." Its run history moves to `sources.md`. The absolute-path link to the standard and the link to `work.md` become those two relative links; the "earlier claim in `specs.md`" sentence goes, keeping the list of where the house package fails. If ENTRY-NAMES has landed, the `work.md`-to-`WORK.md` lines (the entry-file failure, "Until it lands, the mapping reads `work.md` as `WORK.md`", the Folder and files row and the link rule's entry rename) are rewritten to say the house entry is already `WORK.md` and the rename rule applies only to packages not yet migrated; this is the one change beyond the transform, and the run reports it.
+**The profile's edits.** Title `# Knowledge Islands work-package profile`. The provenance paragraph shrinks to one sentence: "This profile maps the house work package, as [the work-package standard](standards-work-package.md) defines it, onto [the portable work specification](standards-work-spec.md); it changes neither." Its run history moves to `sources.md`. The absolute-path link to the standard and the link to `work.md` become those two relative links; the "earlier claim in `specs.md`" sentence goes, keeping the list of where the house package fails. Because 6a runs only after ENTRY-NAMES has landed, the `work.md`-to-`WORK.md` lines (the entry-file failure, "Until it lands, the mapping reads `work.md` as `WORK.md`", the Folder and files row and the link rule's entry rename) are rewritten to say the house entry is already `WORK.md` and the rename rule applies only to packages not yet migrated; this is the one change beyond the transform, and the run reports it.
 
 **SKILL.md wording**, a new bullet at the end of `## Shared model`:
 
@@ -175,7 +188,20 @@ The description runs to about 420 characters. `declaration-only` because `ki-rep
 | `docs/diagrams/skill-map.architecture.json`, `docs/diagrams/skill-area-records-and-code.architecture.json` | Regenerated (CAP-4) | Same |
 | `docs/diagrams/skill-map.svg`, `docs/diagrams/skill-area-records-and-code.svg` | Re-exported by `ki-diagrams`' build with `--svg`, which drives the local Chrome headless; no network | `ki repo audit --skill ki-diagrams` |
 
-The four generated rows are written by `ki repo conform --skill ki-repo-harness --repo <harness>` in write mode, which this brief and HOOK-GUARD forbid (see CATALOGUE-WRITE). `ki-repo-kb`'s description is not changed: its notes and a knowledge package differ by kind, and a second off-ramp costs standing tokens in every session; the COLL-2 read decides if it is needed. The website's skills-by-outcome guide changes only at publication (plan step 8).
+The catalogue, the root counts and the diagram JSON sources are written by one write-mode `ki repo conform --skill ki-repo-harness`, under [the bounded conform write](#the-bounded-conform-write); the SVGs by the separate diagram build. `ki-repo-kb`'s description is not changed: its notes and a knowledge package differ by kind, and a second off-ramp costs standing tokens in every session; the COLL-2 read decides if it is needed. The website's skills-by-outcome guide changes only at publication (plan step 8).
+
+### The bounded conform write
+
+CATALOGUE-WRITE a) allows 6c's brief exactly one write-mode `ki repo conform --skill ki-repo-harness`, run against 6c's worktree; every other `ki repo conform`, in 6c and in every other run, stays `--dry-run`. It is a scoped exception for this one brief, not a lifting of any other brief's ban. HOOK-GUARD is recorded as superseded by HOOKS-MIGRATION in ki.tools-burndown and ki.mac-studio-setup, while ki.ways-of-working and ki.timelines carry the earlier guard and ki.baseline-rollout a non-dry-run caution; those stand for their own work. HOOKS-MIGRATION constrains hook conversion and grants no conform write, and nothing here assumes the estate migration has finished.
+
+1. **Audit first:** `ki repo audit --skill ki-repo-harness --repo <worktree>`, recording its findings before anything is generated.
+2. **Dry-run:** `ki repo conform --skill ki-repo-harness --repo <worktree> --dry-run`.
+3. **Check the complete proposed path set and diff.** The briefed set is `skills/README.md`, `README.md`, `docs/diagrams/skill-map.architecture.json` and `docs/diagrams/skill-area-records-and-code.architecture.json`, with hunks that only add `ki-knowledge-package`, its counts and its diagram nodes. The publisher can also propose `.ki.toml` and the diagram JSON of any functional area it finds stale, and a skill selector is not a path allow-list: a proposed path outside the briefed set, a hunk beyond the new skill, or any write or command the brief does not name stops the run, which reports it and writes nothing.
+4. **Write:** the one `ki repo conform --skill ki-repo-harness --repo <worktree>` without `--dry-run`. The dry-run is a preview, not an approval given just before the live command: the CLI stages its writes and applies them once its own initial audits pass. The run therefore checks the worktree's changed paths and hunks against the briefed set and the dry-run diff straight after, and stops on any other, such as the `.rumdl.toml` rewrite and `rumdl --fix` reflow ki.tools-burndown has seen conform make elsewhere; a stopped run reports and leaves its worktree as it stands.
+5. **Re-audit** `ki-repo-harness` after generation.
+6. **Export the SVGs** with `ki-diagrams`' build and `--svg`, a separate step the publisher does not take, then re-audit `ki-repo-harness` and `ki-diagrams`.
+
+Package manifests, lockfiles and hook directories stay outside this authority whatever any step proposes. Hand-maintaining the generated output could satisfy the exact generated-content checks, but it is the more error-prone route, which is why the bounded write is preferred. If local `main` moves under 6c before it integrates, as ENTRY-NAMES would by changing `ki-work-package`'s description, the generated paths are regenerated on the rebased branch through steps 1 to 6 and the changed candidate returns to review.
 
 ## The drift criterion
 
@@ -190,13 +216,13 @@ Each run writes its own `spec.ts`; the description text is fixed here so the thr
 
 ## Verification
 
-Each run, sequentially, in the harness, as its `AGENTS.md` sets:
+Each run, in its own worktree, runs these sequentially, as the harness's `AGENTS.md` sets, and its review and integration run them again on the combined result with local `main` ([Records, review and acceptance](#records-review-and-acceptance)):
 
 1. `bun run test` and `bunx tsc --noEmit`.
 2. `ki dev skill rubric <skill>` verifies the regenerated `references/rubric.md`.
 3. `ki repo audit --skill ki-skills --repo <harness>`: LAY, KI-LINK-1 and 2 (every relative link in the new references resolves), KI-SHAPE-6 (the new names sit in the closed vocabulary), REF-3, SIZE, PORT-1 (the texts name no runtime; "Anthropic" in the attribution is not a runtime term) and, for 6c, KI-CHECKER-5 (the shared module matches the declaration).
 4. `ki repo audit --skill <skill> --repo <harness>`: RUBRIC-1 publication and CONFIG-1.
-5. 6c only, after its conform write: `ki repo audit --skill ki-repo-harness --repo <harness>` (CAP-2, CAP-3, CAP-4) and `ki repo audit --skill ki-diagrams --repo <harness>`.
+5. 6c only, before and after its [bounded conform write](#the-bounded-conform-write) and again after the SVG export: `ki repo audit --skill ki-repo-harness --repo <worktree>` (CAP-2, CAP-3, CAP-4), and after the export `ki repo audit --skill ki-diagrams --repo <worktree>`.
 6. The judgment reads: KI-LINK-3, REF-2 (each new reference cited from `SKILL.md` with when to read it), COLL-2 for 6c, and SPEC-1 itself against the other two homed texts once all three land.
 
 The pre-commit hook runs lint-staged (rumdl and Biome), `tsc` for staged `.ts` and the staged-snapshot `ki-skills` audit; a commit it refuses is fixed, never bypassed. Fleet findings outside the run's own files are reported apart from failures in its change.
@@ -207,17 +233,17 @@ One finding for 6a: `ki-work-package`'s `scripts/shared/rubric.ts` is an older c
 
 | Run | Writes | Starts |
 | --- | --- | --- |
-| 6a | `skills/governance/ki-work-package/**` only | After ki.ways-of-working's ENTRY-NAMES harness run |
-| 6b | `skills/acquire/ki-acquire/**` only | On SPEC-TEXT |
-| 6c | `skills/governance/ki-knowledge-package/**`, `.ki.toml`, `skill-functions.ts`, `ki-skills/SKILL.md`, then the generated `skills/README.md`, `README.md` and four `docs/diagrams/` files | On SPEC-TEXT |
+| 6a | `skills/governance/ki-work-package/**` only | Once ki.ways-of-working's ENTRY-NAMES harness run has integrated and its record is Ready |
+| 6b | `skills/acquire/ki-acquire/**` only | On SPEC-TEXT, once its record is Ready |
+| 6c | `skills/governance/ki-knowledge-package/**`, `.ki.toml`, `skill-functions.ts`, `ki-skills/SKILL.md`, then the generated `skills/README.md`, `README.md` and four `docs/diagrams/` files | On SPEC-TEXT, once its record is Ready |
 
-The write sets are disjoint, and 6a and 6b change no description, so the catalogue and diagrams are regenerated once, by 6c, whatever order the three finish in. They share one working tree, so:
+The write sets are disjoint, and 6a and 6b change no description, so the catalogue and diagrams are generated by 6c alone. Parallel agents in one repository each use their own Git worktree, under the background-run standard's isolation rule, and Git integration is serialised:
 
-- **Commit by path:** each run stages and commits only its own paths, as `git add <paths>` then `git commit -q -m <msg> -- <paths>`, so another run's staged files never ride along.
-- **Index lock:** a run that meets `.git/index.lock` waits and retries; it never deletes the lock.
-- **Whole-tree gates:** `tsc`, `bun run test` and the hook's snapshot audit see the others' half-written files. A failure only in another run's paths is waited out and rerun, never fixed.
-
-If Kris prefers no shared-tree risk at all, 6b and 6c can chain instead, at the cost of one run's time.
+- **Worktrees:** each run works in `~/.local/state/ki/agents/<run>/worktrees/ki-agentic-harness`, on its own branch from local `main` at its immutable baseline, never in the primary checkout. Before it reports `DONE` it removes the worktree with `git worktree remove`; its branch is deleted only once merged.
+- **Commit by path:** each run stages and commits only its own paths and never bypasses the hook; a commit the hook refuses is fixed.
+- **Gates in isolation:** `tsc`, `bun run test` and the hook's snapshot audit see only the run's own worktree. Findings outside the run's own files are reported apart from failures in its change.
+- **Serialised integration:** after its review passes, each candidate integrates into the primary checkout's local `main` one at a time, inside the serialised Git write window `ki-git` requires: brought onto current `main` by rebase or a `--no-ff` merge, the [Verification](#verification) gates rerun on the combined result, then `main` advanced without force and the resulting commit recorded. A step that meets `.git/index.lock` waits and retries; it never deletes the lock.
+- **Moved `main`:** a candidate whose content changes in integration returns to review; an unchanged candidate on a moved `main` needs revalidation, not fresh approval. 6c regenerates its generated paths if `main` has moved under it ([the bounded conform write](#the-bounded-conform-write)).
 
 ## What graduates
 
@@ -228,4 +254,6 @@ If Kris prefers no shared-tree risk at all, 6b and 6c can chain instead, at the 
 
 ## What needs Kris
 
-Four matters, in the run report's Queries: SPEC-TEXT (already with Kris), HOMING-EDITS (the transform above), CATALOGUE-WRITE (the one write-mode conform), HOMING-REVIEW (records and review route). Everything else above is decided here within SPEC-HOME, KNOWLEDGE-SKILL and WORK-PROFILE.
+- **SPEC-TEXT**, with HOMING-EDITS folded into it, is with Kris and pending: accepting it accepts [the homing transform](#the-homing-transform) as part of the approved text.
+- **Acceptance** of each delivered record under `ki-accept` comes to Kris after review and integration.
+- **Decided:** CATALOGUE-WRITE (the one bounded write-mode conform) and HOMING-REVIEW (the records, review and acceptance route) were decided a) under OVERNIGHT-AUTONOMY at 01:13 BST on 20 October, after query-review-6 lifted both to high confidence, and this note carries their corrections. Everything else above is decided here within SPEC-HOME, KNOWLEDGE-SKILL and WORK-PROFILE.
