@@ -260,6 +260,32 @@ b) Skip the upgrade and report `findings`.
 
 c) Report `failed`.
 
+### [AGE-DOC - The age recovery document's vault](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-077-reorganise-1password-vaults-safely.md)
+
+**Context:** The setup guide restores the "Dotfiles chezmoi age recovery identity" document from the Personal vault by hand. No render reads it, and only you can confirm where it lives now.
+
+**Query:** Should the setup guide keep naming the Personal vault?
+
+**Options:**
+
+a) (the planning run's recommendation, confidence medium) Keep Personal, as the plan does.
+
+b) (the blind review's recommendation, confidence high - only you can confirm the location) You name its current vault and the source steps update the guide to match, keeping Personal if you confirm it.
+
+c) Move it into Automation; both advise against, since every agent holding the token could then read the age identity.
+
+### [RIG-KEYCHAIN - Delete the retired Rig token from Keychain](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-077-reorganise-1password-vaults-safely.md)
+
+**Context:** The retired Rig service account's token was stored in the login Keychain under `ki-op-service-account-rig` on 12 October. It is revoked and no source names it.
+
+**Query:** Should your attended step on each Mac also delete that entry if present?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed; it completes the retired-account cleanup) Yes: add `security delete-generic-password -s ki-op-service-account-rig` to the attended step on both Macs, treating an absent entry as already clean.
+
+b) No: leave it outside this record.
+
 ## Parked
 
 None.
