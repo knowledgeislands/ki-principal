@@ -16,6 +16,6 @@ author: Written with Claude
 
 ## Overview
 
-Knowledge Islands Principal has adopted the Briefings activity group. The Morning Briefing is enabled and runs each working day at 06:00. See [[Admin/Governance/Charter|Charter]] for the adoption position, [[Schedule]] for the day-type taxonomy, and [[Admin Conventions/Integrations|Integrations]] for the calendar and task tool configuration the briefing reads.
+Knowledge Islands Principal has adopted the Briefings activity group. The Morning Briefing is enabled and runs each working day at 06:00. See [Charter](../../Governance/Charter.md) for the adoption position, [Schedule](Schedule.md) for the day-type taxonomy, and [Integrations](<../../Governance/Conventions/Admin Conventions/Integrations.md>) for the calendar and task tool configuration the briefing reads.
 
 Its home is the territory's regular work, `ki.regular`: the briefings recur and never finish, so they need no Project. The Model theme is their label.

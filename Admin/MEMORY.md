@@ -15,8 +15,8 @@ Root memory index for the island, per the canonical Knowledge Islands zone model
 
 ## Active Zones
 
-- [[Admin/Governance/Governance|Governance]] - what this island is: charter, known lands, conventions, decisions, policies, templates.
-- [[Admin/Operations/Operations|Operations]] - how this island runs: activities, processes, live artifacts.
-- [[Pillars/Philosophy/Knowledge Islands|Knowledge Islands]] - the portable model: structure, conventions, activities, agents, and tools.
-- [[Engineering Practice/Engineering Practice|Engineering Practice]] - canonical Techné engineering foundations, architecture, operating model, technology posture and diagrams. Load [[Engineering Practice/MEMORY|Engineering Practice memory]] before substantive engineering knowledge work.
-- [[Techne Programme Focus]] - Techné builds and runs the agent host and the Mac Studio only, within its operating bounds; every other piece of Techné work is kept as an idea. It stands until the island owner changes it, with no fixed review date.
+- [Governance](Governance/Governance.md) - what this island is: charter, known lands, conventions, decisions, policies, templates.
+- [Operations](Operations/Operations.md) - how this island runs: activities, processes, live artifacts.
+- [Knowledge Islands](<../Pillars/Philosophy/Knowledge Islands.md>) - the portable model: structure, conventions, activities, agents, and tools.
+- [Engineering Practice](<../Pillars/Engineering Practice/Engineering Practice.md>) - canonical Techné engineering foundations, architecture, operating model, technology posture and diagrams. Load [Engineering Practice memory](<../Pillars/Engineering Practice/MEMORY.md>) before substantive engineering knowledge work.
+- [Techne Programme Focus](<Governance/Policies/Techne Programme Focus.md>) - Techné builds and runs the agent host and the Mac Studio only, within its operating bounds; every other piece of Techné work is kept as an idea. It stands until the island owner changes it, with no fixed review date.

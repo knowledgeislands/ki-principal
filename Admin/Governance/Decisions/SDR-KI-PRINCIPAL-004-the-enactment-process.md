@@ -18,7 +18,7 @@ Knowledge does not improve by accumulating unchanged. It improves through a cont
 
 The cycle runs continuously. Without a governance gate, both kinds of change land directly in Pillars and Resources - the stable, canonical zones of the island. Stable knowledge would degrade: proposals that have not been reviewed, material that has not been contextualised, and changes that have not been ratified would share space with knowledge the island depends on.
 
-Processes are one of the five governance areas of an island, defined in [[SDR-KI-PRINCIPAL-003-the-governance-of-an-island|SDR-KI-PRINCIPAL-003]]; they set the formal paths through which significant changes must pass. The Enactment Process is that gate.
+Processes are one of the five governance areas of an island, defined in [SDR-KI-PRINCIPAL-003](SDR-KI-PRINCIPAL-003-the-governance-of-an-island.md); they set the formal paths through which significant changes must pass. The Enactment Process is that gate.
 
 ## Decision
 

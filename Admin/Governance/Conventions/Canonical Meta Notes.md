@@ -12,7 +12,7 @@ author: Written with Claude
 
 ## Overview
 
-The ordered list of notes that [[Model/Activities/Tending/Knowledge Rebuild|Knowledge Rebuild]] loads to reconstruct the island's operational context. All paths are relative to the repository root.
+The ordered list of notes that [Knowledge Rebuild](<../../../Pillars/Philosophy/Model/Activities/Tending/Knowledge Rebuild.md>) loads to reconstruct the island's operational context. All paths are relative to the repository root.
 
 ---
 

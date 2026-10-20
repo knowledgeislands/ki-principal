@@ -20,11 +20,11 @@ This note is the canonical overview of the cascade. It explains the flow and who
 - release timing: the `ki-repo-tools` [release-on-demand policy](https://github.com/knowledgeislands/ki-agentic-harness/blob/main/skills/repo-structure/ki-repo-tools/references/standards-release-readiness.md#release-on-demand);
 - release steps: each tool's `docs/guides/developer/releasing.md`, such as the [tools-ki releasing guide](https://github.com/knowledgeislands/tools-ki/blob/main/docs/guides/developer/releasing.md), and the harness [MCP source-release guide](https://github.com/knowledgeislands/ki-agentic-harness/blob/main/docs/guides/developer/mcp-source-releases.md);
 - pin rules: the `ki-engineering` pin receiver contract and [XDR-KI-HARNESS-001](https://github.com/knowledgeislands/ki-agentic-harness/blob/e1c6243e514d4bd5cd43585540b229e58cc4c4ca/docs/decisions/XDR-KI-HARNESS-001-dependabot-security-updates-without-auto-merge.md);
-- tap sender operations and the release App's key custody: the [[GitHub Apps]] convention and the tap's release-App operations guide.
+- tap sender operations and the release App's key custody: the [GitHub Apps](<../../Governance/Conventions/Admin Conventions/GitHub Apps.md>) convention and the tap's release-App operations guide.
 
-![Release Cascade diagram](Release%20Cascade.svg)
+![Release Cascade diagram](<Release Cascade.svg>)
 
-The SVG is exported from the Archify source [beside it](Release%20Cascade.archify.json). Solid arrows run by themselves; dashed arrows wait for a person. The `ki` pin-bump step is drawn as approved rather than as it runs today - see [Automatic, manual and approved](#automatic-manual-and-approved). To change the diagram, edit the source, run Archify's `finalize` for a `workflow` diagram at `showcase` quality, then export the SVG from the rendered viewer. The rendered HTML is a working file and is not kept.
+The SVG is exported from the Archify source [beside it](<Release Cascade.archify.json>). Solid arrows run by themselves; dashed arrows wait for a person. The `ki` pin-bump step is drawn as approved rather than as it runs today - see [Automatic, manual and approved](#automatic-manual-and-approved). To change the diagram, edit the source, run Archify's `finalize` for a `workflow` diagram at `showcase` quality, then export the SVG from the rendered viewer. The rendered HTML is a working file and is not kept.
 
 ---
 

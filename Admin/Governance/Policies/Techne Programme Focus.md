@@ -8,7 +8,7 @@ author: AI-assisted
 
 ## Authority
 
-Knowledge Islands Principal sets the focus of the Techné programme across its independent harness and CLI products, `ki-techne-harness` and `tools-techne`. The island owner is the accountable human owner of this rule and changes it only through the [[Admin/Operations/Processes/Enactment Process|Enactment Process]]. [[GDR-KI-PRINCIPAL-004-techne-focus-on-the-agent-host-and-the-mac-studio|GDR-KI-PRINCIPAL-004]] records the decision.
+Knowledge Islands Principal sets the focus of the Techné programme across its independent harness and CLI products, `ki-techne-harness` and `tools-techne`. The island owner is the accountable human owner of this rule and changes it only through the [Enactment Process](<../../Operations/Processes/Enactment Process.md>). [GDR-KI-PRINCIPAL-004](../Decisions/GDR-KI-PRINCIPAL-004-techne-focus-on-the-agent-host-and-the-mac-studio.md) records the decision.
 
 ## Focus
 
@@ -32,7 +32,7 @@ Local work in `ki-techne-harness` and `tools-techne` serves the two hosts. Both 
 - **Teardown.** For the agent host, withdrawing it through the binding owner's administrator session and removing its tailnet device; for the Mac Studio, removing agent credentials and its tailnet node without wiping the workstation. Both stay documented and available.
 - **Other remote services.** No change to existing remote services, including the controller instance `ki-techne-ops-007-primary`, its stack and its Telegram dispatch path, and nothing in the organisation or its management account. The agent host carries only its own tags, so its operator role cannot reach the controller.
 
-[[Agent Host Prototype Rollout]] illustrates the kill switch and teardown.
+[Agent Host Prototype Rollout](<Agent Host Prototype Rollout.md>) illustrates the kill switch and teardown.
 
 ## Term
 
@@ -40,7 +40,7 @@ The rule has no automatic lapse and no fixed review date. It stands until the is
 
 ## Retired Techné principal
 
-The former `knowledgeislands/ki-techne-principal` was retired on 4 October 2026 and is archived read-only; its snapshots, closed work records, frozen ledger and preserved candidate branches remain readable there as historical evidence. Its candidates for remote agent working-style work, `0f77071572aa649a936be3069f635ab8ea721858` and `eb7292a1f1bd515fcb7c44715caac48bfe5770ad`, were never accepted; any later use must be captured afresh by an owning repository. [[Engineering Practice/Engineering Practice|Engineering Practice]] owns Techné's canonical engineering knowledge.
+The former `knowledgeislands/ki-techne-principal` was retired on 4 October 2026 and is archived read-only; its snapshots, closed work records, frozen ledger and preserved candidate branches remain readable there as historical evidence. Its candidates for remote agent working-style work, `0f77071572aa649a936be3069f635ab8ea721858` and `eb7292a1f1bd515fcb7c44715caac48bfe5770ad`, were never accepted; any later use must be captured afresh by an owning repository. [Engineering Practice](<../../../Pillars/Engineering Practice/Engineering Practice.md>) owns Techné's canonical engineering knowledge.
 
 ## Provenance
 

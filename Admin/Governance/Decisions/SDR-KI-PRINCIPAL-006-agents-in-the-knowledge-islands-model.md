@@ -78,9 +78,9 @@ An AI agent operates as a Citizen when it is acting under a skill prompt that gr
 
 ## References
 
-- [[SDR-KI-PRINCIPAL-001-knowledge-islands-the-strategy|SDR-KI-PRINCIPAL-001]] - Knowledge Islands - The Strategy
-- [[SDR-KI-PRINCIPAL-003-the-governance-of-an-island|SDR-KI-PRINCIPAL-003]] - The Governance of an Island
-- [[SDR-KI-PRINCIPAL-005-territories-archipelagos-and-the-constitutional-layer|SDR-KI-PRINCIPAL-005]] - Territories, Archipelagos, and the Constitutional Layer
+- [SDR-KI-PRINCIPAL-001](SDR-KI-PRINCIPAL-001-knowledge-islands-the-strategy.md) - Knowledge Islands - The Strategy
+- [SDR-KI-PRINCIPAL-003](SDR-KI-PRINCIPAL-003-the-governance-of-an-island.md) - The Governance of an Island
+- [SDR-KI-PRINCIPAL-005](SDR-KI-PRINCIPAL-005-territories-archipelagos-and-the-constitutional-layer.md) - Territories, Archipelagos, and the Constitutional Layer
 - Agents - the Philosophy pillar's concept note at `Introduction/Concept/Agents/Agents.md`.
 - Who Acts on the Island - the Pillars note of that name.
 - Agentic AI - the Pillars note of that name.

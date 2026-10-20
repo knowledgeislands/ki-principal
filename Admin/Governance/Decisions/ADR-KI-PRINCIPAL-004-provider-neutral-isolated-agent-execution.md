@@ -44,6 +44,6 @@ Arcadia maintains this decision record. The archived copy in `knowledgeislands/k
 
 ## References
 
-- [[GDR-KI-PRINCIPAL-001-adopting-decision-records|GDR-KI-PRINCIPAL-001]] - adopts the Decision Records instrument the engineering discipline uses.
+- [GDR-KI-PRINCIPAL-001](GDR-KI-PRINCIPAL-001-adopting-decision-records.md) - adopts the Decision Records instrument the engineering discipline uses.
 - [Development Container specification](https://github.com/devcontainers/spec/blob/main/docs/specs/devcontainer-reference.md) - portable development-environment description.
 - [OCI Image specification](https://github.com/opencontainers/image-spec/blob/main/spec.md) - portable image packaging and transport.

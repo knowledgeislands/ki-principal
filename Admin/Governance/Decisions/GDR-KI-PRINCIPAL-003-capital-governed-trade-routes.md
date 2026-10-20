@@ -38,4 +38,4 @@ Arcadia is the Capital of the Knowledge Islands territory, as its Charter and Kn
 
 ## References
 
-- [[SDR-KI-PRINCIPAL-005-territories-archipelagos-and-the-constitutional-layer|SDR-KI-PRINCIPAL-005]]
+- [SDR-KI-PRINCIPAL-005](SDR-KI-PRINCIPAL-005-territories-archipelagos-and-the-constitutional-layer.md)

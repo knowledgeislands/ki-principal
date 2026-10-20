@@ -26,4 +26,4 @@ Activity prompts reference this note to resolve platform-specific configuration 
 
 No external calendar, task, issue, or email integrations are currently configured for Knowledge Islands Principal. Integrations are added here as they are introduced.
 
-GitHub Apps and automated identities acting on `knowledgeislands` repositories, including the `ki-tools-release-bot` release chain, are organisation infrastructure rather than Knowledge Islands Principal integrations and are recorded in [[GitHub Apps]].
+GitHub Apps and automated identities acting on `knowledgeislands` repositories, including the `ki-tools-release-bot` release chain, are organisation infrastructure rather than Knowledge Islands Principal integrations and are recorded in [GitHub Apps](<GitHub Apps.md>).

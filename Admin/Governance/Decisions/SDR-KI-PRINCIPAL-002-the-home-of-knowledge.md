@@ -14,7 +14,7 @@ decision_depends_on: ['SDR-KI-PRINCIPAL-001']
 
 ## Context
 
-Knowledge Islands rests on a geographic metaphor - islands, territories, archipelagos - and the strategic intent set out in [[SDR-KI-PRINCIPAL-001-knowledge-islands-the-strategy|SDR-KI-PRINCIPAL-001]]. A Knowledge Base island also needs a physical organisation: where knowledge lives, how it is organised, and what distinguishes a knowledge base from an unstructured repository.
+Knowledge Islands rests on a geographic metaphor - islands, territories, archipelagos - and the strategic intent set out in [SDR-KI-PRINCIPAL-001](SDR-KI-PRINCIPAL-001-knowledge-islands-the-strategy.md). A Knowledge Base island also needs a physical organisation: where knowledge lives, how it is organised, and what distinguishes a knowledge base from an unstructured repository.
 
 Knowledge exists at three layers. **Individual knowledge** lives in the mind and its personal extensions - notes, tools, memory aids. **Collective knowledge** is shared across teams and communities. **Civilisational knowledge** is preserved across generations in libraries, archives, and cultural institutions. A Knowledge Island operates across all three layers, with the model providing the structure for knowledge to extend beyond any single mind - without replacing the mind as the source of meaning.
 
@@ -42,4 +42,4 @@ The Capital is the territorial governance role held by its one principal island.
 
 ## References
 
-- [[SDR-KI-PRINCIPAL-001-knowledge-islands-the-strategy|SDR-KI-PRINCIPAL-001]] - foundational strategy.
+- [SDR-KI-PRINCIPAL-001](SDR-KI-PRINCIPAL-001-knowledge-islands-the-strategy.md) - foundational strategy.

@@ -40,6 +40,6 @@ The seats are recorded by role in the Estate territories table of Known Lands: h
 
 ## References
 
-- [[ADR-KI-PRINCIPAL-003-the-agent-host-workstation-model|ADR-KI-PRINCIPAL-003]] - the agent host workstation model this placement builds on.
+- [ADR-KI-PRINCIPAL-003](ADR-KI-PRINCIPAL-003-the-agent-host-workstation-model.md) - the agent host workstation model this placement builds on.
 - [Known World](https://github.com/knowledgeislands/ki-principal/blob/76c64049581426ae7cebaaabf1a762643f52725f/Pillars/Philosophy/Emerging%20Concepts/Known%20World.md) - the emerging foundations model in which seats bind territories to hosts.
 - [Known Lands](https://github.com/knowledgeislands/ki-principal/blob/76c64049581426ae7cebaaabf1a762643f52725f/Admin/Governance/Known%20Lands.md) - the Estate territories table that records each territory's seat.

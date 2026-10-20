@@ -42,4 +42,4 @@ Techné carries no programme hold. It focuses on the agent host and the Mac Stud
 
 ## References
 
-- [[SDR-KI-PRINCIPAL-004-the-enactment-process|SDR-KI-PRINCIPAL-004]] - the Enactment Process through which the focus is changed.
+- [SDR-KI-PRINCIPAL-004](SDR-KI-PRINCIPAL-004-the-enactment-process.md) - the Enactment Process through which the focus is changed.

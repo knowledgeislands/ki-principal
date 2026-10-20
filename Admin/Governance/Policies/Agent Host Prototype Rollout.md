@@ -8,15 +8,15 @@ author: AI-assisted
 
 ## Overview
 
-This diagram shows the order in which the limited remote agent prototype comes into use, and how it stops. It shows the gates through which the agent host came into use under the exemption the Techne Programme Hold then carried, as [KI-PRINCIPAL-GOV-020](https://github.com/knowledgeislands/ki-principal/blob/fddfca69b4642cb4db4113123aa7dc613c3e92f4/Streams/Roadmap/KI-ARCADIA-GOV-020-limited-remote-agent-prototype.md) defined them, and the kill switch and teardown the [[Techne Programme Focus]] keeps, which [[GDR-KI-PRINCIPAL-004-techne-focus-on-the-agent-host-and-the-mac-studio|GDR-KI-PRINCIPAL-004]] records. It illustrates the policy; where they differ, the focus rule and the Decision Record govern.
+This diagram shows the order in which the limited remote agent prototype comes into use, and how it stops. It shows the gates through which the agent host came into use under the exemption the Techne Programme Hold then carried, as [KI-PRINCIPAL-GOV-020](https://github.com/knowledgeislands/ki-principal/blob/fddfca69b4642cb4db4113123aa7dc613c3e92f4/Streams/Roadmap/KI-ARCADIA-GOV-020-limited-remote-agent-prototype.md) defined them, and the kill switch and teardown the [Techne Programme Focus](<Techne Programme Focus.md>) keeps, which [GDR-KI-PRINCIPAL-004](../Decisions/GDR-KI-PRINCIPAL-004-techne-focus-on-the-agent-host-and-the-mac-studio.md) records. It illustrates the policy; where they differ, the focus rule and the Decision Record govern.
 
-![[Agent Host Prototype Rollout.svg]]
+![Agent Host Prototype Rollout.svg](<Agent Host Prototype Rollout.svg>)
 
 ---
 
 ## Governance
 
-Kris accepted the prototype's bounds on 7 October 2026, and the hold was then amended through [[GDR-KI-PRINCIPAL-004-techne-focus-on-the-agent-host-and-the-mac-studio|GDR-KI-PRINCIPAL-004]]. That amendment was the gate for every remote step: no remote action, including creating the host or testing a connection, preceded it. On 20 October 2026 the [[Techne Programme Focus]] replaced the hold, carrying the same operating bounds forward, and GDR-KI-PRINCIPAL-004 now records the focus.
+Kris accepted the prototype's bounds on 7 October 2026, and the hold was then amended through [GDR-KI-PRINCIPAL-004](../Decisions/GDR-KI-PRINCIPAL-004-techne-focus-on-the-agent-host-and-the-mac-studio.md). That amendment was the gate for every remote step: no remote action, including creating the host or testing a connection, preceded it. On 20 October 2026 the [Techne Programme Focus](<Techne Programme Focus.md>) replaced the hold, carrying the same operating bounds forward, and GDR-KI-PRINCIPAL-004 now records the focus.
 
 ## Access and build
 
@@ -32,6 +32,6 @@ The kill switch is available at any time: stop the host with the agent-host prof
 
 ## Source
 
-The SVG is exported from the Archify source [[Agent Host Prototype Rollout.archify.json|beside it]]. To change the diagram, edit the source, run Archify's `finalize` for a `workflow` diagram at `showcase` quality, then export the SVG from the rendered viewer. The rendered HTML is a working file and is not kept.
+The SVG is exported from the Archify source [beside it](<Agent Host Prototype Rollout.archify.json>). To change the diagram, edit the source, run Archify's `finalize` for a `workflow` diagram at `showcase` quality, then export the SVG from the rendered viewer. The rendered HTML is a working file and is not kept.
 
-Return to [[Policies]].
+Return to [Policies](Policies.md).

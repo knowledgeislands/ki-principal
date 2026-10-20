@@ -39,4 +39,4 @@ Decision Records live at `Admin/Governance/Decisions/`, and tooling and referenc
 
 ## References
 
-- [[GDR-KI-PRINCIPAL-001-adopting-decision-records|GDR-KI-PRINCIPAL-001]] - adopts the Decision Records instrument whose placement this record sets.
+- [GDR-KI-PRINCIPAL-001](GDR-KI-PRINCIPAL-001-adopting-decision-records.md) - adopts the Decision Records instrument whose placement this record sets.

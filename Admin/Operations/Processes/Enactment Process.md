@@ -46,5 +46,5 @@ This roadmap record adheres to the [[Enactment Process]]. Move content to `Admin
 
 ## Related conventions
 
-- [[Streams Conventions/Streams Conventions|Streams Conventions]] - the Streams zone structure and routing conventions.
-- [[Admin Conventions/Routing Rules|Routing Rules]] - where content belongs across zones.
+- [Streams Conventions](<../../Governance/Conventions/Streams Conventions/Streams Conventions.md>) - the Streams zone structure and routing conventions.
+- [Routing Rules](<../../Governance/Conventions/Admin Conventions/Routing Rules.md>) - where content belongs across zones.

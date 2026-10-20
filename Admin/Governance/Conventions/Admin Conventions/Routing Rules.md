@@ -12,7 +12,7 @@ memory_file: project_{ki_prefix}_structure.md
 
 ## Overview
 
-Routing rules specific to this island, supplementing the general conventions in [[Structure]].
+Routing rules specific to this island, supplementing the general conventions in [Structure](../../../../Pillars/Philosophy/Model/Conventions/Structure/Structure.md).
 
 ---
 
@@ -47,5 +47,5 @@ Common routing decisions:
 
 The `productivity:memory-management` skill stores reference material under `memory/` as a staging convention. When a `memory/` folder appears in a session, treat it as temporary - migrate content to the correct island location and then remove the folder:
 
-- KI terminology and acronyms → [[Glossary|Glossary]]
+- KI terminology and acronyms → [Glossary](../Glossary.md)
 - Custodian profiles → `Resources/People/`

@@ -18,7 +18,7 @@ Knowledge Islands needs to distinguish shared jurisdiction, subject expertise, r
 
 Shared governance also needs to accommodate different audiences and protected sources within one territory. Registry resolution, working sets and coordination bindings describe operational relationships but cannot substitute for governed membership or permission.
 
-An archipelago was first read as a grouping by proximity or shared character, independent of jurisdiction, so a chart needed two grouping lines. On 2026-10-19 Kris agreed with [GDR-KI-DESIGN-015](https://github.com/knowledgeislands/ki-design/blob/c56d394f3fbb4f28eac0ef9b2bf19958e79f7f9a/docs/decisions/GDR-KI-DESIGN-015-islands-and-archipelagos.md) in `ki-design` that a territory is drawn and described as an archipelago. Under [[SDR-KI-PRINCIPAL-004-the-enactment-process|SDR-KI-PRINCIPAL-004]] his explicit instruction for this bounded change is the ratification.
+An archipelago was first read as a grouping by proximity or shared character, independent of jurisdiction, so a chart needed two grouping lines. On 2026-10-19 Kris agreed with [GDR-KI-DESIGN-015](https://github.com/knowledgeislands/ki-design/blob/c56d394f3fbb4f28eac0ef9b2bf19958e79f7f9a/docs/decisions/GDR-KI-DESIGN-015-islands-and-archipelagos.md) in `ki-design` that a territory is drawn and described as an archipelago. Under [SDR-KI-PRINCIPAL-004](SDR-KI-PRINCIPAL-004-the-enactment-process.md) his explicit instruction for this bounded change is the ratification.
 
 ## Decision
 

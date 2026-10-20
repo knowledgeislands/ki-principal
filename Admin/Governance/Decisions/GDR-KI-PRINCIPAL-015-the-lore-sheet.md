@@ -16,11 +16,11 @@ decision_depends_on: ['GDR-KI-PRINCIPAL-010', 'GDR-KI-PRINCIPAL-011', 'GDR-KI-PR
 
 Illustrations, stories and copy for Knowledge Islands reach for the same world, but nothing named which motifs belong to it. Without that list, drafts drift into fantasy: creatures, magic and crystals that mean nothing in the model. The `ki-design` work also proposed whale song as a signal.
 
-On 2026-10-19 Kris accepted the `ki-design` recommendation for one page of named motifs in the Aesthetics pillar. Under [[SDR-KI-PRINCIPAL-004-the-enactment-process|SDR-KI-PRINCIPAL-004]] his explicit instruction for this bounded change is the ratification.
+On 2026-10-19 Kris accepted the `ki-design` recommendation for one page of named motifs in the Aesthetics pillar. Under [SDR-KI-PRINCIPAL-004](SDR-KI-PRINCIPAL-004-the-enactment-process.md) his explicit instruction for this bounded change is the ratification.
 
 ## Decision
 
-**The [[Pillars/Aesthetics/Lore Sheet/Lore Sheet|Lore Sheet]] names the motifs of the Knowledge Islands world:** the Great Library, the Capital, the Port and its customs house, the Mill, the tides as the cycle, the Known Lands and their fog, the compass, and the Ruins as honoured retirement.
+**The [Lore Sheet](<../../../Pillars/Aesthetics/Lore Sheet/Lore Sheet.md>) names the motifs of the Knowledge Islands world:** the Great Library, the Capital, the Port and its customs house, the Mill, the tides as the cycle, the Known Lands and their fog, the compass, and the Ruins as honoured retirement.
 
 **Creatures, magic and crystals are ruled out.** Whale song is a creature, so it is ruled out as a signal unless Kris decides otherwise.
 
@@ -32,5 +32,5 @@ On 2026-10-19 Kris accepted the `ki-design` recommendation for one page of named
 
 ## References
 
-- [[GDR-KI-PRINCIPAL-010-the-port|GDR-KI-PRINCIPAL-010]], [[GDR-KI-PRINCIPAL-011-the-capital|GDR-KI-PRINCIPAL-011]] and [[GDR-KI-PRINCIPAL-013-the-causeway-and-the-mill|GDR-KI-PRINCIPAL-013]] - the Port, the Capital and the Mill.
-- [[SDR-KI-PRINCIPAL-004-the-enactment-process|SDR-KI-PRINCIPAL-004]] - an explicit owner instruction for a bounded change stands in for a proposal.
+- [GDR-KI-PRINCIPAL-010](GDR-KI-PRINCIPAL-010-the-port.md), [GDR-KI-PRINCIPAL-011](GDR-KI-PRINCIPAL-011-the-capital.md) and [GDR-KI-PRINCIPAL-013](GDR-KI-PRINCIPAL-013-the-causeway-and-the-mill.md) - the Port, the Capital and the Mill.
+- [SDR-KI-PRINCIPAL-004](SDR-KI-PRINCIPAL-004-the-enactment-process.md) - an explicit owner instruction for a bounded change stands in for a proposal.

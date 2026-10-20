@@ -18,7 +18,7 @@ On 15 October Kris answered PRIORITY-FIELD: `priority` came off the records that
 
 By 19 October the roadmaps held over 300 records, with no field saying how important a record is among the many at one horizon or how much effort it involves. A field survey of all 316 records in the 31 registered repositories found 106 adopted open records without `kind`, 55 still on retired horizons, and several fields and values barely used or never used.
 
-On 2026-10-19 Kris asked that "work should have a size and a priority, even if its horizon isn't now or next", accepted the recommended vocabularies and migration window, and then answered the field survey: "horizon is about when, and then priority is about how important ... I think it matter more when there is a lot of items in the roadmap and choosing what is next. so lets add it. if there isn't a priority today, default to `medium`"; size "allows us to visualise the efforts involved in the work, and ... its useful in guiding to split work up"; "we should tighten up a little"; and "yes, clean up then please". Under [[SDR-KI-PRINCIPAL-004-the-enactment-process|SDR-KI-PRINCIPAL-004]] this explicit instruction for a bounded change stands in for an Enactment record.
+On 2026-10-19 Kris asked that "work should have a size and a priority, even if its horizon isn't now or next", accepted the recommended vocabularies and migration window, and then answered the field survey: "horizon is about when, and then priority is about how important ... I think it matter more when there is a lot of items in the roadmap and choosing what is next. so lets add it. if there isn't a priority today, default to `medium`"; size "allows us to visualise the efforts involved in the work, and ... its useful in guiding to split work up"; "we should tighten up a little"; and "yes, clean up then please". Under [SDR-KI-PRINCIPAL-004](SDR-KI-PRINCIPAL-004-the-enactment-process.md) this explicit instruction for a bounded change stands in for an Enactment record.
 
 Two independent reviews of the fields then found the first size meanings, given in hours, unstable for agent work, the selection order unstated, and the window's close and migration unowned. At 12:04 BST on 2026-10-19 Kris amended this decision in place, answering "do everything recommended" to SIZE-MEANING, SELECTION-ORDER, FIELDS-MIGRATE, FIELDS-CORE and FIELDS-KEPT; that explicit instruction likewise stands in for an Enactment record.
 
@@ -49,13 +49,13 @@ Two independent reviews of the fields then found the first size meanings, given 
 
 - The `ki-work-roadmap` work-item format and repository-roadmap standard, the `ki-repo-kb-streams` structure, the `ki-work` adapter crosswalk and Project registry, `ki-next` capture and selection, and the harness roadmap and Streams checkers carry the fields, the window and the retirements.
 - tools-ki receives one handoff for its validator and `ki work`: accept both fields and their vocabularies, read an absent priority as `medium`, list the gaps, require both at capture, warn and then fail as the harness does.
-- This decision amends [[GDR-KI-PRINCIPAL-005-the-roadmap-model|GDR-KI-PRINCIPAL-005]]'s `purpose` vocabulary, which no longer includes `adoption`.
+- This decision amends [GDR-KI-PRINCIPAL-005](GDR-KI-PRINCIPAL-005-the-roadmap-model.md)'s `purpose` vocabulary, which no longer includes `adoption`.
 - No other repository's records are edited by this decision; each repository's migration is a separate run that Kris approves.
 - Closing the window is a harness checker change made in step with the `ki` release that closes it.
 
 ## References
 
-- [[GDR-KI-PRINCIPAL-005-the-roadmap-model|GDR-KI-PRINCIPAL-005]] - the roadmap model, whose fields this decision extends.
-- [[GDR-KI-PRINCIPAL-009-the-work-model|GDR-KI-PRINCIPAL-009]] - the work model, which replaced `initiative` with `theme`.
-- [[SDR-KI-PRINCIPAL-004-the-enactment-process|SDR-KI-PRINCIPAL-004]] - an explicit owner instruction for a bounded change stands in for a proposal.
+- [GDR-KI-PRINCIPAL-005](GDR-KI-PRINCIPAL-005-the-roadmap-model.md) - the roadmap model, whose fields this decision extends.
+- [GDR-KI-PRINCIPAL-009](GDR-KI-PRINCIPAL-009-the-work-model.md) - the work model, which replaced `initiative` with `theme`.
+- [SDR-KI-PRINCIPAL-004](SDR-KI-PRINCIPAL-004-the-enactment-process.md) - an explicit owner instruction for a bounded change stands in for a proposal.
 - [Work-item format, Priority and size](https://github.com/knowledgeislands/ki-agentic-harness/blob/main/skills/change-management/ki-work-roadmap/references/standards-work-item-format.md#priority-and-size) - the standard that carries this decision.

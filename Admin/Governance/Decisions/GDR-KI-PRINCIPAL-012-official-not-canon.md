@@ -14,9 +14,9 @@ decision_depends_on: ['SDR-KI-PRINCIPAL-004', 'GDR-KI-PRINCIPAL-010', 'GDR-KI-PR
 
 ## Context
 
-Symbols, terms and other items in Knowledge Islands carry a status word saying how settled they are. The words in use were _canon_, _decided_ and _proposed_, with open questions listed separately, and [[GDR-KI-PRINCIPAL-010-the-port|GDR-KI-PRINCIPAL-010]] asked for items to be marked "as canon". "Canon" confused readers as a label. [GDR-KI-DESIGN-002](https://github.com/knowledgeislands/ki-design/blob/7db751f405d17a09790150aec9a7de6d4966f6a0/docs/decisions/GDR-KI-DESIGN-002-status-labels.md) in `ki-design` renamed the design system's labels to Official · Agreed · Proposed · Open.
+Symbols, terms and other items in Knowledge Islands carry a status word saying how settled they are. The words in use were _canon_, _decided_ and _proposed_, with open questions listed separately, and [GDR-KI-PRINCIPAL-010](GDR-KI-PRINCIPAL-010-the-port.md) asked for items to be marked "as canon". "Canon" confused readers as a label. [GDR-KI-DESIGN-002](https://github.com/knowledgeislands/ki-design/blob/7db751f405d17a09790150aec9a7de6d4966f6a0/docs/decisions/GDR-KI-DESIGN-002-status-labels.md) in `ki-design` renamed the design system's labels to Official · Agreed · Proposed · Open.
 
-On 2026-10-18 Kris asked for the change to reach the official terminology as well, and confirmed that "canonical knowledge" stays the term for ratified knowledge. Under [[SDR-KI-PRINCIPAL-004-the-enactment-process|SDR-KI-PRINCIPAL-004]] his explicit instruction for this bounded change is the ratification.
+On 2026-10-18 Kris asked for the change to reach the official terminology as well, and confirmed that "canonical knowledge" stays the term for ratified knowledge. Under [SDR-KI-PRINCIPAL-004](SDR-KI-PRINCIPAL-004-the-enactment-process.md) his explicit instruction for this bounded change is the ratification.
 
 ## Decision
 
@@ -32,11 +32,11 @@ On 2026-10-18 Kris asked for the change to reach the official terminology as wel
 ## Consequences
 
 - A status cell, chip or label says Official or Agreed, never canon or decided.
-- [[GDR-KI-PRINCIPAL-010-the-port|GDR-KI-PRINCIPAL-010]] asks for its symbols to be marked as official.
+- [GDR-KI-PRINCIPAL-010](GDR-KI-PRINCIPAL-010-the-port.md) asks for its symbols to be marked as official.
 - Roadmap records keep the wording they were written with, as a historical record.
 
 ## References
 
 - [GDR-KI-DESIGN-002](https://github.com/knowledgeislands/ki-design/blob/7db751f405d17a09790150aec9a7de6d4966f6a0/docs/decisions/GDR-KI-DESIGN-002-status-labels.md) - the design-system status labels this record matches.
-- [[SDR-KI-PRINCIPAL-004-the-enactment-process|SDR-KI-PRINCIPAL-004]] - an explicit owner instruction for a bounded change stands in for a proposal.
-- [[GDR-KI-PRINCIPAL-010-the-port|GDR-KI-PRINCIPAL-010]] and [[GDR-KI-PRINCIPAL-011-the-capital|GDR-KI-PRINCIPAL-011]] - the symbol decisions whose status wording this record settles.
+- [SDR-KI-PRINCIPAL-004](SDR-KI-PRINCIPAL-004-the-enactment-process.md) - an explicit owner instruction for a bounded change stands in for a proposal.
+- [GDR-KI-PRINCIPAL-010](GDR-KI-PRINCIPAL-010-the-port.md) and [GDR-KI-PRINCIPAL-011](GDR-KI-PRINCIPAL-011-the-capital.md) - the symbol decisions whose status wording this record settles.

@@ -25,4 +25,4 @@ The island spans three physical locations. The text and binary stores mirror the
 
 † **Working folder purpose** - temporary files Cowork generates before moving to a store or deleting once obsolete.
 
-See [[Structure]] for the general store convention.
+See [Structure](../../../../Pillars/Philosophy/Model/Conventions/Structure/Structure.md) for the general store convention.

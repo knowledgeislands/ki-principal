@@ -11,7 +11,7 @@ author: Mixed
 
 ## Overview
 
-Known Lands records the Knowledge Islands territory's governed internal inventory and separately signposts external lands. Knowledge Islands Principal is its Capital under [[Governance/Charter|Charter]]. Internal entries declare membership and ownership boundaries; external entries describe relationships to independent authorities.
+Known Lands records the Knowledge Islands territory's governed internal inventory and separately signposts external lands. Knowledge Islands Principal is its Capital under [Charter](Charter.md). Internal entries declare membership and ownership boundaries; external entries describe relationships to independent authorities.
 
 Any island may maintain its own chart of useful topics, sources and destinations. Those local charts can support queries, captures and work without claiming jurisdiction or replacing the Capital's inventory.
 
@@ -47,7 +47,7 @@ Each island owns its accepted knowledge or executable behaviour within the share
 | [tools-rig][tools-rig] | Tool | Local environment tooling |
 | [tools-techne][tools-techne] | Tool | Techné operator command |
 
-Knowledge Islands Principal's [[Engineering Practice/Engineering Practice|Engineering Practice]] is the canonical home of Techné's engineering knowledge and decisions. The former source repository, [ki-techne-principal][ki-techne-principal], was retired on 4 October 2026 under [KI-PRINCIPAL-ECO-008](https://github.com/knowledgeislands/ki-principal/blob/7809c906a8e9531d1986ac6123932b03ac062b97/Streams/Roadmap/KI-ARCADIA-ECO-008-disposition-retained-techne-source.md): it is archived read-only as historical evidence, is no longer a member, and holds no live work. The [[Techne Programme Focus]] narrows Techné Harness and `tools-techne` to building and running the agent host and the Mac Studio, keeping all other Techné work as ideas. The two implementation products retain independent ownership; local development continues under their repository standards, and knowledge adoption does not itself change services or accept candidates.
+Knowledge Islands Principal's [Engineering Practice](<../../Pillars/Engineering Practice/Engineering Practice.md>) is the canonical home of Techné's engineering knowledge and decisions. The former source repository, [ki-techne-principal][ki-techne-principal], was retired on 4 October 2026 under [KI-PRINCIPAL-ECO-008](https://github.com/knowledgeislands/ki-principal/blob/7809c906a8e9531d1986ac6123932b03ac062b97/Streams/Roadmap/KI-ARCADIA-ECO-008-disposition-retained-techne-source.md): it is archived read-only as historical evidence, is no longer a member, and holds no live work. The [Techne Programme Focus](<Policies/Techne Programme Focus.md>) narrows Techné Harness and `tools-techne` to building and running the agent host and the Mac Studio, keeping all other Techné work as ideas. The two implementation products retain independent ownership; local development continues under their repository standards, and knowledge adoption does not itself change services or accept candidates.
 
 The former [ki-plugins][ki-plugins] Claude plugin projection was retired on 5 October 2026 under [KI-PRINCIPAL-ECO-010](https://github.com/knowledgeislands/ki-principal/blob/7809c906a8e9531d1986ac6123932b03ac062b97/Streams/Roadmap/KI-ARCADIA-ECO-010-retire-ki-plugins.md) and the harness decision [ADR-KI-HARNESS-015](https://github.com/knowledgeislands/ki-agentic-harness/blob/92c6014286a0711b8badf9a8b9fe6294d0780a8d/docs/decisions/ADR-KI-HARNESS-015-retire-the-claude-plugin-projection.md): it is archived read-only, is no longer a member, and is not a distribution surface. The `ki` CLI installs the harness, and `npx skills add` is the quick skills-only route.
 
@@ -69,7 +69,7 @@ Domains the territory holds or plans to hold, recorded from the 2026-10-12 inven
 
 ## Estate territories
 
-The estate has eight territories. Each has a handle, a short alias used in repository names and codes, a class: entity or individual, and a seat: the host role where it is primarily tended, home or hub, with Knowledge Islands, Legal and Personal seated on both, tipped to the hub, under [[ADR-KI-PRINCIPAL-007-territory-seats-on-hosts|ADR-KI-PRINCIPAL-007]]. The binding of each role to a machine stays in the local registry and chezmoi. This list names each territory's Capital for reference only; it grants no membership, authority, access, or permission to exchange material.
+The estate has eight territories. Each has a handle, a short alias used in repository names and codes, a class: entity or individual, and a seat: the host role where it is primarily tended, home or hub, with Knowledge Islands, Legal and Personal seated on both, tipped to the hub, under [ADR-KI-PRINCIPAL-007](Decisions/ADR-KI-PRINCIPAL-007-territory-seats-on-hosts.md). The binding of each role to a machine stays in the local registry and chezmoi. This list names each territory's Capital for reference only; it grants no membership, authority, access, or permission to exchange material.
 
 | Territory | Handle | Alias | Class | Seat | Capital |
 | --- | --- | --- | --- | --- | --- |

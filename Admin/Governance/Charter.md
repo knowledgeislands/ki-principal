@@ -14,7 +14,7 @@ author: Mixed
 
 Knowledge Islands Principal's island charter - the authoritative declaration of what this island is and what it has adopted. It has two parts that change at different rates. The **Identity** section is static: these parameters define the island and do not change without a constitutional amendment. The operational sections below it change as activities are enabled or disabled, integrations connected, and agent configuration updated.
 
-The [[Model/Activities/Constitutional/Conformance|Conformance Check]] uses this note as its source of truth. Agents starting cold and humans checking operational state both read it first.
+The [Conformance Check](../../Pillars/Philosophy/Model/Activities/Constitutional/Conformance.md) uses this note as its source of truth. Agents starting cold and humans checking operational state both read it first.
 
 ---
 
@@ -40,17 +40,17 @@ Fixed parameters that distinguish this Knowledge Island. Automations and skill p
 
 ## Territorial authority
 
-Knowledge Islands Principal is the sole Capital of the Knowledge Islands territory. Its canonical repository identity is [knowledgeislands/ki-principal](https://github.com/knowledgeislands/ki-principal). [[Known Lands]] records the authoritative internal inventory and distinguishes external signposting.
+Knowledge Islands Principal is the sole Capital of the Knowledge Islands territory. Its canonical repository identity is [knowledgeislands/ki-principal](https://github.com/knowledgeislands/ki-principal). [Known Lands](<Known Lands.md>) records the authoritative internal inventory and distinguishes external signposting.
 
 The Capital holds shared territorial governance. Each member island retains its subject or product ownership, source access rules, canonical acceptance and repository-owned delivery authority. A specialist engineering island or an implementation product does not become another territorial principal.
 
 Other territories may reference or adopt the public KI model under their own authority. Knowledge Islands Principal's authorship grants no jurisdiction over those consumers and does not require them to disclose private membership or adoption.
 
-Knowledge Islands Principal also holds the territory's trade-route policy. Its `.ki.toml` declares the territory name and members in `territory_name` and `territory_members` under `[skills.ki-repo]` and the only permitted trade channels, standing knowledge-intake grants and knowledge subtypes in `[skills.ki-trades.territory]`. Every repository names its Capital in `[skills.ki-repo].capital`, and members carry no route tables of their own. A route grants visibility of a deliberate handoff only: the source still owns what it submits, and the receiver still owns receipt, disposition and acceptance. No route grants peer write, scheduling, implementation, publication, automatic acquisition or acceptance. Policy changes follow the Enactment Process. [[GDR-KI-PRINCIPAL-003-capital-governed-trade-routes|GDR-KI-PRINCIPAL-003]] records the decision.
+Knowledge Islands Principal also holds the territory's trade-route policy. Its `.ki.toml` declares the territory name and members in `territory_name` and `territory_members` under `[skills.ki-repo]` and the only permitted trade channels, standing knowledge-intake grants and knowledge subtypes in `[skills.ki-trades.territory]`. Every repository names its Capital in `[skills.ki-repo].capital`, and members carry no route tables of their own. A route grants visibility of a deliberate handoff only: the source still owns what it submits, and the receiver still owns receipt, disposition and acceptance. No route grants peer write, scheduling, implementation, publication, automatic acquisition or acceptance. Policy changes follow the Enactment Process. [GDR-KI-PRINCIPAL-003](Decisions/GDR-KI-PRINCIPAL-003-capital-governed-trade-routes.md) records the decision.
 
 Repository selection derives from the Capital's ordered `territory_members`, including Knowledge Islands Principal, with `territory_prefix = "knowledge-islands"` as the short handle. KI and mgit support `-t knowledge-islands`, `--estate` and literal, case-sensitive directory-name prefix filters through `-f`. The registry resolves canonical identities to machine-local locations, and a Paperclip company coordinates admitted work with organisation code `KIS`. None establishes territorial membership, permission or cross-repository write authority. Reconcile any disagreement with this Charter and Known Lands through the accountable owners.
 
-Knowledge Islands Principal owns the Techné engineering discipline in [[Engineering Practice/Engineering Practice|Engineering Practice]], including canonical architecture, operating models, technology posture and engineering decision criteria. The former `knowledgeislands/ki-techne-principal` knowledge tree was retired on 4 October 2026 and is archived read-only as historical evidence; it holds no live work and is not another Capital or canonical engineering owner. The [[Techne Programme Focus]] narrows Techné work across the harness and CLI to the agent host and the Mac Studio, keeping all other Techné work as ideas, while both products stay current with their repository standards. Knowledge adoption and source retirement do not themselves integrate candidates or alter services.
+Knowledge Islands Principal owns the Techné engineering discipline in [Engineering Practice](<../../Pillars/Engineering Practice/Engineering Practice.md>), including canonical architecture, operating models, technology posture and engineering decision criteria. The former `knowledgeislands/ki-techne-principal` knowledge tree was retired on 4 October 2026 and is archived read-only as historical evidence; it holds no live work and is not another Capital or canonical engineering owner. The [Techne Programme Focus](<Policies/Techne Programme Focus.md>) narrows Techné work across the harness and CLI to the agent host and the Mac Studio, keeping all other Techné work as ideas, while both products stay current with their repository standards. Knowledge adoption and source retirement do not themselves integrate candidates or alter services.
 
 ---
 
@@ -60,10 +60,10 @@ Adoption positions for all non-constitutional activity groups. Every group must 
 
 | Group     | Position | Activity Definition                                           |
 | --------- | -------- | ------------------------------------------------------------- |
-| Tending   | adopted  | [[Admin/Operations/Activities/Tending Activity\|Tending]]     |
-| Briefings | adopted  | [[Admin/Operations/Activities/Briefings Activity\|Briefings]] |
-| Email     | vetoed   | [[Admin/Operations/Activities/Email Activity\|Email]]         |
-| Linear    | vetoed   | [[Admin/Operations/Activities/Linear Activity\|Linear]]       |
+| Tending   | adopted  | [Tending](<../Operations/Activities/Tending Activity.md>)     |
+| Briefings | adopted  | [Briefings](<../Operations/Activities/Briefings Activity.md>) |
+| Email     | vetoed   | [Email](<../Operations/Activities/Email Activity.md>)         |
+| Linear    | vetoed   | [Linear](<../Operations/Activities/Linear Activity.md>)       |
 
 ---
 
@@ -73,9 +73,9 @@ Active scheduled automations within adopted groups. An activity listed here is e
 
 | Activity | Group | Day Type | Time | Status |
 | --- | --- | --- | --- | --- |
-| [[Model/Activities/Constitutional/Conformance]] | Constitutional | work-day | 04:30 | enabled |
-| [[Model/Activities/Tending/Health Check\|Health Check]] | Tending | Monday work-day | 08:00 | enabled |
-| [[Model/Activities/Tending/Knowledge Rebuild\|Knowledge Rebuild]] | Tending | Wednesday work-day | 07:00 | enabled |
+| [Model/Activities/Constitutional/Conformance](../../Pillars/Philosophy/Model/Activities/Constitutional/Conformance.md) | Constitutional | work-day | 04:30 | enabled |
+| [Health Check](<../../Pillars/Philosophy/Model/Activities/Tending/Health Check.md>) | Tending | Monday work-day | 08:00 | enabled |
+| [Knowledge Rebuild](<../../Pillars/Philosophy/Model/Activities/Tending/Knowledge Rebuild.md>) | Tending | Wednesday work-day | 07:00 | enabled |
 | [Morning Briefing](<../Operations/Activities/Briefings Activity.md>) | Briefings | work-day | 06:00 | enabled |
 
 Day types are defined in the [activity schedule](<../Operations/Activities/Schedule.md>).
@@ -88,18 +88,18 @@ Active conversational activities within adopted groups. Trigger phrases are the 
 
 | Activity | Group | Trigger | Status |
 | --- | --- | --- | --- |
-| [[Inbox Review]] | Tending | _"ki inbox review"_ | enabled |
-| [[Asset Audit]] | Tending | _"ki asset audit"_ | enabled |
-| [[Status Review]] | Tending | _"ki status review"_ | enabled |
-| [[Structural Audit]] | Tending | _"ki structural audit"_ | enabled |
-| [[Wikilink Review]] | Tending | _"ki wikilink review"_ | enabled |
-| [[Model/Activities/Tending/Convergence Check\|Convergence Check]] | Tending | _"ki convergence check"_ | enabled |
+| [Inbox Review](<../../Pillars/Philosophy/Model/Activities/Tending/Inbox Review.md>) | Tending | _"ki inbox review"_ | enabled |
+| [Asset Audit](<../../Pillars/Philosophy/Model/Activities/Tending/Asset Audit.md>) | Tending | _"ki asset audit"_ | enabled |
+| [Status Review](<../../Pillars/Philosophy/Model/Activities/Tending/Status Review.md>) | Tending | _"ki status review"_ | enabled |
+| [Structural Audit](<../../Pillars/Philosophy/Model/Activities/Tending/Structural Audit.md>) | Tending | _"ki structural audit"_ | enabled |
+| [Wikilink Review](<../../Pillars/Philosophy/Model/Activities/Tending/Wikilink Review.md>) | Tending | _"ki wikilink review"_ | enabled |
+| [Convergence Check](<../../Pillars/Philosophy/Model/Activities/Tending/Convergence Check.md>) | Tending | _"ki convergence check"_ | enabled |
 
 ---
 
 ## Tools
 
-Active integrations. See [[Admin Conventions/Integrations|Integrations]] for MCP prefix detail.
+Active integrations. See [Integrations](<Conventions/Admin Conventions/Integrations.md>) for MCP prefix detail.
 
 | Purpose | Tool                     | Status    |
 | ------- | ------------------------ | --------- |

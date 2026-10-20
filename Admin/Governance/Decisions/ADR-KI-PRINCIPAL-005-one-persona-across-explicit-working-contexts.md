@@ -37,5 +37,5 @@ A working context may reference territories and repositories, but it is neither 
 
 ## References
 
-- [[GDR-KI-PRINCIPAL-001-adopting-decision-records|GDR-KI-PRINCIPAL-001]] - adopts the Decision Records instrument the engineering discipline uses.
-- [[ADR-KI-PRINCIPAL-004-provider-neutral-isolated-agent-execution|ADR-KI-PRINCIPAL-004]] - establishes the provider-neutral controller, execution and isolation boundaries this decision extends.
+- [GDR-KI-PRINCIPAL-001](GDR-KI-PRINCIPAL-001-adopting-decision-records.md) - adopts the Decision Records instrument the engineering discipline uses.
+- [ADR-KI-PRINCIPAL-004](ADR-KI-PRINCIPAL-004-provider-neutral-isolated-agent-execution.md) - establishes the provider-neutral controller, execution and isolation boundaries this decision extends.
