@@ -487,3 +487,7 @@ Read back taken: give Kris one paste line that puts each work on hold and has it
 ## 2026-10-20 02:05 BST - owner direction, pause - take stock
 
 Kris pasted the take-stock pause line into this session. Read back taken: already on hold since 02:01 BST; reason set to "take stock on ways of working", release "Kris says resume"; retro trimmed to ten bullets. Nothing running to drain.
+
+## 02:05 BST - message PKGLESS-GATE; prompt sent to all threads
+
+PKGLESS-GATE (from ki, routed from ki.tools-burndown, 01:57 BST): taken alongside NO-GATE; parked while on hold. Kris: "prompt send to all threads including you" - the take-stock pause went to every thread; this work is held.
