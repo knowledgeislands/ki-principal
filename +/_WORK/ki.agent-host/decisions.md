@@ -304,3 +304,9 @@
 ## Decision 72 (2026-10-19T23:45:57Z)
 
 - CLI125-HOLD a) (Kris, 20 October 2026), taken under OVERNIGHT, reviewed by query-review-6: KI-TOOL-KI-CLI-125 stays held, its condition reduced to "An ARM host is needed", review date unchanged. Class: operational.
+
+## Decision 73 (2026-10-19T23:48:20Z)
+
+home: KI-TOOL-TECHNE-CLI-006 class: operational
+
+- CLI006-PLAN a) (Kris, 20 October 2026), taken under OVERNIGHT: KI-TOOL-TECHNE-CLI-006 replanned against current tools-techne and Harness sources in tools-techne 31c7b7d and kept draft Next for Kris's review; nothing implemented.
