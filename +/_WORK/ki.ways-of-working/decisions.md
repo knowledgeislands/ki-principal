@@ -746,3 +746,9 @@ KI-TOOL-KI-CLI-165 accepted (tools-ki `fde00e97`, pushed; tools-ki now level wit
 - burn2-tools-rig: KI-TOOL-RIG-CORE-053 to awaiting review (`c55f2e9`, pushed). Rig's other open records need Kris's decisions or attended checks. Its acceptance waits on SHELL-HOOK, which the run left because the ki.chezmoi hooks rollout touched `.githooks/` within the day; already with ki.tools-burndown as RIG-PRECOMMIT-BATS, not a query. Its CORE-053 shape query (observe-only menu bar) is the acceptance reviewer's to judge.
 - prune-links2: KI-TOOL-KI-CLI-152, -165 and -167 pruned (tools-ki `39f1a91d`, pushed), links repaired in the harness (`9d2cd168`, local) and ki-principal (`516582b2`). PRUNE-LINKS-REST drops these three.
 - Next: burn passes in ki-specifications, ki-design and homebrew-tap, per "even start to tidy up some of the other ones".
+
+## 2026-10-20 07:37 BST - received burn-ki-design and burn-homebrew-tap
+
+- ki-design: five open, none workable without Kris, another repository or an attended check; queries MAP-002 timing and a sizes tidy, and stale-record dispositions in its report, all for the morning. Six earlier commits unpushed (three this programme's, three another session's).
+- homebrew-tap: zero open. BREW-PUSH is another session's hooks commit `0ce3691`; shown as unpushed, not a query.
+- wow-prepare queued: prepares the Ways of working bundle under "prepare the five", deletes `design/migration-plan/applied-map.tsv` (FOLDER-CLOSED) and graduates `design/worktree-flow.md`.
