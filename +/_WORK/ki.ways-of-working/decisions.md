@@ -718,3 +718,8 @@ accept2-tools-techne accepted KI-TOOL-TECHNE-CLI-009 but could not prune it: liv
 - tools-ki: KI-TOOL-KI-CLI-152 and -167 accepted (`bc563d56`); KI-TOOL-KI-CLI-134 back to in progress (baseline evidence; FOOTER-PROVISIONALS with Kris); KI-TOOL-KI-CLI-165 back for one ITEM-3 heading. Not pushed. burn2-tools-ki fixes both and resubmits; burn2-tools-rig delivers KI-TOOL-RIG-CORE-053 and the SHELL-HOOK fix.
 - Observatory: KI-OBSERVA-OPS-003 and -VIS-027 accepted; KI-OBSERVA-BRG-005 waits for Kris's own check (OBS-ACT-VISUAL). OBS-PRUNE-REFERENCES is prune-links' job, already running.
 - Lines ACCEPT2-TOOLS-KI (to prune-links) and GRANT-INTERIM (already in `state.md` Next steps) removed.
+
+## 2026-10-20 07:02 BST - received prune-links and burn2-tools-ki
+
+- prune-links pruned six with links repaired: KI-TOOL-RIG-CLI-026, -CORE-057, -DIST-011 (tools-rig `2054674f`, pushed), KI-TOOL-TECHNE-CLI-009 (tools-techne `1cc9e300`, pushed), KI-MCP-M365-TOOL-020 (mcp-m365 `8561637e`, local behind another session's `11e55b0`) and KI-TOOL-KI-CLI-151. Skipped seven whose terminal commits are local behind other sessions' unpushed commits: KI-HARNESS-GOV-216, -222, -226, KI-TOOL-KI-CLI-152, -167, KI-OBSERVA-OPS-003, -VIS-027. PRUNE-LINKS-REST: a second pass once those repositories are pushed; in `state.md` Next steps. Line removed.
+- burn2-tools-ki: KI-TOOL-KI-CLI-165 (heading) and KI-TOOL-KI-CLI-134 (mistyped baseline SHA) back to awaiting review; the other nine open tools-ki records need Kris, State of play, another repository or a date. accept3-tools-ki queued. KI-TOOL-KI-CLI-159 becomes workable once harness-batch delivers KI-HARNESS-GOV-223.
