@@ -706,3 +706,9 @@ KI-OBSERVA-OPS-003 delivered to awaiting review (`89f3978`, reload offer when th
 ## 2026-10-20 06:41 BST - TECHNE-PRUNE-LINKS and the prune pass
 
 accept2-tools-techne accepted KI-TOOL-TECHNE-CLI-009 but could not prune it: live links in this work's `design/roadmap-sweep.md` and ki.agent-host's package. Same block as ACCEPT-RIG-PRUNE. One prune-links run, after the acceptance runs, rewrites each live link in the pruned-link form against a verified remote revision, then prunes; records whose last revision is only local are skipped. Line removed.
+
+## 2026-10-20 06:45 BST - received accept-tools-rig and accept-observatory; FOLDER-CLOSED
+
+- accept-tools-rig: KI-TOOL-RIG-CORE-047 and -062 failed review, back to in progress (tools-rig `74140e53`, pushed): SHELL-HOOK fails (Bats in pre-commit) and Kris's attended checks remain. The three cancelled Rig records are retained for prune-links.
+- accept-observatory: review-only under the wrong tier; accept2-observatory carries it. Brief removed.
+- FOLDER-CLOSED (KI-HARNESS-GOV-200's FOLDER-1 check): `design/migration-plan/applied-map.tsv` is outside the closed list; homed or deleted with the design-note review at the next mark. In `state.md` Next steps. Line removed.
