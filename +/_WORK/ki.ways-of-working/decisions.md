@@ -674,3 +674,11 @@ Both roadmaps already at zero; nothing to do. Briefs removed.
 - Acceptance overnight: each repository gets one independent Codex run that reviews every awaiting-review record against its checks and, where they pass, accepts under Kris's overnight grant and prunes; failures go back with findings.
 - CAPTURE-FOLLOWUPS (`ki work message`, `ki work prune`): routed to ki.tools-burndown's `messages.md`, the tools-ki owner. Line removed.
 - GRANT-INTERIM: kept in `state.md` Next steps until a `ki` release with `--allow` is installed (a release is publication, Kris's). Line removed.
+
+## 2026-10-20 06:18 BST - received burn-tools-ki, burn-tools-rig, burn-website and the seven MCP burns
+
+- burn-tools-ki: KI-TOOL-KI-CLI-134 (`--allow fetch|machine`, `a14a328d`) and KI-TOOL-KI-CLI-152 (`907a627e`) to awaiting review; KI-TOOL-KI-CLI-165 and -167 already there; KI-TOOL-KI-CLI-125 on hold to 16 November; KI-TOOL-KI-CLI-145 blocked on KI-HARNESS-GOV-199. accept-tools-ki queued.
+- burn-tools-rig: KI-TOOL-RIG-CORE-053 planned (`d92167b`), KI-TOOL-RIG-CORE-067 delivered (`5908727`); KI-TOOL-RIG-CORE-047, -062 and -068 need Kris's attended NordVPN and Terra checks, for the morning. accept-tools-rig queued.
+- burn-website: KI-WEBSITE-SITE-044 handled; not pushed, as other sessions' commits `b2626fb` and `502c29d` are stacked. accept-website queued.
+- MCPs: acquire-whatsapp, git-audit, housekeeping-claude, ki-kb-fs and ki-kb-notion-mirror already at zero; mcp-gsuite's KI-MCP-GSUITE-TOOL-008 and -009 are hold drafts, left; mcp-m365's nine KI-MCP-M365-TOOL-011 to -019 stay on Kris's EMAIL-OWNER hold. Another session's mcp-gsuite commit left unpushed.
+- Briefs removed.
