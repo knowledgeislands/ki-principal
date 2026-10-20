@@ -26,7 +26,7 @@ Weekly - _"ki asset audit"_. Typically alongside the [Health Check](<Health Chec
 ## What It Does
 
 1. Run a search for all non-`.md` files under the repository root (excluding `.git`)
-2. For each file, check whether it is referenced by any note (image embed, wikilink, or URL)
+2. For each file, check whether it is referenced by any note (image embed, internal link, or URL)
 3. Unlinked files are flagged - either delete if clearly redundant, or link from the appropriate note
 4. Note any patterns (e.g. a folder accumulating loose images) and address the root cause
 

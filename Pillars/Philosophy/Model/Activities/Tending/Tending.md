@@ -14,7 +14,7 @@ author: Written with Claude
 
 ## Overview
 
-Tending activities keep the island structurally sound, content-healthy, and aligned with the world it reflects. Without them, drift accumulates silently: notes go stale, wikilinks break as notes move, auto-memory diverges from the island, and the inbox fills with uncaptured material. Tending is the mechanism that prevents that entropy - running on a regular cadence, lightweight enough to be sustainable, thorough enough to catch what matters.
+Tending activities keep the island structurally sound, content-healthy, and aligned with the world it reflects. Without them, drift accumulates silently: notes go stale, links break as notes move, auto-memory diverges from the island, and the inbox fills with uncaptured material. Tending is the mechanism that prevents that entropy - running on a regular cadence, lightweight enough to be sustainable, thorough enough to catch what matters.
 
 Activities divide by cadence and initiation. Two are scheduled automations that run without human prompting: the Health Check (weekly) and the Knowledge Rebuild (midweek). Six are conversational: triggered by phrase, human-in-the-loop, run when the maintenance window arrives or when a specific need arises.
 
@@ -52,13 +52,13 @@ Activities divide by cadence and initiation. Two are scheduled automations that 
 
 ## Structural Audit
 
-[Structural Audit](<Structural Audit.md>) is triggered with _"ki structural audit"_ and run ad hoc - typically when a significant restructure has been completed, or when the overall island health is uncertain. It performs a comprehensive review of an island section or the whole repository: folder structure against conventions, index notes against their folders, wikilink validity, routing compliance, and boundary enforcement between Pillars and Resources. More thorough than the Health Check; intended for periodic deep review rather than regular cadence.
+[Structural Audit](<Structural Audit.md>) is triggered with _"ki structural audit"_ and run ad hoc - typically when a significant restructure has been completed, or when the overall island health is uncertain. It performs a comprehensive review of an island section or the whole repository: folder structure against conventions, index notes against their folders, link validity, routing compliance, and boundary enforcement between Pillars and Resources. More thorough than the Health Check; intended for periodic deep review rather than regular cadence.
 
 ---
 
 ## Wikilink Review
 
-[Wikilink Review](<Wikilink Review.md>) is triggered with _"ki wikilink review"_ and run ad hoc. It surfaces broken wikilinks - references to notes that have moved, been renamed, or deleted - and orphan notes that are not referenced from anywhere. Broken links are repaired or removed; orphans are either linked in or assessed for deletion. Should be run after any significant file movement or rename operation.
+[Wikilink Review](<Wikilink Review.md>) is triggered with _"ki wikilink review"_ and run ad hoc. It surfaces broken links, Markdown links and wikilinks alike - references to notes that have moved, been renamed, or deleted - and orphan notes that are not referenced from anywhere. Broken links are repaired or removed; orphans are either linked in or assessed for deletion. Should be run after any significant file movement or rename operation.
 
 ---
 

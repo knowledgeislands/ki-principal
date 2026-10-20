@@ -22,7 +22,7 @@ Three convention areas govern notes. Format defines the physical structure: what
 
 ## Format
 
-The physical structure of a note - its sections, heading conventions, footer rules, table formatting, markdown norms, and wikilink and image conventions - is defined in [Format](Format.md). All notes follow this structure; type-specific variations are always additions or overrides, never replacements.
+The physical structure of a note - its sections, heading conventions, footer rules, table formatting, markdown norms, and link and image conventions - is defined in [Format](Format.md). All notes follow this structure; type-specific variations are always additions or overrides, never replacements.
 
 ---
 

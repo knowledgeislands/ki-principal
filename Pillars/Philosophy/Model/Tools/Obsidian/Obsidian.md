@@ -13,7 +13,7 @@ author: Written with Claude
 
 ## Overview
 
-Obsidian is the primary human interface for the island - the editor through which notes are read, written, and navigated. It connects to the island's text store directly via a vault, rendering wikilinks as a navigable graph and providing the editing environment for all note types. The island's conventions in [Notes](../../Conventions/Notes/Notes.md) and [Library](../../Conventions/Structure/Structure.md#library) define what the vault contains; Obsidian is the tool through which those conventions are enacted day to day.
+Obsidian is the primary human interface for the island - the editor through which notes are read, written, and navigated. It connects to the island's text store directly via a vault, rendering its internal links as a navigable graph and providing the editing environment for all note types. The island's conventions in [Notes](../../Conventions/Notes/Notes.md) and [Library](../../Conventions/Structure/Structure.md#library) define what the vault contains; Obsidian is the tool through which those conventions are enacted day to day.
 
 ---
 

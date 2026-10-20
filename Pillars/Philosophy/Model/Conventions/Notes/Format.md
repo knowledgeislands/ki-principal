@@ -86,24 +86,19 @@ not end files mid-line or with multiple trailing newlines (`\n\n` or more).
 
 ---
 
-## Wikilinks and Images
+## Links and Images
 
-Wikilinks (`[[Note Name]]`) are preferred over repeating content - link rather than duplicate. When a concept, decision, or piece of
-reference material has its own note, link to it rather than restating it.
+Internal links are GitHub-flavoured Markdown (GFM) links, and linking is preferred over repeating content - link rather than duplicate. When a concept, decision, or piece of reference material has its own note, link to it rather than restating it.
 
-### Body link format - shortest unique path
+### Body link format - document-relative path
 
-Body links use the shortest unique path that resolves unambiguously. The algorithm:
+A body link's destination is the target's path relative to the note holding the link, in the target's exact on-disk case and with its extension:
 
-1. Use the bare filename if it is unique across the island - `[[Concept]]`
-2. If another note shares the same filename, use the minimum path prefix needed to disambiguate, and add a pipe alias showing just the leaf
-   name - `[[Philosophy/Model/Processes/Processes|Processes]]`
+1. Write the path from the linking note to the target - `[Concept](../Concept/Concept.md)`
+2. Put a destination that holds a space or a parenthesis in angle brackets rather than percent-encoding it - `[Enactment Process](<../Processes/Enactment Process.md>)`
+3. Link to a heading with its GitHub heading slug - `[Library](../Structure/Structure.md#library)`
 
-Agents writing a new body link must check for filename collisions first. If another note shares the filename, use the shortest
-disambiguating prefix and alias to the leaf name.
-
-The pipe alias should be omitted for unique bare-name links - `[[Concept]]` is preferred over `[[Concept|Concept]]`. It is required whenever
-a path prefix is needed, so that the rendered link shows only the leaf name.
+The link text is the reader-facing name of the target, usually its leaf name or title. Wikilinks (`[[Note Name]]`) are still read and resolved, but a new or edited note uses Markdown links: editing a file converts its wikilinks in the same change, with `ki markdown gfm`, and the link audit checks every internal link of either form in exact case.
 
 Images and diagrams used by a single note must be saved in the same folder as that note. Images shared across multiple notes may sit in a
 folder common to all the notes that use them.

@@ -66,7 +66,7 @@ The second part is the portable, generic model. It covers the language of the is
   - _Frontmatter and format detail:_
   - [Properties](Model/Conventions/Notes/Properties.md) - standard YAML fields
   - [Tags](Model/Conventions/Notes/Tags.md) - hierarchical tag taxonomy
-  - [Format](Model/Conventions/Notes/Format.md) - physical structure, headings, tables, wikilinks
+  - [Format](Model/Conventions/Notes/Format.md) - physical structure, headings, tables, links
   - [Activity Note](<Model/Conventions/Notes/Activity Note.md>) - the specialised format for activity notes
   - [Collection Card](<Model/Conventions/Notes/Collection Card.md>) - reference entries and index notes
   - [Meeting Note](<Model/Conventions/Notes/Meeting Note.md>) - structured meeting records

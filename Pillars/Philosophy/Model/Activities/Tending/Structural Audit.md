@@ -36,7 +36,7 @@ Ensure every folder has a same-named index note. For each folder:
 1. Run `os.walk` (or equivalent) against the repository
 2. Identify any folder whose name does not have a corresponding `.md` file
 3. Create the missing index note using [Note - Folder](<../../Tools/Obsidian/Templates/Note - Folder.md>) template
-4. Populate with wikilinks to all depth-1 sub-notes with descriptions
+4. Populate with relative Markdown links to all depth-1 sub-notes with descriptions
 
 ### Note Format Compliance
 

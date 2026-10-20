@@ -34,12 +34,12 @@ The full definition is canonical in **`ki-repo-kb-streams`** and the shared chan
 
 ## Roadmap governance footer
 
-Every roadmap record carries a short footer declaring adherence to this process. Suggested form:
+Every roadmap record carries a short footer declaring adherence to this process, linked relative to `Streams/Roadmap/`. Suggested form:
 
 ```markdown
 ## Governance
 
-This roadmap record adheres to the [[Enactment Process]]. Move content to `Admin/`, `Pillars/`, or `Resources/` only on user approval of a `ready` record.
+This roadmap record adheres to the [Enactment Process](<../../Admin/Operations/Processes/Enactment Process.md>). Move content to `Admin/`, `Pillars/`, or `Resources/` only on user approval of a `ready` record.
 ```
 
 ---

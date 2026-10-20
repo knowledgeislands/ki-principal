@@ -48,7 +48,7 @@ Activities that keep the island structurally sound, content-healthy, and free of
 | [Asset Audit](<Tending/Asset Audit.md>) | Conversational | _"ki asset audit"_ | Weekly - surfaces unlinked assets and removes redundant ones |
 | [Status Review](<Tending/Status Review.md>) | Conversational | _"ki status review"_ | Weekly - updates `status` frontmatter when a note's standing shifts |
 | [Structural Audit](<Tending/Structural Audit.md>) | Conversational | _"ki structural audit"_ | Adhoc - structural review of a section or the whole repository |
-| [Wikilink Review](<Tending/Wikilink Review.md>) | Conversational | _"ki wikilink review"_ | Adhoc - surfaces broken wikilinks and orphan notes |
+| [Wikilink Review](<Tending/Wikilink Review.md>) | Conversational | _"ki wikilink review"_ | Adhoc - surfaces broken links and orphan notes |
 | [Convergence Check](<Tending/Convergence Check.md>) | Conversational | _"ki convergence check"_ | Adhoc - compares shared notes across islands; cross-pollinates †† |
 
 § Reviews structural drift, skill alignment, and content health across the repository.

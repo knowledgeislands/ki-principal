@@ -22,7 +22,7 @@ Knowledge Islands Principal, the KI Agentic Harness, `tools-ki`, KI Specificatio
 
 ## Approach
 
-[Introduction](Pillars/Philosophy/Introduction/Introduction.md) holds the full specification. The island is a canonical, living record that informs decisions, onboarding, tooling and AI interactions, and outputs from interactions feed back into it. Notes are interconnected with `[[wikilinks]]` and tags, in a loose Zettelkasten: quality over quantity.
+[Introduction](Pillars/Philosophy/Introduction/Introduction.md) holds the full specification. The island is a canonical, living record that informs decisions, onboarding, tooling and AI interactions, and outputs from interactions feed back into it. Notes are interconnected with relative Markdown links and tags, in a loose Zettelkasten: quality over quantity.
 
 - **Tone**: structured and direct, with depth where warranted; not corporate or flowery.
 - **Language**: British English throughout.

@@ -24,6 +24,6 @@ The human operating mode covers everything a person does directly in the island 
 
 **Review and approval** - Reviewing AI-drafted notes before they are written to the island, accepting or modifying proposed routing, and approving structural changes.
 
-**Graph navigation** - Using Obsidian's graph view and wikilink traversal to explore connections, identify orphaned notes, and maintain structural health.
+**Graph navigation** - Using Obsidian's graph view and link traversal to explore connections, identify orphaned notes, and maintain structural health.
 
-**Periodic maintenance** - Running the scheduled activities documented in [Activities](../../Activities/Activities.md), including status reviews, wikilink audits, and inbox clearance.
+**Periodic maintenance** - Running the scheduled activities documented in [Activities](../../Activities/Activities.md), including status reviews, link audits, and inbox clearance.

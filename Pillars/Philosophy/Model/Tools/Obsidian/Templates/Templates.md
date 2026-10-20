@@ -20,7 +20,7 @@ Obsidian templates used with the Templater plugin to scaffold new notes consiste
 
 Six templates covering the time-based note types that live under `Calendar/`. Each maps to a specific note type defined in [Library](../../../Conventions/Structure/Structure.md#library). The daily, weekly and monthly templates adapt the [Bullet Journal](<../../../../../../Resources/Productivity/Bullet Journal.md>) method's rapid logging and migration; the marker legend lives in [Structure](../../../Conventions/Structure/Structure.md).
 
-- [Calendar - Daily](<Calendar - Daily.md>) - daily note; the hub for the day with wikilinks to meetings, sessions, and notes filed that day, plus a rapid log of tasks, events and notes
+- [Calendar - Daily](<Calendar - Daily.md>) - daily note; the hub for the day with links to meetings, sessions, and notes filed that day, plus a rapid log of tasks, events and notes
 - [Calendar - Meeting](<Calendar - Meeting.md>) - meeting note; attendees, themed discussion sections, key decisions, and action items
 - [Calendar - Session](<Calendar - Session.md>) - AI-assisted session digest; context, decisions, facts learned, related projects, and keywords
 - [Calendar - Weekly](<Calendar - Weekly.md>) - weekly note; daily note links, a week-level summary, and a review of open and migrated tasks

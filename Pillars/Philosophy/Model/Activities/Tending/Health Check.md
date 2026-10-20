@@ -24,7 +24,7 @@ Reviews the island for structural or content issues and proposes revisions. It f
 
 - **Instructions and skill alignment** - reads the root `AGENTS.md` and the island's installed skills, identifies any gaps or drift between the two, and proposes updates to whichever side has drifted; also flags island content that contradicts the root agent instructions
 - **ADR drift review** - checks each ADR in the island against the architecture and domain notes it underpins; flags any ADRs where the decision appears to have been superseded or where the related notes have diverged from the recorded decision; also flags areas where a new architectural decision appears to have been made but not yet captured as an ADR
-- General island health - orphaned notes, broken wikilinks, routing anomalies, or stale content worth archiving; inbox items in `+/` older than a week are flagged for routing
+- General island health - orphaned notes, broken links, routing anomalies, or stale content worth archiving; inbox items in `+/` older than a week are flagged for routing
 - **Index note audit** - checks that every folder outside the `+` and `-` working areas has a same-name index note with an `## Overview` and one substantive H2 per direct child, flags children with no section and sections whose child no longer exists, and confirms that [Streams](../../../../../Streams/Streams.md), [Roadmap](../../../../../Streams/Roadmap/Roadmap.md) and the roadmap allocation ledger still agree with the flat roadmap records
 
 All proposed changes are surfaced for confirmation before anything is written.
