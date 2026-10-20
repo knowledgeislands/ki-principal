@@ -2,7 +2,7 @@
 
 ## Open
 
-- MSG-UNIFY: Kris asked why `ki git check-message` exists when Commitlint is a well-defined standard (03:47 BST). Answered; re-raised with b) recommended, high.
+- MSG-UNIFY: decided b) (Decision 172).
 - STRICTNESS-CONFORM: decided (Decision 171).
 
 ## Held

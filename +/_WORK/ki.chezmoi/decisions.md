@@ -271,3 +271,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 171 (2026-10-20T03:36:00Z)
 
 - Pointer: Kris (04:36 BST): "STRICTNESS-CONFORM - lets make it happen then, are we rolling it out?" Read back as: STRICTNESS-CONFORM d), the coordinator's recommendation: a canonical hook per shape, audited exact and written mechanically, with no extension point; tools-rig's `assemble-rig --check` becomes a `ki-repo-tools` criterion in the focused staged audit. Roll out now: run roll-standards (note section 6.1), then the repository hooks (6.2) and the tools-ki composer. MSG-UNIFY stays open; the rollout keeps the current message split.
+
+## Decision 172 (2026-10-20T03:39:00Z)
+
+- Pointer: Kris: "ah, interesting I guess, I'm fine with either then". Read back as: MSG-UNIFY b), the recommendation and the current `ki-git` standard: Commitlint where a package exists, `ki git check-message` only where none does. The rollout already uses it.
