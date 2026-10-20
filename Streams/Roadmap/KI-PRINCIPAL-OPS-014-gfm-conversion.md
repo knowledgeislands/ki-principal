@@ -8,14 +8,15 @@ project: ways-of-working
 component: model
 priority: medium
 size: l
-status: triage
+horizon: now
+status: in-progress
 tags:
   - topic/knowledge-islands
 blocks: []
 blocked_by: []
-baseline_ref: null
+baseline_ref: 442c3501f53ee95fa8eb0ae9e7c6d493d3d31df1
 created_at: 2026-10-19T21:04:00Z
-updated_at: 2026-10-19T21:04:00Z
+updated_at: 2026-10-20T02:36:42Z
 ---
 
 # Convert ki-principal to GitHub-flavoured Markdown
