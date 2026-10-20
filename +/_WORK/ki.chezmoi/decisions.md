@@ -195,3 +195,27 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 152 (2026-10-20T00:55:00Z)
 
 - Pointer: THEME-REGISTRY a), taken under OVERNIGHT with confidence high: the four `initiative` to `theme: rig` renames (KB-DOTFILES-UE-027, -082, -086, -087) land with the two registry legacy warnings added to the permitted baseline, because the warnings describe ki-principal's own registry, which the renames only expose; the registry migration stays with ki-principal.
+
+## Decision 153 (2026-10-20T01:30:00Z)
+
+- Pointer: Kris answered the RAT batch for [KB-DOTFILES-UE-027](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-027-honest-rationales-per-tool.md) "all as agreed unless below": a) confirms the proposed reasons for Actions, Alfred, ChatGPT (packaging watch), GarageBand, Hazel, OneDrive and Path Finder. RAT-DISPLAYLINK and RAT-OUTLOOK are read as a), the recommended option, despite the review's c); Kris can correct that reading.
+
+## Decision 154 (2026-10-20T01:30:00Z)
+
+- Pointer: RAT-SPARK b), Kris verbatim: "I keep this because I'd like to use it more but haven't tried it a lot recently." Read as the reason for `tool.spark`, Shadowlab's Spark utility, since Spark Desktop is already the default mail app; the worksheet's naming of Spark Mail is corrected.
+
+## Decision 155 (2026-10-20T01:30:00Z)
+
+- Pointer: DELIVERED-STATUS, Kris: "accept them". [KB-DOTFILES-UE-082](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-082-tolerate-missing-template-tools.md), [KB-DOTFILES-UE-088](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-088-ssh-alias-for-sol.md) and [KB-DOTFILES-UE-092](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-092-restore-local-skill-projection.md) are accepted and close through `ki-accept`.
+
+## Decision 156 (2026-10-20T01:30:00Z)
+
+- Pointer: [KB-DOTFILES-UE-077](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-077-reorganise-1password-vaults-safely.md): READY-077 a), the plan is Ready as written; CACHE-DISPOSAL, Kris: "done on both machines", the cache expiry step is complete on Terra and Sol; RIG-KEYCHAIN a), `security delete-generic-password -s ki-op-service-account-rig` joins Kris's attended step on both Macs, an absent entry counting as clean.
+
+## Decision 157 (2026-10-20T01:30:00Z)
+
+- Pointer: [KB-DOTFILES-UE-076](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-076-always-run-latest-source.md), Kris: "all as recommended": SOURCE-CHECK-HOME a), a step at the start of the daily `rig-update`; SOURCE-REFRESH b), the coordinator's and review's recommendation, fetch and report only, every pull attended; SOURCE-REFUSAL a), upgrade anyway and report findings.
+
+## Decision 158 (2026-10-20T01:30:00Z)
+
+- Pointer: VEGA-XDG a), as recommended: the agent-host Project adds four unset-only XDG defaults to the harness's `env.sh` in ki-techne-harness, and [KB-DOTFILES-UE-084](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-084-render-zshenv-on-vega.md) is cancelled with that resolution.
