@@ -332,3 +332,8 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 186 (2026-10-20T22:39:00Z)
 
 - Pointer: Kris (23:39 BST): "TRUST - remove all 102 and then we can keep an eye on it". TRUST c): revoke every undeclared Claude Desktop trust grant so it trusts exactly the 53 declared folders, keeping a rollback inventory; "keep an eye on it" read as one added step in the recurring unmanaged-configuration scan (KB-DOTFILES-HK-001) listing new undeclared grants (run trust-revoke).
+
+## Decision 187 (2026-10-20T22:40:00Z)
+
+- Pointer: Kris (23:40 BST, spoken; "mid site" read as Rig site, "Hannis" as harness, "fault of targets" as the four APPLY targets, already applied under Decision 185). "Yes" to checking the dropped folders (run resources-check). ROADMAP-BATCH a) (run roadmap-batch). RIG-SITE a): remove the rationale filter now (run site-filter); the `comment` field and exported kind and install route routed to ki.mac-studio-setup, which owns Rig. SPARK-REMOVE a), "make sure that we can get it removed properly" (run spark-retire). HARNESS-CI-TSC a) and HOOKS-FOLLOWUPS a) (run hooks-tools; GOV225-CLOSE already handled by ki.ways-of-working).
+- Pointer: Kris (23:40 BST) on trust: the declaration must be complete so no client ever needs to ask for a folder; an app asking or adding one is a defect. Supports Decision 186.
