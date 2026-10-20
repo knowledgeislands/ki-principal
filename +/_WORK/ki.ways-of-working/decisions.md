@@ -779,3 +779,7 @@ KI-SPEC-RGV-004 accepted after re-review (`8c3c218`, `85a86a8`, local behind ano
 ## 2026-10-20 07:55 BST - received accept-harness-rework
 
 KI-HARNESS-GOV-200 and -205 accepted after independent re-review (`4559224e`, local above 27 other-session commits); retained for PRUNE-LINKS-REST once the harness is pushed. Out-of-scope warnings (four size, eleven skill-map staleness) noted, not actioned.
+
+## 2026-10-20 08:00 BST - received harness-style
+
+STYLE-STALE landed (`dacdcc33`, local): re-anchoring now re-reads `output-styles/ki-coordinator.md` from disk, with the hook pointer and the style's own paragraph regenerated to the same words; 1372 tests pass. Left over: the `run/harness-fix` worktree from harness-fix, for a later tidy run to remove once its branch is confirmed merged.

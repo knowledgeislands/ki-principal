@@ -38,6 +38,8 @@ method_read: eff6163b
 
 ## Next steps
 
+- HARNESS-FIX-WORKTREE: a tidy run removes the harness `run/harness-fix` worktree once its branch is confirmed merged into local main.
+
 1. IDENTITY-PHASE3 (from KI-HARNESS-GOV-199's narrowing): the shared `SessionStart` hook's identity line and level-gated coordinator lines, once KI-TOOL-KI-CLI-145's binding file and KB-DOTFILES-UE-096's matchers land; take it up beside KI-TOOL-KI-CLI-145.
 2. PRUNE-LINKS-REST: once Kris has pushed ki-agentic-harness, apps-observatory.local and ki-specifications, a second prune-links pass prunes KI-HARNESS-GOV-216, -222, -226 KI-OBSERVA-OPS-003, -VIS-027 and KI-SPEC-RGV-004, and the harness records accepted overnight.
 3. GRANT-INTERIM: once a `ki` release carrying `--allow` (tools-ki `a14a328d`, KI-TOOL-KI-CLI-134) is installed, remove the interim sentence in `ki-delegation`'s Grants subsection.
