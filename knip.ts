@@ -6,8 +6,8 @@ import type { KnipConfig } from 'knip'
 // (copied verbatim from the harness) — ignored here as generated code, never conformed.
 // .obsidian/ is the Obsidian app's own data, not ours.
 const config: KnipConfig = {
+  husky: { config: ['.githooks/pre-commit', '.githooks/commit-msg'] },
   ignore: ['.obsidian/**', '.claude/skills/**', '.agents/skills/**'],
-  ignoreDependencies: ['@commitlint/cli', 'lint-staged', 'syncpack'],
   ignoreExportsUsedInFile: true
 }
 
