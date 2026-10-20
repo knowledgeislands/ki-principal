@@ -231,3 +231,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 161 (2026-10-20T01:48:00Z)
 
 - Pointer: AGE-DOC b), Kris: "I've moved it to `Persoal - Kris` with UUID `5lyahyqnrnep7lak65dikkdut4`". Read as the vault "Personal - Kris"; the age recovery document stays out of Automation, and [KB-DOTFILES-UE-077](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-077-reorganise-1password-vaults-safely.md)'s setup guide names that vault. Runs rat-write, accept-delivered, build-077, fold-076 and cancel-084 are queued in sequence to process Decisions 153 to 161.
+
+## Decision 162 (2026-10-20T02:14:00Z)
+
+- Pointer: Kris (03:14 BST, spoken): take stock now, not as roadmap records. Read back as: (1) find every worktree or unmerged branch across the Knowledge Islands repositories and fold finished work into main (survey first, run wt-survey; folds only on the survey's evidence); (2) migrate ki-design off Husky to the committed `.githooks` gate now (run design-hooks); (3) standardise hooks to lint, format and commit-message gates only, no test suites, set once per repository shape and maintained by audit and conform; the model goes to Kris for a sanity check before any standard or hook changes (run hooks-model, note `design/git-hooks-model.md`).
