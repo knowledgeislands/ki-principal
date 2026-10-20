@@ -14,8 +14,6 @@ a) (recommended, confidence high - implemented and independently tested twice) C
 
 b) Say which choice changes; the record stays awaiting review until it is reworked.
 
-**Review:** not needed; high confidence and not destructive.
-
 ### GRANT-INTERIM - Release `--allow` so the interim grant sentence can go
 
 **Context:** Kris answered GRANT-INTERIM a) earlier: the interim sentence in `ki-delegation`'s Grants subsection ([background-run standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md), "until the launcher offers that option") is removed once a `ki` release carrying `--allow` is installed. The `ki` on `sol` runs the tools-ki source checkout directly, so it already offers `--allow`. No tagged release contains it, though: the latest is `v0.12.0`. A release is publication, so it is Kris's to authorise. It also follows FOOTER-PROVISIONALS and the acceptance of [KI-TOOL-KI-CLI-134](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-134-launch-footer-follows-brief.md). ki.tools-burndown already plans a patch release with KI-TOOL-KI-CLI-155 and the harness pin.
@@ -24,13 +22,11 @@ b) Say which choice changes; the record stays awaiting review until it is rework
 
 **Options:**
 
-a) (recommended, confidence medium - closes the interim cleanly, but the release also ships whatever else is on tools-ki `main`) Yes: fold it into ki.tools-burndown's planned patch release; once it is installed, a run removes the sentence.
+a) (recommended, confidence high - reviewed: the standard makes removal conditional on launcher support, and the agreed installed-release boundary is met by the planned release after acceptance; its complete release range still needs verification) Yes: fold it into ki.tools-burndown's planned patch release; once it is installed, a run removes the sentence.
 
 b) Remove the sentence now, since `sol`'s `ki` already offers `--allow`, and release later.
 
 c) Hold the release; the sentence stays.
-
-**Review:** still needs a blind review (medium).
 
 ### OBS-ACT-VISUAL - Kris's own check of KI-OBSERVA-BRG-005
 
@@ -44,23 +40,21 @@ a) (recommended, confidence high - the packet reserves the check for Kris) Kris 
 
 b) Return it to in progress if the check finds a defect.
 
-**Review:** not needed; high confidence and not destructive.
-
 ### SITE-SOURCE - KI-WEBSITE-SITE-044's ki-design citation and visual checks
 
-**Context:** [KI-WEBSITE-SITE-044](/Users/krisbrown/workspaces/knowledge-islands/apps-knowledgeislands.info/docs/roadmap/KI-WEBSITE-SITE-044-design-v1.md) (adopt ki-design v1) passes every local gate (build, routes, provenance offline, 72 tests, audits) and is awaiting review. The Field Guide cites the `ki-design` repository as its symbol source. That repository is private, so readers cannot open the citation, and the [page-provenance guide](/Users/krisbrown/workspaces/knowledge-islands/apps-knowledgeislands.info/docs/guides/developer/page-provenance.md) forbids inaccessible published citations. The visual checks of the home page, an inner page and the Field Guide at 1440 and 390 px, in both colour schemes, were not repeated after the last update. The two runs disagree. burn-website recommended accepting the citation as it stands and making ki-design public later (medium confidence). accept-website recommended keeping the record awaiting review until reader access is resolved (high confidence). The website has three unpushed commits from other sessions.
+**Context:** [KI-WEBSITE-SITE-044](/Users/krisbrown/workspaces/knowledge-islands/apps-knowledgeislands.info/docs/roadmap/KI-WEBSITE-SITE-044-design-v1.md) (adopt ki-design v1) passes every local gate (build, routes, provenance offline, 72 tests, audits) and is awaiting review. The Field Guide cites the `ki-design` repository as its symbol source. That repository is private, so readers cannot open the citation, and the [page-provenance guide](/Users/krisbrown/workspaces/knowledge-islands/apps-knowledgeislands.info/docs/guides/developer/page-provenance.md) forbids inaccessible published citations. The visual checks of the home page, an inner page and the Field Guide at 1440 and 390 px, in both colour schemes, were not repeated after the last update. The two runs disagree. burn-website recommended accepting the citation as it stands and making ki-design public later (medium confidence). accept-website recommended keeping the record awaiting review until reader access is resolved (high confidence). The website has three unpushed commits from other sessions. A conflicting source, [KI-DESIGN-ART-002](/Users/krisbrown/workspaces/knowledge-islands/ki-design/docs/roadmap/KI-DESIGN-ART-002-art-licensing.md), says ki-design went public on 18 October. This local-only review cannot resolve anonymous access to the exact cited revision.
 
 **Query:** Which remedy should KI-WEBSITE-SITE-044's ki-design citation take before acceptance?
 
 **Options:**
 
-a) (recommended, confidence medium - keeps the provenance guide whole, but whether ki-design goes public is Kris's publication call) The record stays awaiting review. Kris makes ki-design readable, or confirms it is to be, then makes the 1440 and 390 px checks in both schemes, and an acceptance review follows.
+a) (recommended, confidence medium - keeps the provenance guide whole, but whether ki-design goes public is Kris's publication call; blind review disagrees and prefers d), because access is disputed and a publication promise does not make the citation readable) The record stays awaiting review. Kris makes ki-design readable, or confirms it is to be, then makes the 1440 and 390 px checks in both schemes, and an acceptance review follows.
 
 b) Return it to in progress for a site-local remedy that keeps attribution accurate without the private link, then a fresh review packet and Kris's visual checks.
 
 c) Accept the citation as it stands and make ki-design public later; it breaks the provenance guide until then.
 
-**Review:** still needs a blind review (medium; the runs disagree).
+d) Blind review: first verify anonymous access to the exact cited source revision. If accessible, retain the accurate citation; otherwise return the record to in progress for an accessible site-local source that preserves attribution and immutable provenance. Complete the required visual checks and independent acceptance review afterwards. Reason: the records conflict about public access, and neither a future publication promise nor making the whole repository public is needed to establish a readable citation.
 
 ### OPS-014-RENDER - Kris's four client render checks for the GFM conversion
 
@@ -73,8 +67,6 @@ c) Accept the citation as it stands and make ki-design public later; it breaks t
 a) (recommended, confidence high - the packet reserves acceptance test 4 for Kris) Kris runs the four checks this morning, records the outcomes, accepts the Observatory's dropped fragment as a fallback, and the record then goes to acceptance.
 
 b) Kris runs the checks and records the dropped fragment as a navigation failure, routed to ki.observatory before acceptance.
-
-**Review:** not needed; high confidence and not destructive.
 
 ### SPEC-SKETCH - Correct the KIP lifecycle text sketch
 
@@ -89,8 +81,6 @@ a) (recommended, confidence high - reviewed: accept-specifications agreed indepe
 b) Leave it as it is.
 
 c) Allow `Implemented -> Superseded` too, and change the governance text through a KIP.
-
-**Review:** already blind-reviewed by accept-specifications (Codex), which agreed with a).
 
 ### RIG-ATTENDED - Kris's attended Rig checks on sol and terra
 
@@ -110,8 +100,6 @@ b) Take them one at a time, whenever Kris is at each Mac.
 
 c) Defer all four; they stay as they are.
 
-**Review:** not needed; high confidence and not destructive (the scheduling follows the records' own gates).
-
 ### RIG-053-SHAPE - Observe-only shape of the macOS menu bar resource
 
 **Context:** [KI-TOOL-RIG-CORE-053](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-053-macos-menu-bar-declarations.md) is awaiting review (tools-rig `c55f2e9`, pushed; 611 tests pass). Rig can now declare a macOS menu bar layout and report unreadable, unplaced, visibility and order drift. Apply records the layout as skipped `observe-only` with a Command-drag reminder, never writes a preference and never fails. [ADR-KI-TOOL-RIG-006](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/decisions/ADR-KI-TOOL-RIG-006-declarative-operational-resources.md) gained a paragraph on observation-only layouts. The coordinator took PLAN053-MODEL and PLAN053-LOGIN at 06:53 under the overnight grant: drop the current-host scope, since macOS 27 keeps visibility and order in the user domain, and leave out login items, which need an Automation-consent prompt. It is Rig's first observe-only resource. Its acceptance also waits on SHELL-HOOK (RIG-PRECOMMIT-BATS).
@@ -120,13 +108,11 @@ c) Defer all four; they stay as they are.
 
 **Options:**
 
-a) (recommended, confidence medium - apply never touches a preference macOS gives no safe way to write, but nothing like it exists yet) Accept the shape as delivered: skipped, with a reminder and no failure.
+a) (recommended, confidence high - reviewed: the source explicitly skips observe-only apply with a Command-drag reminder, while status and doctor own drift reporting; fixtures cover no writes and no failure) Accept the shape as delivered: skipped, with a reminder and no failure.
 
 b) Have apply report drift as a non-failing warning.
 
 c) Return it for a different contract.
-
-**Review:** still needs a blind review (medium).
 
 ### PLAN067-READY - Design answers and Ready for KI-TOOL-RIG-CORE-067
 
@@ -136,13 +122,11 @@ c) Return it for a different contract.
 
 **Options:**
 
-a) (recommended, confidence medium - three answers are high, but MATRIX keeps two routes and the record changes apply ordering) Take EDGES, OPTIN, MATRIX and ADR a), and approve Ready.
+a) (recommended, confidence high - reviewed: derived edges enter cycle detection, the opt-in and matrix fallback preserve existing configurations, and fixture gates cover ordering without installing a live manager) Take EDGES, OPTIN, MATRIX and ADR a), and approve Ready.
 
 b) Take the four answers but keep the record in draft.
 
 c) Remove the matrix now (PLAN067-MATRIX b)), so that every deferral needs `provides`, then approve Ready.
-
-**Review:** still needs a blind review (medium).
 
 ### TECHNE-006-REVIEW - Review the replanned guarded host commands
 
@@ -156,8 +140,6 @@ a) (recommended, confidence high - only Kris's review unblocks it, and delivery 
 
 b) Leave it in Next until the agent-host work needs rebuild and withdraw.
 
-**Review:** not needed; it asks for Kris's own review, and releasing to Ready follows that review.
-
 ### DESIGN-DISPOSITIONS - MAP-002 timing, stale records and sizes in ki-design
 
 **Context:** burn-ki-design found ki-design's five open records unworkable without Kris, another repository or an attended check, and two of them stale. [KI-DESIGN-MAP-002](/Users/krisbrown/workspaces/knowledge-islands/ki-design/docs/roadmap/KI-DESIGN-MAP-002-isometric-renderer.md) (draft, Next) asks for a Canvas 2D renderer drawing "from a tile set's atlas". No atlas format exists, and its Verify still renders Arcadia from the Modern set, though [GDR-KI-DESIGN-038](/Users/krisbrown/workspaces/knowledge-islands/ki-design/docs/decisions/GDR-KI-DESIGN-038-ancient-is-the-isometric-set.md) made Ancient the only isometric set. The open hex-terrain composition question in [OPEN.md](/Users/krisbrown/workspaces/knowledge-islands/ki-design/docs/decisions/OPEN.md) may also replace the plinth model it would build on. [KI-DESIGN-TIL-002](/Users/krisbrown/workspaces/knowledge-islands/ki-design/docs/roadmap/KI-DESIGN-TIL-002-ancient-tile-set.md) still names the closed KI-DESIGN-ART-001 as a blocker and leaves [KI-DESIGN-ART-002](/Users/krisbrown/workspaces/knowledge-islands/ki-design/docs/roadmap/KI-DESIGN-ART-002-art-licensing.md) out of `blocked_by`. All five lack `size:`. The proposed sizes are ART-002 s, [KI-DESIGN-ELE-001](/Users/krisbrown/workspaces/knowledge-islands/ki-design/docs/roadmap/KI-DESIGN-ELE-001-lit-ssr-spike.md) m, ICO-001 s, MAP-002 l and TIL-002 xl.
@@ -166,13 +148,11 @@ b) Leave it in Next until the agent-host work needs rebuild and withdraw.
 
 **Options:**
 
-a) (recommended, confidence medium - MAP-002 built now would probably be rebuilt after the pilot; the rest is tidying) Put MAP-002 on hold behind composition Pilot 0, then replan it with an atlas format, Modern as the fixture and Ancient as the target. Replan TIL-002 so that only ART-002 blocks it, and put it on hold until that lands. Add the sizes in one `docs(roadmap)` commit, leaving ICO-001 alone until it is accepted.
+a) (recommended, confidence high - reviewed: the open composition pilot precedes renderer commitments, GDR-KI-DESIGN-038 retains Modern as a fixture, and licensing remains the live Ancient blocker; the proposed sizes fit the recorded scope) Put MAP-002 on hold behind composition Pilot 0, then replan it with an atlas format, Modern as the fixture and Ancient as the target. Replan TIL-002 so that only ART-002 blocks it, and put it on hold until that lands. Add the sizes in one `docs(roadmap)` commit, leaving ICO-001 alone until it is accepted.
 
 b) Plan MAP-002 now on the plinth model, with a recording-context test and no frame-rate claim, and make the TIL-002 and size tidy as in a).
 
 c) Cancel MAP-002 until the Ancient set exists, and make the TIL-002 and size tidy as in a).
-
-**Review:** still needs a blind review (medium).
 
 ### DESIGN-ICONS - Kris's look at the KI-DESIGN-ICO-001 contact sheet
 
@@ -186,8 +166,6 @@ a) (recommended, confidence high - the record's Verify reserves this look for Kr
 
 b) Kris names the glyphs to redraw, and the record goes back to in progress.
 
-**Review:** not needed; high confidence and not destructive.
-
 ### TOOLS-KI-SHAPES - Homes for KI-TOOL-KI-CLI-140's checks and the work status views
 
 **Context:** burn-tools-ki and burn2-tools-ki left tools-ki records that need Kris. [KI-TOOL-KI-CLI-140](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-140-git-hygiene-estate-audit.md) (Git-hygiene estate audit) has its dependencies landed. Its CLEAN-1 to CLEAN-7 criteria live in the harness `ki-git` catalogue as judgement items, and where the mechanical checks live is undecided. [KI-TOOL-KI-CLI-160](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-160-work-status-routing-view.md) (routing view) is promoted only once State of play confirms the form it reads. [KI-TOOL-KI-CLI-149](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-149-work-status-views-contract.md) has open questions of its own: whether views carry full lines or keys, and whether `v1` is kept. KI-TOOL-KI-CLI-139 is parked in ki.tools-burndown as SRC-PLACEMENT. KI-TOOL-KI-CLI-157 is settled by VALIDATOR-HOME a). Both runs' recommendations below are medium.
@@ -196,11 +174,9 @@ b) Kris names the glyphs to redraw, and the record goes back to in progress.
 
 **Options:**
 
-a) (recommended, confidence medium - the rubric already owns the criteria, and building the views first would pre-empt State of play) Make the CLEAN checks mechanical in the harness `ki-git` catalogue, with tools-ki composing them with `mgit overview --json`. ki.tools-burndown asks State of play for the form, then plans KI-TOOL-KI-CLI-160 as `--view routing` beside the text views, with KI-TOOL-KI-CLI-149 waiting alongside it.
+a) (recommended, confidence high - reviewed: the harness catalogue owns CLEAN criteria and already names their evidence, tools-ki composes mgit facts, and the view records leave their form and compatibility unresolved) Make the CLEAN checks mechanical in the harness `ki-git` catalogue, with tools-ki composing them with `mgit overview --json`. ki.tools-burndown asks State of play for the form, then plans KI-TOOL-KI-CLI-160 as `--view routing` beside the text views, with KI-TOOL-KI-CLI-149 waiting alongside it.
 
 b) Implement the CLEAN checks natively in tools-ki, and plan KI-TOOL-KI-CLI-149 and -160 now on provisional choices.
-
-**Review:** still needs a blind review (medium).
 
 ## Parked
 
