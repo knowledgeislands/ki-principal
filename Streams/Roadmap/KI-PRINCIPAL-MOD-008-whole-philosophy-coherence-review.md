@@ -26,7 +26,7 @@ Read the whole Knowledge Islands philosophy end to end and confirm it still hold
 
 ## Context
 
-Kris judges the established philosophy - the concepts the website was built from - largely sound, but it has grown by addition across many sessions and has not been read as one piece since. Several threads were deliberately parked for this review rather than settled piecemeal: the open concepts moved out of the ChatGPT acquire into [[Emerging Concepts]], the candidate principles added to Engineering Practice [[Principles]], the Library wording, the unfinished Structure sections and the naming of Avatars per Realm.
+Kris judges the established philosophy - the concepts the website was built from - largely sound, but it has grown by addition across many sessions and has not been read as one piece since. Several threads were deliberately parked for this review rather than settled piecemeal: the open concepts moved out of the ChatGPT acquire into [Emerging Concepts](<../../Pillars/Philosophy/Emerging Concepts/Emerging Concepts.md>), the candidate principles added to Engineering Practice [Principles](<../../Pillars/Engineering Practice/Foundations/Principles.md>), the Library wording, the unfinished Structure sections and the naming of Avatars per Realm.
 
 Parked until most of Arcadia's roadmap is cleared, so the review reads a settled philosophy rather than one still moving underneath it (Kris's decision of 2026-10-12). At each review date, if most of the roadmap is cleared, consider releasing it for progressing; if not, move the review date on by one week and reassess then.
 
@@ -37,7 +37,7 @@ Released to `next` on 20 October, ahead of that review date: the condition is me
 ## Boundary
 
 - **Guard (Kris's decision of 2026-10-11).** Additive changes are welcome. Any change that would contradict laid-down philosophy is flagged to Kris and double-checked before it is made; the review does not resolve a contradiction on its own authority.
-- Reviews and proposes; canonical changes still go through the [[Admin/Operations/Processes/Enactment Process|Enactment Process]].
+- Reviews and proposes; canonical changes still go through the [Enactment Process](<../../Admin/Operations/Processes/Enactment Process.md>).
 - Compares against the website's presentation but makes no change to `ki-website`; any website follow-up is a plain-terms handoff to that repository.
 - Does not restructure the knowledge base. The Great Library is settled: it is Arcadia's name for its `Pillars/` zone, and naming changes no structure.
 
@@ -45,9 +45,9 @@ Released to `next` on 20 October, ahead of that review date: the condition is me
 
 Scope to read and check:
 
-- The whole philosophy under [[Philosophy]], end to end, for internal coherence and against what the website presents.
-- The [[Emerging Concepts]] notes and the candidate principles in Engineering Practice [[Principles]]: which to adopt, reshape or leave open.
-- The Library wording across [[Structure]], [[The Home of Knowledge]] and [[SDR-KI-PRINCIPAL-002-the-home-of-knowledge|SDR-KI-PRINCIPAL-002]], which disagree on whether Calendar sits inside the Library.
-- The Harbour and Routes and Customs to-dos in [[Structure]], which wait for this review.
+- The whole philosophy under [Philosophy](../../Pillars/Philosophy/Philosophy.md), end to end, for internal coherence and against what the website presents.
+- The [Emerging Concepts](<../../Pillars/Philosophy/Emerging Concepts/Emerging Concepts.md>) notes and the candidate principles in Engineering Practice [Principles](<../../Pillars/Engineering Practice/Foundations/Principles.md>): which to adopt, reshape or leave open.
+- The Library wording across [Structure](../../Pillars/Philosophy/Model/Conventions/Structure/Structure.md), [The Home of Knowledge](<../../Pillars/Philosophy/Introduction/Background/The Home of Knowledge/The Home of Knowledge.md>) and [SDR-KI-PRINCIPAL-002](../../Admin/Governance/Decisions/SDR-KI-PRINCIPAL-002-the-home-of-knowledge.md), which disagree on whether Calendar sits inside the Library.
+- The Harbour and Routes and Customs to-dos in [Structure](../../Pillars/Philosophy/Model/Conventions/Structure/Structure.md), which wait for this review.
 - Tags: whether the island still needs its subject tags alongside `note_type`, folders and links (Kris's decision of 2026-10-12).
-- Avatar names per Realm against [[ADR-KI-PRINCIPAL-005-one-persona-across-explicit-working-contexts|ADR-KI-PRINCIPAL-005]].
+- Avatar names per Realm against [ADR-KI-PRINCIPAL-005](../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-005-one-persona-across-explicit-working-contexts.md).

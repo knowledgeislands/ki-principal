@@ -17,13 +17,13 @@ author: Written with Claude
 
 Kris reviews every Specification across the projects with an agent, one repository at a time, and each file is confirmed, revised or retired in its owning repository. The test: every file in the scope below has a recorded review outcome, and the owning repositories have landed any agreed changes.
 
-This Project sits in [[Themes/foundations|Foundations]]. Kris agreed it on 2026-10-07 (decision 13 of the state-of-play design). It carries the step the retired state-of-play plan decided on: "after the roadmaps are down, every specification across the projects is reviewed with Kris" (plan step 6).
+This Project sits in [Foundations](../Themes/foundations.md). Kris agreed it on 2026-10-07 (decision 13 of the state-of-play design). It carries the step the retired state-of-play plan decided on: "after the roadmaps are down, every specification across the projects is reviewed with Kris" (plan step 6).
 
 ---
 
 ## Notes
 
-- **Why a Project.** The plan step was orphaned: no Initiative note mentioned it, and the `ki-specifications` review lost the link when its hold condition was rewritten. The [[specifications]] Project covers only the `ki-specifications` repository and is paused; that repository's review stays there.
+- **Why a Project.** The plan step was orphaned: no Initiative note mentioned it, and the `ki-specifications` review lost the link when its hold condition was rewritten. The [specifications](specifications.md) Project covers only the `ki-specifications` repository and is paused; that repository's review stays there.
 - **Scope.** 52 Specification files under each repository's `docs/specs/`:
 
 | Repository | Files |

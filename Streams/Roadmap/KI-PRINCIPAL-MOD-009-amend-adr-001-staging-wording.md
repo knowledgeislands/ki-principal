@@ -24,7 +24,7 @@ updated_at: 2026-10-19T23:32:23Z
 
 ## Goal
 
-Amend the staging wording of [[ADR-KI-PRINCIPAL-001-provider-neutral-knowledge-acquisition|ADR-KI-PRINCIPAL-001]] so it matches how acquisition stages material today.
+Amend the staging wording of [ADR-KI-PRINCIPAL-001](../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-001-provider-neutral-knowledge-acquisition.md) so it matches how acquisition stages material today.
 
 ## Context
 
@@ -35,12 +35,12 @@ The ADR's decision says `ki acquire import --adapter <provider>` stages material
 ## Boundary
 
 - Wording of the staging location only; the six-stage model, the provenance requirements and the provider boundaries stay as they are.
-- The ADR is under `Admin/Governance/`, so the amendment runs through the [[Admin/Operations/Processes/Enactment Process|Enactment Process]] and needs the exact wording confirmed before it is written.
+- The ADR is under `Admin/Governance/`, so the amendment runs through the [Enactment Process](<../../Admin/Operations/Processes/Enactment Process.md>) and needs the exact wording confirmed before it is written.
 - No change to `acquire`, `tools-ki` or any adapter.
 
 ## Discussion
 
 - Decide whether the ADR names `acquire` as the staging home or states the principle (staging in a Git-backed holding area owned outside the receiving island) and lets the Acquisition Process note carry the location.
 - Check the other wording that follows from the same sentence: the Context paragraph on the Harbour, and the ADR's consequences about `tools-ki` owning staging mechanics.
-- Keep the [[Acquisition Process]] note consistent with the amended wording.
-- Widen the amendment to cover the end-to-end flow Kris accepted on 2026-10-18 and recorded in the [[Acquisition Process#End-to-end flow|Acquisition Process]] note: dispatch into the receiving island's inbound area, acquire retiring its copy once dispatched (keeping the receipt and fingerprints, with returned items coming back as rejected knowledge), and "the port" as the name of acquire's function, with "harbour" kept for the island imagery.
+- Keep the [Acquisition Process](<../../Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md>) note consistent with the amended wording.
+- Widen the amendment to cover the end-to-end flow Kris accepted on 2026-10-18 and recorded in the [Acquisition Process](<../../Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md#end-to-end-flow>) note: dispatch into the receiving island's inbound area, acquire retiring its copy once dispatched (keeping the receipt and fingerprints, with returned items coming back as rejected knowledge), and "the port" as the name of acquire's function, with "harbour" kept for the island imagery.

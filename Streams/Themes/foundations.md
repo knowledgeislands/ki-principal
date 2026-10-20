@@ -13,9 +13,9 @@ author: Written with Claude
 
 Foundations is a theme because every island stands on the same base: the `ki` toolchain and its baseline, the harness standards and rubrics, the roadmap model, and the factorisation of the estate into clearly owned repositories. It covers how work is recorded, checked and released across the territory. What matters is that the base is accurate and dependable, so that an island can trust what `ki` and the audits tell it.
 
-Common guidance: change a standard and its checker together; release `ki` through its own release process and the Homebrew tap; keep each repository's ownership clear, so that no repository writes into another's canonical content. Standards upkeep keeps the harness standards, rubrics and `ki` tooling accurate and never finishes, so its records name this theme directly, usually with `purpose: upkeep`. The roadmap model is recorded in [[GDR-KI-PRINCIPAL-005-the-roadmap-model|GDR-KI-PRINCIPAL-005]].
+Common guidance: change a standard and its checker together; release `ki` through its own release process and the Homebrew tap; keep each repository's ownership clear, so that no repository writes into another's canonical content. Standards upkeep keeps the harness standards, rubrics and `ki` tooling accurate and never finishes, so its records name this theme directly, usually with `purpose: upkeep`. The roadmap model is recorded in [GDR-KI-PRINCIPAL-005](../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-005-the-roadmap-model.md).
 
-Agent hosting and the agent fleet belong to [[Themes/techne|Techne]]; the workstation itself belongs to [[Themes/rig|Rig]]; what an island is belongs to the [[Themes/model|Model]].
+Agent hosting and the agent fleet belong to [Techne](techne.md); the workstation itself belongs to [Rig](rig.md); what an island is belongs to the [Model](model.md).
 
 ---
 

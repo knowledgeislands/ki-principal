@@ -19,7 +19,7 @@ Extract a timeline and calendar skill from the 5G Emerge phase 3 calendar compon
 
 The first adopters are legal-principal, personal-principal and 5G Emerge. legal-principal's "FR Timeline to FDR" gantt stays as Mermaid until this Project lands.
 
-This Project sits in [[Themes/foundations|Foundations]]. Kris opened it on 19 October 2026 with TIMELINES-OPEN: "Scope: a timeline and calendar skill extracted from the 5G Emerge phase 3 calendar component (apps/site: src/_data/calendars.json5, lib/ics.ts, List / Months / Runway views, subscribable .ics feeds)."
+This Project sits in [Foundations](../Themes/foundations.md). Kris opened it on 19 October 2026 with TIMELINES-OPEN: "Scope: a timeline and calendar skill extracted from the 5G Emerge phase 3 calendar component (apps/site: src/_data/calendars.json5, lib/ics.ts, List / Months / Runway views, subscribable .ics feeds)."
 
 ---
 

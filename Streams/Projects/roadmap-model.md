@@ -15,18 +15,18 @@ author: Written with Claude
 
 ## Outcome
 
-Every Knowledge Islands repository records work under the roadmap model of 2026-10-07: `theme` gives way to `kind`, optional `purpose`, a territory `project` or `initiative` and a repository `component`, holds and cancellations are explicit, and the territory registry in [[Projects]] and [[Themes]] groups the work. The test: the roadmap checker enforces the model, after its migration tolerance window closes.
+Every Knowledge Islands repository records work under the roadmap model of 2026-10-07: `theme` gives way to `kind`, optional `purpose`, a territory `project` or `initiative` and a repository `component`, holds and cancellations are explicit, and the territory registry in [Projects](Projects.md) and [Themes](../Themes/Themes.md) groups the work. The test: the roadmap checker enforces the model, after its migration tolerance window closes.
 
-This Project sits in [[Themes/foundations|Foundations]].
+This Project sits in [Foundations](../Themes/foundations.md).
 
 ---
 
 ## Notes
 
 - **On hold.** Paused on 2026-10-11 by Kris, who approved on 2026-10-11 in the state-of-play run, 'CKPT approved (delta-evaluation and roadmap-model on hold; remove territory-rollout checkpoint)': no thread yet.
-- [[GDR-KI-PRINCIPAL-005-the-roadmap-model|GDR-KI-PRINCIPAL-005]] records the model and its refinements, citing the design papers filed beside it. Kris approved the model, every migration proposal and the rollout's carry-through on 2026-10-07.
+- [GDR-KI-PRINCIPAL-005](../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-005-the-roadmap-model.md) records the model and its refinements, citing the design papers filed beside it. Kris approved the model, every migration proposal and the rollout's carry-through on 2026-10-07.
 - Links point upwards only: a record names its Project, a Project names its theme, and the notes list neither records nor Projects. `ki` produces the views.
 
 ### Close-out assessment
 
-The Outcome is delivered. Every Knowledge Islands repository records work under the model, `ki` reads its fields and builds the Project and theme views from the registry, and the migration tolerance window has closed, so the roadmap checker now fails retired shapes. A few residual shapes still only warn, by design of the standard rather than as unfinished work. No follow-up is needed; refinements to the model are standards upkeep under [[Themes/foundations|Foundations]]. The Project awaits Kris's close decision.
+The Outcome is delivered. Every Knowledge Islands repository records work under the model, `ki` reads its fields and builds the Project and theme views from the registry, and the migration tolerance window has closed, so the roadmap checker now fails retired shapes. A few residual shapes still only warn, by design of the standard rather than as unfinished work. No follow-up is needed; refinements to the model are standards upkeep under [Foundations](../Themes/foundations.md). The Project awaits Kris's close decision.

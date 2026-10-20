@@ -17,7 +17,7 @@ author: Written with Claude
 
 Reach a solid Knowledge Islands baseline and roll it out to every island. The test: `ki repo audit --estate` is green and the released `ki` is installed everywhere. Knowledge Islands Principal coordinates; each item is delivered through a work record in its owning repository.
 
-This Project sits in [[Themes/foundations|Foundations]]. The move of agent work into the Techne footprint is the separate [[agent-host]] Project, and neither gates the other. [[estate-factorisation]] owns structure, MCP, distribution and `ki` pin automation, and its remainder does not gate this Project; [[paperclip-capture-and-rebuild]] and [[trades-revamp]] own their own scope.
+This Project sits in [Foundations](../Themes/foundations.md). The move of agent work into the Techne footprint is the separate [agent-host](agent-host.md) Project, and neither gates the other. [estate-factorisation](estate-factorisation.md) owns structure, MCP, distribution and `ki` pin automation, and its remainder does not gate this Project; [paperclip-capture-and-rebuild](paperclip-capture-and-rebuild.md) and [trades-revamp](trades-revamp.md) own their own scope.
 
 ---
 

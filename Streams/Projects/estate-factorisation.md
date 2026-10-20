@@ -17,7 +17,7 @@ author: Written with Claude
 
 Finish Knowledge Islands estate factorisation: consistent repository structure vocabulary, explicit ownership seams, behavioural MCP policy evidence, a single OpenAI housekeeping product, observable copies and running systems, and one alignment item per surviving repository. Knowledge Islands Principal coordinates; each item is delivered through a work record in its owning repository. The test is the phase gates below, ending with EVAL-1 and EVAL-2.
 
-This Project sits in [[Themes/foundations|Foundations]]. [[baseline-rollout]] and the Techne [[agent-host]] work do not wait on it.
+This Project sits in [Foundations](../Themes/foundations.md). [baseline-rollout](baseline-rollout.md) and the Techne [agent-host](agent-host.md) work do not wait on it.
 
 ---
 
@@ -43,7 +43,7 @@ Phase specifications (purpose, deliverables, completion gates, dependencies) are
 
 ### Boundaries
 
-- The responsibility model, routing map and estate decisions live in [[GDR-KI-PRINCIPAL-006-knowledge-islands-ecosystem-fundamentals|GDR-KI-PRINCIPAL-006]].
+- The responsibility model, routing map and estate decisions live in [GDR-KI-PRINCIPAL-006](../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-006-knowledge-islands-ecosystem-fundamentals.md).
 - Knowledge Islands Principal owns Techne engineering knowledge.
 - Out of scope before V1: estate-wide KIPs, KIS documents, schemas or portable specifications; legacy compatibility, migration, rollback or dual-running; public package registries; treating MCP products as Harness capability; a third "harness" or "principal" base structure; treating repository, worktree or visibility as runtime isolation; replacing decision records solely for vocabulary; making `tools-ki` own MCP behaviour; and making this note a second work tracker.
 

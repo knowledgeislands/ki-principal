@@ -17,11 +17,11 @@ author: Written with Claude
 
 Draft, home and publish three portable specifications: `work`, a package of work without the house ways of working; `knowledge`, a well-curated package of knowledge whose description says what it teaches; and `acquire`, how knowledge is acquired, such as through a particular tool. Each follows the agentskills.io specification's conventions and works by progressive disclosure. Each is held as one reference in its owning harness skill, `ki-work-package` for `work`, `ki-acquire` for `acquire` and a new skill for `knowledge`, published later from the same text on the Knowledge Islands website, and handed to KI Specifications when it opens v1. The move depends on KI Specifications restarting, which this Project does not control.
 
-This Project sits in [[Themes/model|Model]]. Kris opened it on 19 October 2026 as `specifications` and renamed it under PROJECT-NAME the same day, keeping the paused [[specifications]] Project as it is. Its work is [ki.portable-specifications](<../../+/_WORK/ki.portable-specifications/work.md>).
+This Project sits in [Model](../Themes/model.md). Kris opened it on 19 October 2026 as `specifications` and renamed it under PROJECT-NAME the same day, keeping the paused [specifications](specifications.md) Project as it is. Its work is [ki.portable-specifications](<../../+/_WORK/ki.portable-specifications/work.md>).
 
 ---
 
 ## Notes
 
-- The paused [[specifications]] Project, bringing `ki-specifications` to a consistent dormant pre-v1 state, is a prerequisite of this Project's move into KI Specifications.
-- The KI work model and work-package standard stay with [[ways-of-working]]; knowledge-acquisition practice stays with [[knowledge-acquisition]].
+- The paused [specifications](specifications.md) Project, bringing `ki-specifications` to a consistent dormant pre-v1 state, is a prerequisite of this Project's move into KI Specifications.
+- The KI work model and work-package standard stay with [ways-of-working](ways-of-working.md); knowledge-acquisition practice stays with [knowledge-acquisition](knowledge-acquisition.md).

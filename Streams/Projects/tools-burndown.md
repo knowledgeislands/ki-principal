@@ -17,7 +17,7 @@ author: Written with Claude
 
 Burn the `tools-ki`, `tools-mgit` and `tools-git-almanac` roadmaps, and the `ki-agentic-harness` records about the `ki` CLI, its commands, release or packaging, down to zero: every record closed, merged or rejected. No new feature record is captured, except the one `tools-ki` triage record Kris's REPO-GIT-HYGIENE decision of 16 October 2026 asks for. The Project ends with the `ki` and `mgit` releases, each cut only after Kris approves it.
 
-This Project sits in [[Themes/foundations|Foundations]]. Kris revived it on 16 October 2026 with TOOLS-PROJECT: "Revive tools-burndown as a Project under Platform foundations, thread KI > Foundations > tools burndown, scoped to tools-ki, tools-mgit, tools-git-almanac and the CLI-shaped ki-agentic-harness records, excluding tools-rig and tools-techne, ending with the ki and mgit releases."
+This Project sits in [Foundations](../Themes/foundations.md). Kris revived it on 16 October 2026 with TOOLS-PROJECT: "Revive tools-burndown as a Project under Platform foundations, thread KI > Foundations > tools burndown, scoped to tools-ki, tools-mgit, tools-git-almanac and the CLI-shaped ki-agentic-harness records, excluding tools-rig and tools-techne, ending with the ki and mgit releases."
 
 ---
 

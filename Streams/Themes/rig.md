@@ -11,11 +11,11 @@ author: Written with Claude
 
 ## Direction
 
-Rig is a theme because a host needs its role applied and its workstation kept in order long after it is ready. Rig owns the role layer: once [[Themes/techne|Techne]] has made a host ready, the `tools-rig` engine applies the tools that host's role needs, on macOS or Linux. It also keeps the workstations every agent and person runs on accurate, tidy and observable: chezmoi-managed configuration, local services, secrets hygiene and agent state. A host's base and workspace belong to Techne, its personal layer to chezmoi or Cheztoi, and the shared toolchain to [[Themes/foundations|Foundations]].
+Rig is a theme because a host needs its role applied and its workstation kept in order long after it is ready. Rig owns the role layer: once [Techne](techne.md) has made a host ready, the `tools-rig` engine applies the tools that host's role needs, on macOS or Linux. It also keeps the workstations every agent and person runs on accurate, tidy and observable: chezmoi-managed configuration, local services, secrets hygiene and agent state. A host's base and workspace belong to Techne, its personal layer to chezmoi or Cheztoi, and the shared toolchain to [Foundations](foundations.md).
 
 Three roles are recognised. A **workstation** has a person at the keyboard (`terra`, `sol`). A **remote agentic rig** runs agent sessions the owner opens over Tailscale SSH (`vega`, `sol`); `sol` and `vega` share one agentic-rig role definition. An **appliance** runs one service with no personal shell; it is recorded as a role but has no recipe. Omarchy is kept in view for a future owned Linux workstation, not for `vega`.
 
-[[Hosts, Roles and Layers]] explains the layers and roles in plain language.
+[Hosts, Roles and Layers](<../../Pillars/Engineering Practice/Architecture/Hosts, Roles and Layers.md>) explains the layers and roles in plain language.
 
 ---
 
