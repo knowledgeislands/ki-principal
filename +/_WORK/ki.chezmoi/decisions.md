@@ -219,3 +219,11 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 158 (2026-10-20T01:30:00Z)
 
 - Pointer: VEGA-XDG a), as recommended: the agent-host Project adds four unset-only XDG defaults to the harness's `env.sh` in ki-techne-harness, and [KB-DOTFILES-UE-084](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-084-render-zshenv-on-vega.md) is cancelled with that resolution.
+
+## Decision 159 (2026-10-20T01:41:00Z)
+
+- Pointer: ZED-WINDOW, Kris: "drop". No further Sol window; [KB-DOTFILES-UE-100](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-100-mcporter-daemon-child-leak.md)'s Sol findings are reviewed as they stand and a mitigation is decided after Terra's collection.
+
+## Decision 160 (2026-10-20T01:41:00Z)
+
+- Pointer: AGE-DOC, Kris: "this is correct but I think its the wrong vault". The age recovery document is right, but the setup guide's Personal vault is probably not where it lives. [KB-DOTFILES-UE-077](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-077-reorganise-1password-vaults-safely.md)'s guide fix waits on Kris naming the vault; its other fixes proceed.

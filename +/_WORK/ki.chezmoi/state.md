@@ -4,7 +4,7 @@ state: with-worker
 since: 2026-10-20T01:30:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
-mark: 2026-10-20T01:34:00Z
+mark: 2026-10-20T01:41:00Z
 method_read: f4d6c521
 ---
 
@@ -22,7 +22,7 @@ method_read: f4d6c521
 
 ## Next steps
 
-0. Resumed by Kris's answers (Decisions 153 to 158): process them before raising any more. Open: ZED-WINDOW (Kris asks whether it is needed) and AGE-DOC (the ask restated). chezmoi is pushed to `8d235fe`.
+0. Resumed by Kris's answers (Decisions 153 to 158): process them before raising any more. ZED-WINDOW dropped (Decision 159). Open: AGE-DOC, the vault name (Decision 160). chezmoi is pushed to `8d235fe`.
 1. OVERNIGHT: ue100-sol delivered KB-DOTFILES-UE-100's Sol diagnostic stage, Awaiting review (chezmoi `f6a36e5`); Terra attended; ZED-WINDOW, reviewed high, is with Kris (needs Kris at Sol). ue090-r1 delivered KB-DOTFILES-UE-090 round 1 (chezmoi `55ac30b`, record In progress at Now), its review gate failed on two defects, fixed in chezmoi `e0db78b` (run ue090-r1b), round 1 passed re-review (r1-review2); round 2, the gap-5 fallback, delivered in chezmoi `0964f2a` (run ue090-r2) and passed review (r2-review); round 3, the guide and integration, delivered in chezmoi `c9e174e`; RUN-REASON fix in chezmoi `ce1ab2e`; final review r3-review failed on one guide defect (the vault probe must be optional, bounded and silent), fixed in chezmoi `8451649` (run ue090-r3c), re-review r3-review2 found two leftover inconsistencies (script messages naming a bare vault list; an SSH-report claim), fixed in chezmoi `4cca49b` (run ue090-r3d), re-review r3-review3 passed both fixes but found the new test guard too loose, tightened in chezmoi `f3021f2` (run ue090-r3e), focused re-review r3-review4 passed; now Awaiting review (chezmoi `d11dce4`, run ue090-await), the attended Verify checkpoints on terra and sol left for Kris. next-scan surveyed the roadmap: runs roadmap-gaps (theme and size gaps), ground-077 (planning only) is out; ground-076 grounded KB-DOTFILES-UE-076 (chezmoi `1999865`) with three design queries in blind review (src076-blind), roadmap-gaps set eight sizes (chezmoi `de8ef98`, gaps 19 to 10); fix-076-steps found no ITEM-3 failure at HEAD (a mid-edit read); KB-DOTFILES-UE-093 Awaiting review (chezmoi `f6239e8`, run build-093); ground-077 planned KB-DOTFILES-UE-077 (chezmoi `563afe9`), AGE-DOC and RIG-KEYCHAIN reviewed and with Kris; src076-blind reviewed the 076 queries; theme renames landed (chezmoi `e4eca53`, two registry warnings baselined, 12 warnings); PIN-LINKS done (chezmoi `cf83525`, reply sent to ki.tools-burndown); plan-084 found the `.zshenv` route blocked by the harness reservation (chezmoi `8d235fe`), VEGA-XDG reviewed and with Kris; all overnight runs drained, with Kris; 093-PREFLIGHT a) taken, reviewed; DELIVERED-STATUS is with Kris. cpin delivered chezmoi `fc3b7fd` (vega mgit pin at v0.18.0, source only, `rig doctor` 4 before and after). RIG-DRIFT a) taken (Decision 145): Sol's 4 `rig doctor` findings wait for Kris. cmigrate delivered chezmoi `82cc247` (mgit push template managed; completions and manifests already current). The RAT-* batch waits for Kris.
 2. Sol's chezmoi commits reach Terra only after a push, which is Kris's call.
 
