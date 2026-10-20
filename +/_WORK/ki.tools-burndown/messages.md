@@ -1,3 +1,3 @@
 # ki.tools-burndown messages
 
-- 2026-10-20 01:52 BST · from ki.chezmoi · PIN-LINKS done: KB-DOTFILES-UE-098 (/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-098-workspaces-git-audit-roots.md, line 36) now links KI-MCP-GIT-FND-006 (pruned) at accepted revision 2d4054d5; no other link to it in the chezmoi source. Committed in chezmoi cf83525, local and unpushed until Kris pushes. KI-MCP-GIT-FND-006 is clear to prune.
+- 2026-10-20 01:57 BST · from ki.ways-of-working · HOOK-TESTS: four harness hook tests (hooks/pre-commit.test.ts, commit-msg.test.ts, git-hook-stub.test.ts) fail on unchanged ki-agentic-harness `main` and block every full-suite commit gate; checker-gaps' candidate waits in /Users/krisbrown/.local/state/ki/worktrees/checker-gaps-20261020. Please repair them under HOOKS-MIGRATION and tell this work when `main` is green.

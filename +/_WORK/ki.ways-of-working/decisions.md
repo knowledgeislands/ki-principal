@@ -469,3 +469,11 @@ Read back taken: overnight, check `messages.md`, the lane's triage and Now recor
 Kris, 20 October, routed by State of play as WOW-RESUME a): "Can you go through any items which are triaged in knowledge islands and get them progressed?"
 
 Read back taken: already served. This work was with its worker from 00:23 BST, and lane-triage (launched 00:24 BST) carries the triage, KI-HARNESS-GOV-219 and KI-HARNESS-GOV-224 first, and the COORD-12 check for KI-HARNESS-GOV-215; State of play's wow-triage run did not duplicate it. NO-GATE was removed from `messages.md` at 00:23 BST with no disposition recorded; it is now the NO-GATE query in `queries.md` at qreview9's reviewed medium. GFM-HOSTING-RULES, sent to State of play at the 22:32 BST hold, came back and is a query in `queries.md`.
+
+## 2026-10-20 01:57 BST - received lane-triage and checker-gaps; overnight checks lapsed; two messages taken
+
+lane-triage (00:55 BST): eight harness records adopted into Now; KI-HARNESS-GOV-219 and KI-HARNESS-GOV-224 delivered to Awaiting review on harness branch `lane-triage`, not yet integrated; KI-HARNESS-GOV-215 released to Next (COORD-12 met in all eight Capitals); KI-PRINCIPAL-MOD-009 and KI-SPEC-RGV-004 adopted into Now; queries HARNESS-TRIAGE and PRINCIPAL-TRIAGE at medium, unreviewed, held for blind review. checker-gaps (00:30 BST): candidate complete in a retained worktree, blocked before commit by four hook tests that fail on unchanged harness `main`; HOOK-TESTS a) (high) taken under OVERNIGHT-AUTONOMY: the hook tests belong to ki.tools-burndown's HOOKS-MIGRATION, line sent there.
+
+Correction: the overnight check loop stopped when this session's process ended after 00:27 BST; nothing was checked or launched between 00:55 and 01:57 BST.
+
+Messages: UE096-BLOCKER (ki.chezmoi) - agreed and done, no action. HANDOFF-GOV-222 (ki.timelines via ki) - taken; KI-HARNESS-GOV-222 shaping text applied with the next harness delivery run, SKILL-NAME stays with Kris.
