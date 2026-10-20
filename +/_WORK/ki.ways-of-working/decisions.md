@@ -164,3 +164,9 @@ Taken as: a) on FOOTER-PROVISIONALS, SPEC-SKETCH, RIG-053-SHAPE, PLAN067-READY, 
 ## 2026-10-20 23:29 BST - messages: TOOLS-KI-SHAPES harness line
 
 The tools-ki sign-off run left a line here: make CLEAN-1 to CLEAN-7 mechanical in the harness ki-git catalogue under KI-TOOL-KI-CLI-140. Covered by Kris's TOOLS-KI-SHAPES a); launched as wow-harness-clean after the GOV-225 acceptance, with the State of play form request (State of play's queue is `+/_WORK/ki/messages.md`, not the path the first brief guessed). Line removed.
+
+## 2026-10-20 23:30 BST - ENACTMENT-ADMIN
+
+Kris: "ENACTMENT-ADMIN ok lets go safe with a) but we will need to consider it soon"
+
+Taken as: a) after blind review. The gate stays on Admin, Pillars and Resources (SDR-KI-PRINCIPAL-004); the portable gate statements name `Admin/` alongside them, the Great Library's section stays Pillars-only, and the island's Enactment Process widens the owner-instruction stand-in so one approved scope covers a batch of related edits. No new decision record, no harness change. Narrowing the gate (the tiered or Admin-only options) stays open and comes back to Kris soon, carried as an open point in state.md, not a record.
