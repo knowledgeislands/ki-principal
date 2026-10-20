@@ -84,39 +84,12 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 
 ## 2026-10-20 00:27 BST - OVERNIGHT
 
-- **OVERNIGHT:** "I'm going to bed now. I want you to keep looking every 10 minutes to see if there's any new work for yourself in some way. And if there is, I want you to progress it. You can do anything on a high confidence level that you recommend. If you can get a good recommendation, you can move on to the next one, and as you do more and work, it might be that when you come back to ones that you couldn't get a good recommendation for, it might be more accurate. We've got autonomy to make this happen, so I'm going to leave you with this in your safe hands."
-  - Taken as: until Kris returns, State of play acts on every high-confidence recommendation, its own and its runs'.
-  - A medium or low query goes to a blind review. If the review agrees, it rises to high and is acted on; if not, it is parked for Kris and revisited later.
-  - Destructive actions still need a review that agrees.
-  - No push: Kris's standing "never push without a request" is not lifted.
-  - Checks run every 10 minutes when idle, and every 5 minutes while runs are going.
+- OVERNIGHT (Kris, 20 October 00:27 BST): act on high-confidence recommendations, blind review for the rest, no push; ended by Kris's pause at 02:05 BST. Its full wording and receipts are in Git.
 
-## Receipts since 23:46 BST on 19 October
+## 2026-10-20 02:05 BST - HOLD
 
-- 23:49 BST `email-routing-hold`: 12 records held (mcp-m365 `fdd6708`, mcp-gsuite `2fd5471`); received in `6faf8f0c`.
-- 23:49 BST `sop-mark-2`: log struck (`c3847f88`); follow-ups routed in `5c0b8c12`.
-- 23:51 BST `review-hold-apply`: three packages back on hold (`e7ad9671`); received in `b70aa0fe`.
-- 23:53 BST `techne-focus`: KI-PRINCIPAL-GOV-035 captured (`6143b6b0`); received in `6b6323df`.
-- 23:54 BST `skill-reviews-delete`: harness folder deleted (ki-agentic-harness `aa888e33`); received in `bc477a5f`.
-- 23:56 BST `query-review-4`: read-only; received in `bc477a5f`.
-- 00:17 BST `roadmap-census-2`: read-only; releases routed in `48e86233`.
-- 00:20 BST `gov035-deliver`: GOV-035 to Awaiting review (`8895ff0f`, `d5522a38`); received in `a137221e`.
-- 00:23 BST `query-review-5`: read-only; received in `13bc0fce`.
-- 00:31 BST `gov035-accept`: GOV-035 accepted and MOD-008 to next (`a54cd931`); received in `39e16944`.
-- 00:32 BST `wow-triage`: overtaken by ki.ways-of-working's own run (`187a557c`); received in `ebec00c8`.
-- 00:41 BST `agent-host-resume`: ki.agent-host with worker (`8db17750`), links fixed (ki-techne-harness `88cdf8a`, tools-techne `6853796`), CLI-006 to next (`e7dc018`), UE-084 to soon (chezmoi `b6e0cb2`), OPS-018 and OPS-024 held (`9366496`); received in `37e424b5`.
-- 00:44 BST `query-review-6`: read-only; received in `6cbb4ddb`.
-- 00:50 BST `cli006-replan`: CLI-006 replanned (tools-techne `31c7b7d`); received in `d363ff1c`.
-- 00:52 BST `query-review-7`: read-only, disagreed on CLI006-CONFIRM; received in `65f43da9`.
-- 01:02 BST `hold-apply`: CORE-048 to soon (tools-rig `512f21f`), CLI-125 reworded (tools-ki `1baef525`), recorded (`ea182d66`); received in `83ff4e32`.
-- 01:05 BST `sop-housekeeping`: registry-removal finished (`910b3126`, `777309b7`), Paperclip hold restated (`07c4a190`); received in `01e8c0d7`.
+- **HOLD** (Kris, 20 October): "pause - take stock. Go On hold under current ki-coordination ... set state.md to on-hold with reason \"take stock on ways of working\" and release \"Kris says resume\". Before the hold report, write design/retro-2026-10-20.md". Nothing was running; the message watch was stopped, three queries parked, retro written and the mark struck.
 
-## Routed since 23:46 BST on 19 October
+## Routed, still to confirm
 
-- CANCEL-MERGE (ki.tools-burndown's acceptrig, cancelling KI-TOOL-RIG-DIST-011 and merging or rejecting CORE-056, -057 and -064) to ki.mac-studio-setup, which owns tools-rig; roadmap-census-2 found DIST-011 about to be met rather than obsolete; routed in `a137221e`.
-- NO-GATE and HANDOFF-GOV-222 to ki.ways-of-working, which holds the hooks standard and the harness roadmap; routed in `13bc0fce` and `37e424b5`.
 - Follow-up with hnr.email-routing, no record: drop the dangling `KI-MCP-M365-TOOL-010` from KI-MCP-M365-TOOL-012's `blocked_by`.
-- 01:11 BST: `query-review-8` received, blind. It agrees on PROJECT-CLOSE a) and adds conditions (settle HOST-WRITES, ALIAS-OWNERS and RIG-REFS; OBS-ACTIVATION's local service is confirmed running), so it is raised to high, reviewed. It is not acted on: retiring an unmet Outcome is Kris's choice, so it is parked with him. `sop-mark-3` received: mark at `43b0375d`. State of play is now idle under OVERNIGHT, checking `messages.md` every 10 minutes.
-- 01:45 BST: PIN-LINKS from ki.tools-burndown routed to ki.chezmoi: repoint KB-DOTFILES-UE-098's link to the accepted KI-MCP-GIT-FND-006 revision, then reply so tools-burndown can prune. Line removed.
-- 01:47 BST: RIG-SCHEDULE-ENCODING from ki.observatory routed to ki.mac-studio-setup, which owns tools-rig: specify the `schedule` encoding in `rig show --format json`, or add a structured field; not blocking. Line removed.
-- 01:57 BST: PKGLESS-GATE from ki.tools-burndown routed to ki.ways-of-working with NO-GATE, which holds the harness hooks contract. Line removed.

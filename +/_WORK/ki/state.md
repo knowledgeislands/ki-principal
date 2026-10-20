@@ -1,10 +1,12 @@
 ---
 id: ki
-state: with-worker
-since: 2026-10-19T23:23:42Z
+state: on-hold
+reason: take stock on ways of working
+release: Kris says resume
+since: 2026-10-20T01:05:08Z
 received: 2026-10-19T17:58:50Z
 beat: null
-mark: 2026-10-20T00:09:17Z
+mark: 2026-10-20T01:05:08Z
 method_read: f4d6c521
 ---
 
@@ -12,13 +14,12 @@ method_read: f4d6c521
 
 ## Now
 
-- With worker since 00:27 BST on 20 October, on sol, working overnight under OVERNIGHT: acting on high-confidence recommendations, no push, checking every 10 minutes when idle.
-- Done overnight: [KI-PRINCIPAL-GOV-035](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-GOV-035-turn-the-techne-programme-hold-into-a-focus-rule.md) is accepted and [KI-PRINCIPAL-MOD-008](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-008-whole-philosophy-coherence-review.md) released to next; ki.agent-host ([work file](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.agent-host/work.md)) is resumed, with worker; [KI-TOOL-RIG-CORE-048](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-048-signed-release-install-kind.md) is released to soon; [KI-TOOL-KI-CLI-125](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-125-ki-release-contract.md) is reworded, held only until an ARM host is needed; ki.regular.registry-removal is finished and pruned; the Paperclip hold is restated against the Techne Programme Focus.
-- Open with Kris: CLI006-READY and CLI006-CONFIRM, and PROJECT-CLOSE (reviewed high, parked because it is your choice) in `queries.md`, both for [KI-TOOL-TECHNE-CLI-006](/Users/krisbrown/workspaces/knowledge-islands/tools-techne/docs/roadmap/KI-TOOL-TECHNE-CLI-006-guarded-host-commands.md). CLI006-CONFIRM touches destroy safety, so nothing is acted on before Kris answers.
-- Nothing is running. `query-review-8`, the blind review of PROJECT-CLOSE for ki.estate-factorisation, has finished; its report waits for State of play to receive it.
+- On hold since 02:05 BST on 20 October: take stock on ways of working; released when Kris says resume. Drained with nothing running; the overnight message watch is stopped.
+- Overnight under OVERNIGHT: [KI-PRINCIPAL-GOV-035](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-GOV-035-turn-the-techne-programme-hold-into-a-focus-rule.md) accepted and [KI-PRINCIPAL-MOD-008](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-008-whole-philosophy-coherence-review.md) to next; ki.agent-host resumed; [KI-TOOL-RIG-CORE-048](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-048-signed-release-install-kind.md) to soon; [KI-TOOL-KI-CLI-125](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-125-ki-release-contract.md) reworded; ki.regular.registry-removal finished; PIN-LINKS, RIG-SCHEDULE-ENCODING and PKGLESS-GATE routed to their owners.
+- Parked in `queries.md`: CLI006-READY, CLI006-CONFIRM and PROJECT-CLOSE.
+- Retro for the take-stock: [design/retro-2026-10-20.md](design/retro-2026-10-20.md).
 - The 12 email-routing records belong to Humans not Robots (hnr.email-routing), held until Kris resumes HNR work.
 - KI-TOOL-RIG-CORE-047 stays Awaiting review with ki.chezmoi until its NordVPN checks and Terra's `rig apply --sudo` run, or Kris narrows it.
-- No roadmap cap (ROADMAP-CAP, 19 October): the focus is getting through the burn-down.
 
 ## Homeless
 
@@ -41,8 +42,8 @@ method_read: f4d6c521
 
 ## Next steps
 
-1. On Kris's answers to CLI006-READY and CLI006-CONFIRM: dispatch a ki-plan run for KI-TOOL-TECHNE-CLI-006 with the chosen confirmation design.
-2. At `query-review-8`'s receipt: copy PROJECT-CLOSE into `queries.md`; under OVERNIGHT, act on it if the review agrees at high, otherwise park it for Kris.
+1. On resume: put the parked queries back; on Kris's answers to CLI006-READY and CLI006-CONFIRM, dispatch a ki-plan run for KI-TOOL-TECHNE-CLI-006 with the chosen confirmation design; on PROJECT-CLOSE, route the close-out to ki.estate-factorisation's owner as answered.
+2. Re-arm the 10-minute `messages.md` watch.
 3. At a session with the terra checkout (sol is not terra): PILOT-SEED, after a fetch: stage section 4 as a seed pack in `-` under SEED-HOME with a provenance line and tell knowledge acquisition (PILOT-SEED-HOME a), 19 October) ([pilot-seed report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/pilot-seed.report.md)); STASH-DROP, approved on 16 October (FIRST-WAVE): delete `refs/rebase-repair/autostash-f091d468` in ki-principal on terra once nothing still needs it.
 4. When ki.knowledge-acquisition takes in MARK-FOLLOWUP (the ChatGPT exports refresh and the held MS3 receipt tags): delete `design/personal-acquire-handover.md` at the next mark.
 5. After the burn-down: the estate-wide audit and conformance review of skills Kris raised through tools burndown (AUDIT-CONFORMANCE, 19 October), placed by State of play once the roadmap is down to something sensible; the hooks checks stay with ki.tools-burndown (HOOK-AUDIT).
