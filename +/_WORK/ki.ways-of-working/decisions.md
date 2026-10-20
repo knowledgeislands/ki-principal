@@ -491,3 +491,7 @@ Kris pasted the take-stock pause line into this session. Read back taken: alread
 ## 02:05 BST - message PKGLESS-GATE; prompt sent to all threads
 
 PKGLESS-GATE (from ki, routed from ki.tools-burndown, 01:57 BST): taken alongside NO-GATE; parked while on hold. Kris: "prompt send to all threads including you" - the take-stock pause went to every thread; this work is held.
+
+## 2026-10-20 02:10 BST - owner direction, collect the take-stock notes
+
+Kris: "Okay, they've all done that now. Can you have a look at it?" Read back taken: lift the hold for the collection only; take-stock reads every thread's retro and writes one synthesis with ranked changes as queries. The other parked work and queued launches stay held.
