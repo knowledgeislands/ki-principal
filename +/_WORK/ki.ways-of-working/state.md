@@ -1,10 +1,10 @@
 ---
 id: ki.ways-of-working
-state: handoff-to-supervisor
-since: 2026-10-20T03:22:00Z
+state: with-worker
+since: 2026-10-20T04:20:00Z
 received: 2026-10-19T16:57:00Z
 beat: null
-mark: 2026-10-20T03:22:00Z
+mark: 2026-10-20T04:20:00Z
 method_read: eff6163b
 ---
 
@@ -12,6 +12,7 @@ method_read: eff6163b
 
 ## Now
 
+- Kris answered everything at 05:20 BST (all recommended) and set OVERNIGHT-BURNDOWN: tools, MCPs, apps, others, then harness, to zero; Kris asleep, no other threads. apply-sweep applies the answers; burn-<repo> runs deliver per repository; each delivery gets a blind review, then accept and prune.
 - Send to Kris at 04:22 BST, mark struck: all runs received; 21 queries with Kris (worktree trial, GFM, maturity, stashes, marks, single figures and the reviewed sweep). Next on answers: apply the sweep dispositions and acceptances, launch the harness batch, then ADOPTION once Kris restarts the threads.
 - Received wow-rules2, worktree-flow, sweep-review, md-review and gfm-review-2 at 04:04 BST. Running: wf-review (blind review of WORKTREE-INTEGRATE, WORKTREE-START), sweep-queries (recount and sweep queries). Then a full Summary to Kris. Other threads stay paused; priority single figures.
 - Kris answered at 03:2x BST: priority is Knowledge Islands roadmaps to single figures; other threads stay paused until Acquire intake, ki.chezmoi and this work are bottomed out. Running: gfm-convert, roadmap-sweep, harness-moves; queued: wow-rules2, worktree-flow. Open with Kris: WORKTREE-AUDIT, CAPTURE-ORIGIN, single-figures scope; NO-GATE parked.
