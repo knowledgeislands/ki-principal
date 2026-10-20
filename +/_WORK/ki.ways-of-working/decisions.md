@@ -563,3 +563,7 @@ Blind Codex review of the six finish-first queries: agrees ACCEPT-BUNDLE (high, 
 ## 2026-10-20 03:00 BST - received unpark-draft; unpark-review launched
 
 Four live unparked queries drafted in `design/unparked-queries.md` (`docs(work): ... draft unparked queries`): NO-GATE with PKGLESS-GATE folded in (hooks already installed in apps-dafacts.org, apps-kris.me.uk and acquire), GFM-HOSTING-RULES (key corrected to `[skills.ki-repo.checks]`), HARNESS-TRIAGE (eight records) and PRINCIPAL-TRIAGE (KI-PRINCIPAL-GOV-035 already pruned; KI-PRINCIPAL-OPS-014 now Now pilot). All four medium; NO-GATE redrafted, so all four go to blind review unpark-review.
+
+## 2026-10-20 03:05 BST - received unpark-review
+
+Blind Codex review of the four unparked queries: agrees HARNESS-TRIAGE (with corrections) and PRINCIPAL-TRIAGE, both lifted to high, reviewed; disagrees on NO-GATE (widen KI-HARNESS-GOV-225) and GFM-HOSTING-RULES (read live rules first). All four put to Kris; PKGLESS-GATE answered through NO-GATE.

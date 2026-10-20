@@ -24,23 +24,23 @@ Review disagrees (cg-review, high: listed answers are not approved decisions; Re
 
 ### NO-GATE - unparked
 
-Project shape commit gate; reviewed, a) `ki repo audit --skill ki-repo` staged, check-only. Unparked by Kris at 02:55 BST; full query drafted by unpark-draft, then blind review unless already reviewed.
+Project shape commit gate; reviewed, a) `ki repo audit --skill ki-repo` staged, check-only. Unparked 02:55 BST; drafted in `design/unparked-queries.md`. Review disagrees (widen KI-HARNESS-GOV-225 to own the three shapes' content, medium).
 
 ### GFM-HOSTING-RULES - unparked
 
-harness protected `main` declaration; a) `branch-protection = true`, awaiting blind review. Unparked by Kris at 02:55 BST; full query drafted by unpark-draft, then blind review unless already reviewed.
+harness protected `main` declaration; a) `branch-protection = true`, awaiting blind review. Unparked 02:55 BST; drafted in `design/unparked-queries.md`. Review disagrees (settle the intended policy and read live GitHub rules before declaring, medium).
 
 ### HARNESS-TRIAGE - unparked
 
-eight harness triage dispositions from lane-triage; awaiting blind review. Unparked by Kris at 02:55 BST; full query drafted by unpark-draft, then blind review unless already reviewed.
+eight harness triage dispositions from lane-triage; awaiting blind review. Unparked 02:55 BST; drafted in `design/unparked-queries.md`. Reviewed, agrees with corrections (Future not Later; adoption is not permission to implement): high.
 
 ### PRINCIPAL-TRIAGE - unparked
 
-OPS-014 to Next, prune GOV-035; awaiting blind review. Unparked by Kris at 02:55 BST; full query drafted by unpark-draft, then blind review unless already reviewed.
+OPS-014 to Next, prune GOV-035; awaiting blind review. Unparked 02:55 BST; drafted in `design/unparked-queries.md`. Reviewed, agrees (high, reviewer's own confidence high): high; KI-PRINCIPAL-OPS-014 pilot into Now after the pin move.
 
 ### PKGLESS-GATE - unparked
 
-keep the package-less pre-commit gates in homebrew-tap and ki-specifications and give each concrete shape an explicit content owner in the harness hooks contract; taken with NO-GATE on resume. Unparked by Kris at 02:55 BST; full query drafted by unpark-draft, then blind review unless already reviewed.
+keep the package-less pre-commit gates in homebrew-tap and ki-specifications and give each concrete shape an explicit content owner in the harness hooks contract; taken with NO-GATE on resume. Unparked 02:55 BST; drafted in `design/unparked-queries.md`. Folded into NO-GATE by unpark-draft; answering NO-GATE answers it.
 
 ### NET-DOWN - Weekly direction target, not a cap
 
