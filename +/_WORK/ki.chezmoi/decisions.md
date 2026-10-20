@@ -299,3 +299,11 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 178 (2026-10-20T03:47:00Z)
 
 - Pointer: Kris (04:47 BST, spoken; "the big" read as Rig, "UV-082" as UE-082). UE-082-FOLLOWUPS a): "whatever you think, honestly, I'm not sure." One triage record for a persistent absent-command finding; path stability dropped (run b2-chezmoi).
+
+## Decision 179 (2026-10-20T03:55:00Z)
+
+- Pointer: Kris (04:55 BST, spoken; "the big" read as Rig). On the Rig site's tool table: drop "why it is here" wording; each tool shows what it is for, factually ("Zoom: video meetings where Zoom is the required platform"; ack: what ack is, not its Homebrew package); a reason is not required, and any particular comment goes as subtext underneath, like "needs uv"; show each tool's kind (command line or application, "seems to have been lost") and install vector. "I don't think we should indicate ... install vector ... app type" is read as "I do think", from the surrounding sentences; flagged to Kris. "Just go at this and try and improve it, and then I'll come back and have another look." Supersedes RAT-UNCONFIRMED and RAT-READING. Runs rig-purpose (chezmoi declarations) and purpose-render (apps-rig.midnight.ninja).
+
+## Decision 180 (2026-10-20T03:55:00Z)
+
+- Pointer: Kris (04:55 BST): "a lot of items in the roadmap ... most of them done. Can we get them approved if not?" Read back as: prepare the chezmoi roadmap for one approval pass (run accept-prep, read-only), then bring an acceptance batch and a clear-out batch.

@@ -2,7 +2,8 @@
 
 ## Open
 
-- RAT-UNCONFIRMED, RAT-READING: Kris is checking them in Rig and will come back (Decision 173).
+- RAT-UNCONFIRMED, RAT-READING: superseded by Decision 179.
+- SPARK-TOOL (b2-chezmoi): `tool.spark` is Shadowlab's launcher, not mail; folded into run rig-purpose, which will ask whether to keep it.
 - TIDY: not yet answered.
 - Batch 2's others decided in Decisions 174 to 178.
 
