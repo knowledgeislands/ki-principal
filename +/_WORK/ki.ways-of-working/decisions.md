@@ -597,3 +597,7 @@ Taken as: ADOPTION paste line held; other threads stay paused until Acquire inta
 ## 2026-10-20 03:41 BST - message from ki.chezmoi, two old stashes
 
 Taken: wt-survey says both ki-principal stashes are spent and safe to drop. Dropping is a deletion, so STASH-DROP goes to blind review stash-review (queued) before Kris. Line removed.
+
+## 2026-10-20 03:46 BST - received roadmap-sweep and harness-moves (report to read)
+
+roadmap-sweep: 97 open Knowledge Islands records; if every batch is taken, 54 remain and every repository reaches single figures (four land on nine). `design/roadmap-sweep.md` (`e729b6d0`): acceptance bundles per work, merge (13), convert (6) and cancel (6) batches. Merge, convert and cancel go to blind review sweep-review (queued); medium acceptance bundles reviewed with them.
