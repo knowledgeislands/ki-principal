@@ -533,3 +533,7 @@ Read back taken:
 - ADOPTION: after wow-standards lands, every thread re-anchors on the new standard (a paste line from Kris, since messages reach idle sessions only at owner messages), and a conformance run checks each work's reports and package against the report and banner shapes, naming any that lag.
 - FINISH-FIRST: a burn-down rule set, designed and reviewed before it reaches Kris: roadmap counts per repository tracked at each mark and shown by State of play, no new records beyond CAPTURE-GATE's exceptions, a work adopts new Now work only while its Now and awaiting-review counts are under a cap (with OWNER-QUEUE), and done records pruned promptly.
 - "webmoth items": not identified; no repository holds over a hundred records (largest: personal-principal 38, legal-principal 31, ki-agentic-harness 26). Asked back in one line before the triage sweep launches.
+
+## 2026-10-20 02:44 BST - received ci-review
+
+Codex blind review of CHECKOUT-ISOLATION agrees with checkout-iso's a), medium, adding two conditions: serialise the whole shared-checkout Git write window, and establish dependency and runtime parity before judging worktree audits. It corrects two claims: `--repo` need not always name the primary checkout, and the ~2 s hook cost is workload-dependent. Not fully blind; query lifted to high, reviewed, and put to Kris. Briefs for ci-review, lane-triage and checker-gaps pruned.

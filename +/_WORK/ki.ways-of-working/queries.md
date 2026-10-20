@@ -8,7 +8,7 @@ Answered a) in principle; "checks" asked back.
 
 ### CHECKOUT-ISOLATION - Stop sessions colliding in shared checkouts
 
-With checkout-iso.
+checkout-iso recommends a) staged mix, medium; ci-review (Codex, 02:41 BST) agrees a), medium, with two conditions: serialise the whole shared-checkout Git write window (hooks and post-commit check included), and give worktree audits dependency and runtime parity before judging them, the pilot counting swept files, false audit findings and integration failures. Review only partly blind (a decision-log summary surfaced in a search). Lifted to high, reviewed. Options: a) staged mix with the two conditions; b) worktrees everywhere (reverses MAIN-NOT-WORKTREES); c) no change.
 
 ## Parked
 
