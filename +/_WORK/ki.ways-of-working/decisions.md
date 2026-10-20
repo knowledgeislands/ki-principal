@@ -663,3 +663,7 @@ CONFIG-UNDER-CONTROL delivered: KB-DOTFILES-HK-001 now a monthly read-only per-M
 ## 2026-10-20 05:59 BST - received apply-sweep
 
 Accepted and pruned fourteen: six Observatory, five ki-design, three Rig. Merged KI-MCP-M365-TOOL-020 into -018 (pushed). Cancelled and kept: KI-HARNESS-GOV-216, -222, -226, KI-TOOL-KI-CLI-151, KI-TOOL-RIG-DIST-011 (obsolete, now message lines), KI-TOOL-RIG-CORE-057 and KI-TOOL-RIG-CLI-026 (rejected, Idea lines on the Rig theme page). Knip line to ki.tools-burndown; KI-TOOL-KI-CLI-167 handled in tools-ki. Both ki-principal stashes dropped after checking. Some repositories not pushed where other sessions' commits interleave. The cancelled records stay until a prune-only pass at the end of the burndown, under Kris's "roadmaps down to zero". Brief removed.
+
+## 2026-10-20 06:04 BST - received burn-tools-mgit and burn-tools-git-almanac
+
+Both roadmaps already at zero; nothing to do. Briefs removed.
