@@ -735,3 +735,8 @@ KI-HARNESS-GOV-196 merged into KI-HARNESS-GOV-200; all seven KI-HARNESS-BATCH-02
 ## 2026-10-20 07:19 BST - received accept4-tools-ki
 
 KI-TOOL-KI-CLI-165 accepted (tools-ki `fde00e97`, pushed; tools-ki now level with its remote). KI-TOOL-KI-CLI-134 passes but stays awaiting review for FOOTER-PROVISIONALS. KI-TOOL-KI-CLI-152, -165 and -167 now prunable: prune-links2 queued after accept-harness-batch, as it edits harness links. Line removed.
+
+## 2026-10-20 07:24 BST - received accept-harness-batch; three lines
+
+- accept-harness-batch accepted five: KI-HARNESS-GOV-220, -215, -221, -214 and -223 (harness `eea04f87`, local). HARNESS-REVIEW-200 and HARNESS-REVIEW-205: both back to in progress with findings; harness-fix reworks them and lands F6, then accept-harness-rework re-reviews. Lines removed.
+- RIG-WORKTREE-RUNTIMES: tools-ki's RUNTIMES-2 check, routed to ki.tools-burndown `messages.md` with WORKTREE-FIXES. Line removed.
