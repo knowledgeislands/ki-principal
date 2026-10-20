@@ -30,7 +30,7 @@ method_read: eff6163b
 5. ADOPTION once Kris restarts the threads; watch the REFRESH pickup by the five works outside Kris's focus.
 6. KI-PRINCIPAL-OPS-014 awaits Kris's render checks; GFM-CAPITALS follows the GFM answers.
 7. With ki.tools-burndown: the patch release with KI-TOOL-KI-CLI-155 and the harness pin, then this work moves `.github/ki-version`; HOOKS-STANDARD; `ki work status` reading both shapes; VALIDATOR-PARITY and KI-TOOL-KI-CLI-156; mgit's hands-on acceptance and single release (MGIT-RELEASE a)).
-8. Harness CI is green on origin/main (wow-ci-check, 22:15 BST); wow-ci-timeout caps the intermittent six-hour Test hang.
+8. Harness CI is green on origin/main (wow-ci-check, 22:15 BST); wow-ci-timeout caps the intermittent six-hour Test hang. CI now caps Test at 10 minutes and the job at 30 (81b8c8c7). CI-HANG-CAUSE: when Test next times out, read the log for the last test file started; suspects are 19 test-side synchronous child-process calls with no timeout. HARNESS-DEPS-1 (knip 6.40.0) goes in wow-harness-knip.
 9. With ki.chezmoi (RIG-LIVE): KB-DOTFILES-UE-091 without ChatGPT and the firewall declaration; Kris's attended Rig applies; acceptance of KI-TOOL-RIG-CORE-042 and -047.
 10. Not this work's: pre-existing CI red in apps-observatory.local, mcp-m365, tools-mgit and ki-techne-harness; acquire-intake's ACQUIRE-DECISIONS-LINKS.
 11. design/: thread-model notes deleted (22:15 BST); work-package.md goes in wow-workpackage-graduate; the three bring-up files go once BRING-UP-LEFTOVER replies arrive from ki.observatory and ki.tools-burndown; the rest stay live.

@@ -254,6 +254,18 @@ a) (recommended, confidence high - reviewed: the record anticipates a planning s
 
 b) Leave it whole at Next.
 
+### OBS-BRG-006-VISUAL - Your running-site check of KI-OBSERVA-BRG-006
+
+**Context:** [KI-OBSERVA-BRG-006](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-006-feedback-to-messages-file.md) (feedback writes to the work's messages.md) passed an independent Codex review on 20 October at 22:26 BST: tests, typecheck, Biome, audits and the browser smoke at 1,440 and 720 px all pass. Its Verify reserves a running-site look for you at 1,440 and 760 px on <http://127.0.0.1:1675/>, the same session as OBS-ACT-VISUAL. The Observatory service also needs a restart to pick up the delivery.
+
+**Query:** Will you make the check alongside OBS-ACT-VISUAL?
+
+**Options:**
+
+a) (recommended, confidence high - every mechanical check passes; only your look remains) Yes: restart the Observatory, check both records in one sitting, and a pass accepts it.
+
+b) Name a defect; the record returns to in progress.
+
 ## Parked
 
 - NO-GATE (with PKGLESS-GATE) - project shape commit gate; Kris will come back to it. a) `ki repo audit --skill ki-repo` staged, check-only; review prefers widening KI-HARNESS-GOV-225.
