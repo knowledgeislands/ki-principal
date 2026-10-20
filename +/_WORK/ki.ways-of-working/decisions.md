@@ -783,3 +783,9 @@ KI-HARNESS-GOV-200 and -205 accepted after independent re-review (`4559224e`, lo
 ## 2026-10-20 08:00 BST - received harness-style
 
 STYLE-STALE landed (`dacdcc33`, local): re-anchoring now re-reads `output-styles/ki-coordinator.md` from disk, with the hook pointer and the style's own paragraph regenerated to the same words; 1372 tests pass. Left over: the `run/harness-fix` worktree from harness-fix, for a later tidy run to remove once its branch is confirmed merged.
+
+## 2026-10-20 08:03 BST - received accept-wow
+
+- KI-HARNESS-GOV-199 accepted on its narrowed Phase 1 boundary (`727af90e`, local); IDENTITY-PHASE3 stays in Next steps.
+- KI-PRINCIPAL-ECO-013 failed (`0c8f4a32`, back to in progress): ki-principal's authoring, coordination and work-package audits fail, partly in this package (untracked reports, MD-mech, the 04:22 mark in prose). wow-audit-fix clears ours and routes the rest to the owning works' `messages.md`; ECO-013's re-review follows once the audits pass.
+- HARNESS-FIX-WORKTREE: harness-tidy queued (merged-only removal, `branch -d`).
