@@ -29,7 +29,7 @@ Kris unparked five queries at 02:55 BST: NO-GATE, PKGLESS-GATE, GFM-HOSTING-RULE
 
 Section 2.2 of the [hooks-standard design](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/design/hooks-standard.md) gives these repositories one row: a staged audit over all declared skills, owned by `HOOK-1` alone. The Project hooks actually run `ki-repo` alone, so the design and the installed hooks disagree.
 
-[KI-HARNESS-GOV-225](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-225-hook-content-claims.md) (hook content claims, in triage) has each shape skill declare the hook lines it requires, so that the `ki` host ([KI-TOOL-KI-CLI-165](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-165-hook-composition-claims-host.md)) can compose hooks. Its boundary names five shapes, but not these three. CAPTURE-GATE bars new records.
+[KI-HARNESS-GOV-225](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-225-hook-content-claims.md) (hook content claims, in triage) has each shape skill declare the hook lines it requires, so that the `ki` host ([KI-TOOL-KI-CLI-165 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/fde00e97/docs/roadmap/KI-TOOL-KI-CLI-165-hook-composition-claims-host.md)) can compose hooks. Its boundary names five shapes, but not these three. CAPTURE-GATE bars new records.
 
 **Query:** Where should the content of the five package-less gates be declared?
 
