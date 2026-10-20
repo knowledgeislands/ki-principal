@@ -7,14 +7,14 @@ kind: deliver
 purpose: governance
 project: ways-of-working
 horizon: now
-status: in-progress
+status: awaiting-review
 tags:
   - topic/knowledge-islands
 blocks: []
 blocked_by: []
 baseline_ref: 984d950957b56618baa28413f2c82a73c1c10b19
 created_at: 2026-10-13T13:42:43Z
-updated_at: 2026-10-14T14:21:58Z
+updated_at: 2026-10-20T06:37:46Z
 ---
 
 # PMO Extraction Pilot
@@ -35,6 +35,7 @@ This record belongs to Knowledge Islands Principal because the pilot is the desi
 
 ## Boundary
 
+- Narrowed on 2026-10-20 to what the pilot delivered: the `ki-pmo` extraction, now `ki-coordination`, the reminder hook, the output style and its chezmoi link, the island declaration and acceptance test 1 on Claude Code. Acceptance test 1 on Codex and acceptance tests 2 and 3 are out, overtaken by the work model; Discussion under Narrowing records why and where each part went.
 - The `ki-pmo` move only. No checkpoint schema field, no label change, no default coordinator model change and no `ki` command change; those belong to the waves.
 - Layers 4 and 5 of the responsive coordinator are out: the `ki agent` mechanical support lands in Wave C and the lighter coordinator through the `COORD-DEFAULT` trial, each judged against the same acceptance test.
 - The `COORD-DEFAULT` trial of `fast` at low effort may run on the pilot's Project thread but is not this record's deliverable, and the open Claude Code `fast` binding under `BINDINGS` is not needed by it.
@@ -53,12 +54,15 @@ This record belongs to Knowledge Islands Principal because the pilot is the desi
 
 ## Acceptance tests
 
+Under the 2026-10-20 narrowing, test 1 is judged on its Claude Code run, and tests 2 and 3 are withdrawn and kept below as written for the record.
+
 1. **Rebuild from checkpoint.** With the run folder made unavailable, a fresh session re-bootstraps the master and one Project thread from repository evidence alone, recovers scope, in-force authority, outstanding Needs and the next step, and derives the correct opener by hand from the rule. A generic checkpoint in a repository without `ki-pmo` still validates.
 2. **Responsiveness.** While a background agent of the pilot's run is working, Kris sends the Project thread a message. The thread answers within one turn of at most five tool calls, reading nothing beyond its checkpoint and `ki agent status`; `ki agent status` before and after shows the same agents running; the session transcript shows no in-session subagent. Run at least three times, once after a compaction.
 3. **Hook.** The reminder line appears on every owner message in a coordinating thread on Claude Code and on Codex, appears again after a compaction, and does not appear in an agent launched by `ki agent`.
 
 ## Current state
 
+- Awaiting review since 2026-10-20, narrowed to what was delivered under Kris's "prepare the five" (SWEEP-ACCEPT-WAYS-OF-WORKING a), 20 October). The review packet below carries the current evidence; the bullets that follow are the delivery history as of 14 October, read with `ki-pmo` as `ki-coordination` and `ki-checkpoint` as `ki-work-package`.
 - Delivery granted on 2026-10-14, Kris: "PILOT-GRANT - granted". In progress from island baseline `984d9509`. The harness delivery is [KI-HARNESS-GOV-185](https://github.com/knowledgeislands/ki-agentic-harness/blob/2057cc9694be6e0e278c826a3f234e7e3d850238/docs/roadmap/KI-HARNESS-GOV-185-ki-pmo-extraction.md) on harness `main` from baseline `6d3e2f34`: the ledger advance and record, a `ki-skills` fix so a hyphenated mode name such as `full-summary` is read whole, the `ki-pmo` extraction commit, a fix giving each mechanical `ki-pmo` rubric item its own outcomes, and the declaration commit with the regenerated catalogue, `ki-delegation` rubric and diagram manifest stamp.
 - Harness gates on the committed `main`: `bun run test`, `bunx tsc --noEmit`, the skill-graph check, the hook tests and the `ki-skills`, `ki-delegation`, `ki-checkpoint`, `ki-pmo`, `ki-repo`, `ki-repo-harness`, `ki-diagrams` and `ki-work-roadmap` audits pass; the only warnings are two pre-existing `ki-skills` refresh-cadence warnings on other skills' sources. The search for `under ki-delegation`, `ki-delegation read at` and the moved anchors finds nothing outside `ki-pmo` and the harness record.
 - This island declares `[skills.ki-delegation]` and `[skills.ki-pmo]` after `[skills.ki-checkpoint]`, because the `ki-pmo` audit refuses a declaration whose dependency is undeclared, and `.claude/settings.json` selects `ki-coordinator`.
@@ -83,16 +87,15 @@ Each repository delivers its steps under its own authority; the harness and chez
 
 ### chezmoi source
 
-- [ ] Deploy the harness's output-style file to `~/.claude/output-styles/` as a managed file sourced from the primary harness checkout, the way `.chezmoidata/coordinator-hook.yaml` points at the hook script, so that a repository-level `outputStyle` can resolve it; keep `.chezmoidata/claude.yaml` at `Concise`. No change to the hook registration: the command path and the Codex trust hashes cover the handler entry, not the script.
-- [ ] Review `chezmoi diff`, apply only the new file, run `node --test`, commit and push fast-forward.
+- [x] Deploy the harness's output-style file to `~/.claude/output-styles/` as a managed file sourced from the primary harness checkout, the way `.chezmoidata/coordinator-hook.yaml` points at the hook script, so that a repository-level `outputStyle` can resolve it; keep `.chezmoidata/claude.yaml` at `Concise`. No change to the hook registration: the command path and the Codex trust hashes cover the handler entry, not the script.
+- [x] Review `chezmoi diff`, apply only the new file, run `node --test`, commit and push fast-forward. Landed as chezmoi `319f6ae` on 2026-10-14, a symlink from `~/.claude/output-styles/ki-coordinator.md` to the primary harness checkout's file, with `tests/claude-output-styles.test.mjs`; `7ac9047` later added a warning when the link is dead.
 
 ### ki-principal
 
 - [x] Declare `[skills.ki-pmo]` in `.ki.toml` once the harness has pushed the skill, and set `"outputStyle"` to the shipped style's name in the tracked `.claude/settings.json`.
-- [ ] Run `ki repo audit --skill ki-pmo --repo .` and `ki repo audit --skill ki-checkpoint --repo .`; both pass.
-- [ ] Run acceptance test 1 on the master thread and the `ways-of-working` Project thread with `~/.local/state/ki/agents/ways-of-working` renamed aside for the test and restored afterwards, in a fresh session on each runtime, and a generic checkpoint audit in a repository that does not declare `ki-pmo`.
-- [ ] After Kris's Headroom restart, run acceptance tests 2 and 3 from the `ways-of-working` Project thread on Claude Code and on Codex: three owner messages while an agent runs, one after a compaction, and the hook line checked verbatim in each transcript; each coordinating checkpoint replaces its `ki-delegation read at` line with `ki-pmo read at` at its next update.
-- [ ] Score the tests from the transcripts, record the outcome and the lessons for the waves under Discussion, and hand this record to Kris for `ki-accept`.
+- [x] Run the island audits, now `ki repo audit --skill ki-coordination --repo .` and `ki repo audit --skill ki-work-package --repo .`, since `ki-pmo` became `ki-coordination` and `ki-checkpoint` became `ki-work-package`; neither passes, on findings in other works' folders and reports, as Verification records, which each work fixes in its own package.
+- [x] Run acceptance test 1 on the master thread and the `ways-of-working` Project thread with `~/.local/state/ki/agents/ways-of-working` moved aside for the test and restored afterwards, in a fresh Claude Code session, and a generic checkpoint audit in a repository that does not declare `ki-pmo`. The Codex run is narrowed out.
+- [x] Score the test from the transcript, record the outcome and the lessons for the waves under Discussion, and hand this record to Kris for `ki-accept`.
 
 ## Files touched
 
@@ -164,7 +167,55 @@ The harness `hooks/README.md` describes the new signal and owner. The chezmoi Cl
 
 Waves A to F are captured as records only after the pilot's lessons are written here, under Kris's standing focus of 2026-10-14: "Create no new feature records and do not widen scope". The harness and the website each capture their own delivery record for the handoffs above; `tools-rig` captures the `rig doctor` check when it takes it.
 
+## Review
+
+### Delivered
+
+The pilot as narrowed under Boundary, from island baseline `984d9509` and harness baseline `6d3e2f34`: the coordinating-thread standard extracted from `ki-delegation` into its own skill, `ki-pmo`, with the four off-ramps, the reminder hook owned by it and signalled by its declaration, the `ki-coordinator` output style, the two refined Decision Records and the regenerated diagrams; the chezmoi link that deploys the style; the island's declaration and style selection; and acceptance test 1 on Claude Code, scored under Discussion. Excluded by the narrowing: acceptance test 1 on Codex and acceptance tests 2 and 3. The skill has since been renamed `ki-coordination` (harness `c4cbb5aa`, 18 October) and rewritten under the work model, so the evidence below is read against the current names.
+
+### Change Summary
+
+- Harness: the extraction under [KI-HARNESS-GOV-185 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/2057cc9694be6e0e278c826a3f234e7e3d850238/docs/roadmap/KI-HARNESS-GOV-185-ki-pmo-extraction.md), from `e84f7e39` on 2026-10-14, adding `skills/change-management/ki-pmo/`, `hooks/coordinator-reminder.sh` re-owned with its test, and `output-styles/ki-coordinator.md`; the rename to `skills/change-management/ki-coordination/` in `c4cbb5aa`. Both are on the harness remote.
+- chezmoi: `dot_claude/output-styles/symlink_ki-coordinator.md.tmpl` and `tests/claude-output-styles.test.mjs` in `319f6ae` (2026-10-14), with the dead-link warning in `7ac9047`; both pushed, and `~/.claude/output-styles/ki-coordinator.md` resolves to the primary harness checkout.
+- ki-principal: `.ki.toml` declares `[skills.ki-delegation]` and `[skills.ki-coordination]`, and `.claude/settings.json` selects `"outputStyle": "ki-coordinator"`.
+- This record: narrowed on 2026-10-20 under Kris's "prepare the five"; the unticked island steps were rewritten to what ran, and the withdrawn parts are listed under Discussion, Narrowing.
+
+### Verification
+
+Re-checked on 2026-10-20 from the primary checkouts, with the installed `ki` 0.12.0:
+
+- `skills/change-management/ki-coordination/`, `hooks/coordinator-reminder.sh` with `hooks/coordinator-reminder.test.ts`, and `output-styles/ki-coordinator.md` exist on harness `main`; no `ki-pmo` skill folder remains.
+- A launched session in this island reports the `ki-coordinator` output style active, which confirms the project-level selection resolves.
+- `ki repo audit --skill ki-repo-kb-streams --repo .` and `--skill ki-work-roadmap` pass.
+- `ki repo audit --skill ki-coordination --repo .` and `--skill ki-work-package --repo .` fail, almost wholly on other works' packages and reports: COORD-7 unlinked record identifiers in `ki.baseline-rollout`'s reports, and RECORD-2 and STRUCTURE-1 shape findings in nine other work folders. `ki.ways-of-working`'s own findings were the FOLDER-1 stray file and the empty `messages.md`, both cleared in this run's commit, and two query-shape findings in its `queries.md`, which the coordinator owns.
+- Acceptance test 1 on Claude Code: pass on all four criteria, recorded under Discussion with its evidence.
+
+### Outstanding concerns
+
+- Acceptance test 1 on Codex and acceptance tests 2 and 3 never ran in the pilot's form. They are withdrawn, not deferred: the work model replaced the checkpoint, the thread and the opener they test, and the responsive coordinator is now the standing `ki-coordination` contract, exercised in every coordinating session.
+- Launched agents still see the coordinator style; the background-agent style is [KI-TOOL-KI-CLI-145](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-145-thread-session-bindings-role.md)'s, under ROLE-STYLE.
+- The reminder line after `/compact` was an unseparated observation; the hook's role gate and identity line are routed to this work as IDENTITY-PHASE3 in `+/_WORK/ki.ways-of-working/messages.md`.
+- The `rig doctor` check that a machine declaring a Capital has the reminder registered is routed to `ki.tools-burndown` as RIG-REMINDER-DOCTOR; the KI Website's vendored skill catalogue, which predates `ki-coordination`, is routed to State of play as WEBSITE-SKILL-SYNC.
+- The failing island audits are other works' packages to fix in their own updates; none is this record's.
+
+### Post-change review
+
+The goal, a coordinating thread's rules in their own skill, enforced by a hook, a turn budget and an output style, is met and has since been carried forward into `ki-coordination` and the work model. The narrowing removes only tests whose subject no longer exists in that form. Regression risk from closing is nil: closing changes no code, and the delivered surfaces are live and in daily use. Ready for acceptance on the narrowed boundary; the failing island audits are recorded rather than owned here.
+
+### Mini recap
+
+The `ki-pmo` pilot delivered the coordinating-work skill, now `ki-coordination`, with its hook, style and chezmoi link, and passed acceptance test 1 on Claude Code; the remaining tests were overtaken by the work model and withdrawn. Leftovers go as three message lines, and one is already a record. Learning route: a pilot whose design is overtaken should be narrowed and closed at once, not left in progress for a week.
+
 ## Discussion
+
+### Narrowing
+
+Kris answered SWEEP-ACCEPT-WAYS-OF-WORKING on 2026-10-20 with "prepare the five", on the [roadmap sweep](../../+/_WORK/ki.ways-of-working/design/roadmap-sweep.md)'s proposal to close this record as done, narrowed to what was delivered. The parts taken out, and where each went:
+
+- Acceptance test 1 on Codex, and acceptance tests 2 and 3 on both runtimes, with the Headroom restart they waited for: withdrawn. They test the checkpoint-and-thread form that [GDR-KI-PRINCIPAL-009](../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md) replaced.
+- Each coordinating checkpoint's `ki-pmo read at` line: superseded by `state.md`'s `method_read` under `ki-work-package`.
+- The follow-ons under Dependencies / blocks: the `rig doctor` check as RIG-REMINDER-DOCTOR to `ki.tools-burndown`, and the KI Website's skill pages as WEBSITE-SKILL-SYNC to State of play, both `messages.md` lines under CAPTURE-GATE.
+- Waves A to F: never captured, and the work model overtook their design; the lessons below stand as written.
 
 ### Why one record and why here
 
