@@ -1,7 +1,0 @@
-# Independent acceptance review: the Ways of working bundle
-
-Nobody else is working tonight. Kris, 20 October, granted overnight acceptance: "if you can quickly now accept ... accepting new things that are waiting with you and pruning those ... Same for ... the ways of working". You are the independent reviewer; you did not deliver this work. Authority: this run is launched under the `prune` tier, and accepting a passing record under `ki-accept` with that grant quoted is authorised for exactly the records named here, as read back in the ways-of-working decisions log on 20 October; this overrides the footer's ban on accepting.
-
-Records, prepared by wow-prepare (report `/Users/krisbrown/.local/state/ki/agents/ways-of-working/wow-prepare.report.md`): KI-PRINCIPAL-ECO-013 (ki-principal `Streams/Roadmap/`) and KI-HARNESS-GOV-199 (ki-agentic-harness), if each is at awaiting review. Leave KI-PRINCIPAL-OPS-014 (Kris's render checks).
-
-Check each packet against `ki-accept` and `ki-work-roadmap` and its Verify and acceptance checks against the files, running the gates yourself; where a check needs Kris's own eyes, an attended action or publication, leave it awaiting review with a note. Pass: accept; do not prune (other sessions' commits sit below). Fail: back to in progress with findings. Harness edits in a worktree only, fast-forwarding local `main`. Commit by explicit path, local only. ki-principal's pre-commit runs rumdl. Never `--no-verify` or force-push. CAPTURE-GATE, HOOK-GUARD. British English, ASCII hyphens. Report per record: verdict, reason, commits.
