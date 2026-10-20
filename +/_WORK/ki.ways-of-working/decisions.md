@@ -752,3 +752,7 @@ KI-TOOL-KI-CLI-165 accepted (tools-ki `fde00e97`, pushed; tools-ki now level wit
 - ki-design: five open, none workable without Kris, another repository or an attended check; queries MAP-002 timing and a sizes tidy, and stale-record dispositions in its report, all for the morning. Six earlier commits unpushed (three this programme's, three another session's).
 - homebrew-tap: zero open. BREW-PUSH is another session's hooks commit `0ce3691`; shown as unpushed, not a query.
 - wow-prepare queued: prepares the Ways of working bundle under "prepare the five", deletes `design/migration-plan/applied-map.tsv` (FOLDER-CLOSED) and graduates `design/worktree-flow.md`.
+
+## 2026-10-20 07:37 BST - received burn-ki-specifications
+
+KI-SPEC-RGV-004 (Archify status-flow diagrams) to awaiting review (`42c9ed6`, local behind another session's hooks commit `4437b58`); ki-specifications' only open record. Its push query is PUSH-NOT-WITH-YOU, not a query. Its sign-off query goes to accept-specifications (Codex). SPEC-SKETCH (correct the sketch's `Accepted -> Superseded`, medium) waits for the morning blind review batch.
