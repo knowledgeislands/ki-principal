@@ -1,8 +1,8 @@
 ---
 id: ki.ways-of-working
-state: handoff-to-supervisor
-since: 2026-10-20T08:27:00Z
-received: 2026-10-19T16:57:00Z
+state: with-worker
+since: 2026-10-20T21:03:00Z
+received: 2026-10-20T21:03:00Z
 beat: null
 mark: 2026-10-20T08:27:00Z
 method_read: eff6163b
@@ -12,6 +12,7 @@ method_read: eff6163b
 
 ## Now
 
+- 22:03 BST: Kris asked for everything doable without him to bring the roadmaps down (self-serve burndown); four runs launched. ki.chezmoi cleared its AUDIT-FINDINGS share (message disposed).
 - Mark struck at 05:20 BST: Kris answered everything (all recommended) and set OVERNIGHT-BURNDOWN, tools, MCPs, apps, others, then harness to zero, each delivery blind-reviewed, accepted and pruned. Other threads paused.
 - KI-PRINCIPAL-ECO-013 failed acceptance on ki-principal's authoring, coordination and work-package audits; wow-audit-fix clears ours and routes the rest; then ECO-013 is re-reviewed.
 - harness-tidy removes the finished harness `run/harness-fix` worktree once its branch is confirmed merged.

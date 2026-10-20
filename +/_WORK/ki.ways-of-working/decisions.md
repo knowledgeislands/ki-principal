@@ -70,3 +70,9 @@ Kris, 20 October, granting overnight acceptance: "if you can quickly now accept 
 ## 2026-10-20 09:27 BST - send to owner
 
 The overnight burndown is drained, and the mark is struck at 09:27 BST. Nineteen queries go to Kris; the six medium or low ones were blind-reviewed by Codex. Other sessions' commits keep ki-principal, the harness, specifications, Observatory and others unpushed, and the pending prunes wait on those pushes.
+
+## 2026-10-20 22:03 BST - self-serve burndown
+
+Kris: "Is there anything more that you can do by yourself without me? To try and get that vote back down before I re-open lots of other threads? ... roadmap down"
+
+Taken as: "vote" read as "load". Carry the overnight burndown on with only what needs nothing from Kris: independently reviewed acceptances of records already awaiting review (KI-HARNESS-GOV-219, KI-HARNESS-GOV-224) under the 20 October acceptance grant, the ECO-013 audit recheck, this work's design-note graduation, and a read-only sweep of every remaining roadmap for records workable without Kris, delivered on its findings. The 19 queries stay with Kris; other sessions' stacked commits stay unpushed.
