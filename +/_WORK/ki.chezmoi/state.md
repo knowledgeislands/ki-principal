@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
-state: with-worker
-since: 2026-10-20T22:12:00Z
+state: handoff-to-supervisor
+since: 2026-10-20T22:19:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-20T04:09:00Z
@@ -13,8 +13,8 @@ method_read: 071567a1
 ## Now
 
 - VS Code workspaces rebuilt with `ki`, committed and applied on sol (Decision 184); the trust change also feeds the Claude Desktop config and `~/bin/rig-bringup-check`, now applied.
-- drift-apply applied all eight drifted targets on sol (Decision 185); `chezmoi status` clean, `rig doctor` 4 before and after (attended only). Claude Desktop keeps 102 undeclared trust grants (88 for paths that no longer exist): TRUST in blind review (run trust-blind).
-- With Kris: ROADMAP-BATCH, RIG-SITE, SPARK-REMOVE, HARNESS-CI-TSC and HOOKS-FOLLOWUPS (see `queries.md`).
+- drift-apply applied all eight drifted targets on sol (Decision 185); `chezmoi status` clean, `rig doctor` 4 before and after (attended only). Claude Desktop keeps 102 undeclared trust grants (88 for paths that no longer exist): TRUST reviewed (trust-blind), with Kris.
+- With Kris: TRUST, ROADMAP-BATCH, RIG-SITE, SPARK-REMOVE, HARNESS-CI-TSC and HOOKS-FOLLOWUPS (see `queries.md`).
 - Hook rollout: stages 1 and 3 delivered; stage 2 reached every repository except the tools shape, which waits on HOOKS-FOLLOWUPS. KI-TOOL-KI-CLI-165 passed re-review and is Awaiting review; run `ki repo conform` only with `--dry-run` until Kris accepts it.
 - Awaiting Kris's acceptance: KB-DOTFILES-UE-077, KB-DOTFILES-UE-093, KB-DOTFILES-UE-098, KB-DOTFILES-UE-090, KB-DOTFILES-UE-100, KI-TOOL-KI-CLI-165; the last three chezmoi records need attended steps on terra and sol first.
 - Unpushed on sol: chezmoi and the repositories the hook rollout touched; pushing is Kris's call.
