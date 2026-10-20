@@ -10,6 +10,7 @@ method_read: 84b61942
 
 # ki.observatory state
 
+- 01:23 BST received obs-smoke-baseline: the dimming and Mermaid smoke failures predate KI-OBSERVA-VIS-041 (same at 04a2ebb, with full Chromium too); the Git viewer flow passes; no fix. SMOKE-RED a) high, acted on: obs-smoke-record queued after obs-vis041-unpushed to capture a triage record; accepting VIS-041 stays with Kris.
 - 01:20 BST received obs-app044-fix (KI-OBSERVA-APP-044 corrected against the code, 4d967aa, local) and obs-review-5: TEN-COMMITS stays medium, review prefers c) shortening to commits older than the earlier five, since the ten are the only history shown when nothing is unpushed. Its correctness finding (unpushed split by ahead count, not reachability) is high and non-destructive: obs-vis041-unpushed queued after obs-smoke-baseline.
 - 01:18 BST received obs-vis041-build: KI-OBSERVA-VIS-041 read-parity phase Awaiting review (fb456ef..d27363a, local), eleven checks met live or in tests, service restarted. SMOKE-BASELINE a) high, acted on: obs-smoke-baseline queued after obs-app044-fix. TEN-COMMITS medium: blind review obs-review-5.
 - 00:45 BST received obs-vis041-plan: KI-OBSERVA-VIS-041 Ready with an eleven-item read-parity checklist pinned to the artifact at personal-principal f161cc8b, Beacon severities and 90-day staleness kept (high), writes, launchers and the Claude suggestion as later gated phases; KI-OBSERVA-VIS-038 tool-storage phase now waits on KI-HARNESS-GOV-227 (04a2ebb, local). obs-vis041-build started.

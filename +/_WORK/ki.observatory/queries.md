@@ -4,7 +4,7 @@
 
 ### ACCEPT - accept the built records
 
-Awaiting review, for the morning: KI-OBSERVA-VIS-043, BRG-006, APP-045, VIS-044; KI-WEBSITE-SITE-044; KI-DESIGN-TOK-001, MAP-001, OBS-015, ICO-001, SYM-001, TIL-001 (new glyphs on packages/icons/contact-sheet.png). KI-OBSERVA-VIS-041 (Git view read parity) joins it. Acceptance is Kris's.
+Awaiting review, for the morning: KI-OBSERVA-VIS-043, BRG-006, APP-045, VIS-044; KI-WEBSITE-SITE-044; KI-DESIGN-TOK-001, MAP-001, OBS-015, ICO-001, SYM-001, TIL-001 (new glyphs on packages/icons/contact-sheet.png). KI-OBSERVA-VIS-041 (Git view read parity) joins it. Its smoke check is red for reasons that predate it (dimming, Mermaid); the Git viewer flow passes and a separate triage record carries the rest. Acceptance is Kris's.
 
 ### RESTRUCTURE - how KI-OBSERVA-APP-044 decides the restructure
 
