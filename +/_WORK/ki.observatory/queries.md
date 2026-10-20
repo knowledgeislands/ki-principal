@@ -4,7 +4,7 @@
 
 ### ACCEPT - accept the built records
 
-Awaiting review, for the morning: KI-OBSERVA-VIS-043, BRG-006, APP-045, VIS-044; KI-WEBSITE-SITE-044; KI-DESIGN-TOK-001, MAP-001, OBS-015, ICO-001, SYM-001, TIL-001 (new glyphs on packages/icons/contact-sheet.png). KI-OBSERVA-VIS-041 (Git view read parity) joins it. Its smoke check is red for reasons that predate it (dimming, Mermaid); the Git viewer flow passes and a separate triage record carries the rest. Acceptance is Kris's.
+Awaiting review, for the morning: KI-OBSERVA-VIS-043, BRG-006, APP-045, VIS-044; KI-WEBSITE-SITE-044; KI-DESIGN-TOK-001, MAP-001, OBS-015, ICO-001, SYM-001, TIL-001 (new glyphs on packages/icons/contact-sheet.png). KI-OBSERVA-VIS-041 (Git view read parity) joins it. KI-OBSERVA-APP-046 (browser smoke check green again) joins it too, and with it VIS-041 meets its Verify.
 
 ### RESTRUCTURE - how KI-OBSERVA-APP-044 decides the restructure
 
@@ -13,6 +13,10 @@ From obs-app044-plan at 00:35 BST, medium. obs-review-4 (Codex, high) agreed on 
 ### TEN-COMMITS - keep the Git view detail panel's ten-commit list
 
 From obs-vis041-build at 01:15 BST, medium: it now overlaps the new unpushed and earlier lists; recommended drop it in a follow-up after acceptance. obs-review-5 (Codex, high) disagreed: c) shorten it to commits older than the earlier five, keeping all ten when nothing is unpushed, because then the ten are the only history shown. Stays medium, both views to Kris.
+
+### MERMAID-HANDLER - strip hostile Mermaid handlers before the frame policy refuses them
+
+From obs-build-app046 at 01:35 BST, medium: recommended accept as is, as a review note. In blind review (obs-review-6).
 
 ## Parked
 

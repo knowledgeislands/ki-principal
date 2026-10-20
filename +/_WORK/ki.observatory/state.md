@@ -10,6 +10,7 @@ method_read: 84b61942
 
 # ki.observatory state
 
+- 01:37 BST received obs-build-app046: KI-OBSERVA-APP-046 built and Awaiting review (7ccad45, bb6ab2b, 0d58592, local); smoke check passes twice with full Chromium; KI-OBSERVA-VIS-041 Verify now met. MERMAID-HANDLER medium: blind review obs-review-6.
 - 01:29 BST received obs-smoke-record: KI-OBSERVA-APP-046 captured (714e76a, 5209851, local); the failures are the check lagging the product (fixed fixture date vs staleness since 90b8b4f, four views missing reads, the feedback draft read since ffb5e50). Acted on as high and non-destructive: obs-build-app046 plans and builds the check fix.
 - 01:25 BST received obs-vis041-unpushed: the merge case was real; unpushed commits now selected by reachability with a regression test (86f2a13, local), record stays Awaiting review. Lesson: apps-observatory.local AGENTS.md says a detached run never restarts the service; future briefs leave restarts to the coordinator or Kris rather than the run.
 - 01:23 BST received obs-smoke-baseline: the dimming and Mermaid smoke failures predate KI-OBSERVA-VIS-041 (same at 04a2ebb, with full Chromium too); the Git viewer flow passes; no fix. SMOKE-RED a) high, acted on: obs-smoke-record queued after obs-vis041-unpushed to capture a triage record; accepting VIS-041 stays with Kris.
