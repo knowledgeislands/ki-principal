@@ -2,6 +2,7 @@
 
 ## Open
 
+- TRUST-RETURNED (trust-revoke, high; continuation of Decision 186, so no new blind review): Claude Desktop rewrote its config from memory, restoring the 102 and dropping nine declared; with Kris 23:44.
 - Not raised: CORE-SET-COMMENTS (stays in the worksheet); FIREWALL-EXPOSURE (transient, re-check 05:18 showed only `anchor-changed`); RAT-UNCONFIRMED, RAT-READING (superseded by Decisions 179 and 181).
 
 ## Parked
