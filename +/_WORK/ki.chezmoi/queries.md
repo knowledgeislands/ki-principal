@@ -286,6 +286,22 @@ a) (recommended, confidence high - reviewed; it completes the retired-account cl
 
 b) No: leave it outside this record.
 
+### [VEGA-XDG - Route vega's XDG variables through the harness](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-084-render-zshenv-on-vega.md)
+
+**Context:** KB-DOTFILES-UE-084 planned to add `.zshenv` to vega's Cheztoi manifest, but both `scripts/cheztoi-render` and the agent-host harness reserve that file, because the harness owns it on vega (chezmoi `8d235fe`). The harness's `env.sh`, sourced by every vega shell and Git hook, sets no XDG variables.
+
+**Query:** Which route should the XDG variables take on vega?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed; the harness already owns vega's shared shell environment) The agent-host Project adds four unset-only XDG defaults to the harness's `env.sh` in ki-techne-harness, and you approve cancelling KB-DOTFILES-UE-084 with that resolution.
+
+b) The harness's `env.sh` sources `~/.zsh/00_xdg_base_dirs` when the Cheztoi payload provides it; cancel the same way.
+
+c) Release `.zshenv` from both reserved lists so the payload can own it.
+
+d) Cancel with no change.
+
 ## Parked
 
 None.
