@@ -828,3 +828,7 @@ Codex blind review (`ebce71aa`): it agrees on GRANT-INTERIM, RIG-053-SHAPE, PLAN
 ## 2026-10-20 09:06 BST - received accept-harness-170
 
 KI-HARNESS-GOV-170 failed independent review (`b2f9c35f`, back to in progress): `ki-accept`'s acceptance model (`acceptance-cycle.ts`) still rejects an approved cross-repository replacement without a target and accepts a foreign target, and fixtures preserve both, so the 1,372 tests miss it. harness-rework-170 fixes it with regression tests, and accept2-harness-170 (Codex) re-reviews.
+
+## 2026-10-20 09:11 BST - harness-queries-review died
+
+The Codex run stopped at 09:02 with "Selected model is at capacity", before changing anything. It was re-queued once on Codex as harness-queries-review2, from the same brief.
