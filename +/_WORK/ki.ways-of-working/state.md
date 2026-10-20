@@ -30,10 +30,10 @@ method_read: eff6163b
 5. ADOPTION once Kris restarts the threads; watch the REFRESH pickup by the five works outside Kris's focus.
 6. KI-PRINCIPAL-OPS-014 awaits Kris's render checks; GFM-CAPITALS follows the GFM answers.
 7. With ki.tools-burndown: the patch release with KI-TOOL-KI-CLI-155 and the harness pin, then this work moves `.github/ki-version`; HOOKS-STANDARD; `ki work status` reading both shapes; VALIDATOR-PARITY and KI-TOOL-KI-CLI-156; mgit's hands-on acceptance and single release (MGIT-RELEASE a)).
-8. Confirm harness CI `build` after the hooks README alignment and the pinned v0.11.3 run.
+8. Harness CI is green on origin/main (wow-ci-check, 22:15 BST); wow-ci-timeout caps the intermittent six-hour Test hang.
 9. With ki.chezmoi (RIG-LIVE): KB-DOTFILES-UE-091 without ChatGPT and the firewall declaration; Kris's attended Rig applies; acceptance of KI-TOOL-RIG-CORE-042 and -047.
 10. Not this work's: pre-existing CI red in apps-observatory.local, mcp-m365, tools-mgit and ki-techne-harness; acquire-intake's ACQUIRE-DECISIONS-LINKS.
-11. Graduate the seven `design/` files design-triage marked (design.md, the work-model pair, work-package.md, the three bring-up files), then delete the two thread-model notes once Kris's words are homed.
+11. design/: thread-model notes deleted (22:15 BST); work-package.md goes in wow-workpackage-graduate; the three bring-up files go once BRING-UP-LEFTOVER replies arrive from ki.observatory and ki.tools-burndown; the rest stay live.
 12. To State of play: the ki-principal MOD ledger sits at 9 though KI-PRINCIPAL-MOD-010 was issued.
 13. KI-HARNESS-GOV-219 and KI-HARNESS-GOV-224 sit at awaiting review since lane-triage; bring them to acceptance.
 
