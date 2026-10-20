@@ -2,10 +2,8 @@
 
 ## Open
 
-Batch 1 of 2 (hooks first, Decision 162; cap eight). Raised 03:27 BST.
-
-- AUDIT-LINT (high), EMPTY-EXIT, HARNESS-LINES, MSG-UNIFY, STRICTNESS (high after model-blind), CHEZMOI-HOOK (merges CHEZMOI-HOOK and CHEZMOI-TESTS; medium, both reviews agree), OUT-OF-SCOPE (high after hooks-blind), MAIN-PUSH (high, publication).
-- hooks-survey's SHELL-HOOK, FRAME-EMPTY and GOV-GAPS are superseded by the hooks model; DESIGN-MIGRATE was done under Decision 162.
+- MSG-UNIFY: Kris asked why `ki git check-message` exists when Commitlint is a well-defined standard (03:47 BST). Answered; re-raised with b) recommended, high.
+- STRICTNESS: provisional a) (Decision 167); the conform concern goes to run hooks-model2, which comes back with a query.
 
 ## Held
 

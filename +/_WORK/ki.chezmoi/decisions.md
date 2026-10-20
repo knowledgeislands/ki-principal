@@ -239,3 +239,31 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 163 (2026-10-20T02:16:00Z)
 
 - Pointer: Kris (03:16 BST): "We don't need to assess if Husky was the right call or not. I'm happy that it was now. We just need to focus on how we get them all aligned and how we roll this out." Committed `.githooks` is settled; hooks-model drops its mechanism assessment and covers alignment and rollout only (sent to the run's inbox).
+
+## Decision 164 (2026-10-20T02:47:00Z)
+
+- Pointer: Kris (03:47 BST, spoken; "Audit Lynn" read as AUDIT-LINT, "shame wire" as chezmoi). AUDIT-LINT a): "Yes, I agree with the recommendation." One focused `--staged` shape audit per hook, never the full audit.
+
+## Decision 165 (2026-10-20T02:47:00Z)
+
+- Pointer: Kris (03:47 BST, spoken; "Audit Lynn" read as AUDIT-LINT, "shame wire" as chezmoi). EMPTY-EXIT a): "I agree with the recommendation for empty exit." The early exit sits before the missing-tool refusal; HOOK-4 amended.
+
+## Decision 166 (2026-10-20T02:47:00Z)
+
+- Pointer: Kris (03:47 BST, spoken; "Audit Lynn" read as AUDIT-LINT, "shame wire" as chezmoi). HARNESS-LINES a): "should move to a manual gate and CI. Again, it's not a hook thing." The harness `tsc`, `ki-skills` audit and diagram-receipt check leave the hook.
+
+## Decision 167 (2026-10-20T02:47:00Z)
+
+- Pointer: Kris (03:47 BST, spoken; "Audit Lynn" read as AUDIT-LINT, "shame wire" as chezmoi). STRICTNESS a) for now: "it just needs to contain the recipe's required lines and a check for things that shouldn't be in there, and we can expand on that", with a stated concern that this does not support mechanical conform, and a possible extension point inside the hook. Read back as: provisional; the hooks model is revised to show how conform writes each shape's hook mechanically, and comes back to Kris.
+
+## Decision 168 (2026-10-20T02:47:00Z)
+
+- Pointer: Kris (03:47 BST, spoken; "Audit Lynn" read as AUDIT-LINT, "shame wire" as chezmoi). CHEZMOI-HOOK, none of the options: "it should be nothing for a dot files repo." The dotfiles shape has no hook; tooling does not stand in the way of a dotfiles repo applying itself. Read back as: chezmoi gets no `.githooks`, `ki-repo-dotfiles-chezmoi` GIT-2 is changed to require none, and the manual gate in AGENTS.md stays.
+
+## Decision 169 (2026-10-20T02:47:00Z)
+
+- Pointer: Kris (03:47 BST, spoken; "Audit Lynn" read as AUDIT-LINT, "shame wire" as chezmoi). OUT-OF-SCOPE a), as a standing rule: "If a repository does not have a .ki.toml file, it's outside of our standards, and therefore we leave it out. That's always the case."
+
+## Decision 170 (2026-10-20T02:47:00Z)
+
+- Pointer: Kris (03:47 BST, spoken; "Audit Lynn" read as AUDIT-LINT, "shame wire" as chezmoi). MAIN-PUSH: "I will do a push now." Kris pushes the three mains himself; no push rule given.
