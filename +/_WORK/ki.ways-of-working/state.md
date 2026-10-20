@@ -24,7 +24,7 @@ method_read: eff6163b
 - ECO-013-REREVIEW: re-queue KI-PRINCIPAL-ECO-013's acceptance once ki-principal's authoring, coordination and work-package audits pass (other works' AUDIT-FINDINGS lines routed 08:13).
 
 1. IDENTITY-PHASE3 (from KI-HARNESS-GOV-199's narrowing): the shared `SessionStart` hook's identity and level-gated coordinator lines, beside KI-TOOL-KI-CLI-145, once its binding file and KB-DOTFILES-UE-096's matchers land.
-2. PRUNE-LINKS-REST: once Kris has pushed ki-principal, ki-agentic-harness, apps-observatory.local and ki-specifications, a second prune-links pass prunes KI-HARNESS-GOV-170, -199, -200, -205, -214, -215, -216, -220, -221, -222, -223 and -226, KI-OBSERVA-OPS-003 and -VIS-027, KI-SPEC-RGV-004 and KI-TOOL-KI-CLI-159 (its links are in ki-principal), repairing live links to pinned revisions first.
+2. PRUNE-LINKS-REST done 22:40 BST: 17 records pruned and 63 links pinned; harness, tools-ki, Observatory and specifications pushed level. ki-principal e666ab05 waits behind ki.chezmoi's stacked commits.
 3. GRANT-INTERIM: once a `ki` release carrying `--allow` (KI-TOOL-KI-CLI-134) is installed, remove the interim sentence in `ki-delegation`'s Grants subsection.
 4. UPDATE-SHAPE (was KI-HARNESS-GOV-216) at the 21 October report-shape review: timed updates say done, left on the plan and outstanding; open on three lines or one, and whether the heartbeat step folds in.
 5. ADOPTION once Kris restarts the threads; watch the REFRESH pickup by the five works outside Kris's focus.
