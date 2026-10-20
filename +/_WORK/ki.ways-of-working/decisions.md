@@ -789,3 +789,11 @@ STYLE-STALE landed (`dacdcc33`, local): re-anchoring now re-reads `output-styles
 - KI-HARNESS-GOV-199 accepted on its narrowed Phase 1 boundary (`727af90e`, local); IDENTITY-PHASE3 stays in Next steps.
 - KI-PRINCIPAL-ECO-013 failed (`0c8f4a32`, back to in progress): ki-principal's authoring, coordination and work-package audits fail, partly in this package (untracked reports, MD-mech, the 04:22 mark in prose). wow-audit-fix clears ours and routes the rest to the owning works' `messages.md`; ECO-013's re-review follows once the audits pass.
 - HARNESS-FIX-WORKTREE: harness-tidy queued (merged-only removal, `branch -d`).
+
+## 2026-10-20 08:13 BST - received harness-tidy and wow-audit-fix
+
+- harness-tidy: the merged `run/harness-fix` worktree and branch removed (no force); HARNESS-FIX-WORKTREE done.
+- wow-audit-fix: 124 received reports pruned against byte-identical originals in the agent state directory; package fixed (`48746dcf`); AUDIT-FINDINGS lines routed to 12 other works and State of play (`862751d2`, `302a3279`). This work's own audit failures are cleared.
+- WORKTREE-FLOW-REPORT: the coordinator's own pruning call, not Kris's; the report's outcome is in Git (graduated `design/worktree-flow.md`, `df1bc94a`) and its original stays in the state directory, so it is deleted.
+- Decisions-log length (LIFECYCLE-3, warning): struck at the morning send's mark.
+- KI-PRINCIPAL-ECO-013's re-review waits until the routed works clear ki-principal's remaining audit failures.

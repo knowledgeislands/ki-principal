@@ -20,6 +20,8 @@ method_read: eff6163b
 
 ## Next steps
 
+- ECO-013-REREVIEW: re-queue KI-PRINCIPAL-ECO-013's acceptance once ki-principal's authoring, coordination and work-package audits pass (other works' AUDIT-FINDINGS lines routed 08:13).
+
 1. IDENTITY-PHASE3 (from KI-HARNESS-GOV-199's narrowing): the shared `SessionStart` hook's identity and level-gated coordinator lines, beside KI-TOOL-KI-CLI-145, once its binding file and KB-DOTFILES-UE-096's matchers land.
 2. PRUNE-LINKS-REST: once Kris has pushed ki-agentic-harness, apps-observatory.local and ki-specifications, a second prune-links pass prunes KI-HARNESS-GOV-216, -222 and -226, KI-OBSERVA-OPS-003 and -VIS-027, KI-SPEC-RGV-004 and the harness records accepted overnight.
 3. GRANT-INTERIM: once a `ki` release carrying `--allow` (KI-TOOL-KI-CLI-134) is installed, remove the interim sentence in `ki-delegation`'s Grants subsection.
