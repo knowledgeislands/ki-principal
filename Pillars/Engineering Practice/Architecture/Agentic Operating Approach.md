@@ -8,7 +8,7 @@ author: AI-assisted
 
 ## Purpose
 
-Agentic work sits within a wider governed-work model. The personal controller may handle work mechanically, invoke bounded agentic reasoning or combine both. [[Governed Work Controller]] defines these paths and the shared operation, session and execution boundaries beneath them.
+Agentic work sits within a wider governed-work model. The personal controller may handle work mechanically, invoke bounded agentic reasoning or combine both. [Governed Work Controller](<Governed Work Controller.md>) defines these paths and the shared operation, session and execution boundaries beneath them.
 
 Techne is an operating architecture for governed work with agentic capability. It brings personal AI assistance, specialised agents, deterministic engineering tools and governed knowledge into one coherent practice without making any particular model, runtime, interface or infrastructure provider part of the architecture.
 
@@ -34,7 +34,7 @@ The controller first routes the request. Recognised commands may invoke determin
 
 The controller establishes intent and context, frames a bounded assignment and obtains suitable authority. The Techne Fabric then matches that authorised execution with an eligible workload footprint and execution target. The execution runs within a task environment and returns durable results and evidence through the applicable governance and review process.
 
-Techne Fabric is the reader-facing name for the [[AI Execution Fabric]], not an additional architectural layer. It connects workload requirements, declared capabilities and policy with suitable execution capacity. Controller placement, worker placement and model-inference placement are independent choices.
+Techne Fabric is the reader-facing name for the [AI Execution Fabric](<AI Execution Fabric.md>), not an additional architectural layer. It connects workload requirements, declared capabilities and policy with suitable execution capacity. Controller placement, worker placement and model-inference placement are independent choices.
 
 The `ki` governance surface and a prospective execution-fabric operator have distinct responsibilities. `ki` governs work, knowledge and repository relationships. A fabric operator would provision, dispatch, observe and clean up execution through replaceable adapters. Governance authority does not imply infrastructure-control authority, and the architecture does not assign the prospective operator to a repository, product or provider.
 
@@ -45,7 +45,7 @@ The established term **personal agent controller** names the persona-bearing rol
 - **Personal controller** - the service through which a person coordinates governed mechanical, agentic and hybrid work. It maintains persona and session continuity, task identity, context binding, delegated authority, lifecycle supervision and result integration. Reasoning may interpret and propose work, while trusted deterministic boundaries enforce consequential operations.
 - **Persona** - the enduring agent identity associated with one person. Persona continuity does not permit unrestricted memory sharing or identical authority across contexts.
 - **Working context** - the explicit purpose and capacity in which the person is acting, together with the knowledge, relationships, capabilities and authority applicable to that capacity.
-- **Working mode** - how the person and agents participate: attached interactive work, persistent human-supervised work or unattended isolated work. Context answers which hat; mode answers how work proceeds. [[Operating Model]] defines these modes and their lifecycle.
+- **Working mode** - how the person and agents participate: attached interactive work, persistent human-supervised work or unattended isolated work. Context answers which hat; mode answers how work proceeds. [Operating Model](<../Operating Model/Operating Model.md>) defines these modes and their lifecycle.
 - **Workload footprint** - a reusable declaration of the runtime, tools, environment requirements, capabilities and permitted operating envelope for mechanical, agentic or hybrid work. It may include an agent runtime, describes more than a software image and contains neither a particular assignment's credentials nor its repository contents.
 - **Execution** - one identifiable, bounded assignment through a footprint, bound to an explicit context, repository baseline and grant of authority. It may outlive the conversation that initiated it.
 - **Task environment** - the bounded filesystem, process, network and isolation environment used by an execution. An execution may recover into a replacement environment; an environment is not the task's identity.
@@ -59,17 +59,17 @@ One active controller authority acts for a persona across all deployments. Reloc
 
 Authority is explicit, scoped, revocable and bound to an execution. Declaring a capability in a footprint or making a repository visible does not authorise its use. Human attachment to ongoing work requires a deliberate handover or coordination of write ownership rather than uncontrolled concurrent writers.
 
-Governed repositories retain durable work, decisions, evidence and knowledge. Controller records, credentials, environment checkpoints, telemetry and transient conversation are different state classes and need their own appropriate stores and controls. Provider snapshots may assist recovery but cannot become the only recoverable record of completed work. [[Knowledge Architecture]] defines the boundary around durable knowledge.
+Governed repositories retain durable work, decisions, evidence and knowledge. Controller records, credentials, environment checkpoints, telemetry and transient conversation are different state classes and need their own appropriate stores and controls. Provider snapshots may assist recovery but cannot become the only recoverable record of completed work. [Knowledge Architecture](<Knowledge Architecture.md>) defines the boundary around durable knowledge.
 
 ## Architectural Commitments
 
-The architectural commitments are one persona per person, explicit authority-bound contexts, one active controller authority, portable footprints, bounded executions and durable reviewable outcomes. Interfaces, agent runtimes, model capabilities, execution substrates and providers remain replaceable mappings onto the roles in [[Engineering Estate]].
+The architectural commitments are one persona per person, explicit authority-bound contexts, one active controller authority, portable footprints, bounded executions and durable reviewable outcomes. Interfaces, agent runtimes, model capabilities, execution substrates and providers remain replaceable mappings onto the roles in [Engineering Estate](<Engineering Estate.md>).
 
 This overview does not select a controller product, command surface, repository, provider, provisioning mechanism or deployment topology. It also does not assert that the intended fabric capabilities are already proven. Concrete implementations and operational evidence remain governed in their owning repositories and work records.
 
-[[ADR-KI-PRINCIPAL-004-provider-neutral-isolated-agent-execution|ADR-KI-PRINCIPAL-004]] defines the provider-neutral isolation model for agent execution. [[ADR-KI-PRINCIPAL-005-one-persona-across-explicit-working-contexts|ADR-KI-PRINCIPAL-005]] records the persona and working-context architecture.
+[ADR-KI-PRINCIPAL-004](../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-004-provider-neutral-isolated-agent-execution.md) defines the provider-neutral isolation model for agent execution. [ADR-KI-PRINCIPAL-005](../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-005-one-persona-across-explicit-working-contexts.md) records the persona and working-context architecture.
 
-Return to [[Architecture]].
+Return to [Architecture](Architecture.md).
 
 ## Provenance
 

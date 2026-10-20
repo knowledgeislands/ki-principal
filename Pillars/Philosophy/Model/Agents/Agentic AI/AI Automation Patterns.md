@@ -92,7 +92,7 @@ The cache schema was documented in the Email group's former Approach note under 
 
 ## Live Artifact Patterns
 
-Recurring design decisions for live HTML artifacts - self-contained pages that re-fetch their data through MCP tools each time they are opened. The pair convention and the source-to-render discipline belong to [[Admin/Operations/Live Artifacts/Live Artifacts|Admin Live Artifacts]]; the patterns below cover how the page itself is built.
+Recurring design decisions for live HTML artifacts - self-contained pages that re-fetch their data through MCP tools each time they are opened. The pair convention and the source-to-render discipline belong to [Admin Live Artifacts](<../../../../../Admin/Operations/Live Artifacts/Live Artifacts.md>); the patterns below cover how the page itself is built.
 
 ### Live Artifact Baseline
 

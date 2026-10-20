@@ -11,9 +11,9 @@ author: Written with Claude
 
 # Influences Along the Way
 
-These are not the inspirations that started Knowledge Islands. Those are the founding approaches in [[Prior Art]] - Zettelkasten, PARA, LLM-native wikis and the Open Knowledge Format - and the real-world lineage told in [[History of Knowledge Systems]]. The projects below were met later, along the journey, while Knowledge Islands was being put to work with agents. Each one informed it: sometimes by being adopted, sometimes by being tried and set aside, and sometimes only by showing an idea clearly.
+These are not the inspirations that started Knowledge Islands. Those are the founding approaches in [Prior Art](<../Prior Art/Prior Art.md>) - Zettelkasten, PARA, LLM-native wikis and the Open Knowledge Format - and the real-world lineage told in [History of Knowledge Systems](<../History of Knowledge Systems/History of Knowledge Systems.md>). The projects below were met later, along the journey, while Knowledge Islands was being put to work with agents. Each one informed it: sometimes by being adopted, sometimes by being tried and set aside, and sometimes only by showing an idea clearly.
 
-Each entry follows the capture principle in [[Fictional Lineage]]: the source, the idea it contributes, what in Knowledge Islands it informed, and what kind of influence it is. Where the influence is not yet written down anywhere, it says "to be recorded" rather than guessing. None of these entries is an adoption decision; the [[Technology Radar]] and the KI Agentic Harness decisions hold the engineering posture.
+Each entry follows the capture principle in [Fictional Lineage](<../../../Emerging Concepts/Fictional Lineage.md>): the source, the idea it contributes, what in Knowledge Islands it informed, and what kind of influence it is. Where the influence is not yet written down anywhere, it says "to be recorded" rather than guessing. None of these entries is an adoption decision; the [Technology Radar](<../../../../Engineering Practice/Technology/Technology Radar.md>) and the KI Agentic Harness decisions hold the engineering posture.
 
 ---
 
@@ -31,7 +31,7 @@ Each entry follows the capture principle in [[Fictional Lineage]]: the source, t
 
 [Paperclip][paperclip] is Paperclip Labs' open-source (MIT) orchestration app for teams of AI agents: a server and dashboard with org charts, roles and reporting lines, heartbeats that wake agents for work, budgets and approval gates. Its own framing is that an agent is the employee and Paperclip is the company.
 
-**What it informed.** Knowledge Islands ran Paperclip on `terra` from late September to 14 October 2026, with one company per territory, a CEO agent, a project per repository and a Coordination project. That practice set the position that a coordination plane schedules and tracks agents while repositories remain the authority for knowledge and work, that Paperclip completion is never KI acceptance, and that a CEO cannot review its own work. The lessons are in [[Paperclip Operating Lessons]], and the boundary rules in the harness `ki-agent-coordination-paperclip` skill. Kris stopped the service on 2026-10-14 intending to recreate it fresh with the same approach.
+**What it informed.** Knowledge Islands ran Paperclip on `terra` from late September to 14 October 2026, with one company per territory, a CEO agent, a project per repository and a Coordination project. That practice set the position that a coordination plane schedules and tracks agents while repositories remain the authority for knowledge and work, that Paperclip completion is never KI acceptance, and that a CEO cannot review its own work. The lessons are in [Paperclip Operating Lessons](<../../../../Engineering Practice/Operating Model/Paperclip Operating Lessons.md>), and the boundary rules in the harness `ki-agent-coordination-paperclip` skill. Kris stopped the service on 2026-10-14 intending to recreate it fresh with the same approach.
 
 **Kind.** A current architectural influence on coordination, roles and independent review.
 
@@ -51,7 +51,7 @@ Each entry follows the capture principle in [[Fictional Lineage]]: the source, t
 
 [Hermes Agent][hermes] is Nous Research's open-source (MIT) persistent AI agent: it keeps memory across sessions, creates skills from experience, runs scheduled tasks and reaches people through messaging gateways.
 
-**What it informed.** That Knowledge Islands sits above the agent runtime rather than inside one: Hermes is the intended first conforming environment for persistent, scheduled, steward-style work beside Claude Code, and its self-improving skills sharpened the rule that learned behaviour is proposed, never silently promoted ([SDR-KI-HARNESS-002][sdr-harness-002]). In the engineering estate it is a candidate personal-controller reasoning capability, not the definition of the controller role ([[Engineering Estate]], [[Technology Radar]]).
+**What it informed.** That Knowledge Islands sits above the agent runtime rather than inside one: Hermes is the intended first conforming environment for persistent, scheduled, steward-style work beside Claude Code, and its self-improving skills sharpened the rule that learned behaviour is proposed, never silently promoted ([SDR-KI-HARNESS-002][sdr-harness-002]). In the engineering estate it is a candidate personal-controller reasoning capability, not the definition of the controller role ([Engineering Estate](<../../../../Engineering Practice/Architecture/Engineering Estate.md>), [Technology Radar](<../../../../Engineering Practice/Technology/Technology Radar.md>)).
 
 **Kind.** A current architectural influence on the agent host and harness portability.
 
@@ -69,7 +69,7 @@ Each entry follows the capture principle in [[Fictional Lineage]]: the source, t
 
 ## Explainers
 
-Two illustrated boards made while working through these influences. Both predate [[GDR-KI-PRINCIPAL-010-the-port|GDR-KI-PRINCIPAL-010]], so they still say "Harbor" where Knowledge Islands now says the Port.
+Two illustrated boards made while working through these influences. Both predate [GDR-KI-PRINCIPAL-010](../../../../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-010-the-port.md), so they still say "Harbor" where Knowledge Islands now says the Port.
 
 "How gstack works" draws gstack's roles as agents on sandboxed islands, dispatched by an orchestrator and reading and writing one shared knowledge island, with an iteration loop as the tide.
 

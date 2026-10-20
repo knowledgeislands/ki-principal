@@ -12,7 +12,7 @@ author: Written with Claude
 
 ## Overview
 
-This is an emerging concept, not adopted philosophy. It holds three Techne questions about delegated agency that stay open while the [[Techne Programme Focus]] keeps Kitteth and every Avatar as an idea. They belong to taking that idea up and to the whole-philosophy review, not to current work.
+This is an emerging concept, not adopted philosophy. It holds three Techne questions about delegated agency that stay open while the [Techne Programme Focus](<../../../Admin/Governance/Policies/Techne Programme Focus.md>) keeps Kitteth and every Avatar as an idea. They belong to taking that idea up and to the whole-philosophy review, not to current work.
 
 ---
 
@@ -20,7 +20,7 @@ This is an emerging concept, not adopted philosophy. It holds three Techne quest
 
 The Operator is an external, privileged operational role; the Architect shapes the rules and structure of an environment. The open question is whether these are separate roles, capability sets of the same Avatar, authorities reserved to the human, or modes that depend on context.
 
-The current position is settled for the prototype. On the agent host, Kris acts as Operator and Architect through a role only a human assumes, and no agent creates access; the [[Agent Host Prototype Concept Map]] shows this. Whether an Avatar may ever hold either capability is what remains open.
+The current position is settled for the prototype. On the agent host, Kris acts as Operator and Architect through a role only a human assumes, and no agent creates access; the [Agent Host Prototype Concept Map](<../../Engineering Practice/Architecture/Diagrams/Agent Host Prototype Concept Map.md>) shows this. Whether an Avatar may ever hold either capability is what remains open.
 
 ---
 

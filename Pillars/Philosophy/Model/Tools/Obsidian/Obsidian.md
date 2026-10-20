@@ -13,12 +13,12 @@ author: Written with Claude
 
 ## Overview
 
-Obsidian is the primary human interface for the island - the editor through which notes are read, written, and navigated. It connects to the island's text store directly via a vault, rendering wikilinks as a navigable graph and providing the editing environment for all note types. The island's conventions in [[Notes]] and [[Conventions/Structure/Structure#Library|Library]] define what the vault contains; Obsidian is the tool through which those conventions are enacted day to day.
+Obsidian is the primary human interface for the island - the editor through which notes are read, written, and navigated. It connects to the island's text store directly via a vault, rendering wikilinks as a navigable graph and providing the editing environment for all note types. The island's conventions in [Notes](../../Conventions/Notes/Notes.md) and [Library](../../Conventions/Structure/Structure.md#library) define what the vault contains; Obsidian is the tool through which those conventions are enacted day to day.
 
 ---
 
 ## Templater
 
-The Templater plugin scaffolds new notes to the correct format. Templates are a superset across all islands - not every template will be relevant to every island. The full template index, with one entry per template and its purpose, is in [[Templates]].
+The Templater plugin scaffolds new notes to the correct format. Templates are a superset across all islands - not every template will be relevant to every island. The full template index, with one entry per template and its purpose, is in [Templates](Templates/Templates.md).
 
-Templates implement the structures defined in [[Format]] and [[Notes#Types|Types]] - they are the Obsidian-layer expression of those conventions, not the conventions themselves.
+Templates implement the structures defined in [Format](../../Conventions/Notes/Format.md) and [Types](../../Conventions/Notes/Notes.md#types) - they are the Obsidian-layer expression of those conventions, not the conventions themselves.

@@ -17,7 +17,7 @@ The Knowledge Islands visual style is a coherent brand system governing how the 
 
 The system is designed to feel like calm, intelligent infrastructure - a navigable ecology of meaning rather than a software product or a database. Every visual decision reinforces that posture.
 
-See also: [[Symbol Library/Symbol Library|Symbol Library]], [[Logo/Logo|Logo]], [[Aesthetics/Diagrams/Diagrams|Diagrams]]
+See also: [Symbol Library](<../Symbol Library/Symbol Library.md>), [Logo](../Logo/Logo.md), [Diagrams](../Diagrams/Diagrams.md)
 
 ---
 
@@ -64,7 +64,7 @@ The world should feel explorable, interconnected, breathable, calm, and layered 
 
 **Avoid:** disconnected floating UI panels, abstract technical voids, sterile grid-only environments.
 
-**Non-combative.** The world draws no citadels, keeps, battlements or fortified towers ([[GDR-KI-PRINCIPAL-011-the-capital|GDR-KI-PRINCIPAL-011]]). Civic towers - a clock tower, a cloister tower - may stand as architecture, never fortified and never on the Capital. The motifs it may draw on are named in the [[Lore Sheet/Lore Sheet|Lore Sheet]].
+**Non-combative.** The world draws no citadels, keeps, battlements or fortified towers ([GDR-KI-PRINCIPAL-011](../../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-011-the-capital.md)). Civic towers - a clock tower, a cloister tower - may stand as architecture, never fortified and never on the Capital. The motifs it may draw on are named in the [Lore Sheet](<../Lore Sheet/Lore Sheet.md>).
 
 ---
 
@@ -80,7 +80,7 @@ The connective fabric should feel more like ecosystems, ocean currents, migrator
 
 ## Symbolic Semantics
 
-Visual symbols carry consistent conceptual meaning across all outputs. See [[Symbol Library/Symbol Library|Symbol Library]] for the full library and artwork.
+Visual symbols carry consistent conceptual meaning across all outputs. See [Symbol Library](<../Symbol Library/Symbol Library.md>) for the full library and artwork.
 
 | Symbol               | Meaning                                           |
 | -------------------- | ------------------------------------------------- |
@@ -228,7 +228,7 @@ AI should feel infrastructural and supportive rather than anthropomorphic.
 
 The Knowledge Islands logo uses a simple, memorable silhouette that works at favicon scale and scales cleanly to monochrome. It should feel like a navigational symbol, a civilisational mark, a cartographic emblem, or a timeless knowledge sigil.
 
-See [[Logo/Logo|Logo]] for the canonical mark and usage notes.
+See [Logo](../Logo/Logo.md) for the canonical mark and usage notes.
 
 **Avoid:** excessive detail, tiny text, photorealistic scenes, cluttered compositions, generic tech startup marks.
 

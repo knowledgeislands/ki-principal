@@ -105,7 +105,7 @@ Deterministic tools, fabric operators and task environments may produce operatio
 
 An engineering interface allows contributors to inspect, change and review this knowledge.
 
-Hermes Agent, tools-mgit, Herdr and Zed are current or candidate implementation mappings for these roles. [[Engineering Estate]] defines the stable roles and keeps those mappings replaceable.
+Hermes Agent, tools-mgit, Herdr and Zed are current or candidate implementation mappings for these roles. [Engineering Estate](<Engineering Estate.md>) defines the stable roles and keeps those mappings replaceable.
 
 ## Boundaries
 

@@ -8,13 +8,13 @@ author: AI-assisted
 
 ## Overview
 
-Technology records the current engineering posture toward technologies that affect the Knowledge Islands ecosystem. Posture is evidence-led: a technology moves when an investigation under the [[Technology Investigation Programme]] supports it, not by automatic adoption. Product names recorded here are mappings onto architectural roles, never the roles themselves.
+Technology records the current engineering posture toward technologies that affect the Knowledge Islands ecosystem. Posture is evidence-led: a technology moves when an investigation under the [Technology Investigation Programme](<../Operating Model/Technology Investigation Programme.md>) supports it, not by automatic adoption. Product names recorded here are mappings onto architectural roles, never the roles themselves.
 
 ## Technology Radar
 
-[[Technology Radar]] places each technology in view in one of four rings - Adopt, Trial, Assess and Hold - recording its purpose and strengths for the role it fills. It also sets a review practice for moving technologies between rings. It is the quick answer to whether a technology is in use, under trial or held.
+[Technology Radar](<Technology Radar.md>) places each technology in view in one of four rings - Adopt, Trial, Assess and Hold - recording its purpose and strengths for the role it fills. It also sets a review practice for moving technologies between rings. It is the quick answer to whether a technology is in use, under trial or held.
 
-Return to [[Pillars/Engineering Practice/Engineering Practice|Engineering Practice]].
+Return to [Engineering Practice](<../Engineering Practice.md>).
 
 ## Provenance
 

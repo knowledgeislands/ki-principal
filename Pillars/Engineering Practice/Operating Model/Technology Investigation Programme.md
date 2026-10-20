@@ -14,7 +14,7 @@ An investigation answers one practical question. A tech day may provide a conven
 
 ## Ownership
 
-Techne owns the engineering question, comparison boundary, KI-specific evidence, applicability judgment, recommendation, uncertainty, review trigger and resulting [[Technology Radar]] posture. Primary external material belongs in Resources, observed experiment evidence remains with the governed work, and an accepted conclusion belongs in [[Engineering Practice]].
+Techne owns the engineering question, comparison boundary, KI-specific evidence, applicability judgment, recommendation, uncertainty, review trigger and resulting [Technology Radar](<../Technology/Technology Radar.md>) posture. Primary external material belongs in Resources, observed experiment evidence remains with the governed work, and an accepted conclusion belongs in [Engineering Practice](<../Engineering Practice.md>).
 
 Other repositories retain their own responsibilities. A reusable experiment harness, adapter, skill or conformance mechanism belongs with its appropriate implementation owner only after evidence establishes a general need. A cross-repository hand-off uses the declared trade process and preserves receiver authority; an investigation does not transfer or reprioritise another repository's work.
 
@@ -71,13 +71,13 @@ Techne maintains no standing investigation inbox or automatic cadence. New candi
 
 ## Relationships
 
-[[Operating Model]] governs how an investigation is framed, delivered and reviewed.
+[Operating Model](<Operating Model.md>) governs how an investigation is framed, delivered and reviewed.
 
-[[Technology Radar]] records the resulting current technology posture when accepted evidence justifies a change.
+[Technology Radar](<../Technology/Technology Radar.md>) records the resulting current technology posture when accepted evidence justifies a change.
 
-[[GDR-KI-PRINCIPAL-007-governing-technology-investigations|GDR-KI-PRINCIPAL-007]] records the ownership and evidence decision.
+[GDR-KI-PRINCIPAL-007](../../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-007-governing-technology-investigations.md) records the ownership and evidence decision.
 
-Return to [[Operating Model]].
+Return to [Operating Model](<Operating Model.md>).
 
 ## Provenance
 

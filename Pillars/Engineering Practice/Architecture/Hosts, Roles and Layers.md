@@ -10,9 +10,9 @@ author: Written with Claude
 
 Every machine Kris works on or sends agents to is built in the same four layers. **Techne** gets the machine to a reachable, patched, ready state (the base). **Rig** then rigs it up with the tools its job needs (the role). **Techne, through `ki`**, adds the repositories and working rules (the workspace). **chezmoi** - or **Cheztoi**, a small allowlisted bundle of Kris's settings rendered by chezmoi for less-trusted machines - makes it feel like Kris's own (the personal layer). How each tool reaches each operating system is a separate supply question, packaging, not a fifth layer. The short version is: _Techne takes a host to base and ready; Rig rigs it up._
 
-Here a **role** is what a host is for, and a **layer** is one stage in building a host. Neither is the same as the architectural roles and layers of [[Engineering Estate]], such as the personal controller or the governance layer, which describe the wider system rather than a single machine.
+Here a **role** is what a host is for, and a **layer** is one stage in building a host. Neither is the same as the architectural roles and layers of [Engineering Estate](<Engineering Estate.md>), such as the personal controller or the governance layer, which describe the wider system rather than a single machine.
 
-The detail and the evidence behind this are in the [[rig-techne-boundary-audit|Rig and Techne boundary audit]], whose ten decisions Kris accepted on 2026-10-11.
+The detail and the evidence behind this are in the [Rig and Techne boundary audit](../../../+/_WORK/ki.agent-host/design/rig-techne-boundary-audit.md), whose ten decisions Kris accepted on 2026-10-11.
 
 ---
 
@@ -53,7 +53,7 @@ A role is what a machine is _for_. A machine has one base and one or more roles.
 | Remote agentic rig | Agent sessions Kris opens over Tailscale SSH, with the KI toolchain and a workspace | chezmoi on owned machines, Cheztoi on less-trusted ones | `vega`, `sol` |
 | Appliance | Runs one service, such as a Paperclip environment, with no remote desktop and no personal shell | none, or a minimal Cheztoi payload | none yet |
 
-`sol` carries two roles at once: it is a workstation and a remote agentic rig. `vega` and `sol` are the same role on different bases, a cloud instance and an owned Mac, so they should share one definition of the agentic-rig toolchain. The appliance role is recorded but has no recipe: anything that runs Paperclip remotely is kept as an idea by the [[Techne Programme Focus]]. [[GDR-KI-PRINCIPAL-004-techne-focus-on-the-agent-host-and-the-mac-studio|GDR-KI-PRINCIPAL-004]] keeps `vega` and `sol` in scope.
+`sol` carries two roles at once: it is a workstation and a remote agentic rig. `vega` and `sol` are the same role on different bases, a cloud instance and an owned Mac, so they should share one definition of the agentic-rig toolchain. The appliance role is recorded but has no recipe: anything that runs Paperclip remotely is kept as an idea by the [Techne Programme Focus](<../../../Admin/Governance/Policies/Techne Programme Focus.md>). [GDR-KI-PRINCIPAL-004](../../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-004-techne-focus-on-the-agent-host-and-the-mac-studio.md) keeps `vega` and `sol` in scope.
 
 ---
 
@@ -94,7 +94,7 @@ The agentic-rig role profile moves out of the `agent-host` recipe into a recipe-
 One **KI release contract** is the canonical artefact for every KI and personal tool: per-platform archives (macOS and Linux, Intel and ARM), a checksum manifest, a signature, and an installer with the key built in, as `ki` already does. Three thin channels deliver it:
 
 - the **Homebrew tap**, for Macs;
-- a **signed-release install kind** in Rig, so any role can install KI tools on any OS - this replaces the planned harness-only provider and amends [[ADR-KI-PRINCIPAL-003-the-agent-host-workstation-model|ADR-KI-PRINCIPAL-003]];
+- a **signed-release install kind** in Rig, so any role can install KI tools on any OS - this replaces the planned harness-only provider and amends [ADR-KI-PRINCIPAL-003](../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-003-the-agent-host-workstation-model.md);
 - the **installer**, for bootstrap, where Rig is not yet present.
 
 apt, AUR and Nix are deferred until an appliance fleet or an Arch workstation actually exists.
@@ -109,8 +109,8 @@ apt, AUR and Nix are deferred until an appliance fleet or an Arch workstation ac
 
 ## Related
 
-- [[rig-techne-boundary-audit|Rig and Techne boundary audit]] - the full inventory, options and decisions.
-- [[ADR-KI-PRINCIPAL-003-the-agent-host-workstation-model|ADR-KI-PRINCIPAL-003]] - how the agent host becomes its owner's working machine.
-- [[ADR-KI-PRINCIPAL-006-techne-implementation-ownership|ADR-KI-PRINCIPAL-006]] - which repository owns recipes, providers and bindings.
-- [[ODR-KI-PRINCIPAL-001-keeping-work-safe-on-the-agent-host|ODR-KI-PRINCIPAL-001]] - how work on the agent host stays safe.
-- [[Engineering Estate]] - the wider system's architectural roles and layers, which are distinct from the host roles and layers here.
+- [Rig and Techne boundary audit](../../../+/_WORK/ki.agent-host/design/rig-techne-boundary-audit.md) - the full inventory, options and decisions.
+- [ADR-KI-PRINCIPAL-003](../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-003-the-agent-host-workstation-model.md) - how the agent host becomes its owner's working machine.
+- [ADR-KI-PRINCIPAL-006](../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-006-techne-implementation-ownership.md) - which repository owns recipes, providers and bindings.
+- [ODR-KI-PRINCIPAL-001](../../../Admin/Governance/Decisions/ODR-KI-PRINCIPAL-001-keeping-work-safe-on-the-agent-host.md) - how work on the agent host stays safe.
+- [Engineering Estate](<Engineering Estate.md>) - the wider system's architectural roles and layers, which are distinct from the host roles and layers here.

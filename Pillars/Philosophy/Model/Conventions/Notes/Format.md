@@ -12,7 +12,7 @@ author: Written with Claude
 
 ## Overview
 
-Every note follows a consistent physical structure. The rules here govern what sections a note contains, how those sections are organised, how content within them is formatted, and how notes reference each other and embed external material. Type-specific extensions are in [[Notes]] (Types section); the properties and tags that live in frontmatter are in [[Notes]] (Frontmatter section).
+Every note follows a consistent physical structure. The rules here govern what sections a note contains, how those sections are organised, how content within them is formatted, and how notes reference each other and embed external material. Type-specific extensions are in [Notes](Notes.md) (Types section); the properties and tags that live in frontmatter are in [Notes](Notes.md) (Frontmatter section).
 
 ---
 

@@ -10,15 +10,15 @@ author: AI-assisted
 
 Diagrams provides inspectable visual representations of the Engineering Practice architecture. Each generated diagram is kept beside its editable source, so it can be changed and regenerated rather than redrawn. A diagram illustrates the note that owns its subject; where they differ, the owning note governs.
 
-Return to [[Pillars/Engineering Practice/Architecture/Architecture|Architecture]].
+Return to [Architecture](../Architecture.md).
 
 ## Engineering Estate
 
-The [[Pillars/Engineering Practice/Architecture/Diagrams/Engineering Estate.svg|Engineering Estate diagram]] maps named components of the engineering estate onto their interactions, and [[Engineering Estate]] explains it. It is generated from its [[Pillars/Engineering Practice/Architecture/Diagrams/Engineering Estate.mmd|Mermaid source]]. It is an illustrative mapping, not a normative inventory of roles.
+The [Engineering Estate diagram](<Engineering Estate.svg>) maps named components of the engineering estate onto their interactions, and [Engineering Estate](<../Engineering Estate.md>) explains it. It is generated from its [Mermaid source](<Engineering Estate.mmd>). It is an illustrative mapping, not a normative inventory of roles.
 
 ## Agent Host Prototype Concept Map
 
-The [[Agent Host Prototype Concept Map]] reads the [KI-PRINCIPAL-GOV-020](https://github.com/knowledgeislands/ki-principal/blob/fddfca69b4642cb4db4113123aa7dc613c3e92f4/Streams/Roadmap/KI-ARCADIA-GOV-020-limited-remote-agent-prototype.md) limited remote agent prototype in Knowledge Islands terms: Human, Rig, tailnet, Footprint and agent sessions, and the Operator access and Techne provisioning path, all live for the prototype's term. It sets these against what the [[Techne Programme Focus]] keeps as ideas: the controller, K3s, the dispatcher, Kitteth, Paperclip and Telegram. The note explains each region; the SVG sits beside its Archify source.
+The [Agent Host Prototype Concept Map](<Agent Host Prototype Concept Map.md>) reads the [KI-PRINCIPAL-GOV-020](https://github.com/knowledgeislands/ki-principal/blob/fddfca69b4642cb4db4113123aa7dc613c3e92f4/Streams/Roadmap/KI-ARCADIA-GOV-020-limited-remote-agent-prototype.md) limited remote agent prototype in Knowledge Islands terms: Human, Rig, tailnet, Footprint and agent sessions, and the Operator access and Techne provisioning path, all live for the prototype's term. It sets these against what the [Techne Programme Focus](<../../../../Admin/Governance/Policies/Techne Programme Focus.md>) keeps as ideas: the controller, K3s, the dispatcher, Kitteth, Paperclip and Telegram. The note explains each region; the SVG sits beside its Archify source.
 
 ## Provenance
 

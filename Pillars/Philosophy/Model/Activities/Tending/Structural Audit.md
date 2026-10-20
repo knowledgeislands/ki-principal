@@ -35,12 +35,12 @@ Ensure every folder has a same-named index note. For each folder:
 
 1. Run `os.walk` (or equivalent) against the repository
 2. Identify any folder whose name does not have a corresponding `.md` file
-3. Create the missing index note using [[Note - Folder]] template
+3. Create the missing index note using [Note - Folder](<../../Tools/Obsidian/Templates/Note - Folder.md>) template
 4. Populate with wikilinks to all depth-1 sub-notes with descriptions
 
 ### Note Format Compliance
 
-Check all notes (or a target section - e.g. `Resources/`, `Streams/`) against [[Notes]]:
+Check all notes (or a target section - e.g. `Resources/`, `Streams/`) against [Notes](../../Conventions/Notes/Notes.md):
 
 - **Missing frontmatter fields**: `status`, `purpose`, `author` must always be present
 - **Bad status values**: must match `draft - Month YYYY`, `current - Month YYYY`, `outdated - Month YYYY`, or `archive - Month YYYY`
@@ -71,13 +71,13 @@ Ensure every `card/*` tag type has a corresponding template in `Pillars/Philosop
 1. Survey all `card/*` tags in use across the repository
 2. Check which have a template file
 3. Create missing templates following the patterns in existing ones
-4. Update [[Templates]] index
+4. Update [Templates](../../Tools/Obsidian/Templates/Templates.md) index
 
 ---
 
 ## Audit Log
 
-Session digests are recorded in the **daily note** for the session date, under `## Personal Assistant Sessions`. Each session heading describes what was done - not a session number. Decisions extracted from each session are propagated to [[Notes]], [[Structure]], and [[Tags]] as standing rules.
+Session digests are recorded in the **daily note** for the session date, under `## Personal Assistant Sessions`. Each session heading describes what was done - not a session number. Decisions extracted from each session are propagated to [Notes](../../Conventions/Notes/Notes.md), [Structure](../../Conventions/Structure/Structure.md), and [Tags](../../Conventions/Notes/Tags.md) as standing rules.
 
 **Section title format:** `### island Structural Audit - [scope of work]` Example: `### island Structural Audit - Boundary Fixes, Pillars Frontmatter, Status Review`
 
@@ -89,6 +89,6 @@ Session digests are recorded in the **daily note** for the session date, under `
 ## Notes
 
 - A full audit is a multi-session effort - scope it by folder or concern rather than attempting the whole repository in one pass
-- The `outdated` status is a useful signal: notes flagged during a bulk audit are queued for individual review via [[Status Review]]
-- Document decisions made during the audit - they feed into [[Notes]], [[Structure]], and [[Tags]]
-- Log significant errors or surprises in [[Mistakes and Lessons]]
+- The `outdated` status is a useful signal: notes flagged during a bulk audit are queued for individual review via [Status Review](<Status Review.md>)
+- Document decisions made during the audit - they feed into [Notes](../../Conventions/Notes/Notes.md), [Structure](../../Conventions/Structure/Structure.md), and [Tags](../../Conventions/Notes/Tags.md)
+- Log significant errors or surprises in [Mistakes and Lessons](<../../../../../Admin/Operations/Mistakes and Lessons.md>)

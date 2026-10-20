@@ -12,7 +12,7 @@ author: Written with Claude
 
 ## Overview
 
-Every note carries a YAML frontmatter block. The properties below apply to all `card/note` type notes. Collection cards (`card/person`, `card/org`, etc.) use relevant custom properties instead - see [[Tags]] for the full card taxonomy.
+Every note carries a YAML frontmatter block. The properties below apply to all `card/note` type notes. Collection cards (`card/person`, `card/org`, etc.) use relevant custom properties instead - see [Tags](Tags.md) for the full card taxonomy.
 
 All fields except `creator` are required. Frontmatter must be YAML properties - not inline bullet points.
 
@@ -31,9 +31,9 @@ All fields except `creator` are required. Frontmatter must be YAML properties - 
 
 † E.g. `reference_{ki_prefix}_key_notes.md`. Use a YAML list when multiple files apply.
 
-‡ Set by Morning Briefing automation; see [[Schedule]].
+‡ Set by Morning Briefing automation; see [Schedule](../../../../../Admin/Operations/Activities/Schedule.md).
 
-§ The taxonomy is owned by the `ki-repo-kb` skill's frontmatter standard, so every island classifies notes the same way and audits can check placement by type. `note_type` says what kind of note this is; tags say what it is about. A `session-digest` is valid only under `-/_DIGESTS/` - see [[Session Digest]].
+§ The taxonomy is owned by the `ki-repo-kb` skill's frontmatter standard, so every island classifies notes the same way and audits can check placement by type. `note_type` says what kind of note this is; tags say what it is about. A `session-digest` is valid only under `-/_DIGESTS/` - see [Session Digest](<Session Digest.md>).
 
 ---
 

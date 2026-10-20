@@ -16,7 +16,7 @@ The fabric matches a context-bound assignment and a reusable workload footprint 
 
 The fabric is an architectural decision and operating model, not a single runtime, service, cluster or control plane. A fabric operator may implement its lifecycle, but no particular executable, repository or provider is committed here.
 
-[[Techne Fabric Execution Contract]] defines the immutable bindings, lifecycle, evidence and ownership boundary every admitted execution preserves.
+[Techne Fabric Execution Contract](<Techne Fabric Execution Contract.md>) defines the immutable bindings, lifecycle, evidence and ownership boundary every admitted execution preserves.
 
 ## Fabric Concepts
 
@@ -114,7 +114,7 @@ This process supports explicit decisions while leaving implementation-specific a
 
 ## Relationship to the Engineering Estate
 
-[[Engineering Estate]] defines the stable roles of the components that coordinate, govern, execute, persist and review engineering work, then maps current and candidate products onto them.
+[Engineering Estate](<Engineering Estate.md>) defines the stable roles of the components that coordinate, govern, execute, persist and review engineering work, then maps current and candidate products onto them.
 
 Techne Fabric determines which context-eligible footprint and targets may serve a bounded execution.
 

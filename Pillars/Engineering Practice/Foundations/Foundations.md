@@ -12,21 +12,21 @@ Foundations establishes the purpose, intended outcomes, boundaries, and decision
 
 ## Goals
 
-[[Pillars/Engineering Practice/Foundations/Goals|Goals]] defines the outcomes that guide Techné and the practice it describes: a shared engineering discipline, operable AI-native engineering, preserved governed knowledge, deliberate execution choices, incremental evolution and practical usefulness.
+[Goals](Goals.md) defines the outcomes that guide Techné and the practice it describes: a shared engineering discipline, operable AI-native engineering, preserved governed knowledge, deliberate execution choices, incremental evolution and practical usefulness.
 
 ## Non-Goals
 
-[[Non-Goals]] marks the boundaries of a focused discipline. Techné does not replace Knowledge Islands Principal, prescribe a single technology stack, act as a product specification, substitute for component documentation, treat AI output as authority or freeze its architecture.
+[Non-Goals](Non-Goals.md) marks the boundaries of a focused discipline. Techné does not replace Knowledge Islands Principal, prescribe a single technology stack, act as a product specification, substitute for component documentation, treat AI output as authority or freeze its architecture.
 
 ## Principles
 
-[[Principles]] gives the decision criteria for engineering choices across the ecosystem. They include architecture before implementation, clear separation of responsibilities, governed knowledge by design, provider-neutral execution, isolation of independently acting work, deterministic control around probabilistic capability, and security and privacy as design inputs.
+[Principles](Principles.md) gives the decision criteria for engineering choices across the ecosystem. They include architecture before implementation, clear separation of responsibilities, governed knowledge by design, provider-neutral execution, isolation of independently acting work, deterministic control around probabilistic capability, and security and privacy as design inputs.
 
 ## Vision
 
-[[Pillars/Engineering Practice/Foundations/Vision|Vision]] states that Techné is the canonical engineering discipline of the Knowledge Islands ecosystem. It sets out the vision, the discipline's relationship to Knowledge Islands Principal, its scope, audiences and evolution, and the chapter structure of Foundations itself.
+[Vision](Vision.md) states that Techné is the canonical engineering discipline of the Knowledge Islands ecosystem. It sets out the vision, the discipline's relationship to Knowledge Islands Principal, its scope, audiences and evolution, and the chapter structure of Foundations itself.
 
-Return to [[Pillars/Engineering Practice/Engineering Practice|Engineering Practice]].
+Return to [Engineering Practice](<../Engineering Practice.md>).
 
 ## Provenance
 

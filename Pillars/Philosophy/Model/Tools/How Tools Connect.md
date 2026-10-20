@@ -14,9 +14,9 @@ author: Written with Claude
 
 The tools that agents use to interact with the island and with connected services. Each tool has its own sub-folder documenting its connection configuration, operating conventions, and any lessons specific to working with it.
 
-`Tools/` is the configuration layer - it covers how each tool is set up and connected. How agents use those tools to act on the island is a separate concern: operating behaviour lives in [[Model/Agents/Agents|Agents]]. Agent runtimes themselves have no tool or agent note: their runtime-neutral conventions live in [[Agentic AI]], and anything specific to one runtime lives in the skill that realises it.
+`Tools/` is the configuration layer - it covers how each tool is set up and connected. How agents use those tools to act on the island is a separate concern: operating behaviour lives in [Agents](../Agents/Agents.md). Agent runtimes themselves have no tool or agent note: their runtime-neutral conventions live in [Agentic AI](<../Agents/Agentic AI/Agentic AI.md>), and anything specific to one runtime lives in the skill that realises it.
 
-Tools are connected via MCP (Model Context Protocol) servers where available. MCP gives agents direct access to external services - email, calendar, task management, issue tracking - without requiring the human to relay information manually. The [[Admin Conventions/Integrations|Integrations]] note in Admin/Governance holds the island-specific connection identifiers and configuration for each MCP server. A runtime without file access reads only the island context loaded into it, and returns its work through manual routing under [[Structure]].
+Tools are connected via MCP (Model Context Protocol) servers where available. MCP gives agents direct access to external services - email, calendar, task management, issue tracking - without requiring the human to relay information manually. The [Integrations](<../../../../Admin/Governance/Conventions/Admin Conventions/Integrations.md>) note in Admin/Governance holds the island-specific connection identifiers and configuration for each MCP server. A runtime without file access reads only the island context loaded into it, and returns its work through manual routing under [Structure](../Conventions/Structure/Structure.md).
 
 ---
 
@@ -34,7 +34,7 @@ Microsoft 365 is the email and calendar integration. The Microsoft 365 note cove
 
 ---
 
-The following tools are Knowledge Islands-built MCP servers - bespoke capability extensions developed within the Knowledge Islands workspace rather than adopted from third parties. See [[Tool Ecosystem Map]] for how they fit into the broader system.
+The following tools are Knowledge Islands-built MCP servers - bespoke capability extensions developed within the Knowledge Islands workspace rather than adopted from third parties. See [Tool Ecosystem Map](<../../../Technē/Tool Ecosystem Map.md>) for how they fit into the broader system.
 
 ## Git Audit
 

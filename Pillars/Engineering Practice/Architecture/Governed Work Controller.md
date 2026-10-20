@@ -74,11 +74,11 @@ Mechanical workloads may also be introduced directly when their behaviour is alr
 
 ## Relationship to Techne Fabric
 
-The controller establishes intent, context and authority, then requests execution through Techne Fabric when work needs a task environment. Fabric matches a workload footprint to an eligible target and supervises the provider-neutral execution lifecycle described by [[Techne Fabric Execution Contract]]. A workload footprint declares the runtime, tools, environment and operating constraints required by mechanical, agentic or hybrid work; an agent runtime is optional.
+The controller establishes intent, context and authority, then requests execution through Techne Fabric when work needs a task environment. Fabric matches a workload footprint to an eligible target and supervises the provider-neutral execution lifecycle described by [Techne Fabric Execution Contract](<Techne Fabric Execution Contract.md>). A workload footprint declares the runtime, tools, environment and operating constraints required by mechanical, agentic or hybrid work; an agent runtime is optional.
 
-[[Agentic Operating Approach]] places the controller within the person's wider relationship with Techne. [[Engineering Estate]] separates its responsibilities from governance, deterministic operations, fabric operation, task execution, interfaces, knowledge and model inference. [[AI Execution Fabric]] defines target selection and placement.
+[Agentic Operating Approach](<Agentic Operating Approach.md>) places the controller within the person's wider relationship with Techne. [Engineering Estate](<Engineering Estate.md>) separates its responsibilities from governance, deterministic operations, fabric operation, task execution, interfaces, knowledge and model inference. [AI Execution Fabric](<AI Execution Fabric.md>) defines target selection and placement.
 
-Return [[Architecture]].
+Return [Architecture](Architecture.md).
 
 ## Provenance
 

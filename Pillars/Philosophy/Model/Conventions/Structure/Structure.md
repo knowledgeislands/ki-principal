@@ -57,7 +57,7 @@ The Library is the canonical record - version-controlled, governed, and the sing
 
 The five Knowledge Base zones are `Calendar`, `Pillars`, `Resources`, `Streams` and `Admin`, with the inbound `+` and outbound `-` working areas. Knowledge Islands Principal's governance lives in Admin, not a separate Knowledge Capital folder. Calendar records and outbound artifacts follow their own note-type and process owners; a shared working-area convention does not authorise relocating existing records.
 
-The inbound and outbound working areas are kept apart, and outside the zones, for three reasons. Material in `+` is arriving and waits to be filed into a zone or discarded; material in `-` is leaving and waits to be delivered, extracted or deleted, so mixing them would hide one queue inside the other. Neither area holds content the island keeps, so neither carries a same-name index or follows the zone rules, which stops transient material being read as canonical. And because each zone holds only governed content, an audit can treat anything ephemeral found in a zone as a mistake. [[Outbound]] and [[Session Digest]] give the outbound detail.
+The inbound and outbound working areas are kept apart, and outside the zones, for three reasons. Material in `+` is arriving and waits to be filed into a zone or discarded; material in `-` is leaving and waits to be delivered, extracted or deleted, so mixing them would hide one queue inside the other. Neither area holds content the island keeps, so neither carries a same-name index or follows the zone rules, which stops transient material being read as canonical. And because each zone holds only governed content, an audit can treat anything ephemeral found in a zone as a mistake. [Outbound](../../../../../-/Outbound.md) and [Session Digest](<../Notes/Session Digest.md>) give the outbound detail.
 
 `Pillars` and `Resources` share subfolder names by design. For example, `Pillars/Finance` covers internal finances; `Resources/Finance` covers general finance knowledge such as banking regulations.
 
@@ -75,7 +75,7 @@ Streams notes track current status, progress, and next steps - they are not know
 
 † **Weekly note purpose** - weekly note filed in the year's `YYYY By Week/` sibling folder (e.g. `Calendar/2026/2026 By Week/2026 W14.md`).
 
-Daily, weekly and monthly notes adapt the [[Bullet Journal]] method. The daily note keeps a rapid log of short single-line entries, and open tasks are migrated at the weekly review and in full at month end. Markers use Obsidian task syntax so they render without a plugin:
+Daily, weekly and monthly notes adapt the [Bullet Journal](<../../../../../Resources/Productivity/Bullet Journal.md>) method. The daily note keeps a rapid log of short single-line entries, and open tasks are migrated at the weekly review and in full at month end. Markers use Obsidian task syntax so they render without a plugin:
 
 | Marker | Meaning |
 | --- | --- |
@@ -138,13 +138,13 @@ When creating a new folder, create its folder note at the same time.
 
 Streams carry knowledge in motion: finite forward work, runs of recurring obligations, and their review evidence. They are not part of the Library; their content is not canonical. Work matures through an approved record, stabilises into `Admin/`, `Pillars/`, or `Resources/`, and its reviewed record is retained until explicitly pruned.
 
-`Streams/Roadmap/` holds flat finite work records and its allocation ledger. Recurring obligations are defined as Activity notes in the configured collection; `ki-repo-kb-activities` owns their shape and `ki-work-recurring` owns opted-in cadence and run evidence. A record's horizon and lifecycle are frontmatter metadata, not navigation folders. The full Streams structure and routing are canonical in `ki-repo-kb-streams`; see [[Processes/Enactment Process/Enactment Process|Enactment Process]] for the local governance framing.
+`Streams/Roadmap/` holds flat finite work records and its allocation ledger. Recurring obligations are defined as Activity notes in the configured collection; `ki-repo-kb-activities` owns their shape and `ki-work-recurring` owns opted-in cadence and run evidence. A record's horizon and lifecycle are frontmatter metadata, not navigation folders. The full Streams structure and routing are canonical in `ki-repo-kb-streams`; see [Enactment Process](<../../Processes/Enactment Process/Enactment Process.md>) for the local governance framing.
 
 ---
 
 ## Port
 
-> [!todo] Port The Port is the island's point of entry and exit - where incoming material arrives before being assessed and routed inward, and where outgoing material leaves. The inbound working area `+/` and the outbound working area `-/` are its two sides. It has four modes: the dock, the rail depot, the airport and the customs house ([[GDR-KI-PRINCIPAL-010-the-port|GDR-KI-PRINCIPAL-010]]). Nothing flows directly from the Port into the Library; all material is assessed first, relevant content routed to the right Stream or zone, the rest discarded. The Port's structural conventions are not yet fully specified.
+> [!todo] Port The Port is the island's point of entry and exit - where incoming material arrives before being assessed and routed inward, and where outgoing material leaves. The inbound working area `+/` and the outbound working area `-/` are its two sides. It has four modes: the dock, the rail depot, the airport and the customs house ([GDR-KI-PRINCIPAL-010](../../../../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-010-the-port.md)). Nothing flows directly from the Port into the Library; all material is assessed first, relevant content routed to the right Stream or zone, the rest discarded. The Port's structural conventions are not yet fully specified.
 
 ---
 

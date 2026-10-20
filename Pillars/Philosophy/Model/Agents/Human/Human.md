@@ -12,13 +12,13 @@ author: Written with Claude
 
 ## Overview
 
-The human operating mode covers everything a person does directly in the island - creating and editing notes, navigating the graph, reviewing AI outputs, filing captures from the inbox, and curating structure over time. The primary tool for this mode is [[Obsidian]].
+The human operating mode covers everything a person does directly in the island - creating and editing notes, navigating the graph, reviewing AI outputs, filing captures from the inbox, and curating structure over time. The primary tool for this mode is [Obsidian](../../Tools/Obsidian/Obsidian.md).
 
 ---
 
 ## Primary Activities
 
-**Editing and creation** - Writing and maintaining notes directly in the Obsidian editor. Templates scaffold new notes to the correct format; the routing rules in [[CLAUDE]] determine where they are filed.
+**Editing and creation** - Writing and maintaining notes directly in the Obsidian editor. Templates scaffold new notes to the correct format; the routing rules in [CLAUDE](../../../../../CLAUDE.md) determine where they are filed.
 
 **Inbox curation** - Reviewing captures in the `+/` inbox, routing them to their correct permanent home in `Pillars`, `Resources`, or `Streams`, and linking them to existing notes.
 
@@ -26,4 +26,4 @@ The human operating mode covers everything a person does directly in the island 
 
 **Graph navigation** - Using Obsidian's graph view and wikilink traversal to explore connections, identify orphaned notes, and maintain structural health.
 
-**Periodic maintenance** - Running the scheduled activities documented in [[Model/Activities/Activities|Activities]], including status reviews, wikilink audits, and inbox clearance.
+**Periodic maintenance** - Running the scheduled activities documented in [Activities](../../Activities/Activities.md), including status reviews, wikilink audits, and inbox clearance.

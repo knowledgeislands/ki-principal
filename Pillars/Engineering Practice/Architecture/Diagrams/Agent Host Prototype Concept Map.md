@@ -8,9 +8,9 @@ author: AI-assisted
 
 ## Overview
 
-This diagram maps the limited remote agent prototype onto Knowledge Islands concepts, and separates what is live for the prototype from what the [[Techne Programme Focus]] keeps as ideas. It reads the prototype in the vocabulary of the model rather than of AWS, so that a technology choice is never mistaken for a concept. [KI-PRINCIPAL-GOV-020](https://github.com/knowledgeislands/ki-principal/blob/fddfca69b4642cb4db4113123aa7dc613c3e92f4/Streams/Roadmap/KI-ARCADIA-GOV-020-limited-remote-agent-prototype.md) defined the prototype and [[GDR-KI-PRINCIPAL-004-techne-focus-on-the-agent-host-and-the-mac-studio|GDR-KI-PRINCIPAL-004]] now records the focus that keeps the agent host in scope.
+This diagram maps the limited remote agent prototype onto Knowledge Islands concepts, and separates what is live for the prototype from what the [Techne Programme Focus](<../../../../Admin/Governance/Policies/Techne Programme Focus.md>) keeps as ideas. It reads the prototype in the vocabulary of the model rather than of AWS, so that a technology choice is never mistaken for a concept. [KI-PRINCIPAL-GOV-020](https://github.com/knowledgeislands/ki-principal/blob/fddfca69b4642cb4db4113123aa7dc613c3e92f4/Streams/Roadmap/KI-ARCADIA-GOV-020-limited-remote-agent-prototype.md) defined the prototype and [GDR-KI-PRINCIPAL-004](../../../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-004-techne-focus-on-the-agent-host-and-the-mac-studio.md) now records the focus that keeps the agent host in scope.
 
-![[Agent Host Prototype Concept Map.svg]]
+![Agent Host Prototype Concept Map.svg](<Agent Host Prototype Concept Map.svg>)
 
 ---
 
@@ -34,6 +34,6 @@ The Avatar, Kitteth, would hold delegated agency within the Realm, alongside Pap
 
 ## Source
 
-The SVG is exported from the Archify source [[Agent Host Prototype Concept Map.archify.json|beside it]]. To change the diagram, edit the source, run Archify's `finalize` for an `architecture` diagram at `showcase` quality, then export the SVG from the rendered viewer. The rendered HTML is a working file and is not kept.
+The SVG is exported from the Archify source [beside it](<Agent Host Prototype Concept Map.archify.json>). To change the diagram, edit the source, run Archify's `finalize` for an `architecture` diagram at `showcase` quality, then export the SVG from the rendered viewer. The rendered HTML is a working file and is not kept.
 
-Return to [[Pillars/Engineering Practice/Architecture/Diagrams/Diagrams|Diagrams]].
+Return to [Diagrams](Diagrams.md).

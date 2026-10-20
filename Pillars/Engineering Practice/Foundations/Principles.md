@@ -74,7 +74,7 @@ The knowledge base and the platform should be able to improve without requiring 
 
 ## Candidate Provenance
 
-The two candidate principles, the extension to Provider-Neutral Execution and FOSS-First and Inspectable, come from a ChatGPT conversation captured on 2026-10-03 and reconciled on 2026-10-11, when the other principles it proposed were found already held. Related unsettled concepts are in [[Emerging Concepts]].
+The two candidate principles, the extension to Provider-Neutral Execution and FOSS-First and Inspectable, come from a ChatGPT conversation captured on 2026-10-03 and reconciled on 2026-10-11, when the other principles it proposed were found already held. Related unsettled concepts are in [Emerging Concepts](<../../Philosophy/Emerging Concepts/Emerging Concepts.md>).
 
 ## Provenance
 

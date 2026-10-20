@@ -17,7 +17,7 @@ The Symbol Library is the canonical reference for the visual symbols used across
 
 The library provides two layers of asset: a reference sheet mapping symbols to their meanings, and a set of standalone illustrations for use in documents and interfaces.
 
-For the full symbolic semantics table and terrain language, see [[Visual Style/Visual Style|Visual Style]].
+For the full symbolic semantics table and terrain language, see [Visual Style](<../Visual Style/Visual Style.md>).
 
 ---
 
@@ -46,11 +46,11 @@ The eighteen canonical symbols, their meanings, and terrain associations:
 | Trade Route       | Collaboration / exchange                                            |
 | Mill              | Operational systems: the running of the island, routines and upkeep |
 
-The Port replaced the Harbour, and the Lighthouse and Council Hall took separate meanings, under [[GDR-KI-PRINCIPAL-010-the-port|GDR-KI-PRINCIPAL-010]]. The Harbour is retired as a symbol; operational systems, the old Port meaning, belong to `Admin/Operations`.
+The Port replaced the Harbour, and the Lighthouse and Council Hall took separate meanings, under [GDR-KI-PRINCIPAL-010](../../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-010-the-port.md). The Harbour is retired as a symbol; operational systems, the old Port meaning, belong to `Admin/Operations`.
 
-The Causeway replaced the Bridge as the translation layer, and the Mill was added for operational systems, under [[GDR-KI-PRINCIPAL-013-the-causeway-and-the-mill|GDR-KI-PRINCIPAL-013]]. Both are official. The Mill is the drawn form of `Admin/Operations`: a stone house with a waterwheel. "Bridge" now names the local app's Act command, not a symbol.
+The Causeway replaced the Bridge as the translation layer, and the Mill was added for operational systems, under [GDR-KI-PRINCIPAL-013](../../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-013-the-causeway-and-the-mill.md). Both are official. The Mill is the drawn form of `Admin/Operations`: a stone house with a waterwheel. "Bridge" now names the local app's Act command, not a symbol.
 
-The Capital was confirmed under [[GDR-KI-PRINCIPAL-011-the-capital|GDR-KI-PRINCIPAL-011]]. It holds the Library and the Council Hall and is drawn civic, a square and never a fortress; the symbol language stays non-combative, with no citadels, keeps, battlements or fortified towers. Civic towers - a clock tower, a cloister tower - may stand as architecture, never fortified and never on the Capital. The Observatory is also the mark of the local app.
+The Capital was confirmed under [GDR-KI-PRINCIPAL-011](../../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-011-the-capital.md). It holds the Library and the Council Hall and is drawn civic, a square and never a fortress; the symbol language stays non-combative, with no citadels, keeps, battlements or fortified towers. Civic towers - a clock tower, a cloister tower - may stand as architecture, never fortified and never on the Capital. The Observatory is also the mark of the local app.
 
 ### Port modes
 
@@ -69,7 +69,7 @@ A Port has four modes, each drawn as a district of one Port:
 
 The reference sheet presents all symbols together with their names and meanings - useful for onboarding, presentations, and design reference.
 
-![[visual-tiles-reference.png]]
+![visual-tiles-reference.png](visual-tiles-reference.png)
 
 ---
 
@@ -77,4 +77,4 @@ The reference sheet presents all symbols together with their names and meanings 
 
 Individual illustrations for each symbol, for use in documents, slides, and interfaces.
 
-![[visual-tiles-illustrations.png]]
+![visual-tiles-illustrations.png](visual-tiles-illustrations.png)

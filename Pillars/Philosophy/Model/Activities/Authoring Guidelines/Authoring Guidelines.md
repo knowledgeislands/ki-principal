@@ -134,7 +134,7 @@ The empty corners are informative. There is no "Agent-specific definition of an 
 
 Activity groups divide into two categories that are treated differently throughout this guide.
 
-**Constitutional groups** are prior to the adoption framework - they define what it means to be a Knowledge Island and cannot be vetoed. Currently there is one constitutional group: [[Model/Activities/Constitutional/Constitutional|Constitutional]], which contains the Conformance Check. Constitutional group indexes do not carry an Adoption Requirements section.
+**Constitutional groups** are prior to the adoption framework - they define what it means to be a Knowledge Island and cannot be vetoed. Currently there is one constitutional group: [Constitutional](../Constitutional/Constitutional.md), which contains the Conformance Check. Constitutional group indexes do not carry an Adoption Requirements section.
 
 **Adoptable groups** are everything else. Each island takes an explicit `adopted` or `vetoed` position on each adoptable group; absence of a position is non-conformant. Every adoptable group index note must carry an Adoption Requirements section (see below) that declares exactly what notes an island must create to adopt the group and how it records a veto. This makes the adoption contract explicit and machine-verifiable by the Conformance Check.
 
@@ -156,7 +156,7 @@ Every adoptable group index note must include an Adoption Requirements section. 
 
 ## Activity Note Format (Definition)
 
-The canonical format for Definition notes is defined in [[Activity Note]] under `Conventions/Notes/Types/`. Required sections are Overview, Trigger, and Outcome. The optional `## Script` section holds the executable prompt when the activity is lightweight enough to keep it inline - for substantial procedures (Route Triage, Knowledge Rebuild), the executable procedure lives in the skill that realises the activity, and the Definition note stays runtime-neutral.
+The canonical format for Definition notes is defined in [Activity Note](<../../Conventions/Notes/Activity Note.md>) under `Conventions/Notes/Types/`. Required sections are Overview, Trigger, and Outcome. The optional `## Script` section holds the executable prompt when the activity is lightweight enough to keep it inline - for substantial procedures (Route Triage, Knowledge Rebuild), the executable procedure lives in the skill that realises the activity, and the Definition note stays runtime-neutral.
 
 ---
 

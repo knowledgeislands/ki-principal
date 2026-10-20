@@ -22,7 +22,7 @@ Hosts appear here by role, home and hub, not by machine name. Public governance 
 
 ## The layers
 
-- **Realm.** The governed environment, with its own rules for identity, capability and crossing. Knowledge Islands is the first realm. A realm is what gets a public name; "knowledge realms" is the registry where realms declare themselves (see [[Realm Model]]).
+- **Realm.** The governed environment, with its own rules for identity, capability and crossing. Knowledge Islands is the first realm. A realm is what gets a public name; "knowledge realms" is the registry where realms declare themselves (see [Realm Model](<Realm Model.md>)).
 - **Territory.** Eight of them, each with one Capital, one accountable authority and one harness. This is the unit everything else routes by.
 - **Island.** A repository. It belongs to one territory and is drawn in that territory's archipelago, or apart from it as an exclave.
 - **Host.** A physical place: the home host (the workstation), the hub host (the always-on studio) and the Techne agent host, within the Techne Programme Focus. Every one of Kris's hosts holds all eight territories in Git, so any host can stand in for any other.
@@ -32,7 +32,7 @@ Hosts appear here by role, home and hub, not by machine name. Public governance 
 
 ## The bindings
 
-- **Seat.** Each territory has one _seat_: the host where it is primarily tended, where its coordination service is active and where messages for it land first. The other host holds a full replica and is its _standby_. Knowledge Islands is the one territory seated on both, active-active, with the hub breaking ties. [[ADR-KI-PRINCIPAL-007-territory-seats-on-hosts|ADR-KI-PRINCIPAL-007]] records the seats, and [[Known Lands]] lists each territory's seat.
+- **Seat.** Each territory has one _seat_: the host where it is primarily tended, where its coordination service is active and where messages for it land first. The other host holds a full replica and is its _standby_. Knowledge Islands is the one territory seated on both, active-active, with the hub breaking ties. [ADR-KI-PRINCIPAL-007](../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-007-territory-seats-on-hosts.md) records the seats, and [Known Lands](<../../../Admin/Governance/Known Lands.md>) lists each territory's seat.
 - **Address.** Each realm, territory and host gets a name in a realm namespace: `<territory>.<realm-domain>` for a territory's front door, `<host>.krisb.<realm-domain>` for a machine. The address resolves to the territory's seat; tailnet DNS is the transport beneath it, not the address itself.
 - **Service set.** Every host runs the same services: the Observatory (Instruments, Beacon, Bridge) and a Paperclip service, plus the pub-sub endpoint later. The seat decides which territories each service treats as live on that host.
 
@@ -51,13 +51,13 @@ Hosts appear here by role, home and hub, not by machine name. Public governance 
 
 | Dimension | Applies to | Values | Recorded today |
 | --- | --- | --- | --- |
-| Class | Territory | entity, individual | [[Known Lands]] |
-| Seat | Territory | home: humans-not-robots; hub: valle-armonia, sacred-inquiry, techmedix, equal-remedy; both: knowledge-islands, personal, legal, tipped to the hub | [[Known Lands]], [[ADR-KI-PRINCIPAL-007-territory-seats-on-hosts\|ADR-KI-PRINCIPAL-007]] |
-| Exposure | Territory, service | public address, tailnet only, host local | Partly: the Domains table in [[Known Lands]] |
+| Class | Territory | entity, individual | [Known Lands](<../../../Admin/Governance/Known Lands.md>) |
+| Seat | Territory | home: humans-not-robots; hub: valle-armonia, sacred-inquiry, techmedix, equal-remedy; both: knowledge-islands, personal, legal, tipped to the hub | [Known Lands](<../../../Admin/Governance/Known Lands.md>), [ADR-KI-PRINCIPAL-007](../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-007-territory-seats-on-hosts.md) |
+| Exposure | Territory, service | public address, tailnet only, host local | Partly: the Domains table in [Known Lands](<../../../Admin/Governance/Known Lands.md>) |
 | Organisation | Island | GitHub organisation | Estate Map |
-| Role | Island | Capital, harness, publication, product, tool, MCP, delivery | [[Known Lands]], Estate Map |
+| Role | Island | Capital, harness, publication, product, tool, MCP, delivery | [Known Lands](<../../../Admin/Governance/Known Lands.md>), Estate Map |
 | Host role | Host | workstation, always-on hub, agent host | Project notes only |
-| Seat role | Host, per territory | seat, standby | [[ADR-KI-PRINCIPAL-007-territory-seats-on-hosts\|ADR-KI-PRINCIPAL-007]] |
+| Seat role | Host, per territory | seat, standby | [ADR-KI-PRINCIPAL-007](../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-007-territory-seats-on-hosts.md) |
 | Culture | Agent | the harness and runtime it runs under, and its seat | Nowhere yet |
 | Account | Host, run | the Claude or Codex account and its windows | Nowhere yet |
 
@@ -67,4 +67,4 @@ Two observations shape the rest. The seat is better expressed as a _role_ (home,
 
 ## Provenance
 
-Written on 2026-10-15 from section 1 of the state-of-play thread's foundations-coherence survey of 14 October, on Kris's decision of 15 October to hold it here, beside [[Realm Model]], rather than in a Project. [[island-model-and-tending|Island model and Tending]] points to it for the whole-philosophy review. It is the first pilot of the inception loop in [[knowledge-acquisition|Knowledge acquisition]]: the capture from that discussion folds back into this note.
+Written on 2026-10-15 from section 1 of the state-of-play thread's foundations-coherence survey of 14 October, on Kris's decision of 15 October to hold it here, beside [Realm Model](<Realm Model.md>), rather than in a Project. [Island model and Tending](../../../Streams/Projects/island-model-and-tending.md) points to it for the whole-philosophy review. It is the first pilot of the inception loop in [Knowledge acquisition](../../../Streams/Projects/knowledge-acquisition.md): the capture from that discussion folds back into this note.

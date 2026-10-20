@@ -13,7 +13,7 @@ author: Written with Claude
 
 ## Overview
 
-Defines the delta from [[Notes]] for activity notes - notes that document what an island activity does and why. These live under `Activities/{group}/` and are agent-agnostic: they describe the activity, not the prompt or implementation.
+Defines the delta from [Notes](Notes.md) for activity notes - notes that document what an island activity does and why. These live under `Activities/{group}/` and are agent-agnostic: they describe the activity, not the prompt or implementation.
 
 ---
 

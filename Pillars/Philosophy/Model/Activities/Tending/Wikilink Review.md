@@ -19,7 +19,7 @@ A focused review of wikilink health across the repository. Surfaces broken outli
 
 ## When
 
-Adhoc - _"ki wikilink review"_. Typically paired with [[Structural Audit]] or [[Inbox Review]]. Run any time new notes are created in bulk or a section of the repository has been significantly restructured.
+Adhoc - _"ki wikilink review"_. Typically paired with [Structural Audit](<Structural Audit.md>) or [Inbox Review](<Inbox Review.md>). Run any time new notes are created in bulk or a section of the repository has been significantly restructured.
 
 ---
 
@@ -27,7 +27,7 @@ Adhoc - _"ki wikilink review"_. Typically paired with [[Structural Audit]] or [[
 
 1. Query for broken outlinks - wikilinks that point to a file which does not exist; decide whether to create the missing note or correct the link
 2. Query for orphan notes - files with no backlinks; decide whether to link them from an appropriate index or parent note, or whether they are genuinely standalone
-3. Cross-reference both lists against [[Inbox Review]] - new notes in `+/` that haven't been linked yet are the most common source of orphans
+3. Cross-reference both lists against [Inbox Review](<Inbox Review.md>) - new notes in `+/` that haven't been linked yet are the most common source of orphans
 
 ---
 

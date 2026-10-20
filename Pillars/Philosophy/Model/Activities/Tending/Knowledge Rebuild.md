@@ -20,8 +20,8 @@ A weekly scheduled task that reads the canonical meta notes in the island and re
 
 ## What It Does
 
-1. Locates the island repository via [[Admin/Governance/Governance|Admin/Governance]]
-2. Reads all canonical meta notes (as listed in [[Canonical Meta Notes]])
+1. Locates the island repository via [Admin/Governance](../../../../../Admin/Governance/Governance.md)
+2. Reads all canonical meta notes (as listed in [Canonical Meta Notes](<../../../../../Admin/Governance/Conventions/Canonical Meta Notes.md>))
 3. Reads the existing canonical memory files and compares them against the canonical notes - surfacing gaps, stale content, and anything worth adding before overwriting
 4. Verifies cross-references in both directions: KI notes with `memory_file:` frontmatter have a corresponding memory file; memory files with `## KI Sources` reference KI notes that still exist at those paths
 5. Prompts for confirmation or additions before proceeding
@@ -34,17 +34,17 @@ A weekly scheduled task that reads the canonical meta notes in the island and re
 
 ## Canonical Memory Files
 
-The rebuild manages exactly five canonical files. `{ki_prefix}` and `{user_prefix}` are the island's prefixes from the [[Admin/Governance/Charter|Charter]].
+The rebuild manages exactly five canonical files. `{ki_prefix}` and `{user_prefix}` are the island's prefixes from the [Charter](../../../../../Admin/Governance/Charter.md).
 
 | File | Contents |
 | --- | --- |
 | `user_{user_prefix}_profile.md` | The user's role, expertise, language and output-format preferences, and ways of working |
 | `project_{ki_prefix}_structure.md` | Folder layout, routing rules, zone boundaries, index-note rules and Calendar path conventions |
 | `project_{ki_prefix}_note_format.md` | Note structure, frontmatter fields, tag taxonomy, table formatting and title conventions |
-| `feedback_{ki_prefix}_operations.md` | Operational rules and known pitfalls, drawn from [[Mistakes and Lessons]] and the Activities |
+| `feedback_{ki_prefix}_operations.md` | Operational rules and known pitfalls, drawn from [Mistakes and Lessons](<../../../../../Admin/Operations/Mistakes and Lessons.md>) and the Activities |
 | `reference_{ki_prefix}_key_notes.md` | Canonical paths to the meta notes, integrations and the activity schedule |
 
-Every canonical file carries frontmatter with `name`, `description` and `type`, and ends with a mandatory `## KI Sources` section listing the island notes it was distilled from. Island notes declare the reverse link through the `memory_file:` frontmatter convention in [[Residency]].
+Every canonical file carries frontmatter with `name`, `description` and `type`, and ends with a mandatory `## KI Sources` section listing the island notes it was distilled from. Island notes declare the reverse link through the `memory_file:` frontmatter convention in [Residency](../../Conventions/Residency/Residency.md).
 
 ---
 
@@ -64,7 +64,7 @@ Run before overwriting any canonical file. The goal is to surface drift between 
 - [ ] Flag any auxiliary file whose content is now fully covered by canonical memory - these are candidates for deletion after rebuild
 - [ ] Do not rewrite auxiliary files - surface findings for the user to triage manually
 
-**Canonical file check** (uses the canonical-file list above and the `memory_file:` convention in [[Residency]])
+**Canonical file check** (uses the canonical-file list above and the `memory_file:` convention in [Residency](../../Conventions/Residency/Residency.md))
 
 - [ ] Confirm that each of the five canonical files exists in the memory directory
 - [ ] Classify every other file in the memory directory (excluding `MEMORY.md`) as auxiliary, and confirm that `MEMORY.md` lists it

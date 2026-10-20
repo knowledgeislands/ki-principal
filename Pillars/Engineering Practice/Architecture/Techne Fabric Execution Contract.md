@@ -16,7 +16,7 @@ This chapter defines meaning and responsibility. It is not a portable schema, AP
 
 ## Contract Boundary
 
-An execution contract does not require a permanently running agent or worker. A controller session may create several executions, and an execution may recover into a replacement task environment while retaining its identity and authority. [[Governed Work Controller]] defines those identity boundaries.
+An execution contract does not require a permanently running agent or worker. A controller session may create several executions, and an execution may recover into a replacement task environment while retaining its identity and authority. [Governed Work Controller](<Governed Work Controller.md>) defines those identity boundaries.
 
 An execution contract binds one objective to one immutable repository baseline, one working context, one authority envelope, one versioned workload footprint, one eligible execution target, one evidence destination and one lifetime. Admission records the binding before consequential work begins.
 
@@ -99,17 +99,17 @@ A successful proof demonstrates the same execution bindings and evidence meaning
 
 ## Relationships
 
-[[AI Execution Fabric]] defines target selection and placement around this contract.
+[AI Execution Fabric](<AI Execution Fabric.md>) defines target selection and placement around this contract.
 
-[[Engineering Estate]] defines the architectural roles that supply and consume it.
+[Engineering Estate](<Engineering Estate.md>) defines the architectural roles that supply and consume it.
 
-[[Agentic Operating Approach]] places the contract within the wider flow from human intent to governed outcome.
+[Agentic Operating Approach](<Agentic Operating Approach.md>) places the contract within the wider flow from human intent to governed outcome.
 
-[[ADR-KI-PRINCIPAL-004-provider-neutral-isolated-agent-execution|ADR-KI-PRINCIPAL-004]] records the provider-neutral isolation decision.
+[ADR-KI-PRINCIPAL-004](../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-004-provider-neutral-isolated-agent-execution.md) records the provider-neutral isolation decision.
 
-[[ADR-KI-PRINCIPAL-006-techne-implementation-ownership|ADR-KI-PRINCIPAL-006]] records the implementation-owner decision.
+[ADR-KI-PRINCIPAL-006](../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-006-techne-implementation-ownership.md) records the implementation-owner decision.
 
-Return to [[Architecture]].
+Return to [Architecture](Architecture.md).
 
 ## Provenance
 

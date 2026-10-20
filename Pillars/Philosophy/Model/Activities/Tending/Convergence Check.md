@@ -14,7 +14,7 @@ author: Written with Claude
 
 ## Overview
 
-An adhoc activity that compares the generic Knowledge Islands notes across all islands, surfaces any drift that has accumulated, and propagates improvements from one Knowledge Island to the others. Ensures the portability model stays intact: Knowledge Island specific content stays in [[Admin/Governance/Governance|Admin/Governance]], everything else stays identical.
+An adhoc activity that compares the generic Knowledge Islands notes across all islands, surfaces any drift that has accumulated, and propagates improvements from one Knowledge Island to the others. Ensures the portability model stays intact: Knowledge Island specific content stays in [Admin/Governance](../../../../../Admin/Governance/Governance.md), everything else stays identical.
 
 Run this when changes have been made to shared notes in one Knowledge Island, when a new Knowledge Island is being onboarded, or as a quarterly health check on the portability structure.
 

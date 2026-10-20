@@ -14,11 +14,11 @@ It defines the engineering practice required to design, operate, and evolve AI-n
 
 Knowledge Islands Principal holds the philosophy of Knowledge Islands and its Techné engineering practice: architecture, operating models, engineering workflows, and implementation patterns.
 
-[[Agentic Operating Approach]] introduces how a person coordinates agentic work through one enduring persona, explicit working contexts, bounded authority and portable execution.
+[Agentic Operating Approach](<Architecture/Agentic Operating Approach.md>) introduces how a person coordinates agentic work through one enduring persona, explicit working contexts, bounded authority and portable execution.
 
 The architecture separates stable roles before mapping products onto them. Personal coordination and reasoning, governance, deterministic operations, fabric operation, task execution, human interaction, governed knowledge, connectivity and model inference can evolve independently behind explicit boundaries.
 
-The Techne Fabric, described in [[AI Execution Fabric]], is the execution part of that architecture.
+The Techne Fabric, described in [AI Execution Fabric](<Architecture/AI Execution Fabric.md>), is the execution part of that architecture.
 
 It provides a provider-neutral model for matching context-eligible agent footprints and bounded assignments with local, managed, elastic or dedicated targets. Controller placement, worker placement and model-inference placement remain independent choices.
 
@@ -26,7 +26,7 @@ Each routing decision balances capability, latency, privacy, cost, context lengt
 
 Current and candidate implementation mappings include Zed, Hermes Agent, tools-mgit, Herdr, Tailscale, llama.cpp and MLX-LM. Knowledge Islands supplies governed repositories and relationships. These names describe the present estate and options under evaluation; they do not define the architectural roles or make a particular provider, runtime, interface or model mandatory.
 
-The `ki` tool implements governance workflows. A distinct execution-fabric operator may later implement provisioning, dispatch, lifecycle and evidence-return operations, with implementation ownership assigned by [[ADR-KI-PRINCIPAL-006-techne-implementation-ownership|ADR-KI-PRINCIPAL-006]] to `ki-techne-harness` and the operator interface to `tools-techne`. Those product boundaries do not merge the architectural roles.
+The `ki` tool implements governance workflows. A distinct execution-fabric operator may later implement provisioning, dispatch, lifecycle and evidence-return operations, with implementation ownership assigned by [ADR-KI-PRINCIPAL-006](../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-006-techne-implementation-ownership.md) to `ki-techne-harness` and the operator interface to `tools-techne`. Those product boundaries do not merge the architectural roles.
 
 The skills the `ki` tool governs are drawn in the Knowledge Islands Agentic Harness's [skill diagrams](https://github.com/knowledgeislands/ki-agentic-harness/blob/main/docs/diagrams/README.md), each with its interactive HTML viewer committed beside it and refreshed under `ki-diagrams` after each skills review. As committed at harness revision `0df81f40`, the [skill map](https://github.com/knowledgeislands/ki-agentic-harness/blob/0df81f407e1bc9f35b734478e77d78f304ba3896/docs/diagrams/skill-map.svg) draws every skill in its source concern, overlays the functional areas it serves and colours it by shape, and indexes ten functional-area diagrams - [Fundamentals](https://github.com/knowledgeislands/ki-agentic-harness/blob/0df81f407e1bc9f35b734478e77d78f304ba3896/docs/diagrams/skill-area-fundamentals.svg), [Records and code](https://github.com/knowledgeislands/ki-agentic-harness/blob/0df81f407e1bc9f35b734478e77d78f304ba3896/docs/diagrams/skill-area-records-and-code.svg), [Coordination](https://github.com/knowledgeislands/ki-agentic-harness/blob/0df81f407e1bc9f35b734478e77d78f304ba3896/docs/diagrams/skill-area-coordination.svg), [Work and delivery](https://github.com/knowledgeislands/ki-agentic-harness/blob/0df81f407e1bc9f35b734478e77d78f304ba3896/docs/diagrams/skill-area-work-and-delivery.svg), [Repository types](https://github.com/knowledgeislands/ki-agentic-harness/blob/0df81f407e1bc9f35b734478e77d78f304ba3896/docs/diagrams/skill-area-repository-types.svg), [Agentic systems](https://github.com/knowledgeislands/ki-agentic-harness/blob/0df81f407e1bc9f35b734478e77d78f304ba3896/docs/diagrams/skill-area-agentic-systems.svg), [Environment](https://github.com/knowledgeislands/ki-agentic-harness/blob/0df81f407e1bc9f35b734478e77d78f304ba3896/docs/diagrams/skill-area-environment.svg), [Acquire](https://github.com/knowledgeislands/ki-agentic-harness/blob/0df81f407e1bc9f35b734478e77d78f304ba3896/docs/diagrams/skill-area-acquire.svg), [Signals](https://github.com/knowledgeislands/ki-agentic-harness/blob/0df81f407e1bc9f35b734478e77d78f304ba3896/docs/diagrams/skill-area-signals.svg) and [Design](https://github.com/knowledgeislands/ki-agentic-harness/blob/0df81f407e1bc9f35b734478e77d78f304ba3896/docs/diagrams/skill-area-design.svg) - each gathering the skills that serve one function wherever their folder is, generated from the skills' declared dependencies to show which outside skills an area's skills rely on, which rely on them and how they rely on each other. The [thread model](https://github.com/knowledgeislands/ki-agentic-harness/blob/0df81f407e1bc9f35b734478e77d78f304ba3896/docs/diagrams/thread-model.svg) is a workflow diagram, traced from `ki-pmo` and `ki-delegation`, of how a coordinating thread turns an owner decision into a brief, a detached `ki agent` run and an owner report. The ways-of-working Project in Streams holds their history.
 
@@ -36,23 +36,23 @@ Its architecture, decisions, evaluations, and operating guidance evolve through 
 
 ## Architecture
 
-[[Pillars/Engineering Practice/Architecture/Architecture|Architecture]] defines the roles and boundaries of the engineering estate before any product is mapped onto them. It covers the agentic operating approach, the governed work controller, the Techne Fabric and its execution contract, knowledge architecture, the first controller workload evaluation and the diagrams that illustrate them. Current products appear only as replaceable mappings onto those roles.
+[Architecture](Architecture/Architecture.md) defines the roles and boundaries of the engineering estate before any product is mapped onto them. It covers the agentic operating approach, the governed work controller, the Techne Fabric and its execution contract, knowledge architecture, the first controller workload evaluation and the diagrams that illustrate them. Current products appear only as replaceable mappings onto those roles.
 
 ## Foundations
 
-[[Pillars/Engineering Practice/Foundations/Foundations|Foundations]] establishes why Techné exists and how its trade-offs are judged. Its Vision, Goals, Non-Goals and Principles set the discipline's purpose, intended outcomes, boundaries and decision criteria. The other chapters cite these when a choice needs justifying.
+[Foundations](Foundations/Foundations.md) establishes why Techné exists and how its trade-offs are judged. Its Vision, Goals, Non-Goals and Principles set the discipline's purpose, intended outcomes, boundaries and decision criteria. The other chapters cite these when a choice needs justifying.
 
 ## MEMORY
 
-[[Engineering Practice/MEMORY|MEMORY]] is the scoped memory index for this pillar, loaded before substantive engineering knowledge work. It states the pillar's scope and its current boundaries, including the [[Techne Programme Focus]] and the separate implementation ownership of `ki-techne-harness` and `tools-techne`.
+[MEMORY](MEMORY.md) is the scoped memory index for this pillar, loaded before substantive engineering knowledge work. It states the pillar's scope and its current boundaries, including the [Techne Programme Focus](<../../Admin/Governance/Policies/Techne Programme Focus.md>) and the separate implementation ownership of `ki-techne-harness` and `tools-techne`.
 
 ## Operating Model
 
-[[Pillars/Engineering Practice/Operating Model/Operating Model|Operating Model]] defines how Techné turns an objective into reviewed work and durable knowledge. It sets out working contexts, the attached, persistent and unattended working modes, write ownership and human handover, a six-stage lifecycle from framing to evolution, and the control points that keep engineering disciplined. It also holds the Technology Investigation Programme for evidence-backed technology questions.
+[Operating Model](<Operating Model/Operating Model.md>) defines how Techné turns an objective into reviewed work and durable knowledge. It sets out working contexts, the attached, persistent and unattended working modes, write ownership and human handover, a six-stage lifecycle from framing to evolution, and the control points that keep engineering disciplined. It also holds the Technology Investigation Programme for evidence-backed technology questions.
 
 ## Technology
 
-[[Pillars/Engineering Practice/Technology/Technology|Technology]] records the current engineering posture toward technologies that affect the Knowledge Islands ecosystem. Its Technology Radar sorts them into Adopt, Trial, Assess and Hold, with a review practice for moving them between rings. Posture changes are informed by the Technology Investigation Programme rather than by automatic adoption.
+[Technology](Technology/Technology.md) records the current engineering posture toward technologies that affect the Knowledge Islands ecosystem. Its Technology Radar sorts them into Adopt, Trial, Assess and Hold, with a review practice for moving them between rings. Posture changes are informed by the Technology Investigation Programme rather than by automatic adoption.
 
 ## Provenance
 

@@ -20,34 +20,34 @@ The visual language is grounded in the same metaphors that underpin the model it
 
 ## Visual Style
 
-[[Visual Style/Visual Style|Visual Style]] defines the complete brand system for Knowledge Islands: the emotional tone, colour palette, typography direction, illustration style, motion language, and the geographic and symbolic metaphors that carry consistent meaning across all visual outputs. It includes the reusable master prompt for generating on-brand imagery.
+[Visual Style](<Visual Style/Visual Style.md>) defines the complete brand system for Knowledge Islands: the emotional tone, colour palette, typography direction, illustration style, motion language, and the geographic and symbolic metaphors that carry consistent meaning across all visual outputs. It includes the reusable master prompt for generating on-brand imagery.
 
 ---
 
 ## Symbol Library
 
-[[Symbol Library/Symbol Library|Symbol Library]] documents the canonical set of visual symbols used across Knowledge Islands outputs. Each symbol carries a defined conceptual meaning - Island, Archipelago, Port, Lighthouse, and so on - and is provided as a reference tile and as standalone illustration artwork. The library ensures symbolic consistency across diagrams, presentations, and interfaces.
+[Symbol Library](<Symbol Library/Symbol Library.md>) documents the canonical set of visual symbols used across Knowledge Islands outputs. Each symbol carries a defined conceptual meaning - Island, Archipelago, Port, Lighthouse, and so on - and is provided as a reference tile and as standalone illustration artwork. The library ensures symbolic consistency across diagrams, presentations, and interfaces.
 
 ---
 
 ## Lore Sheet
 
-[[Lore Sheet/Lore Sheet|Lore Sheet]] names the eight motifs that give Knowledge Islands its world - the Great Library, the Capital, the Port and its customs house, the Mill, the tides, the Known Lands and their fog, the compass and the Ruins - and rules out creatures, magic and crystals.
+[Lore Sheet](<Lore Sheet/Lore Sheet.md>) names the eight motifs that give Knowledge Islands its world - the Great Library, the Capital, the Port and its customs house, the Mill, the tides, the Known Lands and their fog, the compass and the Ruins - and rules out creatures, magic and crystals.
 
 ---
 
 ## Isometric Tiles
 
-[[Isometric Tiles/Isometric Tiles|Isometric Tiles]] holds the isometric tile sets: terrain types (land, cliffs, coastal, ocean), structure tiles (small buildings through to landmarks), connectors, props, and large composition examples. These are the building blocks for constructing map-like visual representations of Knowledge Islands territories and architectures.
+[Isometric Tiles](<Isometric Tiles/Isometric Tiles.md>) holds the isometric tile sets: terrain types (land, cliffs, coastal, ocean), structure tiles (small buildings through to landmarks), connectors, props, and large composition examples. These are the building blocks for constructing map-like visual representations of Knowledge Islands territories and architectures.
 
 ---
 
 ## Diagrams
 
-[[Diagrams/Diagrams|Diagrams]] collects the canonical conceptual diagrams for Knowledge Islands - the system overview (The Cycle, Agents, Geography), the territory map showing Knowledge Islands Principal and its satellite islands, and the Knowledge Hierarchy (Information, Knowledge, Wisdom). These are the primary reference visuals for explaining the model.
+[Diagrams](Diagrams/Diagrams.md) collects the canonical conceptual diagrams for Knowledge Islands - the system overview (The Cycle, Agents, Geography), the territory map showing Knowledge Islands Principal and its satellite islands, and the Knowledge Hierarchy (Information, Knowledge, Wisdom). These are the primary reference visuals for explaining the model.
 
 ---
 
 ## Logo
 
-[[Logo/Logo|Logo]] holds the canonical Knowledge Islands logo: the circular island-and-arch emblem with the wordmark. Includes usage notes and the source file.
+[Logo](Logo/Logo.md) holds the canonical Knowledge Islands logo: the circular island-and-arch emblem with the wordmark. Includes usage notes and the source file.

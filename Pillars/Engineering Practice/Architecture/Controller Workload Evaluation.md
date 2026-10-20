@@ -160,7 +160,7 @@ No implementation record is automatically created or adopted by this evaluation.
 
 Revisit this decision after the first useful repository-verification implementation has produced runtime, resource, failure and operator-value evidence, or earlier if its isolation envelope cannot be enforced on `local`. Only then decide whether the second proof should be advisory code review, another agentic workload or a different execution target.
 
-Return [[Architecture]].
+Return [Architecture](Architecture.md).
 
 ## Provenance
 

@@ -13,7 +13,7 @@ author: Written with Claude
 
 ## Overview
 
-An island's integrations record is the single declaration of the services it has connected - MCP tool prefixes, calendar sources, task managers, inbox paths and other service identifiers. Its governing principle is that activities read every tool identifier from this record at runtime and never embed one in a prompt. It bridges the portable tool documentation in [[Tools]], which describes what each tool does, and the specific services one island has actually connected. Knowledge Islands Principal's own record is [[Admin Conventions/Integrations|Admin Conventions/Integrations]].
+An island's integrations record is the single declaration of the services it has connected - MCP tool prefixes, calendar sources, task managers, inbox paths and other service identifiers. Its governing principle is that activities read every tool identifier from this record at runtime and never embed one in a prompt. It bridges the portable tool documentation in [Tools](../../Model/Tools/Tools.md), which describes what each tool does, and the specific services one island has actually connected. Knowledge Islands Principal's own record is [Admin Conventions/Integrations](<../../../../Admin/Governance/Conventions/Admin Conventions/Integrations.md>).
 
 ---
 
@@ -27,13 +27,13 @@ The record is a table with one row per purpose the island's activities need serv
 
 Activity prompts resolve platform-specific values from the integrations record rather than carrying them. When a service changes - a new tool prefix, a moved inbox, a replaced task manager - one edit to the record updates every activity that depends on it on its next run. This is what lets the same Activity definitions run unchanged on islands with different services.
 
-The [[Realisation/Charter/Charter|Charter]] summarises which tools are connected; the integrations record says how to reach them. When the [[Model/Activities/Constitutional/Conformance|Conformance Check]] confirms that each adopted group has its required configuration, the integrations record is where the services part of that configuration is found.
+The [Charter](../Charter/Charter.md) summarises which tools are connected; the integrations record says how to reach them. When the [Conformance Check](../../Model/Activities/Constitutional/Conformance.md) confirms that each adopted group has its required configuration, the integrations record is where the services part of that configuration is found.
 
 ---
 
 ## What Does Not Belong Here
 
-The record covers the island's own runtime surface. Infrastructure that acts on the island's repositories without being part of that surface - such as GitHub Apps and other automated identities in a release chain - is recorded separately; Knowledge Islands Principal keeps it in [[GitHub Apps]]. Physical store locations are recorded in [[Physical Locations]], and routing rules in their own convention note.
+The record covers the island's own runtime surface. Infrastructure that acts on the island's repositories without being part of that surface - such as GitHub Apps and other automated identities in a release chain - is recorded separately; Knowledge Islands Principal keeps it in [GitHub Apps](<../../../../Admin/Governance/Conventions/Admin Conventions/GitHub Apps.md>). Physical store locations are recorded in [Physical Locations](<../../../../Admin/Governance/Conventions/Admin Conventions/Physical Locations.md>), and routing rules in their own convention note.
 
 ---
 

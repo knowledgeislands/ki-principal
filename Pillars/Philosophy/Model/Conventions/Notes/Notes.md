@@ -22,13 +22,13 @@ Three convention areas govern notes. Format defines the physical structure: what
 
 ## Format
 
-The physical structure of a note - its sections, heading conventions, footer rules, table formatting, markdown norms, and wikilink and image conventions - is defined in [[Format]]. All notes follow this structure; type-specific variations are always additions or overrides, never replacements.
+The physical structure of a note - its sections, heading conventions, footer rules, table formatting, markdown norms, and wikilink and image conventions - is defined in [Format](Format.md). All notes follow this structure; type-specific variations are always additions or overrides, never replacements.
 
 ---
 
 ## Frontmatter
 
-Every note carries a YAML frontmatter block. Frontmatter has two parts: [[Properties]] defines the standard fields (`status`, `author`, and optional fields), and [[Tags]] defines the hierarchical tag taxonomy used across all notes. Both are a superset - not every property or tag applies to every island.
+Every note carries a YAML frontmatter block. Frontmatter has two parts: [Properties](Properties.md) defines the standard fields (`status`, `author`, and optional fields), and [Tags](Tags.md) defines the hierarchical tag taxonomy used across all notes. Both are a superset - not every property or tag applies to every island.
 
 Island-specific extensions and overrides live in Knowledge Capital.
 
@@ -38,10 +38,10 @@ Island-specific extensions and overrides live in Knowledge Capital.
 
 The base format applies to all notes. Four specialised structures extend it for specific purposes.
 
-[[Collection Card]] is a lighter format for reference entries - people, organisations, concepts - and for index notes. Uses `card/*` tags and typically has fewer body sections than a full note.
+[Collection Card](<Collection Card.md>) is a lighter format for reference entries - people, organisations, concepts - and for index notes. Uses `card/*` tags and typically has fewer body sections than a full note.
 
-[[Meeting Note]] defines the structure for recording meetings: a themed body with optional Key Decisions, Open Items, and Action Items sub-sections per theme, plus required attendee and transcript fields in the Overview.
+[Meeting Note](<Meeting Note.md>) defines the structure for recording meetings: a themed body with optional Key Decisions, Open Items, and Action Items sub-sections per theme, plus required attendee and transcript fields in the Overview.
 
-[[Session Digest]] defines the structure for AI-assisted work session summaries, including the five standard sections and the note's temporary lifecycle - session digests are deleted once their content has been extracted to the appropriate Pillars or Streams notes.
+[Session Digest](<Session Digest.md>) defines the structure for AI-assisted work session summaries, including the five standard sections and the note's temporary lifecycle - session digests are deleted once their content has been extracted to the appropriate Pillars or Streams notes.
 
-[[Activity Note]] defines the structure for activity notes: required sections (Overview, Trigger, Outcome), the optional Prompt section, and the sync discipline for keeping island notes and scheduled tasks aligned.
+[Activity Note](<Activity Note.md>) defines the structure for activity notes: required sections (Overview, Trigger, Outcome), the optional Prompt section, and the sync discipline for keeping island notes and scheduled tasks aligned.

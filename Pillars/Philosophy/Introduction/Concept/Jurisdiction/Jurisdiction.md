@@ -39,11 +39,11 @@ Every person who interacts with an island has a standing within it:
 | --- | --- | --- | --- |
 | **Standing** | Informal | Full | Full |
 | **Council eligibility** | ✗ | Eligible | Member |
-| **Formal proposals** | ✗ | ✗ | ✓ via [[Processes/Enactment Process/Enactment Process \| Enactment Process]] |
+| **Formal proposals** | ✗ | ✗ | ✓ via [Enactment Process](<../../../Model/Processes/Enactment Process/Enactment Process.md>) |
 | **Informal contribution** | ✓ | ✓ | ✓ |
 
 Citizenship is a prerequisite for council membership - a council member must be a Citizen of the island they govern. The council (or governor, for single-governor islands) grants citizenship. Citizenship is not restricted to a single island; a person may hold citizenship across multiple territories simultaneously, and therefore be eligible for council membership in each. A Visitor with a substantive contribution may seek citizenship, or ask an existing council member to carry the proposal forward on their behalf.
 
-Each island's governance pattern, council membership, and citizenship are tracked in its [[Admin/Governance/Governance|Admin/Governance]].
+Each island's governance pattern, council membership, and citizenship are tracked in its [Admin/Governance](../../../../../Admin/Governance/Governance.md).
 
-Jurisdiction is enacted in practice through the [[Processes/Enactment Process/Enactment Process|Enactment Process]] and [[Contribution Process]].
+Jurisdiction is enacted in practice through the [Enactment Process](<../../../Model/Processes/Enactment Process/Enactment Process.md>) and [Contribution Process](<../../../Model/Processes/Contribution Process/Contribution Process.md>).

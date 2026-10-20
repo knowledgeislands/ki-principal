@@ -16,22 +16,22 @@ Pillars holds the internal knowledge of this island - the methodologies, framewo
 
 ## Aesthetics
 
-[[Aesthetics/Aesthetics|Aesthetics]] holds the visual identity and design language of Knowledge Islands - the brand system, symbolic vocabulary, and asset library. It covers the visual style guide, the canonical symbol library, isometric tile sets for constructing territory maps, conceptual diagrams, and the logo.
+[Aesthetics](Aesthetics/Aesthetics.md) holds the visual identity and design language of Knowledge Islands - the brand system, symbolic vocabulary, and asset library. It covers the visual style guide, the canonical symbol library, isometric tile sets for constructing territory maps, conceptual diagrams, and the logo.
 
 ---
 
 ## Philosophy
 
-[[Philosophy/Philosophy|Philosophy]] is the portable Knowledge Islands model - the concepts, conventions, processes, activities, agents, and tools that define how any Knowledge Island operates. Knowledge Islands Principal, as the canonical seat of the Knowledge Islands system, holds the authoritative definition here; [[Knowledge Islands]] is its narrative entry point.
+[Philosophy](Philosophy/Philosophy.md) is the portable Knowledge Islands model - the concepts, conventions, processes, activities, agents, and tools that define how any Knowledge Island operates. Knowledge Islands Principal, as the canonical seat of the Knowledge Islands system, holds the authoritative definition here; [Knowledge Islands](<Philosophy/Knowledge Islands.md>) is its narrative entry point.
 
 ---
 
 ## Engineering Practice
 
-[[Engineering Practice/Engineering Practice|Engineering Practice]] holds Knowledge Islands Principal's Techné engineering discipline: foundations, architecture, operating model, technology posture and diagrams. It is the canonical destination of the adopted source knowledge; [[Engineering Practice/MEMORY|Engineering Practice memory]] records scope and the remote-operation hold.
+[Engineering Practice](<Engineering Practice/Engineering Practice.md>) holds Knowledge Islands Principal's Techné engineering discipline: foundations, architecture, operating model, technology posture and diagrams. It is the canonical destination of the adopted source knowledge; [Engineering Practice memory](<Engineering Practice/MEMORY.md>) records scope and the remote-operation hold.
 
 ---
 
 ## Technē
 
-[[Technē/Technē|Technē]] is a retained entry point for existing links into the discipline. Its [[Tool Ecosystem Map]] supplies current ownership signposting rather than a second engineering knowledge store.
+[Technē](Technē/Technē.md) is a retained entry point for existing links into the discipline. Its [Tool Ecosystem Map](<Technē/Tool Ecosystem Map.md>) supplies current ownership signposting rather than a second engineering knowledge store.

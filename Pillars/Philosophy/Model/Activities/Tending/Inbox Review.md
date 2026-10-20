@@ -19,14 +19,14 @@ A weekly manual review of the `+/` inbox folder. New notes arrive here from voic
 
 ## When
 
-Weekly - _"ki inbox review"_. Typically on Monday alongside the [[Model/Activities/Tending/Health Check|Health Check]] automation.
+Weekly - _"ki inbox review"_. Typically on Monday alongside the [Health Check](<Health Check.md>) automation.
 
 ---
 
 ## What It Does
 
 1. Open `+/` in Obsidian and list all files not under `+/_Voice Notes/`
-2. For each file, determine the correct destination using the routing rules in [[Structure]]
+2. For each file, determine the correct destination using the routing rules in [Structure](../../Conventions/Structure/Structure.md)
 3. Move the file to its destination folder
 4. Check that the destination folder's index note is updated to include the new note
 5. If the note needs structural work (frontmatter, sections), apply it on move

@@ -12,7 +12,7 @@ author: Written with Claude
 
 ## Overview
 
-The Acquisition Process is the operational picture of how material from AI sessions, meetings and other external sources enters an island faithfully, is harvested into durable knowledge, and eventually leaves its transient source. It describes [[ADR-KI-PRINCIPAL-001-provider-neutral-knowledge-acquisition|ADR-KI-PRINCIPAL-001]] as observed in two local evidence sets, not as a new design. Where the evidence is thin, this note says so.
+The Acquisition Process is the operational picture of how material from AI sessions, meetings and other external sources enters an island faithfully, is harvested into durable knowledge, and eventually leaves its transient source. It describes [ADR-KI-PRINCIPAL-001](../../../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-001-provider-neutral-knowledge-acquisition.md) as observed in two local evidence sets, not as a new design. Where the evidence is thin, this note says so.
 
 Acquisition is not session archiving. A source is visible because it holds transient working state; the destination is reviewed, durable island knowledge. Provider mechanics (MCPs, APIs, local parsers, export importers) sit below this boundary and belong to the repositories that own them.
 
@@ -20,7 +20,7 @@ Acquisition is not session archiving. A source is visible because it holds trans
 
 ## End-to-end flow
 
-Acquire is the capability called ports: acquire is the port, with one port of entry per source, in the sense of [[GDR-KI-PRINCIPAL-010-the-port|GDR-KI-PRINCIPAL-010]]. It is the single point where material enters the territories and leaves again for the island that should have it. Material goes into acquire and out of it in a coordinated form, in six steps. "Harbour" is the port's [[Pillars/Philosophy/Realisation/Arcadia/Arcadia|Arcadian]] register, the romantic, historical way of seeing it, because shipping carried things between islands.
+Acquire is the capability called ports: acquire is the port, with one port of entry per source, in the sense of [GDR-KI-PRINCIPAL-010](../../../../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-010-the-port.md). It is the single point where material enters the territories and leaves again for the island that should have it. Material goes into acquire and out of it in a coordinated form, in six steps. "Harbour" is the port's [Arcadian](../../../Realisation/Arcadia/Arcadia.md) register, the romantic, historical way of seeing it, because shipping carried things between islands.
 
 ![How material enters an island through the acquire port](acquisition-flow.svg)
 
@@ -50,7 +50,7 @@ flowchart LR
 - **3. Dispatch.** The port delivers whole packets into the receiving principal's `+/_ACQUIRED/` only, retires its copy once delivered and read back, and takes back returns marked by the island.
 - **4. Island triage.** The receiving principal, which knows its own world far better than acquire, decides what each item is worth: file it, turn it into work, park it or return it.
 - **5. Filing and fold-back.** The receiving principal files what it keeps under its own Enactment Process and folds returning knowledge back into the notes it belongs to.
-- **6. Retirement.** Acquire retires its copy once the item is dispatched, as [[#Source retirement]] sets out.
+- **6. Retirement.** Acquire retires its copy once the item is dispatched, as [Source retirement](#source-retirement) sets out.
 
 Acquire holds the routing knowledge sorting needs, and it is also a place where Kris reasons with his material across all his territories, which is why it belongs to Personal.
 
@@ -67,7 +67,7 @@ The ADR fixes six stages. Each has an owner for its mechanics; the receiving isl
 | Stage | Write the capture and its provenance into the receiving working area, with an incremental checkpoint | `tools-ki` (`ki acquire import --adapter <provider>`) |
 | Harvest | Review the capture and promote reviewed knowledge into the island | The receiving island |
 | Durable knowledge | Accepted notes in `Pillars`, `Resources` or `Calendar` | The receiving island, under its Enactment Process |
-| Archive or delete source | Retire the transient source or staged capture | Acquire for captures; open for provider-side sources: see [[#Source retirement]] |
+| Archive or delete source | Retire the transient source or staged capture | Acquire for captures; open for provider-side sources: see [Source retirement](#source-retirement) |
 
 Reusable provider-facing skills and their paired adapter surfaces belong to `ki-agentic-harness`.
 

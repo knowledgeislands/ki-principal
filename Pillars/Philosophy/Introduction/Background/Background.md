@@ -19,46 +19,46 @@ The notes are written to be read in order. After a short orienting entry point, 
 
 ## What is Knowledge Islands
 
-[[What is Knowledge Islands]] is the orienting entry point. It frames Knowledge Islands as a question about civilisation rather than a filing problem: who creates knowledge, who holds authority over it, how it travels and how it endures. It also sketches the shape of everything that follows, from the nature of knowledge through the geographic framework to jurisdiction and governance, and names Knowledge Islands Principal as the model's canonical home. Read it first for a map before the detail.
+[What is Knowledge Islands](<What is Knowledge Islands/What is Knowledge Islands.md>) is the orienting entry point. It frames Knowledge Islands as a question about civilisation rather than a filing problem: who creates knowledge, who holds authority over it, how it travels and how it endures. It also sketches the shape of everything that follows, from the nature of knowledge through the geographic framework to jurisdiction and governance, and names Knowledge Islands Principal as the model's canonical home. Read it first for a map before the detail.
 
 ---
 
 ## History of Knowledge Systems
 
-[[History of Knowledge Systems]] traces the long arc of how life and then humanity have carried learning forward, from genetic inheritance and oral tradition through writing, libraries, distribution, cataloguing and the digital turn. Each era is presented as an answer to the same recurring question, along with the fragility that answer introduced. It closes on the present problem that large language models sharpen: when generation is cheap, provenance and a trusted canonical record become scarce. This places Knowledge Islands within a lineage rather than presenting it as a novelty.
+[History of Knowledge Systems](<History of Knowledge Systems/History of Knowledge Systems.md>) traces the long arc of how life and then humanity have carried learning forward, from genetic inheritance and oral tradition through writing, libraries, distribution, cataloguing and the digital turn. Each era is presented as an answer to the same recurring question, along with the fragility that answer introduced. It closes on the present problem that large language models sharpen: when generation is cheap, provenance and a trusted canonical record become scarce. This places Knowledge Islands within a lineage rather than presenting it as a novelty.
 
 ---
 
 ## What is Knowledge
 
-[[What is Knowledge]] separates information, knowledge and wisdom, and explains why the distinction shapes the rest of the model. It sets out what a knowledge system takes in, what it holds and grows, and what it can only create the conditions for. Later notes on the cycle and on agents rely on this vocabulary, particularly the claim that wisdom remains distinctly human.
+[What is Knowledge](<What is Knowledge/What is Knowledge.md>) separates information, knowledge and wisdom, and explains why the distinction shapes the rest of the model. It sets out what a knowledge system takes in, what it holds and grows, and what it can only create the conditions for. Later notes on the cycle and on agents rely on this vocabulary, particularly the claim that wisdom remains distinctly human.
 
 ---
 
 ## Layers of Knowledge
 
-[[Layers of Knowledge]] sets the scope of the problem across three scales: individual, collective and civilisational. It explains what each scale needs to stay coherent and how a personal island, a multi-island territory and the model itself correspond to them. It is the shortest note in the chapter, and it establishes early that the model is meant to work beyond a single person's notes.
+[Layers of Knowledge](<Layers of Knowledge/Layers of Knowledge.md>) sets the scope of the problem across three scales: individual, collective and civilisational. It explains what each scale needs to stay coherent and how a personal island, a multi-island territory and the model itself correspond to them. It is the shortest note in the chapter, and it establishes early that the model is meant to work beyond a single person's notes.
 
 ---
 
 ## Prior Art
 
-[[Prior Art]] acknowledges the approaches Knowledge Islands draws on: Zettelkasten, PARA, the emerging pattern of LLM-native wikis and the Open Knowledge Format. For each it identifies the specific idea taken forward, whether linking, structural intuition, agent participation or a point of comparison for format. Read it to understand which parts of the model are inherited and where it extends them.
+[Prior Art](<Prior Art/Prior Art.md>) acknowledges the approaches Knowledge Islands draws on: Zettelkasten, PARA, the emerging pattern of LLM-native wikis and the Open Knowledge Format. For each it identifies the specific idea taken forward, whether linking, structural intuition, agent participation or a point of comparison for format. Read it to understand which parts of the model are inherited and where it extends them.
 
 ---
 
 ## Influences Along the Way
 
-[[Influences Along the Way]] records what was met later, along the journey, rather than at the start: gstack, Paperclip, Gas City, Hermes Agent and OpenClaw. For each it says what the project is and what it informed in Knowledge Islands, from roles and the separation of work to coordination, the agent host and the harnesses. Read it beside Prior Art to see which influences came from putting the model to work with agents.
+[Influences Along the Way](<Influences Along the Way/Influences Along the Way.md>) records what was met later, along the journey, rather than at the start: gstack, Paperclip, Gas City, Hermes Agent and OpenClaw. For each it says what the project is and what it informed in Knowledge Islands, from roles and the separation of work to coordination, the agent host and the harnesses. Read it beside Prior Art to see which influences came from putting the model to work with agents.
 
 ---
 
 ## The Cycle of Knowledge
 
-[[The Cycle of Knowledge]] describes the engine that keeps an island alive: capture, connect and reflect, running in parallel at different cadences. It distinguishes informational change, driven by new material, from reflective change, which reworks what is already held. This is the dynamic half of the model, and the reason later chapters care about activities, review cadence and the human role in reflection.
+[The Cycle of Knowledge](<The Cycle of Knowledge/The Cycle of Knowledge.md>) describes the engine that keeps an island alive: capture, connect and reflect, running in parallel at different cadences. It distinguishes informational change, driven by new material, from reflective change, which reworks what is already held. This is the dynamic half of the model, and the reason later chapters care about activities, review cadence and the human role in reflection.
 
 ---
 
 ## The Home of Knowledge
 
-[[The Home of Knowledge]] is where the model lands. It introduces the Knowledge Island as a bounded home for the cycle and describes its internal geography: the Capital with its Library and Council Hall, the Streams that carry work in motion, and the Port where incoming material is assessed before routing. It is the bridge into the Concept chapter, which takes this single island and explains how islands relate, who acts within them and how their knowledge is governed.
+[The Home of Knowledge](<The Home of Knowledge/The Home of Knowledge.md>) is where the model lands. It introduces the Knowledge Island as a bounded home for the cycle and describes its internal geography: the Capital with its Library and Council Hall, the Streams that carry work in motion, and the Port where incoming material is assessed before routing. It is the bridge into the Concept chapter, which takes this single island and explains how islands relate, who acts within them and how their knowledge is governed.

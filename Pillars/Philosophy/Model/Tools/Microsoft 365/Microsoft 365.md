@@ -87,4 +87,4 @@ Requires an Azure App Registration with the relevant Microsoft Graph scopes.
 3. Run the auth server: `bun run ki:server:auth:dev` (listens on `localhost:3333`).
 4. Call `m365_auth_start` in Claude - it returns a URL; open it, sign in, and grant consent. Tokens are cached at `~/.mcp-m365-tokens.json` and refreshed transparently.
 
-Connection details live in [[Admin Conventions/Integrations|Integrations]].
+Connection details live in [Integrations](<../../../../../Admin/Governance/Conventions/Admin Conventions/Integrations.md>).

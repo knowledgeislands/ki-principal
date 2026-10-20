@@ -19,34 +19,34 @@ Configuration is the set of island-specific values that vary between deployments
 
 ## Identity Parameters
 
-The island's fixed parameters live in the identity section of its [[Realisation/Charter/Charter|Charter]]: its name, its repository, and the prefixes that name its scheduled tasks and other identifiers. In Knowledge Islands Principal the task ID prefix is `ki-principal-`, so every scheduled task carries that prefix and can be traced to the island that owns it.
+The island's fixed parameters live in the identity section of its [Charter](../Charter/Charter.md): its name, its repository, and the prefixes that name its scheduled tasks and other identifiers. In Knowledge Islands Principal the task ID prefix is `ki-principal-`, so every scheduled task carries that prefix and can be traced to the island that owns it.
 
 ---
 
 ## Schedule and Day Types
 
-The Schedule note defines the day-type taxonomy that automations read before acting. Every daily note carries a `day_type` - `work-day`, `bank-holiday`, `annual-leave` or `weekend` - set by a first-match rule from the day of the week and the island's bank-holiday and annual-leave calendars. The Charter's Scheduled Activities table then binds each enabled automation to a day type and a time. Knowledge Islands Principal's model is in [[Schedule]], beside its Activity notes.
+The Schedule note defines the day-type taxonomy that automations read before acting. Every daily note carries a `day_type` - `work-day`, `bank-holiday`, `annual-leave` or `weekend` - set by a first-match rule from the day of the week and the island's bank-holiday and annual-leave calendars. The Charter's Scheduled Activities table then binds each enabled automation to a day type and a time. Knowledge Islands Principal's model is in [Schedule](../../../../Admin/Operations/Activities/Schedule.md), beside its Activity notes.
 
 ---
 
 ## Activity Configuration
 
-Some activity groups need configuration of their own, such as the routing rules an email activity applies. Each such group keeps a configuration note beside its Activity Definition, under the naming convention `[Group] [Name] Activity.md`. In Knowledge Islands Principal the Email group is vetoed, so [[Admin/Operations/Activities/Email Activity|Email Activity]] records in one place that no configuration applies, rather than keeping a separate configuration note.
+Some activity groups need configuration of their own, such as the routing rules an email activity applies. Each such group keeps a configuration note beside its Activity Definition, under the naming convention `[Group] [Name] Activity.md`. In Knowledge Islands Principal the Email group is vetoed, so [Email Activity](<../../../../Admin/Operations/Activities/Email Activity.md>) records in one place that no configuration applies, rather than keeping a separate configuration note.
 
 ---
 
 ## Integrations
 
-Connected services and the identifiers activities use to reach them are declared in the island's integrations record, described in [[Realisation/Integrations/Integrations|Integrations]]. They are configuration in the same sense - island-specific values read at runtime - but large enough in practice to have their own note.
+Connected services and the identifiers activities use to reach them are declared in the island's integrations record, described in [Integrations](../Integrations/Integrations.md). They are configuration in the same sense - island-specific values read at runtime - but large enough in practice to have their own note.
 
 ---
 
 ## Repository Declaration
 
-An island's repository also carries a machine-readable declaration, `.ki.toml`, which tooling reads directly. It records the repository's identity and code (`KI-PRINCIPAL` for Knowledge Islands Principal), its Capital, its supported runtimes, and the skills and standards it adopts, each with any skill-specific settings. On a principal island it also carries the territory's name, prefix and ordered member roster, which must agree with [[Known Lands]]. `ki repo audit` checks the repository against these declarations, and [[Admin/Governance/Conformance|Conformance]] lists the standards adopted.
+An island's repository also carries a machine-readable declaration, `.ki.toml`, which tooling reads directly. It records the repository's identity and code (`KI-PRINCIPAL` for Knowledge Islands Principal), its Capital, its supported runtimes, and the skills and standards it adopts, each with any skill-specific settings. On a principal island it also carries the territory's name, prefix and ordered member roster, which must agree with [Known Lands](<../../../../Admin/Governance/Known Lands.md>). `ki repo audit` checks the repository against these declarations, and [Conformance](../../../../Admin/Governance/Conformance.md) lists the standards adopted.
 
 ---
 
 ## Keeping Configuration Honest
 
-Each value has one home, and every consumer reads it from there. When a value changes, it is changed in its home - through the [[Processes/Enactment Process/Enactment Process|Enactment Process]] where the home is in a canonical zone - and the automations pick it up on their next run. A value copied into a prompt or a second note is drift waiting to happen.
+Each value has one home, and every consumer reads it from there. When a value changes, it is changed in its home - through the [Enactment Process](<../../Model/Processes/Enactment Process/Enactment Process.md>) where the home is in a canonical zone - and the automations pick it up on their next run. A value copied into a prompt or a second note is drift waiting to happen.

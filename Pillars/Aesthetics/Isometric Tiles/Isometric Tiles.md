@@ -30,7 +30,7 @@ The basic set covers the foundational terrain and building types:
 
 **Colour palettes:** Archipelago, Savanna, Natural Colours, Glass and Stone
 
-![[isometric-tiles-basic.png]]
+![isometric-tiles-basic.png](isometric-tiles-basic.png)
 
 ---
 
@@ -48,4 +48,4 @@ An expanded set with greater terrain variety and additional structure types:
 
 **Large compositions:** example multi-tile arrangements for reference
 
-![[isometric-tiles-structures.png]]
+![isometric-tiles-structures.png](isometric-tiles-structures.png)

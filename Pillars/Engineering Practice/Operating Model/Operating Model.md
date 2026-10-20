@@ -85,7 +85,7 @@ Before execution, validate context and authority, then select a working mode, ag
 
 A deterministic operations layer provides the control boundary for defined operations. tools-mgit is the current mapping for that role.
 
-An execution-fabric operator may provision and supervise task environments through replaceable adapters. [[ADR-KI-PRINCIPAL-006-techne-implementation-ownership|ADR-KI-PRINCIPAL-006]] assigns implementation of that role to `ki-techne-harness`, while `tools-techne` owns the independent operator interface. Work that must continue beyond an interactive session may use Herdr as the current persistent supervised-execution mapping.
+An execution-fabric operator may provision and supervise task environments through replaceable adapters. [ADR-KI-PRINCIPAL-006](../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-006-techne-implementation-ownership.md) assigns implementation of that role to `ki-techne-harness`, while `tools-techne` owns the independent operator interface. Work that must continue beyond an interactive session may use Herdr as the current persistent supervised-execution mapping.
 
 ### 4. Review the Outcome
 
@@ -103,7 +103,7 @@ The record should retain sufficient context for a future contributor to understa
 
 Architecture Decision Records, technology evaluations, diagrams, and operational guidance are examples of durable engineering knowledge.
 
-[[Knowledge Architecture]] defines the properties and lifecycle of that knowledge.
+[Knowledge Architecture](<../Architecture/Knowledge Architecture.md>) defines the properties and lifecycle of that knowledge.
 
 ### 6. Observe and Evolve
 
@@ -122,9 +122,9 @@ The knowledge base should then be updated through a new, reviewable increment th
 - **Engineering interface** - supports interaction, inspection, approval, review and deliberate human attachment without establishing authority by itself.
 - **Governed knowledge layer** - retains durable knowledge, context, decisions and evolving guidance while leaving credentials and controller operational state to their appropriate systems.
 
-Hermes Agent, `ki`, tools-mgit, Herdr, Zed and Knowledge Islands are current or candidate mappings for these roles. They remain replaceable: `ki` implements governance rather than fabric operation, with fabric implementation owned by `ki-techne-harness` and the operator interface independently owned by `tools-techne` under [[ADR-KI-PRINCIPAL-006-techne-implementation-ownership|ADR-KI-PRINCIPAL-006]].
+Hermes Agent, `ki`, tools-mgit, Herdr, Zed and Knowledge Islands are current or candidate mappings for these roles. They remain replaceable: `ki` implements governance rather than fabric operation, with fabric implementation owned by `ki-techne-harness` and the operator interface independently owned by `tools-techne` under [ADR-KI-PRINCIPAL-006](../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-006-techne-implementation-ownership.md).
 
-[[Engineering Estate]] defines these component roles in architectural terms.
+[Engineering Estate](<../Architecture/Engineering Estate.md>) defines these component roles in architectural terms.
 
 ## Control Points
 
@@ -143,25 +143,25 @@ A focused documentation correction does not require the same process as an archi
 
 ## Relationships
 
-[[Engineering Estate]] defines the components that support the lifecycle.
+[Engineering Estate](<../Architecture/Engineering Estate.md>) defines the components that support the lifecycle.
 
-[[Agentic Operating Approach]] introduces persona, context, footprint, execution and interface relationships.
+[Agentic Operating Approach](<../Architecture/Agentic Operating Approach.md>) introduces persona, context, footprint, execution and interface relationships.
 
-The Techne Fabric in [[AI Execution Fabric]] determines which context-eligible footprints and targets may serve AI-enabled workloads.
+The Techne Fabric in [AI Execution Fabric](<../Architecture/AI Execution Fabric.md>) determines which context-eligible footprints and targets may serve AI-enabled workloads.
 
-[[Principles]] provides the decision criteria that guide trade-offs within the operating model.
+[Principles](../Foundations/Principles.md) provides the decision criteria that guide trade-offs within the operating model.
 
-[[Technology Investigation Programme]] defines how a bounded technology question becomes reproducible evidence and a proportionate recommendation.
+[Technology Investigation Programme](<Technology Investigation Programme.md>) defines how a bounded technology question becomes reproducible evidence and a proportionate recommendation.
 
 Future chapters will define the detailed operating practices for remote engineering, security, local AI, cloud AI, and elastic execution.
 
 ## Technology Investigation Programme
 
-[[Technology Investigation Programme]] gives Knowledge Islands a finite, evidence-backed way to understand a technology before changing engineering practice or technology posture. It sets out ownership, an investigation lifecycle, the minimum evidence a recommendation needs, and the portfolio and cadence of investigations. It favours accountable learning and appropriate reuse over either automatic adoption or automatic internal reimplementation.
+[Technology Investigation Programme](<Technology Investigation Programme.md>) gives Knowledge Islands a finite, evidence-backed way to understand a technology before changing engineering practice or technology posture. It sets out ownership, an investigation lifecycle, the minimum evidence a recommendation needs, and the portfolio and cadence of investigations. It favours accountable learning and appropriate reuse over either automatic adoption or automatic internal reimplementation.
 
 ## Paperclip Operating Lessons
 
-[[Paperclip Operating Lessons]] records what running Paperclip on `terra` taught Knowledge Islands, from its onboarding in September 2026 to its shutdown on 2026-10-14: the approach worth recreating, the failures and their lessons, and what worked, so a fresh rebuild repeats the approach without repeating the failures.
+[Paperclip Operating Lessons](<Paperclip Operating Lessons.md>) records what running Paperclip on `terra` taught Knowledge Islands, from its onboarding in September 2026 to its shutdown on 2026-10-14: the approach worth recreating, the failures and their lessons, and what worked, so a fresh rebuild repeats the approach without repeating the failures.
 
 ## Provenance
 

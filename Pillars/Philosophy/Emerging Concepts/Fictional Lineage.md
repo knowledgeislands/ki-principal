@@ -12,7 +12,7 @@ author: Written with Claude
 
 ## Overview
 
-This is an emerging concept, not adopted philosophy. Knowledge Islands draws on speculative fiction as well as on real knowledge systems. The real-world lineage - ancient civilisations, libraries and their loss, islands, territories and harbours - is already told in [[History of Knowledge Systems]], [[Layers of Knowledge]], [[Territories and Archipelagos]] and [[The Home of Knowledge]], and [[Prior Art]] covers knowledge-management prior art. This note holds the fictional strand, which no established note yet carries.
+This is an emerging concept, not adopted philosophy. Knowledge Islands draws on speculative fiction as well as on real knowledge systems. The real-world lineage - ancient civilisations, libraries and their loss, islands, territories and harbours - is already told in [History of Knowledge Systems](<../Introduction/Background/History of Knowledge Systems/History of Knowledge Systems.md>), [Layers of Knowledge](<../Introduction/Background/Layers of Knowledge/Layers of Knowledge.md>), [Territories and Archipelagos](<../Introduction/Concept/Territories and Archipelagos/Territories and Archipelagos.md>) and [The Home of Knowledge](<../Introduction/Background/The Home of Knowledge/The Home of Knowledge.md>), and [Prior Art](<../Introduction/Background/Prior Art/Prior Art.md>) covers knowledge-management prior art. This note holds the fictional strand, which no established note yet carries.
 
 These references are not decorative names. They are thought experiments that expose useful architectural distinctions, so what matters is which idea each one contributed.
 

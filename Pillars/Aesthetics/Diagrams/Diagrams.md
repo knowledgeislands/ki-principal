@@ -26,11 +26,11 @@ Two versions are available pending review:
 
 ### Overview v1
 
-![[overview-v1.png]]
+![overview-v1.png](overview-v1.png)
 
 ### Overview v2
 
-![[overview-v2.png]]
+![overview-v2.png](overview-v2.png)
 
 ---
 
@@ -38,4 +38,4 @@ Two versions are available pending review:
 
 The Knowledge Hierarchy diagram maps the progression from Information to Knowledge to Wisdom across four dimensions: definition, key characteristics, example, and how it exists. It establishes the raw material the model is working with and grounds the distinction between information that can be stored, knowledge that must be built, and wisdom that can only be cultivated.
 
-![[knowledge-hierarchy.png]]
+![knowledge-hierarchy.png](knowledge-hierarchy.png)

@@ -64,9 +64,9 @@ Where the architecture is incomplete or uncertain, Techne records the assumption
 
 ## Foundation Chapters
 
-- [[Goals]] defines the outcomes that guide the knowledge base and the engineering discipline.
-- [[Non-Goals]] defines the boundaries that prevent Techne from becoming an unbounded technical reference.
-- [[Principles]] defines the criteria used to make and assess engineering decisions.
+- [Goals](Goals.md) defines the outcomes that guide the knowledge base and the engineering discipline.
+- [Non-Goals](Non-Goals.md) defines the boundaries that prevent Techne from becoming an unbounded technical reference.
+- [Principles](Principles.md) defines the criteria used to make and assess engineering decisions.
 
 ## Provenance
 

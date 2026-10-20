@@ -18,7 +18,7 @@ Component-specific configuration, APIs, and operational procedures belong in the
 
 ## Architectural Roles
 
-The personal-controller role coordinates governed work across deterministic, agentic and hybrid paths. Its reasoning capability is optional for a particular request; its identity, policy and lifecycle responsibilities are not. [[Governed Work Controller]] defines the detailed boundary.
+The personal-controller role coordinates governed work across deterministic, agentic and hybrid paths. Its reasoning capability is optional for a particular request; its identity, policy and lifecycle responsibilities are not. [Governed Work Controller](<Governed Work Controller.md>) defines the detailed boundary.
 
 - **Personal controller** - maintains persona and session continuity, task identity, context binding, delegated authority, lifecycle supervision and result integration across mechanical, agentic and hybrid work. Reasoning may propose work, while trusted deterministic boundaries enforce consequential operations.
 - **Governance layer** - selects and advances governed work, knowledge and repository relationships without acquiring execution-provider authority.
@@ -49,7 +49,7 @@ The personal-controller role coordinates governed work across deterministic, age
 
 Techne owns the architectural roles, relationships and decision criteria. Before overall V1, `ki-specifications` is dormant; repository-local contracts remain with their owners. `ki-agentic-harness` owns reusable agentic capabilities, while `tools-ki` owns deterministic CLI and platform behaviour it implements. Governance authority does not grant infrastructure-control authority.
 
-`ki-techne-harness` owns implementations of the personal-controller and execution-fabric-operator roles. Knowledge Islands Principal retains their architectural meaning and boundaries; assigning one product repository does not merge the roles or make that repository authoritative for governed work, credentials or accepted outcomes. [[Techne Fabric Execution Contract]] defines the hand-off those implementations must preserve.
+`ki-techne-harness` owns implementations of the personal-controller and execution-fabric-operator roles. Knowledge Islands Principal retains their architectural meaning and boundaries; assigning one product repository does not merge the roles or make that repository authoritative for governed work, credentials or accepted outcomes. [Techne Fabric Execution Contract](<Techne Fabric Execution Contract.md>) defines the hand-off those implementations must preserve.
 
 ## Work Execution Responsibilities
 
@@ -87,7 +87,7 @@ Git and the selected change-management process retain authoritative source, work
 
 Controller records for task identity, context binding, approvals, ownership, deduplication and recovery remain operational state. Credentials remain separately managed. Neither category becomes canonical knowledge merely because the controller uses governed repositories.
 
-[[Techne Fabric Execution Contract]] defines the immutable execution bindings and evidence envelope crossing this integration boundary.
+[Techne Fabric Execution Contract](<Techne Fabric Execution Contract.md>) defines the immutable execution bindings and evidence envelope crossing this integration boundary.
 
 ## Interaction Model
 
@@ -101,11 +101,11 @@ Knowledge Islands supplies governed context to the engineering practice and rece
 
 Tailscale provides private connectivity where components or engineers operate across locations.
 
-The Techne Fabric in [[AI Execution Fabric]] matches an authorised execution with an eligible footprint and target.
+The Techne Fabric in [AI Execution Fabric](<AI Execution Fabric.md>) matches an authorised execution with an eligible footprint and target.
 
 Local runtimes are one possible target within that fabric, alongside managed APIs, elastic compute, and future dedicated infrastructure.
 
-The [[Engineering Estate.svg|estate interaction diagram]] is generated from its [[Engineering Estate.mmd|editable Mermaid source]]. It is an illustrative mapping of named components, not a normative inventory of stable roles or a commitment to retain those products.
+The [estate interaction diagram](<Diagrams/Engineering Estate.svg>) is generated from its [editable Mermaid source](<Diagrams/Engineering Estate.mmd>). It is an illustrative mapping of named components, not a normative inventory of stable roles or a commitment to retain those products.
 
 ## Current Constraints and Open Questions
 

@@ -13,34 +13,34 @@ author: Written with Claude
 
 Philosophy is the pillar that holds the portable Knowledge Islands model - Knowledge Islands Principal's canonical definition of how any Knowledge Island is organised, governed, changed and maintained. Knowledge Islands Principal is the Capital of the Knowledge Islands territory, so the definition kept here is the baseline every other island adopts; island-specific settings live in each island's own `Admin/` zone instead.
 
-The pillar reads as three acts. [[Introduction/Introduction|Introduction]] asks why the model exists and establishes its vocabulary, [[Model/Model|Model]] sets out what any adopting island does, and [[Realisation/Realisation|Realisation]] shows the model made real in Knowledge Islands Principal. [[Knowledge Islands]] is the narrative entry point that walks through all three acts in order and is the best place to start reading.
+The pillar reads as three acts. [Introduction](Introduction/Introduction.md) asks why the model exists and establishes its vocabulary, [Model](Model/Model.md) sets out what any adopting island does, and [Realisation](Realisation/Realisation.md) shows the model made real in Knowledge Islands Principal. [Knowledge Islands](<Knowledge Islands.md>) is the narrative entry point that walks through all three acts in order and is the best place to start reading.
 
 ---
 
 ## Knowledge Islands
 
-[[Knowledge Islands]] is the pillar's narrative front door. It introduces the model in a few paragraphs, explains how to read the pillar, and then summarises each act and chapter in turn with links into the detail. A reader who wants the whole picture before choosing a chapter should read it end to end.
+[Knowledge Islands](<Knowledge Islands.md>) is the pillar's narrative front door. It introduces the model in a few paragraphs, explains how to read the pillar, and then summarises each act and chapter in turn with links into the detail. A reader who wants the whole picture before choosing a chapter should read it end to end.
 
 ---
 
 ## Introduction
 
-[[Introduction/Introduction|Introduction]] is the first act: the background and concepts the rest of the model rests on. Its Background chapter places Knowledge Islands among earlier knowledge systems and ideas about what knowledge is, and its Concept chapter defines territories, agents, jurisdiction and governance. Read it to understand the vocabulary before the Model uses it.
+[Introduction](Introduction/Introduction.md) is the first act: the background and concepts the rest of the model rests on. Its Background chapter places Knowledge Islands among earlier knowledge systems and ideas about what knowledge is, and its Concept chapter defines territories, agents, jurisdiction and governance. Read it to understand the vocabulary before the Model uses it.
 
 ---
 
 ## Model
 
-[[Model/Model|Model]] is the second act and the operational heart of the pillar. Its five chapters - Conventions, Processes, Activities, Agents and Tools - define the language, change mechanisms, maintenance work, actors and tooling that any adopting island shares. Everything in it is portable and island-agnostic.
+[Model](Model/Model.md) is the second act and the operational heart of the pillar. Its five chapters - Conventions, Processes, Activities, Agents and Tools - define the language, change mechanisms, maintenance work, actors and tooling that any adopting island shares. Everything in it is portable and island-agnostic.
 
 ---
 
 ## Realisation
 
-[[Realisation/Realisation|Realisation]] is the third act, where the portable model becomes a concrete island. It describes Knowledge Islands Principal and the realisation concepts - charter, council, configuration and integrations - through which an island instantiates the model. It is the bridge between the portable definition here and the island-specific governance kept in `Admin/`.
+[Realisation](Realisation/Realisation.md) is the third act, where the portable model becomes a concrete island. It describes Knowledge Islands Principal and the realisation concepts - charter, council, configuration and integrations - through which an island instantiates the model. It is the bridge between the portable definition here and the island-specific governance kept in `Admin/`.
 
 ---
 
 ## Emerging Concepts
 
-[[Emerging Concepts]] holds ideas about the model that are worth keeping but not yet settled, such as the Realm and the fictional lineage behind the Avatar. None of it is adopted philosophy; where a note there conflicts with the three acts, the acts govern. Each concept waits for the whole-philosophy review to adopt, reshape or drop it.
+[Emerging Concepts](<Emerging Concepts/Emerging Concepts.md>) holds ideas about the model that are worth keeping but not yet settled, such as the Realm and the fictional lineage behind the Avatar. None of it is adopted philosophy; where a note there conflicts with the three acts, the acts govern. Each concept waits for the whole-philosophy review to adopt, reshape or drop it.

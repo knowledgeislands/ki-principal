@@ -20,28 +20,28 @@ Every concept here is portable and island-agnostic. Where Knowledge Islands Prin
 
 ## How an Island Takes Shape
 
-[[How an Island Takes Shape]] is the chapter's orienting note. It names the four foundational concepts and the Intention that gives an island its purpose, explains the order in which they build on one another and sets out the split between the portable definition held here and the island-specific realisation held in `Admin/`. Read it first to see why the chapter is sequenced the way it is.
+[How an Island Takes Shape](<How an Island Takes Shape.md>) is the chapter's orienting note. It names the four foundational concepts and the Intention that gives an island its purpose, explains the order in which they build on one another and sets out the split between the portable definition held here and the island-specific realisation held in `Admin/`. Read it first to see why the chapter is sequenced the way it is.
 
 ---
 
 ## Territories and Archipelagos
 
-[[Territories and Archipelagos]] explains how islands relate at scale. It distinguishes a territory, a governed collection of islands under one accountable authority with exactly one Capital, and explains why each territory is drawn and described as an archipelago. It also covers Known Lands and signposting, the distinct forms of knowledge exchange between islands, and the constitutional baseline a territory accepts when it adopts the model. It is the longest note in the chapter and the one most directly reflected in Knowledge Islands Principal's own governance.
+[Territories and Archipelagos](<Territories and Archipelagos/Territories and Archipelagos.md>) explains how islands relate at scale. It distinguishes a territory, a governed collection of islands under one accountable authority with exactly one Capital, and explains why each territory is drawn and described as an archipelago. It also covers Known Lands and signposting, the distinct forms of knowledge exchange between islands, and the constitutional baseline a territory accepts when it adopts the model. It is the longest note in the chapter and the one most directly reflected in Knowledge Islands Principal's own governance.
 
 ---
 
 ## Agents
 
-[[Concept/Agents/Agents|Agents]] introduces the actors who create, shape and move knowledge through the cycle. It sets out what human and artificial agents each contribute, how they interact with an island through interfaces and protocols respectively, and why only human agents can decide whether knowledge is worth keeping. It ends by tying every agent to a standing within the islands it touches, which leads directly into jurisdiction. The detailed operating conventions for specific agents live in the Model.
+[Agents](Agents/Agents.md) introduces the actors who create, shape and move knowledge through the cycle. It sets out what human and artificial agents each contribute, how they interact with an island through interfaces and protocols respectively, and why only human agents can decide whether knowledge is worth keeping. It ends by tying every agent to a standing within the islands it touches, which leads directly into jurisdiction. The detailed operating conventions for specific agents live in the Model.
 
 ---
 
 ## Jurisdiction
 
-[[Jurisdiction]] defines who holds authority over an island's canonical knowledge and who may act within it. It describes how jurisdiction is held at island and territory level, the council, single-governor and joint-governor patterns for administering it, and the standing of visitors, citizens and council members. It explains that the patterns change who ratifies, not how change is processed, and points to the processes through which jurisdiction is exercised in practice.
+[Jurisdiction](Jurisdiction/Jurisdiction.md) defines who holds authority over an island's canonical knowledge and who may act within it. It describes how jurisdiction is held at island and territory level, the council, single-governor and joint-governor patterns for administering it, and the standing of visitors, citizens and council members. It explains that the patterns change who ratifies, not how change is processed, and points to the processes through which jurisdiction is exercised in practice.
 
 ---
 
 ## Governance
 
-[[Concept/Governance/Governance|Governance]] closes the chapter by describing the operational machinery that makes an island function day to day. It introduces the five elements that together constitute governance, from shared conventions and formal processes through ongoing activities to the agents and tools that carry out the work. Each element is developed in full in the Model, so this note serves as the hinge between the Introduction and the portable model that follows.
+[Governance](Governance/Governance.md) closes the chapter by describing the operational machinery that makes an island function day to day. It introduces the five elements that together constitute governance, from shared conventions and formal processes through ongoing activities to the agents and tools that carry out the work. Each element is developed in full in the Model, so this note serves as the hinge between the Introduction and the portable model that follows.

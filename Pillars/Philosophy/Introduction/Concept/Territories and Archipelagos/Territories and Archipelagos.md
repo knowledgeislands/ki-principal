@@ -22,7 +22,7 @@ Every territory has exactly one Capital: the island that holds its Charter, auth
 
 Territorial membership is an explicit governed relationship. Shared governance does not imply unrestricted internal flow: islands may serve different audiences or hold protected sources. A change to one repository is accepted by its own owner through its applicable process; membership grants no cross-repository write, execution, publication or release authority.
 
-Knowledge Islands Principal is the Capital of the Knowledge Islands territory. Its [[Admin/Governance/Charter|Charter]] declares that role and its [[Admin/Governance/Known Lands|Known Lands]] records the internal inventory. Knowledge Islands Principal is the canonical home of the public Knowledge Islands model, but that authorship gives it no jurisdiction over another territory that follows or adopts the model.
+Knowledge Islands Principal is the Capital of the Knowledge Islands territory. Its [Charter](../../../../../Admin/Governance/Charter.md) declares that role and its [Known Lands](<../../../../../Admin/Governance/Known Lands.md>) records the internal inventory. Knowledge Islands Principal is the canonical home of the public Knowledge Islands model, but that authorship gives it no jurisdiction over another territory that follows or adopts the model.
 
 A territory's existence and membership are not established by a local registry entry, repository selection, shared person or Paperclip company. Those mechanisms may resolve or coordinate an already governed relationship. A disagreement between them and the governed inventory requires owner reconciliation.
 
@@ -44,7 +44,7 @@ Public governance names canonical identities. Machine-local checkout and source-
 
 ## Knowledge exchange
 
-Reading public knowledge, adopting it locally, offering a contribution, transferring restricted material and requesting another island's work are distinct actions. [[Contribution Process]] explains public adoption and contribution to the KI model. The receiving island chooses whether to admit, adapt or accept material and owns its resulting knowledge and work.
+Reading public knowledge, adopting it locally, offering a contribution, transferring restricted material and requesting another island's work are distinct actions. [Contribution Process](<../../../Model/Processes/Contribution Process/Contribution Process.md>) explains public adoption and contribution to the KI model. The receiving island chooses whether to admit, adapt or accept material and owns its resulting knowledge and work.
 
 A territory may adopt shared internal routing rules while preserving each island's audience, source permissions and acceptance authority. Restricted exchange between territories requires the participating owners' explicit rules for audience, purpose, admission and onward use. A shared working set or coordination company does not supply that permission.
 

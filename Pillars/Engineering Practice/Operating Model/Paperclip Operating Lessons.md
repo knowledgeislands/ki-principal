@@ -8,7 +8,7 @@ author: Written with Claude
 
 ## Purpose
 
-What running Paperclip on `terra` taught Knowledge Islands, kept so a fresh rebuild repeats the approach without repeating the failures. Paperclip coordinated agents in companies, projects, issues and routines while repositories kept knowledge and work authority. The structure to recreate is in [[paperclip-rebuild-structure]]; the open rebuild questions are in [[paperclip-capture-and-rebuild]]. Generic coordination rules stay with the harness skill `ki-agent-coordination-paperclip`.
+What running Paperclip on `terra` taught Knowledge Islands, kept so a fresh rebuild repeats the approach without repeating the failures. Paperclip coordinated agents in companies, projects, issues and routines while repositories kept knowledge and work authority. The structure to recreate is in [paperclip-rebuild-structure](../../../+/_WORK/ki.paperclip-capture-and-rebuild/design/paperclip-rebuild-structure.md); the open rebuild questions are in [paperclip-capture-and-rebuild](../../../Streams/Projects/paperclip-capture-and-rebuild.md). Generic coordination rules stay with the harness skill `ki-agent-coordination-paperclip`.
 
 ## Timeline
 

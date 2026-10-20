@@ -12,7 +12,7 @@ author: Written with Claude
 
 ## Overview
 
-The Work Process is how coordinated work moves through a territory: who holds it, how it passes between parties, how new work reaches it, where its state is kept and how it is shown. It is the one canonical description of the model that [[GDR-KI-PRINCIPAL-009-the-work-model|GDR-KI-PRINCIPAL-009]] decides. The harness standards and skills that govern coordination, delegation, the work package, forward work, Activities and recurring work cite this note rather than restate it.
+The Work Process is how coordinated work moves through a territory: who holds it, how it passes between parties, how new work reaches it, where its state is kept and how it is shown. It is the one canonical description of the model that [GDR-KI-PRINCIPAL-009](../../../../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md) decides. The harness standards and skills that govern coordination, delegation, the work package, forward work, Activities and recurring work cite this note rather than restate it.
 
 The unit is work, in Kris's words "the unit is work, not a conversation". A piece of work is packaged as a skill is: a short definition saying what it is, what its goals are and what it takes, read first, and detail files, its state, its queries, its incoming messages and its own decisions, read only when needed. A chat session is only the channel through which a party works on it. The work outlives every session and is committed at every send.
 

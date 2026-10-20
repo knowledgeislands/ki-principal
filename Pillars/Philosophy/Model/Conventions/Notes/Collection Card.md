@@ -12,7 +12,7 @@ author: Written with Claude
 
 ## Overview
 
-Defines the delta from [[Notes]] for collection cards. Collection cards are lightweight reference entries for people, organisations, concepts, and index notes. They use a `card/*` type tag rather than the generic `card/note`.
+Defines the delta from [Notes](Notes.md) for collection cards. Collection cards are lightweight reference entries for people, organisations, concepts, and index notes. They use a `card/*` type tag rather than the generic `card/note`.
 
 ---
 
@@ -31,7 +31,7 @@ The `tags` field uses a specific `card/` type tag. Common types:
 
 † Legacy tags from the former ADR/KDR instruments. No longer applied to new notes; the DR instrument (governed by `knowledgeislands-decision-records`) uses `type: admin/governance/decision` instead.
 
-See [[Tags]] for the full tag reference.
+See [Tags](Tags.md) for the full tag reference.
 
 ---
 

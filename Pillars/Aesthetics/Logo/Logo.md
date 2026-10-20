@@ -16,13 +16,13 @@ The canonical Knowledge Islands logo: a circular emblem combining an island silh
 
 The mark is designed to work at favicon scale, scale cleanly to monochrome, and carry symbolic weight without relying on detail. It reads as a navigational symbol, a civilisational mark, a cartographic emblem - a timeless knowledge sigil rather than a startup icon.
 
-For logo style guidance and design principles, see [[Visual Style/Visual Style|Visual Style]].
+For logo style guidance and design principles, see [Visual Style](<../Visual Style/Visual Style.md>).
 
 ---
 
 ## Mark
 
-![[logo.png]]
+![logo.png](logo.png)
 
 ---
 

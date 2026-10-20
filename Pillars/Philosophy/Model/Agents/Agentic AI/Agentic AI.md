@@ -16,13 +16,13 @@ author: Written with Claude
 
 The AI operating layer - patterns and conventions that govern how AI agents work within the island, independent of any specific tool. Content here applies across AI tools; see tool specific notes for further details.
 
-Guidance here holds for any activity, any island and any AI agent; [[Authoring Guidelines]] explains where more specific guidance belongs.
+Guidance here holds for any activity, any island and any AI agent; [Authoring Guidelines](<../../Activities/Authoring Guidelines/Authoring Guidelines.md>) explains where more specific guidance belongs.
 
 ---
 
 ## AI Automation Patterns
 
-[[AI Automation Patterns]] documents the reusable design patterns for AI-driven productivity automations: the execution/change ratio principle (prefer reading and reporting over writing), the JSON5 cache pattern for reducing redundant MCP fetches, the live artifact baseline, parallel MCP fetch for latency reduction, the client-side rolling time window, and the choice between deterministic and sampled synthesis. Any AI agent implementing an island activity should draw on these patterns rather than re-deriving them from scratch.
+[AI Automation Patterns](<AI Automation Patterns.md>) documents the reusable design patterns for AI-driven productivity automations: the execution/change ratio principle (prefer reading and reporting over writing), the JSON5 cache pattern for reducing redundant MCP fetches, the live artifact baseline, parallel MCP fetch for latency reduction, the client-side rolling time window, and the choice between deterministic and sampled synthesis. Any AI agent implementing an island activity should draw on these patterns rather than re-deriving them from scratch.
 
 ---
 
@@ -80,5 +80,5 @@ Content belongs in this folder when it:
 Content does **not** belong here when it:
 
 - Is specific to one agent runtime's implementation (→ the skill or adapter that realises it for that runtime)
-- Describes how a particular tool is configured or connected (→ [[Philosophy/Model/Tools/Tools]])
-- Is tied to a specific activity's executable procedure or prompt (→ the skill that realises the activity; the activity itself is defined under [[Model/Activities/Activities|Activities]])
+- Describes how a particular tool is configured or connected (→ [Philosophy/Model/Tools/Tools](../../Tools/Tools.md))
+- Is tied to a specific activity's executable procedure or prompt (→ the skill that realises the activity; the activity itself is defined under [Activities](../../Activities/Activities.md))

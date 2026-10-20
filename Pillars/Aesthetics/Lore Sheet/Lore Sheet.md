@@ -13,7 +13,7 @@ author: Written with Claude
 
 ## Overview
 
-The Lore Sheet names the motifs that give Knowledge Islands its world: the recurring images that stories, illustrations and copy may draw on. Each motif stands for something the model already means, so the world stays a map of meaning rather than decoration. Where a motif is also a symbol, the [[Symbol Library/Symbol Library|Symbol Library]] holds its official meaning. [[GDR-KI-PRINCIPAL-015-the-lore-sheet|GDR-KI-PRINCIPAL-015]] adopted this page.
+The Lore Sheet names the motifs that give Knowledge Islands its world: the recurring images that stories, illustrations and copy may draw on. Each motif stands for something the model already means, so the world stays a map of meaning rather than decoration. Where a motif is also a symbol, the [Symbol Library](<../Symbol Library/Symbol Library.md>) holds its official meaning. [GDR-KI-PRINCIPAL-015](../../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-015-the-lore-sheet.md) adopted this page.
 
 ---
 
@@ -43,4 +43,4 @@ Knowledge Islands draws no **creatures**, no **magic** and no **crystals**. The 
 
 **Whale song**, proposed as a signal, is a creature and is ruled out with them unless Kris decides otherwise. Signals are carried by built things, such as the Lighthouse.
 
-The world stays non-combative, as set out in [[Visual Style/Visual Style|Visual Style]].
+The world stays non-combative, as set out in [Visual Style](<../Visual Style/Visual Style.md>).

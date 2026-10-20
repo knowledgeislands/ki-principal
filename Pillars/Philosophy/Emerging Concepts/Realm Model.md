@@ -14,7 +14,7 @@ author: Written with Claude
 
 This is an emerging concept, not adopted philosophy. It sketches the Realm: a logical environment with its own rules of existence and participation, inside which islands, organisations and Avatars act. Nothing here changes the established model; it is held so it can be tested against real use and weighed in the whole-philosophy review.
 
-Knowledge Islands Principal already holds one part of the idea. The [[Agent Host Prototype Concept Map]] treats a Realm as logical, never a technology, and keeps it apart from any Footprint. The rest of the model below is unsettled.
+Knowledge Islands Principal already holds one part of the idea. The [Agent Host Prototype Concept Map](<../../Engineering Practice/Architecture/Diagrams/Agent Host Prototype Concept Map.md>) treats a Realm as logical, never a technology, and keeps it apart from any Footprint. The rest of the model below is unsettled.
 
 ---
 
@@ -38,7 +38,7 @@ The first concrete Realm would be the Knowledge Islands Realm.
 
 Personal and organisational islands could exist within the wider Knowledge Islands Realm, and an organisation could be treated as a governed space in which an Avatar acts under particular permissions. The model should allow movement between such spaces without requiring identity and authority to be identical everywhere.
 
-How this sits beside [[Territories and Archipelagos]] is open. There, a territory is a governed collection of islands under one accountable authority; whether an organisation inside a Realm is a territory, contains one, or is a separate notion has not been worked out.
+How this sits beside [Territories and Archipelagos](<../Introduction/Concept/Territories and Archipelagos/Territories and Archipelagos.md>) is open. There, a territory is a governed collection of islands under one accountable authority; whether an organisation inside a Realm is a territory, contains one, or is a separate notion has not been worked out.
 
 ---
 
@@ -58,7 +58,7 @@ These are conceptual roles, not definitions. They should be tested against real 
 
 The same person might use different Avatar names or manifestations in different Realms.
 
-This sits in tension with [[ADR-KI-PRINCIPAL-005-one-persona-across-explicit-working-contexts|ADR-KI-PRINCIPAL-005]], which gives each person one enduring persona across explicit working contexts, with Kitteth as Kris's instance. Whether that one persona may carry a different name or manifestation per Realm is not settled; the decision stands until a review says otherwise.
+This sits in tension with [ADR-KI-PRINCIPAL-005](../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-005-one-persona-across-explicit-working-contexts.md), which gives each person one enduring persona across explicit working contexts, with Kitteth as Kris's instance. Whether that one persona may carry a different name or manifestation per Realm is not settled; the decision stands until a review says otherwise.
 
 ---
 

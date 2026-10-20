@@ -12,41 +12,41 @@ Architecture defines the engineering estate, AI execution model, and knowledge a
 
 ## Agentic Operating Approach
 
-[[Agentic Operating Approach]] introduces how a person coordinates agentic work through one enduring persona, explicit working contexts, bounded authority and portable execution. It places agentic work inside a wider governed-work model in which the personal controller may handle work mechanically, invoke bounded reasoning or combine both. It is the entry point for the rest of the architecture.
+[Agentic Operating Approach](<Agentic Operating Approach.md>) introduces how a person coordinates agentic work through one enduring persona, explicit working contexts, bounded authority and portable execution. It places agentic work inside a wider governed-work model in which the personal controller may handle work mechanically, invoke bounded reasoning or combine both. It is the entry point for the rest of the architecture.
 
 ## AI Execution Fabric
 
-[[AI Execution Fabric]] describes the Techne Fabric: the provider-neutral model that matches a context-bound assignment and a reusable workload footprint with an eligible local, managed, elastic or dedicated execution target. It separates workload requirements from infrastructure choice and keeps controller, worker and model-inference placement independent. It is an architectural decision and operating model, not a single runtime or control plane.
+[AI Execution Fabric](<AI Execution Fabric.md>) describes the Techne Fabric: the provider-neutral model that matches a context-bound assignment and a reusable workload footprint with an eligible local, managed, elastic or dedicated execution target. It separates workload requirements from infrastructure choice and keeps controller, worker and model-inference placement independent. It is an architectural decision and operating model, not a single runtime or control plane.
 
 ## Controller Workload Evaluation
 
-[[Controller Workload Evaluation]] records the evaluation that chose the first useful Techne controller workload: on-demand repository verification at an immutable revision. It compares the candidates, recommends an execution envelope and sets the target decision, the follow-on boundary and a review point.
+[Controller Workload Evaluation](<Controller Workload Evaluation.md>) records the evaluation that chose the first useful Techne controller workload: on-demand repository verification at an immutable revision. It compares the candidates, recommends an execution envelope and sets the target decision, the follow-on boundary and a review point.
 
 ## Diagrams
 
-[[Pillars/Engineering Practice/Architecture/Diagrams/Diagrams|Diagrams]] holds inspectable visual representations of this architecture, each kept beside its editable source so it can be regenerated rather than redrawn. It contains the Engineering Estate diagram and the Agent Host Prototype Concept Map. A diagram illustrates the note that owns its subject.
+[Diagrams](Diagrams/Diagrams.md) holds inspectable visual representations of this architecture, each kept beside its editable source so it can be regenerated rather than redrawn. It contains the Engineering Estate diagram and the Agent Host Prototype Concept Map. A diagram illustrates the note that owns its subject.
 
 ## Engineering Estate
 
-[[Engineering Estate]] defines the components used to turn engineering intent into governed, observable work. It names the architectural roles, their current and candidate mappings, ownership boundaries, work-execution responsibilities and interaction model, and keeps an explicit list of current constraints and open questions.
+[Engineering Estate](<Engineering Estate.md>) defines the components used to turn engineering intent into governed, observable work. It names the architectural roles, their current and candidate mappings, ownership boundaries, work-execution responsibilities and interaction model, and keeps an explicit list of current constraints and open questions.
 
 ## Governed Work Controller
 
-[[Governed Work Controller]] defines the personal controller: the enduring service through which a person coordinates governed work. It accepts intent, binds the applicable working context and authority, chooses a bounded way to perform the work, supervises its lifecycle and integrates its outcome. It covers request paths, workload forms, identity and placement, progressive mechanisation and the controller's relationship to the Techne Fabric.
+[Governed Work Controller](<Governed Work Controller.md>) defines the personal controller: the enduring service through which a person coordinates governed work. It accepts intent, binds the applicable working context and authority, chooses a bounded way to perform the work, supervises its lifecycle and integrates its outcome. It covers request paths, workload forms, identity and placement, progressive mechanisation and the controller's relationship to the Techne Fabric.
 
 ## Hosts, Roles and Layers
 
-[[Hosts, Roles and Layers]] is the plain-language explainer of how every machine is built: a base from Techne, a role applied by Rig, a workspace through `ki`, and a personal layer from chezmoi or Cheztoi, with packaging as a separate supply concern. It names the roles - workstation, remote agentic rig and appliance - with the real machines `terra`, `sol` and `vega` as examples, and sets out the machine-naming convention, the version policy per role, the packaging strategy and the Omarchy position. It is the entry point; the boundary audit it links to holds the detail.
+[Hosts, Roles and Layers](<Hosts, Roles and Layers.md>) is the plain-language explainer of how every machine is built: a base from Techne, a role applied by Rig, a workspace through `ki`, and a personal layer from chezmoi or Cheztoi, with packaging as a separate supply concern. It names the roles - workstation, remote agentic rig and appliance - with the real machines `terra`, `sol` and `vega` as examples, and sets out the machine-naming convention, the version policy per role, the packaging strategy and the Omarchy position. It is the entry point; the boundary audit it links to holds the detail.
 
 ## Knowledge Architecture
 
-[[Knowledge Architecture]] defines how engineering knowledge is organised, governed, connected and evolved within the Knowledge Islands ecosystem. It sets out the role of Knowledge Islands, the knowledge domains, required properties, context boundaries and lifecycle, and how the rest of the estate uses that knowledge.
+[Knowledge Architecture](<Knowledge Architecture.md>) defines how engineering knowledge is organised, governed, connected and evolved within the Knowledge Islands ecosystem. It sets out the role of Knowledge Islands, the knowledge domains, required properties, context boundaries and lifecycle, and how the rest of the estate uses that knowledge.
 
 ## Techne Fabric Execution Contract
 
-[[Techne Fabric Execution Contract]] defines what every admitted execution binds and preserves: one objective, one immutable repository baseline, one working context, one authority envelope, one versioned workload footprint, one eligible target, one evidence destination and one lifetime. The contract carries authority already granted and cannot widen it. It defines meaning and responsibility, not a portable schema or API.
+[Techne Fabric Execution Contract](<Techne Fabric Execution Contract.md>) defines what every admitted execution binds and preserves: one objective, one immutable repository baseline, one working context, one authority envelope, one versioned workload footprint, one eligible target, one evidence destination and one lifetime. The contract carries authority already granted and cannot widen it. It defines meaning and responsibility, not a portable schema or API.
 
-Return to [[Pillars/Engineering Practice/Engineering Practice|Engineering Practice]].
+Return to [Engineering Practice](<../Engineering Practice.md>).
 
 ## Provenance
 

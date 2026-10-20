@@ -14,9 +14,9 @@ author: Written with Claude
 
 Routine maintenance keeps the island accurate, well-structured, and free of stale content. Activities are either scheduled (time-driven, autonomous) or conversational (chat-triggered, human-in-the-loop). Together they implement the maintenance cycle that prevents the island from drifting from the world it reflects.
 
-Activities divide into two categories. **Constitutional** activities are required of any island adopting Knowledge Islands and cannot be vetoed - they define the baseline that makes an island valid. All other groups are **adoptable**: each territory must take an explicit position on each group (adopted or vetoed), with no unknowns permitted. The island's [[Admin/Governance/Charter|Charter]] is the authoritative record of adoption decisions.
+Activities divide into two categories. **Constitutional** activities are required of any island adopting Knowledge Islands and cannot be vetoed - they define the baseline that makes an island valid. All other groups are **adoptable**: each territory must take an explicit position on each group (adopted or vetoed), with no unknowns permitted. The island's [Charter](../../../../Admin/Governance/Charter.md) is the authoritative record of adoption decisions.
 
-The content here covers what each activity does and why. The executable procedure that runs each activity lives in the skill that realises it, not in a note. For the content layers and prompt authoring conventions, see [[Authoring Guidelines]].
+The content here covers what each activity does and why. The executable procedure that runs each activity lives in the skill that realises it, not in a note. For the content layers and prompt authoring conventions, see [Authoring Guidelines](<Authoring Guidelines/Authoring Guidelines.md>).
 
 ---
 
@@ -30,7 +30,7 @@ The constitutional baseline required of any Knowledge Island. Not subject to the
 
 | Activity | Type | When | Summary |
 | --- | --- | --- | --- |
-| [[Model/Activities/Constitutional/Conformance\|Conformance]] | Scheduled | Island-specific cadence | Baseline + Charter positions † |
+| [Conformance](Constitutional/Conformance.md) | Scheduled | Island-specific cadence | Baseline + Charter positions † |
 
 † Confirms the constitutional baseline holds and that every non-constitutional activity group has an explicit adopted or vetoed position in the Charter.
 
@@ -42,14 +42,14 @@ Activities that keep the island structurally sound, content-healthy, and free of
 
 | Activity | Type | When | Summary |
 | --- | --- | --- | --- |
-| [[Model/Activities/Tending/Health Check\|Health Check]] | Scheduled | Mondays at 08:00 | Reviews structural drift, skill alignment, and content health § |
-| [[Model/Activities/Tending/Knowledge Rebuild\|Knowledge Rebuild]] | Scheduled | Wednesdays at 07:00 | Reconstructs the agent's memory from canonical meta notes ¶ |
-| [[Inbox Review]] | Conversational | _"ki inbox review"_ | Weekly - files notes held in the `+/` inbox ‖ |
-| [[Asset Audit]] | Conversational | _"ki asset audit"_ | Weekly - surfaces unlinked assets and removes redundant ones |
-| [[Status Review]] | Conversational | _"ki status review"_ | Weekly - updates `status` frontmatter when a note's standing shifts |
-| [[Structural Audit]] | Conversational | _"ki structural audit"_ | Adhoc - structural review of a section or the whole repository |
-| [[Wikilink Review]] | Conversational | _"ki wikilink review"_ | Adhoc - surfaces broken wikilinks and orphan notes |
-| [[Model/Activities/Tending/Convergence Check\|Convergence Check]] | Conversational | _"ki convergence check"_ | Adhoc - compares shared notes across islands; cross-pollinates †† |
+| [Health Check](<Tending/Health Check.md>) | Scheduled | Mondays at 08:00 | Reviews structural drift, skill alignment, and content health § |
+| [Knowledge Rebuild](<Tending/Knowledge Rebuild.md>) | Scheduled | Wednesdays at 07:00 | Reconstructs the agent's memory from canonical meta notes ¶ |
+| [Inbox Review](<Tending/Inbox Review.md>) | Conversational | _"ki inbox review"_ | Weekly - files notes held in the `+/` inbox ‖ |
+| [Asset Audit](<Tending/Asset Audit.md>) | Conversational | _"ki asset audit"_ | Weekly - surfaces unlinked assets and removes redundant ones |
+| [Status Review](<Tending/Status Review.md>) | Conversational | _"ki status review"_ | Weekly - updates `status` frontmatter when a note's standing shifts |
+| [Structural Audit](<Tending/Structural Audit.md>) | Conversational | _"ki structural audit"_ | Adhoc - structural review of a section or the whole repository |
+| [Wikilink Review](<Tending/Wikilink Review.md>) | Conversational | _"ki wikilink review"_ | Adhoc - surfaces broken wikilinks and orphan notes |
+| [Convergence Check](<Tending/Convergence Check.md>) | Conversational | _"ki convergence check"_ | Adhoc - compares shared notes across islands; cross-pollinates †† |
 
 § Reviews structural drift, skill alignment, and content health across the repository.
 
