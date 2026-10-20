@@ -15,7 +15,7 @@ release: Kris says resume
 ## Now
 
 - On hold since 02:10 BST on 20 October, paused to take stock on ways of working; released when Kris says resume. Overnight autonomy (OVERNIGHT) ended with the hold.
-- Drained: plan068 received (KI-TOOL-RIG-CORE-068 planned, draft); fix027 left to finish its Q-027-REPEATS fixes within KI-TOOL-RIG-CLI-027; spec-sched (RIG-SCHEDULE-ENCODING for ki.observatory) stopped before it started, its brief kept.
+- Drained: plan068 received (KI-TOOL-RIG-CORE-068 planned, draft); fix027 received (Q-027-REPEATS fixed within KI-TOOL-RIG-CLI-027, `5cbcdc8`); spec-sched (RIG-SCHEDULE-ENCODING for ki.observatory) stopped before it started, its brief kept.
 - Records: KI-TOOL-RIG-CORE-047, KI-TOOL-RIG-CORE-062, KI-TOOL-RIG-CORE-063, KI-TOOL-RIG-CORE-065, KI-TOOL-RIG-CORE-066 and KI-TOOL-RIG-CLI-027 await Kris's acceptance; KI-TOOL-RIG-CORE-068 and KI-TOOL-RIG-CORE-069 are planned at draft. tools-rig commits are local and unpushed, beside other sessions' e651edb and 512f21f.
 - Lane, confirmed by State of play on 19 October: tools-rig and the agent-host hold cluster.
 - Looks resolved, to confirm with Kris: terra key-only SSH and HOSTKEY-APPLY steps 6-9 (KB-DOTFILES-UE-088), and the parked SOL-HNR-HARNESS.
@@ -23,7 +23,7 @@ release: Kris says resume
 
 ## Next steps
 
-1. On resume: receive fix027 if not already received, then relaunch spec-sched from its kept brief.
+1. On resume: relaunch spec-sched from its kept brief.
 2. Blind-review PLAN068-UNPRIV and PLAN068-READY on Codex, then put every parked query back one at a time, each with a recommendation and its reason, RIG-TRIAGE and the PLAN068 queries first.
 3. With Kris: ADOBE-RESTART (deferred, "remind me another day"), then the at-screen items under Held.
 
