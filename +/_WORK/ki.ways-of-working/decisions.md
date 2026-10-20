@@ -66,3 +66,7 @@ Taken as: this work coordinates an overnight burndown in order tools, MCPs, apps
 ## 2026-10-20 - acceptance grant
 
 Kris, 20 October, granting overnight acceptance: "if you can quickly now accept ... accepting new things that are waiting with you and pruning those ... getting the roadmaps down to zero". Quoted in every overnight acceptance brief; each acceptance was by an independent reviewer that did not deliver the work.
+
+## 2026-10-20 09:27 BST - send to owner
+
+The overnight burndown is drained, and the mark is struck at 09:27 BST. Nineteen queries go to Kris; the six medium or low ones were blind-reviewed by Codex. Other sessions' commits keep ki-principal, the harness, specifications, Observatory and others unpushed, and the pending prunes wait on those pushes.
