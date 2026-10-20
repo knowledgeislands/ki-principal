@@ -7,7 +7,6 @@
 - SPARK-REMOVE (spark-history high; spark-blind medium, retire; missing option: deselect and defer uninstall; SPARK-TOOL folded in): with Kris 05:10.
 - HARNESS-CI-TSC (roll-standards, high): add `bunx tsc --noEmit` to harness CI; with Kris 05:30.
 - HOOKS-FOLLOWUPS (GOV225-CLOSE, TOOLS-PKG, ASSEMBLE-SHAPE, HARNESS-GATE-LEVEL, DROPPED-ITEMS): stage1-blind agrees on all; ASSEMBLE-SHAPE adds hardening (git-tracked, symlink containment, index not working tree); with Kris 05:33.
-- TRUST (drift-apply high for leave; trust-blind medium for revoke the 88 absent with a rollback inventory, then decide the 14 existing; missing option: decide the 14 first, then one reconciliation): with Kris 23:19.
 - Not raised: CORE-SET-COMMENTS (stays in the worksheet); FIREWALL-EXPOSURE (transient, re-check 05:18 showed only `anchor-changed`); RAT-UNCONFIRMED, RAT-READING (superseded by Decisions 179 and 181).
 
 ## Parked

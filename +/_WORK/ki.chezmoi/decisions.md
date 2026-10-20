@@ -328,3 +328,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 185 (2026-10-20T22:12:00Z)
 
 - Pointer: Kris (23:12 BST): "fix any drift". Read back as APPLY a), extended to all chezmoi drift on sol: apply the committed-but-unapplied targets (the two MCP configs, `~/bin/chezmoi/json`, `~/bin/rig-bringup-check`, Rig fragments 10, 15, 16 and 40), bring any intended in-place edit back into source, stop on any script or unclear case, with `rig doctor` before and after (run drift-apply).
+
+## Decision 186 (2026-10-20T22:20:00Z)
+
+- Pointer: Kris (23:20 BST): "TRUST - remove all 102 and then we can keep an eye on it". TRUST c): revoke every undeclared Claude Desktop trust grant so it trusts exactly the 53 declared folders, keeping a rollback inventory; "keep an eye on it" read as one added step in the recurring unmanaged-configuration scan (KB-DOTFILES-HK-001) listing new undeclared grants (run trust-revoke).
