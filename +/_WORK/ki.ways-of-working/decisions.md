@@ -775,3 +775,7 @@ KI-SPEC-RGV-004 failed independent review (`da895b5`): KIP publication trigger, 
 ## 2026-10-20 07:50 BST - received accept2-specifications
 
 KI-SPEC-RGV-004 accepted after re-review (`8c3c218`, `85a86a8`, local behind another session's hooks commit `4437b58`); ki-specifications has no open record. Its prune joins PRUNE-LINKS-REST once that repository is pushed.
+
+## 2026-10-20 07:55 BST - received accept-harness-rework
+
+KI-HARNESS-GOV-200 and -205 accepted after independent re-review (`4559224e`, local above 27 other-session commits); retained for PRUNE-LINKS-REST once the harness is pushed. Out-of-scope warnings (four size, eleven skill-map staleness) noted, not actioned.
