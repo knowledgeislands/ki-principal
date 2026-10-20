@@ -54,9 +54,29 @@ Reviewed (wf-review agrees, on condition the primary-checkout write window is se
 
 Reviewed (wf-review agrees; F3 and F5 confirmed needed by source inspection): high. a) start the trial now in code repositories under F1 and F4, ki-principal once F5 lands; b) wait for F2, F3 and F5.
 
-### SWEEP - Roadmap sweep batches
+### SWEEP-ACCEPT-WAYS-OF-WORKING - Ways of working bundle
 
-sweep-queries (`303f1cc0`): 108 open, not 97 (ki-design and the website were missed); 74 after every reviewed disposition and bundle, with ki-agentic-harness 18, apps-observatory.local 13, tools-ki 11, tools-rig 10; about seventeen deliveries would bring the four to single figures (58). SWEEP-MERGE, SWEEP-CONVERT and SWEEP-CANCEL reviewed (sweep-review), high. SWEEP-ACCEPT-WAYS-OF-WORKING, SWEEP-ACCEPT-OBSERVATORY, SWEEP-ACCEPT-TOOLS-BURNDOWN, SWEEP-RIG-026 and SWEEP-DELIVER medium, in blind review sweep-review-2. Full text in the sweep-queries report.
+Views differ: sweep-queries a) accept all five (medium); sweep-review-2 none closable now (three in progress, packets incomplete), authorise preparation and re-present (high). Recommended: prepare, medium.
+
+### SWEEP-ACCEPT-OBSERVATORY - Observatory bundle
+
+Views differ: sweep-queries accept sixteen; sweep-review-2 accept eleven (VIS-022, APP-045, VIS-041, VIS-043, VIS-044, APP-046, TOK-001, MAP-001, OBS-015, SYM-001, TIL-001), hold six (GOV-219, BRG-005, BRG-006, GOV-224, SITE-044, ICO-001). Recommended: the eleven, medium.
+
+### SWEEP-ACCEPT-TOOLS-BURNDOWN - Tools burndown bundle
+
+Reviewed, agree on the three Rig records and the Knip line; KI-TOOL-KI-CLI-167 returns once review-ready: high.
+
+### SWEEP-MERGE, SWEEP-CONVERT, SWEEP-CANCEL
+
+Reviewed (sweep-review), high. Two merges; six converts (CORE-064 narrowed); cancel KI-TOOL-RIG-CORE-057 only.
+
+### SWEEP-RIG-026 - Park KI-TOOL-RIG-CLI-026 as an idea
+
+Reviewed, agrees (cancel retained, Idea line on the Rig theme): high.
+
+### SWEEP-DELIVER - Authorise deliveries toward single figures
+
+Reviewed, agrees with stops (awaiting-review target, expiry, shared files serialised, no promised closures): high. Six harness records take ki-agentic-harness 18 to 12, not 9.
 
 ## Parked
 

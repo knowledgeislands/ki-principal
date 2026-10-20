@@ -1,10 +1,10 @@
 ---
 id: ki.ways-of-working
-state: with-worker
-since: 2026-10-20T02:08:00Z
+state: handoff-to-supervisor
+since: 2026-10-20T03:22:00Z
 received: 2026-10-19T16:57:00Z
 beat: null
-mark: 2026-10-20T02:08:00Z
+mark: 2026-10-20T03:22:00Z
 method_read: eff6163b
 ---
 
@@ -12,6 +12,7 @@ method_read: eff6163b
 
 ## Now
 
+- Send to Kris at 04:22 BST, mark struck: all runs received; 21 queries with Kris (worktree trial, GFM, maturity, stashes, marks, single figures and the reviewed sweep). Next on answers: apply the sweep dispositions and acceptances, launch the harness batch, then ADOPTION once Kris restarts the threads.
 - Received wow-rules2, worktree-flow, sweep-review, md-review and gfm-review-2 at 04:04 BST. Running: wf-review (blind review of WORKTREE-INTEGRATE, WORKTREE-START), sweep-queries (recount and sweep queries). Then a full Summary to Kris. Other threads stay paused; priority single figures.
 - Kris answered at 03:2x BST: priority is Knowledge Islands roadmaps to single figures; other threads stay paused until Acquire intake, ki.chezmoi and this work are bottomed out. Running: gfm-convert, roadmap-sweep, harness-moves; queued: wow-rules2, worktree-flow. Open with Kris: WORKTREE-AUDIT, CAPTURE-ORIGIN, single-figures scope; NO-GATE parked.
 - Send to Kris at 03:08 BST: wow-standards landed (harness `609ee238`, `071567a1`, pushed; REFRESH to 13 works and 7 capitals; Acquire intake answered). 15 queries with Kris plus WEBMOTH: CHECKOUT-ISOLATION, WORKTREE-AUDIT, HOOK-4-CLASS, PLANNED-READY, NET-DOWN, WIP-CAP, CAPTURE-ORIGIN, HANDOFF-AS-MESSAGE, STALE-SWEEP, ACCEPT-BUNDLE, NO-GATE (with PKGLESS-GATE), GFM-HOSTING-RULES, HARNESS-TRIAGE, PRINCIPAL-TRIAGE. Next on answers: ADOPTION conformance check; reconcile finish-first's 26-record gap; triage sweep once WEBMOTH is answered.

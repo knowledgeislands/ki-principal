@@ -629,3 +629,7 @@ Blind review agrees with both worktree queries: WORKTREE-INTEGRATE a), on condit
 ## 2026-10-20 04:16 BST - received sweep-queries
 
 Recount 108 open (the first sweep missed ki-design and the website); 74 after every reviewed course; single figures needs about seventeen deliveries on top (58). Eight sweep queries: SWEEP-MERGE, SWEEP-CONVERT, SWEEP-CANCEL high, reviewed; the three accept bundles, SWEEP-RIG-026 and SWEEP-DELIVER medium, to blind review sweep-review-2. Design note `303f1cc0`. Brief removed.
+
+## 2026-10-20 04:22 BST - received sweep-review-2; send to owner, mark struck
+
+Review disagrees on two bundles: Ways of working has nothing closable now (prepare instead); Observatory eleven of seventeen. Agrees on the Tools burndown Rig three, SWEEP-RIG-026 and SWEEP-DELIVER with stops; the harness batch alone takes the harness to 12. Its report also notes the launcher's report rule still asks for a reply block. All work received; sent to Kris.
