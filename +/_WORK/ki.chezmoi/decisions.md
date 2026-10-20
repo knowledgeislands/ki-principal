@@ -179,3 +179,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 148 (2026-10-20T00:09:00Z)
 
 - Pointer: RUN-REASON a), taken under OVERNIGHT with confidence high: the bring-up check's `ki-doctor` failure reason names `ki harness install <harness-id>` then `ki bootstrap`, as the guide does, because `ki bootstrap` takes no harness argument ([ue090-r3](/Users/krisbrown/.local/state/ki/agents/chezmoi/ue090-r3.report.md)). Run ue090-r3b, then round 3's review gate (r3-review).
+
+## Decision 149 (2026-10-20T00:33:00Z)
+
+- Pointer: REREVIEW-SCOPE a), taken under OVERNIGHT with confidence high: round 3 of KB-DOTFILES-UE-090 gets a focused read-only re-review of chezmoi `f3021f2` against r3-review3's guard defect, because the earlier reviews already passed the rest; on a pass the record moves to Awaiting review.
