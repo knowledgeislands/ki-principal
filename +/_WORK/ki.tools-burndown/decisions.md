@@ -96,3 +96,9 @@ Taken as: no timed updates; overnight autonomy again, with HIGH-APPLY and TO-DON
 - PIN-LINKS returned by ki.chezmoi at 01:52: prunegit2 prunes KI-MCP-GIT-FND-006.
 - acceptki2: KI-TOOL-KI-CLI-154, 161, 164 and 166 Done and pruned; 152 and 167 back to In progress for want of follow-up identifiers. acceptmgit: KI-TOOL-MGIT-CLI-026, 027, 029 and 030 Done, pruned and pushed.
 - HOOK-TESTS from ki.ways-of-working (01:57): the harness hook tests failing on `main` fall under this work's hooks migration; hooktests repairs them after estpush2, and this work tells ki.ways-of-working when `main` is green.
+
+## Hold (20 October, 02:05 BST)
+
+Kris: "pause - take stock. Go On hold under current ki-coordination: drain (let a run that will end within about 15 minutes finish, stop any other at a safe point and record where), launch nothing new, commit your own work by explicit path and push only as the standard allows, park every open query, and set state.md to on-hold with reason "take stock on ways of working" and release "Kris says resume". Before the hold report, write design/retro-2026-10-20.md in your work folder with three headings, Working well, Not working and Would change, in five to ten plain bullets that cite real incidents from this work, and commit it with the hold. Then give the hold report and its resume line."
+
+Taken as: recordki, yorkmsg, kidesign and hooktests stopped before they started, with their briefs kept for resume; estpush2 told to stop after its current repository; CAPTURE-FOLLOWUPS, SRC-PLACEMENT and WORKTREE-GATE parked.

@@ -1,7 +1,9 @@
 ---
 id: ki.tools-burndown
-state: with-worker
-since: 2026-10-19T22:45:48Z
+state: on-hold
+reason: take stock on ways of working
+release: Kris says resume
+since: 2026-10-20T01:05:07Z
 received: 2026-10-19T18:00:08Z
 beat: null
 method_read: 9c17df3c
@@ -13,6 +15,7 @@ method_read: 9c17df3c
 
 Mark at 23:45 BST, 19 October.
 
+- 02:05 BST: On hold for Kris (take stock on ways of working). recordki, yorkmsg, kidesign and hooktests stopped before starting; briefs kept, relaunch on resume. estpush2 draining after its current repository. Queries parked. On resume: relaunch those four, answer HOOK-TESTS to ki.ways-of-working when the harness is green.
 - 01:59 BST: received prunegit2 (KI-MCP-GIT-FND-006 pruned, pushed). HOOK-TESTS from ki.ways-of-working: hooktests queued after estpush2 in ki-agentic-harness; reply when main is green.
 - 01:57 BST: Kris to bed again; no timed updates; overnight autonomy. Received acceptki2 (154, 161, 164, 166 Done; 152, 167 In progress, CAPTURE-FOLLOWUPS), acceptmgit (four Done, pushed), qreview10 (eight applied; SRC-PLACEMENT, WORKTREE-GATE parked for Kris) and PIN-LINKS. Launched prunegit2, then after estpush2: recordki, yorkmsg, kidesign.
 - 01:50 BST: Kris back; 10-minute updates; Summary given. Running: acceptki2, acceptmgit, qreview10 (11 queries), estpush2.
