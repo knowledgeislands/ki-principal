@@ -174,3 +174,7 @@ Taken as: a) after blind review. The gate stays on Admin, Pillars and Resources 
 ## 2026-10-20 23:42 BST - GOV-225 baseline evidence
 
 The GOV-225 acceptance review passed on substance but stopped on `baseline_ref: null`, raising GOV225-BASELINE. Covered by Kris's GOV225-CLOSE a) ("Closes the hook content-claims record after a final review") and the 20 October acceptance grant: a repair run establishes the baseline from verifiable Git evidence only (no inference), then a fresh independent acceptance. Not raised to Kris.
+
+## 2026-10-21 00:00 BST - GOV-225 third acceptance
+
+The second acceptance stopped on HARNESS-PRIMARY-LEAK: ki.chezmoi's hooks-tools run leaked test fixtures into the harness's shared .git at 23:55. That run has since restored the primary (main at 35ba5120, core.bare=false, fixture identity removed), confirmed by the coordinator. Not raised to Kris: a third acceptance runs with that evidence and leaves the hooks work's fixture branches alone.
