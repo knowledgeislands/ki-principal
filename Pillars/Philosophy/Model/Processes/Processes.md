@@ -15,7 +15,7 @@ Processes are how governance is carried out in practice. Within the Model act, t
 
 The chapter has four processes. One governs change within an island; one governs how knowledge passes between a territory and the shared Knowledge Islands model; one describes how external material is acquired and harvested; one describes how coordinated work moves between the people and agents doing it. Each preserves the authority of whoever owns the receiving knowledge.
 
-Start with [How Change Happens](<How Change Happens.md>), the narrative chapter note, before reading either process in detail.
+Start with [How Change Happens](<How Change Happens.md>), the narrative chapter note, before reading each process in detail.
 
 ---
 

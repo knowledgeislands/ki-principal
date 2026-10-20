@@ -11,7 +11,7 @@ author: Written with Claude
 
 Every island holds jurisdiction over its own canonical knowledge - the authority to determine what reaches its Library. Nothing becomes stable knowledge in Pillars or Resources except through the island's own governance.
 
-At the territory level, jurisdiction flows through the principal island: it carries the shared governance baseline for the whole territory. Satellite islands operate within this framework while maintaining their own jurisdictional scope for their specific domain.
+At the territory level, jurisdiction flows through the principal island: it carries the shared governance baseline for the whole territory. The territory's other islands operate within this framework while maintaining their own jurisdictional scope for their specific domain.
 
 Three structural patterns define how jurisdiction is administered:
 

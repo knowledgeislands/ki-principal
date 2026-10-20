@@ -11,7 +11,7 @@ author: Written with Claude
 
 Agents are the actors within the knowledge cycle - human or artificial - who create, shape, and move knowledge. They are the force of change within the system.
 
-**Human agents** originate meaning. They apply judgment, define value, and are the sole source of wisdom. Human agents interact with the knowledge system through interfaces: notes, documents, editors, search, dashboards, visual maps. These support understanding, creativity, reflection, and judgment - the distinctly human contributions.
+**Human agents** originate meaning. They apply judgement, define value, and are the sole source of wisdom. Human agents interact with the knowledge system through interfaces: notes, documents, editors, search, dashboards, visual maps. These support understanding, creativity, reflection, and judgement - the distinctly human contributions.
 
 **Artificial agents** extend scale, speed, and recall. They assist with capture, connection, and curation - but not reflection. Reflection is the distinctly human stage of the cycle: reframing, judging, deciding what endures. Artificial agents interact through structured protocols - tools such as MCP that allow them to discover knowledge sources, read from and propose changes to repositories, and operate within defined jurisdictional boundaries.
 

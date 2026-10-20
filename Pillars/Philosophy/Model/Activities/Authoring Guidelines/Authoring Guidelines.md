@@ -163,7 +163,7 @@ The canonical format for Definition notes is defined in [Activity Note](<../../C
 ## Designing a New Activity
 
 1. **Identify the layer** - is this truly a new activity (new Definition note needed) or a new variant of an existing one (Script only)?
-2. **Check Knowledge Capital** - does island-specific Configuration for this activity already exist, or does it need a new Configuration note?
+2. **Check the island's `Admin/` zone** - does island-specific Configuration for this activity already exist, or does it need a new Configuration note?
 3. **Check Agentic AI patterns** - does the activity need caching, parallel MCP calls, or a rolling window? Use existing Patterns; don't re-derive them in the prompt.
 4. **Write the Definition first** - document what and why before writing the prompt. If you can't articulate a clear outcome, the activity isn't ready to prompt yet.
 5. **Write the Script** - reference Configuration by path; invoke Patterns by name. Avoid duplicating logic that already exists at a higher layer.

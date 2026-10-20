@@ -16,7 +16,7 @@ A note is the written form of a piece of knowledge on the island. Every decision
 
 Notes are written in Markdown. This is a fundamental requirement of the model - not a tooling preference. Markdown sits at the sweet spot between human-readable and machine-readable: legible as plain text without rendering, processable by AI agents without conversion, diffable, version-controllable, and portable across editors and systems. Any tool that reads or writes to the island must work with Markdown files directly.
 
-Three convention areas govern notes. Format defines the physical structure: what sections every note carries, how they are arranged, how content within them is written, and how notes link to each other and embed assets. Frontmatter governs the YAML metadata block - the properties and tag taxonomy that classify and surface notes. Types extend the base format for specific purposes: collection cards, meeting notes, and session digests each bring their own structural rules.
+Three convention areas govern notes. Format defines the physical structure: what sections every note carries, how they are arranged, how content within them is written, and how notes link to each other and embed assets. Frontmatter governs the YAML metadata block - the properties and tag taxonomy that classify and surface notes. Types extend the base format for specific purposes: activity notes, collection cards, meeting notes, and session digests each bring their own structural rules.
 
 ---
 
@@ -30,7 +30,7 @@ The physical structure of a note - its sections, heading conventions, footer rul
 
 Every note carries a YAML frontmatter block. Frontmatter has two parts: [Properties](Properties.md) defines the standard fields (`status`, `author`, and optional fields), and [Tags](Tags.md) defines the hierarchical tag taxonomy used across all notes. Both are a superset - not every property or tag applies to every island.
 
-Island-specific extensions and overrides live in Knowledge Capital.
+Island-specific extensions and overrides live in the island's `Admin/` zone.
 
 ---
 

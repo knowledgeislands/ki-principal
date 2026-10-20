@@ -25,7 +25,7 @@ The five chapters build on one another. Conventions define the shared language, 
 
 ## Processes
 
-[Processes](Processes/Processes.md) holds the mechanisms by which governance is enacted in practice. The Enactment Process governs how an island moves a proposal to ratified canonical content; the Contribution Process governs how knowledge developed elsewhere is proposed back into the shared model. Together they explain why nothing reaches a canonical zone by accident.
+[Processes](Processes/Processes.md) holds the mechanisms by which governance is enacted in practice. The Enactment Process governs how an island moves a proposal to ratified canonical content; the Contribution Process governs how knowledge developed elsewhere is proposed back into the shared model; the Acquisition Process governs how external material is acquired and harvested; and the Work Process describes how coordinated work moves between the people and agents doing it. Together they explain why nothing reaches a canonical zone by accident.
 
 ---
 

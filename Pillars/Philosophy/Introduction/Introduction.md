@@ -11,7 +11,7 @@ author: Written with Claude
 
 ## Overview
 
-Introduction is the first of the three chapters of [Knowledge Islands](<../Knowledge Islands.md>), answering why the model exists before explaining how it works. It is followed by [Model](../Model/Model.md), the portable definition any island can adopt, and then by [Realisation](../Realisation/Realisation.md), where that definition becomes concrete in Knowledge Islands Principal. Introduction assumes no prior knowledge: it earns the idea of a Knowledge Island by showing what knowledge is, why it needs a home and what has been tried before, and then establishes the vocabulary the later chapters depend on.
+Introduction is the first of the three acts of [Knowledge Islands](<../Knowledge Islands.md>), answering why the model exists before explaining how it works. It is followed by [Model](../Model/Model.md), the portable definition any island can adopt, and then by [Realisation](../Realisation/Realisation.md), where that definition becomes concrete in Knowledge Islands Principal. Introduction assumes no prior knowledge: it earns the idea of a Knowledge Island by showing what knowledge is, why it needs a home and what has been tried before, and then establishes the vocabulary the later chapters depend on.
 
 The chapter has two parts, read in order. Background builds the problem and arrives at the island as its answer; Concept takes that single island and explains how islands relate, who acts within them, who holds authority and how change is governed. Together they give a reader enough context that nothing in the Model arrives without explanation.
 

@@ -13,9 +13,9 @@ author: Written with Claude
 
 Knowledge Islands is a conceptual model for organising knowledge.
 
-In Knowledge Islands, knowledge is treated as a natural, evolving system - islands are discrete bodies of knowledge, teritories are archipelagos, groups of islands governed together under the same rules of access, contribution, and change.
+In Knowledge Islands, knowledge is treated as a natural, evolving system - islands are discrete bodies of knowledge, territories are archipelagos, groups of islands governed together under the same rules of access, contribution, and change.
 
-Where the Knowledge Islands model holds the portable, agnostic definition; Knowledge Capitals defines the realisation of the model through concepts such as the island's charter, council, citizenship, integrations and routing.
+Where the Knowledge Islands model holds the portable, agnostic definition, its Realisation describes how an island makes the model real through concepts such as the island's charter, council, citizenship, integrations and routing.
 
 Knowledge Islands Principal is the Knowledge Island of Knowledge Islands, the Knowledge Capital of Knowledge Capitals - a legendary utopia that holds the canonical definition and governance model for the entire Knowledge Islands concept.
 
@@ -48,7 +48,7 @@ The first part establishes the problem and the model. It does not assume the rea
 ### Concept
 
 - [Concept](Introduction/Concept/Concept.md) - the chapter index; start with [How an Island Takes Shape](<Introduction/Concept/How an Island Takes Shape.md>)
-- [Territories and Archipelagos](<Introduction/Concept/Territories and Archipelagos/Territories and Archipelagos.md>) - how islands relate; principal vs satellite; the geography at scale
+- [Territories and Archipelagos](<Introduction/Concept/Territories and Archipelagos/Territories and Archipelagos.md>) - how islands relate; the Capital and its territory; the geography at scale
 - [Agents](Introduction/Concept/Agents/Agents.md) - who acts within the system; human and AI; the force of change
 - [Jurisdiction](Introduction/Concept/Jurisdiction/Jurisdiction.md) - authority and standing; who can decide what
 - [Governance](Introduction/Concept/Governance/Governance.md) - the five areas that make an island function day to day
@@ -79,6 +79,8 @@ The second part is the portable, generic model. It covers the language of the is
 - [Processes](Model/Processes/Processes.md) - the chapter index; start with [How Change Happens](<Model/Processes/How Change Happens.md>)
 - [Enactment Process](<Model/Processes/Enactment Process/Enactment Process.md>) - Stream ↔ Council → Pillars/Resources; the iterative governance cycle
 - [Contribution Process](<Model/Processes/Contribution Process/Contribution Process.md>) - who can contribute; customs at the boundary; inbound vs outbound
+- [Acquisition Process](<Model/Processes/Acquisition Process/Acquisition Process.md>) - how external material is acquired, staged, harvested and retired
+- [Work Process](<Model/Processes/Work Process/Work Process.md>) - how coordinated work moves between the people and agents doing it
 
 ### Activities - How does the island stay alive?
 
@@ -86,7 +88,7 @@ The second part is the portable, generic model. It covers the language of the is
 - [Authoring Guidelines](<Model/Activities/Authoring Guidelines/Authoring Guidelines.md>) - the content layers; how activity notes are written and maintained
   - _Constitutional (always-on):_
     - [Constitutional](Model/Activities/Constitutional/Constitutional.md) - the set of activities every island must run; includes [Conformance](Model/Activities/Constitutional/Conformance.md)
-  - _Tending (island health):_
+  - _Tending (adoptable; island health):_
     - [Tending](Model/Activities/Tending/Tending.md) - the full tending cycle overview
     - [Health Check](<Model/Activities/Tending/Health Check.md>) - weekly structural and content health review
     - [Knowledge Rebuild](<Model/Activities/Tending/Knowledge Rebuild.md>) - weekly rewrite of auto-memory from canonical notes
@@ -96,7 +98,7 @@ The second part is the portable, generic model. It covers the language of the is
     - [Structural Audit](<Model/Activities/Tending/Structural Audit.md>) - adhoc deep conformance audit
     - [Link Review](<Model/Activities/Tending/Link Review.md>) - adhoc broken-link and orphan-note check
     - [Convergence Check](<Model/Activities/Tending/Convergence Check.md>) - adhoc cross-island shared-note sync
-  - _Adoptable groups (Briefings, Email, Linear):_
+  - _Other adoptable groups (Briefings, Email, Linear):_
     - each island records an explicit adopted or vetoed position on these groups; Knowledge Islands Principal's positions are in its [Charter](../../Admin/Governance/Charter.md) and its group notes in [Admin Activities](../../Admin/Operations/Activities/Activities.md)
 
 ### Agents - Who acts?
@@ -111,6 +113,7 @@ The second part is the portable, generic model. It covers the language of the is
 - [Obsidian](Model/Tools/Obsidian/Obsidian.md) - the primary authoring and navigation tool; vault structure and plugins
 - [Linear](Model/Tools/Linear/Linear.md) - Linear as tool; browser-based view management; island integration
 - [Microsoft 365](<Model/Tools/Microsoft 365/Microsoft 365.md>) - M365 as tool; Outlook MCP, calendar, email integration
+- [Git Audit](<Model/Tools/Git Audit/Git Audit.md>), [KB Filesystem](<Model/Tools/KB Filesystem/KB Filesystem.md>), [Notion Mirror](<Model/Tools/Notion Mirror/Notion Mirror.md>) and [Gmail](Model/Tools/Gmail/Gmail.md) - the further connected tools the chapter index describes
 
 ---
 

@@ -16,13 +16,13 @@ Constitutional activities are in a different category from all other activity gr
 
 This distinction matters because the adoption model otherwise treats every activity group symmetrically: a territory must take an explicit position on each group (adopted or vetoed), and the Conformance Check flags any group without a declared position as non-conformant. Constitutional activities sit outside this model. They are verified by the Conformance Check, but they cannot appear in the Charter's adoption table - they predate it.
 
-Two elements are constitutional, spanning both activities and Knowledge Capital configuration:
+Two elements are constitutional, spanning both activities and the island's `Admin/` configuration:
 
-- **Charter** - the island must have a Charter in its Knowledge Capital. Its Identity section establishes the island's fixed parameters; its operational sections declare adoption positions for every non-constitutional activity group. Without it, the island's identity and adoption state are unknown and Conformance cannot proceed.
+- **Charter** - the island must have a Charter in its `Admin/` zone. Its Identity section establishes the island's fixed parameters; its operational sections declare adoption positions for every non-constitutional activity group. Without it, the island's identity and adoption state are unknown and Conformance cannot proceed.
 - **Conformance** - the island must run the Conformance Check. This is the sole constitutional _activity_, and it is self-grounding: the mechanism that verifies constitutional compliance is itself constitutional.
 
 ---
 
 ## [Conformance](Conformance.md)
 
-The Conformance Check is the sole activity in this group. It verifies that the island meets its constitutional baseline - Charter and Conformance itself - and that every non-constitutional activity group has an explicit adopted or vetoed position in the Charter, with the required Knowledge Capital configuration present for adopted groups. It runs on a scheduled cadence and cannot be vetoed.
+The Conformance Check is the sole activity in this group. It verifies that the island meets its constitutional baseline - Charter and Conformance itself - and that every non-constitutional activity group has an explicit adopted or vetoed position in the Charter, with the required `Admin/` configuration present for adopted groups. It runs on a scheduled cadence and cannot be vetoed.
