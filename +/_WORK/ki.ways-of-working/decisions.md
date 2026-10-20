@@ -845,3 +845,7 @@ Codex blind review (`58dd1d22`):
 - Disagrees on GOV202-ADOPT, adding c) to keep it in triage pending a value comparison, with both views shown.
 
 All 19 queries are now ready for Kris.
+
+## 2026-10-20 09:20 BST - received accept2-harness-170; preparing the send
+
+KI-HARNESS-GOV-170 accepted on re-review (`e8f1da6e`, local); it joins PRUNE-LINKS-REST. All dispatched work has finished. Before the morning send to Kris, mark-strike strikes this log under the mark rule and checks the folder is pruned.
