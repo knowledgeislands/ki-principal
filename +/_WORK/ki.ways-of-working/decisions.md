@@ -797,3 +797,8 @@ STYLE-STALE landed (`dacdcc33`, local): re-anchoring now re-reads `output-styles
 - WORKTREE-FLOW-REPORT: the coordinator's own pruning call, not Kris's; the report's outcome is in Git (graduated `design/worktree-flow.md`, `df1bc94a`) and its original stays in the state directory, so it is deleted.
 - Decisions-log length (LIFECYCLE-3, warning): struck at the morning send's mark.
 - KI-PRINCIPAL-ECO-013's re-review waits until the routed works clear ki-principal's remaining audit failures.
+
+## 2026-10-20 08:29 BST - received burn3-tools-ki; one routed line
+
+- KI-TOOL-KI-CLI-159 delivered to awaiting review (`b4f8a100`, `5aebeb9d`, pushed); 1,405 tests at 100% coverage. accept5-tools-ki (Codex) reviews it under the overnight grant, and prunes it if it passes.
+- ISLAND-CONDITION: the Observatory's to use, so routed once to ki.observatory's `messages.md`. Line removed.
