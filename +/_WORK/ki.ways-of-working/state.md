@@ -1,6 +1,6 @@
 ---
 id: ki.ways-of-working
-state: handoff-to-supervisor
+state: with-worker
 since: 2026-10-20T02:08:00Z
 received: 2026-10-19T16:57:00Z
 beat: null
@@ -12,6 +12,7 @@ method_read: eff6163b
 
 ## Now
 
+- Kris answered at 03:2x BST: priority is Knowledge Islands roadmaps to single figures; other threads stay paused until Acquire intake, ki.chezmoi and this work are bottomed out. Running: gfm-convert, roadmap-sweep, harness-moves; queued: wow-rules2, worktree-flow. Open with Kris: WORKTREE-AUDIT, CAPTURE-ORIGIN, single-figures scope; NO-GATE parked.
 - Send to Kris at 03:08 BST: wow-standards landed (harness `609ee238`, `071567a1`, pushed; REFRESH to 13 works and 7 capitals; Acquire intake answered). 15 queries with Kris plus WEBMOTH: CHECKOUT-ISOLATION, WORKTREE-AUDIT, HOOK-4-CLASS, PLANNED-READY, NET-DOWN, WIP-CAP, CAPTURE-ORIGIN, HANDOFF-AS-MESSAGE, STALE-SWEEP, ACCEPT-BUNDLE, NO-GATE (with PKGLESS-GATE), GFM-HOSTING-RULES, HARNESS-TRIAGE, PRINCIPAL-TRIAGE. Next on answers: ADOPTION conformance check; reconcile finish-first's 26-record gap; triage sweep once WEBMOTH is answered.
 - ADOPTION, FINISH-FIRST and a triage sweep from Kris at 02:38 BST; "webmoth" asked back; FINISH-FIRST design follows ci-review; ADOPTION follows wow-standards.
 - Kris answered the take-stock queries at 02:25 BST: six a); OWNER-QUEUE checks asked back; CHECKOUT-ISOLATION investigated by checkout-iso. green-main repairs the harness hook tests and integrates lane-triage and checker-gaps; then wow-standards writes BLIND-REVIEW, CLAIM-CHECK, CLASS-FIX, GREEN-MAIN, OOS-WAKE and SMALL-FIXES into the standards, sends REFRESH and replies to Acquire intake. LAUNCH-DEFAULTS, OOS-WAKE watcher and the review scaffold handed to ki.tools-burndown.
