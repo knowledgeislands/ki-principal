@@ -760,3 +760,9 @@ KI-SPEC-RGV-004 (Archify status-flow diagrams) to awaiting review (`42c9ed6`, lo
 ## 2026-10-20 07:42 BST - received accept-specifications
 
 KI-SPEC-RGV-004 failed independent review (`da895b5`): KIP publication trigger, KIS deprecation condition and the unfinished KI-theme re-export. burn2-ki-specifications reworks, accept2-specifications re-reviews. SPEC-SKETCH: the reviewer independently agrees with a) (governance, lifecycle step 8 and the status diagrams all say `Accepted -> Superseded`), so it stands reviewed, high, for Kris in the morning.
+
+## 2026-10-20 07:46 BST - received burn2-ki-specifications; two routed lines
+
+- burn2-ki-specifications: all three findings fixed on KI-SPEC-RGV-004 (`ffee2a3`, main `14687c0`, local); accept2-specifications re-reviews.
+- STYLE-STALE (Kris's a), 18 October): harness-style queued after accept-harness-rework to make re-anchoring re-read `output-styles/ki-coordinator.md` from disk. Line removed.
+- IDENTITY-PHASE3: the harness half of native-session identity, needing KI-TOOL-KI-CLI-145's binding file and KB-DOTFILES-UE-096's matchers first; in `state.md` Next steps beside KI-TOOL-KI-CLI-145. Line removed.

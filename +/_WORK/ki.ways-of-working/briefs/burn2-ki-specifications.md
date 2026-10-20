@@ -1,7 +1,0 @@
-# Rework: KI-SPEC-RGV-004
-
-Nobody else is working tonight; Kris, 20 October, set OVERNIGHT-BURNDOWN: "getting the roadmaps down to zero ... and even start to tidy up some of the other ones as well ... committing and pushing as you go". Repository `/Users/krisbrown/workspaces/knowledge-islands/ki-specifications`, its roadmap folder.
-
-1. KI-SPEC-RGV-004 failed independent review (`da895b5`; read `/Users/krisbrown/.local/state/ki/agents/ways-of-working/accept-specifications.report.md` and the findings in the record's Discussion): the KIP diagram's publication trigger conflicts with governance's implementation experience and Active KIS requirement; the KIS diagram presents a typical deprecation reason as a required condition; the promised KI-theme re-export is unfinished. Fix all three, refresh the packet, return to awaiting review. Do not change the specification sketch (SPEC-SKETCH is with Kris).
-
-Work in a worktree on `run/burn2-ki-specifications` under `ki-git`, fast-forward local `main` after the gates pass, pull with rebase and push fast-forward only when every commit ahead of the remote is from this programme tonight, else leave it local and report it. Never accept or prune. Never `--no-verify` or force-push. CAPTURE-GATE: no new records, follow-ups as `messages.md` lines in `/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/<id>/`. HOOK-GUARD: no `ki repo conform` without `--dry-run`. British English, ASCII hyphens. Report per record: before, after, commits, pushed; and the open count before and after.
