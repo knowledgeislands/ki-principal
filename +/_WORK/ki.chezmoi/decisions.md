@@ -320,3 +320,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 
 - Pointer: route receipt from ki.ways-of-working apply-sweep (05:34 BST), CONFIG-UNDER-CONTROL under SWEEP-CONVERT a), quoting Kris (18 October): "I think we do need to have a fairly regular thing where we look to see if we should be bringing more configuration under control."
 - Read back as: adopt a recurring read-only Activity in the chezmoi source scanning each Mac's unmanaged application and tool configuration, starting with `~/.config/mgit/`, reporting for Kris to choose; KI-TOOL-RIG-CORE-064 keeps Rig-managed configuration. Run config-control extends KB-DOTFILES-HK-001 or adds a template.
+
+## Decision 184 (2026-10-20T20:55:00Z)
+
+- Pointer: Kris (21:55 BST): "can you clean out the vscode workspaces and recreate them using `ki` and commit and apply". Read back as: in the chezmoi source, remove every `workspaces/vscode/` workspace, recreate them with `ki vscode sync --write`, gate and commit, then apply only the workspace targets and those `trusted-folders.yaml` drives, leaving the targets under the open APPLY query alone (run vscode-reset).
