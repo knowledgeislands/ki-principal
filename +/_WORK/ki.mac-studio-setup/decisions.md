@@ -87,3 +87,5 @@
 - 2026-10-20 00:57 BST, core062 received: KI-TOOL-RIG-CORE-062 delivered to Awaiting review (local, unpushed, 593 of 593 tests); Q-062-TERRA a) (high, read-only) taken under OVERNIGHT: run `rig show firewall:<id>` or `/sbin/ifconfig` on terra at the start of the attended rollout, before any `rig apply --sudo`; the rollout itself, which both Macs need once this Rig is in use (their anchors will show `drifted (anchor-changed)`), waits for Kris's approval at the screen; brief pruned.
 
 - 2026-10-20 01:09 BST, rig-dispose received: RIG-MANAGERS a) applied (G2 folded into KI-TOOL-RIG-CORE-067, KI-TOOL-RIG-CORE-066 narrowed to G3 at Awaiting review); KI-TOOL-RIG-CORE-053 and KI-TOOL-RIG-CORE-067 in Next; KI-TOOL-RIG-CORE-068 and KI-TOOL-RIG-CORE-069 in Now, planning only; 056, 057, 064 and DIST-011 untouched; local, unpushed; no queries; brief pruned.
+
+- 2026-10-20 01:35 BST, deliver027 received: KI-TOOL-RIG-CLI-027 delivered to Awaiting review (local, unpushed, 600 of 600 tests); Q-027-REPEATS (medium) sent to blind review run review027 on Codex at high effort; brief pruned.
