@@ -2,11 +2,14 @@
 
 ## Open
 
-None.
+Batch 1 of 2 (hooks first, Decision 162; cap eight). Raised 03:27 BST.
+
+- AUDIT-LINT (high), EMPTY-EXIT, HARNESS-LINES, MSG-UNIFY, STRICTNESS (high after model-blind), CHEZMOI-HOOK (merges CHEZMOI-HOOK and CHEZMOI-TESTS; medium, both reviews agree), OUT-OF-SCOPE (high after hooks-blind), MAIN-PUSH (high, publication).
+- hooks-survey's SHELL-HOOK, FRAME-EMPTY and GOV-GAPS are superseded by the hooks model; DESIGN-MIGRATE was done under Decision 162.
 
 ## Held
 
-Held until Decisions 153 to 161 are processed (Kris: "process them before raising any more"); the medium ones go to blind review first.
+Batch 2, after batch 1 is answered: RAT-UNCONFIRMED, RAT-READING, RAT-SPARK-VOICE, PRUNE-ACCEPTED, UE-082-FOLLOWUPS, 077-REVIEW-PATH, PENDING-REVIEW, READY-076, RESOLUTION-084, A-PRUNE.
 
 - RAT-UNCONFIRMED, RAT-READING, RAT-SPARK-VOICE: from [rat-write](/Users/krisbrown/.local/state/ki/agents/chezmoi/rat-write.report.md); RAT-UNCONFIRMED and RAT-SPARK-VOICE in blind review (rat-blind).
 - Six Git hook recommendations from [hooks-survey](/Users/krisbrown/.local/state/ki/agents/chezmoi/hooks-survey.report.md); the four medium ones in blind review (hooks-blind).
@@ -16,3 +19,4 @@ Held until Decisions 153 to 161 are processed (Kris: "process them before raisin
 - MAIN-PUSH (high), A-PRUNE (high, deletion; prune-blind agrees: delete locally, high, history in main, no worktree, no remote copy): from [wt-survey](/Users/krisbrown/.local/state/ki/agents/hooks/wt-survey.report.md); STASH-DROP routed to ki.ways-of-working.
 - AUDIT-LINT (high), EMPTY-EXIT, HARNESS-LINES, MSG-UNIFY, STRICTNESS, CHEZMOI-TESTS (medium): from [hooks-model](/Users/krisbrown/.local/state/ki/agents/hooks/hooks-model.report.md), note [git-hooks-model.md](design/git-hooks-model.md); the five medium ones in masked blind review (model-blind).
 - RESOLUTION-084 (high): from [cancel-084](/Users/krisbrown/.local/state/ki/agents/chezmoi/cancel-084.report.md); KB-DOTFILES-UE-084 cancelled as `rejected` (chezmoi `3f7c9bd`).
+- model-blind back: EMPTY-EXIT before the refusal (high, eight scratch scenarios pass), HARNESS-LINES all three out (high, CI covers each), MSG-UNIFY check-message everywhere (high, ten cases agree), STRICTNESS required lines plus forbidden list (high; missing option: an ordered allowlist), CHEZMOI-TESTS manual gate (medium).
