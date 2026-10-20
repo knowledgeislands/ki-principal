@@ -4,10 +4,10 @@ slug: knowledge-acquisition
 title: Knowledge acquisition
 outcome: The provider-neutral acquisition lifecycle is documented in one Pillars note, AI sessions are acquired into their owning repositories with verified retirement of the source, and the browser-runtime and WhatsApp spool questions are settled.
 theme: model
-lifecycle: active
+lifecycle: completed
 lead: Kris Brown
 target: null
-updated: 2026-10-14T23:30:00Z
+updated: 2026-10-20T04:14:07Z
 author: Written with Claude
 ---
 
@@ -38,3 +38,9 @@ This Project sits in [Model](../Themes/model.md).
   Open questions carried with them: the provisional Spirituality project binding, and what happens to the 77 export files referenced by no conversation. The harness's staging checkpoint of 2026-10-14 holds the evidence pattern (immutable project bindings, explicit omissions, checksums from a clean checkout) the Pillars lifecycle note can draw on.
 - **Known World part, 2026-10-15.** On 15 October Kris placed the foundations model in [Known World](<../../Pillars/Philosophy/Emerging Concepts/Known World.md>) and gave this Project its part: the inception loop, publishing a seed into acquire's ChatGPT context and folding back the capture that returns with `ki_project`. [Known World](<../../Pillars/Philosophy/Emerging Concepts/Known World.md>) is the loop's first pilot, and an [Emerging Concepts](<../../Pillars/Philosophy/Emerging Concepts/Emerging Concepts.md>) note is a seed and fold-back target as well as a Project's Notes.
 - **Dispatch came from Personal, 2026-10-18.** On 18 October Personal retired its Acquire > Dispatch Activity and Kris brought it into this Project.
+
+### Close-out assessment
+
+Written 20 October 2026. Delivered against the Outcome: the provider-neutral lifecycle is documented in the [Acquisition Process](<../../Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md>) note; Acquire is the port, with one capture entry point, thin provider skills, provider-free territory context and dispatch into each receiving principal's `+/_ACQUIRED/`, simplified on 20 October to keep no ledger, no intake receipts and no return route; the read-only Claude, Codex and ChatGPT source adapters and the `ki` acquisition command exist; and the official ChatGPT account export is converted and staged into its territories.
+
+Not delivered: AI-session acquisition end to end, with Claude and Codex acquisition separated from housekeeping, the browser-runtime path and verified, human-approved retirement of source conversations; the WhatsApp spool question; and the Acquisition Process note lags the 20 October simplification. Each is carried elsewhere: the AI-session steps and the note's realignment by records under [Model](../Themes/model.md), the WhatsApp spool refresh under [chezmoi](chezmoi.md), the EBU sources sync under Humans Not Robots' Phase 3 Project, the receiver's `+/_ACQUIRED/` scaffold by a standalone harness record, and the Known World seed pilot by State of play. Acquire's day-to-day intake and skills stay with Personal's Acquire intake work. Kris completed the Project on 20 October 2026, taking PROJECT-CLOSE a).

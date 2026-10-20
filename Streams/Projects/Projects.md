@@ -1,6 +1,6 @@
 ---
 note_type: streams/index
-updated: 2026-10-19T23:16:23Z
+updated: 2026-10-20T04:14:07Z
 author: Written with Claude
 ---
 
@@ -70,7 +70,7 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## Knowledge acquisition
 
-[knowledge-acquisition](knowledge-acquisition.md) makes acquisition of external material work end to end, from the provider-neutral lifecycle note to verified retirement of source conversations.
+[knowledge-acquisition](knowledge-acquisition.md), completed on 20 October 2026, documented the provider-neutral acquisition lifecycle and set Acquire up as the port; its unfinished parts, verified retirement of source conversations among them, moved to other homes.
 
 ---
 
