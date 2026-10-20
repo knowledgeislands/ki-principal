@@ -148,3 +148,15 @@ Taken as: "vote" read as "load". Carry the overnight burndown on with only what 
 ## 2026-10-20 23:05 BST - send to owner
 
 Self-serve burndown drained. KI-HARNESS-GOV-219 and KI-PRINCIPAL-MOD-008 accepted; 17 records pruned with 63 links pinned; harness CI capped and knip adopted; KI-OBSERVA-BRG-006 passed review pending Kris's look; KI-HARNESS-GOV-224 failed and went to ki.observatory; KI-TOOL-RIG-CORE-056 failed, reworked on a branch, integration waits on ki.tools-burndown's Rig hook repair. Eight MOD-008 philosophy queries join the open list after blind review.
+
+## 2026-10-20 23:13 BST - query sign-offs, first answers
+
+Kris: "capital of capitals, yes I agree with the recommendation. The enactment admin, the whole thing was it's meant to cover admin. I'm not sure the enactment process needs to cover pillars or resources or any of the other areas to be honest with you. The whole idea is to protect the admin capability through this being there."
+
+Taken as: CAPITAL-OF-CAPITALS a). ENACTMENT-ADMIN: the gate exists to protect Admin, so the portable statements name `Admin/`; whether Pillars and Resources leave the gate is open, pending one clarifying answer. The MOD-008 follow-up edits launch as one run once Kris has finished this pass, because they touch the same Philosophy notes.
+
+## 2026-10-20 23:16 BST - query sign-offs, first batch
+
+Kris: "Yes to all these: FOOTER-PROVISIONALS ... SPEC-SKETCH ... RIG-053-SHAPE ... PLAN067-READY ... DESIGN-DISPOSITIONS ... TOOLS-KI-SHAPES ... GOV225-CLOSE ... OPS009-SPLIT ... CALENDAR-LIBRARY ... LAYER-PATHS ... ENACTMENT-ADMIN - I meant a so do a review please"
+
+Taken as: a) on FOOTER-PROVISIONALS, SPEC-SKETCH, RIG-053-SHAPE, PLAN067-READY, DESIGN-DISPOSITIONS, TOOLS-KI-SHAPES, GOV225-CLOSE, OPS009-SPLIT (this grant lifts the capture gate for the split only), CALENDAR-LIBRARY and LAYER-PATHS. ENACTMENT-ADMIN: Kris means "Admin only" - the Enactment gate covers `Admin/` alone and Pillars and Resources leave it, which supersedes SDR-KI-PRINCIPAL-002's gate and rewrites AGENTS.md, the Enactment Process and the portable model; it goes to one blind review before any edit. EMERGING and STRUCTURE-TODOS were not in this batch and stay open.
