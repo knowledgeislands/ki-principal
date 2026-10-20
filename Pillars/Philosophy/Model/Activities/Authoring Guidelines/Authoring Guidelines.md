@@ -28,8 +28,8 @@ Notes considered are at:
 
 - `/Pillars/Philosophy/Model/Activities/{activity-group-name}/{activity-name}`
 - `/Pillars/Philosophy/Model/Agents/{agent-name}/{activity-group-name}/{activity-name}`
-- `/Pillars/Knowledge Capital/Model/Activities/{activity-group-name}/{activity-name}`
-- `/Pillars/Knowledge Capital/Model/Agents/{agent-name}/{activity-group-name}/{activity-name}`
+- `/Admin/Governance/Charter` - the island's adoption position for each activity group and its scheduled activities
+- `/Admin/Operations/Activities/{activity-group-name} Activity` - the island-specific notes for each activity group, agent-agnostic or agent-specific
 
 The rule is: **design is split across layers such that the scope of each element in the design lives at the most generic layer that provides the widest applicability whilst accurately describing them**.
 
@@ -81,7 +81,7 @@ For example:
 
 > at the end of any activity, ensure that any outputs contain the company name and the date, to ensure traceability and context for future reference
 
-This would be in a Behaviour section in a note located at `/Pillars/Knowledge Capital/Model/Activities/All/All/All.md`, and would be inherited by all agents and all activities on all islands. As such it should be used sparingly and only for truly universal behaviours.
+This would be in a Behaviour section of the island's Activities index note, `/Admin/Operations/Activities/Activities.md`, and would be inherited by all agents and all activities on that island. As such it should hold only behaviours that apply to every activity on the island.
 
 #### Abstract Activities
 

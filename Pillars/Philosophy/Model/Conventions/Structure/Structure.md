@@ -41,7 +41,7 @@ Governed identity and policy belong in Admin; machine-specific paths belong in t
 
 ## Library
 
-The Library is the canonical record - version-controlled, governed, and the single source of truth for all ratified knowledge. It contains three zones: Calendar (time-bound notes), Pillars (internal knowledge owned by the island), and Resources (external reference material). Nothing enters the Library except through the governance process. An island may name its Library, or parts of it, after particular buildings, artefacts or features of the landscape - Knowledge Islands Principal calls its Pillars the Great Library - without changing this structure.
+The Library is the canonical record - version-controlled, governed, and the single source of truth for all ratified knowledge. It contains two zones: Pillars (internal knowledge owned by the island) and Resources (external reference material). Nothing enters the Library except through the governance process. Calendar (time-bound notes) sits beside the Library rather than within it: its entries are dated records kept as they happen, and they need no Enactment record ([Enactment Process](<../../../../../Admin/Operations/Processes/Enactment Process.md>)). An island may name its Library, or parts of it, after particular buildings, artefacts or features of the landscape - Knowledge Islands Principal calls its Pillars the Great Library - without changing this structure.
 
 ### Top-Level Folders
 

@@ -17,7 +17,7 @@ In Knowledge Islands, knowledge is treated as a natural, evolving system - islan
 
 Where the Knowledge Islands model holds the portable, agnostic definition, its Realisation describes how an island makes the model real through concepts such as the island's charter, council, citizenship, integrations and routing.
 
-Knowledge Islands Principal is the Knowledge Island of Knowledge Islands, the Knowledge Capital of Knowledge Capitals - a legendary utopia that holds the canonical definition and governance model for the entire Knowledge Islands concept.
+Knowledge Islands Principal is the Knowledge Island of Knowledge Islands, the canonical home of the model, without jurisdiction over other territories - a legendary utopia that holds the canonical definition and governance model for the entire Knowledge Islands concept.
 
 Every knowledge island that adopts the Knowledge Islands model derives its baseline from Knowledge Islands Principal.
 
@@ -135,4 +135,4 @@ The third part is Knowledge Islands Principal - the canonical living instance of
 
 ## Conclusion
 
-Knowledge Islands is a model for organising knowledge that treats it as a natural, evolving system. The model is portable: any island can adopt it by implementing its own [realisation](Realisation/Realisation.md) of the model through concepts such as the island's charter, council, citizenship, integrations and routing. Knowledge Islands Principal is the Knowledge Island of Knowledge Islands, the Knowledge Capital of Knowledge Capitals - a legendary utopia that holds the canonical definition and governance model for the entire Knowledge Islands concept. Every knowledge island that adopts the Knowledge Islands model derives its baseline from Knowledge Islands Principal.
+Knowledge Islands is a model for organising knowledge that treats it as a natural, evolving system. The model is portable: any island can adopt it by implementing its own [realisation](Realisation/Realisation.md) of the model through concepts such as the island's charter, council, citizenship, integrations and routing. Knowledge Islands Principal is the Knowledge Island of Knowledge Islands, the canonical home of the model, without jurisdiction over other territories - a legendary utopia that holds the canonical definition and governance model for the entire Knowledge Islands concept. Every knowledge island that adopts the Knowledge Islands model derives its baseline from Knowledge Islands Principal.
