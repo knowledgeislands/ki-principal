@@ -1,5 +1,7 @@
 # Independent acceptance review: tools-techne
 
+Authority: this run is launched under the `prune` tier. Accepting a passing record under `ki-accept` with Kris's grant quoted, and pruning it, is authorised; the footer's tier governs, and the none-tier ban on accepting or pruning does not apply. A first review-only pass may have run: read `/Users/krisbrown/.local/state/ki/agents/ways-of-working/accept-tools-techne.report.md` if present and build on its findings.
+
 Nobody else is working tonight. Kris, 20 October, granted overnight acceptance: "if you can quickly now accept ... accepting new things that are waiting with you and pruning those ... getting the roadmaps down to zero". You are the independent reviewer; you did not deliver this work.
 
 Repository `/Users/krisbrown/workspaces/knowledge-islands/tools-techne`. For every record at awaiting review in `docs/roadmap/`:

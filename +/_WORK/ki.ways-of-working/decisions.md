@@ -693,3 +693,12 @@ KI-OBSERVA-OPS-003 delivered to awaiting review (`89f3978`, reload offer when th
 
 - OBS-BURN-PUSH: not a query; other sessions' hook commits are stacked in apps-observatory.local, shown as unpushed under PUSH-NOT-WITH-YOU.
 - OBS-KICKSTART-RULE: the Observatory's own `AGENTS.md` finish step; already routed to ki.observatory as an idea line, not raised to Kris.
+
+## 2026-10-20 06:36 BST - acceptance tier, gfm-answers and four acceptance lines
+
+- The first acceptance runs went out under the default `none` tier, whose footer bans accepting and pruning; accept-tools-techne and accept-tools-ki stopped on the conflict. Re-queued as accept2-tools-techne, accept2-tools-ki and accept2-observatory (after accept-observatory) under `--rules prune`. Coordinator's error, logged.
+- gfm-answers received: SIZED-EMBEDS, TEMPLATE-LINKS, LINK-REVIEW-NAME and RENDER-CHECK applied under KI-PRINCIPAL-OPS-014 (`9336c085`); OPS-014 stays awaiting review until Kris's four client render checks, for the morning.
+- accept-website (IMPORTANT): KI-WEBSITE-SITE-044 passes local gates but needs Kris to choose a source-access remedy for its inaccessible ki-design citation, and its 1440/390 px visual checks. Morning query SITE-SOURCE, blind review first. Line removed.
+- ACCEPT-RIG-GATE (IMPORTANT): KI-TOOL-RIG-CORE-047 and -062 back to in progress; tools-rig's pre-commit runs Bats and fails SHELL-HOOK. Already routed to ki.tools-burndown as RIG-PRECOMMIT-BATS; the hooks rollout owns it under HOOK-GUARD. Line removed.
+- ACCEPT-RIG-ATTENDED: CORE-047 and -062 also need Kris's attended NordVPN, terra and ADR-KI-TOOL-RIG-009 checks; morning item. Line removed.
+- ACCEPT-RIG-PRUNE (IMPORTANT): pruning KI-TOOL-RIG-CLI-026, -CORE-057 and -DIST-011 would orphan Principal links; the final prune-only pass repairs those links to pinned hosted revisions first. Line removed.
