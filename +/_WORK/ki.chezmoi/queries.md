@@ -5,7 +5,8 @@
 - APPLY (drift-fix, high): apply four drifted targets, all committed source; with Kris 05:08.
 - ACCEPT-BATCH (accept-prep, high): accept KB-DOTFILES-UE-077 and KB-DOTFILES-UE-093; with Kris 05:08.
 - CLEAR-BATCH (accept-prep, high): merge UE-087 into UE-101, UE-097 to Hold, five sizes; with Kris 05:08.
-- TIDY: not yet answered.
+- TIDY: with Kris.
+- COMMENT-FIELD, KIND-SOURCE, RATIONALE-FILTER (purpose-render; site commit `4701e8f`, unpushed): in blind review (run site-blind).
 - SPARK-REMOVE (spark-history high; spark-blind medium, retire, missing option: deselect and defer uninstall): with Kris 05:10.
 - RAT-UNCONFIRMED, RAT-READING, SPARK-TOOL: superseded by Decisions 179 and 181.
 
