@@ -2,22 +2,10 @@
 
 ## Open
 
-### ACCEPT - accept the built records
-
-Awaiting review, for the morning: KI-OBSERVA-VIS-043, BRG-006, APP-045, VIS-044; KI-WEBSITE-SITE-044; KI-DESIGN-TOK-001, MAP-001, OBS-015, ICO-001, SYM-001, TIL-001 (new glyphs on packages/icons/contact-sheet.png). KI-OBSERVA-VIS-041 (Git view read parity) joins it. KI-OBSERVA-APP-046 (browser smoke check green again) joins it too, and with it VIS-041 meets its Verify.
-
-### RESTRUCTURE - how KI-OBSERVA-APP-044 decides the restructure
-
-From obs-app044-plan at 00:35 BST, medium. obs-review-4 (Codex, high) agreed on a) but disagreed on Work: keep Work and its mapping until the Streams proposal shows where its views go, limit Waiting for you to the Review rename, keep the step-3 promotion gate; stays medium, both views to Kris. Factual fixes to the record under obs-app044-fix. Report: ~/.local/state/ki/agents/observatory/obs-app044-plan.report.md
-
-### TEN-COMMITS - keep the Git view detail panel's ten-commit list
-
-From obs-vis041-build at 01:15 BST, medium: it now overlaps the new unpushed and earlier lists; recommended drop it in a follow-up after acceptance. obs-review-5 (Codex, high) disagreed: c) shorten it to commits older than the earlier five, keeping all ten when nothing is unpushed, because then the ten are the only history shown. Stays medium, both views to Kris.
-
-### MERMAID-HANDLER - strip hostile Mermaid handlers before the frame policy refuses them
-
-From obs-build-app046 at 01:35 BST, medium: recommended accept as is, as a review note. obs-review-6 (Codex, high) disagreed: b) capture a triage record to harden label sanitising, investigating the intermediate rendering path, keeping the policy; it found no bypass. Stays medium, both views to Kris.
-
 ## Parked
 
-None.
+- ACCEPT - sixteen records Awaiting review for Kris to accept: KI-OBSERVA-VIS-043, BRG-006, APP-045, VIS-044, VIS-041, APP-046, VIS-022; KI-WEBSITE-SITE-044; KI-DESIGN-TOK-001, MAP-001, OBS-015, ICO-001, SYM-001, TIL-001 (new glyphs on packages/icons/contact-sheet.png); plus the Claude chat's KI-OBSERVA-VIS-027 and BRG-005. Recommended: accept after review; a service restart is due first.
+- RESTRUCTURE - how KI-OBSERVA-APP-044 decides the restructure. Recommended a) converge one consolidation at a time, Council first, one redirect table (medium); obs-review-4 agreed on the direction but would keep Work as it is until the Streams proposal and limit Waiting for you to the Review rename. Report: obs-app044-plan.
+- TEN-COMMITS - keep the Git view detail panel's ten-commit list. Recommended drop it in a follow-up (medium); obs-review-5 prefers c) shorten it to commits older than the earlier five, keeping all ten when nothing is unpushed.
+- MERMAID-HANDLER - strip hostile Mermaid handlers before the frame policy refuses them. Recommended accept as a review note (medium); obs-review-6 prefers b) a triage record to harden label sanitising; no bypass found.
+- BRIDGE-STALE - Bridge comments and fixtures still say Rig has no JSON. Recommended a) one triage record for the Bridge to read `rig show --format json` and correct them (medium, not yet blind-reviewed: the hold launched nothing).

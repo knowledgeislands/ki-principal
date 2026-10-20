@@ -1,15 +1,27 @@
 ---
 id: ki.observatory
-state: with-worker
-since: 2026-10-19T22:50:00Z
+state: on-hold
+since: 2026-10-20T01:05:00Z
 received: 2026-10-19T22:45:00Z
 beat: null
-mark: 2026-10-19T21:50:00Z
+reason: take stock on ways of working
+release: Kris says resume
+mark: 2026-10-20T01:05:00Z
 method_read: 84b61942
 ---
 
 # ki.observatory state
 
+## Next steps on resume
+
+1. Restart the Observatory service and run the live checks and roadmap audit for the Claude chat's KI-OBSERVA-VIS-027 and BRG-005 (landed at fcf6196) and for KI-OBSERVA-VIS-022.
+2. Put the parked queries back; send BRIDGE-STALE to blind review.
+3. Bring the ACCEPT batch to Kris; KI-OBSERVA-VIS-030 stays with the Claude chat.
+4. Apply the retro's Would change items to briefs.
+
+## Log
+
+- 02:05 BST on hold, take stock on ways of working, until Kris says resume; mark struck. Received obs-build-vis022 (KI-OBSERVA-VIS-022 Awaiting review, fd92124, e3e7dc9, b98d47c); its AUDIT-OWNER a) high routed to State of play for the Claude chat; BRIDGE-STALE parked unreviewed. Message obs-landed-three (IMPORTANT): recorded; VIS-027 and BRG-005 Awaiting review on main at fcf6196; service restart and live checks left for resume; removed.
 - 01:48 BST received obs-review-7: agrees, RIG-SCHEDULE a) lifted to high (reviewed); acted on: obs-build-vis022 launched, and the tools-rig handoff for the schedule encoding routed through State of play, since tools-rig is outside this work and not in the choreography list.
 - 01:46 BST received obs-vis022-plan: KI-OBSERVA-VIS-022 Ready (3b3c785, local); schedules come from Rig 0.7.0 JSON under RIG-STATE-033, 2-hour grace, 26-hour fallback. RIG-SCHEDULE (given as medium-high, taken as medium): blind review obs-review-7; the build waits on it. Side finding: machine.ts RIG_UNAVAILABLE text says Rig has no JSON; to fold into the build.
 - 01:42 BST received obs-next-sweep: of 22 records only KI-OBSERVA-VIS-022 (plan to Ready, high) and KI-OBSERVA-OPS-003 can move. OPS-003 left untouched: Kris called it "not a now thing", so no overnight work on it. obs-vis022-plan launched. obs-build-brg005.status has no DONE line (dropped under OBS-CLAIM-FOUR); left as is.
