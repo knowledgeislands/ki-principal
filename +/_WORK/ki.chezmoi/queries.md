@@ -190,6 +190,76 @@ b) A run moves them to Awaiting review, noting that delivery came before Ready.
 
 c) Leave them until the next census.
 
+### [READY-077 - Approve the vault-leftovers plan](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-077-reorganise-1password-vaults-safely.md)
+
+**Context:** The plan (chezmoi `563afe9`) has three small source fixes (guide examples, a background-agent paragraph, a neutral test fixture) and an attended cache expiry on each Mac.
+
+**Query:** Approve KB-DOTFILES-UE-077's plan as Ready?
+
+**Options:**
+
+a) (recommended, confidence high - every step is grounded and none touches secrets or live state) Approve it as written.
+
+b) Approve it with changes you name.
+
+c) Keep it in draft.
+
+### [CACHE-DISPOSAL - Clear old op-cache files](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-077-reorganise-1password-vaults-safely.md)
+
+**Context:** `op_cache` never deletes entries, so files for moved items stay on each Mac in plain text under `~/.cache/op-cache/`.
+
+**Query:** How should they be cleared on each Mac?
+
+**Options:**
+
+a) (recommended, confidence high - it reads nothing and costs one refetch) At each Mac, `chezmoi_op cache expire` once, clearing every entry.
+
+b) Expire only orphans, which means listing the cache.
+
+c) Leave them.
+
+### [SOURCE-CHECK-HOME - Where the source freshness check lives](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-076-always-run-latest-source.md)
+
+**Context:** Nothing today checks whether the chezmoi source is behind GitHub; the prompt shows only a target-drift count.
+
+**Query:** Where should the check live?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed; one existing unattended run reports it and the prompt stays network-free) A step at the start of the daily `rig-update`, saving a timestamped state the prompt reads; a stale state reads as unknown.
+
+b) A separate hourly job.
+
+c) A shell or `ki` notice only.
+
+d) A wrapper around `chezmoi apply`.
+
+### [SOURCE-REFRESH - Fast-forward or report only](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-076-always-run-latest-source.md)
+
+**Context:** Agent sessions work in this same checkout.
+
+**Query:** Should the unattended check fast-forward the source?
+
+**Options:**
+
+a) (the planning run's recommendation, confidence medium) Fast-forward only when the source is clean and strictly behind; skip and report otherwise.
+
+b) (the blind review's recommendation, confidence high - a clean tree and no Git lock do not prove no session is mid-read) Fetch and report behind and ahead counts only; every pull stays attended.
+
+### [SOURCE-REFUSAL - When the source cannot be checked](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-076-always-run-latest-source.md)
+
+**Context:** `rig upgrade` uses the already rendered configuration, so a stale source does not make an upgrade unsafe.
+
+**Query:** What should `rig-update` do when the source cannot be checked or refreshed?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed; trouble stays visible without blocking package maintenance) Upgrade anyway and report `findings`, never `ok`; offline reads `unknown`; real upgrade failures still report `failed`.
+
+b) Skip the upgrade and report `findings`.
+
+c) Report `failed`.
+
 ## Parked
 
 None.
