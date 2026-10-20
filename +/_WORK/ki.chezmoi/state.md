@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
-state: with-worker
-since: 2026-10-20T03:36:00Z
+state: handoff-to-supervisor
+since: 2026-10-20T05:20:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-20T04:09:00Z
@@ -12,6 +12,7 @@ method_read: 071567a1
 
 ## Now
 
+- 06:20 BST: design-boundary2 delivered ki-design `ba2991c` (preview cycle removed), `e7b4c9a` (DESIGN-2 ruleset), `6c6926f` (canonical hooks), unpushed; HOOK-1 to HOOK-5 and DESIGN-2 pass. Hooks stage 2 complete for every non-tools repository (15); tools shape waits on HOOKS-FOLLOWUPS. Nothing running; handoff to Kris.
 - 06:10 BST: design-boundary stopped on DESIGN-CYCLE (a `no-circular` cycle between the observatory preview's registry and Extensions view blocks any honest DESIGN-2 ruleset; no commits). Coordinator answered a) under GREEN-MAIN (focused dependency-injection refactor, high); design-boundary2 resumes refactor, ruleset, hooks.
 - 06:05 BST: roll-hooks3 delivered canonical hooks to apps-knowledgeislands.info `502c29d4` and eight MCP repositories (acquire-whatsapp `f7f0bbef`, git-audit `1b873046`, gsuite `df58ba72`, housekeeping-chatgpt `dd8e24fd`, housekeeping-claude `c0076708`, ki-kb-fs `4caff6be`, ki-kb-notion-mirror `698af10f`, m365 `11e55b0f`), unpushed; HOOK-1 to HOOK-5 pass. ki-design skipped: baseline fails DESIGN-2 (no `.dependency-cruiser.ts`); design-boundary repairs it under GREEN-MAIN, then adopts the hooks. Tools-shape repositories wait on HOOKS-FOLLOWUPS.
 - 05:48 BST: roll-hooks2 delivered apps-observatory.local (`cd7802b6`, `5d0f9ea5`) and ki-techne-harness (`32f1b1e4`), unpushed, then stopped on PREPARE-BOUNDARY; coordinator answered a) (keep the DESIGN-2 boundary-install suffix; the brief was too narrow); roll-hooks3 resumes the website, eight MCP repositories, then ki-design.
