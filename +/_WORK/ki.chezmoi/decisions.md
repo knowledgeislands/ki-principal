@@ -235,3 +235,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 162 (2026-10-20T02:14:00Z)
 
 - Pointer: Kris (03:14 BST, spoken): take stock now, not as roadmap records. Read back as: (1) find every worktree or unmerged branch across the Knowledge Islands repositories and fold finished work into main (survey first, run wt-survey; folds only on the survey's evidence); (2) migrate ki-design off Husky to the committed `.githooks` gate now (run design-hooks); (3) standardise hooks to lint, format and commit-message gates only, no test suites, set once per repository shape and maintained by audit and conform; the model goes to Kris for a sanity check before any standard or hook changes (run hooks-model, note `design/git-hooks-model.md`).
+
+## Decision 163 (2026-10-20T02:16:00Z)
+
+- Pointer: Kris (03:16 BST): "We don't need to assess if Husky was the right call or not. I'm happy that it was now. We just need to focus on how we get them all aligned and how we roll this out." Committed `.githooks` is settled; hooks-model drops its mechanism assessment and covers alignment and rollout only (sent to the run's inbox).
