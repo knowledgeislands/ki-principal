@@ -338,6 +338,6 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 
 - Pointer: Kris (23:49 BST) on resources-check: "~/workspaces/valle-armonia/va-principal/Resources shouldn't be needed if ~/workspaces/valle-armonia/va-principal is in the list right?" Read as RESOURCE-GRANTS b): declare parent roots only, no Resources child grants (HNR's Resources is covered by hnr-shared). Decision 188 read as TRUST-SOURCE a) (trust intent independent of VS Code workspaces), HNR-REGISTRY b) ("any git repo under ~/workspaces is allowable": no KI adoption needed) and KIT-LEGAL a) (Legal replaces Kit Legal). Run trust-declare.
 
-## Decision 190 (2026-10-20T23:04:00Z)
+## Decision 190 (2026-10-20T23:12:00Z)
 
-- Pointer: Kris (00:04 BST): "can you ask me any queries to make sure you have enough to get `tools-*` and `mcp-*` and `apps-*` roadmaps cleared overnight". Read as: survey every open roadmap record in those repositories read-only (run overnight-survey), raise the owner decisions that would otherwise block an unattended overnight burndown, then plan the burndown runs once answered.
+- Pointer: Kris (00:12 BST): the request to clear the `tools-*`, `mcp-*` and `apps-*` roadmaps overnight "was in the wrong window!!! ... stop please on the above". Withdrawn: run overnight-survey stopped, OVERNIGHT-STOP, OVERNIGHT-PUSH and OVERNIGHT-PUBLISH withdrawn; nothing was written by the survey.
