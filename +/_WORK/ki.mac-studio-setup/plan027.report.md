@@ -6,7 +6,7 @@
 
 ## Done
 
-- [KI-TOOL-RIG-CLI-027](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CLI-027-command-line-convention-departures.md) adopted to Now and planned to Ready under Kris's RIG-ORDER a) decision of 23:27 BST; its status is now Ready, size m. Nothing was implemented.
+- [KI-TOOL-RIG-CLI-027](https://github.com/knowledgeislands/tools-rig/blob/4ca939fa230b3e9eb02d9a170491a544a51b3651/docs/roadmap/KI-TOOL-RIG-CLI-027-command-line-convention-departures.mdCLI-027) adopted to Now and planned to Ready under Kris's RIG-ORDER a) decision of 23:27 BST; its status is now Ready, size m. Nothing was implemented.
 - Commit `cc4e993` docs(roadmap): plan KI-TOOL-RIG-CLI-027 to Ready.
 - A sandboxed, read-only probe confirmed all four departures: `--format=json`, `--json`, `-n` and `--` are each rejected with exit 2.
 - The plan adds one shared argument normaliser, driven by Rig's existing option inventory, so that every command accepts `--opt=value`, `--json`, `-n` for `--dry-run` and `--` as end of options. It adds a new portability requirement, RIG-PORT-014, plus help, completion, manual, guide and changelog updates, and isolated tests.

@@ -6,7 +6,7 @@
 
 ## Done
 
-- [KI-TOOL-RIG-CLI-027](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CLI-027-command-line-convention-departures.md) delivered to Awaiting review in tools-rig commit `66c9c57` on `main`, local only, baseline `2b4e2ef`. Every Rig command now accepts `--name=value`, `--json` (same as `--format json`, which stays), `-n` for `--dry-run` and `--` as end of options, all through one normaliser driven by the option inventory.
+- [KI-TOOL-RIG-CLI-027](https://github.com/knowledgeislands/tools-rig/blob/4ca939fa230b3e9eb02d9a170491a544a51b3651/docs/roadmap/KI-TOOL-RIG-CLI-027-command-line-convention-departures.mdCLI-027) delivered to Awaiting review in tools-rig commit `66c9c57` on `main`, local only, baseline `2b4e2ef`. Every Rig command now accepts `--name=value`, `--json` (same as `--format json`, which stays), `-n` for `--dry-run` and `--` as end of options, all through one normaliser driven by the option inventory.
 - Help, Bash and Zsh completion, `rig(1)`, the command guide, README, the command-surface guide and the changelog baseline updated; `RIG-PORT-014 — Command-line option grammar` added to portability, conforming. The manual and command-guide synopses also gained the missing `rig remove` line.
 - `status` now rejects a repeated `--format`, as the other commands already did, so `--json --format text` exits 2 everywhere. The Steps allowed this parser change.
 - Full Bats suite: 600 of 600 pass. Shell gate (ShellCheck, Bash 3.2 syntax, assembly check, benchmark, native smoke, mandoc lint): clean. `git diff --check`: clean. `ki repo audit --repo .`: no failures; its warnings predate this change. The pre-commit hook passed.

@@ -45,7 +45,7 @@ a) (recommended, confidence medium - the technical boundaries are clear, while t
 
 b) Adopt the same Rig horizons and retain the investigation and stale-link repair, but return the two proposed transfers for a narrower ownership decision; keep their source records open meanwhile.
 
-### RIG-MANAGERS - Resolve the undelivered doctor requirement in [KI-TOOL-RIG-CORE-066](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-066-plan-managers-and-uv-prerequisite.md)
+### RIG-MANAGERS - Resolve the undelivered doctor requirement in [KI-TOOL-RIG-CORE-066](https://github.com/knowledgeislands/tools-rig/blob/4ca939fa230b3e9eb02d9a170491a544a51b3651/docs/roadmap/KI-TOOL-RIG-CORE-066-plan-managers-and-uv-prerequisite.mdCORE-066)
 
 **Context:** The original RIG-TRIAGE query in rig-triage offered folding G2 into the manager model or adding a summary on doctor's loaded-configuration path. Source inspection confirms the fixed manager list is called only after configuration fails, when there is no selected plan; loaded configuration already gives missing-provider findings per dependent tool. The useful remaining outcome is one manager-level finding, already inside [KI-TOOL-RIG-CORE-067](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-067-package-managers-as-catalogue-tools.md). The uv-from-mise fix is present, but this read-only review did not rerun its recorded verification.
 
@@ -53,9 +53,9 @@ b) Adopt the same Rig horizons and retain the investigation and stale-link repai
 
 **Options:**
 
-a) (recommended, confidence high - removes a false premise and gives the remaining requirement one existing owner) Fold G2 into [KI-TOOL-RIG-CORE-067](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-067-package-managers-as-catalogue-tools.md), preserving built-in and custom-provider availability and an actionable manager-level finding; align [KI-TOOL-RIG-CORE-066](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-066-plan-managers-and-uv-prerequisite.md)'s goal and boundary with delivered G3, then review G3 for acceptance separately.
+a) (recommended, confidence high - removes a false premise and gives the remaining requirement one existing owner) Fold G2 into [KI-TOOL-RIG-CORE-067](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-067-package-managers-as-catalogue-tools.md), preserving built-in and custom-provider availability and an actionable manager-level finding; align [KI-TOOL-RIG-CORE-066](https://github.com/knowledgeislands/tools-rig/blob/4ca939fa230b3e9eb02d9a170491a544a51b3651/docs/roadmap/KI-TOOL-RIG-CORE-066-plan-managers-and-uv-prerequisite.mdCORE-066)'s goal and boundary with delivered G3, then review G3 for acceptance separately.
 
-b) Keep G2 in [KI-TOOL-RIG-CORE-066](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-066-plan-managers-and-uv-prerequisite.md), explicitly re-scope it as a loaded-configuration manager summary, and return that undelivered portion for planning without claiming the complete record is done.
+b) Keep G2 in [KI-TOOL-RIG-CORE-066](https://github.com/knowledgeislands/tools-rig/blob/4ca939fa230b3e9eb02d9a170491a544a51b3651/docs/roadmap/KI-TOOL-RIG-CORE-066-plan-managers-and-uv-prerequisite.mdCORE-066), explicitly re-scope it as a loaded-configuration manager summary, and return that undelivered portion for planning without claiming the complete record is done.
 
 ### 🤖 → 👤 Handoff to supervisor · since 00:24 BST
 
