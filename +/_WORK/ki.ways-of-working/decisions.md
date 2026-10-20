@@ -625,3 +625,7 @@ gfm-convert: ki-principal converted to GitHub-flavoured Markdown end to end (pin
 ## 2026-10-20 04:10 BST - received wf-review
 
 Blind review agrees with both worktree queries: WORKTREE-INTEGRATE a), on condition the primary-checkout write window is serialised and independent review still precedes acceptance; WORKTREE-START a), F3 and F5 confirmed needed. Both lift to high, reviewed; to Kris. Brief removed.
+
+## 2026-10-20 04:16 BST - received sweep-queries
+
+Recount 108 open (the first sweep missed ki-design and the website); 74 after every reviewed course; single figures needs about seventeen deliveries on top (58). Eight sweep queries: SWEEP-MERGE, SWEEP-CONVERT, SWEEP-CANCEL high, reviewed; the three accept bundles, SWEEP-RIG-026 and SWEEP-DELIVER medium, to blind review sweep-review-2. Design note `303f1cc0`. Brief removed.

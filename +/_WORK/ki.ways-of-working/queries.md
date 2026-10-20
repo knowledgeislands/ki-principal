@@ -56,7 +56,7 @@ Reviewed (wf-review agrees; F3 and F5 confirmed needed by source inspection): hi
 
 ### SWEEP - Roadmap sweep batches
 
-sweep-review kept most merges and cancels; sweep-queries recounts and drafts the accept, merge, convert and cancel queries for Kris.
+sweep-queries (`303f1cc0`): 108 open, not 97 (ki-design and the website were missed); 74 after every reviewed disposition and bundle, with ki-agentic-harness 18, apps-observatory.local 13, tools-ki 11, tools-rig 10; about seventeen deliveries would bring the four to single figures (58). SWEEP-MERGE, SWEEP-CONVERT and SWEEP-CANCEL reviewed (sweep-review), high. SWEEP-ACCEPT-WAYS-OF-WORKING, SWEEP-ACCEPT-OBSERVATORY, SWEEP-ACCEPT-TOOLS-BURNDOWN, SWEEP-RIG-026 and SWEEP-DELIVER medium, in blind review sweep-review-2. Full text in the sweep-queries report.
 
 ## Parked
 
