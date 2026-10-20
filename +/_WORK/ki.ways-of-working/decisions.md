@@ -836,3 +836,12 @@ The Codex run stopped at 09:02 with "Selected model is at capacity", before chan
 ## 2026-10-20 09:16 BST - received harness-rework-170
 
 KI-HARNESS-GOV-170 reworked (`062c27e6`, `b5ad1d91`, local): the acceptance model now enforces local targets, and two regression tests were added (1,374 tests pass). accept2-harness-170 is re-reviewing it.
+
+## 2026-10-20 09:18 BST - received harness-queries-review2
+
+Codex blind review (`58dd1d22`):
+
+- Agrees: GOV225-CLOSE, GOV227-SCHEMA and OPS009-SPLIT are now reviewed, high; GOV209-OWNER and GOV189-SCOPE are now reviewed, medium.
+- Disagrees on GOV202-ADOPT, adding c) to keep it in triage pending a value comparison, with both views shown.
+
+All 19 queries are now ready for Kris.
