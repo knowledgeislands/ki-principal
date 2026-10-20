@@ -1,7 +1,7 @@
 ---
 id: ki.ways-of-working
 state: on-hold
-reason: take stock on ways of working across all works
+reason: take stock on ways of working
 release: Kris says resume
 since: 2026-10-20T01:01:00Z
 received: 2026-10-19T16:57:00Z

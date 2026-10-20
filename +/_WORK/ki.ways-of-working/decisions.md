@@ -483,3 +483,7 @@ Messages: UE096-BLOCKER (ki.chezmoi) - agreed and done, no action. HANDOFF-GOV-2
 Kris: "Okay, I think what we're going to do is we're going to ask all the projects to stop for a bit and let's just take stock on what's working well and what's not working well so we can improve our ways of working. What can I pierce into each of them to stop them from doing any more work for now?"
 
 Read back taken: give Kris one paste line that puts each work on hold and has it write `design/retro-2026-10-20.md` in its own work folder. This work holds too: the queued launches (lane-triage merge, blind reviews, Now delivery chain) are not started; NO-GATE parked. Collecting the retros into a ways-of-working change is this work's, when Kris says go.
+
+## 2026-10-20 02:05 BST - owner direction, pause - take stock
+
+Kris pasted the take-stock pause line into this session. Read back taken: already on hold since 02:01 BST; reason set to "take stock on ways of working", release "Kris says resume"; retro trimmed to ten bullets. Nothing running to drain.
