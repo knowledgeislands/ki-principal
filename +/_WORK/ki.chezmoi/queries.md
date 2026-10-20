@@ -3,7 +3,7 @@
 ## Open
 
 - MSG-UNIFY: Kris asked why `ki git check-message` exists when Commitlint is a well-defined standard (03:47 BST). Answered; re-raised with b) recommended, high.
-- STRICTNESS: provisional a) (Decision 167); the conform concern goes to run hooks-model2, which comes back with a query.
+- STRICTNESS: provisional a) (Decision 167). hooks-model2 revised the note (`35152c24`, `09e2b030`) and raised STRICTNESS-CONFORM (medium; recommends a canonical hook per shape, written byte-exact by conform, with one `.githooks/pre-commit.local` extension); in masked blind review (conform-blind).
 
 ## Held
 
