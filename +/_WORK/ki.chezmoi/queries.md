@@ -3,7 +3,7 @@
 ## Open
 
 - MSG-UNIFY: Kris asked why `ki git check-message` exists when Commitlint is a well-defined standard (03:47 BST). Answered; re-raised with b) recommended, high.
-- STRICTNESS: provisional a) (Decision 167). hooks-model2 revised the note (`35152c24`, `09e2b030`) and raised STRICTNESS-CONFORM (medium; recommends a canonical hook per shape, written byte-exact by conform, with one `.githooks/pre-commit.local` extension); in masked blind review (conform-blind).
+- STRICTNESS: provisional a) (Decision 167). hooks-model2 revised the note (`35152c24`, `09e2b030`) and raised STRICTNESS-CONFORM (medium; recommends a canonical hook per shape, written byte-exact by conform, with one `.githooks/pre-commit.local` extension); conform-blind disagrees: d) canonical hook, no extension point, tools-rig's check to manual gate and CI, high; missing option: the rig assembly check as a shape-audit criterion. Raised to Kris 04:03 BST.
 
 ## Held
 
