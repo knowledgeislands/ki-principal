@@ -499,3 +499,7 @@ Kris: "Okay, they've all done that now. Can you have a look at it?" Read back ta
 ## 02:14 BST - received take-stock
 
 take-stock read ten retros (ki.agent-host and kb.personal-tower wrote none) and wrote `design/take-stock-2026-10-20.md` (`fd4e657b`): 8 working-well themes, 13 ranked not-working themes, 27 changes by owner. Eight queries copied to `queries.md`: BLIND-REVIEW, LAUNCH-DEFAULTS, CLAIM-CHECK, CLASS-FIX and GREEN-MAIN at high go to Kris now; CHECKOUT-ISOLATION, OOS-WAKE and OWNER-QUEUE at medium go to ts-review (Codex, masked Context and Query only, per the BLIND-REVIEW finding) first.
+
+## 02:17 BST - received ts-review
+
+Blind review (Codex, masked): CHECKOUT-ISOLATION b) at medium, disagreeing with take-stock's a), both views shown; OOS-WAKE a) agreed, lifted to high; OWNER-QUEUE a) agreed, lifted to high, counts corrected to 21 awaiting acceptance and the chezmoi and baseline queries parked, not open. Support counts read eight of nine works.

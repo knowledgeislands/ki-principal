@@ -4,27 +4,33 @@
 
 ### CHECKOUT-ISOLATION - Stop sessions colliding in shared checkouts
 
-**Context:** This is the costliest theme. Nine of ten works raised it. Staged files were swept into other works' commits (`e0489e42`, `0836bcae`). One run's half-saved edit made another run report a failure, which cost a decision and a fix run that found nothing to fix. obs-build-brg005 was dropped. The unpushed stack in ki-principal reached 62 commits, only 11 of them from one work. A commit helper with its own index per session stops the sweeping cheaply, but it does not stop lock waits or false audit failures. Worktrees stop all of these, at the cost of merging.
+**Context:** The costliest theme, raised by eight of nine works with notes. Staged files were swept into other works' commits (`e0489e42`, `0836bcae`); one run's half-saved edit made another run report a failure; the unpushed stack in ki-principal reached 62 commits, 11 from one work. A per-session commit index stops the sweeping but not lock waits or false audit failures; worktrees stop both but need serial merging and do not clear an unpushed stack. The blind review disagreed with take-stock: it chose worktrees everywhere.
 
 **Query:** How should sessions and runs be kept apart in a shared checkout?
 
-**Options:** a) (recommended, confidence medium - it fixes the worst incidents now, but worktree cost on knowledge-base repositories is untested) Ship a `ki` commit helper that uses a separate index per session and checks that the commit landed. Give each code-repository build run its own worktree. Serialise runs that edit records in one knowledge-base repository, and have audits read committed state only. b) Give every coordinator session and writing run its own worktree in every repository. c) Allow one owning session per checkout per night, and no technical change.
+**Options:**
+
+a) (recommended, confidence medium - take-stock's view: fixes the worst incidents now; worktree cost on knowledge-base repositories untested) A `ki` commit helper with its own index per session that checks the commit landed; worktrees for code-repository build runs; serialise record-editing runs in one knowledge base; audits read committed state only. b) (blind review's view, confidence medium - separate trees and indexes stop both contamination and in-flight audit failures) Every coordinator session and writing run gets its own worktree in every repository, with serial, verified merging into `main`. c) One owning session per checkout per night, and no technical change.
 
 ### OOS-WAKE - A wake for the coordinator that survives its session
 
-**Context:** Five works raised this. Autonomy windows lost about four hours across three works. Reviews finished at 00:35 and were not read until 02:04. A waiter overslept from 00:33 to 01:43. OVERNIGHT-AUTONOMY lapsed after 00:27. Detached runs survive, but the coordinator's waiter dies with its session.
+**Context:** Five works raised it; three gaps cost about 219 minutes in total (reviews finished 00:35 and were read at 02:04; a waiter overslept 00:33 to 01:43; this work's OVERNIGHT-AUTONOMY lapsed after 00:27). Runs survive; the coordinator's waiter dies with its session. A host scheduler (option b) would need a change to the Techne Programme Focus, which excludes unattended or scheduled agents on either host.
 
 **Query:** What should wake a coordinator when its session is gone?
 
-**Options:** a) (recommended, confidence medium - it reuses the detached runs that already work, but resuming a coordinator headlessly is unproven) Add a detached `ki agent` watcher, started with an autonomy window. When a run finishes, it resumes the coordinator with the work's send line. b) Run a launchd job on the agent host through Rig that checks every ten minutes during autonomy windows.
+**Options:**
+
+a) (recommended, confidence high - reviewed: the blind review agreed; fits the existing launcher and needs no policy change, though resuming a coordinator headlessly is new) A detached `ki agent` watcher per work, started with an expiring autonomy window, that wakes on run completion and on new `messages.md` lines and resumes the coordinator with the work's send line. b) A launchd job on the agent host through Rig checking every ten minutes in autonomy windows, after amending the Techne Programme Focus.
 
 ### OWNER-QUEUE - Cap building while acceptance lags
 
-**Context:** Five works raised this. Twenty-two records await Kris's acceptance: 16 for observatory and 6 for mac-studio-setup. ki.chezmoi has 20 open queries and ki.baseline-rollout has 15, against the audit's warning at 8. Every new build adds to the pile. Two works proposed a cap of about eight on their own.
+**Context:** Five works raised it. 21 records await your acceptance (16 Observatory, five Mac Studio). ki.chezmoi has 20 and ki.baseline-rollout 15 unresolved queries, now parked. Two works independently proposed a cap of about eight; the number is a reversible choice, not a measured optimum.
 
-**Query:** Should works stop starting builds and planning while the owner queue is over a cap?
+**Query:** Should works stop starting new builds and planning while their owner queue is over a cap?
 
-**Options:** a) (recommended, confidence medium - two works reached the same number independently, but it slows overnight throughput) Cap each work at about eight records awaiting acceptance or eight open queries. Pair the cap with a batched decision sitting by decision type and one at-screen checklist for each of sol and terra. b) Keep no cap, and only batch the sittings and checklists. c) Also let wording-only queries on triage records take the recommended option at medium unless Kris objects.
+**Options:**
+
+a) (recommended, confidence high - reviewed: the blind review agreed, with corrected counts) Cap each work at about eight records awaiting acceptance or eight open queries for new builds and planning, keeping acceptance fixes and backlog-clearing work allowed; pair it with batched decision sittings by type and one at-screen checklist each for sol and terra. b) No cap; only the batched sittings and checklists. c) As a), and also let wording-only triage queries take the recommended option at medium unless you object.
 
 ### BLIND-REVIEW - Make reviews actually blind
 
