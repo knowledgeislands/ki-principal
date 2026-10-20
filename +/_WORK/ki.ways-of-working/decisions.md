@@ -555,3 +555,7 @@ Blind Codex review: agrees WORKTREE-AUDIT a) and HOOK-4-CLASS a), each with a co
 ## 2026-10-20 02:56 BST - received finish-first
 
 Open records across 50 repositories rose 198 to 330 in a week (+67%); 370 created, 212 closed; handoffs and sweeps the largest source (102). Design note `design/finish-first.md` (`aca2c01b`), rules R1-R8 and six medium queries (NET-DOWN, WIP-CAP, CAPTURE-ORIGIN, HANDOFF-AS-MESSAGE, STALE-SWEEP, ACCEPT-BUNDLE) to blind review ff-review.
+
+## 2026-10-20 02:58 BST - received ff-review
+
+Blind Codex review of the six finish-first queries: agrees ACCEPT-BUNDLE (high, reviewed, with conditions); disagrees on NET-DOWN, WIP-CAP, CAPTURE-ORIGIN, STALE-SWEEP (each medium) and HANDOFF-AS-MESSAGE (its own course, high). It also found the totals do not reconcile: 198 + 370 - 212 = 356, not 330, a 26-record gap to explain before the figures become a baseline. All six put to Kris with both views.

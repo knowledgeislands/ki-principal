@@ -44,27 +44,27 @@ keep the package-less pre-commit gates in homebrew-tap and ki-specifications and
 
 ### NET-DOWN - Weekly direction target, not a cap
 
-From finish-first (`design/finish-first.md`), medium; in blind review (ff-review).
+From finish-first (`design/finish-first.md`), medium; review disagrees (counts only, medium).
 
 ### WIP-CAP - Per-work cap and what it counts
 
-From finish-first (`design/finish-first.md`), medium; in blind review (ff-review).
+From finish-first (`design/finish-first.md`), medium; review disagrees (two caps, three in progress and eight awaiting, as a bounded trial, medium).
 
 ### CAPTURE-ORIGIN - Checkable capture gate with an origin field
 
-From finish-first (`design/finish-first.md`), medium; in blind review (ff-review).
+From finish-first (`design/finish-first.md`), medium; review disagrees (prose only with an exact authority reference, medium).
 
 ### HANDOFF-AS-MESSAGE - Handoffs and sweeps stop creating records everywhere
 
-From finish-first (`design/finish-first.md`), medium; in blind review (ff-review).
+From finish-first (`design/finish-first.md`), medium; review disagrees (messages for routing; receiver records only at real acceptance boundaries, high).
 
 ### STALE-SWEEP - Re-decide drafts untouched for 30 days
 
-From finish-first (`design/finish-first.md`), medium; in blind review (ff-review).
+From finish-first (`design/finish-first.md`), medium; review disagrees (60 days, no default cancel, medium).
 
 ### ACCEPT-BUNDLE - One acceptance answer per work
 
-From finish-first (`design/finish-first.md`), medium; in blind review (ff-review).
+From finish-first (`design/finish-first.md`), medium; reviewed, agrees with conditions: high.
 
 ## Parked
 
