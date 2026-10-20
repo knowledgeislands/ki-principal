@@ -12,15 +12,15 @@ checkout-iso recommends a) staged mix, medium; ci-review (Codex, 02:41 BST) agre
 
 ### WORKTREE-AUDIT - Write down the worktree audit recipe
 
-From ci-green, medium; in blind review (cg-review). a) harness record adds the isolated-home plus `ki repo repair` recipe to `AGENTS.md` Verification and `ki-delegation`; b) `ki repo audit` reports it as one setup finding.
+Reviewed (cg-review agrees, on condition it is validated against CI's pinned v0.11.3 and repair cannot touch the real registry): high. a) harness record adds the isolated-home plus `ki repo repair` recipe to `AGENTS.md` Verification and `ki-delegation`; b) `ki repo audit` reports it as one setup finding.
 
 ### HOOK-4-CLASS - Test every external tool a hook calls
 
-From ci-green, medium; in blind review (cg-review). a) harness record tightens HOOK-4 at WARN after a fleet census; b) keep HOOK-4 and rely on review.
+Reviewed (cg-review agrees, on condition coverage includes conditional gate tools and the census measures fleet impact first): high. a) harness record tightens HOOK-4 at WARN after a fleet census; b) keep HOOK-4 and rely on review.
 
 ### PLANNED-READY - Settle the seven planned harness records
 
-From ci-green, medium; in blind review (cg-review). a) take the listed answers and mark GOV-200, -205, -214, -215, -220, -221, -223 Ready; b) GOV-215 and GOV-220 now, the rest one by one.
+Review disagrees (cg-review, high: listed answers are not approved decisions; Ready only GOV-215 and GOV-220, rest one by one): medium, both views shown. a) take the listed answers and mark GOV-200, -205, -214, -215, -220, -221, -223 Ready; b) GOV-215 and GOV-220 now, the rest one by one.
 
 ### NO-GATE - unparked
 

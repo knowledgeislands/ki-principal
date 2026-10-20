@@ -547,3 +547,7 @@ ci-green: harness audit 0 FAIL (the nine FAILs were worktree setup, not source),
 Kris: "unpark the queries and then give me a summary with the queries since the last mark"
 
 Taken as: NO-GATE, GFM-HOSTING-RULES, HARNESS-TRIAGE, PRINCIPAL-TRIAGE and PKGLESS-GATE move back to open. unpark-draft writes each in full owner-report shape with a masked review brief; those not yet reviewed go to one blind Codex review before reaching Kris. Summary now with the queries raised since the 02:01 BST mark.
+
+## 2026-10-20 02:53 BST - received cg-review
+
+Blind Codex review: agrees WORKTREE-AUDIT a) and HOOK-4-CLASS a), each with a condition, lifted to high, reviewed; disagrees on PLANNED-READY (high for b): planned answers are not approved decisions, so Ready only KI-HARNESS-GOV-215 and KI-HARNESS-GOV-220). All three put to Kris.
