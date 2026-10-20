@@ -541,3 +541,9 @@ Codex blind review of CHECKOUT-ISOLATION agrees with checkout-iso's a), medium, 
 ## 2026-10-20 02:50 BST - received ci-green; wow-standards and cg-review launched
 
 ci-green: harness audit 0 FAIL (the nine FAILs were worktree setup, not source), seven Now drafts planned (`165deda0`), pre-commit refuses without `bun` (`b852835a`), tests pass, pushed. Its three medium queries (WORKTREE-AUDIT, HOOK-4-CLASS, PLANNED-READY) go to blind review cg-review. wow-standards launched under the take-stock answers of 02:25 BST.
+
+## 2026-10-20 02:55 BST - owner direction, unpark the queries
+
+Kris: "unpark the queries and then give me a summary with the queries since the last mark"
+
+Taken as: NO-GATE, GFM-HOSTING-RULES, HARNESS-TRIAGE, PRINCIPAL-TRIAGE and PKGLESS-GATE move back to open. unpark-draft writes each in full owner-report shape with a masked review brief; those not yet reviewed go to one blind Codex review before reaching Kris. Summary now with the queries raised since the 02:01 BST mark.

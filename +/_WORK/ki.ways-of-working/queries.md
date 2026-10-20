@@ -22,10 +22,26 @@ From ci-green, medium; in blind review (cg-review). a) harness record tightens H
 
 From ci-green, medium; in blind review (cg-review). a) take the listed answers and mark GOV-200, -205, -214, -215, -220, -221, -223 Ready; b) GOV-215 and GOV-220 now, the rest one by one.
 
+### NO-GATE - unparked
+
+Project shape commit gate; reviewed, a) `ki repo audit --skill ki-repo` staged, check-only. Unparked by Kris at 02:55 BST; full query drafted by unpark-draft, then blind review unless already reviewed.
+
+### GFM-HOSTING-RULES - unparked
+
+harness protected `main` declaration; a) `branch-protection = true`, awaiting blind review. Unparked by Kris at 02:55 BST; full query drafted by unpark-draft, then blind review unless already reviewed.
+
+### HARNESS-TRIAGE - unparked
+
+eight harness triage dispositions from lane-triage; awaiting blind review. Unparked by Kris at 02:55 BST; full query drafted by unpark-draft, then blind review unless already reviewed.
+
+### PRINCIPAL-TRIAGE - unparked
+
+OPS-014 to Next, prune GOV-035; awaiting blind review. Unparked by Kris at 02:55 BST; full query drafted by unpark-draft, then blind review unless already reviewed.
+
+### PKGLESS-GATE - unparked
+
+keep the package-less pre-commit gates in homebrew-tap and ki-specifications and give each concrete shape an explicit content owner in the harness hooks contract; taken with NO-GATE on resume. Unparked by Kris at 02:55 BST; full query drafted by unpark-draft, then blind review unless already reviewed.
+
 ## Parked
 
-- NO-GATE - Project shape commit gate; reviewed, a) `ki repo audit --skill ki-repo` staged, check-only.
-- GFM-HOSTING-RULES - harness protected `main` declaration; a) `branch-protection = true`, awaiting blind review.
-- HARNESS-TRIAGE - eight harness triage dispositions from lane-triage; awaiting blind review.
-- PRINCIPAL-TRIAGE - OPS-014 to Next, prune GOV-035; awaiting blind review.
-- PKGLESS-GATE - keep the package-less pre-commit gates in homebrew-tap and ki-specifications and give each concrete shape an explicit content owner in the harness hooks contract; taken with NO-GATE on resume.
+None.
