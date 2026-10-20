@@ -182,6 +182,6 @@ Proceed to merge the reviews with the shared model and one-skill direction intac
 [microsoft-create]: </Users/krisbrown/workspaces/knowledge-islands/mcp-m365/src/main/calendar/create.ts>
 [availability]: </Users/krisbrown/workspaces/knowledge-islands/mcp-m365/docs/guides/user/calendar-availability.md>
 [naming]: </Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/decisions/ADR-KI-HARNESS-SKILLS-003-dependency-order-for-multi-skill-composition.md>
-[harness-record]: </Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-222-timeline-and-calendar-skill.md>
+[harness-record]: <https://github.com/knowledgeislands/ki-agentic-harness/blob/ae8a1323ab167cf9ba559e5a1046c1ab98a6a81b/docs/roadmap/KI-HARNESS-GOV-222-timeline-and-calendar-skill.md>
 [personal-instructions]: </Users/krisbrown/.codex/AGENTS.md>
 [design-standard]: </Users/krisbrown/.agents/skills/ki-work-design/references/standards-work-design.md>

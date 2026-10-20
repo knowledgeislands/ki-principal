@@ -77,7 +77,7 @@ Every `VEVENT` is written `TRANSP:TRANSPARENT`, so every event shows as free. Th
 
 ## 2. KI-HARNESS-GOV-222
 
-[KI-HARNESS-GOV-222](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-222-timeline-and-calendar-skill.md), "Timeline and calendar skill", status `triage`, project `observatory`, component `governance`, captured 19 October 2026 (commit `7ed13f9c`).
+[KI-HARNESS-GOV-222 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/ae8a1323ab167cf9ba559e5a1046c1ab98a6a81b/docs/roadmap/KI-HARNESS-GOV-222-timeline-and-calendar-skill.md), "Timeline and calendar skill", status `triage`, project `observatory`, component `governance`, captured 19 October 2026 (commit `7ed13f9c`).
 
 - **Goal:** a harness skill governs the dated things a knowledge base keeps - key dates, due dates and milestones - as one approach extracted from the 5G Emerge component: each base keeps its dated items, may publish one or more subscribable calendar sets, and states each item's busy status.
 - **Context:** quotes Kris's DIAGRAM-GANTT words of 19 October 2026 from the [Observatory decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/decisions.md); the read-back keeps the legal gantt as it is and hands timelines and calendars out of the Observatory thread. Describes the registry, `ics.ts`, the views and tests as section 1 does; records that busy status is not modelled and that a per-item busy status mapped to `TRANSP` and client busy-status properties would need times or a stated all-day blocking rule; notes the separate programme timeline and asks whether one source feeds both.

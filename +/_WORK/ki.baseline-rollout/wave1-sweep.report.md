@@ -70,8 +70,8 @@ Outstanding - no action requested now:
 
 - The one Mermaid fence no record covers is in [acquire](/Users/krisbrown/workspaces/personal/acquire), inside a captured ChatGPT conversation under `captures/`. It is source evidence, so I am raising no conversion for it.
 - hnr-principal's 2 email-status pies are a third pie exception the brief did not name. [HNR-PRINCIPAL-KM-018](/Users/krisbrown/workspaces/humans-not-robots/hnr-principal/Streams/Roadmap/HNR-PRINCIPAL-KM-018-replace-email-status-pie-with-bar-table.md) already covers them.
-- All six archify conversion records, plus the two bar-table records, are in triage and carry a size. Their figure re-export still waits on [KI-HARNESS-GOV-205](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-205-static-light-diagram-export.md).
-- The audits ran despite [KI-HARNESS-GOV-220](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-220-coord-1-undeclared-warn-level.md). legal-principal and personal-principal still fail COORD-7 because work reports carry unlinked record identifiers. That is outside this sweep.
+- All six archify conversion records, plus the two bar-table records, are in triage and carry a size. Their figure re-export still waits on [KI-HARNESS-GOV-205 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/4559224e03dbf98c4cc73595596436f58b258763/docs/roadmap/KI-HARNESS-GOV-205-static-light-diagram-export.md).
+- The audits ran despite [KI-HARNESS-GOV-220 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/eea04f87092cc81d0b595e161ad96757558bd125/docs/roadmap/KI-HARNESS-GOV-220-coord-1-undeclared-warn-level.md). legal-principal and personal-principal still fail COORD-7 because work reports carry unlinked record identifiers. That is outside this sweep.
 
 ## Queries
 
