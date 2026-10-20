@@ -345,3 +345,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 191 (2026-10-20T23:29:00Z)
 
 - Pointer: Kris (00:29 BST): "SPARK-ATTENDED - a) I stopped the agent, now over to you?" Kris stopped Shadowlab Spark's login helper on sol; run spark-finish verifies it stopped, then completes the removal authorised under SPARK-REMOVE a).
+
+## Decision 192 (2026-10-20T23:38:00Z)
+
+- Pointer: Kris (00:37 BST) removed Shadowlab Spark's protected group container on sol himself (SPARK-CONTAINER a), verified absent). Run spark-tidy removes the empty `com.xenonium.Spark` preference file and records the final sol verification; terra follows a push.
