@@ -667,3 +667,10 @@ Accepted and pruned fourteen: six Observatory, five ki-design, three Rig. Merged
 ## 2026-10-20 06:04 BST - received burn-tools-mgit and burn-tools-git-almanac
 
 Both roadmaps already at zero; nothing to do. Briefs removed.
+
+## 2026-10-20 06:10 BST - received burn-tools-techne; two lines from burn-tools-ki
+
+- burn-tools-techne: KI-TOOL-TECHNE-CLI-009 delivered to awaiting review (`bfd1bc9`); KI-TOOL-TECHNE-CLI-006 left draft for Kris's review of its destructive replan; TS-OAUTH-PARAM line to ki.agent-host (ki-principal `ffb41ace`, unpushed). accept-tools-techne queued.
+- Acceptance overnight: each repository gets one independent Codex run that reviews every awaiting-review record against its checks and, where they pass, accepts under Kris's overnight grant and prunes; failures go back with findings.
+- CAPTURE-FOLLOWUPS (`ki work message`, `ki work prune`): routed to ki.tools-burndown's `messages.md`, the tools-ki owner. Line removed.
+- GRANT-INTERIM: kept in `state.md` Next steps until a `ki` release with `--allow` is installed (a release is publication, Kris's). Line removed.
