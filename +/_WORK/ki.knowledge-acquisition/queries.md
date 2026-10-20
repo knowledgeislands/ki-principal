@@ -2,102 +2,68 @@
 
 ## Open
 
-### STATE-PLACEMENT - What technical acquisition state must survive, and where
+### PROJECT-CLOSE - Three open records still name the Knowledge acquisition Project
 
-since 2026-10-18 · from [intake-and-clearance](design/intake-and-clearance.md#the-acquire-state-directory) and [acquire-capability-review](design/acquire-capability-review.md#remove-acquire-through-the-existing-state-work)
+since 2026-10-20 · from the ka-finish run
 
-**Context:** Acquire's `.acquire/` directory holds 26 retained files: the Granola ledger (source and account identity, versions, capture locators, handled-source suppression), the ChatGPT conversion checkpoint and converter (retained batch and provenance proof) and migration manifests. The hidden directory is an implementation choice; its retained state and proof are necessary. KB-ACQUIRE-002 already selects `+/_ACQUIRE/{granola,chatgpt,migration}/`, but tools-ki still selects `.acquire/granola/` whenever `capture_root` is set and the Granola skill admits no independent state root, so moving the directory alone would break discovery of retained state. All current `.acquire/` bytes are unchanged; no move or reset has been performed.
+**Context:** Kris asked on 20 October to finish this work and close the [Knowledge acquisition](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/knowledge-acquisition.md) Project. Under the Project registry standard's close-out assessment, a record that still serves the Outcome keeps its Project open, and other work names the Project or theme it serves. Three draft records name this Project: [KI-HARNESS-OPS-009](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-OPS-009-complete-ai-session-acquisition.md) (the eight unfinished AI-session acquisition steps, source retirement among them), [KI-PRINCIPAL-MOD-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-009-amend-adr-001-staging-wording.md) (ADR staging wording) and [KI-TOOL-KI-CLI-139](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-139-ebu-sources-sync.md) (EBU SharePoint sync for hnr-principal). Against the Outcome: the lifecycle Pillars note exists, the Acquire side is simplified and ledger-free, the ChatGPT account export is staged into territories; AI-session source retirement, Claude and Codex staging and the WhatsApp spool question are not done. Nothing was changed in the Project note or the registry.
 
-**Query:** What is the minimal surviving-proof model for technical acquisition state, and where does it live, before any tooling or state relocation?
-
-**Options:**
-
-a) (recommended; the only option recorded) Preserve current state until importer/configuration support and a verified relocation plan exist.
-
-### RECEIPT-RETENTION - How intake requests are tied up and their receipts retained
-
-since 2026-10-18 · from [intake-and-clearance](design/intake-and-clearance.md#intake-retention-and-pruning)
-
-**Context:** The current contract retains closed receipts: closing a request removes it from pending discovery but does not delete its receipt. There is no implemented or agreed receipt-pruning operation, and a work-folder tidy does not apply to the separate intake receipt store. The proposed tie-up rule closes a request only after its bounded scope has verified capture outputs or an explicit zero-output disposition, retaining one compact request-to-capture/handling link and any sole supplied bytes. Any later deletion of a whole receipt needs an explicit surviving-proof contract first; a receipt's age alone supplies no deletion authority.
-
-**Query:** What intake tie-up and receipt-retention rule does Kris agree?
+**Query:** How is the Project closed while those three records are open?
 
 **Options:**
 
-a) (recommended; the only option recorded) Retain compact identity and handling proof; prune redundant commentary only under an agreed preservation boundary.
+a) (recommended, confidence medium - the unfinished parts already have records, so the Project can close without losing them) Repoint the three records' `project` to the Model theme or a better-fitting Project (CLI-139 to the one that owns hnr-principal sources), write the close-out assessment, set the Project `completed` and remove nothing else.
 
-### PROTOTYPE-DISPOSITION - What happens to the offline binary-bridge prototype
+b) Keep the Project `active` until the three records finish, and finish only this work package now.
 
-since 2026-10-19 · from [acquire-capability-review](design/acquire-capability-review.md#scripts)
+c) Write the assessment and set the Project `cancelled`, with the records repointed as in a).
 
-**Context:** The five `scripts/binary-probe/` files in Acquire are an offline MCP/attachment engineering prototype and its tests. They are not used by routine capture, their real transport and identity binding is unimplemented, and they stay attached to the binary-bridge review (KB-ACQUIRE-003) until their engineering home or disposition is decided. No prototype files were changed in the approved consolidation.
+### METHOD-NOTE - The Acquisition Process note predates the 20 October simplification
 
-**Query:** Should the prototype leave Acquire's live tree, and on what terms?
+since 2026-10-20 · from the ka-finish run
 
-**Options:**
+**Context:** Knowledge Islands owns the acquisition method, in the [Acquisition Process](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md>) note. It still describes intake writing a receipt, retirement keeping receipts, the Granola ledger as provenance evidence, a return route for rejected knowledge and a link to the removed `CAPTURE-CHATGPT.md`. On 20 October Kris settled, in Acquire's log, that there is no ledger, no intake receipts and no return route, and that delivery into `+/_ACQUIRED/` is acceptance; those now live only in Acquire's [dispatch guide](/Users/krisbrown/workspaces/personal/acquire/docs/guides/operator/dispatch.md), AGENTS.md and guides. The TRIAL-WRAP message also asked for the drop-clearing rule, images in Git with video in the external store, and provider-free territory context to be adopted as method. A Pillars change runs through the Enactment Process, so it was not made in haste.
 
-a) (recommended; the only option recorded) Remove it from the live tree with Git/review recovery after explicit owner disposition.
-
-## Parked
-
-- PUBLISH-STACK - This session has not pushed. Acquire and Harness changes are local on `main`; Principal also holds peer commits: `0c67f927` ki.ways-of-working next steps, work package delivery; `51d681ca` ki.ways-of-working owner answers, work package and queue priority; `3d12ecc5` ki.ways-of-working work-package note, state file restored; `82db4e67` reconcile completed coverage and remaining handoffs; `e10889b0` ki.ways-of-working receive, state file restored; `3fd3e041` ki.ways-of-working owner answer, state file; `1fc93b73` ki.ways-of-working send to owner, revised work package queries; `db12ad33` ki.ways-of-working work-package note, owner answers revised; `a9b75552` ki.ways-of-working mark, work package answers. Kris decides publication; do not push peer work.
-
-### OBSERVATORY-FIRST - Whether acquisition work waits on the Observatory
-
-since 2026-10-17 · from the decisions log, 22:35 BST on 17 October · parked: a carried-forward dependency; release: its current owner checked · (looks resolved; the worker judges)
-
-**Context:** Kris raised OBSERVATORY-FIRST because knowledge acquisition should be managed through the Observatory, and answered it at 22:40 BST on 17 October: message state-of-play to prioritise getting the Observatory running and pass on the stock-take's overview as the acquisition requirements. [The design note](design/intake-and-clearance.md#next-bounded-decisions) carries it forward for reconciliation with its current owner before any pilot resumes.
-
-**Query:** Does acquisition work still wait on the Observatory's first step?
+**Query:** Where is the Acquisition Process note brought into line?
 
 **Options:**
 
-a) (recommended; the only option recorded) Check its current owner before scheduling acquisition work around it.
+a) (recommended, confidence medium - one open record already amends acquisition wording in this repository) Widen [KI-PRINCIPAL-MOD-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-009-amend-adr-001-staging-wording.md) to amend the Acquisition Process note to the 20 October model as well as the ADR wording.
 
-### PILOT-SEED - The seed material the dispatch pilot waits on
+b) Capture a separate Knowledge Islands Principal record for the note through `ki-next`.
 
-since 2026-10-17 · from the work file's Parked section (PILOT-SEED / PILOT-GO) · parked: a carried-forward dispatch-pilot dependency; release: reconciled with its current owner before any pilot resumes
+c) Leave the note as it is; Acquire's guides govern.
 
-**Context:** PILOT-SEED was the request to state-of-play, sent through its inbox at 21:35 UTC on 17 October, to copy section 4 of the foundations-coherence report into its thread folder; PILOT-GO launches once that copy exists. [The design note](design/intake-and-clearance.md#next-bounded-decisions) carries it forward for reconciliation with its current owner; MS3 work was dropped and is not resumed.
+### CUSTOMS-WORDS - Whether the Customs and clearance words survive
 
-**Query:** Does the seed and pilot direction still stand before a trial?
+since 2026-10-20 · from the TRIAL-WRAP message and the retired design notes
+
+**Context:** Kris adopted NAMING a) during the 18 October trial: **Customs** for the facility, the **clearance area** for where material waits and **clearance** for the check on arrival and again on dispatch, words only. It was recorded only in the retired trial note and this work's design notes, now deleted with Git keeping them. Since then Kris called Acquire "simply a sorting office", which the dispatch guide uses, and the [Glossary](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Conventions/Glossary.md) already uses Customs for an island's boundary rules.
+
+**Query:** Are the Customs and clearance words kept for Acquire?
 
 **Options:**
 
-a) (recommended; the only option recorded) Reconcile the existing seed and pilot direction before a trial.
+a) (recommended, confidence medium - "sorting office" is the term in use and Customs already means something else in the Glossary) Drop them; "the port" and "sorting office" stand.
+
+b) Adopt them in the Acquisition Process note under METHOD-NOTE.
 
 ### PILOT-GO - Building the Known World seed pack
 
-since 2026-10-17 · from the decisions log, 22:30 BST on 17 October · parked: a carried-forward dispatch-pilot dependency; release: PILOT-SEED reconciled · (looks resolved; the worker judges)
+since 2026-10-17 · from the decisions log, 22:30 BST on 17 October
 
-**Context:** Kris answered PILOT-GO at 22:30 BST on 17 October: build and stage the Known World seed pack on Sonnet, publishing nothing yet, once state-of-play has copied section 4 of the foundations-coherence report into its thread folder (PILOT-SEED). Known World is the inception loop's first pilot. [The design note](design/intake-and-clearance.md#next-bounded-decisions) carries it forward with PILOT-SEED.
+**Context:** Kris answered PILOT-GO at 22:30 BST on 17 October: build and stage the Known World seed pack on Sonnet, publishing nothing yet, once state-of-play has copied section 4 of the foundations-coherence report (PILOT-SEED). State of play's [state](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/state.md) still carries PILOT-SEED as a next step for a session on the terra checkout; its pilot-seed run found the report is not on sol. Acquire keeps a [Seeds](/Users/krisbrown/workspaces/personal/acquire/context/README.md#seeds) home and return fields, so the port side is ready; nothing on 20 October settled the pilot itself, and this work is finishing.
 
-**Query:** Does the answered pilot direction still stand before a trial?
-
-**Options:**
-
-a) (recommended; the only option recorded) Reconcile the existing seed and pilot direction before a trial.
-
-### EXISTING-DEPENDENCIES - The chezmoi/trades review and the territory-key question
-
-since 2026-10-18 · from [intake-and-clearance](design/intake-and-clearance.md#next-bounded-decisions) · parked: release: their existing owners' reviews
-
-**Context:** The separate chezmoi/trades review on 21 October remains with its existing owner, and the earlier dispatch-envelope question stays there. The historical ChatGPT territory-key naming question must be compared with current kebab-case configuration and the routing-card work (KB-ACQUIRE-008) before any rename.
-
-**Query:** Do these dependencies stay with their existing owners?
+**Query:** Where does the Known World seed pilot go when this work finishes?
 
 **Options:**
 
-a) (recommended; the only option recorded) Keep their existing owners; do not infer a rename or restart.
+a) (recommended, confidence medium - State of play already holds the seed copy step it depends on) Hand PILOT-GO to State of play with one `messages.md` line, beside PILOT-SEED.
 
-### STOCK-TAKE-HOME - Homing the retained stocktake before it is pruned
+b) Hand it to [Island model and Tending](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/island-model-and-tending.md), which holds Known World.
 
-since 2026-10-18 · from [intake-and-clearance](design/intake-and-clearance.md#retained-stocktake) · parked: release: its provider overview and holding analysis homed
+c) Drop the pilot and tell State of play to drop PILOT-SEED.
 
-**Context:** The native audit lists [the retained stocktake](stock-take.report.md) as a tidy candidate because its owner questions are answered, but the work-folder contract requires its outcome to have a durable home before deletion. Its provider overview and holding analysis have not yet been reconciled into their durable owners. Its historical counts, holding suggestions and outstanding queries are not current operating instructions.
+## Parked
 
-**Query:** Is the stocktake kept until its provider overview and holding analysis are homed?
-
-**Options:**
-
-a) (recommended; the only option recorded) Retain it through that check rather than delete on the audit listing alone.
+None
