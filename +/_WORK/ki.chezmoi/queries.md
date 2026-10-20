@@ -2,6 +2,10 @@
 
 ## Open
 
+None; every open query is parked for the hold.
+
+## Parked
+
 ### [RAT-ACTIONS - Actions](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-027-honest-rationales-per-tool.md)
 
 **Context:** [KB-DOTFILES-UE-027](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-027-honest-rationales-per-tool.md), [proposal](/Users/krisbrown/.local/share/chezmoi/-/rig-rationale-review.md:5). Proposed reason: Actions fills gaps in Shortcuts, which you keep for its Control Center link. The review agrees: Actions is installed and the local guide says the same.
@@ -301,7 +305,3 @@ b) The harness's `env.sh` sources `~/.zsh/00_xdg_base_dirs` when the Cheztoi pay
 c) Release `.zshenv` from both reserved lists so the payload can own it.
 
 d) Cancel with no change.
-
-## Parked
-
-None.
