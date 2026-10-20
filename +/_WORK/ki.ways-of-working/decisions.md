@@ -806,3 +806,7 @@ STYLE-STALE landed (`dacdcc33`, local): re-anchoring now re-reads `output-styles
 ## 2026-10-20 08:37 BST - received accept5-tools-ki
 
 KI-TOOL-KI-CLI-159 accepted by independent Codex review (`a073f97b`, pushed). It stays unpruned because its live links are in ki-principal, which has other sessions' unpushed commits, so it joins PRUNE-LINKS-REST. Next: morning-gather collects every query the overnight runs left for Kris into `queries.md`, and morning-review (Codex) blind-reviews them. harness-burn surveys the harness roadmap and delivers what needs no owner decision, per "a good run at whatever's left in the agentic harness".
+
+## 2026-10-20 08:44 BST - received morning-gather
+
+`queries.md` now holds 13 open queries (`16127aba`). Six medium ones (GRANT-INTERIM, SITE-SOURCE, RIG-053-SHAPE, PLAN067-READY, DESIGN-DISPOSITIONS, TOOLS-KI-SHAPES) go to morning-review (Codex). SPEC-SKETCH is already reviewed, and the rest are high-confidence or Kris's own checks.
