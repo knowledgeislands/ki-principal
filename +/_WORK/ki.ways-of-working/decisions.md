@@ -182,3 +182,7 @@ The second acceptance stopped on HARNESS-PRIMARY-LEAK: ki.chezmoi's hooks-tools 
 ## 2026-10-21 00:05 BST - messages: ki.chezmoi harness hold
 
 ki.chezmoi asked this work to hold harness commits until its hooks/hooks-recover run reports on the harness Git metadata. Accepted: wow-accept-gov225-c stays held until hooks-recover finishes, then runs. Line removed.
+
+## 2026-10-21 00:10 BST - messages: ki.chezmoi harness released
+
+ki.chezmoi reported hooks-recover finished and the harness metadata verified; harness commits may resume. wow-accept-gov225-c dispatched, committing locally without pushing over the hooks work's two unpushed commits. Line removed.
