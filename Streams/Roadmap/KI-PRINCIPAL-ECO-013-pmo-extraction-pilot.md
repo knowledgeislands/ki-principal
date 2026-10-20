@@ -7,14 +7,14 @@ kind: deliver
 purpose: governance
 project: ways-of-working
 horizon: now
-status: awaiting-review
+status: in-progress
 tags:
   - topic/knowledge-islands
 blocks: []
 blocked_by: []
 baseline_ref: 984d950957b56618baa28413f2c82a73c1c10b19
 created_at: 2026-10-13T13:42:43Z
-updated_at: 2026-10-20T06:37:46Z
+updated_at: 2026-10-20T06:59:01Z
 ---
 
 # PMO Extraction Pilot
@@ -62,7 +62,8 @@ Under the 2026-10-20 narrowing, test 1 is judged on its Claude Code run, and tes
 
 ## Current state
 
-- Awaiting review since 2026-10-20, narrowed to what was delivered under Kris's "prepare the five" (SWEEP-ACCEPT-WAYS-OF-WORKING a), 20 October). The review packet below carries the current evidence; the bullets that follow are the delivery history as of 14 October, read with `ki-pmo` as `ki-coordination` and `ki-checkpoint` as `ki-work-package`.
+- In progress after the failed independent acceptance review on 2026-10-20; the findings under Discussion govern resubmission.
+- Previously awaiting review since 2026-10-20, narrowed to what was delivered under Kris's "prepare the five" (SWEEP-ACCEPT-WAYS-OF-WORKING a), 20 October). The review packet below carries the current evidence; the bullets that follow are the delivery history as of 14 October, read with `ki-pmo` as `ki-coordination` and `ki-checkpoint` as `ki-work-package`.
 - Delivery granted on 2026-10-14, Kris: "PILOT-GRANT - granted". In progress from island baseline `984d9509`. The harness delivery is [KI-HARNESS-GOV-185](https://github.com/knowledgeislands/ki-agentic-harness/blob/2057cc9694be6e0e278c826a3f234e7e3d850238/docs/roadmap/KI-HARNESS-GOV-185-ki-pmo-extraction.md) on harness `main` from baseline `6d3e2f34`: the ledger advance and record, a `ki-skills` fix so a hyphenated mode name such as `full-summary` is read whole, the `ki-pmo` extraction commit, a fix giving each mechanical `ki-pmo` rubric item its own outcomes, and the declaration commit with the regenerated catalogue, `ki-delegation` rubric and diagram manifest stamp.
 - Harness gates on the committed `main`: `bun run test`, `bunx tsc --noEmit`, the skill-graph check, the hook tests and the `ki-skills`, `ki-delegation`, `ki-checkpoint`, `ki-pmo`, `ki-repo`, `ki-repo-harness`, `ki-diagrams` and `ki-work-roadmap` audits pass; the only warnings are two pre-existing `ki-skills` refresh-cadence warnings on other skills' sources. The search for `under ki-delegation`, `ki-delegation read at` and the moved anchors finds nothing outside `ki-pmo` and the harness record.
 - This island declares `[skills.ki-delegation]` and `[skills.ki-pmo]` after `[skills.ki-checkpoint]`, because the `ki-pmo` audit refuses a declaration whose dependency is undeclared, and `.claude/settings.json` selects `ki-coordinator`.
@@ -207,6 +208,16 @@ The goal, a coordinating thread's rules in their own skill, enforced by a hook, 
 The `ki-pmo` pilot delivered the coordinating-work skill, now `ki-coordination`, with its hook, style and chezmoi link, and passed acceptance test 1 on Claude Code; the remaining tests were overtaken by the work model and withdrawn. Leftovers go as three message lines, and one is already a record. Learning route: a pilot whose design is overtaken should be narrowed and closed at once, not left in progress for a week.
 
 ## Discussion
+
+### Independent acceptance review - 20 October 2026
+
+Verdict: failed review; returned to in progress. The six-part packet has the required headings and no unchecked Steps, and the delivered extraction, declaration, style selection and deployed style link are present. The narrowed boundary withdraws the historical Codex and live responsiveness/hook trials; this review does not claim those trials passed.
+
+Fresh island audits: `ki-repo-kb-streams` and `ki-work-roadmap` pass. `ki-authoring` fails MD-mech on `spec-areas-design.report.md` and `spec-drafts.report.md` in this work folder, with an OWN-1 warning on `.rumdl.toml`. `ki-coordination` fails with 161 findings, including COORD-7 report links; `ki-work-package` fails with 46 findings across STRUCTURE-1, RECORD-2 and FOLDER-1. Both include this work's package, as well as other works. The preparation packet's description of the failures as confined to other works is therefore insufficient for closure. The `ki-accept` closure rule requires passing governing audits and permits no waiver for unrelated findings.
+
+Harness verification at `dacdcc337ccb94cc48dd3301e9d5a3871282b934`: 1372 tests pass, TypeScript passes, the coordinator hook guard passes, and the `ki-work-package`, `ki-coordination`, `ki-skills`, `ki-work-roadmap`, `ki-authoring`, `ki-delegation` and `ki-repo-harness` audits have no failures. The chezmoi output-style test passes, its targeted deployed-file diff is empty, and the deployed link resolves to the harness style. No runtime, scheduler, credential or provider configuration was changed.
+
+Repair the recorded audit failures through their owning work, then prepare a fresh review packet and rerun the governing gates before resubmitting. No new work record was captured, and no retained record was pruned.
 
 ### Narrowing
 
