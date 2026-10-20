@@ -1,9 +1,10 @@
 #!/bin/sh
-# Committed pre-commit gate, bound by `core.hooksPath` so every working tree runs it.
-# Without its tools it refuses the commit rather than letting it pass unchecked.
+# Canonical pre-commit for a ki-repo-kb repository with a package.json, composed by ki-repo.
+# Copied byte-exact from ki-repo-kb's assets/githooks/package/pre-commit; HOOK-4 compares it, so do not edit it here.
 root="$(git rev-parse --show-toplevel)" || exit 1
+git diff --cached --quiet && exit 0
 missing=''
-for tool in lint-staged syncpack; do
+for tool in lint-staged syncpack biome rumdl; do
   [ -x "$root/node_modules/.bin/$tool" ] || missing="$missing $tool"
 done
 if [ -n "$missing" ]; then
@@ -12,13 +13,9 @@ if [ -n "$missing" ]; then
   echo "pre-commit: do not bypass with --no-verify; a gate that cannot run is unknown, not a pass." >&2
   exit 1
 fi
-missing=''
-for tool in ki; do
-  if ! command -v "$tool" >/dev/null 2>&1; then missing="$missing $tool"; fi
-done
-if [ -n "$missing" ]; then
-  echo "pre-commit: the commit gate cannot run; not on PATH:$missing" >&2
-  echo "pre-commit: install them, then commit again." >&2
+if ! command -v ki >/dev/null 2>&1; then
+  echo "pre-commit: the commit gate cannot run; not on PATH: ki" >&2
+  echo "pre-commit: install it, then commit again." >&2
   echo "pre-commit: do not bypass with --no-verify; a gate that cannot run is unknown, not a pass." >&2
   exit 1
 fi
@@ -26,12 +23,10 @@ PATH="$root/node_modules/.bin:$PATH"
 export PATH
 lint-staged --quiet || exit 1
 syncpack format --check || exit 1
-# The focused Knowledge Base audit is the island's own shape gate (ki-repo-kb GATE-1).
-# It stays check-only and leaves machine-local checks, such as registry and runtime
-# activation, to the full audit and CI. `--staged` keeps evaluation whole-tree but
-# scopes the verdict to the staged paths; CI keeps the whole-tree verdict. On success
-# it prints one summary line; on failure it runs again in full so the findings show.
-ki repo audit --repo "$root" --skill ki-repo-kb --staged \
-  --concise --progress never --reporter-levels FAIL && exit 0
-ki repo audit --repo "$root" --skill ki-repo-kb --staged
-exit 1
+# The focused shape audit, check-only over the staged paths; on a failure it runs again in full.
+quiet_audit() {
+  ki repo audit --repo "$root" --staged --concise --progress never --reporter-levels FAIL "$@" && return 0
+  ki repo audit --repo "$root" --staged "$@"
+  return 1
+}
+quiet_audit --skill ki-repo-kb || exit 1
