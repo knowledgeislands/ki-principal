@@ -178,6 +178,92 @@ a) (recommended, confidence high - reviewed: the harness catalogue owns CLEAN cr
 
 b) Implement the CLEAN checks natively in tools-ki, and plan KI-TOOL-KI-CLI-149 and -160 now on provisional choices.
 
+### GOV209-OWNER - Which skill owns the acquired-area scaffold
+
+**Context:** [KI-HARNESS-GOV-209](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-209-acquired-inbound-area.md) (draft, Next, not yet planned) gives each territory principal a `+/_ACQUIRED/` folder with a scaffold README, where the acquire port delivers whole packets, and adds receiver triage guidance to `ki-repo-kb`: file the packet, turn it into work, or park it. The record does not say which skill owns the scaffold. The repository rule is that a capability which owns a working-area subarea must require its exact README while that capability is declared, and restores the README through its own conform. If `ki-repo-kb` owned it, every knowledge base would carry the folder, not only the principals. `ki-repo-kb-principal` writes no scaffold today. Eight principals declare the `ki-repo-kb-principal` overlay and none of them has the folder yet, so under either owner all eight would fail audit until each is conformed. Acquire's dispatch guide already creates the folder on first delivery, so the scaffold is not a precondition for dispatch. Kris dropped the return route on 20 October, so the receiver writes nothing back to the port.
+
+**Query:** Which skill should own the `+/_ACQUIRED/` scaffold, and should it be required in every principal or checked only once the folder exists?
+
+**Options:**
+
+a) (recommended, confidence low - it matches who receives deliveries, but it brings eight audit failures until each principal is conformed) Give the scaffold to `ki-repo-kb-principal`, require it while the overlay is declared and add conform support; put the receiver triage guidance in `ki-repo-kb`.
+
+b) Check the scaffold only once `+/_ACQUIRED/` exists, which means amending the `ki-repo` rule on specialist subareas.
+
+c) Give the scaffold to `ki-repo-kb` for every knowledge base.
+
+Needs blind review.
+
+### GOV225-CLOSE - Close the hook content-claims record
+
+**Context:** [KI-HARNESS-GOV-225](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-225-hook-content-claims.md) (draft, Next, ki.tools-burndown) makes each shape skill declare the lines it requires in a repository's committed Git hooks, so that the `ki` host can compose them. Kris's STRICTNESS-CONFORM decision settled its design: one canonical hook pair per shape and package presence, held as data in `ki-repo` and audited by exact comparison. Five of its six steps are done: the frame, each shape's block and content criterion, the standard text and the regenerated rubrics. The last step is to agree with Kris whether the record now closes. Writing the canonical hooks into repositories was always out of its scope and belongs to tools-ki's KI-TOOL-KI-CLI-165, which can now proceed against the published hooks. The record is still marked draft, so closing it means moving it to awaiting review for an acceptance review.
+
+**Query:** Should KI-HARNESS-GOV-225 close now, leaving composition in repositories to KI-TOOL-KI-CLI-165 in tools-ki?
+
+**Options:**
+
+a) (recommended, confidence medium - every harness-side step is done and composition was always out of scope, but the record has had no independent review) Move it to awaiting review, then accept it after an independent review.
+
+b) Keep it open until KI-TOOL-KI-CLI-165 lands in tools-ki.
+
+Needs blind review.
+
+### GOV189-SCOPE - Narrow the thread-move record to its decided slice
+
+**Context:** [KI-HARNESS-GOV-189](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-189-move-thread-between-hosts.md) (draft, Next, Mac Studio Setup) adds to `ki-coordination` a procedure for moving coordinating work from one Mac to another, plus a level check at resume and at every mark with a `[behind]` banner item. Kris decided the level check and `[behind]` under SYNC-GUARD on 18 October, so that part could be delivered now. Two questions remain open. The first is how agents that must run on one host are handled: kept queued on the old host, carried with a host constraint, or treated as blocking the move. The second is which closing form the session left on the old host uses, since Kris's 14 October decision named the retired DONE frame and the work model keeps `Finished` for work that has ended. Exporting and re-importing the agent queue belongs to tools-ki, and until a command exists the standard can name the manual route of re-queuing briefs from the work package's Next steps. The record does not block the Mac Studio setup.
+
+**Query:** Should KI-HARNESS-GOV-189 be narrowed to the decided level check and `[behind]` item, or wait until Kris answers both open questions?
+
+**Options:**
+
+a) (recommended, confidence low - the decided slice could be delivered now, but narrowing changes the record's scope) Narrow it to the level check and the `[behind]` item, and keep the two open questions in its Discussion for a later record.
+
+b) Kris answers both questions now, so that the whole record can be planned.
+
+Needs blind review.
+
+### GOV202-ADOPT - Adopt the skill-area stats badge
+
+**Context:** [KI-HARNESS-GOV-202](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-202-skill-area-stable-stats-badge.md) is still in triage with no horizon, priority or size. It replaces the uninformative SRC badge on the ten skill-area diagrams with stable stats about each skill, such as its rubric rule count, a code-size bucket and its reference count, which Kris asked for on 14 October under SRC-BADGE. It is small. Planning still has to decide whether the badge comes from the harness generator or needs a change to the vendored viewer, and which stats are stable enough not to churn the diagrams. Nobody has judged its value against other work.
+
+**Query:** Should KI-HARNESS-GOV-202 be adopted?
+
+**Options:**
+
+a) (recommended, confidence low - it is small, but its value has not been judged) Adopt it to Next for a later burndown.
+
+b) Cancel it.
+
+Needs blind review.
+
+### GOV227-SCHEMA - Design the repository storage schema
+
+**Context:** [KI-HARNESS-GOV-227](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-227-repository-storage-declarations.md) (draft, Next, Observatory) adds a `ki-repo`-owned `.ki.toml` table in which a repository declares what each tool, MCP server or app it ships stores in its XDG config, data, cache and state folders, and why. Kris decided the owner under STORAGE-OWNER a) on 20 October. Its first step is to design the schema with Kris: entries per item, each XDG category with its purpose and whether the content is disposable, recoverable or the owner's knowledge, and a way to declare shared namespaces with their owners. The record cannot be planned until the schema exists. It blocks only the tool-storage phase of the Observatory's machine instrument.
+
+**Query:** When should Kris design the storage-declaration schema for KI-HARNESS-GOV-227?
+
+**Options:**
+
+a) (recommended, confidence medium - the record names Kris as co-designer, and it blocks one Observatory phase) Hold a short design session in its own work.
+
+b) Defer the record to Future.
+
+Needs blind review.
+
+### OPS009-SPLIT - Split the AI session acquisition record
+
+**Context:** [KI-HARNESS-OPS-009](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-OPS-009-complete-ai-session-acquisition.md) (draft, Next, Model theme) carries the eight unfinished steps of AI-session acquisition from the closed Knowledge acquisition Project. They run from ChatGPT project enumeration and explicit handling of missing or changed sessions, through receiver triage and separating Claude and Codex acquisition from housekeeping, to a fail-closed, owner-approved deletion manifest. Kris chose on 17 October to capture all eight as one record, and the record expects them to split at planning. Several steps touch sibling repositories, which must plan and accept their own parts. The harness-burn run could not split it because CAPTURE-GATE barred that run from creating records.
+
+**Query:** Should KI-HARNESS-OPS-009 be split into separate records?
+
+**Options:**
+
+a) (recommended, confidence medium - the record is too large to deliver as one, and it already expects a split) Split it in a run that is allowed to capture records, with each sibling repository capturing its own part.
+
+b) Leave it whole at Next.
+
+Needs blind review.
+
 ## Parked
 
 - NO-GATE (with PKGLESS-GATE) - project shape commit gate; Kris will come back to it. a) `ki repo audit --skill ki-repo` staged, check-only; review prefers widening KI-HARNESS-GOV-225.
