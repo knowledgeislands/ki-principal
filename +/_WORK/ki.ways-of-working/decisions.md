@@ -537,3 +537,7 @@ Read back taken:
 ## 2026-10-20 02:44 BST - received ci-review
 
 Codex blind review of CHECKOUT-ISOLATION agrees with checkout-iso's a), medium, adding two conditions: serialise the whole shared-checkout Git write window, and establish dependency and runtime parity before judging worktree audits. It corrects two claims: `--repo` need not always name the primary checkout, and the ~2 s hook cost is workload-dependent. Not fully blind; query lifted to high, reviewed, and put to Kris. Briefs for ci-review, lane-triage and checker-gaps pruned.
+
+## 2026-10-20 02:50 BST - received ci-green; wow-standards and cg-review launched
+
+ci-green: harness audit 0 FAIL (the nine FAILs were worktree setup, not source), seven Now drafts planned (`165deda0`), pre-commit refuses without `bun` (`b852835a`), tests pass, pushed. Its three medium queries (WORKTREE-AUDIT, HOOK-4-CLASS, PLANNED-READY) go to blind review cg-review. wow-standards launched under the take-stock answers of 02:25 BST.
