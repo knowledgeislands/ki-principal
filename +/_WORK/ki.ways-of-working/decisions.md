@@ -756,3 +756,7 @@ KI-TOOL-KI-CLI-165 accepted (tools-ki `fde00e97`, pushed; tools-ki now level wit
 ## 2026-10-20 07:37 BST - received burn-ki-specifications
 
 KI-SPEC-RGV-004 (Archify status-flow diagrams) to awaiting review (`42c9ed6`, local behind another session's hooks commit `4437b58`); ki-specifications' only open record. Its push query is PUSH-NOT-WITH-YOU, not a query. Its sign-off query goes to accept-specifications (Codex). SPEC-SKETCH (correct the sketch's `Accepted -> Superseded`, medium) waits for the morning blind review batch.
+
+## 2026-10-20 07:42 BST - received accept-specifications
+
+KI-SPEC-RGV-004 failed independent review (`da895b5`): KIP publication trigger, KIS deprecation condition and the unfinished KI-theme re-export. burn2-ki-specifications reworks, accept2-specifications re-reviews. SPEC-SKETCH: the reviewer independently agrees with a) (governance, lifecycle step 8 and the status diagrams all say `Accepted -> Superseded`), so it stands reviewed, high, for Kris in the morning.
