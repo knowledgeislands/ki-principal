@@ -19,5 +19,5 @@ created_at: 2026-10-07T09:05:00Z
 
 ## Scope
 
-- In: the agent-host design papers in `design/`, [KI-TOOL-TECHNE-CLI-009](/Users/krisbrown/workspaces/knowledge-islands/tools-techne/docs/roadmap/KI-TOOL-TECHNE-CLI-009-tailscale-oauth-binding-field.md) and the matching ki-techne-harness recipe parameter.
+- In: the agent-host design papers in `design/`, [KI-TOOL-TECHNE-CLI-009 (pruned)](https://github.com/knowledgeislands/tools-techne/blob/78f88656/docs/roadmap/KI-TOOL-TECHNE-CLI-009-tailscale-oauth-binding-field.md) and the matching ki-techne-harness recipe parameter.
 - Out: Rig workstation setup and firewall work (ki.mac-studio-setup); the `ki` CLI (ki.tools-burndown); Paperclip (ki.paperclip-capture-and-rebuild).

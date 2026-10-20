@@ -56,7 +56,7 @@ method_read: f4d6c521
 - Until 2026-11-12: review the hold [KI-TECHNE-OPS-018](/Users/krisbrown/workspaces/knowledge-islands/ki-techne-harness/docs/roadmap/KI-TECHNE-OPS-018-converge-tools-through-rig.md); [KI-TECHNE-OPS-024](/Users/krisbrown/workspaces/knowledge-islands/ki-techne-harness/docs/roadmap/KI-TECHNE-OPS-024-weekly-pin-bump.md) also stays held, with ki.agent-host.
 - Until an ARM host is needed: [KI-TOOL-KI-CLI-125](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-125-ki-release-contract.md).
 - CLI-FIELDS, until ki.tools-burndown releases KI-TOOL-KI-CLI-155: `ki` 0.11.4 rejects the supported `priority` and `size` fields on 18 records; the records stay as they are.
-- [KI-TOOL-RIG-DIST-011](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-DIST-011-stale-terra-rig-link.md): its release or cancellation lies with ki.mac-studio-setup under CANCEL-MERGE.
+- [KI-TOOL-RIG-DIST-011 (pruned)](https://github.com/knowledgeislands/tools-rig/blob/74140e53/docs/roadmap/KI-TOOL-RIG-DIST-011-stale-terra-rig-link.md): its release or cancellation lies with ki.mac-studio-setup under CANCEL-MERGE.
 
 ## Carried for ways of working (HOLD-POINTERS, 19 October)
 

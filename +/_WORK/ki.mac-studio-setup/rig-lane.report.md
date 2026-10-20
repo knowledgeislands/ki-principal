@@ -31,7 +31,7 @@
 
 **Wave 3: the remaining capability records.**
 
-8. [KI-TOOL-RIG-CORE-057](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-057-github-desktop-repository-list.md) GitHub Desktop repository list. Triage. sol is already fixed by hand, so this only pays off on the next new machine. It reads tools-mgit's territory manifests, so it depends on another repository's file format, though nothing blocks it.
+8. [KI-TOOL-RIG-CORE-057 (pruned)](https://github.com/knowledgeislands/tools-rig/blob/74140e53/docs/roadmap/KI-TOOL-RIG-CORE-057-github-desktop-repository-list.md) GitHub Desktop repository list. Triage. sol is already fixed by hand, so this only pays off on the next new machine. It reads tools-mgit's territory manifests, so it depends on another repository's file format, though nothing blocks it.
 9. [KI-TOOL-RIG-CORE-053](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-053-macos-menu-bar-declarations.md) macOS menu bar declarations. Triage, and the largest capability record. It must follow [KI-TOOL-RIG-CORE-042](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-042-profile-filtered-dock-items.md), whose profile filtering it reuses. **Acceptance needs Kris at a Mac's screen** to compare the real menu bar.
 
 **Wave 4: the follow-up investigation.**
@@ -41,8 +41,8 @@
 **Held: outside the lane until the hold lifts (each is reviewed on 2026-11-16).**
 
 11. [KI-TOOL-RIG-CORE-048](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-048-signed-release-install-kind.md) Signed-release install kind. **Blocked on vega and another repository:** it waits for vega to be rebuilt and for ki-techne-harness [KI-TECHNE-OPS-018](/Users/krisbrown/workspaces/knowledge-islands/ki-techne-harness/docs/roadmap/KI-TECHNE-OPS-018-converge-tools-through-rig.md) to come off hold.
-12. [KI-TOOL-RIG-DIST-011](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-DIST-011-stale-terra-rig-link.md) Stale vega rig link. **Blocked on vega:** it waits for the Techne Programme Hold to lift. The fix is a single step on the host once that happens.
-13. [KI-TOOL-RIG-CLI-026](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CLI-026-per-tool-development-mode-switch.md) Per-tool development mode switch. Parked. **Blocked on Kris:** it waits for Rig's Techne-boundary work to resume, or for Kris to adopt it sooner.
+12. [KI-TOOL-RIG-DIST-011 (pruned)](https://github.com/knowledgeislands/tools-rig/blob/74140e53/docs/roadmap/KI-TOOL-RIG-DIST-011-stale-terra-rig-link.md) Stale vega rig link. **Blocked on vega:** it waits for the Techne Programme Hold to lift. The fix is a single step on the host once that happens.
+13. [KI-TOOL-RIG-CLI-026 (pruned)](https://github.com/knowledgeislands/tools-rig/blob/74140e53/docs/roadmap/KI-TOOL-RIG-CLI-026-per-tool-development-mode-switch.md) Per-tool development mode switch. Parked. **Blocked on Kris:** it waits for Rig's Techne-boundary work to resume, or for Kris to adopt it sooner.
 
 ## In Progress
 
@@ -100,12 +100,12 @@ Since the hold, the 17 October order has largely been delivered. [KI-TOOL-RIG-CO
 **Wave 2: capability.**
 
 7. [KI-TOOL-RIG-CORE-053](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-053-macos-menu-bar-declarations.md) macOS menu bar declarations. Triage. It is now unblocked, because [KI-TOOL-RIG-CORE-042](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-042-profile-filtered-dock-items.md)'s profile filtering is delivered. **Acceptance needs Kris at a Mac's screen.**
-8. [KI-TOOL-RIG-CORE-057](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-057-github-desktop-repository-list.md) GitHub Desktop repository list. Triage. It only pays off on the next new machine.
+8. [KI-TOOL-RIG-CORE-057 (pruned)](https://github.com/knowledgeislands/tools-rig/blob/74140e53/docs/roadmap/KI-TOOL-RIG-CORE-057-github-desktop-repository-list.md) GitHub Desktop repository list. Triage. It only pays off on the next new machine.
 9. [KI-TOOL-RIG-CORE-064](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-064-unmanaged-configuration-scan.md) Unmanaged configuration scan. Triage. **Needs a boundary decision from Kris before planning:** the scan sits between chezmoi, which owns configuration, and Rig, which would own the managed applications.
 
 **Wave 3:** [KI-TOOL-RIG-CORE-056](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-056-menu-bar-order-persistence.md) Menu bar order persistence. Future. It follows [KI-TOOL-RIG-CORE-053](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-053-macos-menu-bar-declarations.md), and **observing across restarts needs Kris at the screen**.
 
-**Held, unchanged, each reviewed on 2026-11-16:** [KI-TOOL-RIG-CORE-048](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-048-signed-release-install-kind.md), [KI-TOOL-RIG-DIST-011](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-DIST-011-stale-terra-rig-link.md) and [KI-TOOL-RIG-CLI-026](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CLI-026-per-tool-development-mode-switch.md).
+**Held, unchanged, each reviewed on 2026-11-16:** [KI-TOOL-RIG-CORE-048](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-048-signed-release-install-kind.md), [KI-TOOL-RIG-DIST-011 (pruned)](https://github.com/knowledgeislands/tools-rig/blob/74140e53/docs/roadmap/KI-TOOL-RIG-DIST-011-stale-terra-rig-link.md) and [KI-TOOL-RIG-CLI-026 (pruned)](https://github.com/knowledgeislands/tools-rig/blob/74140e53/docs/roadmap/KI-TOOL-RIG-CLI-026-per-tool-development-mode-switch.md).
 
 ### RIG-ORDER - where the refreshed burndown starts
 

@@ -18,8 +18,8 @@ mark: 2026-10-15T14:59:23Z
 ## Next steps
 
 1. Take Kris's answer to CLI006-PLAN.
-2. [KI-TOOL-RIG-DIST-011](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-DIST-011-stale-terra-rig-link.md) stays with ki.mac-studio-setup's CANCEL-MERGE review.
-3. Take stock of [KI-TOOL-TECHNE-CLI-009](/Users/krisbrown/workspaces/knowledge-islands/tools-techne/docs/roadmap/KI-TOOL-TECHNE-CLI-009-tailscale-oauth-binding-field.md) when the burn-down reaches it.
+2. [KI-TOOL-RIG-DIST-011 (pruned)](https://github.com/knowledgeislands/tools-rig/blob/74140e53/docs/roadmap/KI-TOOL-RIG-DIST-011-stale-terra-rig-link.md) stays with ki.mac-studio-setup's CANCEL-MERGE review.
+3. Take stock of [KI-TOOL-TECHNE-CLI-009 (pruned)](https://github.com/knowledgeislands/tools-techne/blob/78f88656/docs/roadmap/KI-TOOL-TECHNE-CLI-009-tailscale-oauth-binding-field.md) when the burn-down reaches it.
 
 ## Held
 
