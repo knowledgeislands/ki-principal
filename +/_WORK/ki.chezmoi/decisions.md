@@ -167,3 +167,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 145 (2026-10-19T23:50:00Z)
 
 - Pointer: RIG-DRIFT a), taken under OVERNIGHT with confidence high after blind review: no overnight remediation of Sol's four `rig doctor` findings. When Kris is back: review and apply the TOML handler (Warp where Zed is declared); re-apply the firewall anchor's narrowed tailnet ranges (KI-TOOL-RIG-CORE-047's range correction) as a separate attended run with its tested restore path, minding KI-TOOL-RIG-CORE-068; review UTM's source by hand, as it has no App Store receipt ([cpin](/Users/krisbrown/.local/state/ki/agents/chezmoi/cpin.report.md), [rigdrift-blind](/Users/krisbrown/.local/state/ki/agents/chezmoi/rigdrift-blind.report.md)).
+
+## Decision 146 (2026-10-20T00:00:00Z)
+
+- Pointer: ENUM-FLAG a), taken under OVERNIGHT with confidence high: KB-DOTFILES-UE-090's gap-5 fallback enumerates with `chezmoi managed --path-style=all --format=json` and reads each entry's `absolute` field, because `--path-style=absolute` ignores `--format=json` on chezmoi 2.73.2 ([ue090-r2](/Users/krisbrown/.local/state/ki/agents/chezmoi/ue090-r2.report.md)). Round 2 goes to review run r2-review.
