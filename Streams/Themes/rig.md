@@ -3,7 +3,7 @@ note_type: streams/theme
 slug: rig
 title: Rig
 direction: Rig every host for its role, and keep the workstations every agent and person runs on accurate, tidy and observable.
-updated: 2026-10-19T23:16:23Z
+updated: 2026-10-20T04:36:35Z
 author: Written with Claude
 ---
 
@@ -23,6 +23,8 @@ Three roles are recognised. A **workstation** has a person at the keyboard (`ter
 
 - **Projectless upkeep.** Workstation hygiene keeps the host accurate, tidy and observable and is never finished. Its records live in the chezmoi roadmap, not in a `knowledgeislands` repository, and name this theme directly. chezmoi's recurring housekeeping templates run the routine checks.
 - **Idea: same-boot mcporter stall.** If the same-boot stall returns - both mcporter launchd jobs running but the bridge's `tools/list` failing - diagnose it with a bounded, sanitised live trace of the bridge, without a restart, before any whole-pair restart. Kept as an idea on 2026-10-11 in place of a cancelled chezmoi work record, because the stall has not recurred; Kris approved on 2026-10-11, as logged in the chezmoi run, cancelling and pruning the three chezmoi records as ideas under the Rig theme, agent-host and secrets-hygiene.
+- **Idea: per-tool development mode switch.** `rig dev local <tool>` and `rig dev release <tool>`, with `all`, would switch a KI command-line tool between its checkout and its installed release and warn when tools that call each other are left in mixed modes. Kept as an idea on 2026-10-20 when Kris cancelled its Rig work record ("There's already enough command surface"); each tool's own `install.sh --link` and release install stay the way to switch.
+- **Idea: GitHub Desktop repository list.** A Rig step could add every mgit territory checkout to GitHub Desktop, only adding, waiting between opens and changing nothing on a second run, so a new machine's list matches its workspaces. Kept as an idea on 2026-10-20 when Kris cancelled its Rig work record as won't do: the one-off reset on `sol` was done by hand and the step would run rarely.
 - **Handed on from the Mac Studio setup.** None of these blocks it. Rig itself carries opt-in removal of unwanted software; Dock items filtered by profile, so `sol` can have a Dock; and reporting apps that update themselves or were installed from another source, with Warp, OneDrive and DaisyDisk on `sol` as examples. chezmoi carries the decisions on software found on the machines but not declared: act on the add and remove items first, then revisit the ones marked "leave".
 - **Later, from the same setup:** NordVPN, the six untrusted Homebrew taps, the Command Line Tools update, and whether to swap the Tailscale GUI app for `tailscaled`. None has a record yet.
 - **MAC-CLOUD, 2026-10-17.** Captured from Kris's intake, long term, no design: "can we build a Mac on AWS EC2? ... a service that offers a Mac mini in the cloud and I can ... install myself onto it and then more and more so I become a dumb terminal towards that ... that's more long term, and that's definitely rig-focused for the future". The Techne Agent host Project and the Techne Programme Focus boundary are to be settled before any work.
