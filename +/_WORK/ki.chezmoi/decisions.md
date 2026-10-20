@@ -325,6 +325,6 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 
 - Pointer: Kris (21:55 BST): "can you clean out the vscode workspaces and recreate them using `ki` and commit and apply". Read back as: in the chezmoi source, remove every `workspaces/vscode/` workspace, recreate them with `ki vscode sync --write`, gate and commit, then apply only the workspace targets and those `trusted-folders.yaml` drives, leaving the targets under the open APPLY query alone (run vscode-reset).
 
-## Decision 185 (2026-10-20T21:02:00Z)
+## Decision 185 (2026-10-20T22:12:00Z)
 
-- Pointer: Kris (22:02 BST): "fix any drift". Read back as APPLY a), extended to all chezmoi drift on sol: apply the committed-but-unapplied targets (the two MCP configs, `~/bin/chezmoi/json`, `~/bin/rig-bringup-check`, Rig fragments 10, 15, 16 and 40), bring any intended in-place edit back into source, stop on any script or unclear case, with `rig doctor` before and after (run drift-apply).
+- Pointer: Kris (23:12 BST): "fix any drift". Read back as APPLY a), extended to all chezmoi drift on sol: apply the committed-but-unapplied targets (the two MCP configs, `~/bin/chezmoi/json`, `~/bin/rig-bringup-check`, Rig fragments 10, 15, 16 and 40), bring any intended in-place edit back into source, stop on any script or unclear case, with `rig doctor` before and after (run drift-apply).
