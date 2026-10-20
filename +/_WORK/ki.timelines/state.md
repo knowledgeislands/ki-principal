@@ -13,7 +13,7 @@ method_read: 84b61942
 
 - Marked and sent to Kris at 00:43 BST on 20 October; the design is decided under OVERNIGHT-AUTONOMY and Kris may reverse any of it.
 - The [decided design](design/timelines-skill-design.md) names `ki-calendars` and carries a seven-step rollout plan and the KI-HARNESS-GOV-222 handoff, routed through State of play (HANDOFF-GOV-222).
-- Nothing is running and no query is open; the overnight check reads `messages.md` every 10 minutes.
+- Kris back at 01:49 BST on 20 October; OVERNIGHT-AUTONOMY ended. Open: OVERNIGHT-CONFIRM and CAPTURE-ADOPTION; 10-minute updates.
 
 ## Next steps
 
