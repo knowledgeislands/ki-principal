@@ -34,7 +34,7 @@ This Project sits in [Foundations](../Themes/foundations.md). Kris revived it on
 
 ### Inventory
 
-This note names no work records: each record carries its own Project, and in-scope membership is by the Scope above rather than by that field. The live inventory is read from each repository's roadmap; the 16 October 2026 snapshot is the thread's [inventory report](../../+/_WORK/ki.tools-burndown/inventory.report.md).
+This note names no work records: each record carries its own Project, and in-scope membership is by the Scope above rather than by that field. The live inventory is read from each repository's roadmap; the 16 October 2026 snapshot is the thread's [inventory report](https://github.com/knowledgeislands/ki-principal/blob/f9292c87bccf4e22aaaeb48ed3a8b7d7478d42b3/+/_WORK/ki.tools-burndown/inventory.report.md).
 
 `tools-mgit` and `tools-git-almanac` held no open records on 16 October 2026, and `tools-mgit` has no change since `v0.17.0`. The open `ki-agentic-harness` records are left out because they change skills and standards or acquisition, not the `ki` CLI, its commands, release or packaging, and the CLI mechanics two of them need are already `tools-ki` records.
 

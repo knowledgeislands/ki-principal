@@ -23,7 +23,7 @@ This Project sits in [Model](../Themes/model.md).
 
 ## Goals
 
-From Kris's words of 17 October 2026 (OBSERVATORY-CENTRE, OBSERVATORY-ATC and KB-READER), as the [observatory-goals report](<../../+/_WORK/ki/observatory-goals.report.md>) gathered them:
+From Kris's words of 17 October 2026 (OBSERVATORY-CENTRE, OBSERVATORY-ATC and KB-READER), as the [observatory-goals report](https://github.com/knowledgeislands/ki-principal/blob/c8615c7de7f9d3bad4bf1c0518024658299ea9f3/+/_WORK/ki/observatory-goals.report.md) gathered them:
 
 1. **An operations centre for one or more territories.** "this is becoming this operational centre for one or more territories ... I need to get that up and running pretty quickly."
 2. **Deployed per Rig, at a uniform address, a browser tab for now.** "something which is deployed on a given rig. It's got a uniform address that it's available at ... for now ... I'm happy for it to be a tab in a browser"; a richer app only "in the future if we need to be able to access things on a machine that we can't do through that".
