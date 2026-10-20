@@ -70,6 +70,22 @@ From finish-first (`design/finish-first.md`), medium; reviewed, agrees with cond
 
 From ki.chezmoi's wt-survey (02:18Z): `stash@{1}` (17 October, Rig Decision 80, reached main in `a3156df3`) and `stash@{0}` (19 October, overtaken `state.md` line) look safe to drop. Deletion, so blind review stash-review first.
 
+### MATURITY-DECLINE - How the island-maturity record reads "decline"
+
+From harness-moves, medium; in blind review md-review. a) decline is open warnings and no failures, no age; b) 30-day tolerance with audit history in tools-ki.
+
+### GFM-HOSTING-RULES - Keep or remove the three `main` rulesets
+
+Answered by harness-moves: classic protection off everywhere; rulesets on ki-agentic-harness, homebrew-tap and apps-knowledgeislands.info, each letting admins bypass, so Kris can already push to `main` locally. a) leave as is, high; b) remove the harness ruleset.
+
+### MARK-HABIT - How marks get struck
+
+With Kris: a) strike a mark at every send and every owner answer turn; Kris says "mark" only for a clean line.
+
+### SINGLE-FIGURES - What single figures counts
+
+With Kris: a) each Knowledge Islands repository under ten (sweep reaches it); b) the territory as a whole.
+
 ## Parked
 
 None.

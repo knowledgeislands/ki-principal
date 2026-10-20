@@ -601,3 +601,11 @@ Taken: wt-survey says both ki-principal stashes are spent and safe to drop. Drop
 ## 2026-10-20 03:46 BST - received roadmap-sweep and harness-moves (report to read)
 
 roadmap-sweep: 97 open Knowledge Islands records; if every batch is taken, 54 remain and every repository reaches single figures (four land on nine). `design/roadmap-sweep.md` (`e729b6d0`): acceptance bundles per work, merge (13), convert (6) and cancel (6) batches. Merge, convert and cancel go to blind review sweep-review (queued); medium acceptance bundles reviewed with them.
+
+## 2026-10-20 03:50 BST - received harness-moves
+
+HARNESS-TRIAGE applied (`50c9cced`): GOV-196 and GOV-226 Now; GOV-189, GOV-225, GOV-227 Next; GOV-204 held to 24 October; GOV-222 in triage with `project: timelines`, line sent to ki.timelines (`20e696d2`). GOV-202 explained. PLANNED-READY (`d45a6179`): GOV-200, -205, -214, -215, -220, -221 Ready; GOV-223 waits on MATURITY-DECLINE (medium, to blind review md-review). GFM-HOSTING-RULES read-only: rulesets on harness, homebrew-tap and apps-knowledgeislands.info, admin bypass always. Tests pass; pushed.
+
+## 2026-10-20 03:51 BST - KI-BROKEN cleared itself
+
+`ki` starts again at 03:50 BST (the tools-ki session moved on); the 03:50 commit retried and md-review queued. KI-BROKEN withdrawn.
