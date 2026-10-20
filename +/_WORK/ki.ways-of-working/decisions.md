@@ -523,3 +523,13 @@ green-main: hook tests were stale against the committed `.githooks/` hooks; fixe
 Kris: "yes, less piling up on me makes sense". Read back taken: OWNER-QUEUE a) with checks as asked back: the `ki-coordination` audit counts each work's records awaiting acceptance and open queries and warns over about eight, and the banner shows the count; acceptance fixes and backlog-clearing work stay allowed over the cap. Goes into wow-standards.
 
 checkout-iso (`1d0a523e`, `design/checkout-isolation.md`): 12 collisions mapped (index.lock 6, shared index 4, live-tree audits 3); worktrees measured cheap (under 0.25 s, 2 s hooks) but need `ki` support (registry, skill links, node_modules, `--repo`); a per-session index silently reverted committed changes twice and is unsafe; pathspec commits plus a landed check work. Recommends a staged mix at medium; worktrees for coordinators would reverse MAIN-NOT-WORKTREES (18 October). Medium, so to ci-review (Codex, masked) before Kris.
+
+## 2026-10-20 02:38 BST - owner direction, ADOPTION, FINISH-FIRST and the triage sweep
+
+Kris: "After we factored these ways to work, then back into making sure that all the threads now make use of them. Also, you've kept up to date with the way of working with the items and the summaries at the end. However, some others haven't." / "Also another thing for me is how do we make it so that we get work finished before we start creating more work in the roadmap items? You know we need to see roadmaps going down, not going up like they are." / "For example, there's over a hundred webmoth items. What I'd want right now is to make sure that as many of those things have been triaged so that we can collectively consider them, get them batched up and make it happen."
+
+Read back taken:
+
+- ADOPTION: after wow-standards lands, every thread re-anchors on the new standard (a paste line from Kris, since messages reach idle sessions only at owner messages), and a conformance run checks each work's reports and package against the report and banner shapes, naming any that lag.
+- FINISH-FIRST: a burn-down rule set, designed and reviewed before it reaches Kris: roadmap counts per repository tracked at each mark and shown by State of play, no new records beyond CAPTURE-GATE's exceptions, a work adopts new Now work only while its Now and awaiting-review counts are under a cap (with OWNER-QUEUE), and done records pruned promptly.
+- "webmoth items": not identified; no repository holds over a hundred records (largest: personal-principal 38, legal-principal 31, ki-agentic-harness 26). Asked back in one line before the triage sweep launches.

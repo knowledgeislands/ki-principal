@@ -12,6 +12,7 @@ method_read: eff6163b
 
 ## Now
 
+- ADOPTION, FINISH-FIRST and a triage sweep from Kris at 02:38 BST; "webmoth" asked back; FINISH-FIRST design follows ci-review; ADOPTION follows wow-standards.
 - Kris answered the take-stock queries at 02:25 BST: six a); OWNER-QUEUE checks asked back; CHECKOUT-ISOLATION investigated by checkout-iso. green-main repairs the harness hook tests and integrates lane-triage and checker-gaps; then wow-standards writes BLIND-REVIEW, CLAIM-CHECK, CLASS-FIX, GREEN-MAIN, OOS-WAKE and SMALL-FIXES into the standards, sends REFRESH and replies to Acquire intake. LAUNCH-DEFAULTS, OOS-WAKE watcher and the review scaffold handed to ki.tools-burndown.
 - Kris at 02:10 BST: all threads have written their retros; take-stock and ts-review received; eight take-stock queries with Kris (CHECKOUT-ISOLATION shows both views). Other parked work stays parked.
 - TAKE-STOCK from Kris at 02:01 BST: all works pause and write `design/retro-2026-10-20.md`; this work on hold with its queued launches unstarted; on resume, collect the retros.
