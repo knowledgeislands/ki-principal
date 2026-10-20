@@ -682,3 +682,7 @@ Both roadmaps already at zero; nothing to do. Briefs removed.
 - burn-website: KI-WEBSITE-SITE-044 handled; not pushed, as other sessions' commits `b2626fb` and `502c29d` are stacked. accept-website queued.
 - MCPs: acquire-whatsapp, git-audit, housekeeping-claude, ki-kb-fs and ki-kb-notion-mirror already at zero; mcp-gsuite's KI-MCP-GSUITE-TOOL-008 and -009 are hold drafts, left; mcp-m365's nine KI-MCP-M365-TOOL-011 to -019 stay on Kris's EMAIL-OWNER hold. Another session's mcp-gsuite commit left unpushed.
 - Briefs removed.
+
+## 2026-10-20 06:23 BST - received harness-standards
+
+WORKTREE-INTEGRATE, WORKTREE-START and WORKTREE-AUDIT applied in `ki-git` and `ki-delegation` (harness `3f327991`), BANNER-GLYPHS and the worktree sweep in `ki-coordination` (`da8e2a49`), MATURITY-DECLINE settled in KI-HARNESS-GOV-223 (`e68d3368`); WORKTREE-FIXES (F2, F3, F5, F6) sent to ki.tools-burndown and WORKTREE-VISIBLE to ki.observatory (ki-principal `97630d12`). Harness not pushed: another session's hooks commits `10897281` and `cea02aa5` are stacked. F6's harness half (the `ki-git` GREEN-MAIN sentence) is this work's, folded into a later harness run. All 05:20 answers now applied or in flight; answered queries cleared from `queries.md`.
