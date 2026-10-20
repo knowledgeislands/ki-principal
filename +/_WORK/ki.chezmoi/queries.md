@@ -6,7 +6,7 @@
 - ACCEPT-BATCH (accept-prep, high): accept KB-DOTFILES-UE-077 and KB-DOTFILES-UE-093; with Kris 05:08.
 - CLEAR-BATCH (accept-prep, high): merge UE-087 into UE-101, UE-097 to Hold, five sizes; with Kris 05:08.
 - TIDY: not yet answered.
-- SPARK-REMOVE (spark-history, high, deletion): in blind review (run spark-blind) before Kris.
+- SPARK-REMOVE (spark-history high; spark-blind medium, retire, missing option: deselect and defer uninstall): with Kris 05:10.
 - RAT-UNCONFIRMED, RAT-READING, SPARK-TOOL: superseded by Decisions 179 and 181.
 
 ## Held

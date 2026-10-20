@@ -4,7 +4,7 @@ state: with-worker
 since: 2026-10-20T03:36:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
-mark: 2026-10-20T03:40:00Z
+mark: 2026-10-20T04:09:00Z
 method_read: 071567a1
 ---
 
@@ -12,6 +12,7 @@ method_read: 071567a1
 
 ## Now
 
+- 05:09 BST mark: drift-fix classified sol's drift (four committed-but-unapplied targets, two rig-purpose `conf.d` targets; nothing to re-add); APPLY with Kris. spark-history confirmed the Shadowlab/Spark Desktop conflation (commit ab02e9b); spark-blind reviewed SPARK-REMOVE at medium; with Kris. accept-prep: ACCEPT-BATCH (UE-077, UE-093) and CLEAR-BATCH with Kris; UE-098, UE-090, UE-100 need attended steps. Running: roll-standards, rig-purpose, purpose-render.
 - KB-DOTFILES-UE-090 is Ready at Next (chezmoi `e939158`); gap 1 is split out as KB-DOTFILES-UE-101, held on KB-DOTFILES-UE-087 (`a326e3d`, `e939158`, unpushed). KB-DOTFILES-UE-098 is Awaiting review (chezmoi `85e36b8`, apply attended); TRIAGE-LANE a) delivered (chezmoi `3244bd6`): UE-099 kept at triage; UE-100's diagnostic stage Ready, not run. census-2 delivered (chezmoi `e47b33d`, unpushed): KB-DOTFILES-UE-096 released to Soon, blocked by KI-TOOL-KI-CLI-145; KB-DOTFILES-UE-035 stays on Hold, Terra-only by declaration, needing an attended read of Terra's log; KB-DOTFILES-UE-027's ten rationale queries are blind-reviewed (run ue027-blind) and with Kris: seven agreed, three disagree (DisplayLink, Outlook, Spark). bringup-fold folded the review safeguards into KB-DOTFILES-UE-090 and handed gap 9 to KB-DOTFILES-UE-076 (chezmoi `45488d1`, unpushed).
 - Sol's SSH key delivery and firewall are applied and verified; the evidence is in KI-TOOL-RIG-CORE-047 (tools-rig `2ab9354`, unpushed).
 - KI-TOOL-RIG-CORE-047 stays awaiting-review: the NordVPN on/off checks and Terra's `rig apply --sudo` are outstanding (Decision 131). The NordVPN bypass follow-up is KI-TOOL-RIG-CORE-068, detection only.
