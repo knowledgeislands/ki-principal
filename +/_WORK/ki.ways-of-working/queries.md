@@ -186,13 +186,11 @@ b) Implement the CLEAN checks natively in tools-ki, and plan KI-TOOL-KI-CLI-149 
 
 **Options:**
 
-a) (recommended, confidence low - it matches who receives deliveries, but it brings eight audit failures until each principal is conformed) Give the scaffold to `ki-repo-kb-principal`, require it while the overlay is declared and add conform support; put the receiver triage guidance in `ki-repo-kb`.
+a) (recommended, confidence medium - reviewed: principal-only delivery matches the overlay, and the repository rule requires declared specialist areas to retain an exact scaffold restored by their owner) Give the scaffold to `ki-repo-kb-principal`, require it while the overlay is declared and add conform support; put the receiver triage guidance in `ki-repo-kb`.
 
 b) Check the scaffold only once `+/_ACQUIRED/` exists, which means amending the `ki-repo` rule on specialist subareas.
 
 c) Give the scaffold to `ki-repo-kb` for every knowledge base.
-
-Needs blind review.
 
 ### GOV225-CLOSE - Close the hook content-claims record
 
@@ -202,11 +200,9 @@ Needs blind review.
 
 **Options:**
 
-a) (recommended, confidence medium - every harness-side step is done and composition was always out of scope, but the record has had no independent review) Move it to awaiting review, then accept it after an independent review.
+a) (recommended, confidence high - reviewed: canonical hook data, exact comparison and generated shape assets are present; repository composition is a separate delivery, and acceptance still needs its own review) Move it to awaiting review, then accept it after an independent review.
 
 b) Keep it open until KI-TOOL-KI-CLI-165 lands in tools-ki.
-
-Needs blind review.
 
 ### GOV189-SCOPE - Narrow the thread-move record to its decided slice
 
@@ -216,11 +212,9 @@ Needs blind review.
 
 **Options:**
 
-a) (recommended, confidence low - the decided slice could be delivered now, but narrowing changes the record's scope) Narrow it to the level check and the `[behind]` item, and keep the two open questions in its Discussion for a later record.
+a) (recommended, confidence medium - reviewed: SYNC-GUARD already settles the level check and banner item; host-bound queue handling and the old session's closing form remain explicit open questions) Narrow it to the level check and the `[behind]` item, and keep the two open questions in its Discussion for a later record.
 
 b) Kris answers both questions now, so that the whole record can be planned.
-
-Needs blind review.
 
 ### GOV202-ADOPT - Adopt the skill-area stats badge
 
@@ -230,11 +224,11 @@ Needs blind review.
 
 **Options:**
 
-a) (recommended, confidence low - it is small, but its value has not been judged) Adopt it to Next for a later burndown.
+a) (recommended, confidence low - it is small, but its value has not been judged; blind review disagrees and prefers c), because adoption should follow a value comparison and a feasible implementation route) Adopt it to Next for a later burndown.
 
 b) Cancel it.
 
-Needs blind review.
+c) Blind review: retain it in triage until a short comparison establishes its value against other work and a feasible route within the record's boundary. Reason: capture approved the idea without adopting it, no size or effort estimate supports the smallness claim, and the generator-versus-viewer question is unresolved.
 
 ### GOV227-SCHEMA - Design the repository storage schema
 
@@ -244,11 +238,9 @@ Needs blind review.
 
 **Options:**
 
-a) (recommended, confidence medium - the record names Kris as co-designer, and it blocks one Observatory phase) Hold a short design session in its own work.
+a) (recommended, confidence high - reviewed: the schema still needs explicit recoverability and shared-namespace ownership, the record requires owner co-design, and one Observatory phase depends on it) Hold a short design session in its own work.
 
 b) Defer the record to Future.
-
-Needs blind review.
 
 ### OPS009-SPLIT - Split the AI session acquisition record
 
@@ -258,11 +250,9 @@ Needs blind review.
 
 **Options:**
 
-a) (recommended, confidence medium - the record is too large to deliver as one, and it already expects a split) Split it in a run that is allowed to capture records, with each sibling repository capturing its own part.
+a) (recommended, confidence high - reviewed: the record anticipates a planning split across acquisition, receiver triage and source retirement; sibling delivery remains receiver-owned) Split it in a run that is allowed to capture records, with each sibling repository capturing its own part.
 
 b) Leave it whole at Next.
-
-Needs blind review.
 
 ## Parked
 
