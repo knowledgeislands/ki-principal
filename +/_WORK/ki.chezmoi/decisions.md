@@ -341,3 +341,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 190 (2026-10-20T23:12:00Z)
 
 - Pointer: Kris (00:12 BST): the request to clear the `tools-*`, `mcp-*` and `apps-*` roadmaps overnight "was in the wrong window!!! ... stop please on the above". Withdrawn: run overnight-survey stopped, OVERNIGHT-STOP, OVERNIGHT-PUSH and OVERNIGHT-PUBLISH withdrawn; nothing was written by the survey.
+
+## Decision 191 (2026-10-20T23:29:00Z)
+
+- Pointer: Kris (00:29 BST): "SPARK-ATTENDED - a) I stopped the agent, now over to you?" Kris stopped Shadowlab Spark's login helper on sol; run spark-finish verifies it stopped, then completes the removal authorised under SPARK-REMOVE a).
