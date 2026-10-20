@@ -10,6 +10,7 @@ method_read: 84b61942
 
 # ki.observatory state
 
+- 01:46 BST received obs-vis022-plan: KI-OBSERVA-VIS-022 Ready (3b3c785, local); schedules come from Rig 0.7.0 JSON under RIG-STATE-033, 2-hour grace, 26-hour fallback. RIG-SCHEDULE (given as medium-high, taken as medium): blind review obs-review-7; the build waits on it. Side finding: machine.ts RIG_UNAVAILABLE text says Rig has no JSON; to fold into the build.
 - 01:42 BST received obs-next-sweep: of 22 records only KI-OBSERVA-VIS-022 (plan to Ready, high) and KI-OBSERVA-OPS-003 can move. OPS-003 left untouched: Kris called it "not a now thing", so no overnight work on it. obs-vis022-plan launched. obs-build-brg005.status has no DONE line (dropped under OBS-CLAIM-FOUR); left as is.
 - 01:39 BST received obs-review-6: MERMAID-HANDLER stays medium, review prefers b) a triage record to harden label sanitising (no policy bypass found); both views to Kris. Nothing running, so under OVERNIGHT obs-next-sweep looks for the next high-confidence work.
 - 01:37 BST received obs-build-app046: KI-OBSERVA-APP-046 built and Awaiting review (7ccad45, bb6ab2b, 0d58592, local); smoke check passes twice with full Chromium; KI-OBSERVA-VIS-041 Verify now met. MERMAID-HANDLER medium: blind review obs-review-6.

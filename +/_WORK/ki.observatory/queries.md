@@ -18,6 +18,10 @@ From obs-vis041-build at 01:15 BST, medium: it now overlaps the new unpushed and
 
 From obs-build-app046 at 01:35 BST, medium: recommended accept as is, as a review note. obs-review-6 (Codex, high) disagreed: b) capture a triage record to harden label sanitising, investigating the intermediate rendering path, keeping the policy; it found no bypass. Stays medium, both views to Kris.
 
+### RIG-SCHEDULE - ask tools-rig to specify the schedule format for KI-OBSERVA-VIS-022
+
+From obs-vis022-plan at 01:44 BST, medium: recommended build as planned and send tools-rig a handoff. In blind review (obs-review-7).
+
 ## Parked
 
 None.
