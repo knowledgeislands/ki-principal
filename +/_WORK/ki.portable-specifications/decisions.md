@@ -63,3 +63,13 @@ Read back taken: OVERNIGHT-AUTONOMY - until Kris returns, check every 10 minutes
 Query (revise-3): should the drafts keep `metadata.acquired-with` and `metadata.produces` removed, rather than keep a one-way citation field? Recommended a), confidence medium; query-review-5 (Codex, blind) recommended a), confidence high: "the existing provenance contract is sufficient; a second citation index adds synchronisation and validation obligations without a demonstrated consumer", noting a profile can establish such a need before the core standardises it.
 
 Taken: LINK-FIELDS a), reviewed, confidence high - both link fields stay removed and the knowledge package's provenance contract is its required Sources section. The drafts say neither spec defines or requires a metadata field linking it to the other, rather than forbidding one, so profile keys stay open. Authorises revise-4 with draft-review-2's findings.
+
+## 2026-10-20 01:13 BST - decided under OVERNIGHT-AUTONOMY, CATALOGUE-WRITE, HOMING-REVIEW
+
+Queries (home-plan), each recommended a), confidence medium; query-review-6 (Codex, blind) recommended a) for both, confidence high, with corrections kept in [query-review-6.report.md](query-review-6.report.md).
+
+Taken:
+
+- CATALOGUE-WRITE a), reviewed, confidence high - the 6c brief allows exactly one write-mode `ki repo conform --skill ki-repo-harness` in ki-agentic-harness, every other conform staying dry-run: audit first, dry-run, check the complete proposed path set and diff, stop on any unbriefed write, re-audit after generation and after the separate SVG export. Package manifests, lockfiles and hook directories stay outside its authority. HOOK-GUARD is recorded as superseded by HOOKS-MIGRATION in ki.tools-burndown and ki.mac-studio-setup; this is a scoped exception, not a lifting of other briefs' bans.
+- HOMING-REVIEW a), reviewed, confidence high - one run deduplicates and captures three harness triage records under ki-next, one each for 6a, 6b and 6c, re-reading and advancing the ledger; capture authorises no delivery. After SPEC-TEXT, each record is adopted, planned to Ready and delivered to Awaiting review with its review packet; one blind Codex review per candidate, plus the harness's tests, type-check and focused audits, replaces the plan's Steward gate for this coordinator route; Kris accepts under ki-accept. Parallel homing runs use separate worktrees and serialise integration; 6a keeps the ENTRY-NAMES prerequisite.
+- Authorises now: home-amend, amending `design/home-plan.md` to these corrections, and home-records, capturing the three triage records in ki-agentic-harness, committed by explicit path and not pushed.
