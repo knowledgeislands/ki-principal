@@ -731,3 +731,7 @@ accept3-tools-ki was queued from an empty brief (coordinator's error: a failed `
 ## 2026-10-20 07:14 BST - received harness-batch
 
 KI-HARNESS-GOV-196 merged into KI-HARNESS-GOV-200; all seven KI-HARNESS-BATCH-025 records at awaiting review (GOV-220 `31fe7df1`, GOV-215 `7b9ec10c`, GOV-200 `5f921df4`, GOV-221 `a3cd97aa`, GOV-214 `8835a9c7`, GOV-223 `c06c5d1f` to `791c4ed6`, GOV-205 `5abbe1ac`, `4301c307`), none pushed behind another session's hooks commits. Its ACCEPT query answered by the coordinator under the overnight grant: an independent Codex review (b's independence, a's scope), accept-harness-batch queued; pruning waits for the push. KI-TOOL-KI-CLI-159 is now workable on GOV-223. FOLDER-1 now fails ki-principal's audit until five work folders tidy; FOLDER-CLOSED here is in hand.
+
+## 2026-10-20 07:19 BST - received accept4-tools-ki
+
+KI-TOOL-KI-CLI-165 accepted (tools-ki `fde00e97`, pushed; tools-ki now level with its remote). KI-TOOL-KI-CLI-134 passes but stays awaiting review for FOOTER-PROVISIONALS. KI-TOOL-KI-CLI-152, -165 and -167 now prunable: prune-links2 queued after accept-harness-batch, as it edits harness links. Line removed.
