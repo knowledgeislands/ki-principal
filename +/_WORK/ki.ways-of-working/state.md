@@ -1,10 +1,12 @@
 ---
 id: ki.ways-of-working
-state: with-worker
-since: 2026-10-19T23:23:00Z
+state: on-hold
+reason: take stock on ways of working across all works
+release: Kris says resume
+since: 2026-10-20T01:01:00Z
 received: 2026-10-19T16:57:00Z
 beat: null
-mark: 2026-10-19T22:40:00Z
+mark: 2026-10-20T01:01:00Z
 method_read: eff6163b
 ---
 
@@ -12,6 +14,7 @@ method_read: eff6163b
 
 ## Now
 
+- TAKE-STOCK from Kris at 02:01 BST: all works pause and write `design/retro-2026-10-20.md`; this work on hold with its queued launches unstarted; on resume, collect the retros.
 - Received lane-triage and checker-gaps at 01:57 BST. Next: integrate harness branch `lane-triage`; blind review of HARNESS-TRIAGE, PRINCIPAL-TRIAGE and GFM-HOSTING-RULES; checker-gaps resumes once ki.tools-burndown repairs the four hook tests; then the Now delivery order (GOV-220, GOV-221, GOV-200, GOV-214, GOV-223, GOV-205; MOD-009 and RGV-004 in parallel), GOV-222 shaping, ENTRY-NAMES, HOMELESS-STANDING.
 - WOW-RESUME a) (Kris, 20 October) served by lane-triage; wow-triage (State of play, 00:31 BST) wrote NO-GATE and GFM-HOSTING-RULES into `queries.md`, both medium; GFM-HOSTING-RULES goes to blind review before Kris, NO-GATE already reviewed.
 - OVERNIGHT-AUTONOMY from Kris at 00:27 BST: check for new work every 10 minutes (5 while runs are out); deliver high-confidence recommendations; revisit medium and low later; morning Summary for what needs Kris.

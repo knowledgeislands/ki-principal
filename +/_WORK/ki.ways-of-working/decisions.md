@@ -477,3 +477,9 @@ lane-triage (00:55 BST): eight harness records adopted into Now; KI-HARNESS-GOV-
 Correction: the overnight check loop stopped when this session's process ended after 00:27 BST; nothing was checked or launched between 00:55 and 01:57 BST.
 
 Messages: UE096-BLOCKER (ki.chezmoi) - agreed and done, no action. HANDOFF-GOV-222 (ki.timelines via ki) - taken; KI-HARNESS-GOV-222 shaping text applied with the next harness delivery run, SKILL-NAME stays with Kris.
+
+## 2026-10-20 02:01 BST - owner direction, TAKE-STOCK
+
+Kris: "Okay, I think what we're going to do is we're going to ask all the projects to stop for a bit and let's just take stock on what's working well and what's not working well so we can improve our ways of working. What can I pierce into each of them to stop them from doing any more work for now?"
+
+Read back taken: give Kris one paste line that puts each work on hold and has it write `design/retro-2026-10-20.md` in its own work folder. This work holds too: the queued launches (lane-triage merge, blind reviews, Now delivery chain) are not started; NO-GATE parked. Collecting the retros into a ways-of-working change is this work's, when Kris says go.
