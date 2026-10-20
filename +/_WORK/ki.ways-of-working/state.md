@@ -33,9 +33,10 @@ method_read: eff6163b
 8. Harness CI is green on origin/main (wow-ci-check, 22:15 BST); wow-ci-timeout caps the intermittent six-hour Test hang. CI now caps Test at 10 minutes and the job at 30 (81b8c8c7). CI-HANG-CAUSE: when Test next times out, read the log for the last test file started; suspects are 19 test-side synchronous child-process calls with no timeout. HARNESS-DEPS-1 (knip 6.40.0) goes in wow-harness-knip.
 9. With ki.chezmoi (RIG-LIVE): KB-DOTFILES-UE-091 without ChatGPT and the firewall declaration; Kris's attended Rig applies; acceptance of KI-TOOL-RIG-CORE-042 and -047.
 10. Not this work's: pre-existing CI red in apps-observatory.local, mcp-m365, tools-mgit and ki-techne-harness; acquire-intake's ACQUIRE-DECISIONS-LINKS.
-11. design/: thread-model notes deleted (22:15 BST); work-package.md goes in wow-workpackage-graduate; the three bring-up files go once BRING-UP-LEFTOVER replies arrive from ki.observatory and ki.tools-burndown; the rest stay live.
+11. design/: thread-model notes and work-package.md graduated (22:37 BST, owner words in decisions.md); the three bring-up files go once BRING-UP-LEFTOVER replies arrive from ki.observatory and ki.tools-burndown; the rest stay live.
 12. To State of play: the ki-principal MOD ledger sits at 9 though KI-PRINCIPAL-MOD-010 was issued.
 13. KI-HARNESS-GOV-219 accepted 22:18 BST (harness 17166cf2, unpushed; joins PRUNE-LINKS-REST). KI-HARNESS-GOV-224 failed review and went to ki.observatory as GOV-224-REWORK.
+14. Evening burndown: KI-PRINCIPAL-MOD-008 accepted (0be6b902), its eight philosophy queries in queries.md, blind-reviewed; KI-OBSERVA-BRG-006 passed review, awaiting Kris's look; KI-TOOL-RIG-CORE-056 delivered, in review.
 
 ## Held
 
