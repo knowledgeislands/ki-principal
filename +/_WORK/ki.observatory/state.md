@@ -10,6 +10,7 @@ method_read: 84b61942
 
 # ki.observatory state
 
+- 01:42 BST received obs-next-sweep: of 22 records only KI-OBSERVA-VIS-022 (plan to Ready, high) and KI-OBSERVA-OPS-003 can move. OPS-003 left untouched: Kris called it "not a now thing", so no overnight work on it. obs-vis022-plan launched. obs-build-brg005.status has no DONE line (dropped under OBS-CLAIM-FOUR); left as is.
 - 01:39 BST received obs-review-6: MERMAID-HANDLER stays medium, review prefers b) a triage record to harden label sanitising (no policy bypass found); both views to Kris. Nothing running, so under OVERNIGHT obs-next-sweep looks for the next high-confidence work.
 - 01:37 BST received obs-build-app046: KI-OBSERVA-APP-046 built and Awaiting review (7ccad45, bb6ab2b, 0d58592, local); smoke check passes twice with full Chromium; KI-OBSERVA-VIS-041 Verify now met. MERMAID-HANDLER medium: blind review obs-review-6.
 - 01:29 BST received obs-smoke-record: KI-OBSERVA-APP-046 captured (714e76a, 5209851, local); the failures are the check lagging the product (fixed fixture date vs staleness since 90b8b4f, four views missing reads, the feedback draft read since ffb5e50). Acted on as high and non-destructive: obs-build-app046 plans and builds the check fix.
