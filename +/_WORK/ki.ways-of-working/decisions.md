@@ -559,3 +559,7 @@ Open records across 50 repositories rose 198 to 330 in a week (+67%); 370 create
 ## 2026-10-20 02:58 BST - received ff-review
 
 Blind Codex review of the six finish-first queries: agrees ACCEPT-BUNDLE (high, reviewed, with conditions); disagrees on NET-DOWN, WIP-CAP, CAPTURE-ORIGIN, STALE-SWEEP (each medium) and HANDOFF-AS-MESSAGE (its own course, high). It also found the totals do not reconcile: 198 + 370 - 212 = 356, not 330, a 26-record gap to explain before the figures become a baseline. All six put to Kris with both views.
+
+## 2026-10-20 03:00 BST - received unpark-draft; unpark-review launched
+
+Four live unparked queries drafted in `design/unparked-queries.md` (`docs(work): ... draft unparked queries`): NO-GATE with PKGLESS-GATE folded in (hooks already installed in apps-dafacts.org, apps-kris.me.uk and acquire), GFM-HOSTING-RULES (key corrected to `[skills.ki-repo.checks]`), HARNESS-TRIAGE (eight records) and PRINCIPAL-TRIAGE (KI-PRINCIPAL-GOV-035 already pruned; KI-PRINCIPAL-OPS-014 now Now pilot). All four medium; NO-GATE redrafted, so all four go to blind review unpark-review.
