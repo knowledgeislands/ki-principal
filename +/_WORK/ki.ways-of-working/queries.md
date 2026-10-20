@@ -42,6 +42,30 @@ OPS-014 to Next, prune GOV-035; awaiting blind review. Unparked by Kris at 02:55
 
 keep the package-less pre-commit gates in homebrew-tap and ki-specifications and give each concrete shape an explicit content owner in the harness hooks contract; taken with NO-GATE on resume. Unparked by Kris at 02:55 BST; full query drafted by unpark-draft, then blind review unless already reviewed.
 
+### NET-DOWN - Weekly direction target, not a cap
+
+From finish-first (`design/finish-first.md`), medium; in blind review (ff-review).
+
+### WIP-CAP - Per-work cap and what it counts
+
+From finish-first (`design/finish-first.md`), medium; in blind review (ff-review).
+
+### CAPTURE-ORIGIN - Checkable capture gate with an origin field
+
+From finish-first (`design/finish-first.md`), medium; in blind review (ff-review).
+
+### HANDOFF-AS-MESSAGE - Handoffs and sweeps stop creating records everywhere
+
+From finish-first (`design/finish-first.md`), medium; in blind review (ff-review).
+
+### STALE-SWEEP - Re-decide drafts untouched for 30 days
+
+From finish-first (`design/finish-first.md`), medium; in blind review (ff-review).
+
+### ACCEPT-BUNDLE - One acceptance answer per work
+
+From finish-first (`design/finish-first.md`), medium; in blind review (ff-review).
+
 ## Parked
 
 None.

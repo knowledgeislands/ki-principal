@@ -551,3 +551,7 @@ Taken as: NO-GATE, GFM-HOSTING-RULES, HARNESS-TRIAGE, PRINCIPAL-TRIAGE and PKGLE
 ## 2026-10-20 02:53 BST - received cg-review
 
 Blind Codex review: agrees WORKTREE-AUDIT a) and HOOK-4-CLASS a), each with a condition, lifted to high, reviewed; disagrees on PLANNED-READY (high for b): planned answers are not approved decisions, so Ready only KI-HARNESS-GOV-215 and KI-HARNESS-GOV-220). All three put to Kris.
+
+## 2026-10-20 02:56 BST - received finish-first
+
+Open records across 50 repositories rose 198 to 330 in a week (+67%); 370 created, 212 closed; handoffs and sweeps the largest source (102). Design note `design/finish-first.md` (`aca2c01b`), rules R1-R8 and six medium queries (NET-DOWN, WIP-CAP, CAPTURE-ORIGIN, HANDOFF-AS-MESSAGE, STALE-SWEEP, ACCEPT-BUNDLE) to blind review ff-review.
