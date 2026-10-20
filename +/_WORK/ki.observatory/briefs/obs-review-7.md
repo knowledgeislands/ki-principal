@@ -1,9 +1,0 @@
-# obs-review-7: blind review of RIG-SCHEDULE
-
-Read-only review. Change no file in any repository.
-
-Read [KI-OBSERVA-VIS-022](</Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-022-judge-overdue-against-each-job-schedule.md>) as planned (commit 3b3c785), the apps-observatory.local AGENTS.md rule on consuming stable contracts, and in /Users/krisbrown/workspaces/knowledge-islands/tools-rig the RIG-STATE-033 contract, `configuration.md` and the code that renders `schedule` in `rig show --format json`. Then answer independently.
-
-**Context:** The `schedule` value in `rig show --format json` is covered by RIG-STATE-033's promise of complete declaration values, and its calendar records follow the grammar in Rig's `configuration.md`. Its own format, the `calendar:` and `interval:` prefixes with records joined by `;`, is observed in Rig's code but not written down in Rig's specification. An unparseable schedule falls back to the 26-hour rule with its reason shown. **Query:** Should tools-rig be asked to specify that format before or alongside the build? **Options:** a) Build KI-OBSERVA-VIS-022 as planned and send tools-rig a handoff to specify the `schedule` format, or to add a structured field next to it. b) Hold the build until tools-rig adds a structured, specified schedule field. c) Read the rendered launchd property lists instead.
-
-Report as an owner report with heading `# [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-review-7`, the bold form line, `---`, Done, In Progress, Queries. Under Done give the option you recommend, a confidence of high, medium or low with a one-line reason, and any factual claim above the code contradicts. British English, ASCII hyphens only.
