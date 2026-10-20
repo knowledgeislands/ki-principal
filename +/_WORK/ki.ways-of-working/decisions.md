@@ -186,3 +186,9 @@ ki.chezmoi asked this work to hold harness commits until its hooks/hooks-recover
 ## 2026-10-21 00:10 BST - messages: ki.chezmoi harness released
 
 ki.chezmoi reported hooks-recover finished and the harness metadata verified; harness commits may resume. wow-accept-gov225-c dispatched, committing locally without pushing over the hooks work's two unpushed commits. Line removed.
+
+## 2026-10-21 00:14 BST - overnight queries for tools, MCPs and apps
+
+Kris: "can you ask me any queries to make sure you have enough to get `tools-*` and `mcp-*` and `apps-*` roadmaps cleared overnight"
+
+Taken as: a read-only sweep of every open record in the KI tools, MCP and app repositories, and the held queues routed to ki.tools-burndown and ki.observatory, to find exactly what needs Kris for each, framed as queries; then one Codex blind review of those queries before they reach Kris. Nothing launches for the overnight burndown until he answers.
