@@ -1,38 +1,29 @@
 ---
 id: ki.baseline-rollout
-state: with-worker
-since: 2026-10-19T23:00:07Z
+state: on-hold
+since: 2026-10-20T01:05:54Z
 received: 2026-10-19T23:00:07Z
 beat: null
-mark: 2026-10-19T22:56:26Z
+mark: 2026-10-20T01:05:54Z
 method_read: 2026-10-19T18:03:40Z
+reason: take stock on ways of working
+release: Kris says resume
 ---
 
 # ki.baseline-rollout state
 
 ## Now
 
-- Kris, 23:59 BST: "Anything high confidence can be done." Eight queries answered a). Kris, 00:12 BST: REGISTER-HNR "no, these stay outside of KI"; exclusion routed to hnr.
-- Routed: CHECKER-GAPS to ki.ways-of-working and ki.tools-burndown, TERRITORY-TECHMEDIX to ki.tools-burndown, one `messages.md` line each.
-- `ki-brew` received 00:01 BST: Homebrew `ki` upgraded 0.11.4 to 0.11.5; v0.12.0 (hooks migration) prepared in tools-ki but not yet tagged or in the tap.
-- `raise-tmx` received 00:05 BST: [TMX-PRINCIPAL-KB-008](/Users/krisbrown/workspaces/techmedix/tmx-principal/Streams/Roadmap/TMX-PRINCIPAL-KB-008-retitle-issuing-areas.md) and [TMX-PRINCIPAL-KB-009](/Users/krisbrown/workspaces/techmedix/tmx-principal/Streams/Roadmap/TMX-PRINCIPAL-KB-009-establish-theme-registry.md) captured and committed in tmx-principal, unpushed; TMX-AREA-TITLES and TMX-THEMES copied, awaiting one batched blind review with the other naming queries once all raise runs finish.
-- `raise-hnr` received 00:09 BST: five triage records in hnr-principal and the three 5g-emerge repositories, committed, unpushed; report kept as `report-raise-hnr.md`; its queries await the batched blind review.
-- `va-plan` received 00:10 BST: four drafts shaped, SITE-003 repaired from evidence and still awaiting review, roadmap audit fails 7 to 0; committed `f0087d7` in apps-vallearmonia.com, unpushed. SANC008-SPLIT and VA-READY await the batched blind review.
-- Standing answer applied to new high-confidence queries: HNR-QUEUE routed to hnr-principal's `hnr` work package; SITE003-CONCERN to run `va-site003-concern`.
-- `raise-capitals` received 00:14 BST: theme-registry records captured and committed in legal-principal, personal-principal and er-principal, unpushed.
-- `raise-va` received 00:15 BST: VA-PRINCIPAL-GOV-007 and VA-PRINCIPAL-GOV-008 captured and committed in va-principal, unpushed.
-- `sizekind-1` received 00:16 BST: proposals for 129 sizes and 21 kinds across 12 repositories, tables kept in `report-sizekind-1.md`; SIZEKIND-CONFIRM-1 and SPLIT-5GE-004 copied.
-- `va-site003-concern` received 00:17 BST: [VA-WEBSITE-SITE-005](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SITE-005-guard-sanctuary-style-tokens.md) captured as triage and cited from SITE-003, which stays awaiting review; committed `4a8ba36` and `f9733f2` in apps-vallearmonia.com, unpushed; no queries.
-- `sizekind-2` received 00:19 BST: proposals for 61 sizes and 40 kinds across six repositories, tables kept in `report-sizekind-2.md`; SIZEKIND-CONFIRM-2 and ICO-DATE copied.
-- Kris, 00:28 BST: overnight autonomy, checks every 10 minutes, high-confidence options carried out.
-- Running in run `baseline-rollout`: `review-naming`, `review-themes`, `review-plans-sizes`, blind reviews of the 15 open queries. Records are captured as triage and committed locally, never pushed.
-- HOOKS-MIGRATION: the estate moves from Husky to `.githooks` tonight; briefs keep off `package.json`, `bun.lock`, `.husky/`, `.githooks/` and non-dry-run conform.
+- On hold since 02:05 BST: "take stock on ways of working"; release when Kris says resume. Nothing running; nothing was stopped.
+- Reviews `review-naming`, `review-themes` and `review-plans-sizes` finished 00:35 BST but went unread until 02:04 BST, because the session ended and took the watcher with it; no reviewed-high option was applied overnight.
+- 15 queries parked in `queries.md` with each review's outcome; four theme queries, SANC008-SPLIT and ICO-DATE still need their review verdicts folded in.
+- Records raised tonight sit committed and unpushed in tmx-principal, hnr-principal, 5g-emerge-apex, 5g-emerge-demos, 5g-emerge-testbed, legal-principal, personal-principal, er-principal, va-principal and apps-vallearmonia.com.
+- Retro: `design/retro-2026-10-20.md`.
 
 ## Next steps
 
-1. Receive each run's report, copy its queries into `queries.md`, blind-review any medium or low one, and give Kris a Summary when all have finished: records raised per repository, the two size-and-kind proposal tables for confirmation per repository, and the KI-BREW result.
-2. METHOD-READ: at the next re-read of `ki-work-package` and `ki-coordination`, set `method_read` to the harness short revision read.
-3. Stay responsive; Kris's messages steer, and stop or abort only when Kris expressly says so, naming the work.
+1. At resume, fold the remaining review verdicts into the parked queries, apply every reviewed-high option under the overnight autonomy decision, and bring the rest to Kris.
+2. METHOD-READ: set `method_read` to the harness short revision at the next method re-read.
 
 ## Held
 

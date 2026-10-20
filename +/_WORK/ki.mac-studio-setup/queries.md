@@ -2,6 +2,17 @@
 
 ## Open
 
+None; every query was parked at the 2026-10-20 hold.
+
+## Parked
+
+Parked at the 2026-10-20 hold (take stock on ways of working; put back one at a time when Kris says resume):
+
+- **`PLAN068-VERIFY-GRANT`** - [KI-TOOL-RIG-CORE-068](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md): `apply --sudo` takes no grant and runs no root read when the firewall looks present, so a NordVPN-replaced root ruleset would never be checked. Recommended (high): count a selected `macos-pf` firewall as work for an explicit `--sudo`, and update RIG-ORCH-043, the ADR and the guide.
+- **`PLAN068-UNPRIV`** - KI-TOOL-RIG-CORE-068: what doctor reports without privilege. Recommended (medium, blind review not yet run): keep `present` with `kernel-rules-unverified`, and say plainly that it never means the rules are evaluated.
+- **`PLAN068-READY`** - KI-TOOL-RIG-CORE-068 is planned and still in draft. Recommended (medium, blind review not yet run): approve Ready, with `ki-implement` gated on Kris's attended NordVPN check (steps 2 to 4 matching, results pasted into the record).
+- **`RIG-TRIAGE`** - the rest of the Rig dispositions, kept in full below.
+
 ### RIG-TRIAGE - Where the remaining Rig records go
 
 since 2026-10-20 · rig-triage and triage-review run reports, 00:24 BST, with CANCEL-MERGE from ki.tools-burndown's acceptrig folded in · the review disagreed with both proposals in places, so all three views are shown
@@ -19,8 +30,6 @@ a) (recommended by triage-review, confidence medium - the technical boundaries a
 b) (rig-triage) Next for 053 and 067; 057 and 064 to Future in Rig; 068 to Next, plan only; 069 to Now after a live handler check at sol; 056 and DIST-011 unchanged.
 
 c) (acceptrig) Cancel DIST-011 as obsolete, merge 056 into 053, and reject 057 and 064 from Rig.
-
-## Parked
 
 Parked at the 2026-10-18 hold (Kris; put back one at a time, with a recommendation and reason):
 
