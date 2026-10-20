@@ -832,3 +832,7 @@ KI-HARNESS-GOV-170 failed independent review (`b2f9c35f`, back to in progress): 
 ## 2026-10-20 09:11 BST - harness-queries-review died
 
 The Codex run stopped at 09:02 with "Selected model is at capacity", before changing anything. It was re-queued once on Codex as harness-queries-review2, from the same brief.
+
+## 2026-10-20 09:16 BST - received harness-rework-170
+
+KI-HARNESS-GOV-170 reworked (`062c27e6`, `b5ad1d91`, local): the acceptance model now enforces local targets, and two regression tests were added (1,374 tests pass). accept2-harness-170 is re-reviewing it.
