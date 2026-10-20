@@ -1,0 +1,3 @@
+# qreview10 - blind review of the open tools queries
+
+Review every query in /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/design/qreview10.options.md blind. Do not read any report, queries.md, decisions.md, state.md or run state file. Judge from the records and source each names (tools-ki, tools-mgit, ki-agentic-harness and the repositories under /Users/krisbrown/workspaces). For each, give your recommended option with confidence high, medium or low and a one-line reason, and any missed option; for CANCEL-MERGE lists, give a verdict per item. Change nothing; no commits. Report one ### heading per query tag under Queries.
