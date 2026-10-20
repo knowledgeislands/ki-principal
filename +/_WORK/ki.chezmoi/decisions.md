@@ -275,3 +275,27 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 172 (2026-10-20T03:39:00Z)
 
 - Pointer: Kris: "ah, interesting I guess, I'm fine with either then". Read back as: MSG-UNIFY b), the recommendation and the current `ki-git` standard: Commitlint where a package exists, `ki git check-message` only where none does. The rollout already uses it.
+
+## Decision 173 (2026-10-20T03:47:00Z)
+
+- Pointer: Kris (04:47 BST, spoken; "the big" read as Rig, "UV-082" as UE-082). RAT-UNCONFIRMED and RAT-READING: "I'll just go through and check them in [Rig] and come back with any comments. I can do that shortly." Both stay open with Kris; no action.
+
+## Decision 174 (2026-10-20T03:47:00Z)
+
+- Pointer: Kris (04:47 BST, spoken; "the big" read as Rig, "UV-082" as UE-082). RESOLUTION-084 a): "go with your recommendation." `rejected` stands.
+
+## Decision 175 (2026-10-20T03:47:00Z)
+
+- Pointer: Kris (04:47 BST, spoken; "the big" read as Rig, "UV-082" as UE-082). RAT-SPARK-VOICE, neither option: "I think it can just say alternative email client as it's reasoning... nothing contentious." Spark's rationale becomes "Alternative email client." (run b2-chezmoi).
+
+## Decision 176 (2026-10-20T03:47:00Z)
+
+- Pointer: Kris (04:47 BST, spoken; "the big" read as Rig, "UV-082" as UE-082). 077-REVIEW-PATH a): "I've run that command on both machines." The Keychain step is ticked and KB-DOTFILES-UE-077 moves to Awaiting review (run b2-chezmoi).
+
+## Decision 177 (2026-10-20T03:47:00Z)
+
+- Pointer: Kris (04:47 BST, spoken; "the big" read as Rig, "UV-082" as UE-082). PLAN-076 c): "Plan-076 is fine." Pending review is deferred to one follow-up triage record and KB-DOTFILES-UE-076 moves to Ready (run b2-chezmoi).
+
+## Decision 178 (2026-10-20T03:47:00Z)
+
+- Pointer: Kris (04:47 BST, spoken; "the big" read as Rig, "UV-082" as UE-082). UE-082-FOLLOWUPS a): "whatever you think, honestly, I'm not sure." One triage record for a persistent absent-command finding; path stability dropped (run b2-chezmoi).
