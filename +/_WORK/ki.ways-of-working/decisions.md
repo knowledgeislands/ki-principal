@@ -810,3 +810,7 @@ KI-TOOL-KI-CLI-159 accepted by independent Codex review (`a073f97b`, pushed). It
 ## 2026-10-20 08:44 BST - received morning-gather
 
 `queries.md` now holds 13 open queries (`16127aba`). Six medium ones (GRANT-INTERIM, SITE-SOURCE, RIG-053-SHAPE, PLAN067-READY, DESIGN-DISPOSITIONS, TOOLS-KI-SHAPES) go to morning-review (Codex). SPEC-SKETCH is already reviewed, and the rest are high-confidence or Kris's own checks.
+
+## 2026-10-20 08:49 BST - one routed line
+
+TOOLS-KI-RESOLUTION-LOCAL (from harness-burn, on KI-HARNESS-GOV-170): tools-ki's parser change is tools-ki's own, so it was routed once to ki.tools-burndown's `messages.md`. Line removed.

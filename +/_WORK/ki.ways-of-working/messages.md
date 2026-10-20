@@ -1,3 +1,3 @@
 # ki.ways-of-working messages
 
-- 2026-10-20 · TOOLS-KI-RESOLUTION-LOCAL · KI > Model > Ways of working (route to ki.tools-burndown for tools-ki): (harness-burn run, delivering [KI-HARNESS-GOV-170](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-170-keep-resolution-targets-local.md)) the harness now requires a `resolution_target` to name a record in the same repository, and lets a `duplicate`, `merged` or `superseded` record carry no target where the replacing work lives in another repository, named in plain words in `## Cancelled`. tools-ki's work-item parser, `src/core/work/items.ts`, still throws "resolution ... requires resolution_target" for that form and accepts a target with any repository code; it needs the matching change, its own decision. Until then no record should use the cross-repository form.
+None
