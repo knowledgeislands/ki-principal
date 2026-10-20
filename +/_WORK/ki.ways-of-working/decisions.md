@@ -818,3 +818,9 @@ TOOLS-KI-RESOLUTION-LOCAL (from harness-burn, on KI-HARNESS-GOV-170): tools-ki's
 ## 2026-10-20 08:54 BST - received morning-review
 
 Codex blind review (`ebce71aa`): it agrees on GRANT-INTERIM, RIG-053-SHAPE, PLAN067-READY, DESIGN-DISPOSITIONS and TOOLS-KI-SHAPES, which are now reviewed, high. It disagrees on SITE-SOURCE, which stays medium with both views shown (verify anonymous access to the exact citation first, as d)). The 13 queries are ready for the morning Summary.
+
+## 2026-10-20 09:00 BST - received harness-burn
+
+- Of 25 open harness records, only KI-HARNESS-GOV-170 was workable. It is delivered to awaiting review (`e66f3130`, `4a10ba07`, local), and accept-harness-170 (Codex) reviews it under the overnight grant, without pruning while the harness is unpushed.
+- KI-HARNESS-GOV-209 stopped at planning for an owner decision.
+- The run raised six owner queries: GOV209-OWNER, GOV225-CLOSE, GOV189-SCOPE, GOV202-ADOPT, GOV227-SCHEMA and OPS009-SPLIT. harness-queries copies them into `queries.md`, and harness-queries-review (Codex) blind-reviews the medium and low ones.
