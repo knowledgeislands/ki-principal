@@ -621,3 +621,7 @@ gfm-convert: ki-principal converted to GitHub-flavoured Markdown end to end (pin
 - sweep-review: of the merges only 196 into 200 and 020 into 018 hold; converts hold (C5 becomes a ki.chezmoi Activity plus the narrowed Rig record); of the cancels only X6 holds. The 54 projection no longer stands; sweep-queries recounts and drafts the sweep queries.
 - md-review: agrees a), high, reviewed. gfm-review-2: agrees a) on all four GFM queries, each now high, reviewed.
 - Queries cleaned: answered ones removed, their answers homed above; NO-GATE with PKGLESS-GATE parked.
+
+## 2026-10-20 04:10 BST - received wf-review
+
+Blind review agrees with both worktree queries: WORKTREE-INTEGRATE a), on condition the primary-checkout write window is serialised and independent review still precedes acceptance; WORKTREE-START a), F3 and F5 confirmed needed. Both lift to high, reviewed; to Kris. Brief removed.

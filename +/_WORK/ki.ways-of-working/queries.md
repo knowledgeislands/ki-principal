@@ -48,11 +48,11 @@ Reviewed (gfm-review-2 agrees): high. a) open the Library link and an alert note
 
 ### WORKTREE-INTEGRATE - from worktree-flow
 
-Medium; in blind review wf-review. a) every worktree run fast-forwards its own branch into local `main` after gates pass, else keeps the worktree and reports it stranded; b) runs stop at the branch and a merge run follows.
+Reviewed (wf-review agrees, on condition the primary-checkout write window is serialised and independent review still precedes acceptance): high. a) every worktree run fast-forwards its own branch into local `main` after gates pass, else keeps the worktree and reports it stranded; b) runs stop at the branch and a merge run follows.
 
 ### WORKTREE-START - from worktree-flow
 
-Medium; in blind review wf-review. a) start the trial now in code repositories under F1 and F4, ki-principal once F5 lands; b) wait for F2, F3 and F5.
+Reviewed (wf-review agrees; F3 and F5 confirmed needed by source inspection): high. a) start the trial now in code repositories under F1 and F4, ki-principal once F5 lands; b) wait for F2, F3 and F5.
 
 ### SWEEP - Roadmap sweep batches
 
