@@ -171,3 +171,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 146 (2026-10-20T00:00:00Z)
 
 - Pointer: ENUM-FLAG a), taken under OVERNIGHT with confidence high: KB-DOTFILES-UE-090's gap-5 fallback enumerates with `chezmoi managed --path-style=all --format=json` and reads each entry's `absolute` field, because `--path-style=absolute` ignores `--format=json` on chezmoi 2.73.2 ([ue090-r2](/Users/krisbrown/.local/state/ki/agents/chezmoi/ue090-r2.report.md)). Round 2 goes to review run r2-review.
+
+## Decision 147 (2026-10-20T00:06:00Z)
+
+- Pointer: TERRA-STEP a), taken under OVERNIGHT with confidence high: KB-DOTFILES-UE-100's Terra collection Step is reworded as Kris's attended step and ticked, the full Terra scope kept under its Outstanding concerns, following KB-DOTFILES-UE-098's pattern ([ue100-sol](/Users/krisbrown/.local/state/ki/agents/chezmoi/ue100-sol.report.md)). Sol's diagnostic stage is Awaiting review (chezmoi `f6a36e5`). ZED-WINDOW, medium, goes to blind review run zed-blind.
