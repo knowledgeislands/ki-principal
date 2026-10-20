@@ -147,7 +147,7 @@ Each "Uncertain" note flags a row Kris should check before confirming it. In the
 
 | Record | Status | Size | Kind | Reason |
 | --- | --- | --- | --- | --- |
-| [KB-ACQUIRE-007](/Users/krisbrown/workspaces/personal/acquire/docs/roadmap/KB-ACQUIRE-007-dispatch-packet-push-and-return.md) | triage | `m` | n/a, triage | Dispatch push and return in the port. Uncertain: `l` if receivers' `+/_ACQUIRED/` handling needs work too. |
+| [KB-ACQUIRE-007 (pruned)](https://github.com/krisb/acquire/blob/7f43c67f899df0554de647920ec42609e32001b5/docs/roadmap/KB-ACQUIRE-007-dispatch-packet-push-and-return.md) | triage | `m` | n/a, triage | Dispatch push and return in the port. Uncertain: `l` if receivers' `+/_ACQUIRED/` handling needs work too. |
 
 ### [apps-rig.midnight.ninja](/Users/krisbrown/workspaces/personal/apps-rig.midnight.ninja)
 
