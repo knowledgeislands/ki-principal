@@ -1,28 +1,31 @@
 ---
 id: ki.mac-studio-setup
-state: with-worker
-since: 2026-10-19T22:30:00Z
+state: on-hold
+since: 2026-10-20T01:10:00Z
 received: 2026-10-19T22:27:00Z
 beat: null
-mark: 2026-10-19T22:36:00Z
+mark: 2026-10-20T01:10:00Z
 method_read: 84b61942
+reason: take stock on ways of working
+release: Kris says resume
 ---
 
 # ki.mac-studio-setup state
 
 ## Now
 
-- With worker since 23:30 BST on 19 October; marked at 23:36 BST on 19 October.
-- Overnight autonomy (OVERNIGHT, 00:28 BST): check every 10 minutes, act on high confidence. Chained in tools-rig: plan068, then fix027 (Q-027-REPEATS follow-up within KI-TOOL-RIG-CLI-027), then spec-sched (RIG-SCHEDULE-ENCODING for ki.observatory). The rest of RIG-TRIAGE (057, 064, DIST-011) waits for Kris. rig-triage received: KI-TOOL-RIG-CORE-065 and KI-TOOL-RIG-CORE-066 at Awaiting review;
-- Records: KI-TOOL-RIG-CORE-047, KI-TOOL-RIG-CORE-062, KI-TOOL-RIG-CORE-063, KI-TOOL-RIG-CORE-065, KI-TOOL-RIG-CORE-066 and KI-TOOL-RIG-CLI-027 await Kris's acceptance; KI-TOOL-RIG-CORE-069 is in Triage. Pushes are left to Kris and the owning sessions.
-- Lane, confirmed by State of play on 19 October: tools-rig and the agent-host hold cluster, which waits with the on-hold ki.agent-host until TECHNE-FOCUS is settled.
+- On hold since 02:10 BST on 20 October, paused to take stock on ways of working; released when Kris says resume. Overnight autonomy (OVERNIGHT) ended with the hold.
+- Drained: plan068 received (KI-TOOL-RIG-CORE-068 planned, draft); fix027 left to finish its Q-027-REPEATS fixes within KI-TOOL-RIG-CLI-027; spec-sched (RIG-SCHEDULE-ENCODING for ki.observatory) stopped before it started, its brief kept.
+- Records: KI-TOOL-RIG-CORE-047, KI-TOOL-RIG-CORE-062, KI-TOOL-RIG-CORE-063, KI-TOOL-RIG-CORE-065, KI-TOOL-RIG-CORE-066 and KI-TOOL-RIG-CLI-027 await Kris's acceptance; KI-TOOL-RIG-CORE-068 and KI-TOOL-RIG-CORE-069 are planned at draft. tools-rig commits are local and unpushed, beside other sessions' e651edb and 512f21f.
+- Lane, confirmed by State of play on 19 October: tools-rig and the agent-host hold cluster.
 - Looks resolved, to confirm with Kris: terra key-only SSH and HOSTKEY-APPLY steps 6-9 (KB-DOTFILES-UE-088), and the parked SOL-HNR-HARNESS.
+- Retro for the take-stock: [retro-2026-10-20](design/retro-2026-10-20.md).
 
 ## Next steps
 
-1. With Kris, ADOBE-RESTART first (deferred, "remind me another day"): restart sol, run [`./adobe-remove.sh`](design/adobe-remove.sh) as a dry run (nothing under What is left), then `ls -d /Applications/Adobe* /Applications/Utilities/Adobe* ~/Pictures/Lightroom/*.lrcat`, which should show only the catalogue.
-2. Receive rig-triage; receive the chain, then look for the next high-confidence work; give Kris the Summary with the rest of RIG-TRIAGE in the morning; then Kris accepts the Awaiting-review records at the next sol session.
-3. Then put the parked queries back one at a time, each with a recommendation and its reason.
+1. On resume: receive fix027 if not already received, then relaunch spec-sched from its kept brief.
+2. Blind-review PLAN068-UNPRIV and PLAN068-READY on Codex, then put every parked query back one at a time, each with a recommendation and its reason, RIG-TRIAGE and the PLAN068 queries first.
+3. With Kris: ADOBE-RESTART (deferred, "remind me another day"), then the at-screen items under Held.
 
 ## Held
 
