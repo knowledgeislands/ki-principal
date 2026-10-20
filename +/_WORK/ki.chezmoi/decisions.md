@@ -311,3 +311,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 181 (2026-10-20T04:02:00Z)
 
 - Pointer: Kris (05:02 BST, spoken; "the big" read as Rig): "I don't think we need what is for and why it is here. We can just deal with it as a single description: the bold text can be what it is"; ack's description says what ack is about, and "there's nothing else to talk about really, it's just an obvious choice"; the table includes the kind (command line or GUI application) and how it is installed. Confirms the Decision 179 read-back of kind and install vector. Sent to runs rig-purpose and purpose-render. Kris did not recognise Shadowlab's Spark ("I think it must have been a mistake from recognizing Spark Desktop. Can you check the history there"): run spark-history.
+
+## Decision 182 (2026-10-20T04:05:00Z)
+
+- Pointer: Kris (05:05 BST): "Can you also fix in the chezmoi drift again?" Read back as: classify `chezmoi status` drift on sol, bring in-place target changes back into the source, and prepare the apply for Kris's review; no apply without his explicit request (run drift-fix).
