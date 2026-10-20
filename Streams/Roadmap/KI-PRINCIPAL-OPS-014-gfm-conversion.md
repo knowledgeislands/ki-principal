@@ -16,7 +16,7 @@ blocks: []
 blocked_by: []
 baseline_ref: 442c3501f53ee95fa8eb0ae9e7c6d493d3d31df1
 created_at: 2026-10-19T21:04:00Z
-updated_at: 2026-10-20T02:49:44Z
+updated_at: 2026-10-20T04:30:00Z
 ---
 
 # Convert ki-principal to GitHub-flavoured Markdown
@@ -53,7 +53,7 @@ The decided plan, the review's prerequisites, the converter requirements and the
   - the Obsidian templates under `Pillars/Philosophy/Model/Tools/Obsidian/Templates/` and their dynamic destinations;
   - ambiguous and unresolved destinations found at the pilot's re-inventory.
 - **Convention notes** that prescribe wikilinks, rewritten to the GFM preference: root `AGENTS.md`, the Charter, Structure, Format, Notes, the Obsidian tool note and the Tending activities.
-- **Wikilink Review Activity** (`Pillars/Philosophy/Model/Activities/Tending/Wikilink Review.md`) and its two inert Dataview blocks: rewritten as a link review over both forms, or retired, as decided in the judgement pass.
+- **Wikilink Review Activity** (`Pillars/Philosophy/Model/Activities/Tending/Wikilink Review.md`, renamed Link Review on 2026-10-20) and its two inert Dataview blocks: rewritten as a link review over both forms, or retired, as decided in the judgement pass.
 
 ## Acceptance tests
 
@@ -76,6 +76,8 @@ Before the conversion the island held about 1,050 wikilinks, heading links and e
 - [x] Judgement pass: the listed items decided or kept for the owner; the Wikilink Review Activity rewritten over both forms.
 - [x] Convention notes rewritten to the GFM preference.
 - [x] Tracked, unmodified `+/_WORK/` files, last, in one batch.
+- [x] Owner answers applied (2026-10-20): the four sized embeds as plain images, the template placeholders as links, the Activity renamed Link Review.
+- [ ] Client render checks on GitHub, Obsidian, Zed and the Observatory, by Kris before acceptance.
 
 ## Files touched
 
@@ -121,7 +123,8 @@ The whole of ki-principal outside `+/_Voice Notes/` and other sessions' uncommit
 - Heading links take GitHub slugs (`heading_fragments = "github"`).
 - Dead links whose target was clear were decided to their current home: the ambiguous `Themes` links to `Streams/Themes/Themes.md`; `command-centre` to the Observatory Project it became; Initiatives `rig`, `techne` and `knowledge-islands-model` to their theme pages; `Techne Programme Hold` and the old GDR-KI-PRINCIPAL-004 name to their renamed files; old checkpoints to their work packages.
 - Kept for the owner: the four width-800 image embeds, the Wikilink Review orphan Dataview block, the two custom `[!todo]` callouts in Structure (unchanged, text intact) and the 14 placeholders in the yearly and location templates.
-- The Wikilink Review Activity keeps its name and trigger; its broken-link view now points to the LINK-1 audit instead of a wikilink-only Dataview query.
+- The Wikilink Review Activity's broken-link view now points to the LINK-1 audit instead of a wikilink-only Dataview query.
+- Owner answers of 2026-10-20, applied in one following commit: SIZED-EMBEDS a) the four width-800 embeds are plain Markdown images with descriptive alt text and note-relative destinations, and the Format note no longer mandates a width; TEMPLATE-LINKS a) the 14 placeholders in the yearly and location templates are GFM links to the month folders' notes and sibling landmark notes, deliberately unresolved until a note is instantiated; LINK-REVIEW-NAME a) the Activity is now [Link Review](<../../Pillars/Philosophy/Model/Activities/Tending/Link Review.md>), trigger _"ki link review"_, with the Charter, Tending, What Keeps an Island Alive, Knowledge Islands and Agents notes updated together; no local consumer of the old trigger was found in the harness, `tools-ki`, the Observatory, KI Specifications or chezmoi, and external consumers were not checked.
 
 ### Verification
 
@@ -132,15 +135,15 @@ The whole of ki-principal outside `+/_Voice Notes/` and other sessions' uncommit
 
 ### Outstanding concerns
 
-- Acceptance test 4 is unchecked: the GitHub, Obsidian, Zed and Observatory render checks of an alert and a heading link need a person at the clients.
-- Acceptance test 5 is partly unmet: the Format note still prescribes `![[diagram.png|800]]` for images until the width-800 decision is made.
-- The four width-800 embeds, the template placeholders, the `[!todo]` callouts and the Wikilink Review name are raised to the owner as queries, not records.
+- Acceptance test 4 is unchecked and is Kris's to run before acceptance (RENDER-CHECK a), 2026-10-20): open the Library heading link and a representative alert in each of GitHub, Obsidian, Zed and the Observatory, check the four plain images read well at natural size, record each outcome here, and decide each failure explicitly. The Observatory's dropped heading fragment is to be recorded as a navigation failure or expressly accepted as a fallback.
+- Acceptance test 5 is met for links and images since the 2026-10-20 answers: the Format note prescribes plain Markdown images.
+- The four width-800 embeds, the template placeholders and the Activity name were answered on 2026-10-20; the `[!todo]` callouts stay unchanged, text intact.
 - Front-matter wikilinks (`creator: "[[Author Name]]"` in Properties and Structural Audit) are Obsidian properties, outside the converter's scope, and are left as they are.
 - `MD-mech` and the `ki-decision-records` BODY-11 findings are pre-existing.
 
 ### Post-change review
 
-The goal is met for every mechanical construct: internal links are document-relative Markdown links that resolve in exact case, and no convention note prescribes wikilinks for links. Regression risk is low: every write went through the converter's unchanged-bytes guard and per-link check, and each batch can be reversed from its manifest or its commit. Ready for acceptance once Kris has looked at the render checks and the open exceptions.
+The goal is met for every mechanical construct: internal links are document-relative Markdown links that resolve in exact case, and no convention note prescribes wikilinks for links. Regression risk is low: every write went through the converter's unchanged-bytes guard and per-link check, and each batch can be reversed from its manifest or its commit. Ready for acceptance once Kris has run the four client render checks and decided any failure.
 
 ### Mini recap
 

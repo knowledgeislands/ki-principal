@@ -11,7 +11,7 @@ author: Written with Claude
 
 Knowledge is not the same as information, and neither is wisdom. The distinction between them shapes everything that follows.
 
-![[What is Knowledge/knowledge-hierarchy.png|800]]
+![The knowledge hierarchy: information as organised data that can be looked up, knowledge as understanding that must be built, and wisdom as the ability to use knowledge well, which is cultivated rather than stored](knowledge-hierarchy.png)
 
 Information is organised data - it answers what, when, and who. It exists independently of the reader and can be looked up, cited, and stored without being understood.
 

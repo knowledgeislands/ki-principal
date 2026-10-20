@@ -73,11 +73,11 @@ Two illustrated boards made while working through these influences. Both predate
 
 "How gstack works" draws gstack's roles as agents on sandboxed islands, dispatched by an orchestrator and reading and writing one shared knowledge island, with an iteration loop as the tide.
 
-![[Influences Along the Way/explainer-how-gstack-works.png|800]]
+![How gstack works: gstack's roles drawn as agents on sandboxed islands, dispatched by an orchestrator, reading and writing one shared knowledge island, with the iteration loop as the tide](explainer-how-gstack-works.png)
 
 "Agentic operating system for Knowledge Islands" recasts the same shape in Knowledge Islands roles - Cartographer, Curator, Governance, Gardener, Harbourman, Archivist and Observer - around a shared knowledge archipelago.
 
-![[Influences Along the Way/explainer-agentic-operating-system.png|800]]
+![Agentic operating system for Knowledge Islands: the Cartographer, Curator, Governance, Gardener, Harbourman, Archivist and Observer roles arranged around a shared knowledge archipelago](explainer-agentic-operating-system.png)
 
 ---
 

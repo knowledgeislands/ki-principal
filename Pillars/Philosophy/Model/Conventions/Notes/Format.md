@@ -103,13 +103,13 @@ The link text is the reader-facing name of the target, usually its leaf name or 
 Images and diagrams used by a single note must be saved in the same folder as that note. Images shared across multiple notes may sit in a
 folder common to all the notes that use them.
 
-Always include a width constraint of `800` when embedding an image, using the pipe syntax:
+Embed an image as a plain Markdown image, with descriptive alt text and a path relative to the note:
 
 ```markdown
-![[diagram.png|800]]
+![Diagram of the capture, connect and reflect cycle](diagram.png)
 ```text
 
-This keeps diagrams readable without overflowing the note pane. Do not embed images without a size constraint.
+The alt text says what the image shows, so the note still reads without it. Do not add a size constraint; a demonstrated sizing need is decided as an explicit exception.
 
 Bare URLs must be wrapped in angle brackets so they render as clickable links in all contexts:
 

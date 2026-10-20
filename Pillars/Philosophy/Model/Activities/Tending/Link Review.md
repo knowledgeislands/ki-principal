@@ -9,7 +9,7 @@ status: current - April 2026
 author: Written with Claude
 ---
 
-# Wikilink Review
+# Link Review
 
 ## Overview
 
@@ -19,7 +19,7 @@ A focused review of link health across the repository, over Markdown links and w
 
 ## When
 
-Adhoc - _"ki wikilink review"_. Typically paired with [Structural Audit](<Structural Audit.md>) or [Inbox Review](<Inbox Review.md>). Run any time new notes are created in bulk or a section of the repository has been significantly restructured.
+Adhoc - _"ki link review"_. Typically paired with [Structural Audit](<Structural Audit.md>) or [Inbox Review](<Inbox Review.md>). Run any time new notes are created in bulk or a section of the repository has been significantly restructured.
 
 ---
 

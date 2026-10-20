@@ -15,6 +15,6 @@ The model draws on Zettelkasten and PARA as foundations and extends their possib
 
 The model is built in layers. It begins with what knowledge _is_ - distinct from information and from wisdom - and how it matures through a continuous cycle of capture, connection, and reflection. It then provides a geographic framework: the island as the home of knowledge, with its Capital, Library, and Streams; the territory as the unit of governance; the archipelago as the larger structure that forms when territories connect. A jurisdictional model defines who holds authority over canonical knowledge and who may act within it. A governance layer makes all of this practical day to day.
 
-![[knowledge-islands-at-a-glance.png|800]]
+![Knowledge Islands at a glance: the cycle of capture, connect, reflect and curate; human and AI agents acting on the same knowledge fabric; and the geography of a principal island, territories and satellite islands joined by governed routes](<../What is Knowledge/knowledge-islands-at-a-glance.png>)
 
 The mind creates knowledge. Agents - human and artificial - act to evolve it. Knowledge Islands gives that knowledge structure, allowing it to extend beyond the limits of any single mind - without replacing the mind as the source of meaning.

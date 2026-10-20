@@ -22,7 +22,7 @@ Activities divide by cadence and initiation. Two are scheduled automations that 
 
 ## Health Check
 
-[Health Check](<Health Check.md>) runs each Monday at 08:00. It reviews the island for structural drift - index notes without their folders, notes without correct frontmatter, orphaned content, skills that no longer align with activities - and produces a report of issues requiring attention. It operates at a higher level than the Wikilink Review, covering the health of the island as a system rather than individual broken references.
+[Health Check](<Health Check.md>) runs each Monday at 08:00. It reviews the island for structural drift - index notes without their folders, notes without correct frontmatter, orphaned content, skills that no longer align with activities - and produces a report of issues requiring attention. It operates at a higher level than the Link Review, covering the health of the island as a system rather than individual broken references.
 
 ---
 
@@ -56,9 +56,9 @@ Activities divide by cadence and initiation. Two are scheduled automations that 
 
 ---
 
-## Wikilink Review
+## Link Review
 
-[Wikilink Review](<Wikilink Review.md>) is triggered with _"ki wikilink review"_ and run ad hoc. It surfaces broken links, Markdown links and wikilinks alike - references to notes that have moved, been renamed, or deleted - and orphan notes that are not referenced from anywhere. Broken links are repaired or removed; orphans are either linked in or assessed for deletion. Should be run after any significant file movement or rename operation.
+[Link Review](<Link Review.md>) is triggered with _"ki link review"_ and run ad hoc. It surfaces broken links, Markdown links and wikilinks alike - references to notes that have moved, been renamed, or deleted - and orphan notes that are not referenced from anywhere. Broken links are repaired or removed; orphans are either linked in or assessed for deletion. Should be run after any significant file movement or rename operation.
 
 ---
 

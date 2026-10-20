@@ -24,5 +24,5 @@ url:
 
 ## Key Areas and Landmarks
 
-- [[Landmark 1]] - [description]
-- [[Landmark 2]] - [description]
+- [Landmark 1](<Landmark 1.md>) - [description]
+- [Landmark 2](<Landmark 2.md>) - [description]

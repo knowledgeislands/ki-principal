@@ -92,7 +92,7 @@ Active conversational activities within adopted groups. Trigger phrases are the 
 | [Asset Audit](<../../Pillars/Philosophy/Model/Activities/Tending/Asset Audit.md>) | Tending | _"ki asset audit"_ | enabled |
 | [Status Review](<../../Pillars/Philosophy/Model/Activities/Tending/Status Review.md>) | Tending | _"ki status review"_ | enabled |
 | [Structural Audit](<../../Pillars/Philosophy/Model/Activities/Tending/Structural Audit.md>) | Tending | _"ki structural audit"_ | enabled |
-| [Wikilink Review](<../../Pillars/Philosophy/Model/Activities/Tending/Wikilink Review.md>) | Tending | _"ki wikilink review"_ | enabled |
+| [Link Review](<../../Pillars/Philosophy/Model/Activities/Tending/Link Review.md>) | Tending | _"ki link review"_ | enabled |
 | [Convergence Check](<../../Pillars/Philosophy/Model/Activities/Tending/Convergence Check.md>) | Tending | _"ki convergence check"_ | enabled |
 
 ---

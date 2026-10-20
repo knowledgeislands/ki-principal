@@ -94,7 +94,7 @@ The second part is the portable, generic model. It covers the language of the is
     - [Asset Audit](<Model/Activities/Tending/Asset Audit.md>) - weekly scan for unlinked assets
     - [Status Review](<Model/Activities/Tending/Status Review.md>) - weekly pass over stale `draft` and `outdated` status values
     - [Structural Audit](<Model/Activities/Tending/Structural Audit.md>) - adhoc deep conformance audit
-    - [Wikilink Review](<Model/Activities/Tending/Wikilink Review.md>) - adhoc broken-link and orphan-note check
+    - [Link Review](<Model/Activities/Tending/Link Review.md>) - adhoc broken-link and orphan-note check
     - [Convergence Check](<Model/Activities/Tending/Convergence Check.md>) - adhoc cross-island shared-note sync
   - _Adoptable groups (Briefings, Email, Linear):_
     - each island records an explicit adopted or vetoed position on these groups; Knowledge Islands Principal's positions are in its [Charter](../../Admin/Governance/Charter.md) and its group notes in [Admin Activities](../../Admin/Operations/Activities/Activities.md)

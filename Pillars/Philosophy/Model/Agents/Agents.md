@@ -46,7 +46,7 @@ A role is a hat, not a species: any agent, human or AI, may wear one. Roles name
 | ------------ | ----------------------------------------- | ------------------------------------------------------------- |
 | Steward      | Tends an island and holds its boundaries  | Council standing, the Tending activities and Conformance      |
 | Archivist    | Curates the Library                       | Curation; Inbox Review                                        |
-| Cartographer | Maps links and routes                     | The Connect stage of the cycle; Wikilink Review; Known Lands  |
+| Cartographer | Maps links and routes                     | The Connect stage of the cycle; Link Review; Known Lands      |
 | Builder      | Builds tools and harnesses                | The Tools chapter and the Engineering Practice pillar         |
 | Navigator    | Works the trade routes, at the Port       | Capital-governed trade routes and the Port                    |
 | Scout        | Acquires and captures new material        | The Capture stage of the cycle; knowledge acquisition         |
