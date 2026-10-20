@@ -35,7 +35,7 @@ method_read: eff6163b
 10. Not this work's: pre-existing CI red in apps-observatory.local, mcp-m365, tools-mgit and ki-techne-harness; acquire-intake's ACQUIRE-DECISIONS-LINKS.
 11. design/: thread-model notes deleted (22:15 BST); work-package.md goes in wow-workpackage-graduate; the three bring-up files go once BRING-UP-LEFTOVER replies arrive from ki.observatory and ki.tools-burndown; the rest stay live.
 12. To State of play: the ki-principal MOD ledger sits at 9 though KI-PRINCIPAL-MOD-010 was issued.
-13. KI-HARNESS-GOV-219 and KI-HARNESS-GOV-224 sit at awaiting review since lane-triage; bring them to acceptance.
+13. KI-HARNESS-GOV-219 accepted 22:18 BST (harness 17166cf2, unpushed; joins PRUNE-LINKS-REST). KI-HARNESS-GOV-224 failed review and went to ki.observatory as GOV-224-REWORK.
 
 ## Held
 
