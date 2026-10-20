@@ -771,3 +771,7 @@ KI-SPEC-RGV-004 failed independent review (`da895b5`): KIP publication trigger, 
 
 - harness-fix: KI-HARNESS-GOV-200 and -205 reworked to awaiting review; F6 landed in `ki-git` (`9590c86e`). accept-harness-rework is reviewing. Not pushed.
 - wow-prepare: KI-PRINCIPAL-ECO-013 narrowed and at awaiting review; KI-HARNESS-GOV-199 narrowed, leftovers routed (STYLE-STALE, IDENTITY-PHASE3); FOLDER-CLOSED done (`applied-map.tsv` removed, `9189997a`) and `design/worktree-flow.md` graduated (`df1bc94a`). accept-wow queued after harness-style for the bundle under "prepare the five" and the overnight grant.
+
+## 2026-10-20 07:50 BST - received accept2-specifications
+
+KI-SPEC-RGV-004 accepted after re-review (`8c3c218`, `85a86a8`, local behind another session's hooks commit `4437b58`); ki-specifications has no open record. Its prune joins PRUNE-LINKS-REST once that repository is pushed.

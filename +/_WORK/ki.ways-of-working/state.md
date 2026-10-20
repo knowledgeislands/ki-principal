@@ -39,7 +39,7 @@ method_read: eff6163b
 ## Next steps
 
 1. IDENTITY-PHASE3 (from KI-HARNESS-GOV-199's narrowing): the shared `SessionStart` hook's identity line and level-gated coordinator lines, once KI-TOOL-KI-CLI-145's binding file and KB-DOTFILES-UE-096's matchers land; take it up beside KI-TOOL-KI-CLI-145.
-2. PRUNE-LINKS-REST: once Kris has pushed ki-agentic-harness and apps-observatory.local, a second prune-links pass prunes KI-HARNESS-GOV-216, -222, -226 KI-OBSERVA-OPS-003 and -VIS-027.
+2. PRUNE-LINKS-REST: once Kris has pushed ki-agentic-harness, apps-observatory.local and ki-specifications, a second prune-links pass prunes KI-HARNESS-GOV-216, -222, -226 KI-OBSERVA-OPS-003, -VIS-027 and KI-SPEC-RGV-004, and the harness records accepted overnight.
 3. GRANT-INTERIM: once a `ki` release carrying `--allow` (tools-ki `a14a328d`, KI-TOOL-KI-CLI-134) is installed, remove the interim sentence in `ki-delegation`'s Grants subsection.
 4. UPDATE-SHAPE (was KI-HARNESS-GOV-216) at the report-shape review around 21 October: timed updates say done, left on the plan and outstanding; open on three lines or one, and whether the heartbeat step folds in.
 5. Done: `hooks/README.md` aligned (`9c17df3c`); harness CI `build` on `979e075a` and `9c17df3c` still to confirm.
