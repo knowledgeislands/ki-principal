@@ -10,6 +10,6 @@
 - HOOKS-FOLLOWUPS (GOV225-CLOSE, TOOLS-PKG, ASSEMBLE-SHAPE, HARNESS-GATE-LEVEL, DROPPED-ITEMS): stage1-blind agrees on all; ASSEMBLE-SHAPE adds hardening (git-tracked, symlink containment, index not working tree); with Kris 05:33.
 - Not raised: CORE-SET-COMMENTS (stays in the worksheet); FIREWALL-EXPOSURE (transient, re-check 05:18 showed only `anchor-changed`); RAT-UNCONFIRMED, RAT-READING (superseded by Decisions 179 and 181).
 
-## Held
+## Parked
 
-None. Batch 1 (hooks) is decided in Decisions 164 to 172.
+None.
