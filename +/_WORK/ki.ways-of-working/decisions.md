@@ -655,3 +655,7 @@ Taken as: this work coordinates an overnight burndown in order tools, MCPs, apps
 
 - UPDATE-SHAPE (was KI-HARNESS-GOV-216): kept for the report-shape review around 21 October; in `state.md` Next steps. Line removed.
 - BANNER-GLYPHS (was KI-HARNESS-GOV-226): taken into harness-standards tonight. Line removed.
+
+## 2026-10-20 05:44 BST - message from ki.chezmoi
+
+CONFIG-UNDER-CONTROL delivered: KB-DOTFILES-HK-001 now a monthly read-only per-Mac scan of unmanaged configuration (chezmoi `64b0fbb`, unpushed); KI-TOOL-RIG-CORE-064 left to apply-sweep's narrowing. Noted: a ki.chezmoi session is still answering, though Kris said no other threads tonight. Line removed.
