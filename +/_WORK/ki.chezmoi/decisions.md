@@ -206,11 +206,11 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 
 ## Decision 155 (2026-10-20T01:30:00Z)
 
-- Pointer: DELIVERED-STATUS, Kris: "accept them". [KB-DOTFILES-UE-082](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-082-tolerate-missing-template-tools.md), [KB-DOTFILES-UE-088](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-088-ssh-alias-for-sol.md) and [KB-DOTFILES-UE-092](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-092-restore-local-skill-projection.md) are accepted and close through `ki-accept`.
+- Pointer: DELIVERED-STATUS, Kris: "accept them". [KB-DOTFILES-UE-082 (pruned)](https://github.com/krisb/dotfiles/blob/7cb547a86133325168183bc9c5962fa9550671a5/docs/roadmap/KB-DOTFILES-UE-082-tolerate-missing-template-tools.md), [KB-DOTFILES-UE-088 (pruned)](https://github.com/krisb/dotfiles/blob/7cb547a86133325168183bc9c5962fa9550671a5/docs/roadmap/KB-DOTFILES-UE-088-ssh-alias-for-sol.md) and [KB-DOTFILES-UE-092 (pruned)](https://github.com/krisb/dotfiles/blob/7cb547a86133325168183bc9c5962fa9550671a5/docs/roadmap/KB-DOTFILES-UE-092-restore-local-skill-projection.md) are accepted and close through `ki-accept`.
 
 ## Decision 156 (2026-10-20T01:30:00Z)
 
-- Pointer: [KB-DOTFILES-UE-077](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-077-reorganise-1password-vaults-safely.md): READY-077 a), the plan is Ready as written; CACHE-DISPOSAL, Kris: "done on both machines", the cache expiry step is complete on Terra and Sol; RIG-KEYCHAIN a), `security delete-generic-password -s ki-op-service-account-rig` joins Kris's attended step on both Macs, an absent entry counting as clean.
+- Pointer: [KB-DOTFILES-UE-077 (pruned)](https://github.com/krisb/dotfiles/blob/4fe2203cbc4046c697b543ec9e2c32a77f760ad1/docs/roadmap/KB-DOTFILES-UE-077-reorganise-1password-vaults-safely.md): READY-077 a), the plan is Ready as written; CACHE-DISPOSAL, Kris: "done on both machines", the cache expiry step is complete on Terra and Sol; RIG-KEYCHAIN a), `security delete-generic-password -s ki-op-service-account-rig` joins Kris's attended step on both Macs, an absent entry counting as clean.
 
 ## Decision 157 (2026-10-20T01:30:00Z)
 
@@ -218,7 +218,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 
 ## Decision 158 (2026-10-20T01:30:00Z)
 
-- Pointer: VEGA-XDG a), as recommended: the agent-host Project adds four unset-only XDG defaults to the harness's `env.sh` in ki-techne-harness, and [KB-DOTFILES-UE-084](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-084-render-zshenv-on-vega.md) is cancelled with that resolution.
+- Pointer: VEGA-XDG a), as recommended: the agent-host Project adds four unset-only XDG defaults to the harness's `env.sh` in ki-techne-harness, and [KB-DOTFILES-UE-084 (pruned)](https://github.com/krisb/dotfiles/blob/3f7c9bd867a0b447756826e2a4dde9feebc85d12/docs/roadmap/KB-DOTFILES-UE-084-render-zshenv-on-vega.md) is cancelled with that resolution.
 
 ## Decision 159 (2026-10-20T01:41:00Z)
 
@@ -226,11 +226,11 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 
 ## Decision 160 (2026-10-20T01:41:00Z)
 
-- Pointer: AGE-DOC, Kris: "this is correct but I think its the wrong vault". The age recovery document is right, but the setup guide's Personal vault is probably not where it lives. [KB-DOTFILES-UE-077](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-077-reorganise-1password-vaults-safely.md)'s guide fix waits on Kris naming the vault; its other fixes proceed.
+- Pointer: AGE-DOC, Kris: "this is correct but I think its the wrong vault". The age recovery document is right, but the setup guide's Personal vault is probably not where it lives. [KB-DOTFILES-UE-077 (pruned)](https://github.com/krisb/dotfiles/blob/4fe2203cbc4046c697b543ec9e2c32a77f760ad1/docs/roadmap/KB-DOTFILES-UE-077-reorganise-1password-vaults-safely.md)'s guide fix waits on Kris naming the vault; its other fixes proceed.
 
 ## Decision 161 (2026-10-20T01:48:00Z)
 
-- Pointer: AGE-DOC b), Kris: "I've moved it to `Persoal - Kris` with UUID `5lyahyqnrnep7lak65dikkdut4`". Read as the vault "Personal - Kris"; the age recovery document stays out of Automation, and [KB-DOTFILES-UE-077](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-077-reorganise-1password-vaults-safely.md)'s setup guide names that vault. Runs rat-write, accept-delivered, build-077, fold-076 and cancel-084 are queued in sequence to process Decisions 153 to 161.
+- Pointer: AGE-DOC b), Kris: "I've moved it to `Persoal - Kris` with UUID `5lyahyqnrnep7lak65dikkdut4`". Read as the vault "Personal - Kris"; the age recovery document stays out of Automation, and [KB-DOTFILES-UE-077 (pruned)](https://github.com/krisb/dotfiles/blob/4fe2203cbc4046c697b543ec9e2c32a77f760ad1/docs/roadmap/KB-DOTFILES-UE-077-reorganise-1password-vaults-safely.md)'s setup guide names that vault. Runs rat-write, accept-delivered, build-077, fold-076 and cancel-084 are queued in sequence to process Decisions 153 to 161.
 
 ## Decision 162 (2026-10-20T02:14:00Z)
 
@@ -341,3 +341,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 188 (2026-10-20T22:46:00Z)
 
 - Pointer: Kris (23:46 BST) on the trusted-folder declaration: include all 8 folders under `~/workspaces/claude-desktop/Projects` ("Kit Legal" is gone in favour of "Legal"); hnr-backend, hnr-frontend and hnr-shared are needed, "in fact any git repo under `~/workspaces` is allowable, and we can consider the folders too, e.g. `~/workspaces/knowledge-islands`"; `~/.claude` "makes sense too". Asked what the five Resources folders are. Sent to run resources-check to shape the fix.
+
+## Decision 189 (2026-10-20T22:49:00Z)
+
+- Pointer: Kris (23:49 BST) on resources-check: "~/workspaces/valle-armonia/va-principal/Resources shouldn't be needed if ~/workspaces/valle-armonia/va-principal is in the list right?" Read as RESOURCE-GRANTS b): declare parent roots only, no Resources child grants (HNR's Resources is covered by hnr-shared). Decision 188 read as TRUST-SOURCE a) (trust intent independent of VS Code workspaces), HNR-REGISTRY b) ("any git repo under ~/workspaces is allowable": no KI adoption needed) and KIT-LEGAL a) (Legal replaces Kit Legal). Run trust-declare.
