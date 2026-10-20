@@ -1,5 +1,19 @@
 # Decisions
 
+## 2026-10-14 - thread-model owner words
+
+Kris's words from the two thread-model design notes, kept here when the notes were deleted on 20 October; the behaviour they set is homed in the `ki-coordination` and `ki-delegation` standards, and GDR-KI-PRINCIPAL-009 superseded the thread model.
+
+- Banner request, relayed by the Master on 14 October: "every coordination-thread summary or owner report ends with a multi-line status banner modelled on the ki-recap banner. The banner states plainly whether the thread is AT REST (all work concluded, nothing in progress, no open queries) or not, and why. The banner carries one copyable resume line Kris can paste back into the thread later".
+- Scope, 14 October: the Master gives this work "the whole thread-working model - how coordination threads work, their skills, hooks, the banner, re-bootstrap and inter-thread messaging".
+- THREAD-TERMS, Kris's question of 14 October: "What is the terminology that we're using? Is it a thread, a session, or a chat? I think a thread is the right word at this moment in time ... I think we've got three kinds of threads. I think we've got normal threads, we've got coordination threads, and then we've got state of play threads, which effectively are coordination threads of coordination threads ... I think we should formally define the type of thread that we've got. Normal threads could be something like conversational threads as well."
+- Durable decisions, the same question: "We still need to get to the bottom of what we do about decisions and then being durable knowledge ... This also includes these so-called design folders and what we do with those as they are under a project currently in streams/projects/<project-id>/design."
+- BANNER-LETTERS, Kris at the Master on 14 October: "a conversational thread can be considered done. That's the end of the conversation. But a coordination thread can either be busy or at rest. Whether or not it then ends up being done is more a situation about the project itself, and in effect, it's when we say that project's closed and pull out and tidy up all of the stuff that's been happening."
+- BANNER-MARK, Kris at the Master on 14 October: "BANNER-MARK: confirmed. The resume line is the equivalent of a compaction for the checkpoint and coordination thread, and may also trigger a real compaction."
+- Cross-session visibility, Kris at the Master on 14 October: "Kris sees no Zed rendering of cross-session messages: the threads appear idle, or show x (failed) since the outage, although their backends replied. The messaging interface goes to ways-of-working."
+- Handoffs, Kris's rule: a handoff "counts as done only when Kris expressly says so".
+- DESIGN-RETENTION, before the answer (a): "DESIGN-RETENTION - I guess if this is truly a working area, it should be stored in the `+` working area under some kind of design heading in terms of then the durability of it later on."
+
 ## 2026-10-17 23:09 BST - COUNSEL
 
 - COUNSEL - (Kris, 17 October 23:09 BST) "I'm hoping this conversational style is quite useful, by the way. It helps me to sort of express the different things I'm thinking. As a general thing about me, I'll talk through things and give different perspectives on it. I'm not going to say what I want it to be, and I also want to have good counsel given to me by the agentic system as well. It's not me dictating." Applied in briefs: weigh and challenge Kris's model rather than transcribe it.

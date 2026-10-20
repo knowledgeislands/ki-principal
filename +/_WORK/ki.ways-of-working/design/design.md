@@ -49,13 +49,9 @@ Read against Kris's rule that a skill name conveys its purpose at a glance, thes
 
 The remaining names in the set pass: `ki-plan`, `ki-implement`, `ki-accept`, `ki-batch`, `ki-recap`, `ki-checkpoint`, `ki-tokenomics`, `ki-decision-records`, `ki-work`, `ki-work-roadmap` and the adapters each say what they do.
 
-## Thread banner and re-anchoring
+## Thread banner and thread types
 
-[thread-banner-and-re-anchoring](thread-banner-and-re-anchoring.md) is a design-only note for Kris's sanity check before anything is built: two mock status banners (AT REST and NOT AT REST) with the copyable resume line, the unit model for the banner, resume line, mark, re-anchoring after compaction, Thread working rules block, compact hook pointer, RESTORE-PATH rule and thread messaging, the proposed text placement in `ki-delegation`, the hook and the engineering standard, the master-to-thread messaging interface, the provisional BANNER-MARK order and the open questions with a recommendation each.
-
-## Thread types and durable decisions
-
-[thread-types-and-durable-decisions](thread-types-and-durable-decisions.md) is a design-only note for Kris's sanity check before anything is built. It defines thread, session and chat, recommending thread as the owner-facing term and session only for the runtime instance; defines the three thread types (conversational, coordination and state-of-play) with each type's purpose, delegation, identity, banner and close-out, including a CLOSED state word for the coordination frame; models the decision lifecycle from utterance to thread log, work record, Decision Record and enacted knowledge, with four decision classes set at each mark; models the lifecycle of design notes and their move to `+/_DESIGN/<subject-slug>/`; names each unit with its boundary and hand-offs, lists the pending records it touches, and ends with eight tagged open questions, each with a recommendation.
+The thread-banner-and-re-anchoring and thread-types-and-durable-decisions design notes were deleted on 20 October 2026: [GDR-KI-PRINCIPAL-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md) superseded their thread model, the `ki-coordination` standard carries the behaviour they set, and Kris's words from them are in this work's [decisions log](../decisions.md); Git history holds them.
 
 ## Restart model
 
