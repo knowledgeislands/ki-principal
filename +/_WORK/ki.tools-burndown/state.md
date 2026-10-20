@@ -13,6 +13,8 @@ method_read: 9c17df3c
 
 Mark at 23:45 BST, 19 October.
 
+- 01:59 BST: received prunegit2 (KI-MCP-GIT-FND-006 pruned, pushed). HOOK-TESTS from ki.ways-of-working: hooktests queued after estpush2 in ki-agentic-harness; reply when main is green.
+- 01:57 BST: Kris to bed again; no timed updates; overnight autonomy. Received acceptki2 (154, 161, 164, 166 Done; 152, 167 In progress, CAPTURE-FOLLOWUPS), acceptmgit (four Done, pushed), qreview10 (eight applied; SRC-PLACEMENT, WORKTREE-GATE parked for Kris) and PIN-LINKS. Launched prunegit2, then after estpush2: recordki, yorkmsg, kidesign.
 - 01:50 BST: Kris back; 10-minute updates; Summary given. Running: acceptki2, acceptmgit, qreview10 (11 queries), estpush2.
 - 01:45 BST: received prunegit: KI-MCP-GIT-FND-006 stays Done, unpruned, because KB-DOTFILES-UE-098 links it; PIN-LINKS sent to ki.chezmoi through State of play. Prune it once that comes back.
 - 01:44 BST: received release3 (v0.12.0 out), knipfix (KI-TOOL-KI-CLI-167), acceptki, burnki (161, 154, 164, 152 at Awaiting review; 165 adopted), burnmgit (026, 027, 029, 030 at Awaiting review), cimcp (CI-1 in three MCPs, pushed), estfix (six repositories, three pushed) and estmig-ki (18 KI repositories converted; ki-design refused on GitHub settings). Launched acceptki2, acceptmgit, qreview10 and estpush2.

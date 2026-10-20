@@ -78,3 +78,21 @@ Kris, 20 October 00:27 BST: "I'm going to bed now. I want you to keep looking ev
 
 - 01:44 BST receive: ki v0.12.0 released (Release run green, Homebrew 0.12.0). acceptki verified KI-TOOL-KI-CLI-166, 167, KI-TOOL-MGIT-CLI-026 and 027 but could not accept (none tier); relaunched as acceptki2 and acceptmgit with the prune tier, covering everything at Awaiting review, plus SIZE-GAP a). HOLD-PUSH (estfix) answered by the push style: hnr-principal, legal-principal and acquire stay unpushed under other sessions' commits. Open queries from burnki, acceptki, estfix and estmig-ki go to qreview10 under TO-DONE.
 - Kris, 20 October 01:50 BST: "I'm back, so let me know what the current situation is, and the latest summary is, so that I can answer some questions. You can start with 10-minute updates. I can concentrate on what's upstanding." Taken as: OVERNIGHT ends, Kris is present; timed updates every 10 minutes, with the waiter still waking on any run's finish; HIGH-APPLY and TO-DONE stand, and queries that stay medium or low after review now go to Kris.
+
+## Bed again (20 October, about 01:58 BST)
+
+Kris: "I don't think I really need a 10 minute update so I'm not here right. So what I really want you to do is get on with it. I'm going to bed now so I want to be able to set the right message to all of our threads so when I come back it's done and I'm not actually stuck waiting."
+
+Taken as: no timed updates; overnight autonomy again, with HIGH-APPLY and TO-DONE standing; the waiter wakes every 10 minutes to receive runs and launch the next unit; a query that stays medium or low after blind review is parked for Kris's return and re-reviewed on later sweeps.
+
+## Applied after qreview10 (20 October, 01:58 BST)
+
+- CANCEL-MERGE-BURNKI and CANCEL-MERGE-ACCEPTKI: reviewer high, so KI-TOOL-KI-CLI-160, 140 and 125 stay as they stand; the message and prune capture waits on CAPTURE-FOLLOWUPS.
+- HOOK-LOCAL a), reviewed high: a marked local block the host keeps verbatim, once KI-HARNESS-GOV-225 recognises it.
+- CLI-OUTPUT: reviewer high, split: progress to standard error after a consumer inventory; `--json` replaces `--format` only with an agreed consumer migration, because the Observatory calls `--format`.
+- VALIDATOR-HOME a), reviewed high. CI-EVIDENCE a), reviewed high. YORK-COMMITMSG a), reviewed high.
+- KI-DESIGN-REFUSAL: reviewer high, local-only hook conversion, GitHub settings untouched.
+- PKGLESS-GATE a), reviewed high: keep the homebrew-tap and ki-specifications gates; their shape ownership goes to ki.ways-of-working with NO-GATE.
+- PIN-LINKS returned by ki.chezmoi at 01:52: prunegit2 prunes KI-MCP-GIT-FND-006.
+- acceptki2: KI-TOOL-KI-CLI-154, 161, 164 and 166 Done and pruned; 152 and 167 back to In progress for want of follow-up identifiers. acceptmgit: KI-TOOL-MGIT-CLI-026, 027, 029 and 030 Done, pruned and pushed.
+- HOOK-TESTS from ki.ways-of-working (01:57): the harness hook tests failing on `main` fall under this work's hooks migration; hooktests repairs them after estpush2, and this work tells ki.ways-of-working when `main` is green.
