@@ -183,3 +183,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 149 (2026-10-20T00:33:00Z)
 
 - Pointer: REREVIEW-SCOPE a), taken under OVERNIGHT with confidence high: round 3 of KB-DOTFILES-UE-090 gets a focused read-only re-review of chezmoi `f3021f2` against r3-review3's guard defect, because the earlier reviews already passed the rest; on a pass the record moves to Awaiting review.
+
+## Decision 150 (2026-10-20T00:48:00Z)
+
+- Pointer: 093-PREFLIGHT a), taken under OVERNIGHT with confidence high (reviewed: the blind review pre093-blind chose a) independently): KB-DOTFILES-UE-093's read-only dependency preflight in the Emerge test is approved as Ready and built as a source-only run, because repairing today's checkout does not stop a future incomplete checkout failing without its setup remedy.
