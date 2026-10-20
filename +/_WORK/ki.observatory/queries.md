@@ -12,7 +12,7 @@ From obs-app044-plan at 00:35 BST, medium. obs-review-4 (Codex, high) agreed on 
 
 ### TEN-COMMITS - keep the Git view detail panel's ten-commit list
 
-From obs-vis041-build at 01:15 BST, medium: it now overlaps the new unpushed and earlier lists; recommended drop it in a follow-up after acceptance. In blind review (obs-review-5).
+From obs-vis041-build at 01:15 BST, medium: it now overlaps the new unpushed and earlier lists; recommended drop it in a follow-up after acceptance. obs-review-5 (Codex, high) disagreed: c) shorten it to commits older than the earlier five, keeping all ten when nothing is unpushed, because then the ten are the only history shown. Stays medium, both views to Kris.
 
 ## Parked
 
