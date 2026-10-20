@@ -5,7 +5,7 @@ since: 2026-10-20T01:30:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-20T01:41:00Z
-method_read: f4d6c521
+method_read: 071567a1
 ---
 
 # ki.chezmoi state
@@ -18,7 +18,7 @@ method_read: f4d6c521
 - IWORK, STYLE-LINK and DIR-PRUNE are committed in chezmoi (`2470321`, `7ac9047`, `d5ac9c9`, unpushed) and the two Claude targets are applied and verified on Sol (Decision 134): settings unchanged, 58 directories recorded.
 - Sol's mcporter daemon restarted at 23:29 BST (112 children, 6.3 GB, cleared); the leak stays in KB-DOTFILES-UE-100.
 - KB-DOTFILES-UE-090 gaps 2 and 7 to 10 planned (chezmoi `609b3b6`); BRINGUP-CHECK a) decided (Decision 135).
-- REFRESH-BANNER from ki.ways-of-working applied: re-read at harness `f4d6c521`; pushes are `[unpushed]` housekeeping only.
+- REFRESH from ki.ways-of-working applied at harness `071567a1` (03:06 BST): SMALL-FIXES, CLAIM-CHECK, masked BLIND-REVIEW (options unranked, reviewer reads no report, queries.md or decisions.md), CLASS-FIX, GREEN-MAIN, OOS-WAKE, OWNER-QUEUE (cap eight; banner `📥 <n> to accept`), CAPTURE-GATE. hooks-blind (02:56) predates it and read the survey Done section; later reviews are masked.
 
 ## Next steps
 
