@@ -495,3 +495,7 @@ PKGLESS-GATE (from ki, routed from ki.tools-burndown, 01:57 BST): taken alongsid
 ## 2026-10-20 02:10 BST - owner direction, collect the take-stock notes
 
 Kris: "Okay, they've all done that now. Can you have a look at it?" Read back taken: lift the hold for the collection only; take-stock reads every thread's retro and writes one synthesis with ranked changes as queries. The other parked work and queued launches stay held.
+
+## 02:14 BST - received take-stock
+
+take-stock read ten retros (ki.agent-host and kb.personal-tower wrote none) and wrote `design/take-stock-2026-10-20.md` (`fd4e657b`): 8 working-well themes, 13 ranked not-working themes, 27 changes by owner. Eight queries copied to `queries.md`: BLIND-REVIEW, LAUNCH-DEFAULTS, CLAIM-CHECK, CLASS-FIX and GREEN-MAIN at high go to Kris now; CHECKOUT-ISOLATION, OOS-WAKE and OWNER-QUEUE at medium go to ts-review (Codex, masked Context and Query only, per the BLIND-REVIEW finding) first.
