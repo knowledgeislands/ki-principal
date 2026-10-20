@@ -162,6 +162,20 @@ c) Leave this reason undecided for now.
 
 d) Ask for a separate review of whether to retire the tool; this batch authorises no removal.
 
+### [ZED-WINDOW - A second mcporter window on Sol with a Zed start](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-100-mcporter-daemon-child-leak.md)
+
+**Context:** [KB-DOTFILES-UE-100](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-100-mcporter-daemon-child-leak.md) Sol's 30-minute read-only window saw no growth: 155 transports, 112 processes, about 5.2 GiB. All growth came in the daemon's first hour as 14 sets of 8 servers, seven of them 2 to 3 seconds after a Claude Code session launched from Zed; 32 sessions started outside Zed added none. That is a correlation, and the window cannot set a safe limit. The stage is Awaiting review (chezmoi `f6a36e5`).
+
+**Query:** Will you start a Zed Claude session yourself partway through one more 30-minute window on Sol?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed, an ordinary attended Zed start tests the strongest correlation within a bounded window) Authorise one more attended 30-minute Sol window, with you starting a Zed Claude session partway through.
+
+b) Review the Sol findings as they stand, and decide on a mitigation after Terra.
+
+c) Leave the evidence stage here.
+
 ## Parked
 
 None.
