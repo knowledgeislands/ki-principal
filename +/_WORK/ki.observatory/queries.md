@@ -16,7 +16,7 @@ From obs-vis041-build at 01:15 BST, medium: it now overlaps the new unpushed and
 
 ### MERMAID-HANDLER - strip hostile Mermaid handlers before the frame policy refuses them
 
-From obs-build-app046 at 01:35 BST, medium: recommended accept as is, as a review note. In blind review (obs-review-6).
+From obs-build-app046 at 01:35 BST, medium: recommended accept as is, as a review note. obs-review-6 (Codex, high) disagreed: b) capture a triage record to harden label sanitising, investigating the intermediate rendering path, keeping the policy; it found no bypass. Stays medium, both views to Kris.
 
 ## Parked
 
