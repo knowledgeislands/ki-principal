@@ -4,11 +4,27 @@
 
 ### FOOTER-PROVISIONALS - Confirm KI-TOOL-KI-CLI-134's three warning choices
 
-From accept2-tools-ki, high. KI-TOOL-KI-CLI-134 (`--allow` launch grants) reserves three choices for Kris: marker and report-path fixes delivered before grants; a bare report filename gives no warning; a differing report path is named once. Implemented and independently tested. a) confirm all three; the baseline evidence is repaired and the record resubmitted; b) say which choice changes.
+**Context:** From accept2-tools-ki. KI-TOOL-KI-CLI-134 (`--allow` launch grants) reserves three choices for Kris: marker and report-path fixes delivered before grants; a bare report filename gives no warning; a differing report path is named once. All three are implemented and independently tested.
+
+**Query:** Do the three warning choices stand as implemented?
+
+**Options:**
+
+a) (recommended, confidence high - implemented and independently tested) Confirm all three; the baseline evidence is repaired and the record resubmitted.
+
+b) Say which choice changes.
 
 ### OBS-ACT-VISUAL - Kris's own check of KI-OBSERVA-BRG-005
 
-From accept2-observatory, high. The Act board record's packet reserves a live check for Kris: repository-fetch and Rig-apply plan rows at 1440 and 760 px. a) Kris checks in the morning; BRG-005 stays awaiting review until then; b) return it to in progress if the check finds a defect.
+**Context:** From accept2-observatory. The Act board record's packet reserves a live check for Kris: repository-fetch and Rig-apply plan rows at 1440 and 760 px.
+
+**Query:** When does Kris make the live check of KI-OBSERVA-BRG-005?
+
+**Options:**
+
+a) (recommended, confidence high - the packet reserves the check for Kris) Kris checks in the morning; KI-OBSERVA-BRG-005 stays awaiting review until then.
+
+b) Return it to in progress if the check finds a defect.
 
 ## Parked
 
