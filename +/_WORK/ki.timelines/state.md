@@ -1,25 +1,28 @@
 ---
 id: ki.timelines
-state: handoff-to-supervisor
-since: 2026-10-19T23:43:12Z
+state: on-hold
+since: 2026-10-20T01:04:51Z
 received: 2026-10-19T22:26:30Z
 beat: null
 method_read: 84b61942
+reason: take stock on ways of working
+release: Kris says resume
 ---
 
 # ki.timelines state
 
 ## Now
 
-- Marked and sent to Kris at 00:43 BST on 20 October; the design is decided under OVERNIGHT-AUTONOMY and Kris may reverse any of it.
-- The [decided design](design/timelines-skill-design.md) names `ki-calendars` and carries a seven-step rollout plan and the KI-HARNESS-GOV-222 handoff, routed through State of play (HANDOFF-GOV-222).
-- Kris back at 01:49 BST on 20 October; OVERNIGHT-AUTONOMY ended. Open: OVERNIGHT-CONFIRM and CAPTURE-ADOPTION; 10-minute updates.
+- On hold from 02:04 BST on 20 October so Kris can take stock on ways of working; nothing was running, so the drain stopped nothing.
+- The [decided design](design/timelines-skill-design.md) names `ki-calendars` and carries a seven-step rollout and the KI-HARNESS-GOV-222 handoff, routed through State of play (HANDOFF-GOV-222).
+- [Retro](design/retro-2026-10-20.md) written at the hold.
 
 ## Next steps
 
-1. Kris confirms or reverses the overnight decisions (DESIGN-HIGH, DESIGN-REVIEWED, NAME-AND-PROVIDER).
-2. Rollout steps 2 and 3 run in 5G Emerge and legal-principal, outside this territory; capture their records once Kris agrees.
-3. The harness plans KI-HARNESS-GOV-222 from the handoff; step 1 builds the skill there.
+1. On resume, put OVERNIGHT-CONFIRM and CAPTURE-ADOPTION back under Open.
+2. Kris confirms or reverses the overnight decisions (DESIGN-HIGH, DESIGN-REVIEWED, NAME-AND-PROVIDER).
+3. Rollout steps 2 and 3 run in 5G Emerge and legal-principal; capture their records once Kris agrees.
+4. The harness plans KI-HARNESS-GOV-222 from the handoff; step 1 builds the skill there.
 
 ## Held
 
