@@ -702,3 +702,7 @@ KI-OBSERVA-OPS-003 delivered to awaiting review (`89f3978`, reload offer when th
 - ACCEPT-RIG-GATE (IMPORTANT): KI-TOOL-RIG-CORE-047 and -062 back to in progress; tools-rig's pre-commit runs Bats and fails SHELL-HOOK. Already routed to ki.tools-burndown as RIG-PRECOMMIT-BATS; the hooks rollout owns it under HOOK-GUARD. Line removed.
 - ACCEPT-RIG-ATTENDED: CORE-047 and -062 also need Kris's attended NordVPN, terra and ADR-KI-TOOL-RIG-009 checks; morning item. Line removed.
 - ACCEPT-RIG-PRUNE (IMPORTANT): pruning KI-TOOL-RIG-CLI-026, -CORE-057 and -DIST-011 would orphan Principal links; the final prune-only pass repairs those links to pinned hosted revisions first. Line removed.
+
+## 2026-10-20 06:41 BST - TECHNE-PRUNE-LINKS and the prune pass
+
+accept2-tools-techne accepted KI-TOOL-TECHNE-CLI-009 but could not prune it: live links in this work's `design/roadmap-sweep.md` and ki.agent-host's package. Same block as ACCEPT-RIG-PRUNE. One prune-links run, after the acceptance runs, rewrites each live link in the pruned-link form against a verified remote revision, then prunes; records whose last revision is only local are skipped. Line removed.
