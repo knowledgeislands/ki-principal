@@ -160,3 +160,7 @@ Taken as: CAPITAL-OF-CAPITALS a). ENACTMENT-ADMIN: the gate exists to protect Ad
 Kris: "Yes to all these: FOOTER-PROVISIONALS ... SPEC-SKETCH ... RIG-053-SHAPE ... PLAN067-READY ... DESIGN-DISPOSITIONS ... TOOLS-KI-SHAPES ... GOV225-CLOSE ... OPS009-SPLIT ... CALENDAR-LIBRARY ... LAYER-PATHS ... ENACTMENT-ADMIN - I meant a so do a review please"
 
 Taken as: a) on FOOTER-PROVISIONALS, SPEC-SKETCH, RIG-053-SHAPE, PLAN067-READY, DESIGN-DISPOSITIONS, TOOLS-KI-SHAPES, GOV225-CLOSE, OPS009-SPLIT (this grant lifts the capture gate for the split only), CALENDAR-LIBRARY and LAYER-PATHS. ENACTMENT-ADMIN: Kris means "Admin only" - the Enactment gate covers `Admin/` alone and Pillars and Resources leave it, which supersedes SDR-KI-PRINCIPAL-002's gate and rewrites AGENTS.md, the Enactment Process and the portable model; it goes to one blind review before any edit. EMERGING and STRUCTURE-TODOS were not in this batch and stay open.
+
+## 2026-10-20 23:29 BST - messages: TOOLS-KI-SHAPES harness line
+
+The tools-ki sign-off run left a line here: make CLEAN-1 to CLEAN-7 mechanical in the harness ki-git catalogue under KI-TOOL-KI-CLI-140. Covered by Kris's TOOLS-KI-SHAPES a); launched as wow-harness-clean after the GOV-225 acceptance, with the State of play form request (State of play's queue is `+/_WORK/ki/messages.md`, not the path the first brief guessed). Line removed.
