@@ -22,7 +22,7 @@ Knowledge Islands Principal, the KI Agentic Harness, `tools-ki`, KI Specificatio
 
 ## Approach
 
-[[Introduction/Introduction|Introduction]] holds the full specification. The island is a canonical, living record that informs decisions, onboarding, tooling and AI interactions, and outputs from interactions feed back into it. Notes are interconnected with `[[wikilinks]]` and tags, in a loose Zettelkasten: quality over quantity.
+[Introduction](Pillars/Philosophy/Introduction/Introduction.md) holds the full specification. The island is a canonical, living record that informs decisions, onboarding, tooling and AI interactions, and outputs from interactions feed back into it. Notes are interconnected with `[[wikilinks]]` and tags, in a loose Zettelkasten: quality over quantity.
 
 - **Tone**: structured and direct, with depth where warranted; not corporate or flowery.
 - **Language**: British English throughout.
@@ -30,15 +30,15 @@ Knowledge Islands Principal, the KI Agentic Harness, `tools-ki`, KI Specificatio
 
 ## Library structure
 
-[[Structure]] holds the full specification and `ki-repo-kb` the zone model. Local choices:
+[Structure](Pillars/Philosophy/Model/Conventions/Structure/Structure.md) holds the full specification and `ki-repo-kb` the zone model. Local choices:
 
-- `Admin` holds governance (`Admin/Governance/`) and operations (`Admin/Operations/`), per [[GDR-KI-PRINCIPAL-002-admin-zone-governance-and-operations|GDR-KI-PRINCIPAL-002]]. [[Admin/MEMORY|MEMORY]] is the root memory index.
+- `Admin` holds governance (`Admin/Governance/`) and operations (`Admin/Operations/`), per [GDR-KI-PRINCIPAL-002](Admin/Governance/Decisions/GDR-KI-PRINCIPAL-002-admin-zone-governance-and-operations.md). [MEMORY](Admin/MEMORY.md) is the root memory index.
 - `Streams/Roadmap/` holds flat work records; recurring obligations are Activity notes in `Admin/Operations/Activities/`.
 - Calendar: daily, meeting and monthly index notes are siblings in `Calendar/YYYY/YYYY-MM MonthName/`, linked from the daily note; weekly notes live in `Calendar/YYYY/YYYY By Week/` with its own index note.
 
 ### Pillars/Resources boundary (strictly enforced)
 
-`Pillars` holds internal knowledge owned by the island; `Resources` holds external reference that exists independently. Internal content found in `Resources` belongs in `Pillars`. See [[Pillars/Philosophy/Model/Conventions/Structure/Structure#Library|Library]].
+`Pillars` holds internal knowledge owned by the island; `Resources` holds external reference that exists independently. Internal content found in `Resources` belongs in `Pillars`. See [Library](Pillars/Philosophy/Model/Conventions/Structure/Structure.md#library).
 
 ### Changing canonical content (strictly enforced)
 
@@ -46,20 +46,20 @@ Changes to `Admin`, `Pillars` or `Resources` must go through the [Enactment Proc
 
 ### Index notes (strictly enforced)
 
-Every folder has a same-name index note, created with the folder and shaped as `ki-repo-kb` describes under index note shape. Calendar year folders need a `YYYY.md` index; month and week folders use their periodic notes instead. `+` and `-` are working areas and are exempt ([[Outbound]] documents `-`).
+Every folder has a same-name index note, created with the folder and shaped as `ki-repo-kb` describes under index note shape. Calendar year folders need a `YYYY.md` index; month and week folders use their periodic notes instead. `+` and `-` are working areas and are exempt ([Outbound](-/Outbound.md) documents `-`).
 
 ## Knowledge management
 
 `ki-repo-kb` owns querying, saving, updating, linking, metadata and session digests. Local rules:
 
 - Confirm with the user before writing changes.
-- Log a session error in [[Mistakes and Lessons]], apply the fix and record the resolved lesson.
+- Log a session error in [Mistakes and Lessons](<Admin/Operations/Mistakes and Lessons.md>), apply the fix and record the resolved lesson.
 - Never write to `+/_Voice Notes/`; the voicenotes-sync plugin manages it.
-- [[Routing Rules]] adds island-specific routing to [[Structure]].
+- [Routing Rules](<Admin/Governance/Conventions/Admin Conventions/Routing Rules.md>) adds island-specific routing to [Structure](Pillars/Philosophy/Model/Conventions/Structure/Structure.md).
 
 ## Knowledge Island specifics (strictly enforced)
 
-Public island identity, task prefix, skill triggers, schedules and adopted integration policy live in `Admin/Governance/`, with the [[Admin/Governance/Charter|Charter]] as the primary reference and [[Admin/Governance/Conventions/Admin Conventions/Integrations|Integrations]] for platform configuration. The local registry owns physical checkout and source-store paths; private runtime identities and credentials stay outside public governance. Automations and skills read their configuration from these notes at runtime and never hardcode it.
+Public island identity, task prefix, skill triggers, schedules and adopted integration policy live in `Admin/Governance/`, with the [Charter](Admin/Governance/Charter.md) as the primary reference and [Integrations](<Admin/Governance/Conventions/Admin Conventions/Integrations.md>) for platform configuration. The local registry owns physical checkout and source-store paths; private runtime identities and credentials stay outside public governance. Automations and skills read their configuration from these notes at runtime and never hardcode it.
 
 ## Decision records
 

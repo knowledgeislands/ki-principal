@@ -16,4 +16,4 @@ Resources holds external reference: material that exists independently of Knowle
 
 ## Productivity
 
-[[Productivity]] holds reference on personal methods for capturing, organising and acting on work. It currently describes the Bullet Journal method, which the island's Calendar templates adapt for rapid logging and migration. Read it alongside the Calendar passage of [[Structure]] to see the source method and the island's adaptation side by side.
+[Productivity](Productivity/Productivity.md) holds reference on personal methods for capturing, organising and acting on work. It currently describes the Bullet Journal method, which the island's Calendar templates adapt for rapid logging and migration. Read it alongside the Calendar passage of [Structure](../Pillars/Philosophy/Model/Conventions/Structure/Structure.md) to see the source method and the island's adaptation side by side.

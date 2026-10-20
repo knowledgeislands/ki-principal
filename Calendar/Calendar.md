@@ -27,4 +27,4 @@ The Calendar folder contains all time-stamped notes: daily notes, meeting notes,
 
 ## Contents
 
-- [[Calendar/2026/2026|2026]] - periodic notes for 2026
+- [2026](2026/2026.md) - periodic notes for 2026

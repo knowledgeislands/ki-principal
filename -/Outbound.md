@@ -24,6 +24,6 @@ Files carrying `note_type: session-digest` that are found outside `-/` (e.g. in 
 - **Why apart from the inbox.** `+/` holds material arriving for triage and `-/` holds material leaving. The two flows have opposite owners and end states: inbound items are filed into a zone or discarded, outbound items are delivered or deleted. Keeping them apart means neither queue hides the other.
 - **Why not a zone.** Zones hold content the island keeps and governs. Staging content is transient by definition, so `-/` carries no same-name index and is exempt from the zone rules rather than pretending to be a durable home.
 
-[[Session Digest]] explains the digest convention and [[Structure]] places both staging areas in the island layout.
+[Session Digest](<../Pillars/Philosophy/Model/Conventions/Notes/Session Digest.md>) explains the digest convention and [Structure](../Pillars/Philosophy/Model/Conventions/Structure/Structure.md) places both staging areas in the island layout.
 
-See [[Admin]] for move governance and [[CLAUDE]] for base-level configuration.
+See [Admin](../Admin/Admin.md) for move governance and [CLAUDE](../CLAUDE.md) for base-level configuration.

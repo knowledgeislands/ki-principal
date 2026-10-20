@@ -17,4 +17,4 @@ Productivity holds external reference on personal methods for capturing, organis
 
 ## Bullet Journal
 
-[[Bullet Journal]] describes Ryder Carroll's Bullet Journal method: rapid logging with typed bullets, the core collections, and the monthly migration that forces each open task to be carried forward, scheduled or dropped. It also records which parts map cleanly onto Obsidian daily, weekly and monthly notes and which need adaptation. The island's own marker legend and migration convention, built on this method, live in the Calendar passage of [[Structure]].
+[Bullet Journal](<Bullet Journal.md>) describes Ryder Carroll's Bullet Journal method: rapid logging with typed bullets, the core collections, and the monthly migration that forces each open task to be carried forward, scheduled or dropped. It also records which parts map cleanly onto Obsidian daily, weekly and monthly notes and which need adaptation. The island's own marker legend and migration convention, built on this method, live in the Calendar passage of [Structure](../../Pillars/Philosophy/Model/Conventions/Structure/Structure.md).
