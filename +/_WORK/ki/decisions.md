@@ -4,10 +4,6 @@
 
 - Kris deferred Project closures until acquire-ChatGPT knowledge items are checked against them.
 
-## 2026-10-09 - Website records held
-
-- Kris: Keep KI-WEB-SITE-001 and KI-WEB-SITE-039 on hold.
-
 ## 2026-10-09 - Projects and roadmap count
 
 - Kris wants everything captured in Projects/threads, ideally as ideas or roadmap items, and the roadmap count brought down.
@@ -21,18 +17,13 @@
 
 - PIN: Kris chose (a) - tools-ki CI builds ki from its own source instead of taking a pin; KI-HARNESS-GOV-168 excludes tools-ki.
 
-## 2026-10-09 - STATE retention rule
-
-- STATE: Kris approved (1) a run-folder retention rule in ki-delegation, parked with the ways-of-working Project
-
 ## 2026-10-11 - macOS defaults split parked
 
 - Kris (2026-10-11): Parked: splitting macOS defaults out of Rig (not now).
 
 ## 2026-10-12 - DESIGN-SYSTEM
 
-- Kris, 2026-10-12 05:40 BST: DESIGN-SYSTEM approved - roll ki-design-system out to every apps-* repository (website and app repos). Read-only assessment now; changes land after the step 9 renames so no agent works in a folder that is moving.
-- Kris, 2026-10-12 05:58 BST: DESIGN-SYSTEM - Techmedix sites wait until adopted; kris.me.uk gets full conformance; midnight.ninja holds three sites (apex, rig, tower) and Kris is minded to split it.
+- DESIGN-SYSTEM (Kris, 12 October): roll ki-design-system out to every apps-* repository; governs the website's design adoption, now ki.observatory's lane ([ki.observatory decisions](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/decisions.md)).
 
 ## 2026-10-12 - SPEC-REVIEW and KI-RELEASE order
 
@@ -53,41 +44,23 @@
 
 ## 2026-10-14 - ROADMAP-SIZING
 
-- Kris 2026-10-14: ROADMAP-SIZING agreed: one design record to ways-of-working; daily count snapshots first, sizing and ID allocation after.
-
-## 2026-10-14 - ROUTE-LOCAL
-
-- ROUTE-LOCAL (Kris, 14 Oct, pasted from acquire-intake): act on the prepared Master message. Coordinate receiving ownership of KB-ACQUIRE-002 and KB-ACQUIRE-003 with knowledge-acquisition, and return the proposed MCP home, hosting and concrete first-probe scope for review before implementation. Review only: no records, repositories, code, migration, credentials, live tests, deployment or push.
-
-## 2026-10-14 - GRANOLA-SUPPORT, BINARY-HOME and ACQ-FOCUS
-
-- Kris, 2026-10-14 ~21:40 BST, replies to the re-bootstrap report. GRANOLA-SUPPORT: adopt KI-TOOL-KI-CLI-128 as the tools-ki half and create only the harness record; local delivery; migration separately gated.
-- Kris, 2026-10-14 ~21:40 BST, replies to the re-bootstrap report. BINARY-HOME: iPhone check first, then the private mcp-acquire-chatgpt repo and local synthetic build; 'a candidate that should be handed off to the Knowledge Acquisition project/thread'.
-- Kris, 2026-10-14 ~21:40 BST, replies to the re-bootstrap report. ACQ-FOCUS: adopt as delivery priority (mac-studio-bootstrap and agent-host first; hold unchanged; policy wording only when asked).
+- ROADMAP-SIZING (Kris, 14 October): one design record to ways-of-working; carried in [ki.ways-of-working's roadmap-sizing design note](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/roadmap-sizing-and-burn-down.md).
 
 ## 2026-10-15 - FW-ADR
 
-- Kris, 2026-10-15, FW-ADR: "On a pass, the acceptance run accepts KI-TOOL-RIG-CORE-047 and marks both ADR-KI-TOOL-RIG-009 and ADR-KI-TOOL-RIG-010 accepted."
+- FW-ADR (Kris, 15 October): a passing acceptance run accepts KI-TOOL-RIG-CORE-047 and marks ADR-KI-TOOL-RIG-009 and ADR-KI-TOOL-RIG-010 accepted; governs CORE-047's acceptance with ki.chezmoi and ki.mac-studio-setup ([ki.mac-studio-setup decisions](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.mac-studio-setup/decisions.md)).
 
 ## 2026-10-17 - Kris's intake dump, items not yet homed
 
 Kris: "I've now destroyed all my notes about it" - this log is the durable capture until each item reaches its owning thread.
 
-- **MGIT-ESCAPE** (tools burndown, tools-mgit): "we could do with better output from mgit. A lot of the commands in mgit are effectively pass-throughs ... anything which I create at the mgit level overrides the pass-through ... There should be some kind of escape hatch". Proposed: `--bare` runs the git subcommand in each child bypassing mgit's own command; `--raw` (rather than `-B`) runs any command as a shell in each repository directory; mind clashes with the physical and follow-symlinks options. "Git has got work tree. We've got mgit work tree, so it'd be nice to have an escape hatch".
-- **MGIT-OUTPUT** (tools-mgit): "I really want MGIT to have much better output ... if I do MGIT status over the entire estate, because there's like 50 projects, it scrolls off the screen ... I really, really want this kind of idea of it giving me a progress bar ... and then it gives me the results at the end ... anything which has got no changes, it doesn't tell me about it, it only tells me ... the ones that have changed ... sync could be the way to try that out first ... if it pulls and it gets a rebase or a merge warning, it should effectively automatically abort that and give me a warning instead ... some of this might be better off done as like we did with the Git Almanac, so we can put some code behind it". References: the Claude Code terminal UI ("a little windowing toolkit within a prompt"), Omarchy (DHH's Arch distro).
-- **MGIT-ESCAPE** (part 1) restated: bare and raw modes let "commands that I wrap over the top of existing ones".
 - **CAPTURE-ONLY**: "I don't want you to start spinning out loads of designs from this. The whole thing here is to capture everything ... and then we can go through a prioritization phase". "I don't want them to go into intake ... these can become part of this ideas of stuff".
 - **DIAGRAMS-BLACK** (2026-10-17 14:10 BST): "the preview and markdown for the themes.md is largely speaking black diagrams. I can see some kind of faint things on it, but whatever you're doing to render those, it's not looking right." Screenshot: dark frames and boxes on a black canvas, no legible text.
 
 ## 2026-10-17 14:20 BST - replies to the 14:02 BST summary
 
-- **AWAITING-REVIEW:** "Clear the backlog one repository group at a time through ki-accept: tools burndown presents KI-TOOL-KI-CLI-126, -130, -133, -141 and KI-TOOL-MGIT-CLI-017 after the tools-ki push; ways of working presents KI-HARNESS-GOV-195, -198, -203 and KI-HARNESS-OPS-005; knowledge acquisition presents KI-PRINCIPAL-MOD-006; the five personal records wait for the personal master thread; the owning threads prune KI-PRINCIPAL-ECO-014 and KI-TOOL-RIG-CORE-059."
 - **KI-AGENTS-NAME:** "Keep "agents"; ways of working logs the decision in its decisions log and nothing is renamed."
 - **GO-AHEAD** (2026-10-17 14:22 BST): "hopefully, all this gets captured back into Knowledge Island in the Knowledge Base, and then there's the observatory's built, we can start to look at and understand all these in a reader-only fashion. Not everything that we do needs to be in the public set of information on the website. Although, of course, much of this would be. So, you've got permission to get on with anything."
-
-## 2026-10-19 23:08 BST - ROADMAP-GROWTH
-
-- **ROADMAP-GROWTH:** "the roadmap keep growing, I need to get this sorted, help me get there". Taken as: measure the territory's roadmaps and their inflow and closure, diagnose the growth, and bring Kris a burn-down plan with a few decisions. Dispatched `roadmap-census`, read-only; no record is changed until Kris decides.
 
 ## 2026-10-19 23:09 BST - PILOT-SEED-HOME
 
@@ -95,51 +68,19 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 
 ## 2026-10-19 23:45 BST - ANSWERS
 
-- **ANSWERS:** "I agree with all the recommendations in here, apart from the roadmap cap, I don't think we need one, I just think we need to focus on what we're doing now, which is to get through it." Read back as taken, option a) on eight queries and no cap on the ninth:
-  - REVIEW-HOLD a): ki.agent-host, ki.estate-factorisation and ki.paperclip-capture-and-rebuild return to `+/_WORK/` on hold; CHECKLIST and the `update-ki-pin.yml` payload mismatch are copied into the live ki.baseline-rollout's parked queries; then the old ki.baseline-rollout, ki.regular.command-centre and ki.regular.skill-reviews are deleted. Dispatched `review-hold-apply`.
-  - HOMELESS-STANDING a): one `homeless:` line per rule in state.md; PRFLOW, PIN, RIG-REL-PATCH and the burn-down focus routed to ki.ways-of-working for a home in a standard or `AGENTS.md`.
-  - MODEL-FALLBACK a): strike it at the next mark, and treat later expired time-limited entries the same way.
-  - THREADS-CHECKINS a): closed as delivered by the work model; raise again only if check-ins still feel excessive.
-  - TECHNE-FOCUS a): revise the Techne Programme Hold through the Enactment Process to a focus rule, Mac Studio and agent host only, other Techné work kept as ideas, carrying forward the hold's operating bounds; Kris approves the exact wording before GDR-KI-PRINCIPAL-004 is superseded. Dispatched `techne-focus` to draft it.
-  - CAPTURE-GATE a): runs never create records; the owning work's coordinator captures only a blocker, a defect seen failing or a Kris request; ideas go to Project notes; small audit fixes need no record. Added to every brief from now; method change routed to ki.ways-of-working.
-  - ROADMAP-CAP: no cap and no weekly cap measure; the focus is getting through the burn-down.
-  - LANE-OWNERS a): ki.tools-burndown the tools repositories and mcp-git-audit; ki.observatory apps-observatory.local, ki-design and the website's design adoption; ki.ways-of-working ki-agentic-harness, ki-principal and ki-specifications; ki.chezmoi chezmoi; ki.mac-studio-setup the agent-host hold cluster and ki-techne-harness; the 12 email-routing drafts to one hold until a Project opens (dispatched `email-routing-hold`). Route lines sent to each lane.
-  - BURN-WAVE-1 a): each lane runs one `ki-accept` pass on remaining Awaiting review records and brings Kris its cancel, merge and idea list as a single query; carried in each lane's route line.
+- **CAPTURE-GATE a)** (Kris, 19 October): runs never create records; the owning work's coordinator captures only a blocker, a defect seen failing or a Kris request; ideas go to Project notes; small audit fixes need no record. In every brief; the method change is routed to ki.ways-of-working.
+- **ROADMAP-CAP** (Kris, 19 October): "apart from the roadmap cap, I don't think we need one, I just think we need to focus on what we're doing now, which is to get through it." No cap and no weekly cap measure.
+- LANE-OWNERS a) (Kris, 19 October): one lane per repository group, tools-rig moved to ki.mac-studio-setup and the email-routing drafts passed to HNR since; carried in each lane's decisions ([ki.tools-burndown](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/decisions.md), [ki.mac-studio-setup](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.mac-studio-setup/decisions.md), [ki.ways-of-working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/decisions.md)).
+- BURN-WAVE-1 a) (Kris, 19 October): each lane runs one `ki-accept` pass and brings Kris its cancel, merge and idea list as one query; carried in each lane's state ([ki.tools-burndown](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/state.md), [ki.observatory](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/state.md)).
 
 ## 2026-10-19 23:48 BST - TRIAGE-ALL
 
-- **TRIAGE-ALL:** "Okay, there's a lot of items in triage. I need them all triaging. So I want them all running out with the high order functions and anything which is High confidence recommended. Let's move it into now and get it done. Especially to focus on anything to do with the tools burn-downs first." Taken as: every lane triages all its triage records now, high-confidence adoptions go straight to Now and are delivered, the rest come to Kris; ki.tools-burndown first. IMPORTANT route lines sent to the five lanes. This was held in `state.md` while `sop-mark-2` rewrote the log.
-
-## 2026-10-19 23:49 BST - RECEIPTS
-
-- 23:49 BST: `email-routing-hold` received. All 12 are held (mcp-m365 `fdd6708`, mcp-gsuite `2fd5471`, not pushed), and EMAIL-OWNER is copied to queries.md for blind review. Follow-up with no record: drop the dangling `KI-MCP-M365-TOOL-010` from KI-MCP-M365-TOOL-012's `blocked_by`.
-- Correction: State of play's commit `6faf8f0c` also took in `review-hold-apply`'s staged renames of the three live folders. They were content-free moves, so nothing was lost. From now on, commits carry explicit paths on the commit command itself.
-- 23:49 BST: `sop-mark-2` received. The log is struck (`c3847f88`), and `design/` is unchanged. Follow-ups routed: `design/personal-acquire-handover.md` to ki.knowledge-acquisition, `design/observatory-goals/` to ki.observatory, and MGIT-ESCAPE and MGIT-OUTPUT to ki.tools-burndown as ideas.
-- 23:51 BST: `review-hold-apply` received. The three live packages are back on hold in `+/_WORK/` (`e7ad9671`); CHECKLIST and PIN-PAYLOAD are parked in ki.baseline-rollout; the old ki.baseline-rollout and ki.regular.command-centre are deleted. Its SKILL-REVIEWS-DELETE query is settled under Kris's REVIEW-HOLD approval: the local `origin/main` ref, fetched at 23:22 BST, already shows the acceptance and prune, so `skill-reviews-delete` is dispatched to delete the folder and pin the KI-HARNESS-GOV-202 link.
-- 23:51 BST: LANE-OWNERS return from ki.mac-studio-setup. tools-rig is that work's own scope and its `rig-triage` is already running, so tools-rig is taken off ki.tools-burndown's lane and both works have been told. ki-techne-harness is outside mac-studio's scope and under the Techne Programme Hold, so its triage waits with the on-hold ki.agent-host until the TECHNE-FOCUS wording is settled. Line removed.
-- 23:53 BST: `techne-focus` received. It captured KI-PRINCIPAL-GOV-035 at State of play's request (`6143b6b0`) with the exact policy and GDR wording. Nothing canonical has changed. TECHNE-WORDING is copied to queries.md, and `query-review-4` (Codex, high) is dispatched for a blind review of it and EMAIL-OWNER. Its follow-ups (the harness and tools-techne citation sweep, and the Agent host and Techne note rewrites) wait for the approved wording.
-- 23:53 BST: MARK-FOLLOWUP from ki.tools-burndown. MGIT-ESCAPE and MGIT-OUTPUT now live as ideas in its Project note; strike them at the next mark. Line removed.
-- 23:54 BST: `skill-reviews-delete` received. The harness skill-reviews folder is deleted, and the KI-HARNESS-GOV-202 link is pinned to `8c5b5575` (ki-agentic-harness `aa888e33`, not pushed). REVIEW-HOLD is now fully delivered.
-- 23:56 BST: `query-review-4` received, blind. It agrees on EMAIL-OWNER (raised to high: hnr.email-routing is itself paused until Kris resumes HNR work) and disagrees on TECHNE-WORDING (approve with named changes, keeping the two readiness gates). queries.md is updated, and the work goes to Kris.
+- TRIAGE-ALL (Kris, 19 October): every lane triages all its triage records, high-confidence adoptions go to Now and are delivered, the rest come to Kris; carried in each lane ([ki.observatory](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/decisions.md), [ki.chezmoi](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.chezmoi/decisions.md), [ki.ways-of-working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/state.md)).
 
 ## 2026-10-20 00:07 BST - ANSWERS
 
-- **EMAIL-OWNER:** "Well, not now. I think the email owner stuff, if that's all to do with H and R, it can go to the H and R area. We don't need it in here." Taken as: no work now. The 12 email-routing records pass to Humans not Robots, owned by hnr.email-routing and held until Kris resumes HNR work. They leave the KI lanes, and a route line is sent to hnr.email-routing.
-- **TECHNE-WORDING:** "Let's get on with the technique word in, yes." Taken as option a): approve both texts as drafted, retiring the two readiness gates and adding the `Idea:` storage rule. Dispatched `gov035-deliver` to take KI-PRINCIPAL-GOV-035 to Awaiting review.
-- **PROGRESS-ALL:** "Can you go through any items which are triaged in knowledge islands and get them progressed? We need to move as much as we can forwards in the roadmap so it gets done." Taken as: TRIAGE-ALL stands. The ki.tools-burndown, ki.mac-studio-setup, ki.observatory and ki.chezmoi lanes are running; `roadmap-census-2` finds any repository whose triage pile has no live pass.
-- **HOLD-REVALIDATE:** "And then things that are on hold, we need to re-validate everything, make sure it really is. On hold, why is anything on hold in the observatory, for example?" Taken as: re-validate every hold across the territory, answering Observatory first. Releases go to their owning works; cancellations come to Kris as one query. Dispatched as part of `roadmap-census-2`.
-- 00:17 BST: `roadmap-census-2` received.
-  - Triage: 28 records left, down from 58 at 23:00 BST on 19 October.
-  - Holds: of the 25 KI roadmap holds, 3 are met, 2 are stale or deadlocked and 20 are valid. Every Observatory hold is real; KI-DESIGN-OBS-015 waits on an answer rather than a dependency.
-  - Cancellations: none found, so HOLD-CANCEL does not go to Kris.
-  - Routed under PROGRESS-ALL and HOLD-REVALIDATE: ki.observatory, ki.ways-of-working, ki.chezmoi, ki.tools-burndown, ki.regular.registry-removal and ki.paperclip-capture-and-rebuild.
-  - WOW-RESUME a) is taken as covered by Kris's 20 October instruction. ki.ways-of-working needs a session to pick it up.
-  - Held until KI-PRINCIPAL-GOV-035 is accepted: resume ki.agent-host, release KI-TOOL-RIG-DIST-011, KI-TECHNE-OPS-024 and KI-TOOL-TECHNE-CLI-006, and release KI-PRINCIPAL-MOD-008 to next, because its "roadmap mostly cleared" condition is met.
-  - Finding: `0836bcae` (ki.baseline-rollout) swept in gov035-deliver's renames. Check at gov035-deliver's receipt.
-- 00:20 BST: `gov035-deliver` received. [KI-PRINCIPAL-GOV-035](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-GOV-035-turn-the-techne-programme-hold-into-a-focus-rule.md) is at Awaiting review (`8895ff0f`, `d5522a38`). Its renames were also taken in by ki.baseline-rollout's `0836bcae`, with no loss. GOV035-ACCEPT (high) goes to Kris. TECHNE-FOLLOWUPS (medium) is sent to `query-review-5` (Codex, high) for blind review.
-- 00:20 BST: CANCEL-MERGE from ki.tools-burndown, which is acceptrig's proposal to cancel KI-TOOL-RIG-DIST-011, merge KI-TOOL-RIG-CORE-056 into CORE-053, and reject CORE-057 and CORE-064. Routed to ki.mac-studio-setup, which owns tools-rig and runs its own blind review. Note the conflict: roadmap-census-2 found DIST-011 about to be met by GOV-035 rather than obsolete. Line removed.
-- 00:23 BST: `query-review-5` received, blind, and agrees on TECHNE-FOLLOWUPS a), so its confidence is raised to high. Its finding: ki-principal was pushed at 00:21 BST, so the Techne repositories' links to the old policy are already broken.
-- 00:23 BST: NO-GATE from ki.tools-burndown routed to ki.ways-of-working, which owns the hooks standard. That work picks it up when it resumes. Line removed.
+- EMAIL-OWNER (Kris, 20 October): the 12 email-routing records pass to Humans not Robots, held by hnr.email-routing until Kris resumes HNR work.
+- PROGRESS-ALL (Kris, 20 October): "Can you go through any items which are triaged in knowledge islands and get them progressed?" TRIAGE-ALL stands; carried in the lanes with it.
 
 ## 2026-10-20 00:27 BST - OVERNIGHT
 
@@ -149,20 +90,29 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
   - Destructive actions still need a review that agrees.
   - No push: Kris's standing "never push without a request" is not lifted.
   - Checks run every 10 minutes when idle, and every 5 minutes while runs are going.
-- **GOV035-ACCEPT a)**, taken under OVERNIGHT: `gov035-accept` dispatched, which also releases KI-PRINCIPAL-MOD-008 to next.
-- **TECHNE-FOLLOWUPS a)**, taken under OVERNIGHT: `agent-host-resume` is chained after gov035-accept.
-- **WOW-RESUME a)**, taken under PROGRESS-ALL and OVERNIGHT: with no ways-of-working session open, `wow-triage` is dispatched as that package's worker.
-- 00:31 BST: `gov035-accept` received. KI-PRINCIPAL-GOV-035 is accepted and done (`a54cd931`), and KI-PRINCIPAL-MOD-008 is released to next. Links are clean. `agent-host-resume` dispatched. Note: State of play's OVERNIGHT entry and briefs were taken into ki.timelines' commit `e0489e42` during a lock race. Nothing was lost.
-- 00:32 BST: `wow-triage` received. It was overtaken: Kris resumed ki.ways-of-working at 00:23 BST, and that package's own `lane-triage` holds the triage, GOV-219 and GOV-224 delivery and GOV-215's release (COORD-12 is met in all eight Capitals). WOW-RESUME is recorded there (`187a557c`). NO-GATE and GFM-HOSTING-RULES (CI defines `build`, the bypass is by design, and the harness `.ki.toml` does not declare `branch-protection`) are in that package's queries, so its coordinator owns them.
-- 00:41 BST: `agent-host-resume` received.
-  - ki.agent-host is with worker (`8db17750`).
-  - Links fixed: ki-techne-harness `88cdf8a`, tools-techne `6853796`.
-  - Holds: KI-TOOL-TECHNE-CLI-006 is released to next (`e7dc018`), and KB-DOTFILES-UE-084 to soon (chezmoi `b6e0cb2`). KI-TECHNE-OPS-018 and KI-TECHNE-OPS-024 stay held (`9366496`).
-  - Queries: CLI006-PLAN a) is high and taken under OVERNIGHT, so `cli006-replan` is dispatched. CHAIN-GATE and CLI125-HOLD are medium, so they go to `query-review-6` (Codex, high).
-  - Note: the run amended its own unpushed commits to correct their `updated_at` stamps.
-- 00:41 BST: HANDOFF-GOV-222 from ki.timelines routed to ki.ways-of-working, which holds the harness roadmap. Line removed.
-- 00:44 BST: `query-review-6` received, blind, and agrees with a) on both. CHAIN-GATE is raised to high (reviewed: the Rig install kind is the explicit, already-adopted prerequisite, and releasing it adds no record). CLI125-HOLD is raised to high (reviewed: there is no ARM consumer). Both are taken under OVERNIGHT, and `hold-apply` is dispatched.
-- 00:50 BST: `cli006-replan` received. KI-TOOL-TECHNE-CLI-006 has been replanned in place (tools-techne `31c7b7d`) and stays draft at next. CLI006-CONFIRM (medium) is sent to `query-review-7` (Codex, high). CLI006-READY a) is itself your plan review, so it waits for Kris. The run left an outcome line uncommitted in ki.agent-host's decisions.md, to be committed after `hold-apply` finishes.
-- 00:52 BST: `query-review-7` received, blind. It disagrees on CLI006-CONFIRM, preferring b) at high: the Harness declares fresh-consent confirmation, because pass-through can reuse a stale export to destroy a clean host. The query keeps medium, shows both views, and is parked for Kris with CLI006-READY. It touches safety, so nothing is acted on overnight.
-- 01:02 BST: `hold-apply` received. KI-TOOL-RIG-CORE-048 is released to soon (tools-rig `512f21f`). KI-TOOL-KI-CLI-125 stays held, now only until an ARM host is needed (tools-ki `1baef525`). ki.agent-host is recorded (`ea182d66`). State of play commits cli006-replan's leftover Decision 73 line in ki.agent-host. `sop-housekeeping` is dispatched to close ki.regular.registry-removal, restate the Paperclip hold and prepare the estate-factorisation close-out query. A mark follows it.
-- 01:05 BST: `sop-housekeeping` received. ki.regular.registry-removal is finished and pruned (`910b3126`, `777309b7`). The Paperclip hold is restated against the Focus (`07c4a190`). PROJECT-CLOSE (medium) is sent to `query-review-8` (Codex, high) for blind review. `sop-mark-3` is dispatched.
+
+## Receipts since 23:46 BST on 19 October
+
+- 23:49 BST `email-routing-hold`: 12 records held (mcp-m365 `fdd6708`, mcp-gsuite `2fd5471`); received in `6faf8f0c`.
+- 23:49 BST `sop-mark-2`: log struck (`c3847f88`); follow-ups routed in `5c0b8c12`.
+- 23:51 BST `review-hold-apply`: three packages back on hold (`e7ad9671`); received in `b70aa0fe`.
+- 23:53 BST `techne-focus`: KI-PRINCIPAL-GOV-035 captured (`6143b6b0`); received in `6b6323df`.
+- 23:54 BST `skill-reviews-delete`: harness folder deleted (ki-agentic-harness `aa888e33`); received in `bc477a5f`.
+- 23:56 BST `query-review-4`: read-only; received in `bc477a5f`.
+- 00:17 BST `roadmap-census-2`: read-only; releases routed in `48e86233`.
+- 00:20 BST `gov035-deliver`: GOV-035 to Awaiting review (`8895ff0f`, `d5522a38`); received in `a137221e`.
+- 00:23 BST `query-review-5`: read-only; received in `13bc0fce`.
+- 00:31 BST `gov035-accept`: GOV-035 accepted and MOD-008 to next (`a54cd931`); received in `39e16944`.
+- 00:32 BST `wow-triage`: overtaken by ki.ways-of-working's own run (`187a557c`); received in `ebec00c8`.
+- 00:41 BST `agent-host-resume`: ki.agent-host with worker (`8db17750`), links fixed (ki-techne-harness `88cdf8a`, tools-techne `6853796`), CLI-006 to next (`e7dc018`), UE-084 to soon (chezmoi `b6e0cb2`), OPS-018 and OPS-024 held (`9366496`); received in `37e424b5`.
+- 00:44 BST `query-review-6`: read-only; received in `6cbb4ddb`.
+- 00:50 BST `cli006-replan`: CLI-006 replanned (tools-techne `31c7b7d`); received in `d363ff1c`.
+- 00:52 BST `query-review-7`: read-only, disagreed on CLI006-CONFIRM; received in `65f43da9`.
+- 01:02 BST `hold-apply`: CORE-048 to soon (tools-rig `512f21f`), CLI-125 reworded (tools-ki `1baef525`), recorded (`ea182d66`); received in `83ff4e32`.
+- 01:05 BST `sop-housekeeping`: registry-removal finished (`910b3126`, `777309b7`), Paperclip hold restated (`07c4a190`); received in `01e8c0d7`.
+
+## Routed since 23:46 BST on 19 October
+
+- CANCEL-MERGE (ki.tools-burndown's acceptrig, cancelling KI-TOOL-RIG-DIST-011 and merging or rejecting CORE-056, -057 and -064) to ki.mac-studio-setup, which owns tools-rig; roadmap-census-2 found DIST-011 about to be met rather than obsolete; routed in `a137221e`.
+- NO-GATE and HANDOFF-GOV-222 to ki.ways-of-working, which holds the hooks standard and the harness roadmap; routed in `13bc0fce` and `37e424b5`.
+- Follow-up with hnr.email-routing, no record: drop the dangling `KI-MCP-M365-TOOL-010` from KI-MCP-M365-TOOL-012's `blocked_by`.
