@@ -66,6 +66,10 @@ From finish-first (`design/finish-first.md`), medium; review disagrees (60 days,
 
 From finish-first (`design/finish-first.md`), medium; reviewed, agrees with conditions: high.
 
+### STASH-DROP - Drop two old ki-principal stashes
+
+From ki.chezmoi's wt-survey (02:18Z): `stash@{1}` (17 October, Rig Decision 80, reached main in `a3156df3`) and `stash@{0}` (19 October, overtaken `state.md` line) look safe to drop. Deletion, so blind review stash-review first.
+
 ## Parked
 
 None.

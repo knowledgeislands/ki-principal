@@ -593,3 +593,7 @@ Taken as: ADOPTION paste line held; other threads stay paused until Acquire inta
 - GFM-HOSTING-RULES, "I didn't think that we did have any protected mains ... Can we check that we do or we don't? I'm happy not to have that. I'd prefer to be able to push the main on local." Taken as: read the live GitHub rules (read-only) across Knowledge Islands repositories in harness-moves; any removal comes back to Kris before it is done.
 - HARNESS-TRIAGE, "let's get the ball moving forwards". Taken as: a) with changes: KI-HARNESS-GOV-204 on hold until 24 October, not triage; KI-HARNESS-GOV-202 re-explained; KI-HARNESS-GOV-222 handed to the timelines thread's Project; the rest as listed. In harness-moves.
 - PRINCIPAL-TRIAGE, "absolutely push ahead ... needs really pushing through hard ... done whilst there's not a lot of the traffic happening. Maybe that's something that can get started now." Taken as: a), started now: pin to v0.12.0, KI-PRINCIPAL-OPS-014 into Now, pilot then the remaining batches straight through while threads are paused; gfm-convert launched.
+
+## 2026-10-20 03:41 BST - message from ki.chezmoi, two old stashes
+
+Taken: wt-survey says both ki-principal stashes are spent and safe to drop. Dropping is a deletion, so STASH-DROP goes to blind review stash-review (queued) before Kris. Line removed.
