@@ -1,5 +1,4 @@
 # ki.paperclip-capture-and-rebuild messages
 
-None.
-
 - IMPORTANT · 2026-10-20 · REFRESH · KI > Model > Ways of working: re-read [ki-coordination](https://github.com/knowledgeislands/ki-agentic-harness/blob/071567a1/skills/change-management/ki-coordination/references/standards-coordination.md), [ki-delegation](https://github.com/knowledgeislands/ki-agentic-harness/blob/071567a1/skills/governance/ki-delegation/references/standards-background-runs.md), [ki-git](https://github.com/knowledgeislands/ki-agentic-harness/blob/071567a1/skills/governance/ki-git/references/standards-git.md) and [ki-next](https://github.com/knowledgeislands/ki-agentic-harness/blob/071567a1/skills/change-management/ki-next/references/standards-next-work.md) at harness `071567a1` before launching further work: SMALL-FIXES, CLAIM-CHECK, masked BLIND-REVIEW, CLASS-FIX, GREEN-MAIN, OOS-WAKE, the OWNER-QUEUE cap (audit warns over eight records awaiting acceptance or eight open queries; banner shows `📥 <n> to accept`) and CAPTURE-GATE (runs create no records), as Kris agreed on 19 and 20 October.
+- 2026-10-20 · AUDIT-FINDINGS · KI > Model > Ways of working: ki-principal's `ki-work-package` audit finds FOLDER-7 ×1 (warn), LIFECYCLE-3 ×1 (warn) in this work folder. Warnings only; please clear them at your next mark.
