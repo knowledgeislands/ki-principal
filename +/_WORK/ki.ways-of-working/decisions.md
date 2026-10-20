@@ -766,3 +766,8 @@ KI-SPEC-RGV-004 failed independent review (`da895b5`): KIP publication trigger, 
 - burn2-ki-specifications: all three findings fixed on KI-SPEC-RGV-004 (`ffee2a3`, main `14687c0`, local); accept2-specifications re-reviews.
 - STYLE-STALE (Kris's a), 18 October): harness-style queued after accept-harness-rework to make re-anchoring re-read `output-styles/ki-coordinator.md` from disk. Line removed.
 - IDENTITY-PHASE3: the harness half of native-session identity, needing KI-TOOL-KI-CLI-145's binding file and KB-DOTFILES-UE-096's matchers first; in `state.md` Next steps beside KI-TOOL-KI-CLI-145. Line removed.
+
+## 2026-10-20 07:50 BST - received harness-fix and wow-prepare
+
+- harness-fix: KI-HARNESS-GOV-200 and -205 reworked to awaiting review; F6 landed in `ki-git` (`9590c86e`). accept-harness-rework is reviewing. Not pushed.
+- wow-prepare: KI-PRINCIPAL-ECO-013 narrowed and at awaiting review; KI-HARNESS-GOV-199 narrowed, leftovers routed (STYLE-STALE, IDENTITY-PHASE3); FOLDER-CLOSED done (`applied-map.tsv` removed, `9189997a`) and `design/worktree-flow.md` graduated (`df1bc94a`). accept-wow queued after harness-style for the bundle under "prepare the five" and the overnight grant.

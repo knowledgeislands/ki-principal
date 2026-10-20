@@ -40,19 +40,18 @@ method_read: eff6163b
 
 1. IDENTITY-PHASE3 (from KI-HARNESS-GOV-199's narrowing): the shared `SessionStart` hook's identity line and level-gated coordinator lines, once KI-TOOL-KI-CLI-145's binding file and KB-DOTFILES-UE-096's matchers land; take it up beside KI-TOOL-KI-CLI-145.
 2. PRUNE-LINKS-REST: once Kris has pushed ki-agentic-harness and apps-observatory.local, a second prune-links pass prunes KI-HARNESS-GOV-216, -222, -226 KI-OBSERVA-OPS-003 and -VIS-027.
-3. FOLDER-CLOSED: at the next mark, home or delete `design/migration-plan/applied-map.tsv` and review `design/` (worktree-flow.md can graduate).
-4. GRANT-INTERIM: once a `ki` release carrying `--allow` (tools-ki `a14a328d`, KI-TOOL-KI-CLI-134) is installed, remove the interim sentence in `ki-delegation`'s Grants subsection.
-5. UPDATE-SHAPE (was KI-HARNESS-GOV-216) at the report-shape review around 21 October: timed updates say done, left on the plan and outstanding; open on three lines or one, and whether the heartbeat step folds in.
-6. Done: `hooks/README.md` aligned (`9c17df3c`); harness CI `build` on `979e075a` and `9c17df3c` still to confirm.
-7. Watch the REFRESH pickup: the five works outside Kris's focus hold reviewed Summaries for him.
-8. With ki.tools-burndown: patch release with KI-TOOL-KI-CLI-155 and the harness pin, then this work moves `.github/ki-version`; HOOKS-STANDARD; `ki work status` reading both shapes (`messages.md` line `527d1a91`); VALIDATOR-PARITY, KI-TOOL-KI-CLI-155 and KI-TOOL-KI-CLI-156.
-9. Done 19:21 BST: the Observatory reads both shapes (KI-OBSERVA-VIS-025, awaiting review); installed `ki` 0.11.4 `ki work status` still rejects migrated folders until ki.tools-burndown's reader (wpreader) lands.
-10. With ki.chezmoi (RIG-LIVE): KB-DOTFILES-UE-091 without ChatGPT and the firewall declaration; then Kris's attended Rig applies; then acceptance of KI-TOOL-RIG-CORE-042 and -047.
-11. With ki.tools-burndown: accept the mgit hands-on record and release mgit once (MGIT-RELEASE a)); check passed 19:42 BST. Harness CI's pinned v0.11.3 run after `bda6e4a0` still to confirm.
-12. Outstanding, not this work's: pre-existing CI red in apps-observatory.local, mcp-m365, tools-mgit and ki-techne-harness; acquire-intake's ACQUIRE-DECISIONS-LINKS; untracked KI-HARNESS-GOV-220 and KI-TOOL-KI-CLI-154.
-13. Next round: graduate the seven `design/` files design-triage marked (design.md, the work-model pair, work-package.md, the three bring-up files), then delete the two thread-model notes once Kris's words in them are homed.
-14. To State of play at the hold: the ki-principal MOD ledger sits at 9 though KI-PRINCIPAL-MOD-010 was issued. GFM-HOSTING-RULES came back and is in `queries.md`.
-15. Receive lane-triage: GOV-219 and GOV-224 to Awaiting review, the adoptions, KI-HARNESS-GOV-215's release (COORD-12 met in all eight Capitals at 00:29 BST) and its lane queries.
+3. GRANT-INTERIM: once a `ki` release carrying `--allow` (tools-ki `a14a328d`, KI-TOOL-KI-CLI-134) is installed, remove the interim sentence in `ki-delegation`'s Grants subsection.
+4. UPDATE-SHAPE (was KI-HARNESS-GOV-216) at the report-shape review around 21 October: timed updates say done, left on the plan and outstanding; open on three lines or one, and whether the heartbeat step folds in.
+5. Done: `hooks/README.md` aligned (`9c17df3c`); harness CI `build` on `979e075a` and `9c17df3c` still to confirm.
+6. Watch the REFRESH pickup: the five works outside Kris's focus hold reviewed Summaries for him.
+7. With ki.tools-burndown: patch release with KI-TOOL-KI-CLI-155 and the harness pin, then this work moves `.github/ki-version`; HOOKS-STANDARD; `ki work status` reading both shapes (`messages.md` line `527d1a91`); VALIDATOR-PARITY, KI-TOOL-KI-CLI-155 and KI-TOOL-KI-CLI-156.
+8. Done 19:21 BST: the Observatory reads both shapes (KI-OBSERVA-VIS-025, awaiting review); installed `ki` 0.11.4 `ki work status` still rejects migrated folders until ki.tools-burndown's reader (wpreader) lands.
+9. With ki.chezmoi (RIG-LIVE): KB-DOTFILES-UE-091 without ChatGPT and the firewall declaration; then Kris's attended Rig applies; then acceptance of KI-TOOL-RIG-CORE-042 and -047.
+10. With ki.tools-burndown: accept the mgit hands-on record and release mgit once (MGIT-RELEASE a)); check passed 19:42 BST. Harness CI's pinned v0.11.3 run after `bda6e4a0` still to confirm.
+11. Outstanding, not this work's: pre-existing CI red in apps-observatory.local, mcp-m365, tools-mgit and ki-techne-harness; acquire-intake's ACQUIRE-DECISIONS-LINKS; untracked KI-HARNESS-GOV-220 and KI-TOOL-KI-CLI-154.
+12. Next round: graduate the seven `design/` files design-triage marked (design.md, the work-model pair, work-package.md, the three bring-up files), then delete the two thread-model notes once Kris's words in them are homed.
+13. To State of play at the hold: the ki-principal MOD ledger sits at 9 though KI-PRINCIPAL-MOD-010 was issued. GFM-HOSTING-RULES came back and is in `queries.md`.
+14. Receive lane-triage: GOV-219 and GOV-224 to Awaiting review, the adoptions, KI-HARNESS-GOV-215's release (COORD-12 met in all eight Capitals at 00:29 BST) and its lane queries.
 
 ## Held
 
