@@ -13,6 +13,8 @@
 - RAT-UNCONFIRMED, RAT-READING: superseded by Decisions 179 and 181. SPARK-TOOL (rig-purpose, retire, medium; overlaps Alfred) folded into SPARK-REMOVE.
 - FIREWALL-EXPOSURE (rig-purpose): `exposed-beyond-tailnet` seen 05:16; coordinator re-check 05:18 shows only `anchor-changed`. Transient; not raised as a query; reported to Kris.
 - APPLY: rig-purpose done (chezmoi `a59b19f`, `c65e539`, `d46a2ed`; doctor 4 before and after), so the fragments 10, 15, 16, 40 can join the apply.
+- HARNESS-CI-TSC (roll-standards, high): add `bunx tsc --noEmit` to harness CI; with Kris 05:30.
+- GOV225-CLOSE, TOOLS-PKG, ASSEMBLE-SHAPE, HARNESS-GATE-LEVEL, DROPPED-ITEMS (roll-standards, medium): in blind review (run stage1-blind); go to Kris as one HOOKS-FOLLOWUPS batch.
 
 ## Held
 
