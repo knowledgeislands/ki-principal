@@ -1,6 +1,6 @@
 # Independent acceptance review: tools-ki
 
-Authority: this run is launched under the `prune` tier. Accepting a passing record under `ki-accept` with Kris's grant quoted, and pruning it, is authorised; the footer's tier governs, and the none-tier ban on accepting or pruning does not apply. A first review pass ran (accept2-tools-ki, report beside this one) and burn2-tools-ki corrected KI-TOOL-KI-CLI-134 and -165: read `/Users/krisbrown/.local/state/ki/agents/ways-of-working/burn2-tools-ki.report.md` if present and build on its findings.
+Authority: this run is launched under the `prune` tier. Accepting a passing record under `ki-accept` with Kris's grant quoted, and pruning it, is authorised by Kris's overnight grant for exactly the records at awaiting review here (KI-TOOL-KI-CLI-134 and KI-TOOL-KI-CLI-165 after burn2-tools-ki), as read back in the ways-of-working decisions log on 20 October; this overrides the footer's ban on accepting; the footer's tier governs, and the none-tier ban on accepting or pruning does not apply. A first review pass ran (accept2-tools-ki, report beside this one) and burn2-tools-ki corrected KI-TOOL-KI-CLI-134 and -165: read `/Users/krisbrown/.local/state/ki/agents/ways-of-working/burn2-tools-ki.report.md` if present and build on its findings.
 
 Nobody else is working tonight. Kris, 20 October, granted overnight acceptance: "if you can quickly now accept ... accepting new things that are waiting with you and pruning those ... getting the roadmaps down to zero". You are the independent reviewer; you did not deliver this work.
 
