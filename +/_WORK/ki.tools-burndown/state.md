@@ -13,6 +13,7 @@ method_read: 9c17df3c
 
 Mark at 23:45 BST, 19 October.
 
+- 01:42 BST: received acceptgit2: KI-MCP-GIT-FND-006 accepted as Done and pushed, with mcp-git-audit and tools-git-almanac level. PIN-LINKS resolved by removing this work's received report copies; prunegit makes the prune commit.
 - 00:29 BST: received burnmcp1: mcp-acquire-whatsapp has no records; the 12 email-routing records in mcp-m365 and mcp-gsuite stay on hold under EMAIL-OWNER (hnr.email-routing, paused until Kris resumes Humans not Robots work), hold re-validated, dangling links fixed, OWN-1 fixed, all pushed. cimcp launched for CI-1 in those three.
 - 00:27 BST: Kris gone to bed; OVERNIGHT in force (decisions.md). Sweep every 10 minutes once no run is live; re-review unresolved queries on later sweeps.
 - 00:27 BST: received burnmcp2: mcp-housekeeping-claude, mcp-ki-kb-fs and mcp-ki-kb-notion-mirror have no records; CI-1 and OWN-1 audit fixes committed and pushed in all three. Outstanding: CLAUDEBIND-1 warning (Claude Desktop configuration on this machine) left - machine configuration.
