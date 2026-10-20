@@ -187,3 +187,11 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 150 (2026-10-20T00:48:00Z)
 
 - Pointer: 093-PREFLIGHT a), taken under OVERNIGHT with confidence high (reviewed: the blind review pre093-blind chose a) independently): KB-DOTFILES-UE-093's read-only dependency preflight in the Emerge test is approved as Ready and built as a source-only run, because repairing today's checkout does not stop a future incomplete checkout failing without its setup remedy.
+
+## Decision 151 (2026-10-20T00:55:00Z)
+
+- Pointer: UE-076-STEPS, taken under OVERNIGHT with confidence high: a small follow-up run moves the non-task lines out of KB-DOTFILES-UE-076's `## Steps`, because the ITEM-3 failure from chezmoi `1999865` fails the repository gate for every run.
+
+## Decision 152 (2026-10-20T00:55:00Z)
+
+- Pointer: THEME-REGISTRY a), taken under OVERNIGHT with confidence high: the four `initiative` to `theme: rig` renames (KB-DOTFILES-UE-027, -082, -086, -087) land with the two registry legacy warnings added to the permitted baseline, because the warnings describe ki-principal's own registry, which the renames only expose; the registry migration stays with ki-principal.
