@@ -613,3 +613,11 @@ HARNESS-TRIAGE applied (`50c9cced`): GOV-196 and GOV-226 Now; GOV-189, GOV-225, 
 ## 2026-10-20 03:57 BST - received gfm-convert and stash-review
 
 gfm-convert: ki-principal converted to GitHub-flavoured Markdown end to end (pin v0.12.0 `17d96936`; pilot, Streams, Admin, Pillars, conventions, `+/_WORK/`; Obsidian set to relative Markdown links); KI-PRINCIPAL-OPS-014 awaiting review (`30cb3da0`), pushed. Render checks in the four clients not run. Its queries SIZED-EMBEDS, TEMPLATE-LINKS, LINK-REVIEW-NAME, RENDER-CHECK go to blind review gfm-review. stash-review: both stashes fully on main, drop, high; STASH-DROP to Kris.
+
+## 2026-10-20 04:04 BST - received wow-rules2, worktree-flow, sweep-review, md-review, gfm-review-2
+
+- wow-rules2: HOOK-4 census (78 hooks, 48 repositories, impact nil), HOOK-4 at WARN; HANDOFF-AS-MESSAGE and ACCEPT-BUNDLE in the standards (harness `76b6e5c5`, pushed, 1328 tests pass). Choreography sections: ki-principal `f9716cd9`, KI Specifications `6b4e2e3d`, Techne Harness `03c60e4d`, tools-techne `5287124d`; REFRESH to eight capitals; all local, unpushed. apps-knowledgeislands.info's change queued to State of play.
+- worktree-flow: `design/worktree-flow.md` (`92496234`), fixes F1 to F6; WORKTREE-INTEGRATE and WORKTREE-START, both medium, to blind review wf-review. Finding: `ki agent close` looks for worktrees in the wrong folder.
+- sweep-review: of the merges only 196 into 200 and 020 into 018 hold; converts hold (C5 becomes a ki.chezmoi Activity plus the narrowed Rig record); of the cancels only X6 holds. The 54 projection no longer stands; sweep-queries recounts and drafts the sweep queries.
+- md-review: agrees a), high, reviewed. gfm-review-2: agrees a) on all four GFM queries, each now high, reviewed.
+- Queries cleaned: answered ones removed, their answers homed above; NO-GATE with PKGLESS-GATE parked.

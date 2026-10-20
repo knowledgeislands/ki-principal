@@ -2,106 +2,62 @@
 
 ## Open
 
-### OWNER-QUEUE - Cap building while acceptance lags
-
-Answered a) in principle; "checks" asked back.
-
-### CHECKOUT-ISOLATION - Stop sessions colliding in shared checkouts
-
-checkout-iso recommends a) staged mix, medium; ci-review (Codex, 02:41 BST) agrees a), medium, with two conditions: serialise the whole shared-checkout Git write window (hooks and post-commit check included), and give worktree audits dependency and runtime parity before judging them, the pilot counting swept files, false audit findings and integration failures. Review only partly blind (a decision-log summary surfaced in a search). Lifted to high, reviewed. Options: a) staged mix with the two conditions; b) worktrees everywhere (reverses MAIN-NOT-WORKTREES); c) no change.
-
 ### WORKTREE-AUDIT - Write down the worktree audit recipe
 
-Reviewed (cg-review agrees, on condition it is validated against CI's pinned v0.11.3 and repair cannot touch the real registry): high. a) harness record adds the isolated-home plus `ki repo repair` recipe to `AGENTS.md` Verification and `ki-delegation`; b) `ki repo audit` reports it as one setup finding.
-
-### HOOK-4-CLASS - Test every external tool a hook calls
-
-Reviewed (cg-review agrees, on condition coverage includes conditional gate tools and the census measures fleet impact first): high. a) harness record tightens HOOK-4 at WARN after a fleet census; b) keep HOOK-4 and rely on review.
-
-### PLANNED-READY - Settle the seven planned harness records
-
-Review disagrees (cg-review, high: listed answers are not approved decisions; Ready only GOV-215 and GOV-220, rest one by one): medium, both views shown. a) take the listed answers and mark GOV-200, -205, -214, -215, -220, -221, -223 Ready; b) GOV-215 and GOV-220 now, the rest one by one.
-
-### NO-GATE - unparked
-
-Project shape commit gate; reviewed, a) `ki repo audit --skill ki-repo` staged, check-only. Unparked 02:55 BST; drafted in `design/unparked-queries.md`. Review disagrees (widen KI-HARNESS-GOV-225 to own the three shapes' content, medium).
-
-### GFM-HOSTING-RULES - unparked
-
-harness protected `main` declaration; a) `branch-protection = true`, awaiting blind review. Unparked 02:55 BST; drafted in `design/unparked-queries.md`. Review disagrees (settle the intended policy and read live GitHub rules before declaring, medium).
-
-### HARNESS-TRIAGE - unparked
-
-eight harness triage dispositions from lane-triage; awaiting blind review. Unparked 02:55 BST; drafted in `design/unparked-queries.md`. Reviewed, agrees with corrections (Future not Later; adoption is not permission to implement): high.
-
-### PRINCIPAL-TRIAGE - unparked
-
-OPS-014 to Next, prune GOV-035; awaiting blind review. Unparked 02:55 BST; drafted in `design/unparked-queries.md`. Reviewed, agrees (high, reviewer's own confidence high): high; KI-PRINCIPAL-OPS-014 pilot into Now after the pin move.
-
-### PKGLESS-GATE - unparked
-
-keep the package-less pre-commit gates in homebrew-tap and ki-specifications and give each concrete shape an explicit content owner in the harness hooks contract; taken with NO-GATE on resume. Unparked 02:55 BST; drafted in `design/unparked-queries.md`. Folded into NO-GATE by unpark-draft; answering NO-GATE answers it.
-
-### NET-DOWN - Weekly direction target, not a cap
-
-From finish-first (`design/finish-first.md`), medium; review disagrees (counts only, medium).
-
-### WIP-CAP - Per-work cap and what it counts
-
-From finish-first (`design/finish-first.md`), medium; review disagrees (two caps, three in progress and eight awaiting, as a bounded trial, medium).
+Reviewed (cg-review), high. Explained again to Kris 20 October. a) harness record adds the isolated-home plus `ki repo repair` recipe to `AGENTS.md` Verification and `ki-delegation`, validated against CI's pinned `ki` and never touching the real registry; b) `ki repo audit` reports it as one setup finding.
 
 ### CAPTURE-ORIGIN - Checkable capture gate with an origin field
 
-From finish-first (`design/finish-first.md`), medium; review disagrees (prose only with an exact authority reference, medium).
-
-### HANDOFF-AS-MESSAGE - Handoffs and sweeps stop creating records everywhere
-
-From finish-first (`design/finish-first.md`), medium; review disagrees (messages for routing; receiver records only at real acceptance boundaries, high).
-
-### STALE-SWEEP - Re-decide drafts untouched for 30 days
-
-From finish-first (`design/finish-first.md`), medium; review disagrees (60 days, no default cancel, medium).
-
-### ACCEPT-BUNDLE - One acceptance answer per work
-
-From finish-first (`design/finish-first.md`), medium; reviewed, agrees with conditions: high.
+Explained again to Kris 20 October; HANDOFF-AS-MESSAGE now carries most of it. a) drop it, the handoff rule already stops runs creating records; b) add an `origin` field and a check.
 
 ### STASH-DROP - Drop two old ki-principal stashes
 
-From ki.chezmoi's wt-survey (02:18Z): `stash@{1}` (17 October, Rig Decision 80, reached main in `a3156df3`) and `stash@{0}` (19 October, overtaken `state.md` line) look safe to drop. Reviewed (stash-review: both fully on main, drop, high). With Kris for agreement before any drop.
+Reviewed (stash-review: both fully on main), high. a) drop `stash@{0}` and `stash@{1}`; b) keep them.
 
 ### MATURITY-DECLINE - How the island-maturity record reads "decline"
 
-From harness-moves, medium; in blind review md-review. a) decline is open warnings and no failures, no age; b) 30-day tolerance with audit history in tools-ki.
+Reviewed (md-review agrees, five conditions: full precedence with failure first, latest whole-repository audit, rollout consequence accepted, wording replaced in record and standard, four reader cases tested): high. a) decline is any WARN and no failure in the latest full audit, no age; b) 30-day tolerance with audit history in tools-ki. Unblocks KI-HARNESS-GOV-223 Ready.
 
 ### GFM-HOSTING-RULES - Keep or remove the three `main` rulesets
 
-Answered by harness-moves: classic protection off everywhere; rulesets on ki-agentic-harness, homebrew-tap and apps-knowledgeislands.info, each letting admins bypass, so Kris can already push to `main` locally. a) leave as is, high; b) remove the harness ruleset.
+Read by harness-moves: classic protection off everywhere; rulesets on ki-agentic-harness, homebrew-tap and apps-knowledgeislands.info, all with admin bypass. a) leave as is, high; b) remove the harness ruleset.
 
 ### MARK-HABIT - How marks get struck
 
-With Kris: a) strike a mark at every send and every owner answer turn; Kris says "mark" only for a clean line.
+a) strike a mark at every send and every owner answer turn; Kris says "mark" only for a clean line; b) Kris announces a mark before substantive answers.
 
 ### SINGLE-FIGURES - What single figures counts
 
-With Kris: a) each Knowledge Islands repository under ten (sweep reaches it); b) the territory as a whole.
+a) each Knowledge Islands repository under ten; b) the territory as a whole.
 
 ### SIZED-EMBEDS - from gfm-convert
 
-In blind review gfm-review.
+Reviewed (gfm-review-2 agrees): high. a) plain GFM images, Format drops the width-800 rule; b) keep as Obsidian-only exceptions; c) HTML `<img>`.
 
 ### TEMPLATE-LINKS - from gfm-convert
 
-In blind review gfm-review.
+Reviewed (gfm-review-2 agrees): high. a) rewrite the 14 placeholders as GFM links; b) leave wikilinks for the touch rule.
 
 ### LINK-REVIEW-NAME - from gfm-convert
 
-In blind review gfm-review.
+Reviewed (gfm-review-2 agrees, rename bounded and every reference updated together): high. a) rename the Activity Link Review, trigger "ki link review"; b) keep the name; c) retire it.
 
 ### RENDER-CHECK - from gfm-convert
 
-In blind review gfm-review.
+Reviewed (gfm-review-2 agrees): high. a) open the Library link and an alert note in GitHub, Obsidian, Zed and the Observatory before accepting KI-PRINCIPAL-OPS-014; b) accept without, noting the Observatory's fragment loss.
+
+### WORKTREE-INTEGRATE - from worktree-flow
+
+Medium; in blind review wf-review. a) every worktree run fast-forwards its own branch into local `main` after gates pass, else keeps the worktree and reports it stranded; b) runs stop at the branch and a merge run follows.
+
+### WORKTREE-START - from worktree-flow
+
+Medium; in blind review wf-review. a) start the trial now in code repositories under F1 and F4, ki-principal once F5 lands; b) wait for F2, F3 and F5.
+
+### SWEEP - Roadmap sweep batches
+
+sweep-review kept most merges and cancels; sweep-queries recounts and drafts the accept, merge, convert and cancel queries for Kris.
 
 ## Parked
 
-None.
+- NO-GATE (with PKGLESS-GATE) - project shape commit gate; Kris will come back to it. a) `ki repo audit --skill ki-repo` staged, check-only; review prefers widening KI-HARNESS-GOV-225.
