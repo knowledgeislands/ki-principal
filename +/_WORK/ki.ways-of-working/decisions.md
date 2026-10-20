@@ -824,3 +824,7 @@ Codex blind review (`ebce71aa`): it agrees on GRANT-INTERIM, RIG-053-SHAPE, PLAN
 - Of 25 open harness records, only KI-HARNESS-GOV-170 was workable. It is delivered to awaiting review (`e66f3130`, `4a10ba07`, local), and accept-harness-170 (Codex) reviews it under the overnight grant, without pruning while the harness is unpushed.
 - KI-HARNESS-GOV-209 stopped at planning for an owner decision.
 - The run raised six owner queries: GOV209-OWNER, GOV225-CLOSE, GOV189-SCOPE, GOV202-ADOPT, GOV227-SCHEMA and OPS009-SPLIT. harness-queries copies them into `queries.md`, and harness-queries-review (Codex) blind-reviews the medium and low ones.
+
+## 2026-10-20 09:06 BST - received accept-harness-170
+
+KI-HARNESS-GOV-170 failed independent review (`b2f9c35f`, back to in progress): `ki-accept`'s acceptance model (`acceptance-cycle.ts`) still rejects an approved cross-repository replacement without a target and accepts a foreign target, and fixtures preserve both, so the 1,372 tests miss it. harness-rework-170 fixes it with regression tests, and accept2-harness-170 (Codex) re-reviews.

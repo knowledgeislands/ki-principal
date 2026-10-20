@@ -1,4 +1,4 @@
-# accept-harness-170 - independent review and acceptance of KI-HARNESS-GOV-170
+# accept2-harness-170 - independent re-review and acceptance of KI-HARNESS-GOV-170
 
 Work: `ki.ways-of-working`, package `/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/`. Repository: `/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness`.
 
@@ -6,7 +6,7 @@ Authority: Kris Brown, 20 October about 05:20 BST, "if you can quickly now accep
 
 ## Record
 
-[KI-HARNESS-GOV-170](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-170-keep-resolution-targets-local.md), delivered by harness-burn (`e66f3130`, `4a10ba07`, local). Report: `/Users/krisbrown/.local/state/ki/agents/ways-of-working/harness-burn.report.md`. Treat its claims as unverified.
+[KI-HARNESS-GOV-170](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-170-keep-resolution-targets-local.md), delivered by harness-burn, failed review (`/Users/krisbrown/.local/state/ki/agents/ways-of-working/accept-harness-170.report.md`), reworked by harness-rework-170 (`/Users/krisbrown/.local/state/ki/agents/ways-of-working/harness-rework-170.report.md`). Treat its claims as unverified.
 
 ## Do
 
