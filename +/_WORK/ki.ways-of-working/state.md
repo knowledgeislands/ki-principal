@@ -36,7 +36,7 @@ method_read: eff6163b
 11. design/: thread-model notes and work-package.md graduated (22:37 BST, owner words in decisions.md); the three bring-up files go once BRING-UP-LEFTOVER replies arrive from ki.observatory and ki.tools-burndown; the rest stay live.
 12. To State of play: the ki-principal MOD ledger sits at 9 though KI-PRINCIPAL-MOD-010 was issued.
 13. KI-HARNESS-GOV-219 accepted 22:18 BST (harness 17166cf2, unpushed; joins PRUNE-LINKS-REST). KI-HARNESS-GOV-224 failed review and went to ki.observatory as GOV-224-REWORK.
-14. Evening burndown: KI-PRINCIPAL-MOD-008 accepted (0be6b902), its eight philosophy queries in queries.md, blind-reviewed; KI-OBSERVA-BRG-006 passed review, awaiting Kris's look; KI-TOOL-RIG-CORE-056 delivered, in review.
+14. Evening burndown: KI-PRINCIPAL-MOD-008 accepted (0be6b902), its eight philosophy queries in queries.md, blind-reviewed; KI-OBSERVA-BRG-006 passed review, awaiting Kris's look; KI-TOOL-RIG-CORE-056 failed review (wording overclaims evidence); rework on branch run/wow-accept-rig-056, integration blocked on tools-rig SHELL-HOOK (RIG-056-INTEGRATE to ki.tools-burndown).
 
 ## Held
 
