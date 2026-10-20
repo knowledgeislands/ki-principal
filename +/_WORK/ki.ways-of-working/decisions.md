@@ -517,3 +517,9 @@ SMALL-FIXES (Kris, routing the Acquire intake proposal: "Please weigh this again
 ## 02:35 BST - received green-main; CI-AUDIT under GREEN-MAIN
 
 green-main: hook tests were stale against the committed `.githooks/` hooks; fixed (`8236ee89`); suite 1,306 pass; lane-triage (KI-HARNESS-GOV-219, KI-HARNESS-GOV-224) and checker-gaps integrated and pushed; worktrees and branches removed. CI-AUDIT (CI audit step red on `main`: 9 pre-existing FAILs plus 7 ITEM-3 on the unplanned Now drafts) is covered by Kris's GREEN-MAIN a), "a red baseline stops the line", so it is not put to Kris: ci-green launched; wow-standards waits on it.
+
+## 2026-10-20 02:36 BST - OWNER-QUEUE checks answered; received checkout-iso
+
+Kris: "yes, less piling up on me makes sense". Read back taken: OWNER-QUEUE a) with checks as asked back: the `ki-coordination` audit counts each work's records awaiting acceptance and open queries and warns over about eight, and the banner shows the count; acceptance fixes and backlog-clearing work stay allowed over the cap. Goes into wow-standards.
+
+checkout-iso (`1d0a523e`, `design/checkout-isolation.md`): 12 collisions mapped (index.lock 6, shared index 4, live-tree audits 3); worktrees measured cheap (under 0.25 s, 2 s hooks) but need `ki` support (registry, skill links, node_modules, `--repo`); a per-session index silently reverted committed changes twice and is unsafe; pathspec commits plus a landed check work. Recommends a staged mix at medium; worktrees for coordinators would reverse MAIN-NOT-WORKTREES (18 October). Medium, so to ci-review (Codex, masked) before Kris.
