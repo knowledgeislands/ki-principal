@@ -567,3 +567,7 @@ Four live unparked queries drafted in `design/unparked-queries.md` (`docs(work):
 ## 2026-10-20 03:05 BST - received unpark-review
 
 Blind Codex review of the four unparked queries: agrees HARNESS-TRIAGE (with corrections) and PRINCIPAL-TRIAGE, both lifted to high, reviewed; disagrees on NO-GATE (widen KI-HARNESS-GOV-225) and GFM-HOSTING-RULES (read live rules first). All four put to Kris; PKGLESS-GATE answered through NO-GATE.
+
+## 2026-10-20 03:08 BST - received wow-standards; send to owner
+
+Take-stock rules now in the standards (harness `609ee238` COORD-9 awaiting-acceptance count, `071567a1` standards text; tests pass; pushed): SMALL-FIXES, CLAIM-CHECK, masked BLIND-REVIEW, OWNER-QUEUE cap with banner count, OOS-WAKE text, CLASS-FIX, CAPTURE-GATE, GREEN-MAIN, HOMELESS-STANDING. REFRESH lines to 13 works here and State of play in seven capitals, unpushed; Acquire intake answered (acquire `e5cb23b`, unpushed). Mark struck; work sent to Kris with 15 queries.
