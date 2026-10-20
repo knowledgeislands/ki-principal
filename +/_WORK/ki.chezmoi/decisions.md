@@ -307,3 +307,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 180 (2026-10-20T03:55:00Z)
 
 - Pointer: Kris (04:55 BST): "a lot of items in the roadmap ... most of them done. Can we get them approved if not?" Read back as: prepare the chezmoi roadmap for one approval pass (run accept-prep, read-only), then bring an acceptance batch and a clear-out batch.
+
+## Decision 181 (2026-10-20T04:02:00Z)
+
+- Pointer: Kris (05:02 BST, spoken; "the big" read as Rig): "I don't think we need what is for and why it is here. We can just deal with it as a single description: the bold text can be what it is"; ack's description says what ack is about, and "there's nothing else to talk about really, it's just an obvious choice"; the table includes the kind (command line or GUI application) and how it is installed. Confirms the Decision 179 read-back of kind and install vector. Sent to runs rig-purpose and purpose-render. Kris did not recognise Shadowlab's Spark ("I think it must have been a mistake from recognizing Spark Desktop. Can you check the history there"): run spark-history.
