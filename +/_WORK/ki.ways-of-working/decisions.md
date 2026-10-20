@@ -609,3 +609,7 @@ HARNESS-TRIAGE applied (`50c9cced`): GOV-196 and GOV-226 Now; GOV-189, GOV-225, 
 ## 2026-10-20 03:51 BST - KI-BROKEN cleared itself
 
 `ki` starts again at 03:50 BST (the tools-ki session moved on); the 03:50 commit retried and md-review queued. KI-BROKEN withdrawn.
+
+## 2026-10-20 03:57 BST - received gfm-convert and stash-review
+
+gfm-convert: ki-principal converted to GitHub-flavoured Markdown end to end (pin v0.12.0 `17d96936`; pilot, Streams, Admin, Pillars, conventions, `+/_WORK/`; Obsidian set to relative Markdown links); KI-PRINCIPAL-OPS-014 awaiting review (`30cb3da0`), pushed. Render checks in the four clients not run. Its queries SIZED-EMBEDS, TEMPLATE-LINKS, LINK-REVIEW-NAME, RENDER-CHECK go to blind review gfm-review. stash-review: both stashes fully on main, drop, high; STASH-DROP to Kris.

@@ -68,7 +68,7 @@ From finish-first (`design/finish-first.md`), medium; reviewed, agrees with cond
 
 ### STASH-DROP - Drop two old ki-principal stashes
 
-From ki.chezmoi's wt-survey (02:18Z): `stash@{1}` (17 October, Rig Decision 80, reached main in `a3156df3`) and `stash@{0}` (19 October, overtaken `state.md` line) look safe to drop. Deletion, so blind review stash-review first.
+From ki.chezmoi's wt-survey (02:18Z): `stash@{1}` (17 October, Rig Decision 80, reached main in `a3156df3`) and `stash@{0}` (19 October, overtaken `state.md` line) look safe to drop. Reviewed (stash-review: both fully on main, drop, high). With Kris for agreement before any drop.
 
 ### MATURITY-DECLINE - How the island-maturity record reads "decline"
 
@@ -85,6 +85,22 @@ With Kris: a) strike a mark at every send and every owner answer turn; Kris says
 ### SINGLE-FIGURES - What single figures counts
 
 With Kris: a) each Knowledge Islands repository under ten (sweep reaches it); b) the territory as a whole.
+
+### SIZED-EMBEDS - from gfm-convert
+
+In blind review gfm-review.
+
+### TEMPLATE-LINKS - from gfm-convert
+
+In blind review gfm-review.
+
+### LINK-REVIEW-NAME - from gfm-convert
+
+In blind review gfm-review.
+
+### RENDER-CHECK - from gfm-convert
+
+In blind review gfm-review.
 
 ## Parked
 
