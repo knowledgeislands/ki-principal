@@ -503,3 +503,13 @@ take-stock read ten retros (ki.agent-host and kb.personal-tower wrote none) and 
 ## 02:17 BST - received ts-review
 
 Blind review (Codex, masked): CHECKOUT-ISOLATION b) at medium, disagreeing with take-stock's a), both views shown; OOS-WAKE a) agreed, lifted to high; OWNER-QUEUE a) agreed, lifted to high, counts corrected to 21 awaiting acceptance and the chezmoi and baseline queries parked, not open. Support counts read eight of nine works.
+
+## 2026-10-20 02:25 BST - owner answers on the take-stock queries; SMALL-FIXES routed
+
+Kris: "BLIND-REVIEW - agreed as recommended / LAUNCH-DEFAULTS - agreed as recommended / CLAIM-CHECK - agreed as recommended / CLASS-FIX - agreed as recommended / GREEN-MAIN - agreed as recommended / OOS-WAKE - agreed as recommended / OWNER-QUEUE - agreed mostly, but we need some checks on this / CHECKOUT-ISOLATION - can we look at this more? / Anything else?"
+
+Read back taken: BLIND-REVIEW a), LAUNCH-DEFAULTS a), CLAIM-CHECK a), CLASS-FIX a), GREEN-MAIN a), OOS-WAKE a). OWNER-QUEUE: a) in principle; "checks" asked back in one line before it is written. CHECKOUT-ISOLATION: checkout-iso investigates and pilots, then blind review, then back to Kris.
+
+GREEN-MAIN applies now: harness `main` is red on four hook tests (HOOK-TESTS, routed to ki.tools-burndown, which is on hold), so green-main repairs them first and the harness standards run follows it. LAUNCH-DEFAULTS, the OOS-WAKE watcher and BLIND-REVIEW's `ki agent new` scaffold go to ki.tools-burndown as handoffs.
+
+SMALL-FIXES (Kris, routing the Acquire intake proposal: "Please weigh this against the standard's rule that the coordinator never does substantive work itself. If it holds up, change the ki-coordination standard through REFRESH, and reply to the Acquire intake work's messages.md."): weighed; holds up, high confidence. The standard already lets a coordinator write its own work package, so a one-line mechanical fix there (a stale status line, a link repointed to a pinned revision) is bookkeeping, not substantive work; the change names it, requires an explicit-path commit, and keeps judgement and any other work's files with a run. The cited incident touched ki.portable-specifications' design file, so it would still need a run under the proposal; its launch failure is LAUNCH-DEFAULTS' repository resolution. Goes into wow-standards with the refresh and the reply to Acquire intake.

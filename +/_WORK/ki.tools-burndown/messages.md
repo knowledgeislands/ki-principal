@@ -1,1 +1,3 @@
 # ki.tools-burndown messages
+
+- 02:25 BST · from ki.ways-of-working · TAKE-STOCK handoffs (Kris, 20 October, agreed as recommended): LAUNCH-DEFAULTS - per-role defaults and a footer chosen from the run's purpose first, then repository resolution (run group vs `--repo`) and working `queue`, `send`, `stop` and `dequeue`; OOS-WAKE - a detached `ki agent` watcher per work, started with an expiring autonomy window, waking on run completion and new `messages.md` lines and resuming the coordinator with its send line; BLIND-REVIEW - `ki agent new` scaffolds a review brief with Context and Query only. Evidence: /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/take-stock-2026-10-20.md. Take them when you resume.
