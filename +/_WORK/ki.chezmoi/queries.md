@@ -2,10 +2,12 @@
 
 ## Open
 
-- RAT-UNCONFIRMED, RAT-READING: superseded by Decision 179.
-- SPARK-TOOL (b2-chezmoi): `tool.spark` is Shadowlab's launcher, not mail; folded into run rig-purpose, which will ask whether to keep it.
+- APPLY (drift-fix, high): apply four drifted targets, all committed source; with Kris 05:08.
+- ACCEPT-BATCH (accept-prep, high): accept KB-DOTFILES-UE-077 and KB-DOTFILES-UE-093; with Kris 05:08.
+- CLEAR-BATCH (accept-prep, high): merge UE-087 into UE-101, UE-097 to Hold, five sizes; with Kris 05:08.
 - TIDY: not yet answered.
-- Batch 2's others decided in Decisions 174 to 178.
+- SPARK-REMOVE (spark-history, high, deletion): in blind review (run spark-blind) before Kris.
+- RAT-UNCONFIRMED, RAT-READING, SPARK-TOOL: superseded by Decisions 179 and 181.
 
 ## Held
 
