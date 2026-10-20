@@ -38,7 +38,7 @@ method_read: eff6163b
 
 ## Next steps
 
-1. PRUNE-LINKS-REST: once Kris has pushed ki-agentic-harness, tools-ki and apps-observatory.local, a second prune-links pass prunes KI-HARNESS-GOV-216, -222, -226, KI-TOOL-KI-CLI-152, -167, KI-OBSERVA-OPS-003 and -VIS-027.
+1. PRUNE-LINKS-REST: once Kris has pushed ki-agentic-harness and apps-observatory.local, a second prune-links pass prunes KI-HARNESS-GOV-216, -222, -226 KI-OBSERVA-OPS-003 and -VIS-027.
 2. FOLDER-CLOSED: at the next mark, home or delete `design/migration-plan/applied-map.tsv` and review `design/` (worktree-flow.md can graduate).
 3. GRANT-INTERIM: once a `ki` release carrying `--allow` (tools-ki `a14a328d`, KI-TOOL-KI-CLI-134) is installed, remove the interim sentence in `ki-delegation`'s Grants subsection.
 4. UPDATE-SHAPE (was KI-HARNESS-GOV-216) at the report-shape review around 21 October: timed updates say done, left on the plan and outstanding; open on three lines or one, and whether the heartbeat step folds in.

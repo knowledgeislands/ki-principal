@@ -740,3 +740,9 @@ KI-TOOL-KI-CLI-165 accepted (tools-ki `fde00e97`, pushed; tools-ki now level wit
 
 - accept-harness-batch accepted five: KI-HARNESS-GOV-220, -215, -221, -214 and -223 (harness `eea04f87`, local). HARNESS-REVIEW-200 and HARNESS-REVIEW-205: both back to in progress with findings; harness-fix reworks them and lands F6, then accept-harness-rework re-reviews. Lines removed.
 - RIG-WORKTREE-RUNTIMES: tools-ki's RUNTIMES-2 check, routed to ki.tools-burndown `messages.md` with WORKTREE-FIXES. Line removed.
+
+## 2026-10-20 07:31 BST - received burn2-tools-rig and prune-links2
+
+- burn2-tools-rig: KI-TOOL-RIG-CORE-053 to awaiting review (`c55f2e9`, pushed). Rig's other open records need Kris's decisions or attended checks. Its acceptance waits on SHELL-HOOK, which the run left because the ki.chezmoi hooks rollout touched `.githooks/` within the day; already with ki.tools-burndown as RIG-PRECOMMIT-BATS, not a query. Its CORE-053 shape query (observe-only menu bar) is the acceptance reviewer's to judge.
+- prune-links2: KI-TOOL-KI-CLI-152, -165 and -167 pruned (tools-ki `39f1a91d`, pushed), links repaired in the harness (`9d2cd168`, local) and ki-principal (`516582b2`). PRUNE-LINKS-REST drops these three.
+- Next: burn passes in ki-specifications, ki-design and homebrew-tap, per "even start to tidy up some of the other ones".
