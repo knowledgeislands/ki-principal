@@ -19,3 +19,15 @@
   - a) (recommended, confidence medium - review disagrees: the planner prefers pass-through, which works today with no Harness change; the reviewer prefers b) at high, because pass-through gives no fresh consent and leaves the interface undeclared) Pass it through from your environment, preferably scoped to the one command rather than exported.
   - b) The Harness declares the confirmation in its manifest, including fresh interactive consent. The CLI prompts with the target and operation and passes the value only to that run. Rebuild and withdraw wait for this; status and stop go ahead.
   - c) The CLI prompts and sets the undeclared variable itself, which needs a change to ADR-KI-PRINCIPAL-006's boundary.
+
+### PROJECT-CLOSE - Retire the Estate factorisation Project, keeping its unmet phases as ideas
+
+- **Context:** [Estate factorisation](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/estate-factorisation.md) has been on hold since 15 October, waiting for your close-out review. Its first two pieces of work are done, the groundwork records and OAI-1, and most parked items have finished or have live owners. Its whole-estate Outcome was never achieved, and phases FND-3 to EVAL-2 were never captured as records. Closing retires that Outcome by your choice; it does not certify it.
+- **Query:** Retire the Project, keeping its phases as ideas?
+- **Options:**
+  - a) (recommended, confidence high - reviewed: both runs agree the duplicate coordination should end, but the reviewer says retiring an unmet Outcome is yours to choose, so it was not acted on overnight) Retire it.
+    - Keep OAI-1 as delivered, and write the remaining phases as `Idea:` lines with their gates.
+    - Route OBS-ACTIVATION's remaining health checks to Observatory (the local service is confirmed running) and the GOVERNANCE residual checks to State of play.
+    - Settle HOST-WRITES, ALIAS-OWNERS and RIG-REFS explicitly before the finish and the prune.
+  - b) Keep the Project, and capture FND-5 after re-grounding it against today's work model.
+  - c) Leave it on hold, unchanged.
