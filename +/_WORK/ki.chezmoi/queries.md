@@ -2,19 +2,13 @@
 
 ## Open
 
-- APPLY (drift-fix, high): apply four drifted targets, all committed source; with Kris 05:08.
-- ACCEPT-BATCH (accept-prep, high): accept KB-DOTFILES-UE-077 and KB-DOTFILES-UE-093; with Kris 05:08.
-- CLEAR-BATCH (accept-prep, high): merge UE-087 into UE-101, UE-097 to Hold, five sizes; with Kris 05:08.
-- TIDY: with Kris.
-- COMMENT-FIELD (merged with RATIONALE-FIELD): comment-blind high for a new `comment` field, staged rationale deprecation; with Kris 05:23.
-- CORE-SET-COMMENTS: comment-blind high, leave in the worksheet Kris reviews anyway; not raised separately.
-- KIND-SOURCE, RATIONALE-FILTER (purpose-render; site commit `4701e8f`, unpushed): reviewed by site-blind (agrees on COMMENT-FIELD and KIND-SOURCE; RATIONALE-FILTER disagrees: remove now, high); with Kris 05:15.
-- SPARK-REMOVE (spark-history high; spark-blind medium, retire, missing option: deselect and defer uninstall): with Kris 05:10.
-- RAT-UNCONFIRMED, RAT-READING: superseded by Decisions 179 and 181. SPARK-TOOL (rig-purpose, retire, medium; overlaps Alfred) folded into SPARK-REMOVE.
-- FIREWALL-EXPOSURE (rig-purpose): `exposed-beyond-tailnet` seen 05:16; coordinator re-check 05:18 shows only `anchor-changed`. Transient; not raised as a query; reported to Kris.
-- APPLY: rig-purpose done (chezmoi `a59b19f`, `c65e539`, `d46a2ed`; doctor 4 before and after), so the fragments 10, 15, 16, 40 can join the apply.
+- APPLY (drift-fix, high): apply the four committed-but-unapplied targets (mcporter, Claude Desktop config, `~/bin/chezmoi/json`, `~/bin/rig-bringup-check`), and now also Rig fragments 10, 15, 16, 40 (rig-purpose done, doctor 4 before and after); with Kris 05:08.
+- ROADMAP-BATCH (merged at 05:59 from ACCEPT-BATCH, CLEAR-BATCH, TIDY; all high, reviewed): accept KB-DOTFILES-UE-077 and KB-DOTFILES-UE-093; merge UE-087 into UE-101 (101 to a Next draft); UE-097 to Hold; sizes UE-027 m, UE-071 m, UE-089 l, UE-094 s; prune accepted records with inbound links rewritten; delete merged `feat/design-v1`; with Kris 05:08.
+- RIG-SITE (merged at 05:59 from COMMENT-FIELD, KIND-SOURCE, RATIONALE-FILTER; site commit `4701e8f`, unpushed): new `comment` field with staged rationale deprecation (comment-blind high, site-blind agrees); KIND-SOURCE as run recommended (site-blind agrees); RATIONALE-FILTER remove now (site-blind high; the run said keep); with Kris 05:15.
+- SPARK-REMOVE (spark-history high; spark-blind medium, retire; missing option: deselect and defer uninstall; SPARK-TOOL folded in): with Kris 05:10.
 - HARNESS-CI-TSC (roll-standards, high): add `bunx tsc --noEmit` to harness CI; with Kris 05:30.
-- HOOKS-FOLLOWUPS (GOV225-CLOSE, TOOLS-PKG, ASSEMBLE-SHAPE, HARNESS-GATE-LEVEL, DROPPED-ITEMS): stage1-blind agrees on all; ASSEMBLE-SHAPE adds hardening (git-tracked, symlink containment, index not working tree); with Kris 05:33. composer told to reconcile KI-TOOL-KI-CLI-165's text first.
+- HOOKS-FOLLOWUPS (GOV225-CLOSE, TOOLS-PKG, ASSEMBLE-SHAPE, HARNESS-GATE-LEVEL, DROPPED-ITEMS): stage1-blind agrees on all; ASSEMBLE-SHAPE adds hardening (git-tracked, symlink containment, index not working tree); with Kris 05:33.
+- Not raised: CORE-SET-COMMENTS (stays in the worksheet); FIREWALL-EXPOSURE (transient, re-check 05:18 showed only `anchor-changed`); RAT-UNCONFIRMED, RAT-READING (superseded by Decisions 179 and 181).
 
 ## Held
 
