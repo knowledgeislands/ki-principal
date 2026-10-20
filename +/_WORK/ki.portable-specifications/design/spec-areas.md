@@ -76,7 +76,7 @@ So the description is current but scattered, and the two built sources disagree 
 
 **What it is.** The folder `+/_WORK/<id>/` holding one work's definition (`work.md`), state (`state.md`), queries, message queue and decisions log, read in four levels from register front matter down to on-demand detail. It is the work model's unit of record.
 
-**Where it is described today, and how current.** [design/work-package.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/work-package.md) is the finalised design (19 October). The harness [`ki-work-package`](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/SKILL.md) skill, with `references/standards-work-package.md`, `rubric.md` and `sources.md`, is being rewritten to it now by the run work-package-standard. Both are current; neither was touched by this run.
+**Where it is described today, and how current.** [design/work-package.md](https://github.com/knowledgeislands/ki-principal/blob/fba56feb/+/_WORK/ki.ways-of-working/design/work-package.md) is the finalised design (19 October). The harness [`ki-work-package`](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/SKILL.md) skill, with `references/standards-work-package.md`, `rubric.md` and `sources.md`, is being rewritten to it now by the run work-package-standard. Both are current; neither was touched by this run.
 
 **Owning skill now.** `ki-work-package`. No change.
 

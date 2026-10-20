@@ -53,6 +53,10 @@ The remaining names in the set pass: `ki-plan`, `ki-implement`, `ki-accept`, `ki
 
 The thread-banner-and-re-anchoring and thread-types-and-durable-decisions design notes were deleted on 20 October 2026: [GDR-KI-PRINCIPAL-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md) superseded their thread model, the `ki-coordination` standard carries the behaviour they set, and Kris's words from them are in this work's [decisions log](../decisions.md); Git history holds them.
 
+## Work package
+
+The work-package design note was deleted on 20 October 2026: its decisions are homed in `ki-work-package`, `ki-coordination`, the Work Process note and [GDR-KI-PRINCIPAL-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md), and Kris's words from it are in this work's [decisions log](../decisions.md). Its last text is at [fba56feb](https://github.com/knowledgeislands/ki-principal/blob/fba56feb/+/_WORK/ki.ways-of-working/design/work-package.md).
+
 ## Restart model
 
 The restart-model design note graduated into `ki-pmo` in ki-agentic-harness `2007749e` and was then deleted, as Kris decided under DESIGN-HOME on 16 October 2026; Git history holds it. Its pick-up table, rules and hold report now live in the `ki-pmo` standard's [Picking up a thread](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-pmo/references/standards-pmo.md#picking-up-a-thread) and [Draining a thread](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-pmo/references/standards-pmo.md#draining-a-thread).
