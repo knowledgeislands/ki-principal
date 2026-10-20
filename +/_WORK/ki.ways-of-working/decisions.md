@@ -144,3 +144,7 @@ The overnight burndown is drained, and the mark is struck at 09:27 BST. Nineteen
 Kris: "Is there anything more that you can do by yourself without me? To try and get that vote back down before I re-open lots of other threads? ... roadmap down"
 
 Taken as: "vote" read as "load". Carry the overnight burndown on with only what needs nothing from Kris: independently reviewed acceptances of records already awaiting review (KI-HARNESS-GOV-219, KI-HARNESS-GOV-224) under the 20 October acceptance grant, the ECO-013 audit recheck, this work's design-note graduation, and a read-only sweep of every remaining roadmap for records workable without Kris, delivered on its findings. The 19 queries stay with Kris; other sessions' stacked commits stay unpushed.
+
+## 2026-10-20 23:05 BST - send to owner
+
+Self-serve burndown drained. KI-HARNESS-GOV-219 and KI-PRINCIPAL-MOD-008 accepted; 17 records pruned with 63 links pinned; harness CI capped and knip adopted; KI-OBSERVA-BRG-006 passed review pending Kris's look; KI-HARNESS-GOV-224 failed and went to ki.observatory; KI-TOOL-RIG-CORE-056 failed, reworked on a branch, integration waits on ki.tools-burndown's Rig hook repair. Eight MOD-008 philosophy queries join the open list after blind review.
