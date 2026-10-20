@@ -712,3 +712,9 @@ accept2-tools-techne accepted KI-TOOL-TECHNE-CLI-009 but could not prune it: liv
 - accept-tools-rig: KI-TOOL-RIG-CORE-047 and -062 failed review, back to in progress (tools-rig `74140e53`, pushed): SHELL-HOOK fails (Bats in pre-commit) and Kris's attended checks remain. The three cancelled Rig records are retained for prune-links.
 - accept-observatory: review-only under the wrong tier; accept2-observatory carries it. Brief removed.
 - FOLDER-CLOSED (KI-HARNESS-GOV-200's FOLDER-1 check): `design/migration-plan/applied-map.tsv` is outside the closed list; homed or deleted with the design-note review at the next mark. In `state.md` Next steps. Line removed.
+
+## 2026-10-20 06:53 BST - received accept2-tools-ki and accept2-observatory
+
+- tools-ki: KI-TOOL-KI-CLI-152 and -167 accepted (`bc563d56`); KI-TOOL-KI-CLI-134 back to in progress (baseline evidence; FOOTER-PROVISIONALS with Kris); KI-TOOL-KI-CLI-165 back for one ITEM-3 heading. Not pushed. burn2-tools-ki fixes both and resubmits; burn2-tools-rig delivers KI-TOOL-RIG-CORE-053 and the SHELL-HOOK fix.
+- Observatory: KI-OBSERVA-OPS-003 and -VIS-027 accepted; KI-OBSERVA-BRG-005 waits for Kris's own check (OBS-ACT-VISUAL). OBS-PRUNE-REFERENCES is prune-links' job, already running.
+- Lines ACCEPT2-TOOLS-KI (to prune-links) and GRANT-INTERIM (already in `state.md` Next steps) removed.
