@@ -16,5 +16,6 @@
     "downscalePercent": 95
   },
   "readableLineLength": false,
-  "newLinkFormat": "shortest"
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true
 }
