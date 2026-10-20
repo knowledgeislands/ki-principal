@@ -802,3 +802,7 @@ STYLE-STALE landed (`dacdcc33`, local): re-anchoring now re-reads `output-styles
 
 - KI-TOOL-KI-CLI-159 delivered to awaiting review (`b4f8a100`, `5aebeb9d`, pushed); 1,405 tests at 100% coverage. accept5-tools-ki (Codex) reviews it under the overnight grant, and prunes it if it passes.
 - ISLAND-CONDITION: the Observatory's to use, so routed once to ki.observatory's `messages.md`. Line removed.
+
+## 2026-10-20 08:37 BST - received accept5-tools-ki
+
+KI-TOOL-KI-CLI-159 accepted by independent Codex review (`a073f97b`, pushed). It stays unpruned because its live links are in ki-principal, which has other sessions' unpushed commits, so it joins PRUNE-LINKS-REST. Next: morning-gather collects every query the overnight runs left for Kris into `queries.md`, and morning-review (Codex) blind-reviews them. harness-burn surveys the harness roadmap and delivers what needs no owner decision, per "a good run at whatever's left in the agentic harness".
