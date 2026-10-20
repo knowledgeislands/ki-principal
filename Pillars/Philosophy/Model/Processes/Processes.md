@@ -27,7 +27,7 @@ Start with [How Change Happens](<How Change Happens.md>), the narrative chapter 
 
 ## Enactment Process
 
-[Enactment Process](<Enactment Process/Enactment Process.md>) is the internal mechanism through which a council exercises its authority over an island's canonical content. It sets out the philosophy of the gate that change must pass before reaching Pillars or Resources, and how proposals move between Streams and ratification. The operational mechanics are owned by the shared change-management skills; this note holds the governing intent and the local specifics.
+[Enactment Process](<Enactment Process/Enactment Process.md>) is the internal mechanism through which a council exercises its authority over an island's canonical content. It sets out the philosophy of the gate that change must pass before reaching Admin, Pillars or Resources, and how proposals move between Streams and ratification. The operational mechanics are owned by the shared change-management skills; this note holds the governing intent and the local specifics.
 
 ---
 

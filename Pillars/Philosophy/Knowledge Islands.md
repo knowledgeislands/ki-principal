@@ -77,7 +77,7 @@ The second part is the portable, generic model. It covers the language of the is
 ### Processes - How does change happen?
 
 - [Processes](Model/Processes/Processes.md) - the chapter index; start with [How Change Happens](<Model/Processes/How Change Happens.md>)
-- [Enactment Process](<Model/Processes/Enactment Process/Enactment Process.md>) - Stream ↔ Council → Pillars/Resources; the iterative governance cycle
+- [Enactment Process](<Model/Processes/Enactment Process/Enactment Process.md>) - Stream ↔ Council → Admin/Pillars/Resources; the iterative governance cycle
 - [Contribution Process](<Model/Processes/Contribution Process/Contribution Process.md>) - who can contribute; customs at the boundary; inbound vs outbound
 - [Acquisition Process](<Model/Processes/Acquisition Process/Acquisition Process.md>) - how external material is acquired, staged, harvested and retired
 - [Work Process](<Model/Processes/Work Process/Work Process.md>) - how coordinated work moves between the people and agents doing it
