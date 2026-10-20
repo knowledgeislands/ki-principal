@@ -30,10 +30,10 @@ At review time, the invoked executable reports version 0.10.1 and exposes both o
 
 ### F4 - Several drift claims need updating or qualifying
 
-- The ways-of-working checkpoint now links the folder-form Project note correctly. Its `updated_at` is 2026-10-13T03:20:00Z. Treat the old path as a resolved observation, not a current defect. See [[knowledge-islands-model.ways-of-working]].
-- The master checkpoint still supplies a label-based opener, conflicting with Project-name resolution. The proposed shortened label remains inconsistent with the current title-based label convention. Those are confirmed issues. See [[_state-of-play]] and [checkpoint identity and label rules][checkpoint].
+- The ways-of-working checkpoint now links the folder-form Project note correctly. Its `updated_at` is 2026-10-13T03:20:00Z. Treat the old path as a resolved observation, not a current defect. See [knowledge-islands-model.ways-of-working](../work.md).
+- The master checkpoint still supplies a label-based opener, conflicting with Project-name resolution. The proposed shortened label remains inconsistent with the current title-based label convention. Those are confirmed issues. See [\_state-of-play](../../ki/work.md) and [checkpoint identity and label rules][checkpoint].
 - The local three-Project cap and the standard's three-or-four wording differ. The master's stored active list also contains eight entries. That establishes a contradictory inventory, not eight verified live sessions: this review did not inspect runtime state. Define what counts towards the cap before enforcing it.
-- The Initiative note contains downward Project links despite the registry standard forbidding such membership lists. Any migration needs to reconcile current examples as well as the standard. See [[knowledge-islands-model/knowledge-islands-model|Knowledge Islands model]] and [registry links][registry].
+- The Initiative note contains downward Project links despite the registry standard forbidding such membership lists. Any migration needs to reconcile current examples as well as the standard. See [Knowledge Islands model](../../../../Streams/Themes/model.md) and [registry links][registry].
 
 ### F5 - Checkpoint fields and registry consumers are overstated
 
@@ -69,7 +69,7 @@ One small implementation defect was reproduced by a read-only string predicate: 
 
 The thirteen-skill inventory, process ownership boundaries, applicability metadata, recurring-work distinction, Pulse dispositions, recap hand-off, immutable Project slugs, upward classification, finite Project close-out, non-completing Initiatives and five-stage independent design process are supported by their cited files. Work-record Project classification is optional, however; an Initiative is used directly for projectless work where that classification is supplied. It is not a universal requirement that every record carry one of those fields. See [record classification][item].
 
-The Capital-alias change is present in tools-ki history at `e04e5191b382812fba116dc4ae988570254242b4`; the eight aliases are recorded in [[Known Lands]]. The command-centre note supports the reported crosswalk ideas and proposed Instrument. It labels the Item comparison as an idea. The brief does not establish equivalence with legal-principal's model, which was outside this review's authorised source set. The approximate rename count is attributed to a prior perspective in [[ways-of-working/ways-of-working|Ways of working]], not independently proven here by reading that review.
+The Capital-alias change is present in tools-ki history at `e04e5191b382812fba116dc4ae988570254242b4`; the eight aliases are recorded in [Known Lands](<../../../../Admin/Governance/Known Lands.md>). The command-centre note supports the reported crosswalk ideas and proposed Instrument. It labels the Item comparison as an idea. The brief does not establish equivalence with legal-principal's model, which was outside this review's authorised source set. The approximate rename count is attributed to a prior perspective in [Ways of working](../../../../Streams/Projects/ways-of-working.md), not independently proven here by reading that review.
 
 ## Points
 

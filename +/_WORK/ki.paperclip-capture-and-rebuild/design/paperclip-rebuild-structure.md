@@ -6,7 +6,7 @@ author: Written with Claude
 
 # Paperclip rebuild structure
 
-**For:** Kris Brown - **Project:** [[paperclip-capture-and-rebuild|Paperclip capture and rebuild]] - **Date:** 2026-10-14 - **Authority:** Kris's 2026-10-14 instruction to 'recreate it with the same approach but fresh'
+**For:** Kris Brown - **Project:** [Paperclip capture and rebuild](../../../../Streams/Projects/paperclip-capture-and-rebuild.md) - **Date:** 2026-10-14 - **Authority:** Kris's 2026-10-14 instruction to 'recreate it with the same approach but fresh'
 
 The structure of the `terra` Paperclip instance as it stood when it was stopped on 2026-10-14, recorded so a fresh instance can recreate the same approach. It holds no secrets and no issue content. Agent instruction bundles and full configuration, minus secrets, are in the Knowledge Islands source store under `paperclip/2026-10-approach/`, one folder per company code.
 

@@ -1,6 +1,6 @@
 # Change management: decisions
 
-**Owner:** Kris Brown - **Report:** [[change-management-report]] - **Date:** 2026-10-13
+**Owner:** Kris Brown - **Report:** [change-management-report](change-management-report.md) - **Date:** 2026-10-13
 
 These are the owner's own words against the report's tagged decisions. Where they differ from the report, they win. Kris answered in four messages on 2026-10-13, all quoted here verbatim: the answers to the report's tagged decisions; the earlier answer on the coordinator hook; the answers to the queries the pilot, the deliveries and the naming review raised afterwards; and the answers on durability, naming and the hook. Each entry gives the tag, the option chosen and Kris's words. Decisions taken before the report, and those settled after it on 2026-10-14, follow in their own sections, so that nothing settled in this thread exists only in the run's state folder or in its checkpoint. The words are the record. No entry depends on a numbered position in any run log, by Kris's rule: "I actually think we should not necessarily need to put the decision number anywhere. It should be written about what the decision was or is."
 

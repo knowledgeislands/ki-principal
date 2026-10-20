@@ -2,7 +2,7 @@
 
 **Owner:** Kris Brown - **Owning repository:** knowledgeislands/ki-principal - **Date:** 2026-10-13
 
-**Subject:** the change-management model of the Knowledge Islands territory, designed in the [[ways-of-working|Ways of working]] Project under the [[knowledge-islands-model|Knowledge Islands model]] Initiative.
+**Subject:** the change-management model of the Knowledge Islands territory, designed in the [Ways of working](../../../../Streams/Projects/ways-of-working.md) Project under the [Knowledge Islands model](../../../../Streams/Themes/model.md) Initiative.
 
 All paths below are relative to `~/workspaces/knowledge-islands/` unless they start with `~`. The harness skills are under `ki-agentic-harness/skills/`, shortened to `skills/`. "Decision N" without a qualifier means the ways-of-working run's decisions log, `~/.local/state/ki/agents/ways-of-working/decisions.md`; "master Decision N" means the territory master thread's log, `~/.local/state/ki/agents/state-of-play/decisions.md`. Both logs are machine-local; everything a reviewer needs from them is quoted here.
 
@@ -28,7 +28,7 @@ The brief covers eight areas, set by the coordinating thread from Kris's decisio
 5. `ki-design-loop`: its name, area and place.
 6. The `ki` command surface: evolution, naming and a territory-level view.
 7. The default model and reasoning effort for coordinating threads.
-8. The Knowledge Islands model scope absorbed from the [[command-centre]] Project.
+8. The Knowledge Islands model scope absorbed from the [command-centre](../../../../Streams/Projects/observatory.md) Project.
 
 ## Owner's proposal
 

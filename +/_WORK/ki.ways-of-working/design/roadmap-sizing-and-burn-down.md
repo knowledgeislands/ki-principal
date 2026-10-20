@@ -1,6 +1,6 @@
 # Roadmap sizing and burn-down history
 
-**Owner:** Kris Brown - **Design:** [[design|Change management]] - **Date:** 2026-10-14
+**Owner:** Kris Brown - **Design:** [Change management](design.md) - **Date:** 2026-10-14
 
 This is the one design record Kris asked for on roadmap sizing and burn-down history. It is design only. It creates no roadmap record, and under the burn-down focus none is captured until the current Next records close. Paths follow the folder's convention: relative to `~/workspaces/knowledge-islands/`, with `skills/` meaning `ki-agentic-harness/skills/`. Facts were read on 2026-10-14 at `tools-ki` revision `7e3c05f` and `ki-agentic-harness` revision `e10ff14c`.
 

@@ -6,7 +6,7 @@ author: Written with Claude
 
 # Rig and Techne boundary audit
 
-**For:** Kris Brown - **Project:** [[agent-host|Agent host]], with [[Initiatives/rig|Rig]] and [[Initiatives/techne|Techne]] - **Date:** 2026-10-11 - **Authority:** Kris's 2026-10-11 instruction in the Techne run, questioning the Rig and Techne boundary and asking 'for sense-making and an audit across Rig and Techne', with 'read-only audit and one written assessment in Arcadia; no record changes' - **Scope:** cross-project, for the state-of-play thread to pick up
+**For:** Kris Brown - **Project:** [Agent host](../../../../Streams/Projects/agent-host.md), with [Rig](../../../../Streams/Themes/rig.md) and [Techne](../../../../Streams/Themes/techne.md) - **Date:** 2026-10-11 - **Authority:** Kris's 2026-10-11 instruction in the Techne run, questioning the Rig and Techne boundary and asking 'for sense-making and an audit across Rig and Techne', with 'read-only audit and one written assessment in Arcadia; no record changes' - **Scope:** cross-project, for the state-of-play thread to pick up
 
 A reading document. It inventories what Rig, the Techne harness and CLI, chezmoi and Cheztoi, the Homebrew tap and `tools-ki` actually do today, tests Kris's four-layer framing against that, and ends with numbered decisions. It changes no record. The hold on building KI-TECHNE-OPS-017 and approving KI-TECHNE-OPS-024 stands until Kris answers the decisions below.
 
@@ -72,7 +72,7 @@ Three differences stand out. The tool pins are a Rig profile, but they live insi
 - **Linux coverage of the personal catalogue.** Only `mgit` has a Linux variant. Cheztoi's fragment accepts only built-in providers, so personal tools on Linux are limited to mise, uv, npm and direct download.
 - **No linux-arm64 builds** of `ki` or `techne`. This rules out Graviton instances and small ARM appliances.
 - **Rig's platforms are `macos`, `linux` and `any`.** Nothing distinguishes Debian from Arch, which an Arch base would need wherever native packages differ.
-- **No appliance recipe, no owned-host provider.** Both are ideas only. Anything that runs Paperclip remotely stays held by the [[Techne Programme Hold]].
+- **No appliance recipe, no owned-host provider.** Both are ideas only. Anything that runs Paperclip remotely stays held by the [Techne Programme Hold](<../../../../Admin/Governance/Policies/Techne Programme Focus.md>).
 - **Pin lag.** The recipe pins Rig 0.4.0, while the tap and the latest release are 0.5.0.
 
 ### Naming confusions
@@ -99,7 +99,7 @@ A host has exactly one base and one or more roles.
 | Role | What it is for | Interactive personal layer | Example hosts | Hold position |
 | --- | --- | --- | --- | --- |
 | **Workstation** | A person at the keyboard: GUI applications, Dock, macOS defaults, services | chezmoi | `terra`, `sol` | outside the hold |
-| **Remote agentic rig** | Agent sessions the owner opens over Tailscale SSH: the KI toolchain, a workspace of repositories and the personal layer | chezmoi on owned hosts, Cheztoi on less-trusted hosts | `vega`, `sol` | exempt under [[GDR-KI-PRINCIPAL-004-standing-agent-host-exemption-from-the-techne-programme-hold\|GDR-KI-PRINCIPAL-004]] |
+| **Remote agentic rig** | Agent sessions the owner opens over Tailscale SSH: the KI toolchain, a workspace of repositories and the personal layer | chezmoi on owned hosts, Cheztoi on less-trusted hosts | `vega`, `sol` | exempt under [GDR-KI-PRINCIPAL-004](../../../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-004-techne-focus-on-the-agent-host-and-the-mac-studio.md) |
 | **Appliance** | Runs a service or runtime, such as a Paperclip environment, with no remote desktop and no personal shell | none, or a minimal Cheztoi payload for the operator | none yet | held; needs a hold reshape |
 
 `sol` carries two roles, workstation and remote agentic rig. That is why the Mac Studio Project sits in Rig while also being an exempt remote agent host. Roles compose: it does not have to be one or the other.
@@ -185,7 +185,7 @@ Plain words only. No record is changed by this audit.
 
 ## Decisions for Kris
 
-**Outcome:** Kris accepted all ten decisions as recommended on 2026-10-11. [[Hosts, Roles and Layers]] holds the plain-language summary.
+**Outcome:** Kris accepted all ten decisions as recommended on 2026-10-11. [Hosts, Roles and Layers](<../../../../Pillars/Engineering Practice/Architecture/Hosts, Roles and Layers.md>) holds the plain-language summary.
 
 1. **Adopt the four layers plus workspace.** Base (Techne), role (Rig), workspace (Techne through `ki`), personal (chezmoi or Cheztoi), with packaging as a separate supply concern. _Recommended: yes._
 2. **Name the role "remote agentic rig" and narrow the recipe.** Options: (a) keep the recipe called `agent-host` and only describe it as "the AWS base for a remote agentic rig"; (b) rename it now, in KI-TECHNE-OPS-017's single rebuild. _Recommended: (a)._ Renaming touches the tags, parameter prefix, GDR-KI-PRINCIPAL-004 scope and the controller tooling for little gain. Revisit when a second recipe (appliance or owned host) exists.
