@@ -176,6 +176,20 @@ b) Review the Sol findings as they stand, and decide on a mitigation after Terra
 
 c) Leave the evidence stage here.
 
+### [DELIVERED-STATUS - Records delivered before Ready](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-088-ssh-alias-for-sol.md)
+
+**Context:** [KB-DOTFILES-UE-082](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-082-tolerate-missing-template-tools.md), [KB-DOTFILES-UE-088](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-088-ssh-alias-for-sol.md) and [KB-DOTFILES-UE-092](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-092-restore-local-skill-projection.md) are delivered and verified (088 on both Macs), with the evidence in each record, yet each is still `draft` at next and never went through Ready. They read as unplanned work in the queue.
+
+**Query:** How should they be brought into line with the lifecycle?
+
+**Options:**
+
+a) (recommended, confidence high - the evidence is already in each record) You review 082, 088 and 092 and close them through `ki-accept`.
+
+b) A run moves them to Awaiting review, noting that delivery came before Ready.
+
+c) Leave them until the next census.
+
 ## Parked
 
 None.
