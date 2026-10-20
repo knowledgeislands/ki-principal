@@ -814,3 +814,7 @@ KI-TOOL-KI-CLI-159 accepted by independent Codex review (`a073f97b`, pushed). It
 ## 2026-10-20 08:49 BST - one routed line
 
 TOOLS-KI-RESOLUTION-LOCAL (from harness-burn, on KI-HARNESS-GOV-170): tools-ki's parser change is tools-ki's own, so it was routed once to ki.tools-burndown's `messages.md`. Line removed.
+
+## 2026-10-20 08:54 BST - received morning-review
+
+Codex blind review (`ebce71aa`): it agrees on GRANT-INTERIM, RIG-053-SHAPE, PLAN067-READY, DESIGN-DISPOSITIONS and TOOLS-KI-SHAPES, which are now reviewed, high. It disagrees on SITE-SOURCE, which stays medium with both views shown (verify anonymous access to the exact citation first, as d)). The 13 queries are ready for the morning Summary.
