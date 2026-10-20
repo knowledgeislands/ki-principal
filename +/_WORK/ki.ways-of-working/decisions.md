@@ -170,3 +170,7 @@ The tools-ki sign-off run left a line here: make CLEAN-1 to CLEAN-7 mechanical i
 Kris: "ENACTMENT-ADMIN ok lets go safe with a) but we will need to consider it soon"
 
 Taken as: a) after blind review. The gate stays on Admin, Pillars and Resources (SDR-KI-PRINCIPAL-004); the portable gate statements name `Admin/` alongside them, the Great Library's section stays Pillars-only, and the island's Enactment Process widens the owner-instruction stand-in so one approved scope covers a batch of related edits. No new decision record, no harness change. Narrowing the gate (the tiered or Admin-only options) stays open and comes back to Kris soon, carried as an open point in state.md, not a record.
+
+## 2026-10-20 23:42 BST - GOV-225 baseline evidence
+
+The GOV-225 acceptance review passed on substance but stopped on `baseline_ref: null`, raising GOV225-BASELINE. Covered by Kris's GOV225-CLOSE a) ("Closes the hook content-claims record after a final review") and the 20 October acceptance grant: a repair run establishes the baseline from verifiable Git evidence only (no inference), then a fresh independent acceptance. Not raised to Kris.
