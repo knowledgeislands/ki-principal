@@ -13,7 +13,7 @@ method_read: 84b61942
 ## Now
 
 - With worker since 23:30 BST on 19 October; marked at 23:36 BST on 19 October.
-- Overnight autonomy (OVERNIGHT, 00:28 BST): check every 10 minutes, act on high confidence. Chained in tools-rig: plan069, plan068; review027 (blind review of Q-027-REPEATS) alongside. The rest of RIG-TRIAGE (057, 064, DIST-011) waits for Kris. rig-triage received: KI-TOOL-RIG-CORE-065 and KI-TOOL-RIG-CORE-066 at Awaiting review;
+- Overnight autonomy (OVERNIGHT, 00:28 BST): check every 10 minutes, act on high confidence. Chained in tools-rig: plan069, plan068, then fix027 (Q-027-REPEATS follow-up within KI-TOOL-RIG-CLI-027). The rest of RIG-TRIAGE (057, 064, DIST-011) waits for Kris. rig-triage received: KI-TOOL-RIG-CORE-065 and KI-TOOL-RIG-CORE-066 at Awaiting review;
 - Records: KI-TOOL-RIG-CORE-047, KI-TOOL-RIG-CORE-062, KI-TOOL-RIG-CORE-063, KI-TOOL-RIG-CORE-065, KI-TOOL-RIG-CORE-066 and KI-TOOL-RIG-CLI-027 await Kris's acceptance; KI-TOOL-RIG-CORE-069 is in Triage. Pushes are left to Kris and the owning sessions.
 - Lane, confirmed by State of play on 19 October: tools-rig and the agent-host hold cluster, which waits with the on-hold ki.agent-host until TECHNE-FOCUS is settled.
 - Looks resolved, to confirm with Kris: terra key-only SSH and HOSTKEY-APPLY steps 6-9 (KB-DOTFILES-UE-088), and the parked SOL-HNR-HARNESS.
