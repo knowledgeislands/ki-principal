@@ -208,21 +208,27 @@ b) Leave both to-dos as they are.
 
 ### CONTROL-CONTRACT - Remaining agent controls
 
-**Context**
+**Context:** TAKE-STOCK names stop, dequeue and bounded OOS-WAKE, but its cited design supplies capability names rather than their complete observable contract. The current process port has launch, liveness and sleep; it does not establish a safe stop operation or a coordinator continuation binding. The existing queue does not define what dequeue acknowledges against a dispatcher that has already claimed an entry. Choosing signal versus cooperative stop, cancellation acknowledgement, native continuation identity, expiry and wake deduplication would add policy beyond this unit's settled-contract limit. Repository/run resolution, queue and send are verified already present; no watcher was started.
 
-TAKE-STOCK names stop, dequeue and bounded OOS-WAKE, but its cited design supplies capability names rather than their complete observable contract. The current process port has launch, liveness and sleep; it does not establish a safe stop operation or a coordinator continuation binding. The existing queue does not define what dequeue acknowledges against a dispatcher that has already claimed an entry. Choosing signal versus cooperative stop, cancellation acknowledgement, native continuation identity, expiry and wake deduplication would add policy beyond this unit's settled-contract limit. Repository/run resolution, queue and send are verified already present; no watcher was started.
+**Query:** Which settled contract should govern those remaining controls before another implementation run?
 
-**Query**
-
-Which settled contract should govern those remaining controls before another implementation run?
-
-**Options**
+**Options:**
 
 a) (recommended, confidence high - an exact contract makes the bounded implementation reviewable) Have the coordinator supply the accepted stop/dequeue/wake contract, including process ownership and continuation binding, then redispatch only that machinery.
 
 b) Defer the remaining controls and retain the verified repository-resolution, queue and send portion.
 
-From wow-night-tools-ki-queue-d, 2026-10-21 03:41 BST.
+### DEFAULTS-CONTRACT - Role defaults for agent launches
+
+**Context:** The TAKE-STOCK line LAUNCH-DEFAULTS asks `ki agent launch` to default runtime, model, effort and footer by the run's role ([design C3](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/take-stock-2026-10-20.md)), but gives only partial examples (reviews on Codex at the strongest model, acceptance with the prune footer). No complete role mapping or rule for when explicit options win exists, and today's launcher defaults to Claude with no footer. wow-night-tools-ki-queue left it unimplemented rather than invent policy ([report](/Users/krisbrown/.local/state/ki/agents/ways-of-working/wow-night-tools-ki-queue.report.md)).
+
+**Query:** Which role-to-runtime, model, effort and footer mapping, and which precedence for explicit options, should LAUNCH-DEFAULTS implement?
+
+**Options:**
+
+a) (recommended, confidence high - an exact contract makes the build reviewable) The coordinator drafts the mapping and precedence for your acceptance alongside CONTROL-CONTRACT, then one run builds it.
+
+b) Defer LAUNCH-DEFAULTS; launches keep naming runtime, effort and footer explicitly.
 
 ### RELEASE-PREP - Version and Harness pin for the next tools-ki release
 

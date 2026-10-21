@@ -328,3 +328,7 @@ wow-night-ops009-captures issued KI-TOOL-KI-CLI-168, -169, -170 and -171 as unad
 ## 2026-10-21 05:58 BST - CHECKOUT-SAFETY briefs exemption
 
 wow-night-parked-queries-d stopped because ki-principal's primary checkout held 88 untracked dispatch briefs and nothing else. The briefs are the coordinator's own uncommitted working files. Under the 01:55 grant the coordinator takes CHECKOUT-SAFETY b): wow-night-parked-queries-e carries a bounded exemption for those briefs alone, and any other change still stops it.
+
+## 2026-10-21 06:08 BST - overnight complete, send to Kris
+
+wow-night-parked-queries-e struck the verified-overtaken parked demands and routed 80 residual ki-principal audit findings once each to their owning works' messages.md. Its AUDIT-OUTSIDE-LANE line for this work (state.md headings and length, CONTROL-CONTRACT shape) is acted on here: state.md is reshaped to Now, Next steps and Held with the Writers lanes retired, and CONTROL-CONTRACT reformatted. DEFAULTS-CONTRACT is copied into queries.md. Every remaining open item needs Kris's judgement, presence, a release version or a push, so the work goes to Kris.
