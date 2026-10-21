@@ -27,7 +27,7 @@ method_read: eff6163b
 Each repository lane has one active writer at a time; the designation passes to the next run in the chain once its predecessor reports DONE with its outcome committed, or on an explicit blocked handoff. Designated at 02:00 BST under the 01:40 and 01:55 grants:
 
 - ki-agentic-harness: wow-night-harness-queue-b, then wow-night-harness-224-accept-b (the original wow-night-harness-224-accept is superseded and stops on this designation).
-- tools-ki: wow-night-tools-ki-queue, then wow-night-cli-140-plan, wow-night-cli-156, wow-night-cli-156-accept, wow-night-tools-ki-release-candidate.
+- tools-ki: wow-night-tools-ki-queue, then wow-night-cli-140-plan, wow-night-cli-156, wow-night-cli-156-accept, wow-night-tools-ki-release-candidate, wow-night-tools-ki-queue-b (wow-night-tools-ki-queue returned blocked on DEFAULTS-CONTRACT; LAUNCH-DEFAULTS deferred to Kris).
 - apps-observatory.local: wow-night-observatory-queue, then wow-night-brg-006-accept.
 - tools-rig: wow-night-rig-048, then wow-night-rig-048-accept, wow-night-rig-067, wow-night-rig-067-accept, wow-night-rig-056, wow-night-rig-056-accept, wow-night-tools-rig-release-candidate.
 - ki-principal (work packages only): wow-night-principal-queue, then wow-night-parked-queries.
