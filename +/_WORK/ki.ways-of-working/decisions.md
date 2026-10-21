@@ -1,19 +1,5 @@
 # Decisions
 
-## 2026-10-14 - thread-model owner words
-
-Kris's words from the two thread-model design notes, kept here when the notes were deleted on 20 October; the behaviour they set is homed in the `ki-coordination` and `ki-delegation` standards, and GDR-KI-PRINCIPAL-009 superseded the thread model.
-
-- Banner request, relayed by the Master on 14 October: "every coordination-thread summary or owner report ends with a multi-line status banner modelled on the ki-recap banner. The banner states plainly whether the thread is AT REST (all work concluded, nothing in progress, no open queries) or not, and why. The banner carries one copyable resume line Kris can paste back into the thread later".
-- Scope, 14 October: the Master gives this work "the whole thread-working model - how coordination threads work, their skills, hooks, the banner, re-bootstrap and inter-thread messaging".
-- THREAD-TERMS, Kris's question of 14 October: "What is the terminology that we're using? Is it a thread, a session, or a chat? I think a thread is the right word at this moment in time ... I think we've got three kinds of threads. I think we've got normal threads, we've got coordination threads, and then we've got state of play threads, which effectively are coordination threads of coordination threads ... I think we should formally define the type of thread that we've got. Normal threads could be something like conversational threads as well."
-- Durable decisions, the same question: "We still need to get to the bottom of what we do about decisions and then being durable knowledge ... This also includes these so-called design folders and what we do with those as they are under a project currently in streams/projects/<project-id>/design."
-- BANNER-LETTERS, Kris at the Master on 14 October: "a conversational thread can be considered done. That's the end of the conversation. But a coordination thread can either be busy or at rest. Whether or not it then ends up being done is more a situation about the project itself, and in effect, it's when we say that project's closed and pull out and tidy up all of the stuff that's been happening."
-- BANNER-MARK, Kris at the Master on 14 October: "BANNER-MARK: confirmed. The resume line is the equivalent of a compaction for the checkpoint and coordination thread, and may also trigger a real compaction."
-- Cross-session visibility, Kris at the Master on 14 October: "Kris sees no Zed rendering of cross-session messages: the threads appear idle, or show x (failed) since the outage, although their backends replied. The messaging interface goes to ways-of-working."
-- Handoffs, Kris's rule: a handoff "counts as done only when Kris expressly says so".
-- DESIGN-RETENTION, before the answer (a): "DESIGN-RETENTION - I guess if this is truly a working area, it should be stored in the `+` working area under some kind of design heading in terms of then the durability of it later on."
-
 ## 2026-10-17 23:09 BST - COUNSEL
 
 - COUNSEL - (Kris, 17 October 23:09 BST) "I'm hoping this conversational style is quite useful, by the way. It helps me to sort of express the different things I'm thinking. As a general thing about me, I'll talk through things and give different perspectives on it. I'm not going to say what I want it to be, and I also want to have good counsel given to me by the agentic system as well. It's not me dictating." Applied in briefs: weigh and challenge Kris's model rather than transcribe it.
@@ -94,23 +80,12 @@ Kris: "btw, both machines are in local mode so if they pull they have the latest
 
 Read back taken: Terra and Sol run the tools from their checkouts, so a pull gives them the current `ki` and harness; no per-machine install step is needed there.
 
-## 2026-10-19 - CAPTURE-GATE
-
-Kris took CAPTURE-GATE a) on 19 October: "runs never create records; the owning work's coordinator captures only a blocker, a defect seen failing or a Kris request; ideas go to Project notes; small audit fixes need no record". Homed in `ki-delegation`'s background-run standard and `ki-next`; a standing rule on every brief, with no roadmap cap.
-
 ## 2026-10-19 22:17 BST - lesson, half-done harness checkout
 
 link1-baseline: a run editing the harness checkout breaks every island's pre-commit audit while its edit is half-done (22:12 to 22:14 BST, 19 October). Not yet in [Mistakes and Lessons](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Operations/Mistakes and Lessons.md>); harness edits run in worktrees since.
 
-## 2026-10-19 23:22 BST - owner direction, PUSH-NOT-WITH-YOU
+## 2026-10-20 03:34 BST - owner answers, NET-DOWN and WIP-CAP
 
-Kris: "By the way, I'm sick and tired of having with me saying pushing stuff, right? That's not an issue. Can we get that removed? Why'd you need to put that against me? I can just push it. Also this is on hold, but it says on hold pushed to agentic harness. You're not on hold on if you're waiting on something."
-
-Read back taken: a push of stacked commits is never a "with you" item or query; it shows only as `[unpushed]`, naming other sessions' commits once in Done. With HOLD-CLEAN, homed in the `ki-coordination` standard and output style (harness `f4d6c521`) and the Work Process note (`be2e6ec6`).
-
-## 2026-10-20 03:34 BST - owner answers, HANDOFF-AS-MESSAGE, NET-DOWN and WIP-CAP
-
-- HANDOFF-AS-MESSAGE, Kris: "Handoffs are not roadmap items ... A rollout that needs people to make those changes sooner rather than later must go as a message ... we push the need to roll things out into other projects triage folders, and that's not what this is for." Taken as: rollouts and handoffs go as `messages.md` lines, never records; only genuinely deferred work the receiver owns may be a record. Homed in the standards (harness `76b6e5c5`) and the choreography sections of ki-principal, KI Specifications, the Techne Harness and tools-techne.
 - NET-DOWN, Kris: "the net downtrend is important ... something we can track and see in the observatory based on the data which is in the roadmap items ... I don't think there's anything we need to actually change at this point. We just need to keep on top of it." Taken as: no rule or tooling now; State of play keeps an eye on it; an Observatory trend view stays an idea.
 - WIP-CAP, Kris: "I agree with WIP limits in general ... the more thinking needs to go around ... can we move some things forwards quicker, get things reviewed?" Taken as: WIP limits in principle, no number yet; the effort goes into faster review and acceptance.
 
@@ -135,19 +110,11 @@ Taken as: this work coordinates an overnight burndown in order tools, MCPs, apps
 
 Kris, 20 October, granting overnight acceptance: "if you can quickly now accept ... accepting new things that are waiting with you and pruning those ... getting the roadmaps down to zero". Quoted in every overnight acceptance brief; each acceptance was by an independent reviewer that did not deliver the work.
 
-## 2026-10-20 09:27 BST - send to owner
-
-The overnight burndown is drained, and the mark is struck at 09:27 BST. Nineteen queries go to Kris; the six medium or low ones were blind-reviewed by Codex. Other sessions' commits keep ki-principal, the harness, specifications, Observatory and others unpushed, and the pending prunes wait on those pushes.
-
 ## 2026-10-20 22:03 BST - self-serve burndown
 
 Kris: "Is there anything more that you can do by yourself without me? To try and get that vote back down before I re-open lots of other threads? ... roadmap down"
 
 Taken as: "vote" read as "load". Carry the overnight burndown on with only what needs nothing from Kris: independently reviewed acceptances of records already awaiting review (KI-HARNESS-GOV-219, KI-HARNESS-GOV-224) under the 20 October acceptance grant, the ECO-013 audit recheck, this work's design-note graduation, and a read-only sweep of every remaining roadmap for records workable without Kris, delivered on its findings. The 19 queries stay with Kris; other sessions' stacked commits stay unpushed.
-
-## 2026-10-20 23:05 BST - send to owner
-
-Self-serve burndown drained. KI-HARNESS-GOV-219 and KI-PRINCIPAL-MOD-008 accepted; 17 records pruned with 63 links pinned; harness CI capped and knip adopted; KI-OBSERVA-BRG-006 passed review pending Kris's look; KI-HARNESS-GOV-224 failed and went to ki.observatory; KI-TOOL-RIG-CORE-056 failed, reworked on a branch, integration waits on ki.tools-burndown's Rig hook repair. Eight MOD-008 philosophy queries join the open list after blind review.
 
 ## 2026-10-20 23:13 BST - query sign-offs, first answers
 
@@ -178,20 +145,6 @@ The GOV-225 acceptance review passed on substance but stopped on `baseline_ref: 
 ## 2026-10-21 00:00 BST - GOV-225 third acceptance
 
 The second acceptance stopped on HARNESS-PRIMARY-LEAK: ki.chezmoi's hooks-tools run leaked test fixtures into the harness's shared .git at 23:55. That run has since restored the primary (main at 35ba5120, core.bare=false, fixture identity removed), confirmed by the coordinator. Not raised to Kris: a third acceptance runs with that evidence and leaves the hooks work's fixture branches alone.
-
-## 2026-10-21 00:05 BST - messages: ki.chezmoi harness hold
-
-ki.chezmoi asked this work to hold harness commits until its hooks/hooks-recover run reports on the harness Git metadata. Accepted: wow-accept-gov225-c stays held until hooks-recover finishes, then runs. Line removed.
-
-## 2026-10-21 00:10 BST - messages: ki.chezmoi harness released
-
-ki.chezmoi reported hooks-recover finished and the harness metadata verified; harness commits may resume. wow-accept-gov225-c dispatched, committing locally without pushing over the hooks work's two unpushed commits. Line removed.
-
-## 2026-10-21 00:14 BST - overnight queries for tools, MCPs and apps
-
-Kris: "can you ask me any queries to make sure you have enough to get `tools-*` and `mcp-*` and `apps-*` roadmaps cleared overnight"
-
-Taken as: a read-only sweep of every open record in the KI tools, MCP and app repositories, and the held queues routed to ki.tools-burndown and ki.observatory, to find exactly what needs Kris for each, framed as queries; then one Codex blind review of those queries before they reach Kris. Nothing launches for the overnight burndown until he answers.
 
 ## 2026-10-21 01:40 BST - overnight answers and mark
 
@@ -225,113 +178,21 @@ Read back as taken:
 
 The first queue runs stopped on prerequisites the planner's briefs set narrower than the standard: tools-ki stopped at its first unclear line (DEFAULTS-CONTRACT, left for Kris), and the Observatory found no prepared isolated audit home (AUDIT-HOME). Under Kris's 01:55 words "I'm happy for you to just make it all work", the coordinator took AUDIT-HOME b): a run prepares one offline isolated audit home from installed local material only, with no download or real-registry change, and the briefs name it. Multi-line runs now skip an unclear line, return it as a query and continue.
 
-## 2026-10-21 02:41 BST - CLI-140 remote authority (coordinator, under the 01:55 grant)
-
-`wow-night-cli-140-plan-b` returned REMOTE-AUTHORITY: its brief both forbade and required fetch and push. Under Kris's 01:55 grant ("get them pushed"), the coordinator took option b in a bounded form: evidence gathering stays offline, and integration may fetch and fast-forward push the run's own commits only, never with other sessions' commits stacked. `wow-night-cli-140-plan-c` carries the corrected brief, queued after `wow-night-tools-ki-release-candidate-b`, the last tools-ki writer.
-
-## 2026-10-21 02:43 BST - Rig planning preflight warnings (coordinator, under the 01:55 grant)
-
-`wow-night-rig-048-c` returned ROADMAP-PREFLIGHT: ki-plan stops on any audit warning, and tools-rig carries pre-existing warnings (no size on KI-TOOL-RIG-CORE-047, KI-TOOL-RIG-CORE-048 and KI-TOOL-RIG-CORE-064; no Capital checkout in the isolated registry). Under Kris's 01:55 grant ("make it all work"), the coordinator took the run's option a): each Rig planning unit may proceed past exactly those enumerated warnings, shaping its own size, leaving other records unchanged and registering Capital only in its copied audit home; any new warning or failure still stops it. `wow-night-rig-048-d` carries it, and the -c briefs for CORE-067 and CORE-056 carry the same line.
-
-## 2026-10-21 02:44 BST - overnight remote authority (coordinator, under the 01:55 grant)
-
-`wow-night-cli-156-b` returned REMOTE-AUTHORITY too: the first-wave briefs carry a generic "no remote call of any kind" footer that contradicts their narrow CI read (CI-READ a), 01:40) and the own-commit push Kris granted at 01:55 ("get them pushed"). The coordinator took the run's option a) for every brief: one rule allowing only the brief's own narrow read and a fetch plus fast-forward push of the run's own commits, never with other sessions' commits stacked. `wow-night-remote-fix` applies it to the open briefs and queued prompts and writes `wow-night-cli-156-c` and its acceptance, which run after `wow-night-cli-140-plan-c`.
-
-## 2026-10-21 02:52 BST - tools-ki queue writer
-
-Coordinator, under the 01:55 grant: wow-night-tools-ki-queue-c was queued with the queue-b brief and stopped on WRITER-MISMATCH. The tools-ki queue runs as wow-night-tools-ki-queue-d from that brief renamed, launched directly, and every later tools-ki run is launched directly one at a time, so that no queued run becomes a second writer.
-
-## 2026-10-21 03:03 BST - Rig baseline allowance
-
-Coordinator, under the 01:55 grant, answering RIG-PREFLIGHT-WARNINGS a) and RIG-AUDIT-ACTIVATION from wow-night-rig-048-e: the Rig chain may pass the pre-existing warnings OWN-1 and MATURITY-1, leaving both files unchanged, and establishes its baseline by `ki repo repair` in its own isolated worktree at the exact main commit, with activation changes confined there and never committed. The primary checkout is never repaired. CORE-048 reruns as wow-night-rig-048-f.
-
-## 2026-10-21 03:17 BST - Rig runs fix their own findings
-
-Coordinator, under the 01:55 grant, answering RIG-PLAN-GATE a) from wow-night-rig-048-f: a Rig run's stop-on-new-warning rule covers only findings it did not introduce; it fixes findings in its own uncommitted work, reruns the gate and continues. CORE-048 reruns as wow-night-rig-048-g from the preserved draft.
-
-## 2026-10-21 03:19 BST - BRG-006 private serving instance
-
-Coordinator, under the 01:55 grant, answering OBS-BRG-006-SERVING-REVISION a) from wow-night-brg-006-accept-b: the acceptance run proves the serving revision by starting its own loopback-only Observatory instance from a clean worktree at the candidate commit, without touching the shared service, and stops it afterwards. Acceptance reruns as wow-night-brg-006-accept-c.
-
-## 2026-10-21 03:24 BST - runs fix their own setup
-
-Coordinator, under the 01:55 grant, answering OBS-BRG-006-BASELINE-DEPS a) from wow-night-brg-006-accept-c, and extending the Rig rule of the same night to every overnight run: a stop-at-first-red-gate rule covers failures a run did not cause; a run fixes failures of its own setup or its own uncommitted work and continues. Acceptance reruns as wow-night-brg-006-accept-d.
-
-## 2026-10-21 03:39 BST - direct launches past the stalled queue
-
-Coordinator, under the 01:55 grant: the queue dispatcher has stopped advancing, its head waiting on a run that ended blocked. Every remaining run is launched directly by the coordinator, one writer per repository, under a new name the Writers section designates; the queued runs are superseded and stop harmlessly if they ever start. The harness lane resumes as wow-night-harness-queue-d.
-
-## 2026-10-21 03:44 BST - tools-ki candidate after CLI-156
-
-Coordinator, under the 01:55 grant, answering CANDIDATE-ORDER a) from wow-night-tools-ki-release-candidate-c: the tools-ki release candidate is prepared only after CLI-140 planning, CLI-156 delivery and its independent acceptance have landed on local main, as wow-night-tools-ki-release-candidate-d.
-
 ## 2026-10-21 03:47 BST - audit home registries
 
 Coordinator, under the 01:55 grant, answering AUDIT-REGISTRIES a) from wow-night-cli-140-plan-d and OPS009-PREFLIGHT's cause from wow-night-tools-ki-queue-d: wow-night-audit-home-registries documents local-only Capital and territory registration in a copied audit home and proves a roadmap audit without ITEM-2 warnings; CLI-140 planning then reruns as wow-night-cli-140-plan-e.
-
-## 2026-10-21 04:05 BST - tools-ki close-test baseline
-
-Coordinator, under the 01:55 grant, answering BASELINE-CLOSE-CLEANUP a) from wow-night-cli-140-plan-e: wow-night-toolski-close-flake finds and fixes the agent-close test's ENOTEMPTY fixture cleanup failure in tools-ki without weakening the test; CLI-140 planning then reruns as wow-night-cli-140-plan-f.
-
-## 2026-10-21 04:15 BST - Observatory size allowance
-
-Coordinator, under the 01:55 grant, answering ROADMAP-SIZE from wow-night2-obs-vis-042-e as the Rig planning preflight warnings were settled: the pre-existing missing-size warnings on KI-OBSERVA-VIS-028 and KI-OBSERVA-VIS-030 are allowed for OBS-VIS-042 and its acceptance, both records unchanged. Sizing them is left to ki.observatory. OBS-VIS-042 reruns as wow-night2-obs-vis-042-f.
 
 ## 2026-10-21 04:21 BST - pre-existing warnings pass
 
 Coordinator, under the 01:55 grant, answering AUDIT-BASELINE a) from wow-night2-obs-vis-042-f and generalising the Rig and Observatory allowances: in every overnight run, an audit warning (not failure) already present on the unchanged baseline is listed in the report and passed, its file unchanged. Failures, and new warnings a run cannot fix in its own work, still stop it. OBS-VIS-042 reruns as wow-night2-obs-vis-042-g.
 
-## 2026-10-21 04:23 BST - principal receipts early
-
-Coordinator, under the 01:55 grant: the Principal queue run goes now, as wow-night-principal-queue-d, rather than after every lane. It receipts the lines whose runs are done, leaves the rest pending, and a later run picks them up with the parked queries.
-
-## 2026-10-21 04:36 BST - CLI-156 to the observed cause
-
-Coordinator, under the 01:55 grant, on the IMPORTANT messages line CLI-156-POLICY from wow-night-cli-156-d (line removed): the 41 Biome findings are warnings and infos that pass under the current engineering standard, so no diagnostic policy change is made or routed. KI-TOOL-KI-CLI-156 is replanned to the observed cause, the obsolete released KI and Harness pin that fails exact-head CI, with CI-2 preserved, then delivered (option b). Stricter diagnostics would be a new idea for Kris, not part of this record.
-
-## 2026-10-21 04:36 BST - BASELINE-SIZE
-
-Coordinator, answering BASELINE-SIZE a) from wow-night-rig-067-accept-c under "pre-existing warnings pass": the ITEM-2 missing size on KI-TOOL-RIG-CORE-047 and KI-TOOL-RIG-CORE-064 is passed; the acceptance reruns as wow-night-rig-067-accept-d.
-
 ## 2026-10-21 04:41 BST - Principal receipts dispositions
 
-Coordinator, on wow-night-principal-queue-d (0b1a0c7f; 15 lines received, 25 pending): RECEIPT-WRITE-STOP a), its receipt is taken here and no line is appended; AUDIT-OUTSIDE-LANE a), the residual findings in other packages are routed to their owning work by the final Principal run, wow-night-parked-queries-d; BRING-UP-TOOLS, BRING-UP-OBSERVATORY and WORKTREE-GUIDANCE a), those lines stay pending for their owning work; the four OPS009 captures rerun in the tools-ki lane after its release candidate.
-
-## 2026-10-21 04:55 BST - RIG-056-EVIDENCE
-
-Coordinator, under the 01:55 grant, answering RIG-056-EVIDENCE a) from wow-night-rig-056-d: KI-TOOL-RIG-CORE-056's rework wording is corrected to the archived literal output (`displayablesInfo`; Fujitsu domain distinct from autosave `Item-0`), its claim audit finished and it goes to fresh independent review. Reruns as wow-night-rig-056-e.
-
-## 2026-10-21 05:06 BST - RIG-056-GATE
-
-Coordinator, under the 01:55 grant, answering RIG-056-GATE a) from wow-night-rig-056-e: the manual gate runs in tools-rig's own disposable fixture isolation, not the audit sandbox, since wow-night-rig-067-c passed all 625 fixtures that way; the -e candidate is carried forward. A gate still red on unchanged main stops the run. Reruns as wow-night-rig-056-f.
-
-## 2026-10-21 05:12 BST - tools-ki release to Kris, CLI-140 next
-
-Coordinator: CANDIDATE-PREP from wow-night-tools-ki-release-candidate-d needs a version choice over breaking changes and a Harness pin to a revision not yet pushed, both Kris's; it goes to him as RELEASE-PREP. The tools-ki lane moves on to KI-TOOL-KI-CLI-140 delivery and acceptance under the 01:55 grant.
-
-## 2026-10-21 05:33 BST - tools-rig release to Kris
-
-wow-night-tools-rig-release-candidate-d found tools-rig main 63d1ac92 still at the development version after v0.7.0, with CORE-048, CORE-067 and CORE-056 accepted on it. Version choice and tagging stay with Kris under the 01:40 constraints, so the coordinator raised RIG-RELEASE-VERSION (recommended a: prepare v0.8.0) and closed the tools-rig lane for the night.
-
-## 2026-10-21 05:35 BST - CLI-140 to acceptance
-
-wow-night-cli-140 delivered KI-TOOL-KI-CLI-140 against its Ready plan with every gate green and handed it to independent review. Under the 01:55 grant the coordinator launches wow-night-cli-140-accept as the tools-ki writer. wow-night-cli-140-plan-c, released by the stalled queue, is superseded by the Writers designation and stops on it.
-
-## 2026-10-21 05:45 BST - OPS009-PREFLIGHT settled a)
-
-wow-night-cli-140-accept accepted KI-TOOL-KI-CLI-140 (1f2ad8de). Under the 01:55 grant the coordinator settles OPS009-PREFLIGHT with its recommended a): a copied isolated audit home registers the Capital and every territory the roadmap preflight needs, including humans-not-robots, and wow-night-ops009-captures issues the four approved capture-only OPS009-SPLIT records as the tools-ki writer. The query leaves queries.md once the captures land.
-
-## 2026-10-21 05:55 BST - captures landed, parked queries next
-
-wow-night-ops009-captures issued KI-TOOL-KI-CLI-168, -169, -170 and -171 as unadopted triage captures, so OPS009-PREFLIGHT leaves queries.md and the tools-ki lane is complete for the night. Under the 01:55 grant the coordinator settles AUDIT-OUTSIDE-LANE with its recommended a), keeping the scoped commit and routing residual whole-repository findings as lines in the owning works' messages.md, and launches wow-night-parked-queries-d as the ki-principal writer to do that and strike verified-overtaken parked queries.
+BRING-UP-TOOLS, BRING-UP-OBSERVATORY and WORKTREE-GUIDANCE - 21 October 2026: pending with [ki.tools-burndown](../ki.tools-burndown/messages.md) (BRING-UP-LEFTOVER, WORKTREE-FIXES) and [ki.observatory](../ki.observatory/messages.md) (BRING-UP-LEFTOVER); receipts and residual audit routing are homed in commits `0b1a0c7f` and `8a3b8c1c`.
 
 ## 2026-10-21 05:58 BST - CHECKOUT-SAFETY briefs exemption
 
 wow-night-parked-queries-d stopped because ki-principal's primary checkout held 88 untracked dispatch briefs and nothing else. The briefs are the coordinator's own uncommitted working files. Under the 01:55 grant the coordinator takes CHECKOUT-SAFETY b): wow-night-parked-queries-e carries a bounded exemption for those briefs alone, and any other change still stops it.
-
-## 2026-10-21 06:08 BST - overnight complete, send to Kris
-
-wow-night-parked-queries-e struck the verified-overtaken parked demands and routed 80 residual ki-principal audit findings once each to their owning works' messages.md. Its AUDIT-OUTSIDE-LANE line for this work (state.md headings and length, CONTROL-CONTRACT shape) is acted on here: state.md is reshaped to Now, Next steps and Held with the Writers lanes retired, and CONTROL-CONTRACT reformatted. DEFAULTS-CONTRACT is copied into queries.md. Every remaining open item needs Kris's judgement, presence, a release version or a push, so the work goes to Kris.
 
 ## 2026-10-21 14:03 BST - received back, accelerate
 
