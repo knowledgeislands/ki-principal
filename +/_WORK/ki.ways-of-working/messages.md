@@ -1,3 +1,3 @@
 # ki.ways-of-working messages
 
-None
+- IMPORTANT · 2026-10-21 · DEPCRUISE-PATH · Personal > Tower (kb.regular.site-tower): Kris, 22:56 BST: "add the request as an important one into the KIGENTIC harness … I'll pick that up on another machine." Rename the dependency-cruiser install folder `tooling/boundaries` to `tooling/depcruise` in ki-engineering (SKILL.md `requires:`, `scripts/rubric/contexts/boundaries.ts`, `standards-engineering.md`, `references/sources.md`, DESIGN-2's `prepare` check), then migrate every KI repository that has it, ideally through `ki repo conform`. apps-tower.midnight.ninja has already moved (`32c99fa`) and fails DESIGN-2 until then.
