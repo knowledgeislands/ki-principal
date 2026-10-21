@@ -260,3 +260,7 @@ Coordinator, under the 01:55 grant, answering OBS-BRG-006-BASELINE-DEPS a) from 
 ## 2026-10-21 03:39 BST - direct launches past the stalled queue
 
 Coordinator, under the 01:55 grant: the queue dispatcher has stopped advancing, its head waiting on a run that ended blocked. Every remaining run is launched directly by the coordinator, one writer per repository, under a new name the Writers section designates; the queued runs are superseded and stop harmlessly if they ever start. The harness lane resumes as wow-night-harness-queue-d.
+
+## 2026-10-21 03:44 BST - tools-ki candidate after CLI-156
+
+Coordinator, under the 01:55 grant, answering CANDIDATE-ORDER a) from wow-night-tools-ki-release-candidate-c: the tools-ki release candidate is prepared only after CLI-140 planning, CLI-156 delivery and its independent acceptance have landed on local main, as wow-night-tools-ki-release-candidate-d.
