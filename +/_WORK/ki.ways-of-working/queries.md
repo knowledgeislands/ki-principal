@@ -206,6 +206,42 @@ a) (recommended, confidence medium - the decision already exists) **reviewed** (
 
 b) Leave both to-dos as they are.
 
+### CONTROL-CONTRACT - Remaining agent controls
+
+**Context**
+
+TAKE-STOCK names stop, dequeue and bounded OOS-WAKE, but its cited design supplies capability names rather than their complete observable contract. The current process port has launch, liveness and sleep; it does not establish a safe stop operation or a coordinator continuation binding. The existing queue does not define what dequeue acknowledges against a dispatcher that has already claimed an entry. Choosing signal versus cooperative stop, cancellation acknowledgement, native continuation identity, expiry and wake deduplication would add policy beyond this unit's settled-contract limit. Repository/run resolution, queue and send are verified already present; no watcher was started.
+
+**Query**
+
+Which settled contract should govern those remaining controls before another implementation run?
+
+**Options**
+
+a) (recommended, confidence high - an exact contract makes the bounded implementation reviewable) Have the coordinator supply the accepted stop/dequeue/wake contract, including process ownership and continuation binding, then redispatch only that machinery.
+
+b) Defer the remaining controls and retain the verified repository-resolution, queue and send portion.
+
+From wow-night-tools-ki-queue-d, 2026-10-21 03:41 BST.
+
+### OPS009-PREFLIGHT - Four capture requests
+
+**Context**
+
+The required ki-next roadmap preflight returns ITEM-2 WARN because territory humans-not-robots is not available in the local registry. Registering Knowledge Islands Principal in this run's copied audit home removed the Capital-availability warning but did not resolve this foreign territory. The capture procedure stops on any roadmap warning. All four approved slices were checked against the existing queue and issuing ledger and stopped before allocation; the CLI high-water mark remains 167. No capture, adoption, implementation or provider action occurred. [Exact preflight evidence](/Users/krisbrown/.local/state/ki/agents/ways-of-working/wow-night-tools-ki-queue-d.capture-roadmap-audit.log).
+
+**Query**
+
+How should the missing foreign-territory prerequisite be supplied so the four already-approved capture-only requests can proceed?
+
+**Options**
+
+a) (recommended, confidence high - resolves the explicit preflight requirement without bypassing a gate) Supply the readable registered Capital evidence in an isolated audit home, then redispatch the four distinct capture-only slices with their exact manifest and recoverable-copy gates.
+
+b) Keep all four requests queued until that territory registry is available.
+
+From wow-night-tools-ki-queue-d, 2026-10-21 03:41 BST.
+
 ## Parked
 
 - NO-GATE (with PKGLESS-GATE) - project shape commit gate; Kris will come back to it. a) `ki repo audit --skill ki-repo` staged, check-only; review prefers widening KI-HARNESS-GOV-225.
