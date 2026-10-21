@@ -16,7 +16,7 @@ b) Hold the release.
 
 ### RIG-RELEASE-REVIEW-BOUNDARY - tag tools-rig v0.8.0 with open review gates?
 
-**Context:** v0.8.0's range contains KI-TOOL-RIG-CORE-053 (awaiting review), KI-TOOL-RIG-CORE-062 (in progress after refused acceptance) and KI-TOOL-RIG-CORE-047 (attended acceptance gaps); KI-TOOL-RIG-CORE-056 accepted the investigation only. All local gates pass; the CI pin is being repaired.
+**Context:** v0.8.0 is green on its exact commit a2bc10939462e387b18dcdaedb54e886ac00386a, with the dossier in `/Users/krisbrown/.local/state/ki/agents/ways-of-working/wow-day-rig-ci-fix.report.md`. Its range contains KI-TOOL-RIG-CORE-053 (awaiting review), KI-TOOL-RIG-CORE-062 (in progress after refused acceptance) and KI-TOOL-RIG-CORE-047 (attended acceptance gaps); KI-TOOL-RIG-CORE-056 accepted the investigation only. All local gates pass; the CI pin is being repaired.
 
 **Query:** Should tagging wait for those review gates, or proceed after green CI with them open?
 
