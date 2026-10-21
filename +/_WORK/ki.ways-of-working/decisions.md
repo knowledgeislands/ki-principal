@@ -285,3 +285,19 @@ wow-mark-strike-2 launched with an empty brief after a coordinator script error 
 ## 2026-10-21 19:44 BST - second fix received, re-review
 
 wow-day-impl-fix-2 fast-forwarded tools-ki local main to 7eb0f017: every new blocking finding and advisory from the re-reviews is fixed with regression tests (38 of 43 fail before the fix), 1,823 tests pass at 100% coverage and all gates pass. Under the 01:55 grant and the 14:46 triple-check approval, three fresh blind reviewers (Codex xhigh, Opus 5.5, Fable 5.1) re-review the whole first stage; publication still waits for their acceptance.
+
+## 2026-10-21 20:05 BST - third fix run
+
+Three fresh re-reviews of 7eb0f017 (wow-day-impl-rereview2-1 to -3) all return changes needed; under the 01:55 grant this run fixes every blocking finding, then three fresh reviewers re-review; publication still waits for acceptance. Logged late: the ki-principal rebase blocked commits from 19:59 to 23:30.
+
+## 2026-10-21 20:44 BST - third fix received, re-review
+
+wow-day-impl-fix-3 fixed every blocking finding from the second re-review round at 6c498f3a (1,882 tests, 100% coverage, all gates); three fresh blind reviewers re-review; publication waits for acceptance. Logged late, as above.
+
+## 2026-10-21 20:59 BST - fourth fix run
+
+Re-reviews of 6c498f3a return Codex changes needed, Opus changes needed, Fable accept. Each round has found new edge cases in event evidence and held-attempt liveness, so this round fixes the findings and closes the class with systematic fault injection rather than one site at a time. Logged late, as above.
+
+## 2026-10-21 23:27 BST - work opener button; rebase fixed
+
+Kris, on an Observatory work package explorer with a prompt-creator button serving the ki-coordination opener templates: "Would that make sense?", then "yes" to routing it as message lines to ki.observatory (button and explorer) and ki.tools-burndown (`ki work opener <id>`, one source for the templates) once the rebase cleared. On REBASE-STALL: "want to fix the rebase then also". wow-fix-rebase completed the stopped rebase at 23:30 (one queue-line union in `+/_WORK/ki/messages.md`, all 103 commits replayed, no push); local main is 103 ahead and 6 behind origin/main, other sessions' commits.
