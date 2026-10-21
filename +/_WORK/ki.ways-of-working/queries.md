@@ -2,19 +2,17 @@
 
 ## Open
 
-### CONTRACT-ACCEPT - accept the agent control and launch-defaults draft
+### TOOLSKI-TAG - tag and publish tools-ki v0.13.0
 
-**Context:** Kris approved drafting CONTROL-CONTRACT and DEFAULTS-CONTRACT for acceptance before one tools-ki build. The [draft](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/agent-control-contract.md>) recommends: stop sends a verified SIGTERM to the run's own process group with a 30-second grace and no automatic hard kill; dequeue is transactional and refuses a worker that has already started; wake is tied to one exact native session with an absolute owner-authorised expiry and no blind retry; and seven launch roles set runtime, model, effort and footer, with explicit options winning inside role guards. Its proposed model pins and native wake support are not yet proven locally, so they stay disabled until evidence exists. The tools-ki command build comes before the Harness wording.
+**Context:** v0.13.0 is verified and pushed at 65e062737e3efaa696c5d92aaf2f8fc8bf31d1e9, with the Harness archive pinned and exact-head CI observed; the tag and publication commands are in the [dossier](/Users/krisbrown/.local/state/ki/agents/ways-of-working/wow-day-toolski-pin.report.md).
 
-**Query:** Accept the draft's six recommendations and commission the bounded tools-ki build?
+**Query:** Tag and publish v0.13.0 from the dossier?
 
 **Options:**
 
-a) (recommended, confidence high - every control has an observable refusal path, and unproved capabilities stay off until evidenced) Accept all six and commission the build, requiring local evidence before enabling model pins or a native wake adapter.
+a) (recommended, confidence high - every release gate passed on the exact commit) Kris tags and publishes with the dossier's commands.
 
-b) Send named parts (stop, dequeue, wake, roles or the acceptance footer) back for revision first.
-
-c) Defer the controls and keep naming runtime, model, effort and footer explicitly.
+b) Hold the release.
 
 ### RIG-RELEASE-REVIEW-BOUNDARY - tag tools-rig v0.8.0 with open review gates?
 

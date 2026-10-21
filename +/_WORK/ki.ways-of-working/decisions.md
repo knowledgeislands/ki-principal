@@ -247,3 +247,11 @@ Kris: "I'll away now for the next hour. So, can you make sure that you keep trac
 ## 2026-10-21 14:48 BST - audit boundary and prune checks
 
 Under the 01:55 grant the coordinator takes PRINCIPLES-AUDIT a): the bounded Pillars change gates on focused audits and hooks, and attributed baseline full-audit failures outside its paths do not stop it (wow-day-principles-structure-b). Under the "triple-checked approval while Kris is away" entry, three independent reviews check KI-TOOL-KI-CLI-140, KI-HARNESS-GOV-209 and KI-DESIGN-ICO-001 before pruning. RIG-RELEASE-REVIEW-BOUNDARY: the blind review disagreed with the release run, so both views go to Kris.
+
+## 2026-10-21 14:59 BST - releases, reviews and prunes
+
+- tools-ki v0.13.0 is ready for Kris to tag at 65e06273 (wow-day-toolski-pin dossier).
+- RIG-RELEASE-CI-DIAGNOSIS a), taken by the coordinator under the 01:55 grant: read-only `gh` retrieval of the failing Audit job's logs, then the attributed CI fix (wow-day-rig-ci-fix).
+- CONTRACT-ACCEPT: the three reviews did not agree (two return ACCEPT-AUTHORITY and more for revision at high confidence, one accepts at medium), so the draft is not accepted; wow-day-contracts-b revises it, then three fresh reviews.
+- Prunes: KI-TOOL-KI-CLI-140 was already pruned in 0f8b15de; KI-DESIGN-ICO-001 has three agreeing prune verdicts (wow-day-ico-001-prune); KI-HARNESS-GOV-209 stays, because one review found its eight-principal conformance rollout unhomed.
+- CANDIDATE-PRINCIPLES and STRUCTURE-TODOS are delivered in Principles and Structure (wow-day-principles-structure-b).
