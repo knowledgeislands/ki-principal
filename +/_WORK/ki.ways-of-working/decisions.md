@@ -304,3 +304,7 @@ Coordinator, under the 01:55 grant, answering RIG-056-EVIDENCE a) from wow-night
 ## 2026-10-21 05:06 BST - RIG-056-GATE
 
 Coordinator, under the 01:55 grant, answering RIG-056-GATE a) from wow-night-rig-056-e: the manual gate runs in tools-rig's own disposable fixture isolation, not the audit sandbox, since wow-night-rig-067-c passed all 625 fixtures that way; the -e candidate is carried forward. A gate still red on unchanged main stops the run. Reruns as wow-night-rig-056-f.
+
+## 2026-10-21 05:12 BST - tools-ki release to Kris, CLI-140 next
+
+Coordinator: CANDIDATE-PREP from wow-night-tools-ki-release-candidate-d needs a version choice over breaking changes and a Harness pin to a revision not yet pushed, both Kris's; it goes to him as RELEASE-PREP. The tools-ki lane moves on to KI-TOOL-KI-CLI-140 delivery and acceptance under the 01:55 grant.

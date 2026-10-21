@@ -242,6 +242,18 @@ b) Keep all four requests queued until that territory registry is available.
 
 From wow-night-tools-ki-queue-d, 2026-10-21 03:41 BST.
 
+### RELEASE-PREP - Version and Harness pin for the next tools-ki release
+
+**Context:** wow-night-tools-ki-release-candidate-d ([report](/Users/krisbrown/.local/state/ki/agents/ways-of-working/wow-night-tools-ki-release-candidate-d.report.md)) found no releasable candidate: tools-ki main `566679b2` still declares `0.12.0`, which is already tagged; the range since `v0.12.0` holds 60 commits, some of them breaking; and tools-ki pins Harness `f4d6c521`, while newer Harness work is local and unpushed behind other sessions' commits. A candidate needs a version bump, a pushed Harness revision to pin, migration notes and fresh exact-head CI. KI-TOOL-KI-CLI-140 delivery runs next in the same lane and would join this release.
+
+**Query:** Which version should the next tools-ki release take, and may a preparation run bump it and advance the Harness pin once the Harness commits are pushed?
+
+**Options:**
+
+a) (recommended, confidence high - breaking changes in range call for a minor bump before 1.0, and a pin must name a pushed revision) `v0.13.0`: after you push ki-agentic-harness, a preparation run bumps the version, pins the pushed Harness revision, writes migration notes, runs the full gates and exact-head CI, and returns a dossier with the tag commands for you.
+
+b) Hold the release until CLI-140 and other planned work land, then prepare once.
+
 ## Parked
 
 - NO-GATE (with PKGLESS-GATE) - project shape commit gate; Kris will come back to it. a) `ki repo audit --skill ki-repo` staged, check-only; review prefers widening KI-HARNESS-GOV-225.
