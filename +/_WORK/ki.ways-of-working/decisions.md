@@ -296,3 +296,7 @@ Coordinator, answering BASELINE-SIZE a) from wow-night-rig-067-accept-c under "p
 ## 2026-10-21 04:41 BST - Principal receipts dispositions
 
 Coordinator, on wow-night-principal-queue-d (0b1a0c7f; 15 lines received, 25 pending): RECEIPT-WRITE-STOP a), its receipt is taken here and no line is appended; AUDIT-OUTSIDE-LANE a), the residual findings in other packages are routed to their owning work by the final Principal run, wow-night-parked-queries-d; BRING-UP-TOOLS, BRING-UP-OBSERVATORY and WORKTREE-GUIDANCE a), those lines stay pending for their owning work; the four OPS009 captures rerun in the tools-ki lane after its release candidate.
+
+## 2026-10-21 04:55 BST - RIG-056-EVIDENCE
+
+Coordinator, under the 01:55 grant, answering RIG-056-EVIDENCE a) from wow-night-rig-056-d: KI-TOOL-RIG-CORE-056's rework wording is corrected to the archived literal output (`displayablesInfo`; Fujitsu domain distinct from autosave `Item-0`), its claim audit finished and it goes to fresh independent review. Reruns as wow-night-rig-056-e.
