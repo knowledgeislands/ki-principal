@@ -210,3 +210,13 @@ Read back as taken:
 - OBS-FOLLOWUPS a): none tonight; they stay with ki.observatory.
 - WORK-STATUS-FORM a): KI-TOOL-KI-CLI-149 and -160 wait for State of play.
 - Mark struck at 01:40 BST; decisions strike and design review deferred to the next mark.
+
+## 2026-10-21 01:55 BST - overnight run-through grant
+
+Kris: "Okay, and you can keep going as long as you can on all the roadmap items, get as many things through to approved and even done if you want, and get them pushed. I'm happy for you to just make it all work."
+
+Read back as taken:
+
+- Overnight, runs may take any open roadmap record in the tools-, mcp- and apps- repositories and the work's own records to Ready (approved), deliver it and accept it (done). Each acceptance brief quotes this grant as its override of the standing rule "Never accept work records".
+- Runs push their own commits fast-forward only. Other sessions' stacked commits stay unpushed, as Kris set on 2026-10-19 ("I can just push it").
+- Unchanged by this grant: the 01:40 answers and their holds (email routing, KI-TOOL-RIG-CORE-053, KI-TOOL-KI-CLI-139, -145, -149, -160, KI-TOOL-RIG-CORE-064, the Observatory follow-ups, BRG-004, BRG-005 and SITE-044); Kris tags and publishes releases; no live applies, credentials, source deletion or new capture beyond approved splits; a record needing Kris's judgement or presence stays as a query for the morning.
