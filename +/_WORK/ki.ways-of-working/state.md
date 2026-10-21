@@ -29,7 +29,7 @@ Each repository lane has one active writer at a time; the designation passes to 
 - ki-agentic-harness: wow-night-harness-queue-b, then wow-night-harness-224-accept-b (the original wow-night-harness-224-accept is superseded and stops on this designation).
 - tools-ki: wow-night-tools-ki-queue, then wow-night-cli-140-plan, wow-night-cli-156, wow-night-cli-156-accept, wow-night-tools-ki-release-candidate, wow-night-tools-ki-queue-b (wow-night-tools-ki-queue returned blocked on DEFAULTS-CONTRACT; LAUNCH-DEFAULTS deferred to Kris).
 - apps-observatory.local: wow-night-observatory-queue-b (the first run returned blocked on AUDIT-HOME), then wow-night-brg-006-accept.
-- tools-rig: wow-night-rig-048, then wow-night-rig-048-accept, wow-night-rig-067, wow-night-rig-067-accept, wow-night-rig-056, wow-night-rig-056-accept, wow-night-tools-rig-release-candidate.
+- tools-rig: wow-night-rig-baseline (wow-night-rig-048 returned blocked on RIG-BASELINE, a red FILES-10 audit on main), then wow-night-rig-048-b, wow-night-rig-048-accept-b, wow-night-rig-067-b, wow-night-rig-067-accept-b, wow-night-rig-056-b, wow-night-rig-056-accept-b, wow-night-tools-rig-release-candidate. The un-suffixed first-wave rig runs are superseded and stop on this designation.
 - ki-principal (work packages only): wow-night-principal-queue, then wow-night-parked-queries.
 - Wave-two runs (wow-night2-*) take each lane after the last first-wave run in it, in the order wow-night2-order.md gives.
 
