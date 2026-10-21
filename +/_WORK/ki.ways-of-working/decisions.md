@@ -220,3 +220,18 @@ Read back as taken:
 ## 2026-10-21 14:11 BST - mark, afternoon unattended run
 
 Kris: "I'm hoping that can allow you to get on with some things. Maybe you can take that on board, do a mark at this point as well. I'll go away and push everything, and then you can come back with me if there's any questions you want to do, so that you can do another unattended one for the next few hours, please." Taken as: mark now; Kris pushes every repository; the 01:55 grant runs unattended for the next few hours on the answered work; questions wait for Kris's return. The decisions strike and design/ review owed at this mark go to a run (wow-day-mark-tidy).
+
+## 2026-10-21 14:35 BST - push state out of reports
+
+Kris: "quite often I'm getting things like unpushed or pushed or comments like that in a summary. Is that what we really want to be doing? ... generally speaking, I'm pushing things on a regular basis between the machines. So I don't think you need to keep reminding me in each of them of the common push things that I'm doing, because that's going to be based on state that's outside of the thread." Taken as: owner reports and banners stop carrying `[unpushed]`, "pushed" and other push-state notes, since push state lives outside the thread; runs still push only their own commits, never another session's. The method change to the ki-coordination standard and the coordinator output style goes to a KI Agentic Harness run after wow-day-gov-209-accept; this thread applies it from now.
+
+## 2026-10-21 14:35 BST - CANDIDATE-PRINCIPLES and STRUCTURE-TODOS
+
+Kris: "Both candidate principles and structure to-dos option A's, which are the recommended ones, are agreed." Read back as taken:
+
+- CANDIDATE-PRINCIPLES a): adopt both candidates in Engineering Practice Principles as qualified decision criteria (neutrality extended without lowest-common-denominator limits; FOSS-First and Inspectable where practical); this grants no implementation or product expansion. The explicit owner instruction stands in for an Enactment record.
+- STRUCTURE-TODOS a): make Port a settled section of Structure citing GDR-KI-PRINCIPAL-010; keep the Routes and Customs to-do with pointers to the Territories and Archipelagos route paragraph and `ki-trades`.
+
+## 2026-10-21 14:35 BST - mark
+
+Kris: "mark". Mark struck at 14:35 BST; the afternoon unattended run continues under the 01:55 grant.

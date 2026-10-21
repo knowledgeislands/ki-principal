@@ -4,7 +4,7 @@ state: with-worker
 since: 2026-10-21T13:11:36Z
 received: 2026-10-21T13:03:54Z
 beat: null
-mark: 2026-10-21T13:11:36Z
+mark: 2026-10-21T13:35:59Z
 method_read: eff6163b
 ---
 
@@ -12,13 +12,13 @@ method_read: eff6163b
 
 ## Now
 
-- 14:11 BST mark: Kris answered the overnight queries (decisions entry "owner answers") and is pushing every repository. Afternoon unattended run under the 01:55 grant, extended at 14:11 for the next few hours.
+- 14:35 BST mark: CANDIDATE-PRINCIPLES and STRUCTURE-TODOS answered a); push state no longer goes in owner reports (decisions entry "push state out of reports"). Afternoon unattended run under the 01:55 grant continues.
 - Writers, one per repository; a run not named here stops:
   - tools-ki: wow-day-toolski-release (v0.13.0 preparation).
   - tools-rig: wow-day-rig-release (v0.8.0 preparation).
   - ki-design: wow-day-ico-001-fix (the acceptance returned it to In Progress), then a fresh acceptance.
-  - ki-agentic-harness: wow-day-gov-209-accept (GOV-209 delivered).
-  - ki-principal: wow-day-mark-tidy-c (earlier tidy runs stopped on transient checkout state), then wow-day-contracts, wow-day-gov227-schema and wow-day-tags-research in turn.
+  - ki-agentic-harness: wow-day-gov-209-accept (GOV-209 delivered), then wow-day-push-reporting.
+  - ki-principal: wow-day-contracts, then wow-day-principles-structure, wow-day-gov227-schema and wow-day-tags-research in turn.
 
 ## Next steps
 
