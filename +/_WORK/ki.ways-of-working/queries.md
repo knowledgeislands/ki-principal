@@ -254,6 +254,20 @@ a) (recommended, confidence high - breaking changes in range call for a minor bu
 
 b) Hold the release until CLI-140 and other planned work land, then prepare once.
 
+### RIG-RELEASE-VERSION - Prepare tools-rig v0.8.0
+
+**Context:** wow-night-tools-rig-release-candidate-d ([report](/Users/krisbrown/.local/state/ki/agents/ways-of-working/wow-night-tools-rig-release-candidate-d.report.md)) found tools-rig main `63d1ac92` still marked as development after `v0.7.0`. Tonight's three accepted records, KI-TOOL-RIG-CORE-048, KI-TOOL-RIG-CORE-067 and KI-TOOL-RIG-CORE-056, are on main. The run was barred from changing the version, so there is no exact commit to tag yet.
+
+**Query:** Should a preparation run take tools-rig to v0.8.0, review the full range and run every gate, then return an exact-commit dossier with the tag commands for you?
+
+**Options:**
+
+a) (recommended, confidence high - three accepted capability changes justify a minor release, and tagging stays with you) Yes, prepare v0.8.0; you tag and publish.
+
+b) Hold release preparation until another release need comes up.
+
+c) Choose another version and run the same preparation.
+
 ## Parked
 
 - NO-GATE (with PKGLESS-GATE) - project shape commit gate; Kris will come back to it. a) `ki repo audit --skill ki-repo` staged, check-only; review prefers widening KI-HARNESS-GOV-225.
