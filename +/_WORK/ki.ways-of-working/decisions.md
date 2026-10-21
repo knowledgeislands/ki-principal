@@ -271,3 +271,7 @@ The second-round reviews (wow-day-contract-review-4 to -6) agree at high confide
 ## 2026-10-21 15:21 BST - tools-rig green, GOV-227 draft ready
 
 tools-rig v0.8.0 is green at a2bc1093 after the CI harness pin (wow-day-rig-ci-fix); tagging waits on Kris's RIG-RELEASE-REVIEW-BOUNDARY answer. The GOV-227 draft schema is ready for the short session with Kris (b617f1e7), with five decisions reserved for it.
+
+## 2026-10-21 15:27 BST - contract accepted, build and tags research
+
+wow-day-contracts-c settled RECONCILE-SURFACE (`ki agent recover inspect|resolve`) and PUSH-AUTHORITY and marked the contract accepted (03954f4c); wow-day-contract-build builds its first stage in tools-ki. The tags research stopped on its launch footer's no-remote rule; the coordinator takes its research-authority query a) under the 01:55 grant (read-only public web reading only) and relaunches it as wow-day-tags-research-b.

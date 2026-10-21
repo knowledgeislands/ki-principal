@@ -14,11 +14,11 @@ method_read: eff6163b
 
 - 14:35 BST mark: CANDIDATE-PRINCIPLES and STRUCTURE-TODOS answered a); push state no longer goes in owner reports (decisions entry "push state out of reports"). Afternoon unattended run under the 01:55 grant continues.
 - Writers, one per repository; a run not named here stops:
-  - tools-ki: none (v0.13.0 ready for Kris to tag at 65e06273); the contract build after wow-day-contracts-c.
+  - tools-ki: wow-day-contract-build (first stage of the accepted contract; v0.13.0 ready for Kris to tag at 65e06273).
   - tools-rig: none (v0.8.0 green at a2bc1093; tagging waits on RIG-RELEASE-REVIEW-BOUNDARY).
   - ki-design: none (KI-DESIGN-ICO-001 pruned).
   - ki-agentic-harness: none (KI-HARNESS-GOV-209 kept until its eight-principal rollout is homed, by a line to State of play).
-  - ki-principal: wow-day-contracts-c, then wow-day-tags-research in turn.
+  - ki-principal: none. wow-day-tags-research-b runs read-only and writes nothing in the repository.
 
 ## Next steps
 
