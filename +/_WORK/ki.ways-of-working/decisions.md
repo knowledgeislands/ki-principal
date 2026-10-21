@@ -355,3 +355,7 @@ Read back as taken:
 - TAGS: not decided; a research run reviews better use of tags and how other systems use them, then the query returns.
 - Parked, come back later: SITE-SOURCE, RIG-ATTENDED, TECHNE-006-REVIEW, GOV189-SCOPE, GOV202-ADOPT, EMERGING.
 - Not yet answered: CANDIDATE-PRINCIPLES, STRUCTURE-TODOS.
+
+## 2026-10-21 14:11 BST - mark, afternoon unattended run
+
+Kris: "I'm hoping that can allow you to get on with some things. Maybe you can take that on board, do a mark at this point as well. I'll go away and push everything, and then you can come back with me if there's any questions you want to do, so that you can do another unattended one for the next few hours, please." Taken as: mark now; Kris pushes every repository; the 01:55 grant runs unattended for the next few hours on the answered work; questions wait for Kris's return. The decisions strike and design/ review owed at this mark go to a run (wow-day-mark-tidy).
