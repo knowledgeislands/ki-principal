@@ -276,3 +276,7 @@ Coordinator, under the 01:55 grant, answering BASELINE-CLOSE-CLEANUP a) from wow
 ## 2026-10-21 04:15 BST - Observatory size allowance
 
 Coordinator, under the 01:55 grant, answering ROADMAP-SIZE from wow-night2-obs-vis-042-e as the Rig planning preflight warnings were settled: the pre-existing missing-size warnings on KI-OBSERVA-VIS-028 and KI-OBSERVA-VIS-030 are allowed for OBS-VIS-042 and its acceptance, both records unchanged. Sizing them is left to ki.observatory. OBS-VIS-042 reruns as wow-night2-obs-vis-042-f.
+
+## 2026-10-21 04:21 BST - pre-existing warnings pass
+
+Coordinator, under the 01:55 grant, answering AUDIT-BASELINE a) from wow-night2-obs-vis-042-f and generalising the Rig and Observatory allowances: in every overnight run, an audit warning (not failure) already present on the unchanged baseline is listed in the report and passed, its file unchanged. Failures, and new warnings a run cannot fix in its own work, still stop it. OBS-VIS-042 reruns as wow-night2-obs-vis-042-g.
