@@ -26,6 +26,20 @@ a) (recommended by the release run, confidence high - keeps release and acceptan
 
 b) (recommended by the blind review, confidence medium - release policy does not require every included record closed; CORE-053 is observe-only, CORE-047's firewall already shipped in v0.7.0 and CORE-062 only narrows it with conservative refusal, but second-host discovery is unconfirmed) Tag after green CI and the normal release checks, carrying the open records and their limits into the release notes; publication is not record acceptance or permission for live convergence.
 
+### TAGS - what role tags should play beside folders, links and note_type
+
+**Context:** wow-day-tags-research-b examined 863 notes across four principals and public tagging practice; its draft is [tags-model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/tags-model.md). Subject tags can group notes across folders, but their retrieval benefit is untested; many notes carry legacy kind tags, some holding meaning `note_type` lacks, and date or source tags carry information that must be kept. No universal taxonomy exists; the proposal is optional controlled `topic/*` tags with local vocabularies. This decides a pilot, not bulk removal or cross-island change.
+
+**Query:** Which tag model should a bounded KI Principal pilot test?
+
+**Options:**
+
+a) (recommended, confidence high - the census and external patterns support testing a small subject vocabulary while keeping existing meaning and the trial reversible) Optional controlled subject tags, with existing fields owning kind, dates, lifecycle and provenance; plan a 20-30-note pilot with a retrieval comparison before any migration decision.
+
+b) Keep the current multi-namespace model, reconcile its contradictory guidance and govern its vocabulary, keeping kind, date and source tags where useful.
+
+c) Test no new tags, relying on folders, links and typed properties, keeping legacy tags until equal retrieval and preserved meaning are shown.
+
 ## Parked
 
 - SITE-SOURCE - KI-WEBSITE-SITE-044's ki-design citation and visual checks; recommended a) keep awaiting review until ki-design is readable, then Kris's visual checks. Kris, 2026-10-21 14:10 BST: come back later.
