@@ -14,7 +14,7 @@ method_read: eff6163b
 
 - 19:18 BST mark: first stage of the agent control contract in its second fix round (wow-day-impl-fix-2); wow-mark-strike-2 prunes the work folder and strikes decisions. Unattended run under the 01:55 and 14:46 grants continues.
 - Writers, one per repository; a run not named here stops:
-  - tools-ki: wow-day-impl-fix-2 (second fix round on the first stage, from local main 166f0cbc; re-reviews 1 and 2 changes needed, 3 accept; v0.13.0 ready for Kris to tag at 65e06273).
+  - tools-ki: none (first stage with second fixes on local main at 7eb0f017, under re-review by wow-day-impl-rereview2-1 to -3; v0.13.0 ready for Kris to tag at 65e06273).
   - tools-rig: none (v0.8.0 green at a2bc1093; tagging waits on RIG-RELEASE-REVIEW-BOUNDARY).
   - ki-design: none (KI-DESIGN-ICO-001 pruned).
   - ki-agentic-harness: none (KI-HARNESS-GOV-209 kept until its eight-principal rollout is homed, by a line to State of play).

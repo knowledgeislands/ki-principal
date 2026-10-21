@@ -281,3 +281,7 @@ Re-reviews of 166f0cbc: wow-day-impl-rereview-1 and -2 changes needed, -3 accept
 ## 2026-10-21 19:21 BST - mark-strike relaunch
 
 wow-mark-strike-2 launched with an empty brief after a coordinator script error and finished without changing the repository; the prune and strike for the 19:18 mark is relaunched as wow-mark-strike-3 with the full brief.
+
+## 2026-10-21 19:44 BST - second fix received, re-review
+
+wow-day-impl-fix-2 fast-forwarded tools-ki local main to 7eb0f017: every new blocking finding and advisory from the re-reviews is fixed with regression tests (38 of 43 fail before the fix), 1,823 tests pass at 100% coverage and all gates pass. Under the 01:55 grant and the 14:46 triple-check approval, three fresh blind reviewers (Codex xhigh, Opus 5.5, Fable 5.1) re-review the whole first stage; publication still waits for their acceptance.
