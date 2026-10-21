@@ -16,8 +16,8 @@ method_read: eff6163b
 - Writers, one per repository; a run not named here stops:
   - tools-ki: wow-day-toolski-release (v0.13.0 preparation).
   - tools-rig: wow-day-rig-release (v0.8.0 preparation).
-  - ki-design: wow-day-ico-001-fix (the acceptance returned it to In Progress), then a fresh acceptance.
-  - ki-agentic-harness: wow-day-gov-209-accept (GOV-209 delivered), then wow-day-push-reporting.
+  - ki-design: wow-day-ico-001-accept-b (fresh acceptance after the fix).
+  - ki-agentic-harness: wow-day-push-reporting (GOV-209 accepted).
   - ki-principal: wow-day-contracts, then wow-day-principles-structure, wow-day-gov227-schema and wow-day-tags-research in turn.
 
 ## Next steps
