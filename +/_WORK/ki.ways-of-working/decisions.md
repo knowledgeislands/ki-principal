@@ -295,3 +295,7 @@ wow-day-impl-fix fixed all seven blocking findings and the advisories in 166f0cb
 ## 2026-10-21 19:15 BST - re-review, second fix run
 
 Re-reviews of 166f0cbc: wow-day-impl-rereview-1 and -2 changes needed, -3 accept. All seven original findings are fixed; the fix introduced new blocking defects in event publication and lock recovery (unreadable event evidence treated as absent, post-spawn publication refusal reporting a started worker as failed, leftover locks wedging a run). Under Kris's 01:55 grant, "I'm happy for you to just make it all work", wow-day-impl-fix-2 fixes them with failing-first regression tests, adds release on interrupt for both locks and bounded waiting for foreground launch and queue, and fast-forwards local main without pushing; three fresh reviewers then re-review. Publication still waits for acceptance, as taken at 19:04.
+
+## 2026-10-21 19:21 BST - mark-strike relaunch
+
+wow-mark-strike-2 launched with an empty brief after a coordinator script error and finished without changing the repository; the prune and strike for the 19:18 mark is relaunched as wow-mark-strike-3 with the full brief.

@@ -18,7 +18,7 @@ method_read: eff6163b
   - tools-rig: none (v0.8.0 green at a2bc1093; tagging waits on RIG-RELEASE-REVIEW-BOUNDARY).
   - ki-design: none (KI-DESIGN-ICO-001 pruned).
   - ki-agentic-harness: none (KI-HARNESS-GOV-209 kept until its eight-principal rollout is homed, by a line to State of play).
-  - ki-principal: wow-mark-strike-2 (work folder prune and decisions strike; the coordinator writes nothing in decisions.md or the work folder outside state.md until it finishes).
+  - ki-principal: wow-mark-strike-3 (work folder prune and decisions strike; the coordinator writes nothing in decisions.md or the work folder outside state.md until it finishes).
 
 ## Next steps
 
