@@ -308,3 +308,7 @@ Coordinator, under the 01:55 grant, answering RIG-056-GATE a) from wow-night-rig
 ## 2026-10-21 05:12 BST - tools-ki release to Kris, CLI-140 next
 
 Coordinator: CANDIDATE-PREP from wow-night-tools-ki-release-candidate-d needs a version choice over breaking changes and a Harness pin to a revision not yet pushed, both Kris's; it goes to him as RELEASE-PREP. The tools-ki lane moves on to KI-TOOL-KI-CLI-140 delivery and acceptance under the 01:55 grant.
+
+## 2026-10-21 05:33 BST - tools-rig release to Kris
+
+wow-night-tools-rig-release-candidate-d found tools-rig main 63d1ac92 still at the development version after v0.7.0, with CORE-048, CORE-067 and CORE-056 accepted on it. Version choice and tagging stay with Kris under the 01:40 constraints, so the coordinator raised RIG-RELEASE-VERSION (recommended a: prepare v0.8.0) and closed the tools-rig lane for the night.
