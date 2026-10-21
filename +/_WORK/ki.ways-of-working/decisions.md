@@ -192,3 +192,21 @@ ki.chezmoi reported hooks-recover finished and the harness metadata verified; ha
 Kris: "can you ask me any queries to make sure you have enough to get `tools-*` and `mcp-*` and `apps-*` roadmaps cleared overnight"
 
 Taken as: a read-only sweep of every open record in the KI tools, MCP and app repositories, and the held queues routed to ki.tools-burndown and ki.observatory, to find exactly what needs Kris for each, framed as queries; then one Codex blind review of those queries before they reach Kris. Nothing launches for the overnight burndown until he answers.
+
+## 2026-10-21 01:40 BST - overnight answers and mark
+
+Kris: "HOLDS-COUNT - give me a prompt for that work package / thread and I'll hand it off now as a priority. QUEUES-OVERNIGHT - as recommended, please use higher reasoning models to help with any coordination. I'll not start any other threads in KI so you can control and make sure as much as possible happens. CI-READ - a) RELEASE-OVERNIGHT - a) HEADLESS-LOOK - a) STALE-RESHAPE - a) actually all the rest are a) too as they are high ... mark here please"
+
+Read back as taken:
+
+- HOLDS-COUNT: the 11 email-routing records (KI-MCP-GSUITE-TOOL-008, -009, KI-MCP-M365-TOOL-011 to -019) go to hnr.email-routing as a priority, through a resume prompt Kris pastes; this work's runs leave mcp-m365 and mcp-gsuite's email-routing records alone.
+- QUEUES-OVERNIGHT a): this work delivers ki.tools-burndown's and ki.observatory's authorised and mechanical queue lines overnight; no new capture beyond approved splits, no live applies, source deletion, credentials or publication. Higher-reasoning runs (Codex, high effort) help plan and coordinate. Kris starts no other KI thread tonight, so this work controls KI overnight.
+- CI-READ a): the KI-TOOL-KI-CLI-156 run may read tools-ki's GitHub Actions results, read-only, tools-ki only.
+- RELEASE-OVERNIGHT a): runs prepare named release candidates for tools-ki and tools-rig; Kris tags and publishes.
+- HEADLESS-LOOK a): for KI-OBSERVA-BRG-006 only, a headless check at exactly 1,440 and 760 px with screenshots replaces Kris's running-site check (answers OBS-BRG-006-VISUAL); BRG-004, BRG-005 and SITE-044 wait for Kris.
+- STALE-RESHAPE a): strike only parked queries verified overtaken one by one; keep KI-TOOL-KI-CLI-145 and KI-TOOL-RIG-CORE-064.
+- RIG-053-ORDER a): KI-TOOL-RIG-CORE-053 holds until Kris's Command-drag check on sol.
+- SRC-PLACEMENT a): KI-TOOL-KI-CLI-139 holds with the Humans not Robots work.
+- OBS-FOLLOWUPS a): none tonight; they stay with ki.observatory.
+- WORK-STATUS-FORM a): KI-TOOL-KI-CLI-149 and -160 wait for State of play.
+- Mark struck at 01:40 BST; decisions strike and design review deferred to the next mark.
