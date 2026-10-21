@@ -236,3 +236,7 @@ The first queue runs stopped on prerequisites the planner's briefs set narrower 
 ## 2026-10-21 02:44 BST - overnight remote authority (coordinator, under the 01:55 grant)
 
 `wow-night-cli-156-b` returned REMOTE-AUTHORITY too: the first-wave briefs carry a generic "no remote call of any kind" footer that contradicts their narrow CI read (CI-READ a), 01:40) and the own-commit push Kris granted at 01:55 ("get them pushed"). The coordinator took the run's option a) for every brief: one rule allowing only the brief's own narrow read and a fetch plus fast-forward push of the run's own commits, never with other sessions' commits stacked. `wow-night-remote-fix` applies it to the open briefs and queued prompts and writes `wow-night-cli-156-c` and its acceptance, which run after `wow-night-cli-140-plan-c`.
+
+## 2026-10-21 02:52 BST - tools-ki queue writer
+
+Coordinator, under the 01:55 grant: wow-night-tools-ki-queue-c was queued with the queue-b brief and stopped on WRITER-MISMATCH. The tools-ki queue runs as wow-night-tools-ki-queue-d from that brief renamed, launched directly, and every later tools-ki run is launched directly one at a time, so that no queued run becomes a second writer.
