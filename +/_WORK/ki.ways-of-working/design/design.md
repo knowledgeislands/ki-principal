@@ -64,3 +64,7 @@ The restart-model design note graduated into `ki-pmo` in ki-agentic-harness `200
 ## Agent control and launch defaults
 
 [agent-control-contract](agent-control-contract.md) drafts CONTROL-CONTRACT and DEFAULTS-CONTRACT for Kris's acceptance: stop, dequeue, bounded coordinator wake and role-based launch defaults, with observable receipts, safety guards, gaps from today and build acceptance tests. tools-ki owns the commands and the KI Agentic Harness owns the skill text; no implementation or live activation is authorised by the draft.
+
+## Repository storage schema
+
+[gov-227-storage-schema](gov-227-storage-schema.md) prepares the short owner design session for [KI-HARNESS-GOV-227](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-227-repository-storage-declarations.md), under GOV227-SCHEMA a): a proposed `ki-repo`-owned declaration of product storage, recovery and shared namespace owners, separate from private registry bindings and existing KB store roles. It includes three repository examples, migration and audit rules, and five decisions with recommendations for the session. It remains draft and authorises no implementation or machine change.
