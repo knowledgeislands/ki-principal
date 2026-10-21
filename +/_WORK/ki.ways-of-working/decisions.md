@@ -284,3 +284,11 @@ Coordinator, under the 01:55 grant, answering AUDIT-BASELINE a) from wow-night2-
 ## 2026-10-21 04:23 BST - principal receipts early
 
 Coordinator, under the 01:55 grant: the Principal queue run goes now, as wow-night-principal-queue-d, rather than after every lane. It receipts the lines whose runs are done, leaves the rest pending, and a later run picks them up with the parked queries.
+
+## 2026-10-21 04:36 BST - CLI-156 to the observed cause
+
+Coordinator, under the 01:55 grant, on the IMPORTANT messages line CLI-156-POLICY from wow-night-cli-156-d (line removed): the 41 Biome findings are warnings and infos that pass under the current engineering standard, so no diagnostic policy change is made or routed. KI-TOOL-KI-CLI-156 is replanned to the observed cause, the obsolete released KI and Harness pin that fails exact-head CI, with CI-2 preserved, then delivered (option b). Stricter diagnostics would be a new idea for Kris, not part of this record.
+
+## 2026-10-21 04:36 BST - BASELINE-SIZE
+
+Coordinator, answering BASELINE-SIZE a) from wow-night-rig-067-accept-c under "pre-existing warnings pass": the ITEM-2 missing size on KI-TOOL-RIG-CORE-047 and KI-TOOL-RIG-CORE-064 is passed; the acceptance reruns as wow-night-rig-067-accept-d.
