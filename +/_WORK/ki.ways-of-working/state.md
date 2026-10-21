@@ -18,7 +18,7 @@ method_read: eff6163b
   - tools-rig: wow-day-rig-release (v0.8.0 preparation).
   - ki-design: wow-day-ico-001-accept.
   - ki-agentic-harness: wow-day-gov-209.
-  - ki-principal: wow-day-mark-tidy, then wow-day-contracts, wow-day-gov227-schema and wow-day-tags-research in turn.
+  - ki-principal: wow-day-mark-tidy-b (wow-day-mark-tidy stopped on my uncommitted brief prune, now committed), then wow-day-contracts, wow-day-gov227-schema and wow-day-tags-research in turn.
 
 ## Next steps
 
