@@ -1,10 +1,13 @@
 ---
 id: ki.chezmoi
-state: with-supervisor
-since: 2026-10-21T00:40:00Z
+state: on-hold
+since: 2026-10-21T00:42:00Z
+hold:
+  reason: paused
+  release: Kris resumes in the morning
 received: 2026-10-20T01:30:00Z
 beat: null
-mark: 2026-10-20T23:11:00Z
+mark: 2026-10-21T00:42:00Z
 method_read: 071567a1
 ---
 
@@ -21,7 +24,9 @@ method_read: 071567a1
 
 ## Next steps
 
-1. On terra: pull chezmoi, then remove Shadowlab Spark per the spark-retire handoff, with Kris at the machine.
+1. On terra: pull chezmoi, then remove Shadowlab Spark with Kris at the machine: `rig doctor` before; scoped diff then apply of `~/.config/rig/conf.d/10-applications.toml` only; open Spark, Stop Spark Daemon, quit; check the cask receipt, then `brew uninstall --cask --zap spark-app`, `defaults delete com.xenonium.Spark`, and Kris removes `~/Library/Group Containers/3DT6DNJE39.com.xenonium.Spark`; verify bundle, cask, login item and helper absent, `rig doctor` after. Never touch readdle-spark or Spark Desktop.
+2. Attended steps for KB-DOTFILES-UE-090 and KB-DOTFILES-UE-100 on terra and sol, then their acceptance.
+3. homeless: TRUST-COMPLETE (Decision 187).
 
 ## Held
 

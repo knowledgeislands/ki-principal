@@ -321,45 +321,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 - Pointer: route receipt from ki.ways-of-working apply-sweep (05:34 BST), CONFIG-UNDER-CONTROL under SWEEP-CONVERT a), quoting Kris (18 October): "I think we do need to have a fairly regular thing where we look to see if we should be bringing more configuration under control."
 - Read back as: adopt a recurring read-only Activity in the chezmoi source scanning each Mac's unmanaged application and tool configuration, starting with `~/.config/mgit/`, reporting for Kris to choose; KI-TOOL-RIG-CORE-064 keeps Rig-managed configuration. Run config-control extends KB-DOTFILES-HK-001 or adds a template.
 
-## Decision 186 (2026-10-20T22:39:00Z)
-
-- Pointer: Kris (23:39 BST): "TRUST - remove all 102 and then we can keep an eye on it". TRUST c): revoke every undeclared Claude Desktop trust grant so it trusts exactly the 53 declared folders, keeping a rollback inventory; "keep an eye on it" read as one added step in the recurring unmanaged-configuration scan (KB-DOTFILES-HK-001) listing new undeclared grants (run trust-revoke).
-
 ## Decision 187 (2026-10-20T22:40:00Z)
 
-- Pointer: Kris (23:40 BST, spoken; "mid site" read as Rig site, "Hannis" as harness, "fault of targets" as the four APPLY targets, already applied under Decision 185). "Yes" to checking the dropped folders (run resources-check). ROADMAP-BATCH a) (run roadmap-batch). RIG-SITE a): remove the rationale filter now (run site-filter); the `comment` field and exported kind and install route routed to ki.mac-studio-setup, which owns Rig. SPARK-REMOVE a), "make sure that we can get it removed properly" (run spark-retire). HARNESS-CI-TSC a) and HOOKS-FOLLOWUPS a) (run hooks-tools; GOV225-CLOSE already handled by ki.ways-of-working).
-- Pointer: Kris (23:40 BST) on trust: the declaration must be complete so no client ever needs to ask for a folder; an app asking or adding one is a defect. Supports Decision 186.
-
-## Decision 188 (2026-10-20T22:46:00Z)
-
-- Pointer: Kris (23:46 BST) on the trusted-folder declaration: include all 8 folders under `~/workspaces/claude-desktop/Projects` ("Kit Legal" is gone in favour of "Legal"); hnr-backend, hnr-frontend and hnr-shared are needed, "in fact any git repo under `~/workspaces` is allowable, and we can consider the folders too, e.g. `~/workspaces/knowledge-islands`"; `~/.claude` "makes sense too". Asked what the five Resources folders are. Sent to run resources-check to shape the fix.
-
-## Decision 189 (2026-10-20T22:49:00Z)
-
-- Pointer: Kris (23:49 BST) on resources-check: "~/workspaces/valle-armonia/va-principal/Resources shouldn't be needed if ~/workspaces/valle-armonia/va-principal is in the list right?" Read as RESOURCE-GRANTS b): declare parent roots only, no Resources child grants (HNR's Resources is covered by hnr-shared). Decision 188 read as TRUST-SOURCE a) (trust intent independent of VS Code workspaces), HNR-REGISTRY b) ("any git repo under ~/workspaces is allowable": no KI adoption needed) and KIT-LEGAL a) (Legal replaces Kit Legal). Run trust-declare.
-
-## Decision 190 (2026-10-20T23:12:00Z)
-
-- Pointer: Kris (00:12 BST): the request to clear the `tools-*`, `mcp-*` and `apps-*` roadmaps overnight "was in the wrong window!!! ... stop please on the above". Withdrawn: run overnight-survey stopped, OVERNIGHT-STOP, OVERNIGHT-PUSH and OVERNIGHT-PUBLISH withdrawn; nothing was written by the survey.
-
-## Decision 191 (2026-10-20T23:29:00Z)
-
-- Pointer: Kris (00:29 BST): "SPARK-ATTENDED - a) I stopped the agent, now over to you?" Kris stopped Shadowlab Spark's login helper on sol; run spark-finish verifies it stopped, then completes the removal authorised under SPARK-REMOVE a).
-
-## Decision 192 (2026-10-20T23:38:00Z)
-
-- Pointer: Kris (00:37 BST) removed Shadowlab Spark's protected group container on sol himself (SPARK-CONTAINER a), verified absent). Run spark-tidy removes the empty `com.xenonium.Spark` preference file and records the final sol verification; terra follows a push.
-
-## Decision 193 (2026-10-21T00:19:00Z)
-
-- Pointer: Kris (01:19 BST): "I closed claude desktop and chatgpt desktop" — TRUST-RETURNED a). Run trust-reconcile applies the scoped `~/.claude/settings.json` trust change, sets Claude Desktop's `localAgentModeTrustedFolders` to exactly the declared Desktop folders with a rollback copy, and verifies; Kris reopens Desktop after.
-
-## Decision 194 (2026-10-21T00:22:00Z)
-
-- Pointer: Kris (01:22 BST): "ACCEPT - yes". Accept KB-DOTFILES-UE-098 and KI-TOOL-KI-CLI-165 under ki-work; run accept-records records the acceptance in each owning repository. KB-DOTFILES-UE-090 and KB-DOTFILES-UE-100 stay Awaiting review until their attended steps on terra and sol are done.
-- Coordinator (01:26 BST), ACCEPT-SCOPE a) within Decision 194: KI-TOOL-KI-CLI-165 was already accepted (tools-ki `fde00e97`) and pruned (`39f1a91d`) on 20 October, so it needs nothing; run accept-ue098 accepts KB-DOTFILES-UE-098 alone.
-
-## Decision 195 (2026-10-21T00:33:00Z)
-
-- Pointer: Kris (01:33 BST): "MATURITY - A)" — declare `maturity = "settled"` in chezmoi's `.ki.toml` `[skills.ki-repo]`; run maturity-accept commits it, then accepts KB-DOTFILES-UE-098 under Decision 194.
-- Pointer: Kris (01:33 BST): "TRUST-HELD - reopened it" — TRUST-HELD a); run trust-check re-reads Claude Desktop's folder list against the 76 declared, read-only.
+- Pointer: Kris (23:40 BST), SPARK-REMOVE a), "make sure that we can get it removed properly": Shadowlab Spark is removed from sol (chezmoi `955faf5`, Decisions struck at the 01:41 mark); terra follows the spark-retire handoff with Kris at the machine.
+- Pointer: Kris (23:40 BST) on trust: the declaration must be complete so no client ever needs to ask for a folder; an app asking or adding one is a defect. Carried in tools-ki `9252669a` and chezmoi `13458343`; no Decision Record yet (homeless: TRUST-COMPLETE).
