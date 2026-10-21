@@ -325,3 +325,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 
 - Pointer: Kris (23:40 BST), SPARK-REMOVE a), "make sure that we can get it removed properly": Shadowlab Spark is removed from sol (chezmoi `955faf5`, Decisions struck at the 01:41 mark); terra follows the spark-retire handoff with Kris at the machine.
 - Pointer: Kris (23:40 BST) on trust: the declaration must be complete so no client ever needs to ask for a folder; an app asking or adding one is a defect. Carried in tools-ki `9252669a` and chezmoi `13458343`; no Decision Record yet (homeless: TRUST-COMPLETE).
+
+## Decision 196 (2026-10-21T13:13:00Z)
+
+- Pointer: Kris (14:13 BST): "Can you do any reconciliation that we need at this point? So that you can wake up again and just check where we're at and ready to focus on basically reconciliation of any updates that have happened in this folder as well as the drift." Run reconcile: fetch and fast-forward clean checkouts, inventory chezmoi drift and doctor findings read-only, no apply; the morning resume starts from its baseline.
