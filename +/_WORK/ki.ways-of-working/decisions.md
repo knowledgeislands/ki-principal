@@ -272,3 +272,7 @@ Coordinator, under the 01:55 grant, answering AUDIT-REGISTRIES a) from wow-night
 ## 2026-10-21 04:05 BST - tools-ki close-test baseline
 
 Coordinator, under the 01:55 grant, answering BASELINE-CLOSE-CLEANUP a) from wow-night-cli-140-plan-e: wow-night-toolski-close-flake finds and fixes the agent-close test's ENOTEMPTY fixture cleanup failure in tools-ki without weakening the test; CLI-140 planning then reruns as wow-night-cli-140-plan-f.
+
+## 2026-10-21 04:15 BST - Observatory size allowance
+
+Coordinator, under the 01:55 grant, answering ROADMAP-SIZE from wow-night2-obs-vis-042-e as the Rig planning preflight warnings were settled: the pre-existing missing-size warnings on KI-OBSERVA-VIS-028 and KI-OBSERVA-VIS-030 are allowed for OBS-VIS-042 and its acceptance, both records unchanged. Sizing them is left to ki.observatory. OBS-VIS-042 reruns as wow-night2-obs-vis-042-f.
