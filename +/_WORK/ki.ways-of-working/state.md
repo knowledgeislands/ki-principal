@@ -26,7 +26,7 @@ method_read: eff6163b
 
 Each repository lane has one active writer at a time; the designation passes to the next run in the chain once its predecessor reports DONE with its outcome committed, or on an explicit blocked handoff. Designated at 02:00 BST under the 01:40 and 01:55 grants:
 
-- ki-agentic-harness: wow-night-harness-queue-b, then wow-night-harness-224-accept-b (the original wow-night-harness-224-accept is superseded and stops on this designation).
+- ki-agentic-harness: wow-night-harness-queue-c, then wow-night-harness-224-accept-c (the -b runs returned blocked on HARNESS-AUDIT-HOME, fixed by wow-night-audit-home-fix). wow-night2-obs-vis-042 waits on wow-night-harness-224-accept-c.
 - tools-ki: wow-night-toolski-baseline (wow-night-cli-140-plan returned blocked on ROADMAP-REGISTRY, a pre-existing audit warning), then wow-night-cli-140-plan-b, wow-night-cli-156-b, wow-night-cli-156-accept-b, wow-night-tools-ki-queue-c, then wow-night-tools-ki-release-candidate-b. All other tools-ki run names, including wow-night-tools-ki-queue-b, are superseded and stop on this designation. LAUNCH-DEFAULTS is deferred to Kris (DEFAULTS-CONTRACT).
 - apps-observatory.local: wow-night-observatory-queue-b (the first run returned blocked on AUDIT-HOME, now prepared), then wow-night-brg-006-accept-b, wow-night2-obs-vis-042, wow-night2-obs-vis-042-accept.
 - tools-rig: wow-night-rig-baseline (wow-night-rig-048 returned blocked on RIG-BASELINE, a red FILES-10 audit on main), then wow-night-rig-048-b, wow-night-rig-048-accept-b, wow-night-rig-067-b, wow-night-rig-067-accept-b, wow-night-rig-056-b, wow-night-rig-056-accept-b, wow-night-tools-rig-release-candidate-b. The un-suffixed first-wave rig runs are superseded and stop on this designation.
