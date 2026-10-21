@@ -251,3 +251,7 @@ Wow-day-impl-fix-4 fixed every blocking finding and advisory from the third re-r
 ## 2026-10-22 00:07 BST - mark and tidy
 
 Kris: "mark and tidy up your work package please". The coordinator rewrites state.md for the 00:08 BST mark; wow-mark-strike-4 prunes the work folder and strikes decisions, without pushing.
+
+## 2026-10-22 00:25 BST - fourth re-review received, fifth fix
+
+Re-reviews of 6c4d2a1a return Codex changes needed (R4-ARCHIVE, R4-RESERVATION, R4-DISPATCH), Opus changes needed (an interrupted event append wedges a run), Fable accept with six advisories, one the same append wedge. Under the 01:55 grant and the 14:46 triple-check approval, one fifth fix run fixes every blocking finding and extends the fault matrix to the crash windows they expose, then three fresh blind reviewers re-review; publication waits for acceptance. If the fifth round still finds blocking defects, the coordinator raises convergence to Kris as a query rather than starting a sixth fix.
