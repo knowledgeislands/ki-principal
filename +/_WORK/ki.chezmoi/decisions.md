@@ -349,3 +349,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 192 (2026-10-20T23:38:00Z)
 
 - Pointer: Kris (00:37 BST) removed Shadowlab Spark's protected group container on sol himself (SPARK-CONTAINER a), verified absent). Run spark-tidy removes the empty `com.xenonium.Spark` preference file and records the final sol verification; terra follows a push.
+
+## Decision 193 (2026-10-21T00:19:00Z)
+
+- Pointer: Kris (01:19 BST): "I closed claude desktop and chatgpt desktop" — TRUST-RETURNED a). Run trust-reconcile applies the scoped `~/.claude/settings.json` trust change, sets Claude Desktop's `localAgentModeTrustedFolders` to exactly the declared Desktop folders with a rollback copy, and verifies; Kris reopens Desktop after.
