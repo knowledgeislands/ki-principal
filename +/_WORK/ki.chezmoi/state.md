@@ -26,13 +26,14 @@ method_read: beb56729
 3. Attended steps for KB-DOTFILES-UE-090 and KB-DOTFILES-UE-100 on terra and sol, then their acceptance.
 - Running: reconcile (Decision 196) fetches and fast-forwards sol's checkouts and writes a drift and doctor baseline to `design/reconcile-baseline-2026-10-21.md`; no apply.
 - Running: reconcile-2 (Decision 196, fetch-only grant) fetches and fast-forwards sol's checkouts and writes a drift and doctor baseline to `design/reconcile-baseline-2026-10-21.md`; no apply.
+- Reconciliation baseline (Decision 196, sol, 14:21 BST): [reconcile-2 report](/Users/krisbrown/.local/state/ki/agents/chezmoi/reconcile-2.report.md). Every checkout fetched and level except ki-principal (other sessions' unpushed work). Nine chezmoi drift targets: seven upstream source changes (three disabled scheduled jobs, the shared scheduled-agent library, the HNR triage wrapper and route-drift slot, six new HNR `.mgit.toml` members); Claude Desktop config live-edited plus fragment mismatch; Codex config fragment mismatch. `rig doctor` shows the known four only.
 - Trust: the declaration is complete and independent of VS Code workspaces; Claude Code and Claude Desktop match it, and Desktop's list held after reopening (Decisions 193, 195).
 - Delivered since the last hold: tools hooks in all five tools repositories, Shadowlab Spark removed from sol, KB-DOTFILES-UE-098 accepted with chezmoi declared settled.
 - Awaiting attended steps, then acceptance: KB-DOTFILES-UE-090, KB-DOTFILES-UE-100.
 
 ## Next steps
 
-1. Read the reconcile baseline; reconcile upstream updates and chezmoi drift from it, raising queries for anything needing Kris.
+1. From the baseline: a run reviews the seven upstream targets as one change (scheduled jobs stay disabled) and the HNR membership additions, and inspects the Desktop and Codex fragment mismatches redacted; scoped `chezmoi diff` to Kris, then apply on his word.
 2. On terra, with Kris: pull chezmoi; scoped diff and apply of `~/.config/rig/conf.d/10-applications.toml`; Stop Spark Daemon and quit Shadowlab Spark; check the cask receipt, `brew uninstall --cask --zap spark-app`, `defaults delete com.xenonium.Spark`, Kris removes its group container; verify absent; `rig doctor` before and after. Never touch readdle-spark or Spark Desktop.
 3. Attended steps for KB-DOTFILES-UE-090 and KB-DOTFILES-UE-100, then their acceptance.
 4. homeless: TRUST-COMPLETE (Decision 187).
