@@ -20,6 +20,4 @@ a) (recommended, confidence high - there is no go-ahead, and it widens the publi
 
 b) Capture it at triage now, marked as waiting for Kit's go-ahead.
 
-- CAPTURE-FOLLOWUPS - KI-TOOL-KI-CLI-152 and 167 pass their gates but need follow-up record identifiers that CAPTURE-GATE bars runs from creating. Recommended a) (high): capture `ki work message`, `ki work prune` and Knip scaffolding records, then resubmit both.
 - SRC-PLACEMENT - where KI-TOOL-KI-CLI-139's SharePoint mirror command sits. Recommended a) (medium, reviewer view): a separately specified source-maintenance command group in `ki`.
-- WORKTREE-GATE - `ki repo audit` blocks commits from linked worktrees on exact path registration. Recommended a) (medium, reviewer view): a linked worktree inherits its verified common repository's registration, with contract tests.
