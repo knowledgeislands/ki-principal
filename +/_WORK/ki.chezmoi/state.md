@@ -1,14 +1,11 @@
 ---
 id: ki.chezmoi
-state: on-hold
-since: 2026-10-21T00:42:00Z
-hold:
-  reason: paused
-  release: Kris resumes in the morning
+state: handoff-to-supervisor
+since: 2026-10-21T22:56:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
-mark: 2026-10-21T00:42:00Z
-method_read: 071567a1
+mark: 2026-10-21T22:56:00Z
+method_read: beb56729
 ---
 
 # ki.chezmoi state
@@ -20,13 +17,14 @@ method_read: 071567a1
 - Rig site rationale filter removed (apps-rig.midnight.ninja `680a95f`, unpushed). roadmap-batch done (chezmoi `4fe2203`, `28e0091`, `7af64b5`: UE-077 and UE-093 accepted, nine terminal records pruned). Tools-shape hooks and CI type check on harness main (`6076a98b`, `3f203c63`, unpushed) after hooks-recover restored the harness metadata. trust-declare done: 82 declared folders (+23: six checkouts incl. HNR, eight territory roots, eight Desktop Projects, `~/.claude`), independent of VS Code workspaces (tools-ki `9252669a`, chezmoi `13458343`); trust-reconcile done (Decision 193): `~/.claude/settings.json` +15 applied; Desktop list reset 149 → exactly 76 declared (94 removed, 21 added), rollback copy beside the config; doctor 4 → 4 identical. After Kris reopened Desktop, trust-check found the 76-folder list held unchanged over 200 seconds (no rewrite); rollback retained. Tools hooks adopted in all five tools repositories: tools-ki `a2e3460d`, tools-techne `3e686b66`, tools-git-almanac `8851d4dc`, and via hooks-bats tools-mgit `78a1b376` and tools-rig `f92d9a1c` (Bats kept in manual gates and CI; Rig's indexed assembly check declared and proved), all unpushed. Overnight-survey stopped (Decision 190 withdrawn); Shadowlab Spark fully removed from sol (Decisions 191, 192; spark-tidy verified; coordinator accepted the inert launchd override entry, SPARK-LAUNCHCTL a); terra after a push (declaration retired, `955faf5`); resources-check reported (Decision 189); Rig comment and kind routed to ki.mac-studio-setup. KI-TOOL-KI-CLI-165 was already accepted and pruned (tools-ki `fde00e97`, `39f1a91d`); accept-ue098 blocked before any change: the new MATURITY-1 audit warning (chezmoi `.ki.toml` declares no maturity) fails UE-098's verify criterion; maturity-accept done: chezmoi declares `maturity = "settled"` (`39f4f85`, Decision 195) and KB-DOTFILES-UE-098 is accepted (`efcd49b`).
 - Hook rollout: stages 1 and 3 delivered; stage 2 reached every repository, the tools shape included. KI-TOOL-KI-CLI-165 passed re-review and is Awaiting review; run `ki repo conform` only with `--dry-run` until Kris accepts it.
 - Accepted (Decision 194): KB-DOTFILES-UE-098 (`efcd49b`); KI-TOOL-KI-CLI-165 was already accepted and pruned. Still awaiting attended steps on terra and sol: KB-DOTFILES-UE-090, KB-DOTFILES-UE-100.
-- All touched repositories are level with their upstreams on sol (checked 01:41 BST, no fetch).
+- All touched repositories are level with their upstreams on sol (checked 01:41 BST, no fetch). On terra, chezmoi `main` is level with origin at `eb5f69a` after a fetch (23:55 BST), so PUSH-TERRA needs nothing.
 
 ## Next steps
 
-1. On terra: pull chezmoi, then remove Shadowlab Spark with Kris at the machine: `rig doctor` before; scoped diff then apply of `~/.config/rig/conf.d/10-applications.toml` only; open Spark, Stop Spark Daemon, quit; check the cask receipt, then `brew uninstall --cask --zap spark-app`, `defaults delete com.xenonium.Spark`, and Kris removes `~/Library/Group Containers/3DT6DNJE39.com.xenonium.Spark`; verify bundle, cask, login item and helper absent, `rig doctor` after. Never touch readdle-spark or Spark Desktop.
-2. Attended steps for KB-DOTFILES-UE-090 and KB-DOTFILES-UE-100 on terra and sol, then their acceptance.
-3. homeless: TRUST-COMPLETE (Decision 187).
+1. On terra, with Kris at the machine: finish the Tower Assistant cutover from chezmoi `1e60a82` under [Tower Assistant](/Users/krisbrown/.local/share/chezmoi/docs/guides/tools/tower-assistant.md): attended install, Accessibility grant, `rig doctor`, then remove the old Tower Save Nudge.app (still the only Tower app in `~/Applications`; the old LaunchAgent is gone). From TOWER-CUTOVER.
+2. On terra: pull chezmoi, then remove Shadowlab Spark with Kris at the machine: `rig doctor` before; scoped diff then apply of `~/.config/rig/conf.d/10-applications.toml` only; open Spark, Stop Spark Daemon, quit; check the cask receipt, then `brew uninstall --cask --zap spark-app`, `defaults delete com.xenonium.Spark`, and Kris removes `~/Library/Group Containers/3DT6DNJE39.com.xenonium.Spark`; verify bundle, cask, login item and helper absent, `rig doctor` after. Never touch readdle-spark or Spark Desktop.
+3. Attended steps for KB-DOTFILES-UE-090 and KB-DOTFILES-UE-100 on terra and sol, then their acceptance.
+4. homeless: TRUST-COMPLETE (Decision 187).
 
 ## Held
 
