@@ -244,3 +244,7 @@ Coordinator, under the 01:55 grant: wow-night-tools-ki-queue-c was queued with t
 ## 2026-10-21 03:03 BST - Rig baseline allowance
 
 Coordinator, under the 01:55 grant, answering RIG-PREFLIGHT-WARNINGS a) and RIG-AUDIT-ACTIVATION from wow-night-rig-048-e: the Rig chain may pass the pre-existing warnings OWN-1 and MATURITY-1, leaving both files unchanged, and establishes its baseline by `ki repo repair` in its own isolated worktree at the exact main commit, with activation changes confined there and never committed. The primary checkout is never repaired. CORE-048 reruns as wow-night-rig-048-f.
+
+## 2026-10-21 03:17 BST - Rig runs fix their own findings
+
+Coordinator, under the 01:55 grant, answering RIG-PLAN-GATE a) from wow-night-rig-048-f: a Rig run's stop-on-new-warning rule covers only findings it did not introduce; it fixes findings in its own uncommitted work, reruns the gate and continues. CORE-048 reruns as wow-night-rig-048-g from the preserved draft.
