@@ -353,3 +353,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 193 (2026-10-21T00:19:00Z)
 
 - Pointer: Kris (01:19 BST): "I closed claude desktop and chatgpt desktop" — TRUST-RETURNED a). Run trust-reconcile applies the scoped `~/.claude/settings.json` trust change, sets Claude Desktop's `localAgentModeTrustedFolders` to exactly the declared Desktop folders with a rollback copy, and verifies; Kris reopens Desktop after.
+
+## Decision 194 (2026-10-21T00:22:00Z)
+
+- Pointer: Kris (01:22 BST): "ACCEPT - yes". Accept KB-DOTFILES-UE-098 and KI-TOOL-KI-CLI-165 under ki-work; run accept-records records the acceptance in each owning repository. KB-DOTFILES-UE-090 and KB-DOTFILES-UE-100 stay Awaiting review until their attended steps on terra and sol are done.
