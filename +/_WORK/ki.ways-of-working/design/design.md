@@ -60,3 +60,7 @@ The work-package design note was deleted on 20 October 2026: its decisions are h
 ## Restart model
 
 The restart-model design note graduated into `ki-pmo` in ki-agentic-harness `2007749e` and was then deleted, as Kris decided under DESIGN-HOME on 16 October 2026; Git history holds it. Its pick-up table, rules and hold report now live in the `ki-pmo` standard's [Picking up a thread](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-pmo/references/standards-pmo.md#picking-up-a-thread) and [Draining a thread](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-pmo/references/standards-pmo.md#draining-a-thread).
+
+## Agent control and launch defaults
+
+[agent-control-contract](agent-control-contract.md) drafts CONTROL-CONTRACT and DEFAULTS-CONTRACT for Kris's acceptance: stop, dequeue, bounded coordinator wake and role-based launch defaults, with observable receipts, safety guards, gaps from today and build acceptance tests. tools-ki owns the commands and the KI Agentic Harness owns the skill text; no implementation or live activation is authorised by the draft.
