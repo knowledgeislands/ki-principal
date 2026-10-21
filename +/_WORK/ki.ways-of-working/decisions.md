@@ -280,3 +280,7 @@ Coordinator, under the 01:55 grant, answering ROADMAP-SIZE from wow-night2-obs-v
 ## 2026-10-21 04:21 BST - pre-existing warnings pass
 
 Coordinator, under the 01:55 grant, answering AUDIT-BASELINE a) from wow-night2-obs-vis-042-f and generalising the Rig and Observatory allowances: in every overnight run, an audit warning (not failure) already present on the unchanged baseline is listed in the report and passed, its file unchanged. Failures, and new warnings a run cannot fix in its own work, still stop it. OBS-VIS-042 reruns as wow-night2-obs-vis-042-g.
+
+## 2026-10-21 04:23 BST - principal receipts early
+
+Coordinator, under the 01:55 grant: the Principal queue run goes now, as wow-night-principal-queue-d, rather than after every lane. It receipts the lines whose runs are done, leaves the rest pending, and a later run picks them up with the parked queries.
