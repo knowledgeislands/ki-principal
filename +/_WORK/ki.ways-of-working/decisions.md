@@ -256,3 +256,7 @@ Coordinator, under the 01:55 grant, answering OBS-BRG-006-SERVING-REVISION a) fr
 ## 2026-10-21 03:24 BST - runs fix their own setup
 
 Coordinator, under the 01:55 grant, answering OBS-BRG-006-BASELINE-DEPS a) from wow-night-brg-006-accept-c, and extending the Rig rule of the same night to every overnight run: a stop-at-first-red-gate rule covers failures a run did not cause; a run fixes failures of its own setup or its own uncommitted work and continues. Acceptance reruns as wow-night-brg-006-accept-d.
+
+## 2026-10-21 03:39 BST - direct launches past the stalled queue
+
+Coordinator, under the 01:55 grant: the queue dispatcher has stopped advancing, its head waiting on a run that ended blocked. Every remaining run is launched directly by the coordinator, one writer per repository, under a new name the Writers section designates; the queued runs are superseded and stop harmlessly if they ever start. The harness lane resumes as wow-night-harness-queue-d.
