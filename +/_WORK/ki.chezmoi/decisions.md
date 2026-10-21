@@ -329,3 +329,4 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 196 (2026-10-21T13:13:00Z)
 
 - Pointer: Kris (14:13 BST): "Can you do any reconciliation that we need at this point? So that you can wake up again and just check where we're at and ready to focus on basically reconciliation of any updates that have happened in this folder as well as the drift." Run reconcile: fetch and fast-forward clean checkouts, inventory chezmoi drift and doctor findings read-only, no apply; the morning resume starts from its baseline.
+- Coordinator (14:16 BST), FETCH-AUTHORITY a) within Decision 196: relaunch reconcile as reconcile-2 with the fetch-only grant (`--allow fetch`); every other prohibition stays.

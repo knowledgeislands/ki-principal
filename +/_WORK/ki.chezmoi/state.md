@@ -25,6 +25,7 @@ method_read: beb56729
 2. On terra: pull chezmoi, then remove Shadowlab Spark with Kris at the machine: `rig doctor` before; scoped diff then apply of `~/.config/rig/conf.d/10-applications.toml` only; open Spark, Stop Spark Daemon, quit; check the cask receipt, then `brew uninstall --cask --zap spark-app`, `defaults delete com.xenonium.Spark`, and Kris removes `~/Library/Group Containers/3DT6DNJE39.com.xenonium.Spark`; verify bundle, cask, login item and helper absent, `rig doctor` after. Never touch readdle-spark or Spark Desktop.
 3. Attended steps for KB-DOTFILES-UE-090 and KB-DOTFILES-UE-100 on terra and sol, then their acceptance.
 - Running: reconcile (Decision 196) fetches and fast-forwards sol's checkouts and writes a drift and doctor baseline to `design/reconcile-baseline-2026-10-21.md`; no apply.
+- Running: reconcile-2 (Decision 196, fetch-only grant) fetches and fast-forwards sol's checkouts and writes a drift and doctor baseline to `design/reconcile-baseline-2026-10-21.md`; no apply.
 - Trust: the declaration is complete and independent of VS Code workspaces; Claude Code and Claude Desktop match it, and Desktop's list held after reopening (Decisions 193, 195).
 - Delivered since the last hold: tools hooks in all five tools repositories, Shadowlab Spark removed from sol, KB-DOTFILES-UE-098 accepted with chezmoi declared settled.
 - Awaiting attended steps, then acceptance: KB-DOTFILES-UE-090, KB-DOTFILES-UE-100.
