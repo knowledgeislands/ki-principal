@@ -18,17 +18,15 @@ c) Defer the controls and keep naming runtime, model, effort and footer explicit
 
 ### RIG-RELEASE-REVIEW-BOUNDARY - tag tools-rig v0.8.0 with open review gates?
 
-(Blind review pending: wow-day-rig-boundary-review.)
-
 **Context:** v0.8.0's range contains KI-TOOL-RIG-CORE-053 (awaiting review), KI-TOOL-RIG-CORE-062 (in progress after refused acceptance) and KI-TOOL-RIG-CORE-047 (attended acceptance gaps); KI-TOOL-RIG-CORE-056 accepted the investigation only. All local gates pass; the CI pin is being repaired.
 
 **Query:** Should tagging wait for those review gates, or proceed after green CI with them open?
 
 **Options:**
 
-a) (recommended by the release run, confidence high - keeps release and acceptance distinct) Hold tagging until the owning work settles the review gates.
+a) (recommended by the release run, confidence high - keeps release and acceptance distinct) Hold tagging until the owning work settles the review gates; this waits on undated attended host work.
 
-b) Tag after green CI with the open records and their limits retained; the release is not record acceptance.
+b) (recommended by the blind review, confidence medium - release policy does not require every included record closed; CORE-053 is observe-only, CORE-047's firewall already shipped in v0.7.0 and CORE-062 only narrows it with conservative refusal, but second-host discovery is unconfirmed) Tag after green CI and the normal release checks, carrying the open records and their limits into the release notes; publication is not record acceptance or permission for live convergence.
 
 ## Parked
 

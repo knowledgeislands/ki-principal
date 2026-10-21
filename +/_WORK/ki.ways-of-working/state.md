@@ -16,9 +16,9 @@ method_read: eff6163b
 - Writers, one per repository; a run not named here stops:
   - tools-ki: wow-day-toolski-pin (Harness pin and ready-to-tag dossier).
   - tools-rig: wow-day-rig-ci-pin (CI pin and green dossier).
-  - ki-design: wow-day-ico-001-accept-b (fresh acceptance after the fix).
-  - ki-agentic-harness: wow-day-push-reporting (GOV-209 accepted).
-  - ki-principal: wow-day-principles-structure, then wow-day-gov227-schema and wow-day-tags-research in turn.
+  - ki-design: none (KI-DESIGN-ICO-001 accepted); a prune run after three agreeing reviews.
+  - ki-agentic-harness: none (push-reporting landed); a prune run after three agreeing reviews.
+  - ki-principal: wow-day-principles-structure-b, then wow-day-gov227-schema and wow-day-tags-research in turn.
 
 ## Next steps
 
