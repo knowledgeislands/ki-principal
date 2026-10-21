@@ -263,3 +263,7 @@ wow-day-ico-001-prune stopped on one live link to KI-DESIGN-ICO-001, in its own 
 ## 2026-10-21 15:11 BST - contract revised, fresh reviews
 
 wow-day-contracts-b revised the draft against all three reviews (ACCEPT-AUTHORITY on the none footer with a defined declaration, recovery paths, descendant containment, wake split into a later build). Three fresh independent reviews (wow-day-contract-review-4 to -6) decide it under the "triple-checked approval while Kris is away" entry. GOV227-SCHEMA a) goes ahead as wow-day-gov227-schema.
+
+## 2026-10-21 15:16 BST - contract accepted on two fixes; KI-DESIGN-ICO-001 pruned
+
+The second-round reviews (wow-day-contract-review-4 to -6) agree at high confidence: accept every For Kris decision and the precedence policy once RECONCILE-SURFACE (a distinct recovery namespace beside the existing `ki agent reconcile`) and PUSH-AUTHORITY (role-free `--rules` launches unchanged; `--authority` for role launches only) are fixed. Under the "triple-checked approval while Kris is away" entry that is Kris's approval of CONTRACT-ACCEPT, conditional on the fixes; wow-day-contracts-c makes them and marks the note accepted, after wow-day-gov227-schema, then one tools-ki run builds the first stage in the draft's order. KI-DESIGN-ICO-001 is pruned at e456873d; its last revision is 85a42bf1.
