@@ -2,7 +2,33 @@
 
 ## Open
 
-None
+### CONTRACT-ACCEPT - accept the agent control and launch-defaults draft
+
+**Context:** Kris approved drafting CONTROL-CONTRACT and DEFAULTS-CONTRACT for acceptance before one tools-ki build. The [draft](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/agent-control-contract.md>) recommends: stop sends a verified SIGTERM to the run's own process group with a 30-second grace and no automatic hard kill; dequeue is transactional and refuses a worker that has already started; wake is tied to one exact native session with an absolute owner-authorised expiry and no blind retry; and seven launch roles set runtime, model, effort and footer, with explicit options winning inside role guards. Its proposed model pins and native wake support are not yet proven locally, so they stay disabled until evidence exists. The tools-ki command build comes before the Harness wording.
+
+**Query:** Accept the draft's six recommendations and commission the bounded tools-ki build?
+
+**Options:**
+
+a) (recommended, confidence high - every control has an observable refusal path, and unproved capabilities stay off until evidenced) Accept all six and commission the build, requiring local evidence before enabling model pins or a native wake adapter.
+
+b) Send named parts (stop, dequeue, wake, roles or the acceptance footer) back for revision first.
+
+c) Defer the controls and keep naming runtime, model, effort and footer explicitly.
+
+### RIG-RELEASE-REVIEW-BOUNDARY - tag tools-rig v0.8.0 with open review gates?
+
+(Blind review pending: wow-day-rig-boundary-review.)
+
+**Context:** v0.8.0's range contains KI-TOOL-RIG-CORE-053 (awaiting review), KI-TOOL-RIG-CORE-062 (in progress after refused acceptance) and KI-TOOL-RIG-CORE-047 (attended acceptance gaps); KI-TOOL-RIG-CORE-056 accepted the investigation only. All local gates pass; the CI pin is being repaired.
+
+**Query:** Should tagging wait for those review gates, or proceed after green CI with them open?
+
+**Options:**
+
+a) (recommended by the release run, confidence high - keeps release and acceptance distinct) Hold tagging until the owning work settles the review gates.
+
+b) Tag after green CI with the open records and their limits retained; the release is not record acceptance.
 
 ## Parked
 

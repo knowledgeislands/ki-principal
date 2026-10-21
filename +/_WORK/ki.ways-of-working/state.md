@@ -14,11 +14,11 @@ method_read: eff6163b
 
 - 14:35 BST mark: CANDIDATE-PRINCIPLES and STRUCTURE-TODOS answered a); push state no longer goes in owner reports (decisions entry "push state out of reports"). Afternoon unattended run under the 01:55 grant continues.
 - Writers, one per repository; a run not named here stops:
-  - tools-ki: wow-day-toolski-release (v0.13.0 preparation).
-  - tools-rig: wow-day-rig-release (v0.8.0 preparation).
+  - tools-ki: wow-day-toolski-pin (Harness pin and ready-to-tag dossier).
+  - tools-rig: wow-day-rig-ci-pin (CI pin and green dossier).
   - ki-design: wow-day-ico-001-accept-b (fresh acceptance after the fix).
   - ki-agentic-harness: wow-day-push-reporting (GOV-209 accepted).
-  - ki-principal: wow-day-contracts, then wow-day-principles-structure, wow-day-gov227-schema and wow-day-tags-research in turn.
+  - ki-principal: wow-day-principles-structure, then wow-day-gov227-schema and wow-day-tags-research in turn.
 
 ## Next steps
 

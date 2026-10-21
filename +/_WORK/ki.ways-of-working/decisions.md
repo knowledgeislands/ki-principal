@@ -235,3 +235,7 @@ Kris: "Both candidate principles and structure to-dos option A's, which are the 
 ## 2026-10-21 14:35 BST - mark
 
 Kris: "mark". Mark struck at 14:35 BST; the afternoon unattended run continues under the 01:55 grant.
+
+## 2026-10-21 14:43 BST - release continuations and contract draft
+
+Under the 01:55 grant and RELEASE-PREP a) and RIG-RELEASE-VERSION a), the coordinator takes HARNESS-ARCHIVE a) (one credential-free public codeload read of the newest Harness main archive, then the pin commit and a ready-to-tag dossier; wow-day-toolski-pin) and RIG-RELEASE-CI-PIN a) (apply the prepared KI v0.12.0 CI pin and return a green exact-SHA dossier; wow-day-rig-ci-pin). RIG-RELEASE-REVIEW-BOUNDARY bears on what Kris tags, so it goes to blind review and then to Kris. The contract draft is with Kris as CONTRACT-ACCEPT. The wow-day-rig-release messages line is disposed of by these steps.
