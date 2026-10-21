@@ -287,3 +287,7 @@ wow-day-contract-coverage brought product coverage to 100% with thresholds uncha
 ## 2026-10-21 18:34 BST - implementation reviews, fix run
 
 The three independent implementation reviews split: review-1 (Codex xhigh) and review-2 (Opus 5.5) CHANGES NEEDED with seven reproduced blocking findings between them, including two regressions to role-free runs; review-3 (Fable 5.1) ACCEPT with advisories. The first stage is not accepted. Under the 01:55 grant the coordinator commissions wow-day-impl-fix to fix every blocking finding with regression tests and the small advisories, rerun all gates, then the same three reviewers re-review. tools-ki is neither tagged nor installed with this stage, so nothing live is affected.
+
+## 2026-10-21 19:04 BST - fix received, re-review
+
+wow-day-impl-fix fixed all seven blocking findings and the advisories in 166f0cbc, each with a regression test that failed on cb165c20 first; every gate passes, with 100% coverage. The same three reviewers now re-review the whole range. Its PUBLISH-OWN-FIX query is taken a) by the coordinator: publication waits until the re-review accepts, then one run checks that the range holds only this work's commits before a fast-forward push.
