@@ -1,8 +1,8 @@
 ---
 id: ki.ways-of-working
-state: handoff-to-supervisor
-since: 2026-10-21T05:06:48Z
-received: 2026-10-21T00:40:30Z
+state: with-worker
+since: 2026-10-21T13:03:54Z
+received: 2026-10-21T13:03:54Z
 beat: null
 mark: 2026-10-21T00:40:30Z
 method_read: eff6163b

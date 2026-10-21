@@ -332,3 +332,7 @@ wow-night-parked-queries-d stopped because ki-principal's primary checkout held 
 ## 2026-10-21 06:08 BST - overnight complete, send to Kris
 
 wow-night-parked-queries-e struck the verified-overtaken parked demands and routed 80 residual ki-principal audit findings once each to their owning works' messages.md. Its AUDIT-OUTSIDE-LANE line for this work (state.md headings and length, CONTROL-CONTRACT shape) is acted on here: state.md is reshaped to Now, Next steps and Held with the Writers lanes retired, and CONTROL-CONTRACT reformatted. DEFAULTS-CONTRACT is copied into queries.md. Every remaining open item needs Kris's judgement, presence, a release version or a push, so the work goes to Kris.
+
+## 2026-10-21 14:03 BST - received back, accelerate
+
+Kris: "ok - you are ok still exclusively the thread on all this, can you accelerate getting the roadmap items progressed" and "I'm here for 10 minutes so if you have some questions I'm happy to deal with those". Taken as: this thread still controls KI exclusively; the 01:55 grant stands; put the queries that unblock agent work first.
