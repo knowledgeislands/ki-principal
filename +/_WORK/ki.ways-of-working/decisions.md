@@ -275,3 +275,7 @@ tools-rig v0.8.0 is green at a2bc1093 after the CI harness pin (wow-day-rig-ci-f
 ## 2026-10-21 15:27 BST - contract accepted, build and tags research
 
 wow-day-contracts-c settled RECONCILE-SURFACE (`ki agent recover inspect|resolve`) and PUSH-AUTHORITY and marked the contract accepted (03954f4c); wow-day-contract-build builds its first stage in tools-ki. The tags research stopped on its launch footer's no-remote rule; the coordinator takes its research-authority query a) under the 01:55 grant (read-only public web reading only) and relaunches it as wow-day-tags-research-b.
+
+## 2026-10-21 17:47 BST - contract build received, coverage continuation
+
+wow-day-contract-build preserved the first-stage draft d6df59d9 on branch `wow-day-contract-build`; every gate passes except the 100% coverage threshold, so it was not integrated. Under Kris's 01:55 grant ("I'm happy for you to just make it all work") the coordinator takes COVERAGE-GATE a) (complete coverage in the preserved worktree, rerun all gates, then integrate) and RECORD-HOME b) (the accepted contract is the first-stage authority; no roadmap association, per CAPTURE-GATE), and launches wow-day-contract-coverage. CONTROL-EVIDENCE a) and DEFAULTS-HANDOFF a) wait until the first stage is verified and independently reviewed: then separate native-evidence runs and one Harness alignment line.
