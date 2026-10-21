@@ -23,7 +23,7 @@ method_read: eff6163b
 ## Next steps
 
 - Coordinator: receive wow-day-impl-fix-2, then three fresh blind re-reviews; on acceptance one run checks the unpushed tools-ki range holds only this work's commits and pushes fast-forward, then one Harness alignment line and the native-evidence runs (CONTROL-EVIDENCE a), DEFAULTS-HANDOFF a)).
-- Coordinator: receive wow-mark-strike-2; prune KI-HARNESS-GOV-209 once State of play homes its rollout; remove the GRANT-INTERIM sentence once tools-ki v0.13.0 is installed.
+- Coordinator: prune KI-HARNESS-GOV-209 once State of play homes its rollout; remove the GRANT-INTERIM sentence once tools-ki v0.13.0 is installed.
 - Kris: TOOLSKI-TAG, RIG-RELEASE-REVIEW-BOUNDARY and TAGS; the live KI-OBSERVA-BRG-005 check, the four KI-PRINCIPAL-OPS-014 render checks and the KI-DESIGN-ICO-001 contact sheet; a GOV-227 session on design/gov-227-storage-schema.md (five decisions); the seven parked queries.
 - Blocked: KI-PRINCIPAL-ECO-013 re-review on other works' audits; KI-HARNESS-GOV-224's follow-up with ki.observatory.
 
