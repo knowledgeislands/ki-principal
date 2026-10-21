@@ -291,3 +291,7 @@ The three independent implementation reviews split: review-1 (Codex xhigh) and r
 ## 2026-10-21 19:04 BST - fix received, re-review
 
 wow-day-impl-fix fixed all seven blocking findings and the advisories in 166f0cbc, each with a regression test that failed on cb165c20 first; every gate passes, with 100% coverage. The same three reviewers now re-review the whole range. Its PUBLISH-OWN-FIX query is taken a) by the coordinator: publication waits until the re-review accepts, then one run checks that the range holds only this work's commits before a fast-forward push.
+
+## 2026-10-21 19:15 BST - re-review, second fix run
+
+Re-reviews of 166f0cbc: wow-day-impl-rereview-1 and -2 changes needed, -3 accept. All seven original findings are fixed; the fix introduced new blocking defects in event publication and lock recovery (unreadable event evidence treated as absent, post-spawn publication refusal reporting a started worker as failed, leftover locks wedging a run). Under Kris's 01:55 grant, "I'm happy for you to just make it all work", wow-day-impl-fix-2 fixes them with failing-first regression tests, adds release on interrupt for both locks and bounded waiting for foreground launch and queue, and fast-forwards local main without pushing; three fresh reviewers then re-review. Publication still waits for acceptance, as taken at 19:04.
