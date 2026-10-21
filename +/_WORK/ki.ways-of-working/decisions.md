@@ -300,3 +300,7 @@ Coordinator, on wow-night-principal-queue-d (0b1a0c7f; 15 lines received, 25 pen
 ## 2026-10-21 04:55 BST - RIG-056-EVIDENCE
 
 Coordinator, under the 01:55 grant, answering RIG-056-EVIDENCE a) from wow-night-rig-056-d: KI-TOOL-RIG-CORE-056's rework wording is corrected to the archived literal output (`displayablesInfo`; Fujitsu domain distinct from autosave `Item-0`), its claim audit finished and it goes to fresh independent review. Reruns as wow-night-rig-056-e.
+
+## 2026-10-21 05:06 BST - RIG-056-GATE
+
+Coordinator, under the 01:55 grant, answering RIG-056-GATE a) from wow-night-rig-056-e: the manual gate runs in tools-rig's own disposable fixture isolation, not the audit sandbox, since wow-night-rig-067-c passed all 625 fixtures that way; the -e candidate is carried forward. A gate still red on unchanged main stops the run. Reruns as wow-night-rig-056-f.
