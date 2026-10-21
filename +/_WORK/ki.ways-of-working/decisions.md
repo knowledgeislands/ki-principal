@@ -305,3 +305,7 @@ Kris, on an Observatory work package explorer with a prompt-creator button servi
 ## 2026-10-21 23:40 BST - fourth fix received, re-review
 
 Wow-day-impl-fix-4 fixed every blocking finding and advisory from the third re-review round at 6c4d2a1a and closed the class with a fault-injection matrix (22 flows, 505 mutation points, 3,568 injected fault cells, 1,002 SIGKILL cells; 2,018 tests, 100% coverage, all gates); three fresh blind reviewers re-review; publication waits for acceptance.
+
+## 2026-10-22 00:07 BST - mark and tidy
+
+Kris: "mark and tidy up your work package please". The coordinator rewrites state.md for the 00:08 BST mark; wow-mark-strike-4 prunes the work folder and strikes decisions, without pushing.
