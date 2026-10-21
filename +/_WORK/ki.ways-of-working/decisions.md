@@ -106,25 +106,9 @@ OVERNIGHT-BURNDOWN, Kris: "I'm not going to enable the other threads ... get all
 
 Taken as: this work coordinates an overnight burndown in order tools, MCPs, apps (website and Observatory), other repositories, then the harness. One delivery run per repository, in worktrees, fast-forwarding its own branch and pushing its own commits as it goes. Each delivered record gets an independent blind review; a pass is accepted under this grant and pruned; anything needing Kris's own eyes, an attended action or publication waits for the morning. Stuck items go to Astra and Fable reviews and their answer is followed. Follow-ups go as `messages.md` lines or Idea lines, never new records. Other sessions' stacked commits stay unpushed (PUSH-NOT-WITH-YOU). The earlier stay-out of ki-design and apps-knowledgeislands.info is lifted for this burndown.
 
-## 2026-10-20 - acceptance grant
-
-Kris, 20 October, granting overnight acceptance: "if you can quickly now accept ... accepting new things that are waiting with you and pruning those ... getting the roadmaps down to zero". Quoted in every overnight acceptance brief; each acceptance was by an independent reviewer that did not deliver the work.
-
 ## 2026-10-20 22:03 BST - self-serve burndown
 
 SELF-SERVE-BURNDOWN - Kris, 20 October 2026, 22:03 BST: "Is there anything more that you can do by yourself without me? To try and get that vote back down before I re-open lots of other threads? ... roadmap down" Live work is carried in [state.md](state.md) under the [01:55 grant](#2026-10-21-0155-bst---overnight-run-through-grant).
-
-## 2026-10-20 23:13 BST - query sign-offs, first answers
-
-Kris: "capital of capitals, yes I agree with the recommendation. The enactment admin, the whole thing was it's meant to cover admin. I'm not sure the enactment process needs to cover pillars or resources or any of the other areas to be honest with you. The whole idea is to protect the admin capability through this being there."
-
-Taken as: CAPITAL-OF-CAPITALS a). ENACTMENT-ADMIN: the gate exists to protect Admin, so the portable statements name `Admin/`; whether Pillars and Resources leave the gate is open, pending one clarifying answer. The MOD-008 follow-up edits launch as one run once Kris has finished this pass, because they touch the same Philosophy notes.
-
-## 2026-10-20 23:16 BST - query sign-offs, first batch
-
-Kris: "Yes to all these: FOOTER-PROVISIONALS ... SPEC-SKETCH ... RIG-053-SHAPE ... PLAN067-READY ... DESIGN-DISPOSITIONS ... TOOLS-KI-SHAPES ... GOV225-CLOSE ... OPS009-SPLIT ... CALENDAR-LIBRARY ... LAYER-PATHS ... ENACTMENT-ADMIN - I meant a so do a review please"
-
-Taken as: a) on FOOTER-PROVISIONALS, SPEC-SKETCH, RIG-053-SHAPE, PLAN067-READY, DESIGN-DISPOSITIONS, TOOLS-KI-SHAPES, GOV225-CLOSE, OPS009-SPLIT (this grant lifts the capture gate for the split only), CALENDAR-LIBRARY and LAYER-PATHS. ENACTMENT-ADMIN: Kris means "Admin only" - the Enactment gate covers `Admin/` alone and Pillars and Resources leave it, which supersedes SDR-KI-PRINCIPAL-002's gate and rewrites AGENTS.md, the Enactment Process and the portable model; it goes to one blind review before any edit. EMERGING and STRUCTURE-TODOS were not in this batch and stay open.
 
 ## 2026-10-20 23:30 BST - ENACTMENT-ADMIN
 
@@ -134,21 +118,7 @@ Taken as: a) after blind review. The gate stays on Admin, Pillars and Resources 
 
 ## 2026-10-21 01:40 BST - overnight answers and mark
 
-Kris: "HOLDS-COUNT - give me a prompt for that work package / thread and I'll hand it off now as a priority. QUEUES-OVERNIGHT - as recommended, please use higher reasoning models to help with any coordination. I'll not start any other threads in KI so you can control and make sure as much as possible happens. CI-READ - a) RELEASE-OVERNIGHT - a) HEADLESS-LOOK - a) STALE-RESHAPE - a) actually all the rest are a) too as they are high ... mark here please"
-
-Read back as taken:
-
-- HOLDS-COUNT: the 11 email-routing records (KI-MCP-GSUITE-TOOL-008, -009, KI-MCP-M365-TOOL-011 to -019) go to hnr.email-routing as a priority, through a resume prompt Kris pastes; this work's runs leave mcp-m365 and mcp-gsuite's email-routing records alone.
-- QUEUES-OVERNIGHT a): this work delivers ki.tools-burndown's and ki.observatory's authorised and mechanical queue lines overnight; no new capture beyond approved splits, no live applies, source deletion, credentials or publication. Higher-reasoning runs (Codex, high effort) help plan and coordinate. Kris starts no other KI thread tonight, so this work controls KI overnight.
-- CI-READ a): the KI-TOOL-KI-CLI-156 run may read tools-ki's GitHub Actions results, read-only, tools-ki only.
-- RELEASE-OVERNIGHT a): runs prepare named release candidates for tools-ki and tools-rig; Kris tags and publishes.
-- HEADLESS-LOOK a): for KI-OBSERVA-BRG-006 only, a headless check at exactly 1,440 and 760 px with screenshots replaces Kris's running-site check (answers OBS-BRG-006-VISUAL); BRG-004, BRG-005 and SITE-044 wait for Kris.
-- STALE-RESHAPE a): strike only parked queries verified overtaken one by one; keep KI-TOOL-KI-CLI-145 and KI-TOOL-RIG-CORE-064.
-- RIG-053-ORDER a): KI-TOOL-RIG-CORE-053 holds until Kris's Command-drag check on sol.
-- SRC-PLACEMENT a): KI-TOOL-KI-CLI-139 holds with the Humans not Robots work.
-- OBS-FOLLOWUPS a): none tonight; they stay with ki.observatory.
-- WORK-STATUS-FORM a): KI-TOOL-KI-CLI-149 and -160 wait for State of play.
-- Mark struck at 01:40 BST; decisions strike and design review deferred to the next mark.
+OVERNIGHT-HOLDS - Kris, 21 October 2026 01:40 BST: the [01:55 grant and its unchanged exclusions](#2026-10-21-0155-bst---overnight-run-through-grant), [queries](queries.md) and [state](state.md) carry the live authority and holds.
 
 ## 2026-10-21 01:55 BST - overnight run-through grant
 
@@ -220,43 +190,23 @@ Kris: "mark". Mark struck at 14:35 BST; the afternoon unattended run continues u
 
 ## 2026-10-21 14:43 BST - release continuations and contract draft
 
-Under the 01:55 grant and RELEASE-PREP a) and RIG-RELEASE-VERSION a), the coordinator takes HARNESS-ARCHIVE a) (one credential-free public codeload read of the newest Harness main archive, then the pin commit and a ready-to-tag dossier; wow-day-toolski-pin) and RIG-RELEASE-CI-PIN a) (apply the prepared KI v0.12.0 CI pin and return a green exact-SHA dossier; wow-day-rig-ci-pin). RIG-RELEASE-REVIEW-BOUNDARY bears on what Kris tags, so it goes to blind review and then to Kris. The contract draft is with Kris as CONTRACT-ACCEPT. The wow-day-rig-release messages line is disposed of by these steps.
+RELEASE-CONTINUATIONS - 21 October 2026 14:43 BST: live release decisions and dossier links are in [queries](queries.md); the contract graduated to the [accepted build contract](design/agent-control-contract.md).
 
 ## 2026-10-21 14:46 BST - triple-checked approval while Kris is away
 
 Kris: "I'll away now for the next hour. So, can you make sure that you keep tracking on with as much as you can? If you've got to a point where you think some of the things can get reviewed, matters done, and pruned off, if you want to do that and triple check them with higher level reasoning models, I'm happy to accept that as being a suitable approval." Taken as: for the next hour, where work has reached a reviewable point, three independent reviews on the strongest reasoning models, at least one under a different runtime, stand in for Kris's approval when all three agree; on that basis records may be accepted to Done and pruned, and CONTRACT-ACCEPT may be settled. Any disagreement goes to Kris. Not covered: tagging and publishing releases (Kris tags), RIG-RELEASE-REVIEW-BOUNDARY, parked queries, live applies, credentials and source deletion.
 
-## 2026-10-21 14:48 BST - audit boundary and prune checks
-
-Under the 01:55 grant the coordinator takes PRINCIPLES-AUDIT a): the bounded Pillars change gates on focused audits and hooks, and attributed baseline full-audit failures outside its paths do not stop it (wow-day-principles-structure-b). Under the "triple-checked approval while Kris is away" entry, three independent reviews check KI-TOOL-KI-CLI-140, KI-HARNESS-GOV-209 and KI-DESIGN-ICO-001 before pruning. RIG-RELEASE-REVIEW-BOUNDARY: the blind review disagreed with the release run, so both views go to Kris.
-
-## 2026-10-21 14:59 BST - releases, reviews and prunes
-
-- tools-ki v0.13.0 is ready for Kris to tag at 65e06273 (wow-day-toolski-pin dossier).
-- RIG-RELEASE-CI-DIAGNOSIS a), taken by the coordinator under the 01:55 grant: read-only `gh` retrieval of the failing Audit job's logs, then the attributed CI fix (wow-day-rig-ci-fix).
-- CONTRACT-ACCEPT: the three reviews did not agree (two return ACCEPT-AUTHORITY and more for revision at high confidence, one accepts at medium), so the draft is not accepted; wow-day-contracts-b revises it, then three fresh reviews.
-- Prunes: KI-TOOL-KI-CLI-140 was already pruned in 0f8b15de; KI-DESIGN-ICO-001 has three agreeing prune verdicts (wow-day-ico-001-prune); KI-HARNESS-GOV-209 stays, because one review found its eight-principal conformance rollout unhomed.
-- CANDIDATE-PRINCIPLES and STRUCTURE-TODOS are delivered in Principles and Structure (wow-day-principles-structure-b).
-
-## 2026-10-21 15:05 BST - ICO-PRUNE-REFERENCE
-
-wow-day-ico-001-prune stopped on one live link to KI-DESIGN-ICO-001, in its own untracked dispatch brief. The coordinator takes ICO-PRUNE-REFERENCE a) in substance under the 01:55 grant: the brief link is now plain text, untracked briefs are not references to repair, and wow-day-ico-001-prune-b reruns the preflight and prunes. The wow-day-ico-001-prune messages line is disposed of by this.
-
-## 2026-10-21 15:11 BST - contract revised, fresh reviews
-
-wow-day-contracts-b revised the draft against all three reviews (ACCEPT-AUTHORITY on the none footer with a defined declaration, recovery paths, descendant containment, wake split into a later build). Three fresh independent reviews (wow-day-contract-review-4 to -6) decide it under the "triple-checked approval while Kris is away" entry. GOV227-SCHEMA a) goes ahead as wow-day-gov227-schema.
-
 ## 2026-10-21 15:16 BST - contract accepted on two fixes; KI-DESIGN-ICO-001 pruned
 
-The second-round reviews (wow-day-contract-review-4 to -6) agree at high confidence: accept every For Kris decision and the precedence policy once RECONCILE-SURFACE (a distinct recovery namespace beside the existing `ki agent reconcile`) and PUSH-AUTHORITY (role-free `--rules` launches unchanged; `--authority` for role launches only) are fixed. Under the "triple-checked approval while Kris is away" entry that is Kris's approval of CONTRACT-ACCEPT, conditional on the fixes; wow-day-contracts-c makes them and marks the note accepted, after wow-day-gov227-schema, then one tools-ki run builds the first stage in the draft's order. KI-DESIGN-ICO-001 is pruned at e456873d; its last revision is 85a42bf1.
+CONTRACT-ACCEPT - 21 October 2026 15:16 BST: the [accepted contract](design/agent-control-contract.md) carries both fixes and the [14:46 approval](#2026-10-21-1446-bst---triple-checked-approval-while-kris-is-away); completed icon prune e456873d has last revision 85a42bf1.
 
 ## 2026-10-21 15:21 BST - tools-rig green, GOV-227 draft ready
 
-tools-rig v0.8.0 is green at a2bc1093 after the CI harness pin (wow-day-rig-ci-fix); tagging waits on Kris's RIG-RELEASE-REVIEW-BOUNDARY answer. The GOV-227 draft schema is ready for the short session with Kris (b617f1e7), with five decisions reserved for it.
+RIG-RELEASE / GOV227-SCHEMA - 21 October 2026 15:21 BST: [queries](queries.md) carries the release boundary and dossier; the [GOV-227 draft](design/gov-227-storage-schema.md) holds the five reserved owner decisions.
 
 ## 2026-10-21 15:27 BST - contract accepted, build and tags research
 
-wow-day-contracts-c settled RECONCILE-SURFACE (`ki agent recover inspect|resolve`) and PUSH-AUTHORITY and marked the contract accepted (03954f4c); wow-day-contract-build builds its first stage in tools-ki. The tags research stopped on its launch footer's no-remote rule; the coordinator takes its research-authority query a) under the 01:55 grant (read-only public web reading only) and relaunches it as wow-day-tags-research-b.
+CONTRACT / TAGS - 21 October 2026 15:27 BST: the [accepted contract](design/agent-control-contract.md), [tags draft](design/tags-model.md) and [queries](queries.md) carry the live work; contract acceptance was committed as 03954f4c.
 
 ## 2026-10-21 17:47 BST - contract build received, coverage continuation
 
@@ -264,15 +214,7 @@ wow-day-contract-build preserved the first-stage draft d6df59d9 on branch `wow-d
 
 ## 2026-10-21 18:19 BST - first stage integrated, implementation review
 
-wow-day-contract-coverage brought product coverage to 100% with thresholds unchanged and every gate passing, committed cb165c20 and fast-forwarded tools-ki local main; the full offline audit's failures reproduce on the unchanged baseline. Under the 01:55 grant the coordinator commissions three independent read-only implementation reviews (Codex xhigh, Opus 5.5, Fable 5.1) before routing the Harness alignment and native evidence work (CONTROL-EVIDENCE a), DEFAULTS-HANDOFF a)).
-
-## 2026-10-21 18:34 BST - implementation reviews, fix run
-
-The three independent implementation reviews split: review-1 (Codex xhigh) and review-2 (Opus 5.5) CHANGES NEEDED with seven reproduced blocking findings between them, including two regressions to role-free runs; review-3 (Fable 5.1) ACCEPT with advisories. The first stage is not accepted. Under the 01:55 grant the coordinator commissions wow-day-impl-fix to fix every blocking finding with regression tests and the small advisories, rerun all gates, then the same three reviewers re-review. tools-ki is neither tagged nor installed with this stage, so nothing live is affected.
-
-## 2026-10-21 19:04 BST - fix received, re-review
-
-wow-day-impl-fix fixed all seven blocking findings and the advisories in 166f0cbc, each with a regression test that failed on cb165c20 first; every gate passes, with 100% coverage. The same three reviewers now re-review the whole range. Its PUBLISH-OWN-FIX query is taken a) by the coordinator: publication waits until the re-review accepts, then one run checks that the range holds only this work's commits before a fast-forward push.
+CONTROL-EVIDENCE / DEFAULTS-HANDOFF - 21 October 2026 18:19 BST: delivery cb165c20 and the [accepted contract](design/agent-control-contract.md) carry the first stage; [state](state.md) carries independent review, native evidence and Harness alignment still to do.
 
 ## 2026-10-21 19:15 BST - re-review, second fix run
 
