@@ -336,3 +336,22 @@ wow-night-parked-queries-e struck the verified-overtaken parked demands and rout
 ## 2026-10-21 14:03 BST - received back, accelerate
 
 Kris: "ok - you are ok still exclusively the thread on all this, can you accelerate getting the roadmap items progressed" and "I'm here for 10 minutes so if you have some questions I'm happy to deal with those". Taken as: this thread still controls KI exclusively; the 01:55 grant stands; put the queries that unblock agent work first.
+
+## 2026-10-21 14:10 BST - owner answers
+
+Kris, in speech: "Release prep: I agree with your recommendations. Rig release version: I agree with your recommendations. The control contact I really like. So yeah, we'll go with the recommendations. And agree with the defaults contract as well. ... Grant interim: we go with recommendations and the OBS Act Visual. Yes, we go with that as well. You can come back to the site source one later. And then the OPS-014 render, I agree with the recommendations for that as well. We'll have to come back to the attended big checks on Solid Terror because I can't do those right now. And the Techne 006 review is going to need me later as well. I think on the design icons we can just go with it, and then I can take a look. ... on the Gov209 owner, I agree with the recommendations. Let's come back to Gov189 scope and And gov202 adopt as well. ... GOV227-schema, I agree with the recommendation on that, which is to do a short design session in its own work. The tags point, I think, needs a lot more review ... Maybe another check into better use of tags, also, how other systems work with tags as well would be interesting on that point. And also I think we need to come back on the emerging concepts as well."
+
+Read back as taken:
+
+- RELEASE-PREP a): prepare tools-ki v0.13.0, pinning the pushed Harness revision; Kris tags.
+- RIG-RELEASE-VERSION a): prepare tools-rig v0.8.0; Kris tags.
+- CONTROL-CONTRACT a) and DEFAULTS-CONTRACT a): the coordinator has the stop, dequeue, wake and launch-defaults contract drafted for Kris's acceptance, then one run builds it.
+- GRANT-INTERIM a): `--allow` ships in the tools-ki release; the interim sentence goes once it is installed.
+- OBS-ACT-VISUAL a): Kris makes the live KI-OBSERVA-BRG-005 check; the record stays awaiting review until then.
+- OPS-014-RENDER a): Kris runs the four client checks; the Observatory's dropped heading fragment is an accepted fallback.
+- DESIGN-ICONS: proceed to independent acceptance of KI-DESIGN-ICO-001 now ("just go with it"); Kris looks at the contact sheet afterwards and any redraw comes back as new work.
+- GOV209-OWNER a): ki-repo-kb-principal owns, requires and conforms the `+/_ACQUIRED/` scaffold; triage guidance in ki-repo-kb.
+- GOV227-SCHEMA a): a short design session in its own work; a run prepares a draft schema for it.
+- TAGS: not decided; a research run reviews better use of tags and how other systems use them, then the query returns.
+- Parked, come back later: SITE-SOURCE, RIG-ATTENDED, TECHNE-006-REVIEW, GOV189-SCOPE, GOV202-ADOPT, EMERGING.
+- Not yet answered: CANDIDATE-PRINCIPLES, STRUCTURE-TODOS.
