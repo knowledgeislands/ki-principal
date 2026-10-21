@@ -224,3 +224,7 @@ Read back as taken:
 ## 2026-10-21 02:06 BST - audit home and skip-and-continue (coordinator, under the 01:55 grant)
 
 The first queue runs stopped on prerequisites the planner's briefs set narrower than the standard: tools-ki stopped at its first unclear line (DEFAULTS-CONTRACT, left for Kris), and the Observatory found no prepared isolated audit home (AUDIT-HOME). Under Kris's 01:55 words "I'm happy for you to just make it all work", the coordinator took AUDIT-HOME b): a run prepares one offline isolated audit home from installed local material only, with no download or real-registry change, and the briefs name it. Multi-line runs now skip an unclear line, return it as a query and continue.
+
+## 2026-10-21 02:44 BST - CLI-140 remote authority (coordinator, under the 01:55 grant)
+
+`wow-night-cli-140-plan-b` returned REMOTE-AUTHORITY: its brief both forbade and required fetch and push. Under Kris's 01:55 grant ("get them pushed"), the coordinator took option b in a bounded form: evidence gathering stays offline, and integration may fetch and fast-forward push the run's own commits only, never with other sessions' commits stacked. `wow-night-cli-140-plan-c` carries the corrected brief, queued after `wow-night-tools-ki-release-candidate-b`, the last tools-ki writer.
