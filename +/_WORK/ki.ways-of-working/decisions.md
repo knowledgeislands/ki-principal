@@ -292,3 +292,7 @@ Coordinator, under the 01:55 grant, on the IMPORTANT messages line CLI-156-POLIC
 ## 2026-10-21 04:36 BST - BASELINE-SIZE
 
 Coordinator, answering BASELINE-SIZE a) from wow-night-rig-067-accept-c under "pre-existing warnings pass": the ITEM-2 missing size on KI-TOOL-RIG-CORE-047 and KI-TOOL-RIG-CORE-064 is passed; the acceptance reruns as wow-night-rig-067-accept-d.
+
+## 2026-10-21 04:41 BST - Principal receipts dispositions
+
+Coordinator, on wow-night-principal-queue-d (0b1a0c7f; 15 lines received, 25 pending): RECEIPT-WRITE-STOP a), its receipt is taken here and no line is appended; AUDIT-OUTSIDE-LANE a), the residual findings in other packages are routed to their owning work by the final Principal run, wow-night-parked-queries-d; BRING-UP-TOOLS, BRING-UP-OBSERVATORY and WORKTREE-GUIDANCE a), those lines stay pending for their owning work; the four OPS009 captures rerun in the tools-ki lane after its release candidate.
