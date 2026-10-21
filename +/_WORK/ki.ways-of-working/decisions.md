@@ -279,3 +279,7 @@ wow-day-contracts-c settled RECONCILE-SURFACE (`ki agent recover inspect|resolve
 ## 2026-10-21 17:47 BST - contract build received, coverage continuation
 
 wow-day-contract-build preserved the first-stage draft d6df59d9 on branch `wow-day-contract-build`; every gate passes except the 100% coverage threshold, so it was not integrated. Under Kris's 01:55 grant ("I'm happy for you to just make it all work") the coordinator takes COVERAGE-GATE a) (complete coverage in the preserved worktree, rerun all gates, then integrate) and RECORD-HOME b) (the accepted contract is the first-stage authority; no roadmap association, per CAPTURE-GATE), and launches wow-day-contract-coverage. CONTROL-EVIDENCE a) and DEFAULTS-HANDOFF a) wait until the first stage is verified and independently reviewed: then separate native-evidence runs and one Harness alignment line.
+
+## 2026-10-21 18:19 BST - first stage integrated, implementation review
+
+wow-day-contract-coverage brought product coverage to 100% with thresholds unchanged and every gate passing, committed cb165c20 and fast-forwarded tools-ki local main; the full offline audit's failures reproduce on the unchanged baseline. Under the 01:55 grant the coordinator commissions three independent read-only implementation reviews (Codex xhigh, Opus 5.5, Fable 5.1) before routing the Harness alignment and native evidence work (CONTROL-EVIDENCE a), DEFAULTS-HANDOFF a)).
