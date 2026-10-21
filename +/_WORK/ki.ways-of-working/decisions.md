@@ -228,3 +228,7 @@ The first queue runs stopped on prerequisites the planner's briefs set narrower 
 ## 2026-10-21 02:41 BST - CLI-140 remote authority (coordinator, under the 01:55 grant)
 
 `wow-night-cli-140-plan-b` returned REMOTE-AUTHORITY: its brief both forbade and required fetch and push. Under Kris's 01:55 grant ("get them pushed"), the coordinator took option b in a bounded form: evidence gathering stays offline, and integration may fetch and fast-forward push the run's own commits only, never with other sessions' commits stacked. `wow-night-cli-140-plan-c` carries the corrected brief, queued after `wow-night-tools-ki-release-candidate-b`, the last tools-ki writer.
+
+## 2026-10-21 02:43 BST - Rig planning preflight warnings (coordinator, under the 01:55 grant)
+
+`wow-night-rig-048-c` returned ROADMAP-PREFLIGHT: ki-plan stops on any audit warning, and tools-rig carries pre-existing warnings (no size on KI-TOOL-RIG-CORE-047, KI-TOOL-RIG-CORE-048 and KI-TOOL-RIG-CORE-064; no Capital checkout in the isolated registry). Under Kris's 01:55 grant ("make it all work"), the coordinator took the run's option a): each Rig planning unit may proceed past exactly those enumerated warnings, shaping its own size, leaving other records unchanged and registering Capital only in its copied audit home; any new warning or failure still stops it. `wow-night-rig-048-d` carries it, and the -c briefs for CORE-067 and CORE-056 carry the same line.
