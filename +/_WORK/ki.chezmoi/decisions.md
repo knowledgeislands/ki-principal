@@ -358,3 +358,8 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 
 - Pointer: Kris (01:22 BST): "ACCEPT - yes". Accept KB-DOTFILES-UE-098 and KI-TOOL-KI-CLI-165 under ki-work; run accept-records records the acceptance in each owning repository. KB-DOTFILES-UE-090 and KB-DOTFILES-UE-100 stay Awaiting review until their attended steps on terra and sol are done.
 - Coordinator (01:26 BST), ACCEPT-SCOPE a) within Decision 194: KI-TOOL-KI-CLI-165 was already accepted (tools-ki `fde00e97`) and pruned (`39f1a91d`) on 20 October, so it needs nothing; run accept-ue098 accepts KB-DOTFILES-UE-098 alone.
+
+## Decision 195 (2026-10-21T00:33:00Z)
+
+- Pointer: Kris (01:33 BST): "MATURITY - A)" — declare `maturity = "settled"` in chezmoi's `.ki.toml` `[skills.ki-repo]`; run maturity-accept commits it, then accepts KB-DOTFILES-UE-098 under Decision 194.
+- Pointer: Kris (01:33 BST): "TRUST-HELD - reopened it" — TRUST-HELD a); run trust-check re-reads Claude Desktop's folder list against the 76 declared, read-only.
