@@ -312,3 +312,7 @@ Coordinator: CANDIDATE-PREP from wow-night-tools-ki-release-candidate-d needs a 
 ## 2026-10-21 05:33 BST - tools-rig release to Kris
 
 wow-night-tools-rig-release-candidate-d found tools-rig main 63d1ac92 still at the development version after v0.7.0, with CORE-048, CORE-067 and CORE-056 accepted on it. Version choice and tagging stay with Kris under the 01:40 constraints, so the coordinator raised RIG-RELEASE-VERSION (recommended a: prepare v0.8.0) and closed the tools-rig lane for the night.
+
+## 2026-10-21 05:35 BST - CLI-140 to acceptance
+
+wow-night-cli-140 delivered KI-TOOL-KI-CLI-140 against its Ready plan with every gate green and handed it to independent review. Under the 01:55 grant the coordinator launches wow-night-cli-140-accept as the tools-ki writer. wow-night-cli-140-plan-c, released by the stalled queue, is superseded by the Writers designation and stops on it.
