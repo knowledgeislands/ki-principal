@@ -16,7 +16,7 @@ method_read: eff6163b
 - Writers, one per repository; a run not named here stops:
   - tools-ki: none (v0.13.0 ready for Kris to tag at 65e06273).
   - tools-rig: wow-day-rig-ci-fix (read the failing Audit logs, fix, green dossier).
-  - ki-design: wow-day-ico-001-prune.
+  - ki-design: wow-day-ico-001-prune-b.
   - ki-agentic-harness: none (KI-HARNESS-GOV-209 kept until its eight-principal rollout is homed, by a line to State of play).
   - ki-principal: wow-day-contracts-b, then wow-day-gov227-schema and wow-day-tags-research in turn.
 

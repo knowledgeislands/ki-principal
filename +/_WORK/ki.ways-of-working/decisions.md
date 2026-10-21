@@ -255,3 +255,7 @@ Under the 01:55 grant the coordinator takes PRINCIPLES-AUDIT a): the bounded Pil
 - CONTRACT-ACCEPT: the three reviews did not agree (two return ACCEPT-AUTHORITY and more for revision at high confidence, one accepts at medium), so the draft is not accepted; wow-day-contracts-b revises it, then three fresh reviews.
 - Prunes: KI-TOOL-KI-CLI-140 was already pruned in 0f8b15de; KI-DESIGN-ICO-001 has three agreeing prune verdicts (wow-day-ico-001-prune); KI-HARNESS-GOV-209 stays, because one review found its eight-principal conformance rollout unhomed.
 - CANDIDATE-PRINCIPLES and STRUCTURE-TODOS are delivered in Principles and Structure (wow-day-principles-structure-b).
+
+## 2026-10-21 15:05 BST - ICO-PRUNE-REFERENCE
+
+wow-day-ico-001-prune stopped on one live link to KI-DESIGN-ICO-001, in its own untracked dispatch brief. The coordinator takes ICO-PRUNE-REFERENCE a) in substance under the 01:55 grant: the brief link is now plain text, untracked briefs are not references to repair, and wow-day-ico-001-prune-b reruns the preflight and prunes. The wow-day-ico-001-prune messages line is disposed of by this.
