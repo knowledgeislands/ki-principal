@@ -240,3 +240,7 @@ The first queue runs stopped on prerequisites the planner's briefs set narrower 
 ## 2026-10-21 02:52 BST - tools-ki queue writer
 
 Coordinator, under the 01:55 grant: wow-night-tools-ki-queue-c was queued with the queue-b brief and stopped on WRITER-MISMATCH. The tools-ki queue runs as wow-night-tools-ki-queue-d from that brief renamed, launched directly, and every later tools-ki run is launched directly one at a time, so that no queued run becomes a second writer.
+
+## 2026-10-21 03:03 BST - Rig baseline allowance
+
+Coordinator, under the 01:55 grant, answering RIG-PREFLIGHT-WARNINGS a) and RIG-AUDIT-ACTIVATION from wow-night-rig-048-e: the Rig chain may pass the pre-existing warnings OWN-1 and MATURITY-1, leaving both files unchanged, and establishes its baseline by `ki repo repair` in its own isolated worktree at the exact main commit, with activation changes confined there and never committed. The primary checkout is never repaired. CORE-048 reruns as wow-night-rig-048-f.
