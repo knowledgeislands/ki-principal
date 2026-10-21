@@ -1,6 +1,6 @@
 ---
 note_type: pillars/index
-updated: 2026-10-19T07:00:00Z
+updated: 2026-10-21T13:51:58Z
 tags:
   - card/note
   - topic/knowledge-islands
@@ -144,10 +144,16 @@ Streams carry knowledge in motion: finite forward work, runs of recurring obliga
 
 ## Port
 
-> [!todo] Port The Port is the island's point of entry and exit - where incoming material arrives before being assessed and routed inward, and where outgoing material leaves. The inbound working area `+/` and the outbound working area `-/` are its two sides. It has four modes: the dock, the rail depot, the airport and the customs house ([GDR-KI-PRINCIPAL-010](../../../../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-010-the-port.md)). Nothing flows directly from the Port into the Library; all material is assessed first, relevant content routed to the right Stream or zone, the rest discarded. The Port's structural conventions are not yet fully specified.
+The Port is the island's point of entry and exit, as settled by [GDR-KI-PRINCIPAL-010](<../../../../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-010-the-port.md>). Incoming material arrives for assessment and routing inward; outgoing material is prepared to leave. The dock, rail depot, airport and customs house are four modes of one Port.
+
+The inbound working area `+/` and the outbound working area `-/` are its two sides. They remain separate and outside the five zones under the [top-level folder rules](<#top-level-folders>); neither carries a same-name index note or holds canonical knowledge. [Outbound](<../../../../../-/Outbound.md>) gives the outbound detail.
+
+Nothing flows directly from the Port into the Library. Incoming material is assessed before relevant content is routed to the appropriate Stream or zone. Staging in the Port grants neither acceptance nor permission to transfer material; the applicable governance and exchange rules still apply.
 
 ---
 
 ## Routes and Customs
 
 > [!todo] Routes and Customs Routes are the explicit pathways and relationships between zones and between islands. Customs is the jurisdictional layer at each boundary, controlling what passes between territories. Both need fuller specification as the model develops.
+
+The route paragraph in [Territories and Archipelagos - Knowledge exchange](<../../../Introduction/Concept/Territories and Archipelagos/Territories and Archipelagos.md#knowledge-exchange>) establishes that a governed relationship precedes its transport and distinguishes classification, permission and provenance. The `ki-trades` skill governs directional exchange records, authority, receipt and release between repositories.
