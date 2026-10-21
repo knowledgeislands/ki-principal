@@ -301,3 +301,7 @@ Re-reviews of 6c498f3a return Codex changes needed, Opus changes needed, Fable a
 ## 2026-10-21 23:27 BST - work opener button; rebase fixed
 
 Kris, on an Observatory work package explorer with a prompt-creator button serving the ki-coordination opener templates: "Would that make sense?", then "yes" to routing it as message lines to ki.observatory (button and explorer) and ki.tools-burndown (`ki work opener <id>`, one source for the templates) once the rebase cleared. On REBASE-STALL: "want to fix the rebase then also". wow-fix-rebase completed the stopped rebase at 23:30 (one queue-line union in `+/_WORK/ki/messages.md`, all 103 commits replayed, no push); local main is 103 ahead and 6 behind origin/main, other sessions' commits.
+
+## 2026-10-21 23:40 BST - fourth fix received, re-review
+
+Wow-day-impl-fix-4 fixed every blocking finding and advisory from the third re-review round at 6c4d2a1a and closed the class with a fault-injection matrix (22 flows, 505 mutation points, 3,568 injected fault cells, 1,002 SIGKILL cells; 2,018 tests, 100% coverage, all gates); three fresh blind reviewers re-review; publication waits for acceptance.
