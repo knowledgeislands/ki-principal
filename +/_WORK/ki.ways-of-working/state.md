@@ -4,7 +4,7 @@ state: with-worker
 since: 2026-10-21T13:11:36Z
 received: 2026-10-21T13:03:54Z
 beat: null
-mark: 2026-10-21T13:35:59Z
+mark: 2026-10-21T18:18:22Z
 method_read: eff6163b
 ---
 
@@ -12,19 +12,19 @@ method_read: eff6163b
 
 ## Now
 
-- 14:35 BST mark: CANDIDATE-PRINCIPLES and STRUCTURE-TODOS answered a); push state no longer goes in owner reports (decisions entry "push state out of reports"). Afternoon unattended run under the 01:55 grant continues.
+- 19:18 BST mark: first stage of the agent control contract in its second fix round (wow-day-impl-fix-2); wow-mark-strike-2 prunes the work folder and strikes decisions. Unattended run under the 01:55 and 14:46 grants continues.
 - Writers, one per repository; a run not named here stops:
   - tools-ki: wow-day-impl-fix-2 (second fix round on the first stage, from local main 166f0cbc; re-reviews 1 and 2 changes needed, 3 accept; v0.13.0 ready for Kris to tag at 65e06273).
   - tools-rig: none (v0.8.0 green at a2bc1093; tagging waits on RIG-RELEASE-REVIEW-BOUNDARY).
   - ki-design: none (KI-DESIGN-ICO-001 pruned).
   - ki-agentic-harness: none (KI-HARNESS-GOV-209 kept until its eight-principal rollout is homed, by a line to State of play).
-  - ki-principal: none. wow-day-tags-research-b runs read-only and writes nothing in the repository.
+  - ki-principal: wow-mark-strike-2 (work folder prune and decisions strike; the coordinator writes nothing in decisions.md or the work folder outside state.md until it finishes).
 
 ## Next steps
 
-- Coordinator, while Kris is away (decisions entry "triple-checked approval while Kris is away"): settle CONTRACT-ACCEPT on three agreeing reviews (wow-day-contract-review-1 to -3), then commission the tools-ki build; once the ICO-001 acceptance and push-reporting finish, triple-check the accepted records (KI-TOOL-KI-CLI-140, KI-HARNESS-GOV-209, KI-DESIGN-ICO-001) and prune them.
-- Kris: the live KI-OBSERVA-BRG-005 check, the four KI-PRINCIPAL-OPS-014 client render checks and a look at the KI-DESIGN-ICO-001 contact sheet, when at a screen; a short GOV-227 schema session on the ready draft (design/gov-227-storage-schema.md, five decisions); tag the two releases from their dossiers.
-- Coordinator: launch the writers above, accept the contracts draft with Kris, then one tools-ki run builds it; remove the GRANT-INTERIM sentence once the tools-ki release is installed.
+- Coordinator: receive wow-day-impl-fix-2, then three fresh blind re-reviews; on acceptance one run checks the unpushed tools-ki range holds only this work's commits and pushes fast-forward, then one Harness alignment line and the native-evidence runs (CONTROL-EVIDENCE a), DEFAULTS-HANDOFF a)).
+- Coordinator: receive wow-mark-strike-2; prune KI-HARNESS-GOV-209 once State of play homes its rollout; remove the GRANT-INTERIM sentence once tools-ki v0.13.0 is installed.
+- Kris: TOOLSKI-TAG, RIG-RELEASE-REVIEW-BOUNDARY and TAGS; the live KI-OBSERVA-BRG-005 check, the four KI-PRINCIPAL-OPS-014 render checks and the KI-DESIGN-ICO-001 contact sheet; a GOV-227 session on design/gov-227-storage-schema.md (five decisions); the seven parked queries.
 - Blocked: KI-PRINCIPAL-ECO-013 re-review on other works' audits; KI-HARNESS-GOV-224's follow-up with ki.observatory.
 
 ## Held
