@@ -264,3 +264,7 @@ Coordinator, under the 01:55 grant: the queue dispatcher has stopped advancing, 
 ## 2026-10-21 03:44 BST - tools-ki candidate after CLI-156
 
 Coordinator, under the 01:55 grant, answering CANDIDATE-ORDER a) from wow-night-tools-ki-release-candidate-c: the tools-ki release candidate is prepared only after CLI-140 planning, CLI-156 delivery and its independent acceptance have landed on local main, as wow-night-tools-ki-release-candidate-d.
+
+## 2026-10-21 03:47 BST - audit home registries
+
+Coordinator, under the 01:55 grant, answering AUDIT-REGISTRIES a) from wow-night-cli-140-plan-d and OPS009-PREFLIGHT's cause from wow-night-tools-ki-queue-d: wow-night-audit-home-registries documents local-only Capital and territory registration in a copied audit home and proves a roadmap audit without ITEM-2 warnings; CLI-140 planning then reruns as wow-night-cli-140-plan-e.
