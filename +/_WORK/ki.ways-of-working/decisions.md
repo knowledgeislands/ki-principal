@@ -316,3 +316,7 @@ wow-night-tools-rig-release-candidate-d found tools-rig main 63d1ac92 still at t
 ## 2026-10-21 05:35 BST - CLI-140 to acceptance
 
 wow-night-cli-140 delivered KI-TOOL-KI-CLI-140 against its Ready plan with every gate green and handed it to independent review. Under the 01:55 grant the coordinator launches wow-night-cli-140-accept as the tools-ki writer. wow-night-cli-140-plan-c, released by the stalled queue, is superseded by the Writers designation and stops on it.
+
+## 2026-10-21 05:45 BST - OPS009-PREFLIGHT settled a)
+
+wow-night-cli-140-accept accepted KI-TOOL-KI-CLI-140 (1f2ad8de). Under the 01:55 grant the coordinator settles OPS009-PREFLIGHT with its recommended a): a copied isolated audit home registers the Capital and every territory the roadmap preflight needs, including humans-not-robots, and wow-night-ops009-captures issues the four approved capture-only OPS009-SPLIT records as the tools-ki writer. The query leaves queries.md once the captures land.
