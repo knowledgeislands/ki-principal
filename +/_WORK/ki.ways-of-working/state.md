@@ -22,6 +22,7 @@ method_read: eff6163b
 
 ## Next steps
 
+- Coordinator, while Kris is away (decisions entry "triple-checked approval while Kris is away"): settle CONTRACT-ACCEPT on three agreeing reviews (wow-day-contract-review-1 to -3), then commission the tools-ki build; once the ICO-001 acceptance and push-reporting finish, triple-check the accepted records (KI-TOOL-KI-CLI-140, KI-HARNESS-GOV-209, KI-DESIGN-ICO-001) and prune them.
 - Kris: the live KI-OBSERVA-BRG-005 check, the four KI-PRINCIPAL-OPS-014 client render checks and a look at the KI-DESIGN-ICO-001 contact sheet, when at a screen; a short GOV-227 schema session once the draft is ready; tag the two releases from their dossiers.
 - Coordinator: launch the writers above, accept the contracts draft with Kris, then one tools-ki run builds it; remove the GRANT-INTERIM sentence once the tools-ki release is installed.
 - Blocked: KI-PRINCIPAL-ECO-013 re-review on other works' audits; KI-HARNESS-GOV-224's follow-up with ki.observatory.
