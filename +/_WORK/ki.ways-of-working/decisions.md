@@ -320,3 +320,7 @@ wow-night-cli-140 delivered KI-TOOL-KI-CLI-140 against its Ready plan with every
 ## 2026-10-21 05:45 BST - OPS009-PREFLIGHT settled a)
 
 wow-night-cli-140-accept accepted KI-TOOL-KI-CLI-140 (1f2ad8de). Under the 01:55 grant the coordinator settles OPS009-PREFLIGHT with its recommended a): a copied isolated audit home registers the Capital and every territory the roadmap preflight needs, including humans-not-robots, and wow-night-ops009-captures issues the four approved capture-only OPS009-SPLIT records as the tools-ki writer. The query leaves queries.md once the captures land.
+
+## 2026-10-21 05:55 BST - captures landed, parked queries next
+
+wow-night-ops009-captures issued KI-TOOL-KI-CLI-168, -169, -170 and -171 as unadopted triage captures, so OPS009-PREFLIGHT leaves queries.md and the tools-ki lane is complete for the night. Under the 01:55 grant the coordinator settles AUDIT-OUTSIDE-LANE with its recommended a), keeping the scoped commit and routing residual whole-repository findings as lines in the owning works' messages.md, and launches wow-night-parked-queries-d as the ki-principal writer to do that and strike verified-overtaken parked queries.

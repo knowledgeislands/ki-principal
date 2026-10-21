@@ -224,24 +224,6 @@ b) Defer the remaining controls and retain the verified repository-resolution, q
 
 From wow-night-tools-ki-queue-d, 2026-10-21 03:41 BST.
 
-### OPS009-PREFLIGHT - Four capture requests
-
-**Context**
-
-The required ki-next roadmap preflight returns ITEM-2 WARN because territory humans-not-robots is not available in the local registry. Registering Knowledge Islands Principal in this run's copied audit home removed the Capital-availability warning but did not resolve this foreign territory. The capture procedure stops on any roadmap warning. All four approved slices were checked against the existing queue and issuing ledger and stopped before allocation; the CLI high-water mark remains 167. No capture, adoption, implementation or provider action occurred. [Exact preflight evidence](/Users/krisbrown/.local/state/ki/agents/ways-of-working/wow-night-tools-ki-queue-d.capture-roadmap-audit.log).
-
-**Query**
-
-How should the missing foreign-territory prerequisite be supplied so the four already-approved capture-only requests can proceed?
-
-**Options**
-
-a) (recommended, confidence high - resolves the explicit preflight requirement without bypassing a gate) Supply the readable registered Capital evidence in an isolated audit home, then redispatch the four distinct capture-only slices with their exact manifest and recoverable-copy gates.
-
-b) Keep all four requests queued until that territory registry is available.
-
-From wow-night-tools-ki-queue-d, 2026-10-21 03:41 BST.
-
 ### RELEASE-PREP - Version and Harness pin for the next tools-ki release
 
 **Context:** wow-night-tools-ki-release-candidate-d ([report](/Users/krisbrown/.local/state/ki/agents/ways-of-working/wow-night-tools-ki-release-candidate-d.report.md)) found no releasable candidate: tools-ki main `566679b2` still declares `0.12.0`, which is already tagged; the range since `v0.12.0` holds 60 commits, some of them breaking; and tools-ki pins Harness `f4d6c521`, while newer Harness work is local and unpushed behind other sessions' commits. A candidate needs a version bump, a pushed Harness revision to pin, migration notes and fresh exact-head CI. KI-TOOL-KI-CLI-140 delivery runs next in the same lane and would join this release.
