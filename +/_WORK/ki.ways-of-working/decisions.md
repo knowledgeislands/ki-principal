@@ -112,9 +112,7 @@ Kris, 20 October, granting overnight acceptance: "if you can quickly now accept 
 
 ## 2026-10-20 22:03 BST - self-serve burndown
 
-Kris: "Is there anything more that you can do by yourself without me? To try and get that vote back down before I re-open lots of other threads? ... roadmap down"
-
-Taken as: "vote" read as "load". Carry the overnight burndown on with only what needs nothing from Kris: independently reviewed acceptances of records already awaiting review (KI-HARNESS-GOV-219, KI-HARNESS-GOV-224) under the 20 October acceptance grant, the ECO-013 audit recheck, this work's design-note graduation, and a read-only sweep of every remaining roadmap for records workable without Kris, delivered on its findings. The 19 queries stay with Kris; other sessions' stacked commits stay unpushed.
+SELF-SERVE-BURNDOWN - Kris, 20 October 2026, 22:03 BST: "Is there anything more that you can do by yourself without me? To try and get that vote back down before I re-open lots of other threads? ... roadmap down" Live work is carried in [state.md](state.md) under the [01:55 grant](#2026-10-21-0155-bst---overnight-run-through-grant).
 
 ## 2026-10-20 23:13 BST - query sign-offs, first answers
 
@@ -128,23 +126,11 @@ Kris: "Yes to all these: FOOTER-PROVISIONALS ... SPEC-SKETCH ... RIG-053-SHAPE .
 
 Taken as: a) on FOOTER-PROVISIONALS, SPEC-SKETCH, RIG-053-SHAPE, PLAN067-READY, DESIGN-DISPOSITIONS, TOOLS-KI-SHAPES, GOV225-CLOSE, OPS009-SPLIT (this grant lifts the capture gate for the split only), CALENDAR-LIBRARY and LAYER-PATHS. ENACTMENT-ADMIN: Kris means "Admin only" - the Enactment gate covers `Admin/` alone and Pillars and Resources leave it, which supersedes SDR-KI-PRINCIPAL-002's gate and rewrites AGENTS.md, the Enactment Process and the portable model; it goes to one blind review before any edit. EMERGING and STRUCTURE-TODOS were not in this batch and stay open.
 
-## 2026-10-20 23:29 BST - messages: TOOLS-KI-SHAPES harness line
-
-The tools-ki sign-off run left a line here: make CLEAN-1 to CLEAN-7 mechanical in the harness ki-git catalogue under KI-TOOL-KI-CLI-140. Covered by Kris's TOOLS-KI-SHAPES a); launched as wow-harness-clean after the GOV-225 acceptance, with the State of play form request (State of play's queue is `+/_WORK/ki/messages.md`, not the path the first brief guessed). Line removed.
-
 ## 2026-10-20 23:30 BST - ENACTMENT-ADMIN
 
 Kris: "ENACTMENT-ADMIN ok lets go safe with a) but we will need to consider it soon"
 
 Taken as: a) after blind review. The gate stays on Admin, Pillars and Resources (SDR-KI-PRINCIPAL-004); the portable gate statements name `Admin/` alongside them, the Great Library's section stays Pillars-only, and the island's Enactment Process widens the owner-instruction stand-in so one approved scope covers a batch of related edits. No new decision record, no harness change. Narrowing the gate (the tiered or Admin-only options) stays open and comes back to Kris soon, carried as an open point in state.md, not a record.
-
-## 2026-10-20 23:42 BST - GOV-225 baseline evidence
-
-The GOV-225 acceptance review passed on substance but stopped on `baseline_ref: null`, raising GOV225-BASELINE. Covered by Kris's GOV225-CLOSE a) ("Closes the hook content-claims record after a final review") and the 20 October acceptance grant: a repair run establishes the baseline from verifiable Git evidence only (no inference), then a fresh independent acceptance. Not raised to Kris.
-
-## 2026-10-21 00:00 BST - GOV-225 third acceptance
-
-The second acceptance stopped on HARNESS-PRIMARY-LEAK: ki.chezmoi's hooks-tools run leaked test fixtures into the harness's shared .git at 23:55. That run has since restored the primary (main at 35ba5120, core.bare=false, fixture identity removed), confirmed by the coordinator. Not raised to Kris: a third acceptance runs with that evidence and leaves the hooks work's fixture branches alone.
 
 ## 2026-10-21 01:40 BST - overnight answers and mark
 
@@ -189,10 +175,6 @@ Coordinator, under the 01:55 grant, answering AUDIT-BASELINE a) from wow-night2-
 ## 2026-10-21 04:41 BST - Principal receipts dispositions
 
 BRING-UP-TOOLS, BRING-UP-OBSERVATORY and WORKTREE-GUIDANCE - 21 October 2026: pending with [ki.tools-burndown](../ki.tools-burndown/messages.md) (BRING-UP-LEFTOVER, WORKTREE-FIXES) and [ki.observatory](../ki.observatory/messages.md) (BRING-UP-LEFTOVER); receipts and residual audit routing are homed in commits `0b1a0c7f` and `8a3b8c1c`.
-
-## 2026-10-21 05:58 BST - CHECKOUT-SAFETY briefs exemption
-
-wow-night-parked-queries-d stopped because ki-principal's primary checkout held 88 untracked dispatch briefs and nothing else. The briefs are the coordinator's own uncommitted working files. Under the 01:55 grant the coordinator takes CHECKOUT-SAFETY b): wow-night-parked-queries-e carries a bounded exemption for those briefs alone, and any other change still stops it.
 
 ## 2026-10-21 14:03 BST - received back, accelerate
 
