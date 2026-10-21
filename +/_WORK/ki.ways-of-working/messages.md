@@ -1,3 +1,5 @@
 # ki.ways-of-working messages
 
 - IMPORTANT · 2026-10-21 · DEPCRUISE-PATH · Personal > Tower (kb.regular.site-tower): Kris, 22:56 BST: "add the request as an important one into the KIGENTIC harness … I'll pick that up on another machine." Rename the dependency-cruiser install folder `tooling/boundaries` to `tooling/depcruise` in ki-engineering (SKILL.md `requires:`, `scripts/rubric/contexts/boundaries.ts`, `standards-engineering.md`, `references/sources.md`, DESIGN-2's `prepare` check), then migrate every KI repository that has it, ideally through `ki repo conform`. apps-tower.midnight.ninja has already moved (`32c99fa`) and fails DESIGN-2 until then.
+
+- 2026-10-21 · AUDIT-OUTSIDE-LANE · KI > Model > Ways of working: Residual LIFECYCLE-3, RECORD-2 in `queries.md`, `state.md`. [Findings](</Users/krisbrown/.local/state/ki/agents/ways-of-working/wow-night-parked-queries-e.proof/route-ki.ways-of-working.md>); [audit log](</Users/krisbrown/.local/state/ki/agents/ways-of-working/wow-night-principal-queue-d.coordination-postcommit.txt>). Please review in the owning work; no repair made here.
