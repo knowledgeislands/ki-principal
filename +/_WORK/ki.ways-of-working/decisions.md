@@ -252,3 +252,7 @@ Coordinator, under the 01:55 grant, answering RIG-PLAN-GATE a) from wow-night-ri
 ## 2026-10-21 03:19 BST - BRG-006 private serving instance
 
 Coordinator, under the 01:55 grant, answering OBS-BRG-006-SERVING-REVISION a) from wow-night-brg-006-accept-b: the acceptance run proves the serving revision by starting its own loopback-only Observatory instance from a clean worktree at the candidate commit, without touching the shared service, and stops it afterwards. Acceptance reruns as wow-night-brg-006-accept-c.
+
+## 2026-10-21 03:24 BST - runs fix their own setup
+
+Coordinator, under the 01:55 grant, answering OBS-BRG-006-BASELINE-DEPS a) from wow-night-brg-006-accept-c, and extending the Rig rule of the same night to every overnight run: a stop-at-first-red-gate rule covers failures a run did not cause; a run fixes failures of its own setup or its own uncommitted work and continues. Acceptance reruns as wow-night-brg-006-accept-d.
