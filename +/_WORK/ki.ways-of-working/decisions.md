@@ -259,3 +259,7 @@ Under the 01:55 grant the coordinator takes PRINCIPLES-AUDIT a): the bounded Pil
 ## 2026-10-21 15:05 BST - ICO-PRUNE-REFERENCE
 
 wow-day-ico-001-prune stopped on one live link to KI-DESIGN-ICO-001, in its own untracked dispatch brief. The coordinator takes ICO-PRUNE-REFERENCE a) in substance under the 01:55 grant: the brief link is now plain text, untracked briefs are not references to repair, and wow-day-ico-001-prune-b reruns the preflight and prunes. The wow-day-ico-001-prune messages line is disposed of by this.
+
+## 2026-10-21 15:11 BST - contract revised, fresh reviews
+
+wow-day-contracts-b revised the draft against all three reviews (ACCEPT-AUTHORITY on the none footer with a defined declaration, recovery paths, descendant containment, wake split into a later build). Three fresh independent reviews (wow-day-contract-review-4 to -6) decide it under the "triple-checked approval while Kris is away" entry. GOV227-SCHEMA a) goes ahead as wow-day-gov227-schema.
