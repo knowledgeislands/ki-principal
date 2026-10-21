@@ -283,3 +283,7 @@ wow-day-contract-build preserved the first-stage draft d6df59d9 on branch `wow-d
 ## 2026-10-21 18:19 BST - first stage integrated, implementation review
 
 wow-day-contract-coverage brought product coverage to 100% with thresholds unchanged and every gate passing, committed cb165c20 and fast-forwarded tools-ki local main; the full offline audit's failures reproduce on the unchanged baseline. Under the 01:55 grant the coordinator commissions three independent read-only implementation reviews (Codex xhigh, Opus 5.5, Fable 5.1) before routing the Harness alignment and native evidence work (CONTROL-EVIDENCE a), DEFAULTS-HANDOFF a)).
+
+## 2026-10-21 18:34 BST - implementation reviews, fix run
+
+The three independent implementation reviews split: review-1 (Codex xhigh) and review-2 (Opus 5.5) CHANGES NEEDED with seven reproduced blocking findings between them, including two regressions to role-free runs; review-3 (Fable 5.1) ACCEPT with advisories. The first stage is not accepted. Under the 01:55 grant the coordinator commissions wow-day-impl-fix to fix every blocking finding with regression tests and the small advisories, rerun all gates, then the same three reviewers re-review. tools-ki is neither tagged nor installed with this stage, so nothing live is affected.

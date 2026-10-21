@@ -14,7 +14,7 @@ method_read: eff6163b
 
 - 14:35 BST mark: CANDIDATE-PRINCIPLES and STRUCTURE-TODOS answered a); push state no longer goes in owner reports (decisions entry "push state out of reports"). Afternoon unattended run under the 01:55 grant continues.
 - Writers, one per repository; a run not named here stops:
-  - tools-ki: none (first stage on local main at cb165c20, under independent review by wow-day-impl-review-1 to -3; v0.13.0 ready for Kris to tag at 65e06273).
+  - tools-ki: wow-day-impl-fix (seven blocking review findings on the first stage at cb165c20; v0.13.0 ready for Kris to tag at 65e06273).
   - tools-rig: none (v0.8.0 green at a2bc1093; tagging waits on RIG-RELEASE-REVIEW-BOUNDARY).
   - ki-design: none (KI-DESIGN-ICO-001 pruned).
   - ki-agentic-harness: none (KI-HARNESS-GOV-209 kept until its eight-principal rollout is homed, by a line to State of play).
