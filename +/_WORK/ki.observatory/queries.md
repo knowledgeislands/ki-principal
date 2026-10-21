@@ -2,6 +2,8 @@
 
 ## Open
 
+None.
+
 ## Parked
 
 - ACCEPT - sixteen records Awaiting review for Kris to accept: KI-OBSERVA-VIS-043, BRG-006, APP-045, VIS-044, VIS-041, APP-046, VIS-022; KI-WEBSITE-SITE-044; KI-DESIGN-TOK-001, MAP-001, OBS-015, ICO-001, SYM-001, TIL-001 (new glyphs on packages/icons/contact-sheet.png); plus the Claude chat's KI-OBSERVA-VIS-027 and BRG-005. Recommended: accept after review; a service restart is due first.
