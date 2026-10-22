@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
-state: with-worker
-since: 2026-10-22T06:42:00Z
+state: with-supervisor
+since: 2026-10-22T07:49:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-21T22:56:00Z
@@ -13,7 +13,7 @@ method_read: beb56729
 ## Now
 
 - ghostty-tabs done: `territory-set [code]` opens the standard three tabs and runs once at Ghostty launch (`557af1d`); target `~/.zsh/60_territory` goes in APPLY-PLAN.
-- apply-plan (run `chezmoi`) builds one staged, verified terra apply plan replacing RIG-APPLY, STARSHIP-APPLY and ZED-FONT-APPLY, with Warp's attended stage; warp-retire-blind found the pending applies overlap and Ghostty has no sidebar view.
+- apply-plan done: one staged terra plan (APPLY-PLAN, high, with Kris) replaces RIG-APPLY, STARSHIP-APPLY, ZED-FONT-APPLY and WARP-RETIRE timing; warp-retire-blind found the pending applies overlap and Ghostty has no sidebar view.
 - radar-design done: ring needs tools-rig to reach doctor and the site; RADAR-DESIGN with Kris (high); RADAR-PUBLIC reviewed (high) and with Kris. terminal-retire done (Ghostty primary in source, `territory` function, Warp retired in source, iTerm2 trashed on terra; WARP-RETIRE in blind review: warp-retire-blind); starship-classic done (`classic` choice and `--all` in source, no extra apply targets); zed-nerd-font done (symbols-only Nerd Font as Zed's terminal fallback, in source; ZED-FONT-APPLY with Kris).
 - handover-route done (Decision 206): NORDVPN-HOLD, FW-EXPOSURE, HANDLER-FAIL to ki.mac-studio-setup (`30018774`), HOOK-ROLLOUT to ki.tools-burndown (`ee440eef`); TOWER-MOVE is kb.regular.site-tower's; all 'unpushed' commits were already on origin; both receiving works are on hold. route-2 done: RIG-APP-FOOTPRINT (important) to ki.mac-studio-setup (`7f70fb40`), TOWER-PATH-WAIT to kb.regular.site-tower (`c9fac6b`), SITE-REVIEW to kb.regular.personal-rig (`74d17e6`), all pushed.
 - orca-eval done: Orca replaces Zed's Delta app; partly CodexBar, GitHub Desktop, Codex app; not Zed or Ghostty; telemetry on and agent permission bypass by default; ORCA-ADOPT reviewed and with Kris.
@@ -35,7 +35,7 @@ method_read: beb56729
 
 ## Next steps
 
-1. On terra: RIG-APPLY (combined apply, `rig doctor` after); once kb.regular.site-tower's attended move to `/Applications` is done, a short follow-up moves the artefact and Dock path (TOWER-PATH a).
+1. On terra: APPLY-PLAN stage 1 (installs and scoped apply), stage 2 Warp retirement when Ghostty has proved itself, stage 3 handlers and Dock when the hold lifts; once kb.regular.site-tower's attended move to `/Applications` is done, a short follow-up moves the artefact and Dock path (TOWER-PATH a).
 2. On terra: pull chezmoi, then remove Shadowlab Spark with Kris at the machine: `rig doctor` before; scoped diff then apply of `~/.config/rig/conf.d/10-applications.toml` only; open Spark, Stop Spark Daemon, quit; check the cask receipt, then `brew uninstall --cask --zap spark-app`, `defaults delete com.xenonium.Spark`, and Kris removes `~/Library/Group Containers/3DT6DNJE39.com.xenonium.Spark`; verify bundle, cask, login item and helper absent, `rig doctor` after. Never touch readdle-spark or Spark Desktop.
 3. Attended steps for KB-DOTFILES-UE-090 and KB-DOTFILES-UE-100 on terra and sol, then their acceptance.
 4. TRUST-COMPLETE (Decision 187): record it as a chezmoi Decision Record.
