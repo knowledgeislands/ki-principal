@@ -7,7 +7,7 @@ theme: model
 lifecycle: active
 lead: Kris Brown
 target: null
-updated: 2026-10-22T01:57:26Z
+updated: 2026-10-22T02:11:53Z
 author: Mixed
 ---
 
@@ -63,6 +63,7 @@ Retained under the coordinator's 22 October narrowing to the delivered minimal c
 - Idea: **trade-routes layer.** Add trade routes to the Known Lands chart, preserving every exchange and the existing route detail. Wait for the instrument-restructure decision to settle whether and how the tabs converge, then Kris's separate approval of this consolidation in the reskinned Observatory. Keep `?view=trade-routes` reachable through a redirect to Known Lands with the routes layer on, and preserve the route map's width containment.
 - Idea: **Activity split.** Put Activity's "what changed" on the Beacon and its 7, 14 and 30-day window on the chart as a time control, preserving every current change, window and reader. Wait for the instrument-restructure decision and Kris's separate approval of this consolidation in the reskinned Observatory. Keep `?view=activity` reachable through a redirect to the Beacon. Activity also supplies commit authors to Workers: coordinate changes to their shared reader, and do not land the split and Workers in the same change.
 - Idea: **stored positions.** Retain Kris's 19 October DESIGN-POSITIONS a) decision: any future positions are a host preference under XDG state, read and written behind the backend, with the browser kept away from the filesystem. Positions were reserved for Kris's designs and excluded from the delivered chart and interaction; implementing them waits for his separate go. The narrowing grants no implementation authority.
+- Idea: **island condition.** Replace the chart's explicit unknown condition with a projection of each island's declared maturity and its audit-health decline or ruin from the existing `ki/territory/v1` `maturity` and `health` fields. The harness maturity scale and tools-ki contract have landed; the open question is the Observatory's mapping of that evidence onto the chart, not an absent upstream dependency. Preserve CONDITION-TOML: maturity is declared in `.ki.toml`, decline comes from audit health, and neither is inferred from commit age. Keep unavailable or undeclared evidence explicit. This is the durable home for the 21 October ISLAND-CONDITION follow-up formerly routed to the Known Lands delivery record; the minimal chart remains awaiting review with condition unknown, and this idea needs separate approval before implementation.
 
 **Retained visual follow-up for Kris.** The chart's current look remains provisional under his 20 October approval to build ahead of his designs. Open Known Lands and inspect reef and lantern sizes, fixed-width focus and selection rings, detail below the chart and Page Up / Page Down navigation. Keep this attended check for the next visual review; narrowing the delivered stage does not claim that Kris has performed it or remove his later redesign.
 
