@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
-state: handoff-to-supervisor
-since: 2026-10-22T00:41:00Z
+state: with-worker
+since: 2026-10-22T00:45:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-21T22:56:00Z
@@ -12,6 +12,7 @@ method_read: beb56729
 
 ## Now
 
+- orca-install (run `chezmoi`) is vetting and declaring Orca for evaluation on terra, stopping at the diff gate (Decision 199).
 - nudge-remove done (Decision 198): the old app (`uk.me.kris.tower-save-nudge`) is gone from terra: Trash bundle, `~/.cache/tower-save-nudge/`, its defaults domain and Launch Services registration. Left: possible old TCC grant (tccutil could not resolve it; Kris removes by hand), the retired LaunchAgent's log, the `tower-save-nudge` job names on purpose, and the old "Tower Save Nudge" signing certificate (cert-review: safe to delete, high confidence; OLD-CERT with Kris). Terra `rig doctor` 4: `.toml` handler, firewall exposure, the 19 October handler failure, and new `dock.workstation` drift from Kris pinning Tower Assistant, which he wants; declare it in the Dock with the `/Applications` path change.
 - tower-cutover blocked at the signing identity (TOWER-STEPS with Kris). Its terra `rig doctor` before: 3 findings, none Tower: `.toml` handler drifted (Warp, declared Zed); `firewall.screen-sharing-tailnet` drifted, exposed beyond the tailnet; the 19 October handler apply failure behind the first. Old app idle, nudging paused, no Tower LaunchAgent; build test passed; no changes made.
 - VS Code workspaces rebuilt with `ki`, committed and applied on sol (Decision 184); the trust change also feeds the Claude Desktop config and `~/bin/rig-bringup-check`, now applied.

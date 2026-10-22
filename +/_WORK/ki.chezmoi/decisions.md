@@ -337,3 +337,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 198 (2026-10-22T00:25:00Z)
 
 - Pointer: Kris (01:25 BST): find and delete the old Tower Save Nudge app and its remnants on terra (he trashed the bundle himself), and ask the Tower thread for an in-app permissions setup panel. Read back as: run nudge-remove deletes only the old bundle's remnants, leaves Tower Assistant and the `tower-save-nudge` job names alone, and runs `rig doctor` after; TOWER-APP-PERMS sent to kb.regular.site-tower (personal-principal `47364af`, pushed).
+
+## Decision 199 (2026-10-22T00:45:00Z)
+
+- Pointer: Kris (01:45 BST): "<https://github.com/stablyai/orca> I want to evaluate this. Can you add it to the rig and install it so we can see what it looks like?" Read back as: run orca-install vets Orca, declares it in Rig as an evaluation tool, commits the source and stops at the `chezmoi diff` gate with a scoped apply and install for Kris to approve; no general `rig apply` while RIG-CASKS holds.
