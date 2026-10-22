@@ -12,7 +12,7 @@ method_read: beb56729
 
 ## Now
 
-- nudge-remove (run `chezmoi`) is deleting the old Tower Save Nudge app's remnants on terra, then `rig doctor` after (Decision 198).
+- nudge-remove done (Decision 198): the old app (`uk.me.kris.tower-save-nudge`) is gone from terra: Trash bundle, `~/.cache/tower-save-nudge/`, its defaults domain and Launch Services registration. Left: possible old TCC grant (tccutil could not resolve it; Kris removes by hand), the retired LaunchAgent's log, the `tower-save-nudge` job names on purpose, and the old "Tower Save Nudge" signing certificate (cert-review running, blind review before any query). Terra `rig doctor` 4: `.toml` handler, firewall exposure, the 19 October handler failure, and new `dock.workstation` drift from Kris pinning Tower Assistant, which he wants; declare it in the Dock with the `/Applications` path change.
 - tower-cutover blocked at the signing identity (TOWER-STEPS with Kris). Its terra `rig doctor` before: 3 findings, none Tower: `.toml` handler drifted (Warp, declared Zed); `firewall.screen-sharing-tailnet` drifted, exposed beyond the tailnet; the 19 October handler apply failure behind the first. Old app idle, nudging paused, no Tower LaunchAgent; build test passed; no changes made.
 - VS Code workspaces rebuilt with `ki`, committed and applied on sol (Decision 184); the trust change also feeds the Claude Desktop config and `~/bin/rig-bringup-check`, now applied.
 - drift-apply applied all eight drifted targets on sol (Decision 185); `chezmoi status` clean, `rig doctor` 4 before and after (attended only). Claude Desktop keeps 102 undeclared trust grants (88 for paths that no longer exist): Kris chose to revoke all 102 (Decision 186); trust-revoke did so, but running Claude Desktop rewrote them back (TRUST-RETURNED, with Kris); the monthly scan now lists undeclared grants (chezmoi `a3a9dda`).
@@ -30,7 +30,7 @@ method_read: beb56729
 
 ## Held
 
-- Tower Assistant path change in the Rig declaration and save-nudge wrapper - until kb.regular.site-tower moves the install to `/Applications` (Decision 197).
+- Tower Assistant path change in the Rig declaration, save-nudge wrapper and `dock.workstation` (add it to the Dock) - until kb.regular.site-tower moves the install to `/Applications` (Decision 197).
 - Sol's `rig doctor` findings (handler, firewall anchor range, UTM source) - until Kris is at the machine.
 - Both-Mac Rig apply - until Kris lifts it.
 - The attended NordVPN trial - until a tested restore path exists (KI-TOOL-RIG-CORE-068).
