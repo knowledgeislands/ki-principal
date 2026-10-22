@@ -12,6 +12,7 @@ method_read: beb56729
 
 ## Now
 
+- ghostty-tabs (run `chezmoi`) adds Kris's standard three Ghostty tabs: active territory, `~/workspaces`, chezmoi source.
 - apply-plan (run `chezmoi`) builds one staged, verified terra apply plan replacing RIG-APPLY, STARSHIP-APPLY and ZED-FONT-APPLY, with Warp's attended stage; warp-retire-blind found the pending applies overlap and Ghostty has no sidebar view.
 - radar-design done: ring needs tools-rig to reach doctor and the site; RADAR-DESIGN with Kris (high); RADAR-PUBLIC reviewed (high) and with Kris. terminal-retire done (Ghostty primary in source, `territory` function, Warp retired in source, iTerm2 trashed on terra; WARP-RETIRE in blind review: warp-retire-blind); starship-classic done (`classic` choice and `--all` in source, no extra apply targets); zed-nerd-font done (symbols-only Nerd Font as Zed's terminal fallback, in source; ZED-FONT-APPLY with Kris).
 - handover-route done (Decision 206): NORDVPN-HOLD, FW-EXPOSURE, HANDLER-FAIL to ki.mac-studio-setup (`30018774`), HOOK-ROLLOUT to ki.tools-burndown (`ee440eef`); TOWER-MOVE is kb.regular.site-tower's; all 'unpushed' commits were already on origin; both receiving works are on hold. route-2 done: RIG-APP-FOOTPRINT (important) to ki.mac-studio-setup (`7f70fb40`), TOWER-PATH-WAIT to kb.regular.site-tower (`c9fac6b`), SITE-REVIEW to kb.regular.personal-rig (`74d17e6`), all pushed.
