@@ -273,3 +273,7 @@ The same 01:19 `git pull --rebase` had also stopped in ki-principal, on a confli
 ## 2026-10-22 02:07 BST - deep prune disposition
 
 Under the 02:00 TIDY-DEEP decision, wow-tidy-deep-2 removed 85 finished reports with verified committed homes and no outstanding report queries, plus 17 obsolete briefs. The five package files, the two live briefs and all 24 design files remain; other reports are retained where query reception, complete outcome homing or live dependencies remain uncertain. No work record was accepted or deleted.
+
+## 2026-10-22 02:11 BST - tidy, third pass
+
+wow-tidy-deep-2 pruned 85 reports and 17 briefs but kept 283 reports, mostly because their old queries are not in queries.md. Every live query of this work is in queries.md (3 open, 7 parked); the rest were answered or superseded, with their answers in Git history of decisions.md. Under Kris's 02:00 words, "tidy up any old reports ... make the work package nice and tidy", one third pass deletes every untracked report in the work folder whose run has finished and which has a byte-identical copy in the runtime folder, keeping only reports of running runs and any report with no runtime copy, which it lists.
