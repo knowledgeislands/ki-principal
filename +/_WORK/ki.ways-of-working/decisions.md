@@ -436,3 +436,13 @@ Reviews a, b and c all accept KI-HARNESS-GOV-189, KI-HARNESS-OPS-010 and KI-HARN
 ## 2026-10-22 09:08 BST - ki-principal integration unsafe; ancestry-preserving repair
 
 wow-rev-principal-integrate: UNSAFE, confidence high. All 127 commits replay one-to-one, but the conflict unions restore three messages this work had consumed (CLI-156-POLICY, AUDIT-OUTSIDE-LANE, DEPCRUISE-PATH), combine ki.chezmoi's successive state snapshots as simultaneous instructions, and leave out the primary's later commit 4a54e691. The coordinator takes its safe sequence, confidence high: run wow-principal-repair merges origin and the primary's current tip into a repair branch in the integration clone, preserving original ancestry so both can fast-forward; keeps consumed messages removed; resolves ki.chezmoi's state to its newest coherent snapshot and tells ki.chezmoi by a line in its `messages.md`; verifies; publishes nothing. The coordinator commits nothing more in ki-principal until publication, so the primary tip stays fixed. Publication then goes to blind review and to Kris as PRINCIPAL-PUBLISH.
+
+## 2026-10-22 09:12 BST - Harness accepted; KI-DESIGN-ELE-001 sixth round
+
+wow-accept-harness-3: KI-HARNESS-GOV-189, KI-HARNESS-OPS-010 and KI-HARNESS-OPS-011 are done (03d41563); NO-GATE now takes the hosted identity from the configured origin, offline (408f9992); every gate green; nothing pruned.
+
+KI-DESIGN-ELE-001 sixth round: a READY high; b NOT READY high (`playwright-core` pinned at 1.56.1, far behind local Chrome 155, and the plan forbids repinning, so browser setup is likely to block); c NOT READY medium (guide scope under `ki-guides`, and the Decision Record date on amendment). The coordinator takes both, confidence high: run wow-replan6-ele001 applies them, still draft; then three fresh reviews.
+
+## 2026-10-22 09:17 BST - ki-principal repair: finish against live origin
+
+wow-principal-repair took P 573faa53, removed the three consumed messages, set ki.chezmoi's state to its newest snapshot, told ki.chezmoi, and merged P with ancestry kept (833dd21f); audits add no finding. It stopped at the stability gate: the coordinator's own decisions-log appends and four deleted briefs changed the primary during the run, and origin moved 14 commits to 868c6721. The coordinator commits its log now and takes the completion run, confidence high: wow-principal-repair-2 recaptures the primary tip, merges live origin keeping newly arrived messages and the latest coherent ki.chezmoi state, and reruns every check; appends to this decisions log and changes under this work's `briefs/` during the run are the coordinator's own and do not fail stability. Publication still goes to blind review and Kris.
