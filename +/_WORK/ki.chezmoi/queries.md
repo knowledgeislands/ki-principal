@@ -9,6 +9,8 @@
 - TOWER-PATH (Needs: decision, Kris): Rig has no fallback-path form, so the artefact and Dock path stay `~/Applications` until the move. a) keep until Kris moves it, then one follow-up commit switches both (recommended, high); b) switch now and accept drift; c) raise a tools-rig any-of path item.
 - RADAR-DESIGN (Needs: decision, Kris): where the radar ring lives. a) both: tools-rig owns the vocabulary, review fields, doctor's `review-overdue` finding and export field; chezmoi owns the values and ring-and-profile rules; the site owns display (recommended, high - only option that serves doctor, the site and the single-catalogue rule); b) personal sidecar `dot_config/rig/radar.toml`, no tools-rig change, can drift, doctor blind; c) interim radar view profiles with dates in roadmap records.
 - RADAR-PUBLIC (Needs: decision, Kris): how much radar rig.midnight.ninja shows. a) ring and Hold replacement for public tools; no review dates, checks or retired list; Trial tools only when opted into `public`; a private replacement is never named (recommended, high, reviewed); b) rings, dates and checks for every public tool; c) rings only.
+- ZED-FONT-APPLY (Needs: decision, Kris): a) `brew install --cask font-symbols-only-nerd-font`, `chezmoi apply ~/.config/zed/settings.json`, reopen Zed's terminal, `starship-variant rainbow`; the Rig file goes with the combined Rig apply (recommended, high); b) also apply `10-applications.toml` now; c) hold.
+- WARP-RETIRE (blind review running: warp-retire-blind).
 - Not raised: CORE-SET-COMMENTS (stays in the worksheet).
 
 ## Parked
