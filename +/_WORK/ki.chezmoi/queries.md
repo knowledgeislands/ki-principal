@@ -2,9 +2,11 @@
 
 ## Open
 
-- APPLY-PLAN (Needs: decision, Kris; replaces RIG-APPLY, STARSHIP-APPLY, ZED-FONT-APPLY, WARP-RETIRE): a) stage 1 now (backup to /tmp/apply-plan-backup, `brew install starship && brew install --cask font-symbols-only-nerd-font`, scoped `chezmoi apply` of starship, zsh fragments, `~/.zshrc`, ghostty, zed settings, nudge script and the four Rig files, then `rig doctor`), stage 2 Warp retirement in one attended sitting after Ghostty proves itself and sol's account is checked, stage 3 `rig apply` handlers and Dock when the hold lifts (recommended, high); b) stages 1 and 2 together now; c) stage 1 without the Rig files and nudge script; d) hold.
+- APPLY-PLAN (Needs: decision, Kris; replaces RIG-APPLY, STARSHIP-APPLY, ZED-FONT-APPLY, WARP-RETIRE): a) stage 1 now (backup to /tmp/apply-plan-backup, `brew install starship && brew install --cask font-symbols-only-nerd-font`, scoped `chezmoi apply` of starship, zsh fragments, `~/.zshrc`, ghostty, zed settings, nudge script, the four Rig files and `~/.claude/settings.json` (reorder only), then `rig doctor`, 6 → 4), stage 2 Warp retirement in one attended sitting after Ghostty proves itself and sol's account is checked, stage 3 `rig apply` handlers and Dock when the hold lifts (recommended, high); b) stages 1 and 2 together now; c) stage 1 without the Rig files and nudge script; d) hold.
 - ORCA-HOOKS (Needs: decision, Kris): a) separate change makes Codex's `hooks.json` preserve Orca's undeclared hooks (Pattern C, like Claude's), holding only that target meanwhile (recommended, high, reviewed); b) copy Orca's hooks into laptop-conditional source.
 - TOWER-PATH (Needs: decision, Kris): Rig has no fallback-path form, so the artefact and Dock path stay `~/Applications` until the move. a) keep until Kris moves it, then one follow-up commit switches both (recommended, high); b) switch now and accept drift; c) raise a tools-rig any-of path item.
+- CODEX-CONFIG (Needs: action, Kris): `~/.codex/config.toml` changed on both sides and its render reads 1Password, so no run diffs it; at the screen run `chezmoi diff ~/.codex/config.toml` and say apply or hold (9 of its 11 hook-trust entries are Orca's).
+- TERRA-REMOVALS (in blind review: terra-removals-blind): Spark launcher, Clockology, Prime Video, Nitro, BlueStacks, `cloudflare-wrangler`, Creative Cloud (KB-DOTFILES-UE-086 B6a, B6b, B6d, C7i); B7 only needs ticking.
 - Not raised: CORE-SET-COMMENTS (stays in the worksheet).
 
 ## Parked
