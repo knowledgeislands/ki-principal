@@ -7,8 +7,8 @@ theme: model
 lifecycle: active
 lead: Kris Brown
 target: null
-updated: 2026-10-18T17:58:41Z
-author: Written with Claude
+updated: 2026-10-22T01:57:26Z
+author: Mixed
 ---
 
 # Observatory
@@ -55,6 +55,16 @@ Kris set the order on 2026-10-18 (OBS-SLICE): "Build the four units in order: Se
 - **Idea: an Observatory Instrument** over the Project registry, checkpoints, decisions logs and `ki agent` runs, ranking Needs, staleness and unread agent reports - the cheapest pilot of the state-of-play view. Units 1 and 2 now carry it.
 - **Known World part, 2026-10-15.** On 15 October Kris placed the foundations model in [Known World](<../../Pillars/Philosophy/Emerging Concepts/Known World.md>) and gave this Project its part: the Observatory on each host, the Sessions glass scoped to that host's seated territories, the pub-sub transport routed by seat, and token windows on display. It depends on the territory seat table.
 - **Idea: the Estate Map as an Observatory view, 2026-10-16.** The Estate Map, the live artifact at `personal-principal/Admin/Operations/Live Artifacts/Estate Map.html`, is critical to the Observatory but was captured nowhere for it: only trades-revamp mentions it, and the `apps-observatory.local` docs do not. On 2026-10-11 Kris placed the map in `personal-principal` and said it "ends up apps-observatory view built *-principal repos", editable so that corrections are read back. The idea is an Observatory Instrument that projects the estate - territories, repositories, codes and their target values - from the `*-principal` repositories, with `personal-principal` keeping the map's content. Kris approved adding it here on 2026-10-16 (ESTATE-MAP-OBSERVATORY). Idea, not yet a record.
+
+### Known Lands follow-up, 2026-10-22
+
+Retained under the coordinator's 22 October narrowing to the delivered minimal chart and interaction. These ideas preserve later scope and its gates; they authorise no implementation or consolidation.
+
+- Idea: **trade-routes layer.** Add trade routes to the Known Lands chart, preserving every exchange and the existing route detail. Wait for the instrument-restructure decision to settle whether and how the tabs converge, then Kris's separate approval of this consolidation in the reskinned Observatory. Keep `?view=trade-routes` reachable through a redirect to Known Lands with the routes layer on, and preserve the route map's width containment.
+- Idea: **Activity split.** Put Activity's "what changed" on the Beacon and its 7, 14 and 30-day window on the chart as a time control, preserving every current change, window and reader. Wait for the instrument-restructure decision and Kris's separate approval of this consolidation in the reskinned Observatory. Keep `?view=activity` reachable through a redirect to the Beacon. Activity also supplies commit authors to Workers: coordinate changes to their shared reader, and do not land the split and Workers in the same change.
+- Idea: **stored positions.** Retain Kris's 19 October DESIGN-POSITIONS a) decision: any future positions are a host preference under XDG state, read and written behind the backend, with the browser kept away from the filesystem. Positions were reserved for Kris's designs and excluded from the delivered chart and interaction; implementing them waits for his separate go. The narrowing grants no implementation authority.
+
+**Retained visual follow-up for Kris.** The chart's current look remains provisional under his 20 October approval to build ahead of his designs. Open Known Lands and inspect reef and lantern sizes, fixed-width focus and selection rings, detail below the chart and Page Up / Page Down navigation. Keep this attended check for the next visual review; narrowing the delivered stage does not claim that Kris has performed it or remove his later redesign.
 
 ### Ideas for evaluation, 2026-10-14
 
