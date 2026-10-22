@@ -12,7 +12,7 @@ method_read: beb56729
 
 ## Now
 
-- vscode-groups done: layout A recommended (per-repository files in territory folders); VSCODE-LAYOUT with Kris; tools-ki change goes to ki.tools-burndown once picked.
+- vscode-groups done; Kris chose layout A (18:44); handed to ki.tools-burndown, chezmoi sync follows its release.
 - trust-new-repos done: five new repositories trusted in source for Claude Code, Claude Desktop and Codex, four VS Code workspace files added (chezmoi `25c0bde`); TRUST-APPLY with Kris; sky and snowflake rest on another session's uncommitted `workspaces/humans-not-robots/dot_mgit.toml`.
 - Resumed for terra drift only: drift-survey done (37 targets: 22 stage 1, 11 Warp stage 2, Claude settings harmless, Codex hooks ORCA-HOOKS, Codex config.toml diff at screen); terra-removals-blind done (Mercury still installed; Prime Video media, BlueStacks instance and Creative Cloud sign-in need Kris first): TERRA-REMOVALS with Kris; CODEX-CONFIG with Kris; APPLY-PLAN, ORCA-HOOKS, TOWER-PATH back open; radar and Orca adoption stay parked.
 - On hold (DRAIN, 22 October): nothing running; six queries parked (APPLY-PLAN, RADAR-DESIGN, RADAR-PUBLIC, ORCA-ADOPT, ORCA-HOOKS, TOWER-PATH); chezmoi source pushed; nothing applied on terra.
