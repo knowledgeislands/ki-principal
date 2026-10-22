@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
-state: with-worker
-since: 2026-10-22T22:46:00Z
+state: handoff-to-supervisor
+since: 2026-10-22T22:54:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-22T22:40:00Z
@@ -12,7 +12,7 @@ method_read: beb56729
 
 ## Now
 
-- tower-path (run `chezmoi`, machine) running: source moves Tower Assistant to `/Applications` (Kris 21:55, final); no apply.
+- tower-path done: chezmoi `d47acf8` declares Tower Assistant at `/Applications` (unpushed, unapplied); TOWER-APPLY with Kris; terra still has 2.0 in `~/Applications`.
 - Scope: resumed for terra drift and terra-specific items only (Kris, after the 22 October drain); nothing is running.
 - Terra drift: resolved except `~/.codex/hooks.json` (ORCA-HOOKS) and `~/.codex/config.toml` (CODEX-CONFIG, held until ORCA-HOOKS) · with Kris.
 - HOLD-LIFT (reviewed, high): APPLY-PLAN stage 3, `rig apply` of the `.sh`/`.zsh` handlers and the Dock (broken Warp tile), waits on it; `.toml` stays held until [KI-TOOL-RIG-CORE-069](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md); terra `rig doctor` 6 · with Kris.
