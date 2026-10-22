@@ -7,6 +7,7 @@
 - TOWER-PATH (Needs: decision, Kris): Rig has no fallback-path form, so the artefact and Dock path stay `~/Applications` until the move. a) keep until Kris moves it, then one follow-up commit switches both (recommended, high); b) switch now and accept drift; c) raise a tools-rig any-of path item.
 - CODEX-CONFIG (Needs: action, Kris): `~/.codex/config.toml` changed on both sides and its render reads 1Password, so no run diffs it; at the screen run `chezmoi diff ~/.codex/config.toml` and say apply or hold (9 of its 11 hook-trust entries are Orca's).
 - TERRA-REMOVALS (Needs: decision, Kris; KB-DOTFILES-UE-086): a) one attended ki-self pass now, allowed ahead of B1–B5: Spark launcher, Clockology, Nitro, Mercury, Homebrew `cloudflare-wrangler`; Prime Video and BlueStacks only after Kris keeps or discards their data; Creative Cloud only after an at-screen product, sign-in and sync check (recommended, medium, reviewed); b) leave all to a dedicated KB-DOTFILES-UE-086 session; c) Wrangler alone now, the rest later.
+- VSCODE-LAYOUT (Needs: decision, Kris): a) one file per repository in a territory folder, `<territory-id>/<repo>.code-workspace`, by `capital` claim, no `kis-` prefix, `_unassigned/` fallback (recommended, high); b) one multi-root workspace per territory instead; c) a) now plus an optional multi-root `_<territory>` file per territory later.
 - Not raised: CORE-SET-COMMENTS (stays in the worksheet).
 
 ## Parked

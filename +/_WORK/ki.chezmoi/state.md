@@ -12,7 +12,7 @@ method_read: beb56729
 
 ## Now
 
-- vscode-groups (run `chezmoi`, read-only): design for territory-grouped VS Code workspace files and the `ki` change it needs.
+- vscode-groups done: layout A recommended (per-repository files in territory folders); VSCODE-LAYOUT with Kris; tools-ki change goes to ki.tools-burndown once picked.
 - trust-new-repos (run `chezmoi`): adds new `~/workspaces` repositories to every managed app's authorised-folder list in source; no apply.
 - Resumed for terra drift only: drift-survey done (37 targets: 22 stage 1, 11 Warp stage 2, Claude settings harmless, Codex hooks ORCA-HOOKS, Codex config.toml diff at screen); terra-removals-blind done (Mercury still installed; Prime Video media, BlueStacks instance and Creative Cloud sign-in need Kris first): TERRA-REMOVALS with Kris; CODEX-CONFIG with Kris; APPLY-PLAN, ORCA-HOOKS, TOWER-PATH back open; radar and Orca adoption stay parked.
 - On hold (DRAIN, 22 October): nothing running; six queries parked (APPLY-PLAN, RADAR-DESIGN, RADAR-PUBLIC, ORCA-ADOPT, ORCA-HOOKS, TOWER-PATH); chezmoi source pushed; nothing applied on terra.
