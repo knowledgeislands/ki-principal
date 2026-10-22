@@ -446,3 +446,137 @@ KI-DESIGN-ELE-001 sixth round: a READY high; b NOT READY high (`playwright-core`
 ## 2026-10-22 09:17 BST - ki-principal repair: finish against live origin
 
 wow-principal-repair took P 573faa53, removed the three consumed messages, set ki.chezmoi's state to its newest snapshot, told ki.chezmoi, and merged P with ancestry kept (833dd21f); audits add no finding. It stopped at the stability gate: the coordinator's own decisions-log appends and four deleted briefs changed the primary during the run, and origin moved 14 commits to 868c6721. The coordinator commits its log now and takes the completion run, confidence high: wow-principal-repair-2 recaptures the primary tip, merges live origin keeping newly arrived messages and the latest coherent ki.chezmoi state, and reruns every check; appends to this decisions log and changes under this work's `briefs/` during the run are the coordinator's own and do not fail stability. Publication still goes to blind review and Kris.
+
+## 2026-10-22 09:20 BST - tools-ki integration fifth review round
+
+Reviews of 51725e8b..a9aba774: a REFUSE high (an older failed event without terminal metadata is replayed as an ending during upgrade, consuming a later completion and suppressing its event and report homing; strict test fences also keep the full gate from going green); b REFUSE high (a9aba774 moves the checker to `tooling/depcruise`, which CI's pinned released Harness does not yet accept, so the pushed audit would go red; admission over the two superseded local commits is not a fast-forward); c ACCEPT high. The coordinator takes both refusals, confidence high: run wow-toolski-fix-6 fixes the legacy replay defect with regressions, and orders the branch so the range up to the fix can be admitted with CI green while a9aba774 waits for a tools-ki release whose Harness pin accepts `tooling/depcruise`; then three fresh reviews.
+
+## 2026-10-22 09:24 BST - ki-principal completion: widen the stability allowance
+
+wow-principal-repair-2 merged the primary tip f2778b86 (bce02d0e) and fetched origin 868c6721, then stopped on stability: run reports homed into this work folder as new untracked files. The origin merge conflicts in ki.agent-host's `messages.md` and ki.chezmoi's `state.md` (origin now has ki.chezmoi on hold since 07:51). Untracked files cannot alter the merge and the collision check already covers them, so the coordinator takes the run's option a), confidence high: wow-principal-repair-3 resumes from bce02d0e with stability meaning `main` still at P and tracked changes only appended to this decisions log, any untracked file allowed if the final collision check passes; it resolves both conflicts to the latest coherent state, keeping unconsumed queue lines, and reruns every check.
+
+## 2026-10-22 09:27 BST - KI-DESIGN-ELE-001 seventh round
+
+a READY high, c READY high with no edit; b NOT READY high: the no-go branch cannot be reached inside the spike, and the GDR-KI-DESIGN-012 amendment scope omits content its own Verify check forbids. The coordinator takes b's two amendments, confidence high: run wow-replan7-ele001 applies them, still draft; then three fresh reviews.
+
+## 2026-10-22 09:31 BST - KI-DESIGN-ELE-001 seventh amendment received
+
+wow-replan7-ele001 applied review b's substitutions only (d345ecd0); the Ready preflight passes and the audit adds no finding. Limitation: its first full audit ran without `KI_REPO_OFFLINE=1` and made read-only GitHub calls against the no-network bound; it reran offline. Three fresh reviews follow; review briefs now name `KI_REPO_OFFLINE=1` for any audit.
+
+## 2026-10-22 09:32 BST - ki-principal candidate ready for review
+
+wow-principal-repair-3 produced F 7eb98927 on `repair-wow-principal` in the integration clone: live origin and primary P f2778b86 are both ancestors, all 127 originals kept, consumed messages stay removed, ki.agent-host's queue and ki.chezmoi's state resolved, no added audit finding, no collision. Publication carries ki.chezmoi's commits, so run wow-rev-principal-final gives one blind Codex review before PRINCIPAL-PUBLISH reaches Kris.
+
+## 2026-10-22 09:40 BST - KI-DESIGN-ELE-001 eighth round
+
+a READY high; b NOT READY high (outcome classification contradicts itself; the go path and guide edits could settle a Proposed decision without approval); c NOT READY medium (Steps omit the Playwright setup check and repin window that Dependencies requires before the matrix; Step 7 builds `verify-browser.mjs` only after the matrix runs). The coordinator takes all of them, confidence high, and asks for a whole-record consistency pass so the next round converges: run wow-replan8-ele001, still draft; then three fresh reviews.
+
+## 2026-10-22 09:43 BST - ki-principal final review: restore queue lines
+
+wow-rev-principal-final: UNSAFE, confidence high. History, audit and the dirty-primary update path pass, but pending lines in ki.observatory's and ki.tools-burndown's `messages.md` were replaced by summaries rather than kept as their unconsumed source lines. The coordinator takes its QUEUE-LINES repair, confidence high: run wow-principal-repair-4 restores every unconsumed original line verbatim on `repair-wow-principal`, rechecks every queue the same way, and reruns all checks; then one fresh blind review.
+
+## 2026-10-22 09:55 BST - ki-principal candidate repaired
+
+wow-principal-repair-4 restored 17 pending queue lines verbatim and the territory queue's source order; F is now 3a6b7bf8, every check passing. Run wow-rev-principal-final-2 gives one fresh blind Codex review before PRINCIPAL-PUBLISH reaches Kris.
+
+## 2026-10-22 09:58 BST - KI-DESIGN-ELE-001 ninth round
+
+a READY high; b NOT READY high (a classification gap and an unhandled blocked outcome; a go edit settles the route; worktree site gates cannot run offline); c NOT READY medium (site gates unrunnable under the permitted worktree arrangement; the "evidence note" is never defined; the go edit to GDR-KI-DESIGN-012 can be read as adopting an unapproved route). b and c now converge on the same defects, so the coordinator takes one more amendment, confidence high: run wow-replan9-ele001 applies both. If the tenth round still lacks three high READYs, the record goes to Kris as a query rather than another round.
+
+## 2026-10-22 10:06 BST - ki-principal: correct three inherited decision inversions
+
+wow-rev-principal-final-2: UNSAFE, confidence high, on one gate only: three decision blocks inherited from the source histories are out of time order. Ancestry, retention, queues, state, conflict markers, offline audit and checkout preservation all pass, and it names the exact primary update. The coordinator takes its option a), confidence high, since reordering keeps every word: run wow-principal-repair-5 moves the three blocks into time order on `repair-wow-principal`, reruns the checks, and one fresh blind review follows before PRINCIPAL-PUBLISH reaches Kris.
+
+## 2026-10-22 10:16 BST - ki-principal candidate reordered
+
+wow-principal-repair-5 moved the three inherited blocks into time order with every byte kept; F is now 13e94479, P f2778b86 and origin 868c6721 are ancestors, and every check passes, including time order in all four touched decision logs. Because F's Ways of working decisions log now differs from P's committed copy while the primary carries my uncommitted appends, the earlier direct fast-forward command no longer stands as proved. Run wow-rev-principal-final-3 gives one fresh blind Codex review, which must also prove an exact primary update that keeps those appends, before PRINCIPAL-PUBLISH reaches Kris.
+
+## 2026-10-22 10:22 BST - KI-DESIGN-ELE-001 tenth round goes to Kris
+
+a READY high; b NOT READY high (a VM diagnostic result has no place in the outcome classes; nobody is named to finish a completed run after the supervisor's review, nor to complete the six-part Review packet; the site tsbuildinfo is called tracked but is gitignored); c NOT READY high (the boundaries test is called a known failure but passes; the same tsbuildinfo fact). Every required edit is given as exact text. Under the 09:58 decision this goes to Kris as ELE001-CONVERGE rather than another round; the coordinator's recommendation is medium, so run wow-qrev-ele001-converge gives it one blind review first.
+
+## 2026-10-22 10:27 BST - ELE001-CONVERGE reviewed
+
+wow-qrev-ele001-converge, blind: course b (park as draft), confidence high. It verified b's and c's factual fixes but found b's exact handoff text conflicts with the Boundary's review-before-cleanup order, its Files touched insertion breaks a sentence, b and c replace the same phrase differently, and the last amendment grew rather than shrank, so the reviews are not converging. The coordinator's medium recommendation for one last exact-text amendment is withdrawn on that evidence; ELE001-CONVERGE goes to Kris recommending parking, with the amendment as the alternative.
+
+## 2026-10-22 10:33 BST - primary stability breach corrected
+
+The coordinator's ELE001-CONVERGE edit to `queries.md` broke the primary stability the ki-principal review relies on, and wow-rev-principal-final-3 stopped its guarded trial before publication. The edit is reverted, its 12 added lines held outside the repository in `/Users/krisbrown/.local/state/ki/agents/ways-of-working/ele001-converge.query.md` until publication; until then the coordinator touches nothing in the primary but appended decisions. A fresh review follows if final-3 ends unsafe on this alone.
+
+## 2026-10-22 10:36 BST - ki-principal: settle the remaining candidate faults
+
+wow-rev-principal-final-3: UNSAFE, confidence high. Ancestry, history conservation, hygiene, offline audit and collisions pass, and its guarded update script succeeded end-to-end on a scratch copy. It fails on: 17 origin blocks of the Ways of working decisions log missing from F (15 headings, two bodies); four pending queue lines in ki.observatory's and ki.tools-burndown's queues still reformatted (APP044-STALE, BRG004-NEAR, explicit-outcomes, OPS009-SPLIT); ki.chezmoi's state front matter off the state schema though byte-identical to its owner's latest commit; and the coordinator's own primary edit, now reverted. The coordinator's mark at 08:24 struck decisions, so some missing blocks may be deliberate strikes rather than loss. Run wow-principal-repair-6 classifies each of the 17 against P's history, restores any not deliberately struck, restores the four queue lines verbatim, and leaves ki.chezmoi's state to its owner as pre-existing, with a line in its queue; then one fresh blind review.
+
+## 2026-10-22 10:39 BST - tools-ki sixth review round
+
+wow-toolski-fix-6 fixed review a's F1 (legacy failures classified before terminal ownership is trusted) with regressions that upgrade untouched 51725e8b state, and reordered the range 51725e8b..219968a0 so the depcruise migration 219968a0 comes last after fix a7c80cd8. Full suite 2,078 tests at 100% coverage, TypeScript, Biome, build, and offline audits at both the candidate Harness and CI's pinned v0.12.0 all pass. Its staged plan: admit through a7c80cd8 by a guarded compare-and-swap from 6c4d2a1a, hold the migration, release a KI version pinning a Harness revision with db5e3cff, then admit the migration with the CI pin bump. Runs wow-rereview6-toolski-a/b/c give three fresh blind reviews of admission through a7c80cd8 and of that plan.
+
+## 2026-10-22 10:51 BST - ki-principal candidate settled
+
+wow-principal-repair-6: F is now 7200dd9b. All 17 origin decision differences are the work's own mark outcomes (15 strikes, two pointer rewrites) and none was lost through the merge, so nothing is restored; the four pending queue lines are restored verbatim; ki.chezmoi's state is left byte-identical to its owner with a line in its queue. Seven works' state files, ki.chezmoi's among them, carry closed-schema faults identical to their owners' commits; those are their owners' to fix, not this candidate's. Run wow-rev-principal-final-4 gives one fresh blind Codex review, judging only faults the candidate introduces, before PRINCIPAL-PUBLISH reaches Kris.
+
+## 2026-10-22 11:09 BST - ki-principal: fix two queue envelopes
+
+wow-rev-principal-final-4: UNSAFE, confidence high, on one check only: the two lines this reconciliation added to ki.chezmoi's `messages.md` (lines 3 and 4) fail RECORD-2's message-envelope schema. Ancestry, retention, decisions, state, hygiene, audit, primary safety and the rehearsed update all pass. Run wow-principal-repair-7 rewrites those two lines to the envelope schema, keeping their meaning, reruns every check, and one fresh blind review follows.
+
+## 2026-10-22 11:14 BST - ki-principal: the primary is a live shared checkout
+
+wow-principal-repair-7 stopped before editing: ki.baseline-rollout's session has since edited nine tracked report files in the primary, so the review's exact primary baseline no longer holds. The coordinator answers its PRINCIPAL-BASELINE query itself, confidence high: the primary is shared and will keep moving, so the candidate repair must not be gated on it. Run wow-principal-repair-8 fixes the two envelope lines and reruns the candidate checks; for the primary it reports only whether any current tracked edit or untracked path overlaps a path F changes from P. The live update is guarded at the moment of publication, in a writer window Kris approves.
+
+## 2026-10-22 11:22 BST - ki-principal candidate envelopes fixed
+
+wow-principal-repair-8: F is now 32f3efb2; the two ki.chezmoi queue lines meet the envelope schema with their words, senders and sending times kept, no other added line needed change, and candidate checks 1 to 7 pass. Run wow-rev-principal-final-5 gives one fresh blind Codex review, treating the primary as a live shared checkout, before PRINCIPAL-PUBLISH reaches Kris.
+
+## 2026-10-22 11:32 BST - owner request, MGIT-LEARN-SHAPE
+
+Kris: "on the `mgit learn`, how do we deal with params that might change... e.g. `mgit ci -am "<msg>"` so learn needs to think about the command structure, i.e. 1. expand the alias, which is just `ci` -> `commit` in this case (note that `st` is `status -sb`) 2. state which params are considered in the match, e.g. -a is optional/ignored, -m is the key one to make this a match, but its value, i.e. `"<msg>"` is ignored ... that will need dispatching or roadmap item creating". tools-mgit has no roadmap record or work package for this, so this explicit instruction lifts the capture gate for it: run wow-mgit-learn-shape, in tools-mgit, finds how `mgit learn` matches commands today and captures one draft roadmap record there for command-shape matching, without implementing it.
+
+## 2026-10-22 11:38 BST - ki-principal candidate safe; PRINCIPAL-PUBLISH to Kris
+
+wow-rev-principal-final-5: SAFE, confidence high. F 32f3efb2 keeps both source histories and every pending instruction and adds no fault; its guarded update command, rehearsed on scratch copies, discovers the primary's state at run time, refuses any overlap before pushing, and preserves staged, unstaged and untracked files. The only overlap now is this log's own uncommitted appends. PRINCIPAL-PUBLISH goes to Kris, recommending: set these appends aside, a push run executes the reviewed command, then the appends go back on F's log and are committed. The blind review this publication query requires is final-5 itself. ELE001-CONVERGE stays held outside the repository until then.
+
+## 2026-10-22 11:41 BST - MGIT-LEARN-SHAPE captured
+
+wow-mgit-learn-shape captured KI-TOOL-MGIT-CLI-031 (learn command shapes) in tools-mgit as a draft, size m, with Kris's words quoted and six open design questions; all gates pass, no implementation. Today `learn` keys on every expanded argument, flag spelling, order and value, with no shape declaration or short-flag splitting.
+
+## 2026-10-22 11:57 BST - tools-ki seventh fix
+
+Sixth round so far: a REFUSE high (launcher-like failure text is still taken as terminal without corroboration, so legacy replay can lose a completion; release.yml's packaging jobs check out the tag without the history the new upgrade tests need); c ACCEPT medium (two non-blocking legacy-classifier gaps to fix before release); b still running past an hour, its progress reporting that an upgrade refuses whole runs after a failed-then-relaunched worker. The coordinator takes a's findings and c's gaps, confidence high, without waiting further for b: run wow-toolski-fix-7 fixes them, checks b's reported case, keeps the migration last, and folds in b's report if it lands meanwhile; then three fresh reviews.
+
+## 2026-10-22 12:25 BST - tools-ki sixth round complete
+
+b REFUSE high: the new legacy-failure classifier permanently refuses `status` and `wait` for ordinary old runs (a worker `failed:` progress line followed by any later status, or a legacy `could not launch:` failure), and the release workflow's shallow checkout breaks the baseline-upgrade tests. Both are already in wow-toolski-fix-7's brief, which takes b's report as it lands; no new run.
+
+## 2026-10-22 13:12 BST - tools-ki seventh fix received; seventh review round
+
+wow-toolski-fix-7 resolved every sixth-round finding in two new commits, `22e0ea9c` and `3a3407e0`, with the migration rebased last as `d4849813`; every gate passes and it raised no queries. The admission tip is now `3a3407e0`, with the migration held back until a KI release carries the new depcruise rule. Three fresh blind reviews (a, b, c) of `51725e8b..3a3407e0` follow; admission is a guarded compare-and-swap from `6c4d2a1a` only if all three accept.
+
+## 2026-10-22 14:06 BST - tools-ki seventh round refused; eighth fix
+
+a REFUSE high: legacy replay and checkpoint recovery remain unsafe (concurrent checkpoint replacement loses interrupted append evidence) and the offline audit is red. c REFUSE high: the tip permanently refuses ordinary crashed legacy runs, including this work's live run, which every earlier version reads. b still running. wow-toolski-fix-8 launched under "make it all work" (01:55), told to step back to the simplest design that reads every run `51725e8b` reads and to prove it against a copy of real agent state; it takes b's findings as they land.
+
+## 2026-10-22 14:12 BST - AUDIT-BOUNDARY settled by the coordinator; fix-8 relaunched
+
+wow-toolski-fix-8 stopped before patching, asking which audit contract gates the pre-migration tip. Settled within "make it all work" (01:55) as b: the CI-pinned contract (KI `v0.12.0`, Harness `f4d6c521`) gates the admission tip, as CI on tools-ki `main` runs it; the migration tree is audited under the current Harness. The reviewers' red audit was the current Harness's `tooling/depcruise` rule, which only the held migration satisfies. Review b REFUSE also folded in (crashed legacy runs; pre-event seeded terminal snapshots). Relaunched as wow-toolski-fix-8b with the amended brief.
+
+## 2026-10-22 14:27 BST - tools-ki seventh round complete
+
+b REFUSE high: `22e0ea9c` turns a worker that exited without DONE into a permanent refusal, blocking a copy of this work's live run, and the offline audit fails on `3a3407e0` without `d4849813`. All three refuse; wow-toolski-fix-8b already carries all three reports and the settled audit boundary.
+
+## 2026-10-22 16:17 BST - tools-ki eighth fix received; eighth review round
+
+wow-toolski-fix-8b fixed every seventh-round finding; admission tip `0fd85a08`, migration held as `f4ce77b8`. `51725e8b`, `0fd85a08` and `f4ce77b8` each read 17/17 copied real runs; all gates pass, admission audit under the CI-pinned contract and migration audit under the current Harness. Containment exception: its early comparator wrote fourteen untracked report copies into ki-principal and acquire; it proved them its own by hash and creation time, moved only those to quarantine, and left tracked and pre-existing files alone. Three fresh blind reviews (a, b, c) of `51725e8b..0fd85a08` follow, which also confirm containment read-only.
+
+## 2026-10-22 17:22 BST - tools-ki eighth round complete; receiver provenance first
+
+Eighth round on `51725e8b..0fd85a08`: b ACCEPT medium (no blocking finding; a mixed-version refusal after a checkpoint-unaware append, judged non-genuine but not blocking); c ACCEPT high (every gate passes, 28 regressions fail before and pass after, 17/17 real runs read); a REFUSE high, on containment alone: about 850-870 untracked report copies across ki-principal work folders, three in acquire and nine tracked `ki.baseline-rollout` reports changed at 11:09 BST, all byte-identical to runtime reports, with no proven source. c and b date the copies across the day and read them as report homing; c also asks that the swap wait for a quiet point in the live dispatcher, which runs the tools-ki primary's source. Admission stays held. The coordinator launched wow-provenance-receivers, read-only, to establish what wrote them and propose a disposition per group; no receiver file is touched without Kris's word.
+
+## 2026-10-22 17:47 BST - receiver copies traced to verification; disposition to Kris
+
+wow-provenance-receivers (high): the stray reports were written by verification, not by the candidate. Comparison runs during the tools-ki fixes copied agent state but kept absolute report homes, so old builds homed reports into the real receivers: 391 untracked copies (119 ki.chezmoi copies at 10:55, 269 ki-principal and three acquire copies at 11:09), and the archived primary `6c4d2a1a` overwrote nine tracked `ki.baseline-rollout` reports at 11:09:46. `0fd85a08` overwrites none. The 485 other untracked reports in this work's folder are ordinary homing. The blind review wow-rev-receivers agreed on every finding but narrowed the removal: three copies (burnrig, acceptgit, mgit-prune) are linked from retained runtime reports and stay. Deleting other works' files and restoring tracked ones goes to Kris as RECEIVER-COPIES and BASELINE-REPORTS; tools-ki admission stays held until the clean-up and a fresh containment check.
+
+## 2026-10-22 22:50 BST - mark; tidy every working area and commit across the territory
+
+Kris: "Can you take a mark at this point and can you go over the work folder? I think you can delete the work review one for example and then also just tidy up the inbound and outbound working areas in general. But for example, I can see a diagram/slash change management skills that probably needs to be tidied up, all of the work packages under the plus slash underscore work needs tidying up. So just get as much tidy as you can. You don't need to check with me, you just need to make it happen on those ones and get everything fully committed across all of the knowledge islands repos and then we'll have a look at what's outstanding?"
+
+Taken as: a mark now; delete `+/_WORK_REVIEW`; tidy `+` and `-`, including `+/diagrams/change-management-skills`; prune every work package under `+/_WORK`, which answers RECEIVER-COPIES a) (remove the 388 verification copies, keeping the three linked ones, after fresh checks) and BASELINE-REPORTS a) (restore the nine `ki.baseline-rollout` reports from Git); commit everything across the Knowledge Islands repositories by explicit path, without asking first. Commit, not push. It lifts the coordinator's own hold on ki-principal tracked files, so the integration candidate `32f3efb2` will need refreshing before PRINCIPAL-PUBLISH. Two runs: wow-tidy-principal (ki-principal and the three acquire copies) and wow-commit-territory (every other Knowledge Islands repository), in parallel.

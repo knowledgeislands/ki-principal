@@ -1,10 +1,10 @@
 ---
 id: ki.ways-of-working
 state: with-worker
-since: 2026-10-22T07:24:00Z
+since: 2026-10-22T21:50:00Z
 received: 2026-10-22T07:24:00Z
 beat: null
-mark: 2026-10-22T07:24:00Z
+mark: 2026-10-22T21:50:00Z
 method_read: eff6163b
 ---
 
@@ -12,16 +12,14 @@ method_read: eff6163b
 
 ## Now
 
-- 08:24 BST mark. Overnight burn-down under Kris's 02:25 and 02:28 grants and the triage-and-draft grant; the coordinator's waiter lapsed from 04:02 to 08:22.
-- Awaiting fresh reviews: KI-TOOL-TECHNE-CLI-006 (after wow-fix-cli006), KI-DESIGN-ELE-001 planning (after wow-replan3-ele001), KI-OBSERVA-VIS-030 (after a591c48d), tools-ki integration range 51725e8b..a9aba774 (rereview5).
-- Harness: KI-HARNESS-GOV-189, KI-HARNESS-OPS-010, KI-HARNESS-OPS-011 and KI-HARNESS-GOV-209 delivered, refused for pruning by review a; NO-GATE needs an offline fix.
-- PRINCIPAL-RECONCILE: the shared ki-principal checkout blocked a run's pull; diagnose before any ki-principal push.
-- `ki agent send` fails while ki.mac-studio-setup's events.jsonl has lost an observed terminal outcome.
+- 22:50 BST mark. Kris asked for a full tidy of ki-principal's working areas and every work package, and everything committed across the Knowledge Islands repositories (22:50).
+- tools-ki admission of `51725e8b..0fd85a08` held: eighth round two accepts, one refusal on receiver containment; the copies were traced to verification and are removed in the tidy, then a fresh containment check and review round.
+- ki-principal integration candidate `32f3efb2` reviewed safe; needs refreshing after the tidy commits before PRINCIPAL-PUBLISH.
 
 ## Next steps
 
-- Coordinator: launch the pending reviews; a Harness fix run for NO-GATE and the surviving links; on rereview5 acceptance, admit and push tools-ki; prune only on three agreeing high-confidence accepts.
-- Kris: RIG-RELEASE-REVIEW-BOUNDARY, CUSTOMS-WORDS, TAGS-NEXT, ECO013-CANCEL; the RIG-ATTENDED walk-through; visual checks for KI-OBSERVA-BRG-005 and KI-OBSERVA-VIS-030.
+- Coordinator: receive wow-tidy-principal and wow-commit-territory; then the tools-ki containment check and review round; refresh the ki-principal candidate.
+- Kris: PRINCIPAL-PUBLISH, SORT-RUN, ELE001-CONVERGE, RIG-RELEASE-REVIEW-BOUNDARY, CUSTOMS-WORDS, TAGS-NEXT, ECO013-CANCEL; the RIG-ATTENDED walk-through.
 
 ## Held
 
