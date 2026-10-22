@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
 state: handoff-to-supervisor
-since: 2026-10-22T22:02:00Z
+since: 2026-10-22T22:46:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-22T22:40:00Z
