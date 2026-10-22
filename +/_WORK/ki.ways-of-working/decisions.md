@@ -398,3 +398,41 @@ wow-replan3-ele001 applied every planning amendment to KI-DESIGN-ELE-001, still 
 ## 2026-10-22 08:24 BST - mark; waiter lapse
 
 The coordinator's waiter lapsed after 03:21 and was not re-armed, so nothing was received or launched between 04:02 and 08:22. Received at the mark: wow-commit-vis030 (KI-OBSERVA-VIS-030 fixes committed in apps-observatory.local a591c48d and ki-principal 2e8c6cd0; its push blocked as PRINCIPAL-RECONCILE); wow-toolski-integrate-3 (fixture b3fec501 and depcruise migration a9aba774 on the integration branch, every gate green, not admitted); wow-rev2-harness-a refused every Harness item for pruning (surviving links, unverified hosted citations, and the NO-GATE audit can contact GitHub against the offline hook contract); wow-rev2-harness-b and -c ended without reports. Kris, 08:22: "take a mark, then give me an update of whats happened since we last talked and any queries".
+
+## 2026-10-22 08:31 BST - Harness second fix, ki-principal diagnosis
+
+The coordinator takes the Harness review's refusals, confidence high, under "make it all work": run wow-fix-harness-2 makes the NO-GATE hook audit offline (no GitHub contact) and readies KI-HARNESS-GOV-189, KI-HARNESS-OPS-010, KI-HARNESS-OPS-011 and KI-HARNESS-GOV-209 for pruning without pruning them. Run wow-principal-diagnose reads why ki-principal is 127 ahead and 16 behind origin, read-only, before any ki-principal push.
+
+## 2026-10-22 08:35 BST - KI-DESIGN-ELE-001 fourth planning round
+
+Reviews: a NOT READY high (three Ready-preflight warnings; Delegation omits the supervisor's final delivery review), b READY medium (two edits for the Ready commit; preflight stops on three warnings from other ki-design records), c READY high (two line-level edits). The coordinator takes every amendment, confidence high: run wow-replan4-ele001 applies them and clears the three preflight warnings where they are bounded record fixes in ki-design, still draft; then three fresh reviews.
+
+## 2026-10-22 08:37 BST - THREAD-FOOTER
+
+Kris: "in the footer, I want a thread to say if is a coordination or state of play thread too ... every footer is putting out a prompt that I can copy, but I'm not sure that I ever use it, so maybe that could be replaced with effectively the thread type and its name for the work package it relates to, something like that."
+
+Taken as: the glyph banner gains a closing thread line naming the thread type and its work, `🧵 Coordination thread · <label> (<id>)` for Project work and `🧵 State of play thread · <label> (<id>)` for territory work; the copyable send and resume lines are dropped from every banner, handoff and hold report, the thread line taking their place. The coordinator renders it from now on; run wow-thread-footer changes `ki-coordination`, the Work Process Banner section and the generated coordinator style.
+
+## 2026-10-22 08:39 BST - KI-TOOL-TECHNE-CLI-006 accepted, prune waits
+
+Reviews a, b and c all find the delivery meets KI-TOOL-TECHNE-CLI-006 with high confidence; a refuses pruning only because 18 to 21 ki-principal links would be orphaned. Under Kris's 14:46 grant the three agreeing reviews stand in for acceptance: run wow-accept-cli006 records it accepted in tools-techne. The link repair and prune wait for the ki-principal reconciliation.
+
+## 2026-10-22 08:42 BST - PRINCIPAL-RECONCILE: isolated integration first
+
+wow-principal-diagnose: ki-principal is 127 ahead (123 this work's, four ki.chezmoi's) and 52 behind origin; a rebase conflicts on six work-package paths; nothing is mid-operation. The coordinator takes an isolated, non-publishing step, confidence high: run wow-principal-integrate rebases the range onto origin/main in a separate clone, resolves each conflict preserving both sides, revalidates and reports; the primary checkout and origin stay untouched. Publishing the combined history, which carries ki.chezmoi's commits, goes to Kris as a query afterwards.
+
+## 2026-10-22 08:47 BST - ki-principal integration prepared
+
+wow-principal-integrate rebased all 127 local commits onto origin/main 07df4b3e in a separate clone (branch `integrated`, tip 2d010c86): every commit is kept one-to-one, and the conflicts in six work-package files were resolved by keeping both sides in time order. The primary checkout is untouched. Publishing it carries ki.chezmoi's four commits, so it goes to one blind review and then to Kris as PRINCIPAL-PUBLISH.
+
+## 2026-10-22 08:54 BST - KI-DESIGN-ELE-001 fifth planning round
+
+Reviews: a READY high, b NOT READY high (the Decision Record deliverable conflicts with the `ki-decision-records` standard, and Verify has no check for it), c READY high (only the record's own Draft-stage sentences remain). No consensus, so no Ready move. The coordinator takes b's amendments, confidence high: run wow-replan5-ele001 reconciles the Decision Record deliverable with `ki-decision-records`, adds a Verify check for it and folds in c's line edits, still draft; then three fresh reviews.
+
+## 2026-10-22 09:00 BST - Harness third review round
+
+Reviews a, b and c all accept KI-HARNESS-GOV-189, KI-HARNESS-OPS-010 and KI-HARNESS-OPS-011 with high confidence, and confirm KI-HARNESS-GOV-209's earlier acceptance. Pruning is not agreed: a and c refuse every prune on surviving links; b would prune only KI-HARNESS-OPS-010 and KI-HARNESS-OPS-011. NO-GATE: a and b accept; c refuses, confidence medium, because the offline audit passes the directory basename as the repository identity and FILES-2 fails spuriously when `.ki.toml` is staged in a hosted repository. Under Kris's 14:46 grant the three agreeing reviews stand in for acceptance: run wow-accept-harness-3 records the three accepted, fixes the NO-GATE repository identity, and prunes nothing. Link repair and pruning wait for the ki-principal reconciliation.
+
+## 2026-10-22 09:08 BST - ki-principal integration unsafe; ancestry-preserving repair
+
+wow-rev-principal-integrate: UNSAFE, confidence high. All 127 commits replay one-to-one, but the conflict unions restore three messages this work had consumed (CLI-156-POLICY, AUDIT-OUTSIDE-LANE, DEPCRUISE-PATH), combine ki.chezmoi's successive state snapshots as simultaneous instructions, and leave out the primary's later commit 4a54e691. The coordinator takes its safe sequence, confidence high: run wow-principal-repair merges origin and the primary's current tip into a repair branch in the integration clone, preserving original ancestry so both can fast-forward; keeps consumed messages removed; resolves ki.chezmoi's state to its newest coherent snapshot and tells ki.chezmoi by a line in its `messages.md`; verifies; publishes nothing. The coordinator commits nothing more in ki-principal until publication, so the primary tip stays fixed. Publication then goes to blind review and to Kris as PRINCIPAL-PUBLISH.
