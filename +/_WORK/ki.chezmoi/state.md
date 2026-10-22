@@ -1,9 +1,7 @@
 ---
 id: ki.chezmoi
-state: on-hold
-reason: DRAIN from Kris via HNR > SoP, hold, more expected
-release: Kris brings the work packages back one by one, or resume
-since: 2026-10-22T07:51:00Z
+state: with-worker
+since: 2026-10-22T08:00:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-22T07:51:00Z
@@ -14,6 +12,7 @@ method_read: beb56729
 
 ## Now
 
+- Resumed for terra drift only: drift-survey (run `chezmoi`, read-only) classifies drift and terra items; APPLY-PLAN, ORCA-HOOKS, TOWER-PATH back open; radar and Orca adoption stay parked.
 - On hold (DRAIN, 22 October): nothing running; six queries parked (APPLY-PLAN, RADAR-DESIGN, RADAR-PUBLIC, ORCA-ADOPT, ORCA-HOOKS, TOWER-PATH); chezmoi source pushed; nothing applied on terra.
 - ghostty-tabs done: `territory-set [code]` opens the standard three tabs and runs once at Ghostty launch (`557af1d`); target `~/.zsh/60_territory` goes in APPLY-PLAN.
 - apply-plan done: one staged terra plan (APPLY-PLAN, high, with Kris) replaces RIG-APPLY, STARSHIP-APPLY, ZED-FONT-APPLY and WARP-RETIRE timing; warp-retire-blind found the pending applies overlap and Ghostty has no sidebar view.
