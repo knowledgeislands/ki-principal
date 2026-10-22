@@ -4,7 +4,7 @@ state: with-worker
 since: 2026-10-22T21:50:00Z
 received: 2026-10-22T07:24:00Z
 beat: null
-mark: 2026-10-22T21:50:00Z
+mark: 2026-10-22T22:06:00Z
 method_read: eff6163b
 ---
 
@@ -12,9 +12,9 @@ method_read: eff6163b
 
 ## Now
 
-- 22:50 BST mark. Kris asked for a full tidy of ki-principal's working areas and every work package, and everything committed across the Knowledge Islands repositories (22:50).
-- tools-ki admission of `51725e8b..0fd85a08` held: eighth round two accepts, one refusal on receiver containment; the copies were traced to verification and are removed in the tidy, then a fresh containment check and review round.
-- ki-principal integration candidate `32f3efb2` reviewed safe; needs refreshing after the tidy commits before PRINCIPAL-PUBLISH.
+- 23:06 BST mark. Working-area tidy done: `+/_WORK_REVIEW` and the change-management render removed, 388 verification copies removed, nine baseline reports restored, packages pruned, every other KI checkout already committed. Second prune pass on this package (wow-tidy-wow) running.
+- tools-ki admission of `51725e8b..0fd85a08` held: receiver containment is now clean; a fresh review round follows, then a guarded swap at a quiet point for the live dispatcher.
+- ki-principal integration candidate `32f3efb2` reviewed safe but predates tonight's tidy commits; needs refreshing before PRINCIPAL-PUBLISH.
 
 ## Next steps
 
