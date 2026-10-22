@@ -352,3 +352,49 @@ wow-toolski-integrate rebased fix-5 onto 51725e8b (tip 4cd0ab87, not admitted) a
 KI-OBSERVA-VIS-030: two reviews refused, high (dangling references to the removed phases; ideas unhomed). The coordinator narrows KI-OBSERVA-VIS-030 to its delivered minimal chart and interaction under the 02:28 burn-down grant and "make it all work", the later consolidation phases kept as ideas, not dropped; run wow-fix-vis030 applies the reviews' fixes, then three fresh reviews.
 
 KI-TOOL-RIG-CORE-064: two reviews refused, high: SWEEP-CONVERT names this record as its one exception, so the cancellation was wrong. Run wow-fix-rig064 restores it; the coordinator withdrew the ki.chezmoi messages line. The plan's class B for CORE-064 was mistaken.
+
+## 2026-10-22 02:54 BST - Harness batch received
+
+KI-HARNESS-GOV-189, KI-HARNESS-OPS-010 and KI-HARNESS-OPS-011 delivered to awaiting-review; KI-HARNESS-GOV-202 adopted to Next; KI-HARNESS-GOV-209's rollout homed. Three blind reviews follow. Coordinator takes SPEC-HOMING a) (KI-HARNESS-GOV-228 and KI-HARNESS-GOV-229 wait on SPEC-TEXT and ENTRY-NAMES) and GOV202-RENDER's recommended keep-draft course, both high. NO-GATE-OWNER: no owning record exists and CAPTURE-GATE forbids one, so Kris's 02:25 NO-GATE a) stands as a bounded owner instruction needing no record; a later harness run delivers the staged check-only gate.
+
+## 2026-10-22 03:00 BST - Harness reviews and KI-PRINCIPAL-ECO-013
+
+Harness reviews did not reach three agreeing high-confidence verdicts on any record; run wow-fix-harness fixes every finding and delivers NO-GATE a) under Kris's 02:25 answer, then fresh reviews. KI-PRINCIPAL-ECO-013: two reviews refuse pruning (high): the overnight grant does not plainly approve this cancellation, the ki-accept step was skipped and a link survives; it stays cancelled and unpruned, for a morning query.
+
+## 2026-10-22 03:04 BST - VIS-030 homed, Techne CLI-006 delivered
+
+wow-vis030-home homed the chart's later ideas in the Observatory Project note (ki-principal c88355d0) and repaired KI-OBSERVA-VIS-030's references (apps-observatory.local 8f090308). wow-burn-techne delivered KI-TOOL-TECHNE-CLI-006 offline to awaiting-review (tools-techne 41b6fd40). Three fresh blind reviews of each follow; acceptance and pruning only on three agreeing high-confidence accepts, under Kris's 14:46 grant.
+
+## 2026-10-22 03:07 BST - ELE001-PINS taken, replan received
+
+The coordinator took ELE001-PINS b), confidence high: read-only registry metadata, no install. wow-replan2-ele001 amended KI-DESIGN-ELE-001 with the three planning reviews' changes and verified pins (ki-design c813003), still draft. Three fresh planning reviews follow; Ready only on three agreeing high-confidence READY verdicts, under Kris's triage-and-draft grant.
+
+## 2026-10-22 03:11 BST - KI-OBSERVA-VIS-030 second review round
+
+Reviews: a REFUSE high (an unreadable first territory leaves the chart with no keyboard tab stop), b REFUSE high (the island-condition follow-up has no durable home; stale "not yet supplied upstream" wording), c ACCEPT high. The coordinator takes both refusals' recommended fixes, confidence high, under "make it all work": run wow-fix-vis030-2 repairs the keyboard defect with a test, homes the island-condition idea in the Observatory Project Notes and corrects the wording; then three fresh reviews.
+
+## 2026-10-22 03:13 BST - KI-TOOL-TECHNE-CLI-006 reviews
+
+Reviews: a REFUSE high (contradictory repository evidence can be reported clean; twelve surviving links block pruning), b ACCEPT high, c ACCEPT high. The coordinator takes the refusal's fix, confidence high, under "make it all work": run wow-fix-cli006 repairs the defect with a regression test in tools-techne; the inbound links are left for the prune run. Then three fresh reviews.
+
+## 2026-10-22 03:15 BST - KI-DESIGN-ELE-001 third planning round
+
+Reviews: a NOT READY high (the Project front matter names no registered Project), b NOT READY high (map text-equivalent assertion, site handoff destination, Node version invoked), c READY high with two line-level amendments. The coordinator takes every amendment, confidence high: run wow-replan3-ele001 applies them, still draft; then three fresh planning reviews.
+
+## 2026-10-22 03:17 BST - VIS-030 fixes held on the island-wide Principal baseline
+
+wow-fix-vis030-2 fixed the keyboard defect (regression test, every Observatory gate green) and homed the island-condition idea, but committed nothing because the full ki-principal rumdl and audit fail on 386 pre-existing findings outside its file. The coordinator takes neither option, confidence high: ki-principal's gate for a single-note edit is its own commit hooks plus note lint and a before-and-after audit showing no new finding, as wow-vis030-home used for c88355d0; the island-wide baseline is pre-existing and not this work's to clear tonight. Run wow-commit-vis030 finishes both commits on that basis.
+
+## 2026-10-22 03:19 BST - Harness fixes received
+
+wow-fix-harness repaired every review finding on KI-HARNESS-GOV-189, KI-HARNESS-OPS-010, KI-HARNESS-OPS-011 and KI-HARNESS-GOV-209, delivered NO-GATE a) (52a719ec) under Kris's 02:25 answer, all gates green, pushed. Three fresh blind reviews follow (wow-rev2-harness); pruning only on three agreeing high-confidence accepts.
+
+## 2026-10-22 03:21 BST - tools-ki AUDIT-BASELINE, ELE-001 amended, CLI-006 fixed
+
+wow-toolski-integrate-2: fixture and the full suite pass; the audit fails because the active Harness requires `tooling/depcruise` and tools-ki still uses `tooling/boundaries`. The coordinator takes b), confidence high: the tools-ki depcruise migration was already due under DEPCRUISE-PATH, so run wow-toolski-integrate-3 lands it and the fixture on the integration branch, every gate green, no admission and no push; rereview5 follows.
+
+wow-replan3-ele001 applied every planning amendment to KI-DESIGN-ELE-001, still draft; wow-fix-cli006 fixed the contradictory-evidence defect in KI-TOOL-TECHNE-CLI-006 with regressions. Three fresh reviews of each follow.
+
+## 2026-10-22 08:24 BST - mark; waiter lapse
+
+The coordinator's waiter lapsed after 03:21 and was not re-armed, so nothing was received or launched between 04:02 and 08:22. Received at the mark: wow-commit-vis030 (KI-OBSERVA-VIS-030 fixes committed in apps-observatory.local a591c48d and ki-principal 2e8c6cd0; its push blocked as PRINCIPAL-RECONCILE); wow-toolski-integrate-3 (fixture b3fec501 and depcruise migration a9aba774 on the integration branch, every gate green, not admitted); wow-rev2-harness-a refused every Harness item for pruning (surviving links, unverified hosted citations, and the NO-GATE audit can contact GitHub against the offline hook contract); wow-rev2-harness-b and -c ended without reports. Kris, 08:22: "take a mark, then give me an update of whats happened since we last talked and any queries".
