@@ -12,8 +12,8 @@ method_read: beb56729
 
 ## Now
 
-- apply-stages (run `chezmoi`, machine): APPLY-PLAN stage 1 and Warp's retirement on terra, and whether the hold's fixed Rig release is in. orca-hooks-research (read-only): hooks only while Orca is in use.
-- drift-sweep queued after apply-stages: resolves remaining drift, scoped, leaving the two Codex files.
+- apply-stages done: stage 1 applied, Starship and font via targeted `rig apply`; Warp retired (zap); `rig doctor` 6 (handlers and Dock wait on stage 3, firewall elsewhere). hold-blind (Codex) reviews HOLD-LIFT.
+- drift-sweep (run `chezmoi`, machine) running: resolves remaining drift, scoped, leaving the two Codex files.
 - terra-actions done: Spark launcher gone; trust applied (relaunch Claude Desktop); Tower Assistant move cancelled with kb.regular.site-tower; NUDGE-SIMPLIFY with Kris. Kris is doing TERRA-REMOVALS at the screen (Wrangler done).
 - vscode-groups done; Kris chose layout A (18:44); handed to ki.tools-burndown, chezmoi sync follows its release.
 - trust-new-repos done: five new repositories trusted in source for Claude Code, Claude Desktop and Codex, four VS Code workspace files added (chezmoi `25c0bde`); TRUST-APPLY with Kris; sky and snowflake rest on another session's uncommitted `workspaces/humans-not-robots/dot_mgit.toml`.

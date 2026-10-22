@@ -2,7 +2,7 @@
 
 ## Open
 
-- HOLD-LIFT (Needs: decision, Kris): lift the 14 October both-Mac `rig apply` hold (RIG-CASKS) once apply-stages confirms the fixed release is installed, so Rig does stage 3 (handlers, Dock) and future installs and removals.
+- HOLD-LIFT (Needs: decision, Kris; in blind review: hold-blind): Rig 0.8.0 on terra (checkout, untagged) contains cask fix `671c864`; a targeted apply worked today. Lift for terra now and sol once confirmed / both now / keep until v0.8.0 is a tagged release.
 - ORCA-HOOKS (Needs: decision, Kris; kept open until an outcome, Kris 19:01): a) make `~/.codex/hooks.json` a `modify_` that keeps Orca's hooks (as Claude's does), ending the drift with Orca untouched; Kris posts the drafted Orca issue asking for per-pane hooks so they exist only in Orca's agents (recommended, high); b) the `modify_` only, accept about 20–40 ms per tool call outside Orca; c) give Orca its own Claude and Codex config (splits logins and history).
 - CODEX-CONFIG (Needs: action, Kris; a) chosen 18:44, awaiting his apply-or-hold): `~/.codex/config.toml` changed on both sides and its render reads 1Password, so no run diffs it; at the screen run `chezmoi diff ~/.codex/config.toml` and say apply or hold (9 of its 11 hook-trust entries are Orca's).
 - TERRA-REMOVALS (Needs: decision, Kris; KB-DOTFILES-UE-086): a) one attended ki-self pass now, allowed ahead of B1–B5: Spark launcher, Clockology, Nitro, Mercury, Homebrew `cloudflare-wrangler`; Prime Video and BlueStacks only after Kris keeps or discards their data; Creative Cloud only after an at-screen product, sign-in and sync check (recommended, medium, reviewed); b) leave all to a dedicated KB-DOTFILES-UE-086 session; c) Wrangler alone now, the rest later.
