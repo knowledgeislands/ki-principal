@@ -12,7 +12,7 @@ method_read: beb56729
 
 ## Now
 
-- Resumed for terra drift only: drift-survey (run `chezmoi`, read-only) classifies drift and terra items; APPLY-PLAN, ORCA-HOOKS, TOWER-PATH back open; radar and Orca adoption stay parked.
+- Resumed for terra drift only: drift-survey done (37 targets: 22 stage 1, 11 Warp stage 2, Claude settings harmless, Codex hooks ORCA-HOOKS, Codex config.toml diff at screen); terra removals in blind review (terra-removals-blind); APPLY-PLAN, ORCA-HOOKS, TOWER-PATH back open; radar and Orca adoption stay parked.
 - On hold (DRAIN, 22 October): nothing running; six queries parked (APPLY-PLAN, RADAR-DESIGN, RADAR-PUBLIC, ORCA-ADOPT, ORCA-HOOKS, TOWER-PATH); chezmoi source pushed; nothing applied on terra.
 - ghostty-tabs done: `territory-set [code]` opens the standard three tabs and runs once at Ghostty launch (`557af1d`); target `~/.zsh/60_territory` goes in APPLY-PLAN.
 - apply-plan done: one staged terra plan (APPLY-PLAN, high, with Kris) replaces RIG-APPLY, STARSHIP-APPLY, ZED-FONT-APPLY and WARP-RETIRE timing; warp-retire-blind found the pending applies overlap and Ghostty has no sidebar view.
