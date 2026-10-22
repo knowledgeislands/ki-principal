@@ -342,3 +342,13 @@ wow-apps-depcruise could not commit the website's dependency-cruiser migration b
 ## 2026-10-22 02:45 BST - Rig batch received
 
 wow-burn-rig-gate: KI-TOOL-RIG-CORE-053 and KI-TOOL-RIG-CORE-062 back at awaiting-review with fresh evidence, each still carrying an attended item (053's live owner check, 062's terra check and rollout), so not reviewable for pruning tonight; KI-TOOL-RIG-CORE-064 cancelled under SWEEP-CONVERT and its scan routed as a line to ki.chezmoi's messages.md. Coordinator takes RIG069-ROUTE a) and RIG068-GATE a), both high: CORE-069 and CORE-068 stay in draft for the morning walk-through. Three blind reviews of the CORE-064 cancellation follow.
+
+## 2026-10-22 02:47 BST - tools-ki integration: RENAME-REPLAY
+
+wow-toolski-integrate rebased fix-5 onto 51725e8b (tip 4cd0ab87, not admitted) and failed one renamed-folder fixture against the preserved event history; its audit preparation was incomplete. Coordinator takes RENAME-REPLAY a), confidence high: a focused fixture update, full fix-5 audit preparation and every gate, in run wow-toolski-integrate-2; then three blind reviews before admission.
+
+## 2026-10-22 02:49 BST - reviews refused KI-OBSERVA-VIS-030 and KI-TOOL-RIG-CORE-064
+
+KI-OBSERVA-VIS-030: two reviews refused, high (dangling references to the removed phases; ideas unhomed). The coordinator narrows KI-OBSERVA-VIS-030 to its delivered minimal chart and interaction under the 02:28 burn-down grant and "make it all work", the later consolidation phases kept as ideas, not dropped; run wow-fix-vis030 applies the reviews' fixes, then three fresh reviews.
+
+KI-TOOL-RIG-CORE-064: two reviews refused, high: SWEEP-CONVERT names this record as its one exception, so the cancellation was wrong. Run wow-fix-rig064 restores it; the coordinator withdrew the ki.chezmoi messages line. The plan's class B for CORE-064 was mistaken.
