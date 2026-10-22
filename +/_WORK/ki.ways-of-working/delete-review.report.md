@@ -1,0 +1,17 @@
+# [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Ways of working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md) › delete-review
+
+## **🤖 → 👤 Handoff to supervisor · Run report at 20:45 BST · last mark 20:10 BST**
+
+## Done
+
+Commits: none; repository review read-only, no remote calls. **Group 1: delete after rewriting Acquire’s `personal/acquire/+/_WORK/kb.regular.acquire-intake/query-review-2.report.md:11` classification link to the retained agent-host work or governance policy; confidence high - all 14 classified destinations exist, all 154 mapped sources are absent, and all 86 missing destinations have Git-recorded deletions (84 reports, two briefs); Capital/harness old roots and Streams design folders are gone, housekeeping themes changed. Keep `applied-map.tsv`; classification/review reasons and hold restrictions survive in work packages; no unique migration authority found. Group 2: delete after replacing harness `skills/governance/ki-work-package/references/standards-work-package.md:77`’s design-note attribution with the standing contract; confidence high - ownership/naming are carried at :5,40,77, checks by KI-HARNESS-GOV-200 and the linked CLI-150/152 handoffs, and the package rename explicitly supersedes the old name. Group 3: keep; confidence high - behaviour is largely homed/superseded, but verbatim owner wording is not wholly carried by the permitted durable homes. Tag comparison: BANNER-FRAME/BANNER-LETTERS/AT-REST and THREAD-TERMS/THREAD-TYPES/FIRST-TYPE are adopted in coordination sources :19,21 and superseded/mapped in the standard :65-79,97-124; BANNER-MARK/RESUME-GUARD remain mark-first, fresh-summary and mismatch-stop at :298-307; CLOSE-TIDY :818-825; INBOX :375-387 plus the package inbox/GDR-009 supersede the old channel, with native naming carried by GOV-199; RESTORE-HOME by delegation/engineering standards; HOOK-RUNTIME explicitly superseded in delegation sources :15 when KI_AGENT_RUN reached both runtimes; RESUME-COMPACT (including Kris’s Zed-test assignment) in coordination sources :21 and standard :352-373; SURFACE :375-387; REDX :389-395; DECISION-CLASSES/ONE-LIST :791-810; DESIGN-HOME superseded at :814, DESIGN-GRADUATE retained by work-design artefact-home. Loss requiring preservation or explicit note-specific disposition: banner note :9’s original request, compaction-diagnosis wording and whole-thread-model ownership instruction, :17’s BANNER-LETTERS words, :186’s BANNER-MARK compaction-equivalence confirmation; types note :9’s two owner requests, :11’s DECISION-HOME wording and :129’s original DESIGN-RETENTION rationale. The later adoption summary is not those words; no unique additional push/prune grant found. Before any group-3 deletion rewrite `design/design.md:54,58` and `design/change-management-decisions.md:125` to the current standard; links between the two deleted notes disappear together. Current work-model migration is present; historical wording in retained papers is not a remaining live folder shape. No implementation or deletion performed; review complete.
+
+## In Progress
+
+## Queries
+
+None; the supervisor can use the conditional verdicts above without a further answer from this reviewer.
+
+### 🤖 → 👤 Handoff to supervisor · delete-review at 20:45 BST
+
+- [handoff] 1 completed review; 0 running, 0 queued, 0 open queries · supervisor · since 20:45 BST
