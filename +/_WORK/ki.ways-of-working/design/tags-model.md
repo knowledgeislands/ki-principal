@@ -1,4 +1,5 @@
 ---
+note_type: streams/design
 status: draft
 ---
 
@@ -229,9 +230,78 @@ Reproduction uses the five-zone tracked-file selection, YAML unique-key parsing,
 
 Public citations identify the documentation actually consulted. Logseq's main documentation application exceeded the web reader's size limit; the official documentation repository supplied the readable file-graph and database-graph sources. The distinction between those graph models is retained in the comparison. No third-party forum claim supplies the product conclusions.
 
+## Pilot, 22 October 2026
+
+Kris answered TAGS a) at 02:25 BST on 22 October, "I agree with what you said about tags", recorded in the [Ways of working decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/decisions.md), and the overnight run `wow-burn-principal` planned and ran the bounded pilot below in KI Principal. It is additive and reversible: one commit adds 23 `topic/*` lines to 21 notes and removes nothing, so reverting that commit restores every note exactly. No `card/*`, `date/*` or `source/*` tag, `note_type`, date, lifecycle or provenance field was touched, and no `updated` value was moved, because the change is metadata for the trial rather than a revision of the notes.
+
+### Plan
+
+1. Fix five owner-relevant retrieval questions and, for each, the notes a reader would want, before any tag is added, so that the expected sets do not follow the tags.
+2. Use a pilot vocabulary of the existing observed subjects plus one new term, with a scope and aliases for each subject the questions test.
+3. Tag every expected note that can carry tags with the question's subject, zero to two subjects per note, leaving decision records untagged as the control.
+4. Run the same questions three ways before and after: full-text search for the term a reader would type, following links from the obvious entry note, and a tag filter.
+5. Record expected notes found, results returned and notes missed; keep the existing tags throughout.
+
+### Pilot vocabulary
+
+| Slug | Scope: tag a note when it is substantially about | Not for | Aliases | State |
+| --- | --- | --- | --- | --- |
+| `topic/governance` | Who holds authority, how canonical change is approved, charters, councils, conformance | Notes that merely pass through Enactment | authority, enactment | existing, extended |
+| `topic/agents` | How AI agents and Avatars act in the model, their roles and limits | AI as technology in general, which stays `topic/ai` | avatars, delegation | new |
+| `topic/acquisition` | How outside material enters an island: the Port, acquisition, routing on arrival | Trade between islands | capture, intake, port | existing, extended |
+| `topic/history` | Where the model's ideas come from: the history of knowledge systems, prior art, influences and lineage | The history of a single note or repository | lineage, influences | existing, extended |
+| `topic/work` | How forward work is recorded and moved: work records, Streams, Activities, the Work Process | Notes that merely cite a work record | roadmap, streams | existing, extended |
+
+The other observed subjects stay as they are and are not tested here: `topic/knowledge-management`, `topic/productivity`, `topic/automation`, `topic/aesthetics`, `topic/mcp`, `topic/ai`, `topic/tools`, `topic/brand`, `topic/symbols` and the precise singletons. `topic/knowledge-islands`, on 93 of 180 notes in this island, retrieves nearly everything and is a candidate for deprecation here, though not for removal in this pilot.
+
+### Sample
+
+Twenty-seven notes across 20 Pillars, 6 Admin and 1 Calendar notes; 21 gained a tag and 6 already carried the one they needed. Resources holds only the Productivity pair, already tagged `topic/productivity` under a matching folder, so it adds no new case. The six decision records in the expected sets were not tagged: their front matter belongs to `ki-decision-records` and has no `tags` field, which makes them a natural untagged control.
+
+| Question | Subject | Expected notes |
+| --- | --- | ---: |
+| Who holds authority on an island, and how is canonical change approved? | `topic/governance` | 9 |
+| How do AI agents act in the model, and within what limits? | `topic/agents` | 8, 2 of them decision records |
+| How does outside material enter the island? | `topic/acquisition` | 6, 2 of them decision records |
+| Where do the model's ideas come from? | `topic/history` | 5 |
+| How is forward work recorded and moved through its states? | `topic/work` | 6, 2 of them decision records |
+
+### Retrieval comparison
+
+Corpus: the 180 tracked Markdown notes in Admin, Calendar, Pillars and Resources, excluding templates. "Found" counts expected notes returned; "results" counts everything returned, which a reader has to sift.
+
+| Question | Best full-text query: found, results | Links from the entry note: found | Tag before: found, results | Tag after: found, results |
+| --- | --- | --- | --- | --- |
+| Governance | `governance`: 9/9, 127 | Governance: 1/6 | 3/9, 5 | 9/9, 11 |
+| Agents | `agents?`: 8/8, 93 | Model Agents: 2/7 | 0/8, 0 | 6/8, 6 |
+| Acquisition | `port`: 4/6, 19 | Acquisition Process: 2/5 | 1/6, 1 | 4/6, 4 |
+| History | `history`: 4/5, 22 | Background: 4/5 | 1/5, 1 | 5/5, 5 |
+| Work | `roadmap`: 5/6, 32 | Work Process: 0/5 | 1/6, 1 | 4/6, 4 |
+
+The narrower full-text alternatives did worse on recall: `enactment` found 8/9 in 49 results, `avatars?` 2/8 in 11, `acquisition` 2/6 in 15, `lineage|influences?|inspirations?` 3/5 in 9 and `work records?` 3/6 in 14. The two extra governance results by tag are the Conformance notes, which were already tagged and are relevant.
+
+### Findings
+
+- **Tags cut the sifting, not the recall.** Broad full-text queries already reach almost every expected note, but in 19 to 127 results; the tag returns 4 to 11, nearly all relevant. For broad subjects such as governance and agents, which appear in 70% and 52% of notes, full text is not a usable retrieval path on its own.
+- **Tags help most where a subject crosses zones.** Governance spans the Concept, Model and Realisation chapters and Admin, and work spans the Model and Admin. These are the cases where links from the obvious entry note recovered least, 1 of 6 and 0 of 5, and where the tag recovered every expected note except decision records.
+- **Where a chapter already gathers the subject, links do as well.** Background links four of the five lineage notes, so the history tag adds only the Calendar note. Tagging a subject that one index note already covers buys little.
+- **Untagged notes fall out of a tag filter.** All six misses after the pilot are decision records, which carry no tags by contract. A tag filter is therefore a supplement to links and full text, not a replacement, and either `ki-decision-records` gains an optional `tags` field or tag retrieval is paired with the Decisions index.
+- **The author effort is small once the scope is written.** Each tag was a one-line, one-judgement edit; the scope notes did the work, especially the "Not for" column, which kept `topic/governance` off notes that merely pass through Enactment.
+- **Nothing reads these tags in a way the pilot can break.** The Observatory reads `tags` as a list of strings and stays valid; the KI Website's tag handling is for its own pages; the `mcp-ki-kb-fs` source uses tags only in tests. Obsidian's tag pane and search pick the new values up as they are.
+
+### Limits
+
+The same run wrote the questions, the expected sets and the tags, so recall by tag on these 27 notes is close to guaranteed; the honest measures are the result counts, the misses outside the tagged set and the effort. There were no timed searches, no reader other than the run, and no Obsidian interface test. Five questions on 180 notes is a pilot, not an estimate for HNR, whose 99 subjects and 560 notes need their own owner.
+
+### Next decision
+
+The pilot supports keeping optional controlled `topic/*` tags for subjects that cross zones, scoped by a short register, and not tagging subjects one chapter already gathers. Three things follow, each needing its own authority: reconcile the [Tags convention](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Conventions/Notes/Tags.md) with this register through the Enactment Process; decide whether decision records take optional tags under `ki-decision-records`; and leave the `card/*`, `date/*` and `source/*` question to the mapping step of the staged plan above. The pilot tags stay in place meanwhile and are reverted by reverting their commit.
+
 ## For Kris
 
 ### TAGS - a useful role for tags beside folders, links and note_type
+
+Answered a) by Kris at 02:25 BST on 22 October; the pilot above ran under it.
 
 **Context:** Current subject tags can group notes across folders, but their retrieval benefit has not been tested. The four-principal sample found substantial legacy kind tagging and uneven subject vocabularies. Some old kind tags retain meaning absent from `note_type`, and date/source tags can carry information that must be preserved. Public systems support separating subject grouping, typed properties and meaningful links; they do not establish a universal ideal taxonomy. The proposed model is optional controlled `topic/*` tags within the island's existing metadata facets, with local vocabulary ownership. This is a design and pilot decision, not approval for bulk removal or cross-island changes.
 

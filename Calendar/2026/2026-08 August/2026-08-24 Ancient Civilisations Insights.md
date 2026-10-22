@@ -4,6 +4,7 @@ tags:
   - date/2026/08/24
   - topic/knowledge-islands
   - source/granola
+  - topic/history
 updated: 2026-10-05T20:30:00Z
 author: Mixed
 granola_source_id: 3989eee1-0033-4a72-b0f7-a37ec3b60834

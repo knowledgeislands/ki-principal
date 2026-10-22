@@ -5,6 +5,7 @@ tags:
   - card/note
   - topic/knowledge-islands
   - topic/knowledge-management
+  - topic/acquisition
 status: current - October 2026
 author: Mixed
 ---

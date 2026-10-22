@@ -3,6 +3,7 @@ note_type: admin/governance/convention
 tags:
   - card/note
   - topic/knowledge-islands
+  - topic/acquisition
 status: current - April 2026
 author: Written with Claude
 memory_file: project_{ki_prefix}_structure.md

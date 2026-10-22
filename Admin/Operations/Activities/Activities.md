@@ -3,6 +3,7 @@ note_type: admin/operations/activity
 tags:
   - card/note
   - topic/knowledge-islands
+  - topic/work
 status: current - April 2026
 author: Written with Claude
 ---

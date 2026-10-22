@@ -2,6 +2,8 @@
 note_type: admin/governance/policy
 updated: 2026-10-19T23:16:23Z
 author: AI-assisted
+tags:
+  - topic/agents
 ---
 
 # Techne Programme Focus

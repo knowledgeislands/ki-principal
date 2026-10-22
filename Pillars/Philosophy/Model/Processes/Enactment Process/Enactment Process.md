@@ -3,6 +3,7 @@ note_type: pillars/index
 tags:
   - card/note
   - topic/knowledge-islands
+  - topic/governance
 status: current - October 2026
 author: Mixed
 ---

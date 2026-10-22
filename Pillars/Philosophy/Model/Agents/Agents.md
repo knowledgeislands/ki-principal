@@ -4,6 +4,7 @@ updated: 2026-10-19T07:00:00Z
 tags:
   - card/note
   - topic/knowledge-islands
+  - topic/agents
 status: current - October 2026
 author: Written with Claude
 ---

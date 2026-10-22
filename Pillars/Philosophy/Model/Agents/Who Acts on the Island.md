@@ -4,6 +4,7 @@ tags:
   - card/note
   - topic/knowledge-islands
   - topic/knowledge-management
+  - topic/agents
 status: current - April 2026
 author: Written with Claude
 ---

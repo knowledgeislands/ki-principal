@@ -3,6 +3,7 @@ note_type: pillars/note
 tags:
   - card/note
   - topic/knowledge-islands
+  - topic/governance
 status: current - April 2026
 author: Written with Claude
 ---

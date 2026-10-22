@@ -5,6 +5,7 @@ tags:
   - card/note
   - topic/knowledge-islands
   - topic/ai
+  - topic/history
 status: draft - October 2026
 author: Written with Claude
 ---

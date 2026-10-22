@@ -3,6 +3,7 @@ note_type: admin/governance/convention
 tags:
   - card/note
   - topic/knowledge-islands
+  - topic/work
 status: current - October 2026
 author: Mixed
 ---

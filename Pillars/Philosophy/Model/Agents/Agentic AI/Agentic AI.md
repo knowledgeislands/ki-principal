@@ -6,6 +6,7 @@ tags:
   - topic/knowledge-management
   - topic/ai
   - topic/automation
+  - topic/agents
 status: current - April 2026
 author: Written with Claude
 ---

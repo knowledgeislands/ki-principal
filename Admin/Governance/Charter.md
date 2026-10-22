@@ -4,6 +4,7 @@ updated: 2026-10-19T23:16:23Z
 tags:
   - card/note
   - topic/knowledge-islands
+  - topic/governance
 status: current - October 2026
 author: Mixed
 ---

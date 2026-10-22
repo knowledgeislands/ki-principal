@@ -3,6 +3,7 @@ note_type: pillars/index
 tags:
   - card/note
   - topic/knowledge-islands
+  - topic/agents
 status: draft - April 2026
 author: Written with Claude
 ---
