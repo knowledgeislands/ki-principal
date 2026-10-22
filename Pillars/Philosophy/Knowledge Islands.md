@@ -42,6 +42,7 @@ The first part establishes the problem and the model. It does not assume the rea
 - [Layers of Knowledge](<Introduction/Background/Layers of Knowledge/Layers of Knowledge.md>) - individual to collective to civilisational; the scope of the problem
 - [Prior Art](<Introduction/Background/Prior Art/Prior Art.md>) - Zettelkasten, PARA, LLM wikis, OKF; what each gets right and what each leaves open
 - [Influences Along the Way](<Introduction/Background/Influences Along the Way/Influences Along the Way.md>) - gstack, Paperclip, Gas City, Hermes Agent, OpenClaw; what was met along the journey and what each informed
+- [Fictional Lineage](<Introduction/Background/Fictional Lineage/Fictional Lineage.md>) - Tron, The Matrix, Inception, Otherland and others; the speculative fiction behind the Avatar and the Realm
 - [The Cycle of Knowledge](<Introduction/Background/The Cycle of Knowledge/The Cycle of Knowledge.md>) - capture, connect, reflect; the engine that keeps an island alive
 - [The Home of Knowledge](<Introduction/Background/The Home of Knowledge/The Home of Knowledge.md>) ★ - the island, Capital, Library, Streams, Port; the model lands here
 

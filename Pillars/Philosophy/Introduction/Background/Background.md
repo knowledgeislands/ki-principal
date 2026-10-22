@@ -53,6 +53,12 @@ The notes are written to be read in order. After a short orienting entry point, 
 
 ---
 
+## Fictional Lineage
+
+[Fictional Lineage](<Fictional Lineage/Fictional Lineage.md>) records the speculative fiction behind the model - _Tron_, _The Matrix_, _Inception_, _Otherland_ and others - and the specific idea each one contributed, from the Avatar to movement through a Realm's history. It complements the real-world lineage of History of Knowledge Systems and closes with the capture principle that Influences Along the Way also follows, so that the record stays about ideas rather than becoming a reference list.
+
+---
+
 ## The Cycle of Knowledge
 
 [The Cycle of Knowledge](<The Cycle of Knowledge/The Cycle of Knowledge.md>) describes the engine that keeps an island alive: capture, connect and reflect, running in parallel at different cadences. It distinguishes informational change, driven by new material, from reflective change, which reworks what is already held. This is the dynamic half of the model, and the reason later chapters care about activities, review cadence and the human role in reflection.

@@ -1,6 +1,6 @@
 ---
 note_type: pillars/index
-updated: 2026-10-19T23:16:23Z
+updated: 2026-10-22T01:52:00Z
 tags:
   - card/note
   - topic/knowledge-islands
@@ -16,17 +16,17 @@ Emerging Concepts holds ideas about Knowledge Islands that are worth keeping but
 
 The folder exists so that open concepts live in the knowledge base proper, where they can be iterated on and linked, rather than in an acquisition inbox. Each is an input to the whole-philosophy review, which will decide whether to adopt, reshape or drop it. The first notes came from a ChatGPT conversation captured on 2026-10-03.
 
+On 2026-10-22 Kris asked that these concepts not be lost - "we don't want to lose them, so we need to put them somewhere" - and that the whole-site review consider whether they appear on the website "if it makes sense". This note is that home: [Fictional Lineage](<../Introduction/Background/Fictional Lineage/Fictional Lineage.md>) has been adopted into the Background chapter, and the three concepts below stay here, unadopted, until the whole-philosophy review settles them.
+
+### For the whole-site review
+
+The KI Website does not present Emerging Concepts today. The whole-site review decides whether it should, for example as an Emerging Concepts or Future Concepts page that marks every concept as unsettled, and which of the three below, if any, it shows. Until then nothing here is published as part of the model. Fictional Lineage, now part of Background, reaches the site with that chapter.
+
 ---
 
 ## Realm Model
 
 [Realm Model](<Realm Model.md>) sketches the Realm: a logical environment with its own rules of identity, authority, capability and history, within which islands, organisations and Avatars act. It sets out the working distinction between Island, Landscape and Realm, the questions of Avatar portability and of travelling through a Realm's history, and a possible Knowledge Realms registry. It also records an open tension with the one-persona decision over Avatar names per Realm.
-
----
-
-## Fictional Lineage
-
-[Fictional Lineage](<Fictional Lineage.md>) records the speculative fiction behind the model - _Tron_, _The Matrix_, _Otherland_ and others - and the specific idea each one contributed. It complements the real-world lineage already told in the Introduction's Background chapter. It closes with a principle for capturing future inspirations so that the record stays about ideas rather than becoming a reference list.
 
 ---
 

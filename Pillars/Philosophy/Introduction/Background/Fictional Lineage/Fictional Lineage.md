@@ -1,10 +1,10 @@
 ---
-note_type: pillars/note
-updated: 2026-10-11T03:17:00Z
+note_type: pillars/index
+updated: 2026-10-22T01:50:00Z
 tags:
   - card/note
   - topic/knowledge-islands
-status: emerging - not adopted
+status: current - October 2026
 author: Written with Claude
 ---
 
@@ -12,7 +12,7 @@ author: Written with Claude
 
 ## Overview
 
-This is an emerging concept, not adopted philosophy. Knowledge Islands draws on speculative fiction as well as on real knowledge systems. The real-world lineage - ancient civilisations, libraries and their loss, islands, territories and harbours - is already told in [History of Knowledge Systems](<../Introduction/Background/History of Knowledge Systems/History of Knowledge Systems.md>), [Layers of Knowledge](<../Introduction/Background/Layers of Knowledge/Layers of Knowledge.md>), [Territories and Archipelagos](<../Introduction/Concept/Territories and Archipelagos/Territories and Archipelagos.md>) and [The Home of Knowledge](<../Introduction/Background/The Home of Knowledge/The Home of Knowledge.md>), and [Prior Art](<../Introduction/Background/Prior Art/Prior Art.md>) covers knowledge-management prior art. This note holds the fictional strand, which no established note yet carries.
+Knowledge Islands draws on speculative fiction as well as on real knowledge systems. The real-world lineage - ancient civilisations, libraries and their loss, islands, territories and harbours - is told in [History of Knowledge Systems](<../History of Knowledge Systems/History of Knowledge Systems.md>), [Layers of Knowledge](<../Layers of Knowledge/Layers of Knowledge.md>), [Territories and Archipelagos](<../../Concept/Territories and Archipelagos/Territories and Archipelagos.md>) and [The Home of Knowledge](<../The Home of Knowledge/The Home of Knowledge.md>), [Prior Art](<../Prior Art/Prior Art.md>) covers knowledge-management prior art, and [Influences Along the Way](<../Influences Along the Way/Influences Along the Way.md>) the projects met later. This note holds the fictional strand.
 
 These references are not decorative names. They are thought experiments that expose useful architectural distinctions, so what matters is which idea each one contributed.
 
@@ -38,6 +38,8 @@ _Star Trek_ came up in the same conversation only as an example of fiction inspi
 
 ## Themes
 
+The Realm, the Operator and the Architect named in the table are not yet adopted philosophy; they are held in [Emerging Concepts](<../../../Emerging Concepts/Emerging Concepts.md>) until the whole-philosophy review settles them. This note records only where the ideas came from.
+
 Some ideas are broad speculative themes rather than requirements: digital continuity, identity independent of embodiment, persistent virtual worlds, movement between Realms, movement through historical state, delegated digital agency, and the reconstruction of identity or culture from accumulated knowledge. They remain conceptual horizons unless they become explicit requirements.
 
 ---
@@ -57,4 +59,4 @@ The aim is a record of ideas and their influence, not a fandom or reference list
 
 ## Provenance
 
-Captured from a ChatGPT conversation on 2026-10-03 and reconciled against Knowledge Islands Principal on 2026-10-11, when the real-world lineage already held elsewhere was trimmed. Held here as input to the whole-philosophy review.
+Captured from a ChatGPT conversation on 2026-10-03 and reconciled against Knowledge Islands Principal on 2026-10-11, when the real-world lineage already held elsewhere was trimmed. Held as an emerging concept until 2026-10-22, when Kris adopted it into the Background chapter under EMERGING ("we don't want to lose them ... happy to go with what you think"), recorded in the `ki.ways-of-working` decisions log.

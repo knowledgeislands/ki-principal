@@ -1,6 +1,6 @@
 ---
 note_type: pillars/index
-updated: 2026-10-18T12:00:00Z
+updated: 2026-10-22T01:50:00Z
 tags:
   - card/note
   - topic/knowledge-islands
@@ -13,7 +13,7 @@ author: Written with Claude
 
 These are not the inspirations that started Knowledge Islands. Those are the founding approaches in [Prior Art](<../Prior Art/Prior Art.md>) - Zettelkasten, PARA, LLM-native wikis and the Open Knowledge Format - and the real-world lineage told in [History of Knowledge Systems](<../History of Knowledge Systems/History of Knowledge Systems.md>). The projects below were met later, along the journey, while Knowledge Islands was being put to work with agents. Each one informed it: sometimes by being adopted, sometimes by being tried and set aside, and sometimes only by showing an idea clearly.
 
-Each entry follows the capture principle in [Fictional Lineage](<../../../Emerging Concepts/Fictional Lineage.md>): the source, the idea it contributes, what in Knowledge Islands it informed, and what kind of influence it is. Where the influence is not yet written down anywhere, it says "to be recorded" rather than guessing. None of these entries is an adoption decision; the [Technology Radar](<../../../../Engineering Practice/Technology/Technology Radar.md>) and the KI Agentic Harness decisions hold the engineering posture.
+Each entry follows the capture principle in [Fictional Lineage](<../Fictional Lineage/Fictional Lineage.md>): the source, the idea it contributes, what in Knowledge Islands it informed, and what kind of influence it is. Where the influence is not yet written down anywhere, it says "to be recorded" rather than guessing. None of these entries is an adoption decision; the [Technology Radar](<../../../../Engineering Practice/Technology/Technology Radar.md>) and the KI Agentic Harness decisions hold the engineering posture.
 
 ---
 

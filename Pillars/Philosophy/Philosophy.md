@@ -43,4 +43,4 @@ The pillar reads as three acts. [Introduction](Introduction/Introduction.md) ask
 
 ## Emerging Concepts
 
-[Emerging Concepts](<Emerging Concepts/Emerging Concepts.md>) holds ideas about the model that are worth keeping but not yet settled, such as the Realm and the fictional lineage behind the Avatar. None of it is adopted philosophy; where a note there conflicts with the three acts, the acts govern. Each concept waits for the whole-philosophy review to adopt, reshape or drop it.
+[Emerging Concepts](<Emerging Concepts/Emerging Concepts.md>) holds ideas about the model that are worth keeping but not yet settled, such as the Realm, the roles and oversight of Avatars and the Known World. None of it is adopted philosophy; where a note there conflicts with the three acts, the acts govern. Each concept waits for the whole-philosophy review to adopt, reshape or drop it, and the whole-site review to decide whether it appears on the website.
