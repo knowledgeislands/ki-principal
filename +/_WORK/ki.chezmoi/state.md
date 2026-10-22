@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
-state: handoff-to-supervisor
-since: 2026-10-22T00:08:00Z
+state: with-worker
+since: 2026-10-22T00:25:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-21T22:56:00Z
@@ -12,6 +12,7 @@ method_read: beb56729
 
 ## Now
 
+- nudge-remove (run `chezmoi`) is deleting the old Tower Save Nudge app's remnants on terra, then `rig doctor` after (Decision 198).
 - tower-cutover blocked at the signing identity (TOWER-STEPS with Kris). Its terra `rig doctor` before: 3 findings, none Tower: `.toml` handler drifted (Warp, declared Zed); `firewall.screen-sharing-tailnet` drifted, exposed beyond the tailnet; the 19 October handler apply failure behind the first. Old app idle, nudging paused, no Tower LaunchAgent; build test passed; no changes made.
 - VS Code workspaces rebuilt with `ki`, committed and applied on sol (Decision 184); the trust change also feeds the Claude Desktop config and `~/bin/rig-bringup-check`, now applied.
 - drift-apply applied all eight drifted targets on sol (Decision 185); `chezmoi status` clean, `rig doctor` 4 before and after (attended only). Claude Desktop keeps 102 undeclared trust grants (88 for paths that no longer exist): Kris chose to revoke all 102 (Decision 186); trust-revoke did so, but running Claude Desktop rewrote them back (TRUST-RETURNED, with Kris); the monthly scan now lists undeclared grants (chezmoi `a3a9dda`).

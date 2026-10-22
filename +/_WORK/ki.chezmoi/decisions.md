@@ -333,3 +333,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 197 (2026-10-22T00:20:00Z)
 
 - Pointer: Kris (01:20 BST) on Tower Assistant: show it in the Dock as well as the menu bar, with a setting to leave the Dock; give it an icon; install it in `/Applications`; redesign it through Claude Design; dispatch all of it to the Tower thread. Read back as: TOWER-APP-SHELL sent to kb.regular.site-tower (personal-principal `ff0877f`, pushed); ki.chezmoi keeps the cutover on terra and, when the install path changes, the Rig artefact and `~/bin/scheduled/rig-tower-save-nudge` paths.
+
+## Decision 198 (2026-10-22T00:25:00Z)
+
+- Pointer: Kris (01:25 BST): find and delete the old Tower Save Nudge app and its remnants on terra (he trashed the bundle himself), and ask the Tower thread for an in-app permissions setup panel. Read back as: run nudge-remove deletes only the old bundle's remnants, leaves Tower Assistant and the `tower-save-nudge` job names alone, and runs `rig doctor` after; TOWER-APP-PERMS sent to kb.regular.site-tower (personal-principal `47364af`, pushed).
