@@ -325,3 +325,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 
 - Pointer: Kris (23:40 BST), SPARK-REMOVE a), "make sure that we can get it removed properly": Shadowlab Spark is removed from sol (chezmoi `955faf5`, Decisions struck at the 01:41 mark); terra follows the spark-retire handoff with Kris at the machine.
 - Pointer: Kris (23:40 BST) on trust: the declaration must be complete so no client ever needs to ask for a folder; an app asking or adding one is a defect. Carried in tools-ki `9252669a` and chezmoi `13458343`; no Decision Record yet (homeless: TRUST-COMPLETE).
+
+## Decision 196 (2026-10-22T00:02:00Z)
+
+- Pointer: Kris (01:02 BST), TOWER-CUTOVER, "I'm here": Kris is at terra for the Tower Assistant cutover. Read back as: run tower-cutover does the scriptable install under the Tower Assistant guide and stops at the Accessibility grant with the exact clicks for Kris; removing Tower Save Nudge.app and the after `rig doctor` follow in a second run once access is granted. No `chezmoi apply` without Kris's review of the diff.
