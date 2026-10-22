@@ -173,20 +173,12 @@ Read back as taken:
 
 Kris: "I'm hoping that can allow you to get on with some things. Maybe you can take that on board, do a mark at this point as well. I'll go away and push everything, and then you can come back with me if there's any questions you want to do, so that you can do another unattended one for the next few hours, please." Taken as: mark now; Kris pushes every repository; the 01:55 grant runs unattended for the next few hours on the answered work; questions wait for Kris's return. The decisions strike and design/ review owed at this mark go to a run (wow-day-mark-tidy).
 
-## 2026-10-21 14:35 BST - push state out of reports
-
-Kris: "quite often I'm getting things like unpushed or pushed or comments like that in a summary. Is that what we really want to be doing? ... generally speaking, I'm pushing things on a regular basis between the machines. So I don't think you need to keep reminding me in each of them of the common push things that I'm doing, because that's going to be based on state that's outside of the thread." Taken as: owner reports and banners stop carrying `[unpushed]`, "pushed" and other push-state notes, since push state lives outside the thread; runs still push only their own commits, never another session's. The method change to the ki-coordination standard and the coordinator output style goes to a KI Agentic Harness run after wow-day-gov-209-accept; this thread applies it from now.
-
 ## 2026-10-21 14:35 BST - CANDIDATE-PRINCIPLES and STRUCTURE-TODOS
 
 Kris: "Both candidate principles and structure to-dos option A's, which are the recommended ones, are agreed." Read back as taken:
 
 - CANDIDATE-PRINCIPLES a): adopt both candidates in Engineering Practice Principles as qualified decision criteria (neutrality extended without lowest-common-denominator limits; FOSS-First and Inspectable where practical); this grants no implementation or product expansion. The explicit owner instruction stands in for an Enactment record.
 - STRUCTURE-TODOS a): make Port a settled section of Structure citing GDR-KI-PRINCIPAL-010; keep the Routes and Customs to-do with pointers to the Territories and Archipelagos route paragraph and `ki-trades`.
-
-## 2026-10-21 14:35 BST - mark
-
-Kris: "mark". Mark struck at 14:35 BST; the afternoon unattended run continues under the 01:55 grant.
 
 ## 2026-10-21 14:43 BST - release continuations and contract draft
 
@@ -219,10 +211,6 @@ CONTROL-EVIDENCE / DEFAULTS-HANDOFF - 21 October 2026 18:19 BST: delivery cb165c
 ## 2026-10-21 19:15 BST - re-review, second fix run
 
 Re-reviews of 166f0cbc: wow-day-impl-rereview-1 and -2 changes needed, -3 accept. All seven original findings are fixed; the fix introduced new blocking defects in event publication and lock recovery (unreadable event evidence treated as absent, post-spawn publication refusal reporting a started worker as failed, leftover locks wedging a run). Under Kris's 01:55 grant, "I'm happy for you to just make it all work", wow-day-impl-fix-2 fixes them with failing-first regression tests, adds release on interrupt for both locks and bounded waiting for foreground launch and queue, and fast-forwards local main without pushing; three fresh reviewers then re-review. Publication still waits for acceptance, as taken at 19:04.
-
-## 2026-10-21 19:21 BST - mark-strike relaunch
-
-wow-mark-strike-2 launched with an empty brief after a coordinator script error and finished without changing the repository; the prune and strike for the 19:18 mark is relaunched as wow-mark-strike-3 with the full brief.
 
 ## 2026-10-21 19:44 BST - second fix received, re-review
 

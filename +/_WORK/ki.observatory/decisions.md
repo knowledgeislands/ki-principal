@@ -4,10 +4,6 @@
 
 - 2026-10-18 · PUSH-ALL · Kris: "I'm happy to push all it it forwards as recommended. However, what I need is to not lose anything, so don't make a choice about A or B, such as the git repo things, but then we can consolidate once we have everything in a good place." Still governs: nothing is retired or chosen between; overlaps stay side by side until Kris approves a consolidation.
 
-## 2026-10-18 - NO-MERMAID
-
-- 2026-10-18 · NO-MERMAID · Kris: "I don't want mermaid as a diagram standard really, its pants". Pointer: homed in KI-HARNESS-GOV-205 and KI-HARNESS-GOV-221.
-
 ## 2026-10-18 - DESIGN-APPLY
 
 - 2026-10-18 · DESIGN-APPLY · Kris: "apply the design system to the Observatory as it is today, without losing any tab, route or capability, then converge on the restructure step by step with me." Pointer: planned in apps-observatory.local's roadmap; each step needs Kris's go.
