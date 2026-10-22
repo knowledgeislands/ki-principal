@@ -10,7 +10,7 @@
 - RADAR-DESIGN (Needs: decision, Kris): where the radar ring lives. a) both: tools-rig owns the vocabulary, review fields, doctor's `review-overdue` finding and export field; chezmoi owns the values and ring-and-profile rules; the site owns display (recommended, high - only option that serves doctor, the site and the single-catalogue rule); b) personal sidecar `dot_config/rig/radar.toml`, no tools-rig change, can drift, doctor blind; c) interim radar view profiles with dates in roadmap records.
 - RADAR-PUBLIC (Needs: decision, Kris): how much radar rig.midnight.ninja shows. a) ring and Hold replacement for public tools; no review dates, checks or retired list; Trial tools only when opted into `public`; a private replacement is never named (recommended, high, reviewed); b) rings, dates and checks for every public tool; c) rings only.
 - ZED-FONT-APPLY (Needs: decision, Kris): a) `brew install --cask font-symbols-only-nerd-font`, `chezmoi apply ~/.config/zed/settings.json`, reopen Zed's terminal, `starship-variant rainbow`; the Rig file goes with the combined Rig apply (recommended, high); b) also apply `10-applications.toml` now; c) hold.
-- WARP-RETIRE (blind review running: warp-retire-blind).
+- WARP-RETIRE (Needs: decision, Kris): staged retirement on terra; a) now, attended, in one sitting (terminal-retire, medium); b) staged: prove Ghostty first, preserve exports, check sol's account before deleting cloud data, inspect zap scope (warp-retire-blind, medium); c) keep Warp a week after apply; d) hold until sol. apply-plan is folding the stages into APPLY-PLAN.
 - Not raised: CORE-SET-COMMENTS (stays in the worksheet).
 
 ## Parked
