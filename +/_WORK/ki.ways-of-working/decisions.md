@@ -269,3 +269,7 @@ Kris then reported `ki` failing on conflict markers in tools-ki events.ts. A `gi
 ## 2026-10-22 02:03 BST - ki-principal rebase abort
 
 The same 01:19 `git pull --rebase` had also stopped in ki-principal, on a conflict in this work's messages.md after 41 of 111 picks, and the 02:00 entry above had been committed onto that detached state. With no live process, the coordinator ran `git rebase --abort`, restoring main, and re-appended the entry here; wow-tidy-deep had stopped before pruning and is relaunched. Integrating origin/main into local main goes to one rebase run after the tidy, as wow-fix-rebase did on 21 October; no push.
+
+## 2026-10-22 02:07 BST - deep prune disposition
+
+Under the 02:00 TIDY-DEEP decision, wow-tidy-deep-2 removed 85 finished reports with verified committed homes and no outstanding report queries, plus 17 obsolete briefs. The five package files, the two live briefs and all 24 design files remain; other reports are retained where query reception, complete outcome homing or live dependencies remain uncertain. No work record was accepted or deleted.
