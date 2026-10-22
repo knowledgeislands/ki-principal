@@ -515,3 +515,9 @@ wow-commit-territory: every other Knowledge Islands checkout was already committ
 ## 2026-10-22 23:09 BST - package prune received; ninth tools-ki review round
 
 wow-tidy-wow pruned this package from 369 files to 38 (`7c5ce0d1`): 329 received reports and two briefs deleted, every one retained in runtime state, no link broken; all 21 design files kept under the graduation guard. Receiver containment is now clean, which was review a's only refusal, so three fresh blind reviews (a, b, c) of `51725e8b..0fd85a08` follow under the same rule: a guarded swap from `6c4d2a1a` only on three high-confidence accepts, at a quiet point for the live dispatcher.
+
+## 2026-10-22 23:22 BST - guard against over-engineering
+
+Kris: "be careful that we are not over engineering at all times too".
+
+Taken as a standing steer for this work. Applied now to tools-ki, which has had eight fix rounds: the ninth review round is the last. Admit `0fd85a08` unless a reviewer finds a defect that breaks ordinary use of the current `ki` on real state; edge cases such as an older `ki` writing after the new one has checkpointed go into the release notes as known limits, not into a tenth fix. Any fix still needed is the smallest that clears a blocking finding. The same test applies to every brief: the simplest change that does the job, with reviews sized to the risk.
