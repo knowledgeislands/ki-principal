@@ -345,3 +345,9 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 200 (2026-10-22T00:56:00Z)
 
 - Pointer: Kris (01:56 BST), STARSHIP-REVIEW: "For Starship, can we just try it in one of the windows?" Read back as: run starship-trial builds a disposable, SHA-256-verified Starship kit under `~/.local/state/ki/trials/starship/` that Kris sources in one window, with no install, Rig intent, shell startup or chezmoi change, and a teardown script. STARSHIP-REVIEW stays open until he has tried it.
+
+## Decision 201 (2026-10-22T00:59:00Z)
+
+- Pointer: Kris (01:59 BST), OLD-CERT: "I agree with the recommendation, which is to get rid of it. If you can delete it now, you can do that ... we don't need it anymore." Read back as: OLD-CERT a), run cert-delete removes the "Tower Save Nudge Local Signing" identity (SHA-1 2D369DA384B64CC4B8169B22D3FFA1C150836A38) and its trust setting from terra's login keychain with no backup; where a step needs Kris's password, it hands the exact commands back.
+- Pointer: Kris (01:59 BST), TOWER-STEPS: Tower Assistant's Screen & System Audio Recording grant, alongside Accessibility, "has been added ... by hand". Read back as: the grants are done; run tower-finish verifies them.
+- Pointer: messages.md TOWER-APP-PATH (kb.regular.site-tower, apps-tower.midnight.ninja `85ab55a`): Tower Assistant now installs to `/Applications`, releasing the hold under the 22 October Tower Assistant decision. Read back as: run tower-finish moves the Rig `tool.tower-assistant` artefact and `~/bin/scheduled/rig-tower-save-nudge` to `/Applications` with the `~/Applications` fallback, declares Tower Assistant in `dock.workstation` as Kris pinned it, and stops at the `chezmoi diff` gate.
