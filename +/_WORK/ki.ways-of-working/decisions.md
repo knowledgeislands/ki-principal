@@ -259,3 +259,13 @@ Re-reviews of 6c4d2a1a return Codex changes needed (R4-ARCHIVE, R4-RESERVATION, 
 ## 2026-10-22 01:20 BST - fifth fix: rebase onto origin/main
 
 wow-day-impl-fix-5 stopped at integration because tools-ki origin/main gained 51725e8b ("fix(agent): home each report once and honour renamed work folders", touching events.ts, thread.ts, background-agents.md, CHANGELOG.md and agent-events.test.ts) from another session, while local main holds this work's unpublished 6c498f3a and 6c4d2a1a. Under the 01:55 grant, "I'm happy for you to just make it all work", the coordinator directs the run to finish its fixes, fetch, rebase only this work's unpublished commits and its own fix onto origin/main, keeping 51725e8b's behaviour intact and resolving conflicts in favour of both, then re-run the full suite, coverage and fault matrix on the rebased head. No push and no force-push; publication still waits for three accepting re-reviews.
+
+## 2026-10-22 02:00 BST - mark, deep tidy, queries, overnight
+
+Kris: "Can you take a mark and can you tidy up any old reports? Looks like there's quite a few. Just generally make the work package nice and tidy please. And then can you ask me the queries again, I'll give you answers to those. And then can you do anything else that you also need to do in preparation to be able to run unattended overnight?" Taken as TIDY-DEEP a): one tidy run deletes every report and brief whose run has finished and whose outcome is homed, listing anything in doubt; the coordinator then marks and re-asks every open and parked query.
+
+Kris then reported `ki` failing on conflict markers in tools-ki events.ts. A `git pull --rebase` begun at 01:19 in the primary tools-ki checkout, by no run of this work, had stopped on a conflict in events.ts. With no live process and `ki` itself unable to launch a repair run, the coordinator ran `git rebase --abort`, restoring main to 6c4d2a1a; nothing was lost. The rebase onto origin/main 51725e8b stays with a follow-up run after wow-day-impl-fix-5 reports, in a worktree, as decided at 01:20.
+
+## 2026-10-22 02:03 BST - ki-principal rebase abort
+
+The same 01:19 `git pull --rebase` had also stopped in ki-principal, on a conflict in this work's messages.md after 41 of 111 picks, and the 02:00 entry above had been committed onto that detached state. With no live process, the coordinator ran `git rebase --abort`, restoring main, and re-appended the entry here; wow-tidy-deep had stopped before pruning and is relaunched. Integrating origin/main into local main goes to one rebase run after the tidy, as wow-fix-rebase did on 21 October; no push.
