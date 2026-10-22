@@ -7,6 +7,8 @@
 - ORCA-ADOPT (Needs: decision, Kris): a) evaluate on the laptop to 5 November after Kris turns off permission bypass, folder auto-trust and telemetry, with named checks and one retirement trial: CodexBar (blind review) or Delta (orca-eval) (recommended, high, reviewed); b) adopt now on every Mac; c) laptop-only, no trials.
 - STARSHIP-APPLY (Needs: decision, Kris): `brew install starship`, then `chezmoi apply ~/.zsh/99_starship ~/.zsh/completions/_starship ~/.config/starship ~/.config/rig/conf.d/16-homebrew.toml && rig doctor`, then a new Ghostty window; a) now (recommended, high); b) after `classic`; c) hold.
 - TOWER-PATH (Needs: decision, Kris): Rig has no fallback-path form, so the artefact and Dock path stay `~/Applications` until the move. a) keep until Kris moves it, then one follow-up commit switches both (recommended, high); b) switch now and accept drift; c) raise a tools-rig any-of path item.
+- RADAR-DESIGN (Needs: decision, Kris): where the radar ring lives. a) both: tools-rig owns the vocabulary, review fields, doctor's `review-overdue` finding and export field; chezmoi owns the values and ring-and-profile rules; the site owns display (recommended, high - only option that serves doctor, the site and the single-catalogue rule); b) personal sidecar `dot_config/rig/radar.toml`, no tools-rig change, can drift, doctor blind; c) interim radar view profiles with dates in roadmap records.
+- RADAR-PUBLIC (blind review running): how much of the radar the Rig site shows.
 - Not raised: CORE-SET-COMMENTS (stays in the worksheet).
 
 ## Parked
