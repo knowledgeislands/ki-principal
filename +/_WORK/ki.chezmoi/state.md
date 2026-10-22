@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
-state: with-supervisor
-since: 2026-10-22T17:50:00Z
+state: with-worker
+since: 2026-10-22T17:58:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-22T07:51:00Z
@@ -12,6 +12,7 @@ method_read: beb56729
 
 ## Now
 
+- apply-stages (run `chezmoi`, machine): APPLY-PLAN stage 1 and Warp's retirement on terra, and whether the hold's fixed Rig release is in. orca-hooks-research (read-only): hooks only while Orca is in use.
 - terra-actions done: Spark launcher gone; trust applied (relaunch Claude Desktop); Tower Assistant move cancelled with kb.regular.site-tower; NUDGE-SIMPLIFY with Kris. Kris is doing TERRA-REMOVALS at the screen (Wrangler done).
 - vscode-groups done; Kris chose layout A (18:44); handed to ki.tools-burndown, chezmoi sync follows its release.
 - trust-new-repos done: five new repositories trusted in source for Claude Code, Claude Desktop and Codex, four VS Code workspace files added (chezmoi `25c0bde`); TRUST-APPLY with Kris; sky and snowflake rest on another session's uncommitted `workspaces/humans-not-robots/dot_mgit.toml`.
