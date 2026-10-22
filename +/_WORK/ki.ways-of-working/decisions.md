@@ -289,3 +289,32 @@ wow-day-impl-fix-5 fixed all four blocking findings (R4-ARCHIVE, R4-RESERVATION,
 ## 2026-10-22 02:22 BST - principal rebase, third attempt
 
 The 02:17 entry above was committed while wow-principal-rebase-2 was replaying, and its abort discarded it; it is restored here, and the coordinator makes no ki-principal commit while a rebase run is active. wow-principal-rebase-2 aborted cleanly at abcae497 on a front-matter conflict in ki.chezmoi's state.md (REBASE-STATE-METADATA). The coordinator answers it with a mechanical rule: where a work's state.md front matter conflicts, keep the whole front-matter block from the side with the later `since`, then the later `mark`; body sections keep both sides. wow-principal-rebase-3 retries under that rule, aborting on any other unresolvable conflict; no fetch, no push.
+
+## 2026-10-22 02:21 BST - principal rebase received
+
+wow-principal-rebase-3 rebased ki-principal's local main onto the cached origin/main under the 02:22 rule: 117 local commits preserved in order, every conflict resolved by the stated union or later-since rule, now 117 ahead and 0 behind. No push.
+
+## 2026-10-22 02:25 BST - owner answers and release grant
+
+Kris: "Yep, you can tag and publish whatever tools you need to do to get this up and running and especially if you've got anything with high confidence, I'm happy for you to keep going with it, right? And also with the reviews, if you get high confidence on the reviews that they meet what we expected, we can also get those things burnt down as well. I agree with what you said about tags. Site sauce is fine, really attended. What do you need me to do if it's really simple? I can just run it now and walk away. ... Technique 006 review as you recommend, narrow the Gov 189 scope as you recommend adopt gove 2 or 2. Yeah, it's interesting what we did about the emerging concepts, we don't want to lose them, so we need to put them somewhere. Obviously, the entire site needs a really good review, so maybe we can have a think about future concepts or something like that, emerging concepts, and just make it appear somewhere in the site if it makes sense. ... happy to go with what you think. Again, we can try what you think I know get as well. I'm pretty relaxed. Let's just get as much of this down and done as we can."
+
+Read back as taken:
+
+- Release grant: the coordinator may tag and publish tools releases needed to get the agent host running where confidence is high; this lifts the tagging and publishing exclusion of the 14:46 grant for high-confidence releases.
+- Review grant: high-confidence reviews that confirm work meets what was expected stand in for acceptance and burn-down, as under 14:46.
+- TOOLSKI-TAG a): tag and publish tools-ki v0.13.0 from the dossier.
+- TAGS a): optional controlled `topic/*` subject tags; a 20-30-note KI Principal pilot with a retrieval comparison.
+- SITE-SOURCE a): KI-WEBSITE-SITE-044 stays awaiting review until ki-design is readable, then Kris's visual checks.
+- RIG-ATTENDED: Kris runs the attended checks now if simple; one run prepares the copy-paste steps, CORE-069 then CORE-068, CORE-047 and CORE-062.
+- TECHNE-006-REVIEW a): KI-TOOL-TECHNE-CLI-006 released to Ready; TECHNE-006 is no longer held.
+- GOV189-SCOPE a): narrow KI-HARNESS-GOV-189 to the level check and `[behind]`.
+- GOV202-ADOPT a): adopt KI-HARNESS-GOV-202 to Next.
+- EMERGING: adopt Fictional Lineage into Background and keep all four concepts in a findable Emerging Concepts home in the Philosophy pillar, flagged for the whole-site review to decide whether it appears on the site.
+- NO-GATE a): staged, check-only `ki repo audit --skill ki-repo` as the project-shape commit gate.
+- RIG-RELEASE-REVIEW-BOUNDARY: not named; asked in one line.
+
+## 2026-10-22 02:28 BST - overnight roadmap burn-down
+
+Kris: "The goal will be that when I come back in the morning, the roadmap is at least half what it is now. It's at 61, so I'd like it to be well under 30. Ideally speaking, I'd love to do it on single figures, right? So you can just keep pushing, chipping away, come up with what you think is at least some effort on those points and keep it working away."
+
+Taken as: the overnight target is the territory roadmap from 61 open records to well under 30, single figures if possible, by delivering, accepting under three agreeing high-confidence reviews and pruning, or closing records that are superseded or done, under the 14:46 and 02:25 grants. One planning run inventories and batches the 61; the coordinator dispatches one writer per repository, about three at a time. No new records (CAPTURE-GATE), no live applies, credentials or source deletion; attended and Kris-only items are left listed for the morning.
