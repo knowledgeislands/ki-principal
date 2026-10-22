@@ -1,1 +1,3 @@
 # ki.chezmoi messages
+
+- 2026-10-22 · IMPORTANT · DRAIN · from Kris via HNR > SoP: take stock and drain to On hold, "hold, more expected". Let runs that will finish within about 15 minutes finish, and stop the rest at a safe point, recording where they stopped. Persist everything into this work package: state.md, decisions in Kris's words, open queries parked. Anything that belongs to another work package goes as a line in that package's messages.md now. Cancel any scheduled wake this session holds. Commit and push your own work, then give the hold report and its resume line. Kris will bring the work packages back up one by one, in order.
