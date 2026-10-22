@@ -1,6 +1,6 @@
 ---
 id: ki.chezmoi
-state: handoff-to-supervisor
+state: with-worker
 since: 2026-10-22T23:20:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
@@ -12,6 +12,8 @@ method_read: beb56729
 
 ## Now
 
+- stage3 (run `chezmoi`, machine) running: targeted Rig applies of `.sh`/`.zsh` handlers and Dock on terra (HOLD-LIFT a)).
+- orca-coexist (run `chezmoi`, machine) running: Codex `hooks.json` `modify_` and apply, `config.toml` apply, retire `rig-tower-save-nudge`, Orca hooks explainer.
 - tower-path done: chezmoi `d47acf8` declares Tower Assistant at `/Applications` (unpushed, unapplied); TOWER-APPLY with Kris; terra still has 2.0 in `~/Applications`.
 - Scope: resumed for terra drift and terra-specific items only (Kris, after the 22 October drain); nothing is running.
 - Terra drift: resolved except `~/.codex/hooks.json` (ORCA-HOOKS) and `~/.codex/config.toml` (CODEX-CONFIG, held until ORCA-HOOKS) · with Kris.
@@ -42,6 +44,6 @@ method_read: beb56729
 
 ## Held
 
-- Both-Mac Rig apply - until Kris lifts it.
+- Rig apply on sol - until its Rig is confirmed to match terra's; `.toml` handler on both - until KI-TOOL-RIG-CORE-069 is fixed (HOLD-LIFT a), 23 October).
 - Privacy and rationale audits - until the owner resumes them.
 - WhatsApp refresh (KB-DOTFILES-UE-035) - until Kris takes it up.
