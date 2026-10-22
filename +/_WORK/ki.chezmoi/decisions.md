@@ -379,3 +379,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 206 (2026-10-22T07:06:00Z)
 
 - Pointer: Kris (08:06 BST): "I've also asked for a bunch of things that might be better off dealt with through other coordination threads, so feel free to push out those messages to those threads to hand the work over now." Read back as: run handover-route finds every item in this work package whose owner is another work (another Project, territory or repository thread), hands each over as a message line in that work's `messages.md` quoting Kris's words, commits and pushes those lines, and reports the list; the coordinator then drops them from `state.md` and `queries.md` as handed over.
+
+## Decision 207 (2026-10-22T07:07:00Z)
+
+- Pointer: Kris (08:07 BST), first impressions of Orca: "it's really pretty and really good. I think it could actually be a replacement for Z or potentially Z and Delta, or anything else for that matter. In particular, I like its status bar. It's even got things built in which make it so that its own footer wouldn't remove the need for codex bar as well." Read back as: "Z" is Zed; "Delta" is taken as the `git-delta` diff pager until Kris says otherwise; the footer remark is read as Orca's usage footer possibly replacing CodexBar. Run orca-eval maps Orca's capabilities against Zed, delta, CodexBar and the other tools in the Rig catalogue it overlaps, read-only, and brings ORCA-ADOPT with what Orca could retire. Not yet a decision to adopt or retire anything.
