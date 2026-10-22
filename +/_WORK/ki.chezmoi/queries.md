@@ -6,6 +6,7 @@
 - ORCA-HOOKS (Needs: decision, Kris): a) separate change makes Codex's `hooks.json` preserve Orca's undeclared hooks (Pattern C, like Claude's), holding only that target meanwhile (recommended, high, reviewed); b) copy Orca's hooks into laptop-conditional source.
 - CODEX-CONFIG (Needs: action, Kris; a) chosen 18:44, awaiting his apply-or-hold): `~/.codex/config.toml` changed on both sides and its render reads 1Password, so no run diffs it; at the screen run `chezmoi diff ~/.codex/config.toml` and say apply or hold (9 of its 11 hook-trust entries are Orca's).
 - TERRA-REMOVALS (Needs: decision, Kris; KB-DOTFILES-UE-086): a) one attended ki-self pass now, allowed ahead of B1–B5: Spark launcher, Clockology, Nitro, Mercury, Homebrew `cloudflare-wrangler`; Prime Video and BlueStacks only after Kris keeps or discards their data; Creative Cloud only after an at-screen product, sign-in and sync check (recommended, medium, reviewed); b) leave all to a dedicated KB-DOTFILES-UE-086 session; c) Wrangler alone now, the rest later.
+- NUDGE-SIMPLIFY (Needs: decision, Kris): a) point `rig-tower-save-nudge` straight at `~/Applications/Tower Assistant.app` (keep `TOWER_NUDGE_APP`), drop the guide's move section, test updated (recommended, high); b) leave it; c) retire the script, since nothing schedules it.
 - Not raised: CORE-SET-COMMENTS (stays in the worksheet).
 
 ## Parked

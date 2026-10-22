@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
-state: with-worker
-since: 2026-10-22T17:53:00Z
+state: with-supervisor
+since: 2026-10-22T17:50:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-22T07:51:00Z
@@ -12,7 +12,7 @@ method_read: beb56729
 
 ## Now
 
-- terra-actions (run `chezmoi`, machine): stops the Shadowlab Spark daemon, applies TRUST-APPLY's six targets, withdraws the Tower Assistant move in kb.regular.site-tower, explains the nudge script. Kris is doing TERRA-REMOVALS at the screen (Wrangler done).
+- terra-actions done: Spark launcher gone; trust applied (relaunch Claude Desktop); Tower Assistant move cancelled with kb.regular.site-tower; NUDGE-SIMPLIFY with Kris. Kris is doing TERRA-REMOVALS at the screen (Wrangler done).
 - vscode-groups done; Kris chose layout A (18:44); handed to ki.tools-burndown, chezmoi sync follows its release.
 - trust-new-repos done: five new repositories trusted in source for Claude Code, Claude Desktop and Codex, four VS Code workspace files added (chezmoi `25c0bde`); TRUST-APPLY with Kris; sky and snowflake rest on another session's uncommitted `workspaces/humans-not-robots/dot_mgit.toml`.
 - Resumed for terra drift only: drift-survey done (37 targets: 22 stage 1, 11 Warp stage 2, Claude settings harmless, Codex hooks ORCA-HOOKS, Codex config.toml diff at screen); terra-removals-blind done (Mercury still installed; Prime Video media, BlueStacks instance and Creative Cloud sign-in need Kris first): TERRA-REMOVALS with Kris; CODEX-CONFIG with Kris; APPLY-PLAN, ORCA-HOOKS, TOWER-PATH back open; radar and Orca adoption stay parked.
