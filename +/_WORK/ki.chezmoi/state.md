@@ -13,7 +13,7 @@ method_read: beb56729
 ## Now
 
 - stage3 (run `chezmoi`, machine) running: targeted Rig applies of `.sh`/`.zsh` handlers and Dock on terra (HOLD-LIFT a)).
-- orca-coexist (run `chezmoi`, machine) running: Codex `hooks.json` `modify_` and apply, `config.toml` apply, retire `rig-tower-save-nudge`, Orca hooks explainer.
+- orca-coexist done: Codex hooks coexist with Orca (`5bfaa32`), `config.toml` applied, nudge script retired (`c5776b9`); json-apply applies its helper.
 - tower-path done: chezmoi `d47acf8` declares Tower Assistant at `/Applications` (unpushed, unapplied); TOWER-APPLY with Kris; terra still has 2.0 in `~/Applications`.
 - Scope: resumed for terra drift and terra-specific items only (Kris, after the 22 October drain); nothing is running.
 - Terra drift: resolved except `~/.codex/hooks.json` (ORCA-HOOKS) and `~/.codex/config.toml` (CODEX-CONFIG, held until ORCA-HOOKS) · with Kris.
