@@ -6,15 +6,15 @@ title: PMO extraction pilot
 kind: deliver
 purpose: governance
 project: ways-of-working
-horizon: now
-status: in-progress
+status: cancelled
+resolution: superseded
 tags:
   - topic/knowledge-islands
 blocks: []
 blocked_by: []
 baseline_ref: 984d950957b56618baa28413f2c82a73c1c10b19
 created_at: 2026-10-13T13:42:43Z
-updated_at: 2026-10-20T06:59:01Z
+updated_at: 2026-10-22T01:46:00Z
 ---
 
 # PMO Extraction Pilot
@@ -206,6 +206,12 @@ The goal, a coordinating thread's rules in their own skill, enforced by a hook, 
 ### Mini recap
 
 The `ki-pmo` pilot delivered the coordinating-work skill, now `ki-coordination`, with its hook, style and chezmoi link, and passed acceptance test 1 on Claude Code; the remaining tests were overtaken by the work model and withdrawn. Leftovers go as three message lines, and one is already a record. Learning route: a pilot whose design is overtaken should be narrowed and closed at once, not left in progress for a week.
+
+## Cancelled
+
+Cancelled on 22 October 2026 under Kris's overnight burn-down instruction of 02:28 BST, "the roadmap is at least half what it is now", with closing records that are superseded or done, as recorded in the `ki.ways-of-working` decisions log. Resolution: superseded. The `ki-pmo` skill this pilot extracted no longer exists in the KI Agentic Harness: its coordinating-work rules now live in the harness's `ki-coordination` skill, and the work package that replaced the checkpoint and thread lives in its `ki-work-package` skill. Both carry the pilot's delivered substance forward and are the standing contract every coordinating session uses, so there is nothing left for this record to deliver or accept.
+
+The narrowed delivery recorded under Review stands as evidence; no delivery acceptance is claimed. The leftovers named under Outstanding concerns were already routed as message lines or belong to other records, and no replacement record is created. This cancelled record is retained for Kris's review and later pruning.
 
 ## Discussion
 
