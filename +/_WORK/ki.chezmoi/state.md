@@ -12,6 +12,8 @@ method_read: beb56729
 
 ## Now
 
+- starship-preview (run `chezmoi`) adds a preview-all option to the trial kit (Decision 205); starship-adopt steered to ship it.
+- terminal-retire (run `chezmoi`, after starship-adopt) makes Ghostty primary and retires iTerm2 and Warp (Decision 205, TERMINALS a) with Warp now).
 - starship-adopt (run `chezmoi`, after apply-check) adopts Starship under Decision 204: Rig declaration, chezmoi-managed variants with a simple default, Zsh fragment, per-session or per-machine `starship-variant`, tools docs, trial kit kept until Kris is happy, diff gate.
 - terminal-review done: Warp is the one in use (216 launches; signed-in account, telemetry on, cloud conversations, managed `dot_warp/` with per-territory tabs, holds `.toml`); Ghostty 7 launches, unconfigured, no account or telemetry, built-in Nerd Font glyphs; iTerm2 unused since April 2025, unmanaged, stale shell-integration line in `dot_zshrc.tmpl:13`; Terminal.app built in. terminal-blind (Codex, high effort) agreed with Ghostty primary after a week's trial: TERMINALS is with Kris at high (reviewed).
 - motion-remove (run `chezmoi`) retires the Motion app the same way, after gitup-remove.
