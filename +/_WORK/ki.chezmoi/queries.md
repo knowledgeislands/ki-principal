@@ -2,6 +2,7 @@
 
 ## Open
 
+- HANDLERS-SH-ZSH (Needs: action, Kris; KI-TOOL-RIG-CORE-069): Rig's `.sh` and `.zsh` handler applies fail ("not effective"), both still open in Ghostty. a) Kris uses Finder Get Info › Open with › Zed › Change All once on a trusted inert `.sh` and `.zsh` file, then a run re-runs `rig doctor`; declarations kept, outcome recorded (recommended, medium, reviewed); b) hold both with `.toml` as related evidence on KI-TOOL-RIG-CORE-069; c) attended retry of the apply as a diagnostic only.
 - Not raised: CORE-SET-COMMENTS (stays in the worksheet).
 
 ## Parked
