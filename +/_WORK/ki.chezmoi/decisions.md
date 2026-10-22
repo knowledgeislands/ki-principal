@@ -341,3 +341,7 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 199 (2026-10-22T00:45:00Z)
 
 - Pointer: Kris (01:45 BST): "<https://github.com/stablyai/orca> I want to evaluate this. Can you add it to the rig and install it so we can see what it looks like?" Read back as: run orca-install vets Orca, declares it in Rig as an evaluation tool, commits the source and stops at the `chezmoi diff` gate with a scoped apply and install for Kris to approve; no general `rig apply` while RIG-CASKS holds.
+
+## Decision 200 (2026-10-22T00:56:00Z)
+
+- Pointer: Kris (01:56 BST), STARSHIP-REVIEW: "For Starship, can we just try it in one of the windows?" Read back as: run starship-trial builds a disposable, SHA-256-verified Starship kit under `~/.local/state/ki/trials/starship/` that Kris sources in one window, with no install, Rig intent, shell startup or chezmoi change, and a teardown script. STARSHIP-REVIEW stays open until he has tried it.
