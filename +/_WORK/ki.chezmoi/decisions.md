@@ -361,3 +361,4 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 ## Decision 203 (2026-10-22T06:47:00Z)
 
 - Pointer: Kris (07:47 BST): "can you remove GitUp, and can we add something to expand rig to include removal of items too. Also rig might want to consider other related settings it checks for such as notifications for tools". Read back as: run gitup-remove retires GitUp under the ki-self application lifecycle (Rig declaration in the chezmoi source, uninstall on terra, scoped diff for Kris; sol when Kris is there); RIG-REMOVAL and RIG-NOTIFICATIONS are portable tools-rig behaviour, routed to ki.mac-studio-setup as messages.
+- Pointer: Kris (07:48 BST): "I have a number of terminal apps, iTerm2, warp, ghostty - we should decide which are needed". Read back as: run terminal-review surveys them read-only and brings a keep or retire recommendation as a decision; nothing is removed until Kris chooses.
