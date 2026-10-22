@@ -334,3 +334,11 @@ Taken as: "big steps" are the Rig attended steps; they wait for the morning, wal
 ## 2026-10-22 02:26 BST - DEPCRUISE-PATH dispatched
 
 The IMPORTANT messages line DEPCRUISE-PATH (rename `tooling/boundaries` to `tooling/depcruise` in ki-engineering, then migrate KI repositories) goes to run wow-depcruise in a ki-agentic-harness worktree; the line is removed.
+
+## 2026-10-22 02:41 BST - WEBSITE-GATE taken by the coordinator
+
+wow-apps-depcruise could not commit the website's dependency-cruiser migration because DEPS-1 already fails on an overdue knip. Taken as a), confidence high, under "make it all work": a bounded maintenance pass updates knip, then commits the migration (run wow-website-maint). Not a publication; no deploy.
+
+## 2026-10-22 02:45 BST - Rig batch received
+
+wow-burn-rig-gate: KI-TOOL-RIG-CORE-053 and KI-TOOL-RIG-CORE-062 back at awaiting-review with fresh evidence, each still carrying an attended item (053's live owner check, 062's terra check and rollout), so not reviewable for pruning tonight; KI-TOOL-RIG-CORE-064 cancelled under SWEEP-CONVERT and its scan routed as a line to ki.chezmoi's messages.md. Coordinator takes RIG069-ROUTE a) and RIG068-GATE a), both high: CORE-069 and CORE-068 stay in draft for the morning walk-through. Three blind reviews of the CORE-064 cancellation follow.
