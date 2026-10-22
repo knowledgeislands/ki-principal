@@ -29,6 +29,7 @@ method_read: beb56729
 
 ## Held
 
+- Tower Assistant path change in the Rig declaration and save-nudge wrapper - until kb.regular.site-tower moves the install to `/Applications` (Decision 197).
 - Sol's `rig doctor` findings (handler, firewall anchor range, UTM source) - until Kris is at the machine.
 - Both-Mac Rig apply - until Kris lifts it.
 - The attended NordVPN trial - until a tested restore path exists (KI-TOOL-RIG-CORE-068).
