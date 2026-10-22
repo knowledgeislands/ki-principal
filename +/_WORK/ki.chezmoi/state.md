@@ -12,6 +12,7 @@ method_read: beb56729
 
 ## Now
 
+- apply-check done: combined terra apply verified (RIG-APPLY with Kris); `~/.claude/settings.json` and `~/.codex/hooks.json` left out because Orca added hooks live (ORCA-HOOKS, blind review running).
 - starship-preview (run `chezmoi`) adds a preview-all option to the trial kit (Decision 205); starship-adopt steered to ship it.
 - terminal-retire (run `chezmoi`, after starship-adopt) makes Ghostty primary and retires iTerm2 and Warp (Decision 205, TERMINALS a) with Warp now).
 - starship-adopt (run `chezmoi`, after apply-check) adopts Starship under Decision 204: Rig declaration, chezmoi-managed variants with a simple default, Zsh fragment, per-session or per-machine `starship-variant`, tools docs, trial kit kept until Kris is happy, diff gate.
