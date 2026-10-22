@@ -277,3 +277,7 @@ Under the 02:00 TIDY-DEEP decision, wow-tidy-deep-2 removed 85 finished reports 
 ## 2026-10-22 02:11 BST - tidy, third pass
 
 wow-tidy-deep-2 pruned 85 reports and 17 briefs but kept 283 reports, mostly because their old queries are not in queries.md. Every live query of this work is in queries.md (3 open, 7 parked); the rest were answered or superseded, with their answers in Git history of decisions.md. Under Kris's 02:00 words, "tidy up any old reports ... make the work package nice and tidy", one third pass deletes every untracked report in the work folder whose run has finished and which has a byte-identical copy in the runtime folder, keeping only reports of running runs and any report with no runtime copy, which it lists.
+
+## 2026-10-22 02:15 BST - principal rebase without fetch
+
+wow-principal-rebase stopped before acting: its brief asked for a fetch that its rules forbid (REBASE-FETCH-AUTHORITY). The cached origin/main 80860d92 already carries the 10 remote commits, so the coordinator answers b) in substance without widening authority: wow-principal-rebase-2 rebases onto the cached origin/main with no remote call; anything newer on the remote is picked up at the next integration.
