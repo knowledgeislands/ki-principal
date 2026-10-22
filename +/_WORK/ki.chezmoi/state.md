@@ -12,6 +12,7 @@ method_read: beb56729
 
 ## Now
 
+- starship-adopt (run `chezmoi`, after apply-check) adopts Starship under Decision 204: Rig declaration, chezmoi-managed variants with a simple default, Zsh fragment, per-session or per-machine `starship-variant`, tools docs, trial kit retired, diff gate.
 - terminal-review done: Warp is the one in use (216 launches; signed-in account, telemetry on, cloud conversations, managed `dot_warp/` with per-territory tabs, holds `.toml`); Ghostty 7 launches, unconfigured, no account or telemetry, built-in Nerd Font glyphs; iTerm2 unused since April 2025, unmanaged, stale shell-integration line in `dot_zshrc.tmpl:13`; Terminal.app built in. terminal-blind (Codex, high effort) agreed with Ghostty primary after a week's trial: TERMINALS is with Kris at high (reviewed).
 - motion-remove (run `chezmoi`) retires the Motion app the same way, after gitup-remove.
 - gitup-remove done: both GitUps (the `gitup` formula and GitUp.app, cask `gitup-app`) uninstalled and zapped on terra, stale `/usr/local/bin/gitup` link removed, retired in chezmoi `0ec53fa`; gate green; live `rig doctor` 6 until applied. Sol: `brew uninstall --cask --zap gitup-app`, `brew uninstall gitup`, `rm /usr/local/bin/gitup` if present, then the same apply. apply-check (after motion-remove) verifies one combined Rig apply (Tower, Orca, GitUp, Motion) against a candidate `rig doctor`.
@@ -33,7 +34,7 @@ method_read: beb56729
 3. Attended steps for KB-DOTFILES-UE-090 and KB-DOTFILES-UE-100 on terra and sol, then their acceptance.
 4. homeless: TRUST-COMPLETE (Decision 187).
 5. Evaluate Orca (Decisions 199, 202 ORCA-INSTALL): Kris installs it on terra with `brew install --cask stablyai/orca/orca` (declined: telemetry, `~/.claude`/`~/.codex` import), tries it alongside Claude Code and Codex, then decides: adopt (widen beyond the `laptop` profile, record why) or retire (`brew uninstall --cask stablyai/orca/orca && brew untap stablyai/orca`, revert chezmoi `a3b9736`). The live Rig file `~/.config/rig/conf.d/10-applications.toml` is applied with the tower-finish change in one reviewed step.
-6. Starship prompt (KB-DOTFILES-UE-104, Decisions 200, 202): starship-variants builds switchable variants in the trial kit; then design a bespoke `kris` default fitted to his work, which Kris asked for (02:22 BST) and now being built by starship-kris: two lines; line 1 host only where it matters (terra, sol, SSH), territory › repository under `~/workspaces/<territory>/<repo>` (territory dimmed, repo bold), git branch, status, ahead/behind, a linked-worktree or detached-HEAD marker, runtimes only where used; right side duration ≥2 s, exit code on failure, time; line 2 the input character; under 50 ms; no chezmoi drift count. Kris tries them in one window, then STARSHIP-REVIEW and, if adopted, one adoption record on hold until KB-DOTFILES-UE-102.
+6. Starship: adopted (Decision 204); starship-adopt implements; Kris reviews the diff and approves install and apply on terra, then sol.
 
 ## Held
 
