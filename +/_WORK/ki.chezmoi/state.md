@@ -1,10 +1,12 @@
 ---
 id: ki.chezmoi
-state: with-supervisor
-since: 2026-10-22T07:49:00Z
+state: on-hold
+reason: DRAIN from Kris via HNR > SoP, hold, more expected
+release: Kris brings the work packages back one by one, or resume
+since: 2026-10-22T07:51:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
-mark: 2026-10-21T22:56:00Z
+mark: 2026-10-22T07:51:00Z
 method_read: beb56729
 ---
 
@@ -12,6 +14,7 @@ method_read: beb56729
 
 ## Now
 
+- On hold (DRAIN, 22 October): nothing running; six queries parked (APPLY-PLAN, RADAR-DESIGN, RADAR-PUBLIC, ORCA-ADOPT, ORCA-HOOKS, TOWER-PATH); chezmoi source pushed; nothing applied on terra.
 - ghostty-tabs done: `territory-set [code]` opens the standard three tabs and runs once at Ghostty launch (`557af1d`); target `~/.zsh/60_territory` goes in APPLY-PLAN.
 - apply-plan done: one staged terra plan (APPLY-PLAN, high, with Kris) replaces RIG-APPLY, STARSHIP-APPLY, ZED-FONT-APPLY and WARP-RETIRE timing; warp-retire-blind found the pending applies overlap and Ghostty has no sidebar view.
 - radar-design done: ring needs tools-rig to reach doctor and the site; RADAR-DESIGN with Kris (high); RADAR-PUBLIC reviewed (high) and with Kris. terminal-retire done (Ghostty primary in source, `territory` function, Warp retired in source, iTerm2 trashed on terra; WARP-RETIRE in blind review: warp-retire-blind); starship-classic done (`classic` choice and `--all` in source, no extra apply targets); zed-nerd-font done (symbols-only Nerd Font as Zed's terminal fallback, in source; ZED-FONT-APPLY with Kris).
