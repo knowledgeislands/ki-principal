@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
-state: with-worker
-since: 2026-10-22T00:02:00Z
+state: handoff-to-supervisor
+since: 2026-10-22T00:08:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-21T22:56:00Z
@@ -12,7 +12,7 @@ method_read: beb56729
 
 ## Now
 
-- tower-cutover (run `chezmoi`) is doing the scriptable Tower Assistant install on terra and will stop at the Accessibility grant for Kris (Decision 196).
+- tower-cutover blocked at the signing identity (TOWER-STEPS with Kris). Its terra `rig doctor` before: 3 findings, none Tower: `.toml` handler drifted (Warp, declared Zed); `firewall.screen-sharing-tailnet` drifted, exposed beyond the tailnet; the 19 October handler apply failure behind the first. Old app idle, nudging paused, no Tower LaunchAgent; build test passed; no changes made.
 - VS Code workspaces rebuilt with `ki`, committed and applied on sol (Decision 184); the trust change also feeds the Claude Desktop config and `~/bin/rig-bringup-check`, now applied.
 - drift-apply applied all eight drifted targets on sol (Decision 185); `chezmoi status` clean, `rig doctor` 4 before and after (attended only). Claude Desktop keeps 102 undeclared trust grants (88 for paths that no longer exist): Kris chose to revoke all 102 (Decision 186); trust-revoke did so, but running Claude Desktop rewrote them back (TRUST-RETURNED, with Kris); the monthly scan now lists undeclared grants (chezmoi `a3a9dda`).
 - Rig site rationale filter removed (apps-rig.midnight.ninja `680a95f`, unpushed). roadmap-batch done (chezmoi `4fe2203`, `28e0091`, `7af64b5`: UE-077 and UE-093 accepted, nine terminal records pruned). Tools-shape hooks and CI type check on harness main (`6076a98b`, `3f203c63`, unpushed) after hooks-recover restored the harness metadata. trust-declare done: 82 declared folders (+23: six checkouts incl. HNR, eight territory roots, eight Desktop Projects, `~/.claude`), independent of VS Code workspaces (tools-ki `9252669a`, chezmoi `13458343`); trust-reconcile done (Decision 193): `~/.claude/settings.json` +15 applied; Desktop list reset 149 → exactly 76 declared (94 removed, 21 added), rollback copy beside the config; doctor 4 → 4 identical. After Kris reopened Desktop, trust-check found the 76-folder list held unchanged over 200 seconds (no rewrite); rollback retained. Tools hooks adopted in all five tools repositories: tools-ki `a2e3460d`, tools-techne `3e686b66`, tools-git-almanac `8851d4dc`, and via hooks-bats tools-mgit `78a1b376` and tools-rig `f92d9a1c` (Bats kept in manual gates and CI; Rig's indexed assembly check declared and proved), all unpushed. Overnight-survey stopped (Decision 190 withdrawn); Shadowlab Spark fully removed from sol (Decisions 191, 192; spark-tidy verified; coordinator accepted the inert launchd override entry, SPARK-LAUNCHCTL a); terra after a push (declaration retired, `955faf5`); resources-check reported (Decision 189); Rig comment and kind routed to ki.mac-studio-setup. KI-TOOL-KI-CLI-165 was already accepted and pruned (tools-ki `fde00e97`, `39f1a91d`); accept-ue098 blocked before any change: the new MATURITY-1 audit warning (chezmoi `.ki.toml` declares no maturity) fails UE-098's verify criterion; maturity-accept done: chezmoi declares `maturity = "settled"` (`39f4f85`, Decision 195) and KB-DOTFILES-UE-098 is accepted (`efcd49b`).
