@@ -241,6 +241,8 @@ State of play matches the unit against each work's description and, where two ma
 
 A report shows its state in rich text. The heading's glyphs come first and the last glyph is whose move it is: 🤖 an agent, 👤 Kris, 🎯 a named target, ⏸️ nobody until the release, 🏁 nobody. A settled state shows its holder's glyph alone: `🤖 With worker`, `👤 With supervisor`, `⏸️ On hold`, `🏁 Finished`. An arrow appears only in a handoff state, pointing to whose move it is: `🤖 → 👤 Handoff to supervisor`, `👤 → 🤖 Handoff to worker`, `→ 🎯 Handoff to <target>`. The heading gives the state in role words; a line of counts follows; then the list `- [state] what · holder · since`. The counts and lists say "with you", because they are views by holder. The report's form line takes the same prefix, as in **🤖 → 👤 Handoff to supervisor · Summary at 23:52 BST · last mark 22:34 BST**.
 
+Every banner closes with one plain Markdown thread line, after a blank line following the list: `🧵 Coordination thread · <label> (<id>)` for Project work or `🧵 State of play thread · <label> (<id>)` for territory work. Use the exact work label and id from `work.md`; a run report uses the work it reports to. The thread line closes every state, including handoff, On hold and Finished, and replaces all copyable send and resume lines. No banner, handoff or hold report emits a send or resume prompt or a paste instruction.
+
 An example of work with its worker:
 
 > ### 🤖 With worker · since 23:41 BST
@@ -250,6 +252,8 @@ An example of work with its worker:
 > - [running] work-model · run/work-model · since 23:20
 > - [with you] WORK-HOME · owner · since 22:58
 > - [blocked] thread commit · repo/ki-principal · since 22:40
+>
+> 🧵 Coordination thread · KI > Model > Ways of working (ki.ways-of-working)
 
 And on hold:
 
@@ -259,10 +263,12 @@ And on hold:
 >
 > - [parked] 9 queries in `queries.md`
 > - [release] after the harness migration lands, or `resume`
+>
+> 🧵 Coordination thread · KI > Model > Ways of working (ki.ways-of-working)
 
 An On hold banner lists nothing waiting: no "with you", running or per-repository status item. Its items are only `[parked]`, `[release]` and, where true, `[unpushed]`; what each repository did stays in the hold report's Done. A push of stacked commits is never with Kris, a count or a query: it shows only as `[unpushed]`, the report's Done names other sessions' stacked commits once, and Kris pushes them when ready.
 
-The other headings follow the same form: `👤 With supervisor`, `🤖 → 👤 Handoff to supervisor`, `👤 → 🤖 Handoff to worker`, `→ 🎯 Handoff to <target>`, where the target is other work, a run or a person, `⏸️ On hold · more expected` and `🏁 Finished`. A stuck worker's send reads `🤖 → 👤 Handoff to supervisor · blocked`. The send line appears only when the work is in handoff to Kris, and it and the resume name the checkout their session must be grounded in, the primary checkout of the repository holding the work file; on hold, the hold report gives the resume that lifts it. The hold report keeps its name and its Done, Parked and Left over sections.
+The other headings follow the same form: `👤 With supervisor`, `🤖 → 👤 Handoff to supervisor`, `👤 → 🤖 Handoff to worker`, `→ 🎯 Handoff to <target>`, where the target is other work, a run or a person, `⏸️ On hold · more expected` and `🏁 Finished`. A stuck worker's send reads `🤖 → 👤 Handoff to supervisor · blocked`. The closing thread line identifies the work; its work package governs picking it up and lifting a hold. The hold report keeps its name and its Done, Parked and Left over sections.
 
 **Answers.** An owner report carries no copyable reply block. Each query keeps its Context, its one-sentence Query and its lettered Options, the recommended option first with its confidence. Kris answers in speech; the worker reads each answer back as taken in the decisions log and asks one line where an answer is unclear.
 
