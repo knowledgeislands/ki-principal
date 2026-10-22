@@ -318,3 +318,19 @@ Read back as taken:
 Kris: "The goal will be that when I come back in the morning, the roadmap is at least half what it is now. It's at 61, so I'd like it to be well under 30. Ideally speaking, I'd love to do it on single figures, right? So you can just keep pushing, chipping away, come up with what you think is at least some effort on those points and keep it working away."
 
 Taken as: the overnight target is the territory roadmap from 61 open records to well under 30, single figures if possible, by delivering, accepting under three agreeing high-confidence reviews and pruning, or closing records that are superseded or done, under the 14:46 and 02:25 grants. One planning run inventories and batches the 61; the coordinator dispatches one writer per repository, about three at a time. No new records (CAPTURE-GATE), no live applies, credentials or source deletion; attended and Kris-only items are left listed for the morning.
+
+## 2026-10-22 02:26 BST - triage and draft records may move forward
+
+Kris: "Also, if you want to take things that are in tree ice or draft and move them forwards, if you get consensus from the higher order models, you can do that."
+
+Taken as: "tree ice" is triage. A triage or draft record may be adopted, replanned to Ready and delivered when three reviewers on the strongest models (Codex xhigh, Opus 5.5 high, Fable 5.1 high) agree with high confidence; held records and the 02:25 exclusions are unchanged.
+
+## 2026-10-22 02:26 BST - overnight, Rig attended steps to the morning
+
+Kris: "I think you'd have to take me through the things you've got about the big steps and I can't do that now, I'm off to bed ... keep going and keep doing as much as you can do and progress it as much as you can please overnight."
+
+Taken as: "big steps" are the Rig attended steps; they wait for the morning, walked through with Kris. Unattended work continues all night under the 02:25 and 02:28 grants and the triage-and-draft grant above.
+
+## 2026-10-22 02:26 BST - DEPCRUISE-PATH dispatched
+
+The IMPORTANT messages line DEPCRUISE-PATH (rename `tooling/boundaries` to `tooling/depcruise` in ki-engineering, then migrate KI repositories) goes to run wow-depcruise in a ki-agentic-harness worktree; the line is removed.
