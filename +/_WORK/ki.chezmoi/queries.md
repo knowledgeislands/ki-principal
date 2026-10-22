@@ -8,7 +8,7 @@
 - STARSHIP-APPLY (Needs: decision, Kris): `brew install starship`, then `chezmoi apply ~/.zsh/99_starship ~/.zsh/completions/_starship ~/.config/starship ~/.config/rig/conf.d/16-homebrew.toml && rig doctor`, then a new Ghostty window; includes `classic` and `--all`. a) now (recommended, high); b) hold.
 - TOWER-PATH (Needs: decision, Kris): Rig has no fallback-path form, so the artefact and Dock path stay `~/Applications` until the move. a) keep until Kris moves it, then one follow-up commit switches both (recommended, high); b) switch now and accept drift; c) raise a tools-rig any-of path item.
 - RADAR-DESIGN (Needs: decision, Kris): where the radar ring lives. a) both: tools-rig owns the vocabulary, review fields, doctor's `review-overdue` finding and export field; chezmoi owns the values and ring-and-profile rules; the site owns display (recommended, high - only option that serves doctor, the site and the single-catalogue rule); b) personal sidecar `dot_config/rig/radar.toml`, no tools-rig change, can drift, doctor blind; c) interim radar view profiles with dates in roadmap records.
-- RADAR-PUBLIC (blind review running): how much of the radar the Rig site shows.
+- RADAR-PUBLIC (Needs: decision, Kris): how much radar rig.midnight.ninja shows. a) ring and Hold replacement for public tools; no review dates, checks or retired list; Trial tools only when opted into `public`; a private replacement is never named (recommended, high, reviewed); b) rings, dates and checks for every public tool; c) rings only.
 - Not raised: CORE-SET-COMMENTS (stays in the worksheet).
 
 ## Parked
