@@ -281,3 +281,11 @@ wow-tidy-deep-2 pruned 85 reports and 17 briefs but kept 283 reports, mostly bec
 ## 2026-10-22 02:15 BST - principal rebase without fetch
 
 wow-principal-rebase stopped before acting: its brief asked for a fetch that its rules forbid (REBASE-FETCH-AUTHORITY). The cached origin/main 80860d92 already carries the 10 remote commits, so the coordinator answers b) in substance without widening authority: wow-principal-rebase-2 rebases onto the cached origin/main with no remote call; anything newer on the remote is picked up at the next integration.
+
+## 2026-10-22 02:17 BST - fifth fix received, integration
+
+wow-day-impl-fix-5 fixed all four blocking findings (R4-ARCHIVE, R4-RESERVATION, R4-DISPATCH, the event-append wedge) and Fable's advisories except PID-only liveness, at eb0e8b2e on its retained branch: 2,046 tests, 100% coverage, matrix 26 flows, 4,674 fault cells and 1,302 SIGKILL cells. It raised HISTORY-ADMISSION; the coordinator answers a), as decided at 01:20: wow-toolski-integrate rebases 6c498f3a, 6c4d2a1a and eb0e8b2e onto the cached origin/main 51725e8b in a fresh worktree, keeping both changes, re-runs the full suite, coverage and matrix, and moves local main to the result only if it still reads 6c4d2a1a. No fetch, no push. Three fresh blind re-reviews then follow; if they still find blocking defects, convergence goes to Kris.
+
+## 2026-10-22 02:22 BST - principal rebase, third attempt
+
+The 02:17 entry above was committed while wow-principal-rebase-2 was replaying, and its abort discarded it; it is restored here, and the coordinator makes no ki-principal commit while a rebase run is active. wow-principal-rebase-2 aborted cleanly at abcae497 on a front-matter conflict in ki.chezmoi's state.md (REBASE-STATE-METADATA). The coordinator answers it with a mechanical rule: where a work's state.md front matter conflicts, keep the whole front-matter block from the side with the later `since`, then the later `mark`; body sections keep both sides. wow-principal-rebase-3 retries under that rule, aborting on any other unresolvable conflict; no fetch, no push.
