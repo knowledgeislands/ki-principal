@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
-state: handoff-to-supervisor
-since: 2026-10-22T21:15:00Z
+state: with-worker
+since: 2026-10-22T21:17:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-22T07:51:00Z
@@ -12,6 +12,7 @@ method_read: beb56729
 
 ## Now
 
+- mgit-member-fix (run `chezmoi`, in tools-ki) running: Kris asked for the direct fix of MGIT-EXTERNAL-MEMBER.
 - mgit-member done: `ki` rejects mgit's external member `../../.local/share/chezmoi` (tools-ki fault); routed to ki.tools-burndown as MGIT-EXTERNAL-MEMBER; run `ki` from inside a repository meanwhile.
 - apply-stages done: stage 1 applied, Starship and font via targeted `rig apply`; Warp retired (zap); `rig doctor` 6 (handlers and Dock wait on stage 3, firewall elsewhere). hold-blind done: HOLD-LIFT reviewed (high), `.toml` stays held.
 - drift-sweep done: terra `chezmoi status` shows only `~/.codex/config.toml` (CODEX-CONFIG) and `~/.codex/hooks.json` (ORCA-HOOKS); retired `Projects/HNR` removed; Warp leftovers in the Trash.
