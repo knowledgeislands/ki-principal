@@ -12,7 +12,7 @@ method_read: beb56729
 
 ## Now
 
-- handover-route done (Decision 206): NORDVPN-HOLD, FW-EXPOSURE, HANDLER-FAIL to ki.mac-studio-setup (`30018774`), HOOK-ROLLOUT to ki.tools-burndown (`ee440eef`); TOWER-MOVE is kb.regular.site-tower's; all 'unpushed' commits were already on origin; both receiving works are on hold. route-2 sends RIG-APP-FOOTPRINT and the two personal-principal lines.
+- handover-route done (Decision 206): NORDVPN-HOLD, FW-EXPOSURE, HANDLER-FAIL to ki.mac-studio-setup (`30018774`), HOOK-ROLLOUT to ki.tools-burndown (`ee440eef`); TOWER-MOVE is kb.regular.site-tower's; all 'unpushed' commits were already on origin; both receiving works are on hold. route-2 done: RIG-APP-FOOTPRINT (important) to ki.mac-studio-setup (`7f70fb40`), TOWER-PATH-WAIT to kb.regular.site-tower (`c9fac6b`), SITE-REVIEW to kb.regular.personal-rig (`74d17e6`), all pushed.
 - orca-eval done: Orca replaces Zed's Delta app; partly CodexBar, GitHub Desktop, Codex app; not Zed or Ghostty; telemetry on and agent permission bypass by default; ORCA-ADOPT in blind review (orca-adopt-blind).
 - apply-check done: combined terra apply verified (RIG-APPLY with Kris); `~/.claude/settings.json` and `~/.codex/hooks.json` left out because Orca added hooks live (ORCA-HOOKS, blind review running).
 - starship-preview done: `starship-variant --all` (or `-a`, with `--status`/`--duration`) previews every variant in the current directory without switching; kris variants recoloured for Ghostty's dark default and light themes (backup in the kit); contrast findings passed to starship-adopt and terminal-retire.
