@@ -12,7 +12,7 @@ author: Written with Claude
 
 ## Overview
 
-The Acquisition Process is the operational picture of how material from AI sessions, meetings and other external sources enters an island faithfully, is harvested into durable knowledge, and eventually leaves its transient source. It describes [ADR-KI-PRINCIPAL-001](../../../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-001-provider-neutral-knowledge-acquisition.md) as observed in two local evidence sets, not as a new design. Where the evidence is thin, this note says so.
+The Acquisition Process is the operational picture of how material from AI sessions, meetings and other external sources enters an island faithfully, is harvested into durable knowledge, and eventually leaves its transient source. It applies [ADR-KI-PRINCIPAL-001](../../../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-001-provider-neutral-knowledge-acquisition.md) to Acquire's model as simplified on 20 October 2026. Earlier observations below remain historical evidence, not current storage requirements.
 
 Acquisition is not session archiving. A source is visible because it holds transient working state; the destination is reviewed, durable island knowledge. Provider mechanics (MCPs, APIs, local parsers, export importers) sit below this boundary and belong to the repositories that own them.
 
@@ -20,39 +20,29 @@ Acquisition is not session archiving. A source is visible because it holds trans
 
 ## End-to-end flow
 
-Acquire is the capability called ports: acquire is the port, with one port of entry per source, in the sense of [GDR-KI-PRINCIPAL-010](../../../../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-010-the-port.md). It is the single point where material enters the territories and leaves again for the island that should have it. Material goes into acquire and out of it in a coordinated form, in six steps. "Harbour" is the port's [Arcadian](../../../Realisation/Arcadia/Arcadia.md) register, the romantic, historical way of seeing it, because shipping carried things between islands.
-
-![How material enters an island through the acquire port](acquisition-flow.svg)
-
-<details>
-<summary>Earlier Mermaid diagram, kept until the Archify diagram above is signed off. The Archify diagram is a plain light export and will be re-exported in the KI theme once KI-HARNESS-GOV-205 lands.</summary>
+Acquire is **the port**, with one entry per source, in the sense of [GDR-KI-PRINCIPAL-010](../../../../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-010-the-port.md). It acts as a **sorting office**: material stages in the private `acquire` repository before whole packages reach the receiving principal. "Harbour" is the port's [Arcadian](../../../Realisation/Arcadia/Arcadia.md) register, the historical image of shipping between islands.
 
 ```mermaid
 flowchart LR
-  S["Sources<br/>AI sessions, meetings,<br/>messages, voice, images"] --> D["Drops<br/>holding folders, exports"]
-  D --> I["1. Intake<br/>receive, verify, receipt"]
-  S --> I
+  S["Sources and drops"] --> I["1. Intake<br/>receive and verify"]
   I --> R["2. Sorting<br/>who should have it"]
   R -->|unsure| K["Kris decides"]
   K --> R
-  R --> P["3. Dispatch<br/>into the island's inbound area"]
+  R --> P["3. Dispatch<br/>principal's +/_ACQUIRED/"]
   P --> T["4. Island triage"]
   T --> F["5. Filing and fold-back"]
-  P --> X["6. Retirement<br/>receipt and fingerprints kept"]
-  T -->|not about this island| I
+  P --> X["6. Retirement<br/>remove Acquire's copy"]
 ```
 
-</details>
-
-- **Sources and drops.** Material is born at a source: an AI session, a meeting, a message, a voice note, a photo. Where it cannot be read directly, Kris drops it in a holding place to wait for intake. A drop is not yet acquired.
-- **1. Intake.** Acquire receives the material faithfully, verifies it and writes a receipt. It decides nothing about meaning.
-- **2. Sorting.** Acquire decides only who should have each item: the territory and its receiving principal. It does not decide what matters, where it is filed or whether it changes a decision. Anything it is unsure of goes to Kris.
-- **3. Dispatch.** The port delivers whole packets into the receiving principal's `+/_ACQUIRED/` only, retires its copy once delivered and read back, and takes back returns marked by the island.
-- **4. Island triage.** The receiving principal, which knows its own world far better than acquire, decides what each item is worth: file it, turn it into work, park it or return it.
+- **Sources and drops.** Material is born in a source: an AI session, meeting, message, voice note or photo. Where it cannot be read directly, Kris drops it in a holding place to wait for intake. A drop is not yet acquired.
+- **1. Intake.** Acquire receives material faithfully and verifies it. The committed capture is the acquisition record; there is no separate ledger or intake receipt.
+- **2. Sorting.** Acquire decides only who should have each item: the territory and receiving principal. It does not decide what matters, where it is filed or whether it changes a decision. Anything unsure goes to Kris.
+- **3. Dispatch.** On Kris's instruction, the port delivers whole packages into the receiving principal's `+/_ACQUIRED/` only. Delivery is acceptance. The receiver's commit adding the package and Acquire's commit removing it are the only delivery record.
+- **4. Island triage.** The receiving principal decides what each item is worth: file it, turn it into work or park it. Misdelivery is dealt with case by case; there is no return route to Acquire.
 - **5. Filing and fold-back.** The receiving principal files what it keeps under its own Enactment Process and folds returning knowledge back into the notes it belongs to.
-- **6. Retirement.** Acquire retires its copy once the item is dispatched, as [Source retirement](#source-retirement) sets out.
+- **6. Retirement.** Acquire removes its copy after the delivered package's committed tree has been verified against the source package. This does not authorise retiring the provider-side source.
 
-Acquire holds the routing knowledge sorting needs, and it is also a place where Kris reasons with his material across all his territories, which is why it belongs to Personal.
+Acquire holds the provider-free territory context that sorting needs. It is also where Kris reasons about material across territories, which is why it belongs to Personal. Routing context describes territories independently of the source provider.
 
 ---
 
@@ -64,10 +54,10 @@ The ADR fixes six stages. Each has an owner for its mechanics; the receiving isl
 | --- | --- | --- |
 | Discover | Content-minimised listing of what exists at the source | Provider MCP or adapter |
 | Acquire | Faithful read of the original, before interpretation | Provider MCP or adapter |
-| Stage | Write the capture and its provenance into the receiving working area, with an incremental checkpoint | `tools-ki` (`ki acquire import --adapter <provider>`) |
-| Harvest | Review the capture and promote reviewed knowledge into the island | The receiving island |
-| Durable knowledge | Accepted notes in `Pillars`, `Resources` or `Calendar` | The receiving island, under its Enactment Process |
-| Archive or delete source | Retire the transient source or staged capture | Acquire for captures; open for provider-side sources: see [Source retirement](#source-retirement) |
+| Stage | Preserve capture and provenance outside the receiving island | Acquire |
+| Harvest | Interpret and promote reviewed knowledge into the island | Receiving island |
+| Durable knowledge | Accepted notes in canonical zones | Receiving island, under its Enactment Process |
+| Archive or delete source | Retire a staged copy or provider-side source | See [Source retirement](#source-retirement) |
 
 Reusable provider-facing skills and their paired adapter surfaces belong to `ki-agentic-harness`.
 
@@ -75,7 +65,11 @@ Reusable provider-facing skills and their paired adapter surfaces belong to `ki-
 
 ## Evidence
 
-Two sources ground this note.
+Current mechanics are defined by Acquire's [capture entry point](https://github.com/krisb/acquire/blob/main/CAPTURE.md), [repository instructions](https://github.com/krisb/acquire/blob/main/AGENTS.md) and [dispatch guide](https://github.com/krisb/acquire/blob/main/docs/guides/operator/dispatch.md). Acquire keeps no ledger or intake receipts. The committed package records acquisition, and the receiver's addition commit with Acquire's removal commit records delivery.
+
+### Historical observations before 20 October 2026
+
+The two observations below explain the earlier staging model. The Granola ledger and migration manifest are historical evidence retained in Acquire's Git history at `aeb1ec4`, not live files to recreate. The former per-island staging location was retired on 10 October; the separate ledger and intake receipts were removed on 20 October.
 
 **Export or API source: Granola, staged in the private `acquire` repository.** Since 2026-10-10 every Granola capture lands in `acquire` (`krisb/acquire`), consolidated from the inbound areas of the former per-island Ports.
 
@@ -89,7 +83,7 @@ Two sources ground this note.
 
 ## Provenance package
 
-The ADR requires every adapter to preserve the fields below. This table records what each source provides today.
+The ADR requires every adapter to preserve the fields below. This table records the earlier Granola and Claude Code observations, before the 20 October simplification; ledger references describe historical evidence, not a current requirement.
 
 | Required | Granola (staged capture) | Claude Code (checkpoint and read) |
 | --- | --- | --- |
@@ -115,24 +109,28 @@ A capture is safe to harvest when the staging record, as observed, holds:
 3. A content hash for each retained original.
 4. A declared list of omissions.
 
-The Granola ledger meets this per meeting and keeps a harvest `disposition` (for example `staged`). This describes what was observed; it does not prescribe a checkpoint for other sources.
+The historical Granola ledger met this per meeting and kept a harvest `disposition` (for example `staged`). Current capture evidence belongs with the committed package; no separate ledger is required.
 
 ---
 
 ## Imperfect routing
 
-Initial routing may be wrong and need not be perfect. A capture can move within the staging repository, or to another island, without rewriting acquisition evidence: `routing.json` and the migration manifest retain original memberships, and `source-variants/` keeps immutable snapshots. The receiving island decides what it keeps; a handoff grants no acceptance authority.
+Initial routing may be wrong and need not be perfect. Before dispatch, a whole package can move within Acquire without rewriting its source evidence. The receiving island decides what it keeps; delivery grants no authority to accept canonical knowledge. After delivery, misrouting is dealt with case by case, without an automatic return route.
 
 ---
 
 ## Source retirement
 
-Acquire retires its copy of a capture once it is dispatched, keeping the receipt and the fingerprints (the content hashes), so that acquire never becomes a second copy of everything the territories have dealt with. It does not wait for the receiving island to accept the item. A receiver may return anything that is not about it; the return comes back into acquire as a new acquisition, rejected knowledge, and goes through intake and sorting again.
+Acquire removes its staged copy only after dispatch has verified the receiver's committed package against the source package. The receiver's addition commit and Acquire's removal commit record the delivery. It does not wait for the receiving island's later filing or canonical decisions.
 
-Archiving or deleting a provider-side source session is **undecided**. Successful discovery, staging or harvesting alone does not authorise mutating a source. The threshold needs a later, provider-specific safety decision recorded in the owning repository's roadmap. A downloaded drop (such as an attachments ZIP in a holding area) may be deleted once every file in it is verified in Git and pushed, as step 8 of [`acquire`'s CAPTURE-CHATGPT.md](https://github.com/krisb/acquire/blob/main/CAPTURE-CHATGPT.md) sets out; provider-side sources (ChatGPT chats, Granola meetings) stay under the rule above.
+Archiving or deleting a provider-side source session remains **undecided**. Capture, dispatch or harvesting alone does not authorise mutating that source. Any later provider-specific safety decision belongs to the owning repository.
+
+A downloaded drop, such as an attachments ZIP in a holding area, is removed only when every item has been verified at its destination. Originals committed to Git must also be pushed and verified there before the drop is removed, as Acquire's [ChatGPT drop procedure](https://github.com/krisb/acquire/blob/main/docs/guides/operator/chatgpt.md#zip-fallback-for-originals) describes. Partial or held drops stay.
+
+Images stay in Git. Material held outside Git, including video, belongs in an explicitly bound external source store at the mirrored package path. This does not create a source-store binding or authorise moving a held drop: where a destination or verification is missing, retain the original and ask Kris.
 
 ---
 
 ## Observed gap
 
-`tools-ki` `src/core/acquire/` ships only the `granola` and `chatgpt` adapters, so Claude Code sessions are evidenced at discovery and checkpoint level only, with no staged capture. This is an observation, not a design choice. A portable specification waits until two source mechanisms are staged through a common record. The installed ChatGPT application keeps an opaque local session cache, which confirms that discovery, faithful raw acquisition, interpretation and retirement stay separate concerns.
+The earlier `tools-ki` and Claude Code observations above did not establish two source mechanisms staged through a common record. This amendment changes the staging wording, not those adapters or their evidence. The installed ChatGPT application's opaque local session cache reinforces the distinction between discovery, faithful raw acquisition, interpretation and retirement.

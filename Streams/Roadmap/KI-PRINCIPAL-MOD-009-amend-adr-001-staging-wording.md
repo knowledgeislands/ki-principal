@@ -11,13 +11,13 @@ tags:
   - topic/acquisition
 priority: medium
 size: m
-status: draft
+status: awaiting-review
 horizon: now
 blocks: []
 blocked_by: []
-baseline_ref: null
+baseline_ref: 9452900cfb19bb802d60f70563690259f9d889bd
 created_at: 2026-10-17T22:50:00Z
-updated_at: 2026-10-20T04:14:07Z
+updated_at: 2026-10-23T01:42:20Z
 ---
 
 # Amend ADR-KI-PRINCIPAL-001 Staging Wording
@@ -42,10 +42,73 @@ On 20 October 2026 Acquire simplified further: it keeps no ledger, the `.acquire
 - The ADR is under `Admin/Governance/` and the Acquisition Process note under `Pillars/`, so each amendment runs through the [Enactment Process](<../../Admin/Operations/Processes/Enactment Process.md>) and needs the exact wording confirmed before it is written.
 - No change to `acquire`, `tools-ki` or any adapter.
 
+## Current state
+
+Kris approved CUSTOMS-WORDS a) on 23 October 2026 at 02:12 BST: "Yeah, I approve all of those things you've requested in line with your recommendations as you see fit." The [ways-of-working decisions log](../../+/_WORK/ki.ways-of-working/decisions.md) records the bounded grant to draft and enact this wording. The current Acquire instructions, capture entry point and dispatch guide have been read locally; there are no dependencies on another repository's delivery.
+
+## Steps
+
+- [x] Align the ADR's Context, Decision and Consequences with staging outside the receiving island and delivery into `+/_ACQUIRED/`.
+- [x] Bring the Acquisition Process and its displayed flow into line with the 20 October model, retaining dated provenance observations and the provider-side retirement boundary.
+- [x] Use the port and sorting office for Acquire; preserve the Glossary's island-boundary meaning of Customs.
+- [x] Verify the bounded changes, record evidence and leave this record awaiting review.
+
+## Files touched
+
+- [ADR-KI-PRINCIPAL-001](../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-001-provider-neutral-knowledge-acquisition.md).
+- [Acquisition Process](<../../Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md>).
+- This record.
+
+## Verify
+
+Run the repository audit, the audit scoped to these paths, Markdown checks and normal commit hooks. Check the staging and dispatch wording against Acquire's current local instructions, confirm the Glossary is unchanged, and check that no current Acquire term uses Customs or clearance. Record pre-existing failures separately from this delivery.
+
+## Dependencies / blocks
+
+None. No Acquire, adapter or runtime change is part of this delivery.
+
+## Review
+
+### Delivered
+
+The approved ADR staging amendment, the 20 October Acquire process alignment and CUSTOMS-WORDS a) are delivered from immutable baseline `9452900cfb19bb802d60f70563690259f9d889bd`. Staging remains outside the receiving island until whole packages reach its principal's `+/_ACQUIRED/`. Delivery is package acceptance; canonical acceptance remains with the receiving island. No Acquire, adapter or runtime file was changed.
+
+### Change Summary
+
+- The ADR's Context, Decision and Consequences distinguish the external staging area from the receiving Harbour and assign staging and dispatch to Acquire.
+- The Acquisition Process uses the port and sorting office, removes the receipt and return route from its displayed flow, and dates the earlier ledger and provenance observations as historical evidence.
+- Drop retirement requires destination verification; images remain in Git and externally stored originals use a declared source store at the mirrored package path. No binding or held-drop movement is authorised here. Territory context remains provider-free.
+- The current Mermaid flow replaces the obsolete SVG reference. The stored SVG and workflow JSON exports are unchanged historical assets, not the displayed current flow.
+- The Glossary's island-boundary sense of Customs is unchanged. TAGS-NEXT is a separate bounded owner-approved convention change, not added to this record's scope.
+
+### Verification
+
+- `ki repo audit --repo . --concise --progress never`: baseline failed with 77 existing findings across five skill verdicts; no unrelated repair was attempted.
+- Repository audit scoped to the three delivery paths and the separate Tags convention: passed with zero scoped failures or warnings; the wider evaluation still reported the same 77 failures and 74 warnings.
+- `rumdl check` on the four changed Markdown files and `git diff --check`: passed. Normal pre-commit and commit-message hooks are required for the delivery commit.
+- Exact content checks passed: tag assignments retained, Glossary unchanged, no Customs or clearance term in the ADR or Acquisition Process, no removed capture-entry link, and current displayed flow has no intake receipt or return route.
+- Acquire's local `AGENTS.md`, `CAPTURE.md`, dispatch guide and ChatGPT ZIP procedure were read without network access. The drop-procedure link anchor was verified against that local guide.
+
+### Outstanding concerns
+
+The repository-wide audit is not clean: its pre-existing failures and warnings remain outside this delivery. The scoped audit is clean. No item-specific concern remains; approval of the delivered wording is for the owner. No push, acceptance or pruning was performed.
+
+### Post-change review
+
+The goal and approved boundary are met. The six-stage lifecycle, faithful preservation requirements and separate provider-side retirement authority remain intact. The main regression risk was presenting old receipt and ledger mechanics as current; the displayed flow now matches the guide and older evidence is explicitly dated. The item is ready for owner review, not self-accepted.
+
+### Mini recap
+
+Aligned staging, dispatch and vocabulary with Acquire's current guides, retained provenance history, and verified the bounded paths. The canonical ADR and process note hold the learning; no extra record or process is needed.
+
 ## Discussion
 
 - Decide whether the ADR names `acquire` as the staging home or states the principle (staging in a Git-backed holding area owned outside the receiving island) and lets the Acquisition Process note carry the location.
 - Check the other wording that follows from the same sentence: the Context paragraph on the Harbour, and the ADR's consequences about `tools-ki` owning staging mechanics.
 - Keep the [Acquisition Process](<../../Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md>) note consistent with the amended wording.
 - Widen the amendment to cover the end-to-end flow Kris accepted on 2026-10-18 and recorded in the [Acquisition Process](<../../Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md#end-to-end-flow>) note: dispatch into the receiving island's inbound area and "the port" as the name of acquire's function, with "harbour" kept for the island imagery. The receipt, fingerprints and returned-items parts of that flow are superseded by the 20 October model.
-- Open point for Kris at enactment, CUSTOMS-WORDS: on 18 October Kris adopted **Customs** for the facility, the **clearance area** and **clearance** as words for Acquire, recorded only in the retired intake-trial note. Since then Kris has called Acquire "simply a sorting office", which the dispatch guide uses, and the [Glossary](../../Admin/Governance/Conventions/Glossary.md) already uses Customs for an island's boundary rules. Recommendation: drop "Customs" and "clearance"; "the port" and "sorting office" stand.
+- CUSTOMS-WORDS was settled by Kris on 23 October 2026 at 02:12 BST: drop Customs and clearance as Acquire terms; the port and sorting office stand. The Glossary's island-boundary meaning of Customs is unchanged.
+
+## Governance
+
+This record adheres to the [Enactment Process](<../../Admin/Operations/Processes/Enactment Process.md>). Kris's bounded approval recorded above authorises this delivery; acceptance remains a separate review.

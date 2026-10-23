@@ -13,13 +13,13 @@ decision_depends_on: ['SDR-KI-PRINCIPAL-002']
 
 ## Context
 
-An island's Harbour receives material from many external systems: AI sessions, ChatGPT and Granola exports, Slack, email, documents, and future sources. These systems retain transient working state or external records, but none is a Knowledge Islands knowledge base. Their storage mechanics vary between local files, export bundles, APIs, and MCP servers.
+External systems supply material to the acquisition port: AI sessions, ChatGPT and Granola exports, Slack, email, documents, and future sources. These systems retain transient working state or external records, but none is the Knowledge Islands knowledge base. Their storage mechanics vary between local files, export bundles, APIs, and MCP servers.
 
-The Harbour defined by [SDR-KI-PRINCIPAL-002](SDR-KI-PRINCIPAL-002-the-home-of-knowledge.md) needs a common ingress model that preserves available source material before interpretation. A provider-specific archive or session browser cannot provide that model because durable knowledge may emerge only after review and harvesting, and an initially imperfect routing decision must not lose the source.
+The Harbour defined in [SDR-KI-PRINCIPAL-002](SDR-KI-PRINCIPAL-002-the-home-of-knowledge.md) is the island's incoming working area. A common ingress model preserves available source material before interpretation, with staging outside the receiving island until dispatch. A provider-specific archive or session browser cannot provide that model because durable knowledge may emerge only during review and harvesting, and an initially imperfect routing decision must not lose the source.
 
 ## Decision
 
-Knowledge Islands adopts provider-neutral acquisition: **discover → acquire → stage → harvest → durable knowledge → archive/delete source**. `ki acquire import --adapter <provider>` is the repository-context operation that stages material in the receiving island's `+` Harbour and maintains incremental checkpoint state.
+Knowledge Islands adopts provider-neutral acquisition: **discover -> acquire -> stage -> harvest -> durable knowledge -> archive/delete source**. Material stages in a Git-backed holding area outside the receiving island. The acquisition port acts as a sorting office, preserving captures and routing whole packages to the receiving principal's `+/_ACQUIRED/`. Delivery is acceptance of the package; the receiving island separately decides what becomes durable knowledge under its own Enactment Process.
 
 Every provider adapter must faithfully preserve available original content, source identity, timestamps, media and attachments as byte-preserved assets, provenance, and declared omissions. It must distinguish content-minimised discovery and checkpoint data from faithful source reads. MCPs, APIs, local parsers, and export importers are provider mechanics, not the acquisition architecture.
 
@@ -28,9 +28,9 @@ Acquisition does not require perfect initial routing, infer durable knowledge, o
 ## Consequences
 
 - ChatGPT, Granola, Codex, Claude, Slack, email, documents, and future sources share one acquisition vocabulary and staging boundary.
-- Repeated acquisition selects new or changed source material through checkpoints rather than copying every source repeatedly.
+- Repeated acquisition selects new or changed source material through provider-appropriate evidence rather than copying every source repeatedly.
 - An unavailable image, attachment, or field is recorded as an omission or unavailable provenance; acquisition never invents a faithful copy.
-- Provider repositories own adapter code and source-specific safeguards. The Harness owns reusable skills and MCP pairing. `tools-ki` owns the repository-context command and staging mechanics.
+- Provider repositories own adapter code and source-specific safeguards. The Harness owns reusable skills and MCP pairing. Acquire owns staging and dispatch mechanics; provider tools own their acquisition commands.
 - Retaining a source capture is distinct from promoting knowledge from it, so source archive or deletion cannot be implied by import success.
 
 ## References
