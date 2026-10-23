@@ -4,7 +4,7 @@ tags:
   - card/note
   - topic/knowledge-islands
   - topic/knowledge-management
-status: draft - April 2026
+status: current - October 2026
 author: Written with Claude
 ---
 
@@ -12,7 +12,17 @@ author: Written with Claude
 
 ## Overview
 
-Tags follow a hierarchical `namespace/value` pattern and are defined as a superset across all islands - not every tag will be relevant to every island. Island-specific tag extensions live in the island's `Admin/` zone.
+Tags are optional subject labels for retrieval across zones. Use `topic/<subject>` when the subject substantially belongs to a note and the same retrieval question spans zones; do not add a tag merely to repeat the folder, note kind or a passing mention. A subject already gathered by one chapter normally needs its index and links, not another tag.
+
+Use a small controlled vocabulary, shared where meanings agree across islands, with island-specific extensions in `Admin/`. The 27-note Knowledge Islands Principal pilot is retained. Its five subject scopes are:
+
+- `topic/governance`: authority, charters, councils, conformance and approval of canonical change; not every note that passes through Enactment.
+- `topic/agents`: AI agents and Avatars, their roles and limits; general AI technology stays `topic/ai`.
+- `topic/acquisition`: outside material entering an island, including the port and arrival routing; not trade between islands.
+- `topic/history`: the model's influences and lineage in knowledge systems; not the history of a single note or repository.
+- `topic/work`: forward work and its lifecycle, including work records, Streams and Activities; not a note merely citing a work record.
+
+Tags supplement links and full-text search; untagged notes, including decision records outside the pilot, still need those routes. Existing `card/*`, `date/*`, `source/*` and other non-subject entries below remain for later reconciliation. This convention changes none of their assignments, templates or consumers.
 
 ---
 
