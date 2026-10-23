@@ -545,3 +545,7 @@ wow-fix-queues-2 stopped rightly: the coordinator's example was wrong. Seven of 
 ## 2026-10-23 02:12 BST - queue lines from the merge dispositioned
 
 wow-fix-queues-3 removed the 24 handled lines. This work's new lines, in queue order: SCHED-DEBRIEF, COORD-HANDOFF-ASKS, COORD-MODEL, PROJECT-ADDRESSABLE and REGULAR-WORK-ROLE go together to wow-coord-lessons, a proposal-only design note sized under the 23:22 steer, with its queries to Kris; CHECKER-TITLE to wow-checker-title, a harness fix on a worktree branch; AGENT-HOOKS-OBSERVATORY routed to ki.observatory's queue, the Observatory being out of this work's scope. DRAIN (22 October, "hold, more expected") is held in the queue: Kris has steered this thread directly since, so it is taken as overtaken unless Kris says drain.
+
+## 2026-10-23 02:10 BST - three more upstream commits in ki-principal
+
+Kris: "Sorry, it looks like I've collided with some issues of yours. There's still a few things to pull in on a couple of repositories", with ki-principal ahead 144 behind 3 and tools-ki ahead 2 behind 2. Taken under the 01:45 instruction: wow-resolve-principal-3 merges the three new `origin/main` commits into ki-principal locally, queue conflicts resolved by which side handled a line; tools-ki is already in hand with wow-admit-toolski-4, after which it fast-forwards. No push.
