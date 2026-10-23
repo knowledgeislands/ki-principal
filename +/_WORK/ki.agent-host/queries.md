@@ -4,7 +4,7 @@
 
 ### CLI006-PLAN - The guarded host commands plan is back in the queue
 
-**Context:** [KI-TOOL-TECHNE-CLI-006](/Users/krisbrown/workspaces/knowledge-islands/tools-techne/docs/roadmap/KI-TOOL-TECHNE-CLI-006-guarded-host-commands.md) was released to `next` this run, because its hold waited only for agent-host work to resume. Its plan was published on 12 October and waits for your review before Ready. Its source review predates the host-patching work, which has since been accepted, and the plan itself says the guarded status must be re-grounded against that result.
+**Context:** [KI-TOOL-TECHNE-CLI-006 (pruned)](https://github.com/knowledgeislands/tools-techne/blob/ffcaf0c099f1d3019247ff97466754b8a7312166/docs/roadmap/KI-TOOL-TECHNE-CLI-006-guarded-host-commands.md) was released to `next` this run, because its hold waited only for agent-host work to resume. Its plan was published on 12 October and waits for your review before Ready. Its source review predates the host-patching work, which has since been accepted, and the plan itself says the guarded status must be re-grounded against that result.
 
 **Query:** How should the plan reach Ready?
 
