@@ -12,29 +12,9 @@
 
 - Pointer: RIG-CASKS, Kris on 14 October: hold `rig apply` on both Macs until a fixed release is installed. Carried as the both-Mac Rig apply hold in `state.md` until Kris lifts it.
 
-## Decision 85 (2026-10-18T09:18:10Z)
-
-- Pointer: HARNESS-PATHS, Kris on 18 October: migrate each host's KI harness paths to host-local state under [KI-TOOL-KI-CLI-143 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/a22214ee581b73a1f395da88f9a118ad89814bb9/docs/roadmap/KI-TOOL-KI-CLI-143-separate-local-harness-paths.md); remove `[locals]` from the chezmoi source only after both hosts pass, and apply only on Kris's explicit approval. Sol's run is the next entry; the open part is SOURCE-LOCALS-LIVE in `queries.md`.
-
-## Decision 97 (2026-10-19T13:29:12Z)
-
-home: +/_WORK/ki.chezmoi/work.md class: operational
-
-- Complete KI harness-path migration on Sol under the existing HARNESS-PATHS approval.
-
-Terra is migrated and verified on KI v0.11.4. Both paths and active harnesses are unchanged; doctor is healthy. Its only diagnostic warning is the expected ignored legacy [locals] table.
-
-Check Sol’s KI version, record doctor/diag and existing paths, then run ki bootstrap. Verify identical paths in host-local locals.toml, unchanged configuration and active harnesses, and healthy diagnostics. Check development switches using isolated test state.
-
-Stop on unexpected differences. Once Sol passes, prepare removal of [locals] from the shared chezmoi source, show Kris the diff, and wait for explicit apply approval. Commit by explicit path; never push.
-
 ## Decision 101 (2026-10-19T18:56:48Z)
 
-home: +/_WORK/ki.chezmoi/work.md class: operational
-
-- It can do anything that's high confidence.
-
-Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal intentional, no `[locals]` apply remains), MGIT-APPLY, TRIAGE-CUT, RIG-LIVE-DELIVER and CARRY-DIRECTIONS.
+- Pointer: standing authority, Kris on 19 October: "It can do anything that's high confidence." Later entries take high-confidence recommendations under it.
 
 ## Decision 104 (2026-10-19T19:53:54Z)
 
@@ -44,69 +24,13 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 
 - Pointer: PAPERCLIP-PLIST, 19 October: Terra's disabled `uk.me.kris.rig.paperclip.plist` stays until the Paperclip rebuild is designed.
 
-## Decision 114 (2026-10-19T21:13:36Z)
-
-- Pointer: SOL-FIREWALL a), Kris on 19 October: read-only pre-flight, then an attended `chezmoi apply` of the named targets on Kris's reviewed diff and `rig apply --sudo` of the firewall target at Sol, then Screen Sharing from Terra; LAN refusal left unchecked.
-
 ## Decision 116 (2026-10-19T21:26:30Z)
 
 - Pointer: Kris on 19 October: NordVPN is used on Terra, not Sol; whether Sol keeps it is a later Rig lifecycle question.
 
-## Decision 117 (2026-10-19T21:27:50Z)
-
-- Pointer: Kris on 19 October: after Sol's apply, a read-only Terra check with NordVPN connected decides whether the fix lies in Rig (KI-TOOL-RIG-CORE-047) or a NordVPN setting; carried as next step 3 in `state.md`.
-
-## Decision 118 (2026-10-19T21:44:22Z)
-
-- Pointer: Kris on 19 October, 22:40 BST: prepare Sol for the age-encrypted SSH key delivery verified on Terra. The work covers steps 1 to 5 and waits for Kris's explicit apply approval. Keep the passphrase, Keychain behaviour and OneDrive backup, and do not push. That preparation is done, and the apply is SSH-APPLY in `queries.md`.
-
-## Decision 119 (2026-10-19T21:48:17Z)
-
-- Pointer: Kris on 19 October, 22:47 BST, "go ahead with recommendations". SSH-APPLY a): apply `~/.ssh/config` and `~/.ssh/kris@kris.me.uk` on Sol with scripts excluded, then run the verification ([sol-ssh-key](/Users/krisbrown/.local/state/ki/agents/chezmoi/sol-ssh-key.report.md)).
-
-## Decision 120 (2026-10-19T21:48:17Z)
-
-- Pointer: Kris on 19 October, 22:47 BST, the same answer. SOL-APPLY a): run the whole [sol-apply](/Users/krisbrown/.local/state/ki/agents/chezmoi/sol-apply.md) sequence at Sol's console with the undo rehearsal included and NordVPN off. This includes the S1 `chezmoi apply` of `55-ports.toml`.
-
-## Decision 121 (2026-10-19T22:05:15Z)
-
-- Pointer: SOL-APPLY a) carried out with Kris at Sol's console, 22:50–23:06 BST. All blocks passed. The S3 gate check was corrected from "anchor listed" to "anchor holds entries" within the same authority. Evidence goes to KI-TOOL-RIG-CORE-047 through sol-firewall-record.
-
-## Decision 122 (2026-10-19T22:11:19Z)
-
-- Pointer: Kris on 19 October, 23:13 BST, "go with the recommendations": GUIDE-REMOTE. Update the Remote access section now, using the blind review's qualified wording and the NordVPN caveat ([guide-remote-review](/Users/krisbrown/.local/state/ki/agents/chezmoi/guide-remote-review.report.md)).
-
-## Decision 123 (2026-10-19T22:11:19Z)
-
-- Pointer: Kris on 19 October, 23:13 BST, the same answer: TERRA-NORDVPN a). Open a Rig follow-up record for detecting the bypass ([terra-nordvpn](/Users/krisbrown/.local/state/ki/agents/chezmoi/terra-nordvpn.report.md)). It is given ahead of its blind review, which is still running, so the record run waits for the review and stops if the review disagrees.
-
-## Decision 124 (2026-10-19T22:13:47Z)
-
-- Pointer: FW-DECLARE, Kris on 15 October: "The Rig: chezmoi thread commits the firewall declaration as conf.d/private_45-firewall.toml with profiles = [\"laptop\"], and does not apply chezmoi on sol until sol's Rig is 0.6.0 or later; then give me the terra steps." Delivered as `[firewall.screen-sharing-tailnet]` in `private_55-ports.toml` (chezmoi `dd2a062`) and applied on Sol under SOL-APPLY. Held in the [State of play decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/decisions.md).
-
-## Decision 125 (2026-10-19T22:13:47Z)
-
-- Pointer: FW-DECLARE-NOW, Kris on 16 October: "Rig: chezmoi commits the FW-DECLARE firewall declaration (dot_config/rig/conf.d/private_45-firewall.toml, profiles = [\"laptop\"]) as its first step; no chezmoi apply on sol until sol's Rig is 0.6.0 or later; then give me the terra steps for KI-TOOL-RIG-CORE-047." Covered by RIG-LIVE-DELIVER ([mark-tidy-1019](/Users/krisbrown/.local/state/ki/agents/chezmoi/mark-tidy-1019.report.md)); held in the [State of play decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/decisions.md).
-
-## Decision 126 (2026-10-19T22:13:47Z)
-
-- Pointer: SSH-SPARE-KEY, Kris on 16 October: "Both Macs are always within physical reach, so the console is the restore path: no spare key is needed, and Rig: chezmoi notes the console fallback in the chezmoi macOS workstation guide before key-only SSH applies on terra." The console note is not yet in `docs/guides/user/macos-workstation.md`; its delivery is authorised as SSH-CONSOLE under CARRY-DIRECTIONS a) ([mark-tidy-1019](/Users/krisbrown/.local/state/ki/agents/chezmoi/mark-tidy-1019.report.md)). Held in the [State of play decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/decisions.md).
-
-## Decision 127 (2026-10-19T22:13:47Z)
-
-- Pointer: SEAT-RECORD host binding, Kris on 15 October: "... A message to Rig: chezmoi asks it to bind home to terra and hub to sol in host data." Delivered in chezmoi `856c8f1` under CARRY-DIRECTIONS a). Held in the [State of play decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/decisions.md).
-
 ## Decision 128 (2026-10-19T22:13:47Z)
 
 - Pointer: TOML-OPENER, Kris on 17 October: ".toml files are currently opening up in [Warp], and I don't want that. I'd rather they opened up in [Zed] ... I think it must have some kind of default opener on it." Delivered in chezmoi `faa4d3a`; applying it waits on TOML-HANDLER. Held in the [State of play decisions log](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/decisions.md).
-
-## Decision 129 (2026-10-19T22:17:07Z)
-
-- Pointer: Kris on 19 October, 23:13 BST, "go with the recommendations", which Kris confirmed at 23:17 covered the six parked queries too. FIRST-STEP-GATES is closed as resolved. IWORK: Keynote, Numbers and Pages stay catalogue-only and the A8 step is completed. STYLE-LINK: a read-only dead-link check runs after apply, with no harness pull. DIR-PRUNE: a managed-set state file, so only entries that left the declaration are pruned. REST-HOLD: rechecked against the delivered Dock work. GUIDE-REMOTE was already delivered (chezmoi `43d45d3`).
-
-## Decision 130 (2026-10-19T22:19:39Z)
-
-- Pointer: REST-HOLD a), taken under Kris's standing authority for high-confidence work ("It can do anything that's high confidence"). The hold is narrowed to UE-090 gap 1 together with UE-087. The other open UE-090 gaps go to `ki-plan` (run ue090-plan, after parked-three). CORE-042's acceptance goes to Kris, with the Dock evidence from both Macs ([rest-hold-check](/Users/krisbrown/.local/state/ki/agents/chezmoi/rest-hold-check.report.md)).
 
 ## Decision 131 (2026-10-19T22:27:44Z)
 
@@ -116,105 +40,13 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 
 - Pointer: MCPORTER-RESTART, Kris on 19 October, 23:30 BST: "McPorter restart: you can just do it if you need to." Sol's daemon is restarted with the existing `mcporter_restart` (run mcporter-restart).
 
-## Decision 133 (2026-10-19T22:29:49Z)
-
-- Pointer: STYLE-WHEN a), taken under Kris's standing authority for high-confidence work. The dead output-style link warns at render time (`warnf`, chezmoi `7ac9047`), on every apply, diff and status, rather than in a `run_after_` script that would keep `chezmoi status` permanently dirty ([parked-three](/Users/krisbrown/.local/state/ki/agents/chezmoi/parked-three.report.md)).
-
-## Decision 134 (2026-10-19T22:32:44Z)
-
-- Pointer: CLAUDE-APPLY a), Kris on 19 October, 23:33 BST: "yes". An agent shows the targeted diff of `~/.claude/settings.json` and `~/.claude/output-styles/ki-coordinator.md`, applies only those two if it is empty, and verifies (run claude-apply).
-
-## Decision 135 (2026-10-19T22:37:01Z)
-
-- Pointer: BRINGUP-CHECK a), taken under Kris's standing authority for high-confidence work after the blind review agreed with high confidence. One read-only `rig-bringup-check` for KB-DOTFILES-UE-090 gaps 2, 7 and 8, with the review's safeguards; gap 9 handed to KB-DOTFILES-UE-076 ([ue090-plan](/Users/krisbrown/.local/state/ki/agents/chezmoi/ue090-plan.report.md), [bringup-review](/Users/krisbrown/.local/state/ki/agents/chezmoi/bringup-review.report.md)). Run bringup-fold records it.
-
-## Decision 136 (2026-10-19T22:44:41Z)
-
-- Pointer: READY-REST a), Kris on 19 October, 23:43 BST: "go ahead". Gap 1 is split out of KB-DOTFILES-UE-090 into its own record, held with KB-DOTFILES-UE-087, and the rest of UE-090 moves to Ready; KB-DOTFILES-UE-076 stays draft (run ready-rest).
-
-## Decision 137 (2026-10-19T22:51:40Z)
-
-- Pointer: READY-PREFLIGHT a), Kris on 19 October, 23:47 BST: "yes you can retry". One-run exception to the stop-on-warning preflight for the 20 existing roadmap migration warnings only; any new warning or failure still stops the run ([ready-rest-1](/Users/krisbrown/.local/state/ki/agents/chezmoi/ready-rest-1.report.md)).
-
-## Decision 138 (2026-10-19T22:55:55Z)
-
-- Pointer: READY-GATE a) and READY-DETAIL a), taken under Kris's standing authority for high-confidence work. The one-run exception also covers the three existing full-audit warnings (`.rumdl.toml` drift, the ADR-KB-DOTFILES-003 amendment heading, the absent `.githooks/pre-commit`); after the split, the gap-5 fallback and the size-l delivery rounds are shaped before Ready is reassessed ([ready-rest-2](/Users/krisbrown/.local/state/ki/agents/chezmoi/ready-rest-2.report.md)). Run ready-rest-3.
-
-## Decision 139 (2026-10-19T22:55:55Z)
-
-- Pointer: TRIAGE-ALL, Kris on 19 October via State of play: triage KB-DOTFILES-UE-098, UE-099 and UE-100 under `ki-next`, adopt and deliver high-confidence ones to Awaiting review, and bring medium, low, cancellation, merge or deletion ones as one lane query after one blind review. Run triage-lane, after ready-rest-3.
-
-## Decision 140 (2026-10-19T23:09:17Z)
-
-- Pointer: TRIAGE-ROOTS-GATE a), taken under Kris's standing authority for high-confidence work. The pending-apply `CLAUDEBIND-1` mismatch for KB-DOTFILES-UE-098's git-audit roots is excepted for its source-only commit; applying stays gated ([triage-lane](/Users/krisbrown/.local/state/ki/agents/chezmoi/triage-lane.report.md)). Run roots-commit. TRIAGE-SERVICE-SEQUENCE and TRIAGE-LEAK-DIAGNOSIS, both medium, go to blind review (run triage-review).
-
-## Decision 141 (2026-10-19T23:14:56Z)
-
-- Pointer: TRIAGE-LANE a), Kris on 20 October, 00:16 BST: "go ahead". KB-DOTFILES-UE-099 stays at triage until a released Rig supports service subject links (KI-TOOL-RIG-CORE-065), the Paperclip path fix coming forward only if Paperclip is re-enabled first. KB-DOTFILES-UE-100 is adopted for a bounded diagnostic stage, read-only on Sol and attended on Terra, with any mitigation a separate reviewed decision ([triage-review](/Users/krisbrown/.local/state/ki/agents/chezmoi/triage-review.report.md)). Run triage-dispose.
-
-## Decision 142 (2026-10-19T23:30:00Z)
-
-- OVERNIGHT, Kris on 20 October, 00:30 BST: "I'm going to bed now. I want you to keep looking every 10 minutes to see if there's any new work for yourself in some way. And if there is, I want you to progress it. You can do anything on a high confidence level that you recommend. If you can get a good recommendation, you can move on to the next one, and as you do more and work, it might be that when you come back to ones that you couldn't get a good recommendation for, it might be more accurate." Taken as: check messages and runs at least every 10 minutes; launch and take every high-confidence recommendation; keep medium and low ones for Kris and revisit them as evidence grows. No push, no `chezmoi apply` and no attended step on Terra: those still need Kris. The RAT-* rationale batch stays with Kris: only Kris can confirm a personal reason. Runs ue100-sol and cmigrate.
-
 ## Decision 143 (2026-10-19T23:36:00Z)
 
-- Pointer: CMIGRATE-PIN a), taken under OVERNIGHT with confidence high after blind review: vega's Linux `tool.mgit` pin moves from v0.16.0 to v0.18.0 in source only, with the checksum confirmed from the tag and `rig doctor` before and after; vega rendering stays held ([cmigrate](/Users/krisbrown/.local/state/ki/agents/chezmoi/cmigrate.report.md), [cpin-blind](/Users/krisbrown/.local/state/ki/agents/chezmoi/cpin-blind.report.md)). Run cpin.
-
-## Decision 144 (2026-10-19T23:48:00Z)
-
-- Pointer: RIGDOC-DETAIL a), taken under OVERNIGHT with confidence high after blind review: the bring-up check keeps `rig doctor`'s exit codes, and structured JSON counts are looked at in KB-DOTFILES-UE-090 round 3, because doctor's JSON groups prose findings rather than typed counts ([ue090-r1](/Users/krisbrown/.local/state/ki/agents/chezmoi/ue090-r1.report.md), [r1-review](/Users/krisbrown/.local/state/ki/agents/chezmoi/r1-review.report.md)). Round 1's gate failed on two defects (runtime declaration coverage, unbounded zero timeout); run ue090-r1b fixes them before a re-review.
+- Pointer: CMIGRATE-PIN a), 19 October: vega's Linux `tool.mgit` pin moved to v0.18.0 in source only; vega rendering stays held.
 
 ## Decision 145 (2026-10-19T23:50:00Z)
 
 - Pointer: RIG-DRIFT a), taken under OVERNIGHT with confidence high after blind review: no overnight remediation of Sol's four `rig doctor` findings. When Kris is back: review and apply the TOML handler (Warp where Zed is declared); re-apply the firewall anchor's narrowed tailnet ranges (KI-TOOL-RIG-CORE-047's range correction) as a separate attended run with its tested restore path, minding KI-TOOL-RIG-CORE-068; review UTM's source by hand, as it has no App Store receipt ([cpin](/Users/krisbrown/.local/state/ki/agents/chezmoi/cpin.report.md), [rigdrift-blind](/Users/krisbrown/.local/state/ki/agents/chezmoi/rigdrift-blind.report.md)).
-
-## Decision 146 (2026-10-20T00:00:00Z)
-
-- Pointer: ENUM-FLAG a), taken under OVERNIGHT with confidence high: KB-DOTFILES-UE-090's gap-5 fallback enumerates with `chezmoi managed --path-style=all --format=json` and reads each entry's `absolute` field, because `--path-style=absolute` ignores `--format=json` on chezmoi 2.73.2 ([ue090-r2](/Users/krisbrown/.local/state/ki/agents/chezmoi/ue090-r2.report.md)). Round 2 goes to review run r2-review.
-
-## Decision 147 (2026-10-20T00:06:00Z)
-
-- Pointer: TERRA-STEP a), taken under OVERNIGHT with confidence high: KB-DOTFILES-UE-100's Terra collection Step is reworded as Kris's attended step and ticked, the full Terra scope kept under its Outstanding concerns, following KB-DOTFILES-UE-098's pattern ([ue100-sol](/Users/krisbrown/.local/state/ki/agents/chezmoi/ue100-sol.report.md)). Sol's diagnostic stage is Awaiting review (chezmoi `f6a36e5`). ZED-WINDOW, medium, goes to blind review run zed-blind.
-
-## Decision 148 (2026-10-20T00:09:00Z)
-
-- Pointer: RUN-REASON a), taken under OVERNIGHT with confidence high: the bring-up check's `ki-doctor` failure reason names `ki harness install <harness-id>` then `ki bootstrap`, as the guide does, because `ki bootstrap` takes no harness argument ([ue090-r3](/Users/krisbrown/.local/state/ki/agents/chezmoi/ue090-r3.report.md)). Run ue090-r3b, then round 3's review gate (r3-review).
-
-## Decision 149 (2026-10-20T00:33:00Z)
-
-- Pointer: REREVIEW-SCOPE a), taken under OVERNIGHT with confidence high: round 3 of KB-DOTFILES-UE-090 gets a focused read-only re-review of chezmoi `f3021f2` against r3-review3's guard defect, because the earlier reviews already passed the rest; on a pass the record moves to Awaiting review.
-
-## Decision 150 (2026-10-20T00:48:00Z)
-
-- Pointer: 093-PREFLIGHT a), taken under OVERNIGHT with confidence high (reviewed: the blind review pre093-blind chose a) independently): KB-DOTFILES-UE-093's read-only dependency preflight in the Emerge test is approved as Ready and built as a source-only run, because repairing today's checkout does not stop a future incomplete checkout failing without its setup remedy.
-
-## Decision 151 (2026-10-20T00:55:00Z)
-
-- Pointer: UE-076-STEPS, taken under OVERNIGHT with confidence high: a small follow-up run moves the non-task lines out of KB-DOTFILES-UE-076's `## Steps`, because the ITEM-3 failure from chezmoi `1999865` fails the repository gate for every run.
-
-## Decision 152 (2026-10-20T00:55:00Z)
-
-- Pointer: THEME-REGISTRY a), taken under OVERNIGHT with confidence high: the four `initiative` to `theme: rig` renames (KB-DOTFILES-UE-027, -082, -086, -087) land with the two registry legacy warnings added to the permitted baseline, because the warnings describe ki-principal's own registry, which the renames only expose; the registry migration stays with ki-principal.
-
-## Decision 153 (2026-10-20T01:30:00Z)
-
-- Pointer: Kris answered the RAT batch for [KB-DOTFILES-UE-027](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-027-honest-rationales-per-tool.md) "all as agreed unless below": a) confirms the proposed reasons for Actions, Alfred, ChatGPT (packaging watch), GarageBand, Hazel, OneDrive and Path Finder. RAT-DISPLAYLINK and RAT-OUTLOOK are read as a), the recommended option, despite the review's c); Kris can correct that reading.
-
-## Decision 154 (2026-10-20T01:30:00Z)
-
-- Pointer: RAT-SPARK b), Kris verbatim: "I keep this because I'd like to use it more but haven't tried it a lot recently." Read as the reason for `tool.spark`, Shadowlab's Spark utility, since Spark Desktop is already the default mail app; the worksheet's naming of Spark Mail is corrected.
-
-## Decision 155 (2026-10-20T01:30:00Z)
-
-- Pointer: DELIVERED-STATUS, Kris: "accept them". [KB-DOTFILES-UE-082 (pruned)](https://github.com/krisb/dotfiles/blob/7cb547a86133325168183bc9c5962fa9550671a5/docs/roadmap/KB-DOTFILES-UE-082-tolerate-missing-template-tools.md), [KB-DOTFILES-UE-088 (pruned)](https://github.com/krisb/dotfiles/blob/7cb547a86133325168183bc9c5962fa9550671a5/docs/roadmap/KB-DOTFILES-UE-088-ssh-alias-for-sol.md) and [KB-DOTFILES-UE-092 (pruned)](https://github.com/krisb/dotfiles/blob/7cb547a86133325168183bc9c5962fa9550671a5/docs/roadmap/KB-DOTFILES-UE-092-restore-local-skill-projection.md) are accepted and close through `ki-accept`.
-
-## Decision 156 (2026-10-20T01:30:00Z)
-
-- Pointer: [KB-DOTFILES-UE-077 (pruned)](https://github.com/krisb/dotfiles/blob/4fe2203cbc4046c697b543ec9e2c32a77f760ad1/docs/roadmap/KB-DOTFILES-UE-077-reorganise-1password-vaults-safely.md): READY-077 a), the plan is Ready as written; CACHE-DISPOSAL, Kris: "done on both machines", the cache expiry step is complete on Terra and Sol; RIG-KEYCHAIN a), `security delete-generic-password -s ki-op-service-account-rig` joins Kris's attended step on both Macs, an absent entry counting as clean.
-
-## Decision 157 (2026-10-20T01:30:00Z)
-
-- Pointer: [KB-DOTFILES-UE-076](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-076-always-run-latest-source.md), Kris: "all as recommended": SOURCE-CHECK-HOME a), a step at the start of the daily `rig-update`; SOURCE-REFRESH b), the coordinator's and review's recommendation, fetch and report only, every pull attended; SOURCE-REFUSAL a), upgrade anyway and report findings.
 
 ## Decision 158 (2026-10-20T01:30:00Z)
 
@@ -224,109 +56,86 @@ Read back as option a) of all five open queries: SOURCE-LOCALS-LIVE (removal int
 
 - Pointer: ZED-WINDOW, Kris: "drop". No further Sol window; [KB-DOTFILES-UE-100](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-100-mcporter-daemon-child-leak.md)'s Sol findings are reviewed as they stand and a mitigation is decided after Terra's collection.
 
-## Decision 160 (2026-10-20T01:41:00Z)
-
-- Pointer: AGE-DOC, Kris: "this is correct but I think its the wrong vault". The age recovery document is right, but the setup guide's Personal vault is probably not where it lives. [KB-DOTFILES-UE-077 (pruned)](https://github.com/krisb/dotfiles/blob/4fe2203cbc4046c697b543ec9e2c32a77f760ad1/docs/roadmap/KB-DOTFILES-UE-077-reorganise-1password-vaults-safely.md)'s guide fix waits on Kris naming the vault; its other fixes proceed.
-
-## Decision 161 (2026-10-20T01:48:00Z)
-
-- Pointer: AGE-DOC b), Kris: "I've moved it to `Persoal - Kris` with UUID `5lyahyqnrnep7lak65dikkdut4`". Read as the vault "Personal - Kris"; the age recovery document stays out of Automation, and [KB-DOTFILES-UE-077 (pruned)](https://github.com/krisb/dotfiles/blob/4fe2203cbc4046c697b543ec9e2c32a77f760ad1/docs/roadmap/KB-DOTFILES-UE-077-reorganise-1password-vaults-safely.md)'s setup guide names that vault. Runs rat-write, accept-delivered, build-077, fold-076 and cancel-084 are queued in sequence to process Decisions 153 to 161.
-
 ## Decision 162 (2026-10-20T02:14:00Z)
 
 - Pointer: Kris (03:14 BST, spoken): take stock now, not as roadmap records. Read back as: (1) find every worktree or unmerged branch across the Knowledge Islands repositories and fold finished work into main (survey first, run wt-survey; folds only on the survey's evidence); (2) migrate ki-design off Husky to the committed `.githooks` gate now (run design-hooks); (3) standardise hooks to lint, format and commit-message gates only, no test suites, set once per repository shape and maintained by audit and conform; the model goes to Kris for a sanity check before any standard or hook changes (run hooks-model, note `design/git-hooks-model.md`).
-
-## Decision 163 (2026-10-20T02:16:00Z)
-
-- Pointer: Kris (03:16 BST): "We don't need to assess if Husky was the right call or not. I'm happy that it was now. We just need to focus on how we get them all aligned and how we roll this out." Committed `.githooks` is settled; hooks-model drops its mechanism assessment and covers alignment and rollout only (sent to the run's inbox).
-
-## Decision 164 (2026-10-20T02:47:00Z)
-
-- Pointer: Kris (03:47 BST, spoken; "Audit Lynn" read as AUDIT-LINT, "shame wire" as chezmoi). AUDIT-LINT a): "Yes, I agree with the recommendation." One focused `--staged` shape audit per hook, never the full audit.
-
-## Decision 165 (2026-10-20T02:47:00Z)
-
-- Pointer: Kris (03:47 BST, spoken; "Audit Lynn" read as AUDIT-LINT, "shame wire" as chezmoi). EMPTY-EXIT a): "I agree with the recommendation for empty exit." The early exit sits before the missing-tool refusal; HOOK-4 amended.
-
-## Decision 166 (2026-10-20T02:47:00Z)
-
-- Pointer: Kris (03:47 BST, spoken; "Audit Lynn" read as AUDIT-LINT, "shame wire" as chezmoi). HARNESS-LINES a): "should move to a manual gate and CI. Again, it's not a hook thing." The harness `tsc`, `ki-skills` audit and diagram-receipt check leave the hook.
-
-## Decision 167 (2026-10-20T02:47:00Z)
-
-- Pointer: Kris (03:47 BST, spoken; "Audit Lynn" read as AUDIT-LINT, "shame wire" as chezmoi). STRICTNESS a) for now: "it just needs to contain the recipe's required lines and a check for things that shouldn't be in there, and we can expand on that", with a stated concern that this does not support mechanical conform, and a possible extension point inside the hook. Read back as: provisional; the hooks model is revised to show how conform writes each shape's hook mechanically, and comes back to Kris.
-
-## Decision 168 (2026-10-20T02:47:00Z)
-
-- Pointer: Kris (03:47 BST, spoken; "Audit Lynn" read as AUDIT-LINT, "shame wire" as chezmoi). CHEZMOI-HOOK, none of the options: "it should be nothing for a dot files repo." The dotfiles shape has no hook; tooling does not stand in the way of a dotfiles repo applying itself. Read back as: chezmoi gets no `.githooks`, `ki-repo-dotfiles-chezmoi` GIT-2 is changed to require none, and the manual gate in AGENTS.md stays.
 
 ## Decision 169 (2026-10-20T02:47:00Z)
 
 - Pointer: Kris (03:47 BST, spoken; "Audit Lynn" read as AUDIT-LINT, "shame wire" as chezmoi). OUT-OF-SCOPE a), as a standing rule: "If a repository does not have a .ki.toml file, it's outside of our standards, and therefore we leave it out. That's always the case."
 
-## Decision 170 (2026-10-20T02:47:00Z)
-
-- Pointer: Kris (03:47 BST, spoken; "Audit Lynn" read as AUDIT-LINT, "shame wire" as chezmoi). MAIN-PUSH: "I will do a push now." Kris pushes the three mains himself; no push rule given.
-
-## Decision 171 (2026-10-20T03:36:00Z)
-
-- Pointer: Kris (04:36 BST): "STRICTNESS-CONFORM - lets make it happen then, are we rolling it out?" Read back as: STRICTNESS-CONFORM d), the coordinator's recommendation: a canonical hook per shape, audited exact and written mechanically, with no extension point; tools-rig's `assemble-rig --check` becomes a `ki-repo-tools` criterion in the focused staged audit. Roll out now: run roll-standards (note section 6.1), then the repository hooks (6.2) and the tools-ki composer. MSG-UNIFY stays open; the rollout keeps the current message split.
-
-## Decision 172 (2026-10-20T03:39:00Z)
-
-- Pointer: Kris: "ah, interesting I guess, I'm fine with either then". Read back as: MSG-UNIFY b), the recommendation and the current `ki-git` standard: Commitlint where a package exists, `ki git check-message` only where none does. The rollout already uses it.
-
-## Decision 173 (2026-10-20T03:47:00Z)
-
-- Pointer: Kris (04:47 BST, spoken; "the big" read as Rig, "UV-082" as UE-082). RAT-UNCONFIRMED and RAT-READING: "I'll just go through and check them in [Rig] and come back with any comments. I can do that shortly." Both stay open with Kris; no action.
-
-## Decision 174 (2026-10-20T03:47:00Z)
-
-- Pointer: Kris (04:47 BST, spoken; "the big" read as Rig, "UV-082" as UE-082). RESOLUTION-084 a): "go with your recommendation." `rejected` stands.
-
-## Decision 175 (2026-10-20T03:47:00Z)
-
-- Pointer: Kris (04:47 BST, spoken; "the big" read as Rig, "UV-082" as UE-082). RAT-SPARK-VOICE, neither option: "I think it can just say alternative email client as it's reasoning... nothing contentious." Spark's rationale becomes "Alternative email client." (run b2-chezmoi).
-
-## Decision 176 (2026-10-20T03:47:00Z)
-
-- Pointer: Kris (04:47 BST, spoken; "the big" read as Rig, "UV-082" as UE-082). 077-REVIEW-PATH a): "I've run that command on both machines." The Keychain step is ticked and KB-DOTFILES-UE-077 moves to Awaiting review (run b2-chezmoi).
-
-## Decision 177 (2026-10-20T03:47:00Z)
-
-- Pointer: Kris (04:47 BST, spoken; "the big" read as Rig, "UV-082" as UE-082). PLAN-076 c): "Plan-076 is fine." Pending review is deferred to one follow-up triage record and KB-DOTFILES-UE-076 moves to Ready (run b2-chezmoi).
-
-## Decision 178 (2026-10-20T03:47:00Z)
-
-- Pointer: Kris (04:47 BST, spoken; "the big" read as Rig, "UV-082" as UE-082). UE-082-FOLLOWUPS a): "whatever you think, honestly, I'm not sure." One triage record for a persistent absent-command finding; path stability dropped (run b2-chezmoi).
-
-## Decision 179 (2026-10-20T03:55:00Z)
-
-- Pointer: Kris (04:55 BST, spoken; "the big" read as Rig). On the Rig site's tool table: drop "why it is here" wording; each tool shows what it is for, factually ("Zoom: video meetings where Zoom is the required platform"; ack: what ack is, not its Homebrew package); a reason is not required, and any particular comment goes as subtext underneath, like "needs uv"; show each tool's kind (command line or application, "seems to have been lost") and install vector. "I don't think we should indicate ... install vector ... app type" is read as "I do think", from the surrounding sentences; flagged to Kris. "Just go at this and try and improve it, and then I'll come back and have another look." Supersedes RAT-UNCONFIRMED and RAT-READING. Runs rig-purpose (chezmoi declarations) and purpose-render (apps-rig.midnight.ninja).
-
-## Decision 180 (2026-10-20T03:55:00Z)
-
-- Pointer: Kris (04:55 BST): "a lot of items in the roadmap ... most of them done. Can we get them approved if not?" Read back as: prepare the chezmoi roadmap for one approval pass (run accept-prep, read-only), then bring an acceptance batch and a clear-out batch.
-
-## Decision 181 (2026-10-20T04:02:00Z)
-
-- Pointer: Kris (05:02 BST, spoken; "the big" read as Rig): "I don't think we need what is for and why it is here. We can just deal with it as a single description: the bold text can be what it is"; ack's description says what ack is about, and "there's nothing else to talk about really, it's just an obvious choice"; the table includes the kind (command line or GUI application) and how it is installed. Confirms the Decision 179 read-back of kind and install vector. Sent to runs rig-purpose and purpose-render. Kris did not recognise Shadowlab's Spark ("I think it must have been a mistake from recognizing Spark Desktop. Can you check the history there"): run spark-history.
-
-## Decision 182 (2026-10-20T04:05:00Z)
-
-- Pointer: Kris (05:05 BST): "Can you also fix in the chezmoi drift again?" Read back as: classify `chezmoi status` drift on sol, bring in-place target changes back into the source, and prepare the apply for Kris's review; no apply without his explicit request (run drift-fix).
-
-## Decision 183 (2026-10-20T04:35:00Z)
-
-- Pointer: route receipt from ki.ways-of-working apply-sweep (05:34 BST), CONFIG-UNDER-CONTROL under SWEEP-CONVERT a), quoting Kris (18 October): "I think we do need to have a fairly regular thing where we look to see if we should be bringing more configuration under control."
-- Read back as: adopt a recurring read-only Activity in the chezmoi source scanning each Mac's unmanaged application and tool configuration, starting with `~/.config/mgit/`, reporting for Kris to choose; KI-TOOL-RIG-CORE-064 keeps Rig-managed configuration. Run config-control extends KB-DOTFILES-HK-001 or adds a template.
-
 ## Decision 187 (2026-10-20T22:40:00Z)
 
-- Pointer: Kris (23:40 BST), SPARK-REMOVE a), "make sure that we can get it removed properly": Shadowlab Spark is removed from sol (chezmoi `955faf5`, Decisions struck at the 01:41 mark); terra follows the spark-retire handoff with Kris at the machine.
 - Pointer: Kris (23:40 BST) on trust: the declaration must be complete so no client ever needs to ask for a folder; an app asking or adding one is a defect. Carried in tools-ki `9252669a` and chezmoi `13458343`; no Decision Record yet (homeless: TRUST-COMPLETE).
 
 ## Decision 196 (2026-10-21T13:13:00Z)
 
 - Pointer: Kris (14:13 BST): "Can you do any reconciliation that we need at this point? So that you can wake up again and just check where we're at and ready to focus on basically reconciliation of any updates that have happened in this folder as well as the drift." Run reconcile: fetch and fast-forward clean checkouts, inventory chezmoi drift and doctor findings read-only, no apply; the morning resume starts from its baseline.
 - Coordinator (14:16 BST), FETCH-AUTHORITY a) within Decision 196: relaunch reconcile as reconcile-2 with the fetch-only grant (`--allow fetch`); every other prohibition stays.
+
+## Decision 197 (2026-10-22T00:20:00Z)
+
+- Pointer: Kris (01:20 BST) on Tower Assistant: show it in the Dock as well as the menu bar, with a setting to leave the Dock; give it an icon; install it in `/Applications`; redesign it through Claude Design; dispatch all of it to the Tower thread. Read back as: TOWER-APP-SHELL sent to kb.regular.site-tower (personal-principal `ff0877f`, pushed); ki.chezmoi keeps the cutover on terra and, when the install path changes, the Rig artefact and `~/bin/scheduled/rig-tower-save-nudge` paths.
+
+## Decision 199 (2026-10-22T00:45:00Z)
+
+- Pointer: Kris (01:45 BST): "<https://github.com/stablyai/orca> I want to evaluate this. Can you add it to the rig and install it so we can see what it looks like?" Read back as: run orca-install vets Orca, declares it in Rig as an evaluation tool, commits the source and stops at the `chezmoi diff` gate with a scoped apply and install for Kris to approve; no general `rig apply` while RIG-CASKS holds.
+
+## Decision 202 (2026-10-22T01:06:00Z)
+
+- Pointer: Kris (02:10 BST), ORCA-INSTALL: "just give me what you want me to type ... to install Orca and I'll do it now." Read back as: Kris runs the Homebrew install himself; the Rig file is applied later with the tower-finish change in one reviewed step. Kris also interrupted the steer to starship-variants; it was not sent.
+
+## Decision 203 (2026-10-22T06:47:00Z)
+
+- Pointer: RIG-NOTIFICATIONS and RIG-APP-FOOTPRINT, Kris on 22 October (07:50 and 08:14 BST): per-application configuration knowledge (notifications, privacy and file-access grants, login items and launch jobs) is portable tools-rig behaviour, routed to ki.mac-studio-setup; once tools-rig supports it, ki.chezmoi declares Kris's per-app values in the Rig catalogue here.
+
+## Decision 207 (2026-10-22T07:07:00Z)
+
+- Pointer: Kris (08:07 BST), first impressions of Orca: "it's really pretty and really good. I think it could actually be a replacement for Z or potentially Z and Delta, or anything else for that matter. In particular, I like its status bar. It's even got things built in which make it so that its own footer wouldn't remove the need for codex bar as well." Read back as: "Z" is Zed; "Delta" is taken as the `git-delta` diff pager until Kris says otherwise; the footer remark is read as Orca's usage footer possibly replacing CodexBar. Run orca-eval maps Orca's capabilities against Zed, delta, CodexBar and the other tools in the Rig catalogue it overlaps, read-only, and brings ORCA-ADOPT with what Orca could retire. Not yet a decision to adopt or retire anything.
+- Pointer: Kris (08:09 BST): "Ghosty does have these kind of tabs across the top, but I'm wondering if it has this kind of sidebar based approach as well because it's quite handy in order to see what ran last." Read back as: a requirement for the Warp replacement: a vertical, sidebar view of tabs showing what ran last. terminal-retire is steered to check whether Ghostty offers one (or a close equivalent) and to raise it as a gap rather than retire Warp silently without it; orca-eval to note whether Orca's sidebar covers it. The `kt <territory>` command in the coordinator's reply was an illustration, not an existing command.
+- Coordinator (08:14 BST), receiving orca-eval: "Delta" in Kris's words resolves to Zed's Delta agent workspace (beta, `/usr/local/bin/delta`, 16 launches), not git-delta. Orca replaces Delta; partly covers CodexBar (footer only while open), GitHub Desktop and the Codex app; does not replace Zed (no language server) or Ghostty. Found: telemetry on despite the install plan, agent permission bypass on by default, Orca hooks in managed agent settings. ORCA-ADOPT is medium, so it goes to blind review (orca-adopt-blind) before Kris; the sidebar question went unanswered and is asked there.
+- Pointer: Kris (08:15 BST): "I think also in terms of the tools that we've got, we should probably have some kind of tech radar approach, which is trial, adopt, those kinds of things which indicates where we are with them." Read back as: every tool in the Rig catalogue carries a radar ring (for example Adopt, Trial, Assess, Hold or Retire) showing where it stands. Run radar-design (read-only) proposes where the ring lives (Rig schema in tools-rig, personal data in this repository, or both), how it maps onto existing tiers, profiles and rationales, a first placement of every tool, and how the Rig site shows it; it comes back as RADAR-DESIGN.
+- Coordinator (08:19 BST), receiving orca-hooks-blind (Codex): the premise was half wrong. Claude's settings already preserve Orca's hooks (fragment binding); Codex's whole-file `hooks.json` template would strip Orca's nine registrations. Recommends a narrow Codex fragment-preservation change (Pattern C), holding only Codex's hooks target meanwhile (high, reviewed: refines apply-check's medium a). ORCA-HOOKS raised.
+- Coordinator (08:21 BST), receiving orca-adopt-blind (Codex): agrees with a bounded laptop evaluation to 5 November after safety fixes (high, reviewed). Differs on the first retirement trial: orca-eval proposed Delta; the blind review proposes CodexBar only, because Delta's shared and cloud features may be in use. Both views shown in ORCA-ADOPT. Sidebar: Orca's Agents feed and experimental Agent Dashboard show each agent's state and last message; a Warp-style last-command list per terminal is not established. Safety today: agent default arguments bypass permission prompts (Codex also its sandbox), "Trust folder when Orca starts agent" is on, telemetry on.
+- Coordinator (08:25 BST), receiving radar-design: the ring can only reach `rig doctor` and the site if tools-rig carries it (Rig rejects unknown keys; export fields are fixed; no second catalogue in front of Rig). RADAR-DESIGN raised at high: a) tools-rig owns vocabulary, review fields, doctor's `review-overdue` and the export field; chezmoi owns values; the site owns display. RADAR-PUBLIC (medium) goes to blind review (radar-public-blind, Codex) before Kris.
+- Coordinator (08:28 BST), receiving radar-public-blind (Codex, high): agrees with radar-design's a) for the public site; RADAR-PUBLIC lifts to high (reviewed). Added safeguards: a public Hold tool must not name a private replacement (apply public relationship closure to replacements), say the site shows the public subset, and remove retired tools from every generated artefact.
+- Pointer: Kris (after the DRAIN hold): "I know we drained, but there is a lot of drift on this machine, so can we work through that. Also, sometimes we have machine specifics, and this is `terra` so if there is anything for that we can look at it too. But don't try to do too much else." Read back as: lift the hold for terra drift and terra-specific items only. Run drift-survey (read-only) classifies every drifted target and `rig doctor` finding and lists terra-actionable items; APPLY-PLAN, ORCA-HOOKS and TOWER-PATH come back from Parked because they are drift; RADAR-DESIGN, RADAR-PUBLIC and ORCA-ADOPT stay parked.
+- Coordinator (11:55 BST), receiving drift-survey: 37 drifted targets; 22 are APPLY-PLAN stage 1 (source ahead, no live edits), 11 are stage 2 (Warp), `~/.claude/settings.json` only reorders Orca's hook (harmless), `~/.codex/hooks.json` would lose Orca's hooks (ORCA-HOOKS), `~/.codex/config.toml` changed both sides and was not diffed (1Password-backed render, so Kris diffs it at the screen). `rig doctor`'s 6: GitUp pair clear at stage 1; Dock, `.toml` handler and its 19 October failure need `rig apply` (both-Mac hold stands, so the survey's "then `rig apply`" is not offered); firewall stays with ki.mac-studio-setup (FW-EXPOSURE). terra: Spark launcher and KB-DOTFILES-UE-086 B6a, B6b, B6d, C7i removals still pending, B7 only needs ticking; destructive, so terra-removals-blind (Codex) reviews TERRA-REMOVALS first. APPLY-PLAN stage 1 now also takes `~/.claude/settings.json`.
+- Coordinator (12:02 BST), receiving terra-removals-blind (Codex, high): every item is still installed, Mercury Weather included, so B7 needs a real uninstall, not a tick. Holds before removal: Prime Video has about 17 GiB of offline media; BlueStacks' own uninstaller and cleanup watcher delete a 3.3 GiB instance and shared NowGG sign-in; Creative Cloud needs an at-screen check of products, sign-in and pending sync, then its own uninstaller. Ready in an attended pass: Spark launcher (stop daemon, `spark-app` cask without zap, keep Spark Desktop), Clockology, Nitro, Mercury (`sudo mas uninstall`), Homebrew `cloudflare-wrangler` (no dependents; npm Wrangler stays). Running B ahead of B1–B5 needs Kris's say-so. TERRA-REMOVALS raised at medium, reviewed; state to supervisor.
+- Kris (18:44 BST): "VSCODE-LAYOUT - a)" Read back as: territory folders, one file per repository by `capital` claim, no `kis-` prefix, `_unassigned/`; handed to ki.tools-burndown in its `messages.md`; the chezmoi sync follows its release.
+- Kris (18:44 BST): "CODEX-CONFIG - a)" Read back as: Kris runs `chezmoi diff ~/.codex/config.toml` at the screen and says apply or hold.
+- Kris (18:44 BST): "TOWER-PATH - whats the plan? I figure `~/Applications/Tower Assistant.app`"; "TERRA-REMOVALS - can you give me some commands to deal with it?"; "APPLY-PLAN - can you talk me through it"; "ORCA-HOOKS - not sure what to make of this, how can we deal with these hooks in non-orca envs?" Read back as: questions, answered in conversation; TOWER-PATH asks Kris to confirm `~/Applications` as the permanent home; TERRA-REMOVALS gets a command sheet from terra-removals-blind's findings; the rest stay open.
+- Kris (18:52 BST): "TOWER-PATH - yeah, cancel it. whats the nudge script" Read back as: `~/Applications/Tower Assistant.app` is the permanent home; Rig's declaration already says so; terra-actions withdraws TOWER-PATH-WAIT in kb.regular.site-tower's `messages.md` and explains the nudge script.
+- Kris (18:52 BST): "I forgot to stop the spark daemon, can you kill it?" and "`which wrangler` - `/Users/krisbrown/.local/share/mise/installs/node/24.21.0/bin/wrangler`" Read back as: terra-actions stops the Shadowlab Spark daemon and reports the launcher's state; Homebrew Wrangler removal left the npm Wrangler in charge, as intended.
+- Coordinator (18:50 BST), receiving terra-actions: Spark launcher already gone (Kris's uninstall worked; no daemon, job or login item; Spark Desktop untouched); TRUST-APPLY applied, six targets clean (Claude Desktop needs a relaunch); kb.regular.site-tower told the move is cancelled (personal-principal `a544630`, local). The nudge script is now only a manual diagnostic (its scheduled job is retired; Tower Assistant times itself); its `/Applications`-first lookup and the guide's move section are dead. NUDGE-SIMPLIFY raised at high.
+- Kris (18:55 BST): "ORCA-HOOKS - see if its possible for Orca to add and remove them when in use. I wonder though if the hooks thing is useful for other purposes, such as the observatory... something to send to way-of-working I think too" Read back as: run orca-hooks-research (read-only) looks for an Orca-side or scoped way to have hooks only while Orca is in use; the observatory idea goes to ki.ways-of-working as AGENT-HOOKS-OBSERVATORY.
+- Kris (18:55 BST): "APPLY-PLAN - stage 1 - can you do it? hopefully this should be something rig does? stage 2 - warp can be just removed and uninstalled, not using anything for it, can you oversee as well with rig. stage 3 - what is the both-Mac hold" Read back as: run apply-stages does stage 1 now (Rig for the two installs if it can stay scoped, else Homebrew) and stage 2 without the Drive export or sol check, through Rig's removal route if it works under the hold, stopping if anything runs inside Warp; it also checks whether the fixed Rig release the 14 October hold waited for is installed. Stage 3 waits on Kris lifting the hold.
+- Kris (18:57 BST): "NUDGE-SIMPLIFY but why is there even this script in dotfiles?" Read back as: a question; answered in conversation (left over from the retired scheduled job); recommendation moves to retiring it.
+- Kris (19:01 BST): "well I don't want orca to be suboptimal for it, its more about how we can deal with it, keep the topic alive till we come to an outcome on that at least" Read back as: Orca keeps full hook function; the question is how chezmoi coexists with Orca's hooks; ORCA-HOOKS stays open until an outcome; orca-hooks-research steered.
+- Coordinator (19:04 BST), receiving orca-hooks-research: Orca 1.4.237 has no "only while running" mode; hooks stay after quit and return at launch; its off switch (`agentStatusHooksEnabled`) costs its agent status display, so it is out under Kris's 19:01 words. Outside Orca each hook exits at once (about 40 ms per Claude event, 23 ms per Codex event, on every tool call). Claude side already coexists (`modify_` keeps undeclared hooks); only Codex `hooks.json` fights. Clean "only in use" needs Orca to inject hooks per pane (`claude --settings`, its own `CODEX_HOME`): draft upstream issue in the report, for Kris to post. ORCA-HOOKS restated at high: Codex `modify_` now plus Kris posts the issue.
+- Coordinator (19:11 BST), receiving apply-stages: stage 1 done (12 targets clean; Starship 1.27.0 and the Symbols Nerd Font installed through a targeted `rig apply`); stage 2 done (Warp: login item removed, 11 `~/.warp` targets removed by scoped apply, `brew uninstall --zap --cask warp`; nothing was running in it). `rig doctor` 6: `.sh`, `.zsh`, `.toml` handlers (`.toml` now VS Code), Dock order (broken Warp tile) wait on stage 3; firewall stays with ki.mac-studio-setup; the 19 October failure clears with a good `.toml` apply. Rig's `[remove.ID]` route lacked zap, login items, quitting and needs a declaration: evidence for RIG-REMOVAL. Rig 0.8.0 from the checkout contains `671c864` (cask fix); HOLD-LIFT raised at medium, so hold-blind (Codex) reviews it. Warp leftovers to Trash fall under Kris's "warp can be just removed and uninstalled", folded into drift-sweep, now launched. Backup in `/tmp/apply-plan-backup`.
+- Coordinator (19:13 BST), receiving hold-blind (Codex, masked): agrees with lifting for terra and lifting for sol once its Rig is checked, but would keep the `.toml` handler held because KI-TOOL-RIG-CORE-069 (dynamic handler fallback) is still open; both cask fixes (`ebd6e32`, `671c864`) are already in v0.6.3 and v0.7.0, so waiting for a v0.8.0 tag adds no fix. Running from a checkout is supported; recheck the checkout before each apply. HOLD-LIFT restated as high, reviewed, with `.toml` excluded. All runs finished: send to Kris.
+- Kris (22:55 BST): "I think you can maybe make the minimal changes to get that to path, and then we can deal with the wider changes that we might need to make for this from Knowledge Islands improvements back once we get everything back on board with Knowledge Islands. So we're going to a point now where we're just trying to get everything baseline" Read back as: mgit-member-fix keeps to the minimal change that stops the error and lands it on tools-ki main (local, no push); wider out-of-workspace questions become a follow-up note for later, once the estate is back at baseline, not a blocking query. Steered by `ki agent send`.
+- Coordinator (23:40 BST): mark struck at Kris's request ("mark and give me a summary with any queries with context"); mark-prune run works the decisions life cycle and prunes `state.md`. CODEX-CONFIG restated: hold until ORCA-HOOKS (high, non-destructive).
+- Kris (21:55 BST, relayed by kb.regular.site-tower's TOWER-PATH line): "I want to install it in `/Applications` ... this is the last time I'm changing it, we're definitely committing to that." Read back as: supersedes his 18:52 "cancel it"; `/Applications/Tower Assistant.app` is final; run tower-path changes the Rig artefact, Dock entry and any `~/Applications` references in source, gate and commit, no apply (Rig hold, his diff review). NUDGE-SIMPLIFY stays open (retiring the script is still recommended). Message line acted on and removed (23:47 BST).
+- Coordinator (23:54 BST), receiving tower-path: chezmoi `d47acf8` "fix(rig): declare Tower Assistant at /Applications" (artefact, Dock entry, catalogue test, guide; nudge script already prefers `/Applications`), gate green, `rig doctor` candidate still 6 (Dock finding turns from order to `dock-item-path-missing:tower-assistant`). Terra has only 2.0 in `~/Applications`; 2.1, which installs to `/Applications`, is not installed. TOWER-APPLY raised (high, non-destructive: hold the apply until the attended 2.1 install, which is kb.regular.site-tower's); that work told in its `messages.md`.
+- Coordinator (00:20 BST): mark struck at Kris's request ("Take a mark, and then can you give me a summary including anything which is a query with the necessary context for it?"); decisions pruned at the 23:40 mark, nothing further to strike; six queries open.
+- Kris (00:43 BST): "Hold lift, go with the recommendations." Read back as: HOLD-LIFT a): the 14 October hold lifts on terra for targeted applies of the `.sh` and `.zsh` handlers and the Dock (run stage3, live config, no Rig source applied); `.toml` stays held until KI-TOOL-RIG-CORE-069 is fixed; sol stays held until its Rig is confirmed to match terra's.
+- Kris (00:43 BST): "Tower apply, go with the recommendations." Read back as: TOWER-APPLY a): `d47acf8` stays unapplied until Tower Assistant 2.1 is installed into `/Applications`; then the two Rig files and a targeted Dock apply.
+- Kris (00:43 BST): "Regarding the auger hooks, I think we should just support them as they are enabled in a default situation, and then it's just something that we keep a follow-up thought on to check about and consider if we should then, in the future, raise a change so that it only adds its hook to its own sessions. I don't know how that can be done mechanically, but I guess I'm really interested to understand just how this is all running anyway." Read back as: ORCA-HOOKS b): chezmoi keeps Orca's hooks (Codex `hooks.json` becomes a `modify_`, run orca-coexist); the upstream per-pane idea is parked as ORCA-PER-PANE, no issue posted now; orca-coexist writes a plain explainer of how the hooks run.
+- Kris (00:43 BST): "On the codex config, this should now be applied now that I've just said what I want to do about the orca hooks." Read back as: CODEX-CONFIG b): orca-coexist applies `~/.codex/config.toml` scoped, after making sure Orca's trust entries are kept.
+- Kris (00:43 BST): "On the terror removals, I haven't removed them myself, so that's gonna have to be something which is parked for now. I'll come back to that, it's not urgent." Read back as: TERRA-REMOVALS parked; none of Clockology, Nitro, Mercury, Prime Video, BlueStacks or Creative Cloud is removed.
+- Kris (00:43 BST): "And then the nudge simplify, yes, that should be removed." Read back as: NUDGE-SIMPLIFY a): orca-coexist retires `rig-tower-save-nudge` from source and its target, with tests and guide section.
+- Coordinator (00:49 BST), receiving orca-coexist: `5bfaa32` makes `~/.codex/hooks.json` a fragment binding that keeps undeclared hooks (applied, byte-identical, Orca's hooks intact); `~/.codex/config.toml` applied (byte-identical, all 11 trust entries kept, Codex parses and runs); `c5776b9` retires `rig-tower-save-nudge` (target removed). Explainer of how Orca's hooks run is in the report, relayed to Kris. Its helper `~/bin/chezmoi/json` applied by json-apply under Kris's 22 October "resolve the dotfiles drift". ORCA-HOOKS, CODEX-CONFIG and NUDGE-SIMPLIFY closed.
+- Coordinator (00:52 BST), receiving json-apply: `~/bin/chezmoi/json` applied scoped (live matched the previous source, no local edits); `chezmoi status` on terra now lists only the two TOWER-APPLY Rig files.
+- Coordinator (00:52 BST), receiving stage3: Dock applied from live config (Warp tile gone; Tower Assistant still `~/Applications`, `d47acf8` unapplied); `.sh` and `.zsh` handler applies failed like `.toml` ("handler assignment not effective; native confirmation may be required"), nothing changed. `rig doctor` 6 → 7: Dock cleared, two new apply-failure findings; firewall finding lost "exposed beyond tailnet" untouched. Two medium queries (HANDLERS-SH-ZSH, FIREWALL-WORDING) sent to stage3-blind (Codex, masked) before Kris.
+- Coordinator (00:56 BST), receiving stage3-blind (Codex, masked): HANDLERS-SH-ZSH turns from stage3's hold to a) Finder Change All for `.sh` and `.zsh`, then `rig doctor` (medium, reviewed); `.sh`/`.zsh` are declared types (`public.shell-script`, `public.zsh-script`), not the dynamic `.toml` type KI-TOOL-RIG-CORE-069 covers, so a shared cause is unproved; Rig's "native confirmation" wording is a generic hint. FIREWALL-WORDING closed by the coordinator (high, non-destructive, reviewed): the "exposed beyond tailnet" wording follows a fresh `netstat` listener snapshot (no port-5900 listener now), not firewall config; the anchor-drift finding and repair stay with the held firewall work, and the missing wording is not proof of safety. All runs finished: send to Kris.
+- Kris (00:58 BST): "Can you try with rig again, so that I can bind the.sh and.juge files to open up in Z? I think I clicked the wrong option by accident when I was prompted." Read back as: HANDLERS-SH-ZSH c), attended: Kris is at the screen; a macOS prompt did appear in stage3 and he declined it by mistake. Run handlers-retry repeats only `rig apply --target default-application:sh --target default-application:zsh` (Zed), Kris accepts the prompt, then `rig doctor`. `.toml` stays held.
+- Kris (01:11 BST): "Can you resolve any drift as well, please?" Read back as: after the handler retry, handlers-retry sweeps the remaining terra drift (`chezmoi status`, `rig doctor`) and resolves what is authorised: one attended `.toml` handler attempt (Kris at the screen; harmless if it fails); TOWER-APPLY only if Tower Assistant 2.1 is already in `/Applications`; stale apply-failure findings cleared by a good apply. Firewall stays held (connection-critical, no tested restore path); no source change, scoped applies only, no bare `chezmoi apply`/`diff`.
+- Coordinator (01:17 BST), receiving handlers-retry: `.sh` and `.zsh` now open in Zed; the first apply was recorded failed because Rig checks before the macOS prompt is answered; a re-run cleared the records. `rig doctor` 7 → 3 (`.toml` drift and its 19 October record; firewall). The 01:11 steer arrived after it finished, so run drift-resolve takes Kris's "resolve any drift": attended `.toml` attempt, TOWER-APPLY if 2.1 present, other scoped fixes, firewall read-only investigation with a restore path (high, non-destructive, its recommendation). Its RIG-HANDLER-WAIT query (medium) waits for drift-resolve's `.toml` evidence before blind review.
+- Coordinator (01:30 BST), receiving drift-resolve: `.toml` now opens in Zed (prompted apply, then a clean re-run cleared the 19 October record); `rig doctor` 3 → 1, only `firewall.screen-sharing-tailnet` left (anchor from 14 October predates `dae10f2`; "exposed" means only a wildcard 5900 listener; proposed attended sudo re-apply with backup and anchor-only flush fallback, unrehearsed). Tower Assistant still 2.0 in `~/Applications`, so TOWER-APPLY stays held. Queries FIREWALL-REAPPLY (medium → blind review) and TOWER-INSTALL (high, non-destructive) raised.
+- Kris (01:29 BST): "Commit any changes, make sure everything's up to date, and resolve any drift." Read back as: run sync-commit commits the 9 uncommitted chezmoi changes (another session's 5g-emerge phase2 rename, trusted folders, mGit members) in coherent commits after the full gate, removes this work folder's 20 untracked report copies, fetches and fast-forwards chezmoi, ki-principal, tools-ki and tools-rig, and re-checks `chezmoi status` and `rig doctor`. No push (not asked); the remaining drift is TOWER-APPLY (needs the 2.1 install) and the firewall (attended sudo), both raised to Kris.
+- Kris (01:32 BST): "You can get rid of the tarot the tower assistant under the home applications folder. Just get rid of it completely." Read back as: run tower-remove removes Tower Assistant 2.0 from `~/Applications` entirely (quit it, remove the bundle to the Trash, remove any login item or LaunchAgent that points at the `~/Applications` copy), under the ki-self application lifecycle; shared app data that 2.1 would reuse is kept; no source change (`d47acf8` already declares `/Applications`). TOWER-APPLY stays held until 2.1 is in `/Applications`; kb.regular.site-tower told.
+- Coordinator (01:33 BST), receiving firewall-blind (Codex, masked): agrees with the attended re-apply now (medium, reviewed), corrected: preflight pf enablement and the parent anchor chain (stop if pf is disabled or unexpected rules appear, because Rig's load enables pf globally and an anchor-only restore does not undo that); revalidate the 19 October recovery with a fresh SSH; for an emergency, boot out the exact daemon (full literal label) before flushing the anchor; restore the anchor bytes and the daemon's prior state; check fresh SSH and Screen Sharing after. FIREWALL-REAPPLY carried to Kris at the next Summary.
+- Kris (01:35 BST): "Regarding Starship, can you do me a variant of the rainbow? But with the additional things, so basically nerd fonts as well, but with the additional bits that I like in the ones that are defined as Chris. So things like the Chezmoi status as well, I guess, is one of the points." Read back as: run starship-rainbow adds a new selectable Starship variant built on the rainbow preset with Nerd Font symbols, plus the custom modules from the Kris-defined variant(s) (chezmoi status and the rest), styled to match the rainbow segments; gate, commit, scoped apply of the new files, preview command for Kris; the current default prompt is not switched unless he asks.
+- Coordinator (01:38 BST), receiving tower-remove: Tower Assistant 2.0 quit and moved to the Trash (no login item or LaunchAgent existed); preferences plist kept for 2.1; 2.1 not installed. The Dock tile is now broken: `rig doctor` 1 → 2 (`dock-item-path-missing:tower-assistant`, plus the firewall), clearing once 2.1 is in `/Applications` and TOWER-APPLY runs. Eleven `tower-assistant-*-test-*.plist` leftovers in Preferences noted, not touched.

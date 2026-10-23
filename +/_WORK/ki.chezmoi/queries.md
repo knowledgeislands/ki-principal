@@ -2,10 +2,12 @@
 
 ## Open
 
-- STARSHIP-REVIEW (Needs: decision, Kris): accept [KB-DOTFILES-UE-104](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-104-evaluate-starship-with-chezmoi-drift.md) (Awaiting review)? Recommended (high confidence): a) accept it, then capture one Starship adoption record on hold until [KB-DOTFILES-UE-102](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-102-prompt-notice-for-unapplied-pulls.md) settles the cache contract, carrying UE-104's other three prerequisites as its steps; b) send it back for more investigation.
-- TOWER-CUTOVER (Needs: attendance, Kris): you are on terra; do the Tower Assistant attended install and Accessibility grant now (next step 1), or later?
-- Not raised: CORE-SET-COMMENTS (stays in the worksheet); FIREWALL-EXPOSURE (transient, re-check 05:18 showed only `anchor-changed`); RAT-UNCONFIRMED, RAT-READING (superseded by Decisions 179 and 181).
+- Not raised: CORE-SET-COMMENTS (stays in the worksheet).
 
 ## Parked
 
-None.
+- TERRA-REMOVALS (Needs: action, Kris; KB-DOTFILES-UE-086; parked 23 October, not urgent): Clockology, Nitro, Mercury (`sudo mas uninstall` commands given), Prime Video (17 GB media), BlueStacks (own uninstaller), Creative Cloud (at-screen check) all still installed on terra.
+- ORCA-PER-PANE (Needs: decision, Kris; follow-up thought): ask Orca to add its hooks only to its own sessions (`claude --settings` per pane, per-pane `CODEX_HOME`); draft issue in orca-hooks-research's report; revisit after the orca-coexist explainer.
+- ORCA-ADOPT (Needs: decision, Kris): a) evaluate on the laptop to 5 November after Kris turns off permission bypass, folder auto-trust and telemetry, with named checks and one retirement trial: CodexBar (blind review) or Delta (orca-eval) (recommended, high, reviewed); b) adopt now on every Mac; c) laptop-only, no trials.
+- RADAR-DESIGN (Needs: decision, Kris): where the radar ring lives. a) both: tools-rig owns the vocabulary, review fields, doctor's `review-overdue` finding and export field; chezmoi owns the values and ring-and-profile rules; the site owns display (recommended, high - only option that serves doctor, the site and the single-catalogue rule); b) personal sidecar `dot_config/rig/radar.toml`, no tools-rig change, can drift, doctor blind; c) interim radar view profiles with dates in roadmap records.
+- RADAR-PUBLIC (Needs: decision, Kris): how much radar rig.midnight.ninja shows. a) ring and Hold replacement for public tools; no review dates, checks or retired list; Trial tools only when opted into `public`; a private replacement is never named (recommended, high, reviewed); b) rings, dates and checks for every public tool; c) rings only.
