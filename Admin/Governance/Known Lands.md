@@ -55,6 +55,14 @@ The former [mcp-housekeeping-codex][mcp-housekeeping-codex] Codex housekeeping M
 
 Specifications remains dormant as a normative authority until the overall V1 boundary. The inventory records its membership without representing future standards as current obligations.
 
+## Uncharted lands
+
+This repository sits in the `knowledge-islands` workspace and its `.mgit.toml` but has not adopted Knowledge Islands: it carries no `.ki.toml`. Listing it adopts nothing and grants no membership, authority, access or exchange permission; it becomes a member only through an approved enactment.
+
+| Canonical repository | Uncharted land |
+| --- | --- |
+| `knowledgeislands/packages-portal-commons` | Shared portal-site package source, moved from Humans Not Robots on 23 October 2026, where it was `humansnotrobots/apps-packages-portal-framework`; no Knowledge Islands adoption. |
+
 ---
 
 ## Domains
