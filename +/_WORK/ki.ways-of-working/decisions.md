@@ -521,3 +521,11 @@ wow-tidy-wow pruned this package from 369 files to 38 (`7c5ce0d1`): 329 received
 Kris: "be careful that we are not over engineering at all times too".
 
 Taken as a standing steer for this work. Applied now to tools-ki, which has had eight fix rounds: the ninth review round is the last. Admit `0fd85a08` unless a reviewer finds a defect that breaks ordinary use of the current `ki` on real state; edge cases such as an older `ki` writing after the new one has checkpointed go into the release notes as known limits, not into a tenth fix. Any fix still needed is the smallest that clears a blocking finding. The same test applies to every brief: the simplest change that does the job, with reviews sized to the risk.
+
+## 2026-10-23 01:10 BST - ninth tools-ki round complete; admit under the over-engineering steer
+
+c ACCEPT high, b ACCEPT medium, a REFUSE high on one case only: an older, checkpoint-unaware `ki` appending to a journal the new `ki` has checkpointed makes the new `ki` refuse that run. b and c find the same behaviour in the current primary, recoverable without loss and contained by restarting long-lived `ki` processes at the swap. Under the 23:22 steer this is a known limit for the release notes, not a tenth fix: `0fd85a08` is admitted, with every long-lived `ki` process restarted at the swap.
+
+## 2026-10-23 01:45 BST - PULL-STUCK: resolve the diverged pulls
+
+Kris: "can you resolve these pulls as they are conflicting on a rebase/merge", with tools-ki ahead 2 behind 2, ki-principal ahead 138 behind 115, ki-design ahead 5 and 5g-emerge-phase2 behind 1. Both stuck rebases had already been aborted at 01:42, so `ki` works again. Taken as PULL-STUCK a) widened to all four: integrate each with its `origin/main` locally, keeping every commit on both sides; not a push, which stays with Kris. Simplest route under the 23:22 steer: a merge for ki-principal, a fast-forward to the admitted `0fd85a08` for tools-ki (it carries `origin/main`'s `51725e8b` and both local fixes), a fast-forward for 5g-emerge-phase2, and nothing for ki-design, which is only ahead. Two runs in parallel: wow-resolve-principal and wow-admit-toolski.
