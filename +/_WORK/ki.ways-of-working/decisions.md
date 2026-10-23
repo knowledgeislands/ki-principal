@@ -128,3 +128,9 @@ Taken as: clone on sol the fourteen repositories terra has and sol lacks, the fo
 Kris: "I really don't think that `mgit repair` needs `--apply`. The other command line tools that can do a repair don't need a --apply, so why does this one?"
 
 Taken as: `mgit repair` should repair by default, with `--dry-run`/`-n` to preview as `mgit register` already does, and no `--apply`. tools-mgit belongs to ki.tools-burndown, so it goes there as a messages line; this work changes nothing in tools-mgit.
+
+## 2026-10-24 00:58 BST - mgit repair taken here; dry-run survey
+
+Kris: "I'm really happy for you to get on with this and do get rid of the - - apply. Also, can we look and see where we're using this dry run consistently?"
+
+Taken as: this work makes the `mgit repair` change itself rather than leaving it with ki.tools-burndown, so the MGIT-REPAIR-APPLY line is withdrawn from its queue. `repair` writes by default, `--apply` goes, `--dry-run`/`-n` previews; committed and pushed under the 02:10 push grant. A read-only survey reports how the KI command-line tools preview and write today, and proposes one convention; nothing changes from it until Kris decides.
