@@ -1,6 +1,6 @@
 ---
 id: ki.chezmoi
-state: on-hold
+state: with-worker
 since: 2026-10-23T06:53:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
