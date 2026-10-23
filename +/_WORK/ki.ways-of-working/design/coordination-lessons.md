@@ -1,4 +1,5 @@
 ---
+note_type: streams/design
 title: The smallest changes from the 22 October coordination lessons
 status: draft - October 2026
 purpose: Compare the routed lessons with the current method and propose only the missing sentences
@@ -10,6 +11,8 @@ author: Written with Codex
 Proposal for [Ways of working](../../../../Streams/Projects/ways-of-working.md), 23 October 2026. Kris's standing steer, 22 October 23:22: "be careful that we are not over engineering at all times too". This note changes no method and sends no messages.
 
 Keep the current skills, seven states, five-file package and Git message queue. Most lessons need either no change or a short clarification in an existing section. Project addressability needs a bounded exception to package creation rights; reliable unattended waking would need tooling, so it is a separate choice rather than a prerequisite for the prose changes.
+
+The owning work's [latest autonomy decision](../decisions.md), recorded as 23 October 02:14 BST, overtakes its live DRAIN instruction and permits the coordinator to act on reviewed, high-confidence recommendations while Kris is away. The DRAIN lessons below concern the reusable procedure, not an instruction to stop current work. This run remains proposal-only; the coordinator can review and take the high-confidence recommendations within that grant rather than ask Kris to approve them again.
 
 ## Evidence and citation key
 
@@ -88,7 +91,7 @@ The debrief's vendor comparisons are explicitly inferred (S:5, 63); no network v
 
 14. **Lesson:** Unattended work needs a bounded away grant, not an assumption that silence means permission (S:90-100).
 
-**Coverage:** C:191 already records the agreed OOS-WAKE autonomy-window watcher, and D:146 says grants are not implied. Neither supplies the proposed availability contract. **Smallest change:** one short paragraph at C's Coordinator responsiveness: record the explicitly granted end time, work, permitted actions, exclusions, wake and stop words in the existing decisions log; park decisions outside that scope; stop starting unattended work at expiry, explicit return or "stop the wake", then report. An ordinary steering message does not automatically cancel a window. Add one pointer beside W:101: availability changes neither the seven states nor authority. No Present / Away / Returning state fields, grant asset or standing global deny-list is needed.
+**Coverage:** C:191 already records the agreed OOS-WAKE autonomy-window watcher, and D:146 says grants are not implied. Neither supplies the proposed availability contract. **Smallest change:** one short paragraph at C's Coordinator responsiveness: record the explicitly granted end time or return condition, work, permitted actions, exclusions, wake and stop words in the existing decisions log; park decisions outside that scope; stop starting unattended work at expiry, explicit return or "stop the wake", then report. An ordinary steering message does not automatically cancel a window. The current logged "while I'm away" grant remains authority until its return condition; this proposal does not revoke it for lacking a clock time. Add one pointer beside W:101: availability changes neither the seven states nor authority. No Present / Away / Returning state fields, grant asset or standing global deny-list is needed.
 
 15. **Lesson:** A schedule must be visible, have an end and have plain stop words (S:128-143).
 
@@ -134,31 +137,11 @@ Regular work is self-coordinating, so its id or work package does not make a ses
 
 This is ready for the Ways-of-working coordinator to send to Acquire intake's messages.md; this run is authorised to write only this design note.
 
+## For coordinator review under the current grant
+
+The existing skill homes and an explicitly granted unattended window are high-confidence recommendations for the coordinator to review and take within the latest autonomy grant. Keep ki-coordination, make only the linked prose and entry-point changes, preserve existing action limits, and record the window's end time or return condition and cancellation in the current decisions log. They need no new umbrella skill, availability fields or repeated approval of Kris's existing decisions. The wider wake service, the conflicting DRAIN ending and any new standing personal rules remain the choices below.
+
 ## Queries for Kris
-
-### METHOD-HOME - Extend the existing skill
-
-**Context:** The model, coordinator behaviour and run authority already have distinct homes. The missing behaviour fits short additions to those homes; a new Ways of working skill would mostly repeat their routing.
-
-**Query:** Should the follow-up keep ki-coordination as the existing home and make only the prose changes described here?
-
-**Options:**
-
-a) (recommended, confidence high - the existing ownership already fits) Extend ki-coordination, make the small linked Work Process and package-entry changes, and create no umbrella skill or new fields.
-
-b) Design a separate Ways of working skill before changing the method.
-
-### AWAY-GRANT - Explicit unattended windows
-
-**Context:** The overnight failures showed that a wake does not guarantee processing. Existing authority and the agreed OOS-WAKE window offer a base, without inventing availability states or a grant template.
-
-**Query:** Should unattended work require a spoken, bounded window with an end, scope, exclusions and stop words recorded in decisions.md?
-
-**Options:**
-
-a) (recommended, confidence high - it makes the boundary explicit without extra machinery) Require an explicit window, preserve all existing action limits, stop unattended starts at expiry or explicit return, and report missed processing on return.
-
-b) Keep unattended availability entirely as per-task instructions, without a common window paragraph.
 
 ### WAKE-SUBSTRATE - Decide how much reliability is needed
 
