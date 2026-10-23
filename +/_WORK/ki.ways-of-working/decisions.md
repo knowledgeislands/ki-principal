@@ -541,3 +541,7 @@ wow-resolve-principal-2 merged `origin/main` (`5f57f0be`) into ki-principal as `
 ## 2026-10-23 02:08 BST - merged queues: the history rule, applied literally
 
 wow-fix-queues-2 stopped rightly: the coordinator's example was wrong. Seven of this queue's older lines (SCHED-DEBRIEF, COORD-HANDOFF-ASKS, DRAIN, COORD-MODEL, PROJECT-ADDRESSABLE, REGULAR-WORK-ROLE, AGENT-HOOKS-OBSERVATORY) never reached this machine's history: they arrived from the other machine in the merge and are genuinely unhandled here. The literal rule drops 24 handled lines (23 in ki.tools-burndown and DEPCRUISE-PATH here) and keeps the rest; wow-fix-queues-3 applies exactly that. This work then acts on its new lines in queue order.
+
+## 2026-10-23 02:12 BST - queue lines from the merge dispositioned
+
+wow-fix-queues-3 removed the 24 handled lines. This work's new lines, in queue order: SCHED-DEBRIEF, COORD-HANDOFF-ASKS, COORD-MODEL, PROJECT-ADDRESSABLE and REGULAR-WORK-ROLE go together to wow-coord-lessons, a proposal-only design note sized under the 23:22 steer, with its queries to Kris; CHECKER-TITLE to wow-checker-title, a harness fix on a worktree branch; AGENT-HOOKS-OBSERVATORY routed to ki.observatory's queue, the Observatory being out of this work's scope. DRAIN (22 October, "hold, more expected") is held in the queue: Kris has steered this thread directly since, so it is taken as overtaken unless Kris says drain.
