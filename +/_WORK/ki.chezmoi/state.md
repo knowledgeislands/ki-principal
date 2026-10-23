@@ -13,7 +13,7 @@ method_read: beb56729
 ## Now
 
 - Nothing running. cf-register done: chezmoi `dfcd7d6` makes the Cloudflare token register and the three v3 payload names match 1Password (`account-admin`), adds the valle-armonia token; chezmoi and ki-principal pushed, level with origin.
-- Terra drift (20:18 BST): `rig doctor` 2 (firewall, FIREWALL-REAPPLY; Dock tile `tower-assistant`, TOWER-INSTALL); `chezmoi status` 3: the two held Tower Assistant Rig files (TOWER-INSTALL, [KB-DOTFILES-UE-106](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-106-tower-assistant-apply-at-applications.md)) and `~/.codex/config.toml`, drifted again after orca-coexist · run codex-drift.
+- Terra drift (20:18 BST): `rig doctor` 2 (firewall, FIREWALL-REAPPLY; Dock tile `tower-assistant`, TOWER-INSTALL); `chezmoi status` 3: the two held Tower Assistant Rig files (TOWER-INSTALL, [KB-DOTFILES-UE-106](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-106-apply-tower-assistant-at-applications.md)) and `~/.codex/config.toml`, drifted again after orca-coexist · run codex-drift.
 - VA-TOKEN (medium): valle-armonia token outside v3 · blind review, then Kris.
 - ZED-STARSHIP: Zed was started with `STARSHIP_CONFIG=kris.toml` in its environment, so its panes show `kris` over the machine choice `kris-rainbow`; quit and reopen Zed; offered: ignore an app-inherited `STARSHIP_CONFIG` · with Kris.
 - Sol: not yet brought level with terra ([KB-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-105-bring-sol-level-with-terra.md)) · with Kris at sol.
