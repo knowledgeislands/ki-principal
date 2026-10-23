@@ -1,10 +1,10 @@
 ---
 id: ki.chezmoi
-state: with-worker
-since: 2026-10-23T00:46:00Z
+state: on-hold
+since: 2026-10-23T06:53:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
-mark: 2026-10-22T23:20:00Z
+mark: 2026-10-23T06:53:00Z
 method_read: beb56729
 ---
 
