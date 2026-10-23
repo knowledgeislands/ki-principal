@@ -112,3 +112,7 @@ Read back as taken: PUSH-SCOPE a), push branches that also carry other sessions'
 ## 2026-10-23 02:37 BST - coordination-lessons queries after the blind review
 
 wow-coord-lessons proposed the smallest changes for 23 lessons, with three queries; a masked blind review on Codex at extra-high effort took the two medium ones. Under Kris's 02:10 grant ("if there's quite a lot of certainty over doing something ... you can go ahead and do it"): WAKE-SUBSTRATE a), reviewed to high - pursue the agreed completion-watcher direction first, label session wakes best effort, defer launchd, doorbells and liveness fields. UNWRITTEN-RULES a), high - none of the four inferred claims becomes a standing instruction. DRAIN-END: the proposal recommends a final-line exception for an explicit drain check, the review keeps the thread line last at high confidence; views differ, so it goes to Kris and nothing changes meanwhile. The proposal's high-confidence changes are enacted together with wow-method-feedback's.
+
+## 2026-10-23 04:24 BST - tools-ki admitted and pushed; SORT-ARM reviewed
+
+ADMIT-PUSH / SORT-ARM - coordinator, 23 October 2026, under Kris's 02:10 and 02:12 grants ("if you need to push anything, please do push"): the admitted tools-ki main was pushed fast-forward after a fresh fetch, and the cancellation proposal for the ARM Linux release record went to a masked blind review, which agreed at high confidence; it reaches Kris in [queries.md](queries.md) because Kris chose to keep that record held on 20 October.

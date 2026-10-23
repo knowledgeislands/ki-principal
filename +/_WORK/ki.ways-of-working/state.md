@@ -1,7 +1,7 @@
 ---
 id: ki.ways-of-working
-state: with-worker
-since: 2026-10-23T01:10:00Z
+state: handoff-to-supervisor
+since: 2026-10-23T03:23:00Z
 received: 2026-10-22T07:24:00Z
 beat: null
 mark: 2026-10-23T01:10:00Z
@@ -12,16 +12,18 @@ method_read: eff6163b
 
 ## Now
 
-- 02:10 BST mark. Kris is away for about five hours with wider autonomy: high-confidence reviewed actions go ahead, high-confidence awaiting-review records are accepted, done records are pruned, and pushes and releases are authorised.
-- ki-principal is merged with origin and ahead 148. The COORD-2 title fix is committed on the harness worktree branch.
-- Running: tools-ki admission (wow-admit-toolski-4) and the coordination-lessons proposal (wow-coord-lessons). Queued: roadmap sort, KI-DESIGN-ELE-001 park, take-stock across work packages, COORD-2 review and harness landing, package prune.
+- 04:25 BST: every run from Kris's 02:10 unattended grant has finished. Nothing is running.
+- Pushed: Harness main (method refinements, two record prunes), tools-ki main (admission of the agent-state compatibility work, 9 commits), tools-techne, ki-principal and ki-design.
+- tools-ki admission: the pinned offline audit passed and the dispatcher was restarted on the new code; `ki agent status` reads all 16 threads. The f4ce77b8 migration stays held.
+- State of play has a STALE-PACKAGES line on eleven quiet work packages.
 
 ## Next steps
 
-- Coordinator: receive each run; accept and prune by the sort's and take-stock's high-confidence findings; push each repository once its local work is verified; release where the take-stock finds a release is due.
-- Kris: RIG-RELEASE-REVIEW-BOUNDARY, CUSTOMS-WORDS, TAGS-NEXT, ECO013-CANCEL, and the push of other sessions' commits stacked in ki-principal; the RIG-ATTENDED walk-through.
+- Kris: DRAIN-END and SORT-ARM in queries.md; the RIG-ATTENDED walk-through (parked).
+- Coordinator: on SORT-ARM a), route the cancellation to ki.tools-burndown as a messages line; remove the leftover tools-ki and Harness run worktrees once nothing needs them.
 
 ## Held
 
 - PAPERCLIP-REQ, on hold while Kris gets KI stable (2026-10-19).
 - Email-routing records stay with hnr.email-routing.
+- tools-rig v0.8.0 tag, held until the review gates settle.

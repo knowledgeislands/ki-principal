@@ -14,6 +14,18 @@ a) (recommended by the blind review, confidence high - one closing rule everywhe
 
 b) (recommended by the proposal, confidence medium - honours the ending you asked for) Put the DRAINED / NOT DRAINED line after the thread line, only for an explicit drain check.
 
+### SORT-ARM - cancel the conditional ARM Linux release record [KI-TOOL-KI-CLI-125](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-125-ki-release-contract.md)
+
+**Context:** The record is held until an ARM Linux host is needed; vega is x86 and sol is macOS arm64, both already covered by release archives, and no ARM Linux host exists or is planned. It also carries a reusable release-contract requirement (per-platform archives, checksum manifest, signature, embedded installer key). The roadmap sort proposed cancelling it; a masked blind review agreed at high confidence, noting your 20 October review chose to keep it held.
+
+**Query:** Should the record be cancelled, with ARM Linux kept as an Agent host Idea and the release-contract requirement kept as a short section in the tools-ki release guide?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed; current hosts are covered and the requirement survives in the guide) Cancel it, add the ARM Linux Idea under the Agent host and the contract section to the release guide.
+
+b) Keep it held until an ARM Linux host is needed.
+
 ## Parked
 
 - RIG-ATTENDED - Kris's attended Rig steps on sol and terra, commands in `/Users/krisbrown/.local/state/ki/agents/ways-of-working/wow-rig-attended-steps.report.md`; recommended a) CORE-069 on sol plus the look-only CORE-047 and CORE-062 checks first, CORE-068 and the live firewall rollout in a later sitting. Kris, 2026-10-22 02:26 BST: walk me through it in the morning. The tools-rig v0.8.0 tag waits on the same review gates (RIG-RELEASE-REVIEW-BOUNDARY a), 2026-10-23).
