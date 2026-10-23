@@ -122,3 +122,9 @@ ADMIT-PUSH / SORT-ARM - coordinator, 23 October 2026, under Kris's 02:10 and 02:
 Kris: "humans-not-robots/5g-emerge-apex, 5g-emerge-demos, 5g-emerge-phase2 and 5g-emerge-phase3 were replaced by apps-5g-emerge.io, apps-demo.5g-emerge.io, apps-phase2.5g-emerge.io, apps-phase3.5g-emerge.io ... the others on terra are new and sol should get those too ... I'll dealwith the others later"
 
 Taken as: clone on sol the fourteen repositories terra has and sol lacks, the four replacement 5g-emerge sites included; leave the four replaced checkouts and `personal/dotfiles` on sol untouched for Kris to deal with later.
+
+## 2026-10-24 00:51 BST - mgit repair without --apply
+
+Kris: "I really don't think that `mgit repair` needs `--apply`. The other command line tools that can do a repair don't need a --apply, so why does this one?"
+
+Taken as: `mgit repair` should repair by default, with `--dry-run`/`-n` to preview as `mgit register` already does, and no `--apply`. tools-mgit belongs to ki.tools-burndown, so it goes there as a messages line; this work changes nothing in tools-mgit.
