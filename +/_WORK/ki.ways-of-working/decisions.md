@@ -537,3 +537,7 @@ wow-admit-toolski-2 stopped cleanly: `origin/main` is now `1d199a77`, pushed fro
 ## 2026-10-23 01:58 BST - ki-principal merged; queue lines resurrected by the merge
 
 wow-resolve-principal-2 merged `origin/main` (`5f57f0be`) into ki-principal as `f438309d`, now ahead 140 and behind 0, and fast-forwarded 5g-emerge-phase2. The brief said to keep every line from both sides of a `messages.md` conflict, which re-added lines that one side had already handled and removed: a coordinator's brief error. wow-fix-queues re-resolves the five merged queues three-way, so a line removed on either side stays removed and a line added on either side stays.
+
+## 2026-10-23 02:08 BST - merged queues: the history rule, applied literally
+
+wow-fix-queues-2 stopped rightly: the coordinator's example was wrong. Seven of this queue's older lines (SCHED-DEBRIEF, COORD-HANDOFF-ASKS, DRAIN, COORD-MODEL, PROJECT-ADDRESSABLE, REGULAR-WORK-ROLE, AGENT-HOOKS-OBSERVATORY) never reached this machine's history: they arrived from the other machine in the merge and are genuinely unhandled here. The literal rule drops 24 handled lines (23 in ki.tools-burndown and DEPCRUISE-PATH here) and keeps the rest; wow-fix-queues-3 applies exactly that. This work then acts on its new lines in queue order.
