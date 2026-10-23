@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
-state: with-supervisor
-since: 2026-10-23T00:46:00Z
+state: with-worker
+since: 2026-10-23T06:58:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-22T23:20:00Z
@@ -12,6 +12,7 @@ method_read: beb56729
 
 ## Now
 
+- Running on sol: sol-level ([KB-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-105-bring-sol-level-with-terra.md)), Kris's "fix any drift" at 07:57 BST.
 - stage3 (run `chezmoi`, machine) running: targeted Rig applies of `.sh`/`.zsh` handlers and Dock on terra (HOLD-LIFT a)).
 - orca-coexist done: Codex hooks coexist with Orca (`5bfaa32`), `config.toml` applied, nudge script retired (`c5776b9`); json-apply applies its helper.
 - tower-path done: chezmoi `d47acf8` declares Tower Assistant at `/Applications` (unpushed, unapplied); TOWER-APPLY with Kris; terra still has 2.0 in `~/Applications`.
