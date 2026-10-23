@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
-state: with-worker
-since: 2026-10-23T20:41:00Z
+state: with-supervisor
+since: 2026-10-23T20:47:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-23T19:20:00Z
@@ -14,7 +14,7 @@ method_read: beb56729
 
 - Nothing running. cf-register done: chezmoi `dfcd7d6` makes the Cloudflare token register and the three v3 payload names match 1Password (`account-admin`), adds the valle-armonia token; chezmoi and ki-principal pushed, level with origin.
 - Terra drift (20:18 BST): `rig doctor` 2 (firewall, FIREWALL-REAPPLY; Dock tile `tower-assistant`, TOWER-INSTALL); `chezmoi status` 3: the two held Tower Assistant Rig files (TOWER-INSTALL, [KB-DOTFILES-UE-106](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-106-apply-tower-assistant-at-applications.md)) and `~/.codex/config.toml`; codex-drift (20:21) found a stale target (the `apps-trip.midnight.ninja` trusted folder from `7dccce4`) and applied that file only; Orca's hooks kept; `chezmoi status` now only the two held files.
-- VA-TOKEN (medium, narrowed): VA SoP widened the token to 17 groups, moved R2 into the account, is adding the `cf_token` alias; untag moot; remaining: after VA's TOKEN-ROLL, v3 variant or recorded exception with snapshot · blind review va-token-review2, then Kris.
+- VA-TOKEN (reviewed, medium, a): after VA's TOKEN-ROLL, a named v3 variant (v3 + R2 Write + Observability Read) · with Kris.
 - ZED-STARSHIP closed: Kris restarts Zed; no source change.
 - Sol: not yet brought level with terra ([KB-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-105-bring-sol-level-with-terra.md)) · with Kris at sol.
 
