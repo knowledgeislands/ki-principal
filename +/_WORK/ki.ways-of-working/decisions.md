@@ -117,7 +117,7 @@ wow-coord-lessons proposed the smallest changes for 23 lessons, with three queri
 
 ADMIT-PUSH / SORT-ARM - coordinator, 23 October 2026, under Kris's 02:10 and 02:12 grants ("if you need to push anything, please do push"): the admitted tools-ki main was pushed fast-forward after a fresh fetch, and the cancellation proposal for the ARM Linux release record went to a masked blind review, which agreed at high confidence; it reaches Kris in [queries.md](queries.md) because Kris chose to keep that record held on 20 October.
 
-## 2026-10-23 08:02 BST - sol to get terra's new repositories
+## 2026-10-23 07:54 BST - sol to get terra's new repositories
 
 Kris: "humans-not-robots/5g-emerge-apex, 5g-emerge-demos, 5g-emerge-phase2 and 5g-emerge-phase3 were replaced by apps-5g-emerge.io, apps-demo.5g-emerge.io, apps-phase2.5g-emerge.io, apps-phase3.5g-emerge.io ... the others on terra are new and sol should get those too ... I'll dealwith the others later"
 
