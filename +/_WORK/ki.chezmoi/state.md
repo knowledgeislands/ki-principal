@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
-state: with-supervisor
-since: 2026-10-23T23:41:00Z
+state: with-worker
+since: 2026-10-23T23:47:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-23T22:45:00Z
@@ -12,6 +12,8 @@ method_read: beb56729
 
 ## Now
 
+- Rule (Kris, 24 October): chezmoi runs on terra and sol, so every machine-specific line in this package, `messages.md` above all, starts with the machine name (`terra:` or `sol:`).
+- Running: firewall-apply (terra firewall re-apply; writes `sol:` learnings), removals-align (Prime Video kept and declared, BlueStacks and Creative Cloud removal verified after Kris's uninstalls).
 - Nothing running. cf-register done: chezmoi `dfcd7d6` makes the Cloudflare token register and the three v3 payload names match 1Password (`account-admin`), adds the valle-armonia token; chezmoi and ki-principal pushed, level with origin.
 - Terra drift (20:18 BST): `rig doctor` 2 (firewall, FIREWALL-REAPPLY; Dock tile `tower-assistant`, TOWER-INSTALL); `chezmoi status` 3: the two held Tower Assistant Rig files (TOWER-INSTALL, [KB-DOTFILES-UE-106](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-106-apply-tower-assistant-at-applications.md)) and `~/.codex/config.toml`; codex-drift (20:21) found a stale target (the `apps-trip.midnight.ninja` trusted folder from `7dccce4`) and applied that file only; Orca's hooks kept; `chezmoi status` now only the two held files.
 - VA-TOKEN (reviewed, medium, a): after VA's TOKEN-ROLL, a named v3 variant (v3 + R2 Write + Observability Read) · with Kris.
