@@ -5,6 +5,7 @@
 - FIREWALL-REAPPLY (Needs: action, Kris at terra with sudo; KI-TOOL-RIG-CORE-047): the Screen Sharing pf anchor dates from 14 October and predates `dae10f2`. a) attended re-apply now, after preflight (pf enabled, parent anchor chain, fresh SSH) and with the corrected recovery (recommended, medium, reviewed); b) leave until the next scheduled Mac rehearsal.
 - TOWER-INSTALL (Needs: decision, Kris): Tower Assistant 2.0 removed; 2.1 not yet in `/Applications`, so the Dock tile is broken and TOWER-APPLY waits. a) install 2.1 into `/Applications` now under the ki-self lifecycle, then TOWER-APPLY (recommended, high); b) leave it for kb.regular.site-tower's attended install.
 - Not raised: CORE-SET-COMMENTS (stays in the worksheet).
+- VA-TOKEN (medium, in blind review): the valle-armonia Cloudflare token is tagged and named `account-admin` but not on v3 (one zone, R2 Write, no payload, no `cf_token` alias); join v3, keep as a recorded exception, or untag · Kris after review.
 
 ## Parked
 

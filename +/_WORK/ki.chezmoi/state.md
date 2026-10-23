@@ -1,10 +1,10 @@
 ---
 id: ki.chezmoi
-state: with-worker
-since: 2026-10-23T06:53:00Z
+state: with-supervisor
+since: 2026-10-23T19:22:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
-mark: 2026-10-23T06:53:00Z
+mark: 2026-10-23T19:22:00Z
 method_read: beb56729
 ---
 
@@ -12,23 +12,11 @@ method_read: beb56729
 
 ## Now
 
-- stage3 (run `chezmoi`, machine) running: targeted Rig applies of `.sh`/`.zsh` handlers and Dock on terra (HOLD-LIFT a)).
-- orca-coexist done: Codex hooks coexist with Orca (`5bfaa32`), `config.toml` applied, nudge script retired (`c5776b9`); json-apply applies its helper.
-- tower-path done: chezmoi `d47acf8` declares Tower Assistant at `/Applications` (unpushed, unapplied); TOWER-APPLY with Kris; terra still has 2.0 in `~/Applications`.
-- Scope: resumed for terra drift and terra-specific items only (Kris, after the 22 October drain); nothing is running.
-- Terra drift: resolved except `~/.codex/hooks.json` (ORCA-HOOKS) and `~/.codex/config.toml` (CODEX-CONFIG, held until ORCA-HOOKS) · with Kris.
-- HOLD-LIFT (reviewed, high): APPLY-PLAN stage 3, `rig apply` of the `.sh`/`.zsh` handlers and the Dock (broken Warp tile), waits on it; `.toml` stays held until [KI-TOOL-RIG-CORE-069](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md); terra `rig doctor` 6 · with Kris.
-- TERRA-REMOVALS ([KB-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-086-finish-software-alignment.md)): Kris is working through it at the screen, Homebrew Wrangler done · with Kris.
-- NUDGE-SIMPLIFY: retire `rig-tower-save-nudge` from the source · with Kris.
-- TOWER-PATH: kb.regular.site-tower's 22 October line in `messages.md` reinstates `/Applications/Tower Assistant.app` as the final home (Rig artefact, wrapper, Dock entry) · coordinator.
-- Tower Save Nudge leftovers: a possible old TCC grant to remove by hand · with Kris.
-- Claude Desktop relaunch to pick up the applied trust targets · with Kris.
-- VS Code territory layout A: the `ki` change is with ki.tools-burndown; the chezmoi sync follows its release · waiting on ki.tools-burndown.
-- `apps-sky.humansnotrobots.be` and `apps-snowflake.humansnotrobots.be` trust rests on another session's uncommitted `workspaces/humans-not-robots/dot_mgit.toml` · other session.
-- MGIT-EXTERNAL-MEMBER: fixed in tools-ki `1d199a77` on local main, not yet pushed.
-- Parked: ORCA-ADOPT, RADAR-DESIGN, RADAR-PUBLIC · with Kris.
-- [KB-DOTFILES-UE-090](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-090-close-rig-bring-up-gaps.md) and [KB-DOTFILES-UE-100](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-100-mcporter-daemon-child-leak.md): attended steps on terra and sol outstanding · with Kris.
-- Sol: not yet brought level with terra's 22 October changes (GitUp and Motion removal, Starship, Ghostty, Symbols Nerd Font, Warp retirement) or its own Rig drift (TOML handler, firewall ranges, UTM) · with Kris at sol.
+- Nothing running. cf-register done: chezmoi `dfcd7d6` makes the Cloudflare token register and the three v3 payload names match 1Password (`account-admin`), adds the valle-armonia token; chezmoi and ki-principal pushed, level with origin.
+- Terra drift (20:18 BST): `rig doctor` 2 (firewall, FIREWALL-REAPPLY; Dock tile `tower-assistant`, TOWER-INSTALL); `chezmoi status` 3: the two held Tower Assistant Rig files (TOWER-INSTALL, [KB-DOTFILES-UE-106](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-106-tower-assistant-apply-at-applications.md)) and `~/.codex/config.toml`, drifted again after orca-coexist · run codex-drift.
+- VA-TOKEN (medium): valle-armonia token outside v3 · blind review, then Kris.
+- ZED-STARSHIP: Zed was started with `STARSHIP_CONFIG=kris.toml` in its environment, so its panes show `kris` over the machine choice `kris-rainbow`; quit and reopen Zed; offered: ignore an app-inherited `STARSHIP_CONFIG` · with Kris.
+- Sol: not yet brought level with terra ([KB-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-105-bring-sol-level-with-terra.md)) · with Kris at sol.
 
 ## Next steps
 
