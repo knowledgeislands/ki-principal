@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
 state: with-worker
-since: 2026-10-22T23:56:00Z
+since: 2026-10-23T00:30:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-22T23:20:00Z
