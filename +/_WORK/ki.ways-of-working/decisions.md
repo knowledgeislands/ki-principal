@@ -529,3 +529,11 @@ c ACCEPT high, b ACCEPT medium, a REFUSE high on one case only: an older, checkp
 ## 2026-10-23 01:45 BST - PULL-STUCK: resolve the diverged pulls
 
 Kris: "can you resolve these pulls as they are conflicting on a rebase/merge", with tools-ki ahead 2 behind 2, ki-principal ahead 138 behind 115, ki-design ahead 5 and 5g-emerge-phase2 behind 1. Both stuck rebases had already been aborted at 01:42, so `ki` works again. Taken as PULL-STUCK a) widened to all four: integrate each with its `origin/main` locally, keeping every commit on both sides; not a push, which stays with Kris. Simplest route under the 23:22 steer: a merge for ki-principal, a fast-forward to the admitted `0fd85a08` for tools-ki (it carries `origin/main`'s `51725e8b` and both local fixes), a fast-forward for 5g-emerge-phase2, and nothing for ki-design, which is only ahead. Two runs in parallel: wow-resolve-principal and wow-admit-toolski.
+
+## 2026-10-23 01:52 BST - tools-ki: origin moved; replay the admitted change on it
+
+wow-admit-toolski-2 stopped cleanly: `origin/main` is now `1d199a77`, pushed from the other machine after the reviewed base `51725e8b`, so `0fd85a08` no longer fast-forwards it. Settled by the coordinator within "can you resolve these pulls" and the 23:22 steer: replay the reviewed commits onto the local `origin/main`, rerun the gates, and admit without a fresh three-review round when the replay is clean and the new upstream commits do not touch the files the candidate changes; otherwise stop and report. wow-admit-toolski-3.
+
+## 2026-10-23 01:58 BST - ki-principal merged; queue lines resurrected by the merge
+
+wow-resolve-principal-2 merged `origin/main` (`5f57f0be`) into ki-principal as `f438309d`, now ahead 140 and behind 0, and fast-forwarded 5g-emerge-phase2. The brief said to keep every line from both sides of a `messages.md` conflict, which re-added lines that one side had already handled and removed: a coordinator's brief error. wow-fix-queues re-resolves the five merged queues three-way, so a line removed on either side stays removed and a line added on either side stays.
