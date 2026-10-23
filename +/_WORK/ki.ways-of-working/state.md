@@ -1,10 +1,10 @@
 ---
 id: ki.ways-of-working
 state: with-worker
-since: 2026-10-22T21:50:00Z
+since: 2026-10-23T01:10:00Z
 received: 2026-10-22T07:24:00Z
 beat: null
-mark: 2026-10-22T22:06:00Z
+mark: 2026-10-23T01:10:00Z
 method_read: eff6163b
 ---
 
@@ -12,14 +12,14 @@ method_read: eff6163b
 
 ## Now
 
-- 23:06 BST mark. Working-area tidy done: `+/_WORK_REVIEW` and the change-management render removed, 388 verification copies removed, nine baseline reports restored, packages pruned, every other KI checkout already committed. Second prune pass on this package (wow-tidy-wow) running.
-- tools-ki admission of `51725e8b..0fd85a08` held: receiver containment is now clean; a fresh review round follows, then a guarded swap at a quiet point for the live dispatcher.
-- ki-principal integration candidate `32f3efb2` reviewed safe but predates tonight's tidy commits; needs refreshing before PRINCIPAL-PUBLISH.
+- 02:10 BST mark. Kris is away for about five hours with wider autonomy: high-confidence reviewed actions go ahead, high-confidence awaiting-review records are accepted, done records are pruned, and pushes and releases are authorised.
+- ki-principal is merged with origin and ahead 148. The COORD-2 title fix is committed on the harness worktree branch.
+- Running: tools-ki admission (wow-admit-toolski-4) and the coordination-lessons proposal (wow-coord-lessons). Queued: roadmap sort, KI-DESIGN-ELE-001 park, take-stock across work packages, COORD-2 review and harness landing, package prune.
 
 ## Next steps
 
-- Coordinator: receive wow-tidy-principal and wow-commit-territory; then the tools-ki containment check and review round; refresh the ki-principal candidate.
-- Kris: PRINCIPAL-PUBLISH, SORT-RUN, ELE001-CONVERGE, RIG-RELEASE-REVIEW-BOUNDARY, CUSTOMS-WORDS, TAGS-NEXT, ECO013-CANCEL; the RIG-ATTENDED walk-through.
+- Coordinator: receive each run; accept and prune by the sort's and take-stock's high-confidence findings; push each repository once its local work is verified; release where the take-stock finds a release is due.
+- Kris: RIG-RELEASE-REVIEW-BOUNDARY, CUSTOMS-WORDS, TAGS-NEXT, ECO013-CANCEL, and the push of other sessions' commits stacked in ki-principal; the RIG-ATTENDED walk-through.
 
 ## Held
 
