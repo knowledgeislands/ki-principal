@@ -10,6 +10,14 @@
 
 **Context:** terra has MacroSilicon's display software (MSDisplayManager) for a USB display adapter. It is now recognised in Rig as a placeholder under SHIM-APPS. **Query:** Do you still use that USB display adapter? **Options:** a) (recommended, confidence high - recognising it costs nothing, and only you know whether the hardware is in use) still used: keep it declared. b) no longer used: a run gives you one command to delete it outright.
 
+### PI-INSTALL - Install Pi on terra
+
+**Context:** Pi is now declared in Rig at Trial (laptop only). The only installed copy sits under an old Node version, so the `pi` command does nothing. Rig's dry run plans one npm install. **Query:** Will you run `rig apply --scope tools --target pi-coding-agent` on terra? **Options:** a) (recommended, confidence high - one planned npm install, and it clears the new missing-Pi health finding) run it and say done. b) leave Pi uninstalled for now.
+
+### ADR-007 - Amend the URL-handler line
+
+**Context:** ADR-KB-DOTFILES-007 line 31 says Claude Code's URL handler "is not declared or managed by Rig". After SHIM-APPS it is declared as a recognised, unselected entry, still not managed. The guide and test are updated; the decision record needs your approval. **Query:** Should the decision record get a dated amendment? **Options:** a) (recommended, confidence high - the handler is still not managed, so only the word "declared" is out of date) add a dated amendment saying it is a recognised, unselected catalogue entry that Rig still does not manage. b) leave the record and let the guide carry the change.
+
 ## Parked
 
 None (Kris unparked everything, 24 October).
