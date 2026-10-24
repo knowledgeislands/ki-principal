@@ -4,7 +4,7 @@ state: with-worker
 hold:
   reason: paused
   release: kb receives RIG-PER-MACHINE (sol pass handed to kb.regular.rig-sol); then rewrite the remit to the chezmoi approach
-since: 2026-10-24T01:50:00Z
+since: 2026-10-24T20:26:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-24T18:54:18Z
@@ -15,7 +15,7 @@ method_read: beb56729
 
 ## Now
 
-- Running on sol: sol-drift reconciles the remaining chezmoi and Rig drift (Kris 02:50).
+- Running on sol: sol-drift reconciles the remaining chezmoi and Rig drift (Kris 21:26).
 - terra: level with source at 18:07 BST (`chezmoi status` empty, Rig doctor 0 findings). drift-low applied the 7 low-risk targets; codexbar-fix (038d999) fixed the JSON helper and applied the CodexBar patch; Claude Code repaired its URL helper after Kris's Terminal session (afe3256); Defuddle 0.19.5, installed by Kris, is declared and adopted in Rig for both Macs (5723c99). UTM's stale Homebrew record was cleared with the App Store app and VMs verified unchanged (500d2d5, KB-DOTFILES-UE-086 B8a); Rig shows zero unmanaged items. terra is finished.
 - sol (from the sol session of 23-24 October, merged 24 October 20:50 BST): mcporter restarted on sol and verified (02:25); WhatsApp MCP fails discovery, pre-existing. Tower Assistant 2.1 installed on sol with its own signing identity, Accessibility and Dock done, doctor 4 (02:46); KB-DOTFILES-UE-106 updated and ready for acceptance. With Kris: firewall re-apply at terra.
 - sol: Warp retired on sol; chezmoi and harness pushed and the Warp cleanup applied (02:26). With Kris: WARP-CONTAINER and WARP-HANDLER (Finder steps on sol); Warp backups deleted after.
