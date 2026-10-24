@@ -6,7 +6,7 @@
 
 - Diff: Webex added; Ghostty rationale; RendApp and The Tower moved to the studio profile; The Tower artefact path. All committed source. Options: a) (recommended, high) apply that one file, then `rig doctor`; b) wait for B8.
 
-### ONENOTE-APP: Kris moves the root-owned OneNote app to the Bin
+### ONENOTE-APP: Kris runs `sudo rm -rf "/Applications/Microsoft OneNote.app"`
 
 - terra: drag `/Applications/Microsoft OneNote.app` to the Bin in Finder (admin password). Options: a) (recommended, high) Kris does it; b) grant a run sudo.
 
