@@ -4,7 +4,7 @@
 
 - WARP-CONTAINER (sol-tower-warp, high): Warp's `~/Library/Group Containers/2BBY89MBSN.dev.warp` is privacy-protected, so it cannot be backed up before the zap; everything else is backed up. a) retire Warp without zapping that container and leave it in place (recommended); b) Kris grants the run Full Disk Access so it can be backed up and zapped. With Kris 01:35.
 - TOWER-SIGNING (sol-tower-warp, high): sol has no Tower Assistant signing identity, so the 2.1 build stops. a) create a new sol identity with `build.sh create-identity` (keychain prompt), then build, install and grant Accessibility (recommended); b) Kris exports terra's identity and imports it on sol first. With Kris 01:35.
-- TOWER-SOURCES (sol-tower-warp, high, Needs: information): The Tower and RendApp are catalogue-only and absent on sol; RendApp is not in the App Store under that name. Where does each come from? With Kris 01:35.
+- TOWER-SOURCES (sol-tower-warp, high, Needs: information): RendApp is catalogue-only, absent on sol and not in the App Store under that name; where does it come from? (The Tower: App Store, via tower-game.) With Kris 01:35.
 - FIREWALL-REAPPLY (Needs: action, Kris at terra with sudo; KI-TOOL-RIG-CORE-047): the Screen Sharing pf anchor dates from 14 October and predates `dae10f2`. a) attended re-apply now, after preflight (pf enabled, parent anchor chain, fresh SSH) and with the corrected recovery (recommended, medium, reviewed); b) leave until the next scheduled Mac rehearsal.
 - Not raised: CORE-SET-COMMENTS (stays in the worksheet).
 
