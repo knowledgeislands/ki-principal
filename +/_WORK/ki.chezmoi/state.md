@@ -12,7 +12,7 @@ method_read: beb56729
 
 ## Now
 
-- Running on sol: sol-apply-3 gives Rend a per-machine bearer, commits the Tower path fix and applies terra's pulled changes (harness `76f7e7d3` unblocked the gate; unpushed).
+- With Kris: MCP-RESTART and NOTION-AUTH after sol-apply-3 (Rend per-host bearer, Tower path, terra's changes applied on sol). Running: push-blind reviews PUSH (chezmoi `6bcfaec` `edd863b` `ba686c3`, harness `76f7e7d3`, all unpushed on sol).
 - With Kris: Warp retirement, Tower Assistant 2.1 and the Dock wait on WARP-CONTAINER and TOWER-SIGNING (sol-tower-warp ended blocked 01:46 BST).
 - Sol ([KB-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-105-bring-sol-level-with-terra.md)): level except Warp (Kris quits it, then a run retires it and clears the last drift, `~/.warp/settings.toml`) and the Dock (follows TOWER-INSTALL); doctor 5, the extra one the accepted Tower Assistant Dock path · with Kris.
 - stage3 (run `chezmoi`, machine) running: targeted Rig applies of `.sh`/`.zsh` handlers and Dock on terra (HOLD-LIFT a)).
