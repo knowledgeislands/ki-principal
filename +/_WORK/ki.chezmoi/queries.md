@@ -2,6 +2,7 @@
 
 ## Open
 
+- ACCEPT-UE106 (Needs: acceptance, Kris; KB-DOTFILES-UE-106): Tower Assistant at `/Applications` done on terra and sol; a) accept and prune (recommended); b) keep open for apps-tower's attended checks and test-plist follow-up. With Kris 02:48.
 - WARP-CONTAINER (warp-retire, Needs: action, Kris on sol): Finder ⇧⌘G `~/Library/Group Containers`, select `2BBY89MBSN.dev.warp`, Delete Immediately (⌥⌘⌫); empty any Warp items from Trash. With Kris 02:21.
 - WARP-HANDLER (warp-retire, Needs: action, Kris on sol): Rig's `.toml` handler apply failed (-50), effective app VS Code. a) Finder Get Info on a `.toml` file, Open with Zed, Change All, then a run re-verifies (recommended); b) leave VS Code and investigate -50 in tools-rig. With Kris 02:21.
 - FIREWALL-REAPPLY (Kris at terra now, 02:18): a) attended re-apply with preflight and corrected recovery chosen; Kris doing it himself.
