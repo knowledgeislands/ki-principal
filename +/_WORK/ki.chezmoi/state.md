@@ -4,7 +4,7 @@ state: with-worker
 since: 2026-10-23T23:47:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
-mark: 2026-10-24T09:59:22Z
+mark: 2026-10-24T11:09:01Z
 method_read: beb56729
 ---
 
@@ -22,6 +22,7 @@ method_read: beb56729
 - terra: firewall-fix-2 done 11:55 BST: v4 scripts repair V3-1 to V3-6 (15 isolated tests); minimal route (firewall-minimal.sh, firewall-minimal-restore.sh, direct `rig apply --sudo`) recommended at medium confidence (8 isolated tests; leaves one extra pf enable reference; no automatic deadline). FIREWALL-ATTENDED-ROUTE in blind review firewall-review-3.
 - terra: health-ports done 12:03 BST (chezmoi 8fed94e, 52ccc2b; tools-rig 2a3eb5c; applied, local): scheduled jobs get /usr/sbin:/sbin, the health job gets XDG directories; scheduled health findings 6 to 1 (firewall only), matching interactive rig doctor. KI-TOOL-RIG-CORE-073 (absolute-path native tool fallback) filed in triage; 072 fold-in note added.
 - terra: firewall-review-3 done 12:04 BST: v4 run after R3-2 (recovery needs candidate metadata) and rehearsal; minimal run after R3-3 (state check after load) and explicit acceptance of manual recovery and an unreversed pf enable reference (R3-4); recommends corrected v4, medium. fix-2 preferred minimal, medium: the route is Kris's choice once both are fixed.
+- 12:09 BST answers: ZED-KEYMAP done (checked), DISPLAY-ADAPTER keep, PI-INSTALL b, ADR-007 a, PI-SOL a. Running pi-untrial (Pi selected nowhere, still Trial; ADR-007 amendment; C7g kept) and radar-scope (recommend how ring and per-machine selection show in Rig and its website).
 - Running: firewall-fix-3 (fixes R3-2, R3-3, R3-5; v5 and minimal-2), then a focused blind review, then FIREWALL-ROUTE to Kris. Done 11:39 BST: firewall-fix wrote firewall-apply-3.sh, firewall-restore-3.sh and firewall-rehearse-3.sh (14 isolated recovery scenarios passed; live rehearsal at terra's console still required); hk-second-review committed the independent HK-003 review to KB-DOTFILES-UE-112 (dff89e4, local), adding a failed legacy Tailscale daemon, extension drift, stale Simulator links and a Tower path discrepancy. housekeeping done 11:26 BST: KB-DOTFILES-UE-111 and KB-DOTFILES-UE-112 open pending sol.
 - va-token done: variant defined in chezmoi `d94a52f` (42 groups; Observability id placeholder); not applied because VA's TOKEN-ROLL c gave the roll to this work, so nothing triggers it. chezmoi `ki repo audit` has a FAIL from another session's `23d3b04` (BIND-2, `.chezmoidata/mcp-servers.yaml` unsupported field).
 - terra: git-pull done (chezmoi `d23117e`, applied; `git up` refuses during a rebase already in progress). PUSH moot: another session pushed `23d3b04` on top of this work's three commits; chezmoi level with origin. sol: git-pull-sol-2 done: rebased the other session's `97088ca` to `6bcfaec` (unpushed, not this work's), level with origin, `~/.gitconfig` applied and verified. GIT-PULL closed on both machines.
