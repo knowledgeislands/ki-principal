@@ -116,3 +116,9 @@ Read-back: take open queries interactively, one or two at a time, for the rest o
 Kris chose: DRIFT-APPLY "Low-risk 7 (recommended, high confidence)"; PUSH "Push both now (recommended, high confidence)".
 
 Read-back: a worker applies only the 7 low-risk pending targets on terra, each scoped and previewed; the Claude settings, hooks, Desktop config and CodexBar patch stay pending for an attended session. chezmoi and ki-principal are pushed now, fast-forward only, including other threads' finished commits, on Kris's authority.
+
+## CODEXBAR-PATCH - 24 October 2026, 17:22 BST (interactive)
+
+Kris chose: "Review, then apply (recommended, high confidence)".
+
+Read-back: at 17:21 `chezmoi status` on terra showed only `R patch_codexbar_config.sh`, and the source was level with GitHub. A worker reviews the script and its effect, then runs it through a scoped apply only if it just updates CodexBar's settings as the committed source intends. It confirms afterwards with `chezmoi status` and `rig doctor`, and otherwise stops and asks.

@@ -1,10 +1,7 @@
 ---
 id: ki.chezmoi
-state: on-hold
-hold:
-  reason: paused
-  release: Kris resumes the sol pass from a session on sol
-since: 2026-10-24T15:45:00Z
+state: with-worker
+since: 2026-10-24T16:22:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-24T15:37:53Z
