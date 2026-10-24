@@ -2,9 +2,9 @@
 
 ## Open
 
-### TERRA-REAPPLY-FAILED: firewall-apply.sh restored the old rules
+### CLI-PREF: put the command-line preference in personal Claude instructions
 
-- terra: Options: a) (recommended, high) Kris pastes the FAILED line and the ~20 lines before it from his 09:23 terminal; a run diagnoses and prepares a corrected block. b) if lost, Kris runs `sudo pfctl -a com.apple/uk.me.kris.rig.firewall.screen-sharing -s rules; rig apply --dry-run --target firewall:screen-sharing-tailnet </dev/null` and pastes the output.
+- Kris asked (10:59 BST) whether it was written up; it was only recorded in decisions.md. Options: a) (recommended, high) a run adds it to the chezmoi `dot_claude` source, commits, and shows the scoped `chezmoi diff` for that one file before any apply; b) leave it in this work package only.
 
 ### HOUSEKEEPING-DUE (last, after every other query, Kris 09:01): KB-DOTFILES-HK-003 and KB-DOTFILES-HK-001 overdue
 
