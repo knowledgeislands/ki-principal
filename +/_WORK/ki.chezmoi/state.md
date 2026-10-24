@@ -1,10 +1,10 @@
 ---
 id: ki.chezmoi
-state: with-owner
-since: 2026-10-24T13:29:00Z
+state: on-hold
+since: 2026-10-24T14:55:02Z
 received: 2026-10-20T01:30:00Z
 beat: null
-mark: 2026-10-24T13:03:43Z
+mark: 2026-10-24T14:55:02Z
 method_read: beb56729
 ---
 
@@ -12,6 +12,7 @@ method_read: beb56729
 
 ## Now
 
+- 15:55 BST: ON HOLD (Kris). terra done: firewall applied, rig doctor 0 findings, selections recorded. Next: the sol pass from a session on sol, working the `sol:` lines in messages.md. COORDINATOR-HOST routed to ki.ways-of-working.
 - 14:29 BST: all runs finished. orca-both (chezmoi 601ad61, tools-rig 0fce7c9); firewall-record-2 (tools-rig 6e8850ca KI-TOOL-RIG-CORE-047 terra evidence, sol pass open; chezmoi 5b19e0be KB-DOTFILES-UE-086). rig doctor 0 findings on terra. Summary sent with HOLD proposal for the sol pass.
 - 14:03 BST: terra firewall APPLIED via Kris's single command (rehearsal and apply attested; snapshot /var/root/rig-firewall-v5/run.W63pqs). Verified from sol: tailnet SSH answers terra, tailnet 22 and 5900 open, LAN 22 open, LAN 5900 timeout. Record update for KI-TOOL-RIG-CORE-047 to follow. orca-both running. Mark struck 14:03 BST.
 - 13:16 BST: rig-removal-2 done (tools-rig 3176f05, KI-TOOL-RIG-CORE-074 amended: selection-based removal, 17 unselected tools with proposed dispositions, medium). RIG-SELECTION in blind review rig-selection-review before Kris.
