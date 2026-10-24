@@ -12,6 +12,7 @@
     4. Initiatives to themes: INITIATIVES-RESIDUE and THEME-REGISTRY-ENFORCE.
     5. Run rules: OP-CACHE-RULE, CF-UNIFORM and DIAGRAM-PRIVATE-CITATIONS.
     6. Home the older homeless decisions State of play holds: PRFLOW, PIN, the burn-down focus, CAPTURE-GATE, GO-AHEAD, KI-AGENTS-NAME, CAPTURE-ONLY, DIAGRAMS-BLACK, RIG-REL-PATCH and SPEC-REVIEW.
+    7. REPO-METADATA: State of play routes [repository-metadata.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/repository-metadata.md) here as well as to the Project taking its `ki-repo` changes. Adoption comes before any repository is tagged, and TAG-FORM is still Kris's to settle.
   - The RIG-ATTENDED walk-through stays parked.
 
 - METHOD (from va, 2026-10-24), nascent: Tending, the continual tending of a territory's knowledge, is a nascent area of Ways of working, pioneered on the Valle Armonia territory, with other territory threads, personal-principal first, invited to run it and add their findings. Process first, reports light: two tracks, a structural track of four levels, from everyday mechanical audit and conform to a master territory checklist, judgemental and tool-free above level 1, and a PMO track worked bottom up, from work packages through records, Projects and themes to the territory overall, each level picking up the captures of the one before. Design note and the Valle Armonia findings at [tending.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/tending.md).
