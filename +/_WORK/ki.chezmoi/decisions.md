@@ -122,3 +122,9 @@ Read-back: a worker applies only the 7 low-risk pending targets on terra, each s
 Kris chose: "Review, then apply (recommended, high confidence)".
 
 Read-back: at 17:21 `chezmoi status` on terra showed only `R patch_codexbar_config.sh`, and the source was level with GitHub. A worker reviews the script and its effect, then runs it through a scoped apply only if it just updates CodexBar's settings as the committed source intends. It confirms afterwards with `chezmoi status` and `rig doctor`, and otherwise stops and asks.
+
+## DEFUDDLE-NOW and URL-HANDLER - 24 October 2026, 17:27 BST
+
+Kris: "I want you to apply the Codex bar settings, which I think you're now doing anyway." "Defuddled isn't on hold. I want you to put that in place on Terra now, and obviously it'll need putting on place on whenever we also do the same thing on Sol, but it should happen through the rig process anyway." "On the cloud code link handler, is that something we can just delete and therefore it will recreate it with the correct version of it? Does cloud code still use this, for example, is this a legacy leftover?"
+
+Read-back: CODEXBAR-PATCH is confirmed. DEFUDDLE-INSTALL is released from the hold. Defuddle is declared through Rig, selected for both Macs and installed on terra now; sol gets it through Rig in the sol pass. The URL-handler message is a question only. A read-only run finds out whether current Claude Code still uses the handler and whether deleting it makes Claude Code recreate it. Nothing is deleted until Kris answers.
