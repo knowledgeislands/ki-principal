@@ -162,6 +162,66 @@ a) (recommended, confidence high - tending-fold and model-shape change no standa
 
 b) Start only tending-fold for now.
 
+### REBOOT-SHAPE - make the re-bootstrap report a full owner report
+
+**Context:** The standard asks for a re-bootstrap report "in three lines" (Bootstrap step 7, Report forms). The style and the Banner section say it closes "after `## Queries`". Hook rule 4 leaves re-bootstrap out. The opener from `ki agent prompts` and the standard's templates both say "report in three lines". On 24 October this produced a 21:44 report with no heading, form line, sections or full queries. The fix is one harness change (the standard, the hook line and the style, regenerated, with the banner test) plus a tools-ki opener change.
+
+**Query:** Should the re-bootstrap report become a full owner report, with the three lines kept as what its sections hold, and the openers say "report in the re-bootstrap form"?
+
+**Options:**
+
+a) (recommended, confidence medium - blind review running; it ends the contradiction that produced the 21:44 report, but it lengthens every re-bootstrap) Re-bootstrap report = heading, `Re-bootstrap at` form line, `## Done` (role and where the work stands), `## In Progress` (what is running), `## Queries` (every open query in full), then the banner; hook rule 4 names re-bootstrap and full summary; openers drop "in three lines".
+
+b) Keep three lines, but state plainly that they sit under the heading and form line, carry the open query tags in the banner, and stand in for the three sections; add re-bootstrap to hook rule 4.
+
+### GAP-SUMMARY - set when a returning owner gets the Summary
+
+**Context:** The standard gives a Summary "when the owner returns after a gap", with no threshold, and the style leaves that trigger out. At 23:20, after 80 minutes away and with eleven queries open, the reply said "11 decisions are with you, starting with LAUNCH-FIRST", with no banner and no queries.
+
+**Query:** Should the standard and style define the gap, and require the Summary with every open query in full in the first reply after it?
+
+**Options:**
+
+a) (recommended, confidence medium - blind review running; a fixed threshold is mechanical and would have caught 23:20; 30 minutes is a judgement) The first reply after 30 minutes or more without an owner message, while queries are with you, answers what you asked and then gives the Summary; the style carries the same trigger.
+
+b) Leave the gap undefined, and rely on the banner rule plus "summary" on request.
+
+### PROXY-SHAPER - the Headroom output shaper and compression in coordinator sessions
+
+**Context:** The proxy appends an L2 steering block ("Never restate ... reference them by path and line instead") at the end of every system prompt, after the style. That conflicts with restating open queries in full, and the style already says no proxy shaping block shortens a report. Token mode also strips function words from Bash tool output, which corrupts templates read that way; Read-tool output arrived intact in this run. The Headroom proxy is connection-critical, so any change to it needs a tested restore path.
+
+**Query:** Should the proxy stay as it is, with the read path fixed in the standard instead?
+
+**Options:**
+
+a) (recommended, confidence medium - blind review running; no change to a connection-critical service, and the style's override held for the 21:53 Summary; the 23:20 link to the proxy is inferred) Leave Headroom unchanged; add to the standard's Bootstrap and Re-anchoring that the standard, style and package are read with the file-read tool, not the shell; the style names the shaper's "never restate" as overridden for open queries.
+
+b) Turn the output shaper off for Claude Code (`HEADROOM_OUTPUT_SHAPER=0`, managed in chezmoi) under a run with a tested restore path.
+
+### METHOD-NUDGE - warn when a coordinator's method_read lags
+
+**Context:** At re-bootstrap the coordinator read harness revision 111b853a against `method_read: eff6163b`, 27 commits behind, but did not re-read the standard, update `method_read` or tell you what changed. Nothing mechanical catches this; the rubric says it cannot judge whether a coordinator refreshed.
+
+**Query:** Should the coordinator hook print one warning line when the work's `state.md` `method_read` differs from the harness revision?
+
+**Options:**
+
+a) (recommended, confidence medium - blind review running; one cheap line at each prompt makes a skipped refresh visible; it touches the generated hook and its test) Add the check to `hooks/coordinator-reminder.sh`, naming both revisions.
+
+b) Leave it to coordinator habit and the bootstrap rule.
+
+### REVIEW-CHECK - flag a query with two recommended options
+
+**Context:** In the 21:53 Summary, COORD-COMMANDS and DRAIN-END each carried two "recommended by ..." options with two confidences, against the query-review rule: one recommended a), with its reason starting `review disagrees` and the reviewer's view in Context. Rubric item COORD-11 already checks confidence on recommended lines.
+
+**Query:** Should COORD-11 also warn when a query carries more than one `(recommended` option?
+
+**Options:**
+
+a) (recommended, confidence high - a narrow warning beside an existing check, easily reversed) Extend COORD-11 to warn on a second recommended option in one query.
+
+b) Leave it to coordinator habit.
+
 ## Parked
 
 - RIG-ATTENDED - Kris's attended Rig steps on sol and terra, commands in `/Users/krisbrown/.local/state/ki/agents/ways-of-working/wow-rig-attended-steps.report.md`; recommended a) CORE-069 on sol plus the look-only CORE-047 and CORE-062 checks first, CORE-068 and the live firewall rollout in a later sitting. Kris, 2026-10-22 02:26 BST: walk me through it in the morning. The tools-rig v0.8.0 tag waits on the same review gates (RIG-RELEASE-REVIEW-BOUNDARY a), 2026-10-23).
