@@ -104,3 +104,9 @@ Read-back: trim the work package to live items only (report copies out, state an
 ## Decision 162 (2026-10-20T02:14:00Z)
 
 - Pointer: Kris (03:14 BST, spoken): take stock now, not as roadmap records. Read back as: (1) find every worktree or unmerged branch across the Knowledge Islands repositories and fold finished work into main (survey first, run wt-survey; folds only on the survey's evidence); (2) migrate ki-design off Husky to the committed `.githooks` gate now (run design-hooks); (3) standardise hooks to lint, format and commit-message gates only, no test suites, set once per repository shape and maintained by audit and conform; the model goes to Kris for a sanity check before any standard or hook changes (run hooks-model, note [superseding hook decision](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/decisions/ADR-KI-HARNESS-SKILLS-017-commit-gate-existence-and-content-are-owned-separately.md)).
+
+## INTERACTIVE - 24 October 2026, 16:25 BST
+
+Kris, verbatim (speech-to-text): "Okay, can you do anything interactively if you've got queries on things? Also take note that we're trying to do things through the state of play feds currently."
+
+Read-back: take open queries interactively, one or two at a time, for the rest of this session. Work is being run through the State of play threads at present; personal-side items route through the personal State of play (`kb`) rather than being started from here.
