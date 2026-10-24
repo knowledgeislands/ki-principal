@@ -110,3 +110,9 @@ Read-back: trim the work package to live items only (report copies out, state an
 Kris, verbatim (speech-to-text): "Okay, can you do anything interactively if you've got queries on things? Also take note that we're trying to do things through the state of play feds currently."
 
 Read-back: take open queries interactively, one or two at a time, for the rest of this session. Work is being run through the State of play threads at present; personal-side items route through the personal State of play (`kb`) rather than being started from here.
+
+## DRIFT-APPLY and PUSH - 24 October 2026, 16:27 BST (interactive)
+
+Kris chose: DRIFT-APPLY "Low-risk 7 (recommended, high confidence)"; PUSH "Push both now (recommended, high confidence)".
+
+Read-back: a worker applies only the 7 low-risk pending targets on terra, each scoped and previewed; the Claude settings, hooks, Desktop config and CodexBar patch stay pending for an attended session. chezmoi and ki-principal are pushed now, fast-forward only, including other threads' finished commits, on Kris's authority.
