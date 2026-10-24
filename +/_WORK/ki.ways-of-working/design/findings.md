@@ -1,6 +1,6 @@
 ---
 note_type: streams/design
-updated: 2026-10-24T16:04:00Z
+updated: 2026-10-24T16:16:00Z
 author: Written with Claude
 ---
 
@@ -67,6 +67,12 @@ Settling is not losing. At settlement the coordinator gives the finding one disp
 - **Homed in the decisions log:** the finding settled a question, so the decision entry quotes the answer and links the finding's last revision.
 - **Dropped:** it has served its purpose, every query it raised is answered and nothing more needs it. The log says so in one line, and Git history keeps the file.
 
+## Carrying prompts
+
+A prompt a coordinator drafts for Kris to hand on, to another thread, another territory or back to the coordinator itself, is carried the same way as a finding: in full, in every Summary, recap and full summary from the one that first gives it until a mark or until Kris has used it, and never by reference to an earlier reply. Kris, 24 October: "I talked about findings being included in the summaries, but also the prompts should be included in them in full. We shouldn't refer back to previous ones when we ask for a summary from a mark, for example."
+
+A prompt is carried under `## Findings`, as one `###` heading with a stable tag, its goal line saying who it is for and what it asks of them, then the prompt itself in a fenced block Kris can copy whole. It is settled when Kris says it has been sent or used, or at a mark unless Kris keeps it open, and its disposition is recorded in the decisions log like a finding's; a prompt that has been sent is usually dropped, because the receiving thread now carries what it asked.
+
 ## Where a finding lives between Summaries
 
 A Summary is a message and is not saved, so a finding carried only in the coordinator's context is lost at the first compaction. It needs a home in the work package that survives both compaction and a fresh session.
@@ -77,6 +83,8 @@ Two things would need to change to allow this:
 
 - **The work package.** `ki-work-package` would add the `findings/` row to its closed list, with "kept until it is settled and homed at a mark or on the owner's word", give the run and the steward as its entry points, and add it to the tidying rules. The rubric's FOLDER family would then pass the files, and warn on one older than a set age on work that is not on hold.
 - **The coordinator's read budget.** A coordinator reads only its five package files, one report and one short file in a turn. A Summary that must restate open findings in full needs to read them. The simplest change counts `findings/` as part of the package read at bootstrap, re-anchoring and Summary time, so one package read takes the five files and every open finding together. The alternative, one finding per turn as the "one short file", fails as soon as two findings are open, which is the case in the pilot.
+
+A carried prompt lives the same way, as `findings/<tag>.md` holding exactly the text the report carries, goal first and the prompt beneath it, written by the run that drafts it or copied out of a run report by the coordinator at receive, and deleted by explicit path in the tidy after it is used or settled at a mark. Until then the run report that holds it is not deleted, because the prompt is not yet homed.
 
 Placing findings in `queries.md` instead was considered and set aside: queries are decisions, findings are evidence, and a table under `## Open` would make the file hard to scan and its size hard to judge. Placing them in `design/` was also set aside: a design note lives until it graduates, and most findings are settled within a day.
 
@@ -102,7 +110,7 @@ If this graduates, the changes are made once in the `ki-coordination` standard a
 
 ## The Valle Armonia pilot
 
-va adopted FINDINGS-SECTION for its own Summaries on 24 October, ahead of this proposal. Two findings are open there now, and each shows a part of the shape.
+va adopted FINDINGS-SECTION for its own Summaries on 24 October, ahead of this proposal. Two findings and one set of prompts are open there now, and each shows a part of the shape.
 
 ### REPO-ALIGN - how far the territory's repositories agree
 
@@ -121,6 +129,14 @@ It is still open. Kris answered TAG-APPLY ("the right way to do it is not to mak
 The work-areas run gave each item a verdict: `+/_ACQUIRE/granola/` not expected, delete; `+/_ACQUIRED/`, `+/_BATCHES/` and `-/_DIGESTS/` expected by declared skills, keep; `Granola Harvest Triage.md` and `community-presence-handover.md` loose notes, to be homed and removed. It gave them as a list of paragraphs, with the reasoning inside each; a table of folder, expected or not, why, and recommendation would have been quicker to read away from the screen. It raised ACQUIRE-FOLDER, GRANOLA-TRIAGE, PRESENCE-HANDOVER and WEBSITE-LINES.
 
 This finding shows refreshing and settlement. As Kris answered each query and areas-apply and kn4-deliver carried them out, each row would move to "done" with its commit. Kris then settled it in so many words: "it's good now that the underscore acquire slash granola is gone. And I think I agree with the acquired batches and digests because, like you say, they're effectively mandated by those skills if they're enabled." Under this proposal that is the settlement: the log entry records it, the finding is dropped because its outcome is wholly in the decisions log and the commits, and the file goes at the next tidy. Two points the run could not settle, the two Kit Acquire captures not yet delivered and whether the meetings are marked in Granola, leave with it as Outstanding for the Knowledge intake Project, not as part of the finding.
+
+### PROMPTS - the prompts Kris is to hand on
+
+**Goal:** Kris, 24 October, under PROPOSALS: "give me the prompt to send to both of you", so that va and personal-principal adopt the proposals as interim policy, with a simple one-liner for whichever Knowledge Islands thread takes each proposal; and under PROMPT-TENDING, add "the third one, which effectively is the Tending as well". **Scope:** the prompts drafted by the metadata-proposal run and amended for Tending. **As of:** 24 October, after PROMPT-TENDING.
+
+PROMPTS carries three prompts. The shared adoption prompt, for the va and personal-principal threads, names this note, [Repository metadata](repository-metadata.md) and [Tending](tending.md), asks each thread to adopt all three as interim policy on its own territory, and asks for feedback under each note's Other territories section. The two one-liners, one for Ways of working and one for KI > SoP, each hand a Knowledge Islands thread the proposal it is to take up.
+
+This finding shows the carrying rule for prompts. The prompts sat in the metadata-proposal run's report, which va keeps until Kris uses them, and the first Summary gave them in full. Under PROMPTS-IN-FULL each later va Summary and recap gives all three again, whole and copyable, rather than pointing back to that Summary, until Kris sends them or strikes a mark; then they are dropped with a line in the decisions log, and the run report goes at the next tidy.
 
 ## Where it came from
 
