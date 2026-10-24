@@ -12,7 +12,7 @@ method_read: beb56729
 
 ## Now
 
-- mcporter restarted on sol and verified (02:25); WhatsApp MCP fails discovery, pre-existing. Running on sol: tower-sign creates sol's signing identity and installs Tower Assistant 2.1, then the Dock; With Kris: firewall re-apply at terra.
+- mcporter restarted on sol and verified (02:25); WhatsApp MCP fails discovery, pre-existing. Tower Assistant 2.1 installed on sol with its own signing identity, Accessibility and Dock done, doctor 4 (02:46); running: ue106-sol records it in KB-DOTFILES-UE-106. With Kris: firewall re-apply at terra.
 - Warp retired on sol; chezmoi and harness pushed and the Warp cleanup applied (02:26). Next on terra: pull both repositories, apply its Rend field. With Kris: WARP-CONTAINER and WARP-HANDLER (Finder steps on sol); Warp backups deleted after.
 - Sol ([KB-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-105-bring-sol-level-with-terra.md)): level except Warp (Kris quits it, then a run retires it and clears the last drift, `~/.warp/settings.toml`) and the Dock (follows TOWER-INSTALL); doctor 5, the extra one the accepted Tower Assistant Dock path · with Kris.
 - stage3 (run `chezmoi`, machine) running: targeted Rig applies of `.sh`/`.zsh` handlers and Dock on terra (HOLD-LIFT a)).
