@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
-state: with-worker
-since: 2026-10-23T23:47:00Z
+state: with-supervisor
+since: 2026-10-24T11:22:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-24T11:09:01Z
@@ -22,6 +22,7 @@ method_read: beb56729
 - terra: firewall-fix-2 done 11:55 BST: v4 scripts repair V3-1 to V3-6 (15 isolated tests); minimal route (firewall-minimal.sh, firewall-minimal-restore.sh, direct `rig apply --sudo`) recommended at medium confidence (8 isolated tests; leaves one extra pf enable reference; no automatic deadline). FIREWALL-ATTENDED-ROUTE in blind review firewall-review-3.
 - terra: health-ports done 12:03 BST (chezmoi 8fed94e, 52ccc2b; tools-rig 2a3eb5c; applied, local): scheduled jobs get /usr/sbin:/sbin, the health job gets XDG directories; scheduled health findings 6 to 1 (firewall only), matching interactive rig doctor. KI-TOOL-RIG-CORE-073 (absolute-path native tool fallback) filed in triage; 072 fold-in note added.
 - terra: firewall-review-3 done 12:04 BST: v4 run after R3-2 (recovery needs candidate metadata) and rehearsal; minimal run after R3-3 (state check after load) and explicit acceptance of manual recovery and an unreversed pf enable reference (R3-4); recommends corrected v4, medium. fix-2 preferred minimal, medium: the route is Kris's choice once both are fixed.
+- terra: firewall-review-4 done 12:21 BST: v5 and minimal v2 both ready for attended practice; v5 preferred, medium; three IPv5 wording slips in v5 (non-blocking). FIREWALL-ROUTE with Kris. Nothing running.
 - terra: pi-untrial done 12:16 BST (chezmoi 0cc3e87, applied, local): Pi declared with no profile, still Trial; UE-108 note; C7g confirmed; ADR-007 amended; rig doctor 2 to 1 (firewall only).
 - radar-scope done 12:15 BST: RADAR-SCOPE drafted (high: four independent rings, machine selection unchanged, optional trial phase, public ring plus declared machines with an empty state); blind review radar-review (medium, b, with a private-phase fourth option and a rationale-export disclosure risk); RADAR-SCOPE logged with the private-phase option recommended, medium.
 - 12:09 BST answers: ZED-KEYMAP done (checked), DISPLAY-ADAPTER keep, PI-INSTALL b, ADR-007 a, PI-SOL a. Running pi-untrial (Pi selected nowhere, still Trial; ADR-007 amendment; C7g kept) and radar-scope (recommend how ring and per-machine selection show in Rig and its website).
