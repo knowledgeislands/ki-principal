@@ -12,6 +12,7 @@ method_read: beb56729
 
 ## Now
 
+- 12:41 BST: radar-confirm-3 done (chezmoi 06f63f9 UE-108 ThoughtWorks rings Adopt/Trial/Assess/Caution, stop-use is retirement not a ring; harness ca98fd44e, 63f850c23 KI-HARNESS-REV-012 at triage, local main, harness 6 ahead 1 behind). closeout-inventory done (report unread). terra: firewall-auto building the one-paste unattended v5 wrapper; firewall-auto-review waits on it.
 - 12:28 BST: running radar-confirm (Codex high: ThoughtWorks ring check, UE-108 update, harness ThoughtWorks-feed record) and closeout-inventory (read-only list of everything left). terra: FIREWALL-ROUTE a) v5 with Kris at terra's console, stage by stage.
 - Rule (Kris, 24 October): chezmoi runs on terra and sol, so every machine-specific line in this package, `messages.md` above all, starts with the machine name (`terra:` or `sol:`).
 - headroom-routing done: chezmoi `799ab20` (pushed) manages Claude Code `env` and the Headroom ensure hooks; applied on terra and sol; sol's runner.log emptied (grows ~40 MB a day: rotation to capture as a record). sol keeps `~/.claude/settings.json.pre-headroom` until Kris's HEADROOM-OK check.
