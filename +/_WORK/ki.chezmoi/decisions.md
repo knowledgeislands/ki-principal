@@ -164,3 +164,9 @@ Read-back: routed to the KI State of play (`ki`) as MGIT-TOLERANT, for tools-mgi
 Kris: "I'm actually thinking, and given the fact that there's no work left in this project, that what we should be doing is actually having one that's running out of my personal territory, and there should be a version of that for each machine, which is allowing me to keep the machines dealing with any issues they've got. Then the one that's in Knowledge Islands rig is about how it deals with changes in [chezmoi] in terms of its approach."
 
 Read-back: machine upkeep moves to the personal territory, with one piece of work per machine (terra, sol) that keeps that machine healthy and deals with its issues. ki.chezmoi narrows to the approach: how Rig and KI handle chezmoi changes. Its machine-specific open work, the sol pass and the remaining sol checks, transfers to the personal side once the personal State of play receives it. Routed as MACHINE-UPKEEP to `kb` and CHEZMOI-REMIT to `ki`. Per-machine work conflicts with the current rule that no work package names a host, so that rule goes to ki.ways-of-working alongside COORDINATOR-HOST.
+
+## RIG-PER-MACHINE - 24 October 2026, 20:16 BST
+
+Kris: "Can we make sure that we've got the new project for kb.regular.rig and I think we probably need it to be rig-terra and rig-sol."
+
+Read-back: this refines MACHINE-UPKEEP. `kb.regular.rig` splits into two pieces of personal work, `kb.regular.rig-terra` and `kb.regular.rig-sol`, each looking after its own machine. The personal State of play (`kb`) creates them under ki-work-package. ki.chezmoi's sol pass goes straight to `kb.regular.rig-sol` in the same message, so the handover needs no further step from this thread. Sent to `kb` as IMPORTANT.
