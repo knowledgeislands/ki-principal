@@ -2,7 +2,6 @@
 
 ## Open
 
-- NOTION-AUTH (sol-apply-3, Needs: action, Kris): hosted Notion needs `mcporter auth notion` (browser sign-in) before use. With Kris 02:08.
 - FIREWALL-REAPPLY (Kris at terra now, 02:18): a) attended re-apply with preflight and corrected recovery chosen; Kris doing it himself.
 - Not raised: CORE-SET-COMMENTS (stays in the worksheet).
 
