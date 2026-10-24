@@ -27,3 +27,4 @@ created_at: 2026-10-08T08:40:00Z
 
 - In: the chezmoi source (`~/.local/share/chezmoi`, GitHub `krisb/dotfiles`) and its `docs/roadmap/` KB-DOTFILES-UE records; managed and unmanaged coverage and `.chezmoiignore`; drift between source and targets; the chezmoi side of host-local KI config, such as the `[locals]` migration; reviewed, scripts-excluded applies on terra and sol.
 - Out: Rig, its records and the at-screen bring-up of sol and terra (ki.mac-studio-setup); tools-ki and tools-mgit and their releases (ki.tools-burndown); the work model and harness guidance (ki.ways-of-working); territory dispatch (ki).
+- 13:23 BST firewall-auto-fix-2 found the cause was not the pf warning but a failed root read of the rehearsal status file (no exit code captured); launched firewall-auto-fix-3 (robust read plus diagnostics, offline tests) and firewall-auto-review-4 after it.
