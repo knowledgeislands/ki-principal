@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
-state: with-supervisor
-since: 2026-10-24T11:22:00Z
+state: with-worker
+since: 2026-10-24T11:28:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-24T11:09:01Z
@@ -12,6 +12,7 @@ method_read: beb56729
 
 ## Now
 
+- 12:28 BST: running radar-confirm (Codex high: ThoughtWorks ring check, UE-108 update, harness ThoughtWorks-feed record) and closeout-inventory (read-only list of everything left). terra: FIREWALL-ROUTE a) v5 with Kris at terra's console, stage by stage.
 - Rule (Kris, 24 October): chezmoi runs on terra and sol, so every machine-specific line in this package, `messages.md` above all, starts with the machine name (`terra:` or `sol:`).
 - headroom-routing done: chezmoi `799ab20` (pushed) manages Claude Code `env` and the Headroom ensure hooks; applied on terra and sol; sol's runner.log emptied (grows ~40 MB a day: rotation to capture as a record). sol keeps `~/.claude/settings.json.pre-headroom` until Kris's HEADROOM-OK check.
 - records-cf done: KB-DOTFILES-UE-109 (Cloudflare token tidy, holds both va messages, the `d94a52f` variant and the window plan) and KB-DOTFILES-UE-110 (Headroom runner.log rotation) captured and pushed; sol's settings backup removed.
