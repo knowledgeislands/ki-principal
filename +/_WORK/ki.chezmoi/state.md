@@ -1,10 +1,10 @@
 ---
 id: ki.chezmoi
 state: with-worker
-since: 2026-10-24T11:28:00Z
+since: 2026-10-24T13:00:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
-mark: 2026-10-24T11:09:01Z
+mark: 2026-10-24T13:03:43Z
 method_read: beb56729
 ---
 
@@ -12,6 +12,7 @@ method_read: beb56729
 
 ## Now
 
+- 14:03 BST: terra firewall APPLIED via Kris's single command (rehearsal and apply attested; snapshot /var/root/rig-firewall-v5/run.W63pqs). Verified from sol: tailnet SSH answers terra, tailnet 22 and 5900 open, LAN 22 open, LAN 5900 timeout. Record update for KI-TOOL-RIG-CORE-047 to follow. orca-both running. Mark struck 14:03 BST.
 - 13:16 BST: rig-removal-2 done (tools-rig 3176f05, KI-TOOL-RIG-CORE-074 amended: selection-based removal, 17 unselected tools with proposed dispositions, medium). RIG-SELECTION in blind review rig-selection-review before Kris.
 - 13:06 BST: terra: firewall-auto-fix done; firewall-auto-review-2 NOT READY on one point (desktop login not tested); FIREWALL-DESKTOP to Kris with both views. rig-removal done; rig-removal-2 running.
 - 12:57 BST: radar-close done (chezmoi 6d4a4b9, UE-108 RADAR-SCOPE b). Finding: Path Finder's rationale in the checked-in Rig site catalogue mentions ForkLift's evaluation status (not displayed by the page mapper today); to clean up with the site work. route-sectors routing the sector-radar idea to the personal State of play.
