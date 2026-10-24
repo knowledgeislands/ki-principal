@@ -1,7 +1,10 @@
 ---
 id: ki.chezmoi
-state: with-worker
-since: 2026-10-24T15:35:00Z
+state: on-hold
+hold:
+  reason: paused
+  release: Kris resumes the sol pass from a session on sol
+since: 2026-10-24T15:45:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-24T15:37:53Z
@@ -12,9 +15,9 @@ method_read: beb56729
 
 ## Now
 
-- WITH WORKER from 16:35 BST: run drift-low applies only the 7 low-risk terra targets Kris chose at 16:27 (DRIFT-APPLY); the work returns to on-hold when it reports. chezmoi and ki-principal were pushed at 16:35 (PUSH).
+- terra: drift-low (16:35-16:45 BST) applied the 7 low-risk targets Kris chose under DRIFT-APPLY; Rig doctor 0 findings before and after, clean shell startup. Only the Claude Code settings, Claude Desktop config, patch_claude_code_hooks.mjs and patch_codexbar_config.sh remain pending, for an attended session.
 - ON HOLD at Kris's 24 October, 15:55 BST instruction. No implementation is running; the remaining baseline pass waits for a session on sol.
-- terra: firewall v5 rehearsal and apply are complete; the last recorded Rig doctor has zero findings. Drift remains: [sync-close](/Users/krisbrown/.local/state/ki/agents/chezmoi/sync-close.report.md) retains eleven pending targets, including connection-sensitive and app-owned settings, for their owners.
+- terra: firewall v5 rehearsal and apply are complete; the last recorded Rig doctor has zero findings. Drift: four app-owned targets remain (see above).
 - Every machine-specific instruction starts with terra: or sol:.
 
 ## Next steps
