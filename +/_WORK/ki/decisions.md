@@ -130,3 +130,7 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 ## 2026-10-24 21:36 BST - BRANCH-TIDY
 
 - BRANCH-TIDY (Kris, 24 October): "While I'm waiting, can you look at all the branches that are available in Knowledge Islands and reconcile them and get rid of things if we don't need them?" Read back as: one run, branch-tidy, across every Knowledge Islands repository; a local or remote branch, or a worktree, whose content is wholly on main is deleted, along with a clean worktree that holds it; anything with work not on main, a dirty worktree, or an unclear intent is kept and reported, never merged or deleted. tools-ki waits until fold-tools-ki has finished. No force push, no --no-verify.
+
+## 2026-10-24 21:45 BST - KILL-FOLD-TOOLS-KI
+
+- KILL-FOLD-TOOLS-KI (Kris, 24 October): "I think this is clearly not working. Can you kill it?" Read back as: stop fold-tools-ki now; the tools-ki fold of `sop-secondary` is redone on Sol by KI > SoP there.
