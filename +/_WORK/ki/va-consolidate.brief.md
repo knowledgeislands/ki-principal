@@ -37,7 +37,7 @@ One line is related but not from va: COORDINATOR-HOST, from Rig > chezmoi > SoP.
    - which work should carry it: ki.ways-of-working for method design, State of play, or another named work.
 
    Separate the method lines from the product and defect lines (HTTPS, `node_modules`, Sanctuary, harness orientation), and mark the lines that are already cleared (BIND-2, COV-1, SOP-SECONDARY-MERGED).
-2. `+/_WORK/ki/va-consolidate.report.md`, an owner report under `ki-delegation`.
+2. The run report at `/Users/krisbrown/.local/state/ki/agents/ki/va-consolidate.report.md`, an owner report under `ki-delegation` (the launcher homes it in the work folder).
    - Queries: one `###` per decision Kris must make, under a stable mnemonic tag, with Context, Query and Options.
    - Option a) is recommended and states its confidence and a one-line reason.
    - Group the queries so there are at most eight.
@@ -45,7 +45,7 @@ One line is related but not from va: COORDINATOR-HOST, from Rig > chezmoi > SoP.
 
 ## Authority and limits
 
-- Read-only apart from the two files above. Change no standard, skill, Work Process note or record, and create no record (CAPTURE-GATE).
+- Read-only apart from `design/va-consolidation.md` and your run report. Change no standard, skill, Work Process note or record, and create no record (CAPTURE-GATE).
 - Remove or edit no `messages.md` line in either package, and leave `ki.ways-of-working`'s package untouched.
-- Commit only the two files, staged by explicit path under `ki-git`, with the subject `docs(work): ki va-consolidate`. Do not push.
+- Commit only `design/va-consolidation.md`, staged by explicit path under `ki-git`, with the subject `docs(work): ki va-consolidate`. Do not push.
 - Keep British English and ASCII hyphens. Link every record identifier by absolute path, or to its pinned GitHub revision where it has been pruned.
