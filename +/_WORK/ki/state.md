@@ -3,7 +3,7 @@ id: ki
 state: with-worker
 reason: null
 release: null
-since: 2026-10-24T17:23:00Z
+since: 2026-10-24T20:50:00Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-10-24T19:29:10Z
@@ -14,7 +14,7 @@ method_read: f4d6c521
 
 ## Now
 
-- With worker since 18:23 BST under FOLD-TO-MAIN: fold-harness, fold-tools-ki and fold-others fold every unmerged branch into main across Knowledge Islands and push. Next: receive, then Kris restarts on Sol from the RESTART-ON-SOL lines.
+- Handed over to Sol at 21:50 BST. On terra, FOLD-TO-MAIN is done: tools-ki main carries `sop-secondary` (f3ba52f7) and fold-tools-ki was stopped at Kris's word after it hung re-checking pushed work (KILL-FOLD-TOOLS-KI). BRANCH-TIDY is done: every Knowledge Islands repository has only its default branch; spent worktrees removed; eight superseded `automation/*` branches deleted and their PRs closed (harness #29, #30, #32, #33; website #43, #45, #48, #49). Next: KI > SoP on Sol pulls and takes RESTART-ON-SOL alongside ki.ways-of-working.
 - Overnight under OVERNIGHT: [KI-PRINCIPAL-GOV-035](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-GOV-035-turn-the-techne-programme-hold-into-a-focus-rule.md) accepted and [KI-PRINCIPAL-MOD-008](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-008-whole-philosophy-coherence-review.md) to next; ki.agent-host resumed; [KI-TOOL-RIG-CORE-048](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-048-signed-release-install-kind.md) to soon; [KI-TOOL-KI-CLI-125](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-125-ki-release-contract.md) reworded; ki.regular.registry-removal finished; PIN-LINKS, RIG-SCHEDULE-ENCODING and PKGLESS-GATE routed to their owners.
 - Parked in `queries.md`: CLI006-READY, CLI006-CONFIRM and PROJECT-CLOSE.
 - Retro for the take-stock: [design/retro-2026-10-20.md](design/retro-2026-10-20.md).
