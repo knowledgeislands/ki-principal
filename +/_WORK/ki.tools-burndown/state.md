@@ -26,5 +26,4 @@ The incoming queue and parked queries carry the pending work. [Earlier state and
 
 ## Held
 
-- RIG-SITE-001-POINTER: drop the bootstrap-guide pointer, until Kris accepts KB-MIDNIGHT-RIG-SITE-001.
 - KI-TOOL-KI-CLI-139's "Decision 55" citations, until the decisions move settles (DECISION-55-CITATIONS).
