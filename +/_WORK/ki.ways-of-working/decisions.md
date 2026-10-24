@@ -150,3 +150,7 @@ The consolidation and prioritised list are in restart-consolidate.report.md, sen
 Kris: "Okay, well I still really need this thread to be giving me proper summaries, which you're not doing, I don't know why, can you investigate where that is?"
 
 Taken as: one read-only run, wow-summary-drift, investigates why this thread's replies fall short of the owner-report shape and proposes fixes as queries. Coordinator acknowledges its own lapses meanwhile: the re-bootstrap reply, the Legal prompt reply and the "that's done" reply carried no report heading or banner, and the refresh rule was not run at re-bootstrap.
+
+## 2026-10-24 23:56 BST - summary drift received
+
+wow-summary-drift found the style current and named the causes: the re-bootstrap rule contradicts itself, the gap trigger is undefined, the refresh rule was skipped, the proxy's "never restate" block pulls against full queries and corrupts Bash reads, and the coordinator's own errors. Coordinator takes its habit fixes now: full report form at every re-bootstrap, the banner on every where-it-stands reply, the Summary after a gap, the refresh rule at bootstrap, and the Read tool for the standard and package. COORD-COMMANDS and DRAIN-END are reshaped to one recommended option each. Five queries copied; the four medium ones go to wow-drift-blind on Codex.

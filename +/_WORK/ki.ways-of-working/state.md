@@ -12,7 +12,8 @@ method_read: eff6163b
 
 ## Now
 
-- 23:50 BST: wow-summary-drift is investigating why this thread falls short of the owner-report shape.
+- 23:56 BST: wow-summary-drift received; five queries copied. wow-drift-blind (Codex) is blind-reviewing REBOOT-SHAPE, GAP-SUMMARY, PROXY-SHAPER and METHOD-NUDGE.
+- Coordinator owes the refresh: re-read the standard with the Read tool and set method_read.
 - 21:51 BST: RESTART-ON-SOL disposed: the prioritised list is in restart-consolidate.report.md and sent to Kris with ten queries. Nothing is running.
 - Blind review lifted THREAD-RENAME and THEME-CLOSE to high; it disagreed on COORD-COMMANDS (drain stays inside hold), so both views are shown.
 

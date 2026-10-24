@@ -6,13 +6,15 @@
 
 **Context:** When you asked a coordinator to drain, a prompt that put a final DRAINED / NOT DRAINED line last worked well; the standard requires every banner to end with the thread line. The coordination-lessons proposal and a blind review disagree. Nothing changes until you decide.
 
+The proposal's view: put the DRAINED / NOT DRAINED line after the thread line, only for an explicit drain check, honouring the ending you asked for.
+
 **Query:** Should an explicitly requested drain check end with the drain result after the thread line?
 
 **Options:**
 
-a) (recommended by the blind review, confidence high - one closing rule everywhere, no exception to maintain) Keep the thread line last in every case and put the drain result in Done.
+a) (recommended, confidence high - reviewed; one closing rule everywhere, no exception to maintain) Keep the thread line last in every case and put the drain result in Done.
 
-b) (recommended by the proposal, confidence medium - honours the ending you asked for) Put the DRAINED / NOT DRAINED line after the thread line, only for an explicit drain check.
+b) Put the DRAINED / NOT DRAINED line after the thread line, only for an explicit drain check.
 
 ### SORT-ARM - cancel the conditional ARM Linux release record [KI-TOOL-KI-CLI-125](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-125-ki-release-contract.md)
 
@@ -85,13 +87,15 @@ b) Adopt the interactive pass now and leave splitting for later.
 
 **Context:** Kris wants to say a move as a command, such as `/ki-coordination hold`. Today only summary, recap, full-summary and mark are commands. In the Work Process note, drain is an activity inside the move to On hold, not a state. A standalone drain would stop new launches while the work stays With worker, and DRAIN-END decides how it reports.
 
+A masked blind review on Codex disagreed: it would keep drain only inside hold, because the Work Process note defines drain as the activity leading into On hold and a standalone drain needs its own contract first.
+
 **Query:** Should the skill gain `hold`, `drain`, `resume`, `send` and `receive`, with `drain` usable on its own?
 
 **Options:**
 
-a) (recommended by the blind review, confidence medium - the Work Process note defines drain as the activity leading into On hold; a standalone drain needs its own contract first) Add `hold`, `resume`, `send` and `receive`, with drain only ever part of hold.
+a) (recommended, confidence medium - review disagrees; it gives you the drain word and needs no Work Process change) Add all five, where `hold` is drain plus On hold and `drain` alone stops launches and reports when everything has finished.
 
-b) (recommended by the consolidation, confidence medium - no Work Process change needed, and it gives Kris the drain word) Add all five; `hold` is drain plus On hold; `drain` alone stops launches and reports when the work has drained.
+b) Add `hold`, `resume`, `send` and `receive`, with drain only ever part of hold.
 
 ### RUN-SECRETS - runs read secrets only through the dotfiles helpers
 
