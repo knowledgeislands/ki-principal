@@ -2,6 +2,7 @@
 
 ## Open
 
+- terra: TERRA-UNINSTALLS (high): a) Kris runs the BlueStacks and Creative Cloud uninstallers when convenient, then a short run verifies and ticks UE-086 B6b and terra's C7i (recommended); b) do both Macs' Creative Cloud together from sol; c) keep one and record it · Kris.
 - HEADROOM-ROUTING (high): make `env` (all four current keys) a managed core Claude Code key and the two `headroom init hook ensure` hooks owned registrations; terra diff empty or hook order only; sol applied after `git up`, with a tested `settings.json` backup restore. a) all four keys (recommended); b) three Headroom keys only; c) merge `env` by key · Kris.
 - sol: HEADROOM-CHECK: Kris runs `claude -p "Reply with exactly: HEADROOM-OK"` at sol's console · Kris.
 - sol: HEADROOM-STOP: did anything at sol's console stop Headroom about 01:06? If not, a read-only admin unified-log follow-up · Kris.
