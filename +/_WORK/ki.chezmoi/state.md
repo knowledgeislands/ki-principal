@@ -12,6 +12,7 @@ method_read: beb56729
 
 ## Now
 
+- 12:57 BST: radar-close done (chezmoi 6d4a4b9, UE-108 RADAR-SCOPE b). Finding: Path Finder's rationale in the checked-in Rig site catalogue mentions ForkLift's evaluation status (not displayed by the page mapper today); to clean up with the site work. route-sectors routing the sector-radar idea to the personal State of play.
 - 12:55 BST: terra: firewall-auto built the one-paste wrapper; firewall-auto-review NOT READY (P1 hung native call blocks recovery; P1 weak confirmation checks; P2 false RESTORED on refusal). firewall-auto-fix then firewall-auto-review-2 running. RADAR-SCOPE answered b; radar-close running. rig-removal running, rig-removal-2 after it.
 - 12:41 BST: radar-confirm-3 done (chezmoi 06f63f9 UE-108 ThoughtWorks rings Adopt/Trial/Assess/Caution, stop-use is retirement not a ring; harness ca98fd44e, 63f850c23 KI-HARNESS-REV-012 at triage, local main, harness 6 ahead 1 behind). closeout-inventory done (report unread). terra: firewall-auto building the one-paste unattended v5 wrapper; firewall-auto-review waits on it.
 - 12:28 BST: running radar-confirm (Codex high: ThoughtWorks ring check, UE-108 update, harness ThoughtWorks-feed record) and closeout-inventory (read-only list of everything left). terra: FIREWALL-ROUTE a) v5 with Kris at terra's console, stage by stage.
