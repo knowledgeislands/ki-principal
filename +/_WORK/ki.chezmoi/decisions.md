@@ -152,3 +152,9 @@ Read-back: Kris ran the suggested Terminal command, `/opt/homebrew/bin/claude "s
 Kris chose: PUSH-2 "Push all three now (recommended, high confidence)"; UTM-RECEIPT "Clear it now, safely (recommended, high confidence)".
 
 Read-back: chezmoi, ki-principal and personal-principal are pushed now, fast-forward only and never forced. A worker removes only Homebrew's leftover UTM record on terra after confirming that it is separate from the App Store app. It verifies that UTM and every virtual machine are untouched and stops to ask if anything would touch the app. It may push its own chezmoi commits so that terra finishes level.
+
+## MGIT-TOLERANT - 24 October 2026, 20:04 BST
+
+Kris: "I think fundamentally though we need to make it so that mgit is tolerant of this, so that we know how to get past it, so we don't get blocked. But I think that's something that they need to be given over to the state of play in KI please."
+
+Read-back: routed to the KI State of play (`ki`) as MGIT-TOLERANT, for tools-mgit's owner, ki.tools-burndown. ki.chezmoi does not work on it.
