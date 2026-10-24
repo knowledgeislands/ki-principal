@@ -3,7 +3,7 @@ id: ki.chezmoi
 state: on-hold
 hold:
   reason: paused
-  release: Kris resumes the sol pass from a session on sol
+  release: kb receives MACHINE-UPKEEP; then hand over the sol pass and rewrite the remit to the chezmoi approach
 since: 2026-10-24T18:56:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
