@@ -1,6 +1,6 @@
 # [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Ways of working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md) › wow-restart-consolidate
 
-**🤖 → 👤 Handoff to supervisor · Run report at 21:58 BST · last mark 02:10 BST**
+**🤖 → 👤 Handoff to supervisor · Run report at 21:47 BST · last mark 02:10 BST**
 
 ---
 
@@ -383,18 +383,18 @@ a) (recommended, confidence high - each choice is low-stakes and reversible) Kee
 
 b) Object to the ones you name.
 
-### 🤖 → 👤 Handoff to supervisor · since 21:58 BST
+### 🤖 → 👤 Handoff to supervisor · since 21:47 BST
 
 👤 10 with you
 
-- [with you] THREAD-RENAME · owner · since 21:58
-- [with you] SUMMARY-WINDOW · owner · since 21:58
-- [with you] FINDINGS-SECTION · owner · since 21:58
-- [with you] QUERY-RULES · owner · since 21:58
-- [with you] COORD-COMMANDS · owner · since 21:58
-- [with you] RUN-SECRETS · owner · since 21:58
-- [with you] THEME-CLOSE · owner · since 21:58
-- [with you] DECISION-HOMES · owner · since 21:58
+- [with you] THREAD-RENAME · owner · since 21:47
+- [with you] SUMMARY-WINDOW · owner · since 21:47
+- [with you] FINDINGS-SECTION · owner · since 21:47
+- [with you] QUERY-RULES · owner · since 21:47
+- [with you] COORD-COMMANDS · owner · since 21:47
+- [with you] RUN-SECRETS · owner · since 21:47
+- [with you] THEME-CLOSE · owner · since 21:47
+- [with you] DECISION-HOMES · owner · since 21:47
 - [with you] DRAIN-END · owner · since 23 Oct
 - [with you] SORT-ARM · owner · since 23 Oct
 - [committed] restart-consolidate.report.md
