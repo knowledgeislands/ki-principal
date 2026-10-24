@@ -12,8 +12,7 @@ method_read: beb56729
 
 ## Now
 
-- Queued on sol: rend-bearer gives the `project-rend` MCP a per-machine bearer after sol-pull-apply-2 (Kris 01:52 BST); terra then pulls and applies.
-- Running on sol: harness-auth teaches the harness ki-binding schema `auth: oauth` (the gate failure from `23d3b04`); then a resumed apply commits the Tower path fix and applies targets pulled since `9da18d0`.
+- Running on sol: sol-apply-3 gives Rend a per-machine bearer, commits the Tower path fix and applies terra's pulled changes (harness `76f7e7d3` unblocked the gate; unpushed).
 - With Kris: Warp retirement, Tower Assistant 2.1 and the Dock wait on WARP-CONTAINER and TOWER-SIGNING (sol-tower-warp ended blocked 01:46 BST).
 - Sol ([KB-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-105-bring-sol-level-with-terra.md)): level except Warp (Kris quits it, then a run retires it and clears the last drift, `~/.warp/settings.toml`) and the Dock (follows TOWER-INSTALL); doctor 5, the extra one the accepted Tower Assistant Dock path · with Kris.
 - stage3 (run `chezmoi`, machine) running: targeted Rig applies of `.sh`/`.zsh` handlers and Dock on terra (HOLD-LIFT a)).
