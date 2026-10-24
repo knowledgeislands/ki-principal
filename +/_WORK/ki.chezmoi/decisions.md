@@ -128,3 +128,9 @@ Read-back: at 17:21 `chezmoi status` on terra showed only `R patch_codexbar_conf
 Kris: "I want you to apply the Codex bar settings, which I think you're now doing anyway." "Defuddled isn't on hold. I want you to put that in place on Terra now, and obviously it'll need putting on place on whenever we also do the same thing on Sol, but it should happen through the rig process anyway." "On the cloud code link handler, is that something we can just delete and therefore it will recreate it with the correct version of it? Does cloud code still use this, for example, is this a legacy leftover?"
 
 Read-back: CODEXBAR-PATCH is confirmed. DEFUDDLE-INSTALL is released from the hold. Defuddle is declared through Rig, selected for both Macs and installed on terra now; sol gets it through Rig in the sol pass. The URL-handler message is a question only. A read-only run finds out whether current Claude Code still uses the handler and whether deleting it makes Claude Code recreate it. Nothing is deleted until Kris answers.
+
+## URL-HANDLER - 24 October 2026, 17:35 BST (interactive)
+
+Kris chose: "Let it self-repair, then check (recommended, high confidence)".
+
+Read-back: the helper is current, not legacy: Claude Code 2.1.308 uses it for `claude-cli://` links and rebuilds a stale one itself after the first prompt in a new interactive session. Nothing is deleted. A worker reads the effective Claude Code settings for anything that blocks deep-link registration, such as `disableDeepLinkRegistration` or a 24-hour deferral. If a setting blocks it, the worker asks Kris before changing anything. Otherwise it checks the helper after Kris's next new Claude Code session.
