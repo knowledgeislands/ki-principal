@@ -12,13 +12,13 @@ method_read: eff6163b
 
 ## Now
 
-- 21:39 BST: re-bootstrapped on sol; ki-principal and the harness level, tools-ki left until terra pushes fold-tools-ki.
-- wow-restart-consolidate is consolidating RESTART-ON-SOL and the method lines into one prioritised list.
+- 21:48 BST: wow-restart-consolidate received; its prioritised list is in restart-consolidate.report.md and its eight queries are in queries.md.
+- wow-restart-blind (Codex) is blind-reviewing THREAD-RENAME, COORD-COMMANDS and THEME-CLOSE.
 
 ## Next steps
 
-- Coordinator: receive the list, copy its queries into queries.md, then dispose of the queue lines it covers.
-- Kris: DRAIN-END and SORT-ARM in queries.md (also folded into the list).
+- Coordinator: on the review, settle those three confidences and send the list to Kris; then dispose of the queue lines it covers.
+- Recommended first launches once Kris agrees: tending-fold (design notes), coord-standard (after the area 1 answers), model-shape (design brief).
 
 ## Held
 
