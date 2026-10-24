@@ -112,3 +112,7 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 ## 2026-10-24 17:15 BST - QUERIES-POSTED-FIRST
 
 - QUERIES-POSTED-FIRST (Kris, 24 October): "when I asked to go through the queries interactively, it's important that before you start those interactive ones, you also post them in full into the thread as well. That way I can see them, because otherwise I lose them when I submit my responses." This thread follows it from now on. It goes to ki.ways-of-working, through the RESTART-ON-SOL line, for the INTERACTIVE-QUERIES rule.
+
+## 2026-10-24 17:16 BST - TENDING-XDG-STATE
+
+- TENDING-XDG-STATE (Kris, 24 October): "Another thing for tending is that we need to make sure that things like the XDG state is also considered and reviewed." Carried to ki.ways-of-working's Tending area through the RESTART-ON-SOL line.

@@ -9,6 +9,7 @@
     1. The coordination standard: SUMMARY-SINCE-MARK, SUMMARY-OUTSTANDING, COORD-COMMANDS, SOP-PROJECT-CARE, SINGLE-THREAD, INTERACTIVE-QUERIES, COORDINATOR-HOST (which conflicts with the rule that no package names a host), the Work Process line on secondary States of play, COORD2-RUBRIC, `ki agent send`, CENTRAL-TICK and DRAIN-END.
     1a. QUERIES-POSTED-FIRST, to go with INTERACTIVE-QUERIES. Kris, 24 October: "before you start those interactive ones, you also post them in full into the thread as well. That way I can see them, because otherwise I lose them when I submit my responses."
     2. Tending: METHOD, folding in TENDING-ROUND-2, TENDING-GUIDANCE-OVERLAP and TENDING-SIZES. The TENDING-ROADMAP and working-area checks are already added.
+    2a. TENDING-XDG-STATE. Kris, 24 October: "we need to make sure that things like the XDG state is also considered and reviewed." Machine-local state outside the repositories, for example `~/.local/state/ki/agents/` run folders and reports, belongs in Tending's checks alongside the working areas.
     3. Roadmap and record shape: UNATTENDED-AND-DUE-DATES, WORK-STATUS-FORM, MOD-LEDGER and SORT-ARM. CLI-FIELDS stays held.
     4. Initiatives to themes: INITIATIVES-RESIDUE and THEME-REGISTRY-ENFORCE.
     5. Run rules: OP-CACHE-RULE, CF-UNIFORM and DIAGRAM-PRIVATE-CITATIONS.
