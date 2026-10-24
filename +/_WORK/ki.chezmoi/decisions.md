@@ -134,3 +134,9 @@ Read-back: CODEXBAR-PATCH is confirmed. DEFUDDLE-INSTALL is released from the ho
 Kris chose: "Let it self-repair, then check (recommended, high confidence)".
 
 Read-back: the helper is current, not legacy: Claude Code 2.1.308 uses it for `claude-cli://` links and rebuilds a stale one itself after the first prompt in a new interactive session. Nothing is deleted. A worker reads the effective Claude Code settings for anything that blocks deep-link registration, such as `disableDeepLinkRegistration` or a 24-hour deferral. If a setting blocks it, the worker asks Kris before changing anything. Otherwise it checks the helper after Kris's next new Claude Code session.
+
+## DEFUDDLE-SELF - 24 October 2026, 17:56 BST
+
+Kris: "I've installed the defuddle myself directly, so the rig should just pass, because it already exists."
+
+Read-back: Defuddle is already on terra, installed by Kris. defuddle-terra-2 still declares it in Rig for both Macs. It then confirms that Rig recognises the existing install with no reinstall (the apply plans nothing) and that the version is at least 0.19.5. It does not download or reinstall anything.
