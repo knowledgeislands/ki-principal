@@ -2,6 +2,7 @@
 
 ## Open
 
+- VA-TOKEN-SEQUENCE (reviewed, high on sequence): a) one chezmoi-owned window: a run resolves the live permission ids, saves the before-policy and tests Access without Groups Write (else 43 groups); Kris rolls the token in the dashboard and stores it in the same 1Password item; the run verifies the new value, PUTs the variant, smoke-tests R2, Workers deploy, Observability and Access, restores on failure, notifies VA; b) PUT now, roll later; c) defer to the wider user-token tidy · Kris.
 - sol: HEADROOM-OK (high): Kris runs `claude -p "Reply with exactly: HEADROOM-OK"` in a new sol tab; on success the backup is deleted, on failure restored · Kris.
 - FIREWALL-REAPPLY: Kris chose a) (00:47 BST); run firewall-apply.
 - Not raised: CORE-SET-COMMENTS (stays in the worksheet).
