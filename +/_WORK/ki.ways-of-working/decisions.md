@@ -134,3 +134,9 @@ Taken as: `mgit repair` should repair by default, with `--dry-run`/`-n` to previ
 Kris: "I'm really happy for you to get on with this and do get rid of the - - apply. Also, can we look and see where we're using this dry run consistently?"
 
 Taken as: this work makes the `mgit repair` change itself rather than leaving it with ki.tools-burndown, so the MGIT-REPAIR-APPLY line is withdrawn from its queue. `repair` writes by default, `--apply` goes, `--dry-run`/`-n` previews; committed and pushed under the 02:10 push grant. A read-only survey reports how the KI command-line tools preview and write today, and proposes one convention; nothing changes from it until Kris decides.
+
+## 2026-10-24 21:39 BST - restart on sol taken
+
+Kris: "Re-bootstrap as ki.ways-of-working under ki-coordination. First bring sol level ... Leave tools-ki until terra's fold-tools-ki run has pushed. Then take the RESTART-ON-SOL line at the top of your messages.md, and report in three lines."
+
+Taken as: ki-principal rebased onto origin and the harness already level on sol; tools-ki left alone. RESTART-ON-SOL goes to one read-only run, wow-restart-consolidate, which returns the prioritised list and its queries; no standard changes without Kris's approval, nothing sent back to source territories. The line stays at the top of the queue until the list is received.
