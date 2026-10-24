@@ -2,7 +2,7 @@
 
 ## Open
 
-### FILESIDE-TAGCEPTION: keep or remove (rest of TERRA-REMOVALS settled 09:04)
+### FILESIDE-TAGCEPTION: keep or remove (rest of TERRA-REMOVALS settled 09:03)
 
 - terra: Kris runs `brew uses --installed uv; brew uses --installed python@3.10; brew uninstall uv python@3.10` and moves Fileside, Tagception, Webex and OneNote to the Bin. Options: a) (recommended, high) do both, say "removals done", a run ticks them; b) later.
 
