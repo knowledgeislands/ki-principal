@@ -1,6 +1,6 @@
 ---
 note_type: streams/design
-updated: 2026-10-24T07:23:00Z
+updated: 2026-10-24T07:50:00Z
 author: Written with Claude
 ---
 
@@ -70,10 +70,10 @@ The PMO track is worked bottom up, so that what is in flight is settled before t
 
 ### Level 1: work packages
 
-- **Purpose.** Check work in flight or dispatched. A package is an active piece of work, so there should be one open package for every open Project, and nothing in a package that is really deferred work.
+- **Purpose.** Check work in flight or dispatched. Every active Project has one work package, on hold included, and a planned Project has none: its planning, and any message meant for it, goes through State of play. Nothing in a package should be really deferred work.
 - **Inputs.** Every package's five files under `+/_WORK/`, and the registry's Project lifecycles.
-- **Typical questions.** Does each open Project have exactly one package, and does each package's Project exist? Does `state.md` match the package's own latest open or release line? Is any line deferred work, a duplicate of a record or of another package's line, already done, or waiting for a package that does not exist?
-- **Produces.** Trims, each made by the package's own owner, and items that leave a package as records or ideas.
+- **Typical questions.** Does each active Project have exactly one package, does each package's Project exist, and does any planned Project have a package it should not? Does `state.md` match the package's own latest open or release line? Is any line deferred work, a duplicate of a record or of another package's line, already done, or waiting for a package that does not exist?
+- **Produces.** Trims, each made by the package's own owner, and items that leave a package as records or ideas. Churn lives here, under the work, so that Streams stays stable.
 
 ### Level 2: roadmap records
 
@@ -86,7 +86,7 @@ The PMO track is worked bottom up, so that what is in flight is settled before t
 
 - **Purpose.** Check that each Project is a finite outcome whose records cover it.
 - **Inputs.** The Project notes and the records that name each Project.
-- **Typical questions.** Is every known part of the Project's outcome represented by a record or by work in flight? Is the description clear and distinct from its neighbours? Is the Project near its outcome, so that a close-out assessment is due?
+- **Typical questions.** Is every known part of the Project's outcome represented by a record or by work in flight? Is the description clear and distinct from its neighbours? Is the Project near its outcome, so that a close-out assessment is due? Has a planned Project become active, so that it now needs a package?
 - **Produces.** Record candidates for gaps in an outcome, ideas in the Project's Notes, and description fixes.
 
 ### Level 4: themes
@@ -100,7 +100,7 @@ The PMO track is worked bottom up, so that what is in flight is settled before t
 
 - **Purpose.** Judge the shape of the whole: whether the territory has the themes and Projects it needs.
 - **Inputs.** Levels 1 to 4 of both tracks.
-- **Typical questions.** Does the territory need more themes? Should any theme or Project close or merge? Does a planned Project need a package yet? Are the Project descriptions clear and distinct across the registry?
+- **Typical questions.** Does the territory need more themes? Should any theme or Project close or merge? Is State of play carrying the planning of each planned Project, with no messages left on a Project nobody is maintaining? Are the Project descriptions clear and distinct across the registry?
 - **Produces.** Queries for Kris, each with a recommended option; nothing is opened, closed or renamed without Kris.
 
 ## The focus rule
@@ -129,7 +129,7 @@ The pioneer run found checks that were judged by hand but have a clear yes or no
 - A member repository's record names a Project or theme that does not resolve in the Capital's registry. The Capital's own audit cannot see members' records.
 - A package line names a package that does not exist.
 - A package's `state.md` disagrees with its own latest open or release line.
-- An open Project has no package, or a package's Project is not in the registry.
+- An active Project has no package, a planned Project has one, or a package's Project is not in the registry.
 - A record is done but open, because its subject no longer exists or its acceptance sits only in a package line.
 - A link to a pruned record could be pinned to its last revision.
 - A repository's previous names still appear in its tracked files.
@@ -153,7 +153,7 @@ The run covered the Capital, va-principal, and three members: apps-vallearmonia.
 
 ## Where it came from
 
-Kris, 24 October 2026, 07:57 BST: "there's four levels in a structural track ... I'm not looking to put any tooling in place for those ... make sure that we preserve this track concept when we hand it off". And of the PMO track: "the focus on all these is not to create more work". At 08:18 BST Kris named it: "The key thing is the process and the alignment and the continual kind of I guess it's like gardening of the knowledge, right? Tending of the knowledge."
+Kris, 24 October 2026, 07:57 BST: "there's four levels in a structural track ... I'm not looking to put any tooling in place for those ... make sure that we preserve this track concept when we hand it off". And of the PMO track: "the focus on all these is not to create more work". At 08:18 BST Kris named it: "The key thing is the process and the alignment and the continual kind of I guess it's like gardening of the knowledge, right? Tending of the knowledge." At 08:42 BST Kris set the package rule: "maybe we only need to do work packages for every active project", with a planned Project's planning done "through the state of play", because "we don't get too much churn under streams and ... any churn is really under the work".
 
 This note supersedes the earlier [territory-review draft](/Users/krisbrown/workspaces/valle-armonia/va-principal/+/_WORK/va/design/territory-review.md) in va-principal. Kris's 07:57 "no tooling" replaces that draft's proposed `ki territory` audit and its `ki-work-package` rubric item; the draft's AUDIT and CONFORM framing survives as the territory level of the structural track.
 
