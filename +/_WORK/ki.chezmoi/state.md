@@ -12,7 +12,7 @@ method_read: beb56729
 
 ## Now
 
-- Running on sol: mcp-restart-3 restarts mcporter onto the new inventory; tower-sign creates sol's signing identity and installs Tower Assistant 2.1, then the Dock; With Kris: firewall re-apply at terra.
+- mcporter restarted on sol and verified (02:25); WhatsApp MCP fails discovery, pre-existing. Running on sol: tower-sign creates sol's signing identity and installs Tower Assistant 2.1, then the Dock; With Kris: firewall re-apply at terra.
 - Running on sol: chezmoi-sync commits warp-retire's cleanup, rebases onto terra's commits, gates, pushes chezmoi and harness, applies the Warp cleanup targets. With Kris: WARP-CONTAINER and WARP-HANDLER (Finder steps on sol).
 - Sol ([KB-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-105-bring-sol-level-with-terra.md)): level except Warp (Kris quits it, then a run retires it and clears the last drift, `~/.warp/settings.toml`) and the Dock (follows TOWER-INSTALL); doctor 5, the extra one the accepted Tower Assistant Dock path · with Kris.
 - stage3 (run `chezmoi`, machine) running: targeted Rig applies of `.sh`/`.zsh` handlers and Dock on terra (HOLD-LIFT a)).
