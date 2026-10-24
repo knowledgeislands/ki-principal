@@ -13,7 +13,7 @@ method_read: beb56729
 ## Now
 
 - Running on sol: rend-app finds and installs RendApp (Kris 01:41 BST).
-- Running on sol: tower-game installs The Tower from the App Store (Kris 01:37 BST).
+- Running on sol: tower-decl corrects The Tower's declared path (`/Applications/TheTower.app`, installed by tower-game) and restores `chezmoi status`.
 - Running on sol: sol-tower-warp (Warp retirement, The Tower, RendApp, Tower Assistant 2.1, Dock) waits on WARP-CONTAINER, TOWER-SIGNING and TOWER-SOURCES · with Kris.
 - Sol ([KB-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-105-bring-sol-level-with-terra.md)): level except Warp (Kris quits it, then a run retires it and clears the last drift, `~/.warp/settings.toml`) and the Dock (follows TOWER-INSTALL); doctor 5, the extra one the accepted Tower Assistant Dock path · with Kris.
 - stage3 (run `chezmoi`, machine) running: targeted Rig applies of `.sh`/`.zsh` handlers and Dock on terra (HOLD-LIFT a)).
