@@ -230,3 +230,9 @@ Read-back: option c. Orca stays at Trial and is selected on both terra (laptop) 
 Kris, verbatim (speech-to-text): "Okay, yeah, this is hold for now then, because this one is running on terror. I think that's another thing that I think coordination teams should use a hostname to understand who they're running on. Presumably, they do that already, but if that's not explicit in the skill usage of it, so that you can apply if there's things targeted to particular machines or categories of machines, then we should deal with that. But obviously that's one to path to the ways of working rather than deal with it yourself."
 
 Read-back: option a, hold now; the sol pass waits for a session on sol. The coordinator-host idea is routed to ki.ways-of-working as COORDINATOR-HOST, not handled here.
+
+## SYNC - 24 October 2026, 15:57 BST
+
+Kris, verbatim: "Oh, I forgot to check. We just need to make sure that we have pulled and pushed and that we've done any drift that needs to be done." then "Then take a mark as well."
+
+Read-back: push is authorised now for this work's repositories (chezmoi, tools-rig, ki-agentic-harness, ki-principal, personal-principal), after pulling; pending chezmoi drift on terra from this work is applied (scoped); then the mark is struck.
