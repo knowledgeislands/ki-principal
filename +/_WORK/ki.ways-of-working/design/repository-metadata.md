@@ -1,14 +1,14 @@
 ---
 note_type: streams/design
-updated: 2026-10-24T16:46:00Z
+updated: 2026-10-24T16:55:00Z
 author: Written with Claude
 ---
 
 # Repository metadata
 
-**Status:** a nascent area of Ways of working, being pioneered on the Valle Armonia territory. Other territory threads, personal-principal first, are invited to run it on their own territory and add their findings under [Other territories](#other-territories). Nothing here is a standard yet; the shape is expected to change as runs report back. Two of its questions are settled: Kris decided TAG-FORM and HOMEPAGE-SOURCE on 24 October, under [Decisions](#decisions).
+**Status:** a nascent area of Ways of working, being pioneered on the Valle Armonia territory. Other territory threads, personal-principal first, are invited to run it on their own territory and add their findings under [Other territories](#other-territories). Nothing here is a standard yet; the shape is expected to change as runs report back. Three of its questions are settled: Kris decided TAG-FORM, HOMEPAGE-SOURCE and KI-CODE on 24 October, under [Decisions](#decisions).
 
-**Owner:** Kris Brown · **Owning repository:** knowledgeislands/ki-principal · **Owning work:** `ki.ways-of-working` · **Date:** 2026-10-24 · **Pioneered by:** [VA > SoP](/Users/krisbrown/workspaces/valle-armonia/va-principal/+/_WORK/va/work.md), whose [decisions log](/Users/krisbrown/workspaces/valle-armonia/va-principal/+/_WORK/va/decisions.md) holds Kris's words of 24 October from 16:46 BST, under TAG-APPLY, TAG-ROUTE, TAG-FORM, HOMEPAGE-SOURCE and PROPOSALS
+**Owner:** Kris Brown · **Owning repository:** knowledgeislands/ki-principal · **Owning work:** `ki.ways-of-working` · **Date:** 2026-10-24 · **Pioneered by:** [VA > SoP](/Users/krisbrown/workspaces/valle-armonia/va-principal/+/_WORK/va/work.md), whose [decisions log](/Users/krisbrown/workspaces/valle-armonia/va-principal/+/_WORK/va/decisions.md) holds Kris's words of 24 October from 16:46 BST, under TAG-APPLY, TAG-ROUTE, TAG-FORM, HOMEPAGE-SOURCE, KI-CODE and PROPOSALS
 
 Repository metadata is what a repository says about itself to the outside: its description, homepage, topics, visibility, licence and which GitHub features it uses. This note proposes that every Knowledge Islands repository says the same thing on every surface that carries it, and that its topics include a small controlled taxonomy that `ki-repo` can derive and check.
 
@@ -71,7 +71,7 @@ Kris, 24 October 16:46 BST: "we should have tags which meet a particular categor
 
 There is no organisation topic. GitHub's `org:` search qualifier already covers ownership, and a territory can span several organisations: Humans Not Robots spans four.
 
-The facet vocabulary belongs to `ki-repo` alone; a territory adds its own types under its own code, as [Territory tags](#territory-tags) sets out, never a new `ki-` facet.
+The facet vocabulary belongs to `ki-repo` alone; a territory adds its own types under its own code, as [Territory tags](#territory-tags) sets out, never a new facet. Knowledge Islands' own types share the `ki-` namespace under KI-CODE but never reuse a facet name.
 
 ### Form
 
@@ -108,7 +108,7 @@ No existing `.ki.toml` field supplies a single-word code reliably. Across the ei
 
 The proposal is a new optional Capital key, `territory_code`, in `[skills.ki-repo]` beside `territory_prefix`: a single lower-case word matching `^[a-z][a-z0-9]*$`, required once the Capital declares any tag type, and governed by TERR-2 like the other territory keys. Valle Armonia would declare `territory_code = "va"`. This keeps the earlier advice intact: the code is declared, never derived from the harness prefix, even where, as in Valle Armonia, the declared value happens to equal it. `territory_prefix` keeps supplying the `ki-territory-` value.
 
-Two values need care. Knowledge Islands' natural code is `ki`, which would put its territory types in the namespace `ki-repo` reserves; its Capital must therefore either declare a different code or never declare a type that `ki-repo` uses or may use, and the standard should say which. And codes must be unique across registered Capitals, as territory handles already are.
+Knowledge Islands keeps `ki` as its `territory_code`, settled under KI-CODE: `ki-repo` mandates the universal facets on every Knowledge Islands repository, and Knowledge Islands Principal, as a Capital, may define further `ki-<type>-<value>` tags like any other Capital, provided none of its declared types reuses a facet name `ki-repo` mandates: `territory`, `shape` or `role`. Codes must be unique across registered Capitals, as territory handles already are.
 
 ### Declaring the types
 
@@ -131,7 +131,7 @@ A value is a slug matching `^[a-z0-9]+(-[a-z0-9]+)*$` and may hold hyphens. The 
 
 ### How `ki-repo` checks them
 
-1. **Declaration:** on the Capital, `territory_code` and `territory_tag_types` are well formed, the code is unique across registered Capitals, and no type reuses a `ki-repo` facet; elsewhere, neither key appears.
+1. **Declaration:** on the Capital, `territory_code` and `territory_tag_types` are well formed, the code is unique across registered Capitals, and no type reuses a facet name `ki-repo` mandates, `territory`, `shape` or `role`, which matters most for Knowledge Islands, whose code is `ki`; elsewhere, neither key appears.
 2. **Membership:** each member declares exactly one value for every type its Capital declares, and no type its Capital does not. A repository whose Capital is inaccessible reports its territory tags as unresolved.
 3. **Mirror:** the GitHub topics hold exactly the declared territory tags, with missing, stale, duplicated and undeclared `<territory-code>-` topics reported, and each topic within GitHub's 50-character limit.
 4. **Keywords:** no `keywords` entry starts with `ki-` or with the territory's code and a hyphen.
@@ -198,16 +198,17 @@ The description changes are wording only and do not depend on the taxonomy. Whic
 
 Kris, 24 October 2026, 16:46 BST, asked for "a table that looks at that the repos so we can see them in the different kind of groups of repositories that we have, and if they're consistent with each other, or they need improvements, such as no tags", and wondered "if there's a way of tagging things with some kind of prefix, so it could be something like shape:knowledge-base or something shape:kb". The repo-align run produced the survey.
 
-On TAG-APPLY Kris answered "the right way to do it is not to make the changes right now", and on TAG-ROUTE asked for "a prompt to deal with that, and I'll pass it back to the state of play thread in Knowledge Islands principal itself". On TAG-FORM Kris said "I like what you've suggested, but just to maybe do a little thinking on that one, maybe ask for some second opinion", which the tag-proposal run gave. Kris then settled TAG-FORM and HOMEPAGE-SOURCE, under [Decisions](#decisions).
+On TAG-APPLY Kris answered "the right way to do it is not to make the changes right now", and on TAG-ROUTE asked for "a prompt to deal with that, and I'll pass it back to the state of play thread in Knowledge Islands principal itself". On TAG-FORM Kris said "I like what you've suggested, but just to maybe do a little thinking on that one, maybe ask for some second opinion", which the tag-proposal run gave. Kris then settled TAG-FORM, HOMEPAGE-SOURCE and KI-CODE, under [Decisions](#decisions).
 
 Under PROPOSALS Kris set the scope of this note: "In the same way that we put a proposal together around tending, I suggest that we put a proposal together around these two aspects", one being repository consistency, "the topics and tagging ... and the properties", which "extends into the package.json in those repositories that have one as much as it does into the GitHub values". The other is the [findings](findings.md) proposal, whose REPO-ALIGN finding is homed here.
 
 ## Decisions
 
-Both settled by Kris in VA > SoP on 24 October 2026, and folded into this note above.
+All three settled by Kris in VA > SoP on 24 October 2026, and folded into this note above.
 
 - **TAG-FORM, settled:** "a) Hyphen-only": `ki-territory-<prefix>`, `ki-shape-<shape>` and `ki-role-capital` on Capitals only, beside bare `knowledge-islands`, with no organisation tag; the `ki-` facets mandated by `ki-repo`, and a principal island free to declare further expected tags as `<territory-code>-<type>-<value>`, each type a single word. Kris's words are under [Form](#form).
 - **HOMEPAGE-SOURCE, settled:** "a) .ki.toml": an optional `homepage` in `.ki.toml`, mirrored to GitHub and to `package.json` where one exists, with the independent review's four cautions; `.ki.toml` is the master for description, tags and homepage. Kris's words and the four cautions are under [Properties in scope](#properties-in-scope).
+- **KI-CODE, settled:** Knowledge Islands keeps `ki` as its `territory_code`. Kris: "I don't think that's necessary. I think it's absolutely fine for it to have any additional KI-things that are mandated by its capital. It's the skill which will mandate the KI ones that are mandatory for every KI repo, right?" `ki-repo` mandates the universal facets, `knowledge-islands`, `ki-territory-*`, `ki-shape-*` and `ki-role-*`, on every Knowledge Islands repository; Knowledge Islands Principal, as a Capital, may define further `ki-<type>-<value>` tags like any other Capital; its declared types must not reuse a facet name `ki-repo` mandates, `territory`, `shape` or `role`, and the audit checks that. Folded in under [The territory code](#the-territory-code).
 
 ## Other territories
 
