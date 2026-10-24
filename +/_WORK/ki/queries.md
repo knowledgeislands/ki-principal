@@ -18,3 +18,10 @@ None.
   - PRODUCT-RECORDS - capture harness records for Always Use HTTPS and the `node_modules` rule (FILES-6). Recommended a) (high): one bounded capture run.
   - HARNESS-ORIENTATION - harness root orientation in `AGENTS.md`. Recommended a) (medium): a message to ki.baseline-rollout.
   - SANCTUARY-STAGE5 - Knowledge Islands takes stage 5. Recommended a) (medium): agree now, and set its Project and repository at the stage 4 handover.
+- From skills-assessment (24 October), input for RESTART-ON-SOL. The matrix, gaps and proposed baseline are in [skills-assessment.report.md](skills-assessment.report.md). Medium-confidence queries are not yet blind-reviewed:
+  - BASELINE - adopt one Capital baseline: the skills, configuration, structure and the `AGENTS.md`/`CLAUDE.md` split, recorded in `ki-repo-kb-principal`. Recommended a) (medium).
+  - HARNESS-LINK - list each territory harness in its Capital's `[repo].harnesses`. Recommended a) (medium).
+  - GRANOLA - declare `ki-acquire-granola` where it is used and retire the local commands in hnr and legal. Recommended a) (medium).
+  - LEGAL-GUIDANCE - move legal's mandates from `CLAUDE.md` into `AGENTS.md` and promote its disciplines into skills. Recommended a) (medium).
+  - HNR-GUIDANCE - rewrite hnr's `AGENTS.md` and its stale Headroom block. Recommended a) (high).
+  - THEME-REGISTRY - tmx, si and legal follow their own records; er is asked to capture one. Recommended a) (high).
