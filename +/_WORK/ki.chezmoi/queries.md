@@ -2,7 +2,6 @@
 
 ## Open
 
-- WARP-CONTAINER (sol-tower-warp, high): Warp's `~/Library/Group Containers/2BBY89MBSN.dev.warp` is privacy-protected, so it cannot be backed up before the zap; everything else is backed up. a) retire Warp without zapping that container and leave it in place (recommended); b) Kris grants the run Full Disk Access so it can be backed up and zapped. With Kris 01:35.
 - TOWER-SIGNING (sol-tower-warp, high): sol has no Tower Assistant signing identity, so the 2.1 build stops. a) create a new sol identity with `build.sh create-identity` (keychain prompt), then build, install and grant Accessibility (recommended); b) Kris exports terra's identity and imports it on sol first. With Kris 01:35.
 - MCP-RESTART (sol-apply-3, high, Needs: decision): the running mcporter daemon still has the old inventory. a) run `~/bin/launchd/mcporter_restart` now (recommended); b) leave until next login. Open sessions may need to reconnect. With Kris 02:08.
 - NOTION-AUTH (sol-apply-3, Needs: action, Kris): hosted Notion needs `mcporter auth notion` (browser sign-in) before use. With Kris 02:08.
