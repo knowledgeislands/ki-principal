@@ -155,7 +155,7 @@ Each "Uncertain" note flags a row Kris should check before confirming it. In the
 
 | Record | Status | Size | Kind | Reason |
 | --- | --- | --- | --- | --- |
-| [KB-MIDNIGHT-RIG-SITE-001](/Users/krisbrown/workspaces/personal/apps-rig.midnight.ninja/docs/roadmap/KB-MIDNIGHT-RIG-SITE-001-show-hosts-per-tool.md) | awaiting-review/now | `m` | has `deliver` | Five planned steps on one page and its data. |
+| [KB-MIDNIGHT-RIG-SITE-001 (pruned)](https://github.com/krisb/apps-rig.midnight.ninja/blob/74af103b9419c3367dd34103b36b5f738af32fdc/docs/roadmap/KB-MIDNIGHT-RIG-SITE-001-show-hosts-per-tool.md) | awaiting-review/now | `m` | has `deliver` | Five planned steps on one page and its data. |
 
 ### [apps-tower.midnight.ninja](/Users/krisbrown/workspaces/personal/apps-tower.midnight.ninja)
 
