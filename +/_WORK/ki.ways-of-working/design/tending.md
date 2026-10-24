@@ -1,6 +1,6 @@
 ---
 note_type: streams/design
-updated: 2026-10-24T07:50:00Z
+updated: 2026-10-24T11:55:00Z
 author: Written with Claude
 ---
 
@@ -54,14 +54,14 @@ Captures move upwards:
 
 - **Purpose.** A deeper, always judgemental review of whether the repository meets its needs and fulfils its place in the wider estate. It runs on no rubric.
 - **Inputs.** The `ki-repo` [REVIEW procedure](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/keystone/ki-repo/references/mode-review.md) and its lenses: purpose and stability, governance, naming and identity, documentation and knowledge, necessity, structure, contracts, human use, security and data, dependencies, performance and release, duplication, tests, scripts and operations, and language.
-- **Typical questions.** Is the baseline recorded rather than held in memory? Does every work record exist and does its status match reality? Have renames reached every reference? Does every cross-reference resolve? Does the declared skill set cover every capability used?
+- **Typical questions.** Is the baseline recorded rather than held in memory? Does every work record exist and does its status match reality? Have renames reached every reference? Does every cross-reference resolve? Does the declared skill set cover every capability used? Have the working areas been cleaned up: is the `+/` inbox triaged, with no hand-in left stale, and is each `+/_WORK/<id>/` folder tidied under the `ki-work-package` [tidying rules](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md#tidying-the-work-folder)?
 - **Produces.** Fixes made now, record candidates for bigger work, ideas, and close candidates for Kris. Lenses that do not apply are skipped without comment; the procedure's full output shape is not required.
 
 ### Level 4: master territory checklist
 
 - **Purpose.** The same deep, judgemental review at territory level: what no single repository can see. It is State of play's own work, on top of each repository's levels 1 to 3.
 - **Inputs.** Each repository's level 1 to 3 results, the Capital's Charter, Known Lands and registry, and every work package in the territory.
-- **Typical questions.** Does every member's record name a Project or theme that resolves in the Capital's registry? Does each record sit in the repository that delivers its outcome? Do the Charter and Known Lands agree on the territory's members? Is the same fix waiting in more than one package? Are the territory's repositories on one baseline, such as maturity, hooks and toolchain versions?
+- **Typical questions.** Does every member's record name a Project or theme that resolves in the Capital's registry? Does each record sit in the repository that delivers its outcome? Do the Charter and Known Lands agree on the territory's members? Is the same fix waiting in more than one package? Are the territory's repositories on one baseline, such as maturity, hooks and toolchain versions? Have the working areas been cleaned up across every repository in the territory, each `+/` inbox triaged and each work folder tidied under the same [tidying rules](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md#tidying-the-work-folder)?
 - **Produces.** Territory-wide findings, each with a disposition, and messages to the packages that own them. It reads levels 1 to 3; it does not repeat them.
 
 ## PMO track
