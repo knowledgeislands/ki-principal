@@ -104,3 +104,7 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 - VA input (Kris, 24 October): "you can just take into account what was passed on from Valley Armonia, but you don't have to do what it says." The va-consolidate note is input only.
 - SOURCE-AGNOSTIC (Kris, 24 October): "we don't need to link or send information back to those things unless it's expressly the case ... when we consolidate things, it doesn't really mean or matter too much where it came from. If we're accepting it, we're accepting it."
 - SKILLS-ASSESSMENT (Kris, 24 October): "give me a quick assessment of the skills that are used across the eight territories so we can see where we've got consistency, are there any gaps across them? Fundamentally, we need to make sure that the principal repositories, which drive a lot of the direction essentially as the capital of each of the territories, has got consistent skills and behaviours." Read-only run skills-assessment.
+
+## 2026-10-24 17:12 BST - REPO-METADATA routed
+
+- Kris passed on VA > SoP's request (TAG-ROUTE) to route `ki.ways-of-working/design/repository-metadata.md` "to the Project that will take its standard and checker changes into ki-repo; adoption comes before any repository is tagged, and TAG-FORM is still Kris's to settle". Routed to ki.baseline-rollout as a messages line. Its estate goal is that `ki repo audit --estate` passes, and it carries harness rollouts. ki.ways-of-working owns the work model, not repository standards. ki.estate-factorisation is taking no new units.
