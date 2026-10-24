@@ -1,7 +1,7 @@
 ---
 id: ki.chezmoi
-state: with-worker
-since: 2026-10-24T00:06:00Z
+state: with-supervisor
+since: 2026-10-24T00:35:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-22T23:20:00Z
@@ -13,7 +13,6 @@ method_read: beb56729
 ## Now
 
 - Running on sol: sol-tower-warp (Warp retirement, The Tower, RendApp, Tower Assistant 2.1, Dock) waits on WARP-CONTAINER, TOWER-SIGNING and TOWER-SOURCES · with Kris.
-- Running: mgit-repair-flag-3 commits and applies the retired `mgit repair --apply` fix (MGIT-REPAIR-APPLY).
 - Sol ([KB-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-105-bring-sol-level-with-terra.md)): level except Warp (Kris quits it, then a run retires it and clears the last drift, `~/.warp/settings.toml`) and the Dock (follows TOWER-INSTALL); doctor 5, the extra one the accepted Tower Assistant Dock path · with Kris.
 - stage3 (run `chezmoi`, machine) running: targeted Rig applies of `.sh`/`.zsh` handlers and Dock on terra (HOLD-LIFT a)).
 - orca-coexist done: Codex hooks coexist with Orca (`5bfaa32`), `config.toml` applied, nudge script retired (`c5776b9`); json-apply applies its helper.
