@@ -150,6 +150,18 @@ a) (recommended, confidence high - each choice is low-stakes and reversible) Kee
 
 b) Object to the ones you name.
 
+### LAUNCH-FIRST - start the first three units from the restart list
+
+**Context:** The restart list recommends tending-fold (design notes only: Tending round 2, the agent-memory overlap, XDG-state and other-territory sections, MOD ledger to 10), coord-standard (one harness change to the standard, skill, style and banner test, after the area 1 answers; THREAD-RENAME may go first) and model-shape (a design brief mapping the single State of play cascade, packages against threads, relationship metadata and host-targeted lines, returning its own queries).
+
+**Query:** Should tending-fold and model-shape start now, and coord-standard once the area 1 queries are answered?
+
+**Options:**
+
+a) (recommended, confidence high - tending-fold and model-shape change no standard, and coord-standard waits for the answers) Start tending-fold and model-shape now, coord-standard after the answers.
+
+b) Start only tending-fold for now.
+
 ## Parked
 
 - RIG-ATTENDED - Kris's attended Rig steps on sol and terra, commands in `/Users/krisbrown/.local/state/ki/agents/ways-of-working/wow-rig-attended-steps.report.md`; recommended a) CORE-069 on sol plus the look-only CORE-047 and CORE-062 checks first, CORE-068 and the live firewall rollout in a later sitting. Kris, 2026-10-22 02:26 BST: walk me through it in the morning. The tools-rig v0.8.0 tag waits on the same review gates (RIG-RELEASE-REVIEW-BOUNDARY a), 2026-10-23).
