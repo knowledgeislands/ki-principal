@@ -1,10 +1,13 @@
 ---
 id: ki.chezmoi
-state: handoff-to-supervisor
-since: 2026-10-24T01:48:00Z
+state: on-hold
+hold:
+  reason: paused
+  release: kb receives RIG-PER-MACHINE (sol pass handed to kb.regular.rig-sol); then rewrite the remit to the chezmoi approach
+since: 2026-10-24T18:56:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
-mark: 2026-10-24T01:11:00Z
+mark: 2026-10-24T18:54:18Z
 method_read: beb56729
 ---
 
@@ -12,61 +15,23 @@ method_read: beb56729
 
 ## Now
 
-- mcporter restarted on sol and verified (02:25); WhatsApp MCP fails discovery, pre-existing. Tower Assistant 2.1 installed on sol with its own signing identity, Accessibility and Dock done, doctor 4 (02:46); KB-DOTFILES-UE-106 updated and ready for acceptance. With Kris: firewall re-apply at terra.
-- Warp retired on sol; chezmoi and harness pushed and the Warp cleanup applied (02:26). Next on terra: pull both repositories, apply its Rend field. With Kris: WARP-CONTAINER and WARP-HANDLER (Finder steps on sol); Warp backups deleted after.
-- Sol ([KB-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-105-bring-sol-level-with-terra.md)): level except Warp (Kris quits it, then a run retires it and clears the last drift, `~/.warp/settings.toml`) and the Dock (follows TOWER-INSTALL); doctor 5, the extra one the accepted Tower Assistant Dock path · with Kris.
-- stage3 (run `chezmoi`, machine) running: targeted Rig applies of `.sh`/`.zsh` handlers and Dock on terra (HOLD-LIFT a)).
-- orca-coexist done: Codex hooks coexist with Orca (`5bfaa32`), `config.toml` applied, nudge script retired (`c5776b9`); json-apply applies its helper.
-- tower-path done: chezmoi `d47acf8` declares Tower Assistant at `/Applications` (unpushed, unapplied); TOWER-APPLY with Kris; terra still has 2.0 in `~/Applications`.
-- Scope: resumed for terra drift and terra-specific items only (Kris, after the 22 October drain); nothing is running.
-- Terra drift: resolved except `~/.codex/hooks.json` (ORCA-HOOKS) and `~/.codex/config.toml` (CODEX-CONFIG, held until ORCA-HOOKS) · with Kris.
-- HOLD-LIFT (reviewed, high): APPLY-PLAN stage 3, `rig apply` of the `.sh`/`.zsh` handlers and the Dock (broken Warp tile), waits on it; `.toml` stays held until [KI-TOOL-RIG-CORE-069](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md); terra `rig doctor` 6 · with Kris.
-- TERRA-REMOVALS ([KB-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-086-finish-software-alignment.md)): Kris is working through it at the screen, Homebrew Wrangler done · with Kris.
-- NUDGE-SIMPLIFY: retire `rig-tower-save-nudge` from the source · with Kris.
-- TOWER-PATH: kb.regular.site-tower's 22 October line in `messages.md` reinstates `/Applications/Tower Assistant.app` as the final home (Rig artefact, wrapper, Dock entry) · coordinator.
-- Tower Save Nudge leftovers: a possible old TCC grant to remove by hand · with Kris.
-- Claude Desktop relaunch to pick up the applied trust targets · with Kris.
-- VS Code territory layout A: the `ki` change is with ki.tools-burndown; the chezmoi sync follows its release · waiting on ki.tools-burndown.
-- `apps-sky.humansnotrobots.be` and `apps-snowflake.humansnotrobots.be` trust rests on another session's uncommitted `workspaces/humans-not-robots/dot_mgit.toml` · other session.
-- MGIT-EXTERNAL-MEMBER: fixed in tools-ki `1d199a77` on local main, not yet pushed.
-- Parked: ORCA-ADOPT, RADAR-DESIGN, RADAR-PUBLIC · with Kris.
-- [KB-DOTFILES-UE-090](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-090-close-rig-bring-up-gaps.md) and [KB-DOTFILES-UE-100](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-100-mcporter-daemon-child-leak.md): attended steps on terra and sol outstanding · with Kris.
-- Sol: not yet brought level with terra's 22 October changes (GitUp and Motion removal, Starship, Ghostty, Symbols Nerd Font, Warp retirement) or its own Rig drift (TOML handler, firewall ranges, UTM) · with Kris at sol.
+- terra: level with source at 18:07 BST (`chezmoi status` empty, Rig doctor 0 findings). drift-low applied the 7 low-risk targets; codexbar-fix (038d999) fixed the JSON helper and applied the CodexBar patch; Claude Code repaired its URL helper after Kris's Terminal session (afe3256); Defuddle 0.19.5, installed by Kris, is declared and adopted in Rig for both Macs (5723c99). UTM's stale Homebrew record was cleared with the App Store app and VMs verified unchanged (500d2d5, KB-DOTFILES-UE-086 B8a); Rig shows zero unmanaged items. terra is finished.
+- sol (from the sol session of 23-24 October, merged 24 October 20:50 BST): mcporter restarted on sol and verified (02:25); WhatsApp MCP fails discovery, pre-existing. Tower Assistant 2.1 installed on sol with its own signing identity, Accessibility and Dock done, doctor 4 (02:46); KB-DOTFILES-UE-106 updated and ready for acceptance. With Kris: firewall re-apply at terra.
+- sol: Warp retired on sol; chezmoi and harness pushed and the Warp cleanup applied (02:26). With Kris: WARP-CONTAINER and WARP-HANDLER (Finder steps on sol); Warp backups deleted after.
+- ON HOLD at Kris's 24 October, 15:55 BST instruction. No implementation is running; the remaining baseline pass waits for a session on sol.
+- terra: firewall v5 rehearsal and apply are complete; the last recorded Rig doctor has zero findings. Drift: four app-owned targets remain (see above).
+- Every machine-specific instruction starts with terra: or sol:.
 
 ## Next steps
 
-### Entries retained from 2026-10-21
-
-1. On terra, with Kris at the machine: finish the Tower Assistant cutover from chezmoi `1e60a82` under [Tower Assistant](/Users/krisbrown/.local/share/chezmoi/docs/guides/tools/tower-assistant.md): attended install, Accessibility grant, `rig doctor`, then remove the old Tower Save Nudge.app (still the only Tower app in `~/Applications`; the old LaunchAgent is gone). From TOWER-CUTOVER.
-2. On terra: pull chezmoi, then remove Shadowlab Spark with Kris at the machine: `rig doctor` before; scoped diff then apply of `~/.config/rig/conf.d/10-applications.toml` only; open Spark, Stop Spark Daemon, quit; check the cask receipt, then `brew uninstall --cask --zap spark-app`, `defaults delete com.xenonium.Spark`, and Kris removes `~/Library/Group Containers/3DT6DNJE39.com.xenonium.Spark`; verify bundle, cask, login item and helper absent, `rig doctor` after. Never touch readdle-spark or Spark Desktop.
-3. Attended steps for KB-DOTFILES-UE-090 and KB-DOTFILES-UE-100 on terra and sol, then their acceptance.
-
-- Reconciliation baseline (Decision 196, sol, 14:21 BST): [reconcile-2 report](/Users/krisbrown/.local/state/ki/agents/chezmoi/reconcile-2.report.md). Every checkout fetched and level except ki-principal (other sessions' unpushed work). Nine chezmoi drift targets: seven upstream source changes (three disabled scheduled jobs, the shared scheduled-agent library, the HNR triage wrapper and route-drift slot, six new HNR `.mgit.toml` members); Claude Desktop config live-edited plus fragment mismatch; Codex config fragment mismatch. `rig doctor` shows the known four only.
-- Trust: the declaration is complete and independent of VS Code workspaces; Claude Code and Claude Desktop match it, and Desktop's list held after reopening (Decisions 193, 195).
-- Delivered since the last hold: tools hooks in all five tools repositories, Shadowlab Spark removed from sol, KB-DOTFILES-UE-098 accepted with chezmoi declared settled.
-- Awaiting attended steps, then acceptance: KB-DOTFILES-UE-090, KB-DOTFILES-UE-100.
-
-### Next steps retained from 2026-10-21
-
-1. From the baseline: a run reviews the seven upstream targets as one change (scheduled jobs stay disabled) and the HNR membership additions, and inspects the Desktop and Codex fragment mismatches redacted; scoped `chezmoi diff` to Kris, then apply on his word.
-2. On terra, with Kris: pull chezmoi; scoped diff and apply of `~/.config/rig/conf.d/10-applications.toml`; Stop Spark Daemon and quit Shadowlab Spark; check the cask receipt, `brew uninstall --cask --zap spark-app`, `defaults delete com.xenonium.Spark`, Kris removes its group container; verify absent; `rig doctor` before and after. Never touch readdle-spark or Spark Desktop.
-3. Attended steps for KB-DOTFILES-UE-090 and KB-DOTFILES-UE-100, then their acceptance.
-4. homeless: TRUST-COMPLETE (Decision 187).
-
-### Entries retained from 2026-10-23
-
-1. HOLD-LIFT, then APPLY-PLAN stage 3 on terra; sol's Rig checked against terra's before its own lift.
-2. ORCA-HOOKS (Codex `hooks.json` as a `modify_`, Kris posts the Orca issue), then CODEX-CONFIG: Kris runs `chezmoi diff ~/.codex/config.toml` at the screen.
-3. TERRA-REMOVALS pass with Kris; NUDGE-SIMPLIFY.
-4. TOWER-PATH: act on the `messages.md` line and move the Rig artefact, wrapper and Dock entry to `/Applications`, stopping at the diff gate.
-5. On sol, with Kris there: GitUp and Motion removal, the Starship, Ghostty and font apply, Warp retirement, and the Rig drift items.
-6. Attended steps for KB-DOTFILES-UE-090 and KB-DOTFILES-UE-100, then their acceptance.
-7. homeless: TRUST-COMPLETE, to be recorded as a chezmoi Decision Record.
-8. VS Code chezmoi sync after ki.tools-burndown releases the layout.
-9. Parked until Kris takes them up: ORCA-ADOPT (Orca evaluation), RADAR-DESIGN, RADAR-PUBLIC.
+1. sol: resume the [sol-pass checklist](messages.md), checking the active Rig build and its hold before reviewed scoped applies under [KB-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-105-bring-sol-level-with-terra.md); complete the independent app/removal and health checks in [KB-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-086-finish-software-alignment.md). The firewall is a separate connection-critical pass under [KI-TOOL-RIG-CORE-047](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md), with an adapted v5 wrapper and an exact sol restore rehearsal before any policy write.
+2. sol: complete local unmanaged-file and software reviews under [KB-DOTFILES-UE-111](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-111-review-unmanaged-files.md) and [KB-DOTFILES-UE-112](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-112-review-workstation-software.md). Trial host selection is settled; Orca's remaining safety/comparison and per-pane questions stay in [KB-DOTFILES-UE-107](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-107-decide-orca-adoption.md), while radar implementation proposals stay in [KB-DOTFILES-UE-108](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-108-decide-tool-radar.md).
+3. sol: install Defuddle through Rig in the sol pass (declared for both Macs in 5723c99; terra done).
+4. sol: complete the remaining KB-DOTFILES-UE-086 checks (terra's B8a is done) under [KB-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-086-finish-software-alignment.md).
+5. homeless: TRUST-COMPLETE still needs its chezmoi Decision Record; keep the owner's complete-trust/no-folder-prompts direction in [decisions](decisions.md). Other retained authority: survey outcome unconfirmed, vega render held, Paperclip disabled, sol NordVPN undecided.
+6. Sync VS Code source after ki.tools-burndown delivers the [receiving layout message](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/messages.md). Retain the [Tower visual prompt](design/tower-assistant-claude-design-prompt.md) for its live apps-tower reference and the [take-stock retro](design/retro-2026-10-20.md) for ki.ways-of-working's live synthesis.
+7. Reconcile source/target drift and cross-host history through their owners before calling the baseline settled; [sync-close](/Users/krisbrown/.local/state/ki/agents/chezmoi/sync-close.report.md) holds the latest evidence and its unresolved SYNC-RECONCILE query.
 
 ## Held
 
-- Rig apply on sol - until its Rig is confirmed to match terra's; `.toml` handler on both - until KI-TOOL-RIG-CORE-069 is fixed (HOLD-LIFT a), 23 October).
-- Privacy and rationale audits - until the owner resumes them.
-- WhatsApp refresh (KB-DOTFILES-UE-035) - until Kris takes it up.
+- sol: Rig apply remains held until its checkout is checked against the reviewed build in [KB-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-105-bring-sol-level-with-terra.md); the sol .toml handler waits on [KI-TOOL-RIG-CORE-069](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md). Every apply still requires the scoped diff/review gate; this tidy lifts no hold.

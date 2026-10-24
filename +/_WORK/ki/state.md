@@ -1,9 +1,9 @@
 ---
 id: ki
-state: on-hold
-reason: take stock on ways of working
-release: Kris says resume
-since: 2026-10-20T01:05:08Z
+state: with-worker
+reason: null
+release: null
+since: 2026-10-24T17:23:00Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-10-24T19:29:10Z
@@ -14,7 +14,7 @@ method_read: f4d6c521
 
 ## Now
 
-- On hold since 02:05 BST on 20 October: take stock on ways of working; released when Kris says resume. Drained with nothing running; the overnight message watch is stopped.
+- With worker since 18:23 BST under FOLD-TO-MAIN: fold-harness, fold-tools-ki and fold-others fold every unmerged branch into main across Knowledge Islands and push. Next: receive, then Kris restarts on Sol from the RESTART-ON-SOL lines.
 - Overnight under OVERNIGHT: [KI-PRINCIPAL-GOV-035](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-GOV-035-turn-the-techne-programme-hold-into-a-focus-rule.md) accepted and [KI-PRINCIPAL-MOD-008](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-008-whole-philosophy-coherence-review.md) to next; ki.agent-host resumed; [KI-TOOL-RIG-CORE-048](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-048-signed-release-install-kind.md) to soon; [KI-TOOL-KI-CLI-125](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-125-ki-release-contract.md) reworded; ki.regular.registry-removal finished; PIN-LINKS, RIG-SCHEDULE-ENCODING and PKGLESS-GATE routed to their owners.
 - Parked in `queries.md`: CLI006-READY, CLI006-CONFIRM and PROJECT-CLOSE.
 - Retro for the take-stock: [design/retro-2026-10-20.md](design/retro-2026-10-20.md).
@@ -42,7 +42,7 @@ method_read: f4d6c521
 
 ## Next steps
 
-1. On resume: put the parked queries back; on Kris's answers to CLI006-READY and CLI006-CONFIRM, dispatch a ki-plan run for KI-TOOL-TECHNE-CLI-006 with the chosen confirmation design; on PROJECT-CLOSE, route the close-out to ki.estate-factorisation's owner as answered.
+1. RESTART-ON-SOL first: work the top line of `messages.md`, after ki.ways-of-working picks up its own. Then put the parked queries back; on Kris's answers to CLI006-READY and CLI006-CONFIRM, dispatch a ki-plan run for KI-TOOL-TECHNE-CLI-006 with the chosen confirmation design; on PROJECT-CLOSE, route the close-out to ki.estate-factorisation's owner as answered.
 2. Re-arm the 10-minute `messages.md` watch.
 3. At a session with the terra checkout (sol is not terra): PILOT-SEED, after a fetch: stage section 4 as a seed pack in `-` under SEED-HOME with a provenance line and tell knowledge acquisition (PILOT-SEED-HOME a), 19 October) ([pilot-seed report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/pilot-seed.report.md)); STASH-DROP, approved on 16 October (FIRST-WAVE): delete `refs/rebase-repair/autostash-f091d468` in ki-principal on terra once nothing still needs it.
 4. When ki.knowledge-acquisition takes in MARK-FOLLOWUP (the ChatGPT exports refresh and the held MS3 receipt tags): delete `design/personal-acquire-handover.md` at the next mark.
