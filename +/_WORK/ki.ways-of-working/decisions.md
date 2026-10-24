@@ -140,3 +140,7 @@ Taken as: this work makes the `mgit repair` change itself rather than leaving it
 Kris: "Re-bootstrap as ki.ways-of-working under ki-coordination. First bring sol level ... Leave tools-ki until terra's fold-tools-ki run has pushed. Then take the RESTART-ON-SOL line at the top of your messages.md, and report in three lines."
 
 Taken as: ki-principal rebased onto origin and the harness already level on sol; tools-ki left alone. RESTART-ON-SOL goes to one read-only run, wow-restart-consolidate, which returns the prioritised list and its queries; no standard changes without Kris's approval, nothing sent back to source territories. The line stays at the top of the queue until the list is received.
+
+## 2026-10-24 21:51 BST - RESTART-ON-SOL disposed
+
+The consolidation and prioritised list are in restart-consolidate.report.md, sent to Kris with ten queries; the RESTART-ON-SOL line is removed in this commit. The other queue lines stay until the units that cover them land. Blind review on Codex: agreed THREAD-RENAME and THEME-CLOSE, disagreed on COORD-COMMANDS.

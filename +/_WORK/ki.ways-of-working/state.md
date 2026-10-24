@@ -1,7 +1,7 @@
 ---
 id: ki.ways-of-working
-state: with-worker
-since: 2026-10-24T20:41:00Z
+state: handoff-to-supervisor
+since: 2026-10-24T20:52:00Z
 received: 2026-10-22T07:24:00Z
 beat: null
 mark: 2026-10-23T01:10:00Z
@@ -12,13 +12,13 @@ method_read: eff6163b
 
 ## Now
 
-- 21:48 BST: wow-restart-consolidate received; its prioritised list is in restart-consolidate.report.md and its eight queries are in queries.md.
-- wow-restart-blind (Codex) is blind-reviewing THREAD-RENAME, COORD-COMMANDS and THEME-CLOSE.
+- 21:51 BST: RESTART-ON-SOL disposed: the prioritised list is in restart-consolidate.report.md and sent to Kris with ten queries. Nothing is running.
+- Blind review lifted THREAD-RENAME and THEME-CLOSE to high; it disagreed on COORD-COMMANDS (drain stays inside hold), so both views are shown.
 
 ## Next steps
 
-- Coordinator: on the review, settle those three confidences and send the list to Kris; then dispose of the queue lines it covers.
-- Recommended first launches once Kris agrees: tending-fold (design notes), coord-standard (after the area 1 answers), model-shape (design brief).
+- Kris: the ten queries in queries.md, and whether to launch tending-fold, coord-standard and model-shape.
+- Coordinator: on the answers, read them back here, launch the units, then dispose of the queue lines each unit covers.
 
 ## Held
 

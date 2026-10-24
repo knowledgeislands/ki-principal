@@ -34,7 +34,7 @@ b) Keep it held until an ARM Linux host is needed.
 
 **Options:**
 
-a) (recommended, confidence medium - blind review running; covers both launched and pasted sessions, at the cost of one exception to the no-paste rule) Launch openers with `claude --name "<label> (<id>)"`, and add the rename line to bootstrap and re-bootstrap reports only.
+a) (recommended, confidence high - reviewed; launch naming alone leaves pasted openers unnamed, and one narrow rename line does not reopen the ban on send or resume prompts) Launch openers with `claude --name "<label> (<id>)"`, and add the rename line to bootstrap and re-bootstrap reports only.
 
 b) Launch openers with `--name` only, and keep reports free of paste lines.
 
@@ -89,9 +89,9 @@ b) Adopt the interactive pass now and leave splitting for later.
 
 **Options:**
 
-a) (recommended, confidence medium - blind review running; a standalone drain is new behaviour, but it needs no change to the Work Process note) Add all five; `hold` is drain plus On hold; `drain` alone stops launches and reports when the work has drained.
+a) (recommended by the blind review, confidence medium - the Work Process note defines drain as the activity leading into On hold; a standalone drain needs its own contract first) Add `hold`, `resume`, `send` and `receive`, with drain only ever part of hold.
 
-b) Add `hold`, `resume`, `send` and `receive`, with drain only ever part of hold.
+b) (recommended by the consolidation, confidence medium - no Work Process change needed, and it gives Kris the drain word) Add all five; `hold` is drain plus On hold; `drain` alone stops launches and reports when the work has drained.
 
 ### RUN-SECRETS - runs read secrets only through the dotfiles helpers
 
@@ -119,7 +119,7 @@ b) Adopt the 1Password half now and the Cloudflare half once the Cloudflare guid
 
 **Options:**
 
-a) (recommended, confidence medium - blind review running; the date is a judgement) Message Legal's and HNR's States of play now, and turn the warnings into failures on 7 November 2026, or earlier once a scan finds no residue.
+a) (recommended, confidence high - reviewed; a dated cutover ends open-ended tolerance without breaking Legal's and HNR's audits at once) Message Legal's and HNR's States of play now, and turn the warnings into failures on 7 November 2026, or earlier once a scan finds no residue.
 
 b) Turn the warnings into failures at once and let Legal and HNR fix their audits.
 
