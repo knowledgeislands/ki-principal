@@ -158,3 +158,9 @@ Read-back: chezmoi, ki-principal and personal-principal are pushed now, fast-for
 Kris: "I think fundamentally though we need to make it so that mgit is tolerant of this, so that we know how to get past it, so we don't get blocked. But I think that's something that they need to be given over to the state of play in KI please."
 
 Read-back: routed to the KI State of play (`ki`) as MGIT-TOLERANT, for tools-mgit's owner, ki.tools-burndown. ki.chezmoi does not work on it.
+
+## MACHINE-UPKEEP - 24 October 2026, 20:12 BST
+
+Kris: "I'm actually thinking, and given the fact that there's no work left in this project, that what we should be doing is actually having one that's running out of my personal territory, and there should be a version of that for each machine, which is allowing me to keep the machines dealing with any issues they've got. Then the one that's in Knowledge Islands rig is about how it deals with changes in [chezmoi] in terms of its approach."
+
+Read-back: machine upkeep moves to the personal territory, with one piece of work per machine (terra, sol) that keeps that machine healthy and deals with its issues. ki.chezmoi narrows to the approach: how Rig and KI handle chezmoi changes. Its machine-specific open work, the sol pass and the remaining sol checks, transfers to the personal side once the personal State of play receives it. Routed as MACHINE-UPKEEP to `kb` and CHEZMOI-REMIT to `ki`. Per-machine work conflicts with the current rule that no work package names a host, so that rule goes to ki.ways-of-working alongside COORDINATOR-HOST.
