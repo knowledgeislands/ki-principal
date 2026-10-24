@@ -13,8 +13,7 @@ method_read: beb56729
 ## Now
 
 - Running on sol: sol-tower-warp retires Warp, reinstalls The Tower, RendApp and Tower Assistant 2.1, then the Dock (Kris 01:07 BST).
-- Running: mgit-repair-flag removes the retired `mgit repair --apply` from chezmoi (MGIT-REPAIR-APPLY from ki.ways-of-working).
-- Running: rig-site-publish refreshes and republishes rig.midnight.ninja from the latest Rig config.
+- Running: mgit-repair-flag-2 commits and applies the retired `mgit repair --apply` fix (MGIT-REPAIR-APPLY).
 - Sol ([KB-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-105-bring-sol-level-with-terra.md)): level except Warp (Kris quits it, then a run retires it and clears the last drift, `~/.warp/settings.toml`) and the Dock (follows TOWER-INSTALL); doctor 5, the extra one the accepted Tower Assistant Dock path · with Kris.
 - stage3 (run `chezmoi`, machine) running: targeted Rig applies of `.sh`/`.zsh` handlers and Dock on terra (HOLD-LIFT a)).
 - orca-coexist done: Codex hooks coexist with Orca (`5bfaa32`), `config.toml` applied, nudge script retired (`c5776b9`); json-apply applies its helper.
