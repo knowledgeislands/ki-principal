@@ -1,9 +1,9 @@
 ---
 id: ki
-state: handoff-to-supervisor
+state: with-worker
 reason: null
 release: null
-since: 2026-10-24T17:16:00Z
+since: 2026-10-24T17:23:00Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-10-20T01:05:08Z
@@ -14,7 +14,7 @@ method_read: f4d6c521
 
 ## Now
 
-- Sent to Kris at 18:16 BST on 24 October. level-for-sol levelled and pushed 23 of 24 Knowledge Islands repositories; ki-agentic-harness is not level. Open: HARNESS-OAUTH, TOOLS-KI-BRANCH, WHITEPAPER-BRANCH (blind-reviewed). Next: Kris answers them, then one bounded run per repository; then Kris restarts on Sol from the RESTART-ON-SOL lines. Nothing is running.
+- With worker since 18:23 BST under FOLD-TO-MAIN: fold-harness, fold-tools-ki and fold-others fold every unmerged branch into main across Knowledge Islands and push. Next: receive, then Kris restarts on Sol from the RESTART-ON-SOL lines.
 - Overnight under OVERNIGHT: [KI-PRINCIPAL-GOV-035](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-GOV-035-turn-the-techne-programme-hold-into-a-focus-rule.md) accepted and [KI-PRINCIPAL-MOD-008](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-008-whole-philosophy-coherence-review.md) to next; ki.agent-host resumed; [KI-TOOL-RIG-CORE-048](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-048-signed-release-install-kind.md) to soon; [KI-TOOL-KI-CLI-125](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-125-ki-release-contract.md) reworded; ki.regular.registry-removal finished; PIN-LINKS, RIG-SCHEDULE-ENCODING and PKGLESS-GATE routed to their owners.
 - Parked in `queries.md`: CLI006-READY, CLI006-CONFIRM and PROJECT-CLOSE.
 - Retro for the take-stock: [design/retro-2026-10-20.md](design/retro-2026-10-20.md).

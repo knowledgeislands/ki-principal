@@ -2,35 +2,7 @@
 
 ## Open
 
-### HARNESS-OAUTH - Two versions of the ki-binding OAuth change block the harness
-
-**Context:** ki-agentic-harness main is 8 commits ahead of origin and 1 behind. Local fceb8dc2e and origin's 76f7e7d3d make substantially the same OAuth change to ki-binding in different code; a rebase conflicts in five files, so level-for-sol aborted and left main untouched. Origin's version has stricter BIND-2 wording and negative tests; the local one adds YAML and multi-client coverage and documents that an absent marker stays absent. The 8 local commits include the SOP-SECONDARY merge. Until settled, Sol's clone of the harness lacks those 8 commits.
-
-**Query:** How should the two OAuth changes be reconciled so harness main can be pushed?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed: the behaviour already agrees, so a small reconciliation keeps both sets of coverage) A bounded run keeps origin's 76f7e7d3d as the base, folds in only fceb8dc2e's extra documentation and tests, replays the other local commits, checks the result against today's main, runs the full harness tests, type check and hooks, then pushes fast-forward. b) Drop fceb8dc2e and replay the other 7 commits, losing its extra coverage. c) Kris resolves the conflict by hand on terra.
-
-### TOOLS-KI-BRANCH - tools-ki's secondary States of play work is not on main
-
-**Context:** tools-ki is checked out on `sop-secondary`, 2 commits ahead of main and on origin but unmerged: the secondary States of play support with `ki agent prompts`, and an inbox hand-in. Main is its ancestor, so it is a clean fast-forward. The harness already carries the matching contract. A fresh clone on Sol would lack the command.
-
-**Query:** Should tools-ki main take this before Sol starts?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed: a clean fast-forward that supplies the CLI side of a contract the harness already has) A bounded run runs tools-ki's tests, coverage gate, type check and hooks, fast-forwards main, pushes and returns the checkout to main; the inbox hand-in stays for normal triage. b) Leave it on the branch for Sol to fetch explicitly.
-
-### WHITEPAPER-BRANCH - An unmerged white-paper guidance branch in a run worktree
-
-**Context:** A worktree from the fourth-white-paper run holds `docs/whitepaper-authoring-learning`, one commit (26e46c185) of white-paper guidance, criteria and tests, built on an old harness revision. The reviewer found a local origin reference to it, so it is probably already on origin. Merging it needs its own reconciliation (its criteria count is stale).
-
-**Query:** What should happen to it before the move?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed: preserving it avoids loss without adding unrelated work to the move) Within the harness run, confirm origin holds 26e46c185 and push the unchanged branch only if not; leave the worktree; integration later from Sol. b) Reconcile and merge it into main as part of the harness run. c) Leave it on terra only.
+None.
 
 ## Parked
 
