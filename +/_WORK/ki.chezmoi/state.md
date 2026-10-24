@@ -12,7 +12,6 @@ method_read: beb56729
 
 ## Now
 
-- With Kris: REND-READ-AUTH, optional read-only mail and terra lookup of his Project Rend sign-in (rend-login stopped on grants).
 - Queued on sol: rend-bearer gives the `project-rend` MCP a per-machine bearer after sol-pull-apply-2 (Kris 01:52 BST); terra then pulls and applies.
 - Running on sol: sol-pull-apply-2 clears the MCP audit failure, commits tower-decl's Tower path fix and applies targets pulled since `9da18d0` (Kris 01:50 BST).
 - With Kris: Warp retirement, Tower Assistant 2.1 and the Dock wait on WARP-CONTAINER and TOWER-SIGNING (sol-tower-warp ended blocked 01:46 BST).
