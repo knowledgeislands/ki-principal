@@ -116,3 +116,7 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 ## 2026-10-24 17:16 BST - TENDING-XDG-STATE
 
 - TENDING-XDG-STATE (Kris, 24 October): "Another thing for tending is that we need to make sure that things like the XDG state is also considered and reviewed." Carried to ki.ways-of-working's Tending area through the RESTART-ON-SOL line.
+
+## 2026-10-24 17:20 BST - LEVEL-FOR-SOL
+
+- LEVEL-FOR-SOL (Kris, 24 October): "make sure that any of the knowledge islands repos that you've got here have been merged together. So we've got the everything pulled and any conflicts dealt with and then pushed back so that effectively we've got a clean version on this machine so that Sol can start from its version." Authorises the run level-for-sol on terra to pull, resolve conflicts and push `main` in every Knowledge Islands repository, other sessions' stacked commits included. No force push and no `--no-verify`.
