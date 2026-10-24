@@ -146,3 +146,9 @@ Read-back: Defuddle is already on terra, installed by Kris. defuddle-terra-2 sti
 Kris: "I've won that, Commanders, you asked, and exited. He did say hello."
 
 Read-back: Kris ran the suggested Terminal command, `/opt/homebrew/bin/claude "say hello"` in the chezmoi checkout, and got a reply, then quit with `/exit`. A worker now checks, read-only, that the helper was repaired.
+
+## PUSH-2 and UTM-RECEIPT - 24 October 2026, 18:10 BST (interactive)
+
+Kris chose: PUSH-2 "Push all three now (recommended, high confidence)"; UTM-RECEIPT "Clear it now, safely (recommended, high confidence)".
+
+Read-back: chezmoi, ki-principal and personal-principal are pushed now, fast-forward only and never forced. A worker removes only Homebrew's leftover UTM record on terra after confirming that it is separate from the App Store app. It verifies that UTM and every virtual machine are untouched and stops to ask if anything would touch the app. It may push its own chezmoi commits so that terra finishes level.
