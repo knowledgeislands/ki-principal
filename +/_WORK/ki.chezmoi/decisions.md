@@ -218,3 +218,9 @@
 Kris, verbatim (speech-to-text): "Chat GPT both, Prime Video both, record box and Tiger VNC. Record box is both. Tiger VNC can be completely removed from all of them, we don't need it because there's a built-in D and C client within macOS itself. paperclips, agent settings. I think there's some interesting learning to be done from those. So we can probably do something with them. Maybe that's a roadmap item rather than dealing with that right now. And then display adapt to help her. I'm not sure really."
 
 Read-back: the agreed list stands (option a). ChatGPT, Prime Video and Rekordbox are selected on both Macs. TigerVNC is removed from every Mac; macOS's built-in VNC client replaces it. Paperclip agent settings are kept, not deleted, and a roadmap item captures learning from them. MSDisplayManager stays terra-only as agreed; sol is left undecided ("not sure").
+
+## ORCA-HOST - 24 October 2026, 14:00 BST
+
+Kris, verbatim: "orca is in trial on both laptop and studio"
+
+Read-back: option c. Orca stays at Trial and is selected on both terra (laptop) and sol (studio).
