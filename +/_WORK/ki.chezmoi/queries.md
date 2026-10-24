@@ -2,10 +2,8 @@
 
 ## Open
 
-- TOWER-SIGNING (sol-tower-warp, high): sol has no Tower Assistant signing identity, so the 2.1 build stops. a) create a new sol identity with `build.sh create-identity` (keychain prompt), then build, install and grant Accessibility (recommended); b) Kris exports terra's identity and imports it on sol first. With Kris 01:35.
-- MCP-RESTART (sol-apply-3, high, Needs: decision): the running mcporter daemon still has the old inventory. a) run `~/bin/launchd/mcporter_restart` now (recommended); b) leave until next login. Open sessions may need to reconnect. With Kris 02:08.
 - NOTION-AUTH (sol-apply-3, Needs: action, Kris): hosted Notion needs `mcporter auth notion` (browser sign-in) before use. With Kris 02:08.
-- FIREWALL-REAPPLY (Needs: action, Kris at terra with sudo; KI-TOOL-RIG-CORE-047): the Screen Sharing pf anchor dates from 14 October and predates `dae10f2`. a) attended re-apply now, after preflight (pf enabled, parent anchor chain, fresh SSH) and with the corrected recovery (recommended, medium, reviewed); b) leave until the next scheduled Mac rehearsal.
+- FIREWALL-REAPPLY (Kris at terra now, 02:18): a) attended re-apply with preflight and corrected recovery chosen; Kris doing it himself.
 - Not raised: CORE-SET-COMMENTS (stays in the worksheet).
 
 ## Parked
