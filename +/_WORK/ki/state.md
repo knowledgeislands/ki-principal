@@ -42,7 +42,7 @@ method_read: f4d6c521
 
 ## Next steps
 
-1. On resume: put the parked queries back; on Kris's answers to CLI006-READY and CLI006-CONFIRM, dispatch a ki-plan run for KI-TOOL-TECHNE-CLI-006 with the chosen confirmation design; on PROJECT-CLOSE, route the close-out to ki.estate-factorisation's owner as answered.
+1. RESTART-ON-SOL first: work the top line of `messages.md`, after ki.ways-of-working picks up its own. Then put the parked queries back; on Kris's answers to CLI006-READY and CLI006-CONFIRM, dispatch a ki-plan run for KI-TOOL-TECHNE-CLI-006 with the chosen confirmation design; on PROJECT-CLOSE, route the close-out to ki.estate-factorisation's owner as answered.
 2. Re-arm the 10-minute `messages.md` watch.
 3. At a session with the terra checkout (sol is not terra): PILOT-SEED, after a fetch: stage section 4 as a seed pack in `-` under SEED-HOME with a provenance line and tell knowledge acquisition (PILOT-SEED-HOME a), 19 October) ([pilot-seed report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/pilot-seed.report.md)); STASH-DROP, approved on 16 October (FIRST-WAVE): delete `refs/rebase-repair/autostash-f091d468` in ki-principal on terra once nothing still needs it.
 4. When ki.knowledge-acquisition takes in MARK-FOLLOWUP (the ChatGPT exports refresh and the held MS3 receipt tags): delete `design/personal-acquire-handover.md` at the next mark.
