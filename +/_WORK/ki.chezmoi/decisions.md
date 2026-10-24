@@ -236,3 +236,9 @@ Read-back: option a, hold now; the sol pass waits for a session on sol. The coor
 Kris, verbatim: "Oh, I forgot to check. We just need to make sure that we have pulled and pushed and that we've done any drift that needs to be done." then "Then take a mark as well."
 
 Read-back: push is authorised now for this work's repositories (chezmoi, tools-rig, ki-agentic-harness, ki-principal, personal-principal), after pulling; pending chezmoi drift on terra from this work is applied (scoped); then the mark is struck.
+
+## TIDY - 24 October 2026, 16:00 BST
+
+Kris, verbatim (speech-to-text): "Also, can you review the work and make sure that you've only got things that you need? Because there's quite a lot of things. And also, you've got something about big rationale review in the outbound area. I'm not sure what that's useful for, so it needs to go to the right place."
+
+Read-back: trim the work package to live items only (report copies out, state and messages condensed), and move the held "Privacy and rationale audits" item to its owning record in chezmoi. Run work-tidy after sync-close; mark after both.
