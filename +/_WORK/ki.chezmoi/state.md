@@ -12,10 +12,10 @@ method_read: beb56729
 
 ## Now
 
-- Running on sol: rend-app finds and installs RendApp (Kris 01:41 BST); waits on Kris's project-rend.app download.
+- Running on sol: rend-app installs RendApp from Kris's project-rend.app download (Kris 01:41 BST).
 - Running: rend-login finds how Kris signs in to Project Rend (read-only, Kris 01:46 BST).
 - Running on sol: tower-decl corrects The Tower's declared path (`/Applications/TheTower.app`, installed by tower-game) and restores `chezmoi status`.
-- Running on sol: sol-tower-warp (Warp retirement, The Tower, RendApp, Tower Assistant 2.1, Dock) waits on WARP-CONTAINER, TOWER-SIGNING and TOWER-SOURCES · with Kris.
+- With Kris: Warp retirement, Tower Assistant 2.1 and the Dock wait on WARP-CONTAINER and TOWER-SIGNING (sol-tower-warp ended blocked 01:46 BST).
 - Sol ([KB-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-105-bring-sol-level-with-terra.md)): level except Warp (Kris quits it, then a run retires it and clears the last drift, `~/.warp/settings.toml`) and the Dock (follows TOWER-INSTALL); doctor 5, the extra one the accepted Tower Assistant Dock path · with Kris.
 - stage3 (run `chezmoi`, machine) running: targeted Rig applies of `.sh`/`.zsh` handlers and Dock on terra (HOLD-LIFT a)).
 - orca-coexist done: Codex hooks coexist with Orca (`5bfaa32`), `config.toml` applied, nudge script retired (`c5776b9`); json-apply applies its helper.
