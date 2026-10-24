@@ -12,7 +12,6 @@ method_read: beb56729
 
 ## Now
 
-- Running on sol: rend-app installs RendApp from Kris's project-rend.app download (Kris 01:41 BST).
 - With Kris: REND-READ-AUTH, optional read-only mail and terra lookup of his Project Rend sign-in (rend-login stopped on grants).
 - Running on sol: tower-decl corrects The Tower's declared path (`/Applications/TheTower.app`, installed by tower-game) and restores `chezmoi status`.
 - With Kris: Warp retirement, Tower Assistant 2.1 and the Dock wait on WARP-CONTAINER and TOWER-SIGNING (sol-tower-warp ended blocked 01:46 BST).
