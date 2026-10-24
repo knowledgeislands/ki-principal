@@ -1,7 +1,7 @@
 ---
 id: ki.ways-of-working
-state: with-worker
-since: 2026-10-24T22:22:00Z
+state: handoff-to-supervisor
+since: 2026-10-24T23:06:00Z
 received: 2026-10-22T07:24:00Z
 beat: null
 mark: 2026-10-23T01:10:00Z
@@ -12,7 +12,7 @@ method_read: eff6163b
 
 ## Now
 
-- 23:56 BST: wow-summary-drift received; five queries copied. wow-drift-blind (Codex) is blind-reviewing REBOOT-SHAPE, GAP-SUMMARY, PROXY-SHAPER and METHOD-NUDGE.
+- 23:58 BST: wow-drift-blind received: agreed REBOOT-SHAPE, GAP-SUMMARY and METHOD-NUDGE; disagreed on PROXY-SHAPER. Sixteen queries sent to Kris. Nothing is running.
 - Coordinator owes the refresh: re-read the standard with the Read tool and set method_read.
 - 21:51 BST: RESTART-ON-SOL disposed: the prioritised list is in restart-consolidate.report.md and sent to Kris with ten queries. Nothing is running.
 - Blind review lifted THREAD-RENAME and THEME-CLOSE to high; it disagreed on COORD-COMMANDS (drain stays inside hold), so both views are shown.

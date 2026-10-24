@@ -154,3 +154,7 @@ Taken as: one read-only run, wow-summary-drift, investigates why this thread's r
 ## 2026-10-24 23:56 BST - summary drift received
 
 wow-summary-drift found the style current and named the causes: the re-bootstrap rule contradicts itself, the gap trigger is undefined, the refresh rule was skipped, the proxy's "never restate" block pulls against full queries and corrupts Bash reads, and the coordinator's own errors. Coordinator takes its habit fixes now: full report form at every re-bootstrap, the banner on every where-it-stands reply, the Summary after a gap, the refresh rule at bootstrap, and the Read tool for the standard and package. COORD-COMMANDS and DRAIN-END are reshaped to one recommended option each. Five queries copied; the four medium ones go to wow-drift-blind on Codex.
+
+## 2026-10-24 23:58 BST - drift blind review received; sent to owner
+
+wow-drift-blind on Codex agreed with REBOOT-SHAPE, GAP-SUMMARY and METHOD-NUDGE, each lifted to high, and disagreed on PROXY-SHAPER, preferring to turn the output shaper off; both views shown. Sixteen queries sent to Kris in a full Summary.

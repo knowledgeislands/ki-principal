@@ -170,7 +170,7 @@ b) Start only tending-fold for now.
 
 **Options:**
 
-a) (recommended, confidence medium - blind review running; it ends the contradiction that produced the 21:44 report, but it lengthens every re-bootstrap) Re-bootstrap report = heading, `Re-bootstrap at` form line, `## Done` (role and where the work stands), `## In Progress` (what is running), `## Queries` (every open query in full), then the banner; hook rule 4 names re-bootstrap and full summary; openers drop "in three lines".
+a) (recommended, confidence high - reviewed; one complete report contract ends the contradiction that produced the 21:44 report, at the cost of a longer re-bootstrap) Re-bootstrap report = heading, `Re-bootstrap at` form line, `## Done` (role and where the work stands), `## In Progress` (what is running), `## Queries` (every open query in full), then the banner; hook rule 4 names re-bootstrap and full summary; openers drop "in three lines".
 
 b) Keep three lines, but state plainly that they sit under the heading and form line, carry the open query tags in the banner, and stand in for the three sections; add re-bootstrap to hook rule 4.
 
@@ -182,7 +182,7 @@ b) Keep three lines, but state plainly that they sit under the heading and form 
 
 **Options:**
 
-a) (recommended, confidence medium - blind review running; a fixed threshold is mechanical and would have caught 23:20; 30 minutes is a judgement) The first reply after 30 minutes or more without an owner message, while queries are with you, answers what you asked and then gives the Summary; the style carries the same trigger.
+a) (recommended, confidence high - reviewed; a fixed threshold is mechanical and would have caught 23:20, though 30 minutes is a starting choice) The first reply after 30 minutes or more without an owner message, while queries are with you, answers what you asked and then gives the Summary; the style carries the same trigger.
 
 b) Leave the gap undefined, and rely on the banner rule plus "summary" on request.
 
@@ -190,11 +190,13 @@ b) Leave the gap undefined, and rely on the banner rule plus "summary" on reques
 
 **Context:** The proxy appends an L2 steering block ("Never restate ... reference them by path and line instead") at the end of every system prompt, after the style. That conflicts with restating open queries in full, and the style already says no proxy shaping block shortens a report. Token mode also strips function words from Bash tool output, which corrupts templates read that way; Read-tool output arrived intact in this run. The Headroom proxy is connection-critical, so any change to it needs a tested restore path.
 
+A masked blind review on Codex disagreed at high confidence: a style file cannot reliably override a conflicting system instruction, so it would turn the output shaper off for Claude Code through chezmoi, in a separately authorised run with a tested restore path, and verify repeated open queries and intact reads before finishing.
+
 **Query:** Should the proxy stay as it is, with the read path fixed in the standard instead?
 
 **Options:**
 
-a) (recommended, confidence medium - blind review running; no change to a connection-critical service, and the style's override held for the 21:53 Summary; the 23:20 link to the proxy is inferred) Leave Headroom unchanged; add to the standard's Bootstrap and Re-anchoring that the standard, style and package are read with the file-read tool, not the shell; the style names the shaper's "never restate" as overridden for open queries.
+a) (recommended, confidence medium - review disagrees; no change to a connection-critical service, and the style's override held for the 21:53 Summary; the 23:20 link to the proxy is inferred) Leave Headroom unchanged; add to the standard's Bootstrap and Re-anchoring that the standard, style and package are read with the file-read tool, not the shell; the style names the shaper's "never restate" as overridden for open queries.
 
 b) Turn the output shaper off for Claude Code (`HEADROOM_OUTPUT_SHAPER=0`, managed in chezmoi) under a run with a tested restore path.
 
@@ -206,7 +208,7 @@ b) Turn the output shaper off for Claude Code (`HEADROOM_OUTPUT_SHAPER=0`, manag
 
 **Options:**
 
-a) (recommended, confidence medium - blind review running; one cheap line at each prompt makes a skipped refresh visible; it touches the generated hook and its test) Add the check to `hooks/coordinator-reminder.sh`, naming both revisions.
+a) (recommended, confidence high - reviewed; one cheap advisory line makes a skipped refresh visible, comparing the method revision rather than harness HEAD, and only a real re-read updates `method_read`) Add the check to `hooks/coordinator-reminder.sh`, naming both revisions.
 
 b) Leave it to coordinator habit and the bootstrap rule.
 
