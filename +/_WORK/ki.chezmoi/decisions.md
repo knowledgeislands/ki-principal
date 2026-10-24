@@ -140,3 +140,9 @@ Read-back: the helper is current, not legacy: Claude Code 2.1.308 uses it for `c
 Kris: "I've installed the defuddle myself directly, so the rig should just pass, because it already exists."
 
 Read-back: Defuddle is already on terra, installed by Kris. defuddle-terra-2 still declares it in Rig for both Macs. It then confirms that Rig recognises the existing install with no reinstall (the apply plans nothing) and that the version is at least 0.19.5. It does not download or reinstall anything.
+
+## URL-HANDLER session - 24 October 2026, 18:00 BST
+
+Kris: "I've won that, Commanders, you asked, and exited. He did say hello."
+
+Read-back: Kris ran the suggested Terminal command, `/opt/homebrew/bin/claude "say hello"` in the chezmoi checkout, and got a reply, then quit with `/exit`. A worker now checks, read-only, that the helper was repaired.
