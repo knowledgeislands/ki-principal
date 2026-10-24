@@ -144,3 +144,9 @@ Taken as: ki-principal rebased onto origin and the harness already level on sol;
 ## 2026-10-24 21:51 BST - RESTART-ON-SOL disposed
 
 The consolidation and prioritised list are in restart-consolidate.report.md, sent to Kris with ten queries; the RESTART-ON-SOL line is removed in this commit. The other queue lines stay until the units that cover them land. Blind review on Codex: agreed THREAD-RENAME and THEME-CLOSE, disagreed on COORD-COMMANDS.
+
+## 2026-10-24 23:50 BST - summary drift investigation
+
+Kris: "Okay, well I still really need this thread to be giving me proper summaries, which you're not doing, I don't know why, can you investigate where that is?"
+
+Taken as: one read-only run, wow-summary-drift, investigates why this thread's replies fall short of the owner-report shape and proposes fixes as queries. Coordinator acknowledges its own lapses meanwhile: the re-bootstrap reply, the Legal prompt reply and the "that's done" reply carried no report heading or banner, and the refresh rule was not run at re-bootstrap.

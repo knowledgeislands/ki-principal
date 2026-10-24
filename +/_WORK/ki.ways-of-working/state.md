@@ -1,7 +1,7 @@
 ---
 id: ki.ways-of-working
-state: handoff-to-supervisor
-since: 2026-10-24T20:52:00Z
+state: with-worker
+since: 2026-10-24T22:22:00Z
 received: 2026-10-22T07:24:00Z
 beat: null
 mark: 2026-10-23T01:10:00Z
@@ -12,6 +12,7 @@ method_read: eff6163b
 
 ## Now
 
+- 23:50 BST: wow-summary-drift is investigating why this thread falls short of the owner-report shape.
 - 21:51 BST: RESTART-ON-SOL disposed: the prioritised list is in restart-consolidate.report.md and sent to Kris with ten queries. Nothing is running.
 - Blind review lifted THREAD-RENAME and THEME-CLOSE to high; it disagreed on COORD-COMMANDS (drain stays inside hold), so both views are shown.
 
