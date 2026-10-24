@@ -108,3 +108,7 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 ## 2026-10-24 17:14 BST - REPO-METADATA held for Sol
 
 - Kris passed on VA > SoP's request (TAG-ROUTE) to route `ki.ways-of-working/design/repository-metadata.md` "to the Project that will take its standard and checker changes into ki-repo; adoption comes before any repository is tagged, and TAG-FORM is still Kris's to settle", and added: "Can you take this and give to WoW also?" Then: "For both of these, don't do them yet, just add them to your list of things when I do start work backup on Sol." The 17:12 route line to ki.baseline-rollout was withdrawn, and both routes were added to the RESTART-ON-SOL lines. The proposed receiver for the `ki-repo` standard and checker is ki.baseline-rollout: its goal is that `ki repo audit --estate` passes, and it carries harness rollouts.
+
+## 2026-10-24 17:15 BST - QUERIES-POSTED-FIRST
+
+- QUERIES-POSTED-FIRST (Kris, 24 October): "when I asked to go through the queries interactively, it's important that before you start those interactive ones, you also post them in full into the thread as well. That way I can see them, because otherwise I lose them when I submit my responses." This thread follows it from now on. It goes to ki.ways-of-working, through the RESTART-ON-SOL line, for the INTERACTIVE-QUERIES rule.

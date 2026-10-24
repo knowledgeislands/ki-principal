@@ -7,6 +7,7 @@
   - Source rule (SOURCE-AGNOSTIC): "If we're accepting it, we're accepting it." Do not send anything back to the territory a line came from unless that is expressly asked.
   - Areas:
     1. The coordination standard: SUMMARY-SINCE-MARK, SUMMARY-OUTSTANDING, COORD-COMMANDS, SOP-PROJECT-CARE, SINGLE-THREAD, INTERACTIVE-QUERIES, COORDINATOR-HOST (which conflicts with the rule that no package names a host), the Work Process line on secondary States of play, COORD2-RUBRIC, `ki agent send`, CENTRAL-TICK and DRAIN-END.
+    1a. QUERIES-POSTED-FIRST, to go with INTERACTIVE-QUERIES. Kris, 24 October: "before you start those interactive ones, you also post them in full into the thread as well. That way I can see them, because otherwise I lose them when I submit my responses."
     2. Tending: METHOD, folding in TENDING-ROUND-2, TENDING-GUIDANCE-OVERLAP and TENDING-SIZES. The TENDING-ROADMAP and working-area checks are already added.
     3. Roadmap and record shape: UNATTENDED-AND-DUE-DATES, WORK-STATUS-FORM, MOD-LEDGER and SORT-ARM. CLI-FIELDS stays held.
     4. Initiatives to themes: INITIATIVES-RESIDUE and THEME-REGISTRY-ENFORCE.
