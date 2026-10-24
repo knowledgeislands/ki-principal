@@ -12,8 +12,8 @@ method_read: beb56729
 
 ## Now
 
-- Running on sol: mcp-restart restarts mcporter onto the new inventory; tower-sign creates sol's signing identity and installs Tower Assistant 2.1, then the Dock; PUSH (Kris a)) follows warp-retire, rebasing sol's own commits onto terra's new ones. With Kris: firewall re-apply at terra.
-- Running on sol: warp-retire removes Warp entirely (Kris 02:10 BST).
+- Running on sol: mcp-restart restarts mcporter onto the new inventory; tower-sign creates sol's signing identity and installs Tower Assistant 2.1, then the Dock; With Kris: firewall re-apply at terra.
+- Running on sol: chezmoi-sync commits warp-retire's cleanup, rebases onto terra's commits, gates, pushes chezmoi and harness, applies the Warp cleanup targets. With Kris: WARP-CONTAINER and WARP-HANDLER (Finder steps on sol).
 - Sol ([KB-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-105-bring-sol-level-with-terra.md)): level except Warp (Kris quits it, then a run retires it and clears the last drift, `~/.warp/settings.toml`) and the Dock (follows TOWER-INSTALL); doctor 5, the extra one the accepted Tower Assistant Dock path · with Kris.
 - stage3 (run `chezmoi`, machine) running: targeted Rig applies of `.sh`/`.zsh` handlers and Dock on terra (HOLD-LIFT a)).
 - orca-coexist done: Codex hooks coexist with Orca (`5bfaa32`), `config.toml` applied, nudge script retired (`c5776b9`); json-apply applies its helper.
