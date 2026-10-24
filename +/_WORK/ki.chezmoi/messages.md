@@ -14,3 +14,4 @@ None.
   - sol: shared: the step 5 check expects exactly three `com.apple` sub-anchors. After the 19 October undo, macOS keeps empty anchor names listed until a restart, which is harmless here. Test contents, not names (lesson recorded in KI-TOOL-RIG-CORE-047).
   - sol: shared: on terra, the probes come from sol. On sol, run them from terra with fresh connections (`ssh terra 'ssh sol hostname -s; nc …'`), (no held SSH session needed when Kris is at both consoles, Kris 24 October).
   - sol: shared: use a separate backup folder under `/var/root/rig-firewall-backup/` on sol, and write the locator literally. Never run `bootout system/` without the full label.
+- sol: chezmoi may fail rendering `~/.mcporter/mcporter.json` with op_cache exit 4 on `credential (sol)` if sol cached the Rend item before `a50a2c6`; fix by refreshing that one item with `OP_CACHE_SERVICE_ACCOUNT_ONLY=1 OP_CACHE_TTL_SECONDS=0 ~/bin/chezmoi/op_cache` (see rend-bearer-review report, 24 October).
