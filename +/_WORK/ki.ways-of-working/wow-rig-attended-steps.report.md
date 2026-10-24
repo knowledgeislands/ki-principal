@@ -208,7 +208,8 @@ Rewrites each Mac's installed range anchor to the own-address anchor with `rig a
 
 **Pass:** `completed=1` and `failed=0`; afterwards `rig anchor rules` is non-zero, and doctor shows no firewall finding. Then run the probe from the other Mac.
 
-**Restore path (tested on terra and sol, 19 October 2026; needs no Rig and works over SSH):** `sudo launchctl bootout system/uk.me.kris.rig.firewall.screen-sharing` then `sudo pfctl -a com.apple/uk.me.kris.rig.firewall.screen-sharing -F all`; this reopens 5900 as before Rig. To put the protection back: `sudo launchctl bootstrap system /Library/LaunchDaemons/uk.me.kris.rig.firewall.screen-sharing.plist`. Always type the locator in full; an empty one once shut terra down.
+**Restore path (tested on terra and sol, 19 October 2026; needs no Rig and works over SSH):**
+`sudo launchctl bootout system/uk.me.kris.rig.firewall.screen-sharing` then `sudo pfctl -a com.apple/uk.me.kris.rig.firewall.screen-sharing -F all`; this reopens 5900 as before Rig. To put the protection back: `sudo launchctl bootstrap system /Library/LaunchDaemons/uk.me.kris.rig.firewall.screen-sharing.plist`. Always type the locator in full; an empty one once shut terra down.
 
 ```sh
 mkdir -p ~/rig-attended-2026-10-22 && ( /usr/sbin/ioreg -rd1 -c IOPlatformExpertDevice | grep -q BFDD9EED-C084-5B5C-BECB-070FF0D05916 || { echo "REFUSED: not sol, nothing run"; exit 1; }
