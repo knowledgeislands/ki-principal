@@ -13,7 +13,7 @@ method_read: beb56729
 ## Now
 
 - With Kris: REND-READ-AUTH, optional read-only mail and terra lookup of his Project Rend sign-in (rend-login stopped on grants).
-- Running on sol: tower-decl corrects The Tower's declared path (`/Applications/TheTower.app`, installed by tower-game) and restores `chezmoi status`.
+- Running on sol: sol-pull-apply-2 clears the MCP audit failure, commits tower-decl's Tower path fix and applies targets pulled since `9da18d0` (Kris 01:50 BST).
 - With Kris: Warp retirement, Tower Assistant 2.1 and the Dock wait on WARP-CONTAINER and TOWER-SIGNING (sol-tower-warp ended blocked 01:46 BST).
 - Sol ([KB-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-105-bring-sol-level-with-terra.md)): level except Warp (Kris quits it, then a run retires it and clears the last drift, `~/.warp/settings.toml`) and the Dock (follows TOWER-INSTALL); doctor 5, the extra one the accepted Tower Assistant Dock path · with Kris.
 - stage3 (run `chezmoi`, machine) running: targeted Rig applies of `.sh`/`.zsh` handlers and Dock on terra (HOLD-LIFT a)).
