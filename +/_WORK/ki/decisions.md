@@ -126,3 +126,7 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 ## 2026-10-24 21:29 BST - FOLD-TOOLS-KI-TO-SOL
 
 - FOLD-TOOLS-KI-TO-SOL (Kris, 24 October): "I think really the fold tools to KI should be handled on the other machine, on Sol. So maybe we can bring that to a graceful close, and I'll make sure that anything we've got here locally is pushed and it can continue on the other side." Read back as: fold-tools-ki stops at its next safe point on terra; it pushes main fast-forward only if its gate passes, otherwise it pushes nothing to main and records exactly where it stopped, so KI > SoP on Sol resumes the tools-ki fold. Terra's KI > SoP then goes idle and hands over to Sol.
+
+## 2026-10-24 21:36 BST - BRANCH-TIDY
+
+- BRANCH-TIDY (Kris, 24 October): "While I'm waiting, can you look at all the branches that are available in Knowledge Islands and reconcile them and get rid of things if we don't need them?" Read back as: one run, branch-tidy, across every Knowledge Islands repository; a local or remote branch, or a worktree, whose content is wholly on main is deleted, along with a clean worktree that holds it; anything with work not on main, a dirty worktree, or an unclear intent is kept and reported, never merged or deleted. tools-ki waits until fold-tools-ki has finished. No force push, no --no-verify.
