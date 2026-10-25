@@ -1,8 +1,8 @@
 # Review pack - Knowledge Islands documentation on knowledgeislands.info
 
-This pack is for a Claude or ChatGPT chat. Kris points the chat at this file's address on GitHub and the chat talks him through the published documentation. The pack opens with the prompt for the chat, then the checklist of pages with the questions worth his steer, then every open query of the Ways of working work copied in full, and ends with the exact shape of the feedback digest the chat writes for Kris to paste back.
+This pack is for a Claude or ChatGPT chat. Kris points the chat at this file's address on GitHub and the chat talks him through the published documentation. The pack opens with the prompt for the chat, then the review list of the pages and diagrams now live with one line each on what is worth his judgement, then every open query of the Ways of working work copied in full, and ends with the exact shape of the feedback digest the chat writes for Kris to paste back.
 
-The merged plan the pages follow is [website-docs.md](website-docs.md). Delivery runs publish the pages one unit at a time in the order [wow-docs-order.md](../briefs/wow-docs-order.md) gives; a page marked **pending** is not yet published and the chat skips it.
+The merged plan the pages follow is [website-docs.md](website-docs.md). Delivery runs publish the pages one unit at a time in the order [wow-docs-order.md](../briefs/wow-docs-order.md) gives. As of 05:10 GMT on 25 October 2026 the first five units are live: the section structure, the diagram pipeline, Skills, the ki CLI and the harness section. The Ways of working pages beyond the roadmap lifecycle, Knowledge and Standards are still being written; a section marked **pending** is not yet published, carries no address here and the chat skips it.
 
 ## Prompt for the chat
 
@@ -10,70 +10,77 @@ Paste from here to the end of this section into a new chat, or point the chat at
 
 > You are reviewing the documentation of Knowledge Islands, a way of keeping knowledge and running work in Git repositories with AI agents, published at <https://knowledgeislands.info>. Your reader is Kris, the owner, who delegated the documentation's design to an automated merge of two proposals and now steers by looking at the published pages. Your job is to walk Kris through the site conversationally, one page or one question at a time, and at the end write a feedback digest in the exact shape given at the end of this pack.
 >
-> Work from this pack. It has three parts: a checklist of pages with design and use questions, the open queries of the underlying work, and the digest shape. Treat a page marked pending as not yet published: say so and move on. Never comment on code or on how the site is built; comment on whether a reader who uses Knowledge Islands would understand what each thing is, how it works, how they use it and what it provides.
+> Work from this pack. It has three parts: a review list of the live pages and diagrams with one line each on what to judge, the open queries of the underlying work, and the digest shape. Treat a section marked pending as not yet published: say so and move on. Never comment on code or on how the site is built; comment on whether a reader who uses Knowledge Islands would understand what each thing is, how it works, how they use it and what it provides.
 >
-> Method: open each page from the checklist in order unless Kris chooses another, read it, give Kris a two-sentence impression, then ask him the page's questions one at a time, offering the recommended answer where the checklist gives one and letting his answer shape the next question. Where you see something the checklist does not ask about and a user would trip over, raise it as a note. Keep each turn short; Kris may answer in a word. When the checklist is done, take the open queries in the same way: present each query's Context, Query and Options in full, with the recommended option first, and record Kris's answer by its tag and letter, or his words if he gives neither. Kris may say "skip", "later" or "digest now" at any time; "digest now" ends the walk and you write the digest with what you have.
+> Method: open each page from the review list in order unless Kris chooses another, read it, give Kris a two-sentence impression, then ask him the page's question, offering the recommended answer where the list gives one and letting his answer shape the next question. Open each diagram's interactive view when you reach it and ask its question the same way. Where you see something the list does not ask about and a user would trip over, raise it as a note. Keep each turn short; Kris may answer in a word. When the review list is done, take the open queries in the same way: present each query's Context, Query and Options in full, with the recommended option first, and record Kris's answer by its tag and letter, or his words if he gives neither. Kris may say "skip", "later" or "digest now" at any time; "digest now" ends the walk and you write the digest with what you have.
 >
 > Rules: do not invent pages, addresses or facts about the site; if a page fails to load, record that in the digest under Notes. Do not propose redesigns; record Kris's steer. Do not write anything back to GitHub or anywhere else; the digest is a message in the chat for Kris to copy. Use British English and no em-dashes.
 
-## Checklist of pages
+## Website review list
 
-Pages are grouped as the site groups them. Each entry gives the address, its status and the questions worth Kris's steer, the recommended answer first where the plan took one. Questions marked **steer** are the ones the merge most wanted his view on.
+Pages and diagrams are grouped as the site groups them. Each live entry gives its address and one line on what Kris should judge there: design and use, never code. Where the merge took a choice it most wanted his view on, the line is marked **steer** and gives the recommended answer. A diagram's address opens its interactive view in the browser; the same diagram sits inline on the page named beside it.
 
 ### Docs landing and navigation
 
-- `https://knowledgeislands.info/docs/` - **pending** until unit 1 publishes. Steer: Atlas now shows Field Guide and Docs, with the Projects catalogue reached from a block at the foot of the Docs landing rather than from the navigation; is the catalogue easy enough to find? Recommended: yes, keep the merge, because the catalogue answers "what is this" and the sections answer "how do I". Does the ten-section grid read as a reading order or as a pile? Do the section names Ways of working, Knowledge and Standards say what is in them?
-- `https://knowledgeislands.info/projects/` - published today, unchanged. Does it still need its own place in the navigation once it sits on the Docs landing?
+- <https://knowledgeislands.info/docs/> - **steer**: Atlas now shows Field Guide and Docs, the Projects catalogue sits in a block at the foot of this page instead of in the navigation, and the section grid shows eight sections for now because Knowledge and Standards appear only once their first page lands; is the catalogue easy enough to find, and does the grid read as a reading order? Recommended: keep the merge, because the catalogue answers "what is this" and the sections answer "how do I".
+- <https://knowledgeislands.info/projects/> - unchanged, reached from the Docs landing block; does it still need its own place in the navigation now that it sits on the Docs landing?
 
 ### Skills, `/docs/skills/`
 
-- `https://knowledgeislands.info/docs/skills/what-a-skill-is/` - **pending** until unit 3. Does a reader who has never installed a skill understand what one is and what it will and will not do for them?
-- `https://knowledgeislands.info/docs/skills/how-the-skills-fit-together/` - **pending** until unit 3. Steer: eleven diagrams on one page, the skill map and ten area maps; is that the right page for them, or should each area have its own page? Recommended: one page, because the areas are a way of reading the map and not ten separate subjects. Does clicking Interactive and getting a new tab feel right, or should the diagram open in an overlay on the page?
-- `https://knowledgeislands.info/docs/skills/catalogue/` - **pending** until unit 3. Steer: the catalogue lists sixty-four skills with one description each and there is no page per skill; is that enough, or do you want a page for every skill? Recommended: no per-skill pages, because the catalogue carries each description without drift and the Ways of working, Knowledge and Standards pages carry the depth.
-- `https://knowledgeislands.info/docs/skills/by-outcome/` - **pending** until unit 3. Are the outcomes the ones you would actually look for?
+- <https://knowledgeislands.info/docs/skills/what-a-skill-is/> - does a reader who has never installed a skill understand what one is and what it will and will not do for them?
+- <https://knowledgeislands.info/docs/skills/how-the-skills-fit-together/> - **steer**: eleven diagrams on one page, the skill map and ten area maps; is that the right page for them, or should each area have its own page? Recommended: one page, because the areas are a way of reading the map and not ten separate subjects.
+- <https://knowledgeislands.info/docs/skills/catalogue/> - **steer**: sixty-four skills with one description each, grouped by where each is kept, with a finder table giving each skill's functional area, and no page per skill; is that enough, or do you want a page for every skill? Recommended: no per-skill pages, because the catalogue carries each description without drift and the explanatory sections carry the depth. The AREA-COLUMN query below asks where the finder's areas should come from.
+- <https://knowledgeislands.info/docs/skills/by-outcome/> - are the outcomes the ones you would actually look for, and does naming the Ways of working, Knowledge and Standards pages as plain text until they exist read as a promise or a gap?
+
+Diagrams on the fit-together page, vendored from the harness:
+
+- <https://knowledgeislands.info/diagrams/vendored/ki-agentic-harness/skill-map.html> - skill map on how-the-skills-fit-together; can you find a skill you know and tell its shape and area at a glance, and does the interactive view earn its new tab, or should it open in an overlay on the page? Recommended: new tab for now, overlay as later work.
+- <https://knowledgeislands.info/diagrams/vendored/ki-agentic-harness/skill-area-fundamentals.html> - Fundamentals area map; does the caption's "look for" reading make the diagram useful to someone who is not a harness developer?
+- <https://knowledgeislands.info/diagrams/vendored/ki-agentic-harness/skill-area-records-and-code.html> - Records and code area map; do edges arriving from outside the area read as reliance rather than clutter?
+- <https://knowledgeislands.info/diagrams/vendored/ki-agentic-harness/skill-area-coordination.html> - Coordination area map, the busiest of the ten; is it still legible inline, or only in the interactive view?
+- <https://knowledgeislands.info/diagrams/vendored/ki-agentic-harness/skill-area-work-and-delivery.html> - Work and delivery area map; does it show the lifecycle skills as a set you would reach for together?
+- <https://knowledgeislands.info/diagrams/vendored/ki-agentic-harness/skill-area-repository-types.html> - Repository types area map; does one shape per repository kind help a reader choose the right skill?
+- <https://knowledgeislands.info/diagrams/vendored/ki-agentic-harness/skill-area-agentic-systems.html> - Agentic systems area map; is the Paperclip skill standing apart confusing or honest?
+- <https://knowledgeislands.info/diagrams/vendored/ki-agentic-harness/skill-area-environment.html> - Environment area map; do the two portable roots and their adapters read as one idea?
+- <https://knowledgeislands.info/diagrams/vendored/ki-agentic-harness/skill-area-acquire.html> - Acquire area map, three nodes; is a diagram this small worth the space on the page?
+- <https://knowledgeislands.info/diagrams/vendored/ki-agentic-harness/skill-area-signals.html> - Signals area map, three nodes and no edges; same question, is it worth the space?
+- <https://knowledgeislands.info/diagrams/vendored/ki-agentic-harness/skill-area-design.html> - Design area map, two nodes; same question, and should the smallest areas share one figure?
 
 ### Ways of working, `/docs/ways-of-working/`
 
-- `https://knowledgeislands.info/docs/ways-of-working/the-work-model/` - **pending** until unit 6. Does the supervisor and worker framing, the seven states and send and receive read as one simple model? Do the two diagrams add to the prose or repeat it?
-- `https://knowledgeislands.info/docs/ways-of-working/work-packages/` - **pending** until unit 6. Could you set up a work folder from this page alone?
-- `https://knowledgeislands.info/docs/ways-of-working/coordination/` - **pending** until unit 6. Steer: is the owner report, the queries with options and the banner explained at the right depth for someone who receives them rather than writes them?
-- `https://knowledgeislands.info/docs/ways-of-working/background-runs/` - **pending** until unit 6. Are grants, the deny list and unattended windows clear enough that you would trust the description?
-- `https://knowledgeislands.info/docs/ways-of-working/roadmap-lifecycle/` - **pending** until unit 6. Does the record lifecycle diagram match how you think of a record's journey?
-- `https://knowledgeislands.info/docs/ways-of-working/work-design/` - **pending** until unit 7. Is it clear when to shape a design this way rather than just capture work?
-- `https://knowledgeislands.info/docs/ways-of-working/trades/` - **pending** until unit 7. The page describes trades as the skills define them today and says nothing about their standing; is that the right thing to publish?
-- `https://knowledgeislands.info/docs/ways-of-working/recurring-work/` - **pending** until unit 7. Does it distinguish a recurrence from a scheduled wake clearly?
-- `https://knowledgeislands.info/docs/ways-of-working/findings/` - **pending** until unit 8. Steer: an interim practice published with one Interim callout and no mention of what is undecided; is that label enough, or too quiet?
-- `https://knowledgeislands.info/docs/ways-of-working/tending/` - **pending** until unit 8. Steer: this is the in-depth page, two tracks and nine levels across two diagrams; is the depth right for a user, or is it an operator's page? Is the fictional island example helpful or distracting?
+- <https://knowledgeislands.info/docs/ways-of-working/roadmap-lifecycle/> - the former planning-and-delivery page at its new address, moved but not yet rewritten, so it still speaks from the harness's view; judge only whether it sits naturally under Ways of working and leave the content until the rewrite lands.
+- The work model, work packages, coordination, background runs, work design, trades, recurring work, findings and tending - **pending**; being written now.
 
 ### Knowledge, `/docs/knowledge/`
 
-- `https://knowledgeislands.info/docs/knowledge/knowledge-bases/` - **pending** until unit 9. Does the zones diagram make the folder model obvious?
-- `https://knowledgeislands.info/docs/knowledge/query-save-update/` - **pending** until unit 9. Would a new island owner know what to do in their first session?
-- `https://knowledgeislands.info/docs/knowledge/acquiring-knowledge/` - **pending** until unit 9. Is exception-based capture explained so that a reader knows what will and will not be captured?
-- `https://knowledgeislands.info/docs/knowledge/recap-and-handover/` - **pending** until unit 9. The page uses the skill's current argument names; does the page read naturally with them?
+- Knowledge bases, query-save-update, acquiring knowledge and recap-and-handover - **pending**; the section is declared and will appear on the Docs landing when its first page lands.
 
 ### Standards, `/docs/standards/`
 
-- `https://knowledgeislands.info/docs/standards/repository-standards/` - **pending** until unit 10. Steer: repository metadata appears as an Interim section inside this page rather than as its own page; right place?
-- `https://knowledgeislands.info/docs/standards/decision-records/` - **pending** until unit 10. Is the path from a logged decision to a record clear?
-- `https://knowledgeislands.info/docs/standards/engineering-and-git/` - **pending** until unit 10. Is combining engineering and Git on one page a help or a muddle?
-- `https://knowledgeislands.info/docs/standards/writing/` - **pending** until unit 10. The only new page without a diagram; does it miss one?
-- `https://knowledgeislands.info/docs/standards/diagrams/` - **pending** until unit 10. Steer: the diagrams across the site use the ki day palette on a panel in both the day and night charts; would you rather they switched palette with the chart?
+- Repository standards, decision records, engineering and Git, writing and diagrams - **pending**; the section is declared and will appear on the Docs landing when its first page lands.
 
 ### The ki CLI, `/docs/ki/`
 
-- `https://knowledgeislands.info/docs/ki/command-groups/` - published today; rewritten with the command-groups diagram **pending** until units 2 and 4. Steer: eighteen groups on one page, a paragraph each; is that the right depth for the CLI section, or should the three added pages carry more and this one less?
-- `https://knowledgeislands.info/docs/ki/work-and-agents/`, `https://knowledgeislands.info/docs/ki/repositories-and-territory/`, `https://knowledgeislands.info/docs/ki/trades-and-acquisition/` - **pending** until unit 4. Is grouping by what a user is doing better than one page per manual group?
-- The nine existing CLI pages - published today, refreshed to v0.13.0 by unit 4. Steer: the site describes the last release only, not what is on main; is that what you expect a user to read?
+- <https://knowledgeislands.info/docs/ki/command-groups/> - **steer**: rewritten around the eighteen manual groups, a paragraph each, with the command-groups diagram; is that the right depth for the CLI section, or should the three added pages carry more and this one less?
+- <https://knowledgeislands.info/diagrams/site/command-groups.html> - command-groups diagram on that page; do the eighteen groups labelled by what each operates on help you pick a group faster than the page's prose?
+- <https://knowledgeislands.info/docs/ki/work-and-agents/> - new; does grouping the work model, background agents and batch commands by what a user is doing beat one page per manual group?
+- <https://knowledgeislands.info/docs/ki/repositories-and-territory/> - new; six manual groups on one page; can you tell registry, repository and territory commands apart as you read?
+- <https://knowledgeislands.info/docs/ki/trades-and-acquisition/> - new; does putting trades, acquisition and knowledge-base search together make sense to a user, or is it a leftovers page?
+- <https://knowledgeislands.info/docs/ki/getting-started/>, <https://knowledgeislands.info/docs/ki/commands/>, <https://knowledgeislands.info/docs/ki/local-commands/>, <https://knowledgeislands.info/docs/ki/naming-and-locations/>, <https://knowledgeislands.info/docs/ki/operator-guides/>, <https://knowledgeislands.info/docs/ki/capability-lifecycle/>, <https://knowledgeislands.info/docs/ki/update-upgrade/> and <https://knowledgeislands.info/docs/ki/chatgpt-local-capture/> - refreshed to v0.13.0. **Steer**: the site describes the last release only, not what is on main; is that what you expect a user to read? Recommended: yes, the last reviewed release.
 
 ### KI Agentic Harness, `/docs/ki-agentic-harness/`
 
-- `https://knowledgeislands.info/docs/ki-agentic-harness/how-the-harness-works/` and the five other retained pages - published today, refreshed by unit 5. With the skills pages moved out, does this section still read as a whole?
-- `https://knowledgeislands.info/docs/ki-agentic-harness/agent-environment/` - **pending** until unit 5. Is bindings, budgets and housekeeping one subject to a reader, or three?
+- <https://knowledgeislands.info/docs/ki-agentic-harness/how-the-harness-works/>, <https://knowledgeislands.info/docs/ki-agentic-harness/installing-a-harness/>, <https://knowledgeislands.info/docs/ki-agentic-harness/onboarding/>, <https://knowledgeislands.info/docs/ki-agentic-harness/repositories/>, <https://knowledgeislands.info/docs/ki-agentic-harness/using-skills/> and <https://knowledgeislands.info/docs/ki-agentic-harness/tuning/> - refreshed; with the skills pages and planning-and-delivery moved out, does this section still read as a whole about running a harness?
+- <https://knowledgeislands.info/docs/ki-agentic-harness/agent-environment/> - new; is bindings, budgets and housekeeping one subject to a reader, or three?
+- <https://knowledgeislands.info/diagrams/site/agent-environment.html> - agent-environment diagram on that page; does inventory above and budgets below make the split between configuration and runtime health obvious?
+
+### Served but not yet on a page
+
+- <https://knowledgeislands.info/diagrams/vendored/ki-agentic-harness/thread-model.html> - the harness's thread-model diagram, vendored for the pending coordination page; look only if curious, and judge whether a coordinating thread, its runs and its returns read as one picture.
 
 ## Open queries of the Ways of working work
 
-Every open query in [`queries.md`](../queries.md) as of this pack, copied in full with Context, Query and Options. The chat presents each as written, recommended option first, and records Kris's answer in the digest by tag and letter.
+Every open query in [`queries.md`](../queries.md) as of this pack, copied in full with Context, Query and Options. The chat presents each as written, recommended option first, and records Kris's answer in the digest by tag and letter. Where a blind review disagreed with the worker, the recommendation says so and both views are kept.
 
 ### STEWARD-FIELD - where a package records who looks after it
 
@@ -233,6 +240,62 @@ a) (recommended, confidence high - follows the note's explicit pilot boundary an
 
 b) Include optional or shape-scoped types in the first standardisation design and review their membership and validation semantics before implementation.
 
+### TIDY-GAPS - an orphan package and a missing source report
+
+**Context:** `+/_WORK/ki.specifications/` in ki-principal holds only old reports, with no `work.md` or `messages.md`, so it has no identity or steward. Separately, harness record KI-HARNESS-REV-012 (Thoughtworks Radar input) links to `radar-confirm-2.report.md`, and no tracked copy exists anywhere. Creating package metadata or substituting another source would invent identity or provenance.
+
+**Query:** Should the coordinator find the intended owner of the orphan package and the source report's durable home from their stewards before any repair?
+
+**Options:**
+
+a) (recommended, confidence high - preserves evidence and avoids inventing identity or provenance) Obtain both authoritative homes, then commission bounded repairs.
+
+b) Keep both findings unresolved for Kris's next review.
+
+### AREA-COLUMN - how the skill catalogue shows functional areas
+
+**Context:** The website's skill catalogue (`/docs/ki-agentic-harness/skill-catalogue/`) now groups the 64 skills by their 8 source concerns and adds a finder table (skill, source concern, functional area), rendered as inline HTML because the site's Markdown gate does not accept a generated row loop as a table. The 10 functional areas exist only inside the harness's generator code, which calls them a diagram reading aid rather than published metadata; the website's sync parses that code directly, so a harness refactor could break the sync without any change in membership. The inline finder is live now, taken provisionally. A masked blind review on Codex disagreed with the worker: the worker recommended keeping the inline finder (medium confidence) as it needs no upstream change; the reviewer recommended the harness publish the area table in its generated `skills/README.md` block (high confidence) as a stable boundary, at the cost of a coordinated harness, sync and page change and a new pin.
+
+**Query:** Should the area finder stay as the website's own inline table, or should the harness publish the area table for the website to consume?
+
+**Options:**
+
+a) (recommended, confidence medium - reviewed, views differ: a stable published boundary outlasts parsing generator code, and the live finder serves until it lands) Keep the live finder now and send the harness a message to publish the area table in its README block, then switch the sync to it at the next pin.
+
+b) Keep the inline finder as the lasting form and accept the coupling to the generator's code.
+
+### ACCEPT - KI-PRINCIPAL-MOD-009 awaits your review
+
+**Context:** [KI-PRINCIPAL-MOD-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-009-amend-adr-001-staging-wording.md) amends the staging wording of ADR-001 and is delivered and awaiting acceptance. [KI-PRINCIPAL-OPS-014](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md) (GFM conversion) is not yet ready: it still needs its four-client render checks.
+
+**Query:** Do you accept KI-PRINCIPAL-MOD-009 as done?
+
+**Options:**
+
+a) (recommended, confidence high - delivered, its checks pass and nothing depends on it remaining open) Accept it after reading the amended wording.
+
+b) Return it with the change you want.
+
+### REPO-STANDARDS-SET - which skills the Repository standards area lists
+
+**Context:** The website's new feature-area map gives each reader-facing area a docs page and a "Provided by" box naming the harness skills behind it. Repository standards lists the twelve general `ki-repo-*` skills (website, MCP, harness and similar). The four knowledge-base skills, `ki-repo-kb` and its overlays for streams, activities, principal governance and live artifacts, are listed under Knowledge bases and, for some, Recurring work, but not under Repository standards. That is live now, taken provisionally. A masked blind review on Codex disagreed with the worker: the worker preferred leaving them out (medium confidence), so that one skill does not appear in three boxes; the reviewer preferred including them (high confidence), because a knowledge base is a governed kind of repository and the shared membership links the two concerns, at the cost of a longer box that might suggest every repository needs knowledge-base conventions.
+
+**Query:** Should the knowledge-base skills also appear under Repository standards?
+
+**Options:**
+
+a) (recommended, confidence medium - reviewed, views differ: the reviewer's point that a knowledge base is a governed repository kind is sound, and a short line can say these apply only to knowledge bases) Include all sixteen, with the knowledge-base skills marked as applying only to knowledge bases.
+
+b) Keep the live twelve and leave the knowledge-base skills to their own areas.
+
+### DEPS-1 - Bring the website's dependencies inside the age window
+
+**Context:** The website's engineering audit fails its DEPS-1 dependency-age check: `@types/node` 26.6.5, `rumdl` 0.2.79 and Bun 1.4.3 are past the 14-day adoption window. Tonight every documentation unit committed under it as a pre-existing baseline, since no unit may install dependencies. The skills unit proposed a separate update, and a masked blind review on Codex agreed independently: the standard defaults to adoption and no concrete incompatibility has been found.
+
+**Query:** Should a separate maintenance unit bring these dependencies current, after the away window?
+
+**Options:** a) (recommended, confidence high - reviewed: the standard defaults to adoption and no incompatibility is known) A separate maintenance unit, after the window, runs `ki:deps:update`, bumps Bun, re-runs every gate and test and commits the update on its own. b) Record an adoption deferral for these three, with a reason and a review date, and leave the versions as they are.
+
 ## Feedback digest shape
 
 When the walk ends, the chat writes exactly this, filling every section and keeping the headings, so Kris can paste it to the coordinating thread. One line per item; tags are the ones used above; a letter is one of the options offered; "none" where a section is empty.
@@ -244,7 +307,7 @@ When the walk ends, the chat writes exactly this, filling every section and keep
 - <address> - <one line of Kris's verdict>
 
 ## Pages skipped or pending
-- <address> - pending | skipped | failed to load
+- <address or section> - pending | skipped | failed to load
 
 ## Steer on design choices
 - <section or page> - <the question in a few words> - <Kris's answer in his words>
