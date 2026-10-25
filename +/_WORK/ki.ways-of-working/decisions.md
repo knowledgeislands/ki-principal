@@ -316,6 +316,10 @@ Harness `6f3497c5` fixes C8 NUMBERED, C9 LANES, G2 REFRESH-PATH, G4 SESSION-KIND
 
 wow-method-digest compared eff6163b with 1af72f2e; with the wow-skillset-fixes-2 report, `method_read` moves to 6f3497c5. One contract mismatch found: the coordination standard now stores open findings in a per-tag findings file (FINDINGS-SECTION), but the `ki-work-package` closed list and FOLDER-1 still exclude it, so following the standard would fail the folder check. wow-findings-list carries the fix under Kris's FINDINGS-SECTION answer.
 
-## 2026-10-25 02:49 GMT - wow-roadmap-2 received
+## 2026-10-25 02:48 GMT - wow-roadmap-2 received
 
 `a4fef236` adds `design/window-plan.md`: no authorised Now or Next draft or Ready record is eligible for unattended delivery in principal or harness, so no delivery wave ran. KI-PRINCIPAL-MOD-009 and KI-PRINCIPAL-OPS-014 await acceptance and KI-HARNESS-GOV-204 stays held. The run's prompt was fixed at launch, so the tending and interim-policy addenda were not seen; they move to wow-interim-cover.
+
+## 2026-10-25 02:49 GMT - wow-note-cadence received
+
+`ef668240` brings the Work Process note's commit cadence and standing push wording into line with COMMIT-CADENCE and PACKAGE-PUSH, citing the standard; published. Its own push was blocked by five untracked copies of received run reports in this package; their outcomes are homed in this log and their queries are in `queries.md`, so they are removed. Received reports are no longer to be left untracked in the package.
