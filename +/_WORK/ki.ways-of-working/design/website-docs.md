@@ -194,6 +194,10 @@ Kris's steer was that Docs and Projects can probably go together. They do, by na
 - `/projects/` and every `/projects/<slug>/` keep their addresses. They are the catalogue, the target of the `/install/<tool>` and `/tooling/` redirects and the `projectPages.ts` generator; a project page links to its Docs section in one sentence as it does now.
 - Nothing moves to `/docs/ecosystem/`. Moving seventeen pages and their redirects would change addresses without changing what a reader understands.
 
+## Gate baseline
+
+Decided by the coordinator under DOCS-PUBLISH at 04:23 GMT on 25 October 2026. The engineering audit's DEPS-1 dependency-age failure (`@types/node`, `rumdl` and Bun past the adoption window) and its CI-1 warning are the pre-existing baseline. Every delivery unit commits and pushes under them once the site build with all its gates, the tests, the typecheck and the website-content, authoring and diagrams audits pass, and names DEPS-1 in its report. No unit installs or updates dependencies: that is separate maintenance outside the night's window. Commit only your own paths by explicit path; other units may be working in the same checkout.
+
 ## Decisions settled
 
 Where the proposals agreed the agreement is adopted; where they differed the choice and its reason are one line each.

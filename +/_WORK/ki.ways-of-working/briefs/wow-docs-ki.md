@@ -34,3 +34,7 @@ Commit as `docs(site): refresh the ki CLI section to v0.13.0 and add three pages
 ## Relaunch note (04:26 GMT)
 
 CLI-PREREQUISITES a) is granted. You start after wow-docs-diagrams has committed `command-groups.md` and the pipeline. In scope: repair the roff parser for the new escapes, and add local Git input to the CLI sync script and its tests, reading the `tools-ki` checkout at `/Users/krisbrown/workspaces/knowledge-islands/tools-ki` at its `v0.13.0` tag (read only; never edit or tag tools-ki). Commit only your own paths; wow-docs-skills may be working in the same checkout.
+
+## Relaunch note (04:36 GMT)
+
+Your sixteen prepared paths are in the website checkout, uncommitted. Follow the plan's Gate baseline section: DEPS-1 is the pre-existing baseline, so re-run the gates, then commit only your own paths by explicit path and push fast-forward, naming DEPS-1 in your report. Do not install or update dependencies. wow-docs-skills is working in the same checkout: never stage, revert or touch its files.
