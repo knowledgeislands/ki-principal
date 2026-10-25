@@ -162,3 +162,9 @@ wow-drift-blind on Codex agreed with REBOOT-SHAPE, GAP-SUMMARY and METHOD-NUDGE,
 ## 2026-10-25 01:25 BST - routed AGENT-SEND-NO-RUN
 
 The `ki agent send` defect from the restart list (area 1h) went to ki.tools-burndown as a messages line, with the launch run-name friction seen on 24 October.
+
+## 2026-10-25 01:31 BST - away grant and LAUNCH-FIRST
+
+AWAY-GRANT - Kris, 25 October, interactive: "Grant to 09:00". Taken as: an unattended window until 09:00 BST on 25 October or Kris's return, whichever is first. Work: launching background agents for this work's units, committing their work, pushing this work's own commits fast-forward only. Exclusions: no standard or configuration change beyond answers Kris gives in this thread; no DNS, Cloudflare or GitHub settings change; no release; no force-push. Wake word "resume"; stop word "stop the wake".
+
+LAUNCH-FIRST - Kris: "All three". Taken as: tending-fold and model-shape start now; coord-standard starts once tonight's coordination answers are in, carrying only those answers.
