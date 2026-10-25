@@ -291,3 +291,7 @@ wow-skillset wrote `design/skill-set.md`: fourteen skills in five layers, the th
 ## 2026-10-25 01:58 GMT - skill-set blind review received
 
 wow-skillset-blind on Codex agreed with BOOT-HOME a) and TRADES-FATE a), each lifted to high with its additions (readiness never waits on an unbuilt `ki doctor`; HOLD-1 keeps a calendar backstop). Both wait for Kris in the morning with RECAP-NAME.
+
+## 2026-10-25 02:09 GMT - harness chain moved to Codex, report prune received
+
+The Claude runs stopped at the account session limit at about 01:59 GMT, resetting 03:00; the harness chain was relaunched on Codex as wow-harness-coord-2, wow-harness-model-2, wow-skillset-fixes-2 and wow-roadmap-2, resuming wow-harness-coord's uncommitted worktree. The report prune deleted 136 reports in total and kept 64 whose queries have no verified home; wow-orphan-sweep accounts for each.
