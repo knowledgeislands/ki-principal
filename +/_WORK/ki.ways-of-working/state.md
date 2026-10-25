@@ -13,12 +13,12 @@ method_read: 8897008f
 ## Now
 
 - 01:07 GMT: mark struck at the start of the unattended window, to 08:00 GMT.
-- 04:58 GMT: DOCS-PUBLISH under way on the website's main. Live: skills catalogue (`ddcf533`), structure (`6a0cc48`), diagram pipeline (`d547611`), ki CLI pages (`30e53c5`), Skills section (`57864b1`), harness pages (`1056bb6`). Running: wow-docs-work-a. Chained behind it: wow-docs-work-b, wow-docs-work-c, wow-docs-knowledge, wow-docs-standards. DEPS-1 is the gate baseline every unit commits under.
+- 06:43 GMT: DOCS-PUBLISH complete and live: ten docs units, 64 pages in ten sections with Archify diagrams, last commits `076bcc4`, `31f4ba3`, the deploy fix `904176e` and the test fix `0c0bfd1` on the website's main. The Cloudflare deploy outage from 04:22 to 06:22 GMT is fixed. Website CI stays red on the pinned `ki` v0.8.4 (CI-PIN query). The review pack, `design/review-pack.md`, is final with 33 open queries in nine themes and all 80 addresses live. Nothing is running.
 
 ## Next steps
 
-- Coordinator: receive each docs unit in turn, relaunching any that stops on DEPS-1 or a shared-tree question; bring the review pack, `design/review-pack.md`, up to date with the open queries and live URLs; at 08:00 GMT stop starting work and give the return report with every open query in full.
-- Kris on return: the open queries in full, the website review list and the review pack.
+- Coordinator: keep the territory sync running until 08:00 GMT, launch nothing new unless a message needs it, then give the return report with every open query in full.
+- Kris on return: the 33 open queries, the website review list and the review pack.
 
 ## Held
 
