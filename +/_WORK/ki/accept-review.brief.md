@@ -22,4 +22,4 @@ Also check, read-only, whether KI-OBSERVA-BRG-005 in `apps-observatory.local` no
 
 ## Report
 
-Write `+/_WORK/ki/accept-review.report.md` in `ki-coordination` run-report form: Done, In Progress and Queries. Give one `ACCEPT-<record>` query per record, with Context (what was delivered, the evidence checked, anything left open), Query and lettered Options, the recommended option first with its confidence and reason. Commit the report by explicit path, pull with rebase, and push fast-forward only.
+Write `/Users/krisbrown/.local/state/ki/agents/ki/accept-review.report.md` in `ki-coordination` run-report form: Done, In Progress and Queries. Give one `ACCEPT-<record>` query per record, with Context (what was delivered, the evidence checked, anything left open), Query and lettered Options, the recommended option first with its confidence and reason. The launcher homes the report in the work folder.
