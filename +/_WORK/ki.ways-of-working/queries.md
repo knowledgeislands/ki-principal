@@ -288,6 +288,14 @@ c) Build the launchd job first and write the contract from what it needs.
 
 a) (recommended, confidence high - reviewed: a masked Codex review agreed; 230 of 357 findings are mechanical (COORD-7 alone 187), the Enactment Process allows one bounded batch approval, and fixing only this work's folder would leave 273 findings) One run with an enumerated finding and path scope fixes them: each mechanical fix verified before it is applied, and RECORD-2, FOLDER-1, STRUCTURE-1 and any work-package case returned as queries. BIO-1's configuration migration is bounded separately. b) Fix only this work's own folder findings now, and leave the rest to each repository's own work.
 
+### SUMMARY-VISIBLE - the release dispatch line is visible only in the browser
+
+**Context:** When the tap tells consumers about a release, its Notify job writes "Dispatched <tool> <version> to <consumer>" only to the job summary, which GitHub shows on the web page but not through `gh` or the API. The overnight replay check proved delivery from the harness's own run instead.
+
+**Query:** Should the Notify job also print that line to its log, so a future check can be confirmed from the command line alone?
+
+**Options:** a) (recommended, confidence high - a one-line tap workflow change with no behaviour change) Print the line to the log as well, and point the release guide's step 6 at it. b) Leave it, and reword the guide to treat the receiver's run as the proof. c) Do nothing.
+
 ## Parked
 
 - PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.
