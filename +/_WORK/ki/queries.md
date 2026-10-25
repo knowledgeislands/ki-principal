@@ -50,6 +50,63 @@ a) (recommended, confidence medium, review disagrees - the blind reviewer chose 
 
 b) Kris reviews the present plan now and a ki-plan run sets it to Ready.
 
+### ACCEPT-KI-WEBSITE-SITE-044 - (in blind review) accept the website's design v1
+
+**Context:** [KI-WEBSITE-SITE-044](/Users/krisbrown/workspaces/knowledge-islands/apps-knowledgeislands.info/docs/roadmap/KI-WEBSITE-SITE-044-design-v1.md) moves the site onto `ki-design`: its tokens, type, Voyage and Atlas navigation, the restyled home page, a new Field Guide and `sync:design`. It also includes the Port switch. Every gate in its Verify list passed again on `main` at `2628c48`. Two items are still open, and neither can be settled without the network or a person:
+
+- **The private citation.** The Field Guide cites `knowledgeislands/ki-design`. The page-provenance guide forbids citing a source no reader can open. `ki-design`'s `.ki.toml` has declared `visibility = "public"` since 18 October, but the 20 October review found the repository returned 404 to anonymous readers. This run made no network call, so it is unconfirmed whether it is public now.
+- **The visual check.** The record asks for a visual check at 1440 and 390 px in both colour schemes. It has not been repeated since the Port update.
+
+**Query:** Accept KI-WEBSITE-SITE-044 once you have confirmed that `ki-design` opens for an anonymous reader and looked at the pages?
+
+**Options:**
+
+a) (recommended, confidence medium - the gates pass, but the repository's public status could not be verified here) Open `https://github.com/knowledgeislands/ki-design` in a private window. Look at the home page, one inner page and the Field Guide at 1440 and 390 px, in light and dark. If both checks are good, accept through `ki-accept`.
+
+b) Accept now, knowing the Field Guide's citation may not yet open for readers.
+
+c) Return it to implementation to drop or replace the `ki-design` citation, and to refresh the out-of-date packet lines, before acceptance.
+
+### ACCEPT-KI-PRINCIPAL-OPS-014 - accept the GitHub-flavoured Markdown conversion
+
+**Context:** [KI-PRINCIPAL-OPS-014](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md) converted ki-principal to GitHub-flavoured Markdown in nine commits, plus the 20 October owner answers (plain images, template links, Link Review). Acceptance tests 1, 2, 3 and 5 are evidenced, and this run confirmed tests 2 and 5 again: no wikilinks remain, and no failure falls on the converted paths. Acceptance test 4 is still open and is yours under RENDER-CHECK a): the final Step, a client render check of the Library heading link and an alert in GitHub, Obsidian, Zed and the Observatory, plus the four plain images. In the Observatory, the dropped heading fragment has to be either recorded as a failure or accepted as a fallback.
+
+**Query:** Run the four client render checks, then accept KI-PRINCIPAL-OPS-014?
+
+**Options:**
+
+a) (recommended, confidence high - the record makes test 4 your check before acceptance, and every other test is evidenced) Run the four render checks and tell me each outcome, including how to treat the Observatory fragment. Then accept, with the outcomes recorded.
+
+b) Accept now, expressly waiving acceptance test 4.
+
+c) Leave it awaiting review until you have time for the render checks.
+
+### ACCEPT-KI-PRINCIPAL-MOD-009 - (in blind review) accept the ADR-KI-PRINCIPAL-001 staging amendment
+
+**Context:** [KI-PRINCIPAL-MOD-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-009-amend-adr-001-staging-wording.md) amended [ADR-KI-PRINCIPAL-001](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/ADR-KI-PRINCIPAL-001-provider-neutral-knowledge-acquisition.md) and the [Acquisition Process](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md>) in `3b1ade21` on 23 October. The changes stage material outside the receiving island, make delivery into `+/_ACQUIRED/` package acceptance, and call Acquire the port and sorting office, as CUSTOMS-WORDS a) approved. Checks pass on the delivered files. One problem: the rewritten Context sentence at line 18 says "The Harbour defined in SDR-KI-PRINCIPAL-002 is the island's incoming working area". [GDR-KI-PRINCIPAL-010](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-010-the-port.md) retired Harbour as a Knowledge Islands term on 18 October and made `+/` the Port's inbound side. The delivery therefore wrote a retired term back into a current ADR in the present tense. The References line describing SDR-KI-PRINCIPAL-002 is accurate as history.
+
+**Query:** Return KI-PRINCIPAL-MOD-009 to implementation for a one-sentence fix of the Harbour wording, or accept it as it stands?
+
+**Options:**
+
+a) (recommended, confidence medium - a single sentence conflicts with GDR-KI-PRINCIPAL-010, but it can be read as SDR-KI-PRINCIPAL-002's historical name) Return it to implementation. Reword line 18 so that `+/` is the island's inbound side of the Port under GDR-KI-PRINCIPAL-010, cite `3b1ade21` in the record, then resubmit.
+
+b) Accept as it stands, reading "Harbour" as SDR-KI-PRINCIPAL-002's own term.
+
+### ACCEPT-KI-TOOL-RIG-CORE-062 - (in blind review) accept Rig's own-address firewall destination
+
+**Context:** [KI-TOOL-RIG-CORE-062](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-062-own-address-firewall-destination.md) narrows the `macos-pf` anchor so it passes Tailscale sources only to the Mac's own tailnet addresses, discovered read-only from `ifconfig`. It refuses when no address can be found and reports a stale address. The gate refusal from 20 October is resolved, and today the full suite passes 645 of 645 and the audit has no failures. Its Verify list still asks for a read-only `ifconfig` on `terra` to confirm discovery under Homebrew `tailscaled`, and the 20 October reviewer asked for that evidence before resubmission. It was never obtained, and this run is barred from remote calls. The attended live rewrite of `sol`'s and `terra`'s anchors stays separate, connection-critical work with its rehearsed rollback. The on-link residual stays by your decision.
+
+**Query:** Run the read-only `terra` check, then accept KI-TOOL-RIG-CORE-062?
+
+**Options:**
+
+a) (recommended, confidence medium - the code is fully verified locally, but the record's own Verify list and the earlier reviewer both ask for the terra evidence) Run `ssh terra /sbin/ifconfig | awk '/^[a-z]/{i=$1} /inet6? (100\.|fd7a:115c:a1e0)/{print i, $2}'` and tell me the output. If one `utun` interface carries both addresses, accept through `ki-accept`, with the output recorded.
+
+b) Accept now, carrying the terra check into the attended rollout, because Verify words it as "before any live apply".
+
+c) Leave it awaiting review.
+
 ## Parked
 
 ### ESTATE-CLOSE - retire Estate factorisation as prepared
