@@ -286,7 +286,7 @@ c) Build the launchd job first and write the contract from what it needs.
 
 **Options:**
 
-a) (recommended, confidence medium - a green main is what RED-MAIN wants, and the fixes are mostly mechanical; medium because some rules may need content choices, which the run would bring back as queries) One run fixes them: mechanical fixes made directly, anything needing judgement raised as a query, and this work's own folder fixed first. b) Fix only this work's own folder findings now, and leave the rest to each repository's own work.
+a) (recommended, confidence high - reviewed: a masked Codex review agreed; 230 of 357 findings are mechanical (COORD-7 alone 187), the Enactment Process allows one bounded batch approval, and fixing only this work's folder would leave 273 findings) One run with an enumerated finding and path scope fixes them: each mechanical fix verified before it is applied, and RECORD-2, FOLDER-1, STRUCTURE-1 and any work-package case returned as queries. BIO-1's configuration migration is bounded separately. b) Fix only this work's own folder findings now, and leave the rest to each repository's own work.
 
 ## Parked
 
