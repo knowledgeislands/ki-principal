@@ -2,32 +2,6 @@
 
 ## Open
 
-### SORT-ARM - cancel the conditional ARM Linux release record [KI-TOOL-KI-CLI-125](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-125-ki-release-contract.md)
-
-**Context:** The record is held until an ARM Linux host is needed; vega is x86 and sol is macOS arm64, both already covered by release archives, and no ARM Linux host exists or is planned. It also carries a reusable release-contract requirement (per-platform archives, checksum manifest, signature, embedded installer key). The roadmap sort proposed cancelling it; a masked blind review agreed at high confidence, noting your 20 October review chose to keep it held.
-
-**Query:** Should the record be cancelled, with ARM Linux kept as an Agent host Idea and the release-contract requirement kept as a short section in the tools-ki release guide?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; current hosts are covered and the requirement survives in the guide) Cancel it, add the ARM Linux Idea under the Agent host and the contract section to the release guide.
-
-b) Keep it held until an ARM Linux host is needed.
-
-### COORD-COMMANDS - add explicit commands for hold, drain, resume, send and receive
-
-**Context:** Kris wants to say a move as a command, such as `/ki-coordination hold`. Today only summary, recap, full-summary and mark are commands. In the Work Process note, drain is an activity inside the move to On hold, not a state. A standalone drain would stop new launches while the work stays With worker, and DRAIN-END decides how it reports.
-
-A masked blind review on Codex disagreed: it would keep drain only inside hold, because the Work Process note defines drain as the activity leading into On hold and a standalone drain needs its own contract first.
-
-**Query:** Should the skill gain `hold`, `drain`, `resume`, `send` and `receive`, with `drain` usable on its own?
-
-**Options:**
-
-a) (recommended, confidence medium - review disagrees; it gives you the drain word and needs no Work Process change) Add all five, where `hold` is drain plus On hold and `drain` alone stops launches and reports when everything has finished.
-
-b) Add `hold`, `resume`, `send` and `receive`, with drain only ever part of hold.
-
 ### RUN-SECRETS - runs read secrets only through the dotfiles helpers
 
 **Context:** Kris approved the 1Password cache ("I really need the OP cache doing") and said Cloudflare access "should be uniform across whichever territory I'm working in". The proposals are:
