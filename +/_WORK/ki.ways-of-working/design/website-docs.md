@@ -198,6 +198,10 @@ Kris's steer was that Docs and Projects can probably go together. They do, by na
 
 Decided by the coordinator under DOCS-PUBLISH at 04:23 GMT on 25 October 2026. The engineering audit's DEPS-1 dependency-age failure (`@types/node`, `rumdl` and Bun past the adoption window) and its CI-1 warning are the pre-existing baseline. Every delivery unit commits and pushes under them once the site build with all its gates, the tests, the typecheck and the website-content, authoring and diagrams audits pass, and names DEPS-1 in its report. No unit installs or updates dependencies: that is separate maintenance outside the night's window. Commit only your own paths by explicit path; other units may be working in the same checkout.
 
+## Linking back from Skills by outcome
+
+Decided by the coordinator under DOCS-PUBLISH at 04:42 GMT on 25 October 2026. `/docs/skills/by-outcome/` names the Ways of working, Knowledge, Standards and Harness pages as unlinked text until they exist. The unit that lands each page adds its link in `apps/site/src/docs/skills/by-outcome.md` in the same commit, and points the two Design rows at their page if it lands one.
+
 ## Decisions settled
 
 Where the proposals agreed the agreement is adopted; where they differed the choice and its reason are one line each.
