@@ -295,3 +295,7 @@ wow-skillset-blind on Codex agreed with BOOT-HOME a) and TRADES-FATE a), each li
 ## 2026-10-25 02:09 GMT - harness chain moved to Codex, report prune received
 
 The Claude runs stopped at the account session limit at about 01:59 GMT, resetting 03:00; the harness chain was relaunched on Codex as wow-harness-coord-2, wow-harness-model-2, wow-skillset-fixes-2 and wow-roadmap-2, resuming wow-harness-coord's uncommitted worktree. The report prune deleted 136 reports in total and kept 64 whose queries have no verified home; wow-orphan-sweep accounts for each.
+
+## 2026-10-25 02:18 GMT - wow-harness-coord-2 received
+
+Harness `938c7546` carries COMMIT-CADENCE, PACKAGE-PUSH, SUMMARY-WINDOW, THREAD-RENAME, FINDINGS-SECTION, QUERY-RULES, DRAIN-END, COORD-COMMANDS, METHOD-NUDGE, REVIEW-CHECK, THEME-CLOSE, RUN-SECRETS (Cloudflare half), COORD2-RUBRIC and the unattended-window decisions; PRFLOW's home in the harness AGENTS.md is confirmed. Tests 1,450 passed. The `ki-engineering` dependency-age finding (`@types/node`, `knip`, Bun) is separate maintenance, outside this window.
