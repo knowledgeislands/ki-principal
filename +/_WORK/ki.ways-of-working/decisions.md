@@ -339,3 +339,9 @@ Read back as taken: the away grant runs to 09:00 GMT as before and now also auth
 Kris: "a sort of digest of everything that's gone on and I can point ... the chat model in Claude or the chat model in ChatGPT and ask it to talk me through that, pointing to the website ... it can go through a checklist that it reviews ... use the checklist itself and keep its own response and get a digest, and then I can post this back into this later on so you can get feedback on what's next."
 
 Read back as taken: the night's deliverable gains a review pack: one self-contained prompt Kris can paste into Claude or ChatGPT chat, pointing at the published pages, that walks him through them conversationally against the review checklist and ends by producing a feedback digest in a fixed shape; Kris pastes that digest back into this thread, where it is received like a message and turned into decisions and next work. No write-back from the chat model to the repository. The design runs' prompts were fixed before this, so the merge brief carries it.
+
+## 2026-10-25 02:56 GMT - REVIEW-DIGEST refined: open queries go in the review pack, not on the website
+
+Kris: "you don't have to publish any of the decisions that are waiting on me into the website. You can just make sure the website represents the latest state, but then those questions that are outstanding can go in that walkthrough or checklist ... in a particular location in the Knowledge Islands principal repository, and then I can point it at that so that it can use that to initiate what it wants it to do."
+
+Read back as taken: the website shows only the settled current state and does not mention open owner queries. The review pack lives in ki-principal at `+/_WORK/ki.ways-of-working/design/review-pack.md`, pushed so a chat model can read it from GitHub: its opening prompt, the page checklist, every open query in full, and the shape of the feedback digest Kris pastes back here.
