@@ -14,7 +14,8 @@ method_read: fdf9a604
 
 - 08:27 GMT: AWAY-GRANT-2 unattended window opened, ending at "I'm back" or about 08:27 GMT on 26 October; session cron wakes every 15 minutes; stop word "stop the wake".
 - 08:58 GMT: received this window wow-ci-pins, wow-unattended-limits, wow-tap-consumer, wow-review-docs-red, wow-replay-smoke, wow-external-limits, wow-guidance-refresh, wow-hnr-resolve, wow-hnr-level, wow-ask-timeout, wow-mgit-cache-design, wow-red-main and two blind reviews. Harness main green at `5cb52973`; guidance read to `fdf9a604`.
-- Running: wow-fleet-green (dependency and toolchain drift across the fleet). Queued behind it: wow-ki-pin-release (ki v0.14.0 with the current harness pin, then the website's KI_VERSION), which clears the website's last DESIGN-2 failure.
+- 10:55 GMT: received wow-fleet-green. 13:23 GMT: received wow-ki-pin-release; tools-ki main green, but ki v0.14.0 did not publish (macOS package jobs out of memory), so the fleet's DESIGN-2 reds stay until REL-MACOS-OOM is answered.
+- Running: wow-review-rel, a masked blind review of REL-MACOS-OOM and TOOLSKI-DEPCRUISE.
 - 01:07 GMT: mark struck at the start of the previous window. 06:43 GMT: DOCS-PUBLISH complete and live.
 
 ## Next steps

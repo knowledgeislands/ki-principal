@@ -344,13 +344,29 @@ a) (recommended, confidence high - reviewed: a masked Codex review agreed; 230 o
 
 **Options:** a) (recommended, confidence high - reviewed blind on Codex, which verified the line byte-identical itself; the tree is clean, nothing unpublished is lost and the command refuses if a tracked file would be) A bounded run runs `git -C /Users/krisbrown/workspaces/humans-not-robots/hnr-principal reset -q --keep origin/main`. b) An offline `git rebase origin/main`, skipping the one commit when it conflicts; the same end state with an extra step. c) Leave it for the next session working in hnr-principal to level.
 
-### FG-1 - tools-ki main stays red on a snapshot mismatch that is not drift
+### REL-MACOS-OOM - ki v0.14.0 cannot publish because the macOS package jobs run out of memory in one test file
 
-**Context:** tools-ki's CI fails TEST-5 because `test:coverage` fails two snapshot tests in `src/tests/cli/agent-compatibility.test.ts` ("baseline role-free footer none" and "baseline role-free footer push"). The same suite passes in full in a clean clone of `origin/main` on this machine (97 files, 2150 tests), so the mismatch is specific to the CI environment, not the Bun or dependency drift wow-fleet-green cleared. The footer under test is another session's feature work; wow-fleet-green's only tools-ki change was the Bun 1.4.3 pin, which cleared DEPS-1. Raised by wow-fleet-green on 25 October.
+**Context:** The Release workflow runs `bun run test` on each packaging runner before packaging. On both macOS runners the vitest worker for `src/tests/cli/agent-control.test.ts` (5284 lines, 544 tests, changed after v0.13.0) ran out of JavaScript heap: 2111 of 2150 tests had passed, and the jobs took 38 and 50 minutes against about 2 for v0.13.0, which suggests heavy swapping on the 7 GB runners. Linux passed, and the same file passes locally on macOS in 153 seconds. Release run 40192625875: <https://github.com/knowledgeislands/tools-ki/actions/runs/40192625875>. Nothing was published and no GitHub release exists. The `v0.14.0` tag is already on origin at `09316eb5` and published tags are never moved, so any fix in the tested commit means a new version. Twelve repositories and the website stay red on DESIGN-2 until a release ships. Blind review pending.
 
-**Query:** Who takes the agent-compatibility snapshot mismatch on tools-ki's CI?
+**Query:** How should the release proceed?
 
-**Options:** a) (recommended, confidence high - the test and the footer it snapshots belong to the session already working in tools-ki, and a passing local run says the snapshot encodes something environment-dependent its author should see) Route it as a line to KI > Foundations > Tools burndown (ki.tools-burndown): make the footer snapshot environment-independent or regenerate it, so CI's TEST-5 clears. b) (confidence medium - quick, but risks baking a CI-only rendering into the snapshot without understanding why it differs) A bounded run regenerates the snapshot from CI output and commits it. c) (confidence low - leaves tools-ki red and may block the ki v0.14.0 release) Leave it until the feature work lands.
+**Options:** a) (recommended, confidence medium - the only path that keeps the release gate honest and gives the test a stable footprint on every runner) Fix the test footprint on tools-ki main by splitting `agent-control.test.ts` or freeing its fixtures between groups, give the package job's test step a `NODE_OPTIONS=--max-old-space-size` ceiling matched to the runner, then tag and release `v0.14.1` and continue the pin and website steps against it; leave `v0.14.0` unpublished in place. b) Only raise the heap ceiling in `release.yml` for the package test step, tag `v0.14.1` and re-dispatch. Smallest change, but it may only slow the failure as the file grows. c) Run the test suite on Linux only and let the macOS jobs package without testing, then tag `v0.14.1`. Faster, but it weakens the release gate. d) Leave the release unpublished and the fleet on v0.13.0, with DESIGN-2 red, until a later window.
+
+### WEB-BUILD-ORDER - website CI runs its tests before the site build
+
+**Context:** The website CI runs the audit, then `bun run test`, then `bun run ki:site:build`. The test "passthrough viewers and SVGs remain byte-identical after the site build" in `apps/site/scripts/verify-diagrams.test.ts` reads `apps/site/dist`, which exists only after the build, so on a clean runner the test step fails whatever `KI_VERSION` says. On a fresh clone the suite failed before the build and passed after it (116 + 15 tests). The release run's brief told it to query rather than fix a failure with another cause.
+
+**Query:** Once a release exists, may the website run move `bun run ki:site:build` before `bun run test` in `.github/workflows/ci.yml`, in the same commit as the `KI_VERSION` bump?
+
+**Options:** a) (recommended, confidence high - the test is a post-build check by design and the fix is one line in a file the run already edits) Yes: reorder build before test in the same commit as the pin bump, and watch CI. b) Bump `KI_VERSION` alone and capture the ordering as a website work record for later. c) Skip or remove the dist-dependent test instead.
+
+### TOOLSKI-DEPCRUISE - tools-ki's own CI hits the same checker-root drift once its KI_VERSION moves
+
+**Context:** tools-ki's CI installs released ki v0.13.0 and audits itself. Its checker root is still `tooling/boundaries`, and its `ci.yml` installs it at that path. Nothing fails today because v0.13.0 expects the old name, but the moment tools-ki bumps its own `KI_VERSION` to a release carrying the new harness pin, DESIGN-2 fails, as it already does in a local audit with current ki. Blind review pending.
+
+**Query:** Should tools-ki's rename to `tooling/depcruise` and its own `KI_VERSION` bump be folded into the release work in REL-MACOS-OOM, or kept separate?
+
+**Options:** a) (recommended, confidence medium - it is the same drift the release exists to clear and it is small, but it widens the run's scope) Fold the rename and the bump into the next release run, so tools-ki's own CI stays green after the release. b) Capture it as a tools-ki work record and leave tools-ki on v0.13.0 for now.
 
 ## Parked
 
