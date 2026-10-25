@@ -412,6 +412,14 @@ b) Yes: a run under a machine grant adds the read-only allow set, an explicit de
 
 c) Move the repository allow list to the user settings only, leaving bypass and trust as they are.
 
+### CI-PIN - Bring the website's CI onto a ki that knows the diagrams skill
+
+**Context:** The website's GitHub Actions CI has been red on every commit since the diagram pipeline landed at 04:22 GMT on 25 October, failing at its `ki repo repair` step: the workflow pins `ki` v0.8.4, whose harness lacks the `ki-diagrams` skill the repository's `.ki.toml` now declares. The live site is unaffected, since Cloudflare builds and deploys on its own and succeeds again since fix `904176e`. The website's AGENTS.md treats this as checker drift owed to a `tools-ki` pin bump. Moving the pin changes CI configuration, which the away window excluded.
+
+**Query:** Should a bounded run move the website's CI `ki` pin to the current `tools-ki` release so CI goes green?
+
+**Options:** a) (recommended, confidence high - the declared skill exists only in newer harnesses, the website's own guidance names a pin bump as the cure, and it is a one-line, reversible change) A bounded run moves the pin to the current `tools-ki` release, confirms CI passes on the next push and commits it on its own. b) Leave CI red until the next scheduled `tools-ki` pin review.
+
 ## Parked
 
 None.
