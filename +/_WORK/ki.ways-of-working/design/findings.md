@@ -1,6 +1,6 @@
 ---
 note_type: streams/design
-updated: 2026-10-24T16:16:00Z
+updated: 2026-10-25T00:50:00Z
 author: Written with Claude
 ---
 
@@ -147,3 +147,19 @@ Under PROPOSALS the same day, Kris asked for this note: "In the same way that we
 ## Other territories
 
 Later runs add a `### <Territory> run, <date>` section here, a few short lines on which findings were asked for, whether the goal-first shape and the carrying rule helped, where the finding files lived, and how each was settled.
+
+### Valle Armonia interim pass, 2026-10-24
+
+One quick territory pass applied the interim policy. Goal first made its tending table readable on its own, and REPO-ALIGN, FOLDERS and PROMPTS carried cleanly. Two points were unclear, with short answers:
+
+- **Whether a dispositions table the brief asked for, rather than Kris, is a finding:** no. It is Done, under [What counts as a finding](#what-counts-as-a-finding): only an owner request makes a finding.
+- **Whether a run writes `findings/<tag>.md` when its brief names no file:** no. A run writes the file only when its brief names it, as with a design note; otherwise it puts the finding in its run report and the coordinator copies it at receive, under [Where a finding lives between Summaries](#where-a-finding-lives-between-summaries).
+
+### Personal run, 2026-10-24
+
+Personal asked for one finding, REPO-META, the repository metadata survey of its nine members.
+
+- **Fitted:** REPO-META was carried as one finding with its per-repository table, and its decisions went to Kris as separate queries, as [Findings and queries](#findings-and-queries) intends.
+- **Did not fit:** REPO-META is held as `findings/REPO-META.md` in Personal's package, which the `ki-work-package` closed list does not yet allow, so it stands on this proposal until that change lands; the survey run left it uncommitted for the coordinator, since its brief barred it from the package.
+- **Missing, with a short answer:** how a run hands a finding to a package it may not edit. Through its run report: the run writes the finding there, goal first, and that package's coordinator copies it into `findings/<tag>.md` at receive and commits it, as it copies queries today.
+- **Differed from Valle Armonia:** Valle Armonia's pilot findings were tables held in this note; Personal's was the first held as a package file.
