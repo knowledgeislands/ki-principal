@@ -150,42 +150,6 @@ a) (recommended, confidence high - each choice is low-stakes and reversible) Kee
 
 b) Object to the ones you name.
 
-### LAUNCH-FIRST - start the first three units from the restart list
-
-**Context:** The restart list recommends tending-fold (design notes only: Tending round 2, the agent-memory overlap, XDG-state and other-territory sections, MOD ledger to 10), coord-standard (one harness change to the standard, skill, style and banner test, after the area 1 answers; THREAD-RENAME may go first) and model-shape (a design brief mapping the single State of play cascade, packages against threads, relationship metadata and host-targeted lines, returning its own queries).
-
-**Query:** Should tending-fold and model-shape start now, and coord-standard once the area 1 queries are answered?
-
-**Options:**
-
-a) (recommended, confidence high - tending-fold and model-shape change no standard, and coord-standard waits for the answers) Start tending-fold and model-shape now, coord-standard after the answers.
-
-b) Start only tending-fold for now.
-
-### REBOOT-SHAPE - make the re-bootstrap report a full owner report
-
-**Context:** The standard asks for a re-bootstrap report "in three lines" (Bootstrap step 7, Report forms). The style and the Banner section say it closes "after `## Queries`". Hook rule 4 leaves re-bootstrap out. The opener from `ki agent prompts` and the standard's templates both say "report in three lines". On 24 October this produced a 21:44 report with no heading, form line, sections or full queries. The fix is one harness change (the standard, the hook line and the style, regenerated, with the banner test) plus a tools-ki opener change.
-
-**Query:** Should the re-bootstrap report become a full owner report, with the three lines kept as what its sections hold, and the openers say "report in the re-bootstrap form"?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; one complete report contract ends the contradiction that produced the 21:44 report, at the cost of a longer re-bootstrap) Re-bootstrap report = heading, `Re-bootstrap at` form line, `## Done` (role and where the work stands), `## In Progress` (what is running), `## Queries` (every open query in full), then the banner; hook rule 4 names re-bootstrap and full summary; openers drop "in three lines".
-
-b) Keep three lines, but state plainly that they sit under the heading and form line, carry the open query tags in the banner, and stand in for the three sections; add re-bootstrap to hook rule 4.
-
-### GAP-SUMMARY - set when a returning owner gets the Summary
-
-**Context:** The standard gives a Summary "when the owner returns after a gap", with no threshold, and the style leaves that trigger out. At 23:20, after 80 minutes away and with eleven queries open, the reply said "11 decisions are with you, starting with LAUNCH-FIRST", with no banner and no queries.
-
-**Query:** Should the standard and style define the gap, and require the Summary with every open query in full in the first reply after it?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; a fixed threshold is mechanical and would have caught 23:20, though 30 minutes is a starting choice) The first reply after 30 minutes or more without an owner message, while queries are with you, answers what you asked and then gives the Summary; the style carries the same trigger.
-
-b) Leave the gap undefined, and rely on the banner rule plus "summary" on request.
-
 ### PROXY-SHAPER - the Headroom output shaper and compression in coordinator sessions
 
 **Context:** The proxy appends an L2 steering block ("Never restate ... reference them by path and line instead") at the end of every system prompt, after the style. That conflicts with restating open queries in full, and the style already says no proxy shaping block shortens a report. Token mode also strips function words from Bash tool output, which corrupts templates read that way; Read-tool output arrived intact in this run. The Headroom proxy is connection-critical, so any change to it needs a tested restore path.
@@ -223,6 +187,30 @@ b) Leave it to coordinator habit and the bootstrap rule.
 a) (recommended, confidence high - a narrow warning beside an existing check, easily reversed) Extend COORD-11 to warn on a second recommended option in one query.
 
 b) Leave it to coordinator habit.
+
+### COMMIT-CADENCE - commit the work folder at every write and every wake
+
+**Context:** You said on 25 October that work sits uncommitted in the work folder for a long time, which makes it hard to keep repositories in sync with the remote and with the other sessions that write into work packages. Today the standard requires a commit and push only at a send, an owner receive, a mark, a hold and finish, so message dispositions, queries, decisions, briefs, state changes and heartbeat wakes go uncommitted. The coordinator already works this way as a habit since 01:34 BST; this makes it the rule. The push half is PACKAGE-PUSH below. A masked blind review is running.
+
+**Query:** Should the standard, the output style and the hook line require a commit by explicit path at every work-folder write and every wake, pulling with rebase first and pushing fast-forward, so no write stays uncommitted past the turn that made it?
+
+**Options:**
+
+a) (recommended, confidence medium - it fixes the cause you described with no new authority, but it adds a commit to nearly every coordinator turn) Adopt the cadence, with a line written into other work's `messages.md` committed and pushed at once.
+
+b) Leave the send, receive, mark and hold cadence as it is.
+
+### PACKAGE-PUSH - push other sessions' work-folder commits stacked beneath your own
+
+**Context:** You set on 14 October that a session pushes only when its own commits alone are stacked, and on 19 October that it never pushes another session's stacked commits. In a Capital those are nearly always other sessions' `+/_WORK/` commits, such as a `messages.md` line routed here, so the coordinator's push stalls until you push by hand. Your 14 October words allow pushing stacked commits a session is confident in and flagging the rest. A masked blind review is running.
+
+**Query:** May a session push a fast-forward stack in which other sessions' commits touch only `+/_WORK/` paths, keeping the own-commits-only rule for every other stacked commit?
+
+**Options:**
+
+a) (recommended, confidence medium - work-folder commits are package state, not product, and this removes the stall, but it relaxes a rule you set) Yes, for `+/_WORK/`-only commits, fast-forward only and never forced.
+
+b) No, keep own-commits-only pushing and rely on COMMIT-CADENCE alone.
 
 ## Parked
 
