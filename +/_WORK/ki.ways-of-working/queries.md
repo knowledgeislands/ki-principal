@@ -230,13 +230,13 @@ b) Infer it, as the brief proposed: the State of play steps in whenever no Proje
 
 **Context:** The assignment needs a committed home that names a work, never a host or session. The brief proposed a new `state.md` field, `steward: self` or `steward: work/<sop id>`. Both reviews reject `self`, which is not a holder value, and both reject reading the assignment as the holder. The Claude review would reuse `work.md`'s existing `worker` field: `worker: work/va` when the State of play looks after the package, and `agent` when the Project's own thread does. That adds no field and leaves the closed field set unchanged. Stewardship changes only when Kris opens or closes a thread, the slow rate `work.md` suits, and the holder stays derived from `state` and `worker` as today. The Codex review wants a dedicated assignment with its own vocabulary, distinct from holder and session, and leaves the exact field to the design. A separate field keeps the assignment visible beside the state, and it avoids a third sense of "steward" only if it is named with care.
 
-**Query:** Should the assignment be recorded in `work.md`'s existing `worker` field rather than a new field?
+**Query:** Should the assignment be recorded in a new dedicated field rather than `work.md`'s existing `worker` field?
 
 **Options:**
 
-a) (recommended, confidence medium - reviews disagree; reusing `worker` adds no field and fits the slow rate of change, but a dedicated field is clearer beside the state) Yes: `worker: work/<sop id>` while the State of play looks after the package, `agent` while its own thread does.
+a) (recommended, confidence medium - reviews disagree; the Codex review and a masked blind review on Codex want a dedicated field, as lasting responsibility should not share a field with the holder that pick-up reads, while the Claude review prefers reusing `worker` as it adds no field) A new dedicated field, taking `work/<id>` values only, never `self`, changed or removed as part of the acknowledged handover.
 
-b) A new dedicated field, taking `work/<id>` values only, never `self`.
+b) Reuse `work.md`'s `worker`: `worker: work/<sop id>` while the State of play looks after the package, `agent` while its own thread does.
 
 ### CASCADE-REPORT - one Summary for several packages
 
@@ -282,7 +282,7 @@ b) Keep the blanket no-host rule and drop the label suffix.
 
 **Options:**
 
-a) (recommended, confidence medium - reviews disagree; restricting execution only keeps the queue's order and IMPORTANT lines intact, but a coordinator then handles lines it cannot finish) Yes, with an age flag on lines no eligible host has taken, and host-versus-category rules settled before adoption.
+a) (recommended, confidence high - reviewed; a masked blind review on Codex agreed that restricting execution only keeps queue order and IMPORTANT lines intact, adding that the pending execution or handover is recorded durably and acknowledgement never counts as completion) Yes, with an age flag on lines no eligible host has taken, and host-versus-category rules settled before adoption.
 
 b) A thread acts only on lines for its own host or category and leaves the rest queued and counted, as the brief proposed.
 

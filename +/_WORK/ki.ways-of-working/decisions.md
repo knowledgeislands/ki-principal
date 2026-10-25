@@ -194,3 +194,7 @@ wow-cadence-blind on Codex agreed with both COMMIT-CADENCE and PACKAGE-PUSH, add
 ## 2026-10-25 01:58 BST - model-shape merged report received
 
 wow-shape-merge merged the two reviews into `design/model-shape-report.md` with six queries: CASCADE-STEWARD, CASCADE-REPORT, RELATIONS and HOST-SEAT at high, copied as they stand; STEWARD-FIELD and HOST-TARGET at medium with the reviews disagreeing, copied and sent to wow-shape-blind on Codex. MESSAGES-MERGE settles without a query: `messages.md` keeps ordinary conflict detection until the pilot shows recurring conflicts. COMMIT-CADENCE's pull is corrected to a fast-forward into a clean checkout, as the standard says; the coordinator's own habit follows at once, replacing "pull with rebase at every wake". PACKAGE-PUSH falls back to medium, as the reviews disagree, with a bounded-grant option first.
+
+## 2026-10-25 02:03 BST - shape blind review received; method-lines run launched
+
+wow-shape-blind (Codex, masked) recommended a dedicated field for STEWARD-FIELD at high and execution-only restriction for HOST-TARGET at high. HOST-TARGET a) is lifted to high, reviewed. STEWARD-FIELD now leads with the dedicated field, since two of three reviews prefer it, kept at medium with both views shown. Under the away grant, wow-method-lines is launched to sort METHOD-LINES and route PERSONAL-RESERVED's two findings; it changes no standard.
