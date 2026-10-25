@@ -30,7 +30,7 @@
 
 ## 2026-10-14 - RIG-REL-PATCH and capture landing
 
-- Kris 2026-10-14 morning: RIG-REL-PATCH accepted; follow-up releases stop and ask first from now on.
+- RIG-REL-PATCH (Kris, 14 October): carried in `ki-repo-tools`' [release-on-demand policy](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/repo-structure/ki-repo-tools/references/standards-release-readiness.md#release-on-demand).
 - Kris 2026-10-14 morning: Kris wants: always land the information even if imperfect (uncertain territory goes to a triage territory), record the agentic system's session or thread ID in front matter
 
 ## 2026-10-14 - ROADMAP-SIZING

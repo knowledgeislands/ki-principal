@@ -50,18 +50,6 @@ a) (recommended, confidence medium, review disagrees - the blind reviewer chose 
 
 b) Kris reviews the present plan now and a ki-plan run sets it to Ready.
 
-### RIG-REL-PATCH-HOME - (in blind review) where the "releases ask first" rule should live
-
-**Context:** On 14 October Kris accepted RIG-REL-PATCH and ruled that follow-up releases stop and ask first. DECISION-HOMES in ki.ways-of-working's log assigns homes to the other old decisions, but this rule has no written home. No release policy in tools-rig, the harness or the knowledge base carries it, so the tidy kept the entry in full in State of play's decisions log. Until it is homed, every tidy will keep it.
-
-**Query:** Should ki.ways-of-working be asked to write the rule into a release-policy home, so that State of play's entry can be struck?
-
-**Options:**
-
-a) (recommended, confidence medium - the rule plainly governs releases across repositories, but which standard owns release policy is not settled) Send ki.ways-of-working a message asking it to home the rule in the release guidance it owns, then strike State of play's entry once that lands.
-
-b) Keep the entry in State of play's log as the rule's permanent home.
-
 ## Parked
 
 ### ESTATE-CLOSE - retire Estate factorisation as prepared
