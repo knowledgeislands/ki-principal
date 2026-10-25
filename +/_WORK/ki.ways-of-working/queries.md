@@ -278,34 +278,6 @@ b) Keep the 23 October order: session-only wakes with stop words, revisit after 
 
 c) Build the launchd job first and write the contract from what it needs.
 
-### UNWRITTEN-RULES-CLOUDFLARE - no DNS, Access, route, Builds or Zero Trust change without Kris's go
-
-**Context:** The HNR coordinator has applied this rule unwritten, and on 24 October Kris asked for each of the four rules to be confirmed one by one and the confirmed wording written into its home. On 23 October the coordinator, acting under a grant, took the view that none of the four inferred rules becomes a standing instruction; HNR keeps applying them meanwhile. Today `ki-delegation`'s unattended deny list bars "DNS, Cloudflare, GitHub settings, machine, scheduler, credential or connection-critical changes" during an unattended window only, the connection-critical rule requires a tested restore path for any run touching such a service, and the Cloudflare half of RUN-SECRETS restricts credential reads; nothing states the rule for an attended coordinator turn.
-
-**Query:** Should this be a standing rule at every time, not only in an unattended window?
-
-**Options:**
-
-a) (recommended, confidence high - it matches the deny list, the connection-critical rule and Kris's practice, and the change is one sentence) Confirm it as standing: no DNS, Cloudflare Access, route, Builds or Zero Trust change without Kris's go in the thread, written into `ki-delegation`'s authority tiers beside the connection-critical rule.
-
-b) Keep it window-only as the deny list has it, trusting attended turns to ask.
-
-c) Not a rule: the connection-critical restore path is enough.
-
-### UNWRITTEN-RULES-CONFIG - no mcporter or chezmoi configuration change without approval
-
-**Context:** The second HNR rule. Today `ki-delegation`'s machine grant lifts "only the ban on an environment or scheduler change: the local changes the task names, on this machine, each with its undo", the deny list bars machine and configuration changes in a window, and Kris's own user instructions require a `chezmoi diff` review and the repository's approval before a source-store binding is applied. Neither standard names mcporter or chezmoi.
-
-**Query:** Should the rule be confirmed as standing, with mcporter and chezmoi named as the managed configuration it covers?
-
-**Options:**
-
-a) (recommended, confidence high - the machine grant already requires each change to be named with its undo, so this only names the two surfaces) Confirm it: no mcporter or chezmoi configuration change without Kris's approval, written into `ki-delegation`'s machine grant as the named example, with `ki-binding` pointing to it.
-
-b) Confirm it for HNR only, in hnr-principal's AGENTS.md.
-
-c) Not a rule: the machine grant covers it unnamed.
-
 ### UNWRITTEN-RULES-DRAFTS - drafts only in Linear, Notion and Slack
 
 **Context:** The third HNR rule: an agent creates drafts in Linear, Notion and Slack and never sends, publishes or changes state others see. Today the deny list bars "messages to people or new publication" in an unattended window, and the authority tiers say no footer authorises "publication outside the cited task"; neither names these three platforms or covers an attended turn. The MCP tools for all three can write directly.
