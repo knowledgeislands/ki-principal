@@ -208,14 +208,6 @@ a) (recommended, confidence medium - reviewed, views differ: the reviewer's poin
 
 b) Keep the live twelve and leave the knowledge-base skills to their own areas.
 
-### DEPS-1 - Bring the website's dependencies inside the age window
-
-**Context:** The website's engineering audit fails its DEPS-1 dependency-age check: `@types/node` 26.6.5, `rumdl` 0.2.79 and Bun 1.4.3 are past the 14-day adoption window. Tonight every documentation unit committed under it as a pre-existing baseline, since no unit may install dependencies. The skills unit proposed a separate update, and a masked blind review on Codex agreed independently: the standard defaults to adoption and no concrete incompatibility has been found.
-
-**Query:** Should a separate maintenance unit bring these dependencies current, after the away window?
-
-**Options:** a) (recommended, confidence high - reviewed: the standard defaults to adoption and no incompatibility is known) A separate maintenance unit, after the window, runs `ki:deps:update`, bumps Bun, re-runs every gate and test and commits the update on its own. b) Record an adoption deferral for these three, with a reason and a review date, and leave the versions as they are.
-
 ### UNATTENDED-AND-DUE-DATES - adopt the eight criteria as the unattended assessment
 
 **Context:** Kris, 24 October, through Personal's State of play: "we need to push that into the ways of working thread as something that we need to do an assessment of", and roadmap records should carry an explicit due date or key milestone date "of what they're working towards". The due-date half is done: DUE-FIELD was decided at 01:43 GMT today and harness `1af72f2e` added the optional `target` mapping (`date`, `kind` of `due` or `milestone`, `what`) to the `ki-work-roadmap` format standard, with the nearer date ordering work within one horizon and priority. The assessment half is not. Personal's prototype tests each record against eight ordered criteria, `no-owner-judgement`, `no-outward-act`, `one-repo-authority`, `reversible`, `self-verifiable`, `unblocked`, `scoped` and `agent-step`, the first failure deciding `unattended`, `near-miss` with one question, or `attended`; across 76 open Personal records it found 9, 21 and 46. Each criterion cites an existing rule rather than restating one, and eligibility is not authority. The open query UNATTENDED-FIELD asks only where a verdict is recorded (a record mapping or a per-window note) and bundles the criteria into that choice; the Codex blind review that kept it at medium asked for the criteria to be reviewed before they are standardised. Today `ki-delegation`'s unattended deny list says what a window never does and `ki-coordination`'s unattended windows section says what a coordinator may progress, but neither says how a record is judged eligible, and the format standard states "No unattended-eligibility field is adopted".
