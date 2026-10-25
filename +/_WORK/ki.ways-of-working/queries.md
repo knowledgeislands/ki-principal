@@ -2,20 +2,6 @@
 
 ## Open
 
-### DRAIN-END - should an explicit drain check end with its DRAINED / NOT DRAINED line?
-
-**Context:** When you asked a coordinator to drain, a prompt that put a final DRAINED / NOT DRAINED line last worked well; the standard requires every banner to end with the thread line. The coordination-lessons proposal and a blind review disagree. Nothing changes until you decide.
-
-The proposal's view: put the DRAINED / NOT DRAINED line after the thread line, only for an explicit drain check, honouring the ending you asked for.
-
-**Query:** Should an explicitly requested drain check end with the drain result after the thread line?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; one closing rule everywhere, no exception to maintain) Keep the thread line last in every case and put the drain result in Done.
-
-b) Put the DRAINED / NOT DRAINED line after the thread line, only for an explicit drain check.
-
 ### SORT-ARM - cancel the conditional ARM Linux release record [KI-TOOL-KI-CLI-125](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-125-ki-release-contract.md)
 
 **Context:** The record is held until an ARM Linux host is needed; vega is x86 and sol is macOS arm64, both already covered by release archives, and no ARM Linux host exists or is planned. It also carries a reusable release-contract requirement (per-platform archives, checksum manifest, signature, embedded installer key). The roadmap sort proposed cancelling it; a masked blind review agreed at high confidence, noting your 20 October review chose to keep it held.
@@ -27,25 +13,6 @@ b) Put the DRAINED / NOT DRAINED line after the thread line, only for an explici
 a) (recommended, confidence high - reviewed; current hosts are covered and the requirement survives in the guide) Cancel it, add the ARM Linux Idea under the Agent host and the contract section to the release guide.
 
 b) Keep it held until an ARM Linux host is needed.
-
-### QUERY-RULES - write the interactive pass and query splitting into the standard
-
-**Context:** Kris set out how queries are taken interactively:
-
-- the Summary stays the default;
-- on request, queries are posted in full first;
-- they are then taken one or two at a time, each a self-contained block;
-- each answer is read back before the next pair.
-
-Kris also asked that a query still below high confidence after review be split into separately tagged parts. Kris's personal settings carry most of this already, but the standard does not.
-
-**Query:** Should the standard adopt these rules, with hnr's prompt as the interactive-pass form?
-
-**Options:**
-
-a) (recommended, confidence high - each rule is Kris's own words, and none conflicts with the standard) Adopt the interactive pass and the split rule together.
-
-b) Adopt the interactive pass now and leave splitting for later.
 
 ### COORD-COMMANDS - add explicit commands for hold, drain, resume, send and receive
 
