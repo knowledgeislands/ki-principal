@@ -29,3 +29,7 @@ Commit as `docs(site): refresh the harness section to 8897008f and add agent env
 ## Gate baseline note (04:47 GMT)
 
 Follow the plan's Gate baseline section in `design/website-docs.md`: the engineering audit's DEPS-1 dependency-age failure and CI-1 warning are the pre-existing baseline. Once the site build with every gate, the tests, the typecheck and the website-content, authoring and diagrams audits pass, commit only your own paths by explicit path and push fast-forward, naming DEPS-1 in your report. Never install or update dependencies. Other units may be working in the same checkout: never stage, revert or touch their files. Also follow the plan's Linking back from Skills by outcome section.
+
+## Draft ownership (04:47 GMT)
+
+The uncommitted changes to the six harness pages under `apps/site/src/docs/ki-agentic-harness/`, the new agent-environment page, its feature-area entry and provider box, and the harness diagram files were written by your own first attempt, whose report at 04:43 GMT lists them as its prepared work. Adopt them, review them against the pinned sources, finish the unit and commit those paths. wow-docs-work-a is writing the Ways of working pages in the same checkout at the same time: never stage, revert or touch its files, and stage your own by explicit path.
