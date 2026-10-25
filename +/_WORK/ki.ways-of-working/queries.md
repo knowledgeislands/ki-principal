@@ -190,18 +190,6 @@ a) (recommended, confidence high - a narrow warning beside an existing check, ea
 
 b) Leave it to coordinator habit.
 
-### COMMIT-CADENCE - commit the work folder at every write and every wake
-
-**Context:** You said on 25 October that work sits uncommitted in the work folder for a long time, which makes it hard to keep repositories in sync with the remote and with the other sessions that write into work packages. Today the standard requires a commit and push only at a send, an owner receive, a mark, a hold and finish, so message dispositions, queries, decisions, briefs, state changes and heartbeat wakes go uncommitted. The coordinator already works this way as a habit since 01:34 BST; this makes it the rule. The push half is PACKAGE-PUSH below. A masked blind review on Codex agreed, and both model-shape reviews corrected the pull: the standard allows only a fast-forward pull into a clean checkout, since a rebase refuses a dirty shared tree and autostash would touch another session's files. The unit committed is the smallest complete, verified one, and a clean wake makes no empty commit.
-
-**Query:** Should the standard, the output style and the hook line require a commit by explicit path at every work-folder write and every wake, pulling with rebase first and pushing fast-forward, so no write stays uncommitted past the turn that made it?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; it closes the gap that leaves shared packages stale, with no new authority) Adopt the cadence: commit each complete unit by explicit path before the turn ends, pull fast-forward only into a clean checkout, commit a line written into other work's `messages.md` at once, and keep publication under the push rule.
-
-b) Leave the send, receive, mark and hold cadence as it is.
-
 ### PACKAGE-PUSH - push other sessions' work-folder commits stacked beneath your own
 
 **Context:** You set on 14 October that a session pushes only when its own commits alone are stacked, and on 19 October that it never pushes another session's stacked commits. In a Capital those are nearly always other sessions' `+/_WORK/` commits, such as a `messages.md` line routed here, so the coordinator's push stalls until you push by hand. Your 14 October words allow pushing stacked commits a session is confident in and flagging the rest. The reviews disagree. The cadence blind review on Codex agreed, provided the session inspects every unpublished commit's changed paths, renames included, and stops on divergence or doubt. The Codex model-shape review rejected a push allowed by path alone, at high confidence, because briefs and decisions under `+/_WORK/` can carry unreviewed material, and asked for a bounded grant naming the publisher, repositories, branches and the check of each commit beneath. The Claude model-shape review agreed with the narrow exception but noted it does nothing while any product commit lies beneath, so it pairs it with each session pushing its own product commits at once, which your 14 October words already allow.
