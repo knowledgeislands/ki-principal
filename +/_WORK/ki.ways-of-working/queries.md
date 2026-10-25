@@ -278,34 +278,6 @@ b) Keep the 23 October order: session-only wakes with stop words, revisit after 
 
 c) Build the launchd job first and write the contract from what it needs.
 
-### UNWRITTEN-RULES-DRAFTS - drafts only in Linear, Notion and Slack
-
-**Context:** The third HNR rule: an agent creates drafts in Linear, Notion and Slack and never sends, publishes or changes state others see. Today the deny list bars "messages to people or new publication" in an unattended window, and the authority tiers say no footer authorises "publication outside the cited task"; neither names these three platforms or covers an attended turn. The MCP tools for all three can write directly.
-
-**Query:** Should the rule be confirmed as standing for every session, and where should it live?
-
-**Options:**
-
-a) (recommended, confidence medium - it generalises the deny list's publication ban to attended turns, but the three platforms and the line between a draft and a change others see want Kris's wording; reviewed, views differ: a masked Codex review prefers b), HNR only, since HNR is the evidenced scope and an owner-wide platform restriction wants its own decision) Confirm it: in Linear, Notion and Slack an agent drafts and Kris sends, publishes or moves state, written into `ki-delegation`'s authority tiers beside the publication ban.
-
-b) Confirm it for HNR only, in hnr-principal's AGENTS.md.
-
-c) Not a rule: the publication ban is enough.
-
-### UNWRITTEN-RULES-CONFIDENTIAL - a confidential site is never made public
-
-**Context:** The fourth HNR rule. Today no standard says it: the deny list bars "new publication" in a window and the privacy rules in `ki-diagrams` and the work-package standard bar private names in committed files, but nothing bars changing a confidential site's visibility, which cannot be undone once crawled.
-
-**Query:** Should the rule be confirmed as standing, in general form?
-
-**Options:**
-
-a) (recommended, confidence high - an irreversible disclosure with no reading under which it should happen unasked) Confirm it in general form: a site, repository or note marked confidential is never made public without Kris's go, written into `ki-delegation`'s authority tiers, with HNR's list of confidential sites in hnr-principal's AGENTS.md.
-
-b) Confirm it for HNR's sites only, in hnr-principal's AGENTS.md.
-
-c) Not a rule.
-
 ## Parked
 
 - PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.
