@@ -29,3 +29,7 @@ Commit as `feat(site): add the diagram pipeline, vendored harness diagrams and t
 - Publishing: after the checks pass, `git fetch -q`, `git pull -q --ff-only`, then `git push -q origin main` fast-forward only. Pushing `main` deploys the site. Stop on divergence and report it; do not rebase, reset or stash.
 - No other network call: no GitHub API, no package installs, no `verify:provenance -- --network`.
 - Report in under 30 lines in owner-report form: Done with the commit identifiers and one line per check, In Progress, Queries. Name every published URL as `https://knowledgeislands.info<path>`, noting that the deploy completes after the push. Put a design choice you had to make that the plan did not settle in Queries with a recommended option; do not block on it.
+
+## Relaunch note (04:23 GMT)
+
+Your prepared changes are in the website checkout, uncommitted. The engineering audit's DEPS-1 dependency-age failure is the pre-existing baseline: the structure and skills units committed under it tonight, and dependency updates are separate maintenance outside this window. Do not install or update dependencies. Re-run the site gates, then commit only your own paths by explicit path and push fast-forward, naming DEPS-1 in your report. Other runs (wow-docs-ki, wow-docs-skills) may be working in the same checkout: never stage, revert or touch their files.
