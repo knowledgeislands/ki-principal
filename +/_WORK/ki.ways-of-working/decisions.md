@@ -299,3 +299,7 @@ The Claude runs stopped at the account session limit at about 01:59 GMT, resetti
 ## 2026-10-25 02:18 GMT - wow-harness-coord-2 received
 
 Harness `938c7546` carries COMMIT-CADENCE, PACKAGE-PUSH, SUMMARY-WINDOW, THREAD-RENAME, FINDINGS-SECTION, QUERY-RULES, DRAIN-END, COORD-COMMANDS, METHOD-NUDGE, REVIEW-CHECK, THEME-CLOSE, RUN-SECRETS (Cloudflare half), COORD2-RUBRIC and the unattended-window decisions; PRFLOW's home in the harness AGENTS.md is confirmed. Tests 1,450 passed. The `ki-engineering` dependency-age finding (`@types/node`, `knip`, Bun) is separate maintenance, outside this window.
+
+## 2026-10-25 02:27 GMT - wow-orphan-sweep received
+
+All 64 retained reports accounted for in four explicit-path commits (5a1c6d3a, 2e4140f9, afd64b7e, bb5ba2c8): 54 deleted as superseded or answered, ten kept in doubt (wow-burn-plan, wow-close-done-2, wow-close-done-3b, wow-dryrun-survey, wow-night-audit-home-registries, wow-rereview6-toolski-a, wow-rig-attended-steps, wow-sol-clone-2, wow-sort-roadmap, wow-take-stock), each with its open point named in the run report. One live recommendation recovered as CLI-PREVIEW, now an open query at medium after its blind review. No work record accepted or deleted.
