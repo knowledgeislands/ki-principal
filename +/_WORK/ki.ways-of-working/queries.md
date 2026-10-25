@@ -171,3 +171,27 @@ b) Include optional or shape-scoped types in the first standardisation design an
 a) (recommended, confidence high - preserves evidence and avoids inventing identity or provenance) Obtain both authoritative homes, then commission bounded repairs.
 
 b) Keep both findings unresolved for Kris's next review.
+
+### AREA-COLUMN - how the skill catalogue shows functional areas
+
+**Context:** The website's skill catalogue (`/docs/ki-agentic-harness/skill-catalogue/`) now groups the 64 skills by their 8 source concerns and adds a finder table (skill, source concern, functional area), rendered as inline HTML because the site's Markdown gate does not accept a generated row loop as a table. The 10 functional areas exist only inside the harness's generator code, which calls them a diagram reading aid rather than published metadata; the website's sync parses that code directly, so a harness refactor could break the sync without any change in membership. The inline finder is live now, taken provisionally. A masked blind review on Codex disagreed with the worker: the worker recommended keeping the inline finder (medium confidence) as it needs no upstream change; the reviewer recommended the harness publish the area table in its generated `skills/README.md` block (high confidence) as a stable boundary, at the cost of a coordinated harness, sync and page change and a new pin.
+
+**Query:** Should the area finder stay as the website's own inline table, or should the harness publish the area table for the website to consume?
+
+**Options:**
+
+a) (recommended, confidence medium - reviewed, views differ: a stable published boundary outlasts parsing generator code, and the live finder serves until it lands) Keep the live finder now and send the harness a message to publish the area table in its README block, then switch the sync to it at the next pin.
+
+b) Keep the inline finder as the lasting form and accept the coupling to the generator's code.
+
+### ACCEPT - KI-PRINCIPAL-MOD-009 awaits your review
+
+**Context:** [KI-PRINCIPAL-MOD-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-009-amend-adr-001-staging-wording.md) amends the staging wording of ADR-001 and is delivered and awaiting acceptance. [KI-PRINCIPAL-OPS-014](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md) (GFM conversion) is not yet ready: it still needs its four-client render checks.
+
+**Query:** Do you accept KI-PRINCIPAL-MOD-009 as done?
+
+**Options:**
+
+a) (recommended, confidence high - delivered, its checks pass and nothing depends on it remaining open) Accept it after reading the amended wording.
+
+b) Return it with the change you want.
