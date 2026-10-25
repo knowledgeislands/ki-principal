@@ -134,3 +134,10 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 ## 2026-10-24 21:45 BST - KILL-FOLD-TOOLS-KI
 
 - KILL-FOLD-TOOLS-KI (Kris, 24 October): "I think this is clearly not working. Can you kill it?" Read back as: stop fold-tools-ki now; the tools-ki fold of `sop-secondary` is redone on Sol by KI > SoP there.
+
+## 2026-10-25 · AWAY-GRANT-SOL and STACKED-PUSH (Kris, 01:32 BST, interactive, not blind-reviewed)
+
+- AWAY-GRANT-SOL a), read back as taken: unattended until Kris returns or says "stop the wake". Work: the RESTART-ON-SOL consolidation; route each line as a message to its owning work; tidy State of play's own packages; commit by explicit path. Exclusions: no acceptances, no Admin, Pillars or Resources changes, no deletion beyond work-folder pruning, no external publication. Every decision parked for the morning. Wake words: "I'm back" or any owner message; stop words: "stop the wake".
+- STACKED-PUSH a), read back as taken: rebase ki-principal's stacked docs(work) commits onto origin, resolve the messages.md clash keeping both lines, and push them with ours, fast-forward only, never forcing or skipping hooks. For this window only.
+- PROJECT-CLOSE a), read back as taken: a run prepares Estate factorisation's retirement overnight (OAI-1 kept as delivered, FND-3 to EVAL-2 written as ideas, OBS-ACTIVATION routed to Observatory, governance residuals to State of play, HOST-WRITES, ALIAS-OWNERS and RIG-REFS settled first); the close itself waits for Kris's acceptance.
+- VA-HIGH a), read back as taken: TENDING-FOLD, SIZE-LABEL and PRODUCT-RECORDS go to their owning works tonight as messages.
