@@ -58,7 +58,7 @@ b) Keep the assessment in a per-window note, with no record field.
 
 **Options:**
 
-a) (recommended, confidence medium - one owner per half keeps each skill's boundary) `ki-bootstrap` owns the machine half and ends with a "Ready to coordinate" check, later backed by a `ki doctor` item in `tools-ki`; `ki-coordination`'s Bootstrap gains a "Before the opener" step that cites it, and owns the session half as now
+a) (recommended, confidence high - reviewed; a masked blind review on Codex agreed, as it follows the existing ownership boundary and gives silent activation failures one accountable home) `ki-bootstrap` owns the one machine-readiness checklist, ending with a "Ready to coordinate" result and observable checks that the hook and output style actually work; `ki-coordination`'s Bootstrap gains a "Before the opener" step that cites it and keeps the session half; a `ki doctor` check in `tools-ki` backs it later, and readiness never depends on it before it exists.
 
 b) `ki-coordination` owns the whole path, machine half included, and `ki-bootstrap` links to it
 
@@ -72,7 +72,7 @@ c) a guide in ki-principal under `Pillars/` owns the narrative, and both skills 
 
 **Options:**
 
-a) (recommended, confidence medium - matches what HANDOFF-AS-MESSAGE already decided and costs one bounded edit) narrow it to declared routes only, with a pointer to `messages.md` for everything else, and set its next review to when the Trades revamp opens
+a) (recommended, confidence high - reviewed; a masked blind review on Codex agreed that a bounded clarification aligns the skill with the message contract without granting new authority) Narrow `ki-trades` now to the routes the Capital's declared trade policy grants, with a pointer to `messages.md` for handoffs and rollouts; keep full support for existing trades and the ban on new submissions; make opening the Trades revamp the next review trigger, with a finite calendar backstop kept on HOLD-1.
 
 b) keep it on hold with a new review date, untouched until the Trades revamp opens
 

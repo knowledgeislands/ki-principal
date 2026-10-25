@@ -287,3 +287,7 @@ wow-overview wrote `design/overview.md` (enhancements, package homes, message qu
 ## 2026-10-25 02:00 GMT - skill-set pass received
 
 wow-skillset wrote `design/skill-set.md`: fourteen skills in five layers, the three session kinds, the bootstrap path and nine contradictions, ten gaps and five overlaps. Its queries BOOT-HOME, TRADES-FATE (both medium, sent to wow-skillset-blind on Codex) and RECAP-NAME (high) are in `queries.md`. Findings already authorised by logged decisions go to wow-skillset-fixes after the two harness runs.
+
+## 2026-10-25 01:58 GMT - skill-set blind review received
+
+wow-skillset-blind on Codex agreed with BOOT-HOME a) and TRADES-FATE a), each lifted to high with its additions (readiness never waits on an unbuilt `ki doctor`; HOLD-1 keeps a calendar backstop). Both wait for Kris in the morning with RECAP-NAME.
