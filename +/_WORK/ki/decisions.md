@@ -10,7 +10,7 @@
 
 ## 2026-10-09 - PIN
 
-- PIN: Kris chose (a) - tools-ki CI builds ki from its own source instead of taking a pin; KI-HARNESS-GOV-168 excludes tools-ki.
+- PIN (Kris, 9 October): tools-ki CI builds ki from its own source; homed under DECISION-HOMES in the tools-ki CI guide, which ki.tools-burndown is writing ([messages](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/messages.md)).
 
 ## 2026-10-11 - macOS defaults split parked
 
@@ -22,7 +22,7 @@
 
 ## 2026-10-12 - SPEC-REVIEW and KI-RELEASE order
 
-- Kris, 2026-10-12 06:45 BST: SPEC-REVIEW starts only once the known Knowledge Islands roadmap records are near zero. KI-RELEASE (ki and mgit) yes, after their roadmaps reach zero. Drive the Knowledge Islands roadmaps towards zero first.
+- Kris, 2026-10-12 06:45 BST: SPEC-REVIEW starts only once the known Knowledge Islands roadmap records are near zero. KI-RELEASE (ki and mgit) yes, after their roadmaps reach zero. Drive the Knowledge Islands roadmaps towards zero first. SPEC-REVIEW is homed with [ki.portable-specifications](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.portable-specifications/work.md) under DECISION-HOMES.
 
 ## 2026-10-12 - Other territories parked
 
@@ -41,15 +41,9 @@
 
 - FW-ADR (Kris, 15 October): a passing acceptance run accepts KI-TOOL-RIG-CORE-047 and marks ADR-KI-TOOL-RIG-009 and ADR-KI-TOOL-RIG-010 accepted; governs [KI-TOOL-RIG-CORE-047](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md)'s acceptance, in progress with ki.chezmoi.
 
-## 2026-10-17 - Kris's intake dump, items not yet homed
+## 2026-10-17 - KI-AGENTS-NAME
 
-Kris: "I've now destroyed all my notes about it" - this log is the durable capture until each item reaches its owning thread.
-
-- **DIAGRAMS-BLACK** (2026-10-17 14:10 BST): "the preview and markdown for the themes.md is largely speaking black diagrams. I can see some kind of faint things on it, but whatever you're doing to render those, it's not looking right." Screenshot: dark frames and boxes on a black canvas, no legible text.
-
-## 2026-10-17 14:20 BST - replies to the 14:02 BST summary
-
-- **KI-AGENTS-NAME:** "Keep "agents"; ways of working logs the decision in its decisions log and nothing is renamed."
+- KI-AGENTS-NAME (Kris, 17 October): homed in [ki.ways-of-working's decisions](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/decisions.md) under DECISION-HOMES.
 
 ## 2026-10-19 23:09 BST - PILOT-SEED-HOME
 
@@ -72,7 +66,7 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 
 ## 2026-10-24 16:46 BST - VA-CONSOLIDATE
 
-- VA-CONSOLIDATE (Kris, 24 October): consolidated into RESTART-ON-SOL, taken on 25 October; Kris's seven-point model went to ki.ways-of-working, whose model-shape loop carries it ([decisions](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/decisions.md)).
+- VA-CONSOLIDATE (Kris, 24 October): Kris's seven-point model is carried by ki.ways-of-working's model-shape loop ([decisions](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/decisions.md)); the draft is [design/va-consolidation.md](design/va-consolidation.md).
 
 ## 2026-10-24 16:53 BST - SOURCE-AGNOSTIC
 
@@ -80,24 +74,18 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 
 ## 2026-10-24 17:15 BST - QUERIES-POSTED-FIRST
 
-- QUERIES-POSTED-FIRST (Kris, 24 October): post queries in full before taking them interactively; this thread follows it, and ki.ways-of-working's QUERY-RULES carries it into the standard ([decisions](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/decisions.md)).
+- QUERIES-POSTED-FIRST (Kris, 24 October): post queries in full before taking them interactively; ki.ways-of-working's QUERY-RULES carries it into the standard ([decisions](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/decisions.md)).
 
 ## 2026-10-24 17:16 BST - TENDING-XDG-STATE
 
 - TENDING-XDG-STATE (Kris, 24 October): Tending reviews XDG state; folded into ki.ways-of-working's [Tending design](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/tending.md).
 
-## 2026-10-25 · AWAY-GRANT-SOL and STACKED-PUSH (Kris, 01:32 BST, interactive, not blind-reviewed)
+## 2026-10-25 · PROJECT-CLOSE
 
-- AWAY-GRANT-SOL a), read back as taken: unattended until Kris returns or says "stop the wake". Work: the RESTART-ON-SOL consolidation; route each line as a message to its owning work; tidy State of play's own packages; commit by explicit path. Exclusions: no acceptances, no Admin, Pillars or Resources changes, no deletion beyond work-folder pruning, no external publication. Every decision parked for the morning. Wake words: "I'm back" or any owner message; stop words: "stop the wake".
-- STACKED-PUSH a), read back as taken: rebase ki-principal's stacked docs(work) commits onto origin, resolve the messages.md clash keeping both lines, and push them with ours, fast-forward only, never forcing or skipping hooks. For this window only.
-- PROJECT-CLOSE a), read back as taken: a run prepares Estate factorisation's retirement overnight (OAI-1 kept as delivered, FND-3 to EVAL-2 written as ideas, OBS-ACTIVATION routed to Observatory, governance residuals to State of play, HOST-WRITES, ALIAS-OWNERS and RIG-REFS settled first); the close itself waits for Kris's acceptance.
-- VA-HIGH a), read back as taken: TENDING-FOLD, SIZE-LABEL and PRODUCT-RECORDS go to their owning works tonight as messages.
+- PROJECT-CLOSE a) (Kris, 25 October): Estate factorisation's retirement is prepared and the close waits for Kris's acceptance; carried by the parked ESTATE-CLOSE query and [design/estate-factorisation-retirement.md](design/estate-factorisation-retirement.md).
 
 ## 2026-10-25 · Morning queries, taken interactively (Kris, from 01:11 GMT)
 
-- AWAY-GRANT-SOL ends: Kris returned at 01:11 GMT and asked to be taken through the queries interactively.
-- ACCEPT-WEBSITE a), read back as taken: review and accept KI-WEBSITE-SITE-044 now through `ki-accept`.
-- ACCEPT-WOW a), read back as taken: review and accept KI-PRINCIPAL-OPS-014 and KI-PRINCIPAL-MOD-009 now, oldest first, through `ki-accept`.
-- ACCEPT-OBSERVATORY a), read back as taken: review and accept KI-OBSERVA-BRG-005 and KI-OBSERVA-VIS-030 through `ki-accept` once ki.observatory has fixed BRG-005's structure.
-- ACCEPT-RIG a), read back as taken: review and accept KI-TOOL-RIG-CORE-062 now through `ki-accept`.
+- ACCEPT-WEBSITE a), ACCEPT-WOW a) (KI-PRINCIPAL-OPS-014 and KI-PRINCIPAL-MOD-009, oldest first) and ACCEPT-RIG a): review and accept now through `ki-accept`; the reviews raised the parked ACCEPT-KI-WEBSITE-SITE-044, ACCEPT-KI-PRINCIPAL-OPS-014, ACCEPT-KI-PRINCIPAL-MOD-009 and ACCEPT-KI-TOOL-RIG-CORE-062 queries.
+- ACCEPT-OBSERVATORY a): review and accept KI-OBSERVA-BRG-005 and KI-OBSERVA-VIS-030 through `ki-accept` once ki.observatory has fixed BRG-005's structure; carried by the parked ACCEPT-OBSERVATORY query.
 - HOLD, read back as taken (Kris, 02:00 GMT): "clean up your work packages, making sure everything is compacted the way it needs to be and tidied up in there. Ensure that anything which is outstanding is pushed back into the work packages and/or roadmap items so that we can pick those up effectively. Drain down." State of play goes on hold, paused, once drained.
