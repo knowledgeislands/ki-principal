@@ -2,54 +2,6 @@
 
 ## Open
 
-### ACCEPT-WEBSITE - accept the website's design v1 record
-
-**Context:** [KI-WEBSITE-SITE-044](/Users/krisbrown/workspaces/knowledge-islands/apps-knowledgeislands.info/docs/roadmap/KI-WEBSITE-SITE-044-design-v1.md), "Adopt ki-design v1", has been awaiting review since 20 October. It is the oldest record awaiting acceptance in the territory.
-
-**Query:** Review and accept it now?
-
-**Options:**
-
-a) (recommended, confidence high - ACCEPT-BUNDLE puts the territory's unaccepted records first) Review it now through `ki-accept`.
-
-b) Leave it awaiting review.
-
-### ACCEPT-WOW - accept Ways of working's two records
-
-**Context:** [KI-PRINCIPAL-OPS-014](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md), the GFM conversion, has been awaiting review since 20 October, and [KI-PRINCIPAL-MOD-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-009-amend-adr-001-staging-wording.md), the ADR-001 staging wording, since 23 October.
-
-**Query:** Review and accept them now, oldest first?
-
-**Options:**
-
-a) (recommended, confidence high - ACCEPT-BUNDLE, one bundle per work, oldest first) Review both now through `ki-accept`.
-
-b) Leave them awaiting review.
-
-### ACCEPT-OBSERVATORY - accept Observatory's two records
-
-**Context:** [KI-OBSERVA-BRG-005](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-005-act-board-missing-parts.md) has been awaiting review since 20 October and [KI-OBSERVA-VIS-030](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md) since 22 October. BRG-005 fails the roadmap audit on its Review and body order; ki.observatory has a message tonight (ROADMAP-AUDIT) to fix its structure first.
-
-**Query:** Review and accept them once BRG-005's structure is fixed?
-
-**Options:**
-
-a) (recommended, confidence high - ACCEPT-BUNDLE, with the audit fix as a precondition) Review both through `ki-accept` once ki.observatory has fixed BRG-005.
-
-b) Leave them awaiting review.
-
-### ACCEPT-RIG - accept the Rig firewall record
-
-**Context:** [KI-TOOL-RIG-CORE-062](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-062-own-address-firewall-destination.md), the own-address firewall destination, has been awaiting review since 22 October.
-
-**Query:** Review and accept it now?
-
-**Options:**
-
-a) (recommended, confidence high - ACCEPT-BUNDLE) Review it now through `ki-accept`.
-
-b) Leave it awaiting review.
-
 ### ACCEPT-CHEZMOI - accept the chezmoi latest-source record
 
 **Context:** [PERSONAL-DOTFILES-UE-076](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-076-always-run-latest-source.md), "always run the latest source", has been awaiting review since 24 October.
