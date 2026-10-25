@@ -334,20 +334,6 @@ b) Confirm it for HNR's sites only, in hnr-principal's AGENTS.md.
 
 c) Not a rule.
 
-### PERM-PROMPTS-SCRATCH - stop runs clearing their own temp directory
-
-**Context:** Kris, 25 October: "Every now and then we get a prompt for permissions ... when you find out what it is, can you pass that to Ways of Working". Legal's read-only scan of 44 interactive and the background-run transcripts since 14 October found configuration is not the cause: every session runs in bypass mode and the only prompt bypass leaves is Claude Code's built-in `rm` safety check. It is call-shape driven: 203 background-run denials, 110 with a target under a workspace directory, which a run's temp directory is because the launcher adds it as a working directory, 91 with a shell-variable target, plus 34 compound commands denied for containing such an `rm` or a `git worktree remove`. Runs cannot ask, so they adapt; the same shape in an interactive session becomes a prompt for Kris, which approved prompts leave no trace of, so the interactive cause is probable, not proven. The standard sends runs to the cause: `ki-delegation`'s run packet says temporary output goes in `$TMPDIR/ki-agents/<run>/<name>/` and "`ki agent close` refuses while the directory holds anything", yet the same section records Kris's 20 October adoption of the directory "which `ki agent close` empties and removes". The two sentences disagree, and the first makes every run `rm` its scratch.
-
-**Query:** Should runs leave their temp directory for `ki agent close` to empty and remove, the refusal sentence going?
-
-**Options:**
-
-a) (recommended, confidence high - 203 denials trace to runs clearing scratch the launcher already owns, and the standard already states the close behaviour in Kris's adopted words) Yes: `ki-delegation` says a run never removes its temp directory and `ki agent close` empties and removes it; a line to ki.tools-burndown confirms close does so.
-
-b) Keep the refusal and add a `ki agent clean` a run calls instead of `rm`.
-
-c) Leave the standard; have runs remove scratch file by file with literal paths.
-
 ### PERM-PROMPTS-SHAPES - name the call shapes that prompt
 
 **Context:** The same scan. The shapes that trip the check are an `rm` with a glob, a shell-variable or a workspace-directory target, alone or inside a compound command, a `git worktree remove`, and a `sleep` of 60 seconds or more before a command, which the harness blocks; Kris's own user instructions already describe the `rm` case. Today neither `ki-coordination` nor `ki-delegation` names them; the coordinator style says only to use a bounded run or `ki agent close` for deletion. Not prompts, and needing nothing: Kris's own interruptions, commit hook time and a missing tool in runs. Legal's run also asked Kris to note the wording of the next prompt he sees so the interactive cause can be confirmed.
@@ -375,14 +361,6 @@ a) (recommended, confidence high - no current prompt comes from configuration, a
 b) Yes: a run under a machine grant adds the read-only allow set, an explicit deny or ask list and workspace trust to the chezmoi source, shown as a `chezmoi diff` for approval before apply.
 
 c) Move the repository allow list to the user settings only, leaving bypass and trust as they are.
-
-### RELEASE-RUN-CHECK - Check the last few release runs live on GitHub
-
-**Context:** wow-release-fanout found, from local history, that the `tools-ki` release fans out only through `ki-tools-release-bot` to the Homebrew tap and the website's catalogue page, and that the CI pin receiver approved on 9 October exists only in the harness. It could not confirm whether the last few release notifications failed, were skipped or were recovered by the tap's daily poll, because its run allowed no network calls.
-
-**Query:** May a follow-up make read-only GitHub calls to inspect the last few `tools-ki` releases and release runs, and their tap and website delivery jobs?
-
-**Options:** a) (recommended, confidence high - finishes the check while staying read-only) Allow release and run metadata and job-log reads only: no workflow trigger, setting, credential or repository change. b) Accept the local-evidence report and leave recent release-job failures unverified.
 
 ## Parked
 
