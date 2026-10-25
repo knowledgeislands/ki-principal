@@ -267,3 +267,14 @@ wow-overview wrote `design/overview.md` (enhancements, package homes, message qu
 - WINDOW-CLOCK: Kris chose "09:00 GMT". Read back as taken: tonight's window ends at 09:00 GMT, as his "until 9 a.m." was spoken after the clocks went back; from now on every window end is recorded as local time with its zone and UTC, taking the earlier instant only when the words are ambiguous and saying so in the read-back.
 - HIGH-BLOC: Kris chose "Accept all nine". Read back as taken: CASCADE-STEWARD, CASCADE-REPORT, RELATIONS, HOST-SEAT, HOST-TARGET, KI-REPO-HOME, PACKAGE-HOME, RECORD-RESOLVES and RETURN-FORM are each decided as their recommended option a) read in `queries.md` before this commit; they go to the harness and design runs, and KI-REPO-HOME to ki.baseline-rollout as a message line.
 - wow-window-blind received: it agreed with MEMBER-PACKAGE, DENY-LIST, WINDOW-PLAN, CONFLICT-RUN, PROGRESS-SCOPE and DUE-FIELD, each lifted to high with its additions, and disagreed on UNATTENDED-FIELD, which stays medium.
+
+## 2026-10-25 01:43 GMT - the reviewed bloc
+
+- REVIEWED-BLOC: Kris chose "Accept all six". Read back as taken: MEMBER-PACKAGE, DENY-LIST, WINDOW-PLAN, CONFLICT-RUN, PROGRESS-SCOPE and DUE-FIELD are each decided as their recommended option a), with the blind review's additions, as read in `queries.md` before this commit. CONFLICT-RUN and PROGRESS-SCOPE govern tonight's window from now; the rest go to the harness runs.
+- Open for the morning, all medium with reviews disagreeing: STEWARD-FIELD, LEGACY-PREFIX, PARTIAL-REPOS and UNATTENDED-FIELD.
+
+## 2026-10-25 01:45 GMT - the reviewed bloc and the overnight focus
+
+- REVIEWED-BLOC: Kris chose "Accept all six". Read back as taken: MEMBER-PACKAGE, DENY-LIST, WINDOW-PLAN, CONFLICT-RUN, PROGRESS-SCOPE and DUE-FIELD are each decided as their recommended option a), with the blind review's additions, as read in `queries.md` before this commit. CONFLICT-RUN and PROGRESS-SCOPE govern tonight's window from now.
+- Overnight focus: Kris, 25 October: "ways of working is the most critical one. I'm happy to actually stop anything else and just focus on this one, really." Read back as taken: until 09:00 GMT this thread works only ways of working; other works get only the message lines its decisions require.
+- Open for the morning, all medium with reviews disagreeing: STEWARD-FIELD, LEGACY-PREFIX, PARTIAL-REPOS and UNATTENDED-FIELD.
