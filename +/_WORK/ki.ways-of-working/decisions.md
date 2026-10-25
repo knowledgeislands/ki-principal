@@ -487,3 +487,15 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
 - 2026-10-25 08:22 GMT: Kris on the mgit cache, steering wow-mgit-cache-design: "is [there] a way we can do an alias around it or something, or is there a command or something that changes [the] cache's behaviour, so git's behaviour ... You should certainly consider that, without [needing] to use the cache mode, as well as part of the analysis." Read back as: the design weighs, beside the cache, ways that need no cache: `mgit push` skipping repositories with nothing to push by a local check, an alias or wrapper, and any existing git or mgit setting that already changes this behaviour.
 
 - 2026-10-25 08:24 GMT: Kris: "you were meant to be writing a report for all of the stuff that's changed in these recent releases, so I can walk through the site and review everything." Read back as: one walkthrough report of everything the last day or so of work changed, ordered as a walk through knowledgeislands.info page by page, each with its live URL, what changed and what to check, plus the releases and changes with no page. wow-site-walkthrough writes it to `design/site-walkthrough.md`, with a GitHub link.
+
+- 2026-10-25 08:27 GMT: AWAY-GRANT-2 - Kris: "I've been unattended for a day or so ... I want you to wake up every 15 minutes and check to see if there's anything new work-wise you can do from your work package", and "you could put work in the work package for me, you could put [Kris] at the start of it, and therefore it could check to see if there's any questions for me that were [answered]." Read back as: an unattended window from 08:27 GMT until Kris says "I'm back", or about 24 hours, whichever comes first. **Wake:** a session-only schedule every 15 minutes, best effort, firing only while this session is idle. Each wake pulls ki-principal, receives finished runs, acts on `messages.md`, and launches only units the logged decisions already authorise. **Async answers:** Kris may write a line beginning `Kris:` into this package's `messages.md`, or an answer beneath a query in `queries.md`, from anywhere, GitHub's web editor included. A wake treats it as an owner message only if the commit adding it is authored by Kris (`krisb`); otherwise it is ignored and reported. The answer is read back here, the query removed and its work launched. **Limits:** today's limits hold:
+  - nothing that could cut Kris off or take a site down;
+  - GitHub alignment, Cloudflare build fixes and releases are allowed;
+  - chezmoi rollouts only after an independent review of the diff;
+  - upgrades only, never new software;
+  - no changes in people-facing systems and no messages to people unless agreed;
+  - confidential material never made public;
+  - no answer is ever assumed;
+  - a question waits two minutes, then nothing is done on it.
+
+  Stop word "stop the wake".
