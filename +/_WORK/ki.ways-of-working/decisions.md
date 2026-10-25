@@ -283,3 +283,7 @@ wow-overview wrote `design/overview.md` (enhancements, package homes, message qu
 
 - KI-AGENTS-NAME, homed in this log under DECISION-HOMES, in Kris's 17 October words: "Keep "agents"; ways of working logs the decision in its decisions log and nothing is renamed." State of play may strike its own entry to a pointer here.
 - wow-lines sent THEME-CLOSE to Legal and HNR, KI-REPO-HOME and REPO-CODE-CAP to ki.baseline-rollout, PIN to ki.tools-burndown, SPEC-REVIEW to ki.portable-specifications and the RIG-REL-PATCH pointer to State of play (ki); DIAGRAMS-BLACK has landed (`1163e482`), so nothing needs capturing; five settled lines left `messages.md`.
+
+## 2026-10-25 02:00 GMT - skill-set pass received
+
+wow-skillset wrote `design/skill-set.md`: fourteen skills in five layers, the three session kinds, the bootstrap path and nine contradictions, ten gaps and five overlaps. Its queries BOOT-HOME, TRADES-FATE (both medium, sent to wow-skillset-blind on Codex) and RECAP-NAME (high) are in `queries.md`. Findings already authorised by logged decisions go to wow-skillset-fixes after the two harness runs.

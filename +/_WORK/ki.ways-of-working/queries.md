@@ -49,3 +49,41 @@ b) Start a `ki-work-design` brief now covering partial repositories, the persona
 a) (recommended, confidence medium - reviews disagree; a masked blind review on Codex would keep the assessment in a per-window note with no record field, as eligibility depends on the grant and can go stale, and review the eight criteria before standardising them, while Personal's assessment shows the criteria sort real records, and a field spares rereading every record at each window) Adopt the mapping and the criteria, refreshed at each status or horizon change.
 
 b) Keep the assessment in a per-window note, with no record field.
+
+### BOOT-HOME - Who owns the bootstrap from a fresh machine to a working coordinator
+
+**Context:** `ki-bootstrap` covers the harness and skill activation and then stops; `ki-coordination` starts at the opener. Between them, chezmoi's hook and style binding, the Capital's declarations, `ki skill add ki-work-design`, the readiness checks and `ki agent prompts` with `claude --name` are written nowhere as one path, so a fresh machine can fail silently at the hook or the style. Kris's goal is that "when we do a bootstrap ... it works really well".
+
+**Query:** Which skill holds the one bootstrap checklist?
+
+**Options:**
+
+a) (recommended, confidence medium - one owner per half keeps each skill's boundary) `ki-bootstrap` owns the machine half and ends with a "Ready to coordinate" check, later backed by a `ki doctor` item in `tools-ki`; `ki-coordination`'s Bootstrap gains a "Before the opener" step that cites it, and owns the session half as now
+
+b) `ki-coordination` owns the whole path, machine half included, and `ki-bootstrap` links to it
+
+c) a guide in ki-principal under `Pillars/` owns the narrative, and both skills link to it
+
+### TRADES-FATE - What becomes of ki-trades now its hold is overdue
+
+**Context:** `ki-trades` is on hold with a review due by 21 October 2026, now four days past, and its `HOLD-1` audit item warns. Existing trades keep full support. HANDOFF-AS-MESSAGE moved handoffs and rollouts to `messages.md`, so it now governs only the trade routes `.ki.toml` declares. The planned Trades revamp Project's outcome, a succinct trade policy granting the same as now, is that narrower job.
+
+**Query:** Should `ki-trades` be narrowed now or kept on hold?
+
+**Options:**
+
+a) (recommended, confidence medium - matches what HANDOFF-AS-MESSAGE already decided and costs one bounded edit) narrow it to declared routes only, with a pointer to `messages.md` for everything else, and set its next review to when the Trades revamp opens
+
+b) keep it on hold with a new review date, untouched until the Trades revamp opens
+
+### RECAP-NAME - What ki-recap's checkpoint argument is called
+
+**Context:** `ki-recap` offers `checkpoint <thread>`, which composes `ki-work-package` UPDATE. "Thread" now means a session acting on work, and the argument is really a work id. The three recap forms (one session, one work since its mark, the unattended window's return) otherwise have clean scopes.
+
+**Query:** Should the argument become `checkpoint <work id>`?
+
+**Options:**
+
+a) (recommended, confidence high - the model made work the unit and the argument already resolves an id) rename it to `checkpoint <work id>`, accepting the old word through the tolerance window
+
+b) keep `checkpoint <thread>` and define it in the Glossary as the work the thread carries
