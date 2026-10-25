@@ -334,34 +334,6 @@ b) Confirm it for HNR's sites only, in hnr-principal's AGENTS.md.
 
 c) Not a rule.
 
-### PERM-PROMPTS-SHAPES - name the call shapes that prompt
-
-**Context:** The same scan. The shapes that trip the check are an `rm` with a glob, a shell-variable or a workspace-directory target, alone or inside a compound command, a `git worktree remove`, and a `sleep` of 60 seconds or more before a command, which the harness blocks; Kris's own user instructions already describe the `rm` case. Today neither `ki-coordination` nor `ki-delegation` names them; the coordinator style says only to use a bounded run or `ki agent close` for deletion. Not prompts, and needing nothing: Kris's own interruptions, commit hook time and a missing tool in runs. Legal's run also asked Kris to note the wording of the next prompt he sees so the interactive cause can be confirmed.
-
-**Query:** Should both standards name these shapes and the alternatives, with a note on the interactive cause?
-
-**Options:**
-
-a) (recommended, confidence high - the shapes are observed in 237 denials and the alternatives already exist) Yes: `ki-coordination` and `ki-delegation` each list the shapes, coordinators use `ki agent close` or a bounded run for removal and runs use literal paths, and the note says the interactive cause is probable until Kris reports a prompt's wording.
-
-b) Name them in `ki-delegation` only, for runs.
-
-c) Do not: fix the cause under PERM-PROMPTS-SCRATCH and watch.
-
-### PERM-PROMPTS-SETTINGS - whether to change the permission settings
-
-**Context:** The same scan. The user settings chezmoi manages have no allow, ask or deny rules; the repository's 36 allow entries are read-only commands and moot under bypass; headless runs log "Ignoring 40 permissions.allow entries from .claude/settings.json: this workspace has not been trusted", harmless under bypass but voiding the repository allow list if bypass were dropped. Legal's third candidate: if Kris wants fewer prompts without bypass, add the read-only allow set and an explicit deny or ask list to the chezmoi-managed user settings, not per repository, and mark the workspaces trusted. A chezmoi change needs Kris's approval and a `chezmoi diff` review under his own instructions.
-
-**Query:** Should the chezmoi-managed permission settings change now?
-
-**Options:**
-
-a) (recommended, confidence high - no current prompt comes from configuration, and the change pays only if bypass is dropped) Not now: fix the cause under PERM-PROMPTS-SCRATCH and PERM-PROMPTS-SHAPES, and revisit if Kris chooses to leave bypass mode.
-
-b) Yes: a run under a machine grant adds the read-only allow set, an explicit deny or ask list and workspace trust to the chezmoi source, shown as a `chezmoi diff` for approval before apply.
-
-c) Move the repository allow list to the user settings only, leaving bypass and trust as they are.
-
 ## Parked
 
-None.
+- PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.

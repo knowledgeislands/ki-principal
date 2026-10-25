@@ -453,3 +453,7 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
 - 2026-10-25 08:00 GMT: RELEASE-RUN-CHECK answered "Allow read-only (recommended, high confidence)". Read back as: wow-release-runs reads release and run metadata and job logs on GitHub for the last few `tools-ki` releases and their tap and website delivery jobs, with no trigger, setting, credential or repository change.
 
 - 2026-10-25 08:00 GMT: PERM-PROMPTS-SCRATCH answered "Close cleans up (recommended, high confidence)". Read back as: `ki-delegation` says a run never removes its temp directory and `ki agent close` empties and removes it, the refusal sentence going; a line to ki.tools-burndown confirms close does so. It lands in one harness run with PERM-PROMPTS-SHAPES if that is agreed, chained after wow-labels.
+
+- 2026-10-25 08:03 GMT: PERM-PROMPTS-SHAPES answered "Both standards (recommended, high confidence)". Read back as: `ki-coordination` and `ki-delegation` each name the shapes that trip the `rm` safety check and their alternatives, with a note that the interactive cause is probable until Kris reports a prompt's wording. It lands with PERM-PROMPTS-SCRATCH in wow-perm-prompts, chained after wow-labels.
+
+- 2026-10-25 08:03 GMT: PERM-PROMPTS-SETTINGS answered "I'm not sure about this one, can we come back to it later?". Read back as: parked, with no change to the chezmoi-managed settings, to come back to later.
