@@ -320,6 +320,10 @@ wow-method-digest compared eff6163b with 1af72f2e; with the wow-skillset-fixes-2
 
 `a4fef236` adds `design/window-plan.md`: no authorised Now or Next draft or Ready record is eligible for unattended delivery in principal or harness, so no delivery wave ran. KI-PRINCIPAL-MOD-009 and KI-PRINCIPAL-OPS-014 await acceptance and KI-HARNESS-GOV-204 stays held. The run's prompt was fixed at launch, so the tending and interim-policy addenda were not seen; they move to wow-interim-cover.
 
-## 2026-10-25 02:49 GMT - wow-note-cadence received
+## 2026-10-25 02:48 GMT - wow-note-cadence received
 
 `ef668240` brings the Work Process note's commit cadence and standing push wording into line with COMMIT-CADENCE and PACKAGE-PUSH, citing the standard; published. Its own push was blocked by five untracked copies of received run reports in this package; their outcomes are homed in this log and their queries are in `queries.md`, so they are removed. Received reports are no longer to be left untracked in the package.
+
+## 2026-10-25 02:50 GMT - wow-findings-list received
+
+Harness `8897008f` admits `findings/<tag>.md` across the `ki-work-package` closed list, package reads, stewardship, tidy, close-out and FOLDER-1, closing the mismatch the method digest found under FINDINGS-SECTION. Tests 1,467 passed. `method_read` moves to 8897008f, whose only change since 6f3497c5 is this one.
