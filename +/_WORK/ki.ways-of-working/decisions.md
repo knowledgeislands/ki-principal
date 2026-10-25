@@ -261,3 +261,9 @@ Read back as taken: the away grant stands to 08:00 GMT (09:00 BST); the mark is 
 ## 2026-10-25 01:27 GMT - overview and unattended brief received
 
 wow-overview wrote `design/overview.md` (enhancements, package homes, message queue, roadmap) with PACKAGE-HOME, MEMBER-PACKAGE and RECORD-RESOLVES; wow-unattended wrote the brief `design/unattended-work.md` with WINDOW-CLOCK, DENY-LIST, WINDOW-PLAN, CONFLICT-RUN, PROGRESS-SCOPE, UNATTENDED-FIELD, DUE-FIELD and RETURN-FORM. All eleven are copied into `queries.md`; the seven at medium go to wow-window-blind on Codex.
+
+## 2026-10-25 01:38 GMT - WINDOW-CLOCK and the high-confidence bloc
+
+- WINDOW-CLOCK: Kris chose "09:00 GMT". Read back as taken: tonight's window ends at 09:00 GMT, as his "until 9 a.m." was spoken after the clocks went back; from now on every window end is recorded as local time with its zone and UTC, taking the earlier instant only when the words are ambiguous and saying so in the read-back.
+- HIGH-BLOC: Kris chose "Accept all nine". Read back as taken: CASCADE-STEWARD, CASCADE-REPORT, RELATIONS, HOST-SEAT, HOST-TARGET, KI-REPO-HOME, PACKAGE-HOME, RECORD-RESOLVES and RETURN-FORM are each decided as their recommended option a) read in `queries.md` before this commit; they go to the harness and design runs, and KI-REPO-HOME to ki.baseline-rollout as a message line.
+- wow-window-blind received: it agreed with MEMBER-PACKAGE, DENY-LIST, WINDOW-PLAN, CONFLICT-RUN, PROGRESS-SCOPE and DUE-FIELD, each lifted to high with its additions, and disagreed on UNATTENDED-FIELD, which stays medium.

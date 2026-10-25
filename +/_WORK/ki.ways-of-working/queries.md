@@ -2,18 +2,6 @@
 
 ## Open
 
-### CASCADE-STEWARD - a State of play looks after a Project package by explicit assignment and handover
-
-**Context:** Kris wants one State of play thread to keep every Project package in its territory sorted unless the Project has its own coordination thread. The brief made the State of play the steward automatically whenever no thread is open, with a one-day flag on a quiet thread. The Codex review differs: nothing committed or local can show that a thread is alive, so inferring stewardship from an absent thread risks two writers or none. It wants an explicit assignment that changes only by an acknowledged handover, which stops the old steward, passes its runs in flight to the new one and is committed in one write. The Claude review agrees the State of play should steward by default, and it independently adds the same handover of runs in flight. Both drop the one-day flag, which would fire on a Project that is simply waiting on Kris. Both limit package creation to a registered Project within the cap, created in the state its actual move supports rather than `with-worker` by default.
-
-**Query:** Should a State of play steward a Project package by an explicit committed assignment, set when it creates or adopts the package and changed only by an acknowledged handover when Kris opens or closes the Project's own thread?
-
-**Options:**
-
-a) (recommended, confidence high - reviews disagree on inferring stewardship from an absent thread; the state and session contracts give no liveness signal, and explicit assignment keeps the default Kris asked for) Yes: explicit assignment, acknowledged handover with runs in flight, no timeout takeover, creation only for a registered Project within the cap.
-
-b) Infer it, as the brief proposed: the State of play steps in whenever no Project thread is open, with a flag on a quiet thread.
-
 ### STEWARD-FIELD - where a package records who looks after it
 
 **Context:** The assignment needs a committed home that names a work, never a host or session. The brief proposed a new `state.md` field, `steward: self` or `steward: work/<sop id>`. Both reviews reject `self`, which is not a holder value, and both reject reading the assignment as the holder. The Claude review would reuse `work.md`'s existing `worker` field: `worker: work/va` when the State of play looks after the package, and `agent` when the Project's own thread does. That adds no field and leaves the closed field set unchanged. Stewardship changes only when Kris opens or closes a thread, the slow rate `work.md` suits, and the holder stays derived from `state` and `worker` as today. The Codex review wants a dedicated assignment with its own vocabulary, distinct from holder and session, and leaves the exact field to the design. A separate field keeps the assignment visible beside the state, and it avoids a third sense of "steward" only if it is named with care.
@@ -25,66 +13,6 @@ b) Infer it, as the brief proposed: the State of play steps in whenever no Proje
 a) (recommended, confidence medium - reviews disagree; the Codex review and a masked blind review on Codex want a dedicated field, as lasting responsibility should not share a field with the holder that pick-up reads, while the Claude review prefers reusing `worker` as it adds no field) A new dedicated field, taking `work/<id>` values only, never `self`, changed or removed as part of the acknowledged handover.
 
 b) Reuse `work.md`'s `worker`: `worker: work/<sop id>` while the State of play looks after the package, `agent` while its own thread does.
-
-### CASCADE-REPORT - one Summary for several packages
-
-**Context:** When the State of play thread works several Project packages, Kris still gets one Summary from it. Both reviews agree with the brief that each item names its package, each query lives in its Project's `queries.md` and Kris's answer is logged in that Project's `decisions.md`, so any package can be picked up alone. Codex adds three points. Two packages may use the same tag, so a query is named by work and tag. Each package keeps its own state, mark and beat, so a territory mark, or Kris's acknowledgement of the Summary, moves only the work it clearly names. A decision spanning Projects is kept once at the territory, not copied as several grants. Claude adds that the five-call turn budget reads "the work package", singular, so a State of play turn should act in one package at a time and roll the rest up from `ki work status`.
-
-**Query:** Should the State of play's Summary report each package as its own work, with work-qualified query tags, per-package marks and one package acted on per turn?
-
-**Options:**
-
-a) (recommended, confidence high - both reviews agree, and it keeps today's rule that queries and decisions live in the package) Yes, with all four additions.
-
-b) One Summary as the brief proposed, without per-package marks or the one-package turn.
-
-### RELATIONS - what a package and a record say they relate to
-
-**Context:** Kris asked that the metadata say what each piece of work is related to. Both reviews agree that every package below the main should name the State of play that coordinates it as `parent`, so a package read alone shows its territory, Project, theme and coordinator. For ad hoc work, `parent` means the coordinating State of play, not the regular-work parent its id nests under. The brief would then derive a secondary's `covers` list from those `parent` fields and retire it. Both reviews reject that, for two reasons: coverage of a registered Project must hold before its package exists and after it is pruned, and a coverage change would become a write to every moved Project's file instead of one commit in the main's. On records, both agree that a record's `project` field finds its package through the registry. Codex notes it authorises nothing: selection into `now` neither opens work nor grants execution, the steward writes the link into its next steps, and a record with no `project` goes first to its existing owner, such as regular work, before State of play routes it.
-
-**Query:** Should every package below the main carry `parent`, with `covers` kept as the main's register and checked against it, and a record's `project` used only to find its package?
-
-**Options:**
-
-a) (recommended, confidence high - both reviews agree; it answers Kris's metadata ask without losing coverage of Projects that have no package) Yes.
-
-b) As the brief proposed: `covers` derived from `parent` and retired after a tolerance window.
-
-### HOST-SEAT - committed host requirements, never a committed seat
-
-**Context:** Kris asked that coordinators know which machine they run on, so that work aimed at particular machines can be handled. The work-package standard contradicts itself: it says a package names "no host", yet it allows a `(<host>)` label suffix for machine-limited work. Both reviews agree with the brief's resolution. The prohibition protects a thread's seat, meaning where it runs and will resume; that goes stale at every move, so it stays out of every package, hold and report. A requirement, meaning a host or category the work needs, is a fact about the work and may sit on a message line, a brief, a record or a package's label. Both want host and category names taken from the territory's machine inventory, which Rig owns for Knowledge Islands. Claude adds that the coordinator should map the local machine to that inventory rather than trust raw `hostname -s`, whose result on a Mac depends on network settings.
-
-**Query:** Should the no-host rule narrow to the seat, allowing a host or category requirement on a line, brief, record or label, with each coordinator establishing its host from the machine inventory at bootstrap and re-anchoring?
-
-**Options:**
-
-a) (recommended, confidence high - both reviews agree, and it resolves a contradiction in the standard by narrowing rather than deleting the rule) Yes.
-
-b) Keep the blanket no-host rule and drop the label suffix.
-
-### HOST-TARGET - what a host requirement restricts
-
-**Context:** Once requirements are allowed, a coordinator on one machine will meet lines meant for another. The brief and the Claude review would have a thread act only on lines that are untagged or tagged for its own host or category, leave the rest queued and count them in its banner. Claude adds an age flag, so that a line no live thread can take does not wait unseen. The Codex review differs: only device-dependent execution needs the device, so a coordinator elsewhere may still acknowledge the line, plan it, ask Kris about it or dispatch a run to an eligible host. A blanket skip also breaks the queue's order when the first line, or an IMPORTANT line, is for another host. Codex also wants concrete hosts told apart from categories, and rules for unknown or renamed names, before the syntax is adopted. Both agree the syntax is an optional `@<host or category>` after the date, and that the pilot runs in `ki.chezmoi`.
-
-**Query:** Should a host requirement restrict only device-dependent execution, leaving any coordinator free to acknowledge, plan, ask about or dispatch the line in queue order?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; a masked blind review on Codex agreed that restricting execution only keeps queue order and IMPORTANT lines intact, adding that the pending execution or handover is recorded durably and acknowledgement never counts as completion) Yes, with an age flag on lines no eligible host has taken, and host-versus-category rules settled before adoption.
-
-b) A thread acts only on lines for its own host or category and leaves the rest queued and counted, as the brief proposed.
-
-### KI-REPO-HOME - which work carries `ki-repo` standard and checker changes
-
-**Context:** State of play queued REPO-METADATA's `ki-repo` change with ki.baseline-rollout: the hyphen-only `ki-` topics and the `territory_code` and `territory_tag_types` keys. That work's `work.md`, however, puts "harness skills and standards" out of its scope and gives them to ki.ways-of-working. This work's own scope covers the work model, coordination, delegation and work-record standards, not repository metadata. Wording for the 24-character `repo_code` cap, from PERSONAL-RESERVED, would ride with whichever work carries the `ki-repo` change. Personal has already shortened its two site codes, so nothing is blocked.
-
-**Query:** Should ki.baseline-rollout carry `ki-repo` standard and checker changes, with its Out line narrowed to the work-model skills?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; a masked blind review on Codex agreed, as repository conformance fits Baseline rollout's outcome and keeps this work's method boundary; repository metadata is baseline conformance across every repository, and State of play already routed it there) ki.baseline-rollout carries the `ki-repo` change, the repo-code cap wording included, and its `work.md` Out line reads "work-model harness skills and standards (ki.ways-of-working)".
-
-b) ki.ways-of-working carries it, and its scope widens to `ki-repo`'s repository contract.
 
 ### LEGACY-PREFIX - how a `repo_code` rename passes the streams and roadmap audits
 
@@ -110,41 +38,17 @@ a) (recommended, confidence medium - reviews disagree; a masked blind review on 
 
 b) Start a `ki-work-design` brief now covering partial repositories, the personal "work" knowledge base and the store-binding gap.
 
-### PACKAGE-HOME - every Project package lives in its Capital
-
-**Context:** No standard says where a Project package lives. Records live in their owning repositories and find their Project through `project` and the Capital's registry. In practice every Project package in KI (16), HNR (25) and Valle Armonia (3) is already in its Capital. Moving a package beside its records (option B) would split the Capital's view, and a Project's records span several repositories. Putting records inside the package (option C) would overturn repository ownership of records and HANDOFF-AS-MESSAGE. The note's section 2 sets out all three options.
-
-**Query:** Should the work-package standard say that every Project package lives in its territory's Capital, with records staying in their owning repositories and joined only by `project`?
-
-**Options:** a) (recommended, confidence high - it writes down what all three territories already do, needs no migration and adds no machinery) State it in the work-package standard: Project packages live in the Capital, records stay with their owners, and the State of play stewards packageless Projects until one needs its own package. b) Let a Project package live in the repository that holds most of its records.
-
 ### MEMBER-PACKAGE - a member repository's own regular work
 
 **Context:** [personal.regular.acquire-intake](/Users/krisbrown/workspaces/personal/acquire/+/_WORK/personal.regular.acquire-intake/work.md) is a package held in the member repository `personal/acquire`, not in the Capital. The rubric bars only territory work outside a Capital, so this is allowed but undeclared anywhere. It is the only such case found. This query has not had a blind review.
 
 **Query:** May a member repository hold a package for its own regular work, provided its `work.md` declares it as such?
 
-**Options:** a) (recommended, confidence medium - one case only, and regular work naturally sits with the code it runs against, but the pattern is unproven) Allow it for regular work only, declared in `work.md`; Project and territory work stay in the Capital. b) Move every package into the Capital, including regular work.
-
-### RECORD-RESOLVES - check that a record's `project` resolves
-
-**Context:** Nothing checks that a record's `project` names a registered Project. Tending already lists this as a mechanical-check candidate, because VA-WEBSITE-SANC-011 names a Project that does not resolve. Separately, some records name no Project at all, such as [KI-HARNESS-GOV-202](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-202-skill-area-stable-stats-badge.md), so no package steers them.
-
-**Query:** Should a mechanical check flag a record whose `project` does not resolve, run as a tending check at the State of play rather than in each repository's rubric?
-
-**Options:** a) (recommended, confidence high - one check over data the Capital already holds, already proposed in tending, and in keeping with the over-engineering steer) Make it a tending check at the State of play, reporting unresolved and missing `project` values as findings. b) Add it to the work-roadmap rubric so that each repository checks its own records.
-
-### WINDOW-CLOCK - how a window's end time is recorded
-
-**Context:** Tonight's grant, "Grant to 09:00" at 01:31 BST, was read back after the clocks went back as 08:00 GMT, the same instant as 09:00 BST. 9 a.m. on the wall clock after the change is 09:00 GMT, an hour later. Any end time can be read two ways across a clock change, and the grant's authority depends on the instant.
-
-**Query:** Should every grant record its end as one instant, local time with zone beside UTC, the earlier reading taken when Kris's words allow two?
-
 **Options:**
 
-a) (recommended, confidence high - stopping an hour early costs little and never exceeds authority) Record the end as local time with zone and UTC, take the earlier instant when ambiguous and say so in the read-back; tonight's window ends at 08:00 GMT.
+a) (recommended, confidence high - reviewed; a masked blind review on Codex agreed, as it follows the existing split between regular work and coordination, with Project and territory work staying in the Capital; one case only, and regular work naturally sits with the code it runs against, but the pattern is unproven) Allow it for regular work only, declared in `work.md`; Project and territory work stay in the Capital.
 
-b) Read the end as wall-clock time on Kris's return day; tonight's window ends at 09:00 GMT.
+b) Move every package into the Capital, including regular work.
 
 ### DENY-LIST - a standing default list of what a window never does
 
@@ -154,7 +58,7 @@ b) Read the end as wall-clock time on Kris's return day; tonight's window ends a
 
 **Options:**
 
-a) (recommended, confidence medium - unreviewed; it generalises the exclusions every grant so far has written by hand) Adopt the standing list in `ki-delegation`, each grant naming any item it lifts.
+a) (recommended, confidence high - reviewed; a masked blind review on Codex agreed that a common baseline reduces omissions; it generalises the exclusions every grant so far has written by hand) Adopt the standing list in `ki-delegation`, each grant naming any item it lifts; force-push and `--no-verify` stay prohibited, and none of the four unconfirmed HNR rules is added without confirmation.
 
 b) Keep per-window exclusions only, as today.
 
@@ -166,7 +70,7 @@ b) Keep per-window exclusions only, as today.
 
 **Options:**
 
-a) (recommended, confidence medium - unreviewed; Kris often leaves straight after granting, and the plan cannot exceed the grant) Show the plan in the entry report and start without confirmation.
+a) (recommended, confidence high - reviewed; a masked blind review on Codex agreed that an explicit bounded grant already authorises the attempt; Kris often leaves straight after granting, and the plan cannot exceed the grant) Show the plan in the entry report and start without confirmation; order, authority, dependencies and exclusions are recorded before implementation, and any unit whose authority still needs a decision is parked.
 
 b) Start only once Kris has confirmed the plan.
 
@@ -178,7 +82,7 @@ b) Start only once Kris has confirmed the plan.
 
 **Options:**
 
-a) (recommended, confidence medium - unreviewed; it does what Kris asked without touching another session's work) Yes, a bounded resolve run at push tier, stopping on another session's content or a judgement call.
+a) (recommended, confidence high - reviewed; a masked blind review on Codex agreed, noting file ownership alone does not prove no other session has content in the file; it does what Kris asked without touching another session's work) Yes, a bounded resolve run at push tier, stopping on another session's content or a judgement call; the run works in its own worktree, rebases only this work's unpublished commits and verifies the result.
 
 b) No, leave every conflict for Kris on return, as today.
 
@@ -190,7 +94,7 @@ b) No, leave every conflict for Kris on return, as today.
 
 **Options:**
 
-a) (recommended, confidence medium - unreviewed; it matches the lifecycle's existing split between agent and owner) Plan drafts to Ready and deliver Ready records to awaiting review, in `ki-batch` waves citing the grant.
+a) (recommended, confidence high - reviewed; a masked blind review on Codex agreed, as it advances authorised work while keeping the human lifecycle decisions; it matches the lifecycle's existing split between agent and owner) Plan drafts to Ready and deliver Ready records to awaiting review, in `ki-batch` waves citing the grant; each wave is frozen before delivery, dependencies and the owner-queue cap are honoured, and adoption, discretionary promotion, acceptance and pruning stay with Kris.
 
 b) As a), and also close to done records the grant names at entry.
 
@@ -204,7 +108,7 @@ c) Plan only, delivering nothing until Kris returns.
 
 **Options:**
 
-a) (recommended, confidence medium - unreviewed; Personal's assessment shows the criteria sort real records, and a field spares rereading every record at each window) Adopt the mapping and the criteria, refreshed at each status or horizon change.
+a) (recommended, confidence medium - reviews disagree; a masked blind review on Codex would keep the assessment in a per-window note with no record field, as eligibility depends on the grant and can go stale, and review the eight criteria before standardising them, while Personal's assessment shows the criteria sort real records, and a field spares rereading every record at each window) Adopt the mapping and the criteria, refreshed at each status or horizon change.
 
 b) Keep the assessment in a per-window note, with no record field.
 
@@ -216,23 +120,6 @@ b) Keep the assessment in a per-window note, with no record field.
 
 **Options:**
 
-a) (recommended, confidence medium - unreviewed; it carries both of Kris's words, due date and milestone, and leaves the horizon rule intact) Adopt `target` as proposed.
+a) (recommended, confidence high - reviewed; a masked blind review on Codex agreed, as kind and description make the date meaningful without turning every milestone into a deadline; it carries both of Kris's words, due date and milestone, and leaves the horizon rule intact) Adopt `target` as proposed; `target` orders records within the same horizon and priority after eligibility and dependency checks, and views flag near or past targets without changing lifecycle or horizon.
 
 b) A single optional `due` date, with no kind or description.
-
-### RETURN-FORM - the shape of the report on return
-
-**Context:** Kris wants to "walk through all the changes that have landed" since the mark. The recap since the mark already covers the window; the brief extends it across repositories, from per-repository revisions recorded at entry, with the work's own units in detail, other sessions' commits counted, failures beside their units and a list of the window's misses, then an interactive walk-through, the next mark struck only after.
-
-**Query:** Should the return report be the recap since the window's mark extended across repositories, rather than a new report form?
-
-**Options:**
-
-a) (recommended, confidence high - it reuses the recap's existing window, and the per-repository baseline needs no new field) Extend the recap, with an optional interactive walk-through and the next mark struck after it.
-
-b) Add a separate Window report form.
-
-## Parked
-
-- PROXY-SHAPER - the Headroom shaper's "never restate" block and Bash compression in coordinator sessions; recommended a) leave the proxy and fix the read path in the standard, medium, review disagrees (Codex would turn the shaper off through chezmoi with a tested restore path). Kris, 2026-10-25: "I'm not really sure what to do about this one ... Maybe it's something we can come back to."
-- RIG-ATTENDED - Kris's attended Rig steps on sol and terra, commands in `/Users/krisbrown/.local/state/ki/agents/ways-of-working/wow-rig-attended-steps.report.md`; recommended a) CORE-069 on sol plus the look-only CORE-047 and CORE-062 checks first, CORE-068 and the live firewall rollout in a later sitting. Kris, 2026-10-22 02:26 BST: walk me through it in the morning. The tools-rig v0.8.0 tag waits on the same review gates (RIG-RELEASE-REVIEW-BOUNDARY a), 2026-10-23).
