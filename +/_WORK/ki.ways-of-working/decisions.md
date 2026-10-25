@@ -213,3 +213,10 @@ Read back as taken: the away grant stands to 08:00 GMT (09:00 BST); the mark is 
 
 - SYNC-SCOPE: Kris chose "Push all stacked". Read back as taken: until 08:00 GMT, the sync pushes everything stacked on `main` in the repositories this work touches, fast-forward only, never forced, never `--no-verify`, stopping on divergence. PACKAGE-PUSH stays open as the standing rule beyond the window.
 - COMMIT-CADENCE: Kris chose a), "Adopt cadence". Read back as taken: the standard, output style and hook line require committing each complete unit by explicit path before the turn ends, pulling fast-forward only into a clean checkout, committing a line written into other work's `messages.md` at once, and keeping publication under the push rule. Implementation goes to a harness run tonight.
+
+## 2026-10-25 01:10 GMT - SUMMARY-WINDOW answered; Kris's goal for the morning
+
+- SUMMARY-WINDOW: Kris chose a), "Window on mark". Read back as taken: the Summary's Done and In Progress window on the mark; a hand-off is reported once in Done; items held in a roadmap are left to the roadmap; Outstanding holds only this work's own holdings; the recap and full summary stay the longer views. Implementation goes to a harness run tonight.
+- THREAD-RENAME was asked but not answered; it is asked again.
+- Blind review wow-lines-blind: KI-REPO-HOME agreed, now high. LEGACY-PREFIX and PARTIAL-REPOS disagree, so both stay at medium with both views shown.
+- Kris's goal: "what I really want to do is come back and the ways of working be fully bottomed out with some really clear thinking. I want the set of skills to be well defined around this, and I want it to make it so that when we do a bootstrap and we've got things working, it works really well." Kris also asked whether every work package can have its own coordination thread, given the three session types (conversational, coordination and State of play). Read back as taken: once the overview lands, a skill-set definition pass is launched, setting out the units, their boundaries and the bootstrap path, with Kris's question answered there in full.

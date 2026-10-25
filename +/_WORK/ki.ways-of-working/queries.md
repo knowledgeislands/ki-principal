@@ -40,18 +40,6 @@ a) (recommended, confidence high - reviewed; launch naming alone leaves pasted o
 
 b) Launch openers with `--name` only, and keep reports free of paste lines.
 
-### SUMMARY-WINDOW - window the Summary on the mark and narrow Outstanding
-
-**Context:** Kris said that after a mark a Summary should show nothing done, nothing running and no queries. Kris also said Outstanding should hold only what this work carries, with no push state, no hand-offs already sent and nothing waiting in a roadmap. The standard windows the Summary "since your last message". It also keeps a hand-off outstanding until Kris says it is done, an earlier position.
-
-**Query:** Should the Summary's Done and In Progress window on the mark, with Outstanding limited to this work's own holdings and the earlier hand-off rule superseded?
-
-**Options:**
-
-a) (recommended, confidence high - Kris's own words on 24 October, the later and narrower position) Window the Summary on the mark, report a hand-off once in Done, leave roadmap-held items to the roadmap, and keep the recap and full summary as the longer views.
-
-b) Narrow Outstanding only, and keep the Summary window as "since your last message".
-
 ### FINDINGS-SECTION - add a Findings section to the owner report
 
 **Context:** Kris asked for findings to sit in their own section, repeated until Kris is content, with each table opening with its goal. Kris also asked for prompts to hand on to be carried in full. Valle Armonia and Personal already use it as interim policy, and it worked. The owner report today has exactly three sections.
@@ -284,7 +272,7 @@ b) A thread acts only on lines for its own host or category and leaves the rest 
 
 **Options:**
 
-a) (recommended, confidence medium - needs blind review; repository metadata is baseline conformance across every repository, and State of play already routed it there) ki.baseline-rollout carries the `ki-repo` change, the repo-code cap wording included, and its `work.md` Out line reads "work-model harness skills and standards (ki.ways-of-working)".
+a) (recommended, confidence high - reviewed; a masked blind review on Codex agreed, as repository conformance fits Baseline rollout's outcome and keeps this work's method boundary; repository metadata is baseline conformance across every repository, and State of play already routed it there) ki.baseline-rollout carries the `ki-repo` change, the repo-code cap wording included, and its `work.md` Out line reads "work-model harness skills and standards (ki.ways-of-working)".
 
 b) ki.ways-of-working carries it, and its scope widens to `ki-repo`'s repository contract.
 
@@ -296,7 +284,7 @@ b) ki.ways-of-working carries it, and its scope widens to `ki-repo`'s repository
 
 **Options:**
 
-a) (recommended, confidence medium - needs blind review; renames are rare and Personal's runs as one sweep, so documenting the sweep costs one paragraph where the allowance costs two checkers and tools-ki) Write the rename into `ki-work-roadmap` as one sweep: every record and in-repository reference in one commit, pruned links keeping their pinned revisions.
+a) (recommended, confidence medium - reviews disagree; a masked blind review on Codex would add the former-code list, since issued identifiers are cited outside the repository and a sweep breaks those links, while renames are rare and Personal's runs as one sweep, so documenting the sweep costs one paragraph where the allowance costs two checkers and tools-ki) Write the rename into `ki-work-roadmap` as one sweep: every record and in-repository reference in one commit, pruned links keeping their pinned revisions.
 
 b) Add an optional legacy-prefix list accepted by both audits for existing records only, with new records required to use the current code.
 
@@ -308,7 +296,7 @@ b) Add an optional legacy-prefix list accepted by both audits for existing recor
 
 **Options:**
 
-a) (recommended, confidence medium - needs blind review; Kris's own words defer it, and nothing is broken beyond HNR's tracked-notes workaround) Record it as an idea on the Ways of working Project note with the HNR evidence linked, and start a `ki-work-design` brief when Kris opens it.
+a) (recommended, confidence medium - reviews disagree; a masked blind review on Codex would start the design now, as your explicit question and the store-audit gap justify a bounded look, while your own words defer it, and nothing is broken beyond HNR's tracked-notes workaround) Record it as an idea on the Ways of working Project note with the HNR evidence linked, and start a `ki-work-design` brief when Kris opens it.
 
 b) Start a `ki-work-design` brief now covering partial repositories, the personal "work" knowledge base and the store-binding gap.
 
