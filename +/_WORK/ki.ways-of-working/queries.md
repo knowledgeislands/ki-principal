@@ -278,6 +278,46 @@ b) Keep the 23 October order: session-only wakes with stop words, revisit after 
 
 c) Build the launchd job first and write the contract from what it needs.
 
+### OPENER-LABEL - Print the opener's Label line with the id
+
+**Context:** WORK-LABEL made the work name `<label> (<id>)` in the standard's opener templates. `ki agent prompts`, in `tools-ki`, still prints the label alone; the tolerance window accepts it. Sending work to another repository needs Kris's permission.
+
+**Query:** May a line go to the work that owns `tools-ki` asking it to print the Label line as `<label> (<id>)`?
+
+**Options:**
+
+a) (recommended, confidence high - the standard and the printed opener should agree, and it is one template line) Send one line citing WORK-LABEL and harness `0404754a`. b) Leave it and let the tolerance window carry the difference.
+
+### RED-MAIN - Red main blocks every bot pull request
+
+**Context:** The website's required `build` has failed on every main commit since 19 October, now in the KI repo audit step, and the harness's main went red at 08:07 GMT today. While main is red, bot pin and catalogue pull requests open with auto-merge and never merge, so releases reach consumers only through hand merges.
+
+**Query:** How should bot pull requests land while a required check is red?
+
+**Options:**
+
+a) (recommended, confidence high - auto-merge is the designed path and works only on a green main) Get both mains green first, then let the next release prove the fan-out end to end. b) Keep merging stale bot pull requests by hand. c) Drop `build` from the required checks for bot branches; hides real breakage.
+
+### HARNESS-CONSUMER - Enrol the harness as a tap consumer
+
+**Context:** The tap's `.github/tool-release-consumers.json` names only the website. The harness's `update-ki-pin.yml` already accepts the tap's `tool-release-published` dispatch, but nothing sends it, so the harness pin moves only on a daily poll that runs five to seven hours late and skipped v0.11.5.
+
+**Query:** Should the harness be added to the tap's consumer list?
+
+**Options:**
+
+a) (recommended, confidence medium - the workflow is dispatch-ready and the poll skips releases; medium because poll-only may have been deliberate) Add it and keep the poll as backstop. b) Leave the harness poll-only.
+
+### PIN-HANG - A harness pin pull request's Test step ran six hours
+
+**Context:** On 20 October the harness CI for the v0.12.0 pin pull request ran its Test step from 12:07 to 18:08 UTC before cancellation. Current `ci.yml` declares a 30-minute job and 10-minute Test step timeout; the v0.13.0 run finished in minutes.
+
+**Query:** Chase the hang, or treat it as a one-off?
+
+**Options:**
+
+a) (recommended, confidence medium - one occurrence, timeouts now declared) Treat it as a one-off and watch the next pin pull request. b) Check when the timeouts were added and investigate if they predate 20 October.
+
 ## Parked
 
 - PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.
