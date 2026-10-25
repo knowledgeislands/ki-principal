@@ -1,7 +1,7 @@
 ---
 id: ki.ways-of-working
 state: with-worker
-since: 2026-10-25T01:07:00Z
+since: 2026-10-25T08:57:00Z
 received: 2026-10-22T07:24:00Z
 beat: null
 mark: 2026-10-25T01:07:00Z
@@ -12,13 +12,15 @@ method_read: fdf9a604
 
 ## Now
 
-- 01:07 GMT: mark struck at the start of the unattended window, to 08:00 GMT.
-- 06:43 GMT: DOCS-PUBLISH complete and live: ten docs units, 64 pages in ten sections with Archify diagrams, last commits `076bcc4`, `31f4ba3`, the deploy fix `904176e` and the test fix `0c0bfd1` on the website's main. The Cloudflare deploy outage from 04:22 to 06:22 GMT is fixed. Website CI stays red on the pinned `ki` v0.8.4 (CI-PIN query). The review pack, `design/review-pack.md`, is final with 33 open queries in nine themes and all 80 addresses live. Nothing is running.
+- 08:27 GMT: AWAY-GRANT-2 unattended window opened, ending at "I'm back" or about 08:27 GMT on 26 October; session cron wakes every 15 minutes; stop word "stop the wake".
+- 08:58 GMT: received this window wow-ci-pins, wow-unattended-limits, wow-tap-consumer, wow-review-docs-red, wow-replay-smoke, wow-external-limits, wow-guidance-refresh, wow-hnr-resolve, wow-hnr-level, wow-ask-timeout, wow-mgit-cache-design, wow-red-main and two blind reviews. Harness main green at `5cb52973`; guidance read to `fdf9a604`.
+- Running: wow-fleet-green (dependency and toolchain drift across the fleet). Queued behind it: wow-ki-pin-release (ki v0.14.0 with the current harness pin, then the website's KI_VERSION), which clears the website's last DESIGN-2 failure.
+- 01:07 GMT: mark struck at the start of the previous window. 06:43 GMT: DOCS-PUBLISH complete and live.
 
 ## Next steps
 
-- Coordinator: keep the territory sync running until 08:00 GMT, launch nothing new unless a message needs it, then give the return report with every open query in full.
-- Kris on return: the 33 open queries, the website review list and the review pack.
+- Coordinator: wake every 15 minutes, receive runs, accept only `Kris:` answers whose commit carries no AI co-author trailer, launch only authorised work; on return give the full Summary with every open query in full.
+- Kris on return: the open queries in `queries.md`, the website review list and the review pack.
 
 ## Held
 
