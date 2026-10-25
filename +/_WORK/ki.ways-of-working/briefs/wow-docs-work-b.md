@@ -35,3 +35,7 @@ Commit as `docs(site): publish Ways of working pages 6 to 8` by explicit path. R
 ## Gate baseline note (04:47 GMT)
 
 Follow the plan's Gate baseline section in `design/website-docs.md`: the engineering audit's DEPS-1 dependency-age failure and CI-1 warning are the pre-existing baseline. Once the site build with every gate, the tests, the typecheck and the website-content, authoring and diagrams audits pass, commit only your own paths by explicit path and push fast-forward, naming DEPS-1 in your report. Never install or update dependencies. Other units may be working in the same checkout: never stage, revert or touch their files. Also follow the plan's Linking back from Skills by outcome section.
+
+## Draft ownership (05:23 GMT)
+
+The uncommitted Work design, Trades and Recurring work pages under `apps/site/src/docs/ways-of-working/`, the work-design-loop, trade and recurring-occurrence diagrams with their manifest entries and receipts, the feature-area entries and the earlier-page links were written by your own first attempt, whose report at 05:21 GMT lists them as its prepared work. Adopt them, re-run the gates, and commit those paths under the Gate baseline above. wow-docs-work-c is writing in the same checkout at the same time, and `apps/site/scripts/verify-diagrams.test.ts` belongs to neither of you: never stage, revert or touch either.
