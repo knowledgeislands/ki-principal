@@ -30,3 +30,7 @@ Commit as `docs(site): refresh the ki CLI section to v0.13.0 and add three pages
 - Publishing: after the checks pass, `git fetch -q`, `git pull -q --ff-only`, then `git push -q origin main` fast-forward only. Pushing `main` deploys the site. Stop on divergence and report it; do not rebase, reset or stash.
 - No other network call: no GitHub API, no package installs, no `verify:provenance -- --network`.
 - Report in under 30 lines in owner-report form: Done with the commit identifiers and one line per check, In Progress, Queries. Name every published URL as `https://knowledgeislands.info<path>`, noting that the deploy completes after the push. Put a design choice you had to make that the plan did not settle in Queries with a recommended option; do not block on it.
+
+## Relaunch note (04:26 GMT)
+
+CLI-PREREQUISITES a) is granted. You start after wow-docs-diagrams has committed `command-groups.md` and the pipeline. In scope: repair the roff parser for the new escapes, and add local Git input to the CLI sync script and its tests, reading the `tools-ki` checkout at `/Users/krisbrown/workspaces/knowledge-islands/tools-ki` at its `v0.13.0` tag (read only; never edit or tag tools-ki). Commit only your own paths; wow-docs-skills may be working in the same checkout.
