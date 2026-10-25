@@ -28,30 +28,6 @@ a) (recommended, confidence high - reviewed; current hosts are covered and the r
 
 b) Keep it held until an ARM Linux host is needed.
 
-### THREAD-RENAME - name each coordination thread at launch, and say so in the bootstrap report
-
-**Context:** Kris asked for a bootstrapped thread to get a good name, or failing that for the report to say how. Claude Code's `--name` flag names a session at launch, but a running session cannot rename itself. A `/rename` line in a report breaks the current rule against paste instructions in reports. Kris wants this before KI > SoP bootstraps on Sol.
-
-**Query:** Should openers launch with `--name`, with bootstrap and re-bootstrap reports also carrying one `Rename this thread: /rename <label> (<id>)` line as a named exception?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; launch naming alone leaves pasted openers unnamed, and one narrow rename line does not reopen the ban on send or resume prompts) Launch openers with `claude --name "<label> (<id>)"`, and add the rename line to bootstrap and re-bootstrap reports only.
-
-b) Launch openers with `--name` only, and keep reports free of paste lines.
-
-### FINDINGS-SECTION - add a Findings section to the owner report
-
-**Context:** Kris asked for findings to sit in their own section, repeated until Kris is content, with each table opening with its goal. Kris also asked for prompts to hand on to be carried in full. Valle Armonia and Personal already use it as interim policy, and it worked. The owner report today has exactly three sections.
-
-**Query:** Should the owner report gain an optional `## Findings` section, as set out in the findings design note, with `findings/` allowed in a work package?
-
-**Options:**
-
-a) (recommended, confidence high - two territories have used it without trouble and it follows Kris's words) Adopt it as an optional section, carried until a mark or until Kris is content, prompts in full included.
-
-b) Keep three sections and carry findings in Done.
-
 ### QUERY-RULES - write the interactive pass and query splitting into the standard
 
 **Context:** Kris set out how queries are taken interactively:
