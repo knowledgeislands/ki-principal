@@ -99,3 +99,63 @@ b) keep `checkpoint <thread>` and define it in the Glossary as the work the thre
 a) (recommended, confidence medium - reviewed; a masked blind review on Codex recommended it, keeping medium because your decision settled `mgit` only, not every shipped command) Write by default; `--dry-run` and `-n` show the same changes without applying them, and must prevent local and provider changes, not just the final write; `--check` is a read-only verification that fails on findings; `--apply`, `--write` and `--fix` are not routine write gates, and `--yes` only confirms. Keep named, documented exceptions for data deletion, publication, reviewed proposals and connection-critical changes. Reconcile both standards first, then change each tool through its owning work, with no fleet-wide flag migration.
 
 b) Keep the current convention with `mgit repair` as the one exception, and hold the survey for a later decision.
+
+### INTERIM-REPAIR - small repairs that fall under an adopted record
+
+**Context:** Tending proposes fixing small authorised defects within the pass, but its pilot leaves open what happens when the same repair implements an already adopted record. That record may have a plan, hold or owner the tending pass must preserve. No such record was changed here.
+
+**Query:** Should repairs that implement an adopted record stay with that record's delivery owner and plan?
+
+**Options:**
+
+a) (recommended, confidence high - preserves the existing record's authority, holds and acceptance without inventing an overlapping grant) Keep them with the record's owner and plan; a tending pass may deliver one only when explicitly authorised within those bounds and must leave the evidence with the record, without inferring acceptance.
+
+b) Permit any otherwise authorised small tending repair immediately, then have the record's owner reconcile its plan afterwards.
+
+### INTERIM-FINDING-WRITER - who writes a package finding file
+
+**Context:** The interim note proposes a run writing a finding file when its brief names it. The standard now permits the finding kind, but its Entry points table gives writing and settlement to the own steward; a run writes its report in state and the launcher homes it. The steward can copy the finding at receive, so no new permission is needed for the existing route.
+
+**Query:** Should direct finding-file writing remain with the steward?
+
+**Options:**
+
+a) (recommended, confidence high - matches the inspected entry-point contract and the working report-to-steward handoff) Keep the standard's steward-only package writer; treat the interim note's extra direct-run permission as declined, and carry the finding through the run report when needed.
+
+b) Adopt a bounded run writer entry point for the exact finding file named in its brief, with authority and settlement ownership stated explicitly.
+
+### INTERIM-FINDING-AGE - whether findings need an age warning
+
+**Context:** The interim note proposes warning on an old open finding when its work is not On hold, but supplies no threshold. The current package rubric permits findings and checks their lifecycle without this warning. Choosing an arbitrary age now would create policy unsupported by the pilots.
+
+**Query:** Should an age warning remain deferred until the pilots show what age is useful?
+
+**Options:**
+
+a) (recommended, confidence high - preserves current behaviour and avoids an invented threshold) Defer the age warning in the findings idea; land freshness and settlement rules first and revisit the warning with territory evidence.
+
+b) Require an age warning as part of graduation, with a threshold selected by Kris before implementation.
+
+### INTERIM-HOMEPAGE-OMISSION - what an absent homepage means
+
+**Context:** The settled metadata direction makes configuration the master. Its homepage caution proposes that an absent key means no homepage, so a leftover root-package or GitHub value is stale, but explicitly asks the standard to confirm this before a checker lands. An audit can report drift without clearing a live URL, and a conform proposal can require approval for clearing it.
+
+**Query:** Should omission mean no repository homepage, with stale mirrors reported and clearing separately approved?
+
+**Options:**
+
+a) (recommended, confidence high - follows the settled configuration-master direction while preserving explicit approval before deletion of a mirror) Confirm absence means no repository homepage; audit reports stale root-package and GitHub values, and conform proposes clearing them for explicit approval. Workspace-package homepages remain outside this rule.
+
+b) Treat omission as unmanaged and leave existing mirror values unassessed until a homepage is declared.
+
+### INTERIM-TAG-SCOPE - optional or shape-scoped territory tag types
+
+**Context:** The metadata proposal currently requires exactly one value for every declared territory type on every member. Personal found that a domain type would fit only its sites, so it declares no types. The note explicitly waits for a second territory to need optional or shape-scoped types; neither schema nor checker supports them yet.
+
+**Query:** Should optional or shape-scoped types stay deferred until a second territory demonstrates the need?
+
+**Options:**
+
+a) (recommended, confidence high - follows the note's explicit pilot boundary and keeps the first schema bounded) Keep the every-member rule for initial graduation and retain optional/shape-scoped types as an extension awaiting a second territory's evidence.
+
+b) Include optional or shape-scoped types in the first standardisation design and review their membership and validation semantics before implementation.
