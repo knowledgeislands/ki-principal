@@ -252,3 +252,8 @@ Read back as taken: the away grant stands to 08:00 GMT (09:00 BST); the mark is 
 
 - PROXY-SHAPER: Kris: "I'm not really sure what to do about this one, to be honest. Maybe it's something we can come back to." Read back as taken: parked in `queries.md`, nothing changed in the proxy or chezmoi.
 - METHOD-NUDGE: Kris chose a), "Add warning". Read back as taken: `hooks/coordinator-reminder.sh` prints one advisory line when a work's `state.md` `method_read` differs from the method revision, naming both. Harness run tonight.
+
+## 2026-10-25 01:27 GMT - REVIEW-CHECK and PACKAGE-PUSH answered
+
+- REVIEW-CHECK: Kris chose a), "Extend COORD-11". Read back as taken: COORD-11 also warns when one query carries more than one `(recommended` option. Harness run tonight.
+- PACKAGE-PUSH: Kris chose "Tonight's rule always". Read back as taken: as a standing rule, a session may push everything stacked on `main`, other sessions' commits included, fast-forward only, never forced, never `--no-verify`, stopping on divergence; this supersedes the 14 and 19 October own-commits-only rule. Kris also, 25 October: "something that I really want to make sure happens more often is that the stuff that's in the work package gets committed because effectively changes in the local working copy are blocking the pushing and pulling of the repositories". Both go into the harness run with COMMIT-CADENCE.

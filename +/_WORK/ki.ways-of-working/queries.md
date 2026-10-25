@@ -2,32 +2,6 @@
 
 ## Open
 
-### REVIEW-CHECK - flag a query with two recommended options
-
-**Context:** In the 21:53 Summary, COORD-COMMANDS and DRAIN-END each carried two "recommended by ..." options with two confidences, against the query-review rule: one recommended a), with its reason starting `review disagrees` and the reviewer's view in Context. Rubric item COORD-11 already checks confidence on recommended lines.
-
-**Query:** Should COORD-11 also warn when a query carries more than one `(recommended` option?
-
-**Options:**
-
-a) (recommended, confidence high - a narrow warning beside an existing check, easily reversed) Extend COORD-11 to warn on a second recommended option in one query.
-
-b) Leave it to coordinator habit.
-
-### PACKAGE-PUSH - push other sessions' work-folder commits stacked beneath your own
-
-**Context:** You set on 14 October that a session pushes only when its own commits alone are stacked, and on 19 October that it never pushes another session's stacked commits. In a Capital those are nearly always other sessions' `+/_WORK/` commits, such as a `messages.md` line routed here, so the coordinator's push stalls until you push by hand. Your 14 October words allow pushing stacked commits a session is confident in and flagging the rest. The reviews disagree. The cadence blind review on Codex agreed, provided the session inspects every unpublished commit's changed paths, renames included, and stops on divergence or doubt. The Codex model-shape review rejected a push allowed by path alone, at high confidence, because briefs and decisions under `+/_WORK/` can carry unreviewed material, and asked for a bounded grant naming the publisher, repositories, branches and the check of each commit beneath. The Claude model-shape review agreed with the narrow exception but noted it does nothing while any product commit lies beneath, so it pairs it with each session pushing its own product commits at once, which your 14 October words already allow.
-
-**Query:** May a session push a fast-forward stack in which other sessions' commits touch only `+/_WORK/` paths, keeping the own-commits-only rule for every other stacked commit?
-
-**Options:**
-
-a) (recommended, confidence medium - reviews disagree; a bounded grant removes the stall while answering the unreviewed-material concern) Yes, as a bounded grant: only this repository's coordinators, only `main` of the Capital, only when every other session's stacked commit touches `+/_WORK/` alone, each commit's paths checked, fast-forward only and never forced, with each session pushing its own product commits at once.
-
-c) Yes, by path alone, with no named publisher or branch.
-
-b) No, keep own-commits-only pushing and rely on COMMIT-CADENCE alone.
-
 ### CASCADE-STEWARD - a State of play looks after a Project package by explicit assignment and handover
 
 **Context:** Kris wants one State of play thread to keep every Project package in its territory sorted unless the Project has its own coordination thread. The brief made the State of play the steward automatically whenever no thread is open, with a one-day flag on a quiet thread. The Codex review differs: nothing committed or local can show that a thread is alive, so inferring stewardship from an absent thread risks two writers or none. It wants an explicit assignment that changes only by an acknowledged handover, which stops the old steward, passes its runs in flight to the new one and is committed in one write. The Claude review agrees the State of play should steward by default, and it independently adds the same handover of runs in flight. Both drop the one-day flag, which would fire on a Project that is simply waiting on Kris. Both limit package creation to a registered Project within the cap, created in the state its actual move supports rather than `with-worker` by default.
