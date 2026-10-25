@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "author": "kris@kris.me.uk",
   "devDependencies": {
-    "@biomejs/biome": "2.5.15",
+    "@biomejs/biome": "2.6.3",
     "@commitlint/cli": "^21.2.4",
     "@commitlint/config-conventional": "^21.2.4",
     "@types/node": "^26.6.5",
-    "knip": "^6.42.0",
+    "knip": "^6.43.0",
     "lint-staged": "^17.6.0",
     "rumdl": "^0.3.0",
     "syncpack": "^15.3.3",
