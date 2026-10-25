@@ -87,3 +87,35 @@ b) keep it on hold with a new review date, untouched until the Trades revamp ope
 a) (recommended, confidence high - the model made work the unit and the argument already resolves an id) rename it to `checkpoint <work id>`, accepting the old word through the tolerance window
 
 b) keep `checkpoint <thread>` and define it in the Glossary as the work the thread carries
+
+## Recovered
+
+### CLI-PREVIEW - Set the public command preview convention
+
+since 2026-10-24 - recovered from [wow-blind-cli-preview.report.md (pruned)](https://github.com/knowledgeislands/ki-principal/blob/234b7abc71a64cf4a5dbc29abcb919dca0c23226/+/_WORK/ki.ways-of-working/wow-blind-cli-preview.report.md); detailed inventory retained in [wow-dryrun-survey.report.md](wow-dryrun-survey.report.md).
+
+**Context:** Kris settled `mgit repair` writing by default, but the 24 October 00:58 BST decision leaves the wider convention undecided. The blind report returned a recommendation under CLI-PREVIEW rather than a formatted question. Its full substantive review is preserved below, including its scope, limits and exceptions. Recovery asks for no implementation until Kris decides.
+
+Recommend the convention for public, owned mutating commands: act by default, preview with `--dry-run`/`-n`, reserve `--check` for verification that fails on findings, and remove routine write gates through each tool’s owning work over time.
+
+Update both standards now: the repair-specific preview requirement appears in [the tool standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/repo-structure/ki-repo-tools/references/standards-tool-repositories.md:153) and [the CLI guidance](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/repo-structure/ki-repo-tools/references/standards-cli-conventions.md:55); changing only one leaves conflicting guidance, while changing neither contradicts the owner’s repair decision.
+
+The sample supports a shared direction: [mgit repair](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/bin/mgit:2258), [ki repo repair](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/src/commands/repo/repair.ts:36) and [ki repo conform](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/src/commands/repo/conform.ts:64) act by default; [ki repair](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/src/commands/manage/repair.ts:61) and [Almanac repair](/Users/krisbrown/workspaces/knowledge-islands/tools-git-almanac/src/cli/run.ts:174) retain routine preview gates.
+
+The owner’s statement directly settles mgit, not every shipped interface; confidence is medium for the wider policy. Adopt the small rule now, then reconcile compatibility, help and behaviour deliberately in owning work without a fleet-wide flag migration.
+
+Keep named exceptions for destructive user-data deletion, uninstall and reviewed-proposal flows: [Rig remove](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/src/rig/00-runtime.bash:176) requires explicit consent, while [Rig repair](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/src/rig/35-adoption.bash:126) produces a separately reviewed file. Removing known disposable managed links is not a blanket reason to exempt every repair.
+
+Preserve explicit targets, privilege grants, data-loss checks and live-operation authority. Writing by default is risky for [firewall/service changes](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/src/rig/29-firewall.bash:546) and [remote host removal](/Users/krisbrown/workspaces/knowledge-islands/tools-techne/src/cli.ts:823); connection-critical work still needs its tested restore path, and destructive gates remain exceptions.
+
+A preview must prevent local and provider mutations, not merely suppress the final write; read-only diagnostics remain read-only. Scope the convention to public CLI actions, leaving private lifecycle hooks such as [plan stamping](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/hooks/plan-stamp.sh:1) and passed-through third-party flags outside the retrofit.
+
+Checks: both standards and source samples across all six named areas inspected; static review only, with no executable tests or remote calls. Repository edits and commits: none.
+
+**Query:** Should the public command preview convention below be adopted, with both conflicting standards reconciled and implementation routed gradually through each tool's owning work?
+
+**Options:**
+
+a) (recommended, confidence medium - Standardise public writers gradually while retaining destructive and review safeguards) A command that changes owned state writes by default and accepts both `--dry-run` and `-n` to show the same selected changes without applying them; preview succeeds unless planning fails. Reserve `--check` for a read-only verification mode that exits non-zero when the required state is absent or differs. Do not use `--apply`, `--write` or `--fix` as routine write gates, and keep `--yes` for confirmation rather than preview selection. Preserve explicit destinations, reviewed proposals, authority checks and confirmations where deletion, external publication or connection-critical changes require them; document those bounded exceptions. Native forwarded commands and event hooks retain their native contracts. Reconcile both written standards first, then carry the per-tool changes through their owning works, preserving the full safety exceptions above.
+
+b) Keep the current general convention and the explicit `mgit repair` exception, retaining the survey for a later owner decision.
