@@ -278,26 +278,6 @@ b) Keep the 23 October order: session-only wakes with stop words, revisit after 
 
 c) Build the launchd job first and write the contract from what it needs.
 
-### OPENER-LABEL - Print the opener's Label line with the id
-
-**Context:** WORK-LABEL made the work name `<label> (<id>)` in the standard's opener templates. `ki agent prompts`, in `tools-ki`, still prints the label alone; the tolerance window accepts it. Sending work to another repository needs Kris's permission.
-
-**Query:** May a line go to the work that owns `tools-ki` asking it to print the Label line as `<label> (<id>)`?
-
-**Options:**
-
-a) (recommended, confidence high - the standard and the printed opener should agree, and it is one template line) Send one line citing WORK-LABEL and harness `0404754a`. b) Leave it and let the tolerance window carry the difference.
-
-### RED-MAIN - Red main blocks every bot pull request
-
-**Context:** The website's required `build` has failed on every main commit since 19 October, now in the KI repo audit step, and the harness's main went red at 08:07 GMT today. While main is red, bot pin and catalogue pull requests open with auto-merge and never merge, so releases reach consumers only through hand merges.
-
-**Query:** How should bot pull requests land while a required check is red?
-
-**Options:**
-
-a) (recommended, confidence high - auto-merge is the designed path and works only on a green main) Get both mains green first, then let the next release prove the fan-out end to end. b) Keep merging stale bot pull requests by hand. c) Drop `build` from the required checks for bot branches; hides real breakage.
-
 ### HARNESS-CONSUMER - Enrol the harness as a tap consumer
 
 **Context:** The tap's `.github/tool-release-consumers.json` names only the website. The harness's `update-ki-pin.yml` already accepts the tap's `tool-release-published` dispatch, but nothing sends it, so the harness pin moves only on a daily poll that runs five to seven hours late and skipped v0.11.5.

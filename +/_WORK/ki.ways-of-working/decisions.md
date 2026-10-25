@@ -471,3 +471,9 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
 - 2026-10-25 08:14 GMT: wow-labels received: SIZE-LABEL in `ki-work-roadmap` (harness `fa9c6739`) and WORK-LABEL in `ki-coordination` and `ki-work-package` (harness `0404754a`), REFRESH line sent. Raises OPENER-LABEL.
 
 - 2026-10-25 08:14 GMT: wow-release-runs received, read-only: every hop from tools-ki through the tap to the website receiver succeeded for v0.11.5, v0.12.0 and v0.13.0. Delivery fails at the last hop because the website's required `build` has been red on main since 19 October, so bot pull requests never auto-merge, and the harness gets no dispatch, only a late daily poll. Raises RED-MAIN, HARNESS-CONSUMER and PIN-HANG; the two medium ones go to blind review.
+
+- 2026-10-25 08:17 GMT: RED-MAIN answered "Fix mains first": get the website's and the harness's main `build` green, then let the next release prove the fan-out with no hand merge. wow-red-main does it, after wow-ci-pins.
+
+- 2026-10-25 08:17 GMT: OPENER-LABEL answered "Send it": one line goes to the work owning `tools-ki` asking `ki agent prompts` to print the Label line as `<label> (<id>)`, citing WORK-LABEL and harness `0404754a`.
+
+- 2026-10-25 08:17 GMT: Kris, unprompted: "If you ask me for input as well in ... an unattended period, you should only really ask it for a couple of minutes. And if I don't respond, then you should not take any action from it. That's also something they should learn about." Read back as: in an unattended window, a question to Kris waits a couple of minutes at most; with no answer, nothing is done on it, it is parked as a query for the return report, and other authorised work carries on. Silence is never consent. wow-ask-timeout writes it into `ki-delegation`'s window rules, after wow-external-limits.

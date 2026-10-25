@@ -11,3 +11,5 @@
 - 2026-10-25 · WOW-TIDY-NIGHT · KI > Model > Ways of working: Package audit found RECORD-2: declare the covers register in work.md and normalise existing message-line prefixes. Steward: fix at your next update; verify homes before deleting.
 
 - 2026-10-25 · CI-PIN-RECEIVER · KI > Model > Ways of working: please have the KI Agentic Harness finish rolling out the CI pin receiver (`.github/ki-version` plus `update-ki-pin.yml`, driven by `ki-tools-release-bot`) approved on 9 October for every `knowledgeislands` repository. Only the harness has it today; the other repositories pinned `ki` by hand and drifted, the website to v0.8.4, which turned its CI red. wow-ci-pins bumped them all by hand to v0.13.0 on 25 October. Installing the App on each new repository is a GitHub settings step reserved to Kris: bring it back as one step. Kris agreed this on 2026-10-25 at 07:56 GMT.
+
+- 2026-10-25 · ROUTE · KI > Model > Ways of working (ki.ways-of-working): please have `ki agent prompts` print each opener's Label line as `<label> (<id>)`, matching the work name adopted under WORK-LABEL in `ki-coordination` (harness `0404754a`); Kris approved sending this on 2026-10-25.
