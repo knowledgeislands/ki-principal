@@ -12,13 +12,13 @@ method_read: 8897008f
 
 ## Now
 
-- 01:07 GMT: mark struck at the start of the unattended window, to 08:00 GMT. Landed since: harness 938c7546, 1af72f2e and 6f3497c5; the orphan-report sweep. Running: wow-roadmap-2, then wow-note-cadence; wow-findings-list in the harness.
-- 02:42 GMT: method refreshed from eff6163b to 6f3497c5 through the wow-method-digest report and the wow-skillset-fixes-2 report.
+- 01:07 GMT: mark struck at the start of the unattended window, to 08:00 GMT.
+- 04:58 GMT: DOCS-PUBLISH under way on the website's main. Live: skills catalogue (`ddcf533`), structure (`6a0cc48`), diagram pipeline (`d547611`), ki CLI pages (`30e53c5`), Skills section (`57864b1`), harness pages (`1056bb6`). Running: wow-docs-work-a. Chained behind it: wow-docs-work-b, wow-docs-work-c, wow-docs-knowledge, wow-docs-standards. DEPS-1 is the gate baseline every unit commits under.
 
 ## Next steps
 
-- Coordinator: receive wow-roadmap-2, wow-note-cadence and wow-findings-list; at 08:00 GMT stop starting work and give the return report with every open query in full.
-- Kris on return: the open queries in full.
+- Coordinator: receive each docs unit in turn, relaunching any that stops on DEPS-1 or a shared-tree question; bring the review pack, `design/review-pack.md`, up to date with the open queries and live URLs; at 08:00 GMT stop starting work and give the return report with every open query in full.
+- Kris on return: the open queries in full, the website review list and the review pack.
 
 ## Held
 
