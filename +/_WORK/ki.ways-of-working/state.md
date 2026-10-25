@@ -13,7 +13,7 @@ method_read: 6f3497c5
 ## Now
 
 - 01:07 GMT: mark struck at the start of the unattended window, to 09:00 GMT. Landed since: harness 938c7546, 1af72f2e and 6f3497c5; the orphan-report sweep. Running: wow-roadmap-2, then wow-note-cadence; wow-findings-list in the harness.
-- 02:45 GMT: method refreshed from eff6163b to 6f3497c5 through the wow-method-digest report and the wow-skillset-fixes-2 report.
+- 02:42 GMT: method refreshed from eff6163b to 6f3497c5 through the wow-method-digest report and the wow-skillset-fixes-2 report.
 
 ## Next steps
 
