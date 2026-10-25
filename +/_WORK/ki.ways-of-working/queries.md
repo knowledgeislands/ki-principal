@@ -208,6 +208,14 @@ a) (recommended, confidence medium - reviewed, views differ: the reviewer's poin
 
 b) Keep the live twelve and leave the knowledge-base skills to their own areas.
 
+### DEPS-1 - Bring the website's dependencies inside the age window
+
+**Context:** The website's engineering audit fails its DEPS-1 dependency-age check: `@types/node` 26.6.5, `rumdl` 0.2.79 and Bun 1.4.3 are past the 14-day adoption window. Tonight every documentation unit committed under it as a pre-existing baseline, since no unit may install dependencies. The skills unit proposed a separate update, and a masked blind review on Codex agreed independently: the standard defaults to adoption and no concrete incompatibility has been found.
+
+**Query:** Should a separate maintenance unit bring these dependencies current, after the away window?
+
+**Options:** a) (recommended, confidence high - reviewed: the standard defaults to adoption and no incompatibility is known) A separate maintenance unit, after the window, runs `ki:deps:update`, bumps Bun, re-runs every gate and test and commits the update on its own. b) Record an adoption deferral for these three, with a reason and a review date, and leave the versions as they are.
+
 ## Parked
 
 None.
