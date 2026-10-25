@@ -147,3 +147,5 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 - AWAY-GRANT-SOL ends: Kris returned at 01:11 GMT and asked to be taken through the queries interactively.
 - ACCEPT-WEBSITE a), read back as taken: review and accept KI-WEBSITE-SITE-044 now through `ki-accept`.
 - ACCEPT-WOW a), read back as taken: review and accept KI-PRINCIPAL-OPS-014 and KI-PRINCIPAL-MOD-009 now, oldest first, through `ki-accept`.
+- ACCEPT-OBSERVATORY a), read back as taken: review and accept KI-OBSERVA-BRG-005 and KI-OBSERVA-VIS-030 through `ki-accept` once ki.observatory has fixed BRG-005's structure.
+- ACCEPT-RIG a), read back as taken: review and accept KI-TOOL-RIG-CORE-062 now through `ki-accept`.
