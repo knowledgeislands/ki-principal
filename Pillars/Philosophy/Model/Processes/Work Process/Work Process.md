@@ -205,7 +205,7 @@ Streams/
 └── diagrams/
 ```
 
-**Git is the logbook.** `git log -- +/_WORK/<id>/` is the history. Only sends and the supervisor's receives commit, each subject carrying the move: `docs(work): ki.ways-of-working send to owner`, `docs(work): ki.ways-of-working receive by owner`, `docs(work): ki.ways-of-working hold, paused`. An agent's receive is committed with whatever it next sends.
+**Git is the logbook.** `git log -- +/_WORK/<id>/` is the history. Every session commits each completed unit by explicit path before its turn ends, under [Committing the work folder](https://github.com/knowledgeislands/ki-agentic-harness/blob/main/skills/change-management/ki-coordination/references/standards-coordination.md#committing-the-work-folder), which owns the commit and sync cadence. Move commits carry the move in their subjects: `docs(work): ki.ways-of-working send to owner`, `docs(work): ki.ways-of-working receive by owner`, `docs(work): ki.ways-of-working hold, paused`.
 
 **Shared history is never rewritten.** A rewrite breaks every clone and every revision link and needs a force-push. Instead, the working area is pruned at every mark, a finished work folder is deleted at the mark that closes it with Git keeping it, and a separate working repository is considered only if clone size or `git log` speed measurably hurts.
 
@@ -266,7 +266,7 @@ And on hold:
 >
 > 🧵 Coordination thread · KI > Model > Ways of working (ki.ways-of-working)
 
-An On hold banner lists nothing waiting: no "with you", running or per-repository status item. Its items are only `[parked]`, `[release]` and, where true, `[unpushed]`; what each repository did stays in the hold report's Done. A push of stacked commits is never with Kris, a count or a query: it shows only as `[unpushed]`, the report's Done names other sessions' stacked commits once, and Kris pushes them when ready.
+An On hold banner lists nothing waiting: no "with you", running or per-repository status item. Its items are only `[parked]` and `[release]`; what each repository did stays in the hold report's Done. The standing authority to push everything stacked on `main`, including other sessions' commits, follows [Pushing beneath other sessions](https://github.com/knowledgeislands/ki-agentic-harness/blob/main/skills/change-management/ki-coordination/references/standards-coordination.md#pushing-beneath-other-sessions).
 
 The other headings follow the same form: `👤 With supervisor`, `🤖 → 👤 Handoff to supervisor`, `👤 → 🤖 Handoff to worker`, `→ 🎯 Handoff to <target>`, where the target is other work, a run or a person, `⏸️ On hold · more expected` and `🏁 Finished`. A stuck worker's send reads `🤖 → 👤 Handoff to supervisor · blocked`. The closing thread line identifies the work; its work package governs picking it up and lifting a hold. The hold report keeps its name and its Done, Parked and Left over sections.
 
