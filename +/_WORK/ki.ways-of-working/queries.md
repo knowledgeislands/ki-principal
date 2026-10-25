@@ -278,26 +278,6 @@ b) Keep the 23 October order: session-only wakes with stop words, revisit after 
 
 c) Build the launchd job first and write the contract from what it needs.
 
-### HARNESS-CONSUMER - Enrol the harness as a tap consumer
-
-**Context:** The tap's `.github/tool-release-consumers.json` names only the website. The harness's `update-ki-pin.yml` already accepts the tap's `tool-release-published` dispatch, but nothing sends it, so the harness pin moves only on a daily poll that runs five to seven hours late and skipped v0.11.5.
-
-**Query:** Should the harness be added to the tap's consumer list?
-
-**Options:**
-
-a) (recommended, confidence medium - the workflow is dispatch-ready and the poll skips releases; medium because poll-only may have been deliberate) Add it and keep the poll as backstop. b) Leave the harness poll-only.
-
-### PIN-HANG - A harness pin pull request's Test step ran six hours
-
-**Context:** On 20 October the harness CI for the v0.12.0 pin pull request ran its Test step from 12:07 to 18:08 UTC before cancellation. Current `ci.yml` declares a 30-minute job and 10-minute Test step timeout; the v0.13.0 run finished in minutes.
-
-**Query:** Chase the hang, or treat it as a one-off?
-
-**Options:**
-
-a) (recommended, confidence medium - one occurrence, timeouts now declared) Treat it as a one-off and watch the next pin pull request. b) Check when the timeouts were added and investigate if they predate 20 October.
-
 ## Parked
 
 - PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.
