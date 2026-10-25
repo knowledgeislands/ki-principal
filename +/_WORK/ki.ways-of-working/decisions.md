@@ -278,3 +278,8 @@ wow-overview wrote `design/overview.md` (enhancements, package homes, message qu
 - REVIEWED-BLOC: Kris chose "Accept all six". Read back as taken: MEMBER-PACKAGE, DENY-LIST, WINDOW-PLAN, CONFLICT-RUN, PROGRESS-SCOPE and DUE-FIELD are each decided as their recommended option a), with the blind review's additions, as read in `queries.md` before this commit. CONFLICT-RUN and PROGRESS-SCOPE govern tonight's window from now.
 - Overnight focus: Kris, 25 October: "ways of working is the most critical one. I'm happy to actually stop anything else and just focus on this one, really." Read back as taken: until 09:00 GMT this thread works only ways of working; other works get only the message lines its decisions require.
 - Open for the morning, all medium with reviews disagreeing: STEWARD-FIELD, LEGACY-PREFIX, PARTIAL-REPOS and UNATTENDED-FIELD.
+
+## 2026-10-25 01:56 GMT - KI-AGENTS-NAME words, and wow-lines received
+
+- KI-AGENTS-NAME, homed in this log under DECISION-HOMES, in Kris's 17 October words: "Keep "agents"; ways of working logs the decision in its decisions log and nothing is renamed." State of play may strike its own entry to a pointer here.
+- wow-lines sent THEME-CLOSE to Legal and HNR, KI-REPO-HOME and REPO-CODE-CAP to ki.baseline-rollout, PIN to ki.tools-burndown, SPEC-REVIEW to ki.portable-specifications and the RIG-REL-PATCH pointer to State of play (ki); DIAGRAMS-BLACK has landed (`1163e482`), so nothing needs capturing; five settled lines left `messages.md`.
