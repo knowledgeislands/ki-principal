@@ -518,6 +518,8 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
 
 - 2026-10-25 08:48 GMT: wow-hnr-resolve received; the HNR confidential-sites line is published as hnr-principal `bb404954` (positional conflict, all incoming lines kept, ours last). Its query PRIMARY-LEVEL (reset the primary checkout) is not sent to Kris: a `git pull --rebase` drops the already-published commit without a destructive reset, so bounded run wow-hnr-level does that under the primary-checkout rule, stopping on anything else.
 
-- 2026-10-25 08:52 GMT: wow-ask-timeout received; harness `fdf9a604` carries Kris's ask-timeout rule in `ki-delegation` and `ki-coordination` and the output style; its IMPORTANT REFRESH line taken: guidance refreshed to `fdf9a604`.
+- 2026-10-25 08:52 GMT: wow-ask-timeout received; harness `fdf9a604` carries Kris's ask-timeout rule in `ki-delegation` and `ki-coordination` and the output style; its IMPORTANT REFRESH line `ba62ad1b` went to State of play's queue, not this one; guidance refreshed to `fdf9a604` from the report.
 
 - 2026-10-25 08:52 GMT: wow-mgit-cache-design received; [design/mgit-cache.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/mgit-cache.md) weighs six routes, three needing no cache, as Kris steered. Queries MGIT-CACHE-SCOPE (medium, blind Codex review disagreed on timing, both views shown), MGIT-CACHE-EXPIRY, MGIT-CACHE-TTL and MGIT-PUSH-ALIAS copied to queries.md; MGIT-CACHE-FAILED (medium) held for masked blind review wow-review-mgit-failed before it reaches Kris.
+
+- 2026-10-25 08:54 GMT: wow-hnr-level stopped as briefed: `git cherry` does not match `6043f001` to `bb404954` (surrounding lines moved), so nothing was changed. Its query HNR-LEVEL (reset --keep the checkout to origin/main) is a destructive course and goes to masked blind review wow-review-hnr-level before it reaches Kris. Correction: the two 08:52 entries above were written at 08:50.
