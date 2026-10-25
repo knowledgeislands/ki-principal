@@ -353,3 +353,9 @@ Commit `eea39139` adds [design/interim-cover.md](design/interim-cover.md) and th
 ## 2026-10-25 03:07 GMT - wow-docs-design-fable, wow-docs-design-codex and wow-resolve-main received
 
 Fable proposal `7700e558` and Codex proposal `0c177a7e` are in `design/`: both put skills first, with feature-area guides including tending, the CLI manual, Docs and Projects joined, 16 to 18 archify diagrams and drift gates; Codex found the site snapshots 61 skills and a v0.11.0 command inventory while advertising v0.13.0, against 64 skills in the harness. Both stopped short of pushing because ki-principal `main` had diverged (Kris's baseline commit and both proposals locally, a hnr.sop.sites message on origin); wow-resolve-main merged them without conflict as `f4abb32a` and pushed, and the primary checkout fast-forwarded. Run queries disposed here: DOCS-IA-PUBLISH and DOCS-SYNC are answered by that merge; DOCS-IA-MERGE is taken as option b under DOCS-PUBLISH, since Kris delegated the design choices: the merge settles every design question and the review pack carries the ones most worth his steer, so none reaches queries.md. wow-docs-merge (Fable) is now merging the plan, writing per-unit delivery briefs and drafting the review pack.
+
+## 2026-10-25 03:07 GMT - WINDOW-CLOCK revised: the window ends at 08:00 GMT
+
+Kris: "the timeline for the morning is 8 AM current time as well, so that's after the clock switch."
+
+Read back as taken: the clocks have gone back, and local time is now GMT, so the unattended window ends at 08:00 GMT (08:00 UTC), replacing 09:00 GMT. At 08:00 GMT launching stops, finishing runs are received, and the return report and review pack are ready.

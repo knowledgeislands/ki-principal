@@ -12,12 +12,12 @@ method_read: 8897008f
 
 ## Now
 
-- 01:07 GMT: mark struck at the start of the unattended window, to 09:00 GMT. Landed since: harness 938c7546, 1af72f2e and 6f3497c5; the orphan-report sweep. Running: wow-roadmap-2, then wow-note-cadence; wow-findings-list in the harness.
+- 01:07 GMT: mark struck at the start of the unattended window, to 08:00 GMT. Landed since: harness 938c7546, 1af72f2e and 6f3497c5; the orphan-report sweep. Running: wow-roadmap-2, then wow-note-cadence; wow-findings-list in the harness.
 - 02:42 GMT: method refreshed from eff6163b to 6f3497c5 through the wow-method-digest report and the wow-skillset-fixes-2 report.
 
 ## Next steps
 
-- Coordinator: receive wow-roadmap-2, wow-note-cadence and wow-findings-list; at 09:00 GMT stop starting work and give the return report with every open query in full.
+- Coordinator: receive wow-roadmap-2, wow-note-cadence and wow-findings-list; at 08:00 GMT stop starting work and give the return report with every open query in full.
 - Kris on return: the open queries in full.
 
 ## Held
