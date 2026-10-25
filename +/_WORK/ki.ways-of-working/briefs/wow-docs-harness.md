@@ -25,3 +25,7 @@ Commit as `docs(site): refresh the harness section to 8897008f and add agent env
 - Publishing: after the checks pass, `git fetch -q`, `git pull -q --ff-only`, then `git push -q origin main` fast-forward only. Pushing `main` deploys the site. Stop on divergence and report it; do not rebase, reset or stash.
 - No other network call: no GitHub API, no package installs, no `verify:provenance -- --network`.
 - Report in under 30 lines in owner-report form: Done with the commit identifiers and one line per check, In Progress, Queries. Name every published URL as `https://knowledgeislands.info<path>`, noting that the deploy completes after the push. Put a design choice you had to make that the plan did not settle in Queries with a recommended option; do not block on it.
+
+## Gate baseline note (04:47 GMT)
+
+Follow the plan's Gate baseline section in `design/website-docs.md`: the engineering audit's DEPS-1 dependency-age failure and CI-1 warning are the pre-existing baseline. Once the site build with every gate, the tests, the typecheck and the website-content, authoring and diagrams audits pass, commit only your own paths by explicit path and push fast-forward, naming DEPS-1 in your report. Never install or update dependencies. Other units may be working in the same checkout: never stage, revert or touch their files. Also follow the plan's Linking back from Skills by outcome section.
