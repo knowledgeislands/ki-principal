@@ -50,11 +50,11 @@ Each entry identifies the source containing the link, its line and the target re
 
 Repository: `/Users/krisbrown/workspaces/personal/acquire`.
 
-- [+/_WORK/kb.regular.acquire-intake/briefs/ka-finish.md:10](/Users/krisbrown/workspaces/personal/acquire/+/_WORK/kb.regular.acquire-intake/briefs/ka-finish.md:10): GOV-209.
-- [+/_WORK/kb.regular.acquire-intake/ka-close.report.md:14](/Users/krisbrown/workspaces/personal/acquire/+/_WORK/kb.regular.acquire-intake/ka-close.report.md:14): GOV-209.
-- [+/_WORK/kb.regular.acquire-intake/ka-finish.report.md:11](/Users/krisbrown/workspaces/personal/acquire/+/_WORK/kb.regular.acquire-intake/ka-finish.report.md:11): GOV-209.
-- [+/_WORK/kb.regular.acquire-intake/prune-007.report.md:13](/Users/krisbrown/workspaces/personal/acquire/+/_WORK/kb.regular.acquire-intake/prune-007.report.md:13): GOV-209.
-- [+/_WORK/kb.regular.acquire-intake/prune-007.report.md:27](/Users/krisbrown/workspaces/personal/acquire/+/_WORK/kb.regular.acquire-intake/prune-007.report.md:27): GOV-209.
+- [+/_WORK/personal.regular.acquire-intake/briefs/ka-finish.md:10](/Users/krisbrown/workspaces/personal/acquire/+/_WORK/personal.regular.acquire-intake/briefs/ka-finish.md:10): GOV-209.
+- [+/_WORK/personal.regular.acquire-intake/ka-close.report.md:14](/Users/krisbrown/workspaces/personal/acquire/+/_WORK/personal.regular.acquire-intake/ka-close.report.md:14): GOV-209.
+- [+/_WORK/personal.regular.acquire-intake/ka-finish.report.md:11](/Users/krisbrown/workspaces/personal/acquire/+/_WORK/personal.regular.acquire-intake/ka-finish.report.md:11): GOV-209.
+- [+/_WORK/personal.regular.acquire-intake/prune-007.report.md:13](/Users/krisbrown/workspaces/personal/acquire/+/_WORK/personal.regular.acquire-intake/prune-007.report.md:13): GOV-209.
+- [+/_WORK/personal.regular.acquire-intake/prune-007.report.md:27](/Users/krisbrown/workspaces/personal/acquire/+/_WORK/personal.regular.acquire-intake/prune-007.report.md:27): GOV-209.
 
 #### chezmoi
 

@@ -24,7 +24,7 @@ Nothing running.
 
 Outstanding - no action requested now:
 
-- Acquire owns the retained [intake run-report classification link](/Users/krisbrown/workspaces/personal/acquire/+/_WORK/kb.regular.acquire-intake/query-review-2.report.md:11). Its target `migration-plan/classification.tsv:13` has now been deleted; the link was reported and not edited, as instructed. The same line already links to the retained agent-host work.
+- Acquire owns the retained [intake run-report classification link](/Users/krisbrown/workspaces/personal/acquire/+/_WORK/personal.regular.acquire-intake/query-review-2.report.md:11). Its target `migration-plan/classification.tsv:13` has now been deleted; the link was reported and not edited, as instructed. The same line already links to the retained agent-host work.
 - Pending handoff: ki-principal on `sol.local`, branch `main`, holds this run's local commit `5bd1996b288cc9250d1583ec40b0ad2bef0592ab` without publication. No ki-principal remote calls were made; reconcile this checkout before starting on another machine.
 
 ## Queries

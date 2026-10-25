@@ -25,7 +25,7 @@ Line citations below refer to these local files as read on 23 October, not to a 
 - **C:** [ki-coordination standard](</Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md>), read with its skill entry point.
 - **D:** [ki-delegation background-run standard](</Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md>), read with its skill entry point. The brief's change-management path is stale; the canonical skill lives under governance.
 - **K:** [ki-work-package standard](</Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md>). Latest local commit across C, D and K: `0809ff80`.
-- **A:** [Acquire instructions](</Users/krisbrown/workspaces/personal/acquire/AGENTS.md>) and its [intake work definition](</Users/krisbrown/workspaces/personal/acquire/+/_WORK/kb.regular.acquire-intake/work.md>).
+- **A:** [Acquire instructions](</Users/krisbrown/workspaces/personal/acquire/AGENTS.md>) and its [intake work definition](</Users/krisbrown/workspaces/personal/acquire/+/_WORK/personal.regular.acquire-intake/work.md>).
 
 The debrief's vendor comparisons are explicitly inferred (S:5, 63); no network verification was authorised here. Its observed usage-limit and permission stalls support the method lessons without treating those comparisons as verified implementation advice.
 

@@ -3,7 +3,7 @@ id: ki.chezmoi
 state: handoff-to-supervisor
 hold:
   reason: paused
-  release: kb receives RIG-PER-MACHINE (sol pass handed to kb.regular.rig-sol); then rewrite the remit to the chezmoi approach
+  release: kb receives RIG-PER-MACHINE (sol pass handed to personal.regular.rig-sol); then rewrite the remit to the chezmoi approach
 since: 2026-10-24T20:43:00Z
 received: 2026-10-20T01:30:00Z
 beat: null

@@ -226,7 +226,7 @@ One quick territory pass applied the interim policy to Valle Armonia's four repo
 
 ### Personal run and re-check, 2026-10-24
 
-Personal ran the note over its nine members in a metadata survey, then re-checked them against the settled note at `76557046` ([finding](/Users/krisbrown/workspaces/personal/personal-principal/+/_WORK/kb/findings/REPO-META.md)).
+Personal ran the note over its nine members in a metadata survey, then re-checked them against the settled note at `76557046` ([finding](/Users/krisbrown/workspaces/personal/personal-principal/+/_WORK/personal/findings/REPO-META.md)).
 
 - **Fitted:** `.ki.toml` as master; the property table, the derivation rules and the pilot table shape applied as written; every managed topic derives cleanly for all nine members without guessing; the homepage cautions resolve each site to its verified apex domain; no workspace `package.json` carries a homepage.
 - **Differed from Valle Armonia:** Personal had one real GH-3 failure, acquire's empty GitHub description with issues on under a `roadmap` adapter, which the ACQUIRE-FIX run has since brought into line with `.ki.toml`; and Personal's prefix is already one word, so its code and prefix can coincide where Valle Armonia's cannot.

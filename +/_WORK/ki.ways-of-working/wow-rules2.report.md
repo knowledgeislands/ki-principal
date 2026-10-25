@@ -33,7 +33,7 @@
   - er `8d5d3fa9`
   - hnr `4158ee57`
   - lgl `6fc8155a`
-  - kb `6bcb32d3`
+  - personal `6bcb32d3`
   - si `fc879c0d`
   - tmx `17f8f3de`
   - va `94ccc7b3`

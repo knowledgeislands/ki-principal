@@ -18,7 +18,7 @@ Nothing is running.
 
 Outstanding - no action requested now:
 
-- The `kb.personal-tower` work file names a Project, `personal-tower`, that has no Project note in personal-principal. That is a gap in the Project registry, not the theme registry. KB-PRINCIPAL-047 records it and leaves it alone.
+- The `personal.personal-tower` work file names a Project, `personal-tower`, that has no Project note in personal-principal. That is a gap in the Project registry, not the theme registry. KB-PRINCIPAL-047 records it and leaves it alone.
 - The Equal Remedy harness handoff (relabelling ER-HARNESS-001 to 022 to `reusable-legal-capabilities`) is described in ER-PRINCIPAL-016 but not yet placed on the `er-agentic-harness` roadmap. It would follow from adoption.
 - In legal-principal, LGL-PRINCIPAL-OPS-023 and OPS-024 have been awaiting review since 11 October. OPS-029 waits until they are accepted.
 

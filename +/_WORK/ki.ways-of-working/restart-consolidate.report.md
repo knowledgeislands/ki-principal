@@ -157,7 +157,7 @@
 **Lines:** UNATTENDED-AND-DUE-DATES, WORK-STATUS-FORM, MOD-LEDGER and SORT-ARM. CLI-FIELDS stays held.
 
 - **Asks:**
-  - Kris: "we need to push that into the ways of working thread as something that we need to do an assessment of." This means when an agent may complete roadmap work unattended, with Personal's [unattended-criteria.md](</Users/krisbrown/workspaces/personal/personal-principal/+/_WORK/kb/design/unattended-criteria.md>) as evidence.
+  - Kris: "we need to push that into the ways of working thread as something that we need to do an assessment of." This means when an agent may complete roadmap work unattended, with Personal's [unattended-criteria.md](</Users/krisbrown/workspaces/personal/personal-principal/+/_WORK/personal/design/unattended-criteria.md>) as evidence.
   - Kris wants a due or key milestone date on records, "of what they're working towards".
   - Confirm the `ki work status` form for [KI-TOOL-KI-CLI-160](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-160-work-status-routing-view.md) and [KI-TOOL-KI-CLI-149](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-149-work-status-views-contract.md).
   - Advance the MOD ledger to 10.

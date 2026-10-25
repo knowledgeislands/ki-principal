@@ -55,7 +55,7 @@
 
 ## Decision 197 (2026-10-22T00:20:00Z)
 
-- Pointer: Kris (01:20 BST) on Tower Assistant: show it in the Dock as well as the menu bar, with a setting to leave the Dock; give it an icon; install it in `/Applications`; redesign it through Claude Design; dispatch all of it to the Tower thread. Read back as: TOWER-APP-SHELL sent to kb.regular.site-tower (personal-principal `ff0877f`, pushed); ki.chezmoi keeps the cutover on terra and, when the install path changes, the Rig artefact and `~/bin/scheduled/rig-tower-save-nudge` paths.
+- Pointer: Kris (01:20 BST) on Tower Assistant: show it in the Dock as well as the menu bar, with a setting to leave the Dock; give it an icon; install it in `/Applications`; redesign it through Claude Design; dispatch all of it to the Tower thread. Read back as: TOWER-APP-SHELL sent to personal.regular.site-tower (personal-principal `ff0877f`, pushed); ki.chezmoi keeps the cutover on terra and, when the install path changes, the Rig artefact and `~/bin/scheduled/rig-tower-save-nudge` paths.
 
 ## Decision 203 (2026-10-22T06:47:00Z)
 
@@ -109,7 +109,7 @@ Read-back: trim the work package to live items only (report copies out, state an
 
 Kris, verbatim (speech-to-text): "Okay, can you do anything interactively if you've got queries on things? Also take note that we're trying to do things through the state of play feds currently."
 
-Read-back: take open queries interactively, one or two at a time, for the rest of this session. Work is being run through the State of play threads at present; personal-side items route through the personal State of play (`kb`) rather than being started from here.
+Read-back: take open queries interactively, one or two at a time, for the rest of this session. Work is being run through the State of play threads at present; personal-side items route through the personal State of play (`personal`) rather than being started from here.
 
 ## DRIFT-APPLY and PUSH - 24 October 2026, 16:27 BST (interactive)
 
@@ -163,13 +163,13 @@ Read-back: routed to the KI State of play (`ki`) as MGIT-TOLERANT, for tools-mgi
 
 Kris: "I'm actually thinking, and given the fact that there's no work left in this project, that what we should be doing is actually having one that's running out of my personal territory, and there should be a version of that for each machine, which is allowing me to keep the machines dealing with any issues they've got. Then the one that's in Knowledge Islands rig is about how it deals with changes in [chezmoi] in terms of its approach."
 
-Read-back: machine upkeep moves to the personal territory, with one piece of work per machine (terra, sol) that keeps that machine healthy and deals with its issues. ki.chezmoi narrows to the approach: how Rig and KI handle chezmoi changes. Its machine-specific open work, the sol pass and the remaining sol checks, transfers to the personal side once the personal State of play receives it. Routed as MACHINE-UPKEEP to `kb` and CHEZMOI-REMIT to `ki`. Per-machine work conflicts with the current rule that no work package names a host, so that rule goes to ki.ways-of-working alongside COORDINATOR-HOST.
+Read-back: machine upkeep moves to the personal territory, with one piece of work per machine (terra, sol) that keeps that machine healthy and deals with its issues. ki.chezmoi narrows to the approach: how Rig and KI handle chezmoi changes. Its machine-specific open work, the sol pass and the remaining sol checks, transfers to the personal side once the personal State of play receives it. Routed as MACHINE-UPKEEP to `personal` and CHEZMOI-REMIT to `ki`. Per-machine work conflicts with the current rule that no work package names a host, so that rule goes to ki.ways-of-working alongside COORDINATOR-HOST.
 
 ## RIG-PER-MACHINE - 24 October 2026, 20:16 BST
 
-Kris: "Can we make sure that we've got the new project for kb.regular.rig and I think we probably need it to be rig-terra and rig-sol."
+Kris: "Can we make sure that we've got the new project for personal.regular.rig and I think we probably need it to be rig-terra and rig-sol."
 
-Read-back: this refines MACHINE-UPKEEP. `kb.regular.rig` splits into two pieces of personal work, `kb.regular.rig-terra` and `kb.regular.rig-sol`, each looking after its own machine. The personal State of play (`kb`) creates them under ki-work-package. ki.chezmoi's sol pass goes straight to `kb.regular.rig-sol` in the same message, so the handover needs no further step from this thread. Sent to `kb` as IMPORTANT.
+Read-back: this refines MACHINE-UPKEEP. `personal.regular.rig` splits into two pieces of personal work, `personal.regular.rig-terra` and `personal.regular.rig-sol`, each looking after its own machine. The personal State of play (`kb`) creates them under ki-work-package. ki.chezmoi's sol pass goes straight to `personal.regular.rig-sol` in the same message, so the handover needs no further step from this thread. Sent to `kb` as IMPORTANT.
 
 ## Sol session entries, 23-24 October (merged 24 October, 20:50 BST)
 

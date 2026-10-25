@@ -87,7 +87,7 @@ The estate has eight territories. Each has a handle, a short alias used in repos
 | Techmedix | `techmedix` | `tmx` | Entity | Hub | `techmedix/tmx-principal` |
 | Valle Armonia | `valle-armonia` | `va` | Entity | Hub | `vallearmonia/va-principal` |
 | Legal | `legal` | `lgl` | Individual | Both | `krisb/legal-principal` |
-| Personal | `personal` | `kb` | Individual | Both | `krisb/personal-principal` |
+| Personal | `personal` | `personal` | Individual | Both | `krisb/personal-principal` |
 | Sacred Inquiry | `sacred-inquiry` | `si` | Individual | Hub | `sacred-inquiry/si-principal` |
 
 ---

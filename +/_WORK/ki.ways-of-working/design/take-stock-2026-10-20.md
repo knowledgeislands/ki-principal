@@ -22,9 +22,9 @@ Design note for TAKE-STOCK: Kris asked at the hold on 20 October to "take stock 
 7. [ki.timelines](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.timelines/design/retro-2026-10-20.md) - on hold for take-stock.
 8. [ki.tools-burndown](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/design/retro-2026-10-20.md) - on hold for take-stock.
 9. [ki.ways-of-working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/retro-2026-10-20.md) - this work, with worker.
-10. [kb.regular.acquire-intake](/Users/krisbrown/workspaces/personal/acquire/+/_WORK/kb.regular.acquire-intake/design/retro-2026-10-20.md) - Acquire, on hold for take-stock.
+10. [personal.regular.acquire-intake](/Users/krisbrown/workspaces/personal/acquire/+/_WORK/personal.regular.acquire-intake/design/retro-2026-10-20.md) - Acquire, on hold for take-stock.
 
-Live works with no retro: [ki.agent-host](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.agent-host/state.md) (with worker since 19 October 23:34 UTC) and [kb.personal-tower](/Users/krisbrown/workspaces/personal/personal-principal/+/_WORK/kb.personal-tower/state.md) (handoff to supervisor since 19 October 18:28 UTC). Every other work folder in the Capitals was already on hold before take-stock and wrote none.
+Live works with no retro: [ki.agent-host](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.agent-host/state.md) (with worker since 19 October 23:34 UTC) and [personal.personal-tower](/Users/krisbrown/workspaces/personal/personal-principal/+/_WORK/personal.personal-tower/state.md) (handoff to supervisor since 19 October 18:28 UTC). Every other work folder in the Capitals was already on hold before take-stock and wrote none.
 
 ## Working well
 

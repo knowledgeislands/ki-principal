@@ -1,6 +1,6 @@
 # Tower Assistant: Claude Design handoff prompt
 
-Given to Kris at 01:20 BST on 22 October 2026 for Claude Design, and sent to kb.regular.site-tower with TOWER-APP-SHELL and TOWER-APP-PERMS.
+Given to Kris at 01:20 BST on 22 October 2026 for Claude Design, and sent to personal.regular.site-tower with TOWER-APP-SHELL and TOWER-APP-PERMS.
 
 ```text
 Design a cohesive visual identity and interface for "Tower Assistant", a small native macOS (SwiftUI, macOS 14+) companion app for the idle mobile game The Tower, which runs on the same Mac. It keeps the game's save fresh by nudging it on a schedule, records game screenshots and learning history for later review, and gives a floating toolbar of user-defined actions for the game.
@@ -16,4 +16,4 @@ Surfaces to design:
 Constraints: follow macOS Human Interface Guidelines and native controls (no web look); support light and dark mode; keep it calm and utilitarian, with a light nod to The Tower's sci-fi tower-defence look in the icon and accent colour only; destructive and recovery actions grouped away from everyday ones. Deliver annotated mockups for each surface, an icon set, the accent colour and type choices, and a short handoff note a SwiftUI developer can implement from.
 ```
 
-Kris added TOWER-APP-PERMS afterwards: a permissions setup panel listing each grant (Accessibility, Screen Recording, Files & Folders for The Tower) with its status and a button that prompts or opens the right System Settings pane. Add it to the prompt as surface 6 if Claude Design has not yet run. Added as surface 6 on 22 October 2026, before Claude Design had run; kb.regular.site-tower built the interim panel as KB-MIDNIGHT-TOWER-APP-007.
+Kris added TOWER-APP-PERMS afterwards: a permissions setup panel listing each grant (Accessibility, Screen Recording, Files & Folders for The Tower) with its status and a button that prompts or opens the right System Settings pane. Add it to the prompt as surface 6 if Claude Design has not yet run. Added as surface 6 on 22 October 2026, before Claude Design had run; personal.regular.site-tower built the interim panel as KB-MIDNIGHT-TOWER-APP-007.
