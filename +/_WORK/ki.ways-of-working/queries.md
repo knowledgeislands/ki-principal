@@ -412,13 +412,13 @@ b) Yes: a run under a machine grant adds the read-only allow set, an explicit de
 
 c) Move the repository allow list to the user settings only, leaving bypass and trust as they are.
 
-### CI-PIN - Bring the website's CI onto a ki that knows the diagrams skill
+### RELEASE-RUN-CHECK - Check the last few release runs live on GitHub
 
-**Context:** The website's GitHub Actions CI has been red on every commit since the diagram pipeline landed at 04:22 GMT on 25 October, failing at its `ki repo repair` step: the workflow pins `ki` v0.8.4, whose harness lacks the `ki-diagrams` skill the repository's `.ki.toml` now declares. The live site is unaffected, since Cloudflare builds and deploys on its own and succeeds again since fix `904176e`. The website's AGENTS.md treats this as checker drift owed to a `tools-ki` pin bump. Moving the pin changes CI configuration, which the away window excluded.
+**Context:** wow-release-fanout found, from local history, that the `tools-ki` release fans out only through `ki-tools-release-bot` to the Homebrew tap and the website's catalogue page, and that the CI pin receiver approved on 9 October exists only in the harness. It could not confirm whether the last few release notifications failed, were skipped or were recovered by the tap's daily poll, because its run allowed no network calls.
 
-**Query:** Should a bounded run move the website's CI `ki` pin to the current `tools-ki` release so CI goes green?
+**Query:** May a follow-up make read-only GitHub calls to inspect the last few `tools-ki` releases and release runs, and their tap and website delivery jobs?
 
-**Options:** a) (recommended, confidence high - the declared skill exists only in newer harnesses, the website's own guidance names a pin bump as the cure, and it is a one-line, reversible change) A bounded run moves the pin to the current `tools-ki` release, confirms CI passes on the next push and commits it on its own. b) Leave CI red until the next scheduled `tools-ki` pin review.
+**Options:** a) (recommended, confidence high - finishes the check while staying read-only) Allow release and run metadata and job-log reads only: no workflow trigger, setting, credential or repository change. b) Accept the local-evidence report and leave recent release-job failures unverified.
 
 ## Parked
 
