@@ -366,7 +366,7 @@ a) (recommended, confidence high - reviewed: a masked Codex review agreed; 230 o
 
 **Query:** Should tools-ki's rename to `tooling/depcruise` and its own `KI_VERSION` bump be folded into the release work in REL-MACOS-OOM, or kept separate?
 
-**Options:** a) (recommended, confidence medium - it is the same drift the release exists to clear and it is small, but it widens the run's scope) Fold the rename and the bump into the next release run, so tools-ki's own CI stays green after the release. b) Capture it as a tools-ki work record and leave tools-ki on v0.13.0 for now.
+**Options:** a) (recommended, confidence medium - reviewed, views differ: the release run's view is that it is the same drift the release exists to clear, though it widens the run's scope) Fold the rename and the bump into the next release run, so tools-ki's own CI stays green after the release. b) (the blind review's view, confidence medium - the rename touches agent worktree preparation and its contract test, so it deserves its own verified change, with the pin bumped only once the release installs) Make it a separate, prompt tools-ki change after the release, and leave tools-ki on v0.13.0 until then.
 
 ## Parked
 
