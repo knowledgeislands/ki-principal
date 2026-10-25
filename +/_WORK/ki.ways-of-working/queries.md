@@ -328,6 +328,14 @@ a) (recommended, confidence high - reviewed: a masked Codex review agreed; 230 o
 
 **Options:** a) (recommended, confidence high - zero cost, available today, and it remains useful after the cache ships) Yes: hand the alias to ki.chezmoi as a `messages.md` line, and learn `push` over a level set so a plain `mgit push` is quiet. b) No: wait for the `tools-mgit` record.
 
+### MGIT-CACHE-FAILED - whether a checkout the sweep failed on goes into the cached set
+
+**Context:** In the mgit cache design, `mgit --to-cache st` records the checkouts needing attention for five minutes, and `mgit --from-cache push` acts on just those. A sweep can fail in a checkout, for example on an `index.lock`, a missing upstream or a broken worktree. The sweep's exit status of 1 already stops an `&&` chain, so `--from-cache` is reached after a failure only by `;` or a separate command, and the follow-up may be destructive. The design note recommends including failed checkouts (medium confidence). A masked blind review on Codex disagreed at high confidence: a failed sweep is an unknown result, not a confirmed target for a possibly destructive command. Both views are shown.
+
+**Query:** Are checkouts the sweep failed on included in the cached set?
+
+**Options:** a) (recommended, confidence medium - reviewed blind on Codex, which disagreed: the design favours a superset needing attention, the reviewer holds that an unknown result should not be a target) Exclude them, but keep their names and count in the set as diagnostics, and warn on every `--from-cache` that the selection is incomplete. This is the reviewer's added option. b) Include them, and show the count of failed candidates in the age line, as the design note recommends. c) Exclude them silently, so the set holds only checkouts that ran and printed something. d) Make `--from-cache` refuse to run while the set records any failed checkout, until the sweep is repeated clean.
+
 ## Parked
 
 - PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.
