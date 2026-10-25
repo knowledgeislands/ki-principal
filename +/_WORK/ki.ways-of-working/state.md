@@ -1,7 +1,7 @@
 ---
 id: ki.ways-of-working
 state: with-worker
-since: 2026-10-25T01:03:00Z
+since: 2026-10-25T01:08:00Z
 received: 2026-10-22T07:24:00Z
 beat: null
 mark: 2026-10-23T01:10:00Z
@@ -12,12 +12,12 @@ method_read: eff6163b
 
 ## Now
 
-- 02:03 BST: unattended until 09:00 BST under Kris's grant. Running: wow-method-lines (METHOD-LINES and PERSONAL-RESERVED owners).
+- 01:08 GMT: unattended until 08:00 GMT (09:00 BST) under Kris's grant. Running: wow-lines-blind (Codex, KI-REPO-HOME, LEGACY-PREFIX, PARTIAL-REPOS).
 - Commit cadence: commit each complete unit by explicit path, pull fast-forward only into a clean checkout, push when only own commits are stacked.
 
 ## Next steps
 
-- Coordinator: receive wow-method-lines and copy its queries; finish the method refresh (standard read to Banner at 8cc42754); at the next mark delete design/tending-round2-notes.md. Queue lines kept: PERSONAL-RESERVED (findings need owners), SIZE-LABEL (outside the grant), METHOD-LINES.
+- Coordinator: receive wow-lines-blind; next steps from design/method-lines.md: WORK-PROCESS-NOTE with the Work Process note record, CENTRAL-TICK as an idea on the Project note, COORD2-RUBRIC label check at coordination.ts:372 for the next coord-standard run; finish the method refresh (standard read to Banner at 8cc42754); at the next mark delete design/tending-round2-notes.md. Queue line kept: SIZE-LABEL (outside the grant).
 - Kris on return: the open queries in full.
 
 ## Held

@@ -198,3 +198,7 @@ wow-shape-merge merged the two reviews into `design/model-shape-report.md` with 
 ## 2026-10-25 02:03 BST - shape blind review received; method-lines run launched
 
 wow-shape-blind (Codex, masked) recommended a dedicated field for STEWARD-FIELD at high and execution-only restriction for HOST-TARGET at high. HOST-TARGET a) is lifted to high, reviewed. STEWARD-FIELD now leads with the dedicated field, since two of three reviews prefer it, kept at medium with both views shown. Under the away grant, wow-method-lines is launched to sort METHOD-LINES and route PERSONAL-RESERVED's two findings; it changes no standard.
+
+## 2026-10-25 01:08 GMT - method-lines received
+
+wow-method-lines sorted METHOD-LINES into `design/method-lines.md`. Disposition: KI-SOP-PATTERN, SOP-SECONDARY, OP-CACHE-RULE and MOD-LEDGER are carried already; INTERACTIVE-QUERIES, INITIATIVES-RESIDUE, THEME-REGISTRY-ENFORCE, CF-UNIFORM and CHEZMOI-REMIT's no-host rule ride open queries; WORK-PROCESS-NOTE, CENTRAL-TICK and COORD2-RUBRIC are next steps here; WORK-STATUS-FORM is sent to ki.tools-burndown's `messages.md`. PERSONAL-RESERVED's findings become KI-REPO-HOME and LEGACY-PREFIX, with PARTIAL-REPOS the third query; all three are medium and go to wow-lines-blind on Codex. RUN-SECRETS is narrowed to its Cloudflare half. METHOD-LINES and PERSONAL-RESERVED are removed from `messages.md`.
