@@ -359,3 +359,9 @@ Fable proposal `7700e558` and Codex proposal `0c177a7e` are in `design/`: both p
 Kris: "the timeline for the morning is 8 AM current time as well, so that's after the clock switch."
 
 Read back as taken: the clocks have gone back, and local time is now GMT, so the unattended window ends at 08:00 GMT (08:00 UTC), replacing 09:00 GMT. At 08:00 GMT launching stops, finishing runs are received, and the return report and review pack are ready.
+
+## 2026-10-25 03:10 GMT - SYNC-KI: keep every Knowledge Islands repository synced every 5 to 10 minutes
+
+Kris: "every 5 to 10 minutes or so, make sure that you do a push and a pull across knowledge islands and reconcile any issues and then make sure that it's all pushed ... so that then the site is updated constantly ... I have some work happening in the humans, not robots, territory ... It won't make changes to the ways of working, though. It might send you messages occasionally." Kris interrupted the first attempt to add the request for a Humans Not Robots brief, which was given in the thread, then signed off ("Good luck, I'll see you in 4 or 5 hours"); the sync proceeds on the words above.
+
+Read back as taken: at each wake, about every 5 minutes, every repository under `workspaces/knowledge-islands` whose origin is the knowledgeislands organisation and which is on `main` is fetched, fast-forwarded and, where ahead, pushed, other sessions' commits included under PACKAGE-PUSH; never forced, never `--no-verify`. A divergence goes to a bounded resolve run in its own worktree. Messages from the Humans Not Robots territory arrive in this package's `messages.md` and are acted on at each wake.
