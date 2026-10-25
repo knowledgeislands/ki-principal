@@ -1,10 +1,10 @@
 ---
 id: ki.ways-of-working
 state: with-worker
-since: 2026-10-25T01:08:00Z
+since: 2026-10-25T01:07:00Z
 received: 2026-10-22T07:24:00Z
 beat: null
-mark: 2026-10-23T01:10:00Z
+mark: 2026-10-25T01:07:00Z
 method_read: eff6163b
 ---
 
@@ -12,12 +12,12 @@ method_read: eff6163b
 
 ## Now
 
-- 01:08 GMT: unattended until 08:00 GMT (09:00 BST) under Kris's grant. Running: wow-lines-blind (Codex, KI-REPO-HOME, LEGACY-PREFIX, PARTIAL-REPOS).
+- 01:07 GMT: mark struck at the start of the unattended window (to 08:00 GMT). Running: wow-lines-blind, wow-overview, wow-unattended. Interactive query pass with Kris.
 - Commit cadence: commit each complete unit by explicit path, pull fast-forward only into a clean checkout, push when only own commits are stacked.
 
 ## Next steps
 
-- Coordinator: receive wow-lines-blind; next steps from design/method-lines.md: WORK-PROCESS-NOTE with the Work Process note record, CENTRAL-TICK as an idea on the Project note, COORD2-RUBRIC label check at coordination.ts:372 for the next coord-standard run; finish the method refresh (standard read to Banner at 8cc42754); at the next mark delete design/tending-round2-notes.md. Queue line kept: SIZE-LABEL (outside the grant).
+- Coordinator: receive wow-lines-blind; next steps from design/method-lines.md: WORK-PROCESS-NOTE with the Work Process note record, CENTRAL-TICK as an idea on the Project note, COORD2-RUBRIC label check at coordination.ts:372 for the next coord-standard run; finish the method refresh (standard read to Banner at 8cc42754). Queue line kept: SIZE-LABEL (outside the grant).
 - Kris on return: the open queries in full.
 
 ## Held
