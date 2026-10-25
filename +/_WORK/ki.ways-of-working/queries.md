@@ -334,34 +334,6 @@ b) Confirm it for HNR's sites only, in hnr-principal's AGENTS.md.
 
 c) Not a rule.
 
-### SIZE-LABEL - land the T-shirt display convention now
-
-**Context:** Decided in substance. Kris, 24 October 08:42 BST: "I wonder if there's a way of showing T-shirt S, M, etc. next to it. And probably put it in a capital letter, almost like it's a label on a t-shirt." Under VA-HIGH a) on 25 October he sent it here as a message, read back as "TENDING-FOLD, SIZE-LABEL and PRODUCT-RECORDS go to their owning works tonight as messages". Today `ki-work-roadmap`'s Priority and size section defines `size` as `s`, `m`, `l` or `xl`, with `xl` split before Ready and no `xs`, and says nothing about display; Valle Armonia already shows 👕 S, 👕 M, 👕 L and 👕 XL in reports and messages, and one record was labelled 👕 XS against the vocabulary. The change is one paragraph: a display convention of 👕 plus the capital letter in reports and messages, field values unchanged, no XS. The deny list keeps standard changes out of tonight's window.
-
-**Query:** Should it land now, and in which run?
-
-**Options:**
-
-a) (recommended, confidence high - decided, one paragraph, and WORK-LABEL is the same kind of change in the same repository) Land it on return in one harness run together with WORK-LABEL, the run's tests covering both.
-
-b) Land it on return as a run of its own.
-
-c) Hold it for the next harness batch.
-
-### WORK-LABEL - name every piece of work as label then id
-
-**Context:** Decided in substance. Kris, 25 October, on "Personal > Tower (personal.regular.tower)": "I like this label, the way that you put the work package in brackets after it at the end. Can we adopt that as a standard?" Today `ki-coordination`'s Work naming gives each work an id, slug and title, the label being the title plus a host suffix only where the work is limited to one machine, and the `<label> (<id>)` form appears only in the coordinator's closing thread line; the message sender label is `<Territory> > SoP:` with no id; regular and ad hoc work carry no thread line, so a regular thread had no settled way to name itself. The change: `ki-coordination` names `<label> (<id>)` as the work name used wherever a session names a piece of work, in replies, reports, message sender labels, hand-offs and openers, and the `ki-work-package` message line form gains the id after the sender label.
-
-**Query:** Should it land now, and in which run?
-
-**Options:**
-
-a) (recommended, confidence high - decided, two short edits in the harness, and SIZE-LABEL shares the run) Land it on return in the one harness run with SIZE-LABEL, with a REFRESH line to live works afterwards.
-
-b) Land it on return as a run of its own.
-
-c) Land only the `ki-coordination` naming rule now and leave the message line form as it is.
-
 ### PERM-PROMPTS-SCRATCH - stop runs clearing their own temp directory
 
 **Context:** Kris, 25 October: "Every now and then we get a prompt for permissions ... when you find out what it is, can you pass that to Ways of Working". Legal's read-only scan of 44 interactive and the background-run transcripts since 14 October found configuration is not the cause: every session runs in bypass mode and the only prompt bypass leaves is Claude Code's built-in `rm` safety check. It is call-shape driven: 203 background-run denials, 110 with a target under a workspace directory, which a run's temp directory is because the launcher adds it as a working directory, 91 with a shell-variable target, plus 34 compound commands denied for containing such an `rm` or a `git worktree remove`. Runs cannot ask, so they adapt; the same shape in an interactive session becomes a prompt for Kris, which approved prompts leave no trace of, so the interactive cause is probable, not proven. The standard sends runs to the cause: `ki-delegation`'s run packet says temporary output goes in `$TMPDIR/ki-agents/<run>/<name>/` and "`ki agent close` refuses while the directory holds anything", yet the same section records Kris's 20 October adoption of the directory "which `ki agent close` empties and removes". The two sentences disagree, and the first makes every run `rm` its scratch.
