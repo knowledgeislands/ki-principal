@@ -411,3 +411,5 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
 - 2026-10-25 04:54 GMT · wow-docs-harness received: six harness pages refreshed, Agent environment page with its provider box and diagram added, Skills by-outcome links added, every gate passing; commit `1056bb6` on the website's main. No queries.
 
 - 2026-10-25 05:07 GMT · wow-review-pack-2 received: the review pack (`design/review-pack.md`, `3d16931d`) now carries all eighteen open queries verbatim and the website review list for units 1 to 5, with the later sections pending. AREA-COLUMN's catalogue address corrected to `/docs/skills/catalogue/` in both files. No queries.
+
+- 2026-10-25 05:16 GMT · wow-docs-work-a received: five Ways of working pages (the work model, work packages, coordination, background runs, roadmap lifecycle) and six site diagrams, with by-outcome links; every gate but the DEPS-1 baseline passing; commit `1edd468` on the website's main. An uncommitted `apps/site/scripts/verify-diagrams.test.ts` in the website checkout belongs to no unit tonight that has claimed it; left untouched and carried to the return report. No queries.
