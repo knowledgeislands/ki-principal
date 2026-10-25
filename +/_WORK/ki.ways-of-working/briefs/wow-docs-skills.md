@@ -30,3 +30,7 @@ Commit as `docs(site): publish the Skills section at harness 8897008f` by explic
 - Publishing: after the checks pass, `git fetch -q`, `git pull -q --ff-only`, then `git push -q origin main` fast-forward only. Pushing `main` deploys the site. Stop on divergence and report it; do not rebase, reset or stash.
 - No other network call: no GitHub API, no package installs, no `verify:provenance -- --network`.
 - Report in under 30 lines in owner-report form: Done with the commit identifiers and one line per check, In Progress, Queries. Name every published URL as `https://knowledgeislands.info<path>`, noting that the deploy completes after the push. Put a design choice you had to make that the plan did not settle in Queries with a recommended option; do not block on it.
+
+## Relaunch note (03:53 GMT)
+
+Task 1 and the retired-name clean-up landed in website `ddcf533`; do not redo them. Do tasks 2 and 3 only, on the structure and diagram pipeline now landed.
