@@ -336,6 +336,14 @@ a) (recommended, confidence high - reviewed: a masked Codex review agreed; 230 o
 
 **Options:** a) (recommended, confidence medium - reviewed blind on Codex, which disagreed: the design favours a superset needing attention, the reviewer holds that an unknown result should not be a target) Exclude them, but keep their names and count in the set as diagnostics, and warn on every `--from-cache` that the selection is incomplete. This is the reviewer's added option. b) Include them, and show the count of failed candidates in the age line, as the design note recommends. c) Exclude them silently, so the set holds only checkouts that ran and printed something. d) Make `--from-cache` refuse to run while the set records any failed checkout, until the sweep is repeated clean.
 
+### HNR-LEVEL - bring the Humans Not Robots local copy level by dropping a redundant local commit
+
+**Context:** Overnight a run wrote one line in the Humans Not Robots State of play queue asking HNR to list its confidential sites, but the local copy at `/Users/krisbrown/workspaces/humans-not-robots/hnr-principal` was behind, so it published the line from a separate worktree as `bb404954`. The local copy still holds the original commit `6043f001`, one ahead of and 89 behind `origin/main`. Its single added line is byte-identical on `origin/main`, the tree is clean and there is no stash; git does not match the two commits only because the lines around it moved. The run briefed to level it stopped, as briefed, rather than drop the commit.
+
+**Query:** May the local copy be moved to `origin/main`, dropping the redundant local commit?
+
+**Options:** a) (recommended, confidence high - reviewed blind on Codex, which verified the line byte-identical itself; the tree is clean, nothing unpublished is lost and the command refuses if a tracked file would be) A bounded run runs `git -C /Users/krisbrown/workspaces/humans-not-robots/hnr-principal reset -q --keep origin/main`. b) An offline `git rebase origin/main`, skipping the one commit when it conflicts; the same end state with an extra step. c) Leave it for the next session working in hnr-principal to level.
+
 ## Parked
 
 - PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.
