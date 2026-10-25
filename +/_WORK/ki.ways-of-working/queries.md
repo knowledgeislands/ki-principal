@@ -159,3 +159,15 @@ b) Treat omission as unmanaged and leave existing mirror values unassessed until
 a) (recommended, confidence high - follows the note's explicit pilot boundary and keeps the first schema bounded) Keep the every-member rule for initial graduation and retain optional/shape-scoped types as an extension awaiting a second territory's evidence.
 
 b) Include optional or shape-scoped types in the first standardisation design and review their membership and validation semantics before implementation.
+
+### TIDY-GAPS - an orphan package and a missing source report
+
+**Context:** `+/_WORK/ki.specifications/` in ki-principal holds only old reports, with no `work.md` or `messages.md`, so it has no identity or steward. Separately, harness record KI-HARNESS-REV-012 (Thoughtworks Radar input) links to `radar-confirm-2.report.md`, and no tracked copy exists anywhere. Creating package metadata or substituting another source would invent identity or provenance.
+
+**Query:** Should the coordinator find the intended owner of the orphan package and the source report's durable home from their stewards before any repair?
+
+**Options:**
+
+a) (recommended, confidence high - preserves evidence and avoids inventing identity or provenance) Obtain both authoritative homes, then commission bounded repairs.
+
+b) Keep both findings unresolved for Kris's next review.
