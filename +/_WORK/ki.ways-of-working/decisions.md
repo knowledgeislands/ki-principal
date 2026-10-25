@@ -158,3 +158,7 @@ wow-summary-drift found the style current and named the causes: the re-bootstrap
 ## 2026-10-24 23:58 BST - drift blind review received; sent to owner
 
 wow-drift-blind on Codex agreed with REBOOT-SHAPE, GAP-SUMMARY and METHOD-NUDGE, each lifted to high, and disagreed on PROXY-SHAPER, preferring to turn the output shaper off; both views shown. Sixteen queries sent to Kris in a full Summary.
+
+## 2026-10-25 01:25 BST - routed AGENT-SEND-NO-RUN
+
+The `ki agent send` defect from the restart list (area 1h) went to ki.tools-burndown as a messages line, with the launch run-name friction seen on 24 October.
