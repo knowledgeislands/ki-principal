@@ -2,38 +2,6 @@
 
 ## Open
 
-### RUN-SECRETS - runs read secrets only through the dotfiles helpers
-
-**Context:** Kris approved the 1Password cache ("I really need the OP cache doing") and said Cloudflare access "should be uniform across whichever territory I'm working in". The proposals are:
-
-- runs read 1Password only through `op_cache`, in service-account-only mode;
-- runs read Cloudflare credentials only through `~/bin/cf_token`;
-- no territory's notes record item or token ids.
-
-A sweep found no such ids in Knowledge Islands.
-
-Update, 25 October: wow-method-lines found the 1Password half already landed, so only the Cloudflare half is still to decide.
-
-**Query:** Should the background-run standard and the Cloudflare site rubric adopt this one secrets rule?
-
-**Options:**
-
-a) (recommended, confidence high - follows Kris's words; both helpers exist in chezmoi, and nothing currently breaks it) Adopt it in `ki-delegation` and `ki-repo-website-cloudflare` together.
-
-b) Adopt the 1Password half now and the Cloudflare half once the Cloudflare guide is reviewed.
-
-### THEME-CLOSE - set the date Initiatives stop being accepted
-
-**Context:** Kris asked that the theme registry be used everywhere and "enforced mechanically now". Checkers still only warn on `Streams/Initiatives/` and `initiative:`, and the tolerance window has no end date. Personal has migrated. Legal still has 7 Initiative files and no Themes folder, and HNR has one `initiative:` field. Failing now would break both audits.
-
-**Query:** Should Legal and HNR be asked to migrate, with the checkers failing from a fixed date?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; a dated cutover ends open-ended tolerance without breaking Legal's and HNR's audits at once) Message Legal's and HNR's States of play now, and turn the warnings into failures on 7 November 2026, or earlier once a scan finds no residue.
-
-b) Turn the warnings into failures at once and let Legal and HNR fix their audits.
-
 ### DECISION-HOMES - home State of play's older decisions as proposed (defaults)
 
 **Context:** each of these lines is a low-stakes, reversible proposed home for one of State of play's older homeless decisions. The full table is in Area 6.
