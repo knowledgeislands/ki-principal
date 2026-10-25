@@ -190,27 +190,101 @@ b) Leave it to coordinator habit.
 
 ### COMMIT-CADENCE - commit the work folder at every write and every wake
 
-**Context:** You said on 25 October that work sits uncommitted in the work folder for a long time, which makes it hard to keep repositories in sync with the remote and with the other sessions that write into work packages. Today the standard requires a commit and push only at a send, an owner receive, a mark, a hold and finish, so message dispositions, queries, decisions, briefs, state changes and heartbeat wakes go uncommitted. The coordinator already works this way as a habit since 01:34 BST; this makes it the rule. The push half is PACKAGE-PUSH below. A masked blind review on Codex agreed, adding that a pull with rebase runs only when it is safe for the shared checkout, never disturbing another session's uncommitted files, and that a clean wake makes no empty commit.
+**Context:** You said on 25 October that work sits uncommitted in the work folder for a long time, which makes it hard to keep repositories in sync with the remote and with the other sessions that write into work packages. Today the standard requires a commit and push only at a send, an owner receive, a mark, a hold and finish, so message dispositions, queries, decisions, briefs, state changes and heartbeat wakes go uncommitted. The coordinator already works this way as a habit since 01:34 BST; this makes it the rule. The push half is PACKAGE-PUSH below. A masked blind review on Codex agreed, and both model-shape reviews corrected the pull: the standard allows only a fast-forward pull into a clean checkout, since a rebase refuses a dirty shared tree and autostash would touch another session's files. The unit committed is the smallest complete, verified one, and a clean wake makes no empty commit.
 
 **Query:** Should the standard, the output style and the hook line require a commit by explicit path at every work-folder write and every wake, pulling with rebase first and pushing fast-forward, so no write stays uncommitted past the turn that made it?
 
 **Options:**
 
-a) (recommended, confidence high - reviewed; it closes the gap that leaves shared packages stale, with no new authority) Adopt the cadence with the review's safeguards, a line written into other work's `messages.md` committed at once, and publication still under the push rule.
+a) (recommended, confidence high - reviewed; it closes the gap that leaves shared packages stale, with no new authority) Adopt the cadence: commit each complete unit by explicit path before the turn ends, pull fast-forward only into a clean checkout, commit a line written into other work's `messages.md` at once, and keep publication under the push rule.
 
 b) Leave the send, receive, mark and hold cadence as it is.
 
 ### PACKAGE-PUSH - push other sessions' work-folder commits stacked beneath your own
 
-**Context:** You set on 14 October that a session pushes only when its own commits alone are stacked, and on 19 October that it never pushes another session's stacked commits. In a Capital those are nearly always other sessions' `+/_WORK/` commits, such as a `messages.md` line routed here, so the coordinator's push stalls until you push by hand. Your 14 October words allow pushing stacked commits a session is confident in and flagging the rest. A masked blind review on Codex agreed, adding that the session inspects every unpublished commit's changed paths, renames included, and stops on divergence or doubt.
+**Context:** You set on 14 October that a session pushes only when its own commits alone are stacked, and on 19 October that it never pushes another session's stacked commits. In a Capital those are nearly always other sessions' `+/_WORK/` commits, such as a `messages.md` line routed here, so the coordinator's push stalls until you push by hand. Your 14 October words allow pushing stacked commits a session is confident in and flagging the rest. The reviews disagree. The cadence blind review on Codex agreed, provided the session inspects every unpublished commit's changed paths, renames included, and stops on divergence or doubt. The Codex model-shape review rejected a push allowed by path alone, at high confidence, because briefs and decisions under `+/_WORK/` can carry unreviewed material, and asked for a bounded grant naming the publisher, repositories, branches and the check of each commit beneath. The Claude model-shape review agreed with the narrow exception but noted it does nothing while any product commit lies beneath, so it pairs it with each session pushing its own product commits at once, which your 14 October words already allow.
 
 **Query:** May a session push a fast-forward stack in which other sessions' commits touch only `+/_WORK/` paths, keeping the own-commits-only rule for every other stacked commit?
 
 **Options:**
 
-a) (recommended, confidence high - reviewed; a narrow package-only exception removes the stall and keeps the boundary for everything else) Yes, when every other session's stacked commit touches only `+/_WORK/` paths, checked commit by commit, fast-forward only and never forced.
+a) (recommended, confidence medium - reviews disagree; a bounded grant removes the stall while answering the unreviewed-material concern) Yes, as a bounded grant: only this repository's coordinators, only `main` of the Capital, only when every other session's stacked commit touches `+/_WORK/` alone, each commit's paths checked, fast-forward only and never forced, with each session pushing its own product commits at once.
+
+c) Yes, by path alone, with no named publisher or branch.
 
 b) No, keep own-commits-only pushing and rely on COMMIT-CADENCE alone.
+
+### CASCADE-STEWARD - a State of play looks after a Project package by explicit assignment and handover
+
+**Context:** Kris wants one State of play thread to keep every Project package in its territory sorted unless the Project has its own coordination thread. The brief made the State of play the steward automatically whenever no thread is open, with a one-day flag on a quiet thread. The Codex review differs: nothing committed or local can show that a thread is alive, so inferring stewardship from an absent thread risks two writers or none. It wants an explicit assignment that changes only by an acknowledged handover, which stops the old steward, passes its runs in flight to the new one and is committed in one write. The Claude review agrees the State of play should steward by default, and it independently adds the same handover of runs in flight. Both drop the one-day flag, which would fire on a Project that is simply waiting on Kris. Both limit package creation to a registered Project within the cap, created in the state its actual move supports rather than `with-worker` by default.
+
+**Query:** Should a State of play steward a Project package by an explicit committed assignment, set when it creates or adopts the package and changed only by an acknowledged handover when Kris opens or closes the Project's own thread?
+
+**Options:**
+
+a) (recommended, confidence high - reviews disagree on inferring stewardship from an absent thread; the state and session contracts give no liveness signal, and explicit assignment keeps the default Kris asked for) Yes: explicit assignment, acknowledged handover with runs in flight, no timeout takeover, creation only for a registered Project within the cap.
+
+b) Infer it, as the brief proposed: the State of play steps in whenever no Project thread is open, with a flag on a quiet thread.
+
+### STEWARD-FIELD - where a package records who looks after it
+
+**Context:** The assignment needs a committed home that names a work, never a host or session. The brief proposed a new `state.md` field, `steward: self` or `steward: work/<sop id>`. Both reviews reject `self`, which is not a holder value, and both reject reading the assignment as the holder. The Claude review would reuse `work.md`'s existing `worker` field: `worker: work/va` when the State of play looks after the package, and `agent` when the Project's own thread does. That adds no field and leaves the closed field set unchanged. Stewardship changes only when Kris opens or closes a thread, the slow rate `work.md` suits, and the holder stays derived from `state` and `worker` as today. The Codex review wants a dedicated assignment with its own vocabulary, distinct from holder and session, and leaves the exact field to the design. A separate field keeps the assignment visible beside the state, and it avoids a third sense of "steward" only if it is named with care.
+
+**Query:** Should the assignment be recorded in `work.md`'s existing `worker` field rather than a new field?
+
+**Options:**
+
+a) (recommended, confidence medium - reviews disagree; reusing `worker` adds no field and fits the slow rate of change, but a dedicated field is clearer beside the state) Yes: `worker: work/<sop id>` while the State of play looks after the package, `agent` while its own thread does.
+
+b) A new dedicated field, taking `work/<id>` values only, never `self`.
+
+### CASCADE-REPORT - one Summary for several packages
+
+**Context:** When the State of play thread works several Project packages, Kris still gets one Summary from it. Both reviews agree with the brief that each item names its package, each query lives in its Project's `queries.md` and Kris's answer is logged in that Project's `decisions.md`, so any package can be picked up alone. Codex adds three points. Two packages may use the same tag, so a query is named by work and tag. Each package keeps its own state, mark and beat, so a territory mark, or Kris's acknowledgement of the Summary, moves only the work it clearly names. A decision spanning Projects is kept once at the territory, not copied as several grants. Claude adds that the five-call turn budget reads "the work package", singular, so a State of play turn should act in one package at a time and roll the rest up from `ki work status`.
+
+**Query:** Should the State of play's Summary report each package as its own work, with work-qualified query tags, per-package marks and one package acted on per turn?
+
+**Options:**
+
+a) (recommended, confidence high - both reviews agree, and it keeps today's rule that queries and decisions live in the package) Yes, with all four additions.
+
+b) One Summary as the brief proposed, without per-package marks or the one-package turn.
+
+### RELATIONS - what a package and a record say they relate to
+
+**Context:** Kris asked that the metadata say what each piece of work is related to. Both reviews agree that every package below the main should name the State of play that coordinates it as `parent`, so a package read alone shows its territory, Project, theme and coordinator. For ad hoc work, `parent` means the coordinating State of play, not the regular-work parent its id nests under. The brief would then derive a secondary's `covers` list from those `parent` fields and retire it. Both reviews reject that, for two reasons: coverage of a registered Project must hold before its package exists and after it is pruned, and a coverage change would become a write to every moved Project's file instead of one commit in the main's. On records, both agree that a record's `project` field finds its package through the registry. Codex notes it authorises nothing: selection into `now` neither opens work nor grants execution, the steward writes the link into its next steps, and a record with no `project` goes first to its existing owner, such as regular work, before State of play routes it.
+
+**Query:** Should every package below the main carry `parent`, with `covers` kept as the main's register and checked against it, and a record's `project` used only to find its package?
+
+**Options:**
+
+a) (recommended, confidence high - both reviews agree; it answers Kris's metadata ask without losing coverage of Projects that have no package) Yes.
+
+b) As the brief proposed: `covers` derived from `parent` and retired after a tolerance window.
+
+### HOST-SEAT - committed host requirements, never a committed seat
+
+**Context:** Kris asked that coordinators know which machine they run on, so that work aimed at particular machines can be handled. The work-package standard contradicts itself: it says a package names "no host", yet it allows a `(<host>)` label suffix for machine-limited work. Both reviews agree with the brief's resolution. The prohibition protects a thread's seat, meaning where it runs and will resume; that goes stale at every move, so it stays out of every package, hold and report. A requirement, meaning a host or category the work needs, is a fact about the work and may sit on a message line, a brief, a record or a package's label. Both want host and category names taken from the territory's machine inventory, which Rig owns for Knowledge Islands. Claude adds that the coordinator should map the local machine to that inventory rather than trust raw `hostname -s`, whose result on a Mac depends on network settings.
+
+**Query:** Should the no-host rule narrow to the seat, allowing a host or category requirement on a line, brief, record or label, with each coordinator establishing its host from the machine inventory at bootstrap and re-anchoring?
+
+**Options:**
+
+a) (recommended, confidence high - both reviews agree, and it resolves a contradiction in the standard by narrowing rather than deleting the rule) Yes.
+
+b) Keep the blanket no-host rule and drop the label suffix.
+
+### HOST-TARGET - what a host requirement restricts
+
+**Context:** Once requirements are allowed, a coordinator on one machine will meet lines meant for another. The brief and the Claude review would have a thread act only on lines that are untagged or tagged for its own host or category, leave the rest queued and count them in its banner. Claude adds an age flag, so that a line no live thread can take does not wait unseen. The Codex review differs: only device-dependent execution needs the device, so a coordinator elsewhere may still acknowledge the line, plan it, ask Kris about it or dispatch a run to an eligible host. A blanket skip also breaks the queue's order when the first line, or an IMPORTANT line, is for another host. Codex also wants concrete hosts told apart from categories, and rules for unknown or renamed names, before the syntax is adopted. Both agree the syntax is an optional `@<host or category>` after the date, and that the pilot runs in `ki.chezmoi`.
+
+**Query:** Should a host requirement restrict only device-dependent execution, leaving any coordinator free to acknowledge, plan, ask about or dispatch the line in queue order?
+
+**Options:**
+
+a) (recommended, confidence medium - reviews disagree; restricting execution only keeps the queue's order and IMPORTANT lines intact, but a coordinator then handles lines it cannot finish) Yes, with an age flag on lines no eligible host has taken, and host-versus-category rules settled before adoption.
+
+b) A thread acts only on lines for its own host or category and leaves the rest queued and counted, as the brief proposed.
 
 ## Parked
 
