@@ -60,6 +60,8 @@ The burn-down focus it cites is Kris's standing rule, also verbatim: "the roadma
 
 ### (b) Size field
 
+**Superseded, 2026-10-25.** The `ki-work-roadmap` standard now defines `size` differently from this section, under [Priority and size](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-work-roadmap/references/standards-work-item-format.md#priority-and-size): T-shirt sizes `s`, `m`, `l` and `xl`, with no `xs`, measuring relative end-to-end effort including owner review rather than Kris's attention alone; required on every open record from capture, triage included; and `xl` split before Ready in place of `13`. Reports and Tending show them as 👕 S, 👕 M, 👕 L and 👕 XL. The Fibonacci points below, and the snapshot's `points` sums in (a), are kept as the history of the design and do not govern.
+
 **Definition.** `ki-work-roadmap` adds `size` to the work-item frontmatter: an integer from the Fibonacci set `1, 2, 3, 5, 8, 13`. It measures Kris's attention, which the direction defines as "review, decisions, risk", and explicitly not agent effort: a long agent run that ends in a one-line approval is a `1`; a short change that needs three owner decisions and carries connection risk is an `8`. A rubric in the standard anchors the scale:
 
 | Points | Kris's attention |
