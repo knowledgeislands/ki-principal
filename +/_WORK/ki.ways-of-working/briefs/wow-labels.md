@@ -2,7 +2,7 @@
 
 ## Goal
 
-Land two decided conventions in the KI Agentic Harness in one run. Kris agreed both on 2026-10-25 at 08:00 GMT ("With WORK-LABEL" / "With SIZE-LABEL").
+Land two decided conventions in the KI Agentic Harness in one run. Kris agreed both on 2026-10-25 at 07:57 GMT ("With WORK-LABEL" / "With SIZE-LABEL").
 
 1. **SIZE-LABEL.** Kris, 24 October: "I wonder if there's a way of showing T-shirt S, M, etc. next to it. And probably put it in a capital letter, almost like it's a label on a t-shirt." In `ki-work-roadmap`'s Priority and size section, add one paragraph: reports and messages display a size as 👕 plus the capital letter (👕 S, 👕 M, 👕 L, 👕 XL). Field values stay `s`, `m`, `l`, `xl`, and there is no XS.
 2. **WORK-LABEL.** Kris, 25 October, on "Personal > Tower (personal.regular.tower)": "I like this label, the way that you put the work package in brackets after it at the end. Can we adopt that as a standard?" In `ki-coordination`'s Work naming, make `<label> (<id>)` the work name used wherever a session names a piece of work: replies, reports, message sender labels, hand-offs and openers. In `ki-work-package`'s message line form, add the id after the sender label, for example `KI > Model > Ways of working (ki.ways-of-working):`. Accept the old form through the tolerance window.
