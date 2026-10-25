@@ -242,3 +242,8 @@ Read back as taken: the away grant stands to 08:00 GMT (09:00 BST); the mark is 
 
 - RUN-SECRETS: Kris chose a), "Adopt now". Read back as taken: `ki-delegation` and `ki-repo-website-cloudflare` adopt the Cloudflare half: runs read Cloudflare credentials only through `~/bin/cf_token`, and no territory's notes record item or token ids. Standards text only, no Cloudflare change. Harness run tonight.
 - THEME-CLOSE: Kris chose a), "Dated cutover". Read back as taken: Legal's and HNR's States of play are messaged now to migrate Initiatives to themes, and the checkers turn the `Streams/Initiatives/` and `initiative:` warnings into failures on 7 November 2026, or earlier once a scan finds no residue. The checker change is a tools-ki or harness change with that date.
+
+## 2026-10-25 01:22 GMT - DECISION-HOMES answered, unpacked into homes and strikes
+
+- Homes: Kris ticked all four. Read back as taken: PRFLOW goes to the harness `AGENTS.md`, PIN to the tools-ki CI guide, KI-AGENTS-NAME to this work's decisions log, and SPEC-REVIEW to ki.portable-specifications.
+- Strikes: Kris ticked all four. Read back as taken: the 14 October burn-down focus is struck as superseded by CAPTURE-GATE and ROADMAP-CAP; CAPTURE-GATE is struck to a pointer to `ki-next`; GO-AHEAD and CAPTURE-ONLY are struck as spent; RIG-REL-PATCH is struck to a pointer to the release policy; DIAGRAMS-BLACK is checked and captured only if it still fails. State of play's `decisions.md` is not this work's file, so the strikes go to State of play as one message line, and the homes go to a run.

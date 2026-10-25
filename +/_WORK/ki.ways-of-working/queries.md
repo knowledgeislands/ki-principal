@@ -2,29 +2,6 @@
 
 ## Open
 
-### DECISION-HOMES - home State of play's older decisions as proposed (defaults)
-
-**Context:** each of these lines is a low-stakes, reversible proposed home for one of State of play's older homeless decisions. The full table is in Area 6.
-
-- PRFLOW goes to the harness `AGENTS.md`.
-- PIN goes to the tools-ki CI guide.
-- The 14 October burn-down focus is struck as superseded by CAPTURE-GATE and ROADMAP-CAP.
-- CAPTURE-GATE is struck, pointing to `ki-next`.
-- GO-AHEAD is struck as spent.
-- KI-AGENTS-NAME goes to this work's decisions log.
-- CAPTURE-ONLY is struck as spent.
-- DIAGRAMS-BLACK is checked and captured only if it still fails.
-- RIG-REL-PATCH is struck, pointing to the release policy.
-- SPEC-REVIEW goes to ki.portable-specifications.
-
-**Query:** Keep these defaults?
-
-**Options:**
-
-a) (recommended, confidence high - each choice is low-stakes and reversible) Keep the defaults.
-
-b) Object to the ones you name.
-
 ### PROXY-SHAPER - the Headroom output shaper and compression in coordinator sessions
 
 **Context:** The proxy appends an L2 steering block ("Never restate ... reference them by path and line instead") at the end of every system prompt, after the style. That conflicts with restating open queries in full, and the style already says no proxy shaping block shortens a report. Token mode also strips function words from Bash tool output, which corrupts templates read that way; Read-tool output arrived intact in this run. The Headroom proxy is connection-critical, so any change to it needs a tested restore path.
