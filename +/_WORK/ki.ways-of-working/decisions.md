@@ -307,3 +307,7 @@ All 64 retained reports accounted for in four explicit-path commits (5a1c6d3a, 2
 ## 2026-10-25 02:32 GMT - wow-harness-model-2 received
 
 Harness `1af72f2e` carries CASCADE-STEWARD, CASCADE-REPORT, RELATIONS, HOST-SEAT, HOST-TARGET, PACKAGE-HOME, MEMBER-PACKAGE, RECORD-RESOLVES and DUE-FIELD (target dates); STEWARD-FIELD stays a marked placeholder and UNATTENDED-FIELD adds nothing, both open with Kris. Tests 1,463 passed; the same `ki-engineering` dependency-age finding stands. WORK-MODEL line sent to ki.tools-burndown for the tools-ki readers and checks.
+
+## 2026-10-25 02:41 GMT - wow-skillset-fixes-2 received
+
+Harness `6f3497c5` fixes C8 NUMBERED, C9 LANES, G2 REFRESH-PATH, G4 SESSION-KIND, G9 CAPTURE-IN-WINDOW and O3 AUTHORITY; tests 1,466 passed, same dependency-age finding. Left for Kris's answers: G1/G3 (BOOT-HOME), G7 field (UNATTENDED-FIELD), O1 (RECAP-NAME), TRADES-FATE. Left for other works: G6 completion watcher and G8 checker (tools-ki); G10 Initiative field removal waits for the 7 November cutover. C1/C2, the Work Process note's push and commit-cadence wording under PACKAGE-PUSH and COMMIT-CADENCE, goes to wow-note-cadence after the roadmap pass.
