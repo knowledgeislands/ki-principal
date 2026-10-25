@@ -141,3 +141,9 @@ Kris: "I've now destroyed all my notes about it" - this log is the durable captu
 - STACKED-PUSH a), read back as taken: rebase ki-principal's stacked docs(work) commits onto origin, resolve the messages.md clash keeping both lines, and push them with ours, fast-forward only, never forcing or skipping hooks. For this window only.
 - PROJECT-CLOSE a), read back as taken: a run prepares Estate factorisation's retirement overnight (OAI-1 kept as delivered, FND-3 to EVAL-2 written as ideas, OBS-ACTIVATION routed to Observatory, governance residuals to State of play, HOST-WRITES, ALIAS-OWNERS and RIG-REFS settled first); the close itself waits for Kris's acceptance.
 - VA-HIGH a), read back as taken: TENDING-FOLD, SIZE-LABEL and PRODUCT-RECORDS go to their owning works tonight as messages.
+
+## 2026-10-25 · Morning queries, taken interactively (Kris, from 01:11 GMT)
+
+- AWAY-GRANT-SOL ends: Kris returned at 01:11 GMT and asked to be taken through the queries interactively.
+- ACCEPT-WEBSITE a), read back as taken: review and accept KI-WEBSITE-SITE-044 now through `ki-accept`.
+- ACCEPT-WOW a), read back as taken: review and accept KI-PRINCIPAL-OPS-014 and KI-PRINCIPAL-MOD-009 now, oldest first, through `ki-accept`.
