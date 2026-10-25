@@ -311,3 +311,7 @@ Harness `1af72f2e` carries CASCADE-STEWARD, CASCADE-REPORT, RELATIONS, HOST-SEAT
 ## 2026-10-25 02:41 GMT - wow-skillset-fixes-2 received
 
 Harness `6f3497c5` fixes C8 NUMBERED, C9 LANES, G2 REFRESH-PATH, G4 SESSION-KIND, G9 CAPTURE-IN-WINDOW and O3 AUTHORITY; tests 1,466 passed, same dependency-age finding. Left for Kris's answers: G1/G3 (BOOT-HOME), G7 field (UNATTENDED-FIELD), O1 (RECAP-NAME), TRADES-FATE. Left for other works: G6 completion watcher and G8 checker (tools-ki); G10 Initiative field removal waits for the 7 November cutover. C1/C2, the Work Process note's push and commit-cadence wording under PACKAGE-PUSH and COMMIT-CADENCE, goes to wow-note-cadence after the roadmap pass.
+
+## 2026-10-25 02:45 GMT - method refreshed
+
+wow-method-digest compared eff6163b with 1af72f2e; with the wow-skillset-fixes-2 report, `method_read` moves to 6f3497c5. One contract mismatch found: the coordination standard now stores open findings in a per-tag findings file (FINDINGS-SECTION), but the `ki-work-package` closed list and FOLDER-1 still exclude it, so following the standard would fail the folder check. wow-findings-list carries the fix under Kris's FINDINGS-SECTION answer.

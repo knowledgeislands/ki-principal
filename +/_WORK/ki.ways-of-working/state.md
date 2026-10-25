@@ -5,19 +5,19 @@ since: 2026-10-25T01:07:00Z
 received: 2026-10-22T07:24:00Z
 beat: null
 mark: 2026-10-25T01:07:00Z
-method_read: eff6163b
+method_read: 6f3497c5
 ---
 
 # ki.ways-of-working state
 
 ## Now
 
-- 01:07 GMT: mark struck at the start of the unattended window (to 08:00 GMT). Running: wow-lines-blind, wow-overview, wow-unattended. Interactive query pass with Kris.
-- Commit cadence: commit each complete unit by explicit path, pull fast-forward only into a clean checkout, push when only own commits are stacked.
+- 01:07 GMT: mark struck at the start of the unattended window, to 09:00 GMT. Landed since: harness 938c7546, 1af72f2e and 6f3497c5; the orphan-report sweep. Running: wow-roadmap-2, then wow-note-cadence; wow-findings-list in the harness.
+- 02:45 GMT: method refreshed from eff6163b to 6f3497c5 through the wow-method-digest report and the wow-skillset-fixes-2 report.
 
 ## Next steps
 
-- Coordinator: receive wow-lines-blind; next steps from design/method-lines.md: WORK-PROCESS-NOTE with the Work Process note record, CENTRAL-TICK as an idea on the Project note, COORD2-RUBRIC label check at coordination.ts:372 for the next coord-standard run; finish the method refresh (standard read to Banner at 8cc42754). Queue line kept: SIZE-LABEL (outside the grant).
+- Coordinator: receive wow-roadmap-2, wow-note-cadence and wow-findings-list; at 09:00 GMT stop starting work and give the return report with every open query in full.
 - Kris on return: the open queries in full.
 
 ## Held
