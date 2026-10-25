@@ -344,6 +344,14 @@ a) (recommended, confidence high - reviewed: a masked Codex review agreed; 230 o
 
 **Options:** a) (recommended, confidence high - reviewed blind on Codex, which verified the line byte-identical itself; the tree is clean, nothing unpublished is lost and the command refuses if a tracked file would be) A bounded run runs `git -C /Users/krisbrown/workspaces/humans-not-robots/hnr-principal reset -q --keep origin/main`. b) An offline `git rebase origin/main`, skipping the one commit when it conflicts; the same end state with an extra step. c) Leave it for the next session working in hnr-principal to level.
 
+### FG-1 - tools-ki main stays red on a snapshot mismatch that is not drift
+
+**Context:** tools-ki's CI fails TEST-5 because `test:coverage` fails two snapshot tests in `src/tests/cli/agent-compatibility.test.ts` ("baseline role-free footer none" and "baseline role-free footer push"). The same suite passes in full in a clean clone of `origin/main` on this machine (97 files, 2150 tests), so the mismatch is specific to the CI environment, not the Bun or dependency drift wow-fleet-green cleared. The footer under test is another session's feature work; wow-fleet-green's only tools-ki change was the Bun 1.4.3 pin, which cleared DEPS-1. Raised by wow-fleet-green on 25 October.
+
+**Query:** Who takes the agent-compatibility snapshot mismatch on tools-ki's CI?
+
+**Options:** a) (recommended, confidence high - the test and the footer it snapshots belong to the session already working in tools-ki, and a passing local run says the snapshot encodes something environment-dependent its author should see) Route it as a line to KI > Foundations > Tools burndown (ki.tools-burndown): make the footer snapshot environment-independent or regenerate it, so CI's TEST-5 clears. b) (confidence medium - quick, but risks baking a CI-only rendering into the snapshot without understanding why it differs) A bounded run regenerates the snapshot from CI output and commits it. c) (confidence low - leaves tools-ki red and may block the ki v0.14.0 release) Leave it until the feature work lands.
+
 ## Parked
 
 - PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.
