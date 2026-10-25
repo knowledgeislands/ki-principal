@@ -278,6 +278,16 @@ b) Keep the 23 October order: session-only wakes with stop words, revisit after 
 
 c) Build the launchd job first and write the contract from what it needs.
 
+### CI-RED-DOCS - document-rule failures keep two repositories' CI red
+
+**Context:** After the pin move, `ki-design` CI fails on BIO-1, BODY-11, DEPENDS-4, FILENAME-0, FILENAME-1, FM-6 and ROUTE-1, red since 22 October. `ki-principal` CI fails on BODY-11, COORD-7, COORD-12, DEPENDS-4, FOLDER-1, MD-mech, PRINCIPAL-5, RECORD-2 and STRUCTURE-1, red all day. The dependency findings in both are going to wow-fleet-green. The rest are content and structure rules, some possibly from this work's own folder, and changes to `ki-principal`'s canonical content go through the Enactment Process.
+
+**Query:** May one run fix both repositories' document-rule failures, under one bounded owner approval recorded in the decisions log?
+
+**Options:**
+
+a) (recommended, confidence medium - a green main is what RED-MAIN wants, and the fixes are mostly mechanical; medium because some rules may need content choices, which the run would bring back as queries) One run fixes them: mechanical fixes made directly, anything needing judgement raised as a query, and this work's own folder fixed first. b) Fix only this work's own folder findings now, and leave the rest to each repository's own work.
+
 ## Parked
 
 - PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.
