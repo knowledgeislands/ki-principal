@@ -7,7 +7,7 @@
 ## Done
 
 - legal-principal: captured [LGL-PRINCIPAL-OPS-029](/Users/krisbrown/workspaces/legal/legal-principal/Streams/Roadmap/LGL-PRINCIPAL-OPS-029-migrate-initiatives-to-themes.md) (Migrate Initiatives to Themes, triage, size m). It moves the six Initiative pages, renames `initiative` to `theme` on the Project and the 23 Activities, and proposes no page for three obsolete labels, following [LGL-PRINCIPAL-OPS-024](/Users/krisbrown/workspaces/legal/legal-principal/Streams/Roadmap/LGL-PRINCIPAL-OPS-024-lossless-roadmap-metadata.md). It waits until OPS-023 and OPS-024 are accepted. Commits `2ae7ea60` (reserve) and `7bec4bcc` (capture), local and unpushed. Focused roadmap audit: pass, no finding on the new record.
-- personal-principal: captured [KB-PRINCIPAL-047](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-047-migrate-initiatives-to-themes.md) (Migrate Initiatives to Themes, triage, size m). It moves the six Initiative pages, renames the key on five Project notes, fixes two live links, and proposes no page for `repository-governance`. Commits `232da46a` (reserve) and `64387631` (capture), local and unpushed. Focused Streams audit: no finding on the new record. This repository does not declare `ki-work-roadmap`, so it has no roadmap audit.
+- personal-principal: captured [PERSONAL-PRINCIPAL-047](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-047-migrate-initiatives-to-themes.md) (Migrate Initiatives to Themes, triage, size m). It moves the six Initiative pages, renames the key on five Project notes, fixes two live links, and proposes no page for `repository-governance`. Commits `232da46a` (reserve) and `64387631` (capture), local and unpushed. Focused Streams audit: no finding on the new record. This repository does not declare `ki-work-roadmap`, so it has no roadmap audit.
 - er-principal: captured [ER-PRINCIPAL-016](/Users/krisbrown/workspaces/equal-remedy/er-principal/Streams/Roadmap/ER-PRINCIPAL-016-establish-theme-registry.md) (Establish theme registry, triage, size m). It takes the three directions from the territory alignment assessment as theme pages and maps all five labels in use onto them. The harness relabelling goes to `er-agentic-harness` as a handoff, and the slugs wait on Equal Remedy's open ALIGN query. Commits `ce475e5` (reserve) and `497c7d9` (capture), local and unpushed. Focused roadmap audit: pass, no finding on the new record.
 - Departure from the brief: each repository got two commits, not one. All three ledgers say to "reserve a number by committing this ledger's advance on its own before writing the record", and repository conventions govern, so I followed that rule, as `raise-tmx` did.
 - None of the three Capitals had any uncommitted changes from another session. I touched no hook, package or lock file.
@@ -18,7 +18,7 @@ Nothing is running.
 
 Outstanding - no action requested now:
 
-- The `personal.personal-tower` work file names a Project, `personal-tower`, that has no Project note in personal-principal. That is a gap in the Project registry, not the theme registry. KB-PRINCIPAL-047 records it and leaves it alone.
+- The `personal.personal-tower` work file names a Project, `personal-tower`, that has no Project note in personal-principal. That is a gap in the Project registry, not the theme registry. PERSONAL-PRINCIPAL-047 records it and leaves it alone.
 - The Equal Remedy harness handoff (relabelling ER-HARNESS-001 to 022 to `reusable-legal-capabilities`) is described in ER-PRINCIPAL-016 but not yet placed on the `er-agentic-harness` roadmap. It would follow from adoption.
 - In legal-principal, LGL-PRINCIPAL-OPS-023 and OPS-024 have been awaiting review since 11 October. OPS-029 waits until they are accepted.
 
@@ -40,9 +40,9 @@ c) Give each label its own theme page.
 
 ### KB-THEMES - Personal's one stray theme label
 
-**Context:** [KB-PRINCIPAL-047](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-047-migrate-initiatives-to-themes.md) moves Personal's six Initiatives (Acquire, Life, Thinking, Tower, Health and Rig) to theme pages unchanged. Every theme label in the territory resolves except `repository-governance`, which appears once, on KB-PRINCIPAL-011 (Reconcile KB Guidance). That record is projectless intake about the island's own guidance, and none of the six directions fits it. Separately, the Rig page keeps three parked ideas in its Notes, which sit awkwardly on a theme page; planning will decide whether they move.
+**Context:** [PERSONAL-PRINCIPAL-047](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-047-migrate-initiatives-to-themes.md) moves Personal's six Initiatives (Acquire, Life, Thinking, Tower, Health and Rig) to theme pages unchanged. Every theme label in the territory resolves except `repository-governance`, which appears once, on PERSONAL-PRINCIPAL-011 (Reconcile KB Guidance). That record is projectless intake about the island's own guidance, and none of the six directions fits it. Separately, the Rig page keeps three parked ideas in its Notes, which sit awkwardly on a theme page; planning will decide whether they move.
 
-**Query:** How should KB-PRINCIPAL-011's `repository-governance` label be reconciled?
+**Query:** How should PERSONAL-PRINCIPAL-011's `repository-governance` label be reconciled?
 
 **Options:**
 

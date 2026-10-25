@@ -27,5 +27,5 @@ created_at: 2026-10-08T08:35:00Z
 
 ## Scope
 
-- In: the acquisition model and its design notes; the common `ki-acquire` contract and provider skills; Acquire's `captures/<territory>/<source-or-ingress>/` and `context/<territory>/` layout and mirrored Git/source-store locators; intake tie-up and receipt retention; `.acquire/` state placement; the binary prototype's disposition; dispatch and return design; the KB-ACQUIRE records this Project coordinates.
+- In: the acquisition model and its design notes; the common `ki-acquire` contract and provider skills; Acquire's `captures/<territory>/<source-or-ingress>/` and `context/<territory>/` layout and mirrored Git/source-store locators; intake tie-up and receipt retention; `.acquire/` state placement; the binary prototype's disposition; dispatch and return design; the PERSONAL-ACQUIRE records this Project coordinates.
 - Out: day-to-day intake in Acquire (personal.regular.acquire-intake, personal territory); tools-ki importers and `ki work status` (ki.tools-burndown); the Observatory (ki.observatory); chezmoi and the trades review (ki.chezmoi); the `acquire` specification (ki.portable-specifications); the work model (ki.ways-of-working); the Project cap and territory dispatch (ki).

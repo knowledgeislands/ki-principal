@@ -8,9 +8,9 @@ author: Written with Claude
 
 **For:** Kris Brown - **Project:** [Agent host](../../../../Streams/Projects/agent-host.md) - **Date:** 2026-10-09 - **Authority:** Kris's 2026-10-09 decisions in the Techne run: '(a) workstation bundle approved in principle' and '(b) Cheztoi manifest capability: a per-target-host manifest of what to share, ideally not a new tool ... to be weighed in the walkthrough before DOTFILES-UE-073 is approved'
 
-A reading document. It explains what the agent host receives from Kris's Mac, how Kris controls it, and where the "what to share with this host" manifest should live. It changes no record; the recommendation is for Kris to accept, amend or reject before KB-DOTFILES-UE-073 and TECHNE-TOOLS-OPS-015 are approved.
+A reading document. It explains what the agent host receives from Kris's Mac, how Kris controls it, and where the "what to share with this host" manifest should live. It changes no record; the recommendation is for Kris to accept, amend or reject before PERSONAL-DOTFILES-UE-073 and TECHNE-TOOLS-OPS-015 are approved.
 
-**Outcome:** Kris accepted the recommendation on 2026-10-09 in the Techne run ('Workstation bundle walkthrough accepted, including the chezmoi-native per-host manifest recommendation'), including the chezmoi-native per-host manifest (one `chezmoi archive` call with `--override-data`, `scripts/cheztoi-render` as a thin wrapper) and the optional `target_host` field checked against `host.id`. KB-DOTFILES-UE-073 and TECHNE-TOOLS-OPS-015 have been replanned to match and await Kris's approval.
+**Outcome:** Kris accepted the recommendation on 2026-10-09 in the Techne run ('Workstation bundle walkthrough accepted, including the chezmoi-native per-host manifest recommendation'), including the chezmoi-native per-host manifest (one `chezmoi archive` call with `--override-data`, `scripts/cheztoi-render` as a thin wrapper) and the optional `target_host` field checked against `host.id`. PERSONAL-DOTFILES-UE-073 and TECHNE-TOOLS-OPS-015 have been replanned to match and await Kris's approval.
 
 ---
 
@@ -70,7 +70,7 @@ Kris's idea: a small per-target-host manifest naming what to share, not a new to
 
 `.chezmoiignore` with a host variable is not needed: naming targets explicitly is already default-deny, and an ignore-based guard would also run during every Mac apply. Details and caveats are in [Appendix B](#appendix-b-the-chezmoi-native-mechanism).
 
-**What it changes in KB-DOTFILES-UE-073.**
+**What it changes in PERSONAL-DOTFILES-UE-073.**
 
 - The flat `config-fragments/cheztoi/allowlist` becomes a per-host manifest, for example `config-fragments/cheztoi/hosts/ki-techne-agent-host.toml`, naming the target OS and the targets.
 - Rendering uses one `chezmoi archive` call instead of `chezmoi cat` per file, and takes modes from the archive.

@@ -40,7 +40,7 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## chezmoi
 
-[chezmoi](chezmoi.md) works the open KB-DOTFILES-UE records in the chezmoi source, keeping the workstation accurate, tidy and observable. Its records live in the chezmoi roadmap.
+[chezmoi](chezmoi.md) works the open PERSONAL-DOTFILES-UE records in the chezmoi source, keeping the workstation accurate, tidy and observable. Its records live in the chezmoi roadmap.
 
 ---
 

@@ -11,7 +11,7 @@ Read-only proposal for the size and kind backfill (SIZE-KIND) across the humans-
 - **Count:** 129 open records lack `size` and 21 adopted open records lack `kind`, across 12 repositories. Every adopted record in dotfiles already has a `kind`.
 - **No gaps:** [5g-emerge-apex](/Users/krisbrown/workspaces/humans-not-robots/5g-emerge-apex), [5g-emerge-testbed](/Users/krisbrown/workspaces/humans-not-robots/5g-emerge-testbed), [legal-agentic-harness](/Users/krisbrown/workspaces/legal/legal-agentic-harness), [apps-kris.me.uk](/Users/krisbrown/workspaces/personal/apps-kris.me.uk), [apps-midnight.ninja](/Users/krisbrown/workspaces/personal/apps-midnight.ninja) and [personal-agentic-harness](/Users/krisbrown/workspaces/personal/personal-agentic-harness).
 - **Change since the wave 1 sweep:** dotfiles now has 15 records without `size` (the sweep found 16), after the recent Headroom record split. The other counts match.
-- **dotfiles `initiative`:** 4 records still name the retired `initiative: knowledge-islands/rig`, none with a `project`. The mechanical fix is `theme: knowledge-islands/rig`: [KB-DOTFILES-UE-027](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-027-honest-rationales-per-tool.md), [KB-DOTFILES-UE-082 (pruned)](https://github.com/krisb/dotfiles/blob/7cb547a86133325168183bc9c5962fa9550671a5/docs/roadmap/KB-DOTFILES-UE-082-tolerate-missing-template-tools.md), [KB-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-086-finish-software-alignment.md) and [KB-DOTFILES-UE-087 (pruned)](https://github.com/krisb/dotfiles/blob/4fe2203cbc4046c697b543ec9e2c32a77f760ad1/docs/roadmap/KB-DOTFILES-UE-087-manage-headroom-profile-arguments.md).
+- **dotfiles `initiative`:** 4 records still name the retired `initiative: knowledge-islands/rig`, none with a `project`. The mechanical fix is `theme: knowledge-islands/rig`: [PERSONAL-DOTFILES-UE-027](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-027-honest-rationales-per-tool.md), [PERSONAL-DOTFILES-UE-082 (pruned)](https://github.com/krisb/dotfiles/blob/7cb547a86133325168183bc9c5962fa9550671a5/docs/roadmap/KB-DOTFILES-UE-082-tolerate-missing-template-tools.md), [PERSONAL-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-086-finish-software-alignment.md) and [PERSONAL-DOTFILES-UE-087 (pruned)](https://github.com/krisb/dotfiles/blob/4fe2203cbc4046c697b543ec9e2c32a77f760ad1/docs/roadmap/KB-DOTFILES-UE-087-manage-headroom-profile-arguments.md).
 - **Ready record without size:** [LGL-PRINCIPAL-FAM-001](/Users/krisbrown/workspaces/legal/legal-principal/Streams/Roadmap/LGL-PRINCIPAL-FAM-001-family-chronology.md) is `ready`, so it needs its size first. The proposed `m` passes the rule that a Ready record may not be `xl`.
 - **Awaiting-review records:** 22 records in `awaiting-review` are open and so need a size. Their sizes are proposed from the delivered plan, so confirming them should be quick.
 
@@ -147,7 +147,7 @@ Each "Uncertain" note flags a row Kris should check before confirming it. In the
 
 | Record | Status | Size | Kind | Reason |
 | --- | --- | --- | --- | --- |
-| [KB-ACQUIRE-007 (pruned)](https://github.com/krisb/acquire/blob/7f43c67f899df0554de647920ec42609e32001b5/docs/roadmap/KB-ACQUIRE-007-dispatch-packet-push-and-return.md) | triage | `m` | n/a, triage | Dispatch push and return in the port. Uncertain: `l` if receivers' `+/_ACQUIRED/` handling needs work too. |
+| [PERSONAL-ACQUIRE-007 (pruned)](https://github.com/krisb/acquire/blob/7f43c67f899df0554de647920ec42609e32001b5/docs/roadmap/KB-ACQUIRE-007-dispatch-packet-push-and-return.md) | triage | `m` | n/a, triage | Dispatch push and return in the port. Uncertain: `l` if receivers' `+/_ACQUIRED/` handling needs work too. |
 
 ### [apps-rig.midnight.ninja](/Users/krisbrown/workspaces/personal/apps-rig.midnight.ninja)
 
@@ -155,7 +155,7 @@ Each "Uncertain" note flags a row Kris should check before confirming it. In the
 
 | Record | Status | Size | Kind | Reason |
 | --- | --- | --- | --- | --- |
-| [KB-MIDNIGHT-RIG-SITE-001 (pruned)](https://github.com/krisb/apps-rig.midnight.ninja/blob/74af103b9419c3367dd34103b36b5f738af32fdc/docs/roadmap/KB-MIDNIGHT-RIG-SITE-001-show-hosts-per-tool.md) | awaiting-review/now | `m` | has `deliver` | Five planned steps on one page and its data. |
+| [PERSONAL-RIG-SITE-001 (pruned)](https://github.com/krisb/apps-rig.midnight.ninja/blob/74af103b9419c3367dd34103b36b5f738af32fdc/docs/roadmap/KB-MIDNIGHT-RIG-SITE-001-show-hosts-per-tool.md) | awaiting-review/now | `m` | has `deliver` | Five planned steps on one page and its data. |
 
 ### [apps-tower.midnight.ninja](/Users/krisbrown/workspaces/personal/apps-tower.midnight.ninja)
 
@@ -163,12 +163,12 @@ Each "Uncertain" note flags a row Kris should check before confirming it. In the
 
 | Record | Status | Size | Kind | Reason |
 | --- | --- | --- | --- | --- |
-| [KB-MIDNIGHT-TOWER-APP-002](/Users/krisbrown/workspaces/personal/apps-tower.midnight.ninja/docs/roadmap/KB-MIDNIGHT-TOWER-APP-002-extend-native-tower-assistant.md) | awaiting-review/now | `m` | has `deliver` | Five planned steps in the native app. |
-| [KB-MIDNIGHT-TOWER-SITE-012](/Users/krisbrown/workspaces/personal/apps-tower.midnight.ninja/docs/roadmap/KB-MIDNIGHT-TOWER-SITE-012-weekly-maintenance-sweep.md) | awaiting-review/now | `m` | has `audit` | Six-step weekly sweep with a receipt. |
-| [KB-MIDNIGHT-TOWER-SITE-013](/Users/krisbrown/workspaces/personal/apps-tower.midnight.ninja/docs/roadmap/KB-MIDNIGHT-TOWER-SITE-013-make-refresh-verification-repeatable.md) | awaiting-review/now | `m` | has `deliver` | Six planned steps on verification. |
-| [KB-MIDNIGHT-TOWER-SITE-014](/Users/krisbrown/workspaces/personal/apps-tower.midnight.ninja/docs/roadmap/KB-MIDNIGHT-TOWER-SITE-014-plan-tower-data-model.md) | draft/next | `m` | has `decide` | Planning and owner shaping only; no migration. |
-| [KB-MIDNIGHT-TOWER-SITE-017](/Users/krisbrown/workspaces/personal/apps-tower.midnight.ninja/docs/roadmap/KB-MIDNIGHT-TOWER-SITE-017-align-progression-modules.md) | awaiting-review/now | `m` | has `deliver` | Five planned steps. |
-| [KB-MIDNIGHT-TOWER-SITE-018](/Users/krisbrown/workspaces/personal/apps-tower.midnight.ninja/docs/roadmap/KB-MIDNIGHT-TOWER-SITE-018-show-inactive-preset-wallets.md) | awaiting-review/now | `m` | has `deliver` | Seven planned steps. |
+| [PERSONAL-TOWER-APP-002](/Users/krisbrown/workspaces/personal/apps-tower.midnight.ninja/docs/roadmap/PERSONAL-TOWER-APP-002-extend-native-tower-assistant.md) | awaiting-review/now | `m` | has `deliver` | Five planned steps in the native app. |
+| [PERSONAL-TOWER-SITE-012](/Users/krisbrown/workspaces/personal/apps-tower.midnight.ninja/docs/roadmap/PERSONAL-TOWER-SITE-012-weekly-maintenance-sweep.md) | awaiting-review/now | `m` | has `audit` | Six-step weekly sweep with a receipt. |
+| [PERSONAL-TOWER-SITE-013](/Users/krisbrown/workspaces/personal/apps-tower.midnight.ninja/docs/roadmap/PERSONAL-TOWER-SITE-013-make-refresh-verification-repeatable.md) | awaiting-review/now | `m` | has `deliver` | Six planned steps on verification. |
+| [PERSONAL-TOWER-SITE-014](/Users/krisbrown/workspaces/personal/apps-tower.midnight.ninja/docs/roadmap/PERSONAL-TOWER-SITE-014-plan-tower-data-model.md) | draft/next | `m` | has `decide` | Planning and owner shaping only; no migration. |
+| [PERSONAL-TOWER-SITE-017](/Users/krisbrown/workspaces/personal/apps-tower.midnight.ninja/docs/roadmap/PERSONAL-TOWER-SITE-017-align-progression-modules.md) | awaiting-review/now | `m` | has `deliver` | Five planned steps. |
+| [PERSONAL-TOWER-SITE-018](/Users/krisbrown/workspaces/personal/apps-tower.midnight.ninja/docs/roadmap/PERSONAL-TOWER-SITE-018-show-inactive-preset-wallets.md) | awaiting-review/now | `m` | has `deliver` | Seven planned steps. |
 
 ### [personal-principal](/Users/krisbrown/workspaces/personal/personal-principal)
 
@@ -176,39 +176,39 @@ Each "Uncertain" note flags a row Kris should check before confirming it. In the
 
 | Record | Status | Size | Kind | Reason |
 | --- | --- | --- | --- | --- |
-| [KB-PRINCIPAL-002](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-002-costa-rica-flight-planning.md) | draft/future | `m` | `deliver` | Produces a repeatable flight-search method. |
-| [KB-PRINCIPAL-003](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-003-hermes-skill-stack-review.md) | draft/future | `m` | `investigate` | Closes on the smallest subset worth testing. |
-| [KB-PRINCIPAL-004](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-004-develop-intentional-life-thesis.md) | draft/next | `l` | `deliver` | Long-running thesis across several settings; ten steps. |
-| [KB-PRINCIPAL-005](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-005-enterprise-agent-economics.md) | draft/future | `m` | `investigate` | Closes on a cost model as a finding. |
-| [KB-PRINCIPAL-006](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-006-tech-medics-microtools.md) | draft/future | `l` | `investigate` | Portfolio exploration with no company commitment. Uncertain: low confidence on size. |
-| [KB-PRINCIPAL-007](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-007-software-discovery-and-evaluation.md) | draft/future | `m` | `deliver` | Produces a reusable evaluation approach; seven steps. |
-| [KB-PRINCIPAL-009](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-009-track-repository-intelligence-tools.md) | triage | `s` | n/a, triage | A watch note, reassessed later. |
-| [KB-PRINCIPAL-011](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-011-reconcile-kb-guidance.md) | triage | `s` | n/a, triage | Align orientation and guidance in one repository. |
-| [KB-PRINCIPAL-013](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-013-complete-source-mirrors.md) | triage | `l` | n/a, triage | Every binary in the source store. Uncertain: volume unknown; count the binaries first. |
-| [KB-PRINCIPAL-014](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-014-verify-improv-mx-cancellation.md) | triage | `s` | n/a, triage | One cancellation check. |
-| [KB-PRINCIPAL-015](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-015-review-personal-spending.md) | triage | `m` | n/a, triage | Spending and recurring-payment review across accounts. |
-| [KB-PRINCIPAL-016](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-016-tidy-older-to-file-emails.md) | triage | `s` | n/a, triage | One folder tidy. |
-| [KB-PRINCIPAL-017](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-017-assess-email-storage.md) | triage | `s` | n/a, triage | One storage assessment. |
-| [KB-PRINCIPAL-018](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-018-plan-half-term-break-with-lauren.md) | triage | `s` | n/a, triage | One short-break plan. |
-| [KB-PRINCIPAL-019](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-019-plan-halloween-activity.md) | triage | `s` | n/a, triage | One activity plan. |
-| [KB-PRINCIPAL-020](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-020-reconnect-with-friends.md) | triage | `m` | n/a, triage | Ongoing reconnection. Uncertain: may be recurring upkeep rather than a record. |
-| [KB-PRINCIPAL-021](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-021-process-granola-self-messages.md) | triage | `s` | n/a, triage | One pass over messages to self. |
-| [KB-PRINCIPAL-022](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-022-acquire-phone-voice-memos.md) | triage | `s` | n/a, triage | One acquisition of phone recordings. |
-| [KB-PRINCIPAL-023](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-023-review-personal-priorities.md) | triage | `m` | n/a, triage | A commitments view and an order across several areas. |
-| [KB-PRINCIPAL-024](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-024-plan-laurens-birthday.md) | triage | `s` | n/a, triage | One birthday plan. |
-| [KB-PRINCIPAL-025](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-025-use-north-york-moors-railway-tickets.md) | triage | `s` | n/a, triage | One ticket-use decision. |
-| [KB-PRINCIPAL-026](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-026-contact-helen-about-writing-to-children.md) | triage | `s` | n/a, triage | One contact and message set. |
-| [KB-PRINCIPAL-027](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-027-mark-daughters-october-birthday.md) | triage | `s` | n/a, triage | One birthday plan; date-bound to 27 October. |
-| [KB-PRINCIPAL-030](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-030-acquire-granola-personal-meetings.md) | triage | `s` | n/a, triage | Configure one receiver and prove one acquisition. |
-| [KB-PRINCIPAL-031](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-031-decide-voicenotes-sync-target.md) | triage | `s` | n/a, triage | One sync-target decision. |
-| [KB-PRINCIPAL-032](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-032-ship-chatgpt-capture.md) | triage | `l` | n/a, triage | Mobile capture with continuity across islands. |
-| [KB-PRINCIPAL-033](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-033-import-historical-chatgpt.md) | triage | `m` | n/a, triage | One bounded historical import with provenance. |
-| [KB-PRINCIPAL-034](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-034-manage-codex-sessions.md) | triage | `s` | n/a, triage | Session lifecycle practice. |
-| [KB-PRINCIPAL-037](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-037-review-repository-naming.md) | triage | `s` | n/a, triage | One naming proposal. |
-| [KB-PRINCIPAL-038](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-038-complete-personal-email-triage.md) | triage | `l` | n/a, triage | Whole email-management system to inbox zero, overlapping KB-PRINCIPAL-043. |
-| [KB-PRINCIPAL-041](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-041-initial-personal-health-stocktake.md) | draft/now | `m` | has `investigate` | Six-step stocktake. |
-| [KB-PRINCIPAL-043](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-043-write-personal-gmail-rules.md) | draft/soon | `s` | has `deliver` | One rule note with a first rule set. |
-| [KB-PRINCIPAL-044](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-044-reground-git-audit-artifact.md) | triage | `s` | n/a, triage | Repoint one Live Artifact pair. |
+| [PERSONAL-PRINCIPAL-002](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-002-costa-rica-flight-planning.md) | draft/future | `m` | `deliver` | Produces a repeatable flight-search method. |
+| [PERSONAL-PRINCIPAL-003](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-003-hermes-skill-stack-review.md) | draft/future | `m` | `investigate` | Closes on the smallest subset worth testing. |
+| [PERSONAL-PRINCIPAL-004](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-004-develop-intentional-life-thesis.md) | draft/next | `l` | `deliver` | Long-running thesis across several settings; ten steps. |
+| [PERSONAL-PRINCIPAL-005](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-005-enterprise-agent-economics.md) | draft/future | `m` | `investigate` | Closes on a cost model as a finding. |
+| [PERSONAL-PRINCIPAL-006](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-006-tech-medics-microtools.md) | draft/future | `l` | `investigate` | Portfolio exploration with no company commitment. Uncertain: low confidence on size. |
+| [PERSONAL-PRINCIPAL-007](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-007-software-discovery-and-evaluation.md) | draft/future | `m` | `deliver` | Produces a reusable evaluation approach; seven steps. |
+| [PERSONAL-PRINCIPAL-009](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-009-track-repository-intelligence-tools.md) | triage | `s` | n/a, triage | A watch note, reassessed later. |
+| [PERSONAL-PRINCIPAL-011](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-011-reconcile-kb-guidance.md) | triage | `s` | n/a, triage | Align orientation and guidance in one repository. |
+| [PERSONAL-PRINCIPAL-013](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-013-complete-source-mirrors.md) | triage | `l` | n/a, triage | Every binary in the source store. Uncertain: volume unknown; count the binaries first. |
+| [PERSONAL-PRINCIPAL-014](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-014-verify-improv-mx-cancellation.md) | triage | `s` | n/a, triage | One cancellation check. |
+| [PERSONAL-PRINCIPAL-015](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-015-review-personal-spending.md) | triage | `m` | n/a, triage | Spending and recurring-payment review across accounts. |
+| [PERSONAL-PRINCIPAL-016](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-016-tidy-older-to-file-emails.md) | triage | `s` | n/a, triage | One folder tidy. |
+| [PERSONAL-PRINCIPAL-017](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-017-assess-email-storage.md) | triage | `s` | n/a, triage | One storage assessment. |
+| [PERSONAL-PRINCIPAL-018](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-018-plan-half-term-break-with-lauren.md) | triage | `s` | n/a, triage | One short-break plan. |
+| [PERSONAL-PRINCIPAL-019](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-019-plan-halloween-activity.md) | triage | `s` | n/a, triage | One activity plan. |
+| [PERSONAL-PRINCIPAL-020](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-020-reconnect-with-friends.md) | triage | `m` | n/a, triage | Ongoing reconnection. Uncertain: may be recurring upkeep rather than a record. |
+| [PERSONAL-PRINCIPAL-021](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-021-process-granola-self-messages.md) | triage | `s` | n/a, triage | One pass over messages to self. |
+| [PERSONAL-PRINCIPAL-022](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-022-acquire-phone-voice-memos.md) | triage | `s` | n/a, triage | One acquisition of phone recordings. |
+| [PERSONAL-PRINCIPAL-023](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-023-review-personal-priorities.md) | triage | `m` | n/a, triage | A commitments view and an order across several areas. |
+| [PERSONAL-PRINCIPAL-024](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-024-plan-laurens-birthday.md) | triage | `s` | n/a, triage | One birthday plan. |
+| [PERSONAL-PRINCIPAL-025](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-025-use-north-york-moors-railway-tickets.md) | triage | `s` | n/a, triage | One ticket-use decision. |
+| [PERSONAL-PRINCIPAL-026](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-026-contact-helen-about-writing-to-children.md) | triage | `s` | n/a, triage | One contact and message set. |
+| [PERSONAL-PRINCIPAL-027](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-027-mark-daughters-october-birthday.md) | triage | `s` | n/a, triage | One birthday plan; date-bound to 27 October. |
+| [PERSONAL-PRINCIPAL-030](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-030-acquire-granola-personal-meetings.md) | triage | `s` | n/a, triage | Configure one receiver and prove one acquisition. |
+| [PERSONAL-PRINCIPAL-031](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-031-decide-voicenotes-sync-target.md) | triage | `s` | n/a, triage | One sync-target decision. |
+| [PERSONAL-PRINCIPAL-032](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-032-ship-chatgpt-capture.md) | triage | `l` | n/a, triage | Mobile capture with continuity across islands. |
+| [PERSONAL-PRINCIPAL-033](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-033-import-historical-chatgpt.md) | triage | `m` | n/a, triage | One bounded historical import with provenance. |
+| [PERSONAL-PRINCIPAL-034](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-034-manage-codex-sessions.md) | triage | `s` | n/a, triage | Session lifecycle practice. |
+| [PERSONAL-PRINCIPAL-037](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-037-review-repository-naming.md) | triage | `s` | n/a, triage | One naming proposal. |
+| [PERSONAL-PRINCIPAL-038](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-038-complete-personal-email-triage.md) | triage | `l` | n/a, triage | Whole email-management system to inbox zero, overlapping PERSONAL-PRINCIPAL-043. |
+| [PERSONAL-PRINCIPAL-041](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-041-initial-personal-health-stocktake.md) | draft/now | `m` | has `investigate` | Six-step stocktake. |
+| [PERSONAL-PRINCIPAL-043](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-043-write-personal-gmail-rules.md) | draft/soon | `s` | has `deliver` | One rule note with a first rule set. |
+| [PERSONAL-PRINCIPAL-044](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-044-reground-git-audit-artifact.md) | triage | `s` | n/a, triage | Repoint one Live Artifact pair. |
 
 ### [dotfiles (chezmoi)](/Users/krisbrown/.local/share/chezmoi)
 
@@ -216,21 +216,21 @@ Each "Uncertain" note flags a row Kris should check before confirming it. In the
 
 | Record | Status | Size | Kind | Reason |
 | --- | --- | --- | --- | --- |
-| [KB-DOTFILES-UE-027](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-027-honest-rationales-per-tool.md) | draft/hold | `l` | has `deliver` | 121 rationales across tools and settings; several runs. |
-| [KB-DOTFILES-UE-035](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-035-install-whatsapp-spool-refresh.md) | draft/hold | `s` | has `deliver` | Verification only; four of six steps done. |
-| [KB-DOTFILES-UE-071](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-071-audit-macos-privacy-permissions.md) | draft/future | `m` | has `audit` | Machine-wide privacy audit on terra. |
-| [KB-DOTFILES-UE-076](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-076-always-run-latest-source.md) | draft/next | `m` | has `deliver` | Fast-forward guard on every machine. |
-| [KB-DOTFILES-UE-077 (pruned)](https://github.com/krisb/dotfiles/blob/4fe2203cbc4046c697b543ec9e2c32a77f760ad1/docs/roadmap/KB-DOTFILES-UE-077-reorganise-1password-vaults-safely.md) | draft/next | `m` | has `deliver` | Source and cache cleanup after the vault move. |
-| [KB-DOTFILES-UE-082 (pruned)](https://github.com/krisb/dotfiles/blob/7cb547a86133325168183bc9c5962fa9550671a5/docs/roadmap/KB-DOTFILES-UE-082-tolerate-missing-template-tools.md) | draft/next | `s` | has `deliver` | Two of three steps done. |
-| [KB-DOTFILES-UE-084 (pruned)](https://github.com/krisb/dotfiles/blob/3f7c9bd867a0b447756826e2a4dde9feebc85d12/docs/roadmap/KB-DOTFILES-UE-084-render-zshenv-on-vega.md) | draft/hold | `s` | has `deliver` | One host-manifest decision and change. |
-| [KB-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-086-finish-software-alignment.md) | in-progress/now | `l` | has `deliver` | 37 steps, 11 done, with Delegation across two Macs. |
-| [KB-DOTFILES-UE-087 (pruned)](https://github.com/krisb/dotfiles/blob/4fe2203cbc4046c697b543ec9e2c32a77f760ad1/docs/roadmap/KB-DOTFILES-UE-087-manage-headroom-profile-arguments.md) | draft/next | `s` | has `deliver` | Declare one profile's arguments. |
-| [KB-DOTFILES-UE-088 (pruned)](https://github.com/krisb/dotfiles/blob/7cb547a86133325168183bc9c5962fa9550671a5/docs/roadmap/KB-DOTFILES-UE-088-ssh-alias-for-sol.md) | draft/next | `s` | has `deliver` | Seven of eight steps done. |
-| [KB-DOTFILES-UE-089](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-089-ki-tool-release-channels.md) | draft/future | `l` | has `deliver` | Release channels across every host; model awaits Kris's sanity check. |
-| [KB-DOTFILES-UE-092 (pruned)](https://github.com/krisb/dotfiles/blob/7cb547a86133325168183bc9c5962fa9550671a5/docs/roadmap/KB-DOTFILES-UE-092-restore-local-skill-projection.md) | draft/next | `s` | has `deliver` | Restore one generated projection. |
-| [KB-DOTFILES-UE-093 (pruned)](https://github.com/krisb/dotfiles/blob/4fe2203cbc4046c697b543ec9e2c32a77f760ad1/docs/roadmap/KB-DOTFILES-UE-093-restore-emerge-test-prerequisites.md) | draft/next | `m` | has `deliver` | Seven steps making test prerequisites explicit. |
-| [KB-DOTFILES-UE-094](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-094-audit-sol-privacy-permissions.md) | draft/future | `m` | has `audit` | Machine-wide privacy audit on sol. |
-| [KB-DOTFILES-UE-097](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-097-configure-gmail-routing-paths.md) | draft/next | `s` | has `deliver` | Four settings on one MCP entry. |
+| [PERSONAL-DOTFILES-UE-027](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-027-honest-rationales-per-tool.md) | draft/hold | `l` | has `deliver` | 121 rationales across tools and settings; several runs. |
+| [PERSONAL-DOTFILES-UE-035](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-035-install-whatsapp-spool-refresh.md) | draft/hold | `s` | has `deliver` | Verification only; four of six steps done. |
+| [PERSONAL-DOTFILES-UE-071](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-071-audit-macos-privacy-permissions.md) | draft/future | `m` | has `audit` | Machine-wide privacy audit on terra. |
+| [PERSONAL-DOTFILES-UE-076](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-076-always-run-latest-source.md) | draft/next | `m` | has `deliver` | Fast-forward guard on every machine. |
+| [PERSONAL-DOTFILES-UE-077 (pruned)](https://github.com/krisb/dotfiles/blob/4fe2203cbc4046c697b543ec9e2c32a77f760ad1/docs/roadmap/KB-DOTFILES-UE-077-reorganise-1password-vaults-safely.md) | draft/next | `m` | has `deliver` | Source and cache cleanup after the vault move. |
+| [PERSONAL-DOTFILES-UE-082 (pruned)](https://github.com/krisb/dotfiles/blob/7cb547a86133325168183bc9c5962fa9550671a5/docs/roadmap/KB-DOTFILES-UE-082-tolerate-missing-template-tools.md) | draft/next | `s` | has `deliver` | Two of three steps done. |
+| [PERSONAL-DOTFILES-UE-084 (pruned)](https://github.com/krisb/dotfiles/blob/3f7c9bd867a0b447756826e2a4dde9feebc85d12/docs/roadmap/KB-DOTFILES-UE-084-render-zshenv-on-vega.md) | draft/hold | `s` | has `deliver` | One host-manifest decision and change. |
+| [PERSONAL-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-086-finish-software-alignment.md) | in-progress/now | `l` | has `deliver` | 37 steps, 11 done, with Delegation across two Macs. |
+| [PERSONAL-DOTFILES-UE-087 (pruned)](https://github.com/krisb/dotfiles/blob/4fe2203cbc4046c697b543ec9e2c32a77f760ad1/docs/roadmap/KB-DOTFILES-UE-087-manage-headroom-profile-arguments.md) | draft/next | `s` | has `deliver` | Declare one profile's arguments. |
+| [PERSONAL-DOTFILES-UE-088 (pruned)](https://github.com/krisb/dotfiles/blob/7cb547a86133325168183bc9c5962fa9550671a5/docs/roadmap/KB-DOTFILES-UE-088-ssh-alias-for-sol.md) | draft/next | `s` | has `deliver` | Seven of eight steps done. |
+| [PERSONAL-DOTFILES-UE-089](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-089-ki-tool-release-channels.md) | draft/future | `l` | has `deliver` | Release channels across every host; model awaits Kris's sanity check. |
+| [PERSONAL-DOTFILES-UE-092 (pruned)](https://github.com/krisb/dotfiles/blob/7cb547a86133325168183bc9c5962fa9550671a5/docs/roadmap/KB-DOTFILES-UE-092-restore-local-skill-projection.md) | draft/next | `s` | has `deliver` | Restore one generated projection. |
+| [PERSONAL-DOTFILES-UE-093 (pruned)](https://github.com/krisb/dotfiles/blob/4fe2203cbc4046c697b543ec9e2c32a77f760ad1/docs/roadmap/KB-DOTFILES-UE-093-restore-emerge-test-prerequisites.md) | draft/next | `m` | has `deliver` | Seven steps making test prerequisites explicit. |
+| [PERSONAL-DOTFILES-UE-094](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-094-audit-sol-privacy-permissions.md) | draft/future | `m` | has `audit` | Machine-wide privacy audit on sol. |
+| [PERSONAL-DOTFILES-UE-097](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-097-configure-gmail-routing-paths.md) | draft/next | `s` | has `deliver` | Four settings on one MCP entry. |
 
 ## In Progress
 
@@ -239,7 +239,7 @@ Nothing is running. Every write pass waits for Kris to confirm, one repository a
 Outstanding - no action requested now:
 
 - [HNR-PRINCIPAL-KM-011](/Users/krisbrown/workspaces/humans-not-robots/hnr-principal/Streams/Roadmap/HNR-PRINCIPAL-KM-011-designate-roadmap-writing-checkout.md) still names `kit-hnr` and may be stale since the repository rename. That belongs to hnr-principal's own triage, not to this backfill.
-- [KB-PRINCIPAL-038](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-038-complete-personal-email-triage.md) overlaps [KB-PRINCIPAL-043](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-043-write-personal-gmail-rules.md). The proposed sizes treat 043 as one slice of 038.
+- [PERSONAL-PRINCIPAL-038](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-038-complete-personal-email-triage.md) overlaps [PERSONAL-PRINCIPAL-043](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-043-write-personal-gmail-rules.md). The proposed sizes treat 043 as one slice of 038.
 
 ## Queries
 

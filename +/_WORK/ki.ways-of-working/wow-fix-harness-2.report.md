@@ -60,7 +60,7 @@ Repository: `/Users/krisbrown/workspaces/personal/acquire`.
 
 Repository: `/Users/krisbrown/.local/share/chezmoi`.
 
-- [docs/roadmap/KB-DOTFILES-UE-096-thread-identity-hook-registration.md:32](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-096-thread-identity-hook-registration.md:32): GOV-189.
+- [docs/roadmap/PERSONAL-DOTFILES-UE-096-thread-identity-hook-registration.md:32](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-096-thread-identity-hook-registration.md:32): GOV-189.
 
 #### ki-principal
 

@@ -102,7 +102,7 @@ A derivation that cannot resolve, such as an inaccessible Capital, is reported a
 No existing `.ki.toml` field supplies a single-word code reliably. Across the eight Capitals in `~/workspaces`:
 
 - `territory_prefix` is the right value for `ki-territory-`, but it is a slug and often several words: `valle-armonia`, `humans-not-robots`, `equal-remedy`, `sacred-inquiry`. A multi-word namespace would break the single-word rule that makes the form parse.
-- `repo_code` without `-PRINCIPAL` gives `VA`, `HNR`, `KI`, `LGL`, `ER`, `SI` and `TMX`, but Personal's was `KB-PRINCIPAL`, now moving to `PERSONAL-PRINCIPAL`.
+- `repo_code` without `-PRINCIPAL` gives `VA`, `HNR`, `KI`, `LGL`, `ER`, `SI` and `TMX`, but Personal's was `PERSONAL-PRINCIPAL`, now moving to `PERSONAL-PRINCIPAL`.
 - `organisation_code`, under `[skills.ki-agent-coordination-paperclip]`, is Paperclip's: Valle Armonia declares none, Knowledge Islands' is `KIS` and Personal's is `KIT`.
 - The harness capability prefix, Kris's `va`, is what [Derivation](#derivation) already advises against: territory is never derived from it, and `ki-repo-harness` keeps capability prefixes separate from territory identity.
 

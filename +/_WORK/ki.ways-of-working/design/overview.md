@@ -50,7 +50,7 @@ Status words: **landed** (with the revision), **decided** (owner answer logged, 
 | | Repository storage declarations | Repositories declare their storage | Draft record [KI-HARNESS-GOV-227](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-227-repository-storage-declarations.md), project observatory; [schema draft](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/gov-227-storage-schema.md) here | `ki.observatory` plans it |
 | | Where `ki-repo` work lives | Which work carries `ki-repo` changes | Open, KI-REPO-HOME a) high after review: `ki.baseline-rollout` | Kris answers |
 | | Legacy prefixes and partial repositories | Old record prefixes; repositories only partly in the model | Open, LEGACY-PREFIX and PARTIAL-REPOS, both medium, the reviews disagree | Kris answers |
-| | Private-safe diagram citations | A citation form for private sources in published diagrams (DIAGRAM-PRIVATE-CITATIONS) | Needs an owner; blocks [PERSONAL-TOWER-SITE-019](/Users/krisbrown/workspaces/personal/apps-tower.midnight.ninja/docs/roadmap/PERSONAL-TOWER-SITE-019-redraw-mermaid-in-archify.md) (named KB-MIDNIGHT-TOWER-SITE-019 in the line) | Route to the `ki-diagrams` owner |
+| | Private-safe diagram citations | A citation form for private sources in published diagrams (DIAGRAM-PRIVATE-CITATIONS) | Needs an owner; blocks [PERSONAL-TOWER-SITE-019](/Users/krisbrown/workspaces/personal/apps-tower.midnight.ninja/docs/roadmap/PERSONAL-TOWER-SITE-019-redraw-mermaid-in-archify.md) (named PERSONAL-TOWER-SITE-019 in the line) | Route to the `ki-diagrams` owner |
 | Roadmap | Size label | 👕 plus a capital letter, no XS, in `ki-work-roadmap` (SIZE-LABEL) | Kept in the queue, outside the grant | Harness run once Kris confirms |
 | | ARM release record | Cancel the conditional ARM Linux release record | Open, SORT-ARM a) high, on [KI-TOOL-KI-CLI-125](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-125-ki-release-contract.md) | Kris answers |
 | | Central tick | One central heartbeat rather than a wake per session (CENTRAL-TICK) | Idea | Add as an idea on the [Project note](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md) |
@@ -111,7 +111,7 @@ Seventeen lines remain in [messages.md](/Users/krisbrown/workspaces/knowledge-is
 | Line | Disposition | Where |
 | --- | --- | --- |
 | UNATTENDED-AND-DUE-DATES (Personal) | Covered by draft queries | UNATTENDED-FIELD and DUE-FIELD in the unattended brief |
-| DIAGRAM-PRIVATE-CITATIONS (Personal) | Needs an owner; outside this scope; blocks the record beside it | [PERSONAL-TOWER-SITE-019](/Users/krisbrown/workspaces/personal/apps-tower.midnight.ninja/docs/roadmap/PERSONAL-TOWER-SITE-019-redraw-mermaid-in-archify.md) (named KB-MIDNIGHT-TOWER-SITE-019 in the line); return to State of play for the `ki-diagrams` owner |
+| DIAGRAM-PRIVATE-CITATIONS (Personal) | Needs an owner; outside this scope; blocks the record beside it | [PERSONAL-TOWER-SITE-019](/Users/krisbrown/workspaces/personal/apps-tower.midnight.ninja/docs/roadmap/PERSONAL-TOWER-SITE-019-redraw-mermaid-in-archify.md) (named PERSONAL-TOWER-SITE-019 in the line); return to State of play for the `ki-diagrams` owner |
 | SUMMARY-OUTSTANDING (Valle Armonia) | Covered by a decided answer, not yet landed | SUMMARY-WINDOW a); coordination-standard run |
 | COORDINATOR-HOST (chezmoi) | Covered by open queries | HOST-SEAT, HOST-TARGET |
 | COORD-COMMANDS | Covered by an open query | COORD-COMMANDS |

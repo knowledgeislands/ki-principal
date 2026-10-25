@@ -6,7 +6,7 @@
 
 ## Done
 
-- **This was a read-only check on `sol`, from 22:09 to 22:21 BST.** Nothing was changed, installed, removed, applied or committed. None of the steps in scope (C1, C4, C7a to C7i and C9) in [KB-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-086-finish-software-alignment.md) is fully done, so the record is unchanged.
+- **This was a read-only check on `sol`, from 22:09 to 22:21 BST.** Nothing was changed, installed, removed, applied or committed. None of the steps in scope (C1, C4, C7a to C7i and C9) in [PERSONAL-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-086-finish-software-alignment.md) is fully done, so the record is unchanged.
 - **State of each step:**
 
 | Step | State on `sol` now | Evidence |
@@ -288,7 +288,7 @@ chezmoi status
 
 ### C56-TICK - Tick C5 and C6 in the record
 
-**Context:** this run was asked to tick only the steps it walked. C5 (Google Drive through the `google-drive` cask) and C6 (Home Assistant from the App Store, 1099568401) are verified done on `sol`, with Rig reporting both present, but they are still unticked in [KB-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-086-finish-software-alignment.md).
+**Context:** this run was asked to tick only the steps it walked. C5 (Google Drive through the `google-drive` cask) and C6 (Home Assistant from the App Store, 1099568401) are verified done on `sol`, with Rig reporting both present, but they are still unticked in [PERSONAL-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-086-finish-software-alignment.md).
 
 **Query:** may an agent tick them?
 
@@ -303,8 +303,8 @@ chezmoi status
 **Options:** a) (recommended) an agent rewords C8 to expect Keynote, Numbers and Pages as catalogue-only and DaVinci Resolve as present, keeps the Adobe check that follows C7i, and commits only the record, locally; b) leave C8 as written and judge it by hand at C9.
 
 ```text
-C56-TICK - a) an agent ticks C5 and C6 in KB-DOTFILES-UE-086 with the 15 October evidence (google-drive cask installed, Home Assistant 1099568401 from the App Store, Rig reports both present) and commits only the record, locally
-C8-WORDING - a) an agent rewords C8 in KB-DOTFILES-UE-086 to expect Keynote, Numbers and Pages as catalogue-only and DaVinci Resolve present via mas, keeps the post-C7i Adobe check, and commits only the record, locally
+C56-TICK - a) an agent ticks C5 and C6 in PERSONAL-DOTFILES-UE-086 with the 15 October evidence (google-drive cask installed, Home Assistant 1099568401 from the App Store, Rig reports both present) and commits only the record, locally
+C8-WORDING - a) an agent rewords C8 in PERSONAL-DOTFILES-UE-086 to expect Keynote, Numbers and Pages as catalogue-only and DaVinci Resolve present via mas, keeps the post-C7i Adobe check, and commits only the record, locally
 ```
 
 ```text
@@ -319,7 +319,7 @@ C8-WORDING - a) an agent rewords C8 in KB-DOTFILES-UE-086 to expect Keynote, Num
 
 - [at rest] ue086-walk finished; nothing running from this run
 - [running elsewhere] adobe-script (C7i)
-- [waiting on Kris] [KB-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-086-finish-software-alignment.md) steps 0 to 12 above, at sol's screen; KEYONLY-APPLY; UTM-SOL
+- [waiting on Kris] [PERSONAL-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-086-finish-software-alignment.md) steps 0 to 12 above, at sol's screen; KEYONLY-APPLY; UTM-SOL
 - [queries] C56-TICK, C8-WORDING
 - [uncommitted] this report
 

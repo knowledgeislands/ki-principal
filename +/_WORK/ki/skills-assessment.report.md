@@ -40,7 +40,7 @@ Key: ✓ declared and linked · – missing · U declared in `.ki.toml` but not 
 
 ### 3. Gaps and divergences
 
-1. Personal declares no `ki-work-roadmap`, so its records have no area codes (`KB-PRINCIPAL-022`). er declares the skill but gives no areas (`ER-PRINCIPAL-014`).
+1. Personal declares no `ki-work-roadmap`, so its records have no area codes (`PERSONAL-PRINCIPAL-022`). er declares the skill but gives no areas (`ER-PRINCIPAL-014`).
 2. va declares `ki-work-roadmap` but it is not linked, and has `ki-agent-coordination-paperclip` linked but not declared. Its links look stale against its `.ki.toml`.
 3. Personal declares `ki-diagrams`, but it is not linked.
 4. `ki-acquire-granola` is linked in six Capitals but declared in none, which suggests a user-scope or acquisition link outside `.ki.toml`. tmx and si do not have it.
@@ -63,7 +63,7 @@ Key: ✓ declared and linked · – missing · U declared in `.ki.toml` but not 
 16. Only ki and legal set `ki-tokenomics` options. hnr and legal rely on the housekeeping setting and do not set `autoMemoryEnabled` in `.claude/settings.json`.
 17. tmx, si and personal restate their stores and the Enactment gate in both `AGENTS.md` and `CLAUDE.md`. Every `AGENTS.md` restates the Enactment gate, which `ki-repo-kb-streams` or `ki-repo-kb-principal` could own in one line. The store-alias and mirroring rules repeated in tmx, si, legal, er and personal are a candidate for a `ki-repo-kb` sources-store section.
 18. Only ki's `AGENTS.md` states territorial authority and the cross-repository choreography (handoffs travel as messages). The other seven do not, although HANDOFF-AS-MESSAGE binds every territory.
-19. Legacy "Kit" naming survives in personal (`repo_code = "KB-PRINCIPAL"`, `kb.*` work ids, Paperclip `KIT`, "Kit Principal"), in legal (`kit-legal-notes`) and in tmx (`kit-techmedix-*`).
+19. Legacy "Kit" naming survives in personal (`repo_code = "PERSONAL-PRINCIPAL"`, `kb.*` work ids, Paperclip `KIT`, "Kit Principal"), in legal (`kit-legal-notes`) and in tmx (`kit-techmedix-*`).
 20. The lifecycle skills (`ki-next`, `ki-plan`, `ki-implement`, `ki-accept`, `ki-batch`, `ki-recap`, `ki-work-design`) are declared in no Capital. They come only from user scope, so Codex or another machine may not have them.
 
 ### 4. Proposed baseline for a Capital

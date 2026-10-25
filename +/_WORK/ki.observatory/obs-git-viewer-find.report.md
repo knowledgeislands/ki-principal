@@ -16,7 +16,7 @@ I found no other copy in `~/workspaces`, the OneDrive source stores, the Claude 
 What has gone wrong is that it has stopped working where you would use it, for two reasons:
 
 - It is no longer installed in Claude Desktop, so it has to be saved into Cowork again before it will open there.
-- It still scans `~/workspaces/hnr` and `~/workspaces/kit`, which no longer exist. Every territory would show as an error line, and only chezmoi would load. [KB-PRINCIPAL-044](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-044-reground-git-audit-artifact.md) records this fix, but it is still at triage.
+- It still scans `~/workspaces/hnr` and `~/workspaces/kit`, which no longer exist. Every territory would show as an error line, and only chezmoi would load. [PERSONAL-PRINCIPAL-044](/Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-044-reground-git-audit-artifact.md) records this fix, but it is still at triage.
 
 **2. What it has that the Observatory lacks.** The Observatory's Repositories view does three things the viewer does not:
 

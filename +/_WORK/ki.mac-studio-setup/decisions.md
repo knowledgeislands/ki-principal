@@ -12,7 +12,7 @@
 
 - Kris (2026-10-11): "ZED-MD, yes, add that capability to the roadmap for rig. You can also make the change directly now for me."
 
-- LOCAL-MODE (Kris, 2026-10-14): sol is an active development machine, so its KI tools run in local mode from the repository checkouts, on the dev channel; the agent host stays on the stable channel - [KB-DOTFILES-UE-089](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-089-ki-tool-release-channels.md).
+- LOCAL-MODE (Kris, 2026-10-14): sol is an active development machine, so its KI tools run in local mode from the repository checkouts, on the dev channel; the agent host stays on the stable channel - [PERSONAL-DOTFILES-UE-089](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-089-ki-tool-release-channels.md).
 
 - Kris 2026-10-14: 'OLD-TREES-RUN - I've moved them into ~/workspaces/_old'. Done by Kris at sol: kit, hnr and knowledge-wayfinder now sit in ~/workspaces/_old (not the proposed _retired-old-trees-2026-10-14).
 

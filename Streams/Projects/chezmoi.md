@@ -2,7 +2,7 @@
 note_type: streams/project
 slug: chezmoi
 title: chezmoi
-outcome: The open KB-DOTFILES-UE records in the chezmoi source are worked, keeping the workstation accurate, tidy and observable.
+outcome: The open PERSONAL-DOTFILES-UE records in the chezmoi source are worked, keeping the workstation accurate, tidy and observable.
 theme: rig
 lifecycle: active
 lead: Kris Brown
@@ -15,7 +15,7 @@ author: Written with Claude
 
 ## Outcome
 
-Work the open KB-DOTFILES-UE records in the chezmoi source, keeping the workstation accurate, tidy and observable. The records live in the chezmoi repository (`~/.local/share/chezmoi`, GitHub `krisb/dotfiles`), in its roadmap under `docs/roadmap/`, which keeps their plan, priority and acceptance.
+Work the open PERSONAL-DOTFILES-UE records in the chezmoi source, keeping the workstation accurate, tidy and observable. The records live in the chezmoi repository (`~/.local/share/chezmoi`, GitHub `krisb/dotfiles`), in its roadmap under `docs/roadmap/`, which keeps their plan, priority and acceptance.
 
 This Project sits in [Rig](../Themes/rig.md). The work `ki.chezmoi` works it; chezmoi does not declare `ki-work-package`, so its work package lives in Knowledge Islands Principal.
 

@@ -68,7 +68,7 @@ b) Leave it awaiting review.
 
 ### ACCEPT-CHEZMOI - accept the chezmoi latest-source record
 
-**Context:** [KB-DOTFILES-UE-076](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-076-always-run-latest-source.md), "always run the latest source", has been awaiting review since 24 October.
+**Context:** [PERSONAL-DOTFILES-UE-076](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-076-always-run-latest-source.md), "always run the latest source", has been awaiting review since 24 October.
 
 **Query:** Review and accept it now?
 
@@ -180,7 +180,7 @@ c) Move them into ki.portable-specifications.
 
 ### MAIL-MCP-HOME - a home for the mail MCP records
 
-**Context:** Eleven draft records for the mail MCP servers, KI-MCP-M365-TOOL-011 to TOOL-019 in mcp-m365 and KI-MCP-GSUITE-TOOL-008 and TOOL-009 in mcp-gsuite, plus [KB-DOTFILES-UE-097](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/KB-DOTFILES-UE-097-configure-gmail-routing-paths.md) in chezmoi, came to Knowledge Islands on 21 October: "For now, I think it's best to go back to the MCP. So, something in Knowledge Island." No work owns the MCP server repositories: ki.tools-burndown covers the `ki` CLI and Git tools, and ki.regular takes small one-off work.
+**Context:** Eleven draft records for the mail MCP servers, KI-MCP-M365-TOOL-011 to TOOL-019 in mcp-m365 and KI-MCP-GSUITE-TOOL-008 and TOOL-009 in mcp-gsuite, plus [PERSONAL-DOTFILES-UE-097](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-097-configure-gmail-routing-paths.md) in chezmoi, came to Knowledge Islands on 21 October: "For now, I think it's best to go back to the MCP. So, something in Knowledge Island." No work owns the MCP server repositories: ki.tools-burndown covers the `ki` CLI and Git tools, and ki.regular takes small one-off work.
 
 **Query:** Which work should own these records?
 

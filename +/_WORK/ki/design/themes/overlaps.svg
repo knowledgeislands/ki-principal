@@ -238,15 +238,15 @@
         <text x="730" y="206" font-size="8.6px" text-anchor="middle" fill="#5b6474" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px" stroke-dashoffset="0px" stroke-linecap="butt" stroke-linejoin="miter" font-weight="400" font-family="'JetBrains Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">Observatory: explain tool storage</text>
         </g>
 
-        <g id="node-b3" data-node-id="b3" data-node-label="KB-DOTFILES-UE-027" tabindex="0" role="button" aria-label="Focus KB-DOTFILES-UE-027, chezmoi: per-tool fields, A concern the estate has met twice" aria-pressed="false" data-node-kind="database" data-node-sublabel="chezmoi: per-tool fields" data-node-context="A concern the estate has met twice">
-          <title>KB-DOTFILES-UE-027 · chezmoi: per-tool fields · A concern the estate has met twice</title>
+        <g id="node-b3" data-node-id="b3" data-node-label="PERSONAL-DOTFILES-UE-027" tabindex="0" role="button" aria-label="Focus PERSONAL-DOTFILES-UE-027, chezmoi: per-tool fields, A concern the estate has met twice" aria-pressed="false" data-node-kind="database" data-node-sublabel="chezmoi: per-tool fields" data-node-context="A concern the estate has met twice">
+          <title>PERSONAL-DOTFILES-UE-027 · chezmoi: per-tool fields · A concern the estate has met twice</title>
           <rect x="640" y="248" width="180" height="56" rx="8" fill="#ffffff" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px" stroke-dashoffset="0px" stroke-linecap="butt" stroke-linejoin="miter" font-size="16px" font-weight="400" text-anchor="start"/>
           <rect x="640" y="248" width="180" height="56" rx="8" data-animate="node" stroke-width="1.25px" fill="#a58cfa" fill-opacity="0.2" stroke="#7c3aed" stroke-opacity="1" stroke-dashoffset="0px" stroke-linecap="butt" stroke-linejoin="miter" font-size="16px" font-weight="400" text-anchor="start"/>
           <g aria-hidden="true" data-semantic-sigil="database" transform="translate(646 254) scale(0.6875)" opacity="0.76">
             <ellipse cx="8" cy="4" rx="5" ry="2" fill="none" fill-opacity="1" stroke="#7c3aed" stroke-opacity="1" stroke-width="1.35px" stroke-dashoffset="0px" stroke-linecap="round" stroke-linejoin="round" font-size="16px" font-weight="400" text-anchor="start"/>
             <path d="M3 4v8c0 1.1 2.2 2 5 2s5-.9 5-2V4M3 8c0 1.1 2.2 2 5 2s5-.9 5-2" fill="none" fill-opacity="1" stroke="#7c3aed" stroke-opacity="1" stroke-width="1.35px" stroke-dashoffset="0px" stroke-linecap="round" stroke-linejoin="round" font-size="16px" font-weight="400" text-anchor="start"/>
           </g>
-          <text data-node-label="" x="730" y="274" font-size="11px" font-weight="600" text-anchor="middle" fill="#111827" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px" stroke-dashoffset="0px" stroke-linecap="butt" stroke-linejoin="miter" font-family="'JetBrains Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">KB-DOTFILES-UE-027</text>
+          <text data-node-label="" x="730" y="274" font-size="11px" font-weight="600" text-anchor="middle" fill="#111827" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px" stroke-dashoffset="0px" stroke-linecap="butt" stroke-linejoin="miter" font-family="'JetBrains Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">PERSONAL-DOTFILES-UE-027</text>
         <text x="730" y="290" font-size="9px" text-anchor="middle" fill="#5b6474" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px" stroke-dashoffset="0px" stroke-linecap="butt" stroke-linejoin="miter" font-weight="400" font-family="'JetBrains Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">chezmoi: per-tool fields</text>
         </g>
 

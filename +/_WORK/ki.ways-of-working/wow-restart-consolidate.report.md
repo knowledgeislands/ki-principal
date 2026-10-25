@@ -204,7 +204,7 @@
   - UNWRITTEN-RULES a), settled under grant on 23 October, made none of the four a standing instruction. The new line, under "Move all three to Ways of Working", asks for Kris to confirm each, which would form AWAY-GRANT's missing deny-list.
 - **Proposed:**
   - One background-run rule for secrets through the dotfiles helpers, plus the matching line in `ki-repo-website-cloudflare`.
-  - A citation-form proposal (revision, relative paths and lines, no URL) from a small run, with [KB-MIDNIGHT-TOWER-SITE-019](/Users/krisbrown/workspaces/personal/apps-tower.midnight.ninja/docs/roadmap/KB-MIDNIGHT-TOWER-SITE-019-redraw-mermaid-in-archify.md) waiting on it.
+  - A citation-form proposal (revision, relative paths and lines, no URL) from a small run, with [PERSONAL-TOWER-SITE-019](/Users/krisbrown/workspaces/personal/apps-tower.midnight.ninja/docs/roadmap/PERSONAL-TOWER-SITE-019-redraw-mermaid-in-archify.md) waiting on it.
   - The four rules taken in an interactive pass as four split queries when Kris chooses. The 23 October a) stands meanwhile.
 - **Priority:** the secrets rule next, citations later, the four rules later. Query RUN-SECRETS.
 

@@ -177,7 +177,7 @@ Plain words only. No record is changed by this audit.
 - **KI-TECHNE-OPS-019** (person-neutral recipe defaults) and **KI-TECHNE-OPS-023** (controller and target tags), `ki-techne-harness`: **stand**, unaffected.
 - **KI-TOOL-TECHNE-CLI-006** and **KI-TOOL-TECHNE-CLI-008**, `tools-techne`: **stand**. Both are base lifecycle work.
 - **Rig's roadmap** (`tools-rig`: unwanted software removal, profile-filtered Dock items, self-updating applications, single sudo prompt): **stands**. All are workstation-role items. New work would be raised there: the signed-release install kind, a Debian-versus-Arch platform distinction (only if an Arch base is chosen), and role profiles that can be included from another source (if not already covered by `conf.d` fragments).
-- **chezmoi**: KB-DOTFILES-UE-074 (host delegation) **stands**. A future item would add Linux variants for the personal tools Kris wants on remote agentic rigs.
+- **chezmoi**: PERSONAL-DOTFILES-UE-074 (host delegation) **stands**. A future item would add Linux variants for the personal tools Kris wants on remote agentic rigs.
 - **`tools-ki` and `tools-techne`**: a new item each for linux-arm64 release builds, if Kris wants ARM hosts.
 - **Arcadia**: the Rig Initiative's direction would widen from "the workstation" to "rigs any host for its role", and the Techne Initiative's would say it "takes hosts to ready". ADR-KI-PRINCIPAL-003 would gain the base, role, workspace and personal split and the signed-release kind. The four Decision Records still saying `direct-host` would take the rename Kris chose on 2026-10-09 ("let's just call it agent-host").
 
