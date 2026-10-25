@@ -1,7 +1,7 @@
 ---
 id: ki.ways-of-working
-state: handoff-to-supervisor
-since: 2026-10-24T23:06:00Z
+state: with-worker
+since: 2026-10-25T00:35:00Z
 received: 2026-10-22T07:24:00Z
 beat: null
 mark: 2026-10-23T01:10:00Z
@@ -12,15 +12,13 @@ method_read: eff6163b
 
 ## Now
 
-- 23:58 BST: wow-drift-blind received: agreed REBOOT-SHAPE, GAP-SUMMARY and METHOD-NUDGE; disagreed on PROXY-SHAPER. Sixteen queries sent to Kris. Nothing is running.
-- Coordinator owes the refresh: re-read the standard with the Read tool and set method_read.
-- 21:51 BST: RESTART-ON-SOL disposed: the prioritised list is in restart-consolidate.report.md and sent to Kris with ten queries. Nothing is running.
-- Blind review lifted THREAD-RENAME and THEME-CLOSE to high; it disagreed on COORD-COMMANDS (drain stays inside hold), so both views are shown.
+- 01:34 BST: unattended until 09:00 BST under Kris's grant. Running: wow-tending-fold, wow-model-shape (ki-principal design notes), wow-coord-standard (harness: REBOOT-SHAPE and GAP-SUMMARY, COMMIT-CADENCE drafted as a query).
+- Commit cadence: commit at every package write, pull with rebase at every wake, push when only own commits are stacked.
 
 ## Next steps
 
-- Kris: the ten queries in queries.md, and whether to launch tending-fold, coord-standard and model-shape.
-- Coordinator: on the answers, read them back here, launch the units, then dispose of the queue lines each unit covers.
+- Coordinator: receive each run, dispose of the queue lines tending-fold carries, send the opener wording to ki.tools-burndown, owe the method refresh after coord-standard lands.
+- Kris on return: the remaining 14 queries, and COMMIT-CADENCE.
 
 ## Held
 

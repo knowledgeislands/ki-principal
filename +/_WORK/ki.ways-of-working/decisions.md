@@ -168,3 +168,15 @@ The `ki agent send` defect from the restart list (area 1h) went to ki.tools-burn
 AWAY-GRANT - Kris, 25 October, interactive: "Grant to 09:00". Taken as: an unattended window until 09:00 BST on 25 October or Kris's return, whichever is first. Work: launching background agents for this work's units, committing their work, pushing this work's own commits fast-forward only. Exclusions: no standard or configuration change beyond answers Kris gives in this thread; no DNS, Cloudflare or GitHub settings change; no release; no force-push. Wake word "resume"; stop word "stop the wake".
 
 LAUNCH-FIRST - Kris: "All three". Taken as: tending-fold and model-shape start now; coord-standard starts once tonight's coordination answers are in, carrying only those answers.
+
+## 2026-10-25 01:34 BST - REBOOT-SHAPE, GAP-SUMMARY, unattended set-up and COMMIT-CADENCE
+
+REBOOT-SHAPE - Kris, interactive: "Full report". Taken as a): the re-bootstrap report becomes a full owner report and openers drop "in three lines".
+
+GAP-SUMMARY - Kris, interactive: "30-minute trigger". Taken as a): the first reply after 30 minutes without an owner message, while queries are with Kris, gives the Summary in full.
+
+Kris: "set yourself up to run unattended". Taken as: the remaining queries stay with Kris; work runs under the 09:00 grant; the coordinator keeps its background check armed.
+
+COMMIT-CADENCE - Kris, 25 October 01:30 BST: "when there's a lot of changes in the work folder, the work is sitting there for a while and it's not getting committed. This makes it really difficult to keep the Git repositories in sync with the origin and other things which are also modifying the work packages because it's not regularly getting updates, pushes, and pulls." Taken as: from now the coordinator commits at every package write, pulls with rebase at every wake, and pushes whenever only its own commits are stacked; runs commit each step as they go. The standard change is drafted by wow-coord-standard as a query, not made, because it touches the rule about others' stacked commits.
+
+Launched under LAUNCH-FIRST "All three": wow-tending-fold, wow-model-shape, wow-coord-standard.
