@@ -247,3 +247,8 @@ Read back as taken: the away grant stands to 08:00 GMT (09:00 BST); the mark is 
 
 - Homes: Kris ticked all four. Read back as taken: PRFLOW goes to the harness `AGENTS.md`, PIN to the tools-ki CI guide, KI-AGENTS-NAME to this work's decisions log, and SPEC-REVIEW to ki.portable-specifications.
 - Strikes: Kris ticked all four. Read back as taken: the 14 October burn-down focus is struck as superseded by CAPTURE-GATE and ROADMAP-CAP; CAPTURE-GATE is struck to a pointer to `ki-next`; GO-AHEAD and CAPTURE-ONLY are struck as spent; RIG-REL-PATCH is struck to a pointer to the release policy; DIAGRAMS-BLACK is checked and captured only if it still fails. State of play's `decisions.md` is not this work's file, so the strikes go to State of play as one message line, and the homes go to a run.
+
+## 2026-10-25 01:25 GMT - PROXY-SHAPER parked; METHOD-NUDGE answered
+
+- PROXY-SHAPER: Kris: "I'm not really sure what to do about this one, to be honest. Maybe it's something we can come back to." Read back as taken: parked in `queries.md`, nothing changed in the proxy or chezmoi.
+- METHOD-NUDGE: Kris chose a), "Add warning". Read back as taken: `hooks/coordinator-reminder.sh` prints one advisory line when a work's `state.md` `method_read` differs from the method revision, naming both. Harness run tonight.

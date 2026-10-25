@@ -2,32 +2,6 @@
 
 ## Open
 
-### PROXY-SHAPER - the Headroom output shaper and compression in coordinator sessions
-
-**Context:** The proxy appends an L2 steering block ("Never restate ... reference them by path and line instead") at the end of every system prompt, after the style. That conflicts with restating open queries in full, and the style already says no proxy shaping block shortens a report. Token mode also strips function words from Bash tool output, which corrupts templates read that way; Read-tool output arrived intact in this run. The Headroom proxy is connection-critical, so any change to it needs a tested restore path.
-
-A masked blind review on Codex disagreed at high confidence: a style file cannot reliably override a conflicting system instruction, so it would turn the output shaper off for Claude Code through chezmoi, in a separately authorised run with a tested restore path, and verify repeated open queries and intact reads before finishing.
-
-**Query:** Should the proxy stay as it is, with the read path fixed in the standard instead?
-
-**Options:**
-
-a) (recommended, confidence medium - review disagrees; no change to a connection-critical service, and the style's override held for the 21:53 Summary; the 23:20 link to the proxy is inferred) Leave Headroom unchanged; add to the standard's Bootstrap and Re-anchoring that the standard, style and package are read with the file-read tool, not the shell; the style names the shaper's "never restate" as overridden for open queries.
-
-b) Turn the output shaper off for Claude Code (`HEADROOM_OUTPUT_SHAPER=0`, managed in chezmoi) under a run with a tested restore path.
-
-### METHOD-NUDGE - warn when a coordinator's method_read lags
-
-**Context:** At re-bootstrap the coordinator read harness revision 111b853a against `method_read: eff6163b`, 27 commits behind, but did not re-read the standard, update `method_read` or tell you what changed. Nothing mechanical catches this; the rubric says it cannot judge whether a coordinator refreshed.
-
-**Query:** Should the coordinator hook print one warning line when the work's `state.md` `method_read` differs from the harness revision?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; one cheap advisory line makes a skipped refresh visible, comparing the method revision rather than harness HEAD, and only a real re-read updates `method_read`) Add the check to `hooks/coordinator-reminder.sh`, naming both revisions.
-
-b) Leave it to coordinator habit and the bootstrap rule.
-
 ### REVIEW-CHECK - flag a query with two recommended options
 
 **Context:** In the 21:53 Summary, COORD-COMMANDS and DRAIN-END each carried two "recommended by ..." options with two confidences, against the query-review rule: one recommended a), with its reason starting `review disagrees` and the reviewer's view in Context. Rubric item COORD-11 already checks confidence on recommended lines.
@@ -164,4 +138,5 @@ b) Start a `ki-work-design` brief now covering partial repositories, the persona
 
 ## Parked
 
+- PROXY-SHAPER - the Headroom shaper's "never restate" block and Bash compression in coordinator sessions; recommended a) leave the proxy and fix the read path in the standard, medium, review disagrees (Codex would turn the shaper off through chezmoi with a tested restore path). Kris, 2026-10-25: "I'm not really sure what to do about this one ... Maybe it's something we can come back to."
 - RIG-ATTENDED - Kris's attended Rig steps on sol and terra, commands in `/Users/krisbrown/.local/state/ki/agents/ways-of-working/wow-rig-attended-steps.report.md`; recommended a) CORE-069 on sol plus the look-only CORE-047 and CORE-062 checks first, CORE-068 and the live firewall rollout in a later sitting. Kris, 2026-10-22 02:26 BST: walk me through it in the morning. The tools-rig v0.8.0 tag waits on the same review gates (RIG-RELEASE-REVIEW-BOUNDARY a), 2026-10-23).
