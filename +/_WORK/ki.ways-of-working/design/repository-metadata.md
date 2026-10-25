@@ -1,6 +1,6 @@
 ---
 note_type: streams/design
-updated: 2026-10-24T16:55:00Z
+updated: 2026-10-25T00:45:00Z
 author: Written with Claude
 ---
 
@@ -88,7 +88,7 @@ Kris's view, 24 October: "KI to indicate it's a KI tag, then a dash, and then th
 `ki-repo` derives every managed topic from declarations, and never from a checkout name, an organisation login or a work id:
 
 - **Territory:** resolve the repository's `capital` to the Capital's `.ki.toml` and take its `territory_prefix`. Valle Armonia's is `valle-armonia`, not its harness prefix `va`.
-- **Shape:** take the repository's own `primary_shape` and remove exactly one leading `ki-repo-`, keeping the rest whole: `ki-repo-kb` gives `kb`, `ki-repo-homebrew-tap` gives `homebrew-tap`. Supporting declarations such as `ki-repo-project` or the website content and Cloudflare overlays add no shape topic. A missing or unregistered shape fails visibly rather than being guessed.
+- **Shape:** take the repository's own `primary_shape` and remove exactly one leading `ki-repo-`, keeping the rest whole: `ki-repo-kb` gives `kb`, `ki-repo-homebrew-tap` gives `homebrew-tap`. Supporting declarations such as `ki-repo-project` or the website content and Cloudflare overlays add no shape topic; where `ki-repo-project` is itself the `primary_shape`, it gives `ki-shape-project` like any other. A missing or unregistered shape fails visibly rather than being guessed.
 - **Role:** a repository whose `repository` equals its declared `capital` is the Capital, provided the Capital's membership list includes it.
 
 A derivation that cannot resolve, such as an inaccessible Capital, is reported as unresolved, never passed with an empty or guessed value.
@@ -102,13 +102,15 @@ A derivation that cannot resolve, such as an inaccessible Capital, is reported a
 No existing `.ki.toml` field supplies a single-word code reliably. Across the eight Capitals in `~/workspaces`:
 
 - `territory_prefix` is the right value for `ki-territory-`, but it is a slug and often several words: `valle-armonia`, `humans-not-robots`, `equal-remedy`, `sacred-inquiry`. A multi-word namespace would break the single-word rule that makes the form parse.
-- `repo_code` without `-PRINCIPAL` gives `VA`, `HNR`, `KI`, `LGL`, `ER`, `SI` and `TMX`, but Personal's is `KB-PRINCIPAL`.
+- `repo_code` without `-PRINCIPAL` gives `VA`, `HNR`, `KI`, `LGL`, `ER`, `SI` and `TMX`, but Personal's was `KB-PRINCIPAL`, now moving to `PERSONAL-PRINCIPAL`.
 - `organisation_code`, under `[skills.ki-agent-coordination-paperclip]`, is Paperclip's: Valle Armonia declares none, Knowledge Islands' is `KIS` and Personal's is `KIT`.
 - The harness capability prefix, Kris's `va`, is what [Derivation](#derivation) already advises against: territory is never derived from it, and `ki-repo-harness` keeps capability prefixes separate from territory identity.
 
 The proposal is a new optional Capital key, `territory_code`, in `[skills.ki-repo]` beside `territory_prefix`: a single lower-case word matching `^[a-z][a-z0-9]*$`, required once the Capital declares any tag type, and governed by TERR-2 like the other territory keys. Valle Armonia would declare `territory_code = "va"`. This keeps the earlier advice intact: the code is declared, never derived from the harness prefix, even where, as in Valle Armonia, the declared value happens to equal it. `territory_prefix` keeps supplying the `ki-territory-` value.
 
 Knowledge Islands keeps `ki` as its `territory_code`, settled under KI-CODE: `ki-repo` mandates the universal facets on every Knowledge Islands repository, and Knowledge Islands Principal, as a Capital, may define further `ki-<type>-<value>` tags like any other Capital, provided none of its declared types reuses a facet name `ki-repo` mandates: `territory`, `shape` or `role`. Codes must be unique across registered Capitals, as territory handles already are.
+
+A code may equal a one-word territory handle. `ki-repo`'s [territory selection](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/keystone/ki-repo/references/standards-configuration.md#territory-selection) standard says so, and since ki-agentic-harness `28f6b22e` it reserves `personal` as the one word for an estate owner's own territory, used alike as `territory_prefix`, alias, work-id segment, any territory code and `repo_code` stem, never by another territory and never as a public brand. Kris reserved it on 25 October under PREFIX-RENAME. Personal's code would therefore be `personal`, equal to its `territory_prefix`, where Valle Armonia's multi-word prefix needs a separate `va`.
 
 ### Declaring the types
 
@@ -213,3 +215,32 @@ All three settled by Kris in VA > SoP on 24 October 2026, and folded into this n
 ## Other territories
 
 Later runs add a `### <Territory> run, <date>` section here: what the territory's repositories carry now, where the proposed values or derivation did not fit, and what was missing, noting where their territory's shape differed.
+
+### Valle Armonia interim pass, 2026-10-24
+
+One quick territory pass applied the interim policy to Valle Armonia's four repositories.
+
+- **Worked:** every managed topic derives for all four repositories from `capital`, `territory_prefix` and `primary_shape` as they stand, and the `.ki.toml` and `package.json` descriptions already agree.
+- **Which table holds `homepage` and `keywords`:** `[skills.ki-repo]`, the same table that already holds `description` and `primary_shape` in Valle Armonia's `.ki.toml` files; neither key sits at top level.
+- **Whether the two optional website rewordings wait for the standard:** they may go first, since they do not depend on the taxonomy, provided one run changes all three surfaces together so GH-3 never sees them disagree, and the GitHub description change has Kris's approval like any other GitHub setting.
+
+### Personal run and re-check, 2026-10-24
+
+Personal ran the note over its nine members in a metadata survey, then re-checked them against the settled note at `76557046` ([finding](/Users/krisbrown/workspaces/personal/personal-principal/+/_WORK/kb/findings/REPO-META.md)).
+
+- **Fitted:** `.ki.toml` as master; the property table, the derivation rules and the pilot table shape applied as written; every managed topic derives cleanly for all nine members without guessing; the homepage cautions resolve each site to its verified apex domain; no workspace `package.json` carries a homepage.
+- **Differed from Valle Armonia:** Personal had one real GH-3 failure, acquire's empty GitHub description with issues on under a `roadmap` adapter, which the ACQUIRE-FIX run has since brought into line with `.ki.toml`; and Personal's prefix is already one word, so its code and prefix can coincide where Valle Armonia's cannot.
+
+Short answers to its open points:
+
+- **`ki-repo-project` as a primary shape:** acquire declares it as its `primary_shape`, and it gives `ki-shape-project`; only as a supporting declaration does it add no topic. [Derivation](#derivation) now says so.
+- **No optional or shape-scoped tag type:** still open. Membership stays one value per declared type on every member, which rules out a `domain` type where five of nine members are sites, so Personal declares no tag types. Whether a type may be optional, or scoped to one shape, is a question for the `ki-repo` standard once a second territory needs it.
+- **Whether a code may equal `territory_prefix`:** answered by `ki-repo`'s territory selection standard, under [The territory code](#the-territory-code): it may, and `personal` is reserved for the estate owner's own territory.
+- **Dotted domain keywords such as `kris.me.uk`:** drop them. GitHub topics allow no dots, and the homepage now carries the domain, so a hyphenated stand-in adds nothing.
+- **`package.json` homepages pointing at the GitHub README:** this is the not-to-promote case under the homepage cautions; the verified site domain replaces it, and `homepage` in `[skills.ki-repo]` carries the live domain.
+- **Mixed licences, with `MIT` on four private sites:** the licence stays as `.ki.toml` declares it and GH-3 checks only that the surfaces agree; whether `MIT` is right for a private site is that territory's decision per repository.
+- **Four sites sharing one apex domain:** each repository's homepage is its own landing page, subdomain or path, never the shared apex unless that repository serves it.
+- **A step needing `gh repo view` under a brief that bars GitHub calls:** fill only the `.ki.toml` and `package.json` columns, mark the GitHub column as not checked, and leave the GitHub comparison to a run whose brief allows it.
+- **READMEs, Known Lands and the Project Portfolio restating descriptions and domains:** they are not mirrors and GH-3 does not check them; Tending structural level 4 checks them by judgement. Whether to add a rule is open.
+- **acquire in `territory_members` but not in Known Lands:** a Tending structural level 4 finding for Personal's Capital, not a metadata rule.
+- **Two prefix-survey findings for the standards, from PERSONAL-RESERVED:** the 24-character `repo_code` cap includes the area and rules out codes such as `PERSONAL-MIDNIGHT-TOWER-SITE`, so Personal shortens two site codes; and the streams audit fails any record not prefixed with the current `repo_code`, so a code rename has no gradual path without a legacy-prefix allowance. Both belong to `ki-repo` and the streams audit, not to this note.
