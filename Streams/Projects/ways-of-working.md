@@ -7,7 +7,7 @@ theme: model
 lifecycle: active
 lead: Kris Brown
 target: null
-updated: 2026-10-19T23:16:23Z
+updated: 2026-10-25T02:52:00Z
 author: Written with Claude
 ---
 
@@ -23,6 +23,9 @@ This Project sits in [Model](../Themes/model.md).
 
 ## Notes
 
+- **Idea: graduate tending after further territory feedback, 2026-10-25.** Take the two-track structural and PMO process from [Tending](../../+/_WORK/ki.ways-of-working/design/tending.md) into a standard once more territories report back. Preserve the four structural and five PMO levels, upward capture flow, focus rule, write boundaries and lightweight reporting; reconcile the remaining pilot questions before proposing tooling. The [interim coverage assessment](../../+/_WORK/ki.ways-of-working/design/interim-cover.md#interim-tending---the-two-track-process-still-needs-a-standard-home) holds every uncarried rule and the existing routes for assignment, dates, size display and the Capital baseline. [SOP-PROJECT-CARE, line 5](https://github.com/knowledgeislands/ki-principal/blob/f2d6791cdee1519a5c8ec53bd29412fa3b7be4fe/+/_WORK/ki.ways-of-working/messages.md#L5) and [SINGLE-THREAD, line 6](https://github.com/knowledgeislands/ki-principal/blob/f2d6791cdee1519a5c8ec53bd29412fa3b7be4fe/+/_WORK/ki.ways-of-working/messages.md#L6) are related owner evidence; their assigned-package cascade is partly carried already. This is an idea awaiting further evidence, not an adopted delivery record.
+- **Idea: finish findings graduation, 2026-10-25.** Retain the remaining rules of [Findings](../../+/_WORK/ki.ways-of-working/design/findings.md) after the report section and package storage landed: refreshing changed facts with visible row history and a stable goal, independent finding/query settlement and traceability, the permitted writer of a finding file, and whether to add an age warning. The [coverage assessment](../../+/_WORK/ki.ways-of-working/design/interim-cover.md#interim-findings---the-main-contract-is-carried-with-several-explicit-gaps) distinguishes the carried contract from the residual choices. Retire each territory's interim adoption only once these residuals are landed or explicitly declined.
+- **Idea: graduate repository metadata, 2026-10-25.** Take the settled direction in [Repository metadata](../../+/_WORK/ki.ways-of-working/design/repository-metadata.md) into `ki-repo`: configuration-owned homepage and keywords, universal managed topics, Capital-declared territory types, derivation, mirror checks and approved recalculation. Preserve homepage migration safeguards and resolve omission semantics; retain optional or shape-scoped types and copied-prose enforcement as open extensions. The [coverage assessment](../../+/_WORK/ki.ways-of-working/design/interim-cover.md#interim-metadata---the-proposed-taxonomy-and-mirrors-remain-interim) holds the full gap list and existing receiver-owned routes. Standards and checks precede separately authorised territory rollouts; interim adoption grants no provider changes.
 - The thread working rules already in `ki-delegation` - parking tangents, linking records, keeping primary checkouts current, reporting to the owner and refreshing the guidance - are this Project's to refine.
 - A clear state-of-play view may draw on apps-observatory.local, now the [Observatory](observatory.md) Project, and the command-centre ideas in hnr-principal and legal-principal.
 - **Cross-territory vocabulary from Command centre, 2026-10-18.** Under OBS-OWNER on 18 October Kris folded Command centre into the [Observatory](observatory.md) Project and kept cross-territory vocabulary here: "cross-territory vocabulary stays with ways of working". Moved from the Command centre Notes and checkpoint:
