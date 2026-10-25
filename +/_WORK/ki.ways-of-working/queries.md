@@ -207,3 +207,7 @@ b) Return it with the change you want.
 a) (recommended, confidence medium - reviewed, views differ: the reviewer's point that a knowledge base is a governed repository kind is sound, and a short line can say these apply only to knowledge bases) Include all sixteen, with the knowledge-base skills marked as applying only to knowledge bases.
 
 b) Keep the live twelve and leave the knowledge-base skills to their own areas.
+
+## Parked
+
+None.
