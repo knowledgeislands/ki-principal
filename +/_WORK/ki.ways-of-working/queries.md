@@ -296,6 +296,38 @@ a) (recommended, confidence high - reviewed: a masked Codex review agreed; 230 o
 
 **Options:** a) (recommended, confidence high - a one-line tap workflow change with no behaviour change) Print the line to the log as well, and point the release guide's step 6 at it. b) Leave it, and reword the guide to treat the receiver's run as the proof. c) Do nothing.
 
+### MGIT-CACHE-SCOPE - what to build first
+
+**Context:** Six routes were weighed. The Codex review and the note agree that `--repos-from` (an explicit path-list selector, route F) is the right primitive and that teaching `push` to skip locally (route C) is wrong. They differ on timing for your two-flag cache (route D): the reviewer would ship F and the `sync` direction switches first and defer D until isolation is specified; the note says the selection key, membership check, stop-on-expiry and an optional set name specify it, and that F alone gives you nothing at the prompt without `jq`.
+
+**Query:** Which shape goes to `tools-mgit` as the first record?
+
+**Options:** a) (recommended, confidence medium - reviewed blind on Codex, which disagrees on timing, agreeing on everything the first cut would contain) `--repos-from` and `--to-cache [NAME]`/`--from-cache [NAME]` together, one record; `sync --push-only` and `--pull-only` as a second record. b) `--repos-from` and the `sync` switches first; the cache flags as a later record once the primitive has been used. c) The cache flags alone as you proposed, one default slot, no `--repos-from` and no name.
+
+### MGIT-CACHE-EXPIRY - what `--from-cache` does when the set is missing or older than five minutes
+
+**Context:** Your words were that after expiry "you can still do mgit st and it works as standard", which is true of the plain command either way. The open point is the flagged command. mgit's habit is to stop on selector conflicts and KI zero matches rather than widen; a `--from-cache reset --hard` that silently ran everywhere would be the worst outcome of the feature. The reviewer agrees that missing or expired state must stop.
+
+**Query:** When the set is missing or expired, does `--from-cache <command>` stop with an error, or run the full set with a warning?
+
+**Options:** a) (recommended, confidence high - reviewed; stopping is the only safe behaviour for a destructive follow-up and costs one re-run) Stop with a one-line error naming the set's age and the fix, exit 2, nothing dispatched; a fresh empty set runs nothing and exits 0. b) Warn and run the full selection, as plain `mgit <command>` would.
+
+### MGIT-CACHE-TTL - whether five minutes is fixed
+
+**Context:** You set "not more than 5 minutes". The note fixes 300 seconds from the sweep's start, with no option, so the behaviour is the same on every machine and in every script. A configurable limit would need a setting home mgit does not yet have beyond templates.
+
+**Query:** Is the five-minute limit fixed, or configurable?
+
+**Options:** a) (recommended, confidence high - one constant, no new configuration surface, and your words set the bound) Fixed at five minutes from the sweep's start. b) Configurable, with five minutes as the default, by an environment variable or a future `mgit` setting.
+
+### MGIT-PUSH-ALIAS - adopting the no-cache push guard today
+
+**Context:** Route B is a one-line `mgit -R sh -c '...'` guard that pushes only checkouts ahead of their upstream, costs no network for level ones, keeps push failures visible, and needs no change to mgit. Tested read-only on this machine. It would live in chezmoi as an alias such as `mpush`, handed to the ki.chezmoi work as a message.
+
+**Query:** Do you want the alias now, independent of what `tools-mgit` builds?
+
+**Options:** a) (recommended, confidence high - zero cost, available today, and it remains useful after the cache ships) Yes: hand the alias to ki.chezmoi as a `messages.md` line, and learn `push` over a level set so a plain `mgit push` is quiet. b) No: wait for the `tools-mgit` record.
+
 ## Parked
 
 - PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.
