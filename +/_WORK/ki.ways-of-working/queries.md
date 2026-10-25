@@ -190,25 +190,25 @@ b) Leave it to coordinator habit.
 
 ### COMMIT-CADENCE - commit the work folder at every write and every wake
 
-**Context:** You said on 25 October that work sits uncommitted in the work folder for a long time, which makes it hard to keep repositories in sync with the remote and with the other sessions that write into work packages. Today the standard requires a commit and push only at a send, an owner receive, a mark, a hold and finish, so message dispositions, queries, decisions, briefs, state changes and heartbeat wakes go uncommitted. The coordinator already works this way as a habit since 01:34 BST; this makes it the rule. The push half is PACKAGE-PUSH below. A masked blind review is running.
+**Context:** You said on 25 October that work sits uncommitted in the work folder for a long time, which makes it hard to keep repositories in sync with the remote and with the other sessions that write into work packages. Today the standard requires a commit and push only at a send, an owner receive, a mark, a hold and finish, so message dispositions, queries, decisions, briefs, state changes and heartbeat wakes go uncommitted. The coordinator already works this way as a habit since 01:34 BST; this makes it the rule. The push half is PACKAGE-PUSH below. A masked blind review on Codex agreed, adding that a pull with rebase runs only when it is safe for the shared checkout, never disturbing another session's uncommitted files, and that a clean wake makes no empty commit.
 
 **Query:** Should the standard, the output style and the hook line require a commit by explicit path at every work-folder write and every wake, pulling with rebase first and pushing fast-forward, so no write stays uncommitted past the turn that made it?
 
 **Options:**
 
-a) (recommended, confidence medium - it fixes the cause you described with no new authority, but it adds a commit to nearly every coordinator turn) Adopt the cadence, with a line written into other work's `messages.md` committed and pushed at once.
+a) (recommended, confidence high - reviewed; it closes the gap that leaves shared packages stale, with no new authority) Adopt the cadence with the review's safeguards, a line written into other work's `messages.md` committed at once, and publication still under the push rule.
 
 b) Leave the send, receive, mark and hold cadence as it is.
 
 ### PACKAGE-PUSH - push other sessions' work-folder commits stacked beneath your own
 
-**Context:** You set on 14 October that a session pushes only when its own commits alone are stacked, and on 19 October that it never pushes another session's stacked commits. In a Capital those are nearly always other sessions' `+/_WORK/` commits, such as a `messages.md` line routed here, so the coordinator's push stalls until you push by hand. Your 14 October words allow pushing stacked commits a session is confident in and flagging the rest. A masked blind review is running.
+**Context:** You set on 14 October that a session pushes only when its own commits alone are stacked, and on 19 October that it never pushes another session's stacked commits. In a Capital those are nearly always other sessions' `+/_WORK/` commits, such as a `messages.md` line routed here, so the coordinator's push stalls until you push by hand. Your 14 October words allow pushing stacked commits a session is confident in and flagging the rest. A masked blind review on Codex agreed, adding that the session inspects every unpublished commit's changed paths, renames included, and stops on divergence or doubt.
 
 **Query:** May a session push a fast-forward stack in which other sessions' commits touch only `+/_WORK/` paths, keeping the own-commits-only rule for every other stacked commit?
 
 **Options:**
 
-a) (recommended, confidence medium - work-folder commits are package state, not product, and this removes the stall, but it relaxes a rule you set) Yes, for `+/_WORK/`-only commits, fast-forward only and never forced.
+a) (recommended, confidence high - reviewed; a narrow package-only exception removes the stall and keeps the boundary for everything else) Yes, when every other session's stacked commit touches only `+/_WORK/` paths, checked commit by commit, fast-forward only and never forced.
 
 b) No, keep own-commits-only pushing and rely on COMMIT-CADENCE alone.
 
