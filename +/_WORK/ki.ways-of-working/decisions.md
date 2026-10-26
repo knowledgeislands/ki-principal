@@ -545,3 +545,9 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
 - 08:28 GMT, 26 October: AWAY-GRANT-2 reached its end time; wakes stopped.
 
 - 2026-10-26 21:13 GMT: Kris returned: "hi, I'm back!" Read back as: AWAY-GRANT-2 is over (it had already reached its end time at 08:28 GMT); the return report stands as given; the mark moves only when Kris says so.
+
+- 2026-10-26 21:20 GMT: Kris asked to take the three release-chain queries interactively first, then fold the answers into a rebuilt review pack, move through the rest bit by bit, and finish with a full rundown: "Do you want to talk me or ask me through those three key queries first and then we can move through this bit by bit and then at the end of this you can give me a full rundown?"
+
+- 2026-10-26 21:20 GMT: REL-MACOS-OOM answered "Fix test, cap heap and release v0.14.1 (recommended, high confidence)". Read back as: on tools-ki main, cut agent-control.test.ts's memory use (split the file or free fixtures between groups), give the package job's test step a NODE_OPTIONS=--max-old-space-size ceiling matched to the runner, require all three package jobs to pass the full suite, tag and release v0.14.1, then continue the pin and website steps against it; v0.14.0 stays unpublished in place.
+
+- 2026-10-26 21:20 GMT: TOOLSKI-DEPCRUISE answered "Fold into release run". Read back as: the same release run renames tools-ki's checker root to tooling/depcruise everywhere it is named (ci.yml, src/core/agent/worktrees.ts, the worktree contract test, package.json, boundary tests) and bumps tools-ki's own KI_VERSION to v0.14.1 once it installs.
