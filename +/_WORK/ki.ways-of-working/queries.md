@@ -160,7 +160,7 @@ c) Leave both citations as they are, treating the dead path as historical.
 
 a) (recommended, confidence medium - the shapes are mechanical but each package's `covers`, parent and queue lines carry meaning only its steward knows) One run per territory sweep: `+/_WORK/ki` and the Project packages ki.ways-of-working stewards, with a read-back of every changed field.
 
-b) Each package's steward fixes its own at its next mark.
+b) (blind review's pick, confidence medium - definition, queue and state fixes belong to each package's assigned steward; the reviewer counted 38 failures from the subtotals, not 40) Each package's steward fixes its own at its next mark.
 
 c) Leave them until the work-package standard settles.
 
@@ -170,7 +170,9 @@ c) Leave them until the work-package standard settles.
 
 a) (recommended, confidence high - the rename is the closed list's own shape and loses nothing) Rename the nine to `<name>.report.md`, move `adobe-remove.sh` beside its design note's diagram sources or delete it if the note no longer cites it, and keep `spec-sched.brief.md` as `briefs/spec-sched.brief.md`.
 
-b) Delete the nine reports if their outcomes are homed, and the script and brief with them.
+b) (blind review's pick, confidence medium - there are ten `report-*.md` files, not nine, and the design note still cites `adobe-remove.sh`, so the script needs a home outside the work folder, since `design/` admits no scripts) Rename the ten retained reports to `<name>.report.md`, move the brief to `briefs/`, move the script to an agreed home outside the package and repoint the design note.
+
+c) Delete the reports if their outcomes are homed, and the script and brief with them.
 
 ### STRUCTURE-1 - ki.specifications holds no regular work file
 
@@ -178,7 +180,7 @@ b) Delete the nine reports if their outcomes are homed, and the script and brief
 
 a) (recommended, confidence medium - I did not open the folder beyond the audit line, so the cause is unverified) Restore `work.md` from its last committed version and re-audit.
 
-b) Close the folder under `ki-work-package` if the Project has moved.
+b) (blind review's pick, confidence high - Git records `work.md` renamed exactly to `ki.portable-specifications/work.md` in `a90aea3b` and the Project note confirms it; the folder now holds only reports, so restoring would recreate moved work) Close the folder under `ki-work-package` after the close-out checks that its outcomes and queries are homed.
 
 ### COORD-7-REST - fifty-one identifiers with no local target
 
@@ -192,7 +194,7 @@ b) Leave the 51 as the standing floor for these reports and change the checker t
 
 **Context:** `docs/decisions/OPEN.md` is the open-questions list beside the records. It is read by `docs/design-review/generators/build-boards.ts` and linked from the README and several specs, so moving it is a small engineering change, not a mechanical one. **Query:** Where should the open-questions list live? **Options:**
 
-a) (recommended, confidence high - keeps the file one directory up with its generator and links repointed in the same commit) Move it to `docs/OPEN.md` and repoint the generator and links.
+a) (recommended, confidence high - reviewed: an open-questions list is not a Decision Record and the decisions collection admits only records and its index; the generator, README, AGENTS.md, DESIGN.md, specs and the file's own relative links all need repointing) Move it to `docs/OPEN.md` and repoint the generator and links.
 
 b) Keep it and exempt it in the ki-design skill configuration.
 
@@ -200,7 +202,7 @@ b) Keep it and exempt it in the ki-design skill configuration.
 
 **Context:** ki-guides treats `docs/spec/` as a retired root, but in ki-design it holds the nineteen live specification pages. Moving them to `docs/specs/` under ki-specs is a reclassification of the design specification, not a rename. **Query:** Should the design specification adopt ki-specs under `docs/specs/`, or be declared a guide root? **Options:**
 
-a) (recommended, confidence medium - ki-specs is the territory's shape for accepted behaviour, but the pages mix rationale and specification) Adopt ki-specs: rename to `docs/specs/`, add the ki-specs front matter in one run and repoint the links.
+a) (recommended, confidence high - reviewed: the pages define design rules, contracts and tested floors and the guide standard retires `docs/spec/`; of the 19 files two hex-terrain proposals are drafts and must stay draft, and the ancillary pages need classifying) Adopt ki-specs: rename to `docs/specs/`, add the ki-specs front matter in one run and repoint the links.
 
 b) Declare `docs/spec/` in `.ki.toml` as the guide root and keep the pages as they are.
 
@@ -227,6 +229,84 @@ b) Brief a separate run to check the configuration anyway.
 a) (recommended, confidence high - a read-only run watch is the smallest lift) Lift `gh run watch` for pushed commits in future briefs that ask for CI observation.
 
 b) Leave CI observation to the coordinator's next check.
+
+### COMMIT-VS-CI - what should run at commit time and what in CI
+
+**Context:** The canonical pre-commit hook runs lint-staged (which rewrites staged files), syncpack, shape-specific lints and one `ki repo audit --staged --skill <shape>`. It costs one to two seconds on an ordinary commit but 13 to 19 s on an empty-index path in two repositories, and its audit never includes ki-authoring, so Markdown outside the staged set is never checked locally. CI runs the full audit over every declared skill, but only 23 of 51 repositories have the workflow, and CI also runs `ki repo repair` in its checkout, so a CI pass does not prove the committed tree conforms. The owner of the hook composition and HOOK-1 to HOOK-5 is `ki-repo` in ki-agentic-harness ([standards-repository.md](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/keystone/ki-repo/references/standards-repository.md)); the hook writer is `ki repo conform` in tools-ki; the CI workflow is also `ki-repo`'s.
+
+**Query:** Should commit time keep only fast, check-only, staged lints and leave every audit to CI, or keep the staged audit in the hook?
+
+**Options:**
+
+a) (recommended, confidence medium - the measured cost is low on the normal path but the empty-index outliers and the write-in-hook behaviour both break the "commit what I staged" expectation, and CI already runs the full audit) Commit time runs check-only staged lints only: `rumdl check` (no `--fix`), `biome check` (no `--write`), syncpack check, shellcheck and mandoc where relevant, and commitlint; the staged `ki repo audit` moves to CI, which drops `ki repo repair` and runs `ki repo audit --repo .` on the tree as committed. Change: `ki-repo` standards-repository.md hook composition and HOOK-4 assets, `ki-engineering` SCR-11 lint-staged commands, `ki-authoring` MD-hook, and the `ci.yml` asset, all in ki-agentic-harness, with the writer in tools-ki `conform` following.
+
+b) Keep the current hook, but make lint-staged check-only and keep the staged audit, accepting the audit outliers; CI unchanged.
+
+c) Keep everything as it is and fix only the CI gap by adding `ci.yml` to the 28 repositories without it.
+
+### LINT-WHERE - where generated Markdown gets linted
+
+**Context:** 85 of the 94 failing files in ki-principal and 15 of the 57 in hnr-principal and legal-principal are run reports and package files written by background agents and the coordinator, not by hand. Nothing in that path lints: the agent writes the report to the state folder, `ki agent` copies it into `+/_WORK` ([runs.ts](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/src/core/agent/runs.ts)), and the coordinator commits it. The commit hook fixes staged Markdown silently where it can, and the whole-tree check lives only in `ki-authoring`'s MD-mech criterion, which runs only in CI's full audit. Owners: `ki-delegation` (report rule and run packet) and `ki agent` in tools-ki for the generator path; `ki-authoring` for MD-hook and MD-mech; `ki-coordination` and `ki-work-package` for what the coordinator may write into the work folder.
+
+**Query:** Where should generated Markdown be linted: in the generator, in the hook, or in CI?
+
+**Options:**
+
+a) (recommended, confidence medium - the generator is the only place that sees every report, including ones never committed, and a check there is cheap at 0.2 s; the hook and CI stay as the backstop) In the generator, check-only: `ki agent` runs `rumdl check` with the receiving repository's `.rumdl.toml` on the report before copying it into `+/_WORK` and marks the run's status line with the failure, never `--fix`, because a fix pass would merge the lettered options of the query form into one line; the `ki-delegation` report rule tells the agent to write lint-clean Markdown; the hook keeps a check-only staged rumdl so a bad report cannot be committed; CI's MD-mech stays the whole-tree backstop. This depends on FORM-VS-RUMDL, since today every well-formed report fails. Change: tools-ki `ki agent` (runs.ts copy step) and the `ki-delegation` brief and report rules in ki-agentic-harness.
+
+b) In the hook only: make every hook, legacy and canonical, run check-only staged rumdl, so the coordinator sees the failure at commit and sends it back to the run; no change to the generator.
+
+c) In CI only: add `ci.yml` to every repository and accept that reports fail later and are fixed by a follow-up run.
+
+### HOOK-DRIFT - converging the 17 legacy gates and the 3 stale Project hooks
+
+**Context:** 17 repositories (the five 5g-emerge sites, acquire, apps-dafacts.org, apps-yorkphotosoc.org, er-agentic-harness, er-principal, hnr-agentic-harness, hnr-principal, infoschematics, legal-agentic-harness, legal-principal, tmx-agentic-harness, tmx-principal) carry an older conform-written hook; the knowledge-base ones among them run an audit with no rumdl, and the website ones run lint-staged with no audit. apps-observatory.local, ki-design and ki-techne-harness carry the Project hook one asset revision behind HOOK-4. Three repositories have no hook. HOOK-4 is WARN until the last wave, so audits do not fail on this. The owner is `ki-repo` in ki-agentic-harness; the mechanism is `ki repo conform` in tools-ki, run per repository.
+
+**Query:** Should the legacy gates be converged to the canonical hooks now by a conform run per repository, before or after COMMIT-VS-CI changes the canonical text?
+
+**Options:**
+
+a) (recommended, confidence high - conforming twice is cheap and the legacy knowledge-base gates are the ones letting Markdown through today) Converge now with one bounded `ki repo conform` run per repository, staged by explicit path to `.githooks/` and `package.json` only, then converge again when COMMIT-VS-CI lands; the three hookless repositories are left to their owners.
+
+b) Wait for COMMIT-VS-CI to settle the canonical text, then converge once.
+
+### BASELINE-COMMITS - what a baseline commit may sweep in
+
+**Context:** 15 local `chore: baseline` commits in ki-principal, and one or more in 39 other repositories, were made during the `ki.baseline-roll` work from 2026-09-26 to 2026-10-25. The ki-principal one of 24 October added 81 run reports that fail rumdl; the hook's lint-staged `--fix` accepted them. The Claude session logs do not record the command, so whether this is `ki-implement`'s immutable-baseline step, `ki-batch` or a hand `git add -A` is not established. Owners: `ki-git` for commit shape and explicit staging, `ki-implement` for the baseline step, both in ki-agentic-harness.
+
+**Query:** Should a baseline commit be allowed to sweep in uncommitted work-folder reports, or should it stage by explicit path like every other commit under `ki-git`?
+
+**Options:**
+
+a) (recommended, confidence medium - the commits are local and provably swept the work folder in, but the tool behind them was not identified) Require explicit-path staging for baseline commits too and have the `ki-implement` baseline step list its paths; a separate run identifies which tool produced the commits before the rule is written.
+
+b) Allow the sweep but run check-only rumdl over the whole tree before the baseline commit so it cannot carry failing Markdown.
+
+### FORM-VS-RUMDL - the query form and the rumdl reflow setting disagree
+
+**Context:** Every run report and coordinator query written to the required form fails MD013 in a principal repository, because `**Context:**`, `**Query:**` and `**Options:**` sit on consecutive lines and `a)`, `b)`, `c)` follow with no blank line, while the principal `.rumdl.toml` (written from `RUMDL_DEFAULT` in `ki-authoring`, [authoring.ts](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-authoring/scripts/rubric/contexts/authoring.ts)) sets `[MD013] line-length = 100000`, `reflow = true`, `reflow-mode = "normalize"`, which asks for each paragraph to be one line. lint-staged's `rumdl check --fix` therefore rewrites a staged report by joining the options into one line, and a check-only run rejects it. This report had to add blank lines after `**Options:**` to pass. Owners: `ki-coordination` and `ki-delegation` in ki-agentic-harness for the form; `ki-authoring` for `RUMDL_DEFAULT`.
+
+**Query:** Should the form change to put a blank line between the Context, Query and Options paragraphs and between the lettered options, or should the rumdl default stop normalising paragraphs?
+
+**Options:**
+
+a) (recommended, confidence high - a blank line between the lettered options keeps "no bullets" and is already what this report does; it leaves the rumdl default, which protects every other document, untouched) Change the form in `ki-coordination` and `ki-delegation`: a blank line after each of `**Context:**`, `**Query:**` and `**Options:**` paragraphs and between lettered options; update the harness output style and the brief template to match.
+
+b) Set `reflow = false` or `reflow-mode = "sequential"` in `RUMDL_DEFAULT` in `ki-authoring` and reconform every repository's `.rumdl.toml`, accepting that hard-wrapped prose elsewhere is no longer flagged.
+
+c) Disable MD013 for `+/_WORK/**` through a rumdl per-path override, leaving the form and the default as they are.
+
+### REPORT-LINT-NOW - clearing the 94 failing ki-principal files
+
+**Context:** 81 committed and 8 uncommitted run reports in `+/_WORK` fail MD013 and a few other auto-fixable rules; one Pillars file fails MD051 on a pruned target. `ki repo conform --skill ki-authoring` would fix all but the MD051 file in one pass, but it rewrites files, and 8 of them belong to runs still being received. Owner: ki-principal through its `ki.ways-of-working` package.
+
+**Query:** Should the committed reports be fixed in one conform run now, or left until LINT-WHERE lands and they are pruned at the next mark?
+
+**Options:**
+
+a) (recommended, confidence high - most of these reports will be pruned at the next mark once their queries are copied, so fixing them is wasted work; the Pillars link is a one-line fix) Leave the committed reports to pruning, fix the one Pillars MD051 link by hand, and let LINT-WHERE stop new ones.
+
+b) Run `ki repo conform --skill ki-authoring` once in ki-principal, staged by explicit path, and commit the fixes.
 
 ## Parked
 
