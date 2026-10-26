@@ -543,3 +543,5 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
 - 08:28 GMT, 26 October: received wow-docs-svg. Cause: the figure shortcode inlined SVGs that contain blank lines, so markdown-it closed the HTML block early and prose landed inside the SVG; 35 figures on 21 docs pages affected. Fixed in apps-knowledgeislands.info a2942ea (blank lines dropped, verify:diagrams build guard, tests); deploy verified live. Observations: the push bypassed the PR-required and build-check branch rules; the local depcruise install was refreshed from the lockfile; Eleventy renders vendored viewer HTML as unlinked pages. No queries.
 
 - 08:28 GMT, 26 October: AWAY-GRANT-2 reached its end time; wakes stopped.
+
+- 2026-10-26 21:13 GMT: Kris returned: "hi, I'm back!" Read back as: AWAY-GRANT-2 is over (it had already reached its end time at 08:28 GMT); the return report stands as given; the mark moves only when Kris says so.
