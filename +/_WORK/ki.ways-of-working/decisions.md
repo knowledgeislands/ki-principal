@@ -539,3 +539,7 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
 - 2026-10-25 13:28 GMT · received wow-review-rel, the masked Codex review: on REL-MACOS-OOM it chose the recommended course independently (high), so that query is lifted to high; on TOOLSKI-DEPCRUISE it chose the alternative (medium), a separate change after the release, because the rename reaches agent worktree preparation and its contract test, so both views are shown. All dispatched work has finished; the window's work now waits on Kris.
 
 - 08:21 GMT, 26 October: Kris: "the SVGs don't look to be working" on <https://knowledgeislands.info/docs/skills/how-the-skills-fit-together/>. Taken as an instruction to diagnose and fix within the window limits; launched wow-docs-svg (website and harness, push rule).
+
+- 08:28 GMT, 26 October: received wow-docs-svg. Cause: the figure shortcode inlined SVGs that contain blank lines, so markdown-it closed the HTML block early and prose landed inside the SVG; 35 figures on 21 docs pages affected. Fixed in apps-knowledgeislands.info a2942ea (blank lines dropped, verify:diagrams build guard, tests); deploy verified live. Observations: the push bypassed the PR-required and build-check branch rules; the local depcruise install was refreshed from the lockfile; Eleventy renders vendored viewer HTML as unlinked pages. No queries.
+
+- 08:28 GMT, 26 October: AWAY-GRANT-2 reached its end time; wakes stopped.
