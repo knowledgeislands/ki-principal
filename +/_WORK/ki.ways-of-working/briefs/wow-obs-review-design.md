@@ -1,9 +1,0 @@
-# wow-obs-review-design - a review view in the Observatory
-
-Kris, 26 October 2026: "I'm just wondering how we can make all this a lot easier on ourselves. Is there a way that we can make use of the observatory a bit better?" and then "Yes, I'm happy with the observatory as the place to do it, please." The Observatory (/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local) is local only; the public website is not to carry work-package content.
-
-Goal: a one-page design proposal, not a build. Today Kris reviews 30-odd open queries as long Markdown in each work package's `queries.md` (format: `ki-coordination` owner report, Context, Query, lettered Options with the recommended one first and its confidence) and answers in chat, which the coordinator reads back into `decisions.md`. Propose an Observatory view that gathers every open query across every work package in the registered repositories, grouped and readable, shows the context and the recommendation plainly, and lets Kris pick an option or write a note that lands as a line in that work's `messages.md` for its coordinator to read back, keeping the coordinator the one writer of `decisions.md` and `queries.md`.
-
-Read what the Observatory already reads and shows (its docs/specs, roadmap and source), the `ki-coordination` and `ki-work-package` standards in ki-agentic-harness, and `design/review-pack.md` here for what Kris found readable. Cover: what exists to reuse, the view, the answer path and its authority, privacy (local only), what in the harness or tools-ki would need to change, and a smallest first slice. Name the Observatory roadmap record(s) it would become, without creating them.
-
-Write it as `+/_WORK/ki.ways-of-working/design/observatory-review.md`, rumdl clean, British English, ASCII hyphens; commit that path alone and push fast-forward. Change nothing in the Observatory or any other repository. Report under the owner-report shape with any queries.
