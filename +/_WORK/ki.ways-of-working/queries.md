@@ -344,14 +344,6 @@ a) (recommended, confidence high - reviewed: a masked Codex review agreed; 230 o
 
 **Options:** a) (recommended, confidence high - reviewed blind on Codex, which verified the line byte-identical itself; the tree is clean, nothing unpublished is lost and the command refuses if a tracked file would be) A bounded run runs `git -C /Users/krisbrown/workspaces/humans-not-robots/hnr-principal reset -q --keep origin/main`. b) An offline `git rebase origin/main`, skipping the one commit when it conflicts; the same end state with an extra step. c) Leave it for the next session working in hnr-principal to level.
 
-### WEB-BUILD-ORDER - website CI runs its tests before the site build
-
-**Context:** The website CI runs the audit, then `bun run test`, then `bun run ki:site:build`. The test "passthrough viewers and SVGs remain byte-identical after the site build" in `apps/site/scripts/verify-diagrams.test.ts` reads `apps/site/dist`, which exists only after the build, so on a clean runner the test step fails whatever `KI_VERSION` says. On a fresh clone the suite failed before the build and passed after it (116 + 15 tests). The release run's brief told it to query rather than fix a failure with another cause.
-
-**Query:** Once a release exists, may the website run move `bun run ki:site:build` before `bun run test` in `.github/workflows/ci.yml`, in the same commit as the `KI_VERSION` bump?
-
-**Options:** a) (recommended, confidence high - the test is a post-build check by design and the fix is one line in a file the run already edits) Yes: reorder build before test in the same commit as the pin bump, and watch CI. b) Bump `KI_VERSION` alone and capture the ordering as a website work record for later. c) Skip or remove the dist-dependent test instead.
-
 ## Parked
 
 - PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.
