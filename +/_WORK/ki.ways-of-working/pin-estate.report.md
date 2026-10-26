@@ -14,7 +14,7 @@
 
 | Repository | Old pin | Commit | Result |
 | --- | --- | --- | --- |
-| apps-observatory.local | v0.8.4 | 93df0cd | red, same as before: ITEM-1 title too long on [KI-OBSERVA-VIS-022](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-022-judge-overdue-against-each-job-schedule.md) |
+| apps-observatory.local | v0.8.4 | 93df0cd | red, same as before: ITEM-1 title too long on [KI-OBSERVA-VIS-022 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/c1f008346dc085a0c25026ea5c9a08b383ef1d5b/docs/roadmap/KI-OBSERVA-VIS-022-judge-overdue-against-each-job-schedule.md) |
 | homebrew-tap | v0.8.4 | 8fafaa5 | green |
 | ki-agentic-harness | v0.10.4 (`.github/ki-version`) | 8f10f40c | red, same as before: 4 KI-LINK-2 broken links to the pruned [KI-HARNESS-GOV-210 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/218b8e3df7c67412382c34960cf4edfc3c7a9152/docs/roadmap/KI-HARNESS-GOV-210-work-model-write-in.md) in ki-coordination, ki-work, ki-work-roadmap and ki-work-folder references, the last one an absolute `/Users/...` path |
 | ki-specifications | v0.8.4 | 37937fa | green |
@@ -26,7 +26,7 @@
 | mcp-housekeeping-claude | v0.8.4 | 0133e7a | green |
 | mcp-ki-kb-fs | v0.8.4 | 6a79b7b | green |
 | mcp-ki-kb-notion-mirror | v0.8.4 | e76c3c6 | green |
-| mcp-m365 | v0.8.4 | 6f39946 | red, same as before: ITEM-5 on [KI-MCP-M365-TOOL-012](/Users/krisbrown/workspaces/knowledge-islands/mcp-m365/docs/roadmap/KI-MCP-M365-TOOL-012-judged-mail-recheck.md), whose dependency KI-MCP-M365-TOOL-010 has been pruned |
+| mcp-m365 | v0.8.4 | 6f39946 | red, same as before: ITEM-5 on [KI-MCP-M365-TOOL-012](/Users/krisbrown/workspaces/knowledge-islands/mcp-m365/docs/roadmap/KI-MCP-M365-TOOL-012-judged-mail-recheck.md), whose dependency [KI-MCP-M365-TOOL-010 (pruned)](https://github.com/knowledgeislands/mcp-m365/blob/8791e726582ac5ae0d276e868b4f77fea2772522/docs/roadmap/KI-MCP-M365-TOOL-010-category-aware-rules.md) has been pruned |
 | tools-git-almanac | v0.8.4 | f210fe8 | green |
 | tools-ki | v0.8.4 | b263ca45 | green |
 | tools-mgit | v0.8.4 | 2400d96 | red, same as before: shellcheck SC2015 at `bin/mgit` lines 3182 and 3208 (not linked to the pin) |
@@ -39,7 +39,7 @@ Nothing is running.
 
 Outstanding - no action requested now:
 
-- The four ki-agentic-harness links to the pruned KI-HARNESS-GOV-210 come under PRUNE-FOLLOW-UP's link-pinning run.
+- The four ki-agentic-harness links to the pruned [KI-HARNESS-GOV-210 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/218b8e3df7c67412382c34960cf4edfc3c7a9152/docs/roadmap/KI-HARNESS-GOV-210-work-model-write-in.md) come under PRUNE-FOLLOW-UP's link-pinning run.
 - The other red repositories have failures that existed before this run, and each belongs to its own repository's owner. Each repository can pick these up in its next session:
   - the overlong apps-observatory.local title
   - the dangling dependency in mcp-m365

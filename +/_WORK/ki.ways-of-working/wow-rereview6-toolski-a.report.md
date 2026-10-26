@@ -1,8 +1,8 @@
-VERDICT: REFUSE · confidence high - Legacy replay can still lose completion, and release jobs lack history required by the new tests.
-
 # [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Ways of working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md) › wow-rereview6-toolski-a
 
 **🤖 → 👤 Handoff to supervisor · blocked · Run report at 11:40 BST · last mark 08:24 BST**
+
+VERDICT: REFUSE · confidence high - Legacy replay can still lose completion, and release jobs lack history required by the new tests.
 
 ---
 
@@ -37,7 +37,6 @@ Reviewed `51725e8b..219968a0` independently: `805e4d36`, `b2d8e795`, `4cd0ab87`,
 7. **Non-blocking — the four-step release sequence is sound after correcting both blockers and renewing admission evidence.** [fixing report:45](/Users/krisbrown/.local/state/ki/agents/ways-of-working/wow-toolski-fix-6.report.md:45) cannot currently justify “admit now.” Its separation of the migration is correct. Step 2 needs the explicit integration exception above. Step 3 needs separately authorized release preparation and publication: keep the old tooling layout and CI pin, select an immutable Harness revision containing `db5e3cff`, verify its digest and host compatibility, and publish a new exact KI release through normal gates and clean-install proof. Step 4 must combine the held migration with the CI pin change to that available release, rerun that release's audit on the combined tree, and provision primary dependencies before launching worktrees. Neither release availability alone nor current source pin `52779419` makes `219968a0` compatible with today's pinned audit.
 
 8. **Non-blocking — remaining earlier review-c and attribution notes.** [earlier review-c](/Users/krisbrown/.local/state/ki/agents/ways-of-working/wow-rereview5-c.report.md:1) correctly observed rebase fidelity and the homing conjunction, but its unconditional admission/fast-forward conclusion is superseded by findings 1, 2 and 6. Its trailer, author-address and guide observations, and review-b F4, remain cosmetic and require no admission fix; the pre-migration guide correctly names `tooling/boundaries`. The supplied earlier-report filenames containing `-toolski-` do not exist; I reviewed the matching range reports at `wow-rereview5-a.report.md`, `wow-rereview5-b.report.md` and `wow-rereview5-c.report.md`.
-
 
 9. **Non-blocking for this range — pre-existing snapshot portability limits the green-CI claim.** [agent-compatibility.test.ts:103](/Users/krisbrown/.local/state/ki/worktrees/tools-ki/wow-toolski-integrate-f579054bcd51/src/tests/cli/agent-compatibility.test.ts:103) normalizes the lexical fixture root, while its saved expectations at [the snapshot:701](/Users/krisbrown/.local/state/ki/worktrees/tools-ki/wow-toolski-integrate-f579054bcd51/src/tests/cli/__snapshots__/agent-compatibility.test.ts.snap:701) retain macOS's private-path prefix. The first full pinned audit failed four footer snapshots under a canonical temporary path; untouched `51725e8b` reproduces exactly the same four failures. Restoring the usual macOS symlink spelling makes all seven compatibility cases pass without edits. This is outside the reviewed range. I infer that Ubuntu's canonical temporary paths also need checking before claiming hosted CI is green; this review did not run Linux. The reported final audit outcome uses the normal macOS path semantics and does not establish cross-platform release readiness.
 

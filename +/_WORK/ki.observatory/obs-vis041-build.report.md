@@ -6,7 +6,7 @@
 
 ## Done
 
-[KI-OBSERVA-VIS-041](</Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-041-git-view-replaces-repositories.md>)'s read-parity phase is delivered and awaiting review. There were no writes, no launchers and no Claude suggestion. The commits are local on `main` and not pushed:
+[KI-OBSERVA-VIS-041 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/c1f008346dc085a0c25026ea5c9a08b383ef1d5b/docs/roadmap/KI-OBSERVA-VIS-041-git-view-replaces-repositories.md)'s read-parity phase is delivered and awaiting review. There were no writes, no launchers and no Claude suggestion. The commits are local on `main` and not pushed:
 
 1. `fb456ef`: contracts and evidence, covering the root and folder labels, the unpushed and earlier commits, and the diff reader.
 2. `45d5dea`: the `GET /api/repositories/diff` route, with OBS-CONTRACT-002 and the new OBS-BOUND-016 recorded in the specs.
@@ -47,17 +47,27 @@ Nothing. The record is in awaiting-review, and accepting it is the owner's decis
 ## Queries
 
 **Context:** The full Chromium build is not installed, so I ran the browser smoke check on the headless Chromium shell. The Git viewer flow passes. Other flows report a dimming timing failure in every view and Mermaid frames being refused. I didn't compare these with a run on the commit before my changes, so I can't yet say they come from the headless shell rather than this work (medium confidence).
+
 **Query:** How should the smoke check's other failures be confirmed?
+
 **Options:**
+
 a) (recommended, confidence high - confirming takes one run each and needs no change) In an interactive session, install the full Chromium build and run `bun run self:test:browser` on `04a2ebb` and on `d27363a`, then compare the two.
+
 b) Accept the Git viewer flow alone as this record's smoke evidence.
+
 c) Open a separate record for the smoke check under the headless shell.
 
 **Context:** The detail panel keeps its existing list of the ten most recent commits, because the boundary kept it. That list now overlaps the new unpushed and earlier lists.
+
 **Query:** Should the ten-commit list stay?
+
 **Options:**
+
 a) (recommended, confidence medium - the new lists cover the same commits more clearly) Drop it in a small follow-up once this record is accepted.
+
 b) Keep it as it is.
+
 c) Shorten it to commits older than the earlier five.
 
 ```text

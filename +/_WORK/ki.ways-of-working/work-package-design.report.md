@@ -7,6 +7,7 @@
 ## Done
 
 Stocktake, read-only: covered the 11 live work folders in ki-principal and `kb.regular.acquire-intake` in personal/acquire, the 6 folders under `+/_WORK_REVIEW/` (5 in ki-principal, 1 in ki-agentic-harness), and the old-shape records in 7 other Capitals (20 checkpoints, 18 thread entries). The result is a per-folder table and ten findings. In short:
+
 - Work files run from 103 to 1,577 words.
 - `Next steps` doubles as a log in 4 of the 11.
 - In 6 of the 11, open queries have no text anywhere in the repository.
@@ -18,12 +19,13 @@ Stocktake, read-only: covered the 11 live work folders in ki-principal and `kb.r
 - `ki.baseline-rollout` has two folders, one live and one under review.
 
 Design note: [work-package.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/work-package.md), in the ki-work-design brief shape. It sets out:
+
 - the package layout: `work.md` holds the definition, with a routing `description`, Goals and Scope; `state.md`, `queries.md` and `messages.md` are new; `decisions.md`, reports, `briefs/` and `design/` stay as they are
 - the front matter for each file
 - four reveal levels, saying who reads which file and when
 - soft size limits
 - the routing model, built on the review's rules: the register is derived from work files, receipt is compulsory but confers no execution authority, held work keeps its hold, and refresh is targeted, with the receiver recording `method_read`
-- how it fits ki-work-folder, ki-coordination, ki-delegation, the Work Process note, GDR-KI-PRINCIPAL-009 and tools-ki
+- how it fits ki-work-folder, ki-coordination, ki-delegation, the Work Process note, [GDR-KI-PRINCIPAL-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md) and tools-ki
 - a migration plan, with a starting point for each folder
 
 Commit: 5382f613 in ki-principal, by explicit path. The commit gate's repository audit passed with no failures. The commit is local and not pushed. ki-principal `main` is now 24 commits ahead of its remote: this work's earlier commits plus other sessions' `ki.observatory` commits, so Kris decides the push.

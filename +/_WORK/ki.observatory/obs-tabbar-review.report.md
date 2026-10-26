@@ -6,7 +6,7 @@
 
 ## Done
 
-Recommend **b), confidence high**: add Known Lands and allow the existing scrolling bar at 1,440 px; this preserves full titles and separate destinations using behaviour already specified by [PDR-KI-OBSERVA-002](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/decisions/PDR-KI-OBSERVA-002-observatory-design-language.md:57), without anticipating Kris’s designs.
+Recommend **b), confidence high**: add Known Lands and allow the existing scrolling bar at 1,440 px; this preserves full titles and separate destinations using behaviour already specified by [PDR-KI-OBSERVA-002](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/decisions/PDR-KI-OBSERVA-002-observatory-design-language.md), without anticipating Kris’s designs.
 
 Static width check confirmed: 1,341 px today; 1,454 px with the saved `known lands` title. Renaming `review queue` to `review` leaves 1,412 px against 1,392 px available; option a’s 1,356 px requires also calling the new tab `map`.
 

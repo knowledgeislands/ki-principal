@@ -19,7 +19,7 @@ Nothing is running.
 
 Outstanding - no action requested now:
 
-- All five records still lack `size`, and VA-WEBSITE-CONT-005 and VA-WEBSITE-SANC-009 also lack `kind`. The read-only SIZE-KIND run covers these, so this run did not set them.
+- All five records still lack `size`, and [VA-WEBSITE-CONT-005](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-CONT-005-resolve-image-review-flags.md) and [VA-WEBSITE-SANC-009](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SANC-009-close-the-editorial-audit.md) also lack `kind`. The read-only SIZE-KIND run covers these, so this run did not set them.
 - `f0087d7` is unpushed in apps-vallearmonia.com.
 
 ## Queries
@@ -28,17 +28,17 @@ Outstanding - no action requested now:
 
 **Context:** Under Outstanding concerns, [VA-WEBSITE-SITE-003](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SITE-003-consolidate-the-design-system.md) notes that the Sanctuary's `.webc` styles are outside the SITE-RT-033 token guard. The roadmap standard says such a concern needs its own identifier before acceptance, because the concern disappears when the record is pruned. No record carries it today.
 
-**Query:** Should a triage record be captured in apps-vallearmonia.com to extend the token guard to Sanctuary `.webc` styles before VA-WEBSITE-SITE-003 is accepted?
+**Query:** Should a triage record be captured in apps-vallearmonia.com to extend the token guard to Sanctuary `.webc` styles before [VA-WEBSITE-SITE-003](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SITE-003-consolidate-the-design-system.md) is accepted?
 
-**Options:** a) (recommended, confidence high - capture is unadopted and reversible, and the standard requires an identifier before acceptance) Capture one triage record through `ki-next` and cite it in VA-WEBSITE-SITE-003's Outstanding concerns. b) Accept VA-WEBSITE-SITE-003 with the gap recorded as an accepted risk and no follow-on record.
+**Options:** a) (recommended, confidence high - capture is unadopted and reversible, and the standard requires an identifier before acceptance) Capture one triage record through `ki-next` and cite it in [VA-WEBSITE-SITE-003](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SITE-003-consolidate-the-design-system.md)'s Outstanding concerns. b) Accept [VA-WEBSITE-SITE-003](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SITE-003-consolidate-the-design-system.md) with the gap recorded as an accepted risk and no follow-on record.
 
 ### SANC008-SPLIT - Split stage 4 out of the Sanctuary packaging record
 
-**Context:** [VA-WEBSITE-SANC-008](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SANC-008-package-the-sanctuary.md) covers stages 2 to 4 of ADR-VA-WEBSITE-009, which means three chained runs. Stage 4 alone moves 21 components and their test suites into `packages/sanctuary/` and changes the root workspaces, `turbo.json` and `bun.lock`. A record needing several chained runs needs a Delegation section, and an `xl` record cannot become Ready.
+**Context:** [VA-WEBSITE-SANC-008](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SANC-008-package-the-sanctuary.md) covers stages 2 to 4 of [ADR-VA-WEBSITE-009](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/decisions/ADR-VA-WEBSITE-009-the-sanctuary-becomes-a-shared-editorial-library.md), which means three chained runs. Stage 4 alone moves 21 components and their test suites into `packages/sanctuary/` and changes the root workspaces, `turbo.json` and `bun.lock`. A record needing several chained runs needs a Delegation section, and an `xl` record cannot become Ready.
 
-**Query:** Before VA-WEBSITE-SANC-008 becomes Ready, should stage 4 be split into its own record?
+**Query:** Before [VA-WEBSITE-SANC-008](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SANC-008-package-the-sanctuary.md) becomes Ready, should stage 4 be split into its own record?
 
-**Options:** a) (recommended, confidence medium - stage 4 differs in kind and risk from stages 2 and 3, but how big it is depends on how the tests move) Split stage 4 into a new record that VA-WEBSITE-SANC-008 blocks, and keep stages 2 and 3 here. b) Keep all three stages in one record at size `l`, with a Delegation section giving one run per stage.
+**Options:** a) (recommended, confidence medium - stage 4 differs in kind and risk from stages 2 and 3, but how big it is depends on how the tests move) Split stage 4 into a new record that [VA-WEBSITE-SANC-008](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SANC-008-package-the-sanctuary.md) blocks, and keep stages 2 and 3 here. b) Keep all three stages in one record at size `l`, with a Delegation section giving one run per stage.
 
 ### VA-READY - Which plans to approve as Ready
 
@@ -46,7 +46,7 @@ Outstanding - no action requested now:
 
 **Query:** Which of the four drafts should be approved to Ready, and when?
 
-**Options:** a) (recommended, confidence medium - the plans are complete, but size must be settled before Ready and each step needs Kit's input) Once SIZE-KIND has set `size` and `kind`, approve VA-WEBSITE-CONT-005 and VA-WEBSITE-SITE-004. Approve VA-WEBSITE-SANC-009 once Kit's audit doc is reachable, and VA-WEBSITE-SANC-008 after SANC008-SPLIT. b) Keep all four in draft until each is next selected for delivery.
+**Options:** a) (recommended, confidence medium - the plans are complete, but size must be settled before Ready and each step needs Kit's input) Once SIZE-KIND has set `size` and `kind`, approve [VA-WEBSITE-CONT-005](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-CONT-005-resolve-image-review-flags.md) and [VA-WEBSITE-SITE-004](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SITE-004-choose-the-home-page-layout.md). Approve [VA-WEBSITE-SANC-009](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SANC-009-close-the-editorial-audit.md) once Kit's audit doc is reachable, and [VA-WEBSITE-SANC-008](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SANC-008-package-the-sanctuary.md) after SANC008-SPLIT. b) Keep all four in draft until each is next selected for delivery.
 
 ### 🤖 → 👤 Handoff to supervisor · since 00:09 BST
 

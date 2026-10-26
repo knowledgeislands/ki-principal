@@ -27,7 +27,7 @@ Outstanding - no action requested now:
 
 - The ki-pmo to ki-coordination rename sits uncommitted in the ki-agentic-harness working tree, from another session. The note cites the `ki-pmo` paths and says so.
 - `+/_WORK/ki.ways-of-working/harness-followups.report.md` and `release-ki.report.md` are untracked from other runs, and `+/_THREADS/` is untracked. I left all three alone.
-- The two records that would carry the follow-up are in triage or review: [KI-HARNESS-GOV-200](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md) is in triage and [KI-HARNESS-GOV-212](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-212-work-area-ownership.md) is awaiting review. [KI-TOOL-KI-CLI-147](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-147-agent-state-folder-tooling.md) is done and is the base the tools-ki changes build on.
+- The two records that would carry the follow-up are in triage or review: [KI-HARNESS-GOV-200 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md) is in triage and [KI-HARNESS-GOV-212 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/406226abdd7d555db897c0d503041b48881d44ae/docs/roadmap/KI-HARNESS-GOV-212-work-area-ownership.md) is awaiting review. [KI-TOOL-KI-CLI-147 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/683abf5f46e6e6e7076033c82b16981b90a73b56/docs/roadmap/KI-TOOL-KI-CLI-147-agent-state-folder-tooling.md) is done and is the base the tools-ki changes build on.
 
 ## Queries
 
@@ -50,8 +50,11 @@ Under this division:
 **Query:** Should one work-folder skill own the folder, divided as in §4 of the note?
 
 **Options:**
+
 a) (recommended, confidence medium - the contradictions are verified in the files; the rename is not yet committed) Use the §4 division: the work-folder skill owns shape and tidy rules, ki-coordination owns timing and judgement, ki-delegation owns the run side only, and ki-work-design owns graduation.
+
 b) ki-coordination owns the whole folder, and ki-checkpoint keeps only `work.md`.
+
 c) Leave ownership as it is and only fix the contradictions.
 
 ### WORK-FOLDER-NAME - Name for the work-folder skill
@@ -66,15 +69,18 @@ c) Leave ownership as it is and only fix the contradictions.
 **Query:** Which name should the skill take?
 
 **Options:**
+
 a) (recommended, confidence medium - plainest match to what it owns, and no clash) `ki-work-folder`.
+
 b) `ki-work-pack`.
+
 c) `ki-work-file`.
 
 ### WORK-FOLDER-CHECKS - Where the enforcement work goes
 
 **Context:** The tidy rules need checking in two places.
 
-The rubric checks in `ki repo audit`, to go in KI-HARNESS-GOV-200:
+The rubric checks in `ki repo audit`, to go in [KI-HARNESS-GOV-200 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md):
 
 - A file kind outside the closed list fails.
 - These warn:
@@ -94,13 +100,16 @@ The tools-ki changes:
 
 `ki agent sweep` stays out of the work folder.
 
-You asked on 18 October to fold work into existing records rather than open new ones. [KI-HARNESS-GOV-200](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md) is the natural home for the rubric work, but tools-ki owns its own roadmap.
+You asked on 18 October to fold work into existing records rather than open new ones. [KI-HARNESS-GOV-200 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md) is the natural home for the rubric work, but tools-ki owns its own roadmap.
 
 **Query:** Where should the enforcement work be recorded?
 
 **Options:**
-a) (recommended, confidence medium - this respects each repository's ownership of its own roadmap) Fold the rubric and skeleton checks into KI-HARNESS-GOV-200, and add one new tools-ki record for the close-gate parse, the unnumbered `decide`, `work message` and `work prune`.
-b) Fold everything into KI-HARNESS-GOV-200 as a cross-repository handoff.
+
+a) (recommended, confidence medium - this respects each repository's ownership of its own roadmap) Fold the rubric and skeleton checks into [KI-HARNESS-GOV-200 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md), and add one new tools-ki record for the close-gate parse, the unnumbered `decide`, `work message` and `work prune`.
+
+b) Fold everything into [KI-HARNESS-GOV-200 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md) as a cross-repository handoff.
+
 c) Defer until the rename lands.
 
 ### WORK-GATE-BLOCKED - ki-principal commit gate fails during the rename
@@ -110,5 +119,7 @@ c) Defer until the rename lands.
 **Query:** How should the design note get committed?
 
 **Options:**
+
 a) (recommended, confidence high - nothing destructive, and the gate clears by itself once the rename is complete) Let the rename session update ki-principal's `.ki.toml` to `ki-coordination` as part of its rename. Then commit `+/_WORK/ki.ways-of-working/design/work-folder.md` by explicit path and push fast-forward, in that session or a short follow-up run.
+
 b) Authorise this run, relaunched, to change the `.ki.toml` declaration itself and commit both together.

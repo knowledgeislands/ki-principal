@@ -47,7 +47,7 @@ Outstanding - no action requested now
 - `src/core/agent/thread.ts`: it still keys on `work.md`, which a package keeps, so it works as it is. It should also write route receipt into `messages.md`.
 - `src/core/configuration/resolution.ts`: a native alias resolving `ki-work-folder` to `ki-work-package`.
 - `man/ki.1`, `man/ki.commands.json` and the help text: rename the skill.
-- [KI-TOOL-KI-CLI-150](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md) and [KI-TOOL-KI-CLI-152](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-152-work-folder-housekeeping-commands.md): their links to `ki-work-folder/references/standards-work-folder.md` now break, and should point to `ki-work-package/references/standards-work-package.md`.
+- [KI-TOOL-KI-CLI-150 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/4f8d97d221f98d896b642160c0561cdfd8c06b84/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md) and [KI-TOOL-KI-CLI-152 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/fde00e978a4c9b0e697252bac3e0979f09d85e8c/docs/roadmap/KI-TOOL-KI-CLI-152-work-folder-housekeeping-commands.md): their links to `ki-work-folder/references/standards-work-folder.md` now break, and should point to `ki-work-package/references/standards-work-package.md`.
 
 **Observatory changes needed:**
 
@@ -76,7 +76,9 @@ Outstanding - no action requested now
 **Query:** Should the enact run switch every declaration now, or should tools-ki map the alias onto the full checks?
 
 **Options:**
+
 a) (recommended, confidence high - a one-line `.ki.toml` change per repository, already made in the harness) Switch the declarations in ki-principal and the eight principals during the enact run, and remove the alias once none is left.
+
 b) Add a native alias in tools-ki that runs the `ki-work-package` checks under the old name, and switch the declarations later.
 
 ### HARNESS-PUSH - Another session's commits sit under this run's commits
@@ -86,7 +88,9 @@ b) Add a native alias in tools-ki that runs the `ki-work-package` checks under t
 **Query:** Will you push all four commits, or hold until the acquire session pushes its own?
 
 **Options:**
+
 a) (recommended, confidence medium - the combined tree tests clean, but I have not reviewed the acquire commits themselves) Push all four after a look at the acquire commits, and ask the acquire session to fix the FILES-10 table order.
+
 b) Hold until the acquire session pushes its commits, then push this run's two.
 
 ### 🤖 → 👤 Handoff to supervisor · since 14:40 BST

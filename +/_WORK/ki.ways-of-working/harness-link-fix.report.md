@@ -7,7 +7,7 @@
 ## Done
 
 - Checkout: clean before and after the run, with no other session's uncommitted files; pulled fast-forward to `db30d0ca` with nothing new.
-- Link changed: in [standards-work-package.md](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md) line 324, the [KI-TOOL-KI-CLI-150](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md) citation now points to `https://github.com/knowledgeislands/tools-ki/blob/main/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md`. The wording is unchanged. No generated surface carries this text, so nothing needed regenerating.
+- Link changed: in [standards-work-package.md](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md) line 324, the [KI-TOOL-KI-CLI-150 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/4f8d97d221f98d896b642160c0561cdfd8c06b84/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md) citation now points to `https://github.com/knowledgeislands/tools-ki/blob/main/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md`. The wording is unchanged. No generated surface carries this text, so nothing needed regenerating.
 - KI-LINK-2 scope: this was the only absolute local link in skill Markdown outside code. The two other `/Users/...` hits, in `ki-coordination`'s standard (fenced and inline-code examples) and its test fixture, are not checked as links, so I left them alone.
 - Checks: `bun run test` passed (1286 pass, 0 fail). `bunx tsc --noEmit` passed. `ki repo audit --skill ki-work-package` passed. `ki repo audit --repo .`, the CI audit command, still fails on one other finding, FILES-10 (below).
 - Commit: `ec30caaf fix(ki-work-package): repoint absolute local links`, on its own, pushed fast-forward and now on `origin/main`. The remote accepted it with its usual bypass notice for direct pushes to `main`.
@@ -30,5 +30,7 @@ Outstanding - no action requested now:
 **Query:** Should a follow-up run move `[skills.ki-acquire]` above `[skills.ki-trades]` so the harness CI goes green?
 
 **Options:**
+
 a) (recommended, confidence high - the audit message names the exact line, and the change is a non-destructive reorder) Launch a short harness run to reorder the table, rerun the audit and tests, and commit and push it as `fix(config): keep ki-trades the last skills table`.
+
 b) Leave it for the owner of the ki-acquire consolidation to fix in their next harness change.

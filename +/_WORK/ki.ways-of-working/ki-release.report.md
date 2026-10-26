@@ -11,7 +11,7 @@
 - This Mac's Homebrew `ki` is now 0.11.3 and reports itself as a release install. The `ki` first on the PATH is still the local link to the tools-ki checkout, which also reports 0.11.3.
 - The release pins ki-agentic-harness main at `fdbb73d8`, with its archive digest checked twice (commit `9cc2f0b6`). That commit includes:
   - GLYPH-OWNER and RESUME-PWD, from commit `5f8d6165`
-  - [KI-HARNESS-GOV-197](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-197-pmo-7-outside-checkout-links.md)
+  - [KI-HARNESS-GOV-197 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/95a1ab5818d2fb38b51af391cc3927ca5b1c6e9d/docs/roadmap/KI-HARNESS-GOV-197-pmo-7-outside-checkout-links.md)
   - SCR-11
   - the ki-repo-tools command-line conventions
 - I tagged and released v0.11.3 the same way as v0.11.2: a plain tag, then the release workflow dispatched by hand. The "signed" part is the Ed25519-signed checksum manifest, as the release guide describes.
@@ -22,7 +22,7 @@
 - tools-ki CI on main had been red since the threads-fix commit. It is green again on the release commit.
   - Cause 1: the generated command list in `man/` was out of date. The regenerated copy is in `3cc88f4f`.
   - Cause 2: some threads-fix code paths had no tests, so 100% coverage failed. I added tests for them in `4f0bf1a8`.
-- The launch part of [KI-TOOL-KI-CLI-150](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md) is not small, so it waits for a later release.
+- The launch part of [KI-TOOL-KI-CLI-150 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/4f8d97d221f98d896b642160c0561cdfd8c06b84/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md) is not small, so it waits for a later release.
   - The record is still in triage, and its planning questions are open.
   - Refusing a report path inside the work folder would reject the current common rules. Those rules, including the ones for this batch, still send reports to `$D/<name>.report.md`.
   - The record now says that v0.11.3 shipped the threads-fix part and the launch part still needs planning (`32b2f7a9`).
@@ -74,12 +74,14 @@ Outstanding - no action requested now:
 **Options:**
 
 a) (recommended, confidence high - each work keeps writing its own files, and it is the fastest route to green CI) One run adds the missing links to the ways-of-working reports. ki.chezmoi, ki.tools-burndown and ki.observatory each get a Messages line asking them to fix their own reports or work file.
+
 b) Prune the affected reports at the next mark instead of linking them, and send ki.observatory a Messages line about its hold fields.
+
 c) Leave CI red until each work's next tidy.
 
-### CLI-150-LAUNCH - Plan the launch part of KI-TOOL-KI-CLI-150
+### CLI-150-LAUNCH - Plan the launch part of [KI-TOOL-KI-CLI-150 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/4f8d97d221f98d896b642160c0561cdfd8c06b84/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md)
 
-**Context:** The rest of [KI-TOOL-KI-CLI-150](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md) has not been released. That includes:
+**Context:** The rest of [KI-TOOL-KI-CLI-150 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/4f8d97d221f98d896b642160c0561cdfd8c06b84/docs/roadmap/KI-TOOL-KI-CLI-150-work-folder-entry-points.md) has not been released. That includes:
 
 - the run outline using the state-folder report path
 - `launch` and `queue` refusing a brief that sends its report into `+/_WORK/<id>/`
@@ -92,5 +94,7 @@ The record is still in triage. Today's common rules still send reports into the 
 **Options:**
 
 a) (recommended, confidence medium - the common rules have to change before the refusal, or every live brief breaks) One planning run makes the launch part Ready with the harness wording. The coordinators' common rules move to the state-folder path first, and then the refusal ships in the next release.
+
 b) Plan the whole record, including the close-gate parsing, `decide`, `ki work message` and `ki work prune`, as one release.
+
 c) Leave it in triage.

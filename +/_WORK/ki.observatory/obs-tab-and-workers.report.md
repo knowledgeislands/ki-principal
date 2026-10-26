@@ -12,9 +12,9 @@
    - Repositories and Roadmap have a `workers` column of running agent runs, each count opening Sessions. Roadmap labels its counts `repo-level` because runs match by repository only.
    - Sessions has a `touches` column that opens Repositories.
    - Every new column is declared to drop at 760 px.
-   - [KI-OBSERVA-VIS-031](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-031-who-is-working.md) was planned to Ready (horizon `now`) and is now awaiting review.
+   - [KI-OBSERVA-VIS-031 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/24c4bd8bfb1956c5ee9e0e2beef846bd06e298a5/docs/roadmap/KI-OBSERVA-VIS-031-who-is-working.md) was planned to Ready (horizon `now`) and is now awaiting review.
    - Commit 52f18bf; gate and audit pass at the baseline (PASS=16 WARN=4 FAIL=0).
-4. Service: restarted. http://127.0.0.1:1675/ answers 200 and serves all sixteen tabs, `known-lands` among them.
+4. Service: restarted. <http://127.0.0.1:1675/> answers 200 and serves all sixteen tabs, `known-lands` among them.
 
 ## In Progress
 
@@ -28,7 +28,7 @@ Nothing. The three commits are local on `main` in apps-observatory.local and hav
 
 **Query:** Should the Repositories and Roadmap tables also show commit authors from Activity?
 
-**Options:** a) (recommended, confidence medium - it needs a separate read of Activity and its own wording for the time window) Open a triage record for commit authors in the tables and keep KI-OBSERVA-VIS-031 to runs. b) Reopen KI-OBSERVA-VIS-031 and add commit authors there before it is accepted. c) Drop commit authors from the tables and leave them to the Workers phase.
+**Options:** a) (recommended, confidence medium - it needs a separate read of Activity and its own wording for the time window) Open a triage record for commit authors in the tables and keep [KI-OBSERVA-VIS-031 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/24c4bd8bfb1956c5ee9e0e2beef846bd06e298a5/docs/roadmap/KI-OBSERVA-VIS-031-who-is-working.md) to runs. b) Reopen [KI-OBSERVA-VIS-031 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/24c4bd8bfb1956c5ee9e0e2beef846bd06e298a5/docs/roadmap/KI-OBSERVA-VIS-031-who-is-working.md) and add commit authors there before it is accepted. c) Drop commit authors from the tables and leave them to the Workers phase.
 
 **WORKERS-JOIN**
 

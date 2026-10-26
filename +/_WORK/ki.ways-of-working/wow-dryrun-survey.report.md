@@ -1,8 +1,8 @@
-VERDICT: inconsistent · confidence high - Defaults and preview flags differ across tools; the current written repair rule also conflicts with write-by-default.
-
 # [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Ways of working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md) › wow-dryrun-survey
 
 **🤖 → 👤 Handoff to supervisor · Run report at 01:04 BST · last mark 02:10 BST**
+
+VERDICT: inconsistent · confidence high - Defaults and preview flags differ across tools; the current written repair rule also conflicts with write-by-default.
 
 ---
 

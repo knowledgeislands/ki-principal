@@ -19,8 +19,9 @@
 Nothing is running.
 
 Outstanding - no action requested now:
+
 - The 5G and legal records stay uncaptured until Kris decides; the rollout plan in the report lists them.
-- [KI-HARNESS-GOV-222](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-222-timeline-and-calendar-skill.md) still says `project: observatory`. Changing that is the harness's call.
+- [KI-HARNESS-GOV-222 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-222-timeline-and-calendar-skill.md) still says `project: observatory`. Changing that is the harness's call.
 - A brief commit-lock clash with another session cleared on retry. Nothing was touched.
 
 ## Queries
@@ -32,9 +33,13 @@ Outstanding - no action requested now:
 **Query:** How should private calendar sets be published?
 
 **Options:**
+
 a) (recommended, confidence medium - honours "publish ... to subscribe to" once proved, keeps court dates off any public URL, and promises nothing the connectors cannot do yet; the coordinator will send this for blind review) Keep private sets unpublished in v1, shown in the base's generated view. Build account sync as a separate adapter after the connector work, prove it on a test calendar and then on a few personal dates, and use the provider calendar's private address for subscribing on other devices.
+
 b) Account sync now, as the brief proposed. This first needs the connector work.
+
 c) An unguessable feed URL on a public host, chosen base by base. Anyone who gets the URL sees every date.
+
 d) A private feed host behind a token-checking Cloudflare Worker. New infrastructure to build and secure.
 
 ### SPAN-FEED - Whether spans appear in calendar feeds
@@ -44,8 +49,11 @@ d) A private feed host behind a token-checking Cloudflare Worker. New infrastruc
 **Query:** Should spans appear in calendar feeds?
 
 **Options:**
+
 a) (recommended, confidence high - both reviews agree spans stay off by default, it matches "a calendar with the milestones", and an opt-in can be added later without changing the model) No, not in v1. Where a span's end matters, that end is its own milestone, and the checks fail any span marked busy.
+
 b) As a), plus an opt-in now for each calendar to show its spans as free all-day blocks.
+
 c) Feeds show a span's start and end as two free markers.
 
 ### SKILL-SHAPE - One skill or a skill plus a view skill
@@ -55,18 +63,23 @@ c) Feeds show a span's start and end as two free markers.
 **Query:** Should the timeline view live in the same skill as the dated items and feeds?
 
 **Options:**
+
 a) (recommended, confidence high - both reviews agree, and the view is generated from the same model) One skill that owns the item model, the feeds and the view data format, with rendering left to the existing website and live-artifact skills.
+
 b) A dated-items skill plus a separate timeline-view skill.
 
 ### SKILL-NAME - The skill's name
 
-**Context:** The naming decision ADR-KI-HARNESS-SKILLS-003 allows all three names, and none is taken. The brief said "timeline" clashes with `ki-diagrams`. The source shows otherwise: `ki-diagrams` never mentions timelines, though Archify does list timeline diagrams. "Calendar" is already the name of the `Calendar/` folder for daily and weekly notes in every base. Kris's own words were "a calendar with the milestones". Both reviews favour `ki-key-dates`.
+**Context:** The naming decision [ADR-KI-HARNESS-SKILLS-003](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/decisions/ADR-KI-HARNESS-SKILLS-003-dependency-order-for-multi-skill-composition.md) allows all three names, and none is taken. The brief said "timeline" clashes with `ki-diagrams`. The source shows otherwise: `ki-diagrams` never mentions timelines, though Archify does list timeline diagrams. "Calendar" is already the name of the `Calendar/` folder for daily and weekly notes in every base. Kris's own words were "a calendar with the milestones". Both reviews favour `ki-key-dates`.
 
 **Query:** Which name should the skill take?
 
 **Options:**
+
 a) (recommended, confidence medium - names the stored source rather than one output, and avoids both the clash with the `Calendar/` folder and the busy-calendar reading; the coordinator will send this for blind review) `ki-key-dates`.
+
 b) `ki-calendars`, matching Kris's words.
+
 c) `ki-timelines`, matching the Project's name.
 
 ### CODE-HOME - Where the shared code lives
@@ -76,8 +89,11 @@ c) `ki-timelines`, matching the Project's name.
 **Query:** Where should the item model, feed builder and checks live?
 
 **Options:**
+
 a) (recommended, confidence high - both reviews agree, it follows the `ki-diagrams` precedent and Kris's shared-code preference, and nothing is published) In the skill's own `scripts/` in the harness, as a core with separate source and provider modules. 5G vendors a copy with a drift check, and `tools-ki` gains a command only if a stable machine interface is needed later.
+
 b) A `ki` command in `tools-ki`.
+
 c) A shared package used through a workspace or a pinned Git reference.
 
 ### ADOPTION-ORDER - The order of adoption
@@ -87,8 +103,11 @@ c) A shared package used through a workspace or a pinned Git reference.
 **Query:** In what order should the bases adopt the skill?
 
 **Options:**
+
 a) (recommended, confidence medium - keeps Kris's three adopters, gets legal its view early with no credentials, and keeps the first real calendar write away from court dates; the coordinator will send this for blind review) 5G first, as a pilot proving the feeds come out unchanged. Then 5G's timeline merge and legal's local timeline. Then the sync adapter, proved on a test calendar and then on a few personal dates. legal's sync comes last.
+
 b) The brief's order: 5G, then all of legal, then personal-principal.
+
 c) legal first, for its urgent dates.
 
 ### LEGAL-VIEW - Where legal's generated timeline lives
@@ -98,8 +117,11 @@ c) legal first, for its urgent dates.
 **Query:** Where should legal's generated timeline live?
 
 **Options:**
+
 a) (recommended, confidence high - the Guide's text is explicit, and the artifact already holds a calendar view) Inside the existing Command Centre artifact, keeping the current Working Note and gantt until legal's owner confirms nothing is lost.
+
 b) A generated Working Note, as today.
+
 c) A new live artifact pair. The Guide forbids this.
 
 ### TIMED-BUSY - A busy item with a time but no end
@@ -109,8 +131,11 @@ c) A new live artifact pair. The Guide forbids this.
 **Query:** How should a busy item with a time but no end be handled?
 
 **Options:**
+
 a) (recommended, confidence medium - keeps "never invent a duration" while making busy mean something; the coordinator will send this for blind review) The checks require a real end, either an end time or `duration_minutes`, and fail the item without one.
+
 b) Write it as an all-day busy item, which blocks the whole day.
+
 c) Allow it and write it with no duration, which blocks nothing.
 
 ### 🤖 → 👤 Handoff to supervisor · since 23:52 BST

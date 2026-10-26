@@ -31,7 +31,7 @@ A Port has four modes, each a district of one Port:
 - **Airport** - fast, long-range connections to distant lands: other systems and agents.
 - **Customs house** (or border crossing) - where what enters or leaves is inspected and declared.
 
-The Port absorbs the Harbour's meaning of "integration point". The Harbour is retired as a Knowledge Islands term and symbol; "harbour" survives only as plain English and as the Port's Arcadian register in prose. The former Port meaning of "operational systems" moves to `Admin/Operations`, drawn as the Mill under [GDR-KI-PRINCIPAL-013](GDR-KI-PRINCIPAL-013-the-causeway-and-the-mill.md).
+The Port absorbs the Harbour's meaning of "integration point". The Harbour is retired as a Knowledge Islands term and symbol; "harbour" survives only as plain English and as the Port's Arcadian register in prose. The former Port meaning of "operational systems" moves to `Admin/Operations`, drawn as the Mill.
 
 **The Lighthouse means guidance. The Council Hall means governance:** decisions, not storage.
 
@@ -40,7 +40,7 @@ The Port absorbs the Harbour's meaning of "integration point". The Harbour is re
 - The Symbol Library, Visual Style, Structure, The Home of Knowledge and the Philosophy notes that name the island's places use the Port, and the Lighthouse and Council Hall with their separate meanings.
 - Earlier Decision Records and roadmap records keep their Harbour wording as a historical record; read "Harbour" in them as the Port under this record.
 - The KI Website and `ki-design` switch their Harbour wording to the Port and mark the Port, its four modes, the Lighthouse and the Council Hall as official.
-- `Admin/Operations` is drawn as the Mill under [GDR-KI-PRINCIPAL-013](GDR-KI-PRINCIPAL-013-the-causeway-and-the-mill.md).
+- `Admin/Operations` is drawn as the Mill.
 
 ## References
 

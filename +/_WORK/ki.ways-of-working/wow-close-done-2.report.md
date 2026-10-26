@@ -1,8 +1,8 @@
-VERDICT: 4/6 pruned · confidence high - Four terminal records pruned; two retained behind verification and rollout conditions.
-
 # [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Ways of working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md) › wow-close-done-2
 
 **🤖 → 👤 Handoff to supervisor · blocked · Run report at 03:33 BST · last mark 02:10 BST**
+
+VERDICT: 4/6 pruned · confidence high - Four terminal records pruned; two retained behind verification and rollout conditions.
 
 ---
 

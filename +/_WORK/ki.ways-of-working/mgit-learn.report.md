@@ -9,8 +9,8 @@
 - **Learning is live.** mgit has no built-in quiet rules any more. `mgit learn <command>` and `mgit --learn <command>` are new, along with `mgit learn --list` and `mgit learn --forget <command>`. The old built-in `st` rule is gone from the code. tools-mgit `73f1f5f` (feat(cli)!), pushed. The installed `mgit` links to this checkout, so it is live on this Mac now.
 - **Flags.** `-B/--bypass` is now the bypass-to-Git flag. `-G` and `--git` are gone and give an error naming `-B/--bypass`. `--bare` gives an error naming `-R/--raw`. `-R/--raw`, `-P/--physical` and `-L/--follow-symlinks` are unchanged. Help, the Bash and Zsh completions, the manual, README, guide, spec and changelog are all updated, in the same commit.
 - **Records.**
-  - [KI-TOOL-MGIT-CLI-024](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-024-quiet-normal-git-output.md) is rewritten for the learning design and set to Awaiting review (in `73f1f5f`).
-  - [KI-TOOL-MGIT-CLI-025](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-025-escape-hatch-flag-names.md) is amended for `-B/--bypass` and accepted under ACCEPT-AND-PRUNE (tools-mgit `5d23dce`). It is not pruned.
+  - [KI-TOOL-MGIT-CLI-024 (pruned)](https://github.com/knowledgeislands/tools-mgit/blob/af6e67736262ec4c0e0fa5f74507849bda48a503/docs/roadmap/KI-TOOL-MGIT-CLI-024-quiet-normal-git-output.md) is rewritten for the learning design and set to Awaiting review (in `73f1f5f`).
+  - [KI-TOOL-MGIT-CLI-025 (pruned)](https://github.com/knowledgeislands/tools-mgit/blob/af6e67736262ec4c0e0fa5f74507849bda48a503/docs/roadmap/KI-TOOL-MGIT-CLI-025-escape-hatch-flag-names.md) is amended for `-B/--bypass` and accepted under ACCEPT-AND-PRUNE (tools-mgit `5d23dce`). It is not pruned.
   - Net records: tools-mgit 0 new; ki-principal 0 new.
 - **Seed templates.** Four templates were learned on this Mac, from read-only commands only, in `~/.config/mgit/templates/`: `st` (`status -sb`), `status`, `status --short --branch` and `branch`.
   - `mgit --estate st` now reports 48 quiet and 2 with output: the chezmoi source and ki-principal, which have local changes.
@@ -21,7 +21,7 @@
   - regenerate the `_mgit` Zsh completion, which still offers the old flags.
 - **Checks.**
   - Bats: 131 of 131 pass.
-  - `ki repo audit`: pass, with no failures. The warnings are the missing pre-commit hook and the territory suites' non-fatal assertions, which [KI-TOOL-MGIT-CLI-027](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-027-fatal-bats-assertions.md) covers.
+  - `ki repo audit`: pass, with no failures. The warnings are the missing pre-commit hook and the territory suites' non-fatal assertions, which [KI-TOOL-MGIT-CLI-027 (pruned)](https://github.com/knowledgeislands/tools-mgit/blob/524d487debb2633aca479714136532beb10db292/docs/roadmap/KI-TOOL-MGIT-CLI-027-fatal-bats-assertions.md) covers.
   - shellcheck, `bash -n`, mandoc lint and `git diff --check`: all pass.
 - **Also fixed.** One territory-producer Bats case failed now and then, because of the order of parallel output. It now runs one job at a time.
 - **Other sessions' commits.** None were pushed with mine. tools-mgit `ff7f44e`, `0c03d68` and `c76b4d5`, and ki-principal `bf9c9e9`, were already on origin.
@@ -45,5 +45,7 @@ Nothing.
 **Query:** Should learn have no short flag, leaving `-P` and `-L` with their usual Unix meanings, or should `-L` become learn?
 
 **Options:**
+
 a) (recommended, confidence high - keeps the meaning every Unix tool gives `-L`, and `mgit learn` is already short) Keep `-P/--physical` and `-L/--follow-symlinks` as they are, and give learn no short flag.
+
 b) Make `-L` the short flag for `--learn` and leave following symlinks as `--follow-symlinks` only. This breaks the Unix meaning and changes what any existing `mgit -L` does.

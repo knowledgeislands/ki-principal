@@ -17,7 +17,7 @@
 
 ## In Progress
 
-Nothing is running. All three records wait on SPEC-TEXT, which is with Kris, and KI-HARNESS-GOV-228 also waits on the ENTRY-NAMES harness run queued in ki.ways-of-working.
+Nothing is running. All three records wait on SPEC-TEXT, which is with Kris, and [KI-HARNESS-GOV-228](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-228-home-work-spec.md) also waits on the ENTRY-NAMES harness run queued in ki.ways-of-working.
 
 ## Queries
 
@@ -28,5 +28,5 @@ No outstanding queries
 👤 1 with you
 
 - [with you] SPEC-TEXT · owner · since 01:13
-- [committed] KI-HARNESS-GOV-228 to KI-HARNESS-GOV-230 and ledger, ki-agentic-harness `main`
+- [committed] [KI-HARNESS-GOV-228](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-228-home-work-spec.md) to [KI-HARNESS-GOV-230](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-230-knowledge-package-skill.md) and ledger, ki-agentic-harness `main`
 - [unpushed] ki-agentic-harness `main`, 2 commits

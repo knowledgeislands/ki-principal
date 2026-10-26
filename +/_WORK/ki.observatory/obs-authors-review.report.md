@@ -6,7 +6,7 @@
 
 ## Done
 
-Recommend **b) Reopen [KI-OBSERVA-VIS-031](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-031-who-is-working.md) and add commit authors before acceptance**, confidence **high**. DESIGN-WORKERS-CHIP approved both sources; RUN-EVIDENCE selected the run source without rescinding authors, and GET-MOVING supports completing that authorised scope.
+Recommend **b) Reopen [KI-OBSERVA-VIS-031 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/24c4bd8bfb1956c5ee9e0e2beef846bd06e298a5/docs/roadmap/KI-OBSERVA-VIS-031-who-is-working.md) and add commit authors before acceptance**, confidence **high**. DESIGN-WORKERS-CHIP approved both sources; RUN-EVIDENCE selected the run source without rescinding authors, and GET-MOVING supports completing that authorised scope.
 
 Evidence checked:
 

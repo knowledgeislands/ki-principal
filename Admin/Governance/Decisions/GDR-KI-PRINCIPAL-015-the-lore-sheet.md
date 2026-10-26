@@ -20,7 +20,7 @@ On 2026-10-19 Kris accepted the `ki-design` recommendation for one page of named
 
 ## Decision
 
-**The [Lore Sheet](<../../../Pillars/Aesthetics/Lore Sheet/Lore Sheet.md>) names the motifs of the Knowledge Islands world:** the Great Library, the Capital, the Port and its customs house, the Mill, the tides as the cycle, the Known Lands and their fog, the compass, and the Ruins as honoured retirement.
+**The Lore Sheet names the motifs of the Knowledge Islands world:** the Great Library, the Capital, the Port and its customs house, the Mill, the tides as the cycle, the Known Lands and their fog, the compass, and the Ruins as honoured retirement.
 
 **Creatures, magic and crystals are ruled out.** Whale song is a creature, so it is ruled out as a signal unless Kris decides otherwise.
 

@@ -29,8 +29,11 @@ Outstanding - no action requested now:
 **Query:** How should sessions and runs be kept apart in a shared checkout?
 
 **Options:**
+
 a) (recommended, confidence medium - it fixes the worst incidents now, but worktree cost on knowledge-base repositories is untested) Ship a `ki` commit helper that uses a separate index per session and checks that the commit landed. Give each code-repository build run its own worktree. Serialise runs that edit records in one knowledge-base repository, and have audits read committed state only.
+
 b) Give every coordinator session and writing run its own worktree in every repository.
+
 c) Allow one owning session per checkout per night, and no technical change.
 
 ### OOS-WAKE - A wake for the coordinator that survives its session
@@ -40,7 +43,9 @@ c) Allow one owning session per checkout per night, and no technical change.
 **Query:** What should wake a coordinator when its session is gone?
 
 **Options:**
+
 a) (recommended, confidence medium - it reuses the detached runs that already work, but resuming a coordinator headlessly is unproven) Add a detached `ki agent` watcher, started with an autonomy window. When a run finishes, it resumes the coordinator with the work's send line.
+
 b) Run a launchd job on the agent host through Rig that checks every ten minutes during autonomy windows.
 
 ### OWNER-QUEUE - Cap building while acceptance lags
@@ -50,8 +55,11 @@ b) Run a launchd job on the agent host through Rig that checks every ten minutes
 **Query:** Should works stop starting builds and planning while the owner queue is over a cap?
 
 **Options:**
+
 a) (recommended, confidence medium - two works reached the same number independently, but it slows overnight throughput) Cap each work at about eight records awaiting acceptance or eight open queries. Pair the cap with a batched decision sitting by decision type and one at-screen checklist for each of sol and terra.
+
 b) Keep no cap, and only batch the sittings and checklists.
+
 c) Also let wording-only queries on triage records take the recommended option at medium unless Kris objects.
 
 ### BLIND-REVIEW - Make reviews actually blind
@@ -61,7 +69,9 @@ c) Also let wording-only queries on triage records take the recommended option a
 **Query:** Should reviewer briefs carry a masked copy of each query and keep `queries.md` out of the reviewer's reading?
 
 **Options:**
+
 a) (recommended, confidence high - cheap, and it makes the standard's existing claim true) Yes. Reviewer briefs carry Context and Query only. `ki agent new` scaffolds the review brief that way.
+
 b) Leave things as they are, and record in each review that it was not blind.
 
 ### LAUNCH-DEFAULTS - Fix `ki agent` launch and control
@@ -71,7 +81,9 @@ b) Leave things as they are, and record in each review that it was not blind.
 **Query:** Should tools-ki take these as one bundle: per-role defaults, a footer chosen from the run's purpose, repository resolution, and working `queue`, `send`, `stop` and `dequeue`?
 
 **Options:**
+
 a) (recommended, confidence high - every item has a cited failure and none is destructive) Yes, as one handoff to ki.tools-burndown, with per-role defaults and footer-from-purpose first.
+
 b) Fix only `send` and `queue` now, and leave defaults to the coordinators' launch lines.
 
 ### CLAIM-CHECK - Check premises and claims before acting
@@ -81,17 +93,21 @@ b) Fix only `send` and `queue` now, and leave defaults to the coordinators' laun
 **Query:** Should the coordination standard require a direct check of every path, ownership claim and instruction premise, plus a one-line read-back of any ambiguous direction, before a brief or Summary?
 
 **Options:**
+
 a) (recommended, confidence high - each incident would have been caught, at the cost of one read) Yes. Also make briefs carry each target repository's standing rules by default.
+
 b) Require only the read-back of ambiguous directions.
 
 ### CLASS-FIX - Fix the class of a finding, not the instance
 
-**Context:** KB-DOTFILES-UE-090 took four fix-and-review cycles, and one validator claim took three drafts, because each fix brief targeted only the cited lines.
+**Context:** [KB-DOTFILES-UE-090 (pruned)](https://github.com/krisb/dotfiles/blob/2584fffb3a60f41fbe82e19be0ec5b27362ed410/docs/roadmap/KB-DOTFILES-UE-090-close-rig-bring-up-gaps.md) took four fix-and-review cycles, and one validator claim took three drafts, because each fix brief targeted only the cited lines.
 
 **Query:** Should fix and revise briefs sweep for the whole class of a finding, and should review loops stop when no must-fix remains?
 
 **Options:**
+
 a) (recommended, confidence high - both works proposed it on their own and it shortens loops) Yes. Should-fix items go to the owner's read.
+
 b) Sweep for the class, but keep looping until a clean review.
 
 ### GREEN-MAIN - Keep the harness's `main` green
@@ -101,5 +117,7 @@ b) Sweep for the class, but keep looping until a clean review.
 **Query:** Should a green harness `main` gate every run and every estate-wide rollout?
 
 **Options:**
+
 a) (recommended, confidence high - an estate-wide blast radius justifies stopping the line) Yes. A red baseline stops the line, harness hook tests pass before any rollout, and harness edits are made off the shared main checkout.
+
 b) Gate only estate-wide rollouts on green.

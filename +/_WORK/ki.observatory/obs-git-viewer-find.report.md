@@ -61,7 +61,7 @@ The Observatory has none of the following:
   - The draft survives the page redrawing.
 - **Launchers:** open in VS Code in a new window, and open in GitHub Desktop.
 
-**3. Whether KI-OBSERVA-VIS-041 covers it.** [KI-OBSERVA-VIS-041](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-041-git-view-replaces-repositories.md) does point at the right artifact, since only one copy exists. It names it only as "a live artifact in `personal-principal`", though, with no path, commit or link to the recipe.
+**3. Whether [KI-OBSERVA-VIS-041 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/c1f008346dc085a0c25026ea5c9a08b383ef1d5b/docs/roadmap/KI-OBSERVA-VIS-041-git-view-replaces-repositories.md) covers it.** [KI-OBSERVA-VIS-041 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/c1f008346dc085a0c25026ea5c9a08b383ef1d5b/docs/roadmap/KI-OBSERVA-VIS-041-git-view-replaces-repositories.md) does point at the right artifact, since only one copy exists. It names it only as "a live artifact in `personal-principal`", though, with no path, commit or link to the recipe.
 
 Its scope carries five of the viewer's features: grouping by root, chezmoi, the heatmap, the diff, and per-folder bulk actions with progress. These are not in its scope at all:
 

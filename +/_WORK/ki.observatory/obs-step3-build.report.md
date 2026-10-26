@@ -7,7 +7,7 @@
 ## Done
 
 - [KI-OBSERVA-VIS-030](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md) steps 2 and 3: the ki-design hex chart renderer and its tokens are vendored by script from the pinned commit, with a per-file drift check, and the `capital` glyph is added. Commit a4ea2ad. Full gate and `ki repo audit` passed. The record stays in progress.
-- [KI-OBSERVA-BCN-008](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BCN-008-beacon-signal-anatomy.md) Beacon signal anatomy. Each row now shows a reef or lantern sign or an outline tag for its severity, its kind, and how much older its evidence is than the reading. The list filters and groups by kind, and choosing a row opens a detail pane. Commit 23f2ba5. Full gate, with the density, width and degraded tests unchanged, and `ki repo audit` passed with no failure. Set to awaiting-review, not done, because this run may not accept records. Condition is left out until the `.ki.toml` maturity source exists.
+- [KI-OBSERVA-BCN-008 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/22ea8dcbf7fba0806f1370899cd506a6705c3741/docs/roadmap/KI-OBSERVA-BCN-008-beacon-signal-anatomy.md) Beacon signal anatomy. Each row now shows a reef or lantern sign or an outline tag for its severity, its kind, and how much older its evidence is than the reading. The list filters and groups by kind, and choosing a row opens a detail pane. Commit 23f2ba5. Full gate, with the density, width and degraded tests unchanged, and `ki repo audit` passed with no failure. Set to awaiting-review, not done, because this run may not accept records. Condition is left out until the `.ki.toml` maturity source exists.
 - Service restarted. The page and all 15 tabs answer 200, `/api/beacon` answers, and the new Beacon parts are served.
 
 ## In Progress
@@ -29,7 +29,7 @@
 
 **Context:** The renderer lays islands out deterministically, with the Capital at the centre. A position store would need a new POST route and a change to the boundary spec.
 
-**Query:** Should KI-OBSERVA-VIS-030 still keep island positions?
+**Query:** Should [KI-OBSERVA-VIS-030](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md) still keep island positions?
 
 **Options:** a) (recommended, confidence medium - this adds no write route, and the layout is already stable) Drop the position store and use the deterministic layout. b) Keep a host preference under XDG state behind a new POST route.
 
@@ -51,7 +51,7 @@
 
 **VIS-031-TABLES**
 
-**Context:** [KI-OBSERVA-VIS-031](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-031-who-is-working.md) still needs a decision on which tables carry the worker column.
+**Context:** [KI-OBSERVA-VIS-031 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/24c4bd8bfb1956c5ee9e0e2beef846bd06e298a5/docs/roadmap/KI-OBSERVA-VIS-031-who-is-working.md) still needs a decision on which tables carry the worker column.
 
 **Query:** Which tables should carry it?
 

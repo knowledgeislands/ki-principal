@@ -6,13 +6,13 @@
 
 ## Done
 
-Recommend **a)**: build [KI-OBSERVA-VIS-022](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-022-judge-overdue-against-each-job-schedule.md) as planned and request a tools-rig specification handoff alongside it, covering the existing encoding or an additive structured field.
+Recommend **a)**: build [KI-OBSERVA-VIS-022 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/c1f008346dc085a0c25026ea5c9a08b383ef1d5b/docs/roadmap/KI-OBSERVA-VIS-022-judge-overdue-against-each-job-schedule.md) as planned and request a tools-rig specification handoff alongside it, covering the existing encoding or an additive structured field.
 
 **Confidence: high** - the declaration grammar constrains the observed encoding, and the explicit fallback preserves existing behaviour when parsing fails.
 
 Plan check: the reviewed record matches commit `3b3c785` exactly.
 
-Contract check: [RIG-STATE-033](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/specs/state.md:357) promises complete declaration values; [RIG-CONF-016](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/specs/configuration.md:153) specifies the input grammar. Neither specifies the schedule string's output encoding.
+Contract check: [RIG-STATE-033](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/specs/state.md) promises complete declaration values; [RIG-CONF-016](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/specs/configuration.md) specifies the input grammar. Neither specifies the schedule string's output encoding.
 
 Renderer check: [the summary helper](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/src/rig/30-commands.bash:1553) and [JSON projection](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/src/rig/30-commands.bash:1816) confirm the context's description. No factual premise in the question is contradicted by the code. The fallback is planned Observatory behaviour, rather than behaviour supplied by Rig.
 

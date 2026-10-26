@@ -8,7 +8,7 @@
 
 Recommended **b) `founding`, `settled`, `thriving`** · confidence **medium** · Preserves Kris's purpose-based settled → thriving progression without adding a growing boundary that also fits settled islands.
 
-Evidence checked: [KI-HARNESS-GOV-223](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-223-island-maturity-declaration.md) and the [ki-repo repository](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/keystone/ki-repo/references/standards-repository.md) and [configuration](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/keystone/ki-repo/references/standards-configuration.md) standards; maturity remains proposed, with no existing scale in those standards.
+Evidence checked: [KI-HARNESS-GOV-223 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-223-island-maturity-declaration.md) and the [ki-repo repository](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/keystone/ki-repo/references/standards-repository.md) and [configuration](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/keystone/ki-repo/references/standards-configuration.md) standards; maturity remains proposed, with no existing scale in those standards.
 
 Vocabulary checked: [Known Lands](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Known Lands.md>) and [Charter](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Charter.md); island roles and territorial authority do not supply a settlement-size maturity hierarchy.
 

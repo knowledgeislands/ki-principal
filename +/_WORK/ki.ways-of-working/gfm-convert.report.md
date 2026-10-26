@@ -13,8 +13,8 @@
 - Admin: 199 links and one SVG embed in 51 files (`64c046c2`). Checks: re-run made no changes, 0 unresolved, no new audit findings.
 - Pillars: 534 links and embeds in 91 files (`554bcd8e`). Checks: re-run made no changes, 0 unresolved, no new audit findings. Four kinds of item are kept for you to decide (Queries). The two custom `[!todo]` callouts in Structure are unchanged and their text is intact: GitHub shows them as plain quotes.
 - Convention notes (`d64f0abc`). Format now prescribes links relative to the note, in angle brackets when the path has a space, and says wikilinks are still read. AGENTS.md, Notes, Structure, Calendar, the Obsidian notes, the Tending activities and the Enactment Process footer template no longer prescribe wikilinks. The Wikilink Review Activity now covers both link forms through the LINK-1 audit and keeps its orphan view. Check: the commit gate and rumdl passed.
-- `+/_WORK/` last, in one batch: 54 links in 12 tracked files that no other session had changed (`f65c4fac`). Twelve dead links were followed through their renames to their current homes. The pruned KI-PRINCIPAL-ECO-012 link now points to its last revision. Checks: re-run made no changes, 0 unresolved, no new audit findings.
-- KI-PRINCIPAL-OPS-014 moved to awaiting review, with its review packet (`30cb3da0`). Pushed fast-forward. main is level with origin.
+- `+/_WORK/` last, in one batch: 54 links in 12 tracked files that no other session had changed (`f65c4fac`). Twelve dead links were followed through their renames to their current homes. The pruned [KI-PRINCIPAL-ECO-012 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/506a938ebabc592dda70690c65b6c2ed318d9f09/Streams/Roadmap/KI-PRINCIPAL-ECO-012-notification-strategy-for-delegated-work.md) link now points to its last revision. Checks: re-run made no changes, 0 unresolved, no new audit findings.
+- [KI-PRINCIPAL-OPS-014](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md) moved to awaiting review, with its review packet (`30cb3da0`). Pushed fast-forward. main is level with origin.
 - Limitation: the four clients' render checks (acceptance test 4) were not run, because this run cannot open GitHub, Obsidian, Zed or the Observatory.
 - Correction: from `f65c4fac` on, the commit gate ran with the released Homebrew `ki` 0.12.0. The local `ki` runs from the tools-ki source, which another session is part-way through editing (Acquire Granola). Each time, that build crashed the gate.
 
@@ -42,8 +42,11 @@ Outstanding - no action requested now:
 **Query:** How should the four images, and the Format note's image rule, be written?
 
 **Options:**
+
 a) (recommended, confidence medium - both main readers already fit images to the column, so the width adds little) Plain GFM images `![alt](<image.png>)`, and Format drops the width-800 rule.
+
 b) Keep the four as recorded Obsidian-only exceptions, and keep Format's sized-embed rule for images.
+
 c) HTML `<img src="image.png" width="800" alt="...">`, after a check that Obsidian renders it.
 
 ### TEMPLATE-LINKS - Placeholder links in two templates
@@ -53,7 +56,9 @@ c) HTML `<img src="image.png" width="800" alt="...">`, after a check that Obsidi
 **Query:** Should the template placeholders be rewritten by hand as GFM links?
 
 **Options:**
+
 a) (recommended, confidence medium - the Calendar layout makes the month path certain, but landmark notes have no fixed home) Rewrite them: months as `[YYYY-01 January](<YYYY-01 January/YYYY-01 January.md>)` and landmarks as `[Landmark 1](<Landmark 1.md>)`.
+
 b) Leave them as wikilinks, and let the touch rule convert each new note when it is first edited.
 
 ### LINK-REVIEW-NAME - Name of the Wikilink Review Activity
@@ -63,16 +68,21 @@ b) Leave them as wikilinks, and let the touch rule convert each new note when it
 **Query:** Should the Activity be renamed Link Review, with the trigger "ki link review"?
 
 **Options:**
+
 a) (recommended, confidence medium - the name now undersells what it does, and the rename is reversible) Rename it to Link Review, and update the trigger and every note that names it.
+
 b) Keep the Wikilink Review name and trigger.
+
 c) Retire the Activity, because `ki repo audit` already checks links.
 
 ### RENDER-CHECK - Client render checks before acceptance
 
 **Context:** Acceptance test 4 asks for the pilot's alert and heading link to be checked on GitHub, in Obsidian, in Zed and in the Observatory, or for each failure to have a recorded decision. This run could not open any of the four. Heading links now carry GitHub slugs: an example is the Library link in AGENTS.md (`Structure.md#library`). The Observatory drops fragments, so there the link opens the note without jumping to the heading.
 
-**Query:** Will you run the four client checks before accepting KI-PRINCIPAL-OPS-014?
+**Query:** Will you run the four client checks before accepting [KI-PRINCIPAL-OPS-014](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md)?
 
 **Options:**
+
 a) (recommended, confidence high - this is the only acceptance test no tool could run) Before accepting, open AGENTS.md's Library link and an alert note in each client. Record any failure in the record.
+
 b) Accept without the client checks, and record the Observatory's fragment loss as known.

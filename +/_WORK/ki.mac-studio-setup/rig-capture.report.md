@@ -14,7 +14,7 @@ The `rig launchd` actions in `src/rig/30-commands.bash` don't bootout at all. Th
 
 **TOML-HANDLER: captured.** [KI-TOOL-RIG-CORE-069](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md) asks for a dynamic-type fallback in `macos-handlers`, with matching observation, a named failure detail, fixture tests and a guide update. It cites the apply-carry and toml-review reports. Status `triage`, with no horizon, priority medium and size s. It is not adopted.
 
-Commits in tools-rig, local only and not pushed: `ccd14ac` (reserves KI-TOOL-RIG-CORE-069 in the ledger) and `4f97d74` (captures the record). The tree was clean before and after.
+Commits in tools-rig, local only and not pushed: `ccd14ac` (reserves [KI-TOOL-RIG-CORE-069](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md) in the ledger) and `4f97d74` (captures the record). The tree was clean before and after.
 
 Checks: `ki repo audit --repo .` passed with no failures. Its 22 warnings don't name the new record. `git diff --check` was clean. The shell gate doesn't apply to a docs-only change. I made no code edits and ran no `launchctl` or `rig apply`.
 

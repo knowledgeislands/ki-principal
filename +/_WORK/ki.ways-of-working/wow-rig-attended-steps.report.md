@@ -6,7 +6,7 @@
 
 ## Done
 
-Read the attended steps in [KI-TOOL-RIG-CORE-069](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md), [KI-TOOL-RIG-CORE-068](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md), [KI-TOOL-RIG-CORE-047](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md) and [KI-TOOL-RIG-CORE-062](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-062-own-address-firewall-destination.md) and turned them into the blocks below. Nothing was run on any host and no repository was edited. The record blocks for KI-TOOL-RIG-CORE-069 and KI-TOOL-RIG-CORE-068 are copied byte for byte by line range; I only added the host guard, the `mkdir` and the `tee` to `~/rig-attended-2026-10-22/<record>-<host>.log`. `sol`'s installed Rig is 0.8.0 and includes KI-TOOL-RIG-CORE-062's discovery.
+Read the attended steps in [KI-TOOL-RIG-CORE-069](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md), [KI-TOOL-RIG-CORE-068](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md), [KI-TOOL-RIG-CORE-047](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md) and [KI-TOOL-RIG-CORE-062](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-062-own-address-firewall-destination.md) and turned them into the blocks below. Nothing was run on any host and no repository was edited. The record blocks for [KI-TOOL-RIG-CORE-069](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md) and [KI-TOOL-RIG-CORE-068](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md) are copied byte for byte by line range; I only added the host guard, the `mkdir` and the `tee` to `~/rig-attended-2026-10-22/<record>-<host>.log`. `sol`'s installed Rig is 0.8.0 and includes [KI-TOOL-RIG-CORE-062](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-062-own-address-firewall-destination.md)'s discovery.
 
 Checks: all eleven blocks pass `zsh -n` and `bash -n`; the probe, N, P and R are byte-identical to the records.
 
@@ -14,16 +14,16 @@ Checks: all eleven blocks pass `zsh -n` and `bash -n`; the probe, N, P and R are
 
 | Record | Host | Kind | Time | Needs |
 | --- | --- | --- | --- | --- |
-| KI-TOOL-RIG-CORE-069 | sol | **LIVE**: `.toml` opens in Zed, not Warp | 2 min | a possible consent dialog (GUI click) |
-| KI-TOOL-RIG-CORE-069 | terra | nothing | – | – |
-| KI-TOOL-RIG-CORE-068 | terra + sol | observe, plus **LIVE** pf reload R | 30–45 min | **terra's own console throughout**, sudo, NordVPN Connect and Disconnect in its GUI, possibly a **reboot** |
-| KI-TOOL-RIG-CORE-047 | sol, terra | observe only | 1 min each | sudo password (privileged pf read) |
-| KI-TOOL-RIG-CORE-062 | sol, terra | observe only | 1 min each | none |
-| KI-TOOL-RIG-CORE-062 rollout | sol, terra | **LIVE, connection-critical** `rig apply --sudo` | 5 min each | sudo, your explicit go (query RIG-ATT-APPLY) |
+| [KI-TOOL-RIG-CORE-069](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md) | sol | **LIVE**: `.toml` opens in Zed, not Warp | 2 min | a possible consent dialog (GUI click) |
+| [KI-TOOL-RIG-CORE-069](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md) | terra | nothing | – | – |
+| [KI-TOOL-RIG-CORE-068](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md) | terra + sol | observe, plus **LIVE** pf reload R | 30–45 min | **terra's own console throughout**, sudo, NordVPN Connect and Disconnect in its GUI, possibly a **reboot** |
+| [KI-TOOL-RIG-CORE-047](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md) | sol, terra | observe only | 1 min each | sudo password (privileged pf read) |
+| [KI-TOOL-RIG-CORE-062](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-062-own-address-firewall-destination.md) | sol, terra | observe only | 1 min each | none |
+| [KI-TOOL-RIG-CORE-062](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-062-own-address-firewall-destination.md) rollout | sol, terra | **LIVE, connection-critical** `rig apply --sudo` | 5 min each | sudo, your explicit go (query RIG-ATT-APPLY) |
 
-Only the KI-TOOL-RIG-CORE-069 block and the observe-only blocks are safe to start and walk away from. Every block appends to its log, so a repeat adds to the evidence rather than overwriting it.
+Only the [KI-TOOL-RIG-CORE-069](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md) block and the observe-only blocks are safe to start and walk away from. Every block appends to its log, so a repeat adds to the evidence rather than overwriting it.
 
-### KI-TOOL-RIG-CORE-069 — sol (LIVE, about 2 minutes, at the screen)
+### [KI-TOOL-RIG-CORE-069](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md) — sol (LIVE, about 2 minutes, at the screen)
 
 Changes `sol`'s default application for `.toml` from Warp to Zed, which is what the declaration already asks for. It tries the three rungs in order and stops at the first one where all three observers report Zed. Expect `legacy: code -50` (confirming the failure's cause). The `workspace` rung may raise a macOS dialog asking to confirm Zed: click to allow; it waits up to 30 seconds. No sudo and no reboot.
 
@@ -67,7 +67,7 @@ Restore, only if you want Warp back: rerun the rung that worked with Warp, for e
 
 **terra:** nothing. The record keeps the probe to `sol`; `terra`'s `.toml` carry follows the release.
 
-### KI-TOOL-RIG-CORE-068 — terra console with sol beside it (30–45 minutes, not walk-away)
+### [KI-TOOL-RIG-CORE-068](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md) — terra console with sol beside it (30–45 minutes, not walk-away)
 
 This is the record's attended NordVPN check, steps 1 to 10 in [Attended NordVPN check](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md#attended-nordvpn-check); follow those steps for what each run expects, and stop and paste at any mismatch. It needs your **physical presence at terra's console** (N and R refuse over SSH), the **sudo password** on terra, **GUI clicks** in NordVPN (record its settings, kill switch off, Connect, Disconnect, Quit), and possibly a **restart of terra** (step 9 fallback). N and P only read. **R is LIVE**: it reloads Apple's `/etc/pf.conf` into root and reloads Rig's anchor; its tested restore path is itself, rehearsed at step 4 before NordVPN connects, with NordVPN's own disconnect and a restart as fallbacks. Run order: 1 (GUI) → N terra → P sol → R terra, N terra, P sol → Connect, N terra → P sol → Disconnect and Quit, N terra (R and N again only if `RIG NOT EVALUATED`) → P sol → 10 (GUI).
 
@@ -154,9 +154,9 @@ print "R RESULT: apple root reload rc=$a | rig anchor reload rc=$b"
 ' ) 2>&1 | tee -a ~/rig-attended-2026-10-22/CORE-068-terra.log
 ```
 
-### KI-TOOL-RIG-CORE-047 — sol then terra (observe only, about 1 minute each, sudo password)
+### [KI-TOOL-RIG-CORE-047](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md) — sol then terra (observe only, about 1 minute each, sudo password)
 
-Records the firewall's live state: Rig's version, doctor, and a privileged read of root's ruleset and Rig's anchor. It changes nothing. The record's outstanding acceptance items are NordVPN on and off, which KI-TOOL-RIG-CORE-068's check supplies, and `rig apply --sudo` on terra, which the KI-TOOL-RIG-CORE-062 rollout below supplies. Run terra's at its console or through `ssh -t terra`.
+Records the firewall's live state: Rig's version, doctor, and a privileged read of root's ruleset and Rig's anchor. It changes nothing. The record's outstanding acceptance items are NordVPN on and off, which [KI-TOOL-RIG-CORE-068](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md)'s check supplies, and `rig apply --sudo` on terra, which the [KI-TOOL-RIG-CORE-062](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-062-own-address-firewall-destination.md) rollout below supplies. Run terra's at its console or through `ssh -t terra`.
 
 **Pass:** `root calls com.apple/*: yes`, `rig anchor rules: 8` and no VPN other than Tailscale listed as connected. A doctor finding `drifted (anchor-changed)` for the firewall is expected until the rollout rewrites the anchor; any other firewall finding, or `rig anchor rules: 0`, is a fail to paste.
 
@@ -182,7 +182,7 @@ mkdir -p ~/rig-attended-2026-10-22 && ( /usr/sbin/ioreg -rd1 -c IOPlatformExpert
   echo "rig anchor rules: $(sudo /sbin/pfctl -a com.apple/uk.me.kris.rig.firewall.screen-sharing -s rules 2>/dev/null | grep -c .)" ) 2>&1 | tee -a ~/rig-attended-2026-10-22/CORE-047-terra.log
 ```
 
-### KI-TOOL-RIG-CORE-062 — sol then terra (observe only, under a minute each, no sudo)
+### [KI-TOOL-RIG-CORE-062](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-062-own-address-firewall-destination.md) — sol then terra (observe only, under a minute each, no sudo)
 
 Shows the tailnet addresses Rig discovers and would render as the anchor's only destinations; this is the record's missing read-only confirmation on terra. It changes nothing.
 
@@ -202,13 +202,14 @@ mkdir -p ~/rig-attended-2026-10-22 && ( /usr/sbin/ioreg -rd1 -c IOPlatformExpert
   rig show firewall:screen-sharing-tailnet ) 2>&1 | tee -a ~/rig-attended-2026-10-22/CORE-062-terra.log
 ```
 
-### KI-TOOL-RIG-CORE-062 rollout — LIVE, connection-critical, only on your explicit go (about 5 minutes each)
+### [KI-TOOL-RIG-CORE-062](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-062-own-address-firewall-destination.md) rollout — LIVE, connection-critical, only on your explicit go (about 5 minutes each)
 
-Rewrites each Mac's installed range anchor to the own-address anchor with `rig apply --sudo`, and on terra also closes KI-TOOL-RIG-CORE-047's outstanding `rig apply --sudo`. Run it **after** KI-TOOL-RIG-CORE-068's check, so that check compares against the anchor it was written for. It needs the **sudo password** and your **presence at that Mac's screen**. SSH (port 22) is never in the anchor. Only run it once the observe-only 062 block for that host has passed. It refuses if NordVPN is running, if a VPN other than Tailscale is connected, or if root does not call `com.apple/*`.
+Rewrites each Mac's installed range anchor to the own-address anchor with `rig apply --sudo`, and on terra also closes [KI-TOOL-RIG-CORE-047](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md)'s outstanding `rig apply --sudo`. Run it **after** [KI-TOOL-RIG-CORE-068](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md)'s check, so that check compares against the anchor it was written for. It needs the **sudo password** and your **presence at that Mac's screen**. SSH (port 22) is never in the anchor. Only run it once the observe-only 062 block for that host has passed. It refuses if NordVPN is running, if a VPN other than Tailscale is connected, or if root does not call `com.apple/*`.
 
 **Pass:** `completed=1` and `failed=0`; afterwards `rig anchor rules` is non-zero, and doctor shows no firewall finding. Then run the probe from the other Mac.
 
 **Restore path (tested on terra and sol, 19 October 2026; needs no Rig and works over SSH):**
+
 `sudo launchctl bootout system/uk.me.kris.rig.firewall.screen-sharing` then `sudo pfctl -a com.apple/uk.me.kris.rig.firewall.screen-sharing -F all`; this reopens 5900 as before Rig. To put the protection back: `sudo launchctl bootstrap system /Library/LaunchDaemons/uk.me.kris.rig.firewall.screen-sharing.plist`. Always type the locator in full; an empty one once shut terra down.
 
 ```sh
@@ -253,24 +254,24 @@ Nothing. Evidence lands in `~/rig-attended-2026-10-22/` on each Mac; paste or po
 
 **RIG-ATT-ORDER**
 
-**Context:** You asked for something really simple to run now. KI-TOOL-RIG-CORE-069 and the observe-only KI-TOOL-RIG-CORE-047 and KI-TOOL-RIG-CORE-062 blocks take about five minutes in all. KI-TOOL-RIG-CORE-068's NordVPN check takes 30–45 minutes at terra's console and cannot be left running.
+**Context:** You asked for something really simple to run now. [KI-TOOL-RIG-CORE-069](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md) and the observe-only [KI-TOOL-RIG-CORE-047](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md) and [KI-TOOL-RIG-CORE-062](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-062-own-address-firewall-destination.md) blocks take about five minutes in all. [KI-TOOL-RIG-CORE-068](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md)'s NordVPN check takes 30–45 minutes at terra's console and cannot be left running.
 
 **Query:** What do you run tonight?
 
-**Options:** a) (recommended, confidence high - quick, and only the `.toml` handler changes) run KI-TOOL-RIG-CORE-069 on sol and the observe-only KI-TOOL-RIG-CORE-047 and KI-TOOL-RIG-CORE-062 blocks on both Macs now, and do KI-TOOL-RIG-CORE-068 and the rollout in a later sitting at terra. b) do everything now, in the order above. c) KI-TOOL-RIG-CORE-069 only.
+**Options:** a) (recommended, confidence high - quick, and only the `.toml` handler changes) run [KI-TOOL-RIG-CORE-069](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md) on sol and the observe-only [KI-TOOL-RIG-CORE-047](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md) and [KI-TOOL-RIG-CORE-062](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-062-own-address-firewall-destination.md) blocks on both Macs now, and do [KI-TOOL-RIG-CORE-068](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md) and the rollout in a later sitting at terra. b) do everything now, in the order above. c) [KI-TOOL-RIG-CORE-069](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md) only.
 
 **RIG-ATT-APPLY**
 
-**Context:** The KI-TOOL-RIG-CORE-062 rollout rewrites a firewall on both Macs. It is connection-critical. Its restore path was rehearsed on both Macs on 19 October 2026, and SSH is never restricted. RIG-ATTENDED does not say whether you approve a live apply.
+**Context:** The [KI-TOOL-RIG-CORE-062](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-062-own-address-firewall-destination.md) rollout rewrites a firewall on both Macs. It is connection-critical. Its restore path was rehearsed on both Macs on 19 October 2026, and SSH is never restricted. RIG-ATTENDED does not say whether you approve a live apply.
 
-**Query:** Do you approve the attended `rig apply --sudo` rollout on sol and terra after KI-TOOL-RIG-CORE-068's check?
+**Query:** Do you approve the attended `rig apply --sudo` rollout on sol and terra after [KI-TOOL-RIG-CORE-068](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md)'s check?
 
-**Options:** a) (recommended, confidence medium - the restore path is tested, but it changes both Macs' firewall and should follow KI-TOOL-RIG-CORE-068) yes, in a later sitting after KI-TOOL-RIG-CORE-068. b) yes, tonight. c) not yet.
+**Options:** a) (recommended, confidence medium - the restore path is tested, but it changes both Macs' firewall and should follow [KI-TOOL-RIG-CORE-068](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md)) yes, in a later sitting after [KI-TOOL-RIG-CORE-068](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md). b) yes, tonight. c) not yet.
 
 **RIG-ATT-SOL-NORDVPN**
 
-**Context:** KI-TOOL-RIG-CORE-047's Verify asked for NordVPN on and off on sol. KI-TOOL-RIG-CORE-068 replaced that with a terra-only check, and its N and R blocks refuse anywhere except terra.
+**Context:** [KI-TOOL-RIG-CORE-047](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md)'s Verify asked for NordVPN on and off on sol. [KI-TOOL-RIG-CORE-068](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md) replaced that with a terra-only check, and its N and R blocks refuse anywhere except terra.
 
-**Query:** Does KI-TOOL-RIG-CORE-068's terra check also settle KI-TOOL-RIG-CORE-047's NordVPN item?
+**Query:** Does [KI-TOOL-RIG-CORE-068](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md)'s terra check also settle [KI-TOOL-RIG-CORE-047](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md)'s NordVPN item?
 
 **Options:** a) (recommended, confidence medium - both Macs run the same NordVPN helper template, and sol's preflight already read it) yes, terra's check stands for both. b) no; plan a sol variant as follow-up work.

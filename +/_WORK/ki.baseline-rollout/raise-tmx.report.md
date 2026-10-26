@@ -15,7 +15,7 @@ Nothing is running.
 Outstanding - no action requested now:
 
 - THEME-REGISTRY's option a) had said to leave tmx-principal without a registry until one of its records needed a theme. Four Techmedix records already name themes that do not resolve, so that condition is met, and I raised the record as the brief asked.
-- TMX-PRINCIPAL-KB-009 is a theme-only slice of the wider intake [TMX-PRINCIPAL-KB-007](/Users/krisbrown/workspaces/techmedix/tmx-principal/Streams/Roadmap/TMX-PRINCIPAL-KB-007-territory-work-governance-alignment.md). It creates no Project notes, which stay with KB-007.
+- [TMX-PRINCIPAL-KB-009](/Users/krisbrown/workspaces/techmedix/tmx-principal/Streams/Roadmap/TMX-PRINCIPAL-KB-009-establish-theme-registry.md) is a theme-only slice of the wider intake [TMX-PRINCIPAL-KB-007](/Users/krisbrown/workspaces/techmedix/tmx-principal/Streams/Roadmap/TMX-PRINCIPAL-KB-007-territory-work-governance-alignment.md). It creates no Project notes, which stay with KB-007.
 - The TERRITORY-TECHMEDIX audit failure has already gone to ki.tools-burndown and is not part of this run.
 
 ## Queries

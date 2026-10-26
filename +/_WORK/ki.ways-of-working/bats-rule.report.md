@@ -9,7 +9,7 @@
 - The `ki-repo-tools` standard, skill summary and sources now carry the TEST-FATAL rule: every `[[ ]]` or `!` assertion in a shell tool's Bats suite ends `|| false`, because under macOS Bash 3.2 a failing one in the middle of a test does not fail it. tools-mgit `00ef0de` is cited as the evidence.
 - The checker now has a new WARN criterion, `SHELL-FATAL`. It reports each `tests/*.bats` suite that has such an assertion without `|| false`, giving the count and the first line numbers. It is line-based: it joins continuation lines, skips comments, and leaves `&&`/`||` control-flow lines alone.
 - The generated rubric is current. The one other surface it touched is a pinned criterion count in `ki-skills`' remediation-inventory test, which rose by one. That is recorded as an approved deviation in the review packet.
-- [KI-HARNESS-GOV-211](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-211-bats-fatal-assertions.md) was captured under ki-next, planned to Ready under ki-plan, and delivered to Awaiting review under ki-implement. Its review packet is complete, its reviewer is still pending, and nothing was accepted.
+- [KI-HARNESS-GOV-211 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/218b8e3df7c67412382c34960cf4edfc3c7a9152/docs/roadmap/KI-HARNESS-GOV-211-bats-fatal-assertions.md) was captured under ki-next, planned to Ready under ki-plan, and delivered to Awaiting review under ki-implement. Its review packet is complete, its reviewer is still pending, and nothing was accepted.
 - There are four harness commits: `e6b72541` (ledger reservation), `1d7c2895` (capture), `a7b3d17a` (plan) and `4190c555` (delivery). Each went through the pre-commit gate, and all four were pushed fast-forward to origin `main`. There were no other sessions' commits beneath them.
 - Checks:
   - `bun run test`: pass, 1248 tests.
@@ -37,7 +37,7 @@ Nothing is running.
 
 Outstanding - no action requested now:
 
-- [KI-HARNESS-GOV-211](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-211-bats-fatal-assertions.md) needs an independent review, then acceptance under ki-accept.
+- [KI-HARNESS-GOV-211 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/218b8e3df7c67412382c34960cf4edfc3c7a9152/docs/roadmap/KI-HARNESS-GOV-211-bats-fatal-assertions.md) needs an independent review, then acceptance under ki-accept.
 - No release was made. Other repositories' audits show `SHELL-FATAL` only through a `ki` that loads this harness revision.
 
 ## Queries
@@ -49,7 +49,9 @@ Outstanding - no action requested now:
 **Query:** Should each repository get a triage record so the clean-up is tracked, or should it be left to happen ad hoc?
 
 **Options:**
+
 a) (recommended, confidence medium - a record keeps the warnings from being lost, and capture needs no adoption authority) Capture one triage record in tools-mgit and one in tools-rig, each listing its warning suites and citing `00ef0de`.
+
 b) Leave the warnings in the audit output, and let each owner clean up when they next touch the suites.
 
 ### 🤖 → 🧑 Handoff to supervisor · since 09:48 BST
@@ -57,5 +59,5 @@ b) Leave the warnings in the audit output, and let each owner clean up when they
 🧑 2 with you
 
 - [with you] BATS-CLEANUP · owner · since 09:48
-- [with you] KI-HARNESS-GOV-211 review and acceptance · owner · since 09:48
+- [with you] [KI-HARNESS-GOV-211 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/218b8e3df7c67412382c34960cf4edfc3c7a9152/docs/roadmap/KI-HARNESS-GOV-211-bats-fatal-assertions.md) review and acceptance · owner · since 09:48
 - [committed] ki-agentic-harness, pushed

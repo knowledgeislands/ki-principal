@@ -8,7 +8,7 @@
 
 **Option a, refined · confidence high:** capture Workers in its own triage record now; this preserves the unbuilt scope without reopening the accepted runs delivery or authorising consolidation.
 
-Evidence checked: [KI-OBSERVA-VIS-031](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-031-who-is-working.md) accepts runs only and leaves Workers unstarted; [KI-OBSERVA-VIS-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-044-commit-authors-in-tables.md) owns table authors and explicitly excludes Workers.
+Evidence checked: [KI-OBSERVA-VIS-031 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/24c4bd8bfb1956c5ee9e0e2beef846bd06e298a5/docs/roadmap/KI-OBSERVA-VIS-031-who-is-working.md) accepts runs only and leaves Workers unstarted; [KI-OBSERVA-VIS-044 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/c1f008346dc085a0c25026ea5c9a08b383ef1d5b/docs/roadmap/KI-OBSERVA-VIS-044-commit-authors-in-tables.md) owns table authors and explicitly excludes Workers.
 
 Evidence checked: [KI-OBSERVA-APP-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md) and [Kris’s decisions](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/decisions.md) require preserving every capability and approving each consolidation separately; VIS-031-AS-RECOMMENDED grants no Workers acceptance.
 

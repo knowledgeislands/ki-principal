@@ -32,5 +32,7 @@ Outstanding - no action requested now
 **Options:**
 
 a) (recommended, confidence medium - the mechanisms were measured directly, but merge cadence in a knowledge base and the pilot's real collision rate are untested) A staged mix. Now: a `ki` commit helper using the pathspec form and the landed check, and a `ki-git` rule against plain commits and private indexes in shared checkouts. Also now: worktrees with serial local merging for every writing run in code repositories, and audits that judge a run read committed state. Then a one-week pilot of worktrees for long, multi-file knowledge-base runs, with coordinators and short runs staying on `main`. Extend to b) if lock waits in ki-principal continue.
+
 b) The blind review's course: every coordinator session and writing run in every repository gets its own worktree, with serial, verified merging into `main`. This needs `ki` to support worktrees (registry, skill links, `--worktree`, an integrate step) before it starts, and it reverses MAIN-NOT-WORKTREES.
+
 c) One owning session per checkout per night, and no technical change.

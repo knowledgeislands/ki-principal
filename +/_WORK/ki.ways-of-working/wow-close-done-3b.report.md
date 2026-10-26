@@ -1,7 +1,8 @@
-VERDICT: 4/6 pruned · confidence high - Verified the preceding run's four prunes; two remain blocked; this run made no repository changes.
 # [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Ways of working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md) › wow-close-done-3b
 
 **🤖 → 👤 Handoff to supervisor · blocked · Run report at 03:38 BST · last mark 02:10 BST**
+
+VERDICT: 4/6 pruned · confidence high - Verified the preceding run's four prunes; two remain blocked; this run made no repository changes.
 
 ---
 

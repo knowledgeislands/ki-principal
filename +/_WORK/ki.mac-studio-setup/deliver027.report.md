@@ -24,7 +24,7 @@ Nothing.
 
 **Query:** How should these three small gaps be handled, given that CAPTURE-GATE stopped me creating a record?
 
-**Options:** a) (recommended, confidence medium - small, related fixes to the same option surface) capture one triage record in tools-rig for all three, and fix it at Rig's next change; b) fold them into the review of KI-TOOL-RIG-CLI-027 as a follow-up commit before acceptance; c) leave them as recorded concerns only.
+**Options:** a) (recommended, confidence medium - small, related fixes to the same option surface) capture one triage record in tools-rig for all three, and fix it at Rig's next change; b) fold them into the review of [KI-TOOL-RIG-CLI-027 (pruned)](https://github.com/knowledgeislands/tools-rig/blob/028aaae74b69b24e70fe5b5f2307d8b53a16653f/docs/roadmap/KI-TOOL-RIG-CLI-027-command-line-convention-departures.md) as a follow-up commit before acceptance; c) leave them as recorded concerns only.
 
 ### 🤖 → 👤 Handoff to supervisor · since 01:34 BST
 

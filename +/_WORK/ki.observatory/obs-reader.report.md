@@ -6,7 +6,7 @@
 
 ## Done
 
-- I folded the scope into [KI-OBSERVA-VIS-025](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-025-work-instrument.md) (Work Instrument), delivered it, and left it Awaiting review. Commits `a9fb2ed` (scope fold) and `53a40b0` (delivery), both local in apps-observatory.local and not pushed.
+- I folded the scope into [KI-OBSERVA-VIS-025 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/02cb729bf7a8c2fc9305ef4c597a19acd8e968e4/docs/roadmap/KI-OBSERVA-VIS-025-work-instrument.md) (Work Instrument), delivered it, and left it Awaiting review. Commits `a9fb2ed` (scope fold) and `53a40b0` (delivery), both local in apps-observatory.local and not pushed.
 - The Work Instrument now reads both folder shapes. Single-file folders still go through `ki work status`. Five-file packages, which have a `state.md`, are read by the new `packages/evidence/src/work-package.ts`. It reads only the front matter of `work.md` and `state.md`, applies the same checks `ki` makes, and adds the runs homed in each folder. The `ki work status` hand-off point is clear: wherever `ki` reports a folder, its entry is used. Once `ki` reads packages, the new module adds nothing and can be deleted.
 - `ki work status` can't take over yet: the installed `ki` 0.11.4 rejects every migrated folder in ki-principal and reports no work there. Until this delivery, the Work Instrument showed nothing for ki-principal.
 - `review.ts` now dates review-held folders by `state.md` where one exists, falling back to `work.md`.

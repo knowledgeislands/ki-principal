@@ -1,15 +1,27 @@
 # [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Ways of working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md) › design-review
+
 **🤖 → 👤 Handoff to supervisor · Run report at 20:19 BST · last mark 20:10 BST**
 
 ---
+
 ## Done
-Actual rationale: no separate rationale for a Project-long exemption was found. The recorded choice was temporary working material, durable outcomes homed, then deletion on graduation: harness `8f23d27c` (14 October), [adoption source](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/sources.md:21). The 18 October consolidation (`896828ee`) kept design only until graduation; [current tidy rule](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md:100) still says that. [GDR-KI-PRINCIPAL-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md:43) says prune working material at marks; Project close is a final backstop, not the sole graduation occasion. Recommendation: review and prune eligible notes at each mark, confidence high, because this applies the existing lifecycle instead of preserving already-graduated material; keep delivery-time deletion and the close-out gate.
+
+Actual rationale: no separate rationale for a Project-long exemption was found. The recorded choice was temporary working material, durable outcomes homed, then deletion on graduation: harness `8f23d27c` (14 October), [adoption source](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/sources.md:21). The 18 October consolidation (`896828ee`) kept design only until graduation; [current tidy rule](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md:100) still says that. [GDR-KI-PRINCIPAL-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md) says prune working material at marks; Project close is a final backstop, not the sole graduation occasion. Recommendation: review and prune eligible notes at each mark, confidence high, because this applies the existing lifecycle instead of preserving already-graduated material; keep delivery-time deletion and the close-out gate.
+
 Guards: the owning coordinator must check every outcome against named durable destinations, including owner words and authority grants; age, an answered tag, or an implemented subset is insufficient. Delete obsolete material only after explicit rejection/supersession is recorded and no live dependency remains. Keep drafts, review material, held decisions and uncertain cases; never delete a whole design bundle just because one note graduates. Rewrite incoming Markdown links and wikilinks to durable homes, copy needed context, retain diagram source/render pairs together, and commit exact deletions with the homing change; Git preserves recovery, not permission to lose unhomed knowledge. These follow the [graduation contract](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-work-design/references/standards-work-design.md:25); mark is a review trigger, not automatic deletion authority.
+
 Worked example: all 44 files inventoried; substantive notes, decisions, migration plan and bring-up material sampled. Roughly 10 look graduated (earlier brief/reviews, settled work-model/package papers and diagram pairs), 27 obsolete/superseded (26 migration files plus the old design index), and 7 live or unresolved (merged report, decisions, sizing, banner/inbox, three bring-up files). Confidence medium: these are triage candidates, not a deletion manifest; held PAPERCLIP and residual migration/citation obligations need item-level checks. Checks: local history/pickaxe/blame and governing-decision search completed; exact graduation clauses verified; inventory 44 confirmed; tests not applicable; commits none; repository edits and remote calls none.
+
 ## In Progress
+
 Nothing running; no triage or deletion performed.
+
 ## Queries
+
 No outstanding queries; recommendation returned for the supervisor’s decision.
+
 ### 🤖 → 👤 Handoff to supervisor · since 20:19 BST
+
 👤 1 with you · 🅿️ 0 parked
+
 - [with you] design-review recommendation · supervisor · since 20:19 BST

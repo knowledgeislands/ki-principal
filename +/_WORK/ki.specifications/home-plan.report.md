@@ -30,6 +30,7 @@ Outstanding - no action requested now:
 ### HOMING-EDITS - accept the four homing edits as part of the spec text
 
 **Context:** SPEC-TEXT is your approval of the three texts. Homing them into the harness needs four mechanical edits:
+
 1. a version 1 Status line;
 2. the attribution kept as it is;
 3. links between the specifications made into plain names, because a relative link across skills breaks the harness link rule and naming house skills would make the specs house-specific;
@@ -40,7 +41,9 @@ Any other wording change would come back to you.
 **Query:** Do you accept these four edits as part of approving SPEC-TEXT, so the homed files count as your approved text?
 
 **Options:**
+
 a) (recommended, confidence high - each edit is mechanical and changes no rule) Accept them with SPEC-TEXT; each run applies only these four.
+
 b) Approve each homed file again after its run.
 
 ### CATALOGUE-WRITE - one write-mode catalogue regeneration in 6c
@@ -50,17 +53,21 @@ b) Approve each homed file again after its run.
 **Query:** May the 6c run's brief allow exactly one write-mode `ki repo conform --skill ki-repo-harness` in the harness, with every other conform staying dry-run?
 
 **Options:**
+
 a) (recommended, confidence medium - the generator is the only route the harness supports, but the HOOK-GUARD status is not settled in one place) Allow that one command in 6c's brief, run with `--dry-run` first and its diff checked before writing.
+
 b) Keep the ban: 6c writes the generated sections by hand and the ki-repo-harness audit verifies them.
 
 ### HOMING-REVIEW - harness records and review for step 6
 
-**Context:** The plan gates step 6 on "a harness record under ki-next, Steward review". The harness's last record is KI-HARNESS-GOV-227. The Paperclip Steward flow applies to Paperclip deliveries, and these are coordinator runs.
+**Context:** The plan gates step 6 on "a harness record under ki-next, Steward review". The harness's last record is [KI-HARNESS-GOV-227](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-227-repository-storage-declarations.md). The Paperclip Steward flow applies to Paperclip deliveries, and these are coordinator runs.
 
 **Query:** How should step 6 be recorded and reviewed?
 
 **Options:**
+
 a) (recommended, confidence medium - it keeps the harness's record trail without waiting on Paperclip) One small run captures three harness records, one for each of 6a, 6b and 6c, before they start; each homing run then gets one blind Codex review in place of the Steward before you accept it.
+
 b) Send all three through the Paperclip Steward and Convenor flow.
 
 ### 🤖 → 👤 Handoff to supervisor · since 01:09 BST

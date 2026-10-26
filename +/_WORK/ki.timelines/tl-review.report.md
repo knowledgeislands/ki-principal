@@ -8,7 +8,7 @@
 
 Reviewed all four queries independently; `queries.md` and `state.md` were not read.
 
-Checked 5G source and publication documentation, legal dated Items and generated-view contracts, a personal renewal note, and [KI-HARNESS-GOV-222](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-222-timeline-and-calendar-skill.md). The harness record is under `docs/roadmap/`; the brief's `Streams/Roadmap/` path does not exist.
+Checked 5G source and publication documentation, legal dated Items and generated-view contracts, a personal renewal note, and [KI-HARNESS-GOV-222 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-222-timeline-and-calendar-skill.md). The harness record is under `docs/roadmap/`; the brief's `Streams/Roadmap/` path does not exist.
 
 No commits or repository writes; no remote calls. Static inspection only: deployment and calendar-client behaviour were not tested.
 

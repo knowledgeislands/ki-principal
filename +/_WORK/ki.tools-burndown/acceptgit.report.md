@@ -16,7 +16,7 @@ Gate, Verify checks, acceptance criteria and governing audits: not run; stopped 
 
 ## In Progress
 
-[KI-MCP-GIT-FND-006](/Users/krisbrown/workspaces/knowledge-islands/mcp-git-audit/docs/roadmap/KI-MCP-GIT-FND-006-ground-roots-in-workspaces.md) remains Awaiting review. Independent verification, acceptance and pruning remain outstanding. No failed-review finding was established.
+[KI-MCP-GIT-FND-006 (pruned)](https://github.com/knowledgeislands/mcp-git-audit/blob/bd66c937d228fe19377259245f383fce22422a2e/docs/roadmap/KI-MCP-GIT-FND-006-ground-roots-in-workspaces.md) remains Awaiting review. Independent verification, acceptance and pruning remain outstanding. No failed-review finding was established.
 
 ## Queries
 
@@ -28,7 +28,7 @@ Gate, Verify checks, acceptance criteria and governing audits: not run; stopped 
 
 **Options**:
 
-a) (recommended, confidence high - resolves the direct conflict and permits the requested independent review) Explicitly authorise this run to accept and prune only KI-MCP-GIT-FND-006 after its independent checks pass; otherwise return it to In progress with findings.
+a) (recommended, confidence high - resolves the direct conflict and permits the requested independent review) Explicitly authorise this run to accept and prune only [KI-MCP-GIT-FND-006 (pruned)](https://github.com/knowledgeislands/mcp-git-audit/blob/bd66c937d228fe19377259245f383fce22422a2e/docs/roadmap/KI-MCP-GIT-FND-006-ground-roots-in-workspaces.md) after its independent checks pass; otherwise return it to In progress with findings.
 
 b) Keep the prohibition; leave the record Awaiting review for a separately authorised acceptance run.
 

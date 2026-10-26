@@ -6,13 +6,13 @@
 
 ## Done
 
-- [KI-OBSERVA-APP-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md) planned and promoted to `now`, still `draft`: Current state, Steps, Files touched and Dependencies confirmed against the code, the release of KI-OBSERVA-VIS-032, VIS-034, VIS-045 and VIS-038's consolidation named, and the open decisions set out under Discussion, Planning. Nothing implemented.
+- [KI-OBSERVA-APP-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md) planned and promoted to `now`, still `draft`: Current state, Steps, Files touched and Dependencies confirmed against the code, the release of [KI-OBSERVA-VIS-032](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-032-library-instrument.md), VIS-034, VIS-045 and VIS-038's consolidation named, and the open decisions set out under Discussion, Planning. Nothing implemented.
 - Holds of [KI-OBSERVA-OPS-004](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-OPS-004-tailnet-read-only-appearance.md) and [KI-OBSERVA-VIS-029](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-029-sessions-from-every-host.md) reworded to "Host network's tailnet service-name decision lands", in frontmatter, Shaping and Discussion, with a ROADMAP-CENSUS-2 note.
 - One commit, 063b585, local and unpushed; repository audit FAIL=0, its six warnings all existing ones on other records; Markdown lint clean.
 
 ## In Progress
 
-- Nothing. KI-OBSERVA-APP-044 cannot go Ready until RESTRUCTURE is answered, and its first step still waits for step 3: KI-OBSERVA-VIS-030 is in progress, KI-OBSERVA-BRG-005 is a draft and KI-OBSERVA-VIS-044 awaits review.
+- Nothing. [KI-OBSERVA-APP-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md) cannot go Ready until RESTRUCTURE is answered, and its first step still waits for step 3: [KI-OBSERVA-VIS-030](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md) is in progress, [KI-OBSERVA-BRG-005](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-005-act-board-missing-parts.md) is a draft and [KI-OBSERVA-VIS-044 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/c1f008346dc085a0c25026ea5c9a08b383ef1d5b/docs/roadmap/KI-OBSERVA-VIS-044-commit-authors-in-tables.md) awaits review.
 
 ## Queries
 
@@ -20,7 +20,7 @@
 
 **Context** The code check found that an unknown `?view=` address falls back to the Beacon today. The server page, the shell and `--view` each read the view, so a redirect table belongs in `resolveInstrument`. Council is a pure rename, but Waiting for you takes Work's "with you" view, so it waits on where Work goes (DESIGN-WORK). The Council rename and the Waiting for you rename each still need your own go.
 
-**Query** How should KI-OBSERVA-APP-044 decide the restructure?
+**Query** How should [KI-OBSERVA-APP-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md) decide the restructure?
 
 **Options**
 

@@ -16,8 +16,8 @@
   - A NO-ALIAS entry is added to the ki-work-package sources.
   - The capability catalogue, the README counts and the diagram sources are republished.
   - The test's remediation-inventory counts drop by the alias's two criteria.
-  - The open records [KI-HARNESS-GOV-219](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-219-feedback-work-folder-kind.md) and [KI-HARNESS-GOV-200](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md) now name `ki-work-package`, and GOV-219's broken standard link is fixed.
-  - Historical text keeps the old name: the changelog, the ADR, sources provenance, and the completed items and evidence in [KI-HARNESS-GOV-199](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-199-thread-identity-role-native-sessions.md).
+  - The open records [KI-HARNESS-GOV-219 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-219-feedback-work-folder-kind.md) and [KI-HARNESS-GOV-200 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md) now name `ki-work-package`, and GOV-219's broken standard link is fixed.
+  - Historical text keeps the old name: the changelog, the ADR, sources provenance, and the completed items and evidence in [KI-HARNESS-GOV-199 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-199-thread-identity-role-native-sessions.md).
 - ki-agentic-harness `9c9ae922`: the skill-map and coordination-area diagrams are rebuilt without `ki-work-folder`, and their last check is pinned at `3d50e252`.
 - `ki dev skill generate ki-coordination`: in sync, with no changes.
 - `bun run test`: pass, 1284 tests.
@@ -67,7 +67,9 @@ Outstanding - no action requested now
 **Query:** Will you push all six commits now, or hold until the acquire session pushes its own?
 
 **Options:**
+
 a) (recommended, confidence medium - the combined tree tests clean and the four ways-of-working commits form one reviewed chain, but I have not reviewed the acquire commits) Push all six after a look at `8bc9d49d` and `88cce3e5`, and ask the acquire session to fix the FILES-10 table order.
+
 b) Hold until the acquire session pushes its two commits, then push the four ways-of-working commits.
 
 ### 🤖 → 👤 Handoff to supervisor · since 14:48 BST

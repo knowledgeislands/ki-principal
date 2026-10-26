@@ -7,10 +7,10 @@
 ## Done
 
 - Added the [Timelines](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/timelines.md) Project note (theme `foundations`, active, lead Kris Brown) and its line in [Projects](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/Projects.md), commit `f4f3cd2`. The commit audit passed with one warning: the Project has no open records yet. The [Foundations](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/foundations.md) theme page lists no Projects, so I left it unchanged.
-- Correction: the first commit attempt failed the commit audit (rule STREAM-9) because the note named KI-HARNESS-GOV-222. Registry notes may not name work records. The note now says "the existing calendar record in the `ki-agentic-harness` roadmap", and its TIMELINES-OPEN quote stops before the record identifier.
+- Correction: the first commit attempt failed the commit audit (rule STREAM-9) because the note named [KI-HARNESS-GOV-222 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-222-timeline-and-calendar-skill.md). Registry notes may not name work records. The note now says "the existing calendar record in the `ki-agentic-harness` roadmap", and its TIMELINES-OPEN quote stops before the record identifier.
 - Wrote the [survey](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.timelines/design/survey.md), commit `602f714`, commit audit passed. It covers four areas:
   - the 5G Emerge calendar component: its data shape, busy status, how feeds are built and where they are served, its views, and what is 5G-specific;
-  - [KI-HARNESS-GOV-222](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-222-timeline-and-calendar-skill.md), summarised in full;
+  - [KI-HARNESS-GOV-222 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-222-timeline-and-calendar-skill.md), summarised in full;
   - the three first adopters;
   - existing harness standards that touch dates.
 - Key facts from the survey:
@@ -28,7 +28,7 @@ Nothing is running.
 
 Outstanding - no action requested now:
 
-- KI-HARNESS-GOV-222 still names `project: observatory`. Moving it to `timelines` is the harness's call; it is listed as open question 9 in the survey.
+- [KI-HARNESS-GOV-222 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-222-timeline-and-calendar-skill.md) still names `project: observatory`. Moving it to `timelines` is the harness's call; it is listed as open question 9 in the survey.
 
 ## Queries
 
@@ -39,7 +39,9 @@ Outstanding - no action requested now:
 **Query:** Should the three stacked commits be pushed together?
 
 **Options:**
+
 a) (recommended, confidence medium - the other two are docs-only work-folder and Project commits, but I have not reviewed them) Let the mac-studio-setup session or you push all three fast-forward.
+
 b) Leave them unpushed until the mac-studio-setup session pushes its own work.
 
 ### TIMELINE-IMPROVEMENTS - Kris's improvements to the scope
@@ -49,7 +51,9 @@ b) Leave them unpushed until the mac-studio-setup session pushes its own work.
 **Query:** What are your improvements to the scope?
 
 **Options:**
+
 a) (recommended, confidence high - the read-back puts this before any design run) Give them now, in speech, and the coordinator logs them before launching design.
+
 b) Start design on the scope as it stands and fold the improvements in later.
 
 ### FEED-HOME - Where subscription feeds are served
@@ -59,7 +63,9 @@ b) Start design on the scope as it stands and fold the improvements in later.
 **Query:** Where should a knowledge base without a site serve its calendar feeds?
 
 **Options:**
+
 a) (recommended, confidence low - this rests only on the survey; nothing has been designed yet) Take it into the design run as an open question, with the base's own site, the Observatory and a private-feed host as candidates.
+
 b) Decide now that each base serves its feeds from its own site.
 
 ### BUSY-STATUS - Busy-status vocabulary and default
@@ -69,7 +75,9 @@ b) Decide now that each base serves its feeds from its own site.
 **Query:** Should busy status be a per-item field that defaults to free, with all-day items blocking time only when they are marked as blocking?
 
 **Options:**
+
 a) (recommended, confidence medium - this matches today's 5G behaviour and leaves legal's hard dates able to block time) Per-item `busy` defaulting to free; it maps to `TRANSP` and the client busy-status properties.
+
 b) Default to busy for deadlines and events, and free otherwise.
 
 ### ONE-SOURCE - Programme timeline and calendar registry
@@ -79,7 +87,9 @@ b) Default to busy for deadlines and events, and free otherwise.
 **Query:** Should one structured source feed both the timeline view and the calendar feeds?
 
 **Options:**
+
 a) (recommended, confidence medium - two copies of one fact drift apart, and legal already generates its timeline from a single source) Use one source, the dated items, and generate the timeline view and the feeds from it.
+
 b) Keep two lists and link them by entry id.
 
 ### DATE-MODEL - Dates only, or times and a time zone too
@@ -89,17 +99,21 @@ b) Keep two lists and link them by entry id.
 **Query:** Should the skill model an optional time of day and a time zone?
 
 **Options:**
+
 a) (recommended, confidence medium - one of the first adopters, legal, already needs times) Make a time optional per item, with one time zone per calendar set; items without a time stay all-day.
+
 b) Dates only, keeping a time as a label, as the Command Centre does with `due_time`.
 
 ### SKILL-SHAPE - Skill shape, name and code home
 
-**Context:** KI-HARNESS-GOV-222 asks three things: whether this is one skill or a skill plus a view; which of `ki-calendars`, `ki-timelines` or `ki-key-dates` to use as the name; and whether the code lives in the harness, `tools-ki` or a shared package.
+**Context:** [KI-HARNESS-GOV-222 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-222-timeline-and-calendar-skill.md) asks three things: whether this is one skill or a skill plus a view; which of `ki-calendars`, `ki-timelines` or `ki-key-dates` to use as the name; and whether the code lives in the harness, `tools-ki` or a shared package.
 
 **Query:** Should these be settled in the design run rather than now?
 
 **Options:**
+
 a) (recommended, confidence high - each depends on FEED-HOME and ONE-SOURCE) Settle them in the design run under `ki-work-design`.
+
 b) Name the skill and choose a code home now.
 
 ### 🤖 → 👤 Handoff to supervisor · since 11:07 BST

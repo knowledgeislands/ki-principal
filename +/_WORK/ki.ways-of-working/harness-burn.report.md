@@ -7,7 +7,7 @@
 ## Done
 
 - **Classified all 25 open harness records** (table below). Only two could be worked without an owner decision.
-- **[KI-HARNESS-GOV-170](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-170-keep-resolution-targets-local.md) delivered and awaiting review, on local `main`:** Ready in `e66f3130`, delivered in `4a10ba07`. A `resolution_target` must now name a record in the same repository. Another repository's work is described in plain words under `## Cancelled`. A `superseded` or `duplicate` record may leave the target out. The checks:
+- **[KI-HARNESS-GOV-170 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-170-keep-resolution-targets-local.md) delivered and awaiting review, on local `main`:** Ready in `e66f3130`, delivered in `4a10ba07`. A `resolution_target` must now name a record in the same repository. Another repository's work is described in plain words under `## Cancelled`. A `superseded` or `duplicate` record may leave the target out. The checks:
   - `bun run test`: 1,372 pass.
   - `bunx tsc --noEmit`: passes.
   - Isolated-home audits of `ki-work-roadmap`, `ki-accept`, `ki-skills` and `ki-authoring`: no FAIL.
@@ -25,10 +25,10 @@
 
 | Class | Records |
 | --- | --- |
-| Accepted, not pruned | [KI-HARNESS-GOV-196](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-196-scratch-output-in-temp.md) (cancelled), [KI-HARNESS-GOV-199](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-199-thread-identity-role-native-sessions.md), [KI-HARNESS-GOV-200](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md), [KI-HARNESS-GOV-205](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-205-static-light-diagram-export.md), [KI-HARNESS-GOV-214](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-214-working-area-marks.md), [KI-HARNESS-GOV-215](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-215-pmo-12-to-fail.md), [KI-HARNESS-GOV-216](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-216-three-part-updates.md) (cancelled), [KI-HARNESS-GOV-220](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-220-coord-1-undeclared-warn-level.md), [KI-HARNESS-GOV-221](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-221-ki-diagrams-mermaid-fence-warning.md), [KI-HARNESS-GOV-222](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-222-timeline-and-calendar-skill.md) (cancelled), [KI-HARNESS-GOV-223](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-223-island-maturity-declaration.md), [KI-HARNESS-GOV-226](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-226-banner-rendered-glyphs.md) (cancelled) |
-| Needs Kris | [KI-HARNESS-GOV-219](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-219-feedback-work-folder-kind.md) and [KI-HARNESS-GOV-224](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-224-diagram-viewer-receipts.md) (awaiting acceptance), [KI-HARNESS-GOV-225](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-225-hook-content-claims.md) (close-out), [KI-HARNESS-GOV-189](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-189-move-thread-between-hosts.md) (open questions), [KI-HARNESS-GOV-202](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-202-skill-area-stable-stats-badge.md) (triage, needs adoption), [KI-HARNESS-GOV-227](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-227-repository-storage-declarations.md) (schema), [KI-HARNESS-OPS-009](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-OPS-009-complete-ai-session-acquisition.md) (needs splitting), [KI-HARNESS-GOV-209](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-209-acquired-inbound-area.md) (scaffold ownership) |
+| Accepted, not pruned | [KI-HARNESS-GOV-196 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/a5df633983208f53cec99558f94f26b203223369/docs/roadmap/KI-HARNESS-GOV-196-scratch-output-in-temp.md) (cancelled), [KI-HARNESS-GOV-199 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-199-thread-identity-role-native-sessions.md), [KI-HARNESS-GOV-200 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-200-thread-folder-closed-list.md), [KI-HARNESS-GOV-205 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-205-static-light-diagram-export.md), [KI-HARNESS-GOV-214 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-214-working-area-marks.md), [KI-HARNESS-GOV-215 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-215-pmo-12-to-fail.md), [KI-HARNESS-GOV-216 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-216-three-part-updates.md) (cancelled), [KI-HARNESS-GOV-220 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-220-coord-1-undeclared-warn-level.md), [KI-HARNESS-GOV-221 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-221-ki-diagrams-mermaid-fence-warning.md), [KI-HARNESS-GOV-222 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-222-timeline-and-calendar-skill.md) (cancelled), [KI-HARNESS-GOV-223 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-223-island-maturity-declaration.md), [KI-HARNESS-GOV-226 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-226-banner-rendered-glyphs.md) (cancelled) |
+| Needs Kris | [KI-HARNESS-GOV-219 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-219-feedback-work-folder-kind.md) and [KI-HARNESS-GOV-224 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/7378f88a323454339ae61bab6bd1bdb03104a8eb/docs/roadmap/KI-HARNESS-GOV-224-diagram-viewer-receipts.md) (awaiting acceptance), [KI-HARNESS-GOV-225 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/d5cbe00e19274c94415323e01d593297eb5dc181/docs/roadmap/KI-HARNESS-GOV-225-hook-content-claims.md) (close-out), [KI-HARNESS-GOV-189](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-189-move-thread-between-hosts.md) (open questions), [KI-HARNESS-GOV-202](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-202-skill-area-stable-stats-badge.md) (triage, needs adoption), [KI-HARNESS-GOV-227](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-227-repository-storage-declarations.md) (schema), [KI-HARNESS-OPS-009](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-OPS-009-complete-ai-session-acquisition.md) (needs splitting), [KI-HARNESS-GOV-209](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-209-acquired-inbound-area.md) (scaffold ownership) |
 | Blocked on another repository or a date | [KI-HARNESS-GOV-204](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-204-pretooluse-quietening-hook.md) (evidence review on 24 October), [KI-HARNESS-GOV-228](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-228-home-work-spec.md), [KI-HARNESS-GOV-229](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-229-home-acquire-spec.md) and [KI-HARNESS-GOV-230](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-230-knowledge-package-skill.md) (waiting on SPEC-TEXT in ki.portable-specifications; GOV-228 also on the ENTRY-NAMES rename) |
-| Workable now | [KI-HARNESS-GOV-170](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-170-keep-resolution-targets-local.md) (delivered in this run) |
+| Workable now | [KI-HARNESS-GOV-170 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-170-keep-resolution-targets-local.md) (delivered in this run) |
 
 ## In Progress
 
@@ -46,15 +46,17 @@ Outstanding - no action requested now:
 
 **Context:** Three harness records are awaiting review:
 
-- [KI-HARNESS-GOV-219](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-219-feedback-work-folder-kind.md) and [KI-HARNESS-GOV-224](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-224-diagram-viewer-receipts.md) were delivered before this run.
-- [KI-HARNESS-GOV-170](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-170-keep-resolution-targets-local.md) was delivered in this run.
+- [KI-HARNESS-GOV-219 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-219-feedback-work-folder-kind.md) and [KI-HARNESS-GOV-224 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/7378f88a323454339ae61bab6bd1bdb03104a8eb/docs/roadmap/KI-HARNESS-GOV-224-diagram-viewer-receipts.md) were delivered before this run.
+- [KI-HARNESS-GOV-170 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/f9da11ced73eaab512d5df6a4ef6d21f574ce89d/docs/roadmap/KI-HARNESS-GOV-170-keep-resolution-targets-local.md) was delivered in this run.
 
 I moved GOV-170 out of Future on the authority of OVERNIGHT-BURNDOWN, your direction of 20 October about 05:20 BST. Each record has a review packet.
 
 **Query:** Should these three go to independent review and then acceptance?
 
 **Options:**
+
 a) (recommended, confidence medium - each has a full review packet and passing checks, but none has had an independent review yet) Run an independent review of each, oldest first, then accept those that pass.
+
 b) Review GOV-170 only, and leave the other two for their own works.
 
 ### GOV209-OWNER - who owns the acquired-area scaffold
@@ -70,19 +72,24 @@ b) Review GOV-170 only, and leave the other two for their own works.
 **Query:** Which skill should own the scaffold, and should it be required in every principal or checked only once the folder exists?
 
 **Options:**
+
 a) (recommended, confidence low - it matches who receives deliveries, but brings eight audit failures until each principal is conformed) Give it to `ki-repo-kb-principal` and require it while the overlay is declared, adding conform support. Put the receiver triage guidance in `ki-repo-kb`.
+
 b) Check the scaffold only once `+/_ACQUIRED/` exists, which means amending the ki-repo rule on specialist subareas.
+
 c) Give it to `ki-repo-kb` for every knowledge base.
 
 ### GOV225-CLOSE - close the hook content-claims record
 
-**Context:** [KI-HARNESS-GOV-225](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-225-hook-content-claims.md) has every step done except agreeing with you whether it now closes. Composition is left to KI-TOOL-KI-CLI-165 in tools-ki.
+**Context:** [KI-HARNESS-GOV-225 (pruned)](https://github.com/knowledgeislands/ki-agentic-harness/blob/d5cbe00e19274c94415323e01d593297eb5dc181/docs/roadmap/KI-HARNESS-GOV-225-hook-content-claims.md) has every step done except agreeing with you whether it now closes. Composition is left to [KI-TOOL-KI-CLI-165 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/fde00e978a4c9b0e697252bac3e0979f09d85e8c/docs/roadmap/KI-TOOL-KI-CLI-165-hook-composition-claims-host.md) in tools-ki.
 
 **Query:** Should GOV-225 close now, with composition left to tools-ki?
 
 **Options:**
+
 a) (recommended, confidence medium - all the harness-side steps are done) Move it to awaiting review for acceptance.
-b) Keep it open until KI-TOOL-KI-CLI-165 lands.
+
+b) Keep it open until [KI-TOOL-KI-CLI-165 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/fde00e978a4c9b0e697252bac3e0979f09d85e8c/docs/roadmap/KI-TOOL-KI-CLI-165-hook-composition-claims-host.md) lands.
 
 ### GOV189-SCOPE - moving a thread between hosts
 
@@ -95,7 +102,9 @@ b) Keep it open until KI-TOOL-KI-CLI-165 lands.
 **Query:** Should GOV-189 be narrowed to the decided slice, or wait for your answers to both questions?
 
 **Options:**
+
 a) (recommended, confidence low - the decided slice could be delivered now, but narrowing changes the record's scope) Narrow it to the level check and `[behind]`, and keep the two questions in its Discussion.
+
 b) Answer both questions so the whole record can be planned.
 
 ### GOV202-ADOPT - stats badge for skill areas
@@ -105,7 +114,9 @@ b) Answer both questions so the whole record can be planned.
 **Query:** Should GOV-202 be adopted?
 
 **Options:**
+
 a) (recommended, confidence low - it is small, but I have not judged its value) Adopt it to Next for a later burndown.
+
 b) Cancel it.
 
 ### GOV227-SCHEMA - repository storage declarations
@@ -115,7 +126,9 @@ b) Cancel it.
 **Query:** When should the schema be designed?
 
 **Options:**
+
 a) (recommended, confidence medium - the record names you as co-designer) Hold a short design session in its own work.
+
 b) Defer it to Future.
 
 ### OPS009-SPLIT - complete AI session acquisition
@@ -128,5 +141,7 @@ b) Defer it to Future.
 **Query:** Should OPS-009 be split?
 
 **Options:**
+
 a) (recommended, confidence medium - the record is too large to deliver as one) Split it in a session that is allowed to capture records, with each repository's part captured by that repository.
+
 b) Leave it whole at its current horizon.
