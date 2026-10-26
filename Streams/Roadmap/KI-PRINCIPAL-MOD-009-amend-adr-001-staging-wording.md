@@ -11,13 +11,12 @@ tags:
   - topic/acquisition
 priority: medium
 size: m
-status: awaiting-review
-horizon: now
+status: done
 blocks: []
 blocked_by: []
 baseline_ref: 9452900cfb19bb802d60f70563690259f9d889bd
 created_at: 2026-10-17T22:50:00Z
-updated_at: 2026-10-23T01:42:20Z
+updated_at: 2026-10-26T22:11:14Z
 ---
 
 # Amend ADR-KI-PRINCIPAL-001 Staging Wording
@@ -100,6 +99,10 @@ The goal and approved boundary are met. The six-stage lifecycle, faithful preser
 ### Mini recap
 
 Aligned staging, dispatch and vocabulary with Acquire's current guides, retained provenance history, and verified the bounded paths. The canonical ADR and process note hold the learning; no extra record or process is needed.
+
+## Done
+
+Accepted 2026-10-26 by Kris Brown, who answered the ACCEPT query with "all" at 21:25 GMT, taking its recommended option, "KI-PRINCIPAL-MOD-009 accepted as done", as read back in the [ways-of-working decisions log](../../+/_WORK/ki.ways-of-working/decisions.md), entry "2026-10-26 21:25 GMT". Closed under `ki-accept` by the wow-principal-records run; the record is retained and nothing was pruned.
 
 ## Discussion
 
