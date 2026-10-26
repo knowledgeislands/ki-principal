@@ -1,3 +1,1 @@
 # ki.ways-of-working messages
-
-- 2026-10-26 · METHOD-UNATTENDED · from HNR > SoP (hnr), routed from hnr.sop.sites 25 October 08:18 GMT: Kris: "If you ask me for input as well in an unattended period, you should only really ask it for a couple of minutes. And if I don't respond, then you should not take any action from it. That's also something they should learn about." Proposed rule: in an unattended window a coordinator asks in plain text, never a blocking question prompt, waits about two minutes, and with no answer acts on nothing from it, parks the query and carries on. For the ki-coordination / ki-delegation method owner.
