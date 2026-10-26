@@ -124,7 +124,9 @@ c) Keep them as Personal's local prototype and let each territory judge eligibil
 
 **Options:**
 
-a) (recommended, confidence high - every file is a verified byte-identical copy of a run report still in the specifications run directory, and the rename report names the new package) Owner ki.portable-specifications. Send one line to its `messages.md` naming the 25 reports; when it resumes, it checks each against its decisions log and deletes the folder by explicit path in a `docs(work)` commit; nothing is deleted before that check.
+a) (recommended, confidence high - reviewed: a masked Codex review chose this course independently, verified all 25 files byte-identical by SHA-256, and added that duplication proves bytes, not homing) Owner ki.portable-specifications. Send one line to its `messages.md` naming the folder and its 25 reports; when its steward next tidies, it checks each report's outcome has a durable home, its queries are carried, and live references still work (its decisions log line 67 points at `query-review-6.report.md`, which exists only at the old path), then deletes only the eligible reports, each by explicit path; nothing is deleted before that check.
+
+d) The reviewer's added course: authorise a bounded exception to that Project's hold so its own steward does the same per-report check and tidy now.
 
 b) Owner ki.portable-specifications, but delete the folder now in a bounded run, relying on the run packets as the surviving copy, without the package's own homing check.
 
