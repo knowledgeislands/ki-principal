@@ -611,3 +611,7 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
 - 2026-10-26 22:48 GMT: wow-review-answer-vector received: disagrees on ANSWER-VECTOR, picking b) wait for `ki work answer` (medium); both views now in queries.md, with the finding that either way the standard must grant the answer-line write.
 
 - 2026-10-26 23:02 GMT · METHOD-UNATTENDED, routed from HNR > SoP (hnr): Kris's words "If you ask me for input as well in an unattended period, you should only really ask it for a couple of minutes. And if I don't respond, then you should not take any action from it." Within this work's scope (the coordination method); queued as wow-method-unattended in the harness, after wow-hooks-form, which is editing the same skills. Message line removed.
+
+- 2026-10-26 23:09 GMT · Received wow-hooks-form: FORM-VS-RUMDL a) in harness 26ad77f1, COMMIT-VS-CI a) in harness d174adbc (no hook calls `ki`; check-only lint-staged; shape rubrics fail rewriting hooks); 1466 tests pass; HOOKS-CHECK-ONLY line sent to ki.tools-burndown (94e674a4). No queries. Until tools-ki releases, repositories on the old canonical hook keep `ki repo audit --staged` at commit. Brief removed.
+
+- 2026-10-26 23:09 GMT · NAMING-TO-KI, from HNR > SoP (hnr): proposes reverse-domain site repository names `apps-<tld>.<domain>.<sub>` estate-wide and asks for dispatch to the other territories. Adopting a convention and any rename are Kris's call; sent to blind review as wow-review-naming before it reaches Kris. Message line removed; the query carries it.
