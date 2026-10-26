@@ -322,7 +322,7 @@ b) Run `ki repo conform --skill ki-authoring` once in ki-principal, staged by ex
 
 **Query:** Should the Notion integration behind the mirror be revoked and its 1Password item deleted once the chezmoi change is applied?
 
-**Options:** a) (recommended, confidence medium - the mirror is retired in HNR's decisions and the token has no other consumer I could find, but I could not check Notion or 1Password) Revoke the integration in Notion and delete the 1Password item after `chezmoi apply` removes the last reference. b) Keep the item and integration for now, in case the mirror is rebuilt from the deleted repository's history elsewhere.
+**Options:** a) (recommended, confidence high - reviewed: the inventory entry resolves the token from 1Password into the rendered Claude Desktop and mcporter configs; finish any HNR Notion page removal that needs this integration before revoking; the mirror is retired in HNR's decisions and the token has no other consumer I could find, but I could not check Notion or 1Password) Revoke the integration in Notion and delete the 1Password item after `chezmoi apply` removes the last reference. b) Keep the item and integration for now, in case the mirror is rebuilt from the deleted repository's history elsewhere.
 
 ### MIRROR-NOTE - what happens to the Notion Mirror chapter note in ki-principal
 
@@ -330,7 +330,7 @@ b) Run `ki repo conform --skill ki-authoring` once in ki-principal, staged by ex
 
 **Query:** Should the Notion Mirror note be deleted with its inbound mentions, or kept as a historical note?
 
-**Options:** a) (recommended, confidence medium - matches the retirement pattern Known Lands already uses, but Pillars changes are yours under the Enactment Process) Delete the folder and the three inbound mentions, and record the retirement as one dated line in Known Lands, all under one Enactment record. b) Keep the note with `status: retired - October 2026` and a line saying the repository was deleted, so the model's tool chapter still shows what the mirror was.
+**Options:** a) (recommended, confidence high - reviewed: Known Lands already records earlier retirements as dated prose; the inbound mentions are two links (Tools, Knowledge Islands) and one prose mention (How Tools Connect), all three to adjust; matches the retirement pattern Known Lands already uses, but Pillars changes are yours under the Enactment Process) Delete the folder and the three inbound mentions, and record the retirement as one dated line in Known Lands, all under one Enactment record. b) Keep the note with `status: retired - October 2026` and a line saying the repository was deleted, so the model's tool chapter still shows what the mirror was.
 
 ### MIRROR-SITE - the public website's project card
 
@@ -338,15 +338,15 @@ b) Run `ki repo conform --skill ki-authoring` once in ki-principal, staged by ex
 
 **Query:** Should the card and map entries be removed, or should the card stay as a retired project without the repository link?
 
-**Options:** a) (recommended, confidence high - a public card linking to a 404 misleads readers and the site has no retired-project shape today) Remove the card and the two data entries, regenerate the SVGs from ki-design and rebuild. b) Keep the card marked retired with the link removed, adding a retired state to the site's project schema.
+**Options:** a) (recommended, confidence high - reviewed: the site validator only admits published repositories with a GitHub URL, so a retired state would need a schema change for one card; a public card linking to a 404 misleads readers and the site has no retired-project shape today) Remove the card and the two data entries, regenerate the SVGs from ki-design and rebuild. b) Keep the card marked retired with the link removed, adding a retired state to the site's project schema.
 
-### MIRROR-FRONTMATTER - the 285 notes carrying mirror frontmatter in HNR
+### MIRROR-FRONTMATTER - the 274 notes carrying mirror frontmatter in HNR
 
 **Context:** 272 hnr-shared notes and 13 hnr-principal notes carry `kb_notion_mirror_*` keys written by the server: hashes, publish timestamps, Notion URLs, root flags and two exclusion flags. HNR's Notion removal is trashing the mirrored pages leaf to root, so the URLs will soon point at trashed pages. The `.meta/tools/mirror` scripts and the Architecture Tracker artifact read `kb_notion_mirror_url`.
 
 **Query:** Should the handoff to `hnr.sop.sites` ask HNR to strip the frontmatter keys, or leave them as a record of what was published?
 
-**Options:** a) (recommended, confidence medium - the keys will be dead once the Notion pages are trashed and the Frontmatter Conventions note would need rewriting either way, but HNR owns the choice and its removal work is mid-flight) Ask HNR to strip the five keys in one bounded run after the Notion removal finishes, updating Frontmatter Conventions and the two scripts that read them. b) Leave the keys in place as published-history evidence and only retire the activity, the Integrations row and the publish scripts.
+**Options:** a) (recommended, confidence high - reviewed: the count is 274 notes (272 in hnr-shared, 2 in hnr-principal), not 285; the HNR run must also cover the Architecture Tracker recipe that reads the URL and freshness keys; the keys will be dead once the Notion pages are trashed and the Frontmatter Conventions note would need rewriting either way, but HNR owns the choice and its removal work is mid-flight) Ask HNR to strip the five keys in one bounded run after the Notion removal finishes, updating Frontmatter Conventions and the two scripts that read them. b) Leave the keys in place as published-history evidence and only retire the activity, the Integrations row and the publish scripts.
 
 ## Parked
 
