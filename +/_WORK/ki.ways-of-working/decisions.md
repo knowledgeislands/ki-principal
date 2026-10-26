@@ -553,3 +553,21 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
 - 2026-10-26 21:20 GMT: TOOLSKI-DEPCRUISE answered "Fold into release run". Read back as: the same release run renames tools-ki's checker root to tooling/depcruise everywhere it is named (ci.yml, src/core/agent/worktrees.ts, the worktree contract test, package.json, boundary tests) and bumps tools-ki's own KI_VERSION to v0.14.1 once it installs.
 
 - 2026-10-26 21:21 GMT: WEB-BUILD-ORDER answered "Reorder build before test pin bump (recommended, high confidence)". Read back as: when the website takes v0.14.1, the same commit moves bun run ki:site:build before bun run test in .github/workflows/ci.yml, then CI is watched to green. All three release-chain answers go to one run, wow-rel-0141, launched now.
+
+- 2026-10-26 21:25 GMT: Kris answered the twenty high-confidence queries with "all", taking each recommended option. Read back as:
+  - HNR-LEVEL a): a bounded run runs `git -C /Users/krisbrown/workspaces/humans-not-robots/hnr-principal reset -q --keep origin/main`.
+  - CI-RED-DOCS a): one bounded batch approval for ki-design and ki-principal document-rule failures, with an enumerated finding and path scope; mechanical fixes verified before applying; RECORD-2, FOLDER-1, STRUCTURE-1 and work-package cases come back as queries; BIO-1's configuration migration bounded separately.
+  - ACCEPT a): KI-PRINCIPAL-MOD-009 accepted as done.
+  - SUMMARY-VISIBLE a): the tap's Notify job also prints its dispatch line to the log; the release guide's step 6 points at it. Runs after wow-rel-0141 so the release is not disturbed.
+  - TIDY-GAPS a): obtain the owners of the orphan `+/_WORK/ki.specifications/` folder and of `radar-confirm-2.report.md` (KI-HARNESS-REV-012) before any repair.
+  - MGIT-CACHE-EXPIRY a): missing or expired set stops with a one-line error, exit 2; a fresh empty set runs nothing, exit 0.
+  - MGIT-CACHE-TTL a): fixed at five minutes from the sweep's start.
+  - MGIT-PUSH-ALIAS a): hand the `mpush` guard alias to ki.chezmoi as a messages.md line.
+  - WAKE-SUBSTRATE a): lift the deferral in order: write the headless coordinator-pass contract (authority, budget, overlapping passes, unavailable capacity, report) into `ki-coordination`, then send the launchd shell-check job as a line to ki.chezmoi and ki.mac-studio-setup.
+  - SINGLE-THREAD a): capture the Principal record amending the Work Process note and GDR-KI-PRINCIPAL-009 through the Enactment Process, and open a one-wave Valle Armonia pilot on one named VA Project package, the assignment logged in va's decisions until STEWARD-FIELD lands.
+  - SOP-PROJECT-CARE a): the line is disposed as carried by CASCADE-STEWARD, CASCADE-REPORT and RELATIONS; STEWARD-FIELD is the one decision still due.
+  - BOOT-HOME a): `ki-bootstrap` owns one machine-readiness checklist ending "Ready to coordinate" with observable hook and style checks; `ki-coordination` Bootstrap gains a "Before the opener" step citing it; a later `ki doctor` check goes to tools-ki as a message.
+  - RECAP-NAME a): `checkpoint <work id>`, the old word accepted through the tolerance window.
+  - TRADES-FATE a): narrow `ki-trades` now to routes the Capital's declared trade policy grants, pointer to messages.md for handoffs and rollouts, full support for existing trades, no new submissions; opening the Trades revamp is the next review trigger, a fixed date kept on HOLD-1 as fallback.
+  - DIAGRAM-PRIVATE-CITATIONS a): `ki-diagrams` gains the URL-free `path:revision:lines` traced form for private repositories; Archify's URL citation only where the remote is public; the audit accepts either; Personal's two records follow by message.
+  - INTERIM-REPAIR a), INTERIM-FINDING-WRITER a), INTERIM-FINDING-AGE a), INTERIM-HOMEPAGE-OMISSION a), INTERIM-TAG-SCOPE a): as recommended; recorded in their design notes and in the standards that already hold the topic.
