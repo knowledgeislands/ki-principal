@@ -21,7 +21,7 @@ method_read: fdf9a604
 
 ## Next steps
 
-- Coordinator: wake every 15 minutes, receive runs, accept only `Kris:` answers whose commit carries no AI co-author trailer, launch only authorised work; on return give the full Summary with every open query in full.
+- Coordinator: the window has ended and the wakes are cancelled; the return report has gone to Kris; strike the next mark once Kris has seen it, then launch the work each answer authorises.
 - Kris on return: the open queries in `queries.md`, the website review list and the review pack.
 
 ## Held
