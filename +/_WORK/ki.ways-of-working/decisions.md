@@ -571,3 +571,7 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
   - TRADES-FATE a): narrow `ki-trades` now to routes the Capital's declared trade policy grants, pointer to messages.md for handoffs and rollouts, full support for existing trades, no new submissions; opening the Trades revamp is the next review trigger, a fixed date kept on HOLD-1 as fallback.
   - DIAGRAM-PRIVATE-CITATIONS a): `ki-diagrams` gains the URL-free `path:revision:lines` traced form for private repositories; Archify's URL citation only where the remote is public; the audit accepts either; Personal's two records follow by message.
   - INTERIM-REPAIR a), INTERIM-FINDING-WRITER a), INTERIM-FINDING-AGE a), INTERIM-HOMEPAGE-OMISSION a), INTERIM-TAG-SCOPE a): as recommended; recorded in their design notes and in the standards that already hold the topic.
+
+- 2026-10-26 21:44 GMT: MGIT-CACHE-SCOPE not answered: "I need more context, what are routes?". MGIT-CACHE-FAILED not answered: "deal with concept first per previous comment". Both stay open; the concept and the six routes are to be explained in plain language before they are asked again.
+
+- 2026-10-26 21:44 GMT: Kris: "process what we've discussed first, then come back to me. is there somewhere I can easily read and understand all of this?" Read back as: let the launched and queued runs work through today's answers and report back when they land; build the rebuilt review pack now as the one readable place, with plain-language explanations ahead of each open query. Launched wow-review-pack-5.
