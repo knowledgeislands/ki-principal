@@ -623,3 +623,7 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
 - 2026-10-26 23:14 GMT · Received wow-method-unattended: the two-minute wait and silence-is-not-consent had landed under wow-ask-timeout on 25 October; this run added the plain-text, never-a-blocking-prompt element to both standards, the output style and COORD-6 (harness bedbb4d9); 1466 tests pass. No queries. Guidance read to bedbb4d9: in an unattended window, ask in plain text in the thread. Brief removed.
 
 - 2026-10-26 23:14 GMT · Release run 40412437409 for v0.14.1: darwin-x64 package job failed, so sign, publish, verify and tap notify were skipped; wow-rel-0141 is still running and will report the cause.
+
+- 2026-10-26 23:15 GMT · Received wow-review-tools: the blind review disagreed with the convergence run's MISSING-TOOLS pick; none of the three repositories pins the missing tools in a Bun lockfile (hnr-principal has none at all), so the install would add new software. Recommendation changed to leave until the second convergence, high, reviewed; the run's pick kept as option b. Brief removed.
+
+- 2026-10-26 23:15 GMT · wow-rel-0141: darwin-x64 failed on three 5 s test timeouts, not memory; the run is re-running the failed job once.

@@ -338,15 +338,17 @@ c) Adopt reverse-domain naming and send each territory a line to rename existing
 
 **Options:** a) (recommended, confidence high - a one-line fix that unblocks all ki tooling there) yes, one run, four one-line commits plus the hook commits; b) leave until the second convergence.
 
-### MISSING-TOOLS - authorise installs in the three package repositories without hook tools?
+### MISSING-TOOLS - install the missing hook tools in three package repositories?
 
-**Context:** hnr-principal, legal-principal and apps-yorkphotosoc.org lack some or all of lint-staged, syncpack, biome, rumdl and commitlint in `node_modules/.bin`, so their canonical package hook would refuse every commit; the brief forbade installs.
+**Context:** hnr-principal, legal-principal and apps-yorkphotosoc.org lack some or all of lint-staged, syncpack, Biome, rumdl and commitlint, so the canonical check-only hook would refuse every commit there, and the convergence skipped them. The convergence run proposed `bun install --frozen-lockfile`. The blind review checked the repositories: hnr-principal has no development dependencies and no lockfile; legal-principal's package-lock.json pins rumdl and syncpack but not lint-staged, Biome or commitlint; apps-yorkphotosoc.org uses Yarn with lint-staged and commitlint but no Biome, rumdl or syncpack. None has a Bun lockfile, so the install would have to add tools these repositories have never had, which falls under "we should never install new software". A second convergence follows the next ki release in any case.
 
-**Query:** may a follow-up run do `bun install --frozen-lockfile` in those three and then converge their hooks (acquire and apps-yorkphotosoc.org additionally need their GitHub settings conformed before conform will write anything)?
+**Query:** should these three repositories get the missing hook tools now, or wait for the second convergence?
 
-**Options:** a) (recommended, confidence medium - installs are routine but hnr-principal was actively changing under another session) yes, after hnr-principal's active session ends; b) leave until the second convergence.
+**Options:**
 
-🧵 Coordination thread · Ways of working (ki.ways-of-working)
+a) (recommended, confidence high - reviewed: the blind review found the lockfiles do not pin the tools, so this is new software, and another convergence is already planned) Leave them until the second convergence, recheck their dependencies then, and bring any tool they would need to you as its own decision.
+
+b) (the convergence run's pick, confidence medium) Install after hnr-principal's other session has finished and converge their hooks, accepting that this adds new development tools to all three.
 
 ## Parked
 
