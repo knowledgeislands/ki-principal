@@ -308,6 +308,46 @@ The review also found that the `ki-work-package` entry points let the owner, thr
 
 a) (recommended, confidence medium - the file effect and its gate exist and are tested, and the swap later is one operation's vector, but the Observatory's own contract leans the other way) Build the first slice on the existing file effect; capture `ki work answer` and `ki work queries` for tools-ki as a later message and the Observatory's KI-OBSERVA-INT-005. b) (blind review's pick, confidence medium - putting answer validation, the line's shape and the repository effect in one tools-ki command avoids a temporary second implementation; the feedback effect proves the mechanism, not an answer contract) Wait for tools-ki to provide `ki work answer`, and have the Observatory's first slice declare it as its vector from the start.
 
+### NAMING-TO-KI - Adopt reverse-domain site repository names, from HNR
+
+**Context:** HNR reports renaming nine site repositories on 26 October 2026 to reverse-domain order, with hostnames, Worker names and work identifiers unchanged. Reverse-domain names group a domain's repositories together within its top-level domain, which is useful for browsing. That benefit supports a prospective convention, but does not itself justify changing existing repositories: renames require coordinating GitHub, two checkouts, registry identity and potentially build connections under the owner's limit against changes that could take a site down. Each territory retains its repository decisions. Existing host-order repositories can remain valid indefinitely; adoption need not create a migration obligation.
+
+**Query:** Should Knowledge Islands adopt reverse-domain names for new site repositories while leaving each territory to decide whether to rename existing ones?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed: blind review agreed with the coordinator's pick; a prospective rule gains consistent grouping without requiring operational changes to existing sites) Adopt reverse-domain naming for new site repositories, record it in the harness [ki-repo standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/keystone/ki-repo/references/standards-repository.md), and send the proposal as a message to each territory's State of play. Leave existing names valid and any rename to the owning territory, with no deadline or automatic enforcement against them. Define the rule as reversing all hostname labels after `apps-`, including multi-part suffixes and nested subdomains: `kris.me.uk` becomes `apps-uk.me.kris`, and `rig.midnight.ninja` becomes `apps-ninja.midnight.rig`. This policy adoption changes no DNS, Cloudflare configuration or hostnames. Any later rename needs its own territory decision and assessment of the build connection and both checkouts; where the owner's site-safety limit cannot be met, retain the current name.
+
+b) Decline: retain host-order naming as the estate convention and leave HNR's renames as its local choice. This avoids introducing a second estate naming form, but forgoes the domain-grouping benefit for new sites.
+
+c) Adopt reverse-domain naming and send each territory a line to rename existing site repositories now. This achieves uniformity sooner, but imposes migration work and operational exposure without a demonstrated site or delivery benefit sufficient to justify it.
+
+### EXTRA-WRITES - commit the `.rumdl.toml` refresh the conform proposed?
+
+**Context:** in every converged repository the bounded conform also rewrote `.rumdl.toml` (re-enabling MD005 and MD075 for rumdl 0.3.0) and in er-principal ran `rumdl check --fix`; the brief said to skip a repository that would change files beyond the hook set, which would have skipped nearly all of them, so I committed the hooks alone and reverted my other writes.
+
+**Query:** was committing hooks alone the right call, and should the `.rumdl.toml` refresh be committed by a follow-up run?
+
+**Options:** a) (recommended, confidence high - the hook commits are self-contained and the config refresh is a separate, auditable change) yes, accept the hook commits as made and queue one bounded run to commit the `.rumdl.toml` refresh per repository; b) accept the hook commits and leave `.rumdl.toml` to the second convergence; c) revert the nine hook commits and redo them with `.rumdl.toml` included.
+
+### RENAMED-5G - repoint `.ki.toml` in the four renamed 5g-emerge repositories?
+
+**Context:** apex, demos, phase2 and phase3 still declare their pre-rename `apps-*.5g-emerge.io` repository URL in `.ki.toml`, so ki refuses every operation on them.
+
+**Query:** may a bounded run update the four `.ki.toml` repository fields and then converge their hooks?
+
+**Options:** a) (recommended, confidence high - a one-line fix that unblocks all ki tooling there) yes, one run, four one-line commits plus the hook commits; b) leave until the second convergence.
+
+### MISSING-TOOLS - authorise installs in the three package repositories without hook tools?
+
+**Context:** hnr-principal, legal-principal and apps-yorkphotosoc.org lack some or all of lint-staged, syncpack, biome, rumdl and commitlint in `node_modules/.bin`, so their canonical package hook would refuse every commit; the brief forbade installs.
+
+**Query:** may a follow-up run do `bun install --frozen-lockfile` in those three and then converge their hooks (acquire and apps-yorkphotosoc.org additionally need their GitHub settings conformed before conform will write anything)?
+
+**Options:** a) (recommended, confidence medium - installs are routine but hnr-principal was actively changing under another session) yes, after hnr-principal's active session ends; b) leave until the second convergence.
+
+🧵 Coordination thread · Ways of working (ki.ways-of-working)
+
 ## Parked
 
 - PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.
