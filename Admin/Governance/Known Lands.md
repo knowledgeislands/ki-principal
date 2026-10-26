@@ -39,7 +39,6 @@ Each island owns its accepted knowledge or executable behaviour within the share
 | [mcp-housekeeping-chatgpt][mcp-housekeeping-chatgpt] | MCP | ChatGPT housekeeping |
 | [mcp-housekeeping-claude][mcp-housekeeping-claude] | MCP | Claude housekeeping |
 | [mcp-ki-kb-fs][mcp-ki-kb-fs] | MCP | Knowledge Base filesystem |
-| [mcp-ki-kb-notion-mirror][mcp-ki-kb-notion-mirror] | MCP | Knowledge Base Notion mirror |
 | [mcp-m365][mcp-m365] | MCP | Microsoft 365 integration |
 | [tools-git-almanac][tools-git-almanac] | Tool | Git chronology |
 | [tools-ki][tools-ki] | Tool | KI governance host |
@@ -54,6 +53,10 @@ The former [ki-plugins][ki-plugins] Claude plugin projection was retired on 5 Oc
 The former [mcp-housekeeping-codex][mcp-housekeeping-codex] Codex housekeeping MCP was retired on 11 October 2026 under state-of-play owner decisions 37 and 40, after its Codex tools merged into [mcp-housekeeping-chatgpt][mcp-housekeeping-chatgpt]: it is archived read-only and is no longer a member.
 
 Specifications remains dormant as a normative authority until the overall V1 boundary. The inventory records its membership without representing future standards as current obligations.
+
+## Retired lands
+
+On 26 October 2026 Kris retired the KB-to-Notion mirror and deleted `knowledgeislands/mcp-ki-kb-notion-mirror` on GitHub and on sol and terra. It is no longer an internal land or a checkout to resolve. [Notion Mirror](<../../Pillars/Philosophy/Model/Tools/Notion Mirror/Notion Mirror.md>) retains its historical purpose. The ordinary hosted Notion connector is separate and remains in use.
 
 ## Uncharted lands
 
@@ -125,7 +128,6 @@ Membership and ownership changes follow the territory's Enactment Process and th
 [mcp-housekeeping-claude]: https://github.com/knowledgeislands/mcp-housekeeping-claude
 [mcp-housekeeping-codex]: https://github.com/knowledgeislands/mcp-housekeeping-codex
 [mcp-ki-kb-fs]: https://github.com/knowledgeislands/mcp-ki-kb-fs
-[mcp-ki-kb-notion-mirror]: https://github.com/knowledgeislands/mcp-ki-kb-notion-mirror
 [mcp-m365]: https://github.com/knowledgeislands/mcp-m365
 [tools-git-almanac]: https://github.com/knowledgeislands/tools-git-almanac
 [tools-ki]: https://github.com/knowledgeislands/tools-ki

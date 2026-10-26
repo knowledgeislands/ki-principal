@@ -46,6 +46,8 @@ KB Filesystem is the agent gateway to this island's knowledge base. Agents reach
 
 ## Notion Mirror
 
+Retired on 26 October 2026 by Kris, who deleted the repository on GitHub and on sol and terra; see [the retirement](<Notion Mirror/Notion Mirror.md#retirement>). This section records the former architecture. The ordinary hosted Notion connector is separate.
+
 Notion Mirror publishes KB notes into Notion. The Notion Mirror note covers the `mcp-ki-kb-notion-mirror` server, which mirrors individual notes or folder subtrees under a caller-supplied Notion parent and writes the resulting Notion URLs back into each note's frontmatter.
 
 ## Gmail

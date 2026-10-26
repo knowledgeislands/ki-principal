@@ -6,12 +6,20 @@ tags:
   - topic/notion
   - topic/knowledge-management
 source: claude
-status: current - October 2026
+status: archive - October 2026
 ---
 
 # Notion Mirror
 
-MCP server that mirrors Knowledge Base notes into Notion and records the resulting page URL in each note's frontmatter. Source: `mcp-ki-kb-notion-mirror`. The authoritative tool catalogue is the [mcp-ki-kb-notion-mirror README](https://github.com/knowledgeislands/mcp-ki-kb-notion-mirror#readme).
+## Retirement
+
+Kris retired this server on 26 October 2026 and deleted its repository on GitHub and on sol and terra; see [Known Lands](<../../../../../Admin/Governance/Known Lands.md#retired-lands>). No active binding or checkout should refer to the deleted package. The ordinary hosted Notion connector used to read and trash pages is separate and remains available.
+
+The tool catalogue and safeguards below are historical reference only.
+
+## Historical purpose
+
+MCP server that mirrors Knowledge Base notes into Notion and records the resulting page URL in each note's frontmatter. Source: `mcp-ki-kb-notion-mirror`. The former tool catalogue lived in the deleted repository; Git history retains the integration rationale.
 
 ## Tools
 
