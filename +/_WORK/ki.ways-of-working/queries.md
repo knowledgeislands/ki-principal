@@ -146,6 +146,14 @@ b) Owner ki.chezmoi, and ask it to recreate the source check as a tracked note u
 
 c) Leave both citations as they are, treating the dead path as historical.
 
+### FALLBACK-DATE - the HOLD-1 fallback review date for the trades hold
+
+**Context:** TRADES-FATE makes opening the Trades revamp Project the review trigger and keeps a fixed date on HOLD-1 as the fallback, but names no date. The notice in `ki-trades` SKILL.md is the only place the date is written and the HOLD-1 check warns once it passes. wow-harness-a set 2026-12-31, two months out, so a planned revamp that slips still gets a review before the year ends.
+
+**Query:** Does 2026-12-31 stand as the HOLD-1 fallback date, or do you want another?
+
+**Options:** a) (recommended, confidence high - the date is a fallback only, the revamp Project is planned, and a one-line change moves it) Keep 2026-12-31. b) Name another date and a run moves the notice in a one-line commit.
+
 ## Parked
 
 - PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.
