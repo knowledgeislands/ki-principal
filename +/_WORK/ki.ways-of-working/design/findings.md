@@ -1,6 +1,6 @@
 ---
 note_type: streams/design
-updated: 2026-10-25T00:50:00Z
+updated: 2026-10-26T21:50:00Z
 author: Written with Claude
 ---
 
@@ -74,6 +74,8 @@ A prompt a coordinator drafts for Kris to hand on, to another thread, another te
 A prompt is carried under `## Findings`, as one `###` heading with a stable tag, its goal line saying who it is for and what it asks of them, then the prompt itself in a fenced block Kris can copy whole. It is settled when Kris says it has been sent or used, or at a mark unless Kris keeps it open, and its disposition is recorded in the decisions log like a finding's; a prompt that has been sent is usually dropped, because the receiving thread now carries what it asked.
 
 ## Where a finding lives between Summaries
+
+**Decided:** Kris settled the writer and the age on 26 October 2026, read back in the [decisions log](../decisions.md), taking the recommended option of each. Under INTERIM-FINDING-WRITER the `ki-work-package` standard's steward-only package writer stands and this note's proposal that a run writes `findings/<tag>.md` when its brief names it is declined: a run carries a finding in its run report, goal first, and the steward copies it into the file at receive, as it copies queries. Under INTERIM-FINDING-AGE an open finding has no age limit and no age warning, since it is settled by the owner-report Findings rule and not by time; an age may return once territory evidence shows one useful. Both rules are written into the standard's Entry points and Tidying sections in `ki-agentic-harness`.
 
 A Summary is a message and is not saved, so a finding carried only in the coordinator's context is lost at the first compaction. It needs a home in the work package that survives both compaction and a fresh session.
 

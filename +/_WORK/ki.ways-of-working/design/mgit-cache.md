@@ -1,6 +1,6 @@
 ---
 note_type: streams/design
-updated: 2026-10-25T09:05:00Z
+updated: 2026-10-26T21:50:00Z
 author: Written with Claude
 ---
 
@@ -187,6 +187,8 @@ Build routes F and D together in `tools-mgit`, with the name from E, as one work
 
 **Options:** a) (recommended, confidence high - reviewed; stopping is the only safe behaviour for a destructive follow-up and costs one re-run) Stop with a one-line error naming the set's age and the fix, exit 2, nothing dispatched; a fresh empty set runs nothing and exits 0. b) Warn and run the full selection, as plain `mgit <command>` would.
 
+**Decided:** Kris took a) on 26 October 2026, read back in the [decisions log](../decisions.md): when the set is missing or expired, `--from-cache <command>` stops with a one-line error naming the set's age and the fix, exits 2 and dispatches nothing; a fresh empty set runs nothing and exits 0. Nothing is built until MGIT-CACHE-SCOPE is answered.
+
 ### MGIT-CACHE-FAILED - whether a checkout whose sweep failed is a candidate
 
 **Context:** A sweep can fail in a checkout, for example on an `index.lock`, a missing upstream or a broken worktree. The draft includes such checkouts in the set, since they have not shown they are normal, and the follow-up would then run and most likely fail there too, loudly. The reviewer points out that a failed inspection does not prove the next command fails harmlessly, and that the sweep's own exit 1 already stops an `&&` chain, so you would only reach `--from-cache` by `;` or a second command.
@@ -203,6 +205,8 @@ Build routes F and D together in `tools-mgit`, with the name from E, as one work
 
 **Options:** a) (recommended, confidence high - one constant, no new configuration surface, and your words set the bound) Fixed at five minutes from the sweep's start. b) Configurable, with five minutes as the default, by an environment variable or a future `mgit` setting.
 
+**Decided:** Kris took a) on 26 October 2026, read back in the [decisions log](../decisions.md): the limit is fixed at five minutes from the sweep's start, one constant with no setting. Nothing is built until MGIT-CACHE-SCOPE is answered.
+
 ### MGIT-PUSH-ALIAS - adopting the no-cache push guard today
 
 **Context:** Route B is a one-line `mgit -R sh -c '...'` guard that pushes only checkouts ahead of their upstream, costs no network for level ones, keeps push failures visible, and needs no change to mgit. Tested read-only on this machine. It would live in chezmoi as an alias such as `mpush`, handed to the ki.chezmoi work as a message.
@@ -210,3 +214,5 @@ Build routes F and D together in `tools-mgit`, with the name from E, as one work
 **Query:** Do you want the alias now, independent of what `tools-mgit` builds?
 
 **Options:** a) (recommended, confidence high - zero cost, available today, and it remains useful after the cache ships) Yes: hand the alias to ki.chezmoi as a `messages.md` line, and learn `push` over a level set so a plain `mgit push` is quiet. b) No: wait for the `tools-mgit` record.
+
+**Decided:** Kris took a) on 26 October 2026, read back in the [decisions log](../decisions.md): the route B guard goes to ki.chezmoi as an `mpush` alias, sent as a line in that work's `messages.md` the same day by run wow-harness-b; teaching `mgit push` to be quiet over a level set waits for the `tools-mgit` record under MGIT-CACHE-SCOPE.

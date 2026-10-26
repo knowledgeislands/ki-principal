@@ -1,6 +1,6 @@
 ---
 note_type: streams/design
-updated: 2026-10-25T00:45:00Z
+updated: 2026-10-26T21:50:00Z
 author: Written with Claude
 ---
 
@@ -49,7 +49,7 @@ Three rows are new, and the discovery row changes its source.
 
 1. **One landing page per repository.** `homepage` is the repository's single landing page, mirrored to the root `package.json` only. A workspace package's own `package.json` `homepage`, such as a published package pointing at its documentation, is that package's and is left alone.
 2. **Validate the URL.** The value is an absolute `https://` URL with a host, no credentials and no whitespace, and the check fails anything else rather than mirroring it.
-3. **Decide what omission means.** The proposal is that omission means no homepage: an audit reports a mirrored value left on `package.json` or GitHub as stale, and conform proposes clearing it, never clearing it unasked. This is for the standard to confirm before the check lands, since a repository that drops the key would otherwise lose a live homepage silently.
+3. **Decide what omission means.** The proposal is that omission means no homepage: an audit reports a mirrored value left on `package.json` or GitHub as stale, and conform proposes clearing it, never clearing it unasked. This is for the standard to confirm before the check lands, since a repository that drops the key would otherwise lose a live homepage silently. Confirmed: Kris took the recommended option under INTERIM-HOMEPAGE-OMISSION on 26 October 2026, read back in the [decisions log](../decisions.md): absence means no repository homepage, the audit reports stale root `package.json` and GitHub values, conform proposes clearing them for explicit approval, and workspace-package homepages stay outside the rule. The `ki-repo` standard now carries it.
 4. **Review before migrating.** Existing `package.json` and GitHub homepages are reviewed one by one before any is copied into `.ki.toml`, rather than guessed: a preview URL, a stale domain or a package-specific page may each be wrong to promote. The [pilot](#the-valle-armonia-pilot) shows both cases in Valle Armonia.
 
 **Managed topics.** These are derived from declarations already in `.ki.toml`, so nothing new is declared. They are described under [The taxonomy](#the-taxonomy).
@@ -234,7 +234,7 @@ Personal ran the note over its nine members in a metadata survey, then re-checke
 Short answers to its open points:
 
 - **`ki-repo-project` as a primary shape:** acquire declares it as its `primary_shape`, and it gives `ki-shape-project`; only as a supporting declaration does it add no topic. [Derivation](#derivation) now says so.
-- **No optional or shape-scoped tag type:** still open. Membership stays one value per declared type on every member, which rules out a `domain` type where five of nine members are sites, so Personal declares no tag types. Whether a type may be optional, or scoped to one shape, is a question for the `ki-repo` standard once a second territory needs it.
+- **No optional or shape-scoped tag type:** still open. Membership stays one value per declared type on every member, which rules out a `domain` type where five of nine members are sites, so Personal declares no tag types. Whether a type may be optional, or scoped to one shape, is a question for the `ki-repo` standard once a second territory needs it. Deferred: Kris took the recommended option under INTERIM-TAG-SCOPE on 26 October 2026, read back in the [decisions log](../decisions.md): the every-member rule stands for initial graduation, and optional or shape-scoped types remain an extension awaiting a second territory's evidence.
 - **Whether a code may equal `territory_prefix`:** answered by `ki-repo`'s territory selection standard, under [The territory code](#the-territory-code): it may, and `personal` is reserved for the estate owner's own territory.
 - **Dotted domain keywords such as `kris.me.uk`:** drop them. GitHub topics allow no dots, and the homepage now carries the domain, so a hyphenated stand-in adds nothing.
 - **`package.json` homepages pointing at the GitHub README:** this is the not-to-promote case under the homepage cautions; the verified site domain replaces it, and `homepage` in `[skills.ki-repo]` carries the live domain.

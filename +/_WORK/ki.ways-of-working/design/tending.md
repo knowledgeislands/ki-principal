@@ -1,6 +1,6 @@
 ---
 note_type: streams/design
-updated: 2026-10-25T00:45:00Z
+updated: 2026-10-26T21:50:00Z
 author: Written with Claude
 ---
 
@@ -165,7 +165,7 @@ The pilot runs found checks that were judged by hand but have a clear yes or no 
 
 The pilots raised these, and no answer is settled yet:
 
-- **Small repairs under an adopted record.** Whether a small repair that falls under an already adopted record is a fix now or part of that record's delivery.
+- **Small repairs under an adopted record.** Whether a small repair that falls under an already adopted record is a fix now or part of that record's delivery. Settled: Kris took the recommended option under INTERIM-REPAIR on 26 October 2026, read back in the [decisions log](../decisions.md). Such a repair stays with the record's owner and plan; a tending pass may deliver one only when explicitly authorised within those bounds, must leave the evidence with the record, and infers no acceptance.
 - **Member packages from the Capital.** How State of play sees each member repository's packages and the package lines that name each repository, short of reading every member's `+/_WORK/` by hand.
 - **Offline audit.** Whether `ki repo audit` gains a mode that skips every remote check, for briefs that bar remote calls; until then the per-skill route under [Running a pass](#running-a-pass) stands. If wanted, it is a tools-ki record candidate.
 - **Near its outcome.** A sign that a Project is near its outcome before its records finish, and a maturity rule of thumb for a repository.
