@@ -1,7 +1,7 @@
 ---
 id: ki.ways-of-working
-state: with-worker
-since: 2026-10-26T21:13:00Z
+state: with-supervisor
+since: 2026-10-27T00:12:00Z
 received: 2026-10-22T07:24:00Z
 beat: null
 mark: 2026-10-25T01:07:00Z
@@ -12,12 +12,12 @@ method_read: bedbb4d9
 
 ## Now
 
-- 23:20 GMT 26 October: Kris back since 21:13 GMT. Received this evening wow-harness-a, wow-red-docs, wow-checks-survey, wow-principal-records, wow-notion-mirror-refs, wow-harness-b, wow-obs-review-design, wow-hooks-form (harness d174adbc), wow-hooks-converge, wow-method-unattended (harness bedbb4d9) and six blind reviews. wow-rel-0141 is re-running the v0.14.1 darwin-x64 package job after three test timeouts; wow-tap-log waits on it.
+- 00:12 GMT 27 October: nothing running. Roadmap sweep (`design/roadmap-sweep.md`, 65 KI records in buckets A to F, with a blind review that disagrees on six records) and query sweep (`design/query-sweep.md`, 35 queries in Q1 to Q4) are with Kris as bulk lines. v0.14.1 tagged but unpublished; wow-tap-log stays queued with no dispatcher.
 
 ## Next steps
 
-- Coordinator: receive wow-rel-0141, start wow-tap-log, then give Kris the full rundown of every open query, grouped, to take bit by bit.
-- Kris: the open queries in `queries.md`, newest ANSWER-VECTOR, NAMING-TO-KI, EXTRA-WRITES, RENAMED-5G and MISSING-TOOLS.
+- Kris: the bulk lines for buckets A to F, releases and CI, Q1 to Q3, and the three Q4 queries.
+- Coordinator: read each answer back, then launch the authorised runs: cancellations and acceptances per repository, bucket C runs, the CI change, and the Q3 runs.
 
 ## Held
 
