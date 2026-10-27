@@ -2,7 +2,7 @@
 
 **Owner:** Kris Brown · **Owning repository:** knowledgeislands/ki-principal · **Owning work:** `ki.ways-of-working` · **Date:** 2026-10-19
 
-Design note under `ki-work-design` for GFM-MIGRATION: Knowledge Islands prefers GitHub-flavoured Markdown (GFM), keeps other flavours supported, converts a file when it is touched, and may rewrite batches of files whole. It records the decided plan after Kris's answers at 22:00 BST on 19 October ("Do all recommended"), the prerequisites the blind review added, what the converter must do and the order of the ki-principal batches. The scoping and review reports are run reports under `~/.local/state/ki/agents/ways-of-working/` (`gfm-scope.report.md`, `gfm-review.report.md`); their outcome is carried here and in the decisions log. This note graduates when the harness rules land, the converter is released and the conversion record [KI-PRINCIPAL-OPS-014](<../../../../Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md>) carries the batch plan through delivery; it is then deleted in the same change.
+Design note under `ki-work-design` for GFM-MIGRATION: Knowledge Islands prefers GitHub-flavoured Markdown (GFM), keeps other flavours supported, converts a file when it is touched, and may rewrite batches of files whole. It records the decided plan after Kris's answers at 22:00 BST on 19 October ("Do all recommended"), the prerequisites the blind review added, what the converter must do and the order of the ki-principal batches. The scoping and review reports are run reports under `~/.local/state/ki/agents/ways-of-working/` (`gfm-scope.report.md`, `gfm-review.report.md`); their outcome is carried here and in the decisions log. This note graduates when the harness rules land, the converter is released and the conversion record [KI-PRINCIPAL-OPS-014 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/da027e6d/Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md) carries the batch plan through delivery; it is then deleted in the same change.
 
 ## Contents
 
@@ -21,7 +21,7 @@ Kris, 2026-10-19 22:00 BST: "Do all recommended". The decisions log in this work
 - **GFM-ORDER a.** Convert ki-principal outright in staged batches once the harness rules, the converter, the consumer fixes and a pilot are verified. Each batch fails closed: its exceptions are decided before it writes, not after all batches.
 - **FLAVOUR-FIELD a.** No per-note flavour field. A file's flavour is observable from its syntax; a declared field would only describe intent and drift. A repository-level setting is added only if an island chooses to stay Obsidian-flavoured, through an explicitly defined configuration contract, not a speculative key now.
 - **GFM-LINK-FORM a.** Internal links are document-relative paths, in angle brackets when the path contains a space: `[Note](<../Folder/Note.md>)`. `ki repo conform` normalises Obsidian's `%20` spelling structurally, keeping URI escapes that are needed. The link audit fails any dangling or wrong-case link and checks fragments.
-- **GFM-ENACT a.** One `Streams/Roadmap/` record in ki-principal carries the whole conversion through the Enactment Process: the batches, the exceptions, the convention notes and the Wikilink Review Activity. That record is [KI-PRINCIPAL-OPS-014](<../../../../Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md>).
+- **GFM-ENACT a.** One `Streams/Roadmap/` record in ki-principal carries the whole conversion through the Enactment Process: the batches, the exceptions, the convention notes and the Wikilink Review Activity. That record is [KI-PRINCIPAL-OPS-014 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/da027e6d/Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md).
 
 ## Open
 
@@ -31,7 +31,7 @@ Kris, 2026-10-19 22:00 BST: "Do all recommended". The decisions log in this work
 
 1. **Harness rules** - ki-agentic-harness (gfm-harness run). The `ki-authoring` "Markdown flavour" clause; the `ki-repo-kb` linking standard rewritten so GFM is preferred and wikilinks tolerated; LINK-1 replaced by exact-case resolution of every internal link in both forms, with fragments; the consumer parser fixes below; the three evals and the source-mirror stripper. This lands first: until it does, the standard still mandates wikilinks.
 2. **Converter** - tools-ki, under its `ki-self` boundaries, as an operation hosted by `ki repo conform --skill ki-authoring` or its own `ki` command. Handed to `ki.tools-burndown` with the [requirements below](#converter-requirements).
-3. **ki-principal conversion** - ki-principal, under [KI-PRINCIPAL-OPS-014](<../../../../Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md>), blocked by 1 and 2.
+3. **ki-principal conversion** - ki-principal, under [KI-PRINCIPAL-OPS-014 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/da027e6d/Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md), blocked by 1 and 2.
 4. **Other islands** - each island's owner, when they choose ([Other islands](#other-islands)).
 
 ## Prerequisites
@@ -71,7 +71,7 @@ What tools-ki is asked to build. The acceptance is tools-ki's; these are the nee
 
 ## Batch order
 
-All batches run under [KI-PRINCIPAL-OPS-014](<../../../../Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md>), each previewed, approved, applied and committed alone, then a separate formatter commit where needed.
+All batches run under [KI-PRINCIPAL-OPS-014 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/da027e6d/Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md), each previewed, approved, applied and committed alone, then a separate formatter commit where needed.
 
 1. **Pilot** - Resources, Calendar, root and the `-` area (about 23 links), including a GitHub render check of an alert with text on its marker line and of a heading link, and a check in Obsidian, Zed and the Observatory.
 2. **Obsidian configuration** - `useMarkdownLinks: true` and `newLinkFormat: relative` in `.obsidian/app.json`, so Obsidian stops creating wikilinks.

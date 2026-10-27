@@ -116,7 +116,7 @@ Every answer you gave on 26 October, one line each, in the order taken. "As reco
 
 - **HNR-LEVEL** - reset the `hnr-principal` checkout to origin with `--keep`. Done tonight by wow-hnr-tidy.
 - **CI-RED-DOCS** - one bounded batch fixes the mechanical document-rule failures in `ki-design` and `ki-principal`; content choices come back as queries. Running as wow-red-docs.
-- **ACCEPT** - [KI-PRINCIPAL-MOD-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-009-amend-adr-001-staging-wording.md) accepted as done. Queued in wow-principal-records.
+- **ACCEPT** - [KI-PRINCIPAL-MOD-009 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/da027e6d/Streams/Roadmap/KI-PRINCIPAL-MOD-009-amend-adr-001-staging-wording.md) accepted as done. Queued in wow-principal-records.
 - **SUMMARY-VISIBLE** - the tap's notify job prints its dispatch line to the log; the release guide points at it. Queued as wow-tap-log, after the release.
 - **TIDY-GAPS** - trace the owners of two orphan files before any repair. Done tonight by wow-hnr-tidy; the two owners became the two new queries in section 5.
 - **MGIT-CACHE-EXPIRY** - a missing or expired cache set stops the command with a one-line error; a fresh empty set runs nothing. Recorded by wow-harness-b (queued).

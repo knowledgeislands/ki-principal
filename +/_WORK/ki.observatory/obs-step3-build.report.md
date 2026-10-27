@@ -6,13 +6,13 @@
 
 ## Done
 
-- [KI-OBSERVA-VIS-030](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md) steps 2 and 3: the ki-design hex chart renderer and its tokens are vendored by script from the pinned commit, with a per-file drift check, and the `capital` glyph is added. Commit a4ea2ad. Full gate and `ki repo audit` passed. The record stays in progress.
+- [KI-OBSERVA-VIS-030 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/0966ac3e/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md) steps 2 and 3: the ki-design hex chart renderer and its tokens are vendored by script from the pinned commit, with a per-file drift check, and the `capital` glyph is added. Commit a4ea2ad. Full gate and `ki repo audit` passed. The record stays in progress.
 - [KI-OBSERVA-BCN-008 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/22ea8dcbf7fba0806f1370899cd506a6705c3741/docs/roadmap/KI-OBSERVA-BCN-008-beacon-signal-anatomy.md) Beacon signal anatomy. Each row now shows a reef or lantern sign or an outline tag for its severity, its kind, and how much older its evidence is than the reading. The list filters and groups by kind, and choosing a row opens a detail pane. Commit 23f2ba5. Full gate, with the density, width and degraded tests unchanged, and `ki repo audit` passed with no failure. Set to awaiting-review, not done, because this run may not accept records. Condition is left out until the `.ki.toml` maturity source exists.
 - Service restarted. The page and all 15 tabs answer 200, `/api/beacon` answers, and the new Beacon parts are served.
 
 ## In Progress
 
-- [KI-OBSERVA-VIS-030](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md): the position store and the `known-lands` instrument are unbuilt and wait on the queries below.
+- [KI-OBSERVA-VIS-030 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/0966ac3e/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md): the position store and the `known-lands` instrument are unbuilt and wait on the queries below.
 - I stopped early, with time left, because every other step 3 record needs a decision the authorised answers don't cover. Nothing is pushed: apps-observatory.local on this Mac, branch `main`, has a4ea2ad and 23f2ba5 unpushed.
 
 ## Queries
@@ -29,7 +29,7 @@
 
 **Context:** The renderer lays islands out deterministically, with the Capital at the centre. A position store would need a new POST route and a change to the boundary spec.
 
-**Query:** Should [KI-OBSERVA-VIS-030](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md) still keep island positions?
+**Query:** Should [KI-OBSERVA-VIS-030 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/0966ac3e/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md) still keep island positions?
 
 **Options:** a) (recommended, confidence medium - this adds no write route, and the layout is already stable) Drop the position store and use the deterministic layout. b) Keep a host preference under XDG state behind a new POST route.
 
@@ -43,7 +43,7 @@
 
 **BRG-005-COUNTS**
 
-**Context:** [KI-OBSERVA-BRG-005](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-005-act-board-missing-parts.md) wants counts on confirm and receipt, but every operation acts on one target, the record excludes batch operations, and it is a triage record that authorises no adoption.
+**Context:** [KI-OBSERVA-BRG-005 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/0966ac3e/docs/roadmap/KI-OBSERVA-BRG-005-act-board-missing-parts.md) wants counts on confirm and receipt, but every operation acts on one target, the record excludes batch operations, and it is a triage record that authorises no adoption.
 
 **Query:** How should the Act board counts be handled?
 

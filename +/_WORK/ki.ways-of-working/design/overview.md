@@ -145,8 +145,8 @@ Records whose `project` is `ways-of-working`, and the nearby records this packag
 
 | Record | Status | What it waits on |
 | --- | --- | --- |
-| [KI-PRINCIPAL-OPS-014](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md) | Now, awaiting review | Kris's acceptance (ACCEPT); runs cannot accept |
-| [KI-PRINCIPAL-MOD-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-009-amend-adr-001-staging-wording.md) | Now, awaiting review | Kris's acceptance (ACCEPT) |
+| [KI-PRINCIPAL-OPS-014 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/da027e6d/Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md) | Now, awaiting review | Kris's acceptance (ACCEPT); runs cannot accept |
+| [KI-PRINCIPAL-MOD-009 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/da027e6d/Streams/Roadmap/KI-PRINCIPAL-MOD-009-amend-adr-001-staging-wording.md) | Now, awaiting review | Kris's acceptance (ACCEPT) |
 | [KI-HARNESS-GOV-204](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-204-pretooluse-quietening-hook.md) | Hold, review date 2026-10-24, now due | Kris reviews a week of evidence from the quiet cuts; bears on PROXY-SHAPER |
 
 **Blocked on a query or another work.**

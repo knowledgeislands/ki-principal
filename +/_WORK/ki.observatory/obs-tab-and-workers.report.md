@@ -6,8 +6,8 @@
 
 ## Done
 
-1. Known Lands tab (TAB-SCROLL): the tab is now on the bar as `known lands`. At 1,440 px the bar scrolls with its existing fades. Only the wide-window fit check and its acceptance wording changed. The tab is in `degraded.test.ts`, and the README and operator guide are updated. [KI-OBSERVA-VIS-030](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md) stays in progress. Commit 6b2096c; gate and `ki repo audit` pass.
-2. Act board counts (BRG-005-COUNTS a): [KI-OBSERVA-BRG-005](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-005-act-board-missing-parts.md) is shaped and stays in triage. Confirm and receipt each count one operation per request, the receipt shows its outcome, and batch operations are left for a later record. Commit 09762d9; gate and audit pass.
+1. Known Lands tab (TAB-SCROLL): the tab is now on the bar as `known lands`. At 1,440 px the bar scrolls with its existing fades. Only the wide-window fit check and its acceptance wording changed. The tab is in `degraded.test.ts`, and the README and operator guide are updated. [KI-OBSERVA-VIS-030 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/0966ac3e/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md) stays in progress. Commit 6b2096c; gate and `ki repo audit` pass.
+2. Act board counts (BRG-005-COUNTS a): [KI-OBSERVA-BRG-005 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/0966ac3e/docs/roadmap/KI-OBSERVA-BRG-005-act-board-missing-parts.md) is shaped and stays in triage. Confirm and receipt each count one operation per request, the receipt shows its outcome, and batch operations are left for a later record. Commit 09762d9; gate and audit pass.
 3. Worker column (VIS-031-TABLES a): built.
    - Repositories and Roadmap have a `workers` column of running agent runs, each count opening Sessions. Roadmap labels its counts `repo-level` because runs match by repository only.
    - Sessions has a `touches` column that opens Repositories.

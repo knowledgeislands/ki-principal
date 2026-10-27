@@ -6,7 +6,7 @@
 
 ## Done
 
-- `.github/ki-version` pinned to v0.12.0, and [KI-PRINCIPAL-OPS-014](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md) adopted into Now (`17d96936`).
+- `.github/ki-version` pinned to v0.12.0, and [KI-PRINCIPAL-OPS-014 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/da027e6d/Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md) adopted into Now (`17d96936`).
 - Pilot: Resources, Calendar, the root files and the `-` area, 23 links, with the one heading link given its GitHub slug (`25007312`). Checks: re-run made no changes, 0 unresolved links in exact case, no new audit findings, LINK-1 clean for these paths.
 - Obsidian now creates relative Markdown links (`useMarkdownLinks`, `newLinkFormat: relative`) (`df620255`).
 - Streams: 234 links in 34 files (`e21e7346`). Nine ambiguous or dead links had clear targets: `Themes` now points to the Themes index, `command-centre` to the Observatory Project it became, and the pilot's design folder to its work-package home. Two older dead report links now point to their last revision on GitHub (`dbbfabcf`). Checks: re-run made no changes, 0 new unresolved links, no new audit findings.
@@ -14,7 +14,7 @@
 - Pillars: 534 links and embeds in 91 files (`554bcd8e`). Checks: re-run made no changes, 0 unresolved, no new audit findings. Four kinds of item are kept for you to decide (Queries). The two custom `[!todo]` callouts in Structure are unchanged and their text is intact: GitHub shows them as plain quotes.
 - Convention notes (`d64f0abc`). Format now prescribes links relative to the note, in angle brackets when the path has a space, and says wikilinks are still read. AGENTS.md, Notes, Structure, Calendar, the Obsidian notes, the Tending activities and the Enactment Process footer template no longer prescribe wikilinks. The Wikilink Review Activity now covers both link forms through the LINK-1 audit and keeps its orphan view. Check: the commit gate and rumdl passed.
 - `+/_WORK/` last, in one batch: 54 links in 12 tracked files that no other session had changed (`f65c4fac`). Twelve dead links were followed through their renames to their current homes. The pruned [KI-PRINCIPAL-ECO-012 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/506a938ebabc592dda70690c65b6c2ed318d9f09/Streams/Roadmap/KI-PRINCIPAL-ECO-012-notification-strategy-for-delegated-work.md) link now points to its last revision. Checks: re-run made no changes, 0 unresolved, no new audit findings.
-- [KI-PRINCIPAL-OPS-014](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md) moved to awaiting review, with its review packet (`30cb3da0`). Pushed fast-forward. main is level with origin.
+- [KI-PRINCIPAL-OPS-014 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/da027e6d/Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md) moved to awaiting review, with its review packet (`30cb3da0`). Pushed fast-forward. main is level with origin.
 - Limitation: the four clients' render checks (acceptance test 4) were not run, because this run cannot open GitHub, Obsidian, Zed or the Observatory.
 - Correction: from `f65c4fac` on, the commit gate ran with the released Homebrew `ki` 0.12.0. The local `ki` runs from the tools-ki source, which another session is part-way through editing (Acquire Granola). Each time, that build crashed the gate.
 
@@ -79,7 +79,7 @@ c) Retire the Activity, because `ki repo audit` already checks links.
 
 **Context:** Acceptance test 4 asks for the pilot's alert and heading link to be checked on GitHub, in Obsidian, in Zed and in the Observatory, or for each failure to have a recorded decision. This run could not open any of the four. Heading links now carry GitHub slugs: an example is the Library link in AGENTS.md (`Structure.md#library`). The Observatory drops fragments, so there the link opens the note without jumping to the heading.
 
-**Query:** Will you run the four client checks before accepting [KI-PRINCIPAL-OPS-014](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md)?
+**Query:** Will you run the four client checks before accepting [KI-PRINCIPAL-OPS-014 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/da027e6d/Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md)?
 
 **Options:**
 

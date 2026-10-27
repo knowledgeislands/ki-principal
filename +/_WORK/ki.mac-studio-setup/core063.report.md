@@ -19,7 +19,7 @@ Nothing is running. Pending handoff: tools-rig `main` on sol holds the two unpus
 
 Outstanding - no action requested now:
 
-- The roadmap audit still warns that four other records, including [KI-TOOL-RIG-CORE-062](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-062-own-address-firewall-destination.md), lack a `size` field; [KI-TOOL-RIG-CORE-062](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-062-own-address-firewall-destination.md)'s planning can add its own.
+- The roadmap audit still warns that four other records, including [KI-TOOL-RIG-CORE-062](https://github.com/knowledgeislands/tools-rig/blob/223ba459/docs/roadmap/KI-TOOL-RIG-CORE-062-own-address-firewall-destination.md), lack a `size` field; [KI-TOOL-RIG-CORE-062](https://github.com/knowledgeislands/tools-rig/blob/223ba459/docs/roadmap/KI-TOOL-RIG-CORE-062-own-address-firewall-destination.md)'s planning can add its own.
 
 ## Queries
 
