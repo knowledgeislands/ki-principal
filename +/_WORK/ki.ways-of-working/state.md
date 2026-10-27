@@ -3,7 +3,7 @@ id: ki.ways-of-working
 state: with-worker
 since: 2026-10-27T02:55:00Z
 received: 2026-10-22T07:24:00Z
-beat: 2026-10-27T06:44:17Z
+beat: 2026-10-27T07:03:06Z
 mark: 2026-10-25T01:07:00Z
 method_read: def7f055
 ---
@@ -12,15 +12,15 @@ method_read: def7f055
 
 ## Now
 
-- Successive confident local waves continue under the owner grants in [decisions.md](decisions.md); no release cycle or mark change.
-- CLI-160, CORE-071, CORE-073 and GOV-231 are Done; pruning waits for inaccessible retired-source evidence and surviving guarded references. BRG-004 waits for Observatory audit fixes.
-- Seven Project assessments are complete; MOD-011 is Now/draft with a verified exact wording proposal awaiting owner Enactment.
-- GOV-202 awaits final acceptance; timeout partial is delivered. Two website units are committed but wait for existing-policy integration repair. Map retirement and inbox improvement are complete locally.
-- Fresh remote reconciliation supersedes earlier local-only handoffs; the unanswered three-bundle publication proposal is redundant and withdrawn, without implying new push authority.
+- Five records accepted; the 20-repository roadmap has 13 active and five Done records. No terminal record was pruned under unresolved source/reference guards.
+- All 20 primary main checkouts are freshly level with origin and clean tracked/index. Earlier new-code handoffs are superseded; deployment success is not inferred.
+- Website map, complete standards listing, local immutable-ref catalogue input, timeout partial and worker-inbox boundary are delivered locally; all current writers have finished.
+- MOD-011 is Now/draft with its exact proposed wording awaiting owner Enactment. BRG-004 waits for Observatory audit fixes; CORE-070 remains attended.
+- One bounded read-only review qualifies older unpublished history; final notes/lessons and explicit received-file tidy remain.
 
 ## Next steps
 
-1. Receive website integration repair before final clean-baseline claims. An earlier queued baseline is interim if this writer still runs. Preserve actual partial evidence; no red-gate waiver or invented authority.
+1. Receive retained-history qualification, then reconcile final lessons/Project assessments and tidy only explicitly selected, homed received material. Preserve uncertain older outputs.
 2. Apply current acceptance/pruning approval only to complete verified records. Repair steward-owned links before eligible deletion; preserve real reference, observation and trade guards. No blanket idea deletion.
 3. Commit exact owned paths. Publish only under actual authority after inspecting every unpublished ancestor. New code needs its actual publication authority; no deployment is inferred.
 4. Check messages.md at each wake, IMPORTANT first. Route Observatory functionality through its messages.md and keep its redesign with its owner; create no receiving roadmap item.
@@ -29,8 +29,8 @@ method_read: def7f055
 ## Held
 
 - CORE-068/069 need their existing attended evidence/answers; CORE-070 needs its required attended application.
-- New harness, tools-ki and website units have reported local publication handoffs, pending final reconciliation; website main pushes deploy.
+- Older unpublished tools-ki branches and Rig documentation history stay preserved under the exact baseline handoff; new primary work is remote.
 - CLI-160 pruning retains Done until surviving references and genuinely relevant retired-source evidence are resolved; three named retired sources have no accessible tip.
-- ANSWER-VECTOR is parked with ki.observatory; WEBSITE-CLOSE waits for ki.website's current delivery/rollout to finish.
+- ANSWER-VECTOR stays with ki.observatory; Project close decisions stay with their leads.
 - MOD-011 exact canonical wording and the overload draft require owner review; no STEWARD-FIELD choice or mark is inferred.
 - Unqualified ideas and unrelated/private material remain preserved; do not publish a private untracked report merely to clear a prune guard.
