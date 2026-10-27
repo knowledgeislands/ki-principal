@@ -699,3 +699,5 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
 - 02:37 GMT 27 October: Kris: "you need to use the personal token". Meaning unclear (which token, for what); asked one line before acting.
 
 - 02:37 GMT 27 October: Kris answered with a screenshot of the account switcher: personal (<kris@kris.me.uk>) active, 5h 2%, 7d 91% resetting 29 October 18:59; work 5h 71%. Taken as: the personal Claude account is the one to use. It is already the active account; ki agent has no account option, so runs follow the active account. Nothing to change.
+
+- 02:53 GMT 27 October: received wow-holding-zone. 40 records plus KI-TOOL-KI-CLI-125 and KI-TECHNE-OPS-024 moved to ideas in nine repositories, full text kept at `docs/ideas/`, each listed with a plain line in `docs/roadmap/_IDEAS.md`; KI-TECHNE-OPS-018 lost its release dependency and stays on the roadmap; the Observatory holding area is in apps-observatory.local `docs/roadmap/_IDEAS.md`. The coordinator rebased and pushed the run's stranded hnr-principal link commit (now 46a800a4). Steps 2 and 6 are done.
