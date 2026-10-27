@@ -697,3 +697,5 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
 - 02:38 GMT 27 October: Kris: "I'm going to start another thread off which is focusing on the observatory and trying to get that into something that's more usable. I'm going to use the design tool to do it." Taken as: Observatory usability moves to a separate thread; this work does no further Observatory work and hands its context over by a line in ki.observatory's messages.md.
 
 - 02:37 GMT 27 October: Kris: "you need to use the personal token". Meaning unclear (which token, for what); asked one line before acting.
+
+- 02:37 GMT 27 October: Kris answered with a screenshot of the account switcher: personal (<kris@kris.me.uk>) active, 5h 2%, 7d 91% resetting 29 October 18:59; work 5h 71%. Taken as: the personal Claude account is the one to use. It is already the active account; ki agent has no account option, so runs follow the active account. Nothing to change.
