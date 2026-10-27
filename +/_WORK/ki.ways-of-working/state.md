@@ -3,7 +3,7 @@ id: ki.ways-of-working
 state: with-worker
 since: 2026-10-27T02:55:00Z
 received: 2026-10-22T07:24:00Z
-beat: 2026-10-27T07:03:06Z
+beat: 2026-10-27T07:11:17Z
 mark: 2026-10-25T01:07:00Z
 method_read: def7f055
 ---
@@ -16,7 +16,7 @@ method_read: def7f055
 - All 20 primary main checkouts are freshly level with origin and clean tracked/index. Earlier new-code handoffs are superseded; deployment success is not inferred.
 - Website map, complete standards listing, local immutable-ref catalogue input, timeout partial and worker-inbox boundary are delivered locally; all current writers have finished.
 - MOD-011 is Now/draft with its exact proposed wording awaiting owner Enactment. BRG-004 waits for Observatory audit fixes; CORE-070 remains attended.
-- One bounded read-only review qualifies older unpublished history; final notes/lessons and explicit received-file tidy remain.
+- Older history is qualified: delivered equivalents are published; original objects/private data remain preserved. Final factual notes, guarded locators and explicit received-file tidy are running.
 
 ## Next steps
 
