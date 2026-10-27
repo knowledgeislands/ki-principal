@@ -8,15 +8,14 @@ project: ways-of-working
 component: model
 priority: medium
 size: l
-horizon: now
-status: awaiting-review
+status: done
 tags:
   - topic/knowledge-islands
 blocks: []
 blocked_by: []
 baseline_ref: 442c3501f53ee95fa8eb0ae9e7c6d493d3d31df1
 created_at: 2026-10-19T21:04:00Z
-updated_at: 2026-10-20T04:30:00Z
+updated_at: 2026-10-27T01:22:25Z
 ---
 
 # Convert ki-principal to GitHub-flavoured Markdown
@@ -77,7 +76,7 @@ Before the conversion the island held about 1,050 wikilinks, heading links and e
 - [x] Convention notes rewritten to the GFM preference.
 - [x] Tracked, unmodified `+/_WORK/` files, last, in one batch.
 - [x] Owner answers applied (2026-10-20): the four sized embeds as plain images, the template placeholders as links, the Activity renamed Link Review.
-- [ ] Client render checks on GitHub, Obsidian, Zed and the Observatory, by Kris before acceptance.
+- [x] Client render checks on GitHub, Obsidian, Zed and the Observatory, by Kris before acceptance: closed by his acceptance of 27 October 2026, with no outcome recorded per client.
 
 ## Files touched
 
@@ -149,8 +148,13 @@ The goal is met for every mechanical construct: internal links are document-rela
 
 ki-principal is GitHub-flavoured in nine commits; checks clean against baseline; four exception groups and the client render checks are with Kris. Learning route: `ki` hooks that run from a live source checkout break when another session edits tools-ki; the released binary was the stable path.
 
+## Done
+
+Accepted 2026-10-27 by Kris Brown on the review packet above, under SWEEP-ACCEPT and his instruction of 27 October 2026 at 01:15 GMT, read back in the [ways-of-working decisions log](../../+/_WORK/ki.ways-of-working/decisions.md), entry "2026-10-27 01:15 GMT". Closed under `ki-accept` by the wow-accept-prune run.
+
 ## Discussion
 
+- On 27 October 2026 Kris accepted the record under SWEEP-ACCEPT with the client render checks (acceptance test 4) still his own and unrecorded; his acceptance closes that step, and any render defect found later is new work.
 - TOUCH-SCOPE was decided on 2026-10-19 at 22:32 BST, option a): editing a file converts the whole file in the same change. Before that it was open: whether touching a file converts the whole file. Converting ki-principal in full narrows it to `+/` and to other islands, but does not remove it.
 - The Enactment Process's preview checkpoint is each batch's dry-run output, reviewed by Kris before it is applied and kept as the intended-versus-executed artefact for the post-change review.
 - Size is provisional and revisited before the record becomes Ready; the batches may be split into their own records if a batch grows beyond one reviewable change.
