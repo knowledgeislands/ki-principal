@@ -661,3 +661,5 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
 - 02:02 GMT 27 October: received wow-obs-focus-3. Focus is live at <http://127.0.0.1:1675/> and opens first; all 16 old views are under Legacy; 32 queries shown with copy-answer lines; 14 records awaiting acceptance. apps-observatory.local 99991b2, 8433bfa.
 
 - 02:02 GMT 27 October: received wow-naming-rule. NAMING-TO-KI applied: rule in the ki-repo standard (harness 21a08e80); lines sent to er, hnr, personal, tmx and va State of play; nothing renamed. The coordinator queued the same line for KI's own two sites in ki State of play messages.md.
+
+- 02:05 GMT 27 October: received wow-ci-manual. RELEASES-CI applied: CI and release workflows in 20 knowledge-islands repositories now run on manual dispatch only (commit type `chore`, as every repository's commitlint rejects `ci`); no pins, releases or settings touched. PAPERCLIP-WORKFLOWS: coordinator took option a under the no-questions steer, leaving the upstream paperclip fork's workflows as shipped; logged, not asked. Step 4 is complete.
