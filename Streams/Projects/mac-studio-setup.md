@@ -72,3 +72,7 @@ The decisions that still guide `sol`, the Mac Studio, as they stand. The full de
 #### Close
 
 - The Project closes only after the restart test, which Kris runs at `sol` no earlier than Monday evening 2026-10-12. It stays open until Tailscale is proven to relaunch and reconnect after the unlock.
+
+### Close-out assessment
+
+As of 27 October 2026, the recorded bootstrap delivered chezmoi application, reconciled Rig declarations and workspace access on `sol`; subsequent machine-alignment work is recorded in the Mac Studio and chezmoi work packages. This does not prove the full Outcome: the required attended restart, unlock and Tailscale reconnect test has no confirmed completion in the evidence reviewed, and remaining machine checks and firewall work have their existing Rig and chezmoi owners. Keep the Project open, preserving the Mac Studio work's hold until Kris releases it; Kris should confirm the restart test and the remaining setup evidence through that work before deciding whether to close. The wider Rig ideas above survive independently of that decision.

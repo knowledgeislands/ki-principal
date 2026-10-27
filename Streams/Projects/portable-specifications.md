@@ -25,3 +25,7 @@ This Project sits in [Model](../Themes/model.md). Kris opened it on 19 October 2
 
 - The paused [specifications](specifications.md) Project, bringing `ki-specifications` to a consistent dormant pre-v1 state, is a prerequisite of this Project's move into KI Specifications.
 - The KI work model and work-package standard stay with [ways-of-working](ways-of-working.md); knowledge-acquisition practice stays with [knowledge-acquisition](knowledge-acquisition.md).
+
+### Close-out assessment
+
+As of 27 October 2026, the existing [specification drafts](../../+/_WORK/ki.portable-specifications/design/specs/specs.md) and [homing plan](../../+/_WORK/ki.portable-specifications/design/home-plan.md) provide draft and review evidence, not proof of the complete Outcome. Acceptance of the text and homing edits, publication from the owning skills and the eventual KI Specifications handoff remain to be established through the Portable specifications work; its stocktake hold and the paused Specifications prerequisite are unchanged. Keep the Project open: Kris's text, homing and resumption decisions belong in that existing work route, and the move into KI Specifications still depends on its owner restarting v1.

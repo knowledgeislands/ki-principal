@@ -35,3 +35,7 @@ This Project sits in [Rig](../Themes/rig.md), because the secrets chezmoi render
   - Conceal the plain-text fields of the bot item for the Valle Armonia Telegram bot.
   - Check the categories of the signing-key and key-holding items.
 - Notes and records here name vaults by purpose only - never item titles or personal names.
+
+### Close-out assessment
+
+As of 27 October 2026, the note records agreed vault purposes, placement rules and a retained triage approach, but the local documentation reviewed does not prove that the logical-name map, dedicated Rig-vault seam, pre-apply reference check and monthly triage are all delivered. The retained first-triage questions and manual app actions above remain outstanding evidence against the Outcome; no vault access or secret inspection was performed for this assessment. Keep the Project open and route confirmation of delivered work and the remaining vault-layout decisions through the existing Rig: chezmoi thread to Kris. The repeatable-triage idea remains an idea until adopted, rather than evidence of a running monthly obligation.

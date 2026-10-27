@@ -30,3 +30,7 @@ This Project sits in [Foundations](../Themes/foundations.md). Kris opened it on 
 - Where subscriptions are homed.
 - Whether the programme timeline and the calendar registry share one source.
 - Kris has improvements to the scope still to give.
+
+### Close-out assessment
+
+As of 27 October 2026, the existing [Timelines design](../../+/_WORK/ki.timelines/design/timelines-skill-design.md) defines the proposed calendar skill and rollout, while the Timelines work retains the decisions awaiting Kris's confirmation. This is design evidence only: extraction of the reusable skill, busy-status support, subscription publication and adoption by legal-principal, personal-principal and 5G Emerge are not proved complete by the evidence reviewed. Keep the Project open under its existing stocktake hold; Kris should confirm the design and adoption scope through the Timelines work before resuming the owning repositories' delivery. The opening questions above remain part of that decision route.

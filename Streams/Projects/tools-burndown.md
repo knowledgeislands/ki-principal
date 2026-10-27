@@ -48,3 +48,7 @@ They are ideas, not records: under CAPTURE-ONLY Kris asked for capture now and a
 ### History
 
 The earlier tools-burndown thread, run under the [Estate factorisation](estate-factorisation.md) checkpoint, is this Project's history: its folder `+/_WORK/ki.tools-burndown/`, its `decisions.md` and its `historical-decisions.md`.
+
+### Close-out assessment
+
+As of 27 October 2026, the retained inventory establishes the scope and the 16 October position, including no open records then in tools-mgit and tools-git-almanac and the conditional use of mgit v0.17.0. It does not establish that every in-scope tools-ki and CLI-shaped harness item reached its approved disposition or that the required ki release was approved and cut; the Tools burndown work still carries pending handoffs and queries under its stocktake hold. Keep the Project open and have Kris reconcile that evidence through the existing Tools burndown work before a close decision. The release-contract exclusion, coupled harness ownership and captured mgit ideas above remain in force; an empty Project-tagged roadmap is not proof of the wider burn-to-zero Outcome.
