@@ -785,3 +785,9 @@ Selected repository snapshots at dispatch; workers revalidate before mutation:
 
 - tools-rig: sol.local, main; local main ac76df46486e720fa4a152fc0cdd09963fb96ec9; cached origin/main ac76df46486e720fa4a152fc0cdd09963fb96ec9.
 - ki-agentic-harness: sol.local, main; local main 1e679cd1b0d6c266989f2444cc4e6fbc6baf46e8; cached origin/main 1e679cd1b0d6c266989f2444cc4e6fbc6baf46e8.
+
+### SUCCESSIVE-WAVES - 27 October 2026
+
+Kris: "And if you think you can get through them all, just keep bringing things back and keep churning through them all so we can get loads of stuff done."
+
+Read back: continue successive bounded waves, bringing previously deferred/held-as-ideas candidates back for qualification when their existing scope and delivery are clear, rather than stopping after the initial Ready set. Use ki-next/ki-plan selection and readiness under the explicit current outcome authority, then freeze each exact repository-local batch before implementation. Do not revive genuinely held work whose named release condition remains unmet, invent requirements, choose unanswered options, enlarge public contracts or force low-confidence work. Useful confident partials remain authorised. Keep local delivery, no release cycles, Observatory design ownership, exact-path commits and actual publication boundaries. Existing workers continue without pre-emption.
