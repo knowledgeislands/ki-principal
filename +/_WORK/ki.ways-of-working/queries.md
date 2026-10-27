@@ -39,20 +39,6 @@ a) (recommended, confidence high - preserves the plans' explicit gates) Arrange 
 
 b) Leave both drafts parked until those prerequisites are available.
 
-### CLI160-EXTRA-FILES - disposition of additional ignored files
-
-since 2026-10-27 · from run/wow-retire-cli160; operational follow-up parked until wow-retire-cli160-preserve reports, not a new owner choice.
-
-**Context:** The report named only two untracked symlinks, but inspection also found 799 ignored paths under `.rumdl_cache/` and `reports/`. The brief requires stopping and preserving everything for any different dirt or missing proof.
-
-**Query:** How should the additional files be reviewed and preserved or explicitly disposed of before a separately authorised retirement attempt?
-
-**Options:**
-
-a) (recommended, confidence high - preserves all material and respects this run's exact deletion boundary) Retain the checkout and branch; have the steward establish ownership and retention needs for the 799 additional files, then issue a bounded follow-up instruction.
-
-b) Keep this checkout and branch retained without scheduling another retirement attempt.
-
 ### ANSWER-VECTOR - whether the first slice writes the answer line itself or waits for a `ki work answer` command
 
 **Parked:** Parked with ki.observatory, which owns the feature and redesign. Release when its steward or the owner returns a route decision; neither option is selected here.
@@ -69,7 +55,7 @@ a) (recommended, confidence medium - the file effect and its gate exist and are 
 
 ### WEBSITE-CLOSE - The website Project has no open records
 
-**Parked:** Parked because MIRROR-SITE is back in active delivery and website source remains unpublished. Release when ki.website confirms its current delivery/rollout is complete; no Project closure is inferred.
+**Parked:** Parked because MIRROR-SITE is back in active delivery and its website consumer refresh remains unfinished. Release when ki.website confirms its current delivery/rollout is complete; no Project closure is inferred.
 
 **Context:** Pruning KI-WEBSITE-SITE-044 leaves the `website` Project with no open records; ki-principal's audit now warns that it needs a close-out assessment in `Streams/Projects/website.md`. The site is live on ki-design v1 and nothing else is queued.
 
@@ -82,19 +68,3 @@ a) (recommended, confidence medium - nothing else is queued for the site) A shor
 b) Leave the warning until website work resumes.
 
 Coordinator note: held for the action plan; not raised to Kris yet.
-
-### PUB-REVIEWED-CODE - Publish the three reviewed local code bundles
-
-since 2026-10-27 · one blind review by run/wow-push-scope-blind; asked through the asynchronous input interface, then parked unanswered for the owner's return.
-
-**Context:** The verified bundles are tools-ki's two-flag staged-check repair with its coupled routing-record closure/reference documentation; tools-rig's canonical staged-only pre-commit hook; and ki-techne-harness's independent agent-host role extraction. The reviewer inspected every unpublished ancestor and actual paths, confirmed the named main refs are fast-forward candidates, and found only manual-dispatch declared workflows and no configured pre-push hook. The personal standing rule excludes code/runtime publication, and ki-git separates committing from pushing. Website publication is outside this scope because its main push deploys. The later Rig wording correction is not silently added to the frozen reviewed tips.
-
-**Query:** May I fast-forward push those three reviewed bundles to their origin/main branches?
-
-**Options:**
-
-a) (recommended, confidence high - one independent review found a bounded non-deploying Git scope, with completed local verification) Publish the three reviewed ranges and only their inspected coupled closure/reference documentation after final source/ancestry revalidation, without release, tag, package publication or deployment.
-
-b) Keep the code commits local and retain the explicit repository, sol.local and branch handoffs.
-
-**Release:** An affirmative owner answer; silence supplies no publication authority.
