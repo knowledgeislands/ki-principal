@@ -5,7 +5,7 @@ since: 2026-10-27T02:55:00Z
 received: 2026-10-22T07:24:00Z
 beat: 2026-10-27T06:09:52Z
 mark: 2026-10-25T01:07:00Z
-method_read: bedbb4d9
+method_read: def7f055
 ---
 
 # ki.ways-of-working state
@@ -15,7 +15,7 @@ method_read: bedbb4d9
 - Successive confident local waves continue under the owner grants in [decisions.md](decisions.md); no release cycle or mark change.
 - CLI-160, CORE-071 and CORE-073 are Done; pruning waits for reference repairs and inaccessible retired-source evidence. BRG-004 waits for two Observatory-owned audit fixes.
 - Seven Project assessments are complete; MOD-011 is Now/draft with a verified exact wording proposal awaiting owner Enactment.
-- GOV-202 is delivered Awaiting review; tools-ki timeout margin runs, then two qualified website local-efficiency units. Consumer map retirement is complete locally.
+- GOV-202 is delivered; new worker-inbox boundary is in independent acceptance. Tools-ki timeout verification runs, then two qualified website units; map retirement is complete locally.
 - Fresh remote reconciliation supersedes earlier local-only handoffs; the unanswered three-bundle publication proposal is redundant and withdrawn, without implying new push authority.
 
 ## Next steps
@@ -29,7 +29,7 @@ method_read: bedbb4d9
 ## Held
 
 - CORE-068/069 need their existing attended evidence/answers; CORE-070 needs its required attended application.
-- Website main pushes deploy; do not publish new consumer changes without deployment authority.
+- New harness code/runtime and website source remain local handoffs until actual publication authority; website main pushes deploy.
 - CLI-160 pruning retains Done until surviving references and genuinely relevant retired-source evidence are resolved; three named retired sources have no accessible tip.
 - ANSWER-VECTOR is parked with ki.observatory; WEBSITE-CLOSE waits for ki.website's current delivery/rollout to finish.
 - MOD-011 exact canonical wording and the overload draft require owner review; no STEWARD-FIELD choice or mark is inferred.
