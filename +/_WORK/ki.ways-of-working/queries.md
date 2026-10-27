@@ -174,14 +174,6 @@ b) (blind review's pick, confidence medium - there are ten `report-*.md` files, 
 
 c) Delete the reports if their outcomes are homed, and the script and brief with them.
 
-### STRUCTURE-1 - ki.specifications holds no regular work file
-
-**Context:** `+/_WORK/ki.specifications` fails because its `work.md` is not a regular file; the folder also carries two listed COORD-7 reports that are now fixed. **Query:** Should the work file be restored as a regular file from Git, or the folder closed? **Options:**
-
-a) (recommended, confidence medium - I did not open the folder beyond the audit line, so the cause is unverified) Restore `work.md` from its last committed version and re-audit.
-
-b) (blind review's pick, confidence high - Git records `work.md` renamed exactly to `ki.portable-specifications/work.md` in `a90aea3b` and the Project note confirms it; the folder now holds only reports, so restoring would recreate moved work) Close the folder under `ki-work-package` after the close-out checks that its outcomes and queries are homed.
-
 ### COORD-7-REST - fifty-one identifiers with no local target
 
 **Context:** Three groups remain in 23 reports. First, 21 `PERSONAL-PRINCIPAL` and `PERSONAL-TOWER-SITE` records whose files are absent from both the working tree and the whole local history of `personal-principal` and `apps-tower.midnight.ninja`, so those checkouts are behind the machine that pruned them, and `KB-ACQUIRE-002` and `-005`, found in no local repository. Second, 25 identifiers that match the record pattern but are not records: `RIG-CONF-016`, `RIG-STATE-033` and other tools-rig specification clauses, the `OBS-ACT-014`, `OBS-BOUND-016` and `OBS-CONTRACT-002` query tags, `PRUNE-GOV-201`, `SPLIT-5GE-004`, `SITE-RT-033` and `MGIT-WS-009`. Most sit in `ki.baseline-rollout/sizekind-1.report.md` (20) and `ki.mac-studio-setup`. **Query:** Should the personal checkouts be fetched so the pruned links can be written, and should the non-record identifiers be exempted or rewritten? **Options:**
@@ -214,22 +206,6 @@ a) (recommended, confidence high - these are the territory's declared settings a
 
 b) Set them by hand from the GitHub settings page.
 
-### BIO-1 - absent from this audit
-
-**Context:** The approval bounds BIO-1's configuration migration separately. Neither audit reported a BIO-1 failure, so nothing was done and nothing is pending from this run. **Query:** Is a separate BIO-1 unit still wanted? **Options:**
-
-a) (recommended, confidence high - the rule produced no finding in either repository) Drop it unless a later audit raises it.
-
-b) Brief a separate run to check the configuration anyway.
-
-### CI-WATCH - the CI runs were not observed
-
-**Context:** The brief asks for both CI runs to be watched, and its limits forbid any GitHub API call, which is the only way to read a run's result. Both pushes are level with `origin/main`; the ki-principal commit passed the repository's own scoped audit in its hook. **Query:** How should a run observe CI when the API is closed to it? **Options:**
-
-a) (recommended, confidence high - a read-only run watch is the smallest lift) Lift `gh run watch` for pushed commits in future briefs that ask for CI observation.
-
-b) Leave CI observation to the coordinator's next check.
-
 ### LINT-WHERE - where generated Markdown gets linted
 
 **Context:** 85 of the 94 failing files in ki-principal and 15 of the 57 in hnr-principal and legal-principal are run reports and package files written by background agents and the coordinator, not by hand. Nothing in that path lints: the agent writes the report to the state folder, `ki agent` copies it into `+/_WORK` ([runs.ts](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/src/core/agent/runs.ts)), and the coordinator commits it. The commit hook fixes staged Markdown silently where it can, and the whole-tree check lives only in `ki-authoring`'s MD-mech criterion, which runs only in CI's full audit. Owners: `ki-delegation` (report rule and run packet) and `ki agent` in tools-ki for the generator path; `ki-authoring` for MD-hook and MD-mech; `ki-coordination` and `ki-work-package` for what the coordinator may write into the work folder.
@@ -243,18 +219,6 @@ a) (recommended, confidence high - reviewed: the report copy lives in `events.ts
 b) In the hook only: make every hook, legacy and canonical, run check-only staged rumdl, so the coordinator sees the failure at commit and sends it back to the run; no change to the generator.
 
 c) In CI only: add `ci.yml` to every repository and accept that reports fail later and are fixed by a follow-up run.
-
-### BASELINE-COMMITS - what a baseline commit may sweep in
-
-**Context:** 15 local `chore: baseline` commits in ki-principal, and one or more in 39 other repositories, were made during the `ki.baseline-roll` work from 2026-09-26 to 2026-10-25. The ki-principal one of 24 October added 81 run reports that fail rumdl; the hook's lint-staged `--fix` accepted them. The Claude session logs do not record the command, so whether this is `ki-implement`'s immutable-baseline step, `ki-batch` or a hand `git add -A` is not established. Owners: `ki-git` for commit shape and explicit staging, `ki-implement` for the baseline step, both in ki-agentic-harness.
-
-**Query:** Should a baseline commit be allowed to sweep in uncommitted work-folder reports, or should it stage by explicit path like every other commit under `ki-git`?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed: `ki-git` already forbids whole-tree staging with no baseline exception and the `ki-implement` baseline step only records HEAD, so enforce now and trace the producer separately; the commits are local and provably swept the work folder in, but the tool behind them was not identified) Require explicit-path staging for baseline commits too and have the `ki-implement` baseline step list its paths; a separate run identifies which tool produced the commits before the rule is written.
-
-b) Allow the sweep but run check-only rumdl over the whole tree before the baseline commit so it cannot carry failing Markdown.
 
 ### MOD-011-ADOPT - adopt the work-model amendment record
 
