@@ -71,7 +71,7 @@ Taken as: "tree ice" is triage. A triage or draft record may be adopted, replann
 
 ## 2026-10-22 02:54 BST - Harness batch received
 
-GOV202-RENDER / SPEC-HOMING - coordinator, 22 October 2026, under Kris's 21 October grant: [GOV-202 remains draft](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-202-skill-area-stable-stats-badge.md), with [GOV-228](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-228-home-work-spec.md) and [GOV-229](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-229-home-acquire-spec.md) awaiting their specification prerequisites.
+GOV202-RENDER / SPEC-HOMING - coordinator, 22 October 2026, under Kris's 21 October grant: [GOV-202 remains draft](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-202-skill-area-stable-stats-badge.md), with [GOV-228](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/ideas/KI-HARNESS-GOV-228-home-work-spec.md) and [GOV-229](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/ideas/KI-HARNESS-GOV-229-home-acquire-spec.md) awaiting their specification prerequisites.
 
 ## 2026-10-22 14:12 BST - AUDIT-BOUNDARY settled by the coordinator; fix-8 relaunched
 
@@ -693,3 +693,5 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
   - RENAMED-5G, a): four one-line .ki.toml commits then hook convergence; sent to hnr.sop.5ge's messages.md in hnr-principal.
 
 - 02:36 GMT 27 October: received wow-query-backlog. 17 parked (16 from Q2 plus MIRROR-TOKEN, outside the window's limits), 12 taken and logged at 02:30 GMT, seven sent to their owning works' queues, EXTRA-WRITES queued here. The coordinator removed NAMING-TO-KI from queries.md as answered and applied at 02:02 GMT. Left for Kris: MOD-011-ADOPT, ANSWER-VECTOR, WEBSITE-CLOSE. The EXTRA-WRITES line in messages.md is held until Kris returns, under the token steer.
+
+- 02:38 GMT 27 October: Kris: "I'm going to start another thread off which is focusing on the observatory and trying to get that into something that's more usable. I'm going to use the design tool to do it." Taken as: Observatory usability moves to a separate thread; this work does no further Observatory work and hands its context over by a line in ki.observatory's messages.md.
