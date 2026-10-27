@@ -657,3 +657,7 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
 - 2026-10-27 01:52 GMT · Kris: "can we work through a few here now while we wait?" Corrects the 01:49 reading: "wait for a few" meant work through a few items while wow-obs-focus-3 runs. Walking Kris through the draft action plan one step at a time.
 
 - 01:53 GMT 27 October: Kris: "Do the quick wins now", interrupted, then "Step 4 - apply it". Taken as: apply step 4 now; quick wins (step 3) follow next. Step 4 applies the held answers: QSWEEP-DROP a (STRUCTURE-1, BIO-1, CI-WATCH, BASELINE-COMMITS dropped from queries.md by the coordinator), RELEASES-CI a (run wow-ci-manual), NAMING-TO-KI a plus territory messages (run wow-naming-rule).
+
+- 02:02 GMT 27 October: received wow-obs-focus-3. Focus is live at <http://127.0.0.1:1675/> and opens first; all 16 old views are under Legacy; 32 queries shown with copy-answer lines; 14 records awaiting acceptance. apps-observatory.local 99991b2, 8433bfa.
+
+- 02:02 GMT 27 October: received wow-naming-rule. NAMING-TO-KI applied: rule in the ki-repo standard (harness 21a08e80); lines sent to er, hnr, personal, tmx and va State of play; nothing renamed. The coordinator queued the same line for KI's own two sites in ki State of play messages.md.
