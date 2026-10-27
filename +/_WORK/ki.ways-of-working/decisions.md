@@ -663,3 +663,5 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
 - 02:02 GMT 27 October: received wow-naming-rule. NAMING-TO-KI applied: rule in the ki-repo standard (harness 21a08e80); lines sent to er, hnr, personal, tmx and va State of play; nothing renamed. The coordinator queued the same line for KI's own two sites in ki State of play messages.md.
 
 - 02:05 GMT 27 October: received wow-ci-manual. RELEASES-CI applied: CI and release workflows in 20 knowledge-islands repositories now run on manual dispatch only (commit type `chore`, as every repository's commitlint rejects `ci`); no pins, releases or settings touched. PAPERCLIP-WORKFLOWS: coordinator took option a under the no-questions steer, leaving the upstream paperclip fork's workflows as shipped; logged, not asked. Step 4 is complete.
+
+- 02:08 GMT 27 October: Kris: "I'm actually a bit disappointed in the observatory thing, so let's just go back to doing it in here. Let's just get it nailed in here." Taken as: work through the action plan and open questions in this thread, one at a time; Focus stays as built, no further Observatory work now.
