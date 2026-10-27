@@ -691,3 +691,5 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
   - MIRROR-FRONTMATTER, a): HNR strips the five keys after the Notion removal; sent to hnr.sop.sites' messages.md in hnr-principal.
   - EXTRA-WRITES, a): hook commits stand; the .rumdl.toml refresh queued as a line in this work's messages.md.
   - RENAMED-5G, a): four one-line .ki.toml commits then hook convergence; sent to hnr.sop.5ge's messages.md in hnr-principal.
+
+- 02:36 GMT 27 October: received wow-query-backlog. 17 parked (16 from Q2 plus MIRROR-TOKEN, outside the window's limits), 12 taken and logged at 02:30 GMT, seven sent to their owning works' queues, EXTRA-WRITES queued here. The coordinator removed NAMING-TO-KI from queries.md as answered and applied at 02:02 GMT. Left for Kris: MOD-011-ADOPT, ANSWER-VECTOR, WEBSITE-CLOSE. The EXTRA-WRITES line in messages.md is held until Kris returns, under the token steer.

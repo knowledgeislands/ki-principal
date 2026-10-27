@@ -22,20 +22,6 @@ The review also found that the `ki-work-package` entry points let the owner, thr
 
 a) (recommended, confidence medium - the file effect and its gate exist and are tested, and the swap later is one operation's vector, but the Observatory's own contract leans the other way) Build the first slice on the existing file effect; capture `ki work answer` and `ki work queries` for tools-ki as a later message and the Observatory's KI-OBSERVA-INT-005. b) (blind review's pick, confidence medium - putting answer validation, the line's shape and the repository effect in one tools-ki command avoids a temporary second implementation; the feedback effect proves the mechanism, not an answer contract) Wait for tools-ki to provide `ki work answer`, and have the Observatory's first slice declare it as its vector from the start.
 
-### NAMING-TO-KI - Adopt reverse-domain site repository names, from HNR
-
-**Context:** HNR reports renaming nine site repositories on 26 October 2026 to reverse-domain order, with hostnames, Worker names and work identifiers unchanged. Reverse-domain names group a domain's repositories together within its top-level domain, which is useful for browsing. That benefit supports a prospective convention, but does not itself justify changing existing repositories: renames require coordinating GitHub, two checkouts, registry identity and potentially build connections under the owner's limit against changes that could take a site down. Each territory retains its repository decisions. Existing host-order repositories can remain valid indefinitely; adoption need not create a migration obligation.
-
-**Query:** Should Knowledge Islands adopt reverse-domain names for new site repositories while leaving each territory to decide whether to rename existing ones?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed: blind review agreed with the coordinator's pick; a prospective rule gains consistent grouping without requiring operational changes to existing sites) Adopt reverse-domain naming for new site repositories, record it in the harness [ki-repo standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/keystone/ki-repo/references/standards-repository.md), and send the proposal as a message to each territory's State of play. Leave existing names valid and any rename to the owning territory, with no deadline or automatic enforcement against them. Define the rule as reversing all hostname labels after `apps-`, including multi-part suffixes and nested subdomains: `kris.me.uk` becomes `apps-uk.me.kris`, and `rig.midnight.ninja` becomes `apps-ninja.midnight.rig`. This policy adoption changes no DNS, Cloudflare configuration or hostnames. Any later rename needs its own territory decision and assessment of the build connection and both checkouts; where the owner's site-safety limit cannot be met, retain the current name.
-
-b) Decline: retain host-order naming as the estate convention and leave HNR's renames as its local choice. This avoids introducing a second estate naming form, but forgoes the domain-grouping benefit for new sites.
-
-c) Adopt reverse-domain naming and send each territory a line to rename existing site repositories now. This achieves uniformity sooner, but imposes migration work and operational exposure without a demonstrated site or delivery benefit sufficient to justify it.
-
 ### WEBSITE-CLOSE - The website Project has no open records
 
 **Context:** Pruning KI-WEBSITE-SITE-044 leaves the `website` Project with no open records; ki-principal's audit now warns that it needs a close-out assessment in `Streams/Projects/website.md`. The site is live on ki-design v1 and nothing else is queued.
