@@ -764,3 +764,13 @@ Received wow-open-note: F1 is delivered in ki-design/main on sol.local (0cf614cf
 ### LOCAL-MCP - grounding received 27 October 2026
 
 Received wow-local-mcp-grounding: the seven scoped KI MCP repositories have clean working trees and only local main; declared portable/native/mcporter command fields select Node and checkout-local dist/mcp-server/index.js. Inspected runtime sources have existing emitted counterparts at least as recent, later build-input changes concern tooling/dependencies and tests rather than runtime implementation, and declared runtime dependencies are installed locally. No additional implementation or release is warranted from this evidence. No builds, tests, provider operations, binding changes, remote calls or follow-up check were commissioned. This is local path/file/dependency evidence, not a claim of server startup, exact output-byte equivalence, running-process freshness or provider success.
+
+### SAFE-TIDY - applied 27 October 2026
+
+Received wow-safe-tidy and applied its three-report manifest as the owning steward. Removed only the completed, homed reports below after rechecking their current SHA-256, exact historical blob/file bytes, reachable origin/main recovery, unchanged working/index state and literal durable outcome entries in this log. Queries are absent or explicitly disposed, including the Standards publication query. No active/held report, untracked report, design note, finding or unrelated output was removed.
+
+- +/_WORK/ki.ways-of-working/wow-docs-work-b.report.md
+- +/_WORK/ki.ways-of-working/wow-docs-knowledge.report.md
+- +/_WORK/ki.ways-of-working/wow-docs-standards.report.md
+
+The decisions log is retained: reducing its governing entries requires the owner's mark or an explicit bounded instruction, neither inferred from this unattended window. State has already been condensed without moving the mark.
