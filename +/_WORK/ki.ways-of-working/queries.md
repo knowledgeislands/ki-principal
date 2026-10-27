@@ -68,3 +68,17 @@ a) (recommended, confidence medium - nothing else is queued for the site) A shor
 b) Leave the warning until website work resumes.
 
 Coordinator note: held for the action plan; not raised to Kris yet.
+
+### MOD011-ENACTMENT - review the bounded wording and plan
+
+**Parked:** Exact-wording Enactment review waits for Kris; no canonical write or Ready transition meanwhile.
+
+**Context:** [The existing amendment](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-011-amend-work-model-assigned-package-cascade.md>) is now a selected Now/draft plan. [The exact proposed patch](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/mod011-wording.md>) reconciles Work Process and GDR-KI-PRINCIPAL-009 with the already-decided cascade, preserving package/work identity and the existing states, roles, banner and roadmap mapping. It explicitly excludes STEWARD-FIELD, field encoding, host syntax and pilot acceptance. No canonical change has been made; the adoption timing is already settled.
+
+**Query:** Does Kris approve this exact proposed wording and bounded plan through Enactment, or require revisions while the record stays draft?
+
+**Options:**
+
+a) (recommended, confidence high - the bounded patch is grounded in the decided model and current source bytes, with document and adapter checks complete) Approve the exact wording and plan for the subsequent governed Ready and implementation steps; retain the stated exclusions and separate acceptance gate.
+
+b) Name the wording or plan revisions needed; keep Now/draft and make no canonical writes until those revisions are reviewed.
