@@ -13,7 +13,7 @@ author: Written with Claude
 
 Tools is the last chapter of the Model: having established the conventions, processes, activities and agents of an island, it documents the instruments those agents use to reach the island and the services around it. Each tool has its own subfolder covering how it is connected and configured, the operating conventions specific to it, and any lessons learned working with it. How an agent behaves when it uses a tool is a separate concern documented under Agents and in [Agentic AI](<../Agents/Agentic AI/Agentic AI.md>). Agent runtimes themselves have no tool note: anything specific to one runtime lives in the skill that realises it.
 
-Start with [How Tools Connect](<How Tools Connect.md>), the narrative chapter note that frames the tool set as a whole and explains how MCP servers give agents direct access to external services. The tools then fall into two groups: third-party tools the island adopts (Obsidian and Linear), and MCP servers built within the Knowledge Islands workspace (Microsoft 365, Git Audit, KB Filesystem and Gmail; the retired Notion Mirror is retained as history). Island-specific connection identifiers do not live here; they belong to the island's own integrations record.
+Start with [How Tools Connect](<How Tools Connect.md>), the narrative chapter note that frames the tool set as a whole and explains how MCP servers give agents direct access to external services. The tools then fall into two groups: third-party tools the island adopts (Obsidian and Linear), and MCP servers built within the Knowledge Islands workspace (Microsoft 365, Git Audit, KB Filesystem and Gmail). Island-specific connection identifiers do not live here; they belong to the island's own integrations record.
 
 ---
 
@@ -50,14 +50,6 @@ Start with [How Tools Connect](<How Tools Connect.md>), the narrative chapter no
 ## KB Filesystem
 
 [KB Filesystem](<KB Filesystem/KB Filesystem.md>) documents `mcp-ki-kb-fs`, the programmatic interface for reading and writing one or more knowledge bases through named aliases. Its significance is safety: access is gated by level, and paths are validated server-side so a call cannot escape its base or reach outside the declared zones and working areas. The note summarises the read and write tools and points to the authoritative catalogue.
-
----
-
-## Notion Mirror (retired)
-
-Kris retired the server and deleted its repository on 26 October 2026; see [the retirement](<Notion Mirror/Notion Mirror.md#retirement>). The catalogue below records its former purpose, not a live integration.
-
-[Notion Mirror](<Notion Mirror/Notion Mirror.md>) covers `mcp-ki-kb-notion-mirror`, which published knowledge-base notes or folder subtrees into Notion and recorded each resulting page URL back in the note's frontmatter. It existed so people who did not work in the knowledge base could still read it, while the knowledge base remained the source of truth. The note explains the one-directional model and the safeguards around destructive operations.
 
 ---
 

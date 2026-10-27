@@ -114,7 +114,7 @@ The second part is the portable, generic model. It covers the language of the is
 - [Obsidian](Model/Tools/Obsidian/Obsidian.md) - the primary authoring and navigation tool; vault structure and plugins
 - [Linear](Model/Tools/Linear/Linear.md) - Linear as tool; browser-based view management; island integration
 - [Microsoft 365](<Model/Tools/Microsoft 365/Microsoft 365.md>) - M365 as tool; Outlook MCP, calendar, email integration
-- [Git Audit](<Model/Tools/Git Audit/Git Audit.md>), [KB Filesystem](<Model/Tools/KB Filesystem/KB Filesystem.md>), [Notion Mirror](<Model/Tools/Notion Mirror/Notion Mirror.md>) and [Gmail](Model/Tools/Gmail/Gmail.md) - the further connected tools the chapter index describes
+- [Git Audit](<Model/Tools/Git Audit/Git Audit.md>), [KB Filesystem](<Model/Tools/KB Filesystem/KB Filesystem.md>) and [Gmail](Model/Tools/Gmail/Gmail.md) - the further connected tools the chapter index describes
 
 ---
 

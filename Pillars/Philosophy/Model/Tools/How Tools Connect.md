@@ -44,12 +44,6 @@ Git Audit is the git fleet inspector. The Git Audit note covers the `mcp-git-aud
 
 KB Filesystem is the agent gateway to this island's knowledge base. Agents reach the island through the `mcp-ki-kb-fs` server's tools, which are aliased to a declared base, scoped to its Knowledge Islands zones and working areas, gated by a nested `read`, `write` or `destructive` access level, and audited for writes; humans and Obsidian keep editing the files directly. The server enforces path, zone and access safety at call time, while note conventions are checked by `ki repo audit`. The KB Filesystem note covers the server's tools and safety model.
 
-## Notion Mirror
-
-Retired on 26 October 2026 by Kris, who deleted the repository on GitHub and on sol and terra; see [the retirement](<Notion Mirror/Notion Mirror.md#retirement>). This section records the former architecture. The ordinary hosted Notion connector is separate.
-
-Notion Mirror publishes KB notes into Notion. The Notion Mirror note covers the `mcp-ki-kb-notion-mirror` server, which mirrors individual notes or folder subtrees under a caller-supplied Notion parent and writes the resulting Notion URLs back into each note's frontmatter.
-
 ## Gmail
 
 Gmail is the email integration, reached through the Google Workspace server. The Gmail note covers the `mcp-gsuite` server, which provides read, triage, and draft-creation capabilities alongside Calendar, Drive and Sheets. No send tool is exposed - outbound mail passes through human review.

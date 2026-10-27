@@ -56,7 +56,7 @@ Specifications remains dormant as a normative authority until the overall V1 bou
 
 ## Retired lands
 
-On 26 October 2026 Kris retired the KB-to-Notion mirror and deleted `knowledgeislands/mcp-ki-kb-notion-mirror` on GitHub and on sol and terra. It is no longer an internal land or a checkout to resolve. [Notion Mirror](<../../Pillars/Philosophy/Model/Tools/Notion Mirror/Notion Mirror.md>) retains its historical purpose. The ordinary hosted Notion connector is separate and remains in use.
+On 26 October 2026 Kris retired the KB-to-Notion mirror and deleted `knowledgeislands/mcp-ki-kb-notion-mirror` on GitHub and on sol and terra. It is no longer an internal land or a checkout to resolve, and its Tools chapter note was removed on 27 October 2026 under the MIRROR-NOTE decision in Ways of working. The ordinary hosted Notion connector is separate and remains in use.
 
 ## Uncharted lands
 
