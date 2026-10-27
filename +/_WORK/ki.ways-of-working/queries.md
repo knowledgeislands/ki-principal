@@ -13,7 +13,6 @@ None
 - UNATTENDED-FIELD - recording unattended eligibility on records; a new record field with reviews disagreeing while the roadmap is cut to next to nothing. Recommended: adopt the optional `unattended` mapping and criteria. Parked under the 27 October bulk reading; comes back if a window plan needs it.
 - UNATTENDED-AND-DUE-DATES - adopting the eight criteria as the unattended assessment; the due-date half is done and the criteria stay Personal's prototype. Recommended: adopt the criteria in `ki-delegation`, leaving UNATTENDED-FIELD to decide where the verdict is recorded. Parked under the 27 October bulk reading; comes back with UNATTENDED-FIELD.
 - CLI-PREVIEW - whether public state-changing commands write by default and preview with `--dry-run`; a fleet-wide tool convention while tools are not ready and releases are deprioritised. Recommended: write by default, `--dry-run` and `-n` preview, both standards reconciled first and each tool changed through its own work. Parked under the 27 October bulk reading; comes back when a repair command is next touched.
-- AREA-COLUMN - how the skill catalogue shows functional areas; the inline finder is live and the recommendation needs a harness change, a sync change and a new pin. Recommended: keep the live finder and ask the harness to publish the area table in its README block. Parked under the 27 October bulk reading; comes back if a harness refactor breaks the sync.
 - REPO-STANDARDS-SET - which skills the Repository standards area lists; the live twelve serve and the difference is one box on one docs page. Recommended: include all sixteen, knowledge-base skills marked as applying only to knowledge bases. Parked under the 27 October bulk reading; comes back if a reader is misled.
 - MGIT-CACHE-SCOPE - what to build first for the mgit cache; Kris asked for the concept in plain language first, and the design note keeps the six routes. Recommended: `--repos-from` with `--to-cache` and `--from-cache` in one record, `sync --push-only` and `--pull-only` in a second. Parked under the 27 October bulk reading; comes back when Kris wants the cache built.
 - MGIT-CACHE-FAILED - whether a checkout the sweep failed on goes into the cached set; same feature as MGIT-CACHE-SCOPE. Recommended: exclude them, keep their names and count as diagnostics, and warn on every `--from-cache` that the selection is incomplete. Parked under the 27 October bulk reading; comes back with MGIT-CACHE-SCOPE.
@@ -82,3 +81,33 @@ Coordinator note: held for the action plan; not raised to Kris yet.
 a) (recommended, confidence high - the bounded patch is grounded in the decided model and current source bytes, with document and adapter checks complete) Approve the exact wording and plan for the subsequent governed Ready and implementation steps; retain the stated exclusions and separate acceptance gate.
 
 b) Name the wording or plan revisions needed; keep Now/draft and make no canonical writes until those revisions are reviewed.
+
+### AREA-COLUMN - publication held; HIGH independent local-input partial
+
+**Goal:** Reduce fragile consumption without inventing publication authority.
+
+**Scope:** Harness publication contract and website sync; only the partial below is ready.
+
+**As of:** 27 October 2026, 05:38 GMT; harness main `1e679cd1b0d6c266989f2444cc4e6fbc6baf46e8`; website baseline as above.
+
+**Irreducible hold:** `standards-compatible-harness.md` under `skills/repo-structure/ki-repo-harness/references/` explicitly calls areas a diagram reading aid rather than a published skill fact. Its marker-bounded README catalogue derives from frontmatter; `capability-publication.ts` has no area projection. The original blind review recommended extending this boundary, but that recommendation was never accepted. Existing area values avoid a new taxonomy/schema design; publishing them as a stable consumer contract still needs the choice below. A release is not the blocker.
+
+**Dispatch useful partial:** In apps-knowledgeislands.info, add an explicit local-repository input to `apps/site/scripts/sync-skill-catalogue.ts`, focused cases in its existing `.test.ts`, and usage in `docs/guides/developer/page-provenance.md`. Retain mandatory immutable `--ref`, existing parsers, payload shape and provenance. Read the two existing source paths with local Git at that exact ref, never dirty working files; the explicit local mode must fail closed without network fallback. Preserve the existing remote route. No snapshot/page/pin changes belong in this partial.
+
+**Authority and verification:** Local delivery is expressly authorised; this is a transport adapter for the already-consumed two-file snapshot, not approval to publish areas differently. Both pinned blobs are available locally. Verify local mode reproduces the existing snapshot at `8897008fcee7b2c71a22115735ed038efccf7f32`, rejects absent refs/blobs and invokes no fetch; run its focused existing tests and required hooks. Website owns this unit; serialise with its snapshot writer and keep the crosswalk correction in a separate commit. No release, installation, binding change, credentials or provider call is needed. The live finder continues to work, with generator coupling honestly retained.
+
+## Queries
+
+### AREA-COLUMN - publish the existing area reading aid?
+
+**Parked:** README publication remains outside the two independently qualified local website units; release when Kris decides the consumer contract.
+
+**Context:** The current contract deliberately keeps areas outside published skill facts. The parked recommendation would make the harness README a stable consumer boundary. Local sync alone does not authorise that change; the two direct units and local-input partial can proceed independently.
+
+**Query:** May the harness publish the existing area membership as a generated README reading aid and have the website consume it, without changing applicability or dependency semantics?
+
+**Options:**
+
+a) (recommended, confidence high - reuses the existing model and removes generator-code coupling, with the contract change explicit) Approve that bounded publication extension, then qualify exact harness generator/contract/test paths and the website parser/provenance companion paths. Use local immutable commits and local sync; no release cycle.
+
+b) Retain the diagram-only publication boundary and the current finder/parser coupling; deliver only the independently qualified units above.
