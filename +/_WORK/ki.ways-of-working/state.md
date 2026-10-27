@@ -12,24 +12,25 @@ method_read: bedbb4d9
 
 ## Now
 
-- Successive confident waves continue under SUCCESSIVE-WAVES and LOCAL-SYMLINKS in [decisions.md](decisions.md), until Kris explicitly returns or stops them; no release cycle.
-- Agent-host role extraction is committed locally in ki-techne-harness/main on sol.local; its parent goal stays unfinished and publication is pending.
-- The two qualified gate fixes precede wow-accept-prune-confident, which has current owner approval to close and prune complete high-confidence records. CLI-160 worktree retirement waits for a safe write window.
-- Unanswered owner choices are in [queries.md](queries.md); GOV202-ROUTE has one blind review. Rig attended prerequisites remain parked. Observatory design belongs to ki.observatory.
-- Website card retirement and tools-ki staged-check repair also remain local on sol.local/main; website pushing deploys, and the tool repair needs actual code-push authority. Reconcile before work elsewhere.
+- Successive confident local waves continue under the current owner grants in [decisions.md](decisions.md), until Kris explicitly returns or stops them; no release cycle.
+- wow-close-reviewed-followup closes only complete BRG-004, CORE-071 and CORE-073 evidence under the current human acceptance grant; CLI-160 is already Done, retained pending reference/archive guards.
+- wow-mirror-map-retirement is delivering the approved source/render remainder locally; website publication still requires deployment authority.
+- wow-gov202-tag-delivery uses the reviewed existing-tag route; wow-mod011-plan follows it for adoption/planning and a wording draft, with no canonical Enactment.
+- Reviewed code publication approval is unanswered and parked. Tools-ki, tools-rig, ki-techne-harness and website have local main handoffs on sol.local; exact scope is in decisions.md.
 
 ## Next steps
 
-1. Receive the active units, preserving actual results and blocked parts. Continue qualifying useful deferred candidates under the current explicit outcome authority; freeze each exact repository-local delivery scope before implementation.
-2. Do not repeat delivered quick wins, logging, opener or note relocation. Select no genuinely held work or unanswered contract choice. Preserve honest unfinished status for verified partial units.
-3. Commit exact owned paths and publish only within actual unit or standing documentation authority after checking every unpublished ancestor. New code without a push grant stays as a named local handoff.
-4. Check messages.md at each wake, IMPORTANT first. Send Observatory integration needs to ki.observatory/messages.md; do not redesign it or create receiving roadmap records.
-5. Keep a background check armed while work lies with a worker. Local MCP paths and outputs are grounded; no extra implementation or release is warranted from that pass. Use one sufficient verification pass for each unchanged candidate.
+1. Receive the active units, preserve actual partial/complete evidence, and continue only useful clear deferred candidates. Freeze exact repository-local scope before code; never infer missing authority or full completion.
+2. Apply current acceptance/pruning approval only to complete verified records. Repair steward-owned links before eligible deletion; preserve real reference, observation and trade guards. No blanket idea deletion.
+3. Commit exact owned paths. Publish only under actual authority after inspecting every unpublished ancestor. The unanswered reviewed-code proposal permits no push; new code is not silently added to it.
+4. Check messages.md at each wake, IMPORTANT first. Route Observatory functionality through its messages.md and keep its redesign with its owner; create no receiving roadmap item.
+5. Keep a background check armed while a worker holds work. Use one sufficient verification pass per unchanged candidate; no duplicate coverage/audit, release, package publication or live operation to manufacture evidence.
 
 ## Held
 
-- MOD-011 adoption/wording, ANSWER-VECTOR, WEBSITE-CLOSE and GOV202-ROUTE await the owner's answers.
-- CORE-068/069 require their existing attended evidence and planning answers; their full gating query is parked until Kris is available.
-- The overload process remains a draft pending owner review/adoption.
-- Full MIRROR-SITE map/data/SVG retirement and final rebuild remain with ki.website; the local card slice is not full completion.
-- Unqualified ideas, genuine holds and unrelated changes remain preserved. Decisions-log reduction waits for the owner's mark or a bounded instruction; no mark is inferred.
+- CORE-068/069 need their existing attended evidence/answers; CORE-070 needs its required attended application.
+- Code-publication approval waits for an affirmative owner answer. Website main pushes deploy; the retirement source remains local until authorised.
+- CLI-160 pruning retains Done until surviving references and genuinely relevant retired-source evidence are resolved; three named retired sources have no accessible tip.
+- ANSWER-VECTOR is parked with ki.observatory; WEBSITE-CLOSE waits for ki.website's current delivery/rollout to finish.
+- MOD-011 exact canonical wording and the overload draft require owner review; no STEWARD-FIELD choice or mark is inferred.
+- Unqualified ideas and unrelated/private material remain preserved; do not publish a private untracked report merely to clear a prune guard.

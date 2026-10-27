@@ -2,55 +2,7 @@
 
 ## Open
 
-### MOD-011-ADOPT - adopt the work-model amendment record
-
-**Context:** [KI-PRINCIPAL-MOD-011](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-011-amend-work-model-assigned-package-cascade.md) is captured as unadopted triage, as `ki-next` requires for a capture. Leaving triage needs your explicit approval. The amendment is step 2 of the rollout plan you adopted, the harness already carries the decided model at `1af72f2e`, and the Valle Armonia pilot (step 5) is proposed but not started; STEWARD-FIELD is still open and is excluded from the record's boundary.
-
-**Query:** Should KI-PRINCIPAL-MOD-011 be adopted now as a Now draft so its Enactment wording can be planned, or wait for the pilot?
-
-**Options:** a) (recommended, confidence high - the model is already live in the harness, so the canonical note and GDR are behind it today, and STEWARD-FIELD is carved out) Adopt into Now as a draft, kind deliver, size m, then plan it to Ready under `ki-plan` with the exact wording confirmed through the Enactment Process before it is written. b) Adopt into Next, planning it only after the Valle Armonia pilot's wave reports, so pilot lessons shape the wording in one pass. c) Leave it in triage until STEWARD-FIELD is decided, then adopt both together.
-
-### ANSWER-VECTOR - whether the first slice writes the answer line itself or waits for a `ki work answer` command
-
-**Context:** The proposal's first slice has the Observatory compose the `messages.md` line and commit it through its own declared file effect, the path `feedback-send` already implements and tests, so the slice needs no tools-ki change. The Observatory's contract prefers consuming stable `ki` commands over duplicating work semantics, and a `ki work answer <id> <TAG> --option a --note "..."` command would make the line's shape one tool's and give the Observatory an argument vector instead. Waiting for it adds a tools-ki unit and a pin before anything can be answered in the Observatory; building the file effect first means a later swap to the command.
-
-The review also found that the `ki-work-package` entry points let the owner, through the Observatory, commit a feedback package with its linking message, but grant no standalone answer-line write, so either option needs that authority written into the standard; sending stays off (`FEEDBACK_SENDING` false, KI-OBSERVA-BRG-004 still on hold).
-
-**Query:** Should the first slice write the line through the Observatory's own file effect, with the `ki work answer` command as a later record, rather than wait for the command?
-
-**Options:**
-
-a) (recommended, confidence medium - the file effect and its gate exist and are tested, and the swap later is one operation's vector, but the Observatory's own contract leans the other way) Build the first slice on the existing file effect; capture `ki work answer` and `ki work queries` for tools-ki as a later message and the Observatory's KI-OBSERVA-INT-005. b) (blind review's pick, confidence medium - putting answer validation, the line's shape and the repository effect in one tools-ki command avoids a temporary second implementation; the feedback effect proves the mechanism, not an answer contract) Wait for tools-ki to provide `ki work answer`, and have the Observatory's first slice declare it as its vector from the start.
-
-### WEBSITE-CLOSE - The website Project has no open records
-
-**Context:** Pruning KI-WEBSITE-SITE-044 leaves the `website` Project with no open records; ki-principal's audit now warns that it needs a close-out assessment in `Streams/Projects/website.md`. The site is live on ki-design v1 and nothing else is queued.
-
-**Query:** Should the website Project be closed out?
-
-**Options:**
-
-a) (recommended, confidence medium - nothing else is queued for the site) A short close-out assessment goes into the Project note under Notes in a later pass, capturing any follow-up as a record.
-
-b) Leave the warning until website work resumes.
-
-Coordinator note: held for the action plan; not raised to Kris yet.
-
-### GOV202-ROUTE - Choose how the skill statistics appear
-
-since 2026-10-27 · from run/wow-gov202-blind; one independent blind review completed.
-
-**Context:** [KI-HARNESS-GOV-202](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-202-skill-area-stable-stats-badge.md) aims to show each skill's statistics in the skill-area diagrams. Existing configuration can show stats while retaining both the concern/trigger sublabel and source metadata. Literal replacement of the viewer's source affordance is not demonstrated by those fields, and viewer changes are explicitly excluded. Implementation still needs a Ready plan under every option.
-
-**Query:** Should the statistics use an additional label, replace the concern/trigger text, or replace the source badge?
-
-**Options:**
-
-a) (recommended, confidence high - the existing schema and renderer directly support a separate tag, preserving the current sublabel and source metadata with the smallest change) Accept a compact per-skill stats tag as satisfying the useful outcome, retaining source evidence and concern/trigger text; plan generator/data and diagram changes within existing viewer configuration. Confirm fit once in delivery verification, without adding a release process.
-
-b) Authorise replacing the concern/trigger sublabel with stats, retaining source metadata; this uses existing configuration but deliberately gives up the present visible concern/trigger information and changes its presentation contract.
-
-c) Retain literal replacement of the source badge as the requirement and explicitly widen the viewer boundary before planning a minimal viewer change. Local delivery may remain local; neither the exact viewer patch nor its supported integration route is established by this review.
+None
 
 ## Parked
 
@@ -100,3 +52,49 @@ since 2026-10-27 · from run/wow-retire-cli160; operational follow-up parked unt
 a) (recommended, confidence high - preserves all material and respects this run's exact deletion boundary) Retain the checkout and branch; have the steward establish ownership and retention needs for the 799 additional files, then issue a bounded follow-up instruction.
 
 b) Keep this checkout and branch retained without scheduling another retirement attempt.
+
+### ANSWER-VECTOR - whether the first slice writes the answer line itself or waits for a `ki work answer` command
+
+**Parked:** Parked with ki.observatory, which owns the feature and redesign. Release when its steward or the owner returns a route decision; neither option is selected here.
+
+**Context:** The proposal's first slice has the Observatory compose the `messages.md` line and commit it through its own declared file effect, the path `feedback-send` already implements and tests, so the slice needs no tools-ki change. The Observatory's contract prefers consuming stable `ki` commands over duplicating work semantics, and a `ki work answer <id> <TAG> --option a --note "..."` command would make the line's shape one tool's and give the Observatory an argument vector instead. Waiting for it adds a tools-ki unit and a pin before anything can be answered in the Observatory; building the file effect first means a later swap to the command.
+
+The review also found that the `ki-work-package` entry points let the owner, through the Observatory, commit a feedback package with its linking message, but grant no standalone answer-line write, so either option needs that authority written into the standard; sending stays off (`FEEDBACK_SENDING` false, KI-OBSERVA-BRG-004 still on hold).
+
+**Query:** Should the first slice write the line through the Observatory's own file effect, with the `ki work answer` command as a later record, rather than wait for the command?
+
+**Options:**
+
+a) (recommended, confidence medium - the file effect and its gate exist and are tested, and the swap later is one operation's vector, but the Observatory's own contract leans the other way) Build the first slice on the existing file effect; capture `ki work answer` and `ki work queries` for tools-ki as a later message and the Observatory's KI-OBSERVA-INT-005. b) (blind review's pick, confidence medium - putting answer validation, the line's shape and the repository effect in one tools-ki command avoids a temporary second implementation; the feedback effect proves the mechanism, not an answer contract) Wait for tools-ki to provide `ki work answer`, and have the Observatory's first slice declare it as its vector from the start.
+
+### WEBSITE-CLOSE - The website Project has no open records
+
+**Parked:** Parked because MIRROR-SITE is back in active delivery and website source remains unpublished. Release when ki.website confirms its current delivery/rollout is complete; no Project closure is inferred.
+
+**Context:** Pruning KI-WEBSITE-SITE-044 leaves the `website` Project with no open records; ki-principal's audit now warns that it needs a close-out assessment in `Streams/Projects/website.md`. The site is live on ki-design v1 and nothing else is queued.
+
+**Query:** Should the website Project be closed out?
+
+**Options:**
+
+a) (recommended, confidence medium - nothing else is queued for the site) A short close-out assessment goes into the Project note under Notes in a later pass, capturing any follow-up as a record.
+
+b) Leave the warning until website work resumes.
+
+Coordinator note: held for the action plan; not raised to Kris yet.
+
+### PUB-REVIEWED-CODE - Publish the three reviewed local code bundles
+
+since 2026-10-27 · one blind review by run/wow-push-scope-blind; asked through the asynchronous input interface, then parked unanswered for the owner's return.
+
+**Context:** The verified bundles are tools-ki's two-flag staged-check repair with its coupled routing-record closure/reference documentation; tools-rig's canonical staged-only pre-commit hook; and ki-techne-harness's independent agent-host role extraction. The reviewer inspected every unpublished ancestor and actual paths, confirmed the named main refs are fast-forward candidates, and found only manual-dispatch declared workflows and no configured pre-push hook. The personal standing rule excludes code/runtime publication, and ki-git separates committing from pushing. Website publication is outside this scope because its main push deploys. The later Rig wording correction is not silently added to the frozen reviewed tips.
+
+**Query:** May I fast-forward push those three reviewed bundles to their origin/main branches?
+
+**Options:**
+
+a) (recommended, confidence high - one independent review found a bounded non-deploying Git scope, with completed local verification) Publish the three reviewed ranges and only their inspected coupled closure/reference documentation after final source/ancestry revalidation, without release, tag, package publication or deployment.
+
+b) Keep the code commits local and retain the explicit repository, sol.local and branch handoffs.
+
+**Release:** An affirmative owner answer; silence supplies no publication authority.
