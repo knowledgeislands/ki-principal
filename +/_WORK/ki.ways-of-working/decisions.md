@@ -673,3 +673,7 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
   - Excluded: the standing security limits (DNS, Cloudflare, Access, routes, Zero Trust, credentials, connection-critical machine config); new software; Linear, Notion or people-facing changes; making confidential material public; releases; chezmoi apply; accepting or pruning new deliveries; canonical adoption of the overload process.
   - Wake: the background check, at least every 5 minutes, best effort. Usage-limit stops and failed runs are reported on return.
   - Readings: SWEEP-RELEASE-BOUND records go to ideas, not cancelled, per "we don't need to get rid of them or delete them until we've really qualified them".
+
+- 02:28 GMT 27 October: Kris: "Yeah, we've already burnt through half the tokens already." Taken as: conserve tokens; launch nothing new overnight beyond the four runs already started, no restarts on Claude after a usage stop, keep coordinator wakes to one terse check.
+
+- 02:28 GMT 27 October: received wow-overload-draft; draft at design/overload-process.md for Kris's review, not adopted.
