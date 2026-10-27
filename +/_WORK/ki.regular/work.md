@@ -1,5 +1,6 @@
 ---
 id: ki.regular
+parent: ki
 level: regular
 title: 'KI > Regular'
 theme: null

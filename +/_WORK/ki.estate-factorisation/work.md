@@ -1,5 +1,6 @@
 ---
 id: ki.estate-factorisation
+parent: ki
 level: project
 title: 'KI > Foundations > Estate factorisation'
 project: estate-factorisation

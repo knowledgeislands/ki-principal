@@ -1,5 +1,6 @@
 ---
 id: ki.observatory
+parent: ki
 level: project
 title: 'KI > Model > Observatory'
 project: observatory

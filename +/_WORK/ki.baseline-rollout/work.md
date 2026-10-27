@@ -1,5 +1,6 @@
 ---
 id: ki.baseline-rollout
+parent: ki
 level: project
 title: 'KI > Foundations > Baseline rollout'
 project: baseline-rollout

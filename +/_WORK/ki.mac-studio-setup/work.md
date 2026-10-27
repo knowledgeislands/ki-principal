@@ -1,5 +1,6 @@
 ---
 id: ki.mac-studio-setup
+parent: ki
 level: project
 title: 'KI > Rig > Mac Studio setup'
 project: mac-studio-setup

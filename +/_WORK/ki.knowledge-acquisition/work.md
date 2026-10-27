@@ -1,5 +1,6 @@
 ---
 id: ki.knowledge-acquisition
+parent: ki
 level: project
 title: 'KI > Model > Knowledge acquisition'
 project: knowledge-acquisition

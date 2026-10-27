@@ -1,5 +1,6 @@
 ---
 id: ki.website
+parent: ki
 level: project
 title: 'KI > Model > Website'
 project: website

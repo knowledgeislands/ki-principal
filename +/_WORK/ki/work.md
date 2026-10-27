@@ -1,6 +1,20 @@
 ---
 id: ki
 level: territory
+covers:
+  - ki.agent-host
+  - ki.baseline-rollout
+  - ki.chezmoi
+  - ki.estate-factorisation
+  - ki.knowledge-acquisition
+  - ki.mac-studio-setup
+  - ki.observatory
+  - ki.paperclip-capture-and-rebuild
+  - ki.portable-specifications
+  - ki.timelines
+  - ki.tools-burndown
+  - ki.ways-of-working
+  - ki.website
 title: 'KI > SoP'
 theme: null
 description: >-

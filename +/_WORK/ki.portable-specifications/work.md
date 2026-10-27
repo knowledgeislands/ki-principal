@@ -1,5 +1,6 @@
 ---
 id: ki.portable-specifications
+parent: ki
 level: project
 title: 'KI > Model > Portable specifications'
 project: portable-specifications

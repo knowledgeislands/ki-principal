@@ -1,5 +1,6 @@
 ---
 id: ki.timelines
+parent: ki
 level: project
 title: 'KI > Foundations > Timelines'
 project: timelines

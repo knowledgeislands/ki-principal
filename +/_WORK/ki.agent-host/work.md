@@ -1,5 +1,6 @@
 ---
 id: ki.agent-host
+parent: ki
 level: project
 title: 'KI > Techne > Agent host'
 project: agent-host

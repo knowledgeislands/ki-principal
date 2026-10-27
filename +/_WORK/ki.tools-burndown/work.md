@@ -1,5 +1,6 @@
 ---
 id: ki.tools-burndown
+parent: ki
 level: project
 title: 'KI > Foundations > Tools burndown'
 project: tools-burndown

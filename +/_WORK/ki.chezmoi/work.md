@@ -1,5 +1,6 @@
 ---
 id: ki.chezmoi
+parent: ki
 level: project
 title: 'KI > Rig > chezmoi'
 project: chezmoi

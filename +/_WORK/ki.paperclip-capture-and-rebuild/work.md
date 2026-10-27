@@ -1,5 +1,6 @@
 ---
 id: ki.paperclip-capture-and-rebuild
+parent: ki
 level: project
 title: 'KI > Techne > Paperclip capture and rebuild'
 project: paperclip-capture-and-rebuild

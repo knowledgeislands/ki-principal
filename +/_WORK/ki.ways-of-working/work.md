@@ -1,5 +1,6 @@
 ---
 id: ki.ways-of-working
+parent: ki
 level: project
 title: 'KI > Model > Ways of working'
 project: ways-of-working
