@@ -744,3 +744,9 @@ Initial selected-repository snapshots from the read-only manifest, sol.local, 20
 | tools-ki | main | 631deaf95a797d69f64644ac3734f0d3bb775cf8 | 631deaf95a797d69f64644ac3734f0d3bb775cf8 |
 
 The incomplete-brief incident is now recorded as resolved in Admin/Operations/Mistakes and Lessons.md by wow-dispatch-lesson; its verified commit changes only that log. Its report raises no query. No running worker was stopped.
+
+### M1 and incident log - received 27 October 2026
+
+Received wow-mirror-card: the independent MIRROR-SITE card slice is verified and committed locally in apps-knowledgeislands.info/main on sol.local (b8f4e36d4fab55736c3b474e166a1c172b35bfbe), fast-forward integrated and its worktree retired. The existing JSON5 parser proves that only the retired project object was removed and all other objects/order are preserved. No site build or deployment occurred. Publication is deliberately pending because pushing that main branch triggers Workers Builds/deployment, outside this source-only unit. Before another machine works there, reconcile that local commit. Map/data/SVG work remains with ki.website; the full MIRROR-SITE request is not complete.
+
+Received wow-dispatch-lesson: the resolved incident is homed in Admin/Operations/Mistakes and Lessons.md, with all earlier content preserved and normal gates passed. Neither unit raises a new owner query. The FILENAME-0 worker is next in the independent lane; SUMMARY-VISIBLE and OPENER-REBOOT still wait for quick-wins.
