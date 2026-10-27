@@ -12,24 +12,24 @@ method_read: bedbb4d9
 
 ## Now
 
-- Confident unattended delivery continues under CONFIDENT-UNATTENDED and LOCAL-SYMLINKS in [decisions.md](decisions.md), until Kris explicitly returns or stops it.
-- wow-quick-wins retains the eight bucket-C records; CLI-160 is on its existing coverage gate. Do not stop or duplicate it.
-- After quick-wins: wow-tap-log-unattended then wow-opener-reboot; independent wow-rig-remainder and wow-harness-remainder conditionally finish only their named undelivered records.
-- Unanswered choices remain in [queries.md](queries.md). Observatory redesign belongs to ki.observatory; its queue carries the functionality handoffs.
-- Website card retirement is committed locally in apps-knowledgeislands.info/main on sol.local, unpublished because pushing deploys; reconcile before working from another machine.
+- Successive confident waves continue under SUCCESSIVE-WAVES and LOCAL-SYMLINKS in [decisions.md](decisions.md), until Kris explicitly returns or stops them; no release cycle.
+- Agent-host role extraction is committed locally in ki-techne-harness/main on sol.local; its parent goal stays unfinished and publication is pending.
+- The two qualified gate fixes precede wow-accept-prune-confident, which has current owner approval to close and prune complete high-confidence records. CLI-160 worktree retirement waits for a safe write window.
+- Unanswered owner choices are in [queries.md](queries.md); GOV202-ROUTE has one blind review. Rig attended prerequisites remain parked. Observatory design belongs to ki.observatory.
+- Website card retirement and tools-ki staged-check repair also remain local on sol.local/main; website pushing deploys, and the tool repair needs actual code-push authority. Reconcile before work elsewhere.
 
 ## Next steps
 
-1. Receive wow-quick-wins when it reports; home its actual results and queries, preserve any blocked parts, and remove its received brief. Never infer acceptance or completion from a still-running gate.
-2. Receive the conditional Rig/harness and ordered tool units. Skip delivered records; preserve blocked parts and genuine prerequisites. Use local symlinked tools, one sufficient verification pass, and no release or publication cycle.
-3. Finish the current delivery account and pending handoffs, commit exact paths, and publish only within the actual unit or standing documentation authority after checking every unpublished ancestor.
-4. Check messages.md at each wake, IMPORTANT first. Send Observatory integration needs to ki.observatory/messages.md rather than editing its design or creating a receiving roadmap record.
-5. Keep a background check armed while a worker holds work. Seven MCP local execution paths and existing outputs are grounded in decisions.md; no additional implementation or follow-up check is warranted from that pass.
+1. Receive the active units, preserving actual results and blocked parts. Continue qualifying useful deferred candidates under the current explicit outcome authority; freeze each exact repository-local delivery scope before implementation.
+2. Do not repeat delivered quick wins, logging, opener or note relocation. Select no genuinely held work or unanswered contract choice. Preserve honest unfinished status for verified partial units.
+3. Commit exact owned paths and publish only within actual unit or standing documentation authority after checking every unpublished ancestor. New code without a push grant stays as a named local handoff.
+4. Check messages.md at each wake, IMPORTANT first. Send Observatory integration needs to ki.observatory/messages.md; do not redesign it or create receiving roadmap records.
+5. Keep a background check armed while work lies with a worker. Local MCP paths and outputs are grounded; no extra implementation or release is warranted from that pass. Use one sufficient verification pass for each unchanged candidate.
 
 ## Held
 
-- MOD-011 adoption and exact canonical wording, ANSWER-VECTOR and WEBSITE-CLOSE await the owner's answers in queries.md.
-- [Overload process](design/overload-process.md) remains a draft until the owner reviews and adopts it.
-- Full MIRROR-SITE map/data/SVG retirement and final rebuild remain with ki.website; the independent local card slice is not full completion.
-- Ideas, held/future records and unresolved licensing/specification choices stay outside this window unless explicitly taken up.
-- Existing unrelated reports, output files and other sessions' changes remain preserved; clean delivery never means discarding them.
+- MOD-011 adoption/wording, ANSWER-VECTOR, WEBSITE-CLOSE and GOV202-ROUTE await the owner's answers.
+- CORE-068/069 require their existing attended evidence and planning answers; their full gating query is parked until Kris is available.
+- The overload process remains a draft pending owner review/adoption.
+- Full MIRROR-SITE map/data/SVG retirement and final rebuild remain with ki.website; the local card slice is not full completion.
+- Unqualified ideas, genuine holds and unrelated changes remain preserved. Decisions-log reduction waits for the owner's mark or a bounded instruction; no mark is inferred.

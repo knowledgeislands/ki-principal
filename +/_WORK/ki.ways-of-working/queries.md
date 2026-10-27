@@ -36,6 +36,22 @@ b) Leave the warning until website work resumes.
 
 Coordinator note: held for the action plan; not raised to Kris yet.
 
+### GOV202-ROUTE - Choose how the skill statistics appear
+
+since 2026-10-27 · from run/wow-gov202-blind; one independent blind review completed.
+
+**Context:** [KI-HARNESS-GOV-202](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-202-skill-area-stable-stats-badge.md) aims to show each skill's statistics in the skill-area diagrams. Existing configuration can show stats while retaining both the concern/trigger sublabel and source metadata. Literal replacement of the viewer's source affordance is not demonstrated by those fields, and viewer changes are explicitly excluded. Implementation still needs a Ready plan under every option.
+
+**Query:** Should the statistics use an additional label, replace the concern/trigger text, or replace the source badge?
+
+**Options:**
+
+a) (recommended, confidence high - the existing schema and renderer directly support a separate tag, preserving the current sublabel and source metadata with the smallest change) Accept a compact per-skill stats tag as satisfying the useful outcome, retaining source evidence and concern/trigger text; plan generator/data and diagram changes within existing viewer configuration. Confirm fit once in delivery verification, without adding a release process.
+
+b) Authorise replacing the concern/trigger sublabel with stats, retaining source metadata; this uses existing configuration but deliberately gives up the present visible concern/trigger information and changes its presentation contract.
+
+c) Retain literal replacement of the source badge as the requirement and explicitly widen the viewer boundary before planning a minimal viewer change. Local delivery may remain local; neither the exact viewer patch nor its supported integration route is established by this review.
+
 ## Parked
 
 - PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.
@@ -56,3 +72,31 @@ Coordinator note: held for the action plan; not raised to Kris yet.
 - MISSING-TOOLS - installing the missing hook tools in three package repositories; the recommendation is itself to wait, and installing would add new software. Recommended: leave them until the second convergence and bring any needed tool to Kris as its own decision. Parked under the 27 October bulk reading; comes back at that convergence.
 - REL-X64-TIMEOUT - darwin-x64 packaging fails on three five-second test timeouts; a test-only fix and a v0.14.2 release while releases are deprioritised, so it stands or falls with the releases-and-CI decision. Recommended: a bounded run gives the three lock-wait tests an explicit timeout, prepares v0.14.2 and runs the Release workflow. Parked under the 27 October bulk reading with v0.14.1 unpublished; comes back if Kris reopens releases.
 - MIRROR-TOKEN - the Notion integration token and 1Password item behind the retired mirror; taken under the 27 October bulk reading, but the action is Kris's own and needs Notion and a credential change, both outside the window's limits. Recommended: revoke the integration in Notion and delete the 1Password item after `chezmoi apply` removes the last reference, finishing any HNR Notion page removal first. Parked for Kris to do at the machine.
+
+### RIG-ATTENDED - Existing Rig attended prerequisites
+
+since 2026-10-27 · from run/wow-rig-remainder; parked until Kris is available for the existing attended checks.
+
+**Context:** These are existing prerequisites, not a request for another item-by-item approval. No live evidence was obtained in this run.
+
+**Query:** Coordinator to route the existing attended checks and CORE-068 planning questions when Kris is available; keep both records in draft meanwhile.
+
+**Options:**
+
+a) (recommended, confidence high - preserves the plans' explicit gates) Arrange the existing attended checks and record the existing owner answers before another bounded delivery run.
+
+b) Leave both drafts parked until those prerequisites are available.
+
+### CLI160-EXTRA-FILES - disposition of additional ignored files
+
+since 2026-10-27 · from run/wow-retire-cli160; operational follow-up parked until wow-retire-cli160-preserve reports, not a new owner choice.
+
+**Context:** The report named only two untracked symlinks, but inspection also found 799 ignored paths under `.rumdl_cache/` and `reports/`. The brief requires stopping and preserving everything for any different dirt or missing proof.
+
+**Query:** How should the additional files be reviewed and preserved or explicitly disposed of before a separately authorised retirement attempt?
+
+**Options:**
+
+a) (recommended, confidence high - preserves all material and respects this run's exact deletion boundary) Retain the checkout and branch; have the steward establish ownership and retention needs for the 799 additional files, then issue a bounded follow-up instruction.
+
+b) Keep this checkout and branch retained without scheduling another retirement attempt.
