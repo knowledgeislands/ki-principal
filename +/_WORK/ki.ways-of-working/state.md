@@ -3,7 +3,7 @@ id: ki.ways-of-working
 state: with-worker
 since: 2026-10-27T02:55:00Z
 received: 2026-10-22T07:24:00Z
-beat: 2026-10-27T06:34:21Z
+beat: 2026-10-27T06:44:17Z
 mark: 2026-10-25T01:07:00Z
 method_read: def7f055
 ---
@@ -15,12 +15,12 @@ method_read: def7f055
 - Successive confident local waves continue under the owner grants in [decisions.md](decisions.md); no release cycle or mark change.
 - CLI-160, CORE-071, CORE-073 and GOV-231 are Done; pruning waits for inaccessible retired-source evidence and surviving guarded references. BRG-004 waits for Observatory audit fixes.
 - Seven Project assessments are complete; MOD-011 is Now/draft with a verified exact wording proposal awaiting owner Enactment.
-- GOV-202 awaits final independent acceptance; the timeout partial is delivered and two qualified website units are running. Map retirement and worker-inbox improvement are complete locally.
+- GOV-202 awaits final acceptance; timeout partial is delivered. Two website units are committed but wait for existing-policy integration repair. Map retirement and inbox improvement are complete locally.
 - Fresh remote reconciliation supersedes earlier local-only handoffs; the unanswered three-bundle publication proposal is redundant and withdrawn, without implying new push authority.
 
 ## Next steps
 
-1. Receive the active units, preserve actual partial/complete evidence, and continue only useful clear deferred candidates. Freeze exact repository-local scope before code; never infer missing authority or full completion.
+1. Receive website integration repair before final clean-baseline claims. An earlier queued baseline is interim if this writer still runs. Preserve actual partial evidence; no red-gate waiver or invented authority.
 2. Apply current acceptance/pruning approval only to complete verified records. Repair steward-owned links before eligible deletion; preserve real reference, observation and trade guards. No blanket idea deletion.
 3. Commit exact owned paths. Publish only under actual authority after inspecting every unpublished ancestor. New code needs its actual publication authority; no deployment is inferred.
 4. Check messages.md at each wake, IMPORTANT first. Route Observatory functionality through its messages.md and keep its redesign with its owner; create no receiving roadmap item.
