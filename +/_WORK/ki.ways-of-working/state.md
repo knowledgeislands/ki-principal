@@ -19,6 +19,7 @@ method_read: bedbb4d9
 
 ## Next steps
 
+- Current unattended dispatch: receive wow-unattended-plan; deliver its independent eligible manifest under per-repository outcome envelopes; receive wow-extra-writes-2 (13 exact config paths) and wow-quick-wins. wow-tap-log-unattended is held on those three and replaces the old dormant Claude queue entry. Record the incomplete-brief incident and resolved lesson through the required log. Morning: Observatory design and unresolved owner choices remain separate.
 - New coordinator: re-anchor, run `ki agent status ways-of-working`, receive wow-quick-wins when it finishes (log, `git rm briefs/wow-quick-wins.md`, commit, push).
 - Kris, in the morning: read `design/overload-process.md`; answer MOD-011-ADOPT, ANSWER-VECTOR and WEBSITE-CLOSE; accept the records awaiting review (14 plus the quick wins).
 - messages.md holds EXTRA-WRITES, held until Kris returns under the token steer.
