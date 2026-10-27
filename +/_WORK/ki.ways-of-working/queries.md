@@ -2,7 +2,17 @@
 
 ## Open
 
-None
+### MOD011-ENACTMENT - review the bounded wording and plan
+
+**Context:** [The existing amendment](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-011-amend-work-model-assigned-package-cascade.md>) is now a selected Now/draft plan. [The exact proposed patch](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/mod011-wording.md>) reconciles Work Process and GDR-KI-PRINCIPAL-009 with the already-decided cascade, preserving package/work identity and the existing states, roles, banner and roadmap mapping. It explicitly excludes STEWARD-FIELD, field encoding, host syntax and pilot acceptance. No canonical change has been made; the adoption timing is already settled.
+
+**Query:** Does Kris approve this exact proposed wording and bounded plan through Enactment, or require revisions while the record stays draft?
+
+**Options:**
+
+a) (recommended, confidence high - the bounded patch is grounded in the decided model and current source bytes, with document and adapter checks complete) Approve the exact wording and plan for the subsequent governed Ready and implementation steps; retain the stated exclusions and separate acceptance gate.
+
+b) Name the wording or plan revisions needed; keep Now/draft and make no canonical writes until those revisions are reviewed.
 
 ## Parked
 
@@ -50,20 +60,6 @@ The review also found that the `ki-work-package` entry points let the owner, thr
 **Options:**
 
 a) (recommended, confidence medium - the file effect and its gate exist and are tested, and the swap later is one operation's vector, but the Observatory's own contract leans the other way) Build the first slice on the existing file effect; capture `ki work answer` and `ki work queries` for tools-ki as a later message and the Observatory's KI-OBSERVA-INT-005. b) (blind review's pick, confidence medium - putting answer validation, the line's shape and the repository effect in one tools-ki command avoids a temporary second implementation; the feedback effect proves the mechanism, not an answer contract) Wait for tools-ki to provide `ki work answer`, and have the Observatory's first slice declare it as its vector from the start.
-
-### MOD011-ENACTMENT - review the bounded wording and plan
-
-**Parked:** Exact-wording Enactment review waits for Kris; no canonical write or Ready transition meanwhile.
-
-**Context:** [The existing amendment](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-011-amend-work-model-assigned-package-cascade.md>) is now a selected Now/draft plan. [The exact proposed patch](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/mod011-wording.md>) reconciles Work Process and GDR-KI-PRINCIPAL-009 with the already-decided cascade, preserving package/work identity and the existing states, roles, banner and roadmap mapping. It explicitly excludes STEWARD-FIELD, field encoding, host syntax and pilot acceptance. No canonical change has been made; the adoption timing is already settled.
-
-**Query:** Does Kris approve this exact proposed wording and bounded plan through Enactment, or require revisions while the record stays draft?
-
-**Options:**
-
-a) (recommended, confidence high - the bounded patch is grounded in the decided model and current source bytes, with document and adapter checks complete) Approve the exact wording and plan for the subsequent governed Ready and implementation steps; retain the stated exclusions and separate acceptance gate.
-
-b) Name the wording or plan revisions needed; keep Now/draft and make no canonical writes until those revisions are reviewed.
 
 ### AREA-COLUMN - publication held; HIGH independent local-input partial
 
