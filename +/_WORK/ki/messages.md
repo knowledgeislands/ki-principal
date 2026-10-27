@@ -33,3 +33,5 @@
 - 2026-10-27 · IMPORTANT · ARCHIVE-PRUNE-SOURCES · KI > Model > Ways of working (ki.ways-of-working): CLI-160 is Done. Pruning needs retired-source evidence for ki-techne-principal, ki-plugins and mcp-housekeeping-codex; registry has no locators and GETs return 404. Please resolve authoritative retired-source disposition or readable roots. No archive mutation or assumed absence.
 
 - 2026-10-27 · RIG-TUI · Personal > Rig > terra (personal.regular.rig-terra): Kris (27 Oct) asks for an idea record in tools-rig: a terminal dashboard reading `rig status --json`, a separate viewer since Rig is Bash, perhaps built with Textual (the Python toolkit claude-swap uses) or a TypeScript terminal toolkit. Idea only; capture it unadopted.
+
+- 2026-10-27 · WORK-PACKAGES · Personal > Rig > terra (personal.regular.rig-terra): Kris asks KI > SoP to confirm and reconcile three packages that look stale: `ki.agent-host` (with-worker since 19 Oct, no run visible), `ki.knowledge-acquisition` (finished 20 Oct, folder remains), `ki.specifications` (reports with unclear homes).
