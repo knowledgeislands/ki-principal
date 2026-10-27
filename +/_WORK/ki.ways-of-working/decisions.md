@@ -873,3 +873,9 @@ Queued wow-reference-followthrough after wow-mod011-resume. Explicit scope is th
 ### Revisit independent parked slices - 27 October 2026, 05:35 GMT
 
 Queued the read-only wow-parked-independent-slices after the harness continuation. It qualifies only REL-X64-TIMEOUT, REPO-STANDARDS-SET and AREA-COLUMN against actual current authority and source. An old release/pin dependency alone no longer prevents useful local independent delivery under Kris's explicit local-symlink/no-release instruction; genuine choices, ownership and holds remain. It performs no implementation, test/build, roadmap transition or provider mutation. Exact high-confidence scopes return before another delivery is launched.
+
+### GOV-202 necessary caller repair - 27 October 2026, 05:37 GMT
+
+Received wow-gov202-fit-fix: the representative fit issue is corrected and ten artifact receipts verified, but the aggregate correctly failed ten diagram comparisons because the existing test caller omitted the new production statistics input; two earlier tooling-dependent failures also need focused retest. No commit or integration occurred. Its bunx invocation downloaded two tooling packages before local dependency linkage, violating its task's no-install boundary; subsequent use was corrected to existing local tools. This exception is preserved honestly, not labelled a successful clean pass.
+
+Dispatched wow-gov202-finalize after the independent parked-slice qualification. Its explicit bounded expansion includes skill-graph.test.ts and any identified/frozen direct integration caller needed by this same existing feature input, with assertions preserved and no new API/schema/viewer/dependency. This is routine necessary implementation, not a fresh owner choice. Actual failure permits fix/retest and one final required aggregate, while existing unchanged fit/receipt evidence is reused. No bunx/npx/install/download, release, deployment or new code push is authorised.
