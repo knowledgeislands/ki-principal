@@ -948,3 +948,7 @@ Received wow-worker-inbox-boundary: exact KI-HARNESS-GOV-231 is Awaiting review 
 Dispatched independent wow-inbox-accept under the current quoted high-confidence human grant for exactly docs/roadmap/KI-HARNESS-GOV-231-worker-inbox-boundary.md, frozen before transition, existing equivalent verification reused, no new aggregate or invented eligibility. It may retain Done under real prune guards and cannot push the earlier code/runtime stack.
 
 Refreshed current method guidance: the exact normative delta since the previously read revision is the new background-run inbox paragraph; coordinating standard, package standard and disk style bytes are unchanged. Current method revision is def7f055. The shared inbox's old reader cursor is never treated as proof that the addressed active worker saw steering.
+
+### Capacity scheduling correction - 27 October 2026, 06:29 GMT
+
+The coordinator used a direct launch's immutable wait-for binding for an unrelated capacity limit, so the website units now wait on slow timeout verification despite free capacity. This is a coordination scheduling mistake, not a missing functional prerequisite. Existing direct-held identities have no supported safe retarget API and are preserved. Future capacity uses queue/dispatch or launches at the next free-slot wake; wait-for is reserved for real semantic/write-order prerequisites. No fake DONE, wrapper stop or dependency rewrite is used. The canonical resolved-lesson follow-through must preserve that actual limitation rather than claim this queue was already released.
