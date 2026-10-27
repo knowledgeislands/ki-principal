@@ -14,14 +14,14 @@ method_read: bedbb4d9
 
 - Confident unattended delivery continues under CONFIDENT-UNATTENDED and LOCAL-SYMLINKS in [decisions.md](decisions.md), until Kris explicitly returns or stops it.
 - wow-quick-wins retains the eight bucket-C records; CLI-160 is on its existing coverage gate. Do not stop or duplicate it.
-- wow-tap-log-unattended follows quick-wins; wow-opener-reboot follows both. Their concrete briefs retain the exact approved scope and focused verification.
+- After quick-wins: wow-tap-log-unattended then wow-opener-reboot; independent wow-rig-remainder and wow-harness-remainder conditionally finish only their named undelivered records.
 - Unanswered choices remain in [queries.md](queries.md). Observatory redesign belongs to ki.observatory; its queue carries the functionality handoffs.
 - Website card retirement is committed locally in apps-knowledgeislands.info/main on sol.local, unpublished because pushing deploys; reconcile before working from another machine.
 
 ## Next steps
 
 1. Receive wow-quick-wins when it reports; home its actual results and queries, preserve any blocked parts, and remove its received brief. Never infer acceptance or completion from a still-running gate.
-2. Receive the automatically ordered logging and opener units. Use existing local symlinked tools; no release, package publication, tag or workflow run is needed. Preserve genuine functional prerequisites.
+2. Receive the conditional Rig/harness and ordered tool units. Skip delivered records; preserve blocked parts and genuine prerequisites. Use local symlinked tools, one sufficient verification pass, and no release or publication cycle.
 3. Finish the current delivery account and pending handoffs, commit exact paths, and publish only within the actual unit or standing documentation authority after checking every unpublished ancestor.
 4. Check messages.md at each wake, IMPORTANT first. Send Observatory integration needs to ki.observatory/messages.md rather than editing its design or creating a receiving roadmap record.
 5. Keep a background check armed while a worker holds work. Seven MCP local execution paths and existing outputs are grounded in decisions.md; no additional implementation or follow-up check is warranted from that pass.

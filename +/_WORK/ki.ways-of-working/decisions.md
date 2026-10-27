@@ -774,3 +774,14 @@ Received wow-safe-tidy and applied its three-report manifest as the owning stewa
 - +/_WORK/ki.ways-of-working/wow-docs-standards.report.md
 
 The decisions log is retained: reducing its governing entries requires the owner's mark or an explicit bounded instruction, neither inferred from this unattended window. State has already been condensed without moving the mark.
+
+### Conditional bucket-C remainder handoff - 27 October 2026
+
+Queued two conditional follow-through units, both gated on wow-quick-wins DONE, without stopping or duplicating it. wow-rig-remainder may select only KI-TOOL-RIG-CORE-068 and CORE-069; wow-harness-remainder only KI-HARNESS-GOV-202. They first read its actual final report and current records, skip delivered work, and proceed only with genuinely Ready approved scope. Outcome-mode ki-batch freezes each exact eligible repository-local set with completion_target awaiting-review; no ideas, new records or unanswered public-contract choices enter. Independently verified partial units are allowed under the owner's instruction, with honest remaining status.
+
+No live firewall/handler/host mutation, unsupported command/API, release cycle, extra review round or duplicated coverage-plus-audit pass is commissioned. Where aggregate audit already supplies the required tests, its single unchanged-tree result is the evidence. Actual mandatory failures cannot be bypassed. After quick-wins, tap-log, Rig and harness may run independently, at most three model workers; opener follows tap-log. Every brief records exact record boundaries and publication limits.
+
+Selected repository snapshots at dispatch; workers revalidate before mutation:
+
+- tools-rig: sol.local, main; local main ac76df46486e720fa4a152fc0cdd09963fb96ec9; cached origin/main ac76df46486e720fa4a152fc0cdd09963fb96ec9.
+- ki-agentic-harness: sol.local, main; local main 1e679cd1b0d6c266989f2444cc4e6fbc6baf46e8; cached origin/main 1e679cd1b0d6c266989f2444cc4e6fbc6baf46e8.
