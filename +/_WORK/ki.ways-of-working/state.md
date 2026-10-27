@@ -3,7 +3,7 @@ id: ki.ways-of-working
 state: with-worker
 since: 2026-10-27T02:55:00Z
 received: 2026-10-22T07:24:00Z
-beat: 2026-10-27T06:30:24Z
+beat: 2026-10-27T06:34:21Z
 mark: 2026-10-25T01:07:00Z
 method_read: def7f055
 ---
@@ -15,7 +15,7 @@ method_read: def7f055
 - Successive confident local waves continue under the owner grants in [decisions.md](decisions.md); no release cycle or mark change.
 - CLI-160, CORE-071, CORE-073 and GOV-231 are Done; pruning waits for inaccessible retired-source evidence and surviving guarded references. BRG-004 waits for Observatory audit fixes.
 - Seven Project assessments are complete; MOD-011 is Now/draft with a verified exact wording proposal awaiting owner Enactment.
-- GOV-202 is delivered for final independent acceptance; tools-ki timeout verification runs, then two qualified website units. Map retirement and worker-inbox improvement are complete locally.
+- GOV-202 awaits final independent acceptance; the timeout partial is delivered and two qualified website units are running. Map retirement and worker-inbox improvement are complete locally.
 - Fresh remote reconciliation supersedes earlier local-only handoffs; the unanswered three-bundle publication proposal is redundant and withdrawn, without implying new push authority.
 
 ## Next steps
@@ -29,7 +29,7 @@ method_read: def7f055
 ## Held
 
 - CORE-068/069 need their existing attended evidence/answers; CORE-070 needs its required attended application.
-- New harness code/runtime and website source remain local handoffs until actual publication authority; website main pushes deploy.
+- New harness, tools-ki and website units have reported local publication handoffs, pending final reconciliation; website main pushes deploy.
 - CLI-160 pruning retains Done until surviving references and genuinely relevant retired-source evidence are resolved; three named retired sources have no accessible tip.
 - ANSWER-VECTOR is parked with ki.observatory; WEBSITE-CLOSE waits for ki.website's current delivery/rollout to finish.
 - MOD-011 exact canonical wording and the overload draft require owner review; no STEWARD-FIELD choice or mark is inferred.
