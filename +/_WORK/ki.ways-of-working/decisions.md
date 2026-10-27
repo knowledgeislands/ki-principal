@@ -909,3 +909,22 @@ PRUNE-CLI160 and PRUNE-RIG in the reference report are operational retain dispos
 Received wow-context-efficiency: the named measured proposal is committed, without behavioural changes or a new query. Required re-anchor input is 423,131 bytes, dominated by the coordination standard and decisions log; no tokenizer or billing claim was made. The only proven independent duplicate removal saves 562 bytes, 0.13 percent, so it is not commissioned at the cost of a fresh broad verification cycle. Existing ordinary delta reads continue; full re-anchor and mark/decision guards remain. Larger changes stay a proposal, not a silent override. The AREA-COLUMN contract query from qualification is now copied in full to parked queries, with the independent local units kept separate.
 
 Dispatched wow-tidy-received-briefs for exactly thirty-two named received runs, their corresponding own-package briefs/reports only. Actual DONE, homed outcome/query disposition and remote recovery (or identical surviving private runtime copy for untracked reports) are required. Keep uncertainties, all other reports, live design and the five governing files. No mark/log reduction, broad deletion, private publication or another build/test/audit is authorised.
+
+### Received-brief tidy and explicit query dispositions - 27 October 2026, 05:59 GMT
+
+Received wow-tidy-received-briefs: removed 27 exact selected files (13 tracked briefs, 14 untracked reports) with recorded durable outcomes, complete query dispositions and verified remote/private-runtime recovery. Five governing files, retained material and unrelated changes were preserved. Twenty-five selected files remain for current readers or original-tag disposition proof; twelve paths were already absent. No roadmap record was pruned and no private report published.
+
+The following original operational questions are explicitly disposed here, without inventing human answers or waiving a gate. Their requested follow-through is complete or has its precise current home; they are not additional owner choices:
+
+- PRUNE-CLI160: retain Done pending genuinely unavailable historical evidence; exact reference repairs and private-local-only repair authority are logged above, no publication exception.
+- BRG004-LIVE: the current human high-confidence grant is applied to the record's permitted acceptance-without-first-send branch; live send/restart stays reserved, actual PDR audit remains mandatory.
+- CORE071-SCOPE: corrected by wow-finish-core071 and accepted Done by wow-close-reviewed-followup; no missing wording choice remains.
+- OBS-AUDIT: assigned to the Observatory steward through its committed messages line; no authority to alter its active design is inferred, and BRG004 closure waits for actual repair.
+- PRUNE-RIG: retain Done under actual reference/history guards; CORE047 repaired, chezmoi steward messaged, inaccessible evidence not treated as absence.
+- MIRROR-WEBSITE: the separately bounded existing supported fresh snapshot route was authorised and delivered by wow-website-snapshot-finish; its offline-only task envelope is superseded, with no invented provenance convention or deployment.
+- MOD011-PREFLIGHT: seven factual assessments cleared the actual Streams guard; wow-mod011-resume legitimately adopted/planned Now/draft and produced the exact proposed patch. The distinct MOD011-ENACTMENT query is fully parked.
+- GOV202-FIT: the actual supported-config geometry issue was repaired; final feature passed its required evidence and is Awaiting review.
+- GOV202-TEST-SCOPE: the exact direct test caller was explicitly included in wow-gov202-finalize and corrected with assertions preserved; final verification passed.
+- CLI160-EXTRA-FILES and CLI160-WRITE-WINDOW: superseded by bounded preservation follow-ups; no deletion or archive was performed by the blocked attempts, and the final attempt found the checkout/branch already absent.
+- CLI160-METADATA-CAPTURE: the unavailable API approach was superseded by the authorised original-inode alternative, which found no remaining target. No claim of captured metadata or verified archive is made.
+- CLI160-ALREADY-ABSENT: receive the observed absent-path/branch result, take no further cleanup action and do not recreate the checkout. Source commits remain recoverable; ignored-output preservation/provenance remains unproved, not silently asserted or a new owner approval request.
