@@ -360,6 +360,20 @@ b) (the convergence run's pick, confidence medium) Install after hnr-principal's
 
 Coordinator note: Kris deprioritised releases on 26 October ("everything should be linked locally"). This query stands or falls with the releases-and-CI decision in the roadmap sweep: if the CI and release workflows are disabled, park it with v0.14.1 left unpublished.
 
+### WEBSITE-CLOSE - The website Project has no open records
+
+**Context:** Pruning KI-WEBSITE-SITE-044 leaves the `website` Project with no open records; ki-principal's audit now warns that it needs a close-out assessment in `Streams/Projects/website.md`. The site is live on ki-design v1 and nothing else is queued.
+
+**Query:** Should the website Project be closed out?
+
+**Options:**
+
+a) (recommended, confidence medium - nothing else is queued for the site) A short close-out assessment goes into the Project note under Notes in a later pass, capturing any follow-up as a record.
+
+b) Leave the warning until website work resumes.
+
+Coordinator note: held for the action plan; not raised to Kris yet.
+
 ## Parked
 
 - PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.
