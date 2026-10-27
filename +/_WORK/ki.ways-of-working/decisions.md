@@ -677,3 +677,17 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
 - 02:28 GMT 27 October: Kris: "Yeah, we've already burnt through half the tokens already." Taken as: conserve tokens; launch nothing new overnight beyond the four runs already started, no restarts on Claude after a usage stop, keep coordinator wakes to one terse check.
 
 - 02:28 GMT 27 October: received wow-overload-draft; draft at design/overload-process.md for Kris's review, not adopted.
+
+- 02:30 GMT 27 October: wow-query-backlog applied the 27 October bulk reading of [query-sweep.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/query-sweep.md) under the 02:24 GMT window (Q1 already dropped; Q4, MOD-011-ADOPT, ANSWER-VECTOR and NAMING-TO-KI, left for Kris; WEBSITE-CLOSE untouched). Q2 parked, one line each under Parked in queries.md: STEWARD-FIELD, LEGACY-PREFIX, PARTIAL-REPOS, UNATTENDED-FIELD, UNATTENDED-AND-DUE-DATES, CLI-PREVIEW, AREA-COLUMN, REPO-STANDARDS-SET, MGIT-CACHE-SCOPE, MGIT-CACHE-FAILED, RECORD-2, FOLDER-1, COORD-7-REST, LINT-WHERE, MISSING-TOOLS, REL-X64-TIMEOUT. Q3 decided, each option a) taken under the 27 October bulk reading:
+  - SPEC-ORPHAN-OWNER, a): ki.portable-specifications owns the orphan folder; one line sent to its messages.md.
+  - RADAR-REPORT-HOME, a): ki.chezmoi owns it; REV-012 now cites the public Radar and FAQ pages plus UE-108's discussion, and UE-108 cites the public pages with the 24 October check date, one docs(roadmap) commit per repository.
+  - FALLBACK-DATE, a): 2026-12-31 stands as the HOLD-1 fallback date; nothing to change.
+  - FILENAME-0, a): move ki-design's OPEN.md to docs/OPEN.md and repoint; sent to ki.observatory's messages.md.
+  - ROUTE-1, a): ki-design adopts ki-specs under docs/specs/; sent to ki.observatory's messages.md.
+  - GH-LIVE, a): one run with the GitHub call lifted for ki-design only; sent to ki.observatory's messages.md, since this run makes no GitHub call.
+  - MIRROR-TOKEN, a): revoke the Notion integration and delete the 1Password item after chezmoi apply; parked for Kris, as Notion and credentials are outside the window.
+  - MIRROR-NOTE, a): the bulk reading is the owner approval standing in for the Enactment record; the Notion Mirror folder, its three inbound mentions and the Known Lands link are removed, the dated retirement line kept.
+  - MIRROR-SITE, a): remove the card and two data entries, regenerate SVGs and rebuild; sent to ki.website's messages.md.
+  - MIRROR-FRONTMATTER, a): HNR strips the five keys after the Notion removal; sent to hnr.sop.sites' messages.md in hnr-principal.
+  - EXTRA-WRITES, a): hook commits stand; the .rumdl.toml refresh queued as a line in this work's messages.md.
+  - RENAMED-5G, a): four one-line .ki.toml commits then hook convergence; sent to hnr.sop.5ge's messages.md in hnr-principal.
