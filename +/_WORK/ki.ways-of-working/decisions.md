@@ -760,3 +760,7 @@ Read back: complete and verify tool/MCP changes against the existing local symli
 ### FILENAME-0 - received 27 October 2026
 
 Received wow-open-note: F1 is delivered in ki-design/main on sol.local (0cf614cf2294acf6a25ddf8089ab453a2cd53b8c). OPEN.md is at docs/OPEN.md, its seven relative links resolve, the enumerated live references point to the new path, and only the Decisions board was regenerated and matches its generator output. Question and decision wording and docs/spec names are unchanged. Required hooks passed once; committed paths and exact diff checked. This completes FILENAME-0 only; ROUTE-1 and Observatory appearance remain outside the unit. No owner query or acceptance/pruning action.
+
+### LOCAL-MCP - grounding received 27 October 2026
+
+Received wow-local-mcp-grounding: the seven scoped KI MCP repositories have clean working trees and only local main; declared portable/native/mcporter command fields select Node and checkout-local dist/mcp-server/index.js. Inspected runtime sources have existing emitted counterparts at least as recent, later build-input changes concern tooling/dependencies and tests rather than runtime implementation, and declared runtime dependencies are installed locally. No additional implementation or release is warranted from this evidence. No builds, tests, provider operations, binding changes, remote calls or follow-up check were commissioned. This is local path/file/dependency evidence, not a claim of server startup, exact output-byte equivalence, running-process freshness or provider success.
