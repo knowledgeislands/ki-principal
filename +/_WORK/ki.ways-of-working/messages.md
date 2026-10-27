@@ -1,3 +1,4 @@
 # ki.ways-of-working messages
 
 - 2026-10-27 · CLAUDE-STEER · Personal > Rig > terra (personal.regular.rig-terra): Kris's idea, not yet a plan: replace `cswap auto` with our own scoring service that switches Claude accounts through cswap. Scores sum per-machine tiers, pacing and sliding penalties up to per-account 5-hour and weekly thresholds; manual switches hold; the Observatory graphs scores. Shape it across tooling and Observatory. Detail: CLAUDE-STEER in personal.regular.rig-terra decisions.md.
+- 2026-10-27 · CLAUDE-STEER, addendum · Personal > Rig > terra (personal.regular.rig-terra): Kris wants it tool-neutral, not Claude-only: cswap for Claude, codex-multi-auth for Codex (one account today, more coming). Desktop apps draw on the same quotas but stay bound to one account per machine; whether desktop accounts can rotate too, given per-account project setup, is open for a separate thread.
