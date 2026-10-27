@@ -3,7 +3,7 @@ id: ki.ways-of-working
 state: with-worker
 since: 2026-10-27T02:55:00Z
 received: 2026-10-22T07:24:00Z
-beat: 2026-10-27T06:29:04Z
+beat: 2026-10-27T06:30:24Z
 mark: 2026-10-25T01:07:00Z
 method_read: def7f055
 ---
@@ -13,9 +13,9 @@ method_read: def7f055
 ## Now
 
 - Successive confident local waves continue under the owner grants in [decisions.md](decisions.md); no release cycle or mark change.
-- CLI-160, CORE-071 and CORE-073 are Done; pruning waits for reference repairs and inaccessible retired-source evidence. BRG-004 waits for two Observatory-owned audit fixes.
+- CLI-160, CORE-071, CORE-073 and GOV-231 are Done; pruning waits for inaccessible retired-source evidence and surviving guarded references. BRG-004 waits for Observatory audit fixes.
 - Seven Project assessments are complete; MOD-011 is Now/draft with a verified exact wording proposal awaiting owner Enactment.
-- GOV-202 is delivered; new worker-inbox boundary is in independent acceptance. Tools-ki timeout verification runs, then two qualified website units; map retirement is complete locally.
+- GOV-202 is delivered for final independent acceptance; tools-ki timeout verification runs, then two qualified website units. Map retirement and worker-inbox improvement are complete locally.
 - Fresh remote reconciliation supersedes earlier local-only handoffs; the unanswered three-bundle publication proposal is redundant and withdrawn, without implying new push authority.
 
 ## Next steps
