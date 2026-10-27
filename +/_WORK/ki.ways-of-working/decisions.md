@@ -665,3 +665,11 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
 - 02:05 GMT 27 October: received wow-ci-manual. RELEASES-CI applied: CI and release workflows in 20 knowledge-islands repositories now run on manual dispatch only (commit type `chore`, as every repository's commitlint rejects `ci`); no pins, releases or settings touched. PAPERCLIP-WORKFLOWS: coordinator took option a under the no-questions steer, leaving the upstream paperclip fork's workflows as shipped; logged, not asked. Step 4 is complete.
 
 - 02:08 GMT 27 October: Kris: "I'm actually a bit disappointed in the observatory thing, so let's just go back to doing it in here. Let's just get it nailed in here." Taken as: work through the action plan and open questions in this thread, one at a time; Focus stays as built, no further Observatory work now.
+
+- 02:24 GMT 27 October: Kris: "Alright, I'm off to bed, I'm tired. Can you just give me any things you need to know before I can go to bed? I just want you to get it all done really. That's okay." Read as an unattended window and as yes to the action plan as presented, step 2 included.
+  - Window: until Kris's next message, or "stop the wake".
+  - Work: the remaining action-plan steps. Step 2 and step 6, the holding zone, including the Observatory holding area, run wow-holding-zone. Step 3, the quick wins, already running as wow-quick-wins. Step 5, the question backlog (park Q2, take Q3, leave Q4 for Kris), run wow-query-backlog. Step 7, the overload process drafted for Kris's review, run wow-overload-draft.
+  - Permitted: detached runs, commits by explicit path, fast-forward pushes, roadmap records moved to ideas (full text kept), work-package edits, messages to other works.
+  - Excluded: the standing security limits (DNS, Cloudflare, Access, routes, Zero Trust, credentials, connection-critical machine config); new software; Linear, Notion or people-facing changes; making confidential material public; releases; chezmoi apply; accepting or pruning new deliveries; canonical adoption of the overload process.
+  - Wake: the background check, at least every 5 minutes, best effort. Usage-limit stops and failed runs are reported on return.
+  - Readings: SWEEP-RELEASE-BOUND records go to ideas, not cancelled, per "we don't need to get rid of them or delete them until we've really qualified them".
