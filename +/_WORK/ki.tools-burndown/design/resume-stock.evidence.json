@@ -38,7 +38,7 @@
     },
     {
       "id": "KI-TOOL-KI-CLI-125",
-      "path": "/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-125-ki-release-contract.md",
+      "path": "/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/ideas/KI-TOOL-KI-CLI-125-ki-release-contract.md",
       "frontmatter": "\nid: KI-TOOL-KI-CLI-125\narea: CLI\ntitle: KI release contract\npurpose: capability\nproject: agent-host\nkind: deliver\nstatus: draft\nhorizon: hold\nhold:\n  reason: waiting-for\n  condition: An ARM host is needed, or vega is rebuilt\n  review: 2026-11-16\nblocks: []\nblocked_by: []\nbaseline_ref: null\ncreated_at: 2026-10-13T22:53:48Z\nupdated_at: 2026-10-14T06:52:07Z\n"
     },
     {

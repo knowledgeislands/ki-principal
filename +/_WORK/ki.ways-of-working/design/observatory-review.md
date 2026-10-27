@@ -35,7 +35,7 @@ The operation, `query-answer`, is declared like `feedback-send`: `mutate` tier, 
 
 ## Privacy
 
-The Observatory binds the loopback address and keeps its state under the user's XDG directory; the public website carries no work-package content and nothing here changes that. The only other way in planned is the tailnet read-only appearance under [KI-OBSERVA-OPS-004](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-OPS-004-tailnet-read-only-appearance.md), where `query-answer` must be refused like every other operation. Query bodies name local files, as reports do; they cross as reports cross and no answer or plan carries a path in its receipt.
+The Observatory binds the loopback address and keeps its state under the user's XDG directory; the public website carries no work-package content and nothing here changes that. The only other way in planned is the tailnet read-only appearance under [KI-OBSERVA-OPS-004](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/ideas/KI-OBSERVA-OPS-004-tailnet-read-only-appearance.md), where `query-answer` must be refused like every other operation. Query bodies name local files, as reports do; they cross as reports cross and no answer or plan carries a path in its receipt.
 
 ## What would change outside the Observatory
 
