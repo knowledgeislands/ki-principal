@@ -1010,3 +1010,9 @@ Every authorised current run is DONE; no watcher or scheduled wake remains neces
 ### Held-object preservation received - 27 October 2026, 07:43 GMT
 
 Received wow-preserve-held-object: the exact local retention ref is verified with its own reflog and no other ref, HEAD, index or tracked-file change. This protects an existing held object locally; it is not feature admission, a release tag, code publication or remote backup. All current runs have exact DONE status and no further work is launched. The final publication remains Principal documentation/history only; older local-code refs are not included.
+
+### Typed three-part work-id proposal - 27 October 2026, 09:56 GMT
+
+Kris: "I'm coming back to you very soon by the way, but I was just thinking about something else which is that noticing the way that the packages are being used, the work packages that is, I'm wondering if we should maybe have first the first part being the territory, the second part being the type of work it is related to, so like a project one which would be like a PRJ, and then a state of play one, which would be SOP. We've obviously already got regular, so I think having the three parts of it would probably make the most sense, so we can see them in groups together clearly like that."
+
+Taken as a proposal for design, not approval to rename or migrate. Territory/type/name would make groups visible; stored casing and main SoP/regular umbrella suffixes remain design choices. Dispatched wow-work-id-shape for only the concise stage-one brief in design/work-id-shape-brief.md under ki-work-design, grounded in the current model. No new schema, canonical change, implementation, migration, adoption or mark is authorised. The current work id and all old names stay valid while the shape is discussed.
