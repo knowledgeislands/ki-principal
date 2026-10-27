@@ -1,0 +1,26 @@
+---
+work: ki.ways-of-working
+run: ways-of-working
+agent: wow-dispatch-lesson
+written_at: 2026-10-27T03:13:46.586086+00:00
+---
+
+# Task: record the resolved incomplete-brief dispatch incident
+
+The repository owner's standing AGENTS.md instruction is: "Log a session error in Mistakes and Lessons, apply the fix and record the resolved lesson." This is a bounded single-file record of an error made and fixed in this session, not a new standard, policy or roadmap item. Authority and current unattended work are recorded under CONFIDENT-UNATTENDED in +/_WORK/ki.ways-of-working/decisions.md.
+
+Only permitted repository content path: /Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Operations/Mistakes and Lessons.md.
+
+Facts: the coordinator tried to prepare wow-extra-writes after guessing the fixed convergence set had 18 repositories. An exact TOML predicate correctly found 13, so preparation failed. The next independent launcher call was nevertheless allowed to run, dispatching the unfilled skeleton. That worker correctly refused to infer scope and changed no repository files. The coordinator acknowledged the mistake, let the worker finish without stopping it, prepared the exact 13-path brief as wow-extra-writes-2, guarded launch on successful preparation and checked that the task placeholder was absent. The corrected worker delivered all 13 configuration units. The underlying lesson is to make launch conditional on successful preparation and validate the concrete executable brief; do not guess exact scope from truncated output.
+
+Read the file's existing shape and the relevant ki-authoring/ki-git instructions; append one concise dated resolved-lesson entry in its existing style, British English and ASCII hyphens. Keep every old entry intact; no reformatting of the whole file. Verify only the entry diff, required markup check and normal commit hooks. No tests, builds, audits beyond mandatory hooks, new record, broader procedure rewrite or extra incident log. Respect shared staging and use an explicit-path Conventional Commit. Inspect git show --name-status afterward. Low-risk documentation publication is authorised by the standing rule only after fetch/reconciliation and review of every unpublished ancestor; stop for divergence, unexpected code/high-risk ancestors or contested staging. Unrelated untracked files do not need deleting to preserve or publish uncontested committed documentation. If publication is blocked, report a precise sol.local/main handoff rather than cleaning unrelated files.
+
+Do not edit coordinator package files. Give a short report of the resolved incident and its canonical path.
+
+Do not use background subagents. Never end session while waiting.
+
+**Report** to `/Users/krisbrown/.local/state/ki/agents/ways-of-working/wow-dispatch-lesson.report.md`, in the run's state folder and nowhere else, as an owner report: the ki-coordination report heading of the work you report to with `› <run name>` added, `# [<Theme>](<local theme page>) › [<Project>](<local Project note>) › <run name>`, the bold `**🤖 → 👤 Handoff to supervisor · Run report at <local time> · last mark <local time>**` line, adding `· blocked` after the state where you send back with a blocking query, and one `---`, then `## Done`, `## In Progress` and `## Queries`, each query carrying **Context**, **Query** and lettered **Options** as separate paragraphs with a blank line between them, each option its own paragraph, `a) (recommended, confidence <level> - <reason>)` first, no bullets and no reply block; where the brief asks for findings, add `## Findings` between `## In Progress` and `## Queries`, each finding a `### <TAG> - <title>` heading opening with its **Goal**, **Scope** and **As of** lines before any table, and write it also to the finding file the brief names; then, for coordinating work, the glyph banner the ki-coordination [Banner](../../../change-management/ki-coordination/references/standards-coordination.md#banner) section prints, its `###` state heading, counts line and `- [state] what · holder · since` list, closing with one thread line, `🧵 Coordination thread · <label> (<id>)` for Project work or `🧵 State of play thread · <label> (<id>)` for territory work, using the work you report to, and no send or resume line; a run report to a conversational session or ad hoc work has no mark in its form line and no banner. The report's first non-blank line is its `#` heading, after front matter if the report has any. Run tools quietly under the ki-coordination [quiet-tools rule](../../../change-management/ki-coordination/references/standards-coordination.md#quiet-tools): run Git with `-q`, never paste gate, audit or Git output, and report each outcome in one line. Owner reports, run reports and banners omit routine push state and other sessions' stacked commits; if your own unit could not be published because its push failed, Done names the affected unit and reason. A hold report keeps nothing about pushes beyond a failure.
+
+Temporary output goes in <temporary>/, outside every repository; never remove it yourself, ki agent close empties and removes it, so home what must survive first. Write nothing into `+/_WORK/ki.ways-of-working/` beyond your report.
+
+Do not use background subagents. Never end your session while waiting.

@@ -728,3 +728,19 @@ class: operational
 ### EXTRA-WRITES - received 27 October 2026
 
 Received wow-extra-writes-2: all 13 exact remaining .rumdl.toml units committed, enabling MD005 and MD075 only; parsed values preserved otherwise. Each hook-backed commit contains its intended config path only. Twelve repository units published; ki-principal publication handed to this coordinator because of unrelated untracked files, which remain out of scope and need not be removed to publish uncontested committed history. The queue line is fulfilled and removed. No new owner query. The first incomplete-brief attempt changed no repository files; its missing-scope query was resolved by the concrete replacement brief, not sent to Kris.
+
+### CONFIDENT-UNATTENDED - exact independent follow-through
+
+Received wow-unattended-plan: no Ready roadmap record exists outside the eight already held by quick-wins. No new record or idea is adopted. Independently approved follow-through is frozen to three non-record units in their concrete briefs: O1/OPENER-REBOOT (two tools-ki prompt/test paths, after quick-wins and SUMMARY-VISIBLE); F1/FILENAME-0 (the enumerated ki-design OPEN-note move and live links only); M1/MIRROR-SITE (one website projects.json5 card-removal slice only). Readiness, authority and focused verification are in those briefs, not inferred from a clean build. Blocked policy/licensing/model decisions and the full map/specification migrations remain untouched.
+
+Dispatch is serialised: mirror-card waits for the resolved-lesson worker; open-note waits for mirror-card; opener-reboot waits for quick-wins and tap-log. These limits prevent file/Git contention and keep model concurrency bounded. Thirteen rumdl configurations already enable the required rules; non-semantic template-comment drift is not another implementation pass. No additional build/review round is commissioned.
+
+Initial selected-repository snapshots from the read-only manifest, sol.local, 2026-10-27T03:13:30Z (local main and cached origin/main; workers revalidate before editing):
+
+| Repository | Branch | Local main | Cached origin/main |
+| --- | --- | --- | --- |
+| apps-knowledgeislands.info | main | b30012765da5af39f94e20b59f6145781c58c5c9 | b30012765da5af39f94e20b59f6145781c58c5c9 |
+| ki-design | main | b9ab7bb3afe13c9d0d4a43b632069dcf49a26525 | b9ab7bb3afe13c9d0d4a43b632069dcf49a26525 |
+| tools-ki | main | 631deaf95a797d69f64644ac3734f0d3bb775cf8 | 631deaf95a797d69f64644ac3734f0d3bb775cf8 |
+
+The incomplete-brief incident is now recorded as resolved in Admin/Operations/Mistakes and Lessons.md by wow-dispatch-lesson; its verified commit changes only that log. Its report raises no query. No running worker was stopped.
