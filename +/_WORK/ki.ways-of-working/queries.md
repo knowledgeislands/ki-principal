@@ -350,6 +350,16 @@ a) (recommended, confidence high - reviewed: the blind review found the lockfile
 
 b) (the convergence run's pick, confidence medium) Install after hnr-principal's other session has finished and converge their hooks, accepting that this adds new development tools to all three.
 
+### REL-X64-TIMEOUT - darwin-x64 packaging fails on three five-second test timeouts, not memory
+
+**Context** On the macos-latest (Intel) runner, `agent-control.test.ts` now runs to the end, but three tests hit vitest's 5000 ms default: `rereview-2: busy event publication after dispatch preserves a started worker`, and `third-review controls retain receipt with pending stop event` and `pending blocked event`. Each holds an events lock while the CLI runs its bounded retry loop (100 retries at 20 ms, about 2 s real time per busy transaction); the three make two such passes and take 4.3 s locally on Apple silicon, so they land at 5.02 to 5.05 s on the slower Intel runner. Both attempts failed identically, so this is a margin, not noise. The timeouts pre-date this release; they were hidden because the file used to crash earlier. A fix needs a new commit on `main`, and `v0.14.1` is a pushed tag that this run may not move, so the next release would be v0.14.2 and v0.14.1 would stay unpublished like v0.14.0. The brief says to raise rather than widen scope.
+
+**Query** How should the darwin-x64 package job get past the three timeouts so ki can publish?
+
+**Options** a) (recommended, confidence high - both failures are identical and deterministic, the suite is otherwise green on all three targets, and the change is test-only) A bounded run gives those three lock-wait tests an explicit timeout (for example 30 s, or the file's lock tests generally), prepares v0.14.2, tags it and runs the Release workflow; the fleet pins then take v0.14.2 instead of v0.14.1. b) (confidence medium - trims the real wait the tests sit in, but touches `src/core/agent/locking.ts` retry defaults or injects a budget through `KiContext`, a product change under `ki-self`) Make the busy-retry budget injectable so tests wait less, then release v0.14.2. c) (confidence low - the brief requires every target to run the full suite) Package darwin-x64 without the test step. d) (confidence low - needs a paid or unavailable runner label and does not remove the margin) Move the darwin-x64 package job to a larger macOS runner.
+
+Coordinator note: Kris deprioritised releases on 26 October ("everything should be linked locally"). This query stands or falls with the releases-and-CI decision in the roadmap sweep: if the CI and release workflows are disabled, park it with v0.14.1 left unpublished.
+
 ## Parked
 
 - PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.
