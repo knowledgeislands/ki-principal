@@ -15,7 +15,7 @@ method_read: bedbb4d9
 - Successive confident local waves continue under the owner grants in [decisions.md](decisions.md); no release cycle or mark change.
 - CLI-160, CORE-071 and CORE-073 are Done; pruning waits for reference repairs and inaccessible retired-source evidence. BRG-004 waits for two Observatory-owned audit fixes.
 - Seven Project assessments are complete; MOD-011 is Now/draft with a verified exact wording proposal awaiting owner Enactment.
-- Harness caller repair and tools-ki timeout margin are running; website consumer refresh is complete locally and two qualified local-efficiency units follow.
+- GOV-202 is delivered Awaiting review; tools-ki timeout margin runs, then two qualified website local-efficiency units. Consumer map retirement is complete locally.
 - Fresh remote reconciliation supersedes earlier local-only handoffs; the unanswered three-bundle publication proposal is redundant and withdrawn, without implying new push authority.
 
 ## Next steps
