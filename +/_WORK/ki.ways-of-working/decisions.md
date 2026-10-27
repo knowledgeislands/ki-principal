@@ -866,6 +866,10 @@ Dispatched wow-project-assessments for factual close-out assessments in exactly 
 
 Dispatched wow-website-snapshot-finish: existing supported fresh website snapshot route, read-only anonymous public GitHub visibility and matched page provenance, local render and one build, no release/deploy/push. This lifts only the previous task's self-imposed offline-only restriction, within the existing approved retirement. No invented schema, private-source access or redesign.
 
-### Reference prerequisite follow-through - 27 October 2026, 05:37 GMT
+### Reference prerequisite follow-through - 27 October 2026, 05:34 GMT
 
 Queued wow-reference-followthrough after wow-mod011-resume. Explicit scope is the prepared tracked reference manifest for Done CLI-160 and CORE-071/073, exact CORE047 link repairs, and two receipt-route messages to Observatory and chezmoi stewards; no other steward files. Normal existing Git read access to exactly the three known retired KI repositories is authorised for historical reference evidence, private runtime only, no auth changes or archived execution. A previous public-client 404 is not proof of absence. Preserve the private untracked report, commit repaired links before eligible dedicated prune, and retain any Done record whose actual guard remains. No additional builds, release or deployment is commissioned.
+
+### Revisit independent parked slices - 27 October 2026, 05:35 GMT
+
+Queued the read-only wow-parked-independent-slices after the harness continuation. It qualifies only REL-X64-TIMEOUT, REPO-STANDARDS-SET and AREA-COLUMN against actual current authority and source. An old release/pin dependency alone no longer prevents useful local independent delivery under Kris's explicit local-symlink/no-release instruction; genuine choices, ownership and holds remain. It performs no implementation, test/build, roadmap transition or provider mutation. Exact high-confidence scopes return before another delivery is launched.
