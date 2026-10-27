@@ -928,3 +928,9 @@ The following original operational questions are explicitly disposed here, witho
 - CLI160-EXTRA-FILES and CLI160-WRITE-WINDOW: superseded by bounded preservation follow-ups; no deletion or archive was performed by the blocked attempts, and the final attempt found the checkout/branch already absent.
 - CLI160-METADATA-CAPTURE: the unavailable API approach was superseded by the authorised original-inode alternative, which found no remaining target. No claim of captured metadata or verified archive is made.
 - CLI160-ALREADY-ABSENT: receive the observed absent-path/branch result, take no further cleanup action and do not recreate the checkout. Source commits remain recoverable; ignored-output preservation/provenance remains unproved, not silently asserted or a new owner approval request.
+
+### Minimal-verification steer and control check - 27 October 2026, 06:14 GMT
+
+wow-timeout-local reported all six target variants complete, then a local secondary-tooling-link setup failure and a broad coverage restart. The coordinator sent an IMPORTANT verification steer: preserve actual passes, correct setup and rerun failed cases plus remaining required type/lint/hooks, not another unchanged aggregate unless an exact current rule forbids equivalent combined evidence. It does not stop the agent/task or claim an unacknowledged steer was applied. Current status still describes a broad rerun, so no false minimal-verification success is reported.
+
+Dispatched read-only wow-live-steer-check to identify supported live-inbox delivery and direct-held capacity-dependency controls, without any stop/cancel/relaunch, identity/prompt/status rewrite, false DONE or product mutation. Its purpose is to find a documented safe path or report an exact limitation, not invent control authority. Existing workers and bindings remain intact.
