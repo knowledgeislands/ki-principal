@@ -11,88 +11,84 @@ tags:
   - topic/knowledge-islands
 priority: medium
 size: m
-status: draft
+status: ready
 horizon: now
 blocks: []
 blocked_by: []
 baseline_ref: null
 created_at: 2026-10-26T22:13:22Z
-updated_at: 2026-10-27T05:37:23Z
+updated_at: 2026-10-28T02:23:28Z
 ---
 
 # Amend the Work Process Note and GDR-KI-PRINCIPAL-009 to the Assigned-Package Cascade
 
 ## Goal
 
-The [Work Process](<../../Pillars/Philosophy/Model/Processes/Work Process/Work Process.md>) note and [GDR-KI-PRINCIPAL-009](../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md) describe the work model as Kris decided it on 25 and 26 October 2026: one State of play thread may look after several Project packages by explicit, committed assignment and acknowledged handover; each package keeps its own state, mark, queries and decisions; every package below the territory's main work names its coordinating parent; a host requirement is a fact about the work, never a committed seat; and the commit cadence and standing push rule replace "only sends and receives commit". Both documents say the same thing as the harness standards at revision `1af72f2e`, each citing the other rather than restating it.
+Amend the [Work Process](<../../Pillars/Philosophy/Model/Processes/Work Process/Work Process.md>) and [GDR-KI-PRINCIPAL-009](<../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md>) together to state the approved assigned-package model, compatible record promotion and territory discovery, and the approved territory/type/name identity target with explicit coexistence and reader-before-writer gates.
 
 ## Context
 
-The ways-of-working Project designed the shape under `ki-work-design`: the brief, two independent reviews and the merged [model shape report](<../../+/_WORK/ki.ways-of-working/design/model-shape-report.md>) of 25 October 2026. Kris decided CASCADE-STEWARD, CASCADE-REPORT, RELATIONS, HOST-SEAT and HOST-TARGET on 25 October, each as its recommended option, with COMMIT-CADENCE and PACKAGE-PUSH the same night, as the [ways-of-working decisions log](<../../+/_WORK/ki.ways-of-working/decisions.md>) records. Harness commit `1af72f2e` carries them in `ki-coordination`, `ki-work-package`, `ki-work-roadmap` and `ki-delegation`, with target dates (DUE-FIELD) and the package homes, leaving STEWARD-FIELD a marked placeholder.
+Kris decided CASCADE-STEWARD, CASCADE-REPORT, RELATIONS, HOST-SEAT and HOST-TARGET on 25 October, COMMIT-CADENCE and PACKAGE-PUSH that night, and SINGLE-THREAD on 26 October. The [model shape report](<../../+/_WORK/ki.ways-of-working/design/model-shape-report.md>) and [prior wording](<../../+/_WORK/ki.ways-of-working/design/mod011-wording.md>) are evidence, not patches to apply blindly. The [current approved plan](<../../+/_WORK/ki.ways-of-working/design/work-id-shape-plan.md>) defines P-model and its separate reader and migration dependencies.
 
-The report's rollout plan names, as its second step, one Knowledge Islands Principal record amending the Work Process note's Levels, inbox, Words and "Git is the logbook" sections and GDR-KI-PRINCIPAL-009 in place. Kris answered SINGLE-THREAD a) on 26 October 2026 at 21:25 GMT, read back in the decisions log as "capture the Principal record amending the Work Process note and GDR-KI-PRINCIPAL-009 through the Enactment Process, and open a one-wave Valle Armonia pilot on one named VA Project package". This is that record; the pilot is proposed to Valle Armonia's State of play by a message, not by this record.
+The [owner log](<../../+/_WORK/ki.ways-of-working/decisions.md>) records Kris's 28 October 2026 approval: "yes to both, although there are changes from my other machine on HNR and some others..." The logged read-back approves the written model and territory/type/name pattern. Its later "Approved plan received; prepare only safe missing work" entry and this run's explicit brief authorise a candidate on an isolated branch only. They do not authorise primary integration, publication, renames or writes to HNR or other stewards' packages. The factual other-machine publication question gates integration, not independent candidate preparation; neither settled approval is reopened.
 
-The Work Process note already carries the commit cadence and standing push wording from the earlier amendment that cited COMMIT-CADENCE and PACKAGE-PUSH; this record checks the rest of the note against the decided model rather than assuming the gap.
+The plan's directly checked HNR METHOD provenance supports a separate Project note even for one motivating record, principal-default package homes with declared exceptions, and territory discovery from Charter, governed inventory and exact registry bindings. It does not merge record and Project identities or transfer repository ownership. Separately source-supported interactive flow permits persisting answers before dispatch and continuing independent requests within existing authority; it changes no report policy.
 
 ## Boundary
 
-- In: the Work Process note's Levels and forms of work, Homes, Routing and stewardship, Words and Git is the logbook wording; GDR-KI-PRINCIPAL-009's Decision and Consequences, amended in place and dated, with the prior wording kept as history in Git only. Both are canonical, so the exact wording goes through the [Enactment Process](<../../Admin/Operations/Processes/Enactment Process.md>) and is confirmed before it is written.
-- In: the Glossary's thread and session entries where the note holds them, so a thread is who acts on a package and a session only the channel.
-- Out: STEWARD-FIELD, the assignment's field and file, which stays open with Kris; until it lands, the assignment is logged in the stewarding work's decisions, as the harness standard says. The record notes the placeholder and does not choose for it.
-- Out: the harness standards, `tools-ki` readers, the Observatory and `ki agent`; each is handled by its own repository under the rollout plan's third and fourth steps.
-- Out: the Valle Armonia pilot and its exit conditions, which run in the va package; its lessons may feed a later amendment, not this one.
-- Out: any change to the seven states, the roles, the banner or the roadmap mapping, which the decided model leaves as they are.
+- In: exactly this existing record, Work Process and the existing GDR, dated and amended in place. Cover cascade, acknowledged assignment/handover, package versus thread, parent/covers, per-package marks and holds, reporting homes, record routing/promotion, package homes and discovery, host requirement versus seat, existing cadence and conditional typed identities.
+- Out: all five governing package files and all working design files; new records/GDRs; package creation, rename or migration; primary integration/publication; HNR and other stewards' folders; harness/CLI/Observatory code; pilot execution or acceptance.
+- Out: AT-REST implementation or any eighth state; STEWARD-FIELD encoding; account steering; glyph/report-policy changes; host syntax; guessed roots or reverse-domain repository renaming. Preserve seven states, roles and roadmap mapping.
+- Stored type spellings, default suffixes and compatibility mechanism remain delivery choices for receiving owners; only the three-part target is settled here. No consumer support is claimed.
 
 ## Current state
 
-The existing amendment is selected into Now as a draft through ki-next under the current owner authority and coordinator adoption-timing reading: keep bringing deferred work back, consolidate ways-of-working functionality and act on high confidence. This takes the already-decided/live amendment forward now; it is not a fabricated option-a answer. The original writer is DONE and the seven required Project assessments are complete without Project closure. The actual base and Streams preflight cleared on 27 October 2026 without failures or warnings.
-
-The harness carries the decided cascade; the canonical Work Process and GDR still need the bounded amendment. The [proposed wording](<../../+/_WORK/ki.ways-of-working/design/mod011-wording.md>) is a reviewable working-area input only. Exact wording and plan approval remain with Kris through Enactment, so this record stays draft, with no implementation baseline or invented readiness.
+Ready for the expressly authorised isolated candidate. Actual source and index checks found no contested tracked path; the existing Principal merge remains an ancestor and queues/newer cadence are retained. Base adapter selection and Streams gates passed without failure or warning. The three allowed inputs were frozen before mutation by full source commit and SHA-256 manifest in the run's state folder. This Ready commit is the immutable implementation baseline; baseline_ref stays null until execution begins.
 
 ## Steps
 
-- [ ] Obtain Kris's Enactment review of the exact two-document wording and bounded plan, keeping STEWARD-FIELD excluded and pilot conditions with rollout work; only then consider Ready through ki-plan.
-- [ ] Re-ground both canonical files and the record, confirm the approved patch still matches, then use the authorised implementation lifecycle for this record.
-- [ ] Amend the Work Process note and GDR-KI-PRINCIPAL-009 together, in place and dated, preserving identities and decided scope; introduce no assignment field or host syntax.
-- [ ] Verify Markdown, exact-case relative links, adapter integrity and semantic parity against the approved model; retain excluded pilots and repository-owned rollout authority.
-- [ ] Present implementation evidence for separate review and acceptance; do not self-accept, close a Project or prune.
+- [x] Ground the bounded plan in actual committed owner approval, current sources, HNR provenance and native adapter gates; freeze the three inputs.
+- [ ] Commit this Ready baseline on the isolated candidate branch before canonical mutation.
+- [ ] Re-ground and amend both canonical documents together, preserving the existing cadence and all excluded state/reporting rules.
+- [ ] Run one sufficient scoped semantic/link/adapter/authoring check and required hooks using existing local tools; verify exact paths and protected-source preservation.
+- [ ] Add the six-part review packet, move only this record to awaiting-review on the candidate and stop before integration or acceptance.
 
 ## Files touched
 
-Planning: this exact existing record and [mod011-wording.md](<../../+/_WORK/ki.ways-of-working/design/mod011-wording.md>) only. Proposed later implementation, only after Enactment approval: [Work Process](<../../Pillars/Philosophy/Model/Processes/Work Process/Work Process.md>) and [GDR-KI-PRINCIPAL-009](<../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md>). No package files, findings, skills or other records belong to this run.
+Exactly this record, [Work Process](<../../Pillars/Philosophy/Model/Processes/Work Process/Work Process.md>) and [GDR-KI-PRINCIPAL-009](<../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md>). No working design or governing package file is edited. Runtime evidence/report stays outside the repository.
 
 ## Verify
 
-Run `ki repo audit --skill ki-work --repo <git-root>` and the actual selected `ki-repo-kb-streams` adapter preflight without any FAIL/WARN bypass. After shaping, run the focused roadmap/Streams and authoring checks over the changed paths and exact-case local-link assertions, including proposed canonical links in their destination context. Check the proposed patch with `git apply --check` without applying it. Required commit hooks must pass; inspect post-hook changed names against the explicit two-path allowance. Semantic review must cover assignment/handover, per-package moves and marks, reporting homes, routing without authority, parent/covers, host boundaries, cadence and publication, with STEWARD-FIELD and pilots excluded.
+Use current-source base selection and Streams preflight evidence, then a single scoped final check over the three changed files: exact-case local links (including heading fragments), Markdown/authoring, selected-adapter record integrity, semantic parity and exclusions. Required hooks run with existing installed local executables; no installer or network fallback. Inspect each post-hook commit's actual changed names. No product tests, build, estate audit, release or deployment. The old patch is provenance only; fresh exact-source predicates replace git apply --check. Preserve the original created_at; advance updated_at for each lifecycle mutation.
 
 ## Dependencies / blocks
 
-No record dependency is asserted: the seven assessments repaired preflight without closing Projects. Necessary owner approval of this exact wording and plan remains an Enactment gate, not a fabricated completed prerequisite. STEWARD-FIELD remains unresolved but outside the proposed amendment; no choice is made for it. The Valle Armonia and host pilots and other repositories' readers/standards remain separate rollout work, not this run's delivery or acceptance.
+No record build-order dependency is asserted. The isolated documentation candidate is independently deliverable under the explicit approval. Integration into primary main and publication await confirmation of affected other-machine source safety and fresh source/index/writer checks; do not infer completeness from a clean checkout. Harness and tools-ki owners must prepare compatible old/typed identity readers and parent/covers placement before typed writers; actual migration additionally requires receiving-steward acknowledgement, a fresh manifest, bounded mutation authority, quiescence and rollback. Preserve old-ID readability and lookup indefinitely. No package rename, reader implementation, pilot or other-territory rollout is delivered here.
+
+## Delegation
+
+This detached run is the authorised delivery unit; no subagents. Retain its isolated branch/worktree as the reviewable candidate. Do not self-integrate, accept, close or prune. Stop on source drift, contested paths, a failing native gate or a genuinely new material choice; deliver only independently useful authorised candidate material if a real gate remains.
 
 ## Documentation impact
 
 ### Decision Records
 
-Amend the existing GDR-KI-PRINCIPAL-009 in place after owner approval, with a dated amendment and retained Git history; no new Decision Record or new model acceptance.
+Amend the living GDR in place, with its date current; no historical amendment appendix or new GDR.
 
 ### Specifications
 
-No software contract, host syntax or assignment-field schema is introduced. Describe the already-decided cascade and preserve the seven states and roadmap mapping.
+State the approved model and conditional identity target without claiming reader support, choosing storage syntax or changing the seven states.
 
 ### Guides
 
-Bring the canonical Work Process narrative into line with the decided cascade, citing harness operational standards and retaining the existing cadence rather than duplicating its mechanism.
+Align Work Process with the decided cascade, directly authorised home/promotion/discovery clarifications and existing cadence; operational details remain with their owning harness standards.
 
 ### Roadmap
 
-Keep this one amendment as Now/draft while approval is pending. Do not create records, close Projects, adopt other repositories' work or accept pilots; later delivery and acceptance remain separate lifecycle moves.
+This record alone advances from Ready through delivery to awaiting-review on the candidate. Primary main retains its current record until separately authorised integration. Acceptance and pilots remain separate.
 
 ## Discussion
 
-- Shape the amendment as one pass over both documents so the note and the record cannot drift apart; the GDR gains a dated amendment paragraph in its Decision rather than a new record, since the model is the same model extended.
-- The decided model's eight headings in the report, Package and thread, Stewardship, Runs, Records, Relationships, Hosts, Shared writing and Reporting, are the checklist for the note; the report's Agreement and difference table gives the evidence for each.
-- Proposed planning boundary: pilot exit conditions stay with the rollout plan; the canonical amendment acknowledges that boundary without performing or accepting a pilot. Kris reviews this wording with the bounded plan before Ready.
-
 ### Governance
 
-This record adheres to the [Enactment Process](<../../Admin/Operations/Processes/Enactment Process.md>). Kris's SINGLE-THREAD a) answer of 26 October 2026 authorises its capture; adoption, the exact wording and acceptance are separate owner decisions.
+This record adheres to the [Enactment Process](<../../Admin/Operations/Processes/Enactment Process.md>). The 28 October logged owner approval and explicit isolated-candidate brief settle this bounded plan and wording direction. They grant no integration, publication, migration or self-acceptance.
