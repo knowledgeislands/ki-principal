@@ -1,3 +1,3 @@
-# ki.regular.main decisions
+# ki.reg.main decisions
 
 None.

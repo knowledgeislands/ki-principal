@@ -19,7 +19,7 @@ method_read: null
 
 ## Next steps
 
-1. New regular work, named in the brief; no checkpoint or thread exists yet.
+1. Take new regular work as it arrives, seeding each ad hoc piece as `ki.reg.<slug>`.
 
 ## Held
 

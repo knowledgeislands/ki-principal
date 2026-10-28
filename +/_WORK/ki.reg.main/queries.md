@@ -1,4 +1,4 @@
-# ki.regular.main queries
+# ki.reg.main queries
 
 ## Open
 
