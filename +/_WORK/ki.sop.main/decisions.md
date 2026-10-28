@@ -89,3 +89,8 @@
 - ACCEPT-WEBSITE a), ACCEPT-WOW a) (KI-PRINCIPAL-OPS-014 and KI-PRINCIPAL-MOD-009, oldest first) and ACCEPT-RIG a): review and accept now through `ki-accept`; the reviews raised the parked ACCEPT-KI-WEBSITE-SITE-044, ACCEPT-KI-PRINCIPAL-OPS-014, ACCEPT-KI-PRINCIPAL-MOD-009 and ACCEPT-KI-TOOL-RIG-CORE-062 queries.
 - ACCEPT-OBSERVATORY a): review and accept KI-OBSERVA-BRG-005 and KI-OBSERVA-VIS-030 through `ki-accept` once ki.observatory has fixed BRG-005's structure; carried by the parked ACCEPT-OBSERVATORY query.
 - HOLD, read back as taken (Kris, 02:00 GMT): "clean up your work packages, making sure everything is compacted the way it needs to be and tidied up in there. Ensure that anything which is outstanding is pushed back into the work packages and/or roadmap items so that we can pick those up effectively. Drain down." State of play goes on hold, paused, once drained.
+
+## 2026-10-28 · MGIT-CHAIN and SYNC-RECIPE (Kris, conversational)
+
+- MGIT-CHAIN, read back as taken: "I like the chain thing, so we should add that pretty quickly ... just get ahead and do that right now." Build `mgit chain` in tools-mgit now: steps split on `--then` with no quotes, each repository running its steps in order and stopping at the first failure, with recipes. Capture, plan and deliver one record to Awaiting review; no acceptance and no release.
+- SYNC-RECIPE, read back as taken: `mgit sync` should carry the Git-level tune-up and tidy practice used across this work, as a recipe over shared safe steps on the chain engine. The dotfiles syncing and the regular syncing activity should then use it. Routed to ki.prj.tools-burndown and ki.prj.chezmoi as messages.

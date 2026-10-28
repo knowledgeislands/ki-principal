@@ -1,10 +1,10 @@
 ---
 id: ki.sop.main
-state: on-hold
+state: with-worker
 hold:
   reason: paused
   release: when Kris says resume
-since: 2026-10-25T02:17:34Z
+since: 2026-10-28T22:39:34Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-10-25T02:17:34Z
