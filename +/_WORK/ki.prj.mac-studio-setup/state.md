@@ -1,6 +1,9 @@
 ---
 id: ki.prj.mac-studio-setup
 state: on-hold
+hold:
+  reason: paused
+  release: Kris says resume
 since: 2026-10-20T01:10:00Z
 received: 2026-10-19T22:27:00Z
 beat: null

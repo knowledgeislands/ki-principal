@@ -1,6 +1,9 @@
 ---
 id: ki.prj.baseline-rollout
 state: on-hold
+hold:
+  reason: paused
+  release: Kris says resume
 since: 2026-10-20T01:05:54Z
 received: 2026-10-19T23:00:07Z
 beat: null

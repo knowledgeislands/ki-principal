@@ -1,6 +1,9 @@
 ---
 id: ki.prj.timelines
 state: on-hold
+hold:
+  reason: paused
+  release: Kris says resume
 since: 2026-10-20T01:04:51Z
 received: 2026-10-19T22:26:30Z
 beat: null

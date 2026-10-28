@@ -1,6 +1,9 @@
 ---
 id: ki.prj.portable-specifications
 state: on-hold
+hold:
+  reason: paused
+  release: Kris says resume
 blocking: false
 reason: take stock on ways of working
 release: Kris says resume
