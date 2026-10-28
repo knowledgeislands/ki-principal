@@ -6,7 +6,10 @@ title: 'KI > Foundations > Estate factorisation'
 project: estate-factorisation
 theme: foundations
 description: >-
-  Closes out the estate factorisation: consistent repository vocabulary, ownership seams, MCP policy evidence and one alignment item per surviving repository. Takes the Project's close-out gates and the reconciliation of its receivers' outcomes. Not taking new units while on hold. Not for rollout (ki.baseline-rollout) or the `ki` CLI (ki.tools-burndown).
+  Closes out the estate factorisation: consistent repository vocabulary, ownership seams, MCP policy evidence and
+  one alignment item per surviving repository. Takes the Project's close-out gates and the reconciliation of its
+  receivers' outcomes. Not taking new units while on hold. Not for rollout (ki.prj.baseline-rollout) or the `ki` CLI
+  (ki.prj.tools-burndown).
 worker: agent
 supervisor: owner
 created_at: 2026-10-08T08:35:00Z
