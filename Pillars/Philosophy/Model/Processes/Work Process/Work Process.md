@@ -23,7 +23,7 @@ Fallback, if the diagram does not render:
 - Territory work `ki`: the hub, the state of play coordinating the coordinations
   - shows Kris with you, stuck, blocked and on hold
 - Two forms of work, side by side beneath it
-  - Regular work `ki.regular`: recurring, defined in the Capital, self-coordinating; state of play may discuss it; creates work items
+  - Regular work `ki.regular`: recurring, defined in the Capital, self-coordinating by default; state of play may discuss it; creates work items
   - Project work `ki.ways-of-working`: finite; worker to Kris, supervisor to its runs; territory work sends direction down and it sends attention up
 - Theme `Model`: a label either form, or ad hoc work, can carry; not a level
 - Kris, supervisor, to the side: receives with `with me`; Project work sends to supervisor, and Kris replies
@@ -45,14 +45,16 @@ Work lies at three levels. Kris named the two forms at the middle one: "regular 
 | Project work | `ki.<project>` | Coordinates one Project's work items and runs, and briefs runs | Finished when the Project closes |
 | Work item | the record's id | One record in any repository, executed by a run or a person | `done` or `cancelled` |
 
-**Regular work is self-coordinating.** It needs no coordination thread, in Kris's words "because it is sort of self-coordinating, but there's no reason why the state of play thread can't sort of talk about it". An occurrence is started by its schedule or by whoever needs it; state of play may discuss regular work but does not necessarily dispatch it. A Project's own recurring checks, needed only while it runs, stay with the Project and end with it.
+**Regular work is self-coordinating by default.** It needs no coordination thread, in Kris's words "because it is sort of self-coordinating, but there's no reason why the state of play thread can't sort of talk about it". An occurrence is started by its schedule or by whoever needs it; state of play may discuss regular work but does not necessarily dispatch it. A Project's own recurring checks, needed only while it runs, stay with the Project and end with it.
+
+**Coordination is an optional, explicitly opened session role on any valid work package.** The owner selects its scope and authority; a bounded episode names its end condition. Package existence, type, id, backlog size or a repository capability declaration never opens a coordinator automatically. Regular work remains regular during a coordinating episode, and individual captures and other bounded work remain conversational. An explicitly opened coordinator may brief detached runs within the package's existing authority and follows the responsive-coordinator rules. State of play specialises coordination across its explicitly assigned packages. Ending an episode does not itself change a mark, agree a hold, finish work or abandon runs.
 
 **The theme is a label, not a level.** Regular work, Project work or an ad hoc piece of work may carry one. Each theme has a page in `Streams/Themes/` saying why it is a theme, what matters about it, its general direction and the guidance common to the work under it. It holds no work, has no holder and no session, and views group by it. No identifier carries a theme, so relabelling never renames anything.
 
 **The cascade rule.** Work goes down to the lowest level that can do it, and coordination sits above execution:
 
 - territory work coordinates regular work and Project work;
-- regular work and Project work each send work items down to any repository, and Project work also briefs runs and hands work to other work;
+- regular work and Project work each send work items down to any repository; an explicitly opened coordinating session on either form may also brief runs and hand work to other work within its authority;
 - only work items, done by runs or people, execute.
 
 Attention comes back up: each level reads the work packages beneath it and rolls up the five views.
@@ -63,7 +65,7 @@ Attention comes back up: each level reads the work packages beneath it and rolls
 
 Every handoff has a **worker** and a **supervisor**, and the roles are relative to that handoff:
 
-- for territory work and Project work, the coordinating agent is the worker and Kris is the supervisor;
+- for any explicitly opened coordinating session, the coordinating agent is the worker and Kris is the supervisor;
 - for a run, the coordinating agent is the supervisor and the run is the worker;
 - so a coordinator is worker to Kris and supervisor to its runs at the same time.
 
@@ -157,6 +159,8 @@ The words are agreed to be proven in use, in Kris's words "We probably just need
 
 **The work package and its folder.** Each piece of work above a work item is a work package, and it lives in one flat folder in the working area, `+/_WORK/<id>/`, the work folder, named by its dotted id. A work item has no package: its record is its home. Runs keep hyphenated slugs. Kris named it: "work should have a package idea and it should be clear about what its goals are and maybe a description to help things route it, so we've got that kind of progressive reveal capability".
 
+**One real home.** The territory's principal (Capital) is the default package home. Territory and Project work stay Capital-homed; existing deliberately owner-approved regular and ad hoc member-repository homes remain valid, including Acquire intake. A member exception is declared in the real work file's Scope and made discoverable through its parent State of play's existing `covers` and a prose home reference in the parent's Scope, naming repository identity and work id. This reference is discovery, not another package, state or inbox, and grants no cross-repository authority. There is no general Project-home exception or package move in this rule. Exact automated interpretation belongs to the owning readers; an inaccessible or ambiguous home is surfaced through the existing route, never guessed or silently omitted. Forwarding requires separate design.
+
 A work package has exactly five files, all created with it, so that a reader never meets a missing file and another work can queue a message from the start. Run reports, open briefs and design papers sit beside them.
 
 | File | Holds | Read |
@@ -220,6 +224,8 @@ State of play matches the unit against each work's description and, where two ma
 **A routed work cannot reject.** In Kris's words, "once it's given it, it has to do something with it, it can't reject it, it can then say it wants it to be given to someone else ... we have to be careful about things just [bouncing] in between things". The receiving worker acts on each line at its next wake and does what it can with it: what its existing authority covers goes into its next steps, and what needs Kris's authority, capacity or a change of scope becomes a query. It gives back to State of play only the part it judges is not its own, with a reason. A unit is returned once; if State of play cannot place it elsewhere, it goes to Kris as a query rather than round again. Routing confers no authority to execute: owning a unit means owning what is done with it.
 
 **Held work keeps its hold.** A line routed to work On hold, paused, waits in its messages without waking it, and State of play shows the count. Work On hold, more expected, is released by the new work arriving, under the usual release.
+
+**Packages are tended independently of active coordination.** The acknowledged package steward owns its disposition, incoming messages and tidy work within existing authority; no permanent coordinator or new steward field is required. The parent State of play maintains discovery for its assigned regular, ad hoc and Project packages, including member homes, and checks coverage and home references at opening, an approved move, bootstrap and ordinary tending. It surfaces missing ownership, stale or unreachable homes and unread or blocked messages without taking over execution, releasing holds or moving marks. Handover remains explicit and acknowledged, and findings go to the one real inbox by an authorised existing route.
 
 **State of play stewards the method.** Every work tries to improve continually, and State of play coordinates it: it watches for improvements, and every work sends a proposed improvement to the method as a line in State of play's messages. State of play dispatches each improvement as small regular work or into the Project it most affects; a significant change revives the Ways of working Project, or a more targeted Project under the Model theme. While the method is being defined, Ways of working writes refresh lines straight into the live works' messages; afterwards State of play sends them.
 
