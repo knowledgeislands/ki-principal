@@ -24,4 +24,4 @@ created_at: 2026-10-25T00:46:35Z
 ## Scope
 
 - In: `apps-knowledgeislands.info`, its content drift against the knowledge base, its vendored skill catalogue, `AGENTS.md` choreography and Cloudflare configuration.
-- Out: the `ki-repo-website-*` skills (ki.prj.baseline-rollout); the work model (ki.ways-of-working); territory dispatch (ki.sop.main).
+- Out: the `ki-repo-website-*` skills (ki.prj.baseline-rollout); the work model (ki.prj.ways-of-working); territory dispatch (ki.sop.main).

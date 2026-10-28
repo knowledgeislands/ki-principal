@@ -1,4 +1,4 @@
-# ki.portable-specifications queries
+# ki.prj.portable-specifications queries
 
 ## Open
 

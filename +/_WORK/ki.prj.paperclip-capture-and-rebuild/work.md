@@ -21,4 +21,4 @@ created_at: 2026-10-18T03:30:38Z
 ## Scope
 
 - In: the Paperclip capture and the rebuild design papers in `design/`.
-- Out: the work model (ki.ways-of-working); the agent host (ki.agent-host); territory dispatch (ki.sop.main).
+- Out: the work model (ki.prj.ways-of-working); the agent host (ki.prj.agent-host); territory dispatch (ki.sop.main).

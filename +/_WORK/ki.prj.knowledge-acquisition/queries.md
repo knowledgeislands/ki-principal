@@ -1,4 +1,4 @@
-# ki.knowledge-acquisition queries
+# ki.prj.knowledge-acquisition queries
 
 ## Open
 

@@ -13,10 +13,10 @@
 
 ### Where Obsidian syntax is required today
 
-- **`ki-repo-kb`**, under "Linking within a base" and rubric LINK-1, *requires* shortest-unique `[[wikilinks]]` in base note content. Its `## Contents` lists must use `[[Full/Path|Name]]`. This mandate is what must change. `ki-authoring` defers to it, and the Links section of its `standards-markdown` names KB notes as an exception.
+- **`ki-repo-kb`**, under "Linking within a base" and rubric LINK-1, _requires_ shortest-unique `[[wikilinks]]` in base note content. Its `## Contents` lists must use `[[Full/Path|Name]]`. This mandate is what must change. `ki-authoring` defers to it, and the Links section of its `standards-markdown` names KB notes as an exception.
 - **ki-principal** names wikilinks as the convention in 18 canonical notes outside `+/`: `AGENTS.md`, the Charter, Structure, Format, Notes, the Obsidian tool note and its 21 templates, and the Tending activities. One of those activities, Wikilink Review, is built on Dataview.
-- **ki-principal's own `.rumdl.toml`** already runs rumdl's *standard* (GFM) flavour, and its comment says the repository "forbids wikilinks". The linter and the KB standard contradict each other today. One side effect: MD013 silently skips every paragraph containing an aliased wikilink, so those paragraphs are never reflowed.
-- **`.obsidian/app.json`** sets `newLinkFormat: shortest` and leaves `useMarkdownLinks` off. Every link Obsidian creates is therefore a wikilink. The only community plugin that touches syntax is `callout-manager`, and Dataview is *not* installed, so the two Dataview blocks already render as plain code.
+- **ki-principal's own `.rumdl.toml`** already runs rumdl's _standard_ (GFM) flavour, and its comment says the repository "forbids wikilinks". The linter and the KB standard contradict each other today. One side effect: MD013 silently skips every paragraph containing an aliased wikilink, so those paragraphs are never reflowed.
+- **`.obsidian/app.json`** sets `newLinkFormat: shortest` and leaves `useMarkdownLinks` off. Every link Obsidian creates is therefore a wikilink. The only community plugin that touches syntax is `callout-manager`, and Dataview is _not_ installed, so the two Dataview blocks already render as plain code.
 
 ### Inventory (tracked Markdown, code excluded)
 
@@ -100,16 +100,14 @@ This would sit in `standards-markdown.md` under "Markdown flavour", with the KB 
    - an Obsidian-order resolver;
    - `--dry-run`, giving a per-file diff plus a report of ambiguous, unresolved and judgement items;
    - paths to scope a batch or a single touched file;
-   - mechanical constructs only, leaving judgement items untouched and listed.
-   It needs fixture tests on the ki-principal shapes: aliases in tables, headings, embeds, spaces, case and templates.
+   - mechanical constructs only, leaving judgement items untouched and listed. It needs fixture tests on the ki-principal shapes: aliases in tables, headings, embeds, spaces, case and templates.
 3. **Verification**, built into the converter and run in each batch:
    - the link count is the same per file before and after;
    - the visible rendered text is identical once link markup is stripped;
    - every link resolves in exact case;
    - `ki repo audit` is clean;
    - the Observatory edge count is the same;
-   - an Obsidian spot-check of backlinks and the graph.
-   rumdl conform runs as a separate following commit, because removing the `|` will let MD013 reflow paragraphs it has always skipped.
+   - an Obsidian spot-check of backlinks and the graph. rumdl conform runs as a separate following commit, because removing the `|` will let MD013 reflow paragraphs it has always skipped.
 4. **ki-principal batches** (owner: ki-principal):
    - a pilot on Resources, Calendar, root and the `-` area (23 links), including a GitHub render check of an alert and a heading link;
    - Obsidian configuration (`useMarkdownLinks`, `newLinkFormat: relative`);

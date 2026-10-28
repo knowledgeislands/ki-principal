@@ -1,4 +1,4 @@
-# ki.chezmoi queries
+# ki.prj.chezmoi queries
 
 ## Open
 

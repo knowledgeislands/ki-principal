@@ -48,9 +48,7 @@ Outstanding - no action requested now:
 
 **Query:** Should every worktree run have standing authority to fast-forward its own branch into local `main` before it reports?
 
-**Options:**
-a) (recommended, confidence medium - it removes the cause of every stuck case today, but its effect on ki-principal's busy write window is untested) Yes, under F1's conditions. A run that cannot fast-forward cleanly keeps its worktree and reports it as stranded.
-b) No. Runs stop at their branch, the coordinator launches a merge run, and F3 and F4 make waiting branches visible.
+**Options:** a) (recommended, confidence medium - it removes the cause of every stuck case today, but its effect on ki-principal's busy write window is untested) Yes, under F1's conditions. A run that cannot fast-forward cleanly keeps its worktree and reports it as stranded. b) No. Runs stop at their branch, the coordinator launches a merge run, and F3 and F4 make waiting branches visible.
 
 ### WORKTREE-START - Start the trial before the tooling lands
 
@@ -58,6 +56,4 @@ b) No. Runs stop at their branch, the coordinator launches a merge run, and F3 a
 
 **Query:** Should the worktree trial start now on F1 and F4, with the tooling delivered during it, or wait until F2, F3 and F5 have landed?
 
-**Options:**
-a) (recommended, confidence medium - code-repository runs already use worktrees safely, but visibility stays thin for the first days) Start now in the code repositories under F1 and F4, and add ki-principal's long runs once F5 lands.
-b) Wait until F2, F3 and F5 have landed, then start everywhere the checkout-isolation course names.
+**Options:** a) (recommended, confidence medium - code-repository runs already use worktrees safely, but visibility stays thin for the first days) Start now in the code repositories under F1 and F4, and add ki-principal's long runs once F5 lands. b) Wait until F2, F3 and F5 have landed, then start everywhere the checkout-isolation course names.

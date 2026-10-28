@@ -21,4 +21,4 @@ created_at: 2026-10-08T08:35:00Z
 ## Scope
 
 - In: PROJECT-CLOSE, OBS-ACTIVATION, GOVERNANCE and ALIAS-OWNERS, and confirming each receiver's outcome.
-- Out: the receivers' own delivery: tools-ki (ki.prj.tools-burndown), Rig (ki.prj.mac-studio-setup, ki.prj.chezmoi), rollout (ki.prj.baseline-rollout), the Observatory (ki.prj.observatory) and the host (ki.agent-host).
+- Out: the receivers' own delivery: tools-ki (ki.prj.tools-burndown), Rig (ki.prj.mac-studio-setup, ki.prj.chezmoi), rollout (ki.prj.baseline-rollout), the Observatory (ki.prj.observatory) and the host (ki.prj.agent-host).

@@ -1,4 +1,4 @@
-# ki.timelines queries
+# ki.prj.timelines queries
 
 ## Open
 

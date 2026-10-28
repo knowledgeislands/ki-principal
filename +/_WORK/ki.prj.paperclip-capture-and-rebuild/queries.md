@@ -1,4 +1,4 @@
-# ki.paperclip-capture-and-rebuild queries
+# ki.prj.paperclip-capture-and-rebuild queries
 
 ## Open
 

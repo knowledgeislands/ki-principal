@@ -1,4 +1,4 @@
-# ki.observatory queries
+# ki.prj.observatory queries
 
 ## Open
 

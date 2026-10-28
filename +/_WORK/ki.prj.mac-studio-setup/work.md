@@ -28,4 +28,4 @@ created_at: 2026-10-08T08:45:00Z
 ## Scope
 
 - In: sol's and terra's setup as Kris's rig; the tools-rig roadmap and its order; the tailnet-only listener firewall (KI-TOOL-RIG-CORE-047) and key-only SSH; Adobe removal and old checkouts on sol; sol's source stores, WhatsApp and HNR Harness questions; at-screen walk-throughs.
-- Out: chezmoi source records and the chezmoi side of local mode and release channels (ki.prj.chezmoi); tools-ki, tools-mgit and their releases (ki.prj.tools-burndown); the Observatory itself (ki.prj.observatory); the work model (ki.ways-of-working); territory dispatch (ki.sop.main).
+- Out: chezmoi source records and the chezmoi side of local mode and release channels (ki.prj.chezmoi); tools-ki, tools-mgit and their releases (ki.prj.tools-burndown); the Observatory itself (ki.prj.observatory); the work model (ki.prj.ways-of-working); territory dispatch (ki.sop.main).

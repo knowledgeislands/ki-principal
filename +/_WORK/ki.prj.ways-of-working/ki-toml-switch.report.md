@@ -24,7 +24,4 @@ Outstanding - no action requested now: `+/_WORK/ki.ways-of-working/decisions.md`
 
 **Query:** Should the harness's ki-coordination dependency be changed to ki-work-package before this rename is committed, or should the rename be reverted until that change lands?
 
-**Options:**
-a) (recommended, confidence medium - this fixes the cause and keeps one source of truth; the dependency line was read directly but not traced through the CLI resolver) Launch a run in ki-agentic-harness that changes ki-coordination's dependency, and any other references to ki-work-folder, to ki-work-package and installs the harness; then commit this `.ki.toml` change as briefed.
-b) Revert the one-line rename in ki-principal now so other sessions' gates pass, and reapply it after the harness change.
-c) Also declare an empty `[skills.ki-work-folder]` alongside `ki-work-package` as a temporary bridge so the gate passes now.
+**Options:** a) (recommended, confidence medium - this fixes the cause and keeps one source of truth; the dependency line was read directly but not traced through the CLI resolver) Launch a run in ki-agentic-harness that changes ki-coordination's dependency, and any other references to ki-work-folder, to ki-work-package and installs the harness; then commit this `.ki.toml` change as briefed. b) Revert the one-line rename in ki-principal now so other sessions' gates pass, and reapply it after the harness change. c) Also declare an empty `[skills.ki-work-folder]` alongside `ki-work-package` as a temporary bridge so the gate passes now.

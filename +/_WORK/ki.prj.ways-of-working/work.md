@@ -1,6 +1,6 @@
 ---
-id: ki.ways-of-working
-parent: ki
+id: ki.prj.ways-of-working
+parent: ki.sop.main
 level: project
 title: 'KI > Model > Ways of working'
 project: ways-of-working
@@ -15,7 +15,7 @@ supervisor: owner
 created_at: 2026-10-09T20:58:00Z
 ---
 
-# ki.ways-of-working
+# ki.prj.ways-of-working
 
 ## Goals
 
@@ -25,4 +25,4 @@ created_at: 2026-10-09T20:58:00Z
 ## Scope
 
 - In: the Work Process model, the work package and its migration, `ki-coordination`, `ki-delegation`, the coordinator output style, work-record fields and their migration, method changes routed by State of play.
-- Out: territory dispatch and the Project queue (ki); `ki work status` and tools-ki (ki.tools-burndown); the Observatory (ki.observatory); the `work`, `knowledge` and `acquire` specifications (ki.portable-specifications); Rig and dotfiles (ki.chezmoi, ki.mac-studio-setup).
+- Out: territory dispatch and the Project queue (ki.sop.main); `ki.sop.main work status` and tools-ki (ki.prj.tools-burndown); the Observatory (ki.prj.observatory); the `work`, `knowledge` and `acquire` specifications (ki.prj.portable-specifications); Rig and dotfiles (ki.prj.chezmoi, ki.prj.mac-studio-setup).

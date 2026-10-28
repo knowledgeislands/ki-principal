@@ -43,8 +43,8 @@ Three dated `Idea:` lines in the Project's Notes hold the remaining tending, fin
 
 #### Tending routed to another work
 
-- **T-R1 - assignment encoding.** [STEWARD-FIELD](../queries.md#steward-field---where-a-package-records-who-looks-after-it), in `ki.ways-of-working`, holds the unresolved field and file. The standards explicitly leave a placeholder and use the decisions log pending Kris's choice. The [model-shape design](model-shape.md) and its [merged review](model-shape-report.md) carry the cascade work; this pass adds no rival record or field.
-- **T-R2 - due dates and unattended eligibility.** The existing UNATTENDED-AND-DUE-DATES [message](../messages.md) belongs to `ki.ways-of-working`; the roadmap Target dates section now carries `target: {date, kind, what}`, with `due` or `milestone`, through `1af72f2e`. [UNATTENDED-FIELD](../queries.md#unattended-field---recording-unattended-eligibility-on-records) remains open for eligibility. A new bare `due` field would duplicate the landed mapping.
+- **T-R1 - assignment encoding.** [STEWARD-FIELD](../queries.md#parked), in `ki.ways-of-working`, holds the unresolved field and file. The standards explicitly leave a placeholder and use the decisions log pending Kris's choice. The [model-shape design](model-shape.md) and its [merged review](model-shape-report.md) carry the cascade work; this pass adds no rival record or field.
+- **T-R2 - due dates and unattended eligibility.** The existing UNATTENDED-AND-DUE-DATES [message](../messages.md) belongs to `ki.ways-of-working`; the roadmap Target dates section now carries `target: {date, kind, what}`, with `due` or `milestone`, through `1af72f2e`. [UNATTENDED-FIELD](../queries.md#parked) remains open for eligibility. A new bare `due` field would duplicate the landed mapping.
 - **T-R3 - size display.** SIZE-LABEL in this work's [messages](../messages.md) already requests the capital T-shirt display with no XS in `ki-work-roadmap`. The stored lowercase `size` vocabulary is existing roadmap behaviour; the display request is not yet carried by the three inspected standards.
 - **T-R4 - Capital skill baseline.** BASELINE is an open query in [KI State of play](../../ki/queries.md#baseline---one-baseline-for-every-capital). The tending note itself waits on that review. This remains `ki`'s decision route before any tending level-4 follow-up here.
 
@@ -121,7 +121,7 @@ Queries raised: INTERIM-FINDING-WRITER and INTERIM-FINDING-AGE. Decided 26 Octob
 
 #### Metadata routed to another work
 
-- **M-R1 - prefix migration concerns.** The note's Personal repo-code length finding is governed by Configuration's existing `repo_code` validation; the gradual legacy-prefix question is already [LEGACY-PREFIX](../queries.md#legacy-prefix---how-a-repo_code-rename-passes-the-streams-and-roadmap-audits) in `ki.ways-of-working`. Neither is a new metadata-taxonomy feature.
+- **M-R1 - prefix migration concerns.** The note's Personal repo-code length finding is governed by Configuration's existing `repo_code` validation; the gradual legacy-prefix question is already [LEGACY-PREFIX](../queries.md#parked) in `ki.ways-of-working`. Neither is a new metadata-taxonomy feature.
 - **M-R2 - launched website homepage.** The note explicitly leaves markhowarth.com's preview-to-live switch with [markhowarth-launch](../../../../../../valle-armonia/va-principal/Streams/Projects/markhowarth-launch.md), under its territory's authority. This audit does not accelerate or send that rollout.
 - **M-R3 - registry and copied prose.** The note routes an omitted Known Lands member and prose descriptions/domains in READMEs, Known Lands and Project Portfolio to Personal's tending structural level 4. That is the existing `personal` State of play route, not GH-3 mirror coverage. Whether to add a new compulsory mirror is still open; the metadata idea retains that question without declaring those documents mirrors.
 

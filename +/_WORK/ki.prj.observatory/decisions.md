@@ -1,4 +1,4 @@
-# ki.observatory decisions
+# ki.prj.observatory decisions
 
 ## 2026-10-18 - PUSH-ALL
 

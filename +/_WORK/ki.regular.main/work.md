@@ -25,4 +25,4 @@ created_at: 2026-10-18T03:30:38Z
 ## Scope
 
 - In: recurring occurrences under the Capital's Activity notes; new ad hoc regular work, seeded as `ki.regular.<slug>`; the work items these create in any repository.
-- Out: territory dispatch and the Project queue (ki.sop.main); Project work and a Project's own recurring checks (ki.prj.chezmoi, ki.prj.observatory, ki.prj.tools-burndown and the other Project works); the registry removal (ki.regular.registry-removal); the work model itself (ki.ways-of-working).
+- Out: territory dispatch and the Project queue (ki.sop.main); Project work and a Project's own recurring checks (ki.prj.chezmoi, ki.prj.observatory, ki.prj.tools-burndown and the other Project works); the registry removal (ki.regular.registry-removal); the work model itself (ki.prj.ways-of-working).

@@ -1,4 +1,4 @@
-# ki.mac-studio-setup queries
+# ki.prj.mac-studio-setup queries
 
 ## Open
 

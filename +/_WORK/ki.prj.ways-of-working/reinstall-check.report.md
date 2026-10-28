@@ -30,6 +30,4 @@ Outstanding - no action requested now:
 
 **Query:** Should the coordinator launch one run that does `ki repo --estate repair` now?
 
-**Options:**
-a) (recommended, confidence high - dry run verified directly; it touches only gitignored links) Launch one short run that does `ki repo --estate repair` and then checks that `ki-work-package` resolves in ki-principal.
-b) Leave it to each repository's owner session at its next bootstrap.
+**Options:** a) (recommended, confidence high - dry run verified directly; it touches only gitignored links) Launch one short run that does `ki repo --estate repair` and then checks that `ki-work-package` resolves in ki-principal. b) Leave it to each repository's owner session at its next bootstrap.

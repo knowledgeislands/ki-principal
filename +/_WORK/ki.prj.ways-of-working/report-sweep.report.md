@@ -54,6 +54,4 @@ Outstanding - no action requested now:
 
 **Query:** Should both acquire commits be pushed together now?
 
-**Options:**
-a) (recommended, confidence medium - the commit is this coordinator's own received run, but I have not re-verified its content) Push `2a70d45` and `4f1afea` together, fast-forward, from acquire.
-b) Leave both unpushed until citations-rewrite's push is decided on its own.
+**Options:** a) (recommended, confidence medium - the commit is this coordinator's own received run, but I have not re-verified its content) Push `2a70d45` and `4f1afea` together, fast-forward, from acquire. b) Leave both unpushed until citations-rewrite's push is decided on its own.

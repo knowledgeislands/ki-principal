@@ -1,4 +1,4 @@
-# ki.tools-burndown queries
+# ki.prj.tools-burndown queries
 
 ## Open
 

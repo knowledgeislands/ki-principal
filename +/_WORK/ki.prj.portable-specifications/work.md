@@ -27,6 +27,6 @@ created_at: 2026-10-19T13:30:00Z
 
 ## Scope
 
-- In: the three specs (`work`, `knowledge`, `acquire`), SPEC-HOME, their publication, and their later move into KI Specifications, as read back under SPECIFICATIONS-PROJECT in [ki.ways-of-working's decisions](../ki.ways-of-working/decisions.md).
-- In: the spec-areas-design stocktake and spec-drafts drafts, handed over by ki.ways-of-working through [messages](messages.md).
-- Out: the KI work model, the work-package standard and its rollout (ki.ways-of-working); knowledge-acquisition practice (ki.prj.knowledge-acquisition); the KI Website itself, which has no work package.
+- In: the three specs (`work`, `knowledge`, `acquire`), SPEC-HOME, their publication, and their later move into KI Specifications, as read back under SPECIFICATIONS-PROJECT in [ki.prj.ways-of-working's decisions](../ki.prj.ways-of-working/decisions.md).
+- In: the spec-areas-design stocktake and spec-drafts drafts, handed over by ki.prj.ways-of-working through [messages](messages.md).
+- Out: the KI work model, the work-package standard and its rollout (ki.prj.ways-of-working); knowledge-acquisition practice (ki.prj.knowledge-acquisition); the KI Website itself, which has no work package.

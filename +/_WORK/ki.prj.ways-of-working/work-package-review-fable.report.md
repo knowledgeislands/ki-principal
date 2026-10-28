@@ -38,10 +38,7 @@ Nothing is running. Nothing is left in this run's temporary folder.
 
 **Query:** Keep "work folder" and describe it as packaged like a skill, or adopt "work package"?
 
-**Options:**
-a) (recommended, confidence medium - the collision and the fresh-rename cost are concrete, but Kris may simply prefer the word) Keep "work folder" and `ki-work-folder`; the Words table gains "definition" for `work.md`; prose says "packaged like a skill".
-b) Adopt "work package" and rename the skill `ki-work-package`, path unchanged.
-c) "Work package" in prose only, skill unchanged.
+**Options:** a) (recommended, confidence medium - the collision and the fresh-rename cost are concrete, but Kris may simply prefer the word) Keep "work folder" and `ki-work-folder`; the Words table gains "definition" for `work.md`; prose says "packaged like a skill". b) Adopt "work package" and rename the skill `ki-work-package`, path unchanged. c) "Work package" in prose only, skill unchanged.
 
 ### STATE-FILE - Where the moving state fields live
 
@@ -49,9 +46,7 @@ c) "Work package" in prose only, skill unchanged.
 
 **Query:** Do the state fields move to `state.md` front matter, or stay in `work.md` with only the prose moving?
 
-**Options:**
-a) (recommended, confidence medium - matches "state in its own file" and keeps the definition from changing at every move; the reader change is small and must land first anyway) State fields in `state.md` front matter, with `id` repeated there, and `## Now`, `## Next steps`, `## Held`; territory work adds `## Queue`.
-b) State fields stay in `work.md` front matter; only the prose moves to `state.md`.
+**Options:** a) (recommended, confidence medium - matches "state in its own file" and keeps the definition from changing at every move; the reader change is small and must land first anyway) State fields in `state.md` front matter, with `id` repeated there, and `## Now`, `## Next steps`, `## Held`; territory work adds `## Queue`. b) State fields stay in `work.md` front matter; only the prose moves to `state.md`.
 
 ### QUERIES-FILE - The Q file
 
@@ -59,9 +54,7 @@ b) State fields stay in `work.md` front matter; only the prose moves to `state.m
 
 **Query:** Does `queries.md` hold every open and parked query in full, with the owner report rendered from it?
 
-**Options:**
-a) (recommended, confidence high - it is Kris's request, it closes the state-folder gap, and it decouples reports from the tidy) `queries.md` holds every query in full under `## Open` and `## Parked`; the report's Queries section is rendered from `## Open`; the coordinator copies queries in at receive.
-b) `queries.md` as an index of tags pointing at reports.
+**Options:** a) (recommended, confidence high - it is Kris's request, it closes the state-folder gap, and it decouples reports from the tidy) `queries.md` holds every query in full under `## Open` and `## Parked`; the report's Queries section is rendered from `## Open`; the coordinator copies queries in at receive. b) `queries.md` as an index of tags pointing at reports.
 
 ### PARKED-HOME - Where parked items go
 
@@ -69,9 +62,7 @@ b) `queries.md` as an index of tags pointing at reports.
 
 **Query:** Dissolve `Parked`, and where do tangents go?
 
-**Options:**
-a) (recommended, confidence medium - a separate file would recreate the catch-all, but the note's split departs from the read-back and misses tangents) Dissolve it: parked queries and parked tangents in `queries.md` `## Parked`, held work in `state.md` `## Held`, ideas in the Project note or a record; no `parked.md`.
-b) A separate `parked.md` for everything parked, as the read-back says.
+**Options:** a) (recommended, confidence medium - a separate file would recreate the catch-all, but the note's split departs from the read-back and misses tangents) Dissolve it: parked queries and parked tangents in `queries.md` `## Parked`, held work in `state.md` `## Held`, ideas in the Project note or a record; no `parked.md`. b) A separate `parked.md` for everything parked, as the read-back says.
 
 ### MESSAGES-FILE - Where the inbox lives
 
@@ -79,9 +70,7 @@ b) A separate `parked.md` for everything parked, as the read-back says.
 
 **Query:** Does the inbox move to `messages.md`?
 
-**Options:**
-a) (recommended, confidence high - the write-by-path check is the whole point of the entry-point model, and conflicts shrink) `messages.md` beside `work.md`; during the tolerance window a sender writes there where it exists, else to `## Messages` in `work.md`; the entry-point table allows append and replace-own-line only.
-b) Keep `## Messages`, moved into `state.md`.
+**Options:** a) (recommended, confidence high - the write-by-path check is the whole point of the entry-point model, and conflicts shrink) `messages.md` beside `work.md`; during the tolerance window a sender writes there where it exists, else to `## Messages` in `work.md`; the entry-point table allows append and replace-own-line only. b) Keep `## Messages`, moved into `state.md`.
 
 ### DESCRIPTION-SHAPE - The routing description
 
@@ -89,10 +78,7 @@ b) Keep `## Messages`, moved into `state.md`.
 
 **Query:** What shape does the routing description take?
 
-**Options:**
-a) (recommended, confidence medium - a description is what routing can match, but ids should live in one place) Required `description` in `work.md`, plain prose of what the work does and takes, about 300 characters, no ids; `## Scope` carries `In:` and `Out:` by id and the rubric checks those ids resolve; Goals link the Project `outcome`.
-b) The note's shape: description up to 500 characters including "Not for ..." by id, plus `## Scope`.
-c) Route on the Project `outcome` alone, no description.
+**Options:** a) (recommended, confidence medium - a description is what routing can match, but ids should live in one place) Required `description` in `work.md`, plain prose of what the work does and takes, about 300 characters, no ids; `## Scope` carries `In:` and `Out:` by id and the rubric checks those ids resolve; Goals link the Project `outcome`. b) The note's shape: description up to 500 characters including "Not for ..." by id, plus `## Scope`. c) Route on the Project `outcome` alone, no description.
 
 ### ROUTE-RECEIPT - What a routed work must do
 
@@ -100,9 +86,7 @@ c) Route on the Project `outcome` alone, no description.
 
 **Query:** Is receipt compulsory at the next bootstrap or owner message, with a recorded disposition and no conferred authority?
 
-**Options:**
-a) (recommended, confidence high - it is Kris's words with the authority boundary the earlier review set) As the note, plus a loop guard: one return to State of play per unit, then a query to Kris; the disposition is named in the removal commit subject.
-b) Receipt only at the next mark.
+**Options:** a) (recommended, confidence high - it is Kris's words with the authority boundary the earlier review set) As the note, plus a loop guard: one return to State of play per unit, then a query to Kris; the disposition is named in the removal commit subject. b) Receipt only at the next mark.
 
 ### REFRESH-TARGET - How method refresh reaches works
 
@@ -110,9 +94,7 @@ b) Receipt only at the next mark.
 
 **Query:** Is refresh targeted through `method_read` with the field update as the only confirmation?
 
-**Options:**
-a) (recommended, confidence high - it reuses the existing dated line and revision check and adds only the missing field) `method_read` in `state.md`; one coalescing REFRESH line to affected works behind the change; held work waits; bootstrap checks stay as the fallback.
-b) Broadcast every change to every live work with a one-line acknowledgement.
+**Options:** a) (recommended, confidence high - it reuses the existing dated line and revision check and adds only the missing field) `method_read` in `state.md`; one coalescing REFRESH line to affected works behind the change; held work waits; bootstrap checks stay as the fallback. b) Broadcast every change to every live work with a one-line acknowledgement.
 
 ### STEWARD-HOME - Who carries method changes after Ways of working closes
 
@@ -120,9 +102,7 @@ b) Broadcast every change to every live work with a one-line acknowledgement.
 
 **Query:** Where do method improvements live once Ways of working is Finished?
 
-**Options:**
-a) (recommended, confidence medium - the lightest home that matches Kris's words, and an Activity note can be added if volume shows) State of play keeps the method backlog and dispatches each accepted improvement as ad hoc regular work or into the Project it most affects, with `ki-work-design` reviews for shape changes.
-b) A standing regular work for method upkeep under an Activity note with a periodic review.
+**Options:** a) (recommended, confidence medium - the lightest home that matches Kris's words, and an Activity note can be added if volume shows) State of play keeps the method backlog and dispatches each accepted improvement as ad hoc regular work or into the Project it most affects, with `ki-work-design` reviews for shape changes. b) A standing regular work for method upkeep under an Activity note with a periodic review.
 
 ### MIGRATE-PATH - How the live folders move
 
@@ -130,6 +110,4 @@ b) A standing regular work for method upkeep under an Activity note with a perio
 
 **Query:** How do the live folders move to the new shape without breaking a reader or clobbering a session's write?
 
-**Options:**
-a) (recommended, confidence medium - self-migration respects the entry points, but the note's ordering and the open-session hazard are unstated) The note's path with three amendments: the standard, rubric and tools-ki reader land first, both shapes accepted; the mechanical run touches only on-hold work with no session and leaves a FIRST-STEP line in `messages.md`; every other folder migrates from its own session at its next mark, with a nudge line from State of play if the window passes seven days; unrecoverable query tags become an `## Open` line asking Kris, never dropped.
-b) One owner-approved mechanical sweep of all eleven folders after the pilot; faster, but it writes into folders whose sessions hold the old shape in memory.
+**Options:** a) (recommended, confidence medium - self-migration respects the entry points, but the note's ordering and the open-session hazard are unstated) The note's path with three amendments: the standard, rubric and tools-ki reader land first, both shapes accepted; the mechanical run touches only on-hold work with no session and leaves a FIRST-STEP line in `messages.md`; every other folder migrates from its own session at its next mark, with a nudge line from State of play if the window passes seven days; unrecoverable query tags become an `## Open` line asking Kris, never dropped. b) One owner-approved mechanical sweep of all eleven folders after the pilot; faster, but it writes into folders whose sessions hold the old shape in memory.

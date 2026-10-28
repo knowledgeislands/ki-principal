@@ -1,5 +1,5 @@
 ---
-id: ki.ways-of-working
+id: ki.prj.ways-of-working
 state: with-worker
 since: 2026-10-28T21:58:11Z
 received: 2026-10-22T07:24:00Z
@@ -8,7 +8,7 @@ mark: 2026-10-25T01:07:00Z
 method_read: d03d0e74
 ---
 
-# ki.ways-of-working state
+# ki.prj.ways-of-working state
 
 ## Now
 

@@ -36,6 +36,4 @@ Outstanding - no action requested now:
 
 **Query:** Should acquire get the same rename in a follow-up run?
 
-**Options:**
-a) (recommended, confidence high - the same mechanical rename has just passed in seven repositories) Authorise a short follow-up run to rename it to `[skills.ki-work-folder]`, repair, commit and push, under the same rules.
-b) Leave acquire as it is until its own owner session picks it up.
+**Options:** a) (recommended, confidence high - the same mechanical rename has just passed in seven repositories) Authorise a short follow-up run to rename it to `[skills.ki-work-folder]`, repair, commit and push, under the same rules. b) Leave acquire as it is until its own owner session picks it up.

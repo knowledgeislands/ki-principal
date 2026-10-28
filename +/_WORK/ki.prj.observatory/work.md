@@ -28,4 +28,4 @@ created_at: 2026-10-13T23:50:00Z
 ## Scope
 
 - In: Observatory features and roadmap records in apps-observatory.local; its design convergence and the handoffs with ki-design; Mermaid-to-Archify conversion records in other repositories; the Observatory's reading of `ki.sop.main work status`.
-- Out: timelines and calendars, including KI-HARNESS-GOV-222 and the legal gantt (ki.prj.timelines); the work model and work package (ki.ways-of-working); the `ki.sop.main` CLI and tools-ki records (ki.prj.tools-burndown); rollout to other territories (ki.prj.baseline-rollout); territory dispatch (ki.sop.main); Rig and the host network (ki.prj.chezmoi, ki.prj.mac-studio-setup).
+- Out: timelines and calendars, including KI-HARNESS-GOV-222 and the legal gantt (ki.prj.timelines); the work model and work package (ki.prj.ways-of-working); the `ki.sop.main` CLI and tools-ki records (ki.prj.tools-burndown); rollout to other territories (ki.prj.baseline-rollout); territory dispatch (ki.sop.main); Rig and the host network (ki.prj.chezmoi, ki.prj.mac-studio-setup).

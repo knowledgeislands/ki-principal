@@ -21,7 +21,7 @@ method_read: f4d6c521
 
 ## Next steps
 
-1. On SPEC-TEXT a): adopt and plan KI-HARNESS-GOV-229 and KI-HARNESS-GOV-230 to Ready and deliver them in separate worktrees under [design/home-plan.md](design/home-plan.md); KI-HARNESS-GOV-228 after ki.ways-of-working's ENTRY-NAMES harness run. On b): one revise run and one review, then back to Kris.
+1. On SPEC-TEXT a): adopt and plan KI-HARNESS-GOV-229 and KI-HARNESS-GOV-230 to Ready and deliver them in separate worktrees under [design/home-plan.md](design/home-plan.md); KI-HARNESS-GOV-228 after ki.prj.ways-of-working's ENTRY-NAMES harness run. On b): one revise run and one review, then back to Kris.
 2. One blind Codex review per candidate; Kris accepts each under ki-accept.
 3. Publication (SPEC-PUBLISH) and the KI Specifications handoff, later.
 

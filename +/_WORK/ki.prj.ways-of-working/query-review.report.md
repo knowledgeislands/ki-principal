@@ -29,11 +29,7 @@ Outstanding - no action requested now:
 
 ### HOOK-REVIEW-CLAUSE - whether the coordinator hook line should carry the query review
 
-**Context:** QUERY-REVIEW-STANDARD named the hook line among the surfaces to regenerate, but the hook test limits it to under 1,400 characters. It is already about 1,370, and a clause naming which queries go to review needs about 90 more. The standard and the output style both carry the rule, and the hook's fourth hard rule already points coordinators at the owner-report shape that includes it.
-**Query:** Should the hook line stay without a query-review clause, or should its length limit be raised so it can carry one?
-**Options:**
-a) (recommended, confidence medium - the rule reaches every coordinator through the output style and standard; whether the hook matters is a judgment) leave the hook line as it is
-b) raise the hook test's limit to about 1,500 characters and add "every medium- or low-confidence or destructive query blind-reviewed once before it reaches the owner" to the fourth hard rule
+**Context:** QUERY-REVIEW-STANDARD named the hook line among the surfaces to regenerate, but the hook test limits it to under 1,400 characters. It is already about 1,370, and a clause naming which queries go to review needs about 90 more. The standard and the output style both carry the rule, and the hook's fourth hard rule already points coordinators at the owner-report shape that includes it. **Query:** Should the hook line stay without a query-review clause, or should its length limit be raised so it can carry one? **Options:** a) (recommended, confidence medium - the rule reaches every coordinator through the output style and standard; whether the hook matters is a judgment) leave the hook line as it is b) raise the hook test's limit to about 1,500 characters and add "every medium- or low-confidence or destructive query blind-reviewed once before it reaches the owner" to the fourth hard rule
 
 ### 🤖 → 👤 Handoff to supervisor · since 19:18 BST
 

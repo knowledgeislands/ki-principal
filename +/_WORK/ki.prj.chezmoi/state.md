@@ -30,7 +30,7 @@ method_read: beb56729
 3. sol: install Defuddle through Rig in the sol pass (declared for both Macs in 5723c99; terra done).
 4. sol: complete the remaining PERSONAL-DOTFILES-UE-086 checks (terra's B8a is done) under [PERSONAL-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-086-finish-software-alignment.md).
 5. homeless: TRUST-COMPLETE still needs its chezmoi Decision Record; keep the owner's complete-trust/no-folder-prompts direction in [decisions](decisions.md). Other retained authority: survey outcome unconfirmed, vega render held, Paperclip disabled, sol NordVPN undecided.
-6. Sync VS Code source after ki.prj.tools-burndown delivers the [receiving layout message](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.tools-burndown/messages.md). Retain the [Tower visual prompt](design/tower-assistant-claude-design-prompt.md) for its live apps-tower reference and the [take-stock retro](design/retro-2026-10-20.md) for ki.ways-of-working's live synthesis.
+6. Sync VS Code source after ki.prj.tools-burndown delivers the [receiving layout message](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.tools-burndown/messages.md). Retain the [Tower visual prompt](design/tower-assistant-claude-design-prompt.md) for its live apps-tower reference and the [take-stock retro](design/retro-2026-10-20.md) for ki.prj.ways-of-working's live synthesis.
 7. Reconcile source/target drift and cross-host history through their owners before calling the baseline settled; [sync-close](/Users/krisbrown/.local/state/ki.sop.main/agents/chezmoi/sync-close.report.md) holds the latest evidence and its unresolved SYNC-RECONCILE query.
 
 ## Held

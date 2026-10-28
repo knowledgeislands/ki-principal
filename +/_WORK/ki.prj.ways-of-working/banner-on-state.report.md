@@ -35,11 +35,7 @@ Outstanding - no action requested now:
 
 ### NOTE-BANNER - carry BANNER-ON-STATE into the Work Process note
 
-**Context:** The harness standard now says that any coordinator reply that moves the mark, changes the state or answers where the work stands ends with the banner. The standard cites the Work Process note's Banner section in ki-principal for the banner itself. That note does not yet say when a non-report reply carries the banner.
-**Query:** Should a ki-principal run add one sentence on BANNER-ON-STATE to the Work Process note's Banner section?
-**Options:**
-a) (recommended, confidence medium - I did not read the note, so whether it needs the sentence is not verified) queue a short ki-principal run to add the sentence, citing BANNER-ON-STATE
-b) leave the note as it is and let the harness standard hold the rule
+**Context:** The harness standard now says that any coordinator reply that moves the mark, changes the state or answers where the work stands ends with the banner. The standard cites the Work Process note's Banner section in ki-principal for the banner itself. That note does not yet say when a non-report reply carries the banner. **Query:** Should a ki-principal run add one sentence on BANNER-ON-STATE to the Work Process note's Banner section? **Options:** a) (recommended, confidence medium - I did not read the note, so whether it needs the sentence is not verified) queue a short ki-principal run to add the sentence, citing BANNER-ON-STATE b) leave the note as it is and let the harness standard hold the rule
 
 ### 🤖 → 👤 Handoff to supervisor · since 22:43 BST
 

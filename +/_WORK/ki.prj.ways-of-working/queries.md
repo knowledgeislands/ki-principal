@@ -1,4 +1,4 @@
-# ki.ways-of-working queries
+# ki.prj.ways-of-working queries
 
 ## Open
 

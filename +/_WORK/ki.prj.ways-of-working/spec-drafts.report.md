@@ -23,6 +23,7 @@
 Nothing is running.
 
 Outstanding - no action requested now:
+
 - Under SPECIFICATIONS-PROJECT, the drafts and SPEC-HOME pass to `ki.specifications` with a dated line in its `messages.md`; that is the coordinator's move.
 - Once the queries below are answered, the house work-package profile needs a decision on how to carry its seven states (a profile field such as `ki-state`, or a reader mapping), raised with the profile in `ki.specifications`.
 
@@ -30,35 +31,16 @@ Outstanding - no action requested now:
 
 ### ENTRY-NAMES - Upper-case entry files for the three packages
 
-**Context:** Agent Skills marks a package's entry with an upper-case `SKILL.md` and keeps every other file lower-case. The drafts follow that with `WORK.md`, `KNOWLEDGE.md` and `ACQUIRE.md`. The house work package, which the migration pass is moving folders into now, uses a lower-case `work.md`. Choosing upper case means a case-only rename of each live `work.md`. Doing that during the current pass costs least, but on macOS a case-only rename needs `git mv` in two steps.
-**Query:** Should the entry files be upper case, `WORK.md`, `KNOWLEDGE.md` and `ACQUIRE.md`, as Agent Skills does?
-**Options:**
-a) (recommended, confidence medium - matches Agent Skills and marks the entry file at a glance; the cost is one rename across the estate) Upper case for all three, with the house work package renaming `work.md` to `WORK.md` in the current migration pass.
-b) Upper case for `KNOWLEDGE.md` and `ACQUIRE.md` only, keeping `work.md` as built, so the work spec is the one exception.
-c) Lower case for all three: `work.md`, `knowledge.md` and `acquire.md`.
+**Context:** Agent Skills marks a package's entry with an upper-case `SKILL.md` and keeps every other file lower-case. The drafts follow that with `WORK.md`, `KNOWLEDGE.md` and `ACQUIRE.md`. The house work package, which the migration pass is moving folders into now, uses a lower-case `work.md`. Choosing upper case means a case-only rename of each live `work.md`. Doing that during the current pass costs least, but on macOS a case-only rename needs `git mv` in two steps. **Query:** Should the entry files be upper case, `WORK.md`, `KNOWLEDGE.md` and `ACQUIRE.md`, as Agent Skills does? **Options:** a) (recommended, confidence medium - matches Agent Skills and marks the entry file at a glance; the cost is one rename across the estate) Upper case for all three, with the house work package renaming `work.md` to `WORK.md` in the current migration pass. b) Upper case for `KNOWLEDGE.md` and `ACQUIRE.md` only, keeping `work.md` as built, so the work spec is the one exception. c) Lower case for all three: `work.md`, `knowledge.md` and `acquire.md`.
 
 ### SPEC-VERSION - Whether a package declares which spec version it follows
 
-**Context:** Agent Skills has no spec-version field and puts a skill's own version in `metadata.version`. Work and knowledge packages live for a long time and are rewritten in place, so a later reader may meet one written to an older major version. The drafts add an optional top-level `spec` field (`work/1`, `knowledge/1`, `acquire/1`); when it is absent, a reader assumes version 1. Each package's own version stays in `metadata.version`.
-**Query:** Should the three specs carry the optional `spec` field?
-**Options:**
-a) (recommended, confidence medium - one optional line now avoids guessing at the first breaking change, while staying silent costs nothing until then) Keep the optional `spec` field, absent meaning version 1.
-b) Follow Agent Skills exactly: no field, with the spec version carried only by the published page.
-c) Make `spec` required from version 1.
+**Context:** Agent Skills has no spec-version field and puts a skill's own version in `metadata.version`. Work and knowledge packages live for a long time and are rewritten in place, so a later reader may meet one written to an older major version. The drafts add an optional top-level `spec` field (`work/1`, `knowledge/1`, `acquire/1`); when it is absent, a reader assumes version 1. Each package's own version stays in `metadata.version`. **Query:** Should the three specs carry the optional `spec` field? **Options:** a) (recommended, confidence medium - one optional line now avoids guessing at the first breaking change, while staying silent costs nothing until then) Keep the optional `spec` field, absent meaning version 1. b) Follow Agent Skills exactly: no field, with the spec version carried only by the published page. c) Make `spec` required from version 1.
 
 ### CONFORMANCE-LEVELS - One validity level or graded levels
 
-**Context:** Agent Skills has one level: a skill is valid or not, and size and quality are recommendations. The retired KIS-0001 had Minimal, Standard and Extended levels. The drafts use one level: hard rules make a package valid, soft limits are warned and never failed, and quality is left to a reviewer's judgement.
-**Query:** Should each spec have a single validity level, as Agent Skills does?
-**Options:**
-a) (recommended, confidence high - matches Agent Skills, and nothing yet needs a graded level) One level per spec, with soft limits warned.
-b) Graded levels (Minimal, Standard and Extended) as in KIS-0001.
+**Context:** Agent Skills has one level: a skill is valid or not, and size and quality are recommendations. The retired KIS-0001 had Minimal, Standard and Extended levels. The drafts use one level: hard rules make a package valid, soft limits are warned and never failed, and quality is left to a reviewer's judgement. **Query:** Should each spec have a single validity level, as Agent Skills does? **Options:** a) (recommended, confidence high - matches Agent Skills, and nothing yet needs a graded level) One level per spec, with soft limits warned. b) Graded levels (Minimal, Standard and Extended) as in KIS-0001.
 
 ### SPEC-HOME - Where the three specs live
 
-**Context:** You left the home open: the owning skills, or `knowledgeislands.info/specs/{work,knowledge,acquire}`, and SPECIFICATIONS-PROJECT passes the choice to `ki.specifications`. The evidence: the drafts are tool-neutral and ready for either home. Two of the three have an existing skill (`ki-work-package` and `ki-acquire`), but their standards are written in the house dialect, so each would hold the portable spec beside its own profile. `knowledge` has no owning skill. The website has another session (Claude Design) working in it. KI Specifications is on hold until v1 under KI-SPECS-PLAN. Publishing is outward-facing and hard to take back.
-**Query:** Should the specs be held in the owning skills now and published to the website later, from the same text?
-**Options:**
-a) (recommended, confidence medium - avoids publishing drafts and the website clash, and keeps one text to publish later; `knowledge` still needs an owning skill) Hold each portable spec as one reference in its owning skill, with a new skill for `knowledge`, and publish the same text at `knowledgeislands.info/specs/` once `ki.specifications` is satisfied and Claude Design has finished.
-b) Publish at `knowledgeislands.info/specs/` now, with the skills linking to the pages.
-c) Keep the drafts in `ki.specifications`'s work folder until KI Specifications opens v1, then raise them as KIPs.
+**Context:** You left the home open: the owning skills, or `knowledgeislands.info/specs/{work,knowledge,acquire}`, and SPECIFICATIONS-PROJECT passes the choice to `ki.specifications`. The evidence: the drafts are tool-neutral and ready for either home. Two of the three have an existing skill (`ki-work-package` and `ki-acquire`), but their standards are written in the house dialect, so each would hold the portable spec beside its own profile. `knowledge` has no owning skill. The website has another session (Claude Design) working in it. KI Specifications is on hold until v1 under KI-SPECS-PLAN. Publishing is outward-facing and hard to take back. **Query:** Should the specs be held in the owning skills now and published to the website later, from the same text? **Options:** a) (recommended, confidence medium - avoids publishing drafts and the website clash, and keeps one text to publish later; `knowledge` still needs an owning skill) Hold each portable spec as one reference in its owning skill, with a new skill for `knowledge`, and publish the same text at `knowledgeislands.info/specs/` once `ki.specifications` is satisfied and Claude Design has finished. b) Publish at `knowledgeislands.info/specs/` now, with the skills linking to the pages. c) Keep the drafts in `ki.specifications`'s work folder until KI Specifications opens v1, then raise them as KIPs.
