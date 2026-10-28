@@ -52,5 +52,7 @@ I removed both. Provenance now lives only in the knowledge package's Sources sec
 **Query:** Should the drafts keep both link fields removed, rather than keep a one-way citation field?
 
 **Options:**
+
 a) (recommended, confidence medium - this follows KNOWLEDGE-AS-SKILL's "drop the transition" most closely, but it removes fields the owner had seen in drafts 0.2 and 0.3) Keep both removed, with provenance carried only by Sources.
+
 b) Restore a one-way, non-reciprocal `metadata.sources`-style key on knowledge, an optional machine-readable list of the external references cited, with no field on acquire.

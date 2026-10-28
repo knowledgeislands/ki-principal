@@ -46,6 +46,7 @@
 Nothing is running.
 
 Outstanding - no action requested now:
+
 - `design/plan.md` is uncommitted. Commit it at receive.
 - Two later queries are named in the plan and will be raised when their steps come: SPEC-TEXT at step 5 and SPEC-PUBLISH at step 8.
 - I have not sent the medium-confidence queries below for blind review. That review is due before they reach Kris.
@@ -60,8 +61,11 @@ Outstanding - no action requested now:
 **Query:** Should the house package stay a mapped profile of `work`, or be changed to conform to it?
 
 **Options:**
+
 a) (recommended, confidence medium - this leaves the readers and 33 live packages alone, but the case is not reviewed) Keep the house as a mapped profile. The spec stays aligned with Agent Skills. ENTRY-NAMES then decides only the spec's file name, and the house's ways of working move out of the spec into the profile.
+
 b) Make the house conform. ki.ways-of-working runs a second estate-wide rename, with reader changes routed to ki.tools-burndown and ki.observatory.
+
 c) Bend the spec to the house: `id`, `since`, seven states and `work.md`.
 
 ### KNOWLEDGE-SKILL - Which skill owns the `knowledge` spec?
@@ -71,13 +75,17 @@ c) Bend the spec to the house: `id`, `since`, seven states and `work.md`.
 **Query:** Where should the `knowledge` spec be homed?
 
 **Options:**
+
 a) (recommended, confidence medium - this gives a clear owner and mirrors the other two specs, but the case is not reviewed) A new governance skill, for example `ki-knowledge-package`, that owns the spec and later its rubric.
+
 b) `ki-repo-kb`, as a reference alongside the island method.
+
 c) `ki-skills`, next to the Agent Skills reference.
 
 ### SPEC-LIVE-READ - One read-only check of agentskills.io
 
 **Context:** Four points rest on memory or on a reference that is three weeks old:
+
 - whether Agent Skills keeps other files lower-case;
 - `metadata.version`;
 - whether `skills-ref` rejects unknown top-level keys, which decides whether "is also a valid skill" can stand;
@@ -86,7 +94,9 @@ c) `ki-skills`, next to the Agent Skills reference.
 **Query:** May the next run read the live specification page, its licence and the `skills-ref` validator source, read-only?
 
 **Options:**
+
 a) (recommended, confidence high - read-only and reversible, and steps 3 and 8 depend on it) Yes, in one run that writes `design/agentskills-check.md`.
+
 b) No. Drop the "valid skill" claims and treat the licence as unknown until publication.
 
 ### MOVE-GATE - Where does this Project finish?
@@ -96,12 +106,15 @@ b) No. Drop the "valid skill" claims and treat the licence as unknown until publ
 **Query:** Should the Project close once the specs are published and the move is handed off, or stay open until KI Specifications accepts them?
 
 **Options:**
+
 a) (recommended, confidence medium - the Project can then finish, and the handoff carries the move, but the case is not reviewed) Finish at publication, with a blocking handoff record in KI Specifications' roadmap.
+
 b) Stay open, on hold after publication, until KI Specifications restarts and accepts the KIPs.
 
 ### PROJECT-NAME - correction
 
 **Context:** The review preferred b), a new slug. Two new facts favour a):
+
 - Kris's words were "start a project under model called specifications".
 - The paused Project's review of KI Specifications is a prerequisite for this Project's final move. That repository's numbering contradicts itself, and it still ships the retired Knowledge Package templates and schema.
 
@@ -110,13 +123,17 @@ Option c) would have to rewrite links in `website.md`, `trades-revamp.md`, `spec
 **Query:** Should the paused Specifications Project be folded into this work?
 
 **Options:**
+
 a) (recommended, confidence medium - Kris's own words and the dependency support it, but the earlier review disagreed) Fold it in. The outcome becomes the three specs plus the readiness of KI Specifications, and the KBEP and KBIP dispositions carry over.
+
 b) Give this work a new slug, and keep the paused Project for later.
+
 c) Rename the paused Project and reuse `specifications`.
 
 ### ENTRY-NAMES - correction
 
 **Context:** Three claims in the query's Context need correcting:
+
 - "Two-step `git mv` on macOS" is wrong: a single `git mv` stages the case-only rename here.
 - "The current migration pass" is stale: that pass has already run over 33 packages.
 - "Agent Skills keeps every other file lower-case" cannot be checked locally, and the live examples may use `REFERENCE.md`.
@@ -126,7 +143,9 @@ The real hazard is different. On macOS, a reader still opening `work.md` keeps w
 **Query:** Should the spec's entry files be named `WORK.md`, `KNOWLEDGE.md` and `ACQUIRE.md`, or `work.md`, `knowledge.md` and `acquire.md`?
 
 **Options:**
+
 a) (recommended, confidence medium - this matches the live house name and avoids a second rename, and the review already preferred it) Lower case.
+
 b) Upper case, to mirror `SKILL.md`.
 
 ### SPEC-VERSION - correction
@@ -136,7 +155,9 @@ b) Upper case, to mirror `SKILL.md`.
 **Query:** Should the spec version stay as an optional top-level `spec` field?
 
 **Options:**
+
 a) (recommended, confidence medium - this is the safe choice until SPEC-LIVE-READ, but the case is not reviewed) Keep `spec` optional, but put it in `metadata.spec` together with the other single-value fields. Decide where lists go after the live check.
+
 b) Keep the top-level `spec`, as the query recommends, and drop the "valid skill" claims.
 
 ### 🤖 → 👤 Handoff to supervisor · since 23:37 BST

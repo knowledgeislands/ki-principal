@@ -19,6 +19,7 @@
 Nothing is running.
 
 Outstanding - no action requested now:
+
 - The temp folder `/var/folders/6b/b4c73j8s6w12g2k9_yl652_h0000gn/T/ki-agents/specifications/live-read/src/` still holds three public source files downloaded for line-exact quotation. My delete needed a permission I did not have. Nothing in them needs keeping, so `ki agent close` or a manual delete may clear them.
 - The harness drift items D1 and D2 are for the next `ki-skills` REFRESH in ki-agentic-harness.
 - The note is uncommitted in the work folder, for the coordinator to commit at receive.
@@ -28,7 +29,11 @@ Outstanding - no action requested now:
 ### VALID-SKILL - Keep "also a valid skill" by moving added fields into `metadata`?
 
 **Context:** `skills-ref validate` rejects any top-level key except `name`, `description`, `license`, `compatibility`, `metadata` and `allowed-tools`. As drafted, `knowledge` adds `updated`, `acquired-with` and `spec` at top level, and `acquire` requires `source` and `mutation` and adds `omissions`, `produces` and `spec`. So no package using them is a valid skill, and every conforming acquire package fails. Moving them into `metadata` as quoted strings keeps the claim true at the cost of nesting. Agent Skills itself suggests `metadata` "to store additional properties not defined by the Agent Skills spec". `omissions` would become one comma-separated string. `work` makes no such claim and its dotted names fail anyway.
+
 **Query:** For revise-drafts (step 3), should `knowledge` and `acquire` move their added fields into `metadata` so the valid-skill claim holds, or drop the claim?
+
 **Options:**
+
 a) (recommended, confidence medium - interoperability with existing skill tooling is the point of following Agent Skills, and `metadata` is its stated home for extra properties; not blind-reviewed) Move them into `metadata` for `knowledge` and `acquire`, keep the claim, and leave `work`'s top-level fields as they are, listed under "Different".
+
 b) Keep the fields at top level, drop both sentences, and say the packages share Agent Skills' layout but are not valid skills.
