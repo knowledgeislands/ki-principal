@@ -9,8 +9,8 @@ description: >-
   Develops the provider-neutral knowledge acquisition model and method, with Acquire as the port that takes in,
   preserves and dispatches knowledge. Takes acquisition lifecycle design, capture contracts and provider skills,
   and dispatch design. Not for tools-ki
-  importers (ki.tools-burndown), the Observatory (ki.observatory), chezmoi and trades (ki.chezmoi) or the acquire
-  specification (ki.portable-specifications). Not taking new units.
+  importers (ki.prj.tools-burndown), the Observatory (ki.prj.observatory), chezmoi and trades (ki.prj.chezmoi) or the acquire
+  specification (ki.prj.portable-specifications). Not taking new units.
 worker: agent
 supervisor: owner
 created_at: 2026-10-08T08:35:00Z

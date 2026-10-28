@@ -1,6 +1,10 @@
 # Decisions
 
-- PILOT-GO · Kris, 17 October 2026, 22:30 BST: build and stage the Known World seed pack on Sonnet, publishing nothing yet, once state-of-play has copied section 4 of the foundations-coherence report. Homed on 20 October by a line in State of play's [messages](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/messages.md), beside PILOT-SEED.
+## PILOT-GO (2026-10-17T21:30:00Z)
+
+class: operational
+
+- Kris, 17 October 2026, 22:30 BST: build and stage the Known World seed pack on Sonnet, publishing nothing yet, once state-of-play has copied section 4 of the foundations-coherence report. Homed on 20 October by a line in State of play's [messages](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/messages.md), beside PILOT-SEED.
 
 ## KA-FINISH (2026-10-20T03:51:13Z)
 
