@@ -6,11 +6,11 @@ title: 'KI > Foundations > Tools burndown'
 project: tools-burndown
 theme: foundations
 description: >-
-  Burns the tools-ki, tools-mgit and tools-git-almanac roadmaps and the CLI-shaped ki-agentic-harness records
-  down to zero, ending with the ki and mgit releases, and runs the only tools-ki writer. Takes tools-ki and `ki`
-  CLI work, including `ki work status` readers and record fields, mgit and git-almanac records, their
-  releases, and the estate commit-gate hooks convention (HOOKS-STANDARD). Not for Rig and dotfiles (ki.chezmoi, ki.mac-studio-setup), the work model (ki.ways-of-working), the
-  Observatory (ki.observatory) or territory dispatch (ki).
+  Burns the tools-ki, tools-mgit and tools-git-almanac roadmaps and the CLI-shaped harness records down to zero,
+  ending with the ki and mgit releases, and runs the only tools-ki writer. Takes `ki` CLI work, mgit and
+  git-almanac records, their releases and the commit-gate hooks convention (HOOKS-STANDARD). Not for Rig and
+  dotfiles (ki.prj.chezmoi, ki.prj.mac-studio-setup), the work model (ki.prj.ways-of-working), the Observatory
+  (ki.prj.observatory) or territory dispatch (ki.sop.main).
 worker: agent
 supervisor: owner
 created_at: 2026-10-16T00:05:00Z
