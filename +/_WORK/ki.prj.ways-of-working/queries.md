@@ -2,21 +2,33 @@
 
 ## Open
 
-### CROSS-MACHINE-SOURCE - Identify any unpublished other-machine changes
+### CROSS-MACHINE-SOURCE - Other-machine changes to the older model amendment
 
-**Context:** The affected existing origins have been fetched and both sides of the observed Principal/HNR integrations are preserved. Fetch cannot reveal changes still only on the other machine. Both model/naming approvals are already recorded; this question is about source safety, not another approval.
+**Context:** Non-HNR naming is complete and the checked Principal, Harness, Tools and Personal branches match their fetched origins. The older approved [KI-PRINCIPAL-MOD-011](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-011-amend-work-model-assigned-package-cascade.md) amendment must now be reconciled with newer canonical wording. Git cannot reveal unpublished changes on your other machine. Its approval remains valid; this is only a source-overlap question.
 
-**Query:** Have all affected other-machine changes been pushed to origin, or which repositories still have unpublished work?
+**Query:** Are there unpublished other-machine changes to Work Process, the work-model decision record or MOD-011 that this reconciliation must preserve?
 
 **Options:**
 
-a) (recommended, confidence high - identifies the actual source boundary while preserving every unpublished change) Confirm all are pushed, or name the repositories that are not; use reconciled published sources and keep unconfirmed areas untouched.
+a) (recommended, confidence high - identifies the actual overlap without blocking completed naming work) Confirm none, or name the affected files/repositories; continue from published sources and preserve any unresolved overlaps.
 
-b) Leave cross-machine integration and namespace migration pending, with work limited to isolated candidates and receiver planning until that information is available.
+b) Keep this older canonical amendment parked until the next attended cross-machine sync.
+
+### FINISH-LINE - Give Ways of working a finite completion scope
+
+**Context:** Naming, coordination eligibility and the shared footer are delivered. Remaining small repairs, independent reviews and tidy-up can form a finite closeout. Host synchronisation, at-rest behaviour, message forwarding and request/reply trades need further design. Continuing method stewardship already belongs to KI State of play after an acknowledged handover; the question is which work must finish inside this Project first.
+
+**Query:** Should this Project finish the approved bounded repairs and reviews, then close with the design-heavy remainder explicitly owned elsewhere?
+
+**Options:**
+
+a) (recommended, confidence high - gives this delivery a clear end while retaining every outstanding need) Finish the bounded fixes, reviews and cleanup; hand remaining designs to named packages through KI State of play with acknowledged ownership, then close Ways of working.
+
+b) Keep Ways of working open until host synchronisation, at-rest behaviour, forwarding and request/reply trades are also designed and delivered.
 
 ## Parked
 
-- PACKAGE-FORWARDING - PKG-POINTER original request preserved at bcb3c1a3:+/_WORK/ki.prj.ways-of-working/messages.md and the Principal enactment report. Owner approved one authoritative package and a Capital discovery reference; principal-only message forwarding remains separate design before any relay or second queue is built.
+- PACKAGE-FORWARDING - PKG-POINTER original request preserved at bcb3c1a3:+/_WORK/ki.ways-of-working/messages.md and the Principal enactment report. Owner approved one authoritative package and a Capital discovery reference; principal-only message forwarding remains separate design before any relay or second queue is built.
 - PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.
 - STEWARD-FIELD - where a package records who looks after it; reviews disagree, the harness carries the model with a marked placeholder and the Valle Armonia pilot runs on `worker` as it is. Recommended: a new dedicated field taking `work/<id>` values only. Parked under the 27 October bulk reading; comes back if the pilot needs it.
 - LEGACY-PREFIX - whether a `repo_code` rename stays a one-sweep change; renames are rare and Personal's runs as one sweep, while an allowance costs two checkers and tools-ki. Recommended: write the one-sweep rename into `ki-work-roadmap`. Parked under the 27 October bulk reading; comes back at the next rename.

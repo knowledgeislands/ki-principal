@@ -1146,7 +1146,7 @@ Acquire has therefore both received and acted on the decision, with local guidan
 
 ### Final documentation-only incoming message reconciliation - 28 October 2026
 
-All feature, Acquire receipt and earlier reconciliation units are DONE and Acquire final refresh is published. Principal final sync found exactly one new published peer commit b58a6250 in ki.chezmoi/messages.md, disjoint from our two local handoff/separator-history commits. Authorise a bounded final documentation reconciliation in an isolated worktree: preserve both parents and exact peer inbox blob plus every local handoff blob, merge this known disjoint message, fast-forward clean primary and push ordinary documentation only. New or contested content stops; no reset, stash, code publication, build or audit. This is the standing low-risk documentation sync duty, not a new user decision.
+Completed; the later Generalise safe inbox-only final sync entry owns the superseding boundary, and Final documentation sync received records the result.
 
 ### Generalise safe inbox-only final sync - 28 October 2026
 
@@ -1223,3 +1223,19 @@ Kris proposed replacing the long Observatory closing line with "🧵 ki.prj.obse
 Kris: "are you delegating and getting stuff done efficiently?" Read back candidly: naming and all 31 non-HNR notices are delivered; the next drafts were not yet running. Correct by dispatching three bounded units now: major package cleanup/closure notices, exact remaining-work stocktake, and footer-first shared implementation plus Markdown writer/gate fixes within existing approved needs. No new design loop or duplicate broad audit. HNR remains untouched; normal installed hooks, source ownership and privacy still apply.
 
 Final naming receipt: wow-principal-naming-finish is DONE, Principal's fifteen notices published, making 31 total with the prior sixteen. ki.reg.main is canonical; twenty-five old specifications reports relocated unchanged under ki.prj.portable-specifications and old report-only directories removed. Rig terra NAMING-DONE is published. Other received naming acknowledgements show some metadata-write freezes still wait for a completion message, so the cleanup unit must issue a short NAMING-DONE to remaining non-HNR recipients, preserving actual work holds/states. No new naming approval is required.
+
+### Owner mark and closeout receipts - 2026-10-28T23:30:33Z
+
+Kris: "mark and give me a summary with queries and context". Strike this package mark; no hold, stopped worker or acceptance is inferred. Previous mark: 2026-10-25T01:07:00Z.
+
+Received wow-closeout-tidy, wow-closeout-stocktake and wow-footer-md-finish, all DONE. Cleanup 3e2f2a3c removes 109 completed reports and 12 received briefs. Snapshot 276 to 155 files; retained 93 reports, six briefs, 51 design assets and five governing files. Recovery of all 271 non-governing inventory files is hash-verified at /Users/krisbrown/.local/state/ki/work-archives/ways-of-working-tidy-20261028 (inventory.json and SHA256SUMS). New runtime report copies are outside those snapshot totals. Peer baseline f776843a had already tracked/published 122 formerly private reports. This tidy did not add them or erase their earlier publication; actual exposure needs private read-only assessment, with no payload repeated here.
+
+Naming delivered across 31 non-HNR homes; completion coverage exists for 30, Observatory queue still held by its writer. Normal work holds unchanged. Shared footer afb126f2 and exclusion-aware frontmatter walker 79c9e4cc published; excluded capture bytes preserved. GOV-234 and CLI-175 join four prior delivered coordination/naming records Awaiting review, not accepted. Current scoped new-content gate evidence passes; estate-wide historical cleanliness and HNR hook-bypass cause remain unproven. Principal canonical footer and Personal formatting overlap remained at worker handoff.
+
+Fresh origin fetch at this mark proves Principal, Harness, tools-ki and Personal primary main level, superseding previous divergence findings for these refs. No fresh all-estate or unpublished-other-machine claim. Applied tidy worker one hash-guarded completed-entry reduction; other live/held authority preserved pending proven graduation.
+
+Finite next sequence: residual footer/Markdown closure; re-ground already-approved MOD-011 semantics against current canonical sources, never replay stale branch; qualify DEPCRUISE-MJS, STREAM9-SHA and GATE-BASELINE-PREFLIGHT; independent review of six new deliveries; guarded tidy and acknowledged stewardship handover. HOOK-SHORTCUT, remaining THREAD-HOME defaults and LINK-1 resolver are real gaps, not delivered by naming. HOST-SYNC, AT-REST, forwarding and request/reply trades need separate designs. CROSS-MACHINE-SOURCE narrowed to actual overlap in older canonical amendment; FINISH-LINE asks completion boundary, not repeated route approval.
+
+wow-mark-followthrough dispatched under existing footer/naming/big-tidy authority: guarded one-path Principal footer, Observatory completion, targeted refresh, check Personal overlap resolution, private read-only exposure assessment and eligible closeout-file cleanup after mark commit. Five governing files excluded. No code, release, deployment, scheduler/provider mutation, purge or HNR operation. Old journals/native identities and held original objects remain intact.
+
+Own NAMING-REORIENT and NAMING-DONE received and removed: canonical package already adopted; naming-only metadata freeze ends, normal holds unchanged. Original lines remain in preceding Git revision. RUNHOME-RENAME and PUSH-RETRY preserved for source-grounded method follow-through; no journal rewrite or blind retry authorised.
