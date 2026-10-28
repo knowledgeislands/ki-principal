@@ -9,8 +9,8 @@ description: >-
   Brings Kris's Mac Studio, sol, back to full estate capability and keeps it level with terra, running the
   tools-rig lane and the at-screen steps only Kris can take. Takes sol and terra setup steps, tools-rig records and
   their order, the listener firewall and key-only SSH, and Adobe and old-checkout clean-up. Not for chezmoi source
-  records (ki.chezmoi), tools-ki and tools-mgit (ki.tools-burndown), the Observatory (ki.observatory) or the work
-  model (ki.ways-of-working).
+  records (ki.prj.chezmoi), tools-ki and tools-mgit (ki.prj.tools-burndown), the Observatory (ki.prj.observatory) or the work
+  model (ki.prj.ways-of-working).
 worker: agent
 supervisor: owner
 created_at: 2026-10-08T08:45:00Z
