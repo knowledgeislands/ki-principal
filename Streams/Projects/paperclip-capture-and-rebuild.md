@@ -35,7 +35,7 @@ This Project sits in [Techne](../Themes/techne.md). Hosting the rebuild on `sol`
 Done on 2026-10-14.
 
 - [Paperclip Operating Lessons](<../../Pillars/Engineering Practice/Operating Model/Paperclip Operating Lessons.md>) in `Pillars/Engineering Practice/Operating Model/` holds what worked, what failed and the rules worth keeping, including the constraints the instance ran under.
-- [paperclip-rebuild-structure](../../+/_WORK/ki.paperclip-capture-and-rebuild/design/paperclip-rebuild-structure.md) in this Project's `design/` folder records the structure to recreate: companies and codes, projects per repository, agents with roles, routines and adapter settings.
+- [paperclip-rebuild-structure](../../+/_WORK/ki.prj.paperclip-capture-and-rebuild/design/paperclip-rebuild-structure.md) in this Project's `design/` folder records the structure to recreate: companies and codes, projects per repository, agents with roles, routines and adapter settings.
 - Agent instruction bundles and configuration, minus secrets, are in the Knowledge Islands source store under `paperclip/2026-10-approach/`. Issues, comments, runs, database backups and a cold copy were deliberately not kept.
 
 ### Shut down
@@ -59,7 +59,7 @@ Waits on the [ways-of-working](ways-of-working.md) model. Questions to settle:
 
 ### Rebuild
 
-Waits on the Design phase. Build fresh per host from [paperclip-rebuild-structure](../../+/_WORK/ki.paperclip-capture-and-rebuild/design/paperclip-rebuild-structure.md): one Paperclip service per host; each territory's company live only on its seat host and absent on the standby; the Knowledge Islands company live on the hub, with Terra reaching it over the tailnet. Remote Paperclip stays an idea under the [Techne Programme Focus](<../../Admin/Governance/Policies/Techne Programme Focus.md>). Kris set this design on 15 October (PAPERCLIP-SEAT, the "One service per host" bullet under [Notes](#notes)), and [ADR-KI-PRINCIPAL-007](../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-007-territory-seats-on-hosts.md) records the territory seats it follows. Each service uses current repository paths, no migration of the `terra` data, and the authenticated deployment mode or a tailnet access policy limited to Kris's own devices before any exposure beyond loopback.
+Waits on the Design phase. Build fresh per host from [paperclip-rebuild-structure](../../+/_WORK/ki.prj.paperclip-capture-and-rebuild/design/paperclip-rebuild-structure.md): one Paperclip service per host; each territory's company live only on its seat host and absent on the standby; the Knowledge Islands company live on the hub, with Terra reaching it over the tailnet. Remote Paperclip stays an idea under the [Techne Programme Focus](<../../Admin/Governance/Policies/Techne Programme Focus.md>). Kris set this design on 15 October (PAPERCLIP-SEAT, the "One service per host" bullet under [Notes](#notes)), and [ADR-KI-PRINCIPAL-007](../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-007-territory-seats-on-hosts.md) records the territory seats it follows. Each service uses current repository paths, no migration of the `terra` data, and the authenticated deployment mode or a tailnet access policy limited to Kris's own devices before any exposure beyond loopback.
 
 ### Close-out assessment
 
