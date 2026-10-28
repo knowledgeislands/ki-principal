@@ -12,7 +12,7 @@ Every machine Kris works on or sends agents to is built in the same four layers.
 
 Here a **role** is what a host is for, and a **layer** is one stage in building a host. Neither is the same as the architectural roles and layers of [Engineering Estate](<Engineering Estate.md>), such as the personal controller or the governance layer, which describe the wider system rather than a single machine.
 
-The detail and the evidence behind this are in the [Rig and Techne boundary audit](../../../+/_WORK/ki.agent-host/design/rig-techne-boundary-audit.md), whose ten decisions Kris accepted on 2026-10-11.
+The detail and the evidence behind this are in the [Rig and Techne boundary audit](../../../+/_WORK/ki.prj.agent-host/design/rig-techne-boundary-audit.md), whose ten decisions Kris accepted on 2026-10-11.
 
 ---
 
@@ -109,7 +109,7 @@ apt, AUR and Nix are deferred until an appliance fleet or an Arch workstation ac
 
 ## Related
 
-- [Rig and Techne boundary audit](../../../+/_WORK/ki.agent-host/design/rig-techne-boundary-audit.md) - the full inventory, options and decisions.
+- [Rig and Techne boundary audit](../../../+/_WORK/ki.prj.agent-host/design/rig-techne-boundary-audit.md) - the full inventory, options and decisions.
 - [ADR-KI-PRINCIPAL-003](../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-003-the-agent-host-workstation-model.md) - how the agent host becomes its owner's working machine.
 - [ADR-KI-PRINCIPAL-006](../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-006-techne-implementation-ownership.md) - which repository owns recipes, providers and bindings.
 - [ODR-KI-PRINCIPAL-001](../../../Admin/Governance/Decisions/ODR-KI-PRINCIPAL-001-keeping-work-safe-on-the-agent-host.md) - how work on the agent host stays safe.

@@ -74,7 +74,7 @@ Prefer Free and Open Source Software and open standards where practical. High-qu
 
 ## Adoption Provenance
 
-The extension to Provider-Neutral Execution and FOSS-First and Inspectable originated in a ChatGPT conversation captured on 2026-10-03 and reconciled on 2026-10-11, when the other principles it proposed were found already held. Kris [adopted both on 2026-10-21](https://github.com/knowledgeislands/ki-principal/blob/d09a675653b3998b60361e71c13daa379e088d57/+/_WORK/ki.ways-of-working/decisions.md#2026-10-21-1435-bst---candidate-principles-and-structure-todos) as qualified engineering decision criteria. Adoption grants no implementation, product, service or provider change. Related unsettled concepts remain in [Emerging Concepts](<../../Philosophy/Emerging Concepts/Emerging Concepts.md>).
+The extension to Provider-Neutral Execution and FOSS-First and Inspectable originated in a ChatGPT conversation captured on 2026-10-03 and reconciled on 2026-10-11, when the other principles it proposed were found already held. Kris [adopted both on 2026-10-21](https://github.com/knowledgeislands/ki-principal/blob/d09a675653b3998b60361e71c13daa379e088d57/+/_WORK/ki.prj.ways-of-working/decisions.md#2026-10-21-1435-bst---candidate-principles-and-structure-todos) as qualified engineering decision criteria. Adoption grants no implementation, product, service or provider change. Related unsettled concepts remain in [Emerging Concepts](<../../Philosophy/Emerging Concepts/Emerging Concepts.md>).
 
 ## Provenance
 

@@ -28,7 +28,7 @@ The [Work Process](<../../Pillars/Philosophy/Model/Processes/Work Process/Work P
 
 ## Context
 
-The ways-of-working Project designed the shape under `ki-work-design`: the brief, two independent reviews and the merged [model shape report](<../../+/_WORK/ki.ways-of-working/design/model-shape-report.md>) of 25 October 2026. Kris decided CASCADE-STEWARD, CASCADE-REPORT, RELATIONS, HOST-SEAT and HOST-TARGET on 25 October, each as its recommended option, with COMMIT-CADENCE and PACKAGE-PUSH the same night, as the [ways-of-working decisions log](<../../+/_WORK/ki.ways-of-working/decisions.md>) records. Harness commit `1af72f2e` carries them in `ki-coordination`, `ki-work-package`, `ki-work-roadmap` and `ki-delegation`, with target dates (DUE-FIELD) and the package homes, leaving STEWARD-FIELD a marked placeholder.
+The ways-of-working Project designed the shape under `ki-work-design`: the brief, two independent reviews and the merged [model shape report](<../../+/_WORK/ki.prj.ways-of-working/design/model-shape-report.md>) of 25 October 2026. Kris decided CASCADE-STEWARD, CASCADE-REPORT, RELATIONS, HOST-SEAT and HOST-TARGET on 25 October, each as its recommended option, with COMMIT-CADENCE and PACKAGE-PUSH the same night, as the [ways-of-working decisions log](<../../+/_WORK/ki.prj.ways-of-working/decisions.md>) records. Harness commit `1af72f2e` carries them in `ki-coordination`, `ki-work-package`, `ki-work-roadmap` and `ki-delegation`, with target dates (DUE-FIELD) and the package homes, leaving STEWARD-FIELD a marked placeholder.
 
 The report's rollout plan names, as its second step, one Knowledge Islands Principal record amending the Work Process note's Levels, inbox, Words and "Git is the logbook" sections and GDR-KI-PRINCIPAL-009 in place. Kris answered SINGLE-THREAD a) on 26 October 2026 at 21:25 GMT, read back in the decisions log as "capture the Principal record amending the Work Process note and GDR-KI-PRINCIPAL-009 through the Enactment Process, and open a one-wave Valle Armonia pilot on one named VA Project package". This is that record; the pilot is proposed to Valle Armonia's State of play by a message, not by this record.
 
@@ -47,7 +47,7 @@ The Work Process note already carries the commit cadence and standing push wordi
 
 The existing amendment is selected into Now as a draft through ki-next under the current owner authority and coordinator adoption-timing reading: keep bringing deferred work back, consolidate ways-of-working functionality and act on high confidence. This takes the already-decided/live amendment forward now; it is not a fabricated option-a answer. The original writer is DONE and the seven required Project assessments are complete without Project closure. The actual base and Streams preflight cleared on 27 October 2026 without failures or warnings.
 
-The harness carries the decided cascade; the canonical Work Process and GDR still need the bounded amendment. The [proposed wording](<../../+/_WORK/ki.ways-of-working/design/mod011-wording.md>) is a reviewable working-area input only. Exact wording and plan approval remain with Kris through Enactment, so this record stays draft, with no implementation baseline or invented readiness.
+The harness carries the decided cascade; the canonical Work Process and GDR still need the bounded amendment. The [proposed wording](<../../+/_WORK/ki.prj.ways-of-working/design/mod011-wording.md>) is a reviewable working-area input only. Exact wording and plan approval remain with Kris through Enactment, so this record stays draft, with no implementation baseline or invented readiness.
 
 ## Steps
 
@@ -59,7 +59,7 @@ The harness carries the decided cascade; the canonical Work Process and GDR stil
 
 ## Files touched
 
-Planning: this exact existing record and [mod011-wording.md](<../../+/_WORK/ki.ways-of-working/design/mod011-wording.md>) only. Proposed later implementation, only after Enactment approval: [Work Process](<../../Pillars/Philosophy/Model/Processes/Work Process/Work Process.md>) and [GDR-KI-PRINCIPAL-009](<../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md>). No package files, findings, skills or other records belong to this run.
+Planning: this exact existing record and [mod011-wording.md](<../../+/_WORK/ki.prj.ways-of-working/design/mod011-wording.md>) only. Proposed later implementation, only after Enactment approval: [Work Process](<../../Pillars/Philosophy/Model/Processes/Work Process/Work Process.md>) and [GDR-KI-PRINCIPAL-009](<../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md>). No package files, findings, skills or other records belong to this run.
 
 ## Verify
 

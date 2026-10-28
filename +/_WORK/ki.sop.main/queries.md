@@ -89,7 +89,7 @@ b) Leave both awaiting review.
 
 ### AGENT-HOST - unstick the agent host work
 
-**Context:** [ki.agent-host](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.agent-host/work.md) has sat With worker with no live session, and Kris's own IMPORTANT DRAIN line of 22 October is still unread at the top of its `messages.md`, with the two REFRESH lines beside it. No run can drain another work on State of play's authority.
+**Context:** [ki.agent-host](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.agent-host/work.md) has sat With worker with no live session, and Kris's own IMPORTANT DRAIN line of 22 October is still unread at the top of its `messages.md`, with the two REFRESH lines beside it. No run can drain another work on State of play's authority.
 
 **Query:** Open the agent host thread so it takes DRAIN and REFRESH first?
 
@@ -125,7 +125,7 @@ b) Kris reviews the present plan now and a ki-plan run sets it to Ready.
 
 ### ESTATE-CLOSE - retire Estate factorisation as prepared
 
-**Context:** Under PROJECT-CLOSE a) (25 October) the retirement is prepared in [design/estate-factorisation-retirement.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/design/estate-factorisation-retirement.md): settle HOST-WRITES, ALIAS-OWNERS and RIG-REFS, route the parked queries to their works by message, then Kris accepts the close. Nothing is applied yet.
+**Context:** Under PROJECT-CLOSE a) (25 October) the retirement is prepared in [design/estate-factorisation-retirement.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/design/estate-factorisation-retirement.md): settle HOST-WRITES, ALIAS-OWNERS and RIG-REFS, route the parked queries to their works by message, then Kris accepts the close. Nothing is applied yet.
 
 **Query:** Proceed with steps 1 and 2 of the note, with the close itself waiting for your acceptance?
 
@@ -137,7 +137,7 @@ b) Amend the note first.
 
 ### KA-CLOSE - close the finished Knowledge acquisition work
 
-**Context:** [ki.knowledge-acquisition](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.knowledge-acquisition/work.md) has been Finished since 20 October on Kris's word, all its decisions homed; its [Project](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/knowledge-acquisition.md) is `completed`, and its own next step is to delete the folder in one commit at the closing mark and archive its runs. State of play may not remove another work's folder on its own authority.
+**Context:** [ki.knowledge-acquisition](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.knowledge-acquisition/work.md) has been Finished since 20 October on Kris's word, all its decisions homed; its [Project](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/knowledge-acquisition.md) is `completed`, and its own next step is to delete the folder in one commit at the closing mark and archive its runs. State of play may not remove another work's folder on its own authority.
 
 **Query:** Should a bounded run close it now?
 
@@ -149,7 +149,7 @@ b) Leave the folder until Kris opens that work's thread.
 
 ### SPECS-FOLDER - 25 unowned reports in ki.specifications
 
-**Context:** `+/_WORK/ki.specifications/` has no `work.md` and holds 25 untracked run reports (plan, draft-review, revise, query-review, home-plan and others) from 24 October 21:10, so the work-package audit fails STRUCTURE-1. The [Specifications](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/specifications.md) Project is paused and a separate [ki.portable-specifications](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.portable-specifications/work.md) package exists. Which session produced the reports is not known; nothing has been touched.
+**Context:** `+/_WORK/ki.specifications/` has no `work.md` and holds 25 untracked run reports (plan, draft-review, revise, query-review, home-plan and others) from 24 October 21:10, so the work-package audit fails STRUCTURE-1. The [Specifications](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/specifications.md) Project is paused and a separate [ki.portable-specifications](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.portable-specifications/work.md) package exists. Which session produced the reports is not known; nothing has been touched.
 
 **Query:** Which session or work owns these reports?
 
@@ -183,7 +183,7 @@ c) ki.regular holds them as drafts until Kris prioritises them.
 
 **Options:**
 
-a) (recommended, confidence high - reviewed: each delivery can be bounded on its own without reopening a finished outcome; the open Codex states and cleanup policy are settled at planning) Route both to [ki.regular](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.regular/work.md) as separate pieces of harness skill work.
+a) (recommended, confidence high - reviewed: each delivery can be bounded on its own without reopening a finished outcome; the open Codex states and cleanup policy are settled at planning) Route both to [ki.regular](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.regular.main/work.md) as separate pieces of harness skill work.
 
 b) Route both to ki.ways-of-working.
 
@@ -207,7 +207,7 @@ c) Decline for now; Valle Armonia keeps the Sanctuary.
 
 ### BASELINE - one baseline for every Capital
 
-**Context:** The eight Capitals share 21 core skills but differ on `ki-work-roadmap`, `ki-work-recurring`, Paperclip, acquisition skills, configuration and `AGENTS.md` shape ([skills-assessment.report.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/skills-assessment.report.md)).
+**Context:** The eight Capitals share 21 core skills but differ on `ki-work-roadmap`, `ki-work-recurring`, Paperclip, acquisition skills, configuration and `AGENTS.md` shape ([skills-assessment.report.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/skills-assessment.report.md)).
 
 **Query:** Should one baseline become the standard for every Capital?
 
@@ -261,7 +261,7 @@ c) Leave legal unchanged.
 
 ### HNR-GUIDANCE - rewrite hnr's AGENTS.md
 
-**Context:** hnr's `AGENTS.md` is out of shape against the Capital baseline and carries a stale Headroom block ([skills-assessment.report.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/skills-assessment.report.md)).
+**Context:** hnr's `AGENTS.md` is out of shape against the Capital baseline and carries a stale Headroom block ([skills-assessment.report.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/skills-assessment.report.md)).
 
 **Query:** Should hnr rewrite it?
 
