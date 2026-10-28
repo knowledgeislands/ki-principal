@@ -1035,3 +1035,11 @@ Received the complete queue at Principal commit 40ba0929a994b5f164fa203dc85d2e50
 - METHOD from HNR: carry record-to-Project promotion, principal-default package homes with deliberate exceptions, and principal-seated territory discovery into the current model plan where source authority supports them. Preserve separate record/Project identities, HNR's hold/marks, sovereignty, new roster and real registry bindings; no guessed member roots or metadata proving live thread cwd.
 
 Assigned these inputs to wow-approved-model-plan for provenance and scope classification. Receipt is not adoption of every proposal. Removed exactly these received lines after homing their source/dispositions; no unknown line is discarded.
+
+### Approved plan received; prepare only safe missing work - 28 October 2026, 02:16 GMT
+
+Received wow-approved-model-plan: current-source MOD-011 and typed-reader/pilot dependency matrix is committed, preserving Principal merge and newer HNR work. The exact current canonical model hashes still match the prior wording draft. Source-verified HNR feedback supplies compatible model clarifications; AT-REST is a separately source-approved adoption request with representation choices still separate, interactive flow is separately source-supported, account steering remains a proposal. No new state or account work is included by inference.
+
+Corrected the plan's speculative future serial examples to owner-allocated record descriptions: GOV-231 is already the delivered inbox-boundary record, and no unreserved example is allocation authority. This is a one-line planning correction, not record creation.
+
+Proceed with an isolated current-source MOD-011 implementation candidate and explicit receiving-owner needs. Candidate is reviewable on its own branch only: no primary integration/publication, package rename or HNR/other-territory write until affected-source safety is established. Reader messages request compatible preparation before writers/pilot, with recipient ownership and holds intact; no foreign records are created. The pending factual publication question does not reopen either approval.
