@@ -37,4 +37,4 @@ Kris, 2026-10-28: "I like the chain thing, so we should add that pretty quickly.
 
 ## Report
 
-Write `/Users/krisbrown/.local/state/ki/agents/ki.sop.main/mgit-chain.report.md` in run-report form: Done, In Progress and Queries. Each query carries Context, Query and lettered Options, the recommended option first with its confidence and reason.
+Write `/Users/krisbrown/.local/state/ki/agents/ki-sop-main/mgit-chain.report.md` in run-report form: Done, In Progress and Queries. Each query carries Context, Query and lettered Options, the recommended option first with its confidence and reason.
