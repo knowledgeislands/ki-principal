@@ -15,6 +15,7 @@ method_read: null
 ## Now
 
 - Seeded by State of play to queue its first message; not opened.
+- Five live messages wait for the opening; SITE-DEPS is partly done, rumdl adopted, `@types/node` and Bun still behind.
 
 ## Next steps
 
