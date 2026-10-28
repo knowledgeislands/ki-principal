@@ -1,9 +1,9 @@
 ---
 id: ki.ways-of-working
-state: with-worker
-since: 2026-10-28T16:34:48Z
+state: handoff-to-supervisor
+since: 2026-10-28T16:44:46Z
 received: 2026-10-22T07:24:00Z
-beat: 2026-10-28T16:34:48Z
+beat: 2026-10-28T16:44:46Z
 mark: 2026-10-25T01:07:00Z
 method_read: d03d0e74
 ---
@@ -14,7 +14,7 @@ method_read: d03d0e74
 
 - Approved coordination enactment is delivered: canonical Work Process/GDR9 and Acquire decision/activation notices published; targeted refresh delivered to Acquire, Tools, Observatory and KI.
 - Harness GOV-232 and Tools CLI-173 are integrated locally, Awaiting review with their owning work. Local ki loads current TypeScript directly; no release/build is needed for this delivery.
-- Feature/Acquire units are DONE and their checkouts retired. One final docs-sync worker is preserving freshly arriving disjoint inbox-only updates before publishing the handoff; no further feature work or approval is needed.
+- All current units are DONE; no worker or watcher remains. Documentation histories are reconciled and published, exact delivery checkouts/branches retired, and completed briefs have Git recovery. Private reports remain untouched.
 - Acquire published actual AGENTS/capability activation at 2978dce; its processed inbox survives final merge b9d0a498. Personal registration still routes through KI because its source is contested.
 
 ## Next steps
