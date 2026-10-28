@@ -61,6 +61,7 @@ Log active mistakes here. Delete each entry once the fix is applied and the less
 | 28-10-26 | A canonical commit body exceeded the line length limit | ‖‖‖ |
 | 28-10-26 | A preservation predicate assumed a nonexistent source heading | †††† |
 | 28-10-26 | Progress commentary used inaccurate times | ‡‡‡‡ |
+| 28-10-26 | A persistent advisory lock file was mistaken for held ownership | §§§§ |
 
 † **Root cause:** Did not know about `mcp__cowork__allow_cowork_file_delete` tool; assumed deletion was permanently blocked. **Fix applied:** When `rm` fails with "Operation not permitted" on a mounted island path, immediately call `allow_cowork_file_delete` - do not work around it.
 
@@ -95,3 +96,5 @@ Log active mistakes here. Delete each entry once the fix is applied and the less
 †††† **What went wrong:** In wow-coord-enact-principal, a preservation predicate used a nonexistent heading and failed before integration. **Root cause:** The predicate assumed the source heading rather than checking its exact text. **Fix applied:** The predicate was corrected to the actual heading and passed before integration; no failed attempt changed shared main. Derive exact source literals from the current file before asserting preservation. During wow-coord-followthrough, the first retirement predicate reversed the three-dot diff range and therefore compared later main changes; it failed without removing anything. Correcting it to main...wow-coord-enact-principal proved zero branch-only diff. Check range direction against the property being proved before judging retained work.
 
 ‡‡‡‡ **What went wrong:** In wow-coord-enact-principal, progress commentary times were inaccurate. **Root cause:** Commentary timestamps were not grounded in the system clock. **Fix applied:** Runtime status entries and the final report used the system clock. Read the local clock for timestamped updates rather than estimating the time. The follow-through also stamped one progress update 15:56 GMT before a subsequent system reading of 15:55 GMT; that commentary timestamp was corrected in its handoff report. The same clock-reading prevention applies.
+
+§§§§ **What went wrong:** wow-coord-enact-harness waited on a persistent advisory lock file as if it proved held ownership. **Fix applied:** actual advisory acquisition established that no writer held the lock, and integration continued under that lock. **Prevention:** check actual advisory acquisition and its owner rather than waiting on file presence.
