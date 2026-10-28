@@ -102,3 +102,7 @@
 ## 2026-10-28 · OBSERVATORY-THREAD (Kris, conversational)
 
 - OBSERVATORY-THREAD, read back as taken: "I should have a thread which is dedicated or project for the observatory thread, a coordination thread for that, because there's probably quite a lot of stuff that can be moved on the observatory and really giving us some value out of it." Kris opens a Project coordination thread on the existing ki.prj.observatory package (on hold since 20 October, 38 messages queued) with its opener from `ki agent prompts`; State of play does not open or release it for him.
+
+## 2026-10-28 · BASELINE-CLEAN (Kris, conversational)
+
+- BASELINE-CLEAN, read back as taken: "you're looking after everything apart from ways of working and the observatory. And what's really key is that we optimize those work packages down now, to make sure that we're not only dealing with files for things which are still active and relevant ... there's quite a lot of messages and there's quite a lot of queries in some of these work packages. So you need to work through them bit by bit. So we need to get to some really nice clean baselines soon." State of play tends every KI work package in ki-principal except ki.prj.ways-of-working and ki.prj.observatory, which have their own threads. First a read-only census of all packages for the total picture, then package-by-package tidy runs: prune what has a durable home, dispose of messages, and bring obsolete queries to Kris for dropping. Anything needing Kris comes back as a query; no records captured and no acceptance.
