@@ -1,6 +1,6 @@
 ---
 id: ki.ways-of-working
-state: handoff-to-supervisor
+state: with-worker
 since: 2026-10-28T16:12:11Z
 received: 2026-10-22T07:24:00Z
 beat: 2026-10-28T16:12:11Z
@@ -14,8 +14,8 @@ method_read: d03d0e74
 
 - Approved coordination enactment is delivered: canonical Work Process/GDR9 and Acquire decision/activation notices published; targeted refresh delivered to Acquire, Tools, Observatory and KI.
 - Harness GOV-232 and Tools CLI-173 are integrated locally, Awaiting review with their owning work. Local ki loads current TypeScript directly; no release/build is needed for this delivery.
-- No worker or completion watcher remains. Exact generated Principal checkout/branch retired; evidence and private material preserved. Seven completed briefs pruned with Git recovery.
-- Acquire owns actual AGENTS/capability activation and receipt. Personal registration remains routed through KI because its source is contested; neither is falsely claimed completed.
+- Exact Principal checkout/branch is retired and seven completed briefs pruned with Git recovery. A bounded Acquire queue reconciliation is running after its newer peer activation arrived.
+- Acquire published actual AGENTS/capability activation at 2978dce. Preserve its processed queue while delivering the last refresh. Personal registration still routes through KI because its source is contested.
 
 ## Next steps
 
