@@ -98,3 +98,7 @@
 ## 2026-10-28 · SYNC-ACTIVITY (Kris, conversational)
 
 - SYNC-ACTIVITY, read back as taken: "I think it was being handled ad hoc by the dotfiles thread or agent session. However, there's a bit of work which is going on, which is to have a single coordinated observatory-based, or similar to observatory host-based, regular activity runner, and therefore this could be one of the things that's in there." The recurring Git sync is the dotfiles thread's ad hoc syncing for now; offer it to the single coordinated scheduled-agent service ki.prj.observatory is weighing (TRIAGE-HOURS, SCHEDULED-RESULTS) as a candidate job. Routed as messages to ki.prj.observatory and ki.prj.chezmoi.
+
+## 2026-10-28 · OBSERVATORY-THREAD (Kris, conversational)
+
+- OBSERVATORY-THREAD, read back as taken: "I should have a thread which is dedicated or project for the observatory thread, a coordination thread for that, because there's probably quite a lot of stuff that can be moved on the observatory and really giving us some value out of it." Kris opens a Project coordination thread on the existing ki.prj.observatory package (on hold since 20 October, 38 messages queued) with its opener from `ki agent prompts`; State of play does not open or release it for him.
