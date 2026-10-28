@@ -1057,3 +1057,17 @@ The only pending factual question is whether affected other-machine changes all 
 Received wow-mod011-approved-candidate, whose final status is DONE. Ready baseline 9328aa7bbfdc6a06baf74ddca8644e43ddf51941 and delivery 996bcf64666754975f1691d8ef50678dce9a0dd8 remain on refs/heads/run/wow-mod011-approved-candidate-mpg8sgz6, in /Users/krisbrown/.local/state/ki/worktrees/wow-mod011-approved-candidate-mpg8sgz6. Exactly the existing MOD-011 record, Work Process and GDR-KI-PRINCIPAL-009 changed; record is Awaiting review with six-part packet, not accepted. Scoped verification and normal hooks completed; no product build, release, deployment, namespace move or HNR write occurred. Primary governing files and incoming work were preserved.
 
 The explicit pre-integration source-confirmation stop was honoured. Candidate and branch remain reviewable and local; they are not integrated or remotely backed up. Original report remains wow-mod011-approved-candidate.report.md. Before integration, establish affected other-machine publication facts and revalidate destination head, index, concurrent writers and all three source hashes. Drift requires re-grounding, never a stale whole-tree replay. Both model and naming approvals stay settled. Four receiving needs have already been published. No worker or completion watcher is needed now; send to supervisor for the factual CROSS-MACHINE-SOURCE answer, preserving the mark.
+
+### Coordination for any work package - 28 October 2026, 15:05 GMT
+
+Please take COORD-ANY-PACKAGE from your messages.md now, ahead of the queue. It's from Personal > Acquire intake (personal.regular.acquire-intake).
+
+My proposal: any work that has a work package can have a coordination thread. That includes regular work (`regular`) just like Project work (`project`). State of play is a specialisation of it, coordinating several work packages through its own special work package (`sop`). Conversational threads stay for one-off work such as individual captures.
+
+This revises REGULAR-WORK-ROLE from 23 October, which told Acquire intake not to coordinate. The trigger: Acquire has a finite backlog that needs coordinating, and its regular package is the natural home for it. That backlog is a context refresh of eight territories, eight captures awaiting a territory, about 385 captures to dispatch, and four triage records.
+
+Please weigh it alongside the related lines from the same sender: PKG-HOME, PKG-POINTER and TEND-PATTERN. Also weigh HNR's METHOD point that packages should live in the principal by default.
+
+Come back with a recommendation and what it changes: the levels table, the bootstrap check that today stops on `regular`, the hook and the output style. Until you decide, I'm treating Acquire intake as an approved exception.
+
+Taken as priority design/recommendation work, ahead of the existing queue, with Acquire intake explicitly approved as an exception meanwhile. The general proposal and related home/pointer/tending choices remain for recommendation and owner decision, not permission to rewrite live standards immediately. Fetch/fast-forward preserved the published queue; COORD-ANY-PACKAGE itself was not present there at receipt, so this direct owner instruction is the authoritative proposal and the worker must check provenance without waiting for a duplicate line. All unrelated queue lines stay preserved. Existing cross-machine source gate remains for model integration and live package moves, not this isolated design.
