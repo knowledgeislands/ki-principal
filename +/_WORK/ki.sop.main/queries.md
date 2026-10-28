@@ -34,9 +34,9 @@ b) Keep the current output, with every repository shown.
 
 **Options:**
 
-a) (recommended, confidence medium - reviewed, views differ: the blind reviewer chose this with high confidence because a first Git step that ran and failed has started and may already have changed things; the build run preferred b) Keep it as built: "failed to start" means no step completed, as the build run preferred because a failing first step is the common case worth singling out. The three counts still add up.
+a) (recommended, confidence medium - reviewed, views differ: the blind reviewer chose it at high confidence because a first Git step that ran and failed has started and may already have changed things; the build run preferred b)) Narrow "failed to start" to a repository whose checkout could not be entered; a first step that ran and failed counts as "stopped". The record's Discussion and the tests change to match.
 
-b) Keep it as built: "failed to start" means no step completed, as the build run preferred because a failing first step is the common case worth singling out.
+b) Keep it as built: "failed to start" means no step completed, because a failing first step is the common case worth singling out.
 
 ### MAIL-ASKS - four mail-engine asks waiting for an owner
 
@@ -65,6 +65,52 @@ a) (recommended, confidence high - Kris's own words cover every site he runs, an
 b) Send to Personal and Valle Armonia only, the territories running now, and park Equal Remedy and TechMedix.
 
 c) Hold until you have said which sites sit behind Access.
+
+### OBSOLETE-DROP - drop queries that events have overtaken
+
+**Context:** The census found 15 parked or open queries whose subject no longer exists:
+
+- ki.sop.main: 8.
+- ki.prj.estate-factorisation: 4 (HOST-GUARDS, STORE-REPAIR, TRIAGE-OWNERS and DOCK).
+- ki.prj.agent-host: 1 (CLI006-PLAN).
+- ki.prj.chezmoi: 1 (WARP-HANDLER).
+- ki.prj.baseline-rollout: 1 (VA-AREA-TITLES).
+
+In each case the evidence is a committed acceptance or prune, or a deleted folder. Five more in ki.prj.mac-studio-setup are obsolete on evidence read only on sol: RIG-TRIAGE, SOL-SOURCES, SOL-HNR-HARNESS, SOL-KI-CONFIG-DRIFT and FW-LIVE. The tidy rules let only the owning work delete its own files. This query has not been blind reviewed, because this run could not launch a reviewer.
+
+**Query:** Should each tidy run drop the queries that commits prove obsolete, logging each with its evidence, while bringing the sol-only five to Kris?
+
+**Options:**
+
+a) (recommended, confidence medium, blind review pending - a commit is direct evidence, but host evidence can drift) Each tidy drops the 15 commit-proven queries with a decisions-log line citing the commit, and puts the five sol-evidenced ones to Kris as a batch.
+
+b) Put all 20 to Kris one by one before any drop.
+
+c) Drop all 20 on the census evidence.
+
+### OLD-ORPHANS - possible loss of old repository copies
+
+**Context:** The OLD-ORPHANS query, parked in ki.prj.mac-studio-setup, concerns old orphaned repositories that were to be kept. This census found no checkout of them under `~/workspaces` and no bundle in OneDrive. If they existed only on a retired disk or host, the last copies may already be gone. This query has not been blind reviewed.
+
+**Query:** Do you know where the old orphaned repositories now live?
+
+**Options:**
+
+a) (recommended, confidence medium, blind review pending - only Kris can say whether another copy exists, and nothing should be dropped while that is unknown) Kris names the location or confirms they are gone, and ki.prj.mac-studio-setup records the answer before its query is closed.
+
+b) Treat them as lost and close the query.
+
+### OBS-TRANSFER - Hand the parked Observatory acceptance to its new thread
+
+**Context:** One of my 22 parked questions, ACCEPT-OBSERVATORY, is about accepting Observatory work. It's parked because its review preparation exited early and needs rerunning. With a dedicated Observatory thread, that thread is the natural owner of the rerun and the acceptance. I'd move it there as a message and remove it from my parked list.
+
+**Query:** Shall I hand ACCEPT-OBSERVATORY to the Observatory thread?
+
+**Options:**
+
+a) (recommended, confidence high - Observatory's own thread owns its acceptance, and the move is a message that's easy to undo) Yes, send it to ki.prj.observatory as a message and drop it from my parked list.
+
+b) Keep it parked with me.
 
 ## Parked
 
