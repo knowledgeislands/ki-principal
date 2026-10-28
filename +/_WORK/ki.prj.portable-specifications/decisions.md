@@ -64,7 +64,7 @@ Taken: LINK-FIELDS a), reviewed, confidence high - both link fields stay removed
 
 ## 2026-10-20 01:13 BST - decided under OVERNIGHT-AUTONOMY, CATALOGUE-WRITE, HOMING-REVIEW
 
-Queries (home-plan), each recommended a), confidence medium; query-review-6 (Codex, blind) recommended a) for both, confidence high, with corrections kept in [query-review-6.report.md](query-review-6.report.md).
+Queries (home-plan), each recommended a), confidence medium; query-review-6 (Codex, blind) recommended a) for both, confidence high, with corrections kept in [query-review-6.report.md](https://github.com/knowledgeislands/ki-principal/blob/1e930f1b/+/_WORK/ki.prj.portable-specifications/query-review-6.report.md).
 
 Taken:
 
@@ -77,3 +77,7 @@ Taken:
 Kris: "pause - take stock. Go On hold under current ki-coordination: drain (let a run that will end within about 15 minutes finish, stop any other at a safe point and record where), launch nothing new, commit your own work by explicit path and push only as the standard allows, park every open query, and set state.md to on-hold with reason \"take stock on ways of working\" and release \"Kris says resume\". Before the hold report, write design/retro-2026-10-20.md in your work folder with three headings, Working well, Not working and Would change, in five to ten plain bullets that cite real incidents from this work, and commit it with the hold. Then give the hold report and its resume line."
 
 Read back taken: HOLD-STOCKTAKE - no run is active, so nothing to drain or stop; SPEC-TEXT and HOMING-EDITS are parked; state goes on-hold, reason "take stock on ways of working", release "Kris says resume"; the retro is written to `design/retro-2026-10-20.md` and committed with the hold. No push: other sessions' commits are stacked in ki-principal and ki-agentic-harness. OVERNIGHT-AUTONOMY ends with Kris's return.
+
+## Pointer - SPEC-REVIEW (received 2026-10-28)
+
+State of play's decision, logged on 12 October at 06:45 BST and homed here under DECISION-HOMES (Kris, 25 October), as routed by ki.prj.ways-of-working on 25 October: SPEC-REVIEW starts only once the known Knowledge Islands roadmap records are near zero; its KI-RELEASE half is spent. Received under BASELINE-CLEAN; State of play may strike its entry to a pointer here.

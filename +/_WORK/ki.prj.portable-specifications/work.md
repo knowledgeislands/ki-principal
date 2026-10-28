@@ -9,7 +9,7 @@ description: >-
   Drafts, homes and publishes three portable specifications, `work`, `knowledge` and `acquire`, each using
   progressive disclosure in the agentskills.io specification's conventions, and later moves them into KI
   Specifications. Takes spec drafts, their home and publication. Not for the KI work model or work-package standard
-  (ki.ways-of-working), knowledge-acquisition practice (ki.knowledge-acquisition) or the KI Website itself.
+  (ki.prj.ways-of-working), knowledge-acquisition practice (ki.prj.knowledge-acquisition) or the KI Website itself.
 worker: agent
 supervisor: owner
 created_at: 2026-10-19T13:30:00Z
