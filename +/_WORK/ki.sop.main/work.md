@@ -21,7 +21,7 @@ description: >-
   State of play, the territory's single dispatch coordinator: routes each new unit of work to one work, keeps the
   Project-work queue and coordinates continual improvement of the method, executing nothing. Takes units with no
   clear owner, method improvements and Project-work queueing. Not for executing any Project's work (ki.<project>),
-  method design itself (ki.ways-of-working) or recurring and ad hoc work (ki.regular).
+  method design itself (ki.prj.ways-of-working) or recurring and ad hoc work (ki.regular).
 worker: agent
 supervisor: owner
 created_at: 2026-10-06T21:07:00Z

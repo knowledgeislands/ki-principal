@@ -77,7 +77,7 @@ c) Leave it awaiting review; the blind reviewer names this the proper interim st
 
 ### ACCEPT-OBSERVATORY - accept the two Observatory records
 
-**Context:** Under ACCEPT-OBSERVATORY a) (25 October) Kris chose to review and accept [KI-OBSERVA-BRG-005 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/0966ac3e/docs/roadmap/KI-OBSERVA-BRG-005-act-board-missing-parts.md) and [KI-OBSERVA-VIS-030 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/0966ac3e/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md) through `ki-accept` once ki.observatory had fixed BRG-005's structure. BRG-005 now passes the roadmap audit, so that precondition is met. The review-prep run exited without finishing, so neither review is prepared yet.
+**Context:** Under ACCEPT-OBSERVATORY a) (25 October) Kris chose to review and accept [KI-OBSERVA-BRG-005 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/0966ac3e/docs/roadmap/KI-OBSERVA-BRG-005-act-board-missing-parts.md) and [KI-OBSERVA-VIS-030 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/0966ac3e/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md) through `ki-accept` once ki.prj.observatory had fixed BRG-005's structure. BRG-005 now passes the roadmap audit, so that precondition is met. The review-prep run exited without finishing, so neither review is prepared yet.
 
 **Query:** Rerun the review prep, then accept both records, oldest first?
 
@@ -89,7 +89,7 @@ b) Leave both awaiting review.
 
 ### AGENT-HOST - unstick the agent host work
 
-**Context:** [ki.agent-host](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.agent-host/work.md) has sat With worker with no live session, and Kris's own IMPORTANT DRAIN line of 22 October is still unread at the top of its `messages.md`, with the two REFRESH lines beside it. No run can drain another work on State of play's authority.
+**Context:** [ki.prj.agent-host](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.agent-host/work.md) has sat With worker with no live session, and Kris's own IMPORTANT DRAIN line of 22 October is still unread at the top of its `messages.md`, with the two REFRESH lines beside it. No run can drain another work on State of play's authority.
 
 **Query:** Open the agent host thread so it takes DRAIN and REFRESH first?
 
@@ -137,7 +137,7 @@ b) Amend the note first.
 
 ### KA-CLOSE - close the finished Knowledge acquisition work
 
-**Context:** [ki.knowledge-acquisition](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.knowledge-acquisition/work.md) has been Finished since 20 October on Kris's word, all its decisions homed; its [Project](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/knowledge-acquisition.md) is `completed`, and its own next step is to delete the folder in one commit at the closing mark and archive its runs. State of play may not remove another work's folder on its own authority.
+**Context:** [ki.prj.knowledge-acquisition](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.knowledge-acquisition/work.md) has been Finished since 20 October on Kris's word, all its decisions homed; its [Project](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/knowledge-acquisition.md) is `completed`, and its own next step is to delete the folder in one commit at the closing mark and archive its runs. State of play may not remove another work's folder on its own authority.
 
 **Query:** Should a bounded run close it now?
 
@@ -149,7 +149,7 @@ b) Leave the folder until Kris opens that work's thread.
 
 ### SPECS-FOLDER - 25 unowned reports in ki.specifications
 
-**Context:** `+/_WORK/ki.specifications/` has no `work.md` and holds 25 untracked run reports (plan, draft-review, revise, query-review, home-plan and others) from 24 October 21:10, so the work-package audit fails STRUCTURE-1. The [Specifications](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/specifications.md) Project is paused and a separate [ki.portable-specifications](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.portable-specifications/work.md) package exists. Which session produced the reports is not known; nothing has been touched.
+**Context:** `+/_WORK/ki.specifications/` has no `work.md` and holds 25 untracked run reports (plan, draft-review, revise, query-review, home-plan and others) from 24 October 21:10, so the work-package audit fails STRUCTURE-1. The [Specifications](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/specifications.md) Project is paused and a separate [ki.prj.portable-specifications](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.portable-specifications/work.md) package exists. Which session produced the reports is not known; nothing has been touched.
 
 **Query:** Which session or work owns these reports?
 
@@ -159,11 +159,11 @@ a) (recommended, confidence high - reviewed: unknown ownership cannot justify in
 
 b) Seed a minimal on-hold `ki.specifications` package around them.
 
-c) Move them into ki.portable-specifications.
+c) Move them into ki.prj.portable-specifications.
 
 ### MAIL-MCP-HOME - a home for the mail MCP records
 
-**Context:** Eleven draft records for the mail MCP servers, KI-MCP-M365-TOOL-011 to TOOL-019 in mcp-m365 and KI-MCP-GSUITE-TOOL-008 and TOOL-009 in mcp-gsuite, plus [PERSONAL-DOTFILES-UE-097](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-097-configure-gmail-routing-paths.md) in chezmoi, came to Knowledge Islands on 21 October: "For now, I think it's best to go back to the MCP. So, something in Knowledge Island." No work owns the MCP server repositories: ki.tools-burndown covers the `ki` CLI and Git tools, and ki.regular takes small one-off work.
+**Context:** Eleven draft records for the mail MCP servers, KI-MCP-M365-TOOL-011 to TOOL-019 in mcp-m365 and KI-MCP-GSUITE-TOOL-008 and TOOL-009 in mcp-gsuite, plus [PERSONAL-DOTFILES-UE-097](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-097-configure-gmail-routing-paths.md) in chezmoi, came to Knowledge Islands on 21 October: "For now, I think it's best to go back to the MCP. So, something in Knowledge Island." No work owns the MCP server repositories: ki.prj.tools-burndown covers the `ki` CLI and Git tools, and ki.regular takes small one-off work.
 
 **Query:** Which work should own these records?
 
@@ -171,7 +171,7 @@ c) Move them into ki.portable-specifications.
 
 a) (recommended, confidence high - reviewed: a coherent twelve-record backlog warrants a named owner) Kris registers a mail MCP Project and State of play seeds its package with the records as its first message.
 
-b) ki.tools-burndown widens its scope to the MCP servers.
+b) ki.prj.tools-burndown widens its scope to the MCP servers.
 
 c) ki.regular holds them as drafts until Kris prioritises them.
 
@@ -185,11 +185,11 @@ c) ki.regular holds them as drafts until Kris prioritises them.
 
 a) (recommended, confidence high - reviewed: each delivery can be bounded on its own without reopening a finished outcome; the open Codex states and cleanup policy are settled at planning) Route both to [ki.regular](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.regular.main/work.md) as separate pieces of harness skill work.
 
-b) Route both to ki.ways-of-working.
+b) Route both to ki.prj.ways-of-working.
 
 c) Reopen Knowledge acquisition, or register a successor Project, for both.
 
-d) Route both to ki.baseline-rollout.
+d) Route both to ki.prj.baseline-rollout.
 
 ### SANCTUARY-STAGE5 - take the Sanctuary package at stage 5
 
@@ -213,7 +213,7 @@ c) Decline for now; Valle Armonia keeps the Sanctuary.
 
 **Options:**
 
-a) (recommended, confidence high - reviewed: a common minimum with conditional capabilities, keeping local integration settings and receiver-led adoption) Adopt the baseline, record it in `ki-repo-kb-principal`'s standard through ki.ways-of-working, and message each territory's State of play to conform its own Capital.
+a) (recommended, confidence high - reviewed: a common minimum with conditional capabilities, keeping local integration settings and receiver-led adoption) Adopt the baseline, record it in `ki-repo-kb-principal`'s standard through ki.prj.ways-of-working, and message each territory's State of play to conform its own Capital.
 
 b) Adopt only the skill list now.
 
