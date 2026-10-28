@@ -1,10 +1,10 @@
 # VA consolidation - messages from VA > SoP, grouped by theme
 
-Draft for Kris, written by run va-consolidate under VA-CONSOLIDATE (Kris, 24 October 2026 16:46 BST, in [decisions.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/decisions.md)): "Consolidate messages from VA > SoP (va) in your messages.md into one clear, coherent set ... Keep Kris's quoted words in each; source." Read-only analysis: no `messages.md` line, standard, skill, Work Process note or record has been changed or created. The queries this note raises are in the run report.
+Draft for Kris, written by run va-consolidate under VA-CONSOLIDATE (Kris, 24 October 2026 16:46 BST, in [decisions.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/decisions.md)): "Consolidate messages from VA > SoP (va) in your messages.md into one clear, coherent set ... Keep Kris's quoted words in each; source." Read-only analysis: no `messages.md` line, standard, skill, Work Process note or record has been changed or created. The queries this note raises are in the run report.
 
 Sources read:
 
-- [ki messages.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/messages.md) and [ki.ways-of-working messages.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/messages.md), the va lines in each, cited by tag.
+- [ki messages.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/messages.md) and [ki.prj.ways-of-working messages.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/messages.md), the va lines in each, cited by tag.
 - [va decisions.md](/Users/krisbrown/workspaces/valle-armonia/va-principal/+/_WORK/va/decisions.md), current, with the pruned HTTPS-OTHERS and SANCTUARY-RELATION answers at its [pinned revision `d41e504`](https://github.com/vallearmonia/va-principal/blob/d41e504/+/_WORK/va/decisions.md).
 - The coordination standard, [standards-coordination.md](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md), and [ki-coordination SKILL.md](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/SKILL.md), at harness `main` `57226cdea`.
 - The work package standard, [standards-work-package.md](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md).
@@ -28,13 +28,13 @@ Kris's seven-point model, as VA-CONSOLIDATE states it, is the yardstick:
 
 Kris's words:
 
-- SUMMARY-SINCE-MARK (ki.ways-of-working): "It looks like we're getting items under done which I thought was completely done. So if I do a mark again and then a summary from that, I should have nothing that's done right. And there should be nothing in progress." And: "after this mark, what I'm expecting is done to say nothing since the last mark, and in progress to say nothing is running, in queries to say no outstanding queries ... and it says on hold at the end."
-- SUMMARY-OUTSTANDING (ki.ways-of-working): "all of this can be fed back to the ways of working to make sure that these summaries get clearer and better".
+- SUMMARY-SINCE-MARK (ki.prj.ways-of-working): "It looks like we're getting items under done which I thought was completely done. So if I do a mark again and then a summary from that, I should have nothing that's done right. And there should be nothing in progress." And: "after this mark, what I'm expecting is done to say nothing since the last mark, and in progress to say nothing is running, in queries to say no outstanding queries ... and it says on hold at the end."
+- SUMMARY-OUTSTANDING (ki.prj.ways-of-working): "all of this can be fed back to the ways of working to make sure that these summaries get clearer and better".
 - va decisions, 24 October 12:50 BST: "You don't need to tell me about anything to push ... That's a different thing entirely"; items waiting on others are "just something that you give me as an update. It's not outstanding for this thread"; roadmap items waiting are "nothing to do with the work package".
 
 Replaces: SUMMARY-SINCE-MARK, SUMMARY-OUTSTANDING (its reporting part).
 
-**Already done.** The working-area part of SUMMARY-OUTSTANDING is in Tending: harness `fdb407ebd` and ki-principal `3a575852` (level 3 working-area and package-tidy questions in [tending.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/tending.md)). Push state is already kept out of owner reports and banners by the Banner section of the coordination standard.
+**Already done.** The working-area part of SUMMARY-OUTSTANDING is in Tending: harness `fdb407ebd` and ki-principal `3a575852` (level 3 working-area and package-tidy questions in [tending.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/tending.md)). Push state is already kept out of owner reports and banners by the Banner section of the coordination standard.
 
 **Conflicts with the standards.**
 
@@ -54,13 +54,13 @@ Replaces: SUMMARY-SINCE-MARK, SUMMARY-OUTSTANDING (its reporting part).
 
 No record (CAPTURE-GATE: a standard change on Kris's request goes as an edit by the work that owns the standard, not as a record).
 
-**Carrier.** ki.ways-of-working, which owns the coordination method.
+**Carrier.** ki.prj.ways-of-working, which owns the coordination method.
 
 ### B. A command for each move (model point 6)
 
 **Consolidated line.** Each move in the work model has an explicit `/ki-coordination` command, so that Kris can say the move rather than describe it: at least `hold`, `drain` and `mark`, with `resume`, `send` and `receive` beside them.
 
-Kris's words, COORD-COMMANDS (ki.ways-of-working): "I think there needs to be a number of commands as well that can be passed into the KI coordinate scale. So things, for example, putting something on whole or giving it a mark, you should be able to make that express or explicit by saying KI-coordination mark or KI-coordination hold or KI-coordination drain."
+Kris's words, COORD-COMMANDS (ki.prj.ways-of-working): "I think there needs to be a number of commands as well that can be passed into the KI coordinate scale. So things, for example, putting something on whole or giving it a mark, you should be able to make that express or explicit by saying KI-coordination mark or KI-coordination hold or KI-coordination drain."
 
 Replaces: COORD-COMMANDS.
 
@@ -76,7 +76,7 @@ Replaces: COORD-COMMANDS.
 
 **Proposed change.** Standard edit to `ki-coordination`: add `HOLD`, `DRAIN`, `RESUME`, `SEND` and `RECEIVE` to SKILL.md Operating modes and the Report forms paragraph, each naming the procedure it runs (Putting work on hold, Picking work up, States and moves). `hold` runs the drain and the move to On hold; `drain` stops new launches and lets running work finish while the work stays With worker, ending in a report; the spoken words stay as synonyms. If `drain` is to be a state, the Work Process note changes through the Enactment Process.
 
-**Carrier.** ki.ways-of-working.
+**Carrier.** ki.prj.ways-of-working.
 
 ### C. One State of play thread, packages against threads, metadata and host (model points 1 to 4)
 
@@ -84,11 +84,11 @@ Replaces: COORD-COMMANDS.
 
 Kris's words:
 
-- SINGLE-THREAD (ki.ways-of-working): "looking into how we can effectively do everything through a state of play thread alone. So sometimes it might not have anything to coordinate with, in which case it can delegate down the structure and it can deal with things. It should always still deal with things in the right work package, regardless of whether which thread is dealing with it, right? So there's a difference between work packages and threads, which are things working on the work packages. And basically, I think the idea is that we're taking stuff from effectively the road maps, we're creating then stuff within a work package related to the project that the roadmap item is in, for example. I know it probably is something that we need to get mapped out in terms of a lot of this and there's a lot of documentation to do really. ... I think the basic idea is that for something like Valley Armonia, we really only need to direct it through one single thread, which is focus at the state of play level, and it can then cascade down and deal with all of the work across the work packages that are within all of that."
-- SOP-PROJECT-CARE (ki.ways-of-working): "when you've got a state of play which is running, it also looks after any of the project work packages that are part of that and keeps those sorted out, unless, of course, I've got their own coordination thread, which it should know about somehow. I think one of the key things is that we need to add to the metadata of the threads, what it's related to, so that when we're using the coordination skill we know that and we can find it and look it up. But also it should probably be able to sort of keep a good eye on what it is anyway."
+- SINGLE-THREAD (ki.prj.ways-of-working): "looking into how we can effectively do everything through a state of play thread alone. So sometimes it might not have anything to coordinate with, in which case it can delegate down the structure and it can deal with things. It should always still deal with things in the right work package, regardless of whether which thread is dealing with it, right? So there's a difference between work packages and threads, which are things working on the work packages. And basically, I think the idea is that we're taking stuff from effectively the road maps, we're creating then stuff within a work package related to the project that the roadmap item is in, for example. I know it probably is something that we need to get mapped out in terms of a lot of this and there's a lot of documentation to do really. ... I think the basic idea is that for something like Valley Armonia, we really only need to direct it through one single thread, which is focus at the state of play level, and it can then cascade down and deal with all of the work across the work packages that are within all of that."
+- SOP-PROJECT-CARE (ki.prj.ways-of-working): "when you've got a state of play which is running, it also looks after any of the project work packages that are part of that and keeps those sorted out, unless, of course, I've got their own coordination thread, which it should know about somehow. I think one of the key things is that we need to add to the metadata of the threads, what it's related to, so that when we're using the coordination skill we know that and we can find it and look it up. But also it should probably be able to sort of keep a good eye on what it is anyway."
 - va decisions, 24 October 10:41 BST, on State of play handing items into a repository's inbound area: "There's a difference, isn't there, when you're a state of player, because as a state of player you can push things into a repository to accept, to get on with it."
 - va decisions, 24 October 16:41 BST, on SINGLE-THREAD: "Yeah, make the changes that you need to, please..." (given to va's coordinator for va's own work, not as approval of KI standard changes).
-- COORDINATOR-HOST (ki.ways-of-working), **from Rig > chezmoi > SoP, not from va**: "coordination teams should use a hostname to understand who they're running on. Presumably, they do that already, but if that's not explicit in the skill usage of it, so that you can apply if there's things targeted to particular machines or categories of machines, then we should deal with that."
+- COORDINATOR-HOST (ki.prj.ways-of-working), **from Rig > chezmoi > SoP, not from va**: "coordination teams should use a hostname to understand who they're running on. Presumably, they do that already, but if that's not explicit in the skill usage of it, so that you can apply if there's things targeted to particular machines or categories of machines, then we should deal with that."
 
 Replaces: SINGLE-THREAD, SOP-PROJECT-CARE, COORDINATOR-HOST (grouped here as model point 4 metadata).
 
@@ -109,12 +109,12 @@ Related non-va lines in ki messages.md, for the same design: KI-SOP-PATTERN, SOP
 
 **Proposed change.** A shaping, not a direct edit: the cascade reverses a stated principle of the Work Process note, which is canonical content under the Enactment Process.
 
-- Open a `ki-work-design` brief in ki.ways-of-working covering: threads against packages; the State of play cascade and when a Project thread takes over; roadmap record to Project package; the relation fields (a `parent` on every Project work file naming its State of play, generalising the secondary's field); how a live thread is found without putting host or session into the package (for example a machine-local binding under the `ki agent` state); and whether a message line may target a host or host class.
+- Open a `ki-work-design` brief in ki.prj.ways-of-working covering: threads against packages; the State of play cascade and when a Project thread takes over; roadmap record to Project package; the relation fields (a `parent` on every Project work file naming its State of play, generalising the secondary's field); how a live thread is found without putting host or session into the package (for example a machine-local binding under the `ki agent` state); and whether a message line may target a host or host class.
 - Its outcome edits the Work Process note (Enactment Process, record in `Streams/Roadmap/`), the coordination standard (Territory work, Picking work up) and the work package standard (work file fields, prohibited payloads).
 
 No record from this run (CAPTURE-GATE); the shaping captures its own when Kris approves it.
 
-**Carrier.** ki.ways-of-working, with the Work Process note change through the Enactment Process.
+**Carrier.** ki.prj.ways-of-working, with the Work Process note change through the Enactment Process.
 
 ### D. Tending (model point 7)
 
@@ -122,8 +122,8 @@ No record from this run (CAPTURE-GATE); the shaping captures its own when Kris a
 
 Kris's words:
 
-- TENDING-GUIDANCE-OVERLAP (ki.ways-of-working): "I also meant auditing things like agents.md and claude.md to make sure that we weren't overlapping with things that are already in skills and the promotion of things into skills where there's commonality in their approach across multiple repositories."
-- TENDING-ROADMAP (ki.ways-of-working): "We should probably add that into the list so that we do this for other tending activities."
+- TENDING-GUIDANCE-OVERLAP (ki.prj.ways-of-working): "I also meant auditing things like agents.md and claude.md to make sure that we weren't overlapping with things that are already in skills and the promotion of things into skills where there's commonality in their approach across multiple repositories."
+- TENDING-ROADMAP (ki.prj.ways-of-working): "We should probably add that into the list so that we do this for other tending activities."
 - METHOD and TENDING-ROUND-2 carry va's description, not Kris's quoted words.
 
 Replaces: METHOD, TENDING-ROUND-2, TENDING-GUIDANCE-OVERLAP, TENDING-ROADMAP, and the working-area part of SUMMARY-OUTSTANDING.
@@ -135,23 +135,23 @@ Replaces: METHOD, TENDING-ROUND-2, TENDING-GUIDANCE-OVERLAP, TENDING-ROADMAP, an
 
 **Pending.**
 
-- [tending-round2-notes.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/tending-round2-notes.md) is not yet folded into [tending.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/tending.md).
+- [tending-round2-notes.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/tending-round2-notes.md) is not yet folded into [tending.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/tending.md).
 - Level 3 has no explicit AGENTS.md, CLAUDE.md and agent-memory overlap check.
 - Level 4 has no cross-repository guidance-promotion question.
 
-**Conflicts with the standards.** None found: Tending is a design note in ki.ways-of-working, not yet a standard. The `ki-repo` REVIEW procedure may later want the AGENTS.md overlap question.
+**Conflicts with the standards.** None found: Tending is a design note in ki.prj.ways-of-working, not yet a standard. The `ki-repo` REVIEW procedure may later want the AGENTS.md overlap question.
 
 **Conflicts with the model.** None: point 7 is met for working areas; the guidance-overlap check extends it.
 
-**Proposed change.** Design-note edits in ki.ways-of-working: fold round 2, add the level-3 agent-memory check and the level-4 promotion question. No standard edit and no record now.
+**Proposed change.** Design-note edits in ki.prj.ways-of-working: fold round 2, add the level-3 agent-memory check and the level-4 promotion question. No standard edit and no record now.
 
-**Carrier.** ki.ways-of-working.
+**Carrier.** ki.prj.ways-of-working.
 
 ### E. Size labels
 
 **Consolidated line.** Show a record's size as a T-shirt label in capitals, 👕 S, 👕 M, 👕 L, 👕 XL, in reports and messages.
 
-Kris's words, va decisions T-SHIRT-SIZES (24 October 08:42 BST): "I wonder if there's a way of showing a T-shirt with S, M, etc. next to it. And probably put it in a capital letter, almost like it's a label for a t-shirt." TENDING-SIZES (ki.ways-of-working) asks KI to consider it for the sizing guidance.
+Kris's words, va decisions T-SHIRT-SIZES (24 October 08:42 BST): "I wonder if there's a way of showing a T-shirt with S, M, etc. next to it. And probably put it in a capital letter, almost like it's a label for a t-shirt." TENDING-SIZES (ki.prj.ways-of-working) asks KI to consider it for the sizing guidance.
 
 Replaces: TENDING-SIZES.
 
@@ -160,13 +160,13 @@ Replaces: TENDING-SIZES.
 **Conflicts with the standards.**
 
 - `ki-work-roadmap` [standards-work-item-format.md](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-work-roadmap/references/standards-work-item-format.md), Priority and size: `size` is `s`, `m`, `l` or `xl`, and `xl` must be split before Ready. There is no `xs`, yet BIND-2 was labelled 👕 XS.
-- [roadmap-sizing-and-burn-down.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/roadmap-sizing-and-burn-down.md) (14 October) still describes Fibonacci points 1 to 13, superseded by the `size` field.
+- [roadmap-sizing-and-burn-down.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/roadmap-sizing-and-burn-down.md) (14 October) still describes Fibonacci points 1 to 13, superseded by the `size` field.
 
 **Conflicts with the model.** None.
 
 **Proposed change.** Standard edit to `ki-work-roadmap` Priority and size: a display convention, 👕 plus the capital letter, for reports and messages, with the field values unchanged and no XS. Mark the Fibonacci text in the sizing note superseded.
 
-**Carrier.** ki.ways-of-working.
+**Carrier.** ki.prj.ways-of-working.
 
 ## Product and defect lines
 
@@ -202,13 +202,13 @@ Replaces: TENDING-SIZES.
 
 **Proposed change.** A standard edit to `ki-repo-harness` Root orientation, pointing at root `AGENTS.md` with `CLAUDE.md` importing it, plus a scaffold and rubric item. Whether a record may be captured is unclear under CAPTURE-GATE: it is a Tending finding of a standards conflict, not a defect seen failing, and not a Kris request.
 
-**Carrier.** ki.baseline-rollout, as a line in its `messages.md`.
+**Carrier.** ki.prj.baseline-rollout, as a line in its `messages.md`.
 
 ### I. Sanctuary stage 5
 
 **Line.** SANCTUARY-STAGE5 (ki messages.md, from va, 24 October 01:54 BST): Kris wants the Sanctuary to be "a package effectively that is available in the Knowledge Islands". Kris decided (SANCTUARY-RELATION a, "VA 2-4, KI 5", pruned at [`d41e504`](https://github.com/vallearmonia/va-principal/blob/d41e504/+/_WORK/va/decisions.md)) that Valle Armonia delivers stages 2 to 4 of [ADR-VA-WEBSITE-009](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/decisions/ADR-VA-WEBSITE-009-the-sanctuary-becomes-a-shared-editorial-library.md) under va Project `sanctuary-library`, and KI takes stage 5: a separate, vendored package repository. va asks KI to agree, or say what it needs, before [VA-WEBSITE-SANC-008](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SANC-008-package-the-sanctuary.md) is readied. At stage 4 va hands over code, fixtures and adapter contracts; KI then decides Project, repository, priority and acceptance. packages-portal-commons is the nearest precedent.
 
-**Related.** SANC008-SPLIT (split stage 4 out of VA-WEBSITE-SANC-008) is parked in [ki.baseline-rollout queries.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.baseline-rollout/queries.md).
+**Related.** SANC008-SPLIT (split stage 4 out of VA-WEBSITE-SANC-008) is parked in [ki.prj.baseline-rollout queries.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.baseline-rollout/queries.md).
 
 **Conflicts.** None with the standards or the model. Needs a Kris decision: KI has no Project for it.
 

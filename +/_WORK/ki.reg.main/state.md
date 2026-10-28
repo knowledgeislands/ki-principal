@@ -1,5 +1,5 @@
 ---
-id: ki.regular.main
+id: ki.reg.main
 state: on-hold
 hold:
   reason: more-expected
@@ -10,7 +10,7 @@ beat: null
 method_read: null
 ---
 
-# ki.regular.main state
+# ki.reg.main state
 
 ## Now
 

@@ -1,10 +1,7 @@
 ---
 id: ki.sop.main
-state: on-hold
-hold:
-  reason: paused
-  release: when Kris says resume
-since: 2026-10-25T02:17:34Z
+state: handoff-to-supervisor
+since: 2026-10-28T22:58:00Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-10-25T02:17:34Z
@@ -35,6 +32,6 @@ method_read: f4d6c521
 
 ## Held
 
-- Until 12 November: [KI-TECHNE-OPS-018](/Users/krisbrown/workspaces/knowledge-islands/ki-techne-harness/docs/roadmap/KI-TECHNE-OPS-018-converge-tools-through-rig.md) and [KI-TECHNE-OPS-024](/Users/krisbrown/workspaces/knowledge-islands/ki-techne-harness/docs/ideas/KI-TECHNE-OPS-024-weekly-pin-bump.md), with ki.agent-host.
+- Until 12 November: [KI-TECHNE-OPS-018](/Users/krisbrown/workspaces/knowledge-islands/ki-techne-harness/docs/roadmap/KI-TECHNE-OPS-018-converge-tools-through-rig.md) and [KI-TECHNE-OPS-024](/Users/krisbrown/workspaces/knowledge-islands/ki-techne-harness/docs/ideas/KI-TECHNE-OPS-024-weekly-pin-bump.md), with ki.prj.agent-host.
 - CLI-FIELDS, until ki.prj.tools-burndown releases KI-TOOL-KI-CLI-155.
 - Carried for ki.prj.ways-of-working under HOLD-POINTERS: the harness CI `build` confirmations, GFM-HOSTING-RULES, GFM-CONVERTER, BURNDOWN-PUSH and PAPERCLIP-REQ.
