@@ -1,9 +1,9 @@
 ---
 id: ki.ways-of-working
 state: with-worker
-since: 2026-10-27T09:56:10Z
+since: 2026-10-28T02:03:33Z
 received: 2026-10-22T07:24:00Z
-beat: 2026-10-27T09:56:10Z
+beat: 2026-10-28T02:03:33Z
 mark: 2026-10-25T01:07:00Z
 method_read: def7f055
 ---
@@ -12,23 +12,23 @@ method_read: def7f055
 
 ## Now
 
-- Confident current-window delivery is complete: five records accepted; no record pruning under unresolved source/reference guards.
-- Latest full snapshot (06:56 GMT): 13 active and five Done records, no Ready records, across 20 repositories. Primary main branches were level with origin and tracked/index clean.
-- Tool, website and worker-inbox changes are delivered; final lessons, assessments, locators and received-file tidy are recorded. No release or live deployment success is claimed.
-- MOD-011 is Now/draft with an exact proposed patch and the single open owner Enactment query. Nothing canonical was changed by that draft.
-- A stage-one brief now examines the owner's territory/type/name work-id proposal. No rename or migration is approved; previous deliveries and retained history are unchanged.
+- Owner approved both typed territory/type/name IDs and the written-model amendment on 28 October; exact words and bounds are in decisions.md. MOD011-ENACTMENT is answered, not implemented.
+- Cross-machine prerequisite retained existing Principal merge and HNR fast-forward; newer inventories, queues, package identities, holds and marks survive. Do not repeat those integrations.
+- Planning the approved missing model/ID work from current source, with received HNR method and interactive-flow inputs classified by actual authority.
+- Other-machine publication status is still being clarified. No package renames, canonical patches or cross-territory writes happen before their affected-source safety is established.
+- Older deliverables/history remain as previously recorded; current task starts no release cycle or deployment.
 
 ## Next steps
 
-1. Receive design/work-id-shape-brief.md and discuss the proposed typed id shape with the owner before any decision or rollout. MOD011-ENACTMENT remains the separate exact-wording gate.
-2. Observatory steward repairs the already-routed PDR audit findings before BRG-004 closure. Keep first real send/restart reserved.
-3. Resume attended Rig prerequisites only with the existing evidence/answers; never manufacture live evidence.
-4. Prune eligible Done records only after real reference/history/trade guards clear; the current human grant remains logged, with no blanket deletion exception.
-5. Preserve older local refs/data on sol.local and reconcile their exact handoffs before another-machine work. Use published replay evidence; do not revive held contracts.
+1. Receive design/work-id-shape-plan.md: exact source, scope, compatibility, collisions, receiver handoffs, pilot/rollback and verification.
+2. Confirm which other-machine changes are published; preserve unpublished or active receiver-owned work. Revalidate current heads before writes.
+3. Plan/deliver only approved missing model changes through MOD-011, retaining already-adopted wording and actual readiness gates.
+4. Prepare compatible shared readers before one owned KI pilot. Wider KI/HNR/other-territory migration remains with its authorised stewards.
+5. Process separate queued proposals only within their own verified authority; the current approvals do not adopt every incoming idea.
 
 ## Held
 
-- Three retired source histories remain unavailable within checked registry, remote and local metadata scope; surviving ChezMoi references remain its steward's.
-- CORE-068/069 need existing attended evidence/planning answers; CORE-070 needs attended application.
-- ANSWER-VECTOR stays with Observatory; AREA-COLUMN publication, STEWARD-FIELD and other parked choices retain their conditions.
-- Overload design and whole-Project close decisions remain unadopted or with their leads. Mark unchanged.
+- Account steering is an unadopted design input. AT-REST provenance and implementation choices need separate classification; STEWARD-FIELD remains undecided.
+- HNR main is On hold; fetch/integration neither releases it nor transfers stewardship. Some member identities lack verified local registry bindings.
+- Existing Observatory audit, attended Rig and retired-source/reference pruning guards remain unchanged.
+- Older local original refs/private data remain preserved on sol.local; exact handoffs are in decisions.md. Mark unchanged.

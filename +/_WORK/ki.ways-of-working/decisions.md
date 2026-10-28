@@ -1016,3 +1016,22 @@ Received wow-preserve-held-object: the exact local retention ref is verified wit
 Kris: "I'm coming back to you very soon by the way, but I was just thinking about something else which is that noticing the way that the packages are being used, the work packages that is, I'm wondering if we should maybe have first the first part being the territory, the second part being the type of work it is related to, so like a project one which would be like a PRJ, and then a state of play one, which would be SOP. We've obviously already got regular, so I think having the three parts of it would probably make the most sense, so we can see them in groups together clearly like that."
 
 Taken as a proposal for design, not approval to rename or migrate. Territory/type/name would make groups visible; stored casing and main SoP/regular umbrella suffixes remain design choices. Dispatched wow-work-id-shape for only the concise stage-one brief in design/work-id-shape-brief.md under ki-work-design, grounded in the current model. No new schema, canonical change, implementation, migration, adoption or mark is authorised. The current work id and all old names stay valid while the shape is discussed.
+
+### Both approvals and other-machine condition - 28 October 2026, 02:03 GMT
+
+Kris: "yes to both, although there are changes from my other machine on HNR and some others..."
+
+Read back: approval for the territory/type/name naming pattern and the written-model amendment reflecting the agreed live model, following the examples and MOD011-ENACTMENT proposal already shown. This closes that wording-approval question; it does not claim implementation is done. Preserve other-machine work, reconcile actual source before applying patches, and do not infer approval for unrelated state/account proposals, holding-release or cross-territory stewardship transfer. The factual question whether all other-machine changes are pushed is pending; unpublished affected areas stay untouched while planning proceeds.
+
+Received wow-cross-machine-reconcile: existing-origin fetches and read-only evidence show concurrent Principal/HNR integrations already retained both sides. Principal merge 40ba0929 preserves both local proposal commits and all nineteen remote queue ancestors, with matching original blobs; do not repeat or undo that merge. Current method remains def7f055. Both approved outcomes are still missing; HNR's newer inventory, packages, parent/covers, hold/marks and separately declared shared-content root are retained. No source change was made by that prerequisite worker.
+
+### Incoming method queue received - 28 October 2026, 02:03 GMT
+
+Received the complete queue at Principal commit 40ba0929a994b5f164fa203dc85d2e5054a1bc59, path +/_WORK/ki.ways-of-working/messages.md; source UTF-8 SHA-256 57b6303969c6c53282750658e834eb546d960d66a8f8866a17109be250d5348d. Its original contents remain in Git and a verbatim runtime planning snapshot. Dispositions:
+
+- CLAUDE-STEER and addendum: captured as an unadopted tool-neutral account-steering design input; no account/provider/service execution is authorised. Keep it separate from the two current approvals.
+- AT-REST: verify the cited original owner decision and distinguish the requested state/glyph/runtime changes from already-live model wording. Do not infer an eighth state from the current two-part approval.
+- INTERACTIVE-FLOW: verify original owner intent and carry the compatible batch-answer/background-processing clarification into planning, without silently rewriting report/approval rules.
+- METHOD from HNR: carry record-to-Project promotion, principal-default package homes with deliberate exceptions, and principal-seated territory discovery into the current model plan where source authority supports them. Preserve separate record/Project identities, HNR's hold/marks, sovereignty, new roster and real registry bindings; no guessed member roots or metadata proving live thread cwd.
+
+Assigned these inputs to wow-approved-model-plan for provenance and scope classification. Receipt is not adoption of every proposal. Removed exactly these received lines after homing their source/dispositions; no unknown line is discarded.
