@@ -14,3 +14,5 @@ Authority: Kris on 28 October (BASELINE-CLEAN). Work only in `+/_WORK/ki.sop.mai
 5. Commit by explicit path only, in logical commits with subjects `docs(work): ki.sop.main tidy, <what>`, each ending `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Fetch, pull fast-forward only, push fast-forward only; never force or `--no-verify`; stop on divergence. Leave other sessions' uncommitted files alone and name them.
 
 Report to `/Users/krisbrown/.local/state/ki/agents/ki-sop-main/sop-tidy.report.md` in owner-report form: Done (counts and each disposition, one line each), In Progress (proposed launches, obsolete parked queries with evidence), Queries (any new needs-Kris queries in full, or "No outstanding queries"). Plain British English, no em-dashes.
+
+Note: `messages.md` holds a second copy of much of the queue from the reconciliation in commit a9694e6d (old `ki.ways-of-working` labels). Treat lines that differ only in the package label as duplicates and remove the second copy first, IMPORTANT ones included.
