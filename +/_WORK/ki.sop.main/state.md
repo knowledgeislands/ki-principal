@@ -1,7 +1,7 @@
 ---
 id: ki.sop.main
 state: handoff-to-supervisor
-since: 2026-10-28T22:58:00Z
+since: 2026-10-28T23:27:00Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-10-25T02:17:34Z
