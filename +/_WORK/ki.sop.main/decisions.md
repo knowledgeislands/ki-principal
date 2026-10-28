@@ -106,3 +106,14 @@
 ## 2026-10-28 · BASELINE-CLEAN (Kris, conversational)
 
 - BASELINE-CLEAN, read back as taken: "you're looking after everything apart from ways of working and the observatory. And what's really key is that we optimize those work packages down now, to make sure that we're not only dealing with files for things which are still active and relevant ... there's quite a lot of messages and there's quite a lot of queries in some of these work packages. So you need to work through them bit by bit. So we need to get to some really nice clean baselines soon." State of play tends every KI work package in ki-principal except ki.prj.ways-of-working and ki.prj.observatory, which have their own threads. First a read-only census of all packages for the total picture, then package-by-package tidy runs: prune what has a durable home, dispose of messages, and bring obsolete queries to Kris for dropping. Anything needing Kris comes back as a query; no records captured and no acceptance.
+
+## 2026-10-28 · sop-tidy message dispositions (BASELINE-CLEAN)
+
+- CI-PIN-RECEIVER and OPENER-LABEL to ki.prj.tools-burndown, as the work owning tools-ki and the release bot; neither is done (only ki-design carries the receiver; `prompts.ts` prints the label alone).
+- DEPCRUISE-MJS and STREAM9-SHA to ki.prj.ways-of-working, as owner of the harness standards and rubrics no other work takes.
+- GATE-BASELINE split: the preflight baseline rule to ki.prj.ways-of-working, the worktree sibling to ki.prj.tools-burndown.
+- SPA-FALLBACK-SCOPE and TYPED-ID-ROLLOUT to ki.prj.baseline-rollout, which takes website skills and other-territory rollouts.
+- NAMING-TO-KI: the website half is superseded by ki.prj.website's own SITE-RENAME line; the Observatory half routed.
+- ARCHIVE-PRUNE-SOURCES answered back to ki.prj.ways-of-working from Known Lands; PERSONAL-ACQUIRE-TENDING not forwarded, the need already queued in Personal > SoP as TEND-COVER.
+- WORK-PACKAGES superseded: the parked AGENT-HOST and KA-CLOSE carry two packages, and ki.specifications was homed in 4cfd9c03.
+- ARCHIVE-ENGINE (two lines), GMAIL-CLOCK and SENT-PASS to Kris as MAIL-ASKS; ACCESS-ADMINS' other-territory half to Kris as ACCESS-ADMINS-ROUTE.

@@ -38,6 +38,34 @@ a) (recommended, confidence medium - reviewed, views differ: the blind reviewer 
 
 b) Keep it as built: "failed to start" means no step completed, as the build run preferred because a failing first step is the common case worth singling out.
 
+### MAIL-ASKS - four mail-engine asks waiting for an owner
+
+**Context:** HNR > Email routing (hnr.email-routing) sent four asks for the mail MCP servers, each decided by Kris on 27 or 28 October: ARCHIVE-ENGINE (an mcp-m365 last-touched clock from `lastModifiedDateTime`, filing from Outlook `Archive` into `_ARCHIVE` by a lasting last-working-folder record, unread-guard gaps and per-folder overdue counts), its ACTION-DONE extension (re-route archived action-folder mail into the matching `_ARCHIVE` mirror, unplaceable items to 000 Unknown), GMAIL-CLOCK (`historyId` and `internalDate` reads, a checkpoint log and a 14-day comparison in mcp-gsuite) and SENT-PASS (a sent-items pass, deleting confirmed meeting responses after 7 days, and per-item forward matches in the aged log, with tests; reply to hnr.email-routing when landed). The full lines are in [messages.md at 17f30843](https://github.com/knowledgeislands/ki-principal/blob/17f30843/+/_WORK/ki.sop.main/messages.md). No work owns the MCP server repositories: the parked MAIL-MCP-HOME asks the same question for eleven mail records, which the 27 October roadmap sweep has since moved to ideas in mcp-m365 and mcp-gsuite.
+
+**Query:** Should these four asks go to whichever work you name under MAIL-MCP-HOME?
+
+**Options:**
+
+a) (recommended, confidence high - they share MAIL-MCP-HOME's owner gap, and one decision homes both) Settle MAIL-MCP-HOME now; State of play sends the four asks to the chosen work as its first messages.
+
+b) Send them to ki.prj.tools-burndown now, widening it to the MCP servers for these asks only.
+
+c) Send them to ki.reg.main as ad hoc work, leaving MAIL-MCP-HOME parked.
+
+### ACCESS-ADMINS-ROUTE - send the Access admins pattern to other territories
+
+**Context:** On 28 October at 18:40 GMT Kris asked HNR, for "all sites I run", for a per-site admins Access group with Kris as first member and a `/admin` application admitting only it, and said "send the equivalent to ki-principal for all sites I run". HNR has done its nine humansnotrobots.be sites ([access-admins note](/Users/krisbrown/workspaces/humans-not-robots/hnr-principal/+/_WORK/hnr.prj.portal-framework/design/access-admins.md)); this tidy sent the KI sites to ki.prj.website and ki.prj.observatory. The rest belong to other territories: apps-dafacts.org (Equal Remedy), apps-kris.me.uk and apps-midnight.ninja with its legal, rig, tower and trip subdomains (Personal), apps-yorkphotosoc.org (TechMedix), apps-markhowarth.com and apps-vallearmonia.com (Valle Armonia). No standing route from State of play to those territories' States of play is recorded, and on 12 October you kept territories other than Personal and Valle Armonia parked. The full lines are in [messages.md at 17f30843](https://github.com/knowledgeislands/ki-principal/blob/17f30843/+/_WORK/ki.sop.main/messages.md).
+
+**Query:** Should State of play send one line to each other territory's State of play naming its sites?
+
+**Options:**
+
+a) (recommended, confidence high - Kris's own words cover every site he runs, and a message only queues the work for each owner's own gates) Send one line each to Equal Remedy, Personal, TechMedix and Valle Armonia, quoting Kris, linking HNR's note and its two lessons (restore path first, 120 seconds to settle), asking each to confirm which sites sit behind Access first.
+
+b) Send to Personal and Valle Armonia only, the territories running now, and park Equal Remedy and TechMedix.
+
+c) Hold until you have said which sites sit behind Access.
+
 ## Parked
 
 ### ACCEPT-CHEZMOI - accept the chezmoi latest-source record
@@ -197,7 +225,7 @@ c) Move them into ki.prj.portable-specifications.
 
 ### MAIL-MCP-HOME - a home for the mail MCP records
 
-**Context:** Eleven draft records for the mail MCP servers, KI-MCP-M365-TOOL-011 to TOOL-019 in mcp-m365 and KI-MCP-GSUITE-TOOL-008 and TOOL-009 in mcp-gsuite, plus [PERSONAL-DOTFILES-UE-097](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-097-configure-gmail-routing-paths.md) in chezmoi, came to Knowledge Islands on 21 October: "For now, I think it's best to go back to the MCP. So, something in Knowledge Island." No work owns the MCP server repositories: ki.prj.tools-burndown covers the `ki` CLI and Git tools, and ki.regular takes small one-off work.
+**Context:** Eleven draft records for the mail MCP servers, KI-MCP-M365-TOOL-011 to TOOL-019 in mcp-m365 and KI-MCP-GSUITE-TOOL-008 and TOOL-009 in mcp-gsuite, plus [PERSONAL-DOTFILES-UE-097](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-097-configure-gmail-routing-paths.md) in chezmoi, came to Knowledge Islands on 21 October: "For now, I think it's best to go back to the MCP. So, something in Knowledge Island." No work owns the MCP server repositories: ki.prj.tools-burndown covers the `ki` CLI and Git tools, and ki.reg.main takes small one-off work.
 
 **Query:** Which work should own these records?
 
@@ -207,7 +235,7 @@ a) (recommended, confidence high - reviewed: a coherent twelve-record backlog wa
 
 b) ki.prj.tools-burndown widens its scope to the MCP servers.
 
-c) ki.regular holds them as drafts until Kris prioritises them.
+c) ki.reg.main holds them as drafts until Kris prioritises them.
 
 ### ACQUIRE-HOME - a home for CODEX-SESSIONS and DEFUDDLE-SKILL
 
@@ -217,7 +245,7 @@ c) ki.regular holds them as drafts until Kris prioritises them.
 
 **Options:**
 
-a) (recommended, confidence high - reviewed: each delivery can be bounded on its own without reopening a finished outcome; the open Codex states and cleanup policy are settled at planning) Route both to [ki.regular](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.regular.main/work.md) as separate pieces of harness skill work.
+a) (recommended, confidence high - reviewed: each delivery can be bounded on its own without reopening a finished outcome; the open Codex states and cleanup policy are settled at planning) Route both to [ki.reg.main](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.reg.main/work.md) as separate pieces of harness skill work.
 
 b) Route both to ki.prj.ways-of-working.
 
