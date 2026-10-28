@@ -100,6 +100,20 @@ a) (recommended, confidence high - reviewed: only Kris can say whether another c
 
 b) Treat them as lost and close the query.
 
+### ADOBE-SCRIPT-HOME - where the Adobe removal script should live
+
+**Context:** ki.prj.mac-studio-setup keeps `design/adobe-remove.sh`, which removes Adobe Creative Cloud leftovers and acts only with `--apply`. A script breaks the work folder's closed list, so the package cannot pass its check while it sits there, and no other repository holds it. Rig's ideas KI-TOOL-RIG-CORE-072 and KI-TOOL-RIG-CORE-074 already cover app removal and use an Adobe script as a worked example; Rig has not acknowledged this one. The rest of the Adobe clean-up stays parked under ADOBE-DATA and ADOBE-RESTART.
+
+**Query:** Where should the script go?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed: Rig owns the removal capability this example informs, and keeping it as evidence preserves it without creating a separate personal tool) Send it to tools-rig as labelled Creative Cloud removal evidence, and delete the package copy once tools-rig holds a committed copy.
+
+b) Move it into chezmoi as a personal maintenance script.
+
+c) Delete it and leave the Adobe clean-up to an at-screen session, relying on Git history.
+
 ## Parked
 
 ### ACCEPT-CHEZMOI - accept the chezmoi latest-source record
