@@ -1,9 +1,9 @@
 ---
 id: ki.ways-of-working
-state: with-worker
-since: 2026-10-28T15:33:46Z
+state: handoff-to-supervisor
+since: 2026-10-28T16:12:11Z
 received: 2026-10-22T07:24:00Z
-beat: 2026-10-28T16:03:39Z
+beat: 2026-10-28T16:12:11Z
 mark: 2026-10-25T01:07:00Z
 method_read: d03d0e74
 ---
@@ -12,22 +12,21 @@ method_read: d03d0e74
 
 ## Now
 
-- Owner approved the reviewed coordination recommendation and immediate enactment on 28 October, plus an explicit reply to Acquire intake. Exact read-back is in decisions.md; no repeat approval is needed.
-- Acquire decision/activation notice and Principal amendment are published. Tools CLI-173 is integrated locally and Awaiting review, with three unpublished code commits on sol.local/main. Harness GOV-232 is also integrated locally/Awaiting review, with three unpublished code commits. Exact checkout retirement and targeted refresh are finishing.
-- Acquire's interim exception remains usable. General eligibility is optional and explicitly opened; package type, ownership and capture/provider boundaries remain.
-- Principal documentation divergence is reconciled with both parents preserved. Four related queue lines are received; every unrelated line remains. Personal registration is routed through KI because its checkout is contested.
-- Earlier MOD011 candidate stays isolated at 996bcf64666754975f1691d8ef50678dce9a0dd8; the new bounded coordination delta does not integrate that whole older candidate.
+- Approved coordination enactment is delivered: canonical Work Process/GDR9 and Acquire decision/activation notices published; targeted refresh delivered to Acquire, Tools, Observatory and KI.
+- Harness GOV-232 and Tools CLI-173 are integrated locally, Awaiting review with their owning work. Local ki loads current TypeScript directly; no release/build is needed for this delivery.
+- No worker or completion watcher remains. Exact generated Principal checkout/branch retired; evidence and private material preserved. Seven completed briefs pruned with Git recovery.
+- Acquire owns actual AGENTS/capability activation and receipt. Personal registration remains routed through KI because its source is contested; neither is falsely claimed completed.
 
 ## Next steps
 
-1. Receive safe checkout retirement and Harness integration; actual Acquire activation and Personal tending receipt remain receiver-owned, not completed by message delivery.
-2. Receive the remaining checkout/CLI-provenance and targeted-refresh evidence, then consolidate. Code on sol.local/main in Harness and Tools is committed but unpublished; reconcile before any cross-host continuation.
-3. Reconcile the older MOD011 candidate against the resulting canonical source before any later integration. Cross-machine facts still gate broader namespace moves and unconfirmed territories.
-4. Preserve normal record review/acceptance ownership and report any unpublished code by repository, host and branch.
+1. Receive actual Acquire activation and Personal tending receipts when their owners return them. Keep one authoritative package, state and inbox.
+2. Preserve explicit code handoff: tools-ki and ki-agentic-harness, sol.local/main, each has three unpublished commits. Fetch/reconcile before cross-host continuation; do not infer another machine has the new CLI/hooks.
+3. Re-ground the older MOD011 candidate against the new canonical coordination source before later integration. Broader source/namespace work still awaits the existing other-machine publication fact.
+4. HOST-SYNC is next queued need; other unrelated messages stay preserved. Current coordination rollout requires no new owner approval.
 
 ## Held
 
-- Capital message forwarding is separate design, not a second package/inbox. No new locator schema or Project-home exception is enacted.
-- HOST-SYNC and other unrelated queued needs remain next, outside this bounded priority enactment.
-- Account steering, AT-REST representation, STEWARD-FIELD, HNR hold/binding gaps, Observatory audit, attended Rig and source/reference pruning guards remain as recorded.
-- Older refs/private data and all marks remain unchanged. No releases or deployments.
+- Principal-only message forwarding and automatic Capital-to-member discovery need separate design/reader work; no shadow package, new locator schema, Project-home exception or namespace move.
+- Older MOD011 candidate remains isolated at 996bcf64666754975f1691d8ef50678dce9a0dd8. Typed-ID reader/pilot and holds remain with their authorised owners.
+- Account steering, AT-REST representation, STEWARD-FIELD, HNR hold/binding gaps, Observatory audit, attended Rig and source/reference pruning guards remain recorded.
+- Old refs/private data and mark unchanged. No releases, deployments or provider actions.
