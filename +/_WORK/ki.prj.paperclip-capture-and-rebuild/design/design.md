@@ -8,7 +8,7 @@ author: Written with Claude
 
 ## Overview
 
-This folder holds the supporting notes for the work [`ki.paperclip-capture-and-rebuild`](../work.md) of the [Paperclip capture and rebuild](../../../../Streams/Projects/paperclip-capture-and-rebuild.md) Project. They record working context the Project note points to but should not carry itself. Like other design papers, they are temporary: once the rebuild settles their content in a durable home, they are deleted in one commit.
+This folder holds the supporting notes for the work [`ki.prj.paperclip-capture-and-rebuild`](../work.md) of the [Paperclip capture and rebuild](../../../../Streams/Projects/paperclip-capture-and-rebuild.md) Project. They record working context the Project note points to but should not carry itself. Like other design papers, they are temporary: once the rebuild settles their content in a durable home, they are deleted in one commit.
 
 ---
 
