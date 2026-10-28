@@ -1199,3 +1199,17 @@ Taken as immediate amendment: stored codes are lowercase prj, reg and sop. Only 
 ### Dedicated current-home run for reg follow-on - 28 October 2026
 
 The completed legacy ways-of-working control journal remains correctly fenced to its historical package identity; the earlier home setter updated the mutable folder but cannot rewrite immutable attempt ownership. No old attempt was spawned by the rejected reg launches. Preserve that entire run/journal and native identities unchanged. A new, dedicated ways-of-working-reg job group is established through the normal ki agent home API against the real ki.prj.ways-of-working package for the newly approved reg amendment and broadcast. It must pass ordinary fresh-store machine/home checks; no existing ownership guard is disabled or record edited. The shared support worker must diagnose the old-run rehome regression and report a supported reconciliation, without weakening ownership checks.
+
+### Own package reorientation and Principal completion - 28 October 2026, 22:40 GMT
+
+Kris: "The work-package naming standard has changed to territory.type.name, using lowercase prj, reg or sop.
+
+If your old folder is missing, find the existing renamed package under +/_WORK/ rather than recreating it. Projects use territory.prj.name; regular work uses territory.reg.name; main State of play uses territory.sop.main. The regular umbrella is territory.reg.main.
+
+Reorient this thread to that folder, read messages.md, finish any remaining naming/reference changes, then commit and push."
+
+Reoriented to existing ki.prj.ways-of-working, parent ki.sop.main. Read its actual queue, current reg-method contract and output style; method revision 12f09a3b. Corrected five exact live routing/command literals in work.md, including the accidental command rewrite ki.sop.main work status back to ki work status; no historical narrative rewritten. Received completed reg rollout/readers: sixteen non-HNR notices published; fifteen Principal exceptions, ki.regular.main and report-only old specifications residue remain. Shared reg support and normal checks passed; seven non-HNR Capitals have main SoPs, no duplicate Personal main was needed.
+
+Disposed obsolete self NAMING-PAUSE under the owner's explicit rename-now steer, and received Personal Rig terra NAMING-ACK. Its reg package is already migrated/published; the finishing worker must return a scoped NAMING-DONE so its metadata freeze does not remain stuck. Original queue lines remain in pre-receipt Git history; only those two lines removed, all unrelated messages preserved. MD-STANDARD/HOST-SYNC and other ordinary needs remain queued behind this explicitly prioritised naming completion.
+
+The rollout worker's PRINCIPAL-RECONCILE is a coordinator maintenance handoff, not a new human approval. Current local/remote histories have since converged under peer activity; the next worker must use actual fresh source, preserve every peer commit, and complete only the fifteen queues, remaining reg folder and proven 25 report-only legacy artifacts. No HNR mutation, new schema, ownership rewrite, release or product build. This new bounded worker replaces no running work: earlier units are DONE.
