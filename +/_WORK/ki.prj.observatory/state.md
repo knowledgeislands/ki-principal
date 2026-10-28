@@ -20,7 +20,7 @@ RESUME and the requested mark are reconciled; the package is handed to Kris with
 1. Bring the five queries in full, acceptance first. Recommend an evidence-only acceptance and redesign reconciliation pass: confirm the existing acceptance grant and mandatory audit, reconcile historical external requests at their homes, and preserve the landed five-area design and each consolidation gate.
 2. Use the Capital selector `knowledge-islands`; the absent `ki` alias is a selector mismatch. Follow the bootstrap checklist through its owning tools before claiming actual interactive readiness.
 3. Follow the retained IMPORTANT queue, then ordinary order. Assess the compatible status consumer requests together; keep scheduled results/specification and sync ownership as separate bounded investigations. No service action or dispatch is granted by this mark.
-4. Reconcile Capital's behind/diverged checkout through its owner before cross-host continuation. Only Capital was fetched; the product repository level check remains unknown.
+4. Repeat the repository level check through its owner before cross-host continuation. Capital's tracking comparison no longer shows it behind after concurrent reconciliation; only Capital was fetched here, and the product repository level check remains unknown.
 5. Preserve receiver ownership of diagram conversions and the legal Gantt hold. Retain historical reports, open briefs and design evidence until their homes and queries are verified for a later tidy.
 
 ## Held
