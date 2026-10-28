@@ -16,27 +16,27 @@ b) Leave it awaiting review.
 
 ### CHAIN-QUIET - Hide repositories where every step succeeded
 
-**Context:** (Under masked blind review, chain-review, since 22:57 GMT.) The brief asked for one block per repository, so the chain output prints every repository, including those where every step succeeded. Ordinary mgit commands show only repositories with output or a failure, then one line counting the quiet ones. Over the whole estate of about 50 repositories, a chain lists every one, which buries the few that stopped. The tally at the end still names each repository that did not complete.
+**Context:** The brief asked for one block per repository, so the chain output prints every repository, including those where every step succeeded. Ordinary mgit commands show only repositories with output or a failure, then one line counting the quiet ones. Over the whole estate of about 50 repositories, a chain lists every one, which buries the few that stopped. The tally at the end still names each repository that did not complete.
 
 **Query:** Should a chain show only the repositories that stopped or failed to start, plus any that printed something, and count the rest in the tally as ordinary commands do?
 
 **Options:**
 
-a) (recommended, confidence medium - it matches how ordinary commands already report, but departs from the literal "one block per repository" in the brief) Yes, as a small follow-up: hide repositories where every step succeeded with no output, and keep `-v` and `--json` showing everything.
+a) (recommended, confidence high - reviewed: the blind reviewer chose it independently, as it matches ordinary mgit reporting and makes exceptions easy to find across 50 repositories) Yes, as a small follow-up: hide repositories where every step succeeded with no output, and keep `-v` and `--json` showing everything.
 
 b) Keep the current output, with every repository shown.
 
 ### CHAIN-START - Meaning of "failed to start"
 
-**Context:** (Under masked blind review, chain-review, since 22:57 GMT.) The tally has three outcomes. I read "failed to start" as a repository where no step completed: the first step failed or the checkout could not be entered. "Stopped" is a repository where a later step failed after at least one completed. The three counts therefore always add up to the number of repositories. The record's Discussion section records this reading, and the tests depend on it.
+**Context:** The tally has three outcomes. I read "failed to start" as a repository where no step completed: the first step failed or the checkout could not be entered. "Stopped" is a repository where a later step failed after at least one completed. The three counts therefore always add up to the number of repositories. The record's Discussion section records this reading, and the tests depend on it.
 
 **Query:** Is that the meaning you intended for "failed to start" and "stopped"?
 
 **Options:**
 
-a) (recommended, confidence medium - the three counts add up cleanly and a failing first step is the common case worth singling out, but the brief did not define the term) Keep it: "failed to start" means no step completed.
+a) (recommended, confidence medium - reviewed, views differ: the blind reviewer chose this with high confidence because a first Git step that ran and failed has started and may already have changed things; the build run preferred b) Keep it as built: "failed to start" means no step completed, as the build run preferred because a failing first step is the common case worth singling out. The three counts still add up.
 
-b) Narrow "failed to start" to a repository that could not be entered, and count a failing first step as "stopped at step 1".
+b) Keep it as built: "failed to start" means no step completed, as the build run preferred because a failing first step is the common case worth singling out.
 
 ## Parked
 
