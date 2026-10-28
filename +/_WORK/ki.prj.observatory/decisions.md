@@ -88,10 +88,14 @@
 
 - 2026-10-20 · OBS-CLAIM-FOUR · Kris to the Claude chat (Knowledge Islands project): "all of them", relayed by that chat. Still governs: the chat builds KI-OBSERVA-VIS-030, VIS-027, VIS-044 and BRG-005 in its own clone; this thread dispatches none of them. obs-build-vis044 was already verifying when the claim arrived and is left to finish; obs-build-brg005 was dropped before it started.
 
-## 2026-10-20 - OVERNIGHT
+## 2026-10-28 23:03 GMT - RESUME
 
-- 2026-10-20 · OVERNIGHT · (Spent: ended by PAUSE at 02:04 BST.) Kris: "I'm going to bed now. I want you to keep looking every 10 minutes to see if there's any new work for yourself in some way. And if there is, I want you to progress it. You can do anything on a high confidence level that you recommend. If you can get a good recommendation, you can move on to the next one ... We've got autonomy to make this happen". Read back as taken: overnight, every high-confidence recommendation is acted on without asking - BANNER-GLYPHS a), CONDITION-GLYPHS a), TILE-CHECK a), STORAGE-OWNER a) and GIT-VIEWER a) now; medium or low ones go to blind review and are revisited as later work sharpens them; nothing is pushed, pruned, cancelled, merged or deleted, and acceptance of finished records stays with Kris (PUSH-KRIS, PUSH-ALL); check for new work at least every 10 minutes.
+class: operational
 
-## 2026-10-20 - PAUSE
+- resume
 
-- 2026-10-20 · PAUSE · Kris at 02:04 BST: "pause - take stock. Go On hold under current ki-coordination ... with reason "take stock on ways of working" and release "Kris says resume". Before the hold report, write design/retro-2026-10-20.md". Read back as taken: OVERNIGHT ends; nothing was running, so nothing is stopped; launch nothing new; park every open query; write the retro; commit, and push only as the standard allows.
+## 2026-10-28 23:17 GMT - MARK-SUMMARY
+
+class: operational
+
+- mark and give me a summary with queries and context

@@ -9,8 +9,8 @@ description: >-
   Builds and runs the Observatory in apps-observatory.local, the read-only operations centre for one or more
   territories over their knowledge, work, runs and diagrams. Takes Observatory features, its design convergence
   and handoffs, Mermaid-to-Archify conversion records and `ki work status` consumers. Not for timelines and
-  calendars (ki.timelines), the work model (ki.ways-of-working), the `ki` CLI (ki.tools-burndown) or rollout to
-  other territories (ki.baseline-rollout).
+  calendars (ki.prj.timelines), the work model (ki.prj.ways-of-working), the `ki` CLI (ki.prj.tools-burndown) or rollout to
+  other territories (ki.prj.baseline-rollout).
 worker: agent
 supervisor: owner
 created_at: 2026-10-13T23:50:00Z
@@ -27,5 +27,5 @@ created_at: 2026-10-13T23:50:00Z
 
 ## Scope
 
-- In: Observatory features and roadmap records in apps-observatory.local; its design convergence and the handoffs with ki-design; Mermaid-to-Archify conversion records in other repositories; the Observatory's reading of `ki.sop.main work status`.
-- Out: timelines and calendars, including KI-HARNESS-GOV-222 and the legal gantt (ki.prj.timelines); the work model and work package (ki.prj.ways-of-working); the `ki.sop.main` CLI and tools-ki records (ki.prj.tools-burndown); rollout to other territories (ki.prj.baseline-rollout); territory dispatch (ki.sop.main); Rig and the host network (ki.prj.chezmoi, ki.prj.mac-studio-setup).
+- In: Observatory features and roadmap records in apps-observatory.local; its design convergence and the handoffs with ki-design; Mermaid-to-Archify conversion records in other repositories; the Observatory's reading of `ki work status`.
+- Out: timelines and calendars, including KI-HARNESS-GOV-222 and the legal gantt (ki.prj.timelines); the work model and work package (ki.prj.ways-of-working); the `ki` CLI and tools-ki records (ki.prj.tools-burndown); rollout to other territories (ki.prj.baseline-rollout); territory dispatch (ki.sop.main); Rig and the host network (ki.prj.chezmoi, ki.prj.mac-studio-setup).
