@@ -1,5 +1,5 @@
 ---
-id: ki.regular.main
+id: ki.reg.main
 parent: ki.sop.main
 level: regular
 title: 'KI > Regular'
@@ -15,7 +15,7 @@ supervisor: owner
 created_at: 2026-10-18T03:30:38Z
 ---
 
-# ki.regular.main
+# ki.reg.main
 
 ## Goals
 
