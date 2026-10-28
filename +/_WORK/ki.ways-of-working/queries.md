@@ -2,7 +2,17 @@
 
 ## Open
 
-None
+### CROSS-MACHINE-SOURCE - Identify any unpublished other-machine changes
+
+**Context:** The affected existing origins have been fetched and both sides of the observed Principal/HNR integrations are preserved. Fetch cannot reveal changes still only on the other machine. Both model/naming approvals are already recorded; this question is about source safety, not another approval.
+
+**Query:** Have all affected other-machine changes been pushed to origin, or which repositories still have unpublished work?
+
+**Options:**
+
+a) (recommended, confidence high - identifies the actual source boundary while preserving every unpublished change) Confirm all are pushed, or name the repositories that are not; use reconciled published sources and keep unconfirmed areas untouched.
+
+b) Leave cross-machine integration and namespace migration pending, with work limited to isolated candidates and receiver planning until that information is available.
 
 ## Parked
 

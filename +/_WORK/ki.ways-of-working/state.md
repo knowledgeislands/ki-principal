@@ -3,7 +3,7 @@ id: ki.ways-of-working
 state: with-worker
 since: 2026-10-28T02:03:33Z
 received: 2026-10-22T07:24:00Z
-beat: 2026-10-28T02:03:33Z
+beat: 2026-10-28T02:24:31Z
 mark: 2026-10-25T01:07:00Z
 method_read: def7f055
 ---
@@ -14,7 +14,7 @@ method_read: def7f055
 
 - Owner approved both typed territory/type/name IDs and the written-model amendment on 28 October; exact words and bounds are in decisions.md. MOD011-ENACTMENT is answered, not implemented.
 - Cross-machine prerequisite retained existing Principal merge and HNR fast-forward; newer inventories, queues, package identities, holds and marks survive. Do not repeat those integrations.
-- Planning the approved missing model/ID work from current source, with received HNR method and interactive-flow inputs classified by actual authority.
+- Plan committed; four receiver needs are committed. The current-source MOD-011 candidate is preparing in isolation, with no primary integration or package rename.
 - Other-machine publication status is still being clarified. No package renames, canonical patches or cross-territory writes happen before their affected-source safety is established.
 - Older deliverables/history remain as previously recorded; current task starts no release cycle or deployment.
 

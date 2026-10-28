@@ -1043,3 +1043,11 @@ Received wow-approved-model-plan: current-source MOD-011 and typed-reader/pilot 
 Corrected the plan's speculative future serial examples to owner-allocated record descriptions: GOV-231 is already the delivered inbox-boundary record, and no unreserved example is allocation authority. This is a one-line planning correction, not record creation.
 
 Proceed with an isolated current-source MOD-011 implementation candidate and explicit receiving-owner needs. Candidate is reviewable on its own branch only: no primary integration/publication, package rename or HNR/other-territory write until affected-source safety is established. Reader messages request compatible preparation before writers/pilot, with recipient ownership and holds intact; no foreign records are created. The pending factual publication question does not reopen either approval.
+
+### Reader handoffs and safe documentation sync - 28 October 2026, 02:24 GMT
+
+Received wow-reader-handoffs: four exact receiving-owner needs are committed separately to Tools burndown, Observatory, Baseline rollout and KI. No implementation, rename, foreign record, hold release or stewardship transfer occurred. The candidate follows these shared-repository writes to freeze its current source independently. Receiver execution remains with its own owners.
+
+The sender deferred publication solely because the known pre-existing untracked reports remain. They are preserved and are not part of publication. Under the owner's standing documentation/history grant, the coordinator may sync the verified documentation-only committed ancestry after actual fetch/path review when tracked/index state is clean, without staging, deleting or publishing those reports. Stop for unexpected code, divergence or contested staging; no general clean-up or broader code publication is inferred.
+
+The only pending factual question is whether affected other-machine changes all reached origin. It does not revoke either approval. Isolated candidate preparation and receiving-owner planning proceed; live namespace moves, HNR changes and potentially conflicting integration remain gated on actual source safety.
