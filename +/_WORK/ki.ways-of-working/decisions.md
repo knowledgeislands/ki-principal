@@ -1081,3 +1081,23 @@ Taken as approval of the recommendation just given: coordination is an explicitl
 Both independent reviews and the merged recommendation are received at design/coord-any-package-{brief,review-codex,review-claude,report}.md. Their recommendations are now resolved within the above bounded read-back; the broader future Project-home exception and exact forwarding/discovery mechanism are not enacted. Sender backlog counts remain context. No further approval of this bounded plan is required. Use current fetched sources, preserve other-machine queues and writes, stop on contested edits. Existing isolated MOD011 remains unmerged; integrate only the new coordination delta from current canonical sources, then re-ground that older candidate later. HNR and live namespaces remain untouched.
 
 Dispatched three units: Principal documentation reconciliation, bounded canonical amendment and receiver messages; Harness method/generator/hook/style implementation; Tools CLI placement/prompt/home-reader implementation. Each freezes exact paths and its native plan/readiness gates before edits, respects receiver authority and active writers, verifies affected behavior once and leaves acceptance with the owning work. Explicit user instruction authorises the Acquire reply. Other receiving needs use existing coordination routes; no communications outside KI work queues. No release, registry publication, deployment, provider mutation, new software, wholesale audits or repeated passing builds. Code delivery is local, with explicit unpublished handoff if separate publication authority is absent; verified low-risk docs sync remains under the standing grant.
+
+### Principal enactment and Acquire reply received - 28 October 2026
+
+Received wow-coord-enact-principal, final DONE. Acquire reply is committed and published at 3706f2e3c0c682aa44fc9fab62a3f80d1054eba1 in krisb/acquire, after preserving ten incoming peer commits. Principal reconciliation f6eb84e64c3a84849c8d2435586a676aab6c190e preserves both source parents and exact incoming queue; bounded coordination amendment ce980ba03834ffdaa096132d9ac86c2f31b13832 updates only current Work Process and GDR9. It does not merge the older MOD011 candidate or accept its record. Principal documentation through bcb3c1a3e6f16d01d363dcebd982c450980208f6 is published.
+
+Tools COORD-REGULAR-READER and Observatory COORD-REGULAR-STATUS were delivered. Personal source is contested: six local/twenty remote ancestors including its intended inbox. No forced merge or direct edit occurred; PERSONAL-ACQUIRE-TENDING is instead committed in KI State of play messages.md for authorised delivery and actual Personal receipt. This remains an explicit receiving-owner dependency, not completed Personal registration.
+
+Queue receipt: exactly COORD-ANY-PACKAGE (eligibility enacted, Acquire notified), PKG-HOME (default and deliberate regular/ad hoc exception retained), PKG-POINTER (one real authority; relay part held), TEND-PATTERN (steward tending/parent visibility enacted; Personal registration routed) are removed only after whole-source equality with bcb3c1a3's queue. All four original full lines remain recoverable there and in the worker report; every unrelated byte and urgent HOST-SYNC survives. Source and exact line hashes follow. No general Project-home exception, forwarding transport, new state/field, namespace move or mark is approved.
+
+Queue source SHA-256: 25e16db615af5e3a3f3726c982ca760aac5dd076c372a1e7a361949e4eb69b35. Remaining queue SHA-256: 974c6df6355da90a5cfb3fa7a17043ca8e9df3c5b7e09afe0afe98aac9522ea6.
+
+PKG-HOME: 428485def8163f3519ad7df4aa0ffe6e6b5f5f1a3d754fe16d2c46a1a5227222.
+
+PKG-POINTER: 3489736959d467b4d2902d701ff92a62d2ec65ef2f624196985e51c8e35f278c.
+
+TEND-PATTERN: 34bd2bc86e65d29f8a8b6ce12a7ebe5d0889db3b340924e245a0c21ce07ed3e6.
+
+COORD-ANY-PACKAGE: 2695aaf212c7253b5db37984867cb6ae8ee6d1ecfc2211819b8a7f5eec5d2227.
+
+Follow-through: confirm the Acquire decision also directs receiver-owned AGENTS/capability activation, send a concise follow-up only if absent, home the Principal worker's resolved verification/tool-link/message-shape lessons, and retire only its proven integrated temporary worktree/branch. No takeover of Acquire or Personal governing files. Tools/Harness implementation continues independently.
