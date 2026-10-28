@@ -1,0 +1,12 @@
+# sop-queries: receive the census and tidy reports into ki.sop.main
+
+Authority: work only in `+/_WORK/ki.sop.main/` in ki-principal. Read `ki-work-package` and `ki-coordination` (harness source `/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/`). No launches, no other packages.
+
+1. Copy the two census queries OBSOLETE-DROP and OLD-ORPHANS in full from `/Users/krisbrown/.local/state/ki/agents/ki-sop-main/census.report.md` under `## Open` in `queries.md`, marking each confidence "blind review pending".
+2. Fix CHAIN-START: its option a) body wrongly repeats b). a) (recommended, medium, reviewed, views differ: the blind reviewer chose it at high confidence because a first Git step that ran and failed has started and may already have changed things; the build run preferred b)) is: narrow "failed to start" to a repository whose checkout could not be entered; a first step that ran and failed counts as "stopped"; the record's Discussion and the tests change to match. b) is: keep it as built, "failed to start" means no step completed, because a failing first step is the common case worth singling out. Keep Context and Query, tidying any dropped words.
+3. Restore OBS-TRANSFER under `## Open`. It was put to Kris at about 22:58 GMT on 28 October in the coordinator transcript `/Users/krisbrown/.claude/projects/-Users-krisbrown-workspaces-knowledge-islands-ki-principal/7ab40439-7502-4f14-b275-33d7ddb05e1e.jsonl` but never written to the file. Recover its exact Context, Query and Options from the assistant text there (search `### OBS-TRANSFER`, earliest assistant message containing it). If it cannot be found, say so and do not invent it.
+4. Prune by explicit path: `briefs/census.md`, `briefs/sop-tidy.md`, any `census.report.md` or `sop-tidy.report.md` homed in the folder, and `design/retro-2026-10-20.md` (merged into `ki.prj.ways-of-working/design/take-stock-2026-10-20.md`; check that file exists first). Keep `briefs/review-drop.md` and `briefs/sop-queries.md`.
+5. Correct `state.md`'s parked count if wrong.
+6. Commit by explicit path, subject `docs(work): ki.sop.main receive census and sop-tidy`, ending `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`; fetch, pull and push fast-forward only, never force or `--no-verify`, stop on divergence. Leave other sessions' files alone.
+
+Report to `/Users/krisbrown/.local/state/ki/agents/ki-sop-main/sop-queries.report.md`, owner-report form, short; quote the recovered OBS-TRANSFER in full. Plain British English, no em-dashes.
