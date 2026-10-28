@@ -11,13 +11,13 @@ tags:
   - topic/knowledge-islands
 priority: medium
 size: m
-status: ready
+status: awaiting-review
 horizon: now
 blocks: []
 blocked_by: []
-baseline_ref: null
+baseline_ref: 9328aa7bbfdc6a06baf74ddca8644e43ddf51941
 created_at: 2026-10-26T22:13:22Z
-updated_at: 2026-10-28T02:23:28Z
+updated_at: 2026-10-28T02:27:53Z
 ---
 
 # Amend the Work Process Note and GDR-KI-PRINCIPAL-009 to the Assigned-Package Cascade
@@ -43,15 +43,15 @@ The plan's directly checked HNR METHOD provenance supports a separate Project no
 
 ## Current state
 
-Ready for the expressly authorised isolated candidate. Actual source and index checks found no contested tracked path; the existing Principal merge remains an ancestor and queues/newer cadence are retained. Base adapter selection and Streams gates passed without failure or warning. The three allowed inputs were frozen before mutation by full source commit and SHA-256 manifest in the run's state folder. This Ready commit is the immutable implementation baseline; baseline_ref stays null until execution begins.
+The isolated candidate implements the two-document amendment against the frozen current inputs. The Ready baseline is committed and recorded in baseline_ref. Scoped semantic, exact-case link and source-preservation checks pass. The coordinator's concurrent committed reader receipts and cross-machine query on primary main are preserved without integrating this branch. The candidate is awaiting separate review after scoped checks and required hooks; integration, publication, migration and acceptance remain stopped.
 
 ## Steps
 
 - [x] Ground the bounded plan in actual committed owner approval, current sources, HNR provenance and native adapter gates; freeze the three inputs.
-- [ ] Commit this Ready baseline on the isolated candidate branch before canonical mutation.
-- [ ] Re-ground and amend both canonical documents together, preserving the existing cadence and all excluded state/reporting rules.
-- [ ] Run one sufficient scoped semantic/link/adapter/authoring check and required hooks using existing local tools; verify exact paths and protected-source preservation.
-- [ ] Add the six-part review packet, move only this record to awaiting-review on the candidate and stop before integration or acceptance.
+- [x] Commit this Ready baseline on the isolated candidate branch before canonical mutation.
+- [x] Re-ground and amend both canonical documents together, preserving the existing cadence and all excluded state/reporting rules.
+- [x] Run one sufficient scoped semantic/link/adapter/authoring check and required hooks using existing local tools; verify exact paths and protected-source preservation.
+- [x] Add the six-part review packet, move only this record to awaiting-review on the candidate and stop before integration or acceptance.
 
 ## Files touched
 
@@ -86,6 +86,32 @@ Align Work Process with the decided cascade, directly authorised home/promotion/
 ### Roadmap
 
 This record alone advances from Ready through delivery to awaiting-review on the candidate. Primary main retains its current record until separately authorised integration. Acceptance and pilots remain separate.
+
+## Review
+
+### Delivered
+
+The approved two-document model amendment is delivered as an isolated candidate only. Immutable Ready baseline: `9328aa7bbfdc6a06baf74ddca8644e43ddf51941`; source freeze: `2e521883a769c17d6463779c5ce3c05873a3e749`. Exactly this record, Work Process and the existing GDR change. No package, design file, reader, other steward's folder or primary branch is mutated by this unit. Acceptance is requested separately after source confirmation and authorised integration.
+
+### Change Summary
+
+The paired documents describe assigned stewardship and acknowledged handover, package/thread distinction, reporting homes, parent/covers and per-package marks/holds; host requirements remain separate from uncommitted seats. Existing cadence is preserved and GDR history wording is aligned. Source-authorised record-to-Project, principal-default homes and territory-discovery clarifications are included without duplicate delivery or guessed roots. The approved typed territory/type/name target coexists with current ids; consumers precede typed writers and migration. Record ids, registry slugs and package ids stay distinct. The living GDR is dated and amended in place with no new record or historical appendix.
+
+### Verification
+
+Current-source base selection and Streams readiness preflights passed. The scoped semantic and preservation check passed, including 12 exact-case local links, installed-harness link/anchor evidence, unchanged seven-state/role/banner/Observatory sections and current primary source hashes. Scoped native Streams, roadmap and Decision Record checks passed with no in-scope failure or warning. Native authoring returned a scoped pass but its whole-tree evaluation also exposed unrelated existing report-format failures and .rumdl.toml drift; the Decision Record evaluation exposed unrelated index-order warnings. Those paths were not changed. Direct three-file rumdl and required hooks verify the candidate itself after the formatter corrects one extra list-spacing line. Required hook success and exact post-hook paths are recorded in the run report; the candidate is not committed if those gates fail. No product test/build, estate audit, installer, provider action or new authentication was used.
+
+### Outstanding concerns
+
+The other-machine publication fact is still pending with the coordinator: a local clean checkout cannot prove remote completeness. Integration and publication intentionally wait, followed by fresh source/index/writer checks; no rebase onto concurrent governing-package updates is attempted here. Compatible harness/CLI readers and placement contracts are not delivered; stored spelling, umbrella suffixes, compatibility mechanism and any pilot require their receiving owners' explicit delivery decisions. Historical lookup remains indefinite. The existing diagram and current-id examples are retained and do not establish typed consumer support or a new renderer. Existing whole-tree authoring/configuration findings and Decision Record index-order warnings remain outside this three-file candidate; they are not represented as a clean full-repository audit. No AT-REST implementation, STEWARD-FIELD, account steering, glyph/report-policy or host-syntax decision is made.
+
+### Post-change review
+
+Fresh paired review finds the candidate within the approved P-model boundary, with ownership, holds, marks, current cadence and queues preserved. Typed spelling/default proposals remain choices rather than silently adopted rules. Regression risk is documentary: readers may otherwise mistake a target for immediate migration authority, so coexistence and reader-before-writer/mutation gates are explicit in both sources. The candidate is suitable for separate review once the hook-backed commit is verified; it is not accepted or integrated.
+
+### Mini recap
+
+One existing record governs two current-source canonical edits and their evidence. The isolated Ready baseline and candidate commits retain reviewable history. Source confirmation and receiver-owned reader/migration work remain outside delivery. Canonical knowledge is homed in Work Process and the existing GDR; operational evidence stays in this review packet and the run report. No additional learning record or wider rollout is adopted.
 
 ## Discussion
 

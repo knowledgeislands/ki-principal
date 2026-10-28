@@ -6,6 +6,7 @@ tags:
   - topic/work
 status: current - October 2026
 author: Written with Claude
+updated: 2026-10-28
 ---
 
 # Work Process
@@ -14,7 +15,7 @@ author: Written with Claude
 
 The Work Process is how coordinated work moves through a territory: who holds it, how it passes between parties, how new work reaches it, where its state is kept and how it is shown. It is the one canonical description of the model that [GDR-KI-PRINCIPAL-009](../../../../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md) decides. The harness standards and skills that govern coordination, delegation, the work package, forward work, Activities and recurring work cite this note rather than restate it.
 
-The unit is work, in Kris's words "the unit is work, not a conversation". A piece of work is packaged as a skill is: a short definition saying what it is, what its goals are and what it takes, read first, and detail files, its state, its queries, its incoming messages and its own decisions, read only when needed. A chat session is only the channel through which a party works on it. The work outlives every session and is committed at every send.
+The unit is work, in Kris's words "the unit is work, not a conversation". A piece of work is packaged as a skill is: a short definition saying what it is, what its goals are and what it takes, read first, and detail files, its state, its queries, its incoming messages and its own decisions, read only when needed. A chat session is the channel through which a party works; its thread is seated in one package and may act in others explicitly assigned to its coordinating work. The work outlives every session. Each completed, verified unit is committed by explicit path before the turn ends.
 
 ![The work model on one page](work-model.svg)
 
@@ -40,10 +41,12 @@ Work lies at three levels. Kris named the two forms at the middle one: "regular 
 
 | Level | Id | What it does | Ends |
 | --- | --- | --- | --- |
-| Territory work | `ki` | The state of play: coordinates the coordinators, routes new work and stewards the method, executes nothing | Never |
+| Territory work | `ki` | Coordinates coordinators and assigned packages; routes work and stewards the method † | Never |
 | Regular work | `ki.regular` | The territory's recurring work, defined in the Capital's Activity notes; self-coordinating; creates work items in any repository; holds ad hoc work as `ki.regular.<slug>` | Never; rests On hold, more expected, between occurrences |
 | Project work | `ki.<project>` | Coordinates one Project's work items and runs, and briefs runs | Finished when the Project closes |
 | Work item | the record's id | One record in any repository, executed by a run or a person | `done` or `cancelled` |
+
+† Execution stays with work items and their runs or people. The ids above are current examples; the typed target below does not rename them.
 
 **Regular work is self-coordinating.** It needs no coordination thread, in Kris's words "because it is sort of self-coordinating, but there's no reason why the state of play thread can't sort of talk about it". An occurrence is started by its schedule or by whoever needs it; state of play may discuss regular work but does not necessarily dispatch it. A Project's own recurring checks, needed only while it runs, stay with the Project and end with it.
 
@@ -56,6 +59,36 @@ Work lies at three levels. Kris named the two forms at the middle one: "regular 
 - only work items, done by runs or people, execute.
 
 Attention comes back up: each level reads the work packages beneath it and rolls up the five views.
+
+---
+
+## Assigned-package cascade
+
+A State of play may coordinate Project packages by explicit, committed assignment to coordinating work, never by inferring whether a thread is open, quiet or alive. Each Project package has one assigned coordinating work, either its own Project coordination or a State of play. Assignment is distinct from the holder: it neither receives the work nor releases an On hold state. STEWARD-FIELD remains undecided: this amendment chooses no field, value or file encoding for assignment. Until that choice is made, the assignment is logged in the stewarding work's decisions, as the harness standard provides.
+
+Opening or closing a Project's own thread requests a handover; it does not transfer stewardship. The old steward reconciles runs in flight, queued launches and pending writes, stops launching into the package, and commits the assignment change in one write. The new steward acknowledges the handover before acting and takes supervision of the reconciled runs. A missing binding, old heartbeat, closed session or timeout grants no takeover; uncertain ownership is reported.
+
+An assigned State of play is the package's coordinator for every entry-point purpose, including tidying, and may brief runs directly into it. The brief names both the reporting package and the product repository; the report is homed in that reporting package whoever launched it. A package assigned elsewhere receives only a message. Package creation is limited to a registered Project within the active-package cap, in the state supported by the actual move; a missing package never implies With worker. First-message seeding and the first-message On hold exception for dormant Projects remain. A Project need not immediately have a package or its own thread. The cap counts packages that are neither On hold nor Finished, not threads.
+
+One territory Summary rolls up the packages. Each item names its work, each query is identified by work id and tag, and queries and Kris's answers stay in that package's queries and decisions files. A decision spanning Projects is kept once at its territory home, not copied as several grants. Every package retains its own state, since, mark and beat. A territory mark never moves Project marks, and acknowledgement moves only the work it clearly names. A territory hold first drains its assigned Project packages and asks separately stewarded packages to drain rather than writing their state. One turn acts in one package; the other packages are rolled up through `ki work status`.
+
+Every package below the territory's main work names its coordinating State of play as `parent`; for ad hoc work this is the coordinating State of play, not the regular-work part of its id. The main work retains `covers` as its checked register, including coverage through secondaries, before a package exists and after it is pruned. Secondary `covers` lists remain their assigned subsets. Parent and coverage must agree within one territory, with unique parentage, unique secondary coverage and no cycles; coverage is never inferred from the presence of a package. A thread has no committed metadata: its opener and label carry the relationship until the thread tooling provides it.
+
+A thread's seat, where its session runs or resumes, is never committed in a package, hold or report. A host or category requirement is a fact about work and may constrain a message, brief, record or the whole package at the smallest applicable scope. Names and the local machine's identity resolve through the territory's machine inventory at bootstrap and re-anchoring, not a guessed raw hostname. A requirement restricts device-dependent execution only: any coordinator may acknowledge, plan, ask about or dispatch the line in queue order. Work with no eligible host remains visible and age-flagged; concrete-host and category meanings must be settled before adopting requirement syntax. This amendment adds no host syntax or field.
+
+The operational detail is owned by the harness standards for [coordinating assigned packages](https://github.com/knowledgeislands/ki-agentic-harness/blob/main/skills/change-management/ki-coordination/references/standards-coordination.md#coordinating-assigned-packages), the [work package](https://github.com/knowledgeislands/ki-agentic-harness/blob/main/skills/governance/ki-work-package/references/standards-work-package.md) and [background runs](https://github.com/knowledgeislands/ki-agentic-harness/blob/main/skills/governance/ki-delegation/references/standards-background-runs.md). The cascade changes coordination, not repository execution or acceptance authority. Pilot exit conditions stay with their rollout work; this description neither performs nor accepts a pilot or settles STEWARD-FIELD.
+
+---
+
+## Work identities and coexistence
+
+The approved target for package identity is `<territory>.<type>.<name>`. The type distinguishes State of play, Project and regular work; ad hoc work uses the regular form. Themes and hosts remain absent from ids, and parentage is declared rather than parsed from a prefix. This changes neither the three levels nor the seven states.
+
+Current package ids, paths and references remain valid alongside the target. Readers must accept current and typed identities before writers emit typed identities or anyone creates or renames a package using them. Historical old-id readability and old-id lookup have no time limit. Compatible resolution must identify one package without duplicate status entries or ambiguous mappings; receiving tool owners settle its mechanism. Stored spelling and umbrella suffixes require explicit delivery decisions and collision checks; they are not inferred from the approved three-part pattern.
+
+A work item's record id, a Project's registry slug and its package id are separate identities. The record's `project` remains its registry slug, such as `ways-of-working`, never a dotted package id. Runtime slugs do not establish identity or parentage. Do not derive repository renames, reverse-domain names or physical checkout roots from the package pattern.
+
+Migration is separate from this model amendment. It requires compatible readers, receiving-steward acknowledgement, an exact current manifest of incoming references and mutable bindings, a bounded mutation grant, quiescence of writers and queues, and a verified rollback. Preserve immutable native-session identity, original reports and message provenance, ownership, holds and marks; a rename neither receives work nor releases a hold. Existing instruments continue to govern until their replacements support these rules. No package creation, rename, registry rebinding or migration is instructed by this amendment. The diagram and current examples above show the existing representation; they do not claim that typed consumers are delivered.
 
 ---
 
@@ -146,6 +179,8 @@ Done for now exists only at the work level: a record is finite, and more work is
 | `with me`, `ack`, `got it`, `seen` | the supervisor's receive |
 | `pause`, `done for now` | the supervisor's receive that agrees a hold, with its reason |
 | `resume`, `finish` | the supervisor's moves off hold and to Finished |
+| thread | a session acting on work, seated in one package and able to act in others explicitly assigned to its coordinating work |
+| session | the runtime channel through which a party acts on work; neither the work nor its committed assignment |
 | working area | `+` inbound and `-` outbound; not canonical, history not durable |
 | mark | the point at which decisions are struck and the working area tidied |
 
@@ -156,6 +191,10 @@ The words are agreed to be proven in use, in Kris's words "We probably just need
 ## Homes
 
 **The work package and its folder.** Each piece of work above a work item is a work package, and it lives in one flat folder in the working area, `+/_WORK/<id>/`, the work folder, named by its dotted id. A work item has no package: its record is its home. Runs keep hyphenated slugs. Kris named it: "work should have a package idea and it should be clear about what its goals are and maybe a description to help things route it, so we've got that kind of progressive reveal capability".
+
+The Capital/principal is the default home for Project, regular and ad hoc packages. A member-repository home is a deliberate exception declared in `work.md` Scope, never inferred from a checkout or a thread. Execution, records, priority and acceptance stay with each owning repository. This principal-default rule narrows the prior regular/ad hoc placement exception; its corresponding harness contract must be aligned before consumers or writers rely on it. It grants no relocation by itself.
+
+A principal-seated thread bootstraps the territory: identify its Capital, read its Charter and governed inventory, resolve exact registered checkouts, then read each execution repository's rules. An absent or ambiguous binding blocks that execution until the receiver resolves it; no root is guessed. A repository binding is not evidence of a live thread's working directory. Package and thread are not one-to-one.
 
 A work package has exactly five files, all created with it, so that a reader never meets a missing file and another work can queue a message from the start. Run reports, open briefs and design papers sit beside them.
 
@@ -169,7 +208,7 @@ A work package has exactly five files, all created with it, so that a reader nev
 
 Nothing in the package is a log. History stays in Git and the run reports: there is no moves list, because each move is a commit, and evidence such as commit identifiers and test counts lives in the report and the commit, not in the state file. Splitting definition from state splits the logbook usefully: `git log -- work.md` is the history of what the work is, and `git log -- state.md` the history of its moves. `ki-work-package` owns the exact form of each file, their front matter and their limits.
 
-**The inbox is a queue.** A work's incoming messages are taken in priority order, and the worker may group similar items so that like work is done together. A line added at the top and marked important must be taken first, in that order; that is how State of play changes the way a work works. Other work and State of play write into a package only by adding a line to its `messages.md`, or replacing their own line not yet acted on.
+**The inbox is a queue.** A work's incoming messages are taken in priority order, and the worker may group similar items so that like work is done together. A line added at the top and marked important must be taken first, in that order. The assigned steward acts as the package's own coordinator; other work, including State of play when not assigned to the package, writes only a line to its `messages.md`, or replaces its own line not yet acted on. Assignment changes only through acknowledged handover. Persist each owner answer before dispatching work it authorises, honour dependencies and existing authority, then continue unaffected requests while background work proceeds; this changes no report or approval policy.
 
 **Canonical and working.** `Streams/` holds only definitions and records: Project notes flat in `Streams/Projects/` with a `theme:` key, theme pages in `Streams/Themes/`, and work items in `Streams/Roadmap/`. Everything that churns, the work package, reports, briefs and design papers, stays in the work folder. Links point upward: the work file names its Project; the Project note does not link down. Briefs sit in `briefs/<run>.md` while their handoff is open. The run state folder, `~/.local/state/ki/agents/<slug>/`, holds only runtime state.
 
@@ -205,7 +244,7 @@ Streams/
 └── diagrams/
 ```
 
-**Git is the logbook.** `git log -- +/_WORK/<id>/` is the history. Every session commits each completed unit by explicit path before its turn ends, under [Committing the work folder](https://github.com/knowledgeislands/ki-agentic-harness/blob/main/skills/change-management/ki-coordination/references/standards-coordination.md#committing-the-work-folder), which owns the commit and sync cadence. Move commits carry the move in their subjects: `docs(work): ki.ways-of-working send to owner`, `docs(work): ki.ways-of-working receive by owner`, `docs(work): ki.ways-of-working hold, paused`.
+**Git is the logbook.** `git log -- +/_WORK/<id>/` is the history. Every session commits each completed unit by explicit path before its turn ends, under [Committing the work folder](https://github.com/knowledgeislands/ki-agentic-harness/blob/main/skills/change-management/ki-coordination/references/standards-coordination.md#committing-the-work-folder), which owns the commit and sync cadence. Move commits carry the move in their subjects: `docs(work): ki.ways-of-working send to owner`, `docs(work): ki.ways-of-working receive by owner`, `docs(work): ki.ways-of-working hold, paused`. A move subject names the package whose state changed and, where useful, the acting work; a coherent move across files stays one commit. Fast-forward pulls run only into a clean checkout. Publication follows the standing push rule, including inspection of every unpublished ancestor and its limits on risk and deploying refs; cadence and a working-area path alone grant no publication authority. There is no new messages merge driver or append-only conflict policy.
 
 **Shared history is never rewritten.** A rewrite breaks every clone and every revision link and needs a force-push. Instead, the working area is pruned at every mark, a finished work folder is deleted at the mark that closes it with Git keeping it, and a separate working repository is considered only if clone size or `git log` speed measurably hurts.
 
@@ -216,6 +255,10 @@ Streams/
 **State of play routes.** Territory work, State of play, is the single dispatch coordinator. Every new unit of work without a clear owner comes to it: an owner dump, a handoff with no owning work, a cross-work item whose owner is unclear, and every method improvement, whether Kris pastes it there or another work sends it as a line in State of play's messages. A unit that already has an owner goes direct: a work's own follow-ups, an item in a record that names its work, and a reply to a message never pass through the hub.
 
 State of play matches the unit against each work's description and, where two match, their Scope, chooses one work and adds one dated route line to that work's `messages.md`. It keeps no copy of the register, which `ki work status` derives from the work packages. Where nothing matches, it proposes to Kris either a new piece of work or a record captured through `ki-next`.
+
+**Records resolve ownership, not authority.** A record's `project` resolves through the registry to its Project, territory and package; the record remains in its owning repository with its own holds, readiness and acceptance. Selection into Now neither opens a package nor grants execution. The assigned steward places the routed record in the package's next steps at its next wake. A record without a Project goes first to its existing regular or ad hoc owner; only unresolved ownership goes to State of play. Reclassification first reconciles runs in flight and their reporting package.
+
+A record may motivate a finite-outcome Project containing just that record. Register a separate Project note and link the original record by its `project` slug, retaining the record's id, history and status and creating no duplicate delivery. Package opening or assignment follows registration, cap, first-message seeding and acknowledged-assignment rules; Project registration does not create a thread or confer execution authority.
 
 **A routed work cannot reject.** In Kris's words, "once it's given it, it has to do something with it, it can't reject it, it can then say it wants it to be given to someone else ... we have to be careful about things just [bouncing] in between things". The receiving worker acts on each line at its next wake and does what it can with it: what its existing authority covers goes into its next steps, and what needs Kris's authority, capacity or a change of scope becomes a query. It gives back to State of play only the part it judges is not its own, with a reason. A unit is returned once; if State of play cannot place it elsewhere, it goes to Kris as a query rather than round again. Routing confers no authority to execute: owning a unit means owning what is done with it.
 
