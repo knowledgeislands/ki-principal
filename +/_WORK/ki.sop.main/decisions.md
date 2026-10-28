@@ -117,3 +117,7 @@
 - ARCHIVE-PRUNE-SOURCES answered back to ki.prj.ways-of-working from Known Lands; PERSONAL-ACQUIRE-TENDING not forwarded, the need already queued in Personal > SoP as TEND-COVER.
 - WORK-PACKAGES superseded: the parked AGENT-HOST and KA-CLOSE carry two packages, and ki.specifications was homed in 4cfd9c03.
 - ARCHIVE-ENGINE (two lines), GMAIL-CLOCK and SENT-PASS to Kris as MAIL-ASKS; ACCESS-ADMINS' other-territory half to Kris as ACCESS-ADMINS-ROUTE.
+
+## 2026-10-28 · NAMING-DONE disposition
+
+- NAMING-DONE (ki.prj.ways-of-working, 28 October): done; this package already lives at its canonical home `+/_WORK/ki.sop.main/`. Line removed.
