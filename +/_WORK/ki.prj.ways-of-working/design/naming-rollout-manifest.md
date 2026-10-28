@@ -54,4 +54,4 @@ Rollback is a compensating explicit-path rename and identity/reference commit, a
 
 The bounded scan resolves only exact declared `territory_members` against the local registry. Personal trip, Legal site and Techmedix archived site identities have no exact registered checkout here; do not guess paths. HNR roots and refs are never fetched or written. The review area contains only the harness README; no review packages or legacy checkpoint/thread SoPs were found in resolved roots. A leftover `ki.specifications` directory has no `work.md` and is not a package.
 
-A second bounded naming sweep is due ten minutes after the 22:04 GMT owner steer. Mandatory commit hooks and focused preservation checks are used; unrelated estate-wide repairs remain out of scope.
+The second bounded naming sweep completed at 22:14:40 GMT (at least ten minutes after the owner steer): all 31 non-HNR packages have canonical names, with zero new or remaining stragglers. Mandatory commit hooks and focused preservation checks are used; unrelated estate-wide repairs remain out of scope.
