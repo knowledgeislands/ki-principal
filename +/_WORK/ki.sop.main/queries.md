@@ -82,7 +82,7 @@ In each case the evidence is a committed acceptance or prune, or a deleted folde
 
 **Options:**
 
-a) (recommended, confidence medium, blind review pending - a commit is direct evidence, but host evidence can drift) Each tidy drops the 15 commit-proven queries with a decisions-log line citing the commit, and puts the five sol-evidenced ones to Kris as a batch.
+a) (recommended, confidence high - reviewed: a commit is direct evidence, but host evidence can drift) Each tidy drops the 15 commit-proven queries with a decisions-log line citing the commit, and puts the five sol-evidenced ones to Kris as a batch.
 
 b) Put all 20 to Kris one by one before any drop.
 
@@ -96,21 +96,9 @@ c) Drop all 20 on the census evidence.
 
 **Options:**
 
-a) (recommended, confidence medium, blind review pending - only Kris can say whether another copy exists, and nothing should be dropped while that is unknown) Kris names the location or confirms they are gone, and ki.prj.mac-studio-setup records the answer before its query is closed.
+a) (recommended, confidence high - reviewed: only Kris can say whether another copy exists, and nothing should be dropped while that is unknown) Kris names the location or confirms they are gone, and ki.prj.mac-studio-setup records the answer before its query is closed.
 
 b) Treat them as lost and close the query.
-
-### OBS-TRANSFER - Hand the parked Observatory acceptance to its new thread
-
-**Context:** One of my 22 parked questions, ACCEPT-OBSERVATORY, is about accepting Observatory work. It's parked because its review preparation exited early and needs rerunning. With a dedicated Observatory thread, that thread is the natural owner of the rerun and the acceptance. I'd move it there as a message and remove it from my parked list.
-
-**Query:** Shall I hand ACCEPT-OBSERVATORY to the Observatory thread?
-
-**Options:**
-
-a) (recommended, confidence high - Observatory's own thread owns its acceptance, and the move is a message that's easy to undo) Yes, send it to ki.prj.observatory as a message and drop it from my parked list.
-
-b) Keep it parked with me.
 
 ## Parked
 
