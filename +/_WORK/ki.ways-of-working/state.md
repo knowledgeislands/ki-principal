@@ -1,9 +1,9 @@
 ---
 id: ki.ways-of-working
-state: with-worker
-since: 2026-10-28T16:12:11Z
+state: handoff-to-supervisor
+since: 2026-10-28T16:26:36Z
 received: 2026-10-22T07:24:00Z
-beat: 2026-10-28T16:12:11Z
+beat: 2026-10-28T16:26:36Z
 mark: 2026-10-25T01:07:00Z
 method_read: d03d0e74
 ---
@@ -14,12 +14,12 @@ method_read: d03d0e74
 
 - Approved coordination enactment is delivered: canonical Work Process/GDR9 and Acquire decision/activation notices published; targeted refresh delivered to Acquire, Tools, Observatory and KI.
 - Harness GOV-232 and Tools CLI-173 are integrated locally, Awaiting review with their owning work. Local ki loads current TypeScript directly; no release/build is needed for this delivery.
-- Exact Principal checkout/branch is retired and seven completed briefs pruned with Git recovery. A bounded Acquire queue reconciliation is running after its newer peer activation arrived.
-- Acquire published actual AGENTS/capability activation at 2978dce. Preserve its processed queue while delivering the last refresh. Personal registration still routes through KI because its source is contested.
+- All current units are DONE; no worker or watcher remains. Both exact delivery checkouts/branches are retired; completed briefs have Git recovery. Acquire peer activation and final refresh are reconciled and published.
+- Acquire published actual AGENTS/capability activation at 2978dce; its processed inbox survives final merge b9d0a498. Personal registration still routes through KI because its source is contested.
 
 ## Next steps
 
-1. Receive actual Acquire activation and Personal tending receipts when their owners return them. Keep one authoritative package, state and inbox.
+1. Receive Personal tending/registration receipt through KI; Acquire activation and final refresh are complete. Keep one authoritative package, state and inbox.
 2. Preserve explicit code handoff: tools-ki and ki-agentic-harness, sol.local/main, each has three unpublished commits. Fetch/reconcile before cross-host continuation; do not infer another machine has the new CLI/hooks.
 3. Re-ground the older MOD011 candidate against the new canonical coordination source before later integration. Broader source/namespace work still awaits the existing other-machine publication fact.
 4. HOST-SYNC is next queued need; other unrelated messages stay preserved. Current coordination rollout requires no new owner approval.
