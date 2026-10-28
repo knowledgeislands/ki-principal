@@ -1,9 +1,9 @@
 ---
 id: ki.ways-of-working
-state: handoff-to-supervisor
-since: 2026-10-28T16:44:46Z
+state: with-worker
+since: 2026-10-28T21:58:11Z
 received: 2026-10-22T07:24:00Z
-beat: 2026-10-28T16:44:46Z
+beat: 2026-10-28T21:58:11Z
 mark: 2026-10-25T01:07:00Z
 method_read: d03d0e74
 ---
@@ -12,21 +12,21 @@ method_read: d03d0e74
 
 ## Now
 
-- Approved coordination enactment is delivered: canonical Work Process/GDR9 and Acquire decision/activation notices published; targeted refresh delivered to Acquire, Tools, Observatory and KI.
-- Harness GOV-232 and Tools CLI-173 are integrated locally, Awaiting review with their owning work. Local ki loads current TypeScript directly; no release/build is needed for this delivery.
-- All current units are DONE; no worker or watcher remains. Documentation histories are reconciled and published, exact delivery checkouts/branches retired, and completed briefs have Git recovery. Private reports remain untouched.
-- Acquire published actual AGENTS/capability activation at 2978dce; its processed inbox survives final merge b9d0a498. Personal registration still routes through KI because its source is contested.
+- Owner prioritised quick mechanical work-package naming, thread types, sync and at least one SoP per territory. Full non-HNR rollout and necessary support pushes are authorised; HNR remains strictly read-only with a copyable handoff.
+- Two bounded units are launching: folder/identity/SoP pass first; reader, validator and thread-home remediation alongside it. New unrelated starts wait; existing agents are not stopped.
+- Use approved lowercase territory/type/name identities; preserve holds, marks, state, owners, project slugs and native/run identities. Existing legacy SoP is renamed, not duplicated.
+- Earlier coordination enactment and Acquire activation remain delivered. Re-ground actual current sources rather than replay old branches or stale manifests.
 
 ## Next steps
 
-1. Receive Personal tending/registration receipt through KI; Acquire activation and final refresh are complete. Keep one authoritative package, state and inbox.
-2. Preserve explicit code handoff: tools-ki and ki-agentic-harness, sol.local/main, each has three unpublished commits. Fetch/reconcile before cross-host continuation; do not infer another machine has the new CLI/hooks.
-3. Re-ground the older MOD011 candidate against the new canonical coordination source before later integration. Broader source/namespace work still awaits the existing other-machine publication fact.
-4. HOST-SYNC is next queued need; other unrelated messages stay preserved. Current coordination rollout requires no new owner approval.
+1. Receive exact non-HNR roots and rename manifest; move safe packages mechanically now, including existing SoPs, and seed only genuinely absent SoPs.
+2. Receive minimal typed/legacy compatibility and thread-type corrections, enough for gates, launch/status and report routing. No new public locator/transport schema or history rewrite.
+3. Sync/publish safe verified changes without repeated unchanged builds/audits; report any busy/dirty/collision exceptions individually.
+4. Deliver HNR's read-only findings and exact actions as a copyable packet for its Principal owner. Do not send it or mutate HNR.
+5. Resume stocktake of the remaining incoming Markdown, sync, release-notice, capture and trade needs after this priority pass.
 
 ## Held
 
-- Principal-only message forwarding and automatic Capital-to-member discovery need separate design/reader work; no shadow package, new locator schema, Project-home exception or namespace move.
-- Older MOD011 candidate remains isolated at 996bcf64666754975f1691d8ef50678dce9a0dd8. Typed-ID reader/pilot and holds remain with their authorised owners.
-- Account steering, AT-REST representation, STEWARD-FIELD, HNR hold/binding gaps, Observatory audit, attended Rig and source/reference pruning guards remain recorded.
-- Old refs/private data and mark unchanged. No releases, deployments or provider actions.
+- No releases, deployments, installs, provider changes or destructive Git operations.
+- Forwarding design, AT-REST representation, STEWARD-FIELD and older model candidate retain their boundaries; only genuinely necessary approved naming/thread changes belong now.
+- Preserve prior private reports/refs and the unchanged mark. Do not treat them as publication payload or unrelated blockers.
