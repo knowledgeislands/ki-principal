@@ -94,3 +94,7 @@
 
 - MGIT-CHAIN, read back as taken: "I like the chain thing, so we should add that pretty quickly ... just get ahead and do that right now." Build `mgit chain` in tools-mgit now: steps split on `--then` with no quotes, each repository running its steps in order and stopping at the first failure, with recipes. Capture, plan and deliver one record to Awaiting review; no acceptance and no release.
 - SYNC-RECIPE, read back as taken: `mgit sync` should carry the Git-level tune-up and tidy practice used across this work, as a recipe over shared safe steps on the chain engine. The dotfiles syncing and the regular syncing activity should then use it. Routed to ki.prj.tools-burndown and ki.prj.chezmoi as messages.
+
+## 2026-10-28 · SYNC-ACTIVITY (Kris, conversational)
+
+- SYNC-ACTIVITY, read back as taken: "I think it was being handled ad hoc by the dotfiles thread or agent session. However, there's a bit of work which is going on, which is to have a single coordinated observatory-based, or similar to observatory host-based, regular activity runner, and therefore this could be one of the things that's in there." The recurring Git sync is the dotfiles thread's ad hoc syncing for now; offer it to the single coordinated scheduled-agent service ki.prj.observatory is weighing (TRIAGE-HOURS, SCHEDULED-RESULTS) as a candidate job. Routed as messages to ki.prj.observatory and ki.prj.chezmoi.
