@@ -772,3 +772,7 @@ Kris: "the latest diagram is just up and dup that's using Archify is exactly cor
 Kris: "there's two kind of prompts. You can give me as a single prompt, but have a clear marker, so like a HR between the two parts of it, so I can copy them into all the threads and then delete the ones that are not ready for stop for move. And yeah, when it talks about the structure, it should be enough for them to understand what we've just discussed, but know that the real information is coming from updates that you're gonna do very shortly after this. The idea is to get or allow those ones that need to do a stop for move to get on with this enough to allow me to transition the work, which actually will include the ways of working that we're now talking about here, but on terra, so that we can move it to Sol ultimately."
 
 Read-back: one pasteable prompt, STRUCTURE part then a horizontal rule then the STOP-FOR-MOVE part, so Kris can delete the second part for threads not stopping. STRUCTURE is an interim briefing: enough to understand the model, saying the authoritative standards updates follow shortly. Ways of working itself stops for the move on terra too, after the prompt is delivered.
+
+## STOP-FOR-MOVE-WOW - 2026-10-29
+
+Kris pasted the interim briefing and the STOP-FOR-MOVE prompt into this thread: "Stop this work for the host move to sol: conclude, then take stop to At rest, reason moving". Read-back: Ways of working concludes and takes stop to At rest (moving to sol) on terra, proving every postcondition; delegated to run wow-stop-terra.
