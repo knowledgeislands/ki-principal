@@ -310,3 +310,7 @@
 home: KI-TOOL-TECHNE-CLI-006 class: operational
 
 - CLI006-PLAN a) (Kris, 20 October 2026), taken under OVERNIGHT: KI-TOOL-TECHNE-CLI-006 replanned against current tools-techne and Harness sources in tools-techne 31c7b7d and kept draft Next for Kris's review; nothing implemented.
+
+## Decision 74 (2026-10-29T01:01:58Z)
+
+- DRAIN (Kris, 22 October 2026), "take stock and drain to On hold, \"hold, more expected\"": acted on by agent-drain under AWAY-WINDOW; nothing was running, CLI006-PLAN parked, state set on-hold, more-expected, until Kris brings this work package back up; no line for another package was needed. Class: operational.
