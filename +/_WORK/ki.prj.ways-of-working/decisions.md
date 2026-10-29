@@ -619,3 +619,9 @@ Kris: "Take up HOST-SYNC as the next design under ki-work-design. Its inputs are
 Kris, on LAUNCH-BLOCKED, HOST-SYNC, CROSS-MACHINE-SOURCE, FINISH-LINE and PUBLIC-REPORT-AUDIENCE, each option a: "The queries, I agree with the most recommended one for, so you can get on with those, please."
 
 Read-back: launch the levelling and design runs; settle HOST-SYNC through tagged decisions then one rollout line per Rig queue; CROSS-MACHINE-SOURCE - no unpublished other-machine changes named, reconcile MOD-011 from published sources and preserve any unresolved overlap; FINISH-LINE - finish the approved amendment and exit checks, hand remaining designs to named packages through KI State of play with acknowledged ownership, then close the Project, aiming to cut open topics and roadmap items; PUBLIC-REPORT-AUDIENCE - review the identified set privately and prepare a bounded response without changing access or history. Kris also asked that Ways of working keep reducing its open topics and roadmap items.
+
+## DRAIN-MEANS - 2026-10-29
+
+Kris: "When we talk about draining, that must include also getting the work package to be stable, as well, which means reviewing it to make sure everything's tidied up and also committed, right? Includes any PRs, any work trees, everything. It means that there's no longer anything which is specific to a machine that might get lost if I was to delete the repository."
+
+Read-back: a drain is not DRAINED until the work package is reviewed and tidied, everything is committed and pushed, and no run worktree, branch, PR, stash, local ref or run-only report holds anything that exists on one machine alone. Applied now to the terra drain through run wow-drain-tidy; the method change to `ki-coordination`'s drain and hold wording is this Project's work, queued for sol.
