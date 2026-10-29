@@ -4,7 +4,7 @@ state: with-supervisor
 since: 2026-10-29T15:38:09Z
 received: 2026-10-29T15:38:09Z
 beat: null
-mark: 2026-10-29T15:38:09Z
+mark: 2026-10-29T16:18:42Z
 method_read: 07b9333a
 ---
 
@@ -12,8 +12,8 @@ method_read: 07b9333a
 
 ## Now
 
-- DRAINED at 2026-10-29T15:38:09Z: all 33 runs finished and received; nothing running, queued or scheduled for this work. No new work launched.
-- Work is with the supervisor at the owner's explicit request. Inbox checked; no new lines since the previous handoff.
+- DRAINED at 2026-10-29T16:18:42Z: all 33 runs finished and received; nothing running, queued or scheduled for this work. No new work launched.
+- Work is with the supervisor at the owner's explicit request. Inbox rechecked at this mark; no new lines since the previous drain.
 - Six already-disposed queue entries cleared into the decisions log. Three Open queries remain complete and unchanged; parked choices retain their existing holds.
 - The completed six-record acceptance and supporting fixes remain delivered. No further acceptance, implementation, release or deployment was attempted.
 - Existing retained reports, briefs and design notes are unchanged since the prior reviewed tidy; incomplete whole-outcome homing still prevents deletion.
