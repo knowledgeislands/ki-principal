@@ -78,7 +78,7 @@ These are the rule changes you decided on 24 and 25 October and that runs wrote 
 **CI** (continuous integration) is the set of automated checks GitHub runs on every push. Every Knowledge Islands repository pins a `ki` version in its CI (the **pin**, a `KI_VERSION` or `.github/ki-version` value) and runs the `ki` audits at that version.
 
 - **Pins moved to v0.13.0** across all twenty repositories; the install step passed everywhere. Sixteen stayed red for pre-existing reasons: library drift (**DEPS-1**: Bun 1.4.2 to 1.4.3 and two packages), a stale dependency checker version (**TEST-5**), two shell-script lint findings, document-structure rules in `ki-design` and `ki-principal`, and **DESIGN-2**.
-- **Fleet fix.** A run fixed Bun, the checker version and the shell findings across sixteen repositories in clean clones, pushed fast-forward. `tools-mgit` and `ki-techne-harness` went green. Report: [wow-fleet-green.report.md](../wow-fleet-green.report.md).
+- **Fleet fix.** A run fixed Bun, the checker version and the shell findings across sixteen repositories in clean clones, pushed fast-forward. `tools-mgit` and `ki-techne-harness` went green. Report: [wow-fleet-green.report.md](../reports/wow-fleet-green.report.md).
 - **DESIGN-2 explained.** The released `ki` v0.13.0 looks for the dependency-checker folder at `tooling/boundaries`; the repositories renamed it to `tooling/depcruise`. Every local audit against the current harness passes. Twelve repositories, and the website, fail on this alone, and it clears the moment they pin a `ki` release that knows the new name. That release is v0.14.1, in flight now.
 - **`tools-ki` green** for the first time since 21 October, on 25 October at 13:23 GMT, after its own pin and a test-only fix. Commit [1d65a32e](https://github.com/knowledgeislands/tools-ki/commit/1d65a32e).
 - **Harness main green** at [5cb52973](https://github.com/knowledgeislands/ki-agentic-harness/commit/5cb52973).
@@ -90,7 +90,7 @@ These are the rule changes you decided on 24 and 25 October and that runs wrote 
 The **release chain** is how a new `ki` version reaches everything: `tools-ki` tags and publishes a release, a bot updates the **Homebrew tap** (the `homebrew-tap` repository that `brew install ki` reads), and the tap notifies the website and the harness to bump their pins.
 
 - **Chain verified end to end.** A read-only run traced v0.11.5, v0.12.0 and v0.13.0 through every hop. The last hop had been failing silently because the website's main was red, so the bot's pull requests never auto-merged. The harness was enrolled as a consumer and a replay confirmed both consumers receive the dispatch. Tap commit [ef2ad37](https://github.com/knowledgeislands/homebrew-tap/commit/ef2ad37).
-- **Failure: v0.14.0 did not publish.** Tag pushed on 25 October, but the release workflow's two macOS package jobs ran out of memory in one test file (`agent-control.test.ts`). Nothing was published; v0.13.0 remains the released version. Report: [wow-ki-pin-release.report.md](../wow-ki-pin-release.report.md). You decided the fix tonight (REL-MACOS-OOM, section 3) and the run to ship v0.14.1 is working now.
+- **Failure: v0.14.0 did not publish.** Tag pushed on 25 October, but the release workflow's two macOS package jobs ran out of memory in one test file (`agent-control.test.ts`). Nothing was published; v0.13.0 remains the released version. Report: [wow-ki-pin-release.report.md](../reports/wow-ki-pin-release.report.md). You decided the fix tonight (REL-MACOS-OOM, section 3) and the run to ship v0.14.1 is working now.
 
 ### Design work
 
@@ -100,7 +100,7 @@ Design notes live in this folder. Each is a brief, an independent review or two,
 - **Model shape** ([model-shape-report.md](model-shape-report.md)): how one State of play thread looks after several Project packages. Five of six queries decided and landed in the harness; STEWARD-FIELD remains.
 - **Unattended work** ([unattended-work.md](unattended-work.md)): the window life cycle and the eligibility criteria. Eight of its ten queries decided; UNATTENDED-FIELD and UNATTENDED-AND-DUE-DATES remain.
 - **Skill set** ([skill-set.md](skill-set.md)), **overview** ([overview.md](overview.md)), **tending** ([tending.md](tending.md)), **findings** ([findings.md](findings.md)), **interim cover** ([interim-cover.md](interim-cover.md)) and **repository metadata** ([repository-metadata.md](repository-metadata.md)): all of their open queries were decided tonight; the runs recording those decisions are queued.
-- **Dry-run survey** ([wow-dryrun-survey.report.md](../wow-dryrun-survey.report.md)): how every Knowledge Islands command previews and writes today. Its one live recommendation is CLI-PREVIEW in section 5.
+- **Dry-run survey** ([wow-dryrun-survey.report.md](../reports/wow-dryrun-survey.report.md)): how every Knowledge Islands command previews and writes today. Its one live recommendation is CLI-PREVIEW in section 5.
 
 ## 3. Decided today
 
@@ -153,7 +153,7 @@ As of 21:49 GMT. A run is "running" when its agent is working, "queued" when it 
 | wow-harness-b | Queued | Writes the headless coordinator-pass contract (WAKE-SUBSTRATE) into the harness; hands the launchd check job and the `mpush` alias to the chezmoi and Mac Studio works as messages; records the two mgit answers in the mgit design note; records the five INTERIM answers in their notes and standards. Brief: [wow-harness-b.md](../briefs/wow-harness-b.md). |
 | wow-principal-records | Queued | Accepts MOD-009 as done; captures the Principal record for amending the Work Process note under the Enactment Process; sends Valle Armonia's State of play the one-wave pilot proposal and asks it to name the package. Brief: [wow-principal-records.md](../briefs/wow-principal-records.md). |
 | wow-tap-log | Queued, after the release | Makes the tap's release dispatch line visible in the job log and points the release guide at it. Brief: [wow-tap-log.md](../briefs/wow-tap-log.md). |
-| wow-hnr-tidy | Finished 21:45 GMT | Reset `hnr-principal` to origin (HNR-LEVEL, done, nothing lost) and traced the two orphan owners (TIDY-GAPS), producing SPEC-ORPHAN-OWNER and RADAR-REPORT-HOME. Report: [wow-hnr-tidy.report.md](../wow-hnr-tidy.report.md). |
+| wow-hnr-tidy | Finished 21:45 GMT | Reset `hnr-principal` to origin (HNR-LEVEL, done, nothing lost) and traced the two orphan owners (TIDY-GAPS), producing SPEC-ORPHAN-OWNER and RADAR-REPORT-HOME. Report: [wow-hnr-tidy.report.md](../reports/wow-hnr-tidy.report.md). |
 | wow-review-pack-5 | Running | This document. |
 
 Nothing in flight is waiting on an answer from you.

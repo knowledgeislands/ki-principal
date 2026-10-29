@@ -1,35 +1,35 @@
 ---
 id: ki.prj.ways-of-working
-state: handoff-to-supervisor
-since: 2026-10-29T22:21:00Z
+state: on-hold
+since: 2026-10-29T22:41:26Z
 received: 2026-10-29T15:38:09Z
 beat: null
-mark: 2026-10-29T16:18:42Z
+mark: 2026-10-29T22:41:26Z
 method_read: 07b9333a
+hold:
+  reason: moving to sol
+  release: resume on sol
 ---
 
 # ki.prj.ways-of-working state
 
 ## Now
 
-- On terra, 29 October evening. Main thread: the work state machine (WORK-STATE-MACHINE and the decisions after it, all in decisions.md): Start (wp) -open-> Bootstrap -ready-> Working (entry choice: pick up / refine; cycle inform, receive, direct, receive; End (work) by conclude) -stop, drain, portable-> At rest (holding, waiting, moving) -resume-> Bootstrap, or -finish-> Finished. Roles: supervisor, worker, orchestrator, each AI or human (ROLES-ORCHESTRATOR, ROLES-EITHER).
-- Design: [work-state-machine.md](design/work-state-machine.md) with Archify views; Mermaid sketch [work-state-machine.mmd](design/work-state-machine.mmd) holds the agreed shape. wow-sm-polish is applying WORKING-EXIT and beautifying.
-- Aside, routed: DIAGRAM-TOOLS to ki.sop.main for the `ki-diagrams` and `ki-authoring` owners; DIAGRAM-FEEDBACK to ki.prj.observatory.
-- Kris took every recommended option earlier today (RECOMMENDED-ALL): HOST-SYNC design, FINISH-LINE, CROSS-MACHINE-SOURCE, PUBLIC-REPORT-AUDIENCE.
+- At rest for the move to sol under [STOP-FOR-MOVE-WOW](decisions.md#stop-for-move-wow---2026-10-29), encoded as on-hold until the state-machine rollout. Nothing of this work is running, queued for execution or scheduled; no wakes are held.
+- The work state machine and its open choices remain in [work-state-machine.md](design/work-state-machine.md); all open queries are parked in [queries.md](queries.md).
+- Reports are preserved in reports/; spent briefs are removed. The two retained briefs await relaunch after resume.
+- PR inventory supplied by the orchestrator: knowledgeislands/ki-principal had no open PRs at 2026-10-29T22:33Z. No provider call made here.
 
 ## Next steps
 
-1. Receive wow-sm-polish; settle the design note's Decisions for Kris and ARC-CONDITIONS, blind-reviewing medium and low ones first; MACHINE-HOME decided.
-2. Roll the machine out as message lines: Work Process note (Enactment), `ki-work-package` (states, transitions, conditions, WORK-FOLDER-PURPOSE layout), `ki-coordination` (orchestrator behaviour, DRAIN-MEANS portability on stop), tools-ki (`ki agent` reports into `reports/`, `ki work status` values).
-3. Relaunch wow-host-sync-design and wow-finish-line from briefs/; then HOST-SYNC rollout lines to personal.reg.rig-terra and personal.reg.rig-sol.
-4. From the finish-line plan: MOD-011 reconciliation from published sources; hand-offs through KI State of play; move or prune the 86 root reports (FOLDER-MIGRATE).
-5. PUBLIC-REPORT-AUDIENCE private review run, changing no access or history.
-6. Dispose of the six messages.md lines (HOST-SYNC-REVIEW to the design run; five confirm parked routes).
-7. Before moving to sol: stop with the portability checks; prune spent briefs; remove stranded run worktrees (wow-sync-2).
+1. On sol, fetch origin and check main is level with origin/main; pull fast-forward only if behind, and stop on divergence.
+2. Re-bootstrap as ki.prj.ways-of-working under ki-coordination.
+3. Restore parked queries to Open as appropriate; relaunch [wow-host-sync-design](briefs/wow-host-sync-design.md) and [wow-finish-line](briefs/wow-finish-line.md).
+4. Settle the state-machine choices with the rollout, then route the state machine to ki-work-package, ki-coordination, the Work Process note and tools-ki. Continue FOLDER-MIGRATE per package; this package is already tidied and moved.
+5. Continue HOST-SYNC rollout through the Rig queues, MOD-011 reconciliation from published sources and the private PUBLIC-REPORT-AUDIENCE review within their existing authority.
 
 ## Held
 
-- Preserve the original model candidate, Tools retained refs and publication recovery evidence. Reconcile published sources without overwriting unresolved overlaps or replaying stale trees.
-- Host-sync and other unchosen designs await their existing decision stages; no executor, schedule or automatic takeover is selected.
-- HNR remains excluded. Observatory appearance belongs to its own work.
-- No release, deployment, install, credential/provider operation, confidential publication, force/reset/stash or hook bypass is authorised here.
+- Preserve original model candidates, Tools retained refs and publication recovery evidence; reconcile published sources without overwriting unresolved overlaps or replaying stale trees. The named wow-publication recovery ref is absent from this checkout.
+- Host-sync and other unchosen designs retain their decision stages; no executor, schedule or automatic takeover is selected.
+- HNR remains excluded; Observatory appearance belongs to its own work. No release, deployment, installation, credential/provider operation, confidential publication, force/reset/stash or hook bypass is authorised here.

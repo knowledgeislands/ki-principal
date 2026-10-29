@@ -43,7 +43,7 @@ Outstanding - no action requested now:
 
 **Options:**
 
-a) (recommended, confidence medium - both main readers already fit images to the column, so the width adds little) Plain GFM images `![alt](<image.png>)`, and Format drops the width-800 rule.
+a) (recommended, confidence medium - both main readers already fit images to the column, so the width adds little) Plain GFM images `![alt](<../image.png>)`, and Format drops the width-800 rule.
 
 b) Keep the four as recorded Obsidian-only exceptions, and keep Format's sized-embed rule for images.
 
@@ -57,7 +57,7 @@ c) HTML `<img src="image.png" width="800" alt="...">`, after a check that Obsidi
 
 **Options:**
 
-a) (recommended, confidence medium - the Calendar layout makes the month path certain, but landmark notes have no fixed home) Rewrite them: months as `[YYYY-01 January](<YYYY-01 January/YYYY-01 January.md>)` and landmarks as `[Landmark 1](<Landmark 1.md>)`.
+a) (recommended, confidence medium - the Calendar layout makes the month path certain, but landmark notes have no fixed home) Rewrite them: months as `[YYYY-01 January](<../YYYY-01 January/YYYY-01 January.md>)` and landmarks as `[Landmark 1](<../Landmark 1.md>)`.
 
 b) Leave them as wikilinks, and let the touch rule convert each new note when it is first edited.
 

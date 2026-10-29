@@ -29,10 +29,7 @@ Nothing is running.
 
 **Query:** Should KI-PRINCIPAL-MOD-011 be adopted now as a Now draft so its Enactment wording can be planned, or wait for the pilot?
 
-**Options:**
-a) (recommended, confidence high - the model is already live in the harness, so the canonical note and GDR are behind it today, and STEWARD-FIELD is carved out) Adopt into Now as a draft, kind deliver, size m, then plan it to Ready under `ki-plan` with the exact wording confirmed through the Enactment Process before it is written.
-b) Adopt into Next, planning it only after the Valle Armonia pilot's wave reports, so pilot lessons shape the wording in one pass.
-c) Leave it in triage until STEWARD-FIELD is decided, then adopt both together.
+**Options:** a) (recommended, confidence high - the model is already live in the harness, so the canonical note and GDR are behind it today, and STEWARD-FIELD is carved out) Adopt into Now as a draft, kind deliver, size m, then plan it to Ready under `ki-plan` with the exact wording confirmed through the Enactment Process before it is written. b) Adopt into Next, planning it only after the Valle Armonia pilot's wave reports, so pilot lessons shape the wording in one pass. c) Leave it in triage until STEWARD-FIELD is decided, then adopt both together.
 
 ### 🤖 → 👤 Handoff to supervisor · since 22:15 GMT
 

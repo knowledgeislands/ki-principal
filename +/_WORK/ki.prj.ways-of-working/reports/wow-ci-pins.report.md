@@ -43,9 +43,7 @@ Nothing is running.
 
 **Query**: accept the pin as landed in `1e3c5500`, or have the pin re-landed as its own commit?
 
-**Options**:
-a) (recommended, confidence high - the pin is correct on main and verified by CI; re-landing would be a no-op diff and Git history already shows the change) accept it as landed and note it in the decisions log.
-b) revert the pin line in a follow-up and re-commit it as `chore(ci): install ki v0.13.0`, which produces two more commits for no change in state.
+**Options**: a) (recommended, confidence high - the pin is correct on main and verified by CI; re-landing would be a no-op diff and Git history already shows the change) accept it as landed and note it in the decisions log. b) revert the pin line in a follow-up and re-commit it as `chore(ci): install ki v0.13.0`, which produces two more commits for no change in state.
 
 ### Q2 - the repositories stay red on audit rules outside this unit
 
@@ -53,10 +51,7 @@ b) revert the pin line in a follow-up and re-commit it as `chore(ci): install ki
 
 **Query**: how should the remaining red be routed?
 
-**Options**:
-a) (recommended, confidence high - DEPS-1, DESIGN-2 and TEST-5 are all dependency-and-toolchain drift and one unit can clear them together across the 15 affected repositories) fold DESIGN-2 and TEST-5 into the DEPS-1 unit, and open separate records for the `ki-design` and `ki-principal` document rules and the `tools-mgit` shellcheck finding.
-b) open one record per rule per repository.
-c) leave the red as is until the harness rule set settles.
+**Options**: a) (recommended, confidence high - DEPS-1, DESIGN-2 and TEST-5 are all dependency-and-toolchain drift and one unit can clear them together across the 15 affected repositories) fold DESIGN-2 and TEST-5 into the DEPS-1 unit, and open separate records for the `ki-design` and `ki-principal` document rules and the `tools-mgit` shellcheck finding. b) open one record per rule per repository. c) leave the red as is until the harness rule set settles.
 
 ### 🤖 → 👤 Handoff to supervisor · since 08:28 GMT
 

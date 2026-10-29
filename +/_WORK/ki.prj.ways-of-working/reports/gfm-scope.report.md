@@ -53,11 +53,11 @@ By zone, ki-principal's wikilinks are: Pillars 539 plus 13 embeds; Streams 218; 
 
 | Construct | GFM equivalent | Conversion | What breaks or changes |
 | --- | --- | --- | --- |
-| Plain wikilink | `[Note](<rel/path/Note.md>)` | Mechanical with resolver † | Path text changes when a linking file moves outside Obsidian ‡ |
-| Aliased wikilink | `[Alias](<rel/path/Note.md>)` | Mechanical | Nothing; table `\|` escaping goes away |
-| Heading wikilink | `[Note › Heading](<path.md#gfm-slug>)` | Mechanical but lossy | Obsidian may not follow a GitHub slug § |
+| Plain wikilink | `[Note](<../rel/path/Note.md>)` | Mechanical with resolver † | Path text changes when a linking file moves outside Obsidian ‡ |
+| Aliased wikilink | `[Alias](<../rel/path/Note.md>)` | Mechanical | Nothing; table `\|` escaping goes away |
+| Heading wikilink | `[Note › Heading](<../path.md#gfm-slug>)` | Mechanical but lossy | Obsidian may not follow a GitHub slug § |
 | Block wikilink, block ID | No GFM equivalent | Judgement | None present anywhere sampled |
-| Image embed | `![alt](<image.png>)` | Mechanical; alt text is judgement | Obsidian embed sizing (`\|300`) is lost; none found |
+| Image embed | `![alt](<../image.png>)` | Mechanical; alt text is judgement | Obsidian embed sizing (`\|300`) is lost; none found |
 | Note transclusion | Link, or inline the text | Judgement | None in ki-principal; check personal before converting it |
 | GFM-type callout | `> [!NOTE]` and the other four | Already GFM | Text on the marker line becomes an Obsidian title ¶ |
 | Custom callout | GFM alert, heading or prose | Judgement | `callout-manager` styling |
@@ -77,7 +77,7 @@ By zone, ki-principal's wikilinks are: Pillars 539 plus 13 embeds; Streams 218; 
 ### What breaks in tools and surfaces
 
 - **`ki repo audit` (harness `ki-repo-kb`, LINK-1, `kb.ts`)** checks only that wikilinks are unambiguous. A converted island passes vacuously but has no link check at all. LINK-1 needs replacing with "every internal link resolves, in exact case". House `.rumdl.toml` also disables MD057 (relative-link existence), so nothing else catches dangling links.
-- **Harness `ki-decision-records` rubric (`decision-records.ts`, `bodyLinks`)** parses `[x](<a b.md>)` as `a`, because its pattern stops at the first space. This is a real defect for angle-bracket links, which is the form the house standard prescribes.
+- **Harness `ki-decision-records` rubric (`decision-records.ts`, `bodyLinks`)** parses `[x](<../a b.md>)` as `a`, because its pattern stops at the first space. This is a real defect for angle-bracket links, which is the form the house standard prescribes.
 - **Harness `ki-repo-kb-activities` rubric** already parses both forms, angle brackets included. No change is needed.
 - **The Observatory (`packages/evidence/src/knowledge-bases.ts`)** already resolves wikilinks, embeds and relative Markdown links through `marked` with GFM and `decodeURI`. No change is needed, apart from checking that the graph edge count is the same before and after conversion.
 - **mcp-ki-kb-notion-mirror** builds backlinks and @mentions from wikilinks only (`wikilinks.ts`, `backlinks/graph.ts`). A converted island that is mirrored to Notion would lose its edges. No island's `.ki.toml` declares a mirror, and I did not check the mirror's own root configuration.
@@ -89,7 +89,7 @@ By zone, ki-principal's wikilinks are: Pillars 539 plus 13 embeds; Streams 218; 
 
 This would sit in `standards-markdown.md` under "Markdown flavour", with the KB exception removed from "Links" and "Linking within a base" in `ki-repo-kb` rewritten to match:
 
-> **Markdown flavour.** Knowledge Islands prefers GitHub-flavoured Markdown (GFM): it renders the same on GitHub, in editors such as Zed, in the Observatory and in Obsidian. Other flavours, chiefly Obsidian's wikilinks, embeds and custom callouts, remain supported: a reader, audit or tool must not fail on them, and no one need convert a file just to read or cite it. A file you touch is converted: when you edit a Markdown file for any reason, convert its whole body to GFM in the same change, using relative links in angle brackets (`[Note](<../Folder/Note.md>)`) and GFM alerts, and keep the conversion visible in the change. From time to time a repository may rewrite a batch of files, or the whole repository, to GFM in one dedicated change, through the converter's dry run and its verification, with no other edits mixed in. Where a construct has no GFM equivalent (a block reference, a transclusion, a plugin query), the author decides the replacement; it is never dropped silently.
+> **Markdown flavour.** Knowledge Islands prefers GitHub-flavoured Markdown (GFM): it renders the same on GitHub, in editors such as Zed, in the Observatory and in Obsidian. Other flavours, chiefly Obsidian's wikilinks, embeds and custom callouts, remain supported: a reader, audit or tool must not fail on them, and no one need convert a file just to read or cite it. A file you touch is converted: when you edit a Markdown file for any reason, convert its whole body to GFM in the same change, using relative links in angle brackets (`[Note](<../../Folder/Note.md>)`) and GFM alerts, and keep the conversion visible in the change. From time to time a repository may rewrite a batch of files, or the whole repository, to GFM in one dedicated change, through the converter's dry run and its verification, with no other edits mixed in. Where a construct has no GFM equivalent (a block reference, a transclusion, a plugin query), the author decides the replacement; it is never dropped silently.
 
 **The 2026-10-09 front-matter flavour field** is no longer needed. Kris's touch-to-convert rule, together with batch rewrites, replaces gradual per-note declaration. A file's flavour can be detected mechanically from the presence of `[[`, `![[` or a custom callout, so a declared field would only duplicate that and drift from it. If any island must stay on Obsidian flavour long term, a repository-level `.ki.toml` key is enough. See FLAVOUR-FIELD below.
 

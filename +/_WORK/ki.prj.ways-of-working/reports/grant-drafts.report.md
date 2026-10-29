@@ -31,9 +31,9 @@ The full draft of `grant-fetch.md`:
 ```markdown
 # Authority grant: fetch
 
-> **Draft, not approved.** This wording awaits Kris Brown's review under [KI-HARNESS-GOV-201](../../../../docs/roadmap/KI-HARNESS-GOV-201-fetch-and-machine-grants.md). No launcher reads this file, the background-run standard does not list it, and it grants nothing until its wording is approved.
+> **Draft, not approved.** This wording awaits Kris Brown's review under [KI-HARNESS-GOV-201](../../../../../docs/roadmap/KI-HARNESS-GOV-201-fetch-and-machine-grants.md). No launcher reads this file, the background-run standard does not list it, and it grants nothing until its wording is approved.
 
-Once approved, `ki agent launch --allow fetch` appends this file from `## Grant: fetch` onwards, after the tier footer. See the [background-run standard](../references/standards-background-runs.md#authority-tiers).
+Once approved, `ki agent launch --allow fetch` appends this file from `## Grant: fetch` onwards, after the tier footer. See the [background-run standard](../../references/standards-background-runs.md#authority-tiers).
 
 ## Grant: fetch
 
@@ -48,9 +48,9 @@ The full draft of `grant-machine.md`:
 ```markdown
 # Authority grant: machine
 
-> **Draft, not approved.** This wording awaits Kris Brown's review under [KI-HARNESS-GOV-201](../../../../docs/roadmap/KI-HARNESS-GOV-201-fetch-and-machine-grants.md). No launcher reads this file, the background-run standard does not list it, and it grants nothing until its wording is approved.
+> **Draft, not approved.** This wording awaits Kris Brown's review under [KI-HARNESS-GOV-201](../../../../../docs/roadmap/KI-HARNESS-GOV-201-fetch-and-machine-grants.md). No launcher reads this file, the background-run standard does not list it, and it grants nothing until its wording is approved.
 
-Once approved, `ki agent launch --allow machine` appends this file from `## Grant: machine` onwards, after the tier footer. See the [background-run standard](../references/standards-background-runs.md#authority-tiers).
+Once approved, `ki agent launch --allow machine` appends this file from `## Grant: machine` onwards, after the tier footer. See the [background-run standard](../../references/standards-background-runs.md#authority-tiers).
 
 ## Grant: machine
 
@@ -58,7 +58,7 @@ Once approved, `ki agent launch --allow machine` appends this file from `## Gran
 - Machine changes are authorised by the decision this task cites: you may make the local environment and scheduler changes the task names, such as a package install or update, a configuration or dotfile edit, or loading, reloading or unloading a scheduled job, on this machine only and nothing beyond them. This overrides only the Rules' ban on an environment or scheduler change; every other line of the Rules stands.
 - A named install or update may download what it needs from its package source. No other remote call is lifted, and a change on another machine is a remote call.
 - Before each change, note how to undo it; after it, check that it took effect. Report each change with its outcome and its undo in one line.
-- Credentials stay banned: make no credential change, and do not read or print secrets. A connection-critical change still needs the tested restore path the Rules require, under the standard's [connection-critical rule](../references/standards-background-runs.md#connection-critical-changes); without one, stop and report.
+- Credentials stay banned: make no credential change, and do not read or print secrets. A connection-critical change still needs the tested restore path the Rules require, under the standard's [connection-critical rule](../../references/standards-background-runs.md#connection-critical-changes); without one, stop and report.
 - If a change the task does not name proves necessary, or a named change needs a step the task does not name, stop and report rather than widen it.
 ```
 

@@ -40,10 +40,7 @@ Nothing. Every repository in scope is pushed and its CI has reported.
 
 **Query** Who takes the agent-compatibility snapshot mismatch on tools-ki's CI?
 
-**Options**
-a) (recommended, confidence high - the test and the footer it snapshots belong to the session already working in tools-ki, and a passing local run says the snapshot encodes something environment-dependent that its author should see) Route it to the tools-ki session as a note: make the footer snapshot environment-independent or regenerate it, then CI's TEST-5 clears.
-b) (confidence medium - quick, but risks baking a CI-only rendering into the snapshot without understanding why it differs) A bounded run regenerates the snapshot from CI output and commits it.
-c) (confidence low - leaves tools-ki red and blocks the release that wow-ki-pin-release needs green CI for) Leave it until the feature work lands.
+**Options** a) (recommended, confidence high - the test and the footer it snapshots belong to the session already working in tools-ki, and a passing local run says the snapshot encodes something environment-dependent that its author should see) Route it to the tools-ki session as a note: make the footer snapshot environment-independent or regenerate it, then CI's TEST-5 clears. b) (confidence medium - quick, but risks baking a CI-only rendering into the snapshot without understanding why it differs) A bounded run regenerates the snapshot from CI output and commits it. c) (confidence low - leaves tools-ki red and blocks the release that wow-ki-pin-release needs green CI for) Leave it until the feature work lands.
 
 ### FG-2 - DESIGN-2 stays red fleet-wide until the released ki catches up
 
@@ -51,9 +48,7 @@ c) (confidence low - leaves tools-ki red and blocks the release that wow-ki-pin-
 
 **Query** None beyond confirming that wow-ki-pin-release may now start.
 
-**Options**
-a) (recommended, confidence high - the held run exists for exactly this and nothing in this run changed its premise) Release wow-ki-pin-release now; after ki v0.14.0 and the `.github/ki-version` or `KI_VERSION` bumps, the twelve DESIGN-2 reds clear with no further change.
-b) (confidence low - reverts a deliberate rename) Move the checker roots back to `tooling/boundaries`.
+**Options** a) (recommended, confidence high - the held run exists for exactly this and nothing in this run changed its premise) Release wow-ki-pin-release now; after ki v0.14.0 and the `.github/ki-version` or `KI_VERSION` bumps, the twelve DESIGN-2 reds clear with no further change. b) (confidence low - reverts a deliberate rename) Move the checker roots back to `tooling/boundaries`.
 
 ### 🤖 → 👤 Handoff to supervisor · since 10:51 GMT
 
