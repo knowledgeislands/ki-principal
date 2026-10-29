@@ -99,3 +99,25 @@ class: operational
 class: operational
 
 - mark and give me a summary with queries and context
+
+## 2026-10-29 01:00 GMT - AWAY-2026-10-29
+
+class: operational
+
+- Okay, I am going to sleep for a bit. Could you handle as much as you can whilst I'm away? Make sure you've got everything refreshed on the latest ways of working and see how far you can get without me.
+
+Window read-back: this Project only, until 29 October 2026 09:00 GMT (09:00 UTC), or explicit return / "stop the wake" sooner. Receive and entry mark: 2026-10-29T01:04:52Z. Current method read: afb126f2.
+
+Within the grant, plan already adopted, authorised Now or Next drafts and prepare eligible Ready delivery to Awaiting review in exact repository-local safe-local-v1 batches; no adoption, discretionary promotion, acceptance or pruning follows from the away instruction. Unanswered options, product holds, first real send, individual consolidation approvals and narrower repository gates persist. This preparation pass permits only read/assessment, the four named origin fetches and owned package bookkeeping committed locally; no product implementation, new work/batch record, push, further agent launch or service/scheduler/provider/configuration/credential change. No unattended connection-critical change or publication is authorised.
+
+Entry revisions checked at the mark, local main / origin main, each ahead 0 and behind 0:
+
+- ki-principal: `c4c00e15aab865193909ea4065d936983889d705` / `c4c00e15aab865193909ea4065d936983889d705`.
+
+- apps-observatory.local: `8cb1e7dbc268e2e5349d988f6b4c38440a41361b` / `8cb1e7dbc268e2e5349d988f6b4c38440a41361b`.
+
+- ki-agentic-harness: `79c9e4cc13b2a26d927ad132929cf65ab2b0d2e9` / `79c9e4cc13b2a26d927ad132929cf65ab2b0d2e9`.
+
+- tools-ki: `c8c50d51b7f68072cdfb104dd262123a3b0f91a5` / `c8c50d51b7f68072cdfb104dd262123a3b0f91a5`.
+
+Installed/source method references were byte-identical; local runtime/source availability does not establish other-host or unpublished parity. The Capital had concurrent changes; other writers' paths remain untouched. Preserve the existing five queries and unresolved reports/design evidence. The plan in state.md names the short follow-on units; the current eligible delivery set is empty because no inspected record is Ready. Stop launches at expiry, explicit return or stop wake; receive results and report since the entry mark.

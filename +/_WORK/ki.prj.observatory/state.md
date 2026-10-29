@@ -1,30 +1,32 @@
 ---
 id: ki.prj.observatory
-state: handoff-to-supervisor
+state: with-worker
 blocking: false
-since: 2026-10-28T23:19:52Z
+since: 2026-10-29T01:04:52Z
 received: 2026-10-19T22:45:00Z
-beat: null
-mark: 2026-10-28T23:19:52Z
-method_read: 12f09a3b
+beat: 2026-10-29T01:04:52Z
+mark: 2026-10-29T01:04:52Z
+method_read: afb126f2
 ---
 
 # ki.prj.observatory state
 
 ## Now
 
-RESUME and the requested mark are reconciled; the package is handed to Kris with five open queries, acceptance first. No product run is running or queued. The normal hook is authorised for these package files; COMMIT-GATE is resolved. Repository synchronisation and interactive machine readiness remain incomplete.
+Away authority received until 29 October 09:00 GMT (09:00 UTC), or explicit return/stop wake sooner. Entry mark struck; five queries remain open. No product runs are running or queued; this pass launches nothing. Entry revisions and bounds are recorded in the existing away decision.
 
 ## Next steps
 
-1. Bring the five queries in full, acceptance first. Recommend an evidence-only acceptance and redesign reconciliation pass: confirm the existing acceptance grant and mandatory audit, reconcile historical external requests at their homes, and preserve the landed five-area design and each consolidation gate.
-2. Use the Capital selector `knowledge-islands`; the absent `ki` alias is a selector mismatch. Follow the bootstrap checklist through its owning tools before claiming actual interactive readiness.
-3. Follow the retained IMPORTANT queue, then ordinary order. Assess the compatible status consumer requests together; keep scheduled results/specification and sync ownership as separate bounded investigations. No service action or dispatch is granted by this mark.
-4. Repeat the repository level check through its owner before cross-host continuation. Capital's tracking comparison no longer shows it behind after concurrent reconciliation; only Capital was fetched here, and the product repository level check remains unknown.
-5. Preserve receiver ownership of diagram conversions and the legal Gantt hold. Retain historical reports, open briefs and design evidence until their homes and queries are verified for a later tidy.
+1. Receive away-refresh-plan's report; retain the recorded entry revisions and concurrent changes. NAMING-DONE releases only the metadata-write barrier; normal gates persist. Tier none plus fetch; size xs; repository ki-principal; authority: this bounded preparation brief.
+2. Dispatch obs-brg004-audit, size s (20-30 minutes), apps-observatory.local, tier none plus fetch. Authority: OBS-AUDIT and the retained evidence-only acceptance receipt. Repair only the two decision-document audit blockers and update affected links; recheck audit and feedback review evidence. Dependency: step 1. No acceptance, feedback send or restart.
+3. Dispatch obs-app044-reconcile, size s (20-30 minutes), apps-observatory.local read-only with report here, tier none plus fetch. Authority: adopted Now record and away grant. Compare its plan with the five-area design and identify remaining owner choices. Dependency: step 1. Keep Draft; do not choose RESTRUCTURE or release consolidations.
+4. Dispatch obs-consumer-gap, size s (20-30 minutes), apps-observatory.local read-only with report here, tier none. Authority: TYPED-ID-CONSUMER and COORD-REGULAR-STATUS. Verify an actual reader gap against tools-ki source, preserving one home and state authority. Dependency: step 1; no implementation, new record or runtime action.
+5. Dispatch obs-jobs-evidence, size s (20-30 minutes), apps-observatory.local read-only with report here, tier none. Authority: SCHEDULED-RESULTS and SCHEDULED-REPORT-SPEC. Trace current job result and schedule contracts; return a bounded documentation proposal and evidence gaps. Dependency: step 1; no scheduler, provider or other-repository writes.
+6. Delivery batch eligible set is empty: no Ready records. Reassess only after authorised planning resolves prerequisites; freeze any later safe-local-v1 wave per repository, awaiting-review only, expiring no later than 09:00 UTC. No envelope is created here.
 
 ## Held
 
-- Cross-host Sessions and tailnet read-only appearance remain ideas waiting on Host network's tailnet service-name decision; resume does not release them.
-- Library, Streams and Workers consolidations keep the restructure decision and Kris's individual consolidation approval gates; the two-way adapter keeps its separate prerequisites.
-- Historical diagram work remains with its receiving repositories, including the legal Gantt's timelines dependency. No product hold is released here.
+- Acceptance, first real send, service restart, pushes, new records and further launches are excluded from this preparation pass; the away grant does not answer the five queries.
+- Library, Streams, Workers, Machine and Extensions retain their individual consolidation gates; cross-host Sessions and tailnet appearance retain Host network's service-name prerequisite.
+- TEN-COMMITS, MERMAID-HANDLER and BRIDGE-STALE remain unanswered; no history removal, diagram mutation or unreviewed integration adoption.
+- Sync ownership, host responsibility, account scores, naming changes and external diagram work retain their evidence, repository and owner gates. Access changes are excluded from the unattended window.
