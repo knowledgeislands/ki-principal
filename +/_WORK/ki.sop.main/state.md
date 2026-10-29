@@ -1,10 +1,10 @@
 ---
 id: ki.sop.main
-state: handoff-to-supervisor
-since: 2026-10-28T23:38:00Z
+state: with-worker
+since: 2026-10-29T01:01:20Z
 received: 2026-10-19T17:58:50Z
 beat: null
-mark: 2026-10-25T02:17:34Z
+mark: 2026-10-29T01:01:20Z
 method_read: f4d6c521
 ---
 
@@ -16,14 +16,15 @@ method_read: f4d6c521
 - The queue holds only the nine IMPORTANT REFRESH lines; eight queries are open and 22 parked, eight of them overtaken by events.
 - [KI-TOOL-RIG-CORE-047](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md) stays in progress with ki.prj.chezmoi.
 
-## Next steps
+## Next steps (AWAY-WINDOW, from 01:00 GMT 29 October until Kris returns)
 
-1. Read the REFRESH lines and record `method_read`.
-2. Put the overtaken parked queries to Kris for dropping: the five accepted-record ACCEPT queries, CLI006-CONFIRM, CLI006-READY and SPECS-FOLDER.
-3. Take the open queries, then the live parked ones: ACCEPT-CHEZMOI, AGENT-HOST, ESTATE-CLOSE, KA-CLOSE, MAIL-MCP-HOME with MAIL-ASKS, ACQUIRE-HOME, SANCTUARY-STAGE5, BASELINE, HARNESS-LINK, GRANOLA, LEGAL-GUIDANCE, HNR-GUIDANCE and THEME-REGISTRY.
-4. Continue the package-by-package tidies from the census.
-5. At terra only: PILOT-SEED, STASH-DROP and PRE-REBASE-REF.
-6. Unowned: kw-website's `account_id` pin (SITES-PIN) and the `.rumdl.toml` OWN-1 warning under HOOK-GUARD.
+1. finish-pkgs (ki-principal, BASELINE-CLEAN, small): receive kept reports in timelines, tools-burndown, mac-studio-setup, baseline-rollout.
+2. agent-drain (ki-principal, Kris's DRAIN of 22 October, small): take ki.prj.agent-host to On hold.
+3. method-delta (read only, small), then set `method_read` to afb126f2 and clear the nine REFRESH lines.
+4. window-plan (read only, small): list adopted, authorised Now or Next drafts and Ready records in works not on hold; then ki-batch waves to awaiting review where eligible.
+5. sop-mark (ki-principal, small): fix `work.md` covers and old ids, strike homed decisions, review `design/`.
+
+Excluded: every open and parked query (Kris's), acceptance, hold releases, other territories, anything in on-hold works beyond tidying.
 
 ## Queue
 
