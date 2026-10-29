@@ -20,11 +20,11 @@ The unit is work, in Kris's words "the unit is work, not a conversation". A piec
 
 Fallback, if the diagram does not render:
 
-- Territory work `ki`: the hub, the state of play coordinating the coordinations
+- Territory work `ki.sop.main`: the hub, the state of play coordinating the coordinations
   - shows Kris with you, stuck, blocked and on hold
 - Two forms of work, side by side beneath it
-  - Regular work `ki.regular`: recurring, defined in the Capital, self-coordinating by default; state of play may discuss it; creates work items
-  - Project work `ki.ways-of-working`: finite; worker to Kris, supervisor to its runs; territory work sends direction down and it sends attention up
+  - Regular work `ki.reg.main`: recurring, defined in the Capital, self-coordinating by default; state of play may discuss it; creates work items
+  - Project work `ki.prj.ways-of-working`: finite; worker to Kris, supervisor to its runs; territory work sends direction down and it sends attention up
 - Theme `Model`: a label either form, or ad hoc work, can carry; not a level
 - Kris, supervisor, to the side: receives with `with me`; Project work sends to supervisor, and Kris replies
 - Execution, the lowest level that can do it
@@ -40,10 +40,12 @@ Work lies at three levels. Kris named the two forms at the middle one: "regular 
 
 | Level | Id | What it does | Ends |
 | --- | --- | --- | --- |
-| Territory work | `ki` | The state of play: coordinates the coordinators, routes new work and stewards the method, executes nothing | Never |
-| Regular work | `ki.regular` | The territory's recurring work, defined in the Capital's Activity notes; self-coordinating; creates work items in any repository; holds ad hoc work as `ki.regular.<slug>` | Never; rests On hold, more expected, between occurrences |
-| Project work | `ki.<project>` | Coordinates one Project's work items and runs, and briefs runs | Finished when the Project closes |
+| Territory work | `ki.sop.main` | The state of play: coordinates the coordinators, routes new work and stewards the method, executes nothing | Never |
+| Regular work | `ki.reg.main` | The territory's recurring work, defined in the Capital's Activity notes; self-coordinating; creates work items in any repository; holds ad hoc work as `ki.reg.<slug>` | Never; rests On hold, more expected, between occurrences |
+| Project work | `ki.prj.<project>` | Coordinates one Project's work items and runs, and briefs runs | Finished when the Project closes |
 | Work item | the record's id | One record in any repository, executed by a run or a person | `done` or `cancelled` |
+
+Identifiers follow the Harness [Work naming](https://github.com/knowledgeislands/ki-agentic-harness/blob/main/skills/change-management/ki-coordination/references/standards-coordination.md#work-naming) rule; a secondary State of play uses `ki.sop.<name>`. Legacy aliases remain readable.
 
 **Regular work is self-coordinating by default.** It needs no coordination thread, in Kris's words "because it is sort of self-coordinating, but there's no reason why the state of play thread can't sort of talk about it". An occurrence is started by its schedule or by whoever needs it; state of play may discuss regular work but does not necessarily dispatch it. A Project's own recurring checks, needed only while it runs, stay with the Project and end with it.
 
@@ -193,9 +195,9 @@ Streams/
 └── Roadmap/                               work item records
 +/
 ├── _WORK/                                 one flat folder per live work package
-│   ├── ki/                                territory work, the same five files
-│   ├── ki.regular/                        regular work, the same five files
-│   ├── ki.ways-of-working/                Project work
+│   ├── ki.sop.main/                                territory work, the same five files
+│   ├── ki.reg.main/                        regular work, the same five files
+│   ├── ki.prj.ways-of-working/                Project work
 │   │   ├── work.md                        definition: description, Goals, Scope
 │   │   ├── state.md                       state fields, Now, Next steps, Held
 │   │   ├── queries.md                     open and parked queries in full
@@ -209,7 +211,7 @@ Streams/
 └── diagrams/
 ```
 
-**Git is the logbook.** `git log -- +/_WORK/<id>/` is the history. Every session commits each completed unit by explicit path before its turn ends, under [Committing the work folder](https://github.com/knowledgeislands/ki-agentic-harness/blob/main/skills/change-management/ki-coordination/references/standards-coordination.md#committing-the-work-folder), which owns the commit and sync cadence. Move commits carry the move in their subjects: `docs(work): ki.ways-of-working send to owner`, `docs(work): ki.ways-of-working receive by owner`, `docs(work): ki.ways-of-working hold, paused`.
+**Git is the logbook.** `git log -- +/_WORK/<id>/` is the history. Every session commits each completed unit by explicit path before its turn ends, under [Committing the work folder](https://github.com/knowledgeislands/ki-agentic-harness/blob/main/skills/change-management/ki-coordination/references/standards-coordination.md#committing-the-work-folder), which owns the commit and sync cadence. Move commits carry the move in their subjects: `docs(work): ki.prj.ways-of-working send to owner`, `docs(work): ki.prj.ways-of-working receive by owner`, `docs(work): ki.prj.ways-of-working hold, paused`.
 
 **Shared history is never rewritten.** A rewrite breaks every clone and every revision link and needs a force-push. Instead, the working area is pruned at every mark, a finished work folder is deleted at the mark that closes it with Git keeping it, and a separate working repository is considered only if clone size or `git log` speed measurably hurts.
 
@@ -247,7 +249,7 @@ State of play matches the unit against each work's description and, where two ma
 
 A report shows its state in rich text. The heading's glyphs come first and the last glyph is whose move it is: 🤖 an agent, 👤 Kris, 🎯 a named target, ⏸️ nobody until the release, 🏁 nobody. A settled state shows its holder's glyph alone: `🤖 With worker`, `👤 With supervisor`, `⏸️ On hold`, `🏁 Finished`. An arrow appears only in a handoff state, pointing to whose move it is: `🤖 → 👤 Handoff to supervisor`, `👤 → 🤖 Handoff to worker`, `→ 🎯 Handoff to <target>`. The heading gives the state in role words; a line of counts follows; then the list `- [state] what · holder · since`. The counts and lists say "with you", because they are views by holder. The report's form line takes the same prefix, as in **🤖 → 👤 Handoff to supervisor · Summary at 23:52 BST · last mark 22:34 BST**.
 
-Every banner closes with one plain Markdown thread line, after a blank line following the list: `🧵 Coordination thread · <label> (<id>)` for Project work or `🧵 State of play thread · <label> (<id>)` for territory work. Use the exact work label and id from `work.md`; a run report uses the work it reports to. The thread line closes every state, including handoff, On hold and Finished, and replaces all copyable send and resume lines. No banner, handoff or hold report emits a send or resume prompt or a paste instruction.
+Every banner closes with one plain Markdown thread line, after a blank line following the list: `🧵 <work-id>` for every explicitly coordinating package, including main and secondary State of play, Project, regular and ad hoc work. Use the authoritative work id from `work.md`; a run report uses the id of the work it reports to. Rich report headings, work labels, banner counts and states remain unchanged. Reports saved before this change keep their original closing line and remain readable; never rewrite them solely for the new footer. The thread line closes every state, including handoff, On hold and Finished, and replaces all copyable send and resume lines. No banner, handoff or hold report emits a send or resume prompt or a paste instruction.
 
 An example of work with its worker:
 
@@ -259,7 +261,7 @@ An example of work with its worker:
 > - [with you] WORK-HOME · owner · since 22:58
 > - [blocked] thread commit · repo/ki-principal · since 22:40
 >
-> 🧵 Coordination thread · KI > Model > Ways of working (ki.ways-of-working)
+> 🧵 ki.prj.ways-of-working
 
 And on hold:
 
@@ -270,7 +272,7 @@ And on hold:
 > - [parked] 9 queries in `queries.md`
 > - [release] after the harness migration lands, or `resume`
 >
-> 🧵 Coordination thread · KI > Model > Ways of working (ki.ways-of-working)
+> 🧵 ki.prj.ways-of-working
 
 An On hold banner lists nothing waiting: no "with you", running or per-repository status item. Its items are only `[parked]` and `[release]`; what each repository did stays in the hold report's Done. The standing authority to push everything stacked on `main`, including other sessions' commits, follows [Pushing beneath other sessions](https://github.com/knowledgeislands/ki-agentic-harness/blob/main/skills/change-management/ki-coordination/references/standards-coordination.md#pushing-beneath-other-sessions).
 
@@ -287,7 +289,7 @@ The Observatory reads work state only through the `ki` command surface: `ki work
 | Field | Meaning |
 | --- | --- |
 | `identity` | the registered repository holding the work package |
-| `id` | the dotted work id, such as `ki.ways-of-working` |
+| `id` | the dotted work id, such as `ki.prj.ways-of-working` |
 | `level` | `territory`, `regular` or `project` |
 | `title` | the display title |
 | `theme` | the theme label, or null |

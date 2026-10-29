@@ -1,30 +1,31 @@
 ---
 id: ki.prj.observatory
-state: handoff-to-supervisor
-blocking: false
-since: 2026-10-28T23:19:52Z
-received: 2026-10-19T22:45:00Z
+state: with-supervisor
+since: 2026-10-29T15:47:28Z
+received: 2026-10-29T15:47:28Z
 beat: null
-mark: 2026-10-28T23:19:52Z
-method_read: 12f09a3b
+mark: 2026-10-29T15:47:28Z
+method_read: 05292b2f
 ---
 
 # ki.prj.observatory state
 
 ## Now
 
-RESUME and the requested mark are reconciled; the package is handed to Kris with five open queries, acceptance first. No product run is running or queued. The normal hook is authorised for these package files; COMMIT-GATE is resolved. Repository synchronisation and interactive machine readiness remain incomplete.
+With Kris under DRAIN-WITH-SUPERVISOR. Away window ended. Nothing running, held in the run queue, queued or scheduled for this work. Every current owner choice remains in [queries](queries.md); retained reports and designs remain evidence, not adopted work.
 
 ## Next steps
 
-1. Bring the five queries in full, acceptance first. Recommend an evidence-only acceptance and redesign reconciliation pass: confirm the existing acceptance grant and mandatory audit, reconcile historical external requests at their homes, and preserve the landed five-area design and each consolidation gate.
-2. Use the Capital selector `knowledge-islands`; the absent `ki` alias is a selector mismatch. Follow the bootstrap checklist through its owning tools before claiming actual interactive readiness.
-3. Follow the retained IMPORTANT queue, then ordinary order. Assess the compatible status consumer requests together; keep scheduled results/specification and sync ownership as separate bounded investigations. No service action or dispatch is granted by this mark.
-4. Repeat the repository level check through its owner before cross-host continuation. Capital's tracking comparison no longer shows it behind after concurrent reconciliation; only Capital was fetched here, and the product repository level check remains unknown.
-5. Preserve receiver ownership of diagram conversions and the legal Gantt hold. Retain historical reports, open briefs and design evidence until their homes and queries are verified for a later tidy.
+1. Receive Kris's explicit answers to the nine open queries; silence selects nothing. Keep the work with-supervisor until Kris hands it back.
+2. Preserve receiver ownership: Ways of working owns HOST-SYNC/HOST-MEANING; Tools owns canonical report resolution and the sync recipe/push guard; State of play owns the existing scheduled-result route and original specimens. No duplicate route or foreign record is needed.
+3. Keep feedback acceptance closed. First real send and service restart/freshness remain separately authorised follow-ups. No product, provider, configuration, scheduler or visibility action follows from this drain.
+4. Retain uncertain historical reports and all ungraduated designs until their outcome, query and grant homes are proven. Private review originals stay in their existing runtime home; no new publication boundary is inferred.
 
 ## Held
 
-- Cross-host Sessions and tailnet read-only appearance remain ideas waiting on Host network's tailnet service-name decision; resume does not release them.
-- Library, Streams and Workers consolidations keep the restructure decision and Kris's individual consolidation approval gates; the two-way adapter keeps its separate prerequisites.
-- Historical diagram work remains with its receiving repositories, including the legal Gantt's timelines dependency. No product hold is released here.
+- RESTRUCTURE, TEN-COMMITS and MERMAID-HANDLER remain unapproved; release only on the corresponding explicit owner answer.
+- Every individual consolidation, Council order, Waiting/Review relationship and Work destination requires its own approval after preparation.
+- Library, Streams and Workers remain Draft/Hold under their existing release conditions; this drain releases none of them.
+- Extensions, tailnet appearance, cross-host Sessions, Machine and Sessions reader retirement remain unadopted ideas; no Ready set or batch envelope exists.
+- BRIDGE-STALE, STATUS-REPAIR and SYNC-DIRECTION authorise no adoption or implementation until separately answered and planned.
+- PUBLIC-AUDIENCE, PUBLIC-EXPOSURE and ACCESS-DISPOSITION remain unresolved; no visibility change, history operation or new protected-payload clearance follows from the tidy authority.

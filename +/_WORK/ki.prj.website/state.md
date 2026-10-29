@@ -20,6 +20,7 @@ method_read: null
 ## Next steps
 
 1. When Kris opens this work, act on `messages.md`.
+2. When taking the queue, home the detail of each message line past about 60 words (LIFECYCLE-3) in a brief, record or design note and shorten the line to a link, or act on it.
 
 ## Held
 

@@ -88,14 +88,82 @@
 
 - 2026-10-20 · OBS-CLAIM-FOUR · Kris to the Claude chat (Knowledge Islands project): "all of them", relayed by that chat. Still governs: the chat builds KI-OBSERVA-VIS-030, VIS-027, VIS-044 and BRG-005 in its own clone; this thread dispatches none of them. obs-build-vis044 was already verifying when the claim arrived and is left to finish; obs-build-brg005 was dropped before it started.
 
-## 2026-10-28 23:03 GMT - RESUME
+## 2026-10-29 01:00 GMT - AWAY-2026-10-29
 
 class: operational
 
-- resume
+- Okay, I am going to sleep for a bit. Could you handle as much as you can whilst I'm away? Make sure you've got everything refreshed on the latest ways of working and see how far you can get without me.
 
-## 2026-10-28 23:17 GMT - MARK-SUMMARY
+Window read-back: this Project only, until 29 October 2026 09:00 GMT (09:00 UTC), or explicit return / "stop the wake" sooner. Receive and entry mark: 2026-10-29T01:04:52Z. Current method read: afb126f2.
+
+Within the grant, plan already adopted, authorised Now or Next drafts and prepare eligible Ready delivery to Awaiting review in exact repository-local safe-local-v1 batches; no adoption, discretionary promotion, acceptance or pruning follows from the away instruction. Unanswered options, product holds, first real send, individual consolidation approvals and narrower repository gates persist. This preparation pass permits only read/assessment, the four named origin fetches and owned package bookkeeping committed locally; no product implementation, new work/batch record, push, further agent launch or service/scheduler/provider/configuration/credential change. No unattended connection-critical change or publication is authorised.
+
+Entry revisions checked at the mark, local main / origin main, each ahead 0 and behind 0:
+
+- ki-principal: `c4c00e15aab865193909ea4065d936983889d705` / `c4c00e15aab865193909ea4065d936983889d705`.
+
+- apps-observatory.local: `8cb1e7dbc268e2e5349d988f6b4c38440a41361b` / `8cb1e7dbc268e2e5349d988f6b4c38440a41361b`.
+
+- ki-agentic-harness: `79c9e4cc13b2a26d927ad132929cf65ab2b0d2e9` / `79c9e4cc13b2a26d927ad132929cf65ab2b0d2e9`.
+
+- tools-ki: `c8c50d51b7f68072cdfb104dd262123a3b0f91a5` / `c8c50d51b7f68072cdfb104dd262123a3b0f91a5`.
+
+Installed/source method references were byte-identical; local runtime/source availability does not establish other-host or unpublished parity. The Capital had concurrent changes; other writers' paths remain untouched. Preserve the existing five queries and unresolved reports/design evidence. The plan in state.md names the short follow-on units; the current eligible delivery set is empty because no inspected record is Ready. Stop launches at expiry, explicit return or stop wake; receive results and report since the entry mark.
+
+## 2026-10-29 - ACCEPT-CLOSED
 
 class: operational
 
-- mark and give me a summary with queries and context
+Receipt of completed work, not a new owner answer. [away-brg004-close](https://github.com/knowledgeislands/ki-principal/blob/4c22639d62024b19446537cf3bc19adee2a9bfc8/+/_WORK/ki.prj.observatory/away-brg004-close.report.md) and the local product ancestor `23acd75d56bd5a0d704e218dc0d995ab84824d59` verify [KI-OBSERVA-BRG-004](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-004-turn-feedback-sending-on.md) is Done and retained. Existing 27 October ACCEPT-PRUNE-CONFIDENT authority and BRG004-ACCEPTANCE-READING selected acceptance without first send; the away grant did not supply acceptance authority. [away-brg004-audit](https://github.com/knowledgeislands/ki-principal/blob/4c22639d62024b19446537cf3bc19adee2a9bfc8/+/_WORK/ki.prj.observatory/away-brg004-audit.report.md) cleared the mandatory decision audit before closure. First real send remains reserved for Kris; restart and running-service freshness remain unverified operational follow-ups.
+
+The earlier external requests are also terminal, verified in local Git rather than inferred from an old recommendation: [KI-WEBSITE-SITE-044 (pruned)](https://github.com/knowledgeislands/apps-knowledgeislands.info/blob/ae886e2b0c46398c61c203edf33b550c1ed8895a/docs/roadmap/KI-WEBSITE-SITE-044-design-v1.md) was accepted Done at `ae886e2b` and pruned at `fdc1ac2b`; [KI-DESIGN-ICO-001 (pruned)](https://github.com/knowledgeislands/ki-design/blob/85a42bf13ddd7396ae28b83bc645c0767d06454d/docs/roadmap/KI-DESIGN-ICO-001-icon-seed-set.md) was accepted Done at `85a42bf1` and pruned at `e456873d`. Each acceptance is an ancestor of its current local HEAD and each later prune deletes the exact record. The already-terminal [KI-OBSERVA-BRG-005 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/36abae9a540bf39785d3dd91811fda12ff759ec3/docs/roadmap/KI-OBSERVA-BRG-005-act-board-missing-parts.md) is not accepted again. ACCEPT has no remaining choice and is removed from Open; the other four options and their confidence/guards remain unchanged.
+
+## 2026-10-29 - PUBLICATION-AUDIENCE-LIMIT
+
+class: operational
+
+Received the 02:04:35 UTC instruction to identify the exact protected owned subset and existing authority, coordinate factual review only and report any missing boundary. Inspected all 27 paths in receipt 8e31eec9. Positively identified: away-jobs-evidence.report.md carries HNR job/source identity and operational findings; away-jobs-spec.report.md carries the HNR receiving-work identity; messages.md retains Personal/HNR identities already present before this receipt. The first two are introduced reports; the third includes pre-existing retained context, not an assertion that the receipt introduced it all. Other host/runtime references are review candidates, not automatically confidential findings, and no remaining payload is certified public-safe. Existing authority is explicit local package/design bookkeeping plus local commits only; the product's private-identity/findings/activity boundary and current no-push limit remain. No separate public audience boundary was found. PUBLIC-AUDIENCE records the owner decision without selecting an option, sanitising evidence, changing visibility or rewriting/deleting history. A factual runtime-inbox reply names this minimum subset for the existing independent review; no person is contacted externally.
+
+## 2026-10-29 - REMOTE-CONTAINMENT-EVIDENCE
+
+class: operational
+
+Received 02:06:08 UTC steering before final handoff. Authorised Principal origin fetch succeeded. At 02:07 GMT, fetched origin/main `3b512680dd0f756227ae37b5d8408401b6555841` contains all nine earlier away-run Principal commits: 51724b2c, 9cbe4e06, 6fd427e4, 9a8fc33f, 20c08b7f, f067d3f8, 8e31eec9, 5f651b55 and 710ebba1. Their actual changed paths were inspected; the receipt's introduced reports and original design/report artefacts are already reachable remotely. Finalisation commits 7494c506, c66d73e9, ccbd06dd and 542dcbc8 were not origin ancestors. This establishes observed remote history, not author/time of publication, readers, indexing or credential exposure. No such consequence is asserted. The earlier local-only authority and this worker's no-push behaviour are not claims of local containment. Exact factual findings go to the existing independent-review inbox. PUBLIC-AUDIENCE and PUBLIC-EXPOSURE remain separate owner decisions; no protected content, history or configuration is altered and no publication is authorised.
+
+## 2026-10-29 15:39 GMT - DRAIN-WITH-SUPERVISOR
+
+class: operational
+
+- Drain this work: check the inbox, and receive any finished runs. Let running work finish, or stop it cleanly, and start nothing new. Tidy the work folder, then commit and push it. Leave the work with me (with-supervisor) with nothing running. Then mark and give me a Summary with every open query in full, so that I know it's in good order.
+
+## 2026-10-29 - AWAY-COMPLETED-RECEIPT
+
+class: operational
+
+Live evidence and receiver-boundary pointer: [committed operational home](https://github.com/knowledgeislands/ki-principal/blob/4c22639d62024b19446537cf3bc19adee2a9bfc8/+/_WORK/ki.prj.observatory/decisions.md#2026-10-29---away-completed-receipt); governing holds and unanswered choices remain in state.md and queries.md.
+
+## 2026-10-29 - AWAY-FINAL-RECONCILIATION
+
+class: operational
+
+Live evidence and receiver-boundary pointer: [committed operational home](https://github.com/knowledgeislands/ki-principal/blob/4c22639d62024b19446537cf3bc19adee2a9bfc8/+/_WORK/ki.prj.observatory/decisions.md#2026-10-29---away-final-reconciliation); governing holds and unanswered choices remain in state.md and queries.md.
+
+## 2026-10-29 - OWNED-REPORT-LINK-CORRECTION
+
+class: operational
+
+Live evidence and receiver-boundary pointer: [committed operational home](https://github.com/knowledgeislands/ki-principal/blob/4c22639d62024b19446537cf3bc19adee2a9bfc8/+/_WORK/ki.prj.observatory/decisions.md#2026-10-29---owned-report-link-correction); governing holds and unanswered choices remain in state.md and queries.md.
+
+## 2026-10-29 - DRAIN-RECEIPT
+
+class: operational
+
+Received DRAIN-WITH-SUPERVISOR exactly as logged above. All 117 completed packets across the current and historical-name run homes are reconciled. The historical obs-build-brg005 prelaunch hold was displaced by OBS-CLAIM-FOUR and is not running or queued. This drain is closure bookkeeping; no new work is launched. The work-only watch monitor was verified and stopped; unrelated processes and the Observatory service remain untouched. No queued launch or work-specific scheduled wake was found.
+
+Received the completed audience assessment, independent exposure review and access-candidate preparation. Their private runtime originals remain intact. ACCESS-DISPOSITION is copied in full into queries.md; PUBLIC-AUDIENCE and PUBLIC-EXPOSURE remain open. No recommendation becomes a decision. HOST-MEANING, the existing scheduled-result receipt and Tools contract question remain with their verified receiver owners; no duplicate message is sent.
+
+The bounded owner instruction authorises this tidy and fast-forward publication, superseding earlier no-push limits for this closure only. It does not approve provider visibility, history changes, new protected appendices or product work. At the pre-edit fetch, main equalled origin/main: there were no unpublished ancestors to carry. The untracked raw access packet is not added to Git; its byte-identical original remains in the existing private runtime home. New tracked content is limited to this receipt, marked state, the generic access decision and the public-safe handback.
+
+Twenty-two completed briefs and eight homed reports are disposed by explicit path after DONE, outcome, query and grant-home checks. Immutable Git links preserve report references; private runtime originals remain intact. Two original report blobs remain because receiving queues still link them; these are exact already-published bytes, with no new protected assessment content. All reports whose full outcome/query disposal is uncertain and all ungraduated designs are retained. Settled resume, earlier mark, receipt, finalisation and mechanical-link bookkeeping are struck because the committed logbook wholly carries them; governing and held decisions remain. No work record is pruned and the Project is neither On hold nor Finished.
+
+Away authority ended; actual fresh mark 2026-10-29T15:47:28Z / 15:47 GMT. Holder is with-supervisor at Kris's explicit request. All existing holds and nine open queries remain.

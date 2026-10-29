@@ -23,6 +23,7 @@ method_read: 84b61942
 2. Kris confirms or reverses the overnight decisions (DESIGN-HIGH, DESIGN-REVIEWED, NAME-AND-PROVIDER).
 3. Rollout steps 2 and 3 run in 5G Emerge and legal-principal; capture their records once Kris agrees.
 4. The harness plans KI-HARNESS-GOV-222 from the handoff; step 1 builds the skill there.
+5. When taking the queue, home the detail of each message line past about 60 words (LIFECYCLE-3) in a brief, record or design note and shorten the line to a link, or act on it.
 
 ## Held
 

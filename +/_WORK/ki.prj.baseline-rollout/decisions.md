@@ -32,3 +32,7 @@
 ## 2026-10-29 - baseline finish
 
 - Both retained reports pruned under BASELINE-CLEAN (28 October), outcomes confirmed homed and their queries already taken in the 19 October wave 1 queries entry. CHECKER-GAPS: routed and received by ki.tools-burndown (`bd6dddbe`, taken as a small fix) and ki.prj.ways-of-working (`ddb13117`, the checker-gaps run). TERRITORY-TECHMEDIX: folded into [KI-TOOL-KI-CLI-154 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/19c10067/docs/roadmap/KI-TOOL-KI-CLI-154-territory-tolerates-unregistered-members.md) in tools-ki, delivered in `be5c6ddf` on `origin/main`, accepted and pruned.
+
+## 2026-10-29 01:14 GMT - tidy-round2 disposition
+
+Operational: State of play's TIDY line of 29 October received under BASELINE-CLEAN (Kris, 28 October): the LIFECYCLE-3 warning is message lines past about 60 words; they are other senders' instructions, so shortening them needs the steward's judgement and became a Next steps line in `state.md`. TIDY line removed.

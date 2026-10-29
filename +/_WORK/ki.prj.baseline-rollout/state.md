@@ -24,6 +24,7 @@ method_read: null
 ## Next steps
 
 1. At resume, re-read the method and set `method_read`, take `messages.md` in order, then apply every reviewed-high parked option under the overnight autonomy decision and bring the rest to Kris.
+2. When taking the queue, home the detail of each message line past about 60 words (LIFECYCLE-3) in a brief, record or design note and shorten the line to a link, or act on it.
 
 ## Held
 

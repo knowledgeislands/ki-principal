@@ -2,33 +2,19 @@
 
 ## Open
 
-### ACCEPT - Current acceptance and retained earlier requests
+### RESTRUCTURE - Prepare remaining convergence choices
 
-since 2026-10-20 · from the parked acceptance request and the BRG-004 delivery messages
+since 2026-10-20 · from obs-app044-plan and obs-review-4; factual reconciliation completed 29 October
 
-**Context:** [KI-OBSERVA-BRG-004](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-004-turn-feedback-sending-on.md) is the only current Observatory roadmap record awaiting review. It enables feedback sending; its review records passing tests, typecheck and audit, but leaves the first real send to Kris and offers acceptance without one as an explicit choice. This pass has not checked the running service or sent feedback. The 27 October BRG004-ACCEPTANCE-READING receipt says the existing high-confidence acceptance approval applies to the accept-without-first-send branch; OBS-AUDIT names decision-document audit repairs still needed. This mark does not grant or perform closure, and does not ask again for an already covered routine step. The earlier ACCEPT request also named KI-WEBSITE-SITE-044 and KI-DESIGN-ICO-001, whose current acceptance homes are not verified in this two-repository pass; retain them for reconciliation, not fresh acceptance. [KI-OBSERVA-BRG-005 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/36abae9a540bf39785d3dd91811fda12ff759ec3/docs/roadmap/KI-OBSERVA-BRG-005-act-board-missing-parts.md) is already done in local Git and must not be accepted again. The earlier website and icon identifiers have no verified current local record link in this pass.
+**Context:** [KI-OBSERVA-APP-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md) remains Now/Draft/decide. Its [completed factual correction](https://github.com/knowledgeislands/ki-principal/blob/4c22639d62024b19446537cf3bc19adee2a9bfc8/+/_WORK/ki.prj.observatory/away-app044-facts.report.md) now distinguishes the delivered five-area shell, Legacy and existing alias seam from the old proposal. That correction is done; choosing convergence is not. The earlier independent review supported incremental convergence at medium confidence with the step-3 gate retained. Council order, the Waiting/Review relationship, moving or retiring Work and each individual consolidation still need their own later decisions; this question selects none of them.
 
-**Query:** Should delivery evidence remain the acceptance basis for BRG-004, or should a first real send now become an additional condition?
-
-**Options:**
-
-a) (recommended, confidence high - the retained acceptance receipt already selects the evidence-only branch, and first send stays reserved) Retain acceptance without a first send. The next bounded reconciliation pass should verify the existing grant and mandatory audit, use that authority where it applies, and bring only a genuine uncovered acceptance decision to Kris; reconcile the earlier external requests at their actual homes.
-
-b) Keep BRG-004 awaiting review until Kris confirms the current service and performs the first real send; reconcile the two earlier requests separately.
-
-### RESTRUCTURE - Reconcile the old consolidation proposal with the landed design
-
-since 2026-10-20 · from obs-app044-plan and obs-review-4
-
-**Context:** [KI-OBSERVA-APP-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md) is still Now/Draft. The parked proposal recommended incremental convergence, Council first, one redirect table, retaining Work until a Streams proposal proved its home and limiting Waiting for you to a Review rename. The independent review supported that amended direction at medium confidence and retained the step-3 promotion gate. Since then, [PDR-KI-OBSERVA-010](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/decisions/PDR-KI-OBSERVA-010-four-areas-replace-the-tab-bar.md) landed five areas and Legacy, removed Focus and retired the lens. Its consequences explicitly allow later convergence within the areas. Repeating the old header/lens choice would ignore that delivery; it does not prove any remaining consolidation gate satisfied.
-
-**Query:** Should the next design pass reconcile APP-044 and its held consolidations against the landed five-area design before proposing an individual consolidation?
+**Query:** Should the next design pass prepare the remaining convergence choices against the delivered design?
 
 **Options:**
 
-a) (recommended, confidence medium - the prior independent review supports incremental convergence, while the newer design needs reconciliation) Reconcile the record against PDR-KI-OBSERVA-010, preserve every capability and address, retain Work until its destination is demonstrated, and bring each remaining consolidation for its own approval; authorise no product change in this bookkeeping pass.
+a) (recommended, confidence medium - earlier independent review supports incremental preparation, while the remaining design choices are still open) Prepare the remaining choices against the current five-area design, preserving every capability and address; return separate order, Waiting/Review and Work proposals for their own approval.
 
-b) Leave the old proposal parked until the design thread supplies its next instruction.
+b) Keep convergence preparation parked pending the design thread's next instruction.
 
 ### TEN-COMMITS - Preserve history while considering duplicate rows
 
@@ -58,20 +44,100 @@ a) (recommended, confidence medium - the independent review found containment bu
 
 b) Leave the existing containment and smoke checks as they are, with the follow-up parked.
 
-### BRIDGE-STALE - Correct the stale premise and retain the integration question
+### BRIDGE-STALE - Decide whether to prepare machine-reader integration
 
-since 2026-10-20 · from the parked BRIDGE-STALE query; no blind review completed
+since 2026-10-20 · independent blind review received 29 October
 
-**Context:** The parked query said Bridge comments and fixtures claimed Rig had no JSON and recommended one triage record for `rig show --format json`. Current machine evidence explicitly names that JSON contract and says the Bridge does not yet read it; Automation already reads it. The original no-JSON premise is stale, while the machine integration gap is real. This pass has neither implemented it nor created a record. Its recommendation has not received the required independent blind review, and this brief forbids launching one.
+**Context:** Rig already supplies public JSON. Bridge still asks only for its version and reports Rig state unavailable; Automation reads declared scheduled jobs. [The blind review](away-bridge-blind-review.report.md) independently reproduced the omission but found no demonstrated breach of accepted behaviour: Machine remains an unadopted idea, and declarations do not establish observed health. The old request to review the gap is complete. The earlier proposal favoured preparing integration; the reviewer instead recommends keeping it parked, at high confidence, because scope and consolidation gates remain unresolved.
 
-**Query:** Should the old premise be replaced by a later, independently reviewed proposal for the remaining machine integration gap?
+**Query:** Should bounded proposal preparation for the remaining Bridge machine-reader gap be taken up?
 
 **Options:**
 
-a) (recommended, confidence medium - the current source corrects the premise, but integration scope remains unreviewed) Keep the existing JSON contract and current behaviour, and request a bounded blind review of the remaining machine-reader gap before proposing adoption or implementation.
+a) (recommended, confidence medium - review disagrees with proceeding now; the omission is real but its accepted scope is unsettled) Prepare only a bounded proposal using the existing Rig JSON contract, returning declaration coverage versus observed health as a separate choice before any implementation or adoption.
 
-b) Keep BRIDGE-STALE parked without scheduling further work.
+b) Follow the blind review: retain current behaviour and keep integration parked under the existing Machine and consolidation gates.
+
+c) Consider wording and fixture hygiene only, explicitly leaving the reader omission unresolved; wording alone cannot close that omission.
+
+### STATUS-REPAIR - Seek separate adoption for the correctness repair
+
+since 2026-10-29 · from independent away-status-blind-review
+
+**Context:** [The independent status review](away-status-blind-review.report.md) reproduces canonical exclusions being resurrected, ambiguous aliases being displayed by fast views, and historical package/run-home omissions. Ordinary Review also uses the fast path in current server defaults. Valid regular work and selected members already have flat coverage. These are separable correctness defects, outside [KI-OBSERVA-APP-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md)'s consolidation boundary. Preparation can establish latency, producer warnings/refusals and cross-repository-home limits; it cannot itself adopt a repair, choose global-home precedence or authorise delivery.
+
+**Query:** Should a separate bounded canonical-reader repair be brought through adoption and an agreed plan?
+
+**Options:**
+
+a) (recommended, confidence high - independent fixtures establish a correctness defect separate from the unresolved restructure) Seek separate adoption and planning for one producer-authoritative status/home result across existing Work, Waiting and Review, preserving the current views; settle latency and producer boundaries before implementation.
+
+b) Keep the demonstrated defects visible but defer adoption pending deployed-version or representative-estate evidence.
+
+c) Reconsider APP-044's boundary explicitly before coupling this repair to consolidation; no such boundary change is approved here.
+
+### SYNC-DIRECTION - Choose the candidate for design preparation
+
+since 2026-10-29 · independent blind query review received
+
+**Context:** The [merged sync paper](design/observatory-sync-report.md) compares A, attended passes under fresh grants; B, a Rig/chezmoi dispatcher child; C, Bridge scheduling/execution; D, Bridge requesting an external runner; and E, a direct per-host Rig scheduled activity invoking a deterministic Tools recipe. The merge preferred preparing E against A; [the blind query review](away-sync-query-review.report.md) independently recommends that same course. A running Bridge supplies no periodic execution mandate. Existing publication, repository, confidentiality and deployment gates apply whichever candidate is chosen. HOST-SYNC responsibility semantics remain with Ways of working, with any seat/failover change separately owned; this choice does not settle them.
+
+**Query:** Which candidate should its owners develop into a reviewable plan?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed, independent source review agrees that direct per-host activity is the simplest candidate to develop) Prepare E against A as the baseline, retaining Observatory as observer and leaving executor selection, authority and rollout for the later reviewed plan.
+
+b) Retain A alone for now, using fresh bounded attended grants; defer scheduled design.
+
+c) Prepare B instead, first showing the shared dispatcher value and resolving its narrower HNR remit.
+
+d) Prepare C instead, explicitly reviewing the Observatory product and authority change.
+
+e) Prepare D instead, first establishing an attended request need and separate request, authorisation and receipt contracts.
+
+### PUBLIC-AUDIENCE - Establish the protected report audience
+
+since 2026-10-29 · from the final publication-audience review request
+
+**Context:** Principal is public according to the territory's current review. This run had explicit local commit authority and an explicit no-push limit; no separate publication boundary was established. The [product working contract](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/AGENTS.md#working-contract) keeps private repository identities, findings and activity local without such a boundary. At receipt commit `8e31eec9`, [away-jobs-evidence](https://github.com/knowledgeislands/ki-principal/blob/4c22639d62024b19446537cf3bc19adee2a9bfc8/+/_WORK/ki.prj.observatory/away-jobs-evidence.report.md) contains HNR job identity, source references and operational findings, while [away-jobs-spec](https://github.com/knowledgeislands/ki-principal/blob/4c22639d62024b19446537cf3bc19adee2a9bfc8/+/_WORK/ki.prj.observatory/away-jobs-spec.report.md) names the HNR receiving work. The [messages blob](messages.md) retains Personal/HNR work identities already present before that receipt; these are retained context, not all newly introduced by it. These three exact paths are the positively identified protected review subset; the other payloads have not been certified safe for public readership. A fresh authorised fetch now proves receipt 8e31eec9 is already in origin/main history; local-only task authority did not prevent publication by other work. Intended audience and response to that existing history are separate choices. Independent factual review is continuing. Local commits, existing remote reachability and the standing low-risk documentation rule supply no missing audience approval. The audience assessment and independent exposure review have now completed; their private originals remain in the existing runtime home. The concrete access candidate returns as ACCESS-DISPOSITION below. This receipt supplies no audience approval or provider authority.
+
+**Query:** What audience should govern these reports before any later publication decision?
+
+**Options:**
+
+a) (recommended, confidence high - the explicit local-data and no-push boundaries apply and no publication clearance was found) Withhold further publication of unreviewed material while the independent review establishes an exact audience boundary; make no history change under this handoff.
+
+b) Supply an explicit audience and bounded content approval after that review; authorise any later publication or history remedy separately, without treating this option as a current push instruction.
+
+### PUBLIC-EXPOSURE - Decide the response to observed remote history
+
+since 2026-10-29 · from verified remote-containment steering
+
+**Context:** A fresh authorised fetch establishes that the earlier nine away-run Principal commits, including receipt `8e31eec9` and the report/design commits, are ancestors of origin/main. The identified HNR report/context payload therefore exists in observed remote history; saying this worker did not push does not mean it stayed local. This run's four finalisation commits were not remote ancestors at that check. This proves remote reachability, not when or by whom publication happened, readership, indexing or credential exposure. No such exposure is established. The independent review has the exact findings. No visibility change, deletion, reset, rewrite or sanitisation is authorised. The audience assessment and independent exposure review have now completed; their private originals remain in the existing runtime home. The concrete access candidate returns as ACCESS-DISPOSITION below. This receipt supplies no audience approval or provider authority.
+
+**Query:** What follow-up should address the already-reachable protected review material?
+
+**Options:**
+
+a) (recommended, confidence high - remote ancestry is verified but audience and exposure consequences still need factual review) Complete the bounded audience/exposure assessment and bring a concrete response plan for Kris's separate decision, preserving all evidence and history meanwhile.
+
+b) After reviewing the exact contents and audience, explicitly decide that no remedial action is needed; record that bounded disposition without implying approval for other private payloads.
+
+c) Request a specific access or history response plan, with its consequences and restore/coordination requirements, for separate approval before any execution.
+
+### ACCESS-DISPOSITION - Choose containment or bounded continued availability
+
+**Context:** The assessment establishes remote reachability of protected history; this [concrete access packet](/Users/krisbrown/.local/state/ki/agents/observatory-away-20261029/away-access-packet.report.md) proposes private visibility for the same repository, with retained access and preservation gates. Current live settings, effective readers, downstream effects and recovery are unverified. Existing history and local evidence remain intact; no mutation is authorised or executed. The remaining decision is the intended availability and its consequences, not permission to complete routine local investigation.
+
+**Query:** Should this exact repository proceed towards the private-access candidate under the stated gates, or do you explicitly accept continued availability of the bounded protected historical payload identified by the assessment?
+
+**Options:**
+
+a) (recommended, confidence moderate - limits future retrieval while retaining history, but live eligibility and recovery remain unverified) Choose private containment for `knowledgeislands/ki-principal`, preserving every commit/ref and Kris's administration plus a verified minimum legitimate-access roster. Authorise only the narrowly scoped authenticated read-only provider inventory in GATES step 2 as the next external step; require the frozen roster, preservation checks and tested required recovery evidence before separate exact mutation authority. This disposition approves no publication, visibility write or automatic public recovery.
+
+b) Explicitly accept continued availability for the exact historical payload in the assessment's fourteen-commit manifest, acknowledging its protected identity/activity context and residual exposure. State the permitted audience and bounded scope in your own disposition. This grants no new publication clearance, derivative publication, history operation or blanket approval of other material.
 
 ## Parked
 
-None. RESUME restores the five earlier queries above; their unresolved choices and retained source reports remain intact.
+No unanswered choice has been selected. Council/consolidation order, Waiting/Review, Work's destination and Rig declaration versus observed-health scope are separate downstream design questions, gated by their preparation decisions above. HOST-MEANING is receiver-owned at Ways of working, not an additional decision requested here. ACCEPT remains closed in the [sourced receipt](decisions.md#2026-10-29---accept-closed).

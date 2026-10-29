@@ -24,6 +24,7 @@ method_read: beb56729
 3. TRUST-COMPLETE still needs its chezmoi Decision Record; the direction is in [decisions](decisions.md).
 4. Sync the VS Code source once ki.prj.tools-burndown delivers VSCODE-LAYOUT.
 5. Reconcile source/target drift and cross-host history through their owners before calling the baseline settled; the sync-close run's SYNC-RECONCILE point is unresolved.
+6. When taking the queue, home the detail of each message line past about 60 words (LIFECYCLE-3) in a brief, record or design note and shorten the line to a link, or act on it.
 
 ## Held
 

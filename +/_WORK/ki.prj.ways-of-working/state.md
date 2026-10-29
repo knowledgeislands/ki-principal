@@ -1,30 +1,32 @@
 ---
 id: ki.prj.ways-of-working
-state: with-worker
-since: 2026-10-28T21:58:11Z
-received: 2026-10-22T07:24:00Z
-beat: 2026-10-29T01:02:20Z
-mark: 2026-10-29T01:02:20Z
-method_read: afb126f2
+state: with-supervisor
+since: 2026-10-29T15:38:09Z
+received: 2026-10-29T15:38:09Z
+beat: null
+mark: 2026-10-29T16:18:42Z
+method_read: 07b9333a
 ---
 
 # ki.prj.ways-of-working state
 
 ## Now
 
-- Unattended sleep window until Kris returns or says stop wake; current method afb126f2 refreshed.
-- Naming and shared footer/exclusion repair delivered. Six new method/tool records await independent review.
-- Prior mark follow-through DONE: Personal formatting present; remaining Principal footer/queues deferred by peer write window. Former private-report publication scope is confirmed; visibility/exposure remains a separate factual check.
+- DRAINED at 2026-10-29T16:18:42Z: all 33 runs finished and received; nothing running, queued or scheduled for this work. No new work launched.
+- Work is with the supervisor at the owner's explicit request. Inbox rechecked at this mark; no new lines since the previous drain.
+- Six already-disposed queue entries cleared into the decisions log. Three Open queries remain complete and unchanged; parked choices retain their existing holds.
+- The completed six-record acceptance and supporting fixes remain delivered. No further acceptance, implementation, release or deployment was attempted.
+- Existing retained reports, briefs and design notes are unchanged since the prior reviewed tidy; incomplete whole-outcome homing still prevents deletion.
 
 ## Next steps
 
-1. wow-sleep-consolidate: Principal, push tier, medium; finish existing footer/notice/refresh and guarded report/design graduation. Return five-file reduction manifests; preserve peer edits and private recovery.
-2. wow-sleep-review: Harness then Tools, prune tier, medium; independently review exact GOV-232/233/234 and CLI-173/174/175, close only supported high-confidence deliveries under recorded human grant, then prune only actual eligible selected records. No repeated unchanged suites.
-3. wow-sleep-qualify: source read-only, none tier, medium; ground DEPCRUISE-MJS, STREAM9-SHA, GATE-BASELINE-PREFLIGHT and remaining hook/home/link needs; return exact independent delivery scopes. Implementation waits for review writers on shared paths.
-4. Receive outcomes and continue confident authorised waves; keep session monitor armed, sync completed units and prepare return recap.
+1. Owner answers CROSS-MACHINE-SOURCE, FINISH-LINE and PUBLIC-REPORT-AUDIENCE in [queries](queries.md).
+2. Resume only on the owner's instruction; no background wake or new launch is armed.
+3. Before cross-machine continuation, fetch and reconcile actual refs, including any unpublished source overlap.
 
 ## Held
 
-- CROSS-MACHINE-SOURCE and FINISH-LINE remain unanswered and parked; no older canonical amendment integration or Project closure on silence.
-- HNR entirely read-only; Observatory redesign remains its own work. No releases, deployments, installs, credential/provider/scheduler mutation, private publication, purge, force/reset/stash or hook bypass.
-- Capture bytes, old journals/native identities and retained original history stay protected.
+- Preserve the older approved model candidate, Tools unadmitted/original-history refs and publication recovery evidence; do not replay stale trees or activate held code.
+- Larger host-sync/trades, checksum/comparator, default-home and external-link choices remain held; the old rendered diagram labels remain known residue.
+- HNR remains excluded. Observatory appearance belongs to its own work.
+- Historical public-report audience remains an owner decision; no visibility, access or history changes are authorised by this drain.

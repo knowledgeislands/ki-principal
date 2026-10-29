@@ -2,33 +2,43 @@
 
 ## Open
 
-No actionable owner query during this sleep window; the unanswered choices below remain parked, with no action on their gated matters.
-
-## Parked
-
 ### CROSS-MACHINE-SOURCE - Other-machine changes to the older model amendment
 
-**Context:** Non-HNR naming is complete and the checked Principal, Harness, Tools and Personal branches match their fetched origins. The older approved [KI-PRINCIPAL-MOD-011](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-011-amend-work-model-assigned-package-cascade.md) amendment must now be reconciled with newer canonical wording. Git cannot reveal unpublished changes on your other machine. Its approval remains valid; this is only a source-overlap question.
+**Context:** The naming and coordination rollout is complete. The already-approved [KI-PRINCIPAL-MOD-011](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-011-amend-work-model-assigned-package-cascade.md) semantic amendment remains separate and needs reconciling with current wording. Git cannot reveal unpublished changes on your other machine; its original approval remains valid.
 
 **Query:** Are there unpublished other-machine changes to Work Process, the work-model decision record or MOD-011 that this reconciliation must preserve?
 
 **Options:**
 
-a) (recommended, confidence high - identifies the actual overlap without blocking completed naming work) Confirm none, or name the affected files/repositories; continue from published sources and preserve any unresolved overlaps.
+a) (recommended, confidence high - identifies the actual overlap without reopening approval) Confirm none, or name the affected files/repositories; reconcile published sources and preserve unresolved overlaps.
 
-b) Keep this older canonical amendment parked until the next attended cross-machine sync.
+b) Keep this older amendment parked until the next attended cross-machine sync.
 
 ### FINISH-LINE - Give Ways of working a finite completion scope
 
-**Context:** Naming, coordination eligibility and the shared footer are delivered. Remaining small repairs, independent reviews and tidy-up can form a finite closeout. Host synchronisation, at-rest behaviour, message forwarding and request/reply trades need further design. Continuing method stewardship already belongs to KI State of play after an acknowledged handover; the question is which work must finish inside this Project first.
+**Context:** The bounded fixes and six independent acceptance reviews are complete. The older approved model amendment and required exit checks remain. Host synchronisation, at-rest behaviour, forwarding and request/reply trades need further design. Continuing method stewardship already belongs to KI State of play after an acknowledged handover.
 
-**Query:** Should this Project finish the approved bounded repairs and reviews, then close with the design-heavy remainder explicitly owned elsewhere?
+**Query:** Should Ways of working close after its remaining approved amendment and exit checks, with the design-heavy remainder explicitly owned elsewhere?
 
 **Options:**
 
-a) (recommended, confidence high - gives this delivery a clear end while retaining every outstanding need) Finish the bounded fixes, reviews and cleanup; hand remaining designs to named packages through KI State of play with acknowledged ownership, then close Ways of working.
+a) (recommended, confidence high - gives this delivery an end while retaining every outstanding need) Finish the approved amendment and exit checks, hand remaining designs to named packages through KI State of play with acknowledged ownership, then close this Project.
 
-b) Keep Ways of working open until host synchronisation, at-rest behaviour, forwarding and request/reply trades are also designed and delivered.
+b) Keep this Project open until those larger designs are also delivered.
+
+### PUBLIC-REPORT-AUDIENCE - Decide the audience for the published report material
+
+**Context:** Public Principal history contains 122 previously untracked/runtime report copies and later report versions carrying material protected by their owning task. Current refs are level; the proposed publication candidate proved redundant and was retired without changing primary history. No live credential exposure was established. Private scope/recovery evidence is preserved; deleting current copies does not remove historical exposure.
+
+**Query:** Which report material is intended to remain public, and which needs a containment response?
+
+**Options:**
+
+a) (recommended, confidence high - establishes the intended audience before access or history changes) Review the identified set privately and specify the material needing protection; prepare a bounded response without changing access or history on assumption.
+
+b) Confirm after review that the identified material is intended public and retain that history.
+
+## Parked
 
 - PACKAGE-FORWARDING - PKG-POINTER original request preserved at bcb3c1a3:+/_WORK/ki.ways-of-working/messages.md and the Principal enactment report. Owner approved one authoritative package and a Capital discovery reference; principal-only message forwarding remains separate design before any relay or second queue is built.
 - PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.
@@ -74,25 +84,15 @@ The review also found that the `ki-work-package` entry points let the owner, thr
 
 **Options:**
 
-a) (recommended, confidence medium - the file effect and its gate exist and are tested, and the swap later is one operation's vector, but the Observatory's own contract leans the other way) Build the first slice on the existing file effect; capture `ki work answer` and `ki work queries` for tools-ki as a later message and the Observatory's KI-OBSERVA-INT-005. b) (blind review's pick, confidence medium - putting answer validation, the line's shape and the repository effect in one tools-ki command avoids a temporary second implementation; the feedback effect proves the mechanism, not an answer contract) Wait for tools-ki to provide `ki work answer`, and have the Observatory's first slice declare it as its vector from the start.
+a) (recommended, confidence medium - the file effect and its gate exist and are tested, and the swap later is one operation's vector, but the Observatory's own contract leans the other way) Build the first slice on the existing file effect; capture `ki work answer` and `ki work queries` for tools-ki as a later message and the Observatory's KI-OBSERVA-INT-005.
 
-### AREA-COLUMN - publication held; HIGH independent local-input partial
+b) (blind review's pick, confidence medium - putting answer validation, the line's shape and the repository effect in one tools-ki command avoids a temporary second implementation; the feedback effect proves the mechanism, not an answer contract) Wait for tools-ki to provide `ki work answer`, and have the Observatory's first slice declare it as its vector from the start.
 
-**Goal:** Reduce fragile consumption without inventing publication authority.
-
-**Scope:** Harness publication contract and website sync; only the partial below is ready.
-
-**As of:** 27 October 2026, 05:38 GMT; harness main `1e679cd1b0d6c266989f2444cc4e6fbc6baf46e8`; website baseline as above.
+### AREA-COLUMN - publish the existing area reading aid?
 
 **Irreducible hold:** `standards-compatible-harness.md` under `skills/repo-structure/ki-repo-harness/references/` explicitly calls areas a diagram reading aid rather than a published skill fact. Its marker-bounded README catalogue derives from frontmatter; `capability-publication.ts` has no area projection. The original blind review recommended extending this boundary, but that recommendation was never accepted. Existing area values avoid a new taxonomy/schema design; publishing them as a stable consumer contract still needs the choice below. A release is not the blocker.
 
-**Dispatch useful partial:** In apps-knowledgeislands.info, add an explicit local-repository input to `apps/site/scripts/sync-skill-catalogue.ts`, focused cases in its existing `.test.ts`, and usage in `docs/guides/developer/page-provenance.md`. Retain mandatory immutable `--ref`, existing parsers, payload shape and provenance. Read the two existing source paths with local Git at that exact ref, never dirty working files; the explicit local mode must fail closed without network fallback. Preserve the existing remote route. No snapshot/page/pin changes belong in this partial.
-
-**Authority and verification:** Local delivery is expressly authorised; this is a transport adapter for the already-consumed two-file snapshot, not approval to publish areas differently. Both pinned blobs are available locally. Verify local mode reproduces the existing snapshot at `8897008fcee7b2c71a22115735ed038efccf7f32`, rejects absent refs/blobs and invokes no fetch; run its focused existing tests and required hooks. Website owns this unit; serialise with its snapshot writer and keep the crosswalk correction in a separate commit. No release, installation, binding change, credentials or provider call is needed. The live finder continues to work, with generator coupling honestly retained.
-
-## Queries
-
-### AREA-COLUMN - publish the existing area reading aid?
+**Delivered partial:** The immutable-ref local catalogue adapter is committed in website `2c15168`; Primary baseline received and final facts (27 October 07:03 GMT) records its integration, focused replacement evidence and the closed factual catalogue correction. The earlier dispatch and verification instructions are complete. They do not authorise the README publication extension below.
 
 **Parked:** README publication remains outside the two independently qualified local website units; release when Kris decides the consumer contract.
 
@@ -105,3 +105,92 @@ a) (recommended, confidence medium - the file effect and its gate exist and are 
 a) (recommended, confidence high - reuses the existing model and removes generator-code coupling, with the contract change explicit) Approve that bounded publication extension, then qualify exact harness generator/contract/test paths and the website parser/provenance companion paths. Use local immutable commits and local sync; no release cycle.
 
 b) Retain the diagram-only publication boundary and the current finder/parser coupling; deliver only the independently qualified units above.
+
+### HOST-SYNC - Settle the two-host synchronisation design
+
+since 2026-10-28; parked until owner design discussion, source HOST-SYNC and HOST-SYNC-REPLY.
+
+**Context:** Full received owner words, stopped-sync context, unresolved primary/secondary publication sequence and both Rig reply destinations are in [the live unadopted design](design/host-sync-and-reply-trades.md). Existing seat policy does not select concurrency, timing or a scheduler.
+
+**Query:** Which primary/secondary publication sequence and offset should the equivalent Rig work use, including how primary hosts consume secondary updates?
+
+**Options:**
+
+a) (recommended, confidence medium - preserves the full request without inventing concurrency or scheduling authority) Discuss and settle the existing design choices, then send one bounded rollout line to each Rig queue; Rig and chezmoi own execution.
+
+b) Keep the design parked and leave existing host operations to their owners; no new scheduler or host action is authorised here.
+
+### STREAM9-SHA - Define the bare SHA-256 boundary
+
+since 2026-10-28; parked pending owner boundary, source STREAM9-SHA and the masked source review.
+
+**Context:** A bare hexadecimal SHA-256 can collide with an otherwise valid work identifier. The source review did not establish a high-confidence grammar-wide exemption. Filename and source-linked work references must retain precedence. No classifier change was delivered and no HNR source was inspected.
+
+**Query:** What context should distinguish a bare checksum from a work identifier without suppressing a genuine identifier?
+
+**Options:**
+
+a) (recommended, confidence high - retains the existing hard boundary until the ambiguous case is defined) Keep the classifier change held; qualify a context-specific rule and negative examples before implementation.
+
+b) Bring the exact bare-identifier ambiguity to an owner design decision before qualifying a patch; no general hexadecimal exemption is selected.
+
+### GATE-BASELINE-COMPARATOR - Define inherited-finding equivalence
+
+since 2026-10-28; parked until a source-grounded comparison can be reviewed, source GATE-BASELINE-PREFLIGHT.
+
+**Context:** The routed approval asks that inherited origin/main findings be distinguished from regressions. The current preflight hard stops still apply; an exact baseline comparator, its identity/provenance and refusal cases have not been settled. A prose clarification cannot silently waive all existing WARN/FAIL findings. The sibling-worktree half already belongs to Tools under GATE-BASELINE-SIBLING.
+
+**Query:** What exact evidence establishes that a finding is unchanged from the declared baseline, while preserving hard stops for new, changed or uncomparable findings?
+
+**Options:**
+
+a) (recommended, confidence high - preserves the approved goal without weakening an undefined guard) Retain current hard stops until the narrow comparator and refusal evidence are qualified; keep this a held method need.
+
+b) Revisit the approved approach with the owner before defining comparator semantics. No baseline-wide exemption is adopted.
+
+### THREAD-DEFAULTS - Select a session and its default work home
+
+since 2026-10-28; parked until session/default selection is decided, sources THREAD-HOME and HOOK-SHORTCUT.
+
+**Context:** Typed readers and member-launched coordination support are delivered. The new unknown-session hook partial emits a short conditional pointer and avoids checkout-wide scans; it does not discover the selected session. Default selection for member-local status, a Capital package and multiple candidates remains undecided. No session marker, schema or automatic work opening is authorised.
+
+**Query:** How should a session explicitly select its one work and determine the default status/home context without assuming the launch checkout is the package home?
+
+**Options:**
+
+a) (recommended, confidence high - keeps delivered launch support usable while retaining explicit selection) Preserve explicit work selection and the quiet-hook partial; design the remaining default/session boundary separately.
+
+b) Have the owner choose the intended default-selection contract before qualifying another implementation unit.
+
+### LINK-EXTERNAL - Decide the external linked-target boundary
+
+since 2026-10-28; parked until owner boundary decision, source THREAD-HOME/LINK-CHECKER.
+
+**Context:** Shared LINK-1 now follows contained linked directories and contained absolute filesystem paths, with outside-byte/refusal checks. Targets outside the selected root are still excluded. This does not clear the reported HNR sibling-tree findings; no HNR source was inspected or changed.
+
+**Query:** Should a future resolver follow a separately declared external target, and under what explicit source-access and containment contract?
+
+**Options:**
+
+a) (recommended, confidence high - preserves the tested containment boundary and confidential-source guard) Keep external targets held and the contained partial unchanged until the access contract is decided.
+
+b) Ask the owner to define a bounded external-target model before any source discovery, traversal or implementation.
+
+### PUSH-RETRY - Decide whether any bounded retry is wanted
+
+since 2026-10-28; parked pending method choice, source Personal Rig terra PUSH-RETRY.
+
+**Context:** The sender proposes up to five retries for a queue append losing a push race. Current coordination/delegation/Git rules distinguish an uncontested remote append from actual divergence, peer-owned history, contested staging or content conflict. No blind replay or retry policy has been adopted. The existing private qualification preserves the two routes and their source sections.
+
+**Query:** Should the method retain the current bounded conflict-run route or design a narrowly qualified retry for uncontested append races?
+
+**Options:**
+
+a) (recommended, confidence high - uses the existing supported route and preserves every ownership/refusal guard) Retain the current stop-and-bounded-conflict-run method; make no retry policy change now.
+
+b) Qualify a bounded own-content-only retry for disjoint append races before adoption; the sender's five-attempt count remains a proposal and cannot override divergence, privacy or narrower push rules.
+
+- PROTECTED-PUBLICATION - the current unpublished Principal stack has two protected report blob versions in the existing private safe-sync inventory. Owning Observatory has an IMPORTANT disposition request before any push; preserve peer work/history and infer no publication certification. This remains separate from the earlier remotely exposed report-history audience query.
+- MD-STANDARD-REMAINDER - local writer/exclusion and staged-gate evidence is independently accepted Done in CLI-175; the HNR hook-bypass cause, global historical cleanliness and other-host/provider freshness are still unproved. HNR source/access remains excluded; no estate audit is commissioned. Revisit only under the owning source/access authority.
+- ENACTMENT-ADMIN - the 20 October tiered/Admin-only gate-narrowing choice remains unmade; retain the current gate. Full original decision is retained in decisions.md.
+- PROXY-SHAPER - Kris deferred this on 25 October; no proxy or chezmoi change. Full original owner words remain in decisions.md; revisit only when taken up.

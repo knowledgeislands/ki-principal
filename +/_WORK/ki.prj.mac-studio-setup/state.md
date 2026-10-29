@@ -25,6 +25,7 @@ method_read: 84b61942
 1. On resume: re-read the method, take `messages.md` in order, then relaunch spec-sched from [its brief](briefs/spec-sched.md).
 2. Blind-review PLAN068-UNPRIV and PLAN068-READY, then put every parked query back one at a time, RIG-TRIAGE and the PLAN068 queries first.
 3. With Kris: ADOBE-RESTART (deferred), then the at-screen items under Held.
+4. Home or delete `design/adobe-remove.sh` (FOLDER-1) once Kris answers ADOBE-SCRIPT-HOME, open in State of play's queries; when taking the queue, home the detail of each message line past about 60 words (LIFECYCLE-3) and shorten it to a link, or act on it.
 
 ## Held
 

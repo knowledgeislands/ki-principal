@@ -81,3 +81,7 @@ Read back taken: HOLD-STOCKTAKE - no run is active, so nothing to drain or stop;
 ## Pointer - SPEC-REVIEW (received 2026-10-28)
 
 State of play's decision, logged on 12 October at 06:45 BST and homed here under DECISION-HOMES (Kris, 25 October), as routed by ki.prj.ways-of-working on 25 October: SPEC-REVIEW starts only once the known Knowledge Islands roadmap records are near zero; its KI-RELEASE half is spent. Received under BASELINE-CLEAN; State of play may strike its entry to a pointer here.
+
+## 2026-10-29 01:13 GMT - tidy-round2 disposition
+
+Operational: State of play's TIDY line of 29 October received under BASELINE-CLEAN (Kris, 28 October): dropped the `None.` kept beside the message lines (RECORD-2) and removed the TIDY line; nothing needed judgement.

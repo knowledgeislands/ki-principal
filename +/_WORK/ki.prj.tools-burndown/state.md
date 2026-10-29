@@ -25,6 +25,7 @@ method_read: dacdcc33
 3. Receive gfmconv: bring the converter release to Kris (ask-first), then tell ki.prj.ways-of-working.
 4. Receive estpush2's HELD-ROADMAP-KNIP query into `queries.md`, then delete the report.
 5. Not this work's: KI-TOOL-KI-CLI-154; LGL-PRINCIPAL-OPS-018 (legal-principal).
+6. When taking the queue, home the detail of each message line past about 60 words (LIFECYCLE-3) and shorten it to a link, or act on it; WORK-TIDY's four briefs stay until the steward finds them spent.
 
 ## Held
 
