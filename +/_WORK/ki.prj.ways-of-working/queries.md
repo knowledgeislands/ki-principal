@@ -2,33 +2,43 @@
 
 ## Open
 
-No actionable owner query during this sleep window; the unanswered choices below remain parked, with no action on their gated matters.
-
-## Parked
-
 ### CROSS-MACHINE-SOURCE - Other-machine changes to the older model amendment
 
-**Context:** Non-HNR naming is complete and the checked Principal, Harness, Tools and Personal branches match their fetched origins. The older approved [KI-PRINCIPAL-MOD-011](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-011-amend-work-model-assigned-package-cascade.md) amendment must now be reconciled with newer canonical wording. Git cannot reveal unpublished changes on your other machine. Its approval remains valid; this is only a source-overlap question.
+**Context:** The naming and coordination rollout is complete. The already-approved [KI-PRINCIPAL-MOD-011](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-011-amend-work-model-assigned-package-cascade.md) semantic amendment remains separate and needs reconciling with current wording. Git cannot reveal unpublished changes on your other machine; its original approval remains valid.
 
 **Query:** Are there unpublished other-machine changes to Work Process, the work-model decision record or MOD-011 that this reconciliation must preserve?
 
 **Options:**
 
-a) (recommended, confidence high - identifies the actual overlap without blocking completed naming work) Confirm none, or name the affected files/repositories; continue from published sources and preserve any unresolved overlaps.
+a) (recommended, confidence high - identifies the actual overlap without reopening approval) Confirm none, or name the affected files/repositories; reconcile published sources and preserve unresolved overlaps.
 
-b) Keep this older canonical amendment parked until the next attended cross-machine sync.
+b) Keep this older amendment parked until the next attended cross-machine sync.
 
 ### FINISH-LINE - Give Ways of working a finite completion scope
 
-**Context:** Naming, coordination eligibility and the shared footer are delivered. Remaining small repairs, independent reviews and tidy-up can form a finite closeout. Host synchronisation, at-rest behaviour, message forwarding and request/reply trades need further design. Continuing method stewardship already belongs to KI State of play after an acknowledged handover; the question is which work must finish inside this Project first.
+**Context:** The bounded fixes and six independent acceptance reviews are complete. The older approved model amendment and required exit checks remain. Host synchronisation, at-rest behaviour, forwarding and request/reply trades need further design. Continuing method stewardship already belongs to KI State of play after an acknowledged handover.
 
-**Query:** Should this Project finish the approved bounded repairs and reviews, then close with the design-heavy remainder explicitly owned elsewhere?
+**Query:** Should Ways of working close after its remaining approved amendment and exit checks, with the design-heavy remainder explicitly owned elsewhere?
 
 **Options:**
 
-a) (recommended, confidence high - gives this delivery a clear end while retaining every outstanding need) Finish the bounded fixes, reviews and cleanup; hand remaining designs to named packages through KI State of play with acknowledged ownership, then close Ways of working.
+a) (recommended, confidence high - gives this delivery an end while retaining every outstanding need) Finish the approved amendment and exit checks, hand remaining designs to named packages through KI State of play with acknowledged ownership, then close this Project.
 
-b) Keep Ways of working open until host synchronisation, at-rest behaviour, forwarding and request/reply trades are also designed and delivered.
+b) Keep this Project open until those larger designs are also delivered.
+
+### PUBLIC-REPORT-AUDIENCE - Decide the audience for the published report material
+
+**Context:** Public Principal history contains 122 previously untracked/runtime report copies and later report versions carrying material protected by their owning task. Current refs are level; the proposed publication candidate proved redundant and was retired without changing primary history. No live credential exposure was established. Private scope/recovery evidence is preserved; deleting current copies does not remove historical exposure.
+
+**Query:** Which report material is intended to remain public, and which needs a containment response?
+
+**Options:**
+
+a) (recommended, confidence high - establishes the intended audience before access or history changes) Review the identified set privately and specify the material needing protection; prepare a bounded response without changing access or history on assumption.
+
+b) Confirm after review that the identified material is intended public and retain that history.
+
+## Parked
 
 - PACKAGE-FORWARDING - PKG-POINTER original request preserved at bcb3c1a3:+/_WORK/ki.ways-of-working/messages.md and the Principal enactment report. Owner approved one authoritative package and a Capital discovery reference; principal-only message forwarding remains separate design before any relay or second queue is built.
 - PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.
@@ -95,18 +105,6 @@ b) (blind review's pick, confidence medium - putting answer validation, the line
 a) (recommended, confidence high - reuses the existing model and removes generator-code coupling, with the contract change explicit) Approve that bounded publication extension, then qualify exact harness generator/contract/test paths and the website parser/provenance companion paths. Use local immutable commits and local sync; no release cycle.
 
 b) Retain the diagram-only publication boundary and the current finder/parser coupling; deliver only the independently qualified units above.
-
-### PUBLIC-REPORT-AUDIENCE - Decide the audience for the published report copies
-
-**Context:** Existing GitHub metadata confirms Principal is public. A peer baseline added 122 previously untracked/private report copies, totalling 735174 bytes, to reachable history; 101 were later removed at the tip and 21 remained in the inspected snapshot. The private assessment found internal and Personal context, not proven live credentials. No payload was redistributed and no access or history change was attempted. Recovery or deleting a current file does not remove its historical exposure.
-
-**Query:** Which of this report material is intended to remain public, and which needs a containment proposal?
-
-**Options:**
-
-a) (recommended, confidence high - establishes the exact intended audience before any irreversible history work) Review the identified set privately, select material needing protection and prepare bounded containment options; make no access or history change without a separate instruction.
-
-b) Confirm that all 122 report copies are intended public material and retain the current history.
 
 ### HOST-SYNC - Settle the two-host synchronisation design
 
