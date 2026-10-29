@@ -247,7 +247,7 @@ State of play matches the unit against each work's description and, where two ma
 
 A report shows its state in rich text. The heading's glyphs come first and the last glyph is whose move it is: 🤖 an agent, 👤 Kris, 🎯 a named target, ⏸️ nobody until the release, 🏁 nobody. A settled state shows its holder's glyph alone: `🤖 With worker`, `👤 With supervisor`, `⏸️ On hold`, `🏁 Finished`. An arrow appears only in a handoff state, pointing to whose move it is: `🤖 → 👤 Handoff to supervisor`, `👤 → 🤖 Handoff to worker`, `→ 🎯 Handoff to <target>`. The heading gives the state in role words; a line of counts follows; then the list `- [state] what · holder · since`. The counts and lists say "with you", because they are views by holder. The report's form line takes the same prefix, as in **🤖 → 👤 Handoff to supervisor · Summary at 23:52 BST · last mark 22:34 BST**.
 
-Every banner closes with one plain Markdown thread line, after a blank line following the list: `🧵 Coordination thread · <label> (<id>)` for Project work or `🧵 State of play thread · <label> (<id>)` for territory work. Use the exact work label and id from `work.md`; a run report uses the work it reports to. The thread line closes every state, including handoff, On hold and Finished, and replaces all copyable send and resume lines. No banner, handoff or hold report emits a send or resume prompt or a paste instruction.
+Every banner closes with one plain Markdown thread line, after a blank line following the list: `🧵 <work-id>` for every explicitly coordinating package, including main and secondary State of play, Project, regular and ad hoc work. Use the authoritative work id from `work.md`; a run report uses the id of the work it reports to. Rich report headings, work labels, banner counts and states remain unchanged. Reports saved before this change keep their original closing line and remain readable; never rewrite them solely for the new footer. The thread line closes every state, including handoff, On hold and Finished, and replaces all copyable send and resume lines. No banner, handoff or hold report emits a send or resume prompt or a paste instruction.
 
 An example of work with its worker:
 
@@ -259,7 +259,7 @@ An example of work with its worker:
 > - [with you] WORK-HOME · owner · since 22:58
 > - [blocked] thread commit · repo/ki-principal · since 22:40
 >
-> 🧵 Coordination thread · KI > Model > Ways of working (ki.ways-of-working)
+> 🧵 ki.prj.ways-of-working
 
 And on hold:
 
@@ -270,7 +270,7 @@ And on hold:
 > - [parked] 9 queries in `queries.md`
 > - [release] after the harness migration lands, or `resume`
 >
-> 🧵 Coordination thread · KI > Model > Ways of working (ki.ways-of-working)
+> 🧵 ki.prj.ways-of-working
 
 An On hold banner lists nothing waiting: no "with you", running or per-repository status item. Its items are only `[parked]` and `[release]`; what each repository did stays in the hold report's Done. The standing authority to push everything stacked on `main`, including other sessions' commits, follows [Pushing beneath other sessions](https://github.com/knowledgeislands/ki-agentic-harness/blob/main/skills/change-management/ki-coordination/references/standards-coordination.md#pushing-beneath-other-sessions).
 
