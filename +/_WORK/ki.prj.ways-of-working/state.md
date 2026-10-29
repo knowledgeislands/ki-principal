@@ -3,9 +3,9 @@ id: ki.prj.ways-of-working
 state: with-worker
 since: 2026-10-28T21:58:11Z
 received: 2026-10-22T07:24:00Z
-beat: 2026-10-29T01:39:49Z
+beat: 2026-10-29T02:00:08Z
 mark: 2026-10-29T01:02:20Z
-method_read: afb126f2
+method_read: 07b9333a
 ---
 
 # ki.prj.ways-of-working state
@@ -15,7 +15,7 @@ method_read: afb126f2
 - Unattended window until Kris returns or says stop wake; mark is window entry, 29 October 01:02 GMT.
 - Naming/footer/exclusions and canonical footer/refresh rollout delivered. Two records independently accepted and retained; GOV-233/234 and CLI-174 await final review, CLI-175 original-scope proof remains.
 - MJS and contained LINK-1 fixes delivered; malformed unsafe-path fixture corrected without weakening assertions. Combined source gate now passes.
-- Reviewed quiet-hook/authority documentation completion runs next. Bounded semantic report/design graduation is active; Tools local boundary proof waits for final method assets.
+- Quiet hook/authority/recovery/release/cap/brief guidance delivered and current method refreshed. Tools proof and own log/inbox closeout run; exact unpublished peer docs audience is in review.
 
 ## Next steps
 
