@@ -127,3 +127,4 @@
 - Out-of-form REFRESH 2026-10-28 (harness d03d0e74, an ancestor of afb126f2): refreshed against afb126f2; the method-delta run of 29 October lists the changes. Removed rather than reformed, which clears RECORD-2 for `messages.md`.
 - PUSH-FOOTER 2026-10-29 from hnr.sop.main's 5ge work (hnr.sop.5ge): an observation for the method owners, forwarded once to ki.prj.ways-of-working's `messages.md`; nothing for Kris.
 - `method_read` set to afb126f2 in `state.md`.
+- resolve-close received 01:12 GMT: ki-principal merged level (f43cba99), refresh closed at afb126f2 (cab965c9), queue empty. Next under BASELINE-CLEAN: tidy-round2 acts on the TIDY lines sop-mark sent to the tended works.
