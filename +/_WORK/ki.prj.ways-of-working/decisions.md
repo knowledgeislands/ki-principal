@@ -619,3 +619,36 @@ Kris: "Take up HOST-SYNC as the next design under ki-work-design. Its inputs are
 Kris, on LAUNCH-BLOCKED, HOST-SYNC, CROSS-MACHINE-SOURCE, FINISH-LINE and PUBLIC-REPORT-AUDIENCE, each option a: "The queries, I agree with the most recommended one for, so you can get on with those, please."
 
 Read-back: launch the levelling and design runs; settle HOST-SYNC through tagged decisions then one rollout line per Rig queue; CROSS-MACHINE-SOURCE - no unpublished other-machine changes named, reconcile MOD-011 from published sources and preserve any unresolved overlap; FINISH-LINE - finish the approved amendment and exit checks, hand remaining designs to named packages through KI State of play with acknowledged ownership, then close the Project, aiming to cut open topics and roadmap items; PUBLIC-REPORT-AUDIENCE - review the identified set privately and prepare a bounded response without changing access or history. Kris also asked that Ways of working keep reducing its open topics and roadmap items.
+
+## Package definition and session freshness design review - 2026-10-29T20:34:32Z
+
+Kris requested design review on 29 October 2026:
+
+```text
+exactly the right names :) can you do some design review and I'll work on getting the threads drained from terra so they are back on here. In some cases we also need to include a host for it:
+
+An example:
+id: personal.reg.rig-sol
+description: ... (this is used for the progressive disclosure/loading/reveal like skills)
+parent: personal.sop.main
+level: regular
+territory: personal
+canonical_home: personal-principal (or whatever we use to look this up in the registry to map to a local path)
+execution_home: chezmoi (or whatever we use to look this up in the registry to map to a local path)
+theme: regular (all level === regular have a theme === regular)
+created_at: ...
+freshness: ????
+
+I think we can drop title as we now use:
+🧵 <id>
+
+And I think we could improve on skills use of description have a anti field, e.g.
+
+Not for terra (personal.reg.rig-terra), the public Rig catalogue and rig.midnight.ninja (personal.reg.rig), the Rig tooling (KI's tools-rig) or how Rig and KI approach chezmoi changes (KI's ki.prj.chezmoi).
+```
+
+Scope: design only. Earlier freshness discussion asks for elapsed session time plus conversation volume, a recommendation to renew and a safe handover before a new session; exact metrics, thresholds and storage are undecided. Principal package home and execution repository are separate, with a host where needed. Current field names and removal of title/theme constraints are proposals to review, not adopted schema. Do not implement a schema, rename or move packages, change runtime/hooks/configuration, restart a session or coordinate Terra transfers under this review grant. Independent source-grounded reviews and a merged recommendation return to Kris before implementation. Existing held queries stay intact.
+
+RULES-RELEASE received as an informational standards release: repository and Cloudflare naming guidance changed in Harness 99bd8fc07. Readers must use current registry identity contracts; no repository/team rename, release or provider operation is authorised or required here. Exact incoming source remains in the parent commit.
+
+Terra handover received during preparation: HOST-SYNC-DESIGN and RECOMMENDED-ALL are in published commit a72fe115. The three former Open questions are answered by that explicit option-a instruction; do not ask again. Continue MOD-011 from published sources with unresolved overlaps preserved, use the finite exit/handover scope, and prepare only the approved private audience assessment/response. No public-payload clearance, access/history mutation or deployment authority follows. HOST-SYNC design and finish-line briefs were stopped without delivery by a Claude session limit and remain queued, not completed. The current package-definition design review is the owner's new priority while Terra threads are drained. Old group journals stay immutable; requalify saved briefs before any later canonical-group launch.

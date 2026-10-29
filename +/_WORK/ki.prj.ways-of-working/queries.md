@@ -2,41 +2,7 @@
 
 ## Open
 
-### CROSS-MACHINE-SOURCE - Other-machine changes to the older model amendment
-
-**Context:** The naming and coordination rollout is complete. The already-approved [KI-PRINCIPAL-MOD-011](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-011-amend-work-model-assigned-package-cascade.md) semantic amendment remains separate and needs reconciling with current wording. Git cannot reveal unpublished changes on your other machine; its original approval remains valid.
-
-**Query:** Are there unpublished other-machine changes to Work Process, the work-model decision record or MOD-011 that this reconciliation must preserve?
-
-**Options:**
-
-a) (recommended, confidence high - identifies the actual overlap without reopening approval) Confirm none, or name the affected files/repositories; reconcile published sources and preserve unresolved overlaps.
-
-b) Keep this older amendment parked until the next attended cross-machine sync.
-
-### FINISH-LINE - Give Ways of working a finite completion scope
-
-**Context:** The bounded fixes and six independent acceptance reviews are complete. The older approved model amendment and required exit checks remain. Host synchronisation, at-rest behaviour, forwarding and request/reply trades need further design. Continuing method stewardship already belongs to KI State of play after an acknowledged handover.
-
-**Query:** Should Ways of working close after its remaining approved amendment and exit checks, with the design-heavy remainder explicitly owned elsewhere?
-
-**Options:**
-
-a) (recommended, confidence high - gives this delivery an end while retaining every outstanding need) Finish the approved amendment and exit checks, hand remaining designs to named packages through KI State of play with acknowledged ownership, then close this Project.
-
-b) Keep this Project open until those larger designs are also delivered.
-
-### PUBLIC-REPORT-AUDIENCE - Decide the audience for the published report material
-
-**Context:** Public Principal history contains 122 previously untracked/runtime report copies and later report versions carrying material protected by their owning task. Current refs are level; the proposed publication candidate proved redundant and was retired without changing primary history. No live credential exposure was established. Private scope/recovery evidence is preserved; deleting current copies does not remove historical exposure.
-
-**Query:** Which report material is intended to remain public, and which needs a containment response?
-
-**Options:**
-
-a) (recommended, confidence high - establishes the intended audience before access or history changes) Review the identified set privately and specify the material needing protection; prepare a bounded response without changing access or history on assumption.
-
-b) Confirm after review that the identified material is intended public and retain that history.
+No outstanding queries.
 
 ## Parked
 

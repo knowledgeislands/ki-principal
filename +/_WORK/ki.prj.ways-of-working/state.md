@@ -1,10 +1,10 @@
 ---
 id: ki.prj.ways-of-working
 state: with-worker
-since: 2026-10-29T17:53:00Z
-received: 2026-10-22T07:24:00Z
+since: 2026-10-29T20:36:59Z
+received: 2026-10-29T15:38:09Z
 beat: null
-mark: 2026-10-29T01:02:20Z
+mark: 2026-10-29T16:18:42Z
 method_read: 07b9333a
 ---
 
@@ -12,22 +12,20 @@ method_read: 07b9333a
 
 ## Now
 
-- Drained on terra at 20:05 GMT on 29 October for a move to sol; nothing running, queued or scheduled.
-- Kris took every recommended option on 29 October (HOST-SYNC-DESIGN and RECOMMENDED-ALL in decisions.md): LAUNCH-BLOCKED, HOST-SYNC, CROSS-MACHINE-SOURCE, FINISH-LINE, PUBLIC-REPORT-AUDIENCE. Aim: cut open topics and roadmap items, then close the Project.
-- wow-sync-terra levelled terra's checkout (a6912d29) and logged the decisions (a72fe115).
-- wow-host-sync-design and wow-finish-line started and stopped at once on a Claude session usage limit; no work done. Their briefs are committed in briefs/ and stand as written.
+- Owner resumed bounded package-definition and session-freshness design review. The source-grounded brief is running; two independent reviews and a merged recommendation follow. No schema or package-location change is authorised.
+- Terra's 20:05 GMT drain/handover is received. Its approved source, finite finish-line and private audience-review recommendations are recorded in decisions.md; the former three Open queries are answered.
+- Saved HOST-SYNC and finish-line runs stopped at a Claude usage limit without delivery. Their briefs remain queued; this design review does not claim them complete or move any Terra thread.
 
 ## Next steps
 
-1. On sol: fetch, check the checkout is level, re-bootstrap as coordinator.
-2. Relaunch wow-host-sync-design and wow-finish-line from briefs/ (run name `ways-of-working`, opus, high effort, rules push, fetch), in parallel.
-3. Receive the HOST-SYNC merged report; put its tagged decisions to Kris; once decided, send one rollout line each to personal.reg.rig-terra and personal.reg.rig-sol.
-4. Receive the finish-line plan; send its hand-off lines through KI State of play; launch the MOD-011 reconciliation (from published sources, per CROSS-MACHINE-SOURCE) and the exit checks.
-5. Launch a PUBLIC-REPORT-AUDIENCE run: private review of the identified report set and a bounded response, changing no access or history.
-6. Dispose of the six messages.md lines: HOST-SYNC-REVIEW goes to the design run; the other five confirm routes already parked in queries.md.
+1. Receive the package-definition brief, obtain two independent reviews on different runtimes, then merge evidence and disagreements for the owner.
+2. Before implementation, obtain decisions on the new schema/freshness proposal and qualify a bounded pilot.
+3. Afterwards requalify the saved HOST-SYNC and finish-line briefs against current rules and valid canonical group ownership. Preserve immutable old journals.
+4. Continue approved MOD-011 reconciliation/exit checks and acknowledged handovers; privately assess the published report set and prepare a bounded response with no access/history changes.
 
 ## Held
 
-- Preserve original MOD-011 candidate, Tools unadmitted/original-history refs and publication recovery ref/archive; this window admitted no held original code.
-- Bare SHA-256 collision, baseline comparator, exact-session/default-home and external-link semantics, trades/state design and SVG source remain parked with their owners.
-- HNR excluded; Observatory appearance stays its own work. No releases/deployments/restarts, installs, credentials/providers/schedulers, private publication, force/reset/stash or hook bypass.
+- Preserve the original model candidate, Tools retained refs and publication recovery evidence. Reconcile published sources without overwriting unresolved overlaps or replaying stale trees.
+- Host-sync and other unchosen designs await their existing decision stages; no executor, schedule or automatic takeover is selected.
+- HNR remains excluded. Observatory appearance belongs to its own work.
+- No release, deployment, install, credential/provider operation, confidential publication, force/reset/stash or hook bypass is authorised here.
