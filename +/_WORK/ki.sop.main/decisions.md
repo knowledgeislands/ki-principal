@@ -112,3 +112,18 @@
 - window-plan received 01:05 GMT: no record is Ready, and every adopted Now or Next draft in a work not on hold sits outside ki-principal, so the window can deliver nothing as granted. Its WINDOW-SCOPE query goes to blind review, then to Kris on return; the window is not widened meanwhile. Awaiting review for Kris: PERSONAL-DOTFILES-UE-076 and KI-TOOL-RIG-CORE-070.
 - window-review received 01:06 GMT: the blind review held the window to ki-principal as granted (high) where window-plan leaned to widening (medium); the window stays as granted and WINDOW-SCOPE is reshaped as a next-step question for Kris's return.
 - sop-mark received 01:09 GMT: work.md fixed, decisions struck, TIDY lines sent to 12 works (d77efdf9). Its PUSH-DIVERGED is not Kris's: PACKAGE-PUSH and the method's divergence rule hand a non-fast-forward pull to a bounded resolve run, which merges and rewrites nothing. method-delta received: the method refresh to afb126f2 is complete, and resolve-close closes the nine REFRESH lines against it.
+
+## 2026-10-29 · resolve-close message dispositions
+
+- REFRESH 2026-10-20 (harness 071567a1): refreshed against afb126f2; the method-delta run of 29 October lists the changes.
+- REFRESH 2026-10-20 (harness 76b6e5c5): refreshed against afb126f2; the method-delta run of 29 October lists the changes.
+- REFRESH 2026-10-25 WORK-LABEL and SIZE-LABEL (harness 0404754a): refreshed against afb126f2; the method-delta run of 29 October lists the changes.
+- REFRESH 2026-10-25 PERM-PROMPTS (harness c4b423c7): refreshed against afb126f2; the method-delta run of 29 October lists the changes.
+- REFRESH 2026-10-25 UNATTENDED-LIMITS (harness a122a201): refreshed against afb126f2; the method-delta run of 29 October lists the changes.
+- REFRESH 2026-10-25 external systems and confidential (harness 6d3afe52): refreshed against afb126f2; the method-delta run of 29 October lists the changes.
+- REFRESH 2026-10-25 questions in a window (harness fdf9a604): refreshed against afb126f2; the method-delta run of 29 October lists the changes.
+- REFRESH 2026-10-26 four changes (harness 9ad38e00): refreshed against afb126f2; the method-delta run of 29 October lists the changes.
+- REFRESH 2026-10-28 thread line (harness afb126f2): refreshed against afb126f2; the method-delta run of 29 October lists the changes.
+- Out-of-form REFRESH 2026-10-28 (harness d03d0e74, an ancestor of afb126f2): refreshed against afb126f2; the method-delta run of 29 October lists the changes. Removed rather than reformed, which clears RECORD-2 for `messages.md`.
+- PUSH-FOOTER 2026-10-29 from hnr.sop.main's 5ge work (hnr.sop.5ge): an observation for the method owners, forwarded once to ki.prj.ways-of-working's `messages.md`; nothing for Kris.
+- `method_read` set to afb126f2 in `state.md`.
