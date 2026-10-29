@@ -4,7 +4,7 @@ state: with-worker
 blocking: false
 since: 2026-10-29T01:04:52Z
 received: 2026-10-19T22:45:00Z
-beat: 2026-10-29T01:09:35Z
+beat: 2026-10-29T01:44:31Z
 mark: 2026-10-29T01:04:52Z
 method_read: afb126f2
 ---
@@ -13,21 +13,22 @@ method_read: afb126f2
 
 ## Now
 
-Away authority received until 29 October 09:00 GMT (09:00 UTC), or explicit return/stop wake sooner. Entry mark struck; five queries remain open. The supervisor has launched two read-only investigations, away-consumer-gap and away-jobs-evidence; this pass launches nothing. Entry revisions and bounds are recorded in the existing away decision.
+Away window remains open until 29 October 09:00 GMT/UTC, or explicit return/stop sooner. Completed runs through away-app044-facts and both independent sync reviews are received in the [named dispositions](decisions.md#2026-10-29---away-completed-receipt). Four owner choices remain open; ACCEPT is closed on verified existing authority, and APP-044's factual correction answers no convergence choice.
+
+Remaining review units as of 01:45 GMT: away-status-blind-review: DONE, awaiting separate receipt; away-sync-merge: DONE, awaiting separate receipt. Neither report is read or received by this unit. This receipt launches nothing and changes no product authority.
 
 ## Next steps
 
-1. Receive away-refresh-plan's report; retain the recorded entry revisions and concurrent changes. NAMING-DONE releases only the metadata-write barrier; normal gates persist. Tier none plus fetch; size xs; repository ki-principal; authority: this bounded preparation brief.
-2. Dispatch obs-brg004-audit, size s (20-30 minutes), apps-observatory.local, tier none plus fetch. Authority: OBS-AUDIT and the retained evidence-only acceptance receipt. Repair only the two decision-document audit blockers and update affected links; recheck audit and feedback review evidence. Dependency: step 1. No acceptance, feedback send or restart.
-3. Dispatch obs-app044-reconcile, size s (20-30 minutes), apps-observatory.local read-only with report here, tier none plus fetch. Authority: adopted Now record and away grant. Compare its plan with the five-area design and identify remaining owner choices. Dependency: step 1. Keep Draft; do not choose RESTRUCTURE or release consolidations.
-4. Receive away-consumer-gap, now running read-only in apps-observatory.local, tier none, size s. Authority: TYPED-ID-CONSUMER and COORD-REGULAR-STATUS. Require evidence of a real tools-ki consumer gap; no implementation, new record or runtime action.
-5. Receive away-jobs-evidence, now running read-only in apps-observatory.local, tier none, size s. Authority: SCHEDULED-RESULTS and SCHEDULED-REPORT-SPEC. Require result/schedule contract evidence and a documentation proposal; no scheduler, provider or other-repository writes.
-6. Prepared [scheduled-sync ownership brief](design/observatory-sync-brief.md), away-sync-brief, size s, ki-principal, tier none with no remote calls, under AWAY-2026-10-29 and the explicit bounded preparation instruction. Two independent read-only review briefs are ready for later commissioning; no review launch, execution owner, implementation choice, new record or rollout is adopted. Preserve HOST-SYNC, dispatcher and Tools ownership gates.
-7. Delivery batch eligible set is empty: no Ready records. Reassess only after authorised planning resolves prerequisites; freeze any later safe-local-v1 wave per repository, awaiting-review only, expiring no later than 09:00 UTC. No envelope is created here.
+1. Receive the completed blind status review only after terminal status and evidence checks; preserve its independence and do not adopt a repair or create a record through this receipt.
+2. Receive the sync merge only after completion, with both independent reviews; bring only its reviewed choices through their proper owner gate. The reviews choose no producer, executor or rollout owner.
+3. Follow the existing State of play reply route for scheduled-result evidence and original Route Triage specimens; the specification is delivered, while producer findings and any historical consumer parser remain recommendations requiring separate authority and evidence.
+4. Await the Tools-owned public canonical-report-resolution contract answer before planning historical report lookup. Keep work-status behaviour repair separate from APP-044 and its held consolidations.
+5. No Ready delivery set or safe-local-v1 envelope is created. Stop at expiry or explicit return/stop; receive completed results and report against the existing mark.
 
 ## Held
 
-- Acceptance, first real send, service restart, pushes, new records and further launches are excluded from this preparation pass; the away grant does not answer the five queries.
-- Library, Streams, Workers, Machine and Extensions retain their individual consolidation gates; cross-host Sessions and tailnet appearance retain Host network's service-name prerequisite.
-- TEN-COMMITS, MERMAID-HANDLER and BRIDGE-STALE remain unanswered; no history removal, diagram mutation or unreviewed integration adoption.
-- Sync ownership, host responsibility, account scores, naming changes and external diagram work retain their evidence, repository and owner gates. Access changes are excluded from the unattended window.
+- RESTRUCTURE, TEN-COMMITS, MERMAID-HANDLER and BRIDGE-STALE retain their options, confidence and guards; no recommendation becomes approval.
+- Library, Streams, Workers, Machine and Extensions retain individual consolidation gates; cross-host Sessions and tailnet appearance retain Host network's service-name prerequisite.
+- First real feedback send remains Kris's, and service restart/freshness requires a separately authorised interactive session; evidence-only closure proves neither live operation nor deployed source.
+- Sync topology, host responsibility, account scores, naming changes and external diagrams retain their repository and owner gates. No producer ownership is selected; Access changes remain outside this window.
+- This receipt permits no new launch, product edit, acceptance, pruning, remote call, publication, scheduler, service, provider or credential action.

@@ -2,25 +2,13 @@
 
 ## Open
 
-### ACCEPT - Current acceptance and retained earlier requests
-
-since 2026-10-20 · from the parked acceptance request and the BRG-004 delivery messages
-
-**Context:** [KI-OBSERVA-BRG-004](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-004-turn-feedback-sending-on.md) is the only current Observatory roadmap record awaiting review. It enables feedback sending; its review records passing tests, typecheck and audit, but leaves the first real send to Kris and offers acceptance without one as an explicit choice. This pass has not checked the running service or sent feedback. The 27 October BRG004-ACCEPTANCE-READING receipt says the existing high-confidence acceptance approval applies to the accept-without-first-send branch; OBS-AUDIT names decision-document audit repairs still needed. This mark does not grant or perform closure, and does not ask again for an already covered routine step. The earlier ACCEPT request also named KI-WEBSITE-SITE-044 and KI-DESIGN-ICO-001, whose current acceptance homes are not verified in this two-repository pass; retain them for reconciliation, not fresh acceptance. [KI-OBSERVA-BRG-005 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/36abae9a540bf39785d3dd91811fda12ff759ec3/docs/roadmap/KI-OBSERVA-BRG-005-act-board-missing-parts.md) is already done in local Git and must not be accepted again. The earlier website and icon identifiers have no verified current local record link in this pass.
-
-**Query:** Should delivery evidence remain the acceptance basis for BRG-004, or should a first real send now become an additional condition?
-
-**Options:**
-
-a) (recommended, confidence high - the retained acceptance receipt already selects the evidence-only branch, and first send stays reserved) Retain acceptance without a first send. The next bounded reconciliation pass should verify the existing grant and mandatory audit, use that authority where it applies, and bring only a genuine uncovered acceptance decision to Kris; reconcile the earlier external requests at their actual homes.
-
-b) Keep BRG-004 awaiting review until Kris confirms the current service and performs the first real send; reconcile the two earlier requests separately.
-
 ### RESTRUCTURE - Reconcile the old consolidation proposal with the landed design
 
 since 2026-10-20 · from obs-app044-plan and obs-review-4
 
-**Context:** [KI-OBSERVA-APP-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md) is still Now/Draft. The parked proposal recommended incremental convergence, Council first, one redirect table, retaining Work until a Streams proposal proved its home and limiting Waiting for you to a Review rename. The independent review supported that amended direction at medium confidence and retained the step-3 promotion gate. Since then, [PDR-KI-OBSERVA-010](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/decisions/PDR-KI-OBSERVA-010-four-areas-replace-the-tab-bar.md) landed five areas and Legacy, removed Focus and retired the lens. Its consequences explicitly allow later convergence within the areas. Repeating the old header/lens choice would ignore that delivery; it does not prove any remaining consolidation gate satisfied.
+**Context:** [KI-OBSERVA-APP-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md) is still Now/Draft. The parked proposal recommended incremental convergence, Council first, one redirect table, retaining Work until a Streams proposal proved its home and limiting Waiting for you to a Review rename. The independent review supported that amended direction at medium confidence and retained the step-3 promotion gate. Since then, [PDR-KI-OBSERVA-010](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/decisions/PDR-KI-OBSERVA-010-four-areas-replace-the-tab-bar-and-the-observatory-opens-on-what-waits-for-its-owner.md) landed five areas and Legacy, removed Focus and retired the lens. Its consequences explicitly allow later convergence within the areas. Repeating the old header/lens choice would ignore that delivery; it does not prove any remaining consolidation gate satisfied.
+
+The [completed factual correction](away-app044-facts.report.md) now separates the delivered shell and alias seam from the old proposal, corrects satisfied prerequisites and retained-idea homes, and leaves APP-044 Now/Draft/decide. This does not answer convergence, consolidation order, Council, Waiting/Review or DESIGN-WORK.
 
 **Query:** Should the next design pass reconcile APP-044 and its held consolidations against the landed five-area design before proposing an individual consolidation?
 
@@ -74,4 +62,4 @@ b) Keep BRIDGE-STALE parked without scheduling further work.
 
 ## Parked
 
-None. RESUME restores the five earlier queries above; their unresolved choices and retained source reports remain intact.
+None. The four open choices retain their existing options and guards. ACCEPT is fully resolved in the [sourced receipt disposition](decisions.md#2026-10-29---accept-closed).

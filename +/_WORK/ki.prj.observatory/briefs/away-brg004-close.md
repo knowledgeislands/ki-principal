@@ -1,0 +1,9 @@
+# Apply the existing evidence-only feedback acceptance authority
+
+Kris's 29 October away grant is AWAY-2026-10-29, ending 09:00 GMT/UTC or explicit return sooner. This grant adds no acceptance authority. The received away-brg004-audit report identifies existing human authority in ki.prj.ways-of-working/decisions.md and BRG004-ACCEPTANCE-READING/OBS-AUDIT receipts for KI-OBSERVA-BRG-004's accept-without-first-send branch. Verify those exact sources independently before acting.
+
+1. After away-jobs-spec is DONE, read product standing rules, ki-accept's procedure and local authority notes, the exact canonical record and six-part review, named human approval sources and the audit-repair report. Stop without closing if the retained approval does not cover this exact record and evidence-only branch; do not ask again where it does.
+2. Recheck required governing audits and current delivery evidence at an immutable baseline. Standard ephemeral test servers required by verification are allowed; do not touch the production launchd service, send real feedback, inspect providers or expand scope. If approval and gates hold, record done, remove horizon and update timestamp/evidence as the current procedure requires. Retain the terminal record: no pruning, cancellation or other closure.
+3. Commit only completed verified owned closure paths through normal hooks, serialising Git writes and inspecting committed paths. Preserve unrelated changes. No push, runtime implementation or new record. Report precise source authority, verification, resulting lifecycle and operational restart/first-send limitations. Do not edit Capital package files; coordinator will receive this unit separately.
+
+Report to /Users/krisbrown/.local/state/ki/agents/observatory-away-20261029/away-brg004-close.report.md. Run quietly; directly read the complete inbox after long tools and before broad verification. Do not use background subagents. Never end your session while waiting.
