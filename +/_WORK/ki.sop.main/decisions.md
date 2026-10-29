@@ -128,3 +128,4 @@
 - PUSH-FOOTER 2026-10-29 from hnr.sop.main's 5ge work (hnr.sop.5ge): an observation for the method owners, forwarded once to ki.prj.ways-of-working's `messages.md`; nothing for Kris.
 - `method_read` set to afb126f2 in `state.md`.
 - resolve-close received 01:12 GMT: ki-principal merged level (f43cba99), refresh closed at afb126f2 (cab965c9), queue empty. Next under BASELINE-CLEAN: tidy-round2 acts on the TIDY lines sop-mark sent to the tended works.
+- tidy-round2 received 01:19 GMT: eleven tended works tidied, one commit each; every package-check failure in them cleared except ki.prj.mac-studio-setup FOLDER-1 (adobe-remove.sh, waiting on ADOBE-SCRIPT-HOME). The window has nothing further it may do: no record is deliverable inside ki-principal and every remaining item is Kris's. Sent to Kris at 01:19 GMT; no further runs until his return.
