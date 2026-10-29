@@ -6,9 +6,9 @@
 
 ## Summary
 
-Keep a small durable definition of identity, routing, authoritative home and default execution footprint. Preserve the owner's names, including singular `execution_home`. Derive territory and Capital defaults where unambiguous, resolve repository identity independently of checkout location, and keep actual targets and authority with each unit. Recommend removing mandatory stored `title` after reader compatibility is delivered, keeping thematic grouping independent of level, and retaining combined routing descriptions initially. An optional package host requirement describes a genuine constraint, never the current session's seat.
+Keep a small durable definition of identity, routing, authoritative home and default execution context. Preserve the owner's names, including singular `execution_home`. Derive territory and Capital defaults where unambiguous, resolve repository identity independently of checkout location, and keep actual targets and authority with each unit. Recommend removing mandatory stored `title` after reader compatibility is delivered, keeping thematic grouping independent of level, and retaining combined routing descriptions initially. An optional package host requirement describes a genuine constraint, never the current session's seat.
 
-Show current-session elapsed time and evidenced conversation volume separately, with unknown values visible. Recommend a fresh session at a recoverable boundary; no score or elapsed threshold certifies degradation. A proposed reversible reminder can work with one available signal while another remains unknown.
+Append current-session elapsed time and evidenced conversation volume after the stable work id on the same final thread line, with unknown values visible; keep today's footer unchanged until adoption. Recommend a fresh session at a recoverable boundary; no score or elapsed threshold certifies degradation. A proposed reversible reminder can work with one available signal while another remains unknown.
 
 The latest owner steer is controlling: "And we found how things move in work packages. So do not concentrate on that right now. You will have a new update soon. Go back to the things that we discussed, that we were doing before that." This report covers definition fields, routing and session freshness. Package movement, host transfer, cross-host orchestration and further drain-process design await that update. Home declarations need no movement mechanism to be reviewed. Design approval here would authorise neither implementation nor publication, release, a pilot or a work transfer.
 
@@ -64,7 +64,7 @@ supervisor: owner
 | `level` | Territory, regular or project | Unchanged | Typed id agreement |
 | `territory` | Not a field | Derive from id; optional assertion | Must match id and governance |
 | `canonical_home` | Capital or approved Scope exception | Derive Capital if omitted | One canonical repository; approved exception |
-| `execution_home` | Not a field | Unspecified if omitted | One repository identity if supplied |
+| `execution_home` | Not a field | Unspecified if omitted/null | One verified repository context; checked launch default |
 | `created_at` | Optional timestamp or null | Unknown if omitted/null | Original creation; existing time ordering |
 | `title` | Required | Derived display after migration | Read legacy title; preserve custom display |
 | `theme` | Optional slug/null | No thematic assignment | Resolve supplied slug independently of level |
@@ -75,11 +75,11 @@ supervisor: owner
 
 Omitted `canonical_home` derives the territory's verified Capital under [the location contract][location]. Explicit null is unresolved and does not silently invoke that default. An explicit Capital identity asserts the default. A regular/ad hoc member exception still needs the existing owner approval and parent coverage, with the Scope declaration retained during migration; a Project remains Capital-homed. Missing, conflicting or duplicate resolution stops resolved use. Metadata neither creates an exception nor moves anything. `territory` is an optional checked assertion, preserving the owner's name without requiring duplicate data on every definition.
 
-**Default execution footprint.** Keep singular `execution_home` for one expected delivery repository. It is a planning/routing hint, never an implicit working directory, permission, exhaustive allowlist or actual target. Omitted/null means unspecified. Work spanning repositories leaves it unspecified and names the relevant repositories in its unit briefs/records; even when a default exists, each unit identifies and authorises its actual targets. This deliberately differs from both reviews' plural `execution_homes`: a list adds maintenance without replacing per-unit authority. Logical work identity, authoritative package home and delivery target remain separate.
+**Default execution context.** Keep singular `execution_home` for one declared default execution repository/context: where the work is meant to be running, distinct from the canonical package home. The owner's chezmoi example means its repository footprint, not the Capital by implication. Resolve its portable repository identity through the existing registry to a verified local checkout working directory only after explicit work selection, applicable package/unit host requirements and unit authority checks. A later authorised launcher can use that verified directory as its default launch working directory; resolution itself grants no write authority and authorises no command. Omitted/null means unspecified, with no guessed checkout fallback. Each unit still declares actual authorised targets and explicit overrides, including other repositories; multi-repository work may retain one useful default rather than being forced to erase it. Missing, ambiguous or conflicting resolution blocks use of that default. Keep physical paths and live bindings outside the portable definition. Today's readers do not implement this field or launch behaviour; that is a future compatibility/pilot requirement, not a reason to reduce the proposed meaning to a routing hint. No live binding or automatic directory change occurs here.
 
 **Host.** Propose optional `host_requirement: {kind: host, id: <inventory-id>}` or `{kind: category, id: <inventory-category>}` only for a constraint applying to the whole package. The example does not assert that `sol` resolves. Omission means no declared package-wide restriction, not universal executability. Most machine requirements belong on the relevant unit, allowing planning elsewhere. Preferences stay prose and cannot satisfy a hard constraint. Unknown, renamed or ambiguous required identities block device-dependent execution under [the existing boundary][host]. A subject suffix such as `rig-sol` must never be parsed as a live seat or a constraint: propose allowing an owner-chosen machine-related subject while retaining the prohibition on encoding session placement. This is a proposed naming clarification, not an assertion that the present standard permits it.
 
-**Display without mandatory stored title.** Recommend the owner's removal as the destination model. Derive ordinary display from territory, level, topic slug and Project/theme metadata. Preserve an existing custom non-Project display in optional `label`; recognise legacy `title` while old definitions remain. A supplied label is an explicit display override, not identity or authority. If metadata cannot resolve, show the id with an unresolved-display indication; never fail identity resolution because a human name is missing. Renaming display metadata changes no id. Legacy label host suffixes require preserving their actual constraint in the existing prose or proposed host field before conversion. Continue emitting compatible `title` in reader projections for display consumers until they migrate. Reports keep meaningful headings and the closing thread line remains bare.
+**Display without mandatory stored title.** Recommend the owner's removal as the destination model. Derive ordinary display from territory, level, topic slug and Project/theme metadata. Preserve an existing custom non-Project display in optional `label`; recognise legacy `title` while old definitions remain. A supplied label is an explicit display override, not identity or authority. If metadata cannot resolve, show the id with an unresolved-display indication; never fail identity resolution because a human name is missing. Renaming display metadata changes no id. Legacy label host suffixes require preserving their actual constraint in the existing prose or proposed host field before conversion. Continue emitting compatible `title` in reader projections for display consumers until they migrate. Reports keep meaningful headings. The proposed final thread line keeps `🧵 <id>` first and appends freshness after the id on that same line; the id remains stable identity. The current bare footer remains unchanged until adoption.
 
 **Routing and theme.** Keep third-person purpose, "Takes ..." and "Not for ..." in the one register-loaded description; use Scope's `In:`/`Out:` when neighbours still overlap. An optional `not_for` could make authoring boundaries clearer, but no reviewed evidence demonstrates improved routing, and description-only readers would miss it. Do not maintain two competing exclusion texts. Any later split would need one source of truth, an automatically combined compatibility projection and the same combined budget. Keep regular as a level/display group, with optional independent theme; do not manufacture a `regular` theme page.
 
@@ -91,30 +91,31 @@ Use wall-clock elapsed time from an evidenced conversation start, including idle
 
 Resume of the same evidenced conversation preserves its epoch. Idle increases elapsed time without increasing volume. An observed compaction keeps the conversation epoch and requires re-anchoring; a count is not evidence of lost understanding. A verified new conversation or full conversation reset starts another epoch; a counter/adapter reset alone starts an observation segment, not a new conversation. A client/model switch preserves totals only with continuity evidence; otherwise mark coverage unknown/new segment. None of these events changes package `created_at`, the work mark or authority.
 
+The owner-requested layout appends freshness information after the work id on the same final thread line, never above a bare id. Current readers that recognise only a bare last-line id require a future parser migration that extracts the stable id separately from appended observations and accepts legacy footers. That compatibility constraint does not alter the proposed layout; current live footers remain unchanged until adoption.
+
 Every signal has provenance, coverage and observation time. Owner-reported start is labelled owner-reported. A stale sample retains its last observation label; a lost clock or counter is unknown, never zero. Proposed display examples use invented observations only; they claim no deployed telemetry:
 
 ```text
-Session 2h10m (owner-reported start) · volume unknown · as of 14:10 GMT
-🧵 personal.reg.rig-sol
+🧵 personal.reg.rig-sol · Session 2h10m (owner-reported start, current session) · volume unknown · as of 14:10 GMT
 ```
 
 ```text
-Session 45m · 38 user/assistant messages (adapter, complete) · as of 14:10 GMT
-🧵 personal.reg.rig-sol
+🧵 personal.reg.rig-sol · Session 45m · 38 user/assistant messages (adapter, complete current session) · as of 14:10 GMT
 ```
 
 ```text
-Session unknown · 12 messages since observation 13:50 GMT · restart check pending
-🧵 personal.reg.rig-sol
+🧵 personal.reg.rig-sol · Session unknown · 12 user/assistant messages since observation 13:50 GMT (adapter, partial) · as of 14:10 GMT
 ```
 
 Recommend volatile counters/observations only for the active session segment. No transcript scraping, content, native identifiers or portable host seat is required. If existing runtime evidence disappears, report unknown. No new persistent store or historical telemetry retention is proposed; persistence, if later justified, needs separate bounded expiry and privacy decisions. Uncertain adapter capability must not block a truthful indicator with unknowns.
 
 ### Restart recommendation
 
-Prefer a fresh session once the existing package contains everything needed to resume. A proposed, reversible reminder heuristic is **four elapsed wall-clock hours or 100 evidenced user/assistant messages**, whichever available signal crosses first; no crossing may be claimed from unknown evidence. These are trial policy values, not proven limits, measured degradation or universal telemetry. Idle alone can trigger the elapsed reminder, which the owner may defer. Without either signal, show unknown and recommend checking resumability at the next natural unit boundary rather than claiming a numerical crossing.
+Recommend **four elapsed wall-clock hours or 100 evidenced user/assistant messages** as provisional design values, with one advisory reminder per current session at the next existing safe resumable boundary (or the current boundary if already safe). A usable, non-stale observation of either signal may qualify independently; unknown or stale evidence cannot establish a new crossing. A qualifying observation makes the reminder pending during active work, without interrupting it. Do not repeat or escalate automatically. Idle counts towards elapsed age, not active reasoning. Partial coverage must remain labelled, never presented as a complete session total. With no usable counters, retain unknown display and user-requested safe continuation without claiming a crossing.
 
-A notice can say "fresh-session check pending" during a tool or run. Actual continuation waits for results and ownership to be reconciled and a verified resumable unit boundary. Use [the current resume lifecycle][resume] and [re-anchoring contract][reanchor]: exact work identity, five package files and open findings, current state/next steps, queries, decisions, queue receipt and outstanding run/write ownership. Never abandon a tool, duplicate a run, seize a contested index, move the mark or restart automatically. This applies existing safe resumability; it designs no package move, drain process or cross-host handover.
+The masked review, `wow-freshness-reminder-blind-20261029` (runtime report, 29 October 2026, 21:00 GMT), independently recommends the same numerical convention: **medium confidence in the reversible workflow policy, low confidence in these particular values over nearby alternatives**. Its independence is bounded to the supplied factual baseline and reporting contracts; it did not inspect this synthesis, earlier reviews or empirical session evidence. Agreement supports fit to the owner's requested reminder, not predictive validity. Neither review nor this synthesis establishes that four hours is better than three or six, or 100 messages better than 80 or 150. Below the values does not mean healthy; above them does not mean degraded. The strongest alternative is truthful signals and voluntary safe continuation without numerical reminders, leaving the requested threshold-triggered element deferred. There is no policy disagreement to conceal, and no empirical safety limit has been validated.
+
+The reminder can say "Workflow reminder: consider a fresh session at this safe continuation point". The owner may continue, including before either cutoff. Actual continuation in a fresh session uses [the current resume lifecycle][resume] and [re-anchoring contract][reanchor]: exact work identity, five package files and open findings, current state/next steps, queries, decisions, queue receipt and outstanding run/write ownership. Wait for results and ownership to be reconciled at a verified resumable unit boundary. Never abandon a tool, duplicate a run, seize a contested index, move the mark or restart automatically. This applies existing safe resumability; it designs no package move, drain process or cross-host handover.
 
 ## Agreement and difference
 
@@ -139,6 +140,8 @@ This is a later plan only: no fixture run, pilot, record creation or schema chan
 
 Fixtures cover missing/conflicting home identity, derived Capital and approved member exception, one default with multiple unit targets, unresolved host/category, legacy and title-free displays, missing/renamed Project/theme metadata, and ambiguous Rig neighbours at register depth. Measure misroutes/clarifications and loaded bytes/tokens against the existing combined description; no performance gain is assumed. Freshness fixtures cover old package/new session, idle, compaction, reset, client switch, stale/partial/unknown observations and pending tool/run/index ownership. Verify the capability of the one selected runtime from its actual events; unsupported signals stay unknown rather than delaying all display work.
 
+Future pilot checks must cover legacy bare and proposed appended final-line footers, extracting stable id independently of observations. They must verify selected-runtime launch-directory resolution after explicit work selection, host and unit authority checks, including explicit overrides and unavailable checkouts. Current reader requirements constrain that future pilot; no schema, title/theme or footer change is adopted here.
+
 Affected readers include Harness closed-field/identity/display validation, coordination naming/report consumers, Tools `workDefinition` and work-status schema/projections, Observatory displays/openers and register-routing consumers. Order later work as dual-reading compatible readers/projections first, then explicitly selected definition conversions, then removal of mandatory stored title. Preserve legacy inputs, custom names, exclusions, authority and existing exceptions throughout. No actual repository binding or machine-local root is supplied by this report. No parallel rollout wave precedes the first pilot's evidence.
 
 ## Decisions
@@ -157,17 +160,17 @@ a) (recommended, confidence high - portable identity and existing authority rema
 
 b) Keep home declarations only in current Scope and omit both new fields; retain the current resolution contract.
 
-### EXECUTION - One default delivery footprint
+### EXECUTION - One default execution context
 
-**Context:** Both reviews prefer plural execution repositories. A list still cannot authorise actual unit targets and requires maintaining a second inventory. The owner proposed singular `execution_home`.
+**Context:** The owner means where work is meant to be running and illustrates the chezmoi repository footprint. Both earlier reviews prefer plural execution hints; neither establishes support in current readers. One declared default can supply a verified launch working directory without replacing canonical package home, explicit unit targets or authority.
 
-**Query:** Keep one optional default, with actual and additional targets declared per unit?
+**Query:** Use one optional execution repository/context as a checked launch default, with explicit unit targets and overrides?
 
 **Options:**
 
-a) (recommended, confidence high - preserves the owner's name and avoids duplicating unit scope) Keep singular `execution_home`, unspecified when absent/null, as one repository hint; every unit declares its authorised targets, including additional repositories.
+a) (recommended, confidence medium - meets the owner's execution intent with lean semantics; launch compatibility remains unproved) Keep singular `execution_home`, unspecified when absent/null, as one default repository/context that can supply a verified launch working directory after explicit work selection, host requirements and unit authority checks. Preserve explicit unit targets and overrides; resolving the directory grants no write authority. Current readers need separately authorised compatibility work; no binding or directory change happens here.
 
-b) Depart to plural `execution_homes` as an optional list of anticipated repositories; units still declare their actual authorised targets.
+b) Defer an execution field and retain explicit per-unit working-directory and target declarations under current readers, leaving the requested package-level launch default undelivered.
 
 ### HOST - Required machine versus session seat
 
@@ -225,24 +228,29 @@ b) Introduce optional text `not_for` as the sole exclusion source when present, 
 
 **Options:**
 
-a) (recommended, confidence high - useful without fabricating counters or adding package state) Use elapsed wall-clock age and user/assistant message volume where evidenced, with coverage, provenance and observation time; preserve the epoch/reset rules above, unknown/stale labels and no new persistent telemetry store.
+a) (recommended, confidence high - useful without fabricating counters or adding package state) Append evidenced elapsed wall-clock age and user/assistant message volume after `🧵 <id>` on the same final thread line, with coverage, provenance and observation time; preserve stable identity, epoch/reset rules, unknown/stale labels and no new persistent telemetry store. Keep the current footer unchanged until adoption and compatible reader migration.
 
 b) Show only a qualitative resumability reminder until one client can evidence both full-session age and volume; keep numerical freshness display deferred.
 
 ### RESTART - Advisory policy and safe continuation
 
-**Context:** Neither review establishes a universal threshold. Waiting for perfect telemetry would delay a useful reminder; automatic restart could abandon work. Existing package pick-up already defines resumability.
+**Context:** The owner requested threshold-triggered advice. The masked review independently supports the same reversible four-hour/100-message convention with medium confidence in workflow fit and low confidence in the particular values. No evidence validates degradation prediction or numerical superiority. Existing pick-up defines safe continuation.
 
-**Query:** Approve the reversible four-hour/100-message reminder policy as a proposed pilot heuristic?
+**Query:** For the design only, use four elapsed hours or 100 evidenced user/assistant messages as the provisional reminder cutoff?
 
 **Options:**
 
-a) (recommended, confidence medium - actionable trial values, with no evidence they predict degradation) Propose a pending reminder at four elapsed hours or 100 evidenced user/assistant messages; unknown signals cannot cross a threshold. Continue only at the existing verified resumable boundary, never automatically; with no counters, check there qualitatively. Separate authority is required to run the pilot.
+a) (recommended, confidence medium in workflow fit; low in the particular numbers - fulfils the requested reminder through an explicitly unvalidated, reversible convention) Use four elapsed hours or 100 evidenced user/assistant messages, with a qualifying usable observation making one reminder pending per current session for the next existing safe resumable boundary. Unknown/stale evidence cannot establish a crossing; label partial coverage. The owner may continue and may request safe continuation earlier. No automatic restart, repeat or escalation; no implementation, pilot or study authority follows.
 
-b) Use the same truthful display and safe-boundary recommendation without numerical reminders; let the owner request a fresh session or choose a heuristic later.
+b) Retain truthful signals and user-requested safe continuation without numerical reminders, explicitly deferring the requested threshold-triggered element.
+
+c) Choose different provisional numerical values as an owner workflow preference, with the same advisory and evidence constraints and no degradation claim.
 
 ## Changes after review
 
+- Post-review execution correction restores the owner's meaning: one declared repository/context where work is meant to be running, illustrated by the chezmoi footprint, can supply a verified launch working directory after explicit selection, host and unit authority checks. Explicit targets/overrides remain; no write authority, live binding or directory change follows. Current reader limits constrain a future pilot rather than weakening the proposed meaning.
+- Post-review footer fidelity correction sweeps model, examples, SIGNAL and migration: freshness follows the stable id on the same final thread line, with honest provenance/coverage/unknowns. The current bare-last-line parser is a future migration constraint, not grounds for placing the indicator above the id. Current live footers remain unchanged until adoption.
+- Post-review masked policy report `wow-freshness-reminder-blind-20261029` (29 October, 21:00 GMT) independently favours the same four-hour/100-message convention: medium confidence in reversible workflow fit, low in numerical preference, no predictive validation. No policy disagreement is suppressed. RESTART now asks only for design values, with one reminder per session at an existing safe boundary, explicit alternatives and no bundled pilot authority.
 - Freshness review clarified accepted null creation time and the parser's warning-only description budget; both are now explicit.
 - Both reviews' evidence preserved authority/defaults, independent theme, existing exclusions and unknown telemetry; their differing point-5 marks were reconciled by semantic content and primary sources.
 - Both reviews favoured plural execution hints; this synthesis keeps the owner's singular field as a default, with per-unit scope doing the remaining work.
