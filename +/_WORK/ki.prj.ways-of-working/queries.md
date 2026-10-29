@@ -107,3 +107,92 @@ b) Retain the diagram-only publication boundary and the current finder/parser co
 a) (recommended, confidence high - establishes the exact intended audience before any irreversible history work) Review the identified set privately, select material needing protection and prepare bounded containment options; make no access or history change without a separate instruction.
 
 b) Confirm that all 122 report copies are intended public material and retain the current history.
+
+### HOST-SYNC - Settle the two-host synchronisation design
+
+since 2026-10-28; parked until owner design discussion, source HOST-SYNC and HOST-SYNC-REPLY.
+
+**Context:** Full received owner words, stopped-sync context, unresolved primary/secondary publication sequence and both Rig reply destinations are in [the live unadopted design](design/host-sync-and-reply-trades.md). Existing seat policy does not select concurrency, timing or a scheduler.
+
+**Query:** Which primary/secondary publication sequence and offset should the equivalent Rig work use, including how primary hosts consume secondary updates?
+
+**Options:**
+
+a) (recommended, confidence medium - preserves the full request without inventing concurrency or scheduling authority) Discuss and settle the existing design choices, then send one bounded rollout line to each Rig queue; Rig and chezmoi own execution.
+
+b) Keep the design parked and leave existing host operations to their owners; no new scheduler or host action is authorised here.
+
+### STREAM9-SHA - Define the bare SHA-256 boundary
+
+since 2026-10-28; parked pending owner boundary, source STREAM9-SHA and the masked source review.
+
+**Context:** A bare hexadecimal SHA-256 can collide with an otherwise valid work identifier. The source review did not establish a high-confidence grammar-wide exemption. Filename and source-linked work references must retain precedence. No classifier change was delivered and no HNR source was inspected.
+
+**Query:** What context should distinguish a bare checksum from a work identifier without suppressing a genuine identifier?
+
+**Options:**
+
+a) (recommended, confidence high - retains the existing hard boundary until the ambiguous case is defined) Keep the classifier change held; qualify a context-specific rule and negative examples before implementation.
+
+b) Bring the exact bare-identifier ambiguity to an owner design decision before qualifying a patch; no general hexadecimal exemption is selected.
+
+### GATE-BASELINE-COMPARATOR - Define inherited-finding equivalence
+
+since 2026-10-28; parked until a source-grounded comparison can be reviewed, source GATE-BASELINE-PREFLIGHT.
+
+**Context:** The routed approval asks that inherited origin/main findings be distinguished from regressions. The current preflight hard stops still apply; an exact baseline comparator, its identity/provenance and refusal cases have not been settled. A prose clarification cannot silently waive all existing WARN/FAIL findings. The sibling-worktree half already belongs to Tools under GATE-BASELINE-SIBLING.
+
+**Query:** What exact evidence establishes that a finding is unchanged from the declared baseline, while preserving hard stops for new, changed or uncomparable findings?
+
+**Options:**
+
+a) (recommended, confidence high - preserves the approved goal without weakening an undefined guard) Retain current hard stops until the narrow comparator and refusal evidence are qualified; keep this a held method need.
+
+b) Revisit the approved approach with the owner before defining comparator semantics. No baseline-wide exemption is adopted.
+
+### THREAD-DEFAULTS - Select a session and its default work home
+
+since 2026-10-28; parked until session/default selection is decided, sources THREAD-HOME and HOOK-SHORTCUT.
+
+**Context:** Typed readers and member-launched coordination support are delivered. The new unknown-session hook partial emits a short conditional pointer and avoids checkout-wide scans; it does not discover the selected session. Default selection for member-local status, a Capital package and multiple candidates remains undecided. No session marker, schema or automatic work opening is authorised.
+
+**Query:** How should a session explicitly select its one work and determine the default status/home context without assuming the launch checkout is the package home?
+
+**Options:**
+
+a) (recommended, confidence high - keeps delivered launch support usable while retaining explicit selection) Preserve explicit work selection and the quiet-hook partial; design the remaining default/session boundary separately.
+
+b) Have the owner choose the intended default-selection contract before qualifying another implementation unit.
+
+### LINK-EXTERNAL - Decide the external linked-target boundary
+
+since 2026-10-28; parked until owner boundary decision, source THREAD-HOME/LINK-CHECKER.
+
+**Context:** Shared LINK-1 now follows contained linked directories and contained absolute filesystem paths, with outside-byte/refusal checks. Targets outside the selected root are still excluded. This does not clear the reported HNR sibling-tree findings; no HNR source was inspected or changed.
+
+**Query:** Should a future resolver follow a separately declared external target, and under what explicit source-access and containment contract?
+
+**Options:**
+
+a) (recommended, confidence high - preserves the tested containment boundary and confidential-source guard) Keep external targets held and the contained partial unchanged until the access contract is decided.
+
+b) Ask the owner to define a bounded external-target model before any source discovery, traversal or implementation.
+
+### PUSH-RETRY - Decide whether any bounded retry is wanted
+
+since 2026-10-28; parked pending method choice, source Personal Rig terra PUSH-RETRY.
+
+**Context:** The sender proposes up to five retries for a queue append losing a push race. Current coordination/delegation/Git rules distinguish an uncontested remote append from actual divergence, peer-owned history, contested staging or content conflict. No blind replay or retry policy has been adopted. The existing private qualification preserves the two routes and their source sections.
+
+**Query:** Should the method retain the current bounded conflict-run route or design a narrowly qualified retry for uncontested append races?
+
+**Options:**
+
+a) (recommended, confidence high - uses the existing supported route and preserves every ownership/refusal guard) Retain the current stop-and-bounded-conflict-run method; make no retry policy change now.
+
+b) Qualify a bounded own-content-only retry for disjoint append races before adoption; the sender's five-attempt count remains a proposal and cannot override divergence, privacy or narrower push rules.
+
+- PROTECTED-PUBLICATION - the current unpublished Principal stack has two protected report blob versions in the existing private safe-sync inventory. Owning Observatory has an IMPORTANT disposition request before any push; preserve peer work/history and infer no publication certification. This remains separate from the earlier remotely exposed report-history audience query.
+- MD-STANDARD-REMAINDER - local writer/exclusion and staged-gate evidence is independently accepted Done in CLI-175; the HNR hook-bypass cause, global historical cleanliness and other-host/provider freshness are still unproved. HNR source/access remains excluded; no estate audit is commissioned. Revisit only under the owning source/access authority.
+- ENACTMENT-ADMIN - the 20 October tiered/Admin-only gate-narrowing choice remains unmade; retain the current gate. Full original decision is retained in decisions.md.
+- PROXY-SHAPER - Kris deferred this on 25 October; no proxy or chezmoi change. Full original owner words remain in decisions.md; revisit only when taken up.
