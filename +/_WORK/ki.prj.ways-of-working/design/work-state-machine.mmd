@@ -1,0 +1,42 @@
+---
+title: Work state machine (sketch)
+config:
+  look: neo
+  theme: neutral
+---
+stateDiagram-v2
+  direction LR
+  [*] --> Bootstrap : open
+  Bootstrap --> Working : ready
+
+  state Working {
+    direction LR
+    state entry <<choice>>
+    [*] --> entry
+    entry --> WithWorker : pick up (work clearly defined)
+    entry --> WithSupervisor : refine (needs more clarity)
+    WithWorker --> HandoffToSupervisor : inform
+    HandoffToSupervisor --> WithSupervisor : receive
+    WithSupervisor --> HandoffToWorker : direct
+    HandoffToWorker --> WithWorker : receive
+    WithWorker --> [*] : conclude
+    WithSupervisor --> [*] : conclude
+  }
+
+  Working --> AtRest : stop (drain, portable)
+  AtRest --> Bootstrap : resume
+  AtRest --> Finished : finish
+  Finished --> [*]
+
+  WithWorker : With worker
+  WithSupervisor : With supervisor
+  HandoffToSupervisor : Handoff to supervisor
+  HandoffToWorker : Handoff to worker
+  AtRest : At rest
+  note right of AtRest
+    reason: holding, waiting or moving
+    portable - deleting the checkout loses nothing
+  end note
+
+  classDef transitional fill:#f4f4f4,stroke:#999,stroke-dasharray: 4 3,color:#555
+  class HandoffToSupervisor, HandoffToWorker transitional

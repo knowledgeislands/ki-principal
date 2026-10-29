@@ -736,3 +736,15 @@ Read-back: three roles. Supervisor - Kris, the human in the loop. Worker - a sub
 ## ROLES-EITHER - 2026-10-29
 
 Kris: "One thing that's clear is that any of those roles can be done by AI or the human. but the preference is as you state..." Read-back: supervisor, worker and orchestrator are roles, not kinds of actor; any can be AI or human. Preferred: supervisor human, worker a subagent, orchestrator the thread agent.
+
+## WORKING-EXIT - 2026-10-29
+
+Kris: "there's a terminal state inside working as well as the initial pseudo state, and it's that one which then sends the stop drain portable and transitions from the work terminal state to at rest. And that can happen in reality with worker or with supervisor also. In many ways, the handoff to worker and the handoff to supervisor are intermediary or transitionary states."
+
+Read-back: Working gets a final state, End (work), reachable from With worker and from With supervisor; leaving Working through End (work) is the `stop` transition (drain, portable) to At rest. Handoff to worker and Handoff to supervisor are transitional states between the two stable ones, drawn as such.
+
+## DIAGRAM-TOOLS - 2026-10-29
+
+Kris: "that should all be sent into the authoring and diagramming skills, so that we can make the best use of them. Some of them are more than just diagramming ... Typst is definitely more about authoring and is possibly an alternative to Markdown. But right now, Markdown is what we use. ... I really like Archify. Stately might be pretty decent ... the C4 ones, they're really good ... I love Isoflow as well ... we should probably end up coming up with things that are our own diagramming tools as part of knowledge islands ... infoschematics is a Knowledge Islands tool ... the SaaS ones can inform what we're doing. We can always reverse engineer aspects that we like ... Mermaid ... looks like it has massively improved its rendering recently ... it does a good Sankey diagram ... we shouldn't rule out using D3 directly ... we talk about all the different kinds of diagrams and then ... rank all of these different tools as candidates for those ... in a preference order." Then: "perhaps it's okay to do this using mermaid just to get some quick output ... iterate with a simplified output and then beautify that with another one."
+
+Read-back: (1) route to `ki-diagrams` and `ki-authoring` owners: a per-diagram-kind preference ranking of tools (Archify, Stately/XState, LikeC4, Isoflow/FossFLOW, Mermaid re-evaluated on current rendering incl. Sankey and state, D2/TALA, D3 directly, Typst/fletcher, TikZ; SaaS tools as inspiration only), Typst noted as an authoring alternative while Markdown stays, and infoschematics as KI's own diagramming tool to grow; (2) adopted here: sketch in Mermaid to iterate, then beautify in Archify once the shape settles. Supersedes STATECHART-TOOL's framing; ARC-CONDITIONS rides on the beautify step.
