@@ -155,3 +155,23 @@ since 2026-10-14 · from sol-build.report.md in the run state folder's `archive/
 a) (recommended) fold it into the "Local mode for KI tools on the Macs" chezmoi work (LOCAL-RECORD): update the source for the `ki-pmo-design` rename, and review `chezmoi diff` on sol before any apply.
 
 b) separate fix - <notes>
+
+### C56-TICK - Tick C5 and C6 in the record
+
+since 2026-10-15 · from [ue086-walk](ue086-walk.report.md) · parked 2026-10-29 at the baseline finish; release: when Kris resumes the Mac Studio walk
+
+**Context:** this run was asked to tick only the steps it walked. C5 (Google Drive through the `google-drive` cask) and C6 (Home Assistant from the App Store, 1099568401) are verified done on `sol`, with Rig reporting both present, but they are still unticked in [PERSONAL-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-086-finish-software-alignment.md).
+
+**Query:** may an agent tick them?
+
+**Options:** a) (recommended) an agent ticks C5 and C6 with today's evidence and commits only the record, locally; b) leave them until the full C9 check.
+
+### C8-WORDING - C8 still expects Keynote, Numbers and Pages "present"
+
+since 2026-10-15 · from [ue086-walk](ue086-walk.report.md) · parked 2026-10-29 at the baseline finish; release: when Kris resumes the Mac Studio walk
+
+**Context:** step A8 deliberately left Keynote, Numbers and Pages catalogue-only, because `mas info` cannot resolve their App Store numbers. Rig therefore shows them as catalogue-only, never as present, so C8 as written can never pass. DaVinci Resolve is present through `mas`, with no route variant.
+
+**Query:** should C8 be reworded to match A8?
+
+**Options:** a) (recommended) an agent rewords C8 to expect Keynote, Numbers and Pages as catalogue-only and DaVinci Resolve as present, keeps the Adobe check that follows C7i, and commits only the record, locally; b) leave C8 as written and judge it by hand at C9.
