@@ -752,3 +752,7 @@ Read-back: (1) route to `ki-diagrams` and `ki-authoring` owners: a per-diagram-k
 ## MACHINE-HOME - 2026-10-29
 
 Kris: "Agree about the 2 skills working together." Read-back: `ki-work-package` owns the work state machine - states, transitions, pre- and postconditions - and the purpose-folder layout; `ki-coordination` owns the orchestrator's behaviour around it (reports, banners, delegation) and the drain and portability checks on stop; the Work Process note carries the picture and plain-language model.
+
+## MOVE-READY-GOAL - 2026-10-29
+
+Kris: "Remember, my goal here is to get the ways of working sufficiently defined that I can pass that off to some existing threads, so that they know how to get themselves to a position of hold, so that we can then do the host moving." Read-back: the next deliverable is a self-contained stop-for-host-move procedure any live thread can follow under today's standard, sent to live works as message lines; the full state-machine rollout follows separately.
