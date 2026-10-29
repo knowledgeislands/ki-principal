@@ -6,11 +6,11 @@
 
 **Context:** [KI-TOOL-MGIT-CLI-032](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-032-chain-command.md), "Chain Git commands", was delivered on 28 October under MGIT-CHAIN and is Awaiting review: `mgit chain ... --then ...`, stop-at-first-failure per repository, recipes via `git config mgit.chain.<name>` and as top-level `mgit <name>`, docs and spec MGIT-WS-028; 151 of 151 bats tests pass. One pre-existing audit failure (SHELL-HOOK on `.githooks/pre-commit`) is untouched. No release cut.
 
-**Query:** Review and accept it now, after CHAIN-QUIET and CHAIN-START are settled?
+**Query:** Review and accept it now, after CHAIN-QUIET, CHAIN-START-ENTER and CHAIN-START-FIRST are settled?
 
 **Options:**
 
-a) (recommended, confidence high - ACCEPT-BUNDLE, and the two output questions may change it first) Settle CHAIN-QUIET and CHAIN-START, then review it through `ki-accept`.
+a) (recommended, confidence high - ACCEPT-BUNDLE, and the two output questions may change it first) Settle CHAIN-QUIET, CHAIN-START-ENTER and CHAIN-START-FIRST, then review it through `ki-accept`.
 
 b) Leave it awaiting review.
 
@@ -26,17 +26,29 @@ a) (recommended, confidence high - reviewed: the blind reviewer chose it indepen
 
 b) Keep the current output, with every repository shown.
 
-### CHAIN-START - Meaning of "failed to start"
+### CHAIN-START-ENTER - A checkout that cannot be entered
 
-**Context:** The tally has three outcomes. I read "failed to start" as a repository where no step completed: the first step failed or the checkout could not be entered. "Stopped" is a repository where a later step failed after at least one completed. The three counts therefore always add up to the number of repositories. The record's Discussion section records this reading, and the tests depend on it.
+**Context:** The `mgit chain` tally has three outcomes, "failed to start", "stopped" and completed, and the three counts always add up to the number of repositories. The build and the blind reviewer agree that a repository whose checkout could not be entered has failed to start. This is the agreed half of the former CHAIN-START, split out under the method's rule that a query still below high after review is split into parts.
 
-**Query:** Is that the meaning you intended for "failed to start" and "stopped"?
+**Query:** Should a checkout that cannot be entered count as "failed to start"?
 
 **Options:**
 
-a) (recommended, confidence medium - reviewed, views differ: the blind reviewer chose it at high confidence because a first Git step that ran and failed has started and may already have changed things; the build run preferred b)) Narrow "failed to start" to a repository whose checkout could not be entered; a first step that ran and failed counts as "stopped". The record's Discussion and the tests change to match.
+a) (recommended, confidence high - reviewed: the build and the blind reviewer agree) Yes, as built.
 
-b) Keep it as built: "failed to start" means no step completed, because a failing first step is the common case worth singling out.
+b) Count it as "stopped" instead.
+
+### CHAIN-START-FIRST - A first step that runs and fails
+
+**Context:** This is the disputed half of the former CHAIN-START. As built, a repository whose first step ran and failed counts as "failed to start", alongside a checkout that could not be entered. "Stopped" is a repository where a later step failed after at least one step completed. The record's Discussion section and the tests follow the build's reading.
+
+**Query:** Should a first step that runs and fails count as "stopped" rather than "failed to start"?
+
+**Options:**
+
+a) (recommended, confidence medium - reviewed, views differ: the blind reviewer chose it at high confidence because a Git step that ran has started and may already have changed things; the build run preferred b)) Yes: count it as "stopped", and change the record's Discussion and the tests to match.
+
+b) Keep it as built: count it as "failed to start", because a failing first step is the common case worth singling out.
 
 ### MAIL-ASKS - four mail-engine asks waiting for an owner
 
