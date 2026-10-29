@@ -19,7 +19,7 @@ method_read: 07b9333a
 
 ## Next steps
 
-1. Receive wow-sm-polish; settle the design note's Decisions for Kris and ARC-CONDITIONS, blind-reviewing medium and low ones first; decide MACHINE-HOME.
+1. Receive wow-sm-polish; settle the design note's Decisions for Kris and ARC-CONDITIONS, blind-reviewing medium and low ones first; MACHINE-HOME decided.
 2. Roll the machine out as message lines: Work Process note (Enactment), `ki-work-package` (states, transitions, conditions, WORK-FOLDER-PURPOSE layout), `ki-coordination` (orchestrator behaviour, DRAIN-MEANS portability on stop), tools-ki (`ki agent` reports into `reports/`, `ki work status` values).
 3. Relaunch wow-host-sync-design and wow-finish-line from briefs/; then HOST-SYNC rollout lines to personal.reg.rig-terra and personal.reg.rig-sol.
 4. From the finish-line plan: MOD-011 reconciliation from published sources; hand-offs through KI State of play; move or prune the 86 root reports (FOLDER-MIGRATE).
