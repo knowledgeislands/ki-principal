@@ -114,6 +114,18 @@ b) Move it into chezmoi as a personal maintenance script.
 
 c) Delete it and leave the Adobe clean-up to an at-screen session, relying on Git history.
 
+### WINDOW-SCOPE - Plan four chezmoi drafts to Ready next
+
+**Context:** During your away window of 29 October, the window-plan run found no Ready record anywhere. Every adopted Now or Next draft in a work not on hold sits outside ki-principal, which the window excludes, so the window delivered no records. Four small drafts in the chezmoi source could be planned to Ready, which edits only their record files and changes no machine: [PERSONAL-DOTFILES-UE-096](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-096-thread-identity-hook-registration.md), [PERSONAL-DOTFILES-UE-099](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-099-resource-subject-links-and-service-.md) (waits on a released Rig), [PERSONAL-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-105-bring-sol-level-with-terra.md) (at-screen work on sol) and [PERSONAL-DOTFILES-UE-106](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-106-apply-tower-assistant-at-applicatio.md). Every apply still needs your review of `chezmoi diff`. The window was kept as granted: the run leaned towards widening it for planning, and the blind review held that a coordinator cannot widen a written grant without you.
+
+**Query:** Should State of play plan those four chezmoi drafts to Ready now, in two waves (UE-096, UE-099 and UE-106, then UE-105), with no apply and no delivery?
+
+**Options:**
+
+a) (recommended, confidence medium - planning changes no machine and clears the only eligible queue, but UE-099 and UE-105 may stall on their dependencies, and ki.prj.chezmoi has four open queries of its own) Yes: plan all four in the two waves.
+
+b) Leave them for ki.prj.chezmoi's own queries when it is next picked up.
+
 ## Parked
 
 ### ACCEPT-CHEZMOI - accept the chezmoi latest-source record
