@@ -6,7 +6,7 @@ Kris is moving from terra to sol. Each coordinating thread follows this page to 
 
 The work is stopped only when deleting the local checkout would lose nothing. In Kris's words: "there's no longer anything which is specific to a machine that might get lost if I was to delete the repository". Everything the work needs must be committed and pushed to origin, in every repository the work or its runs touched.
 
-This message is Kris's `pause` for your work, whatever its current state.
+The stop prompt below is Kris's `pause` for your work, whatever its current state.
 
 ## Steps, in order
 
@@ -40,44 +40,61 @@ Another session's uncommitted file or commit is named in the report and never to
 2. Open the thread with: `Re-bootstrap as <id> under ki-coordination.`
 3. The coordinator moves the parked queries back to `## Open` and starts from `state.md`'s next steps.
 
-## The message to send
+Project and regular work stops before its territory's State of play (`*.sop.*`), which stops last in its territory, as the standard's territory hold sets.
 
-One line, added to the top of each live work's `messages.md`, with `<id>` and the label filled in:
+## Prompts for threads
 
-```markdown
-- IMPORTANT · 2026-10-29 · HOST-MOVE · KI > Model > Ways of working (ki.prj.ways-of-working): Kris is moving hosts from terra to sol. Stop this work for the move now by following [Stop for a host move](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/stop-for-host-move.md): drain, run the eight portability checks, park queries, set `state: on-hold` with `hold.reason: moving to sol` and `hold.release: resume on sol`, commit `docs(work): <id> hold, paused`, push and give the hold report; if any check fails, report NOT DRAINED and leave everything in place. On sol: fetch, level check, then `Re-bootstrap as <id> under ki-coordination.`
+Kris gives these to threads himself; nothing is broadcast. Each is self-contained.
+
+### Structure
+
+```text
+The work now follows a work state machine. Read it: /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/work-state-machine.md
+
+Start (wp) -open-> Bootstrap -ready-> Working.
+Working: from Start (work), pick up when the work is clearly defined, or refine
+it when it needs clarity; then cycle inform, receive, direct, receive; conclude
+to End (work).
+From End (work): -stop- (drain, portable) -> At rest (holding, waiting or moving),
+and from At rest -resume-> Bootstrap; or -finish-> Finished.
+
+Roles: supervisor, worker and orchestrator. Any AI or human can hold any role.
+
+Today's `state.md` values map onto it:
+- with-worker, handoff-to-supervisor, with-supervisor, handoff-to-worker: inside Working.
+- handoff: At rest, waiting.
+- on-hold: At rest, holding or moving.
+- finished: Finished.
+
+The stop arc and its postconditions for a host move are in:
+/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/stop-for-host-move.md
+
+Keep working under ki-coordination as before; read both notes, then carry on.
 ```
 
-## Live works to receive it
+### Stop for the move
 
-Every `+/_WORK/*/state.md` under `/Users/krisbrown/workspaces/` not on hold or finished, as of 29 October 2026, 22:25 GMT:
+```text
+Stop this work for the host move to sol: conclude, then take `stop` to At rest,
+reason moving, following /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/stop-for-host-move.md
 
-| Work id | Repository | State |
-| --- | --- | --- |
-| hnr.prj.5g-emerge-p2ms3 | hnr-principal | handoff-to-supervisor |
-| hnr.prj.5g-emerge-phase2 | hnr-principal | handoff |
-| hnr.prj.5g-emerge-phase3 | hnr-principal | with-worker |
-| hnr.prj.developer-experience-and-build-pipelines | hnr-principal | handoff-to-supervisor |
-| hnr.prj.m365-tenant | hnr-principal | with-worker |
-| hnr.prj.product-management | hnr-principal | handoff-to-supervisor |
-| hnr.prj.site-eit | hnr-principal | with-supervisor |
-| hnr.prj.site-hr | hnr-principal | handoff-to-supervisor |
-| hnr.prj.site-pt | hnr-principal | handoff-to-supervisor |
-| hnr.reg.email-routing | hnr-principal | with-worker |
-| hnr.sop.5ge | hnr-principal | handoff-to-supervisor |
-| hnr.sop.main | hnr-principal | handoff-to-supervisor |
-| hnr.sop.sites | hnr-principal | with-worker |
-| ki.prj.chezmoi | ki-principal | handoff-to-supervisor |
-| ki.prj.observatory | ki-principal | with-supervisor |
-| ki.prj.ways-of-working | ki-principal | handoff-to-supervisor (the sender; stops last) |
-| ki.sop.main | ki-principal | with-supervisor |
-| personal.reg.acquire-intake | personal/acquire | handoff-to-supervisor |
-| personal.reg.email-routing | personal-principal | with-supervisor |
-| personal.reg.rig-sol | personal-principal | with-supervisor |
-| personal.reg.rig-terra | personal-principal | handoff-to-supervisor |
-| personal.reg.rig | personal-principal | handoff-to-supervisor |
-| personal.reg.tower | personal-principal | with-supervisor |
-| personal.sop.main | personal-principal | with-supervisor |
-| va.sop.main | va-principal | with-supervisor |
+Prove every postcondition, in every repository the work touched:
+- Nothing only local: no uncommitted change, no unpushed commit, no unpushed
+  branch; merge or push each.
+- Run worktrees removed once spent; `git fetch --prune` run.
+- No stash and no local-only ref holding the work's content.
+- Every open PR recorded in `state.md`.
+- Runtime-only run reports homed in the package or their outcome homed.
+- Work package files tidied: content in its purpose folders, spent reports
+  and briefs pruned.
+- Open queries parked under `## Parked` in `queries.md`.
+- `state.md` set to `state: on-hold`, `hold.reason: moving to sol`,
+  `hold.release: resume on sol`; committed by explicit path and pushed
+  fast-forward only.
+Name another session's files in the report; never touch them.
+If any check fails or cannot run, stay put and report NOT DRAINED with the
+blocker. Otherwise give the hold report.
 
-Project and regular work stops before its territory's State of play (`*.sop.*`), which stops last in its territory, as the standard's territory hold sets.
+On sol: fetch, check each repository is level with origin, then:
+Re-bootstrap as <id> under ki-coordination.
+```
