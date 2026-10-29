@@ -24,7 +24,7 @@ method_read: afb126f2
 
 1. Kris answers the nine open queries in `queries.md`; act on each answer as taken.
 2. Before the next launch, read coordination and delegation at 07b9333a and record `method_read` (REFRESH line kept in `messages.md`).
-3. Nothing running, queued or scheduled.
+3. Nothing running, queued or scheduled. hnr-principal holds unpublished commit 49416765 (HNR-PUSH).
 
 ## Held
 

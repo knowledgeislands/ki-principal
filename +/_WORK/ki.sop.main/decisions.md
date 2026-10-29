@@ -132,3 +132,4 @@
 - REFRESH 07b9333a (IMPORTANT): retained in the queue, as it applies "before next launch" and DRAIN starts nothing new.
 - SCHEDULED-REPORT-RECEIPT: forwarded once to hnr.reg.email-routing on the existing route.
 - MJS-DELIVERED: forwarded to hnr.sop.sites as the reply to DEPCRUISE-MJS.
+- HNR forward not published: hnr-principal is 34 behind with a conflicting merge, so commit 49416765 stays local; HNR-PUSH asks Kris for one resolve run, as DRAIN starts nothing new.
