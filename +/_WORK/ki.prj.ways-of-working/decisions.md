@@ -712,3 +712,11 @@ Documentation sync preserved both parents and Terra direction in published merge
 ## Reviewed design sent to owner - 2026-10-29T21:15:22Z
 
 Final bounded documentation consolidation is received and its result is reachable on main and origin/main at b310babd1802d3ab214e29a1fcc848354d54d016; both the definition/freshness design and separately published state-machine artefacts are preserved. All this thread's eight design/review/publication runs finished and are received. No source-wide build/deployment checks or implementation were added. Current move is handoff-to-supervisor with the existing 16:18:42Z mark unchanged. Eight Open choices remain proposed, and three Terra portability questions stay parked pending the owner's update. No claim of remote-session quiescence, global drain or completed private archive disposition is made.
+
+## WORK-CYCLE-ENDS - 2026-10-29
+
+Kris: "and yes, there is a start and end node too. the initial pseudo state is: "start" ---[open]-> "bootstrap" and the terminal state is already "finished" and "working" is a compound state effectively". Read-back: an initial pseudo-state Start with `open` into Bootstrap; Finished is the terminal state; the compound state is named Working.
+
+## DIAGRAM-FEEDBACK - 2026-10-29
+
+Kris: "would be good if there was a way to annotate the diagram.. so I could give feedback directly". Read-back: a need, not built here; sent to ki.prj.observatory, which owns owner feedback, as a message line. Meanwhile Kris can mark up a PNG or screenshot that the coordinator reads.
