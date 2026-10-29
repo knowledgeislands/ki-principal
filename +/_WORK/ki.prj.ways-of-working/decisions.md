@@ -656,3 +656,35 @@ Terra handover received during preparation: HOST-SYNC-DESIGN and RECOMMENDED-ALL
 ## Frozen brief received; independent reviews launched - 2026-10-29T20:41:40Z
 
 The [package-definition and freshness brief](design/package-definition-freshness-brief.md), exact-path commit 9fef9813f327b2c09f6cd4f752d3dc2149f7b8bf, is received. Current title readers, optional theme, existing description exclusions, Capital/member exceptions and canonical registry identity are established facts; all new schema/metric choices remain proposals. Two independent read-only source reviews use the same frozen brief without reading each other: wow-package-definition-review-a-20261029 (portable definition/routing, gpt-6.1-sol high) and wow-package-definition-review-b-20261029 (session evidence/freshness, gpt-6-astra high). They write only their own design review artefacts and use normal explicit-path commits; no implementation or push is delegated.
+
+## DRAIN-MEANS - 2026-10-29
+
+Kris: "When we talk about draining, that must include also getting the work package to be stable, as well, which means reviewing it to make sure everything's tidied up and also committed, right? Includes any PRs, any work trees, everything. It means that there's no longer anything which is specific to a machine that might get lost if I was to delete the repository."
+
+Read-back: a drain is not DRAINED until the work package is reviewed and tidied, everything is committed and pushed, and no run worktree, branch, PR, stash, local ref or run-only report holds anything that exists on one machine alone. Kris added: "It also means, for example, doing any branch resolution, making sure that we've done a prune of origin ones which are no longer there. It means making sure that any branches are folded in. Or, if not, they need to be pushed to the origin, right?" So a drain also prunes stale remote-tracking branches and leaves every branch either merged into `main` or pushed to origin. Applied now to the terra drain through run wow-drain-tidy; the method change to `ki-coordination`'s drain and hold wording is this Project's work, queued for sol.
+
+## WORK-FOLDER-PURPOSE - 2026-10-29
+
+Kris: "I agree that a work package lives where it lives, and then it's got these 5 key files. I think what I see in other places as well is that there are things like reports files that are alongside these, they should always be in a folder. So anything else that we create under that structure must be in a folder based on what its purpose is. And we need to have that covered in the standard as well."
+
+Read-back: the package root holds only the five files; reports, briefs, design notes, findings and anything else live in purpose-named folders; the `ki-work-package` standard must say so. Shaped in the WORK-STATE-MACHINE design before any migration.
+
+## WORK-STATE-MACHINE - 2026-10-29
+
+Kris: "drain isn't the state, but it should be what we're doing to target or move to a particular state. So I think what we need is not only the state, but we also need the things that transition between them and what those things are called. So really we need a proper finite state machine that covers off this properly. And what we expect as conditions of doing those transitions. I think then we need to understand where something goes when it's in handoff to a target, whether it's on hold or finished. And then I think we're also missing some kind of bootstrap state. And you can get to that by re-bootstrapping, and bootstrapping can then transition to with worker or with supervisor as a result of it ... Can you draw that as a state machine with the different states and the arcs that things can take, and then underneath that diagram, can we then also define things about both the states and the arcs in terms of how we get there? And can you use something like ArchiFi to do that and display the SVG".
+
+Read-back: design under `ki-work-design` a finite state machine for work - the seven states plus Bootstrap, every named transition with its trigger and entry conditions, where Handoff to target resolves, and procedures such as drain attached to transitions - as an Archify diagram with SVG and a definitions note beneath it. HOLD-PORTABLE folds into this design.
+
+## Terra tidy receipt - 29 October 2026
+
+wow-drain-tidy verified origin/main contains a72fe115, removed the clean wow-sync-terra worktree with only disposable dependency/linter caches and skill links, deleted its branch using -d, and pruned stale origin/worktree metadata. No local work branch or stash remains; unrelated recovery refs were left intact.
+
+The two earlier naming briefs are received under the Three-letter reg and Own package reorientation receipts. The wow-rig-remainder report has its complete outcome under Quick wins and reserved follow-through and its full query parked as RIG-ATTENDED. Those three exact published blobs are selected for tidy; all other older reports/design assets retain existing graduation/home guards. The current state-machine brief is another session's new work and is preserved.
+
+NOT DRAINED: two runtime report copies lack exact origin/main blobs; PR state is unknown under the provider-call ban; the publication recovery ref/archive/private-proof runtime named above are absent on terra. No private payload was copied to Git. The runtime wow-drain-tidy report carries the exact inventory and the new TERRA queries identify the remaining decisions. A concurrent package commit was preserved and revalidated before this receipt.
+
+## TRANSITION-CONDITIONS - 2026-10-29
+
+Kris: "I think for a transition as well, we can have pre-state and post-state conditions, or pre-conditions and post-conditions, maybe is what I mean. So things that might have to be the case before you can move down the arc. The arc does work, and then the post-conditions are what must be achieved at the end of it. So for example, for something to move to on hold, it must have no local working copy, no local changes in its working copy, right? Everything must be pushed into a durable place on the origin. So effectively the idea would be if you deleted the local repository, you've lost nothing."
+
+Read-back: every transition in the WORK-STATE-MACHINE design states its preconditions (must hold before the arc starts), the work the arc does, and its postconditions (must hold when it ends). Into On hold the postcondition is portability: no run worktree, no uncommitted change, every branch merged or pushed, everything durable on origin - deleting the local repository loses nothing. Steered into run wow-state-machine.
