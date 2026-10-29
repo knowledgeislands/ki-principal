@@ -732,3 +732,7 @@ Read-back: two initial pseudo-states. Start (work package) -open-> Bootstrap; Bo
 Kris: "No, I think the supervisor is actually the human in the loop, and the worker is a subagent, and then the thread agent is effectively the orchestrator of the state machine."
 
 Read-back: three roles. Supervisor - Kris, the human in the loop. Worker - a subagent, the background run that does the work. Orchestrator - the thread agent, which runs the package's state machine: makes its transitions, launches and receives workers, and talks to the supervisor. With worker means a run holds the work. This reframes the Work Process note's "you are the worker to Kris"; RUN-LAYER is withdrawn as superseded.
+
+## ROLES-EITHER - 2026-10-29
+
+Kris: "One thing that's clear is that any of those roles can be done by AI or the human. but the preference is as you state..." Read-back: supervisor, worker and orchestrator are roles, not kinds of actor; any can be AI or human. Preferred: supervisor human, worker a subagent, orchestrator the thread agent.
