@@ -720,3 +720,15 @@ Kris: "and yes, there is a start and end node too. the initial pseudo state is: 
 ## DIAGRAM-FEEDBACK - 2026-10-29
 
 Kris: "would be good if there was a way to annotate the diagram.. so I could give feedback directly". Read-back: a need, not built here; sent to ki.prj.observatory, which owns owner feedback, as a message line. Meanwhile Kris can mark up a PNG or screenshot that the coordinator reads.
+
+## WORK-ENTRY-GUARDS - 2026-10-29
+
+Kris: "so really... "start (wp)" ---[open]-> "bootstrap (wp)"; "bootstrap (wp)" ---[ready]-> "start (work)"; "start (work)" [X]---[pick up]-> "with worker"; "start (work)" [Y]---[refine]-> "with supervisor". Where [X] is if there is work that is clearly defined to get on with and [Y] is if the work needs more clarity.."
+
+Read-back: two initial pseudo-states. Start (work package) -open-> Bootstrap; Bootstrap -ready-> the Working compound state's own initial pseudo-state, Start (work); from it, guard [work clearly defined] -pick up-> With worker, guard [work needs more clarity] -refine-> With supervisor. `refine` replaces `report`; Bootstrap no longer enters With worker or With supervisor directly.
+
+## ROLES-ORCHESTRATOR - 2026-10-29
+
+Kris: "No, I think the supervisor is actually the human in the loop, and the worker is a subagent, and then the thread agent is effectively the orchestrator of the state machine."
+
+Read-back: three roles. Supervisor - Kris, the human in the loop. Worker - a subagent, the background run that does the work. Orchestrator - the thread agent, which runs the package's state machine: makes its transitions, launches and receives workers, and talks to the supervisor. With worker means a run holds the work. This reframes the Work Process note's "you are the worker to Kris"; RUN-LAYER is withdrawn as superseded.
