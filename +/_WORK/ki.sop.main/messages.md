@@ -1,11 +1,3 @@
 # ki.sop.main messages
 
-None
-
-- IMPORTANT · 2026-10-29 · PRIVATE-REPORT-BASELINES · Ways of working (ki.prj.ways-of-working): metadata confirms Principal is PUBLIC; peer baseline f776843a added 122 previously untracked/private report copies to reachable history. No live credentials established; owner audience decision is parked. Please preserve explicit-path commits and do not sweep unreviewed/private report copies into baseline commits. Existing recovery/tip deletion does not remove history. No access change/purge requested; ordinary authorised work continues.
-
 - IMPORTANT · 2026-10-29 · REFRESH · Ways of working (ki.prj.ways-of-working): Read [coordination](/Users/krisbrown/.agents/skills/ki-coordination/references/standards-coordination.md) and [delegation](/Users/krisbrown/.agents/skills/ki-delegation/references/standards-background-runs.md) at `07b9333a` before next launch; record method_read after reading. Retains coordination/home/footer effects; adds quiet-hook, human-closure limits, fresh-group recovery and release/cap guidance. Holds, ownership and source/privacy guards persist; no new authority or other-host parity inferred.
-
-- 2026-10-29 · SCHEDULED-REPORT-RECEIPT · Observatory (ki.prj.observatory), for hnr.reg.email-routing via the existing SoP route: [specification delivered](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/specs/automation.md); [false-healthy mechanism reproduced](../ki.prj.observatory/away-jobs-evidence.report.md). Structured producer findings recommended; original Route Triage specimens still needed before any historical consumer parser. No producer ownership or behaviour change selected.
-
-- 2026-10-29 · MJS-DELIVERED · Ways of working (ki.prj.ways-of-working): DEPCRUISE-MJS is delivered in shared Harness `9feb9581`: `.ts` precedence retained, `.mjs` supported. LINK-1 handles contained linked directories and contained absolute paths (`4de99fbf`); external targets remain held. HNR was not read or changed, its findings are not claimed cleared, and no release occurred. Native review remains independent.

@@ -1,10 +1,10 @@
 ---
 id: ki.sop.main
-state: handoff-to-supervisor
-since: 2026-10-29T01:18:33Z
+state: with-supervisor
+since: 2026-10-29T16:17:57Z
 received: 2026-10-19T17:58:50Z
 beat: null
-mark: 2026-10-29T01:01:20Z
+mark: 2026-10-29T16:17:57Z
 method_read: afb126f2
 ---
 
@@ -20,17 +20,11 @@ method_read: afb126f2
 
 - ki.prj.website is seeded on hold until Kris opens it; Host network opens fifth, after its decision paper and restore path.
 
-## Next steps
+## Next steps (drained 16:17 GMT, with Kris)
 
-Under AWAY-WINDOW, from 01:00 GMT 29 October until Kris returns:
-
-1. Done: finish-pkgs (ki-principal, BASELINE-CLEAN, small): receive kept reports in timelines, tools-burndown, mac-studio-setup, baseline-rollout.
-2. Done: agent-drain (ki-principal, Kris's DRAIN of 22 October, small): take ki.prj.agent-host to On hold.
-3. Done: method-delta (read only, small), then resolve-close set `method_read` to afb126f2 and cleared the REFRESH lines.
-4. Done: window-plan (read only, small): list adopted, authorised Now or Next drafts and Ready records in works not on hold; then ki-batch waves to awaiting review where eligible.
-5. sop-mark (ki-principal, small): fix `work.md` covers and old ids, strike homed decisions, review `design/`. Done: covers and ids fixed, received briefs and the agent-drain report pruned, homed decisions struck, `design/` kept (all drafts); rubric findings sent as TIDY lines to twelve works, ki.prj.observatory skipped for its uncommitted `messages.md`.
-
-Excluded: every open and parked query (Kris's), acceptance, hold releases, other territories, anything in on-hold works beyond tidying.
+1. Kris answers the nine open queries in `queries.md`; act on each answer as taken.
+2. Before the next launch, read coordination and delegation at 07b9333a and record `method_read` (REFRESH line kept in `messages.md`).
+3. Nothing running, queued or scheduled.
 
 ## Held
 
