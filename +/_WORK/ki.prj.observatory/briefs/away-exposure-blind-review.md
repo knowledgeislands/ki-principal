@@ -1,0 +1,13 @@
+# Blind review of the remote-history response decision
+
+Context: An authorised origin fetch establishes fourteen selected Observatory coordination commits, through ac4a5477317339be67bf2fa4ac0e916e7a2d2dab, are ancestors of ki-principal origin/main. Its tracked configuration declares public visibility. The selected payload includes private-work identities and operational activity context; no readership, indexing, publisher or credential exposure has been established. The Observatory standing contract requires private identities/findings/activity to remain local absent a separate publication boundary. Existing instructions prohibit further publication, history rewriting/deletion and provider/visibility mutation. Read-only assessment and evidence preservation are already authorised and complete.
+
+Query: Which decision, if any, genuinely needs Kris now for already-remote material, and what response can be prepared without another approval for routine investigation?
+
+Unranked options: record a bounded finding with no further remote-history remedy; prepare a separate non-destructive access/visibility response for later explicit authority; retain the audience decision first and defer dependent response choices until a concrete mutating plan exists.
+
+1. Review independently from direct standing rules and source metadata. Do not read the work's queries.md, decisions.md, any report, prior recommendation or review. You may verify commit ancestry/configuration and run category-only byte predicates over source Git blobs, without opening recommendation sections or printing protected text. Existing read-only confidentiality and no-publication limits remain; no anonymous HTTP/API/provider probe is authorised here.
+2. Distinguish observed remote reachability from public access/readership and from credential compromise. Assess no-force/no-rewrite constraints, limits of forward edits/visibility changes, existing-home versus new-binding authority and whether any proposed question merely asks permission for already-authorised read-only work.
+3. Return your own recommendation, confidence and one-line reason, a concrete bounded response sequence, and only genuinely necessary owner decisions. No tracked edit, record, scope adoption, remote mutation, deletion, history change, push or further agent. Keep this review only in runtime state; do not copy or stage it in the public repository.
+
+Report to /Users/krisbrown/.local/state/ki/agents/observatory-away-20261029/away-exposure-blind-review.report.md. Run quietly; read the complete inbox after long tools and before broad verification without opening forbidden linked recommendations. Do not use background subagents. Never end your session while waiting.
