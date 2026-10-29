@@ -19,12 +19,11 @@ method_read: null
 - Wave 1's records are committed and pushed in every territory repository they touched.
 - 15 queries are parked in `queries.md`, each with its review verdict folded in; the full query texts and reviews stay in Git, linked from there.
 - Ten live lines, mostly harness changes for the owner to carry, wait in `messages.md` for resume.
-- Two reports stay until their outcomes are confirmed: `wave1-sweep` and `review-territory-techmedix`.
+- The `wave1-sweep` and `review-territory-techmedix` reports were pruned on 29 October once their outcomes were confirmed homed.
 
 ## Next steps
 
 1. At resume, re-read the method and set `method_read`, take `messages.md` in order, then apply every reviewed-high parked option under the overnight autonomy decision and bring the rest to Kris.
-2. Confirm TERRITORY-TECHMEDIX's tools-ki handoff and wave 1's checker-gap outcomes, then prune the two remaining reports.
 
 ## Held
 

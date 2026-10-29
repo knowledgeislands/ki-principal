@@ -28,3 +28,7 @@
 ## 2026-10-20 - hold
 
 - Kris, 02:05 BST: "pause - take stock. Go On hold under current ki-coordination ... set state.md to on-hold with reason "take stock on ways of working" and release "Kris says resume". Before the hold report, write design/retro-2026-10-20.md". Taken as: nothing running to drain, nothing new launched, every open query parked with its review outcome, retro written, work folder committed; reviewed-high options stay unapplied until resume.
+
+## 2026-10-29 - baseline finish
+
+- Both retained reports pruned under BASELINE-CLEAN (28 October), outcomes confirmed homed and their queries already taken in the 19 October wave 1 queries entry. CHECKER-GAPS: routed and received by ki.tools-burndown (`bd6dddbe`, taken as a small fix) and ki.prj.ways-of-working (`ddb13117`, the checker-gaps run). TERRITORY-TECHMEDIX: folded into [KI-TOOL-KI-CLI-154 (pruned)](https://github.com/knowledgeislands/tools-ki/blob/19c10067/docs/roadmap/KI-TOOL-KI-CLI-154-territory-tolerates-unregistered-members.md) in tools-ki, delivered in `be5c6ddf` on `origin/main`, accepted and pruned.
