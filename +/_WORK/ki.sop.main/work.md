@@ -15,13 +15,14 @@ covers:
   - ki.prj.tools-burndown
   - ki.prj.ways-of-working
   - ki.prj.website
+  - ki.reg.main
 title: 'KI > SoP'
 theme: null
 description: >-
   State of play, the territory's single dispatch coordinator: routes each new unit of work to one work, keeps the
   Project-work queue and coordinates continual improvement of the method, executing nothing. Takes units with no
-  clear owner, method improvements and Project-work queueing. Not for executing any Project's work (ki.<project>),
-  method design itself (ki.prj.ways-of-working) or recurring and ad hoc work (ki.regular).
+  clear owner, method improvements and Project-work queueing. Not for executing any Project's work (ki.prj.<project>),
+  method design itself (ki.prj.ways-of-working) or recurring and ad hoc work (ki.reg.main).
 worker: agent
 supervisor: owner
 created_at: 2026-10-06T21:07:00Z
@@ -39,4 +40,4 @@ created_at: 2026-10-06T21:07:00Z
 ## Scope
 
 - In: owner dumps, handoffs with no owning work, cross-work items whose owner is unclear, `METHOD` lines and other method improvements, the Project-work queue and cap, territory-wide dated reviews of held records, and route lines into each work's `messages.md`.
-- Out: executing any Project's work (ki.prj.baseline-rollout, ki.prj.chezmoi, ki.prj.knowledge-acquisition, ki.prj.mac-studio-setup, ki.prj.observatory, ki.prj.portable-specifications, ki.prj.timelines, ki.prj.tools-burndown, ki.prj.ways-of-working); recurring and ad hoc work (ki.reg.main, ki.regular.registry-removal); method design (ki.prj.ways-of-working); `ki.sop.main work status` and tools-ki (ki.prj.tools-burndown); units that already have an owner, which go to it direct.
+- Out: executing any Project's work (ki.prj.baseline-rollout, ki.prj.chezmoi, ki.prj.knowledge-acquisition, ki.prj.mac-studio-setup, ki.prj.observatory, ki.prj.portable-specifications, ki.prj.timelines, ki.prj.tools-burndown, ki.prj.ways-of-working); recurring and ad hoc work (ki.reg.main); method design (ki.prj.ways-of-working); tools-ki (ki.prj.tools-burndown); units that already have an owner, which go to it direct.

@@ -20,17 +20,16 @@
 
 - DESIGN-SYSTEM (Kris, 12 October): roll ki-design-system out to every apps-* repository; governs the website's design adoption.
 
-## 2026-10-12 - SPEC-REVIEW and KI-RELEASE order
+## 2026-10-12 - SPEC-REVIEW
 
-- Kris, 2026-10-12 06:45 BST: SPEC-REVIEW starts only once the known Knowledge Islands roadmap records are near zero. KI-RELEASE (ki and mgit) yes, after their roadmaps reach zero. Drive the Knowledge Islands roadmaps towards zero first. SPEC-REVIEW is homed with [ki.prj.portable-specifications](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.portable-specifications/work.md) under DECISION-HOMES.
+- SPEC-REVIEW (Kris, 12 October): homed in [ki.prj.portable-specifications' decisions](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.portable-specifications/decisions.md); its KI-RELEASE half is spent.
 
 ## 2026-10-12 - Other territories parked
 
 - Kris, 2026-10-12 ~19:50 BST: only Personal and Valle Armonia masters running among other territories; keep others parked until Knowledge Islands is bottomed out, then Paperclip helps.
 
-## 2026-10-14 - RIG-REL-PATCH and capture landing
+## 2026-10-14 - Capture landing
 
-- RIG-REL-PATCH (Kris, 14 October): carried in `ki-repo-tools`' [release-on-demand policy](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/repo-structure/ki-repo-tools/references/standards-release-readiness.md#release-on-demand).
 - Kris 2026-10-14 morning: Kris wants: always land the information even if imperfect (uncertain territory goes to a triage territory), record the agentic system's session or thread ID in front matter
 
 ## 2026-10-14 - ROADMAP-SIZING
@@ -72,10 +71,6 @@
 
 - SOURCE-AGNOSTIC (Kris, 24 October): "we don't need to link or send information back to those things unless it's expressly the case ... when we consolidate things, it doesn't really mean or matter too much where it came from. If we're accepting it, we're accepting it."
 
-## 2026-10-24 17:15 BST - QUERIES-POSTED-FIRST
-
-- QUERIES-POSTED-FIRST (Kris, 24 October): post queries in full before taking them interactively; ki.prj.ways-of-working's QUERY-RULES carries it into the standard ([decisions](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/decisions.md)).
-
 ## 2026-10-24 17:16 BST - TENDING-XDG-STATE
 
 - TENDING-XDG-STATE (Kris, 24 October): Tending reviews XDG state; folded into ki.prj.ways-of-working's [Tending design](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/tending.md).
@@ -84,16 +79,13 @@
 
 - PROJECT-CLOSE a) (Kris, 25 October): Estate factorisation's retirement is prepared and the close waits for Kris's acceptance; carried by the parked ESTATE-CLOSE query and [design/estate-factorisation-retirement.md](design/estate-factorisation-retirement.md).
 
-## 2026-10-25 · Morning queries, taken interactively (Kris, from 01:11 GMT)
+## 2026-10-25 · Morning queries (Kris, from 01:11 GMT)
 
-- ACCEPT-WEBSITE a), ACCEPT-WOW a) (KI-PRINCIPAL-OPS-014 and KI-PRINCIPAL-MOD-009, oldest first) and ACCEPT-RIG a): review and accept now through `ki-accept`; the reviews raised the parked ACCEPT-KI-WEBSITE-SITE-044, ACCEPT-KI-PRINCIPAL-OPS-014, ACCEPT-KI-PRINCIPAL-MOD-009 and ACCEPT-KI-TOOL-RIG-CORE-062 queries.
-- ACCEPT-OBSERVATORY a): review and accept KI-OBSERVA-BRG-005 and KI-OBSERVA-VIS-030 through `ki-accept` once ki.prj.observatory has fixed BRG-005's structure; carried by the parked ACCEPT-OBSERVATORY query.
-- HOLD, read back as taken (Kris, 02:00 GMT): "clean up your work packages, making sure everything is compacted the way it needs to be and tidied up in there. Ensure that anything which is outstanding is pushed back into the work packages and/or roadmap items so that we can pick those up effectively. Drain down." State of play goes on hold, paused, once drained.
+- ACCEPT-WEBSITE, ACCEPT-WOW, ACCEPT-RIG and ACCEPT-OBSERVATORY a): carried by the parked ACCEPT-KI-WEBSITE-SITE-044, ACCEPT-KI-PRINCIPAL-OPS-014, ACCEPT-KI-PRINCIPAL-MOD-009, ACCEPT-KI-TOOL-RIG-CORE-062 and ACCEPT-OBSERVATORY queries in [queries](queries.md).
 
-## 2026-10-28 · MGIT-CHAIN and SYNC-RECIPE (Kris, conversational)
+## 2026-10-28 · SYNC-RECIPE (Kris, conversational)
 
-- MGIT-CHAIN, read back as taken: "I like the chain thing, so we should add that pretty quickly ... just get ahead and do that right now." Build `mgit chain` in tools-mgit now: steps split on `--then` with no quotes, each repository running its steps in order and stopping at the first failure, with recipes. Capture, plan and deliver one record to Awaiting review; no acceptance and no release.
-- SYNC-RECIPE, read back as taken: `mgit sync` should carry the Git-level tune-up and tidy practice used across this work, as a recipe over shared safe steps on the chain engine. The dotfiles syncing and the regular syncing activity should then use it. Routed to ki.prj.tools-burndown and ki.prj.chezmoi as messages.
+- SYNC-RECIPE: `mgit sync` as a recipe on the chain engine, used by the dotfiles and regular syncing; routed to [ki.prj.tools-burndown](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.tools-burndown/messages.md) and [ki.prj.chezmoi](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.chezmoi/messages.md). MGIT-CHAIN is carried by [KI-TOOL-MGIT-CLI-032](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-032-chain-command.md) and its parked ACCEPT query.
 
 ## 2026-10-28 · SYNC-ACTIVITY (Kris, conversational)
 
@@ -109,18 +101,7 @@
 
 ## 2026-10-28 · sop-tidy message dispositions (BASELINE-CLEAN)
 
-- CI-PIN-RECEIVER and OPENER-LABEL to ki.prj.tools-burndown, as the work owning tools-ki and the release bot; neither is done (only ki-design carries the receiver; `prompts.ts` prints the label alone).
-- DEPCRUISE-MJS and STREAM9-SHA to ki.prj.ways-of-working, as owner of the harness standards and rubrics no other work takes.
-- GATE-BASELINE split: the preflight baseline rule to ki.prj.ways-of-working, the worktree sibling to ki.prj.tools-burndown.
-- SPA-FALLBACK-SCOPE and TYPED-ID-ROLLOUT to ki.prj.baseline-rollout, which takes website skills and other-territory rollouts.
-- NAMING-TO-KI: the website half is superseded by ki.prj.website's own SITE-RENAME line; the Observatory half routed.
-- ARCHIVE-PRUNE-SOURCES answered back to ki.prj.ways-of-working from Known Lands; PERSONAL-ACQUIRE-TENDING not forwarded, the need already queued in Personal > SoP as TEND-COVER.
-- WORK-PACKAGES superseded: the parked AGENT-HOST and KA-CLOSE carry two packages, and ki.specifications was homed in 4cfd9c03.
-- ARCHIVE-ENGINE (two lines), GMAIL-CLOCK and SENT-PASS to Kris as MAIL-ASKS; ACCESS-ADMINS' other-territory half to Kris as ACCESS-ADMINS-ROUTE.
-
-## 2026-10-28 · NAMING-DONE disposition
-
-- NAMING-DONE (ki.prj.ways-of-working, 28 October): done; this package already lives at its canonical home `+/_WORK/ki.sop.main/`. Line removed.
+- Routed lines sit in the receiving works' `messages.md` (ki.prj.tools-burndown, ki.prj.ways-of-working, ki.prj.baseline-rollout); MAIL-ASKS and ACCESS-ADMINS-ROUTE are in [queries](queries.md).
 
 ## 2026-10-29 · AWAY-WINDOW (Kris, conversational, 01:00 GMT)
 
