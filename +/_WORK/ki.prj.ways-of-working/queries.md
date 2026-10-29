@@ -74,25 +74,15 @@ The review also found that the `ki-work-package` entry points let the owner, thr
 
 **Options:**
 
-a) (recommended, confidence medium - the file effect and its gate exist and are tested, and the swap later is one operation's vector, but the Observatory's own contract leans the other way) Build the first slice on the existing file effect; capture `ki work answer` and `ki work queries` for tools-ki as a later message and the Observatory's KI-OBSERVA-INT-005. b) (blind review's pick, confidence medium - putting answer validation, the line's shape and the repository effect in one tools-ki command avoids a temporary second implementation; the feedback effect proves the mechanism, not an answer contract) Wait for tools-ki to provide `ki work answer`, and have the Observatory's first slice declare it as its vector from the start.
+a) (recommended, confidence medium - the file effect and its gate exist and are tested, and the swap later is one operation's vector, but the Observatory's own contract leans the other way) Build the first slice on the existing file effect; capture `ki work answer` and `ki work queries` for tools-ki as a later message and the Observatory's KI-OBSERVA-INT-005.
 
-### AREA-COLUMN - publication held; HIGH independent local-input partial
+b) (blind review's pick, confidence medium - putting answer validation, the line's shape and the repository effect in one tools-ki command avoids a temporary second implementation; the feedback effect proves the mechanism, not an answer contract) Wait for tools-ki to provide `ki work answer`, and have the Observatory's first slice declare it as its vector from the start.
 
-**Goal:** Reduce fragile consumption without inventing publication authority.
-
-**Scope:** Harness publication contract and website sync; only the partial below is ready.
-
-**As of:** 27 October 2026, 05:38 GMT; harness main `1e679cd1b0d6c266989f2444cc4e6fbc6baf46e8`; website baseline as above.
+### AREA-COLUMN - publish the existing area reading aid?
 
 **Irreducible hold:** `standards-compatible-harness.md` under `skills/repo-structure/ki-repo-harness/references/` explicitly calls areas a diagram reading aid rather than a published skill fact. Its marker-bounded README catalogue derives from frontmatter; `capability-publication.ts` has no area projection. The original blind review recommended extending this boundary, but that recommendation was never accepted. Existing area values avoid a new taxonomy/schema design; publishing them as a stable consumer contract still needs the choice below. A release is not the blocker.
 
-**Dispatch useful partial:** In apps-knowledgeislands.info, add an explicit local-repository input to `apps/site/scripts/sync-skill-catalogue.ts`, focused cases in its existing `.test.ts`, and usage in `docs/guides/developer/page-provenance.md`. Retain mandatory immutable `--ref`, existing parsers, payload shape and provenance. Read the two existing source paths with local Git at that exact ref, never dirty working files; the explicit local mode must fail closed without network fallback. Preserve the existing remote route. No snapshot/page/pin changes belong in this partial.
-
-**Authority and verification:** Local delivery is expressly authorised; this is a transport adapter for the already-consumed two-file snapshot, not approval to publish areas differently. Both pinned blobs are available locally. Verify local mode reproduces the existing snapshot at `8897008fcee7b2c71a22115735ed038efccf7f32`, rejects absent refs/blobs and invokes no fetch; run its focused existing tests and required hooks. Website owns this unit; serialise with its snapshot writer and keep the crosswalk correction in a separate commit. No release, installation, binding change, credentials or provider call is needed. The live finder continues to work, with generator coupling honestly retained.
-
-## Queries
-
-### AREA-COLUMN - publish the existing area reading aid?
+**Delivered partial:** The immutable-ref local catalogue adapter is committed in website `2c15168`; Primary baseline received and final facts (27 October 07:03 GMT) records its integration, focused replacement evidence and the closed factual catalogue correction. The earlier dispatch and verification instructions are complete. They do not authorise the README publication extension below.
 
 **Parked:** README publication remains outside the two independently qualified local website units; release when Kris decides the consumer contract.
 
@@ -105,3 +95,15 @@ a) (recommended, confidence medium - the file effect and its gate exist and are 
 a) (recommended, confidence high - reuses the existing model and removes generator-code coupling, with the contract change explicit) Approve that bounded publication extension, then qualify exact harness generator/contract/test paths and the website parser/provenance companion paths. Use local immutable commits and local sync; no release cycle.
 
 b) Retain the diagram-only publication boundary and the current finder/parser coupling; deliver only the independently qualified units above.
+
+### PUBLIC-REPORT-AUDIENCE - Decide the audience for the published report copies
+
+**Context:** Existing GitHub metadata confirms Principal is public. A peer baseline added 122 previously untracked/private report copies, totalling 735174 bytes, to reachable history; 101 were later removed at the tip and 21 remained in the inspected snapshot. The private assessment found internal and Personal context, not proven live credentials. No payload was redistributed and no access or history change was attempted. Recovery or deleting a current file does not remove its historical exposure.
+
+**Query:** Which of this report material is intended to remain public, and which needs a containment proposal?
+
+**Options:**
+
+a) (recommended, confidence high - establishes the exact intended audience before any irreversible history work) Review the identified set privately, select material needing protection and prepare bounded containment options; make no access or history change without a separate instruction.
+
+b) Confirm that all 122 report copies are intended public material and retain the current history.

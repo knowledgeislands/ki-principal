@@ -382,8 +382,6 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
 
 - 2026-10-25 03:53 GMT · wow-docs-skills received, partly blocked: catalogue refreshed at harness 8897008f (64 skills, 8 concerns, 10 functional areas) and four README-citing harness pages advanced and retired names replaced, on website `main` ddcf533; the Skills section pages were not written because structure and diagrams landed nothing. Dispositions, under DOCS-PUBLISH and CATALOGUE-ORDER: SKILLS-PREREQS a), relaunch structure, then diagrams, then ki and skills (skills for its tasks 2 and 3 only); SCOPE a), the four widened pages accepted as README-governed claims; AREA-COLUMN a) taken provisionally, being what is live and reversible, pending a masked blind review; DEPS-1 stays separate maintenance.
 
-- 2026-10-25 04:02 GMT · The held attempts of wow-docs-harness, work-a, work-b, work-c, knowledge and standards released on the blocked chain and each stopped blocked with no website change, as expected. Relaunched in delivery order behind wow-docs-skills: harness, then work-a, work-b, work-c, knowledge, standards.
-
 - 2026-10-25 04:13 GMT · wow-review-area-column received: the masked Codex review disagreed with the worker on AREA-COLUMN (reviewer: the harness should publish the area table, high confidence). Both views go to Kris as the AREA-COLUMN query; the live inline finder stays meanwhile. ACCEPT query added for KI-PRINCIPAL-MOD-009; KI-PRINCIPAL-OPS-014 still needs its render checks.
 
 - 2026-10-25 04:16 GMT · wow-docs-structure received: website `6a0cc48` on `main`. Four sections added (skills, ways-of-working, knowledge, standards), four pages moved with 301s, the Docs landing now carries the project catalogue, and the feature-area map, its gates and the Provided-by box are live; all eight gates pass, DEPS-1 aside. Under DOCS-PUBLISH: WOW-DS-1 a), an area's `page` may be a string or a list; WOW-DS-3 a), the four configuration and server names stay allow-listed as written; WOW-DS-2 a) taken provisionally (`ki-repo-kb*` stays out of Repository standards), pending a masked blind review.
@@ -394,49 +392,27 @@ Deleted 48 report copies from this package in `faa8bd37` and `ffad6041` and kept
 
 - 2026-10-25 04:26 GMT · wow-docs-ki received, blocked with no edits: the predecessor's changes were uncommitted in `command-groups.md`, and the CLI sync fetches only remotely while offline parsing of `ki` v0.13.0 fails on new roff escapes. CLI-PREREQUISITES a) taken under DOCS-PUBLISH: relaunched behind wow-docs-diagrams, with scope to repair the parser and add local Git input (the `tools-ki` checkout at its v0.13.0 tag) to the sync script and its tests.
 
-- 2026-10-25 04:29 GMT · wow-docs-diagrams received: website `d547611` delivers the diagram pipeline, the figure shortcode, twelve vendored harness diagrams and the command-groups diagram on /docs/ki/command-groups/; all site gates pass, DEPS-1 aside. wow-docs-ki now proceeds.
-
 - 2026-10-25 04:31 GMT · TIDY (KI > SoP) disposed: RECORD-2 fixed by adding `## Parked` to `queries.md`; FOLDER-2 and FOLDER-3 worked by wow-tidy-night (48 homed reports deleted, 70 kept because their outcome or query home is not verified) and by deleting every received brief, the nine left being live runs and the delivery order; LIFECYCLE-3 concerns incoming lines written by their senders, which are disposed in turn rather than rewritten. Line removed.
 
 - 2026-10-25 04:36 GMT · wow-docs-ki received, blocked on DEPS-1 alone: twelve CLI pages prepared at `ki` v0.13.0 (121 commands in eighteen groups, three new pages, strict roff and local Git input tests), every site gate passing, sixteen paths uncommitted. CLI-GATE taken as DEPENDENCY-GATE was: commit under the DEPS-1 baseline. The baseline is now written into the plan's Gate baseline section, which the held units read, since their prompts are fixed. Relaunched to commit.
-
-- 2026-10-25 04:39 GMT · wow-docs-ki received: website `30e53c5` refreshes twelve CLI pages at `ki` v0.13.0, including Work and agents, Repositories and territory, and Trades and acquisition, with 121 commands in eighteen groups, local Git sync and parser tests; all gates pass under the DEPS-1 baseline.
 
 - 2026-10-25 04:42 GMT · wow-docs-skills received: website `57864b1` publishes the Skills section at harness 8897008f (What a skill is, the new How the skills fit together with the skill map and ten area figures, Catalogue, By outcome); all gates pass under the DEPS-1 baseline. Under DOCS-PUBLISH: Q1 a), each later unit links its page from By outcome in the same commit, written into the plan; Q2 a), the eleven figures on How the skills fit together stand as the plan's explicit exception; Q3, the DEPS-1 dependency update, stays out of the window and goes to Kris as DEPS-1 after blind review.
 
 - 2026-10-25 04:47 GMT · wow-docs-harness received, blocked on DEPS-1 alone: six refreshed harness pages and the new Agent environment page, its provider box and diagram prepared, every site gate passing, edits unstaged. Its fixed prompt did not see the plan's Gate baseline, so HARNESS-GATE is taken as DEPENDENCY-GATE was and the unit is relaunched to commit. The held Codex units (work-b, knowledge, standards) keep running, since a run stops only on Kris's word; they read the plan's Gate baseline at runtime, and their briefs carry the note for any relaunch. wow-review-deps received: the masked Codex review agrees with a separate maintenance unit (high confidence), so DEPS-1 goes to Kris at high, reviewed.
 
-- 2026-10-25 04:47 GMT · wow-docs-harness attempt 2 blocked on DRAFT-OWNERSHIP: it found the harness pages, agent-environment page, feature-area entry and diagram drafts uncommitted and could not tell they were its own. They are: attempt 1's report at 04:43 GMT names exactly those drafts as its prepared work. Taken a) as a factual confirmation within the unit's own scope; relaunched to adopt them, re-check them against the pinned sources and commit under the Gate baseline, leaving wow-docs-work-a's files alone.
-
-- 2026-10-25 04:54 GMT · wow-docs-harness received: six harness pages refreshed, Agent environment page with its provider box and diagram added, Skills by-outcome links added, every gate passing; commit `1056bb6` on the website's main. No queries.
-
-- 2026-10-25 05:07 GMT · wow-review-pack-2 received: the review pack (`design/review-pack.md`, `3d16931d`) now carries all eighteen open queries verbatim and the website review list for units 1 to 5, with the later sections pending. AREA-COLUMN's catalogue address corrected to `/docs/skills/catalogue/` in both files. No queries.
-
 - 2026-10-25 05:16 GMT · wow-docs-work-a received: five Ways of working pages (the work model, work packages, coordination, background runs, roadmap lifecycle) and six site diagrams, with by-outcome links; every gate but the DEPS-1 baseline passing; commit `1edd468` on the website's main. An uncommitted `apps/site/scripts/verify-diagrams.test.ts` in the website checkout belongs to no unit tonight that has claimed it; left untouched and carried to the return report. No queries.
-
-- 2026-10-25 05:23 GMT · wow-docs-work-b blocked on DEPS-1 alone: Work design, Trades and Recurring work pages and three diagrams prepared, every other gate passing. Its fixed prompt predates the Gate baseline note, so it is relaunched to adopt its own drafts and commit under the baseline, as harness was. wow-docs-work-c released at the same time and works alongside it in the checkout; each stages only its own paths.
-
-- 2026-10-25 05:28 GMT · wow-docs-work-b received: Work design, Trades and Recurring work pages with their three diagrams live, commit `beef155` on the website's main, every gate but the DEPS-1 baseline passing. No queries.
 
 - 2026-10-25 05:39 GMT · wow-docs-work-c received: Findings and Tending published as interim practices with three diagrams (finding life, tending tracks, tending pass), commit `de1b44e` on the website's main, every gate but the DEPS-1 baseline passing. WOW-C-1 (form of the Interim callout) disposed as a reversible worker choice inside the agreed plan: keep the blockquote, since it needs no new template and comes out cleanly when a home is chosen. WOW-C-2 (tending's second source) is medium, so it goes to a masked blind review on Codex before any disposition.
 
 - 2026-10-25 05:41 GMT · wow-review-tending-source received: the masked Codex review agrees with keeping the `ki-repo` REVIEW procedure as tending's second source (high: it directly supplies the borrowed lenses, and the scoped citation keeps provenance accurate without implying tending is standardised). WOW-C-2 lifted to high, reviewed, and disposed as a worker choice inside the plan: keep it; the live page needs no change.
 
-- 2026-10-25 05:49 GMT · wow-docs-knowledge received: the Knowledge section live (Knowledge bases; Query, save and update; Acquiring knowledge; Recap and handover) with four diagrams, commit `8b4b7b7` on the website's main, every gate but the DEPS-1 baseline passing. No queries.
-
 - 2026-10-25 06:00 GMT · wow-docs-standards received: the Standards section live (Repository standards, Decision records, Engineering and Git, Writing, Diagrams) with five diagrams, and the feature-area crosswalk completed; commits `076bcc4` and `31f4ba3`. The unit could not push past the stray `apps/site/scripts/verify-diagrams.test.ts` edit; the territory sync pushed its two commits fast-forward, so its publication query is moot. All ten documentation units are now live: 64 docs pages across ten sections. The stray test edit (8 lines, file last committed in `d547611`) stays untouched for Kris. wow-review-pack-3 briefed to bring the review pack to the finished site and confirm every live address answers.
-
-- 2026-10-25 06:11 GMT · wow-review-pack-3 received: review pack at its finished state (`09768f80`), all eighteen queries verbatim, every page and diagram listed. It found the live site still serving a build from before the 04:22 GMT diagram-pipeline commit `d547611`: every page and diagram published since returns 404. Deployment has evidently failed for every push since `d547611`. Within DOCS-PUBLISH (pushing to the website's main is authorised), wow-deploy-fix is launched to diagnose the failed deploys and, where the cause is in the repository, fix it by commit; any Cloudflare or GitHub setting change stays excluded and goes to Kris.
 
 - 2026-10-25 06:19 GMT · wow-messages-triage received: `design/messages-triage.md` (`52db7aa2`) drafts fourteen owner queries from the nine messages, eleven high and three medium. The three medium ones (UNATTENDED-AND-DUE-DATES, WAKE-SUBSTRATE, UNWRITTEN-RULES-DRAFTS) go to one masked blind review on Codex, options unranked and reordered; the queries join `queries.md` and the messages leave the queue once it returns.
 
 - 2026-10-25 06:24 GMT · wow-review-triage received. WAKE-SUBSTRATE: agreement, lifted to high, reviewed. UNATTENDED-AND-DUE-DATES and UNWRITTEN-RULES-DRAFTS: views differ (the review prefers a pilot on a second territory first, and HNR scope only, respectively), both views shown. The fourteen queries joined `queries.md`. The nine messages are disposed and leave the queue in this commit: UNATTENDED-AND-DUE-DATES, DIAGRAM-PRIVATE-CITATIONS, SOP-PROJECT-CARE, SINGLE-THREAD, WAKE-SUBSTRATE, UNWRITTEN-RULES, SIZE-LABEL, WORK-LABEL and PERM-PROMPTS each became one or more queries of the same tag, since each asks for a shared-standard change the away window excludes.
 
 - 2026-10-25 06:34 GMT · wow-deploy-fix received: the Cloudflare Workers Build had failed on every push since `d547611` because the new `verify:diagrams` step needed the harness `ki-diagrams` skill, absent from the deploy clone. Fix `904176e` checks diagram receipts in-repo, keeping the canonical check only where the skill is installed; the Cloudflare build on `904176e` succeeded and the site is live at the current `main`. Two leftovers: (1) one committed test in `verify-diagrams.test.ts` fails on `main`, and the stray uncommitted edit to that file is its fix; wow-test-owner is launched to establish from the run logs whether a ways-of-working run wrote it and, only if so, commit it; (2) GitHub Actions CI is red since `d547611` because the pinned `ki` v0.8.4 lacks `ki-diagrams`, a `tools-ki` pin bump that goes to Kris as CI-PIN, since it changes CI configuration outside the window. wow-review-pack-4 brings the pack to the live site and the 32 open queries.
-
-- 2026-10-25 06:39 GMT · wow-review-pack-4 received: all 80 listed addresses answer 200 on the live site; the pack (`da88dc00`) carries all 33 open queries verbatim, grouped under nine themes for the walkthrough. No queries.
-
-- 2026-10-25 06:40 GMT: wow-test-owner received. The stray edit to `apps/site/scripts/verify-diagrams.test.ts` was written by `wow-docs-harness` attempt 2 at 04:42 GMT (its run log holds the write); committed as `0c0bfd1` and pushed; site tests (116), typecheck and build pass. The primary website checkout was reconciled by discarding the byte-identical local copy and fast-forwarding; the sync's "ff pull blocked" is cleared.
 
 - 2026-10-25 07:17 GMT: Kris returned, ending the unattended window early: "Okay, well I'm back now so you can ask me any questions of things. For example, why the web offside CI is broken." Read back as: the window has ended, so no new unattended work starts; take the open queries interactively, one or two at a time, starting with CI-PIN.
 
@@ -720,10 +696,7 @@ class: operational
 
 ### CONFIDENT-UNATTENDED - dispatch account
 
-- Read-only wow-unattended-plan supplies the exact per-repository work envelope before further roadmap implementation.
-- EXTRA-WRITES is dispatched as wow-extra-writes-2 against the exact 13 .rumdl.toml files still disabling MD005 or MD075. The first attempt had an incomplete skeleton, correctly made no repository changes, and returned its missing-scope report. Corrected dispatch verifies brief preparation succeeded and contains no task placeholder before launch; no running agent was stopped.
-- The already approved SUMMARY-VISIBLE unit is re-dispatched on Codex as wow-tap-log-unattended, held until the three preceding workers finish. The original Claude queue entry 39e99053-1178-4025-9819-c86bb59b043d was superseded before start to avoid duplicate delivery, not to cancel its scope. Only homebrew-tap/.github/workflows/ci.yml and tools-ki/docs/guides/developer/releasing.md are in scope; a local notification replay replaces triggering a release for verification.
-- Targeted runtime status monitoring checks current workers every 45 seconds while they run. No new scheduler, heartbeat or machine configuration is installed.
+Completed dispatch history is carried by the EXTRA-WRITES receipt below, the committed resolved incident in Mistakes and Lessons, and the SUMMARY-VISIBLE/OPENER-REBOOT receipt. Original attempts and scopes remain in Git; no running unit or scheduler is implied.
 
 ### EXTRA-WRITES - received 27 October 2026
 
@@ -731,19 +704,7 @@ Received wow-extra-writes-2: all 13 exact remaining .rumdl.toml units committed,
 
 ### CONFIDENT-UNATTENDED - exact independent follow-through
 
-Received wow-unattended-plan: no Ready roadmap record exists outside the eight already held by quick-wins. No new record or idea is adopted. Independently approved follow-through is frozen to three non-record units in their concrete briefs: O1/OPENER-REBOOT (two tools-ki prompt/test paths, after quick-wins and SUMMARY-VISIBLE); F1/FILENAME-0 (the enumerated ki-design OPEN-note move and live links only); M1/MIRROR-SITE (one website projects.json5 card-removal slice only). Readiness, authority and focused verification are in those briefs, not inferred from a clean build. Blocked policy/licensing/model decisions and the full map/specification migrations remain untouched.
-
-Dispatch is serialised: mirror-card waits for the resolved-lesson worker; open-note waits for mirror-card; opener-reboot waits for quick-wins and tap-log. These limits prevent file/Git contention and keep model concurrency bounded. Thirteen rumdl configurations already enable the required rules; non-semantic template-comment drift is not another implementation pass. No additional build/review round is commissioned.
-
-Initial selected-repository snapshots from the read-only manifest, sol.local, 2026-10-27T03:13:30Z (local main and cached origin/main; workers revalidate before editing):
-
-| Repository | Branch | Local main | Cached origin/main |
-| --- | --- | --- | --- |
-| apps-knowledgeislands.info | main | b30012765da5af39f94e20b59f6145781c58c5c9 | b30012765da5af39f94e20b59f6145781c58c5c9 |
-| ki-design | main | b9ab7bb3afe13c9d0d4a43b632069dcf49a26525 | b9ab7bb3afe13c9d0d4a43b632069dcf49a26525 |
-| tools-ki | main | 631deaf95a797d69f64644ac3734f0d3bb775cf8 | 631deaf95a797d69f64644ac3734f0d3bb775cf8 |
-
-The incomplete-brief incident is now recorded as resolved in Admin/Operations/Mistakes and Lessons.md by wow-dispatch-lesson; its verified commit changes only that log. Its report raises no query. No running worker was stopped.
+The completed F1/FILENAME-0 and incident-log units are carried by their receipts below; M1 remains only its delivered card-removal partial, with map/data/SVG work retained by the website owner. SUMMARY-VISIBLE and OPENER-REBOOT are carried by Quick wins and reserved follow-through. No new record or held idea was adopted.
 
 ### M1 and incident log - received 27 October 2026
 
@@ -775,16 +736,9 @@ Received wow-safe-tidy and applied its three-report manifest as the owning stewa
 
 The decisions log is retained: reducing its governing entries requires the owner's mark or an explicit bounded instruction, neither inferred from this unattended window. State has already been condensed without moving the mark.
 
-### Conditional bucket-C remainder handoff - 27 October 2026
+### Conditional bucket-C remainder handoff
 
-Queued two conditional follow-through units, both gated on wow-quick-wins DONE, without stopping or duplicating it. wow-rig-remainder may select only KI-TOOL-RIG-CORE-068 and CORE-069; wow-harness-remainder only KI-HARNESS-GOV-202. They first read its actual final report and current records, skip delivered work, and proceed only with genuinely Ready approved scope. Outcome-mode ki-batch freezes each exact eligible repository-local set with completion_target awaiting-review; no ideas, new records or unanswered public-contract choices enter. Independently verified partial units are allowed under the owner's instruction, with honest remaining status.
-
-No live firewall/handler/host mutation, unsupported command/API, release cycle, extra review round or duplicated coverage-plus-audit pass is commissioned. Where aggregate audit already supplies the required tests, its single unchanged-tree result is the evidence. Actual mandatory failures cannot be bypassed. After quick-wins, tap-log, Rig and harness may run independently, at most three model workers; opener follows tap-log. Every brief records exact record boundaries and publication limits.
-
-Selected repository snapshots at dispatch; workers revalidate before mutation:
-
-- tools-rig: sol.local, main; local main ac76df46486e720fa4a152fc0cdd09963fb96ec9; cached origin/main ac76df46486e720fa4a152fc0cdd09963fb96ec9.
-- ki-agentic-harness: sol.local, main; local main 1e679cd1b0d6c266989f2444cc4e6fbc6baf46e8; cached origin/main 1e679cd1b0d6c266989f2444cc4e6fbc6baf46e8.
+The conditional dispatch is closed by Quick wins and reserved follow-through below. CORE-068/069 remain gated by RIG-ATTENDED; GOV-202 has its subsequent independently reviewed disposition. Existing native verification, source/reference retention and publication limits remain; no live machine action or new acceptance authority follows from this completed scheduling history.
 
 ### SUCCESSIVE-WAVES - 27 October 2026
 
@@ -1267,3 +1221,13 @@ wow-sleep-qualify DONE: exact maintenance/source matrix at runtime report/eviden
 Consolidate reports gh metadata PUBLIC/isPrivate false for Principal. Prior exact private report scope is already remotely reachable; no live credentials or anonymous payload copy established. Raised owner-visible factual warning, keep intended audience/containment for return. No access change, purge, private publication or provider mutation authorised. Avoid claiming tip removal or recovery archive reverses publication.
 
 Root-authored packet-repair receipt currently unstaged because shared index carries peer ki.sop.main brief deletions; none of those belongs to Root. Current Principal documentation history also diverges after ordinary peer inbox arrivals, with local stack containing peer fc3722ff plus already-approved footer/queue work. Dispatch wow-sleep-principal-sync under standing low-risk documentation/history authority: inspect every actual local/remote ancestor/path; preserve all peer commits; resolve only documented low-risk Markdown history through isolated ordinary merge and verified fast-forward integration, no cherry-pick omission, stash, rebase/reset of primary or force. Unexpected code/high-risk/conflicting semantic changes stop. Root explicitly owns and authorises committing its exact current decisions.md bytes, hash supplied in brief, without changing its content. Coordinate the short shared Git window and preserve all peer staging; separate-index commit may use ki-git exact-owned-path reconciliation only after its before/after predicates, never whole-index reset. Root pauses editing this file until that commit is acknowledged. This is source bookkeeping, not authority to edit any other governing narrative.
+
+### Consolidation, corrected review and next confident partials - 2026-10-29T01:24:33Z
+
+Received wow-sleep-packet-repair, wow-sleep-consolidate and wow-sleep-principal-sync DONE. Two native Review packets corrected in Harness af5e80de and Tools 32b913c6; actual delivered scope and original baselines preserved. Four older evidence hashes were stale, so independent review must use actual committed blobs/current bytes. Canonical footer b2e5189e, twelve Principal targeted queues 2129e5f9 and thirteen additional non-HNR refresh recipients are delivered. Actual grouped Tools lifecycle handoff already exists. Four further reports and one superseded design brief removed with exact recovery; retained inventory is not newly approved for deletion.
+
+Principal peer activity reconciled documentation history before sync needed a merge. Root exact receipt committed unchanged as 8ab876f4 and remotely reachable; final primary/origin were level at c36aadda, all cited local/remote ancestors retained. No separate-index repair or synthetic merge was needed. Root governing-file freeze is released. Applied consolidate protected-v2 decisions reduction and query-state repair after exact original file/span/replacement/final hashes and complete replay matched. Saved 7883 and 1272 bytes respectively; all untouched bytes and unanswered choices preserved. This homes operational intermediates and fixes stale dispatch/option layout, not a new owner decision.
+
+Review-2 launched with a skeleton because Root referenced the prior draft after launcher had moved it to prompt.md, and launch was not guarded on write success. It correctly made no mutations and returned DONE before later steering could reach it. Root acknowledged the mistake; review-3 was launched only after full task write/content predicates succeeded in one checked process. Corrected task explicitly cites human closure authority for the exact six targets, retains every guard and does not enact a blanket footer exception. Resolved lesson needs bounded Mistakes and Lessons entry; no live prompt or immutable run identity was rewritten.
+
+wow-sleep-small-repairs receives only qualified MJS compatibility and contained LINK-1 partials under explicit current confident-partial grant. No new background allocation of records: use documented small-audit-fix exemption only if applicable; otherwise return prepared patch/record need for that unit and continue permitted independent scope. Existing .ts precedence, containment/negative proofs, selected-root boundary and all external-target holds remain. No HNR operation or claim its 327 false findings are cleared. Review-3 remains independent of implementation source writers and may retain records with real unmet criteria.
