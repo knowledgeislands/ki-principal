@@ -10,3 +10,15 @@ Kris ordered STOP-FOR-MOVE-WOW (decisions.md). Follow `+/_WORK/ki.prj.ways-of-wo
 6. Commit by explicit paths (`docs(work): ki.prj.ways-of-working hold, paused`), pull ff-only, else `git merge origin/main` (never rebase, stash, reset, force or `--no-verify`), push ff-only. Other sessions' uncommitted files: name them, never touch.
 
 Report: each postcondition with pass/fail and evidence; anything left on terra and why; final `git status` and origin revision. If any postcondition fails or cannot run, do not set on-hold; report NOT DRAINED with the blocker.
+
+## PR inventory supplied by the orchestrator
+
+At 2026-10-29T22:33Z the orchestrator ran `gh pr list --state open` on knowledgeislands/ki-principal: `[]`, no open PRs. Accept this as the PR postcondition evidence; make no provider call yourself. Everything else in this brief stands.
+
+## Clarifications from the orchestrator (third attempt)
+
+- Every file under `briefs/` is the orchestrator's own, written in this session; they are committed now so the tree is clean. They are in scope: delete the spent ones as step 3 says.
+- Park every query in `## Open` whatever its tag (HOMES, EXECUTION, HOST, DISPLAY, THEME, ROUTING, SIGNAL, RESTART or others): move each to `## Parked` as one line with its tag, one line of context and its recommended option. Add STATE-MACHINE-DECISIONS and FOLDER-MIGRATE as step 4 says.
+- Runtime reports: rather than proving each outcome homed, copy every `*.report.md` of today's runs from `/Users/krisbrown/.local/state/ki/agents/ways-of-working/` into the package's `reports/` (skip any that contains a credential or token; name it if so). That satisfies the postcondition.
+- The wow-sync-2 worktree and `run/ways-of-working/wow-sync-2` branch are proved merged: remove them.
+Then complete steps 3 to 6.

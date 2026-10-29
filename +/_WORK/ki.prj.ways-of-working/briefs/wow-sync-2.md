@@ -1,0 +1,3 @@
+# wow-sync-2 - publish the two local ways-of-working commits
+
+ki-principal local `main` is ahead 2 (STATE-MACHINE-REFINE decision log, refine work state machine) and behind origin. In your own linked worktree on a branch from local `main`, `git merge origin/main`, keeping both sides; push fast-forward to origin main (never force, never `--no-verify`; on a race fetch and re-merge once); then `git -C /Users/krisbrown/workspaces/knowledge-islands/ki-principal merge --ff-only origin/main`, stopping and naming any other session's change in the way. Never stash, rebase or reset in the primary checkout. Report the final revisions and any conflict.
