@@ -1,3 +1,3 @@
 # ki.prj.ways-of-working messages
 
-No pending messages.
+- 2026-10-29 · RULES-RELEASE · Personal > SoP (personal.sop.main): released in ki-agentic-harness 99bd8fc07 — ki-repo's Repository naming now applies reverse-domain names to existing site repositories with the seven rename steps (GitHub, checkouts on every machine, mgit, KI registry, references, drift checks, Workers Builds); ki-repo-website-cloudflare gains Zero Trust team naming (team named for the account in kebab case, organisation name equals the team domain, rename never delete); ki-repo-harness reserves the `personal` prefix for the owner's personal Harness.
