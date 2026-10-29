@@ -96,6 +96,20 @@ d) Prepare C instead, explicitly reviewing the Observatory product and authority
 
 e) Prepare D instead, first establishing an attended request need and separate request, authorisation and receipt contracts.
 
+### PUBLIC-AUDIENCE - Establish the protected report audience
+
+since 2026-10-29 · from the final publication-audience review request
+
+**Context:** Principal is public according to the territory's current review. This run had explicit local commit authority and an explicit no-push limit; no separate publication boundary was established. The [product working contract](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/AGENTS.md#working-contract) keeps private repository identities, findings and activity local without such a boundary. At receipt commit `8e31eec9`, [away-jobs-evidence](away-jobs-evidence.report.md) contains HNR job identity, source references and operational findings, while [away-jobs-spec](away-jobs-spec.report.md) names the HNR receiving work. The [messages blob](messages.md) retains Personal/HNR work identities already present before that receipt; these are retained context, not all newly introduced by it. These three exact paths are the positively identified protected review subset; the other payloads have not been certified safe for public readership. Independent factual review is continuing. Local commits, existing remote reachability and the standing low-risk documentation rule supply no missing audience approval.
+
+**Query:** What audience should govern these reports before any later publication decision?
+
+**Options:**
+
+a) (recommended, confidence high - the explicit local-data and no-push boundaries apply and no publication clearance was found) Keep the identified material local while the independent review establishes an exact audience boundary; make no publication or history change under this handoff.
+
+b) Supply an explicit audience and bounded content approval after that review; authorise any later publication or history remedy separately, without treating this option as a current push instruction.
+
 ## Parked
 
 No unanswered choice has been selected. Council/consolidation order, Waiting/Review, Work's destination and Rig declaration versus observed-health scope are separate downstream design questions, gated by their preparation decisions above. HOST-MEANING is receiver-owned at Ways of working, not an additional decision requested here. ACCEPT remains closed in the [sourced receipt](decisions.md#2026-10-29---accept-closed).
