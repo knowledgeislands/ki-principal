@@ -12,7 +12,7 @@ method_read: 07b9333a
 
 ## Now
 
-All sixteen earlier units in the away run are DONE and received. Final package/design reconciliation is complete; no further launch is planned. The return report goes to the supervisor with seven separately answerable choices in [queries](queries.md). This is a handoff for decisions, not Project completion or a hold. AWAY-2026-10-29 still bounds continuing authority to 29 October 09:00 GMT/UTC or explicit return/stop sooner; neither this receipt nor an unanswered recommendation extends it.
+All sixteen earlier units in the away run are DONE and received. Final package/design reconciliation is complete; no further launch is planned. The return report goes to the supervisor with eight separately answerable choices in [queries](queries.md). This is a handoff for decisions, not Project completion or a hold. AWAY-2026-10-29 still bounds continuing authority to 29 October 09:00 GMT/UTC or explicit return/stop sooner; neither this receipt nor an unanswered recommendation extends it.
 
 ## Next steps
 
@@ -22,7 +22,7 @@ All sixteen earlier units in the away run are DONE and received. Final package/d
 4. Receive HOST-MEANING through the existing Ways of working HOST-SYNC owner; no seat, failover or executor is selected. Existing State of play HNR route owns original specimens and producer correction; Tools owns public report resolution and the pending sync recipe/push guard. No duplicate route or foreign work record is needed.
 5. Retain the reproduced hourly-calendar overdue defect as evidence only. No capture, adoption, repair, provider call, scheduler/service change or rollout follows from it.
 6. Reconcile the final local-only Principal commits before relying on another machine. Final fetched level evidence and exact handoffs are in [the receipt log](decisions.md#2026-10-29---away-final-reconciliation). Do not push, pull/rebase or alter peer work under this run.
-7. Keep the identified HNR/Personal report context local pending PUBLIC-AUDIENCE and the independent factual review; no public-safety certification, publication boundary, sanitisation or history remedy is implied.
+7. Keep the identified HNR/Personal report context local pending PUBLIC-AUDIENCE, PUBLIC-EXPOSURE and the independent factual review; receipt 8e31eec9 is already reachable from fetched origin/main, so no claim of local containment is made. No public-safety certification, publication boundary, sanitisation or history remedy is implied.
 
 ## Held
 
