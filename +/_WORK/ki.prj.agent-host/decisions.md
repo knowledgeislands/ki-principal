@@ -314,3 +314,7 @@ home: KI-TOOL-TECHNE-CLI-006 class: operational
 ## Decision 74 (2026-10-29T01:01:58Z)
 
 - DRAIN (Kris, 22 October 2026), "take stock and drain to On hold, \"hold, more expected\"": acted on by agent-drain under AWAY-WINDOW; nothing was running, CLI006-PLAN parked, state set on-hold, more-expected, until Kris brings this work package back up; no line for another package was needed. Class: operational.
+
+## 2026-10-29 01:14 GMT - tidy-round2 disposition
+
+Operational: State of play's TIDY lines of 25 and 29 October received under BASELINE-CLEAN (Kris, 28 October). The 25 October line's RECORD-2 (`hold: null`) and state disagreement are already resolved by the 29 October hold, so it is disposed as superseded. The LIFECYCLE-3 warning is message lines past about 60 words; they are other senders' instructions, so shortening them needs the steward's judgement and became a Next steps line in `state.md`. Both TIDY lines removed.
