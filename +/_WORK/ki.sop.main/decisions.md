@@ -121,3 +121,7 @@
 ## 2026-10-28 · NAMING-DONE disposition
 
 - NAMING-DONE (ki.prj.ways-of-working, 28 October): done; this package already lives at its canonical home `+/_WORK/ki.sop.main/`. Line removed.
+
+## 2026-10-29 · AWAY-WINDOW (Kris, conversational, 01:00 GMT)
+
+- AWAY-WINDOW, read back as taken: "I am going to sleep for a bit. Could you handle as much as you can whilst I'm away? Make sure you've got everything refreshed on the latest ways of working and see how far you can get without me." Return condition: Kris's next message. Work: refresh this package on the current method; continue BASELINE-CLEAN tidying; act on logged, unrevoked owner instructions already queued (such as DRAIN in ki.prj.agent-host). Permitted: detached runs in ki-principal work folders under the tidy, receive and close-out rules, commits and fast-forward pushes. Excluded: answering or deciding any open or parked query, acceptance, releasing holds, sends to other territories, publication, deletions beyond the tidy rules, and anything outside ki-principal. Stop word: "stop the wake". Wakes are best effort; work waiting on Kris stays parked.
