@@ -4,7 +4,7 @@
 
 ## Authority and remaining choices
 
-The [owner log](../decisions.md), “Both approvals and other-machine condition”, records approval of territory/type/name IDs and written-model alignment. Those directions are settled; do not restart the design loop or ask for them again. The [stage-one brief](work-id-shape-brief.md) supplies design options, not an additional migration grant. The complete captured incoming queue and its logged dispositions were read; individual relays do not enlarge authority.
+The [owner log](../decisions.md), “Both approvals and other-machine condition”, records approval of territory/type/name IDs and written-model alignment. Those directions are settled; do not restart the design loop or ask for them again. The [stage-one brief](https://github.com/knowledgeislands/ki-principal/blob/eb2f7b271a95f74b6a1cf9381727e1706bf31fd2/+/_WORK/ki.prj.ways-of-working/design/work-id-shape-brief.md) supplies design options, not an additional migration grant. The complete captured incoming queue and its logged dispositions were read; individual relays do not enlarge authority.
 
 | Class | Disposition |
 | --- | --- |
