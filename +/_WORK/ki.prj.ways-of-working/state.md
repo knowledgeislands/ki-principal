@@ -3,7 +3,7 @@ id: ki.prj.ways-of-working
 state: with-worker
 since: 2026-10-28T21:58:11Z
 received: 2026-10-22T07:24:00Z
-beat: 2026-10-29T02:00:08Z
+beat: 2026-10-29T02:33:32Z
 mark: 2026-10-29T01:02:20Z
 method_read: 07b9333a
 ---
@@ -12,20 +12,21 @@ method_read: 07b9333a
 
 ## Now
 
-- Unattended window until Kris returns or says stop wake; mark is window entry, 29 October 01:02 GMT.
-- Naming/footer/exclusions and canonical footer/refresh rollout delivered. Two records independently accepted and retained; GOV-233/234 and CLI-174 await final review, CLI-175 original-scope proof remains.
-- MJS and contained LINK-1 fixes delivered; malformed unsafe-path fixture corrected without weakening assertions. Combined source gate now passes.
-- Quiet hook/authority/recovery/release/cap/brief guidance delivered and current method refreshed. Tools proof and own log/inbox closeout run; exact unpublished peer docs audience is in review.
+- Sleep window until Kris returns or says stop wake; entry mark 29 October 01:02 GMT, current method 07b9333a refreshed.
+- All six coordination/naming/Markdown records independently Done and retained. MJS, contained LINK-1, exclusions and quiet hook/authority/recovery/release/cap/brief fixes delivered; Harness and Tools changes published.
+- Canonical live ID examples aligned locally; old SVG labels remain known rendered residue. Older MOD-011 semantic amendment stays separate and parked.
+- Decisions lifecycle cuts 125981 bytes; full owner/held authority preserved. Queries/inbox received into actual homes; ten further recovered closed files removed.
+- Principal main is locally committed but publication is blocked by exact protected peer-report ancestors. No access/history/publication bypass.
 
 ## Next steps
 
-1. Receive wow-sleep-method-finish, refresh current standard/style and method_read, then targeted affected refresh. No invented session selector or role inference.
-2. Receive wow-sleep-graduation; apply only exact guarded governing-file reductions and eligible recoverable closed-artifact removals.
-3. wow-sleep-tools-proof: Tools, push tier, medium, waits on method assets; prove CLI-175 original scope locally, no narrowed Goal or invented product fix.
-4. Independently review repaired eligible records, sync exact completed ranges and prepare return recap. Session monitor stays armed while workers run.
+1. Prepare isolated safe-publication candidate and private original-range recovery/mapping; do not modify primary main or push. Independently review before requesting any primary-history transition approval.
+2. Finish final package hygiene and verify repo-level handoffs without repeated product tests/builds/audits.
+3. Return a self-contained recap with actual remaining decisions, local-only Principal handoff and preserved original branches/refs.
 
 ## Held
 
-- CROSS-MACHINE-SOURCE, FINISH-LINE and PUBLIC-REPORT-AUDIENCE are parked; no older canonical amendment integration, Project closure, access change or history purge on silence.
-- Bare SHA-256 collision, session selection/status defaults, external-link policy and host-sync design remain unsettled. Existing holds/owners unchanged.
-- HNR entirely excluded; Observatory redesign remains its own work. No releases/deployments/restarts, installs, credentials/providers/schedulers, private publication, force/reset/stash or hook bypass.
+- CROSS-MACHINE-SOURCE, FINISH-LINE and PUBLIC-REPORT-AUDIENCE remain parked; no older canonical semantic integration or Project closure on silence.
+- Protected current report ancestry requires explicit owner/owning-publisher disposition; any candidate only prepares a reviewable result. Old public-history audience remains separate.
+- Bare SHA-256 collision, baseline comparator, exact-session/default-home and external-link semantics, host-sync/trades design and SVG source remain unchosen or deferred.
+- HNR excluded; Observatory design stays its owner. No releases/deployments/restarts, installs, credentials/providers/schedulers, private publication, force/reset/stash or hook bypass.
