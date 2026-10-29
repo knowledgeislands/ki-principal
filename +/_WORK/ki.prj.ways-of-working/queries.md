@@ -38,6 +38,42 @@ a) (recommended, confidence high - establishes the intended audience before acce
 
 b) Confirm after review that the identified material is intended public and retain that history.
 
+### TERRA-LOCAL-REPORTS - Dispose of the two run-only reports safely
+
+**Context:** Terra retains drain-form.report.md and wow-sync-terra.report.md without exact blobs on origin/main. The sync outcome is logged in the package; the older report's complete outcome/query home is unproved here. PUBLIC-REPORT-AUDIENCE still applies.
+
+**Query:** What private review and exact disposition should these copies receive before terra is called drained?
+
+**Options:**
+
+a) (recommended, confidence high - proves complete homes before disposal) Review both privately, record each outcome/query home, then select its disposition; retain both meanwhile.
+
+b) Retain both on terra and leave the drain incomplete.
+
+### TERRA-PR-CHECK - Supply the provider's open PR inventory
+
+**Context:** Pruned origin refs and the absence of local work branches cannot establish open PR state. This run's provider-call ban prevented that check.
+
+**Query:** Who will supply the current Ways of working open PR inventory?
+
+**Options:**
+
+a) (recommended, confidence high - obtains the missing fact within separate authority) Have an authorised attended session supply the inventory and resolve any named PR leftovers under its own grant.
+
+b) Keep PR state unknown and leave the drain incomplete.
+
+### TERRA-RECOVERY - Confirm the private recovery location
+
+**Context:** The publication retention ref/archive and private-proof runtime named in decisions.md are absent on terra. No other machine or repository was inspected; nothing was deleted or published from those locations.
+
+**Query:** Where is each retained item now held, with what size and private recovery home?
+
+**Options:**
+
+a) (recommended, confidence high - preserves retention without disclosure) Have the holding session confirm exact locations, sizes and private recovery arrangements, leaving every item intact and unpublished.
+
+b) Leave recovery location/durability unknown and the drain incomplete.
+
 ## Parked
 
 - PACKAGE-FORWARDING - PKG-POINTER original request preserved at bcb3c1a3:+/_WORK/ki.ways-of-working/messages.md and the Principal enactment report. Owner approved one authoritative package and a Capital discovery reference; principal-only message forwarding remains separate design before any relay or second queue is built.

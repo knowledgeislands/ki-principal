@@ -12,7 +12,7 @@ method_read: 07b9333a
 
 ## Now
 
-- Drained on terra at 20:05 GMT on 29 October for a move to sol; nothing running, queued or scheduled.
+- Terra is NOT DRAINED under DRAIN-MEANS: the published run worktree/branch is retired; runtime report homes, PR state and the private recovery location remain unverified. See the three TERRA drain queries in queries.md. No other run was stopped by this tidy.
 - Kris took every recommended option on 29 October (HOST-SYNC-DESIGN and RECOMMENDED-ALL in decisions.md): LAUNCH-BLOCKED, HOST-SYNC, CROSS-MACHINE-SOURCE, FINISH-LINE, PUBLIC-REPORT-AUDIENCE. Aim: cut open topics and roadmap items, then close the Project.
 - wow-sync-terra levelled terra's checkout (a6912d29) and logged the decisions (a72fe115).
 - wow-host-sync-design and wow-finish-line started and stopped at once on a Claude session usage limit; no work done. Their briefs are committed in briefs/ and stand as written.
