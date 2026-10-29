@@ -609,3 +609,13 @@ Kris repeated: "Drain this work: check the inbox, and receive any finished runs.
 DRAINED: all 33 runs remain finished and received; the work queue is empty and the inbox has no new lines since the previous drain. No run needed stopping; no new work or wake was launched. Work remains with-supervisor since its explicit receive at 2026-10-29T15:38:09Z; the mark is now 2026-10-29T16:18:42Z. Three Open queries and all parked choices remain unchanged.
 
 Tidy review: package bytes were unchanged since the preceding published drain. Its completed operational entry and six disposed-message receipts are wholly carried by published commit 4c22639d62024b19446537cf3bc19adee2a9bfc8 and have been struck from the live log. Existing retention/graduation decisions for older reports, briefs and design notes still apply; this repeat drain supplies no new whole-outcome home or deletion authority. Current method is unchanged from the recorded refresh.
+
+## HOST-SYNC-DESIGN - 2026-10-29
+
+Kris: "Take up HOST-SYNC as the next design under ki-work-design. Its inputs are the HOST-SYNC line in messages.md and Observatory's HOST-SYNC-REVIEW, with its design report. Put any questions for me as tagged decisions with recommendations. When it's decided, send the rollout as one line each to personal.reg.rig-terra and personal.reg.rig-sol."
+
+## RECOMMENDED-ALL - 2026-10-29
+
+Kris, on LAUNCH-BLOCKED, HOST-SYNC, CROSS-MACHINE-SOURCE, FINISH-LINE and PUBLIC-REPORT-AUDIENCE, each option a: "The queries, I agree with the most recommended one for, so you can get on with those, please."
+
+Read-back: launch the levelling and design runs; settle HOST-SYNC through tagged decisions then one rollout line per Rig queue; CROSS-MACHINE-SOURCE - no unpublished other-machine changes named, reconcile MOD-011 from published sources and preserve any unresolved overlap; FINISH-LINE - finish the approved amendment and exit checks, hand remaining designs to named packages through KI State of play with acknowledged ownership, then close the Project, aiming to cut open topics and roadmap items; PUBLIC-REPORT-AUDIENCE - review the identified set privately and prepare a bounded response without changing access or history. Kris also asked that Ways of working keep reducing its open topics and roadmap items.
