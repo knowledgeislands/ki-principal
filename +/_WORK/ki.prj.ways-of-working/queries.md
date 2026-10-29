@@ -2,6 +2,10 @@
 
 ## Open
 
+No actionable owner query during this sleep window; the unanswered choices below remain parked, with no action on their gated matters.
+
+## Parked
+
 ### CROSS-MACHINE-SOURCE - Other-machine changes to the older model amendment
 
 **Context:** Non-HNR naming is complete and the checked Principal, Harness, Tools and Personal branches match their fetched origins. The older approved [KI-PRINCIPAL-MOD-011](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-011-amend-work-model-assigned-package-cascade.md) amendment must now be reconciled with newer canonical wording. Git cannot reveal unpublished changes on your other machine. Its approval remains valid; this is only a source-overlap question.
@@ -25,8 +29,6 @@ b) Keep this older canonical amendment parked until the next attended cross-mach
 a) (recommended, confidence high - gives this delivery a clear end while retaining every outstanding need) Finish the bounded fixes, reviews and cleanup; hand remaining designs to named packages through KI State of play with acknowledged ownership, then close Ways of working.
 
 b) Keep Ways of working open until host synchronisation, at-rest behaviour, forwarding and request/reply trades are also designed and delivered.
-
-## Parked
 
 - PACKAGE-FORWARDING - PKG-POINTER original request preserved at bcb3c1a3:+/_WORK/ki.ways-of-working/messages.md and the Principal enactment report. Owner approved one authoritative package and a Capital discovery reference; principal-only message forwarding remains separate design before any relay or second queue is built.
 - PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.
