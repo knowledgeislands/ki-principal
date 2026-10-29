@@ -776,3 +776,9 @@ Read-back: one pasteable prompt, STRUCTURE part then a horizontal rule then the 
 ## STOP-FOR-MOVE-WOW - 2026-10-29
 
 Kris pasted the interim briefing and the STOP-FOR-MOVE prompt into this thread: "Stop this work for the host move to sol: conclude, then take stop to At rest, reason moving". Read-back: Ways of working concludes and takes stop to At rest (moving to sol) on terra, proving every postcondition; delegated to run wow-stop-terra.
+
+## Sol re-bootstrap and priority repository reconciliation - 2026-10-29T23:28:13Z
+
+Kris: "Re-bootstrap as ki.prj.ways-of-working under ki-coordination. This session runs on sol. First fetch and check every repository is level with origin. Then resume this work from At rest (moving to sol) and follow the next steps in state.md." Kris then prioritised: "but before you start any work, can you fix the merge conflicts as follows and push afterwards", naming humans-not-robots/hnr-principal (ahead 1, behind 103) and legal/legal-principal (ahead 2, behind 7).
+
+Read-back: first perform bounded reconciliation in those exact Sol checkouts and non-force pushes to their own configured origins, preserving both histories and source confidentiality. This instruction lifts the previous HNR access exclusion only for its requested Git repair and estate Git checks; it grants no unrelated HNR changes or copying private source into this Principal. Use isolated conflict candidates, normal hooks and scoped verification, then retire only own clean integrated worktrees/branches. After both repairs, fetch/check the complete selected repository inventory and level clean behind-only primary checkouts. Stop on actual contested content, dirty overwrite, unresolved authority or failed fetch; never invent a clean result. No release, deployment, provider/secret mutation, force/reset/stash or bypass is authorised. Existing parked choices remain until preflight is complete; the prior mark is preserved.

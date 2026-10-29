@@ -1,32 +1,27 @@
 ---
 id: ki.prj.ways-of-working
-state: on-hold
-since: 2026-10-29T22:41:26Z
+state: with-worker
+since: 2026-10-29T23:28:13Z
 received: 2026-10-29T15:38:09Z
 beat: null
 mark: 2026-10-29T22:41:26Z
 method_read: 07b9333a
-hold:
-  reason: moving to sol
-  release: resume on sol
 ---
 
 # ki.prj.ways-of-working state
 
 ## Now
 
-- At rest for the move to sol under [STOP-FOR-MOVE-WOW](decisions.md#stop-for-move-wow---2026-10-29), encoded as on-hold until the state-machine rollout. Nothing of this work is running, queued for execution or scheduled; no wakes are held.
-- The work state machine and its open choices remain in [work-state-machine.md](design/work-state-machine.md); all open queries are parked in [queries.md](queries.md).
-- Reports are preserved in reports/; spent briefs are removed. The two retained briefs await relaunch after resume.
-- PR inventory supplied by the orchestrator: knowledgeislands/ki-principal had no open PRs at 2026-10-29T22:33Z. No provider call made here.
+- Re-bootstrap requested on sol. Owner's first priority is reconciling and pushing HNR Principal and Legal Principal before any delivery work resumes.
+- Two bounded Git repair runs will preserve both local and origin histories, verify actual conflicts and publish normally. HNR access is authorised solely for this repair and requested repository-level checks, not unrelated HNR work.
+- After both repairs, fetch and check the entire selected repository inventory against origin. No hold is released by an assumed clean status; no old implementation run has restarted.
 
 ## Next steps
 
-1. On sol, fetch origin and check main is level with origin/main; pull fast-forward only if behind, and stop on divergence.
-2. Re-bootstrap as ki.prj.ways-of-working under ki-coordination.
-3. Restore parked queries to Open as appropriate; relaunch [wow-host-sync-design](briefs/wow-host-sync-design.md) and [wow-finish-line](briefs/wow-finish-line.md).
-4. Settle the state-machine choices with the rollout, then route the state machine to ki-work-package, ki-coordination, the Work Process note and tools-ki. Continue FOLDER-MIGRATE per package; this package is already tidied and moved.
-5. Continue HOST-SYNC rollout through the Rig queues, MOD-011 reconciliation from published sources and the private PUBLIC-REPORT-AUDIENCE review within their existing authority.
+1. Receive HNR and Legal merge/push results; resolve any concrete blockers without force, stash, reset or hook bypass.
+2. Fetch all selected repositories and establish exact ahead/behind, dirty/index and failed/unknown results; fast-forward clean behind-only primaries under the owner's sync instruction.
+3. Finish re-bootstrap from At rest (moving to sol), restore appropriate parked queries, then requalify and resume the saved HOST-SYNC and finish-line briefs under current rules.
+4. Continue the state-machine decision/rollout, HOST-SYNC, MOD-011 and private audience work only after the preflight and within existing authority; preserve the latest folder and method updates.
 
 ## Held
 
