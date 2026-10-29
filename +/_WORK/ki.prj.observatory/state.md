@@ -1,31 +1,31 @@
 ---
 id: ki.prj.observatory
-state: handoff-to-supervisor
-since: 2026-10-29T01:59:50Z
-received: 2026-10-19T22:45:00Z
-beat: 2026-10-29T01:59:50Z
-mark: 2026-10-29T01:04:52Z
-method_read: 07b9333a
+state: with-supervisor
+since: 2026-10-29T15:47:28Z
+received: 2026-10-29T15:47:28Z
+beat: null
+mark: 2026-10-29T15:47:28Z
+method_read: 05292b2f
 ---
 
 # ki.prj.observatory state
 
 ## Now
 
-All sixteen earlier units in the away run are DONE and received. Final package/design reconciliation is complete; no further launch is planned. The return report goes to the supervisor with eight separately answerable choices in [queries](queries.md). This is a handoff for decisions, not Project completion or a hold. AWAY-2026-10-29 still bounds continuing authority to 29 October 09:00 GMT/UTC or explicit return/stop sooner; neither this receipt nor an unanswered recommendation extends it.
+With Kris under DRAIN-WITH-SUPERVISOR. Away window ended. Nothing running, held in the run queue, queued or scheduled for this work. Every current owner choice remains in [queries](queries.md); retained reports and designs remain evidence, not adopted work.
 
 ## Next steps
 
-1. Give the complete return report against the preserved 01:04:52 UTC entry mark; do not strike another mark before Kris has seen it. Receive spoken choices explicitly; silence selects nothing.
-2. Keep ACCEPT closed. Feedback delivery is Done on the verified existing evidence-only approval; first real feedback send remains Kris's and production freshness/restart remains a separately authorised interactive follow-up.
-3. Treat APP-044 factual reconciliation as completed documentation. Convergence direction, order, Waiting/Review and Work disposition retain separate gates. Status correctness requires separate adoption and an agreed plan, even though independent fixtures establish defects.
-4. Receive HOST-MEANING through the existing Ways of working HOST-SYNC owner; no seat, failover or executor is selected. Existing State of play HNR route owns original specimens and producer correction; Tools owns public report resolution and the pending sync recipe/push guard. No duplicate route or foreign work record is needed.
-5. Retain the reproduced hourly-calendar overdue defect as evidence only. No capture, adoption, repair, provider call, scheduler/service change or rollout follows from it.
-6. Reconcile the final local-only Principal commits before relying on another machine. Final fetched level evidence and exact handoffs are in [the receipt log](decisions.md#2026-10-29---away-final-reconciliation). Do not push, pull/rebase or alter peer work under this run.
-7. Keep the identified HNR/Personal report context local pending PUBLIC-AUDIENCE, PUBLIC-EXPOSURE and the independent factual review; receipt 8e31eec9 is already reachable from fetched origin/main, so no claim of local containment is made. No public-safety certification, publication boundary, sanitisation or history remedy is implied.
+1. Receive Kris's explicit answers to the nine open queries; silence selects nothing. Keep the work with-supervisor until Kris hands it back.
+2. Preserve receiver ownership: Ways of working owns HOST-SYNC/HOST-MEANING; Tools owns canonical report resolution and the sync recipe/push guard; State of play owns the existing scheduled-result route and original specimens. No duplicate route or foreign record is needed.
+3. Keep feedback acceptance closed. First real send and service restart/freshness remain separately authorised follow-ups. No product, provider, configuration, scheduler or visibility action follows from this drain.
+4. Retain uncertain historical reports and all ungraduated designs until their outcome, query and grant homes are proven. Private review originals stay in their existing runtime home; no new publication boundary is inferred.
 
 ## Held
 
-- RESTRUCTURE, TEN-COMMITS, MERMAID-HANDLER and Bridge integration choices remain unanswered; no individual consolidation, design order, appearance change, Mermaid update, history removal, cross-host delivery or service-name change is approved.
-- Library, Streams and Workers remain Draft/Hold. Extensions, tailnet appearance, cross-host Sessions, Machine and Sessions reader retirement remain ideas; no Ready delivery set or batch envelope exists.
-- No new record, lifecycle promotion, implementation, acceptance, pruning, publication, real send, scheduler, service, provider, configuration or credential action is authorised by finalisation.
+- RESTRUCTURE, TEN-COMMITS and MERMAID-HANDLER remain unapproved; release only on the corresponding explicit owner answer.
+- Every individual consolidation, Council order, Waiting/Review relationship and Work destination requires its own approval after preparation.
+- Library, Streams and Workers remain Draft/Hold under their existing release conditions; this drain releases none of them.
+- Extensions, tailnet appearance, cross-host Sessions, Machine and Sessions reader retirement remain unadopted ideas; no Ready set or batch envelope exists.
+- BRIDGE-STALE, STATUS-REPAIR and SYNC-DIRECTION authorise no adoption or implementation until separately answered and planned.
+- PUBLIC-AUDIENCE, PUBLIC-EXPOSURE and ACCESS-DISPOSITION remain unresolved; no visibility change, history operation or new protected-payload clearance follows from the tidy authority.

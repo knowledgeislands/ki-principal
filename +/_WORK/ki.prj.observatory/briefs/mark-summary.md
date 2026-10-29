@@ -1,9 +1,0 @@
-# Mark Observatory and prepare its full summary
-
-Kris instructed on 28 October 2026: "mark and give me a summary with queries and context". This is logged in decisions.md.
-
-1. Read standing rules and ki-coordination's mark, decision lifecycle, package tidy and full-summary requirements. Receive bootstrap-resume.report.md, the current five-file package (messages first) and current run status. Preserve all existing authority and product holds. Use that completed reconciliation; do not repeat its broad investigation.
-2. Complete the authorised resume bookkeeping, strike the new mark, reconcile decisions and safely tidy only fully homed package material. Retain unresolved queries and evidence. The previous brief's blanket no-write-formatter restriction was coordinator-created: it is lifted for the repository's ordinary mandatory commit hook on explicitly owned package files. Resolve COMMIT-GATE without asking Kris. Commit this verified unit by explicit paths; inspect hook-backed commit contents. No pushes, product edits, service changes, acceptances, roadmap records or new agents. Fetch only ki-principal if the mark's level check requires it; report any incomplete level check honestly.
-3. Verify package and commit, then write a self-contained full summary with context for all actionable queries, acceptance first, and outstanding receiver-owned work separately. Include recommended next dispatch and confidence. Name the actual mark, publication limitation and unverified evidence; do not present historic requests as current failures or ask permission for routine already-authorised steps.
-
-Report to /Users/krisbrown/.local/state/ki/agents/observatory/mark-summary.report.md. Follow the owner-report shape and closing banner. Run quietly. Read the complete inbox after long tools and before broad verification. Do not use background subagents. Never end your session while waiting.

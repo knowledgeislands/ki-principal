@@ -1,9 +1,0 @@
-# Prepare the scheduled-sync ownership design brief
-
-Owning work: ki.prj.observatory. Kris's 29 October away grant is AWAY-2026-10-29; expiry 09:00 GMT/UTC or explicit return sooner. OBSERVATORY-SYNC and MGIT-SYNC-JOB carry the owner's question about the running Observatory handling regular cross-machine Git sync. This authorises preparation, not choosing an owner, changing standards/configuration or scheduling Git mutations.
-
-1. Read the complete current queue, ki-work-design and its design-loop standard/templates, current coordination method and relevant local HOST-SYNC/dispatcher/Tools recipe evidence. Verify source paths and exact owner proposal before quoting it. Inspect only non-secret local material; no producer/configuration/runtime mutation or remote calls.
-2. Create design/observatory-sync-brief.md in this work package from the skill template. State the owner's proposal verbatim, established facts with sources, unresolved ownership boundaries, alternatives and numbered claims suitable for two independent reviews. Distinguish observation, authority, execution, locking, failure reporting, host responsibility and recovery; preserve the mechanical-first and criticality boundaries. Keep recommendations provisional. Record this bounded preparation unit in the existing window plan without adopting an implementation choice.
-3. Verify and commit only the completed brief and explicitly owned state bookkeeping through normal hooks in a safe serialised Git window. Preserve concurrent changes and do not push. Report two concise independent review briefs and the exact evidence they need; launch no agents, allocate no records and make no owner decision or rollout.
-
-Report to /Users/krisbrown/.local/state/ki/agents/observatory-away-20261029/away-sync-brief.report.md. Run quietly; read the complete inbox after long tools and before broad verification. Do not use background subagents. Never end your session while waiting.

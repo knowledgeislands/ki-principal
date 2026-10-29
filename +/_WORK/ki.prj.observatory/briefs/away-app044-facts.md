@@ -1,9 +1,0 @@
-# Correct settled facts in the adopted restructure draft
-
-Kris's 29 October away grant is AWAY-2026-10-29, until 09:00 GMT/UTC or explicit return sooner. Current method permits shaping adopted Now drafts. The received away-app044-reconcile report bounds this one-file factual correction; it grants no answer to RESTRUCTURE or any other choice.
-
-1. Read standing rules, ki-plan's applicable lifecycle procedure, exact current KI-OBSERVA-APP-044 and the received reconciliation evidence. Verify each intended assertion directly against current sources and local done-before-prune evidence. Stop on applicable preflight failures rather than broadening repairs.
-2. Edit only APP-044: distinguish settled five-area/Waiting/alias facts from old shell proposals, correct stale prerequisite and retained-idea references, preserve dated history and owner quotations, and restate genuine open choices. Keep status draft, horizon now, kind decide and every individual consolidation/capability/address safeguard. Do not edit the PDR, code, held records, ledger or other documentation; do not adopt the status defects or mark readiness.
-3. Verify unchanged lifecycle/authority fields, exact historical quotations, all changed assertions and local links, then run required scoped authoring/roadmap checks. Commit only this completed owned file through normal hooks in a safe serialised Git window; inspect committed paths. No acceptance, record creation, service/provider/scheduler actions, runtime implementation or push. Report any unresolved factual ambiguity rather than choosing it.
-
-Report to /Users/krisbrown/.local/state/ki/agents/observatory-away-20261029/away-app044-facts.report.md. Run quietly; read the complete inbox after long tools and before broad verification. Do not use background subagents. Never end your session while waiting.

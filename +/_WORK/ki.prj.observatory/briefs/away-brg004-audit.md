@@ -1,9 +1,0 @@
-# Repair the two authorised decision-audit blockers
-
-Kris's 29 October away grant is logged as AWAY-2026-10-29; deadline 09:00 GMT/UTC or explicit return sooner. The received away-refresh-plan report confirms the current OBS-AUDIT owner instruction and its two reproduced blockers. This is a bounded review correction, not adoption of any unanswered design recommendation.
-
-1. Read product standing rules, canonical KI-OBSERVA-BRG-004 review and OBS-AUDIT message, applicable authoring/decision standards and refreshed method. Establish a safe explicit-path Git window and preserve unrelated work.
-2. Repair only PDR-KI-OBSERVA-010's filename/title mismatch and misplaced roadmap link. Verify exact literals before editing; preserve the accepted five-area design and wording/authority. Sweep affected live product links for the renamed filename; report external package references for coordinator receipt instead of editing another repository. No product behaviour, consolidation, new record, acceptance, feedback send, service restart, push or provider/configuration change.
-3. Recheck the mandatory decision audit and affected links; verify current BRG-004 review evidence under its required gates. Distinguish pre-existing failures; fix nothing outside this bounded class. Commit only completed verified owned paths via normal hooks; inspect committed paths. Report exact remaining acceptance prerequisites and whether the existing evidence-only authority can be applied by a separate closure run.
-
-Report to /Users/krisbrown/.local/state/ki/agents/observatory-away-20261029/away-brg004-audit.report.md. Do not write Capital package files. Run quietly; directly read the complete inbox after long tools and before broad verification. Do not use background subagents. Never end your session while waiting.
