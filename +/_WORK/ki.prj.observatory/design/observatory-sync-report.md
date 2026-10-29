@@ -110,33 +110,41 @@ No capture, pilot or operation is authorised by this plan. After Kris's decision
 
 No decision below is adopted. Publication default, confidentiality, PUSH-KRIS, territorial ownership and tidy stewardship are settled constraints, not questions to reopen. Recovery details and rollout grants wait on the direction chosen; there is no new publication/tidy grant in these choices.
 
-### SYNC-DIRECTION - Which design should be prepared next?
+### SYNC-DIRECTION - Choose the candidate for design preparation
 
-**Context:** E fits the recorded per-host regular-activity instruction most directly. B has a narrower routed HNR remit; C changes the product's role; D adds a request protocol. The later Observatory question is not a superseding instruction.
+since 2026-10-29 · independent blind query review received
 
-**Query:** Which candidate should the owners develop to a reviewable plan, without selecting an executor or authorising rollout now?
+**Context:** The [merged sync paper](observatory-sync-report.md) compares A, attended passes under fresh grants; B, a Rig/chezmoi dispatcher child; C, Bridge scheduling/execution; D, Bridge requesting an external runner; and E, a direct per-host Rig scheduled activity invoking a deterministic Tools recipe. The merge preferred preparing E against A; [the blind query review](../away-sync-query-review.report.md) independently recommends that same course. A running Bridge supplies no periodic execution mandate. Existing publication, repository, confidentiality and deployment gates apply whichever candidate is chosen. HOST-SYNC responsibility semantics remain with Ways of working, with any seat/failover change separately owned; this choice does not settle them.
 
-**Options:**
-
-a) (recommended, confidence moderate - closest to HOST-SYNC with least new infrastructure) Prepare E against A as the baseline; keep Observatory as observer and reserve execution-owner selection for that reviewed plan.
-
-b) Keep A alone for now, with fresh bounded attended grants when needed; defer scheduled execution design.
-
-c) Develop B, C or D instead, naming which and why: shared dispatcher value, deliberate product-role change or an attended Bridge request need respectively. Preserve each option's prerequisites above.
-
-### HOST-MEANING - Are primary and secondary preferences or exclusive execution rights?
-
-**Context:** The recorded offsets do not define exclusivity, read-back or loss-of-contact policy. Independent publication can tolerate ordinary non-force rejection; exclusive execution needs enforceable retirement/fencing. Seats establish neither.
-
-**Query:** Which meaning should Ways of working use when preparing HOST-SYNC, keeping read-back timing and recovery bounds for the resulting plan?
+**Query:** Which candidate should its owners develop into a reviewable plan?
 
 **Options:**
 
-a) (recommended, confidence moderate - avoids unsupported distributed failover) Prepare independent per-host responsibility with explicit non-force contention and primary read-back; no automatic takeover or implicit replay during uncertainty.
+a) (recommended, confidence high - reviewed, independent source review agrees that direct per-host activity is the simplest candidate to develop) Prepare E against A as the baseline, retaining Observatory as observer and leaving executor selection, authority and rollout for the later reviewed plan.
 
-b) Prepare exclusive responsibility and a separately reviewed failover/fencing mechanism, withholding takeover until the previous executor cannot act.
+b) Retain A alone for now, using fresh bounded attended grants; defer scheduled design.
 
-c) Keep the semantics undecided and retain attended passes only; request a narrower requirements discussion before any scheduled plan.
+c) Prepare B instead, first showing the shared dispatcher value and resolving its narrower HNR remit.
+
+d) Prepare C instead, explicitly reviewing the Observatory product and authority change.
+
+e) Prepare D instead, first establishing an attended request need and separate request, authorisation and receipt contracts.
+
+### HOST-MEANING - Receiver-owned responsibility semantics
+
+**Context:** The original HOST-SYNC instruction is in [Ways of working's queue](../../ki.prj.ways-of-working/messages.md); its [work definition](../../ki.prj.ways-of-working/work.md) and the owner's words establish that route. The blind query review independently agrees with independent per-host responsibility, offsets as cadence only and no automatic takeover. Seats govern coordination landing, not Git leases. Any change to seats or exclusive failover requires its own Host network/operational ownership; no Host network package was found and none is created. Primary read-back timing remains a separate plan question, not a meaning silently selected by this recommendation.
+
+**Query:** Which responsibility meaning should Ways of working develop under HOST-SYNC?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed, independent review agrees that offsets and seats establish no exclusivity or failover grant) Prepare independent per-host responsibility with explicit non-force contention handling and no automatic takeover; return read-back timing and offline recovery as separate plan choices.
+
+b) Prepare exclusive responsibility only with separately reviewed fencing, retirement and failover ownership.
+
+c) Keep the semantics undecided and retain attended passes while the requirement is narrowed.
+
+This is a routed receiver-owned question. Observatory asks Kris here only for SYNC-DIRECTION; the route transfers no authority and settles no option.
 
 ## Changes after review
 
@@ -144,6 +152,12 @@ c) Keep the semantics undecided and retain attended passes only; request a narro
 - Reliability review: qualify fetch/dirty behaviour; require expected membership, shared manual guards, phase uncertainty, effective fencing and restart-independent receipts; independently reproduce hourly-calendar and projection limits.
 - Merge settlement: avoid claiming absent schedules from absent evidence; distinguish ordinary Activity from headless coordination; qualify blanket PDR/PUSH-KRIS objections to C/D; distinguish deployment risk from inevitable outage; prefer E/A comparison without appointing an executor.
 - Scope control: preserve the original brief and reviews unchanged, retain two actionable future choices, and separate newly confirmed defects from design rollout. No owner decision, new grant, record, pilot, schema, configuration or runtime action follows from this report.
+
+### Final independent query review and freshness receipt
+
+The [blind query review](../away-sync-query-review.report.md) independently agrees with E-versus-A preparation and independent per-host responsibility. Under the query-review rule only those matching courses rise from medium/moderate to high, with reviewed reasons. This agreement selects neither course. The original authority/reliability disagreement remains in Agreement and difference; it is not a unanimous executor recommendation.
+
+At the pre-route final receipt, 20 of the original 25 source hashes still match; the later HOST-SYNC receipt also changes Ways of working messages. The five changed sources are Observatory messages/decisions, Tools messages and the coordination/delegation standards: receipts and method updates postdate the brief. Their current changes were reread; the original inventory remains historical evidence. No source, installed-service or other-host freshness is inferred from an old hash. The hourly-calendar reproduction remains 72 healthy stale observations versus an overdue interval control; no defect has been adopted or repaired. Existing HNR specimens/producer and Tools resolver/recipe routes remain with their owners.
 
 [obs-queue]: ../messages.md
 [obs-decisions]: ../decisions.md

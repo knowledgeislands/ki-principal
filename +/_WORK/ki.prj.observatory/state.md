@@ -1,34 +1,30 @@
 ---
 id: ki.prj.observatory
-state: with-worker
-blocking: false
-since: 2026-10-29T01:04:52Z
+state: handoff-to-supervisor
+since: 2026-10-29T01:59:50Z
 received: 2026-10-19T22:45:00Z
-beat: 2026-10-29T01:44:31Z
+beat: 2026-10-29T01:59:50Z
 mark: 2026-10-29T01:04:52Z
-method_read: afb126f2
+method_read: 07b9333a
 ---
 
 # ki.prj.observatory state
 
 ## Now
 
-Away window remains open until 29 October 09:00 GMT/UTC, or explicit return/stop sooner. Completed runs through away-app044-facts and both independent sync reviews are received in the [named dispositions](decisions.md#2026-10-29---away-completed-receipt). Four owner choices remain open; ACCEPT is closed on verified existing authority, and APP-044's factual correction answers no convergence choice.
-
-Remaining review units as of 01:45 GMT: away-status-blind-review: DONE, awaiting separate receipt; away-sync-merge: DONE, awaiting separate receipt. Neither report is read or received by this unit. This receipt launches nothing and changes no product authority.
+All sixteen earlier units in the away run are DONE and received. Final package/design reconciliation is complete; no further launch is planned. The return report goes to the supervisor with six separately answerable choices in [queries](queries.md). This is a handoff for decisions, not Project completion or a hold. AWAY-2026-10-29 still bounds continuing authority to 29 October 09:00 GMT/UTC or explicit return/stop sooner; neither this receipt nor an unanswered recommendation extends it.
 
 ## Next steps
 
-1. Receive the completed blind status review only after terminal status and evidence checks; preserve its independence and do not adopt a repair or create a record through this receipt.
-2. Receive the sync merge only after completion, with both independent reviews; bring only its reviewed choices through their proper owner gate. The reviews choose no producer, executor or rollout owner.
-3. Follow the existing State of play reply route for scheduled-result evidence and original Route Triage specimens; the specification is delivered, while producer findings and any historical consumer parser remain recommendations requiring separate authority and evidence.
-4. Await the Tools-owned public canonical-report-resolution contract answer before planning historical report lookup. Keep work-status behaviour repair separate from APP-044 and its held consolidations.
-5. No Ready delivery set or safe-local-v1 envelope is created. Stop at expiry or explicit return/stop; receive completed results and report against the existing mark.
+1. Give the complete return report against the preserved 01:04:52 UTC entry mark; do not strike another mark before Kris has seen it. Receive spoken choices explicitly; silence selects nothing.
+2. Keep ACCEPT closed. Feedback delivery is Done on the verified existing evidence-only approval; first real feedback send remains Kris's and production freshness/restart remains a separately authorised interactive follow-up.
+3. Treat APP-044 factual reconciliation as completed documentation. Convergence direction, order, Waiting/Review and Work disposition retain separate gates. Status correctness requires separate adoption and an agreed plan, even though independent fixtures establish defects.
+4. Receive HOST-MEANING through the existing Ways of working HOST-SYNC owner; no seat, failover or executor is selected. Existing State of play HNR route owns original specimens and producer correction; Tools owns public report resolution and the pending sync recipe/push guard. No duplicate route or foreign work record is needed.
+5. Retain the reproduced hourly-calendar overdue defect as evidence only. No capture, adoption, repair, provider call, scheduler/service change or rollout follows from it.
+6. Reconcile the final local-only Principal commits before relying on another machine. Final fetched level evidence and exact handoffs are in [the receipt log](decisions.md#2026-10-29---away-final-reconciliation). Do not push, pull/rebase or alter peer work under this run.
 
 ## Held
 
-- RESTRUCTURE, TEN-COMMITS, MERMAID-HANDLER and BRIDGE-STALE retain their options, confidence and guards; no recommendation becomes approval.
-- Library, Streams, Workers, Machine and Extensions retain individual consolidation gates; cross-host Sessions and tailnet appearance retain Host network's service-name prerequisite.
-- First real feedback send remains Kris's, and service restart/freshness requires a separately authorised interactive session; evidence-only closure proves neither live operation nor deployed source.
-- Sync topology, host responsibility, account scores, naming changes and external diagrams retain their repository and owner gates. No producer ownership is selected; Access changes remain outside this window.
-- This receipt permits no new launch, product edit, acceptance, pruning, remote call, publication, scheduler, service, provider or credential action.
+- RESTRUCTURE, TEN-COMMITS, MERMAID-HANDLER and Bridge integration choices remain unanswered; no individual consolidation, design order, appearance change, Mermaid update, history removal, cross-host delivery or service-name change is approved.
+- Library, Streams and Workers remain Draft/Hold. Extensions, tailnet appearance, cross-host Sessions, Machine and Sessions reader retirement remain ideas; no Ready delivery set or batch envelope exists.
+- No new record, lifecycle promotion, implementation, acceptance, pruning, publication, real send, scheduler, service, provider, configuration or credential action is authorised by finalisation.

@@ -2,21 +2,19 @@
 
 ## Open
 
-### RESTRUCTURE - Reconcile the old consolidation proposal with the landed design
+### RESTRUCTURE - Prepare remaining convergence choices
 
-since 2026-10-20 · from obs-app044-plan and obs-review-4
+since 2026-10-20 · from obs-app044-plan and obs-review-4; factual reconciliation completed 29 October
 
-**Context:** [KI-OBSERVA-APP-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md) is still Now/Draft. The parked proposal recommended incremental convergence, Council first, one redirect table, retaining Work until a Streams proposal proved its home and limiting Waiting for you to a Review rename. The independent review supported that amended direction at medium confidence and retained the step-3 promotion gate. Since then, [PDR-KI-OBSERVA-010](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/decisions/PDR-KI-OBSERVA-010-four-areas-replace-the-tab-bar-and-the-observatory-opens-on-what-waits-for-its-owner.md) landed five areas and Legacy, removed Focus and retired the lens. Its consequences explicitly allow later convergence within the areas. Repeating the old header/lens choice would ignore that delivery; it does not prove any remaining consolidation gate satisfied.
+**Context:** [KI-OBSERVA-APP-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md) remains Now/Draft/decide. Its [completed factual correction](away-app044-facts.report.md) now distinguishes the delivered five-area shell, Legacy and existing alias seam from the old proposal. That correction is done; choosing convergence is not. The earlier independent review supported incremental convergence at medium confidence with the step-3 gate retained. Council order, the Waiting/Review relationship, moving or retiring Work and each individual consolidation still need their own later decisions; this question selects none of them.
 
-The [completed factual correction](away-app044-facts.report.md) now separates the delivered shell and alias seam from the old proposal, corrects satisfied prerequisites and retained-idea homes, and leaves APP-044 Now/Draft/decide. This does not answer convergence, consolidation order, Council, Waiting/Review or DESIGN-WORK.
-
-**Query:** Should the next design pass reconcile APP-044 and its held consolidations against the landed five-area design before proposing an individual consolidation?
+**Query:** Should the next design pass prepare the remaining convergence choices against the delivered design?
 
 **Options:**
 
-a) (recommended, confidence medium - the prior independent review supports incremental convergence, while the newer design needs reconciliation) Reconcile the record against PDR-KI-OBSERVA-010, preserve every capability and address, retain Work until its destination is demonstrated, and bring each remaining consolidation for its own approval; authorise no product change in this bookkeeping pass.
+a) (recommended, confidence medium - earlier independent review supports incremental preparation, while the remaining design choices are still open) Prepare the remaining choices against the current five-area design, preserving every capability and address; return separate order, Waiting/Review and Work proposals for their own approval.
 
-b) Leave the old proposal parked until the design thread supplies its next instruction.
+b) Keep convergence preparation parked pending the design thread's next instruction.
 
 ### TEN-COMMITS - Preserve history while considering duplicate rows
 
@@ -46,20 +44,58 @@ a) (recommended, confidence medium - the independent review found containment bu
 
 b) Leave the existing containment and smoke checks as they are, with the follow-up parked.
 
-### BRIDGE-STALE - Correct the stale premise and retain the integration question
+### BRIDGE-STALE - Decide whether to prepare machine-reader integration
 
-since 2026-10-20 · from the parked BRIDGE-STALE query; no blind review completed
+since 2026-10-20 · independent blind review received 29 October
 
-**Context:** The parked query said Bridge comments and fixtures claimed Rig had no JSON and recommended one triage record for `rig show --format json`. Current machine evidence explicitly names that JSON contract and says the Bridge does not yet read it; Automation already reads it. The original no-JSON premise is stale, while the machine integration gap is real. This pass has neither implemented it nor created a record. Its recommendation has not received the required independent blind review, and this brief forbids launching one.
+**Context:** Rig already supplies public JSON. Bridge still asks only for its version and reports Rig state unavailable; Automation reads declared scheduled jobs. [The blind review](away-bridge-blind-review.report.md) independently reproduced the omission but found no demonstrated breach of accepted behaviour: Machine remains an unadopted idea, and declarations do not establish observed health. The old request to review the gap is complete. The earlier proposal favoured preparing integration; the reviewer instead recommends keeping it parked, at high confidence, because scope and consolidation gates remain unresolved.
 
-**Query:** Should the old premise be replaced by a later, independently reviewed proposal for the remaining machine integration gap?
+**Query:** Should bounded proposal preparation for the remaining Bridge machine-reader gap be taken up?
 
 **Options:**
 
-a) (recommended, confidence medium - the current source corrects the premise, but integration scope remains unreviewed) Keep the existing JSON contract and current behaviour, and request a bounded blind review of the remaining machine-reader gap before proposing adoption or implementation.
+a) (recommended, confidence medium - review disagrees with proceeding now; the omission is real but its accepted scope is unsettled) Prepare only a bounded proposal using the existing Rig JSON contract, returning declaration coverage versus observed health as a separate choice before any implementation or adoption.
 
-b) Keep BRIDGE-STALE parked without scheduling further work.
+b) Follow the blind review: retain current behaviour and keep integration parked under the existing Machine and consolidation gates.
+
+c) Consider wording and fixture hygiene only, explicitly leaving the reader omission unresolved; wording alone cannot close that omission.
+
+### STATUS-REPAIR - Seek separate adoption for the correctness repair
+
+since 2026-10-29 · from independent away-status-blind-review
+
+**Context:** [The independent status review](away-status-blind-review.report.md) reproduces canonical exclusions being resurrected, ambiguous aliases being displayed by fast views, and historical package/run-home omissions. Ordinary Review also uses the fast path in current server defaults. Valid regular work and selected members already have flat coverage. These are separable correctness defects, outside [KI-OBSERVA-APP-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md)'s consolidation boundary. Preparation can establish latency, producer warnings/refusals and cross-repository-home limits; it cannot itself adopt a repair, choose global-home precedence or authorise delivery.
+
+**Query:** Should a separate bounded canonical-reader repair be brought through adoption and an agreed plan?
+
+**Options:**
+
+a) (recommended, confidence high - independent fixtures establish a correctness defect separate from the unresolved restructure) Seek separate adoption and planning for one producer-authoritative status/home result across existing Work, Waiting and Review, preserving the current views; settle latency and producer boundaries before implementation.
+
+b) Keep the demonstrated defects visible but defer adoption pending deployed-version or representative-estate evidence.
+
+c) Reconsider APP-044's boundary explicitly before coupling this repair to consolidation; no such boundary change is approved here.
+
+### SYNC-DIRECTION - Choose the candidate for design preparation
+
+since 2026-10-29 · independent blind query review received
+
+**Context:** The [merged sync paper](design/observatory-sync-report.md) compares A, attended passes under fresh grants; B, a Rig/chezmoi dispatcher child; C, Bridge scheduling/execution; D, Bridge requesting an external runner; and E, a direct per-host Rig scheduled activity invoking a deterministic Tools recipe. The merge preferred preparing E against A; [the blind query review](away-sync-query-review.report.md) independently recommends that same course. A running Bridge supplies no periodic execution mandate. Existing publication, repository, confidentiality and deployment gates apply whichever candidate is chosen. HOST-SYNC responsibility semantics remain with Ways of working, with any seat/failover change separately owned; this choice does not settle them.
+
+**Query:** Which candidate should its owners develop into a reviewable plan?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed, independent source review agrees that direct per-host activity is the simplest candidate to develop) Prepare E against A as the baseline, retaining Observatory as observer and leaving executor selection, authority and rollout for the later reviewed plan.
+
+b) Retain A alone for now, using fresh bounded attended grants; defer scheduled design.
+
+c) Prepare B instead, first showing the shared dispatcher value and resolving its narrower HNR remit.
+
+d) Prepare C instead, explicitly reviewing the Observatory product and authority change.
+
+e) Prepare D instead, first establishing an attended request need and separate request, authorisation and receipt contracts.
 
 ## Parked
 
-None. The four open choices retain their existing options and guards. ACCEPT is fully resolved in the [sourced receipt disposition](decisions.md#2026-10-29---accept-closed).
+No unanswered choice has been selected. Council/consolidation order, Waiting/Review, Work's destination and Rig declaration versus observed-health scope are separate downstream design questions, gated by their preparation decisions above. HOST-MEANING is receiver-owned at Ways of working, not an additional decision requested here. ACCEPT remains closed in the [sourced receipt](decisions.md#2026-10-29---accept-closed).
