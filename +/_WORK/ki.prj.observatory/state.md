@@ -22,7 +22,8 @@ Away authority received until 29 October 09:00 GMT (09:00 UTC), or explicit retu
 3. Dispatch obs-app044-reconcile, size s (20-30 minutes), apps-observatory.local read-only with report here, tier none plus fetch. Authority: adopted Now record and away grant. Compare its plan with the five-area design and identify remaining owner choices. Dependency: step 1. Keep Draft; do not choose RESTRUCTURE or release consolidations.
 4. Receive away-consumer-gap, now running read-only in apps-observatory.local, tier none, size s. Authority: TYPED-ID-CONSUMER and COORD-REGULAR-STATUS. Require evidence of a real tools-ki consumer gap; no implementation, new record or runtime action.
 5. Receive away-jobs-evidence, now running read-only in apps-observatory.local, tier none, size s. Authority: SCHEDULED-RESULTS and SCHEDULED-REPORT-SPEC. Require result/schedule contract evidence and a documentation proposal; no scheduler, provider or other-repository writes.
-6. Delivery batch eligible set is empty: no Ready records. Reassess only after authorised planning resolves prerequisites; freeze any later safe-local-v1 wave per repository, awaiting-review only, expiring no later than 09:00 UTC. No envelope is created here.
+6. Prepared [scheduled-sync ownership brief](design/observatory-sync-brief.md), away-sync-brief, size s, ki-principal, tier none with no remote calls, under AWAY-2026-10-29 and the explicit bounded preparation instruction. Two independent read-only review briefs are ready for later commissioning; no review launch, execution owner, implementation choice, new record or rollout is adopted. Preserve HOST-SYNC, dispatcher and Tools ownership gates.
+7. Delivery batch eligible set is empty: no Ready records. Reassess only after authorised planning resolves prerequisites; freeze any later safe-local-v1 wave per repository, awaiting-review only, expiring no later than 09:00 UTC. No envelope is created here.
 
 ## Held
 
