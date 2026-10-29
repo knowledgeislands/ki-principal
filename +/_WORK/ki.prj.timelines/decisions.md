@@ -27,3 +27,11 @@ Taken under OVERNIGHT-AUTONOMY after tl-qreview, a blind Codex review, agreed an
 ## 2026-10-20 - NAME-AND-PROVIDER
 
 Taken under OVERNIGHT-AUTONOMY: SKILL-NAME, `ki-calendars`, whose description separates milestone-centred dated sets and feeds from `Calendar/` period notes and appointment management; recommendation moved from the merge's `ki-key-dates` because the blind tl-qreview and the second look tl-qreview2 both prefer it and it carries Kris's own words, "a calendar with the milestones" and "calendar sets to subscribe to"; nothing is built under the name until the harness plans KI-HARNESS-GOV-222, so Kris can still change it. PROVIDER-FIRST, Google first through `mcp-gsuite`, tl-qreview2 agreeing and lifting it to high; revalidate Kris's actual scheduling tool when rollout step 4 starts and add Microsoft only if that or the acceptance matrix needs it.
+
+## 2026-10-29 - REVIEW-LAUNCH
+
+Overtaken, disposed under BASELINE-CLEAN (28 October) without a decision: both reviews and the merge ran, in [the Astra review](design/timelines-skill-review-astra.md), [the Fable review](design/timelines-skill-review-fable.md) and [the merged report](design/timelines-skill-report.md); the tl-design report is removed.
+
+## 2026-10-29 - PUSH-STACK
+
+Overtaken, disposed under BASELINE-CLEAN (28 October) without a decision: the survey commit `602f714` is on `origin/main`; the tl-seed report is removed.
