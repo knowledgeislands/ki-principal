@@ -1,9 +1,9 @@
 ---
 id: ki.prj.ways-of-working
 state: with-supervisor
-since: 2026-10-30T02:25:20Z
+since: 2026-10-30T06:44:33Z
 received: 2026-10-29T15:38:09Z
-beat: 2026-10-30T02:25:20Z
+beat: 2026-10-30T06:44:33Z
 mark: 2026-10-30T01:39:47Z
 method_read: 6868da5a
 ---
@@ -12,16 +12,17 @@ method_read: 6868da5a
 
 ## Now
 
-- Re-bootstrapped 30 October 01:40 GMT. The four sol reports and five older reports are received; the LANDSCAPE study, its two design reviews, the merged report and the revised notes are committed in `design/landscape*.md`.
-- Sent to Kris at 02:25 GMT: sixteen open queries, each recommendation at medium or low confidence put through a masked blind review first.
+- 30 October: Kris answered at 06:15 GMT; accepted landscape decisions sent to ki.prj.orca-evaluation and ki.prj.tools-burndown. HOST-SYNC reviewed and merged (`design/host-sync/report.md`); private report reviewed; WORKER-WAIT split; naming reviewed without rename cost; package layout designed (`design/package-layout/design.md`).
+- Sent to Kris at 06:45 GMT with every open query blind-reviewed under the REVIEW-INDEPENDENCE direction.
 
 ## Next steps
 
 1. Take Kris's answers by tag and read each back in `decisions.md`.
-2. HOST-SYNC: once HOST-REVIEW is answered, commission the common brief and two reviews, then one rollout line to each Rig queue.
-3. Landscape: once the queries are answered, write the second brief the design lists; send the AMEND-RACE rule, if adopted, to the KI Agentic Harness as a message line.
-4. Continue the approved MOD-011 reconciliation, acknowledged handovers and final exit checks.
-5. Prune received reports and spent briefs at the next mark; close the stale `ways-of-working-reg` and `ways-sol-resume-20261029` runs once the package is clean.
+2. Follow-ups: AGENT-HOME due 2 November 2026; ORCA-REACH due 6 November 2026.
+3. On LAYOUT answers: harness message for the closed list and FOLDER rubric, then pilot this package by hand on one bounded matter.
+4. On HOST-* answers: one rollout line each to the Rig and chezmoi queues.
+5. Keep the three possibly protected untracked files out of every commit until PUBLIC-REPORT-RECOVERY is answered.
+6. Continue the approved MOD-011 reconciliation, acknowledged handovers and final exit checks.
 
 ## Held
 
