@@ -21,4 +21,4 @@ Read-only everywhere. Do not create, edit or commit any tools-rig record, and do
 
 ## Report
 
-Write `/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/rig-intake.report.md` as a run report (Done, In Progress, Queries), and commit only that file by explicit path in ki-principal; pull fast-forward only and push. Leave other sessions' files untouched.
+Write your run report (Done, In Progress, Queries) to `/Users/krisbrown/.local/state/ki/agents/ki-prj-mac-studio-setup/rig-intake.report.md`; the launcher homes it in the work package. Commit nothing.
