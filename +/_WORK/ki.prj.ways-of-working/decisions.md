@@ -792,3 +792,9 @@ The complete frozen mgit selection had 69 distinct primary roots. All 69 origin 
 Bootstrap resumes from At rest (moving to sol) under the currently deployed legacy state encoding; prior mark remains unchanged. Current method paths are unchanged from the recorded read. The saved HOST-SYNC and finish-line briefs are requalified for Sol before launch, using the fresh valid canonical-home run group rather than old immutable group history. A separate state-machine authority/readiness pass reconciles the seven design choices against already-approved diagram/role decisions; it must not ask answered questions or enact unresolved policy. The already-approved private audience assessment follows independently, with no access/history remedy.
 
 The pause commit 515b2adf removed the eight definition/freshness Open queries without carrying their complete text into Parked. Their existing receive disposition remains in this log and no owner answer was found. The eight full questions are recovered from published commit 50a8e730 and preserved under Parked; this restores continuity without adopting, cancelling or reprioritising the proposal. The finite close-out plan must account for them.
+
+## ORCA-FIT design run - 2026-10-30
+
+Kris: "Yes, launch the design run." This followed the proposal to design how Orca fits the Knowledge Islands work model, with Knowledge Islands as the durable layer (work package, roadmap, authority, decisions) and Orca as the live layer (launch, worktrees, task queue, heartbeats, gates), without forcing Orca off what it does best. Kris also asked for a clearer explanation of how roadmaps, work packages, runs, hosts and Orca relate.
+
+Read-back: one ki-work-design run writes a design note and a plain-language explainer in this package's design/ folder for Kris's sanity check. No standard, skill, roadmap record or Orca configuration changes are authorised.
