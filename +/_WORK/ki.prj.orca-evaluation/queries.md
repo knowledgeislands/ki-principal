@@ -102,6 +102,20 @@ a) (recommended, confidence medium - the control exists but you could not find i
 
 b) Do not send a request. Note the Settings location in the Orca evaluation and move on.
 
+### LABEL-FIRST - Keep Orca's swap or ask Orca for a name-first row
+
+**Context:** Orca deliberately shows "Monitoring background tasks" before the chat name while an agent's turn has ended but a background task is still live. Every coordinator keeps one background waiter armed between turns, so its row usually reads "Monitoring background tas..." rather than its name. No Orca setting changes this. Renaming sessions or background tasks has no effect. Dropping the waiter would cost the coordinator its wake.
+
+**Query:** How should coordinator rows get a stable name in Orca's worktree card?
+
+**Options:**
+
+a) (recommended, confidence medium - the code makes the cause certain, but whether to ask Orca for a change, which is an outward-facing step, is your call) Accept the swap for now and raise an Orca feature request: put the name first and show monitoring through the status dot, or add a setting for it. The request would be sent only on your go.
+
+b) Change the coordinator's wake so it holds no Claude Code background task between turns, for example a scheduled wake instead of an armed waiter. This is a change to the coordinator method, and nobody has checked yet whether it works in Orca native chats.
+
+c) Accept the swap and do nothing further. The name is still on the end of the row, past the cut, and on the chat's own tab.
+
 ## Parked
 
 None.
