@@ -86,6 +86,12 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ---
 
+## Orca evaluation
+
+[orca-evaluation](orca-evaluation.md) works out how best to use Orca alongside Knowledge Islands, building up the island's knowledge of it as the evaluation goes.
+
+---
+
 ## Paperclip capture and rebuild
 
 [paperclip-capture-and-rebuild](paperclip-capture-and-rebuild.md) captures Paperclip's approach in the island, keeps the `terra` service stopped, and designs a fresh rebuild once the ways-of-working model settles.

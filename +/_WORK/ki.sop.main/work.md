@@ -9,6 +9,7 @@ covers:
   - ki.prj.knowledge-acquisition
   - ki.prj.mac-studio-setup
   - ki.prj.observatory
+  - ki.prj.orca-evaluation
   - ki.prj.paperclip-capture-and-rebuild
   - ki.prj.portable-specifications
   - ki.prj.timelines
