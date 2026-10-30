@@ -15,6 +15,7 @@ method_read: 6868da5a
 - Re-bootstrapped 30 October 11:16 GMT. Received ORCA-HANDOVER (trial log now at `design/orca-trial.md`), ORCA-REACH, WAKE-SESSION and WAKE-DURABLE; logged in `decisions.md`.
 - Run `trial-plan` (ki-prj-orca-evaluation) drafting the trial plan within ORCA-REACH, WAKE-SESSION and WAKE-DURABLE.
 - Run `thread-nesting` investigating Kris's 30 October question whether Orca can show a coordinator's runs nested under its thread in the project view.
+- Run `sidebar-restore` finding how to restore Orca Mobile and Tasks to Orca's sidebar after Hide from sidebar; Kris keeps Automations hidden.
 
 ## Next steps
 
