@@ -102,7 +102,62 @@ tools-ki tests inject `AgentProcesses`; Part B adds an injected `orca` command r
 - **Vendor drift.** Orca's orchestration surface is marked experimental and changes often; Part B should check Orca's advertised capabilities (`orchestration.contract.v1`, `agent.launch.v2`) before using the path and fall back when they are absent.
 - **AI Vault history.** Workers are still separate Claude sessions, so the history list may still show one entry per run, perhaps tied to its Dispatch. The live agents list is what Part B changes.
 
-## 7. Draft messages, not sent
+## 7. Worker close-out
+
+**Authority:** message ORCA-WORKER-CLEANUP, 30 October 2026, from `hnr.sop.5ge` at Kris's explicit request (Orca Run `run_632527cdc86f`): make coordinator cleanup of completed KI-created Orca workers part of the close-out routine, and verify separately whether `worker-release` stops only the runtime or also removes the visible session. This section proposes; it adopts nothing.
+
+**Evidence base:** Orca 1.4.244 on sol: `orca orchestration --help` with the `worker-release`, `worker-retain`, `worker-stop`, `worker-abandon`, `worker-list` and `worker-show` help; `orca skills get orchestration` with its `recovery-and-cleanup` reference; the app bundle's `shared/ai-vault-session-deletion.js`, `shared/ai-vault-runtime-session-delete.js` and the AI Vault panel's strings; one read-only `orca orchestration worker-list --json`; the `ki-coordination`, `ki-delegation` and `ki-work-package` skills at harness `7e8df6ef`. No worker was released, retained or stopped, so nothing below about release's effect on a list was observed: **documented** means Orca's own help or guide says it, **verified** means seen directly, **inferred** means read from code.
+
+### What Orca requires
+
+Orca's orchestration guide makes the step part of done: "each settled worker was reused, explicitly retained, or released", and after an accepted success or failure report the coordinator does "exactly one" of reusing the same proven terminal for an immediate follow-up Dispatch, `worker-retain` at the user's request, or `worker-release`. It then enumerates the terminals still owing a decision with `worker-list --run <run_id> --terminal-state reclaimable --json` and does "not end the coordinator turn until it returns none" (**documented**). Release is "post-settlement cleanup, not cancellation": only an accepted settlement authorises it, never a timeout, idle TUI, heartbeat, status, question, escalation, stale or rejected completion, or `unverifiable` liveness, and `terminal close` is never a substitute (**documented**).
+
+### What KI guidance says today
+
+Nothing. `ki-coordination`, `ki-delegation` and `ki-work-package` do not mention Orca, `worker-release` or `worker-retain` (**verified** by search at `7e8df6ef`). Their close-out steps, receive, `ki agent close`, the hold drain and Finished, cover the run packet, temporary directory and work folder only. Section 3's step 5 would have `ki agent close` release ki-launched workers once Part B lands, but no rule covers workers a KI coordinator starts by hand, as the Orca trials have.
+
+The gap is live on sol (**verified**, read-only `worker-list` across all Runs): the two succeeded workers of Run `run_30f7929469` (`ki.prj.orca-evaluation`, Orca dispatch trial) are `reclaimable` with `nextAction` `release`, owing exactly the decision the guide requires; the failed worker of Run `run_0de85069bc` (`ki.prj.mac-studio-setup`, Orca trial) is `retained` with no next action. The Run named in the message, `run_632527cdc86f`, is not on sol.
+
+### What release does and does not remove
+
+| Effect | What happens | Basis |
+| --- | --- | --- |
+| Agent terminal | Closes only "the exact coordinator-owned agent terminal" of a settled (succeeded or failed) Dispatch. | Documented |
+| Worker output | "An inspectable output archive is preserved before the terminal closes, so `worker-read` still returns output afterwards." | Documented |
+| Other terminals | Never closes setup terminals, configured tabs, reused or pre-existing terminals, user-taken-over terminals or unproven identities; those, and a Dispatch made by `orchestration dispatch`, are reported `retained` with no process action. | Documented |
+| Repeats and failure | Idempotent (`already_released`); only `release_unknown` exits 1; `release_pending` and `release_unknown` carry an exact recovery action to follow. | Documented |
+| Task, Dispatch and Run records | Kept. Terminal state is "process accounting ... reported separately from Task status", and `released` is a `worker-list` filter value, so the row stays as `released`. | Documented |
+| Worktree and files | Untouched. Release names only the terminal; `worker-stop` says outright that it never deletes the worktree. | Documented for stop; inferred for release |
+| Live agents list | The released worker's row should leave the live list, because the list is built from live panes and the pane closes. | Inferred, not observed |
+| Conversation history (AI Vault) | Not removed. The provider's own transcript (Claude's session file) is not mentioned by release, and Orca deletes history only through a separate path (next row). | Inferred from code |
+
+**Session-list cleanup is a separate, destructive act** (**verified** from code and strings). AI Vault, Orca's history list, has its own "Delete this session?" action, backed by the `aiVault.deleteSession` RPC, which removes the session's transcript files: "Once deleted, it will no longer be resumable from [the agent]'s own command line either". It is offered only for agents whose whole session is derivable from its path, Claude among them and Codex not ("one-sided deletion reappears"), and it is reached from the GUI only: `orca --help` lists no session-delete or archive verb and the CLI code carries no call to it (**verified**). No hide or archive action for history rows was found in the bundle. So release tidies the live agents list (**inferred**) and leaves history alone, and clearing the history list means deleting conversation evidence, by hand, per session.
+
+### Proposed close-out rule for KI coordinators
+
+1. **Receive.** When a coordinator receives the report of an Orca worker it or its runs started, and Orca shows the Dispatch settled, it does exactly one, and says which in the receive commit: reuses the terminal for an immediate follow-up Dispatch, retains it with `worker-retain` only at Kris's explicit request, or releases it with `worker-release --dispatch <id> --json`.
+2. **Authority.** Only an accepted settlement authorises release. Absence, timeout, idle, `unverifiable` or a status-file `DONE` without a settled Dispatch authorises nothing; `terminal close` is never used; a `release_pending` or `release_unknown` receipt's recovery action is followed exactly and reported.
+3. **Mark, hold and Finished.** For each Orca Run the work created, `worker-list --run <id> --terminal-state reclaimable --json` returns none before a mark is struck, before a hold report and before the Finished banner; anything left is named in the hold report's Left over and in the receive or mark commit.
+4. **`ki agent close`.** Once Part B lands, `ki agent close` performs step 1's release for ki-launched workers (section 3, step 5), so the coordinator's own step covers only workers started outside `ki agent`, such as trials and pilots.
+5. **History is not close-out.** Close-out never deletes an AI Vault session. Deleting conversation history is Kris's own choice, made in Orca's GUI, and no run or coordinator does it.
+
+The rule belongs in the `ki-coordination` standard (receive, the mark, On hold and Finished), with a one-line pointer from the `ki-delegation` run-close guidance; the harness owns that change and would receive it as a message. Whether a coordinator in an Orca chat, rather than an Orca terminal, may release a worker it created is unproven, because release takes only `--dispatch` and Orca resolves the caller itself; the ORCA-SUBAGENT-PILOT should check it.
+
+### ORCA-CLOSE-OUT - Make worker release part of KI coordinator close-out
+
+**Context:** Orca's guide counts supervised work as done only when each settled worker has been reused, explicitly retained or released, and KI's coordination and delegation guidance says nothing about it; two succeeded trial workers of `ki.prj.orca-evaluation` on sol are still waiting for that decision. Release closes only the worker's own terminal after archiving its output, keeps the Task and Dispatch records, and does not delete conversation history; deleting history is a separate GUI-only AI Vault action that cannot be undone. Section 3 already has `ki agent close` release ki-launched workers once Part B lands, which covers only runs `ki agent` starts.
+
+**Query:** Should the five-step close-out rule above go into the `ki-coordination` standard now, as a message to the harness, rather than waiting for Part B?
+
+**Options:**
+
+a) (recommended, confidence medium - the rule repeats Orca's own required step and the gap is live, but whether a chat coordinator can release its workers is unproven until the pilot) Yes: send the rule to the harness now as a message, covering receive, mark, hold and Finished, with history deletion kept out of close-out; `ki agent close` takes over ki-launched workers when Part B lands.
+
+b) Wait for the ORCA-SUBAGENT-PILOT and Part B, and fold the rule into `ki agent close` only, leaving hand-started workers to the work that started them.
+
+c) Also make AI Vault session deletion part of close-out, with Kris's go per session, to declutter the history list.
+
+## 8. Draft messages, not sent
 
 For `ki.prj.tools-burndown` (`+/_WORK/ki.prj.tools-burndown/messages.md`):
 
@@ -112,7 +167,9 @@ For `ki.prj.orca-evaluation` (`+/_WORK/ki.prj.orca-evaluation/messages.md`):
 
 > 2026-10-30 from ki.prj.ways-of-working: ORCA-SUBAGENT-PILOT - the orca-subagents design (`ki-principal/+/_WORK/ki.prj.ways-of-working/design/orca-subagents/design.md`) needs one supervised pilot from an Orca coordinator chat on sol, with Kris watching: `orca orchestration run-create` then one `orca orchestration worker-start --spec <short brief> --worktree current --agent claude`, to answer whether the worker nests under the chat in the agents list, whether it runs without permission prompts under the current agent-launch settings, whether it survives the coordinator chat ending, and what `worker_done` leaves in the Run inbox. Please fold it into your evaluation and send the answers back; not blocking.
 
-## 8. Queries
+## 9. Queries
+
+Section 7 carries its own query, ORCA-CLOSE-OUT.
 
 ### ORCA-ENV-LEAK - Stop runs inheriting the coordinator's Orca identity
 
