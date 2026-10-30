@@ -16,6 +16,22 @@ a) (recommended, confidence high - attended sol evidence is the one missing fact
 
 b) Defer the probe; the record stays draft and sol's TOML hold remains.
 
+### RIG-INTAKE - What happens to the nine retained Rig capability lines
+
+since 2026-10-30 · from rig-intake.report.md (per-line table there) · blind review intake-review running
+
+**Context:** Nine lines (eleven bullets) have waited in this package since 29 October. On 14 October Kris set BURN-DOWN ("burn the roadmap down; no new feature records"). CAPTURE-GATE refined it on 19 October: capture only blockers, defects seen failing, or items Kris asked for, and put ideas in `_IDEAS.md`. Four lines carry Kris's own explicit asks: RIG-TUI, RIG-SSH-CHECK, RIG-COMMENT-KIND and the IMPORTANT RIG-APP-FOOTPRINT with its RIG-NOTIFICATIONS and RIG-MACHINE-MANAGEMENT companions. RIG-CLI-CONSISTENCY reports defects seen failing on sol. The footprint group's natural owner, KI-TOOL-RIG-CORE-072, was moved to ideas on 27 October, after those asks, when Kris bulk-approved the sweep's "defer to Later" bucket and asked for fewer things in the queue. The sweep did not have the footprint lines in front of it. WAKE-SUBSTRATE needs nothing new from Rig, since `scheduled-job` already makes the launchd job. chezmoi already covers RIG-REMINDER-DOCTOR.
+
+**Query:** Should the lines be dispositioned as the table proposes: four triage captures, the footprint group held in the KI-TOOL-RIG-CORE-072 idea, and two returns?
+
+**Options:**
+
+a) (recommended, confidence medium - each capture rests on Kris's own words or a defect seen failing, which CAPTURE-GATE allows, and holding the footprint respects Kris's 27 October deferral of 072; but that is a bulk decision made without these lines, and it leaves an IMPORTANT ask unbuilt) Capture four unadopted tools-rig triage records: RIG-TUI with RIG-FULLSCREEN folded in, RIG-SSH-CHECK, RIG-COMMENT-KIND, and one RIG-CLI-CONSISTENCY defects record. Hold RIG-APP-FOOTPRINT, both RIG-NOTIFICATIONS lines, RIG-MACHINE-MANAGEMENT and CLI item (8) under BURN-DOWN by folding them into the KI-TOOL-RIG-CORE-072 idea, released when Kris brings 072 back. Return WAKE-SUBSTRATE (Rig's share has shipped; the trigger is tools-ki's, the declaration chezmoi's) and RIG-REMINDER-DOCTOR (covered by chezmoi) to State of play with those reasons.
+
+b) Strict BURN-DOWN: capture only the two records Kris named as idea records, RIG-TUI and RIG-SSH-CHECK. Hold RIG-COMMENT-KIND and RIG-CLI-CONSISTENCY as `_IDEAS.md` bullets, and the footprint group in the KI-TOOL-RIG-CORE-072 idea. The returns stay as in a).
+
+c) Honour the IMPORTANT footprint ask now: bring KI-TOOL-RIG-CORE-072 back from ideas as a triage record carrying the whole footprint group, split at planning, plus everything else in a).
+
 ## Parked
 
 Parked at the 2026-10-20 hold (take stock on ways of working; put back one at a time when Kris says resume):

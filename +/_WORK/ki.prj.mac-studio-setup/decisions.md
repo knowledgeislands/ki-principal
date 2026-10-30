@@ -227,3 +227,9 @@ plan069 received: KI-TOOL-RIG-CORE-069 planned and left at draft (`9297c9c`, pus
 ## 2026-10-30 01:50 GMT - rig-intake launched
 
 Operational: Kris (30 October, 01:48 GMT) noted the banner read With worker while nothing ran and the only live move was his. Correct: rig-intake, authorised in Next steps since the resume, should have launched at bootstrap. Launched now under `ki agent`, run `ki-prj-mac-studio-setup`, read-only, report only.
+
+## 2026-10-30 01:58 GMT - PLAN069-RECEIPT and rig-intake received
+
+PLAN069-RECEIPT from State of play (Kris, 30 October: "Please reconcile the completed plan069 work with ki.prj.mac-studio-setup"): the Orca dispatch's worker_done "failed" was a blocked publication only, now complete (tools-rig `9297c9c`, report preserved); no redispatch. RIG-069-PROBE already in `queries.md`; plan069 outcome already logged above. The hook-managed backup was, in Kris's words, "a bounded exception, not a general change to the no-stash rule". Report kept until ORCA-HANDOVER. Line removed.
+
+rig-intake received: RIG-INTAKE (medium) copied to `queries.md`; blind review intake-review launched on Codex at high effort, masked; report kept until answered; brief pruned.
