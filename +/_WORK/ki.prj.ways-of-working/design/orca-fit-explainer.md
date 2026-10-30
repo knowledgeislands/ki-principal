@@ -4,7 +4,7 @@ status: draft - October 2026
 work: ki.prj.ways-of-working
 run: wow-orca
 agent: orca-fit
-written_at: 2026-10-30T01:05:00Z
+written_at: 2026-10-30T00:57:00Z
 author: Written with Claude
 ---
 
