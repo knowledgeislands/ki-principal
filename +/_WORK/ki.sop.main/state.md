@@ -1,7 +1,7 @@
 ---
 id: ki.sop.main
-state: with-worker
-since: 2026-10-30T01:45:00Z
+state: with-supervisor
+since: 2026-10-30T01:51:00Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-10-29T16:17:57Z
@@ -22,9 +22,9 @@ method_read: 6868da5a
 
 ## Next steps (re-bootstrap 01:45 GMT)
 
-1. Received sop-route (4b52fcd8): STOA-ICONS and DIAGRAM-TOOLS routed to ki.reg.main; ACCEPT-KI-TOOL-RIG-CORE-070 and ACCEPT-PERSONAL-DOTFILES-UE-106 in queries, blind review run accept-review pending.
+1. Received sop-route (4b52fcd8): STOA-ICONS and DIAGRAM-TOOLS routed to ki.reg.main; ACCEPT-KI-TOOL-RIG-CORE-070 and ACCEPT-PERSONAL-DOTFILES-UE-106 in queries, both lifted to high by the accept-review blind review.
 2. Received orca-eval (07cf32ba): ki.prj.orca-evaluation opened under theme Techne; opener given to Kris. Received route069 (3666455f): PLAN069-RECEIPT queued in ki.prj.mac-studio-setup.
-3. Kris answers the open queries in `queries.md`.
+3. Nothing running. Kris answers the eleven open queries in `queries.md`, acceptance first.
 
 ## Held
 

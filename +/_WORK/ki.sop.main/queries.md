@@ -10,7 +10,7 @@
 
 **Options:**
 
-a) (recommended, confidence medium, blind review pending - the code, tests and documents check out, but the one real-prompt check has not been run) Accept it after one attended `rig apply` on sol: accept the macOS prompt for `.toml`, and confirm Rig records Zed as applied on that first run.
+a) (recommended, confidence high - reviewed: the blind reviewer chose it independently, as one real prompt check meets the record's only outstanding Verify step) Accept it after one attended `rig apply` on sol: accept the macOS prompt for `.toml`, and confirm Rig records Zed as applied on that first run.
 
 b) Accept it now on the test evidence, and treat the attended prompt as observed the next time a handler apply happens.
 
@@ -24,7 +24,7 @@ c) Leave it awaiting review until both terra and sol have shown the prompt behav
 
 **Options:**
 
-a) (recommended, confidence medium, blind review pending - sol meets Verify today, but terra's half rests on evidence that is six days old) Accept it now, leaving sol's other `rig doctor` findings to sol's health work.
+a) (recommended, confidence high - reviewed: the blind reviewer chose it independently, as the record's narrow Verify is evidenced on both Macs and nothing shows terra has changed) Accept it now, leaving sol's other `rig doctor` findings to sol's health work.
 
 b) Accept it only after a read-only `rig doctor` and test-plist check on terra confirms its half still holds.
 
