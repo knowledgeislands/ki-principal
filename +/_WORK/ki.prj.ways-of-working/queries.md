@@ -190,23 +190,41 @@ b) Never amend in a shared checkout: correct with a follow-up commit, and rewrit
 
 c) Change no rule: the existing standard already forbids rewriting another actor's commit, so log the incident as a lapse in Mistakes and Lessons only.
 
-### ORCH-NAME - What to call the coordination skill, the dispatch skills and the command, without rename cost
+### ORCH-NAME-THREAD - What to call the coordination skill and its style, without rename cost
 
-since 2026-10-30 · from run/landscape · merged in [landscape-report](design/landscape-report.md) · rewritten after run/orch-name-fresh
+since 2026-10-30 · from run/landscape · merged in [landscape-report](design/landscape-report.md) · rewritten after run/orch-name-fresh · split from ORCH-NAME after blind review 5, with ORCH-NAME-DISPATCH taking the contract, adapters and command
 
 **Context:** On 30 October Kris asked: "If you put aside the rename cost, what is the feedback on naming then?" The earlier recommendation, to keep the current names, rested on the cost of renaming the output style, a 217 KB standard and every live package mid-rollout; both design reviews kept the names for that reason, and once it is removed the keep has no high-confidence footing. An independent naming review then judged each unit with rename cost excluded. Thread-governance skill: `ki-orchestration`, medium - `ki-coordination` is intelligible but broad, and a newcomer cannot tell whether it governs human collaboration, worker dispatch or project administration; orchestration names the agent that runs the package's state machine, the role Kris named "the orchestrator of the state machine" on 29 October. Output style: `ki-orchestrator`, medium - it names the role and drops "coordinator" as a fourth actor word beside orchestrator, worker and supervisor. Portable run contract: `ki-delegation`, high - an orchestrator delegates a bounded job and a worker returns evidence or a question; `ki-dispatch` understates the brief, authority and return, and `ki-orchestration` would put the thread's name on one of its contracts. Adapters: `ki-delegation-orca` and `ki-delegation-paperclip`, high, provided the Paperclip skill's wider remit (company boundaries, readiness, memory, delivery policy) is described honestly rather than relabelled; `ki-agent-coordination-paperclip` has no natural Orca sibling. Launcher: `ki agent`, medium, on its own merits - `ki orchestrate` implies the executable owns the package, `ki delegate` names one action of a group that also observes, steers and closes, and `ki run` is too broad; this is the least certain unit. Main risk: `ki-orchestration` overlaps Orca's installed `orchestration` skill in meaning, though not in identifier, so the descriptions must keep package governance and Orca mechanics apart. The review's strongest alternative keeps `ki-coordination` and `ki-coordinator`: coordination comfortably covers questions to Kris, decisions, handoffs and stewardship when no worker is running, and is less associated with an execution engine. It placed that second because it leaves "coordinator" as a synonym a newcomer must learn for the orchestrator. Overall confidence is medium: both leading sets are defensible and no newcomer has tested them. Moving `decide`, `reconcile`, `home` and `prompts` under `ki work` stays out of this query, under AGENT-HOME.
 
-**Query:** Setting rename cost aside, which names should the thread skill and its style, the dispatch contract, its adapters and the command take?
+**Query:** Setting rename cost aside, should the thread skill and its output style be renamed `ki-orchestration` and `ki-orchestrator`, or keep `ki-coordination` and `ki-coordinator`?
 
 **Blind review (30 October, Codex, high effort; applies to the earlier wording of this query, whose a) kept `ki-coordination` and also moved the four commands under `ki work`):** agreed with that a); confidence lifted to high.
 
+**Blind review (30 October, Codex, high effort):** differs, prefers b) at medium confidence: coordination accurately covers the verified human and agent governance scope, including periods when no worker is running, and the supplied precedent does not establish that orchestration is clearer to newcomers; it judged the orchestration wording defensible. It also noted that the packet exposed an earlier review's preferences, rankings and confidence, so this review is not fully blind. Confidence stays at medium.
+
 **Options:**
 
-a) (recommended, confidence medium - the independent review's set with rename cost excluded; the skill and style match the orchestrator role and delegation names the worker contract, but the alternative b) is defensible and untested with newcomers) Rename the thread skill `ki-orchestration` and the output style `ki-orchestrator`; keep `ki-delegation`, slimmed, as the portable contract, with adapters `ki-delegation-orca` and `ki-delegation-paperclip`, the second renamed from `ki-agent-coordination-paperclip` with its wider remit stated; keep `ki agent`.
+a) (recommended, confidence medium - the independent naming review's pick with rename cost excluded: the skill and style match the orchestrator role and drop "coordinator" as a fourth actor word; blind review 5 prefers b) instead, holding that coordination covers the whole human and agent governance scope, including periods with no worker running, and that orchestration is untested with newcomers, so the two reviews split) Rename the thread skill `ki-orchestration` and the output style `ki-orchestrator`.
 
-b) The review's strongest alternative: keep `ki-coordination` and `ki-coordinator` because coordination better conveys the whole human and agent governance practice, with the same `ki-delegation`, `ki-delegation-orca` and `ki-delegation-paperclip` family and `ki agent`.
+b) The naming review's strongest alternative and blind review 5's pick: keep `ki-coordination` and `ki-coordinator` because coordination better conveys the whole human and agent governance practice.
 
-c) Keep the current names because of rename cost, as the earlier recommendation did: keep `ki-coordination`, `ki-coordinator`, `ki-delegation` and `ki agent`, and say in the Work Process note that the orchestrator role is exercised under `ki-coordination`.
+c) Keep the current names because of rename cost, as the earlier recommendation did: keep `ki-coordination` and `ki-coordinator`, and say in the Work Process note that the orchestrator role is exercised under `ki-coordination`.
+
+### ORCH-NAME-DISPATCH - What to call the dispatch contract, its adapters and the command, without rename cost
+
+since 2026-10-30 · from run/landscape · merged in [landscape-report](design/landscape-report.md) · rewritten after run/orch-name-fresh · split from ORCH-NAME after blind review 5, with ORCH-NAME-THREAD taking the thread skill and style
+
+**Context:** On 30 October Kris asked: "If you put aside the rename cost, what is the feedback on naming then?" An independent naming review judged each unit with rename cost excluded. Portable run contract: `ki-delegation`, high - an orchestrator delegates a bounded job and a worker returns evidence or a question; `ki-dispatch` understates the brief, authority and return, and `ki-orchestration` would put the thread's name on one of its contracts. Adapters: `ki-delegation-orca` and `ki-delegation-paperclip`, high, provided the Paperclip skill's wider remit (company boundaries, readiness, memory, delivery policy) is described honestly rather than relabelled; `ki-agent-coordination-paperclip` has no natural Orca sibling. Launcher: `ki agent`, medium, on its own merits - `ki orchestrate` implies the executable owns the package, `ki delegate` names one action of a group that also observes, steers and closes, and `ki run` is too broad; this is the least certain unit. Both leading sets for the thread skill, in ORCH-NAME-THREAD, carry this same family. Moving `decide`, `reconcile`, `home` and `prompts` under `ki work` stays out of this query, under AGENT-HOME.
+
+**Query:** Setting rename cost aside, which names should the dispatch contract, its adapters and the command take?
+
+**Blind review (30 October, Codex, high effort):** agrees with a), the family in both its pick and its runner-up for the whole naming query, which it rated medium overall because of the thread-skill split: delegation names the bounded worker contract, the Paperclip skill demonstrably governs company and repository boundaries, memory, readiness and delivery, so its wider scope must be stated explicitly and not narrowed for family symmetry, and Orca's installed `orchestration` skill already denotes Orca worker orchestration. It noted that the packet exposed an earlier review's preferences, so this review is not fully blind, and that the command's behaviour beyond its documented launcher role was not verified. Confidence lifted to high.
+
+**Options:**
+
+a) (recommended, confidence high - reviewed; the naming review and blind review 5 both choose this family on its merits, the reviewer verified the Paperclip skill's wider scope and Orca's separate `orchestration` skill, and the least certain unit is the launcher name, which both keep) Keep `ki-delegation`, slimmed, as the portable contract, with adapters `ki-delegation-orca` and `ki-delegation-paperclip`, the second renamed from `ki-agent-coordination-paperclip` with its wider remit stated; keep `ki agent`.
+
+b) Keep the current names because of rename cost, as the earlier recommendation did: keep `ki-delegation`, `ki-agent-coordination-paperclip` and `ki agent`.
 
 ### LAYOUT-SHAPE - Which package layout to adopt
 
@@ -216,9 +234,11 @@ since 2026-10-30 · from run/package-layout · [design](design/package-layout/de
 
 **Query:** Which layout should the pilot use?
 
+**Blind review (30 October, Codex, high effort):** agrees with a) at medium confidence: a flat matter folder tests the proposed organisational benefit with fewer structural dependencies; it adds that the pilot should use one small, explicitly bounded matter, and notes that the Context's claims about the sprawl's cause, the migration costs and the ignore behaviour were not verifiable from the packet. Confidence lifted to high.
+
 **Options:**
 
-a) (recommended, confidence medium - the evidence favours the group as the unit of tidy, and C avoids the ignore collision, but nothing has been piloted) C, group-first and flat.
+a) (recommended, confidence high - reviewed; a flat matter folder tests the group as the unit of tidy with the fewest structural dependencies and avoids the ignore collision, and since nothing has been piloted the pilot takes one small, bounded matter) C, group-first and flat.
 
 b) B, group-first with `briefs/` and `reports/` subfolders, plus the `ki-repo` ignore exception.
 
@@ -232,9 +252,11 @@ since 2026-10-30 · from run/package-layout · [design](design/package-layout/de
 
 **Query:** Should the tidy rule allow deleting one named, closed group folder whole?
 
+**Blind review (30 October, Codex, high effort):** agrees with a) at medium confidence: one explicit group deletion is reviewable once every contained file has an evidenced disposition; it adds that before the one commit the steward enumerates the group's tracked contents and checks each file's durable home, copied queries and design-note disposition, preserving separately owned or unresolved material, because Git keeps committed versions but proves neither that knowledge was homed nor anything never committed. It recommends the policy only, not the deletion of any existing folder. Confidence lifted to high.
+
 **Options:**
 
-a) (recommended, confidence medium - it makes the group pay its way and Git keeps history, but it widens a deletion rule and is untested) Yes: a steward may delete one named, closed group in one commit.
+a) (recommended, confidence high - reviewed; one named group deletion stays reviewable when every file in it has an evidenced disposition checked before the commit, and Git keeps history; it widens a deletion rule, deletes no existing folder by itself, and is untested) Yes: a steward may delete one named, closed group in one commit.
 
 b) No: keep file-by-file deletion inside groups.
 
@@ -246,9 +268,11 @@ since 2026-10-30 · from run/package-layout · [design](design/package-layout/de
 
 **Query:** In what order should the pilot run?
 
+**Blind review (30 October, Codex, high effort):** agrees with a) at medium confidence: establishing a valid layout first and then gathering bounded manual evidence avoids waiting for the full tooling rollout; it adds that the pilot keeps an explicit inventory and reachable links for moved material, and waits for tooling support if those cannot keep receiving, discovery and tidy whole. Confidence lifted to high.
+
 **Options:**
 
-a) (recommended, confidence medium - a small harness change first keeps the rubric honest, and moving received reports by hand at receive bridges the launcher gap) Change the closed list and FOLDER rubric first, then pilot this package by hand, receiving and tidying before moving, with launcher and Observatory changes following.
+a) (recommended, confidence high - reviewed; a small harness change first keeps the rubric honest, and moving received reports by hand at receive, with an inventory of what moved, bridges the launcher gap) Change the closed list and FOLDER rubric first, then pilot this package by hand, receiving and tidying before moving, with launcher and Observatory changes following.
 
 b) Pilot now, ahead of the rubric, and accept FOLDER-1 failures in this package until the harness catches up.
 
@@ -276,9 +300,11 @@ since 2026-10-30 · from run/package-layout · [design](design/package-layout/de
 
 **Query:** Should precedent alone stop counting towards confidence?
 
+**Blind review (30 October, Codex, high effort):** agrees with a) at high confidence: repeated reliance on one premise creates no independent evidence for that premise or for the recommended course; it would also give framing-only agreement no lift, as the proposal does, and judge confidence against the verified rationale rather than reviewer unanimity, and it notes that the forecast of more medium queries reaching Kris is unverified. Confidence lifted to high.
+
 **Options:**
 
-a) (recommended, confidence medium - it follows Kris's direction directly, but it shifts confidence on every query and has no trial evidence) Yes: no lift from precedent-only agreement, and a precedent-only reason caps at medium.
+a) (recommended, confidence high - reviewed; it follows Kris's direction directly and agreement resting on one premise adds no independent evidence for it, though it shifts confidence on every query and has no trial evidence) Yes: no lift from precedent-only agreement, and a precedent-only reason caps at medium.
 
 b) No: keep today's lift rule, relying on the independence sentence alone.
 
@@ -290,9 +316,11 @@ since 2026-10-30 · from run/package-layout · [design](design/package-layout/de
 
 **Query:** Should feedback packages be writable now, outside the Observatory?
 
+**Blind review (30 October, Codex, high effort):** agrees with a) at medium confidence: an equivalent manual route removes an interface dependency while keeping owner attribution and receipt; it adds that a steward transcription names the owner as speaker, keeps the words verbatim, never turns a comment into approval, and keeps transcription and any later interpretation distinguishable. Confidence lifted to high.
+
 **Options:**
 
-a) (recommended, confidence medium - it uses an existing kind and shape, but a steward writing on the owner's behalf needs the verbatim rule held) Yes, by the owner by hand or by the steward verbatim from the owner's words.
+a) (recommended, confidence high - reviewed; it uses an existing kind and shape and removes the Observatory dependency, provided the steward's verbatim rule holds with the owner named as speaker) Yes, by the owner by hand or by the steward verbatim from the owner's words.
 
 b) No: feedback stays spoken until the Observatory path is ready.
 
