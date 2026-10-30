@@ -798,3 +798,7 @@ The pause commit 515b2adf removed the eight definition/freshness Open queries wi
 Kris: "Yes, launch the design run." This followed the proposal to design how Orca fits the Knowledge Islands work model, with Knowledge Islands as the durable layer (work package, roadmap, authority, decisions) and Orca as the live layer (launch, worktrees, task queue, heartbeats, gates), without forcing Orca off what it does best. Kris also asked for a clearer explanation of how roadmaps, work packages, runs, hosts and Orca relate.
 
 Read-back: one ki-work-design run writes a design note and a plain-language explainer in this package's design/ folder for Kris's sanity check. No standard, skill, roadmap record or Orca configuration changes are authorised.
+
+## LANDSCAPE - commission the landscape study (30 October 2026)
+
+Kris agreed on 30 October 2026, 01:20-01:37 GMT, in the conversational thread, to commission the landscape study in `briefs/landscape.md`, successor to ORCA-FIT, launched by this thread's next coordinator: "Okay, yes." ... "Yes, okay. Let's get those four threads moving". Also asked to pick up HOST-SYNC early, keeping commits level across sol and terra. Received from `messages.md` at re-bootstrap 01:41 GMT; launched as run `ki-prj-ways-of-working`, agent `landscape`, read-only research, no push.
