@@ -4,7 +4,7 @@ status: draft - October 2026
 work: ki.prj.ways-of-working
 run: ki-prj-ways-of-working
 agent: landscape
-written_at: 2026-10-30T02:40:00Z
+written_at: 2026-10-30T02:00:00Z
 author: Written with Claude
 ---
 
@@ -34,7 +34,7 @@ Under `ki-work-design` this note is the design brief. Its numbered claims are fo
 
 ## Evidence and its limits
 
-All evidence was gathered on **sol**, the Mac Studio, on 30 October 2026 between 01:40 and 02:30 GMT.
+All evidence was gathered on **sol**, the Mac Studio, on 30 October 2026 between 01:40 and 02:00 GMT.
 
 **Installed on sol**, from read-only version and help commands:
 

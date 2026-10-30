@@ -4,7 +4,7 @@ status: draft - October 2026
 work: ki.prj.ways-of-working
 run: ki-prj-ways-of-working
 agent: landscape
-written_at: 2026-10-30T02:50:00Z
+written_at: 2026-10-30T02:02:00Z
 author: Written with Claude
 ---
 
