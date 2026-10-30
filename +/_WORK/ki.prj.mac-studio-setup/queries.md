@@ -16,6 +16,20 @@ a) (recommended, confidence high - Kris named the unit and its limits; size pick
 
 b) Plan KI-TOOL-RIG-CORE-068 instead, which first needs PLAN068-VERIFY-GRANT, PLAN068-UNPRIV and PLAN068-READY answered.
 
+### ORCA-SKILL - When to write a ki-work-orca skill
+
+since 2026-10-30 · Kris's question at bootstrap
+
+**Context:** Orca's own `orchestration` skill already teaches the mechanics: Run, Task, Dispatch, heartbeats, ask and reply, worker_done. What KI lacks is the mapping onto its own model: the work package as the record, briefs, run reports, the decisions log and the authority footers that `ki-delegation` owns and `ki agent` launches. The trial log in `design/orca-trial.md` is collecting that mapping, but no worker has run yet. A skill lives in `ki-agentic-harness`, so writing one is harness work for ki.prj.ways-of-working, not this Project.
+
+**Query:** Should the skill wait for the trial's evidence, or be started now?
+
+**Options:**
+
+a) (recommended, confidence high - the mapping is what the skill needs, and none of it has been seen working yet) Run two or three units here first, then send the trial log to ki.prj.ways-of-working as a message proposing an Orca launcher under `ki-delegation`, perhaps named `ki-work-orca`.
+
+b) Send the proposal to ki.prj.ways-of-working now, and let the trial log feed the draft as it grows.
+
 ## Parked
 
 Parked at the 2026-10-20 hold (take stock on ways of working; put back one at a time when Kris says resume):
