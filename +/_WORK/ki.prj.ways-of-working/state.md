@@ -12,17 +12,15 @@ method_read: 6868da5a
 
 ## Now
 
-- 30 October: Kris answered at 06:15 GMT; accepted landscape decisions sent to ki.prj.orca-evaluation and ki.prj.tools-burndown. HOST-SYNC reviewed and merged (`design/host-sync/report.md`); private report reviewed; WORKER-WAIT split; naming reviewed without rename cost; package layout designed (`design/package-layout/design.md`).
-- Sent to Kris at 06:45 GMT with every open query blind-reviewed under the REVIEW-INDEPENDENCE direction.
+- Hold requested for the Zed-to-Orca move on sol, with release "resume in Orca on sol". NOT DRAINED: the existing PUBLIC-REPORT-RECOVERY decision still has no approved off-machine private destination or transfer authority, so the required portability guarantee is not established.
+- No live worker or queued/held run was observed across four bound KI run groups. No new work was launched; the old Z waiters were already stopped. Protected local reports, original evidence and retained work remain untouched.
+- Current holder and mark are preserved; On hold is not falsely recorded. Existing questions remain complete, and STREAMS-SKIP and ORCA-HERMES remain queued for the continuing orchestrator.
 
 ## Next steps
 
-1. Take Kris's answers by tag and read each back in `decisions.md`.
-2. Follow-ups: AGENT-HOME due 2 November 2026; ORCA-REACH due 6 November 2026.
-3. On LAYOUT answers: harness message for the closed list and FOLDER rubric, then pilot this package by hand on one bounded matter.
-4. On HOST-* answers: one rollout line each to the Rig and chezmoi queues.
-5. Keep the three possibly protected untracked files out of every commit until PUBLIC-REPORT-RECOVERY is answered.
-6. Continue the approved MOD-011 reconciliation, acknowledged handovers and final exit checks.
+1. Resolve PUBLIC-REPORT-RECOVERY: explicitly approve the private destination and bounded transfer/restore verification, or explicitly decide the alternative recovery policy. Keep protected material out of Git and cleanup meanwhile.
+2. Finish the remaining drain checks, park every open question in full, and only then enter On hold with release "resume in Orca on sol" and strike the hold mark.
+3. Re-bootstrap in Orca from this principal checkout; follow the current decisions, pending messages and approved work after the recorded blockers are resolved.
 
 ## Held
 
