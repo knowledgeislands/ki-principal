@@ -226,6 +226,8 @@ since 2026-10-30 · from run/landscape, split from WAKE · merged in [landscape-
 
 **Query:** On which host may the headless coordinator pass run?
 
+**Blind review (30 October, Codex, high effort):** differs, prefers b) at medium confidence: the pass should observe the work it serves, so propose the bounded Enactment amendment for sol, with no pass there before approval; a terra pass sees only terra's runs, and terra's absence from the focus is not itself permission.
+
 **Options:**
 
 a) (recommended, confidence medium - needs no policy change and is reversible, but a terra pass sees only terra's runs and the reviewers did not agree on a host) Terra first, for works whose own decision names the pass; no pass on sol or `vega` unless the focus is later changed through the Enactment Process.
