@@ -66,19 +66,29 @@ a) (recommended, confidence high - reviewed, the blind review agreed; it lets th
 
 b) No. Wait for the ORCA-FIT notes and settle those choices before any unit runs.
 
-### NEST-ROUTE - How to get a coordinator's runs nested in Orca
+### NEST-TRIAL - Prove run nesting inside the trial
 
-**Context:** Orca nests a run under its coordinator only when it started the run itself through `orca orchestration worker-start` or `dispatch`, because only those record the coordinator as the parent. It then shows a collapsible "N agents" group on the coordinator's row, and an Agents-list switch, "Show child agents" (off on sol), reveals the child rows. A detached `ki agent` run cannot claim a parent, whatever it is passed. The trial already plans Orca-dispatched units under ORCA-REACH, and an Orca launcher proposal comes after them (ORCA-SKILL). The nesting is read from Orca's code and has not yet been watched on screen.
+**Context:** Orca nests a run under its coordinator only when it started the run itself (`orca orchestration worker-start` or `dispatch`), which records the coordinator as parent; the coordinator's row then gets a collapsible "N agents" group, and the Agents-list switch "Show child agents" (off on sol) reveals the child rows. Detached `ki agent` runs cannot claim a parent, so they stay flat. This is read from Orca's code and has not been seen on screen. The trial already plans Orca-dispatched units, and the Orca launcher proposal (ORCA-SKILL) follows them.
 
-**Query:** Which route should this Project take to get nested runs?
+**Query:** Should the trial's next Orca-dispatched unit check the nesting on screen, and ORCA-SKILL count it as a benefit of the Orca launcher?
 
 **Options:**
 
-a) (recommended, confidence medium - the code evidence is direct but the nesting has not been seen on screen) Fold nesting into the trial: the next Orca-dispatched unit checks the coordinator's row on screen, with "Show child agents" switched on, and ORCA-SKILL counts nesting as one benefit of the Orca launcher. `ki agent` runs stay flat until then.
+a) (recommended, confidence high - reviewed, the blind review agreed; it costs nothing extra and settles what the code suggests) Yes: switch "Show child agents" on and record what the coordinator's row shows in the trial evidence; `ki agent` runs stay flat until the launcher decision.
 
-b) As a), and also raise an Orca feature request for a supported way for agent sessions Orca did not start to declare a parent and a display name, so `ki agent` runs could nest without changing launcher.
+b) Try the low-level route now instead: run an agent in an Orca terminal and attach an orchestration Task to it, keeping `ki agent`'s lifecycle; untested, and Orca's guide calls it unsupervised.
 
-c) Try the low-level route now: run the agent in an Orca terminal and attach an orchestration Task to it, keeping `ki agent`'s lifecycle. This is untested and Orca's guide calls it unsupervised.
+### NEST-FR - Ask Orca for a supported way for outside sessions to declare a parent
+
+**Context:** Today only Orca's orchestration records give a row a parent; a session Orca did not start, such as a `ki agent` run, has no supported way to declare a parent or a display name. A feature request would ask for one (an `orca agent attach --parent ... --name ...` command or a documented hook variable). Views differ: the investigating run would fold nesting into the trial and not ask yet; the blind review would ask now, so that runs keeping `ki agent`'s lifecycle could nest. If you take Orca as the launcher for this work, the request matters less. It could go together with the sidebar request (ORCA-SIDEBAR-FR). Sending it is an outbound action.
+
+**Query:** Should a feature request for outside sessions to declare a parent go to Orca now?
+
+**Options:**
+
+a) (recommended, confidence medium - views differ: the review favours asking now, but your steer towards Orca's own launcher lowers its value) Hold it until trial unit 1 has shown nesting on screen, then decide, bundled with any other Orca feedback.
+
+b) Send it now, bundled with the sidebar request.
 
 ### ORCA-IDENTITY-LEAK - Stop `ki agent` runs inheriting the coordinator's Orca identity
 
@@ -88,7 +98,7 @@ c) Try the low-level route now: run the agent in an Orca terminal and attach an 
 
 **Options:**
 
-a) (recommended, confidence medium - the leak was seen directly, but how removing the variables affects terra's list is unverified) Send the message. It asks `ki agent` to drop `ORCA_AGENT_SESSION_ID`, `ORCA_AGENT_SESSION_SPAWN_TOKEN`, `ORCA_STRUCTURED_SESSION`, `ORCA_PANE_KEY`, `ORCA_TAB_ID`, `ORCA_WORKTREE_ID` and the `ORCA_AGENT_HOOK_*` variables from the runs it starts, and to check terra's list afterwards.
+a) (recommended, confidence high - reviewed, the blind review agreed; the leak was seen directly, but how removing the variables affects terra's list is unverified) Send the message. It asks `ki agent` to drop `ORCA_AGENT_SESSION_ID`, `ORCA_AGENT_SESSION_SPAWN_TOKEN`, `ORCA_STRUCTURED_SESSION`, `ORCA_PANE_KEY`, `ORCA_TAB_ID`, `ORCA_WORKTREE_ID` and the `ORCA_AGENT_HOOK_*` variables from the runs it starts, and to check terra's list afterwards.
 
 b) Hold it until the attended terra check shows how terra lists the runs, then decide.
 
