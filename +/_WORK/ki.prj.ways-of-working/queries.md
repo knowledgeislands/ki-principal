@@ -10,6 +10,8 @@ since 2026-10-29 · from run/sol-state-machine-readiness; refines the parked STA
 
 **Query:** Should With worker include these cases as worker-side ownership with an explicit queued/orchestrating description, or require an actual worker role holder before entering it?
 
+**Blind review (30 October, Codex, high effort):** differs, prefers b) at medium confidence: an explicit holder keeps ownership truthful, and an orchestrator mid-turn does not by itself establish assignment.
+
 **Options:**
 
 a) (recommended, confidence medium - preserves the current capacity rule and agreed diagram while keeping run status truthful) Include both cases as worker-side ownership; say explicitly that this need not mean a run is in flight and show queued/orchestrating work accurately. Align the narrower source sentence and holder projections with that reading.
@@ -37,6 +39,8 @@ since 2026-10-29 · from run/sol-host-sync-design; refines the parked HOST-SYNC 
 **Context:** The owner requested regular equivalent work with offsets and gave an hour/five-minute example. No actual cadence, host offset or zone is adopted. Independent reviews establish that offsets cannot prevent overlap or certify completion. Rig and chezmoi would own any later realisation.
 
 **Query:** Which cadence should the receiving owners prepare, without activating it?
+
+**Blind review (30 October, Codex, high effort):** differs, prefers b) at medium confidence: measured phase duration and exclusion behaviour should come before a fixed interval.
 
 **Options:**
 
@@ -66,6 +70,8 @@ since 2026-10-29 · from run/sol-host-sync-design; refines the parked HOST-SYNC 
 
 **Query:** Should secondary-origin changes continue to be published only through separately authorised attended work, or should Rig prepare a recurring secondary-publication phase for later review?
 
+**Blind review (30 October, Codex, high effort):** differs, prefers b) at medium confidence: a separately reviewed opt-in publication phase closes the round trip; activation stays a separate decision.
+
 **Options:**
 
 a) (recommended, confidence medium - supplies a valid return path without adding unattended publication authority) Keep secondary consumption pull-only in the recurring proposal; secondary-origin changes reach Git through separately authorised attended work. Read-back consumes only what is actually published and reports outstanding unpublished work as outside its coverage.
@@ -80,9 +86,11 @@ since 2026-10-29 · from run/sol-host-sync-design; refines the parked HOST-SYNC 
 
 **Query:** Should primary read-back wait for its next hourly occurrence, or should the receiving owners prepare an additional short-delay phase?
 
+**Blind review (30 October, Codex, high effort):** agrees with a); confidence lifted to high, its hourly interval conditional on HOST-CADENCE.
+
 **Options:**
 
-a) (recommended, confidence medium - simplest bounded start while coverage and duration are unproven) Read published secondary-origin updates at the start of the primary's next authorised hourly occurrence, before evaluating eligible primary publication. State the resulting delay explicitly; make no immediate-convergence promise.
+a) (recommended, confidence high - reviewed; simplest bounded start while coverage and duration are unproven) Read published secondary-origin updates at the start of the primary's next authorised hourly occurrence, before evaluating eligible primary publication. State the resulting delay explicitly; make no immediate-convergence promise.
 
 b) Prepare an extra pull-only read-back at Terra :10 and Sol :12, separately bounded and guarded; retain next-occurrence recovery if a prior phase is late or absent. This adds promptness, not publication authority or an acknowledgement guarantee.
 
@@ -124,9 +132,11 @@ since 2026-10-30 · from a message line received by the coordinator.
 
 **Query:** Should `ki-git` allow an amend in a shared checkout only after confirming `HEAD` is the session's own unpublished commit, or forbid amending there altogether?
 
+**Blind review (30 October, Codex, high effort):** agrees with a) at high confidence; confidence lifted to high.
+
 **Options:**
 
-a) (recommended, confidence medium - makes the existing never-rewrite-another's-commit rule mechanical with the parent-check pattern the standard already uses, and keeps its own-unpushed-commit repair path; a check outside the serialised window would still race) Amend in a shared checkout only inside the serialised write window and only after confirming `HEAD` equals the commit this session itself recorded and has not pushed; otherwise make a new commit. Send it to the KI Agentic Harness as a message line for `ki-git`.
+a) (recommended, confidence high - reviewed; makes the existing never-rewrite-another's-commit rule mechanical with the parent-check pattern the standard already uses, and keeps its own-unpushed-commit repair path; a check outside the serialised window would still race) Amend in a shared checkout only inside the serialised write window and only after confirming `HEAD` equals the commit this session itself recorded and has not pushed; otherwise make a new commit. Send it to the KI Agentic Harness as a message line for `ki-git`.
 
 b) Never amend in a shared checkout: correct with a follow-up commit, and rewrite the standard's own-unpushed-commit repair path to match. Send it to the KI Agentic Harness as a message line for `ki-git`.
 
