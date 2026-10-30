@@ -324,6 +324,66 @@ a) (recommended, confidence high - reviewed; it uses an existing kind and shape 
 
 b) No: feedback stays spoken until the Observatory path is ready.
 
+### ORCA-CLOSE-OUT - Make worker release part of KI coordinator close-out
+
+since 2026-10-30 · from run/orca-subagents · [design](design/orca-subagents/design.md)
+
+**Context:** Orca's guide counts supervised work as done only when each settled worker has been reused, explicitly retained or released, and KI's coordination and delegation guidance says nothing about it; two succeeded trial workers of `ki.prj.orca-evaluation` on sol are still waiting for that decision. Release closes only the worker's own terminal after archiving its output, keeps the Task and Dispatch records, and does not delete conversation history; deleting history is a separate GUI-only AI Vault action that cannot be undone. Section 3 already has `ki agent close` release ki-launched workers once Part B lands, which covers only runs `ki agent` starts.
+
+**Query:** Should the five-step close-out rule above go into the `ki-coordination` standard now, as a message to the harness, rather than waiting for Part B?
+
+**Options:**
+
+a) (recommended, confidence medium - the rule repeats Orca's own required step and the gap is live, but whether a chat coordinator can release its workers is unproven until the pilot) Yes: send the rule to the harness now as a message, covering receive, mark, hold and Finished, with history deletion kept out of close-out; `ki agent close` takes over ki-launched workers when Part B lands.
+
+b) Wait for the ORCA-SUBAGENT-PILOT and Part B, and fold the rule into `ki agent close` only, leaving hand-started workers to the work that started them.
+
+c) Also make AI Vault session deletion part of close-out, with Kris's go per session, to declutter the history list.
+
+### ORCA-SUBAGENT-PILOT - Prove the Orca worker path before changing tools-ki
+
+since 2026-10-30 · from run/orca-subagents · [design](design/orca-subagents/design.md)
+
+**Context:** Orca links a supervised worker to its creator through `orca orchestration worker-start`, which records the creator's session on the Dispatch. Whether such a worker nests under a chat coordinator in Orca's agents list, runs without permission prompts, survives the chat ending, and leaves the Run inbox in a tolerable state was read from code, not observed; Orca stores no creator pane for a chat, and the list nests rows by pane. One hand-started worker with Kris watching answers all four. It starts an Orca worker, so it needs Kris's go and belongs with the Orca evaluation.
+
+**Query:** Should one supervised Orca worker pilot run, through `ki.prj.orca-evaluation`, before any tools-ki change for sub-agents?
+
+**Options:**
+
+a) (recommended, confidence high - the hierarchy Kris asked for is the one claim the evidence cannot settle, and a wrong guess costs a tools-ki change) Yes: send the ORCA-SUBAGENT-PILOT line to `ki.prj.orca-evaluation` as drafted.
+
+b) Skip the pilot and implement Part B directly, accepting that the nesting may not appear.
+
+c) Drop the Orca placement and keep runs detached, with Part A only.
+
+### ORCA-PLACEMENT - Which Orca route Part B takes
+
+since 2026-10-30 · from run/orca-subagents · [design](design/orca-subagents/design.md)
+
+**Context:** If the pilot shows nesting, Part B can start workers with Orca's own launch (`worker-start --agent`, which uses Kris's Orca agent-launch settings and cannot pass `--add-dir`), or create an Orca terminal running today's exact `claude`/`codex` command and hand it to `worker-start --terminal`, which keeps today's autonomy flags but is the low-level route Orca reserves for argv it cannot express. The first is simpler and closer to how Orca's own sub-agents start; the second preserves today's run contract exactly. Which one works depends on the pilot's permission and directory findings.
+
+**Query:** Should Part B use Orca's own agent launch, or adopt a terminal running today's command?
+
+**Options:**
+
+a) (recommended, confidence medium - simplest and most Orca-native, but autonomy and extra directories are unproven until the pilot) Orca's own launch, `worker-start --agent`, switching to the terminal route only if the pilot shows prompts or blocked writes.
+
+b) The terminal route from the start, `terminal create --command` plus `worker-start --terminal`.
+
+### ORCA-QUEUE - How queued runs behave under Orca
+
+since 2026-10-30 · from run/orca-subagents · [design](design/orca-subagents/design.md)
+
+**Context:** Orca does not start a task when its dependencies finish, so ki's dispatcher must still start a queued run when its `--wait-for` gate opens. The dispatcher keeps the coordinator's environment and can start the run as an Orca worker while the coordinator's chat is live; after the chat ends, Orca will most likely not accept it as the caller, and the run would start detached as today. The alternative is to keep every queued run detached so that queued and immediate runs behave the same.
+
+**Query:** When a queued run's gate opens, should the dispatcher try the Orca path first and fall back to a detached launch?
+
+**Options:**
+
+a) (recommended, confidence medium - keeps queued runs under their thread in the common case and never impersonates a parent that has gone, but the dead-parent behaviour is inferred) Orca first while the parent chat is live, detached otherwise, with the placement and reason in the receipt.
+
+b) Queued runs stay detached; only immediate launches use the Orca path.
+
 ### WAKE-HOST - Where the headless coordinator pass may run
 
 since 2026-10-30 · from run/landscape, split from WAKE · merged in [landscape-report](design/landscape-report.md)
@@ -350,6 +410,7 @@ c) No host for now: session wakes only, until a work needs a durable wake and na
 - WAKE-DURABLE - answered a) on 30 October 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
 - WORKTREE-OPTOUT - answered a) on 30 October 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
 - HOST-REVIEW - supply the missing common-brief review packet. Answered a) on 30 October 2026, "proceed with the recommendation, then refine additional HOST-* based on that review"; see [Owner answers, 30 October 2026, 06:15 GMT](decisions.md#owner-answers-30-october-2026-0615-gmt). Delivered as the [merged host-sync report](design/host-sync/report.md).
+- ORCA-ENV-LEAK - acted on 30 October 2026 under Kris's ORCA-SUBAGENTS words: sent to ki.prj.tools-burndown; see [ORCA-SUBAGENTS](decisions.md#orca-subagents---ki-agent-runs-appear-as-orca-sub-agents-30-october-2026-1610-gmt).
 
 ## Parked
 
