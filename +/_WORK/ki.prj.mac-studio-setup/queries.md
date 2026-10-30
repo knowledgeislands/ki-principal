@@ -2,7 +2,19 @@
 
 ## Open
 
-None; every query was parked at the 2026-10-20 hold.
+### GO-PLAN - Go for the first Orca unit
+
+since 2026-10-30 · bootstrap on sol
+
+**Context:** Kris set the first unit: one Orca worker plans the smaller of KI-TOOL-RIG-CORE-068 and KI-TOOL-RIG-CORE-069 to Ready under ki-plan, with no sudo, no `rig apply` and no system change. The smaller is KI-TOOL-RIG-CORE-069 (size s; 068 is m). Its plan stopped on 20 October at RIG-069-PROBE, an attended handler change at sol's screen, and the record was touched again on 23 October, so it may now reach Ready or may stop at that probe again.
+
+**Query:** May the worker start on KI-TOOL-RIG-CORE-069 now?
+
+**Options:**
+
+a) (recommended, confidence high - Kris named the unit and its limits; size picks 069, and the worker returns a query rather than probing if Ready needs the live check) Go: plan KI-TOOL-RIG-CORE-069 under ki-plan in tools-rig, local commits, report into this folder.
+
+b) Plan KI-TOOL-RIG-CORE-068 instead, which first needs PLAN068-VERIFY-GRANT, PLAN068-UNPRIV and PLAN068-READY answered.
 
 ## Parked
 
