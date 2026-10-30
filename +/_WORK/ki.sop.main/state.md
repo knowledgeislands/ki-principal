@@ -1,11 +1,11 @@
 ---
 id: ki.sop.main
-state: with-supervisor
-since: 2026-10-29T16:17:57Z
+state: with-worker
+since: 2026-10-30T01:45:00Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-10-29T16:17:57Z
-method_read: afb126f2
+method_read: 6868da5a
 ---
 
 # ki.sop.main state
@@ -20,11 +20,11 @@ method_read: afb126f2
 
 - ki.prj.website is seeded on hold until Kris opens it; Host network opens fifth, after its decision paper and restore path.
 
-## Next steps (drained 16:17 GMT, with Kris)
+## Next steps (re-bootstrap 01:45 GMT)
 
-1. Kris answers the nine open queries in `queries.md`; act on each answer as taken.
-2. Before the next launch, read coordination and delegation at 07b9333a and record `method_read` (REFRESH line kept in `messages.md`).
-3. Nothing running, queued or scheduled. hnr-principal holds unpublished commit 49416765 (HNR-PUSH).
+1. Receive sop-route: STOA-ICONS and DIAGRAM-TOOLS routed, ACCEPT queries for KI-TOOL-RIG-CORE-070 and PERSONAL-DOTFILES-UE-106 drafted.
+2. Receive orca-eval: ki.prj.orca-evaluation created and registered; give Kris its opener.
+3. Kris answers the open queries in `queries.md`.
 
 ## Held
 

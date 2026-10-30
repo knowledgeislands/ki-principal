@@ -133,3 +133,12 @@
 - SCHEDULED-REPORT-RECEIPT: forwarded once to hnr.reg.email-routing on the existing route.
 - MJS-DELIVERED: forwarded to hnr.sop.sites as the reply to DEPCRUISE-MJS.
 - HNR forward not published: hnr-principal is 34 behind with a conflicting merge, so commit 49416765 stays local; HNR-PUSH asks Kris for one resolve run, as DRAIN starts nothing new.
+
+## 2026-10-30 · Re-bootstrap (Kris, 01:39 GMT)
+
+- Opener, read back as taken: "Bootstrap as ki.sop.main territory work under ki-coordination. Role: coordinator only ... Project management only: priorities, the Project-work queue (cap three or four), decisions and releases; route real work to Project work. Background agents: run substantive work through `ki agent` in run `ki-sop-main`".
+- ORCA-EVAL cap approval (Kris, 30 October 01:30 GMT, relayed by ki.prj.ways-of-working): "I think the cap is more a kind of guidance than it is a limit. So I'm actually okay with that ... I'd like to keep those ones open." Taken as approval for a fifth active Project, Orca evaluation (`ki.prj.orca-evaluation`), with ki.prj.ways-of-working, ki.prj.mac-studio-setup, ki.prj.observatory and ki.prj.chezmoi staying open; a run creates and registers it and returns its opener.
+- REFRESH 07b9333a (IMPORTANT): taken; the latest coordination, delegation and work-package revision is 6868da5a, a descendant, read at this bootstrap; `method_read` set to 6868da5a.
+- STOA-ICONS and its two addenda (hnr.sop.5ge): grouped; routed by the sop-route run to the work owning packages-stoa, once.
+- DIAGRAM-TOOLS (ki.prj.ways-of-working): routed by the sop-route run to the harness skill owner.
+- HNR-PUSH: overtaken; hnr-principal 49416765 is on origin/main, so nothing is left to publish and the query is dropped.

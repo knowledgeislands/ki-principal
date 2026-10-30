@@ -126,18 +126,6 @@ b) Move it into chezmoi as a personal maintenance script.
 
 c) Delete it and leave the Adobe clean-up to an at-screen session, relying on Git history.
 
-### HNR-PUSH - Publish two forwarded lines in hnr-principal
-
-**Context:** At this drain I forwarded two queue lines into hnr-principal on existing routes: SCHEDULED-REPORT-RECEIPT to hnr.reg.email-routing and MJS-DELIVERED to hnr.sop.sites, committed by explicit path as `49416765`. The push was refused because the sol checkout is 34 commits behind its remote. A trial merge conflicts, most likely because the same queues gained lines meanwhile. The method hands this to a bounded resolve run, but you asked me to start nothing new, so the commit sits unpublished in the shared checkout and the next pull there will meet the conflict.
-
-**Query:** May I launch one resolve run to merge hnr-principal level in a bounded worktree and push it fast-forward?
-
-**Options:**
-
-a) (recommended, confidence high - a merge keeps every commit and rewrites nothing, and only two appended queue lines are at stake) Yes: one resolve run merges `origin/main` in a worktree, keeps both sides' queue lines and pushes fast-forward.
-
-b) Leave it for the next HNR session at sol to resolve when it pulls.
-
 ## Parked
 
 ### ACCEPT-CHEZMOI - accept the chezmoi latest-source record
