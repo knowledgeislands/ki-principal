@@ -1,1 +1,3 @@
 # ki.sop.main messages
+
+- 2026-10-30 · HOOK-STASH · KI > Rig > Mac Studio setup: run orca-handover found that ki-principal's pre-commit hook runs `lint-staged`, which makes and drops a transient backup stash, so every commit through the hook (runs and coordinators alike) sits uneasily with the briefs' "never stash" rule; Kris allowed it once for plan069 as "a bounded exception, not a general change to the no-stash rule". Not this Project's to settle: the rule lives in ki-delegation and the coordinator style. Options seen (medium, unreviewed): a) the hook's own transient stash is not a stash under the rule, manual stashes stay forbidden; b) keep the rule absolute and make the hook run `lint-staged --no-stash`; c) briefs stop before commit in ki-principal.

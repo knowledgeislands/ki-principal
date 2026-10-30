@@ -241,3 +241,7 @@ intake-review (Codex, high, masked) received: it independently chose RIG-INTAKE 
 ## 2026-10-30 02:02 GMT - ORCA-EVAL
 
 ORCA-EVAL from State of play: ki.prj.orca-evaluation now exists, so ORCA-HANDOVER's handover proceeds: run orca-handover launched to update the trial log and send it with ORCA-HOST as a line in that package's messages.md. ORCA-EVAL line removed; ORCA-HANDOVER kept until the run is received.
+
+## 2026-10-30 02:04 GMT - orca-handover received
+
+orca-handover received: trial log updated with plan069's Orca outcome and moved to ki.prj.orca-evaluation `design/orca-trial.md`, ORCA-HANDOVER sent as a line in its messages.md (`d38088a3`). ORCA-HANDOVER line removed; this package's trial log, plan069.report.md, report and brief pruned. HOOK-STASH (medium: does lint-staged's transient backup stash breach the briefs' no-stash rule?) is a cross-cutting delegation-rule question, not this Project's, and touches every commit through ki-principal's hook, this coordinator's included; returned once to State of play's messages.md for its owner.
