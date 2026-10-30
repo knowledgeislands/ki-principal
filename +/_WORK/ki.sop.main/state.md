@@ -22,7 +22,7 @@ method_read: 6868da5a
 
 ## Next steps (re-bootstrap 01:45 GMT)
 
-1. Receive sop-route: STOA-ICONS and DIAGRAM-TOOLS routed, ACCEPT queries for KI-TOOL-RIG-CORE-070 and PERSONAL-DOTFILES-UE-106 drafted.
+1. Received sop-route (4b52fcd8): STOA-ICONS and DIAGRAM-TOOLS routed to ki.reg.main; ACCEPT-KI-TOOL-RIG-CORE-070 and ACCEPT-PERSONAL-DOTFILES-UE-106 in queries, blind review run accept-review pending.
 2. Received orca-eval (07cf32ba): ki.prj.orca-evaluation opened under theme Techne; opener given to Kris. Received route069 (3666455f): PLAN069-RECEIPT queued in ki.prj.mac-studio-setup.
 3. Kris answers the open queries in `queries.md`.
 

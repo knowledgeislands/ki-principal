@@ -2,6 +2,34 @@
 
 ## Open
 
+### ACCEPT-KI-TOOL-RIG-CORE-070 - Accept the default-handler confirmation wait in Rig
+
+**Context:** [KI-TOOL-RIG-CORE-070](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-070-handler-read-back-after-confirmation.md) has been awaiting review since 27 October (commit `e882998`). It changes how `rig apply` sets a default app for a file type, such as Zed for `.toml`. When macOS asks you to confirm the change, Rig used to check straight away, see the old app and record a failure, so a second run was needed. Now it waits up to 120 seconds when run from a terminal, and not at all when unattended, with an environment variable to override the wait. It reports four outcomes separately: confirmed, unanswered or declined, unattended, and ineffective. The full test suite (648 tests) and the gate passed at delivery. Today's read-only re-check passed the default-applications tests (22 of 22, both new tests included), shellcheck and the assembly check. Not yet done: the record's own attended check, a real `rig apply` that raises the macOS prompt, which only you can do. sol currently has `.toml` opening in VS Code instead of Zed, so a `rig apply` there would raise that prompt. Two concerns remain: a declined prompt looks the same as an unanswered one, and a run piped from a terminal gets no wait unless the variable is set.
+
+**Query:** Do you accept KI-TOOL-RIG-CORE-070 as done?
+
+**Options:**
+
+a) (recommended, confidence medium, blind review pending - the code, tests and documents check out, but the one real-prompt check has not been run) Accept it after one attended `rig apply` on sol: accept the macOS prompt for `.toml`, and confirm Rig records Zed as applied on that first run.
+
+b) Accept it now on the test evidence, and treat the attended prompt as observed the next time a handler apply happens.
+
+c) Leave it awaiting review until both terra and sol have shown the prompt behaviour.
+
+### ACCEPT-PERSONAL-DOTFILES-UE-106 - Accept the Tower Assistant move to /Applications
+
+**Context:** [PERSONAL-DOTFILES-UE-106](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-106-apply-tower-assistant-at-applications.md) moved Tower Assistant 2.1 to `/Applications` on both Macs (commit `9667f9e`). Each Dock now points there, `rig doctor` no longer reports the missing Dock path, and the leftover test preference files on terra are gone: fourteen were removed rather than the planned eleven, with apps-tower's confirmation. The record's Verify asks for exactly two things: no test plists on terra, and no `dock-item-path-missing:tower-assistant` on either Mac. sol meets both today. I re-checked it read-only: the app is only in `/Applications`, there are no test plists, and `rig doctor` has no missing-path finding. terra rests on evidence from 24 October and could not be re-checked from sol. sol's `rig doctor` is still unhealthy for unrelated reasons, all outside this record: Dock order drift, `.toml` opening in VS Code, the Screen Sharing firewall anchor, UTM, and, new since 29 October, eight missing npm tools. The app's own attended checks stay with apps-tower (PERSONAL-TOWER-APP-005 and PERSONAL-TOWER-APP-006).
+
+**Query:** Do you accept PERSONAL-DOTFILES-UE-106 as done?
+
+**Options:**
+
+a) (recommended, confidence medium, blind review pending - sol meets Verify today, but terra's half rests on evidence that is six days old) Accept it now, leaving sol's other `rig doctor` findings to sol's health work.
+
+b) Accept it only after a read-only `rig doctor` and test-plist check on terra confirms its half still holds.
+
+c) Leave it awaiting review until apps-tower's attended checks (PERSONAL-TOWER-APP-005 and PERSONAL-TOWER-APP-006) are done.
+
 ### ACCEPT-KI-TOOL-MGIT-CLI-032 - accept `mgit chain`
 
 **Context:** [KI-TOOL-MGIT-CLI-032](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-032-chain-command.md), "Chain Git commands", was delivered on 28 October under MGIT-CHAIN and is Awaiting review: `mgit chain ... --then ...`, stop-at-first-failure per repository, recipes via `git config mgit.chain.<name>` and as top-level `mgit <name>`, docs and spec MGIT-WS-028; 151 of 151 bats tests pass. One pre-existing audit failure (SHELL-HOOK on `.githooks/pre-commit`) is untouched. No release cut.
