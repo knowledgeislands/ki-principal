@@ -16,6 +16,7 @@ method_read: 6868da5a
 - Run `trial-plan` (ki-prj-orca-evaluation) drafting the trial plan within ORCA-REACH, WAKE-SESSION and WAKE-DURABLE.
 - Run `thread-nesting` investigating Kris's 30 October question whether Orca can show a coordinator's runs nested under its thread in the project view.
 - Run `sidebar-restore` finding how to restore Orca Mobile and Tasks to Orca's sidebar after Hide from sidebar; Kris keeps Automations hidden.
+- ORCA-OPTIN b) taken 11:29 GMT: new units dispatch through Orca on attended Macs; in-flight `ki agent` runs finish there.
 
 ## Next steps
 

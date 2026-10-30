@@ -2,20 +2,6 @@
 
 ## Open
 
-### ORCA-OPTIN - This package opts in to Orca dispatch for the trial
-
-**Context:** ORCA-REACH (30 October) lets a package use Orca only after a logged decision, and only on attended Macs. Until that decision, ki.prj.orca-evaluation launches through `ki agent`. The plan needs Orca for units 1 to 3, all on sol, with you present, in a new Run for this Project (the Mac Studio Run `run_0de85069bc1d` would not be reused).
-
-**Query:** Does ki.prj.orca-evaluation opt in to Orca dispatch for its trial units?
-
-**Options:**
-
-a) (recommended, confidence high - it is exactly the bounded opt-in ORCA-REACH provides for and the plan keeps every bound) Opt in for the trial units only: sol, attended, one new Run. The opt-in ends when the ORCA-SKILL proposal is received or at the 6 November ORCA-REACH follow-up, whichever comes first. All other work in this package stays on `ki agent`.
-
-b) Opt in for all of this package's dispatch on attended Macs until you revoke it.
-
-c) Do not opt in yet. Wait for the ORCA-FIT notes and the second brief's line to arrive first.
-
 ### TRIAL-UNITS - The units and their order
 
 **Context:** The plan proposes three units, all real work this package owns. Unit 1 (WAKE, legs A and B) proves `check --wait` in Claude Code and Codex while doing the Orca setup inventory. Unit 2 (LIVE) maps Orca's recovery, queue, ack and status verbs and commits that map in ki-principal. Unit 3 (SKILL, optional) drafts the ORCA-SKILL proposal under Orca. Leg B needs you to open a Codex session on this package. Units 1 and 2 should land before 6 November.
