@@ -332,9 +332,11 @@ since 2026-10-30 · from run/orca-subagents · [design](design/orca-subagents/de
 
 **Query:** Should the five-step close-out rule above go into the `ki-coordination` standard now, as a message to the harness, rather than waiting for Part B?
 
+**Blind review (30 October, Codex, high effort):** agrees with a) at medium confidence: a coordinator owes each settled worker a disposition before any launcher automates its release, and deleting history adds no evidence of completion; it adds that the actual five steps and Orca's release semantics be verified before the wording becomes normative, and that receive, mark and hold reconcile each worker's disposition rather than releasing one deliberately retained. It could not verify Orca's guide, the two trial workers' state, or the release and AI Vault claims. Confidence lifted to high.
+
 **Options:**
 
-a) (recommended, confidence medium - the rule repeats Orca's own required step and the gap is live, but whether a chat coordinator can release its workers is unproven until the pilot) Yes: send the rule to the harness now as a message, covering receive, mark, hold and Finished, with history deletion kept out of close-out; `ki agent close` takes over ki-launched workers when Part B lands.
+a) (recommended, confidence high - reviewed; the gap is live and a coordinator owes each settled worker a disposition whether or not `ki agent close` automates it, with history deletion kept apart, provided the five steps and release semantics are verified before the wording is normative; whether a chat coordinator can release its workers itself stays unproven until the pilot) Yes: send the rule to the harness now as a message, covering receive, mark, hold and Finished, with history deletion kept out of close-out; `ki agent close` takes over ki-launched workers when Part B lands.
 
 b) Wait for the ORCA-SUBAGENT-PILOT and Part B, and fold the rule into `ki agent close` only, leaving hand-started workers to the work that started them.
 
@@ -364,9 +366,11 @@ since 2026-10-30 · from run/orca-subagents · [design](design/orca-subagents/de
 
 **Query:** Should Part B use Orca's own agent launch, or adopt a terminal running today's command?
 
+**Blind review (30 October, Codex, high effort):** agrees with a) at medium confidence, conditional on pilot evidence before implementation: Orca's own launch avoids duplicating launch configuration if it can meet the run contract; it adds that the switch test must cover the directories the run needs, non-interactive operation and the intended authority limits, not only prompts or blocked writes, so that excess access also fails. It could not verify either command's arguments, the launch settings or any pilot finding. Confidence lifted to high.
+
 **Options:**
 
-a) (recommended, confidence medium - simplest and most Orca-native, but autonomy and extra directories are unproven until the pilot) Orca's own launch, `worker-start --agent`, switching to the terminal route only if the pilot shows prompts or blocked writes.
+a) (recommended, confidence high - reviewed; simplest and most Orca-native, with no duplicated launch configuration, provided the pilot shows before implementation that it meets the run contract: the directories the run needs, non-interactive operation and the intended authority limits, with excess access failing too) Orca's own launch, `worker-start --agent`, switching to the terminal route only if the pilot shows prompts or blocked writes.
 
 b) The terminal route from the start, `terminal create --command` plus `worker-start --terminal`.
 
@@ -378,9 +382,11 @@ since 2026-10-30 · from run/orca-subagents · [design](design/orca-subagents/de
 
 **Query:** When a queued run's gate opens, should the dispatcher try the Orca path first and fall back to a detached launch?
 
+**Blind review (30 October, Codex, high effort):** differs, prefers b) at medium confidence: keeping queued runs detached avoids making durable dispatch depend on an unverified rule for a live chat's dispatcher as caller; it would revisit Orca first once a pilot shows whether the caller stays valid across the chat's life and whether a definite refusal can be told apart from an uncertain launch, falling back to detached only on a definite refusal so that no run starts twice. It notes that b) makes queued runs consistent with one another, not with immediate Orca runs, and that the dead-parent rejection is speculation. Confidence stays at medium.
+
 **Options:**
 
-a) (recommended, confidence medium - keeps queued runs under their thread in the common case and never impersonates a parent that has gone, but the dead-parent behaviour is inferred) Orca first while the parent chat is live, detached otherwise, with the placement and reason in the receipt.
+a) (recommended, confidence medium - keeps queued runs under their thread in the common case and never impersonates a parent that has gone, and the design's Fallback rule already goes detached only when Orca reports no effects applied, recording an unknown outcome as `claim-unconfirmed` rather than starting a second agent; blind review 6 prefers b) instead, holding that durable dispatch should not rest on the inferred live-chat caller rule until a pilot proves it, so the two views split) Orca first while the parent chat is live, detached otherwise, with the placement and reason in the receipt.
 
 b) Queued runs stay detached; only immediate launches use the Orca path.
 
