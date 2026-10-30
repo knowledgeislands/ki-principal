@@ -2,21 +2,77 @@
 
 ## Open
 
-### WORKER-WAIT - Who holds authorised work before a worker does
+### WORKER-WAIT-MEANING - With worker means the worker role holds the work, not that a process is live
 
-since 2026-10-29 · from run/sol-state-machine-readiness; refines the parked STATE-MACHINE-DECISIONS, of which it is the sole unresolved semantic choice.
+since 2026-10-29 · from run/sol-state-machine-readiness, split from WORKER-WAIT on 30 October at Kris's request; refines the parked STATE-MACHINE-DECISIONS · high now, no further work needed
 
-**Context:** The agreed role model distinguishes the orchestrator from a worker. The current coordination contract includes an orchestrator mid-turn and authorised work waiting for worker capacity in With worker; the newer source says a worker run holds that state. No worker is in flight in either case. The agreed diagram does not settle that distinction. This choice blocks only those two cases, not the agreed shape, portable stop, report layout or compatible-reader planning. The run settled REST-PORTABLE, FINISH-FROM, REST-NAMES and ROLE-WORDS and found WAIT-RESUME and WORK-REENTRY to be factual compatibility work, in the [state-machine rollout plan](design/state-machine-rollout-plan.md).
+**Context:** Kris's words under ROLES-ORCHESTRATOR name three roles: "the worker is a subagent, and then the thread agent is effectively the orchestrator of the state machine". The sentence "With worker means a run holds the work" is the read-back's, not Kris's, and the [state machine](design/work-state-machine.md) States table narrows it further to "a run of the work is in flight". ROLES-EITHER then lets a human hold any role, and a human worker never has a run in flight, so the narrow reading cannot describe a case Kris has already allowed. The banner makes its last glyph whose move it is, and its list already names a holder per item, `run/<name>` for `[running]` and `[queued]` alike. This part settles only the test; WORKER-WAIT-QUEUED, WORKER-WAIT-MIDTURN and WORKER-WAIT-GATED apply it to the disputed cases.
 
-**Query:** Should With worker include these cases as worker-side ownership with an explicit queued/orchestrating description, or require an actual worker role holder before entering it?
-
-**Blind review (30 October, Codex, high effort):** differs, prefers b) at medium confidence: an explicit holder keeps ownership truthful, and an orchestrator mid-turn does not by itself establish assignment.
+**Query:** Is With worker defined by assignment, the worker role holding the next move on at least one named unit, or by liveness, a run process being in flight?
 
 **Options:**
 
-a) (recommended, confidence medium - preserves the current capacity rule and agreed diagram while keeping run status truthful) Include both cases as worker-side ownership; say explicitly that this need not mean a run is in flight and show queued/orchestrating work accurately. Align the narrower source sentence and holder projections with that reading.
+a) (recommended, confidence high - the only reading that fits Kris's own role words, ROLES-EITHER's human worker and the banner's existing holder items, and it can be checked against `ki agent status` and the run queue) Assignment: the work is With worker while at least one authorised unit is assigned to a named worker holder, running or queued, so its next move is the worker side's; a run in flight is the common case, not the definition. The States table and the read-back's narrower sentence are restated to match.
 
-b) Require an actual worker role holder; qualify the dispatch/entry procedure and who holds authorised work before dispatch before enabling these cases, without inventing a state or redrawing the agreed machine in this rollout.
+b) Liveness: With worker only while a run process is in flight; every other moment of Working must sit in another inner state.
+
+### WORKER-WAIT-QUEUED - Briefed work waiting only for a slot stays With worker
+
+since 2026-10-29 · from run/sol-state-machine-readiness, split from WORKER-WAIT on 30 October at Kris's request · high now; the earlier blind review, which preferred an actual holder, also held that "a holder can own queued work without a live run"
+
+**Context:** About three agents run per thread and the rest wait in the run queue, each with its brief, agent name and launch options; the dispatcher launches the next as a slot frees and honours each `DONE` gate, with no further decision from anyone. The banner already lists such a unit as `[queued]` with holder `run/<name>`. Current coordination says "Authorised work waiting for worker capacity stays with the worker; send to supervisor only for an actual decision or review", and the agreed `inform` arc needs a decision or review due, all dispatched work finished or a stuck worker, none of which a full queue is. This part covers only a unit that is briefed and queued; authorised work that cannot yet be queued is WORKER-WAIT-GATED.
+
+**Query:** Is the work With worker when its remaining authorised units are briefed and in the run queue, waiting for a slot or for a `DONE` gate on another run of this work?
+
+**Options:**
+
+a) (recommended, confidence high - each unit has a named holder and will start without anyone's further move, so sending it to Kris would ask Kris for nothing) Yes: With worker, each unit shown `[queued] · run/<name>` and never counted as running or with you; the `pick up` and `receive by worker` arcs complete only when every authorised unit they restart is running, queued or recorded as gated.
+
+b) No: entry to With worker waits for a launch, so after a direction the work stays in Handoff to worker until a slot frees, and a bootstrap that finds only queued work refines to With supervisor.
+
+### WORKER-WAIT-MIDTURN - An orchestrator turn moves nothing
+
+since 2026-10-29 · from run/sol-state-machine-readiness, split from WORKER-WAIT on 30 October at Kris's request · high now; the earlier blind review made the same point, that an orchestrator mid-turn "does not by itself establish that assignment"
+
+**Context:** Current coordination, States and moves, says territory and Project work are With worker "while any items lies with a run or the coordinator is mid-turn". The clause dates from when the thread agent was the worker to Kris, which ROLES-ORCHESTRATOR reframed. The agreed machine says a steer, a heartbeat, a run launched or received and a mark happen inside a state and move nothing; only an arc moves the work, and the orchestrator makes the arcs. A coordinator answering Kris in With supervisor, or receiving a report before it informs, is orchestrating, not working. The coordinator style already forbids the orchestrator substantive work, so no coordinating case needs it as the worker.
+
+**Query:** Does an orchestrator turn by itself put or keep the work With worker?
+
+**Options:**
+
+a) (recommended, confidence high - follows the agreed rule that only arcs move the work, and the clause is a remnant of the role ROLES-ORCHESTRATOR reframed) No: during an orchestrator turn the work stays in its last committed state and moves only by an arc; drop "or the coordinator is mid-turn" from the state rule. If ROLES-EITHER ever puts the orchestrating actor in the worker role, it is named as a unit's holder like any other, under WORKER-WAIT-MEANING.
+
+b) Yes: keep the clause, so any orchestrator turn reads as With worker whatever was last committed.
+
+### WORKER-WAIT-GATED - Authorised work that nothing will start by itself
+
+since 2026-10-29 · from run/sol-state-machine-readiness, split from WORKER-WAIT on 30 October at Kris's request · needs more work before it can be high: a blind review; a check against REST-PORTABLE's settled rule that a short external wait may stay within Working "only when its actual holder/state is represented honestly"; a ruling on whether dated follow-ups, such as ORCA-REACH's due 6 November, are gates or ordinary next steps; and evidence of what the dispatcher does when a usage limit or provider outage stops a launch, which no run has verified
+
+**Context:** Some authorised units cannot be briefed or queued yet because they wait on something outside this work's runs: another work's reply, a person, a date, a host, or model capacity lost to a usage limit or outage. Nothing will start them until someone acts on an event. While other units run or are queued the work is With worker anyway; the question arises only when gated units are all that remain. The current capacity rule would keep such work with the worker indefinitely, which can show a With worker with nothing running and no heartbeat for days. REST-PORTABLE makes At rest · waiting the honest state for a real wait, but at the cost of the full stop: drain, the portability checks, parked queries and a struck mark, even for a short reply. A live coordinator wakes at least every five minutes and reads `messages.md` at each wake, so it notices a reply line; once the session ends nothing does, unless a granted headless pass names the work.
+
+**Query:** When gated units are all the authorised work that remains, does the work stay With worker or stop to At rest · waiting?
+
+**Options:**
+
+a) (recommended, confidence medium - honest about the holder while a live session can act on the gate and avoids an idle With worker, but where the line falls is untested) Stay With worker, each gate shown as an item naming it, `[handoff]` where it is other work or a person, only while the orchestrator session that will act on it is open and waking; conclude and stop to At rest · waiting, the gate as release, before that session ends or when the gate is a date or outlasts it.
+
+b) Stop to At rest · waiting as soon as nothing of this work is running or queued, however short the gate.
+
+c) Stay With worker while any authorised gated unit remains, however long the gate, each shown as an item naming it.
+
+### WORKER-WAIT-DELIVERY - Carry the high parts into the rollout now
+
+since 2026-10-29 · from run/sol-state-machine-readiness, split from WORKER-WAIT on 30 October at Kris's request · high now, once the three high parts above are taken
+
+**Context:** The [state-machine rollout plan](design/state-machine-rollout-plan.md) excludes WORKER-WAIT's two cases from U1's Harness contract fixtures and from the pilot pending an answer, and says WORKER-WAIT blocks only their enforcement. WORKER-WAIT-MEANING, WORKER-WAIT-QUEUED and WORKER-WAIT-MIDTURN change wording, fixtures and holder projections only: no state value, arc or diagram. WORKER-WAIT-GATED may change when a stop falls due, which touches the stop arc's trigger.
+
+**Query:** Once the three high parts are taken, should U1 and U2 carry them now, with WORKER-WAIT-GATED left isolated until it is decided?
+
+**Options:**
+
+a) (recommended, confidence high - the three are consistency corrections inside the agreed shape, and holding them back leaves the mid-turn clause live in the standard) Yes: U1 restates States and moves, the States table and the role words to the adopted reading and adds running, queued and orchestrator-turn fixtures; U2's readers show queued apart from running wherever they project holders; WORKER-WAIT-GATED stays out of enforcement and the pilot until decided.
+
+b) Hold every part of WORKER-WAIT out of U1 and U2 until WORKER-WAIT-GATED is decided too.
 
 ### HOST-REVIEW - Supply the missing common-brief review packet
 
