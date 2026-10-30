@@ -144,17 +144,17 @@ c) Change no rule: the existing standard already forbids rewriting another actor
 
 ### ORCH-NAME - What to call the coordination skill, the dispatch skills and the command
 
-since 2026-10-30 · from run/landscape
+since 2026-10-30 · from run/landscape · merged in [landscape-report](design/landscape-report.md)
 
-**Context:** The brief proposed `ki-coordination` for working the package with Kris and `ki-orchestration` for the portable half of `ki-delegation`, with Orca and Paperclip adapters and `ki agent` possibly renamed `ki orchestrate`. On 29 October Kris named the thread agent "the orchestrator of the state machine", and that is the role `ki-coordination` governs. Orca, Oz and Paperclip all use "orchestration" to mean driving agents. KI-AGENTS-NAME, 17 October, says: "Keep "agents" ... nothing is renamed." `ki-delegation` already calls itself runtime-neutral.
+**Context:** The brief proposed `ki-coordination` for working the package with Kris and `ki-orchestration` for the portable half of `ki-delegation`, with Orca and Paperclip adapters and `ki agent` possibly renamed `ki orchestrate`. On 29 October Kris named the thread agent "the orchestrator of the state machine", the role `ki-coordination` governs; Orca, Oz and Paperclip all use "orchestration" for driving agents. KI-AGENTS-NAME, 17 October, says: "Keep "agents" ... nothing is renamed." `ki-delegation` already calls itself runtime-neutral. Both design reviews recommend keeping the names, at medium confidence, as a choice of words. They correct the design's reason: ROLES-ORCHESTRATOR assigns a role and does not reserve the word, and the Claude review notes that the role word, if anything, favours renaming `ki-coordination` itself, option c); the reason to keep it is the cost of renaming the output style, a 217 KB standard and every live package mid-rollout. Moving `decide`, `reconcile`, `home` and `prompts` under `ki work` is no longer part of this query; the four are not one kind, and their separation is a design step under AGENT-HOME. The remaining drift, a `ki-coordinator` style for a role now called orchestrator, is settled by one line in the Work Process note.
 
 **Query:** Which names should the coordination skill, the dispatch contract, its adapters and the command take?
 
-**Blind review (30 October, Codex, high effort):** agrees with a); confidence lifted to high.
+**Blind review (30 October, Codex, high effort; applies to the earlier wording of a), which also moved the four commands under `ki work`):** agrees with a); confidence lifted to high.
 
 **Options:**
 
-a) (recommended, confidence high - reviewed; the evidence is direct, but this is a choice of words for Kris's ear) Keep `ki-coordination`. Keep `ki-delegation`, slimmed, as the portable contract, with adapters `ki-delegation-orca` and `ki-delegation-paperclip`, the second renamed from `ki-agent-coordination-paperclip`. Keep `ki agent`, and move `decide`, `reconcile`, `home` and `prompts` under `ki work`.
+a) (recommended, confidence high - reviewed, and both design reviews choose the same names; the keep rests on rollout cost, and the words are Kris's to hear) Keep `ki-coordination`. Keep `ki-delegation`, slimmed, as the portable contract, with adapters `ki-delegation-orca` and `ki-delegation-paperclip`, the second renamed from `ki-agent-coordination-paperclip`, and no adapter for `ki agent`. Keep the name `ki agent`. Say in the Work Process note that the orchestrator role is exercised under `ki-coordination`.
 
 b) The brief's family: `ki-orchestration`, `ki-orchestration-orca` and `ki-orchestration-paperclip` for dispatch, with `ki-coordination` unchanged.
 
@@ -162,63 +162,95 @@ c) Rename `ki-coordination` to `ki-orchestration` to match the role word, and us
 
 ### ORCA-REACH - Where Orca may run
 
-since 2026-10-30 · from run/landscape
+since 2026-10-30 · from run/landscape · merged in [landscape-report](design/landscape-report.md)
 
-**Context:** On sol, Orca 1.4.244 can run without a window (`orca serve`), place workers on paired servers with `--on`, and run Codex. The vendor marks server mode as beta, for LAN or tailnet use only. No server is paired yet. The Techne Programme Focus allows agents on sol and `vega` only "in sessions the binding owner opens, with no unattended or scheduled agents".
+**Context:** On sol, Orca 1.4.244's local help shows it can run without a window (`orca serve --supervise`), place workers on paired servers with `worker-start --on`, and run Codex. The vendor's documentation marks server mode as beta, for LAN or tailnet use only; neither design review could verify that locally, no server is paired and no remote run has been tested. The Techne Programme Focus allows agents on sol and `vega` only "in sessions the binding owner opens, with no unattended or scheduled agents", and keeps "the execution fabric" as an idea. Both design reviews recommend a) at high confidence, but differ from the design on `vega`: the focus names no sole launcher and does not bar Orca used inside owner-opened sessions there, so keeping `ki agent` alone on `vega` is a deployment choice rather than a policy bar. An always-on supervised Orca server accepting remote workers is closer to the execution fabric and would go through the Enactment Process.
 
 **Query:** Where should Orca be used as a launcher?
 
 **Options:**
 
-a) (recommended, confidence high - rests directly on the Techne focus wording and the vendor's beta marking) Use Orca only on attended Macs, for packages that opt in by a logged decision. Keep `ki agent` as the only launcher on `vega`, and revisit Orca there only through an Enactment decision once its server mode leaves beta.
+a) (recommended, confidence high - both design reviews choose it; it is reversible and rests on local evidence) Use Orca only on attended Macs, for packages that opt in by a logged decision. Keep `ki agent` as the only launcher on `vega`, by choice. Any Orca use on `vega` comes back as its own decision with remote-delivery proof, and an always-on Orca server there goes through the Enactment Process.
 
-b) Pair `vega` as an Orca server now and place remote workers on it from sol.
+b) Pair `vega` as an Orca environment now and place remote workers on it from sol, inside owner-opened sessions and agreed remote-delivery bounds; no operational proof exists yet.
 
-### AGENT-HOME - Where `ki agent` lives
+### AGENT-HOME - Where `ki agent` lives and how its work-model commands separate
 
-since 2026-10-30 · from run/landscape
+since 2026-10-30 · from run/landscape · merged in [landscape-report](design/landscape-report.md)
 
-**Context:** `ki agent` combines dispatch (launch, queue, wait, status, stop and so on) with four commands that write the package. The Techne focus keeps "the execution fabric" as an idea until Kris takes it up through the Enactment Process. Orca does not cover `vega`.
+**Context:** `ki agent` combines dispatch (launch, queue, wait, status, stop and so on) with four commands that touch the work model. Both design reviews show the four are not one kind: `decide` and `reconcile` write the decisions log, `home` binds a run to its work home and belongs with the run, and `prompts` prints the openers. `ki work` describes itself as "read the work model", so moving write commands under it changes its contract. The Techne focus keeps "the execution fabric" as an idea until Kris takes it up through the Enactment Process, and Orca is not proposed for `vega` (ORCA-REACH). The Claude review recommends a) at medium confidence because of the split's destination; the Codex review recommends a) at high, with the split designed command by command first and no blanket freeze, so that contract correctness, isolation and recovery work continue.
 
-**Query:** Should `ki agent` stay in tools-ki or move to a Techné agent?
-
-**Options:**
-
-a) (recommended, confidence high - option b is blocked by the policy as written, and c fails on `vega`) Keep it in tools-ki as the fallback launcher for hosts without Orca or Paperclip, still maintained but with no new features that duplicate Orca. Split the four package commands under `ki work`. Record a Techné dispatch agent as an `Idea:` line on the Techne theme page.
-
-b) Move dispatch to tools-techne now, behind a thin `ki` shim.
-
-c) Retire `ki agent` and use Orca everywhere.
-
-### WAKE - How the coordinator hears that a run has finished or is blocked
-
-since 2026-10-30 · from run/landscape
-
-**Context:** `ki agent wait --next` and `orca orchestration check --wait` both block until the next finish, failure, block or question. Orca's nudge to an idle session is "best-effort attention only". Paperclip has no outbound webhook. WAKE-SUBSTRATE already defers a durable wake.
-
-**Query:** How should every launcher wake the coordinator?
+**Query:** Should `ki agent` stay in tools-ki or move to a Techné agent, and how should its work-model commands be separated?
 
 **Options:**
 
-a) (recommended, confidence high - consistent with WAKE-SUBSTRATE, already decided, and with each tool's documented wait) Add one contract verb, `wait`, which each launcher implements natively, and keep exactly one detached wait running at a time, bounded at five minutes and restarted after each wake. A durable wake stays deferred.
+a) (recommended, confidence high - both design reviews choose it, and designing the split first answers the one reviewer's doubt about its destination) Keep it in tools-ki as the floor launcher, maintained, with no new features that duplicate Orca while contract correctness, isolation and recovery work continue. Design the separation of `decide`, `reconcile`, `home` and `prompts` command by command, as a tools-ki record, before moving any; `home` stays with the run. Record a Techné dispatch agent as an `Idea:` line on the Techne theme page.
 
-b) Adopt Orca automations with a shell pre-check as the durable wake now, under an away grant.
+b) Move dispatch to tools-techne behind a thin `ki` shim, once an Enactment decision takes up Techné dispatch and sets its bounds; not on this design's authority.
 
-### WORKTREE-OPTOUT - Which runs may skip their own worktree
+c) Retire `ki agent` and use Orca everywhere, once another launcher meets the contract on every required host; that evidence is absent.
 
-since 2026-10-30 · from run/landscape
+### WAKE-SESSION - How a live coordinator session hears that a run has finished or is blocked
 
-**Context:** Kris wants every writing run, under every launcher, in its own worktree, merged back to `main` fast-forward and verified. Coordinators stay on primary `main`. The collisions recorded in checkout-isolation came from the shared index and lock, not from the size of the change. A worktree costs about 0.2 seconds, plus about 1.5 seconds to clone dependencies.
+since 2026-10-30 · from run/landscape, split from WAKE · merged in [landscape-report](design/landscape-report.md)
 
-**Query:** Which runs may skip the worktree?
+**Context:** While a coordinator session is open, `ki agent wait --next` and `orca orchestration check --wait` both block until the next finish, failure, block or question; Orca's nudge to an idle session is "best-effort attention only", and Paperclip has no outbound webhook. Both design reviews agree with one bounded `wait`, one armed at a time, and add proof requirements. `ki agent wait` has no timeout option, so the five-minute bound must come from the detached waiter around it. `--next` marks an event seen, so a waiter that dies after marking can lose it. Claude Code re-invokes the session when a background task exits, but a Codex coordinator has no such re-invocation, so its wait is only as good as its next turn. The standard already calls session wakes best effort.
 
-**Blind review (30 October, Codex, high effort):** agrees with a) at high confidence: whether a run writes into a repository, not its size, sets the shared-write risk.
+**Query:** How should every launcher wake a live coordinator session?
 
 **Options:**
 
-a) (recommended, confidence high - reviewed; measured directly, but the knowledge-base integration cadence is untested) Only read-only runs that write nothing inside any repository. Trivial writing runs get no exception.
+a) (recommended, confidence high - both design reviews agree, and the additions rest on local help) Add one contract verb, `wait`, implemented natively by each launcher, with exactly one detached waiter armed at a time, bounded at five minutes by the waiter and re-armed after each wake. Prove wake and acknowledgement per runtime and launcher before relying on it, including that no seen event is lost. Session wakes stay best effort.
 
-b) Let trivial single-file runs in a knowledge base write in the primary checkout as well.
+b) Adopt the verb as the design worded it, without the per-runtime proof step.
+
+### WAKE-DURABLE - What wakes the work when no coordinator session is open
+
+since 2026-10-30 · from run/landscape, split from WAKE · merged in [landscape-report](design/landscape-report.md)
+
+**Context:** The landscape design said a durable wake "stays deferred under WAKE-SUBSTRATE". Both design reviews show that is stale. On 26 October Kris took WAKE-SUBSTRATE a), read back as "lift the deferral in order: write the headless coordinator-pass contract ... into `ki-coordination`, then send the launchd shell-check job as a line to ki.chezmoi and ki.mac-studio-setup". The contract is written in `ki-coordination`'s Headless passes section, and only doorbells and extra liveness fields stay deferred. Neither the standard nor the merge establishes that the job is installed. The design's alternative, Orca automations with a shell pre-check, would be a second durable mechanism beside the chosen one; the Codex review would consider it only after an explicit new choice reconciles it with the headless pass and the host bounds. Where the pass may run is WAKE-HOST.
+
+**Query:** Should the headless coordinator pass remain the durable wake, as decided under WAKE-SUBSTRATE?
+
+**Options:**
+
+a) (recommended, confidence high - follows Kris's 26 October decision and the written contract, and both design reviews agree) Keep the headless pass as the durable wake, acting only within a grant or decision that names it, and correct the landscape design and explainer to say so. Doorbells and extra liveness fields stay deferred, and Orca automations are not adopted as a durable wake.
+
+b) Adopt Orca automations with a shell pre-check as the durable wake instead, under an away grant, after an explicit choice reconciling them with the headless pass and the host bounds.
+
+### WAKE-HOST - Where the headless coordinator pass may run
+
+since 2026-10-30 · from run/landscape, split from WAKE · merged in [landscape-report](design/landscape-report.md)
+
+**Context:** The Techne Programme Focus, set on 20 October, names two hosts, `vega` and sol, and allows agents on them only "in sessions the binding owner opens, with no unattended or scheduled agents". A launchd headless pass is a scheduled agent. WAKE-SUBSTRATE, a later decision in this work, does not amend a governance policy, so the pass may not run on sol or `vega` until the focus is changed through the Enactment Process. Terra, Kris's other Mac, is outside the focus. The job itself was sent to `ki.prj.chezmoi` and `ki.prj.mac-studio-setup`. The Claude review recommends terra first at medium confidence, noting that a pass sees only its own host's runs, because `ki agent status` is host-local, while sol is where most coordination and the Orca trial now run. The Codex review treats host permission as a separate decision and names no host. The design treated scheduled runs as out of scope, which both reviews call stale.
+
+**Query:** On which host may the headless coordinator pass run?
+
+**Options:**
+
+a) (recommended, confidence medium - needs no policy change and is reversible, but a terra pass sees only terra's runs and the reviewers did not agree on a host) Terra first, for works whose own decision names the pass; no pass on sol or `vega` unless the focus is later changed through the Enactment Process.
+
+b) Propose an Enactment change to the Techne Programme Focus admitting the headless pass on sol, bounded as the standard sets it (shell-only trigger, named works only, `push` tier at most), so that the pass runs where coordination and Orca run.
+
+c) No host for now: session wakes only, until a work needs a durable wake and names its host in its own decision.
+
+### WORKTREE-OPTOUT - Which runs may skip their own worktree, and from when
+
+since 2026-10-30 · from run/landscape · merged in [landscape-report](design/landscape-report.md)
+
+**Context:** Kris wants every writing run, under every launcher, in its own worktree, merged back to `main` fast-forward and verified. Coordinators stay on primary `main`. The collisions recorded in checkout-isolation came from the shared index and lock, not from the size of the change; a worktree costs about 0.2 seconds, plus about 1.5 seconds to clone dependencies. Both design reviews agree that only read-only runs should opt out, and add two points. Writes into the package folder, such as design notes and reports, count as writes and reach the coordinator only once integrated, so integrate precedes receive. And the baseline cannot be installed policy yet: no integrate command exists, so every trivial run would need a hand merge; `--worktree` bases the worktree on the supplied checkout's `HEAD`, not committed `main`; registry resolution and the pathspec commit helper are still open; and the installed guidance still carries the short-package pilot rule and a roadmap-ledger exception. The Claude review puts the no-trivial-exception rule at medium until integrate ships; the Codex review puts it at high, provided those exceptions are reconciled at rollout.
+
+**Query:** Which runs may skip the worktree, and from when does the baseline apply?
+
+**Blind review (30 October, Codex, high effort; applies to the earlier wording of a), which had no rollout condition):** agrees with a) at high confidence: whether a run writes into a repository, not its size, sets the shared-write risk.
+
+**Options:**
+
+a) (recommended, confidence high - reviewed, and both design reviews agree on the boundary; the timing follows the missing integrate command) Only runs that write nothing inside any repository may opt out; trivial writing runs get no exception, and package-folder writes count as writes. The baseline takes effect when the `ki` integrate command and the open worktree prerequisites land. Until then checkout-isolation's pilot rule stands, short package runs on primary `main` with pathspec commits and the landed check, and the existing exceptions are reconciled explicitly at rollout.
+
+b) Let trivial single-file runs in a knowledge base write in the primary checkout as well, under an explicit serial write window, as a standing exception.
+
+c) Apply the baseline now, before the integrate command exists, merging every writing run back by hand.
 
 ## Parked
 
