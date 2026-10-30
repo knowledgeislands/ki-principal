@@ -1,28 +1,28 @@
 ---
 id: ki.prj.mac-studio-setup
-state: handoff-to-supervisor
+state: with-worker
 hold: null
-since: 2026-10-30T00:18:00Z
+since: 2026-10-30T00:23:00Z
 received: 2026-10-30T00:16:00Z
 beat: null
 mark: 2026-10-20T01:10:00Z
-method_read: 84b61942
+method_read: 6868da5a
 ---
 
 # ki.prj.mac-studio-setup state
 
 ## Now
 
-- Resumed on sol at 00:16 GMT on 30 October as an Orca trial (ORCA-HOST): dispatch goes through Orca Run `run_0de85069bc1d`, not `ki agent`. Trial log: [orca-trial](design/orca-trial.md). Nothing is running.
-- With Kris: GO-PLAN, the go for the first unit.
+- Resumed on sol at 00:16 GMT on 30 October as an Orca trial (ORCA-HOST): dispatch goes through Orca Run `run_0de85069bc1d`, not `ki agent`. Trial log: [orca-trial](design/orca-trial.md).
+- plan069, an Orca worker, plans KI-TOOL-RIG-CORE-069 under GO-PLAN ([brief](briefs/plan069.md)).
 - tools-rig is level with origin. Open: KI-TOOL-RIG-CORE-047 (in progress, waiting on terra's NordVPN checks and `rig apply --sudo`), KI-TOOL-RIG-CORE-068 (draft, size m), KI-TOOL-RIG-CORE-069 (draft, size s) and KI-TOOL-RIG-CORE-070 (awaiting review).
-- Method: harness `ki-coordination` and `ki-work-package` moved from `84b61942` to `6868da5a` (44 commits); the reread waits for the next safe point, before the first dispatch.
+- Method read at `6868da5a`.
 - Lane: tools-rig and the agent-host hold cluster.
 
 ## Next steps
 
-1. Before the first dispatch: reread `ki-coordination` and `ki-work-package` at `6868da5a`, set `method_read`, and clear the REFRESH line.
-2. On Kris's go: one Orca worker (`worker-start --worktree current --agent codex`) plans KI-TOOL-RIG-CORE-069 to Ready under ki-plan, or as far as it can without a system change; no sudo, no `rig apply`. Wait with `orchestration check --wait`; the report lands in this folder; update [orca-trial](design/orca-trial.md).
+1. Receive plan069: one Orca worker (`worker-start --worktree current --agent codex`) plans KI-TOOL-RIG-CORE-069 to Ready under ki-plan, or as far as it can without a system change; no sudo, no `rig apply`. Waiting with `orchestration check --wait`; the report lands in this folder; update [orca-trial](design/orca-trial.md).
+2. After two or three Orca units (ORCA-SKILL a), send the trial log to ki.prj.ways-of-working as a message proposing an Orca launcher under ki-delegation and ki-coordination.
 3. Shape RIG-INTAKE for the nine retained Rig capability lines in `messages.md` (capture as unadopted tools-rig triage, or hold under BURN-DOWN), blind-reviewed before it reaches Kris.
 4. spec-sched waits from [its brief](briefs/spec-sched.md); OVERNIGHT, which authorised it, ended with the 20 October hold, so it needs a new go.
 5. Put the parked queries back one at a time, RIG-TRIAGE and the PLAN068 queries first, blind-reviewing PLAN068-UNPRIV and PLAN068-READY.
