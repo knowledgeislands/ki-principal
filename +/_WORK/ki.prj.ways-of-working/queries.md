@@ -208,6 +208,94 @@ b) The review's strongest alternative: keep `ki-coordination` and `ki-coordinato
 
 c) Keep the current names because of rename cost, as the earlier recommendation did: keep `ki-coordination`, `ki-coordinator`, `ki-delegation` and `ki agent`, and say in the Work Process note that the orchestrator role is exercised under `ki-coordination`.
 
+### LAYOUT-SHAPE - Which package layout to adopt
+
+since 2026-10-30 · from run/package-layout · [design](design/package-layout/design.md)
+
+**Context:** Kris set on 30 October that a work package keeps only its five files at the top level, with everything else grouped, possibly group first with briefs, design and reports beneath. Three shapes fit. A, kind-first: `reports/`, `briefs/` and `design/` folders, the cheapest change, but a matter stays spread across three folders and the tidy stays file by file. B, group-first with kind subfolders, as sketched: one folder per matter with `briefs/` and `reports/` inside, which needs an estate-wide ignore exception because `reports/` is ignored at any depth. C, group-first and flat: one folder per matter, with `<run>.brief.md` and `<run>.report.md` side by side and design files under plain names, needing no ignore change. The evidence suggests the sprawl comes mainly from retention, so the group earns its cost only as the unit of tidy. No shape has been piloted.
+
+**Query:** Which layout should the pilot use?
+
+**Options:**
+
+a) (recommended, confidence medium - the evidence favours the group as the unit of tidy, and C avoids the ignore collision, but nothing has been piloted) C, group-first and flat.
+
+b) B, group-first with `briefs/` and `reports/` subfolders, plus the `ki-repo` ignore exception.
+
+c) A, kind-first, with a stricter tidy cadence instead of groups.
+
+### LAYOUT-GROUP-TIDY - Whether closing a group deletes it whole
+
+since 2026-10-30 · from run/package-layout · [design](design/package-layout/design.md)
+
+**Context:** Today's tidy deletes file by file, by explicit path, never folder-wide, and the steward judges each file's durable home. Under a group-first layout, a matter's files usually become homed together. The proposal is that once the steward judges a whole group closed, with outcomes homed, queries copied and design notes graduated or superseded, it deletes the group with one `git rm -r` naming that folder, in one commit, with Git keeping the history. Single-file deletion remains available.
+
+**Query:** Should the tidy rule allow deleting one named, closed group folder whole?
+
+**Options:**
+
+a) (recommended, confidence medium - it makes the group pay its way and Git keeps history, but it widens a deletion rule and is untested) Yes: a steward may delete one named, closed group in one commit.
+
+b) No: keep file-by-file deletion inside groups.
+
+### LAYOUT-PILOT-ORDER - When the pilot moves files
+
+since 2026-10-30 · from run/package-layout · [design](design/package-layout/design.md)
+
+**Context:** The rubric's FOLDER-1 fails any folder outside the closed list, the launcher homes reports only at the top level, and the Observatory reads only top-level reports and `design/`. Piloting this package before those change gives evidence sooner but shows rubric failures and hides moved reports from the Observatory and `ki agent decide`. Changing the standard and rubric first is a small harness change; the launcher and Observatory changes belong to other works and would take longer.
+
+**Query:** In what order should the pilot run?
+
+**Options:**
+
+a) (recommended, confidence medium - a small harness change first keeps the rubric honest, and moving received reports by hand at receive bridges the launcher gap) Change the closed list and FOLDER rubric first, then pilot this package by hand, receiving and tidying before moving, with launcher and Observatory changes following.
+
+b) Pilot now, ahead of the rubric, and accept FOLDER-1 failures in this package until the harness catches up.
+
+c) Wait until the launcher and Observatory changes have also landed.
+
+### REVIEW-CHALLENGE - Let reviews challenge earlier decisions, visibly
+
+since 2026-10-30 · from run/package-layout · [design](design/package-layout/design.md)
+
+**Context:** Kris asked on 30 October that blind reviews be free to challenge earlier decisions. Today's masked query review hides the recommendation but not the precedent in the Context. The proposal: every review brief carries a fixed independence sentence, generated so that it cannot be left out; the masked Context states earlier decisions as dated facts, not as premises; a review that challenges a decision is shown at the end of the Context with an option to revisit it, never acted on without Kris; and `ki-work-design` reviews gain a Challenges section.
+
+**Query:** Should `ki-coordination` and `ki-work-design` adopt these four amendments?
+
+**Options:**
+
+a) (recommended, confidence high - each part only adds text or display, is reversible, and implements Kris's own words) Adopt the independence sentence, neutral Context, challenge display and design-review Challenges section.
+
+b) Adopt only the independence sentence in review briefs.
+
+### REVIEW-LIFT - Precedent earns no confidence
+
+since 2026-10-30 · from run/package-layout · [design](design/package-layout/design.md)
+
+**Context:** Under the query-review rule, a blind review that agrees with a recommendation lifts its confidence one level. A review can agree simply because the Context framed the question inside an earlier decision. The proposal: agreement that rests only on an earlier decision or on the framing is marked `reviewed, precedent only` and lifts nothing, and an option whose only stated reason is an earlier decision is capped at medium. This changes how confidence is earned across every query, and it will send more queries to Kris at medium.
+
+**Query:** Should precedent alone stop counting towards confidence?
+
+**Options:**
+
+a) (recommended, confidence medium - it follows Kris's direction directly, but it shifts confidence on every query and has no trial evidence) Yes: no lift from precedent-only agreement, and a precedent-only reason caps at medium.
+
+b) No: keep today's lift rule, relying on the independence sentence alone.
+
+### READ-FEEDBACK-NOW - Feedback packages before the Observatory can write them
+
+since 2026-10-30 · from run/package-layout · [design](design/package-layout/design.md)
+
+**Context:** The closed list keeps owner feedback on documents as `feedback/<date>-<slug>.md` plus one `messages.md` line, and names only "the owner, through the Observatory" as its writer. Kris can read design notes in Obsidian today, but feedback longer than a spoken answer can be left only through the Observatory's `feedback-send`, which reads only top-level reports and `design/` notes and so loses sight of moved files until it is made group-aware. The proposal widens that row: the owner may write the package by hand, or the steward may write it verbatim from the owner's spoken words, committed with its message line in the same shape.
+
+**Query:** Should feedback packages be writable now, outside the Observatory?
+
+**Options:**
+
+a) (recommended, confidence medium - it uses an existing kind and shape, but a steward writing on the owner's behalf needs the verbatim rule held) Yes, by the owner by hand or by the steward verbatim from the owner's words.
+
+b) No: feedback stays spoken until the Observatory path is ready.
+
 ### WAKE-HOST - Where the headless coordinator pass may run
 
 since 2026-10-30 · from run/landscape, split from WAKE · merged in [landscape-report](design/landscape-report.md)
