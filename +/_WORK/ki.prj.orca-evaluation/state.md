@@ -1,7 +1,7 @@
 ---
 id: ki.prj.orca-evaluation
-state: with-worker
-since: 2026-10-30T01:49:00Z
+state: with-supervisor
+since: 2026-10-30T11:39:00Z
 received: 2026-10-30T01:49:00Z
 beat: null
 mark: 2026-10-30T01:42:30Z
@@ -12,20 +12,17 @@ method_read: 6868da5a
 
 ## Now
 
-- Re-bootstrapped 30 October 11:16 GMT. Received ORCA-HANDOVER (trial log now at `design/orca-trial.md`), ORCA-REACH, WAKE-SESSION and WAKE-DURABLE; logged in `decisions.md`.
-- Run `trial-plan` (ki-prj-orca-evaluation) drafting the trial plan within ORCA-REACH, WAKE-SESSION and WAKE-DURABLE.
-- Run `thread-nesting` investigating Kris's 30 October question whether Orca can show a coordinator's runs nested under its thread in the project view.
-- Run `sidebar-restore` finding how to restore Orca Mobile and Tasks to Orca's sidebar after Hide from sidebar; Kris keeps Automations hidden.
-- ORCA-OPTIN b) taken 11:29 GMT: new units dispatch through Orca on attended Macs; in-flight `ki agent` runs finish there.
+- Sent to Kris 11:39 GMT with nine queries in `queries.md`: TRIAL-UNITS, TRIAL-PUBLISH, TRIAL-ASK, TRIAL-PRACTICE, NEST-TRIAL, NEST-FR, ORCA-IDENTITY-LEAK, ORCA-SIDEBAR-FR, LABEL-FIRST; all reviewed to high.
+- ORCA-OPTIN b): dispatch is through Orca, Run `run_30f79294698c`; wait with `orca orchestration check --wait`, then ack the delivery.
+- Evidence held outside the repository until homed: run reports under ~/.local/state/ki/agents/ki-prj-orca-evaluation/ (trial-plan, thread-nesting, sidebar-restore, orca-labels). Sidebar items return through Orca Settings > Appearance > Sidebar.
 
 ## Next steps
 
-1. Receive `trial-plan`: copy its queries (the Orca opt-in for this package among them) into `queries.md`, blind-review any below high confidence, then bring them to Kris.
-2. On Kris's opt-in, run the two or three trial units, including the WAKE-SESSION proof of `orca orchestration check --wait` in Claude Code and Codex, on an attended Mac only.
-3. After the units, crystallise the proposal for an Orca launcher (ORCA-SKILL).
-4. Receive `thread-nesting`; fold any launcher need into the trial plan or ORCA-SKILL, and send a ki agent need to ki.prj.ways-of-working as a message, with Kris's permission.
-5. ORCA-REACH follow-up due 6 November 2026.
-6. ORCA-FIT notes from ki.prj.ways-of-working not yet received; take them when their line arrives.
+1. On Kris's answers to the TRIAL queries, dispatch the trial units through Orca on sol, attended.
+2. On ORCA-IDENTITY-LEAK a), send the message to ki.prj.ways-of-working.
+3. On ORCA-SIDEBAR-FR and LABEL-FIRST a), draft one bundled Orca request for Kris's go.
+4. Home the thread-nesting, sidebar and label findings in the trial evidence (`design/orca-trial.md`) through a run.
+5. ORCA-REACH follow-up due 6 November 2026; ORCA-FIT notes from ki.prj.ways-of-working still awaited.
 
 ## Held
 
