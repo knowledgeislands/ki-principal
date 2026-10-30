@@ -2,7 +2,19 @@
 
 ## Open
 
-None.
+### RIG-069-PROBE - Native setter evidence for KI-TOOL-RIG-CORE-069
+
+since 2026-10-30 · from plan069.report.md
+
+**Context:** KI-TOOL-RIG-CORE-069 is planned but stays draft: terra proved the legacy setter can assign the dynamic TOML type, but sol's recorded -50 failure happens before the confirmation helper runs, and read-only inspection cannot choose between legacy success with consent, a different identifier, or the NSWorkspace setter. Only an attended probe at sol's screen settles it.
+
+**Query:** Will Kris attend the bounded sol probe (rungs `legacy`, `modern`, `workspace`, with `observe` after each, restoring Warp if needed) so the route can be settled and the plan approved to Ready?
+
+**Options:**
+
+a) (recommended, confidence high - attended sol evidence is the one missing fact) Keep KI-TOOL-RIG-CORE-069 draft and arrange the probe with Kris at sol's screen, then approve Ready on its results.
+
+b) Defer the probe; the record stays draft and sol's TOML hold remains.
 
 ## Parked
 

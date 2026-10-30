@@ -215,3 +215,11 @@ Kris (29 October 2026), resuming on sol as an Orca trial: "for this Project, dis
 ## 2026-10-30 00:23 GMT - GO-PLAN and ORCA-SKILL
 
 Kris (30 October 2026): "The Go plan. Yes. As with your recommendation. And the orca skill, yes. I think exactly what we're saying on the recommendation there, which is to do a few bits and pieces here and then crystallize some of that into a proposal for an Orca launcher under those 2 skills." Taken as GO-PLAN a): one Orca worker, plan069, plans KI-TOOL-RIG-CORE-069 under ki-plan, no system change. ORCA-SKILL a): two or three units here first, then the trial log goes to ki.prj.ways-of-working as a message proposing an Orca launcher under ki-delegation and ki-coordination ("those 2 skills", read as the two the query named; one line to confirm).
+
+## 2026-10-30 01:40 GMT - KI-AGENT-DISPATCH
+
+Kris (30 October 2026), bootstrapping this work: "Background agents: run substantive work through `ki agent` in run `ki-prj-mac-studio-setup`; stay responsive." Taken as: dispatch for this Project returns to `ki agent`, run `ki-prj-mac-studio-setup`; ORCA-HOST's Orca dispatch ends here after one unit (plan069), and ORCA-SKILL's further units pass with the Orca trial evidence to the Orca evaluation Project under ORCA-HANDOVER.
+
+## 2026-10-30 01:40 GMT - plan069 received
+
+plan069 received: KI-TOOL-RIG-CORE-069 planned and left at draft (`9297c9c`, pushed to tools-rig), Ready blocked only on the attended sol probe; PLAN069-AUDIT, PLAN069-GIT and PLAN069-HOOK settled during the run (Kris approved the hook-managed backup for the report-only commit, "Yes, you may"); RIG-069-PROBE (high) copied to `queries.md`; brief pruned; report kept as Orca trial evidence until the ORCA-HANDOVER line is sent. ORCA-HANDOVER line kept: its first part (receive plan069) is done, its handover waits until State of play creates the Orca evaluation package, which does not yet exist.

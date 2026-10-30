@@ -2,8 +2,8 @@
 id: ki.prj.mac-studio-setup
 state: with-worker
 hold: null
-since: 2026-10-30T00:23:00Z
-received: 2026-10-30T00:16:00Z
+since: 2026-10-30T01:40:00Z
+received: 2026-10-30T01:40:00Z
 beat: null
 mark: 2026-10-20T01:10:00Z
 method_read: 6868da5a
@@ -13,20 +13,19 @@ method_read: 6868da5a
 
 ## Now
 
-- Resumed on sol at 00:16 GMT on 30 October as an Orca trial (ORCA-HOST): dispatch goes through Orca Run `run_0de85069bc1d`, not `ki agent`. Trial log: [orca-trial](design/orca-trial.md).
-- plan069, an Orca worker, plans KI-TOOL-RIG-CORE-069 under GO-PLAN ([brief](briefs/plan069.md)).
-- tools-rig is level with origin. Open: KI-TOOL-RIG-CORE-047 (in progress, waiting on terra's NordVPN checks and `rig apply --sudo`), KI-TOOL-RIG-CORE-068 (draft, size m), KI-TOOL-RIG-CORE-069 (draft, size s) and KI-TOOL-RIG-CORE-070 (awaiting review).
+- Re-bootstrapped on sol at 01:39 GMT on 30 October as coordinator; dispatch through `ki agent`, run `ki-prj-mac-studio-setup` (KI-AGENT-DISPATCH), ending the Orca dispatch trial after one unit.
+- plan069 received: KI-TOOL-RIG-CORE-069 at draft, waiting on RIG-069-PROBE at sol's screen.
+- tools-rig is level with origin. Open: KI-TOOL-RIG-CORE-047 (in progress, waiting on terra), KI-TOOL-RIG-CORE-068 (draft, size m), KI-TOOL-RIG-CORE-069 (draft, size s, probe needed) and KI-TOOL-RIG-CORE-070 (awaiting review).
 - Method read at `6868da5a`.
 - Lane: tools-rig and the agent-host hold cluster.
 
 ## Next steps
 
-1. Receive plan069: one Orca worker (`worker-start --worktree current --agent codex`) plans KI-TOOL-RIG-CORE-069 to Ready under ki-plan, or as far as it can without a system change; no sudo, no `rig apply`. Waiting with `orchestration check --wait`; the report lands in this folder; update [orca-trial](design/orca-trial.md).
-2. After two or three Orca units (ORCA-SKILL a), send the trial log to ki.prj.ways-of-working as a message proposing an Orca launcher under ki-delegation and ki-coordination.
-3. Shape RIG-INTAKE for the nine retained Rig capability lines in `messages.md` (capture as unadopted tools-rig triage, or hold under BURN-DOWN), blind-reviewed before it reaches Kris.
-4. spec-sched waits from [its brief](briefs/spec-sched.md); OVERNIGHT, which authorised it, ended with the 20 October hold, so it needs a new go.
-5. Put the parked queries back one at a time, RIG-TRIAGE and the PLAN068 queries first, blind-reviewing PLAN068-UNPRIV and PLAN068-READY.
-6. With Kris: ADOBE-RESTART (deferred), then the at-screen items under Held. Home or delete `design/adobe-remove.sh` once Kris answers ADOBE-SCRIPT-HOME in State of play.
+1. Launch rig-intake under `ki agent`: shape RIG-INTAKE for the nine retained Rig capability lines in `messages.md` (capture as unadopted tools-rig triage, or hold under BURN-DOWN), blind-reviewed before it reaches Kris.
+2. ORCA-HANDOVER: once State of play creates the Orca evaluation package, a run updates [orca-trial](design/orca-trial.md) with plan069's Orca section and sends the evidence and ORCA-HOST there as a messages.md line; then prune plan069.report.md and the trial log here.
+3. spec-sched waits from [its brief](briefs/spec-sched.md); OVERNIGHT, which authorised it, ended with the 20 October hold, so it needs a new go.
+4. Put the parked queries back one at a time, RIG-TRIAGE and the PLAN068 queries first, blind-reviewing PLAN068-UNPRIV and PLAN068-READY.
+5. With Kris: RIG-069-PROBE, ADOBE-RESTART (deferred), then the at-screen items under Held. Home or delete `design/adobe-remove.sh` once Kris answers ADOBE-SCRIPT-HOME in State of play.
 
 ## Held
 
