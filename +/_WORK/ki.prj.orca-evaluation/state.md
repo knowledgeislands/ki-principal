@@ -12,13 +12,16 @@ method_read: 6868da5a
 
 ## Now
 
-- Opened by Kris on 30 October; coordinator bootstrapped at 01:49 GMT. ORCA-EVAL received. Nothing running: the work waits on its incoming handovers.
+- Re-bootstrapped 30 October 11:16 GMT. Received ORCA-HANDOVER (trial log now at `design/orca-trial.md`), ORCA-REACH, WAKE-SESSION and WAKE-DURABLE; logged in `decisions.md`.
+- Run `trial-plan` (ki-prj-orca-evaluation) drafting the trial plan within ORCA-REACH, WAKE-SESSION and WAKE-DURABLE.
 
 ## Next steps
 
-1. Receive ORCA-HOST and the Orca trial evidence when ki.prj.mac-studio-setup sends its handover line (ORCA-HANDOVER and ORCA-EVAL are queued in its `messages.md`); launch a run to home them here.
-2. Receive the ORCA-FIT notes when ki.prj.ways-of-working sends them.
-3. Take in the landscape study's Orca findings (ki.prj.ways-of-working `briefs/landscape.md`, run `landscape` in flight there) when they arrive.
+1. Receive `trial-plan`: copy its queries (the Orca opt-in for this package among them) into `queries.md`, blind-review any below high confidence, then bring them to Kris.
+2. On Kris's opt-in, run the two or three trial units, including the WAKE-SESSION proof of `orca orchestration check --wait` in Claude Code and Codex, on an attended Mac only.
+3. After the units, crystallise the proposal for an Orca launcher (ORCA-SKILL).
+4. ORCA-REACH follow-up due 6 November 2026.
+5. ORCA-FIT notes from ki.prj.ways-of-working not yet received; take them when their line arrives.
 
 ## Held
 
