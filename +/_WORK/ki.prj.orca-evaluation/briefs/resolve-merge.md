@@ -9,3 +9,5 @@ Bounded resolve run. The primary ki-principal checkout (/Users/krisbrown/workspa
 5. Remove the temporary worktree with `git worktree remove /tmp/ki-resolve-merge` and delete branch resolve-merge-tmp.
 
 Report: one line on the outcome and the primary checkout's final `git status -sb` first line.
+
+Relaunch amendment (coordinator, 11:29 GMT): the earlier attempt hit one add/add conflict in `+/_WORK/ki.prj.orca-evaluation/briefs/resolve-push.md`, this work's own spent brief. You may resolve that one file, and only that file, by deleting it (`git rm`) in the merge commit, as a pruned brief. Any other conflict: abort and stop as before.

@@ -94,6 +94,18 @@ b) Hold it until the attended terra check shows how terra lists the runs, then d
 
 c) Leave `ki agent` unchanged and add a brief rule that runs must not call `orca orchestration` commands.
 
+### ORCA-SIDEBAR-FR - Feature request for a clearer way to show hidden items
+
+**Context:** Hiding is one click on the item itself. Showing it again is only possible from Settings > Appearance > Sidebar, or for Mobile from the Mobile page's toolbar, and the sidebar itself gives no hint of either. The message shown after hiding Mobile also points to the wrong Settings page. The control exists, so this is about how easy it is to find, not a missing feature.
+
+**Query:** Should a short feature request go to Orca asking for an obvious way to show hidden items?
+
+**Options:**
+
+a) (recommended, confidence medium - the control exists but you could not find it, which is the usability gap a request would fix) Send one short request. It would ask that hiding an item shows a message linking to Settings > Appearance > Sidebar, or that the sidebar's right-click menu lists hidden items to show again, and that the "Settings > Mobile" message is corrected.
+
+b) Do not send a request. Note the Settings location in the Orca evaluation and move on.
+
 ## Parked
 
 None.
