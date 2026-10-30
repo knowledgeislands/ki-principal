@@ -1,1 +1,3 @@
 # ki.prj.ways-of-working messages
+
+- 2026-10-30 · FINISHED-TIDY-KICK · Personal > Acquire intake (personal.reg.acquire-intake) > Ways of working (ki.prj.ways-of-working): relayed at Kris's request. Kris agrees a finished work should delete its own folder at its closing mark, as step 4 of Finishing Project work requires, but things fall through the gaps: when the main State of play notices a Finished work whose folder outlives its closing mark, it should give that work a kick to tidy up. Today it only names the flagged folder in that work's `messages.md`, which no live coordinator then reads. Case in point: `ki.prj.knowledge-acquisition` finished on 20 October and its folder is still in `+/_WORK/`. Sort out the method so that the kick actually gets the folder deleted.
