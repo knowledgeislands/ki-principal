@@ -150,9 +150,11 @@ since 2026-10-30 · from run/landscape
 
 **Query:** Which names should the coordination skill, the dispatch contract, its adapters and the command take?
 
+**Blind review (30 October, Codex, high effort):** agrees with a); confidence lifted to high.
+
 **Options:**
 
-a) (recommended, confidence medium - the evidence is direct, but this is a choice of words for Kris's ear) Keep `ki-coordination`. Keep `ki-delegation`, slimmed, as the portable contract, with adapters `ki-delegation-orca` and `ki-delegation-paperclip`, the second renamed from `ki-agent-coordination-paperclip`. Keep `ki agent`, and move `decide`, `reconcile`, `home` and `prompts` under `ki work`.
+a) (recommended, confidence high - reviewed; the evidence is direct, but this is a choice of words for Kris's ear) Keep `ki-coordination`. Keep `ki-delegation`, slimmed, as the portable contract, with adapters `ki-delegation-orca` and `ki-delegation-paperclip`, the second renamed from `ki-agent-coordination-paperclip`. Keep `ki agent`, and move `decide`, `reconcile`, `home` and `prompts` under `ki work`.
 
 b) The brief's family: `ki-orchestration`, `ki-orchestration-orca` and `ki-orchestration-paperclip` for dispatch, with `ki-coordination` unchanged.
 
@@ -210,9 +212,11 @@ since 2026-10-30 · from run/landscape
 
 **Query:** Which runs may skip the worktree?
 
+**Blind review (30 October, Codex, high effort):** agrees with a) at high confidence: whether a run writes into a repository, not its size, sets the shared-write risk.
+
 **Options:**
 
-a) (recommended, confidence medium - measured directly, but the knowledge-base integration cadence is untested) Only read-only runs that write nothing inside any repository. Trivial writing runs get no exception.
+a) (recommended, confidence high - reviewed; measured directly, but the knowledge-base integration cadence is untested) Only read-only runs that write nothing inside any repository. Trivial writing runs get no exception.
 
 b) Let trivial single-file runs in a knowledge base write in the primary checkout as well.
 
