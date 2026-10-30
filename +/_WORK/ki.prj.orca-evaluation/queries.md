@@ -78,6 +78,34 @@ a) (recommended, confidence medium - it lets the trial generate evidence for tho
 
 b) No. Wait for the ORCA-FIT notes and settle those choices before any unit runs.
 
+### NEST-ROUTE - How to get a coordinator's runs nested in Orca
+
+**Context:** Orca nests a run under its coordinator only when it started the run itself through `orca orchestration worker-start` or `dispatch`, because only those record the coordinator as the parent. It then shows a collapsible "N agents" group on the coordinator's row, and an Agents-list switch, "Show child agents" (off on sol), reveals the child rows. A detached `ki agent` run cannot claim a parent, whatever it is passed. The trial already plans Orca-dispatched units under ORCA-REACH, and an Orca launcher proposal comes after them (ORCA-SKILL). The nesting is read from Orca's code and has not yet been watched on screen.
+
+**Query:** Which route should this Project take to get nested runs?
+
+**Options:**
+
+a) (recommended, confidence medium - the code evidence is direct but the nesting has not been seen on screen) Fold nesting into the trial: the next Orca-dispatched unit checks the coordinator's row on screen, with "Show child agents" switched on, and ORCA-SKILL counts nesting as one benefit of the Orca launcher. `ki agent` runs stay flat until then.
+
+b) As a), and also raise an Orca feature request for a supported way for agent sessions Orca did not start to declare a parent and a display name, so `ki agent` runs could nest without changing launcher.
+
+c) Try the low-level route now: run the agent in an Orca terminal and attach an orchestration Task to it, keeping `ki agent`'s lifecycle. This is untested and Orca's guide calls it unsupervised.
+
+### ORCA-IDENTITY-LEAK - Stop `ki agent` runs inheriting the coordinator's Orca identity
+
+**Context:** `ki agent` passes its whole environment to each run, so a run started from an Orca chat coordinator carries the coordinator's Orca session id and spawn token. `orca status` from inside this run reports it as the coordinator, live. Orca uses that id to work out who is calling an orchestration command, so an `orca orchestration check`, `send` or `ask` from a run would act as the coordinator, for example taking the coordinator's Run mail. A coordinator in an Orca terminal pane would pass on its pane and hook variables too. Fixing it means changing `ki agent`, which ki.prj.ways-of-working owns. If terra's runs appear only through inherited pane variables, removing those variables may also take the runs out of terra's list.
+
+**Query:** Should this Project send ki.prj.ways-of-working a message asking `ki agent` to remove inherited Orca identity variables from the runs it starts?
+
+**Options:**
+
+a) (recommended, confidence medium - the leak was seen directly, but how removing the variables affects terra's list is unverified) Send the message. It asks `ki agent` to drop `ORCA_AGENT_SESSION_ID`, `ORCA_AGENT_SESSION_SPAWN_TOKEN`, `ORCA_STRUCTURED_SESSION`, `ORCA_PANE_KEY`, `ORCA_TAB_ID`, `ORCA_WORKTREE_ID` and the `ORCA_AGENT_HOOK_*` variables from the runs it starts, and to check terra's list afterwards.
+
+b) Hold it until the attended terra check shows how terra lists the runs, then decide.
+
+c) Leave `ki agent` unchanged and add a brief rule that runs must not call `orca orchestration` commands.
+
 ## Parked
 
 None.
