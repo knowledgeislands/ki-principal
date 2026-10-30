@@ -167,3 +167,25 @@ The bounded owner instruction authorises this tidy and fast-forward publication,
 Twenty-two completed briefs and eight homed reports are disposed by explicit path after DONE, outcome, query and grant-home checks. Immutable Git links preserve report references; private runtime originals remain intact. Two original report blobs remain because receiving queues still link them; these are exact already-published bytes, with no new protected assessment content. All reports whose full outcome/query disposal is uncertain and all ungraduated designs are retained. Settled resume, earlier mark, receipt, finalisation and mechanical-link bookkeeping are struck because the committed logbook wholly carries them; governing and held decisions remain. No work record is pruned and the Project is neither On hold nor Finished.
 
 Away authority ended; actual fresh mark 2026-10-29T15:47:28Z / 15:47 GMT. Holder is with-supervisor at Kris's explicit request. All existing holds and nine open queries remain.
+
+## 2026-10-30 02:21 GMT - Z-SESSION-RETIREMENT
+
+class: operational
+
+- Retire this Z session safely. The work is continuing in Orca; this is not Project closure. Save the existing package, reconcile only Z-owned activity, preserve Orca, commit and push authorised completed work, and preserve necessary unfinished evidence privately on an appropriate remote branch. Keep current Project holder, state and mark. Do not operate Orca. Start no product work.
+
+## 2026-10-30 - Z-RETIREMENT-RECEIPT
+
+class: operational
+
+Received the completed Z retirement report and resolved PARENT-RECEIPT under Kris's 30 October instruction to finish the same retirement operation. This retires Z only; the Project continues in Orca. No Orca interface, adopted worker, current holder, state, since, received, beat, method_read or mark was changed. All five governing files remain present; the complete nine questions in [queries](queries.md) and the newer queue in [messages](messages.md), including DIAGRAM-FEEDBACK, are preserved.
+
+The prior retirement verified 23 historical Z packets DONE with absent processes, no Z queue, pending write, obsolete monitor or declared wake, and all owned product main history plus the prior Principal drain receipt remotely reachable. No new product work, provider operation, service restart, acceptance, cancellation or Project closure follows this receipt. Unknown peer material and all uncertain reports and designs remain intact.
+
+Necessary protected continuation evidence is preserved byte-for-byte in the existing private product repository on `z-retirement/observatory-20261030`, verified archive tip `0b637ae136c6f348f09442f068be4a6fdeb116af`, at `docs/evidence/z-retirement-20261030/manifest.json`. The protected untracked launcher copy was moved intact to its existing private runtime home after its original SHA-256 and remote archive bytes matched. It was never staged in Principal; the two other source originals remain intact. This is preservation, not audience approval.
+
+The existing PROTECTED-PUBLICATION hold and PUBLIC-AUDIENCE, PUBLIC-EXPOSURE and ACCESS-DISPOSITION decisions remain unresolved. Fresh origin checks found both main histories level and no unpublished Principal ancestor before this receipt; this does not lift the explicit publication hold. The completed canonical receipt and exact Principal patch are therefore retained remotely on that same authorised private evidence branch at `docs/evidence/z-retirement-20261030/principal-retirement-receipt.md` and `principal-retirement.patch`, with proof in `finish-verification.json`. Principal publication remains explicitly blocked by that hold; no protected ancestor, payload or unverified main is published.
+
+Continuation belongs to the existing owner: answer RESTRUCTURE, TEN-COMMITS, MERMAID-HANDLER, BRIDGE-STALE, STATUS-REPAIR, SYNC-DIRECTION, PUBLIC-AUDIENCE, PUBLIC-EXPOSURE and ACCESS-DISPOSITION only by explicit instruction; prioritise DIAGRAM-FEEDBACK there. First real feedback send, service freshness, and the access, preservation and recovery gates remain separately authorised next actions. Z has no remaining product work or ownership. The parent delivery waiter finishes on DONE.
+
+This receipt homes every necessary outcome and authority from the prior retirement report and this continuation. Their runtime originals are retained; the identical spent launcher copy of the prior report may be removed from this package after remote preservation. The finish launcher report is disposable on receipt: it adds no unique authority or unfinished work and needs no further report-commit cycle. Retirement safety relies on the canonical receipt and its verified private remote patch, not a report-commit self-reference.
