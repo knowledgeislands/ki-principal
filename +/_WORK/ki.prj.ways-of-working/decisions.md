@@ -810,3 +810,22 @@ This is the owner's requested retirement of Z only; continuing work belongs to O
 The old MOD-011 draft is preserved on origin branch `wip/z-retired-mod011-20261030` without integration or acceptance. The private archive at `~/.local/state/ki/work-archives/z-retirement-ki-ways-20261030/` contains the exact full retirement receipt, 42 old report copies, six private assessment files, six restored-and-verified held Tools tips, and working-file/patch recovery for the retained worktrees. Thirty-three unreferenced report copies were tidied; referenced copies and all continuing worktrees/refs remain untouched. No protected payload was newly published.
 
 The current Principal publication hold is not lifted. This canonical entry and inbox handover are committed locally, with an exact private patch and full Git bundle, rather than pushing the held Main lineage. The full receipt is `z-session-retirement-receipt.md` in that private archive. An explicitly approved private remote destination and verified preservation remain outstanding under PUBLIC-REPORT-RECOVERY; the separate Observatory evidence destination is not assumed to authorise storing this package's protected material. Closure is NOT YET SAFE under the requested remote-durability check. All available continuation context is saved and discoverable for the current orchestrator; no further Z product work remains.
+
+## Owner answers, 30 October 2026, 06:15 GMT
+
+Read back as taken:
+
+- HOST-REVIEW: a), "proceed with the recommendation, then refine additional HOST-* based on that review". HOST-CADENCE, HOST-COVERAGE, HOST-SECONDARY-PUBLISH and HOST-READBACK wait for the review.
+- PUBLIC-REPORT-AUDIENCE and PUBLIC-REPORT-RECOVERY: "I agree with mostly but would be better informed by the review also". Taken as: an independent review of both before an answer; nothing executed.
+- ORCA-REACH: a), "as recommended but with a follow up in a weeks time" - follow-up due 6 November 2026.
+- AGENT-HOME: a), "as recommended but with a follow up in a few days" - follow-up due 2 November 2026.
+- WAKE-SESSION: a). WAKE-DURABLE: a). WORKTREE-OPTOUT: a).
+- WORKER-WAIT: "I need to think on this some more ... Can it be broken down into parts such that some have high confidence and others need more work/consideration?" - split it.
+- WAKE-HOST: "I need to think on this some more" - stays open.
+- ORCH-NAME: "If you put aside the rename cost, what is the feedback on naming then?" - re-examine with rename cost excluded.
+
+Standing directions in the same message:
+
+- PACKAGE-LAYOUT: each work package has only five top-level files, `work.md` the entry point and its siblings `decisions.md`, `messages.md`, `queries.md` and `state.md`; everything else goes in subfolders, grouped by the thing that produced it, possibly group first with briefs, design and reports beneath ("it could be that we need a different dimension, which is the grouping first").
+- REVIEW-INDEPENDENCE: "blind reviews ... must not really be concerned with previous decisions too much, and they must be able to challenge those, so we can make sure that we haven't gone down a particular avenue incorrectly" - factor into independent review and confidence scoring. Applied to every review brief from now.
+- READ-EXPLORE: Kris needs a way to read, explore and feed back on useful artefacts; "the observatory is a means to be able to achieve this at some point".
