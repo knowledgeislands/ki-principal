@@ -223,3 +223,7 @@ Kris (30 October 2026), bootstrapping this work: "Background agents: run substan
 ## 2026-10-30 01:40 GMT - plan069 received
 
 plan069 received: KI-TOOL-RIG-CORE-069 planned and left at draft (`9297c9c`, pushed to tools-rig), Ready blocked only on the attended sol probe; PLAN069-AUDIT, PLAN069-GIT and PLAN069-HOOK settled during the run (Kris approved the hook-managed backup for the report-only commit, "Yes, you may"); RIG-069-PROBE (high) copied to `queries.md`; brief pruned; report kept as Orca trial evidence until the ORCA-HANDOVER line is sent. ORCA-HANDOVER line kept: its first part (receive plan069) is done, its handover waits until State of play creates the Orca evaluation package, which does not yet exist.
+
+## 2026-10-30 01:50 GMT - rig-intake launched
+
+Operational: Kris (30 October, 01:48 GMT) noted the banner read With worker while nothing ran and the only live move was his. Correct: rig-intake, authorised in Next steps since the resume, should have launched at bootstrap. Launched now under `ki agent`, run `ki-prj-mac-studio-setup`, read-only, report only.
