@@ -2,7 +2,135 @@
 
 ## Open
 
-None.
+### WORKER-WAIT - Who holds authorised work before a worker does
+
+since 2026-10-29 · from run/sol-state-machine-readiness; refines the parked STATE-MACHINE-DECISIONS, of which it is the sole unresolved semantic choice.
+
+**Context:** The agreed role model distinguishes the orchestrator from a worker. The current coordination contract includes an orchestrator mid-turn and authorised work waiting for worker capacity in With worker; the newer source says a worker run holds that state. No worker is in flight in either case. The agreed diagram does not settle that distinction. This choice blocks only those two cases, not the agreed shape, portable stop, report layout or compatible-reader planning. The run settled REST-PORTABLE, FINISH-FROM, REST-NAMES and ROLE-WORDS and found WAIT-RESUME and WORK-REENTRY to be factual compatibility work, in the [state-machine rollout plan](design/state-machine-rollout-plan.md).
+
+**Query:** Should With worker include these cases as worker-side ownership with an explicit queued/orchestrating description, or require an actual worker role holder before entering it?
+
+**Options:**
+
+a) (recommended, confidence medium - preserves the current capacity rule and agreed diagram while keeping run status truthful) Include both cases as worker-side ownership; say explicitly that this need not mean a run is in flight and show queued/orchestrating work accurately. Align the narrower source sentence and holder projections with that reading.
+
+b) Require an actual worker role holder; qualify the dispatch/entry procedure and who holds authorised work before dispatch before enabling these cases, without inventing a state or redrawing the agreed machine in this rollout.
+
+### HOST-REVIEW - Supply the missing common-brief review packet
+
+since 2026-10-29 · from run/sol-host-sync-design; refines the parked HOST-SYNC by naming the gate its design qualification is blocked on.
+
+**Context:** The saved execution task claims an existing brief and independent reviews. The actual pair reviews Observatory executor ownership. The HOST-SYNC received note has no numbered reflection, and neither review assesses this report's complete mapping, sequence, secondary publication and read-back proposal. The design-loop standard requires at least two independent reviews of the brief. This run was explicitly forbidden to start agents. The preparation is in the [HOST-SYNC preparation report](design/host-sync-report.md).
+
+**Query:** Will the supervising coordinator arrange the missing HOST-SYNC brief and two independent reviews before treating this recommendation as qualified?
+
+**Options:**
+
+a) (recommended, confidence high - satisfies the actual gate while retaining all useful preparation) Have the supervising coordinator commission the common brief and two independent read-only reviews, on different models or runtimes, then reconcile this report before adoption. Ask each to mark Agree, Differ or Add against every numbered claim, verify owner wording and examine sequence, publication, absence and state-machine boundaries.
+
+b) Keep this preparation report parked; do not adopt or roll out HOST-SYNC until that review packet is available.
+
+### HOST-CADENCE - Choose the proposed offsets for later planning
+
+since 2026-10-29 · from run/sol-host-sync-design; refines the parked HOST-SYNC on its offset question.
+
+**Context:** The owner requested regular equivalent work with offsets and gave an hour/five-minute example. No actual cadence, host offset or zone is adopted. Independent reviews establish that offsets cannot prevent overlap or certify completion. Rig and chezmoi would own any later realisation.
+
+**Query:** Which cadence should the receiving owners prepare, without activating it?
+
+**Options:**
+
+a) (recommended, confidence medium - follows the hourly/five-minute example and gives the hosts distinct phase offsets) Prepare hourly GMT/UTC phases: Terra primary :00 and secondary consumption :05; Sol primary :02 and secondary consumption :07, subject to explicit exclusion and pilot evidence.
+
+b) Keep cadence unchosen and prepare attended passes only until the pilot establishes phase duration and a suitable interval.
+
+### HOST-COVERAGE - Prepare an explicit responsibility map
+
+since 2026-10-29 · from run/sol-host-sync-design; refines the parked HOST-SYNC on which host is primary for what.
+
+**Context:** Seats encode coordination landing and existing active-active roles, not sync-primary ownership. There is no evidenced per-territory sync mapping or per-repository publication eligibility set to adopt. Neither host's physical checkout inventory grants it writes. Rig and chezmoi own preparation of the requested dotfiles declaration.
+
+**Query:** Should the two Rig owners prepare the explicit mapping for a separate bounded review, or will Kris provide its entries directly?
+
+**Options:**
+
+a) (recommended, confidence high - preserves owner control without inventing mappings from seats) Ask Rig and chezmoi to propose the per-territory primary/secondary map, enumerate repository and phase eligibility plus exclusions, and return it for approval before configuration or operations. Start with one jointly nominated non-HNR non-deploying pilot repository.
+
+b) Kris supplies the mapping and pilot repository directly; the receiving owners then verify eligibility and prepare its bounded plan.
+
+### HOST-SECONDARY-PUBLISH - Bound secondary-origin publication
+
+since 2026-10-29 · from run/sol-host-sync-design; refines the parked HOST-SYNC on its publication sequence.
+
+**Context:** The source wants the primary to read secondary updates but does not choose how those updates reach Git. Pulling primary work on a secondary cannot publish secondary-origin commits. Scheduling read-back alone therefore cannot fulfil that requirement. Existing per-repository grants still apply.
+
+**Query:** Should secondary-origin changes continue to be published only through separately authorised attended work, or should Rig prepare a recurring secondary-publication phase for later review?
+
+**Options:**
+
+a) (recommended, confidence medium - supplies a valid return path without adding unattended publication authority) Keep secondary consumption pull-only in the recurring proposal; secondary-origin changes reach Git through separately authorised attended work. Read-back consumes only what is actually published and reports outstanding unpublished work as outside its coverage.
+
+b) Ask Rig and the Git-tool owner to prepare a distinct opt-in secondary-publication phase with repository eligibility and authority-at-effect checks; do not activate it or assume a grant from HOST-SYNC.
+
+### HOST-READBACK - Choose when primaries check published return work
+
+since 2026-10-29 · from run/sol-host-sync-design; refines the parked HOST-SYNC on how primary hosts consume secondary updates.
+
+**Context:** Kris explicitly left primary read-back to be decided and suggested a resync in short order. This is independent of secondary publication, message forwarding and request/reply trades. No timing guarantee can cover unpublished work or an absent host.
+
+**Query:** Should primary read-back wait for its next hourly occurrence, or should the receiving owners prepare an additional short-delay phase?
+
+**Options:**
+
+a) (recommended, confidence medium - simplest bounded start while coverage and duration are unproven) Read published secondary-origin updates at the start of the primary's next authorised hourly occurrence, before evaluating eligible primary publication. State the resulting delay explicitly; make no immediate-convergence promise.
+
+b) Prepare an extra pull-only read-back at Terra :10 and Sol :12, separately bounded and guarded; retain next-occurrence recovery if a prior phase is late or absent. This adds promptness, not publication authority or an acknowledgement guarantee.
+
+### PUBLIC-REPORT-AUDIENCE - Choose the response scope
+
+since 2026-10-29 · from run/sol-private-report-assessment; the parked TERRA-LOCAL-REPORTS and PROTECTED-PUBLICATION refer to this audience question.
+
+**Context:** Exact selected historical content remains reachable in locally verified published history, and one protected version remains current. Readership and indexing are unknown. Assessment approval did not authorise a remedy. The run's private evidence and response options are at `/Users/krisbrown/.local/state/ki/agents/ways-sol-resume-20261029/sol-private-report-assessment.private/`, which stays private and outside the repository.
+
+**Query:** Should a separately bounded private response design follow, or should the owner explicitly retain the present publication posture?
+
+**Options:**
+
+a) (recommended, confidence high - resolves intended audience before selecting a remedy) Commission a private exact-version response design using the evidence locator above. Specify permitted audience and desired current/historical disposition; return a separate execution proposal with residual exposure stated. This authorises planning only, with no sanitisation, access change, history action, credential action or external contact.
+
+b) Explicitly accept leaving current and historical publication unchanged, retaining the private evidence and unknown-readership qualification. This does not clear further public reuse.
+
+c) Defer the response decision, naming its owner and return point; preserve evidence unchanged.
+
+### PUBLIC-REPORT-RECOVERY - Decide private evidence durability
+
+since 2026-10-29 · from run/sol-private-report-assessment; related to the parked TERRA-RECOVERY.
+
+**Context:** Local recovery has been verified, but private off-machine recovery has not. The private evidence directory must remain outside the launcher's repository report home; no relevant source-store declaration was established for this operation.
+
+**Query:** Should a later bounded task preserve the existing private recovery/provenance and this assessment at an explicitly approved private destination?
+
+**Options:**
+
+a) (recommended, confidence high - addresses the proved local-only gap without inventing a binding) Identify an approved private destination, or explicitly approve one, then separately authorise exact-manifest backup and restore verification with originals preserved. No transfer is authorised now.
+
+b) Retain only the existing local copies and explicitly acknowledge the private recovery limitation; preserve this runtime evidence and its referenced archives.
+
+### AMEND-RACE - Guard amends in a shared checkout
+
+since 2026-10-30 · from a message line received by the coordinator.
+
+**Context:** In the shared hnr-principal checkout a run amended `HEAD` after another package's explicit-path commit had landed, so `a1d61be4` became `21f4f02b` under the amending run's subject and trailer. The tree is identical and no content was lost, but the other package's commit subject and attribution were replaced. The `ki-git` standard already says to record and re-check `HEAD` before staging, to serialise the write window that advances shared `HEAD`, to rebuild only a commit "this session has not pushed" when it captured unrelated work, and to "never rewrite another actor's commit or a published commit"; it has no explicit check that `HEAD` is still the session's own commit before an amend. Its isolated-index procedure already uses that pattern: record the parent before committing and stop if `HEAD` has moved. The proposed rule would change `ki-git` in the KI Agentic Harness, which owns the change; no skill was changed here.
+
+**Query:** Should `ki-git` allow an amend in a shared checkout only after confirming `HEAD` is the session's own unpublished commit, or forbid amending there altogether?
+
+**Options:**
+
+a) (recommended, confidence medium - makes the existing never-rewrite-another's-commit rule mechanical with the parent-check pattern the standard already uses, and keeps its own-unpushed-commit repair path; a check outside the serialised window would still race) Amend in a shared checkout only inside the serialised write window and only after confirming `HEAD` equals the commit this session itself recorded and has not pushed; otherwise make a new commit. Send it to the KI Agentic Harness as a message line for `ki-git`.
+
+b) Never amend in a shared checkout: correct with a follow-up commit, and rewrite the standard's own-unpushed-commit repair path to match. Send it to the KI Agentic Harness as a message line for `ki-git`.
+
+c) Change no rule: the existing standard already forbids rewriting another actor's commit, so log the incident as a lapse in Mistakes and Lessons only.
 
 ## Parked
 
