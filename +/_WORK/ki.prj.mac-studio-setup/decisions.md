@@ -237,3 +237,7 @@ rig-intake received: RIG-INTAKE (medium) copied to `queries.md`; blind review in
 ## 2026-10-30 02:00 GMT - intake-review received
 
 intake-review (Codex, high, masked) received: it independently chose RIG-INTAKE a), so its confidence rises to high; its qualifications folded into option a): the CLI record separates defects from intended contracts, the footprint lines keep their wording in the KI-TOOL-RIG-CORE-072 idea, WAKE-SUBSTRATE and RIG-REMINDER-DOCTOR return with what remains open (the hook's live health audit is unverified, not "already satisfied"). Review report and brief pruned.
+
+## 2026-10-30 02:02 GMT - ORCA-EVAL
+
+ORCA-EVAL from State of play: ki.prj.orca-evaluation now exists, so ORCA-HANDOVER's handover proceeds: run orca-handover launched to update the trial log and send it with ORCA-HOST as a line in that package's messages.md. ORCA-EVAL line removed; ORCA-HANDOVER kept until the run is received.
