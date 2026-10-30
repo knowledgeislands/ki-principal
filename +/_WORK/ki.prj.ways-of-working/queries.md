@@ -46,15 +46,17 @@ b) Yes: keep the clause, so any orchestrator turn reads as With worker whatever 
 
 ### WORKER-WAIT-GATED - Authorised work that nothing will start by itself
 
-since 2026-10-29 · from run/sol-state-machine-readiness, split from WORKER-WAIT on 30 October at Kris's request · needs more work before it can be high: a blind review; a check against REST-PORTABLE's settled rule that a short external wait may stay within Working "only when its actual holder/state is represented honestly"; a ruling on whether dated follow-ups, such as ORCA-REACH's due 6 November, are gates or ordinary next steps; and evidence of what the dispatcher does when a usage limit or provider outage stops a launch, which no run has verified
+since 2026-10-29 · from run/sol-state-machine-readiness, split from WORKER-WAIT on 30 October at Kris's request · high after the blind review of 30 October; still to check before enforcement: REST-PORTABLE's settled rule that a short external wait may stay within Working "only when its actual holder/state is represented honestly"; a ruling on whether dated follow-ups, such as ORCA-REACH's due 6 November, are gates or ordinary next steps; and evidence of what the dispatcher does when a usage limit or provider outage stops a launch, which no run has verified
 
 **Context:** Some authorised units cannot be briefed or queued yet because they wait on something outside this work's runs: another work's reply, a person, a date, a host, or model capacity lost to a usage limit or outage. Nothing will start them until someone acts on an event. While other units run or are queued the work is With worker anyway; the question arises only when gated units are all that remain. The current capacity rule would keep such work with the worker indefinitely, which can show a With worker with nothing running and no heartbeat for days. REST-PORTABLE makes At rest · waiting the honest state for a real wait, but at the cost of the full stop: drain, the portability checks, parked queries and a struck mark, even for a short reply. A live coordinator wakes at least every five minutes and reads `messages.md` at each wake, so it notices a reply line; once the session ends nothing does, unless a granted headless pass names the work.
 
 **Query:** When gated units are all the authorised work that remains, does the work stay With worker or stop to At rest · waiting?
 
+**Blind review (30 October, Codex, high effort):** agrees with a) at high confidence: responsibility can stay with an active coordinator that will observe and act on the gate, while a concluded session needs an explicit waiting handoff; it adds that an open session alone is not enough without an actual wake-and-check. Confidence lifted to high.
+
 **Options:**
 
-a) (recommended, confidence medium - honest about the holder while a live session can act on the gate and avoids an idle With worker, but where the line falls is untested) Stay With worker, each gate shown as an item naming it, `[handoff]` where it is other work or a person, only while the orchestrator session that will act on it is open and waking; conclude and stop to At rest · waiting, the gate as release, before that session ends or when the gate is a date or outlasts it.
+a) (recommended, confidence high - reviewed; honest about the holder while a live session that wakes and checks can act on the gate, and avoids an idle With worker once it cannot) Stay With worker, each gate shown as an item naming it, `[handoff]` where it is other work or a person, only while the orchestrator session that will act on it is open and waking; conclude and stop to At rest · waiting, the gate as release, before that session ends or when the gate is a date or outlasts it.
 
 b) Stop to At rest · waiting as soon as nothing of this work is running or queued, however short the gate.
 
@@ -82,9 +84,11 @@ since 2026-10-29 · from run/sol-host-sync-design; rewritten 30 October from the
 
 **Query:** Should Rig prepare Kris's hourly `:00`/`:05` cadence now, confirmed by each host's attended run, or leave the cadence unchosen until measured?
 
+**Blind review (30 October, Codex, high effort):** agrees with a) at medium confidence: a provisional plan keeps Kris's stated shape while each host's attended measurement stays a hard gate on recurrence; if measurements fail, the cadence is revised before activation, and offsets give no locking or completion guarantee. Confidence lifted to high.
+
 **Options:**
 
-a) (recommended, confidence medium - Kris's own hourly and five-minute shape with disjoint per-slot sets supports it, but durations are unmeasured and the reviewers split) Prepare hourly phases on both hosts: primary `:00`, secondary `:05`, a pull-only read-back shortly after, each host's first attended run confirming phase duration fits before activation.
+a) (recommended, confidence high - reviewed; Kris's own hourly and five-minute shape with disjoint per-slot sets, prepared provisionally with each host's attended run as a hard gate before any recurrence) Prepare hourly phases on both hosts: primary `:00`, secondary `:05`, a pull-only read-back shortly after, each host's first attended run confirming phase duration fits before activation.
 
 b) Keep cadence unchosen; prepare attended passes only, and return a recurring plan once they have measured phase duration and wake behaviour.
 
@@ -98,9 +102,11 @@ since 2026-10-29 · from run/sol-host-sync-design; rewritten 30 October from the
 
 **Query:** Should Rig and chezmoi start their proposed map from the seats, for Kris to confirm or amend, or build it without that starting point?
 
+**Blind review (30 October, Codex, high effort):** agrees with a) at medium confidence: existing coordination placement is a useful seed for the proposal when Kris explicitly approves the sync roles and the receiving owners verify repository, branch and phase eligibility before configuration. Confidence lifted to high.
+
 **Options:**
 
-a) (recommended, confidence medium - Kris's per-territory words, the ADR's seat and standby pairing and the sender's pointer support it, but seats carry a different meaning and the reviewers differ) Rig and chezmoi propose a territory-grain map starting from seat host as primary and standby as secondary, active-active territories primary on the hub, with exclusions, resolved membership and the point at which HNR joins; Kris approves or amends it before configuration; the first attended run uses one non-HNR, non-deploying repository.
+a) (recommended, confidence high - reviewed; Kris's per-territory words, the ADR's seat and standby pairing and the sender's pointer give a seed, while Kris's approval and the owners' eligibility check keep seats from being read as sync authority) Rig and chezmoi propose a territory-grain map starting from seat host as primary and standby as secondary, active-active territories primary on the hub, with exclusions, resolved membership and the point at which HNR joins; Kris approves or amends it before configuration; the first attended run uses one non-HNR, non-deploying repository.
 
 b) Rig and chezmoi propose the map without the seats starting point, enumerating repository, branch and phase eligibility, and return it for approval before configuration, starting from one jointly nominated non-HNR, non-deploying pilot repository.
 
@@ -128,9 +134,11 @@ since 2026-10-29 · from run/sol-host-sync-design; rewritten 30 October from the
 
 **Query:** Should each primary run a short pull-only read-back after the secondary phase, or wait for its next hourly occurrence?
 
+**Blind review (30 October, Codex, high effort):** agrees with a) at high confidence: a prompt pull-only attempt cuts avoidable delay for already-published work without needing more publication authority, and must not gain conflict-resolution, reset or publication powers. Confidence lifted to high.
+
 **Options:**
 
-a) (recommended, confidence medium - both design reviews prefer it on Kris's "in short order", but an earlier blind query review backed b) and the slot depends on cadence) Prepare a pull-only read-back on each primary shortly after the secondary phase, its slot following HOST-CADENCE, keeping next-occurrence recovery for late or missing work and promising no immediate convergence.
+a) (recommended, confidence high - reviewed; both design reviews and this blind review prefer it on Kris's "in short order", superseding the earlier blind query review that backed b), with its slot following cadence) Prepare a pull-only read-back on each primary shortly after the secondary phase, its slot following HOST-CADENCE, keeping next-occurrence recovery for late or missing work and promising no immediate convergence.
 
 b) Read published secondary-origin updates at the start of the primary's next hourly occurrence, stating the roughly 55-minute delay.
 
