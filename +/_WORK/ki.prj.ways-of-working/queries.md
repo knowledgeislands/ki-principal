@@ -74,87 +74,71 @@ a) (recommended, confidence high - the three are consistency corrections inside 
 
 b) Hold every part of WORKER-WAIT out of U1 and U2 until WORKER-WAIT-GATED is decided too.
 
-### HOST-REVIEW - Supply the missing common-brief review packet
+### HOST-CADENCE - Which cadence Rig prepares, without activating it
 
-since 2026-10-29 · from run/sol-host-sync-design; refines the parked HOST-SYNC by naming the gate its design qualification is blocked on.
+since 2026-10-29 · from run/sol-host-sync-design; rewritten 30 October from the [merged host-sync report](design/host-sync/report.md#host-cadence---which-cadence-rig-prepares).
 
-**Context:** The saved execution task claims an existing brief and independent reviews. The actual pair reviews Observatory executor ownership. The HOST-SYNC received note has no numbered reflection, and neither review assesses this report's complete mapping, sequence, secondary publication and read-back proposal. The design-loop standard requires at least two independent reviews of the brief. This run was explicitly forbidden to start agents. The preparation is in the [HOST-SYNC preparation report](design/host-sync-report.md).
+**Context:** Kris's shape is hourly, publishing primaries "on the hour" and secondaries "five minutes later". Each territory has one primary host, so at any slot the two hosts touch disjoint territories, and the brief's extra two-minute host stagger protects nothing measured. No phase duration, sleep or wake behaviour has been measured, and offsets confer no exclusion or completion proof. The reviewers disagree: Claude recommends Kris's `:00` primary and `:05` secondary on both hosts at medium confidence, because the sets are disjoint and the attended run measures duration before activation; Codex recommends measuring attended passes first and keeping the hourly pattern only as a candidate, at medium confidence, because durations and wake behaviour are unverified. Both accept one attended run per host before any recurrence. An earlier blind review preferred measuring first. Nothing is activated either way.
 
-**Query:** Will the supervising coordinator arrange the missing HOST-SYNC brief and two independent reviews before treating this recommendation as qualified?
-
-**Options:**
-
-a) (recommended, confidence high - satisfies the actual gate while retaining all useful preparation) Have the supervising coordinator commission the common brief and two independent read-only reviews, on different models or runtimes, then reconcile this report before adoption. Ask each to mark Agree, Differ or Add against every numbered claim, verify owner wording and examine sequence, publication, absence and state-machine boundaries.
-
-b) Keep this preparation report parked; do not adopt or roll out HOST-SYNC until that review packet is available.
-
-### HOST-CADENCE - Choose the proposed offsets for later planning
-
-since 2026-10-29 · from run/sol-host-sync-design; refines the parked HOST-SYNC on its offset question.
-
-**Context:** The owner requested regular equivalent work with offsets and gave an hour/five-minute example. No actual cadence, host offset or zone is adopted. Independent reviews establish that offsets cannot prevent overlap or certify completion. Rig and chezmoi would own any later realisation.
-
-**Query:** Which cadence should the receiving owners prepare, without activating it?
-
-**Blind review (30 October, Codex, high effort):** differs, prefers b) at medium confidence: measured phase duration and exclusion behaviour should come before a fixed interval.
+**Query:** Should Rig prepare Kris's hourly `:00`/`:05` cadence now, confirmed by each host's attended run, or leave the cadence unchosen until measured?
 
 **Options:**
 
-a) (recommended, confidence medium - follows the hourly/five-minute example and gives the hosts distinct phase offsets) Prepare hourly GMT/UTC phases: Terra primary :00 and secondary consumption :05; Sol primary :02 and secondary consumption :07, subject to explicit exclusion and pilot evidence.
+a) (recommended, confidence medium - Kris's own hourly and five-minute shape with disjoint per-slot sets supports it, but durations are unmeasured and the reviewers split) Prepare hourly phases on both hosts: primary `:00`, secondary `:05`, a pull-only read-back shortly after, each host's first attended run confirming phase duration fits before activation.
 
-b) Keep cadence unchosen and prepare attended passes only until the pilot establishes phase duration and a suitable interval.
+b) Keep cadence unchosen; prepare attended passes only, and return a recurring plan once they have measured phase duration and wake behaviour.
 
-### HOST-COVERAGE - Prepare an explicit responsibility map
+c) Prepare the brief's staggered phases: Terra primary `:00` and secondary `:05`, Sol primary `:02` and secondary `:07`.
 
-since 2026-10-29 · from run/sol-host-sync-design; refines the parked HOST-SYNC on which host is primary for what.
+### HOST-COVERAGE - Who prepares the responsibility map, and from what start
 
-**Context:** Seats encode coordination landing and existing active-active roles, not sync-primary ownership. There is no evidenced per-territory sync mapping or per-repository publication eligibility set to adopt. Neither host's physical checkout inventory grants it writes. Rig and chezmoi own preparation of the requested dotfiles declaration.
+since 2026-10-29 · from run/sol-host-sync-design; rewritten 30 October from the [merged host-sync report](design/host-sync/report.md#host-coverage---who-prepares-the-map-from-what-start).
 
-**Query:** Should the two Rig owners prepare the explicit mapping for a separate bounded review, or will Kris provide its entries directly?
+**Context:** Kris asked for a dotfiles entry naming "per territory" the primary and secondary host. Both reviewers have Rig and chezmoi propose the map and Kris approve it before any configuration or operation, at territory grain with explicit exclusions, the chezmoi source as a named member and the resolved per-repository membership recorded per occurrence. [ADR-KI-PRINCIPAL-007](../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-007-territory-seats-on-hosts.md) says "Each territory has one seat and one standby", and the sender's line named `seats.yaml` as the nearest entry, but seats mean coordination landing, not sync primacy. The reviewers disagree: Claude recommends starting the proposal from seat host as primary and standby as secondary, active-active territories primary on the hub, for Kris to confirm in one answer, and saying when HNR joins, at medium confidence; Codex recommends not inferring from seats, enumerating repository, branch and phase eligibility, and piloting one jointly nominated non-HNR, non-deploying repository, at high confidence.
 
-**Options:**
-
-a) (recommended, confidence high - preserves owner control without inventing mappings from seats) Ask Rig and chezmoi to propose the per-territory primary/secondary map, enumerate repository and phase eligibility plus exclusions, and return it for approval before configuration or operations. Start with one jointly nominated non-HNR non-deploying pilot repository.
-
-b) Kris supplies the mapping and pilot repository directly; the receiving owners then verify eligibility and prepare its bounded plan.
-
-### HOST-SECONDARY-PUBLISH - Bound secondary-origin publication
-
-since 2026-10-29 · from run/sol-host-sync-design; refines the parked HOST-SYNC on its publication sequence.
-
-**Context:** The source wants the primary to read secondary updates but does not choose how those updates reach Git. Pulling primary work on a secondary cannot publish secondary-origin commits. Scheduling read-back alone therefore cannot fulfil that requirement. Existing per-repository grants still apply.
-
-**Query:** Should secondary-origin changes continue to be published only through separately authorised attended work, or should Rig prepare a recurring secondary-publication phase for later review?
-
-**Blind review (30 October, Codex, high effort):** differs, prefers b) at medium confidence: a separately reviewed opt-in publication phase closes the round trip; activation stays a separate decision.
+**Query:** Should Rig and chezmoi start their proposed map from the seats, for Kris to confirm or amend, or build it without that starting point?
 
 **Options:**
 
-a) (recommended, confidence medium - supplies a valid return path without adding unattended publication authority) Keep secondary consumption pull-only in the recurring proposal; secondary-origin changes reach Git through separately authorised attended work. Read-back consumes only what is actually published and reports outstanding unpublished work as outside its coverage.
+a) (recommended, confidence medium - Kris's per-territory words, the ADR's seat and standby pairing and the sender's pointer support it, but seats carry a different meaning and the reviewers differ) Rig and chezmoi propose a territory-grain map starting from seat host as primary and standby as secondary, active-active territories primary on the hub, with exclusions, resolved membership and the point at which HNR joins; Kris approves or amends it before configuration; the first attended run uses one non-HNR, non-deploying repository.
 
-b) Ask Rig and the Git-tool owner to prepare a distinct opt-in secondary-publication phase with repository eligibility and authority-at-effect checks; do not activate it or assume a grant from HOST-SYNC.
+b) Rig and chezmoi propose the map without the seats starting point, enumerating repository, branch and phase eligibility, and return it for approval before configuration, starting from one jointly nominated non-HNR, non-deploying pilot repository.
 
-### HOST-READBACK - Choose when primaries check published return work
+c) Kris supplies the map and pilot repository directly; the receiving owners verify eligibility and prepare its bounded plan.
 
-since 2026-10-29 · from run/sol-host-sync-design; refines the parked HOST-SYNC on how primary hosts consume secondary updates.
+### HOST-SECONDARY-PUBLISH - How secondary-origin changes reach Git
 
-**Context:** Kris explicitly left primary read-back to be decided and suggested a resync in short order. This is independent of secondary publication, message forwarding and request/reply trades. No timing guarantee can cover unpublished work or an absent host.
+since 2026-10-29 · from run/sol-host-sync-design; rewritten 30 October from the [merged host-sync report](design/host-sync/report.md#host-secondary-publish---how-secondary-origin-work-reaches-git).
 
-**Query:** Should primary read-back wait for its next hourly occurrence, or should the receiving owners prepare an additional short-delay phase?
+**Context:** Kris said "then five minutes later ... the secondary ones" and "the primary then needs to be able to read the secondary updates"; there is nothing to read unless the secondary publishes. Both reviewers reject the brief's pull-only secondary as failing that requirement. Both precedent syncs Kris ran on 28 and 29 October pushed unattended (SOL-SYNC also rebased), and the [Git authority standard](../../../.agents/skills/ki-git/references/standards-git.md#commit-publication-and-integration-authority) permits explicit standing publication authority. `mgit sync` pushes ahead-only branches by default, contrary to an adopted no-push-default request, so the recipe needs an explicit publish mode either way. The reviewers disagree on when publication may run: Claude recommends publishing ahead-only work fast-forward in the secondary phase with Kris's map approval as its grant, at medium confidence; Codex recommends preparing a distinct default-off capability, pull-only until separately authorised, at high confidence. Preparing it grants nothing.
 
-**Blind review (30 October, Codex, high effort):** agrees with a); confidence lifted to high, its hourly interval conditional on HOST-CADENCE.
+**Query:** Should Rig and the Git-tool owner prepare secondary publication as a default-off step that runs only under Kris's explicit standing grant?
 
 **Options:**
 
-a) (recommended, confidence high - reviewed; simplest bounded start while coverage and duration are unproven) Read published secondary-origin updates at the start of the primary's next authorised hourly occurrence, before evaluating eligible primary publication. State the resulting delay explicitly; make no immediate-convergence promise.
+a) (recommended, confidence high - both reviews independently reject pull-only as failing the requirement, and preparing a default-off step grants nothing) Prepare secondary publication in the same recipe: ahead-only, fast-forward, never forced, leaving diverged and dirty repositories to the host's Rig thread; off until Kris gives an explicit standing grant naming the territories, revocable by a stop word, which Kris may give in the same answer as the map approval.
 
-b) Prepare an extra pull-only read-back at Terra :10 and Sol :12, separately bounded and guarded; retain next-occurrence recovery if a prior phase is late or absent. This adds promptness, not publication authority or an acknowledgement guarantee.
+b) Keep the secondary pull-only; secondary-origin changes reach Git only through separately authorised attended work, and read-back reports unpublished work as outside its coverage.
+
+### HOST-READBACK - When primaries consume published return work
+
+since 2026-10-29 · from run/sol-host-sync-design; rewritten 30 October from the [merged host-sync report](design/host-sync/report.md#host-readback---when-primaries-consume-returned-work).
+
+**Context:** Kris said "we probably want to do a resync as well in short order after it". Next-hour read-back leaves secondary-origin work about 55 minutes before the primary consumes it. Both reviewers now prefer a prompt pull-only read-back, keeping next-occurrence recovery: Claude at `:10` on each primary, at medium confidence, because it is what Kris described and costs one fetch; Codex at `:10`/`:12` if the hourly candidate holds, at medium confidence, because exact slots depend on measured duration. An earlier blind query review agreed with next-hour read-back at high confidence; it predates both design reviews. Read-back matters only for published work, so it depends on HOST-SECONDARY-PUBLISH, and its slot follows HOST-CADENCE. It adds no publication authority or acknowledgement.
+
+**Query:** Should each primary run a short pull-only read-back after the secondary phase, or wait for its next hourly occurrence?
+
+**Options:**
+
+a) (recommended, confidence medium - both design reviews prefer it on Kris's "in short order", but an earlier blind query review backed b) and the slot depends on cadence) Prepare a pull-only read-back on each primary shortly after the secondary phase, its slot following HOST-CADENCE, keeping next-occurrence recovery for late or missing work and promising no immediate convergence.
+
+b) Read published secondary-origin updates at the start of the primary's next hourly occurrence, stating the roughly 55-minute delay.
 
 ### PUBLIC-REPORT-AUDIENCE - Choose the response scope
 
 since 2026-10-29 · from run/sol-private-report-assessment; the parked TERRA-LOCAL-REPORTS and PROTECTED-PUBLICATION refer to this audience question.
 
-**Context:** Exact selected historical content remains reachable in locally verified published history, and one protected version remains current. Readership and indexing are unknown. Assessment approval did not authorise a remedy. The run's private evidence and response options are at `/Users/krisbrown/.local/state/ki/agents/ways-sol-resume-20261029/sol-private-report-assessment.private/`, which stays private and outside the repository.
+**Context:** Exact selected historical content remains reachable in locally verified published history, and one protected version remains current. Readership and indexing are unknown. Assessment approval did not authorise a remedy. The run's private evidence and response options are at `/Users/krisbrown/.local/state/ki/agents/ways-sol-resume-20261029/sol-private-report-assessment.private/`, which stays private and outside the repository. An independent review on 30 October (private report `/Users/krisbrown/.local/state/ki/agents/ki-prj-ways-of-working/public-report-review.report.md`, quoting no protected payload) reproduced the exact local selection, byte, reachability, current-path, recovery and evidence-integrity claims on a fresh pinned snapshot. It could not establish actual public serving, readership, indexing, the original audience instruction, credentials or harm, and found no evidence supporting an emergency intervention. It recommends the private exact-version response design at high confidence, narrowed so that current and historical publication stay unchanged during the task without that implying audience clearance or a presupposed removal outcome, using the existing inventory rather than wider discovery and keeping protected detail out of the repository; its alternative was deferral with a named owner and return point.
 
 **Query:** Should a separately bounded private response design follow, or should the owner explicitly retain the present publication posture?
 
@@ -170,7 +154,7 @@ c) Defer the response decision, naming its owner and return point; preserve evid
 
 since 2026-10-29 · from run/sol-private-report-assessment; related to the parked TERRA-RECOVERY.
 
-**Context:** Local recovery has been verified, but private off-machine recovery has not. The private evidence directory must remain outside the launcher's repository report home; no relevant source-store declaration was established for this operation.
+**Context:** Local recovery has been verified, but private off-machine recovery has not. The private evidence directory must remain outside the launcher's repository report home; no relevant source-store declaration was established for this operation. The 30 October independent review (same private report) confirmed local recovery: the bundle verifies, the recovery repository returns every selected version and all evidence hashes match, but every verified copy shares Sol's failure domain and no off-machine copy was inspected. It recommends option a) at high confidence: Kris identifies or approves a private destination independent of Sol, without guessing a source-store binding, then a separate task preserves a frozen manifest of the complete evidence chain and history bundle, verifies the destination copy and restores from it into an isolated location, reproducing the expected tip and every selected version hash, with originals kept and the runtime evidence kept out of cleanup until it succeeds. The retired Z session's private archive awaits the same preservation.
 
 **Query:** Should a later bounded task preserve the existing private recovery/provenance and this assessment at an explicitly approved private destination?
 
@@ -241,6 +225,7 @@ c) No host for now: session wakes only, until a work needs a durable wake and na
 - WAKE-SESSION - answered a) on 30 October 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
 - WAKE-DURABLE - answered a) on 30 October 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
 - WORKTREE-OPTOUT - answered a) on 30 October 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
+- HOST-REVIEW - supply the missing common-brief review packet. Answered a) on 30 October 2026, "proceed with the recommendation, then refine additional HOST-* based on that review"; see [Owner answers, 30 October 2026, 06:15 GMT](decisions.md#owner-answers-30-october-2026-0615-gmt). Delivered as the [merged host-sync report](design/host-sync/report.md).
 
 ## Parked
 
