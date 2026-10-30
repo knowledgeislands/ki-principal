@@ -72,7 +72,7 @@ b) Try the low-level route now instead: run an agent in an Orca terminal and att
 
 **Options:**
 
-a) (recommended, confidence medium - views differ: the review favours asking now, but your steer towards Orca's own launcher lowers its value) Hold it until trial unit 1 has shown nesting on screen, then decide, bundled with any other Orca feedback.
+a) (recommended, confidence high - reviewed, a second blind review agreed; with Orca now this work's launcher, the trial should show whether outside sessions still need it) Hold it until trial unit 1 has shown nesting on screen, then decide, bundled with any other Orca feedback.
 
 b) Send it now, bundled with the sidebar request.
 
@@ -98,7 +98,7 @@ c) Leave `ki agent` unchanged and add a brief rule that runs must not call `orca
 
 **Options:**
 
-a) (recommended, confidence medium - the control exists but you could not find it, which is the usability gap a request would fix) Send one short request. It would ask that hiding an item shows a message linking to Settings > Appearance > Sidebar, or that the sidebar's right-click menu lists hidden items to show again, and that the "Settings > Mobile" message is corrected.
+a) (recommended, confidence high - reviewed, the blind review agreed, and would bundle the sidebar and label requests into one short request; the control exists but you could not find it, which is the usability gap a request would fix) Send one short request. It would ask that hiding an item shows a message linking to Settings > Appearance > Sidebar, or that the sidebar's right-click menu lists hidden items to show again, and that the "Settings > Mobile" message is corrected.
 
 b) Do not send a request. Note the Settings location in the Orca evaluation and move on.
 
@@ -110,7 +110,7 @@ b) Do not send a request. Note the Settings location in the Orca evaluation and 
 
 **Options:**
 
-a) (recommended, confidence medium - the code makes the cause certain, but whether to ask Orca for a change, which is an outward-facing step, is your call) Accept the swap for now and raise an Orca feature request: put the name first and show monitoring through the status dot, or add a setting for it. The request would be sent only on your go.
+a) (recommended, confidence high - reviewed, the blind review agreed, and would bundle the sidebar and label requests into one short request; the code makes the cause certain, but whether to ask Orca for a change, which is an outward-facing step, is your call) Accept the swap for now and raise an Orca feature request: put the name first and show monitoring through the status dot, or add a setting for it. The request would be sent only on your go.
 
 b) Change the coordinator's wake so it holds no Claude Code background task between turns, for example a scheduled wake instead of an armed waiter. This is a change to the coordinator method, and nobody has checked yet whether it works in Orca native chats.
 
