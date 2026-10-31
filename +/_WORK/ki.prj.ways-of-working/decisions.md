@@ -1052,3 +1052,12 @@ Run `host-reconcile-plan` writes a one-page plain-English plan and the drafted r
 
   Other packages are out of scope, apart from pointing out problems through a message line. Run `listen-tends` adds this to `ki-coordination` after `thread-capabilities`, and sends it to both Rig threads.
 - 31 October 2026, 13:45 GMT: **FOOTER-LAYOUT** (direction; spec put to Kris to confirm). Kris: "the modes that are switched on should happen like that [as their own lines], so we're not [convoluting] the top one ... if it's draining, that's also on the list underneath ... the point at the top in the header is who it's with, from its state perspective ... at the bottom we've got things like listening ... syncing should be a different line alongside listening, and then we've actually got the name of the thing ... I tend to read from the bottom up". This revises DRAIN-TARGET's bracketed heading so that the draining target moves to its own line.
+- 31 October 2026, 13:46 GMT: **FOOTER-LAYOUT confirmed.** Kris: "what you've just said in terms of the footer top to bottom spot on ... the extra bit of white space is really handy between the bullet points ... Then followed by the additional flags that are turned on, like listening, syncing, or listening and host syncing ... and then the thread icon with the name of it." The footer has these parts, in order:
+  1. a heading with only the state and since;
+  2. the counts;
+  3. a blank line, then the item bullets;
+  4. a "heading for" line, only when draining or finishing;
+  5. mode lines (listening, syncing for a named host);
+  6. the thread line, last.
+
+  This replaces the bracketed heading. Run `footer-layout` writes it into `ki-coordination`, the output style and the banner test, after `listen-tends`. Then run `refresh-all` sends one REFRESH line to every live coordinating package in every territory. It lists today's changes and what each thread must now do differently. **REFRESH-ROLLOUT** (Kris: "how do we get the new style of prompting out to all of the threads that are currently open, even if they're not actively doing work?"): a REFRESH line reaches threads when they next read their queue, and Kris also gets a paste prompt for open threads that aren't listening.
