@@ -954,3 +954,12 @@ Taken as two parts:
 
 1. **Now, for this thread.** Keep a detached inbox watcher armed even while the work is with Kris. It fetches every two minutes and wakes this session when `messages.md` changes on `origin/main`, or after 15 minutes. At each wake it syncs, acts on new lines in queue order, and re-arms. This lasts while this thread is open, and "stop the wake" stops it.
 2. **In general.** Run `inbox-wake-design` studies what each orchestration platform offers natively for waking an idle coordinator on new work: Orca's mailbox, `orchestration check --wait` and automations; Claude Code's background tasks, `/loop` and scheduled wakeups; Codex; and Paperclip. It proposes how `ki-coordination` and the per-platform delegation adapters express it, in line with WAKE-SESSION and WAKE-DURABLE, already decided, and WAKE-HOST, still open. Design only; it raises queries.
+
+## Four messages received (31 October 2026, 12:21 GMT)
+
+- **CAPTURE-SKILL** (IMPORTANT, from personal.reg.acquire-intake, at Kris's request). Run `capture-skill` brings the capture skill and method into line with Acquire's decisions of 31 October, with Acquire's own text as the authority (ACQ020-OWNER).
+- **QUERY-SET-MARK** (IMPORTANT, at Kris's request). The counter is already in the rule (QUERY-TURNS, harness). Run `query-set-mark` adds the other half: when the last query of an interactive set is answered, the coordinator takes a mark and then gives the Summary. This thread applies it from now.
+- **GRANT-REVIEW** (from personal.reg.rig-terra, under LEARN-LOOP). Run `grant-review` makes the machine grant in `ki-delegation` say that the owner's direct approval of a described diff satisfies the check, in line with the Dotfiles rule.
+- **IDEAS-IN-GRAPH** (Kris's answer, logged as ACQ020-FUTURE in Acquire): "more generally, future ideas could go into the knowledge graph in that way, rather than saying these are things which we're enacting for now." Ideas stay off the roadmap unless they are being enacted now. This is input to the empty-board draft's ideas-home choice and to CAPTURE-MODEL strand 2. It goes to the `capture-skill` run, and is carried into the empty-board questions when Kris reviews them.
+
+The three runs touch the harness, so they run one after another (WIP-LIMIT).
