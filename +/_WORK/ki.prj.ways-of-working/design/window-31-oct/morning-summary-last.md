@@ -18,7 +18,7 @@ What changed overnight, in plain English. This replaces the [04:05 version](morn
 - **See reviewers disagree with you, openly.** A blind review may now challenge an earlier decision. The challenge always comes to you; no agent settles it alone.
 - **See every idea in one place.** One [ideas list](../empty-board/ideas.md) gathers 244 ideas from seven kinds of place and links each to where it lives.
 - **Review a plan for an empty board.** The [empty-board draft](../empty-board/design.md) proposes three columns, Ideas, Upcoming and Active, each with an entry gate and a limit, and lists twelve places where today's structure contradicts itself.
-- **Pick the right diagram tool.** The [Diagrams standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-diagrams/references/standards-diagrams.md#tool-preference-by-diagram-kind) ranks your tools by kind of diagram: sketch in Mermaid, then redraw in Archify.
+- **Pick the right diagram tool.** The [Diagrams standard](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-diagrams/references/standards-diagrams.md#tool-preference-by-diagram-kind) ranks your tools by kind of diagram: sketch in Mermaid, then redraw in Archify.
 - **Use `mpush` in the terminal**, after the next `chezmoi apply` on each Mac.
 - **Look up Cloudflare Zero Trust in one guide:** [Cloudflare Zero Trust teams](/Users/krisbrown/.local/share/chezmoi/docs/guides/tools/cloudflare-zero-trust.md).
 - **Release a fixed Stoa.** The import loop is gone and all 46 requested icons render. It waits for your go.
@@ -26,13 +26,13 @@ What changed overnight, in plain English. This replaces the [04:05 version](morn
 
 ## 2. What changed in how agents work
 
-- **Plain English is now the rule.** Your words are written into the [coordination standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md#owner-report) and every run brief: questions and explanations in plain English, a technical term only where needed and explained once, links to work items kept.
+- **Plain English is now the rule.** Your words are written into the [coordination standard](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md#owner-report) and every run brief: questions and explanations in plain English, a technical term only where needed and explained once, links to work items kept.
 - **Shorter banner.** It shows only the work's state and who holds each live item. Commits and housekeeping moved into Done and In Progress.
 - **Every suggestion carries a confidence**, high, medium or low, in any reply in any session.
 - **Honest confidence.** A reviewer who agrees only because of an earlier decision no longer raises the confidence, and a recommendation resting only on an earlier decision is capped at medium.
 - **Truer "with worker".** Work counts as with a worker only while a run actually holds it, not just because the coordinator is mid-turn.
 - **Tidy Orca workers.** When an Orca worker reports, the coordinator reuses it, keeps it (only if you ask) or releases it, so none is left dangling. Conversation history is never deleted.
-- **Clear launcher rules.** Orca runs only on attended Macs and only where a work opts in; `ki agent` is the only launcher on `vega` and the fallback everywhere. See the [delegation standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md).
+- **Clear launcher rules.** Orca runs only on attended Macs and only where a work opts in; `ki agent` is the only launcher on `vega` and the fallback everywhere. See the [delegation standard](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md).
 - **Orca route settled.** Runs will start as Orca workers through Orca's own launch. Queued runs go through Orca while you are in the chat and run detached otherwise. Your "keep coordination" answer keeps the current names. See the [Orca sub-agents design](../orca-subagents/design.md) and the [landscape report](../landscape-report.md).
 - **Quieter, safer runs.** Agents keep tool output short and write their report early, so a run that dies still leaves one.
 - **One thing at a time.** The window ran its units one after another, as you asked.

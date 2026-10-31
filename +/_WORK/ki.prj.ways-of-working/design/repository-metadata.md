@@ -8,7 +8,7 @@ author: Written with Claude
 
 **Status:** a nascent area of Ways of working, being pioneered on the Valle Armonia territory. Other territory threads, personal-principal first, are invited to run it on their own territory and add their findings under [Other territories](#other-territories). Nothing here is a standard yet; the shape is expected to change as runs report back. Three of its questions are settled: Kris decided TAG-FORM, HOMEPAGE-SOURCE and KI-CODE on 24 October, under [Decisions](#decisions).
 
-**Owner:** Kris Brown · **Owning repository:** knowledgeislands/ki-principal · **Owning work:** `ki.ways-of-working` · **Date:** 2026-10-24 · **Pioneered by:** [VA > SoP](/Users/krisbrown/workspaces/valle-armonia/va-principal/+/_WORK/va/work.md), whose [decisions log](/Users/krisbrown/workspaces/valle-armonia/va-principal/+/_WORK/va/decisions.md) holds Kris's words of 24 October from 16:46 BST, under TAG-APPLY, TAG-ROUTE, TAG-FORM, HOMEPAGE-SOURCE, KI-CODE and PROPOSALS
+**Owner:** Kris Brown · **Owning repository:** knowledgeislands/ki-principal · **Owning work:** `ki.ways-of-working` · **Date:** 2026-10-24 · **Pioneered by:** [VA > SoP](/Users/krisbrown/kis/valle-armonia/va-principal/+/_WORK/va/work.md), whose [decisions log](/Users/krisbrown/kis/valle-armonia/va-principal/+/_WORK/va/decisions.md) holds Kris's words of 24 October from 16:46 BST, under TAG-APPLY, TAG-ROUTE, TAG-FORM, HOMEPAGE-SOURCE, KI-CODE and PROPOSALS
 
 Repository metadata is what a repository says about itself to the outside: its description, homepage, topics, visibility, licence and which GitHub features it uses. This note proposes that every Knowledge Islands repository says the same thing on every surface that carries it, and that its topics include a small controlled taxonomy that `ki-repo` can derive and check.
 
@@ -110,7 +110,7 @@ The proposal is a new optional Capital key, `territory_code`, in `[skills.ki-rep
 
 Knowledge Islands keeps `ki` as its `territory_code`, settled under KI-CODE: `ki-repo` mandates the universal facets on every Knowledge Islands repository, and Knowledge Islands Principal, as a Capital, may define further `ki-<type>-<value>` tags like any other Capital, provided none of its declared types reuses a facet name `ki-repo` mandates: `territory`, `shape` or `role`. Codes must be unique across registered Capitals, as territory handles already are.
 
-A code may equal a one-word territory handle. `ki-repo`'s [territory selection](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/keystone/ki-repo/references/standards-configuration.md#territory-selection) standard says so, and since ki-agentic-harness `28f6b22e` it reserves `personal` as the one word for an estate owner's own territory, used alike as `territory_prefix`, alias, work-id segment, any territory code and `repo_code` stem, never by another territory and never as a public brand. Kris reserved it on 25 October under PREFIX-RENAME. Personal's code would therefore be `personal`, equal to its `territory_prefix`, where Valle Armonia's multi-word prefix needs a separate `va`.
+A code may equal a one-word territory handle. `ki-repo`'s [territory selection](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/keystone/ki-repo/references/standards-configuration.md#territory-selection) standard says so, and since ki-agentic-harness `28f6b22e` it reserves `personal` as the one word for an estate owner's own territory, used alike as `territory_prefix`, alias, work-id segment, any territory code and `repo_code` stem, never by another territory and never as a public brand. Kris reserved it on 25 October under PREFIX-RENAME. Personal's code would therefore be `personal`, equal to its `territory_prefix`, where Valle Armonia's multi-word prefix needs a separate `va`.
 
 ### Declaring the types
 
@@ -177,19 +177,19 @@ The four repositories as surveyed on 24 October, with the values this proposal w
 
 | Repository | Property | Now | Proposed |
 | --- | --- | --- | --- |
-| [va-principal](/Users/krisbrown/workspaces/valle-armonia/va-principal) | Description | "The canonical community knowledge base for Valle Armonia." | Unchanged |
+| [va-principal](/Users/krisbrown/kis/valle-armonia/va-principal) | Description | "The canonical community knowledge base for Valle Armonia." | Unchanged |
 | | Homepage | None | None |
 | | Topics | None | `knowledge-islands`, `ki-territory-valle-armonia`, `ki-shape-kb`, `ki-role-capital` |
 | | `package.json` | None | None |
-| [va-agentic-harness](/Users/krisbrown/workspaces/valle-armonia/va-agentic-harness) | Description | "Valle Armonia home for extracting, developing, and maintaining reusable agent skills." | Unchanged |
+| [va-agentic-harness](/Users/krisbrown/kis/valle-armonia/va-agentic-harness) | Description | "Valle Armonia home for extracting, developing, and maintaining reusable agent skills." | Unchanged |
 | | Homepage | None | None |
 | | Topics | None | `knowledge-islands`, `ki-territory-valle-armonia`, `ki-shape-harness` |
 | | `package.json` | None | None |
-| [apps-vallearmonia.com](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com) | Description | "Website for Valle Armonia Community" | "The Valle Armonia community website, vallearmonia.com." on all three surfaces, optional |
+| [apps-vallearmonia.com](/Users/krisbrown/kis/valle-armonia/apps-vallearmonia.com) | Description | "Website for Valle Armonia Community" | "The Valle Armonia community website, vallearmonia.com." on all three surfaces, optional |
 | | Homepage | `package.json` only: `https://vallearmonia.com` | `https://vallearmonia.com` in `.ki.toml`, mirrored to `package.json` and GitHub, once reviewed as the live landing page |
 | | Topics | None | `knowledge-islands`, `ki-territory-valle-armonia`, `ki-shape-website`, `cloudflare-workers`, `eleventy`, `static-site`, `tailwindcss`, `valle-armonia` |
 | | Keywords | `package.json` only: `cloudflare-workers`, `eleventy`, `static-site`, `tailwindcss`, `valle-armonia` | The same in `.ki.toml` `keywords`, mirrored to `package.json` unchanged |
-| [apps-markhowarth.com](/Users/krisbrown/workspaces/valle-armonia/apps-markhowarth.com) | Description | "Website for Mark Howarth" | "The website of Mark Howarth." on all three surfaces, optional |
+| [apps-markhowarth.com](/Users/krisbrown/kis/valle-armonia/apps-markhowarth.com) | Description | "Website for Mark Howarth" | "The website of Mark Howarth." on all three surfaces, optional |
 | | Homepage | `package.json` only: `https://apps-markhowarth-com.valle-armonia.workers.dev` | The preview URL in `.ki.toml`, mirrored to both, until launch, then `https://markhowarth.com`, after review rather than by copying |
 | | Topics | None | `knowledge-islands`, `ki-territory-valle-armonia`, `ki-shape-website`, `eleventy`, `mark-howarth`, `static-site` |
 | | Keywords | `package.json` only: `eleventy`, `mark-howarth`, `static-site` | The same in `.ki.toml` `keywords`, mirrored to `package.json` unchanged |
@@ -226,7 +226,7 @@ One quick territory pass applied the interim policy to Valle Armonia's four repo
 
 ### Personal run and re-check, 2026-10-24
 
-Personal ran the note over its nine members in a metadata survey, then re-checked them against the settled note at `76557046` ([finding](/Users/krisbrown/workspaces/personal/personal-principal/+/_WORK/personal/findings/REPO-META.md)).
+Personal ran the note over its nine members in a metadata survey, then re-checked them against the settled note at `76557046` ([finding](/Users/krisbrown/kis/personal/personal-principal/+/_WORK/personal/findings/REPO-META.md)).
 
 - **Fitted:** `.ki.toml` as master; the property table, the derivation rules and the pilot table shape applied as written; every managed topic derives cleanly for all nine members without guessing; the homepage cautions resolve each site to its verified apex domain; no workspace `package.json` carries a homepage.
 - **Differed from Valle Armonia:** Personal had one real GH-3 failure, acquire's empty GitHub description with issues on under a `roadmap` adapter, which the ACQUIRE-FIX run has since brought into line with `.ki.toml`; and Personal's prefix is already one word, so its code and prefix can coincide where Valle Armonia's cannot.

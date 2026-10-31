@@ -18,7 +18,7 @@ What happened overnight, in plain English. This replaces the [03:25 draft](morni
 - **See reviewers disagree with you, openly.** A blind review may now challenge an earlier decision. The challenge always comes to you; no agent settles it alone.
 - **See every idea in one place.** One [ideas list](../empty-board/ideas.md) gathers 244 ideas from seven kinds of place, linking each to where it lives.
 - **Review a plan for an empty board.** The [empty-board draft](../empty-board/design.md) proposes three columns, Ideas, Upcoming and Active, with a gate and a limit on each, and lists twelve places where today's structure contradicts itself.
-- **Pick the right diagram tool.** The [Diagrams standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-diagrams/references/standards-diagrams.md#tool-preference-by-diagram-kind) ranks your favourite tools by kind of diagram, Archify first: sketch in Mermaid, then redraw in Archify.
+- **Pick the right diagram tool.** The [Diagrams standard](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-diagrams/references/standards-diagrams.md#tool-preference-by-diagram-kind) ranks your favourite tools by kind of diagram, Archify first: sketch in Mermaid, then redraw in Archify.
 - **Use `mpush` in the terminal**, after the next `chezmoi apply` on each Mac.
 - **Look up Cloudflare Zero Trust in one guide:** [Cloudflare Zero Trust teams](/Users/krisbrown/.local/share/chezmoi/docs/guides/tools/cloudflare-zero-trust.md).
 - **Release a fixed Stoa.** The import loop is gone and all 46 requested icons render. It waits for your go.
@@ -31,7 +31,7 @@ What happened overnight, in plain English. This replaces the [03:25 draft](morni
 - **Honest confidence.** A reviewer who agrees only because of an earlier decision no longer raises the confidence, and a recommendation whose only reason is an earlier decision is capped at medium.
 - **Truer "with worker".** Work counts as with a worker only while a run actually holds it, not just because the coordinator is mid-turn.
 - **Tidy Orca workers.** When an Orca worker's report comes in, the coordinator reuses it, keeps it (only if you ask) or releases it, and none is left dangling at a mark, a hold or the finish. Conversation history is never deleted.
-- **Clear launcher rules.** Orca runs only on attended Macs and only where a work opts in; `ki agent` is the only launcher on `vega` and the fallback everywhere; waiting is one waiter of at most five minutes. See the [delegation standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md).
+- **Clear launcher rules.** Orca runs only on attended Macs and only where a work opts in; `ki agent` is the only launcher on `vega` and the fallback everywhere; waiting is one waiter of at most five minutes. See the [delegation standard](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md).
 - **Orca route chosen.** Runs will start as Orca workers through Orca's own launch, falling back to a terminal only if the pilot shows prompts or blocked writes. Queued runs go through Orca while you are in the chat, detached otherwise. See the [Orca sub-agents design](../orca-subagents/design.md).
 - **Quieter, safer runs.** Agents keep tool output short and write their report early, so a run that dies still leaves one.
 - **One thing at a time.** The window ran its units one after another, as you asked.

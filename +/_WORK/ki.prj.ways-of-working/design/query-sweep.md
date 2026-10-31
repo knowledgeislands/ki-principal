@@ -5,9 +5,9 @@ status: draft
 
 # Query sweep
 
-**Goal:** sort every open query in [queries.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/queries.md) into one of four buckets so Kris can clear most of them in a few bulk lines.
+**Goal:** sort every open query in [queries.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/queries.md) into one of four buckets so Kris can clear most of them in a few bulk lines.
 
-**Scope:** the 35 queries under `## Open` on 27 October 2026 at 00:10 GMT, including REL-X64-TIMEOUT, which arrived while the sweep ran; the one parked query (PERM-PROMPTS-SETTINGS) stays parked and is not sorted. Settled against [decisions.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/decisions.md) up to its 23:42 GMT entry of 26 October and Kris's steer that night: "consistency and simplification ... less concerned with doing releases ... everything should be linked locally".
+**Scope:** the 35 queries under `## Open` on 27 October 2026 at 00:10 GMT, including REL-X64-TIMEOUT, which arrived while the sweep ran; the one parked query (PERM-PROMPTS-SETTINGS) stays parked and is not sorted. Settled against [decisions.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/decisions.md) up to its 23:42 GMT entry of 26 October and Kris's steer that night: "consistency and simplification ... less concerned with doing releases ... everything should be linked locally".
 
 **As of:** 2026-10-27 00:10 GMT.
 

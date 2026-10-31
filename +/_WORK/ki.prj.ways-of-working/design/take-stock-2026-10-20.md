@@ -13,18 +13,18 @@ Design note for TAKE-STOCK: Kris asked at the hold on 20 October to "take stock 
 
 ## Sources
 
-1. [ki](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/design/retro-2026-10-20.md) - State of play, on hold for take-stock.
-2. [ki.baseline-rollout](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.baseline-rollout/design/retro-2026-10-20.md) - on hold for take-stock.
-3. [ki.chezmoi](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.chezmoi/design/retro-2026-10-20.md) - on hold for take-stock.
-4. [ki.mac-studio-setup](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.mac-studio-setup/design/retro-2026-10-20.md) - on hold for take-stock.
-5. [ki.observatory](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/design/retro-2026-10-20.md) - on hold for take-stock.
-6. [ki.portable-specifications](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.portable-specifications/design/retro-2026-10-20.md) - on hold for take-stock.
-7. [ki.timelines](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.timelines/design/retro-2026-10-20.md) - on hold for take-stock.
-8. [ki.tools-burndown](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/design/retro-2026-10-20.md) - on hold for take-stock.
-9. [ki.ways-of-working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/retro-2026-10-20.md) - this work, with worker.
-10. [personal.regular.acquire-intake](/Users/krisbrown/workspaces/personal/acquire/+/_WORK/personal.regular.acquire-intake/design/retro-2026-10-20.md) - Acquire, on hold for take-stock.
+1. [ki](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki/design/retro-2026-10-20.md) - State of play, on hold for take-stock.
+2. [ki.baseline-rollout](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.baseline-rollout/design/retro-2026-10-20.md) - on hold for take-stock.
+3. [ki.chezmoi](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.chezmoi/design/retro-2026-10-20.md) - on hold for take-stock.
+4. [ki.mac-studio-setup](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.mac-studio-setup/design/retro-2026-10-20.md) - on hold for take-stock.
+5. [ki.observatory](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.observatory/design/retro-2026-10-20.md) - on hold for take-stock.
+6. [ki.portable-specifications](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.portable-specifications/design/retro-2026-10-20.md) - on hold for take-stock.
+7. [ki.timelines](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.timelines/design/retro-2026-10-20.md) - on hold for take-stock.
+8. [ki.tools-burndown](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.tools-burndown/design/retro-2026-10-20.md) - on hold for take-stock.
+9. [ki.ways-of-working](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/retro-2026-10-20.md) - this work, with worker.
+10. [personal.regular.acquire-intake](/Users/krisbrown/kis/personal/acquire/+/_WORK/personal.regular.acquire-intake/design/retro-2026-10-20.md) - Acquire, on hold for take-stock.
 
-Live works with no retro: [ki.agent-host](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.agent-host/state.md) (with worker since 19 October 23:34 UTC) and [personal.personal-tower](/Users/krisbrown/workspaces/personal/personal-principal/+/_WORK/personal.personal-tower/state.md) (handoff to supervisor since 19 October 18:28 UTC). Every other work folder in the Capitals was already on hold before take-stock and wrote none.
+Live works with no retro: [ki.agent-host](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.agent-host/state.md) (with worker since 19 October 23:34 UTC) and [personal.personal-tower](/Users/krisbrown/kis/personal/personal-principal/+/_WORK/personal.personal-tower/state.md) (handoff to supervisor since 19 October 18:28 UTC). Every other work folder in the Capitals was already on hold before take-stock and wrote none.
 
 ## Working well
 

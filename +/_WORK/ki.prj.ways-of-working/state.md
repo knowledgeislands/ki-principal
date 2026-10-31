@@ -12,7 +12,7 @@ method_read: df3f5503
 
 ## Now
 
-- AWAY-31-OCT ended 09:00 GMT; Kris returned 12:00 GMT. Applying INTERACTIVE-QUERIES (run interactive-queries).
+- AWAY-31-OCT ended 09:00 GMT; Kris returned 12:00 GMT. INTERACTIVE-QUERIES landed as harness `0af7ab73`, refined by run `query-turns`.
 - Morning summary: `design/window-31-oct/morning-summary.md` (as of 03:25 GMT; the return report covers the rest).
 
 ## Next steps

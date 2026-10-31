@@ -21,7 +21,7 @@ Generated 2026-10-30 by a read-only background run for `ki.prj.ways-of-working` 
 
 Codex config: `~/.codex/config.toml` sets no skills path; Codex reads `~/.agents/skills`, repository `.agents/skills`, `~/.codex/skills/.system` and enabled plugin skills. `ki-principal/.codex/config.toml` sets only approval policy and reviewer.
 
-Harness copies: `~/.local/share/ki/harnesses/knowledgeislands/ki-agentic-harness` is a symlink to `/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness`, so the "installed" harness and the working checkout are the same tree (64 skills, HEAD 99bd8fc0, clean). Only `~/.claude/skills/ki-delegation` and `~/.agents/skills/ki-delegation` link through the `.local/share` path; every other link targets the checkout directly.
+Harness copies: `~/.local/share/ki/harnesses/knowledgeislands/ki-agentic-harness` is a symlink to `/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness`, so the "installed" harness and the working checkout are the same tree (64 skills, HEAD 99bd8fc0, clean). Only `~/.claude/skills/ki-delegation` and `~/.agents/skills/ki-delegation` link through the `.local/share` path; every other link targets the checkout directly.
 
 `ki-techne-harness` has no skills of its own: no SKILL.md outside `node_modules`; its `.claude/skills` and `.agents/skills` each hold 15 symlinks into the KI harness checkout (marked in the Techne column). Its own content is `roles/agent-host` and `recipes/agent-host`.
 

@@ -24,7 +24,7 @@ Physical UTF-8 bytes and newline counts from the primary checkouts at 05:50 GMT;
 | Generated coordinator style | 26,073 | 114 |
 | All nine files | 519,209 | 3,004 |
 
-Package paths are under `+/_WORK/ki.ways-of-working/`. Harness paths below are relative to `/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/`:
+Package paths are under `+/_WORK/ki.ways-of-working/`. Harness paths below are relative to `/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/`:
 
 - Coordination: `skills/change-management/ki-coordination/references/standards-coordination.md`.
 - Delegation: `skills/governance/ki-delegation/references/standards-background-runs.md`.

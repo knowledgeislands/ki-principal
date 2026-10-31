@@ -8,7 +8,7 @@ author: Written with Claude
 
 **Status:** a nascent area of Ways of working, being pioneered on the Valle Armonia territory. Other territory threads, personal-principal first, are invited to run it on their own territory and add their findings under [Other territories](#other-territories). Nothing here is a standard yet; the shape is expected to change as runs report back.
 
-**Owner:** Kris Brown 路 **Owning repository:** knowledgeislands/ki-principal 路 **Owning work:** `ki.ways-of-working` 路 **Date:** 2026-10-24 路 **Pioneered by:** [VA > SoP](/Users/krisbrown/workspaces/valle-armonia/va-principal/+/_WORK/va/work.md), whose [decisions log](/Users/krisbrown/workspaces/valle-armonia/va-principal/+/_WORK/va/decisions.md) holds Kris's words of 24 October under FINDINGS-SECTION and PROPOSALS
+**Owner:** Kris Brown 路 **Owning repository:** knowledgeislands/ki-principal 路 **Owning work:** `ki.ways-of-working` 路 **Date:** 2026-10-24 路 **Pioneered by:** [VA > SoP](/Users/krisbrown/kis/valle-armonia/va-principal/+/_WORK/va/work.md), whose [decisions log](/Users/krisbrown/kis/valle-armonia/va-principal/+/_WORK/va/decisions.md) holds Kris's words of 24 October under FINDINGS-SECTION and PROPOSALS
 
 A finding is something Kris asked a coordinator to find out. Today it arrives once, in one Summary, and then scrolls away. This proposal gives findings their own section in the owner report, has each one say what it was for, and keeps it in front of Kris until Kris is content with it.
 
@@ -22,7 +22,7 @@ Kris asks coordinators for investigations: a table of a territory's repositories
 
 ## What exists today
 
-The [owner report](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md#owner-report) has three sections, `## Done`, `## In Progress` and `## Queries`, in that order, every time; a full summary adds `## Decided` before them, and a hold report uses `## Done`, `## Parked` and `## Left over`. There is no place for findings. An investigation's results go into Done, where a background run also puts its commit identifiers and check results, and its decisions go into Queries.
+The [owner report](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md#owner-report) has three sections, `## Done`, `## In Progress` and `## Queries`, in that order, every time; a full summary adds `## Decided` before them, and a hold report uses `## Done`, `## Parked` and `## Left over`. There is no place for findings. An investigation's results go into Done, where a background run also puts its commit identifiers and check results, and its decisions go into Queries.
 
 Nothing carries a finding forward. The Summary covers the window since the last message, and the recap the window since the mark, so a table given once is not given again. The run report that held it is deleted at the next tidy once its outcome is homed, and its queries are copied into `queries.md`; the table itself has no home in the package.
 
@@ -53,7 +53,7 @@ Then comes the table or the short list, and beneath it any footnotes, marked `鈥
 
 ## Carrying findings until they are settled
 
-A finding is carried in full, table and all, in every Summary, recap and full summary from the one that first gives it until it is settled. Kris asked for this: findings should have "its own section in the summary, and repeat the same tables until we're happy with things". The [Report forms](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md#report-forms) rule that what is still open is restated in full each time already applies to queries; this extends it to findings. No report says "see the earlier table".
+A finding is carried in full, table and all, in every Summary, recap and full summary from the one that first gives it until it is settled. Kris asked for this: findings should have "its own section in the summary, and repeat the same tables until we're happy with things". The [Report forms](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md#report-forms) rule that what is still open is restated in full each time already applies to queries; this extends it to findings. No report says "see the earlier table".
 
 A finding is settled in one of two ways:
 
@@ -79,7 +79,7 @@ A prompt is carried under `## Findings`, as one `###` heading with a stable tag,
 
 A Summary is a message and is not saved, so a finding carried only in the coordinator's context is lost at the first compaction. It needs a home in the work package that survives both compaction and a fresh session.
 
-The proposal is a new kind in the [closed list](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md#closed-list): `findings/<tag>.md`, one file per open finding, holding exactly the text the report carries, goal first. It is written by the run that does the investigation, the way a run writes to `design/` when its brief names a design note, or by the coordinator when it copies the finding out of a run report at receive, as it copies queries into `queries.md` today. It is kept until the finding is settled and homed, and deleted in the tidy that follows, by explicit path.
+The proposal is a new kind in the [closed list](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md#closed-list): `findings/<tag>.md`, one file per open finding, holding exactly the text the report carries, goal first. It is written by the run that does the investigation, the way a run writes to `design/` when its brief names a design note, or by the coordinator when it copies the finding out of a run report at receive, as it copies queries into `queries.md` today. It is kept until the finding is settled and homed, and deleted in the tidy that follows, by explicit path.
 
 Two things would need to change to allow this:
 
@@ -102,7 +102,7 @@ The two are settled separately. Answering every query a finding raised does not 
 
 ## Surfaces that would change
 
-If this graduates, the changes are made once in the `ki-coordination` standard and rendered from its [Generated surfaces](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md#generated-surfaces):
+If this graduates, the changes are made once in the `ki-coordination` standard and rendered from its [Generated surfaces](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md#generated-surfaces):
 
 - **The owner report** in the `ki-coordination` standard gains the optional `## Findings` section between In Progress and Queries, the finding heading and goal shape, the carrying rule and the settlement dispositions. The Report forms table says that every form carries open findings in full.
 - **The `ki-coordinator` output style**, rendered from the `output-style` source, gains one paragraph on the Findings section and its order, and the read-budget line counts `findings/` in the package read.
@@ -142,7 +142,7 @@ This finding shows the carrying rule for prompts. The prompts sat in the metadat
 
 ## Where it came from
 
-Kris, 24 October 2026, read back in the va decisions log under FINDINGS-SECTION: "if I ask you for some findings ... I could ask you if you could do an investigation or create me some findings on something, and then that needs to be in its own section in the summary, and repeat the same tables until we're happy with things". The same entry records why: the outputs "get lost sometimes with all the things that come backwards and forwards, and scrolling it up and down to find them is really tedious. Also, it's very difficult for me to give you feedback on them if I don't see them because sometimes I'm away from the screen", and of one table, it did not "state it before table ... it doesn't really say what the goal was". The FINDINGS-SECTION line in this package's [messages](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/messages.md) carries it here.
+Kris, 24 October 2026, read back in the va decisions log under FINDINGS-SECTION: "if I ask you for some findings ... I could ask you if you could do an investigation or create me some findings on something, and then that needs to be in its own section in the summary, and repeat the same tables until we're happy with things". The same entry records why: the outputs "get lost sometimes with all the things that come backwards and forwards, and scrolling it up and down to find them is really tedious. Also, it's very difficult for me to give you feedback on them if I don't see them because sometimes I'm away from the screen", and of one table, it did not "state it before table ... it doesn't really say what the goal was". The FINDINGS-SECTION line in this package's [messages](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/messages.md) carries it here.
 
 Under PROPOSALS the same day, Kris asked for this note: "In the same way that we put a proposal together around tending, I suggest that we put a proposal together around these two aspects", findings being the first and repository consistency the second, each a design note here beside [Tending](tending.md), pioneered by va, and adopted by va and personal-principal as interim policy.
 

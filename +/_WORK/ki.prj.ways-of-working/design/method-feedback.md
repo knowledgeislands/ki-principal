@@ -22,10 +22,10 @@ Already handled means the current method or the existing proposal supplies the b
 
 - **Inventory:** [Take-stock report](</Users/krisbrown/.local/state/ki/agents/ways-of-working/wow-take-stock.report.md>), section 1, in listed order, numbered F01-F68 here. Sections 2 and 3 bound the acceptance and prune evidence; neither action is part of this run.
 - **L:** [Coordination lessons](<coordination-lessons.md>), lessons 1-23. Lesson numbers below refer to that proposal.
-- **C:** [Coordinating-work standard](</Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md>), and the actual [coordinator output style](</Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/output-styles/ki-coordinator.md>).
-- **D:** [Background-run standard](</Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md>).
-- **K:** [Work-package standard](</Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md>), particularly its ownership boundary and Tidying the work folder.
-- **WCF:** [Cloudflare hosting standard](</Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/repo-structure/ki-repo-website-cloudflare/references/standards-cloudflare-hosting.md>), Branch previews behind Access.
+- **C:** [Coordinating-work standard](</Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md>), and the actual [coordinator output style](</Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/output-styles/ki-coordinator.md>).
+- **D:** [Background-run standard](</Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md>).
+- **K:** [Work-package standard](</Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md>), particularly its ownership boundary and Tidying the work folder.
+- **WCF:** [Cloudflare hosting standard](</Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/repo-structure/ki-repo-website-cloudflare/references/standards-cloudflare-hosting.md>), Branch previews behind Access.
 
 The local harness method baseline is `0aa9c4d2`. Queue links below identify the lines read, not immutable line numbers. Older compacted instructions were checked in the local Git object `20b5fce0bb34c213b3bfcec9c7e437eef5e45e1e`; no remote was consulted. Helper verification read only source and non-secret contract wording, never credential stores, caches or values.
 
@@ -175,7 +175,7 @@ The line asks the owner of the next planning pass to supply missing sizes. It is
 
 ### P1 - Non-interactive 1Password access - high
 
-**Home:** `/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md`, Authority tiers, one paragraph after the default credential prohibition. This is an additional condition on an explicitly authorised read, not an authority grant.
+**Home:** `/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md`, Authority tiers, one paragraph after the default credential prohibition. This is an additional condition on an explicitly authorised read, not an authority grant.
 
 **Smallest wording:** In Kris's managed environment, when a brief separately authorises a 1Password read, use the managed `op_cache` helper with `OP_CACHE_SERVICE_ACCOUNT_ONLY=1`, never call `op` directly, and use `op_cache --tag <tag>` for discovery. If the helper cannot read without a desktop prompt, stop and report; do not fall back to interactive access. Keep values out of output and tracked files.
 
@@ -183,7 +183,7 @@ The line asks the owner of the next planning pass to supply missing sizes. It is
 
 ### P2 - Shared Cloudflare read contract - medium
 
-**Home:** the same D file and Authority tiers paragraph, immediately after P1, plus one cross-reference in `/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/repo-structure/ki-repo-website-cloudflare/references/standards-cloudflare-hosting.md`, Branch previews behind Access, its credential step. Keep the reusable rule in D; do not copy a private token register into either standard or add a new rubric family.
+**Home:** the same D file and Authority tiers paragraph, immediately after P1, plus one cross-reference in `/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/repo-structure/ki-repo-website-cloudflare/references/standards-cloudflare-hosting.md`, Branch previews behind Access, its credential step. Keep the reusable rule in D; do not copy a private token register into either standard or add a new rubric family.
 
 **Smallest wording:** In Kris's managed environment, an explicitly authorised Cloudflare credential read uses `cf_token`, following the private, runtime-owned Cloudflare credential guide. Keep his 1Password item ids, token ids and names, and personal token permission inventory out of territory notes. If the helper cannot supply a credential with the capabilities the task requires, stop and report; do not use direct `op` access or silently substitute a token type.
 
@@ -191,7 +191,7 @@ The line asks the owner of the next planning pass to supply missing sizes. It is
 
 ### P3 - One report-retention rule - high
 
-**Home:** `/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md`, Pruning the work folder / Judgement; the retention phrase in Mechanical boundary; and the pruning sentence in Generated surfaces / `output-style`. Regenerate `/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/output-styles/ki-coordinator.md` from that source in the same later delivery. K, Tidying the work folder, remains the authority and needs no rule change.
+**Home:** `/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md`, Pruning the work folder / Judgement; the retention phrase in Mechanical boundary; and the pruning sentence in Generated surfaces / `output-style`. Regenerate `/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/output-styles/ki-coordinator.md` from that source in the same later delivery. K, Tidying the work folder, remains the authority and needs no rule change.
 
 **Smallest wording:** For a five-file package, a report becomes eligible for the owning steward's tidy when its outcome has a durable home and each query has been copied in full into `queries.md`; copied queries need not already be answered. Keep the existing single-file tolerance rule, which waits for answers, and keep every report with an unhomed outcome.
 

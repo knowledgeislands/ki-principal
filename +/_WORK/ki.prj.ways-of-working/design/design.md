@@ -51,15 +51,15 @@ The remaining names in the set pass: `ki-plan`, `ki-implement`, `ki-accept`, `ki
 
 ## Thread banner and thread types
 
-The thread-banner-and-re-anchoring and thread-types-and-durable-decisions design notes were deleted on 20 October 2026: [GDR-KI-PRINCIPAL-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md) superseded their thread model, the `ki-coordination` standard carries the behaviour they set, and Kris's words from them are in this work's [decisions log](../decisions.md); Git history holds them.
+The thread-banner-and-re-anchoring and thread-types-and-durable-decisions design notes were deleted on 20 October 2026: [GDR-KI-PRINCIPAL-009](/Users/krisbrown/kis/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md) superseded their thread model, the `ki-coordination` standard carries the behaviour they set, and Kris's words from them are in this work's [decisions log](../decisions.md); Git history holds them.
 
 ## Work package
 
-The work-package design note was deleted on 20 October 2026: its decisions are homed in `ki-work-package`, `ki-coordination`, the Work Process note and [GDR-KI-PRINCIPAL-009](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md), and the adopted package rules are in [ki-work-package](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md). Its last text is at [fba56feb](https://github.com/knowledgeislands/ki-principal/blob/fba56feb/+/_WORK/ki.ways-of-working/design/work-package.md).
+The work-package design note was deleted on 20 October 2026: its decisions are homed in `ki-work-package`, `ki-coordination`, the Work Process note and [GDR-KI-PRINCIPAL-009](/Users/krisbrown/kis/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md), and the adopted package rules are in [ki-work-package](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md). Its last text is at [fba56feb](https://github.com/knowledgeislands/ki-principal/blob/fba56feb/+/_WORK/ki.ways-of-working/design/work-package.md).
 
 ## Restart model
 
-The restart-model design note graduated into `ki-pmo` in ki-agentic-harness `2007749e` and was then deleted, as Kris decided under DESIGN-HOME on 16 October 2026; Git history holds it. Its pick-up table, rules and hold report now live in the `ki-pmo` standard's [Picking up a thread](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-pmo/references/standards-pmo.md#picking-up-a-thread) and [Draining a thread](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-pmo/references/standards-pmo.md#draining-a-thread).
+The restart-model design note graduated into `ki-pmo` in ki-agentic-harness `2007749e` and was then deleted, as Kris decided under DESIGN-HOME on 16 October 2026; Git history holds it. Its pick-up table, rules and hold report now live in the `ki-pmo` standard's [Picking up a thread](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-pmo/references/standards-pmo.md#picking-up-a-thread) and [Draining a thread](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-pmo/references/standards-pmo.md#draining-a-thread).
 
 ## Agent control and launch defaults
 
@@ -67,4 +67,4 @@ The restart-model design note graduated into `ki-pmo` in ki-agentic-harness `200
 
 ## Repository storage schema
 
-[gov-227-storage-schema](gov-227-storage-schema.md) prepares the short owner design session for [KI-HARNESS-GOV-227](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/ideas/KI-HARNESS-GOV-227-repository-storage-declarations.md), under GOV227-SCHEMA a): a proposed `ki-repo`-owned declaration of product storage, recovery and shared namespace owners, separate from private registry bindings and existing KB store roles. It includes three repository examples, migration and audit rules, and five decisions with recommendations for the session. It remains draft and authorises no implementation or machine change.
+[gov-227-storage-schema](gov-227-storage-schema.md) prepares the short owner design session for [KI-HARNESS-GOV-227](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/docs/ideas/KI-HARNESS-GOV-227-repository-storage-declarations.md), under GOV227-SCHEMA a): a proposed `ki-repo`-owned declaration of product storage, recovery and shared namespace owners, separate from private registry bindings and existing KB store roles. It includes three repository examples, migration and audit rules, and five decisions with recommendations for the session. It remains draft and authorises no implementation or machine change.

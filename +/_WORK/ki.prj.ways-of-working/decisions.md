@@ -18,7 +18,7 @@ Read back taken: Terra and Sol run the tools from their checkouts, so a pull giv
 
 ## 2026-10-19 22:17 BST - lesson, half-done harness checkout
 
-link1-baseline: a run editing the harness checkout breaks every island's pre-commit audit while its edit is half-done (22:12 to 22:14 BST, 19 October). Not yet in [Mistakes and Lessons](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Operations/Mistakes and Lessons.md>); harness edits run in worktrees since.
+link1-baseline: a run editing the harness checkout breaks every island's pre-commit audit while its edit is half-done (22:12 to 22:14 BST, 19 October). Not yet in [Mistakes and Lessons](</Users/krisbrown/kis/knowledge-islands/ki-principal/Admin/Operations/Mistakes and Lessons.md>); harness edits run in worktrees since.
 
 ## 2026-10-20 03:34 BST - owner answers, NET-DOWN and WIP-CAP
 
@@ -27,7 +27,7 @@ link1-baseline: a run editing the harness checkout breaks every island's pre-com
 
 ## 2026-10-20 05:20 BST - owner answers on the 04:22 send; OVERNIGHT-BURNDOWN
 
-BURNDOWN / WORKTREE-TRIAL - Kris, 20 October 2026: [finish-first proposals](design/finish-first.md), [reviewed sweep](design/roadmap-sweep.md) and [delegation coordination standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md#coordination); current unattended authority is in the final three entries.
+BURNDOWN / WORKTREE-TRIAL - Kris, 20 October 2026: [finish-first proposals](design/finish-first.md), [reviewed sweep](design/roadmap-sweep.md) and [delegation coordination standard](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md#coordination); current unattended authority is in the final three entries.
 
 ## 2026-10-20 23:30 BST - ENACTMENT-ADMIN
 
@@ -59,7 +59,7 @@ Taken as: "tree ice" is triage. A triage or draft record may be adopted, replann
 
 ## 2026-10-22 02:54 BST - Harness batch received
 
-GOV202-RENDER / SPEC-HOMING - coordinator, 22 October 2026, under Kris's 21 October grant: [GOV-202 remains draft](https://github.com/knowledgeislands/ki-agentic-harness/blob/083735f4cb450adb6639b60f04b11f0cbdaddb67/docs/roadmap/KI-HARNESS-GOV-202-skill-area-stable-stats-badge.md), with [GOV-228](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/ideas/KI-HARNESS-GOV-228-home-work-spec.md) and [GOV-229](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/ideas/KI-HARNESS-GOV-229-home-acquire-spec.md) awaiting their specification prerequisites.
+GOV202-RENDER / SPEC-HOMING - coordinator, 22 October 2026, under Kris's 21 October grant: [GOV-202 remains draft](https://github.com/knowledgeislands/ki-agentic-harness/blob/083735f4cb450adb6639b60f04b11f0cbdaddb67/docs/roadmap/KI-HARNESS-GOV-202-skill-area-stable-stats-badge.md), with [GOV-228](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/docs/ideas/KI-HARNESS-GOV-228-home-work-spec.md) and [GOV-229](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/docs/ideas/KI-HARNESS-GOV-229-home-acquire-spec.md) awaiting their specification prerequisites.
 
 ## 2026-10-22 14:12 BST - AUDIT-BOUNDARY settled by the coordinator; fix-8 relaunched
 
@@ -113,7 +113,7 @@ Kris: "Re-bootstrap as ki.ways-of-working under ki-coordination. First bring sol
 
 Taken as: ki-principal rebased onto origin and the harness already level on sol; tools-ki left alone. RESTART-ON-SOL goes to one read-only run, wow-restart-consolidate, which returns the prioritised list and its queries; no standard changes without Kris's approval, nothing sent back to source territories. The line stays at the top of the queue until the list is received.
 
-REBOOT-SHAPE / GAP-SUMMARY / COMMIT-CADENCE - Kris, 25 October 2026: [coordination standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md) owns the live full-report, gap and completed-unit commit rules.
+REBOOT-SHAPE / GAP-SUMMARY / COMMIT-CADENCE - Kris, 25 October 2026: [coordination standard](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md) owns the live full-report, gap and completed-unit commit rules.
 
 ## 2026-10-25 01:10 GMT - SUMMARY-WINDOW answered; Kris's goal for the morning
 
@@ -134,7 +134,7 @@ REBOOT-SHAPE / GAP-SUMMARY / COMMIT-CADENCE - Kris, 25 October 2026: [coordinati
 - SORT-ARM: Kris chose a), "Cancel it". Read back as taken: KI-TOOL-KI-CLI-125 is cancelled, ARM Linux kept as an Agent host Idea and the release-contract requirement kept as a section in the tools-ki release guide; sent to ki.tools-burndown's `messages.md` with THREAD-RENAME's opener half, as tools-ki waits on terra's push.
 - Sync slip, 25 October: replaying a diverged `main` with a cherry-pick of HEAD alone dropped this entry's commit, which sat beneath another session's; it was recovered from the reflog at once. The sync now replays the whole `origin/main..main` range.
 
-RUN-SECRETS / THEME-CLOSE - Kris, 25 October 2026: [delegation standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md) and [coordination standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md) carry the live credential and theme-close rules; this is no provider or closure authority.
+RUN-SECRETS / THEME-CLOSE - Kris, 25 October 2026: [delegation standard](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md) and [coordination standard](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md) carry the live credential and theme-close rules; this is no provider or closure authority.
 
 ## 2026-10-25 01:22 GMT - DECISION-HOMES answered, unpacked into homes and strikes
 
@@ -146,9 +146,9 @@ RUN-SECRETS / THEME-CLOSE - Kris, 25 October 2026: [delegation standard](/Users/
 - PROXY-SHAPER: Kris: "I'm not really sure what to do about this one, to be honest. Maybe it's something we can come back to." Read back as taken: parked in `queries.md`, nothing changed in the proxy or chezmoi.
 - METHOD-NUDGE: Kris chose a), "Add warning". Read back as taken: `hooks/coordinator-reminder.sh` prints one advisory line when a work's `state.md` `method_read` differs from the method revision, naming both. Harness run tonight.
 
-REVIEW-CHECK / PACKAGE-PUSH - Kris, 25 October 2026: [coordination standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md) owns single-recommendation checks and standing fast-forward publication, subject to narrower task, privacy and source guards.
+REVIEW-CHECK / PACKAGE-PUSH - Kris, 25 October 2026: [coordination standard](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md) owns single-recommendation checks and standing fast-forward publication, subject to narrower task, privacy and source guards.
 
-HIGH-BLOC / REVIEWED-BLOC - Kris, 25 October 2026: [coordination standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md) and [delegation standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md) carry the adopted cascade, homes, execution, due-date and window rules; STEWARD-FIELD, LEGACY-PREFIX, PARTIAL-REPOS and UNATTENDED-FIELD stay in [queries](queries.md).
+HIGH-BLOC / REVIEWED-BLOC - Kris, 25 October 2026: [coordination standard](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md) and [delegation standard](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md) carry the adopted cascade, homes, execution, due-date and window rules; STEWARD-FIELD, LEGACY-PREFIX, PARTIAL-REPOS and UNATTENDED-FIELD stay in [queries](queries.md).
 
 ## 2026-10-25 01:56 GMT - KI-AGENTS-NAME words, and wow-lines received
 
@@ -173,7 +173,7 @@ Kris: "you don't have to publish any of the decisions that are waiting on me int
 
 Read back as taken: the website shows only the settled current state and does not mention open owner queries. The review pack lives in ki-principal at `+/_WORK/ki.ways-of-working/design/review-pack.md`, pushed so a chat model can read it from GitHub: its opening prompt, the page checklist, every open query in full, and the shape of the feedback digest Kris pastes back here.
 
-UNATTENDED-LIMITS / EXTERNAL-SYSTEMS / CONFIDENTIAL - Kris, 25 October 2026: [delegation standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md) carries criticality, no-new-install, external-system and confidential-publication limits; narrower current no-HNR/no-release/source restrictions remain binding.
+UNATTENDED-LIMITS / EXTERNAL-SYSTEMS / CONFIDENTIAL - Kris, 25 October 2026: [delegation standard](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md) carries criticality, no-new-install, external-system and confidential-publication limits; narrower current no-HNR/no-release/source restrictions remain binding.
 
 - 2026-10-25 08:21 GMT: Kris, new idea for in due course: a short-lived cache in mgit so a status sweep can feed the next command, as in `mgit --to-cache st && mgit --from-cache push`: `--to-cache` records the repositories whose status is not clean, `--from-cache` limits the next command to them, the cache lasts no more than five minutes, and plain `mgit st` works as now. "you could do a bit of a design mode on that." wow-mgit-cache-design shapes it under `ki-work-design` into this work's `design/`, reading `tools-mgit` without changing it; anything to build goes to `tools-mgit` as a message once Kris accepts the design.
 
@@ -216,7 +216,7 @@ UNATTENDED-LIMITS / EXTERNAL-SYSTEMS / CONFIDENTIAL - Kris, 25 October 2026: [de
 - 2026-10-26 21:21 GMT: WEB-BUILD-ORDER answered "Reorder build before test pin bump (recommended, high confidence)". Read back as: when the website takes v0.14.1, the same commit moves bun run ki:site:build before bun run test in .github/workflows/ci.yml, then CI is watched to green. All three release-chain answers go to one run, wow-rel-0141, launched now.
 
 - 2026-10-26 21:25 GMT: Kris answered the twenty high-confidence queries with "all", taking each recommended option. Read back as:
-  - HNR-LEVEL a): a bounded run runs `git -C /Users/krisbrown/workspaces/humans-not-robots/hnr-principal reset -q --keep origin/main`.
+  - HNR-LEVEL a): a bounded run runs `git -C /Users/krisbrown/kis/humans-not-robots/hnr-principal reset -q --keep origin/main`.
   - CI-RED-DOCS a): one bounded batch approval for ki-design and ki-principal document-rule failures, with an enumerated finding and path scope; mechanical fixes verified before applying; RECORD-2, FOLDER-1, STRUCTURE-1 and work-package cases come back as queries; BIO-1's configuration migration bounded separately.
   - ACCEPT a): KI-PRINCIPAL-MOD-009 accepted as done.
   - SUMMARY-VISIBLE a): the tap's Notify job also prints its dispatch line to the log; the release guide's step 6 points at it. Runs after wow-rel-0141 so the release is not disturbed.
@@ -273,7 +273,7 @@ UNATTENDED-LIMITS / EXTERNAL-SYSTEMS / CONFIDENTIAL - Kris, 25 October 2026: [de
 
 - 02:08 GMT 27 October: Kris: "I'm actually a bit disappointed in the observatory thing, so let's just go back to doing it in here. Let's just get it nailed in here." Taken as: work through the action plan and open questions in this thread, one at a time; Focus stays as built, no further Observatory work now.
 
-- 02:30 GMT 27 October: wow-query-backlog applied the 27 October bulk reading of [query-sweep.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/query-sweep.md) under the 02:24 GMT window (Q1 already dropped; Q4, MOD-011-ADOPT, ANSWER-VECTOR and NAMING-TO-KI, left for Kris; WEBSITE-CLOSE untouched). Q2 parked, one line each under Parked in queries.md: STEWARD-FIELD, LEGACY-PREFIX, PARTIAL-REPOS, UNATTENDED-FIELD, UNATTENDED-AND-DUE-DATES, CLI-PREVIEW, AREA-COLUMN, REPO-STANDARDS-SET, MGIT-CACHE-SCOPE, MGIT-CACHE-FAILED, RECORD-2, FOLDER-1, COORD-7-REST, LINT-WHERE, MISSING-TOOLS, REL-X64-TIMEOUT. Q3 decided, each option a) taken under the 27 October bulk reading:
+- 02:30 GMT 27 October: wow-query-backlog applied the 27 October bulk reading of [query-sweep.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/query-sweep.md) under the 02:24 GMT window (Q1 already dropped; Q4, MOD-011-ADOPT, ANSWER-VECTOR and NAMING-TO-KI, left for Kris; WEBSITE-CLOSE untouched). Q2 parked, one line each under Parked in queries.md: STEWARD-FIELD, LEGACY-PREFIX, PARTIAL-REPOS, UNATTENDED-FIELD, UNATTENDED-AND-DUE-DATES, CLI-PREVIEW, AREA-COLUMN, REPO-STANDARDS-SET, MGIT-CACHE-SCOPE, MGIT-CACHE-FAILED, RECORD-2, FOLDER-1, COORD-7-REST, LINT-WHERE, MISSING-TOOLS, REL-X64-TIMEOUT. Q3 decided, each option a) taken under the 27 October bulk reading:
   - SPEC-ORPHAN-OWNER, a): ki.portable-specifications owns the orphan folder; one line sent to its messages.md.
   - RADAR-REPORT-HOME, a): ki.chezmoi owns it; REV-012 now cites the public Radar and FAQ pages plus UE-108's discussion, and UE-108 cites the public pages with the 24 October check date, one docs(roadmap) commit per repository.
   - FALLBACK-DATE, a): 2026-12-31 stands as the HOLD-1 fallback date; nothing to change.
@@ -537,7 +537,7 @@ Kris: "Okay, I am going to sleep for a bit. Could you handle as much as you can 
 
 Taken as affirmative unattended continuation until Kris explicitly returns or says stop wake; no clock end was given. Local time Europe/London, GMT; entry 2026-10-29T01:02:20Z. Current method afb126f2 refreshed against coordination/delegation rules and canonical Work Process. This does not answer CROSS-MACHINE-SOURCE or FINISH-LINE: park both unchanged, do not integrate the gated older canonical amendment or close/transfer the Project on a presumed answer. Existing owner-authorised naming/footer/Markdown fixes, confident bounded method work, review and recoverable tidy continue. HNR stays entirely read-only; Observatory redesign stays with its own thread. No releases/deployments/restarts, new software, credentials/provider/scheduler changes, confidential publication, history purge, force/reset/stash or hook bypass.
 
-Entry repository revisions: [{"repository": "/Users/krisbrown/workspaces/knowledge-islands/ki-principal", "local_main": "71f7eae3ecd7b75d933ba518609be0dba46e244e", "origin_main": "508b4e65335dacc45eaa6cf85f138df43d6a3168"}, {"repository": "/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness", "local_main": "79c9e4cc13b2a26d927ad132929cf65ab2b0d2e9", "origin_main": "79c9e4cc13b2a26d927ad132929cf65ab2b0d2e9"}, {"repository": "/Users/krisbrown/workspaces/knowledge-islands/tools-ki", "local_main": "c8c50d51b7f68072cdfb104dd262123a3b0f91a5", "origin_main": "c8c50d51b7f68072cdfb104dd262123a3b0f91a5"}]
+Entry repository revisions: [{"repository": "/Users/krisbrown/kis/knowledge-islands/ki-principal", "local_main": "71f7eae3ecd7b75d933ba518609be0dba46e244e", "origin_main": "508b4e65335dacc45eaa6cf85f138df43d6a3168"}, {"repository": "/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness", "local_main": "79c9e4cc13b2a26d927ad132929cf65ab2b0d2e9", "origin_main": "79c9e4cc13b2a26d927ad132929cf65ab2b0d2e9"}, {"repository": "/Users/krisbrown/kis/knowledge-islands/tools-ki", "local_main": "c8c50d51b7f68072cdfb104dd262123a3b0f91a5", "origin_main": "c8c50d51b7f68072cdfb104dd262123a3b0f91a5"}]
 
 Three units: wow-sleep-consolidate (Principal residual footer/queues, deeper receipt/design graduation and guarded manifests, size m, push); wow-sleep-review (independent exact six-record review/closure, size m, prune only genuinely eligible explicit selected terminal records); wow-sleep-qualify (read-only exact source/authority qualification of incoming maintenance and hook/home/link gaps, size m, none). Different mutable paths; freeze each repository-local review/closure set before mutation and chain later Harness/Tools implementation behind review. Acceptance uses the still-unrevoked 27 October ACCEPT-PRUNE-CONFIDENT human predicate grant, "things ... waiting with you, you've got high confidence, you can just accept them and then ... get things pruned out as well", reaffirmed by current continuation; preserve every actual evidence/retention guard, no cancellation or blanket deletion. No new substantive record is invented by a research worker.
 
@@ -593,7 +593,7 @@ AGENT-SCOPE is a new Tools-owned explicit-scoping/confidential-definition issue:
 
 ## Live pointers - 29 October 2026
 
-- MD-STANDARD / WORK-TIDY-GATE: [KI-TOOL-KI-CLI-175](/Users/krisbrown/workspaces/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-175-footer-markdown-writers.md) carries completed original-scope local end-to-end writer/exclusion and staged-gate evidence (`03374463`), independently accepted Done in `76df015a`. Global/HNR historical cleanliness, bypass cause and other-host/provider freshness are unproved; no closure or pruning was performed by this worker.
+- MD-STANDARD / WORK-TIDY-GATE: [KI-TOOL-KI-CLI-175](/Users/krisbrown/kis/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-175-footer-markdown-writers.md) carries completed original-scope local end-to-end writer/exclusion and staged-gate evidence (`03374463`), independently accepted Done in `76df015a`. Global/HNR historical cleanliness, bypass cause and other-host/provider freshness are unproved; no closure or pruning was performed by this worker.
 - HOST-SYNC / TRADES-REPLY / WAITS-AS-TRADES: [live design](design/host-sync-and-reply-trades.md) is unadopted and preserves full received source and Rig reply destinations. [Parked queries](queries.md) retain every source, finish, audience, checksum, comparator, thread-default, external-link and retry choice.
 - RUNHOME-RENAME / HOME-STORE / CLOSE-COLLISION / AGENT-SCOPE: [Tools incoming queue](../ki.prj.tools-burndown/messages.md) owns the grouped lifecycle need and the separately routed exact/exclusion-scope need. Fresh-group guidance is a workaround; no store repair, HNR inspection or receiver completion is claimed.
 - PUSH-FOOTER: received as observation only; the sender expressly requested no investigation or policy change. Preserve narrower task authority; this receipt broadens no current method-worker scope.

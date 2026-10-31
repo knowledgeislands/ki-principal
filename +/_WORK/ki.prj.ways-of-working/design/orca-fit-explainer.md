@@ -56,8 +56,8 @@ flowchart TB
 
 ## Worked example: KI-TOOL-RIG-CORE-069
 
-1. **The job.** [KI-TOOL-RIG-CORE-069](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md) sits in tools-rig's roadmap as a draft: Rig needs a fallback when macOS refuses to set a default app for some file types.
-2. **The project picks it up.** The [Mac Studio setup](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/work.md) package lists it as a next step. You agreed GO-PLAN, which the coordinator logged in that package's decisions in your words.
+1. **The job.** [KI-TOOL-RIG-CORE-069](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md) sits in tools-rig's roadmap as a draft: Rig needs a fallback when macOS refuses to set a default app for some file types.
+2. **The project picks it up.** The [Mac Studio setup](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/work.md) package lists it as a next step. You agreed GO-PLAN, which the coordinator logged in that package's decisions in your words.
 3. **The brief.** The coordinator wrote a brief: plan 069 to Ready, no system changes, no sudo.
 4. **Orca launches.** On sol the coordinator gave the brief to Orca, which started one Codex worker. The coordinator noted the Orca ids in the package's state.
 5. **Routine questions.** The worker asked twice through Orca, "may I leave the unrelated audit warning alone?" and "may I commit in both repositories one after the other?". The coordinator could answer both within your go, so it did, in minutes.

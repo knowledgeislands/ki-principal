@@ -18,7 +18,7 @@ Read from the chezmoi source only; neither script was run and no secret value wa
 
 ## Where the guidance stands
 
-- `ki-delegation`'s [background-run standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md), Authority tiers, already holds the rule (RUN-SECRETS): "use the managed `op_cache` helper with `OP_CACHE_SERVICE_ACCOUNT_ONLY=1`, never call `op` directly". It gives neither the path nor the invocation, and it does not carry Kris's words.
+- `ki-delegation`'s [background-run standard](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md), Authority tiers, already holds the rule (RUN-SECRETS): "use the managed `op_cache` helper with `OP_CACHE_SERVICE_ACCOUNT_ONLY=1`, never call `op` directly". It gives neither the path nor the invocation, and it does not carry Kris's words.
 - The authority footers, `assets/rules-none.md`, `rules-push.md`, `rules-prune.md` and `rules-release.md`, say only "Do not read or print secrets". `assets/grant-machine.md` says "Credentials stay banned: make no credential change, and do not read or print secrets". So a brief carries the ban but not the reader to use when a task does authorise a read.
 - The brief template `assets/run-prompt.md` carries no credential line; the footer is appended to it, so the footer is the right carrier.
 - `scripts/rubric/contexts/footers.ts` requires the phrase "Do not read or print secrets" in every tier footer.

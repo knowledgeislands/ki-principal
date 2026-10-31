@@ -19,7 +19,7 @@ created_at: 2026-10-09T20:58:00Z
 
 ## Goals
 
-- Deliver the [Ways of working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md) Project's outcome.
+- Deliver the [Ways of working](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md) Project's outcome.
 - While the method is being defined, send refresh lines straight to live works; afterwards method stewardship passes to State of play (WOW-REFRESH, STEWARD-HOME).
 
 ## Scope

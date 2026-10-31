@@ -49,7 +49,7 @@ Kris gives these to threads himself; nothing is broadcast. Each is self-containe
 ### Structure
 
 ```text
-The work now follows a work state machine. Read it: /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/work-state-machine.md
+The work now follows a work state machine. Read it: /Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/work-state-machine.md
 
 Start (wp) -open-> Bootstrap -ready-> Working.
 Working: from Start (work), pick up when the work is clearly defined, or refine
@@ -67,7 +67,7 @@ Today's `state.md` values map onto it:
 - finished: Finished.
 
 The stop arc and its postconditions for a host move are in:
-/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/stop-for-host-move.md
+/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/stop-for-host-move.md
 
 Keep working under ki-coordination as before; read both notes, then carry on.
 ```
@@ -76,7 +76,7 @@ Keep working under ki-coordination as before; read both notes, then carry on.
 
 ```text
 Stop this work for the host move to sol: conclude, then take `stop` to At rest,
-reason moving, following /Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/stop-for-host-move.md
+reason moving, following /Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/stop-for-host-move.md
 
 Prove every postcondition, in every repository the work touched:
 - Nothing only local: no uncommitted change, no unpushed commit, no unpushed

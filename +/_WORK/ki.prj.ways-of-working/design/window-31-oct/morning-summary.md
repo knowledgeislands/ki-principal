@@ -16,7 +16,7 @@ This is what happened overnight, in plain English. Anything finished after 03:25
 - **Let agents settle the easy questions while you are away.** Under your "accept by criteria" answer, a query is taken as answered only if it is high confidence, every reviewer agreed, it is not contentious and it is easily undone. Nine of the open queries passed and were taken. The other fourteen stay with you, and each one's Context says which test it failed. The list is in [accepted](accepted.md).
 - **See every idea in one place.** A single [ideas list](../empty-board/ideas.md) brings together 244 ideas from seven kinds of place. It links each one to where it lives and moves nothing.
 - **Review a proposal for an empty board.** The [empty-board draft](../empty-board/design.md) proposes three columns, Ideas, Upcoming and Active, with a gate between each and a limit on each. It also lists twelve places where the current structure contradicts itself.
-- **Pick the right diagram tool for each kind of diagram.** The diagrams standard now ranks the tools you like by kind of diagram, with Archify first. You sketch in Mermaid, then redraw in Archify once the shape settles. See the [Diagrams standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-diagrams/references/standards-diagrams.md#tool-preference-by-diagram-kind).
+- **Pick the right diagram tool for each kind of diagram.** The diagrams standard now ranks the tools you like by kind of diagram, with Archify first. You sketch in Mermaid, then redraw in Archify once the shape settles. See the [Diagrams standard](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-diagrams/references/standards-diagrams.md#tool-preference-by-diagram-kind).
 - **Use `mpush` in the terminal.** The alias is in the chezmoi source and works on each Mac after its next `chezmoi apply`.
 - **Look up Cloudflare Zero Trust in one guide.** It covers the accounts and teams, the read gaps and the team-name rule: [Cloudflare Zero Trust teams](/Users/krisbrown/.local/share/chezmoi/docs/guides/tools/cloudflare-zero-trust.md).
 - **Release a fixed Stoa.** The import cycle is gone and all 46 requested icons now render. The release is ready and waits for your go (RELEASE-GO below).
@@ -34,7 +34,7 @@ This is what happened overnight, in plain English. Anything finished after 03:25
   - `ki agent` is the only launcher on `vega` and stays the fallback everywhere.
   - Waiting uses one verb, `wait`: one waiter at a time, never longer than five minutes. Only the headless pass counts as a durable wake.
   - Runs that write nothing may skip their own worktree, once the integrate tooling lands.
-  - All of this is in the [delegation standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md).
+  - All of this is in the [delegation standard](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md).
 - **Quieter, safer runs.** Agents keep tool output short and write their report early, then update it, so a run that dies still leaves a report.
 - **One thing at a time.** Under your WIP-LIMIT answer, the window ran its units one after another rather than three at once. The empty-board draft proposes making this the general rule.
 - **Plain English and links.** Queries and reports are now written in plain English, with links to the work items.
