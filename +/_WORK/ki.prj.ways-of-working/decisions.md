@@ -992,3 +992,19 @@ Kris asked for a mark: "we can definitely take a mark at this point". Struck at 
   - **Now.** Run `landed-notices` sends notices for today's deliveries to the threads that asked for them.
   - **In the guidance.** Run `landed-rule` writes the rule into `ki-coordination` after `listen-and-awake`.
   - **ACQ-TEXT-RECHECK.** Acquire says its text is now pushed. The query stays open under QUERY-PAUSE, and its precondition is now met.
+
+## HOST-RECONCILE answers (31 October 2026, 13:14 GMT)
+
+Kris's words (speech to text): "it's going to matter on the rate of change as well, so also it should be able to short-circuit itself ... if there is something that's running unattended, or effectively I'm working at a time, then it should run more often. So [hourly] is far too infrequent ... I would say every 15 minutes, and with some kind of sensible offset, which we need to tune ... so we don't end up running it on each machine at the same time ... unless we actually let them focus on the primary and secondary areas ... a secondary does push its own changes. I think that's absolutely necessary ... A quick pullback on the main Mac shortly ... make the host-reconcile simpler thinking for me ... the observatory is watching, it's not doing the syncing ... In the future it might be able to ... do the ad hoc sync ... the rig-host [thread] also follows that process [the ways-of-working wake-up every few minutes looking at messages], because it's a special case."
+
+Read back as taken:
+
+- **HOST-CADENCE:** every 15 minutes, not hourly, with a per-host offset to be tuned, and a cheap short-circuit when nothing has changed. This supersedes the hourly a).
+- **HOST-COVERAGE:** each Mac focuses on its primary areas, with the primary and secondary map still to be drafted. a) is taken as the start, seeded from the seats and approved by Kris.
+- **HOST-SECONDARY-PUBLISH:** the secondary pushes its own changes. This is a), switched on, not left off.
+- **HOST-READBACK:** a quick pull-back on the main Mac shortly after. This is a).
+- **SYNC-DIRECTION:** the Observatory watches and does not sync; ad hoc sync through it is a later idea.
+- **Mechanism:** each Mac's Rig host thread is a long-lived thread that follows the same wake loop as the inbox watcher, as a special case.
+- **Asked:** a simpler explanation, and the coordinator's view.
+
+Run `host-reconcile-plan` writes a one-page plain-English plan and the drafted rollout lines.
