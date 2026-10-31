@@ -74,6 +74,8 @@ The seam already exists: `AgentProcesses.control` (`AgentControlProcesses` with 
 
 **What changes for the worker:** an Orca worker is an interactive agent in an Orca terminal or chat, launched with Orca's agent-launch settings, not `claude -p --permission-mode bypassPermissions --add-dir ...`. Three properties of today's contract therefore move to Orca and must be proven in the pilot: non-interactive autonomy (Orca's `settings.agent-launch.auto-permissions` capability exists; whether Kris's setting grants it is not known), extra writable directories (`worker-start` has no `--add-dir`), and survival when the coordinator ends (Orca's terminals belong to its daemon, `orcad`, not to the coordinator; the run would survive the coordinator's session but not, unproven, an Orca restart or update). The low-level route, `orca terminal create --command "<today's argv>"` followed by `worker-start --terminal <handle>`, keeps today's exact argv; Orca's guide reserves it for "custom argv or terminal topology that worker-start cannot express", which is this case, so it is the alternative if the pilot shows the settings route cannot be made autonomous.
 
+**Route, decided:** Part B uses Orca's own launch, `worker-start --agent`, and switches to the terminal route only if the pilot shows permission prompts or blocked writes. This is ORCA-PLACEMENT a), taken under Kris's ACCEPT-BY-CRITERIA answer of 31 October 2026 ([decisions](../../decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026)). The blind review's condition comes with it: before Part B is built, the pilot must show that the Orca-launched worker meets the run contract, covering the directories the run needs, running without anyone at the keyboard, and the run's intended authority limits, so that a worker with too much access fails the test as well as one with too little.
+
 ## 4. `--wait-for` queues
 
 Today a queued run is started later by the run's detached dispatcher (`ki agent dispatch --foreground`) when its gate opens. Orca's dependencies (`task-create --deps`) do not help: "A Run ... never schedules or places workers", so somebody must still start the worker when the gate opens.
@@ -91,7 +93,7 @@ tools-ki tests inject `AgentProcesses`; Part B adds an injected `orca` command r
 - **State mapping:** `live`, `exited` and `unverifiable` map as in section 3; `DONE` wins as today.
 - **Stop and close:** `worker-stop` on stop; `worker-release` only after `DONE` and a settled Dispatch; never `terminal close`.
 - **Queue:** a gate opening with a live parent starts through Orca; with a dead parent, detached.
-- **Live pilot, outside the test suite:** one hand-started `worker-start` from an Orca coordinator chat, with Kris watching, before any tools-ki change lands, to settle the open questions below.
+- **Live pilot, outside the test suite:** one hand-started `worker-start` from an Orca coordinator chat, with Kris watching, before any tools-ki change lands, to settle the open questions below. Under ORCA-PLACEMENT it also checks the run contract for the `worker-start --agent` route: the run's directories are writable, the worker runs to `DONE` without a prompt, and it is held to the run's authority limits, failing on too much access as well as too little.
 
 ## 6. Risks
 
@@ -200,6 +202,8 @@ b) Skip the pilot and implement Part B directly, accepting that the nesting may 
 c) Drop the Orca placement and keep runs detached, with Part A only.
 
 ### ORCA-PLACEMENT - Which Orca route Part B takes
+
+**Answered:** a), taken under ACCEPT-BY-CRITERIA on 31 October 2026, with the blind review's condition; recorded in section 3 under "Route, decided". The text below is the query as drafted.
 
 **Context:** If the pilot shows nesting, Part B can start workers with Orca's own launch (`worker-start --agent`, which uses Kris's Orca agent-launch settings and cannot pass `--add-dir`), or create an Orca terminal running today's exact `claude`/`codex` command and hand it to `worker-start --terminal`, which keeps today's autonomy flags but is the low-level route Orca reserves for argv it cannot express. The first is simpler and closer to how Orca's own sub-agents start; the second preserves today's run contract exactly. Which one works depends on the pilot's permission and directory findings.
 
