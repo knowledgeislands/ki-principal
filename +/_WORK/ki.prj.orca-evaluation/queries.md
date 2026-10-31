@@ -80,11 +80,13 @@ b) Send it now, bundled with the sidebar request.
 
 **Context:** `ki agent` passes its whole environment to each run, so a run started from an Orca chat coordinator carries the coordinator's Orca session id and spawn token. `orca status` from inside this run reports it as the coordinator, live. Orca uses that id to work out who is calling an orchestration command, so an `orca orchestration check`, `send` or `ask` from a run would act as the coordinator, for example taking the coordinator's Run mail. A coordinator in an Orca terminal pane would pass on its pane and hook variables too. Fixing it means changing `ki agent`, which ki.prj.ways-of-working owns. If terra's runs appear only through inherited pane variables, removing those variables may also take the runs out of terra's list.
 
-**Query:** Should this Project send ki.prj.ways-of-working a message asking `ki agent` to remove inherited Orca identity variables from the runs it starts?
+Half of this landed on 31 October: tools-ki `2970714c` now stops runs inheriting `ORCA_AGENT_SESSION_ID`, `ORCA_AGENT_SESSION_SPAWN_TOKEN`, `ORCA_STRUCTURED_SESSION` and `ORCA_CHAT_SCRATCH_DIR`, so a run can no longer act as the coordinator in orchestration commands. The pane, tab, worktree and hook variables are still passed on.
+
+**Query:** Should this Project ask ki.prj.ways-of-working to have `ki agent` also drop the remaining Orca pane, tab, worktree and hook variables from the runs it starts?
 
 **Options:**
 
-a) (recommended, confidence high - reviewed, the blind review agreed; the leak was seen directly, but how removing the variables affects terra's list is unverified) Send the message. It asks `ki agent` to drop `ORCA_AGENT_SESSION_ID`, `ORCA_AGENT_SESSION_SPAWN_TOKEN`, `ORCA_STRUCTURED_SESSION`, `ORCA_PANE_KEY`, `ORCA_TAB_ID`, `ORCA_WORKTREE_ID` and the `ORCA_AGENT_HOOK_*` variables from the runs it starts, and to check terra's list afterwards.
+a) (recommended, confidence high - reviewed, the blind review agreed; the leak was seen directly, but how removing the variables affects terra's list is unverified) Send the message. It asks `ki agent` to drop `ORCA_PANE_KEY`, `ORCA_TAB_ID`, `ORCA_WORKTREE_ID` and the `ORCA_AGENT_HOOK_*` variables as well, and to check terra's list afterwards.
 
 b) Hold it until the attended terra check shows how terra lists the runs, then decide.
 
@@ -115,6 +117,18 @@ a) (recommended, confidence high - reviewed, the blind review agreed, and would 
 b) Change the coordinator's wake so it holds no Claude Code background task between turns, for example a scheduled wake instead of an armed waiter. This is a change to the coordinator method, and nobody has checked yet whether it works in Orca native chats.
 
 c) Accept the swap and do nothing further. The name is still on the end of the row, past the cut, and on the chat's own tab.
+
+### ORCA-RUN-REBIND - A new Orca Run for this thread
+
+**Context:** On 30 October you chose Orca for all of this Project's runs on attended Macs, with one Orca Run of its own (ORCA-OPTIN b). That Run, `run_30f79294698c`, is tied to the previous chat session; Orca refuses this new session's commands on it ("caller not bound"), so no unit can be started or collected through it. Nothing is running in it. Orca offers no supported way to move a Run to a new session.
+
+**Query:** May this thread open a replacement Orca Run for the Project and stop using the old one?
+
+**Options:**
+
+a) (recommended, confidence high - it keeps ORCA-OPTIN's one-Run-per-Project intent, and the old Run holds nothing in flight) Create a new Run whose objective starts with `ki.prj.orca-evaluation`, note the old Run as retired in `state.md`, and dispatch every new unit through the new Run.
+
+b) Fall back to `ki agent` for this session's runs and keep the old Run as it is until Orca can rebind it.
 
 ## Parked
 
