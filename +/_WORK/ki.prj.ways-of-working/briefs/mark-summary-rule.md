@@ -1,0 +1,3 @@
+# Brief: mark-summary-rule
+
+Work: ki.prj.ways-of-working, which owns `ki-coordination`. Authority: MARK-THEN-SUMMARY, Kris, 31 October 2026, in `decisions.md`. In ki-agentic-harness `ki-coordination`, under the mark (Mode MARK and Recap since the mark), state that every mark, whether struck at Kris's word, at the end of a query set or at a hold, is followed at once by the full Summary of everything since the previous mark, in the same reply. A hold report stays the exception. Regenerate the surfaces, and run the banner test, the tests and the audit. Work in your own worktree, fast-forward `main`, commit by explicit path and push fast-forward only. Report in plain English.
