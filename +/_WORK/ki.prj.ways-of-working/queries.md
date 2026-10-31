@@ -6,7 +6,7 @@
 
 since 2026-10-29 · from run/sol-state-machine-readiness, split from WORKER-WAIT on 30 October at Kris's request; refines the parked STATE-MACHINE-DECISIONS · high now, no further work needed
 
-**Context:** Kris's words under ROLES-ORCHESTRATOR name three roles: "the worker is a subagent, and then the thread agent is effectively the orchestrator of the state machine". The sentence "With worker means a run holds the work" is the read-back's, not Kris's, and the [state machine](design/work-state-machine.md) States table narrows it further to "a run of the work is in flight". ROLES-EITHER then lets a human hold any role, and a human worker never has a run in flight, so the narrow reading cannot describe a case Kris has already allowed. The banner makes its last glyph whose move it is, and its list already names a holder per item, `run/<name>` for `[running]` and `[queued]` alike. This part settles only the test; WORKER-WAIT-QUEUED, WORKER-WAIT-MIDTURN and WORKER-WAIT-GATED apply it to the disputed cases.
+**Context:** Kris's words under ROLES-ORCHESTRATOR name three roles: "the worker is a subagent, and then the thread agent is effectively the orchestrator of the state machine". The sentence "With worker means a run holds the work" is the read-back's, not Kris's, and the [state machine](design/work-state-machine.md) States table narrows it further to "a run of the work is in flight". ROLES-EITHER then lets a human hold any role, and a human worker never has a run in flight, so the narrow reading cannot describe a case Kris has already allowed. The banner makes its last glyph whose move it is, and its list already names a holder per item, `run/<name>` for `[running]` and `[queued]` alike. This part settles only the test; WORKER-WAIT-QUEUED, WORKER-WAIT-MIDTURN and WORKER-WAIT-GATED apply it to the disputed cases. Not taken under ACCEPT-BY-CRITERIA on 31 October: its option also settles the queued case, where the earlier blind review of WORKER-WAIT preferred another option, so test 2 is not met.
 
 **Query:** Is With worker defined by assignment, the worker role holding the next move on at least one named unit, or by liveness, a run process being in flight?
 
@@ -20,7 +20,7 @@ b) Liveness: With worker only while a run process is in flight; every other mome
 
 since 2026-10-29 · from run/sol-state-machine-readiness, split from WORKER-WAIT on 30 October at Kris's request · high now; the earlier blind review, which preferred an actual holder, also held that "a holder can own queued work without a live run"
 
-**Context:** About three agents run per thread and the rest wait in the run queue, each with its brief, agent name and launch options; the dispatcher launches the next as a slot frees and honours each `DONE` gate, with no further decision from anyone. The banner already lists such a unit as `[queued]` with holder `run/<name>`. Current coordination says "Authorised work waiting for worker capacity stays with the worker; send to supervisor only for an actual decision or review", and the agreed `inform` arc needs a decision or review due, all dispatched work finished or a stuck worker, none of which a full queue is. This part covers only a unit that is briefed and queued; authorised work that cannot yet be queued is WORKER-WAIT-GATED.
+**Context:** About three agents run per thread and the rest wait in the run queue, each with its brief, agent name and launch options; the dispatcher launches the next as a slot frees and honours each `DONE` gate, with no further decision from anyone. The banner already lists such a unit as `[queued]` with holder `run/<name>`. Current coordination says "Authorised work waiting for worker capacity stays with the worker; send to supervisor only for an actual decision or review", and the agreed `inform` arc needs a decision or review due, all dispatched work finished or a stuck worker, none of which a full queue is. This part covers only a unit that is briefed and queued; authorised work that cannot yet be queued is WORKER-WAIT-GATED. Not taken under ACCEPT-BY-CRITERIA on 31 October: the earlier blind review of WORKER-WAIT preferred another option, an actual holder, and its agreement with this part is not shown, so test 2 is not met.
 
 **Query:** Is the work With worker when its remaining authorised units are briefed and in the run queue, waiting for a slot or for a `DONE` gate on another run of this work?
 
@@ -30,25 +30,11 @@ a) (recommended, confidence high - each unit has a named holder and will start w
 
 b) No: entry to With worker waits for a launch, so after a direction the work stays in Handoff to worker until a slot frees, and a bootstrap that finds only queued work refines to With supervisor.
 
-### WORKER-WAIT-MIDTURN - An orchestrator turn moves nothing
-
-since 2026-10-29 · from run/sol-state-machine-readiness, split from WORKER-WAIT on 30 October at Kris's request · high now; the earlier blind review made the same point, that an orchestrator mid-turn "does not by itself establish that assignment"
-
-**Context:** Current coordination, States and moves, says territory and Project work are With worker "while any items lies with a run or the coordinator is mid-turn". The clause dates from when the thread agent was the worker to Kris, which ROLES-ORCHESTRATOR reframed. The agreed machine says a steer, a heartbeat, a run launched or received and a mark happen inside a state and move nothing; only an arc moves the work, and the orchestrator makes the arcs. A coordinator answering Kris in With supervisor, or receiving a report before it informs, is orchestrating, not working. The coordinator style already forbids the orchestrator substantive work, so no coordinating case needs it as the worker.
-
-**Query:** Does an orchestrator turn by itself put or keep the work With worker?
-
-**Options:**
-
-a) (recommended, confidence high - follows the agreed rule that only arcs move the work, and the clause is a remnant of the role ROLES-ORCHESTRATOR reframed) No: during an orchestrator turn the work stays in its last committed state and moves only by an arc; drop "or the coordinator is mid-turn" from the state rule. If ROLES-EITHER ever puts the orchestrating actor in the worker role, it is named as a unit's holder like any other, under WORKER-WAIT-MEANING.
-
-b) Yes: keep the clause, so any orchestrator turn reads as With worker whatever was last committed.
-
 ### WORKER-WAIT-GATED - Authorised work that nothing will start by itself
 
 since 2026-10-29 · from run/sol-state-machine-readiness, split from WORKER-WAIT on 30 October at Kris's request · high after the blind review of 30 October; still to check before enforcement: REST-PORTABLE's settled rule that a short external wait may stay within Working "only when its actual holder/state is represented honestly"; a ruling on whether dated follow-ups, such as ORCA-REACH's due 6 November, are gates or ordinary next steps; and evidence of what the dispatcher does when a usage limit or provider outage stops a launch, which no run has verified
 
-**Context:** Some authorised units cannot be briefed or queued yet because they wait on something outside this work's runs: another work's reply, a person, a date, a host, or model capacity lost to a usage limit or outage. Nothing will start them until someone acts on an event. While other units run or are queued the work is With worker anyway; the question arises only when gated units are all that remain. The current capacity rule would keep such work with the worker indefinitely, which can show a With worker with nothing running and no heartbeat for days. REST-PORTABLE makes At rest · waiting the honest state for a real wait, but at the cost of the full stop: drain, the portability checks, parked queries and a struck mark, even for a short reply. A live coordinator wakes at least every five minutes and reads `messages.md` at each wake, so it notices a reply line; once the session ends nothing does, unless a granted headless pass names the work.
+**Context:** Some authorised units cannot be briefed or queued yet because they wait on something outside this work's runs: another work's reply, a person, a date, a host, or model capacity lost to a usage limit or outage. Nothing will start them until someone acts on an event. While other units run or are queued the work is With worker anyway; the question arises only when gated units are all that remain. The current capacity rule would keep such work with the worker indefinitely, which can show a With worker with nothing running and no heartbeat for days. REST-PORTABLE makes At rest · waiting the honest state for a real wait, but at the cost of the full stop: drain, the portability checks, parked queries and a struck mark, even for a short reply. A live coordinator wakes at least every five minutes and reads `messages.md` at each wake, so it notices a reply line; once the session ends nothing does, unless a granted headless pass names the work. Not taken under ACCEPT-BY-CRITERIA on 31 October: three checks behind its confidence are still open (REST-PORTABLE's honesty rule, whether dated follow-ups are gates, and what the dispatcher does on a usage limit), so it is not a clean high and test 1 is not met.
 
 **Query:** When gated units are all the authorised work that remains, does the work stay With worker or stop to At rest · waiting?
 
@@ -66,7 +52,7 @@ c) Stay With worker while any authorised gated unit remains, however long the ga
 
 since 2026-10-29 · from run/sol-state-machine-readiness, split from WORKER-WAIT on 30 October at Kris's request · high now, once the three high parts above are taken
 
-**Context:** The [state-machine rollout plan](design/state-machine-rollout-plan.md) excludes WORKER-WAIT's two cases from U1's Harness contract fixtures and from the pilot pending an answer, and says WORKER-WAIT blocks only their enforcement. WORKER-WAIT-MEANING, WORKER-WAIT-QUEUED and WORKER-WAIT-MIDTURN change wording, fixtures and holder projections only: no state value, arc or diagram. WORKER-WAIT-GATED may change when a stop falls due, which touches the stop arc's trigger.
+**Context:** The [state-machine rollout plan](design/state-machine-rollout-plan.md) excludes WORKER-WAIT's two cases from U1's Harness contract fixtures and from the pilot pending an answer, and says WORKER-WAIT blocks only their enforcement. WORKER-WAIT-MEANING, WORKER-WAIT-QUEUED and WORKER-WAIT-MIDTURN change wording, fixtures and holder projections only: no state value, arc or diagram. WORKER-WAIT-GATED may change when a stop falls due, which touches the stop arc's trigger. Not taken under ACCEPT-BY-CRITERIA on 31 October: its confidence holds only once the three high parts are taken, and WORKER-WAIT-MEANING and WORKER-WAIT-QUEUED stay open, so test 1 is not met.
 
 **Query:** Once the three high parts are taken, should U1 and U2 carry them now, with WORKER-WAIT-GATED left isolated until it is decided?
 
@@ -80,7 +66,7 @@ b) Hold every part of WORKER-WAIT out of U1 and U2 until WORKER-WAIT-GATED is de
 
 since 2026-10-29 · from run/sol-host-sync-design; rewritten 30 October from the [merged host-sync report](design/host-sync/report.md#host-cadence---which-cadence-rig-prepares).
 
-**Context:** Kris's shape is hourly, publishing primaries "on the hour" and secondaries "five minutes later". Each territory has one primary host, so at any slot the two hosts touch disjoint territories, and the brief's extra two-minute host stagger protects nothing measured. No phase duration, sleep or wake behaviour has been measured, and offsets confer no exclusion or completion proof. The reviewers disagree: Claude recommends Kris's `:00` primary and `:05` secondary on both hosts at medium confidence, because the sets are disjoint and the attended run measures duration before activation; Codex recommends measuring attended passes first and keeping the hourly pattern only as a candidate, at medium confidence, because durations and wake behaviour are unverified. Both accept one attended run per host before any recurrence. An earlier blind review preferred measuring first. Nothing is activated either way.
+**Context:** Kris's shape is hourly, publishing primaries "on the hour" and secondaries "five minutes later". Each territory has one primary host, so at any slot the two hosts touch disjoint territories, and the brief's extra two-minute host stagger protects nothing measured. No phase duration, sleep or wake behaviour has been measured, and offsets confer no exclusion or completion proof. The reviewers disagree: Claude recommends Kris's `:00` primary and `:05` secondary on both hosts at medium confidence, because the sets are disjoint and the attended run measures duration before activation; Codex recommends measuring attended passes first and keeping the hourly pattern only as a candidate, at medium confidence, because durations and wake behaviour are unverified. Both accept one attended run per host before any recurrence. An earlier blind review preferred measuring first. Nothing is activated either way. Not taken under ACCEPT-BY-CRITERIA on 31 October: the Codex design review and an earlier blind review preferred measuring first, option b), so test 2 is not met.
 
 **Query:** Should Rig prepare Kris's hourly `:00`/`:05` cadence now, confirmed by each host's attended run, or leave the cadence unchosen until measured?
 
@@ -98,7 +84,7 @@ c) Prepare the brief's staggered phases: Terra primary `:00` and secondary `:05`
 
 since 2026-10-29 · from run/sol-host-sync-design; rewritten 30 October from the [merged host-sync report](design/host-sync/report.md#host-coverage---who-prepares-the-map-from-what-start).
 
-**Context:** Kris asked for a dotfiles entry naming "per territory" the primary and secondary host. Both reviewers have Rig and chezmoi propose the map and Kris approve it before any configuration or operation, at territory grain with explicit exclusions, the chezmoi source as a named member and the resolved per-repository membership recorded per occurrence. [ADR-KI-PRINCIPAL-007](../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-007-territory-seats-on-hosts.md) says "Each territory has one seat and one standby", and the sender's line named `seats.yaml` as the nearest entry, but seats mean coordination landing, not sync primacy. The reviewers disagree: Claude recommends starting the proposal from seat host as primary and standby as secondary, active-active territories primary on the hub, for Kris to confirm in one answer, and saying when HNR joins, at medium confidence; Codex recommends not inferring from seats, enumerating repository, branch and phase eligibility, and piloting one jointly nominated non-HNR, non-deploying repository, at high confidence.
+**Context:** Kris asked for a dotfiles entry naming "per territory" the primary and secondary host. Both reviewers have Rig and chezmoi propose the map and Kris approve it before any configuration or operation, at territory grain with explicit exclusions, the chezmoi source as a named member and the resolved per-repository membership recorded per occurrence. [ADR-KI-PRINCIPAL-007](../../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-007-territory-seats-on-hosts.md) says "Each territory has one seat and one standby", and the sender's line named `seats.yaml` as the nearest entry, but seats mean coordination landing, not sync primacy. The reviewers disagree: Claude recommends starting the proposal from seat host as primary and standby as secondary, active-active territories primary on the hub, for Kris to confirm in one answer, and saying when HNR joins, at medium confidence; Codex recommends not inferring from seats, enumerating repository, branch and phase eligibility, and piloting one jointly nominated non-HNR, non-deploying repository, at high confidence. Not taken under ACCEPT-BY-CRITERIA on 31 October: the Codex design review preferred building the map without the seats, option b), so test 2 is not met.
 
 **Query:** Should Rig and chezmoi start their proposed map from the seats, for Kris to confirm or amend, or build it without that starting point?
 
@@ -116,7 +102,7 @@ c) Kris supplies the map and pilot repository directly; the receiving owners ver
 
 since 2026-10-29 · from run/sol-host-sync-design; rewritten 30 October from the [merged host-sync report](design/host-sync/report.md#host-secondary-publish---how-secondary-origin-work-reaches-git).
 
-**Context:** Kris said "then five minutes later ... the secondary ones" and "the primary then needs to be able to read the secondary updates"; there is nothing to read unless the secondary publishes. Both reviewers reject the brief's pull-only secondary as failing that requirement. Both precedent syncs Kris ran on 28 and 29 October pushed unattended (SOL-SYNC also rebased), and the [Git authority standard](../../../.agents/skills/ki-git/references/standards-git.md#commit-publication-and-integration-authority) permits explicit standing publication authority. `mgit sync` pushes ahead-only branches by default, contrary to an adopted no-push-default request, so the recipe needs an explicit publish mode either way. The reviewers disagree on when publication may run: Claude recommends publishing ahead-only work fast-forward in the secondary phase with Kris's map approval as its grant, at medium confidence; Codex recommends preparing a distinct default-off capability, pull-only until separately authorised, at high confidence. Preparing it grants nothing.
+**Context:** Kris said "then five minutes later ... the secondary ones" and "the primary then needs to be able to read the secondary updates"; there is nothing to read unless the secondary publishes. Both reviewers reject the brief's pull-only secondary as failing that requirement. Both precedent syncs Kris ran on 28 and 29 October pushed unattended (SOL-SYNC also rebased), and the [Git authority standard](../../../.agents/skills/ki-git/references/standards-git.md#commit-publication-and-integration-authority) permits explicit standing publication authority. `mgit sync` pushes ahead-only branches by default, contrary to an adopted no-push-default request, so the recipe needs an explicit publish mode either way. The reviewers disagree on when publication may run: Claude recommends publishing ahead-only work fast-forward in the secondary phase with Kris's map approval as its grant, at medium confidence; Codex recommends preparing a distinct default-off capability, pull-only until separately authorised, at high confidence. Preparing it grants nothing. Not taken under ACCEPT-BY-CRITERIA on 31 October: the two design reviews disagreed on when publication may run and no blind review is recorded, so test 2 is not met; it also bears on unattended pushing, a security matter.
 
 **Query:** Should Rig and the Git-tool owner prepare secondary publication as a default-off step that runs only under Kris's explicit standing grant?
 
@@ -130,7 +116,7 @@ b) Keep the secondary pull-only; secondary-origin changes reach Git only through
 
 since 2026-10-29 · from run/sol-host-sync-design; rewritten 30 October from the [merged host-sync report](design/host-sync/report.md#host-readback---when-primaries-consume-returned-work).
 
-**Context:** Kris said "we probably want to do a resync as well in short order after it". Next-hour read-back leaves secondary-origin work about 55 minutes before the primary consumes it. Both reviewers now prefer a prompt pull-only read-back, keeping next-occurrence recovery: Claude at `:10` on each primary, at medium confidence, because it is what Kris described and costs one fetch; Codex at `:10`/`:12` if the hourly candidate holds, at medium confidence, because exact slots depend on measured duration. An earlier blind query review agreed with next-hour read-back at high confidence; it predates both design reviews. Read-back matters only for published work, so it depends on HOST-SECONDARY-PUBLISH, and its slot follows HOST-CADENCE. It adds no publication authority or acknowledgement.
+**Context:** Kris said "we probably want to do a resync as well in short order after it". Next-hour read-back leaves secondary-origin work about 55 minutes before the primary consumes it. Both reviewers now prefer a prompt pull-only read-back, keeping next-occurrence recovery: Claude at `:10` on each primary, at medium confidence, because it is what Kris described and costs one fetch; Codex at `:10`/`:12` if the hourly candidate holds, at medium confidence, because exact slots depend on measured duration. An earlier blind query review agreed with next-hour read-back at high confidence; it predates both design reviews. Read-back matters only for published work, so it depends on HOST-SECONDARY-PUBLISH, and its slot follows HOST-CADENCE. It adds no publication authority or acknowledgement. Not taken under ACCEPT-BY-CRITERIA on 31 October: an earlier blind query review preferred next-hour read-back, option b), so test 2 is not met; it also rests on HOST-SECONDARY-PUBLISH and HOST-CADENCE, which stay open.
 
 **Query:** Should each primary run a short pull-only read-back after the secondary phase, or wait for its next hourly occurrence?
 
@@ -146,7 +132,7 @@ b) Read published secondary-origin updates at the start of the primary's next ho
 
 since 2026-10-29 · from run/sol-private-report-assessment; the parked TERRA-LOCAL-REPORTS and PROTECTED-PUBLICATION refer to this audience question.
 
-**Context:** Exact selected historical content remains reachable in locally verified published history, and one protected version remains current. Readership and indexing are unknown. Assessment approval did not authorise a remedy. The run's private evidence and response options are at `/Users/krisbrown/.local/state/ki/agents/ways-sol-resume-20261029/sol-private-report-assessment.private/`, which stays private and outside the repository. An independent review on 30 October (private report `/Users/krisbrown/.local/state/ki/agents/ki-prj-ways-of-working/public-report-review.report.md`, quoting no protected payload) reproduced the exact local selection, byte, reachability, current-path, recovery and evidence-integrity claims on a fresh pinned snapshot. It could not establish actual public serving, readership, indexing, the original audience instruction, credentials or harm, and found no evidence supporting an emergency intervention. It recommends the private exact-version response design at high confidence, narrowed so that current and historical publication stay unchanged during the task without that implying audience clearance or a presupposed removal outcome, using the existing inventory rather than wider discovery and keeping protected detail out of the repository; its alternative was deferral with a named owner and return point.
+**Context:** Exact selected historical content remains reachable in locally verified published history, and one protected version remains current. Readership and indexing are unknown. Assessment approval did not authorise a remedy. The run's private evidence and response options are at `/Users/krisbrown/.local/state/ki/agents/ways-sol-resume-20261029/sol-private-report-assessment.private/`, which stays private and outside the repository. An independent review on 30 October (private report `/Users/krisbrown/.local/state/ki/agents/ki-prj-ways-of-working/public-report-review.report.md`, quoting no protected payload) reproduced the exact local selection, byte, reachability, current-path, recovery and evidence-integrity claims on a fresh pinned snapshot. It could not establish actual public serving, readership, indexing, the original audience instruction, credentials or harm, and found no evidence supporting an emergency intervention. It recommends the private exact-version response design at high confidence, narrowed so that current and historical publication stay unchanged during the task without that implying audience clearance or a presupposed removal outcome, using the existing inventory rather than wider discovery and keeping protected detail out of the repository; its alternative was deferral with a named owner and return point. Not taken under ACCEPT-BY-CRITERIA on 31 October: it concerns protected material and needs Kris to state the intended audience, which no one else can decide, so test 3 is not met.
 
 **Query:** Should a separately bounded private response design follow, or should the owner explicitly retain the present publication posture?
 
@@ -162,7 +148,7 @@ c) Defer the response decision, naming its owner and return point; preserve evid
 
 since 2026-10-29 · from run/sol-private-report-assessment; related to the parked TERRA-RECOVERY.
 
-**Context:** Local recovery has been verified, but private off-machine recovery has not. The private evidence directory must remain outside the launcher's repository report home; no relevant source-store declaration was established for this operation. The 30 October independent review (same private report) confirmed local recovery: the bundle verifies, the recovery repository returns every selected version and all evidence hashes match, but every verified copy shares Sol's failure domain and no off-machine copy was inspected. It recommends option a) at high confidence: Kris identifies or approves a private destination independent of Sol, without guessing a source-store binding, then a separate task preserves a frozen manifest of the complete evidence chain and history bundle, verifies the destination copy and restores from it into an isolated location, reproducing the expected tip and every selected version hash, with originals kept and the runtime evidence kept out of cleanup until it succeeds. The retired Z session's private archive awaits the same preservation.
+**Context:** Local recovery has been verified, but private off-machine recovery has not. The private evidence directory must remain outside the launcher's repository report home; no relevant source-store declaration was established for this operation. The 30 October independent review (same private report) confirmed local recovery: the bundle verifies, the recovery repository returns every selected version and all evidence hashes match, but every verified copy shares Sol's failure domain and no off-machine copy was inspected. It recommends option a) at high confidence: Kris identifies or approves a private destination independent of Sol, without guessing a source-store binding, then a separate task preserves a frozen manifest of the complete evidence chain and history bundle, verifies the destination copy and restores from it into an isolated location, reproducing the expected tip and every selected version hash, with originals kept and the runtime evidence kept out of cleanup until it succeeds. The retired Z session's private archive awaits the same preservation. Not taken under ACCEPT-BY-CRITERIA on 31 October: it needs Kris to name a private destination, and copying protected evidence off the machine cannot be undone, so tests 3 and 4 are not met.
 
 **Query:** Should a later bounded task preserve the existing private recovery/provenance and this assessment at an explicitly approved private destination?
 
@@ -172,49 +158,11 @@ a) (recommended, confidence high - addresses the proved local-only gap without i
 
 b) Retain only the existing local copies and explicitly acknowledge the private recovery limitation; preserve this runtime evidence and its referenced archives.
 
-### AMEND-RACE - Guard amends in a shared checkout
-
-since 2026-10-30 · from a message line received by the coordinator.
-
-**Context:** In the shared hnr-principal checkout a run amended `HEAD` after another package's explicit-path commit had landed, so `a1d61be4` became `21f4f02b` under the amending run's subject and trailer. The tree is identical and no content was lost, but the other package's commit subject and attribution were replaced. The `ki-git` standard already says to record and re-check `HEAD` before staging, to serialise the write window that advances shared `HEAD`, to rebuild only a commit "this session has not pushed" when it captured unrelated work, and to "never rewrite another actor's commit or a published commit"; it has no explicit check that `HEAD` is still the session's own commit before an amend. Its isolated-index procedure already uses that pattern: record the parent before committing and stop if `HEAD` has moved. The proposed rule would change `ki-git` in the KI Agentic Harness, which owns the change; no skill was changed here.
-
-**Query:** Should `ki-git` allow an amend in a shared checkout only after confirming `HEAD` is the session's own unpublished commit, or forbid amending there altogether?
-
-**Blind review (30 October, Codex, high effort):** agrees with a) at high confidence; confidence lifted to high.
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; makes the existing never-rewrite-another's-commit rule mechanical with the parent-check pattern the standard already uses, and keeps its own-unpushed-commit repair path; a check outside the serialised window would still race) Amend in a shared checkout only inside the serialised write window and only after confirming `HEAD` equals the commit this session itself recorded and has not pushed; otherwise make a new commit. Send it to the KI Agentic Harness as a message line for `ki-git`.
-
-b) Never amend in a shared checkout: correct with a follow-up commit, and rewrite the standard's own-unpushed-commit repair path to match. Send it to the KI Agentic Harness as a message line for `ki-git`.
-
-c) Change no rule: the existing standard already forbids rewriting another actor's commit, so log the incident as a lapse in Mistakes and Lessons only.
-
-### ORCH-NAME-THREAD - What to call the coordination skill and its style, without rename cost
-
-since 2026-10-30 · from run/landscape · merged in [landscape-report](design/landscape-report.md) · rewritten after run/orch-name-fresh · split from ORCH-NAME after blind review 5, with ORCH-NAME-DISPATCH taking the contract, adapters and command
-
-**Context:** On 30 October Kris asked: "If you put aside the rename cost, what is the feedback on naming then?" The earlier recommendation, to keep the current names, rested on the cost of renaming the output style, a 217 KB standard and every live package mid-rollout; both design reviews kept the names for that reason, and once it is removed the keep has no high-confidence footing. An independent naming review then judged each unit with rename cost excluded. Thread-governance skill: `ki-orchestration`, medium - `ki-coordination` is intelligible but broad, and a newcomer cannot tell whether it governs human collaboration, worker dispatch or project administration; orchestration names the agent that runs the package's state machine, the role Kris named "the orchestrator of the state machine" on 29 October. Output style: `ki-orchestrator`, medium - it names the role and drops "coordinator" as a fourth actor word beside orchestrator, worker and supervisor. Portable run contract: `ki-delegation`, high - an orchestrator delegates a bounded job and a worker returns evidence or a question; `ki-dispatch` understates the brief, authority and return, and `ki-orchestration` would put the thread's name on one of its contracts. Adapters: `ki-delegation-orca` and `ki-delegation-paperclip`, high, provided the Paperclip skill's wider remit (company boundaries, readiness, memory, delivery policy) is described honestly rather than relabelled; `ki-agent-coordination-paperclip` has no natural Orca sibling. Launcher: `ki agent`, medium, on its own merits - `ki orchestrate` implies the executable owns the package, `ki delegate` names one action of a group that also observes, steers and closes, and `ki run` is too broad; this is the least certain unit. Main risk: `ki-orchestration` overlaps Orca's installed `orchestration` skill in meaning, though not in identifier, so the descriptions must keep package governance and Orca mechanics apart. The review's strongest alternative keeps `ki-coordination` and `ki-coordinator`: coordination comfortably covers questions to Kris, decisions, handoffs and stewardship when no worker is running, and is less associated with an execution engine. It placed that second because it leaves "coordinator" as a synonym a newcomer must learn for the orchestrator. Overall confidence is medium: both leading sets are defensible and no newcomer has tested them. Moving `decide`, `reconcile`, `home` and `prompts` under `ki work` stays out of this query, under AGENT-HOME.
-
-**Query:** Setting rename cost aside, should the thread skill and its output style be renamed `ki-orchestration` and `ki-orchestrator`, or keep `ki-coordination` and `ki-coordinator`?
-
-**Blind review (30 October, Codex, high effort; applies to the earlier wording of this query, whose a) kept `ki-coordination` and also moved the four commands under `ki work`):** agreed with that a); confidence lifted to high.
-
-**Blind review (30 October, Codex, high effort):** differs, prefers b) at medium confidence: coordination accurately covers the verified human and agent governance scope, including periods when no worker is running, and the supplied precedent does not establish that orchestration is clearer to newcomers; it judged the orchestration wording defensible. It also noted that the packet exposed an earlier review's preferences, rankings and confidence, so this review is not fully blind. Confidence stays at medium.
-
-**Options:**
-
-a) (recommended, confidence medium - the independent naming review's pick with rename cost excluded: the skill and style match the orchestrator role and drop "coordinator" as a fourth actor word; blind review 5 prefers b) instead, holding that coordination covers the whole human and agent governance scope, including periods with no worker running, and that orchestration is untested with newcomers, so the two reviews split) Rename the thread skill `ki-orchestration` and the output style `ki-orchestrator`.
-
-b) The naming review's strongest alternative and blind review 5's pick: keep `ki-coordination` and `ki-coordinator` because coordination better conveys the whole human and agent governance practice.
-
-c) Keep the current names because of rename cost, as the earlier recommendation did: keep `ki-coordination` and `ki-coordinator`, and say in the Work Process note that the orchestrator role is exercised under `ki-coordination`.
-
 ### ORCH-NAME-DISPATCH - What to call the dispatch contract, its adapters and the command, without rename cost
 
 since 2026-10-30 · from run/landscape · merged in [landscape-report](design/landscape-report.md) · rewritten after run/orch-name-fresh · split from ORCH-NAME after blind review 5, with ORCH-NAME-THREAD taking the thread skill and style
 
-**Context:** On 30 October Kris asked: "If you put aside the rename cost, what is the feedback on naming then?" An independent naming review judged each unit with rename cost excluded. Portable run contract: `ki-delegation`, high - an orchestrator delegates a bounded job and a worker returns evidence or a question; `ki-dispatch` understates the brief, authority and return, and `ki-orchestration` would put the thread's name on one of its contracts. Adapters: `ki-delegation-orca` and `ki-delegation-paperclip`, high, provided the Paperclip skill's wider remit (company boundaries, readiness, memory, delivery policy) is described honestly rather than relabelled; `ki-agent-coordination-paperclip` has no natural Orca sibling. Launcher: `ki agent`, medium, on its own merits - `ki orchestrate` implies the executable owns the package, `ki delegate` names one action of a group that also observes, steers and closes, and `ki run` is too broad; this is the least certain unit. Both leading sets for the thread skill, in ORCH-NAME-THREAD, carry this same family. Moving `decide`, `reconcile`, `home` and `prompts` under `ki work` stays out of this query, under AGENT-HOME.
+**Context:** On 30 October Kris asked: "If you put aside the rename cost, what is the feedback on naming then?" An independent naming review judged each unit with rename cost excluded. Portable run contract: `ki-delegation`, high - an orchestrator delegates a bounded job and a worker returns evidence or a question; `ki-dispatch` understates the brief, authority and return, and `ki-orchestration` would put the thread's name on one of its contracts. Adapters: `ki-delegation-orca` and `ki-delegation-paperclip`, high, provided the Paperclip skill's wider remit (company boundaries, readiness, memory, delivery policy) is described honestly rather than relabelled; `ki-agent-coordination-paperclip` has no natural Orca sibling. Launcher: `ki agent`, medium, on its own merits - `ki orchestrate` implies the executable owns the package, `ki delegate` names one action of a group that also observes, steers and closes, and `ki run` is too broad; this is the least certain unit. Both leading sets for the thread skill, in ORCH-NAME-THREAD, carry this same family. Moving `decide`, `reconcile`, `home` and `prompts` under `ki work` stays out of this query, under AGENT-HOME. Not taken under ACCEPT-BY-CRITERIA on 31 October: it renames a skill used across the estate, `ki-agent-coordination-paperclip` to `ki-delegation-paperclip`, so test 4 is not met.
 
 **Query:** Setting rename cost aside, which names should the dispatch contract, its adapters and the command take?
 
@@ -230,7 +178,7 @@ b) Keep the current names because of rename cost, as the earlier recommendation 
 
 since 2026-10-30 · from run/package-layout · [design](design/package-layout/design.md)
 
-**Context:** Kris set on 30 October that a work package keeps only its five files at the top level, with everything else grouped, possibly group first with briefs, design and reports beneath. Three shapes fit. A, kind-first: `reports/`, `briefs/` and `design/` folders, the cheapest change, but a matter stays spread across three folders and the tidy stays file by file. B, group-first with kind subfolders, as sketched: one folder per matter with `briefs/` and `reports/` inside, which needs an estate-wide ignore exception because `reports/` is ignored at any depth. C, group-first and flat: one folder per matter, with `<run>.brief.md` and `<run>.report.md` side by side and design files under plain names, needing no ignore change. The evidence suggests the sprawl comes mainly from retention, so the group earns its cost only as the unit of tidy. No shape has been piloted.
+**Context:** Kris set on 30 October that a work package keeps only its five files at the top level, with everything else grouped, possibly group first with briefs, design and reports beneath. Three shapes fit. A, kind-first: `reports/`, `briefs/` and `design/` folders, the cheapest change, but a matter stays spread across three folders and the tidy stays file by file. B, group-first with kind subfolders, as sketched: one folder per matter with `briefs/` and `reports/` inside, which needs an estate-wide ignore exception because `reports/` is ignored at any depth. C, group-first and flat: one folder per matter, with `<run>.brief.md` and `<run>.report.md` side by side and design files under plain names, needing no ignore change. The evidence suggests the sprawl comes mainly from retention, so the group earns its cost only as the unit of tidy. No shape has been piloted. Not taken under ACCEPT-BY-CRITERIA on 31 October: it picks a shape other than the group-first layout with briefs and reports beneath that Kris sketched on 30 October, so it is Kris's call and test 3 is not met.
 
 **Query:** Which layout should the pilot use?
 
@@ -248,7 +196,7 @@ c) A, kind-first, with a stricter tidy cadence instead of groups.
 
 since 2026-10-30 · from run/package-layout · [design](design/package-layout/design.md)
 
-**Context:** Today's tidy deletes file by file, by explicit path, never folder-wide, and the steward judges each file's durable home. Under a group-first layout, a matter's files usually become homed together. The proposal is that once the steward judges a whole group closed, with outcomes homed, queries copied and design notes graduated or superseded, it deletes the group with one `git rm -r` naming that folder, in one commit, with Git keeping the history. Single-file deletion remains available.
+**Context:** Today's tidy deletes file by file, by explicit path, never folder-wide, and the steward judges each file's durable home. Under a group-first layout, a matter's files usually become homed together. The proposal is that once the steward judges a whole group closed, with outcomes homed, queries copied and design notes graduated or superseded, it deletes the group with one `git rm -r` naming that folder, in one commit, with Git keeping the history. Single-file deletion remains available. Not taken under ACCEPT-BY-CRITERIA on 31 October: it widens a deletion rule to whole folders and rests on LAYOUT-SHAPE, which stays open, so test 4 is not met.
 
 **Query:** Should the tidy rule allow deleting one named, closed group folder whole?
 
@@ -260,141 +208,11 @@ a) (recommended, confidence high - reviewed; one named group deletion stays revi
 
 b) No: keep file-by-file deletion inside groups.
 
-### LAYOUT-PILOT-ORDER - When the pilot moves files
-
-since 2026-10-30 · from run/package-layout · [design](design/package-layout/design.md)
-
-**Context:** The rubric's FOLDER-1 fails any folder outside the closed list, the launcher homes reports only at the top level, and the Observatory reads only top-level reports and `design/`. Piloting this package before those change gives evidence sooner but shows rubric failures and hides moved reports from the Observatory and `ki agent decide`. Changing the standard and rubric first is a small harness change; the launcher and Observatory changes belong to other works and would take longer.
-
-**Query:** In what order should the pilot run?
-
-**Blind review (30 October, Codex, high effort):** agrees with a) at medium confidence: establishing a valid layout first and then gathering bounded manual evidence avoids waiting for the full tooling rollout; it adds that the pilot keeps an explicit inventory and reachable links for moved material, and waits for tooling support if those cannot keep receiving, discovery and tidy whole. Confidence lifted to high.
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; a small harness change first keeps the rubric honest, and moving received reports by hand at receive, with an inventory of what moved, bridges the launcher gap) Change the closed list and FOLDER rubric first, then pilot this package by hand, receiving and tidying before moving, with launcher and Observatory changes following.
-
-b) Pilot now, ahead of the rubric, and accept FOLDER-1 failures in this package until the harness catches up.
-
-c) Wait until the launcher and Observatory changes have also landed.
-
-### REVIEW-CHALLENGE - Let reviews challenge earlier decisions, visibly
-
-since 2026-10-30 · from run/package-layout · [design](design/package-layout/design.md)
-
-**Context:** Kris asked on 30 October that blind reviews be free to challenge earlier decisions. Today's masked query review hides the recommendation but not the precedent in the Context. The proposal: every review brief carries a fixed independence sentence, generated so that it cannot be left out; the masked Context states earlier decisions as dated facts, not as premises; a review that challenges a decision is shown at the end of the Context with an option to revisit it, never acted on without Kris; and `ki-work-design` reviews gain a Challenges section.
-
-**Query:** Should `ki-coordination` and `ki-work-design` adopt these four amendments?
-
-**Options:**
-
-a) (recommended, confidence high - each part only adds text or display, is reversible, and implements Kris's own words) Adopt the independence sentence, neutral Context, challenge display and design-review Challenges section.
-
-b) Adopt only the independence sentence in review briefs.
-
-### REVIEW-LIFT - Precedent earns no confidence
-
-since 2026-10-30 · from run/package-layout · [design](design/package-layout/design.md)
-
-**Context:** Under the query-review rule, a blind review that agrees with a recommendation lifts its confidence one level. A review can agree simply because the Context framed the question inside an earlier decision. The proposal: agreement that rests only on an earlier decision or on the framing is marked `reviewed, precedent only` and lifts nothing, and an option whose only stated reason is an earlier decision is capped at medium. This changes how confidence is earned across every query, and it will send more queries to Kris at medium.
-
-**Query:** Should precedent alone stop counting towards confidence?
-
-**Blind review (30 October, Codex, high effort):** agrees with a) at high confidence: repeated reliance on one premise creates no independent evidence for that premise or for the recommended course; it would also give framing-only agreement no lift, as the proposal does, and judge confidence against the verified rationale rather than reviewer unanimity, and it notes that the forecast of more medium queries reaching Kris is unverified. Confidence lifted to high.
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; it follows Kris's direction directly and agreement resting on one premise adds no independent evidence for it, though it shifts confidence on every query and has no trial evidence) Yes: no lift from precedent-only agreement, and a precedent-only reason caps at medium.
-
-b) No: keep today's lift rule, relying on the independence sentence alone.
-
-### READ-FEEDBACK-NOW - Feedback packages before the Observatory can write them
-
-since 2026-10-30 · from run/package-layout · [design](design/package-layout/design.md)
-
-**Context:** The closed list keeps owner feedback on documents as `feedback/<date>-<slug>.md` plus one `messages.md` line, and names only "the owner, through the Observatory" as its writer. Kris can read design notes in Obsidian today, but feedback longer than a spoken answer can be left only through the Observatory's `feedback-send`, which reads only top-level reports and `design/` notes and so loses sight of moved files until it is made group-aware. The proposal widens that row: the owner may write the package by hand, or the steward may write it verbatim from the owner's spoken words, committed with its message line in the same shape.
-
-**Query:** Should feedback packages be writable now, outside the Observatory?
-
-**Blind review (30 October, Codex, high effort):** agrees with a) at medium confidence: an equivalent manual route removes an interface dependency while keeping owner attribution and receipt; it adds that a steward transcription names the owner as speaker, keeps the words verbatim, never turns a comment into approval, and keeps transcription and any later interpretation distinguishable. Confidence lifted to high.
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; it uses an existing kind and shape and removes the Observatory dependency, provided the steward's verbatim rule holds with the owner named as speaker) Yes, by the owner by hand or by the steward verbatim from the owner's words.
-
-b) No: feedback stays spoken until the Observatory path is ready.
-
-### ORCA-CLOSE-OUT - Make worker release part of KI coordinator close-out
-
-since 2026-10-30 · from run/orca-subagents · [design](design/orca-subagents/design.md)
-
-**Context:** Orca's guide counts supervised work as done only when each settled worker has been reused, explicitly retained or released, and KI's coordination and delegation guidance says nothing about it; two succeeded trial workers of `ki.prj.orca-evaluation` on sol are still waiting for that decision. Release closes only the worker's own terminal after archiving its output, keeps the Task and Dispatch records, and does not delete conversation history; deleting history is a separate GUI-only AI Vault action that cannot be undone. Section 3 already has `ki agent close` release ki-launched workers once Part B lands, which covers only runs `ki agent` starts.
-
-**Query:** Should the five-step close-out rule above go into the `ki-coordination` standard now, as a message to the harness, rather than waiting for Part B?
-
-**Blind review (30 October, Codex, high effort):** agrees with a) at medium confidence: a coordinator owes each settled worker a disposition before any launcher automates its release, and deleting history adds no evidence of completion; it adds that the actual five steps and Orca's release semantics be verified before the wording becomes normative, and that receive, mark and hold reconcile each worker's disposition rather than releasing one deliberately retained. It could not verify Orca's guide, the two trial workers' state, or the release and AI Vault claims. Confidence lifted to high.
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; the gap is live and a coordinator owes each settled worker a disposition whether or not `ki agent close` automates it, with history deletion kept apart, provided the five steps and release semantics are verified before the wording is normative; whether a chat coordinator can release its workers itself stays unproven until the pilot) Yes: send the rule to the harness now as a message, covering receive, mark, hold and Finished, with history deletion kept out of close-out; `ki agent close` takes over ki-launched workers when Part B lands.
-
-b) Wait for the ORCA-SUBAGENT-PILOT and Part B, and fold the rule into `ki agent close` only, leaving hand-started workers to the work that started them.
-
-c) Also make AI Vault session deletion part of close-out, with Kris's go per session, to declutter the history list.
-
-### ORCA-SUBAGENT-PILOT - Prove the Orca worker path before changing tools-ki
-
-since 2026-10-30 · from run/orca-subagents · [design](design/orca-subagents/design.md)
-
-**Context:** Orca links a supervised worker to its creator through `orca orchestration worker-start`, which records the creator's session on the Dispatch. Whether such a worker nests under a chat coordinator in Orca's agents list, runs without permission prompts, survives the chat ending, and leaves the Run inbox in a tolerable state was read from code, not observed; Orca stores no creator pane for a chat, and the list nests rows by pane. One hand-started worker with Kris watching answers all four. It starts an Orca worker, so it needs Kris's go and belongs with the Orca evaluation.
-
-**Query:** Should one supervised Orca worker pilot run, through `ki.prj.orca-evaluation`, before any tools-ki change for sub-agents?
-
-**Options:**
-
-a) (recommended, confidence high - the hierarchy Kris asked for is the one claim the evidence cannot settle, and a wrong guess costs a tools-ki change) Yes: send the ORCA-SUBAGENT-PILOT line to `ki.prj.orca-evaluation` as drafted.
-
-b) Skip the pilot and implement Part B directly, accepting that the nesting may not appear.
-
-c) Drop the Orca placement and keep runs detached, with Part A only.
-
-### ORCA-PLACEMENT - Which Orca route Part B takes
-
-since 2026-10-30 · from run/orca-subagents · [design](design/orca-subagents/design.md)
-
-**Context:** If the pilot shows nesting, Part B can start workers with Orca's own launch (`worker-start --agent`, which uses Kris's Orca agent-launch settings and cannot pass `--add-dir`), or create an Orca terminal running today's exact `claude`/`codex` command and hand it to `worker-start --terminal`, which keeps today's autonomy flags but is the low-level route Orca reserves for argv it cannot express. The first is simpler and closer to how Orca's own sub-agents start; the second preserves today's run contract exactly. Which one works depends on the pilot's permission and directory findings.
-
-**Query:** Should Part B use Orca's own agent launch, or adopt a terminal running today's command?
-
-**Blind review (30 October, Codex, high effort):** agrees with a) at medium confidence, conditional on pilot evidence before implementation: Orca's own launch avoids duplicating launch configuration if it can meet the run contract; it adds that the switch test must cover the directories the run needs, non-interactive operation and the intended authority limits, not only prompts or blocked writes, so that excess access also fails. It could not verify either command's arguments, the launch settings or any pilot finding. Confidence lifted to high.
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; simplest and most Orca-native, with no duplicated launch configuration, provided the pilot shows before implementation that it meets the run contract: the directories the run needs, non-interactive operation and the intended authority limits, with excess access failing too) Orca's own launch, `worker-start --agent`, switching to the terminal route only if the pilot shows prompts or blocked writes.
-
-b) The terminal route from the start, `terminal create --command` plus `worker-start --terminal`.
-
-### ORCA-QUEUE - How queued runs behave under Orca
-
-since 2026-10-30 · from run/orca-subagents · [design](design/orca-subagents/design.md)
-
-**Context:** Orca does not start a task when its dependencies finish, so ki's dispatcher must still start a queued run when its `--wait-for` gate opens. The dispatcher keeps the coordinator's environment and can start the run as an Orca worker while the coordinator's chat is live; after the chat ends, Orca will most likely not accept it as the caller, and the run would start detached as today. The alternative is to keep every queued run detached so that queued and immediate runs behave the same.
-
-**Query:** When a queued run's gate opens, should the dispatcher try the Orca path first and fall back to a detached launch?
-
-**Blind review (30 October, Codex, high effort):** differs, prefers b) at medium confidence: keeping queued runs detached avoids making durable dispatch depend on an unverified rule for a live chat's dispatcher as caller; it would revisit Orca first once a pilot shows whether the caller stays valid across the chat's life and whether a definite refusal can be told apart from an uncertain launch, falling back to detached only on a definite refusal so that no run starts twice. It notes that b) makes queued runs consistent with one another, not with immediate Orca runs, and that the dead-parent rejection is speculation. Confidence stays at medium.
-
-**Options:**
-
-a) (recommended, confidence medium - keeps queued runs under their thread in the common case and never impersonates a parent that has gone, and the design's Fallback rule already goes detached only when Orca reports no effects applied, recording an unknown outcome as `claim-unconfirmed` rather than starting a second agent; blind review 6 prefers b) instead, holding that durable dispatch should not rest on the inferred live-chat caller rule until a pilot proves it, so the two views split) Orca first while the parent chat is live, detached otherwise, with the placement and reason in the receipt.
-
-b) Queued runs stay detached; only immediate launches use the Orca path.
-
 ### WAKE-HOST - Where the headless coordinator pass may run
 
 since 2026-10-30 · from run/landscape, split from WAKE · merged in [landscape-report](design/landscape-report.md)
 
-**Context:** The Techne Programme Focus, set on 20 October, names two hosts, `vega` and sol, and allows agents on them only "in sessions the binding owner opens, with no unattended or scheduled agents". A launchd headless pass is a scheduled agent. WAKE-SUBSTRATE, a later decision in this work, does not amend a governance policy, so the pass may not run on sol or `vega` until the focus is changed through the Enactment Process. Terra, Kris's other Mac, is outside the focus. The job itself was sent to `ki.prj.chezmoi` and `ki.prj.mac-studio-setup`. The Claude review recommends terra first at medium confidence, noting that a pass sees only its own host's runs, because `ki agent status` is host-local, while sol is where most coordination and the Orca trial now run. The Codex review treats host permission as a separate decision and names no host. The design treated scheduled runs as out of scope, which both reviews call stale.
+**Context:** The Techne Programme Focus, set on 20 October, names two hosts, `vega` and sol, and allows agents on them only "in sessions the binding owner opens, with no unattended or scheduled agents". A launchd headless pass is a scheduled agent. WAKE-SUBSTRATE, a later decision in this work, does not amend a governance policy, so the pass may not run on sol or `vega` until the focus is changed through the Enactment Process. Terra, Kris's other Mac, is outside the focus. The job itself was sent to `ki.prj.chezmoi` and `ki.prj.mac-studio-setup`. The Claude review recommends terra first at medium confidence, noting that a pass sees only its own host's runs, because `ki agent status` is host-local, while sol is where most coordination and the Orca trial now run. The Codex review treats host permission as a separate decision and names no host. The design treated scheduled runs as out of scope, which both reviews call stale. Not taken under ACCEPT-BY-CRITERIA on 31 October: it is medium confidence and the blind review preferred option b), so tests 1 and 2 are not met; Kris kept it for the morning.
 
 **Query:** On which host may the headless coordinator pass run?
 
@@ -417,6 +235,17 @@ c) No host for now: session wakes only, until a work needs a durable wake and na
 - WORKTREE-OPTOUT - answered a) on 30 October 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
 - HOST-REVIEW - supply the missing common-brief review packet. Answered a) on 30 October 2026, "proceed with the recommendation, then refine additional HOST-* based on that review"; see [Owner answers, 30 October 2026, 06:15 GMT](decisions.md#owner-answers-30-october-2026-0615-gmt). Delivered as the [merged host-sync report](design/host-sync/report.md).
 - ORCA-ENV-LEAK - acted on 30 October 2026 under Kris's ORCA-SUBAGENTS words: sent to ki.prj.tools-burndown; see [ORCA-SUBAGENTS](decisions.md#orca-subagents---ki-agent-runs-appear-as-orca-sub-agents-30-october-2026-1610-gmt).
+- WORKER-WAIT-MIDTURN - An orchestrator turn moves nothing. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+- AMEND-RACE - Guard amends in a shared checkout. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+- ORCH-NAME-THREAD - answered b) by Kris on 31 October 2026, keep `ki-coordination` and `ki-coordinator`; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+- LAYOUT-PILOT-ORDER - When the pilot moves files. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+- REVIEW-CHALLENGE - Let reviews challenge earlier decisions, visibly. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+- REVIEW-LIFT - Precedent earns no confidence. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+- READ-FEEDBACK-NOW - Feedback packages before the Observatory can write them. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+- ORCA-CLOSE-OUT - Make worker release part of KI coordinator close-out. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+- ORCA-SUBAGENT-PILOT - Prove the Orca worker path before changing tools-ki. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+- ORCA-PLACEMENT - Which Orca route Part B takes. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+- ORCA-QUEUE - answered a) by Kris on 31 October 2026, Orca first while the parent chat is live, detached otherwise; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
 
 ## Parked
 
