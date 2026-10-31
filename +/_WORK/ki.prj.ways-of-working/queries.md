@@ -556,33 +556,47 @@ b) No: keep `<label> (<id>)` as the starting name and use the 🧵 form only for
 
 ### TOP-LEVEL-NOW - Move reports into `reports/` now, or wait for the layout decision
 
-since 2026-11-01 · from run/top-level-cause (PACKAGE-TOP-LEVEL) · blind review running
+since 2026-11-01 · from run/top-level-cause (PACKAGE-TOP-LEVEL) · blind review 1 November agrees
 
-**Context:** On 30 October Kris directed that a work package keeps only its five files at the top level. The rules and the launcher were never changed, because the choice of grouping layout (LAYOUT-SHAPE) is still open, so reports keep landing at the top level: 182 of them across 17 folders today. The quickest stop is to have the launcher and the rules put every report in a `reports/` folder inside the package. That needs one change to the shared ignore rules, because `reports/` folders are currently hidden from Git. It fits the "kind-first" layout and the "group with `reports/` inside" layout. If Kris later picks the flat group layout, reports would move a second time.
+**Context:** On 30 October you directed that a work package keeps only its five files at the top level. The rules and the launcher were never changed, because the layout choice (LAYOUT-SHAPE) is still open, so reports keep landing at the top level: 182 of them across 17 folders today, a count the review confirmed. The cause is the `ki` launcher writing every report there by design (`tools-ki/src/core/agent/thread.ts:91`), with the rules and the folder check all allowing it. The quickest stop is a `reports/` folder inside each package: the launcher and the parts of `ki` that read reports back, the rules, the folder check, and one line in the shared Git ignore rules, which hide `reports/` folders today. Old locations stay readable during the change. If a group-first layout wins later, reports move a second time. The full diagnosis is [design/package-layout/top-level-cause.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/package-layout/top-level-cause.md).
 
 **Query:** Should reports go into a `reports/` folder now, ahead of the layout decision?
 
 **Options:**
 
-a) (recommended, confidence medium - it carries out the 30 October direction at once with the smallest change and settles nothing about grouping, but may mean a second move if the flat group layout wins) Yes: change the launcher, the rules and the ignore exception to use `reports/` now, and keep LAYOUT-SHAPE open.
+a) (recommended, confidence high - reviewed; the review confirmed the cause and the count in the code, and the change stops new build-up and can be reversed without settling LAYOUT-SHAPE) Yes: this work changes the rules, the folder check and the ignore exception, and sends ki.prj.tools-burndown one line to change the launcher and its readers, accepting both old and new places during the change; LAYOUT-SHAPE stays open.
 
-b) No: answer LAYOUT-SHAPE first and make one change, to the chosen layout, accepting that reports keep arriving at the top level until then.
+b) No: answer LAYOUT-SHAPE first and make one change to the chosen layout, with reports still arriving at the top level until then.
 
-c) Neither layout change for now: keep reports at the top level and tidy every package strictly at each mark.
+c) Keep reports at the top level and tidy every package strictly at each mark.
 
-### TOP-LEVEL-SWEEP - How to clear the reports already at the top level
+### TOP-LEVEL-SWEEP-DELETE - Only each folder's steward deletes old reports
 
-since 2026-11-01 · from run/top-level-cause (PACKAGE-TOP-LEVEL) · blind review running
+since 2026-11-01 · from run/top-level-cause · split after blind review; both this work and the review agree on this part
 
-**Context:** 182 reports sit at the top level of 17 work folders in five repositories. Most belong to other work, so each folder has its own steward. Many of these reports probably already have a durable home and could simply be deleted. Deciding that is each steward's judgement, and the rules forbid deleting a whole folder in one go.
+**Context:** 182 reports sit at the top level of 17 work folders in five repositories, most belonging to other work. Whether a report can be deleted depends on whether its outcome already has a durable home, which only that folder's steward can judge; the rules require that judgement and an explicit path for each deletion.
 
-**Query:** Once the change lands, who clears the existing reports?
+**Query:** Should deleting the old reports stay with each folder's own steward, whoever moves them?
 
 **Options:**
 
-a) (recommended, confidence medium - it keeps each deletion with the steward who can judge it, but takes as long as the slowest package's next mark) Each folder's steward tidies at its next mark, deleting reports with a home and moving the rest into `reports/`, prompted by one `messages.md` line from State of play per folder.
+a) (recommended, confidence high - reviewed; both agree that moving and deleting are separate, and that only the steward can judge a report's home) Yes: no clean-up run deletes a report; each steward prunes its own at its marks.
 
-b) One bounded sweep run per repository moves every top-level report into `reports/` with no deletions, and stewards prune later.
+b) No: let one clean-up run judge and delete reports across all folders.
+
+### TOP-LEVEL-SWEEP-MOVE - Who moves the old reports into `reports/`
+
+since 2026-11-01 · from run/top-level-cause · split after blind review; the review differs from this work
+
+**Context:** Once the change lands, the 182 old reports still need to move into `reports/`. Waiting for each steward's next mark has no end date: held or quiet folders may keep the old layout indefinitely. A move-only run per repository finishes in one go without judging anything, but needs a named list of files, your explicit authority over each package it touches, checks for live runs and clashing names, and care with links that point at the old paths.
+
+**Query:** Should the old reports be moved by one move-only run per repository, or by each steward at its next mark?
+
+**Options:**
+
+a) (recommended, confidence medium - the blind review's view: a move-only run finishes the job without guessing outcomes, but the risks to live runs and links are untested; this work had preferred b) to keep each folder with its steward) One bounded move-only run per repository, over a named list of packages you authorise, deleting nothing, stopping on clashes or live runs, and fixing links to moved reports; stewards then prune at their marks.
+
+b) State of play sends each of the 17 folders one message, and each steward moves or deletes its own at its next mark, accepting that held folders may wait.
 
 ## Answered
 
