@@ -881,3 +881,9 @@ The grant:
 - **Stop words:** "stop the wake".
 - **Default deny list:** stands. The grant lifts no item on it.
 - **Mark:** struck at 01:29 GMT. The repository revisions at the window's start are recorded by run `sync-all` in `design/window-31-oct/sync.md`.
+- 31 October 2026, 01:36 GMT, during AWAY-31-OCT:
+  - **sync-all done.** Workspace repositories are fetched and fast-forwarded, and ki-principal is merged and pushed. The revisions are in `design/window-31-oct/sync.md`. Two repositories were left alone: personal-principal (dirty, another session's files) and paperclip (on `ki/stable`).
+  - **Received LESSONS-TERRA** (personal.reg.rig-terra, under Kris's LEARN-LOOP):
+    - Points (1) `wait --next` returning stale events and (2) Codex runs exiting without DONE go to run `lessons-apply`. It adds the short-output and early-report brief guidance to `ki-delegation`, which this work owns, and sends (1) to ki.prj.tools-burndown.
+    - Point (3) is Kris's open question with Rig, not this work's, and is noted only.
+  - **Received RESTART-SUGGEST-LANDED** (hnr.reg.email-routing, at Kris's RESTART-SUGGEST, 29 October), harness `28fdc492`, "for your review". Run `restart-review` reviews it against Kris's words; findings come to Kris, and nothing is reverted.
