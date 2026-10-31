@@ -1025,3 +1025,8 @@ Run `host-reconcile-plan` writes a one-page plain-English plan and the drafted r
   - the next question in the following reply.
 
   Kris also confirmed the bug report to Orca ("we should absolutely submit"), already being sent by run host-sync-send. Run `card-rule` will amend the QUERY-TURNS rule in `ki-coordination` to this pattern, replacing the ban on question tools.
+- 31 October 2026, 13:27 GMT: **DISCUSSIONS**, answered in the card: "I think I prefer option 2; however, we can support both, right? So we can effectively migrate over, or we could just do a massive sweep, to be fair. But we'll probably end up with conflicts if we've not got to a point where we've got both machines in sync." Taken as a full rename, file included, to discussion points and `discussions.md`:
+  1. Readers and the guidance accept both names first.
+  2. Then one sweep renames every live package, once host sync has both Macs level, to avoid conflicts.
+
+  Delivery is queued after the current runs, under WIP-LIMIT.
