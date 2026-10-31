@@ -554,6 +554,36 @@ a) (recommended, confidence high - reviewed; one stable name means no rename str
 
 b) No: keep `<label> (<id>)` as the starting name and use the 🧵 form only for the rename line.
 
+### TOP-LEVEL-NOW - Move reports into `reports/` now, or wait for the layout decision
+
+since 2026-11-01 · from run/top-level-cause (PACKAGE-TOP-LEVEL) · blind review running
+
+**Context:** On 30 October Kris directed that a work package keeps only its five files at the top level. The rules and the launcher were never changed, because the choice of grouping layout (LAYOUT-SHAPE) is still open, so reports keep landing at the top level: 182 of them across 17 folders today. The quickest stop is to have the launcher and the rules put every report in a `reports/` folder inside the package. That needs one change to the shared ignore rules, because `reports/` folders are currently hidden from Git. It fits the "kind-first" layout and the "group with `reports/` inside" layout. If Kris later picks the flat group layout, reports would move a second time.
+
+**Query:** Should reports go into a `reports/` folder now, ahead of the layout decision?
+
+**Options:**
+
+a) (recommended, confidence medium - it carries out the 30 October direction at once with the smallest change and settles nothing about grouping, but may mean a second move if the flat group layout wins) Yes: change the launcher, the rules and the ignore exception to use `reports/` now, and keep LAYOUT-SHAPE open.
+
+b) No: answer LAYOUT-SHAPE first and make one change, to the chosen layout, accepting that reports keep arriving at the top level until then.
+
+c) Neither layout change for now: keep reports at the top level and tidy every package strictly at each mark.
+
+### TOP-LEVEL-SWEEP - How to clear the reports already at the top level
+
+since 2026-11-01 · from run/top-level-cause (PACKAGE-TOP-LEVEL) · blind review running
+
+**Context:** 182 reports sit at the top level of 17 work folders in five repositories. Most belong to other work, so each folder has its own steward. Many of these reports probably already have a durable home and could simply be deleted. Deciding that is each steward's judgement, and the rules forbid deleting a whole folder in one go.
+
+**Query:** Once the change lands, who clears the existing reports?
+
+**Options:**
+
+a) (recommended, confidence medium - it keeps each deletion with the steward who can judge it, but takes as long as the slowest package's next mark) Each folder's steward tidies at its next mark, deleting reports with a home and moving the rest into `reports/`, prompted by one `messages.md` line from State of play per folder.
+
+b) One bounded sweep run per repository moves every top-level report into `reports/` with no deletions, and stewards prune later.
+
 ## Answered
 
 - ORCA-REACH - answered a) on 30 October 2026, follow-up due 6 November 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
