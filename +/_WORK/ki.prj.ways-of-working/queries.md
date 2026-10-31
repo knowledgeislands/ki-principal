@@ -10,9 +10,11 @@ since 2026-10-31 · from run/discussions-design
 
 **Query:** Should we rename queries to discussion points in what Kris reads only, or in the package files too?
 
+**Blind review (31 October, Codex, high effort):** agrees, picking a) at medium confidence: both options give Kris the same discussion wording and closing list of decisions, while renaming the file adds dependencies it checked in `ki` and the Observatory with no practical benefit shown; it could not verify the package count or the cost estimate, and its pick does not rest on them or on earlier decisions. Confidence lifted to high.
+
 **Options:**
 
-a) (recommended, confidence medium - it carries the intent everywhere Kris reads at a third of the cost, and is easy to extend later, but the file name is a matter of taste) rename the concept, the report section, the pass wording and the end of the set, add the closing list of decisions and the "noted, no decision" ending, and keep `queries.md`; readers in `ki` and the Observatory accept both section names before the writers switch
+a) (recommended, confidence high - reviewed; it carries the intent everywhere Kris reads at a third of the cost, is easy to extend later, and the file rename adds checked reader dependencies for no practical gain, the file name being a matter of taste) rename the concept, the report section, the pass wording and the end of the set, add the closing list of decisions and the "noted, no decision" ending, and keep `queries.md`; readers in `ki` and the Observatory accept both section names before the writers switch
 
 b) do all of a) and also rename `queries.md` to `discussions.md` in every package, with a tolerance window in which every reader accepts both file names, then a territory sweep
 
