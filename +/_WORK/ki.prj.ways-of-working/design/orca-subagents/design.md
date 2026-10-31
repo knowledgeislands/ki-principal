@@ -82,6 +82,8 @@ Today a queued run is started later by the run's detached dispatcher (`ki agent 
 
 The recommended shape keeps ki's dispatcher as the scheduler. The dispatcher was launched from the coordinator's shell and keeps its full environment (Part A strips only runtime children), so when the gate opens it calls `worker-start` with the Run id from the work's ORCA-ROUTING record and Orca resolves the caller as the coordinator, as it did for this run's `orca status`. If the coordinator's session is no longer live when the gate opens, Orca will not resolve the caller (**inferred**; test it), and the dispatcher falls back to the detached launch for that run and says so in its receipt. A queued run therefore becomes a sub-agent while its parent thread lives and a detached run after it ends, never a silent impersonation.
 
+**Queued runs, decided:** when a queued run's gate opens, the dispatcher starts it through Orca while the parent chat is live, otherwise detached as today, and records the route and its reason in the run's receipt. This is ORCA-QUEUE a), answered by Kris in the interactive prompt on 31 October 2026 ([decisions](../../decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026)). The dead-parent behaviour is still inferred; the queue test in section 5 proves it before anyone relies on it.
+
 ## 5. Tests
 
 tools-ki tests inject `AgentProcesses`; Part B adds an injected `orca` command runner beside it, so no test starts Orca.
@@ -216,6 +218,8 @@ a) (recommended, confidence medium - simplest and most Orca-native, but autonomy
 b) The terminal route from the start, `terminal create --command` plus `worker-start --terminal`.
 
 ### ORCA-QUEUE - How queued runs behave under Orca
+
+**Answered:** a), by Kris in the interactive prompt on 31 October 2026; recorded in section 4 under "Queued runs, decided". The text below is the query as drafted.
 
 **Context:** Orca does not start a task when its dependencies finish, so ki's dispatcher must still start a queued run when its `--wait-for` gate opens. The dispatcher keeps the coordinator's environment and can start the run as an Orca worker while the coordinator's chat is live; after the chat ends, Orca will most likely not accept it as the caller, and the run would start detached as today. The alternative is to keep every queued run detached so that queued and immediate runs behave the same.
 
