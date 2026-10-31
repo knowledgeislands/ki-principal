@@ -906,3 +906,4 @@ Read back as taken:
   - **WAKE-HOST**, "This is something for the morning". It stays open.
 
   The accept-by-criteria run moves ORCH-NAME-THREAD and ORCA-QUEUE to Answered with pointers here.
+- 31 October 2026, 01:49 GMT: **HOLD-SCOPE** (raised by the survey). The grant does not say that it releases any package's hold, and under the away-window rule a grant lifts only what it names. Held packages stay held, and their units (U2, U5, U6, U10, U11, U15 to U21, U23 and U24 in `design/window-31-oct/plan.md`) are parked for Kris's morning return report. Among them is U2, the ORCA-ENV-LEAK security fix in tools-ki. The units that are not held run **one at a time** under WIP-LIMIT, after the empty-board draft: U1, U9, U3, U4, U22, U14, U7, U8, U12, U13, then the morning summary.
