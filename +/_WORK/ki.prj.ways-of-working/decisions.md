@@ -900,3 +900,9 @@ Read back as taken:
 - **PLAIN-ENGLISH:** queries and explanations in plain English, keeping links to work items.
 - **WIP-LIMIT:** the least work in progress at once. Units go one at a time where possible and are finished quickly. This applies to this window now, and is to be considered generally.
 - **EMPTY-BOARD:** work packages hold active work only, the roadmap holds the upcoming active work, and ideas are consolidated in one place under gated criteria for admitting them. This is drafted for review in the morning. Structural conflicts are flagged in the report.
+- 31 October 2026, 01:40 GMT, answered by Kris in the interactive prompt:
+  - **ORCH-NAME-THREAD b), "Keep coordination".** Keep `ki-coordination` and `ki-coordinator`.
+  - **ORCA-QUEUE a), "Orca first".** A queued run starts through Orca while the parent chat is live, otherwise detached as today, with the route recorded in the receipt.
+  - **WAKE-HOST**, "This is something for the morning". It stays open.
+
+  The accept-by-criteria run moves ORCH-NAME-THREAD and ORCA-QUEUE to Answered with pointers here.
