@@ -1,11 +1,11 @@
 ---
 id: ki.prj.ways-of-working
 state: with-worker
-since: 2026-10-31T13:04:17Z
+since: 2026-10-31T23:21:20Z
 received: 2026-10-29T15:38:09Z
-beat: 2026-10-31T13:55:09Z
+beat: 2026-10-31T23:21:20Z
 mark: 2026-10-31T13:55:09Z
-method_read: 5540fc9d
+method_read: df3f5503
 ---
 
 # ki.prj.ways-of-working state
@@ -17,6 +17,7 @@ method_read: 5540fc9d
 
 ## Next steps
 
+0. Re-bootstrapped at the new path `~/kis/knowledge-islands/ki-principal` after the wholesale repository move (23:21 GMT, 31 Oct). Runs `footer-rename` (harness) and `wow-tidy-move` (this package) are out; receive them.
 1. Take Kris's answers on the open queries, the empty-board draft and the held packages (HOLD-SCOPE), and read each back in `decisions.md`.
 2. Follow-ups: AGENT-HOME due 2 November 2026; ORCA-REACH due 6 November 2026.
 3. On LAYOUT-SHAPE: run LAYOUT-PILOT-ORDER (harness first, then hand pilot).

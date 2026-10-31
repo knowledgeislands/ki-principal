@@ -1,0 +1,10 @@
+# Brief: footer-rename (ki.prj.ways-of-working)
+
+Repository: `/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness`. Two owner decisions of 31 October 2026, logged in `/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/decisions.md`:
+
+1. FOOTER-NOT-LISTENING. Kris: "no need to put in the footer `🔇 not listening`". In the glyph banner a mode line appears only while its mode is on: `👂 listening` when the inbox watcher is armed, `🔄 syncing for <host>` for a host sync thread. Drop every `🔇 ...` line (not listening, not listening while draining) from the standard, examples, output style and test. Keep the rest of the footer layout (heading, counts, items, heading-for line, mode lines, thread line last).
+2. RENAME-THREAD-FORM. Kris: "we name them like: `🧵 personal.reg.rig-terra`". The bootstrap/re-bootstrap Done line becomes `Rename thread: /rename 🧵 <work-id>`.
+
+Do: edit `skills/change-management/ki-coordination` (standard, output-style source, any other surface that states these), run `ki dev skill generate ki-coordination --write`, update `scripts/banner.test.ts` so it asserts both, run the tests and the repo's checks, commit by explicit path with Conventional Commits, fetch and push `main` fast-forward only (never force, never `--no-verify`; stop on divergence). Then append one line to the `messages.md` of every live coordinating work package in every territory (as the earlier `refresh-all` run did; `ki agent prompts <territory>` and `+/_WORK/*/work.md` locate them), shaped `- 2026-10-31 · IMPORTANT · REFRESH · Ways of working (ki.prj.ways-of-working): <new revision>: drop the 🔇 not-listening footer line; rename line is now /rename 🧵 <work-id>.`, committing each with subject `docs(work): <id> message from ki.prj.ways-of-working` by explicit path and pushing fast-forward only. Do not touch other files in those packages.
+
+Report to `/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/footer-rename.report.md`: outcome, commits, packages messaged, any failure, and any query in Context/Query/Options form.

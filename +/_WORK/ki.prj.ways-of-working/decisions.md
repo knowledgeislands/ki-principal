@@ -1071,3 +1071,8 @@ Run `host-reconcile-plan` writes a one-page plain-English plan and the drafted r
   4. fast-forwards the live branch.
 
   It passed 14 throwaway cases. The report is personal-principal `+/_WORK/personal.reg.rig-terra/sync-snapshot.report.md`. Whether to make it the host-sync pass method is put to Kris as SYNC-SNAPSHOT-ADOPT. Nothing is adopted yet.
+- 31 October 2026, 23:21 GMT: re-bootstrapped after the wholesale move. Messages received from personal.reg.rig-terra, disposed:
+  - **MOVE-WHOLESALE**, **MOVE-ORCHESTRATE**, **MOVE-REBOOT** (Kris: "fully drain all of the threads ... and then I'll just go through creating them back again ... We can just use the rebootstrapping"): done; the repositories now sit under `~/kis/`, and this thread is the re-bootstrap. Package links still naming `~/workspaces/` are repointed by run `wow-tidy-move`.
+  - **FOOTER-NOT-LISTENING** (Kris: "no need to put in the footer `🔇 not listening`"): a mode line shows only when its mode is on. Applied in this thread now; run `footer-rename` writes it into `ki-coordination`, the output style and the banner test.
+  - **RENAME-THREAD-FORM** (Kris: "we name them like: `🧵 personal.reg.rig-terra`"): the re-bootstrap line becomes `Rename thread: /rename 🧵 <work-id>`. Applied now; run `footer-rename` writes it in.
+  - method_read moved 5540fc9d to df3f5503: quiet inbox watcher, mark followed by full Summary, footer laid out top to bottom; all three were already this thread's practice.
