@@ -244,6 +244,22 @@ b) Read the rule as covering only stashes a session runs itself, so the hook's b
 
 c) Leave both the rule and the hooks as they are, and have background runs stop before committing in any repository whose hook stashes, leaving the commit to the coordinator.
 
+### FINISHED-TIDY-KICK - Let State of play delete a Finished work's leftover folder itself?
+
+since 2026-10-31 · relayed from personal.reg.acquire-intake at Kris's request on 30 October; shaped by run/w-U8 in window AWAY-31-OCT · high after the blind review of 31 October; no rule changed · [design note](design/finished-tidy-kick.md)
+
+**Context:** You asked to "sort out the method so that the kick actually gets the folder deleted". When a piece of work finishes, its coordinator is meant to delete the work folder at the next mark, but once the thread ends nobody holds the work, so that mark never comes. Three things then fail together. The tidy check (FOLDER-4) only flags a Finished folder after a closing mark, so a folder left before that mark is never flagged. The only remedy State of play has is a line in that work's `messages.md`, which nobody reads, because nothing reopens Finished work. And the method forbids State of play from tidying another work's folder. [ki.prj.knowledge-acquisition](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.knowledge-acquisition/state.md) has been stuck like this since 20 October; whether to close that folder is the separate KA-CLOSE query in [ki.sop.main](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/queries.md). A masked blind review on Codex chose option a) on its own at high confidence, but said it is not plainly within your words: you agreed a finished work deletes its own folder, and this makes a named exception to the rule that territory work never tidies another work's folder, so it needs your adoption. The wording is drafted and tested, and nothing has changed in the harness.
+
+**Query:** Should State of play close a Finished work's leftover folder itself, under strict checks, instead of sending it a message nobody reads?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed: the blind review reached the same course on its own; it is the only option that both finds every stranded folder and names who deletes it, and Git keeps the folder, so a delete is easily undone) The tidy check flags every Finished folder. At a mark you authorise, whose report names the folder, State of play checks that every decision and other durable fact is homed, `design/` is resolved, findings are settled, no query is open, no message is waiting and no run is live; it then archives the runs with `ki agent close`, never using your waiver, and deletes the folder in one commit. If any check fails, it deletes nothing and asks you instead. A run applies the drafted wording to the harness, with an independent review before it is pushed.
+
+b) Keep today's rule that only the work itself deletes its folder. Fix only the tidy check so it flags every Finished folder, and have State of play bring each one to you as a query at its mark.
+
+c) Have the finishing coordinator delete the folder in the same sitting as your `finish`. This stops new cases, but does nothing for folders already left behind, such as knowledge acquisition.
+
 ## Answered
 
 - ORCA-REACH - answered a) on 30 October 2026, follow-up due 6 November 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
