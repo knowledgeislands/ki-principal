@@ -8,4 +8,4 @@ Repository: `/Users/krisbrown/kis/knowledge-islands/ki-principal`. Package: `+/_
 
 Touch nothing outside this package. Commit by explicit path, `docs(work): ki.prj.ways-of-working tidy after move`, fetch and push `main` fast-forward only (never force, never `--no-verify`, never stash/rebase/reset; stop on divergence). Other sessions' untracked files elsewhere (for example `+/_WORK/ki.sop.main/*.report.md`) are not yours.
 
-Report to `+/_WORK/ki.prj.ways-of-working/wow-tidy-move.report.md`: what was deleted, kept and why, links repointed and broken, and any query in Context/Query/Options form.
+Report, as your run packet directs: what was deleted, kept and why, links repointed and broken, and any query in Context/Query/Options form.
