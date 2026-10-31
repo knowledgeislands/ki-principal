@@ -19,7 +19,7 @@ method_read: beb56729
 
 ## Next steps
 
-1. Take the queue in [messages](messages.md): WAKE-SUBSTRATE, DISPATCHER, TRIAGE-HOURS and MGIT-SYNC-JOB as one scheduled-runner design kept in step with ki.prj.observatory; then TRIAGE-HOURS-APPLY, ZT-FINDINGS, MCP-PROCS, WHATSAPP-MCP-SCOPE, MGIT-PUSH-ALIAS, RIG-OWNS-CONFIG and MGIT-SYNC-ADOPT.
+1. Take the queue in [messages](messages.md): WAKE-SUBSTRATE, DISPATCHER, TRIAGE-HOURS and MGIT-SYNC-JOB as one scheduled-runner design kept in step with ki.prj.observatory; then TRIAGE-HOURS-APPLY, MCP-PROCS, WHATSAPP-MCP-SCOPE (waiting on WHATSAPP-HOST-FIELD), RIG-OWNS-CONFIG and MGIT-SYNC-ADOPT.
 2. sol: finish the pass under [PERSONAL-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-105-bring-sol-level-with-terra.md) and [PERSONAL-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-086-finish-software-alignment.md), including Defuddle, then the reviews in [PERSONAL-DOTFILES-UE-111](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-111-review-unmanaged-files.md) and [PERSONAL-DOTFILES-UE-112](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-112-review-workstation-software.md). The sol firewall is a separate connection-critical pass under [KI-TOOL-RIG-CORE-047](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md) with a restore rehearsal first.
 3. TRUST-COMPLETE still needs its chezmoi Decision Record; the direction is in [decisions](decisions.md).
 4. Sync the VS Code source once ki.prj.tools-burndown delivers VSCODE-LAYOUT.

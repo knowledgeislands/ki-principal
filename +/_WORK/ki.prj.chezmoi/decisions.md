@@ -228,3 +228,11 @@ These entries were committed on sol after terra's 23 October hold and not pushed
 ## 2026-10-29 01:14 GMT - tidy-round2 disposition
 
 Operational: State of play's TIDY line of 29 October received under BASELINE-CLEAN (Kris, 28 October): the LIFECYCLE-3 warning is message lines past about 60 words; they are other senders' instructions, so shortening them needs the steward's judgement and became a Next steps line in `state.md`. TIDY line removed.
+
+## 2026-10-31 02:43 GMT - w-U3 queue disposition
+
+Operational: run w-U3 of ki.prj.ways-of-working, under the unattended window AWAY-31-OCT (plan unit U3), took three queued lines. Nothing was applied; `chezmoi diff` of the one rendered target, `~/.zsh/00_utils`, was inspected read-only and shows only the new alias.
+
+- MGIT-PUSH-ALIAS: done. chezmoi `3e22395` adds `mpush` to `dot_zsh/00_utils`, exactly as worded in the line, with a test that the alias expands to that text. Takes effect on the next `chezmoi apply` on each Mac. Line removed.
+- ZT-FINDINGS: done. chezmoi `0893cb0` homes the accounts and teams, the read gaps and the team-name rule in a sibling guide, `docs/guides/tools/cloudflare-zero-trust.md`, linked from the tools index and `cloudflare-tokens.md`. Line removed.
+- WHATSAPP-MCP-SCOPE: not done, line kept. The MCP inventory has no host-targeting field: the portable schema `ki-binding` audits (BIND-2) is closed, "No other fields are portable", and the renderer has no per-host exclusion. Scoping the server to terra needs a choice between a schema change in `ki-agentic-harness` and a chezmoi-only renderer rule, raised as query WHATSAPP-HOST-FIELD in w-U3's report to ki.prj.ways-of-working. No line went to personal.regular.rig-sol, since there is no MCP scope for sol to apply yet.
