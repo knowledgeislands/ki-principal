@@ -528,6 +528,20 @@ b) Repoint all 66 everywhere, the history included.
 
 c) Leave them all as they are.
 
+### RENAME-NAME - Should new sessions also start with the 🧵 name?
+
+since 2026-10-31 · from run/footer-rename · blind review running
+
+**Context:** Under RENAME-THREAD-FORM on 31 October 2026 you said: "we name them like: `🧵 personal.reg.rig-terra`". The rename line that bootstrap and re-bootstrap reports carry now uses that form. In Claude Code, though, the opener that `ki agent prompts` prints still starts the session as `claude --name "<label> (<id>)"`, for example "Ways of working (ki.prj.ways-of-working)". The standard still describes it that way, and that half belongs to `tools-ki`. So a session opened from its opener gets one name, and the rename line asks for another.
+
+**Query:** Should the opener's starting name also become `🧵 <work-id>`, so that both ways of naming a thread give the same result?
+
+**Options:**
+
+a) (recommended, confidence medium - it follows your stated naming but reaches beyond this brief's wording and into tools-ki) Yes. Change the standard's opener sentence to `claude --name "🧵 <work-id>"` and send `tools-ki` a message to change the launch command to match.
+
+b) No. Keep the opener's `<label> (<id>)` start name and use the 🧵 form only for the rename line.
+
 ## Answered
 
 - ORCA-REACH - answered a) on 30 October 2026, follow-up due 6 November 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
