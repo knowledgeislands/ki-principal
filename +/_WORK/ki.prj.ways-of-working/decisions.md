@@ -963,3 +963,5 @@ Taken as two parts:
 - **IDEAS-IN-GRAPH** (Kris's answer, logged as ACQ020-FUTURE in Acquire): "more generally, future ideas could go into the knowledge graph in that way, rather than saying these are things which we're enacting for now." Ideas stay off the roadmap unless they are being enacted now. This is input to the empty-board draft's ideas-home choice and to CAPTURE-MODEL strand 2. It goes to the `capture-skill` run, and is carried into the empty-board questions when Kris reviews them.
 
 The three runs touch the harness, so they run one after another (WIP-LIMIT).
+
+- 31 October 2026, 12:31 GMT: lesson. The held runs `blind-review-7` and `fold-review-7` were launched from briefs copied off files the night tidy had deleted, so their prompts are empty, and `ki agent stop` refuses held runs ("containment-unverified"). They will finish as no-ops. Corrected copies `blind-review-7b` and `fold-review-7b` follow them. For tools-ki: `ki agent launch` should refuse an empty brief, and stop should cancel a run that has not started.
