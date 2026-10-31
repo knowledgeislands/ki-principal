@@ -4,17 +4,17 @@
 
 ### SYNC-SNAPSHOT-ADOPT - Make the snapshot method how every host-sync pass works
 
-since 2026-10-31 · from personal.reg.rig-terra (SYNC-SNAPSHOT-FINDINGS)
+since 2026-10-31 · from personal.reg.rig-terra (SYNC-SNAPSHOT-FINDINGS) · blind review 31 October 23:24 GMT differs; recommendation changed
 
-**Context:** You asked terra's Rig thread for a way to sync even when checkouts have unfinished, uncommitted work. Its prototype takes the last commit as a snapshot, merges in what's on GitHub in a separate scratch copy, pushes that by name with a race guard (never forced), then moves the live branch forward, leaving uncommitted files alone. It passed all 14 throwaway test cases: unfinished work was kept, clashes and hook refusals stopped for judgement, and races were retried. It needs no Git setting changes. Report: personal-principal `+/_WORK/personal.reg.rig-terra/sync-snapshot.report.md`.
+**Context:** You asked terra's Rig thread for a way to sync even when checkouts have unfinished, uncommitted work. Its prototype takes the last commit as a snapshot, merges in what's on GitHub in a separate scratch copy, pushes that by name with a race guard (never forced), then moves the live branch forward, leaving uncommitted files alone. It passed all 14 throwaway test cases. A blind review on Codex read the prototype and found three gaps that the tests don't cover: nothing checks that a clean merge still passes the repository's checks before it is pushed; it ignores the push veto that `mgit` honours (`tools-mgit/bin/mgit` line 3168); and a configured follow-tags setting could push tags along with the branch. It also lacks coordination between passes and recovery after interruption. Report: personal-principal `+/_WORK/personal.reg.rig-terra/sync-snapshot.report.md`.
 
 **Query:** Should both Rig sync threads use this snapshot method for every pass?
 
 **Options:**
 
-a) (recommended, confidence medium - it solves the "dirty checkout blocks sync" problem you raised and passed its tests, but only on throwaway repositories so far) Adopt it on both Macs, starting with one supervised pass on a real repository on each.
+a) (recommended, confidence high - reviewed; the reviewer verified the missing safeguards in the code, and keeping today's default is reversible) Keep plain fast-forward passes for now, and ask terra's Rig thread for a bounded, supervised trial on representative repositories on both Macs that adds merge validation, the push veto, tag control and interruption recovery before the default changes.
 
-b) Keep plain fast-forward passes for now, and come back to the snapshot method after a longer trial.
+b) Adopt it on both Macs, starting with one supervised pass on a real repository on each, accepting that those gaps remain open when routine use begins.
 
 ### DISCUSSIONS - How far to take "discussion points" in place of "queries"
 
@@ -374,7 +374,7 @@ b) No: only captures are held. Cards may be reconciled into their owning Capital
 
 since 2026-10-31 · from run/capture-skill · split from IDEAS-ROADMAP-STANDARD after blind review
 
-**Context:** IDEAS-IN-GRAPH says future ideas live in the knowledge graph as future concepts, not on the roadmap. The `ki-work-roadmap` standard ([Ideas and graduation](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-work-roadmap/references/standards-repository-roadmaps.md#ideas-and-graduation)) already keeps ideas out of the record queue. Where every idea finally lives, and how the graph organises them, is IDEAS-HOME, which is still open in the [empty-board design](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/empty-board/design.md). This part asks only whether the standard should name that final home before Kris settles IDEAS-HOME; IDEAS-ROADMAP-PRINCIPLE asks about the standard's current alternatives.
+**Context:** IDEAS-IN-GRAPH says future ideas live in the knowledge graph as future concepts, not on the roadmap. The `ki-work-roadmap` standard ([Ideas and graduation](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-work-roadmap/references/standards-repository-roadmaps.md#ideas-and-graduation)) already keeps ideas out of the record queue. Where every idea finally lives, and how the graph organises them, is IDEAS-HOME, which is still open in the [empty-board design](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/empty-board/design.md). This part asks only whether the standard should name that final home before Kris settles IDEAS-HOME; IDEAS-ROADMAP-PRINCIPLE asks about the standard's current alternatives.
 
 **Query:** Should the roadmap standard wait for IDEAS-HOME before naming where in the graph ideas finally live?
 
@@ -390,7 +390,7 @@ b) No: name a home in the standard now and let IDEAS-HOME follow it.
 
 since 2026-10-31 · from run/capture-skill · split from IDEAS-ROADMAP-STANDARD after blind review
 
-**Context:** IDEAS-IN-GRAPH says future ideas live in the knowledge graph as future concepts, not on the roadmap. The `ki-work-roadmap` standard ([Ideas and graduation](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-work-roadmap/references/standards-repository-roadmaps.md#ideas-and-graduation)) sends concepts to a Capital's Emerging Concepts note, and other ideas to `Idea:` bullets in Project or theme notes or to `_IDEAS.md` beside the roadmap. The capture skill has already been changed to follow IDEAS-IN-GRAPH; the standard has not. Retiring the alternatives would deal with where ideas go next, not delete or move any idea already written down.
+**Context:** IDEAS-IN-GRAPH says future ideas live in the knowledge graph as future concepts, not on the roadmap. The `ki-work-roadmap` standard ([Ideas and graduation](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-work-roadmap/references/standards-repository-roadmaps.md#ideas-and-graduation)) sends concepts to a Capital's Emerging Concepts note, and other ideas to `Idea:` bullets in Project or theme notes or to `_IDEAS.md` beside the roadmap. The capture skill has already been changed to follow IDEAS-IN-GRAPH; the standard has not. Retiring the alternatives would deal with where ideas go next, not delete or move any idea already written down.
 
 **Query:** Should the roadmap standard now stop offering `Idea:` bullets and `_IDEAS.md` as places for new ideas, or keep them until IDEAS-HOME is settled?
 
@@ -406,7 +406,7 @@ b) Change it now: the standard says new future ideas go into the graph as future
 
 since 2026-10-31 · from run/capture-skill
 
-**Context:** The skill's sources name the [Acquisition Process](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md>) note in Knowledge Islands Principal as the owner of the long-term lifecycle. That note still describes dispatch to each principal followed by Acquire removing its copy. It has no staging graph, no holding area and no item-by-item curation. It is canonical content, so changing it goes through the Enactment Process, and it was outside this run's scope.
+**Context:** The skill's sources name the [Acquisition Process](</Users/krisbrown/kis/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md>) note in Knowledge Islands Principal as the owner of the long-term lifecycle. That note still describes dispatch to each principal followed by Acquire removing its copy. It has no staging graph, no holding area and no item-by-item curation. It is canonical content, so changing it goes through the Enactment Process, and it was outside this run's scope.
 
 **Query:** Should the Acquisition Process note be revised to match the 31 October decisions?
 
@@ -422,7 +422,7 @@ b) Leave the note until the holding area is lifted, and add one line saying that
 
 since 2026-10-31 · from run/capture-skill
 
-**Context:** The capture-model brief that U12 wrote, [brief](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/capture-model/brief.md), puts seven choices to Kris. The 30 October decision on lean captures largely answers LEAN-CAPTURE. IDEAS-IN-GRAPH bears on IDEA-ROUTE. GOAL-HOLDING-AREA changes OPEN-ITEMS, whose recommended option has a closed item dispatch "as today". The brief has not yet had its blind reviews.
+**Context:** The capture-model brief that U12 wrote, [brief](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/capture-model/brief.md), puts seven choices to Kris. The 30 October decision on lean captures largely answers LEAN-CAPTURE. IDEAS-IN-GRAPH bears on IDEA-ROUTE. GOAL-HOLDING-AREA changes OPEN-ITEMS, whose recommended option has a closed item dispatch "as today". The brief has not yet had its blind reviews.
 
 **Query:** Should the capture-model brief be updated to reflect these decisions before its reviews?
 
@@ -472,7 +472,7 @@ c) Leave both the rule and the hooks as they are, and have background runs stop 
 
 since 2026-10-31 · relayed from personal.reg.acquire-intake at Kris's request on 30 October; shaped by run/w-U8 in window AWAY-31-OCT · high after the blind review of 31 October; no rule changed · [design note](design/finished-tidy-kick.md)
 
-**Context:** You asked to "sort out the method so that the kick actually gets the folder deleted". When a piece of work finishes, its coordinator is meant to delete the work folder at the next mark, but once the thread ends nobody holds the work, so that mark never comes. Three things then fail together. The tidy check (FOLDER-4) only flags a Finished folder after a closing mark, so a folder left before that mark is never flagged. The only remedy State of play has is a line in that work's `messages.md`, which nobody reads, because nothing reopens Finished work. And the method forbids State of play from tidying another work's folder. [ki.prj.knowledge-acquisition](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.knowledge-acquisition/state.md) has been stuck like this since 20 October; whether to close that folder is the separate KA-CLOSE query in [ki.sop.main](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/queries.md). A masked blind review on Codex chose option a) on its own at high confidence, but said it is not plainly within your words: you agreed a finished work deletes its own folder, and this makes a named exception to the rule that territory work never tidies another work's folder, so it needs your adoption. The wording is drafted and tested, and nothing has changed in the harness.
+**Context:** You asked to "sort out the method so that the kick actually gets the folder deleted". When a piece of work finishes, its coordinator is meant to delete the work folder at the next mark, but once the thread ends nobody holds the work, so that mark never comes. Three things then fail together. The tidy check (FOLDER-4) only flags a Finished folder after a closing mark, so a folder left before that mark is never flagged. The only remedy State of play has is a line in that work's `messages.md`, which nobody reads, because nothing reopens Finished work. And the method forbids State of play from tidying another work's folder. [ki.prj.knowledge-acquisition](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.knowledge-acquisition/state.md) has been stuck like this since 20 October; whether to close that folder is the separate KA-CLOSE query in [ki.sop.main](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/queries.md). A masked blind review on Codex chose option a) on its own at high confidence, but said it is not plainly within your words: you agreed a finished work deletes its own folder, and this makes a named exception to the rule that territory work never tidies another work's folder, so it needs your adoption. The wording is drafted and tested, and nothing has changed in the harness.
 
 **Query:** Should State of play close a Finished work's leftover folder itself, under strict checks, instead of sending it a message nobody reads?
 
