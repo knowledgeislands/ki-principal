@@ -848,3 +848,36 @@ Kris, in this thread: "I really want to make sure that we are updating and chang
 Kris's words (speech to text): "for all [repositories] in the workspace ... do a fetch for them and then you get yours merged back onto them so you've got a latest copy of everything ... the first step ... then the second step is then going to unattended mode and do as much as you can [of] ways of working ... you've been given a lot of feedback ... really do that and then you can give me a really good summary in the morning ... plain English ... feature focussed ... new capabilities ... something that can be learned ... if a good way of doing that is to update the website you can do that ... you're gonna be the only [coordinator] running on [sol] ... send a message to others and say that you've put an embargo on them [making] any changes until 9 am tomorrow morning as in Saturday morning ... have a good [go at] trying to do as much as you can across all of those projects all those work packages ... I'm not able to respond to your questions ... please confirm this."
 
 Read-back pending Kris's confirmation: window ends 09:00 GMT = 09:00 UTC, Saturday 31 October 2026. Silence is not consent: the 25 open queries are not answered by this grant.
+
+### AWAY-31-OCT read back and confirmed
+
+Kris confirmed the read-back at 01:29 GMT: "Sounds good. See you in the morning". The three follow-up questions went unanswered, so the narrower reading holds for each:
+
+- No open query is answered by this grant. No recommended option is adopted.
+- The website is committed only, never published. If a push to `main` would deploy it, the work goes to a branch.
+- Embargo: one IMPORTANT line to each territory's State of play, as in the confirmed read-back. Other Capitals' work packages are not touched beyond that line.
+
+The grant:
+
+- **Window:** until 09:00 GMT Saturday 31 October 2026 (09:00 UTC; GMT equals UTC). Unambiguous.
+- **Work:**
+  1. Bring every workspace repository level with its remote, fetching and fast-forwarding, with diverged repositories merged in their own worktrees.
+  2. Send the embargo lines.
+  3. Do as much as possible of ways of working, then across the Knowledge Islands territory's projects and work packages, within decisions already made.
+  4. Make the new capabilities learnable on the website (commit only).
+  5. Prepare a plain-English, feature-focused morning summary.
+- **Permitted actions:** background runs at the `push` tier, with fast-forward pushes and commits by explicit path. Package moves, pruning and tidy under the existing rules.
+- **Exclusions:**
+  - deploy, publish, release and installation;
+  - credential or provider operations;
+  - force-push and `--no-verify`, which this grant never lifts;
+  - rebase, reset or stash in a shared checkout;
+  - adoption of any open query's option;
+  - acceptance and pruning of roadmap records;
+  - writes into other Capitals' packages beyond the embargo line;
+  - HNR source work;
+  - the three possibly protected untracked files.
+- **Wake:** a detached waiter of up to five minutes, re-armed at each wake.
+- **Stop words:** "stop the wake".
+- **Default deny list:** stands. The grant lifts no item on it.
+- **Mark:** struck at 01:29 GMT. The repository revisions at the window's start are recorded by run `sync-all` in `design/window-31-oct/sync.md`.

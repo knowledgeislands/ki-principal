@@ -1,10 +1,10 @@
 ---
 id: ki.prj.ways-of-working
-state: with-supervisor
-since: 2026-10-30T16:30:41Z
+state: with-worker
+since: 2026-10-31T01:31:36Z
 received: 2026-10-29T15:38:09Z
-beat: 2026-10-30T16:30:41Z
-mark: 2026-10-30T01:39:47Z
+beat: 2026-10-31T01:31:36Z
+mark: 2026-10-31T01:31:36Z
 method_read: 6868da5a
 ---
 
@@ -12,15 +12,21 @@ method_read: 6868da5a
 
 ## Now
 
-- Hold requested for the Zed-to-Orca move on sol, with release "resume in Orca on sol". NOT DRAINED: the existing PUBLIC-REPORT-RECOVERY decision still has no approved off-machine private destination or transfer authority, so the required portability guarantee is not established.
-- No live worker or queued/held run was observed across four bound KI run groups. No new work was launched; the old Z waiters were already stopped. Protected local reports, original evidence and retained work remain untouched.
-- Current holder and mark are preserved; On hold is not falsely recorded. Existing questions remain complete, and STREAMS-SKIP and ORCA-HERMES remain queued for the continuing orchestrator.
+- Unattended window AWAY-31-OCT until 09:00 GMT Saturday 31 October 2026 (see decisions). 25 queries stay with Kris; none answered by the grant.
 
 ## Next steps
 
-1. Resolve PUBLIC-REPORT-RECOVERY: explicitly approve the private destination and bounded transfer/restore verification, or explicitly decide the alternative recovery policy. Keep protected material out of Git and cleanup meanwhile.
-2. Finish the remaining drain checks, park every open question in full, and only then enter On hold with release "resume in Orca on sol" and strike the hold mark.
-3. Re-bootstrap in Orca from this principal checkout; follow the current decisions, pending messages and approved work after the recorded blockers are resolved.
+Window plan, in order:
+
+1. **sync-all** (all workspace repositories; push tier; small to medium). Fetch every repository and fast-forward clean checkouts. Merge diverged ones, ki-principal first, in their own worktrees, then push fast-forward. Record each repository's `origin/main` and local `main` revisions before and after. Waits on nothing.
+2. **embargo** (each territory's State of play `messages.md`; push tier; small). One IMPORTANT line per territory saying no changes until 09:00 GMT. Waits on sync-all.
+3. **wow-tidy** (this package; push tier; small). Prune received reports and spent briefs under the existing rules, excluding the three private files, and close the stale runs. Waits on sync-all.
+4. **survey** (ki-principal, read-only; small). List every Knowledge Islands work package's authorised, unblocked next steps as units, with repository, authority, tier, what each waits on and size, plus the excluded units with their reasons. Waits on sync-all.
+5. **website-learn** (the Knowledge Islands website repository; push tier, no deploy; medium). Plain-English, feature-focused pages on the new capabilities. Waits on sync-all.
+6. **Survey waves** (per the survey, at most about three runs at a time; push tier). Waits on survey.
+7. **morning-summary** (this package; small). The plain-English capability summary. Starts about 08:15 GMT.
+
+Excluded: every open-query decision, because silence is not consent. Also excluded: website publication, releases and installs, the Orca worker pilot (needs Kris watching), and other Capitals' package work.
 
 ## Held
 
