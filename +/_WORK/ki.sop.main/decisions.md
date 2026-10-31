@@ -148,3 +148,13 @@
 
 - Z-RETIRE, read back as taken: "Retire this Z session safely. The work is continuing in Orca; this is not Project closure." The Z coordinating session of 28 to 29 October (BASELINE-CLEAN, AWAY-WINDOW, DRAIN) retired at 02:07 GMT (2026-10-30T02:07:11Z). It holds no live runs, queued tasks, wakes or monitors; every run it launched under `ki-sop-main` is finished and received, and its commits are on origin. Its outcomes, decisions and queries are already in this package, and the later session's re-bootstrap of 30 October carries them forward; holder, state and mark are unchanged by this retirement. Untracked report copies here (accept-review, orca-eval, route069, sop-route) belong to the later session's runs and are left to it.
 - OBSERVATORY-OPEN (Kris, 30 October), read back as taken: "I've only got 4 active threads at the minute, coordination threads that is, so I'm thinking I do want to open up the observatory." Kris opens the ki.prj.observatory thread with its opener, under OBSERVATORY-THREAD; its existing ki.prj.orca-evaluation thread already holds that package and needs no restart.
+
+## 2026-10-31 · Re-bootstrap (Kris, 23:19 GMT)
+
+- Opener, read back as taken: "Bootstrap as ki.sop.main in ~/kis/knowledge-islands/ki-principal using ki-coordination and pick up from session id bfc318f7-bf17-4268-bfce-2109c1783512". The package carries that session's last Summary (30 October); nothing was running. Listening was not asked for, so the thread does not listen.
+- EMBARGO (IMPORTANT): lapsed at 09:00 GMT on 31 October; removed.
+- REFRESH d2625589 and f04b0d61 (IMPORTANT): taken; read at df3f5503, a descendant; `method_read` set to df3f5503.
+- HOOK-STASH: noted; owned by ki.prj.ways-of-working; removed.
+- STOA-HOME (hnr.sop.main): needs a new Project, so it is put to Kris as the STOA-HOME query.
+- CORR-GUARD-ASK (hnr.reg.email-routing): shares the mail MCP owner gap; folded into MAIL-ASKS.
+- AMEND-RACE and HEADER-ESTATE: kept in the queue for one route run.

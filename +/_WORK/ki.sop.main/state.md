@@ -5,7 +5,7 @@ since: 2026-10-30T01:51:00Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-10-29T16:17:57Z
-method_read: 6868da5a
+method_read: df3f5503
 ---
 
 # ki.sop.main state
@@ -20,11 +20,11 @@ method_read: 6868da5a
 
 - ki.prj.website is seeded on hold until Kris opens it; Host network opens fifth, after its decision paper and restore path.
 
-## Next steps (re-bootstrap 01:45 GMT)
+## Next steps (re-bootstrap 31 October 23:25 GMT)
 
-1. Received sop-route (4b52fcd8): STOA-ICONS and DIAGRAM-TOOLS routed to ki.reg.main; ACCEPT-KI-TOOL-RIG-CORE-070 and ACCEPT-PERSONAL-DOTFILES-UE-106 in queries, both lifted to high by the accept-review blind review.
-2. Received orca-eval (07cf32ba): ki.prj.orca-evaluation opened under theme Techne; opener given to Kris. Received route069 (3666455f): PLAN069-RECEIPT queued in ki.prj.mac-studio-setup.
-3. Nothing running. Kris answers the eleven open queries in `queries.md`, acceptance first.
+1. Bootstrapped in a fresh session picking up from bfc318f7; nothing running; not listening.
+2. AMEND-RACE and HEADER-ESTATE stay queued in `messages.md` for one route run: AMEND-RACE to KI Agentic Harness's `ki-git` owner, HEADER-ESTATE to ki.prj.chezmoi.
+3. Kris answers the open queries in `queries.md`, acceptance first; STOA-HOME is new.
 
 ## Held
 

@@ -78,19 +78,33 @@ a) (recommended, confidence medium - reviewed, views differ: the blind reviewer 
 
 b) Keep it as built: count it as "failed to start", because a failing first step is the common case worth singling out.
 
-### MAIL-ASKS - four mail-engine asks waiting for an owner
+### MAIL-ASKS - five mail-engine asks waiting for an owner
 
-**Context:** HNR > Email routing (hnr.email-routing) sent four asks for the mail MCP servers, each decided by Kris on 27 or 28 October: ARCHIVE-ENGINE (an mcp-m365 last-touched clock from `lastModifiedDateTime`, filing from Outlook `Archive` into `_ARCHIVE` by a lasting last-working-folder record, unread-guard gaps and per-folder overdue counts), its ACTION-DONE extension (re-route archived action-folder mail into the matching `_ARCHIVE` mirror, unplaceable items to 000 Unknown), GMAIL-CLOCK (`historyId` and `internalDate` reads, a checkpoint log and a 14-day comparison in mcp-gsuite) and SENT-PASS (a sent-items pass, deleting confirmed meeting responses after 7 days, and per-item forward matches in the aged log, with tests; reply to hnr.email-routing when landed). The full lines are in [messages.md at 17f30843](https://github.com/knowledgeislands/ki-principal/blob/17f30843/+/_WORK/ki.sop.main/messages.md). No work owns the MCP server repositories: the parked MAIL-MCP-HOME asks the same question for eleven mail records, which the 27 October roadmap sweep has since moved to ideas in mcp-m365 and mcp-gsuite.
+**Context:** HNR > Email routing (hnr.email-routing) sent four asks for the mail MCP servers, each decided by Kris on 27 or 28 October: ARCHIVE-ENGINE (an mcp-m365 last-touched clock from `lastModifiedDateTime`, filing from Outlook `Archive` into `_ARCHIVE` by a lasting last-working-folder record, unread-guard gaps and per-folder overdue counts), its ACTION-DONE extension (re-route archived action-folder mail into the matching `_ARCHIVE` mirror, unplaceable items to 000 Unknown), GMAIL-CLOCK (`historyId` and `internalDate` reads, a checkpoint log and a 14-day comparison in mcp-gsuite) and SENT-PASS (a sent-items pass, deleting confirmed meeting responses after 7 days, and per-item forward matches in the aged log, with tests; reply to hnr.email-routing when landed). A fifth, low-priority ask arrived on 31 October under Kris's CORR-GUARD-ASK a): a "reply sent" check in mcp-m365's aged routing, so an aged rule can skip a conversation Kris has not replied to; until it exists HNR keeps correspondence folders 231, 261 and 263 out of the 14-day archive, and it wants a reply in hnr.reg.email-routing's `messages.md` when it lands. The full lines are in [messages.md at 17f30843](https://github.com/knowledgeislands/ki-principal/blob/17f30843/+/_WORK/ki.sop.main/messages.md). No work owns the MCP server repositories: the parked MAIL-MCP-HOME asks the same question for eleven mail records, which the 27 October roadmap sweep has since moved to ideas in mcp-m365 and mcp-gsuite.
 
-**Query:** Should these four asks go to whichever work you name under MAIL-MCP-HOME?
+**Query:** Should these five asks go to whichever work you name under MAIL-MCP-HOME?
 
 **Options:**
 
-a) (recommended, confidence high - they share MAIL-MCP-HOME's owner gap, and one decision homes both) Settle MAIL-MCP-HOME now; State of play sends the four asks to the chosen work as its first messages.
+a) (recommended, confidence high - they share MAIL-MCP-HOME's owner gap, and one decision homes both) Settle MAIL-MCP-HOME now; State of play sends the five asks to the chosen work as its first messages.
 
 b) Send them to ki.prj.tools-burndown now, widening it to the MCP servers for these asks only.
 
 c) Send them to ki.reg.main as ad hoc work, leaving MAIL-MCP-HOME parked.
+
+### STOA-HOME - open a Stoa Project in Knowledge Islands
+
+**Context:** On 31 October HNR's State of play wrote that you chose to split HNR's portal-framework work: the Stoa part moves to Knowledge Islands, which already owns the `knowledgeislands/packages-stoa` repository, and HNR keeps the humansnotrobots.be platform. HNR asks Knowledge Islands to open a Stoa Project, for example `ki.prj.stoa`, covering Stoa releases, the lines telling consuming sites to re-copy Stoa, and DIAGRAM-ROLLOUT: moving the interactive diagram overlay used in 5G Emerge Phase 2 and 3 into Stoa as an optional part. HNR wants the package id back in hnr.sop.sites' `messages.md`. Earlier STOA-ICONS lines were routed on 30 October to whichever work owns packages-stoa; no Knowledge Islands work owns it today. Five Project threads are already open (ways of working, Mac Studio setup, Observatory, chezmoi, Orca evaluation), and on 30 October you called the cap guidance rather than a limit.
+
+**Query:** Should State of play register a Stoa Project and seed its package on hold, ready for you to open?
+
+**Options:**
+
+a) (recommended, confidence high - it follows your own split decision, and seeding on hold opens no thread and starts no work) A run registers the Stoa Project, seeds `ki.prj.stoa` on hold until you open it, queues HNR's asks and the earlier STOA-ICONS lines as its first messages, and replies to hnr.sop.sites with the id.
+
+b) Register and open it now as a sixth active Project thread.
+
+c) Leave Stoa without a Knowledge Islands home for now and tell HNR so.
 
 ### ACCESS-ADMINS-ROUTE - send the Access admins pattern to other territories
 
