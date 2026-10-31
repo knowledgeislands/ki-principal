@@ -2,6 +2,20 @@
 
 ## Open
 
+### SYNC-SNAPSHOT-ADOPT - Make the snapshot method how every host-sync pass works
+
+since 2026-10-31 · from personal.reg.rig-terra (SYNC-SNAPSHOT-FINDINGS)
+
+**Context:** You asked terra's Rig thread for a way to sync even when checkouts have unfinished, uncommitted work. Its prototype takes the last commit as a snapshot, merges in what's on GitHub in a separate scratch copy, pushes that by name with a race guard (never forced), then moves the live branch forward, leaving uncommitted files alone. It passed all 14 throwaway test cases: unfinished work was kept, clashes and hook refusals stopped for judgement, and races were retried. It needs no Git setting changes. Report: personal-principal `+/_WORK/personal.reg.rig-terra/sync-snapshot.report.md`.
+
+**Query:** Should both Rig sync threads use this snapshot method for every pass?
+
+**Options:**
+
+a) (recommended, confidence medium - it solves the "dirty checkout blocks sync" problem you raised and passed its tests, but only on throwaway repositories so far) Adopt it on both Macs, starting with one supervised pass on a real repository on each.
+
+b) Keep plain fast-forward passes for now, and come back to the snapshot method after a longer trial.
+
 ### DISCUSSIONS - How far to take "discussion points" in place of "queries"
 
 since 2026-10-31 · from run/discussions-design
