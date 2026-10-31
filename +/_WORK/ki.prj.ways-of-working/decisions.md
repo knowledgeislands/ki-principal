@@ -945,3 +945,12 @@ Kris, in this thread: "When we go through open queries interactively, ask exactl
 This refines INTERACTIVE-QUERIES, which landed as harness `0af7ab73`. Run `query-turns` amends the standard and the generated surfaces to match exactly, and updates the queued ki.prj.chezmoi line. It applies to this thread from now, starting with HOLD-SCOPE as query 1 of 17.
 
 - 31 October 2026, 12:09 GMT: the QUERY-TURNS line also arrived in `messages.md`. It is the same rule Kris gave in the thread, so it is received with the entry above and removed.
+
+## INBOX-WATCH (31 October 2026, 12:18 GMT)
+
+Kris, in this thread: "because you're the only thing that's working, and I think most things are sending messages to you ... it's important for you to keep your stuff in sync whilst we're doing this. So that probably means periodically checking to see if you've got any new messages and acting on those. That's maybe a more general thing about ways of working ... an active coordination thread may well have a scheduled kind of wake up to see if there's any new work for it? I don't know if Orca supports that natively, or if that's something that we need to put into our skills ... could be different by each orchestration platform."
+
+Taken as two parts:
+
+1. **Now, for this thread.** Keep a detached inbox watcher armed even while the work is with Kris. It fetches every two minutes and wakes this session when `messages.md` changes on `origin/main`, or after 15 minutes. At each wake it syncs, acts on new lines in queue order, and re-arms. This lasts while this thread is open, and "stop the wake" stops it.
+2. **In general.** Run `inbox-wake-design` studies what each orchestration platform offers natively for waking an idle coordinator on new work: Orca's mailbox, `orchestration check --wait` and automations; Claude Code's background tasks, `/loop` and scheduled wakeups; Codex; and Paperclip. It proposes how `ki-coordination` and the per-platform delegation adapters express it, in line with WAKE-SESSION and WAKE-DURABLE, already decided, and WAKE-HOST, still open. Design only; it raises queries.
