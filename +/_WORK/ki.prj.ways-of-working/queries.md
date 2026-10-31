@@ -226,6 +226,24 @@ b) Propose an Enactment change to the Techne Programme Focus admitting the headl
 
 c) No host for now: session wakes only, until a work needs a durable wake and names its host in its own decision.
 
+### HOOK-STASH - Does a commit hook's own backup stash break the "never stash" rule?
+
+since 2026-10-30 · returned by ki.prj.mac-studio-setup through State of play as a cross-cutting delegation-rule question; shaped by run/w-U7 in window AWAY-31-OCT · high after the blind review of 31 October; no rule changed
+
+**Context:** Sessions and background runs share one checkout of each repository, often several at once, each committing only its own files. To protect one another's uncommitted work, the delegation standard and the coordinator style say never rebase, reset or stash a shared checkout. Every canonical pre-commit hook, kept by eight `ki-repo-*` skills in the harness, runs `lint-staged --quiet`. By default lint-staged 17.6.0 first records a backup as a stash entry without touching the files, and drops it after a successful commit. If a formatter fails, it resets the whole checkout to the last commit and puts the backup back, so another session's edit made in the seconds between backup and restore is lost. A hook killed part-way leaves the stash entry behind for the Git hygiene audit to report. `lint-staged --no-stash` makes no backup and no reset: on failure the commit simply stops and formatter changes stay for the committer to look at. It still briefly hides the unstaged parts of a file that is only partly staged, which is a smaller version of the same risk. A run on 30 October could not publish a report-only commit because its brief forbade stashing; Kris allowed that one commit as "a bounded exception, not a general change to the no-stash rule".
+
+**Query:** Should the "never stash" rule cover the backup stash that lint-staged makes inside our pre-commit hooks?
+
+**Blind review (31 October, Codex, high effort):** agrees with a) at high confidence, from the installed lint-staged source: the failure path resets the whole checkout whoever started it, so exempting the hook would exempt exactly what the rule guards against. It adds that `--no-stash` does not make concurrent commits fully safe, because hiding partly staged files still rewrites working files, so commits should keep to isolated worktrees or a short exclusive window, failure and partial-staging behaviour should be tested before rollout, and losing automatic rollback should be stated. It also found ki-principal's installed hook differs from the harness asset, which is a separate conformance matter.
+
+**Options:**
+
+a) (recommended, confidence high - reviewed: the risk is the hook's reset of the whole checkout on failure, which only removing the backup takes away, and the reviewer reached the same course independently from the source) Keep the rule absolute, hooks included: change every canonical pre-commit asset to `lint-staged --quiet --no-stash` and roll it out through each repository's normal conformance route, after testing failure, interruption and partly staged files; a leftover `lint-staged automatic backup` entry is reported, never dropped.
+
+b) Read the rule as covering only stashes a session runs itself, so the hook's backup is outside it, and say so in one sentence in the delegation standard and the coordinator style; hooks stay as they are.
+
+c) Leave both the rule and the hooks as they are, and have background runs stop before committing in any repository whose hook stashes, leaving the commit to the coordinator.
+
 ## Answered
 
 - ORCA-REACH - answered a) on 30 October 2026, follow-up due 6 November 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
