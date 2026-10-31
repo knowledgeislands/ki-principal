@@ -7,7 +7,7 @@ theme: foundations
 lifecycle: active
 lead: Kris Brown
 target: null
-updated: 2026-10-19T23:16:23Z
+updated: 2026-10-31T07:25:00Z
 author: Written with Claude
 ---
 
@@ -44,6 +44,7 @@ They are ideas, not records: under CAPTURE-ONLY Kris asked for capture now and a
 
 - **MGIT-ESCAPE** (Kris, 17 October 2026 intake, [ki decisions log](../../+/_WORK/ki.sop.main/decisions.md)): an escape hatch from mgit's own commands, which override the git pass-through - "Git has got work tree. We've got mgit work tree, so it'd be nice to have an escape hatch". `--bare` runs the git subcommand in each child, bypassing mgit's command; `--raw` runs any command as a shell in each repository directory; mind clashes with the physical and follow-symlinks options.
 - **MGIT-OUTPUT** (Kris, 17 October 2026 intake, [ki decisions log](../../+/_WORK/ki.sop.main/decisions.md)): "I really want MGIT to have much better output" - a progress bar across the estate, then results at the end listing only the repositories that changed; try it first on `sync`, where a pull that hits a rebase or merge warning aborts automatically and warns instead; perhaps with code behind it, as with the Git Almanac.
+- **TOOLS-NATIVE** (Kris, 31 October 2026, in conversation): investigate writing KI command-line tools as compiled single binaries in Rust or Zig, in the way of the modern replacements eza, ripgrep, fd, bat, uv and ruff - "it's time to make something more than they are", and it "should be a piece of investigation", not discounted. mgit is the first candidate: about 5,000 lines of Bash in one file, doing TOML parsing, a parallel worker pool, JSON output and NUL-separated transport, against an `AGENTS.md` that today forbids anything but Bash; its bats suite and numbered specs could serve as the acceptance check for a port. The investigation should set an approach for tooling overall, which the `ki-engineering` and `ki-repo-tools` standards would carry, and weigh Rust and Zig against the Bun-compiled TypeScript that `ki` and `techne` use: language maturity, binary size and start-up, cross-platform builds, signed releases and Rig installation. Moving `ki` or `techne` is not in view yet, and Rig stays Bash because it bootstraps a machine with nothing but the system shell.
 
 ### History
 
