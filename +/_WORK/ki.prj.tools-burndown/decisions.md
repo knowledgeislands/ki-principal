@@ -107,3 +107,7 @@ Taken as: recordki, yorkmsg, kidesign and hooktests stopped before they started,
 ## 2026-10-29 01:16 GMT - tidy-round2 disposition
 
 Operational: State of play's TIDY lines of 25 and 29 October received under BASELINE-CLEAN (Kris, 28 October); the 25 October line's FOLDER-2 report and FOLDER-3 brief are already gone, so it is disposed as superseded. RECORD-2: the 29 October RUNHOME-RENAME line had three tags in its tag slot; it now carries RUNHOME-RENAME with HOME-STORE and CLOSE-COLLISION named in its text, wording otherwise unchanged. LIFECYCLE-3: long message lines are other senders' instructions, a Next steps line. WOW-TIDY-NIGHT and WORK-TIDY are other senders' lines and stay queued. Both TIDY lines removed.
+
+## 2026-10-31 - ORCA-ENV-LEAK disposition
+
+Operational: the IMPORTANT ORCA-ENV-LEAK line of 30 October, under Kris's ORCA-SUBAGENTS words of 30 October 2026 and released under HOLD-SCOPE on 31 October ("Release it, one fix at a time"), is done by window unit U2, run b-U2: tools-ki `2970714c` strips the four Orca session variables from runtime children and keeps them for the dispatcher, with a boundary test for both runtimes; full suite, type check and Biome passed. The line is removed from the queue. Part B, Orca placement, stays with ki.prj.ways-of-working until its pilot.
