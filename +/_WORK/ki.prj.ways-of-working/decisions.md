@@ -1030,3 +1030,8 @@ Run `host-reconcile-plan` writes a one-page plain-English plan and the drafted r
   2. Then one sweep renames every live package, once host sync has both Macs level, to avoid conflicts.
 
   Delivery is queued after the current runs, under WIP-LIMIT.
+- 31 October 2026, 13:33 GMT: **CARD-PATTERN settled** by the test loop (APPLE to GRAPE, with Kris's screenshots). Kris: "Yes, use this pattern".
+  - Orca folds every part of a reply under "Worked for" except its last text, and it doesn't show text written after a card's answer within the same reply.
+  - So each query takes two replies. In the first, start a short background timer (about 5 seconds), then write the read-back of the previous answer and the next query's context (counter, heading, Where things stand) as the reply's last text.
+  - The timer's completion wakes a new reply, which shows only the card: a one-line title, labelled options, the recommended one first with its confidence, and descriptions carrying the "Why:".
+  - Kris sends nothing between questions.
