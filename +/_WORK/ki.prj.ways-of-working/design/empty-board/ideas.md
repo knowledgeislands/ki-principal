@@ -400,3 +400,4 @@ Work packages paused until a named release. While held, everything they carry (n
 - **HNR-GUIDANCE** -
 - **THEME-REGISTRY** -
 - **PRE-REBASE-REF** -
+- EXTERNAL-SWEEPS (31 October 2026, from personal.reg.tower): how regular activities that pull information from external sources (such as the weekly Tower guide sweep, PERSONAL-TOWER-HK-001) should be handled. Kris: "I don't think we need to solve it now."
