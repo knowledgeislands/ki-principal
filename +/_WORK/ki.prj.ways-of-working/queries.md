@@ -530,17 +530,17 @@ c) Leave them all as they are.
 
 ### RENAME-NAME - Should new sessions also start with the 🧵 name?
 
-since 2026-10-31 · from run/footer-rename · blind review running
+since 2026-10-31 · from run/footer-rename · blind review 31 October 23:31 GMT agrees
 
-**Context:** Under RENAME-THREAD-FORM on 31 October 2026 you said: "we name them like: `🧵 personal.reg.rig-terra`". The rename line that bootstrap and re-bootstrap reports carry now uses that form. In Claude Code, though, the opener that `ki agent prompts` prints still starts the session as `claude --name "<label> (<id>)"`, for example "Ways of working (ki.prj.ways-of-working)". The standard still describes it that way, and that half belongs to `tools-ki`. So a session opened from its opener gets one name, and the rename line asks for another.
+**Context:** Under RENAME-THREAD-FORM on 31 October 2026 you said: "we name them like: `🧵 personal.reg.rig-terra`". The re-bootstrap rename line now uses that form, but the standard's opener still starts a Claude Code session as `claude --name "<label> (<id>)"`, and its Work naming rule still gives native sessions the label-and-id name. A blind review checked the code: `ki agent prompts` in tools-ki prints the opener text but no launch command yet, so the standard describes a command the tool doesn't print. The label stays visible in the opener and the report heading either way.
 
-**Query:** Should the opener's starting name also become `🧵 <work-id>`, so that both ways of naming a thread give the same result?
+**Query:** Should a session opened from its opener also start with the `🧵 <work-id>` name?
 
 **Options:**
 
-a) (recommended, confidence medium - it follows your stated naming but reaches beyond this brief's wording and into tools-ki) Yes. Change the standard's opener sentence to `claude --name "🧵 <work-id>"` and send `tools-ki` a message to change the launch command to match.
+a) (recommended, confidence high - reviewed; one stable name means no rename straight after launch and the session matches its reports) Yes: change the standard's opener sentence and its Work naming rule to `🧵 <work-id>`, and send tools-ki one message line asking for a matching launch command.
 
-b) No. Keep the opener's `<label> (<id>)` start name and use the 🧵 form only for the rename line.
+b) No: keep `<label> (<id>)` as the starting name and use the 🧵 form only for the rename line.
 
 ## Answered
 
