@@ -208,6 +208,156 @@ a) (recommended, confidence high - reviewed; one named group deletion stays revi
 
 b) No: keep file-by-file deletion inside groups.
 
+### INBOX-ARMED - Keep the inbox watcher armed whenever a coordinating thread is open
+
+since 2026-10-31 · from run/inbox-wake-design · [design](design/inbox-wake/design.md)
+
+**Context:** Today the standard arms a background check only while runs are going; with Kris, nothing wakes the thread, so `messages.md` lines wait. Kris asked on 31 October for a watcher that stays armed while the work is with Kris, and this thread already runs one by hand. The watcher is a shell loop inside the open session, so it costs no model time until something changes and is not a scheduled agent.
+
+**Query:** Should the inbox watcher stay armed whenever a coordinating thread is open?
+
+**Options:**
+
+a) (recommended, confidence high - it is what Kris asked for, every platform can at least run the shell part, and it is undone by deleting one rule) Arm it whenever the thread is open: amend `ki-coordination` with the Inbox watch rule in Proposal 1 of the design; stopped by "stop the wake", a hold, Finished or the session ending.
+
+b) Only while runs are going: keep today's rule and leave this thread's watcher as a one-off.
+
+c) Only on request: arm it in a thread only when Kris asks, as for this thread.
+
+### INBOX-CADENCE - How often the watcher looks and when it wakes the thread
+
+since 2026-10-31 · from run/inbox-wake-design · [design](design/inbox-wake/design.md)
+
+**Context:** Kris's figures for this thread: look every two minutes, wake on a change, otherwise wake after fifteen minutes. The fifteen minutes matches the rule to sync at least every fifteen minutes, so one wake serves both. While runs are going, the existing five-minute heartbeat stays as it is.
+
+**Query:** How often should the watcher look, and when should it wake the thread?
+
+**Options:**
+
+a) (recommended, confidence high - Kris's own numbers, aligned with the sync rule, and the model speaks only when something happened) Two-minute look, wake on change, else fifteen minutes (five while runs go), silent re-arm when nothing changed, as in Proposal 1 of the design.
+
+b) Same, but a longer quiet bound of 30 or 60 minutes: fewer empty wakes, but the fifteen-minute sync then needs its own trigger.
+
+c) Same, but say a one-line "nothing new" at each quiet wake: more visible, at the cost of noise in Kris's thread.
+
+### INBOX-VERB - Put the watcher in one shared shell command in tools-ki
+
+since 2026-10-31 · from run/inbox-wake-design · [design](design/inbox-wake/design.md)
+
+**Context:** Every platform needs the same watching; only how its exit reaches the session differs. Nothing in `ki agent` or `ki work` watches `messages.md` today; until something does, each coordinator writes the loop by hand. The verb would belong to tools-ki, so this work could only ask for it by a `messages.md` line; the owning work decides how and when.
+
+**Query:** Should the watcher become one shared shell command in tools-ki?
+
+**Options:**
+
+a) (recommended, confidence medium - the shape is clear, but the name and home inside `ki` are a tools-ki choice and nothing was prototyped) Ask for a read-only `ki work watch` verb: send one `messages.md` line to the work that owns tools-ki describing Proposal 2's verb; the `ki-coordination` surfaces carry the hand-written loop until it ships.
+
+b) Keep the loop as a documented snippet only: no tooling change; each runtime binding carries the loop.
+
+c) Extend `ki agent wait` instead: add `--timeout` and `--inbox <work id>` to the existing waiter.
+
+### CODEX-WAKE - Prove Codex's queue as its wake before relying on it
+
+since 2026-10-31 · from run/inbox-wake-design · [design](design/inbox-wake/design.md)
+
+**Context:** Codex has no documented way for a background command to wake an open session. Codex 0.166.0 has `codex queue --thread <id> --message <text> --resume`, which may let an outside watcher wake a thread; nothing was run to prove it. WAKE-SESSION already says each runtime's wake must be proved before anyone relies on it.
+
+**Query:** How should a Codex coordinating thread get its inbox wake?
+
+**Options:**
+
+a) (recommended, confidence medium - the command is documented locally but its effect on an open terminal thread is unknown) Prove it in one attended trial, and until then say plainly that a Codex coordinator checks the inbox only when Kris writes or a run event arrives: a bounded run tests it with Kris watching, on a scratch thread.
+
+b) Treat Codex as having no inbox wake and coordinate waiting threads from Claude Code only.
+
+c) Adopt `codex queue --resume` now as Codex's wake, proving it in use.
+
+### SENDER-NUDGE - Should a sender also nudge the receiving thread?
+
+since 2026-10-31 · from run/inbox-wake-design · [design](design/inbox-wake/design.md)
+
+**Context:** The receiver's watcher sees a new line within about two minutes of the push, on any host. Orca's mailbox nudge is "best-effort attention only" by Orca's own words, reaches only a coordinator bound to an Orca Run, and needs the receiver's machine-local routing record, so a sender on another host cannot use it. ORCA-ROUTING already settled that an Orca send is only a wake, never the message.
+
+**Query:** Should a sender also nudge the receiving thread after writing its `messages.md` line?
+
+**Options:**
+
+a) (recommended, confidence medium - the gain is two minutes at most, but whether the Orca wake works is untested) No nudge now; revisit after ORCA-SUBAGENT-PILOT shows whether the mailbox wakes an Orca chat: senders write and push their line, nothing more.
+
+b) Optional same-host Orca nudge now: where the receiver has a verified routing record on this host, the sender adds a pointer-only `orchestration send` after its push.
+
+c) Required nudge wherever the platform allows: every sender nudges when it can.
+
+### ACQ-TEXT-RECHECK - Recheck the skill once Acquire publishes its decisions
+
+since 2026-10-31 · from run/capture-skill
+
+**Context:** The brief makes Acquire's own text the authority (ACQ020-OWNER). However, the decisions and the run that aligns Acquire's README, AGENTS and CAPTURE (`acq020-entry`) have not yet reached Acquire's remote. So the skill was aligned to the relayed wording rather than to Acquire's own text. Small differences are possible, for example in exactly when a README note "will do" instead of `original.txt`.
+
+**Query:** Should the skill be checked against Acquire's own text once it is published?
+
+**Options:**
+
+a) (recommended, confidence high - it closes the only gap between the authority and the source I could read, at the cost of one short run) Once Acquire publishes its decisions and its entry-point changes, a short run compares them with the `ki-acquire` standard and corrects any wording that differs.
+
+b) Treat the relayed wording as final and do no recheck.
+
+### HOLDING-SCOPE - Does "nothing migrates out" cover the knowledge cards too?
+
+since 2026-10-31 · from run/capture-skill
+
+**Context:** GOAL-HOLDING-AREA makes Acquire a holding area for now: "nothing migrates out". The new wording says that neither captures nor cards leave Acquire, and that dispatch is on hold. The relayed decisions don't say outright whether the curated cards in `knowledge/` must also stay, or whether they may be reconciled into a Capital's graph.
+
+**Query:** Does the holding rule keep the curated cards in Acquire as well as the captures?
+
+**Options:**
+
+a) (recommended, confidence medium - "nothing migrates out" reads as covering everything, but the decision text itself could not be read) Yes: cards and captures both stay in Acquire until Kris lifts the holding area. This is how the skill reads now.
+
+b) No: only captures are held. Cards may be reconciled into their owning Capital's graph whenever they are ready, and the skill should say so.
+
+### IDEAS-ROADMAP-STANDARD - Change where the roadmap standard sends ideas
+
+since 2026-10-31 · from run/capture-skill
+
+**Context:** IDEAS-IN-GRAPH says future ideas live in the knowledge graph as future concepts, not on the roadmap. The `ki-work-roadmap` standard ([Ideas and graduation](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-work-roadmap/references/standards-repository-roadmaps.md#ideas-and-graduation)) already keeps ideas out of the record queue. It sends concepts to a Capital's Emerging Concepts note. Other ideas go to `Idea:` bullets in Project or theme notes, or to `_IDEAS.md` beside the roadmap. Where every idea finally lives is IDEAS-HOME, which is still open in the [empty-board design](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/empty-board/design.md). I changed only the capture skill.
+
+**Query:** Should the roadmap standard's ideas section change now, or wait for IDEAS-HOME?
+
+**Options:**
+
+a) (recommended, confidence medium - changing it now would settle IDEAS-HOME early, and the current text already keeps ideas off the record queue) Leave the roadmap standard as it is. Carry IDEAS-IN-GRAPH into IDEAS-HOME and change the standard once Kris settles that.
+
+b) Change it now so that every future idea is a future concept in the graph, and retire `Idea:` bullets and `_IDEAS.md`.
+
+### ACQUISITION-PROCESS-NOTE - Bring the Acquisition Process note into line
+
+since 2026-10-31 · from run/capture-skill
+
+**Context:** The skill's sources name the [Acquisition Process](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md>) note in Knowledge Islands Principal as the owner of the long-term lifecycle. That note still describes dispatch to each principal followed by Acquire removing its copy. It has no staging graph, no holding area and no item-by-item curation. It is canonical content, so changing it goes through the Enactment Process, and it was outside this run's scope.
+
+**Query:** Should the Acquisition Process note be revised to match the 31 October decisions?
+
+**Options:**
+
+a) (recommended, confidence medium - the note now contradicts the skill, but Acquire's text should be settled first so the note isn't revised twice) After ACQ-TEXT-RECHECK, a bounded run drafts the revision under Ways of working for Kris's approval through the Enactment Process.
+
+b) Leave the note until the holding area is lifted, and add one line saying that dispatch is currently on hold.
+
+### CAPTURE-MODEL-SETTLED - Mark the choices the decisions have already settled
+
+since 2026-10-31 · from run/capture-skill
+
+**Context:** The capture-model brief that U12 wrote, [brief](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/capture-model/brief.md), puts seven choices to Kris. The 30 October decision on lean captures largely answers LEAN-CAPTURE. IDEAS-IN-GRAPH bears on IDEA-ROUTE. GOAL-HOLDING-AREA changes OPEN-ITEMS, whose recommended option has a closed item dispatch "as today". The brief has not yet had its blind reviews.
+
+**Query:** Should the capture-model brief be updated to reflect these decisions before its reviews?
+
+**Options:**
+
+a) (recommended, confidence high - reviewers would otherwise test options that Kris has already decided) Before the reviews, a short run marks LEAN-CAPTURE as settled. It also records IDEAS-IN-GRAPH and the holding area against IDEA-ROUTE and OPEN-ITEMS, and leaves the other choices open.
+
+b) Leave the brief as it is and let the reviews and the merged report pick up the decisions.
+
 ### WAKE-HOST - Where the headless coordinator pass may run
 
 since 2026-10-30 · from run/landscape, split from WAKE · merged in [landscape-report](design/landscape-report.md)
