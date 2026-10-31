@@ -512,21 +512,33 @@ a) (recommended, confidence high - review only; nothing is deleted until the coo
 
 b) Keep the design folder as it is until the Project's close-out.
 
-### BROKEN-LINKS - 66 old links point at files that no longer exist
+### BROKEN-LINKS-LIVE - Repair the broken links in the files still in use
 
-since 2026-10-31 · from run/wow-tidy-move
+since 2026-10-31 · from run/wow-tidy-move · split after blind review 31 October 23:34 GMT; both this work and the review agree on this part
 
-**Context:** After the repoint, 66 absolute links in the decisions log, the queries file, the work file and the design notes point at files that no longer exist. None of them was broken by the move. Earlier renames and prunes left them behind: old package ids such as `ki.ways-of-working`, pruned roadmap records such as KI-HARNESS-GOV-176, retired standards and the removed `personal/acquire` checkout. Most sit in historical decision entries and design notes.
+**Context:** After the move, 66 links in this work package point at files that no longer exist, all left by earlier renames and prunes, not by the move. Some sit in files still in use: `work.md`, `state.md`, `queries.md`, and design notes that live work still depends on, such as `design/design.md`, which has two links to a retired coordination standard. The standard requires every link to resolve, linking a pruned record at its last revision on GitHub, and never inventing a link.
 
-**Query:** Should these links be repointed to the revision where each file last existed, or to its current home?
+**Query:** Should a bounded run repair the broken links in the files still in use?
 
 **Options:**
 
-a) (recommended, confidence medium - the standard asks for pruned records to be linked at their last revision, but repointing about 300 lines of history is churn with little reading value) Fold this into the UNLOGGED-QUERIES run. Repoint links in the live files (`work.md`, `state.md` and `queries.md`) to the current package ids, or to last-revision GitHub links for pruned records, and leave historical decision entries and design notes as they are.
+a) (recommended, confidence high - reviewed; both this work and the review want current navigation repaired, and the standard requires it) Yes, as part of the UNLOGGED-QUERIES run: check each target and heading, use the current path for a proven rename and the last-revision GitHub link for a pruned record, and name any source that can't be recovered rather than guess.
 
-b) Repoint all 66 everywhere, the history included.
+b) No: leave them until the Project closes.
 
-c) Leave them all as they are.
+### BROKEN-LINKS-HISTORY - Repair broken links in old decision entries and design notes too?
+
+since 2026-10-31 · from run/wow-tidy-move · split after blind review 31 October 23:34 GMT; the review differs from this work
+
+**Context:** Most of the 66 broken links sit in old entries in the decisions log and in design notes kept as history. Repairing them restores access to the evidence; the risk is changing what the history meant, for example by pointing an old citation at today's version of a rule that has since changed. The standard gives no exemption for historical links.
+
+**Query:** Should the historical links be repaired as well?
+
+**Options:**
+
+a) (recommended, confidence medium - the blind review's view: the standard gives no exemption and broken history hides evidence, but not every replacement has been checked; this work's earlier view was that it is churn with little reading value) Yes: repair them too, linking each to the revision it originally meant, never to a later version, keeping your quoted words unchanged and naming any source that can't be recovered.
+
+b) No: leave historical entries and design notes as they are, so only the files in use are repaired.
 
 ### RENAME-NAME - Should new sessions also start with the 🧵 name?
 
