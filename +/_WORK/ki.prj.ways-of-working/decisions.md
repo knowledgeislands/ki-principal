@@ -1035,3 +1035,8 @@ Run `host-reconcile-plan` writes a one-page plain-English plan and the drafted r
   - So each query takes two replies. In the first, start a short background timer (about 5 seconds), then write the read-back of the previous answer and the next query's context (counter, heading, Where things stand) as the reply's last text.
   - The timer's completion wakes a new reply, which shows only the card: a one-line title, labelled options, the recommended one first with its confidence, and descriptions carrying the "Why:".
   - Kris sends nothing between questions.
+- 31 October 2026, 13:39 GMT: Kris: "what we've got now effectively is this way of working, being continuously refreshed so that it's receiving messages. I think fundamentally any of the coordination [threads] can be set up in this mode, but we've got to expressly ask them to be. And then secondarily ... the personal.reg.rig-<hostname> ones, which run on a regular basis doing this. When they're doing that ... we can also tell them that they don't need to give us a massive update." Taken as two decisions:
+  - **LISTEN-OPT-IN.** A coordinating thread listens, keeping the inbox watcher armed, only when Kris expressly asks it to. Otherwise its banner says it isn't listening. This narrows LISTEN-STATUS, which made listening the default. This thread is opted in.
+  - **SYNC-QUIET.** On a sync pass, the Rig host threads say nothing when nothing changed, and give at most one short line when something did. They speak up fully only for something that needs judgement or Kris.
+
+  Run `listen-opt-in` amends `ki-coordination` and sends SYNC-QUIET to both Rig threads.
