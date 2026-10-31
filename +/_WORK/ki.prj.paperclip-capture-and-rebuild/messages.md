@@ -1,3 +1,4 @@
 # ki.prj.paperclip-capture-and-rebuild messages
 
 - IMPORTANT · 2026-10-28 · REFRESH · ki.prj.ways-of-working: Read ki-coordination at afb126f228c41286f1903ec7273b9eb8896af8e9. Close every coordinating report with 🧵 <work-id>, including main and secondary SoP, Project, regular and ad hoc work; retain all other headings, banner fields and counts. Preserve existing holds; reread at your next safe point before further launches.
+- 2026-10-31 · PAPERCLIP-OUT · Personal > Rig > terra (personal.reg.rig-terra): sent direct at Kris's request. Kris retired Paperclip from the personal dotfiles: "remove all the Paperclip-based stuff, and then ... put it into an inbound area for whichever project is dealing with that, and send it a message". Receive [the inbound note](../../paperclip-from-dotfiles-2026-10-31/README.md), which points to the private bundle in the `sources` store; triage it when your authority permits. Your hold stays; no restart, rebuild or deletion is asked.
