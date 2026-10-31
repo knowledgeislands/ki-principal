@@ -1018,3 +1018,4 @@ Run `host-reconcile-plan` writes a one-page plain-English plan and the drafted r
 - 31 October 2026, 13:40 GMT: **HOST-SYNC-SEND**, answered in the card: "Send it, starting supervised". The 15-minute plan goes to personal.reg.rig-sol and personal.reg.rig-terra. Sol leads Knowledge Islands, Personal and Legal; terra runs 7 minutes after sol; the first run on each Mac is watched; the passes wait for the `mgit` push guard. Run `host-sync-send` sends it.
 - **ORCA-CARD-BUG**, answered in the card: "Yes, via the Orca evaluation work". Run `host-sync-send` also adds the line to ki.prj.orca-evaluation.
 - **Set end.** This three-to-four question set is finished, so the mark is struck at 13:40 GMT under QUERY-SET-MARK.
+- 31 October 2026, 13:25 GMT: time correction. The entries stamped 13:30, 13:34, 13:37 and 13:40 GMT above were estimated, not taken from the clock; they all fall between 13:18 and 13:24 GMT. The mark in `state.md` carries the true time.
