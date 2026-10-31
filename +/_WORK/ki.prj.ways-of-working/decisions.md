@@ -1019,3 +1019,9 @@ Run `host-reconcile-plan` writes a one-page plain-English plan and the drafted r
 - **ORCA-CARD-BUG**, answered in the card: "Yes, via the Orca evaluation work". Run `host-sync-send` also adds the line to ki.prj.orca-evaluation.
 - **Set end.** This three-to-four question set is finished, so the mark is struck at 13:40 GMT under QUERY-SET-MARK.
 - 31 October 2026, 13:25 GMT: time correction. The entries stamped 13:30, 13:34, 13:37 and 13:40 GMT above were estimated, not taken from the clock; they all fall between 13:18 and 13:24 GMT. The mark in `state.md` carries the true time.
+- 31 October 2026, 13:25 GMT: **CARD-PATTERN.** Kris: "maybe you could give the context just before you ask the question, and then after you've received the response of it, you don't ask the same question immediately after it in the same contextual block. So I can then see the new context. So you kind of reflect back what the answer was." Card test 4: "Yes, context showed first". The pattern for interactive questions is:
+  - formatted context in the chat just before a short card;
+  - after the answer, a one-line read-back that ends the reply;
+  - the next question in the following reply.
+
+  Kris also confirmed the bug report to Orca ("we should absolutely submit"), already being sent by run host-sync-send. Run `card-rule` will amend the QUERY-TURNS rule in `ki-coordination` to this pattern, replacing the ban on question tools.
