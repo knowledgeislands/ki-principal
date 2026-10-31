@@ -118,6 +118,8 @@ No other Differ is left open.
 | WAKE | One `wait` verb; durable wake deferred | Session a), high; durable not deferred, terra first, medium | Amend a): bounded wait proved per runtime; keep the headless-pass rollout, host permission separate; high | Split: WAKE-SESSION high; WAKE-DURABLE high; WAKE-HOST medium |
 | WORKTREE-OPTOUT | Read-only only; no trivial exception | Read-only high; no trivial opt-out once integrate ships, medium | a), high, reconcile exceptions before rollout | a), with the baseline taking effect when integrate ships; high |
 
+**Naming, decided:** the thread skill and output style keep their names, `ki-coordination` and `ki-coordinator`. This is ORCH-NAME-THREAD b), "Keep coordination", answered by Kris in the interactive prompt on 31 October 2026 ([decisions](../decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026)); it settles claim 8 and the thread half of homing row 9. The dispatch contract, its adapters and the command remain open under ORCH-NAME-DISPATCH.
+
 ## Homing table
 
 Updated from [the design's table](landscape.md#homing-table). Changed rows are marked **changed**, new rows **new**, a withdrawn row **withdrawn**. None of these homes is created by this run.
