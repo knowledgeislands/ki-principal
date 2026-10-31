@@ -16,6 +16,20 @@ a) (recommended, confidence high - attended sol evidence is the one missing fact
 
 b) Defer the probe; the record stays draft and sol's TOML hold remains.
 
+### RIG-ASKS - Two new Rig asks from terra
+
+since 2026-10-31 · from personal.reg.rig-terra messages GUIDE-FIELD and RIG-RETIRE-ONE
+
+**Context:** Two more Rig requests arrived on 31 October, both sent at Kris's own request. GUIDE-FIELD: Kris wants each tool's guide "managed in Rig as well"; Rig has no guide field and rejects unknown fields, so the proposal is an optional `guide` link on a tool, shown in Rig's tool description and kept off the public site unless separately agreed, first used for the chezmoi modern-tools guide (eza, fd, bat). RIG-RETIRE-ONE: retiring one switched-off service (Paperclip's leftover launch file on terra) today means reconciling all eight live services at once; the ask is a way to retire one stale resource on its own. The 19 October capture rule admits items Kris asked for, the same ground RIG-INTAKE's recommended option uses.
+
+**Query:** Should both be captured as unadopted tools-rig triage records alongside the RIG-INTAKE captures?
+
+**Options:**
+
+a) (recommended, confidence high - both are Kris's explicit asks, which the capture rule admits, and capture adopts nothing) Capture both as unadopted tools-rig triage records in the same run as the RIG-INTAKE captures, keeping each message's wording and provenance.
+
+b) Hold both as `_IDEAS.md` bullets in tools-rig until the roadmap burn-down allows new records.
+
 ### RIG-INTAKE - What happens to the nine retained Rig capability lines
 
 since 2026-10-30 · from rig-intake.report.md (per-line table there) · blind review intake-review agreed (high)

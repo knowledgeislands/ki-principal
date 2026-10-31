@@ -138,6 +138,20 @@ a) (recommended, confidence moderate - limits future retrieval while retaining h
 
 b) Explicitly accept continued availability for the exact historical payload in the assessment's fourteen-commit manifest, acknowledging its protected identity/activity context and residual exposure. State the permitted audience and bounded scope in your own disposition. This grants no new publication clearance, derivative publication, history operation or blanket approval of other material.
 
+### QUEUE - Sort the incoming message queue
+
+since 2026-10-30 · raised at re-bootstrap, not yet committed then
+
+**Context:** The work's incoming queue holds 35 lines, 7 marked important, the oldest from 20 October. They mix old notices that may already be settled (serving, VIS-030, roadmap audit, tidy), requests from other work that would each start new Observatory work (Acquire graph view, Claude account scores, host responsibility, diagram annotation, scheduled-job results, the opener button, agent hooks), the protected-publication hold and housekeeping (record sizes, naming rule, Access admins). Sorting them well takes judgement and reading in several repositories, so it belongs in a background run. The work is with you, so no run starts without your go. Sorting proposes what to do with each line; it starts no product work and adopts nothing.
+
+**Query:** Should a background run sort the queue and bring back a proposed disposition for each line?
+
+**Options:**
+
+a) (recommended, confidence high - it only reads and proposes, and nothing is decided or built without you) Launch one read-only run that checks each line against the repositories, marks the ones already settled for removal, groups the requests into proposed Observatory ideas, and brings each choice back to you as a query.
+
+b) Leave the queue as it is until you take up the Observatory again.
+
 ## Parked
 
 No unanswered choice has been selected. Council/consolidation order, Waiting/Review, Work's destination and Rig declaration versus observed-health scope are separate downstream design questions, gated by their preparation decisions above. HOST-MEANING is receiver-owned at Ways of working, not an additional decision requested here. ACCEPT remains closed in the [sourced receipt](decisions.md#2026-10-29---accept-closed).
