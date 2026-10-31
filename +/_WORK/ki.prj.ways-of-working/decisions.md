@@ -887,3 +887,16 @@ The grant:
     - Points (1) `wait --next` returning stale events and (2) Codex runs exiting without DONE go to run `lessons-apply`. It adds the short-output and early-report brief guidance to `ki-delegation`, which this work owns, and sends (1) to ki.prj.tools-burndown.
     - Point (3) is Kris's open question with Rig, not this work's, and is noted only.
   - **Received RESTART-SUGGEST-LANDED** (hnr.reg.email-routing, at Kris's RESTART-SUGGEST, 29 October), harness `28fdc492`, "for your review". Run `restart-review` reviews it against Kris's words; findings come to Kris, and nothing is reverted.
+
+## Owner answers during AWAY-31-OCT (01:36 GMT, 31 October 2026)
+
+Kris's words (speech to text): "anything which is not contentious [and doesn't] undo something which is significant therefore you've got a high confidence recommendation and if all agents agree in terms of the reviewing of that confidence that it's high then yes, I agree with it so 23 out of 25 potentially if they meet this criteria can be done ... publish website yes you can push it. You can make it live ... on the scope ... I think it's really just knowledge ... I want you to start using [plain] English in your queries and explanations ... good to have links to the work items ... reduce the amount of [work in] progress at any point in time ... I'd rather that we got through things as [serially] as possible with minimal parallelisation ... expect to get through individual things quickly ... the old [kanban] idea ... moving towards ultimately getting an empty [board] ... work packages reflect the active work, the [roadmap] reflects the upcoming active work and we can think about where ideas go. I'm happy for you to get it [consolidated] in a single place ... review that in the morning ... we need some kind of gated criteria ... How do we deal with lots and lots of ideas ... if there's anything in the structure which is conflicting as well, we need to flag that up as part of your report."
+
+Read back as taken:
+
+- **ACCEPT-BY-CRITERIA:** an open query counts as answered with its recommended option only if all four of these hold: (1) the recommendation is high confidence; (2) every reviewer agreed with it, with no design or blind review preferring another option; (3) it is not contentious; (4) it is easily undone. A query that fails any test stays open. Correction: 22 of the 25 are high, not 23; ORCH-NAME-THREAD, WAKE-HOST and ORCA-QUEUE are medium, and Kris offered to answer them interactively.
+- **WEBSITE-LIVE:** the website pages may be pushed and published live.
+- **EMBARGO-SCOPE:** Knowledge Islands only. Embargo lines placed in other territories are withdrawn.
+- **PLAIN-ENGLISH:** queries and explanations in plain English, keeping links to work items.
+- **WIP-LIMIT:** the least work in progress at once. Units go one at a time where possible and are finished quickly. This applies to this window now, and is to be considered generally.
+- **EMPTY-BOARD:** work packages hold active work only, the roadmap holds the upcoming active work, and ideas are consolidated in one place under gated criteria for admitting them. This is drafted for review in the morning. Structural conflicts are flagged in the report.
