@@ -1008,3 +1008,5 @@ Read back as taken:
 - **Asked:** a simpler explanation, and the coordinator's view.
 
 Run `host-reconcile-plan` writes a one-page plain-English plan and the drafted rollout lines.
+
+- 31 October 2026, 13:21 GMT: **QUESTION-CARD trial.** Kris: "why don't you try this new card approach ... if it's plain text, I still think that means you can use some sensible plain text formatting ... headings ... new lines ... bullets ... dash space ... the options themselves ... land in the question selections". From now on in this thread, questions go in the question card, with the context as plain-text headings, line breaks and dash bullets. How it renders is to be checked with Kris.
