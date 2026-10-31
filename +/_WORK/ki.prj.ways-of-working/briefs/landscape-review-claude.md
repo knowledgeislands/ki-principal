@@ -1,5 +1,0 @@
-# Brief: landscape-review-claude
-
-You are one of two independent reviewers of a design note, under `ki-work-design`. Read `/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/landscape.md`, its brief `briefs/landscape.md` in the same package, and `design/landscape-explainer.md`. Verify against the sources they cite: the installed skills, the `ki agent` and `orca` command help, the Techne Programme Focus policy and the decisions they quote. Do not read `queries.md`, any run report or the other reviewer's output.
-
-For every numbered claim mark Agree, Differ or Add, with a one-line reason and the evidence checked. Then state, for each of ORCA-REACH, AGENT-HOME, WAKE, WORKTREE-OPTOUT and the naming question, which option you would recommend and at what confidence. Write `design/landscape-review-claude.md` in that package, commit it alone by explicit path, subject `docs(work): ki.prj.ways-of-working landscape review (claude)`, and push fast-forward only. Change nothing else.

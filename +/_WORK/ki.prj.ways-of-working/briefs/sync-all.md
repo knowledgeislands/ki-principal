@@ -1,8 +1,0 @@
-# Brief: sync-all
-
-Work: ki.prj.ways-of-working, unattended window AWAY-31-OCT (see the end of `decisions.md` in this package). Kris: "for all [repositories] in the workspace ... do a fetch for them and then you get yours merged back onto them so you've got a latest copy of everything".
-
-1. Enumerate every Git repository under `/Users/krisbrown/workspaces` (the registry via `ki` or `mgit` if it lists them, else a directory scan to depth 2). Record, for each: path, branch, local `main` and `origin/main` revisions, and dirty/clean, before any change.
-2. `git fetch` each. Where the checkout is on `main`, clean, and strictly behind, fast-forward with `git merge --ff-only`. Where it is dirty, ahead only, or on another branch, leave it and record why. Use `mgit` only in a mode that does not push.
-3. Diverged repositories: ki-principal has diverged (a local package commit plus remote commits). For each diverged repository, in its own temporary worktree from local `main`, `git merge origin/main` (a merge commit, no rebase). Resolve only trivial conflicts in work-package files by keeping both sides; otherwise stop for that repository and record it. Then push the merge to `origin main` fast-forward and fast-forward the primary checkout. Never force, never `--no-verify`, never rebase, reset or stash any checkout. Remove each temporary worktree with `git worktree remove`. Skip HNR repositories if any conflict needs judgement.
-4. Write the before/after revision table and every exception into your run report. Also write `design/window-31-oct/sync.md` in this package with the same table, and commit that alone by explicit path after ki-principal is level, subject `docs(work): ki.prj.ways-of-working window revisions`, pushing fast-forward only.
