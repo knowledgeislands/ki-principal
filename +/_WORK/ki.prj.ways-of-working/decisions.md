@@ -1044,3 +1044,10 @@ Run `host-reconcile-plan` writes a one-page plain-English plan and the drafted r
   - **Model.** A coordination thread can have two capabilities: listening (checks its messages regularly) and host sync (keeps its Mac level with GitHub). Host sync implies listening. Today this thread listens, and the sol and terra Rig threads listen and do host sync.
   - **Pass rule.** A host sync pass repeats until both the Mac and GitHub are clean and level, or until it hits something needing judgement, and only then sleeps until the next 15-minute slot.
   - The banner's listening line shows both capabilities. Run `thread-capabilities` writes this into `ki-coordination` after `listen-opt-in`, and sends the pass rule to both Rig threads.
+- 31 October 2026, 13:43 GMT: **LISTEN-TENDS-PACKAGE.** Kris: "they need to make sure that the work packages get consolidated. That might not be fully their responsibility, but ... at least their own ... anything which is picking up messages should be doing that consolidation ... if a thread is listening, it's important that it is also helping to manage and refine the work packages and make sure they're in good state." Taken as: a listening thread also tends its own work package on its quiet wakes:
+  - consolidating, by keeping the five files current and accurate;
+  - pruning received reports and spent briefs;
+  - homing or striking stale decisions;
+  - flagging anything it can't settle.
+
+  Other packages are out of scope, apart from pointing out problems through a message line. Run `listen-tends` adds this to `ki-coordination` after `thread-capabilities`, and sends it to both Rig threads.
