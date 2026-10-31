@@ -248,9 +248,11 @@ since 2026-10-31 · from run/inbox-wake-design · [design](design/inbox-wake/des
 
 **Query:** Should the watcher become one shared shell command in tools-ki?
 
+**Blind review (31 October, Codex, high effort):** agrees with a) at medium confidence: a shared work command fits the inbox's ownership and avoids keeping the same polling logic in every runtime binding. It adds that a remote Git check updates local tracking state, so the verb is not wholly read-only, and that any implementation must handle a line already waiting when watching starts and report fetch failures rather than promise two-minute delivery. Confidence lifted to high.
+
 **Options:**
 
-a) (recommended, confidence medium - the shape is clear, but the name and home inside `ki` are a tools-ki choice and nothing was prototyped) Ask for a read-only `ki work watch` verb: send one `messages.md` line to the work that owns tools-ki describing Proposal 2's verb; the `ki-coordination` surfaces carry the hand-written loop until it ships.
+a) (recommended, confidence high - reviewed; inbox watching belongs with the work, not with the background-run waiter, and one verb spares every binding its own loop; the name and home inside `ki` stay a tools-ki choice and nothing was prototyped) Ask for a read-only `ki work watch` verb: send one `messages.md` line to the work that owns tools-ki describing Proposal 2's verb; the `ki-coordination` surfaces carry the hand-written loop until it ships.
 
 b) Keep the loop as a documented snippet only: no tooling change; each runtime binding carries the loop.
 
@@ -264,9 +266,11 @@ since 2026-10-31 · from run/inbox-wake-design · [design](design/inbox-wake/des
 
 **Query:** How should a Codex coordinating thread get its inbox wake?
 
+**Blind review (31 October, Codex, high effort):** agrees with a) at high confidence: an attended scratch-thread trial establishes the actual behaviour before coordination depends on it. It adds that the interim wording must not promise a wake from a Codex run event either, as that is not proved. Confidence lifted to high.
+
 **Options:**
 
-a) (recommended, confidence medium - the command is documented locally but its effect on an open terminal thread is unknown) Prove it in one attended trial, and until then say plainly that a Codex coordinator checks the inbox only when Kris writes or a run event arrives: a bounded run tests it with Kris watching, on a scratch thread.
+a) (recommended, confidence high - reviewed; a watched trial on a scratch thread shows the real behaviour before anything relies on it, and the command's effect on an open terminal thread is still unknown) Prove it in one attended trial, and until then say plainly that a Codex coordinator checks the inbox only when Kris writes or a run event arrives: a bounded run tests it with Kris watching, on a scratch thread.
 
 b) Treat Codex as having no inbox wake and coordinate waiting threads from Claude Code only.
 
@@ -280,9 +284,11 @@ since 2026-10-31 · from run/inbox-wake-design · [design](design/inbox-wake/des
 
 **Query:** Should a sender also nudge the receiving thread after writing its `messages.md` line?
 
+**Blind review (31 October, Codex, high effort):** agrees with a) at medium confidence: waiting for the pilot avoids adding a step that depends on routing and has no demonstrated wake benefit. It adds that the two-minute receipt itself depends on a working watcher and a proved runtime wake, and that any later nudge must never count as a receipt or replace the line. Confidence lifted to high.
+
 **Options:**
 
-a) (recommended, confidence medium - the gain is two minutes at most, but whether the Orca wake works is untested) No nudge now; revisit after ORCA-SUBAGENT-PILOT shows whether the mailbox wakes an Orca chat: senders write and push their line, nothing more.
+a) (recommended, confidence high - reviewed; the gain is two minutes at most, the Orca wake is untested, and a routing-dependent step with no shown benefit is better added after the pilot than before) No nudge now; revisit after ORCA-SUBAGENT-PILOT shows whether the mailbox wakes an Orca chat: senders write and push their line, nothing more.
 
 b) Optional same-host Orca nudge now: where the receiver has a verified routing record on this host, the sender adds a pointer-only `orchestration send` after its push.
 
@@ -302,33 +308,69 @@ a) (recommended, confidence high - it closes the only gap between the authority 
 
 b) Treat the relayed wording as final and do no recheck.
 
-### HOLDING-SCOPE - Does "nothing migrates out" cover the knowledge cards too?
+### HOLDING-SCOPE-INTERIM - Keep the cards held until Kris says what the rule covers
 
-since 2026-10-31 · from run/capture-skill
+since 2026-10-31 · from run/capture-skill · split from HOLDING-SCOPE after blind review
 
-**Context:** GOAL-HOLDING-AREA makes Acquire a holding area for now: "nothing migrates out". The new wording says that neither captures nor cards leave Acquire, and that dispatch is on hold. The relayed decisions don't say outright whether the curated cards in `knowledge/` must also stay, or whether they may be reconciled into a Capital's graph.
+**Context:** GOAL-HOLDING-AREA makes Acquire a holding area for now: "nothing migrates out". The new wording of the capture skill says that neither captures nor cards leave Acquire, and that dispatch is on hold. The relayed decisions don't say outright whether the curated cards in `knowledge/` must also stay. This part asks only what the skill says until Kris answers HOLDING-SCOPE-CARDS; nothing leaves Acquire meanwhile, so nothing is lost and the wording changes in one line if Kris releases the cards.
+
+**Query:** Until Kris says whether the holding rule covers the cards, should the skill keep them held as it reads now?
+
+**Blind review (31 October, Codex, high effort):** agrees with keeping cards and captures in Acquire, at medium confidence: letting cards leave would make an exception to a reported blanket hold with no evidence for it. It calls this the least assumptive interim reading, not a finding that Kris decided both, and adds that copying or reconciling card content elsewhere is also moving knowledge out. Confidence not lifted, as the agreement rests on the earlier decision's wording; the query was split so the interim reading stands apart from Kris's intent.
+
+**Options:**
+
+a) (recommended, confidence high - holding moves nothing, so it can be undone in one line, and both this work and the blind review read it as the safest interim course) Yes: the skill keeps saying that neither captures nor cards leave Acquire until Kris answers HOLDING-SCOPE-CARDS.
+
+b) No: soften the skill now to say the cards' status is undecided.
+
+### HOLDING-SCOPE-CARDS - Did "nothing migrates out" mean the knowledge cards too?
+
+since 2026-10-31 · from run/capture-skill · split from HOLDING-SCOPE after blind review
+
+**Context:** GOAL-HOLDING-AREA makes Acquire a holding area for now: "nothing migrates out", with dispatch on hold. Acquire's own text carrying the decision is not yet published, so its exact wording could not be read. Only Kris can say whether the curated cards in `knowledge/` were meant to stay with the captures, or may be reconciled into their owning Capital's graph when ready.
 
 **Query:** Does the holding rule keep the curated cards in Acquire as well as the captures?
 
+**Blind review (31 October, Codex, high effort):** agrees with a) at medium confidence: letting cards leave would make an exception to a reported blanket hold with no evidence for it, though it is an interim reading, not a finding of what Kris decided. Confidence not lifted, as the agreement rests only on the earlier decision's wording.
+
 **Options:**
 
-a) (recommended, confidence medium - "nothing migrates out" reads as covering everything, but the decision text itself could not be read) Yes: cards and captures both stay in Acquire until Kris lifts the holding area. This is how the skill reads now.
+a) (recommended, confidence medium - "nothing migrates out" reads as covering everything, and the blind review agrees, but both rest on the decision's wording, which could not be read in Acquire's own text) Yes: cards and captures both stay in Acquire until Kris lifts the holding area. This is how the skill reads now.
 
 b) No: only captures are held. Cards may be reconciled into their owning Capital's graph whenever they are ready, and the skill should say so.
 
-### IDEAS-ROADMAP-STANDARD - Change where the roadmap standard sends ideas
+### IDEAS-ROADMAP-HOME - Leave the ideas' final home in the standard to IDEAS-HOME
 
-since 2026-10-31 · from run/capture-skill
+since 2026-10-31 · from run/capture-skill · split from IDEAS-ROADMAP-STANDARD after blind review
 
-**Context:** IDEAS-IN-GRAPH says future ideas live in the knowledge graph as future concepts, not on the roadmap. The `ki-work-roadmap` standard ([Ideas and graduation](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-work-roadmap/references/standards-repository-roadmaps.md#ideas-and-graduation)) already keeps ideas out of the record queue. It sends concepts to a Capital's Emerging Concepts note. Other ideas go to `Idea:` bullets in Project or theme notes, or to `_IDEAS.md` beside the roadmap. Where every idea finally lives is IDEAS-HOME, which is still open in the [empty-board design](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/empty-board/design.md). I changed only the capture skill.
+**Context:** IDEAS-IN-GRAPH says future ideas live in the knowledge graph as future concepts, not on the roadmap. The `ki-work-roadmap` standard ([Ideas and graduation](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-work-roadmap/references/standards-repository-roadmaps.md#ideas-and-graduation)) already keeps ideas out of the record queue. Where every idea finally lives, and how the graph organises them, is IDEAS-HOME, which is still open in the [empty-board design](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/empty-board/design.md). This part asks only whether the standard should name that final home before Kris settles IDEAS-HOME; IDEAS-ROADMAP-PRINCIPLE asks about the standard's current alternatives.
 
-**Query:** Should the roadmap standard's ideas section change now, or wait for IDEAS-HOME?
+**Query:** Should the roadmap standard wait for IDEAS-HOME before naming where in the graph ideas finally live?
+
+**Blind review (31 October, Codex, high effort):** differs on the whole query, picking a change now at medium confidence, but agrees on this part: its course leaves the precise home to the open design decision. Confidence high, as this work and the review agree independently.
 
 **Options:**
 
-a) (recommended, confidence medium - changing it now would settle IDEAS-HOME early, and the current text already keeps ideas off the record queue) Leave the roadmap standard as it is. Carry IDEAS-IN-GRAPH into IDEAS-HOME and change the standard once Kris settles that.
+a) (recommended, confidence high - reviewed; both this work and the blind review leave the graph's final organisation to IDEAS-HOME, and naming it now would settle that design early) Yes: the standard names no final home for ideas until Kris settles IDEAS-HOME, then changes to match.
 
-b) Change it now so that every future idea is a future concept in the graph, and retire `Idea:` bullets and `_IDEAS.md`.
+b) No: name a home in the standard now and let IDEAS-HOME follow it.
+
+### IDEAS-ROADMAP-PRINCIPLE - Retire the standard's other idea stores now or later
+
+since 2026-10-31 · from run/capture-skill · split from IDEAS-ROADMAP-STANDARD after blind review
+
+**Context:** IDEAS-IN-GRAPH says future ideas live in the knowledge graph as future concepts, not on the roadmap. The `ki-work-roadmap` standard ([Ideas and graduation](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-work-roadmap/references/standards-repository-roadmaps.md#ideas-and-graduation)) sends concepts to a Capital's Emerging Concepts note, and other ideas to `Idea:` bullets in Project or theme notes or to `_IDEAS.md` beside the roadmap. The capture skill has already been changed to follow IDEAS-IN-GRAPH; the standard has not. Retiring the alternatives would deal with where ideas go next, not delete or move any idea already written down.
+
+**Query:** Should the roadmap standard now stop offering `Idea:` bullets and `_IDEAS.md` as places for new ideas, or keep them until IDEAS-HOME is settled?
+
+**Blind review (31 October, Codex, high effort):** differs, picking b) at medium confidence: the graph principle can replace the conflicting routing now without choosing the graph's final organisation. It adds that this holds only if IDEAS-IN-GRAPH was meant territory-wide, that existing ideas must be kept until their destinations are approved, and that the standard must still keep an idea distinct from approved work.
+
+**Options:**
+
+a) (recommended, confidence medium - this work: the current text already keeps ideas off the record queue, and retiring the alternatives decides part of IDEAS-HOME early; the blind review differs: IDEAS-IN-GRAPH already conflicts with the standard's routing and can replace it now without choosing the graph's organisation) Keep the alternatives until Kris settles IDEAS-HOME, then change the standard in one pass.
+
+b) Change it now: the standard says new future ideas go into the graph as future concepts and stops offering `Idea:` bullets and `_IDEAS.md`, keeping existing ideas where they are until their destinations are approved.
 
 ### ACQUISITION-PROCESS-NOTE - Bring the Acquisition Process note into line
 
@@ -338,9 +380,11 @@ since 2026-10-31 · from run/capture-skill
 
 **Query:** Should the Acquisition Process note be revised to match the 31 October decisions?
 
+**Blind review (31 October, Codex, high effort):** agrees with a) at high confidence: checking the owning source first supports one coherent revision while keeping Kris's approval of canonical changes. It adds that the note already describes staging in a repository, so what is missing is the newer graph model, and that the draft should keep the temporary dispatch hold apart from the enduring lifecycle. Confidence lifted to high.
+
 **Options:**
 
-a) (recommended, confidence medium - the note now contradicts the skill, but Acquire's text should be settled first so the note isn't revised twice) After ACQ-TEXT-RECHECK, a bounded run drafts the revision under Ways of working for Kris's approval through the Enactment Process.
+a) (recommended, confidence high - reviewed; the note now contradicts the skill, and settling Acquire's text first means one coherent revision rather than two, with Kris approving it through the Enactment Process) After ACQ-TEXT-RECHECK, a bounded run drafts the revision under Ways of working for Kris's approval through the Enactment Process.
 
 b) Leave the note until the holding area is lifted, and add one line saying that dispatch is currently on hold.
 
