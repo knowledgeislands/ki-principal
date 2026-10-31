@@ -1,3 +1,0 @@
-# Brief: host-sync-review-claude
-
-Independent reviewer. Read `/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/host-sync/brief.md` and the sources it cites; verify against them. Do not read `queries.md`, any report or the other reviewer's file. Independence: you may and should challenge earlier owner decisions and prior reasoning where the evidence warrants; an earlier decision is evidence, not a constraint, and agreement with it earns no confidence by itself. Answer as the brief asks. Write `design/host-sync/review-claude.md`, commit it alone by explicit path, subject `docs(work): ki.prj.ways-of-working host-sync review (claude)`, push fast-forward only.

@@ -1,3 +1,0 @@
-# Brief: send-env-leak
-
-Work: ki.prj.ways-of-working. Copy the drafted ORCA-ENV-LEAK message line from `design/orca-subagents/design.md` (in this package) as one line at the end of `/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.tools-burndown/messages.md`, in the `ki-work-package` Messages line shape, marked IMPORTANT (it is a security fix: runs inherit the coordinator's `ORCA_*` environment and Orca treats them as the coordinator), placed above ordinary lines. Cite the design note by absolute path and Kris's 30 October ORCA-SUBAGENTS words. Commit that file alone by explicit path, subject `docs(work): ki.prj.tools-burndown receive ORCA-ENV-LEAK message`, push fast-forward only. Change nothing else.

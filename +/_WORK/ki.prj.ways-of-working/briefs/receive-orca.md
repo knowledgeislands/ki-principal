@@ -1,3 +1,0 @@
-# Brief: receive-orca
-
-Work: ki.prj.ways-of-working. Copy the queries ORCA-CLOSE-OUT (section 7), ORCA-SUBAGENT-PILOT, ORCA-PLACEMENT and ORCA-QUEUE (section 9) of `design/orca-subagents/design.md` in full into `queries.md` under `## Open`, before WAKE-HOST, each with a `since 2026-10-30 · from run/orca-subagents · [design](design/orca-subagents/design.md)` line. Do not copy ORCA-ENV-LEAK: it was acted on (sent to ki.prj.tools-burndown on 30 October under Kris's ORCA-SUBAGENTS words); add it under `## Answered` as a one-line pointer to that decisions entry. Change no other query. Commit `queries.md` alone, subject `docs(work): ki.prj.ways-of-working receive orca sub-agent queries`, push fast-forward only.
