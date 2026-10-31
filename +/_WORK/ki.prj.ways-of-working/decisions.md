@@ -925,3 +925,15 @@ Read back as taken:
   - **CAPTURE-MODEL** (personal.reg.acquire-intake): goes to U12, the capture model design brief.
   - **FINISHED-TIDY-KICK** (personal.reg.acquire-intake): goes to U8, the Finished-folder kick.
   - **RECOMMEND-CONFIDENCE** and **BANNER-TRIM**: delivered by U1 in the harness, as its report records.
+
+## Return from AWAY-31-OCT and INTERACTIVE-QUERIES (31 October 2026, 12:02 GMT)
+
+- Window AWAY-31-OCT ended at 09:00 GMT. Nothing ran after 04:13 GMT. Kris returned at 12:00 GMT ("can you pick those up and see where we're at?"). The return report was sent at 04:14 GMT, so the next mark is struck now.
+- **Received INTERACTIVE-QUERIES** (IMPORTANT, from personal.reg.acquire-intake, at Kris's request). This work owns `ki-coordination`, so it applies the rule itself:
+  - Ask exactly one decision per turn when taking queries interactively.
+  - Put the query in the chat as ordinary Markdown, not in a question tool.
+  - Never use AskUserQuestion for it.
+  - Log each answer before asking the next.
+  - Run `interactive-queries` applies this to the standard and the generated surfaces, then sends one line to ki.prj.chezmoi for the matching `communication.md` change. That change waits for Kris's diff review before any `chezmoi apply`.
+  - Lesson: this coordinator used the question tool at 01:40 GMT. That matches the failure the message describes, and it stops now.
+- `method_read` is moved to harness `29d635e1`. Every change since `6868da5a` was made by this work's own runs overnight.

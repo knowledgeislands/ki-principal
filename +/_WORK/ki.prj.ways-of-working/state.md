@@ -1,18 +1,18 @@
 ---
 id: ki.prj.ways-of-working
-state: with-supervisor
-since: 2026-10-31T04:12:21Z
+state: with-worker
+since: 2026-10-31T12:00:39Z
 received: 2026-10-29T15:38:09Z
-beat: 2026-10-31T04:12:21Z
-mark: 2026-10-31T01:31:36Z
-method_read: 6868da5a
+beat: 2026-10-31T12:00:39Z
+mark: 2026-10-31T12:00:39Z
+method_read: 29d635e1
 ---
 
 # ki.prj.ways-of-working state
 
 ## Now
 
-- AWAY-31-OCT: every planned unit finished by 04:13 GMT; nothing running or queued. Sent to Kris with the return report; the window stays open until 09:00 GMT but nothing further is launched without Kris.
+- AWAY-31-OCT ended 09:00 GMT; Kris returned 12:00 GMT. Applying INTERACTIVE-QUERIES (run interactive-queries).
 - Morning summary: `design/window-31-oct/morning-summary.md` (as of 03:25 GMT; the return report covers the rest).
 
 ## Next steps
