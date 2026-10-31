@@ -484,6 +484,50 @@ b) Keep today's rule that only the work itself deletes its folder. Fix only the 
 
 c) Have the finishing coordinator delete the folder in the same sitting as your `finish`. This stops new cases, but does nothing for folders already left behind, such as knowledge acquisition.
 
+### UNLOGGED-QUERIES - 57 reports wait on queries that never reached the queries file
+
+since 2026-10-31 · from run/wow-tidy-move
+
+**Context:** The tidy rule allows a run report to be deleted once its outcome is homed and its queries have been copied into this work's queries file. 57 reports in this package fail the second test. Each one raised a query under a tag that has never appeared in the queries file, or raised queries with no tag at all. Some of these queries were probably renamed, answered in the thread or handed to another work, but nothing in the package records that. The reports therefore stay, and the work folder still holds 59 kept report files.
+
+**Query:** Should a bounded run reconcile these 57 reports against the queries file and the decisions log, so that the reports can be deleted?
+
+**Options:**
+
+a) (recommended, confidence high - this only reads the package and records each query's disposition, and it deletes a report only when that disposition is shown) Launch one bounded run in this package. For each kept report, it finds where each query went (open, answered, renamed or routed). It copies any query that is still open into the queries file, records any that were settled in conversation in the decisions log, and deletes the report only once all its queries are accounted for.
+
+b) Leave the reports where they are and let the coordinator settle them one at a time at future marks.
+
+### DESIGN-GRADUATION - about 80 design notes, none recorded as graduated
+
+since 2026-10-31 · from run/wow-tidy-move
+
+**Context:** The design folder holds about 80 notes and subfolders, including the work state machine, host sync, landscape, model shape and the 31 October window. Under the design-note guards, a note may be deleted only once it has graduated, meaning every decision it carries has a durable home, or once it is recorded as superseded. No such record exists for any of them, so this tidy kept the whole folder.
+
+**Query:** Should a review run classify each design note, so that graduated and superseded notes can be deleted at the next mark?
+
+**Options:**
+
+a) (recommended, confidence high - review only; nothing is deleted until the coordinator records each verdict) Launch a read-only run that lists each note with its verdict: graduated (with its durable homes), superseded (by what), or live. The coordinator records the verdicts in the decisions log and deletes the graduated and superseded notes at the next mark.
+
+b) Keep the design folder as it is until the Project's close-out.
+
+### BROKEN-LINKS - 66 old links point at files that no longer exist
+
+since 2026-10-31 · from run/wow-tidy-move
+
+**Context:** After the repoint, 66 absolute links in the decisions log, the queries file, the work file and the design notes point at files that no longer exist. None of them was broken by the move. Earlier renames and prunes left them behind: old package ids such as `ki.ways-of-working`, pruned roadmap records such as KI-HARNESS-GOV-176, retired standards and the removed `personal/acquire` checkout. Most sit in historical decision entries and design notes.
+
+**Query:** Should these links be repointed to the revision where each file last existed, or to its current home?
+
+**Options:**
+
+a) (recommended, confidence medium - the standard asks for pruned records to be linked at their last revision, but repointing about 300 lines of history is churn with little reading value) Fold this into the UNLOGGED-QUERIES run. Repoint links in the live files (`work.md`, `state.md` and `queries.md`) to the current package ids, or to last-revision GitHub links for pruned records, and leave historical decision entries and design notes as they are.
+
+b) Repoint all 66 everywhere, the history included.
+
+c) Leave them all as they are.
+
 ## Answered
 
 - ORCA-REACH - answered a) on 30 October 2026, follow-up due 6 November 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
