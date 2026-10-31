@@ -2,6 +2,20 @@
 
 ## Open
 
+### DISCUSSIONS - How far to take "discussion points" in place of "queries"
+
+since 2026-10-31 · from run/discussions-design
+
+**Context:** Queries already work like a discussion: they build up, Kris works through them one at a time, and the set ends with a mark. Only the words and the ending differ. The cheapest change renames what Kris sees, the report section `## Queries` to `## Discussion`, "Query 3 of 7" to "Point 3 of 7", and ends each discussion with a list of the decisions it reached, while keeping the package file `queries.md` as it is. Renaming the file as well touches about 59 work packages across the territories and every tool that reads them, `ki` and the Observatory included, for a file Kris rarely opens.
+
+**Query:** Should we rename queries to discussion points in what Kris reads only, or in the package files too?
+
+**Options:**
+
+a) (recommended, confidence medium - it carries the intent everywhere Kris reads at a third of the cost, and is easy to extend later, but the file name is a matter of taste) rename the concept, the report section, the pass wording and the end of the set, add the closing list of decisions and the "noted, no decision" ending, and keep `queries.md`; readers in `ki` and the Observatory accept both section names before the writers switch
+
+b) do all of a) and also rename `queries.md` to `discussions.md` in every package, with a tolerance window in which every reader accepts both file names, then a territory sweep
+
 ### WORKER-WAIT-MEANING - With worker means the worker role holds the work, not that a process is live
 
 since 2026-10-29 · from run/sol-state-machine-readiness, split from WORKER-WAIT on 30 October at Kris's request; refines the parked STATE-MACHINE-DECISIONS · high now, no further work needed
