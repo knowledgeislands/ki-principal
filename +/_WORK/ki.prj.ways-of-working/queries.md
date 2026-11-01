@@ -68,24 +68,6 @@ a) (recommended, confidence medium - this work: the current text already keeps i
 
 b) Change it now: the standard says new future ideas go into the graph as future concepts and stops offering `Idea:` bullets and `_IDEAS.md`, keeping existing ideas where they are until their destinations are approved.
 
-### WAKE-HOST - Where the headless coordinator pass may run
-
-since 2026-10-30 · from run/landscape, split from WAKE · merged in [landscape-report](design/landscape-report.md)
-
-**Context:** The Techne Programme Focus, set on 20 October, names two hosts, `vega` and sol, and allows agents on them only "in sessions the binding owner opens, with no unattended or scheduled agents". A launchd headless pass is a scheduled agent. WAKE-SUBSTRATE, a later decision in this work, does not amend a governance policy, so the pass may not run on sol or `vega` until the focus is changed through the Enactment Process. Terra, Kris's other Mac, is outside the focus. The job itself was sent to `ki.prj.chezmoi` and `ki.prj.mac-studio-setup`. The Claude review recommends terra first at medium confidence, noting that a pass sees only its own host's runs, because `ki agent status` is host-local, while sol is where most coordination and the Orca trial now run. The Codex review treats host permission as a separate decision and names no host. The design treated scheduled runs as out of scope, which both reviews call stale. Not taken under ACCEPT-BY-CRITERIA on 31 October: it is medium confidence and the blind review preferred option b), so tests 1 and 2 are not met; Kris kept it for the morning.
-
-**Query:** On which host may the headless coordinator pass run?
-
-**Blind review (30 October, Codex, high effort):** differs, prefers b) at medium confidence: the pass should observe the work it serves, so propose the bounded Enactment amendment for sol, with no pass there before approval; a terra pass sees only terra's runs, and terra's absence from the focus is not itself permission.
-
-**Options:**
-
-a) (recommended, confidence medium - needs no policy change and is reversible, but a terra pass sees only terra's runs and the reviewers did not agree on a host) Terra first, for works whose own decision names the pass; no pass on sol or `vega` unless the focus is later changed through the Enactment Process.
-
-b) Propose an Enactment change to the Techne Programme Focus admitting the headless pass on sol, bounded as the standard sets it (shell-only trigger, named works only, `push` tier at most), so that the pass runs where coordination and Orca run.
-
-c) No host for now: session wakes only, until a work needs a durable wake and names its host in its own decision.
-
 ### BROKEN-LINKS-HISTORY - Repair broken links in old decision entries and design notes too?
 
 since 2026-10-31 · from run/wow-tidy-move · split after blind review 31 October 23:34 GMT; the review differs from this work
@@ -102,7 +84,7 @@ b) No: leave historical entries and design notes as they are, so only the files 
 
 ## Answered
 
-- TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination (all 1 November 2026; see decisions.md).
+- TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice (all 1 November 2026; see decisions.md).
 - TOP-LEVEL-SWEEP-DELETE - a (1 November 2026): only stewards delete old reports.
 - TOP-LEVEL-NOW - a (1 November 2026): reports into `reports/` now.
 - ORCA-REACH - answered a) on 30 October 2026, follow-up due 6 November 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
