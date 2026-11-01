@@ -1168,6 +1168,24 @@ a) (recommended, confidence high - reviewed; this is the repository's normal pat
 
 b) Hold it until the open points are settled.
 
+### GIT-REBASE - May a run tidy its own commits into a straight line instead of making merge commits?
+
+since 2026-11-01 · from run/rebase-review · blind review running
+
+**Context:** Several sessions commit into one shared copy of each repository (the primary checkout). The rules ban "rebasing" there, that is, rewriting commits so they sit on top of newer ones, because doing so in a shared copy can disturb another session's work. When a sync cannot simply move forward, a short "resolve run" does the joining in its own private copy (a worktree). The written rules already let that run rebase its own unpublished commits there before pushing, but since 31 October the briefs have told resolve runs to make merge commits and never rebase. On 31 October and 1 November that gave nine extra merge commits in ki-principal, each joining one or two small commits, out of 14 merge commits in total. On 1 November Kris said rebasing "in some situations absolutely has merit … I prefer not to pollute a tree with mergers … Maybe with everything now happening with work trees, merging is more preferable".
+
+**Query:** Should runs rebase their own unpublished commits in their private worktree, keeping the ban only for the shared checkout?
+
+**Options:**
+
+a) (recommended, confidence medium - matches the rules as written and Kris's dislike of merge clutter; the risk is low because only a run's own unpublished commits in its own copy are rewritten, but Kris's last words leaned towards merging) Allow rebase only inside a run's private worktree: the run rebases its own unpublished commits onto `origin/main`, checks them again, then pushes and fast-forwards the shared copy. Merge commits are kept for cases a rebase cannot settle cleanly. The shared checkout keeps its ban on rebase, stash and reset, and the resolve briefs and the hold prompt are brought into line.
+
+b) Prefer merge everywhere: rewrite the conflict-run and worktree self-integration rules to make merge commits, accepting a branching history in return for never rewriting any commit.
+
+c) Keep things as they are: leave the written rules unchanged and let briefs keep asking for merge commits, accepting the mismatch between the standard and practice.
+
+d) Also allow rebase in the shared checkout when it is clean and only this session's commits are unpublished, as ki-principal's Git settings already do for a bare `git pull`. Not recommended, because another session may commit at the same moment.
+
 ## Answered
 
 - TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT; BROKEN-LINKS-HISTORY - a (all 1 November 2026; see decisions.md).
