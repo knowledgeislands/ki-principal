@@ -458,6 +458,48 @@ a) (recommended, confidence high - verified directly: the before and after audit
 
 b) Fold it into the next harness release run, and carry on with the front-matter scans meanwhile.
 
+### Z-FILES - Keep the two Z files uncommitted
+
+since 2026-11-01 · from run/wow-cleanup
+
+**Context:** The brief asked for every never-committed report, including those in `reports/`, to be committed first. Only two such files are in `reports/`: `hold-request-20261030-z.md` and `z-session-retirement-20261030.md`, about retiring the Z session. The stock-take said to keep them out of any commit until PUBLIC-REPORT-AUDIENCE and PUBLIC-REPORT-RECOVERY are settled. Both questions were answered "a" on 1 November and are waiting for Kris to name the permitted audience and a private destination. Committing them and pushing would publish them to GitHub. I left them untracked and unchanged, so they are still the only copies.
+
+**Query:** Should the two Z files stay uncommitted until the public-report questions are settled?
+
+**Options:**
+
+a) (recommended, confidence high - pushing them would publish material whose audience Kris has not yet named, and leaving them as they are changes nothing) Keep them uncommitted until PUBLIC-REPORT-AUDIENCE and PUBLIC-REPORT-RECOVERY are settled, then dispose of them as that decision says.
+
+b) Commit them into `reports/` now, so Git keeps a copy, and accept that they become public.
+
+### SWEEP-NOTE-LINKS - Tell two roadmap records where `roadmap-sweep` went
+
+since 2026-11-01 · from run/wow-cleanup
+
+**Context:** Two records outside this package link to `design/roadmap-sweep.md`, which was deleted as superseded: [KI-OBSERVA-BRG-004](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-004-turn-feedback-sending-on.md) (line 89) and [KI-TOOL-RIG-CORE-070](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-070-handler-read-back-after-confirmation.md) (line 90). Both links were already broken before the deletion, because they use the old `~/workspaces/.../ki.ways-of-working/` path. The stock-take did not list them, so this run left them alone. The note's last version is in Git at `f8c70a30`. KI-OBSERVA-BRG-004 is also proposed for pruning under DONE-PRUNE.
+
+**Query:** Should the owning works be told the note's pinned link?
+
+**Options:**
+
+a) (recommended, confidence medium - it costs one message line each and lets the owners decide, but the links were already broken and one record may be pruned soon) Send one line to the `messages.md` of the Observatory work and of the work that owns Rig, giving the pinned link `https://github.com/knowledgeislands/ki-principal/blob/f8c70a3000cdd7a531811ffe363884489eda0e50/+/_WORK/ki.prj.ways-of-working/design/roadmap-sweep.md`.
+
+b) Leave them, since both links were already broken and the records are finished.
+
+### ORCA-ADAPTER-WHEN - When to create the Orca adapter
+
+since 2026-11-01 · from run/rename-paperclip
+
+**Context:** Kris chose the delegation family on 1 November: `ki-delegation` as the shared contract, with an Orca adapter and a Paperclip adapter. The Paperclip adapter now exists under its new name. The Orca adapter doesn't exist yet. Writing it means describing how Orca carries out the shared contract (launch, queue, status, recovery, cleanup). That contract is still being slimmed, and the [Orca evaluation](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.orca-evaluation/state.md) hasn't yet tested a remote run.
+
+**Query:** Should `ki-delegation-orca` be written now, or after the slimmed `ki-delegation` contract and the Orca evaluation's trial have landed?
+
+**Options:**
+
+a) (recommended, confidence medium - the adapter would otherwise describe a contract that is still changing and Orca behaviour nobody has tested) Wait: commission it as one harness run once the slimmed `ki-delegation` contract has landed and the Orca evaluation has reported, and write it from that evidence.
+
+b) Write a minimal skeleton now: a skill that names its boundary, points to `ki-delegation` and records the open questions, then fill it in after the trial.
+
 ## Answered
 
 - TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT; BROKEN-LINKS-HISTORY - a (all 1 November 2026; see decisions.md).
