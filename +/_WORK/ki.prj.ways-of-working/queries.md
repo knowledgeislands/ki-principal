@@ -36,22 +36,6 @@ a) (recommended, confidence high - reviewed; one named group deletion stays revi
 
 b) No: keep file-by-file deletion inside groups.
 
-### HOLDING-SCOPE-CARDS - Did "nothing migrates out" mean the knowledge cards too?
-
-since 2026-10-31 · from run/capture-skill · split from HOLDING-SCOPE after blind review
-
-**Context:** GOAL-HOLDING-AREA makes Acquire a holding area for now: "nothing migrates out", with dispatch on hold. Acquire's own text carrying the decision is not yet published, so its exact wording could not be read. Only Kris can say whether the curated cards in `knowledge/` were meant to stay with the captures, or may be reconciled into their owning Capital's graph when ready.
-
-**Query:** Does the holding rule keep the curated cards in Acquire as well as the captures?
-
-**Blind review (31 October, Codex, high effort):** agrees with a) at medium confidence: letting cards leave would make an exception to a reported blanket hold with no evidence for it, though it is an interim reading, not a finding of what Kris decided. Confidence not lifted, as the agreement rests only on the earlier decision's wording.
-
-**Options:**
-
-a) (recommended, confidence medium - "nothing migrates out" reads as covering everything, and the blind review agrees, but both rest on the decision's wording, which could not be read in Acquire's own text) Yes: cards and captures both stay in Acquire until Kris lifts the holding area. This is how the skill reads now.
-
-b) No: only captures are held. Cards may be reconciled into their owning Capital's graph whenever they are ready, and the skill should say so.
-
 ### IDEAS-ROADMAP-PRINCIPLE - Retire the standard's other idea stores now or later
 
 since 2026-10-31 · from run/capture-skill · split from IDEAS-ROADMAP-STANDARD after blind review
@@ -84,7 +68,7 @@ b) No: leave historical entries and design notes as they are, so only the files 
 
 ## Answered
 
-- TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice (all 1 November 2026; see decisions.md).
+- TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided (all 1 November 2026; see decisions.md).
 - TOP-LEVEL-SWEEP-DELETE - a (1 November 2026): only stewards delete old reports.
 - TOP-LEVEL-NOW - a (1 November 2026): reports into `reports/` now.
 - ORCA-REACH - answered a) on 30 October 2026, follow-up due 6 November 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
