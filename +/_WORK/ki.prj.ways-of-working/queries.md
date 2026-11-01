@@ -726,7 +726,7 @@ b) Leave the section as it is, since nothing runs under it.
 
 ### CLOSE-GATE - The finished runs cannot be closed one at a time
 
-since 2026-11-01 · from run/wow-tidy-4
+since 2026-11-01 · from run/wow-tidy-4 · blind review 1 November 05:36 GMT agrees
 
 **Context:** `ki agent close` retires the whole `ki-project-ways-of-working` group in one go. It only passes when every run in the group has finished, every run's temporary folder is empty, every decision in the log has a durable home and the work folder is committed and clean. Right now three runs are live, 24 temporary folders hold scratch files, 79 decisions have no home and the two Z files are uncommitted. There is no way to close only the finished runs, and the brief excluded the waiver flag.
 
@@ -734,13 +734,13 @@ since 2026-11-01 · from run/wow-tidy-4
 
 **Options:**
 
-a) (recommended, confidence medium - the gate is clear about what it needs; how much decision-homing work Kris wants is not) Leave the group open for now. When the live runs finish, a bounded run empties the spent temporary folders, then homes or classes the 79 decisions with `ki agent reconcile`, and runs the strict close once Z-FILES is settled.
+a) (recommended, confidence high - reviewed; the gate is clear about what it needs; how much decision-homing work Kris wants is not) Leave the group open for now. When the live runs finish, a bounded run empties the spent temporary folders, then homes or classes the 79 decisions with `ki agent reconcile`, and runs the strict close once Z-FILES is settled.
 
 b) Leave the group open until the Project closes, and accept that its state folder keeps growing in the meantime.
 
 ### AGENDA-SHAPE - What to do with the AGENDA block in queries.md
 
-since 2026-11-01 · from run/wow-lint
+since 2026-11-01 · from run/wow-lint · blind review 1 November 05:36 GMT agrees
 
 **Context:** queries.md starts with an AGENDA entry that groups the open queries into an order for discussion. Under the work-package schema, every heading in queries.md has to be a query with Context, Query and Options, so the audit fails on AGENDA. The file also has an Answered section, and the schema allows only Open and Parked.
 
@@ -748,15 +748,17 @@ since 2026-11-01 · from run/wow-lint
 
 **Options:**
 
-a) (recommended, confidence medium - this keeps the agenda and follows the existing tidy rule) Move the agenda into state.md's next steps, and clear the Answered section at the next tidy once each answer is in the decisions log.
+a) (recommended, confidence high - reviewed; this keeps the agenda and follows the existing tidy rule) Move the agenda into state.md's next steps, and clear the Answered section at the next tidy once each answer is in the decisions log.
 
 b) Keep both where they are and accept the audit failures until the query pass ends.
 
 ### DUE-FIELD - Add an optional due date to roadmap records
 
-since 2026-11-01 · from personal.reg.acquire-intake (ROADMAP-DUE-FIELD) · blind review needed
+since 2026-11-01 · from personal.reg.acquire-intake (ROADMAP-DUE-FIELD) · blind review 1 November 05:36 GMT differs
 
 **Context:** Acquire's restructure, which Kris accepted on 1 November ("restructure now"), stages work to be done as unnumbered roadmap drafts with a due date for the receiving Capital's Streams. Roadmap records have no `due:` field today, and Personal already works around its absence. Adding an optional field changes the roadmap standard and its checks, and every reader that lists records could show it.
+
+The blind review prefers neither option as written: it would add no new field but use the roadmap's existing structured target mechanism, rather than a prose-only note in the body.
 
 **Query:** Should roadmap records gain an optional `due:` date?
 
@@ -766,9 +768,11 @@ a) (recommended, confidence medium - it serves a decided need at little cost, be
 
 b) No: keep due dates in the record body, as Personal does now.
 
+c) (the blind review's view) Add no field; record the date through the roadmap's existing structured target mechanism.
+
 ### ACQ-HOLD-WORDING - Acquire's text does not yet say when cards leave
 
-since 2026-11-01 · from run/acq-recheck
+since 2026-11-01 · from run/acq-recheck · blind review 1 November 05:36 GMT agrees
 
 **Context:** Acquire's README says the cards are held in `processed/` "until each group's home is decided". On 1 November, under HOLDING-SCOPE-CARDS in Ways of working, Kris said more than that: cards mature with no rush and move into the islands once they conform to the standards being built, or earlier when a card's home is plainly decided. The skill keeps Kris's 1 November wording. Acquire's own text has not picked it up, and Acquire's text is the method's authority for now (ACQ020-OWNER).
 
@@ -776,13 +780,13 @@ since 2026-11-01 · from run/acq-recheck
 
 **Options:**
 
-a) (recommended, confidence medium - the two texts do not contradict each other, but Acquire is the authority and currently says less than Kris decided) Ways of working sends a one-line notice to Acquire intake's `messages.md`, so that Acquire aligns its wording when it next revises its entry points.
+a) (recommended, confidence high - reviewed; the two texts do not contradict each other, but Acquire is the authority and currently says less than Kris decided) Ways of working sends a one-line notice to Acquire intake's `messages.md`, so that Acquire aligns its wording when it next revises its entry points.
 
 b) Leave both as they are. The skill carries the fuller wording, and Acquire's shorter phrase stands.
 
 ### ACQ-SCAFFOLD-NOTE - The design note still says nothing is scaffolded empty
 
-since 2026-11-01 · from run/acq-recheck
+since 2026-11-01 · from run/acq-recheck · blind review 1 November 05:36 GMT agrees
 
 **Context:** Section 3 of Acquire's design note, `+/_WORK/personal.reg.acquire-intake/design/acquire-structure.md`, says "A zone folder appears with its first file; nothing is scaffolded empty". Kris's later SCAFFOLD decision on 1 November gave every principal a scaffolded skeleton with a README in each zone. README.md and AGENTS.md follow SCAFFOLD, and so does the skill. The note's 1 November amendment covers meetings but not the scaffold. The note calls itself a draft in which "nothing here is decided".
 
@@ -790,7 +794,7 @@ since 2026-11-01 · from run/acq-recheck
 
 **Options:**
 
-a) (recommended, confidence medium - the published entry points are already right, so this only tidies a draft) Ask Acquire intake, through a line in its `messages.md`, to add SCAFFOLD to the note's amendment or to prune the note once its phase 1 has graduated.
+a) (recommended, confidence high - reviewed; the published entry points are already right, so this only tidies a draft) Ask Acquire intake, through a line in its `messages.md`, to add SCAFFOLD to the note's amendment or to prune the note once its phase 1 has graduated.
 
 b) Leave the note as it is, as a superseded draft.
 
