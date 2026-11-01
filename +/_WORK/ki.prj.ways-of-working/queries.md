@@ -1168,22 +1168,6 @@ a) (recommended, confidence high - reviewed; this is the repository's normal pat
 
 b) Hold it until the open points are settled.
 
-### PS-ROUTE - How Personal works and Knowledge Islands works send each other requests
-
-since 2026-11-01 · from run/handover-plan (PERSONAL-SHAPE) · blind review running
-
-**Context:** Personal's works cannot change Knowledge Islands repositories; the territory Charter gives no write authority across territories. Under the current message rule only one territory's State of play may write into another territory's works, so a request from an assistant or household work would pass through both States of play before reaching its Knowledge Islands owner. In practice Personal works already write straight into Knowledge Islands queues: today alone `personal.reg.rig-terra` sent five lines into Ways of working, and `personal.reg.acquire-intake` two. The handover makes this the normal path, since the assistant and household works will keep sending method needs to Knowledge Islands.
-
-**Query:** Which route should carry requests between named Personal works and named Knowledge Islands works?
-
-**Options:**
-
-a) (recommended, confidence medium - it matches what already happens and keeps every Knowledge Islands decision with its owner; not yet blind-reviewed) A standing direct route: Kris records which Personal works may add a line to which Knowledge Islands works' queues, and the reverse, and the message rule is amended to allow it. The receiver still decides priority, plan and delivery.
-
-b) Strictly through both States of play, with no rule change. Slowest: each line waits for two pick-ups.
-
-c) A written grant letting Personal runs commit into Knowledge Islands repositories. This conflicts with the Charter.
-
 ## Answered
 
 - TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT; BROKEN-LINKS-HISTORY - a (all 1 November 2026; see decisions.md).
