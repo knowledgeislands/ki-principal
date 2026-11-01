@@ -1,0 +1,5 @@
+# Brief: finished-tidy (ki.prj.ways-of-working)
+
+Kris decided FINISHED-TIDY-KICK - a on 1 November 2026 (wording in `/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/decisions.md`). The drafted and tested wording is in that package's `design/finished-tidy-kick.md` (if it has moved during tonight's tidy, find it under `design/` or `reports/`).
+
+In `/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness`: apply the drafted wording to `ki-coordination` and `ki-work-package` (and the folder check, so FOLDER-4 flags every Finished folder whether or not a closing mark was struck), regenerate (`ki dev skill generate ki-coordination --write`), run the tests, type check and audits. Before pushing, launch nothing yourself: instead write your diff summary into the report and stop with the commit made locally on a branch `finished-tidy`, not pushed, so the coordinator can arrange the independent review Kris's decision requires. Never force, `--no-verify`, rebase, reset or stash. Report as your run packet directs.
