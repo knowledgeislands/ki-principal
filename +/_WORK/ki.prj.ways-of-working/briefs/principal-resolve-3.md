@@ -1,0 +1,3 @@
+# Brief: principal-resolve-3
+
+Work: ki.prj.ways-of-working. ki-principal's local `main` has diverged from `origin/main`: this work's local commits are unpublished and other sessions have pushed. In `/Users/krisbrown/kis/knowledge-islands/ki-principal`: `git fetch`; make a temporary worktree from local `main`; `git merge origin/main` there (no rebase), resolving only trivial conflicts in `+/_WORK/ki.prj.ways-of-working/` by keeping both sides, else abort and report; push `origin main` fast-forward only, repeating the merge if another push lands meanwhile; fast-forward the primary checkout with `git merge --ff-only`, leaving others' uncommitted files untouched; `git worktree remove`. Never force, `--no-verify`, rebase, reset or stash. Report in plain English.
