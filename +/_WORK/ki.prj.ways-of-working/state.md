@@ -6,6 +6,10 @@ received: 2026-10-29T15:38:09Z
 beat: 2026-11-01T09:00:33Z
 mark: 2026-11-01T01:41:58Z
 method_read: df3f5503
+listening_enabled: true
+listening_status: on
+syncing_enabled: false
+syncing_status: off
 ---
 
 # ki.prj.ways-of-working state
