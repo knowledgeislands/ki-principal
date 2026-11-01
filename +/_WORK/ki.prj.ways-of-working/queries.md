@@ -554,22 +554,6 @@ a) (recommended, confidence high - reviewed; one stable name means no rename str
 
 b) No: keep `<label> (<id>)` as the starting name and use the 🧵 form only for the rename line.
 
-### TOP-LEVEL-NOW - Move reports into `reports/` now, or wait for the layout decision
-
-since 2026-11-01 · from run/top-level-cause (PACKAGE-TOP-LEVEL) · blind review 1 November agrees
-
-**Context:** On 30 October you directed that a work package keeps only its five files at the top level. The rules and the launcher were never changed, because the layout choice (LAYOUT-SHAPE) is still open, so reports keep landing at the top level: 182 of them across 17 folders today, a count the review confirmed. The cause is the `ki` launcher writing every report there by design (`tools-ki/src/core/agent/thread.ts:91`), with the rules and the folder check all allowing it. The quickest stop is a `reports/` folder inside each package: the launcher and the parts of `ki` that read reports back, the rules, the folder check, and one line in the shared Git ignore rules, which hide `reports/` folders today. Old locations stay readable during the change. If a group-first layout wins later, reports move a second time. The full diagnosis is [design/package-layout/top-level-cause.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/package-layout/top-level-cause.md).
-
-**Query:** Should reports go into a `reports/` folder now, ahead of the layout decision?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; the review confirmed the cause and the count in the code, and the change stops new build-up and can be reversed without settling LAYOUT-SHAPE) Yes: this work changes the rules, the folder check and the ignore exception, and sends ki.prj.tools-burndown one line to change the launcher and its readers, accepting both old and new places during the change; LAYOUT-SHAPE stays open.
-
-b) No: answer LAYOUT-SHAPE first and make one change to the chosen layout, with reports still arriving at the top level until then.
-
-c) Keep reports at the top level and tidy every package strictly at each mark.
-
 ### TOP-LEVEL-SWEEP-DELETE - Only each folder's steward deletes old reports
 
 since 2026-11-01 · from run/top-level-cause · split after blind review; both this work and the review agree on this part
@@ -600,6 +584,7 @@ b) State of play sends each of the 17 folders one message, and each steward move
 
 ## Answered
 
+- TOP-LEVEL-NOW - a (1 November 2026): reports into `reports/` now.
 - ORCA-REACH - answered a) on 30 October 2026, follow-up due 6 November 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
 - AGENT-HOME - answered a) on 30 October 2026, follow-up due 2 November 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
 - WAKE-SESSION - answered a) on 30 October 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
