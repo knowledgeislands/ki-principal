@@ -2,133 +2,47 @@
 
 ## Open
 
-### TRIAL-UNITS - The units and their order
+### SCOPE-SPLIT - Draw the line between this Project and Ways of working, and hand over the method questions
 
-**Context:** The plan proposes three units, all real work this package owns. Unit 1 (WAKE, legs A and B) proves `check --wait` in Claude Code and Codex while doing the Orca setup inventory. Unit 2 (LIVE) maps Orca's recovery, queue, ack and status verbs and commits that map in ki-principal. Unit 3 (SKILL, optional) drafts the ORCA-SKILL proposal under Orca. Leg B needs you to open a Codex session on this package. Units 1 and 2 should land before 6 November.
+**Context:** This Project opened on 30 October to work out how best to use Orca, taking over the trial evidence from Mac Studio setup and, when Ways of working sent them, the ORCA-FIT notes. Since then Ways of working has settled much of how Orca fits the method itself: the wake rule (WAKE-SESSION and WAKE-DURABLE, now in the delegation standard), queued runs going through Orca first (ORCA-QUEUE), Orca's own launch route beside `ki agent` (ORCA-PLACEMENT), worker close-out (ORCA-CLOSE-OUT) and package files holding no Orca Run id (ORCA-ROUTING). Four of this Project's earlier questions are really about the method every worker follows: how a worker commits in a repository whose hook stashes (TRIAL-PUBLISH; Ways of working's HOOK-STASH already asks it), how a question only you can answer travels (TRIAL-ASK), ids, prompt, liveness and report practice (TRIAL-PRACTICE), and stopping `ki agent` runs inheriting Orca's remaining pane and hook variables (ORCA-IDENTITY-LEAK). The ORCA-FIT draft holding those choices never left Ways of working.
 
-**Query:** Do you adopt units 1, 2 and 3 in that order, with unit 3 optional?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed, the blind review agreed; units 1 and 2 cover WAKE-SESSION and the plan069 failure, but whether to dogfood the proposal is a judgement call) Run 1A, 1B and 2. Then decide on unit 3, or draft the ORCA-SKILL proposal through `ki agent`, once unit 2's evidence is in.
-
-b) Run all three in order, with unit 3 under Orca as planned.
-
-c) Run unit 1 only, then come back with its evidence before anything else.
-
-### TRIAL-PUBLISH - How a trial worker publishes in ki-principal
-
-**Context:** ki-principal's pre-commit hook runs lint-staged, which creates and drops a backup stash. In plan069, a no-stash rule in the brief collided with that stash. The run's `worker_done` read `failed` although the work had succeeded, and you then granted a bounded exception for the report-only commit. Units 2 and 3 each produce a design note, and the trial workers share the checkout with other sessions.
-
-**Query:** How should units 2 and 3 publish their notes?
+**Query:** Should this Project keep only how Orca is used, the Orca evidence and feedback to Orca, and hand the four method questions and the ORCA-FIT open choices to Ways of working?
 
 **Options:**
 
-a) (recommended, confidence high - reviewed, the blind review agreed; it tests the worker-commit path the adapter needs while keeping the exception narrow and stated up front) Each brief carries a bounded exception from the start. The worker commits its own note by explicit path inside a write window granted by ask, and the repository's hook may create and drop lint-staged's backup stash. The worker itself never runs `git stash`. The coordinator pushes at receive.
+a) (recommended, confidence high - each of the four is already a live question or a settled rule in Ways of working, keeping them here duplicates it, and a message line is easily withdrawn) Yes. Send five short message lines to Ways of working (the four questions, plus a request to test the Orca wake in Codex during its CODEX-WAKE session), stop expecting the ORCA-FIT notes, and narrow this Project's scope to Orca usage, evidence, the launcher proposal and upstream feedback.
 
-b) No worker commits. The worker writes the note and its report, and the coordinator commits both at receive.
+b) No. Keep the four questions here, settle them in the trial, and pass the answers to Ways of working afterwards.
 
-### TRIAL-ASK - How a question only you can answer travels
+### TRIAL-SHAPE - What the trial still has to prove, now Orca is the way forward
 
-**Context:** An Orca ask blocks the worker. It times out after 10 minutes by default (30 at most), and a question left unanswered at timeout stays pending and can be resumed by message id. In plan069, an ask timed out after ten minutes and escalated, and you answered it in chat instead. The ORCA-FIT draft's OF-OWNER-ASK has not been handed over yet; its recommended option ends the worker's attempt with a blocking query.
+**Context:** Two units have now run through Orca: plan069 on 30 October and the stock-take tonight, started from this Orca chat through the new Run. They already show that a worker started from a chat coordinator sends heartbeats, runs without permission prompts and sees the extra workspace folders. Still unseen: whether the worker shows nested under the coordinator's row, whether Orca's wait command works as the coordinator's five-minute wake in a Claude Code chat, whether a chat coordinator can release a finished worker, and whether a worker survives its coordinator chat ending. The old unit 2 (mapping Orca's recovery, queue and status commands) is now mostly covered by Ways of working's sub-agent design, and the Codex half of the wake test overlaps Ways of working's attended CODEX-WAKE session.
 
-**Query:** During the trial, how does a worker raise a question only you can answer?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed, the blind review agreed; it keeps the ask for what the coordinator can answer and needs no one to stay attentive for half an hour) The coordinator answers its own asks with `--timeout-ms 1800000`, resuming by message id on timeout. A question only you can answer ends the attempt: the worker raises it as a blocking query, `worker_done --outcome failed` names its tag, and the coordinator records it in `queries.md` and retries after you answer.
-
-b) The worker keeps the ask open while the coordinator relays it to you, and resumes the same message after each 30-minute timeout.
-
-### TRIAL-PRACTICE - Provisional working practice until the ORCA-FIT notes arrive
-
-**Context:** The units need a working rule for ids, specifications, liveness and reports. The ORCA-FIT draft recommends one for each: ids go on a `state.md` Now line; the specification is the full rendered prompt; liveness comes from Orca heartbeats only; and reports go outside the repository, named by `--report-path`. That draft has not been handed to this package. The plan uses these rules for the trial only and decides none of the open choices.
-
-**Query:** Do the units run on the ORCA-FIT draft's recommended practice as a provisional, trial-only rule?
+**Query:** Do you adopt a two-unit plan - unit 1 an attended pilot whose real work is homing all the Orca evidence into the trial log, unit 2 drafting the Orca launcher proposal - with the Codex wake check riding on Ways of working's CODEX-WAKE session?
 
 **Options:**
 
-a) (recommended, confidence high - reviewed, the blind review agreed; it lets the trial generate evidence for those choices without settling them early) Yes, provisionally and for the trial only. The units' evidence then goes back to the ORCA-FIT choices when the notes arrive.
+a) (recommended, confidence high - it proves only what is still unseen, each unit does real work, and it avoids a second attended Codex session) Yes, the two-unit plan.
 
-b) No. Wait for the ORCA-FIT notes and settle those choices before any unit runs.
+b) Keep the original three units (wake in Claude Code and in Codex, the command map, then the proposal), in order.
 
-### NEST-TRIAL - Prove run nesting inside the trial
+c) Run no more trial units: write the Orca launcher proposal now from the evidence in hand and leave the unseen points to first live use.
 
-**Context:** Orca nests a run under its coordinator only when it started the run itself (`orca orchestration worker-start` or `dispatch`), which records the coordinator as parent; the coordinator's row then gets a collapsible "N agents" group, and the Agents-list switch "Show child agents" (off on sol) reveals the child rows. Detached `ki agent` runs cannot claim a parent, so they stay flat. This is read from Orca's code and has not been seen on screen. The trial already plans Orca-dispatched units, and the Orca launcher proposal (ORCA-SKILL) follows them.
+### ORCA-SKILL-NOW - Bring the Orca launcher proposal forward
 
-**Query:** Should the trial's next Orca-dispatched unit check the nesting on screen, and ORCA-SKILL count it as a benefit of the Orca launcher?
+**Context:** On 30 October you said that after two or three units the trial should be turned into a proposal for an Orca launcher under the delegation and coordination skills. Two units have now run through Orca, and Ways of working has already named the adapter `ki-delegation-orca` and designed the `ki agent` side. The proposal's evidence is this Project's; adopting it into the harness skills is Ways of working's.
 
-**Options:**
-
-a) (recommended, confidence high - reviewed, the blind review agreed; it costs nothing extra and settles what the code suggests) Yes: switch "Show child agents" on and record what the coordinator's row shows in the trial evidence; `ki agent` runs stay flat until the launcher decision.
-
-b) Try the low-level route now instead: run an agent in an Orca terminal and attach an orchestration Task to it, keeping `ki agent`'s lifecycle; untested, and Orca's guide calls it unsupervised.
-
-### NEST-FR - Ask Orca for a supported way for outside sessions to declare a parent
-
-**Context:** Today only Orca's orchestration records give a row a parent; a session Orca did not start, such as a `ki agent` run, has no supported way to declare a parent or a display name. A feature request would ask for one (an `orca agent attach --parent ... --name ...` command or a documented hook variable). Views differ: the investigating run would fold nesting into the trial and not ask yet; the blind review would ask now, so that runs keeping `ki agent`'s lifecycle could nest. If you take Orca as the launcher for this work, the request matters less. It could go together with the sidebar request (ORCA-SIDEBAR-FR). Sending it is an outbound action.
-
-**Query:** Should a feature request for outside sessions to declare a parent go to Orca now?
+**Query:** Should the Orca launcher proposal be drafted now, as the trial's second and last unit, and handed to Ways of working to adopt?
 
 **Options:**
 
-a) (recommended, confidence high - reviewed, a second blind review agreed; with Orca now this work's launcher, the trial should show whether outside sessions still need it) Hold it until trial unit 1 has shown nesting on screen, then decide, bundled with any other Orca feedback.
+a) (recommended, confidence high - the trigger you set is met, and unit 1 can feed the draft the same day) Yes, straight after unit 1 lands, as a design note in this package, then a message line to Ways of working for adoption.
 
-b) Send it now, bundled with the sidebar request.
+b) Wait for the 6 November ORCA-REACH follow-up and draft it then.
 
-### ORCA-IDENTITY-LEAK - Stop `ki agent` runs inheriting the coordinator's Orca identity
+### ORCA-UPSTREAM - One bundled request to Orca (blind review running)
 
-**Context:** `ki agent` passes its whole environment to each run, so a run started from an Orca chat coordinator carries the coordinator's Orca session id and spawn token. `orca status` from inside this run reports it as the coordinator, live. Orca uses that id to work out who is calling an orchestration command, so an `orca orchestration check`, `send` or `ask` from a run would act as the coordinator, for example taking the coordinator's Run mail. A coordinator in an Orca terminal pane would pass on its pane and hook variables too. Fixing it means changing `ki agent`, which ki.prj.ways-of-working owns. If terra's runs appear only through inherited pane variables, removing those variables may also take the runs out of terra's list.
-
-Half of this landed on 31 October: tools-ki `2970714c` now stops runs inheriting `ORCA_AGENT_SESSION_ID`, `ORCA_AGENT_SESSION_SPAWN_TOKEN`, `ORCA_STRUCTURED_SESSION` and `ORCA_CHAT_SCRATCH_DIR`, so a run can no longer act as the coordinator in orchestration commands. The pane, tab, worktree and hook variables are still passed on.
-
-**Query:** Should this Project ask ki.prj.ways-of-working to have `ki agent` also drop the remaining Orca pane, tab, worktree and hook variables from the runs it starts?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed, the blind review agreed; the leak was seen directly, but how removing the variables affects terra's list is unverified) Send the message. It asks `ki agent` to drop `ORCA_PANE_KEY`, `ORCA_TAB_ID`, `ORCA_WORKTREE_ID` and the `ORCA_AGENT_HOOK_*` variables as well, and to check terra's list afterwards.
-
-b) Hold it until the attended terra check shows how terra lists the runs, then decide.
-
-c) Leave `ki agent` unchanged and add a brief rule that runs must not call `orca orchestration` commands.
-
-### ORCA-SIDEBAR-FR - Feature request for a clearer way to show hidden items
-
-**Context:** Hiding is one click on the item itself. Showing it again is only possible from Settings > Appearance > Sidebar, or for Mobile from the Mobile page's toolbar, and the sidebar itself gives no hint of either. The message shown after hiding Mobile also points to the wrong Settings page. The control exists, so this is about how easy it is to find, not a missing feature.
-
-**Query:** Should a short feature request go to Orca asking for an obvious way to show hidden items?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed, the blind review agreed, and would bundle the sidebar and label requests into one short request; the control exists but you could not find it, which is the usability gap a request would fix) Send one short request. It would ask that hiding an item shows a message linking to Settings > Appearance > Sidebar, or that the sidebar's right-click menu lists hidden items to show again, and that the "Settings > Mobile" message is corrected.
-
-b) Do not send a request. Note the Settings location in the Orca evaluation and move on.
-
-### LABEL-FIRST - Keep Orca's swap or ask Orca for a name-first row
-
-**Context:** Orca deliberately shows "Monitoring background tasks" before the chat name while an agent's turn has ended but a background task is still live. Every coordinator keeps one background waiter armed between turns, so its row usually reads "Monitoring background tas..." rather than its name. No Orca setting changes this. Renaming sessions or background tasks has no effect. Dropping the waiter would cost the coordinator its wake.
-
-**Query:** How should coordinator rows get a stable name in Orca's worktree card?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed, the blind review agreed, and would bundle the sidebar and label requests into one short request; the code makes the cause certain, but whether to ask Orca for a change, which is an outward-facing step, is your call) Accept the swap for now and raise an Orca feature request: put the name first and show monitoring through the status dot, or add a setting for it. The request would be sent only on your go.
-
-b) Change the coordinator's wake so it holds no Claude Code background task between turns, for example a scheduled wake instead of an armed waiter. This is a change to the coordinator method, and nobody has checked yet whether it works in Orca native chats.
-
-c) Accept the swap and do nothing further. The name is still on the end of the row, past the cut, and on the chat's own tab.
-
-### ORCA-RUN-REBIND - A new Orca Run for this thread
-
-**Context:** On 30 October you chose Orca for all of this Project's runs on attended Macs, with one Orca Run of its own (ORCA-OPTIN b). That Run, `run_30f79294698c`, is tied to the previous chat session; Orca refuses this new session's commands on it ("caller not bound"), so no unit can be started or collected through it. Nothing is running in it. Orca offers no supported way to move a Run to a new session.
-
-**Query:** May this thread open a replacement Orca Run for the Project and stop using the old one?
-
-**Options:**
-
-a) (recommended, confidence high - it keeps ORCA-OPTIN's one-Run-per-Project intent, and the old Run holds nothing in flight) Create a new Run whose objective starts with `ki.prj.orca-evaluation`, note the old Run as retired in `state.md`, and dispatch every new unit through the new Run.
-
-b) Fall back to `ki agent` for this session's runs and keep the old Run as it is until Orca can rebind it.
+Held back until its blind review returns; the question-card line-break bug is already authorised and goes in whatever is sent.
 
 ## Parked
 
