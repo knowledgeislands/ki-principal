@@ -1168,6 +1168,86 @@ a) (recommended, confidence high - reviewed; this is the repository's normal pat
 
 b) Hold it until the open points are settled.
 
+### PS-METHOD-HOME - Who holds Knowledge Islands' method work once Ways of working closes
+
+since 2026-11-01 · from run/handover-plan (PERSONAL-SHAPE) · blind review running
+
+**Context:** Kris wants Ways of working emptied and closed, leaving Knowledge Islands Projects, the dotfiles works and the assistant works. Most of what it holds is Knowledge Islands' own method: the work model, the coordination and delegation skills, the output style, the roadmap rules, the Orca adapter and about 60 open or parked questions about them. Its own definition already says that once the method is defined, stewardship passes to State of play. State of play, `ki.sop.main`, is the territory's front door and dispatches work; taking the method would make it the one place that changes the harness skills.
+
+**Query:** When Ways of working closes, should its method work pass to State of play, to a new slimmer method work, or stay where it is until the method settles?
+
+**Options:**
+
+a) (recommended, confidence medium - it follows Ways of working's own stated goal and adds no new work; not yet blind-reviewed) Pass it to State of play, which keeps the method queries, design notes and harness changes and launches runs for them.
+
+b) Open a small Knowledge Islands method work, such as `ki.reg.method`, to hold it, keeping State of play to dispatch.
+
+c) Keep Ways of working open for the method only, once the personal items have moved, and close it later.
+
+### PS-ROUTE - How Personal works and Knowledge Islands works send each other requests
+
+since 2026-11-01 · from run/handover-plan (PERSONAL-SHAPE) · blind review running
+
+**Context:** Personal's works cannot change Knowledge Islands repositories; the territory Charter gives no write authority across territories. Under the current message rule only one territory's State of play may write into another territory's works, so a request from an assistant or household work would pass through both States of play before reaching its Knowledge Islands owner. In practice Personal works already write straight into Knowledge Islands queues: today alone `personal.reg.rig-terra` sent five lines into Ways of working, and `personal.reg.acquire-intake` two. The handover makes this the normal path, since the assistant and household works will keep sending method needs to Knowledge Islands.
+
+**Query:** Which route should carry requests between named Personal works and named Knowledge Islands works?
+
+**Options:**
+
+a) (recommended, confidence medium - it matches what already happens and keeps every Knowledge Islands decision with its owner; not yet blind-reviewed) A standing direct route: Kris records which Personal works may add a line to which Knowledge Islands works' queues, and the reverse, and the message rule is amended to allow it. The receiver still decides priority, plan and delivery.
+
+b) Strictly through both States of play, with no rule change. Slowest: each line waits for two pick-ups.
+
+c) A written grant letting Personal runs commit into Knowledge Islands repositories. This conflicts with the Charter.
+
+### PS-STUDIO - What happens to Mac Studio setup
+
+since 2026-11-01 · from run/handover-plan (PERSONAL-SHAPE) · blind review running
+
+**Context:** [ki.prj.mac-studio-setup](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/work.md) mixes three things: sol's own setup, which is household work that [personal.reg.rig-sol](/Users/krisbrown/kis/personal/personal-principal/+/_WORK/personal.reg.rig-sol/work.md) already largely does; the tools-rig lane, a Knowledge Islands product; and Orca trials, already handed to Orca evaluation.
+
+**Query:** Should Mac Studio setup close and split, move whole to Personal, or stay?
+
+**Options:**
+
+a) (recommended, confidence medium - each part goes to the owner of its repository or area; not yet blind-reviewed) Close it in Knowledge Islands: sol's setup to rig-sol, the tools-rig lane to `ki.prj.tools-burndown`, and any item about sol as a Techné agent host to `ki.prj.agent-host`.
+
+b) Move it whole to Personal as a Project, sending its tools-rig records across the route.
+
+c) Keep it in Knowledge Islands.
+
+### PS-CHEZMOI - Where chezmoi's records work goes
+
+since 2026-11-01 · from run/handover-plan (PERSONAL-SHAPE) · blind review running
+
+**Context:** Kris has said chezmoi, the dotfiles, is the household area on each rig. [ki.prj.chezmoi](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.chezmoi/work.md) works the dotfiles repository's records, which serve both rigs, and Personal already lists that repository as its own. Each rig's household thread already does that rig's reviewed applies. Its queue includes a scheduled-runner design shared with the Observatory and tools-burndown.
+
+**Query:** Should chezmoi's records work become a Personal Project, fold into the two rig household threads, or stay?
+
+**Options:**
+
+a) (recommended, confidence medium - one place keeps records that serve both rigs, in the territory that owns the repository; not yet blind-reviewed) Move it to Personal as a Project, such as `personal.prj.chezmoi` under the `rig` theme, once the PS-ROUTE route exists for its shared queue.
+
+b) Fold it into rig-terra and rig-sol, each taking the records for its own rig, with shared records led by rig-sol.
+
+c) Keep it in Knowledge Islands.
+
+### PS-ORCA - Where Orca evaluation goes
+
+since 2026-11-01 · from run/handover-plan (PERSONAL-SHAPE) · blind review running
+
+**Context:** [ki.prj.orca-evaluation](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.orca-evaluation/work.md) is small and two days old. Its SCOPE-SPLIT question, with Kris, already hands Orca's place in the method to Ways of working, leaving how Kris uses Orca on the rigs, its trials and the bug reports to Orca's makers. Orca is where Kris opens the assistant on sol.
+
+**Query:** Should Orca evaluation move to Personal, be shared out between the assistant and household works, or stay?
+
+**Options:**
+
+a) (recommended, confidence medium - what remains after SCOPE-SPLIT is Kris's own tool use, and a small package makes a safe first move; not yet blind-reviewed) Move it to Personal as a Project once SCOPE-SPLIT is answered, and use it as the pilot move that writes the procedure.
+
+b) Close it: how Kris uses Orca goes to the assistant works, Orca's installation and settings to the household works, and the bug reports with them.
+
+c) Keep it in Knowledge Islands.
+
 ## Answered
 
 - TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT; BROKEN-LINKS-HISTORY - a (all 1 November 2026; see decisions.md).
