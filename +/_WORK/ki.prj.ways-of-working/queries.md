@@ -40,29 +40,15 @@ b) No: keep file-by-file deletion inside groups.
 
 since 2026-11-01 · from IDEAS-ROADMAP-PRINCIPLE in the interactive pass; replaces it · to shape with the empty-board design
 
-**Context:** On 31 October Kris said "future ideas could go into the knowledge graph in a way, saying these are things we're not enacting for now" (IDEAS-IN-GRAPH). On 1 November Kris was no longer sure what was meant: ideas may relate to roadmap items, ways of working, work packages and Projects, and perhaps a future idea is "just part of a card at the bottom of it ... things we need to go away and look at in the future in respect to this area". The roadmap standard still offers `Idea:` bullets and `_IDEAS.md`; the capture skill follows IDEAS-IN-GRAPH. IDEAS-HOME in the empty-board design is still open.
+**Context:** On 31 October Kris said "future ideas could go into the knowledge graph in a way, rather than saying these are things which we're enacting for now" (IDEAS-IN-GRAPH). On 1 November Kris was no longer sure what was meant: ideas may relate to roadmap items, ways of working, work packages and Projects, and perhaps a future idea is "just part of a card at the bottom of it ... things we need to go away and look at in the future in respect to this area". The roadmap standard still offers `Idea:` bullets and `_IDEAS.md`; the capture skill follows IDEAS-IN-GRAPH. IDEAS-HOME in the empty-board design is still open.
 
 **Query:** Where should a future idea live?
 
 **Options:** to be drafted by the empty-board design and reviewed before it comes back; candidates are a "future" section at the foot of the card, Project or work package it concerns, future concepts in the knowledge graph, and the roadmap's idea places as now.
 
-### BROKEN-LINKS-HISTORY - Repair broken links in old decision entries and design notes too?
-
-since 2026-10-31 · from run/wow-tidy-move · split after blind review 31 October 23:34 GMT; the review differs from this work
-
-**Context:** Most of the 66 broken links sit in old entries in the decisions log and in design notes kept as history. Repairing them restores access to the evidence; the risk is changing what the history meant, for example by pointing an old citation at today's version of a rule that has since changed. The standard gives no exemption for historical links.
-
-**Query:** Should the historical links be repaired as well?
-
-**Options:**
-
-a) (recommended, confidence medium - the blind review's view: the standard gives no exemption and broken history hides evidence, but not every replacement has been checked; this work's earlier view was that it is churn with little reading value) Yes: repair them too, linking each to the revision it originally meant, never to a later version, keeping your quoted words unchanged and naming any source that can't be recovered.
-
-b) No: leave historical entries and design notes as they are, so only the files in use are repaired.
-
 ## Answered
 
-- TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT (all 1 November 2026; see decisions.md).
+- TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT; BROKEN-LINKS-HISTORY - a (all 1 November 2026; see decisions.md).
 - TOP-LEVEL-SWEEP-DELETE - a (1 November 2026): only stewards delete old reports.
 - TOP-LEVEL-NOW - a (1 November 2026): reports into `reports/` now.
 - ORCA-REACH - answered a) on 30 October 2026, follow-up due 6 November 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).

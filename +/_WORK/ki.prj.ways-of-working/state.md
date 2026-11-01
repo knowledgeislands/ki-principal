@@ -1,10 +1,10 @@
 ---
 id: ki.prj.ways-of-working
-state: with-supervisor
-since: 2026-10-31T23:46:02Z
+state: with-worker
+since: 2026-11-01T01:10:12Z
 received: 2026-10-29T15:38:09Z
-beat: 2026-10-31T23:46:02Z
-mark: 2026-10-31T13:55:09Z
+beat: 2026-11-01T01:10:12Z
+mark: 2026-11-01T01:10:12Z
 method_read: df3f5503
 ---
 
