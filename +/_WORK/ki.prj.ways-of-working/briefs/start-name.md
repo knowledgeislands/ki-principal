@@ -1,0 +1,7 @@
+# Brief: start-name (ki.prj.ways-of-working)
+
+Kris decided RENAME-NAME - a on 1 November 2026: a session opened from its opener starts with the thread name `🧵 <work-id>`, the same as the rename line and every report's thread line.
+
+In `/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness`: change the `ki-coordination` standard's Opening work sentence to `claude --name "🧵 <work-id>"`, and qualify the Work naming rule so native sessions take `🧵 <work-id>` while the label stays in the opener and the report heading; update any other surface that states the launch name (output-style source, rubric, tests), run `ki dev skill generate ki-coordination --write`, the tests, type check and the coordination audit; commit by explicit path and push `main` fast-forward only.
+
+Then append one line to `/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.tools-burndown/messages.md`: `- 2026-11-01 · START-NAME · Ways of working (ki.prj.ways-of-working): Kris decided RENAME-NAME on 1 Nov: please have \`ki agent prompts\` print, for Claude Code, a launch command starting the session as \`claude --name "🧵 <work-id>"\` before the opener text (src/core/work/prompts.ts, src/commands/agent/index.ts); harness <commit>.` Commit it by explicit path and push; on a pull that cannot fast-forward, merge in a temporary worktree. Never force, `--no-verify`, rebase, reset or stash. Report as your run packet directs.
