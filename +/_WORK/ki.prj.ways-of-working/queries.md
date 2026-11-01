@@ -686,20 +686,6 @@ a) (recommended, confidence high - reviewed; both broken links and the pinned ve
 
 b) Leave them, since both links were already broken and the records are finished.
 
-### ORCA-ADAPTER-WHEN - When to create the Orca adapter
-
-since 2026-11-01 · from run/rename-paperclip · blind review 1 November
-
-**Context:** Kris chose the delegation family on 1 November: `ki-delegation` as the shared contract, with an Orca adapter and a Paperclip adapter. The Paperclip adapter now exists under its new name. The Orca adapter doesn't exist yet. Writing it means describing how Orca carries out the shared contract (launch, queue, status, recovery, cleanup). That contract is still being slimmed, and the [Orca evaluation](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.orca-evaluation/state.md) puts its attended pilot first and has not tested a remote run. The existing `orca-cli` skill already covers using Orca in the meantime.
-
-**Query:** Should `ki-delegation-orca` be written now, or after the slimmed `ki-delegation` contract and the Orca evaluation's trial have landed?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; the adapter would otherwise describe a contract that is still changing and Orca behaviour nobody has tested) Wait: commission it as one harness run once the parts of the slimmed contract the adapter needs have landed and the Orca evaluation has reported, written from that evidence, with nothing untested, such as running a worker on another machine, claimed as supported.
-
-b) Write a minimal skeleton now: a skill that names its boundary, points to `ki-delegation` and records the open questions, then fill it in after the trial.
-
 ### PAPERCLIP-RETIRE - What to do with the Paperclip skill now it is not in use
 
 since 2026-11-01 · from PAPERCLIP-DORMANT · blind review 1 November
@@ -757,6 +743,20 @@ since 2026-11-01 · from run/wow-lint
 a) (recommended, confidence medium - this keeps the agenda and follows the existing tidy rule) Move the agenda into state.md's next steps, and clear the Answered section at the next tidy once each answer is in the decisions log.
 
 b) Keep both where they are and accept the audit failures until the query pass ends.
+
+### DUE-FIELD - Add an optional due date to roadmap records
+
+since 2026-11-01 · from personal.reg.acquire-intake (ROADMAP-DUE-FIELD) · blind review needed
+
+**Context:** Acquire's restructure, which Kris accepted on 1 November ("restructure now"), stages work to be done as unnumbered roadmap drafts with a due date for the receiving Capital's Streams. Roadmap records have no `due:` field today, and Personal already works around its absence. Adding an optional field changes the roadmap standard and its checks, and every reader that lists records could show it.
+
+**Query:** Should roadmap records gain an optional `due:` date?
+
+**Options:**
+
+a) (recommended, confidence medium - it serves a decided need at little cost, being optional, but no one has yet said how a due date interacts with horizons and the owner queue) Yes: add an optional `due:` ISO date to the record front matter in `ki-work-roadmap` and its checks, with no effect on horizon or ordering until Kris says otherwise.
+
+b) No: keep due dates in the record body, as Personal does now.
 
 ## Answered
 
