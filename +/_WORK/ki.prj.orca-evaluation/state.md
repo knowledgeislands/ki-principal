@@ -1,7 +1,7 @@
 ---
 id: ki.prj.orca-evaluation
-state: with-supervisor
-since: 2026-10-31T23:20:00Z
+state: with-worker
+since: 2026-11-01T00:41:00Z
 received: 2026-10-30T01:49:00Z
 beat: null
 mark: 2026-10-30T01:42:30Z
@@ -13,7 +13,8 @@ method_read: df3f5503
 ## Now
 
 - Re-bootstrapped 23:20 GMT on 31 October from session `4494702a`; with Kris with ten queries: TRIAL-UNITS, TRIAL-PUBLISH, TRIAL-ASK, TRIAL-PRACTICE, NEST-TRIAL, NEST-FR, ORCA-IDENTITY-LEAK (narrowed), ORCA-SIDEBAR-FR, LABEL-FIRST, ORCA-RUN-REBIND.
-- ORCA-OPTIN b): dispatch is through Orca. Run `run_30f79294698c` is bound to the previous session and refuses this one; a replacement waits on ORCA-RUN-REBIND.
+- ORCA-OPTIN b): dispatch is through Orca, Run `run_a30bc0d03f5b` (from 1 November); `run_30f79294698c` is retired, bound to the previous session.
+- Running: stock-take (brief `briefs/stock-take.md`, report to ~/.local/state/ki/agents/ki-prj-orca-evaluation/stock-take.report.md), read-only consolidation proposal at Kris's word of 1 November.
 - Evidence held outside the repository until homed: run reports under ~/.local/state/ki/agents/ki-prj-orca-evaluation/ (trial-plan, thread-nesting, sidebar-restore, orca-labels).
 - Bundled Orca request draft to carry: card line breaks (ORCA-CARD-BUG, authorised), settings export (ORCA-SETTINGS-READ), and the sidebar and label requests on Kris's go.
 
