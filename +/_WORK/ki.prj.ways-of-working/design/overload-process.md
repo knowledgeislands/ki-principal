@@ -1,6 +1,7 @@
 ---
 title: When overloaded
 status: draft
+note_type: streams/design
 ---
 
 # When overloaded

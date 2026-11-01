@@ -3,6 +3,7 @@ work: ki.prj.ways-of-working
 run: wow-package-definition-review-a-20261029
 agent: codex
 written_at: 2026-10-29T20:44:50Z
+note_type: streams/design
 ---
 
 # Package definition and session freshness: review by portability reviewer
