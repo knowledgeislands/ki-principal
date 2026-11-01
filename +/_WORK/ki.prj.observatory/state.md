@@ -1,8 +1,8 @@
 ---
 id: ki.prj.observatory
 state: with-supervisor
-since: 2026-10-29T15:47:28Z
-received: 2026-10-29T15:47:28Z
+since: 2026-11-01T00:58:00Z
+received: 2026-11-01T00:58:00Z
 beat: null
 mark: 2026-10-29T15:47:28Z
 method_read: df3f5503
