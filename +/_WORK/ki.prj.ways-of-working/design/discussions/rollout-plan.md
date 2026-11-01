@@ -6,7 +6,7 @@
 
 ## Done
 
-- Planned the DISCUSSIONS - b rollout (Kris, 1 November 2026, "Files too"), starting from [design/discussions/design.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/discussions/design.md). Nothing was changed and nothing committed; the plan exists only in this report, under Findings.
+- Planned the DISCUSSIONS - b rollout (Kris, 1 November 2026, "Files too"), starting from [design/discussions/design.md](https://github.com/knowledgeislands/ki-principal/blob/f8c70a3000cdd7a531811ffe363884489eda0e50/+/_WORK/ki.prj.ways-of-working/design/discussions/design.md). Nothing was changed and nothing committed; the plan exists only in this report, under Findings.
 - Searched every repository under `/Users/krisbrown/kis/`, the chezmoi source and `/Users/krisbrown/workspaces/git/`. Readers and writers were found in 7 repositories: the harness, `tools-ki`, the Observatory, the website, chezmoi, and two Knowledge Islands Principal notes. There are 60 tracked `queries.md` files in 9 repositories, none in `+/_WORK_REVIEW/`, and no `discussions.md` yet.
 - The hook line needs no change: `hooks/coordinator-reminder.sh` contains no query wording. The output style does change, and under the restart rule that is a trigger for every live coordinating thread.
 - These hits are unrelated and stay out of scope: `tools-rig`'s `RIG-QUERY` spec, the 5G-EMERGE "source queries", HNR-PRINCIPAL-PRD-001's "Queries to settle", `ki-repo-kb` search "query" mode, and `tools-ki` `kb` search.

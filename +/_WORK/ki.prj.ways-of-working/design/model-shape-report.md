@@ -6,7 +6,7 @@ author: Written with Claude
 
 # Model shape: one State of play, many packages: merged report
 
-**Brief:** [model-shape.md](model-shape.md) · **Reviews:** [model-shape-review-codex.md](model-shape-review-codex.md) (GPT-6, Codex), [model-shape-review-claude.md](model-shape-review-claude.md) (Claude Opus 5.5, Claude Code) · **Date:** 2026-10-25
+**Brief:** [model-shape.md](https://github.com/knowledgeislands/ki-principal/blob/f8c70a3000cdd7a531811ffe363884489eda0e50/+/_WORK/ki.prj.ways-of-working/design/model-shape.md) · **Reviews:** [model-shape-review-codex.md](https://github.com/knowledgeislands/ki-principal/blob/f8c70a3000cdd7a531811ffe363884489eda0e50/+/_WORK/ki.prj.ways-of-working/design/model-shape-review-codex.md) (GPT-6, Codex), [model-shape-review-claude.md](https://github.com/knowledgeislands/ki-principal/blob/f8c70a3000cdd7a531811ffe363884489eda0e50/+/_WORK/ki.prj.ways-of-working/design/model-shape-review-claude.md) (Claude Opus 5.5, Claude Code) · **Date:** 2026-10-25
 
 **Status:** merged report under `ki-work-design`, awaiting Kris's decisions. Nothing here is a standard; no standard, Pillars note or package file has changed.
 

@@ -10,7 +10,7 @@ author: Written with Claude
 
 # Host reconcile: the plan in plain English
 
-**Owning work:** `ki.prj.ways-of-working` · **Authority:** HOST-RECONCILE answers, Kris, 31 October 2026, 13:14 GMT, in [decisions.md](../../decisions.md) · **Builds on:** [findings](findings.md), the [merged host-sync report](../host-sync/report.md) and the [inbox wake design](../inbox-wake/design.md). This note changes nothing on either Mac; the Rig threads plan and install.
+**Owning work:** `ki.prj.ways-of-working` · **Authority:** HOST-RECONCILE answers, Kris, 31 October 2026, 13:14 GMT, in [decisions.md](../../decisions.md) · **Builds on:** [findings](https://github.com/knowledgeislands/ki-principal/blob/f8c70a3000cdd7a531811ffe363884489eda0e50/+/_WORK/ki.prj.ways-of-working/design/host-reconcile/findings.md), the [merged host-sync report](../host-sync/report.md) and the [inbox wake design](../inbox-wake/design.md). This note changes nothing on either Mac; the Rig threads plan and install.
 
 ## 1. What runs, where
 

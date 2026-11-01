@@ -50,7 +50,7 @@ Top-level reports, all U:
 | Report | Verdict | Where the outcome and each query went |
 | --- | --- | --- |
 | `a-3` | delete after copy | Outcome is in the window record. PILOT-CONTRACT-LINE is open and appears only in the morning summaries: copy it in. |
-| `accept-by-criteria` | delete | Outcome is in [accepted](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/window-31-oct/accepted.md) and decisions (31 Oct 01:51). HARNESS-RECEIVER and CLOSE-OUT-ROUTE were settled in practice: log one line each. |
+| `accept-by-criteria` | delete | Outcome is in [accepted](https://github.com/knowledgeislands/ki-principal/blob/f8c70a3000cdd7a531811ffe363884489eda0e50/+/_WORK/ki.prj.ways-of-working/design/window-31-oct/accepted.md) and decisions (31 Oct 01:51). HARNESS-RECEIVER and CLOSE-OUT-ROUTE were settled in practice: log one line each. |
 | `b-U5` | delete after copy | Outcome is in the tools-burndown U5-LANDED receipt (tools-mgit `f67e255`). SYNC-UNPUSHED-EXIT is open, belongs to tools-mgit and was never logged. |
 | `blind-broken-links` | delete | Received 31 Oct 23:35. BROKEN-LINKS was split: -LIVE answered a), -HISTORY open in `queries.md`. |
 | `blind-layout` | delete | Received 1 Nov 00:42. LAYOUT-SHAPE is open in `queries.md`, now reframed by LAYOUT-TOPIC. |
