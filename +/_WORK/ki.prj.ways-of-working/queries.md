@@ -36,21 +36,15 @@ a) (recommended, confidence high - reviewed; one named group deletion stays revi
 
 b) No: keep file-by-file deletion inside groups.
 
-### IDEAS-ROADMAP-PRINCIPLE - Retire the standard's other idea stores now or later
+### IDEAS-REVISIT - Where a future idea lives
 
-since 2026-10-31 · from run/capture-skill · split from IDEAS-ROADMAP-STANDARD after blind review
+since 2026-11-01 · from IDEAS-ROADMAP-PRINCIPLE in the interactive pass; replaces it · to shape with the empty-board design
 
-**Context:** IDEAS-IN-GRAPH says future ideas live in the knowledge graph as future concepts, not on the roadmap. The `ki-work-roadmap` standard ([Ideas and graduation](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-work-roadmap/references/standards-repository-roadmaps.md#ideas-and-graduation)) sends concepts to a Capital's Emerging Concepts note, and other ideas to `Idea:` bullets in Project or theme notes or to `_IDEAS.md` beside the roadmap. The capture skill has already been changed to follow IDEAS-IN-GRAPH; the standard has not. Retiring the alternatives would deal with where ideas go next, not delete or move any idea already written down.
+**Context:** On 31 October Kris said "future ideas could go into the knowledge graph in a way, saying these are things we're not enacting for now" (IDEAS-IN-GRAPH). On 1 November Kris was no longer sure what was meant: ideas may relate to roadmap items, ways of working, work packages and Projects, and perhaps a future idea is "just part of a card at the bottom of it ... things we need to go away and look at in the future in respect to this area". The roadmap standard still offers `Idea:` bullets and `_IDEAS.md`; the capture skill follows IDEAS-IN-GRAPH. IDEAS-HOME in the empty-board design is still open.
 
-**Query:** Should the roadmap standard now stop offering `Idea:` bullets and `_IDEAS.md` as places for new ideas, or keep them until IDEAS-HOME is settled?
+**Query:** Where should a future idea live?
 
-**Blind review (31 October, Codex, high effort):** differs, picking b) at medium confidence: the graph principle can replace the conflicting routing now without choosing the graph's final organisation. It adds that this holds only if IDEAS-IN-GRAPH was meant territory-wide, that existing ideas must be kept until their destinations are approved, and that the standard must still keep an idea distinct from approved work.
-
-**Options:**
-
-a) (recommended, confidence medium - this work: the current text already keeps ideas off the record queue, and retiring the alternatives decides part of IDEAS-HOME early; the blind review differs: IDEAS-IN-GRAPH already conflicts with the standard's routing and can replace it now without choosing the graph's organisation) Keep the alternatives until Kris settles IDEAS-HOME, then change the standard in one pass.
-
-b) Change it now: the standard says new future ideas go into the graph as future concepts and stops offering `Idea:` bullets and `_IDEAS.md`, keeping existing ideas where they are until their destinations are approved.
+**Options:** to be drafted by the empty-board design and reviewed before it comes back; candidates are a "future" section at the foot of the card, Project or work package it concerns, future concepts in the knowledge graph, and the roadmap's idea places as now.
 
 ### BROKEN-LINKS-HISTORY - Repair broken links in old decision entries and design notes too?
 
@@ -68,7 +62,7 @@ b) No: leave historical entries and design notes as they are, so only the files 
 
 ## Answered
 
-- TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided (all 1 November 2026; see decisions.md).
+- TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT (all 1 November 2026; see decisions.md).
 - TOP-LEVEL-SWEEP-DELETE - a (1 November 2026): only stewards delete old reports.
 - TOP-LEVEL-NOW - a (1 November 2026): reports into `reports/` now.
 - ORCA-REACH - answered a) on 30 October 2026, follow-up due 6 November 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
