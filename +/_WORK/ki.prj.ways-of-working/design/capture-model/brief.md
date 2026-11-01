@@ -94,7 +94,7 @@ Not decided; shown so the reviews can test the order.
 
 ## Choices for Kris
 
-None of these has had a blind review yet.
+None of these has had a blind review yet. Under CAPTURE-MODEL-SETTLED, chosen by Kris on 1 November 2026, decisions Kris has already made are marked against the choices they bear on before the reviews: LEAN-CAPTURE is settled, and IDEA-ROUTE and OPEN-ITEMS carry the decisions that constrain them. The reviewers should test the open choices against those decisions, not reopen them.
 
 ### PURPOSE-WORDS - Which words name a capture's purpose?
 
@@ -128,6 +128,8 @@ c) Optional everywhere, recorded only when Kris states one.
 
 **Context:** A buy or consider item needs following up, but today dispatch removes a capture from Acquire with nothing remembering it, and the "buy list" the clips README mentions does not exist. Kris said Acquire "is to hold every captured point tagged with a purpose, with something that manages open items properly".
 
+**Decided since:** GOAL-HOLDING-AREA, Kris on 31 October 2026, in the Acquire intake package's [decisions](/Users/krisbrown/kis/personal/acquire/+/_WORK/personal.reg.acquire-intake/decisions.md): "I've got no wish to effectively migrate the knowledge out of this repository ... I kind of want to use this as a kind of like a holding area, really", read back as "Acquire is a holding area for now ... no knowledge is migrated out of Acquire". While that stands nothing dispatches, so option a)'s closed item that "dispatches as today" and option b)'s dispatch to the territory's principal cannot apply yet. This choice stays open.
+
 **Query:** Where are open purpose items kept, and how do they close?
 
 **Options:**
@@ -142,6 +144,8 @@ c) The purpose field only, with no list, and Kris searching Acquire by purpose w
 
 **Context:** Ideas stay out of the roadmap. They arrive as Acquire captures and also gather in work packages as design notes, parked queries and held packages. Where an idea finally lives is IDEAS-HOME in the empty-board design, still open; this query is only about the route. Many captured ideas are personal, like the bedroom shelves, not Knowledge Islands work.
 
+**Decided since:** IDEAS-IN-GRAPH, Kris on 31 October 2026, logged as ACQ020-FUTURE in Acquire and received in this package's [decisions](../../decisions.md): "more generally, future ideas could go into the knowledge graph in that way, rather than saying these are things which we're enacting for now." Ideas stay off the roadmap unless they are being enacted now, and an idea's home is the knowledge graph as a future concept. The route stays open; whichever option is chosen ends in the graph.
+
 **Query:** How should a captured or package-held idea reach its home?
 
 **Options:**
@@ -153,6 +157,8 @@ b) Acquire's open-items list is the single home for every idea in every territor
 c) Ideas stay where they arise, with a consolidated list generated on demand.
 
 ### LEAN-CAPTURE - Adopt the succinct-capture rule?
+
+**Settled:** by CAPTURE-LEAN, Kris on 31 October 2026, in the Acquire intake package's [decisions](/Users/krisbrown/kis/personal/acquire/+/_WORK/personal.reg.acquire-intake/decisions.md): "I do think keeping the original .txt in there isn't useful", read back as "A short capture is one README.md holding the note, verbatim where the wording matters, plus any original worth keeping; there is no `original.txt` and no checksum file. Long verbatim exports keep their source file." Run `acq020-lean` writes it into `CAPTURE.md`. Not for review; kept below as it was put.
 
 **Context:** Kris said captures hold "far too much detail" and that for the French cleat capture "a short note beside the photo would do; `original.txt` is not needed in a case like that". The draft rule above puts a short note of Kris's own verbatim in the README, keeps `original.txt` only for long, structured or other-authored text, and stops the README restating the note or the photograph.
 
