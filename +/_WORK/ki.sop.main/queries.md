@@ -371,7 +371,7 @@ c) Decline for now; Valle Armonia keeps the Sanctuary.
 
 ### BASELINE - one baseline for every Capital
 
-**Context:** The eight Capitals share 21 core skills but differ on `ki-work-roadmap`, `ki-work-recurring`, Paperclip, acquisition skills, configuration and `AGENTS.md` shape ([skills-assessment.report.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/skills-assessment.report.md)).
+**Context:** The eight Capitals share 21 core skills but differ on `ki-work-roadmap`, `ki-work-recurring`, Paperclip, acquisition skills, configuration and `AGENTS.md` shape ([skills-assessment.report.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/reports/skills-assessment.report.md)).
 
 **Query:** Should one baseline become the standard for every Capital?
 
@@ -425,7 +425,7 @@ c) Leave legal unchanged.
 
 ### HNR-GUIDANCE - rewrite hnr's AGENTS.md
 
-**Context:** hnr's `AGENTS.md` is out of shape against the Capital baseline and carries a stale Headroom block ([skills-assessment.report.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/skills-assessment.report.md)).
+**Context:** hnr's `AGENTS.md` is out of shape against the Capital baseline and carries a stale Headroom block ([skills-assessment.report.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/reports/skills-assessment.report.md)).
 
 **Query:** Should hnr rewrite it?
 
