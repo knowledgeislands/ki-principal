@@ -786,6 +786,122 @@ a) (recommended, confidence medium - the published entry points are already righ
 
 b) Leave the note as it is, as a superseded draft.
 
+### HNR-OFFLINE - Make an offline audit truly offline
+
+since 2026-11-01 · from run/hnr-conflicts (HNR-CONFORM-FRICTION) · blind review running
+
+**Context:** Setting `KI_REPO_OFFLINE=1` makes `ki repo audit` skip GitHub, but only in the `ki-repo` part of the audit. The engineering part's dependency check still runs `bun outdated` and fetches from the npm registry, the public package index ([audit-evidence.ts](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-engineering/scripts/rubric/contexts/audit-evidence.ts), around line 942). The written rule ([ki-repo-project standard](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/repo-structure/ki-repo-project/references/standards-project-repository.md)) only ever promised offline behaviour for the `ki-repo` collector, so the tool does what it says. But anyone setting the switch on a whole audit expects no network, and the HNR run broke its no-network brief without meaning to. The engineering check already handles an unreachable registry gracefully, as "freshness unknown". No recorded decision covers it. Nothing in HNR is at fault.
+
+**Query:** Should the offline switch cover the whole audit, so the dependency check reports "not checked offline" rather than reaching npm?
+
+**Options:**
+
+a) (recommended, confidence high - the source shows the gap directly, the fix only skips work the check already treats as optional when the registry is unreachable, and nothing in HNR needs to change) The harness gives way: every skill's audit honours the offline switch, and the dependency check reports "not checked offline" without running `bun outdated` or calling the registry. The fix goes to the harness owner through KI main State of play; Tools burndown owns any `ki` CLI change.
+
+b) Keep the switch scoped to GitHub, document that, and run future offline passes only where network access is blocked at the machine.
+
+### HNR-MJS - Let rule BUN-2 accept the boundary config DESIGN-2 now allows
+
+since 2026-11-01 · from run/hnr-conflicts (HNR-CONFORM-FRICTION) · blind review running
+
+**Context:** HNR asked for, and the harness delivered on 29 October (`9feb9581`), support in design rule DESIGN-2 for a boundary rules file written as `.dependency-cruiser.mjs`. A boundary rules file is the configuration of the tool that blocks forbidden imports between parts of the code. HNR needed `.mjs` because the file must load under plain Node 22 (Home `5e61a77`, 25 October). Rule BUN-2 still fails every tracked `.mjs` file and tells the repository to rename it to `.ts`, which undoes the fix. Eight HNR sites hit this.
+
+**Query:** Should BUN-2 exempt the boundary rules file that DESIGN-2 has selected?
+
+**Options:**
+
+a) (recommended, confidence high - the harness approved `.mjs` for this file five days ago, and BUN-2 was simply not updated to match) The harness gives way: BUN-2 skips the selected `.dependency-cruiser.mjs`, keeping its ban on every other `.mjs` file.
+
+b) Withdraw the 29 October support and have HNR move to `.dependency-cruiser.ts`, accepting the Node 22 loading problem HNR fixed with `.mjs`.
+
+### HNR-PROOF - A boundary failure proof for Bun-tested sites
+
+since 2026-11-01 · from run/hnr-conflicts (HNR-CONFORM-FRICTION) · blind review running
+
+**Context:** DESIGN-2 proves the boundary checker really works by disabling a rule and confirming a test then fails. Its proof runner accepts only Vitest, a test framework ([boundaries.ts](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-engineering/scripts/rubric/contexts/boundaries.ts), around line 368). The engineering standard says Vitest is "recommended, not mandated" and allows `bun test`. All nine HNR sites run `bun test ./test` in `apps/site`, and the conform run found three where this blocks the proof. The audit's own message offers the alternative of "a runner-appropriate proof adapter". This was routed to the harness owner on 25 October as HARNESS-DEFECTS, in Baseline rollout's messages, which is on hold.
+
+**Query:** Should the harness add a Bun proof adapter rather than HNR moving its sites to Vitest?
+
+**Options:**
+
+a) (recommended, confidence high - the standard explicitly lets a repository choose Bun's test runner, and the checker already names an adapter as the remedy) The harness gives way: DESIGN-2 gains a Bun test proof adapter, and HARNESS-DEFECTS is released from Baseline rollout's hold to the harness owner for this item alone.
+
+b) HNR moves its site tests to Vitest to satisfy the current proof.
+
+### HNR-TOOLROOT - Rename `tooling/boundaries` to `tooling/depcruise`
+
+since 2026-11-01 · from run/hnr-conflicts (HNR-CONFORM-FRICTION) · blind review running
+
+**Context:** The engineering standard has named the boundary checker's separate install folder `tooling/depcruise` since before HNR started (sources dated 6 October). Five HNR sites (eit, home, hr, sm, snowflake) use `tooling/boundaries`, set up on 21 October. Four (bbc, cs, pt, sky) already use `tooling/depcruise`. HNR's own sites standard of 22 October names `tooling/depcruise` and the exact `prepare` line as the target, so HNR has already decided this. The friction is that a conform preview would remove the `tooling/boundaries` install line from `prepare` (rule SCR-5) while DESIGN-2 looks for `tooling/depcruise`. Applied blindly, that would leave the checker uninstalled. EIT's site package is closed, and its retirement decisions sit with HNR's sites State of play.
+
+**Query:** Should the four live sites rename their folder to `tooling/depcruise`, with the harness also stopping its conform from dropping an install line it cannot replace?
+
+**Options:**
+
+a) (recommended, confidence high - HNR's own recorded standard already names `tooling/depcruise`, so the five sites are drift rather than a choice) HNR gives way: home, hr, sm and snowflake rename the folder and their `prepare` line as owner work under their site Projects, and EIT is left alone under its retirement. Separately, the harness owner makes SCR-5's conform keep, not delete, an install line for an unrecognised boundary folder.
+
+b) The harness accepts any isolated install folder named in `.ki.toml`, and the sites keep `tooling/boundaries`.
+
+### HNR-SITE-SHAPE - Split the 74 website findings before anyone redesigns
+
+since 2026-11-01 · from run/hnr-conflicts (HNR-CONFORM-FRICTION) · blind review running
+
+**Context:** The website content skill prescribes one Eleventy site layout: the source folders, JSON5 and TypeScript data loaders, a Tailwind build hook, a watch target and the Tailwind import pair (rules WEB-9 and WEB-12 to WEB-19). HNR's own [sites standard](/Users/krisbrown/kis/humans-not-robots/hnr-principal/+/_WORK/hnr.sop.sites/design/sites-standard.md) of 22 October, written after Kris asked for the sites to be "conformant", lists "Content or build" as a gap to close on every site. It already answers WEB-19 locally with the phase3 stylesheet composition, and records only three exceptions (APEX-PLAIN, demos' appearance and testbed's legacy hosting). Its "Lines for Knowledge Islands" ask the harness to name its local answers. So the conform report's "deliberate HNR layouts" holds only for a few things: home's single hand-written page, Stoa-vendored or mirrored content, and WEB-14 demanding JSON5 where none exists (already routed to the harness on 25 October). The harness already has a way to record a per-repository exception with its reason: a `[skills.<skill>.checks]` table in `.ki.toml`. No one has sorted the 74 findings rule by rule.
+
+**Query:** Should one read-only run sort the 74 findings into planned HNR gaps and real variants, with only the variants going to the website standard's owner?
+
+**Options:**
+
+a) (recommended, confidence medium - HNR's recorded standard points to conforming for most rules, but the rule-by-rule split has not been made, so the size of the variant set is unknown) Neither side gives way wholesale. A read-only run sorts the 74 by rule. Findings HNR's standard already plans to close go to the site Projects as owner work. Real variants (home's single page, vendored content, JSON5 with no JSON5 data) go to the website content skill's owner, to become a named variant in the standard or a recorded per-repository exception with its reason. HNR's eight "Lines for Knowledge Islands" travel with them.
+
+b) The harness website standard first defines variants for portal and landing sites, and HNR conforms only after that.
+
+c) HNR conforms every site to the current single layout, home included.
+
+### HNR-DR-LINKS - Infoschematics decision records linking outside their collection
+
+since 2026-11-01 · from run/hnr-conflicts (HNR-CONFORM-FRICTION) · blind review running
+
+**Context:** Since 7 and 8 October (`b4a8a6f6`, `60b1da92`), harness rule BODY-11 fails a decision record that links to anything except another decision record or an external web address. The aim is a self-contained record that reads fully without chasing links that can break, naming other material in its own words instead. Infoschematics has 26 of its 54 records carrying 76 such links, written mostly in September: 61 to `docs/reference/vocabulary.md` and 15 to specs. Its orientation file, [AGENTS.md](/Users/krisbrown/kis/humans-not-robots/infoschematics/AGENTS.md), asks for a vocabulary link when "a guide, design document, or specification" first uses a term. Decision records are not on that list, so on its own wording there is no direct conflict. But Infoschematics' [docs README](/Users/krisbrown/kis/humans-not-robots/infoschematics/docs/README.md) says its documents "should link to one another rather than repeat one another", which pulls the other way. Each vocabulary term has a stable id, so a record can name the term and its id without a link and without copying the definition. No recorded decision settles this.
+
+**Query:** Should Infoschematics' decision records name vocabulary terms and specs in plain text, rather than the harness allowing links to them?
+
+**Options:**
+
+a) (recommended, confidence medium - the harness rule is deliberate and recent, and Infoschematics' own orientation does not require links in decision records, but its link-rather-than-repeat principle is also deliberate and Kris has not weighed the two) HNR gives way: each record names the term with its stable vocabulary id (for example "Flow (`flow`)") and names the spec, with no link and no copied definition. The `references/` folder moves out of `docs/decisions/` under the same rule, and the docs README notes that decision records are the exception to its linking principle. This is owner work routed through HNR main State of play, as Infoschematics has no package of its own.
+
+b) The harness gives way narrowly: BODY-11 allows links to a repository's declared canonical vocabulary and specifications, which are stable, and fails the rest.
+
+c) Record a per-repository exception for BODY-11 in Infoschematics' `.ki.toml`, with its reason.
+
+### HNR-CAP - Let the cap check see a recorded cap raise
+
+since 2026-11-01 · from run/hnr-conflicts (HNR-CONFORM-FRICTION) · blind review running
+
+**Context:** The coordination standard caps active Project work at three or four. Going over needs "the owner's explicit agreement beforehand", and the coordinator cannot raise it alone. Kris gave that agreement for HNR on 28 October, in [CAP-RAISE](/Users/krisbrown/kis/humans-not-robots/hnr-principal/+/_WORK/hnr.sop.main/decisions.md): "we temporarily raise cap ... if you go over cap of five, be very explicit in doing so. In this case, I'm giving explicit agreement". The audit check COORD-3 has a fixed limit of four and cannot read a recorded agreement, so HNR warns for as long as the raise lasts. A Ways of working run (wow-sleep-method-finish) was briefed to add "explicit CAP-RAISE wording" to the standard; the current text names no place to record one. The raise is temporary, "until site threads settle", and has no end date.
+
+**Query:** Should COORD-3 read a recorded, dated cap raise and report it rather than warning?
+
+**Options:**
+
+a) (recommended, confidence high - the rule already provides for owner agreement, and a warning that cannot be cleared by doing what the rule asks teaches people to ignore the check) The harness gives way: Ways of working defines where a raise is recorded (the territory's `state.md` front matter, with the new limit, the decision it cites and an end or review condition), and COORD-3 reports INFO while within the raised limit, warning again over it or once it ends. HNR records CAP-RAISE in that form, with an end condition Kris names.
+
+b) Keep the check fixed at four and accept the warning while the raise lasts.
+
+### HNR-EMPTY-PROJECT - The empty Product Project warning
+
+since 2026-11-01 · from run/hnr-conflicts (HNR-CONFORM-FRICTION) · blind review running
+
+**Context:** Rule STREAM-10 warns when an active Project has no open roadmap record in any checkout registered on the machine, prompting its lead to write a close-out assessment. It already looks across member repositories. The Product site Project's four records in `apps-be.humansnotrobots.pt` all name `project: site-pt` and are all `done`. HNR main State of play has already treated this as owner work: on 31 October it sent STREAM-10 to [hnr.prj.site-pt](/Users/krisbrown/kis/humans-not-robots/hnr-principal/+/_WORK/hnr.prj.site-pt/work.md). The separate Product management Project has `HNR-PRINCIPAL-PRD-019` awaiting review, which counts as open, so I take the conform report's "Product" to be `site-pt`. I could not confirm this without re-running the audit. Any further live work held only in a work package, Linear or `hnr-shared` is invisible to the check.
+
+**Query:** Should the Product site Project clear the warning itself, rather than the check learning to read work packages?
+
+**Options:**
+
+a) (recommended, confidence medium - HNR's own coordinator already routed it as owner work and the check reads its records correctly, but which Product Project warned is inferred, not re-audited) HNR gives way: hnr.prj.site-pt either captures its next piece of live work as a record naming the Project, or writes its close-out assessment, as already sent. The check stays as it is.
+
+b) The harness gives way: STREAM-10 also counts a Project's active work package (neither On hold nor Finished) as live work, and stays quiet while it is.
+
 ## Answered
 
 - TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT; BROKEN-LINKS-HISTORY - a (all 1 November 2026; see decisions.md).
