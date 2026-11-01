@@ -500,6 +500,22 @@ a) (recommended, confidence medium - the adapter would otherwise describe a cont
 
 b) Write a minimal skeleton now: a skill that names its boundary, points to `ki-delegation` and records the open questions, then fill it in after the trial.
 
+### PAPERCLIP-RETIRE - What to do with the Paperclip skill now it is not in use
+
+since 2026-11-01 · from PAPERCLIP-DORMANT · blind review needed
+
+**Context:** On 1 November Kris said Paperclip is "pretty much abandoned ... not in active use ... it would need to be considered in a lot more detail to bring it back into play". Earlier the same night the skill was renamed `ki-delegation-paperclip` (harness `8a9f7409`), with an alias so the 54 repositories that still declare `ki-agent-coordination-paperclip` keep resolving; the alias's audit warns in each of them. A rollout to change those 54 declarations was sent to State of play and is now held.
+
+**Query:** What should happen to the Paperclip skill and the 54 declarations?
+
+**Options:**
+
+a) (recommended, confidence medium - it stops the noise and the churn while keeping everything recoverable for a later, fuller design) Mark the skill dormant in the harness (its description says it is not in use and needs fresh design before use), make the alias's audit pass silently, cancel the 54-repository rollout, and let each repository drop the declaration whenever it next conforms.
+
+b) Retire it now: remove the skill and the alias from the harness and the declaration from all 54 repositories in one sweep; Git keeps it for a later revival.
+
+c) Leave it as renamed and continue the rollout to the 54 repositories.
+
 ## Answered
 
 - TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT; BROKEN-LINKS-HISTORY - a (all 1 November 2026; see decisions.md).
