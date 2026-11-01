@@ -32,22 +32,6 @@ a) (recommended, confidence high - addresses the proved local-only gap without i
 
 b) Retain only the existing local copies and explicitly acknowledge the private recovery limitation; preserve this runtime evidence and its referenced archives.
 
-### ORCH-NAME-DISPATCH - What to call the dispatch contract, its adapters and the command, without rename cost
-
-since 2026-10-30 · from run/landscape · merged in [landscape-report](design/landscape-report.md) · rewritten after run/orch-name-fresh · split from ORCH-NAME after blind review 5, with ORCH-NAME-THREAD taking the thread skill and style
-
-**Context:** On 30 October Kris asked: "If you put aside the rename cost, what is the feedback on naming then?" An independent naming review judged each unit with rename cost excluded. Portable run contract: `ki-delegation`, high - an orchestrator delegates a bounded job and a worker returns evidence or a question; `ki-dispatch` understates the brief, authority and return, and `ki-orchestration` would put the thread's name on one of its contracts. Adapters: `ki-delegation-orca` and `ki-delegation-paperclip`, high, provided the Paperclip skill's wider remit (company boundaries, readiness, memory, delivery policy) is described honestly rather than relabelled; `ki-agent-coordination-paperclip` has no natural Orca sibling. Launcher: `ki agent`, medium, on its own merits - `ki orchestrate` implies the executable owns the package, `ki delegate` names one action of a group that also observes, steers and closes, and `ki run` is too broad; this is the least certain unit. Both leading sets for the thread skill, in ORCH-NAME-THREAD, carry this same family. Moving `decide`, `reconcile`, `home` and `prompts` under `ki work` stays out of this query, under AGENT-HOME. Not taken under ACCEPT-BY-CRITERIA on 31 October: it renames a skill used across the estate, `ki-agent-coordination-paperclip` to `ki-delegation-paperclip`, so test 4 is not met.
-
-**Query:** Setting rename cost aside, which names should the dispatch contract, its adapters and the command take?
-
-**Blind review (30 October, Codex, high effort):** agrees with a), the family in both its pick and its runner-up for the whole naming query, which it rated medium overall because of the thread-skill split: delegation names the bounded worker contract, the Paperclip skill demonstrably governs company and repository boundaries, memory, readiness and delivery, so its wider scope must be stated explicitly and not narrowed for family symmetry, and Orca's installed `orchestration` skill already denotes Orca worker orchestration. It noted that the packet exposed an earlier review's preferences, so this review is not fully blind, and that the command's behaviour beyond its documented launcher role was not verified. Confidence lifted to high.
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; the naming review and blind review 5 both choose this family on its merits, the reviewer verified the Paperclip skill's wider scope and Orca's separate `orchestration` skill, and the least certain unit is the launcher name, which both keep) Keep `ki-delegation`, slimmed, as the portable contract, with adapters `ki-delegation-orca` and `ki-delegation-paperclip`, the second renamed from `ki-agent-coordination-paperclip` with its wider remit stated; keep `ki agent`.
-
-b) Keep the current names because of rename cost, as the earlier recommendation did: keep `ki-delegation`, `ki-agent-coordination-paperclip` and `ki agent`.
-
 ### LAYOUT-SHAPE - Which package layout to adopt
 
 since 2026-10-30 · from run/package-layout · [design](design/package-layout/design.md)
@@ -148,7 +132,7 @@ b) No: leave historical entries and design notes as they are, so only the files 
 
 ## Answered
 
-- TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a (all 1 November 2026; see decisions.md).
+- TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a (all 1 November 2026; see decisions.md).
 - TOP-LEVEL-SWEEP-DELETE - a (1 November 2026): only stewards delete old reports.
 - TOP-LEVEL-NOW - a (1 November 2026): reports into `reports/` now.
 - ORCA-REACH - answered a) on 30 October 2026, follow-up due 6 November 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
