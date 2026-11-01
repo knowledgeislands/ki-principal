@@ -82,36 +82,6 @@ a) (recommended, confidence high - reviewed; one named group deletion stays revi
 
 b) No: keep file-by-file deletion inside groups.
 
-### ACQ-TEXT-RECHECK - Recheck the skill once Acquire publishes its decisions
-
-since 2026-10-31 · from run/capture-skill
-
-**Context:** The brief makes Acquire's own text the authority (ACQ020-OWNER). However, the decisions and the run that aligns Acquire's README, AGENTS and CAPTURE (`acq020-entry`) have not yet reached Acquire's remote. So the skill was aligned to the relayed wording rather than to Acquire's own text. Small differences are possible, for example in exactly when a README note "will do" instead of `original.txt`.
-
-**Query:** Should the skill be checked against Acquire's own text once it is published?
-
-**Options:**
-
-a) (recommended, confidence high - it closes the only gap between the authority and the source I could read, at the cost of one short run) Once Acquire publishes its decisions and its entry-point changes, a short run compares them with the `ki-acquire` standard and corrects any wording that differs.
-
-b) Treat the relayed wording as final and do no recheck.
-
-### HOLDING-SCOPE-INTERIM - Keep the cards held until Kris says what the rule covers
-
-since 2026-10-31 · from run/capture-skill · split from HOLDING-SCOPE after blind review
-
-**Context:** GOAL-HOLDING-AREA makes Acquire a holding area for now: "nothing migrates out". The new wording of the capture skill says that neither captures nor cards leave Acquire, and that dispatch is on hold. The relayed decisions don't say outright whether the curated cards in `knowledge/` must also stay. This part asks only what the skill says until Kris answers HOLDING-SCOPE-CARDS; nothing leaves Acquire meanwhile, so nothing is lost and the wording changes in one line if Kris releases the cards.
-
-**Query:** Until Kris says whether the holding rule covers the cards, should the skill keep them held as it reads now?
-
-**Blind review (31 October, Codex, high effort):** agrees with keeping cards and captures in Acquire, at medium confidence: letting cards leave would make an exception to a reported blanket hold with no evidence for it. It calls this the least assumptive interim reading, not a finding that Kris decided both, and adds that copying or reconciling card content elsewhere is also moving knowledge out. Confidence not lifted, as the agreement rests on the earlier decision's wording; the query was split so the interim reading stands apart from Kris's intent.
-
-**Options:**
-
-a) (recommended, confidence high - holding moves nothing, so it can be undone in one line, and both this work and the blind review read it as the safest interim course) Yes: the skill keeps saying that neither captures nor cards leave Acquire until Kris answers HOLDING-SCOPE-CARDS.
-
-b) No: soften the skill now to say the cards' status is undecided.
-
 ### HOLDING-SCOPE-CARDS - Did "nothing migrates out" mean the knowledge cards too?
 
 since 2026-10-31 · from run/capture-skill · split from HOLDING-SCOPE after blind review
@@ -128,22 +98,6 @@ a) (recommended, confidence medium - "nothing migrates out" reads as covering ev
 
 b) No: only captures are held. Cards may be reconciled into their owning Capital's graph whenever they are ready, and the skill should say so.
 
-### IDEAS-ROADMAP-HOME - Leave the ideas' final home in the standard to IDEAS-HOME
-
-since 2026-10-31 · from run/capture-skill · split from IDEAS-ROADMAP-STANDARD after blind review
-
-**Context:** IDEAS-IN-GRAPH says future ideas live in the knowledge graph as future concepts, not on the roadmap. The `ki-work-roadmap` standard ([Ideas and graduation](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-work-roadmap/references/standards-repository-roadmaps.md#ideas-and-graduation)) already keeps ideas out of the record queue. Where every idea finally lives, and how the graph organises them, is IDEAS-HOME, which is still open in the [empty-board design](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/empty-board/design.md). This part asks only whether the standard should name that final home before Kris settles IDEAS-HOME; IDEAS-ROADMAP-PRINCIPLE asks about the standard's current alternatives.
-
-**Query:** Should the roadmap standard wait for IDEAS-HOME before naming where in the graph ideas finally live?
-
-**Blind review (31 October, Codex, high effort):** differs on the whole query, picking a change now at medium confidence, but agrees on this part: its course leaves the precise home to the open design decision. Confidence high, as this work and the review agree independently.
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; both this work and the blind review leave the graph's final organisation to IDEAS-HOME, and naming it now would settle that design early) Yes: the standard names no final home for ideas until Kris settles IDEAS-HOME, then changes to match.
-
-b) No: name a home in the standard now and let IDEAS-HOME follow it.
-
 ### IDEAS-ROADMAP-PRINCIPLE - Retire the standard's other idea stores now or later
 
 since 2026-10-31 · from run/capture-skill · split from IDEAS-ROADMAP-STANDARD after blind review
@@ -159,36 +113,6 @@ since 2026-10-31 · from run/capture-skill · split from IDEAS-ROADMAP-STANDARD 
 a) (recommended, confidence medium - this work: the current text already keeps ideas off the record queue, and retiring the alternatives decides part of IDEAS-HOME early; the blind review differs: IDEAS-IN-GRAPH already conflicts with the standard's routing and can replace it now without choosing the graph's organisation) Keep the alternatives until Kris settles IDEAS-HOME, then change the standard in one pass.
 
 b) Change it now: the standard says new future ideas go into the graph as future concepts and stops offering `Idea:` bullets and `_IDEAS.md`, keeping existing ideas where they are until their destinations are approved.
-
-### ACQUISITION-PROCESS-NOTE - Bring the Acquisition Process note into line
-
-since 2026-10-31 · from run/capture-skill
-
-**Context:** The skill's sources name the [Acquisition Process](</Users/krisbrown/kis/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md>) note in Knowledge Islands Principal as the owner of the long-term lifecycle. That note still describes dispatch to each principal followed by Acquire removing its copy. It has no staging graph, no holding area and no item-by-item curation. It is canonical content, so changing it goes through the Enactment Process, and it was outside this run's scope.
-
-**Query:** Should the Acquisition Process note be revised to match the 31 October decisions?
-
-**Blind review (31 October, Codex, high effort):** agrees with a) at high confidence: checking the owning source first supports one coherent revision while keeping Kris's approval of canonical changes. It adds that the note already describes staging in a repository, so what is missing is the newer graph model, and that the draft should keep the temporary dispatch hold apart from the enduring lifecycle. Confidence lifted to high.
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; the note now contradicts the skill, and settling Acquire's text first means one coherent revision rather than two, with Kris approving it through the Enactment Process) After ACQ-TEXT-RECHECK, a bounded run drafts the revision under Ways of working for Kris's approval through the Enactment Process.
-
-b) Leave the note until the holding area is lifted, and add one line saying that dispatch is currently on hold.
-
-### CAPTURE-MODEL-SETTLED - Mark the choices the decisions have already settled
-
-since 2026-10-31 · from run/capture-skill
-
-**Context:** The capture-model brief that U12 wrote, [brief](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/capture-model/brief.md), puts seven choices to Kris. The 30 October decision on lean captures largely answers LEAN-CAPTURE. IDEAS-IN-GRAPH bears on IDEA-ROUTE. GOAL-HOLDING-AREA changes OPEN-ITEMS, whose recommended option has a closed item dispatch "as today". The brief has not yet had its blind reviews.
-
-**Query:** Should the capture-model brief be updated to reflect these decisions before its reviews?
-
-**Options:**
-
-a) (recommended, confidence high - reviewers would otherwise test options that Kris has already decided) Before the reviews, a short run marks LEAN-CAPTURE as settled. It also records IDEAS-IN-GRAPH and the holding area against IDEA-ROUTE and OPEN-ITEMS, and leaves the other choices open.
-
-b) Leave the brief as it is and let the reviews and the merged report pick up the decisions.
 
 ### WAKE-HOST - Where the headless coordinator pass may run
 
