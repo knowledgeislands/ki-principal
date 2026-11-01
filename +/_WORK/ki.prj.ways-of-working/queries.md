@@ -1170,9 +1170,11 @@ b) Hold it until the open points are settled.
 
 ### GIT-REBASE - May a run tidy its own commits into a straight line instead of making merge commits?
 
-since 2026-11-01 · from run/rebase-review · blind review running
+since 2026-11-01 · from run/rebase-review · blind review 1 November 17:10 GMT differs
 
 **Context:** Several sessions commit into one shared copy of each repository (the primary checkout). The rules ban "rebasing" there, that is, rewriting commits so they sit on top of newer ones, because doing so in a shared copy can disturb another session's work. When a sync cannot simply move forward, a short "resolve run" does the joining in its own private copy (a worktree). The written rules already let that run rebase its own unpublished commits there before pushing, but since 31 October the briefs have told resolve runs to make merge commits and never rebase. On 31 October and 1 November that gave nine extra merge commits in ki-principal, each joining one or two small commits, out of 14 merge commits in total. On 1 November Kris said rebasing "in some situations absolutely has merit … I prefer not to pollute a tree with mergers … Maybe with everything now happening with work trees, merging is more preferable".
+
+The blind review prefers b), merging, at medium confidence: once a run has merged or another session has pushed, a rebased branch can no longer simply fast-forward the shared `main`, so a) would often still end in a merge or need rewriting of shared history; it also warns that unpublished does not always mean unshared, and that rebasing changes commit identities that reviews refer to.
 
 **Query:** Should runs rebase their own unpublished commits in their private worktree, keeping the ban only for the shared checkout?
 
@@ -1185,6 +1187,20 @@ b) Prefer merge everywhere: rewrite the conflict-run and worktree self-integrati
 c) Keep things as they are: leave the written rules unchanged and let briefs keep asking for merge commits, accepting the mismatch between the standard and practice.
 
 d) Also allow rebase in the shared checkout when it is clean and only this session's commits are unpublished, as ki-principal's Git settings already do for a bare `git pull`. Not recommended, because another session may commit at the same moment.
+
+### AUTOSTASH-LEFTOVER - An automatic stash is left in assistant
+
+since 2026-11-01 · from run/orca-release
+
+**Context:** Git's automatic stash in assistant, `stash@{0}` labelled "autostash", holds only this run's three refresh lines, and all three are now in commit `314df11`. The never-stash rule says a leftover stash is reported, not dropped. A territory sweep will flag it as `[stash]`.
+
+**Query:** Should the automatic stash be dropped?
+
+**Options:**
+
+a) (recommended, confidence high - its whole content is checked to be in commit `314df11`) Drop it through a bounded run, after a final check against the commit.
+
+b) Keep it and let the territory sweep raise it.
 
 ## Answered
 
