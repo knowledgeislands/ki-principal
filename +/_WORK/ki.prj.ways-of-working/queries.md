@@ -758,6 +758,34 @@ a) (recommended, confidence medium - it serves a decided need at little cost, be
 
 b) No: keep due dates in the record body, as Personal does now.
 
+### ACQ-HOLD-WORDING - Acquire's text does not yet say when cards leave
+
+since 2026-11-01 · from run/acq-recheck
+
+**Context:** Acquire's README says the cards are held in `processed/` "until each group's home is decided". On 1 November, under HOLDING-SCOPE-CARDS in Ways of working, Kris said more than that: cards mature with no rush and move into the islands once they conform to the standards being built, or earlier when a card's home is plainly decided. The skill keeps Kris's 1 November wording. Acquire's own text has not picked it up, and Acquire's text is the method's authority for now (ACQ020-OWNER).
+
+**Query:** Should Acquire be told to add the "once they conform to the standards" condition to its README and AGENTS.md?
+
+**Options:**
+
+a) (recommended, confidence medium - the two texts do not contradict each other, but Acquire is the authority and currently says less than Kris decided) Ways of working sends a one-line notice to Acquire intake's `messages.md`, so that Acquire aligns its wording when it next revises its entry points.
+
+b) Leave both as they are. The skill carries the fuller wording, and Acquire's shorter phrase stands.
+
+### ACQ-SCAFFOLD-NOTE - The design note still says nothing is scaffolded empty
+
+since 2026-11-01 · from run/acq-recheck
+
+**Context:** Section 3 of Acquire's design note, `+/_WORK/personal.reg.acquire-intake/design/acquire-structure.md`, says "A zone folder appears with its first file; nothing is scaffolded empty". Kris's later SCAFFOLD decision on 1 November gave every principal a scaffolded skeleton with a README in each zone. README.md and AGENTS.md follow SCAFFOLD, and so does the skill. The note's 1 November amendment covers meetings but not the scaffold. The note calls itself a draft in which "nothing here is decided".
+
+**Query:** Should Acquire intake amend the design note to record SCAFFOLD?
+
+**Options:**
+
+a) (recommended, confidence medium - the published entry points are already right, so this only tidies a draft) Ask Acquire intake, through a line in its `messages.md`, to add SCAFFOLD to the note's amendment or to prune the note once its phase 1 has graduated.
+
+b) Leave the note as it is, as a superseded draft.
+
 ## Answered
 
 - TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT; BROKEN-LINKS-HISTORY - a (all 1 November 2026; see decisions.md).
