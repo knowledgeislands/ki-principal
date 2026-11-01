@@ -1,3 +1,0 @@
-# Brief: review-new-queries - blind review (read-only)
-
-Review six owner queries independently. Their text (Context, Query, Options) is in `/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/queries.md` under the headings HOOK-PATCH, SWEEP-GATE, HOST-SYNC-CLOSE, CITED-NOTES, OLD-PROPOSALS and TOPIC-SET: read only those six blocks, ignoring their recommendations and confidence, and do not read anything else in `queries.md`, `decisions.md` or any report. You may read the harness skills, the package's `design/` and any repository under `/Users/krisbrown/kis/`. For each: your pick, a confidence (high, medium or low) with a one-line reason, any risk missed, and the claims you verified. Change nothing. Report as your run packet directs.
