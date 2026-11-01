@@ -8,7 +8,7 @@ author: Written with Claude
 
 **Status:** a nascent area of Ways of working, being pioneered on the Valle Armonia territory. Other territory threads, personal-principal first, are invited to run it on their own territory and add their findings under [Other territories](#other-territories). Nothing here is a standard yet; the shape is expected to change as runs report back. Three of its questions are settled: Kris decided TAG-FORM, HOMEPAGE-SOURCE and KI-CODE on 24 October, under [Decisions](#decisions).
 
-**Owner:** Kris Brown · **Owning repository:** knowledgeislands/ki-principal · **Owning work:** `ki.ways-of-working` · **Date:** 2026-10-24 · **Pioneered by:** [VA > SoP](/Users/krisbrown/kis/valle-armonia/va-principal/+/_WORK/va/work.md), whose [decisions log](/Users/krisbrown/kis/valle-armonia/va-principal/+/_WORK/va/decisions.md) holds Kris's words of 24 October from 16:46 BST, under TAG-APPLY, TAG-ROUTE, TAG-FORM, HOMEPAGE-SOURCE, KI-CODE and PROPOSALS
+**Owner:** Kris Brown · **Owning repository:** knowledgeislands/ki-principal · **Owning work:** `ki.ways-of-working` · **Date:** 2026-10-24 · **Pioneered by:** [VA > SoP](/Users/krisbrown/kis/valle-armonia/va-principal/+/_WORK/va.sop.main/work.md), whose [decisions log](/Users/krisbrown/kis/valle-armonia/va-principal/+/_WORK/va.sop.main/decisions.md) holds Kris's words of 24 October from 16:46 BST, under TAG-APPLY, TAG-ROUTE, TAG-FORM, HOMEPAGE-SOURCE, KI-CODE and PROPOSALS
 
 Repository metadata is what a repository says about itself to the outside: its description, homepage, topics, visibility, licence and which GitHub features it uses. This note proposes that every Knowledge Islands repository says the same thing on every surface that carries it, and that its topics include a small controlled taxonomy that `ki-repo` can derive and check.
 
@@ -16,7 +16,7 @@ It is separate from the [tags model](tags-model.md), which is about subject tags
 
 ## The problem
 
-The [repo-align survey](/Users/krisbrown/.local/state/ki/agents/va/repo-align.report.md) found the four Valle Armonia repositories consistent on everything the `ki-repo` standard checks today, and inconsistent on what it does not:
+The repo-align survey (unrecoverable: a runtime report, never in Git, now absent) found the four Valle Armonia repositories consistent on everything the `ki-repo` standard checks today, and inconsistent on what it does not:
 
 - No repository has GitHub topics. The standard requires topics only on public repositories, and all four are private.
 - Both website repositories have a homepage and keywords in `package.json` that GitHub does not show.
@@ -81,7 +81,7 @@ Every managed topic matches `^ki-(territory|shape|role)-[a-z0-9]+(-[a-z0-9]+)*$`
 
 GitHub allows only lowercase letters, digits and hyphens in a topic, at most 50 characters each and at most 20 topics per repository. The longest value found, `ki-territory-humans-not-robots`, is 30 characters.
 
-Kris's view, 24 October: "KI to indicate it's a KI tag, then a dash, and then the role of the tag ... shape", with the alternative "ki_shape_kb", using underscores between parts and hyphens within multi-word parts. Kris asked for a second opinion. The [tag-proposal run](/Users/krisbrown/.local/state/ki/agents/va/tag-proposal.report.md) confirmed from GitHub's [topic documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) that underscores and colons are not allowed, so `ki_shape_kb` and `shape:kb` cannot be topics. This note took its recommendation because it keeps Kris's `ki-` prefix and facet order, is the only form GitHub accepts, and needs no second separator once the facet names are fixed, and Kris chose it.
+Kris's view, 24 October: "KI to indicate it's a KI tag, then a dash, and then the role of the tag ... shape", with the alternative "ki_shape_kb", using underscores between parts and hyphens within multi-word parts. Kris asked for a second opinion. The tag-proposal run (unrecoverable: a runtime report, never in Git, now absent) confirmed from GitHub's [topic documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) that underscores and colons are not allowed, so `ki_shape_kb` and `shape:kb` cannot be topics. This note took its recommendation because it keeps Kris's `ki-` prefix and facet order, is the only form GitHub accepts, and needs no second separator once the facet names are fixed, and Kris chose it.
 
 ### Derivation
 
@@ -226,7 +226,7 @@ One quick territory pass applied the interim policy to Valle Armonia's four repo
 
 ### Personal run and re-check, 2026-10-24
 
-Personal ran the note over its nine members in a metadata survey, then re-checked them against the settled note at `76557046` ([finding](/Users/krisbrown/kis/personal/personal-principal/+/_WORK/personal/findings/REPO-META.md)).
+Personal ran the note over its nine members in a metadata survey, then re-checked them against the settled note at `76557046` ([finding](/Users/krisbrown/kis/personal/personal-principal/+/_WORK/personal.sop.main/findings/REPO-META.md)).
 
 - **Fitted:** `.ki.toml` as master; the property table, the derivation rules and the pilot table shape applied as written; every managed topic derives cleanly for all nine members without guessing; the homepage cautions resolve each site to its verified apex domain; no workspace `package.json` carries a homepage.
 - **Differed from Valle Armonia:** Personal had one real GH-3 failure, acquire's empty GitHub description with issues on under a `roadmap` adapter, which the ACQUIRE-FIX run has since brought into line with `.ki.toml`; and Personal's prefix is already one word, so its code and prefix can coincide where Valle Armonia's cannot.

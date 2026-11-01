@@ -5,7 +5,7 @@ author: AI-assisted
 
 # Ways of working finite finish-line plan
 
-Planning only, requalified on Sol on 29 October 2026. Nothing below sends a message, adopts a proposal, changes a record, accepts delivery or permits deletion. [Current authority](../decisions.md), [held queries](../queries.md), [package](../work.md) and [Project outcome](../../../../Streams/Projects/ways-of-working.md) govern. The saved [brief](../briefs/wow-finish-line.md) is superseded only in its machine, publication and task boundaries by the current instruction: one plan, local commit, no remote calls or five-file edits.
+Planning only, requalified on Sol on 29 October 2026. Nothing below sends a message, adopts a proposal, changes a record, accepts delivery or permits deletion. [Current authority](../decisions.md), [held queries](../queries.md), [package](../work.md) and [Project outcome](../../../../Streams/Projects/ways-of-working.md) govern. The saved [brief](https://github.com/knowledgeislands/ki-principal/blob/ef452184d1f102b84203203283b0a417d6c9f359/+/_WORK/ki.prj.ways-of-working/briefs/wow-finish-line.md) is superseded only in its machine, publication and task boundaries by the current instruction: one plan, local commit, no remote calls or five-file edits.
 
 ## Authority and stopping point
 

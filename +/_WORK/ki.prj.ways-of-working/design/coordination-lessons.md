@@ -18,14 +18,14 @@ The owning work's [latest autonomy decision](../decisions.md), recorded as 23 Oc
 
 Line citations below refer to these local files as read on 23 October, not to a vendor's current product claims:
 
-- **S:** [Scheduling debrief](</Users/krisbrown/kis/humans-not-robots/hnr-principal/+/_WORK/hnr/design/scheduling-debrief.md>), including the observed failures, proposed remedies and four unverified standing rules.
-- **M:** [Coordination model notes](</Users/krisbrown/kis/humans-not-robots/hnr-principal/+/_WORK/hnr/design/coordination-model-notes.md>), including the agreed Project-addressable change and the DRAIN prompt.
-- **H:** [HNR decisions](</Users/krisbrown/kis/humans-not-robots/hnr-principal/+/_WORK/hnr/decisions.md>), lines 35-48, alongside the five routed messages supplied in this brief. The full COORD-HANDOFF-ASKS wording comes from the brief; H:40 now holds its homing pointer.
+- **S:** [Scheduling debrief](</Users/krisbrown/kis/humans-not-robots/hnr-principal/+/_WORK/hnr.sop.main/design/scheduling-debrief.md>), including the observed failures, proposed remedies and four unverified standing rules.
+- **M:** [Coordination model notes](</Users/krisbrown/kis/humans-not-robots/hnr-principal/+/_WORK/hnr.sop.main/design/coordination-model-notes.md>), including the agreed Project-addressable change and the DRAIN prompt.
+- **H:** [HNR decisions](</Users/krisbrown/kis/humans-not-robots/hnr-principal/+/_WORK/hnr.sop.main/decisions.md>), lines 35-48, alongside the five routed messages supplied in this brief. The full COORD-HANDOFF-ASKS wording comes from the brief; H:40 now holds its homing pointer.
 - **W:** [Work Process](<../../../../Pillars/Philosophy/Model/Processes/Work Process/Work Process.md>), last local change `554bcd8e`.
 - **C:** [ki-coordination standard](</Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md>), read with its skill entry point.
 - **D:** [ki-delegation background-run standard](</Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md>), read with its skill entry point. The brief's change-management path is stale; the canonical skill lives under governance.
 - **K:** [ki-work-package standard](</Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md>). Latest local commit across C, D and K: `0809ff80`.
-- **A:** [Acquire instructions](</Users/krisbrown/kis/personal/acquire/AGENTS.md>) and its [intake work definition](</Users/krisbrown/kis/personal/acquire/+/_WORK/personal.regular.acquire-intake/work.md>).
+- **A:** [Acquire instructions](</Users/krisbrown/kis/personal/acquire/AGENTS.md>) and its [intake work definition](</Users/krisbrown/kis/personal/acquire/+/_WORK/personal.reg.acquire-intake/work.md>).
 
 The debrief's vendor comparisons are explicitly inferred (S:5, 63); no network verification was authorised here. Its observed usage-limit and permission stalls support the method lessons without treating those comparisons as verified implementation advice.
 

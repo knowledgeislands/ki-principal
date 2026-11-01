@@ -8,7 +8,7 @@ author: Written with Claude
 
 **Status:** a nascent area of Ways of working, pioneered on the Valle Armonia territory. Valle Armonia and Personal both run it as interim policy, and their findings are folded in below and kept under [Other territories](#other-territories). Other territory threads are invited to run it on their own territory and add theirs. Nothing here is a standard yet; the shape is expected to change as runs report back.
 
-**Owner:** Kris Brown · **Owning repository:** knowledgeislands/ki-principal · **Owning work:** `ki.ways-of-working` · **Date:** 2026-10-24, folded 2026-10-25 · **Pioneered by:** [VA > SoP](/Users/krisbrown/kis/valle-armonia/va-principal/+/_WORK/va/work.md), whose [decisions log](/Users/krisbrown/kis/valle-armonia/va-principal/+/_WORK/va/decisions.md) holds Kris's words from 07:39 to 08:02 BST on 24 October
+**Owner:** Kris Brown · **Owning repository:** knowledgeislands/ki-principal · **Owning work:** `ki.ways-of-working` · **Date:** 2026-10-24, folded 2026-10-25 · **Pioneered by:** [VA > SoP](/Users/krisbrown/kis/valle-armonia/va-principal/+/_WORK/va.sop.main/work.md), whose [decisions log](/Users/krisbrown/kis/valle-armonia/va-principal/+/_WORK/va.sop.main/decisions.md) holds Kris's words from 07:39 to 08:02 BST on 24 October
 
 Tending is the continual tending of a territory's knowledge: a repeated pass over a repository or a territory that takes stock and burns down what it finds. What matters is the process and the alignment it keeps, not the report it leaves.
 

@@ -12,7 +12,7 @@ author: Written with Claude
 
 **Owner:** Kris Brown · **Owning repository:** knowledgeislands/ki-principal · **Owning work:** `ki.prj.ways-of-working` · **Date:** 2026-10-30
 
-Design note for ORCA-FIT, the run Kris launched on 30 October 2026: "Yes, launch the design run." It tests the starting proposal that Knowledge Islands is the durable layer and Orca the live layer, against the [Work Process](<../../../../Pillars/Philosophy/Model/Processes/Work Process/Work Process.md>) note, the `ki-delegation` and `ki-coordination` standards, Orca 1.4.244's own orchestration guide on sol, and the first Orca trial in [ki.prj.mac-studio-setup](../../ki.prj.mac-studio-setup/design/orca-trial.md) (its [plan069 report](../../ki.prj.mac-studio-setup/plan069.report.md)). It changes no standard, skill, record, hook or Orca state. [The explainer](orca-fit-explainer.md) gives the same picture in plain words for Kris. Under `ki-work-design` this note is the design brief: its numbered claims are for at least two independent reviews before Kris decides anything.
+Design note for ORCA-FIT, the run Kris launched on 30 October 2026: "Yes, launch the design run." It tests the starting proposal that Knowledge Islands is the durable layer and Orca the live layer, against the [Work Process](<../../../../Pillars/Philosophy/Model/Processes/Work Process/Work Process.md>) note, the `ki-delegation` and `ki-coordination` standards, Orca 1.4.244's own orchestration guide on sol, and the first Orca trial in [ki.prj.mac-studio-setup](../../ki.prj.orca-evaluation/design/orca-trial.md) (its [plan069 report](https://github.com/knowledgeislands/ki-principal/blob/d38088a3a47407a4d37ff79050f9e94a52cbdb72/+/_WORK/ki.prj.mac-studio-setup/plan069.report.md)). It changes no standard, skill, record, hook or Orca state. [The explainer](orca-fit-explainer.md) gives the same picture in plain words for Kris. Under `ki-work-design` this note is the design brief: its numbered claims are for at least two independent reviews before Kris decides anything.
 
 ## Contents
 
@@ -211,4 +211,4 @@ Nothing here is enacted. If Kris adopts the design after review, the rollout wou
 - `ki-delegation`: an Orca section mapping the run packet, report path, liveness and steering for Orca workers; the "never stash manually" wording.
 - `ki-coordination`: the armed check under Orca, the gate rule, the `state.md` Now line.
 - `tools-ki`: a render-only prompt step, and the freeze if OF-KI-AGENT a) is taken.
-- Mac Studio setup: continue its trial under the adopted shape and keep [its trial log](../../ki.prj.mac-studio-setup/design/orca-trial.md).
+- Mac Studio setup: continue its trial under the adopted shape and keep [its trial log](../../ki.prj.orca-evaluation/design/orca-trial.md).

@@ -6,7 +6,7 @@
 
 ## Done
 
-- Independently reviewed the [landscape design](landscape.md), [brief](../briefs/landscape.md) and [explainer](landscape-explainer.md) against local sources on 30 October 2026; reviewed baseline `543c8e79`.
+- Independently reviewed the [landscape design](landscape.md), [brief](https://github.com/knowledgeislands/ki-principal/blob/ef452184d1f102b84203203283b0a417d6c9f359/+/_WORK/ki.prj.ways-of-working/briefs/landscape.md) and [explainer](landscape-explainer.md) against local sources on 30 October 2026; reviewed baseline `543c8e79`.
 - Checked all 30 numbered claims and recommended options for the five requested decisions; no other review, run report or `queries.md` was read.
 - Checked installed KI and Orca skills, version-matched Orca guides, command help, the Techné policy and the cited decision entries; material corrections are below.
 - External vendor assertions remain unverified: this review's authority excludes network research beyond authorised Git synchronisation.
@@ -36,7 +36,7 @@ Evidence keys used below:
 - **D:** Installed `ki-delegation`, especially [Coordination](<../../../../.agents/skills/ki-delegation/references/standards-background-runs.md#coordination>), authority tiers, run events and monitoring.
 - **G:** Installed `ki-git` [Git standard](<../../../../.agents/skills/ki-git/references/standards-git.md>), including local integration and worktree-run self-integration.
 - **P:** [Techne Programme Focus](<../../../../Admin/Governance/Policies/Techne Programme Focus.md>), particularly Focus and Sessions; [work decisions](../decisions.md), especially KI-AGENTS-NAME, WAKE-SUBSTRATE on 26 October and ROLES-ORCHESTRATOR/ROLES-EITHER on 29 October.
-- **K:** Local `ki agent --help`, `launch --help`, `wait --help`, `home --help`, `decide --help`, `reconcile --help` and `ki work --help`; [worktree implementation](</Users/krisbrown/kis/knowledge-islands/tools-ki/src/core/agent/worktrees.ts:42>).
+- **K:** Local `ki agent --help`, `launch --help`, `wait --help`, `home --help`, `decide --help`, `reconcile --help` and `ki work --help`; [worktree implementation, line 42](/Users/krisbrown/kis/knowledge-islands/tools-ki/src/core/agent/worktrees.ts).
 - **O:** Installed `orca-cli` and `orchestration` stubs; guides returned by `orca skills get orca-cli --json` and `orca skills get orchestration --json`; local `orca --help`, `serve --help`, `orchestration worker-start --help` and `orchestration check --help`.
 - **B:** Installed `ki-batch` [contract](</Users/krisbrown/.agents/skills/ki-batch/SKILL.md>) and [batch procedure](</Users/krisbrown/.agents/skills/ki-batch/references/standards-batch.md>).
 - **T:** Installed [portable tokenomics](<../../../../.agents/skills/ki-tokenomics/SKILL.md>), [Codex adapter](<../../../../.agents/skills/ki-tokenomics-chatgpt/SKILL.md>) and the harness's [Claude adapter](</Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/environment/ki-tokenomics-claude/SKILL.md>).

@@ -49,7 +49,7 @@ CONTROL-EVIDENCE / DEFAULTS-HANDOFF - Kris, 21 October 2026: [accepted contract 
 
 ## 2026-10-21 23:27 BST - work opener button; rebase fixed
 
-WORK-OPENER - Kris, 21 October 2026: receiver-owned delivery remains with [ki.observatory](../ki.observatory/messages.md) and [ki.tools-burndown](../ki.tools-burndown/messages.md).
+WORK-OPENER - Kris, 21 October 2026: receiver-owned delivery remains with [ki.observatory](https://github.com/knowledgeislands/ki-principal/blob/16b968cccf75b20289db868ff18c5a85435c2fd0/+/_WORK/ki.observatory/messages.md) and [ki.tools-burndown](https://github.com/knowledgeislands/ki-principal/blob/16b968cccf75b20289db868ff18c5a85435c2fd0/+/_WORK/ki.tools-burndown/messages.md).
 
 ## 2026-10-22 02:26 BST - triage and draft records may move forward
 
@@ -63,7 +63,7 @@ GOV202-RENDER / SPEC-HOMING - coordinator, 22 October 2026, under Kris's 21 Octo
 
 ## 2026-10-22 14:12 BST - AUDIT-BOUNDARY settled by the coordinator; fix-8 relaunched
 
-AUDIT-BOUNDARY - coordinator, 22 October 2026, under Kris's 21 October grant: [live admission brief](briefs/wow-admit-toolski-4.md) carries the CI-pinned admission audit and separately held migration.
+AUDIT-BOUNDARY - coordinator, 22 October 2026, under Kris's 21 October grant: live admission brief (brief unrecoverable: never committed) carries the CI-pinned admission audit and separately held migration.
 
 ## 2026-10-22 23:22 BST - guard against over-engineering
 
@@ -73,7 +73,7 @@ Taken as a standing steer for this work. Applied now to tools-ki, which has had 
 
 ## 2026-10-23 01:10 BST - ninth tools-ki round complete; admit under the over-engineering steer
 
-ADMISSION / MIXED-VERSION-LIMIT - coordinator, 23 October 2026, under Kris's 22 October over-engineering steer: [live admission brief](briefs/wow-admit-toolski-4.md) carries the reviewed replay, process restart, release-note limit and held migration.
+ADMISSION / MIXED-VERSION-LIMIT - coordinator, 23 October 2026, under Kris's 22 October over-engineering steer: live admission brief (brief unrecoverable: never committed) carries the reviewed replay, process restart, release-note limit and held migration.
 
 ## 2026-10-23 02:12 BST - permissions before Kris leaves: all as recommended
 
@@ -273,7 +273,7 @@ UNATTENDED-LIMITS / EXTERNAL-SYSTEMS / CONFIDENTIAL - Kris, 25 October 2026: [de
 
 - 02:08 GMT 27 October: Kris: "I'm actually a bit disappointed in the observatory thing, so let's just go back to doing it in here. Let's just get it nailed in here." Taken as: work through the action plan and open questions in this thread, one at a time; Focus stays as built, no further Observatory work now.
 
-- 02:30 GMT 27 October: wow-query-backlog applied the 27 October bulk reading of [query-sweep.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/query-sweep.md) under the 02:24 GMT window (Q1 already dropped; Q4, MOD-011-ADOPT, ANSWER-VECTOR and NAMING-TO-KI, left for Kris; WEBSITE-CLOSE untouched). Q2 parked, one line each under Parked in queries.md: STEWARD-FIELD, LEGACY-PREFIX, PARTIAL-REPOS, UNATTENDED-FIELD, UNATTENDED-AND-DUE-DATES, CLI-PREVIEW, AREA-COLUMN, REPO-STANDARDS-SET, MGIT-CACHE-SCOPE, MGIT-CACHE-FAILED, RECORD-2, FOLDER-1, COORD-7-REST, LINT-WHERE, MISSING-TOOLS, REL-X64-TIMEOUT. Q3 decided, each option a) taken under the 27 October bulk reading:
+- 02:30 GMT 27 October: wow-query-backlog applied the 27 October bulk reading of [query-sweep.md](https://github.com/knowledgeislands/ki-principal/blob/fc1f0303d54d230558da0a1ee810d16ea5786629/+/_WORK/ki.ways-of-working/design/query-sweep.md) under the 02:24 GMT window (Q1 already dropped; Q4, MOD-011-ADOPT, ANSWER-VECTOR and NAMING-TO-KI, left for Kris; WEBSITE-CLOSE untouched). Q2 parked, one line each under Parked in queries.md: STEWARD-FIELD, LEGACY-PREFIX, PARTIAL-REPOS, UNATTENDED-FIELD, UNATTENDED-AND-DUE-DATES, CLI-PREVIEW, AREA-COLUMN, REPO-STANDARDS-SET, MGIT-CACHE-SCOPE, MGIT-CACHE-FAILED, RECORD-2, FOLDER-1, COORD-7-REST, LINT-WHERE, MISSING-TOOLS, REL-X64-TIMEOUT. Q3 decided, each option a) taken under the 27 October bulk reading:
   - SPEC-ORPHAN-OWNER, a): ki.portable-specifications owns the orphan folder; one line sent to its messages.md.
   - RADAR-REPORT-HOME, a): ki.chezmoi owns it; REV-012 now cites the public Radar and FAQ pages plus UE-108's discussion, and UE-108 cites the public pages with the 24 October check date, one docs(roadmap) commit per repository.
   - FALLBACK-DATE, a): 2026-12-31 stands as the HOLD-1 fallback date; nothing to change.

@@ -1,6 +1,6 @@
 # Host synchronisation: merged preparation report
 
-**Brief:** [Saved task](<../briefs/wow-host-sync-design.md>) and [received design input](<host-sync-and-reply-trades.md>) · **Reviews:** [Observatory merge](<../../ki.prj.observatory/design/observatory-sync-report.md>) and its underlying reviews · **Date:** 2026-10-29
+**Brief:** [Saved task](https://github.com/knowledgeislands/ki-principal/blob/0a9e733f7c9b85e1c06b3b19716f09dc984f14b7/+/_WORK/ki.prj.ways-of-working/briefs/wow-host-sync-design.md) and [received design input](<host-sync-and-reply-trades.md>) · **Reviews:** [Observatory merge](<../../ki.prj.observatory/design/observatory-sync-report.md>) and its underlying reviews · **Date:** 2026-10-29
 
 **Owning work:** [Ways of working](<../work.md>) · **Stage:** source-grounded preparation; HOST-SYNC brief and two-review gate incomplete · **Prepared on:** Sol, run `ways-sol-resume-20261029/sol-host-sync-design`, model `gpt-6.1-sol`.
 
