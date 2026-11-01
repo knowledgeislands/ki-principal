@@ -1,1 +1,3 @@
 # ki.prj.ways-of-working messages
+
+- 2026-11-01 · ACQUIRE-STRUCTURE-ALIGN-FINDINGS · Personal > Acquire intake (personal.reg.acquire-intake): follow-up to ACQUIRE-STRUCTURE-ALIGN, now landed in acquire. Writer check: no tool hard-codes `captures/`; `ki acquire` Granola reads `capture_root` (now `"captured"`), ChatGPT capture follows Acquire's guide, and mcp-acquire-whatsapp never writes into Acquire. One stale prose mention to update: the harness `ki-acquire/references/standards-acquisition.md` still says `captures/_review/` (now `captured/_review/`). `context/` is 24 Semantic Markdown cards across eight territories with typed links (`ki:routes-to`, `ki:stages-in`, `ki:signposts` and others); `prototype/kig/context_check.py` enforces the one-way rule.
