@@ -48,7 +48,7 @@ b) Leave the existing containment and smoke checks as they are, with the follow-
 
 since 2026-10-20 · independent blind review received 29 October
 
-**Context:** Rig already supplies public JSON. Bridge still asks only for its version and reports Rig state unavailable; Automation reads declared scheduled jobs. [The blind review](away-bridge-blind-review.report.md) independently reproduced the omission but found no demonstrated breach of accepted behaviour: Machine remains an unadopted idea, and declarations do not establish observed health. The old request to review the gap is complete. The earlier proposal favoured preparing integration; the reviewer instead recommends keeping it parked, at high confidence, because scope and consolidation gates remain unresolved.
+**Context:** Rig already supplies public JSON. Bridge still asks only for its version and reports Rig state unavailable; Automation reads declared scheduled jobs. [The blind review](reports/away-bridge-blind-review.report.md) independently reproduced the omission but found no demonstrated breach of accepted behaviour: Machine remains an unadopted idea, and declarations do not establish observed health. The old request to review the gap is complete. The earlier proposal favoured preparing integration; the reviewer instead recommends keeping it parked, at high confidence, because scope and consolidation gates remain unresolved.
 
 **Query:** Should bounded proposal preparation for the remaining Bridge machine-reader gap be taken up?
 
@@ -64,7 +64,7 @@ c) Consider wording and fixture hygiene only, explicitly leaving the reader omis
 
 since 2026-10-29 · from independent away-status-blind-review
 
-**Context:** [The independent status review](away-status-blind-review.report.md) reproduces canonical exclusions being resurrected, ambiguous aliases being displayed by fast views, and historical package/run-home omissions. Ordinary Review also uses the fast path in current server defaults. Valid regular work and selected members already have flat coverage. These are separable correctness defects, outside [KI-OBSERVA-APP-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md)'s consolidation boundary. Preparation can establish latency, producer warnings/refusals and cross-repository-home limits; it cannot itself adopt a repair, choose global-home precedence or authorise delivery.
+**Context:** [The independent status review](reports/away-status-blind-review.report.md) reproduces canonical exclusions being resurrected, ambiguous aliases being displayed by fast views, and historical package/run-home omissions. Ordinary Review also uses the fast path in current server defaults. Valid regular work and selected members already have flat coverage. These are separable correctness defects, outside [KI-OBSERVA-APP-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md)'s consolidation boundary. Preparation can establish latency, producer warnings/refusals and cross-repository-home limits; it cannot itself adopt a repair, choose global-home precedence or authorise delivery.
 
 **Query:** Should a separate bounded canonical-reader repair be brought through adoption and an agreed plan?
 
@@ -80,7 +80,7 @@ c) Reconsider APP-044's boundary explicitly before coupling this repair to conso
 
 since 2026-10-29 · independent blind query review received
 
-**Context:** The [merged sync paper](design/observatory-sync-report.md) compares A, attended passes under fresh grants; B, a Rig/chezmoi dispatcher child; C, Bridge scheduling/execution; D, Bridge requesting an external runner; and E, a direct per-host Rig scheduled activity invoking a deterministic Tools recipe. The merge preferred preparing E against A; [the blind query review](away-sync-query-review.report.md) independently recommends that same course. A running Bridge supplies no periodic execution mandate. Existing publication, repository, confidentiality and deployment gates apply whichever candidate is chosen. HOST-SYNC responsibility semantics remain with Ways of working, with any seat/failover change separately owned; this choice does not settle them.
+**Context:** The [merged sync paper](design/observatory-sync-report.md) compares A, attended passes under fresh grants; B, a Rig/chezmoi dispatcher child; C, Bridge scheduling/execution; D, Bridge requesting an external runner; and E, a direct per-host Rig scheduled activity invoking a deterministic Tools recipe. The merge preferred preparing E against A; [the blind query review](reports/away-sync-query-review.report.md) independently recommends that same course. A running Bridge supplies no periodic execution mandate. Existing publication, repository, confidentiality and deployment gates apply whichever candidate is chosen. HOST-SYNC responsibility semantics remain with Ways of working, with any seat/failover change separately owned; this choice does not settle them.
 
 **Query:** Which candidate should its owners develop into a reviewable plan?
 

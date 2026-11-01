@@ -114,7 +114,7 @@ No decision below is adopted. Publication default, confidentiality, PUSH-KRIS, t
 
 since 2026-10-29 · independent blind query review received
 
-**Context:** The [merged sync paper](observatory-sync-report.md) compares A, attended passes under fresh grants; B, a Rig/chezmoi dispatcher child; C, Bridge scheduling/execution; D, Bridge requesting an external runner; and E, a direct per-host Rig scheduled activity invoking a deterministic Tools recipe. The merge preferred preparing E against A; [the blind query review](../away-sync-query-review.report.md) independently recommends that same course. A running Bridge supplies no periodic execution mandate. Existing publication, repository, confidentiality and deployment gates apply whichever candidate is chosen. HOST-SYNC responsibility semantics remain with Ways of working, with any seat/failover change separately owned; this choice does not settle them.
+**Context:** The [merged sync paper](observatory-sync-report.md) compares A, attended passes under fresh grants; B, a Rig/chezmoi dispatcher child; C, Bridge scheduling/execution; D, Bridge requesting an external runner; and E, a direct per-host Rig scheduled activity invoking a deterministic Tools recipe. The merge preferred preparing E against A; [the blind query review](../reports/away-sync-query-review.report.md) independently recommends that same course. A running Bridge supplies no periodic execution mandate. Existing publication, repository, confidentiality and deployment gates apply whichever candidate is chosen. HOST-SYNC responsibility semantics remain with Ways of working, with any seat/failover change separately owned; this choice does not settle them.
 
 **Query:** Which candidate should its owners develop into a reviewable plan?
 
@@ -155,7 +155,7 @@ This is a routed receiver-owned question. Observatory asks Kris here only for SY
 
 ### Final independent query review and freshness receipt
 
-The [blind query review](../away-sync-query-review.report.md) independently agrees with E-versus-A preparation and independent per-host responsibility. Under the query-review rule only those matching courses rise from medium/moderate to high, with reviewed reasons. This agreement selects neither course. The original authority/reliability disagreement remains in Agreement and difference; it is not a unanimous executor recommendation.
+The [blind query review](../reports/away-sync-query-review.report.md) independently agrees with E-versus-A preparation and independent per-host responsibility. Under the query-review rule only those matching courses rise from medium/moderate to high, with reviewed reasons. This agreement selects neither course. The original authority/reliability disagreement remains in Agreement and difference; it is not a unanimous executor recommendation.
 
 At the pre-route final receipt, 20 of the original 25 source hashes still match; the later HOST-SYNC receipt also changes Ways of working messages. The five changed sources are Observatory messages/decisions, Tools messages and the coordination/delegation standards: receipts and method updates postdate the brief. Their current changes were reread; the original inventory remains historical evidence. No source, installed-service or other-host freshness is inferred from an old hash. The hourly-calendar reproduction remains 72 healthy stale observations versus an overdue interval control; no defect has been adopted or repaired. Existing HNR specimens/producer and Tools resolver/recipe routes remain with their owners.
 
