@@ -1186,6 +1186,20 @@ c) Keep things as they are: leave the written rules unchanged and let briefs kee
 
 d) Also allow rebase in the shared checkout when it is clean and only this session's commits are unpublished, as ki-principal's Git settings already do for a bare `git pull`. Not recommended, because another session may commit at the same moment.
 
+### AUTOSTASH-LEFTOVER - An automatic stash is left in assistant
+
+since 2026-11-01 · from run/orca-release
+
+**Context:** Git's automatic stash in assistant, `stash@{0}` labelled "autostash", holds only this run's three refresh lines, and all three are now in commit `314df11`. The never-stash rule says a leftover stash is reported, not dropped. A territory sweep will flag it as `[stash]`.
+
+**Query:** Should the automatic stash be dropped?
+
+**Options:**
+
+a) (recommended, confidence high - its whole content is checked to be in commit `314df11`) Drop it through a bounded run, after a final check against the commit.
+
+b) Keep it and let the territory sweep raise it.
+
 ## Answered
 
 - TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT; BROKEN-LINKS-HISTORY - a (all 1 November 2026; see decisions.md).
