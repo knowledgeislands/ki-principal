@@ -554,20 +554,6 @@ a) (recommended, confidence high - reviewed; one stable name means no rename str
 
 b) No: keep `<label> (<id>)` as the starting name and use the 🧵 form only for the rename line.
 
-### TOP-LEVEL-SWEEP-DELETE - Only each folder's steward deletes old reports
-
-since 2026-11-01 · from run/top-level-cause · split after blind review; both this work and the review agree on this part
-
-**Context:** 182 reports sit at the top level of 17 work folders in five repositories, most belonging to other work. Whether a report can be deleted depends on whether its outcome already has a durable home, which only that folder's steward can judge; the rules require that judgement and an explicit path for each deletion.
-
-**Query:** Should deleting the old reports stay with each folder's own steward, whoever moves them?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; both agree that moving and deleting are separate, and that only the steward can judge a report's home) Yes: no clean-up run deletes a report; each steward prunes its own at its marks.
-
-b) No: let one clean-up run judge and delete reports across all folders.
-
 ### TOP-LEVEL-SWEEP-MOVE - Who moves the old reports into `reports/`
 
 since 2026-11-01 · from run/top-level-cause · split after blind review; the review differs from this work
@@ -584,6 +570,7 @@ b) State of play sends each of the 17 folders one message, and each steward move
 
 ## Answered
 
+- TOP-LEVEL-SWEEP-DELETE - a (1 November 2026): only stewards delete old reports.
 - TOP-LEVEL-NOW - a (1 November 2026): reports into `reports/` now.
 - ORCA-REACH - answered a) on 30 October 2026, follow-up due 6 November 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
 - AGENT-HOME - answered a) on 30 October 2026, follow-up due 2 November 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
