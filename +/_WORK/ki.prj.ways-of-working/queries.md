@@ -730,6 +730,20 @@ a) (recommended, confidence high - checked directly in the harness's `AGENTS.md`
 
 b) Leave the section as it is, since nothing runs under it.
 
+### CLOSE-GATE - The finished runs cannot be closed one at a time
+
+since 2026-11-01 · from run/wow-tidy-4
+
+**Context:** `ki agent close` retires the whole `ki-project-ways-of-working` group in one go. It only passes when every run in the group has finished, every run's temporary folder is empty, every decision in the log has a durable home and the work folder is committed and clean. Right now three runs are live, 24 temporary folders hold scratch files, 79 decisions have no home and the two Z files are uncommitted. There is no way to close only the finished runs, and the brief excluded the waiver flag.
+
+**Query:** How should the finished runs be closed?
+
+**Options:**
+
+a) (recommended, confidence medium - the gate is clear about what it needs; how much decision-homing work Kris wants is not) Leave the group open for now. When the live runs finish, a bounded run empties the spent temporary folders, then homes or classes the 79 decisions with `ki agent reconcile`, and runs the strict close once Z-FILES is settled.
+
+b) Leave the group open until the Project closes, and accept that its state folder keeps growing in the meantime.
+
 ## Answered
 
 - TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT; BROKEN-LINKS-HISTORY - a (all 1 November 2026; see decisions.md).
