@@ -1,7 +1,7 @@
 ---
 id: ki.prj.orca-evaluation
 state: with-supervisor
-since: 2026-11-01T01:34:00Z
+since: 2026-11-01T09:44:00Z
 received: 2026-10-30T01:49:00Z
 beat: null
 mark: 2026-10-30T01:42:30Z
@@ -12,7 +12,7 @@ method_read: df3f5503
 
 ## Now
 
-- Sent to Kris 01:34 GMT on 1 November with SCOPE-SPLIT and ORCA-UPSTREAM.
+- Sent to Kris 09:44 GMT on 1 November with SCOPE-SPLIT, ORCA-UPSTREAM, THREADS-TRY, THREADS-SWEEP and THREADS-FR.
 - Trial complete: evidence in `design/orca-trial.md`; the Orca launcher proposal `design/orca-launcher.md` is with ki.prj.ways-of-working for adoption. Worker survival when the coordinator chat ends is left to first live use.
 - Dispatch is through Orca, Run `run_a30bc0d03f5b` (a known exception to ORCA-ROUTING until a machine-local routing record exists).
 - Stock-take proposal still to apply on SCOPE-SPLIT: ~/.local/state/ki/agents/ki-prj-orca-evaluation/stock-take.report.md.

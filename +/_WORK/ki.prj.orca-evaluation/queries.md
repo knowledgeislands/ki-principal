@@ -28,6 +28,44 @@ b) Send all four now, each as its own report, item 5 marked lower priority.
 
 c) Send none of the four for now; only the card bug goes.
 
+### THREADS-TRY - Test archiving one worker thread first
+
+**Context:** Each Codex worker Orca starts leaves a saved conversation that shows in the ChatGPT app's recent list on the Mac that ran it: 50 on terra and 3 on sol so far, vega not yet counted. Orca has no setting for this; it keeps its own copy of each worker's output when the worker is released, and the brief and report are in the work package. Codex's own command line can archive a conversation (undone with `codex unarchive`) or delete it for good. Nobody has yet shown that archiving from the command line removes it from the ChatGPT app's list. Hand-editing app files is ruled out after 31 October.
+
+**Query:** May a run on terra archive one finished worker conversation, check it leaves the ChatGPT app's list, then unarchive it and check it returns?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed: the independent review proposed it; one reversible step settles the only unproven point before anything is done in bulk) Yes, one conversation on terra, through Codex's own commands only.
+
+b) Skip the test and go straight to the clear-out.
+
+### THREADS-SWEEP - Clear finished worker threads on each Mac
+
+**Context:** If the one-thread test works, the existing worker conversations (50 on terra, 3 on sol, vega to be counted) can be archived in bulk through Codex's own command, matching only conversations that open with Orca's worker preamble and whose Orca worker has finished, never one still running. New ones keep appearing after every Orca Run until Orca can do this itself. You said they "should just be deleted"; deleting is permanent, while archived ones can be deleted later once nothing has needed them.
+
+**Query:** Once the test works, should a run on each Mac archive every finished worker conversation, repeated after each Orca Run, with deletion a separate later step?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed: the independent review agreed, reversible now and gets to deletion safely) Yes: archive now and after each Orca Run; after about two weeks with nothing restored, a later run deletes the archived ones, on your go.
+
+b) Delete straight away instead of archiving, for the same matched conversations.
+
+c) Archive the existing ones by hand in the ChatGPT app and do nothing automatic.
+
+### THREADS-FR - Ask Orca to tidy a worker's conversation on release
+
+**Context:** The lasting fix is in Orca: when a worker is released, Orca already keeps its own copy of the output, so it could then archive or delete the Codex conversation itself. Nobody has asked Orca for this; the nearest open requests are about filtering worker notifications and removing worktrees after release. A request is public. A "never save" mode for workers is not the right ask, because Orca reads the conversation while the worker runs.
+
+**Query:** Should one short feature request go to Orca asking for an opt-in setting to archive or delete a worker's Codex conversation when it is released?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed: the independent review recommended exactly this request; it is specific and opt-in) Yes, file it now as its own report.
+
+b) Hold it until the clear-out has run for a while.
+
 ## Parked
 
 None.
