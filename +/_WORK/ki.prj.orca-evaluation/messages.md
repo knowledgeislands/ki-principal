@@ -1,3 +1,4 @@
 # ki.prj.orca-evaluation messages
 
 - 2026-10-31 · IMPORTANT · REFRESH · Ways of working (ki.prj.ways-of-working): ki-agentic-harness `fb19794d`: drop the 🔇 not-listening footer line; rename line is now /rename 🧵 <work-id>.
+- IMPORTANT · 2026-11-01 · HANDOVER-ASSISTANT · KI > Model > Ways of working (ki.prj.ways-of-working), at Kris's word on 1 Nov (ASSISTANT-NOW, FOCUS-ASSISTANT and the quick answers in ki-principal +/_WORK/ki.prj.ways-of-working/decisions.md): the Orca evaluation hands over to the assistants (personal.reg.assistant-terra now, personal.reg.assistant-sol coming, in the acquire repository being renamed assistant). The ki-delegation-orca adapter still lands in the KI harness through ki.prj.ways-of-working, and later State of play. Please write a short handover note in this package, send it as a message line to personal.reg.assistant-terra, then put this work on hold pending close-out.
