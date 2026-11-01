@@ -46,6 +46,98 @@ since 2026-11-01 · from IDEAS-ROADMAP-PRINCIPLE in the interactive pass; replac
 
 **Options:** to be drafted by the empty-board design and reviewed before it comes back; candidates are a "future" section at the foot of the card, Project or work package it concerns, future concepts in the knowledge graph, and the roadmap's idea places as now.
 
+### HOOK-PATCH - Treat a leftover lint-staged patch like a leftover stash
+
+since 2026-11-01 · from run/hook-nostash
+
+**Context:** With `--no-stash`, lint-staged no longer makes a backup stash. While its checks run, it still sets aside the unstaged part of any partly staged file, and it now keeps that part in a patch file at `.git/lint-staged/<id>/unstaged.patch`. In the scratch test, killing lint-staged at that moment left the working file without those edits. Only the patch held them, and `git apply` brought them back exactly. A normal Ctrl-C did not cause this. The standards now cover a leftover `lint-staged automatic backup` stash, but they say nothing about this patch, so an agent tidying `.git` could delete someone's only copy of their unstaged edits.
+
+**Query:** Should the `ki-delegation` standard and the coordinator style also say that a leftover `.git/lint-staged/` patch is reported, never deleted or applied by an agent?
+
+**Options:**
+
+a) (recommended, confidence medium - the loss was reproduced in the scratch repository, but needing a hard kill makes it rare) Add it to the same sentence in both places, so a leftover patch is reported to its owner like a leftover stash and never deleted or applied by an agent, in a small follow-up run.
+
+b) Leave the standards as they are and rely on the general rule against touching other sessions' files.
+
+### SWEEP-GATE - What "both Macs level" means before each repository is swept
+
+since 2026-11-01 · from run/discussions-plan
+
+**Context:** On 31 October Kris asked that the rename sweep wait until "host sync has both Macs level", to avoid clashes between the two Macs, sol and terra. Host sync is not yet running routinely. Sol's sync loop stopped at its session restart on 31 October and has not resumed, and no host-sync executor or schedule has been chosen. A wholesale move of every repository to `~/world/<territory>/<repo>` is also being prepared. The sweep renames a file in 60 work packages across 9 repositories. If either Mac holds unpushed changes to those packages, or the move happens mid-sweep, the two copies drift apart and someone has to merge them by hand.
+
+**Query:** Should each repository's sweep wait for a one-off check that that repository is clean and level on both Macs, or wait until host sync runs routinely and the repository move is finished?
+
+**Options:**
+
+a) (recommended, confidence medium - it meets the aim of Kris's words without waiting on host sync, which has no date; but it reads "host sync" as a check rather than the running service) Just before each repository's run, each Mac's Rig thread or Kris makes a fresh one-off check that the repository is committed, pushed and level on both Macs. The run then renames and pushes at once, and the other Mac pulls before any coordinator there writes. No sweep runs while the `~/world` move is under way.
+
+b) Hold the whole sweep until host sync runs routinely on both Macs and the `~/world` move has finished. The readers and writers (U1 to U5) go ahead meanwhile, and the old and new names live side by side until then.
+
+### HOST-SYNC-CLOSE - Close the parked host-sync design too?
+
+since 2026-11-01 · from run/stocktake
+
+**Context:** On 1 November you closed the four HOST-* questions as superseded: "I think we've moved on from some of these points ... it's a step back from where we are now". Each Mac's Rig sync thread now runs every 15 minutes, with terra seven minutes after sol, and repeats until the Mac and GitHub are level. Sol leads Knowledge Islands, Personal and Legal. One older parked query, HOST-SYNC, still asks which primary or secondary order and offset hosts should publish in, which that rule has already answered. While it stays parked, six design notes stay with it: `host-sync-and-reply-trades`, `host-sync-report` and the four in `host-sync/`. Deleting them is undone easily from Git. One Observatory report links `host-sync-and-reply-trades` by local path.
+
+**Query:** Should the parked HOST-SYNC query be closed as superseded by the same 1 November words, so that the host-sync design notes can go at the next mark?
+
+**Options:**
+
+a) (recommended, confidence high - your 1 November words and the 31 October answers already settle its order, offset and lead host, and Git keeps the notes) Close HOST-SYNC as superseded. Delete the six notes at the next mark, pointing the Observatory report's link to the notes' last revision. Keep `host-reconcile/plan.md` until the sol Rig thread has received the IMPORTANT line that links it.
+
+b) Keep HOST-SYNC parked and the six notes with it until a later design discussion.
+
+### CITED-NOTES - Delete graduated notes that other files still link to?
+
+since 2026-11-01 · from run/stocktake
+
+**Context:** Five design notes have done their job, because their decisions now live in the skills, but other files still link to them by local path. `coordination-lessons` and `method-feedback` are listed as sources by three harness skills that this work owns. `gfm-migration`, `unattended-work` and `work-id-shape-plan` are linked from the tools-burndown, Personal State of play, baseline-rollout and Observatory packages. Deleting a note breaks those links. The standard already handles a removed record the same way: it links the last version on GitHub. Moving a note to a topic folder breaks the links just as deleting it would.
+
+**Query:** May these five notes be deleted once every link to them points to the note's last version on GitHub?
+
+**Options:**
+
+a) (recommended, confidence high - it is the same pinned-link rule the standard uses for pruned records, and nothing is lost from Git) Yes. A run repoints the three harness source lists itself and sends each other package one message line with its pinned link. The notes are deleted at the mark after those links land.
+
+b) No. Keep the five notes until the Project closes.
+
+### OLD-PROPOSALS - What to do with five proposals never decided
+
+since 2026-11-01 · from run/stocktake
+
+**Context:** Five design notes from 21 to 27 October were never adopted or dropped:
+
+- `tags-model`, on subject tags.
+- `gov-227-storage-schema`, a storage-schema draft for the [KI-HARNESS-GOV-227](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/docs/ideas/KI-HARNESS-GOV-227-repository-storage-declarations.md) idea.
+- `overload-process`, on what to do when you are overloaded.
+- `observatory-review`, a review view in the Observatory, already listed in the Observatory's own ideas file.
+- `agent-control-contract`, accepted on 21 October as a tools-ki build contract, though I could not prove it was delivered.
+
+Under IDEAS-IN-GRAPH, future ideas belong in the knowledge graph, not in a work package. Where ideas finally live (IDEAS-HOME) is still open.
+
+**Query:** Should these five become one-line ideas, with the notes then deleted, or stay where they are?
+
+**Options:**
+
+a) (recommended, confidence medium - it empties the folder without losing the ideas, but IDEAS-HOME, which decides their final home, is still open) Record each as one line in the current ideas list, `design/empty-board/ideas.md`, linking the note's last version on GitHub. Leave GOV-227 and the Observatory review view where they already are. First check `agent-control-contract` against tools-ki, and delete only if it was delivered. Then delete the notes.
+
+b) Keep all five in `design/` until IDEAS-HOME is settled.
+
+### TOPIC-SET - Which topic folders to pilot
+
+since 2026-11-01 · from run/stocktake
+
+**Context:** On 1 November you said this work's folders "should really be aligned to the topic", each holding its briefs, design and reports. Once the deletions above are made, what is left falls into the 13 topics in the Findings table. Fine-grained topics close and can be deleted whole sooner, for example `discussions/` once its rollout lands. Coarser topics would mean fewer folders to look through: `work-package/` could take package layout, package definition and discussions, and `agents/` could take landscape, Orca and listening. Whether each topic has `briefs/` and `reports/` subfolders or keeps them side by side stays with LAYOUT-SHAPE.
+
+**Query:** Should this package's pilot use the 13 proposed topics, or a coarser set?
+
+**Options:**
+
+a) (recommended, confidence medium - small topics match how the work closes and make each folder a natural unit to tidy, but you asked for simplicity and fewer folders also serve that) The 13 topics as proposed.
+
+b) A coarser set of about eight: `work-model/`, `work-package/`, `capture-model/`, `empty-board/`, `agents/`, `host-sync/`, `nascent-areas/` and `publication-recovery/`, with `window-31-oct/` folded into `work-model/`.
+
 ## Answered
 
 - TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT; BROKEN-LINKS-HISTORY - a (all 1 November 2026; see decisions.md).
