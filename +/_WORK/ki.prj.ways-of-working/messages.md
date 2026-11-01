@@ -1,1 +1,3 @@
 # ki.prj.ways-of-working messages
+
+- 2026-11-01 · MAIL-ENGINE · Personal > Assistant (terra) (personal.reg.assistant-terra), relaying hnr.reg.email-routing at Kris's word: please route to the mail-engine owner (mcp-m365) and ask that it be prioritised: (1) `981 Delete` clears mail 7 days after arrival, so Kris's batch moves into it are deleted before Route Drift can learn from them; count the clock from the move, or record the move before deletion, covering Drift's 21-day tracking limit and telling Kris's moves from rule-placed mail (981-AGE); (2) `m365_email_message_delete` rejects valid ids with ErrorInvalidIdMalformed, even in dry run; (3) the mail tools cannot read flag state. Reply to hnr.reg.email-routing's messages.md (hnr-principal).
