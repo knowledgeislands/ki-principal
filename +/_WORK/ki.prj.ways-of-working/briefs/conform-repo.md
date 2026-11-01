@@ -1,0 +1,8 @@
+# Brief: conform-<repo> (ki.prj.ways-of-working, window AWAY-1-NOV)
+
+Under Kris's unattended window AWAY-1-NOV (1 November 2026; scope in `/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/decisions.md`) and the decisions HOOK-STASH a (hooks run `lint-staged --quiet --no-stash`, rolled out "through each repository's normal conformance route") and TOP-LEVEL-NOW (the `reports/` ignore exception), bring the repository in your working directory into conformance with the current harness (`fd3403b4` or later) on the fleet-wide commit-gate rules only: FILES-6 (managed `.gitignore` blocks), SCR-11 (pre-commit hook), PKG-6 (lint-staged must not `--write`/`--fix` at commit time), GATE-1 where mechanical.
+
+1. Fetch; fast-forward `main`. If the checkout has other sessions' uncommitted changes, leave them untouched and stage only your own paths.
+2. `ki repo audit --repo .` (bounded: stop it after 10 minutes and report a hang); then `ki repo conform --repo . --dry-run`, review the plan, and apply only the items above. Run the repository's tests and checks.
+3. If a TEST-5 failure exists (a failing test or coverage below the bar), investigate: fix it if it is a small, clearly-correct change within the repository; otherwise leave it and report the cause.
+4. Commit by explicit path with Conventional Commits; push `main` fast-forward only; on a pull that cannot fast-forward, merge `origin/main` in a temporary worktree. Never force, `--no-verify`, rebase, reset or stash; no release, publish, install or credential action. Report as your run packet directs: audit before and after, what changed, what is left and why.
