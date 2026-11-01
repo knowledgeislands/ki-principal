@@ -1,7 +1,7 @@
 ---
 id: ki.prj.orca-evaluation
-state: with-worker
-since: 2026-11-01T00:41:00Z
+state: with-supervisor
+since: 2026-11-01T00:48:00Z
 received: 2026-10-30T01:49:00Z
 beat: null
 mark: 2026-10-30T01:42:30Z
@@ -12,18 +12,19 @@ method_read: df3f5503
 
 ## Now
 
-- Re-bootstrapped 23:20 GMT on 31 October from session `4494702a`; with Kris with ten queries: TRIAL-UNITS, TRIAL-PUBLISH, TRIAL-ASK, TRIAL-PRACTICE, NEST-TRIAL, NEST-FR, ORCA-IDENTITY-LEAK (narrowed), ORCA-SIDEBAR-FR, LABEL-FIRST, ORCA-RUN-REBIND.
-- ORCA-OPTIN b): dispatch is through Orca, Run `run_a30bc0d03f5b` (from 1 November); `run_30f79294698c` is retired, bound to the previous session.
-- Running: stock-take (brief `briefs/stock-take.md`, report to ~/.local/state/ki/agents/ki-prj-orca-evaluation/stock-take.report.md), read-only consolidation proposal at Kris's word of 1 November.
-- Evidence held outside the repository until homed: run reports under ~/.local/state/ki/agents/ki-prj-orca-evaluation/ (trial-plan, thread-nesting, sidebar-restore, orca-labels).
-- Bundled Orca request draft to carry: card line breaks (ORCA-CARD-BUG, authorised), settings export (ORCA-SETTINGS-READ), and the sidebar and label requests on Kris's go.
+- Sent to Kris 00:48 GMT on 1 November with four queries after the stock-take: SCOPE-SPLIT, TRIAL-SHAPE, ORCA-SKILL-NOW, ORCA-UPSTREAM.
+- Dispatch is through Orca, Run `run_a30bc0d03f5b` (kept here as a known exception to ORCA-ROUTING until a machine-local routing record exists); `run_30f79294698c` retired.
+- Proposal to apply on Kris's answers: ~/.local/state/ki/agents/ki-prj-orca-evaluation/stock-take.report.md (draft message lines to ki.prj.ways-of-working, two-unit plan, scope edits, decisions to strike).
+- Card line-break bug filed as stablyai/orca#36830.
 
 ## Next steps
 
-1. On ORCA-RUN-REBIND, open the replacement Run (or fall back to `ki agent`), then launch: the evidence-homing run (thread-nesting, sidebar, label findings, ORCA-DISPATCH-LEARNINGS, ORCA-MOVE-LESSON into `design/orca-trial.md`), the ORCA-REMOTE-VIEW investigation under ORCA-HOST, and the bundled Orca request draft.
-2. On Kris's answers to the TRIAL queries, dispatch the trial units through Orca on sol, attended; unit 1 also runs the ORCA-SUBAGENT-PILOT checks and answers ki.prj.ways-of-working.
-3. On ORCA-IDENTITY-LEAK a), send the narrowed message to ki.prj.ways-of-working.
-4. ORCA-REACH follow-up due 6 November 2026; ORCA-FIT notes from ki.prj.ways-of-working still awaited.
+1. On SCOPE-SPLIT a): send the five message lines to ki.prj.ways-of-working, amend `work.md` scope, strike the decisions the stock-take lists.
+2. On TRIAL-SHAPE a): dispatch unit 1 (attended pilot, homing all Orca evidence into `design/orca-trial.md`) on sol; record nesting, wake, release and survival; answer ORCA-SUBAGENT-PILOT to ki.prj.ways-of-working.
+3. On ORCA-SKILL-NOW a), once unit 1 is received: dispatch unit 2, the Orca launcher proposal, and hand it to ki.prj.ways-of-working.
+4. ORCA-REMOTE-VIEW: one read-only investigation under ORCA-HOST, beside unit 1.
+5. On ORCA-UPSTREAM: file the chosen reports.
+6. ORCA-REACH follow-up due 6 November 2026.
 
 ## Held
 
