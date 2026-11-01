@@ -2,20 +2,6 @@
 
 ## Open
 
-### SYNC-SNAPSHOT-ADOPT - Make the snapshot method how every host-sync pass works
-
-since 2026-10-31 · from personal.reg.rig-terra (SYNC-SNAPSHOT-FINDINGS) · blind review 31 October 23:24 GMT differs; recommendation changed
-
-**Context:** You asked terra's Rig thread for a way to sync even when checkouts have unfinished, uncommitted work. Its prototype takes the last commit as a snapshot, merges in what's on GitHub in a separate scratch copy, pushes that by name with a race guard (never forced), then moves the live branch forward, leaving uncommitted files alone. It passed all 14 throwaway test cases. A blind review on Codex read the prototype and found three gaps that the tests don't cover: nothing checks that a clean merge still passes the repository's checks before it is pushed; it ignores the push veto that `mgit` honours (`tools-mgit/bin/mgit` line 3168); and a configured follow-tags setting could push tags along with the branch. It also lacks coordination between passes and recovery after interruption. Report: personal-principal `+/_WORK/personal.reg.rig-terra/sync-snapshot.report.md`.
-
-**Query:** Should both Rig sync threads use this snapshot method for every pass?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; the reviewer verified the missing safeguards in the code, and keeping today's default is reversible) Keep plain fast-forward passes for now, and ask terra's Rig thread for a bounded, supervised trial on representative repositories on both Macs that adds merge validation, the push veto, tag control and interruption recovery before the default changes.
-
-b) Adopt it on both Macs, starting with one supervised pass on a real repository on each, accepting that those gaps remain open when routine use begins.
-
 ### WORKER-WAIT-MEANING - With worker means the worker role holds the work, not that a process is live
 
 since 2026-10-29 · from run/sol-state-machine-readiness, split from WORKER-WAIT on 30 October at Kris's request; refines the parked STATE-MACHINE-DECISIONS · high now, no further work needed
