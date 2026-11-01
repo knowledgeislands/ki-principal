@@ -2,36 +2,6 @@
 
 ## Open
 
-### PUBLIC-REPORT-AUDIENCE - Choose the response scope
-
-since 2026-10-29 · from run/sol-private-report-assessment; the parked TERRA-LOCAL-REPORTS and PROTECTED-PUBLICATION refer to this audience question.
-
-**Context:** Exact selected historical content remains reachable in locally verified published history, and one protected version remains current. Readership and indexing are unknown. Assessment approval did not authorise a remedy. The run's private evidence and response options are at `/Users/krisbrown/.local/state/ki/agents/ways-sol-resume-20261029/sol-private-report-assessment.private/`, which stays private and outside the repository. An independent review on 30 October (private report `/Users/krisbrown/.local/state/ki/agents/ki-prj-ways-of-working/public-report-review.report.md`, quoting no protected payload) reproduced the exact local selection, byte, reachability, current-path, recovery and evidence-integrity claims on a fresh pinned snapshot. It could not establish actual public serving, readership, indexing, the original audience instruction, credentials or harm, and found no evidence supporting an emergency intervention. It recommends the private exact-version response design at high confidence, narrowed so that current and historical publication stay unchanged during the task without that implying audience clearance or a presupposed removal outcome, using the existing inventory rather than wider discovery and keeping protected detail out of the repository; its alternative was deferral with a named owner and return point. Not taken under ACCEPT-BY-CRITERIA on 31 October: it concerns protected material and needs Kris to state the intended audience, which no one else can decide, so test 3 is not met.
-
-**Query:** Should a separately bounded private response design follow, or should the owner explicitly retain the present publication posture?
-
-**Options:**
-
-a) (recommended, confidence high - resolves intended audience before selecting a remedy) Commission a private exact-version response design using the evidence locator above. Specify permitted audience and desired current/historical disposition; return a separate execution proposal with residual exposure stated. This authorises planning only, with no sanitisation, access change, history action, credential action or external contact.
-
-b) Explicitly accept leaving current and historical publication unchanged, retaining the private evidence and unknown-readership qualification. This does not clear further public reuse.
-
-c) Defer the response decision, naming its owner and return point; preserve evidence unchanged.
-
-### PUBLIC-REPORT-RECOVERY - Decide private evidence durability
-
-since 2026-10-29 · from run/sol-private-report-assessment; related to the parked TERRA-RECOVERY.
-
-**Context:** Local recovery has been verified, but private off-machine recovery has not. The private evidence directory must remain outside the launcher's repository report home; no relevant source-store declaration was established for this operation. The 30 October independent review (same private report) confirmed local recovery: the bundle verifies, the recovery repository returns every selected version and all evidence hashes match, but every verified copy shares Sol's failure domain and no off-machine copy was inspected. It recommends option a) at high confidence: Kris identifies or approves a private destination independent of Sol, without guessing a source-store binding, then a separate task preserves a frozen manifest of the complete evidence chain and history bundle, verifies the destination copy and restores from it into an isolated location, reproducing the expected tip and every selected version hash, with originals kept and the runtime evidence kept out of cleanup until it succeeds. The retired Z session's private archive awaits the same preservation. Not taken under ACCEPT-BY-CRITERIA on 31 October: it needs Kris to name a private destination, and copying protected evidence off the machine cannot be undone, so tests 3 and 4 are not met.
-
-**Query:** Should a later bounded task preserve the existing private recovery/provenance and this assessment at an explicitly approved private destination?
-
-**Options:**
-
-a) (recommended, confidence high - addresses the proved local-only gap without inventing a binding) Identify an approved private destination, or explicitly approve one, then separately authorise exact-manifest backup and restore verification with originals preserved. No transfer is authorised now.
-
-b) Retain only the existing local copies and explicitly acknowledge the private recovery limitation; preserve this runtime evidence and its referenced archives.
-
 ### LAYOUT-SHAPE - Which package layout to adopt
 
 since 2026-10-30 · from run/package-layout · [design](design/package-layout/design.md)
@@ -132,7 +102,7 @@ b) No: leave historical entries and design notes as they are, so only the files 
 
 ## Answered
 
-- TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a (all 1 November 2026; see decisions.md).
+- TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination (all 1 November 2026; see decisions.md).
 - TOP-LEVEL-SWEEP-DELETE - a (1 November 2026): only stewards delete old reports.
 - TOP-LEVEL-NOW - a (1 November 2026): reports into `reports/` now.
 - ORCA-REACH - answered a) on 30 October 2026, follow-up due 6 November 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
