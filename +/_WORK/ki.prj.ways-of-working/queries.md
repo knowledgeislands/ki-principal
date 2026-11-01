@@ -902,6 +902,20 @@ a) (recommended, confidence medium - HNR's own coordinator already routed it as 
 
 b) The harness gives way: STREAM-10 also counts a Project's active work package (neither On hold nor Finished) as live work, and stays quiet while it is.
 
+### ACQUISITION-PROCESS-APPROVE - Approve the revised Acquisition Process note
+
+since 2026-11-01 · from run/acq-process-note (ACQUISITION-PROCESS-NOTE a)
+
+**Context:** The canonical [Acquisition Process](</Users/krisbrown/kis/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md>) note still describes dispatch then removal. A full revised draft is at [acquisition-process-draft](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/acquisition-process-draft.md): it adds curation and the staging graph under `processed/<territory>/<island>/`, two ways out (whole captures by dispatch; matured cards once their home is decided), and marks how cards migrate as undecided. Canonical changes need Kris's approval under the Enactment Process.
+
+**Query:** Should the draft replace the canonical note?
+
+**Options:**
+
+a) (recommended, confidence high - it brings the canonical note into line with decisions Kris has already made and leaves the undecided part marked as such) Approve it as drafted, enacted under this approval with the change logged.
+
+b) Review it first and send changes.
+
 ## Answered
 
 - TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT; BROKEN-LINKS-HISTORY - a (all 1 November 2026; see decisions.md).
