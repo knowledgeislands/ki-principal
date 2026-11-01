@@ -200,7 +200,7 @@ b) separate fix - <notes>
 
 ### C56-TICK - Tick C5 and C6 in the record
 
-since 2026-10-15 · from [ue086-walk](ue086-walk.report.md) · parked 2026-10-29 at the baseline finish; release: when Kris resumes the Mac Studio walk
+since 2026-10-15 · from [ue086-walk](reports/ue086-walk.report.md) · parked 2026-10-29 at the baseline finish; release: when Kris resumes the Mac Studio walk
 
 **Context:** this run was asked to tick only the steps it walked. C5 (Google Drive through the `google-drive` cask) and C6 (Home Assistant from the App Store, 1099568401) are verified done on `sol`, with Rig reporting both present, but they are still unticked in [PERSONAL-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-086-finish-software-alignment.md).
 
@@ -210,7 +210,7 @@ since 2026-10-15 · from [ue086-walk](ue086-walk.report.md) · parked 2026-10-29
 
 ### C8-WORDING - C8 still expects Keynote, Numbers and Pages "present"
 
-since 2026-10-15 · from [ue086-walk](ue086-walk.report.md) · parked 2026-10-29 at the baseline finish; release: when Kris resumes the Mac Studio walk
+since 2026-10-15 · from [ue086-walk](reports/ue086-walk.report.md) · parked 2026-10-29 at the baseline finish; release: when Kris resumes the Mac Studio walk
 
 **Context:** step A8 deliberately left Keynote, Numbers and Pages catalogue-only, because `mas info` cannot resolve their App Store numbers. Rig therefore shows them as catalogue-only, never as present, so C8 as written can never pass. DaVinci Resolve is present through `mas`, with no route variant.
 

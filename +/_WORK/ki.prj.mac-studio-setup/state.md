@@ -32,8 +32,8 @@ method_read: df3f5503
 ## Held
 
 - KI-TOOL-RIG-CORE-047 waits on terra (NordVPN on/off checks and `rig apply --sudo`). No attended NordVPN trial until KI-TOOL-RIG-CORE-068 has a tested restore path; NordVPN runs on terra, not sol (NORDVPN-HOLD, from ki.prj.chezmoi, 22 October).
-- At sol's screen: key-only SSH ([ssh-keyonly](ssh-keyonly.report.md)), PERSONAL-DOTFILES-UE-086 steps 0-12 ([ue086-walk](ue086-walk.report.md)), UTM-SOL, OBS-RESTART and RIG-069-PROBE, the attended handler probe in KI-TOOL-RIG-CORE-069.
-- At terra's screen: HOSTKEY-APPLY steps 6-9 ([hostkey-check](hostkey-check.report.md)), then key-only SSH; the firewall re-apply recorded in KI-TOOL-RIG-CORE-047, with its SSH rollback ready and Kris's approval at each screen.
+- At sol's screen: key-only SSH ([ssh-keyonly](reports/ssh-keyonly.report.md)), PERSONAL-DOTFILES-UE-086 steps 0-12 ([ue086-walk](reports/ue086-walk.report.md)), UTM-SOL, OBS-RESTART and RIG-069-PROBE, the attended handler probe in KI-TOOL-RIG-CORE-069.
+- At terra's screen: HOSTKEY-APPLY steps 6-9 ([hostkey-check](reports/hostkey-check.report.md)), then key-only SSH; the firewall re-apply recorded in KI-TOOL-RIG-CORE-047, with its SSH rollback ready and Kris's approval at each screen.
 - Anywhere: the Headroom favicon request ([favicons-headroom.svg](design/favicons-headroom.svg)).
 - FW-LIVE's reboot check at terra's next restart; ZED-MD later at sol; FW-LINUX-LIVE until a Linux host exists.
 - RIG-FULLSCREEN, an idea only, no record until Kris asks.
