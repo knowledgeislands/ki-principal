@@ -1202,6 +1202,20 @@ a) (recommended, confidence high - its whole content is checked to be in commit 
 
 b) Keep it and let the territory sweep raise it.
 
+### OPTION-CONFIDENCE - Give every option its own confidence
+
+since 2026-11-01 · from hnr.reg.email-routing (Kris's thinking)
+
+**Context:** Today only the recommended option carries a confidence and a reason. Kris, 1 November: "if something's confidence medium … then something else must have a different confidence, right? … they might have two options, which are confidence medium, and you recommend one of them. Maybe all options should be given a confidence indicator." The change touches the query format in `ki-coordination`, the output style, the run-prompt Report paragraph and the blind-review handling.
+
+**Query:** Should every lettered option carry its own confidence and one-line reason?
+
+**Options:**
+
+a) (recommended, confidence high - it is Kris's own proposal, it shows how close a call is, and it changes only wording) Yes: every option carries `(confidence <level> - <reason>)`; the recommended one stays first and also says "recommended".
+
+b) No: keep confidence on the recommended option only.
+
 ## Answered
 
 - TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT; BROKEN-LINKS-HISTORY - a (all 1 November 2026; see decisions.md).

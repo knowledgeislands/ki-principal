@@ -1,3 +1,1 @@
 # ki.prj.ways-of-working messages
-
-- 2026-11-01 · OPTION-CONFIDENCE · from hnr.reg.email-routing · Kris's thinking for the query format, in his words: "if something's confidence medium … then something else must have a different confidence, right? So even if you recommend one, it might be that they might have two options, which are confidence medium, and you recommend one of them. Maybe all options should be given a confidence indicator. If we think that, by the way, we should probably send that over as our thinking into the ways of working." Proposal: every lettered option carries its own confidence and one-line reason; the recommended one stays first and marked. For your review and Kris's decision.
