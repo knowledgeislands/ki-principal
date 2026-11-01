@@ -918,6 +918,230 @@ a) (recommended, confidence high - it brings the canonical note into line with d
 
 b) Review it first and send changes.
 
+### ORCA-SKILL-KIND - Make the Orca adapter a process skill rather than a governance skill
+
+since 2026-11-01 · from run/orca-adapter (ORCA-LAUNCHER) · blind review running
+
+**Context:** The repository's skill rules give every skill one of two kinds. A governance skill holds a house standard: it needs four fixed modes and a generated rubric with test scripts. A process skill drives an action and is lighter. Its Paperclip sibling, `ki-delegation-paperclip`, is a governance skill, but it governs company and repository arrangements. The Orca adapter only describes how a coordinator starts, waits on, steers and closes workers, and its standard rests on `ki-delegation`. The draft makes it a process skill that is used only when invoked, depending on `ki-delegation` and `ki-coordination`.
+
+**Query:** Should `ki-delegation-orca` stay a process skill?
+
+**Options:**
+
+a) (recommended, confidence medium - it fits what the skill does and avoids an empty rubric, but its sibling chose the other kind) Keep it a process skill, revisiting only if Orca use needs auditable criteria.
+
+b) Make it a governance skill now, declared in `.ki.toml`, with a rubric and audit scripts like `ki-delegation-paperclip`.
+
+### CLOSEOUT-STRIKE - Strike the chat-release open point in `ki-coordination`
+
+since 2026-11-01 · from run/orca-adapter (ORCA-LAUNCHER) · blind review running
+
+**Context:** `ki-coordination`'s "Closing out Orca workers" section still says it is unproven whether a coordinator in an Orca chat may release a worker it started. The trial on 1 November 2026, under TRIAL-SHAPE, showed that a Claude Code chat coordinator can: release closed each worker's terminal and kept its transcript. The draft carries this change as a marked proposal only.
+
+**Query:** Should a run strike that open point in `ki-coordination` and cite the trial?
+
+**Options:**
+
+a) (recommended, confidence high - the behaviour was observed directly by Kris on 1 November) Strike it, cite TRIAL-SHAPE, keep the fallback for a refused release as an ordinary rule, and say the proof covers Claude Code chats only.
+
+b) Leave it open until the Orca sub-agent pilot checks it.
+
+### ONE-LAUNCHER - One launcher per package per host
+
+since 2026-11-01 · from run/orca-adapter (ORCA-LAUNCHER) · blind review running
+
+**Context:** The proposal suggests each work package records one launcher per host in its decisions log, so a package never mixes Orca and `ki agent` on the same Mac. This rests on reasoning from an earlier design note, not on a trial or a decision.
+
+**Query:** Should one launcher per package per host become a rule?
+
+**Options:**
+
+a) (recommended, confidence medium - it keeps runs findable and close-out simple, at little cost) Adopt it as a rule of the adapter.
+
+b) Leave it open and let each opt-in decision say what it covers.
+
+### OUTLIVE - Runs that must outlive the coordinator stay with `ki agent`
+
+since 2026-11-01 · from run/orca-adapter (ORCA-LAUNCHER) · blind review running
+
+**Context:** Nobody has tested whether an Orca worker survives when its coordinator chat ends. A `ki agent` run is detached and survives. The proposal keeps such runs on `ki agent` until survival is proved.
+
+**Query:** Should a run that must outlive its coordinator go through `ki agent` until worker survival is proved?
+
+**Options:**
+
+a) (recommended, confidence high - it uses the launcher already proved for this and drops away once the test passes) Adopt it as an interim rule, lifted when WORKER-SURVIVAL is proved.
+
+b) Use Orca regardless and accept the risk of losing the run.
+
+### PROMPT-RENDER - Pass the full brief as the worker's spec
+
+since 2026-11-01 · from run/orca-adapter (ORCA-LAUNCHER) · blind review running
+
+**Context:** Orca's `worker-start` takes the worker's instructions as a "spec". The proposal passes the whole brief, with its authority footer and report rule. There is no `ki` command yet that renders a brief without launching it, so the coordinator passes the brief text itself.
+
+**Query:** Should the whole brief text be the spec until `ki` can render one?
+
+**Options:**
+
+a) (recommended, confidence high - the four trial workers ran this way and the brief carries the authority footer) Adopt it, and capture a `ki` render-only step as a tools-ki follow-up.
+
+b) Wait for the render-only step before any further Orca dispatch.
+
+### HEARTBEAT-ACK - Let the waiter acknowledge heartbeats itself
+
+since 2026-11-01 · from run/orca-adapter (ORCA-LAUNCHER) · blind review running
+
+**Context:** Orca workers send "heartbeat" liveness messages, and Orca prompts Kris about each unacknowledged one. Filtering by type still wakes the waiter on heartbeats. The proposal makes the waiter acknowledge a batch that holds only heartbeats and wait again within its five-minute bound, so it wakes the coordinator only for a finish, an escalation or a question. This has not been tried.
+
+**Query:** Should the waiter acknowledge heartbeat-only batches itself?
+
+**Options:**
+
+a) (recommended, confidence medium - it removes noise for Kris, but the loop is untested and a mistake could swallow a finish) Adopt it after one supervised trial shows a finish is never acknowledged by the waiter.
+
+b) Keep the coordinator acknowledging everything itself.
+
+### STOP-VERB - Stop a worker with `worker-stop`
+
+since 2026-11-01 · from run/orca-adapter (ORCA-LAUNCHER) · blind review running
+
+**Context:** The rule that a run stops only when Kris names it and says stop is already settled. The proposal maps that to Orca's `worker-stop --dispatch <id>`, which has not been used in Knowledge Islands.
+
+**Query:** Should `worker-stop` be the adapter's stop, used only on Kris's named word?
+
+**Options:**
+
+a) (recommended, confidence medium - it is Orca's documented verb but unexercised) Adopt it, noting it as unexercised until first use.
+
+b) Leave stopping open until it has been tried once.
+
+### RUN-RECOVERY - Recovering after a coordinator session changes
+
+since 2026-11-01 · from run/orca-adapter (ORCA-LAUNCHER) · blind review running
+
+**Context:** An Orca "Run" belongs to the chat session that made it, and a new session cannot use it. The proposal: a new session makes a new Run, finds the old one by its objective, which starts with the work id, settles or names any worker still owing a decision, and logs the old Run as retired. Orca's takeover command works only from a live coordinator terminal, not from a chat.
+
+**Query:** Should this recovery procedure become the adapter's rule?
+
+**Options:**
+
+a) (recommended, confidence high - it is what was done on 1 November and needs no unproved Orca feature) Adopt it.
+
+b) Wait for the RUN-HANDOVER test before fixing a procedure.
+
+### QUEUE-PACE - Start the next worker at the wake that settles the last
+
+since 2026-11-01 · from run/orca-adapter (ORCA-LAUNCHER) · blind review running
+
+**Context:** Orca does not start a queued worker when its dependencies finish. ORCA-QUEUE already says a queued run goes through Orca while the parent chat is live and otherwise through `ki agent`. The proposal adds that, within one session, the coordinator starts the next worker at the wake that settles the previous one, keeping about three running.
+
+**Query:** Should that pacing become the adapter's rule?
+
+**Options:**
+
+a) (recommended, confidence high - it matches the existing three-at-a-time guidance and needs nothing new) Adopt it.
+
+b) Leave pacing to each coordinator.
+
+### REPORT-HOME - The coordinator copies an Orca worker's report into the work folder
+
+since 2026-11-01 · from run/orca-adapter (ORCA-LAUNCHER) · blind review running
+
+**Context:** With `ki agent`, the launcher copies a finished run's report into the work folder's `reports/`. Orca does not do this. The proposal has the coordinator copy the report named in the worker's finish message at receive. That is a small exception to the rule that the launcher alone writes report files there.
+
+**Query:** Should the coordinator copy an Orca worker's report into `reports/` at receive?
+
+**Options:**
+
+a) (recommended, confidence medium - it keeps reports in Git, but it changes who writes the report folder, so it touches `ki-delegation`) Adopt it as an Orca exception, recorded in `ki-delegation`'s run-packet text.
+
+b) Teach `ki agent` to home Orca workers' reports, keeping one writer.
+
+### WORKER-SURVIVAL - Test whether a worker survives its coordinator chat ending
+
+since 2026-11-01 · from run/orca-adapter (ORCA-LAUNCHER) · blind review running
+
+**Context:** This is untested. Kris left it as a technical detail for first live use under TRIAL-SHAPE.
+
+**Query:** Should the next Orca-dispatched run include this test deliberately?
+
+**Options:**
+
+a) (recommended, confidence high - it is cheap and lifts OUTLIVE) Yes: end the chat with one short read-only worker running and check it in a fresh session.
+
+b) Wait for it to happen by chance.
+
+### DELIVERY-REPLAY - Test that an unacknowledged message is delivered again
+
+since 2026-11-01 · from run/orca-adapter (ORCA-LAUNCHER) · blind review running
+
+**Context:** Orca's help says a message not acknowledged replays on the next check. The loss test has not been run: end the waiter before acknowledging, re-arm it and see the same message id.
+
+**Query:** Should this test be run before relying on replay?
+
+**Options:**
+
+a) (recommended, confidence high - the wait rule assumes no seen event is lost) Yes, in the same trial as WORKER-SURVIVAL.
+
+b) Rely on Orca's help text.
+
+### RUN-HANDOVER - Test moving a Run between chat sessions
+
+since 2026-11-01 · from run/orca-adapter (ORCA-LAUNCHER) · blind review running
+
+**Context:** Whether `run-use` can move a Run from one chat session to another is untested beyond one failure. RUN-RECOVERY works around it by making a new Run.
+
+**Query:** Is the test worth running?
+
+**Options:**
+
+a) (recommended, confidence medium - RUN-RECOVERY already works, so this only adds convenience) Leave it untested unless recovery proves costly.
+
+b) Test it in the next trial.
+
+### ORCA-CODEX-WAKE - Whether a Codex coordinator can be woken by Orca
+
+since 2026-11-01 · from run/orca-adapter (ORCA-LAUNCHER) · blind review running
+
+**Context:** This is already an open query in `ki.prj.ways-of-working`. The draft says a Codex coordinator does not rely on Orca's wait until it is proved.
+
+**Query:** Keep the draft's interim rule while CODEX-WAKE stays open?
+
+**Options:**
+
+a) (recommended, confidence high - it relies on nothing unproved) Yes.
+
+b) Drop the interim rule and decide CODEX-WAKE first.
+
+### OWNER-ASK - How a question only Kris can answer travels from an Orca worker
+
+since 2026-11-01 · from run/orca-adapter (ORCA-LAUNCHER) · blind review running
+
+**Context:** Operational questions use Orca's ask-and-reply, and that is proved. How a worker's question that only Kris can answer reaches Kris is undecided, under OF-OWNER-ASK in the orca-fit design. The draft leaves it open.
+
+**Query:** Should the draft keep this open until OF-OWNER-ASK is decided?
+
+**Options:**
+
+a) (recommended, confidence high - it is already held by its own query) Yes.
+
+b) Settle it in the adapter now.
+
+### ADAPTER-MERGE - Review and integrate the `orca-adapter` branch
+
+since 2026-11-01 · from run/orca-adapter (ORCA-LAUNCHER) · blind review running
+
+**Context:** The branch holds two commits on top of `main` at `321742fe`. Tests, type check and audits pass on it. The brief forbade merging and pushing.
+
+**Query:** Should the branch go to independent review and then be fast-forwarded into `main`?
+
+**Options:**
+
+a) (recommended, confidence high - this is the repository's normal path) Yes: review it, then integrate it, after any answers above that change the text.
+
+b) Hold it until the open points are settled.
+
 ## Answered
 
 - TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT; BROKEN-LINKS-HISTORY - a (all 1 November 2026; see decisions.md).
