@@ -1,10 +1,10 @@
 ---
 id: ki.prj.ways-of-working
 state: with-worker
-since: 2026-11-01T01:10:12Z
+since: 2026-11-01T01:41:58Z
 received: 2026-10-29T15:38:09Z
-beat: 2026-11-01T01:10:12Z
-mark: 2026-11-01T01:10:12Z
+beat: 2026-11-01T01:41:58Z
+mark: 2026-11-01T01:41:58Z
 method_read: df3f5503
 ---
 
@@ -17,11 +17,15 @@ method_read: df3f5503
 
 ## Next steps
 
-0. Re-bootstrapped at `~/kis/` after the move (23:32 GMT, 31 Oct); all runs received; sent to Kris with 34 open queries.
-1. Take Kris's answers on the open queries, the empty-board draft and the held packages (HOLD-SCOPE), and read each back in `decisions.md`.
-2. Follow-ups: AGENT-HOME due 2 November 2026; ORCA-REACH due 6 November 2026.
-3. On LAYOUT-SHAPE: run LAYOUT-PILOT-ORDER (harness first, then hand pilot).
-4. Strike the next mark once Kris has seen the return report.
+Window AWAY-1-NOV, 01:41 GMT until Kris returns or 09:00 GMT, whichever is earlier (decisions log).
+
+1. `territory-stock` (ki-principal, read-only, push tier for its report only; ~30 min): list the territory's main threads and packages, their state, waiting messages, blockers, repositories behind or dirty, and every adopted Now or Next draft and Ready record by repository, with dependencies; propose the waves.
+2. Good working order (each package, push tier; waits on 1): message-queue lines handled within each package's own authority; repositories levelled; nothing judgement-bearing decided.
+3. Delivery waves (`ki-batch`, push tier; waits on 1): Now/Next drafts to Ready, Ready to awaiting review, one repository per wave, about three runs at once.
+4. Decided follow-ups (push tier): the discussions rollout's harness step (readers accept both names), then the message lines to tools-ki and the Observatory.
+5. Return report at Kris's return: recap since the 01:41 mark, each unit, failures beside their unit, misses listed.
+
+Excluded: acceptance, pruning, adoption, every open query and agenda item, releases and installs, HNR, the Paperclip rollout.
 
 ## Held
 
