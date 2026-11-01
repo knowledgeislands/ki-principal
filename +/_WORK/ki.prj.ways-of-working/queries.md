@@ -166,48 +166,6 @@ b) Keep today's rule that only the work itself deletes its folder. Fix only the 
 
 c) Have the finishing coordinator delete the folder in the same sitting as your `finish`. This stops new cases, but does nothing for folders already left behind, such as knowledge acquisition.
 
-### UNLOGGED-QUERIES - 57 reports wait on queries that never reached the queries file
-
-since 2026-10-31 · from run/wow-tidy-move
-
-**Context:** The tidy rule allows a run report to be deleted once its outcome is homed and its queries have been copied into this work's queries file. 57 reports in this package fail the second test. Each one raised a query under a tag that has never appeared in the queries file, or raised queries with no tag at all. Some of these queries were probably renamed, answered in the thread or handed to another work, but nothing in the package records that. The reports therefore stay, and the work folder still holds 59 kept report files.
-
-**Query:** Should a bounded run reconcile these 57 reports against the queries file and the decisions log, so that the reports can be deleted?
-
-**Options:**
-
-a) (recommended, confidence high - this only reads the package and records each query's disposition, and it deletes a report only when that disposition is shown) Launch one bounded run in this package. For each kept report, it finds where each query went (open, answered, renamed or routed). It copies any query that is still open into the queries file, records any that were settled in conversation in the decisions log, and deletes the report only once all its queries are accounted for.
-
-b) Leave the reports where they are and let the coordinator settle them one at a time at future marks.
-
-### DESIGN-GRADUATION - about 80 design notes, none recorded as graduated
-
-since 2026-10-31 · from run/wow-tidy-move
-
-**Context:** The design folder holds about 80 notes and subfolders, including the work state machine, host sync, landscape, model shape and the 31 October window. Under the design-note guards, a note may be deleted only once it has graduated, meaning every decision it carries has a durable home, or once it is recorded as superseded. No such record exists for any of them, so this tidy kept the whole folder.
-
-**Query:** Should a review run classify each design note, so that graduated and superseded notes can be deleted at the next mark?
-
-**Options:**
-
-a) (recommended, confidence high - review only; nothing is deleted until the coordinator records each verdict) Launch a read-only run that lists each note with its verdict: graduated (with its durable homes), superseded (by what), or live. The coordinator records the verdicts in the decisions log and deletes the graduated and superseded notes at the next mark.
-
-b) Keep the design folder as it is until the Project's close-out.
-
-### BROKEN-LINKS-LIVE - Repair the broken links in the files still in use
-
-since 2026-10-31 · from run/wow-tidy-move · split after blind review 31 October 23:34 GMT; both this work and the review agree on this part
-
-**Context:** After the move, 66 links in this work package point at files that no longer exist, all left by earlier renames and prunes, not by the move. Some sit in files still in use: `work.md`, `state.md`, `queries.md`, and design notes that live work still depends on, such as `design/design.md`, which has two links to a retired coordination standard. The standard requires every link to resolve, linking a pruned record at its last revision on GitHub, and never inventing a link.
-
-**Query:** Should a bounded run repair the broken links in the files still in use?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; both this work and the review want current navigation repaired, and the standard requires it) Yes, as part of the UNLOGGED-QUERIES run: check each target and heading, use the current path for a proven rename and the last-revision GitHub link for a pruned record, and name any source that can't be recovered rather than guess.
-
-b) No: leave them until the Project closes.
-
 ### BROKEN-LINKS-HISTORY - Repair broken links in old decision entries and design notes too?
 
 since 2026-10-31 · from run/wow-tidy-move · split after blind review 31 October 23:34 GMT; the review differs from this work
