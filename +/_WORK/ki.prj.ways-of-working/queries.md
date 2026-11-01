@@ -744,6 +744,20 @@ a) (recommended, confidence medium - the gate is clear about what it needs; how 
 
 b) Leave the group open until the Project closes, and accept that its state folder keeps growing in the meantime.
 
+### AGENDA-SHAPE - What to do with the AGENDA block in queries.md
+
+since 2026-11-01 · from run/wow-lint
+
+**Context:** queries.md starts with an AGENDA entry that groups the open queries into an order for discussion. Under the work-package schema, every heading in queries.md has to be a query with Context, Query and Options, so the audit fails on AGENDA. The file also has an Answered section, and the schema allows only Open and Parked.
+
+**Query:** Should the agenda move out of queries.md, and should the answered queries be cleared at the coordinator's next tidy?
+
+**Options:**
+
+a) (recommended, confidence medium - this keeps the agenda and follows the existing tidy rule) Move the agenda into state.md's next steps, and clear the Answered section at the next tidy once each answer is in the decisions log.
+
+b) Keep both where they are and accept the audit failures until the query pass ends.
+
 ## Answered
 
 - TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT; BROKEN-LINKS-HISTORY - a (all 1 November 2026; see decisions.md).
