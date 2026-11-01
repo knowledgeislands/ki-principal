@@ -1170,9 +1170,11 @@ b) Hold it until the open points are settled.
 
 ### GIT-REBASE - May a run tidy its own commits into a straight line instead of making merge commits?
 
-since 2026-11-01 · from run/rebase-review · blind review running
+since 2026-11-01 · from run/rebase-review · blind review 1 November 17:10 GMT differs
 
 **Context:** Several sessions commit into one shared copy of each repository (the primary checkout). The rules ban "rebasing" there, that is, rewriting commits so they sit on top of newer ones, because doing so in a shared copy can disturb another session's work. When a sync cannot simply move forward, a short "resolve run" does the joining in its own private copy (a worktree). The written rules already let that run rebase its own unpublished commits there before pushing, but since 31 October the briefs have told resolve runs to make merge commits and never rebase. On 31 October and 1 November that gave nine extra merge commits in ki-principal, each joining one or two small commits, out of 14 merge commits in total. On 1 November Kris said rebasing "in some situations absolutely has merit … I prefer not to pollute a tree with mergers … Maybe with everything now happening with work trees, merging is more preferable".
+
+The blind review prefers b), merging, at medium confidence: once a run has merged or another session has pushed, a rebased branch can no longer simply fast-forward the shared `main`, so a) would often still end in a merge or need rewriting of shared history; it also warns that unpublished does not always mean unshared, and that rebasing changes commit identities that reviews refer to.
 
 **Query:** Should runs rebase their own unpublished commits in their private worktree, keeping the ban only for the shared checkout?
 
