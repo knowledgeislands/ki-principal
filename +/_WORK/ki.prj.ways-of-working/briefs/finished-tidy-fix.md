@@ -1,0 +1,3 @@
+# Brief: finished-tidy-fix (ki.prj.ways-of-working)
+
+In `/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness`, the unpublished FINISHED-TIDY-KICK commit `54b15997` (Kris's decision of 1 November 2026) had an independent review: "publish after named fixes". The review's full report is `/Users/krisbrown/.local/state/ki/agents/ki-project-ways-of-working/review-finished-tidy.report.md`; apply its FINISHED-ROUTING fix (and any other fix it names as required), rebuild on top of current `main` by merging, not rebasing, rerun the tests, type check and focused audits, then publish to `main` fast-forward only. Never force, `--no-verify`, rebase, reset or stash. Report as your run packet directs, naming each fix.
