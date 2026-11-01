@@ -29,4 +29,4 @@ Change any product, roadmap or idea record; adopt, promote, accept or prune anyt
 
 ## Report
 
-Write the report to `+/_WORK/ki.prj.observatory/stocktake.report.md` and commit only that file locally by explicit path (`docs(work): ki.prj.observatory stocktake report`); do not push. Open with a short plain-English summary, then sections: Settled lines, Live lines by group, Query changes, Groups and priority, Draft queries, Proposed removals. Report holdings to the coordinator only; end with DONE.
+Write your report to `/Users/krisbrown/.local/state/ki/agents/ki-prj-observatory/stocktake.report.md`; the launcher homes it in the work folder. Open with a short plain-English summary, then sections: Settled lines, Live lines by group, Query changes, Groups and priority, Draft queries, Proposed removals. Do not commit or push. End with DONE.
