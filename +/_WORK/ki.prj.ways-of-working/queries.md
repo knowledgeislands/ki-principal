@@ -1218,9 +1218,11 @@ b) No: keep confidence on the recommended option only.
 
 ### E2E-ADOPT - Review and land the draft
 
-since 2026-11-02 · from run/ki-e2e-draft (E2E-WAY)
+since 2026-11-02 · from run/ki-e2e-draft (E2E-WAY) · blind review 2 November differs
 
 **Context:** The skill is drafted on the local branch `ki-e2e`, two commits ahead of `main`, with tests, type check and audits passing. The brief asked for it unpublished, for your review. Under this repository's way of working, an approved change is fast-forwarded into `main` and then pushed.
+
+The blind review prefers b): try it in one real site first, running SETUP and EVIDENCE with the pinned runner, before landing it in the harness.
 
 **Query:** Should the `ki-e2e` branch be fast-forwarded into `main` once you have reviewed it?
 
@@ -1232,7 +1234,7 @@ b) First have a run install e2e 0.22.0 in a test site and try SETUP and EVIDENCE
 
 ### E2E-KIND - Process skill now, or a governance standard with checks
 
-since 2026-11-02 · from run/ki-e2e-draft (E2E-WAY)
+since 2026-11-02 · from run/ki-e2e-draft (E2E-WAY) · blind review 2 November agrees
 
 **Context:** I drafted `ki-e2e` as a process skill: it runs only when asked for, and has no automatic checks. A governance skill would add automatic checks, for example that the versions are pinned, telemetry is off and the output folder is ignored. Those checks would then run in the audit of every site that declares the skill, but they need a set of check definitions written in code first.
 
@@ -1240,13 +1242,13 @@ since 2026-11-02 · from run/ki-e2e-draft (E2E-WAY)
 
 **Options:**
 
-a) (recommended, confidence medium - the practice is one pilot old, and checks are easier to add once a second site has used it) Keep it a process skill for now. Capture a later work item to turn it into a governance skill with checks once two sites use it.
+a) (recommended, confidence high - reviewed; the practice is one pilot old, and checks are easier to add once a second site has used it) Keep it a process skill for now. Capture a later work item to turn it into a governance skill with checks once two sites use it.
 
 b) Turn it into a governance skill with automatic checks before it lands.
 
 ### E2E-OFFRAMP - Have the neighbouring skills point to ki-e2e
 
-since 2026-11-02 · from run/ki-e2e-draft (E2E-WAY)
+since 2026-11-02 · from run/ki-e2e-draft (E2E-WAY) · blind review 2 November agrees
 
 **Context:** `ki-e2e`'s description sends unit testing to `ki-engineering` and site structure to `ki-repo-website`. Neither of those skills mentions `ki-e2e` yet. The skills standard asks for each pair of overlapping skills to point to each other, but editing other skills' descriptions was outside this brief, and the audit did not flag it.
 
@@ -1260,7 +1262,7 @@ b) Leave them as they are.
 
 ### E2E-HELPERS - How sites get the helpers
 
-since 2026-11-02 · from run/ki-e2e-draft (E2E-WAY)
+since 2026-11-02 · from run/ki-e2e-draft (E2E-WAY) · blind review 2 November agrees
 
 **Context:** The helpers are in the skill's `assets/`, and a site copies them unchanged into its `e2e/` folder. Copies can drift from the skill's version. A shared package would avoid that, but publishing a package needs your approval.
 
@@ -1268,7 +1270,7 @@ since 2026-11-02 · from run/ki-e2e-draft (E2E-WAY)
 
 **Options:**
 
-a) (recommended, confidence medium - it avoids publishing anything, and the files say not to edit them) Yes, copy them for now. Revisit with a drift check, or a pinned Git reference, once several sites use them.
+a) (recommended, confidence high - reviewed; it avoids publishing anything, and the files say not to edit them) Yes, copy them for now. Revisit with a drift check, or a pinned Git reference, once several sites use them.
 
 b) Make them a shared package now.
 
