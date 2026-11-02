@@ -206,7 +206,7 @@ OVERNIGHT (Kris 2026-10-20 00:28 BST): "I'm going to bed now. I want you to keep
 
 ## 2026-10-29 01:16 GMT - tidy-round2 disposition
 
-Operational: State of play's TIDY lines of 25 and 29 October received under BASELINE-CLEAN (Kris, 28 October); the 29 October line supersedes the 25 October one. FOLDER-7: each of the 51 unheaded decision lines now has its own `## <date> - <tag>` heading, text unchanged. FOLDER-2: hostkey-check and ssh-keyonly kept, since Held links them as the live at-screen instructions. FOLDER-1: `design/adobe-remove.sh` waits on Kris's ADOBE-SCRIPT-HOME in State of play, a Next steps line. LIFECYCLE-3: long message lines are other senders' instructions, a Next steps line. Both TIDY lines removed.
+Operational: State of play's TIDY lines of 25 and 29 October received under BASELINE-CLEAN (Kris, 28 October); the 29 October line supersedes the 25 October one. FOLDER-7: each of the 51 unheaded decision lines now has its own `## <date> - <tag>` heading, text unchanged. FOLDER-2: hostkey-check and ssh-keyonly kept, since Held links them as the live at-screen instructions. FOLDER-1: `setup/adobe-remove.sh` waits on Kris's ADOBE-SCRIPT-HOME in State of play, a Next steps line. LIFECYCLE-3: long message lines are other senders' instructions, a Next steps line. Both TIDY lines removed.
 
 ## 2026-10-30 00:16 GMT - ORCA-HOST
 

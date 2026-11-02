@@ -1,10 +1,10 @@
-# ki.prj.mac-studio-setup queries
+# ki.prj.mac-studio-setup discussions
 
 ## Open
 
 ### RIG-069-PROBE - Native setter evidence for KI-TOOL-RIG-CORE-069
 
-since 2026-10-30 · from plan069.report.md
+focus: setup · since 2026-10-30 · from plan069.report.md
 
 **Context:** KI-TOOL-RIG-CORE-069 is planned but stays draft: terra proved the legacy setter can assign the dynamic TOML type, but sol's recorded -50 failure happens before the confirmation helper runs, and read-only inspection cannot choose between legacy success with consent, a different identifier, or the NSWorkspace setter. Only an attended probe at sol's screen settles it.
 
@@ -18,7 +18,7 @@ b) Defer the probe; the record stays draft and sol's TOML hold remains.
 
 ### RIG-ASKS - Two new Rig asks from terra
 
-since 2026-10-31 · from personal.reg.rig-terra messages GUIDE-FIELD and RIG-RETIRE-ONE
+focus: setup · since 2026-10-31 · from personal.reg.rig-terra messages GUIDE-FIELD and RIG-RETIRE-ONE
 
 **Context:** Two more Rig requests arrived on 31 October, both sent at Kris's own request. GUIDE-FIELD: Kris wants each tool's guide "managed in Rig as well"; Rig has no guide field and rejects unknown fields, so the proposal is an optional `guide` link on a tool, shown in Rig's tool description and kept off the public site unless separately agreed, first used for the chezmoi modern-tools guide (eza, fd, bat). RIG-RETIRE-ONE: retiring one switched-off service (Paperclip's leftover launch file on terra) today means reconciling all eight live services at once; the ask is a way to retire one stale resource on its own. The 19 October capture rule admits items Kris asked for, the same ground RIG-INTAKE's recommended option uses.
 
@@ -32,7 +32,7 @@ b) Hold both as `_IDEAS.md` bullets in tools-rig until the roadmap burn-down all
 
 ### RIG-INTAKE - What happens to the nine retained Rig capability lines
 
-since 2026-10-30 · from rig-intake.report.md (per-line table there) · blind review intake-review agreed (high)
+focus: setup · since 2026-10-30 · from rig-intake.report.md (per-line table there) · blind review intake-review agreed (high)
 
 **Context:** Nine lines (eleven bullets) have waited in this package since 29 October. On 14 October Kris set BURN-DOWN ("burn the roadmap down; no new feature records"). CAPTURE-GATE refined it on 19 October: capture only blockers, defects seen failing, or items Kris asked for, and put ideas in `_IDEAS.md`. Four lines carry Kris's own explicit asks: RIG-TUI, RIG-SSH-CHECK, RIG-COMMENT-KIND and the IMPORTANT RIG-APP-FOOTPRINT with its RIG-NOTIFICATIONS and RIG-MACHINE-MANAGEMENT companions. RIG-CLI-CONSISTENCY reports defects seen failing on sol. The footprint group's natural owner, KI-TOOL-RIG-CORE-072, was moved to ideas on 27 October, after those asks, when Kris bulk-approved the sweep's "defer to Later" bucket and asked for fewer things in the queue. The sweep did not have the footprint lines in front of it. WAKE-SUBSTRATE needs nothing new from Rig, since `scheduled-job` already makes the launchd job. chezmoi already covers RIG-REMINDER-DOCTOR.
 
@@ -57,7 +57,7 @@ Parked at the 2026-10-20 hold (take stock on ways of working; put back one at a 
 
 ### RIG-TRIAGE - Where the remaining Rig records go
 
-since 2026-10-20 · rig-triage and triage-review run reports, 00:24 BST, with CANCEL-MERGE from ki.tools-burndown's acceptrig folded in · the review disagreed with both proposals in places, so all three views are shown
+focus: setup · since 2026-10-20 · rig-triage and triage-review run reports, 00:24 BST, with CANCEL-MERGE from ki.tools-burndown's acceptrig folded in · the review disagreed with both proposals in places, so all three views are shown
 
 **Context:** Eight tools-rig records are undecided: KI-TOOL-RIG-CORE-053 (report-only menu-bar declarations), KI-TOOL-RIG-CORE-056 (finding out how menu-bar order persists), KI-TOOL-RIG-CORE-057 (GitHub Desktop repository list), KI-TOOL-RIG-CORE-064 (scan for unmanaged configuration), KI-TOOL-RIG-CORE-067 (package managers as catalogue tools), KI-TOOL-RIG-CORE-068 (a replaced pf root ruleset can bypass the firewall), KI-TOOL-RIG-CORE-069 (dynamic-type handler fallback) and KI-TOOL-RIG-DIST-011 (stale Rig link on vega). The blind review found DIST-011 not repaired and its hold now lifted by the approved Techne Programme Focus, whose record KI-PRINCIPAL-GOV-035 still awaits review; it found 056's outcome deliberately separate from 053's.
 
@@ -81,7 +81,7 @@ Parked by Kris on 14 October; each block below is copied from its retired report
 
 ### FW-LIVE - Confirm terra's pf anchor is loaded
 
-since 2026-10-14 · from terra-read.report.md (FW-VERIFY) in the run state folder's `archive/` · (looks resolved: the decisions log records FW-VERIFY on 15 October, terra's rules proven loaded; the reboot check is held in `state.md`; the worker judges)
+focus: setup · since 2026-10-14 · from terra-read.report.md (FW-VERIFY) in the run state folder's `archive/` · (looks resolved: the decisions log records FW-VERIFY on 15 October, terra's rules proven loaded; the reboot check is held in `state.md`; the worker judges)
 
 **Context:** Reading the live pf rules needs sudo, which this run did not have. Everything around the rules is in place: the daemon ran once with exit 0 and the anchor file holds the tailnet-only rules. FW-LIVE needs proof that the rules are actually loaded. The check below is read-only.
 
@@ -95,7 +95,7 @@ b) Accept the indirect evidence and close FW-LIVE on it.
 
 ### UE-089-SHAPE - Sanity-check the channel model
 
-since 2026-10-14 · from records.report.md in the run state folder's `archive/`
+focus: setup · since 2026-10-14 · from records.report.md in the run state folder's `archive/`
 
 **Context:** the three open questions in the record: whether the channel needs its own `kiChannel` value or should just follow from `rigProfile`; whether the sync runs daily before `rig-update` or more often; and whether it should also pull the two Harness checkouts that local mode reads live.
 
@@ -109,7 +109,7 @@ b) change - <notes>
 
 ### OLD-ORPHANS - Four old repositories that exist only on sol now
 
-since 2026-10-14 · from old-trees.report.md in the run state folder's `archive/`
+focus: setup · since 2026-10-14 · from old-trees.report.md in the run state folder's `archive/`
 
 **Context:** GitHub no longer serves `5g-emerge/5g-emerge-resources`, `knowledgeislands/ki-techne-principal`, `knowledgeislands/ki-plugins` or `krisb/kit-openclaw-kitteth`, and the laptop has no copy of them. Files that exist nowhere else:
 
@@ -130,7 +130,7 @@ b) restore <repo> on GitHub - <notes>
 
 ### MGIT-PRESEED - Rescue the unfinished mgit repair change
 
-since 2026-10-14 · from old-trees.report.md in the run state folder's `archive/`
+focus: setup · since 2026-10-14 · from old-trees.report.md in the run state folder's `archive/`
 
 **Context:** sol's old `tools-mgit` has an uncommitted change from 31 July. It makes `mgit repair` clone into a folder that holds only its `mgit` config file, which is the case that blocked `hnr-principal` on sol. The current `tools-mgit` doesn't have it. The patch is saved at [old-trees.tools-mgit-preseeded.patch](/Users/krisbrown/.local/state/ki/agents/mac-studio-bootstrap/old-trees.tools-mgit-preseeded.patch). It was written against a version 203 commits older, so it won't apply cleanly.
 
@@ -144,7 +144,7 @@ b) drop it
 
 ### SOL-SOURCES - OneDrive source stores are missing on sol
 
-since 2026-10-14 · from old-trees.report.md in the run state folder's `archive/`
+focus: setup · since 2026-10-14 · from old-trees.report.md in the run state folder's `archive/`
 
 **Context:** the laptop has `~/Library/CloudStorage/OneDrive-Personal/sources-<group>` for all eight groups, which repositories use for material that doesn't belong in Git. sol is signed in to OneDrive-Personal but has none of these folders. They are probably not chosen for sync or not downloaded yet.
 
@@ -158,7 +158,7 @@ b) sol doesn't need them - <notes>
 
 ### SOL-HNR-HARNESS - The HNR Harness isn't installed on sol
 
-since 2026-10-14 · from sol-build.report.md in the run state folder's `archive/`
+focus: setup · since 2026-10-14 · from sol-build.report.md in the run state folder's `archive/`
 
 **Context:** `ki dev local on humansnotrobots/hnr-agentic-harness` failed with "installed harness … must be a directory". The HNR Harness has never been installed on sol. The Homebrew `ki` 0.10.1 reported it missing in `ki doctor` before this run too. Installing it means a `ki bootstrap`, which downloads the verified archive, and that is outside this run's remote exception. ki has since also dropped it from sol's Harness list.
 
@@ -172,7 +172,7 @@ b) leave off sol - <notes>
 
 ### SOL-WHATSAPP - The WhatsApp MCP server can't start on sol
 
-since 2026-10-14 · from sol-build.report.md in the run state folder's `archive/`
+focus: setup · since 2026-10-14 · from sol-build.report.md in the run state folder's `archive/`
 
 **Context:** the server builds, but sol has no WhatsApp linked-device credentials or spool folder, so it closes on start. Pairing a linked device is a credential step done by a person.
 
@@ -186,7 +186,7 @@ b) I'll pair sol - <notes>
 
 ### SOL-KI-CONFIG-DRIFT - ki rewrote a chezmoi-managed file on sol
 
-since 2026-10-14 · from sol-build.report.md in the run state folder's `archive/` · (the `ki-pmo-design` part looks resolved by SKILLS-CONFIG on 14 October; the worker judges)
+focus: setup · since 2026-10-14 · from sol-build.report.md in the run state folder's `archive/` · (the `ki-pmo-design` part looks resolved by SKILLS-CONFIG on 14 October; the worker judges)
 
 **Context:** after `ki dev local on`, sol's `~/.config/ki/config.toml` no longer lists the HNR Harness or `ki-design-loop`, so it differs from the chezmoi source. The `ki-design-loop` skill links on both Macs point at nothing since the Harness renamed it to `ki-pmo-design`.
 
@@ -200,7 +200,7 @@ b) separate fix - <notes>
 
 ### C56-TICK - Tick C5 and C6 in the record
 
-since 2026-10-15 · from [ue086-walk](reports/ue086-walk.report.md) · parked 2026-10-29 at the baseline finish; release: when Kris resumes the Mac Studio walk
+focus: setup · since 2026-10-15 · from [ue086-walk](setup/ue086-walk.report.md) · parked 2026-10-29 at the baseline finish; release: when Kris resumes the Mac Studio walk
 
 **Context:** this run was asked to tick only the steps it walked. C5 (Google Drive through the `google-drive` cask) and C6 (Home Assistant from the App Store, 1099568401) are verified done on `sol`, with Rig reporting both present, but they are still unticked in [PERSONAL-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-086-finish-software-alignment.md).
 
@@ -210,7 +210,7 @@ since 2026-10-15 · from [ue086-walk](reports/ue086-walk.report.md) · parked 20
 
 ### C8-WORDING - C8 still expects Keynote, Numbers and Pages "present"
 
-since 2026-10-15 · from [ue086-walk](reports/ue086-walk.report.md) · parked 2026-10-29 at the baseline finish; release: when Kris resumes the Mac Studio walk
+focus: setup · since 2026-10-15 · from [ue086-walk](setup/ue086-walk.report.md) · parked 2026-10-29 at the baseline finish; release: when Kris resumes the Mac Studio walk
 
 **Context:** step A8 deliberately left Keynote, Numbers and Pages catalogue-only, because `mas info` cannot resolve their App Store numbers. Rig therefore shows them as catalogue-only, never as present, so C8 as written can never pass. DaVinci Resolve is present through `mas`, with no route variant.
 
