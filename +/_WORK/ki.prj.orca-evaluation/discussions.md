@@ -2,6 +2,10 @@
 
 ## Open
 
+None; all parked on hand-over to the assistants, 2 November.
+
+## Parked (handed to personal.reg.assistant-terra)
+
 ### SCOPE-SPLIT - Draw the line between this Project and Ways of working, and hand over the method questions
 
 focus: aside
@@ -75,7 +79,3 @@ focus: trial
 a) (recommended, confidence high - reviewed: the independent review recommended exactly this request; it is specific and opt-in) Yes, file it now as its own report.
 
 b) Hold it until the clear-out has run for a while.
-
-## Parked
-
-None.
