@@ -15,7 +15,7 @@ method_read: 84b61942
 ## Now
 
 - On hold from 02:04 BST on 20 October so Kris can take stock on ways of working; nothing was running, so the drain stopped nothing.
-- The [decided design](design/timelines-skill-design.md) names `ki-calendars` and carries a seven-step rollout and the KI-HARNESS-GOV-222 handoff, routed through State of play (HANDOFF-GOV-222).
+- The [decided design](skill/timelines-skill-design.md) names `ki-calendars` and carries a seven-step rollout and the KI-HARNESS-GOV-222 handoff, routed through State of play (HANDOFF-GOV-222).
 
 ## Next steps
 

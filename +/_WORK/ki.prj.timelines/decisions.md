@@ -18,7 +18,7 @@ Kris: "I'm going to bed now. I want you to keep looking every 10 minutes to see 
 
 ## 2026-10-20 - DESIGN-HIGH
 
-Taken under OVERNIGHT-AUTONOMY, option a) at high confidence, both design reviews agreeing, from the [merged report](design/timelines-skill-report.md): SPAN-FEED, spans stay out of feeds in v1 and a span's end that matters is its own milestone; SKILL-SHAPE, one skill owning the item model, feeds and view data format, rendering left to `ki-repo-website-content` and `ki-repo-kb-live-artifacts`; CODE-HOME, the skill's own `scripts/` in the harness, 5G vendoring a copy with a drift check; LEGAL-VIEW, legal's timeline inside its existing Command Centre artifact, the Working Note and gantt kept until legal's owner confirms nothing is lost. Kris may reverse any of these on return.
+Taken under OVERNIGHT-AUTONOMY, option a) at high confidence, both design reviews agreeing, from the [merged report](skill/timelines-skill-report.md): SPAN-FEED, spans stay out of feeds in v1 and a span's end that matters is its own milestone; SKILL-SHAPE, one skill owning the item model, feeds and view data format, rendering left to `ki-repo-website-content` and `ki-repo-kb-live-artifacts`; CODE-HOME, the skill's own `scripts/` in the harness, 5G vendoring a copy with a drift check; LEGAL-VIEW, legal's timeline inside its existing Command Centre artifact, the Working Note and gantt kept until legal's owner confirms nothing is lost. Kris may reverse any of these on return.
 
 ## 2026-10-20 - DESIGN-REVIEWED
 
@@ -30,7 +30,7 @@ Taken under OVERNIGHT-AUTONOMY: SKILL-NAME, `ki-calendars`, whose description se
 
 ## 2026-10-29 - REVIEW-LAUNCH
 
-Overtaken, disposed under BASELINE-CLEAN (28 October) without a decision: both reviews and the merge ran, in [the Astra review](design/timelines-skill-review-astra.md), [the Fable review](design/timelines-skill-review-fable.md) and [the merged report](design/timelines-skill-report.md); the tl-design report is removed.
+Overtaken, disposed under BASELINE-CLEAN (28 October) without a decision: both reviews and the merge ran, in [the Astra review](skill/timelines-skill-review-astra.md), [the Fable review](skill/timelines-skill-review-fable.md) and [the merged report](skill/timelines-skill-report.md); the tl-design report is removed.
 
 ## 2026-10-29 - PUSH-STACK
 

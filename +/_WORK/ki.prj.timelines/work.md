@@ -28,3 +28,8 @@ created_at: 2026-10-19T10:02:36Z
 
 - In: the survey and `ki-work-design` runs; KI-HARNESS-GOV-222, the harness's timeline and calendar skill record, whose priority and design the harness owns; feed homing, busy status, the date model and one source for timelines and feeds; first adoption in legal-principal, personal-principal and 5G Emerge.
 - Out: Archify diagrams and Mermaid conversion, including the legal gantt's redraw (ki.prj.observatory); the work model (ki.prj.ways-of-working); the `ki` CLI (ki.prj.tools-burndown); rollout to other territories (ki.prj.baseline-rollout); territory dispatch (ki.sop.main).
+
+## Focus
+
+1. `skill` — the timeline and calendar skill: its survey, design and reviews.
+2. `aside` — anything outside the others.

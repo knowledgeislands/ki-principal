@@ -22,7 +22,7 @@ The move itself depends on Kris restarting KI Specifications, which this Project
 
 ## Where it stands
 
-- Three drafts (`design/specs/`, draft 0.1) and the superseded stocktake (`design/spec-areas.md`) are in hand. Nothing is homed or published.
+- Three drafts (`specs/specs/`, draft 0.1) and the superseded stocktake (`specs/spec-areas.md`) are in hand. Nothing is homed or published.
 - Five queries are open (PROJECT-NAME, SPEC-HOME, ENTRY-NAMES, SPEC-VERSION, CONFORMANCE-LEVELS); every next step waits on them.
 - HOOK-GUARD stands: no `ki repo conform` without `--dry-run` in any brief until ki.tools-burndown lifts it.
 
@@ -141,9 +141,9 @@ Kris: "how we would go about acquiring knowledge. So not knowledge at rest, but 
 
 | Step | Deliverable | Repository | Gate | Runs beside |
 | --- | --- | --- | --- | --- |
-| 1. live-check | Dated note `design/agentskills-check.md`: the live specification, its examples' file names, `metadata.version`, `skills-ref`'s handling of unknown fields, and the licence of the spec text | ki-principal (this work folder) | SPEC-LIVE-READ | 2 |
+| 1. live-check | Dated note `specs/agentskills-check.md`: the live specification, its examples' file names, `metadata.version`, `skills-ref`'s handling of unknown fields, and the licence of the spec text | ki-principal (this work folder) | SPEC-LIVE-READ | 2 |
 | 2. project-note | `specifications.md` conformed or renamed as PROJECT-NAME sets, its `Projects.md` entry, the `outcome` linked from `work.md` Goals; no theme-page entry, since theme pages list no Projects | ki-principal (Streams) | PROJECT-NAME, MOVE-GATE (for the outcome's last clause) | 1. If PROJECT-NAME b) renames this folder, everything after waits for it |
-| 3. revise-drafts | `design/specs/` at draft 0.2: the answers to ENTRY-NAMES, SPEC-VERSION, CONFORMANCE-LEVELS and WORK-PROFILE; the live-check findings; the gaps under [The drafts](#the-drafts-against-kriss-definitions); validation checking `spec`; the house profile mapping in `specs.md` rewritten to the WORK-PROFILE answer | ki-principal (this work folder) | Those four answers, and step 1 | Nothing: it rewrites the same files |
+| 3. revise-drafts | `specs/specs/` at draft 0.2: the answers to ENTRY-NAMES, SPEC-VERSION, CONFORMANCE-LEVELS and WORK-PROFILE; the live-check findings; the gaps under [The drafts](#the-drafts-against-kriss-definitions); validation checking `spec`; the house profile mapping in `specs.md` rewritten to the WORK-PROFILE answer | ki-principal (this work folder) | Those four answers, and step 1 | Nothing: it rewrites the same files |
 | 4. drafts-review | One blind review of draft 0.2 against Kris's definitions and the live check, under Codex at high effort | ki-principal (this work folder) | Kris accepting this plan | Nothing |
 | 5. text-approval | Kris approves the three texts, or sends them back | Owner | A new query, SPEC-TEXT, raised with step 4's report | Nothing |
 | 6a. home-work | `ki-work-package/references/standards-work-spec.md`, linked from `SKILL.md`, with rubric and sources lines, beside the house standard, which it does not change | ki-agentic-harness | SPEC-HOME a), step 5; a harness record under `ki-next`, Steward review | 6b, 6c; chained after any ki.ways-of-working run writing `ki-work-package` |
@@ -156,7 +156,7 @@ Kris: "how we would go about acquiring knowledge. So not knowledge at rest, but 
 
 In short: answers first, then steps 1 and 2 together, then 3, 4 and 5 in a line; then the three homing runs together; then publication and the ki-specifications clean-up together; the move last. Every brief carries HOOK-GUARD.
 
-`design/spec-areas.md` graduates at step 6c: its framing is superseded, but its inventory of the retired KEP and KIS-0002 material serves steps 9 and 10, so it is kept until the knowledge skill lands, then deleted.
+`specs/spec-areas.md` graduates at step 6c: its framing is superseded, but its inventory of the retired KEP and KIS-0002 material serves steps 9 and 10, so it is kept until the knowledge skill lands, then deleted.
 
 ## Risks
 

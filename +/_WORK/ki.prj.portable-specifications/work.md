@@ -30,3 +30,8 @@ created_at: 2026-10-19T13:30:00Z
 - In: the three specs (`work`, `knowledge`, `acquire`), SPEC-HOME, their publication, and their later move into KI Specifications, as read back under SPECIFICATIONS-PROJECT in [ki.prj.ways-of-working's decisions](../ki.prj.ways-of-working/decisions.md).
 - In: the spec-areas-design stocktake and spec-drafts drafts, handed over by ki.prj.ways-of-working through [messages](messages.md).
 - Out: the KI work model, the work-package standard and its rollout (ki.prj.ways-of-working); knowledge-acquisition practice (ki.prj.knowledge-acquisition); the KI Website itself, which has no work package.
+
+## Focus
+
+1. `specs` — the three portable specifications: their drafts, home and publication.
+2. `aside` — anything outside the others.

@@ -20,7 +20,7 @@ Written by the read-only run home-plan to prepare [plan](plan.md#steps) step 6 (
 
 ## Gate and order
 
-- **Gate:** SPEC-TEXT accepted, with HOMING-EDITS folded into it, both pending Kris. The approved text is the drafts in `design/specs/` at the commit Kris approves, edited by [the homing transform](#the-homing-transform) and nothing else; each run names that commit in its brief and its skill's `sources.md`.
+- **Gate:** SPEC-TEXT accepted, with HOMING-EDITS folded into it, both pending Kris. The approved text is the drafts in `specs/specs/` at the commit Kris approves, edited by [the homing transform](#the-homing-transform) and nothing else; each run names that commit in its brief and its skill's `sources.md`.
 - **Records:** each step also needs its harness record adopted, planned to Ready and given implementation authority before its run starts; SPEC-TEXT alone does not pass that gate ([Records, review and acceptance](#records-review-and-acceptance)).
 - **6b and 6c** start together once SPEC-TEXT is accepted and their records are Ready, each in its own worktree ([Running the three in parallel](#running-the-three-in-parallel)).
 - **6a** keeps the ENTRY-NAMES prerequisite: it waits until ki.ways-of-working's queued harness chain, ENTRY-NAMES (`work.md` to `WORK.md`, across the `ki-work-package` contract and its readers), has integrated into the harness's local `main`, because that chain rewrites the same `SKILL.md`, standard, rubric context and `sources.md`. The profile's entry-file lines change with it (see [6a](#6a-home-work-ki-work-package)).
@@ -54,8 +54,8 @@ Root: `skills/governance/ki-work-package/`.
 
 | File | Change |
 | --- | --- |
-| `references/standards-work-spec.md` | Add: `design/specs/work.md` through the homing transform |
-| `references/standards-work-spec-profile.md` | Add: `design/specs/work-house-profile.md`, edited as below |
+| `references/standards-work-spec.md` | Add: `specs/specs/work.md` through the homing transform |
+| `references/standards-work-spec-profile.md` | Add: `specs/specs/work-house-profile.md`, edited as below |
 | `SKILL.md` | Change: one paragraph, below |
 | `references/sources.md` | Change: two rows and a Last review entry, below |
 | `scripts/rubric/items/spec.ts` | Add: the `SPEC` family with SPEC-1, [below](#the-drift-criterion) |
@@ -86,7 +86,7 @@ Root: `skills/acquire/ki-acquire/`.
 
 | File | Change |
 | --- | --- |
-| `references/standards-acquire-spec.md` | Add: `design/specs/acquire.md` through the homing transform |
+| `references/standards-acquire-spec.md` | Add: `specs/specs/acquire.md` through the homing transform |
 | `SKILL.md` | Change: one paragraph, below |
 | `references/sources.md` | Change: two bullets and a Last review paragraph |
 | `scripts/rubric/items/spec.ts` | Add: the `SPEC` family with SPEC-1 |
@@ -113,7 +113,7 @@ Root: `skills/governance/ki-knowledge-package/`, in the governance concern besid
 | File | Content |
 | --- | --- |
 | `SKILL.md` | New, below |
-| `references/standards-knowledge-spec.md` | `design/specs/knowledge.md` through the homing transform |
+| `references/standards-knowledge-spec.md` | `specs/specs/knowledge.md` through the homing transform |
 | `references/sources.md` | New, below |
 | `references/rubric.md` | Generated: `ki dev skill rubric ki-knowledge-package --write` |
 | `scripts/shared/rubric.ts` | A byte copy of `skills/keystone/ki-skills/scripts/shared/rubric.ts`, the materialised `ki-skills:rubric` module |
@@ -247,9 +247,9 @@ The write sets are disjoint, and 6a and 6b change no description, so the catalog
 
 ## What graduates
 
-- `design/specs/` (`work.md`, `knowledge.md`, `acquire.md`, `work-house-profile.md`): kept until publication (plan step 8), which publishes from the homed references; then deleted at a mark.
-- `design/specs/specs.md`: its shared conventions become SPEC-1 in each skill and its mapping table goes into the three `sources.md` entries; deleted at the mark after 6c lands.
-- `design/spec-areas.md`: the plan keeps it until the knowledge skill lands; its inventory of the retired KEP and KIS-0002 material still serves plan steps 9 and 10, so move that inventory into the step 9 handoff record before deleting it.
+- `specs/specs/` (`work.md`, `knowledge.md`, `acquire.md`, `work-house-profile.md`): kept until publication (plan step 8), which publishes from the homed references; then deleted at a mark.
+- `specs/specs/specs.md`: its shared conventions become SPEC-1 in each skill and its mapping table goes into the three `sources.md` entries; deleted at the mark after 6c lands.
+- `specs/spec-areas.md`: the plan keeps it until the knowledge skill lands; its inventory of the retired KEP and KIS-0002 material still serves plan steps 9 and 10, so move that inventory into the step 9 handoff record before deleting it.
 - This note: deleted at the mark after all three land.
 
 ## What needs Kris

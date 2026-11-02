@@ -26,7 +26,7 @@ Read back taken: ENTRY-NAMES a) - upper-case entry files for all three, `WORK.md
 
 Kris: "SPEC-LIVE-READ as recommended"
 
-Read back taken: SPEC-LIVE-READ a) - one read-only run, live-read, reads the live agentskills.io specification, its licence and the `skills-ref` validator source, and writes `design/agentskills-check.md`; nothing else changes.
+Read back taken: SPEC-LIVE-READ a) - one read-only run, live-read, reads the live agentskills.io specification, its licence and the `skills-ref` validator source, and writes `specs/agentskills-check.md`; nothing else changes.
 
 ## 2026-10-19 23:45 BST - owner decision, WORK-PROFILE, KNOWLEDGE-SKILL, MOVE-GATE, SPEC-LOCATION
 
@@ -70,7 +70,7 @@ Taken:
 
 - CATALOGUE-WRITE a), reviewed, confidence high - the 6c brief allows exactly one write-mode `ki repo conform --skill ki-repo-harness` in ki-agentic-harness, every other conform staying dry-run: audit first, dry-run, check the complete proposed path set and diff, stop on any unbriefed write, re-audit after generation and after the separate SVG export. Package manifests, lockfiles and hook directories stay outside its authority. HOOK-GUARD is recorded as superseded by HOOKS-MIGRATION in ki.tools-burndown and ki.mac-studio-setup; this is a scoped exception, not a lifting of other briefs' bans.
 - HOMING-REVIEW a), reviewed, confidence high - one run deduplicates and captures three harness triage records under ki-next, one each for 6a, 6b and 6c, re-reading and advancing the ledger; capture authorises no delivery. After SPEC-TEXT, each record is adopted, planned to Ready and delivered to Awaiting review with its review packet; one blind Codex review per candidate, plus the harness's tests, type-check and focused audits, replaces the plan's Steward gate for this coordinator route; Kris accepts under ki-accept. Parallel homing runs use separate worktrees and serialise integration; 6a keeps the ENTRY-NAMES prerequisite.
-- Authorises now: home-amend, amending `design/home-plan.md` to these corrections, and home-records, capturing the three triage records in ki-agentic-harness, committed by explicit path and not pushed.
+- Authorises now: home-amend, amending `specs/home-plan.md` to these corrections, and home-records, capturing the three triage records in ki-agentic-harness, committed by explicit path and not pushed.
 
 ## 2026-10-20 02:05 BST - owner decision, HOLD-STOCKTAKE
 
