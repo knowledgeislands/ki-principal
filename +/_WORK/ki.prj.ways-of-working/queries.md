@@ -1274,6 +1274,36 @@ a) (recommended, confidence high - reviewed; it avoids publishing anything, and 
 
 b) Make them a shared package now.
 
+### DRYRUN-FORCE - What `--force` should mean once it no longer switches writing on
+
+since 2026-11-02 · from run/dry-run-survey (DRY-RUN-FLAGS) · blind review running
+
+**Context:** DRY-RUN-FLAGS settles that `--force` and `-f` never switch writing on, and leaves open whether `--force` keeps any meaning. The existing KI command-line guidance already gives `-f`/`--force` one meaning: override a refusal or safety check, such as a dirty working tree or an existing file, as `rm -f` and `git push -f` do. The tools use it that way today: `mgit worktree remove -f` discards changes in a dirty linked worktree. Other overrides already have specific names: `ki skill add --replace` (re-point an existing link), `techne host rebuild --discard <repository>` (allow losing a repository's unpushed work), `techne host stop --now` (skip a safety read) and `ki estate converge --allow-busy`. Kris's objection, as relayed, was to `-f` being used to make a command write. This recommendation has not been through a blind review.
+
+**Query:** Should `--force` remain in KI tools, and if so with what meaning?
+
+**Options:**
+
+a) (recommended, confidence medium - it matches the existing guidance, Git and mgit's current use, and only removes the meaning Kris objected to; not yet blind-reviewed) Keep `--force`, short `-f`, only as "override a refusal or safety check". It never writes on its own: without `--no-dry-run` a forced command still only previews, showing what the override would allow. Prefer a specific name, such as `--replace` or `--discard`, where the override is about one thing; use `--force` only for a general override.
+
+b) Retire `--force` and `-f` from KI tools altogether: every override gets its own specific name, and `-f` is never used.
+
+c) Leave `--force` to each tool to define, so long as it never switches writing on.
+
+### DRYRUN-SCOPE - Which commands must dry-run by default
+
+since 2026-11-02 · from run/dry-run-survey (DRY-RUN-FLAGS) · blind review running
+
+**Context:** DRY-RUN-FLAGS says "any command that changes something dry-runs by default", while the relayed message says it is to be rolled out "where they have dry runs". The survey shows the difference is large. About 20 commands already preview or have a `--dry-run` and convert cleanly. About 40 more change things with no preview at all because their name is the change itself: `ki agent launch`, `ki repo init`, `ki harness install`, `ki agent send`, `techne host start`, `mgit sync`. Read literally, every one of these, and every brief, script and coordinator step that calls them, would need `--no-dry-run` added. `rig apply` and `rig upgrade` sit between: they reconcile the machine against declared state, like a repair, so they fall in scope either way. This recommendation has not been through a blind review.
+
+**Query:** Should the dry-run default apply to every command that changes anything, or only to commands that work out a set of changes from current state?
+
+**Options:**
+
+a) (recommended, confidence medium - it covers every command where a preview tells you something you did not already ask for, including `rig apply`, without adding `--no-dry-run` to every agent launch and install; not yet blind-reviewed) Apply it to commands that compute what to change from current state: repair, conform, converge, sync-style reconcile, apply, upgrade, migrate, prune, sweep, register, receive or release in batches, and bulk delete. A command whose name is one explicit action the caller asked for (launch, queue, send, init, install, start, stop, commit) acts by default and keeps `--dry-run` as an opt-in preview where it has one.
+
+b) Apply it literally to every command that changes anything, including launch, init, install and send, so the rule has no exceptions.
+
 ## Answered
 
 - TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT; BROKEN-LINKS-HISTORY - a (all 1 November 2026; see decisions.md).
