@@ -26,36 +26,6 @@ Ordered for the next pass; refreshed on 1 November after the HNR and Orca blind 
 18. **Discussion** Acquire's wording and records, not yet blind-reviewed: ACQ-HOLD-WORDING, ACQ-SCAFFOLD-NOTE, DUE-FIELD.
 19. **Discussion** this package's own running, not yet blind-reviewed: CLOSE-GATE, AGENDA-SHAPE.
 
-### LAYOUT-SHAPE - Which package layout to adopt
-
-since 2026-10-30 · from run/package-layout · [design](design/package-layout/design.md) · blind reviews 30 October and 1 November
-
-**Context:** Kris set on 30 October that a work package keeps only its five files at the top level, with everything else grouped. On 1 November (LAYOUT-TOPIC) Kris said the folders "should really be aligned to the topic", each holding its briefs, designs and reports. Three shapes fit. A, kind-first: `reports/`, `briefs/` and `design/` folders, the cheapest change, but a matter stays spread across three folders. B, topic folders with `briefs/` and `reports/` inside: a report beneath a topic's `reports/` folder is still ignored by Git in this repository, so B needs an ignore change. C, topic folders kept flat: `<run>.brief.md` and `<run>.report.md` side by side with the design files, needing no ignore change. Today the launcher still writes each report to a fixed path at the package's top level, so whichever shape is chosen, the pilot moves files by hand until the launcher changes. An earlier review on 1 November, made before Kris's topic direction, preferred A; the reviews of 30 October and 1 November both prefer C.
-
-**Query:** Which layout should the pilot use?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed twice; a flat topic folder gives a matter one home with no ignore change and the fewest moving parts) C, topic folders kept flat, piloted on one small matter first, with every reader of the package and the launcher checked at pilot time and incoming links preserved.
-
-b) B, topic folders with `briefs/` and `reports/` subfolders, plus the ignore exception.
-
-c) A, kind-first, with a stricter tidy instead of topic folders.
-
-### LAYOUT-GROUP-TIDY - Whether closing a group deletes it whole
-
-since 2026-10-30 · from run/package-layout · [design](design/package-layout/design.md) · blind reviews 30 October and 1 November
-
-**Context:** Today's tidy deletes file by file, by explicit path, never a whole folder, and the steward judges each file's durable home. Under topic folders, a matter's files usually become homed together. The proposal is that once the steward judges a whole topic folder closed, it deletes the folder with one command naming it, in one commit, with Git keeping the history. It rests on LAYOUT-SHAPE. Both reviews agree on conditions: immediately before the commit the steward lists everything in the folder, tracked and untracked, checks that no run is still writing to it, and checks each file's outcome is homed, its queries copied and its design notes graduated or superseded, because Git keeps only what was committed.
-
-**Query:** Should the tidy rule allow deleting one named, closed topic folder whole?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed twice; one named folder stays reviewable when every file has a checked home just before the commit, and the rule deletes nothing by itself) Yes, under those checks. A folder holding any unhomed or untracked file is tidied file by file instead, and the rule gives no authority to prune work records or to delete another work's folders.
-
-b) No: keep file-by-file deletion inside topic folders.
-
 ### IDEAS-REVISIT - Where a future idea lives
 
 since 2026-11-01 · from IDEAS-ROADMAP-PRINCIPLE in the interactive pass; replaces it · to shape with the empty-board design
@@ -1290,6 +1260,7 @@ b) Apply it literally to every command that changes anything, including launch, 
 
 ## Answered
 
+- LAYOUT-SHAPE, LAYOUT-GROUP-TIDY - answered by Kris's focus-area layout (PILOT-ON-PILLARS, 2 November 2026).
 - DRYRUN-FORCE - a (2 November 2026, via assistant-terra).
 - TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT; BROKEN-LINKS-HISTORY - a (all 1 November 2026; see decisions.md).
 - TOP-LEVEL-SWEEP-DELETE - a (1 November 2026): only stewards delete old reports.
