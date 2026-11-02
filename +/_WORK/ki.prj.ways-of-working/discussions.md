@@ -1300,6 +1300,26 @@ a) (recommended, confidence medium - this clears the audit and keeps Z-FILES's n
 
 b) Leave them in `reports/` until Z-FILES is answered.
 
+### GRANOLA-COUNT - Granola's meeting list no longer gives a screenshot count
+
+since 2026-11-02 · from run/granola-transport · blind review running
+
+**Context**
+
+The importer only captures a meeting's screenshots when two numbers agree. One is the screenshot count in Granola's meeting list. The other is the number of screenshots named in the meeting's detail. Granola's list no longer has a `screenshot_count` field, so the importer reads it as 0 and withholds every meeting that has screenshots. The list now has an `attachment_count` field instead, and it counts more than screenshots. For 28 October it shows 26, 25 and 12, while the details name 20, 20 and 12 screenshots. Granola's own description says attachments include photos the user attached, as well as shared-screen screenshots. Simply reading the new field would still withhold two of the three meetings. This changes the importer's safety check, which is a judgement call and beyond this transport brief, so I have not changed it.
+
+**Query**
+
+How should the importer check screenshots now that Granola only gives a total attachment count?
+
+**Options**
+
+a) (recommended, confidence medium - this keeps a real cross-check against Granola's own inventory and still withholds on any true mismatch) Treat the full attachment list from Granola's attachment tool as the reference. Check that the screenshots plus photos it returns add up to `attachment_count`, and capture the screenshots. This would be a bounded tools-ki run with tests.
+
+b) Read `attachment_count` and accept a meeting when its screenshots are no more than that count. This is quicker but a weaker check.
+
+c) Leave the importer as it is and ask Granola whether `screenshot_count` is coming back. Meetings with screenshots stay withheld until then.
+
 ## Answered
 
 - LAYOUT-SHAPE, LAYOUT-GROUP-TIDY - answered by Kris's focus-area layout (PILOT-ON-PILLARS, 2 November 2026).
