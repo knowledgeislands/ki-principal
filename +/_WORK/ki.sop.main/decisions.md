@@ -34,7 +34,7 @@
 
 ## 2026-10-14 - ROADMAP-SIZING
 
-- ROADMAP-SIZING (Kris, 14 October): one design record to ways-of-working; carried in [ki.prj.ways-of-working's roadmap-sizing design note](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/roadmap-sizing-and-burn-down.md).
+- ROADMAP-SIZING (Kris, 14 October): one design record to ways-of-working; carried in [ki.prj.ways-of-working's roadmap-sizing design note](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/aside/roadmap-sizing-and-burn-down.md).
 
 ## 2026-10-15 - FW-ADR
 
@@ -73,7 +73,7 @@
 
 ## 2026-10-24 17:16 BST - TENDING-XDG-STATE
 
-- TENDING-XDG-STATE (Kris, 24 October): Tending reviews XDG state; folded into ki.prj.ways-of-working's [Tending design](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/tending.md).
+- TENDING-XDG-STATE (Kris, 24 October): Tending reviews XDG state; folded into ki.prj.ways-of-working's [Tending design](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/aside/tending.md).
 
 ## 2026-10-25 · PROJECT-CLOSE
 

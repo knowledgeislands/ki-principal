@@ -25,7 +25,7 @@ AWAY-1-NOV ended 09:00 GMT; return report sent.
 
 1. Kris reads the return report; then strike the mark.
 2. On Kris's word, launch `acquire-align` (ACQUIRE-STRUCTURE-ALIGN): harness skills now; message lines to tools-ki, mcp-acquire-whatsapp and KIG owners.
-3. Take the 19 agenda items in `queries.md` as an interactive pass when Kris asks.
+3. Take the 19 agenda items in `discussions.md` as an interactive pass when Kris asks.
 4. Waiting on other works: tools-ki launcher `reports/` and readers (REPORTS-FOLDER, START-NAME, WATCH-VERB, discussions readers), Observatory readers, State of play's Paperclip hold.
 
 ## Held

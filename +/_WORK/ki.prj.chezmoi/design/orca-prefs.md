@@ -1,6 +1,6 @@
 # Orca preferences declaration and checker (ORCA-PREFS)
 
-Written by run `w-U13` on Saturday 31 October 2026, during the unattended window AWAY-31-OCT, for unit U13 of [the window plan](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/window-31-oct/plan.md). Design only: nothing is built, rendered or applied, and nothing writes to Orca.
+Written by run `w-U13` on Saturday 31 October 2026, during the unattended window AWAY-31-OCT, for unit U13 of [the window plan](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/window-31-oct/plan.md). Design only: nothing is built, rendered or applied, and nothing writes to Orca.
 
 ## The ask
 

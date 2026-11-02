@@ -34,7 +34,7 @@ Kris's words:
 
 Replaces: SUMMARY-SINCE-MARK, SUMMARY-OUTSTANDING (its reporting part).
 
-**Already done.** The working-area part of SUMMARY-OUTSTANDING is in Tending: harness `fdb407ebd` and ki-principal `3a575852` (level 3 working-area and package-tidy questions in [tending.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/tending.md)). Push state is already kept out of owner reports and banners by the Banner section of the coordination standard.
+**Already done.** The working-area part of SUMMARY-OUTSTANDING is in Tending: harness `fdb407ebd` and ki-principal `3a575852` (level 3 working-area and package-tidy questions in [tending.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/aside/tending.md)). Push state is already kept out of owner reports and banners by the Banner section of the coordination standard.
 
 **Conflicts with the standards.**
 
@@ -135,7 +135,7 @@ Replaces: METHOD, TENDING-ROUND-2, TENDING-GUIDANCE-OVERLAP, TENDING-ROADMAP, an
 
 **Pending.**
 
-- [tending-round2-notes.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/tending-round2-notes.md) is not yet folded into [tending.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/tending.md).
+- [tending-round2-notes.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/tending-round2-notes.md) is not yet folded into [tending.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/aside/tending.md).
 - Level 3 has no explicit AGENTS.md, CLAUDE.md and agent-memory overlap check.
 - Level 4 has no cross-repository guidance-promotion question.
 
@@ -160,7 +160,7 @@ Replaces: TENDING-SIZES.
 **Conflicts with the standards.**
 
 - `ki-work-roadmap` [standards-work-item-format.md](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-work-roadmap/references/standards-work-item-format.md), Priority and size: `size` is `s`, `m`, `l` or `xl`, and `xl` must be split before Ready. There is no `xs`, yet BIND-2 was labelled 👕 XS.
-- [roadmap-sizing-and-burn-down.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/roadmap-sizing-and-burn-down.md) (14 October) still describes Fibonacci points 1 to 13, superseded by the `size` field.
+- [roadmap-sizing-and-burn-down.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/aside/roadmap-sizing-and-burn-down.md) (14 October) still describes Fibonacci points 1 to 13, superseded by the `size` field.
 
 **Conflicts with the model.** None.
 
