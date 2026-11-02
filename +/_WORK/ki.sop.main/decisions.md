@@ -65,7 +65,7 @@
 
 ## 2026-10-24 16:46 BST - VA-CONSOLIDATE
 
-- VA-CONSOLIDATE (Kris, 24 October): Kris's seven-point model is carried by ki.prj.ways-of-working's model-shape loop ([decisions](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/decisions.md)); the draft is [design/va-consolidation.md](design/va-consolidation.md).
+- VA-CONSOLIDATE (Kris, 24 October): Kris's seven-point model is carried by ki.prj.ways-of-working's model-shape loop ([decisions](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/decisions.md)); the draft is [design/va-consolidation.md](aside/va-consolidation.md).
 
 ## 2026-10-24 16:53 BST - SOURCE-AGNOSTIC
 
@@ -77,11 +77,11 @@
 
 ## 2026-10-25 · PROJECT-CLOSE
 
-- PROJECT-CLOSE a) (Kris, 25 October): Estate factorisation's retirement is prepared and the close waits for Kris's acceptance; carried by the parked ESTATE-CLOSE query and [design/estate-factorisation-retirement.md](design/estate-factorisation-retirement.md).
+- PROJECT-CLOSE a) (Kris, 25 October): Estate factorisation's retirement is prepared and the close waits for Kris's acceptance; carried by the parked ESTATE-CLOSE query and [design/estate-factorisation-retirement.md](aside/estate-factorisation-retirement.md).
 
 ## 2026-10-25 · Morning queries (Kris, from 01:11 GMT)
 
-- ACCEPT-WEBSITE, ACCEPT-WOW, ACCEPT-RIG and ACCEPT-OBSERVATORY a): carried by the parked ACCEPT-KI-WEBSITE-SITE-044, ACCEPT-KI-PRINCIPAL-OPS-014, ACCEPT-KI-PRINCIPAL-MOD-009, ACCEPT-KI-TOOL-RIG-CORE-062 and ACCEPT-OBSERVATORY queries in [queries](queries.md).
+- ACCEPT-WEBSITE, ACCEPT-WOW, ACCEPT-RIG and ACCEPT-OBSERVATORY a): carried by the parked ACCEPT-KI-WEBSITE-SITE-044, ACCEPT-KI-PRINCIPAL-OPS-014, ACCEPT-KI-PRINCIPAL-MOD-009, ACCEPT-KI-TOOL-RIG-CORE-062 and ACCEPT-OBSERVATORY queries in [queries](discussions.md).
 
 ## 2026-10-28 · SYNC-RECIPE (Kris, conversational)
 
@@ -101,7 +101,7 @@
 
 ## 2026-10-28 · sop-tidy message dispositions (BASELINE-CLEAN)
 
-- Routed lines sit in the receiving works' `messages.md` (ki.prj.tools-burndown, ki.prj.ways-of-working, ki.prj.baseline-rollout); MAIL-ASKS and ACCESS-ADMINS-ROUTE are in [queries](queries.md).
+- Routed lines sit in the receiving works' `messages.md` (ki.prj.tools-burndown, ki.prj.ways-of-working, ki.prj.baseline-rollout); MAIL-ASKS and ACCESS-ADMINS-ROUTE are in [queries](discussions.md).
 
 ## 2026-10-29 · AWAY-WINDOW (Kris, conversational, 01:00 GMT)
 

@@ -42,3 +42,10 @@ created_at: 2026-10-06T21:07:00Z
 
 - In: owner dumps, handoffs with no owning work, cross-work items whose owner is unclear, `METHOD` lines and other method improvements, the Project-work queue and cap, territory-wide dated reviews of held records, and route lines into each work's `messages.md`.
 - Out: executing any Project's work (ki.prj.baseline-rollout, ki.prj.chezmoi, ki.prj.knowledge-acquisition, ki.prj.mac-studio-setup, ki.prj.observatory, ki.prj.portable-specifications, ki.prj.timelines, ki.prj.tools-burndown, ki.prj.ways-of-working); recurring and ad hoc work (ki.reg.main); method design (ki.prj.ways-of-working); tools-ki (ki.prj.tools-burndown); units that already have an owner, which go to it direct.
+
+## Focus
+
+1. `acceptance` — acceptance questions on delivered records across the territory.
+2. `chain` — the `mgit chain` command and its acceptance.
+3. `themes` — the territory's theme map, routing and overlaps, and theme registries.
+4. `aside` — anything outside the others.

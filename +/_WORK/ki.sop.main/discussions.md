@@ -1,8 +1,10 @@
-# ki.sop.main queries
+# ki.sop.main discussions
 
 ## Open
 
 ### ACCEPT-KI-TOOL-RIG-CORE-070 - Accept the default-handler confirmation wait in Rig
+
+focus: acceptance
 
 **Context:** [KI-TOOL-RIG-CORE-070](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-070-handler-read-back-after-confirmation.md) has been awaiting review since 27 October (commit `e882998`). It changes how `rig apply` sets a default app for a file type, such as Zed for `.toml`. When macOS asks you to confirm the change, Rig used to check straight away, see the old app and record a failure, so a second run was needed. Now it waits up to 120 seconds when run from a terminal, and not at all when unattended, with an environment variable to override the wait. It reports four outcomes separately: confirmed, unanswered or declined, unattended, and ineffective. The full test suite (648 tests) and the gate passed at delivery. Today's read-only re-check passed the default-applications tests (22 of 22, both new tests included), shellcheck and the assembly check. Not yet done: the record's own attended check, a real `rig apply` that raises the macOS prompt, which only you can do. sol currently has `.toml` opening in VS Code instead of Zed, so a `rig apply` there would raise that prompt. Two concerns remain: a declined prompt looks the same as an unanswered one, and a run piped from a terminal gets no wait unless the variable is set.
 
@@ -18,6 +20,8 @@ c) Leave it awaiting review until both terra and sol have shown the prompt behav
 
 ### ACCEPT-PERSONAL-DOTFILES-UE-106 - Accept the Tower Assistant move to /Applications
 
+focus: acceptance
+
 **Context:** [PERSONAL-DOTFILES-UE-106](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-106-apply-tower-assistant-at-applications.md) moved Tower Assistant 2.1 to `/Applications` on both Macs (commit `9667f9e`). Each Dock now points there, `rig doctor` no longer reports the missing Dock path, and the leftover test preference files on terra are gone: fourteen were removed rather than the planned eleven, with apps-tower's confirmation. The record's Verify asks for exactly two things: no test plists on terra, and no `dock-item-path-missing:tower-assistant` on either Mac. sol meets both today. I re-checked it read-only: the app is only in `/Applications`, there are no test plists, and `rig doctor` has no missing-path finding. terra rests on evidence from 24 October and could not be re-checked from sol. sol's `rig doctor` is still unhealthy for unrelated reasons, all outside this record: Dock order drift, `.toml` opening in VS Code, the Screen Sharing firewall anchor, UTM, and, new since 29 October, eight missing npm tools. The app's own attended checks stay with apps-tower (PERSONAL-TOWER-APP-005 and PERSONAL-TOWER-APP-006).
 
 **Query:** Do you accept PERSONAL-DOTFILES-UE-106 as done?
@@ -32,6 +36,8 @@ c) Leave it awaiting review until apps-tower's attended checks (PERSONAL-TOWER-A
 
 ### ACCEPT-KI-TOOL-MGIT-CLI-032 - accept `mgit chain`
 
+focus: chain
+
 **Context:** [KI-TOOL-MGIT-CLI-032](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-032-chain-command.md), "Chain Git commands", was delivered on 28 October under MGIT-CHAIN and is Awaiting review: `mgit chain ... --then ...`, stop-at-first-failure per repository, recipes via `git config mgit.chain.<name>` and as top-level `mgit <name>`, docs and spec MGIT-WS-028; 151 of 151 bats tests pass. One pre-existing audit failure (SHELL-HOOK on `.githooks/pre-commit`) is untouched. No release cut.
 
 **Query:** Review and accept it now, after CHAIN-QUIET, CHAIN-START-ENTER and CHAIN-START-FIRST are settled?
@@ -43,6 +49,8 @@ a) (recommended, confidence high - ACCEPT-BUNDLE, and the two output questions m
 b) Leave it awaiting review.
 
 ### CHAIN-QUIET - Hide repositories where every step succeeded
+
+focus: chain
 
 **Context:** The brief asked for one block per repository, so the chain output prints every repository, including those where every step succeeded. Ordinary mgit commands show only repositories with output or a failure, then one line counting the quiet ones. Over the whole estate of about 50 repositories, a chain lists every one, which buries the few that stopped. The tally at the end still names each repository that did not complete.
 
@@ -56,6 +64,8 @@ b) Keep the current output, with every repository shown.
 
 ### CHAIN-START-ENTER - A checkout that cannot be entered
 
+focus: chain
+
 **Context:** The `mgit chain` tally has three outcomes, "failed to start", "stopped" and completed, and the three counts always add up to the number of repositories. The build and the blind reviewer agree that a repository whose checkout could not be entered has failed to start. This is the agreed half of the former CHAIN-START, split out under the method's rule that a query still below high after review is split into parts.
 
 **Query:** Should a checkout that cannot be entered count as "failed to start"?
@@ -68,6 +78,8 @@ b) Count it as "stopped" instead.
 
 ### CHAIN-START-FIRST - A first step that runs and fails
 
+focus: chain
+
 **Context:** This is the disputed half of the former CHAIN-START. As built, a repository whose first step ran and failed counts as "failed to start", alongside a checkout that could not be entered. "Stopped" is a repository where a later step failed after at least one step completed. The record's Discussion section and the tests follow the build's reading.
 
 **Query:** Should a first step that runs and fails count as "stopped" rather than "failed to start"?
@@ -79,6 +91,8 @@ a) (recommended, confidence medium - reviewed, views differ: the blind reviewer 
 b) Keep it as built: count it as "failed to start", because a failing first step is the common case worth singling out.
 
 ### MAIL-ASKS - five mail-engine asks waiting for an owner
+
+focus: aside
 
 **Context:** HNR > Email routing (hnr.email-routing) sent four asks for the mail MCP servers, each decided by Kris on 27 or 28 October: ARCHIVE-ENGINE (an mcp-m365 last-touched clock from `lastModifiedDateTime`, filing from Outlook `Archive` into `_ARCHIVE` by a lasting last-working-folder record, unread-guard gaps and per-folder overdue counts), its ACTION-DONE extension (re-route archived action-folder mail into the matching `_ARCHIVE` mirror, unplaceable items to 000 Unknown), GMAIL-CLOCK (`historyId` and `internalDate` reads, a checkpoint log and a 14-day comparison in mcp-gsuite) and SENT-PASS (a sent-items pass, deleting confirmed meeting responses after 7 days, and per-item forward matches in the aged log, with tests; reply to hnr.email-routing when landed). A fifth, low-priority ask arrived on 31 October under Kris's CORR-GUARD-ASK a): a "reply sent" check in mcp-m365's aged routing, so an aged rule can skip a conversation Kris has not replied to; until it exists HNR keeps correspondence folders 231, 261 and 263 out of the 14-day archive, and it wants a reply in hnr.reg.email-routing's `messages.md` when it lands. The full lines are in [messages.md at 17f30843](https://github.com/knowledgeislands/ki-principal/blob/17f30843/+/_WORK/ki.sop.main/messages.md). No work owns the MCP server repositories: the parked MAIL-MCP-HOME asks the same question for eleven mail records, which the 27 October roadmap sweep has since moved to ideas in mcp-m365 and mcp-gsuite.
 
@@ -94,6 +108,8 @@ c) Send them to ki.reg.main as ad hoc work, leaving MAIL-MCP-HOME parked.
 
 ### STOA-HOME - open a Stoa Project in Knowledge Islands
 
+focus: aside
+
 **Context:** On 31 October HNR's State of play wrote that you chose to split HNR's portal-framework work: the Stoa part moves to Knowledge Islands, which already owns the `knowledgeislands/packages-stoa` repository, and HNR keeps the humansnotrobots.be platform. HNR asks Knowledge Islands to open a Stoa Project, for example `ki.prj.stoa`, covering Stoa releases, the lines telling consuming sites to re-copy Stoa, and DIAGRAM-ROLLOUT: moving the interactive diagram overlay used in 5G Emerge Phase 2 and 3 into Stoa as an optional part. HNR wants the package id back in hnr.sop.sites' `messages.md`. Earlier STOA-ICONS lines were routed on 30 October to whichever work owns packages-stoa; no Knowledge Islands work owns it today. Five Project threads are already open (ways of working, Mac Studio setup, Observatory, chezmoi, Orca evaluation), and on 30 October you called the cap guidance rather than a limit.
 
 **Query:** Should State of play register a Stoa Project and seed its package on hold, ready for you to open?
@@ -108,6 +124,8 @@ c) Leave Stoa without a Knowledge Islands home for now and tell HNR so.
 
 ### ACCESS-ADMINS-ROUTE - send the Access admins pattern to other territories
 
+focus: aside
+
 **Context:** On 28 October at 18:40 GMT Kris asked HNR, for "all sites I run", for a per-site admins Access group with Kris as first member and a `/admin` application admitting only it, and said "send the equivalent to ki-principal for all sites I run". HNR has done its nine humansnotrobots.be sites ([access-admins note](/Users/krisbrown/workspaces/humans-not-robots/hnr-principal/+/_WORK/hnr.prj.portal-framework/design/access-admins.md)); this tidy sent the KI sites to ki.prj.website and ki.prj.observatory. The rest belong to other territories: apps-dafacts.org (Equal Remedy), apps-kris.me.uk and apps-midnight.ninja with its legal, rig, tower and trip subdomains (Personal), apps-yorkphotosoc.org (TechMedix), apps-markhowarth.com and apps-vallearmonia.com (Valle Armonia). No standing route from State of play to those territories' States of play is recorded, and on 12 October you kept territories other than Personal and Valle Armonia parked. The full lines are in [messages.md at 17f30843](https://github.com/knowledgeislands/ki-principal/blob/17f30843/+/_WORK/ki.sop.main/messages.md).
 
 **Query:** Should State of play send one line to each other territory's State of play naming its sites?
@@ -121,6 +139,8 @@ b) Send to Personal and Valle Armonia only, the territories running now, and par
 c) Hold until you have said which sites sit behind Access.
 
 ### OBSOLETE-DROP - drop queries that events have overtaken
+
+focus: aside
 
 **Context:** The census found 15 parked or open queries whose subject no longer exists:
 
@@ -144,6 +164,8 @@ c) Drop all 20 on the census evidence.
 
 ### OLD-ORPHANS - possible loss of old repository copies
 
+focus: aside
+
 **Context:** The OLD-ORPHANS query, parked in ki.prj.mac-studio-setup, concerns old orphaned repositories that were to be kept. This census found no checkout of them under `~/workspaces` and no bundle in OneDrive. If they existed only on a retired disk or host, the last copies may already be gone. This query has not been blind reviewed.
 
 **Query:** Do you know where the old orphaned repositories now live?
@@ -156,7 +178,9 @@ b) Treat them as lost and close the query.
 
 ### ADOBE-SCRIPT-HOME - where the Adobe removal script should live
 
-**Context:** ki.prj.mac-studio-setup keeps `design/adobe-remove.sh`, which removes Adobe Creative Cloud leftovers and acts only with `--apply`. A script breaks the work folder's closed list, so the package cannot pass its check while it sits there, and no other repository holds it. Rig's ideas KI-TOOL-RIG-CORE-072 and KI-TOOL-RIG-CORE-074 already cover app removal and use an Adobe script as a worked example; Rig has not acknowledged this one. The rest of the Adobe clean-up stays parked under ADOBE-DATA and ADOBE-RESTART.
+focus: aside
+
+**Context:** ki.prj.mac-studio-setup keeps `setup/adobe-remove.sh`, which removes Adobe Creative Cloud leftovers and acts only with `--apply`. A script breaks the work folder's closed list, so the package cannot pass its check while it sits there, and no other repository holds it. Rig's ideas KI-TOOL-RIG-CORE-072 and KI-TOOL-RIG-CORE-074 already cover app removal and use an Adobe script as a worked example; Rig has not acknowledged this one. The rest of the Adobe clean-up stays parked under ADOBE-DATA and ADOBE-RESTART.
 
 **Query:** Where should the script go?
 
@@ -172,6 +196,8 @@ c) Delete it and leave the Adobe clean-up to an at-screen session, relying on Gi
 
 ### ACCEPT-CHEZMOI - accept the chezmoi latest-source record
 
+focus: acceptance
+
 **Context:** [PERSONAL-DOTFILES-UE-076](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-076-always-run-latest-source.md), "always run the latest source", has been awaiting review since 24 October.
 
 **Query:** Review and accept it now?
@@ -183,6 +209,8 @@ a) (recommended, confidence high - ACCEPT-BUNDLE) Review it now through `ki-acce
 b) Leave it awaiting review.
 
 ### ACCEPT-KI-WEBSITE-SITE-044 - accept the website's design v1
+
+focus: acceptance
 
 **Context:** [KI-WEBSITE-SITE-044 (pruned)](https://github.com/knowledgeislands/apps-knowledgeislands.info/blob/ae886e2b/docs/roadmap/KI-WEBSITE-SITE-044-design-v1.md) moves the site onto `ki-design`: its tokens, type, Voyage and Atlas navigation, the restyled home page, a new Field Guide and `sync:design`. It also includes the Port switch. Every gate in its Verify list passed again on `main` at `2628c48`. Two items are still open, and neither can be settled without the network or a person:
 
@@ -201,6 +229,8 @@ c) Return it to implementation to drop or replace the `ki-design` citation, and 
 
 ### ACCEPT-KI-PRINCIPAL-OPS-014 - accept the GitHub-flavoured Markdown conversion
 
+focus: acceptance
+
 **Context:** [KI-PRINCIPAL-OPS-014 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/da027e6d/Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md) converted ki-principal to GitHub-flavoured Markdown in nine commits, plus the 20 October owner answers (plain images, template links, Link Review). Acceptance tests 1, 2, 3 and 5 are evidenced, and this run confirmed tests 2 and 5 again: no wikilinks remain, and no failure falls on the converted paths. Acceptance test 4 is still open and is yours under RENDER-CHECK a): the final Step, a client render check of the Library heading link and an alert in GitHub, Obsidian, Zed and the Observatory, plus the four plain images. In the Observatory, the dropped heading fragment has to be either recorded as a failure or accepted as a fallback.
 
 **Query:** Run the four client render checks, then accept KI-PRINCIPAL-OPS-014?
@@ -215,6 +245,8 @@ c) Leave it awaiting review until you have time for the render checks.
 
 ### ACCEPT-KI-PRINCIPAL-MOD-009 - accept the ADR-KI-PRINCIPAL-001 staging amendment
 
+focus: acceptance
+
 **Context:** [KI-PRINCIPAL-MOD-009 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/da027e6d/Streams/Roadmap/KI-PRINCIPAL-MOD-009-amend-adr-001-staging-wording.md) amended [ADR-KI-PRINCIPAL-001](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/ADR-KI-PRINCIPAL-001-provider-neutral-knowledge-acquisition.md) and the [Acquisition Process](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md>) in `3b1ade21` on 23 October. The changes stage material outside the receiving island, make delivery into `+/_ACQUIRED/` package acceptance, and call Acquire the port and sorting office, as CUSTOMS-WORDS a) approved. Checks pass on the delivered files. One problem: the rewritten Context sentence at line 18 says "The Harbour defined in SDR-KI-PRINCIPAL-002 is the island's incoming working area". [GDR-KI-PRINCIPAL-010](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-010-the-port.md) retired Harbour as a Knowledge Islands term on 18 October and made `+/` the Port's inbound side. The delivery therefore wrote a retired term back into a current ADR in the present tense. The References line describing SDR-KI-PRINCIPAL-002 is accurate as history. Against that, GDR-KI-PRINCIPAL-010's Consequences keep Harbour wording in earlier Decision Records as a historical record, to be read as the Port; but this sentence was rewritten in `3b1ade21`, after that decision.
 
 **Query:** Return KI-PRINCIPAL-MOD-009 to implementation for a one-sentence fix of the Harbour wording, or accept it as it stands?
@@ -226,6 +258,8 @@ a) (recommended, confidence medium, review disagrees - a single sentence conflic
 b) Accept as it stands, reading "Harbour" as SDR-KI-PRINCIPAL-002's own term; the blind reviewer prefers this at high, because GDR-KI-PRINCIPAL-010 expressly keeps Harbour wording in earlier Decision Records, and a one-sentence implementation cycle is not required for it alone, the ordinary acceptance gates staying separate.
 
 ### ACCEPT-KI-TOOL-RIG-CORE-062 - accept Rig's own-address firewall destination
+
+focus: acceptance
 
 **Context:** [KI-TOOL-RIG-CORE-062](https://github.com/knowledgeislands/tools-rig/blob/223ba459/docs/roadmap/KI-TOOL-RIG-CORE-062-own-address-firewall-destination.md) narrows the `macos-pf` anchor so it passes Tailscale sources only to the Mac's own tailnet addresses, discovered read-only from `ifconfig`. It refuses when no address can be found and reports a stale address. The gate refusal from 20 October is resolved, and today the full suite passes 645 of 645 and the audit has no failures. Its Verify list still asks for a read-only `ifconfig` on `terra` to confirm discovery under Homebrew `tailscaled`, and the 20 October reviewer asked for that evidence before resubmission. It was never obtained, and this run is barred from remote calls. The attended live rewrite of `sol`'s and `terra`'s anchors stays separate, connection-critical work with its rehearsed rollback. The on-link residual stays by your decision.
 
@@ -241,6 +275,8 @@ c) Leave it awaiting review; the blind reviewer names this the proper interim st
 
 ### ACCEPT-OBSERVATORY - accept the two Observatory records
 
+focus: acceptance
+
 **Context:** Under ACCEPT-OBSERVATORY a) (25 October) Kris chose to review and accept [KI-OBSERVA-BRG-005 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/0966ac3e/docs/roadmap/KI-OBSERVA-BRG-005-act-board-missing-parts.md) and [KI-OBSERVA-VIS-030 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/0966ac3e/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md) through `ki-accept` once ki.prj.observatory had fixed BRG-005's structure. BRG-005 now passes the roadmap audit, so that precondition is met. The review-prep run exited without finishing, so neither review is prepared yet.
 
 **Query:** Rerun the review prep, then accept both records, oldest first?
@@ -252,6 +288,8 @@ a) (recommended, confidence high - restates Kris's own ACCEPT-OBSERVATORY a), it
 b) Leave both awaiting review.
 
 ### AGENT-HOST - unstick the agent host work
+
+focus: aside
 
 **Context:** [ki.prj.agent-host](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.agent-host/work.md) has sat With worker with no live session, and Kris's own IMPORTANT DRAIN line of 22 October is still unread at the top of its `messages.md`, with the two REFRESH lines beside it. No run can drain another work on State of play's authority.
 
@@ -265,6 +303,8 @@ b) Leave it until the Techne programme work resumes.
 
 ### CLI006-CONFIRM - confirmation design for the guarded host commands
 
+focus: aside
+
 **Context:** [KI-TOOL-TECHNE-CLI-006 (pruned)](https://github.com/knowledgeislands/tools-techne/blob/ffcaf0c099f1d3019247ff97466754b8a7312166/docs/roadmap/KI-TOOL-TECHNE-CLI-006-guarded-host-commands.md) must decide how `techne host rebuild` and `withdraw` meet `destroy.sh`'s `CONFIRM_DESTROY_AGENT_HOST`: a stale exported value could confirm a destroy on a clean host.
 
 **Query:** Which confirmation design should the plan carry?
@@ -276,6 +316,8 @@ a) (recommended, confidence medium, review disagrees - the narrowest change to t
 b) A Harness-declared confirmation with fresh interactive consent; the blind reviewer prefers this at high.
 
 ### CLI006-READY - set the guarded host commands record to Ready
+
+focus: aside
 
 **Context:** KI-TOOL-TECHNE-CLI-006 was replanned at tools-techne `31c7b7d` and its audits pass; it sits inside the Techne programme focus. Its handling of the destroy confirmation, CLI006-CONFIRM above, is part of the plan that would be made Ready.
 
@@ -289,7 +331,9 @@ b) Kris reviews the present plan now and a ki-plan run sets it to Ready.
 
 ### ESTATE-CLOSE - retire Estate factorisation as prepared
 
-**Context:** Under PROJECT-CLOSE a) (25 October) the retirement is prepared in [design/estate-factorisation-retirement.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/design/estate-factorisation-retirement.md): settle HOST-WRITES, ALIAS-OWNERS and RIG-REFS, route the parked queries to their works by message, then Kris accepts the close. Nothing is applied yet.
+focus: aside
+
+**Context:** Under PROJECT-CLOSE a) (25 October) the retirement is prepared in [design/estate-factorisation-retirement.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/aside/estate-factorisation-retirement.md): settle HOST-WRITES, ALIAS-OWNERS and RIG-REFS, route the parked queries to their works by message, then Kris accepts the close. Nothing is applied yet.
 
 **Query:** Proceed with steps 1 and 2 of the note, with the close itself waiting for your acceptance?
 
@@ -300,6 +344,8 @@ a) (recommended, confidence high - restates Kris's own PROJECT-CLOSE a)) State o
 b) Amend the note first.
 
 ### KA-CLOSE - close the finished Knowledge acquisition work
+
+focus: aside
 
 **Context:** [ki.prj.knowledge-acquisition](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.knowledge-acquisition/work.md) has been Finished since 20 October on Kris's word, all its decisions homed; its [Project](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/knowledge-acquisition.md) is `completed`, and its own next step is to delete the folder in one commit at the closing mark and archive its runs. State of play may not remove another work's folder on its own authority.
 
@@ -312,6 +358,8 @@ a) (recommended, confidence high - reviewed: Finished and completed are both rec
 b) Leave the folder until Kris opens that work's thread.
 
 ### SPECS-FOLDER - 25 unowned reports in ki.specifications
+
+focus: aside
 
 **Context:** `+/_WORK/ki.specifications/` has no `work.md` and holds 25 untracked run reports (plan, draft-review, revise, query-review, home-plan and others) from 24 October 21:10, so the work-package audit fails STRUCTURE-1. The [Specifications](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/specifications.md) Project is paused and a separate [ki.prj.portable-specifications](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.portable-specifications/work.md) package exists. Which session produced the reports is not known; nothing has been touched.
 
@@ -327,6 +375,8 @@ c) Move them into ki.prj.portable-specifications.
 
 ### MAIL-MCP-HOME - a home for the mail MCP records
 
+focus: aside
+
 **Context:** Eleven draft records for the mail MCP servers, KI-MCP-M365-TOOL-011 to TOOL-019 in mcp-m365 and KI-MCP-GSUITE-TOOL-008 and TOOL-009 in mcp-gsuite, plus [PERSONAL-DOTFILES-UE-097](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-097-configure-gmail-routing-paths.md) in chezmoi, came to Knowledge Islands on 21 October: "For now, I think it's best to go back to the MCP. So, something in Knowledge Island." No work owns the MCP server repositories: ki.prj.tools-burndown covers the `ki` CLI and Git tools, and ki.reg.main takes small one-off work.
 
 **Query:** Which work should own these records?
@@ -340,6 +390,8 @@ b) ki.prj.tools-burndown widens its scope to the MCP servers.
 c) ki.reg.main holds them as drafts until Kris prioritises them.
 
 ### ACQUIRE-HOME - a home for CODEX-SESSIONS and DEFUDDLE-SKILL
+
+focus: aside
 
 **Context:** CODEX-SESSIONS manages repository-agent sessions, Codex and Zed external-agent ones included, through their local lifecycle from the `ki-housekeeping-chatgpt` inventory, with no transcript archive. DEFUDDLE-SKILL adds a `ki-acquire-web` provider skill using the pinned `defuddle` CLI, never its hosted API, trialled before adoption. Their natural owner, Knowledge acquisition, is completed.
 
@@ -357,6 +409,8 @@ d) Route both to ki.prj.baseline-rollout.
 
 ### SANCTUARY-STAGE5 - take the Sanctuary package at stage 5
 
+focus: aside
+
 **Context:** Under [ADR-VA-WEBSITE-009](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/decisions/ADR-VA-WEBSITE-009-the-sanctuary-becomes-a-shared-editorial-library.md), Valle Armonia builds the Sanctuary editor through stages 2 to 4 and Knowledge Islands is asked to own stage 5: a separate vendored package repository, with packages-portal-commons the nearest precedent. Valle Armonia hands over verified code, fixtures and adapter contracts at stage 4 and asks for agreement before VA-WEBSITE-SANC-008 is readied.
 
 **Query:** Should Knowledge Islands agree now to take stage 5?
@@ -371,7 +425,9 @@ c) Decline for now; Valle Armonia keeps the Sanctuary.
 
 ### BASELINE - one baseline for every Capital
 
-**Context:** The eight Capitals share 21 core skills but differ on `ki-work-roadmap`, `ki-work-recurring`, Paperclip, acquisition skills, configuration and `AGENTS.md` shape ([skills-assessment.report.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/reports/skills-assessment.report.md)).
+focus: aside
+
+**Context:** The eight Capitals share 21 core skills but differ on `ki-work-roadmap`, `ki-work-recurring`, Paperclip, acquisition skills, configuration and `AGENTS.md` shape ([skills-assessment.report.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/aside/skills-assessment.report.md)).
 
 **Query:** Should one baseline become the standard for every Capital?
 
@@ -385,6 +441,8 @@ c) Leave each Capital as it is and fix only broken links.
 
 ### HARNESS-LINK - list each territory harness in its Capital
 
+focus: aside
+
 **Context:** Every territory harness adds a `<code>-extract-capability` skill, and hnr two engineering-convention skills, but all eight Capitals list only the KI harness in `[repo].harnesses`, so those skills reach no Capital.
 
 **Query:** Should each Capital list its own territory harness alongside the KI harness?
@@ -396,6 +454,8 @@ a) (recommended, confidence high - reviewed: the extraction skills are invocatio
 b) Leave territory harnesses linked to their code repositories only.
 
 ### GRANOLA - declare Granola acquisition where it runs
+
+focus: aside
 
 **Context:** `ki-acquire-granola` is linked in six Capitals without being declared. hnr keeps a local `granola-sync` command; the blind review found legal's command and activity already retire direct import in favour of central acquisition, so the duplication claim is outdated for legal.
 
@@ -411,6 +471,8 @@ c) Unlink it where no acquisition happens and keep the local commands.
 
 ### LEGAL-GUIDANCE - legal's mandates into AGENTS.md
 
+focus: aside
+
 **Context:** Legal's `CLAUDE.md` holds 262 lines including its runtime-neutral case mandates (triple-check, adversarial stress-test, authority verification, pre-filing disciplines); its `AGENTS.md` only points to them, and Codex does not read `CLAUDE.md`. Legal work is high-stakes.
 
 **Query:** Should legal move its mandates into `AGENTS.md` and promote its disciplines into harness skills?
@@ -425,7 +487,9 @@ c) Leave legal unchanged.
 
 ### HNR-GUIDANCE - rewrite hnr's AGENTS.md
 
-**Context:** hnr's `AGENTS.md` is out of shape against the Capital baseline and carries a stale Headroom block ([skills-assessment.report.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/reports/skills-assessment.report.md)).
+focus: aside
+
+**Context:** hnr's `AGENTS.md` is out of shape against the Capital baseline and carries a stale Headroom block ([skills-assessment.report.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/aside/skills-assessment.report.md)).
 
 **Query:** Should hnr rewrite it?
 
@@ -436,6 +500,8 @@ a) (recommended, confidence high - a mechanical correction inside hnr's own auth
 b) Leave it until BASELINE is settled.
 
 ### THEME-REGISTRY - territory theme registries
+
+focus: themes
 
 **Context:** tmx, si and legal follow their own theme records; er has none.
 
@@ -448,6 +514,8 @@ a) (recommended, confidence high - brings the last Capital into line with THEME-
 b) Leave er without a theme registry.
 
 ### PRE-REBASE-REF - the harness safety branch on terra
+
+focus: aside
 
 **Context:** fold-harness left a local safety branch `fold-harness/pre-rebase-main` in ki-agentic-harness on terra, pointing at the old harness main `57226cdea`. Harness main is pushed and level with origin; the branch exists on terra only and cannot be inspected from Sol.
 

@@ -208,7 +208,7 @@ Replaces: TENDING-SIZES.
 
 **Line.** SANCTUARY-STAGE5 (ki messages.md, from va, 24 October 01:54 BST): Kris wants the Sanctuary to be "a package effectively that is available in the Knowledge Islands". Kris decided (SANCTUARY-RELATION a, "VA 2-4, KI 5", pruned at [`d41e504`](https://github.com/vallearmonia/va-principal/blob/d41e504/+/_WORK/va/decisions.md)) that Valle Armonia delivers stages 2 to 4 of [ADR-VA-WEBSITE-009](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/decisions/ADR-VA-WEBSITE-009-the-sanctuary-becomes-a-shared-editorial-library.md) under va Project `sanctuary-library`, and KI takes stage 5: a separate, vendored package repository. va asks KI to agree, or say what it needs, before [VA-WEBSITE-SANC-008](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SANC-008-package-the-sanctuary.md) is readied. At stage 4 va hands over code, fixtures and adapter contracts; KI then decides Project, repository, priority and acceptance. packages-portal-commons is the nearest precedent.
 
-**Related.** SANC008-SPLIT (split stage 4 out of VA-WEBSITE-SANC-008) is parked in [ki.prj.baseline-rollout queries.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.baseline-rollout/queries.md).
+**Related.** SANC008-SPLIT (split stage 4 out of VA-WEBSITE-SANC-008) is parked in [ki.prj.baseline-rollout queries.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.baseline-rollout/discussions.md).
 
 **Conflicts.** None with the standards or the model. Needs a Kris decision: KI has no Project for it.
 

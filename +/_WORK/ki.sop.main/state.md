@@ -24,7 +24,7 @@ method_read: df3f5503
 
 1. Bootstrapped in a fresh session picking up from bfc318f7; nothing running; not listening.
 2. AMEND-RACE and HEADER-ESTATE stay queued in `messages.md` for one route run: AMEND-RACE to KI Agentic Harness's `ki-git` owner, HEADER-ESTATE to ki.prj.chezmoi.
-3. Kris answers the open queries in `queries.md`, acceptance first; STOA-HOME is new.
+3. Kris answers the open queries in `discussions.md`, acceptance first; STOA-HOME is new.
 
 ## Held
 
