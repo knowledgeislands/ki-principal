@@ -192,7 +192,7 @@ Run about three at once: H, C and S or P first, while HOLD-SCOPE is settled; the
   - a dotfiles declaration of Orca preferences, split into shared and per-host values;
   - a read-only checker that flags differences between terra and sol.
 
-  Write it to `+/_WORK/ki.prj.chezmoi/design/orca-prefs.md`, with recommendations and confidence. Build nothing.
+  Write it to `+/_WORK/ki.prj.chezmoi/orca-prefs/orca-prefs.md`, with recommendations and confidence. Build nothing.
 
 ### U14 - Package queue receipts in this work
 

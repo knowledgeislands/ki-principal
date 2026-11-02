@@ -254,7 +254,7 @@ Work packages paused until a named release. While held, everything they carry (n
 
 120 decisions put aside at a hold or by Kris, across 9 packages. Each stays in its package's `queries.md`; the summary here is cut short and the full text is at the source.
 
-### [`ki.prj.agent-host`](../../../../+/_WORK/ki.prj.agent-host/queries.md#parked)
+### [`ki.prj.agent-host`](../../ki.prj.agent-host/discussions.md#parked)
 
 - **CLI006-PLAN** -
 - **DEV-MODE** -
@@ -262,7 +262,7 @@ Work packages paused until a named release. While held, everything they carry (n
 - **HARNESS-INSTRUCTIONS** -
 - **Firewall** - KI-TOOL-RIG-CORE-047 (macOS) and KI-TOOL-RIG-CORE-051 (Linux nftables) were delivered there; nothing is planned here. Recommended: leave it with that work.
 
-### [`ki.prj.baseline-rollout`](../../../../+/_WORK/ki.prj.baseline-rollout/queries.md#parked)
+### [`ki.prj.baseline-rollout`](../../ki.prj.baseline-rollout/discussions.md#parked)
 
 - **TMX-AREA-TITLES** - retitle Techmedix `CO` and `KB` in TMX-PRINCIPAL-KB-008; review agrees with changes at high: `CO` = "Company records and compliance", `KB` = "Knowledge base".
 - **AREA-WORDING** - adopt the proposed area titles in the four HNR and 5g-emerge records; review agrees a) at high.
@@ -280,7 +280,7 @@ Work packages paused until a named release. While held, everything they carry (n
 - **SIZEKIND-CONFIRM-2** - size and kind tables for Equal Remedy, Valle Armonia and Techmedix; review agrees with changes at high on a revised write policy (for example VA-PRINCIPAL-GOV-003 `s` to `m`), low ...
 - **ICO-DATE** - route the possibly lapsed Techmedix ICO fee (TMX-PRINCIPAL-CO-006) to Techmedix's own work; recommended a) at medium; review agrees with changes: route one line asking `tmx` ...
 
-### [`ki.prj.estate-factorisation`](../../../../+/_WORK/ki.prj.estate-factorisation/queries.md#parked)
+### [`ki.prj.estate-factorisation`](../../ki.prj.estate-factorisation/discussions.md#parked)
 
 - **DEPS-HOLD** -
 - **STORE-REPAIR** -
@@ -296,7 +296,7 @@ Work packages paused until a named release. While held, everything they carry (n
 - **GOVERNANCE** -
 - **PROJECT-CLOSE** -
 
-### [`ki.prj.mac-studio-setup`](../../../../+/_WORK/ki.prj.mac-studio-setup/queries.md#parked)
+### [`ki.prj.mac-studio-setup`](../../ki.prj.mac-studio-setup/discussions.md#parked)
 
 - **PLAN068-VERIFY-GRANT** -
 - **PLAN068-UNPRIV** -
@@ -314,17 +314,17 @@ Work packages paused until a named release. While held, everything they carry (n
 - **C56-TICK** -
 - **C8-WORDING** -
 
-### [`ki.prj.portable-specifications`](../../../../+/_WORK/ki.prj.portable-specifications/queries.md#parked)
+### [`ki.prj.portable-specifications`](../../ki.prj.portable-specifications/discussions.md#parked)
 
 - **SPEC-TEXT** - draft 0.8 of `work`, `knowledge` and `acquire` in `design/specs/`, six blind reviews, the last finding nothing; recommended a) accept draft 0.8 and home it in the three skills ...
 - **HOMING-EDITS** - four mechanical edits when homing (version 1 Status line, attribution kept, cross-spec links as plain names, a Contents list); recommended a) accept them as part of SPEC-TEXT ...
 
-### [`ki.prj.timelines`](../../../../+/_WORK/ki.prj.timelines/queries.md#parked)
+### [`ki.prj.timelines`](../../ki.prj.timelines/discussions.md#parked)
 
 - **OVERNIGHT-CONFIRM** - nine design points taken overnight under OVERNIGHT-AUTONOMY, nothing built on them yet; recommended a) confirm all nine (high).
 - **CAPTURE-ADOPTION** - rollout steps 2 and 3 need draft records in 5G Emerge and legal-principal, outside the territory; recommended a) one run per repository, draft records only, linked to the decided ...
 
-### [`ki.prj.tools-burndown`](../../../../+/_WORK/ki.prj.tools-burndown/queries.md#parked)
+### [`ki.prj.tools-burndown`](../../ki.prj.tools-burndown/discussions.md#parked)
 
 - **HELD-ROADMAP-KNIP** -
 - **ASK-B** -
@@ -376,7 +376,7 @@ Work packages paused until a named release. While held, everything they carry (n
 - **ENACTMENT-ADMIN** - the 20 October tiered/Admin-only gate-narrowing choice remains unmade; retain the current gate. Full original decision is retained in decisions.md.
 - **PROXY-SHAPER** - Kris deferred this on 25 October; no proxy or chezmoi change. Full original owner words remain in decisions.md; revisit only when taken up.
 
-### [`ki.sop.main`](../../../../+/_WORK/ki.sop.main/queries.md#parked)
+### [`ki.sop.main`](../../ki.sop.main/discussions.md#parked)
 
 - **ACCEPT-CHEZMOI** -
 - **ACCEPT-KI-WEBSITE-SITE-044** -

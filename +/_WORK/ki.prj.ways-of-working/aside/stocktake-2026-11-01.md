@@ -77,9 +77,9 @@ Top-level reports, all U:
 | `sweep-hnr-principal`, `sweep-ki-principal`, `sweep-legal-principal`, `sweep-personal-principal`, `sweep-va-principal` | delete | Each outcome is commits in its repository plus REPORTS-MOVED lines. No queries. The ki-principal sweep skipped this package. |
 | `top-level-cause` | delete | Kept as `package-layout/top-level-cause.md`. TOP-LEVEL-NOW and TOP-LEVEL-SWEEP-* answered. |
 | `w-U13` | delete | Routed to ki.prj.chezmoi as ORCA-PREFS-DESIGN with ORCA-PREFS-READ and -BUILD (its `messages.md` line 20). |
-| `w-U22` | delete | STOA-THEME is carried by STOA-HOME in [ki.sop.main queries](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/queries.md). |
+| `w-U22` | delete | STOA-THEME is carried by STOA-HOME in [ki.sop.main queries](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/discussions.md). |
 | `w-U3` | delete | WHATSAPP-HOST-FIELD is carried by WHATSAPP-MCP-SCOPE in [ki.prj.chezmoi decisions](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.chezmoi/decisions.md). |
-| `w-U4` | delete | RELEASE-GO is open in [ki.reg.main queries](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.reg.main/queries.md). |
+| `w-U4` | delete | RELEASE-GO is open in [ki.reg.main queries](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.reg.main/discussions.md). |
 | `worker-wait-split` | delete after copy | WORKER-WAIT-* answered (31 Oct and 1 Nov 00:23). SPLIT-COMMIT is open and was never logged. |
 | `wow-tidy` | delete after copy | CLOSE-BLOCKED is open and appears only in the morning summaries. It may since have been overtaken by later closes; not checked. |
 
@@ -97,7 +97,7 @@ Files in `reports/`, T unless marked:
 | `hold-request-20261030-z.md` (U) | keep | Never committed. Z retirement context, tied to PUBLIC-REPORT-RECOVERY. Do not commit it in a sweep. |
 | `ki-toml-switch` | delete | KITOML-GATE settled: `.ki.toml` declares `ki-work-package`. |
 | `rig-fixes` | delete | KI-TOOL-RIG-CORE-062 has been pruned, and the Linux risk is noted as a non-goal in [KI-TOOL-RIG-CORE-047](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md), as recommended. |
-| `spec-areas-design` | delete | Routed: [ki.prj.portable-specifications spec-areas](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.portable-specifications/design/spec-areas.md) carries the design. |
+| `spec-areas-design` | delete | Routed: [ki.prj.portable-specifications spec-areas](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.portable-specifications/specs/spec-areas.md) carries the design. |
 | `threads-fix` | delete | THREADS-RELEASE was overtaken by `ki` v0.12 and v0.14. DESK-KIT-HOME is stale. |
 | `work-folder-design`, `work-folder-rename` | delete | Superseded by `ki-work-package` (the skill rename and `.ki.toml`). |
 | `work-package-review-fable` | delete | All ten queries graduated into the five-file package: `state.md`, `queries.md` with Parked, `messages.md`, `method_read`, route receipt, and STEWARD-HOME in `work.md`. |
@@ -162,7 +162,7 @@ Files in `reports/`, T unless marked:
 | `package-layout/design`, `package-layout/top-level-cause` | live | LAYOUT-SHAPE and LAYOUT-GROUP-TIDY are open under LAYOUT-TOPIC. |
 | `package-definition-freshness-brief`, `-report`, `-review-freshness`, `-review-portability` (4) | live | HOMES, EXECUTION, HOST, DISPLAY, THEME, ROUTING, SIGNAL and RESTART are open in `queries.md`. |
 | `landscape`, `landscape-report`, `-explainer`, `-review-claude`, `-review-codex`, `-skills-inventory`, `-vendors` (7) | live | ORCH-NAME-DISPATCH and WAKE-HOST are open. `landscape-report` is cited by the orca-evaluation trial plan and tools-burndown messages. |
-| `orca-fit`, `orca-fit-explainer` | live | `orca-fit` is cited by the [orca-evaluation trial plan](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.orca-evaluation/design/orca-trial-plan.md). |
+| `orca-fit`, `orca-fit-explainer` | live | `orca-fit` is cited by the [orca-evaluation trial plan](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.orca-evaluation/trial/orca-trial-plan.md). |
 | `orca-subagents/design` | live | Part B and the pilot are pending. Cited by tools-burndown messages. |
 | `inbox-wake/design` | live | INBOX-ALL a) (1 Nov) is logged, but the CODEX-WAKE trial is still to be arranged. Cited by tools-burndown messages. |
 | `mgit-cache` | live | Parked MGIT-CACHE-SCOPE and MGIT-CACHE-FAILED depend on it. |
@@ -193,14 +193,14 @@ Files in `reports/`, T unless marked:
 | `landscape.md:18`, `landscape-review-claude.md:15`, `landscape-review-codex.md:9` | `../briefs/landscape.md` (pruned) | `https://github.com/knowledgeislands/ki-principal/blob/ef452184d1f102b84203203283b0a417d6c9f359/+/_WORK/ki.prj.ways-of-working/briefs/landscape.md` |
 | `landscape-review-codex.md:39` | `.../tools-ki/src/core/agent/worktrees.ts:42` | `/Users/krisbrown/kis/knowledge-islands/tools-ki/src/core/agent/worktrees.ts`. The file exists; the `:42` suffix breaks the link, so give "line 42" in the text instead. |
 | `landscape-skills-inventory.md:289, 305, 328` | relative harness paths truncated by the generator (`../../../governance/ki-delegation/references/sta`) | Unrecoverable as written. The full file names were cut off. |
-| `landscape.md:62`, `orca-fit.md:15`, `orca-fit.md:214` | `../../ki.prj.mac-studio-setup/design/orca-trial.md` | `../../ki.prj.orca-evaluation/design/orca-trial.md`. Proven move: `d38088a3`, "hand Orca trial evidence to ki.prj.orca-evaluation". |
+| `landscape.md:62`, `orca-fit.md:15`, `orca-fit.md:214` | `../../ki.prj.mac-studio-setup/design/orca-trial.md` | `../../ki.prj.orca-evaluation/trial/orca-trial.md`. Proven move: `d38088a3`, "hand Orca trial evidence to ki.prj.orca-evaluation". |
 | `orca-fit.md:15` | `../../ki.prj.mac-studio-setup/plan069.report.md` (deleted in `a95f0ddc`) | `https://github.com/knowledgeislands/ki-principal/blob/d38088a3a47407a4d37ff79050f9e94a52cbdb72/+/_WORK/ki.prj.mac-studio-setup/plan069.report.md` |
 | `tending.md:11`, `findings.md:11`, `repository-metadata.md:11` | `va-principal/+/_WORK/va/work.md` and `/va/decisions.md` | `/Users/krisbrown/kis/valle-armonia/va-principal/+/_WORK/va.sop.main/work.md` and `.../va.sop.main/decisions.md` (folder renamed in the 28 October naming rollout) |
 | `findings.md:145` | `.../ki-principal/+/_WORK/ki.ways-of-working/messages.md` | `/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/messages.md` |
 | `repository-metadata.md:19, 84` | `~/.local/state/ki/agents/va/repo-align.report.md`, `tag-proposal.report.md` | Unrecoverable: runtime reports, never in Git, now absent. |
 | `repository-metadata.md:229` | `personal-principal/+/_WORK/personal/findings/REPO-META.md` | `/Users/krisbrown/kis/personal/personal-principal/+/_WORK/personal.sop.main/findings/REPO-META.md` |
 | `interim-cover.md:13` | `.../va/decisions.md` and `.../personal/decisions.md` | `.../va.sop.main/decisions.md` and `/Users/krisbrown/kis/personal/personal-principal/+/_WORK/personal.sop.main/decisions.md` |
-| `interim-cover.md:49` | `../../ki/queries.md#baseline---one-baseline-for-every-capital` | Path: `../../ki.sop.main/queries.md`. Anchor unrecoverable: the BASELINE query is no longer there, and my search found no revision holding that heading. |
+| `interim-cover.md:49` | `../../ki/queries.md#baseline---one-baseline-for-every-capital` | Path: `../../ki.sop.main/discussions.md`. Anchor unrecoverable: the BASELINE query is no longer there, and my search found no revision holding that heading. |
 | `coordination-lessons.md:21-23` | `hnr-principal/+/_WORK/hnr/design/scheduling-debrief.md`, `coordination-model-notes.md`, `hnr/decisions.md` | `/Users/krisbrown/kis/humans-not-robots/hnr-principal/+/_WORK/hnr.sop.main/design/scheduling-debrief.md`, `.../hnr.sop.main/design/coordination-model-notes.md`, `.../hnr.sop.main/decisions.md` (link only; no HNR source was read) |
 | `coordination-lessons.md:28` | `acquire/+/_WORK/personal.regular.acquire-intake/work.md` | `/Users/krisbrown/kis/personal/acquire/+/_WORK/personal.reg.acquire-intake/work.md` |
 | `mod011-wording.md:36` | `../../../../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md` (one level too deep) | `../../../../Admin/Governance/Decisions/GDR-KI-PRINCIPAL-009-the-work-model.md` |

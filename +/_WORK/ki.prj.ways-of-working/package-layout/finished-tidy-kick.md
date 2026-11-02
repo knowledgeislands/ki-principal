@@ -26,7 +26,7 @@ Three holes line up, so the folder is never deleted:
 
 ## The knowledge-acquisition case
 
-[ki.prj.knowledge-acquisition](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.knowledge-acquisition/state.md) shows all three. It finished on Kris's KA-FINISH word on 20 October (`since: 2026-10-20T04:14:07Z`), with every decision homed and `design/` resolved. Its last mark is 18 October, before the finish, so FOLDER-4 does not flag it. Its own next step is "delete this folder in one commit", which no session will take. State of play saw it and could only ask: the KA-CLOSE query in [ki.sop.main's queries](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/queries.md), parked, asks whether a bounded run should close it. It is the only Finished folder in `+/_WORK/` today.
+[ki.prj.knowledge-acquisition](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.knowledge-acquisition/state.md) shows all three. It finished on Kris's KA-FINISH word on 20 October (`since: 2026-10-20T04:14:07Z`), with every decision homed and `design/` resolved. Its last mark is 18 October, before the finish, so FOLDER-4 does not flag it. Its own next step is "delete this folder in one commit", which no session will take. State of play saw it and could only ask: the KA-CLOSE query in [ki.sop.main's queries](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/discussions.md), parked, asks whether a bounded run should close it. It is the only Finished folder in `+/_WORK/` today.
 
 This unit does not delete that folder. KA-CLOSE stays with Kris.
 
