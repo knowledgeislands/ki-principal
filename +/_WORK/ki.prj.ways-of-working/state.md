@@ -1,11 +1,11 @@
 ---
 id: ki.prj.ways-of-working
-state: handoff-to-supervisor
-since: 2026-11-01T09:00:33Z
+state: with-worker
+since: 2026-11-02T15:24:06Z
 received: 2026-10-29T15:38:09Z
-beat: 2026-11-01T09:00:33Z
+beat: 2026-11-02T15:24:06Z
 mark: 2026-11-01T01:41:58Z
-method_read: df3f5503
+method_read: b3c631c2
 listening_enabled: true
 listening_status: on
 syncing_enabled: false
@@ -16,8 +16,8 @@ syncing_status: off
 
 ## Now
 
-- AWAY-31-OCT ended 09:00 GMT; Kris returned 12:00 GMT. INTERACTIVE-QUERIES landed as harness `0af7ab73`, refined by run `query-turns`.
-- Morning summary: [`design/window-31-oct/morning-summary.md`](https://github.com/knowledgeislands/ki-principal/blob/f8c70a3000cdd7a531811ffe363884489eda0e50/+/_WORK/ki.prj.ways-of-working/design/window-31-oct/morning-summary.md) (as of 03:25 GMT; the return report covers the rest).
+- Re-bootstrapped 2 November 2026 at Kris's word (RE-BOOTSTRAP-2-NOV); listening for the whole session; replies to personal.reg.assistant-terra; commits carry `Host: sol`.
+- Running in tools-ki: `launcher-reports`, then `granola-screenshots`.
 
 ## Next steps
 
