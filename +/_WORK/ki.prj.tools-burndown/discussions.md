@@ -1,4 +1,4 @@
-# ki.prj.tools-burndown queries
+# ki.prj.tools-burndown discussions
 
 ## Open
 
@@ -8,7 +8,7 @@ No open queries.
 
 ### HELD-ROADMAP-KNIP - Knip commits stacked on the held roadmap commits
 
-since 2026-10-29 · from estpush2.report.md · parked: the package is on hold; release: when the package resumes
+focus: aside · since 2026-10-29 · from estpush2.report.md · parked: the package is on hold; release: when the package resumes
 
 **Context:** In 5g-emerge-apex, 5g-emerge-demos, 5g-emerge-testbed and apps-vallearmonia.com, the Knip commit sits on estmig-org's hook commit and other sessions' unpushed roadmap commits. These are the same stacks estpush held under HELD-ROADMAP.
 
@@ -22,7 +22,7 @@ b) Leave all four for their owning sessions to push.
 
 ### ASK-B - Coarse acquisition kind in the public export
 
-since 2026-10-19 · from rigsite-config.report.md in the run state folder · parked: ASK-B a), under HIGH-CONFIDENCE on 19 October; release: the rig.midnight.ninja side asks
+focus: rig-site · since 2026-10-19 · from rigsite-config.report.md in the run state folder · parked: ASK-B a), under HIGH-CONFIDENCE on 19 October; release: the rig.midnight.ninja side asks
 
 **Context:** Ask B has no go-ahead. If it goes ahead, a `kind` or `form` field derived as application or command-line would get past the site's forbidden-field check. Platform variants complicate it, because one tool can install differently on macOS and Linux. It would widen the public export (RIG-PUB-002).
 
@@ -34,4 +34,4 @@ a) (recommended, confidence high - there is no go-ahead, and it widens the publi
 
 b) Capture it at triage now, marked as waiting for Kit's go-ahead.
 
-- SRC-PLACEMENT - where KI-TOOL-KI-CLI-139's SharePoint mirror command sits. Recommended a) (medium, reviewer view): a separately specified source-maintenance command group in `ki`.
+- focus: aside · SRC-PLACEMENT - where KI-TOOL-KI-CLI-139's SharePoint mirror command sits. Recommended a) (medium, reviewer view): a separately specified source-maintenance command group in `ki`.
