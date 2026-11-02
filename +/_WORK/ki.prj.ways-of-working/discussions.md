@@ -1286,6 +1286,20 @@ a) (recommended, confidence high - Kris's LAYOUT-PILLARS words set the position 
 
 b) Accept Focus either at the top or after Scope, with no warning.
 
+### Z-FILES-HOME - Where the two Z files go
+
+since 2026-11-02 · from run/wow-tidy-5
+
+**Context:** `reports/` still holds `hold-request-20261030-z.md` and `z-session-retirement-20261030.md`. They have never been committed. The open query Z-FILES in [discussions.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/discussions.md) says to keep them out of any commit until the public-report questions are settled. The brief asked to move live material into a focus folder with `git mv`, but that would commit them. So I left them where they are, and the audit's one failure for this package remains until they move.
+
+**Query:** Should the two Z files move, uncommitted, into `package-layout/` so that `reports/` can be removed now?
+
+**Options:**
+
+a) (recommended, confidence medium - this clears the audit and keeps Z-FILES's no-commit rule, but it changes the path that Z-FILES names) A small run moves them with a plain `mv` into `package-layout/`, removes `reports/`, and updates the path in Z-FILES.
+
+b) Leave them in `reports/` until Z-FILES is answered.
+
 ## Answered
 
 - LAYOUT-SHAPE, LAYOUT-GROUP-TIDY - answered by Kris's focus-area layout (PILOT-ON-PILLARS, 2 November 2026).
