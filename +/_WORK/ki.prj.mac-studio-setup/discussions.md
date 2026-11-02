@@ -4,7 +4,7 @@
 
 ### TOOLS-RIG-LANE - Who carries the Rig tooling work once Mac Studio setup closes
 
-since 2026-11-02 · from handover.report.md · blind review pending
+since 2026-11-02 · from handover.report.md · blind review lane-review agreed (high)
 
 **Context:** On 17 October Kris gave this work the tools-rig lane (RIG-OWNER). The household works taking over Mac Studio setup exclude Rig tooling changes, and no other work names tools-rig. Left without an owner: KI-TOOL-RIG-CORE-047, 068, 069 and 070, the newer triage records KI-TOOL-RIG-CORE-075 and 076, the RIG-INTAKE and RIG-ASKS captures, and spec-sched from ki.prj.observatory. On 1 November Kris said Knowledge Islands' method work goes to State of play (ki.sop.main) when a work closes (PS-METHOD-HOME).
 
@@ -12,7 +12,7 @@ since 2026-11-02 · from handover.report.md · blind review pending
 
 **Options:**
 
-a) (recommended, confidence medium - follows Kris's PS-METHOD-HOME pattern and keeps Rig tooling apart from the household works, but Kris has not said so for tools-rig) State of play holds the lane, receives the retained Rig lines at close-out, and dispatches tools-rig work until Kris opens a dedicated Rig work.
+a) (recommended, confidence high - reviewed: State of play's definition takes work without an owner, while tools-burndown and both household works exclude Rig tooling; holding the lane means keeping and routing requests, not delivering Project work itself) State of play holds the lane, receives the retained Rig lines at close-out, and dispatches tools-rig work until Kris opens a dedicated Rig work.
 
 b) ki.prj.tools-burndown takes tools-rig alongside tools-ki and tools-mgit.
 
@@ -20,7 +20,7 @@ c) personal.reg.household-sol takes Rig tooling too, widening its scope.
 
 ### MGIT-PRESEED - The unfinished mgit repair change may be lost
 
-since 2026-11-02 · from handover.report.md (supersedes the 14 October parked query) · blind review pending
+since 2026-11-02 · from handover.report.md (supersedes the 14 October parked query) · blind review lane-review disagreed; both views shown
 
 **Context:** sol's old tools-mgit held an uncommitted 31 July change letting `mgit repair` clone into a folder holding only its mgit config file, the case that once blocked hnr-principal on sol. The saved patch is no longer at its cited path, no tools-mgit record cites it, and every checkout was rebuilt in the move to `~/kis` on 31 October to 1 November with no such failure seen.
 
@@ -28,9 +28,9 @@ since 2026-11-02 · from handover.report.md (supersedes the 14 October parked qu
 
 **Options:**
 
-a) (recommended, confidence medium - the patch is gone and no failure has been seen since the rebuild) Drop it, and raise it again only if `mgit repair` fails that way.
+a) (recommended, confidence medium - reviewed: the reviewer found that today's `mgit repair` still refuses a folder holding only its config file, so the failure that once blocked sol is still possible; the rebuilds don't show that case was ever tested) Have ki.prj.tools-burndown capture a tools-mgit triage record describing the old failure and the open question of whether a safe config-only exception is needed, not a request to recreate the lost patch.
 
-b) Have ki.prj.tools-burndown capture a tools-mgit triage record from the description above.
+b) (the handover run's view) Drop it, since the patch is gone and no failure has been seen since the rebuild, and raise it again only if `mgit repair` fails that way.
 
 ### RIG-069-PROBE - Native setter evidence for KI-TOOL-RIG-CORE-069
 
