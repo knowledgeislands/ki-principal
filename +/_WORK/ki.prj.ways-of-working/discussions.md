@@ -1260,9 +1260,9 @@ b) Apply it literally to every command that changes anything, including launch, 
 
 ### FOCUS-SLOT-OWNER - Whose focus area a message line names
 
-since 2026-11-02 · from run/focus-layout (LAYOUT-PILLARS)
+since 2026-11-02 · from run/focus-layout (LAYOUT-PILLARS) · blind review 2 November differs
 
-**Context:** LAYOUT-PILLARS says decisions, messages and discussion points each name their focus area, and that only the owning thread assigns items to its focus areas. For decisions and discussion points the owner is clear: it's the work itself. A message line is written by one work into another's queue. In the pilot, assistant-sol wrote `focus: aside` on a line it sent to household-terra, which is the sender's own area. The standard now allows the slot but doesn't say whose area it names.
+**Context:** LAYOUT-PILLARS says decisions, messages and discussion points each name their focus area, and that only the owning thread assigns items to its focus areas. For decisions and discussion points the owner is clear: it's the work itself. A message line is written by one work into another's queue. In the pilot, assistant-sol wrote `focus: aside` on a line it sent to household-terra, which is the sender's own area. The standard now allows the slot but doesn't say whose area it names. The blind review prefers b) at high confidence: a message is an item in the receiver's incoming queue, so its focus slot should use the receiver's areas, and a sender should not assign it.
 
 **Query:** On a message line, should the `focus:` slot name the sender's focus area or the receiver's?
 
