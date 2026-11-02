@@ -1258,6 +1258,34 @@ a) (recommended, confidence high - reviewed; it covers every command where a pre
 
 b) Apply it literally to every command that changes anything, including launch, init, install and send, so the rule has no exceptions.
 
+### FOCUS-SLOT-OWNER - Whose focus area a message line names
+
+since 2026-11-02 · from run/focus-layout (LAYOUT-PILLARS)
+
+**Context:** LAYOUT-PILLARS says decisions, messages and discussion points each name their focus area, and that only the owning thread assigns items to its focus areas. For decisions and discussion points the owner is clear: it's the work itself. A message line is written by one work into another's queue. In the pilot, assistant-sol wrote `focus: aside` on a line it sent to household-terra, which is the sender's own area. The standard now allows the slot but doesn't say whose area it names.
+
+**Query:** On a message line, should the `focus:` slot name the sender's focus area or the receiver's?
+
+**Options:**
+
+a) (recommended, confidence medium - it matches the pilot and keeps "only the owning thread assigns" true, because the sender only ever labels its own matter) The slot names the sender's focus area. The receiver assigns the matter to one of its own areas when it acts on the line.
+
+b) The slot names one of the receiver's focus areas. A sender writes it only when echoing an assignment the receiver has already made, such as in a reply, and otherwise leaves it out.
+
+### FOCUS-TOP - Where household-sol's Focus section sits
+
+since 2026-11-02 · from run/focus-layout (LAYOUT-PILLARS)
+
+**Context:** LAYOUT-PILLARS puts `## Focus` after Goals and Scope. FOCUS-IN-WORK first piloted it at the top of `work.md`, and household-sol still has it there. The audit accepts that position with a tolerance warning, so all four pillars pass.
+
+**Query:** Should a Focus section above Goals stay a warning that household-sol clears by moving it, or become an accepted second position?
+
+**Options:**
+
+a) (recommended, confidence high - Kris's LAYOUT-PILLARS words set the position after Goals and Scope) Keep the warning. household-sol moves its section at its next update.
+
+b) Accept Focus either at the top or after Scope, with no warning.
+
 ## Answered
 
 - LAYOUT-SHAPE, LAYOUT-GROUP-TIDY - answered by Kris's focus-area layout (PILOT-ON-PILLARS, 2 November 2026).
