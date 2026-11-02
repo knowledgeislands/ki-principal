@@ -15,11 +15,11 @@ mark: 2026-10-15T15:04:22Z
 ## Now
 
 - Drained on 15 October; returned from review to `+/_WORK/` on Kris's REVIEW-HOLD answer of 19 October. The parked items rest on the drained run's own claims and are not re-verified.
-- Its retirement is prepared in State of play's [retirement plan](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/design/estate-factorisation-retirement.md), waiting on ESTATE-CLOSE in ki.sop.main's queries.
+- Its retirement is prepared in State of play's [retirement plan](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/aside/estate-factorisation-retirement.md), waiting on ESTATE-CLOSE in ki.sop.main's queries.
 
 ## Next steps
 
-1. On release, confirm each receiver's outcome for the parked items in `queries.md`, then seek Project close-out only when the gates are met.
+1. On release, confirm each receiver's outcome for the parked items in `discussions.md`, then seek Project close-out only when the gates are met.
 
 ## Held
 

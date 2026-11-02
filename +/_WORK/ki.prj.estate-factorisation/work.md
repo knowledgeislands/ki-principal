@@ -25,3 +25,8 @@ created_at: 2026-10-08T08:35:00Z
 
 - In: PROJECT-CLOSE, OBS-ACTIVATION, GOVERNANCE and ALIAS-OWNERS, and confirming each receiver's outcome.
 - Out: the receivers' own delivery: tools-ki (ki.prj.tools-burndown), Rig (ki.prj.mac-studio-setup, ki.prj.chezmoi), rollout (ki.prj.baseline-rollout), the Observatory (ki.prj.observatory) and the host (ki.prj.agent-host).
+
+## Focus
+
+1. `close-out` — the Project's close-out gates and its receivers' outcomes.
+2. `aside` — anything outside the others.

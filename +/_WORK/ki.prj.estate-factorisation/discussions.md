@@ -1,4 +1,4 @@
-# ki.prj.estate-factorisation queries
+# ki.prj.estate-factorisation discussions
 
 ## Open
 

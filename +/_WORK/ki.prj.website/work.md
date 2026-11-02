@@ -25,3 +25,8 @@ created_at: 2026-10-25T00:46:35Z
 
 - In: `apps-knowledgeislands.info`, its content drift against the knowledge base, its vendored skill catalogue, `AGENTS.md` choreography and Cloudflare configuration.
 - Out: the `ki-repo-website-*` skills (ki.prj.baseline-rollout); the work model (ki.prj.ways-of-working); territory dispatch (ki.sop.main).
+
+## Focus
+
+1. `site` — the website: its content drift, skill catalogue, choreography and configuration.
+2. `aside` — anything outside the others.

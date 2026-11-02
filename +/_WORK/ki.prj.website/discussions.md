@@ -1,4 +1,4 @@
-# ki.prj.website queries
+# ki.prj.website discussions
 
 ## Open
 

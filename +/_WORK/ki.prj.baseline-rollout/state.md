@@ -17,7 +17,7 @@ method_read: null
 
 - On hold since 20 October, 02:05 BST, to take stock on ways of working; released when Kris says resume. Nothing is running.
 - Wave 1's records are committed and pushed in every territory repository they touched.
-- 15 queries are parked in `queries.md`, each with its review verdict folded in; the full query texts and reviews stay in Git, linked from there.
+- 15 queries are parked in `discussions.md`, each with its review verdict folded in; the full query texts and reviews stay in Git, linked from there.
 - Ten live lines, mostly harness changes for the owner to carry, wait in `messages.md` for resume.
 - The `wave1-sweep` and `review-territory-techmedix` reports were pruned on 29 October once their outcomes were confirmed homed.
 

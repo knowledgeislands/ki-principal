@@ -1,8 +1,10 @@
-# ki.reg.main queries
+# ki.reg.main discussions
 
 ## Open
 
 ### RELEASE-GO - Release Stoa with the import-cycle fix and the new icons
+
+focus: activities
 
 **Context:** The unattended window's unit U4 put both STOA-ICONS changes on `packages-stoa` `main` at `b4bf2d4`, on top of 0.31.0: the Theme Engine import cycle is gone and all 46 requested icon names render, six of them with an approximate Phosphor glyph (the two right-panel names share the left panel's `sidebar-simple`, `list-x` uses `list-dashes`, `message-circle-question-mark` uses `chat-circle-dots`, and the two distribute-centre names use `columns` and `rows`). Tests, typecheck and lint pass. Nothing is versioned, tagged or published, so the 5G Emerge apex, Infoschematics, demos and Phase 2 Phosphor moves stay blocked until a release ships and hnr.sop.5ge hears its version. Kris agreed "one release fixing both" on 29 October; the release itself was left out of the window.
 
