@@ -13,6 +13,7 @@ method_read: b3c631c2
 
 ## Now
 
+- 2 November 15:35 GMT: handover run received. Handover note [setup/handover.md](setup/handover.md); sol items to personal.reg.household-sol and terra items to personal.reg.household-terra (chezmoi source). Seven settled queries cleared. TOOLS-RIG-LANE and MGIT-PRESEED in blind review; then this work goes on hold pending close-out, the retained Rig lines going to whichever work takes the tools-rig lane.
 - Re-bootstrapped on sol at 23:20 GMT on 31 October from session badb4224 as coordinator; not listening (Kris has not asked). GUIDE-FIELD and RIG-RETIRE-ONE folded into the new RIG-ASKS query.
 - Orca trial evidence handed to ki.prj.orca-evaluation.
 - Re-bootstrapped on sol at 01:39 GMT on 30 October as coordinator; dispatch through `ki agent`, run `ki-prj-mac-studio-setup` (KI-AGENT-DISPATCH), ending the Orca dispatch trial after one unit.
