@@ -28,3 +28,8 @@ created_at: 2026-10-08T08:40:00Z
 
 - In: the chezmoi source (`~/.local/share/chezmoi`, GitHub `krisb/dotfiles`) and its `docs/roadmap/` PERSONAL-DOTFILES-UE records; managed and unmanaged coverage and `.chezmoiignore`; drift between source and targets; the chezmoi side of host-local KI config, such as the `[locals]` migration; reviewed, scripts-excluded applies on terra and sol.
 - Out: Rig, its records and the at-screen bring-up of sol and terra (ki.prj.mac-studio-setup); tools-ki and tools-mgit and their releases (ki.prj.tools-burndown); the work model and harness guidance (ki.prj.ways-of-working); territory dispatch (ki.sop.main).
+
+## Focus
+
+1. `orca-prefs` — the Orca preferences declaration and its checker (ORCA-PREFS).
+2. `aside` — anything outside the others.

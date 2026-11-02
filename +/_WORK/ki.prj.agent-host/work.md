@@ -20,5 +20,10 @@ created_at: 2026-10-07T09:05:00Z
 
 ## Scope
 
-- In: the agent-host design papers in `design/`, [KI-TOOL-TECHNE-CLI-009 (pruned)](https://github.com/knowledgeislands/tools-techne/blob/78f88656/docs/roadmap/KI-TOOL-TECHNE-CLI-009-tailscale-oauth-binding-field.md) and the matching ki-techne-harness recipe parameter.
+- In: the agent-host design papers in `host/`, [KI-TOOL-TECHNE-CLI-009 (pruned)](https://github.com/knowledgeislands/tools-techne/blob/78f88656/docs/roadmap/KI-TOOL-TECHNE-CLI-009-tailscale-oauth-binding-field.md) and the matching ki-techne-harness recipe parameter.
 - Out: Rig workstation setup and firewall work (ki.prj.mac-studio-setup); the `ki.sop.main` CLI (ki.prj.tools-burndown); Paperclip (ki.prj.paperclip-capture-and-rebuild).
+
+## Focus
+
+1. `host` — the agent host vega: its recipes, bindings and the Rig and Techne boundary.
+2. `aside` — anything outside the others.

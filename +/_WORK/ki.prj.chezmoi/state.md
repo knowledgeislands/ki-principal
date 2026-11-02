@@ -12,7 +12,7 @@ method_read: beb56729
 
 ## Now
 
-- With Kris since 24 October: the four open [queries](queries.md). Nothing is running.
+- With Kris since 24 October: the four open [discussions](discussions.md). Nothing is running.
 - terra is level with source and Rig doctor reads zero findings; its firewall v5 rehearsal and apply are complete.
 - sol: Warp is retired, Tower Assistant 2.1 is installed, Prime Video and Rekordbox are installed and Rig doctor is down to three findings (Orca, UTM, the Screen Sharing firewall). Its remaining items are held in [personal.regular.rig-sol](/Users/krisbrown/workspaces/personal/personal-principal/+/_WORK/personal.regular.rig-sol/queries.md).
 - Every machine-specific instruction starts with terra: or sol:.

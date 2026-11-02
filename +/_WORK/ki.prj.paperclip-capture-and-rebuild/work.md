@@ -7,7 +7,7 @@ project: paperclip-capture-and-rebuild
 theme: techne
 description: >-
   Captures Paperclip's approach in the island and designs a fresh rebuild once the work model settles. Takes the
-  capture and the rebuild design papers in `design/`. Not taking new units while on hold. Not for the work model
+  capture and the rebuild design papers in `rebuild/`. Not taking new units while on hold. Not for the work model
   (ki.prj.ways-of-working) or the agent host (ki.prj.agent-host).
 worker: agent
 supervisor: owner
@@ -22,5 +22,10 @@ created_at: 2026-10-18T03:30:38Z
 
 ## Scope
 
-- In: the Paperclip capture and the rebuild design papers in `design/`.
+- In: the Paperclip capture and the rebuild design papers in `rebuild/`.
 - Out: the work model (ki.prj.ways-of-working); the agent host (ki.prj.agent-host); territory dispatch (ki.sop.main).
+
+## Focus
+
+1. `rebuild` — the Paperclip capture and the rebuild design.
+2. `aside` — anything outside the others.

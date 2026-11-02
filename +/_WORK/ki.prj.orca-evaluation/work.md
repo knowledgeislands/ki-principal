@@ -27,3 +27,8 @@ created_at: 2026-10-30T01:42:30Z
 
 - In: Orca dispatch trials and their evidence; ORCA-HOST and the trial log taken over from ki.prj.mac-studio-setup; the ORCA-FIT notes taken over from ki.prj.ways-of-working; Orca findings the landscape study feeds in; how Orca should be used.
 - Out: the Mac Studio's own setup (ki.prj.mac-studio-setup); the work model, the landscape study itself and method changes (ki.prj.ways-of-working); how chezmoi manages Orca's hook files (ki.prj.chezmoi); the Observatory's use of agent hooks (ki.prj.observatory); territory dispatch (ki.sop.main).
+
+## Focus
+
+1. `trial` — Orca trials, their evidence and what they teach, including feedback to Orca and worker-thread tidying.
+2. `aside` — anything outside the others.

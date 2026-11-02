@@ -1,8 +1,10 @@
-# ki.prj.orca-evaluation queries
+# ki.prj.orca-evaluation discussions
 
 ## Open
 
 ### SCOPE-SPLIT - Draw the line between this Project and Ways of working, and hand over the method questions
+
+focus: aside
 
 **Context:** This Project opened on 30 October to work out how best to use Orca, taking over the trial evidence from Mac Studio setup and, when Ways of working sent them, the ORCA-FIT notes. Since then Ways of working has settled much of how Orca fits the method itself: the wake rule (WAKE-SESSION and WAKE-DURABLE, now in the delegation standard), queued runs going through Orca first (ORCA-QUEUE), Orca's own launch route beside `ki agent` (ORCA-PLACEMENT), worker close-out (ORCA-CLOSE-OUT) and package files holding no Orca Run id (ORCA-ROUTING). Four of this Project's earlier questions are really about the method every worker follows: how a worker commits in a repository whose hook stashes (TRIAL-PUBLISH; Ways of working's HOOK-STASH already asks it), how a question only you can answer travels (TRIAL-ASK), ids, prompt, liveness and report practice (TRIAL-PRACTICE), and stopping `ki agent` runs inheriting Orca's remaining pane and hook variables (ORCA-IDENTITY-LEAK). The ORCA-FIT draft holding those choices never left Ways of working.
 
@@ -15,6 +17,8 @@ a) (recommended, confidence high - each of the four is already a live question o
 b) No. Keep the four questions here, settle them in the trial, and pass the answers to Ways of working afterwards.
 
 ### ORCA-UPSTREAM - The rest of the feedback to Orca
+
+focus: trial
 
 **Context:** Five items of feedback for Orca have been gathered. The first, the question card dropping line breaks, you authorised on 31 October, and it is being filed now as its own bug report. Four await you: (2) while a chat waits on a background task, its row reads "Monitoring background tas..." instead of its name, which hits every waiting coordinator; (3) a hidden sidebar item can only be restored from Settings > Appearance > Sidebar, with no hint, and the Mobile message points to the wrong Settings page; (4) Orca has no supported read-only way to export settings, so comparing settings across terra and sol would mean reading Orca's database directly; (5) a session Orca did not start cannot declare a parent or name, which matters less now Orca starts this work's runs. The stock-take suggested one bundled request with all five (medium confidence); the independent review disagreed: send one report per problem, and not more than you have approved, with items 2 and 3 as the useful next ones. Each report is public.
 
@@ -30,6 +34,8 @@ c) Send none of the four for now; only the card bug goes.
 
 ### THREADS-TRY - Test archiving one worker thread first
 
+focus: trial
+
 **Context:** Each Codex worker Orca starts leaves a saved conversation that shows in the ChatGPT app's recent list on the Mac that ran it: 50 on terra and 3 on sol so far, vega not yet counted. Orca has no setting for this; it keeps its own copy of each worker's output when the worker is released, and the brief and report are in the work package. Codex's own command line can archive a conversation (undone with `codex unarchive`) or delete it for good. Nobody has yet shown that archiving from the command line removes it from the ChatGPT app's list. Hand-editing app files is ruled out after 31 October.
 
 **Query:** May a run on terra archive one finished worker conversation, check it leaves the ChatGPT app's list, then unarchive it and check it returns?
@@ -41,6 +47,8 @@ a) (recommended, confidence high - reviewed: the independent review proposed it;
 b) Skip the test and go straight to the clear-out.
 
 ### THREADS-SWEEP - Clear finished worker threads on each Mac
+
+focus: trial
 
 **Context:** If the one-thread test works, the existing worker conversations (50 on terra, 3 on sol, vega to be counted) can be archived in bulk through Codex's own command, matching only conversations that open with Orca's worker preamble and whose Orca worker has finished, never one still running. New ones keep appearing after every Orca Run until Orca can do this itself. You said they "should just be deleted"; deleting is permanent, while archived ones can be deleted later once nothing has needed them.
 
@@ -55,6 +63,8 @@ b) Delete straight away instead of archiving, for the same matched conversations
 c) Archive the existing ones by hand in the ChatGPT app and do nothing automatic.
 
 ### THREADS-FR - Ask Orca to tidy a worker's conversation on release
+
+focus: trial
 
 **Context:** The lasting fix is in Orca: when a worker is released, Orca already keeps its own copy of the output, so it could then archive or delete the Codex conversation itself. Nobody has asked Orca for this; the nearest open requests are about filtering worker notifications and removing worktrees after release. A request is public. A "never save" mode for workers is not the right ask, because Orca reads the conversation while the worker runs.
 

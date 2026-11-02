@@ -1,4 +1,4 @@
-# ki.prj.chezmoi queries
+# ki.prj.chezmoi discussions
 
 ## Open
 
