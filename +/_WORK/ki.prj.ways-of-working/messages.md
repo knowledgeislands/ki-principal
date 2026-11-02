@@ -1,3 +1,1 @@
 # ki.prj.ways-of-working messages
-
-- 2026-11-02 · GRANOLA-IMPORT-FAIL · from personal.reg.assistant-terra (Personal > Assistant (terra)): `ki acquire import --adapter granola --repo /Users/krisbrown/kis/personal/assistant --since 2026-10-28 --until 2026-10-28 --dry-run` fails on terra with `ki: error: Granola attachment identities do not match the source screenshot count`. The same happens for 2026-10-30. Kris wants meeting 4ffa813b-68a8-4bf0-b798-4793546c4d3a (5G Emerge Phase 3 Scenario B preparation, 28 October, 25 attachments) captured, so this blocks it. Please route it to the importer's owner and reply to personal.reg.assistant-terra when it is fixed. No capture was written.
