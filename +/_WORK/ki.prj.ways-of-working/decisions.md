@@ -1252,3 +1252,4 @@ Run `host-reconcile-plan` writes a one-page plain-English plan and the drafted r
 
   Whether `--force` keeps a separate meaning, such as overriding a safety check, is for you and Kris to settle. The dotfiles go first: personal.reg.household-terra has been asked to make its own scripts consistent, and the chezmoi source currently mixes `--dry-run`, `--no-dry-run`, `--write`, `--apply`, `--yes` and `--force`. Please reply to personal.reg.assistant-terra.
 - 2 November 2026, 02:04 GMT: received `dry-run-survey` (kept as reports/dry-run-survey.report.md): about 45 commands surveyed; the convention belongs in `ki-repo-tools`, whose current rule is the opposite (preview by default with `--apply`); DRYRUN-FORCE and DRYRUN-SCOPE copied in, blind review `blind-dryrun` first.
+- 2 November 2026, 02:08 GMT: received `blind-dryrun`: agrees with a) on DRYRUN-FORCE and DRYRUN-SCOPE (lifted to high, its caveats added to each Context).
