@@ -6,7 +6,7 @@
 
 ## Done
 
-- Took stock, read-only, of all 39 lines in [messages](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.observatory/messages.md) (9 marked important, one of them, REFRESH, mid-line; the brief's 37 and 7 predate the last two arrivals) and all 10 open [queries](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.observatory/queries.md), checked against apps-observatory.local, ki-design, tools-ki, acquire, the Rig launch job and the Ways of working package.
+- Took stock, read-only, of all 39 lines in [messages](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.observatory/messages.md) (9 marked important, one of them, REFRESH, mid-line; the brief's 37 and 7 predate the last two arrivals) and all 10 open [queries](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.observatory/discussions.md), checked against apps-observatory.local, ki-design, tools-ki, acquire, the Rig launch job and the Ways of working package.
 - In short: 19 lines are settled or overtaken and can go; the other 20 and nine live queries fall into seven groups. Three facts have moved since 29 October. The publication hold no longer holds anything back: everything it guarded, both protected report versions included, is already on the remote. Kris answered the sync direction on 31 October in Ways of working: the Observatory watches and does not sync. And the work-status producer's prerequisites (regular readers, naming) have landed.
 - Proposed order: publication first, the Acquire intake view second, status correctness third, then diagram feedback and the opener button, then Host observation, with design convergence last and a housekeeping run alongside.
 - Roadmap audit rerun in apps-observatory.local (`ki repo audit --skill ki-work-roadmap`): FAIL 0, WARN 1, the warning being that this machine's registry has no local checkout for the Capital.
@@ -46,7 +46,7 @@ Outstanding - no action requested now:
 | L20 | TIDY | Duplicate | Same findings as L21; L21 and L41 carry the live tidy |
 | L24 | USABILITY-THREAD | Overtaken | Focus deleted by PDR-KI-OBSERVA-010 (L25) |
 | L25 | REDESIGN-LANDED | Settled notice | PDR-KI-OBSERVA-010 on main |
-| L28 | TYPED-ID-CONSUMER | Assessed | Done by the 29 October consumer assessment ([report](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.observatory/reports/away-consumer-gap.report.md)); the repair it found is the STATUS-REPAIR query |
+| L28 | TYPED-ID-CONSUMER | Assessed | Done by the 29 October consumer assessment ([report](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.observatory/aside/away-consumer-gap.report.md)); the repair it found is the STATUS-REPAIR query |
 | L30 | COORD-REGULAR-STATUS | Assessed | Same assessment; [KI-TOOL-KI-CLI-173](/Users/krisbrown/kis/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-173-regular-coordination-readers.md) is done; carried by STATUS-REPAIR |
 | L32 | NAMING-PAUSE | Settled | Released by L37 |
 | L33 | MGIT-SYNC-JOB | Overtaken | Kris, 31 October 13:14 GMT, in Ways of working: "the observatory is watching, it's not doing the syncing"; the 15-minute plan went to personal.reg.rig-sol and personal.reg.rig-terra (HOST-SYNC-SEND) |
@@ -101,7 +101,7 @@ Notes on live lines:
 | BRIDGE-STALE | Context only | The Host area now has a decided thing to watch: per-host sync every 15 minutes, primary map seeded from the seats (Ways of working, 31 October) |
 | STATUS-REPAIR | Strengthened | Producer prerequisites landed: KI-TOOL-KI-CLI-173 done and the naming migration received; nothing on the Observatory side |
 | SYNC-DIRECTION | Answered elsewhere | Kris, 31 October 13:14 GMT: "the observatory is watching, it's not doing the syncing ... In the future it might be able to ... do the ad hoc sync"; execution went to the Rig host threads |
-| PUBLIC-AUDIENCE | Facts moved | Every commit the hold guarded, tip `542dcbc8` included, is now an ancestor of `origin/main` (`37a872d2`, 1 November); both protected report versions are in remote history (`ccbd06dd`, `c5c3d3b3`), and one is current at `reports/away-jobs-evidence.report.md`, re-committed by the 1 November move (`3b09eba9`). Ways of working holds a parallel PUBLIC-REPORT-AUDIENCE and PUBLIC-REPORT-RECOVERY on the same history; Kris asked on 30 October for an independent review before answering, and that review exists |
+| PUBLIC-AUDIENCE | Facts moved | Every commit the hold guarded, tip `542dcbc8` included, is now an ancestor of `origin/main` (`37a872d2`, 1 November); both protected report versions are in remote history (`ccbd06dd`, `c5c3d3b3`), and one is current at `aside/away-jobs-evidence.report.md`, re-committed by the 1 November move (`3b09eba9`). Ways of working holds a parallel PUBLIC-REPORT-AUDIENCE and PUBLIC-REPORT-RECOVERY on the same history; Kris asked on 30 October for an independent review before answering, and that review exists |
 | PUBLIC-EXPOSURE | Facts moved | As above |
 | ACCESS-DISPOSITION | No | Still proposes making `knowledgeislands/ki-principal` private; its "moderate" confidence is not one of the three allowed levels |
 

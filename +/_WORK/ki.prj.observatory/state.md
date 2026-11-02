@@ -12,7 +12,7 @@ method_read: df3f5503
 
 ## Now
 
-With Kris under DRAIN-WITH-SUPERVISOR. Away window ended. Nothing running, held in the run queue, queued or scheduled for this work. Every current owner choice remains in [queries](queries.md); retained reports and designs remain evidence, not adopted work.
+With Kris under DRAIN-WITH-SUPERVISOR. Away window ended. Nothing running, held in the run queue, queued or scheduled for this work. Every current owner choice remains in [discussions](discussions.md); retained reports and designs remain evidence, not adopted work.
 
 ## Next steps
 

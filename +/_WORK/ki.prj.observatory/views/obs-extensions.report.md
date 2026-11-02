@@ -56,5 +56,5 @@ Outstanding - no action requested now:
 - [with you] PUSH-STACK · owner · since 20:33
 - [with you] EXT-MODEL · owner · since 20:33
 - [with you] EXT-ROOTS · owner · since 20:33
-- [committed] design/live-artifacts.md as `42e1e77`
+- [committed] views/live-artifacts.md as `42e1e77`
 - [unpushed] `42e1e77` and `b6c6650` on main

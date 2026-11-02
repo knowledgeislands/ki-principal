@@ -9,7 +9,7 @@ Give Kris one consolidated, prioritised picture of everything waiting on the Obs
 ## Inputs (read, do not edit)
 
 - `+/_WORK/ki.prj.observatory/messages.md`: 37 lines, 7 IMPORTANT.
-- `+/_WORK/ki.prj.observatory/queries.md`: 10 open queries (QUEUE, RESTRUCTURE, TEN-COMMITS, MERMAID-HANDLER, BRIDGE-STALE, STATUS-REPAIR, SYNC-DIRECTION, PUBLIC-AUDIENCE, PUBLIC-EXPOSURE, ACCESS-DISPOSITION). QUEUE is answered by this run.
+- `+/_WORK/ki.prj.observatory/discussions.md`: 10 open queries (QUEUE, RESTRUCTURE, TEN-COMMITS, MERMAID-HANDLER, BRIDGE-STALE, STATUS-REPAIR, SYNC-DIRECTION, PUBLIC-AUDIENCE, PUBLIC-EXPOSURE, ACCESS-DISPOSITION). QUEUE is answered by this run.
 - `+/_WORK/ki.prj.observatory/state.md` (holds), `work.md` (scope), `decisions.md` (standing owner decisions such as PUSH-ALL, DESIGN-APPLY, DIAGRAM-REPLACE).
 - `/Users/krisbrown/kis/knowledge-islands/apps-observatory.local`: its `docs/roadmap/`, `docs/ideas/`, decisions and Git log, to check whether each message is already settled.
 - Other repositories only to verify a specific claim a message makes (read-only).

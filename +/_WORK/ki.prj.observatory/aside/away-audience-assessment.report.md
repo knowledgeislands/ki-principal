@@ -109,7 +109,7 @@ Exact manifest notation: each entry gives change type, repository-relative path,
 
 **Commit `6fd427e47200f5e0bf548d280c506a833bcb58b0`**
 
-- `A` `+/_WORK/ki.prj.observatory/design/observatory-sync-brief.md`
+- `A` `+/_WORK/ki.prj.observatory/sync/observatory-sync-brief.md`
 
   Blob `4676360d9c2fb590579a81da38aadac34ca2d60c`; 20948 bytes; SHA-256 `a091fbbf14c8964f22ab1d8c307a022f9194dd754f3085911ff1e604ff7d4f98`.
 
@@ -123,7 +123,7 @@ Exact manifest notation: each entry gives change type, repository-relative path,
 
 **Commit `9a8fc33f2394c896d01ef48a41c858ed4ec0305b`**
 
-- `A` `+/_WORK/ki.prj.observatory/design/observatory-sync-review-authority.md`
+- `A` `+/_WORK/ki.prj.observatory/sync/observatory-sync-review-authority.md`
 
   Blob `d304cd39ee1668fc288803d612799a430a53fcba`; 16794 bytes; SHA-256 `900564e5746f5899202c75aabd7856fd54674677b5207041c93d6bafb16e33c6`.
 
@@ -131,7 +131,7 @@ Exact manifest notation: each entry gives change type, repository-relative path,
 
 **Commit `20c08b7f37ce3969a78daeff5f5f391f17efadee`**
 
-- `A` `+/_WORK/ki.prj.observatory/design/observatory-sync-review-reliability.md`
+- `A` `+/_WORK/ki.prj.observatory/sync/observatory-sync-review-reliability.md`
 
   Blob `ad2300bee78d45fbf6d805e10492ca96f594703f`; 15384 bytes; SHA-256 `0500028a8ca339fcc32a9b6c165ebc3e3da1d7af4ecb32984a74ede71b6d9187`.
 
@@ -139,7 +139,7 @@ Exact manifest notation: each entry gives change type, repository-relative path,
 
 **Commit `f067d3f80fc032a23b569005b9d2a4517578e160`**
 
-- `A` `+/_WORK/ki.prj.observatory/design/observatory-sync-report.md`
+- `A` `+/_WORK/ki.prj.observatory/sync/observatory-sync-report.md`
 
   Blob `b8f2c48ea34b1423c5dccf30749802e6ba52100f`; 21548 bytes; SHA-256 `d2fb0a5aa340224992f5ae8b13e6a8968581c4b839b0014e245a71bc1b3a1b4b`.
 
@@ -297,7 +297,7 @@ Exact manifest notation: each entry gives change type, repository-relative path,
 
   P lines 25,27,29,32,34; M lines 8,10,13,14,16,20,25,27,32,34; O lines 29. P in added lines: no; P already in parent: yes.
 
-- `M` `+/_WORK/ki.prj.observatory/queries.md`
+- `M` `+/_WORK/ki.prj.observatory/discussions.md`
 
   Blob `4045edf50ee8b3414a954fffe503ab0879d54b21`; 5960 bytes; SHA-256 `bc739719f308c2f84c02126a1b68f0fa3eb82bd5f93bb485baab22ca309dd132`.
 
@@ -393,13 +393,13 @@ Exact manifest notation: each entry gives change type, repository-relative path,
 
   P lines 144,169; M lines 37,85,129,144,149,180; O lines 141,169. P in added lines: yes; P already in parent: yes.
 
-- `M` `+/_WORK/ki.prj.observatory/design/observatory-sync-report.md`
+- `M` `+/_WORK/ki.prj.observatory/sync/observatory-sync-report.md`
 
   Blob `a3dc5297a01c0c8a4007abf722ae0fd5e5939a80`; 23976 bytes; SHA-256 `3020976363b0a6c02abb794e1dfb5d5de5377ad20d8c6e4713f6e5f6a81c77f7`.
 
   P lines 26,27,61,66,103,127,151,160,164,172,173; M lines 25,26,27,103,107,164,167,168,172,173; O lines 72,74,104,160. P in added lines: yes; P already in parent: yes.
 
-- `M` `+/_WORK/ki.prj.observatory/queries.md`
+- `M` `+/_WORK/ki.prj.observatory/discussions.md`
 
   Blob `0e6a796783ccb9091ca796e5c795a8047429e7ba`; 9112 bytes; SHA-256 `018838c8ab7774a508f1dd7a899627d270cb3995e5043e3dcbe7597835add16f`.
 
@@ -495,7 +495,7 @@ Exact manifest notation: each entry gives change type, repository-relative path,
 
   P lines 144,169,194; M lines 37,85,129,144,149,180; O lines 141,169. P in added lines: yes; P already in parent: yes.
 
-- `M` `+/_WORK/ki.prj.observatory/queries.md`
+- `M` `+/_WORK/ki.prj.observatory/discussions.md`
 
   Blob `4a5a3473d2f7976223e295c36e441071de1e86d9`; 10986 bytes; SHA-256 `e82c2970a6561eee1fc58001869735814ebea0b0028c4072505abb66486241f6`.
 
@@ -515,7 +515,7 @@ Exact manifest notation: each entry gives change type, repository-relative path,
 
   P lines 144,169,194; M lines 37,85,129,144,149,180; O lines 141,169. P in added lines: no; P already in parent: yes.
 
-- `M` `+/_WORK/ki.prj.observatory/queries.md`
+- `M` `+/_WORK/ki.prj.observatory/discussions.md`
 
   Blob `6a4986f981afaa39f7d5f1abbb14900e5b902de8`; 12803 bytes; SHA-256 `66573874064ff62dbccb497d7eb38e6560447796d3622a4b1d8ab5855b648c18`.
 

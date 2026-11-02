@@ -178,7 +178,7 @@ class: operational
 
 class: operational
 
-Received the completed Z retirement report and resolved PARENT-RECEIPT under Kris's 30 October instruction to finish the same retirement operation. This retires Z only; the Project continues in Orca. No Orca interface, adopted worker, current holder, state, since, received, beat, method_read or mark was changed. All five governing files remain present; the complete nine questions in [queries](queries.md) and the newer queue in [messages](messages.md), including DIAGRAM-FEEDBACK, are preserved.
+Received the completed Z retirement report and resolved PARENT-RECEIPT under Kris's 30 October instruction to finish the same retirement operation. This retires Z only; the Project continues in Orca. No Orca interface, adopted worker, current holder, state, since, received, beat, method_read or mark was changed. All five governing files remain present; the complete nine questions in [queries](discussions.md) and the newer queue in [messages](messages.md), including DIAGRAM-FEEDBACK, are preserved.
 
 The prior retirement verified 23 historical Z packets DONE with absent processes, no Z queue, pending write, obsolete monitor or declared wake, and all owned product main history plus the prior Principal drain receipt remotely reachable. No new product work, provider operation, service restart, acceptance, cancellation or Project closure follows this receipt. Unknown peer material and all uncertain reports and designs remain intact.
 

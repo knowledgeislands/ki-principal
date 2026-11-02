@@ -29,3 +29,10 @@ created_at: 2026-10-13T23:50:00Z
 
 - In: Observatory features and roadmap records in apps-observatory.local; its design convergence and the handoffs with ki-design; Mermaid-to-Archify conversion records in other repositories; the Observatory's reading of `ki work status`.
 - Out: timelines and calendars, including KI-HARNESS-GOV-222 and the legal gantt (ki.prj.timelines); the work model and work package (ki.prj.ways-of-working); the `ki` CLI and tools-ki records (ki.prj.tools-burndown); rollout to other territories (ki.prj.baseline-rollout); territory dispatch (ki.sop.main); Rig and the host network (ki.prj.chezmoi, ki.prj.mac-studio-setup).
+
+## Focus
+
+1. `sync` — scheduled cross-machine Git sync: its ownership and direction.
+2. `stocktake` — the queue and query stocktake and its blind review.
+3. `views` — the Observatory's views, diagrams and design: what it shows and how.
+4. `aside` — anything outside the others.
