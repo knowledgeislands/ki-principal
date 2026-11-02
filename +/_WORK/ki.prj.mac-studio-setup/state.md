@@ -6,7 +6,7 @@ since: 2026-10-30T02:04:00Z
 received: 2026-10-30T01:40:00Z
 beat: null
 mark: 2026-10-20T01:10:00Z
-method_read: df3f5503
+method_read: b3c631c2
 ---
 
 # ki.prj.mac-studio-setup state

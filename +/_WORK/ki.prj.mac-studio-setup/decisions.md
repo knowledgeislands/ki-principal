@@ -245,3 +245,5 @@ ORCA-EVAL from State of play: ki.prj.orca-evaluation now exists, so ORCA-HANDOVE
 ## 2026-10-30 02:04 GMT - orca-handover received
 
 orca-handover received: trial log updated with plan069's Orca outcome and moved to ki.prj.orca-evaluation `design/orca-trial.md`, ORCA-HANDOVER sent as a line in its messages.md (`d38088a3`). ORCA-HANDOVER line removed; this package's trial log, plan069.report.md, report and brief pruned. HOOK-STASH (medium: does lint-staged's transient backup stash breach the briefs' no-stash rule?) is a cross-cutting delegation-rule question, not this Project's, and touches every commit through ki-principal's hook, this coordinator's included; returned once to State of play's messages.md for its owner.
+
+- HANDOVER-HOUSEHOLD (Kris, 1 November, relayed by ki.prj.ways-of-working): Mac Studio setup hands over to the household works; write a handover note, message personal.reg.rig-terra (becoming personal.reg.household-terra), then hold pending close-out. Taken 2 November 15:25 GMT after Kris asked "I think this was wrapped up or moved - was it?"; handover run launched; it replaces the stock-take, which never ran.
