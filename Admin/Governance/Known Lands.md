@@ -25,6 +25,7 @@ Each island owns its accepted knowledge or executable behaviour within the share
 
 | Repository | Role | Owned concern |
 | --- | --- | --- |
+| [apps-agora.local][apps-agora.local] | Product | Always-on meeting place for territories on each rig |
 | [apps-knowledgeislands.info][apps-knowledgeislands.info] | Publication | Public source-labelled website |
 | [apps-observatory.local][apps-observatory.local] | Product | Repository and knowledge reader |
 | [homebrew-tap][homebrew-tap] | Delivery | Homebrew distribution |
@@ -110,6 +111,8 @@ Public entries use canonical repository identities. The local registry owns mach
 KI and mgit derive repository selection from the Capital's ordered territorial roster; `-t knowledge-islands` selects this territory, `--estate` selects the registered estate and `-f` narrows either scope by literal, case-sensitive repository directory-name prefixes. Paperclip company bindings support coordination. They cannot automatically add or remove members, grant source access or confer acceptance authority. An inconsistent declaration is a finding for the accountable owners to reconcile.
 
 Membership and ownership changes follow the territory's Enactment Process and the affected repository's authority. A source repository remains a member until a separately verified consolidation and owner-approved retirement disposition changes this inventory.
+
+[apps-agora.local]: https://github.com/knowledgeislands/apps-agora.local
 
 [apps-knowledgeislands.info]: https://github.com/knowledgeislands/apps-knowledgeislands.info
 [apps-observatory.local]: https://github.com/knowledgeislands/apps-observatory.local
