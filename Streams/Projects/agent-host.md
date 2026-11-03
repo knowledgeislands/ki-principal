@@ -17,7 +17,7 @@ author: Written with Claude
 
 Move agent work into the Techne footprint on an agent host, one of the two hosts the [Techne Programme Focus](<../../Admin/Governance/Policies/Techne Programme Focus.md>) keeps in scope. Agent hosts are harness-defined recipes that a person binds into named instances, and the prototype review kept the host.
 
-This Project sits in [Techne](../Themes/techne.md). It and [baseline-rollout](baseline-rollout.md) do not gate each other.
+This Project sits in [Techne](../Themes/techne.md). It and [baseline-rollout](baseline-rollout.md) do not gate each other. [Agora](agora.md), the host agent on every rig, realises much of a host's always-on presence and is a separate, related Project.
 
 [Hosts, Roles and Layers](<../../Pillars/Engineering Practice/Architecture/Hosts, Roles and Layers.md>) explains how a host is built in layers and which role `vega` plays.
 

@@ -32,6 +32,12 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ---
 
+## Agora
+
+[agora](agora.md) runs Agora on each rig, the always-on place where territories meet: presence, messages between rigs, level checkouts, run-once jobs and woken workers. It relates to agent-host rather than folding into it.
+
+---
+
 ## Baseline rollout
 
 [baseline-rollout](baseline-rollout.md) gets every Knowledge Islands repository to the solid baseline: a green `ki repo audit --estate` with the released `ki` installed everywhere.
