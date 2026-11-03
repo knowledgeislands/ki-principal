@@ -193,3 +193,4 @@
 - Orca restarted about 22:12 GMT; the detached runs survived; the watcher is re-armed.
 - DOWNLOADS-RETIRED (IMPORTANT, assistant-terra for Kris about 22:45 GMT): taken; no State of play brief, card or run names a Downloads path; packs for Kris go to `sources-knowledge-islands/-/` in a dated sub-folder from now on. The same line sits in tools-burndown and chezmoi for their own threads.
 - GRANOLA-MOVE-LANDED (assistant-terra, tools-ki `e4fbd81c`, `d85feb4a`): the harness property ask goes to run granola-property; granola-follow narrowed to the CI test fix.
+- AGORA-PROJECT (IMPORTANT, Kris about 12:30 GMT via assistant-sol): taken; run agora-project registers ki.prj.agora on hold for Kris to open. GRANOLA-HARNESS: already in hand by granola-property.
