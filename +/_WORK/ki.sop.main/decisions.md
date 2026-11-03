@@ -202,3 +202,4 @@
 ## 2026-11-03 · MARK (Kris, 23:05 GMT)
 
 - Read back as taken: "Can you take a mark, to give me a summary, and then give me a status table." Mark struck at 2026-11-03T23:15:26Z; spent briefs and received review reports pruned; the how-we-work design note, method-intake plan and handover-intake findings kept while their work is live.
+- MARK-STATUS (Kris about 23:25 GMT, via assistant-terra): "when we take a mark, yes, we should do a summary, and also the summary should include the status table." Taken; run mark-status builds it in ki-coordination, open STATUS-FORM points kept at their recommended options until answered.
