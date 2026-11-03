@@ -197,3 +197,4 @@
 - granola-property received (harness `b8083b2d`): GRANOLA-HARNESS done; `capture_moves` accepted and described.
 - agora-project received (`46a6ddb4`): ki.prj.agora on hold, related to ki.prj.agent-host; FOCUS-FIT (medium) copied to discussions and sent to blind review.
 - review-focus-fit received: the reviewer chose the same course; FOCUS-FIT lifted to high.
+- AGORA-TAKEN (ki.prj.agora, 23:00 GMT): relayed to personal.sop.main for assistant-sol; FOCUS-FIT handed to ki.prj.agora.
