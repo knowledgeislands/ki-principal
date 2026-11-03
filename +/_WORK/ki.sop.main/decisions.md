@@ -186,3 +186,5 @@
 - HOW-WE-WORK (IMPORTANT), STATUS-FORM 1 to 3, URGENT-HANDOFF, ROUTE-UP, VALUES-UP-FRONT: one design run, which returns a design note and queries; kept in the queue until it reports.
 - Received and pruned: amend-race, assistant-publish, assistant-replies, board-skill, route-misc reports.
 - conform-bun received (harness `63916202`): CONFORM-P1 done, assistant-sol told; Paperclip declarations left for PAPERCLIP-RETIRE.
+- review-fold-untracked received: CHEZMOI-FOLD a) lifted to high; UNTRACKED-REPORTS recast to the reviewer's keep-for-now view.
+- how-we-work received (`03a3fbc7`): design note at aside/how-we-work.design.md; nine queries copied to discussions; those below high go to one blind review.
