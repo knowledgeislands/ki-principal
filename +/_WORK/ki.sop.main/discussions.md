@@ -354,6 +354,20 @@ a) (recommended, confidence high - it is Kris's own wording in the request that 
 
 b) `⇄  syncing <host>` and `⇏  not syncing <host>`.
 
+### FOCUS-FIT - Whether Agora waking workers fits the Techne focus
+
+**Context:** The [Techne Programme Focus](/Users/krisbrown/kis/knowledge-islands/ki-principal/Admin/Governance/Policies/Techne%20Programme%20Focus.md) lets agents run on the Mac Studio and `vega` only in sessions the binding owner opens, with no unattended or scheduled agents. Agora is filed under theme Techne. It can wake workers itself: it can start a fresh background run (`ki agent launch`) from a standing brief when a message arrives. The policy strictly governs only the two Techne products, and Agora lives in neither, but it runs on the Mac Studio. This question is also seeded as the FOCUS-FIT line in the new package. It has not been through a blind review.
+
+**Query:** Should Agora starting runs on its own on the Mac Studio, and later `vega`, count as inside the Focus, or does it need an Enactment decision first?
+
+**Options:**
+
+a) (recommended, confidence medium - waking a thread Kris already opened stays within "sessions the binding owner opens", while starting a new run from a standing brief is the unattended case the Focus keeps as an idea) Treat waking threads and live runs Kris opened as inside the Focus. Treat Agora starting new runs from standing briefs on the Mac Studio or `vega` as needing Kris's Enactment decision, raised in the Project's first Summary.
+
+b) Treat Agora as outside the Focus altogether, because it lives in its own repository, and record that on the Project note.
+
+c) Bring Agora inside the Focus explicitly by amending the policy through the Enactment Process now.
+
 ## Parked
 
 ### ACCEPT-CHEZMOI - accept the chezmoi latest-source record
