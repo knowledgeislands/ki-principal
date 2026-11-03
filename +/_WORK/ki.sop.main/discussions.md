@@ -192,6 +192,18 @@ b) Move it into chezmoi as a personal maintenance script.
 
 c) Delete it and leave the Adobe clean-up to an at-screen session, relying on Git history.
 
+### GITCONFIG-AUTOSTASH - Turn off rebase autostash in your own Git configuration
+
+**Context:** Your chezmoi-managed Git configuration (`dot_gitconfig`, line 62) sets `rebase.autoStash = true` with `pull.rebase = true`, so a plain `git pull` in a busy shared checkout silently stashes every uncommitted change, other sessions' included. That caused the 3 November conflict in the assistant repository. The harness now flags the setting (`ki-git` HYGIENE-3, harness `ec5d7bd8`). chezmoi belongs to the household threads since 1 November.
+
+**Query:** Should the chezmoi source stop turning on rebase autostash?
+
+**Options:**
+
+a) (recommended, confidence high - it caused the 3 November conflict and your never-stash rule of 1 November forbids it) State of play sends a line to personal.reg.household-sol to remove `autoStash = true` from `dot_gitconfig`, review `chezmoi diff` and apply it on both Macs; `pull.rebase` stays.
+
+b) Keep the setting and rely on every session overriding it on each pull.
+
 ## Parked
 
 ### ACCEPT-CHEZMOI - accept the chezmoi latest-source record
