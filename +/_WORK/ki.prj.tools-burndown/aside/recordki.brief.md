@@ -1,6 +1,6 @@
 # recordki brief
 
-In /Users/krisbrown/workspaces/knowledge-islands/tools-ki, record these dispositions, applied on 20 October under the owner's HIGH-APPLY and TO-DONE authority after a blind review, in each record's Discussion, dated, without changing status except where said:
+In /Users/krisbrown/kis/knowledge-islands/tools-ki, record these dispositions, applied on 20 October under the owner's HIGH-APPLY and TO-DONE authority after a blind review, in each record's Discussion, dated, without changing status except where said:
 
 1. KI-TOOL-KI-CLI-165 (HOOK-LOCAL): repository-specific hook lines live in a marked local block the host keeps verbatim after the claimed lines, once KI-HARNESS-GOV-225's claims contract recognises it; unmarked, unattributed content is still refused; a local block never excuses a missing mandatory shape check. Note the reviewer's alternative, a committed local companion hook called from the managed frame, for the design.
 2. KI-TOOL-KI-CLI-151 (CLI-OUTPUT): split. Move audit and conform progress to standard error after inventorying consumers; replace --format with --json only alongside an agreed consumer migration (apps-observatory.local packages/evidence/src/ki.ts:343 calls --format); no alias without owner authority; keep --format where a command genuinely offers several formats.

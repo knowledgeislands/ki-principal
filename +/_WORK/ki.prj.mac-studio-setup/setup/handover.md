@@ -87,7 +87,7 @@ These lines stay in this package's [messages.md](/Users/krisbrown/kis/knowledge-
 | File | Verdict | Who takes it |
 | --- | --- | --- |
 | [design.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/setup/design.md) | settled; goes with the package at close-out | Nobody |
-| [handover.brief.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/setup/handover.brief.md) | settled once this note is received | Nobody |
+| [handover.brief.md (pruned)](https://github.com/knowledgeislands/ki-principal/blob/8a3b024d/+/_WORK/ki.prj.mac-studio-setup/setup/handover.brief.md) | settled once this note is received | Nobody |
 | [rig-intake.report.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/setup/rig-intake.report.md) | live until RIG-INTAKE is answered | tools-rig owner |
 
 ## Pruned records cited

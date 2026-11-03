@@ -19,7 +19,7 @@ created_at: 2026-10-30T01:42:30Z
 
 ## Goals
 
-- Deliver the [Orca evaluation](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/orca-evaluation.md) Project's outcome.
+- Deliver the [Orca evaluation](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/orca-evaluation.md) Project's outcome.
 - Build the island's knowledge of Orca as the evaluation goes, homed durably rather than left in run reports.
 - Keep Knowledge Islands the durable layer and let Orca do what it does best as the live layer.
 

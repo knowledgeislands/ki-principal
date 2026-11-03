@@ -1,4 +1,4 @@
-# [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-answers
+# [Model](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-answers
 
 **🤖 → 👤 Handoff to supervisor · Run report at 08:07 BST · last mark 20:20 BST**
 
@@ -6,26 +6,26 @@
 
 ## Done
 
-The Observatory roadmap now has the two-way bridge and the Git view. Three records cover it, and each waits on [KI-OBSERVA-APP-042](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-042-design-tokens-and-glyphs.md):
+The Observatory roadmap now has the two-way bridge and the Git view. Three records cover it, and each waits on [KI-OBSERVA-APP-042](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-042-design-tokens-and-glyphs.md):
 
-- [KI-OBSERVA-VIS-041](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-041-git-view-replaces-repositories.md) "Git view replaces Repositories" is new, in triage. Every Repositories capability, governed operation and `?view=repositories` address is listed and carries over. Some things stay out until they are decided separately: commit and bulk writes, the `askClaude` commit suggestion, and opening the repository in VS Code or GitHub Desktop.
-- [KI-OBSERVA-INT-004](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-INT-004-outbound-live-artifact-adapter.md) "Outbound live-artifact adapter" is new, in triage. It takes Observatory views out to Claude Desktop, read-only. The Git view is the first view it carries.
-- [KI-OBSERVA-INT-003](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-INT-003-extensions-switchboard.md) is revised and retitled "Inbound live-artifact adapter". The switchboard stays inside it, side by side, and keeps its file name.
+- [KI-OBSERVA-VIS-041](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-041-git-view-replaces-repositories.md) "Git view replaces Repositories" is new, in triage. Every Repositories capability, governed operation and `?view=repositories` address is listed and carries over. Some things stay out until they are decided separately: commit and bulk writes, the `askClaude` commit suggestion, and opening the repository in VS Code or GitHub Desktop.
+- [KI-OBSERVA-INT-004](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-INT-004-outbound-live-artifact-adapter.md) "Outbound live-artifact adapter" is new, in triage. It takes Observatory views out to Claude Desktop, read-only. The Git view is the first view it carries.
+- [KI-OBSERVA-INT-003](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-INT-003-extensions-switchboard.md) is revised and retitled "Inbound live-artifact adapter". The switchboard stays inside it, side by side, and keeps its file name.
 
 Each medium-and-up answer is written into the record that owns it:
 
-- [KI-OBSERVA-APP-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md): DESIGN-RESTRUCTURE, DESIGN-AUTOMATION, DESIGN-ACT-NAME and DESIGN-NARROW, plus a note that the Git view replaces Repositories.
-- [KI-OBSERVA-BRG-003](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-003-governed-act-presentation.md): DESIGN-ACT-MARK and DESIGN-ACT-NAME.
+- [KI-OBSERVA-APP-044](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md): DESIGN-RESTRUCTURE, DESIGN-AUTOMATION, DESIGN-ACT-NAME and DESIGN-NARROW, plus a note that the Git view replaces Repositories.
+- [KI-OBSERVA-BRG-003](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-003-governed-act-presentation.md): DESIGN-ACT-MARK and DESIGN-ACT-NAME.
 - KI-OBSERVA-INT-003: DESIGN-SWITCH.
-- [KI-OBSERVA-VIS-030](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md): DESIGN-POSITIONS and DESIGN-CAPITAL.
-- [KI-OBSERVA-VIS-039](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-039-decisions-as-council.md): DESIGN-CAPITAL.
-- [KI-OBSERVA-VIS-032](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-032-library-instrument.md): DESIGN-LIBRARY-SEARCH.
-- [KI-OBSERVA-OPS-004](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-OPS-004-tailnet-read-only-appearance.md): DESIGN-TAILNET-BRIDGE.
-- [KI-OBSERVA-VIS-038](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-038-machine-instrument.md): where `?view=automation` lands.
+- [KI-OBSERVA-VIS-030](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md): DESIGN-POSITIONS and DESIGN-CAPITAL.
+- [KI-OBSERVA-VIS-039](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-039-decisions-as-council.md): DESIGN-CAPITAL.
+- [KI-OBSERVA-VIS-032](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-032-library-instrument.md): DESIGN-LIBRARY-SEARCH.
+- [KI-OBSERVA-OPS-004](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-OPS-004-tailnet-read-only-appearance.md): DESIGN-TAILNET-BRIDGE.
+- [KI-OBSERVA-VIS-038](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-038-machine-instrument.md): where `?view=automation` lands.
 
-DESIGN-WORK-GLYPHS was already recorded in KI-OBSERVA-APP-042. [KI-OBSERVA-VIS-022](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-022-judge-overdue-against-each-job-schedule.md) is retitled "Overdue against job schedules". Nothing was adopted, and no record changed state.
+DESIGN-WORK-GLYPHS was already recorded in KI-OBSERVA-APP-042. [KI-OBSERVA-VIS-022](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-022-judge-overdue-against-each-job-schedule.md) is retitled "Overdue against job schedules". Nothing was adopted, and no record changed state.
 
-The [design note](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/design/live-artifacts.md) is reworked around the two-way bridge. Its worked case now has Kit Git Repo Audit becoming the Git view, with the full carry-over listed and the 18 October reading kept for the record. The Mermaid block is untouched. Under it I added the pending line: the diagram predates EXT-MODEL and the bridge is not drawn until DIAGRAM-STANDARD is settled. There was no pending line before, so I read "with its pending line" as an instruction to add one.
+The [design note](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.observatory/design/live-artifacts.md) is reworked around the two-way bridge. Its worked case now has Kit Git Repo Audit becoming the Git view, with the full carry-over listed and the 18 October reading kept for the record. The Mermaid block is untouched. Under it I added the pending line: the diagram predates EXT-MODEL and the bridge is not drawn until DIAGRAM-STANDARD is settled. There was no pending line before, so I read "with its pending line" as an instruction to add one.
 
 Commits and checks:
 
@@ -53,7 +53,7 @@ Nothing is running. Two relay lines are not sent, both stopped as the brief says
 
 **OVERDUE-TITLE-HOME**
 
-**Context:** OVERDUE-TITLE is not in the ki.ways-of-working work file. It sits in the territory work file, [ki/work.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/work.md), line 46. The brief made the line depend on the ways-of-working file holding it, so I wrote nothing.
+**Context:** OVERDUE-TITLE is not in the ki.ways-of-working work file. It sits in the territory work file, [ki/work.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki/work.md), line 46. The brief made the line depend on the ways-of-working file holding it, so I wrote nothing.
 
 **Query:** Should the "resolved by the KI-OBSERVA-VIS-022 retitle" line go to the territory work file instead?
 

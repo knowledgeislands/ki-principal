@@ -7,8 +7,8 @@ beat: null
 mark: 2026-11-03T03:11:02Z
 method_read: df3f5503
 hold:
-  reason: coordination moved to ki.sop.main
-  release: when ki.sop.main takes up this Project's coordination, or resume
+  reason: paused
+  release: when Kris opens this Project work, or resume; coordination runs through ki.sop.main from 3 November
 ---
 
 # ki.prj.observatory state

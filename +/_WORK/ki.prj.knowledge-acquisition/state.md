@@ -12,7 +12,7 @@ method_read: d493a78b
 
 ## Now
 
-- Finished on Kris's KA-FINISH word of 20 October: the [Knowledge acquisition](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/knowledge-acquisition.md) Project is completed with its close-out assessment, every decision is homed and `design/` is resolved. Nothing is running.
+- Finished on Kris's KA-FINISH word of 20 October: the [Knowledge acquisition](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/knowledge-acquisition.md) Project is completed with its close-out assessment, every decision is homed and `design/` is resolved. Nothing is running.
 
 ## Next steps
 

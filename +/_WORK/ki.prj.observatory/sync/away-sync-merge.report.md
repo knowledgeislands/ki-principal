@@ -1,4 +1,4 @@
-# [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › away-sync-merge
+# [Model](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › away-sync-merge
 
 **🤖 → 👤 Handoff to supervisor · Run report at 01:43 GMT · last mark 01:04 GMT**
 
@@ -6,7 +6,7 @@
 
 ## Done
 
-- Committed the completed [merged artefact](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.observatory/sync/observatory-sync-report.md) as `f067d3f80fc032a23b569005b9d2a4517578e160`; only that path was committed, with the actual model's co-author trailer.
+- Committed the completed [merged artefact](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.observatory/sync/observatory-sync-report.md) as `f067d3f80fc032a23b569005b9d2a4517578e160`; only that path was committed, with the actual model's co-author trailer.
 - Normal pre-commit and commit-message hooks passed; serialised Git write window and committed-path inspection passed; peer changes were left untouched.
 - All 25 source hashes matched; committed brief and both independent reviews remained unchanged.
 - Exact owner-quotation predicates, all local links, template sections, two-choice limit, readable table widths and Markdown checks passed.

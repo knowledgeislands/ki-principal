@@ -1,4 +1,4 @@
-# [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-va-conform
+# [Model](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-va-conform
 
 **🤖 → 👤 Handoff to supervisor · Run report at 08:59 BST · blocked**
 

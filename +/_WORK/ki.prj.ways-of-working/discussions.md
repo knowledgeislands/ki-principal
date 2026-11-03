@@ -1,10 +1,10 @@
-# ki.prj.ways-of-working queries
+# ki.prj.ways-of-working discussions
 
 ## Open
 
 None; all open points parked on 3 November 2026 at DRAIN-TO-SOP, for ki.sop.main to take up.
 
-## Answered
+**Answered, kept for reference:**
 
 - LAYOUT-SHAPE, LAYOUT-GROUP-TIDY - answered by Kris's focus-area layout (PILOT-ON-PILLARS, 2 November 2026).
 - DRYRUN-FORCE - a (2 November 2026, via assistant-terra).
@@ -32,9 +32,9 @@ None; all open points parked on 3 November 2026 at DRAIN-TO-SOP, for ki.sop.main
 
 ## Parked
 
-### Parked 3 November 2026 at DRAIN-TO-SOP
+Parked on 3 November 2026 at DRAIN-TO-SOP.
 
-### AGENDA
+**Agenda:**
 
 Ordered for the next pass; refreshed on 1 November after the HNR and Orca blind reviews. Each decision bundle takes every part's recommended option unless you pick a part out.
 
@@ -1336,17 +1336,17 @@ b) Leave them in `reports/` until Z-FILES is answered.
 
 since 2026-11-02 · from run/granola-transport · blind review 2 November agrees
 
-**Context**
+**Context:**
 
 The importer only captures a meeting's screenshots when two numbers agree. One is the screenshot count in Granola's meeting list. The other is the number of screenshots named in the meeting's detail. Granola's list no longer has a `screenshot_count` field, so the importer reads it as 0 and withholds every meeting that has screenshots. The list now has an `attachment_count` field instead, and it counts more than screenshots. For 28 October it shows 26, 25 and 12, while the details name 20, 20 and 12 screenshots. Granola's own description says attachments include photos the user attached, as well as shared-screen screenshots. Simply reading the new field would still withhold two of the three meetings. This changes the importer's safety check, which is a judgement call and beyond this transport brief, so I have not changed it.
 
 The blind review agrees with a), adding that the run must first check the attachment tool returns the complete list (every page) with a clear type for each attachment, must never treat an untyped attachment as a screenshot, and must keep withholding any meeting whose inventory is incomplete or ambiguous.
 
-**Query**
+**Query:**
 
 How should the importer check screenshots now that Granola only gives a total attachment count?
 
-**Options**
+**Options:**
 
 a) (recommended, confidence high - reviewed; this keeps a real cross-check against Granola's own inventory and still withholds on any true mismatch) Treat the full attachment list from Granola's attachment tool as the reference. Check that the screenshots plus photos it returns add up to `attachment_count`, and capture the screenshots. This would be a bounded tools-ki run with tests.
 

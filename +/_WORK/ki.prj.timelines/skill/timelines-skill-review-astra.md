@@ -171,17 +171,17 @@ Proceed to merge the reviews with the shared model and one-skill direction intac
 [legal-guide]: </Users/krisbrown/workspaces/legal/legal-principal/Pillars/Command Centre/Command Centre Guide.md>
 [legal-timeline]: </Users/krisbrown/workspaces/legal/legal-principal/Pillars/Command Centre/Working Notes/XM-CRITICAL-TIMELINE - Critical Timeline and Preparation Checklist/FR Timeline to FDR.md>
 [vehicle]: </Users/krisbrown/workspaces/personal/personal-principal/Pillars/Home/Vehicles/YP62 LNY Silver Range Rover Evoque.md>
-[diagrams]: </Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-diagrams/SKILL.md>
-[live-artifacts]: </Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/repo-structure/ki-repo-kb-live-artifacts/SKILL.md>
-[observatory]: </Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/README.md>
-[google-readme]: </Users/krisbrown/workspaces/knowledge-islands/mcp-gsuite/README.md>
-[microsoft-readme]: </Users/krisbrown/workspaces/knowledge-islands/mcp-m365/README.md>
-[google-tools]: </Users/krisbrown/workspaces/knowledge-islands/mcp-gsuite/src/tools/calendar/index.ts>
-[google-handlers]: </Users/krisbrown/workspaces/knowledge-islands/mcp-gsuite/src/main/calendar/index.ts>
-[microsoft-tools]: </Users/krisbrown/workspaces/knowledge-islands/mcp-m365/src/tools/calendar/index.ts>
-[microsoft-create]: </Users/krisbrown/workspaces/knowledge-islands/mcp-m365/src/main/calendar/create.ts>
-[availability]: </Users/krisbrown/workspaces/knowledge-islands/mcp-m365/docs/guides/user/calendar-availability.md>
-[naming]: </Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/decisions/ADR-KI-HARNESS-SKILLS-003-dependency-order-for-multi-skill-composition.md>
+[diagrams]: </Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-diagrams/SKILL.md>
+[live-artifacts]: </Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/repo-structure/ki-repo-kb-live-artifacts/SKILL.md>
+[observatory]: </Users/krisbrown/kis/knowledge-islands/apps-observatory.local/README.md>
+[google-readme]: </Users/krisbrown/kis/knowledge-islands/mcp-gsuite/README.md>
+[microsoft-readme]: </Users/krisbrown/kis/knowledge-islands/mcp-m365/README.md>
+[google-tools]: </Users/krisbrown/kis/knowledge-islands/mcp-gsuite/src/tools/calendar/index.ts>
+[google-handlers]: </Users/krisbrown/kis/knowledge-islands/mcp-gsuite/src/main/calendar/index.ts>
+[microsoft-tools]: </Users/krisbrown/kis/knowledge-islands/mcp-m365/src/tools/calendar/index.ts>
+[microsoft-create]: </Users/krisbrown/kis/knowledge-islands/mcp-m365/src/main/calendar/create.ts>
+[availability]: </Users/krisbrown/kis/knowledge-islands/mcp-m365/docs/guides/user/calendar-availability.md>
+[naming]: </Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/docs/decisions/ADR-KI-HARNESS-SKILLS-003-dependency-order-for-multi-skill-composition.md>
 [harness-record]: <https://github.com/knowledgeislands/ki-agentic-harness/blob/ae8a1323ab167cf9ba559e5a1046c1ab98a6a81b/docs/roadmap/KI-HARNESS-GOV-222-timeline-and-calendar-skill.md>
 [personal-instructions]: </Users/krisbrown/.codex/AGENTS.md>
 [design-standard]: </Users/krisbrown/.agents/skills/ki-work-design/references/standards-work-design.md>

@@ -1,6 +1,6 @@
 # Orca preferences declaration and checker (ORCA-PREFS)
 
-Written by run `w-U13` on Saturday 31 October 2026, during the unattended window AWAY-31-OCT, for unit U13 of [the window plan](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/window-31-oct/plan.md). Design only: nothing is built, rendered or applied, and nothing writes to Orca.
+Written by run `w-U13` on Saturday 31 October 2026, during the unattended window AWAY-31-OCT, for unit U13 of [the window plan](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/window-31-oct/plan.md). Design only: nothing is built, rendered or applied, and nothing writes to Orca.
 
 ## The ask
 
@@ -15,7 +15,7 @@ Two things are wanted: a dotfiles declaration of Orca preferences split into sha
 - The terra survey, personal-principal `+/_WORK/personal.reg.rig-terra/orca-config.report.md` at `c71ac2b1` (finding ORCA-CONFIG), Orca 1.4.245. It found the settings in a live SQLite profile database mixed with machine state and credential-related fields, no supported settings export or settings CLI, and recommended a small reviewed allowlist with the database left unmanaged.
 - A read-only, copy-free inspection of sol's profile on 31 October at about 03:20 GMT, Orca 1.4.244. It opened `~/Library/Application Support/orca/profiles/local-default/profile-state.db` through SQLite's `immutable=1` read-only URI, which takes no locks and never touches the `-wal` or `-shm` sidecars, and read only table definitions, document names and revisions, and the top-level key names and JSON types of the `settings` and `ui` documents. No value was read, nothing was copied, and terra was not contacted.
 - [PERSONAL-DOTFILES-UE-107](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-107-decide-orca-adoption.md), Decide Orca adoption, still a draft, which holds the open permission, trust and per-pane questions.
-- ORCA-SETTINGS-READ in [ki.prj.orca-evaluation's messages](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.orca-evaluation/messages.md), which asks Orca for a supported read-only settings export.
+- ORCA-SETTINGS-READ in [ki.prj.orca-evaluation's messages](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.orca-evaluation/messages.md), which asks Orca for a supported read-only settings export.
 - The chezmoi [runtime-mutated configuration guide](/Users/krisbrown/.local/share/chezmoi/docs/guides/agents/config-patterns.md), which keys per-machine data by `rigProfile` (`laptop` is terra, `studio` is sol) rather than hostname, and [`.chezmoidata/codexbar.yaml`](/Users/krisbrown/.local/share/chezmoi/.chezmoidata/codexbar.yaml), an existing preference declaration for an app-owned file.
 - RIG-OWNS-CONFIG (line 9 of this package's messages): Rig declares application configuration intent, and dotfiles are one way of delivering it.
 

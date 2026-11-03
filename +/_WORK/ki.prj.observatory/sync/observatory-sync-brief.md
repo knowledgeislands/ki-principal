@@ -81,21 +81,21 @@ The coordinator may commission these two reviews later under a new bounded instr
 
 ### S1
 
-- [messages.md](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.observatory/messages.md>) - local SHA-256 `6ab369f349512695049ed686fb5a07a6150d292011b49b9c0a70eff87b05ec0d`.
+- [messages.md](</Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.observatory/messages.md>) - local SHA-256 `6ab369f349512695049ed686fb5a07a6150d292011b49b9c0a70eff87b05ec0d`.
 
 ### S2
 
-- [AGENTS.md](</Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/AGENTS.md>) - local SHA-256 `94544f33c77faae22dc0805c09243d03288a9e1a19e7df7408e0cacdddf33487`.
-- [PDR-KI-OBSERVA-001-observatory-beacon-and-bridge.md](</Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/decisions/PDR-KI-OBSERVA-001-observatory-beacon-and-bridge.md>) - local SHA-256 `449d78307f5e43989846bc5612889e1afee4beb173e1ddf2fac5bcf6690bf318`.
+- [AGENTS.md](</Users/krisbrown/kis/knowledge-islands/apps-observatory.local/AGENTS.md>) - local SHA-256 `94544f33c77faae22dc0805c09243d03288a9e1a19e7df7408e0cacdddf33487`.
+- [PDR-KI-OBSERVA-001-observatory-beacon-and-bridge.md](</Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/decisions/PDR-KI-OBSERVA-001-observatory-beacon-and-bridge.md>) - local SHA-256 `449d78307f5e43989846bc5612889e1afee4beb173e1ddf2fac5bcf6690bf318`.
 
 ### S3
 
-- [work.md](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.observatory/work.md>) - local SHA-256 `75ebe0e72c9a7936e06b7f686932a4ee3206effd037514af7f4d35e2f4e485f2`.
-- [decisions.md](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.observatory/decisions.md>) - local SHA-256 `baf2f345c6ffeda5d43b4e11eb37195574f00c7d3488353fb0e6c832e663de8c`.
+- [work.md](</Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.observatory/work.md>) - local SHA-256 `75ebe0e72c9a7936e06b7f686932a4ee3206effd037514af7f4d35e2f4e485f2`.
+- [decisions.md](</Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.observatory/decisions.md>) - local SHA-256 `baf2f345c6ffeda5d43b4e11eb37195574f00c7d3488353fb0e6c832e663de8c`.
 
 ### S4
 
-- [messages.md](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/messages.md>) - local SHA-256 `6f5d99a8a55fa2a515df98004c13eabec4da9d902a4985a24f4d643cb160360e`.
+- [messages.md](</Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/messages.md>) - local SHA-256 `6f5d99a8a55fa2a515df98004c13eabec4da9d902a4985a24f4d643cb160360e`.
 
 ### S5
 
@@ -112,13 +112,13 @@ The coordinator may commission these two reviews later under a new bounded instr
 
 ### S8
 
-- [README.md](</Users/krisbrown/workspaces/knowledge-islands/tools-mgit/README.md>) - local SHA-256 `8f0168bcf43f98e9a9f9b4d5ed9ff202d241e781e13a6713c24fe8a414b1681e`.
-- [mgit](</Users/krisbrown/workspaces/knowledge-islands/tools-mgit/bin/mgit>) - local SHA-256 `4b47d996a0c01bea787734a0e9c40e5f24ebf3c04dea85addf6be9c6cdeadf2c`.
-- [KI-TOOL-MGIT-CLI-032-chain-command.md](</Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-032-chain-command.md>) - local SHA-256 `6023a96310ce2ea629bff488abf4e94de761382060dc19abd18010f429f019f9`.
+- [README.md](</Users/krisbrown/kis/knowledge-islands/tools-mgit/README.md>) - local SHA-256 `8f0168bcf43f98e9a9f9b4d5ed9ff202d241e781e13a6713c24fe8a414b1681e`.
+- [mgit](</Users/krisbrown/kis/knowledge-islands/tools-mgit/bin/mgit>) - local SHA-256 `4b47d996a0c01bea787734a0e9c40e5f24ebf3c04dea85addf6be9c6cdeadf2c`.
+- [KI-TOOL-MGIT-CLI-032-chain-command.md](</Users/krisbrown/kis/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-032-chain-command.md>) - local SHA-256 `6023a96310ce2ea629bff488abf4e94de761382060dc19abd18010f429f019f9`.
 
 ### S9
 
-- [messages.md](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.tools-burndown/messages.md>) - local SHA-256 `c5cb6b6adb7687d6cf05011aa91cc53bb848999efa6739e1dcaa0b2253ebe321`.
+- [messages.md](</Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.tools-burndown/messages.md>) - local SHA-256 `c5cb6b6adb7687d6cf05011aa91cc53bb848999efa6739e1dcaa0b2253ebe321`.
 
 ### S10
 
@@ -126,8 +126,8 @@ The coordinator may commission these two reviews later under a new bounded instr
 
 ### S11
 
-- [automation.ts](</Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/packages/evidence/src/automation.ts>) - local SHA-256 `9ddd4e3797353aad1d3d229aabb4944291b79bca33037aac1cfd711c593d5f1c`.
-- [automation.ts](</Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/packages/contracts/src/automation.ts>) - local SHA-256 `3ada15394cb7ea6b7384e4802eb4156f285bc56379edccd1c22b7fea5208a690`.
+- [automation.ts](</Users/krisbrown/kis/knowledge-islands/apps-observatory.local/packages/evidence/src/automation.ts>) - local SHA-256 `9ddd4e3797353aad1d3d229aabb4944291b79bca33037aac1cfd711c593d5f1c`.
+- [automation.ts](</Users/krisbrown/kis/knowledge-islands/apps-observatory.local/packages/contracts/src/automation.ts>) - local SHA-256 `3ada15394cb7ea6b7384e4802eb4156f285bc56379edccd1c22b7fea5208a690`.
 
 ### S12
 
@@ -136,12 +136,12 @@ The coordinator may commission these two reviews later under a new bounded instr
 ### S13
 
 - [standards-background-runs.md](</Users/krisbrown/.agents/skills/ki-delegation/references/standards-background-runs.md>) - local SHA-256 `fed72c93a9a07bc3f43f19e8e3a8ed158014532300ed4327ea88d65bac362979`.
-- [standards-git.md](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/.agents/skills/ki-git/references/standards-git.md>) - local SHA-256 `782bfa33005f8106d753d1099d60f7d7da6fe4d4a10db33939100cfeb3a4e032`.
+- [standards-git.md](</Users/krisbrown/kis/knowledge-islands/ki-principal/.agents/skills/ki-git/references/standards-git.md>) - local SHA-256 `782bfa33005f8106d753d1099d60f7d7da6fe4d4a10db33939100cfeb3a4e032`.
 
 ### Method and additional review evidence
 
 - [standards-work-design.md](</Users/krisbrown/.agents/skills/ki-work-design/references/standards-work-design.md>) - local SHA-256 `0947f3f0eae6d582853f476741953b95b4e1365479477adfcd6f855c93b25aeb`.
 - [brief.md](</Users/krisbrown/.agents/skills/ki-work-design/assets/brief.md>) - local SHA-256 `472547813cf377f60aa49142d237d09419c74434911e0862d2af7d6d7fcbd9fe`.
 - [review.md](</Users/krisbrown/.agents/skills/ki-work-design/assets/review.md>) - local SHA-256 `a318078b2930271674e0452ca0ef83e0392b749e16c94daacb4120b95e31b14e`.
-- [automation.test.ts](</Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/packages/evidence/src/automation.test.ts>) - local SHA-256 `5f98bdd75ffff5605ef77e4abe3e90743a69c916901ddb8b37b502267dcf8def`.
-- [automation.test.ts](</Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/packages/contracts/src/automation.test.ts>) - local SHA-256 `a55e9c39c81e9a712b41347f5a18564a565b4e4f5221952d0f52138975ac9bfd`.
+- [automation.test.ts](</Users/krisbrown/kis/knowledge-islands/apps-observatory.local/packages/evidence/src/automation.test.ts>) - local SHA-256 `5f98bdd75ffff5605ef77e4abe3e90743a69c916901ddb8b37b502267dcf8def`.
+- [automation.test.ts](</Users/krisbrown/kis/knowledge-islands/apps-observatory.local/packages/contracts/src/automation.test.ts>) - local SHA-256 `a55e9c39c81e9a712b41347f5a18564a565b4e4f5221952d0f52138975ac9bfd`.

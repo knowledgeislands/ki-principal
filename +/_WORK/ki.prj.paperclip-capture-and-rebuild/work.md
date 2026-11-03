@@ -18,7 +18,7 @@ created_at: 2026-10-18T03:30:38Z
 
 ## Goals
 
-- Deliver the [Paperclip capture and rebuild](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/paperclip-capture-and-rebuild.md) Project's outcome.
+- Deliver the [Paperclip capture and rebuild](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/paperclip-capture-and-rebuild.md) Project's outcome.
 
 ## Scope
 

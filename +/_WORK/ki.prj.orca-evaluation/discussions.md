@@ -4,7 +4,9 @@
 
 None; all parked on hand-over to the assistants, 2 November.
 
-## Parked (handed to personal.reg.assistant-terra)
+## Parked
+
+Handed to personal.reg.assistant-terra on 2 November 2026 and carried by it.
 
 ### SCOPE-SPLIT - Draw the line between this Project and Ways of working, and hand over the method questions
 

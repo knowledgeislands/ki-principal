@@ -1,4 +1,4 @@
-# [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-pies
+# [Model](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-pies
 
 **🤖 → 👤 Handoff to supervisor · Run report at 12:16 BST**
 

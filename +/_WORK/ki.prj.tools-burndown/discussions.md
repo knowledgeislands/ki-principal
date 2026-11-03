@@ -2,13 +2,9 @@
 
 ## Open
 
-No open queries.
-
-## Parked
-
 ### HELD-ROADMAP-KNIP - Knip commits stacked on the held roadmap commits
 
-focus: aside · since 2026-10-29 · from estpush2.report.md · parked: the package is on hold; release: when the package resumes
+focus: aside · since 2026-10-29 · from estpush2.report.md · moved back to Open at the release of 3 November
 
 **Context:** In 5g-emerge-apex, 5g-emerge-demos, 5g-emerge-testbed and apps-vallearmonia.com, the Knip commit sits on estmig-org's hook commit and other sessions' unpushed roadmap commits. These are the same stacks estpush held under HELD-ROADMAP.
 
@@ -35,3 +31,7 @@ a) (recommended, confidence high - there is no go-ahead, and it widens the publi
 b) Capture it at triage now, marked as waiting for Kit's go-ahead.
 
 - focus: aside · SRC-PLACEMENT - where KI-TOOL-KI-CLI-139's SharePoint mirror command sits. Recommended a) (medium, reviewer view): a separately specified source-maintenance command group in `ki`.
+
+## Parked
+
+None.

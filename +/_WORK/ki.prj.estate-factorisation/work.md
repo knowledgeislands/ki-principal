@@ -19,7 +19,7 @@ created_at: 2026-10-08T08:35:00Z
 
 ## Goals
 
-- Deliver the [Estate factorisation](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/estate-factorisation.md) Project's outcome.
+- Deliver the [Estate factorisation](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/estate-factorisation.md) Project's outcome.
 
 ## Scope
 

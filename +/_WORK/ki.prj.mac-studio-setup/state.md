@@ -2,9 +2,8 @@
 id: ki.prj.mac-studio-setup
 state: on-hold
 hold:
-  reason: coordination moved to ki.sop.main
-  release: when ki.sop.main takes up or closes out this work
-  since: 2026-11-03T03:10:53Z
+  reason: paused
+  release: when Kris opens this Project work, or ki.sop.main closes it out; coordination runs through ki.sop.main from 3 November
 since: 2026-11-03T03:10:53Z
 received: 2026-10-30T01:40:00Z
 beat: null
@@ -16,16 +15,10 @@ method_read: b3c631c2
 
 ## Now
 
-- On hold since 03:10 GMT on 3 November: Kris moved all work to be coordinated through State of play (ki.sop.main). Nothing running. Five queries parked; the retained Rig lines stay in `messages.md` for ki.sop.main to route once TOOLS-RIG-LANE is answered. Handover to the household works done on 2 November ([setup/handover.md](setup/handover.md)).
-- 2 November 15:35 GMT: handover run received. Handover note [setup/handover.md](setup/handover.md); sol items to personal.reg.household-sol and terra items to personal.reg.household-terra (chezmoi source). Seven settled queries cleared. TOOLS-RIG-LANE (review agreed) and MGIT-PRESEED (review disagreed) with Kris; once TOOLS-RIG-LANE is answered, the retained Rig lines go to the lane's holder and this work goes on hold pending close-out, the retained Rig lines going to whichever work takes the tools-rig lane.
-- Re-bootstrapped on sol at 23:20 GMT on 31 October from session badb4224 as coordinator; not listening (Kris has not asked). GUIDE-FIELD and RIG-RETIRE-ONE folded into the new RIG-ASKS query.
-- Orca trial evidence handed to ki.prj.orca-evaluation.
-- Re-bootstrapped on sol at 01:39 GMT on 30 October as coordinator; dispatch through `ki agent`, run `ki-prj-mac-studio-setup` (KI-AGENT-DISPATCH), ending the Orca dispatch trial after one unit.
-- Nothing running. RIG-INTAKE (high, reviewed) and RIG-069-PROBE with Kris.
-- plan069 received: KI-TOOL-RIG-CORE-069 at draft, waiting on RIG-069-PROBE at sol's screen.
-- tools-rig is level with origin. Open: KI-TOOL-RIG-CORE-047 (in progress, waiting on terra), KI-TOOL-RIG-CORE-068 (draft, size m), KI-TOOL-RIG-CORE-069 (draft, size s, probe needed) and KI-TOOL-RIG-CORE-070 (awaiting review).
-- Method read at `df3f5503` (31 October REFRESH lines taken).
-- Lane: tools-rig and the agent-host hold cluster.
+- On hold (paused) since 3 November, 03:10 GMT; coordination taken up by State of play (ki.sop.main) under SOLE-THREAD. Nothing running.
+- Site work handed to personal.reg.household-sol and personal.reg.household-terra on 2 November ([setup/handover.md](setup/handover.md)); both acknowledged.
+- Eight queries parked in [discussions](discussions.md), TOOLS-RIG-LANE first; the retained Rig lines in [messages](messages.md) wait for whoever takes the tools-rig lane.
+- Lane: tools-rig and the agent-host hold cluster; open records [KI-TOOL-RIG-CORE-047](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md), [KI-TOOL-RIG-CORE-068](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md), [KI-TOOL-RIG-CORE-069](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md), [KI-TOOL-RIG-CORE-070](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-070-handler-read-back-after-confirmation.md). Method read at `b3c631c2`.
 
 ## Next steps
 

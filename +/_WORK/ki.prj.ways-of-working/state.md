@@ -9,7 +9,6 @@ method_read: b3c631c2
 listening_enabled: true
 listening_status: off
 syncing_enabled: false
-syncing_status: off
 hold:
   reason: paused
   release: when Kris opens this Project work again; coordination now runs through ki.sop.main

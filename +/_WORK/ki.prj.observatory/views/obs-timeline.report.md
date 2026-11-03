@@ -1,4 +1,4 @@
-# [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-timeline
+# [Model](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-timeline
 
 **🤖 → 👤 Handoff to supervisor · Run report at 08:49 BST**
 
@@ -6,7 +6,7 @@
 
 ## Done
 
-- Captured [KI-HARNESS-GOV-222](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-222-timeline-and-calendar-skill.md) as a triage record. It quotes Kris's DIAGRAM-GANTT words, names the candidates `ki-calendars`, `ki-timelines` and `ki-key-dates` under ADR-KI-HARNESS-SKILLS-003, names legal-principal (the `FR Timeline to FDR` gantt), personal-principal and 5G Emerge as first adopters, and leaves where subscriptions are homed as an open question. Priority and size are left for the harness to set.
+- Captured [KI-HARNESS-GOV-222](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-222-timeline-and-calendar-skill.md) as a triage record. It quotes Kris's DIAGRAM-GANTT words, names the candidates `ki-calendars`, `ki-timelines` and `ki-key-dates` under ADR-KI-HARNESS-SKILLS-003, names legal-principal (the `FR Timeline to FDR` gantt), personal-principal and 5G Emerge as first adopters, and leaves where subscriptions are homed as an open question. Priority and size are left for the harness to set.
 - Commits `3149690f` (reserves the number in the ledger) and `7ed13f9c` (the record) were pushed fast-forward to `origin/main`. Only my own commits were pushed.
 - Roadmap audit: no failures, after I fixed my ledger edit. The 19 warnings are all from the fleet-wide migration window asking each record to declare a size. One of them is about the new record, because its size is left unset on purpose.
 - Component survey (read-only, nothing changed): it lives in `apps/site` of 5g-emerge-phase3. Dates are kept in one data registry, `src/_data/calendars.json5`, which holds six calendars. Each entry has a permanent id and a date at day, month or year precision, plus a kind, how firm the date is, and its sources. No date is ever invented.

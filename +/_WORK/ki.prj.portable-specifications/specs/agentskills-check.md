@@ -24,7 +24,7 @@ The `main` branch was read without the GitHub API, so no commit is pinned; each 
 | `skills-ref` README | <https://github.com/agentskills/agentskills/tree/main/skills-ref> | - |
 | Validator, `skills_ref/validator.py` | <https://github.com/agentskills/agentskills/blob/main/skills-ref/src/skills_ref/validator.py> | `b5ee3d8537c83c959c31c2cb080a5227646ede5aea545f1ac835ed3c4645f6c5` |
 | Parser, `skills_ref/parser.py` | <https://github.com/agentskills/agentskills/blob/main/skills-ref/src/skills_ref/parser.py> | `9a74c9a90eb217b82bec27570332eab74547acfbee2973c0a8bcd23f6c7bc211` |
-| Harness reference | `ki-agentic-harness` at `2ec94edc`, [`standards-agent-skills.md`](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/keystone/ki-skills/references/standards-agent-skills.md), last changed `3c48876f` (15 September); its source list marks SPEC and `skills-ref` last reviewed 2026-09-26 | - |
+| Harness reference | `ki-agentic-harness` at `2ec94edc`, [`standards-agent-skills.md`](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/keystone/ki-skills/references/standards-agent-skills.md), last changed `3c48876f` (15 September); its source list marks SPEC and `skills-ref` last reviewed 2026-09-26 | - |
 
 The specification page links one repository, `agentskills/agentskills`, from its Validation section: "Use the [skills-ref](https://github.com/agentskills/agentskills/tree/main/skills-ref) reference library to validate your skills". The `skills-ref` README says: "This library is intended for demonstration purposes only. It is not meant to be used in production."
 
@@ -102,7 +102,7 @@ A sufficient attribution line for each draft and each published page: "Structure
 
 ## Drift from the harness reference
 
-Compared with [`standards-agent-skills.md`](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/keystone/ki-skills/references/standards-agent-skills.md). The exact numbers in its §14 (64, 1,024, 1-500, under 500 lines, under 5,000 tokens, about 100 tokens) and its layout, `name`, `description`, disclosure and file-reference rules all match the live page. The drift:
+Compared with [`standards-agent-skills.md`](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/keystone/ki-skills/references/standards-agent-skills.md). The exact numbers in its §14 (64, 1,024, 1-500, under 500 lines, under 5,000 tokens, about 100 tokens) and its layout, `name`, `description`, disclosure and file-reference rules all match the live page. The drift:
 
 | # | Local reference | Live | Weight |
 | --- | --- | --- | --- |

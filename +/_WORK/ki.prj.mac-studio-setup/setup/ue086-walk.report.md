@@ -1,4 +1,4 @@
-# [Rig](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Initiatives/rig.md) › [Mac Studio bootstrap](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/mac-studio-setup/mac-studio-setup.md) › ue086-walk
+# [Rig](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Initiatives/rig.md) › [Mac Studio bootstrap](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/mac-studio-setup/mac-studio-setup.md) › ue086-walk
 
 **Run report at 22:22 BST · last mark 17:47 BST**
 
@@ -67,7 +67,7 @@ Then apply only the settings file:
 chezmoi apply ~/.claude/settings.json
 ```
 
-**The sshd script:** a full `chezmoi apply` runs it. It is connection-critical, so do **not** run a full apply as part of this step. Follow **KEYONLY-APPLY** in the [`ssh-keyonly` run report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/mac-studio-setup/ssh-keyonly.report.md) instead: keep a second SSH login open from terra, and use its tested restore path.
+**The sshd script:** a full `chezmoi apply` runs it. It is connection-critical, so do **not** run a full apply as part of this step. Follow **KEYONLY-APPLY** in the [`ssh-keyonly` run report](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_THREADS/mac-studio-setup/ssh-keyonly.report.md) instead: keep a second SSH login open from terra, and use its tested restore path.
 
 **Tidy-up:** once you are happy that `ssh sol` and `ssh terra` work from the other Mac, delete the leftover backup with `rm ~/.ssh/config.pre-ue088`. It is identical to the live file.
 
@@ -256,7 +256,7 @@ brew uninstall --cask actual moom jordanbaird-ice@beta
 
 #### Step 11 (C7i) - Adobe
 
-Follow the [`adobe-script` run report](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_THREADS/mac-studio-setup/adobe-script.report.md) and its script, [adobe-remove.sh](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/mac-studio-setup/adobe-remove.sh), now in the Project folder. That report supersedes the Adobe steps in the `adobe-sweep` and `sol-remove` reports.
+Follow the [`adobe-script` run report](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_THREADS/mac-studio-setup/adobe-script.report.md) and its script, [adobe-remove.sh](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/mac-studio-setup/adobe-remove.sh), now in the Project folder. That report supersedes the Adobe steps in the `adobe-sweep` and `sol-remove` reports.
 
 #### Step 12 (C9) - Final check
 

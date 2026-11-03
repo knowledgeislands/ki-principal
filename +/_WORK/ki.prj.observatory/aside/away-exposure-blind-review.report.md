@@ -1,4 +1,4 @@
-# [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › away-exposure-blind-review
+# [Model](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › away-exposure-blind-review
 
 **🤖 → 👤 Handoff to supervisor · Run report at 02:26 GMT · last mark 01:04 GMT**
 
@@ -12,7 +12,7 @@ Local ancestry check passed: the supplied selected tip, `ac4a5477317339be67bf2fa
 
 Configuration check passed: parsed Git blobs at HEAD, the selected tip and `origin/main` declare public visibility; this checks declared configuration, not live provider access.
 
-Standing confidentiality check passed: the exact local-data clause was verified in [Observatory AGENTS.md](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/AGENTS.md:12).
+Standing confidentiality check passed: the exact local-data clause was verified in [Observatory AGENTS.md](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/AGENTS.md:12).
 
 Inbox read in full: confidentiality, history preservation and blind-review masking were applied; bookkeeping, link repairs, metadata receipts and dispatch instructions concern other units. The procedural notice instruction concerns the audience-assessment unit and does not override this review's explicit ban on messaging and tracked edits; no notice was sent or claimed.
 

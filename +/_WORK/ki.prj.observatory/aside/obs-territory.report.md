@@ -1,4 +1,4 @@
-# [KI](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/work.md) › [Observatory](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/work.md) › obs-territory
+# [KI](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.observatory/work.md) › [Observatory](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.observatory/work.md) › obs-territory
 
 **🤖 → 👤 Handoff to supervisor · Run report at 08:17 BST · last mark 08:17 BST · blocked**
 

@@ -20,7 +20,7 @@ created_at: 2026-10-08T08:35:00Z
 
 ## Goals
 
-- Deliver the [Knowledge acquisition](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/knowledge-acquisition.md) Project's outcome.
+- Deliver the [Knowledge acquisition](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/knowledge-acquisition.md) Project's outcome.
 - Develop the acquisition method through conversational exchange and faithful intake, then return to ordinary intake and distribution once the approach settles.
 - One common `ki-acquire` contract, thin provider skills and a single `CAPTURE.md` entry, with intake receipts, capture packages, routing context and technical acquisition state kept distinct, each with one owner.
 - Verify new source bytes directly where available and reuse existing captures; never reopen completed source imports.

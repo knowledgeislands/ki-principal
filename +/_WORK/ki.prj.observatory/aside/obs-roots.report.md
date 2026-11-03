@@ -1,4 +1,4 @@
-# [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-roots
+# [Model](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-roots
 
 **🤖 → 👤 Handoff to supervisor · Run report at 07:50 BST**
 
@@ -7,7 +7,7 @@
 ## Done
 
 - [KB-PRINCIPAL-044](</Users/krisbrown/workspaces/personal/personal-principal/Streams/Roadmap/KB-PRINCIPAL-044-reground-git-audit-artifact.md>) captured in personal-principal as a non-blocking triage handoff. It covers replacing the `~/workspaces/hnr` and `~/workspaces/kit` `ROOT_DEFS` with a `~/workspaces` root, moving the pair under one stem to `Admin/Operations/Live Artifacts/` with a manifest, re-saving it into Cowork, and the optional Conventional Commit suggestion. It is marked as the interim until EXT-MODEL subsumes the artifact. Evidence named: the artifact HTML's `ROOT_DEFS` (lines 201-205), the recipe note, the Live Artifacts index and the chezmoi safe roots. Commits `ff650150` (ledger reservation) and `60f03eb0` (record). Lint clean; the kb-streams audit shows no finding on the new record (7 warnings were already there, on other records). **Not pushed** (see the PUSH-PERSONAL query).
-- [KI-MCP-GIT-FND-006](</Users/krisbrown/workspaces/knowledge-islands/mcp-git-audit/docs/roadmap/KI-MCP-GIT-FND-006-ground-roots-in-workspaces.md>) captured in mcp-git-audit as a non-blocking triage handoff. It changes the unset default safe root from `~` to `~/workspaces` and moves the examples and guides from `~/dev` to the `~/workspaces/<territory>/<repository>` layout. Evidence named: `src/config/index.ts:92`, `.env.example`, `claude-config-sample.json` and the four guides. I also read the chezmoi `mcp-servers.yaml` entry, without changing it; it lists one root per territory plus `_external` and chezmoi. Commits `f32866a` (ledger reservation) and `16047c6` (record). Lint clean; the ki-work-roadmap audit passed. Pushed fast-forward to origin.
+- [KI-MCP-GIT-FND-006](</Users/krisbrown/kis/knowledge-islands/mcp-git-audit/docs/roadmap/KI-MCP-GIT-FND-006-ground-roots-in-workspaces.md>) captured in mcp-git-audit as a non-blocking triage handoff. It changes the unset default safe root from `~` to `~/workspaces` and moves the examples and guides from `~/dev` to the `~/workspaces/<territory>/<repository>` layout. Evidence named: `src/config/index.ts:92`, `.env.example`, `claude-config-sample.json` and the four guides. I also read the chezmoi `mcp-servers.yaml` entry, without changing it; it lists one root per territory plus `_external` and chezmoi. Commits `f32866a` (ledger reservation) and `16047c6` (record). Lint clean; the ki-work-roadmap audit passed. Pushed fast-forward to origin.
 
 ## In Progress
 

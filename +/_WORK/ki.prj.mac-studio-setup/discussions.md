@@ -84,7 +84,7 @@ c) Honour the IMPORTANT footprint ask now: bring KI-TOOL-RIG-CORE-072 back from 
 
 Parked at the 2026-10-20 hold (take stock on ways of working; put back one at a time when Kris says resume):
 
-- **`PLAN068-VERIFY-GRANT`** - [KI-TOOL-RIG-CORE-068](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md): `apply --sudo` takes no grant and runs no root read when the firewall looks present, so a NordVPN-replaced root ruleset would never be checked. Recommended (high): count a selected `macos-pf` firewall as work for an explicit `--sudo`, and update RIG-ORCH-043, the ADR and the guide.
+- **`PLAN068-VERIFY-GRANT`** - [KI-TOOL-RIG-CORE-068](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md): `apply --sudo` takes no grant and runs no root read when the firewall looks present, so a NordVPN-replaced root ruleset would never be checked. Recommended (high): count a selected `macos-pf` firewall as work for an explicit `--sudo`, and update RIG-ORCH-043, the ADR and the guide.
 - **`PLAN068-UNPRIV`** - KI-TOOL-RIG-CORE-068: what doctor reports without privilege. Recommended (medium, blind review not yet run): keep `present` with `kernel-rules-unverified`, and say plainly that it never means the rules are evaluated.
 - **`PLAN068-READY`** - KI-TOOL-RIG-CORE-068 is planned and still in draft. Recommended (medium, blind review not yet run): approve Ready, with `ki-implement` gated on Kris's attended NordVPN check (steps 2 to 4 matching, results pasted into the record).
 

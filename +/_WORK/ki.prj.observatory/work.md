@@ -20,7 +20,7 @@ created_at: 2026-10-13T23:50:00Z
 
 ## Goals
 
-- Deliver the [Observatory](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/observatory.md) Project's outcome.
+- Deliver the [Observatory](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/observatory.md) Project's outcome.
 - Lose nothing: overlaps stay side by side until Kris approves a consolidation (PUSH-ALL).
 - Converge the Observatory on the design system step by step, each step with Kris's go (DESIGN-APPLY).
 - Replace every Mermaid diagram Archify can carry, the original kept collapsed until Kris signs off, and flag the rest to Kris (NO-MERMAID, DIAGRAM-REPLACE).

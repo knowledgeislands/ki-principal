@@ -18,8 +18,8 @@ created_at: 2026-10-18T03:30:38Z
 
 ## Goals
 
-- Run the territory's [regular work](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Work Process/Work Process.md#levels-and-forms-of-work>) as the Work Process defines it.
-- Run each occurrence the Capital's [Activity notes](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Operations/Activities/Activities.md) define, sending work items down to the repository that executes them.
+- Run the territory's [regular work](</Users/krisbrown/kis/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Work Process/Work Process.md#levels-and-forms-of-work>) as the Work Process defines it.
+- Run each occurrence the Capital's [Activity notes](/Users/krisbrown/kis/knowledge-islands/ki-principal/Admin/Operations/Activities/Activities.md) define, sending work items down to the repository that executes them.
 
 ## Scope
 

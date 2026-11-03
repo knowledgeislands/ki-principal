@@ -1,4 +1,4 @@
-# [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-extensions
+# [Model](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-extensions
 
 **🤖 → 👤 Handoff to supervisor · Run report at 20:33 BST · last mark 20:20 BST**
 
@@ -6,7 +6,7 @@
 
 ## Done
 
-- I rewrote [live-artifacts.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/design/live-artifacts.md) in place as an extension model. Each live artifact stays owned by its repository and declares which Instrument it extends. The model has five parts: three optional manifest keys; Extended by links from the Instrument, with back-links over the MCP Apps wire; the Observatory's design tokens handed over at start, so an artifact looks native in the frame and keeps its own look in Cowork; three tiers of data access (portable, its own server, provider or inference); and a table of what runs on the Observatory, in Cowork or on a published site.
+- I rewrote [live-artifacts.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.observatory/design/live-artifacts.md) in place as an extension model. Each live artifact stays owned by its repository and declares which Instrument it extends. The model has five parts: three optional manifest keys; Extended by links from the Instrument, with back-links over the MCP Apps wire; the Observatory's design tokens handed over at start, so an artifact looks native in the frame and keeps its own look in Cowork; three tiers of data access (portable, its own server, provider or inference); and a table of what runs on the Observatory, in Cowork or on a published site.
 - Built-in views: an Instrument stays as the floor and the richer artifact becomes the preferred surface. The Instrument keeps the Beacon signals, the degraded behaviour and the receipted operations, and it links to the artifact rather than growing to match it.
 - Kit Git Repo Audit against Repositories is the worked case, and Kit Git Repo Audit is kept. I checked its stale roots directly: the page's `ROOT_DEFS` still scans `~/workspaces/hnr` and `~/workspaces/kit`, which no longer exist. The `mcp-git-audit` safe roots in chezmoi already list all eight territories, so the fix belongs to `personal-principal` alone.
 - I re-sorted all 15 artifacts and both sites into six orders, plus a no-action list, and redrew the Mermaid diagram. The note gives three forks, each with two alternatives and their costs: how an artifact reaches its own server, what an Instrument does beside a richer artifact, and where an artifact registers.

@@ -20,7 +20,7 @@ created_at: 2026-10-19T10:04:02Z
 
 ## Goals
 
-- Deliver the [Baseline rollout](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/baseline-rollout.md) Project's outcome across humans-not-robots, legal, personal, equal-remedy, valle-armonia and techmedix.
+- Deliver the [Baseline rollout](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/baseline-rollout.md) Project's outcome across humans-not-robots, legal, personal, equal-remedy, valle-armonia and techmedix.
 - Each territory's Capital keeps ownership: act in its repositories only on Kris's explicit authority, repository by repository, and route through ki-trades once trades reopen.
 
 ## Scope

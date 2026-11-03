@@ -20,7 +20,7 @@ created_at: 2026-10-08T08:45:00Z
 
 ## Goals
 
-- Deliver the [Mac Studio setup](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/mac-studio-setup.md) Project's outcome.
+- Deliver the [Mac Studio setup](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/mac-studio-setup.md) Project's outcome.
 - Burn down the tools-rig records in the order Kris agrees, closing delivered records through Kris's acceptance at the screen.
 - Keep sol and terra level, raising each difference as a record in its owning repository.
 - Take Kris through at-screen steps and decisions one at a time, each with a recommendation and its reason.

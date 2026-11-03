@@ -20,7 +20,7 @@ created_at: 2026-10-16T00:05:00Z
 
 ## Goals
 
-- Deliver the [Tools burndown](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/tools-burndown.md) Project's outcome.
+- Deliver the [Tools burndown](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/tools-burndown.md) Project's outcome.
 - Run the single tools-ki writer for every in-scope record, the owning works keeping priority and acceptance input (OWNER-LANE).
 - Cut a `ki.sop.main` or `mgit` release, or delete a remote branch, only after Kris approves it.
 

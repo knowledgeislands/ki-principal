@@ -20,7 +20,7 @@ created_at: 2026-10-08T08:40:00Z
 
 ## Goals
 
-- Deliver the [chezmoi](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/chezmoi.md) Project's outcome.
+- Deliver the [chezmoi](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/chezmoi.md) Project's outcome.
 - Keep the chezmoi source and the live targets on terra and sol level, with no apply made before Kris has reviewed its `chezmoi diff` and approved it.
 - Bring tool configuration that other work hands over, such as mgit's learnt templates and completions, into the source for Kris's review.
 

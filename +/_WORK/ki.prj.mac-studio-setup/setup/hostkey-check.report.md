@@ -1,4 +1,4 @@
-# [Rig](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Initiatives/rig.md) › [Mac Studio bootstrap](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/mac-studio-setup/mac-studio-setup.md) › hostkey-check
+# [Rig](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Initiatives/rig.md) › [Mac Studio bootstrap](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/mac-studio-setup/mac-studio-setup.md) › hostkey-check
 
 **Run report at 10:51 BST · last mark 17:47 BST**
 

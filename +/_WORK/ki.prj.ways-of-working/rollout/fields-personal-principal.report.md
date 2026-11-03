@@ -1,4 +1,4 @@
-# [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Ways of working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md) › fields-personal-principal
+# [Model](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Ways of working](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md) › fields-personal-principal
 
 **🤖 → 👤 Handoff to supervisor · Run report at 14:13 BST · last mark 13:37 BST**
 
@@ -51,7 +51,7 @@ These records were left unchanged: [KB-PRINCIPAL-002 (pruned)](https://github.co
 
 ### Kind and size proposals (not written)
 
-These cover the 34 open records; the cancelled [KB-PRINCIPAL-042 (pruned)](https://github.com/krisb/personal-principal/blob/6bc6eae29801ac4a20ff9db6f093785590b5a59a/Streams/Roadmap/KB-PRINCIPAL-042-create-personal-activities-collection.md) is exempt. `kind` is required only once a record is adopted, so on a triage record the proposed kind is the one to set at adoption. Size uses [GDR-KI-PRINCIPAL-016](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-016-priority-and-size-on-work-records.md)'s delivery shapes: `s` is one run and one commit, `m` one run with several commits and a plan, and `l` several chained runs or repositories.
+These cover the 34 open records; the cancelled [KB-PRINCIPAL-042 (pruned)](https://github.com/krisb/personal-principal/blob/6bc6eae29801ac4a20ff9db6f093785590b5a59a/Streams/Roadmap/KB-PRINCIPAL-042-create-personal-activities-collection.md) is exempt. `kind` is required only once a record is adopted, so on a triage record the proposed kind is the one to set at adoption. Size uses [GDR-KI-PRINCIPAL-016](/Users/krisbrown/kis/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-016-priority-and-size-on-work-records.md)'s delivery shapes: `s` is one run and one commit, `m` one run with several commits and a plan, and `l` several chained runs or repositories.
 
 | Record | State | Kind | Size |
 | --- | --- | --- | --- |
@@ -136,7 +136,7 @@ c) Adopt all 22 again at once through `ki-next`, each with a horizon chosen afre
 
 ### PRINCIPAL-KIND-SIZE - Confirming the proposed kind and size
 
-**Context:** The table above proposes a kind for the 6 adopted records that lack one, a kind for each of the 26 triage records to set at adoption, and a size for 33 records. [GDR-KI-PRINCIPAL-016](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-016-priority-and-size-on-work-records.md) makes these the owner's judgement. Until the `ki` release that accepts the fields, a writer leaves out any field the installed `ki` rejects. The harness already accepts `size`, as [KB-PRINCIPAL-045 (pruned)](https://github.com/krisb/personal-principal/blob/8f33dbb7cb00afda9b4abd186de15721bf02c37a/Streams/Roadmap/KB-PRINCIPAL-045-redraw-mermaid-diagrams-in-archify.md) shows.
+**Context:** The table above proposes a kind for the 6 adopted records that lack one, a kind for each of the 26 triage records to set at adoption, and a size for 33 records. [GDR-KI-PRINCIPAL-016](/Users/krisbrown/kis/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-016-priority-and-size-on-work-records.md) makes these the owner's judgement. Until the `ki` release that accepts the fields, a writer leaves out any field the installed `ki` rejects. The harness already accepts `size`, as [KB-PRINCIPAL-045 (pruned)](https://github.com/krisb/personal-principal/blob/8f33dbb7cb00afda9b4abd186de15721bf02c37a/Streams/Roadmap/KB-PRINCIPAL-045-redraw-mermaid-diagrams-in-archify.md) shows.
 
 **Query:** Do you confirm the proposals, with any changes, so that a follow-up run can write them?
 

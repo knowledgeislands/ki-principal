@@ -1,4 +1,4 @@
-# [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-design-plan
+# [Model](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-design-plan
 
 **🤖 → 👤 Handoff to supervisor · Run report at 21:10 BST · last mark 20:20 BST**
 
@@ -10,33 +10,33 @@ The ki-design handoff is now planned in the Observatory roadmap as 18 records, a
 
 Step 1, tokens and glyphs:
 
-1. [KI-OBSERVA-APP-042](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-042-design-tokens-and-glyphs.md) Design tokens and glyphs. Next, draft, fully shaped. It takes the colours and type from ki-design instead of ki-website, adds 14 px glyphs to the tabs and Beacon subjects, and updates the tab-width model in the same change. It waits for your Ready decision.
+1. [KI-OBSERVA-APP-042](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-042-design-tokens-and-glyphs.md) Design tokens and glyphs. Next, draft, fully shaped. It takes the colours and type from ki-design instead of ki-website, adds 14 px glyphs to the tabs and Beacon subjects, and updates the tab-width model in the same change. It waits for your Ready decision.
 
 Step 2, shell polish:
 
-2. [KI-OBSERVA-APP-043](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-043-shell-polish-without-regrouping.md) Shell polish without regrouping. Soon. Adds the Observatory mark, the way in on the status line, the five pane states, the filter-not-scope chip, and the four jobs as an optional lens over the tabs. Blocked by step 1.
+2. [KI-OBSERVA-APP-043](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-043-shell-polish-without-regrouping.md) Shell polish without regrouping. Soon. Adds the Observatory mark, the way in on the status line, the five pane states, the filter-not-scope chip, and the four jobs as an optional lens over the tabs. Blocked by step 1.
 
 Step 3, per-tab upgrades, each independent:
 
-3. [KI-OBSERVA-BCN-008](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BCN-008-beacon-signal-anatomy.md) Beacon signal anatomy. Soon. Adds reef and lantern glyphs, kind, condition, freshness and "new", and filters on them, at no cost in rows. Blocked by step 1.
-4. [KI-OBSERVA-VIS-030](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md) Known Lands chart. Soon. A new sixteenth tab beside the existing ones; read-only flat hex chart. Blocked by step 1.
-5. [KI-OBSERVA-BRG-003](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-003-governed-act-presentation.md) Governed Act presentation. Soon. Redraws the existing Repositories and Rig plan, confirm and receipt steps as declare, confirm, receipt, with the boundary edge and the word "governed". What each operation does stays the same.
-6. [KI-OBSERVA-VIS-031](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-031-who-is-working.md) Who is working. Soon. Agent runs and commit authors appear in a column in the existing tables.
-7. [KI-OBSERVA-OPS-004](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-OPS-004-tailnet-read-only-appearance.md) Tailnet read-only appearance. Triage. Covers only the app's side; it waits for unit 4 and Host network.
-8. [KI-OBSERVA-INT-003](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-INT-003-extensions-switchboard.md) Extensions switchboard. Triage. Kept side by side with the live-artifact extension model, and follows EXT-MODEL.
+3. [KI-OBSERVA-BCN-008](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BCN-008-beacon-signal-anatomy.md) Beacon signal anatomy. Soon. Adds reef and lantern glyphs, kind, condition, freshness and "new", and filters on them, at no cost in rows. Blocked by step 1.
+4. [KI-OBSERVA-VIS-030](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md) Known Lands chart. Soon. A new sixteenth tab beside the existing ones; read-only flat hex chart. Blocked by step 1.
+5. [KI-OBSERVA-BRG-003](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-003-governed-act-presentation.md) Governed Act presentation. Soon. Redraws the existing Repositories and Rig plan, confirm and receipt steps as declare, confirm, receipt, with the boundary edge and the word "governed". What each operation does stays the same.
+6. [KI-OBSERVA-VIS-031](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-031-who-is-working.md) Who is working. Soon. Agent runs and commit authors appear in a column in the existing tables.
+7. [KI-OBSERVA-OPS-004](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-OPS-004-tailnet-read-only-appearance.md) Tailnet read-only appearance. Triage. Covers only the app's side; it waits for unit 4 and Host network.
+8. [KI-OBSERVA-INT-003](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-INT-003-extensions-switchboard.md) Extensions switchboard. Triage. Kept side by side with the live-artifact extension model, and follows EXT-MODEL.
 
 Step 4, converge. All are triage, and each says you approve that one consolidation before it starts:
 
-9. [KI-OBSERVA-APP-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md) Instrument restructure decision. Whether to converge at all, the job switch, the redirect table and the order.
-10. [KI-OBSERVA-VIS-032](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-032-library-instrument.md) Library: Knowledge Bases and Documents.
-11. [KI-OBSERVA-VIS-033](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-033-waiting-for-you.md) Waiting for you: the review queue and Work's "with you" view.
-12. [KI-OBSERVA-VIS-034](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-034-streams-instrument.md) Streams: Roadmap and Work.
-13. [KI-OBSERVA-VIS-035](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-035-trade-routes-as-layer.md) Trade routes as a layer on Known Lands.
-14. [KI-OBSERVA-VIS-036](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-036-activity-split.md) Activity split: "what changed" to the Beacon, and its time window to Known Lands.
-15. [KI-OBSERVA-VIS-037](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-037-workers-instrument.md) Workers: Sessions and Automation runs.
-16. [KI-OBSERVA-VIS-038](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-038-machine-instrument.md) Machine: Rig, MCP and Automation schedules.
-17. [KI-OBSERVA-VIS-039](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-039-decisions-as-council.md) Decisions renamed Council.
-18. [KI-OBSERVA-VIS-040](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-040-extensions-instrument.md) Artifacts renamed Extensions.
+9. [KI-OBSERVA-APP-044](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md) Instrument restructure decision. Whether to converge at all, the job switch, the redirect table and the order.
+10. [KI-OBSERVA-VIS-032](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-032-library-instrument.md) Library: Knowledge Bases and Documents.
+11. [KI-OBSERVA-VIS-033](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-033-waiting-for-you.md) Waiting for you: the review queue and Work's "with you" view.
+12. [KI-OBSERVA-VIS-034](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-034-streams-instrument.md) Streams: Roadmap and Work.
+13. [KI-OBSERVA-VIS-035](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-035-trade-routes-as-layer.md) Trade routes as a layer on Known Lands.
+14. [KI-OBSERVA-VIS-036](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-036-activity-split.md) Activity split: "what changed" to the Beacon, and its time window to Known Lands.
+15. [KI-OBSERVA-VIS-037](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-037-workers-instrument.md) Workers: Sessions and Automation runs.
+16. [KI-OBSERVA-VIS-038](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-038-machine-instrument.md) Machine: Rig, MCP and Automation schedules.
+17. [KI-OBSERVA-VIS-039](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-039-decisions-as-council.md) Decisions renamed Council.
+18. [KI-OBSERVA-VIS-040](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-040-extensions-instrument.md) Artifacts renamed Extensions.
 
 Two notes on the shape:
 
@@ -57,7 +57,7 @@ Commits and checks:
 1. Row and type scale. The boards use 31 px rows of 14/20 text, 20/26 titles and 44/38/38/26 px bands. The app uses 25 px rows of 13/16 text and 19/24 titles. The app's scale stands, and the density test decides.
 2. Frame gutter. The boards use 16 px wide and 8 px narrow; the app uses 24 px and 12 px. The app's values stand.
 3. Tab glyph size. The instruction says 14 px and the spec's §2 says 16 px. The plan uses 14 px, so the design should settle on one.
-4. Tab glyphs are named for the ten future instruments, not today's fifteen tabs. [KI-OBSERVA-APP-042](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-042-design-tokens-and-glyphs.md) proposes one glyph for each existing tab.
+4. Tab glyphs are named for the ten future instruments, not today's fifteen tabs. [KI-OBSERVA-APP-042](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-042-design-tokens-and-glyphs.md) proposes one glyph for each existing tab.
 5. Subject glyphs by name prefix (`tools-*`, `mcp-*`, `apps-*`). The app reads `ki` data rather than guessing a repository's kind from its name, and no `ki` data states the kind. So it draws the generic `island` glyph until a contract says the kind; that gap is for `ki` to close.
 6. "No emoji". The Work tab prints the ki-pmo banner glyphs (🤖 🧑 👤 ⏸️ 🏁) exactly as the standard writes them. Carried as a query.
 7. The handoff names PDR-KI-OBSERVA-007 for the visual changes, but 007 is already taken (feedback). The next free number is 008.
@@ -77,7 +77,7 @@ Nothing is running. Step 1 is ready to build once you approve it.
 
 **DESIGN-READY**
 
-**Context:** [KI-OBSERVA-APP-042](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-042-design-tokens-and-glyphs.md) is fully shaped. The roadmap rules need your explicit approval before a record becomes Ready, and DESIGN-APPLY said you see the plan before any build.
+**Context:** [KI-OBSERVA-APP-042](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-042-design-tokens-and-glyphs.md) is fully shaped. The roadmap rules need your explicit approval before a record becomes Ready, and DESIGN-APPLY said you see the plan before any build.
 
 **Query:** Approve step 1 to Ready as shaped?
 
@@ -101,7 +101,7 @@ Nothing is running. Step 1 is ready to build once you approve it.
 
 **ROADMAP-VIS-022**
 
-**Context:** The roadmap audit now fails on [KI-OBSERVA-VIS-022](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-022-judge-overdue-against-each-job-schedule.md), whose title is longer than four words. It is a triage record from 17 October, not part of this run, so I left it alone.
+**Context:** The roadmap audit now fails on [KI-OBSERVA-VIS-022](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-022-judge-overdue-against-each-job-schedule.md), whose title is longer than four words. It is a triage record from 17 October, not part of this run, so I left it alone.
 
 **Query:** Shorten its title?
 
@@ -109,7 +109,7 @@ Nothing is running. Step 1 is ready to build once you approve it.
 
 **DESIGN-RESTRUCTURE (spec §11)**
 
-**Context:** The design marks the ten instruments under four jobs as Open. [KI-OBSERVA-APP-044](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md) holds the decision.
+**Context:** The design marks the ten instruments under four jobs as Open. [KI-OBSERVA-APP-044](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md) holds the decision.
 
 **Query:** Converge on the ten instruments at all?
 
@@ -203,4 +203,4 @@ Nothing is running. Step 1 is ready to build once you approve it.
 
 **Query:** Acting over the tailnet: plan it now, or later in a separate decision record?
 
-**Options:** a) (recommended, confidence high - acting from another machine needs the least-privilege design first) A later, separate decision record, after the read-only listener. b) Plan it now with [KI-OBSERVA-OPS-004](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-OPS-004-tailnet-read-only-appearance.md).
+**Options:** a) (recommended, confidence high - acting from another machine needs the least-privilege design first) A later, separate decision record, after the read-only listener. b) Plan it now with [KI-OBSERVA-OPS-004](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-OPS-004-tailnet-read-only-appearance.md).

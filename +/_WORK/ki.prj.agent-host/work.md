@@ -16,7 +16,7 @@ created_at: 2026-10-07T09:05:00Z
 
 ## Goals
 
-- Deliver the [Agent host](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/agent-host.md) Project's outcome.
+- Deliver the [Agent host](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/agent-host.md) Project's outcome.
 
 ## Scope
 

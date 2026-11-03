@@ -1,4 +1,4 @@
-# [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-diagrams
+# [Model](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-diagrams
 
 **🤖 → 👤 Handoff to supervisor · Run report at 07:52 BST · last mark 20:20 BST**
 
@@ -7,11 +7,11 @@
 ## Done
 
 - Read-only review, no commits and nothing pushed. This file is the only thing I wrote. The progress protocol names it as the only report path, so I wrote nothing to the work folder.
-- I found [`ki-diagrams`](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-diagrams/SKILL.md) in ki-agentic-harness. [Its standard](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-diagrams/references/standards-diagrams.md) offers two options:
+- I found [`ki-diagrams`](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-diagrams/SKILL.md) in ki-agentic-harness. [Its standard](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-diagrams/references/standards-diagrams.md) offers two options:
   - **Archify**, the adopted tool. It keeps a JSON source traced to files and lines, a committed SVG with a night default and a day theme, and an optional interactive HTML viewer.
   - **D2**, named as the only worthwhile addition, and only for maps generated mechanically from code. It has no interactive view.
   - The standard already excludes Mermaid and Graphviz at your direction.
-- Archify against the ki-design system (`ki-design` [DESIGN.md](/Users/krisbrown/workspaces/knowledge-islands/ki-design/DESIGN.md), [maps.md](/Users/krisbrown/workspaces/knowledge-islands/ki-design/docs/spec/maps.md), which is the old §13, typography and tokens). Where it fits:
+- Archify against the ki-design system (`ki-design` [DESIGN.md](/Users/krisbrown/kis/knowledge-islands/ki-design/DESIGN.md), [maps.md](/Users/krisbrown/kis/knowledge-islands/ki-design/docs/spec/maps.md), which is the old §13, typography and tokens). Where it fits:
   - It is night first, with a day theme under `prefers-color-scheme`, and night is the design's reference.
   - It renders flat SVG, which matches the Modern style that DESIGN.md names as the default for diagrams.
   - It is local only, has a committable source and has a text-searchable viewer.
@@ -19,18 +19,18 @@
   - It uses its own slate, teal and orange palette, not tokens. This breaks rule 2.
   - It inlines JetBrains Mono into every SVG, which breaks the Instrument rule "nothing fetched or bundled". The token should be `font.mono`.
   - Its node icons and brand marks are not the 72 KI glyphs, and third-party logos are banned as glyphs.
-  - Its dual-theme SVG goes black in viewers that don't run its CSS, such as Zed and `rsvg-convert`. That is already recorded as triage record [KI-HARNESS-GOV-205](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-205-static-light-diagram-export.md).
+  - Its dual-theme SVG goes black in viewers that don't run its CSS, such as Zed and `rsvg-convert`. That is already recorded as triage record [KI-HARNESS-GOV-205](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-205-static-light-diagram-export.md).
 - D2 against the same rules: its themes and fonts can be configured, so it can be brought onto tokens. However, it is a second source language, has no viewer, and its looks were judged only adequate in the 3 October review.
 - The `ki-diagrams` standard is stale against the installed Archify 3.1:
   - The standard lists five types and "no tree layout". Archify 3.1 has ten types: it adds `erd`, `tree`, `class`, `timeline` and `waterfall`.
   - Archify 3.1 now **accepts Mermaid as input**. It maps `flowchart` onto workflow or architecture, `sequenceDiagram` onto sequence, `stateDiagram` onto lifecycle, `erDiagram` onto erd and `classDiagram` onto class. That makes it the migration route.
 - Where diagrams live:
   - **Code repositories:** only `ki-agentic-harness` and `apps-observatory.local` keep `docs/diagrams/`, with 12 and 7 Archify sources.
-  - **Islands:** no knowledge-base island has a diagram home. The Aesthetics [Diagrams](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Pillars/Aesthetics/Diagrams/Diagrams.md) canon holds PNGs.
+  - **Islands:** no knowledge-base island has a diagram home. The Aesthetics [Diagrams](/Users/krisbrown/kis/knowledge-islands/ki-principal/Pillars/Aesthetics/Diagrams/Diagrams.md) canon holds PNGs.
   - **Observatory:** it serves Archify SVGs at `/api/diagrams`, and it draws Mermaid in Markdown inside a sandboxed frame under `PDR-KI-OBSERVA-005`.
   - **Websites:** they use the Chart style, and DESIGN.md gives the site's poster explainers the separate Illustrated explainer style.
-- Mermaid inventory (only `.md` files were counted, so the figures are a lower bound): 34 fences in 24 files across 9 repositories. Of those, 19 are in hnr-shared, 3 in `apps-observatory.local` roadmap records, 3 in apps-tower, and 2 each in ki-principal, ki-specifications and legal-principal. The other 3 are one each in personal-principal, er-principal and apps-vallearmonia. One of the ki-principal pair is the canonical Pillars note [Acquisition Process](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md>), and the other is [design/live-artifacts.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.observatory/design/live-artifacts.md), the obs-extensions redraw. The `paperclip` fork (5 files) and the `acquire` capture (1) are upstream text and evidence, so they stay as they are.
-- `ki-diagrams` against the naming rule: [ADR-KI-HARNESS-SKILLS-003](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/docs/decisions/ADR-KI-HARNESS-SKILLS-003-dependency-order-for-multi-skill-composition.md) says a concern is plural "for a collection or repeated unit (`ki-skills`, `ki-decision-records`, `ki-trades`)" and singular for "a discipline" (`ki-authoring`). `ki-diagrams` governs a repeated unit with a manifest, so it conforms. The name appears in 67 harness files and in `ki-agentic-harness/.ki.toml`.
+- Mermaid inventory (only `.md` files were counted, so the figures are a lower bound): 34 fences in 24 files across 9 repositories. Of those, 19 are in hnr-shared, 3 in `apps-observatory.local` roadmap records, 3 in apps-tower, and 2 each in ki-principal, ki-specifications and legal-principal. The other 3 are one each in personal-principal, er-principal and apps-vallearmonia. One of the ki-principal pair is the canonical Pillars note [Acquisition Process](</Users/krisbrown/kis/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md>), and the other is [design/live-artifacts.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.observatory/design/live-artifacts.md), the obs-extensions redraw. The `paperclip` fork (5 files) and the `acquire` capture (1) are upstream text and evidence, so they stay as they are.
+- `ki-diagrams` against the naming rule: [ADR-KI-HARNESS-SKILLS-003](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/docs/decisions/ADR-KI-HARNESS-SKILLS-003-dependency-order-for-multi-skill-composition.md) says a concern is plural "for a collection or repeated unit (`ki-skills`, `ki-decision-records`, `ki-trades`)" and singular for "a discipline" (`ki-authoring`). `ki-diagrams` governs a repeated unit with a manifest, so it conforms. The name appears in 67 harness files and in `ki-agentic-harness/.ki.toml`.
 
 ## In Progress
 

@@ -51,7 +51,7 @@ Main threads, the six packages not on hold (Kris spoke of five; read as ways-of-
 Cross-package breakage:
 
 - `ki agent prompts knowledge-islands`, as the brief gives it, fails: "territory knowledge-islands is not declared by a registered Capital" (also for `ki` and `knowledgeislands`). It works with no argument from inside ki-principal and with `ki.sop.main`. The territory handle (the `.ki.toml` `territory_prefix`) does not resolve: a tools-ki or registry defect.
-- 116 files in `+/_WORK/` carry 804 absolute links to `/Users/krisbrown/workspaces/knowledge-islands/...`, which no longer exists since the move to `~/kis/`; the coordinator output style's own example heading uses it too.
+- 116 files in `+/_WORK/` carry 804 absolute links to `/Users/krisbrown/kis/knowledge-islands/...`, which no longer exists since the move to `~/kis/`; the coordinator output style's own example heading uses it too.
 - The REFRESH lines pile up in the on-hold packages (three or four each), appended below ordinary lines, so every on-hold package fails "IMPORTANT lines stand above every ordinary line". The sender, not the receiver, put them there.
 - No other run group in the territory is live; `ki agent status` shows only this run here (personal tower runs are outside the territory).
 

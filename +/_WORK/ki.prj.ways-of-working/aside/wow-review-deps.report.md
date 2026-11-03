@@ -1,4 +1,4 @@
-# [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Ways working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md) › wow-review-deps
+# [Model](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Ways working](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md) › wow-review-deps
 
 **🤖 → 👤 Handoff to supervisor · Run report at 04:41 GMT · last mark 01:07 GMT**
 
@@ -30,9 +30,9 @@ Nothing running. Maintenance execution awaits the owner's chosen time and scope.
 
 Recommendation: choose the separate maintenance unit. Confidence: high. Reason: the standard defaults to adoption, and no concrete incompatibility has been established that warrants an exception.
 
-The [freshness policy](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-engineering/references/standards-engineering.md:168) permits holds, but a hold records an exception rather than adopting the overdue updates. Scheduling maintenance leaves DEPS-1 failing until the updates are adopted and verified.
+The [freshness policy](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-engineering/references/standards-engineering.md:168) permits holds, but a hold records an exception rather than adopting the overdue updates. Scheduling maintenance leaves DEPS-1 failing until the updates are adopted and verified.
 
-The [updater](/Users/krisbrown/workspaces/knowledge-islands/apps-knowledgeislands.info/package.json:51) is a blanket latest-version update, so its actual manifest and lockfile changes need review; its scope must not be assumed to contain only these three updates. Update both the [package-manager pin](/Users/krisbrown/workspaces/knowledge-islands/apps-knowledgeislands.info/package.json:43) and [mise pin](/Users/krisbrown/workspaces/knowledge-islands/apps-knowledgeislands.info/mise.toml:5), rerun every gate, and commit only the reviewed maintenance paths. Deployment requires its own authority because a push to main deploys the website.
+The [updater](/Users/krisbrown/kis/knowledge-islands/apps-knowledgeislands.info/package.json:51) is a blanket latest-version update, so its actual manifest and lockfile changes need review; its scope must not be assumed to contain only these three updates. Update both the [package-manager pin](/Users/krisbrown/kis/knowledge-islands/apps-knowledgeislands.info/package.json:43) and [mise pin](/Users/krisbrown/kis/knowledge-islands/apps-knowledgeislands.info/mise.toml:5), rerun every gate, and commit only the reviewed maintenance paths. Deployment requires its own authority because a push to main deploys the website.
 
 Risk the deferral avoids: immediate toolchain, lint-rule or transitive-dependency regressions from updating, including changed site output reaching an automatic deployment. A genuine compatibility or release constraint could justify a reasoned, expiring hold. No such constraint was established here. Recording the hold also changes repository configuration, which tonight's window excludes.
 

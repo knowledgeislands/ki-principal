@@ -15,7 +15,7 @@ method_read: 5daad99e
 
 ## Now
 
-- On hold, paused, restated on 20 October against the [Techne Programme Focus](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Policies/Techne%20Programme%20Focus.md), which replaced the Techne Programme Hold through [KI-PRINCIPAL-GOV-035 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/ee568843/Streams/Roadmap/KI-PRINCIPAL-GOV-035-turn-the-techne-programme-hold-into-a-focus-rule.md). The focus narrows Techné to the agent host and the Mac Studio and keeps remote Paperclip in any form as an idea, recorded on the Project note, until the island owner takes it up through the Enactment Process. The rebuild this work designs is that idea, so the hold stands. Nothing running.
+- On hold, paused, restated on 20 October against the [Techne Programme Focus](/Users/krisbrown/kis/knowledge-islands/ki-principal/Admin/Governance/Policies/Techne%20Programme%20Focus.md), which replaced the Techne Programme Hold through [KI-PRINCIPAL-GOV-035 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/ee568843/Streams/Roadmap/KI-PRINCIPAL-GOV-035-turn-the-techne-programme-hold-into-a-focus-rule.md). The focus narrows Techné to the agent host and the Mac Studio and keeps remote Paperclip in any form as an idea, recorded on the Project note, until the island owner takes it up through the Enactment Process. The rebuild this work designs is that idea, so the hold stands. Nothing running.
 - Design papers only: the capture is done and its papers in `rebuild/` stay as they are.
 
 ## Next steps

@@ -1,4 +1,4 @@
-# [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-review-7
+# [Model](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-review-7
 
 **🤖 → 👤 Handoff to supervisor · Run report at 01:46 BST · last mark 22:50 BST**
 
@@ -12,11 +12,11 @@ Recommend **a)**: build [KI-OBSERVA-VIS-022 (pruned)](https://github.com/knowled
 
 Plan check: the reviewed record matches commit `3b3c785` exactly.
 
-Contract check: [RIG-STATE-033](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/specs/state.md) promises complete declaration values; [RIG-CONF-016](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/specs/configuration.md) specifies the input grammar. Neither specifies the schedule string's output encoding.
+Contract check: [RIG-STATE-033](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/specs/state.md) promises complete declaration values; [RIG-CONF-016](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/specs/configuration.md) specifies the input grammar. Neither specifies the schedule string's output encoding.
 
-Renderer check: [the summary helper](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/src/rig/30-commands.bash:1553) and [JSON projection](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/src/rig/30-commands.bash:1816) confirm the context's description. No factual premise in the question is contradicted by the code. The fallback is planned Observatory behaviour, rather than behaviour supplied by Rig.
+Renderer check: [the summary helper](/Users/krisbrown/kis/knowledge-islands/tools-rig/src/rig/30-commands.bash:1553) and [JSON projection](/Users/krisbrown/kis/knowledge-islands/tools-rig/src/rig/30-commands.bash:1816) confirm the context's description. No factual premise in the question is contradicted by the code. The fallback is planned Observatory behaviour, rather than behaviour supplied by Rig.
 
-The plan's description of the entire source as a specified, stable contract overstates the encoding's status. [AGENTS.md](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/AGENTS.md:9) supports consuming machine contracts, but does not make an undocumented field encoding specified.
+The plan's description of the entire source as a specified, stable contract overstates the encoding's status. [AGENTS.md](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/AGENTS.md:9) supports consuming machine contracts, but does not make an undocumented field encoding specified.
 
 Read-only review completed; no repository files changed, no commits created, no tests or remote calls run.
 

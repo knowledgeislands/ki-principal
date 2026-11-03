@@ -6,11 +6,11 @@ Kris (2026-10-13): the RESTART on sol also upgrades it from macOS 26 Tahoe to ma
 
 ## 2026-10-14 - BURN-DOWN
 
-BURN-DOWN (Kris, 2026-10-14): standing focus, burn the roadmap down; no new feature records - [ki decisions](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki/decisions.md).
+BURN-DOWN (Kris, 2026-10-14): standing focus, burn the roadmap down; no new feature records - [ki decisions](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki/decisions.md).
 
 ## 2026-10-14 - FW-PROFILES
 
-FW-PROFILES, FW-REVIEW and FW-LIVE (Kris, 2026-10-14): KI-TOOL-RIG-CORE-047 live on both Macs, terra first then sol, closed through ki-accept after the live test passes - [KI-TOOL-RIG-CORE-047](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md).
+FW-PROFILES, FW-REVIEW and FW-LIVE (Kris, 2026-10-14): KI-TOOL-RIG-CORE-047 live on both Macs, terra first then sol, closed through ki-accept after the live test passes - [KI-TOOL-RIG-CORE-047](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md).
 
 ## 2026-10-14 - CLOSE-OUT
 
@@ -249,3 +249,9 @@ orca-handover received: trial log updated with plan069's Orca outcome and moved 
 - HANDOVER-HOUSEHOLD (Kris, 1 November, relayed by ki.prj.ways-of-working): Mac Studio setup hands over to the household works; write a handover note, message personal.reg.rig-terra (becoming personal.reg.household-terra), then hold pending close-out. Taken 2 November 15:25 GMT after Kris asked "I think this was wrapped up or moved - was it?"; handover run launched; it replaces the stock-take, which never ran.
 
 - SOP-COORDINATION (Kris, 3 November 03:10 GMT): "train down because we're gonna move all of the work to be coordinated through the SOP main." Read as "drain down": nothing was running; this work goes on hold and its coordination passes to ki.sop.main by message, five queries parked for ki.sop.main to bring to Kris.
+
+## 2026-11-03 03:25 GMT - SOLE-THREAD acknowledgement
+
+class: operational
+
+- Coordination taken up by ki.sop.main, 3 Nov, (Kris, 3 Nov about 03:10 GMT: "move all of the work to be coordinated through the SOP main"; SOLE-THREAD in ki.sop.main, 03:14 GMT). The work stays On hold; every parked discussion stays parked, unanswered, for ki.sop.main to bring to Kris. Hold reason set to `paused`, the closed value, under PACKAGE-FLAGS. Run handover-intake.

@@ -1,4 +1,4 @@
-# [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Ways of working](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md) › wow-review-tending-source
+# [Model](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Ways of working](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/ways-of-working.md) › wow-review-tending-source
 
 **🤖 → 👤 Handoff to supervisor · Run report at 05:40 GMT · last mark unavailable within permitted scope**
 
@@ -22,7 +22,7 @@ Nothing is running.
 
 ### TENDING-SOURCE - Which sources should the tending page cite?
 
-**Context:** The [page's second source](/Users/krisbrown/workspaces/knowledge-islands/apps-knowledgeislands.info/apps/site/src/docs/ways-of-working/tending.md:15) is expressly limited to the third structural level's review lenses. The [design note](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/tending.md:66) explicitly borrows those lenses and exempts tending from REVIEW's full output shape. The [procedure](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/keystone/ki-repo/references/mode-review.md:25) supplies default lenses for judgemental review.
+**Context:** The [page's second source](/Users/krisbrown/kis/knowledge-islands/apps-knowledgeislands.info/apps/site/src/docs/ways-of-working/tending.md:15) is expressly limited to the third structural level's review lenses. The [design note](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.ways-of-working/design/tending.md:66) explicitly borrows those lenses and exempts tending from REVIEW's full output shape. The [procedure](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/keystone/ki-repo/references/mode-review.md:25) supplies default lenses for judgemental review.
 
 **Query:** Keep REVIEW as a second source, or cite the design note alone until tending has a standard home?
 

@@ -19,7 +19,7 @@ created_at: 2026-10-25T00:46:35Z
 
 ## Goals
 
-- Deliver the [Website](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/website.md) Project's outcome.
+- Deliver the [Website](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/website.md) Project's outcome.
 
 ## Scope
 

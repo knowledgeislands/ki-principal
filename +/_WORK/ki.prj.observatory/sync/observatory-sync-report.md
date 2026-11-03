@@ -164,8 +164,8 @@ At the pre-route final receipt, 20 of the original 25 source hashes still match;
 [terra-log]: /Users/krisbrown/workspaces/personal/personal-principal/+/_WORK/personal.reg.rig-terra/decisions.md
 [chezmoi-queue]: ../../ki.prj.chezmoi/messages.md
 [tools-queue]: ../../ki.prj.tools-burndown/messages.md
-[bridge-pdr]: /Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/decisions/PDR-KI-OBSERVA-001-observatory-beacon-and-bridge.md
-[automation-contract]: /Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/packages/contracts/src/automation.ts
+[bridge-pdr]: /Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/decisions/PDR-KI-OBSERVA-001-observatory-beacon-and-bridge.md
+[automation-contract]: /Users/krisbrown/kis/knowledge-islands/apps-observatory.local/packages/contracts/src/automation.ts
 [ways-work]: ../../ki.prj.ways-of-working/work.md
 [sop-work]: ../../ki.sop.main/work.md
 [chezmoi-work]: ../../ki.prj.chezmoi/work.md

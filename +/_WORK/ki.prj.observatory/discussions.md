@@ -8,6 +8,17 @@ None. All parked at the hold of 3 November 2026, when coordination moved to ki.s
 
 Consolidated on 1 November under STOCKTAKE; every draft below passed one blind review, which agreed with each recommendation. Order is the proposed priority.
 
+**Folded:** These remain open only as part of the consolidated queries below, which carry their content; their full text is in Git at the commit before this one.
+
+- PUBLIC-AUDIENCE, PUBLIC-EXPOSURE, ACCESS-DISPOSITION - in PUBLICATION-ONE.
+- STATUS-REPAIR - in STATUS-FIRST.
+- BRIDGE-STALE - in HOST-VIEW.
+- SYNC-DIRECTION - in SYNC-CLOSE.
+- RESTRUCTURE, TEN-COMMITS, MERMAID-HANDLER - in DESIGN-PASS.
+- QUEUE - answered by STOCKTAKE, 1 November.
+
+**Parked before 3 November:** No unanswered choice has been selected. Council/consolidation order, Waiting/Review, Work's destination and Rig declaration versus observed-health scope are separate downstream design questions, gated by their preparation decisions below. HOST-MEANING is receiver-owned at Ways of working, not an additional decision requested here. ACCEPT remains closed in the [sourced receipt](decisions.md#2026-10-29---accept-closed).
+
 ### PUBLICATION-ONE - Decide the published report history once, with Ways of working
 
 focus: aside
@@ -159,18 +170,3 @@ a) (recommended, confidence high - reviewed: the checkouts are 5G Emerge's, and 
 b) Send it to hnr.sop.main instead.
 
 c) Keep it here until someone checks the identities.
-
-## Folded
-
-These remain open only as part of the consolidated queries above, which carry their content; their full text is in Git at the commit before this one.
-
-- PUBLIC-AUDIENCE, PUBLIC-EXPOSURE, ACCESS-DISPOSITION - in PUBLICATION-ONE.
-- STATUS-REPAIR - in STATUS-FIRST.
-- BRIDGE-STALE - in HOST-VIEW.
-- SYNC-DIRECTION - in SYNC-CLOSE.
-- RESTRUCTURE, TEN-COMMITS, MERMAID-HANDLER - in DESIGN-PASS.
-- QUEUE - answered by STOCKTAKE, 1 November.
-
-## Parked before 3 November
-
-No unanswered choice has been selected. Council/consolidation order, Waiting/Review, Work's destination and Rig declaration versus observed-health scope are separate downstream design questions, gated by their preparation decisions above. HOST-MEANING is receiver-owned at Ways of working, not an additional decision requested here. ACCEPT remains closed in the [sourced receipt](decisions.md#2026-10-29---accept-closed).

@@ -20,7 +20,7 @@ created_at: 2026-10-19T10:02:36Z
 
 ## Goals
 
-- Deliver the [Timelines](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/timelines.md) Project's outcome.
+- Deliver the [Timelines](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/timelines.md) Project's outcome.
 - Survey before designing, and design only once Kris's improvements to the scope are in (TIMELINES-OPEN).
 - Leave the 5G Emerge component and legal-principal's gantt unchanged until the skill exists.
 

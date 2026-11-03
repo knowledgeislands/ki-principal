@@ -1,4 +1,4 @@
-# [Model](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-step3
+# [Model](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Themes/model.md) › [Observatory](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/observatory.md) › obs-step3
 
 **🤖 → 👤 Handoff to supervisor · Run report at 12:25 BST · last mark 08:47 BST**
 
@@ -6,9 +6,9 @@
 
 ## Done
 
-- CAPITAL-GLYPH a) and HEXMAP a): [KI-OBSERVA-VIS-030](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md) now uses ki-design's published `capital` glyph and vendors the hex renderer and terrain tokens by script, at a pinned ki-design commit, with a digest drift check. The renderer question is closed, and the record is ready to promote to Next. The design handoff's ask 3 is removed and marked as met (`-/design-handoff/INSTRUCTION.md`). Commit `e3b47b2`.
-- CONDITION: Kris's model is recorded in [KI-OBSERVA-BCN-008](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BCN-008-beacon-signal-anatomy.md) and KI-OBSERVA-VIS-030 as a verbatim quote from STEP3-ANSWERS: each island declares its maturity, and decline or ruin is a separate quality scale. Neither is read from commit age, and until a home is chosen the chart draws condition as unknown. The quotes were tidied to verbatim in `80c1a1b`. Nothing is decided; the home is the query below.
-- STEP3-ACT a): [KI-OBSERVA-BRG-003](/Users/krisbrown/workspaces/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-003-governed-act-presentation.md) was planned to Now and Ready (`80c1a1b`), then built and moved to Awaiting review with its review packet (`9e4094b`):
+- CAPITAL-GLYPH a) and HEXMAP a): [KI-OBSERVA-VIS-030](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md) now uses ki-design's published `capital` glyph and vendors the hex renderer and terrain tokens by script, at a pinned ki-design commit, with a digest drift check. The renderer question is closed, and the record is ready to promote to Next. The design handoff's ask 3 is removed and marked as met (`-/design-handoff/INSTRUCTION.md`). Commit `e3b47b2`.
+- CONDITION: Kris's model is recorded in [KI-OBSERVA-BCN-008](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BCN-008-beacon-signal-anatomy.md) and KI-OBSERVA-VIS-030 as a verbatim quote from STEP3-ANSWERS: each island declares its maturity, and decline or ruin is a separate quality scale. Neither is read from commit age, and until a home is chosen the chart draws condition as unknown. The quotes were tidied to verbatim in `80c1a1b`. Nothing is decided; the home is the query below.
+- STEP3-ACT a): [KI-OBSERVA-BRG-003](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-003-governed-act-presentation.md) was planned to Now and Ready (`80c1a1b`), then built and moved to Awaiting review with its review packet (`9e4094b`):
   - Rig's and Repositories' operations sit in a region edged in the boundary colour, with a heavier top rule and a `governed` tag.
   - A plan now reads as a declaration: operation, tier, confirmation, command, limit, effect, and issued and expiry times.
   - One confirm button names the action.
