@@ -2,6 +2,10 @@
 
 ## Open
 
+None. All parked at the hold of 3 November 2026, when coordination moved to ki.sop.main (HAND-TO-SOP); each keeps its full text and recommended option below, in the stocktake priority order.
+
+## Parked
+
 Consolidated on 1 November under STOCKTAKE; every draft below passed one blind review, which agreed with each recommendation. Order is the proposed priority.
 
 ### PUBLICATION-ONE - Decide the published report history once, with Ways of working
@@ -167,6 +171,6 @@ These remain open only as part of the consolidated queries above, which carry th
 - RESTRUCTURE, TEN-COMMITS, MERMAID-HANDLER - in DESIGN-PASS.
 - QUEUE - answered by STOCKTAKE, 1 November.
 
-## Parked
+## Parked before 3 November
 
 No unanswered choice has been selected. Council/consolidation order, Waiting/Review, Work's destination and Rig declaration versus observed-health scope are separate downstream design questions, gated by their preparation decisions above. HOST-MEANING is receiver-owned at Ways of working, not an additional decision requested here. ACCEPT remains closed in the [sourced receipt](decisions.md#2026-10-29---accept-closed).

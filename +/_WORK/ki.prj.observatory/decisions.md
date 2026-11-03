@@ -203,3 +203,11 @@ Read back as taken: this answers QUEUE with a), widened. One read-only backgroun
 class: operational
 
 Received stocktake and blind-review-stocktake. Sixteen settled message lines removed with the stocktake's evidence (SERVE-STALE-BINARY, its correction, LOCAL-SYMLINKS, NAMING-REORIENT, OPS003-DELIVERED, OBS-ACCEPT2-FOLLOWUPS, ISLAND-CONDITION of 20 October, VIS-SIZES, ROADMAP-AUDIT, TIDY, USABILITY-THREAD, REDESIGN-LANDED, NAMING-PAUSE, NAMING-DONE, TYPED-ID-CONSUMER, COORD-REGULAR-STATUS). Nine queries folded into ten consolidated ones; the blind review agreed with all six medium drafts, lifting them to high and refining their options. QUEUE answered. No product work, adoption, message send or push.
+
+## 2026-11-03 03:10 GMT - HAND-TO-SOP
+
+class: operational
+
+- Okay, train down because we're gonna move all of the work to be coordinated through the SOP main.
+
+Read back as taken: "train down" as drain down. Nothing was running, so the drain is immediate. Coordination of this Project moves to KI State of play (ki.sop.main): the work goes On hold here, released when ki.sop.main takes it up; every open discussion is parked intact, the queue stays in messages.md for ki.sop.main to act on, and one line tells ki.sop.main. No Project closure, product work, publication or visibility change follows.
