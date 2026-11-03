@@ -1,11 +1,13 @@
 ---
 id: ki.sop.main
-state: with-supervisor
-since: 2026-10-30T01:51:00Z
+state: with-worker
+since: 2026-11-03T03:20:00Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-10-29T16:17:57Z
-method_read: df3f5503
+method_read: b3c631c2
+listening_enabled: true
+listening_status: on
 ---
 
 # ki.sop.main state
@@ -20,11 +22,11 @@ method_read: df3f5503
 
 - ki.prj.website is seeded on hold until Kris opens it; Host network opens fifth, after its decision paper and restore path.
 
-## Next steps (re-bootstrap 31 October 23:25 GMT)
+## Next steps (3 November 03:20 GMT)
 
-1. Bootstrapped in a fresh session picking up from bfc318f7; nothing running; not listening.
-2. AMEND-RACE and HEADER-ESTATE stay queued in `messages.md` for one route run: AMEND-RACE to KI Agentic Harness's `ki-git` owner, HEADER-ESTATE to ki.prj.chezmoi.
-3. Kris answers the open queries in `discussions.md`, acceptance first; STOA-HOME is new.
+1. SOLE-THREAD (Kris, 3 Nov): State of play is the only Knowledge Islands thread; Ways of working, Observatory, Mac Studio setup and Orca evaluation are On hold with their coordination handed here. Listening is on.
+2. Runs under `ki-sop-main`: handover-intake (take up the four handovers, AUDIT-FIXES, PACKAGE-FLAGS, MOVED-NOTE-LINKS, REPORTS-MOVED), method-intake (one ordered plan for the method requests now homed here: FOOTER-GLYPHS, AMEND-RACE, SUB-PACKAGE, RUN-CLOSE, ANNOTATED-BOARD-SKILL, LAUNCHER-PATHS), route-misc (HEADER-ESTATE, AGORA-DECLARE).
+3. The Stoa lines wait on STOA-HOME; MAIL-ENGINE waits on MAIL-ASKS and MAIL-MCP-HOME.
 
 ## Held
 

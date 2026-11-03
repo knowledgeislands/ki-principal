@@ -158,3 +158,12 @@
 - STOA-HOME (hnr.sop.main): needs a new Project, so it is put to Kris as the STOA-HOME query.
 - CORR-GUARD-ASK (hnr.reg.email-routing): shares the mail MCP owner gap; folded into MAIL-ASKS.
 - AMEND-RACE and HEADER-ESTATE: kept in the queue for one route run.
+
+## 2026-11-03 · SOLE-THREAD (Kris, 03:14 GMT)
+
+- Read back as taken: "You are now the sole thread in the Knowledge Islands. So if you need to get anything done, you can call them all, include any consolidation work that we need to do. If you can start listening as well and let others that you know that you're here, such as the 2 assistants, that would be great." Taken as authority to launch runs for all authorised Knowledge Islands work, consolidation included, within each package's existing decisions; open queries stay with Kris. Listening switched on (listening_enabled true).
+- REFRESH 1f01cb7c and fb19794d (IMPORTANT): taken; read at b3c631c2; capability fields set in `state.md`; footer shows `👂 listening` while armed and the rename line `/rename 🧵 <work-id>`.
+- HAND-TO-SOP, MAC-STUDIO-HANDOVER, WOW-HANDOVER, ORCA-EVAL-TO-SOP (IMPORTANT): taken up; the handover-intake run acknowledges each in its package's decisions.md.
+- PAPERCLIP-RENAME held under PAPERCLIP-HOLD; PAPERCLIP-RETIRE stays with Kris. METHOD-HOME noted; Known Lands updates as those Projects close.
+- MAIL-ENGINE and MAIL-ENGINE-HOLDER folded into MAIL-ASKS; STOA-KI-REPO folded into STOA-HOME.
+- Both assistants told by a line in their `messages.md`.
