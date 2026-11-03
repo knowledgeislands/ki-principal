@@ -8,7 +8,7 @@ mark: 2026-11-02T15:25:00Z
 method_read: b3c631c2
 hold:
   reason: handed over to the assistants (personal.reg.assistant-terra) at Kris's word of 1 November
-  release: close-out by State of play
+  release: close-out by State of play (ki.sop.main), which coordinates this work from 3 November
 ---
 
 # ki.prj.orca-evaluation state
