@@ -185,3 +185,4 @@
 - CONFORM-P1 (Kris about 07:45 GMT) and EMERGING-FOCUS (Kris about 15:10 GMT): to the harness chain. LAUNCHER-PATHS (three lines) and METHOD-REQUESTS (SUB-PACKAGE, RUN-CLOSE): to the tools-ki chain. FOOTER-GLYPHS waits on FOOTER-SYNC-WORDING, a query.
 - HOW-WE-WORK (IMPORTANT), STATUS-FORM 1 to 3, URGENT-HANDOFF, ROUTE-UP, VALUES-UP-FRONT: one design run, which returns a design note and queries; kept in the queue until it reports.
 - Received and pruned: amend-race, assistant-publish, assistant-replies, board-skill, route-misc reports.
+- conform-bun received (harness `63916202`): CONFORM-P1 done, assistant-sol told; Paperclip declarations left for PAPERCLIP-RETIRE.
