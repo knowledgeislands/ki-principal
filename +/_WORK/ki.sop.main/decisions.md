@@ -189,3 +189,5 @@
 - review-fold-untracked received: CHEZMOI-FOLD a) lifted to high; UNTRACKED-REPORTS recast to the reviewer's keep-for-now view.
 - how-we-work received (`03a3fbc7`): design note at aside/how-we-work.design.md; nine queries copied to discussions; those below high go to one blind review.
 - review-how-we-work received: the reviewer chose the same course on VALUES-HOME, STATUS-DETAIL, WHAT-I-HEARD, GOAL-SETTING, URGENT-CRITERIA and LIVENESS; each lifted to high.
+- emerging-focus received (harness, ki-principal `7ab617f0`): EMERGING-FOCUS done, REFRESH sent to 14 packages, assistant-terra told; this package follows: `aside/` renamed `_emerging/`.
+- Orca restarted about 22:12 GMT; the detached runs survived; the watcher is re-armed.

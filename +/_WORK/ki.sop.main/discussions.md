@@ -495,7 +495,7 @@ b) Kris reviews the present plan now and a ki-plan run sets it to Ready.
 
 focus: aside
 
-**Context:** Under PROJECT-CLOSE a) (25 October) the retirement is prepared in [design/estate-factorisation-retirement.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/aside/estate-factorisation-retirement.md): settle HOST-WRITES, ALIAS-OWNERS and RIG-REFS, route the parked queries to their works by message, then Kris accepts the close. Nothing is applied yet.
+**Context:** Under PROJECT-CLOSE a) (25 October) the retirement is prepared in [design/estate-factorisation-retirement.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/_emerging/estate-factorisation-retirement.md): settle HOST-WRITES, ALIAS-OWNERS and RIG-REFS, route the parked queries to their works by message, then Kris accepts the close. Nothing is applied yet.
 
 **Query:** Proceed with steps 1 and 2 of the note, with the close itself waiting for your acceptance?
 
@@ -589,7 +589,7 @@ c) Decline for now; Valle Armonia keeps the Sanctuary.
 
 focus: aside
 
-**Context:** The eight Capitals share 21 core skills but differ on `ki-work-roadmap`, `ki-work-recurring`, Paperclip, acquisition skills, configuration and `AGENTS.md` shape ([skills-assessment.report.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/aside/skills-assessment.report.md)).
+**Context:** The eight Capitals share 21 core skills but differ on `ki-work-roadmap`, `ki-work-recurring`, Paperclip, acquisition skills, configuration and `AGENTS.md` shape ([skills-assessment.report.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/_emerging/skills-assessment.report.md)).
 
 **Query:** Should one baseline become the standard for every Capital?
 
@@ -651,7 +651,7 @@ c) Leave legal unchanged.
 
 focus: aside
 
-**Context:** hnr's `AGENTS.md` is out of shape against the Capital baseline and carries a stale Headroom block ([skills-assessment.report.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/aside/skills-assessment.report.md)).
+**Context:** hnr's `AGENTS.md` is out of shape against the Capital baseline and carries a stale Headroom block ([skills-assessment.report.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/_emerging/skills-assessment.report.md)).
 
 **Query:** Should hnr rewrite it?
 
