@@ -1,11 +1,14 @@
 ---
 id: ki.prj.mac-studio-setup
-state: handoff-to-supervisor
-hold: null
-since: 2026-10-30T02:04:00Z
+state: on-hold
+hold:
+  reason: coordination moved to ki.sop.main
+  release: when ki.sop.main takes up or closes out this work
+  since: 2026-11-03T03:10:53Z
+since: 2026-11-03T03:10:53Z
 received: 2026-10-30T01:40:00Z
 beat: null
-mark: 2026-10-20T01:10:00Z
+mark: 2026-11-03T03:10:53Z
 method_read: b3c631c2
 ---
 
@@ -13,6 +16,7 @@ method_read: b3c631c2
 
 ## Now
 
+- On hold since 03:10 GMT on 3 November: Kris moved all work to be coordinated through State of play (ki.sop.main). Nothing running. Five queries parked; the retained Rig lines stay in `messages.md` for ki.sop.main to route once TOOLS-RIG-LANE is answered. Handover to the household works done on 2 November ([setup/handover.md](setup/handover.md)).
 - 2 November 15:35 GMT: handover run received. Handover note [setup/handover.md](setup/handover.md); sol items to personal.reg.household-sol and terra items to personal.reg.household-terra (chezmoi source). Seven settled queries cleared. TOOLS-RIG-LANE (review agreed) and MGIT-PRESEED (review disagreed) with Kris; once TOOLS-RIG-LANE is answered, the retained Rig lines go to the lane's holder and this work goes on hold pending close-out, the retained Rig lines going to whichever work takes the tools-rig lane.
 - Re-bootstrapped on sol at 23:20 GMT on 31 October from session badb4224 as coordinator; not listening (Kris has not asked). GUIDE-FIELD and RIG-RETIRE-ONE folded into the new RIG-ASKS query.
 - Orca trial evidence handed to ki.prj.orca-evaluation.

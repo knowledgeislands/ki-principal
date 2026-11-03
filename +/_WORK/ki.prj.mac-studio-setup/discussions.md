@@ -2,6 +2,12 @@
 
 ## Open
 
+None; all parked at the 3 November hold.
+
+## Parked
+
+Parked at the 2026-11-03 hold (Kris moved all coordination to ki.sop.main; recommended options as written below):
+
 ### TOOLS-RIG-LANE - Who carries the Rig tooling work once Mac Studio setup closes
 
 since 2026-11-02 · from handover.report.md · blind review lane-review agreed (high)
@@ -75,8 +81,6 @@ a) (recommended, confidence high - reviewed: the blind review independently chos
 b) Strict BURN-DOWN: capture only the two records Kris named as idea records, RIG-TUI and RIG-SSH-CHECK. Hold RIG-COMMENT-KIND and RIG-CLI-CONSISTENCY as `_IDEAS.md` bullets, and the footprint group in the KI-TOOL-RIG-CORE-072 idea. The returns stay as in a).
 
 c) Honour the IMPORTANT footprint ask now: bring KI-TOOL-RIG-CORE-072 back from ideas as a triage record carrying the whole footprint group, split at planning, plus everything else in a).
-
-## Parked
 
 Parked at the 2026-10-20 hold (take stock on ways of working; put back one at a time when Kris says resume):
 
