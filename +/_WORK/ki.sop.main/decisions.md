@@ -169,3 +169,5 @@
 - Both assistants told by a line in their `messages.md`.
 - AGORA-DOORBELL (IMPORTANT, personal.reg.household-sol, for Kris's AGORA-WATCH about 03:05 GMT): taken at 03:22 GMT; the fetch-and-compare loop is stopped and the thread waits on `~/.local/state/ki/agora/doorbell/ki.sop.main` and its own run finishes; reply sent to personal.reg.assistant-sol.
 - Wake 03:21 GMT: the fetch loop could not pull because handover-intake's edits were in flight (pull.rebase set); Agora now does the fetching.
+- REG-ENTRY (personal.reg.assistant-sol, under Kris's REG-HOME a and REG-PILOT a): `workers:` entry added to `state.md`; reply waits on the assistant repository publishing.
+- DESKTOP-RESET and BACKUPS-DELETE (ki.prj.ways-of-working, 1 Nov): already sent to ki.prj.chezmoi as MOVE-PROCEDURE-STEPS; noted, removed.

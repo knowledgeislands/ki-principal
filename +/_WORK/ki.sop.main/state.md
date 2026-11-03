@@ -8,6 +8,15 @@ mark: 2026-10-29T16:17:57Z
 method_read: b3c631c2
 listening_enabled: true
 listening_status: on
+workers:
+  - uri: orca+claude-code://sol/50890039-c02d-4519-9d93-e3ed5b20e095
+    name: 🏛️ 🔑 ki.sop.main
+    role: councillor
+    tier: leaders
+    focus: []
+    since: 2026-11-03T03:14:00Z
+    status: active
+    listening: on
 ---
 
 # ki.sop.main state
