@@ -188,3 +188,4 @@
 - conform-bun received (harness `63916202`): CONFORM-P1 done, assistant-sol told; Paperclip declarations left for PAPERCLIP-RETIRE.
 - review-fold-untracked received: CHEZMOI-FOLD a) lifted to high; UNTRACKED-REPORTS recast to the reviewer's keep-for-now view.
 - how-we-work received (`03a3fbc7`): design note at aside/how-we-work.design.md; nine queries copied to discussions; those below high go to one blind review.
+- review-how-we-work received: the reviewer chose the same course on VALUES-HOME, STATUS-DETAIL, WHAT-I-HEARD, GOAL-SETTING, URGENT-CRITERIA and LIVENESS; each lifted to high.

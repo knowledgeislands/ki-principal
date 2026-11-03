@@ -250,7 +250,7 @@ b) Add a capture step now, sharing the Chrome driver.
 
 **Options:**
 
-a) (recommended, confidence medium - one canonical home avoids drift, but Kris named a "knowledge process" note, which may mean a new note rather than the Work Process) Write them once in the Work Process note under an Enactment record, and give each `work.md` an optional one-line `## Values` section linking them and adding any of its own.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same course; one canonical home avoids drift, but Kris named a "knowledge process" note, which may mean a new note rather than the Work Process) Write them once in the Work Process note under an Enactment record, and give each `work.md` an optional one-line `## Values` section linking them and adding any of its own.
 
 b) Write them once in a new Knowledge Process note in Knowledge Islands Principal, linked the same way.
 
@@ -264,7 +264,7 @@ c) Copy the full values line into every package's `work.md`, as the pilot does.
 
 **Options:**
 
-a) (recommended, confidence medium - keeps Status short and leaves the full form to Summary, but "in detail" may mean more) One line per tag: the plain question and the recommended option, with a pointer to the Summary for the rest.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same course; keeps Status short and leaves the full form to Summary, but "in detail" may mean more) One line per tag: the plain question and the recommended option, with a pointer to the Summary for the rest.
 
 b) Each query in full, Context, Query and Options, as the Summary gives it.
 
@@ -276,7 +276,7 @@ b) Each query in full, Context, Query and Options, as the Summary gives it.
 
 **Options:**
 
-a) (recommended, confidence medium - the mark is the window every other form already uses, and a cap keeps it short) Kris's words since the mark, newest first, at most five lines, each quoted or closely paraphrased, with no decision restated.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same course; the mark is the window every other form already uses, and a cap keeps it short) Kris's words since the mark, newest first, at most five lines, each quoted or closely paraphrased, with no decision restated.
 
 b) Only Kris's words since the last Status or Summary.
 
@@ -288,7 +288,7 @@ b) Only Kris's words since the last Status or Summary.
 
 **Options:**
 
-a) (recommended, confidence medium - reuses a shape Kris already uses, though Kris may have meant something broader) An owner-invoked pass, "goals" or `/ki-coordination goals`, walking each focus area one at a time to confirm or reword its goal and order, then writing `work.md`, logging Kris's words and closing with a Status.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same course; reuses a shape Kris already uses, though Kris may have meant something broader) An owner-invoked pass, "goals" or `/ki-coordination goals`, walking each focus area one at a time to confirm or reword its goal and order, then writing `work.md`, logging Kris's words and closing with a Status.
 
 b) Leave it out of this build and shape it after Status has been in use for a week.
 
@@ -300,7 +300,7 @@ b) Leave it out of this build and shape it after Status has been in use for a we
 
 **Options:**
 
-a) (recommended, confidence medium - both come from Kris's own words, the deadline from URGENT-HANDOFF and the rollout from HOW-WE-WORK) Only a unit with a stated deadline, or a process rollout other work must follow; anything else goes as an ordinary or `IMPORTANT` line.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same course; both come from Kris's own words, the deadline from URGENT-HANDOFF and the rollout from HOW-WE-WORK) Only a unit with a stated deadline, or a process rollout other work must follow; anything else goes as an ordinary or `IMPORTANT` line.
 
 b) Any unit the sender judges urgent, giving its reason in the line.
 
@@ -312,7 +312,7 @@ b) Any unit the sender judges urgent, giving its reason in the line.
 
 **Options:**
 
-a) (recommended, confidence medium - it reuses fields already piloted and guards against stale entries, but the 30-minute bound is a guess) Its register entry says `status: active` and `listening: on`, and its package or Agora shows activity within the last 30 minutes; the register becomes a standard optional `state.md` field.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same course; it reuses fields already piloted and guards against stale entries, but the 30-minute bound is a guess) Its register entry says `status: active` and `listening: on`, and its package or Agora shows activity within the last 30 minutes; the register becomes a standard optional `state.md` field.
 
 b) The register entry alone, trusted as written.
 
