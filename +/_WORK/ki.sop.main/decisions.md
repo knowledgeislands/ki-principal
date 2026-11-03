@@ -191,3 +191,4 @@
 - review-how-we-work received: the reviewer chose the same course on VALUES-HOME, STATUS-DETAIL, WHAT-I-HEARD, GOAL-SETTING, URGENT-CRITERIA and LIVENESS; each lifted to high.
 - emerging-focus received (harness, ki-principal `7ab617f0`): EMERGING-FOCUS done, REFRESH sent to 14 packages, assistant-terra told; this package follows: `aside/` renamed `_emerging/`.
 - Orca restarted about 22:12 GMT; the detached runs survived; the watcher is re-armed.
+- DOWNLOADS-RETIRED (IMPORTANT, assistant-terra for Kris about 22:45 GMT): taken; no State of play brief, card or run names a Downloads path; packs for Kris go to `sources-knowledge-islands/-/` in a dated sub-folder from now on. The same line sits in tools-burndown and chezmoi for their own threads.
