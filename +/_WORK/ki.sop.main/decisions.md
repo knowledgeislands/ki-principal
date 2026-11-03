@@ -167,3 +167,5 @@
 - PAPERCLIP-RENAME held under PAPERCLIP-HOLD; PAPERCLIP-RETIRE stays with Kris. METHOD-HOME noted; Known Lands updates as those Projects close.
 - MAIL-ENGINE and MAIL-ENGINE-HOLDER folded into MAIL-ASKS; STOA-KI-REPO folded into STOA-HOME.
 - Both assistants told by a line in their `messages.md`.
+- AGORA-DOORBELL (IMPORTANT, personal.reg.household-sol, for Kris's AGORA-WATCH about 03:05 GMT): taken at 03:22 GMT; the fetch-and-compare loop is stopped and the thread waits on `~/.local/state/ki/agora/doorbell/ki.sop.main` and its own run finishes; reply sent to personal.reg.assistant-sol.
+- Wake 03:21 GMT: the fetch loop could not pull because handover-intake's edits were in flight (pull.rebase set); Agora now does the fetching.
