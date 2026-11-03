@@ -1,5 +1,0 @@
-# run-close (ki.sop.main)
-
-Goal: RUN-CLOSE (Kris about 01:55 GMT 3 Nov, RUN-FOLDERS a): a per-run close or sweep in `ki agent` in tools-ki, since `ki agent close` retires only a whole run folder. Owner files: `src/commands/agent/index.ts` about 468-503 and `sweep.ts`; see the RUN-CLOSE row in `/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/reports/method-intake.report.md` and the request in `git -C /Users/krisbrown/kis/knowledge-islands/ki-principal log -p -S RUN-CLOSE -- '+/_WORK'`. Builds on the launcher-paths run's close changes, which have landed before you start: pull first.
-
-Commit by explicit path, Conventional Commits; pull with `git -c pull.autostash=false -c rebase.autoStash=false pull --ff-only`; push fast-forward only. Never stash, reset, force or --no-verify; a pull that cannot fast-forward stops the run. Follow the repository AGENTS.md, run its full tests, type check and `ki repo audit`. Report: run report with commits, checks, and any query for Kris in Context/Query/Options form.

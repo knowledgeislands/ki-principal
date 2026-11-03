@@ -31,11 +31,10 @@ workers:
 
 - ki.prj.website is seeded on hold until Kris opens it; Host network opens fifth, after its decision paper and restore path.
 
-## Next steps (3 November 03:20 GMT)
+## Next steps (3 November 22:03 GMT)
 
-1. SOLE-THREAD (Kris, 3 Nov): State of play is the only Knowledge Islands thread; Ways of working, Observatory, Mac Studio setup and Orca evaluation are On hold with their coordination handed here. Listening is on.
-2. Runs under `ki-sop-main`: handover-intake (take up the four handovers, AUDIT-FIXES, PACKAGE-FLAGS, MOVED-NOTE-LINKS, REPORTS-MOVED), method-intake (one ordered plan for the method requests now homed here: FOOTER-GLYPHS, AMEND-RACE, SUB-PACKAGE, RUN-CLOSE, ANNOTATED-BOARD-SKILL, LAUNCHER-PATHS), route-misc (HEADER-ESTATE, AGORA-DECLARE).
-3. The Stoa lines wait on STOA-HOME; MAIL-ENGINE waits on MAIL-ASKS and MAIL-MCP-HOME.
+1. Restarted after the 03:36 GMT usage-limit outage. Chains: tools-ki (launcher-paths, run-close, sub-package, granola-move, territory-audit-names); harness (conform-bun, emerging-focus); design (how-we-work). BOARD-CAPTURE's blind review is back.
+2. Stoa lines wait on STOA-HOME; MAIL-ENGINE on MAIL-ASKS.
 
 ## Held
 

@@ -174,3 +174,14 @@
 - amend-race received (harness `ec5d7bd8`): AMEND-RACE done; its GITCONFIG-AUTOSTASH query copied to discussions.
 - handover-intake received (`a70531f9`, `2b770cc0`): four handovers acknowledged; ki.prj.tools-burndown released on Kris's 31 October words "Release it, one fix at a time"; 121 files repointed to ~/kis; queries CHEZMOI-FOLD and UNTRACKED-REPORTS copied to discussions; its WAITING-LINES and PARKED findings stay in the report until the Summary.
 - board-skill received (harness `4721d886`): ANNOTATED-BOARD-SKILL done; its BOARD-CAPTURE query (medium) is at blind review. tools-ki is free (assistant-sol conform finished), so launcher-paths runs, then run-close, then sub-package, chained.
+
+## 2026-11-03 · Outage and restart (22:03 GMT)
+
+- A session usage limit at 03:36 GMT stopped this thread and its runs: launcher-paths exited without DONE, so run-close and sub-package, chained behind it, failed. Nothing was processed from 03:36 to 22:00 GMT. KI-TOOLING-GO's unattended window to 08:00 GMT went unserved, and GRANOLA-FIX-FIRST (URGENT) waited five hours until personal.reg.assistant-terra delivered it itself (tools-ki `8ba2574c`..`ebcc903d`).
+- KI-TOOLING-GO (IMPORTANT, Kris about 03:35 GMT): taken late, under SOLE-THREAD's standing authority; the tooling backlog is driven by detached runs, one bounded unit per repository at a time.
+- UNCOMMITTED-LINE (IMPORTANT, twice): overtaken; the assistant checkout is clean and level. Lesson: a run's reply line in a shared checkout is written, committed and pushed in one step through a temporary worktree.
+- GRANOLA-FIX, GRANOLA-FIX-FIRST, GRANOLA-FIX-ADD, GRANOLA-FIX-LANDED: delivered by assistant-terra; the follow-ups GRANOLA-MOVE (step 4) and the failing `ci-workflow.test.ts` go to the tools-ki chain.
+- LAYOUT-CLOSE: `briefs/` removed; every brief there was spent or is replaced; new briefs go into a focus folder.
+- CONFORM-P1 (Kris about 07:45 GMT) and EMERGING-FOCUS (Kris about 15:10 GMT): to the harness chain. LAUNCHER-PATHS (three lines) and METHOD-REQUESTS (SUB-PACKAGE, RUN-CLOSE): to the tools-ki chain. FOOTER-GLYPHS waits on FOOTER-SYNC-WORDING, a query.
+- HOW-WE-WORK (IMPORTANT), STATUS-FORM 1 to 3, URGENT-HANDOFF, ROUTE-UP, VALUES-UP-FRONT: one design run, which returns a design note and queries; kept in the queue until it reports.
+- Received and pruned: amend-race, assistant-publish, assistant-replies, board-skill, route-misc reports.
