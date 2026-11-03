@@ -198,3 +198,7 @@
 - agora-project received (`46a6ddb4`): ki.prj.agora on hold, related to ki.prj.agent-host; FOCUS-FIT (medium) copied to discussions and sent to blind review.
 - review-focus-fit received: the reviewer chose the same course; FOCUS-FIT lifted to high.
 - AGORA-TAKEN (ki.prj.agora, 23:00 GMT): relayed to personal.sop.main for assistant-sol; FOCUS-FIT handed to ki.prj.agora.
+
+## 2026-11-03 · MARK (Kris, 23:05 GMT)
+
+- Read back as taken: "Can you take a mark, to give me a summary, and then give me a status table." Mark struck at 2026-11-03T23:15:26Z; spent briefs and received review reports pruned; the how-we-work design note, method-intake plan and handover-intake findings kept while their work is live.
