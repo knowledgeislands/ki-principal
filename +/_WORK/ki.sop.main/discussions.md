@@ -362,7 +362,7 @@ b) `⇄  syncing <host>` and `⇏  not syncing <host>`.
 
 **Options:**
 
-a) (recommended, confidence medium - waking a thread Kris already opened stays within "sessions the binding owner opens", while starting a new run from a standing brief is the unattended case the Focus keeps as an idea) Treat waking threads and live runs Kris opened as inside the Focus. Treat Agora starting new runs from standing briefs on the Mac Studio or `vega` as needing Kris's Enactment decision, raised in the Project's first Summary.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same, since the policy's product remit gives no exemption from its session and unattended-agent bounds) Treat waking threads and live runs Kris opened as inside the Focus. Treat Agora starting new runs from standing briefs on the Mac Studio or `vega` as needing Kris's Enactment decision, raised in the Project's first Summary.
 
 b) Treat Agora as outside the Focus altogether, because it lives in its own repository, and record that on the Project note.
 
