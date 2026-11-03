@@ -1,4 +1,4 @@
-# [KI > SoP](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/state.md) › route069
+# [KI > SoP](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/state.md) › route069
 
 **🤖 → 👤 Handoff to supervisor · Run report at 01:44 GMT**
 
@@ -6,7 +6,7 @@
 
 ## Done
 
-- Routed PLAN069-RECEIPT to [ki.prj.mac-studio-setup messages](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/messages.md) as one ordinary line at the end, committed as 3666455f and published; the pre-commit audit passed for the path.
+- Routed PLAN069-RECEIPT to [ki.prj.mac-studio-setup messages](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/messages.md) as one ordinary line at the end, committed as 3666455f and published; the pre-commit audit passed for the path.
 - Ordinary, not IMPORTANT: the shape reserves the flag for lines that change how a work works, such as FIRST-STEP and REFRESH, so a receipt goes at the end.
 - The line is about 190 words, more than the shape's 60-word guide, because the brief required every element in it; the instruction's detail is linked to ki.sop.main decisions.md at 87ec1946, line 145.
 

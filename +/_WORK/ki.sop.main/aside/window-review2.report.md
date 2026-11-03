@@ -1,4 +1,4 @@
-# [Knowledge Islands](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Pillars/Philosophy/Knowledge%20Islands.md) › State of play › window-review2
+# [Knowledge Islands](/Users/krisbrown/kis/knowledge-islands/ki-principal/Pillars/Philosophy/Knowledge%20Islands.md) › State of play › window-review2
 
 **🤖 → 👤 Handoff to supervisor · Run report at 01:20 GMT · last mark 01:01 GMT**
 

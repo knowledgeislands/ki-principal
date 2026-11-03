@@ -33,7 +33,7 @@ created_at: 2026-10-06T21:07:00Z
 
 ## Goals
 
-- Coordinate the Knowledge Islands territory the [Charter](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Charter.md) declares, as its State of play: the coordinator of the coordinators, executing nothing.
+- Coordinate the Knowledge Islands territory the [Charter](/Users/krisbrown/kis/knowledge-islands/ki-principal/Admin/Governance/Charter.md) declares, as its State of play: the coordinator of the coordinators, executing nothing.
 - Route every new unit of work with no clear owner to one work, once, so that nothing bounces between works.
 - Keep the ordered Project-work queue and its cap, opening Project work in turn.
 - Coordinate every work's continual improvement of the method, routing method changes to ki.prj.ways-of-working while it exists (STEWARD-HOME).

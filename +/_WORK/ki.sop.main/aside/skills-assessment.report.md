@@ -1,4 +1,4 @@
-# [Knowledge Islands](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Charter.md) › State of play › skills-assessment
+# [Knowledge Islands](/Users/krisbrown/kis/knowledge-islands/ki-principal/Admin/Governance/Charter.md) › State of play › skills-assessment
 
 **🤖 → 👤 Handoff to supervisor · Run report at 17:00 BST · last mark 02:05 BST on 20 October**
 

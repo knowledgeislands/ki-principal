@@ -1,4 +1,4 @@
-# [KI > SoP](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/work.md) › accept-review
+# [KI > SoP](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/work.md) › accept-review
 
 **🤖 → 👤 Handoff to supervisor · Run report at 01:50 GMT · last mark 16:17 GMT (29 October)**
 
@@ -7,7 +7,7 @@
 ## Done
 
 - Independently reviewed both acceptance questions against their records, local delivery history and evidence; recommendations only, with neither record accepted or changed.
-- [KI-TOOL-RIG-CORE-070](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-070-handler-read-back-after-confirmation.md), delivery `e882998`: inspected the confirmation loop, outcome reporting, bridge tests and guide; the remaining attended check is explicitly required by Verify on either Mac.
+- [KI-TOOL-RIG-CORE-070](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-070-handler-read-back-after-confirmation.md), delivery `e882998`: inspected the confirmation loop, outcome reporting, bridge tests and guide; the remaining attended check is explicitly required by Verify on either Mac.
 - Rig delivery checks: the record reports 648 tests passing and the listed executable, assembly, benchmark, native-provider and manual checks passing; it also records a pre-existing repository-audit failure, so the full gate was not unconditionally clean.
 - Rig re-check: the brief reports 22 default-applications tests, shellcheck and assembly passing today; these were not rerun during this read-only review.
 - [PERSONAL-DOTFILES-UE-106](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-106-apply-tower-assistant-at-applications.md), review packet `9667f9e`: inspected the relocation evidence and the separate apps-tower records; the approved fourteen-file cleanup and both machines' missing-path checks are recorded as complete.
@@ -23,7 +23,7 @@ Outstanding - no action requested now: sol's unrelated doctor findings stay with
 
 ## Queries
 
-### ACCEPT-KI-TOOL-RIG-CORE-070 - [Accept the default-handler confirmation wait](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-070-handler-read-back-after-confirmation.md)
+### ACCEPT-KI-TOOL-RIG-CORE-070 - [Accept the default-handler confirmation wait](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-070-handler-read-back-after-confirmation.md)
 
 **Context:** The implementation and fixture tests support the bounded wait and first-run success path, but the positive test supplies an explicit timeout and simulates the native response. They do not establish the real terminal-to-macOS-prompt behaviour. Verify explicitly requires one attended successful apply on terra or sol, and that check remains outstanding. Declined and unanswered prompts sharing an outcome is an acknowledged observation limit; piped input receiving no default wait follows the documented stdin-terminal rule and has an override. Neither concern alone warrants requiring two machines. The record also discloses the pre-existing audit exception. What would change my mind: dated evidence that the delivered implementation already passed the real prompt check would support immediate acceptance; a first-run failure after accepting within the bound would require further implementation work. Evidence of different behaviour between the Macs would justify checking both.
 

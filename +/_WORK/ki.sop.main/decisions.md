@@ -10,7 +10,7 @@
 
 ## 2026-10-09 - PIN
 
-- PIN (Kris, 9 October): tools-ki CI builds ki from its own source; homed under DECISION-HOMES in the tools-ki CI guide, which ki.prj.tools-burndown is writing ([messages](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.tools-burndown/messages.md)).
+- PIN (Kris, 9 October): tools-ki CI builds ki from its own source; homed under DECISION-HOMES in the tools-ki CI guide, which ki.prj.tools-burndown is writing ([messages](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.tools-burndown/messages.md)).
 
 ## 2026-10-11 - macOS defaults split parked
 
@@ -22,7 +22,7 @@
 
 ## 2026-10-12 - SPEC-REVIEW
 
-- SPEC-REVIEW (Kris, 12 October): homed in [ki.prj.portable-specifications' decisions](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.portable-specifications/decisions.md); its KI-RELEASE half is spent.
+- SPEC-REVIEW (Kris, 12 October): homed in [ki.prj.portable-specifications' decisions](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.portable-specifications/decisions.md); its KI-RELEASE half is spent.
 
 ## 2026-10-12 - Other territories parked
 
@@ -34,15 +34,15 @@
 
 ## 2026-10-14 - ROADMAP-SIZING
 
-- ROADMAP-SIZING (Kris, 14 October): one design record to ways-of-working; carried in [ki.prj.ways-of-working's roadmap-sizing design note](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/aside/roadmap-sizing-and-burn-down.md).
+- ROADMAP-SIZING (Kris, 14 October): one design record to ways-of-working; carried in [ki.prj.ways-of-working's roadmap-sizing design note](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/aside/roadmap-sizing-and-burn-down.md).
 
 ## 2026-10-15 - FW-ADR
 
-- FW-ADR (Kris, 15 October): a passing acceptance run accepts KI-TOOL-RIG-CORE-047 and marks ADR-KI-TOOL-RIG-009 and ADR-KI-TOOL-RIG-010 accepted; governs [KI-TOOL-RIG-CORE-047](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md)'s acceptance, in progress with ki.prj.chezmoi.
+- FW-ADR (Kris, 15 October): a passing acceptance run accepts KI-TOOL-RIG-CORE-047 and marks ADR-KI-TOOL-RIG-009 and ADR-KI-TOOL-RIG-010 accepted; governs [KI-TOOL-RIG-CORE-047](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md)'s acceptance, in progress with ki.prj.chezmoi.
 
 ## 2026-10-17 - KI-AGENTS-NAME
 
-- KI-AGENTS-NAME (Kris, 17 October): homed in [ki.prj.ways-of-working's decisions](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/decisions.md) under DECISION-HOMES.
+- KI-AGENTS-NAME (Kris, 17 October): homed in [ki.prj.ways-of-working's decisions](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/decisions.md) under DECISION-HOMES.
 
 ## 2026-10-19 23:09 BST - PILOT-SEED-HOME
 
@@ -50,14 +50,14 @@
 
 ## 2026-10-19 23:45 BST - ANSWERS
 
-- CAPTURE-GATE a) (Kris, 19 October): runs never create records; carried in [ki-next](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-next/references/standards-next-work.md).
+- CAPTURE-GATE a) (Kris, 19 October): runs never create records; carried in [ki-next](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-next/references/standards-next-work.md).
 - **ROADMAP-CAP** (Kris, 19 October): "apart from the roadmap cap, I don't think we need one, I just think we need to focus on what we're doing now, which is to get through it." No cap and no weekly cap measure.
-- LANE-OWNERS a) (Kris, 19 October): one lane per repository group, tools-rig moved to ki.prj.mac-studio-setup and the email-routing drafts passed to HNR since; carried in each lane's decisions ([ki.prj.tools-burndown](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.tools-burndown/decisions.md), [ki.prj.mac-studio-setup](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/decisions.md)).
-- BURN-WAVE-1 a) (Kris, 19 October): each lane runs one `ki-accept` pass and brings Kris its cancel, merge and idea list as one query; carried in each lane's decisions ([ki.prj.tools-burndown](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.tools-burndown/decisions.md), [ki.prj.mac-studio-setup](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/decisions.md)).
+- LANE-OWNERS a) (Kris, 19 October): one lane per repository group, tools-rig moved to ki.prj.mac-studio-setup and the email-routing drafts passed to HNR since; carried in each lane's decisions ([ki.prj.tools-burndown](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.tools-burndown/decisions.md), [ki.prj.mac-studio-setup](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/decisions.md)).
+- BURN-WAVE-1 a) (Kris, 19 October): each lane runs one `ki-accept` pass and brings Kris its cancel, merge and idea list as one query; carried in each lane's decisions ([ki.prj.tools-burndown](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.tools-burndown/decisions.md), [ki.prj.mac-studio-setup](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/decisions.md)).
 
 ## 2026-10-19 23:48 BST - TRIAGE-ALL
 
-- TRIAGE-ALL (Kris, 19 October): every lane triages all its triage records, high-confidence adoptions go to Now and are delivered, the rest come to Kris; carried in each lane ([ki.prj.observatory](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.observatory/decisions.md), [ki.prj.mac-studio-setup](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/decisions.md)).
+- TRIAGE-ALL (Kris, 19 October): every lane triages all its triage records, high-confidence adoptions go to Now and are delivered, the rest come to Kris; carried in each lane ([ki.prj.observatory](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.observatory/decisions.md), [ki.prj.mac-studio-setup](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/decisions.md)).
 
 ## 2026-10-20 00:07 BST - ANSWERS
 
@@ -65,7 +65,7 @@
 
 ## 2026-10-24 16:46 BST - VA-CONSOLIDATE
 
-- VA-CONSOLIDATE (Kris, 24 October): Kris's seven-point model is carried by ki.prj.ways-of-working's model-shape loop ([decisions](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/decisions.md)); the draft is [design/va-consolidation.md](aside/va-consolidation.md).
+- VA-CONSOLIDATE (Kris, 24 October): Kris's seven-point model is carried by ki.prj.ways-of-working's model-shape loop ([decisions](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/decisions.md)); the draft is [design/va-consolidation.md](aside/va-consolidation.md).
 
 ## 2026-10-24 16:53 BST - SOURCE-AGNOSTIC
 
@@ -73,7 +73,7 @@
 
 ## 2026-10-24 17:16 BST - TENDING-XDG-STATE
 
-- TENDING-XDG-STATE (Kris, 24 October): Tending reviews XDG state; folded into ki.prj.ways-of-working's [Tending design](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/aside/tending.md).
+- TENDING-XDG-STATE (Kris, 24 October): Tending reviews XDG state; folded into ki.prj.ways-of-working's [Tending design](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/aside/tending.md).
 
 ## 2026-10-25 · PROJECT-CLOSE
 
@@ -85,7 +85,7 @@
 
 ## 2026-10-28 · SYNC-RECIPE (Kris, conversational)
 
-- SYNC-RECIPE: `mgit sync` as a recipe on the chain engine, used by the dotfiles and regular syncing; routed to [ki.prj.tools-burndown](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.tools-burndown/messages.md) and [ki.prj.chezmoi](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.chezmoi/messages.md). MGIT-CHAIN is carried by [KI-TOOL-MGIT-CLI-032](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-032-chain-command.md) and its parked ACCEPT query.
+- SYNC-RECIPE: `mgit sync` as a recipe on the chain engine, used by the dotfiles and regular syncing; routed to [ki.prj.tools-burndown](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.tools-burndown/messages.md) and [ki.prj.chezmoi](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.chezmoi/messages.md). MGIT-CHAIN is carried by [KI-TOOL-MGIT-CLI-032](/Users/krisbrown/kis/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-032-chain-command.md) and its parked ACCEPT query.
 
 ## 2026-10-28 · SYNC-ACTIVITY (Kris, conversational)
 
@@ -172,3 +172,4 @@
 - REG-ENTRY (personal.reg.assistant-sol, under Kris's REG-HOME a and REG-PILOT a): `workers:` entry added to `state.md`; reply waits on the assistant repository publishing.
 - DESKTOP-RESET and BACKUPS-DELETE (ki.prj.ways-of-working, 1 Nov): already sent to ki.prj.chezmoi as MOVE-PROCEDURE-STEPS; noted, removed.
 - amend-race received (harness `ec5d7bd8`): AMEND-RACE done; its GITCONFIG-AUTOSTASH query copied to discussions.
+- handover-intake received (`a70531f9`, `2b770cc0`): four handovers acknowledged; ki.prj.tools-burndown released on Kris's 31 October words "Release it, one fix at a time"; 121 files repointed to ~/kis; queries CHEZMOI-FOLD and UNTRACKED-REPORTS copied to discussions; its WAITING-LINES and PARKED findings stay in the report until the Summary.

@@ -1,14 +1,14 @@
 # VA consolidation - messages from VA > SoP, grouped by theme
 
-Draft for Kris, written by run va-consolidate under VA-CONSOLIDATE (Kris, 24 October 2026 16:46 BST, in [decisions.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/decisions.md)): "Consolidate messages from VA > SoP (va) in your messages.md into one clear, coherent set ... Keep Kris's quoted words in each; source." Read-only analysis: no `messages.md` line, standard, skill, Work Process note or record has been changed or created. The queries this note raises are in the run report.
+Draft for Kris, written by run va-consolidate under VA-CONSOLIDATE (Kris, 24 October 2026 16:46 BST, in [decisions.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/decisions.md)): "Consolidate messages from VA > SoP (va) in your messages.md into one clear, coherent set ... Keep Kris's quoted words in each; source." Read-only analysis: no `messages.md` line, standard, skill, Work Process note or record has been changed or created. The queries this note raises are in the run report.
 
 Sources read:
 
-- [ki messages.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/messages.md) and [ki.prj.ways-of-working messages.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/messages.md), the va lines in each, cited by tag.
+- [ki messages.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/messages.md) and [ki.prj.ways-of-working messages.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/messages.md), the va lines in each, cited by tag.
 - [va decisions.md](/Users/krisbrown/workspaces/valle-armonia/va-principal/+/_WORK/va/decisions.md), current, with the pruned HTTPS-OTHERS and SANCTUARY-RELATION answers at its [pinned revision `d41e504`](https://github.com/vallearmonia/va-principal/blob/d41e504/+/_WORK/va/decisions.md).
-- The coordination standard, [standards-coordination.md](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md), and [ki-coordination SKILL.md](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/SKILL.md), at harness `main` `57226cdea`.
-- The work package standard, [standards-work-package.md](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md).
-- The [Work Process note](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Work Process/Work Process.md>).
+- The coordination standard, [standards-coordination.md](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md), and [ki-coordination SKILL.md](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/SKILL.md), at harness `main` `57226cdea`.
+- The work package standard, [standards-work-package.md](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md).
+- The [Work Process note](</Users/krisbrown/kis/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Work Process/Work Process.md>).
 
 Kris's seven-point model, as VA-CONSOLIDATE states it, is the yardstick:
 
@@ -34,7 +34,7 @@ Kris's words:
 
 Replaces: SUMMARY-SINCE-MARK, SUMMARY-OUTSTANDING (its reporting part).
 
-**Already done.** The working-area part of SUMMARY-OUTSTANDING is in Tending: harness `fdb407ebd` and ki-principal `3a575852` (level 3 working-area and package-tidy questions in [tending.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/aside/tending.md)). Push state is already kept out of owner reports and banners by the Banner section of the coordination standard.
+**Already done.** The working-area part of SUMMARY-OUTSTANDING is in Tending: harness `fdb407ebd` and ki-principal `3a575852` (level 3 working-area and package-tidy questions in [tending.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/aside/tending.md)). Push state is already kept out of owner reports and banners by the Banner section of the coordination standard.
 
 **Conflicts with the standards.**
 
@@ -135,7 +135,7 @@ Replaces: METHOD, TENDING-ROUND-2, TENDING-GUIDANCE-OVERLAP, TENDING-ROADMAP, an
 
 **Pending.**
 
-- [tending-round2-notes.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/tending-round2-notes.md) is not yet folded into [tending.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/aside/tending.md).
+- [tending-round2-notes.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/design/tending-round2-notes.md) is not yet folded into [tending.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/aside/tending.md).
 - Level 3 has no explicit AGENTS.md, CLAUDE.md and agent-memory overlap check.
 - Level 4 has no cross-repository guidance-promotion question.
 
@@ -159,8 +159,8 @@ Replaces: TENDING-SIZES.
 
 **Conflicts with the standards.**
 
-- `ki-work-roadmap` [standards-work-item-format.md](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/change-management/ki-work-roadmap/references/standards-work-item-format.md), Priority and size: `size` is `s`, `m`, `l` or `xl`, and `xl` must be split before Ready. There is no `xs`, yet BIND-2 was labelled 👕 XS.
-- [roadmap-sizing-and-burn-down.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/aside/roadmap-sizing-and-burn-down.md) (14 October) still describes Fibonacci points 1 to 13, superseded by the `size` field.
+- `ki-work-roadmap` [standards-work-item-format.md](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-work-roadmap/references/standards-work-item-format.md), Priority and size: `size` is `s`, `m`, `l` or `xl`, and `xl` must be split before Ready. There is no `xs`, yet BIND-2 was labelled 👕 XS.
+- [roadmap-sizing-and-burn-down.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/aside/roadmap-sizing-and-burn-down.md) (14 October) still describes Fibonacci points 1 to 13, superseded by the `size` field.
 
 **Conflicts with the model.** None.
 
@@ -174,7 +174,7 @@ Replaces: TENDING-SIZES.
 
 **Line.** Kris (ki messages.md, from va, 23 October 20:30 BST): "I want the skill updating so that this is the default for cloudflare deployed sites with their own domains", meaning Always Use HTTPS on every Cloudflare-deployed zone with its own domain. The pruned va answer HTTPS-OTHERS at [`d41e504`](https://github.com/vallearmonia/va-principal/blob/d41e504/+/_WORK/va/decisions.md) reads "a, and I want skill updating so default cloudflare deployed sites with own domains".
 
-**Already done.** Nothing in KI: [standards-cloudflare-hosting.md](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/repo-structure/ki-repo-website-cloudflare/references/standards-cloudflare-hosting.md) has no Always Use HTTPS rule, and no harness record exists.
+**Already done.** Nothing in KI: [standards-cloudflare-hosting.md](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/repo-structure/ki-repo-website-cloudflare/references/standards-cloudflare-hosting.md) has no Always Use HTTPS rule, and no harness record exists.
 
 **Conflicts.** None with the standards or the model.
 
@@ -184,7 +184,7 @@ Replaces: TENDING-SIZES.
 
 ### G. `node_modules` ignore rule and symlinks
 
-**Line.** ki messages.md, from va, 23 October 23:05 BST: the managed `node_modules/` rule does not match a symlink, and FILES-6 (`LEGACY_EQUIVALENTS` in [gitignore.ts](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/keystone/ki-repo/scripts/rubric/contexts/gitignore.ts), lines 39 and 40) strips `/node_modules` as a legacy equivalent. A dangling `node_modules` symlink in apps-vallearmonia.com `ece7827` hung Workers Builds; that repository is fixed at the script level in `a13802c`. No Kris quote.
+**Line.** ki messages.md, from va, 23 October 23:05 BST: the managed `node_modules/` rule does not match a symlink, and FILES-6 (`LEGACY_EQUIVALENTS` in [gitignore.ts](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/keystone/ki-repo/scripts/rubric/contexts/gitignore.ts), lines 39 and 40) strips `/node_modules` as a legacy equivalent. A dangling `node_modules` symlink in apps-vallearmonia.com `ece7827` hung Workers Builds; that repository is fixed at the script level in `a13802c`. No Kris quote.
 
 **Already done.** Only the va repository's own fix.
 
@@ -196,9 +196,9 @@ Replaces: TENDING-SIZES.
 
 ### H. Harness root orientation
 
-**Line.** HARNESS-ORIENTATION (ki messages.md, VA > SoP, Project [baseline-rollout](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/baseline-rollout.md), 👕 S): the compatible-harness standard puts root orientation in `CLAUDE.md`, `ki-repo` makes `AGENTS.md` authoritative, the scaffold writes neither and no rubric item checks it; the Equal Remedy, Techmedix, Sacred Inquiry, Legal and Personal harnesses lack it. No Kris quote.
+**Line.** HARNESS-ORIENTATION (ki messages.md, VA > SoP, Project [baseline-rollout](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/baseline-rollout.md), 👕 S): the compatible-harness standard puts root orientation in `CLAUDE.md`, `ki-repo` makes `AGENTS.md` authoritative, the scaffold writes neither and no rubric item checks it; the Equal Remedy, Techmedix, Sacred Inquiry, Legal and Personal harnesses lack it. No Kris quote.
 
-**Conflicts with the standards.** [standards-compatible-harness.md](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/repo-structure/ki-repo-harness/references/standards-compatible-harness.md), Root orientation ("The source-harness `CLAUDE.md` is its runtime-bound orientation") against [standards-repository.md](/Users/krisbrown/workspaces/knowledge-islands/ki-agentic-harness/skills/keystone/ki-repo/references/standards-repository.md) lines 47 to 51 (root `AGENTS.md` authoritative for multi-runtime repositories). None with the model.
+**Conflicts with the standards.** [standards-compatible-harness.md](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/repo-structure/ki-repo-harness/references/standards-compatible-harness.md), Root orientation ("The source-harness `CLAUDE.md` is its runtime-bound orientation") against [standards-repository.md](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/keystone/ki-repo/references/standards-repository.md) lines 47 to 51 (root `AGENTS.md` authoritative for multi-runtime repositories). None with the model.
 
 **Proposed change.** A standard edit to `ki-repo-harness` Root orientation, pointing at root `AGENTS.md` with `CLAUDE.md` importing it, plus a scaffold and rubric item. Whether a record may be captured is unclear under CAPTURE-GATE: it is a Tending finding of a standards conflict, not a defect seen failing, and not a Kris request.
 
@@ -208,7 +208,7 @@ Replaces: TENDING-SIZES.
 
 **Line.** SANCTUARY-STAGE5 (ki messages.md, from va, 24 October 01:54 BST): Kris wants the Sanctuary to be "a package effectively that is available in the Knowledge Islands". Kris decided (SANCTUARY-RELATION a, "VA 2-4, KI 5", pruned at [`d41e504`](https://github.com/vallearmonia/va-principal/blob/d41e504/+/_WORK/va/decisions.md)) that Valle Armonia delivers stages 2 to 4 of [ADR-VA-WEBSITE-009](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/decisions/ADR-VA-WEBSITE-009-the-sanctuary-becomes-a-shared-editorial-library.md) under va Project `sanctuary-library`, and KI takes stage 5: a separate, vendored package repository. va asks KI to agree, or say what it needs, before [VA-WEBSITE-SANC-008](/Users/krisbrown/workspaces/valle-armonia/apps-vallearmonia.com/docs/roadmap/VA-WEBSITE-SANC-008-package-the-sanctuary.md) is readied. At stage 4 va hands over code, fixtures and adapter contracts; KI then decides Project, repository, priority and acceptance. packages-portal-commons is the nearest precedent.
 
-**Related.** SANC008-SPLIT (split stage 4 out of VA-WEBSITE-SANC-008) is parked in [ki.prj.baseline-rollout queries.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.baseline-rollout/discussions.md).
+**Related.** SANC008-SPLIT (split stage 4 out of VA-WEBSITE-SANC-008) is parked in [ki.prj.baseline-rollout queries.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.baseline-rollout/discussions.md).
 
 **Conflicts.** None with the standards or the model. Needs a Kris decision: KI has no Project for it.
 

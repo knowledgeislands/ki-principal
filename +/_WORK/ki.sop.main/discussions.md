@@ -6,7 +6,7 @@
 
 focus: acceptance
 
-**Context:** [KI-TOOL-RIG-CORE-070](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-070-handler-read-back-after-confirmation.md) has been awaiting review since 27 October (commit `e882998`). It changes how `rig apply` sets a default app for a file type, such as Zed for `.toml`. When macOS asks you to confirm the change, Rig used to check straight away, see the old app and record a failure, so a second run was needed. Now it waits up to 120 seconds when run from a terminal, and not at all when unattended, with an environment variable to override the wait. It reports four outcomes separately: confirmed, unanswered or declined, unattended, and ineffective. The full test suite (648 tests) and the gate passed at delivery. Today's read-only re-check passed the default-applications tests (22 of 22, both new tests included), shellcheck and the assembly check. Not yet done: the record's own attended check, a real `rig apply` that raises the macOS prompt, which only you can do. sol currently has `.toml` opening in VS Code instead of Zed, so a `rig apply` there would raise that prompt. Two concerns remain: a declined prompt looks the same as an unanswered one, and a run piped from a terminal gets no wait unless the variable is set.
+**Context:** [KI-TOOL-RIG-CORE-070](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-070-handler-read-back-after-confirmation.md) has been awaiting review since 27 October (commit `e882998`). It changes how `rig apply` sets a default app for a file type, such as Zed for `.toml`. When macOS asks you to confirm the change, Rig used to check straight away, see the old app and record a failure, so a second run was needed. Now it waits up to 120 seconds when run from a terminal, and not at all when unattended, with an environment variable to override the wait. It reports four outcomes separately: confirmed, unanswered or declined, unattended, and ineffective. The full test suite (648 tests) and the gate passed at delivery. Today's read-only re-check passed the default-applications tests (22 of 22, both new tests included), shellcheck and the assembly check. Not yet done: the record's own attended check, a real `rig apply` that raises the macOS prompt, which only you can do. sol currently has `.toml` opening in VS Code instead of Zed, so a `rig apply` there would raise that prompt. Two concerns remain: a declined prompt looks the same as an unanswered one, and a run piped from a terminal gets no wait unless the variable is set.
 
 **Query:** Do you accept KI-TOOL-RIG-CORE-070 as done?
 
@@ -38,7 +38,7 @@ c) Leave it awaiting review until apps-tower's attended checks (PERSONAL-TOWER-A
 
 focus: chain
 
-**Context:** [KI-TOOL-MGIT-CLI-032](/Users/krisbrown/workspaces/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-032-chain-command.md), "Chain Git commands", was delivered on 28 October under MGIT-CHAIN and is Awaiting review: `mgit chain ... --then ...`, stop-at-first-failure per repository, recipes via `git config mgit.chain.<name>` and as top-level `mgit <name>`, docs and spec MGIT-WS-028; 151 of 151 bats tests pass. One pre-existing audit failure (SHELL-HOOK on `.githooks/pre-commit`) is untouched. No release cut.
+**Context:** [KI-TOOL-MGIT-CLI-032](/Users/krisbrown/kis/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-032-chain-command.md), "Chain Git commands", was delivered on 28 October under MGIT-CHAIN and is Awaiting review: `mgit chain ... --then ...`, stop-at-first-failure per repository, recipes via `git config mgit.chain.<name>` and as top-level `mgit <name>`, docs and spec MGIT-WS-028; 151 of 151 bats tests pass. One pre-existing audit failure (SHELL-HOOK on `.githooks/pre-commit`) is untouched. No release cut.
 
 **Query:** Review and accept it now, after CHAIN-QUIET, CHAIN-START-ENTER and CHAIN-START-FIRST are settled?
 
@@ -204,6 +204,32 @@ a) (recommended, confidence high - it caused the 3 November conflict and your ne
 
 b) Keep the setting and rely on every session overriding it on each pull.
 
+### CHEZMOI-FOLD - Fold the chezmoi Project into the household works now
+
+**Context:** [ki.prj.chezmoi](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.chezmoi/state.md) has been with you since 24 October and has 42 waiting lines. On 1 November you said it folds into the household works (household-terra and household-sol), through a short handover note followed by a hold. That was relayed as the IMPORTANT HANDOVER-HOUSEHOLD line, and nobody has acted on it. The classification above shows most of its lines are already overtaken or belong to the household works. Since 3 November State of play coordinates all Knowledge Islands work (SOLE-THREAD). This query has not had the blind review the method asks for medium-confidence queries; ki.sop.main should run one before it reaches you.
+
+**Query:** May State of play take ki.prj.chezmoi back from you and carry out your 1 November fold now?
+
+**Options:**
+
+a) (recommended, confidence medium - it follows your own 1 November words, but taking the work back from you is your move to make) State of play launches one run that writes the handover note, sends each live line to household-terra, household-sol, the tools-rig lane or the harness as classified above, and puts chezmoi On hold pending close-out. Its four open discussions go across with the note.
+
+b) You first answer chezmoi's four open discussions (ACCEPT-UE106, UTM-SOURCE, WARP-CONTAINER, WARP-HANDLER) yourself, then State of play runs the fold.
+
+### UNTRACKED-REPORTS - What happens to other sessions' uncommitted reports in the handed-over packages
+
+**Context:** The four packages hold 11 report files that were never committed (listed under In Progress). The sessions that made them have drained and handed their work to State of play. They keep two packages failing their folder check, and household-sol has asked for one of them (STRAY-REPORTS-SOL). Their outcomes look homed in handover notes and decisions logs, but no one has checked each. Deleting an uncommitted file cannot be undone. Committing one publishes it in ki-principal's public history while the publication question (PUBLICATION-ONE) is open. This query has not had a blind review.
+
+**Query:** How should State of play deal with these uncommitted reports?
+
+**Options:**
+
+a) (recommended, confidence medium - this clears the folders without publishing anything, but the homes are not yet checked and deletion is final) One bounded State of play run takes each report in: it checks the report's outcome has a home, copies any open questions into its package's discussions, then deletes it by explicit path. It keeps any report whose home is unclear and lists those for you.
+
+b) Commit each report into its package's focus folder, keeping it in Git history but making it public.
+
+c) Leave them where they are for now.
+
 ## Parked
 
 ### ACCEPT-CHEZMOI - accept the chezmoi latest-source record
@@ -259,7 +285,7 @@ c) Leave it awaiting review until you have time for the render checks.
 
 focus: acceptance
 
-**Context:** [KI-PRINCIPAL-MOD-009 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/da027e6d/Streams/Roadmap/KI-PRINCIPAL-MOD-009-amend-adr-001-staging-wording.md) amended [ADR-KI-PRINCIPAL-001](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/ADR-KI-PRINCIPAL-001-provider-neutral-knowledge-acquisition.md) and the [Acquisition Process](</Users/krisbrown/workspaces/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md>) in `3b1ade21` on 23 October. The changes stage material outside the receiving island, make delivery into `+/_ACQUIRED/` package acceptance, and call Acquire the port and sorting office, as CUSTOMS-WORDS a) approved. Checks pass on the delivered files. One problem: the rewritten Context sentence at line 18 says "The Harbour defined in SDR-KI-PRINCIPAL-002 is the island's incoming working area". [GDR-KI-PRINCIPAL-010](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-010-the-port.md) retired Harbour as a Knowledge Islands term on 18 October and made `+/` the Port's inbound side. The delivery therefore wrote a retired term back into a current ADR in the present tense. The References line describing SDR-KI-PRINCIPAL-002 is accurate as history. Against that, GDR-KI-PRINCIPAL-010's Consequences keep Harbour wording in earlier Decision Records as a historical record, to be read as the Port; but this sentence was rewritten in `3b1ade21`, after that decision.
+**Context:** [KI-PRINCIPAL-MOD-009 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/da027e6d/Streams/Roadmap/KI-PRINCIPAL-MOD-009-amend-adr-001-staging-wording.md) amended [ADR-KI-PRINCIPAL-001](/Users/krisbrown/kis/knowledge-islands/ki-principal/Admin/Governance/Decisions/ADR-KI-PRINCIPAL-001-provider-neutral-knowledge-acquisition.md) and the [Acquisition Process](</Users/krisbrown/kis/knowledge-islands/ki-principal/Pillars/Philosophy/Model/Processes/Acquisition Process/Acquisition Process.md>) in `3b1ade21` on 23 October. The changes stage material outside the receiving island, make delivery into `+/_ACQUIRED/` package acceptance, and call Acquire the port and sorting office, as CUSTOMS-WORDS a) approved. Checks pass on the delivered files. One problem: the rewritten Context sentence at line 18 says "The Harbour defined in SDR-KI-PRINCIPAL-002 is the island's incoming working area". [GDR-KI-PRINCIPAL-010](/Users/krisbrown/kis/knowledge-islands/ki-principal/Admin/Governance/Decisions/GDR-KI-PRINCIPAL-010-the-port.md) retired Harbour as a Knowledge Islands term on 18 October and made `+/` the Port's inbound side. The delivery therefore wrote a retired term back into a current ADR in the present tense. The References line describing SDR-KI-PRINCIPAL-002 is accurate as history. Against that, GDR-KI-PRINCIPAL-010's Consequences keep Harbour wording in earlier Decision Records as a historical record, to be read as the Port; but this sentence was rewritten in `3b1ade21`, after that decision.
 
 **Query:** Return KI-PRINCIPAL-MOD-009 to implementation for a one-sentence fix of the Harbour wording, or accept it as it stands?
 
@@ -303,7 +329,7 @@ b) Leave both awaiting review.
 
 focus: aside
 
-**Context:** [ki.prj.agent-host](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.agent-host/work.md) has sat With worker with no live session, and Kris's own IMPORTANT DRAIN line of 22 October is still unread at the top of its `messages.md`, with the two REFRESH lines beside it. No run can drain another work on State of play's authority.
+**Context:** [ki.prj.agent-host](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.agent-host/work.md) has sat With worker with no live session, and Kris's own IMPORTANT DRAIN line of 22 October is still unread at the top of its `messages.md`, with the two REFRESH lines beside it. No run can drain another work on State of play's authority.
 
 **Query:** Open the agent host thread so it takes DRAIN and REFRESH first?
 
@@ -345,7 +371,7 @@ b) Kris reviews the present plan now and a ki-plan run sets it to Ready.
 
 focus: aside
 
-**Context:** Under PROJECT-CLOSE a) (25 October) the retirement is prepared in [design/estate-factorisation-retirement.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/aside/estate-factorisation-retirement.md): settle HOST-WRITES, ALIAS-OWNERS and RIG-REFS, route the parked queries to their works by message, then Kris accepts the close. Nothing is applied yet.
+**Context:** Under PROJECT-CLOSE a) (25 October) the retirement is prepared in [design/estate-factorisation-retirement.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/aside/estate-factorisation-retirement.md): settle HOST-WRITES, ALIAS-OWNERS and RIG-REFS, route the parked queries to their works by message, then Kris accepts the close. Nothing is applied yet.
 
 **Query:** Proceed with steps 1 and 2 of the note, with the close itself waiting for your acceptance?
 
@@ -359,7 +385,7 @@ b) Amend the note first.
 
 focus: aside
 
-**Context:** [ki.prj.knowledge-acquisition](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.knowledge-acquisition/work.md) has been Finished since 20 October on Kris's word, all its decisions homed; its [Project](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/knowledge-acquisition.md) is `completed`, and its own next step is to delete the folder in one commit at the closing mark and archive its runs. State of play may not remove another work's folder on its own authority.
+**Context:** [ki.prj.knowledge-acquisition](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.knowledge-acquisition/work.md) has been Finished since 20 October on Kris's word, all its decisions homed; its [Project](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/knowledge-acquisition.md) is `completed`, and its own next step is to delete the folder in one commit at the closing mark and archive its runs. State of play may not remove another work's folder on its own authority.
 
 **Query:** Should a bounded run close it now?
 
@@ -373,7 +399,7 @@ b) Leave the folder until Kris opens that work's thread.
 
 focus: aside
 
-**Context:** `+/_WORK/ki.specifications/` has no `work.md` and holds 25 untracked run reports (plan, draft-review, revise, query-review, home-plan and others) from 24 October 21:10, so the work-package audit fails STRUCTURE-1. The [Specifications](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Streams/Projects/specifications.md) Project is paused and a separate [ki.prj.portable-specifications](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.prj.portable-specifications/work.md) package exists. Which session produced the reports is not known; nothing has been touched.
+**Context:** `+/_WORK/ki.specifications/` has no `work.md` and holds 25 untracked run reports (plan, draft-review, revise, query-review, home-plan and others) from 24 October 21:10, so the work-package audit fails STRUCTURE-1. The [Specifications](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/specifications.md) Project is paused and a separate [ki.prj.portable-specifications](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.portable-specifications/work.md) package exists. Which session produced the reports is not known; nothing has been touched.
 
 **Query:** Which session or work owns these reports?
 
@@ -411,7 +437,7 @@ focus: aside
 
 **Options:**
 
-a) (recommended, confidence high - reviewed: each delivery can be bounded on its own without reopening a finished outcome; the open Codex states and cleanup policy are settled at planning) Route both to [ki.reg.main](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.reg.main/work.md) as separate pieces of harness skill work.
+a) (recommended, confidence high - reviewed: each delivery can be bounded on its own without reopening a finished outcome; the open Codex states and cleanup policy are settled at planning) Route both to [ki.reg.main](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.reg.main/work.md) as separate pieces of harness skill work.
 
 b) Route both to ki.prj.ways-of-working.
 
@@ -439,7 +465,7 @@ c) Decline for now; Valle Armonia keeps the Sanctuary.
 
 focus: aside
 
-**Context:** The eight Capitals share 21 core skills but differ on `ki-work-roadmap`, `ki-work-recurring`, Paperclip, acquisition skills, configuration and `AGENTS.md` shape ([skills-assessment.report.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/aside/skills-assessment.report.md)).
+**Context:** The eight Capitals share 21 core skills but differ on `ki-work-roadmap`, `ki-work-recurring`, Paperclip, acquisition skills, configuration and `AGENTS.md` shape ([skills-assessment.report.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/aside/skills-assessment.report.md)).
 
 **Query:** Should one baseline become the standard for every Capital?
 
@@ -501,7 +527,7 @@ c) Leave legal unchanged.
 
 focus: aside
 
-**Context:** hnr's `AGENTS.md` is out of shape against the Capital baseline and carries a stale Headroom block ([skills-assessment.report.md](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/aside/skills-assessment.report.md)).
+**Context:** hnr's `AGENTS.md` is out of shape against the Capital baseline and carries a stale Headroom block ([skills-assessment.report.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/aside/skills-assessment.report.md)).
 
 **Query:** Should hnr rewrite it?
 

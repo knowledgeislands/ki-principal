@@ -25,7 +25,7 @@ workers:
 
 - Under BASELINE-CLEAN, State of play tends every KI package except ki.prj.ways-of-working and ki.prj.observatory, bringing each to a clean baseline; this package is tidied.
 - The queue is empty; nine queries are open and 22 parked, eight of them overtaken by events.
-- [KI-TOOL-RIG-CORE-047](/Users/krisbrown/workspaces/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md) stays in progress with ki.prj.chezmoi.
+- [KI-TOOL-RIG-CORE-047](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md) stays in progress with ki.prj.chezmoi.
 
 ## Queue
 

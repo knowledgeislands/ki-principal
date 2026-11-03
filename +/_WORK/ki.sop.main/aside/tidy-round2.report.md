@@ -1,4 +1,4 @@
-# [Knowledge Islands](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/Admin/Governance/Charter.md) › State of play › tidy-round2
+# [Knowledge Islands](/Users/krisbrown/kis/knowledge-islands/ki-principal/Admin/Governance/Charter.md) › State of play › tidy-round2
 
 **🤖 → 👤 Handoff to supervisor · Run report at 01:17 GMT · last mark 01:01 GMT**
 
@@ -10,7 +10,7 @@
 - Mechanical fixes: dropped `None.` beside message lines in four works; gave mac-studio-setup's 51 unheaded decision lines their own `## <date> - <tag>` headings, text unchanged; put tools-burndown's three-tag RUNHOME-RENAME line in standard form; disposed the superseded 25 October TIDY lines in agent-host, mac-studio-setup and tools-burndown, whose fixes were already done or are carried forward.
 - `state.md` has no Outstanding section under the closed schema, so each judgement item went in as a Next steps line instead: long message lines (other senders' text) in seven works; mac-studio-setup's `design/adobe-remove.sh` waits on Kris's ADOBE-SCRIPT-HOME.
 - Kept, as in doubt: mac-studio-setup's hostkey-check and ssh-keyonly reports, which its Held items link as live at-screen instructions; tools-burndown's four briefs, left to WORK-TIDY's steward.
-- [ki.sop.main](/Users/krisbrown/workspaces/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/state.md) receipt dae69c44: deleted `resolve-close.report.md` and this brief.
+- [ki.sop.main](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/state.md) receipt dae69c44: deleted `resolve-close.report.md` and this brief.
 - Package check across `+/_WORK/`: passed for 9 of the 11 works; overall it went from 11 failures and 91 warnings to 6 failures and 90 warnings. Before → after (fail/warn):
 
 | Work | Before | After |
