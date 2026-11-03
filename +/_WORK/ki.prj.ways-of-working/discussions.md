@@ -2,6 +2,38 @@
 
 ## Open
 
+None; all open points parked on 3 November 2026 at DRAIN-TO-SOP, for ki.sop.main to take up.
+
+## Answered
+
+- LAYOUT-SHAPE, LAYOUT-GROUP-TIDY - answered by Kris's focus-area layout (PILOT-ON-PILLARS, 2 November 2026).
+- DRYRUN-FORCE - a (2 November 2026, via assistant-terra).
+- TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT; BROKEN-LINKS-HISTORY - a (all 1 November 2026; see decisions.md).
+- TOP-LEVEL-SWEEP-DELETE - a (1 November 2026): only stewards delete old reports.
+- TOP-LEVEL-NOW - a (1 November 2026): reports into `reports/` now.
+- ORCA-REACH - answered a) on 30 October 2026, follow-up due 6 November 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
+- AGENT-HOME - answered a) on 30 October 2026, follow-up due 2 November 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
+- WAKE-SESSION - answered a) on 30 October 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
+- WAKE-DURABLE - answered a) on 30 October 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
+- WORKTREE-OPTOUT - answered a) on 30 October 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
+- HOST-REVIEW - supply the missing common-brief review packet. Answered a) on 30 October 2026, "proceed with the recommendation, then refine additional HOST-* based on that review"; see [Owner answers, 30 October 2026, 06:15 GMT](decisions.md#owner-answers-30-october-2026-0615-gmt). Delivered as the [merged host-sync report](host-sync/report.md).
+- ORCA-ENV-LEAK - acted on 30 October 2026 under Kris's ORCA-SUBAGENTS words: sent to ki.prj.tools-burndown; see [ORCA-SUBAGENTS](decisions.md#orca-subagents---ki-agent-runs-appear-as-orca-sub-agents-30-october-2026-1610-gmt).
+- WORKER-WAIT-MIDTURN - An orchestrator turn moves nothing. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+- AMEND-RACE - Guard amends in a shared checkout. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+- ORCH-NAME-THREAD - answered b) by Kris on 31 October 2026, keep `ki-coordination` and `ki-coordinator`; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+- LAYOUT-PILOT-ORDER - When the pilot moves files. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+- REVIEW-CHALLENGE - Let reviews challenge earlier decisions, visibly. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+- REVIEW-LIFT - Precedent earns no confidence. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+- READ-FEEDBACK-NOW - Feedback packages before the Observatory can write them. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+- ORCA-CLOSE-OUT - Make worker release part of KI coordinator close-out. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+- ORCA-SUBAGENT-PILOT - Prove the Orca worker path before changing tools-ki. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+- ORCA-PLACEMENT - Which Orca route Part B takes. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+- ORCA-QUEUE - answered a) by Kris on 31 October 2026, Orca first while the parent chat is live, detached otherwise; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
+
+## Parked
+
+### Parked 3 November 2026 at DRAIN-TO-SOP
+
 ### AGENDA
 
 Ordered for the next pass; refreshed on 1 November after the HNR and Orca blind reviews. Each decision bundle takes every part's recommended option unless you pick a part out.
@@ -1321,34 +1353,6 @@ a) (recommended, confidence high - reviewed; this keeps a real cross-check again
 b) Read `attachment_count` and accept a meeting when its screenshots are no more than that count. This is quicker but a weaker check.
 
 c) Leave the importer as it is and ask Granola whether `screenshot_count` is coming back. Meetings with screenshots stay withheld until then.
-
-## Answered
-
-- LAYOUT-SHAPE, LAYOUT-GROUP-TIDY - answered by Kris's focus-area layout (PILOT-ON-PILLARS, 2 November 2026).
-- DRYRUN-FORCE - a (2 November 2026, via assistant-terra).
-- TOP-LEVEL-NOW - a; TOP-LEVEL-SWEEP-DELETE - a; TOP-LEVEL-SWEEP-MOVE - a, SWEEP-SCOPE all 17; DISCUSSIONS - b; SYNC-SNAPSHOT-ADOPT - a; WORKER-WAIT-MEANING, -QUEUED, -GATED, -DELIVERY - a; HOST-CADENCE, -COVERAGE, -SECONDARY-PUBLISH, -READBACK superseded; INBOX-ARMED, -CADENCE closed, INBOX-VERB, CODEX-WAKE, SENDER-NUDGE - a; ACQ-TEXT-RECHECK, HOLDING-SCOPE-INTERIM, IDEAS-ROADMAP-HOME, ACQUISITION-PROCESS-NOTE, CAPTURE-MODEL-SETTLED - a; UNLOGGED-QUERIES, DESIGN-GRADUATION, BROKEN-LINKS-LIVE - a under LAYOUT-TOPIC; RENAME-NAME - a ; HOOK-STASH - a; FINISHED-TIDY-KICK - a; ORCH-NAME-DISPATCH - a; PUBLIC-REPORT-AUDIENCE, -RECOVERY - a, awaiting audience and destination; WAKE-HOST - c, sync threads suffice; HOLDING-SCOPE-CARDS - cards mature in Acquire, no rush, move once home decided; IDEAS-ROADMAP-PRINCIPLE folded into IDEAS-REVISIT; BROKEN-LINKS-HISTORY - a (all 1 November 2026; see decisions.md).
-- TOP-LEVEL-SWEEP-DELETE - a (1 November 2026): only stewards delete old reports.
-- TOP-LEVEL-NOW - a (1 November 2026): reports into `reports/` now.
-- ORCA-REACH - answered a) on 30 October 2026, follow-up due 6 November 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
-- AGENT-HOME - answered a) on 30 October 2026, follow-up due 2 November 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
-- WAKE-SESSION - answered a) on 30 October 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
-- WAKE-DURABLE - answered a) on 30 October 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
-- WORKTREE-OPTOUT - answered a) on 30 October 2026; see [Owner answers](decisions.md#owner-answers-30-october-2026-0615-gmt).
-- HOST-REVIEW - supply the missing common-brief review packet. Answered a) on 30 October 2026, "proceed with the recommendation, then refine additional HOST-* based on that review"; see [Owner answers, 30 October 2026, 06:15 GMT](decisions.md#owner-answers-30-october-2026-0615-gmt). Delivered as the [merged host-sync report](host-sync/report.md).
-- ORCA-ENV-LEAK - acted on 30 October 2026 under Kris's ORCA-SUBAGENTS words: sent to ki.prj.tools-burndown; see [ORCA-SUBAGENTS](decisions.md#orca-subagents---ki-agent-runs-appear-as-orca-sub-agents-30-october-2026-1610-gmt).
-- WORKER-WAIT-MIDTURN - An orchestrator turn moves nothing. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
-- AMEND-RACE - Guard amends in a shared checkout. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
-- ORCH-NAME-THREAD - answered b) by Kris on 31 October 2026, keep `ki-coordination` and `ki-coordinator`; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
-- LAYOUT-PILOT-ORDER - When the pilot moves files. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
-- REVIEW-CHALLENGE - Let reviews challenge earlier decisions, visibly. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
-- REVIEW-LIFT - Precedent earns no confidence. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
-- READ-FEEDBACK-NOW - Feedback packages before the Observatory can write them. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
-- ORCA-CLOSE-OUT - Make worker release part of KI coordinator close-out. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
-- ORCA-SUBAGENT-PILOT - Prove the Orca worker path before changing tools-ki. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
-- ORCA-PLACEMENT - Which Orca route Part B takes. Taken a) under ACCEPT-BY-CRITERIA on 31 October 2026; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
-- ORCA-QUEUE - answered a) by Kris on 31 October 2026, Orca first while the parent chat is live, detached otherwise; see [Owner answers during AWAY-31-OCT](decisions.md#owner-answers-during-away-31-oct-0136-gmt-31-october-2026).
-
-## Parked
 
 - HOMES - Existing packages default to the territory Capital, with approved regular/ad hoc exceptions. Local keys and canonical repository identities differ. Explicit metadata must not create a new home or permission. Recommended: a) (confidence high - portable identity and existing authority remain distinct) Use the HOMES model above: optional matching `territory`, omitted `canonical_home` derives Capital, explicit null stays unresolved, supplied identities must resolve uniquely and exceptions retain their approval requirements.
 - EXECUTION - The owner means where work is meant to be running and illustrates the chezmoi repository footprint. Both earlier reviews prefer plural execution hints; neither establishes support in current readers. One declared default can supply a verified launch working directory without replacing canonical package home, explicit unit targets or authority. Recommended: a) (confidence medium - meets the owner's execution intent with lean semantics; launch compatibility remains unproved) Keep singular `execution_home`, unspecified when absent/null, as one default repository/context that can supply a verified launch working directory after explicit work selection, host requirements and unit authority checks. Preserve explicit unit targets and overrides; resolving the directory grants no write authority. Current readers need separately authorised compatibility work; no binding or directory change happens here.
