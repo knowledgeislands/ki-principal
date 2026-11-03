@@ -230,6 +230,18 @@ b) Commit each report into its package's focus folder, keeping it in Git history
 
 c) Leave them where they are for now.
 
+### BOARD-CAPTURE - Whether the harness should also drive the browser for design boards
+
+**Context:** The design-system skill now gives any site the shared region collector, region codes and overlays for an annotated design board (harness `4721d886`). Each site still writes its own browser steps: screenshots, switching components through their states, publishing to its canvas. The harness already drives Chrome inside its diagrams skill, but that code is private to it, and sharing it touches a second skill. Only one site has a board so far.
+
+**Query:** Should the design-system skill get its own capture step now, or only once a second site adopts the board?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed: an independent reviewer also chose to wait, since one site's state setup is too little evidence for a reusable capture plan) Wait for a second site, then add capture by sharing the diagrams skill's Chrome driver.
+
+b) Add a capture step now, sharing the Chrome driver.
+
 ## Parked
 
 ### ACCEPT-CHEZMOI - accept the chezmoi latest-source record
