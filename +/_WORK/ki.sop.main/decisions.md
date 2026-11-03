@@ -173,3 +173,4 @@
 - DESKTOP-RESET and BACKUPS-DELETE (ki.prj.ways-of-working, 1 Nov): already sent to ki.prj.chezmoi as MOVE-PROCEDURE-STEPS; noted, removed.
 - amend-race received (harness `ec5d7bd8`): AMEND-RACE done; its GITCONFIG-AUTOSTASH query copied to discussions.
 - handover-intake received (`a70531f9`, `2b770cc0`): four handovers acknowledged; ki.prj.tools-burndown released on Kris's 31 October words "Release it, one fix at a time"; 121 files repointed to ~/kis; queries CHEZMOI-FOLD and UNTRACKED-REPORTS copied to discussions; its WAITING-LINES and PARKED findings stay in the report until the Summary.
+- board-skill received (harness `4721d886`): ANNOTATED-BOARD-SKILL done; its BOARD-CAPTURE query (medium) is at blind review. tools-ki is free (assistant-sol conform finished), so launcher-paths runs, then run-close, then sub-package, chained.
