@@ -221,3 +221,5 @@
 
 - Read back as taken: "mark". Mark struck at 2026-11-04T01:44:21Z; summary given in the SUMMARY-NOW form. work.md's holding focus renamed `_emerging` under EMERGING-FOCUS.
 - launcher-paths received (tools-ki `8384a731` on branch `launcher-paths`, not pushed): AUDIT-GATE (medium, to blind review) and RENAME-FENCE copied to discussions; PIN-TEST is already queued as granola-follow's CI test fix. run-close is building on `main` without this fix.
+- review-audit-gate received: the reviewer chose holding the launcher fix until the audit completes (high), against the run's push-now (medium). Holding is the course that needs no decision, so AUDIT-GATE is dropped: the fix stays unpushed on its branch, and run audit-hang fixes AUDIT-HANG (already authorised in the method intake) so the audit can complete; then a run pushes it.
+- eda-home received (`eda.design.md`): EDA-HOME (medium) copied to discussions; it and RENAME-FENCE go to blind review.

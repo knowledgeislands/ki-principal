@@ -354,18 +354,6 @@ a) (recommended, confidence high - it is Kris's own wording in the request that 
 
 b) `⇄  syncing <host>` and `⇏  not syncing <host>`.
 
-### AUDIT-GATE - Push without a finished `ki repo audit`?
-
-**Context:** Every other check passed, apart from the unrelated CI-version test failure. `ki repo audit` has hung twice in this worktree after listing its skills. That matches the AUDIT-HANG item already queued in the [method intake](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/reports/method-intake.report.md). The launcher fix is ready on top of the latest `main`.
-
-**Query:** Should the launcher fix be pushed without a finished audit?
-
-**Options:**
-
-a) (recommended, confidence medium - the hang has been seen before this change, and the commit hook's checks passed) Yes. Fast-forward `main` to `launcher-paths`, push, send the replies to hnr.sop.5ge and assistant-terra, and leave the hang to AUDIT-HANG.
-
-b) No. Hold the push until AUDIT-HANG is fixed and the audit completes on this commit.
-
 ### RENAME-FENCE - Records under a renamed work now carry over
 
 **Context:** A test added on 28 Oct (`7f91270b`, KI-TOOL-KI-CLI-174) deliberately left a run's control record refused after its work was renamed, and needed a separate new run to continue. Your 1 Nov request, via hnr.sop.5ge, asked for renamed work ids to be followed. I replaced that test: a record made on this machine whose old home is gone now moves to the renamed work, and its earlier attempts stay valid under the former id.
@@ -377,6 +365,22 @@ b) No. Hold the push until AUDIT-HANG is fixed and the audit completes on this c
 a) (recommended, confidence medium - it's the behaviour the 1 Nov request describes, and a record from another machine or with a still-existing home is still refused) Yes. Keep the new behaviour.
 
 b) No. Keep refusing, with only the single repair command offered.
+
+### EDA-HOME - Where the Exchange Dynamics Analysis method should live
+
+**Context:** Kris wants a reusable way to analyse a conversation once and present it several ways: as an infographic, a report or an interactive view. It has four parts: the method, a data format (a JSON schema), a visual layout and step-by-step instructions for an agent. The existing skills `archify` and `dataviz` only draw. Neither is owned by Knowledge Islands, and `archify` comes from an outside author, so extending either would mean keeping our own copy of someone else's code. A skill in the KI Agentic Harness can be used from any repository and can include the data format, a checking script and an example. A note in Pillars can only be read inside this island. The harness has no group of skills for analysis yet; the closest group is `acquire`, which already handles turning sources into structured knowledge.
+
+**Query:** Where should the method live?
+
+**Options:**
+
+a) (recommended, confidence medium - the evidence clearly rules out extending archify or dataviz, but placing it in the acquire group is a judgement call) A new harness skill, `ki-exchange-dynamics`, in the `acquire` group of ki-agentic-harness. It would hold the method, data format, visual layout, agent steps and the invented example, and it would use archify and dataviz to draw. Ki-principal would get an optional short note in Emerging Concepts that points to the skill.
+
+b) The same skill, but in a new `analysis` group of skills, in case more analysis methods follow.
+
+c) A Pillars note in ki-principal only, with no skill. Agents in other repositories could not use it directly, and every change would need the Enactment Process.
+
+d) Extend `archify` or `dataviz` to carry the method.
 
 ## Parked
 
