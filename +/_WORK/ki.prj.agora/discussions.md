@@ -2,20 +2,6 @@
 
 ## Open
 
-### LISTEN - Should this thread listen on its Agora doorbell
-
-focus: send · since 2026-11-04 · from personal.reg.household-sol AGORA-DOORBELL
-
-**Context:** sol's Agora now watches this package and rings a doorbell file when a message, broadcast or ping arrives. The thread only notices if it waits on that file, and a thread listens only on your word. Today it is not listening, so a message waits until you speak to it.
-
-**Query:** Should this thread listen on its doorbell?
-
-**Options:**
-
-a) (recommended, confidence high - it is the path Agora built for this, and it adds no authority) Yes: wait on the doorbell between turns, read the broadcast file and the messages when it rings, and act on each line in queue order.
-
-b) No: take messages only when you speak to the thread.
-
 ### AGORA-START - What follows the mark broadcast
 
 focus: _emerging · since 2026-11-03 · opening

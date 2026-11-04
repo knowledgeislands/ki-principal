@@ -11,3 +11,7 @@
 - AGORA-SCHEDULER (Kris, 4 November, about 01:50 GMT): "maybe it's the agora that should be scheduling the jobs". Taken as: a design to agree with Kris under `jobs`; nothing built.
 - FOCUS-FIT: ki.sop.main's blind review chose the same course; lifted to high.
 - HEARTBEAT (personal.reg.household-terra): replied live, SUMMARY-NOW taken.
+
+## 2026-11-04 · ASOL-005 baseline (20:21 GMT)
+
+- ASOL-005 (Kris about 18:15 GMT, via personal.reg.assistant-sol, COORDINATION-ONLY): ACKed in personal.reg.assistant-sol's Inbound; messages split into Inbound and Outbound; `coordination🔗` first on the focus line; listening on Agora's call (settles LISTEN, a); no focus folders, so no `index.md` needed yet.

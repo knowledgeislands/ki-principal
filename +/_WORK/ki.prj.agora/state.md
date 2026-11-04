@@ -5,6 +5,8 @@ since: 2026-11-04T01:44:48Z
 received: null
 beat: null
 mark: 2026-11-04T01:44:48Z
+listening_enabled: true
+listening_status: on
 method_read: f85ce21a
 ---
 
@@ -15,14 +17,15 @@ method_read: f85ce21a
 - Opened by Kris on 3 November 2026 at 23:00 GMT, releasing the hold it was created under. The hand-over from personal.reg.assistant-sol is taken: its `agora` focus, design note [host-agent.md](https://github.com/krisb/assistant/blob/5f2655d9/%2B/_WORK/personal.reg.assistant-sol/agora/host-agent.md) and briefs and run reports in [agora/](https://github.com/krisb/assistant/blob/5f2655d9/%2B/_WORK/personal.reg.assistant-sol/agora) are this Project's now.
 - Records held in apps-agora.local: [KI-AGORA-APP-001](/Users/krisbrown/kis/knowledge-islands/apps-agora.local/docs/roadmap/KI-AGORA-APP-001-package-and-relaunch.md), [KI-AGORA-NET-001](/Users/krisbrown/kis/knowledge-islands/apps-agora.local/docs/roadmap/KI-AGORA-NET-001-observatory-read-endpoint.md) and [KI-AGORA-WRK-001](/Users/krisbrown/kis/knowledge-islands/apps-agora.local/docs/roadmap/KI-AGORA-WRK-001-wake-workers.md) in triage; [KI-AGORA-TRY-001](/Users/krisbrown/kis/knowledge-islands/apps-agora.local/docs/roadmap/KI-AGORA-TRY-001-menu-bar-identity.md) awaiting review, which State of play brings in its acceptance bundle.
 - Households install and update Agora on each rig under AGORA-INSTALL-GRANT ([decisions](https://github.com/krisb/assistant/blob/5f2655d9/%2B/_WORK/personal.reg.assistant-sol/decisions.md)); this Project builds and releases only.
-- Running: mark-all-scope (run `ki-prj-agora`), scoping the `mark` broadcast Kris asked for as urgent (MARK-ALL).
+- mark-all-scope finished at 01:46 GMT: a `mark` broadcast kind beside `away` and `ping`, with six queries; its report is not yet received (`~/.local/state/ki/agents/ki-prj-agora/mark-all-scope.report.md`). Nothing is running.
+- Coordination is the one topic for now (ASOL-005, Kris about 18:15 GMT), held by personal.reg.assistant-sol; this package lists `coordination🔗` first on its focus line and follows the baseline: `## Inbound` and `## Outbound` with ids and ACKs, listening on Agora's call.
 - Agora now decides what the report footer shows (FOOTER-AGORA), and the thread follows the mark and summary model Kris set on 4 November (SUMMARY-NOW) until ki.sop.main writes it into `ki-coordination`.
-- sol's Agora watches this package's doorbell (AGORA-DOORBELL); the thread does not listen on it until Kris says so (LISTEN).
+- The thread listens on Agora's call, `~/.local/state/ki/agora/doorbell/ki.prj.agora` until AGORA-CALL renames it (ASOL-005).
 - Queries with Kris are in [discussions](discussions.md).
 
 ## Next steps
 
-1. Receive mark-all-scope and bring its slice to Kris; tell personal.reg.assistant-terra when the mark broadcast lands or what blocks it.
+1. Receive mark-all-scope and bring its slice and six queries to Kris; tell personal.reg.assistant-terra when the mark broadcast lands or what blocks it.
 2. `send`: the footer, under FOOTER-AGORA and FOOTER-ART: drop the sync line now Agora keeps checkouts level, drop the listening line once Agora can wake every thread including Orca chats (KI-AGORA-WRK-001), and agree the footer with ki.sop.main, which notifies every package.
 3. `jobs`: design, with Kris, Agora as the scheduler of the rig's jobs, saying when one fails or stops (AGORA-SCHEDULER, beside PERSONAL-DOTFILES-UE-137); nothing is built until the design is agreed.
 4. `send`: build Agora's send side for the KIV Electron app (KIV-SEND; assistant-terra.kiv's KIV-ELECTRON waits on it), and wake Orca chat threads from Agora (ORCA-WAKE, Orca #33114).
