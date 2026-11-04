@@ -1,7 +1,0 @@
-# territory-names (ki.sop.main)
-
-Goal: from KI-TOOLING-GO (Kris about 03:35 GMT 3 Nov): `ki territory audit` and `roots` tell renamed, deleted and archived members apart instead of failing the whole territory; and `ki agent status` reports each run's working checkouts (for Agora's run guard). Reply to personal.reg.assistant-sol when landed.
-
-Commit by explicit path, Conventional Commits; pull with `git -c pull.autostash=false -c rebase.autoStash=false pull --ff-only`; push fast-forward only. Never stash, reset, force or --no-verify; a pull that cannot fast-forward stops the run. Follow the repository AGENTS.md; run its full tests, type check and `ki repo audit`. Any reply line into `/Users/krisbrown/kis/personal/assistant` is written, committed and pushed in one step through a temporary worktree from origin/main (`git worktree add /tmp/...`), never in its primary checkout. Report: run report with commits, checks, and any query for Kris in Context/Query/Options form. Kris granted standing authority for Knowledge Islands tooling on 3 Nov (SOLE-THREAD and KI-TOOLING-GO in ki-principal `+/_WORK/ki.sop.main/decisions.md`).
-
-A previous attempt of this run stopped at a usage limit about 01:50 GMT 4 Nov, or failed because the run before it did. First look for any leftover worktree, branch, uncommitted change or draft report (`~/.local/state/ki/agents/ki-sop-main/<name>.report.md`), continue from them rather than starting over, and say what you found.
