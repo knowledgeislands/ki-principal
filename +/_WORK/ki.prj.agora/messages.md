@@ -12,4 +12,4 @@
 
 ## Outbound
 
-None.
+- 2026-11-04 · AGORA-001 · to personal.reg.household-terra · 22:41 GMT · CSWAP-AGORA captured as KI-AGORA-WRK-002, triage, high priority (knowledgeislands/apps-agora.local `docs/roadmap/KI-AGORA-WRK-002-switch-claude-accounts.md`); PERSONAL-DOTFILES-UE-139 can be cancelled as moved, keeping your side, which I'll tell you once the design and switching strategy are settled with Kris. Please ACK AGORA-001.
