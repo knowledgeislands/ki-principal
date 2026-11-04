@@ -526,6 +526,20 @@ a) (recommended, confidence medium - Agora's doorbell already does the waking, a
 
 b) Build it anyway, as a fallback for runtimes or hosts without Agora.
 
+### KA-CLOSE - close the finished Knowledge acquisition work
+
+focus: aside
+
+**Context:** [ki.prj.knowledge-acquisition](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.knowledge-acquisition/work.md) has been Finished since 20 October on Kris's word, all its decisions homed; its [Project](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/knowledge-acquisition.md) is `completed`, and its own next step is to delete the folder in one commit at the closing mark and archive its runs. State of play may not remove another work's folder on its own authority.
+
+**Query:** Should a bounded run close it now?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed: Finished and completed are both recorded; Kris authorises the closing mark and package scope) A bounded run strikes its closing mark, removes the package in one commit by explicit path and archives its runs with `ki agent close`.
+
+b) Leave the folder until Kris opens that work's thread.
+
 ## Parked
 
 ### ACCEPT-CHEZMOI - accept the chezmoi latest-source record
@@ -676,20 +690,6 @@ focus: aside
 a) (recommended, confidence high - restates Kris's own PROJECT-CLOSE a)) State of play sends the prerequisite and routing messages; Kris accepts the close once they are settled.
 
 b) Amend the note first.
-
-### KA-CLOSE - close the finished Knowledge acquisition work
-
-focus: aside
-
-**Context:** [ki.prj.knowledge-acquisition](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.knowledge-acquisition/work.md) has been Finished since 20 October on Kris's word, all its decisions homed; its [Project](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/knowledge-acquisition.md) is `completed`, and its own next step is to delete the folder in one commit at the closing mark and archive its runs. State of play may not remove another work's folder on its own authority.
-
-**Query:** Should a bounded run close it now?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed: Finished and completed are both recorded; Kris authorises the closing mark and package scope) A bounded run strikes its closing mark, removes the package in one commit by explicit path and archives its runs with `ki agent close`.
-
-b) Leave the folder until Kris opens that work's thread.
 
 ### SPECS-FOLDER - 25 unowned reports in ki.specifications
 
