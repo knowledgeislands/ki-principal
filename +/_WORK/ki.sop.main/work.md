@@ -49,4 +49,4 @@ created_at: 2026-10-06T21:07:00Z
 1. `acceptance` — acceptance questions on delivered records across the territory.
 2. `chain` — the `mgit chain` command and its acceptance.
 3. `themes` — the territory's theme map, routing and overlaps, and theme registries.
-4. `aside` — anything outside the others.
+4. `_emerging` — anything outside the others.

@@ -216,3 +216,7 @@
 - HEARTBEAT (household-terra for Kris about 01:10 GMT): answered at 01:43 GMT.
 - PING LEGAL-KI-20261104T014136Z-bf9b5a (lgl.sop.main, authorised by Kit): PONG returned by the coordinator itself at 2026-11-04T01:42:26Z, inside the 01:43:36Z deadline.
 - `method_read` set to f85ce21a.
+
+## 2026-11-04 · MARK (Kris, 01:44 GMT)
+
+- Read back as taken: "mark". Mark struck at 2026-11-04T01:44:21Z; summary given in the SUMMARY-NOW form. work.md's holding focus renamed `_emerging` under EMERGING-FOCUS.
