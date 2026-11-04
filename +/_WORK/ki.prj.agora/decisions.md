@@ -17,3 +17,4 @@
 - ASOL-005 (Kris about 18:15 GMT, via personal.reg.assistant-sol, COORDINATION-ONLY): ACKed in personal.reg.assistant-sol's Inbound; messages split into Inbound and Outbound; `coordination🔗` first on the focus line; listening on Agora's call (settles LISTEN, a); no focus folders, so no `index.md` needed yet.
 - ASOL-011 (Kris, 22:26 GMT, NO-LINK-MARK and UNACKED-IN-LIST): ACKed; `coordination` stays first on the focus line with no 🔗; unACKed sends go in the banner list as `[awaiting ACK]`.
 - HTERRA-005 (CSWAP-AGORA re-sent, Kris 4 November about 08:00 and 08:10 GMT): ACKed at 22:39 GMT; capture delegated to run cswap-capture; the record id goes to personal.reg.household-terra once captured; the switching strategy is settled with Kris before any work.
+- MSG-242412d7 AGORA-HANDOFF (household-sol, Kris about 23:30 GMT): ACKed; taken into next steps; CONFIG-OWNER raised with Kris.

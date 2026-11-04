@@ -2,6 +2,22 @@
 
 ## Open
 
+### CONFIG-OWNER - Who owns Agora's settings file
+
+focus: \_emerging · since 2026-11-04 · from personal.reg.household-sol AGORA-HANDOFF
+
+**Context:** The Rig install plan has chezmoi write Agora's settings file, `~/.config/agora/config.toml`. Your settings-screen ideas (the permissions check and the switchable tree of territories and repositories) mean the app would write the same file. If both write it, chezmoi would undo your changes from the screen at its next apply.
+
+**Query:** Who should own the settings file once a settings screen exists?
+
+**Options:**
+
+a) (recommended, confidence medium - avoids the two fighting over one file, and keeps a fresh rig set up with no clicks) chezmoi writes first-run defaults only; after that the app owns the file.
+
+b) chezmoi owns the file, and the settings screen only shows settings without changing them.
+
+c) Split it: chezmoi owns a base file and the app writes its own overrides beside it.
+
 ### AGORA-START - What follows the mark broadcast
 
 focus: _emerging · since 2026-11-03 · opening

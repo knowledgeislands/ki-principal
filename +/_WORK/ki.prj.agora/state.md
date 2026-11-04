@@ -33,6 +33,7 @@ method_read: f85ce21a
 6. `jobs`: the run-once jobs register with personal.reg.household-sol, as AGORA-RUN-ONCE set in assistant-sol's [decisions](https://github.com/krisb/assistant/blob/5f2655d9/%2B/_WORK/personal.reg.assistant-sol/decisions.md) (AGORA-JOBS).
 7. `identity`: take on a designer doer (Claude Design) for Agora's identity (AGORA-DESIGNER), after AGORA-COUNT-PLACE and the review of KI-AGORA-TRY-001.
 8. Take Kris's answers to the open queries; AGORA-START sets what follows MARK-ALL.
+9. AGORA-HANDOFF (household-sol, Kris about 23:30 GMT): Agora owns its design and roadmap; household-sol installs and runs it on sol and keeps the housekeeping register. Take the [Rig install plan](https://github.com/krisb/dotfiles/blob/main/+/_WORK/personal.reg.household-sol/housekeeping/agora-rig-plan.md) (AGORA-RIG-GO a, AGORA-LOGIN a, every territory configurable), Kris's settings-screen ideas (permissions check, OneDrive-like tree of territories and repositories, assignments view), Agora's architecture in `apps-agora.local` docs, the naming question (workers, housekeeping activities, housekeeper) and the held [jobs register](https://github.com/krisb/dotfiles/blob/main/+/_WORK/personal.reg.household-sol/housekeeping/jobs-register-plan.md) questions JOBS-HOME, JOBS-GUARD, JOBS-HOSTS and JOBS-MOVER; raise CONFIG-OWNER with Kris.
 
 ## Held
 
