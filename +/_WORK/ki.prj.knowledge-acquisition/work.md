@@ -34,4 +34,3 @@ created_at: 2026-10-08T08:35:00Z
 ## Focus
 
 1. `model` — the acquisition model, its common contract and provider skills.
-2. `aside` — anything outside the others.

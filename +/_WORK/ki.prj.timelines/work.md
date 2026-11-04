@@ -32,4 +32,3 @@ created_at: 2026-10-19T10:02:36Z
 ## Focus
 
 1. `skill` — the timeline and calendar skill: its survey, design and reviews.
-2. `aside` — anything outside the others.

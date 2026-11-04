@@ -32,4 +32,4 @@ created_at: 2026-10-08T08:40:00Z
 ## Focus
 
 1. `orca-prefs` — the Orca preferences declaration and its checker (ORCA-PREFS).
-2. `aside` — anything outside the others.
+2. `_emerging` — anything outside the others.

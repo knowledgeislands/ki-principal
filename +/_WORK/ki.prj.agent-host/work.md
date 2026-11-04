@@ -26,4 +26,3 @@ created_at: 2026-10-07T09:05:00Z
 ## Focus
 
 1. `host` — the agent host vega: its recipes, bindings and the Rig and Techne boundary.
-2. `aside` — anything outside the others.

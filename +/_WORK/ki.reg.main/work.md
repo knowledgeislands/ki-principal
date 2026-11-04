@@ -29,4 +29,3 @@ created_at: 2026-10-18T03:30:38Z
 ## Focus
 
 1. `activities` — recurring and ad hoc regular work under the Capital's Activity notes.
-2. `aside` — anything outside the others.

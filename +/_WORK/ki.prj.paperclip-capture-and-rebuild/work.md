@@ -28,4 +28,3 @@ created_at: 2026-10-18T03:30:38Z
 ## Focus
 
 1. `rebuild` — the Paperclip capture and the rebuild design.
-2. `aside` — anything outside the others.

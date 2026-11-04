@@ -31,4 +31,3 @@ created_at: 2026-10-19T10:04:02Z
 ## Focus
 
 1. `rollout` — rolling the baseline out to the territories: audits, registration and conformance sweeps.
-2. `aside` — anything outside the others.

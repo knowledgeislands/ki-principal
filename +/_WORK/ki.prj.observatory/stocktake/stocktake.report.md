@@ -46,7 +46,7 @@ Outstanding - no action requested now:
 | L20 | TIDY | Duplicate | Same findings as L21; L21 and L41 carry the live tidy |
 | L24 | USABILITY-THREAD | Overtaken | Focus deleted by PDR-KI-OBSERVA-010 (L25) |
 | L25 | REDESIGN-LANDED | Settled notice | PDR-KI-OBSERVA-010 on main |
-| L28 | TYPED-ID-CONSUMER | Assessed | Done by the 29 October consumer assessment ([report](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.observatory/aside/away-consumer-gap.report.md)); the repair it found is the STATUS-REPAIR query |
+| L28 | TYPED-ID-CONSUMER | Assessed | Done by the 29 October consumer assessment ([report](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.observatory/_emerging/away-consumer-gap.report.md)); the repair it found is the STATUS-REPAIR query |
 | L30 | COORD-REGULAR-STATUS | Assessed | Same assessment; [KI-TOOL-KI-CLI-173](/Users/krisbrown/kis/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-173-regular-coordination-readers.md) is done; carried by STATUS-REPAIR |
 | L32 | NAMING-PAUSE | Settled | Released by L37 |
 | L33 | MGIT-SYNC-JOB | Overtaken | Kris, 31 October 13:14 GMT, in Ways of working: "the observatory is watching, it's not doing the syncing"; the 15-minute plan went to personal.reg.rig-sol and personal.reg.rig-terra (HOST-SYNC-SEND) |

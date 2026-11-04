@@ -34,4 +34,3 @@ created_at: 2026-10-19T13:30:00Z
 ## Focus
 
 1. `specs` — the three portable specifications: their drafts, home and publication.
-2. `aside` — anything outside the others.

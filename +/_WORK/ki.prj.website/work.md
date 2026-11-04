@@ -29,4 +29,3 @@ created_at: 2026-10-25T00:46:35Z
 ## Focus
 
 1. `site` — the website: its content drift, skill catalogue, choreography and configuration.
-2. `aside` — anything outside the others.

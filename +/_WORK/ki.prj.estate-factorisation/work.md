@@ -29,4 +29,3 @@ created_at: 2026-10-08T08:35:00Z
 ## Focus
 
 1. `close-out` — the Project's close-out gates and its receivers' outcomes.
-2. `aside` — anything outside the others.

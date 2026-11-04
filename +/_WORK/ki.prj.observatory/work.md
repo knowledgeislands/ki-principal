@@ -35,4 +35,4 @@ created_at: 2026-10-13T23:50:00Z
 1. `sync` — scheduled cross-machine Git sync: its ownership and direction.
 2. `stocktake` — the queue and query stocktake and its blind review.
 3. `views` — the Observatory's views, diagrams and design: what it shows and how.
-4. `aside` — anything outside the others.
+4. `_emerging` — anything outside the others.

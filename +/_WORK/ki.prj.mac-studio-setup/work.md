@@ -33,4 +33,3 @@ created_at: 2026-10-08T08:45:00Z
 ## Focus
 
 1. `setup` — sol's and terra's setup as Kris's rig: Rig records, the firewall, key-only SSH, clean-up and at-screen walks.
-2. `aside` — anything outside the others.
