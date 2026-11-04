@@ -243,3 +243,4 @@
 - path-repoint received (`e8dab041`): last old-path links repointed; seven links name files since removed, left as they are.
 - ka-close received: stopped before changing anything, because closing ki.prj.knowledge-acquisition needs Kris's word under the close-out rule; KA-CLOSE unparked and put to Kris.
 - review-burndown received: the reviewer chose WATCH-AGORA b) at medium against a) at medium; both views shown.
+- run-close received (tools-ki `14bbbf8e`, branch run-close on launcher-paths, unpushed): per-agent close built. Its RUN-CLOSE-LAND query is settled without Kris by keeping the reviewed condition for the launcher fix (publish only when the full suite and audit complete clean): audit-hang now fixes the pin test first, then publishes both branches if clean; granola-follow narrowed accordingly.
