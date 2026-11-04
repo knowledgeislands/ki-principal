@@ -249,3 +249,4 @@
 - launcher-land received: tools-ki main now carries the CI-pin fix (`0001d30c`), LAUNCHER-PATHS (`03593db4`), RUN-CLOSE (`1237e1d8`, `8524f11a`) and full coverage (`e053e459`, `1253f981`); full audit clean; replies sent to hnr.sop.main (hnr.sop.5ge has finished) and assistant-terra. RUN-CLOSE-LAND and LP-COVERAGE settled by delivery; granola-follow will find the pin test already fixed.
 - sub-package received (tools-ki `997c6e80`, harness `2ce5e134`, assistant-terra told): SUB-PACKAGE done; SUB-PACKAGE-COVERS (medium) to blind review.
 - HOLD-STATES (Kris about 08:20 GMT via household-terra): "thought through before changes go out"; run hold-states writes a design note with the states flow diagram and hold reasons, changing no standard.
+- granola-follow received: nothing to do; both items already on main (`0001d30c`, `e4fbd81c`).
