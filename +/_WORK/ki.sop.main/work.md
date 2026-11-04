@@ -46,7 +46,7 @@ created_at: 2026-10-06T21:07:00Z
 
 ## Focus
 
-0. `coordination🔗` — remote focus: the coordination baseline held by personal.reg.assistant-sol (krisb/assistant `+/_WORK/personal.reg.assistant-sol/coordination/index.md`); no folder here.
+0. `coordination` — remote focus: the coordination baseline held by personal.reg.assistant-sol (krisb/assistant `+/_WORK/personal.reg.assistant-sol/coordination/index.md`); no folder here.
 1. `acceptance` — acceptance questions on delivered records across the territory.
 2. `chain` — the `mgit chain` command and its acceptance.
 3. `themes` — the territory's theme map, routing and overlaps, and theme registries.

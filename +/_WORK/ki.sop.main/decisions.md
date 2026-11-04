@@ -259,3 +259,11 @@
 ## 2026-11-04 · ASOL-004 baseline (20:20 GMT)
 
 - Kris's COORDINATION-ONLY (about 18:15 GMT, via personal.reg.assistant-sol, ASOL-004): taken and ACKed; messages split into Inbound and Outbound, `coordination🔗` first on the focus line, an `index.md` in each focus folder, listening on Agora's call, received reports and spent briefs pruned.
+
+## 2026-11-04 · Missed wake and reground (23:36 GMT)
+
+- The inbox watcher had died after an Orca restart, so eight lines from 22:27 to 23:27 GMT sat unread until 23:34. Kris: "Looks like you're getting sent messages, but you're not really responding ... maybe send it a message and see what it says back." All eight ACKed in their senders' Inbounds; MSG-sop0001 REGROUND sent to personal.reg.assistant-sol.
+- MSG-SECTIONS, RECORD-2-HEADINGS, INDEX-NAME (settled `_index.md`, Kris's lean), SYNC-LINE-OFF and NO-LINK-MARK: one harness run, msg-sections. NO-LINK-MARK applied to this package's focus line now.
+- KNOWLEDGE-FOLDER (ATER-005, 007, 008, Kris "quickly"): run knowledge-plan writes the plan and queries.
+- ROUTE-DORMANT (MSG-02578c1b): (a) run ue112-repoint; (b) OBSERVATORY-LINKS held in ki.prj.observatory's messages.md for that package.
+- HOLD-TIDY stays with the HOLD-STATES design.
