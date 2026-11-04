@@ -217,3 +217,13 @@ Read back as taken: "train down" as drain down. Nothing was running, so the drai
 class: operational
 
 - Coordination taken up by ki.sop.main, 3 Nov, (Kris, 3 Nov about 03:10 GMT: "move all of the work to be coordinated through the SOP main"; SOLE-THREAD in ki.sop.main, 03:14 GMT). The work stays On hold; every parked discussion stays parked, unanswered, for ki.sop.main to bring to Kris. Hold reason set to `paused`, the closed value, under PACKAGE-FLAGS. Run handover-intake.
+
+## 2026-11-04 04:05 GMT - OBSERVATORY-SWEEP
+
+class: operational
+
+- Run observatory-sweep for ki.sop.main, under HAND-TO-SOP (Kris, 3 November about 03:10 GMT: "move all work coordinated through SOP main") and MOVE-FORWARD (Kris, 4 November about 01:55 GMT); classification only, delivering nothing and answering no discussion.
+- Method reading refreshed from `df3f5503` to ki-agentic-harness `d9dbdd9c`. This thread neither listens nor syncs, so no capability fields are set.
+- Removed as done: REFRESH of 31 October (`fb19794d`), REFRESH of 1 November (`1f01cb7c`), REFRESH MARK-STATUS of 3 November (`f85ce21a`) and REFRESH SUMMARY-NOW of 4 November (`d9dbdd9c`), all read in the refresh above; ACCESS-ADMINS, its confirm step answered: the Observatory serves on loopback only (`apps/site/src/main.ts` binds `127.0.0.1`) and no tunnel or Access route for it exists in chezmoi, so there is no public site to put behind an admins group; reopen if it is ever published.
+- Removed as overtaken: WOW-TIDY-NIGHT (parent now declared in `work.md`; report tidy and long-line shortening are carried by the parked TIDY-RUN); REPORTS-MOVED (the reports since moved into focus folders under LAYOUT-PILLARS; their pruning is carried by TIDY-RUN).
+- Kept open with evidence: EMERGING-FOCUS REFRESH (`aside` not yet renamed); ROUTE-1 (ki-design still has `docs/spec/`); DISCUSSIONS-OBS (no `discussions.md` reading in apps-observatory.local packages); SERVE-WATCH (the product's AGENTS.md still asks for a restart after each delivery); STRAY-REPORTS-SOL (`blind-review-stocktake.report.md` is still untracked here, never committed; received under STOCKTAKE-RECEIPT but left untouched as another session's file); GH-LIVE and NAMING-TO-KI (outside local authority); every line folded into a parked discussion; BRING-UP-LEFTOVER, OBSERVATORY-HOST, OBSERVATORY-WORKSPACE and OBSERVATORY-WATCHER (no disposition yet).
