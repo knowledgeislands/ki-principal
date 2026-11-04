@@ -239,3 +239,5 @@
 - review-orca-close and review-stray received: ORCA-CLOSE-HOME and STRAY-BLIND-REPORT lifted to high on agreement.
 - mac-studio-close-plan received (`f042c864`): plan at ki.prj.mac-studio-setup/setup/close-out.md; TOOLS-RIG-LANE and RIG-INTAKE (both high, reviewed) copied to discussions.
 - emerging-only received: - Leftovers from the earlier attempt: none. The 01:51 GMT attempt never started, because summary-model had not finished. It left no worktree, branch, uncommitted change or draft report, so this run started from scratch.
+- burndown-sweep received (`8f4d013c`, `7acda955`): tools-burndown queue 73 to 45 live lines, method read to d9dbdd9c; its queries copied, medium ones to blind review.
+- path-repoint received (`e8dab041`): last old-path links repointed; seven links name files since removed, left as they are.
