@@ -2,13 +2,27 @@
 
 ## Open
 
-### AGORA-START - Which Agora work starts first
+### LISTEN - Should this thread listen on its Agora doorbell
+
+focus: send · since 2026-11-04 · from personal.reg.household-sol AGORA-DOORBELL
+
+**Context:** sol's Agora now watches this package and rings a doorbell file when a message, broadcast or ping arrives. The thread only notices if it waits on that file, and a thread listens only on your word. Today it is not listening, so a message waits until you speak to it.
+
+**Query:** Should this thread listen on its doorbell?
+
+**Options:**
+
+a) (recommended, confidence high - it is the path Agora built for this, and it adds no authority) Yes: wait on the doorbell between turns, read the broadcast file and the messages when it rings, and act on each line in queue order.
+
+b) No: take messages only when you speak to the thread.
+
+### AGORA-START - What follows the mark broadcast
 
 focus: _emerging · since 2026-11-03 · opening
 
 **Context:** The hand-over brings four focus lines and three triage records ([KI-AGORA-APP-001](/Users/krisbrown/kis/knowledge-islands/apps-agora.local/docs/roadmap/KI-AGORA-APP-001-package-and-relaunch.md) package and relaunch, [KI-AGORA-NET-001](/Users/krisbrown/kis/knowledge-islands/apps-agora.local/docs/roadmap/KI-AGORA-NET-001-observatory-read-endpoint.md) Observatory read endpoint, [KI-AGORA-WRK-001](/Users/krisbrown/kis/knowledge-islands/apps-agora.local/docs/roadmap/KI-AGORA-WRK-001-wake-workers.md) wake workers). KIV-SEND has a waiting consumer, assistant-terra.kiv's KIV-ELECTRON. Nothing is running.
 
-**Query:** What should the first run be?
+**Query:** Once the mark broadcast (MARK-ALL) is done, what should come next?
 
 **Options:**
 
@@ -28,7 +42,7 @@ focus: _emerging · since 2026-11-03 · from ki.sop.main FOCUS-FIT
 
 **Options:**
 
-a) (recommended, confidence medium - keeps the policy as it stands and still lets slices land) Agora only wakes or steers runs inside a session you opened, such as a thread's own run queue; anything that starts a run on its own waits for a policy change through the Enactment Process.
+a) (recommended, confidence high - a blind review chose the same course, and it keeps the policy as it stands) Agora may wake threads and runs you opened; starting fresh runs from standing briefs waits for your decision through the Enactment Process.
 
 b) Amend the Techne Programme Focus through the Enactment Process to allow Agora-started runs on sol and vega within named bounds.
 
