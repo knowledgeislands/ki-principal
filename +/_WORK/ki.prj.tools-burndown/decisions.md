@@ -1,6 +1,6 @@
 # Decisions
 
-Struck at the mark of 2026-10-19T22:45:48Z. Git history holds every struck entry; [historical-decisions.md](aside/historical-decisions.md) keeps the 11 to 14 October log as evidence.
+Struck at the mark of 2026-10-19T22:45:48Z. Git history holds every struck entry; [historical-decisions.md](_emerging/historical-decisions.md) keeps the 11 to 14 October log as evidence.
 
 ## Standing push and branch-delete authorities (16 October)
 
@@ -117,3 +117,16 @@ Operational: the IMPORTANT ORCA-ENV-LEAK line of 30 October, under Kris's ORCA-S
 class: operational
 
 - The IMPORTANT RESUME line of 31 October, from ki.prj.ways-of-working, carries Kris's own word: "Release it, one fix at a time" (31 October 2026, 13:37 GMT, HOLD-SCOPE, recorded in ki.prj.ways-of-working's decisions). Released: the hold is lifted and the work moves to Handoff to worker, its two parked discussions back under Open. Units stay one fix at a time; coordination runs through ki.sop.main under SOLE-THREAD, which launches them. The RESUME line is removed in this commit. Run handover-intake.
+
+## 2026-11-04 04:10 GMT - burndown-sweep queue disposition
+
+class: operational
+
+- Taken by run burndown-sweep for State of play (ki.sop.main), under Kris's "Release it, one fix at a time" (31 October, 13:37 GMT), BASELINE-CLEAN ("So you need to work through them bit by bit", 28 October), SOLE-THREAD and MOVE-FORWARD ("go and get lots of information and try to start moving forwards things overall", 4 November). Evidence is tools-ki `origin/main` at `d85feb4a`; the full text of every line is at ki-principal `ef3a0834`.
+- REFRESH lines of 29 and 31 October, 1, 3 and 4 November (eight): taken; method read at ki-agentic-harness `d9dbdd9c`; the `aside` focus is renamed `_emerging` (EMERGING-FOCUS).
+- Delivered: GRANOLA-IMPORT-FAIL (tools-ki `8ba2574c`..`ebcc903d`, by personal.reg.assistant-terra); FOCUS-REPORT-HOME (`2a2eab2a`, reports beside their brief); ACQUIRE-HELD-2 (`eca35dbe`, `_held/granola`); RUNHOME-FOLLOWS-REGISTRY (`dc33823a`, `573207b6`), its registry-key follow-up kept in `state.md`; MGIT-PUSH-GUARD (tools-mgit `f67e255`, KI-TOOL-MGIT-CLI-033 awaiting review); receipts U2-LANDED and U5-LANDED recorded.
+- Overtaken: REPORTS-FOLDER by LAYOUT-PILLARS and `2a2eab2a`; ACQUIRE-HELD by ACQUIRE-HELD-2; THREAD-RENAME by START-NAME (RENAME-NAME, 1 November); MARK-EXPECTED by SUMMARY-NOW.
+- Carried by State of play's running tools-ki chain: RUN-CLOSE (run-close), AUDIT-HANG (audit-hang), REPORTS-HOMING's close guard and KI-AGENT-MOVED-HOME's rebind (launcher-paths, `8384a731`, pushed by launcher-push), the `.ki-local-runner` path folded into PATHS-FROM-CONFIG.
+- Kept live against the stock-take's list: LAUNCHER-FAULTS and PATHS-FROM-CONFIG, because no running brief names them and `~/workspaces` is still hard-coded on `d85feb4a`.
+- Taken: SUMMARY-NOW (method `d9dbdd9c`); DOWNLOADS-RETIRED (nothing here names a Downloads path); HEARTBEAT (answered for the territory by ki.sop.main at 01:43 GMT; this work has no thread of its own); WOW-TIDY-NIGHT (parent declared, description within 500 characters, queue lines shortened); WORK-TIDY (the four briefs sit in the focus folder, kept as briefs of runs never started).
+- The 45 live lines are shortened to about 60 words each, linked to their full text; the order to take them is in `state.md` next steps. WATCH-VERB waits on the WATCH-AGORA query.

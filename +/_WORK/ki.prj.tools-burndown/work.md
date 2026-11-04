@@ -33,4 +33,4 @@ created_at: 2026-10-16T00:05:00Z
 
 1. `drain` — drain and resume stock-takes and their evidence.
 2. `rig-site` — the RIG-SITE-CONFIG assessment and the reply to the rig.midnight.ninja handoff.
-3. `aside` — anything outside the others.
+3. `_emerging` — the holding area for anything not yet in a named focus.
