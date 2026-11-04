@@ -224,3 +224,8 @@
 - review-audit-gate received: the reviewer chose holding the launcher fix until the audit completes (high), against the run's push-now (medium). Holding is the course that needs no decision, so AUDIT-GATE is dropped: the fix stays unpushed on its branch, and run audit-hang fixes AUDIT-HANG (already authorised in the method intake) so the audit can complete; then a run pushes it.
 - eda-home received (`eda.design.md`): EDA-HOME (medium) copied to discussions; it and RENAME-FENCE go to blind review.
 - SUMMARY-MODEL addendum (Kris about 01:20 GMT): followed from now (Focus column at most a third; queries also asked interactively after a summary, one or two at a time); steered into run summary-model. LISTEN-HOW (Kris about 01:25 GMT): forwarded to ki.prj.agora, which owns footer content; the register's `listening` values follow there.
+
+## 2026-11-04 · MOVE-FORWARD (Kris, about 01:55 GMT)
+
+- Read back as taken: "I suspect that when you do wake up, one of the things that you're gonna have to do at 4 AM is you're gonna have to go and get lots of information and try to start moving forwards things overall on the Knowledge Islands of work packages". Taken as: at the wake after the usage-limit reset, gather a territory-wide picture and move authorised work forward across every Knowledge Islands package, within SOLE-THREAD and KI-TOOLING-GO; nothing that needs Kris is decided for him.
+- A third usage limit stopped this thread and its runs at about 01:50 GMT: summary-model and run-close exited mid-work; audit-hang, emerging-only, granola-follow, sub-package and territory-names failed behind them. The watcher hit its two-hour limit unseen. All relaunched at 03:52 GMT, each told to pick up its predecessor's worktree or branch.
