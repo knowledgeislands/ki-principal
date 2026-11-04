@@ -390,7 +390,7 @@ d) Extend `archify` or `dataviz` to carry the method.
 
 **Options:**
 
-a) (recommended, confidence medium - REPLY-BLOCK is a standing decision and the brief did not ask to reverse it, but the design note's wording points the other way) Keep no reply block. The design note's phrase is read as left over from before REPLY-BLOCK, and household-terra is told so.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same, since it keeps your spoken-answer way of working) Keep no reply block. The design note's phrase is read as left over from before REPLY-BLOCK, and household-terra is told so.
 
 b) Add a copyable reply block at the end of the Summary's Queries, reversing REPLY-BLOCK for the Summary only.
 

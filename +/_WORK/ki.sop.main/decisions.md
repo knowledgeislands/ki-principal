@@ -232,3 +232,4 @@
 - summary-model received (harness `d9dbdd9c`): SUMMARY-NOW is in the standard, with the 01:20 GMT addendum; REPLY-BLOCK-SUMMARY (medium) copied and sent to blind review. `method_read` d9dbdd9c.
 - review-rename-eda received: RENAME-FENCE and EDA-HOME lifted to high on agreement.
 - stock-take received (`_emerging/stock-take.findings.md`): its five queries copied to discussions; units 3 to 8 launched under SOLE-THREAD, KI-TOOLING-GO and MOVE-FORWARD: burndown-sweep, orca-close and observatory-sweep now; mac-studio-close-plan, path-repoint and ka-close chained after them; launcher-push stays with audit-hang. Orphaned fragment removed from messages.md.
+- review-reply-block received: REPLY-BLOCK-SUMMARY lifted to high on agreement.
