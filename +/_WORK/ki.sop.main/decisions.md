@@ -220,3 +220,4 @@
 ## 2026-11-04 · MARK (Kris, 01:44 GMT)
 
 - Read back as taken: "mark". Mark struck at 2026-11-04T01:44:21Z; summary given in the SUMMARY-NOW form. work.md's holding focus renamed `_emerging` under EMERGING-FOCUS.
+- launcher-paths received (tools-ki `8384a731` on branch `launcher-paths`, not pushed): AUDIT-GATE (medium, to blind review) and RENAME-FENCE copied to discussions; PIN-TEST is already queued as granola-follow's CI test fix. run-close is building on `main` without this fix.

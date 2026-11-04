@@ -354,6 +354,30 @@ a) (recommended, confidence high - it is Kris's own wording in the request that 
 
 b) `⇄  syncing <host>` and `⇏  not syncing <host>`.
 
+### AUDIT-GATE - Push without a finished `ki repo audit`?
+
+**Context:** Every other check passed, apart from the unrelated CI-version test failure. `ki repo audit` has hung twice in this worktree after listing its skills. That matches the AUDIT-HANG item already queued in the [method intake](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/reports/method-intake.report.md). The launcher fix is ready on top of the latest `main`.
+
+**Query:** Should the launcher fix be pushed without a finished audit?
+
+**Options:**
+
+a) (recommended, confidence medium - the hang has been seen before this change, and the commit hook's checks passed) Yes. Fast-forward `main` to `launcher-paths`, push, send the replies to hnr.sop.5ge and assistant-terra, and leave the hang to AUDIT-HANG.
+
+b) No. Hold the push until AUDIT-HANG is fixed and the audit completes on this commit.
+
+### RENAME-FENCE - Records under a renamed work now carry over
+
+**Context:** A test added on 28 Oct (`7f91270b`, KI-TOOL-KI-CLI-174) deliberately left a run's control record refused after its work was renamed, and needed a separate new run to continue. Your 1 Nov request, via hnr.sop.5ge, asked for renamed work ids to be followed. I replaced that test: a record made on this machine whose old home is gone now moves to the renamed work, and its earlier attempts stay valid under the former id.
+
+**Query:** Is carrying the record over, rather than refusing it, what you want?
+
+**Options:**
+
+a) (recommended, confidence medium - it's the behaviour the 1 Nov request describes, and a record from another machine or with a still-existing home is still refused) Yes. Keep the new behaviour.
+
+b) No. Keep refusing, with only the single repair command offered.
+
 ## Parked
 
 ### ACCEPT-CHEZMOI - accept the chezmoi latest-source record
