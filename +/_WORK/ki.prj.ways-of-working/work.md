@@ -42,4 +42,4 @@ created_at: 2026-10-09T20:58:00Z
 11. `work-model` - the work state machine, typed ids, the model shape and tags.
 12. `rollout` - rolling the method out: conform sweeps, burn-down and field migration.
 13. `personal-shape` - the Personal territory's shape and its handover.
-14. `aside` - anything outside the others.
+14. `_emerging` - anything outside the others.

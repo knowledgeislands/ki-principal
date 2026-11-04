@@ -68,7 +68,7 @@ Run about three at once: H, C and S or P first, while HOLD-SCOPE is settled; the
 ### U3 - Three decided chezmoi source changes
 
 - **Package / repository:** ki.prj.chezmoi / `~/.local/share/chezmoi`.
-- **Authority:** WHATSAPP-MCP-SCOPE, Kris's decision at about 01:25 GMT on 25 October "to leave the WhatsApp MCP server off sol". MGIT-PUSH-ALIAS, Kris adopted route B of [mgit-cache](../aside/mgit-cache.md) on 26 October as an `mpush` alias. ZT-FINDINGS, routed under RESTART-ON-SOL on 25 October for homing in the chezmoi guides. The package's next step 1, "take the queue".
+- **Authority:** WHATSAPP-MCP-SCOPE, Kris's decision at about 01:25 GMT on 25 October "to leave the WhatsApp MCP server off sol". MGIT-PUSH-ALIAS, Kris adopted route B of [mgit-cache](../_emerging/mgit-cache.md) on 26 October as an `mpush` alias. ZT-FINDINGS, routed under RESTART-ON-SOL on 25 October for homing in the chezmoi guides. The package's next step 1, "take the queue".
 - **Tier:** push, source only, never `chezmoi apply`. **Waits on:** nothing. ki.prj.chezmoi is with Kris for four open queries, none about these lines. **Size:** S.
 - **Brief:** In the chezmoi source repository, in its own worktree, make three changes:
   - Scope `mcp-acquire-whatsapp` to terra in the MCP inventory source (`mcp-servers.yaml`) using the inventory's own host-targeting field, so sol no longer starts it.

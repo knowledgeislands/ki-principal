@@ -26,7 +26,7 @@ Three dated `Idea:` lines in the Project's Notes hold the remaining tending, fin
 
 **Goal:** Kris's 02:19 GMT question, carried in the 02:20 GMT addendum on 25 October: establish whether tending is carried and give its graduation a roadmap home.
 
-**Scope:** Every operative rule and open point in [Tending](../aside/tending.md), compared with the three harness standards and the existing named routes; no new standard text or tooling.
+**Scope:** Every operative rule and open point in [Tending](../_emerging/tending.md), compared with the three harness standards and the existing named routes; no new standard text or tooling.
 
 **As of:** 25 October 2026, 02:52 GMT; harness through `8897008f`.
 
@@ -67,13 +67,13 @@ All T-G items have the **graduate tending** Project idea as their home. That ide
 
 **Retirement:** neither territory can yet retire its tending adoption. The complete process, checklists, focus and reporting discipline must first graduate, with open choices settled and tooling candidates kept separate. SOP-PROJECT-CARE and SINGLE-THREAD can be recognised as partly carried now, subject to STEWARD-FIELD and explicit assignment, without retiring tending as a whole.
 
-Queries raised: INTERIM-REPAIR. Existing routes: STEWARD-FIELD, UNATTENDED-FIELD, SIZE-LABEL and BASELINE. Decided 26 October 2026: INTERIM-REPAIR took the recommended option, recorded in [tending](../aside/tending.md).
+Queries raised: INTERIM-REPAIR. Existing routes: STEWARD-FIELD, UNATTENDED-FIELD, SIZE-LABEL and BASELINE. Decided 26 October 2026: INTERIM-REPAIR took the recommended option, recorded in [tending](../_emerging/tending.md).
 
 ### INTERIM-FINDINGS - the main contract is carried, with several explicit gaps
 
 **Goal:** The 02:23 GMT addendum asks which rules of the interim findings adoption have reached the standards and what remains before retirement.
 
-**Scope:** Every operative rule in [Findings](../aside/findings.md), including prompts, storage, refresh, settlement and rendered surfaces; comparison with coordination and package standards through `8897008f`.
+**Scope:** Every operative rule in [Findings](../_emerging/findings.md), including prompts, storage, refresh, settlement and rendered surfaces; comparison with coordination and package standards through `8897008f`.
 
 **As of:** 25 October 2026, 02:52 GMT.
 
@@ -102,13 +102,13 @@ All F-G items have the **finish findings graduation** Project idea as their home
 
 **Retirement:** the main Findings and prompts reporting adoption and the allowance for Personal's `findings/` files can move to the standards now. Full retirement of the findings note should wait for F-G1 to F-G4 to be explicitly landed or declined, rather than silently losing refresh, independent settlement or the disputed writer and warning proposals. No local adoption is changed by this assessment.
 
-Queries raised: INTERIM-FINDING-WRITER and INTERIM-FINDING-AGE. Decided 26 October 2026: both took the recommended option, recorded in [findings](../aside/findings.md) and written into the `ki-work-package` standard.
+Queries raised: INTERIM-FINDING-WRITER and INTERIM-FINDING-AGE. Decided 26 October 2026: both took the recommended option, recorded in [findings](../_emerging/findings.md) and written into the `ki-work-package` standard.
 
 ### INTERIM-METADATA - the proposed taxonomy and mirrors remain interim
 
 **Goal:** The 02:23 GMT addendum asks for rule-by-rule coverage of repository metadata, its remaining roadmap home and the condition for retiring the interim adoption.
 
-**Scope:** [Repository metadata](../aside/repository-metadata.md), including the settled tag/homepage decisions, validation and rollout, checked against `ki-repo` through `8897008f`; no provider reads or changes.
+**Scope:** [Repository metadata](../_emerging/repository-metadata.md), including the settled tag/homepage decisions, validation and rollout, checked against `ki-repo` through `8897008f`; no provider reads or changes.
 
 **As of:** 25 October 2026, 02:52 GMT.
 
@@ -142,7 +142,7 @@ All M-G items have the **graduate repository metadata** Project idea as their ho
 
 **Retirement:** neither territory can yet retire its metadata adoption. The settled taxonomy, source direction, homepage safeguards and schema/checker contract must land first; omission and optional-type decisions must be made or explicitly deferred. Each territory then owns its authorised configuration/package/provider rollout and verification. A landed standard alone does not mean its existing metadata has been migrated, and retirement grants no provider or deployment authority.
 
-Queries raised: INTERIM-HOMEPAGE-OMISSION and INTERIM-TAG-SCOPE. Existing route: LEGACY-PREFIX. Decided 26 October 2026: both took the recommended option, recorded in [repository metadata](../aside/repository-metadata.md); the homepage rule is written into the `ki-repo` standard.
+Queries raised: INTERIM-HOMEPAGE-OMISSION and INTERIM-TAG-SCOPE. Existing route: LEGACY-PREFIX. Decided 26 October 2026: both took the recommended option, recorded in [repository metadata](../_emerging/repository-metadata.md); the homepage rule is written into the `ki-repo` standard.
 
 ## Evidence and proposed next handoff
 

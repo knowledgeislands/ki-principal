@@ -380,7 +380,7 @@ The second brief is to use Orca to work through the roadmap incrementally and ge
 
 - Kris's decisions on this note's queries, above all ORCA-REACH, AGENT-HOME, WAKE-SESSION, WAKE-DURABLE, WAKE-HOST, WORKTREE-OPTOUT and ORCH-NAME, and on ORCA-FIT's open choices, OF-LAUNCHER first.
 - The [Orca evaluation](../../../../Streams/Projects/orca-evaluation.md) Project and its package `ki.prj.orca-evaluation`, which should own it, and the Mac Studio trial log.
-- The roadmaps it would work through, by repository, with horizons and sizes, and the [finish-line plan](../aside/finish-line-plan.md) and [state-machine rollout plan](../work-model/state-machine-rollout-plan.md) for this package's own close-out.
+- The roadmaps it would work through, by repository, with horizons and sizes, and the [finish-line plan](../_emerging/finish-line-plan.md) and [state-machine rollout plan](../work-model/state-machine-rollout-plan.md) for this package's own close-out.
 - The current `ki-coordination` and `ki-delegation` standards and Orca 1.4.244's guide.
 
 Its prerequisites, split by mode. An attended first pilot waits on:
