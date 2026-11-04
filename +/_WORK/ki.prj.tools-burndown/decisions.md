@@ -118,7 +118,7 @@ class: operational
 
 - The IMPORTANT RESUME line of 31 October, from ki.prj.ways-of-working, carries Kris's own word: "Release it, one fix at a time" (31 October 2026, 13:37 GMT, HOLD-SCOPE, recorded in ki.prj.ways-of-working's decisions). Released: the hold is lifted and the work moves to Handoff to worker, its two parked discussions back under Open. Units stay one fix at a time; coordination runs through ki.sop.main under SOLE-THREAD, which launches them. The RESUME line is removed in this commit. Run handover-intake.
 
-## 2026-11-04 04:10 GMT - burndown-sweep queue disposition
+## 2026-11-04 04:05 GMT - burndown-sweep queue disposition
 
 class: operational
 
