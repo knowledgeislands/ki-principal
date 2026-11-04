@@ -5,7 +5,7 @@ since: 2026-11-03T03:20:00Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-11-03T23:15:26Z
-method_read: b3c631c2
+method_read: f85ce21a
 listening_enabled: true
 listening_status: on
 workers:
@@ -31,10 +31,10 @@ workers:
 
 - ki.prj.website is seeded on hold until Kris opens it; Host network opens fifth, after its decision paper and restore path.
 
-## Next steps (3 November 22:03 GMT)
+## Next steps (4 November 01:45 GMT)
 
-1. Restarted after the 03:36 GMT usage-limit outage. Chains: tools-ki (launcher-paths, run-close, sub-package, granola-move, territory-audit-names); harness (conform-bun, emerging-focus); design (how-we-work). BOARD-CAPTURE's blind review is back.
-2. Stoa lines wait on STOA-HOME; MAIL-ENGINE on MAIL-ASKS.
+1. Runs under `ki-sop-main`: tools-ki chain (run-close, then sub-package, granola-follow, territory-names); harness chain (summary-model, then emerging-only); eda-home.
+2. SUMMARY-NOW is the interim reply rule until summary-model lands. Stoa lines wait on STOA-HOME; MAIL-ENGINE on MAIL-ASKS; the how-we-work build waits on its queries.
 
 ## Held
 

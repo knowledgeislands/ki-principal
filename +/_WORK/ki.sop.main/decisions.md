@@ -204,3 +204,15 @@
 - Read back as taken: "Can you take a mark, to give me a summary, and then give me a status table." Mark struck at 2026-11-03T23:15:26Z; spent briefs and received review reports pruned; the how-we-work design note, method-intake plan and handover-intake findings kept while their work is live.
 - MARK-STATUS (Kris about 23:25 GMT, via assistant-terra): "when we take a mark, yes, we should do a summary, and also the summary should include the status table." Taken; run mark-status builds it in ki-coordination, open STATUS-FORM points kept at their recommended options until answered.
 - MARK-EXPECTED and MARK-DURABLE (Kris about 23:30 GMT, via assistant-terra): followed from now as the interim rule; run mark-status, already running, steered to this shape (Summary, status table by area with 👤 on waiting items, queries, banner).
+
+## 2026-11-04 · Restart and messages (01:45 GMT)
+
+- A second session-usage limit stopped this thread after 23:31 GMT on 3 November; mark-status landed harness `f85ce21a` (status table after a mark) but stopped before its REFRESH and replies; launcher-paths finished; the tools-ki chain carried on.
+- SUMMARY-NOW (IMPORTANT, twice; Kris approved SUMMARY-MODEL about 01:05 GMT with immediate effect): followed from now as the reply rule; run summary-model lands it in `ki-coordination`, superseding f85ce21a's placement and settling STATUS-FORM 1 to 3, MARK-STATUS, MARK-DURABLE and STATUS-DESIGN (URGENT). Their lines are removed.
+- FOOTER-AGORA (Kris about 23:40 GMT): footer content belongs to ki.prj.agora; folded into summary-model's REFRESH.
+- HOW-WE-WORK, URGENT-HANDOFF, ROUTE-UP, VALUES-UP-FRONT: carried by the how-we-work design note and its open queries; removed from the queue.
+- EMERGING-ONLY-WHEN-USED (Kris about 23:50 GMT): run emerging-only, after summary-model.
+- EDA-METHOD and EDA-METHOD-NAMES (Kris about 01:00 and 01:05 GMT): run eda-home proposes the home; returns a query.
+- HEARTBEAT (household-terra for Kris about 01:10 GMT): answered at 01:43 GMT.
+- PING LEGAL-KI-20261104T014136Z-bf9b5a (lgl.sop.main, authorised by Kit): PONG returned by the coordinator itself at 2026-11-04T01:42:26Z, inside the 01:43:36Z deadline.
+- `method_read` set to f85ce21a.

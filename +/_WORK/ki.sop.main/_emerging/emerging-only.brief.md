@@ -1,0 +1,5 @@
+# emerging-only (ki.sop.main)
+
+Goal: EMERGING-ONLY-WHEN-USED (Kris about 23:50 GMT 3 Nov): in ki-agentic-harness `ki-work-package`, `_emerging` is listed in the Focus section and its folder exists only while it holds something; when it empties it leaves the Focus list and its folder goes, returning when something new fits no named focus; keep Focus lists short. Change the standard and rubric (today they say every Focus section lists the holding area), regenerate surfaces, run tests and audits. Reply to personal.reg.assistant-terra (`/Users/krisbrown/kis/personal/assistant/+/_WORK/personal.reg.assistant-terra/messages.md`). Chained after summary-model, which touches neighbouring files; pull first.
+
+Commit by explicit path, Conventional Commits; pull with `git -c pull.autostash=false -c rebase.autoStash=false pull --ff-only`; push fast-forward only. Never stash, reset, force or --no-verify. Reply lines into another repository go through a temporary worktree from its origin/main, written, committed and pushed in one step. Report: run report with commits, checks, and any query for Kris in Context/Query/Options form.
