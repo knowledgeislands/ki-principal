@@ -540,6 +540,18 @@ a) (recommended, confidence high - reviewed: Finished and completed are both rec
 
 b) Leave the folder until Kris opens that work's thread.
 
+### AUDIT-ORPHANS - A stopped audit leaves its test run going
+
+**Context:** When an audit is stopped part-way, for instance by an agent's command time limit, the full test run it started keeps going in the background and holds the coverage report folder. The next audit of the same checkout then fails at once with "already in use by another Vitest process", or both runs slow each other down. I saw this happen today. The test run is started by the ki-engineering skill's evidence code in the harness, not by tools-ki's audit code, so it was outside this run's scope. The minute-by-minute line now makes stopping less likely, but doesn't prevent it.
+
+**Query:** Should a stopped audit also stop the test run it started?
+
+**Options:**
+
+a) (recommended, confidence medium - it removes the collision, but the right place for the change, the harness evidence code or tools-ki, isn't settled) Record it as a work item for the harness's ki-engineering evidence code: stop its child processes when the audit is interrupted.
+
+b) Leave it, and rely on agents running the audit in the background with a long enough time limit.
+
 ## Parked
 
 ### ACCEPT-CHEZMOI - accept the chezmoi latest-source record
