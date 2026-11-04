@@ -548,7 +548,7 @@ b) Leave the folder until Kris opens that work's thread.
 
 **Options:**
 
-a) (recommended, confidence medium - it removes the collision, but the right place for the change, the harness evidence code or tools-ki, isn't settled) Record it as a work item for the harness's ki-engineering evidence code: stop its child processes when the audit is interrupted.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same home, the harness evidence code that starts the test run) Record it as a work item for the harness's ki-engineering evidence code: stop its child processes when the audit is interrupted.
 
 b) Leave it, and rely on agents running the audit in the background with a long enough time limit.
 
