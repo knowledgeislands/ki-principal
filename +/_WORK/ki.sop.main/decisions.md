@@ -251,3 +251,4 @@
 - HOLD-STATES (Kris about 08:20 GMT via household-terra): "thought through before changes go out"; run hold-states writes a design note with the states flow diagram and hold reasons, changing no standard.
 - granola-follow received: nothing to do; both items already on main (`0001d30c`, `e4fbd81c`).
 - review-subpkg received: SUB-PACKAGE-COVERS lifted to high on agreement.
+- hold-states received: design note at _emerging/hold-states.design.md; household-terra told; seven queries (HOLD-IDLE, HOLD-SELF, HOLD-URGENT, HOLD-LISTEN, HOLD-FOOTER, HOLD-DIAGRAM, HOLD-TERRA), all medium, copied and sent to one blind review.
