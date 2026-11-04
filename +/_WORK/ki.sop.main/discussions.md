@@ -560,7 +560,7 @@ b) Leave it, and rely on agents running the audit in the background with a long 
 
 **Options:**
 
-a) (recommended, confidence medium - it keeps one entry per worker-facing package and matches the pilot, whose parent field already names personal.reg.assistant-terra) Keep it out of `covers`; the parent package answers for it.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same, since the parent package answers for it) Keep it out of `covers`; the parent package answers for it.
 
 b) List it in the main State of play's `covers` as well, so the register shows every live package, and relax the rule that a package under a State of play must be listed there.
 
