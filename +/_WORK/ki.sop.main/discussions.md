@@ -464,7 +464,7 @@ b) Keep all three paused until the open method queries are settled.
 
 **Options:**
 
-a) (recommended, confidence medium - this keeps the five questions somewhere you will see them and fixes the broken links, at the cost of one more round trip; not yet blind-reviewed) Keep it on hold. Send assistant-sol one line asking it to copy the five questions into its own `discussions.md` and to take the trial log and handover note into its package. Leave the launcher proposal with Ways of working until the Orca adapter lands or is dropped. State of play then closes the folder once both are done.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same, keeping the five questions where you will see them) Keep it on hold. Send assistant-sol one line asking it to copy the five questions into its own `discussions.md` and to take the trial log and handover note into its package. Leave the launcher proposal with Ways of working until the Orca adapter lands or is dropped. State of play then closes the folder once both are done.
 
 b) Take the five questions into ki.sop.main's own `discussions.md`, since it already coordinates this work. Close the folder as soon as the three notes are homed.
 
@@ -478,11 +478,39 @@ c) Close it now: mark it finished and delete the folder, with Git history and ki
 
 **Options:**
 
-a) (recommended, confidence medium - no content is lost and it follows the package's focus layout) Have a State of play run move it into `stocktake/` beside `stocktake.report.md` and commit it there. The run then removes the STRAY-REPORTS-SOL line and tells sol it is done.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same, provided the move is verified before the request line is cleared) Have a State of play run move it into `stocktake/` beside `stocktake.report.md` and commit it there. The run then removes the STRAY-REPORTS-SOL line and tells sol it is done.
 
 b) Delete it as already received, accepting that its text is lost.
 
 c) Leave it where it is until the TIDY-RUN discussion is answered.
+
+### TOOLS-RIG-LANE - Who carries the Rig tooling work once Mac Studio setup closes
+
+**Context:** On 17 October Kris gave Mac Studio setup the tools-rig lane (RIG-OWNER). The household works that took over the Mac Studio on 2 November exclude Rig tooling changes, and no other work names tools-rig. Without an owner are the open records [KI-TOOL-RIG-CORE-047](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md), [KI-TOOL-RIG-CORE-068](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md), [KI-TOOL-RIG-CORE-069](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md), [KI-TOOL-RIG-CORE-070](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-070-handler-read-back-after-confirmation.md), [KI-TOOL-RIG-CORE-075](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-075-restart-services-after-upgrade.md) and [KI-TOOL-RIG-CORE-076](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-076-host-defaults-and-power.md). Also without an owner are eleven Rig message lines and the spec-sched brief. On 1 November Kris said Knowledge Islands' method work goes to State of play when a work closes (PS-METHOD-HOME). This query gates the [close-out plan](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/setup/close-out.md): every "lane" row waits on it. It is parked unchanged in the package's discussions.
+
+**Query:** Which work should carry the tools-rig lane after Mac Studio setup closes?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed: State of play's definition takes work without an owner, while tools-burndown and both household works exclude Rig tooling; holding the lane means keeping and routing requests, not delivering Project work itself) State of play holds the lane, receives the retained Rig lines at close-out, and dispatches tools-rig work until Kris opens a dedicated Rig work.
+
+b) ki.prj.tools-burndown takes tools-rig alongside tools-ki and tools-mgit.
+
+c) personal.reg.household-sol takes Rig tooling too, widening its scope.
+
+### RIG-INTAKE - What happens to the retained Rig capability lines
+
+**Context:** Nine lines (eleven bullets) of Rig requests have waited in Mac Studio setup since 29 October. On 14 October Kris set BURN-DOWN: "burn the roadmap down; no new feature records". On 19 October CAPTURE-GATE refined it: capture only blockers, defects seen failing or items Kris asked for, and put ideas in `_IDEAS.md`. Four lines are Kris's own asks: RIG-TUI, RIG-SSH-CHECK, RIG-COMMENT-KIND, and RIG-APP-FOOTPRINT with its RIG-NOTIFICATIONS and RIG-MACHINE-MANAGEMENT companions. RIG-CLI-CONSISTENCY reports defects seen failing on sol. The footprint group's natural home, [KI-TOOL-RIG-CORE-072](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/ideas/KI-TOOL-RIG-CORE-072-application-configuration-touch-points.md), was moved to ideas on 27 October. The per-line table is in [rig-intake.report.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/setup/rig-intake.report.md). This query decides what the lane does with each line, so nothing in the close-out plan routes before it is answered. It is parked unchanged in the package's discussions.
+
+**Query:** Should the lines be handled as the table proposes: four triage captures, the footprint group held with the KI-TOOL-RIG-CORE-072 idea, and two returns?
+
+**Options:**
+
+a) (recommended, confidence high - reviewed: the blind review independently chose this course, since CAPTURE-GATE admits Kris's explicit asks and defects seen failing, and the 27 October deferral of KI-TOOL-RIG-CORE-072 stands until Kris brings it back) Capture four unadopted tools-rig triage records: RIG-TUI, RIG-SSH-CHECK, RIG-COMMENT-KIND, and one bounded RIG-CLI-CONSISTENCY record separating real failures from intended behaviour. Hold the footprint group with the KI-TOOL-RIG-CORE-072 idea, keeping its wording. Return WAKE-SUBSTRATE to State of play and RIG-REMINDER-DOCTOR to its originating work, with the evidence.
+
+b) Strict BURN-DOWN: capture only RIG-TUI and RIG-SSH-CHECK, which Kris named as idea records. Hold RIG-COMMENT-KIND and RIG-CLI-CONSISTENCY as `_IDEAS.md` bullets, and the footprint group with KI-TOOL-RIG-CORE-072. The returns stay as in a).
+
+c) Honour the IMPORTANT footprint ask now: bring KI-TOOL-RIG-CORE-072 back from ideas as a triage record carrying the whole footprint group, plus everything else in a).
 
 ## Parked
 

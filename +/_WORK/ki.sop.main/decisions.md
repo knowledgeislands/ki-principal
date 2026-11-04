@@ -236,3 +236,6 @@
 - orca-close received: acknowledgement found (assistant-terra, 2 Nov 15:26 GMT) but the close-out checks fail, so nothing deleted; its queries copied to discussions; Orca evaluation stays On hold.
 - observatory-sweep received (`d6df1e30`): seven queue lines settled with evidence, method read to d9dbdd9c; STRAY-BLIND-REPORT (medium) copied and sent to blind review.
 - review-stock-queries received: BRANCH-SWEEP and RESUME-SPECS lifted to high on agreement.
+- review-orca-close and review-stray received: ORCA-CLOSE-HOME and STRAY-BLIND-REPORT lifted to high on agreement.
+- mac-studio-close-plan received (`f042c864`): plan at ki.prj.mac-studio-setup/setup/close-out.md; TOOLS-RIG-LANE and RIG-INTAKE (both high, reviewed) copied to discussions.
+- emerging-only received: - Leftovers from the earlier attempt: none. The 01:51 GMT attempt never started, because summary-model had not finished. It left no worktree, branch, uncommitted change or draft report, so this run started from scratch.
