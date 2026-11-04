@@ -29,7 +29,7 @@ created_at: 2026-11-03T22:50:53Z
 
 ## Focus
 
-- `coordination🔗` — remote focus held in personal.reg.assistant-sol (ASOL-005), listed first while coordination is the one topic; no folder here.
+- `coordination` — held in personal.reg.assistant-sol (ASOL-005, ASOL-011), listed first while coordination is the one topic; no folder here.
 
 1. `_emerging` — what has not yet been named as a focus theme.
 2. `send` — Agora's send side for the KIV Electron app and waking Orca chat threads.

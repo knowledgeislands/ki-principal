@@ -15,3 +15,4 @@
 ## 2026-11-04 · ASOL-005 baseline (20:21 GMT)
 
 - ASOL-005 (Kris about 18:15 GMT, via personal.reg.assistant-sol, COORDINATION-ONLY): ACKed in personal.reg.assistant-sol's Inbound; messages split into Inbound and Outbound; `coordination🔗` first on the focus line; listening on Agora's call (settles LISTEN, a); no focus folders, so no `index.md` needed yet.
+- ASOL-011 (Kris, 22:26 GMT, NO-LINK-MARK and UNACKED-IN-LIST): ACKed; `coordination` stays first on the focus line with no 🔗; unACKed sends go in the banner list as `[awaiting ACK]`.
