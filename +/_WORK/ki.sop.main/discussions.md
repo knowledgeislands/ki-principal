@@ -572,7 +572,7 @@ b) List it in the main State of play's `covers` as well, so the register shows e
 
 **Options:**
 
-a) (recommended, confidence medium - same behaviour with fewer words) Idle is more expected set by the worker, recorded `hold.set_by: worker` and shown as `💤 On hold · idle`; there are still two reasons.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same; same behaviour with fewer words) Idle is more expected set by the worker, recorded `hold.set_by: worker` and shown as `💤 On hold · idle`; there are still two reasons.
 
 b) Idle becomes a third reason, `hold.reason: idle`, beside paused and more expected.
 
@@ -586,7 +586,7 @@ c) Idle is not a hold: the work stays With supervisor and the banner adds a "res
 
 **Options:**
 
-a) (recommended, confidence medium - makes the useful behaviour lawful while paused stays Kris's word) Yes, but only into idle and only when all five conditions hold: nothing running or queued, nothing handed off, no unread message, no query with Kris, everything pushed. Paused and done for now stay Kris's words.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same; makes the useful behaviour lawful while paused stays Kris's word) Yes, but only into idle and only when all five conditions hold: nothing running or queued, nothing handed off, no unread message, no query with Kris, everything pushed. Paused and done for now stay Kris's words.
 
 b) No: a worker may only propose a hold in its send, and a resting package stays With supervisor until Kris says `done for now`.
 
@@ -598,7 +598,7 @@ b) No: a worker may only propose a hold in its send, and a resting package stays
 
 **Options:**
 
-a) (recommended, confidence medium - paused keeps meaning stopped, and the choice stays with Kris) The line waits. State of play puts it to Kris as a `resume` query, and genuinely urgent work goes to a live owner instead.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same; paused keeps meaning stopped, and the choice stays with Kris) The line waits. State of play puts it to Kris as a `resume` query, and genuinely urgent work goes to a live owner instead.
 
 b) An IMPORTANT line ends a paused hold by itself and moves the work to Handoff to worker.
 
@@ -612,7 +612,7 @@ c) The package handles IMPORTANT lines where it is and stays paused.
 
 **Options:**
 
-a) (recommended, confidence medium - follows Kris's own example and how the hold ends) Yes for more expected and idle; paused never listens. This revisits LISTEN-STATUS for more expected only.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same; follows Kris's own example and how the hold ends) Yes for more expected and idle; paused never listens. This revisits LISTEN-STATUS for more expected only.
 
 b) Keep LISTEN-STATUS as it is: nothing On hold listens, and new work is found when a session next opens the work.
 
@@ -624,7 +624,7 @@ b) Keep LISTEN-STATUS as it is: nothing On hold listens, and new work is found w
 
 **Options:**
 
-a) (recommended, confidence medium - keeps the agreed layout and the rule that the last glyph shows whose move it is) ⏸️ for paused and 💤 for more expected and idle, the reason and any release always in the heading, listening on its own line; send the wording to Agora to draw.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same; keeps the agreed layout and the rule that the last glyph shows whose move it is) ⏸️ for paused and 💤 for more expected and idle, the reason and any release always in the heading, listening on its own line; send the wording to Agora to draw.
 
 b) Follow Kris's example: the reason and listening both in the heading, `💤 On hold · more expected · listening`, with no separate listening line on a held banner.
 
@@ -636,7 +636,7 @@ b) Follow Kris's example: the reason and listening both in the heading, `💤 On
 
 **Options:**
 
-a) (recommended, confidence medium - one source that shows in Git and Obsidian, with a plain-text version as the note already has) Mermaid, a diagram written as text, in the Work Process note under The seven states, with a plain-text version beside it, through one Enactment record.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same; one source that shows in Git and Obsidian, with a plain-text version as the note already has) Mermaid, a diagram written as text, in the Work Process note under The seven states, with a plain-text version beside it, through one Enactment record.
 
 b) An Archify SVG made under `ki-diagrams` and committed beside `work-model.svg`.
 
@@ -648,7 +648,7 @@ b) An Archify SVG made under `ki-diagrams` and committed beside `work-model.svg`
 
 **Options:**
 
-a) (recommended, confidence medium - avoids changing a state the proposal would make lawful) Leave it, record the exception in the note, and send it a refresh line once the standard changes, so it is re-recorded as idle or reverted as decided.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same; avoids changing a state the proposal would make lawful) Leave it, record the exception in the note, and send it a refresh line once the standard changes, so it is re-recorded as idle or reverted as decided.
 
 b) Put it back to With supervisor now and stop its listening while the design is decided.
 
