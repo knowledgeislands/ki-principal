@@ -34,6 +34,7 @@ method_read: f85ce21a
 7. `identity`: take on a designer doer (Claude Design) for Agora's identity (AGORA-DESIGNER), after AGORA-COUNT-PLACE and the review of KI-AGORA-TRY-001.
 8. Take Kris's answers to the open queries; AGORA-START sets what follows MARK-ALL.
 9. AGORA-HANDOFF (household-sol, Kris about 23:30 GMT): Agora owns its design and roadmap; household-sol installs and runs it on sol and keeps the housekeeping register. Take the [Rig install plan](https://github.com/krisb/dotfiles/blob/main/+/_WORK/personal.reg.household-sol/housekeeping/agora-rig-plan.md) (AGORA-RIG-GO a, AGORA-LOGIN a, every territory configurable), Kris's settings-screen ideas (permissions check, OneDrive-like tree of territories and repositories, assignments view), Agora's architecture in `apps-agora.local` docs, the naming question (workers, housekeeping activities, housekeeper) and the held [jobs register](https://github.com/krisb/dotfiles/blob/main/+/_WORK/personal.reg.household-sol/housekeeping/jobs-register-plan.md) questions JOBS-HOME, JOBS-GUARD, JOBS-HOSTS and JOBS-MOVER; raise CONFIG-OWNER with Kris.
+10. AHEAD-RING-NOISE (seen 4 November, 23:27-23:38 GMT): the `ahead, push it` call rings this package for every transient ki-principal commit another session pushes seconds later; settle briefly before ringing and ring only the committing session's package (by its `Work-Id`). Fold into the next Agora slice.
 
 ## Held
 
