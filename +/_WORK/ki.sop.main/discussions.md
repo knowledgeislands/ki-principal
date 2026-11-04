@@ -362,7 +362,7 @@ b) `⇄  syncing <host>` and `⇏  not syncing <host>`.
 
 **Options:**
 
-a) (recommended, confidence medium - it's the behaviour the 1 Nov request describes, and a record from another machine or with a still-existing home is still refused) Yes. Keep the new behaviour.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same, since continuity is justified when the rename is verified and earlier identities are kept) Yes. Keep the new behaviour.
 
 b) No. Keep refusing, with only the single repair command offered.
 
@@ -374,13 +374,27 @@ b) No. Keep refusing, with only the single repair command offered.
 
 **Options:**
 
-a) (recommended, confidence medium - the evidence clearly rules out extending archify or dataviz, but placing it in the acquire group is a judgement call) A new harness skill, `ki-exchange-dynamics`, in the `acquire` group of ki-agentic-harness. It would hold the method, data format, visual layout, agent steps and the invented example, and it would use archify and dataviz to draw. Ki-principal would get an optional short note in Emerging Concepts that points to the skill.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same; the harness is the strong fit, though analysis reaches beyond capture) A new harness skill, `ki-exchange-dynamics`, in the `acquire` group of ki-agentic-harness. It would hold the method, data format, visual layout, agent steps and the invented example, and it would use archify and dataviz to draw. Ki-principal would get an optional short note in Emerging Concepts that points to the skill.
 
 b) The same skill, but in a new `analysis` group of skills, in case more analysis methods follow.
 
 c) A Pillars note in ki-principal only, with no skill. Agents in other repositories could not use it directly, and every change would need the Enactment Process.
 
 d) Extend `archify` or `dataviz` to carry the method.
+
+### REPLY-BLOCK-SUMMARY - Should the new Summary end its queries with a copyable reply block?
+
+**Context:** The approved design note says `## Queries` lists every open query in full "then the copyable reply block". The coordination standard has carried no reply block since Kris's REPLY-BLOCK decision of 18 October: Kris answers by voice, by tag or in order. This run's brief asked only for "`## Queries` in full". I landed the Summary without a reply block, so REPLY-BLOCK still stands.
+
+**Query:** Should the Summary's Queries section end with a copyable reply block, as the design note says?
+
+**Options:**
+
+a) (recommended, confidence medium - REPLY-BLOCK is a standing decision and the brief did not ask to reverse it, but the design note's wording points the other way) Keep no reply block. The design note's phrase is read as left over from before REPLY-BLOCK, and household-terra is told so.
+
+b) Add a copyable reply block at the end of the Summary's Queries, reversing REPLY-BLOCK for the Summary only.
+
+c) Bring the reply block back in every owner report, reversing REPLY-BLOCK entirely.
 
 ## Parked
 

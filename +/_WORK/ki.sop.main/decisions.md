@@ -229,3 +229,5 @@
 
 - Read back as taken: "I suspect that when you do wake up, one of the things that you're gonna have to do at 4 AM is you're gonna have to go and get lots of information and try to start moving forwards things overall on the Knowledge Islands of work packages". Taken as: at the wake after the usage-limit reset, gather a territory-wide picture and move authorised work forward across every Knowledge Islands package, within SOLE-THREAD and KI-TOOLING-GO; nothing that needs Kris is decided for him.
 - A third usage limit stopped this thread and its runs at about 01:50 GMT: summary-model and run-close exited mid-work; audit-hang, emerging-only, granola-follow, sub-package and territory-names failed behind them. The watcher hit its two-hour limit unseen. All relaunched at 03:52 GMT, each told to pick up its predecessor's worktree or branch.
+- summary-model received (harness `d9dbdd9c`): SUMMARY-NOW is in the standard, with the 01:20 GMT addendum; REPLY-BLOCK-SUMMARY (medium) copied and sent to blind review. `method_read` d9dbdd9c.
+- review-rename-eda received: RENAME-FENCE and EDA-HOME lifted to high on agreement.
