@@ -396,6 +396,66 @@ b) Add a copyable reply block at the end of the Summary's Queries, reversing REP
 
 c) Bring the reply block back in every owner report, reversing REPLY-BLOCK entirely.
 
+### ACCEPT-KI-TOOL-MGIT-CLI-033 - Accept the sync push guard
+
+**Context:** [KI-TOOL-MGIT-CLI-033](/Users/krisbrown/kis/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-033-sync-push-guard.md) (`mgit sync` pushes only with `--push`, which Kris adopted after a blind review on 25 October) was delivered on 31 October (tools-mgit `f67e255`) and is awaiting review. Its only acceptance question sits among Ways of working's parked queries, and State of play has no ACCEPT query for it, though ACCEPT-BUNDLE (Kris, 20 October) has State of play bring every record awaiting acceptance "as the first point of call".
+
+**Query:** Should State of play add this record to the `mgit` acceptance with KI-TOOL-MGIT-CLI-032?
+
+**Options:**
+
+a) (recommended, confidence high - the same repository and reviewer as CLI-032, and ACCEPT-BUNDLE asks for exactly this) Add ACCEPT-KI-TOOL-MGIT-CLI-033 beside ACCEPT-KI-TOOL-MGIT-CLI-032, oldest first, with a fresh review-prep run before you accept through `ki-accept`.
+
+b) Leave it with Ways of working until that work opens again.
+
+### STALE-ACCEPTS - Drop four acceptance queries whose records are already accepted
+
+**Context:** Four parked State of play queries ask Kris to accept records that were accepted and pruned on 27 October: [KI-WEBSITE-SITE-044 (pruned)](https://github.com/knowledgeislands/apps-knowledgeislands.info/blob/ae886e2b/docs/roadmap/KI-WEBSITE-SITE-044-design-v1.md) in apps-knowledgeislands.info `fdc1ac2`, [KI-PRINCIPAL-OPS-014 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/1fba2fb7/Streams/Roadmap/KI-PRINCIPAL-OPS-014-gfm-conversion.md) and [KI-PRINCIPAL-MOD-009 (pruned)](https://github.com/knowledgeislands/ki-principal/blob/1fba2fb7/Streams/Roadmap/KI-PRINCIPAL-MOD-009-amend-adr-001-staging-wording.md) in ki-principal `a88b2f92`, and [KI-TOOL-RIG-CORE-062 (pruned)](https://github.com/knowledgeislands/tools-rig/blob/14715c30/docs/roadmap/KI-TOOL-RIG-CORE-062-own-address-firewall-destination.md) in tools-rig `033d952`, each "chore(roadmap): prune ... done work records". I checked each deletion commit directly. OBSOLETE-DROP, still open, asks the general version of this question.
+
+**Query:** May State of play drop ACCEPT-KI-WEBSITE-SITE-044, ACCEPT-KI-PRINCIPAL-OPS-014, ACCEPT-KI-PRINCIPAL-MOD-009 and ACCEPT-KI-TOOL-RIG-CORE-062, logging each prune commit?
+
+**Options:**
+
+a) (recommended, confidence high - the prune commits show each record done and gone, and dropping a query changes no record) Drop the four, one decisions-log line each citing its commit, and treat this as part of OBSOLETE-DROP a).
+
+b) Keep them parked until you answer OBSOLETE-DROP.
+
+### BRANCH-SWEEP - Clear merged branches and the worktrees of finished runs
+
+**Context:** Every repository is level with GitHub, but finished runs left branches and working copies behind. Merged into `main` and safe to remove by Git's own check: ki-agentic-harness `finished-tidy`, `quiet-listen` and `rename-paperclip`; tools-ki `wow-rel-0141`; tools-rig `run/wow-night-rig-048-f` and `run/wow-night-rig-056-e`; the remote `ways-of-working-learn` in apps-knowledgeislands.info. Most still have a worktree (a second working copy of the repository) under `~/.local/state/ki/agents/` or `$TMPDIR`, from Ways of working runs that `ki agent status` no longer lists. I did not check those worktrees for uncommitted files.
+
+**Query:** Should one housekeeping run remove the merged branches and their worktrees?
+
+**Options:**
+
+a) (recommended, confidence medium - the branches are proven merged, but the worktrees' contents are unchecked; not yet blind-reviewed) One bounded run checks each worktree is clean, removes clean ones with `git worktree remove` and their merged branches with `git branch -d`, and lists any dirty one for you without touching it.
+
+b) Leave them until each owning Project closes.
+
+### UNMERGED-STRAYS - Decide the unmerged branches finished runs left
+
+**Context:** Eight branches hold commits not on `main`, from runs that have finished: tools-ki `wow-close-done-2` and `wow-day-impl-fix-5` (21 and 22 October, `ki agent` recovery fixes); ki-agentic-harness `ki-e2e` and `orca-adapter` (1 and 2 November, draft skills); tools-rig `run/wow-accept-rig-056` and `run/wow-rework-rig-056` (20 October, KI-TOOL-RIG-CORE-056 evidence); apps-observatory.local `z-retirement/observatory-20261030` (30 October retirement evidence, also on GitHub); ki-principal `run/wow-mod011-approved-candidate-mpg8sgz6`, the same two commits as GitHub's `wip/z-retired-mod011-20261030` (28 October, KI-PRINCIPAL-MOD-011 candidate); chezmoi `tower-nudge-retire` (3 November). Some may be superseded by later work on `main`; none has been compared.
+
+**Query:** Should a read-only run compare each branch with `main` and bring you a keep, merge or drop list?
+
+**Options:**
+
+a) (recommended, confidence high - read-only, and nothing is lost while you decide) One read-only run reports, per branch, whether `main` already carries its change, which work owns it and a recommended disposition; nothing is deleted.
+
+b) Leave them for each owning Project.
+
+### RESUME-SPECS - Resume Portable specifications
+
+**Context:** [ki.prj.portable-specifications](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.portable-specifications/state.md) has been paused since 20 October, released only when Kris says resume. Its draft 0.8 specifications passed six blind reviews, the last finding nothing, and its two parked queries, SPEC-TEXT and HOMING-EDITS, are both recommended at high confidence. Resuming means planning KI-HARNESS-GOV-229 and KI-HARNESS-GOV-230 to Ready in the harness, which the summary-model and emerging-only chain also edits. Timelines and Baseline rollout are paused the same way, with two and fifteen parked queries.
+
+**Query:** Should Portable specifications resume now, with the other two paused works left as they are?
+
+**Options:**
+
+a) (recommended, confidence medium - it is the readiest paused work, but whether to spend owner attention on it now is your call; not yet blind-reviewed) Resume Portable specifications only: put SPEC-TEXT and HOMING-EDITS to you, then plan its harness records after the harness chain finishes.
+
+b) Keep all three paused until the open method queries are settled.
+
 ## Parked
 
 ### ACCEPT-CHEZMOI - accept the chezmoi latest-source record
