@@ -522,9 +522,9 @@ This is also written into [discussions](/Users/krisbrown/kis/knowledge-islands/k
 
 **Options:**
 
-a) (recommended, confidence medium - Agora's doorbell already does the waking, and a second watcher would duplicate it) Drop WATCH-VERB as no longer needed now Agora's doorbell exists, keeping its design for reference.
+a) (recommended, confidence medium - reviewed, views differ: Agora's doorbell already does the waking, and a second watcher would duplicate it; the independent reviewer chose b) at medium, because the doorbell leaves gaps on hosts or runtimes without Agora) Drop WATCH-VERB as no longer needed now Agora's doorbell exists, keeping its design for reference.
 
-b) Build it anyway, as a fallback for runtimes or hosts without Agora.
+b) Build it anyway, as a bounded fallback for runtimes or hosts without Agora, using Agora's doorbell where it already wakes the thread; the reviewer's choice.
 
 ### KA-CLOSE - close the finished Knowledge acquisition work
 

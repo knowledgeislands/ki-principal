@@ -242,3 +242,4 @@
 - burndown-sweep received (`8f4d013c`, `7acda955`): tools-burndown queue 73 to 45 live lines, method read to d9dbdd9c; its queries copied, medium ones to blind review.
 - path-repoint received (`e8dab041`): last old-path links repointed; seven links name files since removed, left as they are.
 - ka-close received: stopped before changing anything, because closing ki.prj.knowledge-acquisition needs Kris's word under the close-out rule; KA-CLOSE unparked and put to Kris.
+- review-burndown received: the reviewer chose WATCH-AGORA b) at medium against a) at medium; both views shown.
