@@ -428,7 +428,7 @@ b) Keep them parked until you answer OBSOLETE-DROP.
 
 **Options:**
 
-a) (recommended, confidence medium - the branches are proven merged, but the worktrees' contents are unchecked; not yet blind-reviewed) One bounded run checks each worktree is clean, removes clean ones with `git worktree remove` and their merged branches with `git branch -d`, and lists any dirty one for you without touching it.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same, provided each removal is checked fresh and uses Git's normal non-forcing commands, leaving anything dirty, active or uncertain untouched) One bounded run checks each worktree is clean, removes clean ones with `git worktree remove` and their merged branches with `git branch -d`, and lists any dirty one for you without touching it.
 
 b) Leave them until each owning Project closes.
 
@@ -452,7 +452,7 @@ b) Leave them for each owning Project.
 
 **Options:**
 
-a) (recommended, confidence medium - it is the readiest paused work, but whether to spend owner attention on it now is your call; not yet blind-reviewed) Resume Portable specifications only: put SPEC-TEXT and HOMING-EDITS to you, then plan its harness records after the harness chain finishes.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same; owner review can resume now while the harness chain finishes) Resume Portable specifications only: put SPEC-TEXT and HOMING-EDITS to you, then plan its harness records after the harness chain finishes.
 
 b) Keep all three paused until the open method queries are settled.
 
@@ -469,6 +469,20 @@ a) (recommended, confidence medium - this keeps the five questions somewhere you
 b) Take the five questions into ki.sop.main's own `discussions.md`, since it already coordinates this work. Close the folder as soon as the three notes are homed.
 
 c) Close it now: mark it finished and delete the folder, with Git history and ki.sop.main's handover-intake report as the only record of the questions and notes.
+
+### STRAY-BLIND-REPORT - Home the untracked blind-review report of 1 November
+
+**Context:** `blind-review-stocktake.report.md` sits at the top of the Observatory package folder. It has never been committed to Git, here or (per the STRAY-REPORTS-SOL line) on sol. The Observatory coordinator recorded it as received on 1 November (STOCKTAKE-RECEIPT), and its outcome is already in the ten parked discussions. This run left it untouched, because its rules forbid touching another session's uncommitted file. Deleting it would lose the text for good, since Git has no copy.
+
+**Query:** Should the report be committed into the package's `stocktake/` folder, so that Git keeps it and a later mark can prune it?
+
+**Options:**
+
+a) (recommended, confidence medium - no content is lost and it follows the package's focus layout) Have a State of play run move it into `stocktake/` beside `stocktake.report.md` and commit it there. The run then removes the STRAY-REPORTS-SOL line and tells sol it is done.
+
+b) Delete it as already received, accepting that its text is lost.
+
+c) Leave it where it is until the TIDY-RUN discussion is answered.
 
 ## Parked
 

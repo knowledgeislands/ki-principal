@@ -234,3 +234,5 @@
 - stock-take received (`_emerging/stock-take.findings.md`): its five queries copied to discussions; units 3 to 8 launched under SOLE-THREAD, KI-TOOLING-GO and MOVE-FORWARD: burndown-sweep, orca-close and observatory-sweep now; mac-studio-close-plan, path-repoint and ka-close chained after them; launcher-push stays with audit-hang. Orphaned fragment removed from messages.md.
 - review-reply-block received: REPLY-BLOCK-SUMMARY lifted to high on agreement.
 - orca-close received: acknowledgement found (assistant-terra, 2 Nov 15:26 GMT) but the close-out checks fail, so nothing deleted; its queries copied to discussions; Orca evaluation stays On hold.
+- observatory-sweep received (`d6df1e30`): seven queue lines settled with evidence, method read to d9dbdd9c; STRAY-BLIND-REPORT (medium) copied and sent to blind review.
+- review-stock-queries received: BRANCH-SWEEP and RESUME-SPECS lifted to high on agreement.
