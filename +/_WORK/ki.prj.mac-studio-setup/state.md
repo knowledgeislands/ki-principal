@@ -17,6 +17,7 @@ method_read: b3c631c2
 
 - On hold (paused) since 3 November, 03:10 GMT; coordination taken up by State of play (ki.sop.main) under SOLE-THREAD. Nothing running.
 - Site work handed to personal.reg.household-sol and personal.reg.household-terra on 2 November ([setup/handover.md](setup/handover.md)); both acknowledged.
+- Close-out planned in [setup/close-out.md](setup/close-out.md) (4 November, draft): nothing routes until Kris answers TOOLS-RIG-LANE and RIG-INTAKE; the close itself is Kris's.
 - Eight queries parked in [discussions](discussions.md), TOOLS-RIG-LANE first; the retained Rig lines in [messages](messages.md) wait for whoever takes the tools-rig lane.
 - Lane: tools-rig and the agent-host hold cluster; open records [KI-TOOL-RIG-CORE-047](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md), [KI-TOOL-RIG-CORE-068](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md), [KI-TOOL-RIG-CORE-069](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md), [KI-TOOL-RIG-CORE-070](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-070-handler-read-back-after-confirmation.md). Method read at `b3c631c2`.
 
