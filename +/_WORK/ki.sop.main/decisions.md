@@ -255,3 +255,7 @@
 - review-hold-states received: the reviewer chose the recommended course on all seven HOLD queries; each lifted to high.
 - territory-names received (tools-ki `6992ba1e` and following): territory audit tells unregistered, renamed, missing and unreadable members apart; agent status shows working checkouts. All dispatched work is finished.
 - Send to Kris: all dispatched work finished; Summary given with every open query in full.
+
+## 2026-11-04 · ASOL-004 baseline (20:20 GMT)
+
+- Kris's COORDINATION-ONLY (about 18:15 GMT, via personal.reg.assistant-sol, ASOL-004): taken and ACKed; messages split into Inbound and Outbound, `coordination🔗` first on the focus line, an `index.md` in each focus folder, listening on Agora's call, received reports and spent briefs pruned.

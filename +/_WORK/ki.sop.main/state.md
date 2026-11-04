@@ -31,11 +31,10 @@ workers:
 
 - ki.prj.website is seeded on hold until Kris opens it; Host network opens fifth, after its decision paper and restore path.
 
-## Next steps (4 November, send to Kris)
+## Next steps (4 November 20:20 GMT)
 
-1. Every dispatched run has finished and been received; nothing is running. 48 queries are open with Kris in `discussions.md`, all at high confidence except CHAIN-START-FIRST and WATCH-AGORA, where the reviewer disagreed.
-2. After the Summary, an interactive pass takes the queries one at a time, acceptance first.
-3. Stoa lines wait on STOA-HOME; mail-engine lines on MAIL-ASKS; the how-we-work and hold-states builds on their queries.
+1. Under ASOL-004 (Kris about 18:15 GMT, COORDINATION-ONLY): coordination is the one topic; this is one of six open sessions, listening on Agora's call; `coordination🔗` first on the focus line; messages split into Inbound and Outbound.
+2. 48 queries are with Kris in `discussions.md`. Inbound waits: the Stoa lines on STOA-HOME; SYNC-LINE-OFF and HOLD-TIDY for the next method run; GRANOLA-MARK-FAULTS when coordination allows.
 
 ## Held
 
