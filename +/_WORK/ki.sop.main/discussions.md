@@ -652,6 +652,66 @@ a) (recommended, confidence high - reviewed: an independent reviewer chose the s
 
 b) Put it back to With supervisor now and stop its listening while the design is decided.
 
+### ATTACH-HOW - how an attachment point is declared
+
+**Context:** An attachment point is a node this island promises not to move, so that other graphs, starting with the assistant's, can pin read-only shadow copies to it. The proposal leaves open where that promise is recorded.
+
+**Query:** How should a node be marked as an attachment point, and what should it promise?
+
+**Options:**
+
+a) (recommended, confidence medium - this keeps the flag on the node and the list on the home page, and lets a check confirm they agree) A front matter flag `attachment: true`, listed on `knowledge/_index.md`, promising a stable id and path and retirement by pointer rather than deletion. Shadow nodes record `shadows:` (path and revision read) and `checked:` (date).
+
+b) A separate register file listing the attachment points, with nothing on the nodes themselves.
+
+### ATTACH-SET - the first attachment points
+
+**Context:** These are the nodes the assistant can pin to straight away.
+
+**Query:** Which nodes should be the first attachment points?
+
+**Options:**
+
+a) (recommended, confidence medium - these are the three the proposal's picture shows) The capture funnel, the knowledge graph, and the work process once it is pulled across.
+
+b) None until the first slice has settled.
+
+### RESOURCES-IN - Resources in other territories' graphs
+
+**Context:** Here Resources stays outside `knowledge/`, because the island strictly enforces the split between its own knowledge and outside reference.
+
+**Query:** May another territory bring its Resources into its graph?
+
+**Options:**
+
+a) (recommended, confidence medium - no territory has shown the need yet) No for now. Revisit when a territory asks.
+
+b) Yes, as each territory chooses.
+
+### RENAME-WHEN - lower-casing the older areas
+
+**Context:** You prefer everything in lower-case kebab-case. Renaming Admin, Calendar, Streams and Resources means moving every link and harness citation.
+
+**Query:** When should the older areas be renamed?
+
+**Options:**
+
+a) (recommended, confidence high - renaming earlier would move the links twice) After Pillars is retired, as one separate record per repository.
+
+b) Now, alongside the first slice.
+
+### PACE - the first milestone
+
+**Context:** You asked for this quickly, and Enactment still gates canonical change.
+
+**Query:** What should the first milestone be?
+
+**Options:**
+
+a) (recommended, confidence high - this is the fastest route that keeps the gate) Phases 0 and 1 under one approval this week, with the harness carrying the standard in parallel, then Pillars taken one subtree at a time.
+
+b) The standard first, and the Knowledge Islands Principal bootstrap after it.
+
 ## Parked
 
 ### ACCEPT-CHEZMOI - accept the chezmoi latest-source record

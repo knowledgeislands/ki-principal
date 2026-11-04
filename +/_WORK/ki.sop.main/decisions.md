@@ -268,3 +268,5 @@
 - ROUTE-DORMANT (MSG-02578c1b): (a) run ue112-repoint; (b) OBSERVATORY-LINKS held in ki.prj.observatory's messages.md for that package.
 - HOLD-TIDY stays with the HOLD-STATES design.
 - REGROUND reply MSG-1daf57ac (personal.reg.assistant-sol, 23:36 GMT): ACKed. Applied: `themes` (routing) marked ⭐ primary; INDEX-NAME settled as `_index.md` and sent as MSG-506967e1 to assistant-sol and both housekeepers; own focus files renamed; footer reads `🎧 listening · Agora's call`; watcher liveness checked at each mark. RECORD-2-HEADINGS is in run msg-sections, which tells both housekeepers and assistant-sol on release. KNOWLEDGE-FOLDER is in run knowledge-plan. Message ids from now are `MSG-` plus eight hex characters.
+- ue112-repoint received (tools-rig `d987d5d`): household-terra told.
+- knowledge-plan received (`0c5ba920`, design note `_emerging/knowledge.design.md`): its INDEX-NAME query is already settled (`_index.md`, MSG-506967e1) and dropped; the other five copied, the three medium ones to blind review; assistant-terra told.

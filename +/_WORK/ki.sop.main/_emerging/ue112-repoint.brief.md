@@ -1,5 +1,0 @@
-# ue112-repoint (ki.sop.main)
-
-Goal: UE112-REPOINT (household-terra MSG-02578c1b (a)): in tools-rig `docs/ideas/KI-TOOL-RIG-CORE-074-host-specific-software-retirement.md` line 45, repoint the link to PERSONAL-DOTFILES-UE-112 from its local chezmoi path to `https://github.com/krisb/dotfiles/blob/646d1ff^/docs/roadmap/PERSONAL-DOTFILES-UE-112-review-workstation-software.md`, so UE-112 can be pruned. Check the target resolves on GitHub (`gh api`). One commit in tools-rig. Then send personal.reg.household-terra one line saying it is done.
-
-Commit by explicit path, Conventional Commits with a lower-case subject; pull with `git -c pull.autostash=false -c rebase.autoStash=false pull --ff-only`; push fast-forward only. Never stash, reset, force or --no-verify. Lines into another repository are written, committed and pushed in one step through a temporary worktree from its origin/main, at the top of the receiver's `## Inbound`, each with a short `MSG-` id. Report: run report with commits, checks, and any query for Kris in Context/Query/Options form.
