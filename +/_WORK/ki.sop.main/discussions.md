@@ -552,6 +552,18 @@ a) (recommended, confidence high - reviewed: an independent reviewer chose the s
 
 b) Leave it, and rely on agents running the audit in the background with a long enough time limit.
 
+### SUB-PACKAGE-COVERS - Whether a sub-package belongs in the main State of play's register
+
+**Context:** I wrote that a sub-package names its parent package as `parent` and stays out of every State of play's `covers` register, because its parent is already listed there. The model note says nothing about coverage. Both audits now enforce this: a sub-package whose `parent` names anything other than its parent package fails.
+
+**Query:** Should a sub-package stay out of the main State of play's `covers` register?
+
+**Options:**
+
+a) (recommended, confidence medium - it keeps one entry per worker-facing package and matches the pilot, whose parent field already names personal.reg.assistant-terra) Keep it out of `covers`; the parent package answers for it.
+
+b) List it in the main State of play's `covers` as well, so the register shows every live package, and relax the rule that a package under a State of play must be listed there.
+
 ## Parked
 
 ### ACCEPT-CHEZMOI - accept the chezmoi latest-source record
