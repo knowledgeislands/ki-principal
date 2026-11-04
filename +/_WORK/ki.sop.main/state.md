@@ -1,7 +1,7 @@
 ---
 id: ki.sop.main
-state: with-worker
-since: 2026-11-03T03:20:00Z
+state: handoff-to-supervisor
+since: 2026-11-04T09:29:30Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-11-04T01:44:21Z
@@ -31,10 +31,11 @@ workers:
 
 - ki.prj.website is seeded on hold until Kris opens it; Host network opens fifth, after its decision paper and restore path.
 
-## Next steps (4 November 01:45 GMT)
+## Next steps (4 November, send to Kris)
 
-1. Runs under `ki-sop-main`: tools-ki chain (run-close, then sub-package, granola-follow, territory-names); harness chain (summary-model, then emerging-only); eda-home.
-2. SUMMARY-NOW is the interim reply rule until summary-model lands. Stoa lines wait on STOA-HOME; MAIL-ENGINE on MAIL-ASKS; the how-we-work build waits on its queries.
+1. Every dispatched run has finished and been received; nothing is running. 48 queries are open with Kris in `discussions.md`, all at high confidence except CHAIN-START-FIRST and WATCH-AGORA, where the reviewer disagreed.
+2. After the Summary, an interactive pass takes the queries one at a time, acceptance first.
+3. Stoa lines wait on STOA-HOME; mail-engine lines on MAIL-ASKS; the how-we-work and hold-states builds on their queries.
 
 ## Held
 

@@ -254,3 +254,4 @@
 - hold-states received: design note at _emerging/hold-states.design.md; household-terra told; seven queries (HOLD-IDLE, HOLD-SELF, HOLD-URGENT, HOLD-LISTEN, HOLD-FOOTER, HOLD-DIAGRAM, HOLD-TERRA), all medium, copied and sent to one blind review.
 - review-hold-states received: the reviewer chose the recommended course on all seven HOLD queries; each lifted to high.
 - territory-names received (tools-ki `6992ba1e` and following): territory audit tells unregistered, renamed, missing and unreadable members apart; agent status shows working checkouts. All dispatched work is finished.
+- Send to Kris: all dispatched work finished; Summary given with every open query in full.
