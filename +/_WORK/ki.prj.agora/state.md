@@ -28,7 +28,7 @@ method_read: db5dcab3
 1. Receive mark-all-scope and bring its slice and six queries to Kris; tell personal.reg.assistant-terra when the mark broadcast lands or what blocks it.
 2. `send`: the footer, under FOOTER-AGORA and FOOTER-ART: drop the sync line now Agora keeps checkouts level, drop the listening line once Agora can wake every thread including Orca chats (KI-AGORA-WRK-001), and agree the footer with ki.sop.main, which notifies every package.
 3. `jobs`: design, with Kris, Agora as the scheduler of the rig's jobs, saying when one fails or stops (AGORA-SCHEDULER, beside PERSONAL-DOTFILES-UE-137); nothing is built until the design is agreed.
-4. `send`: build Agora's send side for the KIV Electron app (KIV-SEND; assistant-terra.kiv's KIV-ELECTRON waits on it), and wake Orca chat threads from Agora (ORCA-WAKE, Orca #33114).
+4. `send`: build Agora's send side for the KIV Electron app (KIV-SEND; assistant-terra.kiv's KIV-ELECTRON waits on it), and wake Orca chat threads from Agora (ORCA-WAKE, Orca #33114); nothing is posted to Orca or any other owner's repository or service without Kris's express permission for that post (NO-EXTERNAL-POSTING).
 5. `voice`: the voice bard path (VOICE-BARD).
 6. `jobs`: the run-once jobs register with personal.reg.household-sol, as AGORA-RUN-ONCE set in assistant-sol's [decisions](https://github.com/krisb/assistant/blob/5f2655d9/%2B/_WORK/personal.reg.assistant-sol/decisions.md) (AGORA-JOBS).
 7. `identity`: take on a designer doer (Claude Design) for Agora's identity (AGORA-DESIGNER), after AGORA-COUNT-PLACE and the review of KI-AGORA-TRY-001.
