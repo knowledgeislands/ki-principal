@@ -1,3 +1,0 @@
-# harness-bun (ki.sop.main)
-
-Goal: the harness's own Bun pin is still 1.4.3 while the estate pins 1.4.4 (CONFORM-P1, Kris's word about 07:45 GMT 3 Nov, which moved the conform template to 1.4.4), and the full harness audit fails its dependency-freshness check on it. In ki-agentic-harness, adopt Bun 1.4.4 in its own `packageManager`, `mise.toml` and any CI pin, reinstall, and re-run the full tests, type check and `ki repo audit`. Pull first. Commit by explicit path with a lower-case Conventional Commits subject; pull with `git -c pull.autostash=false -c rebase.autoStash=false pull --ff-only`; push fast-forward only; never stash, reset, force or --no-verify. Report: run report with commits and checks.
