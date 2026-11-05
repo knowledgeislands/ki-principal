@@ -295,3 +295,4 @@
 - acquire-repoint received (harness `0a12651b`): ATER-027 done, the three acquire skills point their commands at `ki-muninn` and keep the method; assistant-terra told (MSG-b3a40e7c, ACKed). ADR-007 (medium) to blind review.
 - review-adr007 received: the reviewer proposed updating the record in place, under the decision-record standard's present-state rule; ADR-007 recast with that as a) at high.
 - roadmap-assignee received (harness `17407d75`, tools-ki `c76166cd`): ROADMAP-ASSIGNEE and ASSIGNEE-LOCK done; household-terra told (MSG-f219c0c6, ACKed; its chezmoi records already carry assignees). All dispatched work finished.
+- NO-EXTERNAL-POSTING (IMPORTANT, Kris about 19:40 GMT, via household-sol MSG-a95dd5c4): "Any posting to external repositories in my name ... is not allowed without my express permission." Taken now by this thread, ACKed at 21:04 GMT; run no-external-posting makes it durable in ki-delegation and ki-coordination.
