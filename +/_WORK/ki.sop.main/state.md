@@ -31,6 +31,10 @@ workers:
 
 - ki.prj.website is seeded on hold until Kris opens it; Host network opens fifth, after its decision paper and restore path.
 
+## Standing rule
+
+- ACK-ALWAYS (Kris, about 23:30 GMT 5 Nov): every line taken, held or acted on gets its ACK at the top of the sender's Inbound at the moment it is taken, with no exceptions; lines kept in Inbound to act on later are ACKed too.
+
 ## Next steps (4 November 20:20 GMT)
 
 1. Under ASOL-004 (Kris about 18:15 GMT, COORDINATION-ONLY): coordination is the one topic; this is one of six open sessions, listening on Agora's call; `coordination🔗` first on the focus line; messages split into Inbound and Outbound.
