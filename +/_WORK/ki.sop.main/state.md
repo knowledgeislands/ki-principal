@@ -1,10 +1,10 @@
 ---
 id: ki.sop.main
-state: handoff-to-supervisor
+state: with-worker
 since: 2026-11-04T09:29:30Z
 received: 2026-10-19T17:58:50Z
 beat: null
-mark: 2026-11-04T01:44:21Z
+mark: 2026-11-05T16:11:52Z
 method_read: db5dcab3
 listening_enabled: true
 listening_status: on

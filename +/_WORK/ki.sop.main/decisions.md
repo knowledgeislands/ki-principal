@@ -284,3 +284,11 @@
 - ki-extensions received (tools-ki `a75cacb0`, `8349e5bd`): KI-TOOL-KI-CLI-176 (extension veneer) and KI-TOOL-KI-CLI-177 (packaged subcommands) captured as unadopted triage records at Kris's request; assistant-terra told (MSG-c69564de, ACKed). ACQUIRE-SKILLS (medium) copied and sent to blind review.
 - 05:01 GMT: a third usage-limit stop (about 02:23 to 05:00 GMT) ended run msg-sections during its audits and this thread's watcher; no inbound lines were missed. msg-sections relaunched to commit its worktree first. review-acquire received: ACQUIRE-SKILLS shows both views.
 - msg-sections received (harness `13d98303`, `db5dcab3`): Inbound and Outbound sections, `_index.md`, sync line removed, awaiting-ACK items in the banner; REFRESH sent to 15 packages, both housekeepers and assistant-sol told, all ACKed by 05:06 GMT. HOUSEKEEPER-RENAME and COORD-SOLE needed no harness text. `method_read` db5dcab3. All dispatched work finished.
+
+## 2026-11-05 · MARK (Kris, 16:11 GMT)
+
+- Read back as taken: "Can you do a mark, please?" and "are you getting the messages from household-terra?" Mark struck at 2026-11-05T16:11:52Z.
+- The watcher died again with the session after about 05:07 GMT, so four lines from 06:39 to 09:31 GMT (household-terra MSG-7f3a80c0, MSG-d410ef0c, MSG-b90fd673; assistant-terra ATER-027) sat unread until 16:11 GMT. All ACKed.
+- ATER-027 (Kris's word: `ki acquire` removed) overtakes ACQUIRE-SKILLS, which is dropped; run acquire-repoint repoints the three skills, keeping the common method in the harness.
+- ROADMAP-ASSIGNEE and ASSIGNEE-LOCK (Kris, "put it at the top of your list"): run roadmap-assignee, chained after acquire-repoint in the harness.
+- LOCAL-VERSIONS (Kris, 08:20 GMT): noted; nothing here assumed released tool versions.
