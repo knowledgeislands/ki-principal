@@ -50,36 +50,6 @@ b) Amend the Techne Programme Focus through the Enactment Process to allow Agora
 
 c) Park KI-AGORA-WRK-001 until the agent-host work settles.
 
-### BCAST-THREADS - Teaching threads to read broadcasts
-
-focus: send · since 2026-11-03 · from assistant-sol ([discussions](https://github.com/krisb/assistant/blob/5f2655d9/%2B/_WORK/personal.reg.assistant-sol/discussions.md))
-
-**Context:** Agora delivers broadcasts, but a thread only acts on one if its listening loop reads the broadcast file at each doorbell wake and records an Away as an unattended window. The README and `AGENTS.md` say so; the `ki-coordination` method does not yet mention Agora broadcasts, so threads will not read the file.
-
-**Query:** Should reading broadcasts be added to the coordinating method?
-
-**Options:**
-
-a) (recommended, confidence medium - reaches every thread through the one source they already re-read, and leaves Agora unchanged) Send ways-of-working a line to add it to `ki-coordination`: at each doorbell wake read the broadcast file, treat an `away` entry as an unattended window and `back` as the return.
-
-b) Each thread reads the file only when the doorbell line starts `broadcast`. Simpler, but a news ring can overwrite a broadcast ring and the broadcast is missed.
-
-c) Leave it in the README for now and add it to the method after you have tried a broadcast.
-
-### BCAST-AUTHORITY - What an Away grants
-
-focus: send · since 2026-11-03 · from assistant-sol ([discussions](https://github.com/krisb/assistant/blob/5f2655d9/%2B/_WORK/personal.reg.assistant-sol/discussions.md))
-
-**Context:** As you asked, an Away broadcast says only "within your existing authority". Under `ki-coordination` an unattended window is opened by a grant recorded in the decisions log. A thread could read your Away words as that grant, limited to its existing authority, or only notice you are away.
-
-**Query:** Should a thread treat an Away broadcast as opening an unattended window on its own, or only notice it?
-
-**Options:**
-
-a) (recommended, confidence medium - matches "do as much as you can" while keeping each thread inside what it is already allowed to do) Opening a window: the thread records the grant and end time in its decisions log, works within its existing authority, and gives a return report at the end or when you are back.
-
-b) Only notice: threads keep working as they would and write a return report without opening a window.
-
 ### AGORA-COUNT-PLACE - Where the group count goes when the identity design lands
 
 focus: identity · since 2026-11-03 · from assistant-sol ([discussions](https://github.com/krisb/assistant/blob/5f2655d9/%2B/_WORK/personal.reg.assistant-sol/discussions.md))
@@ -95,20 +65,6 @@ a) (recommended, confidence medium - keeps the design's quiet icon and still ans
 b) Keep `2/2` beside the symbol as well as the look count.
 
 c) Drop the count and rely on the symbol's states.
-
-### WORK-ID-TRAILER - A Work-Id trailer on a thread's own commits
-
-focus: send · since 2026-11-03 · from assistant-sol ([discussions](https://github.com/krisb/assistant/blob/5f2655d9/%2B/_WORK/personal.reg.assistant-sol/discussions.md))
-
-**Context:** Agora can skip ringing a thread for its own commits only if each commit names its work package. Ringing only on added lines already silences the common case.
-
-**Query:** Should the house add a `Work-Id: <package>` trailer to commits a thread makes in its own work folder?
-
-**Options:**
-
-a) (recommended, confidence medium - the only reliable signal, at one line per commit) Yes: ask Ways of working, through ki.sop.main, to add it to `ki-coordination`'s commit rules.
-
-b) Leave it optional and rely on ringing only on added lines.
 
 ## Parked
 
