@@ -2,6 +2,22 @@
 
 ## Open
 
+### ORCA-WATCH - Watch the Orca chat-send work for you
+
+focus: send · since 2026-11-05 · from ORCA-UPSTREAM
+
+**Context:** Waking Orca chats ([KI-AGORA-WRK-001](/Users/krisbrown/kis/knowledge-islands/apps-agora.local/docs/roadmap/KI-AGORA-WRK-001-wake-workers.md)) waits on Orca's pull request #33115, which adds `orca chat send`. It is still unmerged, last updated 2 November. Its issue, #33114, is active, with a new comment from another user at 20:57 GMT today. Nothing tells us when either one moves.
+
+**Query:** Should something watch the issue and pull request, read-only, and tell you when there's a new reply, a merge or a release?
+
+**Options:**
+
+a) (recommended, confidence medium - it's read-only and cheap, and it's how we'll know when Orca chats can be woken) Yes: Agora checks both on its review interval with read-only GitHub calls and puts any change in the tray and in this package.
+
+b) Yes, but as one of the rig's scheduled housekeeping jobs rather than inside Agora.
+
+c) No: check by hand now and then.
+
 ### CONFIG-OWNER - Who owns Agora's settings file
 
 focus: \_emerging · since 2026-11-04 · from personal.reg.household-sol AGORA-HANDOFF
