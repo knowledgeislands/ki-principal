@@ -23,3 +23,7 @@
 - MSG-62c4932a LOCAL-VERSIONS (Kris, 5 November about 08:20 GMT): ACKed; the Macs run KI tools from their `main` checkouts, not Homebrew releases. Agora already calls `ki` from PATH and assumes no released version; nothing to change.
 - MSG-a73179f9 NO-EXTERNAL-POSTING (Kris, 5 November about 19:40 GMT): ACKed; no post of any kind on another owner's repository or service in Kris's name without his express permission for that post; a recommendation to post is a query carrying the exact text. Every Agora brief carries this.
 - MSG-79dd4cca ORCA-UPSTREAM (Kris about 21:15 GMT, via household-sol): ACKed; run orca-upstream records Orca #33114/#33115 on KI-AGORA-WRK-001 and proposes a read-only watch for Kris; read-only only.
+
+## 2026-11-05 · SHELL-WATCH (Kris, about 23:00 GMT)
+
+- Kris: "we should keep a close eye on GPUI in the future and say that we can consider moving away from Electron at any point". Taken as: Agora stays on Electron for now (gpui-fit, 22:57 GMT); the shell stays confined to `src/main.ts` so it can be swapped at any time; GPUI is watched, and the move is reconsidered whenever a trigger holds: GPUI gains tray, notification or login-item support or a stable release; Agora's memory use matters (Swift shell first); Linux or Windows rigs (Tauri); or the settings screen or a KIV/Agora window grows into a large always-open view. Each time Agora's window work is planned, a run checks GPUI's current state online first.
