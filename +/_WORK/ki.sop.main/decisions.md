@@ -293,3 +293,4 @@
 - ROADMAP-ASSIGNEE and ASSIGNEE-LOCK (Kris, "put it at the top of your list"): run roadmap-assignee, chained after acquire-repoint in the harness.
 - LOCAL-VERSIONS (Kris, 08:20 GMT): noted; nothing here assumed released tool versions.
 - acquire-repoint received (harness `0a12651b`): ATER-027 done, the three acquire skills point their commands at `ki-muninn` and keep the method; assistant-terra told (MSG-b3a40e7c, ACKed). ADR-007 (medium) to blind review.
+- review-adr007 received: the reviewer proposed updating the record in place, under the decision-record standard's present-state rule; ADR-007 recast with that as a) at high.

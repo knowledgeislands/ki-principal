@@ -720,11 +720,13 @@ b) The standard first, and the Knowledge Islands Principal bootstrap after it.
 
 **Options:**
 
-a) (recommended, confidence medium - the decision's core, keeping provider housekeeping apart from capture, still holds; only the part about who runs it changed) Add a dated amendment to ADR-KI-HARNESS-SKILLS-007. It would record that execution moved to the assistant's `ki-muninn` under ATER-027 and that skills no longer advertise importer actions in front matter.
+a) (recommended, confidence high - reviewed: the independent reviewer proposed this, citing the decision-record standard's rule that records describe the present state; the record's core decision still holds) Update ADR-KI-HARNESS-SKILLS-007 in place: replace the two claims about `ki acquire` and front-matter advertisement with the move to the assistant's `ki-muninn`.
 
-b) Replace it with a new decision record that sets out who owns executable importers now that they live outside tools-ki.
+b) Add a dated amendment section, leaving the old text in place.
 
-c) Leave it as history. The skills and their sources already record the move.
+c) Replace it with a new decision record on who owns executable importers.
+
+d) Leave it as history.
 
 ## Parked
 
