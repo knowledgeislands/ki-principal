@@ -281,3 +281,4 @@
 - ATER-025 ROADMAP-MOVES (at Kris's word): PERSONAL-ASSISTANT-KNW-004, KNW-005 and KNW-010 are now owned by ki.sop.main, staying in krisb/assistant; they join the knowledge plan, held in Inbound.
 - ATER-014 (pull-ready cards): held in Inbound for knowledge phase 1, which waits on Kris's PACE answer.
 - review-knowledge received: ATTACH-HOW and ATTACH-SET lifted to high on agreement; RESOURCES-IN shows both views.
+- ki-extensions received (tools-ki `a75cacb0`, `8349e5bd`): KI-TOOL-KI-CLI-176 (extension veneer) and KI-TOOL-KI-CLI-177 (packaged subcommands) captured as unadopted triage records at Kris's request; assistant-terra told (MSG-c69564de, ACKed). ACQUIRE-SKILLS (medium) copied and sent to blind review.

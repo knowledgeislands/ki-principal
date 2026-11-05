@@ -712,6 +712,20 @@ a) (recommended, confidence high - this is the fastest route that keeps the gate
 
 b) The standard first, and the Knowledge Islands Principal bootstrap after it.
 
+### ACQUIRE-SKILLS - how the Harness acquire skills follow munin
+
+**Context:** munin, the assistant's capture tool, now handles Granola acquisition. Once it handles ChatGPT too, `ki acquire` can be retired ([KI-TOOL-KI-CLI-176](/Users/krisbrown/kis/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-176-git-style-extension-veneer.md)). Three Harness skills, `ki-acquire`, `ki-acquire-chatgpt` and `ki-acquire-granola`, govern the acquisition that `ki acquire` performs today.
+
+**Query:** What should happen to those three skills as munin takes over?
+
+**Options:**
+
+a) (recommended, confidence medium - the skills keep describing the tool people actually use, and there is no gap while ChatGPT remains on `ki acquire`) Keep all three until `ki acquire` retires. Then retire them together, each leaving a short pointer to munin's own documentation.
+
+b) Point `ki-acquire-granola` at munin now and leave the ChatGPT skill on `ki acquire` until munin covers it. This is accurate sooner, but for a while the guidance is split across two tools.
+
+c) Move the skills into krisb/assistant so they live alongside munin. The guidance then belongs to the tool's owner, but it leaves the portable Harness for a personal repository.
+
 ## Parked
 
 ### ACCEPT-CHEZMOI - accept the chezmoi latest-source record
