@@ -20,3 +20,4 @@
 - MSG-242412d7 AGORA-HANDOFF (household-sol, Kris about 23:30 GMT): ACKed; taken into next steps; CONFIG-OWNER raised with Kris.
 - MSG-b381c14a COORD-SOLE (Kris via ATER-010, 00:16 GMT): ACKed; `coordination` dropped from Focus; under TOPIC-HOMES, BCAST-THREADS, BCAST-AUTHORITY and WORK-ID-TRAILER sent to personal.reg.assistant-sol as AGORA-002 and removed from discussions.
 - MSG-0a7adcb9 REFRESH (ki.sop.main, 5 November): read `ki-coordination` and `ki-work-package` at `db5dcab3`; `method_read` set; important lines moved above ordinary ones; the earlier SUMMARY-NOW REFRESH (`d9dbdd9c`) is covered by it and removed. ACKed to ki.sop.main.
+- MSG-62c4932a LOCAL-VERSIONS (Kris, 5 November about 08:20 GMT): ACKed; the Macs run KI tools from their `main` checkouts, not Homebrew releases. Agora already calls `ki` from PATH and assumes no released version; nothing to change.
