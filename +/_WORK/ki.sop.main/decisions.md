@@ -302,3 +302,4 @@
 - harness-bun received (harness `5d9525e6`): Bun 1.4.4 pinned; full audit clean, including dependency freshness.
 - review-push-exception received: PUSH-EXCEPTION a) lifted to high.
 - EMAIL-ENGINE a (Kris, 5 Nov, via assistant-terra ATER-031, ACKed 21:26 GMT): tools-ki owns the mail engine's SENT-PASS and 981-AGE parts; run email-engine captures them as triage records. This homes MAIL-ASKS in part.
+- email-engine received (tools-ki `993a0152`, `be88bf67`): KI-TOOL-KI-CLI-178 (SENT-PASS) and KI-TOOL-KI-CLI-179 (981-AGE) held as unadopted triage records at Kris's EMAIL-ENGINE a; assistant-terra told (MSG-e0b56cb7). All dispatched work finished.
