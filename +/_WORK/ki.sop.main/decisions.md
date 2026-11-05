@@ -282,3 +282,4 @@
 - ATER-014 (pull-ready cards): held in Inbound for knowledge phase 1, which waits on Kris's PACE answer.
 - review-knowledge received: ATTACH-HOW and ATTACH-SET lifted to high on agreement; RESOURCES-IN shows both views.
 - ki-extensions received (tools-ki `a75cacb0`, `8349e5bd`): KI-TOOL-KI-CLI-176 (extension veneer) and KI-TOOL-KI-CLI-177 (packaged subcommands) captured as unadopted triage records at Kris's request; assistant-terra told (MSG-c69564de, ACKed). ACQUIRE-SKILLS (medium) copied and sent to blind review.
+- 05:01 GMT: a third usage-limit stop (about 02:23 to 05:00 GMT) ended run msg-sections during its audits and this thread's watcher; no inbound lines were missed. msg-sections relaunched to commit its worktree first. review-acquire received: ACQUIRE-SKILLS shows both views.

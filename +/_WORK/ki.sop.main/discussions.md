@@ -720,7 +720,7 @@ b) The standard first, and the Knowledge Islands Principal bootstrap after it.
 
 **Options:**
 
-a) (recommended, confidence medium - the skills keep describing the tool people actually use, and there is no gap while ChatGPT remains on `ki acquire`) Keep all three until `ki acquire` retires. Then retire them together, each leaving a short pointer to munin's own documentation.
+a) (recommended, confidence medium - reviewed, views differ: the skills keep describing the tool people actually use, with no gap while ChatGPT remains on `ki acquire`; the independent reviewer chose b) at high, updating each provider's guidance as munin takes it over and keeping the common acquisition skill in the harness) Keep all three until `ki acquire` retires. Then retire them together, each leaving a short pointer to munin's own documentation.
 
 b) Point `ki-acquire-granola` at munin now and leave the ChatGPT skill on `ki acquire` until munin covers it. This is accurate sooner, but for a while the guidance is split across two tools.
 
