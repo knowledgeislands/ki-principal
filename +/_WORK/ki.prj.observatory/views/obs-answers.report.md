@@ -16,7 +16,7 @@ Each medium-and-up answer is written into the record that owns it:
 
 - [KI-OBSERVA-APP-044](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md): DESIGN-RESTRUCTURE, DESIGN-AUTOMATION, DESIGN-ACT-NAME and DESIGN-NARROW, plus a note that the Git view replaces Repositories.
 - [KI-OBSERVA-BRG-003](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-003-governed-act-presentation.md): DESIGN-ACT-MARK and DESIGN-ACT-NAME.
-- KI-OBSERVA-INT-003: DESIGN-SWITCH.
+- [KI-OBSERVA-INT-003](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/ideas/KI-OBSERVA-INT-003-extensions-switchboard.md): DESIGN-SWITCH.
 - [KI-OBSERVA-VIS-030](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md): DESIGN-POSITIONS and DESIGN-CAPITAL.
 - [KI-OBSERVA-VIS-039](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-039-decisions-as-council.md): DESIGN-CAPITAL.
 - [KI-OBSERVA-VIS-032](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-VIS-032-library-instrument.md): DESIGN-LIBRARY-SEARCH.

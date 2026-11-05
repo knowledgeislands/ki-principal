@@ -73,7 +73,7 @@ c) Leave the existing Mermaid alone and forbid only new Mermaid.
 
 ### DIAGRAM-NAME - `ki-diagrams` or `ki-diagramming`
 
-**Context:** ADR-KI-HARNESS-SKILLS-003 sets plural names for a collection or repeated unit and singular names for a discipline. `ki-diagrams` governs diagram artefacts and their manifest, as `ki-decision-records` and `ki-trades` govern theirs, so it conforms. `ki-diagramming` would fit only if the skill became a drawing practice, like `ki-authoring`, rather than a standard for kept diagrams. Renaming touches 67 harness files, the rubric host id `ki repo audit --skill ki-diagrams` and every adopting `.ki.toml`.
+**Context:** [ADR-KI-HARNESS-SKILLS-003](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/docs/decisions/ADR-KI-HARNESS-SKILLS-003-dependency-order-for-multi-skill-composition.md) sets plural names for a collection or repeated unit and singular names for a discipline. `ki-diagrams` governs diagram artefacts and their manifest, as `ki-decision-records` and `ki-trades` govern theirs, so it conforms. `ki-diagramming` would fit only if the skill became a drawing practice, like `ki-authoring`, rather than a standard for kept diagrams. Renaming touches 67 harness files, the rubric host id `ki repo audit --skill ki-diagrams` and every adopting `.ki.toml`.
 
 **Query:** Keep the name `ki-diagrams`, or rename it `ki-diagramming`?
 

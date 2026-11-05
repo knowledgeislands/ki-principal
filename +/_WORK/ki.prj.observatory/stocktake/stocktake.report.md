@@ -44,8 +44,8 @@ Outstanding - no action requested now:
 | L16 | VIS-SIZES | Settled | [KI-OBSERVA-VIS-028](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/ideas/KI-OBSERVA-VIS-028-retire-sessions-readers.md) is now an idea, not a record; [KI-OBSERVA-VIS-030 (pruned)](https://github.com/knowledgeislands/apps-observatory.local/blob/36abae9/docs/roadmap/KI-OBSERVA-VIS-030-known-lands-chart.md) pruned at `865cc84`; audit rerun shows no size finding |
 | L19 | ROADMAP-AUDIT | Settled | Both failing records pruned; rerun today FAIL 0 (the one warning is the registry gap) |
 | L20 | TIDY | Duplicate | Same findings as L21; L21 and L41 carry the live tidy |
-| L24 | USABILITY-THREAD | Overtaken | Focus deleted by PDR-KI-OBSERVA-010 (L25) |
-| L25 | REDESIGN-LANDED | Settled notice | PDR-KI-OBSERVA-010 on main |
+| L24 | USABILITY-THREAD | Overtaken | Focus deleted by [PDR-KI-OBSERVA-010](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/decisions/PDR-KI-OBSERVA-010-four-areas-replace-the-tab-bar-and-the-observatory-opens-on-what-waits-for-its-owner.md) (L25) |
+| L25 | REDESIGN-LANDED | Settled notice | [PDR-KI-OBSERVA-010](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/decisions/PDR-KI-OBSERVA-010-four-areas-replace-the-tab-bar-and-the-observatory-opens-on-what-waits-for-its-owner.md) on main |
 | L28 | TYPED-ID-CONSUMER | Assessed | Done by the 29 October consumer assessment ([report](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.observatory/_emerging/away-consumer-gap.report.md)); the repair it found is the STATUS-REPAIR query |
 | L30 | COORD-REGULAR-STATUS | Assessed | Same assessment; [KI-TOOL-KI-CLI-173](/Users/krisbrown/kis/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-173-regular-coordination-readers.md) is done; carried by STATUS-REPAIR |
 | L32 | NAMING-PAUSE | Settled | Released by L37 |
@@ -99,7 +99,7 @@ Notes on live lines:
 | TEN-COMMITS | No | - |
 | MERMAID-HANDLER | No | - |
 | BRIDGE-STALE | Context only | The Host area now has a decided thing to watch: per-host sync every 15 minutes, primary map seeded from the seats (Ways of working, 31 October) |
-| STATUS-REPAIR | Strengthened | Producer prerequisites landed: KI-TOOL-KI-CLI-173 done and the naming migration received; nothing on the Observatory side |
+| STATUS-REPAIR | Strengthened | Producer prerequisites landed: [KI-TOOL-KI-CLI-173](/Users/krisbrown/kis/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-173-regular-coordination-readers.md) done and the naming migration received; nothing on the Observatory side |
 | SYNC-DIRECTION | Answered elsewhere | Kris, 31 October 13:14 GMT: "the observatory is watching, it's not doing the syncing ... In the future it might be able to ... do the ad hoc sync"; execution went to the Rig host threads |
 | PUBLIC-AUDIENCE | Facts moved | Every commit the hold guarded, tip `542dcbc8` included, is now an ancestor of `origin/main` (`37a872d2`, 1 November); both protected report versions are in remote history (`ccbd06dd`, `c5c3d3b3`), and one is current at `aside/away-jobs-evidence.report.md`, re-committed by the 1 November move (`3b09eba9`). Ways of working holds a parallel PUBLIC-REPORT-AUDIENCE and PUBLIC-REPORT-RECOVERY on the same history; Kris asked on 30 October for an independent review before answering, and that review exists |
 | PUBLIC-EXPOSURE | Facts moved | As above |

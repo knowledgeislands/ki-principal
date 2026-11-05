@@ -111,7 +111,7 @@ No record in the territory is Ready.
 | [KI-OBSERVA-APP-044](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md) | Instrument restructure decision | draft · now | ki.prj.observatory | m | none | yes: a `decide` record; convergence, Council-first or Waiting-first, each step on Kris's own go |
 | [KI-DESIGN-ART-002](/Users/krisbrown/kis/knowledge-islands/ki-design/docs/roadmap/KI-DESIGN-ART-002-art-licensing.md) | Art-licensing decision | draft · now | none named (ki-design) | s | none | yes: who owns the generated art and under what licence, for a public repository |
 | [KI-TECHNE-OPS-018](/Users/krisbrown/kis/knowledge-islands/ki-techne-harness/docs/roadmap/KI-TECHNE-OPS-018-converge-tools-through-rig.md) | Converge tools through Rig | draft · now (partial awaiting review) | ki.prj.agent-host (on hold) | l | gated: Rig installs `ki`'s signed release; a clean `rig status` through one pin bump | release and install gates, outside the window |
-| [KI-TOOL-RIG-CORE-068](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md) | pf root ruleset bypass | draft · now | Rig theme, ki.prj.mac-studio-setup | m | Kris's attended NordVPN check; follows KI-TOOL-RIG-CORE-047 | yes: attended check; firewall is connection-critical |
+| [KI-TOOL-RIG-CORE-068](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md) | pf root ruleset bypass | draft · now | Rig theme, ki.prj.mac-studio-setup | m | Kris's attended NordVPN check; follows [KI-TOOL-RIG-CORE-047](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md) | yes: attended check; firewall is connection-critical |
 | [KI-TOOL-RIG-CORE-069](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md) | Dynamic-type handler fallback | draft · now | Rig theme, ki.prj.mac-studio-setup | s | RIG-069-PROBE, an attended probe on sol | yes: Kris must authorise and attend the probe |
 | [KI-TOOL-RIG-CORE-047](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md) | Tailnet-only listener firewall | in-progress · now | Rig theme | - | sol's attended re-apply | attended, connection-critical |
 | [KI-TOOL-RIG-CORE-070](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-070-handler-read-back-after-confirmation.md) | Handler read-back after confirmation | awaiting-review · now | Rig theme | s | none | acceptance |
@@ -160,12 +160,12 @@ Proposed order, as the window's work instead of waves:
 
 | Item | Reason |
 | --- | --- |
-| KI-PRINCIPAL-MOD-011 and its unlanded branch | Kris's Enactment review; STEWARD-FIELD is an open query; ways-of-working is over the query cap |
-| KI-OBSERVA-APP-044 | Kris's convergence decision; Observatory is over the query cap |
-| KI-DESIGN-ART-002 | Kris's licensing decision |
-| KI-TECHNE-OPS-018 | release and install gates; agent-host is on hold |
-| KI-TOOL-RIG-CORE-047, -068, -069 | attended steps on sol; firewall is connection-critical with no tested restore path |
-| KI-TOOL-RIG-CORE-070, KI-TOOL-MGIT-CLI-032, -033 | awaiting Kris's acceptance |
+| [KI-PRINCIPAL-MOD-011](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-011-amend-work-model-assigned-package-cascade.md) and its unlanded branch | Kris's Enactment review; STEWARD-FIELD is an open query; ways-of-working is over the query cap |
+| [KI-OBSERVA-APP-044](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-044-instrument-restructure-decision.md) | Kris's convergence decision; Observatory is over the query cap |
+| [KI-DESIGN-ART-002](/Users/krisbrown/kis/knowledge-islands/ki-design/docs/roadmap/KI-DESIGN-ART-002-art-licensing.md) | Kris's licensing decision |
+| [KI-TECHNE-OPS-018](/Users/krisbrown/kis/knowledge-islands/ki-techne-harness/docs/roadmap/KI-TECHNE-OPS-018-converge-tools-through-rig.md) | release and install gates; agent-host is on hold |
+| [KI-TOOL-RIG-CORE-047](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md), -068, -069 | attended steps on sol; firewall is connection-critical with no tested restore path |
+| [KI-TOOL-RIG-CORE-070](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-070-handler-read-back-after-confirmation.md), [KI-TOOL-MGIT-CLI-032](/Users/krisbrown/kis/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-032-chain-command.md), -033 | awaiting Kris's acceptance |
 | Records in `docs/ideas/` | not adopted; adoption is Kris's |
 | Every open query and agenda item in all packages (about 80) | Kris's, not answered by a recommended option |
 | apps-observatory.local branch `z-retirement/observatory-20261030` | unlanded evidence; the Observatory's own call |

@@ -60,7 +60,7 @@ Commits and checks:
 4. Tab glyphs are named for the ten future instruments, not today's fifteen tabs. [KI-OBSERVA-APP-042](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-APP-042-design-tokens-and-glyphs.md) proposes one glyph for each existing tab.
 5. Subject glyphs by name prefix (`tools-*`, `mcp-*`, `apps-*`). The app reads `ki` data rather than guessing a repository's kind from its name, and no `ki` data states the kind. So it draws the generic `island` glyph until a contract says the kind; that gap is for `ki` to close.
 6. "No emoji". The Work tab prints the ki-pmo banner glyphs (🤖 🧑 👤 ⏸️ 🏁) exactly as the standard writes them. Carried as a query.
-7. The handoff names PDR-KI-OBSERVA-007 for the visual changes, but 007 is already taken (feedback). The next free number is 008.
+7. The handoff names [PDR-KI-OBSERVA-007](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/decisions/PDR-KI-OBSERVA-007-feedback-returns-to-the-producing-work.md) for the visual changes, but 007 is already taken (feedback). The next free number is 008.
 8. The ki-design role colours and washes are the values this app derived and holds by test, hex for hex. Re-vendoring changes where the values come from, not what the screen shows, and the app's contrast record remains the evidence.
 9. Draft 2 (Git tracker parity) is overtaken by ARTIFACTS-EXTEND. Kit Git Repo Audit stays the richer extension, and Repositories links to it rather than replacing it.
 10. Draft 1's tailnet listener, `tailscale serve` and ACL belong to unit 4 and the Host network Project, and they are connection-critical. The Observatory plans only the app's read-only side.
@@ -193,7 +193,7 @@ Nothing is running. Step 1 is ready to build once you approve it.
 
 **DESIGN-NARROW (spec §11)**
 
-**Context:** PDR-KI-OBSERVA-002 already requires every table to declare which columns survive and which drop at 760 px, and a test enforces it.
+**Context:** [PDR-KI-OBSERVA-002](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/decisions/PDR-KI-OBSERVA-002-observatory-design-language.md) already requires every table to declare which columns survive and which drop at 760 px, and a test enforces it.
 
 **Query:** Who declares the columns for the new tables?
 

@@ -17,7 +17,7 @@ Nothing is running.
 
 Outstanding - no action requested now:
 
-- KI-OBSERVA-VIS-029 stays in triage until someone adopts it. The natural moment is when the Host network thread opens.
+- [KI-OBSERVA-VIS-029](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/ideas/KI-OBSERVA-VIS-029-sessions-from-every-host.md) stays in triage until someone adopts it. The natural moment is when the Host network thread opens.
 - The audit failure on the KI-OBSERVA-VIS-022 title needs a separate fix: the title must be at most four words.
 - No service restart is due, because this run changed only a roadmap record.
 
