@@ -31,4 +31,4 @@ created_at: 2026-10-30T01:42:30Z
 ## Focus
 
 1. `trial` — Orca trials, their evidence and what they teach, including feedback to Orca and worker-thread tidying.
-2. `aside` — anything outside the others.
+2. `_emerging` — anything outside the others.

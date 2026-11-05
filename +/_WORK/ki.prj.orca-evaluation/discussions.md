@@ -10,7 +10,7 @@ Handed to personal.reg.assistant-terra on 2 November 2026 and carried by it.
 
 ### SCOPE-SPLIT - Draw the line between this Project and Ways of working, and hand over the method questions
 
-focus: aside
+focus: _emerging
 
 **Context:** This Project opened on 30 October to work out how best to use Orca, taking over the trial evidence from Mac Studio setup and, when Ways of working sent them, the ORCA-FIT notes. Since then Ways of working has settled much of how Orca fits the method itself: the wake rule (WAKE-SESSION and WAKE-DURABLE, now in the delegation standard), queued runs going through Orca first (ORCA-QUEUE), Orca's own launch route beside `ki agent` (ORCA-PLACEMENT), worker close-out (ORCA-CLOSE-OUT) and package files holding no Orca Run id (ORCA-ROUTING). Four of this Project's earlier questions are really about the method every worker follows: how a worker commits in a repository whose hook stashes (TRIAL-PUBLISH; Ways of working's HOOK-STASH already asks it), how a question only you can answer travels (TRIAL-ASK), ids, prompt, liveness and report practice (TRIAL-PRACTICE), and stopping `ki agent` runs inheriting Orca's remaining pane and hook variables (ORCA-IDENTITY-LEAK). The ORCA-FIT draft holding those choices never left Ways of working.
 

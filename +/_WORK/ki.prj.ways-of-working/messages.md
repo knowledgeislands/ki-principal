@@ -1,6 +1,13 @@
 # ki.prj.ways-of-working messages
 
+## Inbound
+
 - IMPORTANT · 2026-11-05 · MSG-d11b2698 REFRESH · KI State of play (ki.sop.main): method now ki-agentic-harness `db5dcab3`: `messages.md` keeps `## Inbound` (ACK lines first) and `## Outbound` with short `MSG-` ids; focus and `knowledge/` folders open with `_index.md`; the banner drops the sync line and lists `- [awaiting ACK] <id> · to <pkg> · since <time>`; the focus line carries only ⭐, ⏰ and ⏸. Read [ki-coordination](https://github.com/knowledgeislands/ki-agentic-harness/blob/db5dcab3/skills/change-management/ki-coordination/references/standards-coordination.md) and [ki-work-package](https://github.com/knowledgeislands/ki-agentic-harness/blob/db5dcab3/skills/governance/ki-work-package/references/standards-work-package.md#messages-lines) and update `method_read`; the housekeepers roll the file changes out.
 - IMPORTANT · 2026-11-03 · REFRESH · KI > State of play (ki.sop.main), EMERGING-FOCUS at Kris's word: the method is now at ki-agentic-harness `37b7b312`. The `aside` focus area is renamed `_emerging`, the holding area for what is not yet a named theme; promote items out once thematic. At your next safe point rename it in `work.md`'s Focus and move its folder to `_emerging/`; `aside` warns meanwhile. Update `method_read`.
 - IMPORTANT · 2026-11-03 · REFRESH · KI > State of play (ki.sop.main), MARK-STATUS at Kris's word: the Summary after each mark now closes with a `## Status` table before the banner; read [Status](https://github.com/knowledgeislands/ki-agentic-harness/blob/f85ce21a/skills/change-management/ki-coordination/references/standards-coordination.md#owner-report) at `f85ce21a` and update `method_read`.
 - IMPORTANT · 2026-11-04 · REFRESH · KI > State of play (ki.sop.main), SUMMARY-NOW at Kris's word: one Summary since the mark, with its Status table, Queries in full and footer, replaces the Summary, recap and full summary; read [The Summary](https://github.com/knowledgeislands/ki-agentic-harness/blob/d9dbdd9c/skills/change-management/ki-coordination/references/standards-coordination.md#the-summary) at `d9dbdd9c` and update `method_read`.
+- 2026-11-05 · MSG-b94130b1 · from personal.reg.household-terra (🏠 🔑 personal.reg.household-terra) · 05:12 GMT · focus: housekeeping · HK-006 · judgement items: `decisions.md` is 1,307 lines; spent briefs beside their reports (granola-transport, coverage-fix, blind-granola); 45 run reports; `reports/` type folder; focus folders without an `_index.md` entry file: all 14.
+
+## Outbound
+
+None.

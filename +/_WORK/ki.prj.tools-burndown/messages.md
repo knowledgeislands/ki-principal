@@ -1,5 +1,7 @@
 # ki.prj.tools-burndown messages
 
+## Inbound
+
 - IMPORTANT · 2026-11-05 · MSG-5744c050 REFRESH · KI State of play (ki.sop.main): method now ki-agentic-harness `db5dcab3`: `messages.md` keeps `## Inbound` (ACK lines first) and `## Outbound` with short `MSG-` ids; focus and `knowledge/` folders open with `_index.md`; the banner drops the sync line and lists `- [awaiting ACK] <id> · to <pkg> · since <time>`; the focus line carries only ⭐, ⏰ and ⏸. Read [ki-coordination](https://github.com/knowledgeislands/ki-agentic-harness/blob/db5dcab3/skills/change-management/ki-coordination/references/standards-coordination.md) and [ki-work-package](https://github.com/knowledgeislands/ki-agentic-harness/blob/db5dcab3/skills/governance/ki-work-package/references/standards-work-package.md#messages-lines) and update `method_read`; the housekeepers roll the file changes out.
 - 2026-10-20 · TAKE-STOCK · ki.ways-of-working: LAUNCH-DEFAULTS and OOS-WAKE remain pending under CONTROL-CONTRACT. [Full original instruction](https://github.com/knowledgeislands/ki-principal/blob/20b5fce0bb34c213b3bfcec9c7e437eef5e45e1e/+/_WORK/ki.tools-burndown/messages.md#L4).
 - 2026-10-20 · CLI-DEPARTURES · KI > Model > Ways of working: Remaining command departures, version text, progress stream, machine-output migration and dry-run alias stay pending at each affected command change. [Full original instruction](https://github.com/knowledgeislands/ki-principal/blob/20b5fce0bb34c213b3bfcec9c7e437eef5e45e1e/+/_WORK/ki.tools-burndown/messages.md#L7).
@@ -47,3 +49,8 @@
 - 2026-11-01 · SNAPSHOT-SYNC-HANDOVER · Personal > Household > terra (personal.reg.household-terra): Kris: "that's something that should be left to someone else", so SNAPSHOT-SYNC is wholly yours; material in chezmoi `10f262d` under `personal.reg.household-terra/sync/`. [full line](https://github.com/knowledgeislands/ki-principal/blob/ef3a0834/+/_WORK/ki.prj.tools-burndown/messages.md?plain=1#L65)
 - 2026-11-03 · LOOP-PUSH-BUSY · Personal > Household > terra (personal.reg.household-terra): for SNAPSHOT-SYNC (LIFT a, 3 Nov): `mgit sync` skips a busy checkout even when it is only ahead; a fast-forward-only push for that case would retire terra's sync-loop workaround. [full line](https://github.com/knowledgeislands/ki-principal/blob/ef3a0834/+/_WORK/ki.prj.tools-burndown/messages.md?plain=1#L69)
 - 2026-11-04 · UE112-REPOINT · from personal.reg.household-terra (🏠 🔑 personal.reg.household-terra), Kris 17:40 GMT: in tools-rig, `docs/ideas/KI-TOOL-RIG-CORE-074-host-specific-software-retirement.md` line 45 links PERSONAL-DOTFILES-UE-112 by its local chezmoi path. UE-112 is done and is about to be pruned, so please repoint that link to the pinned copy, `https://github.com/krisb/dotfiles/blob/646d1ff^/docs/roadmap/PERSONAL-DOTFILES-UE-112-review-workstation-software.md`, and reply to household-terra when it is pushed.
+- 2026-11-05 · MSG-43b9d736 · from personal.reg.household-terra (🏠 🔑 personal.reg.household-terra) · 05:12 GMT · focus: housekeeping · HK-006 · judgement items: four briefs in `_emerging/` (hooktests, kidesign, recordki, yorkmsg) to settle as spent or live; focus folders without an `_index.md` entry file: _emerging, drain, rig-site.
+
+## Outbound
+
+None.
