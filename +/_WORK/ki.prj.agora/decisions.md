@@ -27,3 +27,4 @@
 ## 2026-11-05 · SHELL-WATCH (Kris, about 23:00 GMT)
 
 - Kris: "we should keep a close eye on GPUI in the future and say that we can consider moving away from Electron at any point". Taken as: Agora stays on Electron for now (gpui-fit, 22:57 GMT); the shell stays confined to `src/main.ts` so it can be swapped at any time; GPUI is watched, and the move is reconsidered whenever a trigger holds: GPUI gains tray, notification or login-item support or a stable release; Agora's memory use matters (Swift shell first); Linux or Windows rigs (Tauri); or the settings screen or a KIV/Agora window grows into a large always-open view. Each time Agora's window work is planned, a run checks GPUI's current state online first.
+- MSG-81782869 KEEP-AWAKE (Kris about 23:50 GMT, via household-terra): ACKed; run keep-awake-capture captures two triage records: holding an idle-sleep assertion while work runs, and checking host settings against Rig, power first.
