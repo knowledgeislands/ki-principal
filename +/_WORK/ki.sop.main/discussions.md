@@ -712,6 +712,20 @@ a) (recommended, confidence high - this is the fastest route that keeps the gate
 
 b) The standard first, and the Knowledge Islands Principal bootstrap after it.
 
+### ADR-007 - Update the acquisition decision record that still names `ki acquire`
+
+**Context:** Harness decision record [ADR-KI-HARNESS-SKILLS-007](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/docs/decisions/ADR-KI-HARNESS-SKILLS-007-provider-neutral-ai-session-acquisition-and-adapter-pairing.md) still says two things that are no longer true. It says each acquisition skill advertises only the actions tools-ki has proven. It also says `ki acquire import --adapter <provider>` is what uses the session adapters and stages captures. Since 5 November tools-ki no longer has `ki acquire`. The assistant's `ki-muninn` runs acquisition, and the skills no longer carry the advertisement front matter. I left the record untouched, because changing a decision record is your decision to make, not a wording fix.
+
+**Query:** Should the harness update ADR-KI-HARNESS-SKILLS-007 to match the move to `ki-muninn`?
+
+**Options:**
+
+a) (recommended, confidence medium - the decision's core, keeping provider housekeeping apart from capture, still holds; only the part about who runs it changed) Add a dated amendment to ADR-KI-HARNESS-SKILLS-007. It would record that execution moved to the assistant's `ki-muninn` under ATER-027 and that skills no longer advertise importer actions in front matter.
+
+b) Replace it with a new decision record that sets out who owns executable importers now that they live outside tools-ki.
+
+c) Leave it as history. The skills and their sources already record the move.
+
 ## Parked
 
 ### ACCEPT-CHEZMOI - accept the chezmoi latest-source record

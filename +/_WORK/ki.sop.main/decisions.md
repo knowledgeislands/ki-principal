@@ -292,3 +292,4 @@
 - ATER-027 (Kris's word: `ki acquire` removed) overtakes ACQUIRE-SKILLS, which is dropped; run acquire-repoint repoints the three skills, keeping the common method in the harness.
 - ROADMAP-ASSIGNEE and ASSIGNEE-LOCK (Kris, "put it at the top of your list"): run roadmap-assignee, chained after acquire-repoint in the harness.
 - LOCAL-VERSIONS (Kris, 08:20 GMT): noted; nothing here assumed released tool versions.
+- acquire-repoint received (harness `0a12651b`): ATER-027 done, the three acquire skills point their commands at `ki-muninn` and keep the method; assistant-terra told (MSG-b3a40e7c, ACKed). ADR-007 (medium) to blind review.
