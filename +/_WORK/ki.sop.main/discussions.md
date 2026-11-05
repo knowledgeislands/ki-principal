@@ -736,7 +736,7 @@ d) Leave it as history.
 
 **Options:**
 
-a) (recommended, confidence medium - the push footer now covers every legitimate push, so the exception only allows the same body-over-footer mismatch that caused the Orca comment, but removing it changes a standing decision) Remove the exception, so a brief that needs to push must use the push footer. One later run would drop the exception from the standard and the footers.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same; the push footer now covers every legitimate push, so the exception only lets a brief's body override its footer, the mismatch behind the Orca comment) Remove the exception, so a brief that needs to push must use the push footer. One later run would drop the exception from the standard and the footers.
 
 b) Keep the exception as it is now.
 

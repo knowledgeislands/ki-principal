@@ -300,3 +300,5 @@
 - no-external-posting received (harness `5a21307d`): the posting rule is in the delegation authority tiers and the coordination owner report. Its DEPS-BUN query is settled without Kris: CONFORM-P1 (3 Nov) already set 1.4.4 estate-wide, so run harness-bun adopts it in the harness after no-external-posting-2.
 - no-external-posting-2 received (harness `afe27031`): a brief cannot grant an external post; the footer wins over the body; household-sol told (MSG-ce5cc7a0, ACKed). PUSH-EXCEPTION (medium, challenges Kris's 17 October push exception) to blind review.
 - harness-bun received (harness `5d9525e6`): Bun 1.4.4 pinned; full audit clean, including dependency freshness.
+- review-push-exception received: PUSH-EXCEPTION a) lifted to high.
+- EMAIL-ENGINE a (Kris, 5 Nov, via assistant-terra ATER-031, ACKed 21:26 GMT): tools-ki owns the mail engine's SENT-PASS and 981-AGE parts; run email-engine captures them as triage records. This homes MAIL-ASKS in part.
