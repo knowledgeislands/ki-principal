@@ -270,3 +270,13 @@
 - REGROUND reply MSG-1daf57ac (personal.reg.assistant-sol, 23:36 GMT): ACKed. Applied: `themes` (routing) marked ⭐ primary; INDEX-NAME settled as `_index.md` and sent as MSG-506967e1 to assistant-sol and both housekeepers; own focus files renamed; footer reads `🎧 listening · Agora's call`; watcher liveness checked at each mark. RECORD-2-HEADINGS is in run msg-sections, which tells both housekeepers and assistant-sol on release. KNOWLEDGE-FOLDER is in run knowledge-plan. Message ids from now are `MSG-` plus eight hex characters.
 - ue112-repoint received (tools-rig `d987d5d`): household-terra told.
 - knowledge-plan received (`0c5ba920`, design note `_emerging/knowledge.design.md`): its INDEX-NAME query is already settled (`_index.md`, MSG-506967e1) and dropped; the other five copied, the three medium ones to blind review; assistant-terra told.
+
+## 2026-11-05 · Second missed wake (02:19 GMT)
+
+- A usage limit at about 23:40 GMT on 4 November stopped this thread, its watcher and run msg-sections; fourteen lines from 23:43 to 02:09 GMT sat unread until 02:18. All ACKed in their senders' Inbounds at 02:19 GMT.
+- MSG-506967e1: ACKed by all three receivers; pruned from Outbound.
+- COORD-SOLE (Kris via ATER-010, 00:16 GMT, MSG-b381c14a): `coordination` dropped from the focus list and line; coordination and communication matters go to personal.reg.assistant-sol.
+- HOUSEKEEPER-RENAME (Kris about 00:50 GMT, MSG-32450d7b) and COORD-SOLE: folded into the relaunched msg-sections run.
+- KI-EXTENSIONS (ATER-017, 018, 021, 022 IMPORTANT) and MUNIN-GRANOLA (ATER-023): run ki-extensions captures tools-ki triage records and returns the ki-acquire question.
+- ATER-025 ROADMAP-MOVES (at Kris's word): PERSONAL-ASSISTANT-KNW-004, KNW-005 and KNW-010 are now owned by ki.sop.main, staying in krisb/assistant; they join the knowledge plan, held in Inbound.
+- ATER-014 (pull-ready cards): held in Inbound for knowledge phase 1, which waits on Kris's PACE answer.
