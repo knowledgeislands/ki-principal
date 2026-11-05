@@ -728,6 +728,18 @@ c) Replace it with a new decision record on who owns executable importers.
 
 d) Leave it as history.
 
+### PUSH-EXCEPTION - Keep the push exception to "the footer wins"?
+
+**Context:** The new rule says that when a brief's body and its authority footer disagree, the footer wins. On 17 October 2026, Kris set one earlier exception: "the generic brief footer gives way to an explicit push rule in the brief." Since then, a separate `push` footer has been added that grants pushing on its own. The exception now only matters when a brief uses the no-push footer but asks for a push in its body. I kept the exception and named it as the only one, so this run did not overturn an earlier decision.
+
+**Query:** Should the push exception stay, or should the footer win with no exception?
+
+**Options:**
+
+a) (recommended, confidence medium - the push footer now covers every legitimate push, so the exception only allows the same body-over-footer mismatch that caused the Orca comment, but removing it changes a standing decision) Remove the exception, so a brief that needs to push must use the push footer. One later run would drop the exception from the standard and the footers.
+
+b) Keep the exception as it is now.
+
 ## Parked
 
 ### ACCEPT-CHEZMOI - accept the chezmoi latest-source record
