@@ -280,3 +280,4 @@
 - KI-EXTENSIONS (ATER-017, 018, 021, 022 IMPORTANT) and MUNIN-GRANOLA (ATER-023): run ki-extensions captures tools-ki triage records and returns the ki-acquire question.
 - ATER-025 ROADMAP-MOVES (at Kris's word): PERSONAL-ASSISTANT-KNW-004, KNW-005 and KNW-010 are now owned by ki.sop.main, staying in krisb/assistant; they join the knowledge plan, held in Inbound.
 - ATER-014 (pull-ready cards): held in Inbound for knowledge phase 1, which waits on Kris's PACE answer.
+- review-knowledge received: ATTACH-HOW and ATTACH-SET lifted to high on agreement; RESOURCES-IN shows both views.

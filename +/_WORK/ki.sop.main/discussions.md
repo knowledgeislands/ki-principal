@@ -660,7 +660,7 @@ b) Put it back to With supervisor now and stop its listening while the design is
 
 **Options:**
 
-a) (recommended, confidence medium - this keeps the flag on the node and the list on the home page, and lets a check confirm they agree) A front matter flag `attachment: true`, listed on `knowledge/_index.md`, promising a stable id and path and retirement by pointer rather than deletion. Shadow nodes record `shadows:` (path and revision read) and `checked:` (date).
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same, adding that the node promises a stable, never-reused id and path, retired by a kept pointer) A front matter flag `attachment: true`, listed on `knowledge/_index.md`, promising a stable id and path and retirement by pointer rather than deletion. Shadow nodes record `shadows:` (path and revision read) and `checked:` (date).
 
 b) A separate register file listing the attachment points, with nothing on the nodes themselves.
 
@@ -672,7 +672,7 @@ b) A separate register file listing the attachment points, with nothing on the n
 
 **Options:**
 
-a) (recommended, confidence medium - these are the three the proposal's picture shows) The capture funnel, the knowledge graph, and the work process once it is pulled across.
+a) (recommended, confidence high - reviewed: an independent reviewer chose the same, declaring each only once its id and home path are chosen) The capture funnel, the knowledge graph, and the work process once it is pulled across.
 
 b) None until the first slice has settled.
 
@@ -684,7 +684,7 @@ b) None until the first slice has settled.
 
 **Options:**
 
-a) (recommended, confidence medium - no territory has shown the need yet) No for now. Revisit when a territory asks.
+a) (recommended, confidence medium - reviewed, views differ: no territory has shown the need yet; the independent reviewer chose b) at high, letting each territory choose with its own provenance and access rules) No for now. Revisit when a territory asks.
 
 b) Yes, as each territory chooses.
 
