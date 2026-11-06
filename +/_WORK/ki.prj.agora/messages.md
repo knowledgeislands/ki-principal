@@ -13,6 +13,8 @@
 
 ## Outbound
 
+- 2026-11-06 · MSG-0aff84b9 PING · to Claude Design (information architect) (identity/claude-design) · 03:55 GMT · round-trip test · awaiting ACK
+- 2026-11-06 · MSG-fd7ee5a5 PING · to ChatGPT Codex (illustrator) (identity/chatgpt) · 03:55 GMT · round-trip test · awaiting ACK
 - 2026-11-06 · MSG-c54ae22b HEALTH/PING · to personal.reg.inbox-sol · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-5d67c4d3 HEALTH/PING · to personal.reg.household-sol · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-e4ba8ac3 HEALTH/PING · to ki.sop.main · listener 120 min · awaiting ACK
