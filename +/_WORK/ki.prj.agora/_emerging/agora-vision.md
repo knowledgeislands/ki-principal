@@ -33,3 +33,9 @@ Kris's picture, played back; his photograph of the islands laid out on the carpe
 - **The great portals pass information between planes of existence.** Agents never move between planes; a portal opens and information passes through it.
 - **Everyone works towards a common goal.** Seek alignment and, ideally, consensus; where one agent's action touches another's, check with it first, then do it. These checks are short, simple messages that travel through the portals.
 - **Messages hop.** A message can go from a satellite island in one territory on one plane, up through its principal, across territories, through a great portal to another plane, and down to an island there, and the two still interoperate.
+
+## The Agent Ghost Protocol (Kris, about 06:35 GMT)
+
+- Every island has its own agora, so its agents talk to the wider group without leaving it; physical things (records, the work) still travel between islands through the repositories.
+- The repositories are used as a messaging system only because no other system carries messages across these planes; Agora may become that system.
+- Kris's name for the idea, a playful nod to the Agent Host Protocol: the **Agent Ghost Protocol**. Each plane hears the other through the portal as ghosts, and the other plane thinks the same of them.
