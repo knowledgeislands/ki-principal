@@ -96,7 +96,8 @@ def marker(x, y, role, listen):
     return f'<circle cx="{x}" cy="{y}" r="{r}" fill="{colour}"/>{extra}'
 
 
-def territory_map(width=900, height=700):
+def territory_map(width=900, height=700, plane='both'):
+    on_plane = (lambda host: plane == 'both' or host == plane)
     out = [f'<svg viewBox="0 0 {width} {height}" width="100%" role="img" aria-label="The territories, their islands, the work packages and workers on them, and the threads of talk between their meeting points">']
     # territories: a faint boundary and a label
     for key, (label, (x1, y1, x2, y2)) in TERRITORIES.items():
@@ -118,9 +119,9 @@ def territory_map(width=900, height=700):
     gx, gy = meeting_point('dotfiles')
     out.append(f'<path d="M{gx:.1f} {gy:.1f} C{gx - 120:.1f} {gy + 10:.1f} {70:.1f} {gy + 40:.1f} 18 {gy + 86:.1f}" fill="none" stroke="{gold}" stroke-width="5" stroke-linecap="round"/>')
     out.append(text(30, gy + 104, 'The great portal', size=12.5, weight=600))
-    out.append(text(30, gy + 120, 'sol ⇄ terra · open · heard 04:20', size=11.5, fill='var(--muted)'))
+    out.append(text(30, gy + 120, 'sol ⇄ terra · open · heard 04:20' if plane == 'both' else f'showing {plane}\'s plane · the other rig dimmed', size=11.5, fill='var(--muted)'))
     # meeting points
-    joined = {w[1] for w in WORKERS}
+    joined = {w[1] for w in WORKERS if on_plane(w[3])}
     for name in ISLANDS:
         x, y = meeting_point(name)
         lit = name in joined
@@ -133,6 +134,9 @@ def territory_map(width=900, height=700):
     for label, island, role, host, focus, listen, (dx, dy) in WORKERS:
         x, y = meeting_point(island)
         mx, my = x + dx, y + dy
+        if not on_plane(host):
+            out.append(f'<g opacity=".28">{marker(mx, my, role, listen)}</g>')
+            continue
         out.append(marker(mx, my, role, listen))
         right = dx >= 0
         tx = mx + (11 if right else -11)

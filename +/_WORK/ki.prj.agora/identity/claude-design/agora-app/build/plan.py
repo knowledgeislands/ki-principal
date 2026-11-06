@@ -102,6 +102,8 @@ ARTBOARDS = [
              'threads, the great portal; it fits one window, and the key and Show as a list give its text equivalent.',
          gains='The whole distributed Agora in one look; the hierarchy of talk is visible; hosts read as crews on the same islands.',
          costs='Placing islands needs a layout rule (the Territory Map\'s, ideally); labels crowd on a busy island; silent workers are small.'),
+    dict(id='1d', page='1', title="1a on sol's plane", make=lambda: M.page('Home', M.home_map('sol')), zones=['page']),
+    dict(id='1e', page='1', title="1a on terra's plane", make=lambda: M.page('Home', M.home_map('terra')), zones=['page']),
     dict(id='1b', page='1', title='The councils', make=lambda: M.page('Home', M.home_council()), zones=['page'],
          gains='The hierarchy of talk is exact and legible: each council with who talks up to it; scales to many work packages.',
          costs='No islands or geography, so it is a diagram, not the place; the great portal becomes a band.'),

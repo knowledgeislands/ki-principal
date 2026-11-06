@@ -44,6 +44,8 @@ Kind is the preferred alternative, another alternative, a state of a shell, or a
 | [0.2.2](agora-app/0.2.html#0.2.2) | Shell: the tray, components | Exception row: a checkout, a Mac | component | [shots](agora-app/shots/components/) |
 | [0.2.3](agora-app/0.2.html#0.2.3) | Shell: the tray, components | Speak to everyone: Away…, I'm back | component | [shots](agora-app/shots/components/) |
 | [1a](agora-app/1.html#1a) | Home | The map of territories | preferred | [shot](agora-app/shots/1a.png) |
+| [1d](agora-app/1.html#1d) | Home | 1a on sol's plane | state | [shot](agora-app/shots/1d.png) |
+| [1e](agora-app/1.html#1e) | Home | 1a on terra's plane | state | [shot](agora-app/shots/1e.png) |
 | [1b](agora-app/1.html#1b) | Home | The councils | alternative | [shot](agora-app/shots/1b.png) |
 | [1c](agora-app/1.html#1c) | Home | The two squares | alternative | [shot](agora-app/shots/1c.png) |
 | [2.1a](agora-app/2.1.html#2.1a) | Who's doing what | By Mac | preferred | [shot](agora-app/shots/2.1a.png) |

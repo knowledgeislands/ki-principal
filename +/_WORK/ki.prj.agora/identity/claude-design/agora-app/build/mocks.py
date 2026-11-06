@@ -407,9 +407,13 @@ def glance_panel(code='P3'):
 </aside>'''
 
 
-def home_map():
-    return f'''{head("P1", "Home", "3 territories · 12 islands · 10 agents on 2 rigs · 2 need a look", '<span class="seg" title="Each rig is a plane over the same islands"><span>sol</span><span>terra</span><span class="on">Both planes</span></span><span class="btn">Who looks after…</span>')}
-<div class="mapwrap"><section class="map" {R("P2", "The map")}>{MV.territory_map()}</section>{glance_panel()}</div>'''
+def home_map(plane='both'):
+    seg = ''.join(f'<span{" class=on" if plane == k else ""}>{v}</span>' for k, v in (('sol', 'sol'), ('terra', 'terra'), ('both', 'Both planes')))
+    summary = {'both': '3 territories · 12 islands · 10 agents on 2 rigs · 2 need a look',
+               'sol': "sol's plane · 4 agents and 2 doers at work · terra's 6 dimmed",
+               'terra': "terra's plane · 6 agents at work, 2 silent · sol's 4 dimmed"}[plane]
+    return f'''{head("P1", "Home", summary, f'<span class="seg" title="Each rig is a plane over the same islands">{seg}</span><span class="btn">Who looks after…</span>')}
+<div class="mapwrap"><section class="map" {R("P2", "The map")}>{MV.territory_map(plane=plane)}</section>{glance_panel()}</div>'''
 
 
 def home_council():

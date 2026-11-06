@@ -236,6 +236,22 @@
       "costs": "Placing islands needs a layout rule (the Territory Map's, ideally); labels crowd on a busy island; silent workers are small."
     },
     {
+      "id": "1d",
+      "page": "1",
+      "title": "1a on sol's plane",
+      "zones": [
+        "page"
+      ]
+    },
+    {
+      "id": "1e",
+      "page": "1",
+      "title": "1a on terra's plane",
+      "zones": [
+        "page"
+      ]
+    },
+    {
       "id": "1b",
       "page": "1",
       "title": "The councils",
@@ -538,6 +554,16 @@
     {
       "shot": "1a",
       "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/1a.html",
+      "width": 1440
+    },
+    {
+      "shot": "1d",
+      "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/1d.html",
+      "width": 1440
+    },
+    {
+      "shot": "1e",
+      "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/1e.html",
       "width": 1440
     },
     {

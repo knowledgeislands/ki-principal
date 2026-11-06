@@ -477,6 +477,78 @@
           ]
         },
         {
+          "id": "1d",
+          "title": "1a on sol's plane",
+          "image": "shots/1d.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 256,
+              "y": 57,
+              "w": 1160,
+              "h": 31
+            },
+            {
+              "code": "P2",
+              "label": "The map",
+              "x": 256,
+              "y": 104,
+              "w": 876,
+              "h": 682
+            },
+            {
+              "code": "P3",
+              "label": "At a glance",
+              "x": 1148,
+              "y": 104,
+              "w": 268,
+              "h": 682
+            }
+          ]
+        },
+        {
+          "id": "1e",
+          "title": "1a on terra's plane",
+          "image": "shots/1e.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 256,
+              "y": 57,
+              "w": 1160,
+              "h": 31
+            },
+            {
+              "code": "P2",
+              "label": "The map",
+              "x": 256,
+              "y": 104,
+              "w": 876,
+              "h": 682
+            },
+            {
+              "code": "P3",
+              "label": "At a glance",
+              "x": 1148,
+              "y": 104,
+              "w": 268,
+              "h": 682
+            }
+          ]
+        },
+        {
           "id": "1b",
           "title": "The councils",
           "image": "shots/1b.png",

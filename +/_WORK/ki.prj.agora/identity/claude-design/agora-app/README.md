@@ -16,7 +16,7 @@ Open [index.html](index.html). It has one page per part, in the app's own order,
 | --- | --- | --- |
 | [0.1](0.1.html) | Shell: the window and its rail | 0.1a expanded, 0.1b contracted, 0.1c terra not heard from; components 0.1.1 to 0.1.4 |
 | [0.2](0.2.html) | Shell: the tray | 0.2a all well, 0.2b one problem, 0.2c a Mac missing; components 0.2.1 to 0.2.3 |
-| [1](1.html) | Home | 1a The map of territories ★, 1b The councils, 1c The two squares |
+| [1](1.html) | Home | 1a The map of territories ★ (1d sol's plane, 1e terra's plane), 1b The councils, 1c The two squares |
 | [2.1](2.1.html) | Who's doing what | 2.1a By Mac ★, 2.1b By focus: the address book |
 | [2.2](2.2.html) | An agent | 2.2a ki.prj.agora ★ |
 | [3.1](3.1.html) | What's being said | 3.1a One record, newest first ★, 3.1b By layer |
