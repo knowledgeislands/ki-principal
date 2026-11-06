@@ -28,6 +28,7 @@ method_read: 3ffd23bc
 4. After AGORA-START, one build slice: AGORA-CALL with a transition, TERRITORY-NAMES (drop the territory fallback, add the run guard), AHEAD-RING-NOISE, and the Inbox ids in Agora's README, examples and fixtures.
 5. Before any build on KI-AGORA-WRK-002, WRK-003, WRK-004 or LVL-001, settle its open points with Kris; nothing that starts an agent moves without an Enactment decision (FOCUS-FIT a).
 6. Raise with Kris: who owns the footer's rules (FOOTER-AGORA against TOPIC-HOMES), CONFIG-OWNER, ORCA-WATCH, and closing AGORA-COUNT-PLACE as overtaken by KI-AGORA-TRY-001.
+7. After both households install the new Agora and the agents wait on `call/`, a small run drops the old `doorbell/` path and the README's 20 November date (FAST-MOVE).
 
 ## Held
 
