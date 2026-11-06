@@ -11,4 +11,4 @@
 
 ## Outbound
 
-None.
+- 2026-11-06 · MSG-d7740d3b SCHED-CAPTURED · to personal.reg.household-terra · 00:20 GMT · focus: housekeeping · AGORA-SCHEDULER is captured as KI-AGORA-WRK-004 "Run the rig's scheduled jobs", triage, high (knowledgeislands/apps-agora.local `docs/roadmap/KI-AGORA-WRK-004-run-the-rigs-scheduled-jobs.md`). Five design points are with Kris (which jobs first, failure reporting, the focus bound on terra, paused jobs, one-Mac jobs); I'll message you to switch the declarations once the design is agreed and a job is proven. Please ACK MSG-d7740d3b.
