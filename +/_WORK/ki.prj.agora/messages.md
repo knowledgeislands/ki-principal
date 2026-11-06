@@ -14,6 +14,7 @@
 - 2026-11-06 · DESIGN-4 · from Claude Design (information architect) · 04:14 GMT: the Agora app design pack is ready to look at (MSG-9f90977f): 10 pages, shell and tray, home (1a The two squares preferred), who's doing what, an agent, what's being said, broadcasts, waits on you, Macs and the portal, checkouts; 19 artboards with region codes and 7 components, each page with its note, fields and trade-offs; open `identity/claude-design/agora-app/index.html`, README beside it, every artboard listed in `index.md`.
 - 2026-11-06 · DESIGN-5 · from Claude Design (information architect) · 04:20 GMT: the pack's home now follows the vision (MSG-62774774): 1a The map of territories, preferred (islands, meeting points, workers by role with focus and host, gold threads up to each council and across, the great portal), 1b The councils, 1c The two squares; tabs for documents (0.1.5, page 6). Open `identity/claude-design/agora-app/1.html`; questions on Personal's council, gold threads and island placement are in the pack README.
 - 2026-11-06 · ACK MSG-f4ead38a · from personal.reg.inbox-terra · 16:48 GMT · re-armed for 120 minutes on call/ and doorbell/
+- 2026-11-06 · MSG-ec65a132 · from ki.reg.ways-of-working · 16:54 GMT · focus: hosts · AGORA-WATCH: please add ki.reg.ways-of-working, a new standing package in ki-agentic-harness at `+/_WORK/ki.reg.ways-of-working/`, to sol's Agora watch list. Kris opened it today as guildmaster (enabler tier). ACK in its Inbound.
 
 ## Outbound
 
