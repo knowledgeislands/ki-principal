@@ -39,3 +39,10 @@ Kris's picture, played back; his photograph of the islands laid out on the carpe
 - Every island has its own agora, so its agents talk to the wider group without leaving it; physical things (records, the work) still travel between islands through the repositories.
 - The repositories are used as a messaging system only because no other system carries messages across these planes; Agora may become that system.
 - Kris's name for the idea, a playful nod to the Agent Host Protocol: the **Agent Ghost Protocol**. Each plane hears the other through the portal as ghosts, and the other plane thinks the same of them.
+
+## Summit portals and routes (Kris, about 06:40 GMT)
+
+- **Each island's portal stands on its highest point,** beacon-like, with a structure around it; an agent goes to the island's agora and connects through it.
+- **Within a territory:** point to point, summit to summit.
+- **To another territory:** through the leader present in the agora on the territory's principal island, who passes it on.
+- **Between planes:** the mega portal, which stands in the same place in every plane, on the dotfiles island in the Personal territory, where the household lives.
