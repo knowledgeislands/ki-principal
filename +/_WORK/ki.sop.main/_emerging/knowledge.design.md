@@ -1,6 +1,6 @@
 # Knowledge graph folder: design note
 
-Design note for [ki.sop.main](../work.md), focus `_emerging`, under the `ki-work-design` method. It answers KNOWLEDGE-FOLDER, Kris's ask relayed by `personal.reg.assistant-terra` (ATER-005 IMPORTANT 22:47 GMT, ATER-007 22:49 and ATER-008 23:22, 4 November 2026): "take this on for Knowledge Islands Principal, quickly", and say how State of play would plan it. The source is the [knowledge folder proposal](</Users/krisbrown/kis/personal/assistant/+/_WORK/personal.reg.assistant-terra/capture/knowledge-folder.proposal.md>), with its "Pulling from the assistant's graph" and "Layered graphs" sections.
+Design note for [ki.sop.main](../work.md), focus `_emerging`, under the `ki-work-design` method. It answers KNOWLEDGE-FOLDER, Kris's ask relayed by `personal.reg.assistant-terra` (ATER-005 IMPORTANT 22:47 GMT, ATER-007 22:49 and ATER-008 23:22, 4 November 2026): "take this on for Knowledge Islands Principal, quickly", and say how State of play would plan it. The source is the [knowledge folder proposal](https://github.com/krisb/inbox/blob/792fb629c0df9b9e904eb08d99dc2663f8d509fe/+/_WORK/personal.reg.inbox-terra/capture/knowledge-folder.proposal.md), with its "Pulling from the assistant's graph" and "Layered graphs" sections.
 
 Status: draft, brief and proposed-plan stage, 4 November 2026. No independent review has run and nothing in the island has changed. The method's next step is two blind reviews of this plan before the merged report; the queries at the end go to Kris with it.
 
