@@ -10,6 +10,8 @@
 
 ## Outbound
 
-- 2026-11-06 · MSG-46bdea1a AWAY-UNTIL-0800 · to personal.reg.inbox-terra.kiv · 03:26 GMT · unattended until 08:00 GMT, within existing authority · awaiting ACK
+- 2026-11-06 · MSG-1c1bdb12 AWAY-UNTIL-0800 · to hnr.sop.main · 03:31 GMT · unattended until 08:00 GMT, within existing authority · awaiting ACK
+- 2026-11-06 · MSG-e113a4a9 AWAY-UNTIL-0800 · to hnr.prj.5g-emerge-phase3 · 03:31 GMT · unattended until 08:00 GMT, within existing authority · awaiting ACK
+- 2026-11-06 · MSG-ebf5e8d6 AWAY-UNTIL-0800 · to hnr.prj.5g-emerge-p2ms3 · 03:31 GMT · unattended until 08:00 GMT, within existing authority · awaiting ACK
+- 2026-11-06 · MSG-c9d6fc55 AWAY-UNTIL-0800 · to hnr.prj.site-robots · 03:31 GMT · unattended until 08:00 GMT, within existing authority · awaiting ACK
 - 2026-11-06 · MSG-d9280f4d AWAY-UNTIL-0800 · to ki.sop.main · 03:26 GMT · unattended until 08:00 GMT, within existing authority · awaiting ACK
-- 2026-11-06 · MSG-d5f11932 AWAY-UNTIL-0800 · to personal.reg.tower · 03:26 GMT · unattended until 08:00 GMT, within existing authority · awaiting ACK
