@@ -15,8 +15,11 @@
 
 ## Outbound
 
+- 2026-11-06 · MSG-3485a6c2 HEALTH/PING · to personal.reg.inbox-sol · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-00cdf195 HEALTH/PING · to ki.sop.main · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-61a1d864 HEALTH/PING · to hnr.sop.main · listener 120 min · awaiting ACK
+- 2026-11-06 · MSG-36bb88fd HEALTH/PING · to hnr.prj.5g-emerge-phase3 · listener 120 min · awaiting ACK
+- 2026-11-06 · MSG-22992d6e HEALTH/PING · to hnr.prj.5g-emerge-p2ms3 · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-2af6e295 HEALTH/PING · to hnr.prj.site-robots · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-9ce46e49 AGORA-WATCH-WOW · to personal.reg.household-sol · 17:00 GMT · for ki.reg.ways-of-working (MSG-ec65a132, opened by Kris today, guildmaster): please add a `[[watch]]` entry to sol's ~/.config/agora/config.toml with package = "ki.reg.ways-of-working" and repository = "~/kis/knowledge-islands/ki-agentic-harness", then restart the Agora Portal (or let AGORA-SAME-BUILD's reinstall pick it up); ACK in its Inbound and mine · awaiting ACK
 - 2026-11-06 · MSG-d7525ddb AGORA-SAME-BUILD · to personal.reg.household-sol · 16:02 GMT · Kris (16:01 GMT): both Macs must run the same Agora Portal and Agora app for now. sol still runs the 04:13 build: only the old ~/Applications/Agora.app (the Portal before the split), no Agora Portal.app, and launchd still shows `info.knowledgeislands.agora` exiting 78. Please, now, under AGORA-INSTALL-GRANT: in apps-agora.local `git pull --ff-only` to fa71734, run `bun run self:install`, and reply with (1) the commit installed, (2) that both ~/Applications/Agora Portal.app and ~/Applications/Agora.app exist, (3) the Portal is running and its local view answers, (4) `launchctl print gui/$(id -u)/info.knowledgeislands.agora` no longer names `Contents/MacOS/Agora`. Supersedes AGORA-READY-2 · awaiting ACK
