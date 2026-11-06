@@ -27,3 +27,9 @@ Kris's picture, played back; his photograph of the islands laid out on the carpe
 
 - One view that fits the viewport, no scrolling: the islands and territories, the workers on them (leaders, enablers, doers) placed where they work, and the focus of each area at a glance.
 - Room to show pages and documents inside it, as Orca and Claude Code do with tabs, without first bringing in the KIV's and the Observatory's views.
+
+## Portals, alignment and routing (Kris, about 06:30 GMT)
+
+- **The great portals pass information between planes of existence.** Agents never move between planes; a portal opens and information passes through it.
+- **Everyone works towards a common goal.** Seek alignment and, ideally, consensus; where one agent's action touches another's, check with it first, then do it. These checks are short, simple messages that travel through the portals.
+- **Messages hop.** A message can go from a satellite island in one territory on one plane, up through its principal, across territories, through a great portal to another plane, and down to an island there, and the two still interoperate.
