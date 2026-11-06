@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900">
+<rect width="1280" height="900" fill="#f5f1e6"/>
+<style>
+text { font-family: sans-serif; fill: #203735; }
+.title { font-family: Georgia, serif; font-size: 46px; }
+.subtitle { font-size: 18px; }
+.plane { font-size: 24px; font-weight: bold; fill: #f5f1e6; }
+.territory { font-size: 15px; letter-spacing: 2px; fill: #f5f1e6; }
+.label { font-size: 15px; text-anchor: middle; fill: #fff5dc; }
+</style>
+<text x="64" y="74" class="title">The same islands, two planes</text>
+<text x="66" y="108" class="subtitle">Summits link neighbours. Principal islands relay between territories. The great portal joins Sol and Terra.</text>
+
+<rect x="64" y="145" width="1152" height="296" rx="22" fill="#486d68"/>
+<text x="91" y="187" class="plane">SOL</text>
+<rect x="90" y="211" width="656" height="204" rx="17" fill="none" stroke="#b4c2b2" stroke-opacity=".6" stroke-dasharray="5 6"/>
+<text x="108" y="237" class="territory">KNOWLEDGE ISLANDS</text>
+<rect x="760" y="211" width="429" height="204" rx="17" fill="none" stroke="#b4c2b2" stroke-opacity=".6" stroke-dasharray="5 6"/>
+<text x="778" y="237" class="territory">PERSONAL TERRITORY</text>
+<path d="M220 296H405H615" stroke="#f0cf84" stroke-width="3" fill="none"/>
+<path d="M615 296H871" stroke="#f0cf84" stroke-width="3" stroke-dasharray="7 7" fill="none"/>
+<path d="M871 296H1080" stroke="#f0cf84" stroke-width="3" fill="none"/>
+<path d="M160 325l30-27h60l30 27-30 27h-60Z" fill="#a9b495" stroke="#d4d7b8"/>
+<path d="M160 325l30 27h60l30-27v12l-30 27h-60l-30-27Z" fill="#758775"/>
+<path d="M220 296v27" stroke="#f0cf84" stroke-width="2"/>
+<circle cx="220" cy="296" r="9" fill="#f1d493" stroke="#354d4a" stroke-width="2"/>
+<ellipse cx="220" cy="330" rx="17" ry="8" fill="none" stroke="#fcf0d6" stroke-width="3" stroke-dasharray="3 3"/>
+<text x="220" y="392" class="label">Island</text>
+<path d="M345 325l30-27h60l30 27-30 27h-60Z" fill="#a9b495" stroke="#d4d7b8"/>
+<path d="M345 325l30 27h60l30-27v12l-30 27h-60l-30-27Z" fill="#758775"/>
+<path d="M405 296v27" stroke="#f0cf84" stroke-width="2"/>
+<circle cx="405" cy="296" r="9" fill="#f1d493" stroke="#354d4a" stroke-width="2"/>
+<ellipse cx="405" cy="330" rx="17" ry="8" fill="none" stroke="#fcf0d6" stroke-width="3" stroke-dasharray="3 3"/>
+<text x="405" y="392" class="label">Island</text>
+<path d="M555 325l30-27h60l30 27-30 27h-60Z" fill="#a9b495" stroke="#d4d7b8"/>
+<path d="M555 325l30 27h60l30-27v12l-30 27h-60l-30-27Z" fill="#758775"/>
+<path d="M615 296v27" stroke="#f0cf84" stroke-width="2"/>
+<circle cx="615" cy="296" r="9" fill="#f1d493" stroke="#354d4a" stroke-width="2"/>
+<ellipse cx="615" cy="330" rx="17" ry="8" fill="none" stroke="#fcf0d6" stroke-width="3" stroke-dasharray="3 3"/>
+<text x="615" y="392" class="label">Principal · council</text>
+<path d="M811 325l30-27h60l30 27-30 27h-60Z" fill="#a9b495" stroke="#d4d7b8"/>
+<path d="M811 325l30 27h60l30-27v12l-30 27h-60l-30-27Z" fill="#758775"/>
+<path d="M871 296v27" stroke="#f0cf84" stroke-width="2"/>
+<circle cx="871" cy="296" r="9" fill="#f1d493" stroke="#354d4a" stroke-width="2"/>
+<ellipse cx="871" cy="330" rx="17" ry="8" fill="none" stroke="#fcf0d6" stroke-width="3" stroke-dasharray="3 3"/>
+<text x="871" y="392" class="label">Principal</text>
+<path d="M1020 325l30-27h60l30 27-30 27h-60Z" fill="#a9b495" stroke="#d4d7b8"/>
+<path d="M1020 325l30 27h60l30-27v12l-30 27h-60l-30-27Z" fill="#758775"/>
+<path d="M1080 296v27" stroke="#f0cf84" stroke-width="2"/>
+<circle cx="1080" cy="296" r="9" fill="#f1d493" stroke="#354d4a" stroke-width="2"/>
+<ellipse cx="1080" cy="330" rx="17" ry="8" fill="none" stroke="#fcf0d6" stroke-width="3" stroke-dasharray="3 3"/>
+<path d="M1067 351v-10a13 13 0 0 1 26 0v10" fill="none" stroke="#ffdc87" stroke-width="5"/>
+<text x="1080" y="392" class="label">Dotfiles · Household</text>
+<rect x="64" y="509" width="1152" height="296" rx="22" fill="#4b6272"/>
+<text x="91" y="551" class="plane">TERRA</text>
+<rect x="90" y="575" width="656" height="204" rx="17" fill="none" stroke="#b4c2b2" stroke-opacity=".6" stroke-dasharray="5 6"/>
+<text x="108" y="601" class="territory">KNOWLEDGE ISLANDS</text>
+<rect x="760" y="575" width="429" height="204" rx="17" fill="none" stroke="#b4c2b2" stroke-opacity=".6" stroke-dasharray="5 6"/>
+<text x="778" y="601" class="territory">PERSONAL TERRITORY</text>
+<path d="M220 660H405H615" stroke="#f0cf84" stroke-width="3" fill="none"/>
+<path d="M615 660H871" stroke="#f0cf84" stroke-width="3" stroke-dasharray="7 7" fill="none"/>
+<path d="M871 660H1080" stroke="#f0cf84" stroke-width="3" fill="none"/>
+<path d="M160 689l30-27h60l30 27-30 27h-60Z" fill="#a9b495" stroke="#d4d7b8"/>
+<path d="M160 689l30 27h60l30-27v12l-30 27h-60l-30-27Z" fill="#758775"/>
+<path d="M220 660v27" stroke="#f0cf84" stroke-width="2"/>
+<circle cx="220" cy="660" r="9" fill="#f1d493" stroke="#354d4a" stroke-width="2"/>
+<ellipse cx="220" cy="694" rx="17" ry="8" fill="none" stroke="#fcf0d6" stroke-width="3" stroke-dasharray="3 3"/>
+<text x="220" y="756" class="label">Island</text>
+<path d="M345 689l30-27h60l30 27-30 27h-60Z" fill="#a9b495" stroke="#d4d7b8"/>
+<path d="M345 689l30 27h60l30-27v12l-30 27h-60l-30-27Z" fill="#758775"/>
+<path d="M405 660v27" stroke="#f0cf84" stroke-width="2"/>
+<circle cx="405" cy="660" r="9" fill="#f1d493" stroke="#354d4a" stroke-width="2"/>
+<ellipse cx="405" cy="694" rx="17" ry="8" fill="none" stroke="#fcf0d6" stroke-width="3" stroke-dasharray="3 3"/>
+<text x="405" y="756" class="label">Island</text>
+<path d="M555 689l30-27h60l30 27-30 27h-60Z" fill="#a9b495" stroke="#d4d7b8"/>
+<path d="M555 689l30 27h60l30-27v12l-30 27h-60l-30-27Z" fill="#758775"/>
+<path d="M615 660v27" stroke="#f0cf84" stroke-width="2"/>
+<circle cx="615" cy="660" r="9" fill="#f1d493" stroke="#354d4a" stroke-width="2"/>
+<ellipse cx="615" cy="694" rx="17" ry="8" fill="none" stroke="#fcf0d6" stroke-width="3" stroke-dasharray="3 3"/>
+<text x="615" y="756" class="label">Principal · council</text>
+<path d="M811 689l30-27h60l30 27-30 27h-60Z" fill="#a9b495" stroke="#d4d7b8"/>
+<path d="M811 689l30 27h60l30-27v12l-30 27h-60l-30-27Z" fill="#758775"/>
+<path d="M871 660v27" stroke="#f0cf84" stroke-width="2"/>
+<circle cx="871" cy="660" r="9" fill="#f1d493" stroke="#354d4a" stroke-width="2"/>
+<ellipse cx="871" cy="694" rx="17" ry="8" fill="none" stroke="#fcf0d6" stroke-width="3" stroke-dasharray="3 3"/>
+<text x="871" y="756" class="label">Principal</text>
+<path d="M1020 689l30-27h60l30 27-30 27h-60Z" fill="#a9b495" stroke="#d4d7b8"/>
+<path d="M1020 689l30 27h60l30-27v12l-30 27h-60l-30-27Z" fill="#758775"/>
+<path d="M1080 660v27" stroke="#f0cf84" stroke-width="2"/>
+<circle cx="1080" cy="660" r="9" fill="#f1d493" stroke="#354d4a" stroke-width="2"/>
+<ellipse cx="1080" cy="694" rx="17" ry="8" fill="none" stroke="#fcf0d6" stroke-width="3" stroke-dasharray="3 3"/>
+<path d="M1067 715v-10a13 13 0 0 1 26 0v10" fill="none" stroke="#ffdc87" stroke-width="5"/>
+<text x="1080" y="756" class="label">Dotfiles · Household</text>
+<path d="M1080 351C1285 345 1260 671 1080 715" stroke="#f5f1e6" stroke-width="8" fill="none"/>
+<path d="M1080 351C1285 345 1260 671 1080 715" stroke="#c9943e" stroke-width="4" fill="none"/>
+<rect x="834" y="459" width="330" height="32" rx="15" fill="#f5f1e6"/>
+<text x="851" y="481" class="subtitle">Great portal · voice and image only</text>
+<path d="M68 851h28m270 0h28" stroke="#a57532" stroke-width="3"/>
+<path d="M366 851h28" stroke="#f5f1e6" stroke-width="3" stroke-dasharray="4 4"/>
+<text x="106" y="857" class="subtitle">Summit to summit</text>
+<text x="404" y="857" class="subtitle">Principal relay</text>
+<text x="699" y="857" class="subtitle">Durable records travel separately through repositories.</text>
+</svg>
