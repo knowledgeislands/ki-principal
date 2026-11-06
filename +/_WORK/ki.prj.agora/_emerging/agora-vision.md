@@ -55,4 +55,4 @@ Kris's picture, played back; his photograph of the islands laid out on the carpe
 
 ## A planar island of its own (Kris, about 05:10 GMT, an idea)
 
-- Rather than the planar portal living in the dotfiles island beside the housekeeper and the assistant's inbox, it may become its own special island (repository) in the Personal territory, used only for passing between planes, "much like the one in Valhalla". Name not settled: Kris said something like "poultry" (perhaps a mishearing); Norse myth's bridge between the realms is Bifröst, guarded by Heimdall.
+- Rather than the planar portal living in the dotfiles island beside the housekeeper and the assistant's inbox, it may become its own special island (repository) in the Personal territory, used only for passing between planes, "much like the one in Valhalla". Kris named it **portal** (about 05:12 GMT): the Personal territory's portal island.

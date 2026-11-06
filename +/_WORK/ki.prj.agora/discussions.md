@@ -2,22 +2,6 @@
 
 ## Open
 
-### PLANAR-ISLAND - Give the planar portal its own island
-
-focus: \_emerging · since 2026-11-06 · Kris, about 05:10 GMT
-
-**Context:** The planar portal, which passes information between sol and terra, sits today in the dotfiles island (the household). Kris suggested it could instead be its own special island in the Personal territory, used only for this, "much like the one in Valhalla". In Norse myth the bridge between the realms is Bifröst, guarded by Heimdall. The name Kris used sounded like "poultry", which may be a mishearing.
-
-**Query:** Should the planar portal get its own repository, and what should it be called?
-
-**Options:**
-
-a) (recommended, confidence medium - it keeps the household's island for running the rig and gives cross-plane traffic a clear home of its own) Yes, a new island in the Personal territory, called Bifröst (`bifrost`), once the protocol settles what crosses planes.
-
-b) Yes, with another name Kris chooses.
-
-c) No, keep the planar portal in the dotfiles island.
-
 ### SCHED-FIRST - Which jobs move to Agora first
 
 focus: jobs · since 2026-11-06 · from scheduler-draft
