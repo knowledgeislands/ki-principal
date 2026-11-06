@@ -1,0 +1,62 @@
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3.2 Broadcasts · Agora app</title><style>
+:root { --paper:#f5efe0; --ink:#1a2030; --muted:#4a5568; --accent:#1b3a5c; --teal:#317070; --warn:#8a5a12; --rule:#d4c9b4;
+  --boundary:#9a8358; --surface:#eef1f5; --gold:#c8963c; --wash-warn:#f1e8d3;
+  --zone-navigation:#317070; --zone-tray:#1b3a5c; --zone-page:#8a5a12; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font:14px/1.5 -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", sans-serif; }
+.wrap { max-width:1560px; margin:0 auto; padding:24px 32px 64px; }
+nav.crumbs { font-size:13px; color:var(--muted); margin-bottom:8px; }
+nav.crumbs a { color:var(--accent); }
+h1 { font-size:24px; margin:0 0 6px; font-weight:600; }
+h2 { font-size:18px; margin:32px 0 10px; font-weight:600; }
+.note { max-width:900px; }
+.stamp { color:var(--muted); font-size:12px; }
+.fields { max-width:900px; margin:10px 0 0; padding-left:18px; }
+.fields li { margin:2px 0; }
+.toggle { display:inline-flex; gap:6px; align-items:center; font-size:13px; color:var(--muted); margin-top:14px; }
+figure.ab { margin:28px 0 0; }
+figure.ab > header { display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; margin-bottom:8px; }
+figure.ab h3 { font-size:16px; margin:0; font-weight:600; }
+.pref { display:inline-block; background:var(--gold); color:var(--ink); font-weight:600; font-size:12px; padding:2px 8px; border-radius:10px; }
+figure.ab.preferred .frame { outline:3px solid var(--gold); outline-offset:4px; }
+.tradeoff { display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:16px; max-width:1440px; margin:0 0 10px; font-size:13px; }
+.tradeoff div { border-top:2px solid var(--rule); padding-top:6px; }
+.tradeoff .why { border-top-color:var(--gold); }
+.tradeoff b { display:block; font-size:12px; color:var(--muted); }
+.frame { position:relative; display:inline-block; max-width:100%; border:1px solid var(--rule); background:#0f2440; }
+.frame img { display:block; max-width:100%; height:auto; }
+.ov { position:absolute; border:1.5px dashed; border-radius:3px; }
+.ov .badge { position:absolute; top:-1px; right:-1px; transform:translateY(-100%); font-size:11px; font-weight:600; color:var(--paper);
+  padding:1px 6px; border-radius:3px 3px 0 0; white-space:nowrap; }
+.ov.whole .badge { top:auto; bottom:-1px; transform:translateY(100%); border-radius:0 0 3px 3px; }
+.ov.navigation { border-color:var(--zone-navigation); } .ov.navigation .badge { background:var(--zone-navigation); }
+.ov.tray { border-color:var(--zone-tray); } .ov.tray .badge { background:var(--zone-tray); }
+.ov.page { border-color:var(--zone-page); } .ov.page .badge { background:var(--zone-page); }
+body.plain .ov { display:none; }
+.legend { font-size:12px; color:var(--muted); margin-top:6px; }
+.comps { display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:20px; }
+.comp h4 { margin:0 0 6px; font-size:14px; }
+.comp .states { display:flex; gap:12px; flex-wrap:wrap; align-items:flex-start; }
+.comp figure { margin:0; }
+.comp figcaption { font-size:12px; color:var(--muted); margin-top:4px; }
+.comp img { display:block; border:1px solid var(--rule); max-width:300px; }
+table.idx { border-collapse:collapse; width:100%; max-width:1200px; }
+table.idx th, table.idx td { text-align:left; padding:6px 10px; border-bottom:1px solid var(--rule); vertical-align:top; }
+table.idx th { font-size:12px; color:var(--muted); }
+a { color:var(--accent); }
+</style></head>
+<body><div class="wrap">
+<nav class="crumbs"><a href="index.html">The pack</a> · previous <a href="3.1.html">3.1 What&#x27;s being said</a> · next <a href="4.1.html">4.1 Waits on you</a></nav>
+<h1>3.2 · Broadcasts</h1>
+<p class="note">What Kris said to everyone, and who heard it. It matters because a broadcast such as Away opens an unattended window: Kris needs to know every agent took it.</p>
+<p class="stamp">Refreshed 2026-11-06 · source: mock-ups from build/plan.py; not yet built</p>
+<b>What it shows</b><ul class="fields"><li>Sent</li><li>What</li><li>Kind: message, away, back, ping, mark</li><li>Heard: answered of reached</li><li>Silent: who did not answer</li><li>For the selected one: each agent, answered or silent</li></ul>
+<label class="toggle"><input type="checkbox" onclick="document.body.classList.toggle('plain', this.checked)"> Hide the region boxes</label>
+<p class="legend">Region codes: P, page content (brass). Quote them as "3.2a P2".</p>
+<figure class="ab preferred" id="3.2a">
+<header><h3>3.2a · Sent and heard</h3><span class="pref">Preferred</span></header><div class="tradeoff"><div class="why"><b>Why this one</b>Pairs each broadcast with who heard it, and offers the one useful next step: ping the silent again.</div><div><b>Gains</b>Answers &quot;did everyone take the Away?&quot; directly.</div><div><b>Costs</b>Received broadcasts from terra need their own section below.</div></div>
+<div class="frame" style="width:1440px"><img src="shots/3.2a.png" alt="3.2a Sent and heard" width="1440" height="900"><div class="ov page" style="left:17.778%;top:2.000%;width:80.556%;height:3.444%" data-region="3.2a P1" title="3.2a P1 · Page header"><span class="badge">P1 · Page header</span></div><div class="ov page" style="left:17.778%;top:7.222%;width:53.056%;height:47.778%" data-region="3.2a P2" title="3.2a P2 · Broadcasts sent"><span class="badge">P2 · Broadcasts sent</span></div><div class="ov page" style="left:71.944%;top:7.222%;width:26.389%;height:47.778%" data-region="3.2a P3" title="3.2a P3 · Who heard the ping"><span class="badge">P3 · Who heard the ping</span></div></div>
+</figure>
+
+</div></body></html>

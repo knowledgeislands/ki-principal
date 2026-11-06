@@ -1,0 +1,54 @@
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agora app · design pack</title><style>
+:root { --paper:#f5efe0; --ink:#1a2030; --muted:#4a5568; --accent:#1b3a5c; --teal:#317070; --warn:#8a5a12; --rule:#d4c9b4;
+  --boundary:#9a8358; --surface:#eef1f5; --gold:#c8963c; --wash-warn:#f1e8d3;
+  --zone-navigation:#317070; --zone-tray:#1b3a5c; --zone-page:#8a5a12; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font:14px/1.5 -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", sans-serif; }
+.wrap { max-width:1560px; margin:0 auto; padding:24px 32px 64px; }
+nav.crumbs { font-size:13px; color:var(--muted); margin-bottom:8px; }
+nav.crumbs a { color:var(--accent); }
+h1 { font-size:24px; margin:0 0 6px; font-weight:600; }
+h2 { font-size:18px; margin:32px 0 10px; font-weight:600; }
+.note { max-width:900px; }
+.stamp { color:var(--muted); font-size:12px; }
+.fields { max-width:900px; margin:10px 0 0; padding-left:18px; }
+.fields li { margin:2px 0; }
+.toggle { display:inline-flex; gap:6px; align-items:center; font-size:13px; color:var(--muted); margin-top:14px; }
+figure.ab { margin:28px 0 0; }
+figure.ab > header { display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; margin-bottom:8px; }
+figure.ab h3 { font-size:16px; margin:0; font-weight:600; }
+.pref { display:inline-block; background:var(--gold); color:var(--ink); font-weight:600; font-size:12px; padding:2px 8px; border-radius:10px; }
+figure.ab.preferred .frame { outline:3px solid var(--gold); outline-offset:4px; }
+.tradeoff { display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:16px; max-width:1440px; margin:0 0 10px; font-size:13px; }
+.tradeoff div { border-top:2px solid var(--rule); padding-top:6px; }
+.tradeoff .why { border-top-color:var(--gold); }
+.tradeoff b { display:block; font-size:12px; color:var(--muted); }
+.frame { position:relative; display:inline-block; max-width:100%; border:1px solid var(--rule); background:#0f2440; }
+.frame img { display:block; max-width:100%; height:auto; }
+.ov { position:absolute; border:1.5px dashed; border-radius:3px; }
+.ov .badge { position:absolute; top:-1px; right:-1px; transform:translateY(-100%); font-size:11px; font-weight:600; color:var(--paper);
+  padding:1px 6px; border-radius:3px 3px 0 0; white-space:nowrap; }
+.ov.whole .badge { top:auto; bottom:-1px; transform:translateY(100%); border-radius:0 0 3px 3px; }
+.ov.navigation { border-color:var(--zone-navigation); } .ov.navigation .badge { background:var(--zone-navigation); }
+.ov.tray { border-color:var(--zone-tray); } .ov.tray .badge { background:var(--zone-tray); }
+.ov.page { border-color:var(--zone-page); } .ov.page .badge { background:var(--zone-page); }
+body.plain .ov { display:none; }
+.legend { font-size:12px; color:var(--muted); margin-top:6px; }
+.comps { display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:20px; }
+.comp h4 { margin:0 0 6px; font-size:14px; }
+.comp .states { display:flex; gap:12px; flex-wrap:wrap; align-items:flex-start; }
+.comp figure { margin:0; }
+.comp figcaption { font-size:12px; color:var(--muted); margin-top:4px; }
+.comp img { display:block; border:1px solid var(--rule); max-width:300px; }
+table.idx { border-collapse:collapse; width:100%; max-width:1200px; }
+table.idx th, table.idx td { text-align:left; padding:6px 10px; border-bottom:1px solid var(--rule); vertical-align:top; }
+table.idx th { font-size:12px; color:var(--muted); }
+a { color:var(--accent); }
+</style></head><body><div class="wrap">
+<h1>Agora app · design pack</h1>
+<p class="note">The rich Electron app beside the tray (DESIGN-PACK, Kris about 05:40 GMT). It first shows what is happening within each Agora and across them; later it takes in the KIV's inbox and the Observatory's insight. One page per part, in the app's own order: the shell and tray first, then home, then each view. Where a page has alternatives, they are lettered and the preferred one is outlined in brass with its reason.</p>
+<p class="stamp">Refreshed 2026-11-06 · source: mock-ups from build/plan.py; not yet built · night is the reference rendering</p>
+<table class="idx"><thead><tr><th>Page</th><th>Part</th><th>Artboards (★ preferred)</th><th>Components</th></tr></thead><tbody><tr><td><a href="0.1.html">0.1</a></td><td>Shell: the window and its rail</td><td><a href="0.1.html#0.1a">0.1a</a> Rail expanded, both Macs here, <a href="0.1.html#0.1b">0.1b</a> Rail contracted, <a href="0.1.html#0.1c">0.1c</a> Rail expanded, terra not heard from</td><td>4</td></tr><tr><td><a href="0.2.html">0.2</a></td><td>Shell: the tray</td><td><a href="0.2.html#0.2a">0.2a</a> Tray, all well, <a href="0.2.html#0.2b">0.2b</a> Tray, one problem, <a href="0.2.html#0.2c">0.2c</a> Tray, a Mac missing</td><td>3</td></tr><tr><td><a href="1.html">1</a></td><td>Home</td><td><a href="1.html#1a">1a</a> ★ The two squares, <a href="1.html#1b">1b</a> Figures and a table, <a href="1.html#1c">1c</a> What&#x27;s being said first</td><td></td></tr><tr><td><a href="2.1.html">2.1</a></td><td>Who&#x27;s doing what</td><td><a href="2.1.html#2.1a">2.1a</a> ★ By Mac, <a href="2.1.html#2.1b">2.1b</a> By focus: the address book</td><td></td></tr><tr><td><a href="2.2.html">2.2</a></td><td>An agent</td><td><a href="2.2.html#2.2a">2.2a</a> ★ ki.prj.agora</td><td></td></tr><tr><td><a href="3.1.html">3.1</a></td><td>What&#x27;s being said</td><td><a href="3.1.html#3.1a">3.1a</a> ★ One record, newest first, <a href="3.1.html#3.1b">3.1b</a> By layer</td><td></td></tr><tr><td><a href="3.2.html">3.2</a></td><td>Broadcasts</td><td><a href="3.2.html#3.2a">3.2a</a> ★ Sent and heard</td><td></td></tr><tr><td><a href="4.1.html">4.1</a></td><td>Waits on you</td><td><a href="4.1.html#4.1a">4.1a</a> ★ By agent, <a href="4.1.html#4.1b">4.1b</a> Oldest first, all together</td><td></td></tr><tr><td><a href="5.1.html">5.1</a></td><td>Macs and the portal</td><td><a href="5.1.html#5.1a">5.1a</a> ★ The two Macs and the portal</td><td></td></tr><tr><td><a href="5.2.html">5.2</a></td><td>Checkouts</td><td><a href="5.2.html#5.2a">5.2a</a> ★ Not level, side by side</td><td></td></tr></tbody></table>
+<p class="stamp">Read the <a href="README.md">README</a> for the choices and what is open.</p>
+</div></body></html>

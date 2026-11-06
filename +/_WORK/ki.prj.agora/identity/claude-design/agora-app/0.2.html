@@ -1,0 +1,68 @@
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>0.2 Shell: the tray · Agora app</title><style>
+:root { --paper:#f5efe0; --ink:#1a2030; --muted:#4a5568; --accent:#1b3a5c; --teal:#317070; --warn:#8a5a12; --rule:#d4c9b4;
+  --boundary:#9a8358; --surface:#eef1f5; --gold:#c8963c; --wash-warn:#f1e8d3;
+  --zone-navigation:#317070; --zone-tray:#1b3a5c; --zone-page:#8a5a12; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font:14px/1.5 -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", sans-serif; }
+.wrap { max-width:1560px; margin:0 auto; padding:24px 32px 64px; }
+nav.crumbs { font-size:13px; color:var(--muted); margin-bottom:8px; }
+nav.crumbs a { color:var(--accent); }
+h1 { font-size:24px; margin:0 0 6px; font-weight:600; }
+h2 { font-size:18px; margin:32px 0 10px; font-weight:600; }
+.note { max-width:900px; }
+.stamp { color:var(--muted); font-size:12px; }
+.fields { max-width:900px; margin:10px 0 0; padding-left:18px; }
+.fields li { margin:2px 0; }
+.toggle { display:inline-flex; gap:6px; align-items:center; font-size:13px; color:var(--muted); margin-top:14px; }
+figure.ab { margin:28px 0 0; }
+figure.ab > header { display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; margin-bottom:8px; }
+figure.ab h3 { font-size:16px; margin:0; font-weight:600; }
+.pref { display:inline-block; background:var(--gold); color:var(--ink); font-weight:600; font-size:12px; padding:2px 8px; border-radius:10px; }
+figure.ab.preferred .frame { outline:3px solid var(--gold); outline-offset:4px; }
+.tradeoff { display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:16px; max-width:1440px; margin:0 0 10px; font-size:13px; }
+.tradeoff div { border-top:2px solid var(--rule); padding-top:6px; }
+.tradeoff .why { border-top-color:var(--gold); }
+.tradeoff b { display:block; font-size:12px; color:var(--muted); }
+.frame { position:relative; display:inline-block; max-width:100%; border:1px solid var(--rule); background:#0f2440; }
+.frame img { display:block; max-width:100%; height:auto; }
+.ov { position:absolute; border:1.5px dashed; border-radius:3px; }
+.ov .badge { position:absolute; top:-1px; right:-1px; transform:translateY(-100%); font-size:11px; font-weight:600; color:var(--paper);
+  padding:1px 6px; border-radius:3px 3px 0 0; white-space:nowrap; }
+.ov.whole .badge { top:auto; bottom:-1px; transform:translateY(100%); border-radius:0 0 3px 3px; }
+.ov.navigation { border-color:var(--zone-navigation); } .ov.navigation .badge { background:var(--zone-navigation); }
+.ov.tray { border-color:var(--zone-tray); } .ov.tray .badge { background:var(--zone-tray); }
+.ov.page { border-color:var(--zone-page); } .ov.page .badge { background:var(--zone-page); }
+body.plain .ov { display:none; }
+.legend { font-size:12px; color:var(--muted); margin-top:6px; }
+.comps { display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:20px; }
+.comp h4 { margin:0 0 6px; font-size:14px; }
+.comp .states { display:flex; gap:12px; flex-wrap:wrap; align-items:flex-start; }
+.comp figure { margin:0; }
+.comp figcaption { font-size:12px; color:var(--muted); margin-top:4px; }
+.comp img { display:block; border:1px solid var(--rule); max-width:300px; }
+table.idx { border-collapse:collapse; width:100%; max-width:1200px; }
+table.idx th, table.idx td { text-align:left; padding:6px 10px; border-bottom:1px solid var(--rule); vertical-align:top; }
+table.idx th { font-size:12px; color:var(--muted); }
+a { color:var(--accent); }
+</style></head>
+<body><div class="wrap">
+<nav class="crumbs"><a href="index.html">The pack</a> · previous <a href="0.1.html">0.1 Shell: the window and its rail</a> · next <a href="1.html">1 Home</a></nav>
+<h1>0.2 · Shell: the tray</h1>
+<p class="note">The menu-bar menu, the quiet everyday face of Agora (DESIGN-2). The app opens from its first line. It matters because most days Kris only ever sees this: two lines must say whether all is well.</p>
+<p class="stamp">Refreshed 2026-11-06 · source: mock-ups from build/plan.py; not yet built</p>
+<b>What it shows</b><ul class="fields"><li>Line 1: agents and Macs heard from</li><li>Line 2: All well, or how many need a look</li><li>Exception rows: at most 3, each with what Agora saw, what it did, at most two actions</li><li>Speak to everyone</li><li>Detail one level down: Agents, Macs and checkouts, Runs, Broadcasts, News</li><li>Agora itself: Sync now, Open log, About, Quit</li></ul>
+<label class="toggle"><input type="checkbox" onclick="document.body.classList.toggle('plain', this.checked)"> Hide the region boxes</label>
+<p class="legend">Region codes: T, the tray (blue). Quote them as "0.2a T2".</p>
+<figure class="ab" id="0.2a">
+<header><h3>0.2a · Tray, all well</h3></header>
+<div class="frame" style="width:760px"><img src="shots/0.2a.png" alt="0.2a Tray, all well" width="760" height="900"><div class="ov tray whole" style="left:3.684%;top:2.222%;width:92.632%;height:46.889%" data-region="0.2a T0" title="0.2a T0 · Whole tray"><span class="badge">T0 · Whole tray</span></div><div class="ov tray" style="left:4.342%;top:5.667%;width:38.158%;height:4.889%" data-region="0.2a T1" title="0.2a T1 · Summary lines"><span class="badge">T1 · Summary lines</span></div><div class="ov tray" style="left:4.342%;top:11.778%;width:38.158%;height:9.778%" data-region="0.2a T3" title="0.2a T3 · Speak to everyone"><span class="badge">T3 · Speak to everyone</span></div><div class="ov tray" style="left:4.342%;top:22.778%;width:38.158%;height:12.222%" data-region="0.2a T4" title="0.2a T4 · Detail"><span class="badge">T4 · Detail</span></div><div class="ov tray" style="left:4.342%;top:36.222%;width:38.158%;height:12.333%" data-region="0.2a T5" title="0.2a T5 · Agora itself"><span class="badge">T5 · Agora itself</span></div></div>
+</figure><figure class="ab" id="0.2b">
+<header><h3>0.2b · Tray, one problem</h3></header>
+<div class="frame" style="width:760px"><img src="shots/0.2b.png" alt="0.2b Tray, one problem" width="760" height="900"><div class="ov tray whole" style="left:3.684%;top:2.222%;width:92.632%;height:49.333%" data-region="0.2b T0" title="0.2b T0 · Whole tray"><span class="badge">T0 · Whole tray</span></div><div class="ov tray" style="left:4.342%;top:5.667%;width:38.158%;height:4.889%" data-region="0.2b T1" title="0.2b T1 · Summary lines"><span class="badge">T1 · Summary lines</span></div><div class="ov tray" style="left:4.342%;top:10.556%;width:38.158%;height:2.444%" data-region="0.2b T2" title="0.2b T2 · Exceptions"><span class="badge">T2 · Exceptions</span></div><div class="ov tray" style="left:4.342%;top:14.222%;width:38.158%;height:9.778%" data-region="0.2b T3" title="0.2b T3 · Speak to everyone"><span class="badge">T3 · Speak to everyone</span></div><div class="ov tray" style="left:4.342%;top:25.222%;width:38.158%;height:12.222%" data-region="0.2b T4" title="0.2b T4 · Detail"><span class="badge">T4 · Detail</span></div><div class="ov tray" style="left:4.342%;top:38.667%;width:38.158%;height:12.333%" data-region="0.2b T5" title="0.2b T5 · Agora itself"><span class="badge">T5 · Agora itself</span></div></div>
+</figure><figure class="ab" id="0.2c">
+<header><h3>0.2c · Tray, a Mac missing</h3></header>
+<div class="frame" style="width:760px"><img src="shots/0.2c.png" alt="0.2c Tray, a Mac missing" width="760" height="900"><div class="ov tray whole" style="left:3.684%;top:2.222%;width:92.632%;height:50.667%" data-region="0.2c T0" title="0.2c T0 · Whole tray"><span class="badge">T0 · Whole tray</span></div><div class="ov tray" style="left:4.342%;top:5.667%;width:38.158%;height:4.889%" data-region="0.2c T1" title="0.2c T1 · Summary lines"><span class="badge">T1 · Summary lines</span></div><div class="ov tray" style="left:4.342%;top:10.556%;width:38.158%;height:2.444%" data-region="0.2c T2" title="0.2c T2 · Exceptions"><span class="badge">T2 · Exceptions</span></div><div class="ov tray" style="left:4.342%;top:14.222%;width:38.158%;height:11.111%" data-region="0.2c T3" title="0.2c T3 · Speak to everyone"><span class="badge">T3 · Speak to everyone</span></div><div class="ov tray" style="left:4.342%;top:26.556%;width:38.158%;height:12.222%" data-region="0.2c T4" title="0.2c T4 · Detail"><span class="badge">T4 · Detail</span></div><div class="ov tray" style="left:4.342%;top:40.000%;width:38.158%;height:12.333%" data-region="0.2c T5" title="0.2c T5 · Agora itself"><span class="badge">T5 · Agora itself</span></div></div>
+</figure>
+<h2>Components</h2><div class="comps"><div class="comp" id="0.2.1"><h4>0.2.1 · Summary lines</h4><div class="states"><figure><img src="shots/components/0.2.1-all-well.png" alt="Summary lines, all well"><figcaption>all well</figcaption></figure><figure><img src="shots/components/0.2.1-one-problem.png" alt="Summary lines, one problem"><figcaption>one problem</figcaption></figure><figure><img src="shots/components/0.2.1-a-mac-missing.png" alt="Summary lines, a Mac missing"><figcaption>a Mac missing</figcaption></figure></div></div><div class="comp" id="0.2.2"><h4>0.2.2 · Exception row</h4><div class="states"><figure><img src="shots/components/0.2.2-a-checkout.png" alt="Exception row, a checkout"><figcaption>a checkout</figcaption></figure><figure><img src="shots/components/0.2.2-a-mac.png" alt="Exception row, a Mac"><figcaption>a Mac</figcaption></figure></div></div><div class="comp" id="0.2.3"><h4>0.2.3 · Speak to everyone</h4><div class="states"><figure><img src="shots/components/0.2.3-away-.png" alt="Speak to everyone, Away…"><figcaption>Away…</figcaption></figure><figure><img src="shots/components/0.2.3-i-m-back.png" alt="Speak to everyone, I&#x27;m back"><figcaption>I&#x27;m back</figcaption></figure></div></div></div>
+</div></body></html>

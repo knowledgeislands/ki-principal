@@ -1,0 +1,988 @@
+{
+  "stamp": "2026-11-06",
+  "source": "mock-ups from build/plan.py; not yet built",
+  "pages": [
+    {
+      "id": "0.1",
+      "title": "Shell: the window and its rail",
+      "artboards": [
+        {
+          "id": "0.1a",
+          "title": "Rail expanded, both Macs here",
+          "image": "shots/0.1a.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "N1",
+              "label": "Brand",
+              "x": 10,
+              "y": 14,
+              "w": 211,
+              "h": 52
+            },
+            {
+              "code": "N2",
+              "label": "Views",
+              "x": 10,
+              "y": 80,
+              "w": 211,
+              "h": 222
+            },
+            {
+              "code": "N3",
+              "label": "Later",
+              "x": 10,
+              "y": 316,
+              "w": 211,
+              "h": 90
+            },
+            {
+              "code": "N4",
+              "label": "Speak to everyone",
+              "x": 10,
+              "y": 686,
+              "w": 211,
+              "h": 99
+            },
+            {
+              "code": "N5",
+              "label": "The portal",
+              "x": 10,
+              "y": 798,
+              "w": 211,
+              "h": 48
+            }
+          ]
+        },
+        {
+          "id": "0.1b",
+          "title": "Rail contracted",
+          "image": "shots/0.1b.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "N1",
+              "label": "Brand",
+              "x": 10,
+              "y": 14,
+              "w": 39,
+              "h": 39
+            },
+            {
+              "code": "N2",
+              "label": "Views",
+              "x": 10,
+              "y": 67,
+              "w": 39,
+              "h": 244
+            },
+            {
+              "code": "N3",
+              "label": "Later",
+              "x": 10,
+              "y": 325,
+              "w": 39,
+              "h": 69
+            },
+            {
+              "code": "N4",
+              "label": "Speak to everyone",
+              "x": 10,
+              "y": 674,
+              "w": 39,
+              "h": 125
+            },
+            {
+              "code": "N5",
+              "label": "The portal",
+              "x": 10,
+              "y": 813,
+              "w": 39,
+              "h": 33
+            }
+          ]
+        },
+        {
+          "id": "0.1c",
+          "title": "Rail expanded, terra not heard from",
+          "image": "shots/0.1c.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "N1",
+              "label": "Brand",
+              "x": 10,
+              "y": 14,
+              "w": 211,
+              "h": 52
+            },
+            {
+              "code": "N2",
+              "label": "Views",
+              "x": 10,
+              "y": 80,
+              "w": 211,
+              "h": 222
+            },
+            {
+              "code": "N3",
+              "label": "Later",
+              "x": 10,
+              "y": 316,
+              "w": 211,
+              "h": 90
+            },
+            {
+              "code": "N4",
+              "label": "Speak to everyone",
+              "x": 10,
+              "y": 668,
+              "w": 211,
+              "h": 99
+            },
+            {
+              "code": "N5",
+              "label": "The portal",
+              "x": 10,
+              "y": 781,
+              "w": 211,
+              "h": 65
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "id": "0.1.1",
+          "title": "Brand",
+          "states": [
+            "expanded",
+            "contracted"
+          ]
+        },
+        {
+          "id": "0.1.2",
+          "title": "Views",
+          "states": [
+            "expanded",
+            "contracted"
+          ]
+        },
+        {
+          "id": "0.1.3",
+          "title": "Speak to everyone",
+          "states": [
+            "expanded",
+            "contracted"
+          ]
+        },
+        {
+          "id": "0.1.4",
+          "title": "The portal",
+          "states": [
+            "open",
+            "terra not heard from",
+            "away"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0.2",
+      "title": "Shell: the tray",
+      "artboards": [
+        {
+          "id": "0.2a",
+          "title": "Tray, all well",
+          "image": "shots/0.2a.png",
+          "size": {
+            "w": 760,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "T0",
+              "label": "Whole tray",
+              "x": 28,
+              "y": 20,
+              "w": 704,
+              "h": 422
+            },
+            {
+              "code": "T1",
+              "label": "Summary lines",
+              "x": 33,
+              "y": 51,
+              "w": 290,
+              "h": 44
+            },
+            {
+              "code": "T3",
+              "label": "Speak to everyone",
+              "x": 33,
+              "y": 106,
+              "w": 290,
+              "h": 88
+            },
+            {
+              "code": "T4",
+              "label": "Detail",
+              "x": 33,
+              "y": 205,
+              "w": 290,
+              "h": 110
+            },
+            {
+              "code": "T5",
+              "label": "Agora itself",
+              "x": 33,
+              "y": 326,
+              "w": 290,
+              "h": 111
+            }
+          ]
+        },
+        {
+          "id": "0.2b",
+          "title": "Tray, one problem",
+          "image": "shots/0.2b.png",
+          "size": {
+            "w": 760,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "T0",
+              "label": "Whole tray",
+              "x": 28,
+              "y": 20,
+              "w": 704,
+              "h": 444
+            },
+            {
+              "code": "T1",
+              "label": "Summary lines",
+              "x": 33,
+              "y": 51,
+              "w": 290,
+              "h": 44
+            },
+            {
+              "code": "T2",
+              "label": "Exceptions",
+              "x": 33,
+              "y": 95,
+              "w": 290,
+              "h": 22
+            },
+            {
+              "code": "T3",
+              "label": "Speak to everyone",
+              "x": 33,
+              "y": 128,
+              "w": 290,
+              "h": 88
+            },
+            {
+              "code": "T4",
+              "label": "Detail",
+              "x": 33,
+              "y": 227,
+              "w": 290,
+              "h": 110
+            },
+            {
+              "code": "T5",
+              "label": "Agora itself",
+              "x": 33,
+              "y": 348,
+              "w": 290,
+              "h": 111
+            }
+          ]
+        },
+        {
+          "id": "0.2c",
+          "title": "Tray, a Mac missing",
+          "image": "shots/0.2c.png",
+          "size": {
+            "w": 760,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "T0",
+              "label": "Whole tray",
+              "x": 28,
+              "y": 20,
+              "w": 704,
+              "h": 456
+            },
+            {
+              "code": "T1",
+              "label": "Summary lines",
+              "x": 33,
+              "y": 51,
+              "w": 290,
+              "h": 44
+            },
+            {
+              "code": "T2",
+              "label": "Exceptions",
+              "x": 33,
+              "y": 95,
+              "w": 290,
+              "h": 22
+            },
+            {
+              "code": "T3",
+              "label": "Speak to everyone",
+              "x": 33,
+              "y": 128,
+              "w": 290,
+              "h": 100
+            },
+            {
+              "code": "T4",
+              "label": "Detail",
+              "x": 33,
+              "y": 239,
+              "w": 290,
+              "h": 110
+            },
+            {
+              "code": "T5",
+              "label": "Agora itself",
+              "x": 33,
+              "y": 360,
+              "w": 290,
+              "h": 111
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "id": "0.2.1",
+          "title": "Summary lines",
+          "states": [
+            "all well",
+            "one problem",
+            "a Mac missing"
+          ]
+        },
+        {
+          "id": "0.2.2",
+          "title": "Exception row",
+          "states": [
+            "a checkout",
+            "a Mac"
+          ]
+        },
+        {
+          "id": "0.2.3",
+          "title": "Speak to everyone",
+          "states": [
+            "Away…",
+            "I'm back"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "title": "Home",
+      "artboards": [
+        {
+          "id": "1a",
+          "title": "The two squares",
+          "image": "shots/1a.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": true,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 256,
+              "y": 18,
+              "w": 1160,
+              "h": 31
+            },
+            {
+              "code": "P2",
+              "label": "The two squares",
+              "x": 256,
+              "y": 65,
+              "w": 784,
+              "h": 467
+            },
+            {
+              "code": "P3",
+              "label": "Needs a look",
+              "x": 1056,
+              "y": 65,
+              "w": 360,
+              "h": 153
+            },
+            {
+              "code": "P4",
+              "label": "Waits on you",
+              "x": 1056,
+              "y": 234,
+              "w": 360,
+              "h": 297
+            },
+            {
+              "code": "P5",
+              "label": "Just said",
+              "x": 256,
+              "y": 547,
+              "w": 1160,
+              "h": 271
+            }
+          ]
+        },
+        {
+          "id": "1b",
+          "title": "Figures and a table",
+          "image": "shots/1b.png",
+          "size": {
+            "w": 1440,
+            "h": 948
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 256,
+              "y": 18,
+              "w": 1160,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Summary figures",
+              "x": 256,
+              "y": 63,
+              "w": 1160,
+              "h": 70
+            },
+            {
+              "code": "P3",
+              "label": "Needs a look",
+              "x": 256,
+              "y": 149,
+              "w": 1160,
+              "h": 153
+            },
+            {
+              "code": "P4",
+              "label": "Agents by Mac",
+              "x": 256,
+              "y": 319,
+              "w": 1160,
+              "h": 601
+            }
+          ]
+        },
+        {
+          "id": "1c",
+          "title": "What's being said first",
+          "image": "shots/1c.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 256,
+              "y": 18,
+              "w": 1160,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "What's being said",
+              "x": 256,
+              "y": 63,
+              "w": 804,
+              "h": 524
+            },
+            {
+              "code": "P3",
+              "label": "Who is here",
+              "x": 1076,
+              "y": 63,
+              "w": 340,
+              "h": 524
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "id": "2.1",
+      "title": "Who's doing what",
+      "artboards": [
+        {
+          "id": "2.1a",
+          "title": "By Mac",
+          "image": "shots/2.1a.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": true,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 256,
+              "y": 18,
+              "w": 1160,
+              "h": 30
+            },
+            {
+              "code": "P2",
+              "label": "Agents by Mac",
+              "x": 256,
+              "y": 64,
+              "w": 1160,
+              "h": 591
+            },
+            {
+              "code": "P3",
+              "label": "Selected agent",
+              "x": 256,
+              "y": 671,
+              "w": 1160,
+              "h": 185
+            }
+          ]
+        },
+        {
+          "id": "2.1b",
+          "title": "By focus: the address book",
+          "image": "shots/2.1b.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 256,
+              "y": 18,
+              "w": 1160,
+              "h": 30
+            },
+            {
+              "code": "P2",
+              "label": "Focus areas and their agents",
+              "x": 256,
+              "y": 64,
+              "w": 1160,
+              "h": 645
+            },
+            {
+              "code": "P3",
+              "label": "Routing note",
+              "x": 256,
+              "y": 737,
+              "w": 1160,
+              "h": 17
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "id": "2.2",
+      "title": "An agent",
+      "artboards": [
+        {
+          "id": "2.2a",
+          "title": "ki.prj.agora",
+          "image": "shots/2.2a.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": true,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 256,
+              "y": 18,
+              "w": 1160,
+              "h": 31
+            },
+            {
+              "code": "P2",
+              "label": "Focus areas",
+              "x": 256,
+              "y": 65,
+              "w": 376,
+              "h": 312
+            },
+            {
+              "code": "P3",
+              "label": "Listening",
+              "x": 648,
+              "y": 65,
+              "w": 376,
+              "h": 312
+            },
+            {
+              "code": "P4",
+              "label": "With it now",
+              "x": 1040,
+              "y": 65,
+              "w": 376,
+              "h": 312
+            },
+            {
+              "code": "P5",
+              "label": "Said with it",
+              "x": 256,
+              "y": 393,
+              "w": 1160,
+              "h": 198
+            },
+            {
+              "code": "P6",
+              "label": "Waits on you",
+              "x": 256,
+              "y": 607,
+              "w": 1160,
+              "h": 259
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "id": "3.1",
+      "title": "What's being said",
+      "artboards": [
+        {
+          "id": "3.1a",
+          "title": "One record, newest first",
+          "image": "shots/3.1a.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": true,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 256,
+              "y": 18,
+              "w": 1160,
+              "h": 30
+            },
+            {
+              "code": "P2",
+              "label": "Everything said, newest first",
+              "x": 256,
+              "y": 64,
+              "w": 1160,
+              "h": 369
+            },
+            {
+              "code": "P3",
+              "label": "Layer note",
+              "x": 256,
+              "y": 461,
+              "w": 1160,
+              "h": 17
+            }
+          ]
+        },
+        {
+          "id": "3.1b",
+          "title": "By layer",
+          "image": "shots/3.1b.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 256,
+              "y": 18,
+              "w": 1160,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Durable: Git",
+              "x": 256,
+              "y": 63,
+              "w": 572,
+              "h": 300
+            },
+            {
+              "code": "P3",
+              "label": "Conversational: Agora",
+              "x": 844,
+              "y": 63,
+              "w": 572,
+              "h": 300
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "id": "3.2",
+      "title": "Broadcasts",
+      "artboards": [
+        {
+          "id": "3.2a",
+          "title": "Sent and heard",
+          "image": "shots/3.2a.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": true,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 256,
+              "y": 18,
+              "w": 1160,
+              "h": 31
+            },
+            {
+              "code": "P2",
+              "label": "Broadcasts sent",
+              "x": 256,
+              "y": 65,
+              "w": 764,
+              "h": 430
+            },
+            {
+              "code": "P3",
+              "label": "Who heard the ping",
+              "x": 1036,
+              "y": 65,
+              "w": 380,
+              "h": 430
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "id": "4.1",
+      "title": "Waits on you",
+      "artboards": [
+        {
+          "id": "4.1a",
+          "title": "By agent",
+          "image": "shots/4.1a.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": true,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 256,
+              "y": 18,
+              "w": 1160,
+              "h": 30
+            },
+            {
+              "code": "P2",
+              "label": "Queries by agent",
+              "x": 256,
+              "y": 64,
+              "w": 1160,
+              "h": 477
+            },
+            {
+              "code": "P3",
+              "label": "Answering note",
+              "x": 256,
+              "y": 569,
+              "w": 1160,
+              "h": 17
+            }
+          ]
+        },
+        {
+          "id": "4.1b",
+          "title": "Oldest first, all together",
+          "image": "shots/4.1b.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 256,
+              "y": 18,
+              "w": 1160,
+              "h": 30
+            },
+            {
+              "code": "P2",
+              "label": "Queries oldest first",
+              "x": 256,
+              "y": 64,
+              "w": 1160,
+              "h": 451
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "id": "5.1",
+      "title": "Macs and the portal",
+      "artboards": [
+        {
+          "id": "5.1a",
+          "title": "The two Macs and the portal",
+          "image": "shots/5.1a.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": true,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 256,
+              "y": 18,
+              "w": 1160,
+              "h": 31
+            },
+            {
+              "code": "P2",
+              "label": "The two squares",
+              "x": 256,
+              "y": 65,
+              "w": 1160,
+              "h": 405
+            },
+            {
+              "code": "P3",
+              "label": "sol, this Mac",
+              "x": 256,
+              "y": 486,
+              "w": 376,
+              "h": 236
+            },
+            {
+              "code": "P4",
+              "label": "The portal",
+              "x": 648,
+              "y": 486,
+              "w": 376,
+              "h": 236
+            },
+            {
+              "code": "P5",
+              "label": "terra",
+              "x": 1040,
+              "y": 486,
+              "w": 376,
+              "h": 236
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "id": "5.2",
+      "title": "Checkouts",
+      "artboards": [
+        {
+          "id": "5.2a",
+          "title": "Not level, side by side",
+          "image": "shots/5.2a.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": true,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 256,
+              "y": 18,
+              "w": 1160,
+              "h": 31
+            },
+            {
+              "code": "P2",
+              "label": "Checkouts by repository",
+              "x": 256,
+              "y": 65,
+              "w": 1160,
+              "h": 221
+            },
+            {
+              "code": "P3",
+              "label": "Selected checkout",
+              "x": 256,
+              "y": 302,
+              "w": 1160,
+              "h": 98
+            }
+          ]
+        }
+      ],
+      "components": []
+    }
+  ]
+}
