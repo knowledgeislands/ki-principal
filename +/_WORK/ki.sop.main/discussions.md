@@ -292,7 +292,7 @@ focus: _emerging
 
 **Options:**
 
-a) (recommended, confidence low - the Inbox's own proposal; unreviewed) Meaning-based names stay Stoa's product defaults, each resolving to one source-qualified identity, and the card says so.
+a) (recommended, confidence medium - reviewed: an independent reviewer chose the same, since the icon identity card already separates product defaults from configured choices) Meaning-based names stay Stoa's product defaults, each resolving to one source-qualified identity, and the card says so.
 
 b) Cards use only the source-qualified name, and Stoa's meaning-based names stay inside Stoa.
 
@@ -306,7 +306,7 @@ focus: _emerging
 
 **Options:**
 
-a) (recommended, confidence low - a generic link says little and is cheap to re-add once the standard names its predicates; unreviewed) Prune the defaults at pull, keeping only links the card's text supports.
+a) (recommended, confidence medium - reviewed: an independent reviewer chose the same, since the staged Semantic Markdown card says an unannotated link must not acquire an invented predicate) Prune the defaults at pull, keeping only links the card's text supports.
 
 b) Keep them all and let tending prune them later.
 
@@ -320,7 +320,7 @@ focus: _emerging
 
 **Options:**
 
-a) (recommended, confidence low - keeps the work cards together beside the Work Process they extend; unreviewed) Pull them into `knowledge/work/`, each linking to the Work Process note.
+a) (recommended, confidence medium - reviewed: an independent reviewer chose the same, as separate cards keep unaccepted proposals out of the canonical Work Process note) Pull them into `knowledge/work/`, each linking to the Work Process note.
 
 b) Fold their content into the Work Process note through an Enactment record instead of pulling them as cards.
 
