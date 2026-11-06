@@ -32,6 +32,9 @@ Study indicates a proposal for review.
 | [portal-household.png](portal-household.png) | 2026-11-06 | Matching Household gates showing each plane’s crew to the other | MSG-db6748b7 PORTAL and MSG-c99eabc1 PLANES | Study |
 | [portal-map.png](portal-map.png) | 2026-11-06 | Two planes with matching islands, summit routes, principal relays and a great portal | MSG-c99eabc1 PLANES and MSG-f26e70e4 SUMMIT-PORTALS | Study |
 | [portal-map.svg](portal-map.svg) | 2026-11-06 | Two planes with matching islands, summit routes, principal relays and a great portal | MSG-c99eabc1 PLANES and MSG-f26e70e4 SUMMIT-PORTALS | Study |
+| [portal-mirrored-planes.png](portal-mirrored-planes.png) | 2026-11-06 | Mirrored realms with minor, Principal and great portals at three scales | Kris’s mirrored planes and three portal levels brief | Study |
+| [portal-routing.png](portal-routing.png) | 2026-11-06 | Separate summit, Principal and planar portals with routes on Sol and Terra | Kris’s summit, Principal and planar routing clarification | Study |
+| [portal-routing.svg](portal-routing.svg) | 2026-11-06 | Separate summit, Principal and planar portals with routes on Sol and Terra | Kris’s summit, Principal and planar routing clarification | Study |
 | [portal-summit.png](portal-summit.png) | 2026-11-06 | Agora on the slope and a summit beacon linking two islands | MSG-f26e70e4 SUMMIT-PORTALS | Study |
 | [portal-two-planes.png](portal-two-planes.png) | 2026-11-06 | The same islands in two planes joined by paired great portals | MSG-c99eabc1 PLANES | Study |
 | [slide-arrival.png](slide-arrival.png) | 2026-11-06 | Citizens coming ashore and approaching the ring | Initial illustrator brief | Study |

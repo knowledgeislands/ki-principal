@@ -46,3 +46,9 @@ Kris's picture, played back; his photograph of the islands laid out on the carpe
 - **Within a territory:** point to point, summit to summit.
 - **To another territory:** through the leader present in the agora on the territory's principal island, who passes it on.
 - **Between planes:** the mega portal, which stands in the same place in every plane, on the dotfiles island in the Personal territory, where the household lives.
+
+## The three portals (Kris, about 05:05 GMT)
+
+1. **Summit portal:** every island has one; islands in the same territory connect summit to summit.
+2. **Principal portal:** a territory's principal island's summit portal also liaises with the other territories' principal portals, across territories in the same plane (one rig).
+3. **Planar portal:** a special portal on the dotfiles island in the Personal territory, on each plane, talks through the fabric of space to its counterpart on every other plane.
