@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="36" viewBox="0 0 96 36" role="img" aria-labelledby="title">
+  <title id="title">Skill sub-badge frame</title>
+  <desc>Editable frame with an empty field for a short label or a glyph.</desc>
+  <path d="M9 3h78l8 8v15l-8 8H9l-8-8V11z" fill="#193e40"/>
+  <path d="M9 1h78l8 8v14l-8 8H9l-8-8V9z" fill="#31565a" stroke="#193e40" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M12 6h72l6 6v8l-6 6H12l-6-6v-8z" fill="#f4e4bf" stroke="#c99248" stroke-width="1.25"/>
+  <path d="m13 13 3 3-3 3-3-3zm70 0 3 3-3 3-3-3z" fill="#a66b2c"/>
+  <g id="skill-content" fill="#24494a"><!-- Content safe area x=21..75, y=8..24; centre x=48, y=16. --></g>
+</svg>

@@ -52,3 +52,17 @@ Study indicates a proposal for review. Keeper indicates a direction endorsed by 
 | [slide-call.png](slide-call.png) | 2026-11-06 | One citizen calls another across the ring | Initial illustrator brief | Study |
 | [slide-in-step.png](slide-in-step.png) | 2026-11-06 | Matched island rings with a shared crossing | Initial illustrator brief | Study |
 | [slide-record.png](slide-record.png) | 2026-11-06 | News announced and written in a ledger | Initial illustrator brief | Study |
+| [agora-beacon-template-16.png](badges/agora-beacon-template-16.png) | 2026-11-06 | Agora Atlas badge or app mark | MSG-ILL-BADGES | Study |
+| [agora-beacon-template-32.png](badges/agora-beacon-template-32.png) | 2026-11-06 | Agora Atlas badge or app mark | MSG-ILL-BADGES | Study |
+| [agora-beacon-template.svg](badges/agora-beacon-template.svg) | 2026-11-06 | Agora Atlas badge or app mark | MSG-ILL-BADGES | Study |
+| [agora-lantern-1024.png](badges/agora-lantern-1024.png) | 2026-11-06 | Agora Atlas badge or app mark | MSG-ILL-BADGES | Study |
+| [agora-lantern.svg](badges/agora-lantern.svg) | 2026-11-06 | Agora Atlas badge or app mark | MSG-ILL-BADGES | Study |
+| [guild-acquire.svg](badges/guild-acquire.svg) | 2026-11-06 | Agora Atlas badge or app mark | MSG-ILL-BADGES | Study |
+| [guild-agentic-systems.svg](badges/guild-agentic-systems.svg) | 2026-11-06 | Agora Atlas badge or app mark | MSG-ILL-BADGES | Study |
+| [guild-change-management.svg](badges/guild-change-management.svg) | 2026-11-06 | Agora Atlas badge or app mark | MSG-ILL-BADGES | Study |
+| [guild-design.svg](badges/guild-design.svg) | 2026-11-06 | Agora Atlas badge or app mark | MSG-ILL-BADGES | Study |
+| [guild-environment.svg](badges/guild-environment.svg) | 2026-11-06 | Agora Atlas badge or app mark | MSG-ILL-BADGES | Study |
+| [guild-governance.svg](badges/guild-governance.svg) | 2026-11-06 | Agora Atlas badge or app mark | MSG-ILL-BADGES | Study |
+| [guild-keystone.svg](badges/guild-keystone.svg) | 2026-11-06 | Agora Atlas badge or app mark | MSG-ILL-BADGES | Study |
+| [guild-repo-structure.svg](badges/guild-repo-structure.svg) | 2026-11-06 | Agora Atlas badge or app mark | MSG-ILL-BADGES | Study |
+| [skill-badge-frame.svg](badges/skill-badge-frame.svg) | 2026-11-06 | Agora Atlas badge or app mark | MSG-ILL-BADGES | Study |
