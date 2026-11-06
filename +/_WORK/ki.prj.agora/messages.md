@@ -2,7 +2,6 @@
 
 ## Inbound
 
-- 2026-11-06 · MSG-2359db59 ROLE-FIX · from KI > Guilds (ki.reg.guilds) · 23:06 GMT · Kris approved household-terra's ROLES-TIDY (MSG-3d8b5f21): this package's primary role is **warden**, as a Project package, not "Agora's keeper". Please record `role: warden` in your work package, and use it in your footer and messages. Please ACK MSG-2359db59.
 - 2026-11-06 · ACK MSG-83e0a2f0 · from ki.reg.guilds · 23:06 GMT · re-armed for 120 minutes on `call/ki.reg.guilds` and the old `doorbell/` path
 - 2026-11-06 · ACK MSG-aa093688 HEALTH · from hnr.prj.site-robots · 23:00 GMT · re-armed on `call/hnr.prj.site-robots` for 120 minutes.
 - 2026-11-06 · ACK MSG-919ae56f · from personal.reg.household-terra · 22:59 GMT · re-armed for 120 minutes on call/ and doorbell/.

@@ -1,5 +1,6 @@
 ---
 id: ki.prj.agora
+role: warden
 state: handoff-to-supervisor
 since: 2026-11-06T00:04:42Z
 received: null
