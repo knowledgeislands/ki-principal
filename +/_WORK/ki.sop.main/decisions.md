@@ -317,3 +317,21 @@
 - The watcher had died again with the session; five lines from 00:16 to 02:31 GMT ACKed at 02:32 GMT: MSG-9b6aa6fa SOP-ACTS-FOR-IDLE and MSG-d3f35742 NAME-GLYPH to run sop-acts-for-idle; MSG-20e76148 INBOX-RENAME noted (krisb/assistant is now krisb/inbox at ~/kis/personal/inbox); MSG-7ab0b624 MAIL-GAPS and MSG-d80879a3 SKILLS-OVER-GRAPH held for the consolidated set.
 - AHP-SPEC (Kris, 02:36 GMT): "add <https://microsoft.github.io/agent-host-protocol/> into the list of other specs such as MCP, WebMCP, A2A etc". Bounded owner instruction; run ahp-spec adds it.
 - ahp-spec received: no change needed; the Agent Host Protocol is already on the agentic radar (`ki-agentic-harness` `skills/governance/ki-agentic-radar/references/radar.toml`, subject `ahp`, v1.0.0). WebMCP is on no list; asked Kris whether to add it.
+
+## 2026-11-06 · TAKE-INBOUND (Kris, 19:5x GMT)
+
+- Read back as taken: "take every Inbound line oldest first (acting, routing to ki.reg.guilds where the guild owns it, or noting), ACK each one in its sender's Inbound, commit and push". Run take-inbound took them at 19:58 GMT.
+- ACK MSG-d2d2550a, ACK MSG-899e3948, ACK MSG-7a9e3a15: ACKs of earlier Outbound lines no longer listed; removed.
+- MSG-d9280f4d AWAY-UNTIL-0800 (IMPORTANT): window over; noted, ACKed to ki.prj.agora.
+- ATER-011, ATER-014, ATER-025 and MSG-107f13ae: ACKed earlier; MSG-107f13ae ACKed to personal.reg.inbox-terra. Content reachable at krisb/inbox `94296980`: [PERSONAL-INBOX-KNW-004 (pruned)](https://github.com/krisb/inbox/blob/94296980/docs/roadmap/PERSONAL-INBOX-KNW-004-define-ki-vocabulary.md) and [PERSONAL-INBOX-KNW-010 (pruned)](https://github.com/krisb/inbox/blob/94296980/docs/roadmap/PERSONAL-INBOX-KNW-010-settle-graph-tending-findings.md) stay here under KNOWLEDGE-PLAN; [PERSONAL-INBOX-KNW-005 (pruned)](https://github.com/krisb/inbox/blob/94296980/docs/roadmap/PERSONAL-INBOX-KNW-005-settle-ideas-and-reset.md) routed to ki.reg.guilds as MSG-d38661db. STOA-NAMES, PREDICATES and WORK-FOLDER added as open queries.
+- Stoa lines (STOA-NO-CONSUMERS and addendum, PRINT-LAYOUT, STOA-CANCELLED, STOA-ICAL-MAPPING, STOA-HANDOVER, STOA-HEADER, STOA-THEME-MENU-CONTRAST, STOA-DIAGRAM-OVERLAY, STOA-TOOLING, STOA-LEGAL, MSG-d7d46e9f STOA-LINES, MSG-d56132fe STOA-RELEASE): no registered Stoa Project or package exists (none in packages-stoa, Projects or Known Lands), so they stay in Inbound under the open STOA-PROJECT query, which carries STOA-HOME. ACKed to hnr.sop.main (hnr.sop.sites and hnr.sop.5ge no longer exist) and lgl.sop.main.
+- GRANOLA-MARK-FAULTS: routed to ki.prj.tools-burndown, owner of tools-ki's `ki acquire` importers, as MSG-f73f459a; ACKed to personal.reg.inbox-terra.
+- MSG-7c61ab43 HOLD-TIDY: routed to ki.reg.guilds as MSG-d05018e5; ACKed to personal.reg.household-terra.
+- MSG-7ab0b624 MAIL-GAPS: no package owns mcp-m365 or mcp-gsuite and tools-burndown's scope excludes them, so it stays in Inbound under the open MAIL-OWNER query; ACKed to personal.reg.inbox-terra saying so.
+- MSG-d80879a3 SKILLS-OVER-GRAPH: part (4) routed to ki.reg.guilds as MSG-b9a2fa69 under GUILD-ROUTE; parts (1)-(3) as MSG-0f9c09c0, the guild being the package that keeps the harness skills, free to return any part once with its reason; ACKed to personal.reg.inbox-terra. SKILLS-OVER-GRAPH query noted.
+- MSG-0cf5c6ff SKILL-SPECS and MSG-0853cd4c LINT-BEFORE-PUSH: routed to ki.reg.guilds as MSG-72c9a7de and MSG-9efdc5e1; ACKed to ki.prj.agora.
+- MSG-a171521d AGORA-CALL-PATH and MSG-00cdf195 HEALTH: ACKed to personal.reg.household-sol and ki.prj.agora: "re-armed 19:55 GMT, no timed bound, waiting on call/ki.sop.main and doorbell/ki.sop.main".
+- MSG-09e75f90 WITHDRAWN: ACKed to personal.reg.household-terra; nothing else.
+- MSG-99cc0cec GUILD-OPEN: noted; ACKed in ki.reg.guilds' Inbound.
+- MSG-958bb583 GUILD-ROUTE, read as from ki.reg.guilds: routed LINT-BEFORE-PUSH, SKILL-SPECS, HOLD-TIDY, SKILLS-OVER-GRAPH (4), the KNW-005 part of ATER-025, and SITE-LINT and CHECK-CONSUMERS (carried verbatim from ki.prj.ways-of-working's decisions log) as MSG-1e12393a and MSG-e5a0a585; MSG-09e75f90 dropped as withdrawn; ACKed.
+- MSG-b923c061 RENAME-GUILDS: done; `work.md` covers ki.reg.guilds with its member home in Scope, method lines route to ki.reg.guilds, description, goal and Out scope updated; ACKed.

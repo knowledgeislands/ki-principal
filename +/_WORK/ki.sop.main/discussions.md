@@ -22,13 +22,13 @@ c) Keep the autostash setting and rely on every session overriding it on each pu
 
 focus: _emerging
 
-**Context:** Covers STOA-HOME and the eleven Stoa lines waiting in `messages.md`. On 31 October HNR's State of play wrote that you chose to split HNR's portal-framework work: the Stoa part moves to Knowledge Islands, which owns `knowledgeislands/packages-stoa`, and HNR keeps the humansnotrobots.be platform; on 2 November you confirmed hnr.prj.portal-framework concluded (PORTAL-CLOSE). Waiting for a Stoa work: STOA-NO-CONSUMERS and its addendum (your 1 November words: no list of consumers in Stoa; discover them by scanning the local estate), PRINT-LAYOUT, STOA-CANCELLED, STOA-ICAL-MAPPING, STOA-HANDOVER, STOA-HEADER, STOA-THEME-MENU-CONTRAST, STOA-DIAGRAM-OVERLAY, STOA-TOOLING and STOA-LEGAL (Kit's Legal Command Centre), plus the STOA-ICONS lines routed on 30 October. HNR wants the package id back in hnr.sop.sites' `messages.md`. On 30 October you called the Project cap guidance rather than a limit.
+**Context:** Covers STOA-HOME and the thirteen Stoa lines waiting in `messages.md`, two of them new on 6 November: STOA-LINES (two Stoa defects and HNR's shared page-type proposal) and STOA-RELEASE (your word to release Stoa 0.32.0, which HNR's roll-out waits on). Every sender was told on 6 November that the lines wait here for this answer. On 31 October HNR's State of play wrote that you chose to split HNR's portal-framework work: the Stoa part moves to Knowledge Islands, which owns `knowledgeislands/packages-stoa`, and HNR keeps the humansnotrobots.be platform; on 2 November you confirmed hnr.prj.portal-framework concluded (PORTAL-CLOSE). Waiting for a Stoa work: STOA-NO-CONSUMERS and its addendum (your 1 November words: no list of consumers in Stoa; discover them by scanning the local estate), PRINT-LAYOUT, STOA-CANCELLED, STOA-ICAL-MAPPING, STOA-HANDOVER, STOA-HEADER, STOA-THEME-MENU-CONTRAST, STOA-DIAGRAM-OVERLAY, STOA-TOOLING and STOA-LEGAL (Kit's Legal Command Centre), plus the STOA-ICONS lines routed on 30 October. HNR wants the package id back in hnr.sop.sites' `messages.md`. On 30 October you called the Project cap guidance rather than a limit.
 
 **Query:** Should State of play register a Stoa Project and seed its package on hold, ready for you to open?
 
 **Options:**
 
-a) (recommended, confidence high - it follows your own split decision, and seeding on hold opens no thread and starts no work) A run registers the Stoa Project, seeds `ki.prj.stoa` on hold until you open it, queues the eleven Stoa lines and STOA-ICONS as its first messages, and replies to hnr.sop.sites with the id.
+a) (recommended, confidence high - it follows your own split decision, and seeding on hold opens no thread and starts no work) A run registers the Stoa Project, seeds `ki.prj.stoa` on hold until you open it, queues the thirteen Stoa lines and STOA-ICONS as its first messages, and replies to hnr.sop.sites with the id.
 
 b) Register and open it now as an active Project thread.
 
@@ -164,7 +164,7 @@ c) Leave each to its owning Project when it next opens.
 
 focus: _emerging
 
-**Context:** Covers the new SKILLS-OVER-GRAPH line (Inbox terra, 6 November about 02:05 to 02:28 GMT): reusable capability is canonicalised as skills, not embedded in the knowledge graph ("separate out things that are versus things that can inform"). Four asks: (1) a `ki-dodecakrisis` skill for D12, seeded from the Inbox's D12 card, sorting design and trial findings in krisb/inbox; (2) the knowledge-graph method written as a skill; (3) later, a legal skill for evidential material, from the Inbox's `evidential-nodes.md` card ("sometimes you can't just break every input up into smaller pieces"); (4) a `specs-` reference kind beside `standards-` in a skill's references, with `ki-specs` rethought towards succinct understanding rather than test lists. You also said you need to get Knowledge Islands Principal working again. The Inbox keeps its working notes until each skill exists and wants a reply naming where each lands. The knowledge plan already has the harness carry the graph standard in `ki-repo-kb`. These placements are State of play's proposal and have not been blind reviewed.
+**Context:** Covers the new SKILLS-OVER-GRAPH line (Inbox terra, 6 November about 02:05 to 02:28 GMT): reusable capability is canonicalised as skills, not embedded in the knowledge graph ("separate out things that are versus things that can inform"). Four asks: (1) a `ki-dodecakrisis` skill for D12, seeded from the Inbox's D12 card, sorting design and trial findings in krisb/inbox; (2) the knowledge-graph method written as a skill; (3) later, a legal skill for evidential material, from the Inbox's `evidential-nodes.md` card ("sometimes you can't just break every input up into smaller pieces"); (4) a `specs-` reference kind beside `standards-` in a skill's references, with `ki-specs` rethought towards succinct understanding rather than test lists. You also said you need to get Knowledge Islands Principal working again. The Inbox keeps its working notes until each skill exists and wants a reply naming where each lands. The knowledge plan already has the harness carry the graph standard in `ki-repo-kb`. These placements are State of play's proposal and have not been blind reviewed. On 6 November all four parts went to ki.reg.guilds' `messages.md` under GUILD-ROUTE and your brief, so the guild now proposes their homes; this query can be cleared once it does.
 
 **Query:** Should the four skills land as proposed?
 
@@ -281,6 +281,48 @@ focus: _emerging
 a) (recommended, confidence high - reviewed: an independent reviewer chose the same; owner review can resume now) Resume Portable specifications only: put SPEC-TEXT and HOMING-EDITS to you, then plan its harness records.
 
 b) Keep all three paused until the open method queries are settled.
+
+### STOA-NAMES - How icon cards name icons
+
+focus: _emerging
+
+**Context:** From the Inbox (ATER-011, 5 November, parked since 3 November), for the graph standard's icon cards, taken with the pull of the iconography cards. Stoa's icon mapping gives icons meaning-based names (`refresh-cw` for Phosphor's `arrows-clockwise`), while the staged icon-identities card says every icon reference names its source library, with no aliases across libraries. The two rules disagree for any card that names a Stoa icon.
+
+**Query:** Which name should an icon card use for an icon?
+
+**Options:**
+
+a) (recommended, confidence low - the Inbox's own proposal; unreviewed) Meaning-based names stay Stoa's product defaults, each resolving to one source-qualified identity, and the card says so.
+
+b) Cards use only the source-qualified name, and Stoa's meaning-based names stay inside Stoa.
+
+### PREDICATES - Keep the default related-links the tidy added
+
+focus: _emerging
+
+**Context:** From the Inbox (ATER-014, 5 November): its tidy of the 41 Knowledge Islands cards staged for the knowledge folder's phase 1 added a default `skos:related` link entry (a generic "is related to" link) wherever a card had no more specific link. Kris left keeping or pruning them to the node standard. The knowledge design note expects `skos:related` for links into Resources.
+
+**Query:** Should the pull keep the default related-links or prune them?
+
+**Options:**
+
+a) (recommended, confidence low - a generic link says little and is cheap to re-add once the standard names its predicates; unreviewed) Prune the defaults at pull, keeping only links the card's text supports.
+
+b) Keep them all and let tending prune them later.
+
+### WORK-FOLDER - Where the six work-related cards go
+
+focus: _emerging
+
+**Context:** From the Inbox (ATER-014, 5 November): six of the staged cards are about work rather than knowledge (workers, glyphs, refining decisions, the change-log graph, value-chain attribution, pioneering through practice). Kris left their place to the folder layout, asking whether they go to `knowledge/work/`. The Work Process note in Pillars already owns the model of work.
+
+**Query:** Where should the six work-related cards land at pull?
+
+**Options:**
+
+a) (recommended, confidence low - keeps the work cards together beside the Work Process they extend; unreviewed) Pull them into `knowledge/work/`, each linking to the Work Process note.
+
+b) Fold their content into the Work Process note through an Enactment record instead of pulling them as cards.
 
 ## Parked
 
