@@ -29,8 +29,8 @@ created_at: 2026-11-03T22:50:53Z
 
 ## Focus
 
-1. `_emerging` — what has not yet been named as a focus theme.
-2. `send` — Agora's send side for the KIV Electron app and waking Orca chat threads.
+1. `send` ⭐ — the mark broadcast, then the KIV send side and waking Orca chats.
+2. `jobs` — running the rig's scheduled jobs, switching Claude accounts and keeping the host awake.
 3. `voice` — the voice bard path.
-4. `jobs` — the run-once jobs register with personal.reg.household-sol.
-5. `identity` — Agora's identity design and its designer doer.
+4. `identity` — Agora's look in the tray and its designer doer.
+5. `_emerging` — what has not yet been named as a focus theme.

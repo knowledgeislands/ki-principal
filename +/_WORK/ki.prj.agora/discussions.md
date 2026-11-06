@@ -34,20 +34,6 @@ b) Tray marker and Observatory only.
 
 c) A daily summary line in the morning report only.
 
-### SCHED-FOCUS-HOST - Does the focus bound cover terra
-
-focus: jobs · since 2026-11-06 · from scheduler-draft
-
-**Context:** The [Techne Programme Focus](/Users/krisbrown/kis/knowledge-islands/ki-principal/Admin/Governance/Policies/Techne%20Programme%20Focus.md) rules out unattended or scheduled agents on its two hosts, sol and vega. Today's agent jobs run unattended on terra under launchd, outside those named hosts. The brief holds every agent job back until FOCUS-FIT is answered.
-
-**Query:** When Agora runs an agent job on terra, does the focus bound apply?
-
-**Options:**
-
-a) (recommended, confidence medium - it keeps one rule for anything Agora starts, whichever Mac it is on) Yes. Any job Agora runs that starts an agent waits for your FOCUS-FIT answer or an Enactment decision, on every Mac.
-
-b) No. The bound covers sol and vega only, so terra's agent jobs may move under Agora as they run today.
-
 ### SCHED-PAUSED - How a paused job is declared
 
 focus: jobs · since 2026-11-06 · from scheduler-draft
@@ -195,22 +181,6 @@ a) (recommended, confidence medium - the only line another thread is blocked on)
 b) Plan KI-AGORA-APP-001, package and relaunch, so every later slice ships through a packaged app.
 
 c) Start ORCA-WAKE, waking Orca chat threads (Orca #33114).
-
-### FOCUS-FIT - Agora waking workers within the Techne focus
-
-focus: _emerging · since 2026-11-03 · from ki.sop.main FOCUS-FIT
-
-**Context:** Agora sits under theme Techne beside ki.prj.agent-host. The [Techne Programme Focus](/Users/krisbrown/kis/knowledge-islands/ki-principal/Admin/Governance/Policies/Techne%20Programme%20Focus.md) lets agents run on sol and vega "only in sessions the binding owner opens, no unattended or scheduled agents". [KI-AGORA-WRK-001](/Users/krisbrown/kis/knowledge-islands/apps-agora.local/docs/roadmap/KI-AGORA-WRK-001-wake-workers.md) has Agora start or steer runs through `ki agent`, which an always-on app would do without a session you opened.
-
-**Query:** How does Agora waking workers fit the Techne focus?
-
-**Options:**
-
-a) (recommended, confidence high - a blind review chose the same course, and it keeps the policy as it stands) Agora may wake threads and runs you opened; starting fresh runs from standing briefs waits for your decision through the Enactment Process.
-
-b) Amend the Techne Programme Focus through the Enactment Process to allow Agora-started runs on sol and vega within named bounds.
-
-c) Park KI-AGORA-WRK-001 until the agent-host work settles.
 
 ### AGORA-COUNT-PLACE - Where the group count goes when the identity design lands
 

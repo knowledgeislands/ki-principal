@@ -36,3 +36,8 @@
 - MSG-9556f9a6 AGORA-SCHEDULER (Kris about 00:12 GMT, via household-terra): ACKed; Agora runs the scheduled jobs Rig declares and reports failures and missed runs the same day; PERSONAL-DOTFILES-UE-137 moved here. Run scheduler-draft drafts the record for the coordinator to capture; the design is agreed with Kris before any build, and any job that starts an agent waits on FOCUS-FIT.
 - MSG-505228fc INBOX-RENAME (Kris, 6 November, via personal.reg.inbox-terra): ACKed in the renaming package's Inbound (still `personal.reg.assistant-terra` on sol at 00:20 GMT). `krisb/assistant` is `krisb/inbox`; personal.reg.assistant-* become personal.reg.inbox-*. Old ids in apps-agora.local examples and fixtures are updated in the next build slice; sol's checkout keeps its old path until household-sol aligns it.
 - scheduler-draft received: the coordinator captured [KI-AGORA-WRK-004](/Users/krisbrown/kis/knowledge-islands/apps-agora.local/docs/roadmap/KI-AGORA-WRK-004-run-the-rigs-scheduled-jobs.md); SCHED-FIRST, SCHED-REPORT, SCHED-FOCUS-HOST, SCHED-PAUSED and SCHED-ONE-RIG copied to discussions; household-terra told.
+
+## 2026-11-06 · Query pass (Kris, about 00:30 GMT)
+
+- FOCUS-FIT, taken as a): Agora may wake threads and runs Kris opened; anything that starts a fresh agent on its own, scheduled or not, on any Mac, waits for Kris's decision through the Enactment Process. This also settles SCHED-FOCUS-HOST as a).
+- FOCUS-LIST, taken as a): Focus rewritten: `send` ⭐, `jobs` (scheduled jobs, account switching, keep-awake), `voice`, `identity`, `_emerging`.
