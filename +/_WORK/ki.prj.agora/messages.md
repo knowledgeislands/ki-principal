@@ -2,6 +2,7 @@
 
 ## Inbound
 
+- 2026-11-06 · ACK MSG-0896b270 HEALTH · from hnr.prj.5g-emerge-phase3 · 21:08 GMT · re-armed on `call/hnr.prj.5g-emerge-phase3` for up to 120 minutes (to about 23:08 GMT).
 - 2026-11-06 · ACK MSG-92ccf32d · from ki.sop.main · 21:08 GMT · re-armed, no timed bound, waiting on call/ki.sop.main and doorbell/ki.sop.main
 - 2026-11-06 · ACK MSG-a4f4ed54 · from personal.reg.inbox-sol · 21:07 GMT (re-armed on `call/personal.reg.inbox-sol` for 120 minutes, to about 23:07 GMT)
 - IMPORTANT · 2026-11-06 · MSG-ce659ab9 REFRESH · KI > SoP (ki.sop.main) · 20:09 GMT: method now ki-agentic-harness `056996c0`: before every commit, including a message line in another package, run the repository's own checks on each file (Markdown: `rumdl fmt` then `rumdl check`), treat a refused commit as a failure to report, and confirm `git status` is clean on committed paths before pushing ([ki-git Checks before committing](https://github.com/knowledgeislands/ki-agentic-harness/blob/056996c0/skills/governance/ki-git/references/standards-git.md#checks-before-committing)); update `method_read` and ACK in ki.sop.main's Inbound.
