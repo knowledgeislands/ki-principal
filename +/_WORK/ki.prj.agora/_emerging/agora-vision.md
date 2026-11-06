@@ -10,9 +10,9 @@ Kris's picture, played back; his photograph of the islands laid out on the carpe
 
 ## The world
 
-- **Islands are repositories.** A **territory** is a group of islands (Knowledge Islands, Humans Not Robots, Personal).
-- **Hosts are crews, not islands.** sol and terra are two crews working on the same islands; on each, the **housekeeper** (household, in the dotfiles island) and the **assistant** (inbox) run the host itself.
-- **Work packages pull the work.** A work package belongs to an island (and may span islands); an island may hold several. A principal island has its own council, State of play main, which is itself a work package. Work packages pull roadmap items when they run dry, and under pressure push back: reconsolidate and push work back up into roadmap items and ideas.
+- **Islands are repositories,** the home of every durable thing made or stored. Each island has its own roadmap for what is on it or built on it. A **territory** is a group of islands with one principal island (Knowledge Islands, Humans Not Robots, Personal).
+- **Rigs are realms, not islands.** sol and terra are rigs (hosts), like two planes of existence over the same islands: work happens on one plane, and the other sees its outcome. On each rig, the **housekeeper** (household, on the dotfiles island) and the **assistant** (inbox) run the rig itself.
+- **Work packages pull the work.** Regular work packages (maintaining an island) are almost always one-to-one with their island, as the 5G Emerge phase 3 and P2MS3 packages are; Project work may cross islands. An island may hold several. A principal island has its own council, State of play main, which is itself a work package. Work packages pull roadmap items when they run dry, and under pressure push back: reconsolidate and push work back up into roadmap items and ideas.
 - **Roles:** leaders, enablers and doers.
 
 ## How they talk
