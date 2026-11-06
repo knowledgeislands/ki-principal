@@ -42,7 +42,7 @@ Knowledge Islands Principal gains a top-level `knowledge/` graph beside `Pillars
 2. Pull the assistant's 41 staged cards into `knowledge/knowledge-graph/`, `knowledge/knowledge-tending/`, `knowledge/iconography/` and `knowledge/ethical-knowledge/`, each folder with its `_index.md`. Each card keeps its `id` and links; `island` and `territory` stay; `status` stays as the card had it, so a `proposal` card arrives as a proposal, not as settled practice.
 3. Where a pulled card overlaps a Pillars page (the capture funnel against the Work Process and Acquisition material is the clearest case), the node links to the page as a legacy note; nothing in Pillars changes in this phase.
 4. Declare the first attachment points: only the cards Kris names (query ATTACH-SET), recommended to be the three the proposal's picture shows, the capture funnel, the knowledge graph and the work process once it is pulled.
-5. Send `personal.reg.assistant-terra` one line naming the canonical paths, so the assistant replaces its copies with shadow nodes under its own `context/`. The assistant owns that change.
+5. Send `personal.reg.inbox-terra` one line naming the canonical paths, so the assistant replaces its copies with shadow nodes under its own `context/`. The assistant owns that change.
 
 ### Phase 2 - progressive (one record per Pillars subtree)
 

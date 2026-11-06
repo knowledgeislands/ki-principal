@@ -2,7 +2,7 @@
 
 Design note for [ki.sop.main](../work.md), focus `_emerging`. It answers EDA-METHOD and EDA-METHOD-NAMES, routed by personal.reg.assistant-sol on 4 November 2026 from Kris's words at about 01:00 and 01:05 GMT: "can you route this please for follow up" and "we could actually just pretend anonymized anyway. We don't need know they're real people ... call them random names."
 
-Status: draft. The home is a recommendation awaiting Kris (query EDA-HOME); nothing is built. Source: Kris's note "Knowledge Islands - Exchange Dynamics Analysis (EDA)" and its reference infographic, captured privately in krisb/assistant at `captured/knowledge-islands/intake/2026-11-04-exchange-dynamics-analysis/` (the image in the `sources-assistant` store). The capture stays the evidence of lineage; this note neither copies nor quotes the private conversation.
+Status: draft. The home is a recommendation awaiting Kris (query EDA-HOME); nothing is built. Source: Kris's note "Knowledge Islands - Exchange Dynamics Analysis (EDA)" and its reference infographic, captured privately in krisb/inbox at `captured/knowledge-islands/intake/2026-11-04-exchange-dynamics-analysis/` (the image in the `sources-assistant` store). The capture stays the evidence of lineage; this note neither copies nor quotes the private conversation.
 
 ## Summary
 
@@ -132,7 +132,7 @@ Sentiment runs separately: event 5 is anxious in tone yet lowers tension, and ev
 
 ## Privacy and the reference image
 
-The original infographic names and quotes real private individuals. It stays in the private capture and the `sources-assistant` store; it is **not** copied into the public harness, which departs from Kris's section 7 (`infographic-original.png` in `examples/`). The public example is re-rendered from the invented analysis instead, and `sources.md` cites the capture id as lineage. The capture also records that the transcript and the image's generation context were never supplied, so the design decisions of the original cannot be preserved beyond what the image shows.
+The original infographic names and quotes real private individuals. It stays in the private capture and the `sources-inbox` store; it is **not** copied into the public harness, which departs from Kris's section 7 (`infographic-original.png` in `examples/`). The public example is re-rendered from the invented analysis instead, and `sources.md` cites the capture id as lineage. The capture also records that the transcript and the image's generation context were never supplied, so the design decisions of the original cannot be preserved beyond what the image shows.
 
 ## Build plan, once the home is chosen
 

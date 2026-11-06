@@ -20,7 +20,7 @@ created_at: 2026-11-03T22:50:53Z
 ## Goals
 
 - Deliver the [Agora](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/agora.md) Project's outcome.
-- Give Agora its own coordinating thread, so it carries on without holding personal.reg.assistant-sol's attention.
+- Give Agora its own coordinating thread, so it carries on without holding personal.reg.inbox-sol's attention.
 
 ## Scope
 

@@ -7,7 +7,7 @@ author: Written with Claude
 
 # Orca evaluation handover to the assistants
 
-**From:** `ki.prj.orca-evaluation` · **To:** [`personal.reg.assistant-terra`](/Users/krisbrown/kis/personal/assistant/+/_WORK/personal.reg.assistant-terra/work.md) now, `personal.reg.assistant-sol` when it opens · **Authority:** Kris's ASSISTANT-NOW and FOCUS-ASSISTANT of 1 November 2026, with the quick answer PS-ORCA "Into assistants", in [Ways of working's decisions log](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/decisions.md). The `ki-delegation-orca` adapter still lands in the KI harness through `ki.prj.ways-of-working`.
+**From:** `ki.prj.orca-evaluation` · **To:** [`personal.reg.assistant-terra`](/Users/krisbrown/kis/personal/inbox/+/_WORK/personal.reg.inbox-terra/work.md), now `personal.reg.inbox-terra`, now, `personal.reg.assistant-sol` when it opens · **Authority:** Kris's ASSISTANT-NOW and FOCUS-ASSISTANT of 1 November 2026, with the quick answer PS-ORCA "Into assistants", in [Ways of working's decisions log](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/decisions.md). The `ki-delegation-orca` adapter still lands in the KI harness through `ki.prj.ways-of-working`.
 
 ## What this Project established
 
