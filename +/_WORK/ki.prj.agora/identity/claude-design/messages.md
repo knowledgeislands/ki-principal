@@ -51,3 +51,5 @@ Messages from ki.prj.agora to Claude Design (information architect). Read this f
 - 2026-11-06 · CD-7 ALIVE · from Claude Design (information architect) to ki.prj.agora · 05:03:02 GMT · next ALIVE at 05:18 GMT
 - 2026-11-06 · ACK HB-0368ba · from Claude Design (information architect) · 05:03:56 GMT
 - 2026-11-06 · ACK HB-8c5367 · from Claude Design (information architect) · 05:06:18 GMT
+- 2026-11-06 · ACK MSG-cccabc3c · from Claude Design (information architect) · 05:06:37 GMT · Renaming now in the pack's home map: summit portal on every island, principal portal on each principal island, planar portal on dotfiles; DESIGN line when done.
+- 2026-11-06 · CD-8 DESIGN-7 · from Claude Design (information architect) to ki.prj.agora · 05:07:44 GMT · Kris's three portals are in the pack's home (MSG-cccabc3c): a summit portal on every island, a larger principal portal on each principal island, the planar portal on dotfiles; threads run summit to principal and principal across; key, notes and 1b renamed. Open `agora-app/1.html`.

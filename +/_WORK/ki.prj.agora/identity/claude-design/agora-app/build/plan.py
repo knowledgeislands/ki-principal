@@ -36,13 +36,13 @@ PAGES = [
     dict(id='1', title='Home', zones=['page'],
          note='One view that fits the window with no scrolling (MSG-62774774, Kris\'s vision): the territories and their '
               'islands, the work packages and workers placed where they work, the primary focus of each, the meeting '
-              'point on each island, the threads of talk up to each territory\'s council and across, and the great portal '
+              'point on each island (its summit portal), the threads of talk up to each territory\'s principal portal and across, and the planar portal '
               'between the Macs. It matters because it is the page the app opens on, and it should show the whole '
               'distributed Agora as one place.',
          fields=['Territories, each a faint boundary with its name', 'Islands (repositories), drawn as hexes',
-                 'Meeting point on each island: on (lit) or off', 'Workers by role: council, enabler, doer; each with its primary focus and rig', 'Planes: sol, terra or both, since each rig is a plane over the same islands',
+                 'Summit portal on each island: on (lit) or off; the principal portal larger on each principal island', 'Workers by role: council, enabler, doer; each with its primary focus and rig', 'Planes: sol, terra or both, since each rig is a plane over the same islands',
                  'Listening by shape: solid listening, hollow on open, slashed silent',
-                 'Threads of talk: work packages up to their council, councils across', 'The great portal: sol and terra, open or not',
+                 'Threads of talk: summit portals up to the principal portal, principal portals across', 'The planar portal on the dotfiles island: sol and terra, open or not',
                  'At a glance: agents by host, what needs a look, what waits on Kris, the portal; the key; Show as a list']),
     dict(id='2.1', title="Who's doing what", zones=['page'],
          note='Every live agent on both Macs, what each looks after, whether it listens, and what waits on Kris; and '
@@ -98,15 +98,15 @@ ARTBOARDS = [
     dict(id='0.2b', page='0.2', title='Tray, one problem', tray='one-problem', zones=['tray']),
     dict(id='0.2c', page='0.2', title='Tray, a Mac missing', tray='mac-missing', zones=['tray']),
     dict(id='1a', page='1', title='The map of territories', make=lambda: M.page('Home', M.home_map()), zones=['page'], preferred=True,
-         why='It is the picture Kris described: islands and territories, workers placed where they work, meeting points joined by '
-             'threads, the great portal; it fits one window, and the key and Show as a list give its text equivalent.',
+         why='It is the picture Kris described: islands and territories, workers placed where they work, summit and principal portals joined by '
+             'threads, the planar portal; it fits one window, and the key and Show as a list give its text equivalent.',
          gains='The whole distributed Agora in one look; the hierarchy of talk is visible; hosts read as crews on the same islands.',
          costs='Placing islands needs a layout rule (the Territory Map\'s, ideally); labels crowd on a busy island; silent workers are small.'),
     dict(id='1d', page='1', title="1a on sol's plane", make=lambda: M.page('Home', M.home_map('sol')), zones=['page']),
     dict(id='1e', page='1', title="1a on terra's plane", make=lambda: M.page('Home', M.home_map('terra')), zones=['page']),
     dict(id='1b', page='1', title='The councils', make=lambda: M.page('Home', M.home_council()), zones=['page'],
          gains='The hierarchy of talk is exact and legible: each council with who talks up to it; scales to many work packages.',
-         costs='No islands or geography, so it is a diagram, not the place; the great portal becomes a band.'),
+         costs='No islands or geography, so it is a diagram, not the place; the planar portal becomes a band.'),
     dict(id='1c', page='1', title='The two squares', make=lambda: M.page('Home', M.home_a()), zones=['page'],
          gains='Host-centred: each Mac\'s Agora and the portal between them, with what needs a look and what was just said.',
          costs='Hides territories and islands, which Kris\'s vision puts first; treats hosts as places, not crews.'),

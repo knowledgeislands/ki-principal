@@ -33,6 +33,9 @@ Study indicates a proposal for review.
 | [portal-map.png](portal-map.png) | 2026-11-06 | Two planes with matching islands, summit routes, principal relays and a great portal | MSG-c99eabc1 PLANES and MSG-f26e70e4 SUMMIT-PORTALS | Study |
 | [portal-map.svg](portal-map.svg) | 2026-11-06 | Two planes with matching islands, summit routes, principal relays and a great portal | MSG-c99eabc1 PLANES and MSG-f26e70e4 SUMMIT-PORTALS | Study |
 | [portal-mirrored-planes.png](portal-mirrored-planes.png) | 2026-11-06 | Mirrored realms with minor, Principal and great portals at three scales | Kris’s mirrored planes and three portal levels brief | Study |
+| [portal-mirrored-relay.png](portal-mirrored-relay.png) | 2026-11-06 | Two mirrored territories with visible Principal and planar relays | Kris’s second territory and planar relay correction | Study |
+| [portal-relay.png](portal-relay.png) | 2026-11-06 | Route map with a distinct Principal-to-planar link on each rig | Kris’s second territory and planar relay correction | Study |
+| [portal-relay.svg](portal-relay.svg) | 2026-11-06 | Route map with a distinct Principal-to-planar link on each rig | Kris’s second territory and planar relay correction | Study |
 | [portal-routing.png](portal-routing.png) | 2026-11-06 | Separate summit, Principal and planar portals with routes on Sol and Terra | Kris’s summit, Principal and planar routing clarification | Study |
 | [portal-routing.svg](portal-routing.svg) | 2026-11-06 | Separate summit, Principal and planar portals with routes on Sol and Terra | Kris’s summit, Principal and planar routing clarification | Study |
 | [portal-summit.png](portal-summit.png) | 2026-11-06 | Agora on the slope and a summit beacon linking two islands | MSG-f26e70e4 SUMMIT-PORTALS | Study |

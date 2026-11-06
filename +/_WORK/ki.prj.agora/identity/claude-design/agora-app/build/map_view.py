@@ -1,6 +1,6 @@
 """Home as one viewport-sized map (MSG-62774774, Kris's vision): the territories and their islands, the work
-packages and workers placed where they work, each one's primary focus, the meeting point on each island, the
-threads of talk up to each territory's council and across, and the great portal between the hosts.
+packages and workers placed where they work, each one's primary focus, the summit portal on each island, the
+threads of talk up to each territory's principal portal and across, and the planar portal between the planes (Kris's three portals, MSG-cccabc3c).
 
 Islands are repositories, drawn as clusters of pointy-top hexes in the flat chart's manner. Hosts are crews, not
 islands: each worker carries its host (sol or terra). Colours are ki-design tokens.
@@ -108,7 +108,7 @@ def territory_map(width=900, height=700, plane='both'):
         for q, r in cells:
             cx, cy = hex_centre(base, q, r)
             out.append(f'<polygon points="{hexagon(cx, cy)}" fill="var(--land)" stroke="var(--boundary)" stroke-width="1"/>')
-    # threads: work packages' islands up to their territory's council, councils across, the great portal
+    # threads: summit portals up to the principal portal, principal portals across, the planar portal
     gold = 'var(--gold)'
     threads = [('apps-agora.local', 'ki-principal', 1.5), ('5g-emerge', 'hnr-principal', 1.5), ('hnr-site', 'hnr-principal', 1.5),
                ('dotfiles', 'inbox', 1.5), ('ki-principal', 'hnr-principal', 3), ('ki-principal', 'inbox', 3), ('hnr-principal', 'inbox', 3)]
@@ -118,14 +118,14 @@ def territory_map(width=900, height=700, plane='both'):
         out.append(f'<path d="M{x1:.1f} {y1:.1f} Q{mx:.1f} {my:.1f} {x2:.1f} {y2:.1f}" fill="none" stroke="{gold}" stroke-width="{w}" stroke-linecap="round" opacity=".85"/>')
     gx, gy = meeting_point('dotfiles')
     out.append(f'<path d="M{gx:.1f} {gy:.1f} C{gx - 120:.1f} {gy + 10:.1f} {70:.1f} {gy + 40:.1f} 18 {gy + 86:.1f}" fill="none" stroke="{gold}" stroke-width="5" stroke-linecap="round"/>')
-    out.append(text(30, gy + 104, 'The great portal', size=12.5, weight=600))
+    out.append(text(30, gy + 104, 'The planar portal', size=12.5, weight=600))
     out.append(text(30, gy + 120, 'sol ⇄ terra · open · heard 04:20' if plane == 'both' else f'showing {plane}\'s plane · the other rig dimmed', size=11.5, fill='var(--muted)'))
-    # meeting points
+    # summit portals (principal portals larger, the planar portal ringed in gold)
     joined = {w[1] for w in WORKERS if on_plane(w[3])}
     for name in ISLANDS:
         x, y = meeting_point(name)
         lit = name in joined
-        r = 15 if name == 'dotfiles' else 11
+        r = 15 if name == 'dotfiles' else 14 if name in COUNCILS.values() else 11
         out.append(ring(x, y, r, 'var(--ink)' if lit else 'var(--muted)', 2.2 if lit else 1.4, lit=lit))
         if name == 'dotfiles':
             out.append(ring(x, y, r + 7, gold, 1.6, lit=False))
@@ -154,10 +154,10 @@ def territory_map(width=900, height=700, plane='both'):
 
 KEY = [
     ('<circle cx="9" cy="9" r="6" fill="var(--ink)"/>', 'Work package, listening (enabler)'),
-    ('<circle cx="9" cy="9" r="5.5" fill="var(--ink)"/><circle cx="9" cy="9" r="8" fill="none" stroke="var(--ink)" stroke-width="1.2"/>', "Territory's council: its State of play main"),
+    ('<circle cx="9" cy="9" r="5.5" fill="var(--ink)"/><circle cx="9" cy="9" r="8" fill="none" stroke="var(--ink)" stroke-width="1.2"/>', "Territory's council: its State of play main, at the principal portal"),
     ('<rect x="4" y="4" width="10" height="10" rx="1.5" fill="none" stroke="var(--ink)" stroke-width="1.8"/>', 'Doer, brought in by a work package'),
     ('<circle cx="9" cy="9" r="5" fill="none" stroke="var(--ink)" stroke-width="2"/>', 'Reads on open'),
     ('<circle cx="9" cy="9" r="5.5" fill="none" stroke="var(--bad)" stroke-width="2"/><path d="M5 13 L13 5" stroke="var(--bad)" stroke-width="2"/>', 'Silent'),
-    ('<path d="M6 15 A7 7 0 1 1 12 15" fill="none" stroke="var(--ink)" stroke-width="2"/>', "An island's meeting point, on"),
-    ('<path d="M2 12 Q9 4 16 12" fill="none" stroke="var(--gold)" stroke-width="2"/>', 'Thread of talk: up to the council, councils across'),
+    ('<path d="M6 15 A7 7 0 1 1 12 15" fill="none" stroke="var(--ink)" stroke-width="2"/>', "Summit portal, on every island; lit when someone there listens. Larger on a principal island: the principal portal"),
+    ('<path d="M2 12 Q9 4 16 12" fill="none" stroke="var(--gold)" stroke-width="2"/>', 'Thread of talk: summit portals up to the principal portal, principal portals across; the planar portal joins the planes'),
 ]

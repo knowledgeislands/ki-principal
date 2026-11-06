@@ -402,7 +402,7 @@ def glance_panel(code='P3'):
 <li><b>10 agents</b> <span class="muted">· sol 4 · terra 6 · 2 doers</span></li>
 <li class="warn">{mark("diamond")}<b>2 need a look</b><span class="sub">hnr-principal diverged on terra · hnr.prj.site-robots silent</span></li>
 <li><b>34 queries</b> wait on you <span class="muted">· oldest 2026-11-03</span></li>
-<li><span class="teal">The great portal is open</span><span class="sub">terra heard 04:20 · 14 calls this hour</span></li></ul></section>
+<li><span class="teal">The planar portal is open</span><span class="sub">terra heard 04:20 · 14 calls this hour</span></li></ul></section>
 <section class="panel"><header><h2>Key</h2></header><ul class="plain body key">{key}</ul><div class="body"><span class="btn">Show as a list</span></div></section>
 </aside>'''
 
@@ -427,11 +427,11 @@ def home_council():
     ki = col('P2', 'Knowledge Islands', 'ki.sop.main', 'themes', 'sol', 'call', [('ki.prj.agora', 'send', 'sol', 'call'), ('Claude Design (doer)', 'identity', 'sol', 'open'), ('ChatGPT (doer)', 'identity', 'sol', 'open')])
     hnr = col('P3', 'Humans Not Robots', 'hnr.sop.main', 'routing', 'terra', 'silent', [('hnr.prj.5g-emerge-phase3', 'delivery', 'terra', 'open'), ('hnr.prj.5g-emerge-p2ms3', 'delivery', 'terra', 'call'), ('hnr.prj.site-robots', 'site', 'terra', 'silent')])
     per = col('P4', 'Personal', 'personal.reg.inbox-sol', 'method', 'sol', 'call', [('personal.reg.inbox-terra', 'method', 'terra', 'call'), ('personal.reg.household-sol', 'rig', 'sol', 'poll'), ('personal.reg.household-terra', 'rig', 'terra', 'call')])
-    portal = (f'<section class="panel" {R("P5", "The great portal")} style="border-color:var(--gold)"><div class="body" style="display:flex; gap:16px; align-items:center">'
-              f'<span class="teal">{glyph("portal")}</span><b>The great portal</b><span class="muted">in the households, on the dotfiles island · sol ⇄ terra · open · heard 04:20 · 14 calls, 2 broadcasts this hour</span></div></section>')
+    portal = (f'<section class="panel" {R("P5", "The planar portal")} style="border-color:var(--gold)"><div class="body" style="display:flex; gap:16px; align-items:center">'
+              f'<span class="teal">{glyph("portal")}</span><b>The planar portal</b><span class="muted">in the households, on the dotfiles island · sol ⇄ terra · open · heard 04:20 · 14 calls, 2 broadcasts this hour</span></div></section>')
     return f'''{head("P1", "Home", "The councils and who talks to them · 10 agents on 2 Macs")}
 <div class="grid" style="grid-template-columns: repeat(3, 1fr);">{ki}{hnr}{per}</div>{portal}
-<p class="foot">Work packages talk up to their territory's council; the councils talk to each other on each Mac; the great portal joins the Macs.</p>'''
+<p class="foot">Work packages talk up to their territory's council; the councils talk to each other on each Mac; the planar portal joins the planes, sol and terra; the Macs.</p>'''
 
 
 def doc_tab():
