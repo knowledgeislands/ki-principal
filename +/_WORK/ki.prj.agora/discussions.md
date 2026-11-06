@@ -2,6 +2,76 @@
 
 ## Open
 
+### WAKE-NOTE - The wake architecture note, and Legal's request
+
+focus: send · since 2026-11-06 · from WAKE-ARCHITECTURE and LEGAL-AUTOMATION-AGORA-20261104
+
+**Context:** Two requests from 4 November have waited here since. You asked assistant-sol (WAKE-ARCHITECTURE, about 09:30 GMT) for one architecture note with a diagram, kept in Agora: for each place you work (Orca chat and terminal, each with Claude Code and Codex; Claude Desktop; Claude Design), how a message or a finished run reaches it today, what can wake it, what is proven, and the target route through Agora. Legal (lgl.sop.main) asked Agora, or assistant-sol, to own making overnight wake and supervision work after its Codex chat was never woken, and to reply with the owner and the verified limits. assistant-sol's spec already holds a draft wake table and research (`coordination/wake-research.md`).
+
+**Query:** Should Agora write the wake architecture note now, and answer Legal from it?
+
+**Options:**
+
+a) (recommended, confidence medium - it is the Agora-side half of the spec, builds on assistant-sol's research rather than repeating it, and gives Legal a real answer) Yes: one research run writes the note in `apps-agora.local`'s docs, proving each route it can on this Mac without changing any settings; I then reply to Legal with the owner and the verified limits, and tell assistant-sol.
+
+b) Leave the note to assistant-sol's coordination spec, and reply to Legal only that assistant-sol owns it.
+
+### DEFAULTS - Mark broadcast defaults unless you say otherwise
+
+focus: send · since 2026-11-06 · from mark-all-scope
+
+**Context:** Three choices for the mark broadcast are low-stakes and easy to change later. (1) MARK-SEND: you send a mark from the tray only, under **Mark all** with **Mark and summarise**, **Mark only** and a **No art** tick; there's no command line yet, because that would need a new way to write into Agora. (2) MARK-ACK: threads acknowledge a mark the way they acknowledge a ping, so the tray shows, for example, `mark: 5 marked, 2 silent`. (3) MARK-ROLLOUT: the new Agora is installed on every Mac before the first mark is sent, because an older Agora refuses a kind it doesn't know and holds back the broadcasts queued behind it.
+
+**Query:** Keep these defaults?
+
+**Options:**
+
+a) (recommended, confidence high - each choice is low-stakes and reversible) Keep the defaults.
+
+b) Object to the ones you name.
+
+### MARK-WORDS - Whether a mark carries your own words
+
+focus: send · since 2026-11-06 · from mark-all-scope
+
+**Context:** `away` and `ping` broadcasts use fixed wording, while **Broadcast…** carries free text. Free text inside a mark could blur what the instruction is.
+
+**Query:** Should a mark carry your own words as well as its two options (`only` and `no art`)?
+
+**Options:**
+
+a) (recommended, confidence medium - fixed words keep the instruction plain, and you can send words with **Broadcast…** straight after) Fixed words and the two options only.
+
+b) An optional note typed in a small window, added after the fixed words.
+
+### MARK-LATE - A thread that reads the mark late
+
+focus: send · since 2026-11-06 · from mark-all-scope
+
+**Context:** A thread that isn't listening, or an Orca chat Agora can't wake yet, sees a mark only at its next turn, which may be hours later. By then you may have marked it directly.
+
+**Query:** When a thread acts on a late mark, what time is its mark?
+
+**Options:**
+
+a) (recommended, confidence medium - a mark bounds what the next Summary covers, so it should be when the thread actually took stock) The time it acts. It notes the broadcast beside its mark, skips the broadcast if its own mark is later, and acts on the newest only.
+
+b) The broadcast's sending time, so every thread's mark lines up.
+
+### MARK-HOLD - A thread on hold
+
+focus: send · since 2026-11-06 · from mark-all-scope
+
+**Context:** A hold strikes its own mark and gives its own hold report. A mark broadcast reaches every watched package, held ones included.
+
+**Query:** What does a thread on hold do with a mark?
+
+**Options:**
+
+a) (recommended, confidence medium - a hold is your choice to pause, and a broadcast shouldn't reopen it) Acknowledge it without striking, and say "on hold" in one line.
+
+b) Strike and give its hold report.
+
 ### ORCA-WATCH - Watch the Orca chat-send work for you
 
 focus: send · since 2026-11-05 · from ORCA-UPSTREAM
