@@ -156,7 +156,7 @@ def summary():
     working = sum(1 for h in HOLDERS if h[6] == 'working')
     silent = sum(1 for h in HOLDERS if h[6] == 'silent')
     return (f'12 packages and 2 doers on 2 rigs · 🤖 {working} working · 👤 1 with you · 🔕 {silent} silent · '
-            f'3 records disagree with the catalogue · 3 roles yours to approve')
+            f'portal open, terra heard 04:20 · 3 records disagree with the catalogue · 3 roles yours to approve')
 
 
 def ordered():

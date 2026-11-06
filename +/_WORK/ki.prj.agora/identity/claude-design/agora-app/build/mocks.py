@@ -874,7 +874,7 @@ def tip(words, cls=''):
 def presence_control(hosts, open_=False, show_tip=False, mark=''):
     worst = max(hosts, key=lambda h: PRESENCE_RANK[h[1]])[1]
     bad = [h for h in hosts if h[1] != 'present']
-    summary_words = (f'All {len(hosts)} present' if not bad else
+    summary_words = ((f'{hosts[0][0]}, {hosts[0][2]}, present' if len(hosts) == 1 else f'All {len(hosts)} present') if not bad else
                      ', '.join(f'{h[0]} {PRESENCE_WORDS[h[1]]}' for h in bad))
     tip_words = (f'{len(hosts)} {"rig" if len(hosts) == 1 else "rigs"} in the group · {summary_words}. Click for the list.')
     if len(hosts) <= CHIP_ROOM and not open_:
@@ -882,7 +882,9 @@ def presence_control(hosts, open_=False, show_tip=False, mark=''):
         inner = f'<span class="at-chips">{chips}</span>'
         cls = 'at-presence chips'
     else:
-        word = f'{len(bad)} {PRESENCE_WORDS[worst]}' if bad else 'all present'
+        short = {'gone': 'gone', 'unknown': 'unheard'}
+        word = (' · '.join(f'{sum(1 for h in bad if h[1] == k)} {short[k]}' for k in ('gone', 'unknown') if any(h[1] == k for h in bad))
+                if bad else 'all present')
         inner = (f'<span class="pbtn st-{worst}">{pmark(worst)}<b>{len(hosts)} rigs</b><span class="pw">{word}</span>{aglyph("chev", "chev")}</span>')
         cls = 'at-presence' + (' open' if open_ else '')
     pop = ''
@@ -891,7 +893,7 @@ def presence_control(hosts, open_=False, show_tip=False, mark=''):
                        f'<span class="muted">{heard}</span></div>' for n, st, heard in sorted(hosts, key=lambda h: (-PRESENCE_RANK[h[1]], h[0] != 'sol', h[0])))
         pop = (f'<div class="at-pop" {R("T2", "Pop-out: floats")}><div class="pophead"><b>{len(hosts)} rigs in the group</b>'
                f'<span class="muted">worst first</span></div>{rows}'
-               f'<div class="popfoot"><span class="btn">Open Macs and the portal</span><span class="muted">Esc or click outside closes</span></div></div>')
+               f'<div class="popfoot"><span class="btn">Open Macs and the portal</span><span class="muted">Esc closes</span></div></div>')
     t = tip(escape(tip_words)) if show_tip and not open_ else ''
     return f'<span class="{cls}" {mark} title="{escape(tip_words)}">{inner}{t}{pop}</span>'
 

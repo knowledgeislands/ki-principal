@@ -64,6 +64,21 @@ PAGES = [
                  'Folded to icons (⌘\\): the three-letter eyebrow heads each section; a folded section is a dashed box with its letters and a chevron',
                  'Foot (N3): SYS (Accounts, Settings, Updates), then the portal between the rigs, Beacon and Lantern',
                  'Known Lands: a curled chart with a dotted path to an X, so it reads as a map and not as a graph']),
+    dict(id='0.5', title='Atlas bar, compact', zones=['navigation', 'context', 'page', 'tray'],
+         note='Kris\'s review (23:05 GMT) of the toolbar: it took too much room, the sol and terra chips would not hold ten rigs, counts such '
+              'as "2 must settle" said nothing on hover, and At a glance was unclear and popped out. The bar is now one 36-point row. The rigs '
+              'are one presence control, its mark the worst state among them, opening a list of every rig; they show as chips only while three '
+              'or fewer fit. The counts are one notification indicator, its count and worst state as a mark and a word, leading to Home\'s Needs '
+              'a look (9.1), where each item says what it is and what to do. At a glance is gone: its contents are on Home. Every control has a '
+              'tooltip in words. It also settles one rule for the right tray and every pop-out (IA.md, Pinned and floating): the tray pins, a '
+              'pop-out floats. It matters because the bar is on every page and must still read when the group grows.',
+         fields=['Bar (N1): window lights, sidebar, the logo (Home), presence, Find, the notification indicator, speak to everyone, the time, pin, theme; 36 points',
+                 'Presence (N6): up to three rigs as chips, each a shape and its name; more as one control, "10 rigs", the worst mark and its word ("1 gone"), opening the list',
+                 'Notification indicator (N7): a bell, the worst mark (✓ nothing, ◆ look, ▲ urgent) and its words ("Nothing", "3 to look at", "4 · 1 urgent"); click for Home\'s Needs a look',
+                 'Speak to everyone (N8): Mark all, Away… and Broadcast… as three icon buttons, each with its tooltip',
+                 'Tooltips: on every control, words only, after a short pause or on keyboard focus; never an action',
+                 'Right tray (T1) pins: it opens on a chosen thing, pushes the page, and stays until × or Escape',
+                 'Pop-out (T2) floats: it opens from its control over the page, never pushes, and closes on Escape, a click outside, a choice, or its control again']),
     dict(id='1', title='Known Lands (was Home)', zones=['page'],
          note='Known Lands since 0.4: the map that was Home now sits under Work, and Home (9.1) is reached from the logo. '
               'One view that fits the window with no scrolling (MSG-62774774, Kris\'s vision): the territories and their '
@@ -238,6 +253,31 @@ ARTBOARDS = [
          make=lambda: M.atlas_page('roadmap', W.roadmap_page(), tray=W.record_tray(), mark_shell=True, logo='hover', collapsed=('kiv', 'sys'),
                                    context=dict(territory='Knowledge Islands'), tabs=[('Roadmap', True, True), ('Home', False, True)]),
          zones=['navigation', 'context', 'page', 'tray']),
+    dict(id='0.5a', page='0.5', title='Compact bar: two rigs as chips, 3 to look at, the indicator\'s tooltip',
+         make=lambda: M.atlas_page('roadmap', W.roadmap_page(), tray=W.record_tray(), mark_shell=True, notices='look', tips=('notice',),
+                                   context=dict(territory='Knowledge Islands'), tabs=[('Roadmap', True, True), ('Home', False, True)]),
+         zones=['navigation', 'context', 'page', 'tray'], preferred=True,
+         why='One row that still reads at ten rigs: presence and attention each become one control with its worst state as a shape and a word, '
+             'the counts lead somewhere that says what to do, and every control explains itself on hover.',
+         gains='12 points back for the page on every screen; the bar never grows with the group; one place to look for anything that wants a look, '
+               'and one click to Home\'s list; no count without words.',
+         costs='Mark all, Away… and Broadcast… lose their words to icons (their tooltips carry them); a third rig\'s chip must fold before a fourth can; '
+               'one more click to see which rig is gone.'),
+    dict(id='0.5b', page='0.5', title='One rig, nothing to look at, the presence tooltip', make=lambda: M.atlas_page('lands', M.atlas_home('Known Lands'), mark_shell=True, hosts=1, notices='none', tips=('presence',),
+                                                                                                                  tabs=[('Known Lands', True, True)]),
+         zones=['navigation', 'context', 'page']),
+    dict(id='0.5c', page='0.5', title='Ten rigs, presence open as a pop-out over a pinned tray, 4 · 1 urgent',
+         make=lambda: M.atlas_page('jobs', W.jobs_page(), tray=W.job_tray(), mark_shell=True, hosts=10, notices='urgent', popout='presence',
+                                   tabs=[('Jobs', True, True), ('Home', False, True)]),
+         zones=['navigation', 'context', 'page', 'tray']),
+    dict(id='0.5d', page='0.5', title='Ten rigs folded, the indicator leading to Home\'s Needs a look', make=lambda: M.atlas_page('home', H.home_page(), mark_shell=True, hosts=10, notices='urgent', tips=('notice',),
+                                                                                                                     height=None, tabs=[('Home', True, False), ('Jobs', False, True)]),
+         zones=['navigation', 'context', 'page']),
+    dict(id='0.5e', page='0.5', title='The 0.4 toolbar, for comparison: two rows of words', make=lambda: M.atlas_page('roadmap', W.roadmap_page(), tray=W.record_tray(), mark_shell=True, bar='0.4', standing=('look', '2 must settle'),
+                                                                                                                       context=dict(territory='Knowledge Islands'), tabs=[('Roadmap', True, True), ('Home', False, True)]),
+         zones=['navigation', 'context', 'page', 'tray'],
+         gains='Every action has its words on the button; each rig is a chip you can read without a click; the toolbar\'s word ("2 must settle") is always in view.',
+         costs='48 points tall; ten rigs do not fit; "2 must settle" says nothing on hover and leads nowhere; a second count would need a second word.'),
     dict(id='1f', page='1', title='The working map: Focused, an island selected', make=lambda: M.page('Home', M.home_working(focused=True, selected='apps-agora.local')),
          zones=['page'], preferred=True,
          why='It keeps the picture Kris described and makes it the place to act from: Focused shows only where work is, each island says '
@@ -403,6 +443,14 @@ COMPONENTS = [
          states=[('urgent and look', '9.1a'), ('nothing', '9.1-none')]),
     dict(id='9.1.3', page='9.1', title='Yours to approve', selector='[data-region="P5"]', states=[('three roles, one brass action', '9.1a')]),
     dict(id='9.1.4', page='9.1', title='Holder in the tray', selector='[data-region="T1"]', states=[('record against the catalogue', '9.1c')]),
+    dict(id='0.5.1', page='0.5', title='Presence control', selector='.at-presence',
+         states=[('one rig', '0.5b'), ('two rigs as chips', '0.5a'), ('ten rigs, closed', '0.5d'), ('ten rigs, open', '0.5c', '.at-presence, .at-pop')]),
+    dict(id='0.5.2', page='0.5', title='Notification indicator', selector='.at-notice',
+         states=[('nothing', '0.5b'), ('something to look at', '0.5a'), ('something urgent', '0.5c')]),
+    dict(id='0.5.3', page='0.5', title='Tooltip', selector='.at-notice .at-tip',
+         states=[('on the indicator', '0.5a'), ('on presence', '0.5b', '.at-presence, .at-presence .at-tip'), ('on the logo', '0.4c', '.at-brand, .at-brand .at-tip')]),
+    dict(id='0.5.4', page='0.5', title='Pinned tray and floating pop-out', selector='[data-region="T2"], [data-region="T1"]',
+         states=[('the pop-out over the page, the tray pinned', '0.5c')]),
     dict(id='0.1.1', page='0.1', title='Brand', selector='[data-region="N1"]', states=[('expanded', '0.1a'), ('contracted', '0.1b')]),
     dict(id='0.1.2', page='0.1', title='Views', selector='[data-region="N2"]', states=[('expanded', '0.1a'), ('contracted', '0.1b')]),
     dict(id='0.1.3', page='0.1', title='Speak to everyone', selector='[data-region="N4"]', states=[('expanded', '0.1a'), ('contracted', '0.1b')]),
@@ -492,7 +540,9 @@ def main():
             f.write(fn(theme='light'))
         shots.append(dict(shot=f'{ab_id}-light', html=os.path.abspath(lp), width=1440, hidden=True))
     # 0.4a and 9.1a in light; Home with nothing to look at (a component state only).
-    for ab_id, fn in (('0.4a', lambda: M.atlas_page('lands', M.atlas_home('Known Lands'), mark_shell=True, theme='light',
+    for ab_id, fn in (('0.5a', lambda: M.atlas_page('roadmap', W.roadmap_page(), tray=W.record_tray(), mark_shell=True, notices='look', tips=('notice',), theme='light',
+                                                     context=dict(territory='Knowledge Islands'), tabs=[('Roadmap', True, True), ('Home', False, True)])),
+                      ('0.4a', lambda: M.atlas_page('lands', M.atlas_home('Known Lands'), mark_shell=True, theme='light',
                                                      tabs=[('Known Lands', True, True), ('Home', False, True), ('Roadmap', False, True)])),
                       ('9.1a', lambda: H.ab_home(theme='light')),
                       ('9.1-none', lambda: M.atlas_page('home', H.home_page(needs=[]), height=None))):

@@ -25,6 +25,7 @@ Every piece Claude Design has made for Agora, as MSG-074055f8 (ART-INDEX) asks. 
 | [agora-app/IA.md](agora-app/IA.md) | 2026-11-06 | Agora Atlas information architecture (reconciled with Kris's review: Home on the logo as 9.1, Known Lands in Work, sections and eyebrows, the Observatory renumbered 12.1 and 12.2, the Art gallery 13): the sidebar tree, shell rules (now with the summary-filter bar, the context chip, folding groups and the pane alone), page numbers, the shell function | Atlas shell brief, set (1) | keeper |
 | [agora-app/7.1.html](agora-app/7.1.html), [7.2.html](agora-app/7.2.html), [8.1.html](agora-app/8.1.html), `build/work.py` | 2026-11-06 | Agora Atlas Roadmap, Jobs and Guilds, with the summary-filter bar they share | Atlas pages brief, sets (2) and (3) | keeper |
 | [agora-app/0.4.html](agora-app/0.4.html), [9.1.html](agora-app/9.1.html), `build/home.py` | 2026-11-06 | Agora Atlas shell, revised (the sidebar in sections, Home on the logo, Known Lands) and Home: who holds what | Kris's review, 22:55 to 23:20 GMT | keeper |
+| [agora-app/0.5.html](agora-app/0.5.html) | 2026-11-06 | Agora Atlas bar, compact: presence, the notification indicator, tooltips, and the rule for the pinned tray and floating pop-outs | Kris's review, 23:05 GMT | keeper |
 | [agora-app/lantern/README.md](agora-app/lantern/README.md), [index.html](agora-app/lantern/index.html) | 2026-11-06 | Agora Lantern, the iPhone app: who is listening; annotated board, night and light | Agora Lantern brief | keeper |
 
 ## Agora app design pack: every artboard
@@ -65,6 +66,16 @@ Kind is the preferred alternative, another alternative, a state of a shell, or a
 | [0.4.1](agora-app/0.4.html#0.4.1) | Atlas shell, revised, components | Section eyebrow: open, folded, folded with something inside to look at, collapsed, collapsed and folded | component | [shots](agora-app/shots/components/) |
 | [0.4.2](agora-app/0.4.html#0.4.2) | Atlas shell, revised, components | Known Lands item: chosen, plain, collapsed | component | [shots](agora-app/shots/components/) |
 | [0.4.3](agora-app/0.4.html#0.4.3) | Atlas shell, revised, components | The logo as Home: at rest, hovered with "Home", Home open | component | [shots](agora-app/shots/components/) |
+| [0.5a](agora-app/0.5.html#0.5a) | Atlas bar, compact | Compact bar: two rigs as chips, 3 to look at, the indicator's tooltip | preferred | [shot](agora-app/shots/0.5a.png) |
+| [0.5a, in light](agora-app/0.5.html#0.5a-light) | Atlas bar, compact | 0.5a in light, for comparison | state | [shot](agora-app/shots/0.5a-light.png) |
+| [0.5b](agora-app/0.5.html#0.5b) | Atlas bar, compact | One rig, nothing to look at, the presence tooltip | state | [shot](agora-app/shots/0.5b.png) |
+| [0.5c](agora-app/0.5.html#0.5c) | Atlas bar, compact | Ten rigs, presence open as a pop-out over a pinned tray, 4 · 1 urgent | state | [shot](agora-app/shots/0.5c.png) |
+| [0.5d](agora-app/0.5.html#0.5d) | Atlas bar, compact | Ten rigs folded, the indicator leading to Home's Needs a look | state | [shot](agora-app/shots/0.5d.png) |
+| [0.5e](agora-app/0.5.html#0.5e) | Atlas bar, compact | The 0.4 toolbar, for comparison | alternative | [shot](agora-app/shots/0.5e.png) |
+| [0.5.1](agora-app/0.5.html#0.5.1) | Atlas bar, compact, components | Presence control: one rig, two rigs as chips, ten rigs closed, ten rigs open | component | [shots](agora-app/shots/components/) |
+| [0.5.2](agora-app/0.5.html#0.5.2) | Atlas bar, compact, components | Notification indicator: nothing, something to look at, something urgent | component | [shots](agora-app/shots/components/) |
+| [0.5.3](agora-app/0.5.html#0.5.3) | Atlas bar, compact, components | Tooltip: on the indicator, on presence, on the logo | component | [shots](agora-app/shots/components/) |
+| [0.5.4](agora-app/0.5.html#0.5.4) | Atlas bar, compact, components | Pinned tray and floating pop-out | component | [shots](agora-app/shots/components/) |
 | [1f](agora-app/1.html#1f) | Known Lands (was Home) | The working map: Focused, an island selected (toolbar, counts, island detail in the right tray) | preferred | [shot](agora-app/shots/1f.png) |
 | [1g](agora-app/1.html#1g) | Known Lands (was Home) | The working map: Everything, the planar portal selected | state | [shot](agora-app/shots/1g.png) |
 | [1h](agora-app/1.html#1h) | Known Lands (was Home) | The working map: closer on Humans Not Robots | state | [shot](agora-app/shots/1h.png) |

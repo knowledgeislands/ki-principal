@@ -491,13 +491,13 @@
         "x": 242,
         "y": 147,
         "w": 1176,
-        "h": 127
+        "h": 108
       },
       {
         "code": "P3",
         "label": "The guild’s skills",
         "x": 242,
-        "y": 288,
+        "y": 269,
         "w": 1176,
         "h": 86
       },
@@ -759,6 +759,790 @@
     "regions": [
       {
         "code": "N1",
+        "label": "Compact bar",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 36
+      },
+      {
+        "code": "N5",
+        "label": "Logo: Home",
+        "x": 87,
+        "y": 4,
+        "w": 117,
+        "h": 26
+      },
+      {
+        "code": "N6",
+        "label": "Presence",
+        "x": 206,
+        "y": 9,
+        "w": 108,
+        "h": 18
+      },
+      {
+        "code": "N7",
+        "label": "Notifications",
+        "x": 1118,
+        "y": 6,
+        "w": 121,
+        "h": 22
+      },
+      {
+        "code": "N8",
+        "label": "Speak to everyone",
+        "x": 1247,
+        "y": 6,
+        "w": 91,
+        "h": 23
+      },
+      {
+        "code": "N2",
+        "label": "Sidebar sections",
+        "x": 8,
+        "y": 46,
+        "w": 203,
+        "h": 470
+      },
+      {
+        "code": "N3",
+        "label": "Sidebar foot: SYS and the portal",
+        "x": 8,
+        "y": 711,
+        "w": 203,
+        "h": 179
+      },
+      {
+        "code": "N4",
+        "label": "Tabs",
+        "x": 234,
+        "y": 43,
+        "w": 772,
+        "h": 32
+      },
+      {
+        "code": "C1",
+        "label": "Context",
+        "x": 1018,
+        "y": 42,
+        "w": 410,
+        "h": 27
+      },
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 92,
+        "w": 1176,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Toolbar",
+        "x": 243,
+        "y": 136,
+        "w": 1174,
+        "h": 46
+      },
+      {
+        "code": "P3",
+        "label": "The map",
+        "x": 243,
+        "y": 182,
+        "w": 1174,
+        "h": 699
+      }
+    ]
+  },
+  "0.4b": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "N1",
+        "label": "Compact bar",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 36
+      },
+      {
+        "code": "N5",
+        "label": "Logo: Home",
+        "x": 87,
+        "y": 4,
+        "w": 117,
+        "h": 26
+      },
+      {
+        "code": "N6",
+        "label": "Presence",
+        "x": 206,
+        "y": 9,
+        "w": 108,
+        "h": 18
+      },
+      {
+        "code": "N7",
+        "label": "Notifications",
+        "x": 1118,
+        "y": 6,
+        "w": 121,
+        "h": 22
+      },
+      {
+        "code": "N8",
+        "label": "Speak to everyone",
+        "x": 1247,
+        "y": 6,
+        "w": 91,
+        "h": 23
+      },
+      {
+        "code": "N2",
+        "label": "Sidebar sections",
+        "x": 6,
+        "y": 46,
+        "w": 43,
+        "h": 447
+      },
+      {
+        "code": "N3",
+        "label": "Sidebar foot: SYS and the portal",
+        "x": 6,
+        "y": 700,
+        "w": 43,
+        "h": 190
+      },
+      {
+        "code": "N4",
+        "label": "Tabs",
+        "x": 70,
+        "y": 43,
+        "w": 936,
+        "h": 32
+      },
+      {
+        "code": "C1",
+        "label": "Context",
+        "x": 1018,
+        "y": 42,
+        "w": 410,
+        "h": 27
+      },
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 78,
+        "y": 92,
+        "w": 980,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Summary and filters",
+        "x": 78,
+        "y": 135,
+        "w": 980,
+        "h": 92
+      },
+      {
+        "code": "P3",
+        "label": "Jobs by territory and repository",
+        "x": 78,
+        "y": 241,
+        "w": 980,
+        "h": 237
+      },
+      {
+        "code": "T1",
+        "label": "Tray",
+        "x": 1080,
+        "y": 76,
+        "w": 360,
+        "h": 824
+      }
+    ]
+  },
+  "0.4c": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "N1",
+        "label": "Compact bar",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 36
+      },
+      {
+        "code": "N5",
+        "label": "Logo: Home",
+        "x": 87,
+        "y": 4,
+        "w": 117,
+        "h": 26
+      },
+      {
+        "code": "N6",
+        "label": "Presence",
+        "x": 206,
+        "y": 9,
+        "w": 108,
+        "h": 18
+      },
+      {
+        "code": "N7",
+        "label": "Notifications",
+        "x": 1118,
+        "y": 6,
+        "w": 121,
+        "h": 22
+      },
+      {
+        "code": "N8",
+        "label": "Speak to everyone",
+        "x": 1247,
+        "y": 6,
+        "w": 91,
+        "h": 23
+      },
+      {
+        "code": "N2",
+        "label": "Sidebar sections",
+        "x": 8,
+        "y": 46,
+        "w": 203,
+        "h": 470
+      },
+      {
+        "code": "N3",
+        "label": "Sidebar foot: SYS and the portal",
+        "x": 8,
+        "y": 792,
+        "w": 203,
+        "h": 98
+      },
+      {
+        "code": "N4",
+        "label": "Tabs",
+        "x": 234,
+        "y": 43,
+        "w": 772,
+        "h": 32
+      },
+      {
+        "code": "C1",
+        "label": "Context",
+        "x": 1018,
+        "y": 42,
+        "w": 410,
+        "h": 27
+      },
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 92,
+        "w": 816,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Summary and filters",
+        "x": 242,
+        "y": 135,
+        "w": 816,
+        "h": 92
+      },
+      {
+        "code": "P3",
+        "label": "Records",
+        "x": 242,
+        "y": 241,
+        "w": 816,
+        "h": 591
+      },
+      {
+        "code": "T1",
+        "label": "Tray",
+        "x": 1080,
+        "y": 76,
+        "w": 360,
+        "h": 824
+      }
+    ]
+  },
+  "0.5a": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "N1",
+        "label": "Compact bar",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 36
+      },
+      {
+        "code": "N5",
+        "label": "Logo: Home",
+        "x": 87,
+        "y": 4,
+        "w": 117,
+        "h": 26
+      },
+      {
+        "code": "N6",
+        "label": "Presence",
+        "x": 206,
+        "y": 9,
+        "w": 108,
+        "h": 18
+      },
+      {
+        "code": "N7",
+        "label": "Notifications",
+        "x": 1118,
+        "y": 6,
+        "w": 121,
+        "h": 22
+      },
+      {
+        "code": "N8",
+        "label": "Speak to everyone",
+        "x": 1247,
+        "y": 6,
+        "w": 91,
+        "h": 23
+      },
+      {
+        "code": "N2",
+        "label": "Sidebar sections",
+        "x": 8,
+        "y": 46,
+        "w": 203,
+        "h": 470
+      },
+      {
+        "code": "N3",
+        "label": "Sidebar foot: SYS and the portal",
+        "x": 8,
+        "y": 711,
+        "w": 203,
+        "h": 179
+      },
+      {
+        "code": "N4",
+        "label": "Tabs",
+        "x": 234,
+        "y": 43,
+        "w": 772,
+        "h": 32
+      },
+      {
+        "code": "C1",
+        "label": "Context",
+        "x": 1018,
+        "y": 42,
+        "w": 410,
+        "h": 27
+      },
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 92,
+        "w": 816,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Summary and filters",
+        "x": 242,
+        "y": 135,
+        "w": 816,
+        "h": 92
+      },
+      {
+        "code": "P3",
+        "label": "Records",
+        "x": 242,
+        "y": 241,
+        "w": 816,
+        "h": 591
+      },
+      {
+        "code": "T1",
+        "label": "Tray",
+        "x": 1080,
+        "y": 76,
+        "w": 360,
+        "h": 824
+      }
+    ]
+  },
+  "0.5b": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "N1",
+        "label": "Compact bar",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 36
+      },
+      {
+        "code": "N5",
+        "label": "Logo: Home",
+        "x": 87,
+        "y": 4,
+        "w": 117,
+        "h": 26
+      },
+      {
+        "code": "N6",
+        "label": "Presence",
+        "x": 206,
+        "y": 9,
+        "w": 47,
+        "h": 18
+      },
+      {
+        "code": "N7",
+        "label": "Notifications",
+        "x": 1137,
+        "y": 6,
+        "w": 102,
+        "h": 22
+      },
+      {
+        "code": "N8",
+        "label": "Speak to everyone",
+        "x": 1247,
+        "y": 6,
+        "w": 91,
+        "h": 23
+      },
+      {
+        "code": "N2",
+        "label": "Sidebar sections",
+        "x": 8,
+        "y": 46,
+        "w": 203,
+        "h": 470
+      },
+      {
+        "code": "N3",
+        "label": "Sidebar foot: SYS and the portal",
+        "x": 8,
+        "y": 711,
+        "w": 203,
+        "h": 179
+      },
+      {
+        "code": "N4",
+        "label": "Tabs",
+        "x": 234,
+        "y": 43,
+        "w": 772,
+        "h": 32
+      },
+      {
+        "code": "C1",
+        "label": "Context",
+        "x": 1018,
+        "y": 42,
+        "w": 410,
+        "h": 27
+      },
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 92,
+        "w": 1176,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Toolbar",
+        "x": 243,
+        "y": 136,
+        "w": 1174,
+        "h": 46
+      },
+      {
+        "code": "P3",
+        "label": "The map",
+        "x": 243,
+        "y": 182,
+        "w": 1174,
+        "h": 699
+      }
+    ]
+  },
+  "0.5c": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "N1",
+        "label": "Compact bar",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 36
+      },
+      {
+        "code": "N5",
+        "label": "Logo: Home",
+        "x": 87,
+        "y": 4,
+        "w": 117,
+        "h": 26
+      },
+      {
+        "code": "N6",
+        "label": "Presence",
+        "x": 206,
+        "y": 6,
+        "w": 204,
+        "h": 22
+      },
+      {
+        "code": "T2",
+        "label": "Pop-out: floats",
+        "x": 206,
+        "y": 35,
+        "w": 380,
+        "h": 338
+      },
+      {
+        "code": "N7",
+        "label": "Notifications",
+        "x": 1118,
+        "y": 6,
+        "w": 121,
+        "h": 22
+      },
+      {
+        "code": "N8",
+        "label": "Speak to everyone",
+        "x": 1247,
+        "y": 6,
+        "w": 91,
+        "h": 23
+      },
+      {
+        "code": "N2",
+        "label": "Sidebar sections",
+        "x": 8,
+        "y": 46,
+        "w": 203,
+        "h": 470
+      },
+      {
+        "code": "N3",
+        "label": "Sidebar foot: SYS and the portal",
+        "x": 8,
+        "y": 711,
+        "w": 203,
+        "h": 179
+      },
+      {
+        "code": "N4",
+        "label": "Tabs",
+        "x": 234,
+        "y": 43,
+        "w": 772,
+        "h": 32
+      },
+      {
+        "code": "C1",
+        "label": "Context",
+        "x": 1018,
+        "y": 42,
+        "w": 410,
+        "h": 27
+      },
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 92,
+        "w": 816,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Summary and filters",
+        "x": 242,
+        "y": 135,
+        "w": 816,
+        "h": 92
+      },
+      {
+        "code": "P3",
+        "label": "Jobs by territory and repository",
+        "x": 242,
+        "y": 241,
+        "w": 816,
+        "h": 237
+      },
+      {
+        "code": "T1",
+        "label": "Tray",
+        "x": 1080,
+        "y": 76,
+        "w": 360,
+        "h": 824
+      }
+    ]
+  },
+  "0.5d": {
+    "size": {
+      "w": 1440,
+      "h": 1279
+    },
+    "regions": [
+      {
+        "code": "N1",
+        "label": "Compact bar",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 36
+      },
+      {
+        "code": "N5",
+        "label": "Logo: Home",
+        "x": 87,
+        "y": 4,
+        "w": 117,
+        "h": 26
+      },
+      {
+        "code": "N6",
+        "label": "Presence",
+        "x": 206,
+        "y": 6,
+        "w": 204,
+        "h": 22
+      },
+      {
+        "code": "N7",
+        "label": "Notifications",
+        "x": 1118,
+        "y": 6,
+        "w": 121,
+        "h": 22
+      },
+      {
+        "code": "N8",
+        "label": "Speak to everyone",
+        "x": 1247,
+        "y": 6,
+        "w": 91,
+        "h": 23
+      },
+      {
+        "code": "N2",
+        "label": "Sidebar sections",
+        "x": 8,
+        "y": 46,
+        "w": 203,
+        "h": 470
+      },
+      {
+        "code": "N3",
+        "label": "Sidebar foot: SYS and the portal",
+        "x": 8,
+        "y": 1084,
+        "w": 203,
+        "h": 179
+      },
+      {
+        "code": "N4",
+        "label": "Tabs",
+        "x": 234,
+        "y": 43,
+        "w": 772,
+        "h": 32
+      },
+      {
+        "code": "C1",
+        "label": "Context",
+        "x": 1018,
+        "y": 42,
+        "w": 410,
+        "h": 27
+      },
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 92,
+        "w": 1176,
+        "h": 106
+      },
+      {
+        "code": "P2",
+        "label": "Needs a look",
+        "x": 242,
+        "y": 212,
+        "w": 1176,
+        "h": 215
+      },
+      {
+        "code": "P3",
+        "label": "Who holds what",
+        "x": 242,
+        "y": 441,
+        "w": 1176,
+        "h": 472
+      },
+      {
+        "code": "P4",
+        "label": "Footnotes: where a record and the catalogue disagree",
+        "x": 242,
+        "y": 921,
+        "w": 1176,
+        "h": 114
+      },
+      {
+        "code": "P5",
+        "label": "Yours to approve",
+        "x": 242,
+        "y": 1049,
+        "w": 1176,
+        "h": 212
+      }
+    ]
+  },
+  "0.5e": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "N1",
         "label": "Toolbar",
         "x": 0,
         "y": 0,
@@ -788,174 +1572,6 @@
         "y": 711,
         "w": 203,
         "h": 179
-      },
-      {
-        "code": "N4",
-        "label": "Tabs",
-        "x": 234,
-        "y": 55,
-        "w": 772,
-        "h": 32
-      },
-      {
-        "code": "C1",
-        "label": "Context",
-        "x": 1018,
-        "y": 54,
-        "w": 410,
-        "h": 27
-      },
-      {
-        "code": "P1",
-        "label": "Page header",
-        "x": 242,
-        "y": 104,
-        "w": 1176,
-        "h": 29
-      },
-      {
-        "code": "P2",
-        "label": "Toolbar",
-        "x": 243,
-        "y": 148,
-        "w": 1174,
-        "h": 46
-      },
-      {
-        "code": "P3",
-        "label": "The map",
-        "x": 243,
-        "y": 194,
-        "w": 1174,
-        "h": 687
-      }
-    ]
-  },
-  "0.4b": {
-    "size": {
-      "w": 1440,
-      "h": 900
-    },
-    "regions": [
-      {
-        "code": "N1",
-        "label": "Toolbar",
-        "x": 0,
-        "y": 0,
-        "w": 1440,
-        "h": 48
-      },
-      {
-        "code": "N5",
-        "label": "Logo: Home",
-        "x": 99,
-        "y": 10,
-        "w": 126,
-        "h": 28
-      },
-      {
-        "code": "N2",
-        "label": "Sidebar sections",
-        "x": 6,
-        "y": 58,
-        "w": 43,
-        "h": 447
-      },
-      {
-        "code": "N3",
-        "label": "Sidebar foot: SYS and the portal",
-        "x": 6,
-        "y": 700,
-        "w": 43,
-        "h": 190
-      },
-      {
-        "code": "N4",
-        "label": "Tabs",
-        "x": 70,
-        "y": 55,
-        "w": 936,
-        "h": 32
-      },
-      {
-        "code": "C1",
-        "label": "Context",
-        "x": 1018,
-        "y": 54,
-        "w": 410,
-        "h": 27
-      },
-      {
-        "code": "P1",
-        "label": "Page header",
-        "x": 78,
-        "y": 104,
-        "w": 980,
-        "h": 29
-      },
-      {
-        "code": "P2",
-        "label": "Summary and filters",
-        "x": 78,
-        "y": 147,
-        "w": 980,
-        "h": 92
-      },
-      {
-        "code": "P3",
-        "label": "Jobs by territory and repository",
-        "x": 78,
-        "y": 253,
-        "w": 980,
-        "h": 237
-      },
-      {
-        "code": "T1",
-        "label": "Tray",
-        "x": 1080,
-        "y": 88,
-        "w": 360,
-        "h": 812
-      }
-    ]
-  },
-  "0.4c": {
-    "size": {
-      "w": 1440,
-      "h": 900
-    },
-    "regions": [
-      {
-        "code": "N1",
-        "label": "Toolbar",
-        "x": 0,
-        "y": 0,
-        "w": 1440,
-        "h": 48
-      },
-      {
-        "code": "N5",
-        "label": "Logo: Home",
-        "x": 99,
-        "y": 10,
-        "w": 126,
-        "h": 28
-      },
-      {
-        "code": "N2",
-        "label": "Sidebar sections",
-        "x": 8,
-        "y": 58,
-        "w": 203,
-        "h": 470
-      },
-      {
-        "code": "N3",
-        "label": "Sidebar foot: SYS and the portal",
-        "x": 8,
-        "y": 792,
-        "w": 203,
-        "h": 98
       },
       {
         "code": "N4",
@@ -1010,14 +1626,14 @@
   "1f": {
     "size": {
       "w": 1440,
-      "h": 927
+      "h": 915
     },
     "regions": [
       {
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -1025,7 +1641,7 @@
         "code": "P2",
         "label": "Toolbar",
         "x": 243,
-        "y": 148,
+        "y": 136,
         "w": 854,
         "h": 46
       },
@@ -1033,7 +1649,7 @@
         "code": "P3",
         "label": "The map",
         "x": 243,
-        "y": 194,
+        "y": 182,
         "w": 854,
         "h": 663
       },
@@ -1041,7 +1657,7 @@
         "code": "P6",
         "label": "Pan and zoom",
         "x": 724,
-        "y": 202,
+        "y": 190,
         "w": 363,
         "h": 21
       },
@@ -1049,7 +1665,7 @@
         "code": "P5",
         "label": "Key",
         "x": 243,
-        "y": 857,
+        "y": 845,
         "w": 854,
         "h": 51
       },
@@ -1057,7 +1673,7 @@
         "code": "P4",
         "label": "Island detail",
         "x": 1114,
-        "y": 147,
+        "y": 135,
         "w": 304,
         "h": 762
       }
@@ -1066,14 +1682,14 @@
   "1g": {
     "size": {
       "w": 1440,
-      "h": 927
+      "h": 915
     },
     "regions": [
       {
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -1081,7 +1697,7 @@
         "code": "P2",
         "label": "Toolbar",
         "x": 243,
-        "y": 148,
+        "y": 136,
         "w": 854,
         "h": 46
       },
@@ -1089,7 +1705,7 @@
         "code": "P3",
         "label": "The map",
         "x": 243,
-        "y": 194,
+        "y": 182,
         "w": 854,
         "h": 663
       },
@@ -1097,7 +1713,7 @@
         "code": "P6",
         "label": "Pan and zoom",
         "x": 724,
-        "y": 202,
+        "y": 190,
         "w": 363,
         "h": 21
       },
@@ -1105,7 +1721,7 @@
         "code": "P5",
         "label": "Key",
         "x": 243,
-        "y": 857,
+        "y": 845,
         "w": 854,
         "h": 51
       },
@@ -1113,7 +1729,7 @@
         "code": "P4",
         "label": "Island detail",
         "x": 1114,
-        "y": 147,
+        "y": 135,
         "w": 304,
         "h": 762
       }
@@ -1122,14 +1738,14 @@
   "1h": {
     "size": {
       "w": 1440,
-      "h": 927
+      "h": 915
     },
     "regions": [
       {
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -1137,7 +1753,7 @@
         "code": "P2",
         "label": "Toolbar",
         "x": 243,
-        "y": 148,
+        "y": 136,
         "w": 854,
         "h": 46
       },
@@ -1145,7 +1761,7 @@
         "code": "P3",
         "label": "The map",
         "x": 243,
-        "y": 194,
+        "y": 182,
         "w": 854,
         "h": 663
       },
@@ -1153,7 +1769,7 @@
         "code": "P6",
         "label": "Overview and pan",
         "x": 895,
-        "y": 677,
+        "y": 665,
         "w": 192,
         "h": 170
       },
@@ -1161,7 +1777,7 @@
         "code": "P5",
         "label": "Key",
         "x": 243,
-        "y": 857,
+        "y": 845,
         "w": 854,
         "h": 51
       },
@@ -1169,7 +1785,7 @@
         "code": "P4",
         "label": "Island detail",
         "x": 1114,
-        "y": 147,
+        "y": 135,
         "w": 304,
         "h": 762
       }
@@ -1185,7 +1801,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 31
       },
@@ -1193,15 +1809,15 @@
         "code": "P2",
         "label": "The map",
         "x": 242,
-        "y": 149,
+        "y": 137,
         "w": 892,
         "h": 714
       },
       {
         "code": "P3",
-        "label": "At a glance",
+        "label": "The key",
         "x": 1150,
-        "y": 149,
+        "y": 137,
         "w": 268,
         "h": 714
       }
@@ -1217,7 +1833,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 31
       },
@@ -1225,15 +1841,15 @@
         "code": "P2",
         "label": "The map",
         "x": 242,
-        "y": 149,
+        "y": 137,
         "w": 892,
         "h": 714
       },
       {
         "code": "P3",
-        "label": "At a glance",
+        "label": "The key",
         "x": 1150,
-        "y": 149,
+        "y": 137,
         "w": 268,
         "h": 714
       }
@@ -1249,7 +1865,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 31
       },
@@ -1257,15 +1873,15 @@
         "code": "P2",
         "label": "The map",
         "x": 242,
-        "y": 149,
+        "y": 137,
         "w": 892,
         "h": 714
       },
       {
         "code": "P3",
-        "label": "At a glance",
+        "label": "The key",
         "x": 1150,
-        "y": 149,
+        "y": 137,
         "w": 268,
         "h": 714
       }
@@ -1281,7 +1897,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -1289,7 +1905,7 @@
         "code": "P2",
         "label": "Knowledge Islands",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 381,
         "h": 379
       },
@@ -1297,7 +1913,7 @@
         "code": "P3",
         "label": "Humans Not Robots",
         "x": 639,
-        "y": 147,
+        "y": 135,
         "w": 381,
         "h": 379
       },
@@ -1305,7 +1921,7 @@
         "code": "P4",
         "label": "Personal",
         "x": 1037,
-        "y": 147,
+        "y": 135,
         "w": 381,
         "h": 379
       },
@@ -1313,7 +1929,7 @@
         "code": "P5",
         "label": "The planar portal",
         "x": 242,
-        "y": 540,
+        "y": 528,
         "w": 1176,
         "h": 41
       }
@@ -1322,14 +1938,14 @@
   "1c": {
     "size": {
       "w": 1440,
-      "h": 923
+      "h": 911
     },
     "regions": [
       {
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 31
       },
@@ -1337,7 +1953,7 @@
         "code": "P2",
         "label": "The two squares",
         "x": 242,
-        "y": 149,
+        "y": 137,
         "w": 800,
         "h": 471
       },
@@ -1345,7 +1961,7 @@
         "code": "P3",
         "label": "Needs a look",
         "x": 1058,
-        "y": 149,
+        "y": 137,
         "w": 360,
         "h": 153
       },
@@ -1353,7 +1969,7 @@
         "code": "P4",
         "label": "Waits on you",
         "x": 1058,
-        "y": 318,
+        "y": 306,
         "w": 360,
         "h": 301
       },
@@ -1361,7 +1977,7 @@
         "code": "P5",
         "label": "Just said",
         "x": 242,
-        "y": 633,
+        "y": 621,
         "w": 1176,
         "h": 271
       }
@@ -1370,14 +1986,14 @@
   "2.1a": {
     "size": {
       "w": 1440,
-      "h": 1069
+      "h": 1057
     },
     "regions": [
       {
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 30
       },
@@ -1385,7 +2001,7 @@
         "code": "P2",
         "label": "Agents by Mac",
         "x": 242,
-        "y": 148,
+        "y": 136,
         "w": 1176,
         "h": 703
       },
@@ -1393,7 +2009,7 @@
         "code": "P3",
         "label": "Selected agent",
         "x": 242,
-        "y": 865,
+        "y": 853,
         "w": 1176,
         "h": 186
       }
@@ -1409,7 +2025,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 30
       },
@@ -1417,7 +2033,7 @@
         "code": "P2",
         "label": "Focus areas and their agents",
         "x": 242,
-        "y": 148,
+        "y": 136,
         "w": 1176,
         "h": 678
       },
@@ -1425,7 +2041,7 @@
         "code": "P3",
         "label": "Routing note",
         "x": 242,
-        "y": 852,
+        "y": 840,
         "w": 1176,
         "h": 17
       }
@@ -1434,14 +2050,14 @@
   "2.2a": {
     "size": {
       "w": 1440,
-      "h": 964
+      "h": 952
     },
     "regions": [
       {
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 31
       },
@@ -1449,7 +2065,7 @@
         "code": "P2",
         "label": "Focus areas",
         "x": 242,
-        "y": 149,
+        "y": 137,
         "w": 381,
         "h": 312
       },
@@ -1457,7 +2073,7 @@
         "code": "P3",
         "label": "Listening",
         "x": 639,
-        "y": 149,
+        "y": 137,
         "w": 381,
         "h": 312
       },
@@ -1465,7 +2081,7 @@
         "code": "P4",
         "label": "With it now",
         "x": 1037,
-        "y": 149,
+        "y": 137,
         "w": 381,
         "h": 312
       },
@@ -1473,7 +2089,7 @@
         "code": "P5",
         "label": "Said with it",
         "x": 242,
-        "y": 475,
+        "y": 463,
         "w": 1176,
         "h": 198
       },
@@ -1481,7 +2097,7 @@
         "code": "P6",
         "label": "Waits on you",
         "x": 242,
-        "y": 687,
+        "y": 675,
         "w": 1176,
         "h": 259
       }
@@ -1497,7 +2113,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 30
       },
@@ -1505,7 +2121,7 @@
         "code": "P2",
         "label": "Everything said, newest first",
         "x": 242,
-        "y": 148,
+        "y": 136,
         "w": 1176,
         "h": 369
       },
@@ -1513,7 +2129,7 @@
         "code": "P3",
         "label": "Layer note",
         "x": 242,
-        "y": 543,
+        "y": 531,
         "w": 1176,
         "h": 17
       }
@@ -1529,7 +2145,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -1537,7 +2153,7 @@
         "code": "P2",
         "label": "Durable: Git",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 580,
         "h": 300
       },
@@ -1545,7 +2161,7 @@
         "code": "P3",
         "label": "Conversational: Agora",
         "x": 838,
-        "y": 147,
+        "y": 135,
         "w": 580,
         "h": 300
       }
@@ -1561,7 +2177,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 31
       },
@@ -1569,7 +2185,7 @@
         "code": "P2",
         "label": "Broadcasts sent",
         "x": 242,
-        "y": 149,
+        "y": 137,
         "w": 780,
         "h": 510
       },
@@ -1577,7 +2193,7 @@
         "code": "P3",
         "label": "Who heard the ping",
         "x": 1038,
-        "y": 149,
+        "y": 137,
         "w": 380,
         "h": 510
       }
@@ -1593,7 +2209,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 30
       },
@@ -1601,7 +2217,7 @@
         "code": "P2",
         "label": "Queries by agent",
         "x": 242,
-        "y": 148,
+        "y": 136,
         "w": 1176,
         "h": 477
       },
@@ -1609,7 +2225,7 @@
         "code": "P3",
         "label": "Answering note",
         "x": 242,
-        "y": 651,
+        "y": 639,
         "w": 1176,
         "h": 17
       }
@@ -1625,7 +2241,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 30
       },
@@ -1633,7 +2249,7 @@
         "code": "P2",
         "label": "Queries oldest first",
         "x": 242,
-        "y": 148,
+        "y": 136,
         "w": 1176,
         "h": 451
       }
@@ -1649,7 +2265,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 31
       },
@@ -1657,7 +2273,7 @@
         "code": "P2",
         "label": "The two squares",
         "x": 242,
-        "y": 149,
+        "y": 137,
         "w": 1176,
         "h": 410
       },
@@ -1665,7 +2281,7 @@
         "code": "P3",
         "label": "sol, this Mac",
         "x": 242,
-        "y": 573,
+        "y": 561,
         "w": 381,
         "h": 236
       },
@@ -1673,7 +2289,7 @@
         "code": "P4",
         "label": "The portal",
         "x": 639,
-        "y": 573,
+        "y": 561,
         "w": 381,
         "h": 236
       },
@@ -1681,7 +2297,7 @@
         "code": "P5",
         "label": "terra",
         "x": 1037,
-        "y": 573,
+        "y": 561,
         "w": 381,
         "h": 236
       }
@@ -1697,7 +2313,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 31
       },
@@ -1705,7 +2321,7 @@
         "code": "P2",
         "label": "Checkouts by repository",
         "x": 242,
-        "y": 149,
+        "y": 137,
         "w": 1176,
         "h": 221
       },
@@ -1713,7 +2329,7 @@
         "code": "P3",
         "label": "Selected checkout",
         "x": 242,
-        "y": 384,
+        "y": 372,
         "w": 1176,
         "h": 98
       }
@@ -1729,7 +2345,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -1737,7 +2353,7 @@
         "code": "P2",
         "label": "The document",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 860,
         "h": 352
       },
@@ -1745,7 +2361,7 @@
         "code": "P3",
         "label": "About this document",
         "x": 1118,
-        "y": 147,
+        "y": 135,
         "w": 300,
         "h": 352
       }
@@ -1761,7 +2377,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 816,
         "h": 29
       },
@@ -1769,7 +2385,7 @@
         "code": "P2",
         "label": "Summary and filters",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 816,
         "h": 92
       },
@@ -1777,7 +2393,7 @@
         "code": "P3",
         "label": "Records",
         "x": 242,
-        "y": 253,
+        "y": 241,
         "w": 816,
         "h": 591
       },
@@ -1785,9 +2401,9 @@
         "code": "T1",
         "label": "Tray",
         "x": 1080,
-        "y": 88,
+        "y": 76,
         "w": 360,
-        "h": 812
+        "h": 824
       }
     ]
   },
@@ -1801,7 +2417,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -1809,7 +2425,7 @@
         "code": "P2",
         "label": "Summary: each cell a filter",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 330,
         "h": 378
       },
@@ -1817,7 +2433,7 @@
         "code": "P3",
         "label": "Chips and words",
         "x": 588,
-        "y": 147,
+        "y": 135,
         "w": 830,
         "h": 60
       },
@@ -1825,7 +2441,7 @@
         "code": "P4",
         "label": "Records",
         "x": 588,
-        "y": 217,
+        "y": 205,
         "w": 830,
         "h": 252
       }
@@ -1841,7 +2457,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -1849,7 +2465,7 @@
         "code": "P2",
         "label": "Summary and filters",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 1176,
         "h": 92
       },
@@ -1857,7 +2473,7 @@
         "code": "P3",
         "label": "Records",
         "x": 242,
-        "y": 253,
+        "y": 241,
         "w": 1176,
         "h": 250
       }
@@ -1873,7 +2489,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 816,
         "h": 29
       },
@@ -1881,7 +2497,7 @@
         "code": "P2",
         "label": "Summary and filters",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 816,
         "h": 92
       },
@@ -1889,7 +2505,7 @@
         "code": "P3",
         "label": "Records",
         "x": 242,
-        "y": 253,
+        "y": 241,
         "w": 816,
         "h": 591
       },
@@ -1897,9 +2513,9 @@
         "code": "T1",
         "label": "Tray",
         "x": 1080,
-        "y": 88,
+        "y": 76,
         "w": 360,
-        "h": 812
+        "h": 824
       }
     ]
   },
@@ -1913,7 +2529,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -1921,7 +2537,7 @@
         "code": "P2",
         "label": "Summary and filters",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 1176,
         "h": 92
       },
@@ -1929,7 +2545,7 @@
         "code": "P3",
         "label": "No records",
         "x": 242,
-        "y": 253,
+        "y": 241,
         "w": 1176,
         "h": 300
       }
@@ -1945,7 +2561,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 816,
         "h": 29
       },
@@ -1953,7 +2569,7 @@
         "code": "P2",
         "label": "Summary and filters",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 816,
         "h": 92
       },
@@ -1961,7 +2577,7 @@
         "code": "P3",
         "label": "Jobs by territory and repository",
         "x": 242,
-        "y": 253,
+        "y": 241,
         "w": 816,
         "h": 237
       },
@@ -1977,9 +2593,9 @@
         "code": "T1",
         "label": "Tray",
         "x": 1080,
-        "y": 88,
+        "y": 76,
         "w": 360,
-        "h": 812
+        "h": 824
       }
     ]
   },
@@ -1993,7 +2609,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -2001,7 +2617,7 @@
         "code": "P2",
         "label": "Summary and filters",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 1176,
         "h": 92
       },
@@ -2009,7 +2625,7 @@
         "code": "P3",
         "label": "Jobs, each Mac a column",
         "x": 242,
-        "y": 253,
+        "y": 241,
         "w": 1176,
         "h": 618
       }
@@ -2025,7 +2641,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -2033,7 +2649,7 @@
         "code": "P2",
         "label": "Summary and filters",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 1176,
         "h": 92
       },
@@ -2041,7 +2657,7 @@
         "code": "P3",
         "label": "Jobs by territory and repository",
         "x": 242,
-        "y": 253,
+        "y": 241,
         "w": 1176,
         "h": 234
       }
@@ -2057,7 +2673,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 816,
         "h": 29
       },
@@ -2065,7 +2681,7 @@
         "code": "P2",
         "label": "Summary and filters",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 816,
         "h": 92
       },
@@ -2073,7 +2689,7 @@
         "code": "P3",
         "label": "Jobs by territory and repository",
         "x": 242,
-        "y": 253,
+        "y": 241,
         "w": 816,
         "h": 500
       },
@@ -2081,9 +2697,9 @@
         "code": "T1",
         "label": "Tray",
         "x": 1080,
-        "y": 88,
+        "y": 76,
         "w": 360,
-        "h": 812
+        "h": 824
       }
     ]
   },
@@ -2097,7 +2713,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -2105,15 +2721,15 @@
         "code": "P2",
         "label": "Guild badges",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 1176,
-        "h": 127
+        "h": 108
       },
       {
         "code": "P3",
         "label": "The guild’s skills",
         "x": 242,
-        "y": 288,
+        "y": 257,
         "w": 1176,
         "h": 86
       },
@@ -2137,7 +2753,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -2145,9 +2761,9 @@
         "code": "P2",
         "label": "Guild columns, sideways",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 1176,
-        "h": 315
+        "h": 327
       },
       {
         "code": "B1",
@@ -2169,7 +2785,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -2177,15 +2793,15 @@
         "code": "P2",
         "label": "Guild badges",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 1176,
-        "h": 127
+        "h": 108
       },
       {
         "code": "P3",
         "label": "Every guild’s skills",
         "x": 242,
-        "y": 288,
+        "y": 257,
         "w": 1176,
         "h": 496
       }
@@ -2201,7 +2817,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -2209,15 +2825,15 @@
         "code": "P2",
         "label": "Guild badges",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 1176,
-        "h": 127
+        "h": 108
       },
       {
         "code": "P3",
         "label": "The guild’s skills",
         "x": 242,
-        "y": 288,
+        "y": 257,
         "w": 1176,
         "h": 55
       },
@@ -2241,7 +2857,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -2249,15 +2865,15 @@
         "code": "P2",
         "label": "Guild badges",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 1176,
-        "h": 127
+        "h": 108
       },
       {
         "code": "P3",
         "label": "The guild’s skills",
         "x": 242,
-        "y": 288,
+        "y": 257,
         "w": 1176,
         "h": 86
       },
@@ -2274,22 +2890,22 @@
   "9.1a": {
     "size": {
       "w": 1440,
-      "h": 1216
+      "h": 1279
     },
     "regions": [
       {
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
-        "h": 31
+        "h": 106
       },
       {
         "code": "P2",
         "label": "Needs a look",
         "x": 242,
-        "y": 149,
+        "y": 212,
         "w": 1176,
         "h": 215
       },
@@ -2297,7 +2913,7 @@
         "code": "P3",
         "label": "Who holds what",
         "x": 242,
-        "y": 378,
+        "y": 441,
         "w": 1176,
         "h": 472
       },
@@ -2305,7 +2921,7 @@
         "code": "P4",
         "label": "Footnotes: where a record and the catalogue disagree",
         "x": 242,
-        "y": 858,
+        "y": 921,
         "w": 1176,
         "h": 114
       },
@@ -2313,7 +2929,7 @@
         "code": "P5",
         "label": "Yours to approve",
         "x": 242,
-        "y": 986,
+        "y": 1049,
         "w": 1176,
         "h": 212
       }
@@ -2322,22 +2938,22 @@
   "9.1b": {
     "size": {
       "w": 1440,
-      "h": 1275
+      "h": 1339
     },
     "regions": [
       {
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
-        "h": 31
+        "h": 106
       },
       {
         "code": "P2",
         "label": "Needs a look",
         "x": 242,
-        "y": 149,
+        "y": 212,
         "w": 1176,
         "h": 215
       },
@@ -2345,7 +2961,7 @@
         "code": "P3",
         "label": "Who holds what, by rig",
         "x": 242,
-        "y": 378,
+        "y": 441,
         "w": 1176,
         "h": 531
       },
@@ -2353,7 +2969,7 @@
         "code": "P4",
         "label": "Footnotes: where a record and the catalogue disagree",
         "x": 242,
-        "y": 917,
+        "y": 981,
         "w": 1176,
         "h": 114
       },
@@ -2361,7 +2977,7 @@
         "code": "P5",
         "label": "Yours to approve",
         "x": 242,
-        "y": 1045,
+        "y": 1109,
         "w": 1176,
         "h": 212
       }
@@ -2370,14 +2986,14 @@
   "9.1c": {
     "size": {
       "w": 1440,
-      "h": 1383
+      "h": 1371
     },
     "regions": [
       {
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 816,
         "h": 126
       },
@@ -2385,7 +3001,7 @@
         "code": "P2",
         "label": "Needs a look",
         "x": 242,
-        "y": 244,
+        "y": 232,
         "w": 816,
         "h": 260
       },
@@ -2393,7 +3009,7 @@
         "code": "P3",
         "label": "Who holds what",
         "x": 242,
-        "y": 519,
+        "y": 507,
         "w": 816,
         "h": 472
       },
@@ -2401,7 +3017,7 @@
         "code": "P4",
         "label": "Footnotes: where a record and the catalogue disagree",
         "x": 242,
-        "y": 999,
+        "y": 987,
         "w": 816,
         "h": 149
       },
@@ -2409,7 +3025,7 @@
         "code": "P5",
         "label": "Yours to approve",
         "x": 242,
-        "y": 1161,
+        "y": 1149,
         "w": 816,
         "h": 203
       },
@@ -2417,7 +3033,7 @@
         "code": "T1",
         "label": "Tray",
         "x": 1080,
-        "y": 88,
+        "y": 76,
         "w": 360,
         "h": 1295
       }
@@ -2490,14 +3106,14 @@
   "1f-light": {
     "size": {
       "w": 1440,
-      "h": 927
+      "h": 915
     },
     "regions": [
       {
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -2505,7 +3121,7 @@
         "code": "P2",
         "label": "Toolbar",
         "x": 243,
-        "y": 148,
+        "y": 136,
         "w": 854,
         "h": 46
       },
@@ -2513,7 +3129,7 @@
         "code": "P3",
         "label": "The map",
         "x": 243,
-        "y": 194,
+        "y": 182,
         "w": 854,
         "h": 663
       },
@@ -2521,7 +3137,7 @@
         "code": "P6",
         "label": "Pan and zoom",
         "x": 724,
-        "y": 202,
+        "y": 190,
         "w": 363,
         "h": 21
       },
@@ -2529,7 +3145,7 @@
         "code": "P5",
         "label": "Key",
         "x": 243,
-        "y": 857,
+        "y": 845,
         "w": 854,
         "h": 51
       },
@@ -2537,7 +3153,7 @@
         "code": "P4",
         "label": "Island detail",
         "x": 1114,
-        "y": 147,
+        "y": 135,
         "w": 304,
         "h": 762
       }
@@ -2546,14 +3162,14 @@
   "1f-none": {
     "size": {
       "w": 1440,
-      "h": 927
+      "h": 915
     },
     "regions": [
       {
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -2561,7 +3177,7 @@
         "code": "P2",
         "label": "Toolbar",
         "x": 243,
-        "y": 148,
+        "y": 136,
         "w": 854,
         "h": 46
       },
@@ -2569,7 +3185,7 @@
         "code": "P3",
         "label": "The map",
         "x": 243,
-        "y": 194,
+        "y": 182,
         "w": 854,
         "h": 663
       },
@@ -2577,7 +3193,7 @@
         "code": "P6",
         "label": "Pan and zoom",
         "x": 724,
-        "y": 202,
+        "y": 190,
         "w": 363,
         "h": 21
       },
@@ -2585,15 +3201,15 @@
         "code": "P5",
         "label": "Key",
         "x": 243,
-        "y": 857,
+        "y": 845,
         "w": 854,
         "h": 51
       },
       {
         "code": "P4",
-        "label": "At a glance",
+        "label": "The key",
         "x": 1114,
-        "y": 147,
+        "y": 135,
         "w": 304,
         "h": 762
       }
@@ -2609,7 +3225,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -2617,7 +3233,7 @@
         "code": "P2",
         "label": "Summary and filters",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 1176,
         "h": 92
       },
@@ -2625,7 +3241,7 @@
         "code": "P3",
         "label": "Jobs by territory and repository",
         "x": 242,
-        "y": 253,
+        "y": 241,
         "w": 1176,
         "h": 401
       }
@@ -2641,7 +3257,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 816,
         "h": 29
       },
@@ -2649,7 +3265,7 @@
         "code": "P2",
         "label": "Summary and filters",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 816,
         "h": 92
       },
@@ -2657,7 +3273,7 @@
         "code": "P3",
         "label": "Records",
         "x": 242,
-        "y": 253,
+        "y": 241,
         "w": 816,
         "h": 591
       },
@@ -2665,9 +3281,9 @@
         "code": "T1",
         "label": "Tray",
         "x": 1080,
-        "y": 88,
+        "y": 76,
         "w": 360,
-        "h": 812
+        "h": 824
       }
     ]
   },
@@ -2681,7 +3297,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 816,
         "h": 29
       },
@@ -2689,7 +3305,7 @@
         "code": "P2",
         "label": "Summary and filters",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 816,
         "h": 92
       },
@@ -2697,7 +3313,7 @@
         "code": "P3",
         "label": "Jobs by territory and repository",
         "x": 242,
-        "y": 253,
+        "y": 241,
         "w": 816,
         "h": 237
       },
@@ -2713,9 +3329,9 @@
         "code": "T1",
         "label": "Tray",
         "x": 1080,
-        "y": 88,
+        "y": 76,
         "w": 360,
-        "h": 812
+        "h": 824
       }
     ]
   },
@@ -2729,7 +3345,7 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -2737,15 +3353,15 @@
         "code": "P2",
         "label": "Guild badges",
         "x": 242,
-        "y": 147,
+        "y": 135,
         "w": 1176,
-        "h": 127
+        "h": 108
       },
       {
         "code": "P3",
         "label": "The guild’s skills",
         "x": 242,
-        "y": 288,
+        "y": 257,
         "w": 1176,
         "h": 86
       },
@@ -2759,7 +3375,7 @@
       }
     ]
   },
-  "0.4a-light": {
+  "0.5a-light": {
     "size": {
       "w": 1440,
       "h": 900
@@ -2767,25 +3383,49 @@
     "regions": [
       {
         "code": "N1",
-        "label": "Toolbar",
+        "label": "Compact bar",
         "x": 0,
         "y": 0,
         "w": 1440,
-        "h": 48
+        "h": 36
       },
       {
         "code": "N5",
         "label": "Logo: Home",
-        "x": 99,
-        "y": 10,
-        "w": 126,
-        "h": 28
+        "x": 87,
+        "y": 4,
+        "w": 117,
+        "h": 26
+      },
+      {
+        "code": "N6",
+        "label": "Presence",
+        "x": 206,
+        "y": 9,
+        "w": 108,
+        "h": 18
+      },
+      {
+        "code": "N7",
+        "label": "Notifications",
+        "x": 1118,
+        "y": 6,
+        "w": 121,
+        "h": 22
+      },
+      {
+        "code": "N8",
+        "label": "Speak to everyone",
+        "x": 1247,
+        "y": 6,
+        "w": 91,
+        "h": 23
       },
       {
         "code": "N2",
         "label": "Sidebar sections",
         "x": 8,
-        "y": 58,
+        "y": 46,
         "w": 203,
         "h": 470
       },
@@ -2801,7 +3441,7 @@
         "code": "N4",
         "label": "Tabs",
         "x": 234,
-        "y": 55,
+        "y": 43,
         "w": 772,
         "h": 32
       },
@@ -2809,7 +3449,7 @@
         "code": "C1",
         "label": "Context",
         "x": 1018,
-        "y": 54,
+        "y": 42,
         "w": 410,
         "h": 27
       },
@@ -2817,7 +3457,119 @@
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
+        "w": 816,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Summary and filters",
+        "x": 242,
+        "y": 135,
+        "w": 816,
+        "h": 92
+      },
+      {
+        "code": "P3",
+        "label": "Records",
+        "x": 242,
+        "y": 241,
+        "w": 816,
+        "h": 591
+      },
+      {
+        "code": "T1",
+        "label": "Tray",
+        "x": 1080,
+        "y": 76,
+        "w": 360,
+        "h": 824
+      }
+    ]
+  },
+  "0.4a-light": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "N1",
+        "label": "Compact bar",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 36
+      },
+      {
+        "code": "N5",
+        "label": "Logo: Home",
+        "x": 87,
+        "y": 4,
+        "w": 117,
+        "h": 26
+      },
+      {
+        "code": "N6",
+        "label": "Presence",
+        "x": 206,
+        "y": 9,
+        "w": 108,
+        "h": 18
+      },
+      {
+        "code": "N7",
+        "label": "Notifications",
+        "x": 1118,
+        "y": 6,
+        "w": 121,
+        "h": 22
+      },
+      {
+        "code": "N8",
+        "label": "Speak to everyone",
+        "x": 1247,
+        "y": 6,
+        "w": 91,
+        "h": 23
+      },
+      {
+        "code": "N2",
+        "label": "Sidebar sections",
+        "x": 8,
+        "y": 46,
+        "w": 203,
+        "h": 470
+      },
+      {
+        "code": "N3",
+        "label": "Sidebar foot: SYS and the portal",
+        "x": 8,
+        "y": 711,
+        "w": 203,
+        "h": 179
+      },
+      {
+        "code": "N4",
+        "label": "Tabs",
+        "x": 234,
+        "y": 43,
+        "w": 772,
+        "h": 32
+      },
+      {
+        "code": "C1",
+        "label": "Context",
+        "x": 1018,
+        "y": 42,
+        "w": 410,
+        "h": 27
+      },
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 92,
         "w": 1176,
         "h": 29
       },
@@ -2825,7 +3577,7 @@
         "code": "P2",
         "label": "Toolbar",
         "x": 243,
-        "y": 148,
+        "y": 136,
         "w": 1174,
         "h": 46
       },
@@ -2833,31 +3585,31 @@
         "code": "P3",
         "label": "The map",
         "x": 243,
-        "y": 194,
+        "y": 182,
         "w": 1174,
-        "h": 687
+        "h": 699
       }
     ]
   },
   "9.1a-light": {
     "size": {
       "w": 1440,
-      "h": 1216
+      "h": 1279
     },
     "regions": [
       {
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
-        "h": 31
+        "h": 106
       },
       {
         "code": "P2",
         "label": "Needs a look",
         "x": 242,
-        "y": 149,
+        "y": 212,
         "w": 1176,
         "h": 215
       },
@@ -2865,7 +3617,7 @@
         "code": "P3",
         "label": "Who holds what",
         "x": 242,
-        "y": 378,
+        "y": 441,
         "w": 1176,
         "h": 472
       },
@@ -2873,7 +3625,7 @@
         "code": "P4",
         "label": "Footnotes: where a record and the catalogue disagree",
         "x": 242,
-        "y": 858,
+        "y": 921,
         "w": 1176,
         "h": 114
       },
@@ -2881,7 +3633,7 @@
         "code": "P5",
         "label": "Yours to approve",
         "x": 242,
-        "y": 986,
+        "y": 1049,
         "w": 1176,
         "h": 212
       }
@@ -2890,22 +3642,22 @@
   "9.1-none": {
     "size": {
       "w": 1440,
-      "h": 1079
+      "h": 1143
     },
     "regions": [
       {
         "code": "P1",
         "label": "Page header",
         "x": 242,
-        "y": 104,
+        "y": 92,
         "w": 1176,
-        "h": 31
+        "h": 106
       },
       {
         "code": "P2",
         "label": "Needs a look",
         "x": 242,
-        "y": 149,
+        "y": 212,
         "w": 1176,
         "h": 79
       },
@@ -2913,7 +3665,7 @@
         "code": "P3",
         "label": "Who holds what",
         "x": 242,
-        "y": 242,
+        "y": 305,
         "w": 1176,
         "h": 472
       },
@@ -2921,7 +3673,7 @@
         "code": "P4",
         "label": "Footnotes: where a record and the catalogue disagree",
         "x": 242,
-        "y": 721,
+        "y": 785,
         "w": 1176,
         "h": 114
       },
@@ -2929,7 +3681,7 @@
         "code": "P5",
         "label": "Yours to approve",
         "x": 242,
-        "y": 849,
+        "y": 913,
         "w": 1176,
         "h": 212
       }

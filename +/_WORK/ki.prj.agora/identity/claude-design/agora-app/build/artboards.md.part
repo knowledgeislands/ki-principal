@@ -31,6 +31,15 @@
 | [0.4.1](0.4.html#0.4.1) | Atlas shell, revised, components | Section eyebrow: open, folded, folded, something inside to look at, collapsed, collapsed and folded | component | [shots](shots/components/) |
 | [0.4.2](0.4.html#0.4.2) | Atlas shell, revised, components | Known Lands item: chosen, plain, collapsed | component | [shots](shots/components/) |
 | [0.4.3](0.4.html#0.4.3) | Atlas shell, revised, components | The logo as Home: at rest, hovered, "Home", Home open | component | [shots](shots/components/) |
+| [0.5a](0.5.html#0.5a) | Atlas bar, compact | Compact bar: two rigs as chips, 3 to look at, the indicator's tooltip | preferred | [shot](shots/0.5a.png) |
+| [0.5b](0.5.html#0.5b) | Atlas bar, compact | One rig, nothing to look at, the presence tooltip | state | [shot](shots/0.5b.png) |
+| [0.5c](0.5.html#0.5c) | Atlas bar, compact | Ten rigs, presence open as a pop-out over a pinned tray, 4 · 1 urgent | state | [shot](shots/0.5c.png) |
+| [0.5d](0.5.html#0.5d) | Atlas bar, compact | Ten rigs folded, the indicator leading to Home's Needs a look | state | [shot](shots/0.5d.png) |
+| [0.5e](0.5.html#0.5e) | Atlas bar, compact | The 0.4 toolbar, for comparison: two rows of words | alternative | [shot](shots/0.5e.png) |
+| [0.5.1](0.5.html#0.5.1) | Atlas bar, compact, components | Presence control: one rig, two rigs as chips, ten rigs, closed, ten rigs, open | component | [shots](shots/components/) |
+| [0.5.2](0.5.html#0.5.2) | Atlas bar, compact, components | Notification indicator: nothing, something to look at, something urgent | component | [shots](shots/components/) |
+| [0.5.3](0.5.html#0.5.3) | Atlas bar, compact, components | Tooltip: on the indicator, on presence, on the logo | component | [shots](shots/components/) |
+| [0.5.4](0.5.html#0.5.4) | Atlas bar, compact, components | Pinned tray and floating pop-out: the pop-out over the page, the tray pinned | component | [shots](shots/components/) |
 | [1f](1.html#1f) | Known Lands (was Home) | The working map: Focused, an island selected | preferred | [shot](shots/1f.png) |
 | [1g](1.html#1g) | Known Lands (was Home) | The working map: Everything, the planar portal selected | state | [shot](shots/1g.png) |
 | [1h](1.html#1h) | Known Lands (was Home) | The working map: closer on Humans Not Robots | state | [shot](shots/1h.png) |

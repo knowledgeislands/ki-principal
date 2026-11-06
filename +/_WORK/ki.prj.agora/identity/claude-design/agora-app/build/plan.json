@@ -73,6 +73,26 @@
       ]
     },
     {
+      "id": "0.5",
+      "title": "Atlas bar, compact",
+      "zones": [
+        "navigation",
+        "context",
+        "page",
+        "tray"
+      ],
+      "note": "Kris's review (23:05 GMT) of the toolbar: it took too much room, the sol and terra chips would not hold ten rigs, counts such as \"2 must settle\" said nothing on hover, and At a glance was unclear and popped out. The bar is now one 36-point row. The rigs are one presence control, its mark the worst state among them, opening a list of every rig; they show as chips only while three or fewer fit. The counts are one notification indicator, its count and worst state as a mark and a word, leading to Home's Needs a look (9.1), where each item says what it is and what to do. At a glance is gone: its contents are on Home. Every control has a tooltip in words. It also settles one rule for the right tray and every pop-out (IA.md, Pinned and floating): the tray pins, a pop-out floats. It matters because the bar is on every page and must still read when the group grows.",
+      "fields": [
+        "Bar (N1): window lights, sidebar, the logo (Home), presence, Find, the notification indicator, speak to everyone, the time, pin, theme; 36 points",
+        "Presence (N6): up to three rigs as chips, each a shape and its name; more as one control, \"10 rigs\", the worst mark and its word (\"1 gone\"), opening the list",
+        "Notification indicator (N7): a bell, the worst mark (✓ nothing, ◆ look, ▲ urgent) and its words (\"Nothing\", \"3 to look at\", \"4 · 1 urgent\"); click for Home's Needs a look",
+        "Speak to everyone (N8): Mark all, Away… and Broadcast… as three icon buttons, each with its tooltip",
+        "Tooltips: on every control, words only, after a short pause or on keyboard focus; never an action",
+        "Right tray (T1) pins: it opens on a chosen thing, pushes the page, and stays until × or Escape",
+        "Pop-out (T2) floats: it opens from its control over the page, never pushes, and closes on Escape, a click outside, a choice, or its control again"
+      ]
+    },
+    {
       "id": "1",
       "title": "Known Lands (was Home)",
       "zones": [
@@ -432,6 +452,65 @@
         "page",
         "tray"
       ]
+    },
+    {
+      "id": "0.5a",
+      "page": "0.5",
+      "title": "Compact bar: two rigs as chips, 3 to look at, the indicator's tooltip",
+      "zones": [
+        "navigation",
+        "context",
+        "page",
+        "tray"
+      ],
+      "preferred": true,
+      "why": "One row that still reads at ten rigs: presence and attention each become one control with its worst state as a shape and a word, the counts lead somewhere that says what to do, and every control explains itself on hover.",
+      "gains": "12 points back for the page on every screen; the bar never grows with the group; one place to look for anything that wants a look, and one click to Home's list; no count without words.",
+      "costs": "Mark all, Away… and Broadcast… lose their words to icons (their tooltips carry them); a third rig's chip must fold before a fourth can; one more click to see which rig is gone."
+    },
+    {
+      "id": "0.5b",
+      "page": "0.5",
+      "title": "One rig, nothing to look at, the presence tooltip",
+      "zones": [
+        "navigation",
+        "context",
+        "page"
+      ]
+    },
+    {
+      "id": "0.5c",
+      "page": "0.5",
+      "title": "Ten rigs, presence open as a pop-out over a pinned tray, 4 · 1 urgent",
+      "zones": [
+        "navigation",
+        "context",
+        "page",
+        "tray"
+      ]
+    },
+    {
+      "id": "0.5d",
+      "page": "0.5",
+      "title": "Ten rigs folded, the indicator leading to Home's Needs a look",
+      "zones": [
+        "navigation",
+        "context",
+        "page"
+      ]
+    },
+    {
+      "id": "0.5e",
+      "page": "0.5",
+      "title": "The 0.4 toolbar, for comparison: two rows of words",
+      "zones": [
+        "navigation",
+        "context",
+        "page",
+        "tray"
+      ],
+      "gains": "Every action has its words on the button; each rig is a chip you can read without a click; the toolbar's word (\"2 must settle\") is always in view.",
+      "costs": "48 points tall; ten rigs do not fit; \"2 must settle\" says nothing on hover and leads nowhere; a second count would need a second word."
     },
     {
       "id": "1f",
@@ -1171,6 +1250,77 @@
       ]
     },
     {
+      "id": "0.5.1",
+      "selector": ".at-presence",
+      "states": [
+        [
+          "one rig",
+          "0.5b"
+        ],
+        [
+          "two rigs as chips",
+          "0.5a"
+        ],
+        [
+          "ten rigs, closed",
+          "0.5d"
+        ],
+        [
+          "ten rigs, open",
+          "0.5c",
+          ".at-presence, .at-pop"
+        ]
+      ]
+    },
+    {
+      "id": "0.5.2",
+      "selector": ".at-notice",
+      "states": [
+        [
+          "nothing",
+          "0.5b"
+        ],
+        [
+          "something to look at",
+          "0.5a"
+        ],
+        [
+          "something urgent",
+          "0.5c"
+        ]
+      ]
+    },
+    {
+      "id": "0.5.3",
+      "selector": ".at-notice .at-tip",
+      "states": [
+        [
+          "on the indicator",
+          "0.5a"
+        ],
+        [
+          "on presence",
+          "0.5b",
+          ".at-presence, .at-presence .at-tip"
+        ],
+        [
+          "on the logo",
+          "0.4c",
+          ".at-brand, .at-brand .at-tip"
+        ]
+      ]
+    },
+    {
+      "id": "0.5.4",
+      "selector": "[data-region=\"T2\"], [data-region=\"T1\"]",
+      "states": [
+        [
+          "the pop-out over the page, the tray pinned",
+          "0.5c"
+        ]
+      ]
+    },
+    {
       "id": "0.1.1",
       "selector": "[data-region=\"N1\"]",
       "states": [
@@ -1533,6 +1683,31 @@
       "width": 1440
     },
     {
+      "shot": "0.5a",
+      "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/0.5a.html",
+      "width": 1440
+    },
+    {
+      "shot": "0.5b",
+      "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/0.5b.html",
+      "width": 1440
+    },
+    {
+      "shot": "0.5c",
+      "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/0.5c.html",
+      "width": 1440
+    },
+    {
+      "shot": "0.5d",
+      "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/0.5d.html",
+      "width": 1440
+    },
+    {
+      "shot": "0.5e",
+      "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/0.5e.html",
+      "width": 1440
+    },
+    {
       "shot": "1f",
       "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/1f.html",
       "width": 1440
@@ -1751,6 +1926,12 @@
     {
       "shot": "8.1a-light",
       "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/8.1a-light.html",
+      "width": 1440,
+      "hidden": true
+    },
+    {
+      "shot": "0.5a-light",
+      "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/0.5a-light.html",
       "width": 1440,
       "hidden": true
     },

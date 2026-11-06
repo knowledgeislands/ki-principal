@@ -129,7 +129,7 @@ def page_html(pg, abs_, comps, regions, pages):
             figs.append(f'''<figure class="ab" id="{lid}"><header><h3>{ab["id"]}, in light</h3><span class="stamp">the same artboard; night is the reference rendering</span></header>
 <div class="frame" style="width:{shot["size"]["w"]}px"><img src="shots/{lid}.png" alt="{ab["id"]} in light" width="{shot["size"]["w"]}" height="{shot["size"]["h"]}"></div></figure>''')
     zones = sorted({z for ab in abs_ for z in ab['zones']})
-    zone_words = {'navigation': 'N, navigation (teal)', 'tray': 'T, the tray (blue)', 'page': 'P, page content (brass)', 'context': 'C, the context control (slate)', 'bottom': 'B, the bottom pane (green)'}
+    zone_words = {'navigation': 'N, navigation (teal)', 'tray': 'T, the tray and pop-outs (blue)', 'page': 'P, page content (brass)', 'context': 'C, the context control (slate)', 'bottom': 'B, the bottom pane (green)'}
     return f'''<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{pg["id"]} {escape(pg["title"])} · Agora app</title><style>{CSS}</style></head>
 <body><div class="wrap">
@@ -198,6 +198,8 @@ COMPONENT_TITLES = [
     dict(id='0.4.1', title='Section eyebrow'), dict(id='0.4.2', title='Known Lands item'), dict(id='0.4.3', title='The logo as Home'),
     dict(id='9.1.1', title='Holder row'), dict(id='9.1.2', title='Needs a look'), dict(id='9.1.3', title='Yours to approve'),
     dict(id='9.1.4', title='Holder in the tray'),
+    dict(id='0.5.1', title='Presence control'), dict(id='0.5.2', title='Notification indicator'), dict(id='0.5.3', title='Tooltip'),
+    dict(id='0.5.4', title='Pinned tray and floating pop-out'),
 ]
 
 if __name__ == '__main__':
