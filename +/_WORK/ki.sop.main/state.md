@@ -11,7 +11,7 @@ listening_status: on
 workers:
   - uri: orca+claude-code://sol/50890039-c02d-4519-9d93-e3ed5b20e095
     name: 🏛️ 🔑 ki.sop.main
-    role: councillor
+    role: governor
     tier: leaders
     focus: []
     since: 2026-11-03T03:14:00Z
