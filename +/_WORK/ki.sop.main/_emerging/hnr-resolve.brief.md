@@ -1,0 +1,5 @@
+# Brief: hnr-resolve
+
+Work: ki.sop.main. In `~/kis/humans-not-robots/hnr-principal`, local `main` is 1 ahead and 4 behind `origin/main`. The local-only commit `3cc4ac27` ("hnr.sop.main ACK Stoa lines from ki.sop.main") adds five ACK lines at the top of `+/_WORK/hnr.sop.main/messages.md` `## Inbound`; `origin/main`'s `aa5eff44` also edits that file.
+
+Do this in a temporary worktree from `origin/main`, never in the main checkout: re-apply those five ACK lines at the top of `## Inbound` (keep every line already there), run `rumdl fmt` and `rumdl check` on the file, commit by explicit path (lower-case conventional subject, trailer `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`), push fast-forward only, then remove the worktree. Then, in the main checkout, only if its working tree is clean apart from untracked files and `main` holds no commit other than `3cc4ac27` beyond `origin/main`, run `git reset --keep origin/main` so it is level; otherwise leave it and report exactly what is there. Never stash, never force-push, never `--no-verify`. Report what you did and the final ahead/behind.
