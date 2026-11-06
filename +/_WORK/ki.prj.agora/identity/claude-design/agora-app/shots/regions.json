@@ -351,6 +351,406 @@
       }
     ]
   },
+  "0.3a": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "N1",
+        "label": "Toolbar",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 48
+      },
+      {
+        "code": "N2",
+        "label": "Sidebar groups",
+        "x": 8,
+        "y": 58,
+        "w": 203,
+        "h": 521
+      },
+      {
+        "code": "N3",
+        "label": "Sidebar foot",
+        "x": 8,
+        "y": 728,
+        "w": 203,
+        "h": 162
+      },
+      {
+        "code": "N4",
+        "label": "Tabs",
+        "x": 234,
+        "y": 55,
+        "w": 772,
+        "h": 32
+      },
+      {
+        "code": "C1",
+        "label": "Context",
+        "x": 1018,
+        "y": 54,
+        "w": 410,
+        "h": 27
+      },
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 816,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Summary and filters",
+        "x": 242,
+        "y": 147,
+        "w": 816,
+        "h": 92
+      },
+      {
+        "code": "P3",
+        "label": "Records",
+        "x": 242,
+        "y": 253,
+        "w": 816,
+        "h": 591
+      },
+      {
+        "code": "T1",
+        "label": "Tray",
+        "x": 1080,
+        "y": 88,
+        "w": 360,
+        "h": 812
+      }
+    ]
+  },
+  "0.3b": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "N1",
+        "label": "Toolbar",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 48
+      },
+      {
+        "code": "N2",
+        "label": "Sidebar groups",
+        "x": 8,
+        "y": 58,
+        "w": 203,
+        "h": 521
+      },
+      {
+        "code": "N3",
+        "label": "Sidebar foot",
+        "x": 8,
+        "y": 728,
+        "w": 203,
+        "h": 162
+      },
+      {
+        "code": "N4",
+        "label": "Tabs",
+        "x": 234,
+        "y": 55,
+        "w": 772,
+        "h": 32
+      },
+      {
+        "code": "C1",
+        "label": "Context",
+        "x": 1018,
+        "y": 54,
+        "w": 410,
+        "h": 27
+      },
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 1176,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Guild badges",
+        "x": 242,
+        "y": 147,
+        "w": 1176,
+        "h": 127
+      },
+      {
+        "code": "P3",
+        "label": "The guild’s skills",
+        "x": 242,
+        "y": 288,
+        "w": 1176,
+        "h": 86
+      },
+      {
+        "code": "B1",
+        "label": "Bottom pane",
+        "x": 220,
+        "y": 480,
+        "w": 1220,
+        "h": 420
+      }
+    ]
+  },
+  "0.3c": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "N1",
+        "label": "Toolbar",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 48
+      },
+      {
+        "code": "N2",
+        "label": "Sidebar groups",
+        "x": 6,
+        "y": 58,
+        "w": 43,
+        "h": 655
+      },
+      {
+        "code": "N3",
+        "label": "Sidebar foot",
+        "x": 6,
+        "y": 715,
+        "w": 43,
+        "h": 175
+      },
+      {
+        "code": "N4",
+        "label": "Tabs",
+        "x": 70,
+        "y": 55,
+        "w": 936,
+        "h": 32
+      },
+      {
+        "code": "C1",
+        "label": "Context",
+        "x": 1018,
+        "y": 54,
+        "w": 410,
+        "h": 27
+      },
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 78,
+        "y": 104,
+        "w": 1340,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Toolbar",
+        "x": 79,
+        "y": 148,
+        "w": 1338,
+        "h": 46
+      },
+      {
+        "code": "P3",
+        "label": "The map",
+        "x": 79,
+        "y": 194,
+        "w": 1338,
+        "h": 687
+      }
+    ]
+  },
+  "0.3d": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "N1",
+        "label": "Toolbar",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 48
+      },
+      {
+        "code": "N2",
+        "label": "Sidebar groups",
+        "x": 8,
+        "y": 58,
+        "w": 203,
+        "h": 521
+      },
+      {
+        "code": "N3",
+        "label": "Sidebar foot",
+        "x": 8,
+        "y": 728,
+        "w": 203,
+        "h": 162
+      },
+      {
+        "code": "N4",
+        "label": "Tabs",
+        "x": 234,
+        "y": 55,
+        "w": 772,
+        "h": 32
+      },
+      {
+        "code": "C1",
+        "label": "Context",
+        "x": 1018,
+        "y": 54,
+        "w": 410,
+        "h": 27
+      },
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 816,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Summary and filters",
+        "x": 242,
+        "y": 147,
+        "w": 816,
+        "h": 92
+      },
+      {
+        "code": "P3",
+        "label": "Jobs by territory and repository",
+        "x": 242,
+        "y": 253,
+        "w": 816,
+        "h": 237
+      },
+      {
+        "code": "B1",
+        "label": "Bottom pane",
+        "x": 220,
+        "y": 570,
+        "w": 860,
+        "h": 330
+      },
+      {
+        "code": "T1",
+        "label": "Tray",
+        "x": 1080,
+        "y": 88,
+        "w": 360,
+        "h": 812
+      }
+    ]
+  },
+  "0.3e": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "N1",
+        "label": "Toolbar",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 48
+      },
+      {
+        "code": "N2",
+        "label": "Sidebar groups",
+        "x": 8,
+        "y": 58,
+        "w": 179,
+        "h": 78
+      },
+      {
+        "code": "N3",
+        "label": "Sidebar foot",
+        "x": 8,
+        "y": 779,
+        "w": 179,
+        "h": 111
+      },
+      {
+        "code": "N4",
+        "label": "Tabs",
+        "x": 210,
+        "y": 55,
+        "w": 796,
+        "h": 32
+      },
+      {
+        "code": "C1",
+        "label": "Context",
+        "x": 1018,
+        "y": 54,
+        "w": 410,
+        "h": 27
+      },
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 218,
+        "y": 104,
+        "w": 840,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Summary and filters",
+        "x": 218,
+        "y": 147,
+        "w": 840,
+        "h": 92
+      },
+      {
+        "code": "P3",
+        "label": "Records",
+        "x": 218,
+        "y": 253,
+        "w": 840,
+        "h": 591
+      },
+      {
+        "code": "T1",
+        "label": "Tray",
+        "x": 1080,
+        "y": 88,
+        "w": 360,
+        "h": 812
+      }
+    ]
+  },
   "1f": {
     "size": {
       "w": 1440,
@@ -1095,6 +1495,526 @@
       }
     ]
   },
+  "7.1a": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 816,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Summary and filters",
+        "x": 242,
+        "y": 147,
+        "w": 816,
+        "h": 92
+      },
+      {
+        "code": "P3",
+        "label": "Records",
+        "x": 242,
+        "y": 253,
+        "w": 816,
+        "h": 591
+      },
+      {
+        "code": "T1",
+        "label": "Tray",
+        "x": 1080,
+        "y": 88,
+        "w": 360,
+        "h": 812
+      }
+    ]
+  },
+  "7.1b": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 1176,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Summary: each cell a filter",
+        "x": 242,
+        "y": 147,
+        "w": 330,
+        "h": 378
+      },
+      {
+        "code": "P3",
+        "label": "Chips and words",
+        "x": 588,
+        "y": 147,
+        "w": 830,
+        "h": 60
+      },
+      {
+        "code": "P4",
+        "label": "Records",
+        "x": 588,
+        "y": 217,
+        "w": 830,
+        "h": 252
+      }
+    ]
+  },
+  "7.1c": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 1176,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Summary and filters",
+        "x": 242,
+        "y": 147,
+        "w": 1176,
+        "h": 92
+      },
+      {
+        "code": "P3",
+        "label": "Records",
+        "x": 242,
+        "y": 253,
+        "w": 1176,
+        "h": 250
+      }
+    ]
+  },
+  "7.1d": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 816,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Summary and filters",
+        "x": 242,
+        "y": 147,
+        "w": 816,
+        "h": 92
+      },
+      {
+        "code": "P3",
+        "label": "Records",
+        "x": 242,
+        "y": 253,
+        "w": 816,
+        "h": 591
+      },
+      {
+        "code": "T1",
+        "label": "Tray",
+        "x": 1080,
+        "y": 88,
+        "w": 360,
+        "h": 812
+      }
+    ]
+  },
+  "7.1e": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 1176,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Summary and filters",
+        "x": 242,
+        "y": 147,
+        "w": 1176,
+        "h": 92
+      },
+      {
+        "code": "P3",
+        "label": "No records",
+        "x": 242,
+        "y": 253,
+        "w": 1176,
+        "h": 300
+      }
+    ]
+  },
+  "7.2a": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 816,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Summary and filters",
+        "x": 242,
+        "y": 147,
+        "w": 816,
+        "h": 92
+      },
+      {
+        "code": "P3",
+        "label": "Jobs by territory and repository",
+        "x": 242,
+        "y": 253,
+        "w": 816,
+        "h": 237
+      },
+      {
+        "code": "B1",
+        "label": "Bottom pane",
+        "x": 220,
+        "y": 570,
+        "w": 860,
+        "h": 330
+      },
+      {
+        "code": "T1",
+        "label": "Tray",
+        "x": 1080,
+        "y": 88,
+        "w": 360,
+        "h": 812
+      }
+    ]
+  },
+  "7.2b": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 1176,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Summary and filters",
+        "x": 242,
+        "y": 147,
+        "w": 1176,
+        "h": 92
+      },
+      {
+        "code": "P3",
+        "label": "Jobs, each Mac a column",
+        "x": 242,
+        "y": 253,
+        "w": 1176,
+        "h": 618
+      }
+    ]
+  },
+  "7.2c": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 1176,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Summary and filters",
+        "x": 242,
+        "y": 147,
+        "w": 1176,
+        "h": 92
+      },
+      {
+        "code": "P3",
+        "label": "Jobs by territory and repository",
+        "x": 242,
+        "y": 253,
+        "w": 1176,
+        "h": 234
+      }
+    ]
+  },
+  "7.2d": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 816,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Summary and filters",
+        "x": 242,
+        "y": 147,
+        "w": 816,
+        "h": 92
+      },
+      {
+        "code": "P3",
+        "label": "Jobs by territory and repository",
+        "x": 242,
+        "y": 253,
+        "w": 816,
+        "h": 500
+      },
+      {
+        "code": "T1",
+        "label": "Tray",
+        "x": 1080,
+        "y": 88,
+        "w": 360,
+        "h": 812
+      }
+    ]
+  },
+  "8.1a": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 1176,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Guild badges",
+        "x": 242,
+        "y": 147,
+        "w": 1176,
+        "h": 127
+      },
+      {
+        "code": "P3",
+        "label": "The guild’s skills",
+        "x": 242,
+        "y": 288,
+        "w": 1176,
+        "h": 86
+      },
+      {
+        "code": "B1",
+        "label": "Bottom pane",
+        "x": 220,
+        "y": 480,
+        "w": 1220,
+        "h": 420
+      }
+    ]
+  },
+  "8.1b": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 1176,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Guild columns, sideways",
+        "x": 242,
+        "y": 147,
+        "w": 1176,
+        "h": 315
+      },
+      {
+        "code": "B1",
+        "label": "Bottom pane",
+        "x": 220,
+        "y": 480,
+        "w": 1220,
+        "h": 420
+      }
+    ]
+  },
+  "8.1c": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 1176,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Guild badges",
+        "x": 242,
+        "y": 147,
+        "w": 1176,
+        "h": 127
+      },
+      {
+        "code": "P3",
+        "label": "Every guild’s skills",
+        "x": 242,
+        "y": 288,
+        "w": 1176,
+        "h": 496
+      }
+    ]
+  },
+  "8.1d": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 1176,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Guild badges",
+        "x": 242,
+        "y": 147,
+        "w": 1176,
+        "h": 127
+      },
+      {
+        "code": "P3",
+        "label": "The guild’s skills",
+        "x": 242,
+        "y": 288,
+        "w": 1176,
+        "h": 55
+      },
+      {
+        "code": "B1",
+        "label": "Bottom pane",
+        "x": 220,
+        "y": 570,
+        "w": 1220,
+        "h": 330
+      }
+    ]
+  },
+  "8.1e": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 1176,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Guild badges",
+        "x": 242,
+        "y": 147,
+        "w": 1176,
+        "h": 127
+      },
+      {
+        "code": "P3",
+        "label": "The guild’s skills",
+        "x": 242,
+        "y": 288,
+        "w": 1176,
+        "h": 86
+      },
+      {
+        "code": "B1",
+        "label": "Bottom pane",
+        "x": 220,
+        "y": 480,
+        "w": 1220,
+        "h": 420
+      }
+    ]
+  },
   "away": {
     "size": {
       "w": 1440,
@@ -1268,6 +2188,166 @@
         "y": 102,
         "w": 304,
         "h": 762
+      }
+    ]
+  },
+  "7.2-rows": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 1176,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Summary and filters",
+        "x": 242,
+        "y": 147,
+        "w": 1176,
+        "h": 92
+      },
+      {
+        "code": "P3",
+        "label": "Jobs by territory and repository",
+        "x": 242,
+        "y": 253,
+        "w": 1176,
+        "h": 401
+      }
+    ]
+  },
+  "7.1a-light": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 816,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Summary and filters",
+        "x": 242,
+        "y": 147,
+        "w": 816,
+        "h": 92
+      },
+      {
+        "code": "P3",
+        "label": "Records",
+        "x": 242,
+        "y": 253,
+        "w": 816,
+        "h": 591
+      },
+      {
+        "code": "T1",
+        "label": "Tray",
+        "x": 1080,
+        "y": 88,
+        "w": 360,
+        "h": 812
+      }
+    ]
+  },
+  "7.2a-light": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 816,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Summary and filters",
+        "x": 242,
+        "y": 147,
+        "w": 816,
+        "h": 92
+      },
+      {
+        "code": "P3",
+        "label": "Jobs by territory and repository",
+        "x": 242,
+        "y": 253,
+        "w": 816,
+        "h": 237
+      },
+      {
+        "code": "B1",
+        "label": "Bottom pane",
+        "x": 220,
+        "y": 570,
+        "w": 860,
+        "h": 330
+      },
+      {
+        "code": "T1",
+        "label": "Tray",
+        "x": 1080,
+        "y": 88,
+        "w": 360,
+        "h": 812
+      }
+    ]
+  },
+  "8.1a-light": {
+    "size": {
+      "w": 1440,
+      "h": 900
+    },
+    "regions": [
+      {
+        "code": "P1",
+        "label": "Page header",
+        "x": 242,
+        "y": 104,
+        "w": 1176,
+        "h": 29
+      },
+      {
+        "code": "P2",
+        "label": "Guild badges",
+        "x": 242,
+        "y": 147,
+        "w": 1176,
+        "h": 127
+      },
+      {
+        "code": "P3",
+        "label": "The guild’s skills",
+        "x": 242,
+        "y": 288,
+        "w": 1176,
+        "h": 86
+      },
+      {
+        "code": "B1",
+        "label": "Bottom pane",
+        "x": 220,
+        "y": 480,
+        "w": 1220,
+        "h": 420
       }
     ]
   }

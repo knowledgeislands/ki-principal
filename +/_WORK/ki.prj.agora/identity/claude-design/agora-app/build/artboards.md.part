@@ -1,8 +1,8 @@
 | Artboard | Page | What | Kind | Image |
 | --- | --- | --- | --- | --- |
-| [0.1a](0.1.html#0.1a) | Shell: the window and its rail | Rail expanded, both Macs here | state | [shot](shots/0.1a.png) |
-| [0.1b](0.1.html#0.1b) | Shell: the window and its rail | Rail contracted | state | [shot](shots/0.1b.png) |
-| [0.1c](0.1.html#0.1c) | Shell: the window and its rail | Rail expanded, terra not heard from | state | [shot](shots/0.1c.png) |
+| [0.1a](0.1.html#0.1a) | Shell: the window and its rail | Rail expanded, both Macs here | dropped, superseded by 0.3 Atlas shell | [shot](shots/0.1a.png) |
+| [0.1b](0.1.html#0.1b) | Shell: the window and its rail | Rail contracted | dropped, superseded by 0.3 Atlas shell | [shot](shots/0.1b.png) |
+| [0.1c](0.1.html#0.1c) | Shell: the window and its rail | Rail expanded, terra not heard from | dropped, superseded by 0.3 Atlas shell | [shot](shots/0.1c.png) |
 | [0.1.1](0.1.html#0.1.1) | Shell: the window and its rail, components | Brand: expanded, contracted | component | [shots](shots/components/) |
 | [0.1.2](0.1.html#0.1.2) | Shell: the window and its rail, components | Views: expanded, contracted | component | [shots](shots/components/) |
 | [0.1.3](0.1.html#0.1.3) | Shell: the window and its rail, components | Speak to everyone: expanded, contracted | component | [shots](shots/components/) |
@@ -14,6 +14,17 @@
 | [0.2.1](0.2.html#0.2.1) | Shell: the tray, components | Summary lines: all well, one problem, a Mac missing | component | [shots](shots/components/) |
 | [0.2.2](0.2.html#0.2.2) | Shell: the tray, components | Exception row: a checkout, a Mac | component | [shots](shots/components/) |
 | [0.2.3](0.2.html#0.2.3) | Shell: the tray, components | Speak to everyone: Away…, I'm back | component | [shots](shots/components/) |
+| [0.3a](0.3.html#0.3a) | Atlas shell | Grouped sidebar: Roadmap, a record in the tray | preferred | [shot](shots/0.3a.png) |
+| [0.3b](0.3.html#0.3b) | Atlas shell | Grouped sidebar: Guilds, a skill in the bottom pane | state | [shot](shots/0.3b.png) |
+| [0.3c](0.3.html#0.3c) | Atlas shell | Sidebar folded: Home, the territory menu open | state | [shot](shots/0.3c.png) |
+| [0.3d](0.3.html#0.3d) | Atlas shell | Tray and bottom pane together: Jobs, a job and its runs | state | [shot](shots/0.3d.png) |
+| [0.3e](0.3.html#0.3e) | Atlas shell | Sections across the top: Work, Roadmap, a record in the tray | alternative | [shot](shots/0.3e.png) |
+| [0.3.1](0.3.html#0.3.1) | Atlas shell, components | Sidebar group: open, a count waiting, folded to its heading, a lone place, the sidebar folded | component | [shots](shots/components/) |
+| [0.3.2](0.3.html#0.3.2) | Atlas shell, components | Context control: territory, plane ignored, territory and plane, the territory menu open | component | [shots](shots/components/) |
+| [0.3.3](0.3.html#0.3.3) | Atlas shell, components | Tray frame: a work record, a job | component | [shots](shots/components/) |
+| [0.3.4](0.3.html#0.3.4) | Atlas shell, components | Bottom pane frame: a skill's documents, a job's runs | component | [shots](shots/components/) |
+| [0.3.5](0.3.html#0.3.5) | Atlas shell, components | Toolbar: all well, one needs a look | component | [shots](shots/components/) |
+| [0.3.6](0.3.html#0.3.6) | Atlas shell, components | Sidebar foot: expanded, folded | component | [shots](shots/components/) |
 | [1f](1.html#1f) | Home | The working map: Focused, an island selected | preferred | [shot](shots/1f.png) |
 | [1g](1.html#1g) | Home | The working map: Everything, the planar portal selected | state | [shot](shots/1g.png) |
 | [1h](1.html#1h) | Home | The working map: closer on Humans Not Robots | state | [shot](shots/1h.png) |
@@ -36,3 +47,27 @@
 | [5.1a](5.1.html#5.1a) | Macs and the portal | The two Macs and the portal | preferred | [shot](shots/5.1a.png) |
 | [5.2a](5.2.html#5.2a) | Checkouts | Not level, side by side | preferred | [shot](shots/5.2a.png) |
 | [6a](6.html#6a) | A document in a tab | ki.prj.agora · messages.md | preferred | [shot](shots/6a.png) |
+| [7.1a](7.1.html#7.1a) | Roadmap | Tallies over a grouped table: a record in the tray | preferred | [shot](shots/7.1a.png) |
+| [7.1b](7.1.html#7.1b) | Roadmap | The summary beside the table: a cell as the filter | alternative | [shot](shots/7.1b.png) |
+| [7.1c](7.1.html#7.1c) | Roadmap | 7.1a with a filter applied: Triage, priority high, the Filter menu open, by island | state | [shot](shots/7.1c.png) |
+| [7.1d](7.1.html#7.1d) | Roadmap | 7.1a with a record awaiting review in the tray | state | [shot](shots/7.1d.png) |
+| [7.1e](7.1.html#7.1e) | Roadmap | 7.1a with nothing matching | state | [shot](shots/7.1e.png) |
+| [7.1.1](7.1.html#7.1.1) | Roadmap, components | Summary-filter bar: Roadmap at rest, a tally and a chip applied, nothing matching, Jobs, Jobs, two tallies chosen | component | [shots](shots/components/) |
+| [7.1.2](7.1.html#7.1.2) | Roadmap, components | Chips: from the context, chosen, removable, the Filter button, the Filter menu open, territory and plane from the context | component | [shots](shots/components/) |
+| [7.1.3](7.1.html#7.1.3) | Roadmap, components | Record row: chosen, plain, awaiting review, a group heading, a folded group | component | [shots](shots/components/) |
+| [7.1.4](7.1.html#7.1.4) | Roadmap, components | Record in the tray: a record, awaiting review, the one brass action | component | [shots](shots/components/) |
+| [7.2a](7.2.html#7.2a) | Jobs | By territory and repository: a failed job, its runs below | preferred | [shot](shots/7.2a.png) |
+| [7.2b](7.2.html#7.2b) | Jobs | Each Mac a column | alternative | [shot](shots/7.2b.png) |
+| [7.2c](7.2.html#7.2c) | Jobs | 7.2a with Failed and Findings chosen | state | [shot](shots/7.2c.png) |
+| [7.2d](7.2.html#7.2d) | Jobs | 7.2a with a service in the tray, Personal folded | state | [shot](shots/7.2d.png) |
+| [7.2.1](7.2.html#7.2.1) | Jobs, components | Job row: failed, chosen, two Macs, ok and no run yet, a service, off, findings, a territory folded, a repository heading | component | [shots](shots/components/) |
+| [7.2.2](7.2.html#7.2.2) | Jobs, components | Job in the tray: a failed job, runs shown, a service | component | [shots](shots/components/) |
+| [7.2.3](7.2.html#7.2.3) | Jobs, components | Run history in the bottom pane: runs on both Macs | component | [shots](shots/components/) |
+| [8.1a](8.1.html#8.1a) | Guilds | Badges across, the guild's skills beneath: a skill's SKILL.md below | preferred | [shot](shots/8.1a.png) |
+| [8.1b](8.1.html#8.1b) | Guilds | Guild columns across: the built app's panels | alternative | [shot](shots/8.1b.png) |
+| [8.1c](8.1.html#8.1c) | Guilds | 8.1a with no skill chosen: All guilds as a ledger | state | [shot](shots/8.1c.png) |
+| [8.1d](8.1.html#8.1d) | Guilds | 8.1a for another territory: Humans Not Robots from the context | state | [shot](shots/8.1d.png) |
+| [8.1e](8.1.html#8.1e) | Guilds | 8.1a with a folder tab: references/, one document drawn | state | [shot](shots/8.1e.png) |
+| [8.1.1](8.1.html#8.1.1) | Guilds, components | Guild badge: chosen, plain, All guilds, chosen, a territory's own skills, the strip | component | [shots](shots/components/) |
+| [8.1.2](8.1.html#8.1.2) | Guilds, components | Skill badge: plain, open in the pane, in the ledger | component | [shots](shots/components/) |
+| [8.1.3](8.1.html#8.1.3) | Guilds, components | Skill in the bottom pane: SKILL.md, a folder tab | component | [shots](shots/components/) |

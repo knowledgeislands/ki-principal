@@ -558,3 +558,395 @@ def home_working(focused=True, plane='both', selected='apps-agora.local', zoom=N
 <div class="stage"><section class="mapcol">{map_toolbar(focused, plane, zoom)}
 <div class="mapcanvas" {R("P3", "The map")}>{MV.working_map(plane=plane, focused=focused, selected=selected, zoom=zoom)}{map_hint(zoom)}</div>
 {key_strip()}</section>{tray}</div>'''
+
+
+# ================================================================ Agora Atlas: the shell for every page (0.3)
+# The shell other designers call: atlas_page(active, content, tray=None, bottom=None, context=...).
+# Regions: N1 toolbar, N2 sidebar groups, N3 sidebar foot, N4 tab strip, C1 context control,
+# P1/P2... the page's own (the caller marks them), T1 the right tray, B1 the bottom pane.
+# The shell marks N and C only when mark_shell=True; T1 and B1 are marked by their frames.
+
+ATLAS_GLYPHS = {
+    'roadmap': '<path d="M4 6h16M4 12h10M4 18h13"/><circle cx="19" cy="12" r="1.6" fill="currentColor" stroke="none"/>',
+    'jobs': '<circle cx="12" cy="12" r="8.5"/><path d="M12 7v5l3.5 2"/>',
+    'guilds': '<path d="M12 3l7.5 3v5.5c0 4.5-3.2 7.8-7.5 9.5-4.3-1.7-7.5-5-7.5-9.5V6z"/>',
+    'accounts': '<circle cx="12" cy="8.5" r="3.8"/><path d="M4.5 20c.8-3.8 3.8-6 7.5-6s6.7 2.2 7.5 6"/>',
+    'settings': '<circle cx="12" cy="12" r="3"/><path d="M12 2.8v3M12 18.2v3M2.8 12h3M18.2 12h3M5.5 5.5l2.1 2.1M16.4 16.4l2.1 2.1M5.5 18.5l2.1-2.1M16.4 7.6l2.1-2.1"/>',
+    'updates': '<path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"/><path d="M19.5 4v4h-4"/>',
+    'repositories': '<path d="M5 4.5h14M5 9.5h14M5 14.5h14M5 19.5h9"/>',
+    'activity': '<path d="M3 12h4l2.5-6 5 12 2.5-6h4"/>',
+    'captured': '<rect x="5" y="5" width="14" height="14" rx="1.5"/>',
+    'context': '<path d="M12 4l8 8-8 8-8-8z"/>',
+    'curated': '<circle cx="12" cy="12" r="7.5"/>',
+    'actions': '<path d="M12 4.5l8 14H4z"/>',
+    'graph': '<circle cx="6" cy="7" r="2.2"/><circle cx="18" cy="7" r="2.2"/><circle cx="12" cy="18" r="2.2"/><path d="M8 8l3 8M16 8l-3 8M8.2 7h7.6"/>',
+    'tending': '<path d="M12 20V10M12 10c0-3.5 2.5-6 6.5-6 0 3.5-2.5 6-6.5 6zM12 13c0-2.8-2-4.8-5.5-4.8 0 2.8 2 4.8 5.5 4.8z"/>',
+    'key': '<circle cx="8" cy="12" r="3.8"/><path d="M11.8 12H21M17.5 12v3M20.5 12v2.5"/>',
+    'gallery': '<rect x="3.5" y="5" width="17" height="14" rx="1.5"/><path d="M3.5 16l5-5 4 4 3-3 5 5"/>',
+    'search': '<circle cx="10.5" cy="10.5" r="6"/><path d="M15 15l5.5 5.5"/>',
+    'sidebar': '<rect x="3.5" y="4.5" width="17" height="15" rx="2.5"/><path d="M9 4.5v15"/>',
+    'pin': '<path d="M9 3.5h6l-1.2 6 3.6 3.6H6.6l3.6-3.6zM12 13.1V20.5"/>',
+    'theme': '<circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor" stroke="none"/>',
+    'chev': '<path d="M8 10l4 4 4-4"/>',
+    'chevr': '<path d="M10 8l4 4-4 4"/>',
+    'lantern': '<path d="M9 3.5h6M12 3.5v2M8 7.5h8l-.8 11H8.8zM8 18.5h8"/><circle cx="12" cy="13" r="1.5" fill="currentColor" stroke="none"/>',
+    'beacon': '<circle cx="12" cy="12" r="2" fill="currentColor" stroke="none"/><path d="M12 3.5v3M12 17.5v3M3.5 12h3M17.5 12h3"/><circle cx="12" cy="12" r="5.5"/>',
+    'more': '<circle cx="6" cy="12" r="1.4" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.4" fill="currentColor" stroke="none"/><circle cx="18" cy="12" r="1.4" fill="currentColor" stroke="none"/>',
+}
+
+
+def aglyph(name, cls=''):
+    """A glyph from the Atlas set, falling back to the pack's own."""
+    if name not in ATLAS_GLYPHS:
+        return glyph(name, cls)
+    return (f'<svg class="{cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" '
+            f'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{ATLAS_GLYPHS[name]}</svg>')
+
+
+# The sidebar, top to bottom: (group id, heading or None, collapsible, [(place id, label, glyph, count, note)]).
+# A count is shown only where something waits or wants a look; a note is a muted word such as "soon".
+ATLAS_GROUPS = [
+    ('agora', 'Agora', False, [
+        ('home', 'Home', 'home', '', ''),
+        ('here', "Who's doing what", 'here', '12', ''),
+        ('said', "What's being said", 'said', '', ''),
+        ('broadcasts', 'Broadcasts', 'broadcast', '', ''),
+        ('waits', 'Waits on you', 'waits', '34', ''),
+        ('macs', 'Macs and the portal', 'macs', '', ''),
+        ('checkouts', 'Checkouts', 'checkouts', '1', ''),
+    ]),
+    ('work', 'Work', False, [
+        ('roadmap', 'Roadmap', 'roadmap', '', ''),
+        ('jobs', 'Jobs', 'jobs', '1', ''),
+    ]),
+    ('guilds', None, False, [
+        ('guilds', 'Guilds', 'guilds', '', ''),
+    ]),
+    ('observatory', 'Observatory', False, [
+        ('repositories', 'Repositories', 'repositories', '', ''),
+        ('activity', 'Activity', 'activity', '', ''),
+    ]),
+    ('kiv', 'KIV', True, [
+        ('kiv-captured', 'Captured', 'captured', '', 'soon'),
+        ('kiv-context', 'Context', 'context', '', 'soon'),
+        ('kiv-curated', 'Curated', 'curated', '', 'soon'),
+        ('kiv-actions', 'Actions', 'actions', '', 'soon'),
+        ('kiv-graph', 'Graph atlas', 'graph', '', 'soon'),
+        ('kiv-tending', 'Tending', 'tending', '', 'soon'),
+        ('kiv-key', 'Key', 'key', '', 'soon'),
+    ]),
+    ('coming', 'Coming', False, [
+        ('gallery', 'Art gallery', 'gallery', '', 'later'),
+    ]),
+]
+# The foot: the places about the Mac and the app itself, not the work.
+ATLAS_FOOT = [
+    ('accounts', 'Accounts', 'accounts', '1', ''),
+    ('settings', 'Settings', 'settings', '', ''),
+    ('updates', 'Updates', 'updates', '', ''),
+]
+# Which context each place honours: territory, plane, both or neither (the context control greys what a page ignores).
+ATLAS_CONTEXT = {
+    'home': ('territory', 'plane'), 'here': ('territory', 'plane'), 'said': ('territory', 'plane'),
+    'broadcasts': ('plane',), 'waits': ('territory',), 'macs': ('plane',), 'checkouts': ('territory', 'plane'),
+    'roadmap': ('territory',), 'jobs': ('territory', 'plane'), 'guilds': ('territory',),
+    'repositories': ('territory',), 'activity': ('territory',), 'accounts': ('plane',),
+    'settings': ('plane',), 'updates': ('plane',),
+}
+ATLAS_TERRITORIES = ['All territories', 'Knowledge Islands', 'Humans Not Robots', 'Personal']
+ATLAS_SECTIONS = [('agora', 'Agora'), ('work', 'Work'), ('guilds', 'Guilds'), ('observatory', 'Observatory'), ('kiv', 'KIV')]
+
+
+def _place_label(place_id):
+    for _, _, _, items in ATLAS_GROUPS:
+        for pid, label, *_ in items:
+            if pid == place_id:
+                return label
+    for pid, label, *_ in ATLAS_FOOT:
+        if pid == place_id:
+            return label
+    return place_id
+
+
+def _group_of(place_id):
+    for gid, _, _, items in ATLAS_GROUPS:
+        if any(pid == place_id for pid, *_ in items):
+            return gid
+    return None
+
+
+def _nav_item(pid, label, g, n, note, active):
+    note_html = f'<span class="note">{note}</span>' if note else ''
+    n_html = f'<span class="n">{n}</span>' if n else ''
+    cls = 'at-nav' + (' on' if pid == active else '') + (' soon' if note else '')
+    return (f'<div class="{cls}" title="{escape(label)}">{aglyph(g)}<span class="label">{escape(label)}</span>'
+            f'{n_html}{note_html}</div>')
+
+
+def atlas_sidebar(active, collapsed=('kiv',), mark_shell=False, only=None):
+    """The grouped sidebar. collapsed names the groups folded to their heading; only keeps one section (alternative 0.3e)."""
+    m = (lambda c, l: R(c, l)) if mark_shell else (lambda c, l: '')
+    groups = []
+    for gid, heading, foldable, items in ATLAS_GROUPS:
+        if only and gid != only:
+            continue
+        shut = gid in collapsed and _group_of(active) != gid
+        head = ''
+        if heading:
+            chev = aglyph('chevr' if shut else 'chev', 'chev') if foldable else ''
+            count = f'<span class="n">{len(items)}</span>' if shut else ''
+            soon = '<span class="note">soon</span>' if gid == 'kiv' else ''
+            head = f'<h4>{chev}<span>{escape(heading)}</span>{soon}{count}</h4>'
+        body = '' if shut else ''.join(_nav_item(*it, active) for it in items)
+        groups.append(f'<div class="at-group{" shut" if shut else ""}{" lone" if not heading else ""}" data-group="{gid}">{head}{body}</div>')
+    foot = ''.join(_nav_item(*it, active) for it in ATLAS_FOOT) if not only else ''
+    portal = (f'<div class="at-portal"><span class="teal">{glyph("portal")}</span><span class="text"><b>sol ⇄ terra</b>'
+              f'<span class="sub">Portal open · heard 04:20</span></span></div>'
+              f'<div class="at-devices"><span title="Agora Beacon, in the menu bar on each Mac">{aglyph("beacon")}<span class="label">Beacon on sol</span></span>'
+              f'<span title="Agora Lantern, on the iPhone">{aglyph("lantern")}<span class="label">Lantern 04:18</span></span></div>')
+    if only:
+        foot_html = f'<div class="at-foot" {m("N3", "Sidebar foot")}>{portal}</div>'
+    else:
+        foot_html = f'<div class="at-foot" {m("N3", "Sidebar foot")}>{foot}{portal}</div>'
+    return (f'<aside class="at-side"><div class="at-groups" {m("N2", "Sidebar groups")}>{"".join(groups)}</div>'
+            f'{foot_html}</aside>')
+
+
+def atlas_toolbar(mark_shell=False, standing=('ok', 'All well'), sections=None):
+    """The toolbar across the window: the name, the rigs, the word on the whole, the search, speaking to everyone."""
+    m = R('N1', 'Toolbar') if mark_shell else ''
+    level, words = standing
+    secs = ''
+    if sections:
+        secs = '<span class="seg at-sections">' + ''.join(
+            f'<span{" class=on" if sid == sections else ""}>{label}</span>' for sid, label in ATLAS_SECTIONS) + '</span>'
+    gear = f'<span class="at-icon" title="Accounts, Settings, Updates">{aglyph("settings")}</span>' if sections else ''
+    return f'''<header class="at-top" {m}>
+<span class="at-lights"><i></i><i></i><i></i></span>
+<span class="at-icon" title="Show or hide the sidebar (⌘\\)">{aglyph("sidebar")}</span>
+<span class="at-brand">{glyph("ring")}<span class="name">Agora Atlas</span></span>
+{secs}
+<span class="at-rigs"><span class="chip rig here">sol</span><span class="chip rig">terra</span></span>
+<span class="at-standing {level}"><span class="dot"></span>{escape(words)}</span>
+<span class="at-search">{aglyph("search")}<span>{"Find anything" if sections else "Find a place, island, record or skill"}</span><kbd>/</kbd></span>
+<span class="sp"></span>
+<span class="btn">{glyph("mark")}Mark all</span><span class="btn">{glyph("away")}Away…</span><span class="btn">{glyph("broadcast")}Broadcast…</span>
+<span class="mono at-clock">04:20</span>{gear}
+<span class="at-icon" title="Keep on top, or snap">{aglyph("pin")}</span><span class="at-icon" title="Theme: follows the Mac">{aglyph("theme")}</span>
+</header>'''
+
+
+def atlas_tabs(tabs, mark_shell=False):
+    m = R('N4', 'Tabs') if mark_shell else ''
+    items = ''.join(f'<span class="at-tab{" on" if on else ""}">{escape(t)}{"<span class=x>×</span>" if closable else ""}</span>'
+                    for t, on, closable in tabs)
+    return f'<div class="at-tabs" {m}>{items}<span class="at-tab add" title="New tab (⌘T)">+</span></div>'
+
+
+def atlas_context(active, context=None, mark_shell=False):
+    """The context control at the top right: the territory and the plane. A dimension the page ignores is greyed, never hidden,
+    so the control never moves. context: dict(territory=..., plane='sol'|'terra'|'both', open=False)."""
+    ctx = dict(territory='All territories', plane='both', open=False) | (context or {})
+    uses = ATLAS_CONTEXT.get(active, ())
+    m = R('C1', 'Context') if mark_shell else ''
+    t_off = '' if 'territory' in uses else ' off'
+    p_off = '' if 'plane' in uses else ' off'
+    planes = ''.join(f'<span{" class=on" if ctx["plane"] == k else ""}>{v}</span>' for k, v in (('sol', 'sol'), ('terra', 'terra'), ('both', 'Both')))
+    menu = ''
+    if ctx['open']:
+        rows = ''.join(f'<div class="opt{" on" if t == ctx["territory"] else ""}">{"✓" if t == ctx["territory"] else ""}<span>{t}</span></div>'
+                       for t in ATLAS_TERRITORIES)
+        menu = (f'<div class="at-menu">{rows}<div class="hint">Every page that reads territories follows this. ⌘1 to ⌘4 choose.</div></div>')
+    ignored = []
+    if t_off:
+        ignored.append('territory')
+    if p_off:
+        ignored.append('plane')
+    title = f' title="{_place_label(active)} does not use the {" or ".join(ignored)}"' if ignored else ''
+    return (f'<div class="at-context" {m}{title}>'
+            f'<span class="lbl{t_off}">Territory</span><span class="at-select{t_off}{" open" if ctx["open"] else ""}">{escape(ctx["territory"])}{aglyph("chev")}{menu}</span>'
+            f'<span class="lbl{p_off}">Plane</span><span class="seg{p_off}">{planes}</span></div>')
+
+
+def tray_frame(kind, title, body, actions=(), code='T1', label='Tray'):
+    """The right tray: one selected thing's facts. kind is the small line above the title (what it is and where);
+    actions are (style, words) with style '' or 'brass' (at most one brass in the whole view)."""
+    acts = ''.join(f'<span class="btn{" brass" if s == "brass" else ""}">{escape(w)}</span>' for s, w in actions)
+    foot = f'<footer>{acts}</footer>' if actions else ''
+    return (f'<aside class="at-tray" {R(code, label)}><header><div><div class="kind">{escape(kind)}</div>'
+            f'<h2>{title}</h2></div><span class="x" title="Close (Escape)">×</span></header>'
+            f'<div class="tbody">{body}</div>{foot}</aside>')
+
+
+def bottom_frame(kind, title, tabs, body, code='B1', label='Bottom pane', height=360):
+    """The bottom pane: the selected thing's documents or long readings, in tabs. tabs are (words, on)."""
+    strip = ''.join(f'<span class="ptab{" on" if on else ""}">{escape(t)}</span>' for t, on in tabs)
+    return (f'<section class="at-bottom" style="height:{height}px" {R(code, label)}><div class="grip" title="Drag to resize"></div>'
+            f'<header><div class="kind">{escape(kind)}</div><h2>{title}</h2><span class="x" title="Close (Escape)">×</span></header>'
+            f'<div class="ptabs">{strip}</div><div class="pbody">{body}</div></section>')
+
+
+def atlas_page(active, content, tray=None, bottom=None, context=None, tabs=None, folded=False,
+               collapsed=('kiv',), mark_shell=False, theme='night', standing=('ok', 'All well'),
+               variant='sidebar', title='Agora Atlas', height=900):
+    """One Agora Atlas window, 1440 by `height`, around a page.
+
+    active     the sidebar place id, such as 'roadmap', 'jobs', 'guilds' or 'accounts' (see ATLAS_GROUPS, ATLAS_FOOT)
+    content    the page's HTML: start it with head('P1', ...) and mark its own regions P2, P3...
+    tray       None, or tray_frame(...): the right tray, which pushes the page narrower
+    bottom     None, or bottom_frame(...): the bottom pane, under the page and left of the tray
+    context    dict(territory='All territories', plane='both', open=False); greyed where the page ignores it
+    tabs       [(words, on, closable)]; by default the active place alone
+    folded     the sidebar folded to icons
+    collapsed  groups folded to their heading; the active place's group always opens
+    mark_shell mark N1 to N4 and C1 for the board (the 0.3 page does; view pages leave it off)
+    variant    'sidebar' (0.3a, preferred) or 'sections' (0.3e, the alternative)
+    """
+    if tabs is None:
+        tabs = [(_place_label(active), True, False)]
+    if folded:
+        collapsed = ()  # folded to icons, every group fits, so none is shut
+    section = _group_of(active) if variant == 'sections' else None
+    side = atlas_sidebar(active, collapsed, mark_shell, only=section) if variant == 'sidebar' else atlas_sidebar(active, (), mark_shell, only=section or 'agora')
+    cls = 'atlas' + (' folded' if folded else '') + (' sections' if variant == 'sections' else '')
+    work = (f'<div class="at-work{" with-tray" if tray else ""}">'
+            f'<div class="at-bar">{atlas_tabs(tabs, mark_shell)}{atlas_context(active, context, mark_shell)}</div>'
+            f'<div class="at-body"><div class="at-col"><div class="at-page">{content}</div>{bottom or ""}</div>{tray or ""}</div></div>')
+    return f'''<!doctype html><html lang="en-GB" data-theme="{theme}"><head><meta charset="utf-8">
+<title>{escape(title)}</title><link rel="stylesheet" href="../build/app.css"></head><body>
+<div class="{cls}" style="height:{height}px">{atlas_toolbar(mark_shell, standing, section)}{side}{work}</div>
+</body></html>'''
+
+
+# ---------------------------------------------------------------- the 0.3 artboards' pages (placeholders for 7.1, 7.2, 8.1)
+ROADMAP_ROWS = [
+    ('KI-AGORA-WRK-004', 'Run the rig’s scheduled jobs', 'apps-agora.local', 'now', 'P1', 'M', '04:12'),
+    ('KI-AGORA-WRK-002', 'Switch Claude accounts', 'apps-agora.local', 'next', 'P2', 'S', '11-05'),
+    ('KI-AGORA-WRK-006', 'Run-once jobs', 'apps-agora.local', 'next', 'P2', 'M', '11-05'),
+    ('KI-AGORA-WRK-007', 'Floating doers', 'apps-agora.local', 'ready', 'P2', 'L', '11-05'),
+    ('KI-OBS-WRK-012', 'Signals land in their view', 'apps-observatory.local', 'ready', 'P2', 'S', '11-04'),
+    ('KI-TOOLS-WRK-031', 'ki agent status as JSON', 'tools-ki', 'draft', 'P3', 'S', '11-04'),
+    ('KI-DESIGN-WRK-009', 'Tray and pane tokens', 'ki-design', 'draft', 'P3', 'M', '11-03'),
+    ('KI-PRIN-WRK-044', 'The guild catalogue', 'ki-principal', 'triage', 'P2', 'M', '11-03'),
+    ('KI-AGORA-WRK-008', 'KIV pages as native views', 'apps-agora.local', 'triage', 'P3', 'L', '11-02'),
+    ('KI-OBS-WRK-010', 'Activity by territory', 'apps-observatory.local', 'triage', 'P3', 'S', '11-01'),
+]
+
+
+def atlas_roadmap(selected='KI-AGORA-WRK-004'):
+    summary = ''.join(f'<tr><td>{t}</td><td class="mono">{a}</td><td class="mono">{b}</td><td class="mono">{c}</td></tr>' for t, a, b, c in (
+        ('apps-agora.local', '1', '2', '1'), ('apps-observatory.local', '·', '·', '1'), ('ki-principal', '·', '·', '·'),
+        ('tools-ki', '·', '·', '·'), ('ki-design', '·', '·', '·')))
+    rows = ''.join(f'<tr{" class=sel" if i == selected else ""}><td class="id">{i}</td><td>{escape(t)}<span class="sub mono">{isl}</span></td>'
+                   f'<td><span class="chip">{s}</span></td><td>{p} · {z}</td><td class="muted">{c}</td></tr>'
+                   for i, t, isl, s, p, z, c in ROADMAP_ROWS)
+    return f'''{head("P1", "Roadmap", "38 open records in Knowledge Islands · 1 now · 2 next")}
+<div class="at-split"><section class="panel" {R("P2", "Summary")}><header><h2>By island</h2><span class="muted">now · next · ready</span></header>
+<table class="sumtab"><tbody>{summary}</tbody></table></section>
+<section style="display:flex; flex-direction:column; gap:10px; min-width:0" {R("P3", "Filters and records")}>
+<div class="at-filters"><span class="chip ctx" title="From the context control">Territory: Knowledge Islands · from the context</span><span class="chip">Status: open ×</span>
+<span class="btn">Priority</span><span class="btn">Horizon</span><span class="btn">Area</span><span class="btn">Island</span><span class="find">{aglyph("search")}Words in an id or title</span></div>
+<div class="panel"><table><thead><tr><th>Id</th><th>Title and island</th><th>Status</th><th>Priority · size</th><th>Changed</th></tr></thead><tbody>{rows}</tbody></table></div></section></div>'''
+
+
+def roadmap_tray():
+    body = '''<table class="kv"><tbody>
+<tr><td>Status</td><td><span class="chip">now</span> since 04:12</td></tr><tr><td>Priority</td><td>P1 · size M · horizon this week</td></tr>
+<tr><td>Island</td><td><span class="mono">apps-agora.local</span></td></tr><tr><td>Area</td><td>jobs</td></tr>
+<tr><td>Owner</td><td><span class="id">ki.prj.agora</span></td></tr></tbody></table>
+<h3>Blocks</h3><p><span class="id">KI-AGORA-WRK-006</span> Run-once jobs</p>
+<h3>Blocked by</h3><p class="muted">Nothing</p>
+<h3>Goal</h3><p>Agora starts, stops and reports the rig’s scheduled jobs, so running them no longer needs Rig by hand on each Mac.</p>
+<h3>Context</h3><p class="muted">Jobs shows each job today but only reads. Moving the running here needs <span class="mono">ki agent</span> to stay the only way a run starts.</p>'''
+    return tray_frame('Work record · Knowledge Islands', '<span class="id">KI-AGORA-WRK-004</span>', body,
+                      actions=[('', 'Open the file'), ('', 'Show the island on Home')])
+
+
+GUILDS = [
+    ('Ke', 'Keystone', 3, 'The foundation: the repository contract and how a skill is written.', ['ki-bootstrap', 'ki-repo', 'ki-skills']),
+    ('Go', 'Governance', 13, 'The standing rules: writing, Git, delegation, decisions and trades.',
+     ['ki-authoring', 'ki-delegation', 'ki-diagrams', 'ki-git', 'ki-guides', 'ki-specs', 'ki-trades', '+6']),
+    ('CM', 'Change management', 13, 'How work moves: captured, planned, done, accepted and recapped.',
+     ['ki-accept', 'ki-batch', 'ki-coordination', 'ki-next', 'ki-plan', 'ki-recap', 'ki-work', '+6']),
+    ('RS', 'Repository structure', 16, 'The shape of each kind of repository: knowledge bases, tools, sites.',
+     ['ki-repo-harness', 'ki-repo-kb', 'ki-repo-kb-streams', 'ki-repo-homebrew-tap', '+12']),
+]
+
+
+def atlas_guilds(selected='ki-delegation'):
+    cards = ''.join(f'''<section class="at-guild"><div class="gh"><span class="mono-badge">{mono}</span><div><b>{name}</b><span class="sub">{n} skills</span></div></div>
+<p>{escape(about)}</p><div class="bank">{"".join(f'<span class="chip{" sel" if s == selected else ""}">{s}</span>' for s in skills)}</div></section>'''
+                    for mono, name, n, about, skills in GUILDS)
+    return f'''{head("P1", "Guilds", "15 guilds · 77 skills · 8 harnesses in Knowledge Islands", '<span class="find">' + aglyph("search") + 'Words in a skill or guild</span>')}
+<div class="at-guilds" {R("P2", "Guilds and their skills")}>{cards}</div>
+<p class="foot">Provisional guilds: each is a folder a harness sorts its skills into, until the guildmaster’s catalogue (ki.reg.guilds) names them. 11 more guilds to the right.</p>'''
+
+
+def skill_bottom():
+    body = '''<div class="at-doc"><ul class="plain"><li class="on">rubric.md</li><li>sources.md</li><li>standards-background-runs.md</li><li>standards-delegation-packets.md</li></ul>
+<div><div class="muted mono" style="margin-bottom:6px">references/rubric.md</div><h4>Generated rubric: delegation packets and background runs</h4>
+<p>Line-by-line criteria for auditing ki-delegation. Classifications are derived from item aspects: mechanical, judgement, and hybrid with heuristic mechanical evidence.</p>
+<p class="muted">Sources are cited as declared by each canonical item. Edit the definitions under <span class="mono">scripts/rubric/items/</span>, then run the rubric again.</p></div></div>'''
+    return bottom_frame('Governance · ki-agentic-harness', '<span class="id">ki-delegation</span>',
+                        [('SKILL.md', False), ('references/ 4', True), ('scripts/ 11', False), ('assets/ 7', False)], body, height=400)
+
+
+def atlas_home():
+    import map_view as MV
+    bar = map_toolbar(focused=True, plane='both', code='P2').replace(
+        '<span class="lbl">Plane</span><span class="seg" title="Each rig is a plane over the same islands"><span>sol</span><span>terra</span><span class=on>Both planes</span></span>', '')
+    return f'''{head("P1", "Home", "Focused · 9 of 13 islands active · 2 need a look · 34 queries wait on you")}
+<section class="mapcol at-map">{bar}<div class="mapcanvas" {R("P3", "The map")}>{MV.working_map(plane="both", focused=True, selected=None)}</div></section>'''
+
+
+JOB_ROWS = [
+    ('group', 'Knowledge Islands'),
+    ('repo', 'apps-agora.local'),
+    ('job', 'agora-review', 'every minute', 'sol ✓ terra ✓', '04:20', 'ok', 'Running'),
+    ('job', 'agora-keep-level', 'every 5 minutes', 'sol ✓ terra ✓', '04:15', 'ok', 'Running'),
+    ('repo', 'apps-observatory.local'),
+    ('job', 'observatory-service', 'kept running', 'sol ✓', '04:01', 'ok', 'Running'),
+    ('repo', 'ki-principal'),
+    ('job', 'sop-digest', 'daily at 06:40', 'sol ✕', '11-05 06:40', 'bad', 'Failed last run'),
+    ('job', 'roadmap-index', 'hourly', 'sol ✓', '04:00', 'ok', 'Running'),
+    ('repo', 'tools-ki'),
+    ('job', 'ki-territory-audit', 'daily at 02:10', 'terra ✓', '02:11', 'ok', 'Running'),
+]
+
+
+def atlas_jobs(selected='sop-digest'):
+    rows = []
+    for r in JOB_ROWS:
+        if r[0] == 'group':
+            rows.append(f'<tr class="group"><td colspan="5">{r[1]}</td></tr>')
+        elif r[0] == 'repo':
+            rows.append(f'<tr><td colspan="5" class="mono muted" style="padding-left:18px">{r[1]}</td></tr>')
+        else:
+            _, name, sched, macs, last, lvl, words = r
+            mark_ = mark('slashed') if lvl == 'bad' else mark('stone')
+            rows.append(f'<tr{" class=sel" if name == selected else ""}><td class="id" style="padding-left:30px">{name}</td><td>{sched}</td><td class="mono">{macs}</td>'
+                        f'<td class="muted">{last}</td><td class="{"bad" if lvl == "bad" else ""}">{mark_}{words}</td></tr>')
+    return f'''{head("P1", "Jobs", "23 jobs on 2 Macs in Knowledge Islands · 1 failed its last run", '<span class="seg"><span class=on>All</span><span>Scheduled</span><span>Services</span></span>')}
+<section class="panel" {R("P2", "Jobs by territory and repository")}><table><thead><tr><th>Job</th><th>Schedule</th><th>Macs</th><th>Last run</th><th>How it stands</th></tr></thead>
+<tbody>{"".join(rows)}</tbody></table></section>'''
+
+
+def job_tray():
+    body = '''<table class="kv"><tbody><tr><td>Repository</td><td><span class="mono">ki-principal</span></td></tr>
+<tr><td>Schedule</td><td>Daily at 06:40</td></tr><tr><td>Declared in</td><td><span class="mono">conf.d/sop-digest.toml</span></td></tr>
+<tr><td>Runs on</td><td>sol · declared for the studio profile</td></tr><tr><td>Last run</td><td class="bad">Failed · 11-05 06:40 · 12 s</td></tr>
+<tr><td>Next run</td><td>Today 06:40</td></tr></tbody></table>
+<h3>What it says</h3><p>ki sop digest: the State of play could not be read, a lock was held.</p>
+<p class="muted">Running, starting or stopping a job stays Rig’s for now (KI-AGORA-WRK-004).</p>'''
+    return tray_frame('Scheduled job · ki-principal', '<span class="id">sop-digest</span>', body,
+                      actions=[('', 'Open the declaration'), ('', 'Show the island on Home')])
+
+
+def job_bottom():
+    runs = ''.join(f'<tr><td class="mono">{w}</td><td>{m}</td><td class="{c}">{o}</td><td class="mono">{d}</td><td class="muted">{s}</td></tr>' for w, m, c, o, d, s in (
+        ('11-05 06:40', 'sol', 'bad', 'Failed', '12 s', 'The State of play could not be read: a lock was held'),
+        ('11-04 06:40', 'sol', '', 'Ended well', '41 s', 'Digest written, 14 items'),
+        ('11-03 06:40', 'sol', '', 'Ended well', '38 s', 'Digest written, 9 items'),
+        ('11-02 06:40', 'sol', '', 'Ended well', '44 s', 'Digest written, 17 items')))
+    body = f'<table><thead><tr><th>When</th><th>Mac</th><th>Outcome</th><th>Took</th><th>Summary</th></tr></thead><tbody>{runs}</tbody></table>'
+    return bottom_frame('Runs · sop-digest', 'The last four runs', [('Runs', True), ('Declaration', False), ('Log', False)], body, height=260)

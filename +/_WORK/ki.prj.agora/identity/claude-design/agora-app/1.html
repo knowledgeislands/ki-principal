@@ -2,7 +2,7 @@
 <title>1 Home · Agora app</title><style>
 :root { --paper:#f5efe0; --ink:#1a2030; --muted:#4a5568; --accent:#1b3a5c; --teal:#317070; --warn:#8a5a12; --rule:#d4c9b4;
   --boundary:#9a8358; --surface:#eef1f5; --gold:#c8963c; --wash-warn:#f1e8d3;
-  --zone-navigation:#317070; --zone-tray:#1b3a5c; --zone-page:#8a5a12; }
+  --zone-navigation:#317070; --zone-tray:#1b3a5c; --zone-page:#8a5a12; --zone-context:#4a5568; --zone-bottom:#2d5a3d; }
 * { box-sizing:border-box; }
 body { margin:0; background:var(--paper); color:var(--ink); font:14px/1.5 -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", sans-serif; }
 .wrap { max-width:1560px; margin:0 auto; padding:24px 32px 64px; }
@@ -33,6 +33,10 @@ figure.ab.preferred .frame { outline:3px solid var(--gold); outline-offset:4px; 
 .ov.navigation { border-color:var(--zone-navigation); } .ov.navigation .badge { background:var(--zone-navigation); }
 .ov.tray { border-color:var(--zone-tray); } .ov.tray .badge { background:var(--zone-tray); }
 .ov.page { border-color:var(--zone-page); } .ov.page .badge { background:var(--zone-page); }
+.ov.context { border-color:var(--zone-context); } .ov.context .badge { background:var(--zone-context); }
+.ov.bottom { border-color:var(--zone-bottom); } .ov.bottom .badge { background:var(--zone-bottom); }
+.dropped { display:inline-block; border:1px solid var(--muted); color:var(--muted); font-size:12px; padding:1px 8px; border-radius:10px; }
+figure.ab.was .frame { opacity:.7; }
 body.plain .ov { display:none; }
 .legend { font-size:12px; color:var(--muted); margin-top:6px; }
 .comps { display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:20px; }
@@ -47,7 +51,7 @@ table.idx th { font-size:12px; color:var(--muted); }
 a { color:var(--accent); }
 </style></head>
 <body><div class="wrap">
-<nav class="crumbs"><a href="index.html">The pack</a> · previous <a href="0.2.html">0.2 Shell: the tray</a> · next <a href="2.1.html">2.1 Who&#x27;s doing what</a></nav>
+<nav class="crumbs"><a href="index.html">The pack</a> · previous <a href="0.3.html">0.3 Atlas shell</a> · next <a href="2.1.html">2.1 Who&#x27;s doing what</a></nav>
 <h1>1 · Home</h1>
 <p class="note">One view that fits the window with no scrolling (MSG-62774774, Kris&#x27;s vision): the territories and their islands, the work packages and workers placed where they work, the primary focus of each, the island portal on each island, the threads of talk up to each territory&#x27;s principal portal and across, and the planar portal, on its own island ki-portal, between the planes. The preferred home (1f) makes it a working map: active islands stand out, Focused hides the quiet ones, each island carries its queued work and waiting messages, and clicking an island shows its detail in the right tray. It matters because it is the page the app opens on, and it should show the whole distributed Agora as one place where Kris can see where work is and pick it up.</p>
 <p class="stamp">Refreshed 2026-11-06 · source: mock-ups from build/plan.py; not yet built</p>

@@ -1,0 +1,76 @@
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>7.2 Jobs · Agora app</title><style>
+:root { --paper:#f5efe0; --ink:#1a2030; --muted:#4a5568; --accent:#1b3a5c; --teal:#317070; --warn:#8a5a12; --rule:#d4c9b4;
+  --boundary:#9a8358; --surface:#eef1f5; --gold:#c8963c; --wash-warn:#f1e8d3;
+  --zone-navigation:#317070; --zone-tray:#1b3a5c; --zone-page:#8a5a12; --zone-context:#4a5568; --zone-bottom:#2d5a3d; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font:14px/1.5 -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", sans-serif; }
+.wrap { max-width:1560px; margin:0 auto; padding:24px 32px 64px; }
+nav.crumbs { font-size:13px; color:var(--muted); margin-bottom:8px; }
+nav.crumbs a { color:var(--accent); }
+h1 { font-size:24px; margin:0 0 6px; font-weight:600; }
+h2 { font-size:18px; margin:32px 0 10px; font-weight:600; }
+.note { max-width:900px; }
+.stamp { color:var(--muted); font-size:12px; }
+.fields { max-width:900px; margin:10px 0 0; padding-left:18px; }
+.fields li { margin:2px 0; }
+.toggle { display:inline-flex; gap:6px; align-items:center; font-size:13px; color:var(--muted); margin-top:14px; }
+figure.ab { margin:28px 0 0; }
+figure.ab > header { display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; margin-bottom:8px; }
+figure.ab h3 { font-size:16px; margin:0; font-weight:600; }
+.pref { display:inline-block; background:var(--gold); color:var(--ink); font-weight:600; font-size:12px; padding:2px 8px; border-radius:10px; }
+figure.ab.preferred .frame { outline:3px solid var(--gold); outline-offset:4px; }
+.tradeoff { display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:16px; max-width:1440px; margin:0 0 10px; font-size:13px; }
+.tradeoff div { border-top:2px solid var(--rule); padding-top:6px; }
+.tradeoff .why { border-top-color:var(--gold); }
+.tradeoff b { display:block; font-size:12px; color:var(--muted); }
+.frame { position:relative; display:inline-block; max-width:100%; border:1px solid var(--rule); background:#0f2440; }
+.frame img { display:block; max-width:100%; height:auto; }
+.ov { position:absolute; border:1.5px dashed; border-radius:3px; }
+.ov .badge { position:absolute; top:-1px; right:-1px; transform:translateY(-100%); font-size:11px; font-weight:600; color:var(--paper);
+  padding:1px 6px; border-radius:3px 3px 0 0; white-space:nowrap; }
+.ov.whole .badge { top:auto; bottom:-1px; transform:translateY(100%); border-radius:0 0 3px 3px; }
+.ov.navigation { border-color:var(--zone-navigation); } .ov.navigation .badge { background:var(--zone-navigation); }
+.ov.tray { border-color:var(--zone-tray); } .ov.tray .badge { background:var(--zone-tray); }
+.ov.page { border-color:var(--zone-page); } .ov.page .badge { background:var(--zone-page); }
+.ov.context { border-color:var(--zone-context); } .ov.context .badge { background:var(--zone-context); }
+.ov.bottom { border-color:var(--zone-bottom); } .ov.bottom .badge { background:var(--zone-bottom); }
+.dropped { display:inline-block; border:1px solid var(--muted); color:var(--muted); font-size:12px; padding:1px 8px; border-radius:10px; }
+figure.ab.was .frame { opacity:.7; }
+body.plain .ov { display:none; }
+.legend { font-size:12px; color:var(--muted); margin-top:6px; }
+.comps { display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:20px; }
+.comp h4 { margin:0 0 6px; font-size:14px; }
+.comp .states { display:flex; gap:12px; flex-wrap:wrap; align-items:flex-start; }
+.comp figure { margin:0; }
+.comp figcaption { font-size:12px; color:var(--muted); margin-top:4px; }
+.comp img { display:block; border:1px solid var(--rule); max-width:300px; }
+table.idx { border-collapse:collapse; width:100%; max-width:1200px; }
+table.idx th, table.idx td { text-align:left; padding:6px 10px; border-bottom:1px solid var(--rule); vertical-align:top; }
+table.idx th { font-size:12px; color:var(--muted); }
+a { color:var(--accent); }
+</style></head>
+<body><div class="wrap">
+<nav class="crumbs"><a href="index.html">The pack</a> · previous <a href="7.1.html">7.1 Roadmap</a> · next <a href="8.1.html">8.1 Guilds</a></nav>
+<h1>7.2 · Jobs</h1>
+<p class="note">Every scheduled job and service Rig declares on either Mac, grouped by the territory and then the repository each one works in, as the built app does (src/app/jobs.ts). Kris asked for &quot;a similar list view ... based on the scheduled jobs, by territory, and then by repository&quot;. It matters because a job that fails at 07:15 on one Mac is otherwise noticed only when its output is missed. Agora only shows: running, starting or stopping a job stays Rig&#x27;s (KI-AGORA-WRK-004).</p>
+<p class="stamp">Refreshed 2026-11-06 · source: mock-ups from build/plan.py; not yet built</p>
+<b>What it shows</b><ul class="fields"><li>Tallies (P2): All, Failed, Findings, OK, No run yet, Off, Services; Failed and Findings carry the gold edge while non-zero</li><li>Chips (P2): territory and plane from the context; one Filter menu for kind, Mac, profile and provider; words; Group by repository, Mac or none</li><li>Jobs (P3): name and Rig id, schedule in words, each Mac that runs it marked by how its last run there ended, last run, next run by its schedule, how it stands</li><li>Right tray (T1), a job chosen: its standing, purpose, the declaration (id, schedule, next, declared, profiles, provider, label, works in, program), each Mac&#x27;s last runs as marks and the last one&#x27;s line; Show runs, Open its file, Show on Home</li><li>Bottom pane (B1), after Show runs: every run kept on both Macs, newest first: finished, Mac, outcome, summary; and the declaration</li><li>Never shown: a job&#x27;s environment, arguments or output</li></ul>
+<label class="toggle"><input type="checkbox" onclick="document.body.classList.toggle('plain', this.checked)"> Hide the region boxes</label>
+<p class="legend">Region codes: B, the bottom pane (green); P, page content (brass); T, the tray (blue). Quote them as "7.2a P2".</p>
+<figure class="ab preferred" id="7.2a">
+<header><h3>7.2a · By territory and repository: a failed job, its runs below</h3><span class="pref">Preferred</span></header><div class="tradeoff"><div class="why"><b>Why this one</b>It is Kris&#x27;s grouping, with the same bar as Roadmap, so a failed job is one tally away; each Mac is a marked chip in one column, so two Macs or one read the same. The tray holds the declaration and the last runs; the whole history opens below only when asked, as the shell rules say.</div><div><b>Gains</b>Territory headings fold and say what is inside (2 jobs, 1 failed), so a quiet territory takes one line; the run marks in the tray show a pattern (two findings, then a failure) before the history is opened; the next run is worked out from the schedule.</div><div><b>Costs</b>A job run on both Macs shows its two outcomes as two small chips, not side by side; tray and pane together leave the table about ten rows; the next run is derived, not reported.</div></div>
+<div class="frame" style="width:1440px"><img src="shots/7.2a.png" alt="7.2a By territory and repository: a failed job, its runs below" width="1440" height="900"><div class="ov page" style="left:16.806%;top:11.556%;width:56.667%;height:3.222%" data-region="7.2a P1" title="7.2a P1 · Page header"><span class="badge">P1 · Page header</span></div><div class="ov page" style="left:16.806%;top:16.333%;width:56.667%;height:10.222%" data-region="7.2a P2" title="7.2a P2 · Summary and filters"><span class="badge">P2 · Summary and filters</span></div><div class="ov page" style="left:16.806%;top:28.111%;width:56.667%;height:26.333%" data-region="7.2a P3" title="7.2a P3 · Jobs by territory and repository"><span class="badge">P3 · Jobs by territory and repository</span></div><div class="ov bottom whole" style="left:15.278%;top:63.333%;width:59.722%;height:36.667%" data-region="7.2a B1" title="7.2a B1 · Bottom pane"><span class="badge">B1 · Bottom pane</span></div><div class="ov tray whole" style="left:75.000%;top:9.778%;width:25.000%;height:90.222%" data-region="7.2a T1" title="7.2a T1 · Tray"><span class="badge">T1 · Tray</span></div></div>
+</figure><figure class="ab" id="7.2b">
+<header><h3>7.2b · Each Mac a column</h3></header><div class="tradeoff"><div></div><div><b>Gains</b>Like Checkouts: what ran where, and how it ended, side by side; a job missing from one Mac shows as not selected.</div><div><b>Costs</b>Most jobs run on one Mac, so half the cells say not selected; a third Mac widens every row; the per-Mac column takes the room the standing word had.</div></div>
+<div class="frame" style="width:1440px"><img src="shots/7.2b.png" alt="7.2b Each Mac a column" width="1440" height="900"><div class="ov page" style="left:16.806%;top:11.556%;width:81.667%;height:3.222%" data-region="7.2b P1" title="7.2b P1 · Page header"><span class="badge">P1 · Page header</span></div><div class="ov page" style="left:16.806%;top:16.333%;width:81.667%;height:10.222%" data-region="7.2b P2" title="7.2b P2 · Summary and filters"><span class="badge">P2 · Summary and filters</span></div><div class="ov page" style="left:16.806%;top:28.111%;width:81.667%;height:68.667%" data-region="7.2b P3" title="7.2b P3 · Jobs, each Mac a column"><span class="badge">P3 · Jobs, each Mac a column</span></div></div>
+</figure><figure class="ab" id="7.2c">
+<header><h3>7.2c · 7.2a with Failed and Findings chosen</h3></header>
+<div class="frame" style="width:1440px"><img src="shots/7.2c.png" alt="7.2c 7.2a with Failed and Findings chosen" width="1440" height="900"><div class="ov page" style="left:16.806%;top:11.556%;width:81.667%;height:3.222%" data-region="7.2c P1" title="7.2c P1 · Page header"><span class="badge">P1 · Page header</span></div><div class="ov page" style="left:16.806%;top:16.333%;width:81.667%;height:10.222%" data-region="7.2c P2" title="7.2c P2 · Summary and filters"><span class="badge">P2 · Summary and filters</span></div><div class="ov page" style="left:16.806%;top:28.111%;width:81.667%;height:26.000%" data-region="7.2c P3" title="7.2c P3 · Jobs by territory and repository"><span class="badge">P3 · Jobs by territory and repository</span></div></div>
+</figure><figure class="ab" id="7.2d">
+<header><h3>7.2d · 7.2a with a service in the tray, Personal folded</h3></header>
+<div class="frame" style="width:1440px"><img src="shots/7.2d.png" alt="7.2d 7.2a with a service in the tray, Personal folded" width="1440" height="900"><div class="ov page" style="left:16.806%;top:11.556%;width:56.667%;height:3.222%" data-region="7.2d P1" title="7.2d P1 · Page header"><span class="badge">P1 · Page header</span></div><div class="ov page" style="left:16.806%;top:16.333%;width:56.667%;height:10.222%" data-region="7.2d P2" title="7.2d P2 · Summary and filters"><span class="badge">P2 · Summary and filters</span></div><div class="ov page" style="left:16.806%;top:28.111%;width:56.667%;height:55.556%" data-region="7.2d P3" title="7.2d P3 · Jobs by territory and repository"><span class="badge">P3 · Jobs by territory and repository</span></div><div class="ov tray whole" style="left:75.000%;top:9.778%;width:25.000%;height:90.222%" data-region="7.2d T1" title="7.2d T1 · Tray"><span class="badge">T1 · Tray</span></div></div>
+</figure><figure class="ab" id="7.2a-light"><header><h3>7.2a, in light</h3><span class="stamp">the same artboard; night is the reference rendering</span></header>
+<div class="frame" style="width:1440px"><img src="shots/7.2a-light.png" alt="7.2a in light" width="1440" height="900"></div></figure>
+<h2>Components</h2><div class="comps"><div class="comp" id="7.2.1"><h4>7.2.1 · Job row</h4><div class="states"><figure><img src="shots/components/7.2.1-failed-chosen.png" alt="Job row, failed, chosen"><figcaption>failed, chosen</figcaption></figure><figure><img src="shots/components/7.2.1-two-macs-ok-and-no-run-yet.png" alt="Job row, two Macs, ok and no run yet"><figcaption>two Macs, ok and no run yet</figcaption></figure><figure><img src="shots/components/7.2.1-a-service.png" alt="Job row, a service"><figcaption>a service</figcaption></figure><figure><img src="shots/components/7.2.1-off.png" alt="Job row, off"><figcaption>off</figcaption></figure><figure><img src="shots/components/7.2.1-findings.png" alt="Job row, findings"><figcaption>findings</figcaption></figure><figure><img src="shots/components/7.2.1-a-territory-folded.png" alt="Job row, a territory folded"><figcaption>a territory folded</figcaption></figure><figure><img src="shots/components/7.2.1-a-repository-heading.png" alt="Job row, a repository heading"><figcaption>a repository heading</figcaption></figure></div></div><div class="comp" id="7.2.2"><h4>7.2.2 · Job in the tray</h4><div class="states"><figure><img src="shots/components/7.2.2-a-failed-job-runs-shown.png" alt="Job in the tray, a failed job, runs shown"><figcaption>a failed job, runs shown</figcaption></figure><figure><img src="shots/components/7.2.2-a-service.png" alt="Job in the tray, a service"><figcaption>a service</figcaption></figure></div></div><div class="comp" id="7.2.3"><h4>7.2.3 · Run history in the bottom pane</h4><div class="states"><figure><img src="shots/components/7.2.3-runs-on-both-macs.png" alt="Run history in the bottom pane, runs on both Macs"><figcaption>runs on both Macs</figcaption></figure></div></div></div>
+</div></body></html>

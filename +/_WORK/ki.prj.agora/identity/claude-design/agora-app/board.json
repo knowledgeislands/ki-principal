@@ -437,6 +437,485 @@
       ]
     },
     {
+      "id": "0.3",
+      "title": "Atlas shell",
+      "artboards": [
+        {
+          "id": "0.3a",
+          "title": "Grouped sidebar: Roadmap, a record in the tray",
+          "image": "shots/0.3a.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": true,
+          "regions": [
+            {
+              "code": "N1",
+              "label": "Toolbar",
+              "x": 0,
+              "y": 0,
+              "w": 1440,
+              "h": 48
+            },
+            {
+              "code": "N2",
+              "label": "Sidebar groups",
+              "x": 8,
+              "y": 58,
+              "w": 203,
+              "h": 521
+            },
+            {
+              "code": "N3",
+              "label": "Sidebar foot",
+              "x": 8,
+              "y": 728,
+              "w": 203,
+              "h": 162
+            },
+            {
+              "code": "N4",
+              "label": "Tabs",
+              "x": 234,
+              "y": 55,
+              "w": 772,
+              "h": 32
+            },
+            {
+              "code": "C1",
+              "label": "Context",
+              "x": 1018,
+              "y": 54,
+              "w": 410,
+              "h": 27
+            },
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 104,
+              "w": 816,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Summary and filters",
+              "x": 242,
+              "y": 147,
+              "w": 816,
+              "h": 92
+            },
+            {
+              "code": "P3",
+              "label": "Records",
+              "x": 242,
+              "y": 253,
+              "w": 816,
+              "h": 591
+            },
+            {
+              "code": "T1",
+              "label": "Tray",
+              "x": 1080,
+              "y": 88,
+              "w": 360,
+              "h": 812
+            }
+          ]
+        },
+        {
+          "id": "0.3b",
+          "title": "Grouped sidebar: Guilds, a skill in the bottom pane",
+          "image": "shots/0.3b.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "N1",
+              "label": "Toolbar",
+              "x": 0,
+              "y": 0,
+              "w": 1440,
+              "h": 48
+            },
+            {
+              "code": "N2",
+              "label": "Sidebar groups",
+              "x": 8,
+              "y": 58,
+              "w": 203,
+              "h": 521
+            },
+            {
+              "code": "N3",
+              "label": "Sidebar foot",
+              "x": 8,
+              "y": 728,
+              "w": 203,
+              "h": 162
+            },
+            {
+              "code": "N4",
+              "label": "Tabs",
+              "x": 234,
+              "y": 55,
+              "w": 772,
+              "h": 32
+            },
+            {
+              "code": "C1",
+              "label": "Context",
+              "x": 1018,
+              "y": 54,
+              "w": 410,
+              "h": 27
+            },
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 104,
+              "w": 1176,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Guild badges",
+              "x": 242,
+              "y": 147,
+              "w": 1176,
+              "h": 127
+            },
+            {
+              "code": "P3",
+              "label": "The guild’s skills",
+              "x": 242,
+              "y": 288,
+              "w": 1176,
+              "h": 86
+            },
+            {
+              "code": "B1",
+              "label": "Bottom pane",
+              "x": 220,
+              "y": 480,
+              "w": 1220,
+              "h": 420
+            }
+          ]
+        },
+        {
+          "id": "0.3c",
+          "title": "Sidebar folded: Home, the territory menu open",
+          "image": "shots/0.3c.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "N1",
+              "label": "Toolbar",
+              "x": 0,
+              "y": 0,
+              "w": 1440,
+              "h": 48
+            },
+            {
+              "code": "N2",
+              "label": "Sidebar groups",
+              "x": 6,
+              "y": 58,
+              "w": 43,
+              "h": 655
+            },
+            {
+              "code": "N3",
+              "label": "Sidebar foot",
+              "x": 6,
+              "y": 715,
+              "w": 43,
+              "h": 175
+            },
+            {
+              "code": "N4",
+              "label": "Tabs",
+              "x": 70,
+              "y": 55,
+              "w": 936,
+              "h": 32
+            },
+            {
+              "code": "C1",
+              "label": "Context",
+              "x": 1018,
+              "y": 54,
+              "w": 410,
+              "h": 27
+            },
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 78,
+              "y": 104,
+              "w": 1340,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Toolbar",
+              "x": 79,
+              "y": 148,
+              "w": 1338,
+              "h": 46
+            },
+            {
+              "code": "P3",
+              "label": "The map",
+              "x": 79,
+              "y": 194,
+              "w": 1338,
+              "h": 687
+            }
+          ]
+        },
+        {
+          "id": "0.3d",
+          "title": "Tray and bottom pane together: Jobs, a job and its runs",
+          "image": "shots/0.3d.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "N1",
+              "label": "Toolbar",
+              "x": 0,
+              "y": 0,
+              "w": 1440,
+              "h": 48
+            },
+            {
+              "code": "N2",
+              "label": "Sidebar groups",
+              "x": 8,
+              "y": 58,
+              "w": 203,
+              "h": 521
+            },
+            {
+              "code": "N3",
+              "label": "Sidebar foot",
+              "x": 8,
+              "y": 728,
+              "w": 203,
+              "h": 162
+            },
+            {
+              "code": "N4",
+              "label": "Tabs",
+              "x": 234,
+              "y": 55,
+              "w": 772,
+              "h": 32
+            },
+            {
+              "code": "C1",
+              "label": "Context",
+              "x": 1018,
+              "y": 54,
+              "w": 410,
+              "h": 27
+            },
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 104,
+              "w": 816,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Summary and filters",
+              "x": 242,
+              "y": 147,
+              "w": 816,
+              "h": 92
+            },
+            {
+              "code": "P3",
+              "label": "Jobs by territory and repository",
+              "x": 242,
+              "y": 253,
+              "w": 816,
+              "h": 237
+            },
+            {
+              "code": "B1",
+              "label": "Bottom pane",
+              "x": 220,
+              "y": 570,
+              "w": 860,
+              "h": 330
+            },
+            {
+              "code": "T1",
+              "label": "Tray",
+              "x": 1080,
+              "y": 88,
+              "w": 360,
+              "h": 812
+            }
+          ]
+        },
+        {
+          "id": "0.3e",
+          "title": "Sections across the top: Work, Roadmap, a record in the tray",
+          "image": "shots/0.3e.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "N1",
+              "label": "Toolbar",
+              "x": 0,
+              "y": 0,
+              "w": 1440,
+              "h": 48
+            },
+            {
+              "code": "N2",
+              "label": "Sidebar groups",
+              "x": 8,
+              "y": 58,
+              "w": 179,
+              "h": 78
+            },
+            {
+              "code": "N3",
+              "label": "Sidebar foot",
+              "x": 8,
+              "y": 779,
+              "w": 179,
+              "h": 111
+            },
+            {
+              "code": "N4",
+              "label": "Tabs",
+              "x": 210,
+              "y": 55,
+              "w": 796,
+              "h": 32
+            },
+            {
+              "code": "C1",
+              "label": "Context",
+              "x": 1018,
+              "y": 54,
+              "w": 410,
+              "h": 27
+            },
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 218,
+              "y": 104,
+              "w": 840,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Summary and filters",
+              "x": 218,
+              "y": 147,
+              "w": 840,
+              "h": 92
+            },
+            {
+              "code": "P3",
+              "label": "Records",
+              "x": 218,
+              "y": 253,
+              "w": 840,
+              "h": 591
+            },
+            {
+              "code": "T1",
+              "label": "Tray",
+              "x": 1080,
+              "y": 88,
+              "w": 360,
+              "h": 812
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "id": "0.3.1",
+          "title": "Sidebar group",
+          "states": [
+            "open, a count waiting",
+            "folded to its heading",
+            "a lone place",
+            "the sidebar folded"
+          ]
+        },
+        {
+          "id": "0.3.2",
+          "title": "Context control",
+          "states": [
+            "territory, plane ignored",
+            "territory and plane",
+            "the territory menu open"
+          ]
+        },
+        {
+          "id": "0.3.3",
+          "title": "Tray frame",
+          "states": [
+            "a work record",
+            "a job"
+          ]
+        },
+        {
+          "id": "0.3.4",
+          "title": "Bottom pane frame",
+          "states": [
+            "a skill's documents",
+            "a job's runs"
+          ]
+        },
+        {
+          "id": "0.3.5",
+          "title": "Toolbar",
+          "states": [
+            "all well",
+            "one needs a look"
+          ]
+        },
+        {
+          "id": "0.3.6",
+          "title": "Sidebar foot",
+          "states": [
+            "expanded",
+            "folded"
+          ]
+        }
+      ]
+    },
+    {
       "id": "1",
       "title": "Home",
       "artboards": [
@@ -1349,6 +1828,703 @@
         }
       ],
       "components": []
+    },
+    {
+      "id": "7.1",
+      "title": "Roadmap",
+      "artboards": [
+        {
+          "id": "7.1a",
+          "title": "Tallies over a grouped table: a record in the tray",
+          "image": "shots/7.1a.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": true,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 104,
+              "w": 816,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Summary and filters",
+              "x": 242,
+              "y": 147,
+              "w": 816,
+              "h": 92
+            },
+            {
+              "code": "P3",
+              "label": "Records",
+              "x": 242,
+              "y": 253,
+              "w": 816,
+              "h": 591
+            },
+            {
+              "code": "T1",
+              "label": "Tray",
+              "x": 1080,
+              "y": 88,
+              "w": 360,
+              "h": 812
+            }
+          ]
+        },
+        {
+          "id": "7.1b",
+          "title": "The summary beside the table: a cell as the filter",
+          "image": "shots/7.1b.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 104,
+              "w": 1176,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Summary: each cell a filter",
+              "x": 242,
+              "y": 147,
+              "w": 330,
+              "h": 378
+            },
+            {
+              "code": "P3",
+              "label": "Chips and words",
+              "x": 588,
+              "y": 147,
+              "w": 830,
+              "h": 60
+            },
+            {
+              "code": "P4",
+              "label": "Records",
+              "x": 588,
+              "y": 217,
+              "w": 830,
+              "h": 252
+            }
+          ]
+        },
+        {
+          "id": "7.1c",
+          "title": "7.1a with a filter applied: Triage, priority high, the Filter menu open, by island",
+          "image": "shots/7.1c.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 104,
+              "w": 1176,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Summary and filters",
+              "x": 242,
+              "y": 147,
+              "w": 1176,
+              "h": 92
+            },
+            {
+              "code": "P3",
+              "label": "Records",
+              "x": 242,
+              "y": 253,
+              "w": 1176,
+              "h": 250
+            }
+          ]
+        },
+        {
+          "id": "7.1d",
+          "title": "7.1a with a record awaiting review in the tray",
+          "image": "shots/7.1d.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 104,
+              "w": 816,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Summary and filters",
+              "x": 242,
+              "y": 147,
+              "w": 816,
+              "h": 92
+            },
+            {
+              "code": "P3",
+              "label": "Records",
+              "x": 242,
+              "y": 253,
+              "w": 816,
+              "h": 591
+            },
+            {
+              "code": "T1",
+              "label": "Tray",
+              "x": 1080,
+              "y": 88,
+              "w": 360,
+              "h": 812
+            }
+          ]
+        },
+        {
+          "id": "7.1e",
+          "title": "7.1a with nothing matching",
+          "image": "shots/7.1e.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 104,
+              "w": 1176,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Summary and filters",
+              "x": 242,
+              "y": 147,
+              "w": 1176,
+              "h": 92
+            },
+            {
+              "code": "P3",
+              "label": "No records",
+              "x": 242,
+              "y": 253,
+              "w": 1176,
+              "h": 300
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "id": "7.1.1",
+          "title": "Summary-filter bar",
+          "states": [
+            "Roadmap at rest",
+            "a tally and a chip applied",
+            "nothing matching",
+            "Jobs",
+            "Jobs, two tallies chosen"
+          ]
+        },
+        {
+          "id": "7.1.2",
+          "title": "Chips",
+          "states": [
+            "from the context",
+            "chosen, removable",
+            "the Filter button",
+            "the Filter menu open",
+            "territory and plane from the context"
+          ]
+        },
+        {
+          "id": "7.1.3",
+          "title": "Record row",
+          "states": [
+            "chosen",
+            "plain",
+            "awaiting review",
+            "a group heading",
+            "a folded group"
+          ]
+        },
+        {
+          "id": "7.1.4",
+          "title": "Record in the tray",
+          "states": [
+            "a record",
+            "awaiting review, the one brass action"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7.2",
+      "title": "Jobs",
+      "artboards": [
+        {
+          "id": "7.2a",
+          "title": "By territory and repository: a failed job, its runs below",
+          "image": "shots/7.2a.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": true,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 104,
+              "w": 816,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Summary and filters",
+              "x": 242,
+              "y": 147,
+              "w": 816,
+              "h": 92
+            },
+            {
+              "code": "P3",
+              "label": "Jobs by territory and repository",
+              "x": 242,
+              "y": 253,
+              "w": 816,
+              "h": 237
+            },
+            {
+              "code": "B1",
+              "label": "Bottom pane",
+              "x": 220,
+              "y": 570,
+              "w": 860,
+              "h": 330
+            },
+            {
+              "code": "T1",
+              "label": "Tray",
+              "x": 1080,
+              "y": 88,
+              "w": 360,
+              "h": 812
+            }
+          ]
+        },
+        {
+          "id": "7.2b",
+          "title": "Each Mac a column",
+          "image": "shots/7.2b.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 104,
+              "w": 1176,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Summary and filters",
+              "x": 242,
+              "y": 147,
+              "w": 1176,
+              "h": 92
+            },
+            {
+              "code": "P3",
+              "label": "Jobs, each Mac a column",
+              "x": 242,
+              "y": 253,
+              "w": 1176,
+              "h": 618
+            }
+          ]
+        },
+        {
+          "id": "7.2c",
+          "title": "7.2a with Failed and Findings chosen",
+          "image": "shots/7.2c.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 104,
+              "w": 1176,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Summary and filters",
+              "x": 242,
+              "y": 147,
+              "w": 1176,
+              "h": 92
+            },
+            {
+              "code": "P3",
+              "label": "Jobs by territory and repository",
+              "x": 242,
+              "y": 253,
+              "w": 1176,
+              "h": 234
+            }
+          ]
+        },
+        {
+          "id": "7.2d",
+          "title": "7.2a with a service in the tray, Personal folded",
+          "image": "shots/7.2d.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 104,
+              "w": 816,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Summary and filters",
+              "x": 242,
+              "y": 147,
+              "w": 816,
+              "h": 92
+            },
+            {
+              "code": "P3",
+              "label": "Jobs by territory and repository",
+              "x": 242,
+              "y": 253,
+              "w": 816,
+              "h": 500
+            },
+            {
+              "code": "T1",
+              "label": "Tray",
+              "x": 1080,
+              "y": 88,
+              "w": 360,
+              "h": 812
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "id": "7.2.1",
+          "title": "Job row",
+          "states": [
+            "failed, chosen",
+            "two Macs, ok and no run yet",
+            "a service",
+            "off",
+            "findings",
+            "a territory folded",
+            "a repository heading"
+          ]
+        },
+        {
+          "id": "7.2.2",
+          "title": "Job in the tray",
+          "states": [
+            "a failed job, runs shown",
+            "a service"
+          ]
+        },
+        {
+          "id": "7.2.3",
+          "title": "Run history in the bottom pane",
+          "states": [
+            "runs on both Macs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8.1",
+      "title": "Guilds",
+      "artboards": [
+        {
+          "id": "8.1a",
+          "title": "Badges across, the guild's skills beneath: a skill's SKILL.md below",
+          "image": "shots/8.1a.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": true,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 104,
+              "w": 1176,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Guild badges",
+              "x": 242,
+              "y": 147,
+              "w": 1176,
+              "h": 127
+            },
+            {
+              "code": "P3",
+              "label": "The guild’s skills",
+              "x": 242,
+              "y": 288,
+              "w": 1176,
+              "h": 86
+            },
+            {
+              "code": "B1",
+              "label": "Bottom pane",
+              "x": 220,
+              "y": 480,
+              "w": 1220,
+              "h": 420
+            }
+          ]
+        },
+        {
+          "id": "8.1b",
+          "title": "Guild columns across: the built app's panels",
+          "image": "shots/8.1b.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 104,
+              "w": 1176,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Guild columns, sideways",
+              "x": 242,
+              "y": 147,
+              "w": 1176,
+              "h": 315
+            },
+            {
+              "code": "B1",
+              "label": "Bottom pane",
+              "x": 220,
+              "y": 480,
+              "w": 1220,
+              "h": 420
+            }
+          ]
+        },
+        {
+          "id": "8.1c",
+          "title": "8.1a with no skill chosen: All guilds as a ledger",
+          "image": "shots/8.1c.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 104,
+              "w": 1176,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Guild badges",
+              "x": 242,
+              "y": 147,
+              "w": 1176,
+              "h": 127
+            },
+            {
+              "code": "P3",
+              "label": "Every guild’s skills",
+              "x": 242,
+              "y": 288,
+              "w": 1176,
+              "h": 496
+            }
+          ]
+        },
+        {
+          "id": "8.1d",
+          "title": "8.1a for another territory: Humans Not Robots from the context",
+          "image": "shots/8.1d.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 104,
+              "w": 1176,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Guild badges",
+              "x": 242,
+              "y": 147,
+              "w": 1176,
+              "h": 127
+            },
+            {
+              "code": "P3",
+              "label": "The guild’s skills",
+              "x": 242,
+              "y": 288,
+              "w": 1176,
+              "h": 55
+            },
+            {
+              "code": "B1",
+              "label": "Bottom pane",
+              "x": 220,
+              "y": 570,
+              "w": 1220,
+              "h": 330
+            }
+          ]
+        },
+        {
+          "id": "8.1e",
+          "title": "8.1a with a folder tab: references/, one document drawn",
+          "image": "shots/8.1e.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 104,
+              "w": 1176,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Guild badges",
+              "x": 242,
+              "y": 147,
+              "w": 1176,
+              "h": 127
+            },
+            {
+              "code": "P3",
+              "label": "The guild’s skills",
+              "x": 242,
+              "y": 288,
+              "w": 1176,
+              "h": 86
+            },
+            {
+              "code": "B1",
+              "label": "Bottom pane",
+              "x": 220,
+              "y": 480,
+              "w": 1220,
+              "h": 420
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "id": "8.1.1",
+          "title": "Guild badge",
+          "states": [
+            "chosen",
+            "plain",
+            "All guilds, chosen",
+            "a territory's own skills",
+            "the strip"
+          ]
+        },
+        {
+          "id": "8.1.2",
+          "title": "Skill badge",
+          "states": [
+            "plain",
+            "open in the pane",
+            "in the ledger"
+          ]
+        },
+        {
+          "id": "8.1.3",
+          "title": "Skill in the bottom pane",
+          "states": [
+            "SKILL.md",
+            "a folder tab"
+          ]
+        }
+      ]
     }
   ]
 }

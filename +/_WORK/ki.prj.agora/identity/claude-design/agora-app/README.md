@@ -14,8 +14,9 @@ Open [index.html](index.html). It has one page per part, in the app's own order,
 
 | Page | Part | Artboards (preferred marked ★) |
 | --- | --- | --- |
-| [0.1](0.1.html) | Shell: the window and its rail | 0.1a expanded, 0.1b contracted, 0.1c terra not heard from; components 0.1.1 to 0.1.4 |
-| [0.2](0.2.html) | Shell: the tray | 0.2a all well, 0.2b one problem, 0.2c a Mac missing; components 0.2.1 to 0.2.3 |
+| [0.1](0.1.html) | Shell: the window and its rail (superseded by 0.3) | 0.1a expanded, 0.1b contracted, 0.1c terra not heard from, all dropped; components 0.1.1 to 0.1.5 |
+| [0.2](0.2.html) | Shell: the tray (Agora Beacon) | 0.2a all well, 0.2b one problem, 0.2c a Mac missing; components 0.2.1 to 0.2.3 |
+| [0.3](0.3.html) | Atlas shell | 0.3a Grouped sidebar ★ (0.3b Guilds with the bottom pane, 0.3c folded with the territory menu, 0.3d tray and bottom pane together), 0.3e Sections across the top; components 0.3.1 to 0.3.6 |
 | [1](1.html) | Home | 1f The working map ★ (1g Everything, 1h closer on one territory), 1a The map of territories (1d sol's plane, 1e terra's plane), 1b The councils, 1c The two squares; components 1.1 to 1.3 |
 | [2.1](2.1.html) | Who's doing what | 2.1a By Mac ★, 2.1b By focus: the address book |
 | [2.2](2.2.html) | An agent | 2.2a ki.prj.agora ★ |
@@ -25,8 +26,13 @@ Open [index.html](index.html). It has one page per part, in the app's own order,
 | [5.1](5.1.html) | Macs and the portal | 5.1a The two Macs and the portal ★ |
 | [5.2](5.2.html) | Checkouts | 5.2a Not level, side by side ★ |
 | [6](6.html) | A document in a tab | 6a ki.prj.agora · messages.md ★ |
+| [7.1](7.1.html) | Roadmap | 7.1a Tallies over a grouped table ★ (7.1c a filter applied, 7.1d a record awaiting review, 7.1e nothing matching), 7.1b The summary beside the table; 7.1a in light; components 7.1.1 to 7.1.4 |
+| [7.2](7.2.html) | Jobs | 7.2a By territory and repository ★ (7.2c Failed and Findings chosen, 7.2d a service in the tray), 7.2b Each Mac a column; 7.2a in light; components 7.2.1 to 7.2.3 |
+| [8.1](8.1.html) | Guilds | 8.1a Badges across, the guild's skills beneath ★ (8.1c no skill chosen, 8.1d Humans Not Robots, 8.1e a folder tab), 8.1b Guild columns across; 8.1a in light; components 8.1.1 to 8.1.3 |
 
 Each page opens with a note on what it is for and why it matters, then the fields the view shows. Where there are alternatives, each states what it gains and what it costs. The preferred one is outlined in brass, with its reason. Region boxes carry codes to quote, such as "1a P2" or "0.1b N4": `N` marks the rail, `T` the tray and `P` page content. A tick hides the boxes. `board.json` holds every artboard's size and coded regions.
+
+[IA.md](IA.md) holds the information architecture: the sidebar tree, the shell rules for the tray, the bottom pane and the context control, the page numbers for the pages still to come, and the shell function the next designers call.
 
 ## How it is built
 
@@ -34,7 +40,8 @@ Mock-ups, not screenshots of a running app: the app is not built yet. The annota
 
 - `build/plan.py` holds the pages, notes, fields, artboards and trade-offs, and writes the mock-up HTML into `mocks/`.
 - `build/map_view.py` draws the map of territories on home.
-- `build/mocks.py` draws each view in the Instrument dialect of `ki-design`: tokens only, system type, tables not cards, night first.
+- `build/work.py` draws Roadmap, Jobs and Guilds (7.1, 7.2, 8.1) and the summary-filter bar they share, for the data the built app reads (`src/app/roadmap.ts`, `jobs.ts`, `guilds.ts` in apps-agora.local).
+- `build/mocks.py` draws each view in the Instrument dialect of `ki-design`: tokens only, system type, tables not cards, night first. `atlas_page(active, content, tray=None, bottom=None, context=None, …)` draws the Atlas shell around any page, with `tray_frame` and `bottom_frame` for the tray and the pane (IA.md).
 - `build/data.py` holds the illustrative data.
 - `build/shoot.js` takes each screenshot and measures each `data-region` with Playwright.
 - `build/board.py` writes the pages.
@@ -43,7 +50,12 @@ To rebuild: `python3 build/plan.py && node build/shoot.js build/plan.json shots 
 
 ## Choices
 
-- **The shell is a rail with the portal at its foot.** The portal line (`sol ⇄ terra · portal open`) answers "are both Macs here?" on every page. Speak to everyone sits on the rail too, so Broadcast, Away, Ping and Mark all are always one click away, as in the tray.
+- **The app is Agora Atlas** (0.3). The tray is Agora Beacon and the iPhone app Agora Lantern; the shell names both at the sidebar's foot.
+- **The shell is a grouped sidebar under one toolbar** (0.3a ★), replacing 0.1's rail. Groups follow what a place is about: Agora, Work, Guilds, Observatory, KIV (folded while it is coming), Coming; Accounts, Settings and Updates sit at the foot with the portal line. Speak to everyone moves from the rail to the toolbar, as the built app already has it.
+  - **Context** (territory and plane) has one place, at the right of the tab strip, shared by every page; a page that ignores a dimension greys it. Home's plane switch moves there.
+  - **The right tray** holds one selected thing's facts and pushes the page; **the bottom pane** holds its documents and long readings, in tabs. Both open the same way on every page (IA.md).
+  - The alternative, **sections across the top** (0.3e), keeps the sidebar short but costs two clicks between sections and hides the foot behind a gear.
+- **The shell was a rail with the portal at its foot** (0.1, superseded by 0.3). The portal line (`sol ⇄ terra · portal open`) answers "are both Macs here?" on every page. Speak to everyone sits on the rail too, so Broadcast, Away, Ping and Mark all are always one click away, as in the tray.
 - **Home is one map of territories**, after Kris's vision (MSG-62774774). It fits one window with no scrolling.
   - Each territory is a faint boundary, and its islands (repositories) are hexes in the flat chart's manner.
   - Each island has its **island portal** on its summit, the ring, lit when someone there listens. A principal island's is larger: the **principal portal**, which liaises across territories within one plane (Kris's names, MSG-cccabc3c and MSG-1953e5db).
@@ -60,6 +72,15 @@ To rebuild: `python3 build/plan.py && node build/shoot.js build/plan.json shots 
   - The key is a strip under the map, so the tray is free for detail.
   - 1g shows Everything with the planar portal's island selected. 1a keeps the plain map with the key beside it; 1d and 1e are its planes. 1b draws the same hierarchy as columns. 1c keeps the earlier host-centred two squares.
   - Codes were kept, not re-lettered, so comments on 1a to 1e still point to the same boards; the new boards take 1f to 1h, and the preferred is marked ★ where it sits, first on the page.
+- **Roadmap is tallies over a grouped table** (7.1a ★). One row of counts, one per open status, sits across the top, and each count is the filter it names; chips under it say every filter in force, the context's territory first; one Filter menu holds priority, horizon, area, size, island, kind and assignee with their counts; words find; Group chooses status, island, area or none. The table keeps the built app's columns (record, title, island, status, priority and size, updated). Awaiting review carries the gold edge, since a review is Kris's to give, and is the only record whose tray has a brass action (Open to review, 7.1d). Done and cancelled are one tally, hidden until chosen, which replaces the built app's checkbox. The alternative, the built app's own **summary beside the table** (7.1b), answers island against status in one cell but costs 330 points of table.
+  - **The record's tray** holds its front matter, Blocked by and Blocks (each a link), its Goal and the first lines of its Context, and Open the file, Read in full (the whole record in the bottom pane) and Show on Home.
+  - **Status marks**: in progress solid, awaiting review a gold diamond, ready a ring, draft a dashed ring, triage a square; each always with its word.
+- **Jobs uses the same bar** (7.2a ★): tallies for Failed, Findings, OK, No run yet, Off and Services, with Failed and Findings edged in gold; the context as one chip (All territories · both planes); Group by repository, Mac or none. Rows are grouped by territory and then repository, as Kris asked; a territory heading folds to one line that still says what is wrong inside it. Each Mac that runs a job is a chip marked by how its last run there ended. The next run is worked out from the schedule.
+  - **The job's tray** holds its standing and purpose, Rig's declaration and each Mac's last ten runs as marks with the last one's line; **Show runs** opens the **run history in the bottom pane**, newest first across both Macs, with a Declaration tab. There is no Log tab: Agora never reads a job's output, environment or arguments.
+  - No brass on Jobs: Agora only shows jobs, and a failed one is fixed in Rig or the tool it runs.
+  - The alternative, **each Mac a column** (7.2b), lines up what ran where, but most jobs run on one Mac, so half its cells say not selected.
+- **Guilds are badges across, the chosen guild's skills beneath** (8.1a ★). Each guild is a shield badge with its monogram on its own colour (its logo once the catalogue gives one), its name and its count; All guilds comes first. Choosing a badge shows that guild's about line and its skills as sub-badges, each carrying its guild's small shield; choosing a skill opens it in the bottom pane, with SKILL.md (front matter at the left, instructions drawn at the right), each other document and each folder as tabs. All guilds shows the ledger, one guild a row (8.1c). The territory is the context's (8.1d). The alternative, **guild columns across** (8.1b), is the built app's panels: closest to Kris's words, but only four of eight fit and long guilds are cut.
+- **Shell rules settled this round** (IA.md): the summary-filter bar for list pages, the context as one chip, groups that fold, and the bottom pane opening alone for a thing that is mostly documents.
 - **Tabs** (0.1.5, page 6) let pages and documents open inside the app beside the map, as Orca and Claude Code do.
 - **Views follow the five goals.** Who's doing what and an agent (goal 3); what's being said and broadcasts (goals 1 and 4); waits on you (Kris's decisions); Macs and the portal, and checkouts (goal 2). The tray covers goal 5.
 - **The two layers are named everywhere** as Git and Agora, so Kris can see what was written to the record and what was only said.
@@ -84,3 +105,16 @@ To rebuild: `python3 build/plan.py && node build/shoot.js build/plan.json shots 
 14. **Where the counts come from.** Queued work and waiting messages per island are placeholders. Waiting messages could be lines in each package's `messages.md` not yet acknowledged; queued work could be its open work items. `ki agent status` or `/v1/state` would need to say which.
 15. **Principal portals and the planar portal.** Threads run from ki-portal to Personal's principal portal only. Should every principal portal have its own thread to the planar portal, since that is how talk leaves a plane?
 16. **Zoom in a real map.** The zoomed board frames one territory and dims the others. A free pan and zoom, a territory jump (double-click its name), or both?
+17. **Portal or Beacon in the window's words.** The built app says "Portal not answering" for the tray process. With the tray renamed Beacon, the shell says "Beacon on sol" and would say "Beacon not answering", keeping "portal" for the link between the rigs (sol ⇄ terra). Is that the split Kris wants?
+18. **Is the context the window's or each tab's?** 0.3 makes it the window's, so switching tabs never surprises. A tab pinned to its own territory is possible later.
+19. **KIV places while coming.** The brief calls them coming soon, but the built app already embeds them when the KIV runs. The sidebar shows them muted with "soon" and folds the group; unfold it once they are native views.
+20. **What Lantern reports to the shell.** The foot says when Lantern was last heard; that needs the phone's service to say so to Agora.
+21. **Owner of a job.** Rig's declaration has no owner. The pack shows the repository a job works in as where it belongs; should a declaration name its owning package (such as `work/hnr.sop.main`), so a failed job can say who to tell?
+22. **Next run.** Rig reports no next run; the pack works it out from the calendar or interval. Is that good enough, or should Rig or the reporter state it?
+23. **Run history depth.** The pack assumes the reporter keeps 14 days of runs per job. How many does it keep, and should the bottom pane say when the oldest is?
+24. **Review as Kris's act.** Awaiting review is edged in gold and given the one brass action (Open to review), on the reading that a review waits on Kris. If reviews are often another agent's, the gold edge should go to the assignee instead.
+25. **Folding long groups.** Roadmap folds a group after a few rows so every status heading fits one window. Kris may prefer one long scroll; folding could be remembered per group.
+26. **Statuses outside the order.** The built app sorts statuses in-progress, awaiting-review, ready, draft, triage, done, cancelled, and any other after them. A record with another status would need its own tally; the pack assumes none.
+27. **Humans Not Robots' skills.** The pack draws an `hnr-agentic-harness` with six unsorted skills; it was not on the lands this pack read. Is there one, and does Personal have its own?
+28. **Guild colours.** Each guild's colour is only identity, so it never carries a meaning; with sixteen or more guilds the hues will crowd. The catalogue's logos would replace them.
+29. **More than one row of badges.** Eight guilds fit across at 118 points each beside the sidebar. At ten or more, the badges need a second row or a narrower form (shield and name only).
