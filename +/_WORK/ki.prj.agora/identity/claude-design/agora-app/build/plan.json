@@ -38,15 +38,15 @@
       "zones": [
         "page"
       ],
-      "note": "One view that fits the window with no scrolling (MSG-62774774, Kris's vision): the territories and their islands, the work packages and workers placed where they work, the primary focus of each, the meeting point on each island (its summit portal), the threads of talk up to each territory's principal portal and across, and the planar portal between the Macs. It matters because it is the page the app opens on, and it should show the whole distributed Agora as one place.",
+      "note": "One view that fits the window with no scrolling (MSG-62774774, Kris's vision): the territories and their islands, the work packages and workers placed where they work, the primary focus of each, the meeting point on each island (its island portal), the threads of talk up to each territory's principal portal and across, and the planar portal between the Macs. It matters because it is the page the app opens on, and it should show the whole distributed Agora as one place.",
       "fields": [
         "Territories, each a faint boundary with its name",
         "Islands (repositories), drawn as hexes",
-        "Summit portal on each island: on (lit) or off; the principal portal larger on each principal island",
+        "Island portal on each island: on (lit) or off; the principal portal larger on each principal island",
         "Workers by role: council, enabler, doer; each with its primary focus and rig",
         "Planes: sol, terra or both, since each rig is a plane over the same islands",
         "Listening by shape: solid listening, hollow on open, slashed silent",
-        "Threads of talk: summit portals up to the principal portal, principal portals across",
+        "Threads of talk: island portals up to the principal portal, principal portals across",
         "The planar portal on the dotfiles island: sol and terra, open or not",
         "At a glance: agents by host, what needs a look, what waits on Kris, the portal; the key; Show as a list"
       ]
@@ -231,7 +231,7 @@
         "page"
       ],
       "preferred": true,
-      "why": "It is the picture Kris described: islands and territories, workers placed where they work, summit and principal portals joined by threads, the planar portal; it fits one window, and the key and Show as a list give its text equivalent.",
+      "why": "It is the picture Kris described: islands and territories, workers placed where they work, island and principal portals joined by threads, the planar portal; it fits one window, and the key and Show as a list give its text equivalent.",
       "gains": "The whole distributed Agora in one look; the hierarchy of talk is visible; hosts read as crews on the same islands.",
       "costs": "Placing islands needs a layout rule (the Territory Map's, ideally); labels crowd on a busy island; silent workers are small."
     },

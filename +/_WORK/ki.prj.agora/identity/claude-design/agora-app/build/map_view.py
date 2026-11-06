@@ -1,5 +1,5 @@
 """Home as one viewport-sized map (MSG-62774774, Kris's vision): the territories and their islands, the work
-packages and workers placed where they work, each one's primary focus, the summit portal on each island, the
+packages and workers placed where they work, each one's primary focus, the island portal on each island, the
 threads of talk up to each territory's principal portal and across, and the planar portal between the planes (Kris's three portals, MSG-cccabc3c).
 
 Islands are repositories, drawn as clusters of pointy-top hexes in the flat chart's manner. Hosts are crews, not
@@ -108,7 +108,7 @@ def territory_map(width=900, height=700, plane='both'):
         for q, r in cells:
             cx, cy = hex_centre(base, q, r)
             out.append(f'<polygon points="{hexagon(cx, cy)}" fill="var(--land)" stroke="var(--boundary)" stroke-width="1"/>')
-    # threads: summit portals up to the principal portal, principal portals across, the planar portal
+    # threads: island portals up to the principal portal, principal portals across, the planar portal
     gold = 'var(--gold)'
     threads = [('apps-agora.local', 'ki-principal', 1.5), ('5g-emerge', 'hnr-principal', 1.5), ('hnr-site', 'hnr-principal', 1.5),
                ('dotfiles', 'inbox', 1.5), ('ki-principal', 'hnr-principal', 3), ('ki-principal', 'inbox', 3), ('hnr-principal', 'inbox', 3)]
@@ -120,7 +120,7 @@ def territory_map(width=900, height=700, plane='both'):
     out.append(f'<path d="M{gx:.1f} {gy:.1f} C{gx - 120:.1f} {gy + 10:.1f} {70:.1f} {gy + 40:.1f} 18 {gy + 86:.1f}" fill="none" stroke="{gold}" stroke-width="5" stroke-linecap="round"/>')
     out.append(text(30, gy + 104, 'The planar portal', size=12.5, weight=600))
     out.append(text(30, gy + 120, 'sol ⇄ terra · open · heard 04:20' if plane == 'both' else f'showing {plane}\'s plane · the other rig dimmed', size=11.5, fill='var(--muted)'))
-    # summit portals (principal portals larger, the planar portal ringed in gold)
+    # island portals (principal portals larger, the planar portal ringed in gold)
     joined = {w[1] for w in WORKERS if on_plane(w[3])}
     for name in ISLANDS:
         x, y = meeting_point(name)
@@ -158,6 +158,6 @@ KEY = [
     ('<rect x="4" y="4" width="10" height="10" rx="1.5" fill="none" stroke="var(--ink)" stroke-width="1.8"/>', 'Doer, brought in by a work package'),
     ('<circle cx="9" cy="9" r="5" fill="none" stroke="var(--ink)" stroke-width="2"/>', 'Reads on open'),
     ('<circle cx="9" cy="9" r="5.5" fill="none" stroke="var(--bad)" stroke-width="2"/><path d="M5 13 L13 5" stroke="var(--bad)" stroke-width="2"/>', 'Silent'),
-    ('<path d="M6 15 A7 7 0 1 1 12 15" fill="none" stroke="var(--ink)" stroke-width="2"/>', "Summit portal, on every island; lit when someone there listens. Larger on a principal island: the principal portal"),
-    ('<path d="M2 12 Q9 4 16 12" fill="none" stroke="var(--gold)" stroke-width="2"/>', 'Thread of talk: summit portals up to the principal portal, principal portals across; the planar portal joins the planes'),
+    ('<path d="M6 15 A7 7 0 1 1 12 15" fill="none" stroke="var(--ink)" stroke-width="2"/>', "Island portal, on every island; lit when someone there listens. Larger on a principal island: the principal portal"),
+    ('<path d="M2 12 Q9 4 16 12" fill="none" stroke="var(--gold)" stroke-width="2"/>', 'Thread of talk: island portals up to the principal portal, principal portals across; the planar portal joins the planes'),
 ]

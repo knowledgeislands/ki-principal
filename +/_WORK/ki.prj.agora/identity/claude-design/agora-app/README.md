@@ -46,10 +46,10 @@ To rebuild: `python3 build/plan.py && node build/shoot.js build/plan.json shots 
 - **The shell is a rail with the portal at its foot.** The portal line (`sol ⇄ terra · portal open`) answers "are both Macs here?" on every page. Speak to everyone sits on the rail too, so Broadcast, Away, Ping and Mark all are always one click away, as in the tray.
 - **Home is one map of territories** (1a), after Kris's vision (MSG-62774774). It fits one window with no scrolling.
   - Each territory is a faint boundary, and its islands (repositories) are hexes in the flat chart's manner.
-  - Each island has its **summit portal**, the ring, lit when someone there listens. A principal island's is larger: the **principal portal**, which liaises across territories within one plane (Kris's names, MSG-cccabc3c).
+  - Each island has its **island portal** on its summit, the ring, lit when someone there listens. A principal island's is larger: the **principal portal**, which liaises across territories within one plane (Kris's names, MSG-cccabc3c and MSG-1953e5db).
   - Work packages and doers are placed where they work. Each carries its primary focus and its rig. Rigs are planes over the same islands (MSG-c027252f), so a switch shows sol's plane, terra's, or both.
   - Each territory's council is ringed.
-  - Gold threads run from each summit portal up to the principal portal and across between principal portals. The **planar portal**, one per plane, leaves the dotfiles island in Personal, where the households keep it.
+  - Gold threads run from each island portal up to the principal portal and across between principal portals. The **planar portal**, one per plane, leaves the dotfiles island in Personal, where the households keep it.
   - The key and Show as a list give the text equivalent.
   - 1b draws the same hierarchy as columns. 1c keeps the earlier host-centred two squares.
 - **Tabs** (0.1.5, page 6) let pages and documents open inside the app beside the map, as Orca and Claude Code do.
