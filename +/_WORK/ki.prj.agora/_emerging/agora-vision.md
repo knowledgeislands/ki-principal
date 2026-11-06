@@ -52,3 +52,7 @@ Kris's picture, played back; his photograph of the islands laid out on the carpe
 1. **Summit portal:** every island has one; islands in the same territory connect summit to summit.
 2. **Principal portal:** a territory's principal island's summit portal also liaises with the other territories' principal portals, across territories in the same plane (one rig).
 3. **Planar portal:** a special portal on the dotfiles island in the Personal territory, on each plane, talks through the fabric of space to its counterpart on every other plane.
+
+## A planar island of its own (Kris, about 05:10 GMT, an idea)
+
+- Rather than the planar portal living in the dotfiles island beside the housekeeper and the assistant's inbox, it may become its own special island (repository) in the Personal territory, used only for passing between planes, "much like the one in Valhalla". Name not settled: Kris said something like "poultry" (perhaps a mishearing); Norse myth's bridge between the realms is Bifröst, guarded by Heimdall.
