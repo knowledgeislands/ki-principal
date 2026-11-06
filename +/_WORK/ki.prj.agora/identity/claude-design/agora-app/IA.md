@@ -61,7 +61,7 @@ The window, top to bottom: **the compact bar** (N1, 0.5), then the **tab strip**
 - **Lists: the summary-filter bar** (7.1.1, settled with Roadmap and Jobs). A list page puts one bar under its header: a row of **tallies**, each a count that is also its filter (a click keeps only that value, ⌘-click adds one, All clears), then one row of **chips**, a single **Filter** menu, **words to find** and **Group**. The tallies count what the other filters keep. A tally edged in gold wants a look (awaiting review, failed, findings); the edge is never the only sign, the mark and word say it too. Values hidden by default (done and cancelled) are one tally of their own, marked hidden. Guilds uses the same idea in another shape: its badges are its tallies.
 - **The context as a chip.** The context shows as one dashed chip, first, marked "context" (Territory Knowledge Islands; All territories · both planes). It is removed only at the context control, and a field the context sets is not offered again in the Filter menu.
 - **Groups fold.** A group heading carries its count and what inside wants a look (2 jobs · 1 failed) and folds to that one line; a long group shows its first rows and "Show 20 more". So every heading fits one window, and a scroll is a choice.
-- **Bottom pane without the tray.** When the chosen thing is mostly documents (a skill), the pane opens on the choice alone and the tray stays shut; the thing's facts (its front matter, where it lives) head the pane's first tab. A thing with facts and readings (a job) opens the tray first, and the pane from the tray's own action, shown pressed while the pane is open (Show runs).
+- **Bottom pane without the tray.** When the chosen thing is mostly a long document, the pane opens on the choice alone and the tray stays shut; the thing's facts head the pane's first tab. A thing with facts and readings (a job) opens the tray first, and the pane from the tray's own action, shown pressed while the pane is open (Show runs). A skill no longer uses the pane: on 8.2 it opens in the right tray, with tabs for SKILL.md, references/, scripts/ and assets/, and Guilds has no bottom pane.
 
 ## Page numbering
 
@@ -82,8 +82,8 @@ Pages keep the sidebar's order where they can. Two changes this round, said plai
 | 6 | A document in a tab | kept |
 | 7.1 | Roadmap | 7.1a ★ |
 | 7.2 | Jobs | 7.2a ★ |
-| 8.1 | Guilds | 8.1a ★ |
-| 8.2 | Guilds, revised | this round, another designer (`build/guilds2.py`) |
+| 8.1 | Guilds | superseded by 8.2 |
+| 8.2 | Guilds, reworked | this round (8.2a ★); supersedes 8.1 |
 | 9.1 | Home: who holds what | this round (9.1a ★) |
 | 10.1 to 10.7 | KIV: Captured, Context, Curated, Actions, Graph atlas, Tending, Key | later |
 | 11.1, 11.2, 11.3 | SYS: Accounts, Settings, Updates | later |

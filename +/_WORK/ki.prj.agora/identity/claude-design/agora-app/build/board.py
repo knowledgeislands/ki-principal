@@ -202,5 +202,10 @@ COMPONENT_TITLES = [
     dict(id='0.5.4', title='Pinned tray and floating pop-out'),
 ]
 
+# 8.2 Guilds, reworked (build/guilds2.py)
+COMPONENT_TITLES += [dict(id='8.2.1', title='Shield bar'), dict(id='8.2.2', title='Tree row, guild and skill'),
+                     dict(id='8.2.3', title='Skill in the right tray')]
+
+
 if __name__ == '__main__':
     main()

@@ -269,7 +269,7 @@
     },
     {
       "id": "8.1",
-      "title": "Guilds",
+      "title": "Guilds (superseded by 8.2)",
       "zones": [
         "page",
         "bottom"
@@ -298,6 +298,22 @@
         "Footnotes (P4): † ‡ § mark the cell where the record and the catalogue disagree; the row shows the catalogue",
         "Yours to approve (P5): catalogue roles not yet created, with the proposed package and rig; the one brass action approves the section",
         "Right tray (T1), a row chosen: its facts, its focus areas with their schedule, and the record beside the catalogue"
+      ]
+    },
+    {
+      "id": "8.2",
+      "title": "Guilds, reworked",
+      "zones": [
+        "page",
+        "tray"
+      ],
+      "note": "Kris's review of 8.1, which this page supersedes. The guilds and their 65 skills, read from each skills/<guild>/<skill>/SKILL.md in ki-agentic-harness, with a chosen skill read in the right tray. Three changes from 8.1: the guild shields sit in one bar that scrolls sideways, with All guilds frozen first so the way back never scrolls away; the skills are a two-level tree table whose columns are the SKILL.md front matter itself, under the same summary-filter bar as Roadmap and Jobs; and a skill opens in the tray, not the bottom pane, so Guilds uses the bottom pane nowhere. It matters because the front matter is what a person compares across skills (what kind, when it applies, what it leans on, how it is called, which runtimes), and a table lets them see it for every skill at once, while the shields keep 8.1's sense of a guild as a place. Until the guildmaster's catalogue (ki.reg.guilds) names the guilds, each harness folder stands in. The territory is the context control's. There is no brass action and no gold: nothing on this page waits on Kris.",
+      "fields": [
+        "Shield bar (P2): All guilds, frozen, with all 65 skills; then each guild's shield (monogram on its own colour), name and count; it scrolls sideways under a fade on each side that hides shields, and the bar's right end holds two chevrons and how many shields lie before and after; choosing a shield keeps that guild and adds a Guild chip",
+        "Summary-filter bar (P3): tallies All skills; ki-kind (Governance, Process); ki-applicability (Baseline, Detected, Declaration-only, Invocation-only), each counting what the other filters keep; chips (the context's territory first, then the chosen guild); one Filter menu (runtimes, depends on, has references/, scripts/ or assets/, columns); words in a name or description; Group by Guild, ki-kind or None",
+        "Tree table (P4): a guild row (fold chevron, shield, name, count, its about line and its mix of kinds) and its skills beneath, indented on a branch line: name (monospace), description (first clause, one line), ki-kind and ki-applicability (each a mark and its word), ki-depends-on (the first, then +N), argument-hint (monospace, one line), runtimes (ki-supported-runtimes, or any); a long guild shows its first seven and \"Show N more\"; with the tray open, argument-hint and Runtimes step out and the last header reads +2",
+        "Right tray (T1), a skill chosen: Skill · its guild · its harness, its name; tabs (T2) SKILL.md, references/, scripts/ and assets/, each with how many files, an empty folder greyed; SKILL.md shows the front matter (T3) as keys and values, then the body drawn (T4); a folder tab lists its files with sizes and draws the chosen one; Open in a tab (page 6), Copy its path, Show in Roadmap",
+        "No bottom pane on this page"
       ]
     }
   ],
@@ -809,10 +825,10 @@
         "page",
         "bottom"
       ],
-      "preferred": true,
       "why": "Every guild's badge fits one row across the page, so all eight are seen at once with no sideways scroll; choosing one shows its skills as sub-badges large enough to read, and a skill opens below without hiding the badges. It is Kris's panel with a logo, its about line and a bank of skills, laid out so it fits beside the pane.",
       "gains": "Badges act like the tallies on Roadmap and Jobs, so the pattern is learnt once; the pane has 390 points for a document; All guilds gives the ledger when Kris wants every skill (8.1c).",
-      "costs": "A guild's about line moves from its badge to the line above its skills; ten or more guilds will need a second row or narrower badges; skills of other guilds are one click away, not in view."
+      "costs": "A guild's about line moves from its badge to the line above its skills; ten or more guilds will need a second row or narrower badges; skills of other guilds are one click away, not in view.",
+      "dropped": "superseded by 8.2 Guilds, reworked"
     },
     {
       "id": "8.1b",
@@ -823,7 +839,8 @@
         "bottom"
       ],
       "gains": "Closest to Kris's words and to the built page: each guild a panel with its badge, about and skills beneath; several guilds' skills in view at once.",
-      "costs": "Five of eight guilds fit, the rest scroll sideways; a guild of sixteen skills shows seven and \"9 more\"; with the pane open each column is short."
+      "costs": "Five of eight guilds fit, the rest scroll sideways; a guild of sixteen skills shows seven and \"9 more\"; with the pane open each column is short.",
+      "dropped": "superseded by 8.2 Guilds, reworked"
     },
     {
       "id": "8.1c",
@@ -831,7 +848,8 @@
       "title": "8.1a with no skill chosen: All guilds as a ledger",
       "zones": [
         "page"
-      ]
+      ],
+      "dropped": "superseded by 8.2 Guilds, reworked"
     },
     {
       "id": "8.1d",
@@ -840,7 +858,8 @@
       "zones": [
         "page",
         "bottom"
-      ]
+      ],
+      "dropped": "superseded by 8.2 Guilds, reworked"
     },
     {
       "id": "8.1e",
@@ -849,7 +868,8 @@
       "zones": [
         "page",
         "bottom"
-      ]
+      ],
+      "dropped": "superseded by 8.2 Guilds, reworked"
     },
     {
       "id": "9.1a",
@@ -877,6 +897,55 @@
       "id": "9.1c",
       "page": "9.1",
       "title": "9.1a with a row chosen: personal.reg.inbox-terra in the tray, its record against the catalogue",
+      "zones": [
+        "page",
+        "tray"
+      ]
+    },
+    {
+      "id": "8.2a",
+      "page": "8.2",
+      "title": "Shields over a tree table: ki-delegation in the tray",
+      "zones": [
+        "page",
+        "tray"
+      ],
+      "preferred": true,
+      "why": "The shields keep a guild a place you can pick at a glance, and frozen All guilds is always one click away however far the bar has scrolled. The tree puts every skill's front matter in columns, so \"which skills are runtime-bound\" or \"what leans on ki-acquire\" is read down a column, and folded guilds keep all eight in one window. The tray reads a skill without leaving the table, which is the shell rule for one chosen thing.",
+      "gains": "One summary-filter bar across Roadmap, Jobs and Guilds; the front matter compares across skills; guilds fold to a line; no bottom pane, so the table keeps its full height; the bar holds any number of guilds in one row.",
+      "costs": "With the tray open the table is about 820 points, so argument-hint and Runtimes step out (the tray shows both, and \"+2\" says so) and descriptions are cut to one line; shields past the fourth are a scroll away; a skill's body is read at 360 points, narrower than 8.1's pane."
+    },
+    {
+      "id": "8.2b",
+      "page": "8.2",
+      "title": "The shields as a list beside a flat table",
+      "zones": [
+        "page",
+        "tray"
+      ],
+      "gains": "All nine choices seen at once with full names and counts, no scrolling; the table is one guild's skills with no guild rows to read past.",
+      "costs": "The list takes 200 points from the table, so with the tray open argument-hint and Runtimes are hidden; two navigation columns sit side by side with the sidebar; skills of several guilds are never in one view; the shields lose their weight as places."
+    },
+    {
+      "id": "8.2c",
+      "page": "8.2",
+      "title": "8.2a with the Governance shield chosen: the tray shut, every column whole",
+      "zones": [
+        "page"
+      ]
+    },
+    {
+      "id": "8.2d",
+      "page": "8.2",
+      "title": "8.2a with the bar scrolled to its end: All guilds frozen, Acquire chosen",
+      "zones": [
+        "page"
+      ]
+    },
+    {
+      "id": "8.2e",
+      "page": "8.2",
+      "title": "8.2a with the references/ tab open in the tray",
       "zones": [
         "page",
         "tray"
@@ -1609,6 +1678,78 @@
           "0.2c"
         ]
       ]
+    },
+    {
+      "id": "8.2.1",
+      "selector": ".g2bar",
+      "states": [
+        [
+          "at rest, more to the right",
+          "8.2a"
+        ],
+        [
+          "a shield chosen",
+          "8.2c"
+        ],
+        [
+          "scrolled, All guilds frozen",
+          "8.2d"
+        ],
+        [
+          "a shield",
+          "8.2c",
+          "[data-g2guild=\"governance\"]"
+        ]
+      ]
+    },
+    {
+      "id": "8.2.2",
+      "selector": "tr[data-g2row=\"governance\"]",
+      "states": [
+        [
+          "a guild, open",
+          "8.2a"
+        ],
+        [
+          "a guild, folded",
+          "8.2a",
+          "tr[data-g2row=\"change-management\"]"
+        ],
+        [
+          "a skill, chosen",
+          "8.2a",
+          "tr[data-g2skill=\"ki-delegation\"]"
+        ],
+        [
+          "a skill, plain",
+          "8.2a",
+          "tr[data-g2skill=\"ki-git\"]"
+        ],
+        [
+          "a skill, runtime-bound",
+          "8.2d",
+          "tr[data-g2skill=\"ki-acquire-chatgpt\"]"
+        ],
+        [
+          "a long guild, Show 6 more",
+          "8.2a",
+          "tr.g2more-row"
+        ]
+      ]
+    },
+    {
+      "id": "8.2.3",
+      "selector": "[data-region=\"T1\"]",
+      "states": [
+        [
+          "SKILL.md",
+          "8.2a"
+        ],
+        [
+          "a folder tab, references/",
+          "8.2e"
+        ]
+      ]
     }
   ],
   "shots": [
@@ -1888,6 +2029,31 @@
       "width": 1440
     },
     {
+      "shot": "8.2a",
+      "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/8.2a.html",
+      "width": 1440
+    },
+    {
+      "shot": "8.2b",
+      "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/8.2b.html",
+      "width": 1440
+    },
+    {
+      "shot": "8.2c",
+      "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/8.2c.html",
+      "width": 1440
+    },
+    {
+      "shot": "8.2d",
+      "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/8.2d.html",
+      "width": 1440
+    },
+    {
+      "shot": "8.2e",
+      "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/8.2e.html",
+      "width": 1440
+    },
+    {
       "shot": "away",
       "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/away.html",
       "width": 1440,
@@ -1950,6 +2116,12 @@
     {
       "shot": "9.1-none",
       "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/9.1-none.html",
+      "width": 1440,
+      "hidden": true
+    },
+    {
+      "shot": "8.2a-light",
+      "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/8.2a-light.html",
       "width": 1440,
       "hidden": true
     }

@@ -11,6 +11,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'tray'))
 import mocks as M  # noqa: E402
 import work as W  # noqa: E402  (7.1 Roadmap, 7.2 Jobs, 8.1 Guilds)
+import guilds2 as G2  # noqa: E402  (8.2 Guilds, reworked)
 import home as H  # noqa: E402  (9.1 Home: who holds what)
 import build as TRAY  # noqa: E402  (the tray mock-up's builder, ../../tray/build.py)
 
@@ -484,6 +485,17 @@ COMPONENTS = [
 ]
 
 
+# 8.2 Guilds, reworked (build/guilds2.py) supersedes 8.1 after Kris's review.
+PAGES[[p['id'] for p in PAGES].index('8.1')]['title'] = 'Guilds (superseded by 8.2)'
+for _ab in ARTBOARDS:
+    if _ab['page'] == '8.1':
+        _ab.pop('preferred', None)
+        _ab['dropped'] = 'superseded by 8.2 Guilds, reworked'
+PAGES.append(G2.PAGE)
+ARTBOARDS += G2.ARTBOARDS
+COMPONENTS += G2.COMPONENTS
+
+
 def tray_page(key):
     """A tray state as an artboard, its blocks wrapped as T regions."""
     state = next(s for s in TRAY.STATES if s['key'] == key)
@@ -550,6 +562,7 @@ def main():
         with open(lp, 'w', encoding='utf-8') as f:
             f.write(fn())
         shots.append(dict(shot=f'{ab_id}-light' if ab_id != '9.1-none' else ab_id, html=os.path.abspath(lp), width=1440, hidden=True))
+    shots += G2.extra_shots(MOCKS)  # 8.2a in light
     components = [dict(id=c['id'], selector=c['selector'], states=c['states']) for c in COMPONENTS]
     plan = dict(pages=PAGES, artboards=[{k: v for k, v in ab.items() if k != 'make'} for ab in ARTBOARDS],
                 components=components, shots=shots)

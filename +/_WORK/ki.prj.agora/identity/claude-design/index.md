@@ -24,6 +24,7 @@ Every piece Claude Design has made for Agora, as MSG-074055f8 (ART-INDEX) asks. 
 | [agora-app/README.md](agora-app/README.md), [index.html](agora-app/index.html) | 2026-11-06 | The Agora app design pack: pages, choices, what is open | MSG-9f90977f DESIGN-PACK | keeper |
 | [agora-app/IA.md](agora-app/IA.md) | 2026-11-06 | Agora Atlas information architecture (reconciled with Kris's review: Home on the logo as 9.1, Known Lands in Work, sections and eyebrows, the Observatory renumbered 12.1 and 12.2, the Art gallery 13): the sidebar tree, shell rules (now with the summary-filter bar, the context chip, folding groups and the pane alone), page numbers, the shell function | Atlas shell brief, set (1) | keeper |
 | [agora-app/7.1.html](agora-app/7.1.html), [7.2.html](agora-app/7.2.html), [8.1.html](agora-app/8.1.html), `build/work.py` | 2026-11-06 | Agora Atlas Roadmap, Jobs and Guilds, with the summary-filter bar they share | Atlas pages brief, sets (2) and (3) | keeper |
+| [agora-app/8.2.html](agora-app/8.2.html), `build/guilds2.py`, `build/guilds2.css` | 2026-11-06 | Agora Atlas Guilds, reworked: the scrolling shield bar with All guilds frozen, the summary-filter bar, the guild and skill tree table, a skill in the right tray; supersedes 8.1 | Kris's review of 8.1 | keeper |
 | [agora-app/0.4.html](agora-app/0.4.html), [9.1.html](agora-app/9.1.html), `build/home.py` | 2026-11-06 | Agora Atlas shell, revised (the sidebar in sections, Home on the logo, Known Lands) and Home: who holds what | Kris's review, 22:55 to 23:20 GMT | keeper |
 | [agora-app/0.5.html](agora-app/0.5.html) | 2026-11-06 | Agora Atlas bar, compact: presence, the notification indicator, tooltips, and the rule for the pinned tray and floating pop-outs | Kris's review, 23:05 GMT | keeper |
 | [agora-app/lantern/README.md](agora-app/lantern/README.md), [index.html](agora-app/lantern/index.html) | 2026-11-06 | Agora Lantern, the iPhone app: who is listening; annotated board, night and light | Agora Lantern brief | keeper |
@@ -117,15 +118,24 @@ Kind is the preferred alternative, another alternative, a state of a shell, or a
 | [7.2.1](agora-app/7.2.html#7.2.1) | Jobs, components | Job row: failed and chosen, two Macs (ok and no run yet), a service, off, findings, a territory folded, a repository heading | component | [shots](agora-app/shots/components/) |
 | [7.2.2](agora-app/7.2.html#7.2.2) | Jobs, components | Job in the tray: a failed job with its runs shown; a service | component | [shots](agora-app/shots/components/) |
 | [7.2.3](agora-app/7.2.html#7.2.3) | Jobs, components | Run history in the bottom pane: runs on both Macs | component | [shots](agora-app/shots/components/) |
-| [8.1a](agora-app/8.1.html#8.1a) | Guilds | Badges across, the guild's skills beneath: ki-delegation's SKILL.md in the bottom pane | preferred | [shot](agora-app/shots/8.1a.png) |
-| [8.1a, in light](agora-app/8.1.html#8.1a-light) | Guilds | 8.1a in light, for comparison | state | [shot](agora-app/shots/8.1a-light.png) |
-| [8.1b](agora-app/8.1.html#8.1b) | Guilds | Guild columns across: the built app's panels | alternative | [shot](agora-app/shots/8.1b.png) |
-| [8.1c](agora-app/8.1.html#8.1c) | Guilds | 8.1a with no skill chosen: All guilds as a ledger | state | [shot](agora-app/shots/8.1c.png) |
-| [8.1d](agora-app/8.1.html#8.1d) | Guilds | 8.1a for another territory: Humans Not Robots from the context | state | [shot](agora-app/shots/8.1d.png) |
-| [8.1e](agora-app/8.1.html#8.1e) | Guilds | 8.1a with a folder tab: references/, one document drawn | state | [shot](agora-app/shots/8.1e.png) |
-| [8.1.1](agora-app/8.1.html#8.1.1) | Guilds, components | Guild badge: chosen, plain, All guilds chosen, a territory's own skills, the strip | component | [shots](agora-app/shots/components/) |
-| [8.1.2](agora-app/8.1.html#8.1.2) | Guilds, components | Skill badge: plain, open in the pane, in the ledger | component | [shots](agora-app/shots/components/) |
-| [8.1.3](agora-app/8.1.html#8.1.3) | Guilds, components | Skill in the bottom pane: SKILL.md, a folder tab | component | [shots](agora-app/shots/components/) |
+| [8.1a](agora-app/8.1.html#8.1a) | Guilds | Badges across, the guild's skills beneath: ki-delegation's SKILL.md in the bottom pane | dropped, superseded by 8.2 Guilds, reworked | [shot](agora-app/shots/8.1a.png) |
+| [8.1a, in light](agora-app/8.1.html#8.1a-light) | Guilds | 8.1a in light, for comparison | dropped, superseded by 8.2 Guilds, reworked | [shot](agora-app/shots/8.1a-light.png) |
+| [8.1b](agora-app/8.1.html#8.1b) | Guilds | Guild columns across: the built app's panels | dropped, superseded by 8.2 Guilds, reworked | [shot](agora-app/shots/8.1b.png) |
+| [8.1c](agora-app/8.1.html#8.1c) | Guilds | 8.1a with no skill chosen: All guilds as a ledger | dropped, superseded by 8.2 Guilds, reworked | [shot](agora-app/shots/8.1c.png) |
+| [8.1d](agora-app/8.1.html#8.1d) | Guilds | 8.1a for another territory: Humans Not Robots from the context | dropped, superseded by 8.2 Guilds, reworked | [shot](agora-app/shots/8.1d.png) |
+| [8.1e](agora-app/8.1.html#8.1e) | Guilds | 8.1a with a folder tab: references/, one document drawn | dropped, superseded by 8.2 Guilds, reworked | [shot](agora-app/shots/8.1e.png) |
+| [8.1.1](agora-app/8.1.html#8.1.1) | Guilds, components | Guild badge: chosen, plain, All guilds chosen, a territory's own skills, the strip | component, dropped, superseded by 8.2 Guilds, reworked | [shots](agora-app/shots/components/) |
+| [8.1.2](agora-app/8.1.html#8.1.2) | Guilds, components | Skill badge: plain, open in the pane, in the ledger | component, dropped, superseded by 8.2 Guilds, reworked | [shots](agora-app/shots/components/) |
+| [8.1.3](agora-app/8.1.html#8.1.3) | Guilds, components | Skill in the bottom pane: SKILL.md, a folder tab | component, dropped, superseded by 8.2 Guilds, reworked | [shots](agora-app/shots/components/) |
+| [8.2a](agora-app/8.2.html#8.2a) | Guilds, reworked | Shields over a tree table: ki-delegation in the tray | preferred | [shot](agora-app/shots/8.2a.png) |
+| [8.2a, in light](agora-app/8.2.html#8.2a-light) | Guilds, reworked | 8.2a in light, for comparison | state | [shot](agora-app/shots/8.2a-light.png) |
+| [8.2b](agora-app/8.2.html#8.2b) | Guilds, reworked | The shields as a list beside a flat table | alternative | [shot](agora-app/shots/8.2b.png) |
+| [8.2c](agora-app/8.2.html#8.2c) | Guilds, reworked | 8.2a with the Governance shield chosen: the tray shut, every column whole | state | [shot](agora-app/shots/8.2c.png) |
+| [8.2d](agora-app/8.2.html#8.2d) | Guilds, reworked | 8.2a with the bar scrolled to its end: All guilds frozen, Acquire chosen | state | [shot](agora-app/shots/8.2d.png) |
+| [8.2e](agora-app/8.2.html#8.2e) | Guilds, reworked | 8.2a with the references/ tab open in the tray | state | [shot](agora-app/shots/8.2e.png) |
+| [8.2.1](agora-app/8.2.html#8.2.1) | Guilds, reworked, components | Shield bar: at rest, more to the right; a shield chosen; scrolled, All guilds frozen; a shield | component | [shots](agora-app/shots/components/) |
+| [8.2.2](agora-app/8.2.html#8.2.2) | Guilds, reworked, components | Tree row, guild and skill: a guild open; a guild folded; a skill chosen; a skill plain; a skill bound to a runtime; a long guild, Show 6 more | component | [shots](agora-app/shots/components/) |
+| [8.2.3](agora-app/8.2.html#8.2.3) | Guilds, reworked, components | Skill in the right tray: SKILL.md; a folder tab, references/ | component | [shots](agora-app/shots/components/) |
 | [9.1a](agora-app/9.1.html#9.1a) | Home: who holds what | One table by tier: needs a look above, yours to approve below | preferred | [shot](agora-app/shots/9.1a.png) |
 | [9.1a, in light](agora-app/9.1.html#9.1a-light) | Home: who holds what | 9.1a in light, for comparison | state | [shot](agora-app/shots/9.1a-light.png) |
 | [9.1b](agora-app/9.1.html#9.1b) | Home: who holds what | Grouped by rig: sol, then terra | alternative | [shot](agora-app/shots/9.1b.png) |

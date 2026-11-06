@@ -3272,7 +3272,7 @@
     },
     {
       "id": "8.1",
-      "title": "Guilds",
+      "title": "Guilds (superseded by 8.2)",
       "artboards": [
         {
           "id": "8.1a",
@@ -3282,7 +3282,7 @@
             "w": 1440,
             "h": 900
           },
-          "preferred": true,
+          "preferred": false,
           "regions": [
             {
               "code": "P1",
@@ -3712,6 +3712,360 @@
           "title": "Holder in the tray",
           "states": [
             "record against the catalogue"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8.2",
+      "title": "Guilds, reworked",
+      "artboards": [
+        {
+          "id": "8.2a",
+          "title": "Shields over a tree table: ki-delegation in the tray",
+          "image": "shots/8.2a.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": true,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 92,
+              "w": 816,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Guild shields",
+              "x": 242,
+              "y": 135,
+              "w": 816,
+              "h": 51
+            },
+            {
+              "code": "P3",
+              "label": "Summary and filters",
+              "x": 242,
+              "y": 200,
+              "w": 816,
+              "h": 100
+            },
+            {
+              "code": "P4",
+              "label": "Guilds and their skills",
+              "x": 242,
+              "y": 314,
+              "w": 816,
+              "h": 568
+            },
+            {
+              "code": "T1",
+              "label": "Tray",
+              "x": 1080,
+              "y": 76,
+              "w": 360,
+              "h": 824
+            },
+            {
+              "code": "T2",
+              "label": "Tabs",
+              "x": 1081,
+              "y": 139,
+              "w": 359,
+              "h": 33
+            },
+            {
+              "code": "T3",
+              "label": "Front matter",
+              "x": 1081,
+              "y": 172,
+              "w": 359,
+              "h": 306
+            },
+            {
+              "code": "T4",
+              "label": "SKILL.md, drawn",
+              "x": 1081,
+              "y": 478,
+              "w": 359,
+              "h": 339
+            }
+          ]
+        },
+        {
+          "id": "8.2b",
+          "title": "The shields as a list beside a flat table",
+          "image": "shots/8.2b.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 92,
+              "w": 816,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Guilds, a list",
+              "x": 242,
+              "y": 135,
+              "w": 200,
+              "h": 747
+            },
+            {
+              "code": "P3",
+              "label": "Summary and filters",
+              "x": 456,
+              "y": 135,
+              "w": 602,
+              "h": 134
+            },
+            {
+              "code": "P4",
+              "label": "Governance skills, flat",
+              "x": 456,
+              "y": 283,
+              "w": 602,
+              "h": 599
+            },
+            {
+              "code": "T1",
+              "label": "Tray",
+              "x": 1080,
+              "y": 76,
+              "w": 360,
+              "h": 824
+            },
+            {
+              "code": "T2",
+              "label": "Tabs",
+              "x": 1081,
+              "y": 139,
+              "w": 359,
+              "h": 33
+            },
+            {
+              "code": "T3",
+              "label": "Front matter",
+              "x": 1081,
+              "y": 172,
+              "w": 359,
+              "h": 306
+            },
+            {
+              "code": "T4",
+              "label": "SKILL.md, drawn",
+              "x": 1081,
+              "y": 478,
+              "w": 359,
+              "h": 339
+            }
+          ]
+        },
+        {
+          "id": "8.2c",
+          "title": "8.2a with the Governance shield chosen: the tray shut, every column whole",
+          "image": "shots/8.2c.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 92,
+              "w": 1176,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Guild shields",
+              "x": 242,
+              "y": 135,
+              "w": 1176,
+              "h": 51
+            },
+            {
+              "code": "P3",
+              "label": "Summary and filters",
+              "x": 242,
+              "y": 200,
+              "w": 1176,
+              "h": 100
+            },
+            {
+              "code": "P4",
+              "label": "Guilds and their skills",
+              "x": 242,
+              "y": 314,
+              "w": 1176,
+              "h": 568
+            }
+          ]
+        },
+        {
+          "id": "8.2d",
+          "title": "8.2a with the bar scrolled to its end: All guilds frozen, Acquire chosen",
+          "image": "shots/8.2d.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 92,
+              "w": 1176,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Guild shields",
+              "x": 242,
+              "y": 135,
+              "w": 1176,
+              "h": 51
+            },
+            {
+              "code": "P3",
+              "label": "Summary and filters",
+              "x": 242,
+              "y": 200,
+              "w": 1176,
+              "h": 100
+            },
+            {
+              "code": "P4",
+              "label": "Guilds and their skills",
+              "x": 242,
+              "y": 314,
+              "w": 1176,
+              "h": 568
+            }
+          ]
+        },
+        {
+          "id": "8.2e",
+          "title": "8.2a with the references/ tab open in the tray",
+          "image": "shots/8.2e.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 242,
+              "y": 92,
+              "w": 816,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Guild shields",
+              "x": 242,
+              "y": 135,
+              "w": 816,
+              "h": 51
+            },
+            {
+              "code": "P3",
+              "label": "Summary and filters",
+              "x": 242,
+              "y": 200,
+              "w": 816,
+              "h": 100
+            },
+            {
+              "code": "P4",
+              "label": "Guilds and their skills",
+              "x": 242,
+              "y": 314,
+              "w": 816,
+              "h": 568
+            },
+            {
+              "code": "T1",
+              "label": "Tray",
+              "x": 1080,
+              "y": 76,
+              "w": 360,
+              "h": 824
+            },
+            {
+              "code": "T2",
+              "label": "Tabs",
+              "x": 1081,
+              "y": 139,
+              "w": 359,
+              "h": 33
+            },
+            {
+              "code": "T3",
+              "label": "Files",
+              "x": 1081,
+              "y": 172,
+              "w": 359,
+              "h": 113
+            },
+            {
+              "code": "T4",
+              "label": "The chosen file, drawn",
+              "x": 1081,
+              "y": 284,
+              "w": 359,
+              "h": 330
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "id": "8.2.1",
+          "title": "Shield bar",
+          "states": [
+            "at rest, more to the right",
+            "a shield chosen",
+            "scrolled, All guilds frozen",
+            "a shield"
+          ]
+        },
+        {
+          "id": "8.2.2",
+          "title": "Tree row, guild and skill",
+          "states": [
+            "a guild, open",
+            "a guild, folded",
+            "a skill, chosen",
+            "a skill, plain",
+            "a skill, runtime-bound",
+            "a long guild, Show 6 more"
+          ]
+        },
+        {
+          "id": "8.2.3",
+          "title": "Skill in the right tray",
+          "states": [
+            "SKILL.md",
+            "a folder tab, references/"
           ]
         }
       ]

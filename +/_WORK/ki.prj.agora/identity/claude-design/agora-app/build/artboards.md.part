@@ -78,14 +78,14 @@
 | [7.2.1](7.2.html#7.2.1) | Jobs, components | Job row: failed, chosen, two Macs, ok and no run yet, a service, off, findings, a territory folded, a repository heading | component | [shots](shots/components/) |
 | [7.2.2](7.2.html#7.2.2) | Jobs, components | Job in the tray: a failed job, runs shown, a service | component | [shots](shots/components/) |
 | [7.2.3](7.2.html#7.2.3) | Jobs, components | Run history in the bottom pane: runs on both Macs | component | [shots](shots/components/) |
-| [8.1a](8.1.html#8.1a) | Guilds | Badges across, the guild's skills beneath: a skill's SKILL.md below | preferred | [shot](shots/8.1a.png) |
-| [8.1b](8.1.html#8.1b) | Guilds | Guild columns across: the built app's panels | alternative | [shot](shots/8.1b.png) |
-| [8.1c](8.1.html#8.1c) | Guilds | 8.1a with no skill chosen: All guilds as a ledger | state | [shot](shots/8.1c.png) |
-| [8.1d](8.1.html#8.1d) | Guilds | 8.1a for another territory: Humans Not Robots from the context | state | [shot](shots/8.1d.png) |
-| [8.1e](8.1.html#8.1e) | Guilds | 8.1a with a folder tab: references/, one document drawn | state | [shot](shots/8.1e.png) |
-| [8.1.1](8.1.html#8.1.1) | Guilds, components | Guild badge: chosen, plain, All guilds, chosen, a territory's own skills, the strip | component | [shots](shots/components/) |
-| [8.1.2](8.1.html#8.1.2) | Guilds, components | Skill badge: plain, open in the pane, in the ledger | component | [shots](shots/components/) |
-| [8.1.3](8.1.html#8.1.3) | Guilds, components | Skill in the bottom pane: SKILL.md, a folder tab | component | [shots](shots/components/) |
+| [8.1a](8.1.html#8.1a) | Guilds (superseded by 8.2) | Badges across, the guild's skills beneath: a skill's SKILL.md below | dropped, superseded by 8.2 Guilds, reworked | [shot](shots/8.1a.png) |
+| [8.1b](8.1.html#8.1b) | Guilds (superseded by 8.2) | Guild columns across: the built app's panels | dropped, superseded by 8.2 Guilds, reworked | [shot](shots/8.1b.png) |
+| [8.1c](8.1.html#8.1c) | Guilds (superseded by 8.2) | 8.1a with no skill chosen: All guilds as a ledger | dropped, superseded by 8.2 Guilds, reworked | [shot](shots/8.1c.png) |
+| [8.1d](8.1.html#8.1d) | Guilds (superseded by 8.2) | 8.1a for another territory: Humans Not Robots from the context | dropped, superseded by 8.2 Guilds, reworked | [shot](shots/8.1d.png) |
+| [8.1e](8.1.html#8.1e) | Guilds (superseded by 8.2) | 8.1a with a folder tab: references/, one document drawn | dropped, superseded by 8.2 Guilds, reworked | [shot](shots/8.1e.png) |
+| [8.1.1](8.1.html#8.1.1) | Guilds (superseded by 8.2), components | Guild badge: chosen, plain, All guilds, chosen, a territory's own skills, the strip | component | [shots](shots/components/) |
+| [8.1.2](8.1.html#8.1.2) | Guilds (superseded by 8.2), components | Skill badge: plain, open in the pane, in the ledger | component | [shots](shots/components/) |
+| [8.1.3](8.1.html#8.1.3) | Guilds (superseded by 8.2), components | Skill in the bottom pane: SKILL.md, a folder tab | component | [shots](shots/components/) |
 | [9.1a](9.1.html#9.1a) | Home: who holds what | One table by tier: needs a look above, yours to approve below | preferred | [shot](shots/9.1a.png) |
 | [9.1b](9.1.html#9.1b) | Home: who holds what | Grouped by rig: sol, then terra | alternative | [shot](shots/9.1b.png) |
 | [9.1c](9.1.html#9.1c) | Home: who holds what | 9.1a with a row chosen: personal.reg.inbox-terra in the tray, its record against the catalogue | state | [shot](shots/9.1c.png) |
@@ -93,3 +93,11 @@
 | [9.1.2](9.1.html#9.1.2) | Home: who holds what, components | Needs a look: urgent and look, nothing | component | [shots](shots/components/) |
 | [9.1.3](9.1.html#9.1.3) | Home: who holds what, components | Yours to approve: three roles, one brass action | component | [shots](shots/components/) |
 | [9.1.4](9.1.html#9.1.4) | Home: who holds what, components | Holder in the tray: record against the catalogue | component | [shots](shots/components/) |
+| [8.2a](8.2.html#8.2a) | Guilds, reworked | Shields over a tree table: ki-delegation in the tray | preferred | [shot](shots/8.2a.png) |
+| [8.2b](8.2.html#8.2b) | Guilds, reworked | The shields as a list beside a flat table | alternative | [shot](shots/8.2b.png) |
+| [8.2c](8.2.html#8.2c) | Guilds, reworked | 8.2a with the Governance shield chosen: the tray shut, every column whole | state | [shot](shots/8.2c.png) |
+| [8.2d](8.2.html#8.2d) | Guilds, reworked | 8.2a with the bar scrolled to its end: All guilds frozen, Acquire chosen | state | [shot](shots/8.2d.png) |
+| [8.2e](8.2.html#8.2e) | Guilds, reworked | 8.2a with the references/ tab open in the tray | state | [shot](shots/8.2e.png) |
+| [8.2.1](8.2.html#8.2.1) | Guilds, reworked, components | Shield bar: at rest, more to the right, a shield chosen, scrolled, All guilds frozen, a shield | component | [shots](shots/components/) |
+| [8.2.2](8.2.html#8.2.2) | Guilds, reworked, components | Tree row, guild and skill: a guild, open, a guild, folded, a skill, chosen, a skill, plain, a skill, runtime-bound, a long guild, Show 6 more | component | [shots](shots/components/) |
+| [8.2.3](8.2.html#8.2.3) | Guilds, reworked, components | Skill in the right tray: SKILL.md, a folder tab, references/ | component | [shots](shots/components/) |
