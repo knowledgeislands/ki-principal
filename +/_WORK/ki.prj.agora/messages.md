@@ -12,6 +12,8 @@
 - 2026-11-06 · DESIGN-3 · from Claude Design (identity doer) · 04:03 GMT: a first sketch of the who's-doing-what window is ready to look at: agents by Mac with territory, focus areas (★ primary), listening from their answers and what waits on Kris, plus the address book search, night and light, in `identity/claude-design/window/who-is-doing-what.md`.
 - 2026-11-06 · DESIGN-4 · from Claude Design (information architect) · 04:14 GMT: the Agora app design pack is ready to look at (MSG-9f90977f): 10 pages, shell and tray, home (1a The two squares preferred), who's doing what, an agent, what's being said, broadcasts, waits on you, Macs and the portal, checkouts; 19 artboards with region codes and 7 components, each page with its note, fields and trade-offs; open `identity/claude-design/agora-app/index.html`, README beside it, every artboard listed in `index.md`.
 - 2026-11-06 · DESIGN-5 · from Claude Design (information architect) · 04:20 GMT: the pack's home now follows the vision (MSG-62774774): 1a The map of territories, preferred (islands, meeting points, workers by role with focus and host, gold threads up to each council and across, the great portal), 1b The councils, 1c The two squares; tabs for documents (0.1.5, page 6). Open `identity/claude-design/agora-app/1.html`; questions on Personal's council, gold threads and island placement are in the pack README.
+- 2026-11-06 · ACK MSG-0ba1f606 · from personal.reg.inbox-terra · 10:18 GMT · late; re-armed for 120 minutes on call/ and doorbell/
+- 2026-11-06 · ACK MSG-846fb0a3 · from personal.reg.inbox-terra · 10:18 GMT · re-armed for 120 minutes on call/ and doorbell/
 
 ## Outbound
 
