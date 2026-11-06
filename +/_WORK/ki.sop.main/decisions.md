@@ -304,3 +304,7 @@
 - EMAIL-ENGINE a (Kris, 5 Nov, via assistant-terra ATER-031, ACKed 21:26 GMT): tools-ki owns the mail engine's SENT-PASS and 981-AGE parts; run email-engine captures them as triage records. This homes MAIL-ASKS in part.
 - email-engine received (tools-ki `993a0152`, `be88bf67`): KI-TOOL-KI-CLI-178 (SENT-PASS) and KI-TOOL-KI-CLI-179 (981-AGE) held as unadopted triage records at Kris's EMAIL-ENGINE a; assistant-terra told (MSG-e0b56cb7). All dispatched work finished.
 - ACK-ALWAYS (Kris about 23:30 GMT, via household-terra MSG-b9ea300a): skipping acknowledgements "is not acceptable". Read back as taken: every line gets its ACK at the top of the sender's Inbound when taken, no exceptions. Missed ACKs sent at 23:27 GMT: MSG-c4561c2b (SYNC-LINE-OFF) and MSG-7c61ab43 (HOLD-TIDY), taken 4 Nov at `73a0774a` without ACK, and ATER-011 (STOA-NAMES), held since 5 Nov 00:24 without ACK; MSG-b9ea300a ACKed. Cause: lines held in Inbound for later were treated as not yet taken. Rule recorded in `state.md`.
+
+## 2026-11-06 · MARK (Kris, 00:03 GMT)
+
+- Read back as taken: "Can we take a mark and understand what you're focused on, with its summaries and such, and then we can decide what to do next?" Mark struck at 2026-11-06T00:03:53Z.
