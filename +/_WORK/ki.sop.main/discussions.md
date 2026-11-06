@@ -34,37 +34,21 @@ b) Register and open it now as an active Project thread.
 
 c) Leave Stoa without a Knowledge Islands home for now and tell HNR so.
 
-### RIG-LANE - Who carries Rig tooling once Mac Studio setup closes
+### QUARTERMASTER - Create the tools and MCPs agent
 
 focus: _emerging
 
-**Context:** Covers TOOLS-RIG-LANE, RIG-INTAKE and ADOBE-SCRIPT-HOME, all three reviewed at high. On 17 October you gave Mac Studio setup the tools-rig lane (RIG-OWNER); the household works that took the Mac Studio on 2 November exclude Rig tooling, and no other work names tools-rig. Without an owner: [KI-TOOL-RIG-CORE-047](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md), [KI-TOOL-RIG-CORE-068](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-068-replaced-pf-root-ruleset-bypass.md), [KI-TOOL-RIG-CORE-069](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md), [KI-TOOL-RIG-CORE-070](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-070-handler-read-back-after-confirmation.md), [KI-TOOL-RIG-CORE-075](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-075-restart-services-after-upgrade.md), [KI-TOOL-RIG-CORE-076](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-076-host-defaults-and-power.md), eleven retained Rig request lines and the spec-sched brief. Every "lane" row of the [close-out plan](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/setup/close-out.md) waits on this. The retained lines are tabled in [rig-intake.report.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/setup/rig-intake.report.md): four are your own asks (RIG-TUI, RIG-SSH-CHECK, RIG-COMMENT-KIND, and RIG-APP-FOOTPRINT with RIG-NOTIFICATIONS and RIG-MACHINE-MANAGEMENT), RIG-CLI-CONSISTENCY reports defects seen failing, and two belong elsewhere; under CAPTURE-GATE (19 October) only blockers, defects seen failing or your asks are captured. Mac Studio setup also keeps `setup/adobe-remove.sh`, a script its folder rules do not allow; tools-rig's ideas KI-TOOL-RIG-CORE-072 and KI-TOOL-RIG-CORE-074 use an Adobe removal as their worked example.
+**Context:** On 6 November you said "I'm happy to create a new agent that looks after all the tools and MCPs ... I probably think that's a good idea", and sent the role to the guild first. The guild has decided it (TOOLS-STEWARD in ki.reg.guilds' decisions): a quartermaster 🧰, manager tier, seat `ki.reg.tools+quartermaster`, regular work `ki.reg.tools` in tools-ki, State of play its parent. It owns tools-ki, tools-mgit, tools-git-almanac, tools-rig, homebrew-tap and the seven `mcp-*` servers (roadmaps and releases, every release asked first), the MCP inventory and mcporter health, `ki doctor` and `ki repair` for hooks, and the tooling audit you asked for tonight. Skills stay with the guild, the Agora app with Agora's keeper, and dispatch and priority with State of play; ki.prj.tools-burndown is reparented to it and closes at zero. This also settles two owner gaps that were asked separately (RIG-LANE and MAIL-OWNER, now folded in): Rig tooling has had no owner since Mac Studio setup (six records KI-TOOL-RIG-CORE-047, 068, 069, 070, 075 and 076, eleven retained Rig request lines and an Adobe removal script), and the mail servers have none (eleven idea records KI-MCP-M365-TOOL-011 to 019 and KI-MCP-GSUITE-TOOL-008 and 009, PERSONAL-DOTFILES-UE-097, four HNR mail asks and MAIL-GAPS, which you took as a).
 
-**Query:** Should State of play hold the tools-rig lane, take the retained Rig lines as the table proposes and send the Adobe script to tools-rig?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed: State of play's definition takes work without an owner, while tools-burndown and both household works exclude Rig tooling, and CAPTURE-GATE admits your asks and defects seen failing) State of play holds the lane and dispatches tools-rig work until you open a dedicated Rig work; captures four unadopted tools-rig triage records (RIG-TUI, RIG-SSH-CHECK, RIG-COMMENT-KIND, and one bounded RIG-CLI-CONSISTENCY record), holds the footprint group with the KI-TOOL-RIG-CORE-072 idea, returns WAKE-SUBSTRATE to State of play and RIG-REMINDER-DOCTOR to its originating work; and sends the Adobe script to tools-rig as labelled removal evidence, deleting the package copy once tools-rig holds it.
-
-b) ki.prj.tools-burndown takes tools-rig alongside tools-ki and tools-mgit, with the same intake.
-
-c) As a), but strict BURN-DOWN: capture only RIG-TUI and RIG-SSH-CHECK, holding RIG-COMMENT-KIND and RIG-CLI-CONSISTENCY as `_IDEAS.md` bullets.
-
-### MAIL-OWNER - Who owns the mail servers
-
-focus: _emerging
-
-**Context:** Covers MAIL-MCP-HOME, MAIL-ASKS and the new MAIL-GAPS line. No Knowledge Islands work owns the mail MCP server repositories, mcp-m365 and mcp-gsuite. Waiting for an owner: eleven records you sent to Knowledge Islands on 21 October ("best to go back to the MCP"), now ideas (KI-MCP-M365-TOOL-011 to TOOL-019, KI-MCP-GSUITE-TOOL-008 and TOOL-009), with [PERSONAL-DOTFILES-UE-097](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-097-configure-gmail-routing-paths.md); four of HNR's mail asks (ARCHIVE-ENGINE with its ACTION-DONE extension, GMAIL-CLOCK, and the low-priority CORR-GUARD "reply sent" check), whose full lines are in [messages.md at 17f30843](https://github.com/knowledgeislands/ki-principal/blob/17f30843/+/_WORK/ki.sop.main/messages.md); and MAIL-GAPS (Inbox terra, 6 November, which you took as MAIL-GAPS a): the Microsoft 365 server's read tools return no conversation id, and both servers stop attachment downloads at 256 KiB, which email capture (`ki-muninn mail import`) relies on. The fifth mail ask, SENT-PASS, is already homed: under your EMAIL-ENGINE a (5 November) tools-ki holds it as KI-TOOL-KI-CLI-178 (tools-ki `993a0152`). The Inbox and hnr.reg.email-routing both want a reply naming where their asks land.
-
-**Query:** Should the mail servers get their own Project, seeded with all of these?
+**Query:** Should State of play create the quartermaster's work and hand it Rig tooling and the mail servers?
 
 **Options:**
 
-a) (recommended, confidence high - reviewed under MAIL-MCP-HOME: a coherent backlog of a dozen records warrants a named owner, and the asks and MAIL-GAPS share its owner gap) You register a mail servers Project; State of play seeds its package on hold with the records, the four HNR asks and MAIL-GAPS as its first messages, MAIL-GAPS first, and replies to the Inbox and hnr.reg.email-routing with the id.
+a) (recommended, confidence high - it rests on your own words and the guild's decision, and folds two open owner gaps into one named owner) State of play seeds `ki.reg.tools` in tools-ki as the guild set it, reparents ki.prj.tools-burndown, and sends it the Rig intake (four triage records RIG-TUI, RIG-SSH-CHECK, RIG-COMMENT-KIND and one bounded RIG-CLI-CONSISTENCY, the footprint group held with KI-TOOL-RIG-CORE-072, the Adobe script as evidence) and the mail backlog with MAIL-GAPS first, replying to the Inbox and HNR with its id; you open the quartermaster's session when you choose.
 
-b) ki.prj.tools-burndown widens its scope to the two MCP servers, as tools-ki already holds the mail engine's SENT-PASS and 981-AGE parts.
+b) Create it, but keep Rig tooling with State of play and give the mail servers their own Project, as recommended before.
 
-c) ki.reg.main takes MAIL-GAPS now as ad hoc work and holds the rest as drafts until you prioritise them.
+c) Not now; ask RIG-LANE and MAIL-OWNER again as they stood.
 
 ### KNOWLEDGE-PLAN - Start the knowledge folder as planned
 
