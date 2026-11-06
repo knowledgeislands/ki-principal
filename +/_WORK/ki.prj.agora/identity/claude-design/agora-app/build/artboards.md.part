@@ -14,28 +14,34 @@
 | [0.2.1](0.2.html#0.2.1) | Shell: the tray, components | Summary lines: all well, one problem, a Mac missing | component | [shots](shots/components/) |
 | [0.2.2](0.2.html#0.2.2) | Shell: the tray, components | Exception row: a checkout, a Mac | component | [shots](shots/components/) |
 | [0.2.3](0.2.html#0.2.3) | Shell: the tray, components | Speak to everyone: Away…, I'm back | component | [shots](shots/components/) |
-| [0.3a](0.3.html#0.3a) | Atlas shell | Grouped sidebar: Roadmap, a record in the tray | preferred | [shot](shots/0.3a.png) |
-| [0.3b](0.3.html#0.3b) | Atlas shell | Grouped sidebar: Guilds, a skill in the bottom pane | state | [shot](shots/0.3b.png) |
-| [0.3c](0.3.html#0.3c) | Atlas shell | Sidebar folded: Home, the territory menu open | state | [shot](shots/0.3c.png) |
-| [0.3d](0.3.html#0.3d) | Atlas shell | Tray and bottom pane together: Jobs, a job and its runs | state | [shot](shots/0.3d.png) |
-| [0.3e](0.3.html#0.3e) | Atlas shell | Sections across the top: Work, Roadmap, a record in the tray | alternative | [shot](shots/0.3e.png) |
-| [0.3.1](0.3.html#0.3.1) | Atlas shell, components | Sidebar group: open, a count waiting, folded to its heading, a lone place, the sidebar folded | component | [shots](shots/components/) |
-| [0.3.2](0.3.html#0.3.2) | Atlas shell, components | Context control: territory, plane ignored, territory and plane, the territory menu open | component | [shots](shots/components/) |
-| [0.3.3](0.3.html#0.3.3) | Atlas shell, components | Tray frame: a work record, a job | component | [shots](shots/components/) |
-| [0.3.4](0.3.html#0.3.4) | Atlas shell, components | Bottom pane frame: a skill's documents, a job's runs | component | [shots](shots/components/) |
-| [0.3.5](0.3.html#0.3.5) | Atlas shell, components | Toolbar: all well, one needs a look | component | [shots](shots/components/) |
-| [0.3.6](0.3.html#0.3.6) | Atlas shell, components | Sidebar foot: expanded, folded | component | [shots](shots/components/) |
-| [1f](1.html#1f) | Home | The working map: Focused, an island selected | preferred | [shot](shots/1f.png) |
-| [1g](1.html#1g) | Home | The working map: Everything, the planar portal selected | state | [shot](shots/1g.png) |
-| [1h](1.html#1h) | Home | The working map: closer on Humans Not Robots | state | [shot](shots/1h.png) |
-| [1a](1.html#1a) | Home | The map of territories | alternative | [shot](shots/1a.png) |
-| [1d](1.html#1d) | Home | 1a on sol's plane | state | [shot](shots/1d.png) |
-| [1e](1.html#1e) | Home | 1a on terra's plane | state | [shot](shots/1e.png) |
-| [1b](1.html#1b) | Home | The councils | alternative | [shot](shots/1b.png) |
-| [1c](1.html#1c) | Home | The two squares | alternative | [shot](shots/1c.png) |
-| [1.1](1.html#1.1) | Home, components | Toolbar: Focused, Everything, closer | component | [shots](shots/components/) |
-| [1.2](1.html#1.2) | Home, components | Island with counts: active, selected, principal, messages waiting, the planar portal, quiet, closer, counts in words | component | [shots](shots/components/) |
-| [1.3](1.html#1.3) | Home, components | Island detail in the right tray: an island, the planar portal, needs a look, nothing selected | component | [shots](shots/components/) |
+| [0.3a](0.3.html#0.3a) | Atlas shell (sidebar superseded by 0.4) | Grouped sidebar: Roadmap, a record in the tray | preferred | [shot](shots/0.3a.png) |
+| [0.3b](0.3.html#0.3b) | Atlas shell (sidebar superseded by 0.4) | Grouped sidebar: Guilds, a skill in the bottom pane | state | [shot](shots/0.3b.png) |
+| [0.3c](0.3.html#0.3c) | Atlas shell (sidebar superseded by 0.4) | Sidebar folded: Home, the territory menu open | state | [shot](shots/0.3c.png) |
+| [0.3d](0.3.html#0.3d) | Atlas shell (sidebar superseded by 0.4) | Tray and bottom pane together: Jobs, a job and its runs | state | [shot](shots/0.3d.png) |
+| [0.3e](0.3.html#0.3e) | Atlas shell (sidebar superseded by 0.4) | Sections across the top: Work, Roadmap, a record in the tray | alternative | [shot](shots/0.3e.png) |
+| [0.3.1](0.3.html#0.3.1) | Atlas shell (sidebar superseded by 0.4), components | Sidebar group (superseded by 0.4.1): open, a count waiting, folded to its heading, a lone place, the sidebar folded | component | [shots](shots/components/) |
+| [0.3.2](0.3.html#0.3.2) | Atlas shell (sidebar superseded by 0.4), components | Context control: territory, plane ignored, territory and plane, the territory menu open | component | [shots](shots/components/) |
+| [0.3.3](0.3.html#0.3.3) | Atlas shell (sidebar superseded by 0.4), components | Tray frame: a work record, a job | component | [shots](shots/components/) |
+| [0.3.4](0.3.html#0.3.4) | Atlas shell (sidebar superseded by 0.4), components | Bottom pane frame: a skill's documents, a job's runs | component | [shots](shots/components/) |
+| [0.3.5](0.3.html#0.3.5) | Atlas shell (sidebar superseded by 0.4), components | Toolbar: all well, one needs a look | component | [shots](shots/components/) |
+| [0.3.6](0.3.html#0.3.6) | Atlas shell (sidebar superseded by 0.4), components | Sidebar foot: expanded, folded | component | [shots](shots/components/) |
+| [0.4a](0.4.html#0.4a) | Atlas shell, revised | Sidebar in sections: Known Lands under Work, KIV folded | preferred | [shot](shots/0.4a.png) |
+| [0.4b](0.4.html#0.4b) | Atlas shell, revised | Sidebar folded to icons: three-letter eyebrows, Jobs open, KIV and OBS folded | state | [shot](shots/0.4b.png) |
+| [0.4c](0.4.html#0.4c) | Atlas shell, revised | The logo hovered: "Home", from Roadmap | state | [shot](shots/0.4c.png) |
+| [0.4.1](0.4.html#0.4.1) | Atlas shell, revised, components | Section eyebrow: open, folded, folded, something inside to look at, collapsed, collapsed and folded | component | [shots](shots/components/) |
+| [0.4.2](0.4.html#0.4.2) | Atlas shell, revised, components | Known Lands item: chosen, plain, collapsed | component | [shots](shots/components/) |
+| [0.4.3](0.4.html#0.4.3) | Atlas shell, revised, components | The logo as Home: at rest, hovered, "Home", Home open | component | [shots](shots/components/) |
+| [1f](1.html#1f) | Known Lands (was Home) | The working map: Focused, an island selected | preferred | [shot](shots/1f.png) |
+| [1g](1.html#1g) | Known Lands (was Home) | The working map: Everything, the planar portal selected | state | [shot](shots/1g.png) |
+| [1h](1.html#1h) | Known Lands (was Home) | The working map: closer on Humans Not Robots | state | [shot](shots/1h.png) |
+| [1a](1.html#1a) | Known Lands (was Home) | The map of territories | alternative | [shot](shots/1a.png) |
+| [1d](1.html#1d) | Known Lands (was Home) | 1a on sol's plane | state | [shot](shots/1d.png) |
+| [1e](1.html#1e) | Known Lands (was Home) | 1a on terra's plane | state | [shot](shots/1e.png) |
+| [1b](1.html#1b) | Known Lands (was Home) | The councils | alternative | [shot](shots/1b.png) |
+| [1c](1.html#1c) | Known Lands (was Home) | The two squares | alternative | [shot](shots/1c.png) |
+| [1.1](1.html#1.1) | Known Lands (was Home), components | Toolbar: Focused, Everything, closer | component | [shots](shots/components/) |
+| [1.2](1.html#1.2) | Known Lands (was Home), components | Island with counts: active, selected, principal, messages waiting, the planar portal, quiet, closer, counts in words | component | [shots](shots/components/) |
+| [1.3](1.html#1.3) | Known Lands (was Home), components | Island detail in the right tray: an island, the planar portal, needs a look, nothing selected | component | [shots](shots/components/) |
 | [2.1a](2.1.html#2.1a) | Who's doing what | By Mac | preferred | [shot](shots/2.1a.png) |
 | [2.1b](2.1.html#2.1b) | Who's doing what | By focus: the address book | alternative | [shot](shots/2.1b.png) |
 | [2.2a](2.2.html#2.2a) | An agent | ki.prj.agora | preferred | [shot](shots/2.2a.png) |
@@ -71,3 +77,10 @@
 | [8.1.1](8.1.html#8.1.1) | Guilds, components | Guild badge: chosen, plain, All guilds, chosen, a territory's own skills, the strip | component | [shots](shots/components/) |
 | [8.1.2](8.1.html#8.1.2) | Guilds, components | Skill badge: plain, open in the pane, in the ledger | component | [shots](shots/components/) |
 | [8.1.3](8.1.html#8.1.3) | Guilds, components | Skill in the bottom pane: SKILL.md, a folder tab | component | [shots](shots/components/) |
+| [9.1a](9.1.html#9.1a) | Home: who holds what | One table by tier: needs a look above, yours to approve below | preferred | [shot](shots/9.1a.png) |
+| [9.1b](9.1.html#9.1b) | Home: who holds what | Grouped by rig: sol, then terra | alternative | [shot](shots/9.1b.png) |
+| [9.1c](9.1.html#9.1c) | Home: who holds what | 9.1a with a row chosen: personal.reg.inbox-terra in the tray, its record against the catalogue | state | [shot](shots/9.1c.png) |
+| [9.1.1](9.1.html#9.1.1) | Home: who holds what, components | Holder row: working, a Leader, with you, silent, a footnote, a doer, chosen | component | [shots](shots/components/) |
+| [9.1.2](9.1.html#9.1.2) | Home: who holds what, components | Needs a look: urgent and look, nothing | component | [shots](shots/components/) |
+| [9.1.3](9.1.html#9.1.3) | Home: who holds what, components | Yours to approve: three roles, one brass action | component | [shots](shots/components/) |
+| [9.1.4](9.1.html#9.1.4) | Home: who holds what, components | Holder in the tray: record against the catalogue | component | [shots](shots/components/) |

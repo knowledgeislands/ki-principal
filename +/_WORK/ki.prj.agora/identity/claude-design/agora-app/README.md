@@ -16,8 +16,9 @@ Open [index.html](index.html). It has one page per part, in the app's own order,
 | --- | --- | --- |
 | [0.1](0.1.html) | Shell: the window and its rail (superseded by 0.3) | 0.1a expanded, 0.1b contracted, 0.1c terra not heard from, all dropped; components 0.1.1 to 0.1.5 |
 | [0.2](0.2.html) | Shell: the tray (Agora Beacon) | 0.2a all well, 0.2b one problem, 0.2c a Mac missing; components 0.2.1 to 0.2.3 |
-| [0.3](0.3.html) | Atlas shell | 0.3a Grouped sidebar ★ (0.3b Guilds with the bottom pane, 0.3c folded with the territory menu, 0.3d tray and bottom pane together), 0.3e Sections across the top; components 0.3.1 to 0.3.6 |
-| [1](1.html) | Home | 1f The working map ★ (1g Everything, 1h closer on one territory), 1a The map of territories (1d sol's plane, 1e terra's plane), 1b The councils, 1c The two squares; components 1.1 to 1.3 |
+| [0.3](0.3.html) | Atlas shell (sidebar superseded by 0.4) | 0.3a Grouped sidebar ★ (0.3b Guilds with the bottom pane, 0.3c folded with the territory menu, 0.3d tray and bottom pane together), 0.3e Sections across the top; components 0.3.1 to 0.3.6 |
+| [0.4](0.4.html) | Atlas shell, revised | 0.4a Sidebar in sections, Known Lands under Work ★ (0.4b folded to icons with three-letter eyebrows, 0.4c the logo hovered: "Home"); 0.4a in light; components 0.4.1 to 0.4.3 |
+| [1](1.html) | Known Lands (was Home) | 1f The working map ★ (1g Everything, 1h closer on one territory), 1a The map of territories (1d sol's plane, 1e terra's plane), 1b The councils, 1c The two squares; components 1.1 to 1.3 |
 | [2.1](2.1.html) | Who's doing what | 2.1a By Mac ★, 2.1b By focus: the address book |
 | [2.2](2.2.html) | An agent | 2.2a ki.prj.agora ★ |
 | [3.1](3.1.html) | What's being said | 3.1a One record, newest first ★, 3.1b By layer |
@@ -29,6 +30,7 @@ Open [index.html](index.html). It has one page per part, in the app's own order,
 | [7.1](7.1.html) | Roadmap | 7.1a Tallies over a grouped table ★ (7.1c a filter applied, 7.1d a record awaiting review, 7.1e nothing matching), 7.1b The summary beside the table; 7.1a in light; components 7.1.1 to 7.1.4 |
 | [7.2](7.2.html) | Jobs | 7.2a By territory and repository ★ (7.2c Failed and Findings chosen, 7.2d a service in the tray), 7.2b Each Mac a column; 7.2a in light; components 7.2.1 to 7.2.3 |
 | [8.1](8.1.html) | Guilds | 8.1a Badges across, the guild's skills beneath ★ (8.1c no skill chosen, 8.1d Humans Not Robots, 8.1e a folder tab), 8.1b Guild columns across; 8.1a in light; components 8.1.1 to 8.1.3 |
+| [9.1](9.1.html) | Home: who holds what | 9.1a One table by tier ★ (9.1c a row in the tray), 9.1b Grouped by rig; 9.1a in light; components 9.1.1 to 9.1.4 |
 
 Each page opens with a note on what it is for and why it matters, then the fields the view shows. Where there are alternatives, each states what it gains and what it costs. The preferred one is outlined in brass, with its reason. Region boxes carry codes to quote, such as "1a P2" or "0.1b N4": `N` marks the rail, `T` the tray and `P` page content. A tick hides the boxes. `board.json` holds every artboard's size and coded regions.
 
@@ -40,6 +42,7 @@ Mock-ups, not screenshots of a running app: the app is not built yet. The annota
 
 - `build/plan.py` holds the pages, notes, fields, artboards and trade-offs, and writes the mock-up HTML into `mocks/`.
 - `build/map_view.py` draws the map of territories on home.
+- `build/home.py` draws Home, who holds what (9.1).
 - `build/work.py` draws Roadmap, Jobs and Guilds (7.1, 7.2, 8.1) and the summary-filter bar they share, for the data the built app reads (`src/app/roadmap.ts`, `jobs.ts`, `guilds.ts` in apps-agora.local).
 - `build/mocks.py` draws each view in the Instrument dialect of `ki-design`: tokens only, system type, tables not cards, night first. `atlas_page(active, content, tray=None, bottom=None, context=None, …)` draws the Atlas shell around any page, with `tray_frame` and `bottom_frame` for the tray and the pane (IA.md).
 - `build/data.py` holds the illustrative data.
@@ -50,8 +53,10 @@ To rebuild: `python3 build/plan.py && node build/shoot.js build/plan.json shots 
 
 ## Choices
 
+- **The sidebar is revised** (0.4a ★, Kris's review 22:55 to 23:20 GMT). Home leaves the sidebar and is the Agora Atlas logo, as on a website; the logo says "Home" on hover and is underlined while Home is open. The map that was Home is **Known Lands**, under Work, with an old chart for its glyph (a rolled chart, a dotted path, an X). Every place sits in a section with a smaller eyebrow (AGO, WRK, GLD, OBS, KIV, SYS when folded to icons); every section folds, and a folded one still says how many inside want a look. Accounts, Settings and Updates form SYS at the foot. Every page in the pack now draws this sidebar, pages 1 to 6 included; only 0.1's and 0.3's own boards keep theirs, for the record.
+- **Home is who holds what** (9.1a ★). Needs a look comes first, each item saying what it is and what to do; then one table, one row per live package and doer, ordered Leader, Manager, Doer: Role with Kris's emoji and its word, Tier, Package, Rig, Focus areas on one line (⭐ and bold the primary, ⏰ scheduled), State as an emoji and a word (🤖 Working, 👤 With you, 💤 Idle, 🔕 Silent). Where a package's record disagrees with the guild catalogue, a † ‡ § in the disagreeing cell points to a footnote under the table, and the row shows the catalogue. **Yours to approve** lists the catalogue's roles nobody holds yet, with the one brass action for the section (Approve all 3…) and a plain Approve… per row. Choosing a row opens it in the tray with its record beside the catalogue (9.1c). The alternative, **grouped by rig** (9.1b), shows what each rig carries but splits the governors across groups.
 - **The app is Agora Atlas** (0.3). The tray is Agora Beacon and the iPhone app Agora Lantern; the shell names both at the sidebar's foot.
-- **The shell is a grouped sidebar under one toolbar** (0.3a ★), replacing 0.1's rail. Groups follow what a place is about: Agora, Work, Guilds, Observatory, KIV (folded while it is coming), Coming; Accounts, Settings and Updates sit at the foot with the portal line. Speak to everyone moves from the rail to the toolbar, as the built app already has it.
+- **The shell is a grouped sidebar under one toolbar** (0.3a ★, its sidebar now superseded by 0.4a), replacing 0.1's rail. Groups follow what a place is about: Agora, Work, Guilds, Observatory, KIV (folded while it is coming), Coming; Accounts, Settings and Updates sit at the foot with the portal line. Speak to everyone moves from the rail to the toolbar, as the built app already has it.
   - **Context** (territory and plane) has one place, at the right of the tab strip, shared by every page; a page that ignores a dimension greys it. Home's plane switch moves there.
   - **The right tray** holds one selected thing's facts and pushes the page; **the bottom pane** holds its documents and long readings, in tabs. Both open the same way on every page (IA.md).
   - The alternative, **sections across the top** (0.3e), keeps the sidebar short but costs two clicks between sections and hides the foot behind a gear.
@@ -89,6 +94,15 @@ To rebuild: `python3 build/plan.py && node build/shoot.js build/plan.json shots 
 
 ## Open
 
+0. **This round's questions** (0.4 and 9.1):
+   - **Art gallery's section.** Kris's six sections have no place for it; it sits in Work, muted, marked later. GLD or a seventh section are the other choices.
+   - **Guilds under a GLD eyebrow** repeats its own name over one place. Keep it for the rule's sake, or let a lone place drop its eyebrow when open (but keep GLD folded to icons)?
+   - **Roles for project packages.** The six roles have none for a project such as hnr.prj.5g-emerge-p2ms3, so those rows say "No role". Does the catalogue have one (a Steward?), or is "no role" right?
+   - **The roles and tiers in 9.1 are illustrative.** The pack mapped inbox-sol to Personal's Governor, inbox-terra to no role, the watchmen to Warden and the households to Housekeeper; the catalogue and each work.md should replace them, and the footnotes are examples of the disagreements Home would show.
+   - **The emoji** render in Noto Color Emoji here and Apple Color Emoji on the Mac; their colour is decoration, and each sits beside its word, so the rule that colour never carries meaning alone still holds.
+   - **"With you"** is drawn as Kris being in a session with the package. Agora would need `ki agent status` to say so.
+   - **Numbering.** Home took 9.1, so the Observatory moved to 12.1 and 12.2 and the Art gallery to 13 (IA.md).
+
 1. **The app and C12.** The specification keeps Agora to small windows. A rich app beside the tray reverses that; the decision to stay on Electron names "the settings screen or a KIV/Agora window grows into a large always-open view" as a trigger to check GPUI first.
 2. **Where queries come from.** The pack counts `###` headings in each `discussions.md`; personal.reg.inbox-sol's method may name the true source.
 3. **Agent names on the map.** The two squares use short names (`agora`, `ki sop`). A naming rule, such as a short name in each `work.md`, would make them stable.
@@ -100,7 +114,7 @@ To rebuild: `python3 build/plan.py && node build/shoot.js build/plan.json shots 
 9. **Dropped from home:** the figures-and-table view and the stream of what is being said. Both are listed in `index.md` as dropped. Nothing was dropped in the working-map round: 1a stays as an alternative.
 10. **Placeholders.** Times, traffic and most focus areas and queries are invented; the live roster and the read endpoint (`/v1/state`) replace them.
 11. **The watchman's work id.** The map names it `personal.reg.watchman-sol` and `-terra`, one per rig like the household and the assistant. Is it one per rig, and is that its id? The repository is drawn as `krisb/ki-portal`; is that where it lives?
-12. **The watchmen and the counts elsewhere.** Home now counts 12 agents (sol 5, terra 7). The rail, Who's doing what and the other pages still count 10, because the roster in `build/data.py` has no watchman yet. Adding them there is the next step once 11 is settled.
+12. **The watchmen and the counts elsewhere.** Known Lands now counts 12 agents (sol 5, terra 7). The rail, Who's doing what and the other pages still count 10, because the roster in `build/data.py` has no watchman yet. Adding them there is the next step once 11 is settled.
 13. **What "active" means.** The working map calls an island active when a worker on the plane is there. Should queued work or waiting messages alone make an island active, so Focused never hides an island where work is piling up?
 14. **Where the counts come from.** Queued work and waiting messages per island are placeholders. Waiting messages could be lines in each package's `messages.md` not yet acknowledged; queued work could be its open work items. `ki agent status` or `/v1/state` would need to say which.
 15. **Principal portals and the planar portal.** Threads run from ki-portal to Personal's principal portal only. Should every principal portal have its own thread to the planar portal, since that is how talk leaves a plane?

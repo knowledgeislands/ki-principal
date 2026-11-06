@@ -11,6 +11,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'tray'))
 import mocks as M  # noqa: E402
 import work as W  # noqa: E402  (7.1 Roadmap, 7.2 Jobs, 8.1 Guilds)
+import home as H  # noqa: E402  (9.1 Home: who holds what)
 import build as TRAY  # noqa: E402  (the tray mock-up's builder, ../../tray/build.py)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -34,8 +35,10 @@ PAGES = [
                  'Exception rows: at most 3, each with what Agora saw, what it did, at most two actions',
                  'Speak to everyone', 'Detail one level down: Agents, Macs and checkouts, Runs, Broadcasts, News',
                  'Agora itself: Sync now, Open log, About, Quit']),
-    dict(id='0.3', title='Atlas shell', zones=['navigation', 'context', 'page', 'tray', 'bottom'],
-         note='The frame every page of Agora Atlas sits in, now that the app holds far more than the first pack drew: the map, '
+    dict(id='0.3', title='Atlas shell (sidebar superseded by 0.4)', zones=['navigation', 'context', 'page', 'tray', 'bottom'],
+         note='Its sidebar is superseded by 0.4 Atlas shell, revised (Kris\'s review, 22:55 to 23:20 GMT): Home leaves the sidebar for the logo, '
+              'the map becomes Known Lands under Work, and every place sits in a section with a small eyebrow. The toolbar, tabs, context control, '
+              'tray and bottom pane here still stand; the boards are kept, drawn in the 0.3 sidebar, for the record. The frame every page of Agora Atlas sits in, now that the app holds far more than the first pack drew: the map, '
               'the work (Roadmap, Jobs), the guilds, the Observatory\'s instruments, the KIV\'s pages, accounts, settings and updates. '
               'It replaces the rail of 0.1. It matters because each page so far brought its own tray, pane and filters; one shell '
               'with fixed places for navigation, context, detail and documents lets Kris learn the window once, and lets the '
@@ -48,8 +51,22 @@ PAGES = [
                  'Page (P): the page header and its content, which the page owns',
                  'Right tray (T1): the facts of one selected thing; it pushes the page narrower and closes with × or Escape',
                  'Bottom pane (B1): the selected thing\'s documents or long readings, in tabs; drag its top edge to resize']),
-    dict(id='1', title='Home', zones=['page'],
-         note='One view that fits the window with no scrolling (MSG-62774774, Kris\'s vision): the territories and their '
+    dict(id='0.4', title='Atlas shell, revised', zones=['navigation', 'context', 'page'],
+         note='Kris\'s review (22:55 to 23:20 GMT) of the 0.3 sidebar. Home leaves the sidebar and is reached by clicking the Agora Atlas logo, '
+              'as on a website; the map that was Home becomes Known Lands, under Work, with an old chart for its glyph. Every place now sits in a '
+              'section with a smaller eyebrow, every section folds, and folded to icons each section keeps a three-letter eyebrow: AGO, WRK, GLD, '
+              'OBS, KIV, SYS. Accounts, Settings and Updates form SYS at the foot, above the portal line. It matters because the sidebar is on every '
+              'page: one rule for every section is quicker to learn than groups, a lone place and a foot that each behaved differently. Every page '
+              'in the pack now draws this sidebar, except 0.1\'s and 0.3\'s own boards.',
+         fields=['Logo (N5): Agora Atlas in the toolbar is Home; it is underlined while Home is open, and says "Home" on hover',
+                 'Sections (N2): AGO Agora, WRK Work (Known Lands, Roadmap, Jobs, Art gallery later), GLD Guilds, OBS Observatory, KIV (folded while it is coming)',
+                 'Eyebrow: 9.5-point capitals with a fold chevron; folded, it carries its count of places and, in a gold-edged word, what inside wants a look',
+                 'Folded to icons (⌘\\): the three-letter eyebrow heads each section; a folded section is a dashed box with its letters and a chevron',
+                 'Foot (N3): SYS (Accounts, Settings, Updates), then the portal between the rigs, Beacon and Lantern',
+                 'Known Lands: a curled chart with a dotted path to an X, so it reads as a map and not as a graph']),
+    dict(id='1', title='Known Lands (was Home)', zones=['page'],
+         note='Known Lands since 0.4: the map that was Home now sits under Work, and Home (9.1) is reached from the logo. '
+              'One view that fits the window with no scrolling (MSG-62774774, Kris\'s vision): the territories and their '
               'islands, the work packages and workers placed where they work, the primary focus of each, the island portal on '
               'each island, the threads of talk up to each territory\'s principal portal and across, and the planar portal, '
               'on its own island ki-portal, between the planes. The preferred home (1f) makes it a working map: active islands '
@@ -147,6 +164,19 @@ PAGES = [
                  'Bottom pane (B1), a skill chosen: its guild and harness, its name, and a tab for SKILL.md (front matter, then its '
                  'instructions drawn), each other document and each folder (references/, scripts/, assets/) with its files',
                  'Notices: provisional guilds; a harness without skills; another territory\'s own unsorted skills as one guild']),
+    dict(id='9.1', title='Home: who holds what', zones=['page', 'tray'],
+         note='Home, reached from the Agora Atlas logo (0.4). Kris\'s review asks for "who holds what": one row per live package with its role, '
+              'tier, rig, focus areas and state, with a footnote wherever a package\'s record disagrees with the guild catalogue, and the roles '
+              'the catalogue names that nobody holds yet. Needs a look sits above it, each item saying what it is and what to do, so the page '
+              'Atlas opens on answers "is anything wrong, and who is on it?" first. It matters because the map shows where work '
+              'is; Home shows who answers for it.',
+         fields=['Needs a look (P2): urgent or look, each a mark and a word; what it is; what to do; one plain action',
+                 'Who holds what (P3): Role (Kris\'s emoji and its word), Tier (Leader, Manager, Doer), Package (the work id), Rig, '
+                 'Focus areas on one line (⭐ and bold for the primary, ⏰ for something scheduled), State (🤖 Working, 👤 With you, 💤 Idle, 🔕 Silent)',
+                 'Doers appear as Doer rows, with the package that brought them in',
+                 'Footnotes (P4): † ‡ § mark the cell where the record and the catalogue disagree; the row shows the catalogue',
+                 'Yours to approve (P5): catalogue roles not yet created, with the proposed package and rig; the one brass action approves the section',
+                 'Right tray (T1), a row chosen: its facts, its focus areas with their schedule, and the record beside the catalogue']),
 ]
 
 # Each artboard: page, letter, title, the mock-up to draw, its zones, and for alternatives the trade-off.
@@ -158,7 +188,7 @@ ARTBOARDS = [
     dict(id='0.2b', page='0.2', title='Tray, one problem', tray='one-problem', zones=['tray']),
     dict(id='0.2c', page='0.2', title='Tray, a Mac missing', tray='mac-missing', zones=['tray']),
     dict(id='0.3a', page='0.3', title='Grouped sidebar: Roadmap, a record in the tray',
-         make=lambda: M.atlas_page('roadmap', W.roadmap_page(), tray=W.record_tray(), mark_shell=True,
+         make=lambda: M.atlas_page('roadmap', W.roadmap_page(), tray=W.record_tray(), mark_shell=True, shell='0.3',
                                    context=dict(territory='Knowledge Islands'),
                                    tabs=[('Roadmap', True, True), ('Home', False, True), ('ki.prj.agora · messages.md', False, True)]),
          zones=['navigation', 'context', 'page', 'tray'], preferred=True,
@@ -169,20 +199,20 @@ ARTBOARDS = [
          costs='Twenty-odd places is a long list: with the KIV unfolded it needs folding elsewhere or a scroll; the sidebar takes 220 points '
                '(56 folded); a greyed context control on Settings or Guilds is one more thing to read past.'),
     dict(id='0.3b', page='0.3', title='Grouped sidebar: Guilds, a skill in the bottom pane',
-         make=lambda: M.atlas_page('guilds', W.guilds_page(), bottom=W.skill_pane(), mark_shell=True,
+         make=lambda: M.atlas_page('guilds', W.guilds_page(), bottom=W.skill_pane(), mark_shell=True, shell='0.3',
                                    context=dict(territory='Knowledge Islands'), tabs=[('Guilds', True, True), ('Roadmap', False, True)]),
          zones=['navigation', 'context', 'page', 'bottom']),
     dict(id='0.3c', page='0.3', title='Sidebar folded: Home, the territory menu open',
-         make=lambda: M.atlas_page('home', M.atlas_home(), folded=True, mark_shell=True, context=dict(open=True),
+         make=lambda: M.atlas_page('home', M.atlas_home(), folded=True, mark_shell=True, shell='0.3', context=dict(open=True),
                                    tabs=[('Home', True, False), ('Roadmap', False, True), ('Guilds', False, True)]),
          zones=['navigation', 'context', 'page']),
     dict(id='0.3d', page='0.3', title='Tray and bottom pane together: Jobs, a job and its runs',
-         make=lambda: M.atlas_page('jobs', W.jobs_page(), tray=W.job_tray(), bottom=W.job_bottom(), mark_shell=True,
+         make=lambda: M.atlas_page('jobs', W.jobs_page(), tray=W.job_tray(), bottom=W.job_bottom(), mark_shell=True, shell='0.3',
                                    standing=('look', '1 needs a look'),
                                    tabs=[('Jobs', True, True), ('Home', False, True)]),
          zones=['navigation', 'context', 'page', 'tray', 'bottom']),
     dict(id='0.3e', page='0.3', title='Sections across the top: Work, Roadmap, a record in the tray',
-         make=lambda: M.atlas_page('roadmap', W.roadmap_page(), tray=W.record_tray(), mark_shell=True, variant='sections',
+         make=lambda: M.atlas_page('roadmap', W.roadmap_page(), tray=W.record_tray(), mark_shell=True, shell='0.3', variant='sections',
                                    context=dict(territory='Knowledge Islands'),
                                    tabs=[('Roadmap', True, True), ('Home', False, True), ('ki.prj.agora · messages.md', False, True)]),
          zones=['navigation', 'context', 'page', 'tray'],
@@ -190,6 +220,24 @@ ARTBOARDS = [
                'the five sections name the app\'s parts plainly; it grows by adding a section.',
          costs='Crossing sections (Roadmap to Home, Jobs to Guilds) takes two clicks and the sidebar changes under the pointer; counts in other '
                'sections are out of sight; Accounts, Settings and Updates hide behind the gear; the toolbar is fuller.'),
+    dict(id='0.4a', page='0.4', title='Sidebar in sections: Known Lands under Work, KIV folded',
+         make=lambda: M.atlas_page('lands', M.atlas_home('Known Lands'), mark_shell=True,
+                                   tabs=[('Known Lands', True, True), ('Home', False, True), ('Roadmap', False, True)]),
+         zones=['navigation', 'context', 'page'], preferred=True,
+         why='One rule for every section: an eyebrow, a fold, its places. Home is where Kris expects it, on the logo, so the sidebar holds only '
+             'places to go; Known Lands sits with the other work it leads to, and the foot is a section like the rest.',
+         gains='The sidebar is shorter by one row and reads as six named parts; folding works the same everywhere; folded to icons, the '
+                'three-letter eyebrows keep the parts apart; SYS makes Accounts, Settings and Updates foldable like the rest.',
+         costs='Home is one more thing to learn for someone who expects it first in the list; the logo must say "Home" on hover (0.4c); '
+               'Guilds has an eyebrow over a single place, which repeats its name.'),
+    dict(id='0.4b', page='0.4', title='Sidebar folded to icons: three-letter eyebrows, Jobs open, KIV and OBS folded',
+         make=lambda: M.atlas_page('jobs', W.jobs_page(), tray=W.job_tray(), folded=True, collapsed=('kiv', 'observatory'), mark_shell=True,
+                                   standing=('look', '1 needs a look'), tabs=[('Jobs', True, True), ('Home', False, True)]),
+         zones=['navigation', 'context', 'page', 'tray']),
+    dict(id='0.4c', page='0.4', title='The logo hovered: "Home", from Roadmap',
+         make=lambda: M.atlas_page('roadmap', W.roadmap_page(), tray=W.record_tray(), mark_shell=True, logo='hover', collapsed=('kiv', 'sys'),
+                                   context=dict(territory='Knowledge Islands'), tabs=[('Roadmap', True, True), ('Home', False, True)]),
+         zones=['navigation', 'context', 'page', 'tray']),
     dict(id='1f', page='1', title='The working map: Focused, an island selected', make=lambda: M.page('Home', M.home_working(focused=True, selected='apps-agora.local')),
          zones=['page'], preferred=True,
          why='It keeps the picture Kris described and makes it the place to act from: Focused shows only where work is, each island says '
@@ -300,6 +348,19 @@ ARTBOARDS = [
     dict(id='8.1c', page='8.1', title='8.1a with no skill chosen: All guilds as a ledger', make=lambda: W.ab_guilds_rest(), zones=['page']),
     dict(id='8.1d', page='8.1', title='8.1a for another territory: Humans Not Robots from the context', make=lambda: W.ab_guilds_hnr(), zones=['page', 'bottom']),
     dict(id='8.1e', page='8.1', title='8.1a with a folder tab: references/, one document drawn', make=lambda: W.ab_guilds_folder(), zones=['page', 'bottom']),
+    dict(id='9.1a', page='9.1', title='One table by tier: needs a look above, yours to approve below', make=lambda: H.ab_home(),
+         zones=['page'], preferred=True,
+         why='One table answers "who holds what" in one look, Leaders first, so the governors read before the managers and doers they lead; '
+             'what needs a look comes first because it is what Kris acts on, and the roles to approve close the page.',
+         gains='Every package is one row on one line; a footnote shows each disagreement without a second table; the tier order matches the '
+                'catalogue; one brass action for the whole section.',
+         costs='Rig and territory are columns, not groups, so "what runs on terra?" means reading down; fourteen rows today, and it grows with '
+               'every doer brought in.'),
+    dict(id='9.1b', page='9.1', title='Grouped by rig: sol, then terra', make=lambda: H.ab_home_by_rig(), zones=['page'],
+         gains='Shows at once what each rig carries and how much of it is working; a missing rig is one heading that says so; drops the Rig column.',
+         costs='The governors are split across two groups, so the hierarchy no longer reads top to bottom; a rig heading per host grows with the hosts.'),
+    dict(id='9.1c', page='9.1', title='9.1a with a row chosen: personal.reg.inbox-terra in the tray, its record against the catalogue',
+         make=lambda: H.ab_home_selected(), zones=['page', 'tray']),
 ]
 
 COMPONENTS = [
@@ -327,12 +388,27 @@ COMPONENTS = [
          states=[('plain', '8.1a'), ('open in the pane', '8.1a', '[data-skill="ki-delegation"]'), ('in the ledger', '8.1c', '[data-ledger="acquire"]')]),
     dict(id='8.1.3', page='8.1', title='Skill in the bottom pane', selector='[data-region="B1"]',
          states=[('SKILL.md', '8.1a'), ('a folder tab', '8.1e')]),
+    dict(id='0.4.1', page='0.4', title='Section eyebrow', selector='[data-group="work"] h4',
+         states=[('open', '0.4a'), ('folded', '0.4a', '[data-group="kiv"] h4'), ('folded, something inside to look at', '0.4c', '[data-group="sys"] h4'),
+                 ('collapsed', '0.4b', '[data-group="work"] h4'), ('collapsed and folded', '0.4b', '[data-group="observatory"] h4')]),
+    dict(id='0.4.2', page='0.4', title='Known Lands item', selector='[data-place="lands"]',
+         states=[('chosen', '0.4a'), ('plain', '0.4c'), ('collapsed', '0.4b')]),
+    dict(id='0.4.3', page='0.4', title='The logo as Home', selector='.at-brand',
+         states=[('at rest', '0.4a'), ('hovered, "Home"', '0.4c', '.at-brand, .at-tip'), ('Home open', '9.1a')]),
+    dict(id='9.1.1', page='9.1', title='Holder row', selector='tr[data-holder="ki.sop.main"]',
+         states=[('working, a Leader', '9.1a'), ('with you', '9.1a', 'tr[data-holder="ki.prj.agora"]'), ('silent', '9.1a', 'tr[data-holder="hnr.sop.main"]'),
+                 ('a footnote', '9.1a', 'tr[data-holder="hnr.prj.site-robots"]'), ('a doer', '9.1a', 'tr[data-holder="Claude Design"]'),
+                 ('chosen', '9.1c', 'tr.holder.sel')]),
+    dict(id='9.1.2', page='9.1', title='Needs a look', selector='[data-region="P2"]',
+         states=[('urgent and look', '9.1a'), ('nothing', '9.1-none')]),
+    dict(id='9.1.3', page='9.1', title='Yours to approve', selector='[data-region="P5"]', states=[('three roles, one brass action', '9.1a')]),
+    dict(id='9.1.4', page='9.1', title='Holder in the tray', selector='[data-region="T1"]', states=[('record against the catalogue', '9.1c')]),
     dict(id='0.1.1', page='0.1', title='Brand', selector='[data-region="N1"]', states=[('expanded', '0.1a'), ('contracted', '0.1b')]),
     dict(id='0.1.2', page='0.1', title='Views', selector='[data-region="N2"]', states=[('expanded', '0.1a'), ('contracted', '0.1b')]),
     dict(id='0.1.3', page='0.1', title='Speak to everyone', selector='[data-region="N4"]', states=[('expanded', '0.1a'), ('contracted', '0.1b')]),
     dict(id='0.1.4', page='0.1', title='The portal', selector='[data-region="N5"]', states=[('open', '0.1a'), ('terra not heard from', '0.1c'), ('away', 'away')]),
     dict(id='0.1.5', page='0.1', title='Tabs', selector='.tabs', states=[('home', '0.1a'), ('a document open', '6a')]),
-    dict(id='0.3.1', page='0.3', title='Sidebar group', selector='[data-group="agora"]',
+    dict(id='0.3.1', page='0.3', title='Sidebar group (superseded by 0.4.1)', selector='[data-group="agora"]',
          states=[('open, a count waiting', '0.3a'), ('folded to its heading', '0.3a', '[data-group="kiv"]'),
                  ('a lone place', '0.3a', '[data-group="guilds"]'), ('the sidebar folded', '0.3c', '.at-groups')]),
     dict(id='0.3.2', page='0.3', title='Context control', selector='[data-region="C1"]',
@@ -415,6 +491,15 @@ def main():
         with open(lp, 'w', encoding='utf-8') as f:
             f.write(fn(theme='light'))
         shots.append(dict(shot=f'{ab_id}-light', html=os.path.abspath(lp), width=1440, hidden=True))
+    # 0.4a and 9.1a in light; Home with nothing to look at (a component state only).
+    for ab_id, fn in (('0.4a', lambda: M.atlas_page('lands', M.atlas_home('Known Lands'), mark_shell=True, theme='light',
+                                                     tabs=[('Known Lands', True, True), ('Home', False, True), ('Roadmap', False, True)])),
+                      ('9.1a', lambda: H.ab_home(theme='light')),
+                      ('9.1-none', lambda: M.atlas_page('home', H.home_page(needs=[]), height=None))):
+        lp = os.path.join(MOCKS, f'{ab_id}-light.html' if ab_id != '9.1-none' else '9.1-none.html')
+        with open(lp, 'w', encoding='utf-8') as f:
+            f.write(fn())
+        shots.append(dict(shot=f'{ab_id}-light' if ab_id != '9.1-none' else ab_id, html=os.path.abspath(lp), width=1440, hidden=True))
     components = [dict(id=c['id'], selector=c['selector'], states=c['states']) for c in COMPONENTS]
     plan = dict(pages=PAGES, artboards=[{k: v for k, v in ab.items() if k != 'make'} for ab in ARTBOARDS],
                 components=components, shots=shots)

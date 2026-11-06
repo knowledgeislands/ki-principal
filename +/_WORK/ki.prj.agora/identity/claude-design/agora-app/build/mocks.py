@@ -92,7 +92,18 @@ def tabs_bar(tabs, mark_shell):
 DEFAULT_TABS = None
 
 
+# The first pack's views (pages 1 to 6) now sit in the revised Atlas shell (0.4); the rail is drawn only for 0.1's own boards.
+PAGE_PLACES = {'Home': 'lands', "Who's doing what": 'here', "What's being said": 'said', 'Broadcasts': 'broadcasts',
+               'Waits on you': 'waits', 'Macs and the portal': 'macs', 'Checkouts': 'checkouts'}
+
+
 def page(active, content, contracted=False, mark_shell=False, theme='night', portal='open', title='Agora', tabs=None):
+    if not (mark_shell or contracted or portal != 'open') and active in PAGE_PLACES:
+        # The map was Home; it is Known Lands now, under Work (0.4).
+        content = content.replace('<h1>Home</h1>', '<h1>Known Lands</h1>')
+        if tabs is not None:
+            tabs = [('Known Lands' if t == 'Home' else t, on, x) for t, on, x in tabs]
+        return atlas_page(PAGE_PLACES[active], content, tabs=tabs, theme=theme, height=None)
     if tabs is None:
         tabs = [(active, True, False), ('ki.prj.agora · messages.md', False, True), ('Agora app pack · README', False, True)]
     return f'''<!doctype html><html lang="en-GB" data-theme="{theme}"><head><meta charset="utf-8">
@@ -397,12 +408,8 @@ def shell_blank(text):
 # ---------------------------------------------------------------- home as one map (MSG-62774774)
 def glance_panel(code='P3'):
     key = ''.join(f'<li><svg viewBox="0 0 18 18">{svg}</svg>{escape(words)}</li>' for svg, words in MV.KEY)
-    return f'''<aside class="grid" style="align-content:start; gap:12px" {R(code, "At a glance")}>
-<section class="panel"><header><h2>At a glance</h2></header><ul class="plain body">
-<li><b>12 agents</b> <span class="muted">· sol 5 · terra 7 · 2 doers</span></li>
-<li class="warn">{mark("diamond")}<b>2 need a look</b><span class="sub">hnr-principal diverged on terra · hnr.prj.site-robots silent</span></li>
-<li><b>34 queries</b> wait on you <span class="muted">· oldest 2026-11-03</span></li>
-<li><span class="teal">The planar portal is open</span><span class="sub">terra heard 04:20 · 14 calls this hour</span></li></ul></section>
+    return f'''<aside class="grid" style="align-content:start; gap:12px" {R(code, "The key")}>
+<p class="muted" style="margin:0;font-size:12px">What needs a look, who holds what and the portal now sit on Home (the logo); the toolbar's indicator counts them.</p>
 <section class="panel"><header><h2>Key</h2></header><ul class="plain body key">{key}</ul><div class="body"><span class="btn">Show as a list</span></div></section>
 </aside>'''
 
@@ -591,6 +598,11 @@ ATLAS_GLYPHS = {
     'chevr': '<path d="M10 8l4 4-4 4"/>',
     'lantern': '<path d="M9 3.5h6M12 3.5v2M8 7.5h8l-.8 11H8.8zM8 18.5h8"/><circle cx="12" cy="13" r="1.5" fill="currentColor" stroke="none"/>',
     'beacon': '<circle cx="12" cy="12" r="2" fill="currentColor" stroke="none"/><path d="M12 3.5v3M12 17.5v3M3.5 12h3M17.5 12h3"/><circle cx="12" cy="12" r="5.5"/>',
+    # Known Lands: an old chart rolled at its left edge, a dotted path to an X.
+    'lands': '<path d="M6.5 4.5H19.5V17"/><path d="M19.5 17a2 2 0 0 1-2 2H4.5V6.5a2 2 0 0 1 4 0V19"/>'
+             '<path d="M10.5 16.2l1.8-2.6 2.2.4 1.6-2.8" stroke-dasharray="0 2.3" stroke-width="1.9"/>'
+             '<path d="M14.6 6.6l2.8 2.8M17.4 6.6l-2.8 2.8" stroke-width="1.7"/>',
+    'bell': '<path d="M6.5 16.5V11a5.5 5.5 0 0 1 11 0v5.5l1.5 2h-14z"/><path d="M10 20.5a2 2 0 0 0 4 0"/>',
     'more': '<circle cx="6" cy="12" r="1.4" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.4" fill="currentColor" stroke="none"/><circle cx="18" cy="12" r="1.4" fill="currentColor" stroke="none"/>',
 }
 
@@ -651,7 +663,7 @@ ATLAS_CONTEXT = {
     'broadcasts': ('plane',), 'waits': ('territory',), 'macs': ('plane',), 'checkouts': ('territory', 'plane'),
     'roadmap': ('territory',), 'jobs': ('territory', 'plane'), 'guilds': ('territory',),
     'repositories': ('territory',), 'activity': ('territory',), 'accounts': ('plane',),
-    'settings': ('plane',), 'updates': ('plane',),
+    'settings': ('plane',), 'updates': ('plane',), 'lands': ('territory', 'plane'),
 }
 ATLAS_TERRITORIES = ['All territories', 'Knowledge Islands', 'Humans Not Robots', 'Personal']
 ATLAS_SECTIONS = [('agora', 'Agora'), ('work', 'Work'), ('guilds', 'Guilds'), ('observatory', 'Observatory'), ('kiv', 'KIV')]
@@ -665,6 +677,10 @@ def _place_label(place_id):
     for pid, label, *_ in ATLAS_FOOT:
         if pid == place_id:
             return label
+    for *_, items in ATLAS_SECTIONS4:
+        for pid, label, *_ in items:
+            if pid == place_id:
+                return label
     return place_id
 
 
@@ -679,7 +695,7 @@ def _nav_item(pid, label, g, n, note, active):
     note_html = f'<span class="note">{note}</span>' if note else ''
     n_html = f'<span class="n">{n}</span>' if n else ''
     cls = 'at-nav' + (' on' if pid == active else '') + (' soon' if note else '')
-    return (f'<div class="{cls}" title="{escape(label)}">{aglyph(g)}<span class="label">{escape(label)}</span>'
+    return (f'<div class="{cls}" data-place="{pid}" title="{escape(label)}">{aglyph(g)}<span class="label">{escape(label)}</span>'
             f'{n_html}{note_html}</div>')
 
 
@@ -712,8 +728,78 @@ def atlas_sidebar(active, collapsed=('kiv',), mark_shell=False, only=None):
             f'{foot_html}</aside>')
 
 
-def atlas_toolbar(mark_shell=False, standing=('ok', 'All well'), sections=None):
-    """The toolbar across the window: the name, the rigs, the word on the whole, the search, speaking to everyone."""
+# ---------------------------------------------------------------- the revised sidebar (0.4, Kris's review 22:55 to 23:20 GMT)
+# Home leaves the sidebar: the Agora Atlas logo in the toolbar is Home, as on a website. Every place sits in a section
+# with a small eyebrow, every section folds, and folded to icons each keeps a three-letter eyebrow.
+# (section id, eyebrow, three letters, [(place id, label, glyph, count, note)]). SYS sits at the foot, above the portal line.
+ATLAS_SECTIONS4 = [
+    ('agora', 'Agora', 'AGO', [
+        ('here', "Who's doing what", 'here', '12', ''),
+        ('said', "What's being said", 'said', '', ''),
+        ('broadcasts', 'Broadcasts', 'broadcast', '', ''),
+        ('waits', 'Waits on you', 'waits', '34', ''),
+        ('macs', 'Macs and the portal', 'macs', '', ''),
+        ('checkouts', 'Checkouts', 'checkouts', '1', ''),
+    ]),
+    ('work', 'Work', 'WRK', [
+        ('lands', 'Known Lands', 'lands', '', ''),
+        ('roadmap', 'Roadmap', 'roadmap', '', ''),
+        ('jobs', 'Jobs', 'jobs', '1', ''),
+        ('gallery', 'Art gallery', 'gallery', '', 'later'),
+    ]),
+    ('guilds', 'Guilds', 'GLD', [
+        ('guilds', 'Guilds', 'guilds', '', ''),
+    ]),
+    ('observatory', 'Observatory', 'OBS', [
+        ('repositories', 'Repositories', 'repositories', '', ''),
+        ('activity', 'Activity', 'activity', '', ''),
+    ]),
+    ('kiv', 'KIV', 'KIV', [
+        ('kiv-captured', 'Captured', 'captured', '', 'soon'),
+        ('kiv-context', 'Context', 'context', '', 'soon'),
+        ('kiv-curated', 'Curated', 'curated', '', 'soon'),
+        ('kiv-actions', 'Actions', 'actions', '', 'soon'),
+        ('kiv-graph', 'Graph atlas', 'graph', '', 'soon'),
+        ('kiv-tending', 'Tending', 'tending', '', 'soon'),
+        ('kiv-key', 'Key', 'key', '', 'soon'),
+    ]),
+    ('sys', 'System', 'SYS', [
+        ('accounts', 'Accounts', 'accounts', '1', ''),
+        ('settings', 'Settings', 'settings', '', ''),
+        ('updates', 'Updates', 'updates', '', ''),
+    ]),
+]
+
+
+def _section4(sid, eyebrow, abbr, items, active, collapsed):
+    shut = sid in collapsed and not any(pid == active for pid, *_ in items)
+    waiting = [n for _, _, _, n, _ in items if n]
+    count = f'<span class="n" title="{len(items)} places folded">{len(items)}</span>' if shut else ''
+    soon = '<span class="note">soon</span>' if sid == 'kiv' else ''
+    flag = (f'<span class="wait" title="{len(waiting)} inside {"wants" if len(waiting) == 1 else "want"} a look">{len(waiting)} to look at</span>'
+            if shut and waiting else '')
+    head_ = (f'<h4 title="{"Open" if shut else "Fold"} {escape(eyebrow)}">{aglyph("chevr" if shut else "chev", "chev")}'
+             f'<span class="full">{escape(eyebrow)}</span><span class="abbr">{abbr}</span>{soon}{flag}{count}</h4>')
+    body = '' if shut else ''.join(_nav_item(*it, active) for it in items)
+    return f'<div class="at-group{" shut" if shut else ""}" data-group="{sid}">{head_}{body}</div>'
+
+
+def atlas_sidebar4(active, collapsed=('kiv',), mark_shell=False):
+    """The revised sidebar (0.4): sections with eyebrows, every one folding; SYS at the foot above the portal line."""
+    m = (lambda c, l: R(c, l)) if mark_shell else (lambda c, l: '')
+    groups = ''.join(_section4(*sec, active, collapsed) for sec in ATLAS_SECTIONS4 if sec[0] != 'sys')
+    sys_ = _section4(*ATLAS_SECTIONS4[-1], active, collapsed)
+    portal = (f'<div class="at-portal"><span class="teal">{glyph("portal")}</span><span class="text"><b>sol ⇄ terra</b>'
+              f'<span class="sub">Portal open · heard 04:20</span></span></div>'
+              f'<div class="at-devices"><span title="Agora Beacon, in the menu bar on each Mac">{aglyph("beacon")}<span class="label">Beacon on sol</span></span>'
+              f'<span title="Agora Lantern, on the iPhone">{aglyph("lantern")}<span class="label">Lantern 04:18</span></span></div>')
+    return (f'<aside class="at-side v4"><div class="at-groups" {m("N2", "Sidebar sections")}>{groups}</div>'
+            f'<div class="at-foot" {m("N3", "Sidebar foot: SYS and the portal")}>{sys_}{portal}</div></aside>')
+
+
+def atlas_toolbar(mark_shell=False, standing=('ok', 'All well'), sections=None, brand='', mark_logo=False):
+    """The toolbar across the window: the name, the rigs, the word on the whole, the search, speaking to everyone.
+    brand: '' (0.3, a name only), 'home' (0.4, the logo is Home), 'here' (0.4, Home is open) or 'hover' (0.4, the tooltip shown)."""
     m = R('N1', 'Toolbar') if mark_shell else ''
     level, words = standing
     secs = ''
@@ -724,7 +810,7 @@ def atlas_toolbar(mark_shell=False, standing=('ok', 'All well'), sections=None):
     return f'''<header class="at-top" {m}>
 <span class="at-lights"><i></i><i></i><i></i></span>
 <span class="at-icon" title="Show or hide the sidebar (⌘\\)">{aglyph("sidebar")}</span>
-<span class="at-brand">{glyph("ring")}<span class="name">Agora Atlas</span></span>
+{_brand(brand, mark_logo)}
 {secs}
 <span class="at-rigs"><span class="chip rig here">sol</span><span class="chip rig">terra</span></span>
 <span class="at-standing {level}"><span class="dot"></span>{escape(words)}</span>
@@ -732,6 +818,112 @@ def atlas_toolbar(mark_shell=False, standing=('ok', 'All well'), sections=None):
 <span class="sp"></span>
 <span class="btn">{glyph("mark")}Mark all</span><span class="btn">{glyph("away")}Away…</span><span class="btn">{glyph("broadcast")}Broadcast…</span>
 <span class="mono at-clock">04:20</span>{gear}
+<span class="at-icon" title="Keep on top, or snap">{aglyph("pin")}</span><span class="at-icon" title="Theme: follows the Mac">{aglyph("theme")}</span>
+</header>'''
+
+
+def _brand(brand, mark_logo=False):
+    if not brand:
+        return f'<span class="at-brand">{glyph("ring")}<span class="name">Agora Atlas</span></span>'
+    cls = 'at-brand home' + (' here' if brand == 'here' else '') + (' hover' if brand == 'hover' else '')
+    tip = '<span class="at-tip" role="tooltip">Home</span>' if brand == 'hover' else ''
+    mark = R('N5', 'Logo: Home') if mark_logo else ''
+    cur = ' aria-current="page"' if brand == 'here' else ''
+    return f'<span class="{cls}" {mark} title="Home"{cur}>{glyph("ring")}<span class="name">Agora Atlas</span>{tip}</span>'
+
+
+# ================================================================ the compact bar (0.5, Kris's review 23:05 GMT)
+# One 36-point row. The rigs become one presence control when they do not fit as chips; the counts become one
+# notification indicator that leads to Home's Needs a look; every control says what it is in a tooltip.
+HOSTS = {
+    1: [('sol', 'present', 'this Mac')],
+    2: [('sol', 'present', 'this Mac'), ('terra', 'present', 'heard 04:20')],
+    10: [('sol', 'present', 'this Mac'), ('terra', 'present', 'heard 04:20'), ('luna', 'present', 'heard 04:20'),
+         ('ceres', 'present', 'heard 04:19'), ('vesta', 'present', 'heard 04:20'), ('pallas', 'present', 'heard 04:18'),
+         ('juno', 'unknown', 'last heard 03:12'), ('hygiea', 'present', 'heard 04:20'), ('eris', 'gone', 'said goodbye 5 Nov 22:40'),
+         ('io', 'present', 'heard 04:17')],
+}
+PRESENCE_WORDS = {'present': 'present', 'unknown': 'not heard from', 'gone': 'gone'}
+PRESENCE_RANK = {'present': 0, 'unknown': 1, 'gone': 2}
+# The notification indicator: (level, count, the tooltip's words). level is 'none', 'look' or 'urgent'.
+NOTICES = {
+    'none': ('none', 0, 'Nothing needs a look'),
+    'look': ('look', 3, '3 need a look: 2 checkouts must settle, the job sop-digest failed, 34 queries wait on you'),
+    'urgent': ('urgent', 4, '4 need a look, 1 urgent: hnr.sop.main is silent on terra; 2 checkouts must settle; a job failed; 34 queries wait'),
+}
+CHIP_ROOM = 3  # at 1440 points, up to three rigs fit as chips; more fold into the presence control
+
+
+def pmark(state):
+    """Presence by shape: present a solid dot, not heard from a dashed ring, gone a slashed ring."""
+    return {'present': '<svg class="pm" viewBox="0 0 12 12"><circle cx="6" cy="6" r="3.6" fill="currentColor"/></svg>',
+            'unknown': '<svg class="pm" viewBox="0 0 12 12"><circle cx="6" cy="6" r="3.6" fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="2 1.5"/></svg>',
+            'gone': '<svg class="pm" viewBox="0 0 12 12"><circle cx="6" cy="6" r="3.6" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M3.3 8.7 L8.7 3.3" stroke="currentColor" stroke-width="1.4"/></svg>'}[state]
+
+
+def nmark(level):
+    return {'none': '<svg class="nm" viewBox="0 0 12 12"><path d="M2.8 6.3 L5 8.5 L9.4 3.8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+            'look': '<svg class="nm" viewBox="0 0 12 12"><path d="M6 1.5 L10.5 6 L6 10.5 L1.5 6 Z" fill="currentColor"/></svg>',
+            'urgent': '<svg class="nm" viewBox="0 0 12 12"><path d="M6 1.3 L11 10.4 H1 Z" fill="currentColor"/></svg>'}[level]
+
+
+def tip(words, cls=''):
+    return f'<span class="at-tip{(" " + cls) if cls else ""}" role="tooltip">{words}</span>'
+
+
+def presence_control(hosts, open_=False, show_tip=False, mark=''):
+    worst = max(hosts, key=lambda h: PRESENCE_RANK[h[1]])[1]
+    bad = [h for h in hosts if h[1] != 'present']
+    summary_words = (f'All {len(hosts)} present' if not bad else
+                     ', '.join(f'{h[0]} {PRESENCE_WORDS[h[1]]}' for h in bad))
+    tip_words = (f'{len(hosts)} {"rig" if len(hosts) == 1 else "rigs"} in the group · {summary_words}. Click for the list.')
+    if len(hosts) <= CHIP_ROOM and not open_:
+        chips = ''.join(f'<span class="chip rig st-{st}{" here" if i == 0 else ""}">{pmark(st)}{n}</span>' for i, (n, st, _) in enumerate(hosts))
+        inner = f'<span class="at-chips">{chips}</span>'
+        cls = 'at-presence chips'
+    else:
+        word = f'{len(bad)} {PRESENCE_WORDS[worst]}' if bad else 'all present'
+        inner = (f'<span class="pbtn st-{worst}">{pmark(worst)}<b>{len(hosts)} rigs</b><span class="pw">{word}</span>{aglyph("chev", "chev")}</span>')
+        cls = 'at-presence' + (' open' if open_ else '')
+    pop = ''
+    if open_:
+        rows = ''.join(f'<div class="prow st-{st}">{pmark(st)}<b class="mono">{n}</b><span class="pw">{PRESENCE_WORDS[st]}</span>'
+                       f'<span class="muted">{heard}</span></div>' for n, st, heard in sorted(hosts, key=lambda h: (-PRESENCE_RANK[h[1]], h[0] != 'sol', h[0])))
+        pop = (f'<div class="at-pop" {R("T2", "Pop-out: floats")}><div class="pophead"><b>{len(hosts)} rigs in the group</b>'
+               f'<span class="muted">worst first</span></div>{rows}'
+               f'<div class="popfoot"><span class="btn">Open Macs and the portal</span><span class="muted">Esc or click outside closes</span></div></div>')
+    t = tip(escape(tip_words)) if show_tip and not open_ else ''
+    return f'<span class="{cls}" {mark} title="{escape(tip_words)}">{inner}{t}{pop}</span>'
+
+
+def notice_indicator(kind='urgent', show_tip=False, mark=''):
+    level, n, words = NOTICES[kind]
+    label = 'Nothing' if level == 'none' else (f'{n} · 1 urgent' if level == 'urgent' else f'{n} to look at')
+    t = tip(escape(words) + '<span class="tsub">Click: Home, Needs a look</span>', 'wide right') if show_tip else ''
+    return (f'<span class="at-notice lv-{level}" {mark} title="{escape(words)}. Click for Home, Needs a look.">'
+            f'{aglyph("bell")}{nmark(level)}<span class="nw">{label}</span>{t}</span>')
+
+
+def atlas_bar5(mark_shell=False, brand='home', hosts=2, notices='urgent', popout=None, tips=(), mark_logo=False):
+    """The compact bar (0.5): 36 points; window lights, sidebar, logo (Home), presence, search, notification indicator,
+    speak to everyone as three icon buttons, the time, pin and theme. Every control carries a tooltip in words."""
+    m = (lambda c, l: R(c, l)) if mark_shell else (lambda c, l: '')
+    hl = HOSTS[hosts] if isinstance(hosts, int) else hosts
+    speak = ''.join(f'<span class="at-ibtn" title="{t}">{glyph(g)}</span>' for g, t in (
+        ('mark', 'Mark all: tell every listening thread you have read up to now'),
+        ('away', 'Away…: open an unattended window for every thread, with an end time'),
+        ('broadcast', 'Broadcast…: say something to every listening thread on every rig')))
+    speak_tip = tip('Away…: open an unattended window for every thread, with an end time', 'right') if 'speak' in tips else ''
+    return f'''<header class="at-top v5" {m("N1", "Compact bar")}>
+<span class="at-lights"><i></i><i></i><i></i></span>
+<span class="at-icon" title="Show or hide the sidebar (⌘\\)">{aglyph("sidebar")}</span>
+{_brand(brand, mark_logo)}
+{presence_control(hl, open_=popout == "presence", show_tip="presence" in tips, mark=m("N6", "Presence"))}
+<span class="at-search" title="Find a place, island, record or skill (/)">{aglyph("search")}<span>Find</span><kbd>/</kbd></span>
+<span class="sp"></span>
+{notice_indicator(notices, show_tip="notice" in tips, mark=m("N7", "Notifications"))}
+<span class="at-speak" {m("N8", "Speak to everyone")}>{speak}{speak_tip}</span>
+<span class="mono at-clock" title="The time on this Mac">04:20</span>
 <span class="at-icon" title="Keep on top, or snap">{aglyph("pin")}</span><span class="at-icon" title="Theme: follows the Mac">{aglyph("theme")}</span>
 </header>'''
 
@@ -788,7 +980,8 @@ def bottom_frame(kind, title, tabs, body, code='B1', label='Bottom pane', height
 
 def atlas_page(active, content, tray=None, bottom=None, context=None, tabs=None, folded=False,
                collapsed=('kiv',), mark_shell=False, theme='night', standing=('ok', 'All well'),
-               variant='sidebar', title='Agora Atlas', height=900):
+               variant='sidebar', title='Agora Atlas', height=900, shell='0.4', logo=None,
+               bar='0.5', hosts=2, notices='urgent', popout=None, tips=()):
     """One Agora Atlas window, 1440 by `height`, around a page.
 
     active     the sidebar place id, such as 'roadmap', 'jobs', 'guilds' or 'accounts' (see ATLAS_GROUPS, ATLAS_FOOT)
@@ -801,20 +994,44 @@ def atlas_page(active, content, tray=None, bottom=None, context=None, tabs=None,
     collapsed  groups folded to their heading; the active place's group always opens
     mark_shell mark N1 to N4 and C1 for the board (the 0.3 page does; view pages leave it off)
     variant    'sidebar' (0.3a, preferred) or 'sections' (0.3e, the alternative)
+    height     the window's height in points; None lets a long page grow (at least 900)
+    shell      '0.4' (the default: sections with eyebrows, Home on the logo, Known Lands in Work) or '0.3' (the
+               superseded grouped sidebar, kept only for 0.3's own boards)
+    logo       None (Home is open when active is 'home'), or 'hover' to show the logo's "Home" tooltip (0.4c)
+    bar        '0.5' (the default: the compact bar) or '0.4' (the 48-point toolbar of 0.3 and 0.4); shell='0.3' keeps its own
+    hosts      1, 2 or 10 (illustrative groups), or a list of (name, 'present'|'unknown'|'gone', heard)
+    notices    'none', 'look' or 'urgent': the notification indicator's worst state (0.5)
+    popout     None, or 'presence' to show the presence list floating open (0.5c)
+    tips       tooltips to draw: any of 'presence', 'notice', 'speak'
     """
     if tabs is None:
         tabs = [(_place_label(active), True, False)]
-    if folded:
-        collapsed = ()  # folded to icons, every group fits, so none is shut
+    v4 = shell != '0.3' and variant == 'sidebar'
+    if folded and not v4:
+        collapsed = ()  # 0.3: folded to icons, every group fits, so none is shut
     section = _group_of(active) if variant == 'sections' else None
-    side = atlas_sidebar(active, collapsed, mark_shell, only=section) if variant == 'sidebar' else atlas_sidebar(active, (), mark_shell, only=section or 'agora')
+    if v4:
+        side = atlas_sidebar4(active, collapsed, mark_shell)
+        brand = 'hover' if logo == 'hover' else 'here' if active == 'home' else 'home'
+    else:
+        side = atlas_sidebar(active, collapsed, mark_shell, only=section) if variant == 'sidebar' else atlas_sidebar(active, (), mark_shell, only=section or 'agora')
+        brand = ''
     cls = 'atlas' + (' folded' if folded else '') + (' sections' if variant == 'sections' else '')
+    compact = bar == '0.5' and shell != '0.3' and variant == 'sidebar'
+    if compact:
+        cls += ' v5'
+        top = atlas_bar5(mark_shell, brand, hosts, notices, popout, tips, mark_logo=v4 and mark_shell)
+    else:
+        top = atlas_toolbar(mark_shell, standing, section, brand, mark_logo=v4 and mark_shell)
+    size = f'height:{height}px' if height else 'min-height:900px'
+    if not height:
+        cls += ' grow'  # a long page: the window grows to it rather than clipping
     work = (f'<div class="at-work{" with-tray" if tray else ""}">'
             f'<div class="at-bar">{atlas_tabs(tabs, mark_shell)}{atlas_context(active, context, mark_shell)}</div>'
             f'<div class="at-body"><div class="at-col"><div class="at-page">{content}</div>{bottom or ""}</div>{tray or ""}</div></div>')
     return f'''<!doctype html><html lang="en-GB" data-theme="{theme}"><head><meta charset="utf-8">
 <title>{escape(title)}</title><link rel="stylesheet" href="../build/app.css"></head><body>
-<div class="{cls}" style="height:{height}px">{atlas_toolbar(mark_shell, standing, section)}{side}{work}</div>
+<div class="{cls}" style="{size}">{top}{side}{work}</div>
 </body></html>'''
 
 
@@ -891,11 +1108,11 @@ def skill_bottom():
                         [('SKILL.md', False), ('references/ 4', True), ('scripts/ 11', False), ('assets/ 7', False)], body, height=400)
 
 
-def atlas_home():
+def atlas_home(title='Home'):
     import map_view as MV
     bar = map_toolbar(focused=True, plane='both', code='P2').replace(
         '<span class="lbl">Plane</span><span class="seg" title="Each rig is a plane over the same islands"><span>sol</span><span>terra</span><span class=on>Both planes</span></span>', '')
-    return f'''{head("P1", "Home", "Focused · 9 of 13 islands active · 2 need a look · 34 queries wait on you")}
+    return f'''{head("P1", title, "Focused · 9 of 13 islands active · 2 need a look · 34 queries wait on you")}
 <section class="mapcol at-map">{bar}<div class="mapcanvas" {R("P3", "The map")}>{MV.working_map(plane="both", focused=True, selected=None)}</div></section>'''
 
 

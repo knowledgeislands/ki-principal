@@ -1,0 +1,73 @@
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>9.1 Home: who holds what · Agora app</title><style>
+:root { --paper:#f5efe0; --ink:#1a2030; --muted:#4a5568; --accent:#1b3a5c; --teal:#317070; --warn:#8a5a12; --rule:#d4c9b4;
+  --boundary:#9a8358; --surface:#eef1f5; --gold:#c8963c; --wash-warn:#f1e8d3;
+  --zone-navigation:#317070; --zone-tray:#1b3a5c; --zone-page:#8a5a12; --zone-context:#4a5568; --zone-bottom:#2d5a3d; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font:14px/1.5 -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", sans-serif; }
+.wrap { max-width:1560px; margin:0 auto; padding:24px 32px 64px; }
+nav.crumbs { font-size:13px; color:var(--muted); margin-bottom:8px; }
+nav.crumbs a { color:var(--accent); }
+h1 { font-size:24px; margin:0 0 6px; font-weight:600; }
+h2 { font-size:18px; margin:32px 0 10px; font-weight:600; }
+.note { max-width:900px; }
+.stamp { color:var(--muted); font-size:12px; }
+.fields { max-width:900px; margin:10px 0 0; padding-left:18px; }
+.fields li { margin:2px 0; }
+.toggle { display:inline-flex; gap:6px; align-items:center; font-size:13px; color:var(--muted); margin-top:14px; }
+figure.ab { margin:28px 0 0; }
+figure.ab > header { display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; margin-bottom:8px; }
+figure.ab h3 { font-size:16px; margin:0; font-weight:600; }
+.pref { display:inline-block; background:var(--gold); color:var(--ink); font-weight:600; font-size:12px; padding:2px 8px; border-radius:10px; }
+figure.ab.preferred .frame { outline:3px solid var(--gold); outline-offset:4px; }
+.tradeoff { display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:16px; max-width:1440px; margin:0 0 10px; font-size:13px; }
+.tradeoff div { border-top:2px solid var(--rule); padding-top:6px; }
+.tradeoff .why { border-top-color:var(--gold); }
+.tradeoff b { display:block; font-size:12px; color:var(--muted); }
+.frame { position:relative; display:inline-block; max-width:100%; border:1px solid var(--rule); background:#0f2440; }
+.frame img { display:block; max-width:100%; height:auto; }
+.ov { position:absolute; border:1.5px dashed; border-radius:3px; }
+.ov .badge { position:absolute; top:-1px; right:-1px; transform:translateY(-100%); font-size:11px; font-weight:600; color:var(--paper);
+  padding:1px 6px; border-radius:3px 3px 0 0; white-space:nowrap; }
+.ov.whole .badge { top:auto; bottom:-1px; transform:translateY(100%); border-radius:0 0 3px 3px; }
+.ov.navigation { border-color:var(--zone-navigation); } .ov.navigation .badge { background:var(--zone-navigation); }
+.ov.tray { border-color:var(--zone-tray); } .ov.tray .badge { background:var(--zone-tray); }
+.ov.page { border-color:var(--zone-page); } .ov.page .badge { background:var(--zone-page); }
+.ov.context { border-color:var(--zone-context); } .ov.context .badge { background:var(--zone-context); }
+.ov.bottom { border-color:var(--zone-bottom); } .ov.bottom .badge { background:var(--zone-bottom); }
+.dropped { display:inline-block; border:1px solid var(--muted); color:var(--muted); font-size:12px; padding:1px 8px; border-radius:10px; }
+figure.ab.was .frame { opacity:.7; }
+body.plain .ov { display:none; }
+.legend { font-size:12px; color:var(--muted); margin-top:6px; }
+.comps { display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:20px; }
+.comp h4 { margin:0 0 6px; font-size:14px; }
+.comp .states { display:flex; gap:12px; flex-wrap:wrap; align-items:flex-start; }
+.comp figure { margin:0; }
+.comp figcaption { font-size:12px; color:var(--muted); margin-top:4px; }
+.comp img { display:block; border:1px solid var(--rule); max-width:300px; }
+table.idx { border-collapse:collapse; width:100%; max-width:1200px; }
+table.idx th, table.idx td { text-align:left; padding:6px 10px; border-bottom:1px solid var(--rule); vertical-align:top; }
+table.idx th { font-size:12px; color:var(--muted); }
+a { color:var(--accent); }
+</style></head>
+<body><div class="wrap">
+<nav class="crumbs"><a href="index.html">The pack</a> · previous <a href="8.1.html">8.1 Guilds</a></nav>
+<h1>9.1 · Home: who holds what</h1>
+<p class="note">Home, reached from the Agora Atlas logo (0.4). Kris&#x27;s review asks for &quot;who holds what&quot;: one row per live package with its role, tier, rig, focus areas and state, with a footnote wherever a package&#x27;s record disagrees with the guild catalogue, and the roles the catalogue names that nobody holds yet. Needs a look sits above it, each item saying what it is and what to do, so the page Atlas opens on answers &quot;is anything wrong, and who is on it?&quot; first. It matters because the map shows where work is; Home shows who answers for it.</p>
+<p class="stamp">Refreshed 2026-11-06 · source: mock-ups from build/plan.py; not yet built</p>
+<b>What it shows</b><ul class="fields"><li>Needs a look (P2): urgent or look, each a mark and a word; what it is; what to do; one plain action</li><li>Who holds what (P3): Role (Kris&#x27;s emoji and its word), Tier (Leader, Manager, Doer), Package (the work id), Rig, Focus areas on one line (⭐ and bold for the primary, ⏰ for something scheduled), State (🤖 Working, 👤 With you, 💤 Idle, 🔕 Silent)</li><li>Doers appear as Doer rows, with the package that brought them in</li><li>Footnotes (P4): † ‡ § mark the cell where the record and the catalogue disagree; the row shows the catalogue</li><li>Yours to approve (P5): catalogue roles not yet created, with the proposed package and rig; the one brass action approves the section</li><li>Right tray (T1), a row chosen: its facts, its focus areas with their schedule, and the record beside the catalogue</li></ul>
+<label class="toggle"><input type="checkbox" onclick="document.body.classList.toggle('plain', this.checked)"> Hide the region boxes</label>
+<p class="legend">Region codes: P, page content (brass); T, the tray (blue). Quote them as "9.1a P2".</p>
+<figure class="ab preferred" id="9.1a">
+<header><h3>9.1a · One table by tier: needs a look above, yours to approve below</h3><span class="pref">Preferred</span></header><div class="tradeoff"><div class="why"><b>Why this one</b>One table answers &quot;who holds what&quot; in one look, Leaders first, so the governors read before the managers and doers they lead; what needs a look comes first because it is what Kris acts on, and the roles to approve close the page.</div><div><b>Gains</b>Every package is one row on one line; a footnote shows each disagreement without a second table; the tier order matches the catalogue; one brass action for the whole section.</div><div><b>Costs</b>Rig and territory are columns, not groups, so &quot;what runs on terra?&quot; means reading down; fourteen rows today, and it grows with every doer brought in.</div></div>
+<div class="frame" style="width:1440px"><img src="shots/9.1a.png" alt="9.1a One table by tier: needs a look above, yours to approve below" width="1440" height="1216"><div class="ov page" style="left:16.806%;top:8.553%;width:81.667%;height:2.549%" data-region="9.1a P1" title="9.1a P1 · Page header"><span class="badge">P1 · Page header</span></div><div class="ov page" style="left:16.806%;top:12.253%;width:81.667%;height:17.681%" data-region="9.1a P2" title="9.1a P2 · Needs a look"><span class="badge">P2 · Needs a look</span></div><div class="ov page" style="left:16.806%;top:31.086%;width:81.667%;height:38.816%" data-region="9.1a P3" title="9.1a P3 · Who holds what"><span class="badge">P3 · Who holds what</span></div><div class="ov page" style="left:16.806%;top:70.559%;width:81.667%;height:9.375%" data-region="9.1a P4" title="9.1a P4 · Footnotes: where a record and the catalogue disagree"><span class="badge">P4 · Footnotes: where a record and the catalogue disagree</span></div><div class="ov page" style="left:16.806%;top:81.086%;width:81.667%;height:17.434%" data-region="9.1a P5" title="9.1a P5 · Yours to approve"><span class="badge">P5 · Yours to approve</span></div></div>
+</figure><figure class="ab" id="9.1b">
+<header><h3>9.1b · Grouped by rig: sol, then terra</h3></header><div class="tradeoff"><div></div><div><b>Gains</b>Shows at once what each rig carries and how much of it is working; a missing rig is one heading that says so; drops the Rig column.</div><div><b>Costs</b>The governors are split across two groups, so the hierarchy no longer reads top to bottom; a rig heading per host grows with the hosts.</div></div>
+<div class="frame" style="width:1440px"><img src="shots/9.1b.png" alt="9.1b Grouped by rig: sol, then terra" width="1440" height="1275"><div class="ov page" style="left:16.806%;top:8.157%;width:81.667%;height:2.431%" data-region="9.1b P1" title="9.1b P1 · Page header"><span class="badge">P1 · Page header</span></div><div class="ov page" style="left:16.806%;top:11.686%;width:81.667%;height:16.863%" data-region="9.1b P2" title="9.1b P2 · Needs a look"><span class="badge">P2 · Needs a look</span></div><div class="ov page" style="left:16.806%;top:29.647%;width:81.667%;height:41.647%" data-region="9.1b P3" title="9.1b P3 · Who holds what, by rig"><span class="badge">P3 · Who holds what, by rig</span></div><div class="ov page" style="left:16.806%;top:71.922%;width:81.667%;height:8.941%" data-region="9.1b P4" title="9.1b P4 · Footnotes: where a record and the catalogue disagree"><span class="badge">P4 · Footnotes: where a record and the catalogue disagree</span></div><div class="ov page" style="left:16.806%;top:81.961%;width:81.667%;height:16.627%" data-region="9.1b P5" title="9.1b P5 · Yours to approve"><span class="badge">P5 · Yours to approve</span></div></div>
+</figure><figure class="ab" id="9.1c">
+<header><h3>9.1c · 9.1a with a row chosen: personal.reg.inbox-terra in the tray, its record against the catalogue</h3></header>
+<div class="frame" style="width:1440px"><img src="shots/9.1c.png" alt="9.1c 9.1a with a row chosen: personal.reg.inbox-terra in the tray, its record against the catalogue" width="1440" height="1383"><div class="ov page" style="left:16.806%;top:7.520%;width:56.667%;height:9.111%" data-region="9.1c P1" title="9.1c P1 · Page header"><span class="badge">P1 · Page header</span></div><div class="ov page" style="left:16.806%;top:17.643%;width:56.667%;height:18.800%" data-region="9.1c P2" title="9.1c P2 · Needs a look"><span class="badge">P2 · Needs a look</span></div><div class="ov page" style="left:16.806%;top:37.527%;width:56.667%;height:34.129%" data-region="9.1c P3" title="9.1c P3 · Who holds what"><span class="badge">P3 · Who holds what</span></div><div class="ov page" style="left:16.806%;top:72.234%;width:56.667%;height:10.774%" data-region="9.1c P4" title="9.1c P4 · Footnotes: where a record and the catalogue disagree"><span class="badge">P4 · Footnotes: where a record and the catalogue disagree</span></div><div class="ov page" style="left:16.806%;top:83.948%;width:56.667%;height:14.678%" data-region="9.1c P5" title="9.1c P5 · Yours to approve"><span class="badge">P5 · Yours to approve</span></div><div class="ov tray whole" style="left:75.000%;top:6.363%;width:25.000%;height:93.637%" data-region="9.1c T1" title="9.1c T1 · Tray"><span class="badge">T1 · Tray</span></div></div>
+</figure><figure class="ab" id="9.1a-light"><header><h3>9.1a, in light</h3><span class="stamp">the same artboard; night is the reference rendering</span></header>
+<div class="frame" style="width:1440px"><img src="shots/9.1a-light.png" alt="9.1a in light" width="1440" height="1216"></div></figure>
+<h2>Components</h2><div class="comps"><div class="comp" id="9.1.1"><h4>9.1.1 · Holder row</h4><div class="states"><figure><img src="shots/components/9.1.1-working-a-leader.png" alt="Holder row, working, a Leader"><figcaption>working, a Leader</figcaption></figure><figure><img src="shots/components/9.1.1-with-you.png" alt="Holder row, with you"><figcaption>with you</figcaption></figure><figure><img src="shots/components/9.1.1-silent.png" alt="Holder row, silent"><figcaption>silent</figcaption></figure><figure><img src="shots/components/9.1.1-a-footnote.png" alt="Holder row, a footnote"><figcaption>a footnote</figcaption></figure><figure><img src="shots/components/9.1.1-a-doer.png" alt="Holder row, a doer"><figcaption>a doer</figcaption></figure><figure><img src="shots/components/9.1.1-chosen.png" alt="Holder row, chosen"><figcaption>chosen</figcaption></figure></div></div><div class="comp" id="9.1.2"><h4>9.1.2 · Needs a look</h4><div class="states"><figure><img src="shots/components/9.1.2-urgent-and-look.png" alt="Needs a look, urgent and look"><figcaption>urgent and look</figcaption></figure><figure><img src="shots/components/9.1.2-nothing.png" alt="Needs a look, nothing"><figcaption>nothing</figcaption></figure></div></div><div class="comp" id="9.1.3"><h4>9.1.3 · Yours to approve</h4><div class="states"><figure><img src="shots/components/9.1.3-three-roles-one-brass-action.png" alt="Yours to approve, three roles, one brass action"><figcaption>three roles, one brass action</figcaption></figure></div></div><div class="comp" id="9.1.4"><h4>9.1.4 · Holder in the tray</h4><div class="states"><figure><img src="shots/components/9.1.4-record-against-the-catalogue.png" alt="Holder in the tray, record against the catalogue"><figcaption>record against the catalogue</figcaption></figure></div></div></div>
+</div></body></html>

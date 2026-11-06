@@ -187,7 +187,7 @@ def main():
 COMPONENT_TITLES = [
     dict(id='0.1.1', title='Brand'), dict(id='0.1.2', title='Views'), dict(id='0.1.3', title='Speak to everyone'),
     dict(id='0.1.4', title='The portal'), dict(id='0.1.5', title='Tabs'),
-    dict(id='0.3.1', title='Sidebar group'), dict(id='0.3.2', title='Context control'), dict(id='0.3.3', title='Tray frame'),
+    dict(id='0.3.1', title='Sidebar group (superseded by 0.4.1)'), dict(id='0.3.2', title='Context control'), dict(id='0.3.3', title='Tray frame'),
     dict(id='0.3.4', title='Bottom pane frame'), dict(id='0.3.5', title='Toolbar'), dict(id='0.3.6', title='Sidebar foot'),
     dict(id='1.1', title='Toolbar'), dict(id='1.2', title='Island with counts'), dict(id='1.3', title='Island detail in the right tray'), dict(id='0.2.1', title='Summary lines'), dict(id='0.2.2', title='Exception row'),
     dict(id='0.2.3', title='Speak to everyone'),
@@ -195,6 +195,9 @@ COMPONENT_TITLES = [
     dict(id='7.1.4', title='Record in the tray'), dict(id='7.2.1', title='Job row'), dict(id='7.2.2', title='Job in the tray'),
     dict(id='7.2.3', title='Run history in the bottom pane'), dict(id='8.1.1', title='Guild badge'), dict(id='8.1.2', title='Skill badge'),
     dict(id='8.1.3', title='Skill in the bottom pane'),
+    dict(id='0.4.1', title='Section eyebrow'), dict(id='0.4.2', title='Known Lands item'), dict(id='0.4.3', title='The logo as Home'),
+    dict(id='9.1.1', title='Holder row'), dict(id='9.1.2', title='Needs a look'), dict(id='9.1.3', title='Yours to approve'),
+    dict(id='9.1.4', title='Holder in the tray'),
 ]
 
 if __name__ == '__main__':

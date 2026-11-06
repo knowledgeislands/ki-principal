@@ -465,3 +465,103 @@ table.runs td { padding:5px 10px; vertical-align:middle; }
 .shield.all path, [data-theme="light"] .shield.all path { fill:none; stroke:var(--boundary); stroke-width:1.5; }
 .gmore { flex:1 1 auto; min-width:110px; border-left:1px solid var(--rule); display:flex; flex-direction:column; justify-content:center; gap:6px; padding:12px; color:var(--accent); font-weight:600; }
 .gmore .muted { font-weight:400; font-size:12px; }
+
+/* ============ Agora Atlas: the revised sidebar (0.4). Sections with small eyebrows, each folding; Home on the logo. */
+.at-side.v4 .at-groups { gap:6px; }
+.at-side.v4 .at-group h4 { height:16px; margin:2px 8px 1px; font-size:9.5px; letter-spacing:.09em; gap:3px; cursor:default; }
+.at-side.v4 .at-group h4 .chev { width:11px; height:11px; margin-left:-3px; }
+.at-side.v4 .at-group h4 .abbr { display:none; }
+.at-side.v4 .at-group h4 .wait { margin-left:auto; text-transform:none; letter-spacing:0; font-weight:400; font-size:11px; color:var(--ink); border:1px solid var(--gold); border-radius:8px; padding:0 5px; line-height:14px; }
+.at-side.v4 .at-group h4 .wait + .n { margin-left:6px; }
+.at-side.v4 .at-group.shut h4 { color:var(--muted); }
+.at-side.v4 .at-foot { padding-top:6px; }
+.at-side.v4 .at-foot .at-portal { margin-top:6px; }
+.atlas.folded .at-side.v4 .at-group h4 { height:16px; margin:4px 0 1px; background:none; justify-content:center; gap:1px; }
+.atlas.folded .at-side.v4 .at-group h4 .abbr { display:inline; font-size:9px; letter-spacing:.06em; }
+.atlas.folded .at-side.v4 .at-group h4 .full, .atlas.folded .at-side.v4 .at-group h4 .note, .atlas.folded .at-side.v4 .at-group h4 .wait { display:none; }
+.atlas.folded .at-side.v4 .at-group h4 .chev { display:none; }
+.atlas.folded .at-side.v4 .at-group.shut h4 { border:1px dashed var(--boundary); border-radius:4px; margin:4px 2px 1px; height:18px; }
+.atlas.folded .at-side.v4 .at-group.shut h4 .chev { display:inline-block; width:9px; height:9px; margin:0; }
+.atlas.folded .at-side.v4 .at-group.shut h4 .n { display:none; }
+.atlas.folded .at-side.v4 .at-groups { gap:2px; }
+.atlas.folded .at-side.v4 .at-foot { padding-top:2px; }
+.at-brand.home { position:relative; padding:3px 6px; margin:0 -6px; border-radius:6px; }
+.at-brand.home.here .name { box-shadow:inset 0 -2px 0 var(--accent); }
+.at-brand.home.hover { background:var(--surface); outline:1px solid var(--boundary); }
+.at-tip { position:absolute; left:50%; top:calc(100% + 8px); transform:translateX(-50%); background:var(--ink); color:var(--paper); font-size:12px; font-weight:500; padding:3px 9px; border-radius:5px; white-space:nowrap; z-index:6; }
+.at-tip::before { content:''; position:absolute; left:50%; top:-4px; margin-left:-4px; border:4px solid transparent; border-top:0; border-bottom-color:var(--ink); }
+
+/* ============ 9.1 Home: who holds what. Emoji are Kris's glyphs; each sits beside its word. */
+.emo { font-family:"Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", sans-serif; font-size:14px; line-height:1; margin-right:6px; display:inline-block; width:18px; text-align:center; }
+.emo.sm { font-size:11px; width:auto; margin:0 3px 0 0; }
+.fa .emo.sm + b, .fa b + .emo.sm { margin-left:0; }
+.fa b + .emo.sm, .fa > :not(.emo) + .emo.sm { margin:0 0 0 3px; }
+table.holders { table-layout:fixed; }
+table.holders td { padding:5px 10px; vertical-align:middle; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+table.holders td.focus { overflow:hidden; }
+.focusline { display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.focusline .dotsep { color:var(--muted); margin:0 6px; }
+tr.holder.doer td { color:var(--muted); } tr.holder.doer td .hstate { color:var(--ink); }
+sup.fn { color:var(--gold); font-weight:700; font-size:11px; margin-left:3px; }
+.hstate { display:inline-flex; align-items:center; white-space:nowrap; }
+.hstate.st-silent { color:var(--bad); }
+.footnotes { font-size:12px; margin-top:-6px; }
+.footnotes ol { list-style:none; margin:0; padding:0 4px; display:flex; flex-direction:column; gap:2px; }
+.footnotes li sup.fn { margin:0 6px 0 0; }
+.footnotes p { margin:4px 4px 0; }
+.needspanel table, .approve table { table-layout:fixed; }
+.needspanel td, .approve td { vertical-align:middle; padding:6px 10px; }
+.needspanel tr:last-child td, .approve tr:last-child td { border-bottom:0; }
+.needspanel td.lvl { font-weight:600; white-space:nowrap; }
+.needspanel tr.lvl-urgent td.lvl { color:var(--bad); }
+.needspanel tr.lvl-urgent td:first-child { box-shadow:inset 3px 0 0 var(--bad); }
+.needspanel tr.lvl-look td.lvl { color:var(--gold); }
+.needspanel td.act, .approve td.act { text-align:right; }
+.needspanel .nothing { padding:10px 12px; margin:0; }
+.approve > header .sp { flex:1; }
+.approve > header { align-items:center; }
+.at-tray table.kv.cmp td { padding:4px 14px; }
+.atlas.grow { grid-template-rows:48px auto; }
+.atlas.grow .at-work { grid-template-rows:40px auto; }
+.atlas.grow .at-page, .atlas.grow .tablepanel { overflow:visible; }
+.footnotes li.key { color:var(--muted); margin-bottom:2px; } .footnotes li.key .emo.sm { margin:0 4px 0 0; }
+.atlas.grow .at-side { overflow:visible; padding-bottom:16px; }
+
+/* ============ 0.5 The compact bar: 36 points, presence in one control, one notification indicator, tooltips. */
+.atlas.v5 { grid-template-rows:36px minmax(0, 1fr); }
+.atlas.v5.grow { grid-template-rows:36px auto; }
+.at-top.v5 { gap:8px; padding:0 10px; font-size:12.5px; }
+.at-top.v5 .at-lights { margin-right:4px; }
+.at-top.v5 .at-brand { font-size:14px; } .at-top.v5 .at-brand svg { width:19px; height:19px; }
+.at-top.v5 .at-search { width:220px; padding:2px 8px; }
+.at-top.v5 .at-icon svg { width:16px; height:16px; }
+.at-presence { position:relative; display:inline-flex; align-items:center; }
+.at-chips { display:flex; gap:4px; }
+.at-chips .chip.rig { display:inline-flex; align-items:center; gap:4px; padding:0 8px; }
+.pm { width:10px; height:10px; flex:0 0 10px; }
+.nm { width:11px; height:11px; flex:0 0 11px; }
+.st-present .pm { color:var(--ok); } .st-unknown .pm { color:var(--warn); } .st-gone .pm { color:var(--bad); }
+.pbtn { display:inline-flex; align-items:center; gap:6px; border:1px solid var(--boundary); border-radius:12px; padding:1px 6px 1px 9px; }
+.pbtn .pw { color:var(--muted); } .pbtn.st-gone .pw { color:var(--bad); } .pbtn.st-unknown .pw { color:var(--warn); }
+.pbtn .chev { width:13px; height:13px; color:var(--muted); }
+.at-presence.open .pbtn { border-color:var(--accent); background:var(--surface); }
+.at-pop { position:absolute; left:0; top:calc(100% + 6px); width:330px; background:var(--surface); border:1px solid var(--boundary); border-radius:8px; padding:4px 0; z-index:7; box-shadow:0 10px 28px rgba(5,12,24,.5); white-space:nowrap; }
+.at-pop .pophead { display:flex; justify-content:space-between; padding:6px 12px 6px; border-bottom:1px solid var(--rule); font-size:12px; }
+.at-pop .prow { display:grid; grid-template-columns:14px 64px 110px 1fr; align-items:center; gap:6px; padding:4px 12px; font-size:12px; }
+.at-pop .prow.st-gone .pw { color:var(--bad); } .at-pop .prow.st-unknown .pw { color:var(--warn); }
+.at-pop .popfoot { display:flex; align-items:center; justify-content:space-between; gap:8px; padding:8px 12px 4px; border-top:1px solid var(--rule); margin-top:4px; font-size:11.5px; }
+.at-notice { position:relative; display:inline-flex; align-items:center; gap:5px; border:1px solid var(--boundary); border-radius:12px; padding:1px 9px 1px 7px; }
+.at-notice > svg:first-child { width:15px; height:15px; }
+.at-notice.lv-none { color:var(--muted); } .at-notice.lv-none .nm { color:var(--ok); }
+.at-notice.lv-look { border-color:var(--gold); } .at-notice.lv-look .nm { color:var(--gold); }
+.at-notice.lv-urgent { border-color:var(--bad); } .at-notice.lv-urgent .nm, .at-notice.lv-urgent .nw { color:var(--bad); }
+.at-notice .nw { font-weight:600; }
+.at-speak { position:relative; display:inline-flex; border:1px solid var(--boundary); border-radius:6px; }
+.at-ibtn { display:inline-flex; padding:3px 7px; color:var(--ink); } .at-ibtn + .at-ibtn { border-left:1px solid var(--boundary); }
+.at-ibtn svg { width:15px; height:15px; }
+.at-tip { line-height:1.35; }
+.at-tip.wide { white-space:normal; width:290px; text-align:left; }
+.at-tip.right { left:auto; right:0; transform:none; }
+.at-tip.right::before { left:auto; right:18px; }
+.at-tip .tsub { display:block; opacity:.7; margin-top:3px; font-size:11.5px; }
+.at-presence .at-tip { left:0; transform:none; } .at-presence .at-tip::before { left:20px; }

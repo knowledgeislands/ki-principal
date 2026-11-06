@@ -22,8 +22,9 @@ Every piece Claude Design has made for Agora, as MSG-074055f8 (ART-INDEX) asks. 
 | [window/who-is-doing-what.md](window/who-is-doing-what.md) | 2026-11-06 | The who's-doing-what window: what it shows, choices, what it needs | Brief, item 3 | study |
 | [window/who-is-doing-what-night.png](window/who-is-doing-what-night.png), [light](window/who-is-doing-what-light.png), [html](window/who-is-doing-what.html) | 2026-11-06 | The window sketch in night and light | Brief, item 3 | study |
 | [agora-app/README.md](agora-app/README.md), [index.html](agora-app/index.html) | 2026-11-06 | The Agora app design pack: pages, choices, what is open | MSG-9f90977f DESIGN-PACK | keeper |
-| [agora-app/IA.md](agora-app/IA.md) | 2026-11-06 | Agora Atlas information architecture: the sidebar tree, shell rules (now with the summary-filter bar, the context chip, folding groups and the pane alone), page numbers, the shell function | Atlas shell brief, set (1) | keeper |
+| [agora-app/IA.md](agora-app/IA.md) | 2026-11-06 | Agora Atlas information architecture (reconciled with Kris's review: Home on the logo as 9.1, Known Lands in Work, sections and eyebrows, the Observatory renumbered 12.1 and 12.2, the Art gallery 13): the sidebar tree, shell rules (now with the summary-filter bar, the context chip, folding groups and the pane alone), page numbers, the shell function | Atlas shell brief, set (1) | keeper |
 | [agora-app/7.1.html](agora-app/7.1.html), [7.2.html](agora-app/7.2.html), [8.1.html](agora-app/8.1.html), `build/work.py` | 2026-11-06 | Agora Atlas Roadmap, Jobs and Guilds, with the summary-filter bar they share | Atlas pages brief, sets (2) and (3) | keeper |
+| [agora-app/0.4.html](agora-app/0.4.html), [9.1.html](agora-app/9.1.html), `build/home.py` | 2026-11-06 | Agora Atlas shell, revised (the sidebar in sections, Home on the logo, Known Lands) and Home: who holds what | Kris's review, 22:55 to 23:20 GMT | keeper |
 | [agora-app/lantern/README.md](agora-app/lantern/README.md), [index.html](agora-app/lantern/index.html) | 2026-11-06 | Agora Lantern, the iPhone app: who is listening; annotated board, night and light | Agora Lantern brief | keeper |
 
 ## Agora app design pack: every artboard
@@ -46,29 +47,36 @@ Kind is the preferred alternative, another alternative, a state of a shell, or a
 | [0.2.1](agora-app/0.2.html#0.2.1) | Shell: the tray, components | Summary lines: all well, one problem, a Mac missing | component | [shots](agora-app/shots/components/) |
 | [0.2.2](agora-app/0.2.html#0.2.2) | Shell: the tray, components | Exception row: a checkout, a Mac | component | [shots](agora-app/shots/components/) |
 | [0.2.3](agora-app/0.2.html#0.2.3) | Shell: the tray, components | Speak to everyone: Away…, I'm back | component | [shots](agora-app/shots/components/) |
-| [0.3a](agora-app/0.3.html#0.3a) | Atlas shell | Grouped sidebar: Roadmap, a record in the tray (toolbar, sidebar groups and foot, tabs, context control; page content now 7.1a) | preferred | [shot](agora-app/shots/0.3a.png) |
+| [0.3a](agora-app/0.3.html#0.3a) | Atlas shell | (sidebar superseded by 0.4) Grouped sidebar: Roadmap, a record in the tray (toolbar, sidebar groups and foot, tabs, context control; page content now 7.1a) | preferred | [shot](agora-app/shots/0.3a.png) |
 | [0.3b](agora-app/0.3.html#0.3b) | Atlas shell | Grouped sidebar: Guilds, a skill in the bottom pane (page content now 8.1a) | state | [shot](agora-app/shots/0.3b.png) |
 | [0.3c](agora-app/0.3.html#0.3c) | Atlas shell | Sidebar folded: Home, the territory menu open | state | [shot](agora-app/shots/0.3c.png) |
 | [0.3d](agora-app/0.3.html#0.3d) | Atlas shell | Tray and bottom pane together: Jobs, a job and its runs (page content now 7.2a) | state | [shot](agora-app/shots/0.3d.png) |
 | [0.3e](agora-app/0.3.html#0.3e) | Atlas shell | Sections across the top: Work, Roadmap, a record in the tray | alternative | [shot](agora-app/shots/0.3e.png) |
-| [0.3.1](agora-app/0.3.html#0.3.1) | Atlas shell, components | Sidebar group: open with a count; folded to its heading; a lone place; the sidebar folded | component | [shots](agora-app/shots/components/) |
+| [0.3.1](agora-app/0.3.html#0.3.1) | Atlas shell, components | Sidebar group (superseded by 0.4.1): open with a count; folded to its heading; a lone place; the sidebar folded | component | [shots](agora-app/shots/components/) |
 | [0.3.2](agora-app/0.3.html#0.3.2) | Atlas shell, components | Context control: territory with the plane ignored; territory and plane; the territory menu open | component | [shots](agora-app/shots/components/) |
 | [0.3.3](agora-app/0.3.html#0.3.3) | Atlas shell, components | Tray frame: a work record; a job | component | [shots](agora-app/shots/components/) |
 | [0.3.4](agora-app/0.3.html#0.3.4) | Atlas shell, components | Bottom pane frame: a skill's documents; a job's runs | component | [shots](agora-app/shots/components/) |
 | [0.3.5](agora-app/0.3.html#0.3.5) | Atlas shell, components | Toolbar: all well; one needs a look | component | [shots](agora-app/shots/components/) |
 | [0.3.6](agora-app/0.3.html#0.3.6) | Atlas shell, components | Sidebar foot, with Beacon and Lantern: expanded; folded | component | [shots](agora-app/shots/components/) |
-| [1f](agora-app/1.html#1f) | Home | The working map: Focused, an island selected (toolbar, counts, island detail in the right tray) | preferred | [shot](agora-app/shots/1f.png) |
-| [1g](agora-app/1.html#1g) | Home | The working map: Everything, the planar portal selected | state | [shot](agora-app/shots/1g.png) |
-| [1h](agora-app/1.html#1h) | Home | The working map: closer on Humans Not Robots | state | [shot](agora-app/shots/1h.png) |
-| [1f, in light](agora-app/1.html#1f-light) | Home | 1f in light, for comparison (replaces 1a in light) | state | [shot](agora-app/shots/1f-light.png) |
-| [1a](agora-app/1.html#1a) | Home | The map of territories, the planar portal now on ki-portal (preferred until 1f) | alternative | [shot](agora-app/shots/1a.png) |
-| [1d](agora-app/1.html#1d) | Home | 1a on sol's plane | state | [shot](agora-app/shots/1d.png) |
-| [1e](agora-app/1.html#1e) | Home | 1a on terra's plane | state | [shot](agora-app/shots/1e.png) |
-| [1b](agora-app/1.html#1b) | Home | The councils | alternative | [shot](agora-app/shots/1b.png) |
-| [1c](agora-app/1.html#1c) | Home | The two squares | alternative | [shot](agora-app/shots/1c.png) |
-| [1.1](agora-app/1.html#1.1) | Home, components | Toolbar: Focused, Everything, closer | component | [shots](agora-app/shots/components/) |
-| [1.2](agora-app/1.html#1.2) | Home, components | Island with counts: active and selected, principal with messages waiting, the planar portal, quiet, closer with counts in words | component | [shots](agora-app/shots/components/) |
-| [1.3](agora-app/1.html#1.3) | Home, components | Island detail in the right tray: an island, the planar portal, needs a look, nothing selected | component | [shots](agora-app/shots/components/) |
+| [0.4a](agora-app/0.4.html#0.4a) | Atlas shell, revised | Sidebar in sections: Known Lands under Work, KIV folded (supersedes 0.3's sidebar) | preferred | [shot](agora-app/shots/0.4a.png) |
+| [0.4a, in light](agora-app/0.4.html#0.4a-light) | Atlas shell, revised | 0.4a in light, for comparison | state | [shot](agora-app/shots/0.4a-light.png) |
+| [0.4b](agora-app/0.4.html#0.4b) | Atlas shell, revised | Sidebar folded to icons: three-letter eyebrows, Jobs open, KIV and OBS folded | state | [shot](agora-app/shots/0.4b.png) |
+| [0.4c](agora-app/0.4.html#0.4c) | Atlas shell, revised | The logo hovered: "Home", from Roadmap; SYS folded with 1 to look at | state | [shot](agora-app/shots/0.4c.png) |
+| [0.4.1](agora-app/0.4.html#0.4.1) | Atlas shell, revised, components | Section eyebrow: open, folded, folded with something inside to look at, collapsed, collapsed and folded | component | [shots](agora-app/shots/components/) |
+| [0.4.2](agora-app/0.4.html#0.4.2) | Atlas shell, revised, components | Known Lands item: chosen, plain, collapsed | component | [shots](agora-app/shots/components/) |
+| [0.4.3](agora-app/0.4.html#0.4.3) | Atlas shell, revised, components | The logo as Home: at rest, hovered with "Home", Home open | component | [shots](agora-app/shots/components/) |
+| [1f](agora-app/1.html#1f) | Known Lands (was Home) | The working map: Focused, an island selected (toolbar, counts, island detail in the right tray) | preferred | [shot](agora-app/shots/1f.png) |
+| [1g](agora-app/1.html#1g) | Known Lands (was Home) | The working map: Everything, the planar portal selected | state | [shot](agora-app/shots/1g.png) |
+| [1h](agora-app/1.html#1h) | Known Lands (was Home) | The working map: closer on Humans Not Robots | state | [shot](agora-app/shots/1h.png) |
+| [1f, in light](agora-app/1.html#1f-light) | Known Lands (was Home) | 1f in light, for comparison (replaces 1a in light) | state | [shot](agora-app/shots/1f-light.png) |
+| [1a](agora-app/1.html#1a) | Known Lands (was Home) | The map of territories, the planar portal now on ki-portal (preferred until 1f) | alternative | [shot](agora-app/shots/1a.png) |
+| [1d](agora-app/1.html#1d) | Known Lands (was Home) | 1a on sol's plane | state | [shot](agora-app/shots/1d.png) |
+| [1e](agora-app/1.html#1e) | Known Lands (was Home) | 1a on terra's plane | state | [shot](agora-app/shots/1e.png) |
+| [1b](agora-app/1.html#1b) | Known Lands (was Home) | The councils | alternative | [shot](agora-app/shots/1b.png) |
+| [1c](agora-app/1.html#1c) | Known Lands (was Home) | The two squares | alternative | [shot](agora-app/shots/1c.png) |
+| [1.1](agora-app/1.html#1.1) | Known Lands (was Home), components | Toolbar: Focused, Everything, closer | component | [shots](agora-app/shots/components/) |
+| [1.2](agora-app/1.html#1.2) | Known Lands (was Home), components | Island with counts: active and selected, principal with messages waiting, the planar portal, quiet, closer with counts in words | component | [shots](agora-app/shots/components/) |
+| [1.3](agora-app/1.html#1.3) | Known Lands (was Home), components | Island detail in the right tray: an island, the planar portal, needs a look, nothing selected | component | [shots](agora-app/shots/components/) |
 | [2.1a](agora-app/2.1.html#2.1a) | Who's doing what | By Mac | preferred | [shot](agora-app/shots/2.1a.png) |
 | [2.1b](agora-app/2.1.html#2.1b) | Who's doing what | By focus: the address book | alternative | [shot](agora-app/shots/2.1b.png) |
 | [2.2a](agora-app/2.2.html#2.2a) | An agent | ki.prj.agora | preferred | [shot](agora-app/shots/2.2a.png) |
@@ -107,6 +115,14 @@ Kind is the preferred alternative, another alternative, a state of a shell, or a
 | [8.1.1](agora-app/8.1.html#8.1.1) | Guilds, components | Guild badge: chosen, plain, All guilds chosen, a territory's own skills, the strip | component | [shots](agora-app/shots/components/) |
 | [8.1.2](agora-app/8.1.html#8.1.2) | Guilds, components | Skill badge: plain, open in the pane, in the ledger | component | [shots](agora-app/shots/components/) |
 | [8.1.3](agora-app/8.1.html#8.1.3) | Guilds, components | Skill in the bottom pane: SKILL.md, a folder tab | component | [shots](agora-app/shots/components/) |
+| [9.1a](agora-app/9.1.html#9.1a) | Home: who holds what | One table by tier: needs a look above, yours to approve below | preferred | [shot](agora-app/shots/9.1a.png) |
+| [9.1a, in light](agora-app/9.1.html#9.1a-light) | Home: who holds what | 9.1a in light, for comparison | state | [shot](agora-app/shots/9.1a-light.png) |
+| [9.1b](agora-app/9.1.html#9.1b) | Home: who holds what | Grouped by rig: sol, then terra | alternative | [shot](agora-app/shots/9.1b.png) |
+| [9.1c](agora-app/9.1.html#9.1c) | Home: who holds what | 9.1a with a row chosen: personal.reg.inbox-terra in the tray, its record against the catalogue | state | [shot](agora-app/shots/9.1c.png) |
+| [9.1.1](agora-app/9.1.html#9.1.1) | Home: who holds what, components | Holder row: working (a Leader), with you, silent, a footnote, a doer, chosen | component | [shots](agora-app/shots/components/) |
+| [9.1.2](agora-app/9.1.html#9.1.2) | Home: who holds what, components | Needs a look: urgent and look; nothing | component | [shots](agora-app/shots/components/) |
+| [9.1.3](agora-app/9.1.html#9.1.3) | Home: who holds what, components | Yours to approve: three roles, one brass action | component | [shots](agora-app/shots/components/) |
+| [9.1.4](agora-app/9.1.html#9.1.4) | Home: who holds what, components | Holder in the tray: record against the catalogue | component | [shots](agora-app/shots/components/) |
 | 1b (first pack) | Home | Figures and a table | dropped, after MSG-62774774 | |
 | 1c (first pack) | Home | What's being said first | dropped, after MSG-62774774 | |
 | 1a in light | Home | The plain map in light | dropped, replaced by 1f in light | |
