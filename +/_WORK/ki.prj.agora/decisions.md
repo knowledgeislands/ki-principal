@@ -33,3 +33,4 @@
 ## 2026-11-06 · MARK (Kris, about 00:05 GMT)
 
 - Kris: "maybe we can take a mark and understand what it is that you're focused on". Mark struck; mark-all-scope received, its six queries copied to discussions (three as DEFAULTS); WAKE-NOTE raised for the two waiting 4 November requests.
+- MSG-9556f9a6 AGORA-SCHEDULER (Kris about 00:12 GMT, via household-terra): ACKed; Agora runs the scheduled jobs Rig declares and reports failures and missed runs the same day; PERSONAL-DOTFILES-UE-137 moved here. Run scheduler-draft drafts the record for the coordinator to capture; the design is agreed with Kris before any build, and any job that starts an agent waits on FOCUS-FIT.
