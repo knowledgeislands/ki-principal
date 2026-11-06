@@ -36,15 +36,16 @@ Kind is the preferred alternative, another alternative, a state of a shell, or a
 | [0.1.2](agora-app/0.1.html#0.1.2) | Shell: the window and its rail, components | Views: expanded, contracted | component | [shots](agora-app/shots/components/) |
 | [0.1.3](agora-app/0.1.html#0.1.3) | Shell: the window and its rail, components | Speak to everyone: expanded, contracted | component | [shots](agora-app/shots/components/) |
 | [0.1.4](agora-app/0.1.html#0.1.4) | Shell: the window and its rail, components | The portal: open, terra not heard from, away | component | [shots](agora-app/shots/components/) |
+| [0.1.5](agora-app/0.1.html#0.1.5) | Shell: the window and its rail, components | Tabs: home, a document open | component | [shots](agora-app/shots/components/) |
 | [0.2a](agora-app/0.2.html#0.2a) | Shell: the tray | Tray, all well | state | [shot](agora-app/shots/0.2a.png) |
 | [0.2b](agora-app/0.2.html#0.2b) | Shell: the tray | Tray, one problem | state | [shot](agora-app/shots/0.2b.png) |
 | [0.2c](agora-app/0.2.html#0.2c) | Shell: the tray | Tray, a Mac missing | state | [shot](agora-app/shots/0.2c.png) |
 | [0.2.1](agora-app/0.2.html#0.2.1) | Shell: the tray, components | Summary lines: all well, one problem, a Mac missing | component | [shots](agora-app/shots/components/) |
 | [0.2.2](agora-app/0.2.html#0.2.2) | Shell: the tray, components | Exception row: a checkout, a Mac | component | [shots](agora-app/shots/components/) |
 | [0.2.3](agora-app/0.2.html#0.2.3) | Shell: the tray, components | Speak to everyone: Away…, I'm back | component | [shots](agora-app/shots/components/) |
-| [1a](agora-app/1.html#1a) | Home | The two squares | preferred | [shot](agora-app/shots/1a.png) |
-| [1b](agora-app/1.html#1b) | Home | Figures and a table | alternative | [shot](agora-app/shots/1b.png) |
-| [1c](agora-app/1.html#1c) | Home | What's being said first | alternative | [shot](agora-app/shots/1c.png) |
+| [1a](agora-app/1.html#1a) | Home | The map of territories | preferred | [shot](agora-app/shots/1a.png) |
+| [1b](agora-app/1.html#1b) | Home | The councils | alternative | [shot](agora-app/shots/1b.png) |
+| [1c](agora-app/1.html#1c) | Home | The two squares | alternative | [shot](agora-app/shots/1c.png) |
 | [2.1a](agora-app/2.1.html#2.1a) | Who's doing what | By Mac | preferred | [shot](agora-app/shots/2.1a.png) |
 | [2.1b](agora-app/2.1.html#2.1b) | Who's doing what | By focus: the address book | alternative | [shot](agora-app/shots/2.1b.png) |
 | [2.2a](agora-app/2.2.html#2.2a) | An agent | ki.prj.agora | preferred | [shot](agora-app/shots/2.2a.png) |
@@ -55,3 +56,6 @@ Kind is the preferred alternative, another alternative, a state of a shell, or a
 | [4.1b](agora-app/4.1.html#4.1b) | Waits on you | Oldest first, all together | alternative | [shot](agora-app/shots/4.1b.png) |
 | [5.1a](agora-app/5.1.html#5.1a) | Macs and the portal | The two Macs and the portal | preferred | [shot](agora-app/shots/5.1a.png) |
 | [5.2a](agora-app/5.2.html#5.2a) | Checkouts | Not level, side by side | preferred | [shot](agora-app/shots/5.2a.png) |
+| [6a](agora-app/6.html#6a) | A document in a tab | ki.prj.agora · messages.md | preferred | [shot](agora-app/shots/6a.png) |
+| 1b (first pack) | Home | Figures and a table | dropped, after MSG-62774774 | |
+| 1c (first pack) | Home | What's being said first | dropped, after MSG-62774774 | |

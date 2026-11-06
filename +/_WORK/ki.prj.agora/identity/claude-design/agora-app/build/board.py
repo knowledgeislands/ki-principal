@@ -177,7 +177,7 @@ def main():
 
 COMPONENT_TITLES = [
     dict(id='0.1.1', title='Brand'), dict(id='0.1.2', title='Views'), dict(id='0.1.3', title='Speak to everyone'),
-    dict(id='0.1.4', title='The portal'), dict(id='0.2.1', title='Summary lines'), dict(id='0.2.2', title='Exception row'),
+    dict(id='0.1.4', title='The portal'), dict(id='0.1.5', title='Tabs'), dict(id='0.2.1', title='Summary lines'), dict(id='0.2.2', title='Exception row'),
     dict(id='0.2.3', title='Speak to everyone'),
 ]
 

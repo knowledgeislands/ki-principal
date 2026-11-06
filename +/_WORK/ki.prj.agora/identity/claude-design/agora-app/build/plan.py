@@ -24,7 +24,8 @@ PAGES = [
                  'Views: Home, Who\'s doing what, What\'s being said, Broadcasts, Waits on you, Macs and the portal, Checkouts, each with a count where one helps',
                  'Later: Inbox (from the KIV), Insight (from the Observatory), shown but not yet live',
                  'Speak to everyone: Broadcast…, Away… (I\'m back while away), Ping, Mark all',
-                 'The portal: the two Macs and whether the portal is open, with when the other was last heard']),
+                 'The portal: the two Macs and whether the portal is open, with when the other was last heard',
+                 'Tabs: Home first, then each page or document opened, closable']),
     dict(id='0.2', title='Shell: the tray', zones=['tray'],
          note='The menu-bar menu, the quiet everyday face of Agora (DESIGN-2). The app opens from its first line. '
               'It matters because most days Kris only ever sees this: two lines must say whether all is well.',
@@ -33,14 +34,16 @@ PAGES = [
                  'Speak to everyone', 'Detail one level down: Agents, Macs and checkouts, Runs, Broadcasts, News',
                  'Agora itself: Sync now, Open log, About, Quit']),
     dict(id='1', title='Home', zones=['page'],
-         note='What is happening within each Agora and across them, at a glance: who is here, what needs a look, what '
-              'waits on Kris and what was just said. It matters because it is the page the app opens on; every '
-              'other view is a closer look at one of its panels.',
-         fields=['Summary: agents on Macs, how many need a look, how many queries wait',
-                 'Who is here: each Mac with its agents, listening or not, and the portal',
-                 'Needs a look: the same exceptions as the tray',
-                 'Waits on you: the oldest queries, with their agent and focus',
-                 'Just said: the last few things said, with layer (Git or Agora) and whether heard']),
+         note='One view that fits the window with no scrolling (MSG-62774774, Kris\'s vision): the territories and their '
+              'islands, the work packages and workers placed where they work, the primary focus of each, the meeting '
+              'point on each island, the threads of talk up to each territory\'s council and across, and the great portal '
+              'between the Macs. It matters because it is the page the app opens on, and it should show the whole '
+              'distributed Agora as one place.',
+         fields=['Territories, each a faint boundary with its name', 'Islands (repositories), drawn as hexes',
+                 'Meeting point on each island: on (lit) or off', 'Workers by role: council, enabler, doer; each with its primary focus and rig', 'Planes: sol, terra or both, since each rig is a plane over the same islands',
+                 'Listening by shape: solid listening, hollow on open, slashed silent',
+                 'Threads of talk: work packages up to their council, councils across', 'The great portal: sol and terra, open or not',
+                 'At a glance: agents by host, what needs a look, what waits on Kris, the portal; the key; Show as a list']),
     dict(id='2.1', title="Who's doing what", zones=['page'],
          note='Every live agent on both Macs, what each looks after, whether it listens, and what waits on Kris; and '
               'the address book for routing by focus. It matters because routing an idea to the right agent depends '
@@ -79,6 +82,11 @@ PAGES = [
               'because "everyone is level" is Agora\'s second goal, and a diverged checkout blocks an agent.',
          fields=['Repository', 'Condition on sol', 'Condition on terra', 'Whether the Macs agree',
                  'For the selected one: what Agora did and who was called']),
+    dict(id='6', title='A document in a tab', zones=['page'],
+         note='Pages and documents open inside the app as tabs, as in Orca and Claude Code, so a message, a decision or a record '
+              'can be read beside the map without bringing in the KIV\'s and the Observatory\'s views first.',
+         fields=['Tabs: Home stays first; each opened page or document after it, closable', 'The document, read only, with where it lives and when it changed',
+                 'About this document: its package, how Agora uses it, where it was opened from']),
 ]
 
 # Each artboard: page, letter, title, the mock-up to draw, its zones, and for alternatives the trade-off.
@@ -89,17 +97,17 @@ ARTBOARDS = [
     dict(id='0.2a', page='0.2', title='Tray, all well', tray='all-well', zones=['tray']),
     dict(id='0.2b', page='0.2', title='Tray, one problem', tray='one-problem', zones=['tray']),
     dict(id='0.2c', page='0.2', title='Tray, a Mac missing', tray='mac-missing', zones=['tray']),
-    dict(id='1a', page='1', title='The two squares', make=lambda: M.page('Home', M.home_a()), zones=['page'], preferred=True,
-         why='It answers "who is here, on which Mac, and is the portal open" in one look, carries the identity '
-             '(the meeting ring on each Mac, the portal Kris described) and keeps the stream of words short.',
-         gains='The two places and the portal are visible; silent and on-open agents stand out by shape; one look answers the home question.',
-         costs='The picture takes space and crowds past about 12 agents a Mac; it needs the table (2.1) as its text equivalent.'),
-    dict(id='1b', page='1', title='Figures and a table', make=lambda: M.page('Home', M.home_b()), zones=['page'],
-         gains='Densest; scales to many agents; nothing to learn.',
-         costs='No sense of two places or the portal; repeats 2.1 almost exactly; reads like a dashboard of numbers.'),
-    dict(id='1c', page='1', title="What's being said first", make=lambda: M.page('Home', M.home_c()), zones=['page'],
-         gains='Feels alive; shows the conversation that Agora carries.',
-         costs='A feed asks to be watched, against "navigation over consumption"; what needs a look and what waits on Kris drop out of sight.'),
+    dict(id='1a', page='1', title='The map of territories', make=lambda: M.page('Home', M.home_map()), zones=['page'], preferred=True,
+         why='It is the picture Kris described: islands and territories, workers placed where they work, meeting points joined by '
+             'threads, the great portal; it fits one window, and the key and Show as a list give its text equivalent.',
+         gains='The whole distributed Agora in one look; the hierarchy of talk is visible; hosts read as crews on the same islands.',
+         costs='Placing islands needs a layout rule (the Territory Map\'s, ideally); labels crowd on a busy island; silent workers are small.'),
+    dict(id='1b', page='1', title='The councils', make=lambda: M.page('Home', M.home_council()), zones=['page'],
+         gains='The hierarchy of talk is exact and legible: each council with who talks up to it; scales to many work packages.',
+         costs='No islands or geography, so it is a diagram, not the place; the great portal becomes a band.'),
+    dict(id='1c', page='1', title='The two squares', make=lambda: M.page('Home', M.home_a()), zones=['page'],
+         gains='Host-centred: each Mac\'s Agora and the portal between them, with what needs a look and what was just said.',
+         costs='Hides territories and islands, which Kris\'s vision puts first; treats hosts as places, not crews.'),
     dict(id='2.1a', page='2.1', title='By Mac', make=lambda: M.page("Who's doing what", M.here_a()), zones=['page'], preferred=True,
          why='Rows stay where Kris learnt them (by Mac, territory, work id), listening and queries read across '
              'each row, and the address book is one search away in the same view.',
@@ -136,6 +144,9 @@ ARTBOARDS = [
     dict(id='5.2a', page='5.2', title='Not level, side by side', make=lambda: M.page('Checkouts', M.checkouts_a()), zones=['page'], preferred=True,
          why='Both Macs side by side make a disagreement plain, and showing only what is not level keeps the page short.',
          gains='Disagreements stand out; what Agora did is beside the checkout.', costs='A Mac that carries a repository the other does not needs a dash.'),
+    dict(id='6a', page='6', title='ki.prj.agora · messages.md', make=lambda: M.doc_tab(), zones=['page'], preferred=True,
+         why='A tab keeps the document beside the map, one click from home.', gains='Read without leaving the app.',
+         costs='Read only for now; editing stays in the owner\'s tools.'),
 ]
 
 COMPONENTS = [
@@ -143,6 +154,7 @@ COMPONENTS = [
     dict(id='0.1.2', page='0.1', title='Views', selector='[data-region="N2"]', states=[('expanded', '0.1a'), ('contracted', '0.1b')]),
     dict(id='0.1.3', page='0.1', title='Speak to everyone', selector='[data-region="N4"]', states=[('expanded', '0.1a'), ('contracted', '0.1b')]),
     dict(id='0.1.4', page='0.1', title='The portal', selector='[data-region="N5"]', states=[('open', '0.1a'), ('terra not heard from', '0.1c'), ('away', 'away')]),
+    dict(id='0.1.5', page='0.1', title='Tabs', selector='.tabs', states=[('home', '0.1a'), ('a document open', '6a')]),
     dict(id='0.2.1', page='0.2', title='Summary lines', selector='[data-region="T1"]', states=[('all well', '0.2a'), ('one problem', '0.2b'), ('a Mac missing', '0.2c')]),
     dict(id='0.2.2', page='0.2', title='Exception row', selector='[data-region="T2"]', states=[('a checkout', '0.2b'), ('a Mac', '0.2c')]),
     dict(id='0.2.3', page='0.2', title='Speak to everyone', selector='[data-region="T3"]', states=[('Away…', '0.2a'), ("I'm back", '0.2c')]),
@@ -186,7 +198,7 @@ def main():
     # The preferred home in light, for comparison.
     light = os.path.join(MOCKS, '1a-light.html')
     with open(light, 'w', encoding='utf-8') as f:
-        f.write(M.page('Home', M.home_a(), theme='light'))
+        f.write(M.page('Home', M.home_map(), theme='light'))
     shots.append(dict(shot='1a-light', html=os.path.abspath(light), width=1440, hidden=True))
     components = [dict(id=c['id'], selector=c['selector'], states=c['states']) for c in COMPONENTS]
     plan = dict(pages=PAGES, artboards=[{k: v for k, v in ab.items() if k != 'make'} for ab in ARTBOARDS],

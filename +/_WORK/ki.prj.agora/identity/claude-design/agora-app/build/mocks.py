@@ -4,6 +4,7 @@ Each region worth discussing carries data-region (its code, such as P3) and data
 its box. Shell pages mark only N; view pages mark only P, as the annotated-board standard asks.
 """
 from html import escape
+import map_view as MV
 from data import AGENTS, LISTEN_WORDS, AGORA_QUERIES, SOP_QUERIES, SAID, CHECKOUTS, NOW
 
 # ---------------------------------------------------------------- glyphs (24 grid, 1.5 stroke, line only)
@@ -82,10 +83,21 @@ def rail(active, mark_shell, portal='open'):
 </aside>'''
 
 
-def page(active, content, contracted=False, mark_shell=False, theme='night', portal='open', title='Agora'):
+def tabs_bar(tabs, mark_shell):
+    m = R('N6', 'Tabs') if mark_shell else ''
+    items = ''.join(f'<span class="tab{" on" if on else ""}">{escape(t)}{" <span class=x>×</span>" if closable else ""}</span>' for t, on, closable in tabs)
+    return f'<div class="tabs" {m}>{items}<span class="tab add">+</span></div>'
+
+
+DEFAULT_TABS = None
+
+
+def page(active, content, contracted=False, mark_shell=False, theme='night', portal='open', title='Agora', tabs=None):
+    if tabs is None:
+        tabs = [(active, True, False), ('ki.prj.agora · messages.md', False, True), ('Agora app pack · README', False, True)]
     return f'''<!doctype html><html lang="en-GB" data-theme="{theme}"><head><meta charset="utf-8">
 <title>{escape(title)}</title><link rel="stylesheet" href="../build/app.css"></head><body>
-<div class="app{" contracted" if contracted else ""}">{rail(active, mark_shell, portal)}<main>{content}</main></div>
+<div class="app{" contracted" if contracted else ""}">{rail(active, mark_shell, portal)}<main>{tabs_bar(tabs, mark_shell)}{content}</main></div>
 </body></html>'''
 
 
@@ -380,3 +392,60 @@ def checkouts_a():
 
 def shell_blank(text):
     return f'{head("P1", "Home", text)}<section class="panel"><div class="empty">The page goes here.</div></section>'
+
+
+# ---------------------------------------------------------------- home as one map (MSG-62774774)
+def glance_panel(code='P3'):
+    key = ''.join(f'<li><svg viewBox="0 0 18 18">{svg}</svg>{escape(words)}</li>' for svg, words in MV.KEY)
+    return f'''<aside class="grid" style="align-content:start; gap:12px" {R(code, "At a glance")}>
+<section class="panel"><header><h2>At a glance</h2></header><ul class="plain body">
+<li><b>10 agents</b> <span class="muted">· sol 4 · terra 6 · 2 doers</span></li>
+<li class="warn">{mark("diamond")}<b>2 need a look</b><span class="sub">hnr-principal diverged on terra · hnr.prj.site-robots silent</span></li>
+<li><b>34 queries</b> wait on you <span class="muted">· oldest 2026-11-03</span></li>
+<li><span class="teal">The great portal is open</span><span class="sub">terra heard 04:20 · 14 calls this hour</span></li></ul></section>
+<section class="panel"><header><h2>Key</h2></header><ul class="plain body key">{key}</ul><div class="body"><span class="btn">Show as a list</span></div></section>
+</aside>'''
+
+
+def home_map():
+    return f'''{head("P1", "Home", "3 territories · 12 islands · 10 agents on 2 rigs · 2 need a look", '<span class="seg" title="Each rig is a plane over the same islands"><span>sol</span><span>terra</span><span class="on">Both planes</span></span><span class="btn">Who looks after…</span>')}
+<div class="mapwrap"><section class="map" {R("P2", "The map")}>{MV.territory_map()}</section>{glance_panel()}</div>'''
+
+
+def home_council():
+    def col(code, terr, council, focus, host, listen, members):
+        rows = ''.join(f'<li>{mark("slashed" if l == "silent" else "hollow" if l == "open" else "stone")}<span class="id">{wid}</span><span class="sub">★ {f} · {h}{" · silent" if l == "silent" else ""}</span></li>' for wid, f, h, l in members)
+        c_mark = mark("slashed" if listen == "silent" else "stone")
+        return (f'<section class="panel" {R(code, terr)}><header><h2>{terr}</h2></header><div class="body">'
+                f'<div class="panel" style="padding:8px 10px; border-color:var(--gold)"><span class="muted" style="font-size:11px">COUNCIL</span><br>{c_mark}<b class="id">{council}</b>'
+                f'<span class="sub">★ {focus} · {host}{" · silent" if listen == "silent" else ""}</span></div>'
+                f'<div style="border-left:2px solid var(--gold); margin:4px 0 0 14px; padding:4px 0 0 12px"><ul class="plain">{rows}</ul></div></div></section>')
+    ki = col('P2', 'Knowledge Islands', 'ki.sop.main', 'themes', 'sol', 'call', [('ki.prj.agora', 'send', 'sol', 'call'), ('Claude Design (doer)', 'identity', 'sol', 'open'), ('ChatGPT (doer)', 'identity', 'sol', 'open')])
+    hnr = col('P3', 'Humans Not Robots', 'hnr.sop.main', 'routing', 'terra', 'silent', [('hnr.prj.5g-emerge-phase3', 'delivery', 'terra', 'open'), ('hnr.prj.5g-emerge-p2ms3', 'delivery', 'terra', 'call'), ('hnr.prj.site-robots', 'site', 'terra', 'silent')])
+    per = col('P4', 'Personal', 'personal.reg.inbox-sol', 'method', 'sol', 'call', [('personal.reg.inbox-terra', 'method', 'terra', 'call'), ('personal.reg.household-sol', 'rig', 'sol', 'poll'), ('personal.reg.household-terra', 'rig', 'terra', 'call')])
+    portal = (f'<section class="panel" {R("P5", "The great portal")} style="border-color:var(--gold)"><div class="body" style="display:flex; gap:16px; align-items:center">'
+              f'<span class="teal">{glyph("portal")}</span><b>The great portal</b><span class="muted">in the households, on the dotfiles island · sol ⇄ terra · open · heard 04:20 · 14 calls, 2 broadcasts this hour</span></div></section>')
+    return f'''{head("P1", "Home", "The councils and who talks to them · 10 agents on 2 Macs")}
+<div class="grid" style="grid-template-columns: repeat(3, 1fr);">{ki}{hnr}{per}</div>{portal}
+<p class="foot">Work packages talk up to their territory's council; the councils talk to each other on each Mac; the great portal joins the Macs.</p>'''
+
+
+def doc_tab():
+    tabs = [('Home', False, False), ('ki.prj.agora · messages.md', True, True), ('Agora app pack · README', False, True)]
+    body = '''<article class="doc panel" style="padding:16px 20px" data-region="P2" data-label="The document">
+<div class="muted" style="font-size:12px">ki-principal · +/_WORK/ki.prj.agora/messages.md · read only · updated 04:21</div>
+<h2>Inbound</h2><ul>
+<li><b>DESIGN-4</b> · from Claude Design (information architect) · 04:19: the Agora app design pack is ready to look at</li>
+<li><b>ACK MSG-62774774</b> · from Claude Design · 04:16: reworking the pack's home as one map</li>
+<li><b>DESIGN-3</b> · from Claude Design (identity doer) · 04:03: a first sketch of the who's-doing-what window</li>
+<li><b>DESIGN-2</b> · from Claude Design (identity doer) · 04:01: the calmer tray menu</li>
+<li><b>DESIGN-1</b> · from Claude Design (identity doer) · 03:58: three architecture diagrams</li></ul>
+<h2>Outbound</h2><ul>
+<li><b>MSG-1088cfd8 HEALTH</b> · to ki.sop.main · listener 120 min · awaiting ACK</li>
+<li><b>MSG-1c1bdb12 AWAY-UNTIL-0800</b> · to hnr.sop.main · 03:31 GMT · awaiting ACK</li></ul></article>'''
+    side = f'''<aside class="panel" {R("P3", "About this document")}><header><h2>About this document</h2></header><ul class="plain body">
+<li>Belongs to <span class="id">ki.prj.agora</span> on sol</li><li>Read by Agora's watch; a new line calls the package</li><li>Opened from 3.1 What's being said</li></ul>
+<div class="body" style="display:flex;gap:8px"><span class="btn">Open in the editor</span><span class="btn">Show in Finder</span></div></aside>'''
+    content = f'''{head("P1", "ki.prj.agora · messages.md", "A document open in a tab, beside the map")}
+<div class="grid" style="grid-template-columns: 1fr 300px;">{body}{side}</div>'''
+    return page("What's being said", content, tabs=tabs)

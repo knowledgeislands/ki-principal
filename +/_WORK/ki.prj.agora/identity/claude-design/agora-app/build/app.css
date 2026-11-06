@@ -97,3 +97,20 @@ ul.plain li:last-child { border-bottom:0; }
 .ticks { display:flex; gap:3px; align-items:flex-end; height:20px; }
 .ticks i { width:6px; background:var(--ok); display:block; }
 .ticks i.miss { background:transparent; border:1px solid var(--bad); }
+
+/* Tabs: pages and documents open inside the app */
+.tabs { display:flex; align-items:flex-end; gap:2px; border-bottom:1px solid var(--rule); margin:-18px -24px 0; padding:8px 16px 0; }
+.tab { display:flex; align-items:center; gap:8px; padding:6px 12px; border:1px solid transparent; border-bottom:0; border-radius:6px 6px 0 0; color:var(--muted); white-space:nowrap; max-width:280px; overflow:hidden; text-overflow:ellipsis; }
+.tab.on { border-color:var(--rule); background:var(--paper); color:var(--ink); font-weight:600; margin-bottom:-1px; }
+.tab .x { color:var(--muted); font-weight:400; }
+.tab.add { color:var(--muted); }
+
+/* The map of territories */
+.mapwrap { display:grid; grid-template-columns: 1fr 268px; gap:16px; min-height:0; }
+.map { border:1px solid var(--rule); border-radius:8px; overflow:hidden; background:var(--paper); }
+.map svg { display:block; }
+.key li { display:flex; align-items:center; gap:8px; padding:3px 0; border:0; }
+.key svg { width:18px; height:18px; flex:0 0 18px; }
+.doc { max-width:860px; }
+.doc h2 { font-size:15px; margin:14px 0 6px; }
+.doc li { margin:4px 0; }
