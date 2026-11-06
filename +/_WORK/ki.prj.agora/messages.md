@@ -15,8 +15,11 @@
 
 ## Outbound
 
+- 2026-11-06 · MSG-54b01bd8 HEALTH/PING · to personal.reg.inbox-sol · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-00cdf195 HEALTH/PING · to ki.sop.main · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-61a1d864 HEALTH/PING · to hnr.sop.main · listener 120 min · awaiting ACK
+- 2026-11-06 · MSG-915af636 HEALTH/PING · to hnr.prj.5g-emerge-p2ms3 · listener 120 min · awaiting ACK
+- 2026-11-06 · MSG-105a0794 HEALTH/PING · to hnr.prj.site-robots · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-4b3bdd8d ANNOUNCE · to personal.reg.inbox-sol (copy personal.reg.inbox-terra, awareness only) · 07:15 GMT · overnight new and noteworthy, written to its Inbound · awaiting ACK
 - 2026-11-06 · MSG-1712c022 AGORA-READY-2 · to personal.reg.household-sol · 06:50 GMT · apps-agora.local main at fa71734: `self:install` now retires the old `info.knowledgeislands.agora` agent that exits 78 at login. Please reinstall when convenient (AGORA-INSTALL-GRANT), and after your next login check `launchctl print gui/$(id -u)/info.knowledgeislands.agora` names the Portal, not `Contents/MacOS/Agora`; reply with what you see · awaiting ACK
 - 2026-11-06 · MSG-1333b6b3 AGORA-READY-2 · to personal.reg.household-terra · 06:50 GMT · apps-agora.local main at fa71734: `self:install` now retires the old `info.knowledgeislands.agora` agent that exits 78 at login. Please reinstall when convenient (AGORA-INSTALL-GRANT), and after your next login check `launchctl print gui/$(id -u)/info.knowledgeislands.agora` names the Portal, not `Contents/MacOS/Agora`; reply with what you see · awaiting ACK
