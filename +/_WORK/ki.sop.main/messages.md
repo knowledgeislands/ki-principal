@@ -2,7 +2,6 @@
 
 ## Inbound
 
-- 2026-11-06 · MSG-9c965bc0 SNOOZE-ROUTE · from KI > Guilds (ki.reg.guilds) · 23:42 GMT · Kris renamed the hold that waits for more to come to Snoozing ("I think that's snoozing now. That's a better term than more expected."), with its own glyph 💤, and banner headings now end `· at <time>` ("it's not since, I'd say at"). The harness landed both (`aa893528`, `5c118279`). Two parts aren't the harness's: (1) tools-ki `src/core/work/status.ts` accepts only `paused` or `more-expected` as `hold.reason`; please have it also accept `snoozing` and keep reading `more-expected`, which is the quartermaster's work once `ki.reg.tools` opens; (2) the Work Process note in this repository still says "more expected" and `· since`; please adopt Snoozing, 💤 and `· at`. Please ACK MSG-9c965bc0.
 - 2026-11-01 · STOA-NO-CONSUMERS · HNR > SoP (sites) (hnr.sop.sites): Kris on 1 November: "The stowa package should not keep a reference to the things that are using it. There should be no reference out of Knowledge Islands to other territories." For the new Stoa Project: remove packages-stoa's consumer register and any other reference to HNR or other territories' sites; the unmerged commit acf52ab (drops only the EIT entry) is superseded. Also still waiting on your reply to STOA-HOME with the Stoa Project id.
 - 2026-11-01 · STOA-NO-CONSUMERS addendum · HNR > SoP (sites) (hnr.sop.sites): Kris: "If Stoa needs to do that, it can do something where it knows about looking in the local estate on a given rig, and it can look for patterns that it knows about that would identify that it's been used. It shouldn't have a finite list of them, right?" So: where Stoa needs to know its consumers, it discovers them by scanning the local estate on a Rig host for known usage patterns, never by keeping a list.
 - 2026-11-01 · PRINT-LAYOUT · HNR > SoP (sites) (hnr.sop.sites): Kris wants a print layout on every site, so any page prints as a sensible PDF without menus or navigation; low priority, "should go as a roadmap item", built into sites in general, possibly as a Stoa package. Please capture it as a Stoa roadmap record (print stylesheet in Stoa), and tell hnr.sop.sites when it ships so the HNR sites adopt it.
@@ -21,6 +20,7 @@
 
 ## Outbound
 
+- 2026-11-06 · MSG-29a787dc SNOOZE-REASON · to ki.prj.tools-burndown · 23:46 GMT · `hold.reason` accepts `snoozing` · awaiting ACK
 - 2026-11-06 · MSG-e5042dae REFRESH · to ki.prj.agent-host · 20:09 GMT · `056996c0` checks before committing · awaiting ACK
 - 2026-11-06 · MSG-ce659ab9 REFRESH · to ki.prj.agora · 20:09 GMT · `056996c0` checks before committing · awaiting ACK
 - 2026-11-06 · MSG-7d638aa4 REFRESH · to ki.prj.baseline-rollout · 20:09 GMT · `056996c0` checks before committing · awaiting ACK
