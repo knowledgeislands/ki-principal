@@ -43,11 +43,18 @@ Kind is the preferred alternative, another alternative, a state of a shell, or a
 | [0.2.1](agora-app/0.2.html#0.2.1) | Shell: the tray, components | Summary lines: all well, one problem, a Mac missing | component | [shots](agora-app/shots/components/) |
 | [0.2.2](agora-app/0.2.html#0.2.2) | Shell: the tray, components | Exception row: a checkout, a Mac | component | [shots](agora-app/shots/components/) |
 | [0.2.3](agora-app/0.2.html#0.2.3) | Shell: the tray, components | Speak to everyone: Away…, I'm back | component | [shots](agora-app/shots/components/) |
-| [1a](agora-app/1.html#1a) | Home | The map of territories | preferred | [shot](agora-app/shots/1a.png) |
+| [1f](agora-app/1.html#1f) | Home | The working map: Focused, an island selected (toolbar, counts, island detail in the right tray) | preferred | [shot](agora-app/shots/1f.png) |
+| [1g](agora-app/1.html#1g) | Home | The working map: Everything, the planar portal selected | state | [shot](agora-app/shots/1g.png) |
+| [1h](agora-app/1.html#1h) | Home | The working map: closer on Humans Not Robots | state | [shot](agora-app/shots/1h.png) |
+| [1f, in light](agora-app/1.html#1f-light) | Home | 1f in light, for comparison (replaces 1a in light) | state | [shot](agora-app/shots/1f-light.png) |
+| [1a](agora-app/1.html#1a) | Home | The map of territories, the planar portal now on ki-portal (preferred until 1f) | alternative | [shot](agora-app/shots/1a.png) |
 | [1d](agora-app/1.html#1d) | Home | 1a on sol's plane | state | [shot](agora-app/shots/1d.png) |
 | [1e](agora-app/1.html#1e) | Home | 1a on terra's plane | state | [shot](agora-app/shots/1e.png) |
 | [1b](agora-app/1.html#1b) | Home | The councils | alternative | [shot](agora-app/shots/1b.png) |
 | [1c](agora-app/1.html#1c) | Home | The two squares | alternative | [shot](agora-app/shots/1c.png) |
+| [1.1](agora-app/1.html#1.1) | Home, components | Toolbar: Focused, Everything, closer | component | [shots](agora-app/shots/components/) |
+| [1.2](agora-app/1.html#1.2) | Home, components | Island with counts: active and selected, principal with messages waiting, the planar portal, quiet, closer with counts in words | component | [shots](agora-app/shots/components/) |
+| [1.3](agora-app/1.html#1.3) | Home, components | Island detail in the right tray: an island, the planar portal, needs a look, nothing selected | component | [shots](agora-app/shots/components/) |
 | [2.1a](agora-app/2.1.html#2.1a) | Who's doing what | By Mac | preferred | [shot](agora-app/shots/2.1a.png) |
 | [2.1b](agora-app/2.1.html#2.1b) | Who's doing what | By focus: the address book | alternative | [shot](agora-app/shots/2.1b.png) |
 | [2.2a](agora-app/2.2.html#2.2a) | An agent | ki.prj.agora | preferred | [shot](agora-app/shots/2.2a.png) |
@@ -61,3 +68,4 @@ Kind is the preferred alternative, another alternative, a state of a shell, or a
 | [6a](agora-app/6.html#6a) | A document in a tab | ki.prj.agora · messages.md | preferred | [shot](agora-app/shots/6a.png) |
 | 1b (first pack) | Home | Figures and a table | dropped, after MSG-62774774 | |
 | 1c (first pack) | Home | What's being said first | dropped, after MSG-62774774 | |
+| 1a in light | Home | The plain map in light | dropped, replaced by 1f in light | |

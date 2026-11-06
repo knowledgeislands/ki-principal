@@ -35,15 +35,21 @@ PAGES = [
                  'Agora itself: Sync now, Open log, About, Quit']),
     dict(id='1', title='Home', zones=['page'],
          note='One view that fits the window with no scrolling (MSG-62774774, Kris\'s vision): the territories and their '
-              'islands, the work packages and workers placed where they work, the primary focus of each, the meeting '
-              'point on each island (its island portal), the threads of talk up to each territory\'s principal portal and across, and the planar portal '
-              'between the Macs. It matters because it is the page the app opens on, and it should show the whole '
-              'distributed Agora as one place.',
-         fields=['Territories, each a faint boundary with its name', 'Islands (repositories), drawn as hexes',
-                 'Island portal on each island: on (lit) or off; the principal portal larger on each principal island', 'Workers by role: council, enabler, doer; each with its primary focus and rig', 'Planes: sol, terra or both, since each rig is a plane over the same islands',
-                 'Listening by shape: solid listening, hollow on open, slashed silent',
-                 'Threads of talk: island portals up to the principal portal, principal portals across', 'The planar portal on the dotfiles island: sol and terra, open or not',
-                 'At a glance: agents by host, what needs a look, what waits on Kris, the portal; the key; Show as a list']),
+              'islands, the work packages and workers placed where they work, the primary focus of each, the island portal on '
+              'each island, the threads of talk up to each territory\'s principal portal and across, and the planar portal, '
+              'on its own island ki-portal, between the planes. The preferred home (1f) makes it a working map: active islands '
+              'stand out, Focused hides the quiet ones, each island carries its queued work and waiting messages, and clicking '
+              'an island shows its detail in the right tray. It matters because it is the page the app opens on, and it should '
+              'show the whole distributed Agora as one place where Kris can see where work is and pick it up.',
+         fields=['Toolbar: Focused or Everything; the plane (sol, terra or both); zoom out, the level, zoom in, Fit; Show as a list',
+                 'Territories, each a faint boundary with its name', 'Islands (repositories), drawn as hexes: active as land, quiet as outlines',
+                 'On each island: its name, queued work (a stack) and waiting messages (an envelope), each a small count; zero left out',
+                 'Island portal on each island: lit when someone there listens; the principal portal larger on each principal island',
+                 'The planar portal on ki-portal in Personal, ringed in gold, kept by the watchman; sol and terra, open or not',
+                 'Workers by role: council, enabler, doer; each with its primary focus and rig', 'Listening by shape: solid listening, hollow on open, slashed silent',
+                 'Threads of talk: island portals up to the principal portal, principal portals across, the planar portal out to the other plane',
+                 'Right tray, an island selected: where it is, its portal, checkouts, who works there, queued work, waiting messages, what waits on Kris',
+                 'Right tray, nothing selected: at a glance and the key', 'Zoomed: labels stay at reading size and add when each worker last answered; an overview shows where the view sits']),
     dict(id='2.1', title="Who's doing what", zones=['page'],
          note='Every live agent on both Macs, what each looks after, whether it listens, and what waits on Kris; and '
               'the address book for routing by focus. It matters because routing an idea to the right agent depends '
@@ -91,17 +97,26 @@ PAGES = [
 
 # Each artboard: page, letter, title, the mock-up to draw, its zones, and for alternatives the trade-off.
 ARTBOARDS = [
-    dict(id='0.1a', page='0.1', title='Rail expanded, both Macs here', make=lambda: M.page('Home', M.shell_blank('10 agents on 2 Macs · All well'), mark_shell=True), zones=['navigation']),
-    dict(id='0.1b', page='0.1', title='Rail contracted', make=lambda: M.page('Home', M.shell_blank('10 agents on 2 Macs · All well'), contracted=True, mark_shell=True), zones=['navigation']),
-    dict(id='0.1c', page='0.1', title='Rail expanded, terra not heard from', make=lambda: M.page('Home', M.shell_blank('4 agents on 1 Mac · 1 needs a look'), mark_shell=True, portal='unheard'), zones=['navigation']),
+    dict(id='0.1a', page='0.1', title='Rail expanded, both Macs here', make=lambda: M.page('Home', M.shell_blank('12 agents on 2 Macs · All well'), mark_shell=True), zones=['navigation']),
+    dict(id='0.1b', page='0.1', title='Rail contracted', make=lambda: M.page('Home', M.shell_blank('12 agents on 2 Macs · All well'), contracted=True, mark_shell=True), zones=['navigation']),
+    dict(id='0.1c', page='0.1', title='Rail expanded, terra not heard from', make=lambda: M.page('Home', M.shell_blank('5 agents on 1 Mac · 1 needs a look'), mark_shell=True, portal='unheard'), zones=['navigation']),
     dict(id='0.2a', page='0.2', title='Tray, all well', tray='all-well', zones=['tray']),
     dict(id='0.2b', page='0.2', title='Tray, one problem', tray='one-problem', zones=['tray']),
     dict(id='0.2c', page='0.2', title='Tray, a Mac missing', tray='mac-missing', zones=['tray']),
-    dict(id='1a', page='1', title='The map of territories', make=lambda: M.page('Home', M.home_map()), zones=['page'], preferred=True,
-         why='It is the picture Kris described: islands and territories, workers placed where they work, island and principal portals joined by '
-             'threads, the planar portal; it fits one window, and the key and Show as a list give its text equivalent.',
-         gains='The whole distributed Agora in one look; the hierarchy of talk is visible; hosts read as crews on the same islands.',
-         costs='Placing islands needs a layout rule (the Territory Map\'s, ideally); labels crowd on a busy island; silent workers are small.'),
+    dict(id='1f', page='1', title='The working map: Focused, an island selected', make=lambda: M.page('Home', M.home_working(focused=True, selected='apps-agora.local')),
+         zones=['page'], preferred=True,
+         why='It keeps the picture Kris described and makes it the place to act from: Focused shows only where work is, each island says '
+             'how much is queued and waiting, and one click opens an island in the tray without leaving the map. It fits one window.',
+         gains='Active islands read at once; counts show where work piles up before a worker says so; the tray holds the detail, so the map '
+               'keeps few words; the toolbar puts filter, plane, zoom and the list in one place.',
+         costs='Focused hides quiet islands, so a forgotten repository with queued work is only a line in the corner; the tray takes 304 '
+               'points from the map; counts are two more marks per island to learn.'),
+    dict(id='1g', page='1', title='The working map: Everything, the planar portal selected', make=lambda: M.page('Home', M.home_working(focused=False, selected='ki-portal')), zones=['page']),
+    dict(id='1h', page='1', title='The working map: closer on Humans Not Robots', make=lambda: M.page('Home', M.home_working(focused=False, selected='hnr-principal', zoom='hnr')), zones=['page']),
+    dict(id='1a', page='1', title='The map of territories', make=lambda: M.page('Home', M.home_map()), zones=['page'],
+         gains='The whole distributed Agora in one look, with the key always beside it; nothing is hidden, so nothing is missed.',
+         costs='Every island weighs the same, active or quiet; no counts, so where work waits needs another page; no selection or zoom, '
+               'so a busy island\'s labels crowd and its detail is a page away. Was preferred until 1f.'),
     dict(id='1d', page='1', title="1a on sol's plane", make=lambda: M.page('Home', M.home_map('sol')), zones=['page']),
     dict(id='1e', page='1', title="1a on terra's plane", make=lambda: M.page('Home', M.home_map('terra')), zones=['page']),
     dict(id='1b', page='1', title='The councils', make=lambda: M.page('Home', M.home_council()), zones=['page'],
@@ -157,6 +172,15 @@ COMPONENTS = [
     dict(id='0.1.3', page='0.1', title='Speak to everyone', selector='[data-region="N4"]', states=[('expanded', '0.1a'), ('contracted', '0.1b')]),
     dict(id='0.1.4', page='0.1', title='The portal', selector='[data-region="N5"]', states=[('open', '0.1a'), ('terra not heard from', '0.1c'), ('away', 'away')]),
     dict(id='0.1.5', page='0.1', title='Tabs', selector='.tabs', states=[('home', '0.1a'), ('a document open', '6a')]),
+    dict(id='1.1', page='1', title='Toolbar', selector='[data-region="P2"]', states=[('Focused', '1f'), ('Everything', '1g'), ('closer', '1h')]),
+    dict(id='1.2', page='1', title='Island with counts', selector='[data-island="apps-agora.local"], [data-island-head="apps-agora.local"]',
+         states=[('active, selected', '1f'),
+                 ('principal, messages waiting', '1f', '[data-island="hnr-principal"], [data-island-head="hnr-principal"]'),
+                 ('the planar portal', '1g', '[data-island="ki-portal"], [data-island-head="ki-portal"]'),
+                 ('quiet', '1g', '[data-island="tools-ki"], [data-island-head="tools-ki"]'),
+                 ('closer, counts in words', '1h', '[data-island="5g-emerge"], [data-island-head="5g-emerge"]')]),
+    dict(id='1.3', page='1', title='Island detail in the right tray', selector='[data-region="P4"]',
+         states=[('an island', '1f'), ('the planar portal', '1g'), ('needs a look', '1h'), ('nothing selected', '1f-none')]),
     dict(id='0.2.1', page='0.2', title='Summary lines', selector='[data-region="T1"]', states=[('all well', '0.2a'), ('one problem', '0.2b'), ('a Mac missing', '0.2c')]),
     dict(id='0.2.2', page='0.2', title='Exception row', selector='[data-region="T2"]', states=[('a checkout', '0.2b'), ('a Mac', '0.2c')]),
     dict(id='0.2.3', page='0.2', title='Speak to everyone', selector='[data-region="T3"]', states=[('Away…', '0.2a'), ("I'm back", '0.2c')]),
@@ -198,10 +222,15 @@ def main():
         f.write(M.page('Home', M.shell_blank('Not in the Agora'), mark_shell=True, portal='away'))
     shots.append(dict(shot='away', html=os.path.abspath(away), width=1440, hidden=True))
     # The preferred home in light, for comparison.
-    light = os.path.join(MOCKS, '1a-light.html')
+    light = os.path.join(MOCKS, '1f-light.html')
     with open(light, 'w', encoding='utf-8') as f:
-        f.write(M.page('Home', M.home_map(), theme='light'))
-    shots.append(dict(shot='1a-light', html=os.path.abspath(light), width=1440, hidden=True))
+        f.write(M.page('Home', M.home_working(focused=True, selected='apps-agora.local'), theme='light'))
+    shots.append(dict(shot='1f-light', html=os.path.abspath(light), width=1440, hidden=True))
+    # The working map with nothing selected: the tray shows at a glance and the key (a component state only).
+    tray = os.path.join(MOCKS, '1f-none.html')
+    with open(tray, 'w', encoding='utf-8') as f:
+        f.write(M.page('Home', M.home_working(focused=True, selected=None)))
+    shots.append(dict(shot='1f-none', html=os.path.abspath(tray), width=1440, hidden=True))
     components = [dict(id=c['id'], selector=c['selector'], states=c['states']) for c in COMPONENTS]
     plan = dict(pages=PAGES, artboards=[{k: v for k, v in ab.items() if k != 'make'} for ab in ARTBOARDS],
                 components=components, shots=shots)

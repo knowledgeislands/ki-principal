@@ -47,7 +47,7 @@ def R(code, label):
 # ---------------------------------------------------------------- the shell
 NAV = [
     ('Home', 'home', ''),
-    ("Who's doing what", 'here', '10'),
+    ("Who's doing what", 'here', '12'),
     ("What's being said", 'said', ''),
     ('Broadcasts', 'broadcast', ''),
     ('Waits on you', 'waits', '34'),
@@ -127,7 +127,7 @@ def waits_cell(a):
 
 def roster_rows(selected='ki.prj.agora', compact=False):
     out = []
-    for mac, note in (('sol', 'this Mac · present · 4 agents'), ('terra', 'present · heard 04:20 · 6 agents')):
+    for mac, note in (('sol', 'this Mac · present · 5 agents'), ('terra', 'present · heard 04:20 · 7 agents')):
         out.append(f'<tr class="group"><td colspan="{4 if compact else 5}">{mark("stone")}{mac} <span class="muted">· {note}</span></td></tr>')
         for a in AGENTS:
             if a['mac'] != mac:
@@ -229,7 +229,7 @@ def island_svg(width=900, height=330, unheard=False):
 # ---------------------------------------------------------------- views
 def home_a():
     tools = '<span class="btn">Who looks after…</span>'
-    return f'''{head("P1", "Home", "10 agents on 2 Macs · 2 need a look · 34 queries wait on you", tools)}
+    return f'''{head("P1", "Home", "12 agents on 2 Macs · 2 need a look · 34 queries wait on you", tools)}
 <div class="grid" style="grid-template-columns: 1fr 360px;">
   <section class="panel" {R("P2", "The two squares")}><header><h2>Here now</h2><span class="muted">each Mac's square, its agents, and the portal between them</span></header><div class="body">{island_svg()}
   <p class="foot" style="margin:4px 0 0">Solid stone: listening. Hollow: reads on open. Slashed: silent. The table under Who's doing what is the same picture as text.</p></div></section>
@@ -240,7 +240,7 @@ def home_a():
 
 def home_b():
     stats = ''.join(f'<div class="panel stat"><span class="v">{v}</span><span class="k">{k}</span></div>' for v, k in
-                    (('10', 'agents on 2 Macs'), ('7', 'listening, 2 silent'), ('2', 'need a look'), ('34', 'queries wait on you')))
+                    (('12', 'agents on 2 Macs'), ('9', 'listening, 2 silent'), ('2', 'need a look'), ('34', 'queries wait on you')))
     return f'''{head("P1", "Home", "Friday 6 November, 04:20")}
 <div class="grid" style="grid-template-columns: repeat(4, 1fr);" {R("P2", "Summary figures")}>{stats}</div>
 {attention_panel("P3")}
@@ -249,17 +249,17 @@ def home_b():
 
 def home_c():
     side = ''.join(f'<li>{mark("slashed" if a["listen"] == "silent" else "hollow" if a["listen"] == "open" else "stone")}<span class="id">{a["id"]}</span> <span class="muted">· {a["mac"]}</span></li>' for a in AGENTS)
-    return f'''{head("P1", "Home", "10 agents on 2 Macs · All words since 03:30")}
+    return f'''{head("P1", "Home", "12 agents on 2 Macs · All words since 03:30")}
 <div class="grid" style="grid-template-columns: 1fr 340px;">
   {said_table("P2", "What's being said", title="What's being said")}
-  <section class="panel" {R("P3", "Who is here")}><header><h2>Who is here</h2><span class="muted">10</span></header><ul class="plain body">{side}</ul></section>
+  <section class="panel" {R("P3", "Who is here")}><header><h2>Who is here</h2><span class="muted">12</span></header><ul class="plain body">{side}</ul></section>
 </div>'''
 
 
 def here_a():
     tools = '<span class="seg"><span class="on">Both Macs</span><span>sol</span><span>terra</span></span><span class="find">Who looks after <b>a focus, such as identity</b></span>'
     a = AGENTS[0]
-    return f'''{head("P1", "Who's doing what", "10 agents on 2 Macs · 7 listening · 1 on open · 2 silent", tools)}
+    return f'''{head("P1", "Who's doing what", "12 agents on 2 Macs · 9 listening · 1 on open · 2 silent", tools)}
 {roster_table("P2", "Agents by Mac")}
 <section class="panel" {R("P3", "Selected agent")}><div class="body grid" style="grid-template-columns: 1.2fr 1fr 1fr;">
 <div><b class="id">ki.prj.agora</b> · KI › Techne › Agora<span class="sub">On sol, in ki-principal. Builds and runs Agora.</span>
@@ -284,7 +284,7 @@ def here_b():
         sel = ' class="sel"' if f == 'identity' else ''
         rows.append(f'<tr{sel}><td><b>{f}</b></td><td>{lead}</td><td>{len(owners)}</td><td>{listening}</td></tr>')
     tools = '<span class="find">Who looks after <b>identity</b></span>'
-    return f'''{head("P1", "Who's doing what", "By focus: the address book · 19 focus areas across 10 agents", tools)}
+    return f'''{head("P1", "Who's doing what", "By focus: the address book · 20 focus areas across 12 agents", tools)}
 <section class="panel" {R("P2", "Focus areas and their agents")}><table><thead><tr><th>Focus</th><th>Looked after by (★ primary)</th><th>Agents</th><th>Listening</th></tr></thead><tbody>{''.join(rows)}</tbody></table></section>
 <p class="foot" {R("P3", "Routing note")}>An idea about a focus goes to the agent whose focus covers it; where two share one, the agent with it as primary (★) is asked first.</p>'''
 
@@ -326,8 +326,8 @@ def said_b():
 
 def broadcasts_a():
     rows = [
-        ('04:19', 'Away until 08:00', 'away', '9 of 10', 'hnr.prj.site-robots'),
-        ('04:05', 'Ping', 'ping', '8 of 10', 'hnr.sop.main, hnr.prj.site-robots'),
+        ('04:19', 'Away until 08:00', 'away', '11 of 12', 'hnr.prj.site-robots'),
+        ('04:05', 'Ping', 'ping', '10 of 12', 'hnr.sop.main, hnr.prj.site-robots'),
         ('03:26', 'Away until 08:00 (ki.sop.main)', 'away', '1 of 1', ''),
         ('01:45', 'Mark and summarise', 'mark', '7 of 9', 'hnr.sop.main, hnr.prj.5g-emerge-phase3'),
     ]
@@ -336,7 +336,7 @@ def broadcasts_a():
     return f'''{head("P1", "Broadcasts", "Sent from this Mac and received from terra · today", '<span class="btn">Broadcast…</span><span class="btn">Ping</span><span class="btn">Mark all</span>')}
 <div class="grid" style="grid-template-columns: 1fr 380px;">
 <section class="panel" {R("P2", "Broadcasts sent")}><table><thead><tr><th>Sent</th><th>What</th><th>Kind</th><th>Heard</th><th>Silent</th></tr></thead><tbody>{trs}</tbody></table></section>
-<section class="panel" {R("P3", "Who heard the ping")}><header><h2>Ping at 04:05</h2><span class="muted">8 answered, 2 silent</span></header><ul class="plain body">{ans}</ul><div class="body"><span class="btn">Ping the 2 silent again</span></div></section>
+<section class="panel" {R("P3", "Who heard the ping")}><header><h2>Ping at 04:05</h2><span class="muted">10 answered, 2 silent</span></header><ul class="plain body">{ans}</ul><div class="body"><span class="btn">Ping the 2 silent again</span></div></section>
 </div>'''
 
 
@@ -366,8 +366,8 @@ def macs_a(unheard=False):
     def mac_panel(code, name, rows):
         trs = ''.join(f'<tr><td class="muted">{k}</td><td>{v}</td></tr>' for k, v in rows)
         return f'<section class="panel" {R(code, name)}><header><h2>{name}</h2></header><table><tbody>{trs}</tbody></table></section>'
-    sol = mac_panel('P3', 'sol, this Mac', [('Presence', f'{mark("stone")}present'), ('Listens on', '<span class="mono">100.64.0.1:1676</span>'), ('Agora', '0.9.0 · up since 2026-11-05 22:40'), ('Agents', '4, all listening'), ('Checkouts', '64 level, 1 ahead'), ('Last review', '2026-11-06 04:20')])
-    terra = mac_panel('P5', 'terra', [('Presence', f'{mark("stone")}present · heard 04:20'), ('Listens on', '<span class="mono">100.64.0.2:1676</span>'), ('Agora', '0.9.0 · up since 2026-11-06 03:20'), ('Agents', '6 · 2 silent'), ('Checkouts', '58 level, 1 diverged'), ('Last review', '2026-11-06 04:18')])
+    sol = mac_panel('P3', 'sol, this Mac', [('Presence', f'{mark("stone")}present'), ('Listens on', '<span class="mono">100.64.0.1:1676</span>'), ('Agora', '0.9.0 · up since 2026-11-05 22:40'), ('Agents', '5, all listening'), ('Checkouts', '64 level, 1 ahead'), ('Last review', '2026-11-06 04:20')])
+    terra = mac_panel('P5', 'terra', [('Presence', f'{mark("stone")}present · heard 04:20'), ('Listens on', '<span class="mono">100.64.0.2:1676</span>'), ('Agora', '0.9.0 · up since 2026-11-06 03:20'), ('Agents', '7 · 2 silent'), ('Checkouts', '58 level, 1 diverged'), ('Last review', '2026-11-06 04:18')])
     portal = f'''<section class="panel" {R("P4", "The portal")}><header><h2>The portal</h2><span class="teal">open</span></header><table><tbody>
 <tr><td class="muted">Network</td><td>Tailscale, Kris's own</td></tr><tr><td class="muted">Last heard</td><td>04:20 · 18 ms</td></tr>
 <tr><td class="muted">This hour</td><td>14 calls · 2 broadcasts · 6 pushes signalled</td></tr><tr><td class="muted">Queued</td><td>Nothing</td></tr>
@@ -399,7 +399,7 @@ def glance_panel(code='P3'):
     key = ''.join(f'<li><svg viewBox="0 0 18 18">{svg}</svg>{escape(words)}</li>' for svg, words in MV.KEY)
     return f'''<aside class="grid" style="align-content:start; gap:12px" {R(code, "At a glance")}>
 <section class="panel"><header><h2>At a glance</h2></header><ul class="plain body">
-<li><b>10 agents</b> <span class="muted">· sol 4 · terra 6 · 2 doers</span></li>
+<li><b>12 agents</b> <span class="muted">· sol 5 · terra 7 · 2 doers</span></li>
 <li class="warn">{mark("diamond")}<b>2 need a look</b><span class="sub">hnr-principal diverged on terra · hnr.prj.site-robots silent</span></li>
 <li><b>34 queries</b> wait on you <span class="muted">· oldest 2026-11-03</span></li>
 <li><span class="teal">The planar portal is open</span><span class="sub">terra heard 04:20 · 14 calls this hour</span></li></ul></section>
@@ -409,9 +409,9 @@ def glance_panel(code='P3'):
 
 def home_map(plane='both'):
     seg = ''.join(f'<span{" class=on" if plane == k else ""}>{v}</span>' for k, v in (('sol', 'sol'), ('terra', 'terra'), ('both', 'Both planes')))
-    summary = {'both': '3 territories · 12 islands · 10 agents on 2 rigs · 2 need a look',
-               'sol': "sol's plane · 4 agents and 2 doers at work · terra's 6 dimmed",
-               'terra': "terra's plane · 6 agents at work, 2 silent · sol's 4 dimmed"}[plane]
+    summary = {'both': '3 territories · 13 islands · 12 agents on 2 rigs · 2 need a look',
+               'sol': "sol's plane · 5 agents and 2 doers at work · terra's 7 dimmed",
+               'terra': "terra's plane · 7 agents at work, 2 silent · sol's 5 dimmed"}[plane]
     return f'''{head("P1", "Home", summary, f'<span class="seg" title="Each rig is a plane over the same islands">{seg}</span><span class="btn">Who looks after…</span>')}
 <div class="mapwrap"><section class="map" {R("P2", "The map")}>{MV.territory_map(plane=plane)}</section>{glance_panel()}</div>'''
 
@@ -426,12 +426,12 @@ def home_council():
                 f'<div style="border-left:2px solid var(--gold); margin:4px 0 0 14px; padding:4px 0 0 12px"><ul class="plain">{rows}</ul></div></div></section>')
     ki = col('P2', 'Knowledge Islands', 'ki.sop.main', 'themes', 'sol', 'call', [('ki.prj.agora', 'send', 'sol', 'call'), ('Claude Design (doer)', 'identity', 'sol', 'open'), ('ChatGPT (doer)', 'identity', 'sol', 'open')])
     hnr = col('P3', 'Humans Not Robots', 'hnr.sop.main', 'routing', 'terra', 'silent', [('hnr.prj.5g-emerge-phase3', 'delivery', 'terra', 'open'), ('hnr.prj.5g-emerge-p2ms3', 'delivery', 'terra', 'call'), ('hnr.prj.site-robots', 'site', 'terra', 'silent')])
-    per = col('P4', 'Personal', 'personal.reg.inbox-sol', 'method', 'sol', 'call', [('personal.reg.inbox-terra', 'method', 'terra', 'call'), ('personal.reg.household-sol', 'rig', 'sol', 'poll'), ('personal.reg.household-terra', 'rig', 'terra', 'call')])
+    per = col('P4', 'Personal', 'personal.reg.inbox-sol', 'method', 'sol', 'call', [('personal.reg.inbox-terra', 'method', 'terra', 'call'), ('personal.reg.household-sol', 'rig', 'sol', 'poll'), ('personal.reg.household-terra', 'rig', 'terra', 'call'), ('personal.reg.watchman-sol', 'portal', 'sol', 'call'), ('personal.reg.watchman-terra', 'portal', 'terra', 'call')])
     portal = (f'<section class="panel" {R("P5", "The planar portal")} style="border-color:var(--gold)"><div class="body" style="display:flex; gap:16px; align-items:center">'
-              f'<span class="teal">{glyph("portal")}</span><b>The planar portal</b><span class="muted">in the households, on the dotfiles island · sol ⇄ terra · open · heard 04:20 · 14 calls, 2 broadcasts this hour</span></div></section>')
-    return f'''{head("P1", "Home", "The councils and who talks to them · 10 agents on 2 Macs")}
+              f'<span class="teal">{glyph("portal")}</span><b>The planar portal</b><span class="muted">on its own island, ki-portal, kept by the watchman · sol ⇄ terra · open · heard 04:20 · 14 calls, 2 broadcasts this hour</span></div></section>')
+    return f'''{head("P1", "Home", "The councils and who talks to them · 12 agents on 2 Macs")}
 <div class="grid" style="grid-template-columns: repeat(3, 1fr);">{ki}{hnr}{per}</div>{portal}
-<p class="foot">Work packages talk up to their territory's council; the councils talk to each other on each Mac; the planar portal joins the planes, sol and terra; the Macs.</p>'''
+<p class="foot">Work packages talk up to their territory's council; the councils talk to each other on each Mac, through the principal portals; the planar portal, on ki-portal, joins the planes, sol and terra.</p>'''
 
 
 def doc_tab():
@@ -453,3 +453,108 @@ def doc_tab():
     content = f'''{head("P1", "ki.prj.agora · messages.md", "A document open in a tab, beside the map")}
 <div class="grid" style="grid-template-columns: 1fr 300px;">{body}{side}</div>'''
     return page("What's being said", content, tabs=tabs)
+
+
+# ---------------------------------------------------------------- the working map: the preferred home (1f, 1g, 1h)
+def map_toolbar(focused=True, plane='both', zoom=None, code='P2'):
+    """Above the map: the filter, the plane, the zoom, and the list."""
+    show = ''.join(f'<span{" class=on" if on else ""}>{w}</span>' for w, on in (('Focused', focused), ('Everything', not focused)))
+    planes = ''.join(f'<span{" class=on" if plane == k else ""}>{v}</span>' for k, v in (('sol', 'sol'), ('terra', 'terra'), ('both', 'Both planes')))
+    level = '155%' if zoom else '100%'
+    return (f'<div class="mapbar" {R(code, "Toolbar")}>'
+            f'<span class="lbl">Show</span><span class="seg" title="Focused shows only active islands and what touches them">{show}</span>'
+            f'<span class="lbl">Plane</span><span class="seg" title="Each rig is a plane over the same islands">{planes}</span>'
+            f'<span class="lbl">Zoom</span><span class="zoomset"><span class="btn icon" aria-label="Zoom out">−</span><span class="mono lvl">{level}</span>'
+            f'<span class="btn icon" aria-label="Zoom in">+</span><span class="btn">Fit</span></span>'
+            f'<span class="sp"></span><span class="btn">Show as a list</span></div>')
+
+
+def key_strip(code='P5'):
+    items = ''.join(f'<span><svg viewBox="0 0 18 18" aria-hidden="true">{svg}</svg>{escape(w)}</span>' for svg, w in MV.STRIP)
+    return f'<div class="strip" {R(code, "Key")}>{items}</div>'
+
+
+# What the right tray shows for a selected island. Placeholders until the live roster and /v1/state supply them.
+ISLAND_DETAIL = {
+    'apps-agora.local': dict(
+        terr='Knowledge Islands', repo='knowledgeislands/apps-agora.local',
+        facts=[('Island portal', 'lit · 1 listening · up to ki-principal'),
+               ('Checkouts', 'sol level · terra level')],
+        workers=[('stone', 'ki.prj.agora', 'enabler · sol', 'answered 04:12'), ('doer', 'Claude Design', 'doer · sol', 'on open'),
+                 ('doer', 'ChatGPT', 'doer · sol', 'on open')],
+        queued=[('Run-once jobs', 'ki.prj.agora · since 11-05'), ('Floating doers', 'ki.prj.agora · since 11-05'),
+                ('Home as a working map', 'Claude Design · since 04:16'), ('Menu-bar ring', 'Claude Design · since 04:01')],
+        waiting=[('DESIGN-4', 'Claude Design · 04:19 · the design pack is ready'), ('MARK-ROLLOUT', 'inbox-terra · 04:08 · terra has the new Agora')],
+        waits=('10 queries wait on you', 'AGORA-COUNT-PLACE, MARK-WORDS and 8 more'),
+        actions=[('brass', 'Open its 10 queries'), ('', 'Open messages.md')]),
+    'ki-portal': dict(
+        terr='Personal', repo='krisb/ki-portal', note='Holds the planar portal, which joins the planes, sol and terra.',
+        facts=[('Planar portal', '<span class="teal">open</span> · sol ⇄ terra'), ('Last heard', 'terra 04:20 · 18 ms'),
+               ('This hour', '14 calls · 2 broadcasts'), ('Queued for terra', 'Nothing'), ('Talks up to', 'principal portal, inbox')],
+        workers=[('stone', 'personal.reg.watchman-sol', 'enabler · sol', 'answered 04:10'),
+                 ('stone', 'personal.reg.watchman-terra', 'enabler · terra', 'answered 04:09')],
+        queued=[],
+        waiting=[('PORTAL-ISLAND', 'ki.prj.agora · 04:15 · the planar portal moves here')],
+        waits=None,
+        actions=[('', 'Ask after terra now'), ('', 'Open Macs and the portal')]),
+    'hnr-principal': dict(
+        terr='Humans Not Robots', repo='hnr/hnr-principal', note='The principal island: its portal is the principal portal.',
+        attention='Diverged on terra: ahead 1, behind 2 · hnr.sop.main silent since 02:10',
+        facts=[('Principal portal', 'lit · its council silent'), ('Checkouts', 'sol level · <span class="bad">terra diverged</span>'),
+               ('Talks across to', 'ki-principal, inbox')],
+        workers=[('slashed', 'hnr.sop.main', 'council · terra', '2 calls unanswered')],
+        queued=[('Site domain move', 'hnr.sop.main · since 11-04'), ('P2MS3 dates', 'hnr.sop.main · since 11-05')],
+        waiting=[('AWAY-UNTIL-0800', 'ki.prj.agora · 03:31'), ('HEALTH', 'Agora on terra · 03:50'),
+                 ('DIVERGED', 'Agora on sol · 04:12'), ('ROUTE-5G', 'ki.sop.main · 04:02')],
+        waits=('2 queries wait on you', 'SITE-DOMAIN, P2MS3-DATES'),
+        actions=[('brass', 'Open its 2 queries'), ('', 'Call hnr.sop.main again')]),
+}
+
+
+def island_detail(name, code='P4'):
+    d = ISLAND_DETAIL[name]
+    q, m = MV.COUNTS[name]
+    glyphs = {'stone': mark('stone'), 'slashed': mark('slashed'),
+              'doer': '<svg class="g" viewBox="0 0 12 12"><rect x="2.2" y="2.2" width="7.6" height="7.6" rx="1" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>'}
+    facts = ''.join(f'<tr><td class="muted">{k}</td><td>{v}</td></tr>' for k, v in d['facts'])
+    workers = ''.join(f'<tr{" class=bad" if g == "slashed" else ""}><td>{glyphs[g]}<span class="id">{escape(w)}</span><span class="sub">{r} · {h}</span></td></tr>' for g, w, r, h in d['workers'])
+    def more(rows, n=2):
+        return f'<tr><td class="muted">and {len(rows) - n} more</td></tr>' if len(rows) > n else ''
+    queued = (''.join(f'<tr><td>{escape(t)}<span class="sub">{escape(s)}</span></td></tr>' for t, s in d['queued'][:2]) + more(d['queued'])) or '<tr><td class="muted">Nothing queued</td></tr>'
+    waiting = (''.join(f'<tr><td><span class="mono">{escape(t)}</span><span class="sub">{escape(s)}</span></td></tr>' for t, s in d['waiting'][:2]) + more(d['waiting'])) or '<tr><td class="muted">Nothing waiting</td></tr>'
+    attn = f'<p class="warn attn">{mark("diamond")}<b>Needs a look</b><span class="sub">{escape(d["attention"])}</span></p>' if d.get('attention') else ''
+    note = f'<p class="sub tnote">{escape(d["note"])}</p>' if d.get('note') else ''
+    waits = (f'<tr class="group"><td>Waits on you</td></tr><tr><td><b>{d["waits"][0]}</b><span class="sub">{d["waits"][1]}</span></td></tr>'
+             if d['waits'] else '<tr class="group"><td>Waits on you</td></tr><tr><td class="muted">Nothing</td></tr>')
+    acts = ''.join(f'<span class="btn{" brass" if c else ""}">{t}</span>' for c, t in d['actions'])
+    return f'''<aside class="panel itray" {R(code, "Island detail")}>
+<header><h2><span class="id">{name}</span></h2><span class="x" aria-label="Close">×</span></header>
+<div class="tbody"><p class="sub tsub">Island in {d["terr"]}<br><span class="mono nowrap">{d["repo"]}</span></p>{note}{attn}
+<table class="kv"><tbody>{facts}</tbody></table>
+<table><tbody><tr class="group"><td>Working here <span class="muted">· {len(d["workers"])}</span></td></tr>{workers}
+<tr class="group"><td>Queued work <span class="muted">· {q}</span></td></tr>{queued}
+<tr class="group"><td>Waiting messages <span class="muted">· {m}</span></td></tr>{waiting}
+{waits}</tbody></table></div>
+<div class="tacts">{acts}</div></aside>'''
+
+
+def map_hint(zoom=None, code='P6'):
+    if zoom:
+        return (f'<div class="mapover" {R(code, "Overview and pan")}><div class="ovtitle">Overview <span class="muted">· drag the frame to pan</span></div>'
+                f'{MV.overview(zoom)}</div>')
+    return f'<div class="maphint" {R(code, "Pan and zoom")}>Drag to pan · pinch or scroll to zoom · click an island for its detail</div>'
+
+
+def home_working(focused=True, plane='both', selected='apps-agora.local', zoom=None):
+    active = MV.active_islands(plane)
+    if zoom:
+        summary = 'Closer on Humans Not Robots · 155% · 3 islands, all active · 1 silent, 1 diverged'
+    elif focused:
+        summary = f'Focused · {len(active)} of {len(MV.ISLANDS)} islands active · 2 need a look · 34 queries wait on you'
+    else:
+        summary = f'Everything · {len(MV.ISLANDS)} islands in 3 territories, {len(active)} active · 2 need a look · 34 queries wait on you'
+    tray = island_detail(selected) if selected else glance_panel('P4')
+    return f'''{head("P1", "Home", summary)}
+<div class="stage"><section class="mapcol">{map_toolbar(focused, plane, zoom)}
+<div class="mapcanvas" {R("P3", "The map")}>{MV.working_map(plane=plane, focused=focused, selected=selected, zoom=zoom)}{map_hint(zoom)}</div>
+{key_strip()}</section>{tray}</div>'''

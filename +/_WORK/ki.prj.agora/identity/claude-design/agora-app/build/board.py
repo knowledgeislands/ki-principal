@@ -112,13 +112,13 @@ def page_html(pg, abs_, comps, regions, pages):
         for c in comps:
             states = ''.join(
                 f'<figure><img src="shots/components/{c["id"]}-{re.sub(r"[^a-z0-9]+", "-", state, flags=re.I).lower()}.png" alt="{escape(c["title"] + ", " + state)}"><figcaption>{escape(state)}</figcaption></figure>'
-                for state, _ in c['states'])
+                for state, *_ in c['states'])
             items.append(f'<div class="comp" id="{c["id"]}"><h4>{c["id"]} · {escape(c["title"])}</h4><div class="states">{states}</div></div>')
         comp_html = f'<h2>Components</h2><div class="comps">{"".join(items)}</div>'
     if light := (pg['id'] == '1'):
-        shot = regions['1a-light']
-        figs.append(f'''<figure class="ab" id="1a-light"><header><h3>1a, in light</h3><span class="stamp">the same artboard; night is the reference rendering</span></header>
-<div class="frame" style="width:{shot["size"]["w"]}px"><img src="shots/1a-light.png" alt="1a in light" width="{shot["size"]["w"]}" height="{shot["size"]["h"]}"></div></figure>''')
+        shot = regions['1f-light']
+        figs.append(f'''<figure class="ab" id="1f-light"><header><h3>1f, in light</h3><span class="stamp">the same artboard; night is the reference rendering</span></header>
+<div class="frame" style="width:{shot["size"]["w"]}px"><img src="shots/1f-light.png" alt="1f in light" width="{shot["size"]["w"]}" height="{shot["size"]["h"]}"></div></figure>''')
     zones = sorted({z for ab in abs_ for z in ab['zones']})
     zone_words = {'navigation': 'N, navigation (teal)', 'tray': 'T, the tray (blue)', 'page': 'P, page content (brass)'}
     return f'''<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -151,13 +151,13 @@ def main():
         board['pages'].append(dict(id=pg['id'], title=pg['title'], artboards=[
             dict(id=ab['id'], title=ab['title'], image=f'shots/{ab["id"]}.png', size=regions[ab['id']]['size'],
                  preferred=bool(ab.get('preferred')), regions=coded(ab, regions[ab['id']], ab['zones'])) for ab in abs_],
-            components=[dict(id=c['id'], title=c['title'], states=[s for s, _ in c['states']]) for c in comps]))
+            components=[dict(id=c['id'], title=c['title'], states=[s for s, *_ in c["states"]]) for c in comps]))
         alts = ', '.join(f'<a href="{pg["id"]}.html#{ab["id"]}">{ab["id"]}</a>{" ★" if ab.get("preferred") else ""} {escape(ab["title"])}' for ab in abs_)
         rows.append(f'<tr><td><a href="{pg["id"]}.html">{pg["id"]}</a></td><td>{escape(pg["title"])}</td><td>{alts}</td><td>{len(comps) or ""}</td></tr>')
         for ab in abs_:
             md_rows.append(f'| [{ab["id"]}]({pg["id"]}.html#{ab["id"]}) | {pg["title"]} | {ab["title"]} | {"preferred" if ab.get("preferred") else "alternative" if "gains" in ab else "state"} | [shot](shots/{ab["id"]}.png) |')
         for c in comps:
-            md_rows.append(f'| [{c["id"]}]({pg["id"]}.html#{c["id"]}) | {pg["title"]}, components | {c["title"]}: {", ".join(s for s, _ in c["states"])} | component | [shots](shots/components/) |')
+            md_rows.append(f'| [{c["id"]}]({pg["id"]}.html#{c["id"]}) | {pg["title"]}, components | {c["title"]}: {", ".join(s for s, *_ in c["states"])} | component | [shots](shots/components/) |')
     with open(os.path.join(ROOT, 'board.json'), 'w', encoding='utf-8') as f:
         json.dump(board, f, indent=2, ensure_ascii=False)
     index = f'''<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -177,7 +177,8 @@ def main():
 
 COMPONENT_TITLES = [
     dict(id='0.1.1', title='Brand'), dict(id='0.1.2', title='Views'), dict(id='0.1.3', title='Speak to everyone'),
-    dict(id='0.1.4', title='The portal'), dict(id='0.1.5', title='Tabs'), dict(id='0.2.1', title='Summary lines'), dict(id='0.2.2', title='Exception row'),
+    dict(id='0.1.4', title='The portal'), dict(id='0.1.5', title='Tabs'),
+    dict(id='1.1', title='Toolbar'), dict(id='1.2', title='Island with counts'), dict(id='1.3', title='Island detail in the right tray'), dict(id='0.2.1', title='Summary lines'), dict(id='0.2.2', title='Exception row'),
     dict(id='0.2.3', title='Speak to everyone'),
 ]
 

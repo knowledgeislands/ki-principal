@@ -38,17 +38,20 @@
       "zones": [
         "page"
       ],
-      "note": "One view that fits the window with no scrolling (MSG-62774774, Kris's vision): the territories and their islands, the work packages and workers placed where they work, the primary focus of each, the meeting point on each island (its island portal), the threads of talk up to each territory's principal portal and across, and the planar portal between the Macs. It matters because it is the page the app opens on, and it should show the whole distributed Agora as one place.",
+      "note": "One view that fits the window with no scrolling (MSG-62774774, Kris's vision): the territories and their islands, the work packages and workers placed where they work, the primary focus of each, the island portal on each island, the threads of talk up to each territory's principal portal and across, and the planar portal, on its own island ki-portal, between the planes. The preferred home (1f) makes it a working map: active islands stand out, Focused hides the quiet ones, each island carries its queued work and waiting messages, and clicking an island shows its detail in the right tray. It matters because it is the page the app opens on, and it should show the whole distributed Agora as one place where Kris can see where work is and pick it up.",
       "fields": [
+        "Toolbar: Focused or Everything; the plane (sol, terra or both); zoom out, the level, zoom in, Fit; Show as a list",
         "Territories, each a faint boundary with its name",
-        "Islands (repositories), drawn as hexes",
-        "Island portal on each island: on (lit) or off; the principal portal larger on each principal island",
+        "Islands (repositories), drawn as hexes: active as land, quiet as outlines",
+        "On each island: its name, queued work (a stack) and waiting messages (an envelope), each a small count; zero left out",
+        "Island portal on each island: lit when someone there listens; the principal portal larger on each principal island",
+        "The planar portal on ki-portal in Personal, ringed in gold, kept by the watchman; sol and terra, open or not",
         "Workers by role: council, enabler, doer; each with its primary focus and rig",
-        "Planes: sol, terra or both, since each rig is a plane over the same islands",
         "Listening by shape: solid listening, hollow on open, slashed silent",
-        "Threads of talk: island portals up to the principal portal, principal portals across",
-        "The planar portal on the dotfiles island: sol and terra, open or not",
-        "At a glance: agents by host, what needs a look, what waits on Kris, the portal; the key; Show as a list"
+        "Threads of talk: island portals up to the principal portal, principal portals across, the planar portal out to the other plane",
+        "Right tray, an island selected: where it is, its portal, checkouts, who works there, queued work, waiting messages, what waits on Kris",
+        "Right tray, nothing selected: at a glance and the key",
+        "Zoomed: labels stay at reading size and add when each worker last answered; an overview shows where the view sits"
       ]
     },
     {
@@ -224,16 +227,42 @@
       ]
     },
     {
+      "id": "1f",
+      "page": "1",
+      "title": "The working map: Focused, an island selected",
+      "zones": [
+        "page"
+      ],
+      "preferred": true,
+      "why": "It keeps the picture Kris described and makes it the place to act from: Focused shows only where work is, each island says how much is queued and waiting, and one click opens an island in the tray without leaving the map. It fits one window.",
+      "gains": "Active islands read at once; counts show where work piles up before a worker says so; the tray holds the detail, so the map keeps few words; the toolbar puts filter, plane, zoom and the list in one place.",
+      "costs": "Focused hides quiet islands, so a forgotten repository with queued work is only a line in the corner; the tray takes 304 points from the map; counts are two more marks per island to learn."
+    },
+    {
+      "id": "1g",
+      "page": "1",
+      "title": "The working map: Everything, the planar portal selected",
+      "zones": [
+        "page"
+      ]
+    },
+    {
+      "id": "1h",
+      "page": "1",
+      "title": "The working map: closer on Humans Not Robots",
+      "zones": [
+        "page"
+      ]
+    },
+    {
       "id": "1a",
       "page": "1",
       "title": "The map of territories",
       "zones": [
         "page"
       ],
-      "preferred": true,
-      "why": "It is the picture Kris described: islands and territories, workers placed where they work, island and principal portals joined by threads, the planar portal; it fits one window, and the key and Show as a list give its text equivalent.",
-      "gains": "The whole distributed Agora in one look; the hierarchy of talk is visible; hosts read as crews on the same islands.",
-      "costs": "Placing islands needs a layout rule (the Territory Map's, ideally); labels crowd on a busy island; silent workers are small."
+      "gains": "The whole distributed Agora in one look, with the key always beside it; nothing is hidden, so nothing is missed.",
+      "costs": "Every island weighs the same, active or quiet; no counts, so where work waits needs another page; no selection or zoom, so a busy island's labels crowd and its detail is a page away. Was preferred until 1f."
     },
     {
       "id": "1d",
@@ -474,6 +503,76 @@
       ]
     },
     {
+      "id": "1.1",
+      "selector": "[data-region=\"P2\"]",
+      "states": [
+        [
+          "Focused",
+          "1f"
+        ],
+        [
+          "Everything",
+          "1g"
+        ],
+        [
+          "closer",
+          "1h"
+        ]
+      ]
+    },
+    {
+      "id": "1.2",
+      "selector": "[data-island=\"apps-agora.local\"], [data-island-head=\"apps-agora.local\"]",
+      "states": [
+        [
+          "active, selected",
+          "1f"
+        ],
+        [
+          "principal, messages waiting",
+          "1f",
+          "[data-island=\"hnr-principal\"], [data-island-head=\"hnr-principal\"]"
+        ],
+        [
+          "the planar portal",
+          "1g",
+          "[data-island=\"ki-portal\"], [data-island-head=\"ki-portal\"]"
+        ],
+        [
+          "quiet",
+          "1g",
+          "[data-island=\"tools-ki\"], [data-island-head=\"tools-ki\"]"
+        ],
+        [
+          "closer, counts in words",
+          "1h",
+          "[data-island=\"5g-emerge\"], [data-island-head=\"5g-emerge\"]"
+        ]
+      ]
+    },
+    {
+      "id": "1.3",
+      "selector": "[data-region=\"P4\"]",
+      "states": [
+        [
+          "an island",
+          "1f"
+        ],
+        [
+          "the planar portal",
+          "1g"
+        ],
+        [
+          "needs a look",
+          "1h"
+        ],
+        [
+          "nothing selected",
+          "1f-none"
+        ]
+      ]
+    },
+    {
       "id": "0.2.1",
       "selector": "[data-region=\"T1\"]",
       "states": [
@@ -550,6 +649,21 @@
       "shot": "0.2c",
       "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/0.2c.html",
       "width": 760
+    },
+    {
+      "shot": "1f",
+      "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/1f.html",
+      "width": 1440
+    },
+    {
+      "shot": "1g",
+      "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/1g.html",
+      "width": 1440
+    },
+    {
+      "shot": "1h",
+      "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/1h.html",
+      "width": 1440
     },
     {
       "shot": "1a",
@@ -638,8 +752,14 @@
       "hidden": true
     },
     {
-      "shot": "1a-light",
-      "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/1a-light.html",
+      "shot": "1f-light",
+      "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/1f-light.html",
+      "width": 1440,
+      "hidden": true
+    },
+    {
+      "shot": "1f-none",
+      "html": "/mnt/attach/outputs/claude-design/agora-app/mocks/1f-none.html",
       "width": 1440,
       "hidden": true
     }

@@ -441,6 +441,186 @@
       "title": "Home",
       "artboards": [
         {
+          "id": "1f",
+          "title": "The working map: Focused, an island selected",
+          "image": "shots/1f.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": true,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 256,
+              "y": 57,
+              "w": 1160,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Toolbar",
+              "x": 257,
+              "y": 103,
+              "w": 838,
+              "h": 46
+            },
+            {
+              "code": "P3",
+              "label": "The map",
+              "x": 257,
+              "y": 149,
+              "w": 838,
+              "h": 663
+            },
+            {
+              "code": "P6",
+              "label": "Pan and zoom",
+              "x": 722,
+              "y": 157,
+              "w": 363,
+              "h": 21
+            },
+            {
+              "code": "P5",
+              "label": "Key",
+              "x": 257,
+              "y": 812,
+              "w": 838,
+              "h": 51
+            },
+            {
+              "code": "P4",
+              "label": "Island detail",
+              "x": 1112,
+              "y": 102,
+              "w": 304,
+              "h": 762
+            }
+          ]
+        },
+        {
+          "id": "1g",
+          "title": "The working map: Everything, the planar portal selected",
+          "image": "shots/1g.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 256,
+              "y": 57,
+              "w": 1160,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Toolbar",
+              "x": 257,
+              "y": 103,
+              "w": 838,
+              "h": 46
+            },
+            {
+              "code": "P3",
+              "label": "The map",
+              "x": 257,
+              "y": 149,
+              "w": 838,
+              "h": 663
+            },
+            {
+              "code": "P6",
+              "label": "Pan and zoom",
+              "x": 722,
+              "y": 157,
+              "w": 363,
+              "h": 21
+            },
+            {
+              "code": "P5",
+              "label": "Key",
+              "x": 257,
+              "y": 812,
+              "w": 838,
+              "h": 51
+            },
+            {
+              "code": "P4",
+              "label": "Island detail",
+              "x": 1112,
+              "y": 102,
+              "w": 304,
+              "h": 762
+            }
+          ]
+        },
+        {
+          "id": "1h",
+          "title": "The working map: closer on Humans Not Robots",
+          "image": "shots/1h.png",
+          "size": {
+            "w": 1440,
+            "h": 900
+          },
+          "preferred": false,
+          "regions": [
+            {
+              "code": "P1",
+              "label": "Page header",
+              "x": 256,
+              "y": 57,
+              "w": 1160,
+              "h": 29
+            },
+            {
+              "code": "P2",
+              "label": "Toolbar",
+              "x": 257,
+              "y": 103,
+              "w": 838,
+              "h": 46
+            },
+            {
+              "code": "P3",
+              "label": "The map",
+              "x": 257,
+              "y": 149,
+              "w": 838,
+              "h": 663
+            },
+            {
+              "code": "P6",
+              "label": "Overview and pan",
+              "x": 893,
+              "y": 632,
+              "w": 192,
+              "h": 170
+            },
+            {
+              "code": "P5",
+              "label": "Key",
+              "x": 257,
+              "y": 812,
+              "w": 838,
+              "h": 51
+            },
+            {
+              "code": "P4",
+              "label": "Island detail",
+              "x": 1112,
+              "y": 102,
+              "w": 304,
+              "h": 762
+            }
+          ]
+        },
+        {
           "id": "1a",
           "title": "The map of territories",
           "image": "shots/1a.png",
@@ -448,7 +628,7 @@
             "w": 1440,
             "h": 900
           },
-          "preferred": true,
+          "preferred": false,
           "regions": [
             {
               "code": "P1",
@@ -464,7 +644,7 @@
               "x": 256,
               "y": 104,
               "w": 876,
-              "h": 729
+              "h": 702
             },
             {
               "code": "P3",
@@ -472,7 +652,7 @@
               "x": 1148,
               "y": 104,
               "w": 268,
-              "h": 729
+              "h": 702
             }
           ]
         },
@@ -500,7 +680,7 @@
               "x": 256,
               "y": 104,
               "w": 876,
-              "h": 729
+              "h": 702
             },
             {
               "code": "P3",
@@ -508,7 +688,7 @@
               "x": 1148,
               "y": 104,
               "w": 268,
-              "h": 729
+              "h": 702
             }
           ]
         },
@@ -536,7 +716,7 @@
               "x": 256,
               "y": 104,
               "w": 876,
-              "h": 729
+              "h": 702
             },
             {
               "code": "P3",
@@ -544,7 +724,7 @@
               "x": 1148,
               "y": 104,
               "w": 268,
-              "h": 729
+              "h": 702
             }
           ]
         },
@@ -572,7 +752,7 @@
               "x": 256,
               "y": 102,
               "w": 376,
-              "h": 284
+              "h": 379
             },
             {
               "code": "P3",
@@ -580,7 +760,7 @@
               "x": 648,
               "y": 102,
               "w": 376,
-              "h": 284
+              "h": 379
             },
             {
               "code": "P4",
@@ -588,13 +768,13 @@
               "x": 1040,
               "y": 102,
               "w": 376,
-              "h": 284
+              "h": 379
             },
             {
               "code": "P5",
               "label": "The planar portal",
               "x": 256,
-              "y": 402,
+              "y": 497,
               "w": 1160,
               "h": 41
             }
@@ -653,7 +833,38 @@
           ]
         }
       ],
-      "components": []
+      "components": [
+        {
+          "id": "1.1",
+          "title": "Toolbar",
+          "states": [
+            "Focused",
+            "Everything",
+            "closer"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Island with counts",
+          "states": [
+            "active, selected",
+            "principal, messages waiting",
+            "the planar portal",
+            "quiet",
+            "closer, counts in words"
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Island detail in the right tray",
+          "states": [
+            "an island",
+            "the planar portal",
+            "needs a look",
+            "nothing selected"
+          ]
+        }
+      ]
     },
     {
       "id": "2.1",
@@ -665,7 +876,7 @@
           "image": "shots/2.1a.png",
           "size": {
             "w": 1440,
-            "h": 934
+            "h": 1036
           },
           "preferred": true,
           "regions": [
@@ -683,13 +894,13 @@
               "x": 256,
               "y": 103,
               "w": 1160,
-              "h": 601
+              "h": 703
             },
             {
               "code": "P3",
               "label": "Selected agent",
               "x": 256,
-              "y": 720,
+              "y": 822,
               "w": 1160,
               "h": 186
             }
@@ -719,13 +930,13 @@
               "x": 256,
               "y": 103,
               "w": 1160,
-              "h": 645
+              "h": 678
             },
             {
               "code": "P3",
               "label": "Routing note",
               "x": 256,
-              "y": 776,
+              "y": 808,
               "w": 1160,
               "h": 17
             }
@@ -908,7 +1119,7 @@
               "x": 256,
               "y": 104,
               "w": 764,
-              "h": 430
+              "h": 510
             },
             {
               "code": "P3",
@@ -916,7 +1127,7 @@
               "x": 1036,
               "y": 104,
               "w": 380,
-              "h": 430
+              "h": 510
             }
           ]
         }

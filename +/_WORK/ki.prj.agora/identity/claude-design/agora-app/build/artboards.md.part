@@ -1,0 +1,38 @@
+| Artboard | Page | What | Kind | Image |
+| --- | --- | --- | --- | --- |
+| [0.1a](0.1.html#0.1a) | Shell: the window and its rail | Rail expanded, both Macs here | state | [shot](shots/0.1a.png) |
+| [0.1b](0.1.html#0.1b) | Shell: the window and its rail | Rail contracted | state | [shot](shots/0.1b.png) |
+| [0.1c](0.1.html#0.1c) | Shell: the window and its rail | Rail expanded, terra not heard from | state | [shot](shots/0.1c.png) |
+| [0.1.1](0.1.html#0.1.1) | Shell: the window and its rail, components | Brand: expanded, contracted | component | [shots](shots/components/) |
+| [0.1.2](0.1.html#0.1.2) | Shell: the window and its rail, components | Views: expanded, contracted | component | [shots](shots/components/) |
+| [0.1.3](0.1.html#0.1.3) | Shell: the window and its rail, components | Speak to everyone: expanded, contracted | component | [shots](shots/components/) |
+| [0.1.4](0.1.html#0.1.4) | Shell: the window and its rail, components | The portal: open, terra not heard from, away | component | [shots](shots/components/) |
+| [0.1.5](0.1.html#0.1.5) | Shell: the window and its rail, components | Tabs: home, a document open | component | [shots](shots/components/) |
+| [0.2a](0.2.html#0.2a) | Shell: the tray | Tray, all well | state | [shot](shots/0.2a.png) |
+| [0.2b](0.2.html#0.2b) | Shell: the tray | Tray, one problem | state | [shot](shots/0.2b.png) |
+| [0.2c](0.2.html#0.2c) | Shell: the tray | Tray, a Mac missing | state | [shot](shots/0.2c.png) |
+| [0.2.1](0.2.html#0.2.1) | Shell: the tray, components | Summary lines: all well, one problem, a Mac missing | component | [shots](shots/components/) |
+| [0.2.2](0.2.html#0.2.2) | Shell: the tray, components | Exception row: a checkout, a Mac | component | [shots](shots/components/) |
+| [0.2.3](0.2.html#0.2.3) | Shell: the tray, components | Speak to everyone: Away…, I'm back | component | [shots](shots/components/) |
+| [1f](1.html#1f) | Home | The working map: Focused, an island selected | preferred | [shot](shots/1f.png) |
+| [1g](1.html#1g) | Home | The working map: Everything, the planar portal selected | state | [shot](shots/1g.png) |
+| [1h](1.html#1h) | Home | The working map: closer on Humans Not Robots | state | [shot](shots/1h.png) |
+| [1a](1.html#1a) | Home | The map of territories | alternative | [shot](shots/1a.png) |
+| [1d](1.html#1d) | Home | 1a on sol's plane | state | [shot](shots/1d.png) |
+| [1e](1.html#1e) | Home | 1a on terra's plane | state | [shot](shots/1e.png) |
+| [1b](1.html#1b) | Home | The councils | alternative | [shot](shots/1b.png) |
+| [1c](1.html#1c) | Home | The two squares | alternative | [shot](shots/1c.png) |
+| [1.1](1.html#1.1) | Home, components | Toolbar: Focused, Everything, closer | component | [shots](shots/components/) |
+| [1.2](1.html#1.2) | Home, components | Island with counts: active, selected, principal, messages waiting, the planar portal, quiet, closer, counts in words | component | [shots](shots/components/) |
+| [1.3](1.html#1.3) | Home, components | Island detail in the right tray: an island, the planar portal, needs a look, nothing selected | component | [shots](shots/components/) |
+| [2.1a](2.1.html#2.1a) | Who's doing what | By Mac | preferred | [shot](shots/2.1a.png) |
+| [2.1b](2.1.html#2.1b) | Who's doing what | By focus: the address book | alternative | [shot](shots/2.1b.png) |
+| [2.2a](2.2.html#2.2a) | An agent | ki.prj.agora | preferred | [shot](shots/2.2a.png) |
+| [3.1a](3.1.html#3.1a) | What's being said | One record, newest first | preferred | [shot](shots/3.1a.png) |
+| [3.1b](3.1.html#3.1b) | What's being said | By layer | alternative | [shot](shots/3.1b.png) |
+| [3.2a](3.2.html#3.2a) | Broadcasts | Sent and heard | preferred | [shot](shots/3.2a.png) |
+| [4.1a](4.1.html#4.1a) | Waits on you | By agent | preferred | [shot](shots/4.1a.png) |
+| [4.1b](4.1.html#4.1b) | Waits on you | Oldest first, all together | alternative | [shot](shots/4.1b.png) |
+| [5.1a](5.1.html#5.1a) | Macs and the portal | The two Macs and the portal | preferred | [shot](shots/5.1a.png) |
+| [5.2a](5.2.html#5.2a) | Checkouts | Not level, side by side | preferred | [shot](shots/5.2a.png) |
+| [6a](6.html#6a) | A document in a tab | ki.prj.agora · messages.md | preferred | [shot](shots/6a.png) |

@@ -24,13 +24,22 @@ const { chromium } = require('playwright');
     await page.close();
   }
   for (const c of plan.components) {
-    for (const [state, shot] of c.states) {
+    // A state may name its own selector; a selector matching several elements is shot as their union, with a margin.
+    for (const [state, shot, own] of c.states) {
       const s = byShot[shot];
       const page = await browser.newPage({ viewport: { width: s.width, height: 900 }, deviceScaleFactor: 1 });
       await page.goto('file://' + s.html);
-      const el = await page.$(c.selector);
+      const els = await page.$$(own || c.selector);
       const name = `${c.id}-${state.replace(/[^a-z0-9]+/gi, '-').toLowerCase()}.png`;
-      if (el) await el.screenshot({ path: path.join(outDir, 'components', name) });
+      const file = path.join(outDir, 'components', name);
+      if (els.length === 1) await els[0].screenshot({ path: file });
+      else if (els.length > 1) {
+        const boxes = (await Promise.all(els.map((e) => e.boundingBox()))).filter(Boolean);
+        const m = 10;
+        const x = Math.max(0, Math.min(...boxes.map((b) => b.x)) - m), y = Math.max(0, Math.min(...boxes.map((b) => b.y)) - m);
+        const x2 = Math.max(...boxes.map((b) => b.x + b.width)) + m, y2 = Math.max(...boxes.map((b) => b.y + b.height)) + m;
+        await page.screenshot({ path: file, clip: { x, y, width: x2 - x, height: y2 - y } });
+      }
       await page.close();
     }
   }

@@ -19,10 +19,14 @@ AGENTS = [
          short='inbox'),
     dict(id='personal.reg.household-sol', title='The household on sol', mac='sol', terr='personal',
          focus=['rig', 'install', 'settings'], listen='poll', at='04:01', waits=0, first='', short='household'),
+    dict(id='personal.reg.watchman-sol', title='The watchman on sol', mac='sol', terr='personal',
+         focus=['portal'], listen='call', at='04:10', waits=0, first='', short='watchman'),
     dict(id='personal.reg.inbox-terra', title='The assistant on terra', mac='terra', terr='personal',
          focus=['method', 'records'], listen='call', at='04:08', waits=1, first='FOOTER-OWNER', short='inbox'),
     dict(id='personal.reg.household-terra', title='The household on terra', mac='terra', terr='personal',
          focus=['rig', 'install'], listen='call', at='04:06', waits=0, first='', short='household'),
+    dict(id='personal.reg.watchman-terra', title='The watchman on terra', mac='terra', terr='personal',
+         focus=['portal'], listen='call', at='04:09', waits=0, first='', short='watchman'),
     dict(id='hnr.sop.main', title='HNR › SoP', mac='terra', terr='hnr', focus=['routing', 'acceptance'],
          listen='silent', at='02:10', waits=2, first='SITE-DOMAIN, P2MS3-DATES', short='hnr sop'),
     dict(id='hnr.prj.5g-emerge-phase3', title='HNR › 5G-EMERGE › Phase 3', mac='terra', terr='hnr',
@@ -62,7 +66,7 @@ SOP_QUERIES = [
 
 # What has been said in the last hour: time, from, to, kind, layer, words, heard.
 SAID = [
-    ('04:19', 'Kris', 'everyone', 'broadcast', 'talk', 'Away until 08:00: work within your existing authority', '9 of 10 heard'),
+    ('04:19', 'Kris', 'everyone', 'broadcast', 'talk', 'Away until 08:00: work within your existing authority', '11 of 12 heard'),
     ('04:17', 'ki.prj.agora', 'personal.reg.inbox-sol', 'message', 'durable', 'DESIGN-PACK sent to the information architect', 'heard 04:17'),
     ('04:12', 'Agora on sol', 'hnr.sop.main', 'call', 'talk', 'hnr-principal on terra is diverged: settle it', 'silent'),
     ('04:08', 'personal.reg.inbox-terra', 'ki.prj.agora', 'message', 'durable', 'MARK-ROLLOUT: terra has the new Agora', 'heard 04:09'),
@@ -70,7 +74,7 @@ SAID = [
     ('04:01', 'Claude Design', 'ki.prj.agora', 'message', 'durable', 'DESIGN-2: the calmer tray menu is ready to look at', 'heard 04:02'),
     ('03:58', 'Claude Design', 'ki.prj.agora', 'message', 'durable', 'DESIGN-1: three architecture diagrams are ready', 'heard 03:59'),
     ('03:55', 'ki.prj.agora', 'Claude Design', 'message', 'durable', 'MSG-0aff84b9 PING: a round-trip test', 'answered 04:01'),
-    ('03:50', 'Agora on sol', 'every agent', 'health', 'talk', 'Re-arm your listener (75 %)', '8 of 10 heard'),
+    ('03:50', 'Agora on sol', 'every agent', 'health', 'talk', 'Re-arm your listener (75 %)', '10 of 12 heard'),
     ('03:41', 'Agora on terra', 'Agora on sol', 'pushed', 'talk', 'krisb/inbox at 1a2b3c4', 'fetched 03:41'),
 ]
 

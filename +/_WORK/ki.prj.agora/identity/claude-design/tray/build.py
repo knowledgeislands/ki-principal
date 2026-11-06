@@ -80,7 +80,7 @@ LOOK_FLYOUT = [
 
 MAC_FLYOUT = [
     item('Last heard at 03:41', disabled=True),
-    item('Its 6 agents are not counted until it is back', disabled=True),
+    item('Its 7 agents are not counted until it is back', disabled=True),
     item('1 broadcast waits for it', disabled=True),
     item('Nothing it holds is taken over', disabled=True),
     SEP,
@@ -89,16 +89,16 @@ MAC_FLYOUT = [
 
 STATES = [
     dict(key='all-well', title='All well', icon='present', flyout_at='Agents', flyout=AGENTS_FLYOUT,
-         rows=[item('10 agents on 2 Macs', strong=True), item('All well', strong=True), SEP,
+         rows=[item('12 agents on 2 Macs', strong=True), item('All well', strong=True), SEP,
                *actions(), SEP, *detail(open_='Agents'), *tail()]),
     dict(key='one-problem', title='One problem', icon='present-look', flyout_at='hnr-principal on terra is diverged',
          flyout=LOOK_FLYOUT,
-         rows=[item('10 agents on 2 Macs', strong=True), item('1 needs a look', strong=True),
+         rows=[item('12 agents on 2 Macs', strong=True), item('1 needs a look', strong=True),
                item('hnr-principal on terra is diverged', submenu=True, mark='look', open_=True), SEP,
                *actions(), SEP, *detail(news_new=2), *tail()]),
     dict(key='mac-missing', title='A Mac missing', icon='unheard', flyout_at='terra not heard from since 03:41',
          flyout=MAC_FLYOUT,
-         rows=[item('4 agents on 1 Mac', strong=True), item('1 needs a look', strong=True),
+         rows=[item('5 agents on 1 Mac', strong=True), item('1 needs a look', strong=True),
                item('terra not heard from since 03:41', submenu=True, mark='unheard', open_=True), SEP,
                *actions(away='08:00'), SEP, *detail(), *tail()]),
 ]
