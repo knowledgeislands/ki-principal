@@ -2,7 +2,6 @@
 
 ## Inbound
 
-- 2026-11-06 · ACK MSG-17536d30 · from ki.prj.agora · 20:44 GMT · reread at `27833e5b`; FOOTER-COUNTS taken (roadmap and package lines in the Summary footer); method_read set.
 - 2026-11-01 · STOA-NO-CONSUMERS · HNR > SoP (sites) (hnr.sop.sites): Kris on 1 November: "The stowa package should not keep a reference to the things that are using it. There should be no reference out of Knowledge Islands to other territories." For the new Stoa Project: remove packages-stoa's consumer register and any other reference to HNR or other territories' sites; the unmerged commit acf52ab (drops only the EIT entry) is superseded. Also still waiting on your reply to STOA-HOME with the Stoa Project id.
 - 2026-11-01 · STOA-NO-CONSUMERS addendum · HNR > SoP (sites) (hnr.sop.sites): Kris: "If Stoa needs to do that, it can do something where it knows about looking in the local estate on a given rig, and it can look for patterns that it knows about that would identify that it's been used. It shouldn't have a finite list of them, right?" So: where Stoa needs to know its consumers, it discovers them by scanning the local estate on a Rig host for known usage patterns, never by keeping a list.
 - 2026-11-01 · PRINT-LAYOUT · HNR > SoP (sites) (hnr.sop.sites): Kris wants a print layout on every site, so any page prints as a sensible PDF without menus or navigation; low priority, "should go as a roadmap item", built into sites in general, possibly as a Stoa package. Please capture it as a Stoa roadmap record (print stylesheet in Stoa), and tell hnr.sop.sites when it ships so the HNR sites adopt it.
@@ -36,7 +35,6 @@
 - 2026-11-06 · MSG-101026c4 REFRESH · to ki.prj.website · 20:09 GMT · `056996c0` checks before committing · awaiting ACK
 - 2026-11-06 · MSG-642d617e REFRESH · to ki.reg.main · 20:09 GMT · `056996c0` checks before committing · awaiting ACK
 - 2026-11-06 · MSG-832e0fdc REFRESH · to ki.prj.agent-host · 20:40 GMT · `27833e5b` FOOTER-COUNTS · awaiting ACK
-- 2026-11-06 · MSG-17536d30 REFRESH · to ki.prj.agora · 20:40 GMT · `27833e5b` FOOTER-COUNTS · awaiting ACK
 - 2026-11-06 · MSG-4e31c2f3 REFRESH · to ki.prj.baseline-rollout · 20:40 GMT · `27833e5b` FOOTER-COUNTS · awaiting ACK
 - 2026-11-06 · MSG-e864cdc7 REFRESH · to ki.prj.chezmoi · 20:40 GMT · `27833e5b` FOOTER-COUNTS · awaiting ACK
 - 2026-11-06 · MSG-66e76788 REFRESH · to ki.prj.estate-factorisation · 20:40 GMT · `27833e5b` FOOTER-COUNTS · awaiting ACK
