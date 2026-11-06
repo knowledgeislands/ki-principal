@@ -308,4 +308,4 @@
 ## 2026-11-06 · MARK (Kris, 00:03 GMT)
 
 - Read back as taken: "Can we take a mark and understand what you're focused on, with its summaries and such, and then we can decide what to do next?" Mark struck at 2026-11-06T00:03:53Z.
-- Found at this mark: the 4 Nov 23:36 rewrite of `messages.md` (`73a0774a`) silently dropped 12 held lines (the Stoa asks, PRINT-LAYOUT, HOLD-TIDY, GRANOLA-MARK-FAULTS); restored from `73a0774a^`. Nothing had been acted on wrongly; they wait as before.
+- Found at this mark: the 4 Nov 23:36 rewrite of `messages.md` (`73a0774a`) silently dropped 13 held lines (the Stoa asks, PRINT-LAYOUT, HOLD-TIDY, GRANOLA-MARK-FAULTS); restored from `73a0774a^`. Nothing had been acted on wrongly; they wait as before.
