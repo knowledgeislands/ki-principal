@@ -15,10 +15,11 @@
 
 ## Outbound
 
+- 2026-11-06 · MSG-00cdf195 HEALTH/PING · to ki.sop.main · listener 120 min · awaiting ACK
+- 2026-11-06 · MSG-caba28a9 HEALTH/PING · to personal.reg.household-terra · listener 120 min · awaiting ACK
+- 2026-11-06 · MSG-61a1d864 HEALTH/PING · to hnr.sop.main · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-1712c022 AGORA-READY-2 · to personal.reg.household-sol · 06:50 GMT · apps-agora.local main at fa71734: `self:install` now retires the old `info.knowledgeislands.agora` agent that exits 78 at login. Please reinstall when convenient (AGORA-INSTALL-GRANT), and after your next login check `launchctl print gui/$(id -u)/info.knowledgeislands.agora` names the Portal, not `Contents/MacOS/Agora`; reply with what you see · awaiting ACK
 - 2026-11-06 · MSG-1333b6b3 AGORA-READY-2 · to personal.reg.household-terra · 06:50 GMT · apps-agora.local main at fa71734: `self:install` now retires the old `info.knowledgeislands.agora` agent that exits 78 at login. Please reinstall when convenient (AGORA-INSTALL-GRANT), and after your next login check `launchctl print gui/$(id -u)/info.knowledgeislands.agora` names the Portal, not `Contents/MacOS/Agora`; reply with what you see · awaiting ACK
-- 2026-11-06 · MSG-00cdf195 HEALTH/PING · to ki.sop.main · listener 120 min · awaiting ACK
-- 2026-11-06 · MSG-61a1d864 HEALTH/PING · to hnr.sop.main · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-0da1fd4e AGORA-READY · to personal.reg.household-sol · 06:17 GMT · apps-agora.local main at 673160d: please pull, run `bun run self:package`, and reinstall both apps, Agora Portal.app and Agora.app (AGORA-INSTALL-GRANT). The Portal's menu is now only status, Open Agora and Quit; Away, Broadcast and Mark all live in the Agora app. Reply with the build you installed · awaiting ACK
 - 2026-11-06 · MSG-490698cc AGORA-READY · to personal.reg.household-terra · 06:17 GMT · apps-agora.local main at 673160d: please pull, run `bun run self:package`, and reinstall both apps, Agora Portal.app and Agora.app (AGORA-INSTALL-GRANT). The Portal's menu is now only status, Open Agora and Quit; Away, Broadcast and Mark all live in the Agora app. Reply with the build you installed · awaiting ACK
 - 2026-11-06 · MSG-d9280f4d AWAY-UNTIL-0800 · to ki.sop.main · 03:26 GMT · unattended until 08:00 GMT, within existing authority · awaiting ACK
