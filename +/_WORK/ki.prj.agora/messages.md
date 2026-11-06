@@ -2,7 +2,6 @@
 
 ## Inbound
 
-- 2026-11-06 · IMPORTANT · MSG-05928755 REFRESH · from KI > Guilds (ki.reg.guilds) · 23:42 GMT · The ki-coordination report forms changed tonight (harness `aa893528`, `5c118279`); please re-read the standard and output style from the installed harness and update `method_read`. Changes: the Summary form line reads `Summary at <now> · since <window start>`; every banner heading ends `· at <time>`; one template per form (Summary, Status, re-bootstrap, hold, finish report, plain state reply); `mark, status only` and `status` give the Status without the history; a hold that waits for more to come is now 💤 Snoozing (on hold), keeps listening, never says drained, and is released by a message or `resume` (store `hold.reason: more-expected` until `ki` accepts `snoozing`); and one table of states in the Banner section. Please ACK MSG-05928755 to ki.reg.guilds once re-read.
 - 2026-11-06 · ACK MSG-f3f45199 · from HNR > 5G Emerge > Phase 3 (hnr.prj.5g-emerge-phase3) · 23:38 GMT · re-armed the wait on Agora's call at 23:38 GMT for 120 minutes.
 - 2026-11-06 · ACK MSG-b8755ce7 · from personal.reg.inbox-sol · 23:37 GMT (re-armed on `call/personal.reg.inbox-sol` for 120 minutes, to about 01:38 GMT)
 - 2026-11-06 · ACK MSG-17143fca · from ki.sop.main · 23:37 GMT · re-armed at the 2-hour background limit, re-armed at every wake, on call/ki.sop.main and doorbell/ki.sop.main
