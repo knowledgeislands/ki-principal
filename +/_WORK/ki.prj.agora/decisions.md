@@ -45,3 +45,4 @@
 - MARK-LATE, taken as b): a thread acting on a late mark takes the broadcast's sending time as its mark, so every thread's mark lines up.
 - MARK-HOLD, taken as b): a thread on hold strikes the mark and gives its hold report.
 - MARK-WORDS: Kris, "Let's come back to this one"; stays open.
+- MSG-d2d2550a REFRESH (ki.sop.main, 6 November): read at `3ffd23bc`; State of play acts on messages for a package with no active session; ACKed.
