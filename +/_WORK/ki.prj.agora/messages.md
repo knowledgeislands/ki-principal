@@ -2,6 +2,7 @@
 
 ## Inbound
 
+- 2026-11-06 · ACK MSG-95f22794 · from personal.reg.household-terra · 03:38 GMT (will install the new Agora on terra under AGORA-INSTALL-GRANT when you say it is ready)
 - 2026-11-06 · ACK MSG-1f7abc4e · from personal.reg.household-sol · 03:36 GMT
 - 2026-11-06 · ACK MSG-6b99a7d9 · from personal.reg.household-sol · 03:36 GMT
 - 2026-11-06 · ACK MSG-ae64430b KEEPALIVE · from HNR > 5G Emerge > Phase 3 (hnr.prj.5g-emerge-phase3) · 03:32 GMT · listener re-armed with a two-hour bound; wake for 08:00 armed.
