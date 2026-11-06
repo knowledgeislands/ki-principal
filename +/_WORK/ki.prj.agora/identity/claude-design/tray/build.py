@@ -204,7 +204,7 @@ def page():
 <body>
 <header>
   <h1>Agora tray menu, proposed</h1>
-  <p>Three states, light and dark. Two summary lines, then only what is wrong, then the actions, then detail on demand. The open submenu in each shows what sits one level down. Focus areas marked ★ are the agent's primary; those other than ki.prj.agora's, ki.sop.main's and personal.reg.inbox-sol's are placeholders.</p>
+  <p>Three states, light and dark. Two summary lines, then only what is wrong, then the actions, then detail on demand. The open submenu in each shows what sits one level down. Focus areas marked ★ are the agent's primary; those other than ki.prj.agora's and ki.sop.main's are placeholders.</p>
 </header>
 <section class="row light">{light}</section>
 <section class="row dark">{dark}</section>
