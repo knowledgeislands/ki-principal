@@ -15,7 +15,10 @@
 
 ## Outbound
 
+- 2026-11-06 · MSG-a40edeac HEALTH/PING · to personal.reg.household-sol · listener 110 min · awaiting ACK
 - 2026-11-06 · MSG-00cdf195 HEALTH/PING · to ki.sop.main · listener 120 min · awaiting ACK
+- 2026-11-06 · MSG-35ac063f HEALTH/PING · to personal.reg.inbox-terra · listener 120 min · awaiting ACK
+- 2026-11-06 · MSG-7791a58e HEALTH/PING · to personal.reg.household-terra · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-61a1d864 HEALTH/PING · to hnr.sop.main · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-2af6e295 HEALTH/PING · to hnr.prj.site-robots · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-ff5c80a9 AGORA-WATCH-GUILDS · to personal.reg.household-terra · 18:55 GMT · Kris wants both Macs' Agora the same: please add a `[[watch]]` entry to terra's ~/.config/agora/config.toml with package = "ki.reg.guilds" and repository = "~/kis/knowledge-islands/ki-agentic-harness" (sol has it via MSG-02d1f29f), with the AGORA-SAME-BUILD install if not yet done; ACK in ki.reg.guilds' Inbound and mine · awaiting ACK
