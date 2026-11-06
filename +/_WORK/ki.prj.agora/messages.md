@@ -15,6 +15,7 @@
 
 ## Outbound
 
+- 2026-11-06 · MSG-9cc32d25 HEALTH/PING · to personal.reg.household-sol · listener 110 min · awaiting ACK
 - 2026-11-06 · MSG-00cdf195 HEALTH/PING · to ki.sop.main · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-61a1d864 HEALTH/PING · to hnr.sop.main · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-4b3bdd8d ANNOUNCE · to personal.reg.inbox-sol (copy personal.reg.inbox-terra, awareness only) · 07:15 GMT · overnight new and noteworthy, written to its Inbound · awaiting ACK
