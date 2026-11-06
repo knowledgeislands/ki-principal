@@ -16,6 +16,7 @@
 
 ## Outbound
 
+- 2026-11-06 · MSG-e92d6a2e HEALTH/PING · to personal.reg.household-sol · listener 110 min · awaiting ACK
 - 2026-11-06 · MSG-61a1d864 HEALTH/PING · to hnr.sop.main · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-998473d8 HEALTH/PING · to hnr.prj.5g-emerge-p2ms3 · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-c8996a03 BEACON-REPO · to personal.reg.household-terra · 22:50 GMT · Kris: `krisb/ki-portal` is renamed `krisb/ki-agora-beacon` (GitHub redirects the old name). On sol the clone moved to ~/kis/personal/ki-agora-beacon, its remote points at the new name, the Personal registry (`personal-principal/.ki.toml`, pushed) names it, and `ki registry` was updated (add the new path, remove key `ki-portal`). Please do the same on terra: `mv ~/kis/personal/ki-portal ~/kis/personal/ki-agora-beacon && git -C ~/kis/personal/ki-agora-beacon remote set-url origin git@github.com:krisb/ki-agora-beacon.git && (cd ~/kis/personal/ki-agora-beacon && ki registry add) && ki registry remove ki-portal`, then ACK · awaiting ACK
