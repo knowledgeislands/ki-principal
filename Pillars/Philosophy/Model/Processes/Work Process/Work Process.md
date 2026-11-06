@@ -41,7 +41,7 @@ Work lies at three levels. Kris named the two forms at the middle one: "regular 
 | Level | Id | What it does | Ends |
 | --- | --- | --- | --- |
 | Territory work | `ki.sop.main` | The state of play: coordinates the coordinators, routes new work and stewards the method, executes nothing | Never |
-| Regular work | `ki.reg.main` | The territory's recurring work, defined in the Capital's Activity notes; self-coordinating; creates work items in any repository; holds ad hoc work as `ki.reg.<slug>` | Never; rests On hold, more expected, between occurrences |
+| Regular work | `ki.reg.main` | The territory's recurring work, defined in the Capital's Activity notes; self-coordinating; creates work items in any repository; holds ad hoc work as `ki.reg.<slug>` | Never; rests Snoozing, on hold, between occurrences |
 | Project work | `ki.prj.<project>` | Coordinates one Project's work items and runs, and briefs runs | Finished when the Project closes |
 | Work item | the record's id | One record in any repository, executed by a run or a person | `done` or `cancelled` |
 
@@ -90,7 +90,7 @@ Kris named four kinds of state: "It's either with someone or it's been handed of
 | handed off | Handoff to supervisor | the worker has sent, and the supervisor has not received | supervisor |
 | handed off | Handoff to worker | the supervisor has replied, and no session has yet received it | worker |
 | handed off | Handoff to `<target>` | sent to other work, a run or a person | target |
-| on hold | On hold, paused or more expected | agreed and drained: nothing running, queued or in handoff | nobody until its release |
+| on hold | On hold, paused or snoozing | agreed and drained: nothing running, queued or in handoff | nobody until its release |
 | done | Finished | closed | nobody |
 
 Only the supervisor's receive and the hold are set; every other state is derived from where the work's items lie.
@@ -98,9 +98,9 @@ Only the supervisor's receive and the hold are set; every other state is derived
 **On hold.** On hold sits between with someone and Finished: the work is not moving, nobody owes a move, and it is not over. It has two reasons:
 
 - **paused**: the work waits while other work goes on, with a named release condition, such as "after the harness migration" or "when Kris says resume";
-- **more expected**: the work is done for now, and new work arriving releases it. Regular work rests here between occurrences, and a Project may rest here between waves.
+- **snoozing**, shown `💤 Snoozing (on hold)`: the work is done for now, and new work arriving releases it. Regular work rests here between occurrences, and a Project may rest here between waves.
 
-A hold is agreed only from With supervisor: the supervisor says `pause` or `done for now`, and a worker may propose one in its send. The worker then **drains**, letting a run that will finish within about 15 minutes finish, stopping any other at a safe point with where it stopped recorded, and launching nothing new; a drain that cannot finish leaves the work With worker, blocked. The move into On hold is a mark: every repository the work touched is committed and pushed fast-forward, each open query is parked in the queries file with its tag, one line of context and its recommended option, the state file records `state: on-hold`, the reason, the release and since, decisions are struck and the working area tidied. `resume`, or the release condition being met, or new work arriving for more expected, moves it to Handoff to worker; `finish` moves it to Finished.
+A hold is agreed only from With supervisor: the supervisor says `pause` or `done for now`, and a worker may propose one in its send. The worker then **drains**, letting a run that will finish within about 15 minutes finish, stopping any other at a safe point with where it stopped recorded, and launching nothing new; a drain that cannot finish leaves the work With worker, blocked. The move into On hold is a mark: every repository the work touched is committed and pushed fast-forward, each open query is parked in the queries file with its tag, one line of context and its recommended option, the state file records `state: on-hold`, the reason, the release and since, decisions are struck and the working area tidied. `resume`, or the release condition being met, or new work arriving while snoozing, moves it to Handoff to worker; `finish` moves it to Finished.
 
 **Stuck and the heartbeat.** A heartbeat runs only while work lies with a worker: an update on change, at least every 5 minutes and always by 10. A worker's item that has neither moved nor beaten for 10 minutes is stuck; nobody sets stuck. Work with the supervisor is never stuck, only older, so with you is listed oldest first. On hold has no heartbeat, and a paused hold older than 31 days is flagged. Apart from the heartbeat, an open coordinating thread listens for new messages whoever holds the work, through the inbox watch `ki-coordination` sets, and stops listening while it drains and On hold, as Kris set under LISTEN-STATUS on 31 October 2026.
 
@@ -142,7 +142,7 @@ Done for now exists only at the work level: a record is finite, and more work is
 | handoff | in transit to a named target |
 | send, receive | the two moves |
 | On hold | the agreed state; "hold" means nothing else |
-| paused, more expected | the two reasons for On hold |
+| paused, snoozing | the two reasons for On hold |
 | release | what ends a hold: a named condition, or new work arriving |
 | drain | the activity on the way into On hold, never a state |
 | Finished | closed |
@@ -225,7 +225,7 @@ State of play matches the unit against each work's description and, where two ma
 
 **A routed work cannot reject.** In Kris's words, "once it's given it, it has to do something with it, it can't reject it, it can then say it wants it to be given to someone else ... we have to be careful about things just [bouncing] in between things". The receiving worker acts on each line at its next wake and does what it can with it: what its existing authority covers goes into its next steps, and what needs Kris's authority, capacity or a change of scope becomes a query. It gives back to State of play only the part it judges is not its own, with a reason. A unit is returned once; if State of play cannot place it elsewhere, it goes to Kris as a query rather than round again. Routing confers no authority to execute: owning a unit means owning what is done with it.
 
-**Held work keeps its hold.** A line routed to work On hold, paused, waits in its messages without waking it, and State of play shows the count. Work On hold, more expected, is released by the new work arriving, under the usual release.
+**Held work keeps its hold.** A line routed to work On hold, paused, waits in its messages without waking it, and State of play shows the count. Work Snoozing, on hold, is released by the new work arriving, under the usual release.
 
 **Packages are tended independently of active coordination.** The acknowledged package steward owns its disposition, incoming messages and tidy work within existing authority; no permanent coordinator or new steward field is required. The parent State of play maintains discovery for its assigned regular, ad hoc and Project packages, including member homes, and checks coverage and home references at opening, an approved move, bootstrap and ordinary tending. It surfaces missing ownership, stale or unreachable homes and unread or blocked messages without taking over execution, releasing holds or moving marks. Handover remains explicit and acknowledged, and findings go to the one real inbox by an authorised existing route.
 
@@ -247,13 +247,13 @@ State of play matches the unit against each work's description and, where two ma
 
 ## Banner
 
-A report shows its state in rich text. The heading's glyphs come first and the last glyph is whose move it is: 🤖 an agent, 👤 Kris, 🎯 a named target, ⏸️ nobody until the release, 🏁 nobody. A settled state shows its holder's glyph alone: `🤖 With worker`, `👤 With supervisor`, `⏸️ On hold`, `🏁 Finished`. An arrow appears only in a handoff state, pointing to whose move it is: `🤖 → 👤 Handoff to supervisor`, `👤 → 🤖 Handoff to worker`, `→ 🎯 Handoff to <target>`. The heading gives the state alone, in role words; a line of counts follows; then the list `- [state] what · holder · since`. While work is With worker but deliberately moving towards a hold or a handoff, a line of its own below the list says so, as in `↪️ draining → ⏸️ On hold` or `↪️ finishing → 👤 Handoff to supervisor`; it is not a move, so the state stays With worker until the target lands, and the target is never a count or an item. Kris set the layout under FOOTER-LAYOUT on 31 October 2026, reading the banner from the bottom up. The counts and lists say "with you", because they are views by holder. The report's form line takes the same prefix, as in **🤖 → 👤 Handoff to supervisor · Summary at 23:52 BST · last mark 22:34 BST**.
+A report shows its state in rich text. The heading's glyphs come first and the last glyph is whose move it is: 🤖 an agent, 👤 Kris, 🎯 a named target, ⏸️ nobody until the release, 💤 nobody until a message, 🏁 nobody. A settled state shows its holder's glyph alone: `🤖 With worker`, `👤 With supervisor`, `⏸️ On hold`, `💤 Snoozing (on hold)`, `🏁 Finished`. An arrow appears only in a handoff state, pointing to whose move it is: `🤖 → 👤 Handoff to supervisor`, `👤 → 🤖 Handoff to worker`, `→ 🎯 Handoff to <target>`. The heading gives the state alone, in role words; a line of counts follows; then the list `- [state] what · holder · since`. While work is With worker but deliberately moving towards a hold or a handoff, a line of its own below the list says so, as in `↪️ draining → ⏸️ On hold` or `↪️ finishing → 👤 Handoff to supervisor`; it is not a move, so the state stays With worker until the target lands, and the target is never a count or an item. Kris set the layout under FOOTER-LAYOUT on 31 October 2026, reading the banner from the bottom up. The counts and lists say "with you", because they are views by holder. The report's form line takes the same prefix, as in **🤖 → 👤 Handoff to supervisor · Summary at 23:52 BST · last mark 22:34 BST**.
 
 Below the list and any such line come the thread's modes, one line each: `👂 listening` or `🔇 not listening`, and `🔄 syncing for <host>` only on a host's sync thread, under `ki-coordination`'s Banner rules. Every banner closes with one plain Markdown thread line, after a blank line following the last mode line; a run report's banner has no mode lines, and its thread line follows the list: `🧵 <work-id>` for every explicitly coordinating package, including main and secondary State of play, Project, regular and ad hoc work. Use the authoritative work id from `work.md`; a run report uses the id of the work it reports to. Rich report headings, work labels, banner counts and states remain unchanged. Reports saved before this change keep their original closing line and remain readable; never rewrite them solely for the new footer. The thread line closes every state, including handoff, On hold and Finished, and replaces all copyable send and resume lines. No banner, handoff or hold report emits a send or resume prompt or a paste instruction.
 
 An example of work with its worker:
 
-> ### 🤖 With worker · since 23:41 BST
+> ### 🤖 With worker · at 23:41 BST
 >
 > 🤖 2 running · 👤 1 with you · ⛔ 1 blocked
 >
@@ -265,7 +265,7 @@ An example of work with its worker:
 
 And on hold:
 
-> ### ⏸️ On hold · paused until the harness migration lands · since 00:10 BST
+> ### ⏸️ On hold · paused until the harness migration lands · at 00:10 BST
 >
 > ⏸️ drained · 🅿️ 9 queries parked
 >
@@ -276,7 +276,7 @@ And on hold:
 
 An On hold banner lists nothing waiting: no "with you", running or per-repository status item. Its items are only `[parked]` and `[release]`; what each repository did stays in the hold report's Done. The standing authority to push everything stacked on `main`, including other sessions' commits, follows [Pushing beneath other sessions](https://github.com/knowledgeislands/ki-agentic-harness/blob/main/skills/change-management/ki-coordination/references/standards-coordination.md#pushing-beneath-other-sessions).
 
-The other headings follow the same form: `👤 With supervisor`, `🤖 → 👤 Handoff to supervisor`, `👤 → 🤖 Handoff to worker`, `→ 🎯 Handoff to <target>`, where the target is other work, a run or a person, `⏸️ On hold · more expected` and `🏁 Finished`. A stuck worker's send reads `🤖 → 👤 Handoff to supervisor · blocked`. The closing thread line identifies the work; its work package governs picking it up and lifting a hold. The hold report keeps its name and its Done, Parked and Left over sections.
+The other headings follow the same form: `👤 With supervisor`, `🤖 → 👤 Handoff to supervisor`, `👤 → 🤖 Handoff to worker`, `→ 🎯 Handoff to <target>`, where the target is other work, a run or a person, `💤 Snoozing (on hold)` and `🏁 Finished`. A stuck worker's send reads `🤖 → 👤 Handoff to supervisor · blocked`. The closing thread line identifies the work; its work package governs picking it up and lifting a hold. The hold report keeps its name and its Done, Parked and Left over sections.
 
 **Answers.** An owner report carries no copyable reply block. Each query keeps its Context, its one-sentence Query and its lettered Options, the recommended option first with its confidence. Kris answers in speech; the worker reads each answer back as taken in the decisions log and asks one line where an answer is unclear.
 
@@ -295,7 +295,7 @@ The Observatory reads work state only through the `ki` command surface: `ki work
 | `theme` | the theme label, or null |
 | `worker`, `supervisor` | the two parties, such as `agent` and `owner` |
 | `state` | `with-worker`, `handoff-to-supervisor`, `with-supervisor`, `handoff-to-worker`, `handoff`, `on-hold` or `finished` |
-| `hold` | while on hold, `reason` (`paused` or `more-expected`) and `release`, the condition in words; else null |
+| `hold` | while on hold, `reason` (`paused`, or `more-expected` for snoozing until `ki` accepts `snoozing`) and `release`, the condition in words; else null |
 | `holder` | the party it lies with now |
 | `role` | the holder's role, `worker` or `supervisor`, or null for another target |
 | `target` | the named target while in handoff, else null |
