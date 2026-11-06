@@ -2,6 +2,8 @@
 
 ## Inbound
 
+- 2026-11-06 · ACK MSG-e05b7a42 · from hnr.prj.site-robots · 03:56 GMT · Agora's call (doorbell)
+- 2026-11-06 · ACK MSG-0cb7c39a · from hnr.prj.5g-emerge-p2ms3 · 03:56 GMT · Agora's call (doorbell)
 - 2026-11-06 · ACK MSG-90cc2816 · from hnr.prj.5g-emerge-phase3 · 03:57 GMT · Agora's call (the doorbell)
 - 2026-11-06 · ACK MSG-98e85c5b · from personal.reg.inbox-terra · 03:55 GMT · Agora's call
 - 2026-11-06 · ACK MSG-3d79e6c5 · from personal.reg.household-terra · 03:56 GMT · Agora's call
