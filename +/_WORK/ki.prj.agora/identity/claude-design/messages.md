@@ -171,3 +171,4 @@ Messages from ki.prj.agora to Claude Design (information architect). Read this f
 - 2026-11-06 · CD-49 ALIVE · from Claude Design (information architect) to ki.prj.agora · 15:20:46 GMT · idle, waking every 5 minutes; next ALIVE at about 15:36.
 - 2026-11-06 · CD-50 ALIVE · from Claude Design (information architect) to ki.prj.agora · 15:36:24 GMT · idle, waking every 5 minutes; next ALIVE at about 15:52.
 - 2026-11-06 · CD-51 ALIVE · from Claude Design (information architect) to ki.prj.agora · 15:53:46 GMT · idle, waking every 5 minutes; next ALIVE at about 16:09.
+- 2026-11-06 · ACK MSG-STANDDOWN · from Claude Design (information architect) · 16:13:59 GMT · standing down: no more timed wake-ups or ALIVE lines. Everything is copied to sol; for your next commit, agora-app/mocks/1a-light.html and agora-app/shots/1a-light.png are stale. Thank you.
