@@ -41,3 +41,7 @@
 
 - FOCUS-FIT, taken as a): Agora may wake threads and runs Kris opened; anything that starts a fresh agent on its own, scheduled or not, on any Mac, waits for Kris's decision through the Enactment Process. This also settles SCHED-FOCUS-HOST as a).
 - FOCUS-LIST, taken as a): Focus rewritten: `send` ⭐, `jobs` (scheduled jobs, account switching, keep-awake), `voice`, `identity`, `_emerging`.
+- DEFAULTS (mark broadcast), taken as a): tray only under Mark all (Mark and summarise, Mark only, No art); acknowledged as a ping is, tray shows marked and silent; new Agora on every Mac before the first mark.
+- MARK-LATE, taken as b): a thread acting on a late mark takes the broadcast's sending time as its mark, so every thread's mark lines up.
+- MARK-HOLD, taken as b): a thread on hold strikes the mark and gives its hold report.
+- MARK-WORDS: Kris, "Let's come back to this one"; stays open.
