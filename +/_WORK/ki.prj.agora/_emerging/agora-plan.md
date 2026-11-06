@@ -9,7 +9,7 @@ written_at: 2026-11-06T06:20:00Z
 ## The picture
 
 - **Islands** are repositories, the home of everything durable; each has its own roadmap. A **territory** is a group of islands with a principal island, whose council is State of play main.
-- **Rigs** (sol, terra) are realms over the same islands: work happens in one, the other sees the outcome.
+- **Rigs** (sol, terra) are planes of existence over the same islands: neither sees what the other is doing at the moment it happens, but each sees the effects of what the other has done.
 - **Work packages** pull work through. Regular ones sit one-to-one on an island; Projects sit in the principal island because they bring several islands together. When swamped, a package pushes back up into roadmap items and ideas.
 - **Roles:** leaders, enablers, doers. Per rig, the housekeeper (household) and the assistant (inbox) run the rig.
 
