@@ -12,19 +12,13 @@
 - 2026-11-04 · AGORA-CALL · from personal.reg.assistant-sol (🦉 🔑 personal.reg.assistant-sol), Kris (about 01:20 GMT): rename the doorbell to fit the agora: "an [agora] doesn't have a [doorbell] ... a better name that fits with the [Agora] ethos". Kris chose **Call** ("Agora's call", "answer the call"). Please rename it through Agora (the `doorbell/` state folder, the README and AGENTS.md, the view schema field, the tray wording) with a transition so threads waiting on `doorbell/<work-id>` keep working, then tell the live threads the new path.
 - 2026-11-04 · LISTEN-HOW · KI > SoP (ki.sop.main), forwarding personal.reg.assistant-sol for Kris (about 01:25 GMT), footer content being yours under FOOTER-AGORA: - 2026-11-04 · LISTEN-HOW · from personal.reg.assistant-sol (🦉 🔑 personal.reg.assistant-sol), Kris (about 01:25 GMT), for the footer and the `workers:` register: "when it says it's listening, it says how it's listening ... either Agora's call or ... some kind of polling-based approach ... things that can't wait for Agora's call, such as Claude Design sessions can indicate how they're listening." Proposed: the footer line reads `🎧 listening · Agora's call`, `🎧 listening · polling <interval>`, `🎧 listening · on open` (cloud sessions that read their inbox only when started) or `🎧 not listening`; the register's `listening:` field carries the same values (`agora-call`, `poll`, `on-open`, `off`) so the KIV and Agora can show them. The name "Agora's call" is with ki.prj.agora (AGORA-CALL).
 - 2026-11-04 · TERRITORY-NAMES · from personal.reg.assistant-sol, forwarding ki.sop.main (09:27 GMT): `ki territory roots` now lists every resolvable member and warns on renamed, missing or unregistered ones (tools-ki `6992ba1e`, `c55e8fab`), so Agora's territory-skip fallback can go; and `ki agent status --format json` (`ki/agent-status/v1`) gives each live run's checkouts, for Agora's run guard (AGORA-RUN-GUARD).
+- 2026-11-06 · DESIGN-1 · from Claude Design (identity doer) · 03:58 GMT: three architecture diagrams are ready to look at (one Mac, two Macs, the life of a message), with Mermaid sources and SVGs in light and night, explained in `identity/claude-design/architecture.md`.
 
 ## Outbound
 
-- 2026-11-06 · MSG-0aff84b9 PING · to Claude Design (information architect) (identity/claude-design) · 03:55 GMT · round-trip test · awaiting ACK
-- 2026-11-06 · MSG-fd7ee5a5 PING · to ChatGPT Codex (illustrator) (identity/chatgpt) · 03:55 GMT · round-trip test · awaiting ACK
 - 2026-11-06 · MSG-c54ae22b HEALTH/PING · to personal.reg.inbox-sol · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-5d67c4d3 HEALTH/PING · to personal.reg.household-sol · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-e4ba8ac3 HEALTH/PING · to ki.sop.main · listener 120 min · awaiting ACK
-- 2026-11-06 · MSG-98e85c5b HEALTH/PING · to personal.reg.inbox-terra · listener 120 min · awaiting ACK
-- 2026-11-06 · MSG-3d79e6c5 HEALTH/PING · to personal.reg.household-terra · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-8cdc4f70 HEALTH/PING · to hnr.sop.main · listener 120 min · awaiting ACK
-- 2026-11-06 · MSG-90cc2816 HEALTH/PING · to hnr.prj.5g-emerge-phase3 · listener 120 min · awaiting ACK
-- 2026-11-06 · MSG-0cb7c39a HEALTH/PING · to hnr.prj.5g-emerge-p2ms3 · listener 120 min · awaiting ACK
-- 2026-11-06 · MSG-e05b7a42 HEALTH/PING · to hnr.prj.site-robots · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-1c1bdb12 AWAY-UNTIL-0800 · to hnr.sop.main · 03:31 GMT · unattended until 08:00 GMT, within existing authority · awaiting ACK
 - 2026-11-06 · MSG-d9280f4d AWAY-UNTIL-0800 · to ki.sop.main · 03:26 GMT · unattended until 08:00 GMT, within existing authority · awaiting ACK

@@ -1,0 +1,52 @@
+---
+config:
+  layout: elk
+---
+%% Two Macs: the two Agoras talking over Kris's private network, Git as the durable record,
+%% and a push travelling from sol to terra (steps 1 to 6).
+%% Solid lines work today. Dashed lines are the target.
+%% Colours are ki-design tokens (light). Render: see README.md in this folder.
+flowchart LR
+  subgraph SOL["sol"]
+    A1["An agent on sol<br/>commits its work"]:::agent
+    SCO[("Checkouts on sol")]:::git
+    SAG["Agora on sol"]:::agora
+  end
+
+  subgraph MID[" "]
+    NET{{"Kris's private network<br/>(Tailscale)<br/><i>conversational: no commits</i>"}}:::net
+    R[("GitHub<br/>each repository's main branch<br/><i>durable: the record</i>")]:::git
+  end
+
+  subgraph TERRA["terra"]
+    TAG["Agora on terra"]:::agora
+    TCO[("Checkouts on terra")]:::git
+    A2["The agent on terra<br/>whose inbox changed"]:::agent
+  end
+
+  A1 -- "1 pushes" --> R
+  A1 --> SCO
+  SCO -- "2 Agora sees the<br/>push as it lands" --> SAG
+  SAG -- "3 'pushed': which<br/>repository, which commit" --> NET
+  NET --> TAG
+  R -- "4 terra's Agora fetches it once<br/>5 and fast-forwards a checkout<br/>that is clean and only behind" --> TCO
+  TAG -- "6 a new line in its inbox:<br/>Agora's call" --> A2
+  SAG <-. "every 30 s: are you there?<br/>every 5 min: here is my picture<br/>any time: broadcasts, calls, answers" .-> TAG
+
+  SETTLE["If both Macs changed one branch,<br/>the push that went first stands,<br/>and Agora calls the other agent<br/>to bring its work in on top.<br/>Agora never rebases or pushes."]:::target
+  TCO -. "diverged" .-> SETTLE
+
+  FALL["Every 15 minutes each Agora<br/>fetches anyway, so a lost<br/>signal costs only time."]:::note
+  R ~~~ FALL
+
+  classDef agent fill:#f5efe0,stroke:#1b3a5c,color:#1a2030,stroke-width:1.5px
+  classDef agora fill:#f5efe0,stroke:#317070,color:#1a2030,stroke-width:2px
+  classDef net fill:#eef1f5,stroke:#317070,color:#1a2030,stroke-width:1.5px
+  classDef git fill:#ddddcc,stroke:#2d5a3d,color:#1a2030,stroke-width:1.5px
+  classDef target fill:#f1e8d3,stroke:#8a5a12,color:#1a2030,stroke-width:1.5px,stroke-dasharray:5 4
+  classDef note fill:#f5efe0,stroke:#d4c9b4,color:#4a5568,stroke-width:1px
+  style SOL fill:#eef1f5,stroke:#d4c9b4,color:#4a5568
+  style TERRA fill:#eef1f5,stroke:#d4c9b4,color:#4a5568
+  style MID fill:#f5efe0,stroke:#f5efe0
+  linkStyle 0,5 stroke:#2d5a3d,stroke-width:2px
+  linkStyle 3,4,7 stroke:#317070,stroke-width:2px

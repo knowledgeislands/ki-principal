@@ -1,0 +1,45 @@
+%% The life of a message: an idea raised by one agent, routed by focus to its owner,
+%% acknowledged, then something new announced and made durable by the assistant
+%% on the Mac where it started.
+%% Solid arrows work today. Dotted arrows are the target (not built yet).
+%% Colours are ki-design tokens (light). Render: see README.md in this folder.
+sequenceDiagram
+  autonumber
+  participant A as hnr.sop.main<br/>on terra
+  participant TA as Agora<br/>on terra
+  participant G as Git<br/>(GitHub)
+  participant SA as Agora<br/>on sol
+  participant B as ki.prj.agora<br/>on sol
+  participant AS as personal.reg.inbox-sol<br/>the assistant on sol
+
+  Note over A: Has an idea: the tray could be calmer
+  rect rgb(238, 241, 245)
+    Note over A,TA: Route by focus
+    A-->>TA: Who looks after the tray's look?
+    TA-->>A: ki.prj.agora on sol, focus "identity"
+  end
+  rect rgb(221, 221, 204)
+    Note over A,B: Send: the durable layer
+    A->>G: Adds a line to ki.prj.agora's inbox, commits, pushes
+    TA->>SA: Sees the push, and tells sol: "pushed", which repository, which commit
+    SA->>G: Fetches it, fast-forwards the checkout
+    SA->>B: Agora's call: news for ki.prj.agora
+  end
+  rect rgb(238, 241, 245)
+    Note over A,B: Acknowledge: the conversational layer
+    B-->>SA: Heard
+    SA-->>TA: Heard, by ki.prj.agora
+    TA-->>A: Heard
+  end
+  Note over B: Takes the idea into its work, and delivers it
+  rect rgb(238, 241, 245)
+    Note over TA,AS: Announce to everyone who has joined
+    B-->>SA: New: a calmer tray is ready
+    SA-->>TA: Broadcast, for every agent on terra
+    SA-->>AS: Broadcast, for every agent on sol
+  end
+  rect rgb(221, 221, 204)
+    Note over G,AS: Make it durable, once
+    AS->>G: One entry in the record, pushed
+  end
+  Note over SA,AS: Written once, by the assistant on the Mac where it started.<br/>The assistant on terra does not write it again.
