@@ -33,4 +33,5 @@ created_at: 2026-11-03T22:50:53Z
 2. `jobs` — running the rig's scheduled jobs, switching Claude accounts and keeping the host awake.
 3. `voice` — the voice bard path.
 4. `identity` — Agora's look in the tray and its designer doer.
-5. `_emerging` — what has not yet been named as a focus theme.
+5. `kiv` — the KIV, owned by Agora since 6 November (KIV-TO-AGORA): its views in the Agora app, then its code.
+6. `_emerging` — what has not yet been named as a focus theme.
