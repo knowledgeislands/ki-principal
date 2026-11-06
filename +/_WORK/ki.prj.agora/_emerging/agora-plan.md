@@ -32,6 +32,7 @@ written_at: 2026-11-06T06:20:00Z
 
 - Agora's call (renamed from doorbell), small fixes, Mark all, the roster and focus address book, the settle call for cooperation between rigs, a calmer tray; installed on both Macs.
 - Plain-English specification, RFC-style protocol draft, wake map, six architecture diagrams with a one-page explainer.
+- [Agent interaction](../../../../../apps-agora.local/docs/spec/agent-interaction.md), the protocol's companion specification: how agents on each harness reach each other, through mailboxes today and the Agora Portal as the meeting point next.
 - Design doers: the information architect's Agora app design pack; the illustrator's concept art, icons and slides, each indexed.
 
 ## Building now, in order
