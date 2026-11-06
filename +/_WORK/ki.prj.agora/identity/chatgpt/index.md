@@ -9,6 +9,8 @@ Study indicates a proposal for review. Keeper indicates a direction endorsed by 
 | [concept-causeway.png](concept-causeway.png) | 2026-11-06 | Morning crossing to a hilltop stone ring | Initial illustrator brief | Study |
 | [concept-harbour.png](concept-harbour.png) | 2026-11-06 | Arrivals by boat below the meeting ground | Initial illustrator brief | Study |
 | [concept-tidal-crossing.png](concept-tidal-crossing.png) | 2026-11-06 | Two shores joined by stepping stones | Initial illustrator brief | Study |
+| [ghost-protocol-emblem.png](ghost-protocol-emblem.png) | 2026-11-06 | Mirrored gates joined by a gold thread through the seam | MSG-c99eabc1 PLANES and delegation test | Study |
+| [ghost-protocol-emblem.svg](ghost-protocol-emblem.svg) | 2026-11-06 | Mirrored gates joined by a gold thread through the seam | MSG-c99eabc1 PLANES and delegation test | Study |
 | [menu-all-well-16.png](menu-all-well-16.png) | 2026-11-06 | Open six-stone ring (16 px) | Initial illustrator brief | Study |
 | [menu-all-well-22.png](menu-all-well-22.png) | 2026-11-06 | Open six-stone ring (22 px) | Initial illustrator brief | Study |
 | [menu-all-well-32.png](menu-all-well-32.png) | 2026-11-06 | Open six-stone ring (32 px) | Initial illustrator brief | Study |
@@ -35,6 +37,8 @@ Study indicates a proposal for review. Keeper indicates a direction endorsed by 
 | [portal-map.svg](portal-map.svg) | 2026-11-06 | Two planes with matching islands, summit routes, principal relays and a great portal | MSG-c99eabc1 PLANES and MSG-f26e70e4 SUMMIT-PORTALS | Study |
 | [portal-mirrored-planes.png](portal-mirrored-planes.png) | 2026-11-06 | Mirrored realms with minor, Principal and great portals at three scales | Kris’s mirrored planes and three portal levels brief | Study |
 | [portal-mirrored-relay.png](portal-mirrored-relay.png) | 2026-11-06 | Two mirrored territories with visible Principal and planar relays | Kris’s second territory and planar relay correction | Keeper |
+| [portal-network-v2.png](portal-network-v2.png) | 2026-11-06 | Principal towers and watchmen on the separate ki-portal islands | Kris’s communication-first brief and portal definitions | Study |
+| [portal-network-v2.svg](portal-network-v2.svg) | 2026-11-06 | Principal towers and watchmen on the separate ki-portal islands | Kris’s communication-first brief and portal definitions | Study |
 | [portal-relay-current.png](portal-relay-current.png) | 2026-11-06 | Current route map with the planar gateway on its own Portal island | MSG-e53b0705 PORTAL-NAME | Study |
 | [portal-relay-current.svg](portal-relay-current.svg) | 2026-11-06 | Current route map with the planar gateway on its own Portal island | MSG-e53b0705 PORTAL-NAME | Study |
 | [portal-relay.png](portal-relay.png) | 2026-11-06 | Route map with a distinct Principal-to-planar link on each rig | Kris’s second territory and planar relay correction | Study |
