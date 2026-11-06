@@ -29,11 +29,14 @@ Study indicates a proposal for review. Keeper indicates a direction endorsed by 
 | [menu-unread-news-32.png](menu-unread-news-32.png) | 2026-11-06 | Ring with a central dot (32 px) | Initial illustrator brief | Study |
 | [menu-unread-news-44.png](menu-unread-news-44.png) | 2026-11-06 | Ring with a central dot (44 px) | Initial illustrator brief | Study |
 | [menu-unread-news.svg](menu-unread-news.svg) | 2026-11-06 | Ring with a central dot | Initial illustrator brief | Study |
+| [planar-portal-keeper.png](planar-portal-keeper.png) | 2026-11-06 | A keeper stands at the planar portal on its own island | MSG-e53b0705 PORTAL-NAME | Study |
 | [portal-household.png](portal-household.png) | 2026-11-06 | Matching Household gates showing each plane’s crew to the other | MSG-db6748b7 PORTAL and MSG-c99eabc1 PLANES | Study |
 | [portal-map.png](portal-map.png) | 2026-11-06 | Two planes with matching islands, summit routes, principal relays and a great portal | MSG-c99eabc1 PLANES and MSG-f26e70e4 SUMMIT-PORTALS | Study |
 | [portal-map.svg](portal-map.svg) | 2026-11-06 | Two planes with matching islands, summit routes, principal relays and a great portal | MSG-c99eabc1 PLANES and MSG-f26e70e4 SUMMIT-PORTALS | Study |
 | [portal-mirrored-planes.png](portal-mirrored-planes.png) | 2026-11-06 | Mirrored realms with minor, Principal and great portals at three scales | Kris’s mirrored planes and three portal levels brief | Study |
 | [portal-mirrored-relay.png](portal-mirrored-relay.png) | 2026-11-06 | Two mirrored territories with visible Principal and planar relays | Kris’s second territory and planar relay correction | Keeper |
+| [portal-relay-current.png](portal-relay-current.png) | 2026-11-06 | Current route map with the planar gateway on its own Portal island | MSG-e53b0705 PORTAL-NAME | Study |
+| [portal-relay-current.svg](portal-relay-current.svg) | 2026-11-06 | Current route map with the planar gateway on its own Portal island | MSG-e53b0705 PORTAL-NAME | Study |
 | [portal-relay.png](portal-relay.png) | 2026-11-06 | Route map with a distinct Principal-to-planar link on each rig | Kris’s second territory and planar relay correction | Study |
 | [portal-relay.svg](portal-relay.svg) | 2026-11-06 | Route map with a distinct Principal-to-planar link on each rig | Kris’s second territory and planar relay correction | Study |
 | [portal-routing.png](portal-routing.png) | 2026-11-06 | Separate summit, Principal and planar portals with routes on Sol and Terra | Kris’s summit, Principal and planar routing clarification | Study |

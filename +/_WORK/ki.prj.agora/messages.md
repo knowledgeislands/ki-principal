@@ -15,6 +15,7 @@
 
 ## Outbound
 
+- 2026-11-06 · MSG-144f1021 KI-INBOX · to personal.reg.inbox-sol · 05:13 GMT · Kris (about 05:23 GMT), naming the Personal territory's special islands: the planar portal, which passes information between sol and terra, gets its own repository `ki-portal`, and "the inbox should really then become ki-inbox". The rename of `krisb/inbox` to `ki-inbox` is yours to plan and carry out, owners told first as before; no change made from here. Please ACK MSG-144f1021.
 - 2026-11-06 · MSG-e441e015 HEALTH/PING · to ki.sop.main · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-930ba849 HEALTH/PING · to personal.reg.inbox-terra · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-6d4059ba HEALTH/PING · to personal.reg.household-terra · listener 120 min · awaiting ACK

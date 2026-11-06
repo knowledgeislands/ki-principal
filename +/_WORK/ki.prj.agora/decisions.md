@@ -67,3 +67,4 @@ Entries a durable home now carries were struck on 6 November 2026 (consolidate);
 - BIFROST (Kris, about 05:15 GMT): "Bifröst - exactly ... and the agent responsible is Heimdall." The planar portal's own island is Bifröst (repository name to settle, such as `bifrost`), kept by an agent called Heimdall; still an idea until the protocol settles what crosses planes.
 - PORTAL-NAME (Kris, about 05:20 GMT), replacing BIFROST: "not sure if we want to go with Bifröst and Heimdall, because it's clearly Norse mythology ... we could talk about the Planar Portal, and I think a repo called Portal would make sense." The island is the planar portal, repository `portal`; Bifröst and Heimdall only as an analogy.
 - PORTAL-NAME refined (Kris, about 05:22 GMT): the repository is `ki-portal`.
+- KI-INBOX (Kris, about 05:23 GMT): "the inbox should really then become ki-inbox", beside `ki-portal`. Sent to personal.reg.inbox-sol as MSG-144f1021; the rename is the inbox's to carry out.
