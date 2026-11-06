@@ -5,7 +5,7 @@ since: 2026-11-04T09:29:30Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-11-06T00:03:53Z
-method_read: db5dcab3
+method_read: 041ef9bd
 listening_enabled: true
 listening_status: on
 workers:
@@ -35,10 +35,11 @@ workers:
 
 - ACK-ALWAYS (Kris, about 23:30 GMT 5 Nov): every line taken, held or acted on gets its ACK at the top of the sender's Inbound at the moment it is taken, with no exceptions; lines kept in Inbound to act on later are ACKed too.
 
-## Next steps (4 November 20:20 GMT)
+## Next steps (6 November 02:32 GMT)
 
-1. Under ASOL-004 (Kris about 18:15 GMT, COORDINATION-ONLY): coordination is the one topic; this is one of six open sessions, listening on Agora's call; `coordination🔗` first on the focus line; messages split into Inbound and Outbound.
-2. 48 queries are with Kris in `discussions.md`. Inbound waits: the Stoa lines on STOA-HOME; SYNC-LINE-OFF and HOLD-TIDY for the next method run; GRANOLA-MARK-FAULTS when coordination allows.
+1. Re-bootstrapped on Kris's opener. consolidate-queries packs all 72 queries into `_emerging/packed-queries.md` and writes a short consolidated set into `discussions.md` for Kris's return; the medium ones then go to one blind review.
+2. sop-acts-for-idle lands SOP-ACTS-FOR-IDLE and NAME-GLYPH in the harness.
+3. MAIL-GAPS and SKILLS-OVER-GRAPH wait in Inbound, ACKed, for the consolidated set to place them.
 
 ## Held
 
