@@ -19,3 +19,8 @@ Entries a durable home now carries were struck on 6 November 2026 (consolidate);
 ## 2026-11-06 · Consolidation (Kris, about 03:05 GMT)
 
 - Kris: "consolidate your work package down and out of this, create a backlog ... see, is everything I've been told all aligned, or are there conflicts within it?" Backlog and alignment homed in `_emerging/`; `state.md` rewritten; 23 spent entries struck; SYNC-LINE-OFF taken (done in the standard at `db5dcab3`).
+
+## 2026-11-06 · Unattended window until 08:00 GMT (Kris, about 03:25 GMT)
+
+- Kris: "send a message to everyone to say that it's going to be running unattended now until 8 AM". Sent as AWAY-UNTIL-0800 to the seven live packages (inbox-sol, inbox-terra, inbox-terra.kiv, household-sol, household-terra, ki.sop.main, tower). Window ends 08:00 GMT with a return report.
+- Kris, about 03:24 GMT, on the goals and scope proposed in this thread (Agora as the place sessions come together; everyone hears, everyone level, who's doing what, speak to everyone from the tray, quiet and dependable; jobs, accounts, keep-awake and host settings captured not built; coordination rules the assistant's; nothing starts an agent on its own): "really, really good ... spot on". Taken as the working objectives until the specification lands.
