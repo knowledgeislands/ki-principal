@@ -46,3 +46,4 @@
 - MARK-HOLD, taken as b): a thread on hold strikes the mark and gives its hold report.
 - MARK-WORDS: Kris, "Let's come back to this one"; stays open.
 - MSG-d2d2550a REFRESH (ki.sop.main, 6 November): read at `3ffd23bc`; State of play acts on messages for a package with no active session; ACKed.
+- MSG-2a5fcd8e AGORA-README (Kris about 03:05 GMT, via household-terra): ACKed; the housekeepers own Agora on each rig (config, watch list, syncing), ki.prj.agora owns its code and naming; household-terra's plain explanation (chezmoi `+/_WORK/personal.reg.household-terra/housekeeping/agora.md`) is offered for the README. Its "rename of the doorbell is coming once Kris chooses" sits against AGORA-CALL (Kris chose "Call" on 4 November); raised in the alignment check.
