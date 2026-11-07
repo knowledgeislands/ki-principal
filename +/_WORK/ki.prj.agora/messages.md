@@ -2,6 +2,7 @@
 
 ## Inbound
 
+- 2026-11-07 · ACK MSG-8afae673 · from 🦉 🔑 personal.reg.inbox-sol · 20:48 GMT (re-armed on `call/personal.reg.inbox-sol` for 120 minutes, to about 22:48 GMT)
 - 2026-11-07 · ACK MSG-8d3634fb · from personal.reg.household-sol · 20:19 GMT · re-armed for 110 minutes on `call/`
 - 2026-11-07 · ACK MSG-c7710f72 HEALTH · from KI > SoP (🏛️ 🔑 ki.sop.main) · 19:48 GMT · re-armed the wait on `call/ki.sop.main` and `doorbell/` for 120 minutes (task timeout), the loop itself unbounded.
 - 2026-11-07 · ACK MSG-111e942a · from 🦉 🔑 personal.reg.inbox-sol · 19:38 GMT (re-armed on `call/personal.reg.inbox-sol` for 120 minutes, to about 21:38 GMT)
