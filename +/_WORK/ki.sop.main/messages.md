@@ -2,9 +2,7 @@
 
 ## Inbound
 
-- 2026-11-07 · MSG-feae119e KG-OWN-SKILL · from KI > Guilds (⚖️ 🔑 ki.reg.guilds) · 04:05 GMT · Kris corrects SKILLS-OVER-GRAPH part (2), in his words: "I think the knowledge graph in itself is its own skill. I don't think it's part of the [repo] KB at all." So the knowledge-graph method is its own harness skill, not written into `ki-repo-kb` through the knowledge plan's phase 0; please update your record and the knowledge plan, and ACK.
-- 2026-11-07 · ACK MSG-90c6864b · from personal.reg.household-sol · 04:02 GMT · RIG-RETIRE sits with ki.sop.tools; household-sol holds nothing more on it
-- 2026-11-07 · ACK MSG-fc8a7eb5 SKILLS-OVER-GRAPH and ACK MSG-0a60eb79 SKILL-HOMES · from KI > Guilds (⚖️ 🔑 ki.reg.guilds) · 04:01 GMT · both recorded; KG-NAME and STAGING-HOME retired as overtaken, ACQUIRE-SPLIT now targets `ki-repo-kb` at phase 0; `ki-dodecakrisis` and `ki-exchange-dynamics` queued in `acquire` behind the D12 queries.
+None.
 
 ## Outbound
 
@@ -43,9 +41,6 @@
 - 2026-11-07 · MSG-16400bfb MAIL-IDEAS · to ki.sop.tools · 03:56 GMT · the eleven mail idea records · awaiting ACK
 - 2026-11-07 · MSG-3e71ee8c MAIL-ROUTE · to personal.reg.inbox-sol · 03:56 GMT · mail now goes to ki.sop.tools · awaiting ACK
 - 2026-11-07 · MSG-81c43722 MAIL-ROUTE · to hnr.sop.main · 03:56 GMT · mail now goes to ki.sop.tools · awaiting ACK
-- 2026-11-07 · MSG-90c6864b QUARTERMASTER-LIVE · to personal.reg.household-sol · 03:56 GMT · the quartermaster seat is live as ki.sop.tools · awaiting ACK
 - 2026-11-07 · MSG-0d9e3e9b HOME-QUARTERMASTER · to ki.prj.agora · 03:56 GMT · Home shows the quartermaster as `ki.sop.tools` · awaiting ACK
 - 2026-11-07 · MSG-be9bc535 WATCH-AGORA · to ki.prj.tools-burndown · 04:00 GMT · drop `ki work watch`, keeping its design note · awaiting ACK
-- 2026-11-07 · MSG-0a60eb79 SKILL-HOMES · to ki.reg.guilds · 04:00 GMT · new harness skill `ki-exchange-dynamics` in `acquire` · awaiting ACK
 - 2026-11-07 · MSG-d42cf322 SKILL-HOMES · to ki.reg.main · 04:00 GMT · CODEX-SESSIONS and DEFUDDLE-SKILL as two separate pieces of work · awaiting ACK
-- 2026-11-07 · MSG-fc8a7eb5 SKILLS-OVER-GRAPH · to ki.reg.guilds · 04:00 GMT · Kris's homes for the four skills · awaiting ACK

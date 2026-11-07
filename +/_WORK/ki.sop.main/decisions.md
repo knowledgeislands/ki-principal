@@ -405,3 +405,9 @@ Kris: "Agreed: WATCH-AGORA, STOA-RELEASE, STOA-GAPS, TIDY-UPS, SKILL-HOMES, SKIL
 - TIDY-UPS a): run all eight tidies as recommended, bring back the read-only lists and the five sol-evidence drops, keep OLD-ORPHANS open.
 - SKILL-HOMES a): a new harness skill `ki-exchange-dynamics` in the `acquire` group; CODEX-SESSIONS and DEFUDDLE-SKILL go to ki.reg.main as separate pieces of work.
 - SKILLS-OVER-GRAPH a): (1) a new harness skill for D12 in `acquire`; (2) the graph method written into `ki-repo-kb` through the knowledge plan's phase 0; (3) the legal skill held as a harness idea until (2) lands; (4) one design note under `ki-work-design` before any `specs-` change. Sent to ki.reg.guilds as the owner's homes.
+
+## 2026-11-07 04:05 GMT · Inbound taken: KG-OWN-SKILL and three ACKs
+
+- MSG-feae119e KG-OWN-SKILL from ki.reg.guilds: Kris corrects SKILLS-OVER-GRAPH part (2) in his words, "I think the knowledge graph in itself is its own skill. I don't think it's part of the [repo] KB at all." Taken: the knowledge-graph method becomes its own harness skill, not part of `ki-repo-kb`; KNOWLEDGE-PLAN's phase 0 now adopts that skill rather than writing the method into `ki-repo-kb`, and the legal skill waits on it. ACKed.
+- ACK MSG-90c6864b from personal.reg.household-sol: RIG-RETIRE sits with ki.sop.tools. Outbound line cleared.
+- ACK MSG-fc8a7eb5 and MSG-0a60eb79 from ki.reg.guilds: SKILLS-OVER-GRAPH and SKILL-HOMES recorded. Outbound lines cleared.
