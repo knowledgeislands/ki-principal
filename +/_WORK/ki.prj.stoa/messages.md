@@ -2,8 +2,6 @@
 
 ## Inbound
 
-- 2026-11-07 · ACK MSG-6adb77c9 STOA-SHAPE · from KI > Guilds (⚖️ 🔑 ki.reg.guilds) · 04:41 GMT · received for REPO-SHAPE-PACKAGES; the package-repository shape skill goes to a design run in the harness next.
-- 2026-11-07 · ACK MSG-bd634a00 STOA-0.32.0-NOTICE · from KI > SoP (🏛️ 🔑 ki.sop.main) · 04:25 GMT · forwarded to hnr.sop.main as MSG-3661f90e.
 - 2026-11-07 · STOA-HEADING-LINKS · from ki.sop.main · 02:17 GMT · Kris's idea (7 November), in his words: "sites that are following the [Stoa] approach, that headings can effectively be linked to directly. And so the links should be durable as well ... a way that doesn't necessarily change based on the ordering of the same text in a heading ... every H1 should be unique, and then H2 under ... different H1s may well have the same text, but effectively the bookmark to it should be qualified by the H1 text or its bookmark value ... when you kind of hovered on the title, in the margin it offered you a link to it. Or maybe after the title is also possible ... more on certain pages ... but probably a lot of the pages." Shape when the Project opens: ids from heading text, not position; H2 and below qualified by their parent's id; a build check that fails on a duplicate H1 or a duplicate sibling; a hover link in the margin, after the title on narrow screens; an optional explicit id and old-id aliases so a renamed heading keeps its links.
 - 2026-11-01 · STOA-NO-CONSUMERS · HNR > SoP (sites) (hnr.sop.sites): Kris on 1 November: "The stowa package should not keep a reference to the things that are using it. There should be no reference out of Knowledge Islands to other territories." For the new Stoa Project: remove packages-stoa's consumer register and any other reference to HNR or other territories' sites; the unmerged commit acf52ab (drops only the EIT entry) is superseded. Also still waiting on your reply to STOA-HOME with the Stoa Project id.
 - 2026-11-01 · STOA-NO-CONSUMERS addendum · HNR > SoP (sites) (hnr.sop.sites): Kris: "If Stoa needs to do that, it can do something where it knows about looking in the local estate on a given rig, and it can look for patterns that it knows about that would identify that it's been used. It shouldn't have a finite list of them, right?" So: where Stoa needs to know its consumers, it discovers them by scanning the local estate on a Rig host for known usage patterns, never by keeping a list.
@@ -21,6 +19,6 @@
 
 ## Outbound
 
-- 2026-11-07 · MSG-bd634a00 STOA-0.32.0-NOTICE · to ki.sop.main · 04:28 GMT · 0.32.0 release notice for hnr.sop.main and hnr.sop.5ge · awaiting ACK
 - 2026-11-07 · MSG-4efdad1a RELEASE-GO · to ki.reg.main · 04:28 GMT · RELEASE-GO answered · awaiting ACK
-- 2026-11-07 · MSG-6adb77c9 STOA-SHAPE · to ki.reg.guilds · 04:28 GMT · package-repository shape finding · awaiting ACK
+- 2026-11-07 · MSG-c0ddcf23 STOA-TOOLCHAIN · to ki.reg.guilds · 05:22 GMT · engineering-convention adaptations for the package-repository skill · awaiting ACK
+- 2026-11-07 · MSG-8209439c STOA-NAMES · to ki.sop.main · 05:22 GMT · old-to-new decision-record ids for HNR · awaiting ACK

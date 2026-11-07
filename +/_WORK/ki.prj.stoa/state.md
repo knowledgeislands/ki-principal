@@ -1,7 +1,7 @@
 ---
 id: ki.prj.stoa
-state: with-worker
-since: 2026-11-07T04:58:00Z
+state: handoff-to-supervisor
+since: 2026-11-07T05:22:00Z
 received: null
 beat: null
 mark: 2026-11-07T02:46:46Z
@@ -17,12 +17,14 @@ method_read: 0c498236
 - STOA-CMD-001 is `done`, accepted by `ki-prj-stoa/accept-cmd-001` in packages-stoa `c4d49ba` ([report](reports/accept-cmd-001.report.md)); the run is closed.
 - Sent: STOA-0.32.0-NOTICE (MSG-bd634a00) to ki.sop.main for HNR, RELEASE-GO (MSG-4efdad1a) to ki.reg.main, STOA-SHAPE (MSG-6adb77c9) to ki.reg.guilds.
 - Stoa is MIT-licensed, copyright Kris, in packages-stoa `a50b307` ([report](reports/licence-mit.report.md)); GitHub's licence field clears once GitHub reads the pushed file.
-- Kris took STOA-AUDIT-REST b) at 04:57 GMT: everything is Stoa, house conventions throughout ([decisions](decisions.md)). Running in sequence: `stoa-names` (no portal-framework name left, decision records into the Stoa scope), `stoa-toolchain` (scripts and tooling on the house conventions) and `stoa-github` (GitHub settings and the final audit).
+- Kris took STOA-AUDIT-REST b) at 04:57 GMT. Done on packages-stoa `main`: no portal-framework name left and decision records in the Stoa scope (stoa-names), scripts and tooling on the house conventions (stoa-toolchain), GitHub settings aligned; the repository audit passes ([reports](reports/)).
+- Sent STOA-NAMES (MSG-8209439c) to ki.sop.main for HNR and STOA-TOOLCHAIN (MSG-c0ddcf23) to ki.reg.guilds.
+- With Kris: STOA-033 in [discussions](discussions.md).
 
 ## Next steps
 
-1. On the three runs' reports: send the old-to-new decision-record ids and the Breaking `PORTAL_FRAMEWORK_CHECKOUT` change to HNR through ki.sop.main, send stoa-toolchain's adaptations to ki.reg.guilds for the package-repository skill, and ask Kris whether to release 0.33.0 for the vendored changes.
-2. Take the remaining [messages](messages.md) lines in queue order: STOA-HEADING-LINKS, STOA-NO-CONSUMERS and its addendum, PRINT-LAYOUT, STOA-CANCELLED, STOA-ICAL-MAPPING, STOA-HANDOVER, STOA-HEADER, STOA-THEME-MENU-CONTRAST, STOA-DIAGRAM-OVERLAY, STOA-TOOLING, STOA-LEGAL, STOA-LINES (MSG-d7d46e9f) and PAGE-TYPES-ADOPT (MSG-8b4360dd).
+1. On Kris's STOA-033 answer, brief the 0.33.0 release and send its notice through ki.sop.main, with the Breaking `PORTAL_FRAMEWORK_CHECKOUT` change.
+2. Take the remaining [messages](messages.md) lines in queue order: STOA-HEADING-LINKS, STOA-NO-CONSUMERS and its addendum, PRINT-LAYOUT, STOA-CANCELLED, STOA-ICAL-MAPPING, STOA-HANDOVER, STOA-HEADER, STOA-THEME-MENU-CONTRAST, STOA-DIAGRAM-OVERLAY, STOA-TOOLING (its item 2 is now done), STOA-LEGAL, STOA-LINES (MSG-d7d46e9f) and PAGE-TYPES-ADOPT (MSG-8b4360dd).
 3. Briefs no longer promise "push nothing": the scheduled `mgit sync --push` job publishes any clean repository ahead of `origin` within minutes.
 
 ## Held
