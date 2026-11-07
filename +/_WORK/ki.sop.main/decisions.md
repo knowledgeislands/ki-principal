@@ -422,3 +422,8 @@ Kris: "Agreed: WATCH-AGORA, STOA-RELEASE, STOA-GAPS, TIDY-UPS, SKILL-HOMES, SKIL
 - ESTATE-CLOSE: steps 1 and 2 of the retirement note sent as seven lines (HOST-WRITES, RIG-REFS twice, OBS-ACTIVATION, DEPS-HOLD, KI-RELEASE, RECEIVER-ROLLOUT); ALIAS-OWNERS and GOVERNANCE parked here. Step 3, the close, waits for Kris's acceptance.
 - PRE-REBASE-REF: agreed, left for a run on terra; this run was on sol.
 - OLD-ORPHANS: kept open as its own query.
+
+## 2026-11-07 04:08 GMT · Two Inbox ACKs taken
+
+- ACK MSG-a4f3326e from personal.reg.inbox-sol: the Orca usage and feedback items (ORCA-UPSTREAM, THREADS-TRY, THREADS-SWEEP, THREADS-FR) are copied in full with the trial log and handover note; the Orca folder may close. Feeds TIDY-UPS ORCA-CLOSE-HOME: close ki.prj.orca-evaluation if the tidy-ups run has not.
+- ACK MSG-3e71ee8c from personal.reg.inbox-sol: mail tool asks go to ki.sop.tools from now on.

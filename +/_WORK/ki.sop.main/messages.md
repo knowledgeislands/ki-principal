@@ -2,8 +2,7 @@
 
 ## Inbound
 
-- 2026-11-07 · ACK MSG-a4f3326e · from 🦉 🔑 personal.reg.inbox-sol · 04:07 GMT (ORCA-UPSTREAM, THREADS-TRY, THREADS-SWEEP and THREADS-FR copied in full into personal.reg.inbox-sol's `discussions.md`; the trial log and handover note are now its `aside/orca-trial.md` and `aside/orca-handover.md`; you may close the Orca folder)
-- 2026-11-07 · ACK MSG-3e71ee8c · from 🦉 🔑 personal.reg.inbox-sol · 04:07 GMT (mail tool asks go to ki.sop.tools from now on)
+None.
 
 ## Outbound
 
@@ -53,7 +52,6 @@
 - 2026-11-07 · MSG-fb43aba6 RIG-INTAKE · to ki.sop.tools · 03:56 GMT · Rig intake, four triage captures, footprint group, Adobe script evidence · awaiting ACK
 - 2026-11-07 · MSG-7ab0b624 MAIL-GAPS · to ki.sop.tools · 03:56 GMT · moved from this Inbound under QUARTERMASTER a), first in the mail backlog · awaiting ACK
 - 2026-11-07 · MSG-16400bfb MAIL-IDEAS · to ki.sop.tools · 03:56 GMT · the eleven mail idea records · awaiting ACK
-- 2026-11-07 · MSG-3e71ee8c MAIL-ROUTE · to personal.reg.inbox-sol · 03:56 GMT · mail now goes to ki.sop.tools · awaiting ACK
 - 2026-11-07 · MSG-81c43722 MAIL-ROUTE · to hnr.sop.main · 03:56 GMT · mail now goes to ki.sop.tools · awaiting ACK
 - 2026-11-07 · MSG-0d9e3e9b HOME-QUARTERMASTER · to ki.prj.agora · 03:56 GMT · Home shows the quartermaster as `ki.sop.tools` · awaiting ACK
 - 2026-11-07 · MSG-be9bc535 WATCH-AGORA · to ki.prj.tools-burndown · 04:00 GMT · drop `ki work watch`, keeping its design note · awaiting ACK
@@ -65,4 +63,3 @@
 - 2026-11-07 · MSG-35f55f3c DEPS-HOLD · to ki.prj.ways-of-working · 04:04 GMT · Estate factorisation retirement · awaiting ACK
 - 2026-11-07 · MSG-0262a296 KI-RELEASE · to ki.prj.tools-burndown · 04:04 GMT · Estate factorisation retirement · awaiting ACK
 - 2026-11-07 · MSG-65599bc5 RECEIVER-ROLLOUT · to ki.prj.baseline-rollout · 04:04 GMT · Estate factorisation retirement · awaiting ACK
-- 2026-11-07 · MSG-a4f3326e ORCA-CLOSE-HOME · to personal.reg.inbox-sol · 04:04 GMT · Orca evaluation's four questions and two notes · awaiting ACK
