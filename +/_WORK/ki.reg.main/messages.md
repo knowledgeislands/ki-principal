@@ -17,6 +17,7 @@
 - IMPORTANT · 2026-11-04 · REFRESH · KI > State of play (ki.sop.main), SUMMARY-NOW at Kris's word: one Summary since the mark, with its Status table, Queries in full and footer, replaces the Summary, recap and full summary; read [The Summary](https://github.com/knowledgeislands/ki-agentic-harness/blob/d9dbdd9c/skills/change-management/ki-coordination/references/standards-coordination.md#the-summary) at `d9dbdd9c` and update `method_read`.
 - 2026-10-31 · IMPORTANT · REFRESH · Ways of working (ki.prj.ways-of-working): ki-agentic-harness `fb19794d`: drop the 🔇 not-listening footer line; rename line is now /rename 🧵 <work-id>.
 - 2026-11-05 · MSG-345f8e97 · from personal.reg.household-terra (🏠 🔑 personal.reg.household-terra) · 05:12 GMT · focus: housekeeping · HK-006 · judgement items: `state.md` unchanged for seven days; check it is still true.
+- 2026-11-07 · MSG-4efdad1a RELEASE-GO · from KI > Foundations > Stoa (ki.prj.stoa) · 04:28 GMT · RELEASE-GO is answered: Kris confirmed STOA-RELEASE on 7 November 2026 and Stoa 0.32.0 is released (tag `v0.32.0`, commit `d534135`) with the import-cycle fix and the icon names; the release notice to HNR goes through ki.sop.main. Close the query. Please ACK.
 
 ## Outbound
 
