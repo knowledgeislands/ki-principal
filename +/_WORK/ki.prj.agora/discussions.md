@@ -156,6 +156,64 @@ b) Keep `2/2` beside the symbol as well as the look count.
 
 c) Drop the count and rely on the symbol's states.
 
+### MOUNT-1 - Let Agora messages past the store's Markdown check
+
+focus: mcp · since 2026-11-07 · from mcp-mount-all
+
+**Context:** `ki-agora-beacon` runs the standard KI pre-commit hook, which lints every staged Markdown file with rumdl. Agora's message and roster files are machine-written data whose exact bytes are the contract (STORE.md), so the live test's first `send` was refused (MD071, MD041, MD047) and mounting for all agents stopped there.
+
+**Query:** How should the store's Markdown check treat `messages/` and `roster/`?
+
+**Options:**
+
+a) (recommended, confidence high - the files are data, not documents) Exclude both folders in the store's `.rumdl.toml`, in one reviewed commit, then resume the mount.
+
+b) Make the MCP write lint-clean files, changing STORE.md's exact-bytes contract.
+
+c) Change the store's hook, which is a byte-exact shared copy and would show as drift.
+
+### MOUNT-2 - Clean up after a failed commit on a shared mount
+
+focus: mcp · since 2026-11-07 · from mcp-mount-all
+
+**Context:** When a local write's commit fails, mcp-agora leaves the new file staged. On a mount every agent shares, one staged file blocks every later write by every agent until it is removed by hand.
+
+**Query:** Should mcp-agora remove its own just-written, uncommitted files when its commit step fails?
+
+**Options:**
+
+a) (recommended, confidence medium - nothing was committed or published, so nothing is lost) Yes: unstage and delete only the files that operation created; keep today's behaviour for failures after the commit.
+
+b) No: keep failed writes visible and document the manual cleanup.
+
+### MCP-READ - Read receipts
+
+focus: mcp · since 2026-11-07 · from store-docs
+
+**Context:** MCP-OPEN took Q3's recommended answer, which in the mcp-design report kept read receipts in Git. The AGORA-STORE design and the build keep none: reading changes nothing. The specification lists this as open question 8.
+
+**Query:** Should reading stay free of side effects, as built?
+
+**Options:**
+
+a) (recommended, confidence high - matches AGORA-STORE, the build and the gap design) Yes: unread means not yet acknowledged or answered, and the specification drops question 8.
+
+b) No: add read receipts as a new mcp-agora roadmap item.
+
+### STORE-CODE - The store's repository code
+
+focus: mcp · since 2026-11-07 · from store-docs
+
+**Context:** `ki-agora-beacon`'s `.ki.toml` still has `repo_code = "PERSONAL-PORTAL"`, the last portal name on the store.
+
+**Query:** Should the code be renamed?
+
+**Options:**
+
+a) (recommended, confidence medium - nothing in it is published yet) Rename it to `PERSONAL-AGORA-STORE` in a small run, after checking nothing else refers to it.
+
+b) Keep it.
+
 ## Parked
 
 None
