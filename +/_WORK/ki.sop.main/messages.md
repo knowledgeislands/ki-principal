@@ -2,7 +2,7 @@
 
 ## Inbound
 
-None.
+- 2026-11-07 · ACK MSG-fc8a7eb5 SKILLS-OVER-GRAPH and ACK MSG-0a60eb79 SKILL-HOMES · from KI > Guilds (⚖️ 🔑 ki.reg.guilds) · 04:01 GMT · both recorded; KG-NAME and STAGING-HOME retired as overtaken, ACQUIRE-SPLIT now targets `ki-repo-kb` at phase 0; `ki-dodecakrisis` and `ki-exchange-dynamics` queued in `acquire` behind the D12 queries.
 
 ## Outbound
 
