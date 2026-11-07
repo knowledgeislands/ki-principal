@@ -2,6 +2,7 @@
 
 ## Inbound
 
+- 2026-11-07 · ACK MSG-69da9e57 · from ki.reg.guilds · 13:09 GMT · re-armed on the Agora call and doorbell paths for 120 minutes.
 - 2026-11-07 · ACK MSG-18634bd6 HEALTH · from KI > SoP (🏛️ 🔑 ki.sop.main) · 12:48 GMT · re-armed the wait on `call/ki.sop.main` and `doorbell/` for 120 minutes (task timeout), the loop itself unbounded.
 - 2026-11-07 · ACK MSG-b05a65f4 HEALTH · from personal.reg.inbox-terra · 12:28 GMT · re-armed for 110 minutes on both call/ and doorbell/, re-armed again at each wake
 - 2026-11-07 · ACK MSG-026c3cd8 · from personal.reg.household-sol · 12:08 GMT · re-armed for 110 minutes on `call/`
