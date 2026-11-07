@@ -375,6 +375,33 @@
 - 2026-11-07 03:17 GMT · Received run `sop-tools`, blocked: `ki.sop.tools` drafted (five files, `rumdl` clean) but left untracked, because a secondary State of play must cover at least one work and the candidate, ki.prj.tools-burndown, is part of QUARTERMASTER's open move. Its SOP-TOOLS-COVERS query folded into QUARTERMASTER rather than raised separately. ki.sop.main's `covers` must not name a secondary State of play; the secondary's `parent` is the link. RIG-RETIRE had no sent line, so the draft carries the brief's fallback text. Brief pruned.
 - 2026-11-07 03:38 GMT · HEALTH MSG-c2537c49 (ki.prj.agora): watcher re-armed for 120 minutes; ACKed.
 
+## 2026-11-07 · CHEZMOI-HANDOVER answered
+
+Kris, on the card (query 1 of 18): "Fold and fix (recommended, high confidence)". Read back as taken: CHEZMOI-HANDOVER a). One run writes the chezmoi handover note, routes each live line to household-terra, household-sol, the tools-rig lane or the harness, carries chezmoi's open discussions across and puts ki.prj.chezmoi On hold pending close-out; one message asks personal.reg.household-sol to remove `autoStash = true` from `dot_gitconfig`, review `chezmoi diff` and apply on both Macs, keeping `pull.rebase`. Launch held until the query pass ends.
+
+## 2026-11-07 · QUARTERMASTER answered
+
+Kris, on the card (query 2 of 18): "Move, commit, send both (recommended, high confidence)". Read back as taken: QUARTERMASTER a). Set `ki.sop.tools` covers to ki.prj.tools-burndown and that Project's parent to ki.sop.tools; commit the seat and tell household-sol; then send it the Rig intake (RIG-TUI, RIG-SSH-CHECK, RIG-COMMENT-KIND, RIG-CLI-CONSISTENCY, the footprint group held with KI-TOOL-RIG-CORE-072, the Adobe script as evidence) and the mail backlog, MAIL-GAPS first, replying to the Inbox and HNR with its id. Kris opens its session when he chooses. Launch held until the query pass ends.
+
+## 2026-11-07 · KNOWLEDGE-PLAN deferred within the pass
+
+Kris, on the card (query 3 of 18): "ansk me others first, lets get most things working". Read back as taken: KNOWLEDGE-PLAN stays open and moves to the end of the pass, with its knowledge-graph companions RESOURCES-IN, STOA-NAMES, PREDICATES, WORK-FOLDER and LIBRARY-NOW; the operational queries come first.
+
+## 2026-11-07 · ACCEPTANCE answered
+
+Kris, on the card (query 3 of 18): "Quiet output, then review (recommended, high confidence)". Read back as taken: ACCEPTANCE a), covering CHAIN-QUIET a) and CHAIN-START-ENTER a). One run builds the quiet chain output in tools-mgit, then a fresh review-prep run prepares KI-TOOL-MGIT-CLI-032 and KI-TOOL-MGIT-CLI-033 for Kris to accept; Kris runs one attended `rig apply` on sol, accepts the `.toml` prompt and confirms Rig records Zed, then accepts KI-TOOL-RIG-CORE-070. Launch held until the query pass ends; CHAIN-START-FIRST still gates KI-TOOL-MGIT-CLI-032.
+
 ## 2026-11-07 · QUARTERMASTER enacted (run quartermaster-live)
 
 - 2026-11-07 03:56 GMT · Under QUARTERMASTER a): `ki.sop.tools` covers ki.prj.tools-burndown, whose parent is now ki.sop.tools, and this work's `covers` no longer lists it; `ki.sop.tools` stays On hold until Kris opens it. MSG-7ab0b624 MAIL-GAPS (personal.reg.inbox-terra) moved from this Inbound to ki.sop.tools, first in its mail backlog. Sent to ki.sop.tools the Rig intake (MSG-fb43aba6) and the eleven mail idea records (MSG-16400bfb); told personal.reg.inbox-sol (MSG-3e71ee8c) and hnr.sop.main (MSG-81c43722) that mail now goes to ki.sop.tools, personal.reg.household-sol that the seat is live (MSG-90c6864b) and ki.prj.agora that Home shows `ki.sop.tools` (MSG-0d9e3e9b).
+
+## 2026-11-07 03:57 GMT · Six queries agreed
+
+Kris: "Agreed: WATCH-AGORA, STOA-RELEASE, STOA-GAPS, TIDY-UPS, SKILL-HOMES, SKILLS-OVER-GRAPH". Read back as taken, each as recommended:
+
+- WATCH-AGORA a): tools-ki drops `ki work watch`, keeping its design for reference.
+- STOA-RELEASE: "release" for Stoa 0.32.0 under the repository's own release process.
+- STOA-GAPS: "go" for the Known Lands entry for `packages-stoa` and `.ki.toml` `territory_members`.
+- TIDY-UPS a): run all eight tidies as recommended, bring back the read-only lists and the five sol-evidence drops, keep OLD-ORPHANS open.
+- SKILL-HOMES a): a new harness skill `ki-exchange-dynamics` in the `acquire` group; CODEX-SESSIONS and DEFUDDLE-SKILL go to ki.reg.main as separate pieces of work.
+- SKILLS-OVER-GRAPH a): (1) a new harness skill for D12 in `acquire`; (2) the graph method written into `ki-repo-kb` through the knowledge plan's phase 0; (3) the legal skill held as a harness idea until (2) lands; (4) one design note under `ki-work-design` before any `specs-` change. Sent to ki.reg.guilds as the owner's homes.
