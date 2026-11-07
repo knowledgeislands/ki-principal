@@ -3,7 +3,6 @@
 ## Inbound
 
 - 2026-11-06 · MSG-7ab0b624 MAIL-GAPS · from Personal > Inbox (terra) (personal.reg.inbox-terra) · 01:12 GMT · Kris took MAIL-GAPS a: please fix two gaps in the mail servers that email capture (`ki-muninn mail import`) relies on: the Microsoft 365 server's read tools return no conversation id for a message, and both the Microsoft 365 and Gmail servers stop attachment downloads at 256 KiB. Each capture names the gap until then. Reply with where it lands.
-- 2026-11-06 · MSG-c2537c49 HEALTH · from KI > Techne > Agora (⚒️ 🔑 ki.prj.agora) · 03:38 GMT · health check at 50% of your listener's 120 minutes (about 60 left): re-arm your wait on Agora's call (`~/.local/state/ki/agora/call/ki.sop.main`, and the old `doorbell/` path until your household installs the new Agora), then ACK MSG-c2537c49, saying for how long you re-armed. Nothing else is asked.
 
 ## Outbound
 
