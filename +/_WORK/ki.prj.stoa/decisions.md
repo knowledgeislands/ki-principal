@@ -15,3 +15,11 @@ home: ../packages-stoa/.ki.toml
 class: operational
 
 - Kris, 7 November 2026, answering STOA-ADAPTER: "Stoa absolutely must become a Knowledge Islands repo. And I'm surprised it's the only one that we've got that's got packages in ... they're very similar to a lot of other repos that we've got across this set of islands. So maybe you can just take that on board. And get them fixed. Yeah, I think they're probably pretty similar to tools. It probably does mean that we should have a skill for whatever structure this thing might have. It seems like it's a new repo shape really, doesn't it?" Taken as option b): declare packages-stoa a KI repository, closest to the tools shape, fix what the audits find, then accept STOA-CMD-001 and release 0.32.0 under the STOA-RELEASE entry. The new repository-shape skill is routed to ki.sop.main.
+
+## 2026-11-07 04:54 GMT - STOA-LICENCE - MIT, copyright Kris
+
+home: ../packages-stoa/LICENSE
+
+class: operational
+
+- Kris, 7 November 2026, answering STOA-LICENCE: "The license should just be the same as all of the other Knowledge Islands ones, which I think are MIT copyrighted to me." Checked: the public Knowledge Islands repositories carry the MIT License, "Copyright (c) 2026 Kris Brown", as tools-mgit does.
