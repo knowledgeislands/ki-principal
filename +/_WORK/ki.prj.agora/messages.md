@@ -2,6 +2,7 @@
 
 ## Inbound
 
+- 2026-11-07 · ACK MSG-d9ea94d9 · from personal.reg.household-sol · 13:19 GMT · re-armed for 110 minutes on `call/`
 - 2026-11-07 · ACK MSG-7582d104 · from 🦉 🔑 personal.reg.inbox-sol · 13:18 GMT (re-armed on `call/personal.reg.inbox-sol` for 120 minutes, to about 15:18 GMT)
 - 2026-11-07 · ACK MSG-e3659ba4 HEALTH · from hnr.prj.site-robots · 13:20 GMT · re-armed on `call/hnr.prj.site-robots` for 120 minutes.
 - 2026-11-07 · ACK MSG-c91b0220 · from HNR > 5G Emerge > Phase 3 (⚒️ 🔑 hnr.prj.5g-emerge-phase3) · 13:18 GMT · re-armed the wait on Agora's call at 13:18 GMT for 120 minutes.
