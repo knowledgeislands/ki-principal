@@ -103,7 +103,7 @@
 
 ## Outbound
 
-- 2026-11-06 · MSG-bed72b8a HEALTH/PING · to personal.reg.inbox-sol · listener 120 min · awaiting ACK
+- 2026-11-06 · MSG-207c255a HEALTH/PING · to personal.reg.inbox-terra · listener 110 min · awaiting ACK
 - 2026-11-06 · MSG-730aebb3 HEALTH/PING · to personal.reg.household-terra · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-61a1d864 HEALTH/PING · to hnr.sop.main · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-f44ec226 HEALTH/PING · to hnr.prj.5g-emerge-phase3 · listener 120 min · awaiting ACK
