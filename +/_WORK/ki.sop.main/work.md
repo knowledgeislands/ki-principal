@@ -1,4 +1,5 @@
 ---
+role: governor
 id: ki.sop.main
 level: territory
 covers:

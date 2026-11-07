@@ -5,12 +5,11 @@ since: 2026-11-04T09:29:30Z
 received: 2026-10-19T17:58:50Z
 beat: null
 mark: 2026-11-06T00:03:53Z
-method_read: 27af582d
+method_read: a4da0db2
 listening_enabled: true
 listening_status: on
 workers:
-  - uri: orca+claude-code://sol/50890039-c02d-4519-9d93-e3ed5b20e095
-    name: 🏛️ 🔑 ki.sop.main
+  - name: 🏛️ 🔑 ki.sop.main
     role: governor
     tier: leaders
     focus: []
