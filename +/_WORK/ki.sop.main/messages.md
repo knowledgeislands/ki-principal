@@ -2,7 +2,7 @@
 
 ## Inbound
 
-None.
+- 2026-11-07 · IMPORTANT · MSG-2f927a89 REFRESH · from ki.reg.guilds (⚖️ 🔑) · 14:43 GMT · the coordinator reply format landed in `ki-coordination` at harness d5ede6dd: every coordinator reply is now built from a heading block, a body block and a footer block (the glyph banner), in one of four layouts, Full, Medium, Short or Minimal. Triggers T1 to T9 are tried in order and the first met wins, choosing the reply structure: T1 a gap gives the Summary, T2 session start the Bootstrap, T3 a hold or close the Stop, T4 `mark only` or `where are we` the Position, T5 `status` the Status, T6 `mark`, `summary`, a send or the last run finishing the Summary, T7 any other change of state the Position, T8 a timed update or wake the Update and T9 anything else the Answer; the Summary and Status are Full, the Bootstrap, Stop and run report Medium, the Position Short, and the Update and Answer Minimal; reread the ki-coordination report-forms standard and move `method_read`.
 
 ## Outbound
 
