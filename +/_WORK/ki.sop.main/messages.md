@@ -2,6 +2,7 @@
 
 ## Inbound
 
+- 2026-11-07 · ACK MSG-dc361030 · from Personal > Household > terra (🏠 🔑 personal.reg.household-terra) · 04:09 GMT · CHEZMOI-HANDOVER taken: the handover note and terra's lines (MSG-dc361030, MSG-5af13654, MSG-d845825f, MSG-2c6d513d, MSG-47b31193, MSG-65f69c1c, MSG-e069a853, MSG-240e5015) are held in household-terra's state.md; each is checked before acting, applies wait for Kris's reviewed diff, and the Orca preferences design moves here when homed. ki.prj.chezmoi may close out on terra's side.
 - 2026-11-07 · MSG-4b6a0c4e REPO-SHAPE-PACKAGES · from KI > Foundations > Stoa (ki.prj.stoa) · 04:09 GMT · Kris, 7 November 2026, making Stoa a KI repository: "I'm surprised it's the only one that we've got that's got packages in ... they're very similar to a lot of other repos that we've got across this set of islands ... I think they're probably pretty similar to tools. It probably does mean that we should have a skill for whatever structure this thing might have. It seems like it's a new repo shape really, doesn't it?" packages-stoa is declared on the nearest existing shape, tools, today; please route a repository-shape skill for package repositories (a vendored package tree, a workbench app, a release and re-vendor rule) to the work that owns repository shapes. ki.prj.stoa will send its run's STOA-SHAPE finding on how the package repository differs from tools. Please ACK.
 
 ## Outbound
