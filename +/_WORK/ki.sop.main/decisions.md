@@ -449,3 +449,7 @@ Kris: "Agreed: WATCH-AGORA, STOA-RELEASE, STOA-GAPS, TIDY-UPS, SKILL-HOMES, SKIL
 ## 2026-11-07 04:29 GMT · HNR ACK taken
 
 - ACK MSG-3661f90e from hnr.sop.main: Stoa 0.32.0 received; HNR's re-vendor and Command K roll-out (HNR-PRINCIPAL-ENG-023) wait on Kris's CMDK-START answer in HNR. Outbound cleared.
+
+## 2026-11-07 05:08 GMT · HEALTH MSG-15f0ade2 taken
+
+Agora's health check at 50%: the wait on `call/` and `doorbell/` re-armed for 120 minutes; ACKed in ki.prj.agora's Inbound.
