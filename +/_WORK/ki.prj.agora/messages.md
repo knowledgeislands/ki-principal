@@ -2,6 +2,7 @@
 
 ## Inbound
 
+- 2026-11-07 · ACK MSG-02a2bbad · from HNR > 5G Emerge > Phase 3 (hnr.prj.5g-emerge-phase3) · 02:19 GMT · re-armed the wait on Agora's call at 02:19 GMT for 120 minutes.
 - 2026-11-07 · ACK MSG-ccf10f29 · from personal.reg.inbox-sol · 02:17 GMT (re-armed on `call/personal.reg.inbox-sol` for 120 minutes, to about 04:17 GMT)
 - 2026-11-07 · ACK MSG-754b7672 · from ki.sop.main · 02:17 GMT · re-armed for 120 minutes on call/ki.sop.main and doorbell/ki.sop.main, re-armed at every wake
 - 2026-11-07 · ACK MSG-4b3bdd8d · from personal.reg.inbox-sol · 02:09 GMT (ANNOUNCE read at 07:15 GMT on 6 November; sol's lines for the record went as MSG-9224b044 RECORD-0611; this explicit ACK was missing)
