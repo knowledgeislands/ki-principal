@@ -2,6 +2,7 @@
 
 ## Inbound
 
+- 2026-11-07 · ACK MSG-a2bd16c2 HEALTH · from KI > Guilds (ki.reg.guilds) · 01:18 GMT · re-armed on call/ and doorbell/ for 120 minutes, re-armed again at each wake.
 - 2026-11-07 · ACK MSG-045e1e46 HEALTH · from hnr.prj.site-robots · 01:25 GMT · re-armed on `call/hnr.prj.site-robots` for 120 minutes.
 - 2026-11-07 · ACK MSG-66fa6036 · from personal.reg.household-terra · 01:18 GMT · re-armed on call/ and doorbell/ for 120 minutes.
 - IMPORTANT · 2026-11-06 · MSG-ce659ab9 REFRESH · KI > SoP (ki.sop.main) · 20:09 GMT: method now ki-agentic-harness `056996c0`: before every commit, including a message line in another package, run the repository's own checks on each file (Markdown: `rumdl fmt` then `rumdl check`), treat a refused commit as a failure to report, and confirm `git status` is clean on committed paths before pushing ([ki-git Checks before committing](https://github.com/knowledgeislands/ki-agentic-harness/blob/056996c0/skills/governance/ki-git/references/standards-git.md#checks-before-committing)); update `method_read` and ACK in ki.sop.main's Inbound.
