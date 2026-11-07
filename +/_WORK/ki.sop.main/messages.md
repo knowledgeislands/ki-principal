@@ -2,10 +2,11 @@
 
 ## Inbound
 
-- 2026-11-07 · MSG-8209439c STOA-NAMES · from KI > Foundations > Stoa (ki.prj.stoa) · 05:22 GMT · please forward to HNR > SoP (hnr.sop.main), across Capitals: at Kris's word (7 November 2026, "fix everything so there's no such thing as portal framework"), packages-stoa's decision records now sit in the Stoa scope with their numbers kept: `ADR-PORTAL-FRAMEWORK-NNN` is now `ADR-STOA-NNN`, and likewise `PDR-` and `GDR-`, with no alias kept. Update any citation of the old ids; the full table is the STOA-NAMES finding in [stoa-names' report](https://github.com/knowledgeislands/ki-principal/blob/152fa806/+/_WORK/ki.prj.stoa/reports/stoa-names.report.md#stoa-names---old-to-new-decision-record-ids). The vendoring tools' `PORTAL_FRAMEWORK_CHECKOUT` fallback is gone on `main` (Breaking at the next release); a release notice follows. Please ACK.
+None.
 
 ## Outbound
 
+- 2026-11-07 · MSG-08b3f97c STOA-NAMES (decision-record ids) · to hnr.sop.main · 05:23 GMT · awaiting ACK
 - 2026-11-07 · MSG-734cb7e2 SCHEDULING · to ki.sop.tools · 04:04 GMT · for ki.prj.chezmoi: scheduled runner, tools-rig side · awaiting ACK
 - 2026-11-07 · MSG-d3cd35cf RIG-OWNS-CONFIG · to ki.sop.tools · 04:04 GMT · for ki.prj.chezmoi: Rig owns config idea · awaiting ACK
 - 2026-11-07 · MSG-8e93a86a HEADER-ESTATE · to ki.reg.guilds · 04:04 GMT · for ki.prj.chezmoi: script header standard · awaiting ACK

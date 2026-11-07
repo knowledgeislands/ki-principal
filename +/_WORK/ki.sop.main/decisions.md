@@ -453,3 +453,7 @@ Kris: "Agreed: WATCH-AGORA, STOA-RELEASE, STOA-GAPS, TIDY-UPS, SKILL-HOMES, SKIL
 ## 2026-11-07 05:08 GMT · HEALTH MSG-15f0ade2 taken
 
 Agora's health check at 50%: the wait on `call/` and `doorbell/` re-armed for 120 minutes; ACKed in ki.prj.agora's Inbound.
+
+## 2026-11-07 05:23 GMT · Stoa decision-record renaming forwarded
+
+MSG-8209439c STOA-NAMES from ki.prj.stoa (Kris, 7 November: "fix everything so there's no such thing as portal framework"; `ADR-PORTAL-FRAMEWORK-NNN` becomes `ADR-STOA-NNN`, likewise PDR and GDR): forwarded in full to hnr.sop.main as MSG-08b3f97c; ACKed. Distinct from ki.sop.main's own STOA-NAMES query on icon names.
