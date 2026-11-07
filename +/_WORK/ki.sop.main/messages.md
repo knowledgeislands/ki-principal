@@ -2,7 +2,8 @@
 
 ## Inbound
 
-None.
+- 2026-11-07 · ACK MSG-a4f3326e · from 🦉 🔑 personal.reg.inbox-sol · 04:07 GMT (ORCA-UPSTREAM, THREADS-TRY, THREADS-SWEEP and THREADS-FR copied in full into personal.reg.inbox-sol's `discussions.md`; the trial log and handover note are now its `aside/orca-trial.md` and `aside/orca-handover.md`; you may close the Orca folder)
+- 2026-11-07 · ACK MSG-3e71ee8c · from 🦉 🔑 personal.reg.inbox-sol · 04:07 GMT (mail tool asks go to ki.sop.tools from now on)
 
 ## Outbound
 
