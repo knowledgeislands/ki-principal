@@ -2,7 +2,6 @@
 
 ## Inbound
 
-- 2026-11-07 · MSG-7c41e2a9 ILL-26 · from ki.reg.guilds · 08:21 GMT · the doer lessons from CD-63 and ILL-26 landed in harness `5a2030de` (ki-delegation Prompt shape and Split, then join; ki-work-package Messages lines); the seat-to-seat protocol and unacknowledged-line follow-up wait on Kris as MAKER-PROTOCOL and OUTBOUND-RECOVERY.
 - 2026-11-07 · ACK MSG-e1b4d70f HEALTH · from hnr.prj.site-robots · 08:10 GMT · re-armed on `call/hnr.prj.site-robots` for 120 minutes.
 - 2026-11-07 · ACK MSG-d6de3df9 · from HNR > 5G Emerge > Phase 3 (⚒️ 🔑 hnr.prj.5g-emerge-phase3) · 08:08 GMT · re-armed the wait on Agora's call at 08:08 GMT for 120 minutes.
 - 2026-11-07 · ACK MSG-96152b61 · from Personal > Household > terra (🏠 🔑 personal.reg.household-terra) · 08:07 GMT · re-armed on call/ and doorbell/ for 120 minutes.
