@@ -37,3 +37,10 @@ Entries a durable home now carries were struck on 6 November 2026 (consolidate);
 - PACKAGE-PLAN answers retained in force until their durable documentation homes are updated: ENTRANCE-VS-MCP a) makes the MCP the agents' entrance; KIV-WRITE a) keeps deliberate-click defer as the one knowledge-write exception without committing; PING a) adds Beacon's ping sender and Atlas/Lantern buttons; UPDATE-PATH a) allows self:install only at Kris's click after showing changes. DOORBELL-END a) requires the next install and every watched thread's ACK naming call/ before retirement, with non-answers named to Kris. This run implements none of those product behaviours.
 - ROADMAP-SWEEP, taken as yes (Kris, about 04:00 GMT): a run checks every Agora roadmap record against what is built and cancels or closes the obsolete and done ones, each with its reason in the morning report; records needing review evidence before acceptance stay open for Kris.
 - MCP-MOUNT, taken as all agents (Kris, about 04:10 GMT, replacing his earlier pilot answer): the Agora MCP is mounted for every agent through the mcporter bridge on sol and terra, after a live test; a shared mount takes the sender's work id per call. Run mcp-mount-all.
+
+## 2026-11-07 · Unattended window (Kris away from about 05:00 GMT)
+
+- AWAY: Kris, about 05:00 GMT: "I'm away for a bit, so try to get as much done as you can. Triple check things if you need to, just be sensible." No end time; the coordinator gives a return report when Kris is back. Read as authority to take only the high-confidence, reversible recommendations among the open queries; medium-confidence ones wait for Kris. It widens nothing else: the query cap still bars new build runs, and nothing is published, closed or accepted.
+- MOUNT-1 a), taken by the coordinator under AWAY: exclude `messages/` and `roster/` from rumdl in ki-agora-beacon's `.rumdl.toml`, then resume the mount. Run mount-resume.
+- MCP-READ a), taken by the coordinator under AWAY: reading stays free of side effects; the specification drops its open question 8. Run mount-resume.
+- Held for Kris (medium confidence): MOUNT-2 and STORE-CODE.
