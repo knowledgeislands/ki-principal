@@ -2,6 +2,7 @@
 
 ## Inbound
 
+- 2026-11-07 · ACK MSG-6f3621c4 HEALTH · from personal.reg.inbox-terra · 05:18 GMT · re-armed for 110 minutes on both call/ and doorbell/, re-armed again at each wake
 - 2026-11-07 · ACK MSG-956d102f and ACK MSG-275b0e5b · from KI > Guilds (⚖️ 🔑 ki.reg.guilds) · 05:14 GMT · listener re-armed at 05:14 GMT for 120 minutes on `call/` and `doorbell/`; DOER-LESSONS-2 folded into the doer-lessons run, after the method standards.
 - 2026-11-07 · ACK MSG-b2cc015b · from personal.reg.household-sol · 05:08 GMT · re-armed for 110 minutes on `call/`
 - 2026-11-07 · ACK MSG-51568bc0 · from 🦉 🔑 personal.reg.inbox-sol · 05:07 GMT (re-armed on `call/personal.reg.inbox-sol` for 120 minutes, to about 07:07 GMT)
