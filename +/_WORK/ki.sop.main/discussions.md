@@ -262,6 +262,18 @@ a) (recommended, confidence medium - phase 0 gives the seat real work at once; i
 
 b) Keep LIBRARY-OPEN a): wait for Stage C's concept step.
 
+### ADOPT-MOD-012 - Take up the hold-states and values change
+
+**Context:** On 7 November you asked for the guild's Work Process note changes to go "under one Enactment record" (HOLD-STATES a)). [KI-PRINCIPAL-MOD-012](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-012-hold-states-and-values.md) is that record. It is filed as triage, which means not yet taken up. Before it can be planned and the note edited, you need to adopt it as a draft and set when it should happen (its horizon), then review the draft's exact wording.
+
+**Query:** Should KI-PRINCIPAL-MOD-012 be adopted as a draft for Now so its wording goes to you for Enactment review?
+
+**Options:**
+
+a) (recommended, confidence high - it carries out your own HOLD-STATES a) answer, and the harness side has already landed) Adopt it as a draft for Now, as a ways-of-working model change. Then review the draft's exact wording before it is planned and applied.
+
+b) Leave it in triage until the ways-of-working Project picks up its other Work Process amendment, [KI-PRINCIPAL-MOD-011](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-011-amend-work-model-assigned-package-cascade.md), so both changes to the note are reviewed together.
+
 ## Parked
 
 - ALIAS-OWNERS (from ki.prj.estate-factorisation, under ESTATE-CLOSE a), 7 November): territory alias ownership is a governance residual; State of play keeps it parked until a Harness or Principal record owns it. Recommended: keep parked.
