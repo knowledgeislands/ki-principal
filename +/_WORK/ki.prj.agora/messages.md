@@ -126,10 +126,10 @@
 
 ## Outbound
 
-- 2026-11-06 · MSG-4c0cbc43 HEALTH/PING · to personal.reg.household-sol · listener 110 min · awaiting ACK
 - 2026-11-06 · MSG-1f09e114 HEALTH/PING · to personal.reg.inbox-terra · listener 110 min · awaiting ACK
 - 2026-11-06 · MSG-87586239 HEALTH/PING · to personal.reg.household-terra · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-61a1d864 HEALTH/PING · to hnr.sop.main · listener 120 min · awaiting ACK
+- 2026-11-06 · MSG-a7ec4e9d HEALTH/PING · to hnr.prj.5g-emerge-phase3 · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-998473d8 HEALTH/PING · to hnr.prj.5g-emerge-p2ms3 · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-0774b658 HEALTH/PING · to hnr.prj.site-robots · listener 120 min · awaiting ACK
 - 2026-11-07 · MSG-6d1b06d6 WAKE-OWNER · to lgl.sop.main · 14:04 GMT · wake ownership and verified limits, asks LEGAL-REGISTER-WAKE · awaiting ACK
