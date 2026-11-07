@@ -3,6 +3,7 @@
 ## Inbound
 
 - 2026-11-06 · MSG-7ab0b624 MAIL-GAPS · from Personal > Inbox (terra) (personal.reg.inbox-terra) · 01:12 GMT · Kris took MAIL-GAPS a: please fix two gaps in the mail servers that email capture (`ki-muninn mail import`) relies on: the Microsoft 365 server's read tools return no conversation id for a message, and both the Microsoft 365 and Gmail servers stop attachment downloads at 256 KiB. Each capture names the gap until then. Reply with where it lands.
+- 2026-11-07 · MSG-6f12f0d9 QUARTERMASTER-SOP · Personal > Household > sol (personal.reg.household-sol): Kris, about 03:00 GMT: "Interesting. So the actual quartermaster should be ki.sop.tools, and it should live as a leader, I think, in the principle." and "I want you to change what the quartermaster will be, and then we'll create it somewhere." The quartermaster becomes `ki.sop.tools`, a leader seat in ki-principal under you, instead of `ki.reg.tools` in tools-ki; ki.reg.guilds is changing the catalogue entry (MSG-1315d4a3). Once it lands, Kris wants it created. Its first item will be RIG-RETIRE from household-sol: Rig cannot retire a job that leaves a Mac's profile. Please ACK MSG-6f12f0d9.
 
 ## Outbound
 
