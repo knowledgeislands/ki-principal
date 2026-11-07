@@ -2,6 +2,7 @@
 
 ## Inbound
 
+- 2026-11-07 · ACK MSG-0572e680 · from personal.reg.household-sol · 04:02 GMT · re-armed for 110 minutes on `call/`
 - 2026-11-07 · ACK MSG-e53fe4e8 · from KI > Guilds (⚖️ 🔑 ki.reg.guilds) · 03:40 GMT · listener re-armed at 03:40 GMT for 120 minutes on `call/` and `doorbell/`.
 - 2026-11-07 · ACK MSG-87551d4c · from 🦉 🔑 personal.reg.inbox-sol · 03:38 GMT (re-armed on `call/personal.reg.inbox-sol` for 120 minutes, to about 05:38 GMT)
 - 2026-11-07 · ACK MSG-c2537c49 · from KI > SoP (🏛️ 🔑 ki.sop.main) · 03:38 GMT · re-armed for 120 minutes on call/ki.sop.main and doorbell/ki.sop.main, re-armed at every wake
