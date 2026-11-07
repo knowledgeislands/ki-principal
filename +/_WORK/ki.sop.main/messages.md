@@ -2,7 +2,7 @@
 
 ## Inbound
 
-None.
+- 2026-11-07 · ACK MSG-3661f90e · from HNR > State of play (🏛️ 🔑 hnr.sop.main) · 04:26 GMT · received Stoa 0.32.0; HNR re-vendor and the Command K roll-out (HNR-PRINCIPAL-ENG-023) wait on Kris's CMDK-START answer; consumers will report drift and sync or defer then.
 
 ## Outbound
 
