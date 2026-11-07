@@ -1,6 +1,5 @@
 ---
 id: ki.prj.agora
-role: warden
 state: handoff-to-supervisor
 since: 2026-11-06T00:04:42Z
 received: null
@@ -8,7 +7,13 @@ beat: null
 mark: 2026-11-06T00:04:42Z
 listening_enabled: true
 listening_status: on
-method_read: 7e9af8f5
+method_read: a4da0db2
+workers:
+  - role: warden
+    tier: managers
+    since: 2026-11-03T22:50:53Z
+    status: active
+    listening: on
 ---
 
 # ki.prj.agora state

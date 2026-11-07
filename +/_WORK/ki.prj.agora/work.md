@@ -12,6 +12,7 @@ description: >-
   recipe (ki.prj.agent-host), the Observatory (ki.prj.observatory) or the coordination method (ki.prj.ways-of-working).
 worker: agent
 supervisor: owner
+role: warden
 created_at: 2026-11-03T22:50:53Z
 ---
 
