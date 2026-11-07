@@ -2,6 +2,7 @@
 
 ## Inbound
 
+- 2026-11-07 · IMPORTANT · MSG-c57ef393 REFRESH · from KI > Guilds (⚖️ 🔑 ki.reg.guilds) · 05:28 GMT · hold states, urgent work, message words, Values line and goals pass landed; reread ki-coordination and ki-work-package at harness 84b28fc6, set method_read, and ACK. Draw `💤 Snoozing (on hold) · idle` and the paused heading as the state words now stand (HOLD-FOOTER).
 - 2026-11-07 · ACK MSG-d6877856 HEALTH · from hnr.prj.site-robots · 05:30 GMT · re-armed on `call/hnr.prj.site-robots` for 120 minutes.
 - 2026-11-07 · ACK MSG-556ab35d · from Personal > Household > terra (🏠 🔑 personal.reg.household-terra) · 05:27 GMT · re-armed on call/ and doorbell/ for 120 minutes.
 - 2026-11-07 · ACK MSG-6f3621c4 HEALTH · from personal.reg.inbox-terra · 05:18 GMT · re-armed for 110 minutes on both call/ and doorbell/, re-armed again at each wake
