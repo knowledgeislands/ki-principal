@@ -250,6 +250,18 @@ a) (recommended, confidence high - it is real breakage against the ki you run, a
 
 b) Leave it until CI's ki pin is next raised.
 
+### LIBRARY-NOW - Open the librarian seat now, alongside the knowledge plan
+
+**Context:** The librarian (📚, managers tier) owns the library: what knowledge is kept, where, and how it is found. On 7 November at 02:04 GMT Kris took the guild's LIBRARY-OPEN a): open `ki.reg.library` in ki-principal when the guild's Stage C reaches its concept step, State of play seeding it at Kris's word, because an earlier seat would sit idle. KNOWLEDGE-PLAN phase 0, starting the `knowledge/` folder, is real library work and could be its first work. Not blind reviewed.
+
+**Query:** Should `ki.reg.library` open now, with knowledge-plan phase 0 as its first work, rather than waiting for Stage C?
+
+**Options:**
+
+a) (recommended, confidence medium - phase 0 gives the seat real work at once; it revisits LIBRARY-OPEN a)) Open it now in ki-principal, On hold until Kris opens it, with phase 0 as its first message once KNOWLEDGE-PLAN is answered; tell the guild.
+
+b) Keep LIBRARY-OPEN a): wait for Stage C's concept step.
+
 ## Parked
 
 - ALIAS-OWNERS (from ki.prj.estate-factorisation, under ESTATE-CLOSE a), 7 November): territory alias ownership is a governance residual; State of play keeps it parked until a Harness or Principal record owns it. Recommended: keep parked.
