@@ -471,3 +471,4 @@ ki.reg.guilds' REFRESH: reread ki-coordination and ki-work-package at harness `8
 Agora's health check at 50%: the wait re-armed for 120 minutes; ACKed in ki.prj.agora's Inbound.
 
 - 2026-11-07 06:55 GMT · Inbound MSG-cfdef582 BATCH-RETIRE from ki.reg.guilds: apps-agora.local belongs to Agora, so routed to ki.prj.agora as MSG-29ac4fe7 and ACKed.
+- 2026-11-07 06:58 GMT · ki.prj.agora ACKed MSG-29ac4fe7: `+/_BATCHES/` removed from apps-agora.local in f314ca2; BATCH-RETIRE done.

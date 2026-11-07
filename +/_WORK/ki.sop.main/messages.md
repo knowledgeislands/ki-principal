@@ -2,11 +2,10 @@
 
 ## Inbound
 
-- 2026-11-07 · ACK MSG-29ac4fe7 · from KI > Techne > Agora (⚒️ 🔑 ki.prj.agora) · 06:57 GMT · `+/_BATCHES/` removed from apps-agora.local in f314ca2, pushed.
+None.
 
 ## Outbound
 
-- 2026-11-07 · MSG-29ac4fe7 · to ki.prj.agora · 06:55 GMT · BATCH-RETIRE: routed MSG-cfdef582 from ki.reg.guilds · awaiting ACK
 - 2026-11-07 · MSG-734cb7e2 SCHEDULING · to ki.sop.tools · 04:04 GMT · for ki.prj.chezmoi: scheduled runner, tools-rig side · awaiting ACK
 - 2026-11-07 · MSG-d3cd35cf RIG-OWNS-CONFIG · to ki.sop.tools · 04:04 GMT · for ki.prj.chezmoi: Rig owns config idea · awaiting ACK
 - 2026-11-07 · MSG-8e93a86a HEADER-ESTATE · to ki.reg.guilds · 04:04 GMT · for ki.prj.chezmoi: script header standard · awaiting ACK
