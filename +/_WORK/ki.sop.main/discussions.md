@@ -274,6 +274,64 @@ a) (recommended, confidence high - it carries out your own HOLD-STATES a) answer
 
 b) Leave it in triage until the ways-of-working Project picks up its other Work Process amendment, [KI-PRINCIPAL-MOD-011](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Roadmap/KI-PRINCIPAL-MOD-011-amend-work-model-assigned-package-cascade.md), so both changes to the note are reviewed together.
 
+### DONE-PRUNE - Prune the three finished harness records?
+
+**Context:** Seven records are done and accepted but still on their roadmaps; pruning removes a record's file from its roadmap, and Git keeps it. Pruning is yours to approve. The review confirmed all seven have status done and an acceptance statement, but that is only the start of the prune checks: the procedure also needs the closing commits, any trade release and a check that nothing else still links to the record, and none of those has been run. Split by repository, this part covers the KI Agentic Harness records [KI-HARNESS-GOV-232](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-232-any-package-coordination.md), [KI-HARNESS-GOV-233](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-233-typed-work-naming-readers.md) and [KI-HARNESS-GOV-234](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-234-footer-markdown-writers.md); DONE-PRUNE-TOOLS-KI and DONE-PRUNE-OBSERVATORY cover the rest.
+
+**Query:** Should the three harness records be pruned?
+
+**Options:**
+
+a) (recommended, confidence medium - reviewed; they are done and accepted, but the full prune checks have not been run and a prune deletes) Yes, through `ki-accept`'s prune once its full checks pass in the harness; any link to repair elsewhere goes as a message line to its owner.
+
+b) Leave them until the harness work's next mark.
+
+_Routed from ki.reg.guilds for ki.prj.ways-of-working, 7 November 08:20 GMT._
+
+### DONE-PRUNE-TOOLS-KI - Prune the three finished tools-ki records?
+
+**Context:** Three tools-ki records are done and accepted but still on its roadmap: [KI-TOOL-KI-CLI-173](/Users/krisbrown/kis/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-173-regular-coordination-readers.md), [KI-TOOL-KI-CLI-174](/Users/krisbrown/kis/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-174-typed-work-naming-readers.md) and [KI-TOOL-KI-CLI-175](/Users/krisbrown/kis/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-175-footer-markdown-writers.md). The review confirmed each is done with an acceptance statement; the closing commits, trade release and links check have not been run.
+
+**Query:** Should the three tools-ki records be pruned?
+
+**Options:**
+
+a) (recommended, confidence medium - reviewed; they are done and accepted, but the full prune checks have not been run and a prune deletes) Yes, through `ki-accept`'s prune once its full checks pass in tools-ki; any link to repair elsewhere goes as a message line to its owner.
+
+b) Leave them until the tools-ki work's next mark.
+
+_Routed from ki.reg.guilds for ki.prj.ways-of-working, 7 November 08:20 GMT._
+
+### QUICK-FIXES-LIFECYCLE - Change nine Project pages' lifecycles?
+
+**Context:** Nine Project pages have a `lifecycle` that disagrees with their package: seven say `active` while their package is on hold, and two say `active` with no package. The proposal was to set the seven to `paused` and the two to `planned`. The review disagrees: a Project's lifecycle is separate from its package's state, and the registry standard requires a paused Project to carry a release condition and a review date.
+
+**Query:** Should the nine Project pages' lifecycles be changed together?
+
+**Options:**
+
+a) (recommended, confidence medium - review disagrees; it removes a visible contradiction, but a held package does not by itself decide a Project's lifecycle) Yes: set the seven to `paused`, each with its package's release condition and a review date, and the two to `planned`, as one bounded change you approve.
+
+b) Put each of the nine to you with its current state, and change only those you confirm (the review's pick).
+
+c) Leave them until the wider rollout after the standards change.
+
+_Routed from ki.reg.guilds for ki.prj.ways-of-working, 7 November 08:20 GMT._
+
+### MIRROR-TOKEN - Revoke the retired Notion mirror's token
+
+**Context:** The Notion mirror is retired. Its Notion integration token and the 1Password item holding it still exist. Removing them is your own action at the machine: it changes Notion and a credential, which no run may do. The last reference goes when `chezmoi apply` removes it. Any HNR Notion page removal should finish first.
+
+**Query:** Will you revoke the integration and delete the 1Password item?
+
+**Options:**
+
+a) (recommended, confidence high - the mirror is retired and nothing else uses the token) Yes: after `chezmoi apply` and any HNR Notion page removal, revoke the integration in Notion and delete the 1Password item.
+
+b) Keep both for now.
+
+_Routed from ki.reg.guilds for ki.prj.ways-of-working, 7 November 08:20 GMT._
+
 ## Parked
 
 - ALIAS-OWNERS (from ki.prj.estate-factorisation, under ESTATE-CLOSE a), 7 November): territory alias ownership is a governance residual; State of play keeps it parked until a Harness or Principal record owns it. Recommended: keep parked.

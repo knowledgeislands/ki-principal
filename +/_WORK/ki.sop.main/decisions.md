@@ -473,3 +473,4 @@ Agora's health check at 50%: the wait re-armed for 120 minutes; ACKed in ki.prj.
 - 2026-11-07 06:55 GMT · Inbound MSG-cfdef582 BATCH-RETIRE from ki.reg.guilds: apps-agora.local belongs to Agora, so routed to ki.prj.agora as MSG-29ac4fe7 and ACKed.
 - 2026-11-07 06:58 GMT · ki.prj.agora ACKed MSG-29ac4fe7: `+/_BATCHES/` removed from apps-agora.local in f314ca2; BATCH-RETIRE done.
 - 2026-11-07 07:39 GMT · Inbound MSG-a6e4f12b HEALTH from ki.prj.agora: re-armed the watcher for 120 minutes and ACKed.
+- 2026-11-07 08:26 GMT · ki.prj.ways-of-working ACKed its five lines and the three REFRESH lines (not applied: absorbed into ki.reg.guilds). ki.reg.guilds routed six of its parked queries: DONE-PRUNE, DONE-PRUNE-TOOLS-KI, QUICK-FIXES-LIFECYCLE and MIRROR-TOKEN taken as open queries; QUICK-FIXES-FOLDER folded into KA-CLOSE-GATE; AGENT-HOME-IDEA carried out under Kris's AGENT-HOME a) of 30 October by run agent-home-idea. All six ACKed.
