@@ -12,20 +12,28 @@ Taken as: every unit is delegated, and each run prefers mechanical commands over
 
 ## 2026-10-19 18:19 BST - owner note, LOCAL-MODE
 
+class: operational
+
 Kris: "btw, both machines are in local mode so if they pull they have the latest tools"
 
 Read back taken: Terra and Sol run the tools from their checkouts, so a pull gives them the current `ki` and harness; no per-machine install step is needed there.
 
 ## 2026-10-19 22:17 BST - lesson, half-done harness checkout
 
+class: operational
+
 link1-baseline: a run editing the harness checkout breaks every island's pre-commit audit while its edit is half-done (22:12 to 22:14 BST, 19 October). Not yet in [Mistakes and Lessons](</Users/krisbrown/kis/knowledge-islands/ki-principal/Admin/Operations/Mistakes and Lessons.md>); harness edits run in worktrees since.
 
 ## 2026-10-20 03:34 BST - owner answers, NET-DOWN and WIP-CAP
+
+class: operational
 
 - NET-DOWN, Kris: "the net downtrend is important ... something we can track and see in the observatory based on the data which is in the roadmap items ... I don't think there's anything we need to actually change at this point. We just need to keep on top of it." Taken as: no rule or tooling now; State of play keeps an eye on it; an Observatory trend view stays an idea.
 - WIP-CAP, Kris: "I agree with WIP limits in general ... the more thinking needs to go around ... can we move some things forwards quicker, get things reviewed?" Taken as: WIP limits in principle, no number yet; the effort goes into faster review and acceptance.
 
 ## 2026-10-20 05:20 BST - owner answers on the 04:22 send; OVERNIGHT-BURNDOWN
+
+class: operational
 
 BURNDOWN / WORKTREE-TRIAL - Kris, 20 October 2026: [finish-first proposals](https://github.com/knowledgeislands/ki-principal/blob/f8c70a3000cdd7a531811ffe363884489eda0e50/+/_WORK/ki.prj.ways-of-working/design/finish-first.md), [reviewed sweep](https://github.com/knowledgeislands/ki-principal/blob/f8c70a3000cdd7a531811ffe363884489eda0e50/+/_WORK/ki.prj.ways-of-working/design/roadmap-sweep.md) and [delegation coordination standard](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-delegation/references/standards-background-runs.md#coordination); current unattended authority is in the final three entries.
 
@@ -37,21 +45,31 @@ Taken as: a) after blind review. The gate stays on Admin, Pillars and Resources 
 
 ## 2026-10-21 14:10 BST - owner answers
 
+class: operational
+
 CONTROL-CONTRACT / GOV227-SCHEMA / TAGS - Kris, 21 October 2026: [accepted control contract](_emerging/agent-control-contract.md), [storage-schema draft](_emerging/gov-227-storage-schema.md), [tags proposal](work-model/tags-model.md) and [remaining owner queries](discussions.md).
 
 ## 2026-10-21 15:21 BST - tools-rig green, GOV-227 draft ready
+
+class: operational
 
 RIG-RELEASE / GOV227-SCHEMA - Kris, 21 October 2026: [release boundary and dossier](discussions.md) and [storage-schema draft with five reserved decisions](_emerging/gov-227-storage-schema.md).
 
 ## 2026-10-21 18:19 BST - first stage integrated, implementation review
 
+class: operational
+
 CONTROL-EVIDENCE / DEFAULTS-HANDOFF - Kris, 21 October 2026: [accepted contract and remaining native-evidence, wake and Harness-alignment gates](_emerging/agent-control-contract.md); first-stage coverage is homed in tools-ki commit `cb165c20`.
 
 ## 2026-10-21 23:27 BST - work opener button; rebase fixed
 
+class: operational
+
 WORK-OPENER - Kris, 21 October 2026: receiver-owned delivery remains with [ki.observatory](https://github.com/knowledgeislands/ki-principal/blob/16b968cccf75b20289db868ff18c5a85435c2fd0/+/_WORK/ki.observatory/messages.md) and [ki.tools-burndown](https://github.com/knowledgeislands/ki-principal/blob/16b968cccf75b20289db868ff18c5a85435c2fd0/+/_WORK/ki.tools-burndown/messages.md).
 
 ## 2026-10-22 02:26 BST - triage and draft records may move forward
+
+class: operational
 
 Kris: "Also, if you want to take things that are in tree ice or draft and move them forwards, if you get consensus from the higher order models, you can do that."
 
@@ -59,9 +77,13 @@ Taken as: "tree ice" is triage. A triage or draft record may be adopted, replann
 
 ## 2026-10-22 02:54 BST - Harness batch received
 
+class: operational
+
 GOV202-RENDER / SPEC-HOMING - coordinator, 22 October 2026, under Kris's 21 October grant: [GOV-202 remains draft](https://github.com/knowledgeislands/ki-agentic-harness/blob/083735f4cb450adb6639b60f04b11f0cbdaddb67/docs/roadmap/KI-HARNESS-GOV-202-skill-area-stable-stats-badge.md), with [GOV-228](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/docs/ideas/KI-HARNESS-GOV-228-home-work-spec.md) and [GOV-229](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/docs/ideas/KI-HARNESS-GOV-229-home-acquire-spec.md) awaiting their specification prerequisites.
 
 ## 2026-10-22 14:12 BST - AUDIT-BOUNDARY settled by the coordinator; fix-8 relaunched
+
+class: operational
 
 AUDIT-BOUNDARY - coordinator, 22 October 2026, under Kris's 21 October grant: live admission brief (brief unrecoverable: never committed) carries the CI-pinned admission audit and separately held migration.
 
@@ -73,9 +95,13 @@ Taken as a standing steer for this work. Applied now to tools-ki, which has had 
 
 ## 2026-10-23 01:10 BST - ninth tools-ki round complete; admit under the over-engineering steer
 
+class: operational
+
 ADMISSION / MIXED-VERSION-LIMIT - coordinator, 23 October 2026, under Kris's 22 October over-engineering steer: live admission brief (brief unrecoverable: never committed) carries the reviewed replay, process restart, release-note limit and held migration.
 
 ## 2026-10-23 02:12 BST - permissions before Kris leaves: all as recommended
+
+class: operational
 
 Kris: "Yeah, I approve all of those things you've requested in line with your recommendations as you see fit."
 
@@ -83,13 +109,19 @@ Read back as taken: PUSH-SCOPE a), push branches that also carry other sessions'
 
 ## 2026-10-23 02:37 BST - coordination-lessons queries after the blind review
 
+class: operational
+
 wow-coord-lessons proposed the smallest changes for 23 lessons, with three queries; a masked blind review on Codex at extra-high effort took the two medium ones. Under Kris's 02:10 grant ("if there's quite a lot of certainty over doing something ... you can go ahead and do it"): WAKE-SUBSTRATE a), reviewed to high - pursue the agreed completion-watcher direction first, label session wakes best effort, defer launchd, doorbells and liveness fields. UNWRITTEN-RULES a), high - none of the four inferred claims becomes a standing instruction. DRAIN-END: the proposal recommends a final-line exception for an explicit drain check, the review keeps the thread line last at high confidence; views differ, so it goes to Kris and nothing changes meanwhile. The proposal's high-confidence changes are enacted together with wow-method-feedback's.
 
 ## 2026-10-23 04:24 BST - tools-ki admitted and pushed; SORT-ARM reviewed
 
+class: operational
+
 ADMIT-PUSH / SORT-ARM - coordinator, 23 October 2026, under Kris's 02:10 and 02:12 grants ("if you need to push anything, please do push"): the admitted tools-ki main was pushed fast-forward after a fresh fetch, and the cancellation proposal for the ARM Linux release record went to a masked blind review, which agreed at high confidence; it reaches Kris in [queries.md](discussions.md) because Kris chose to keep that record held on 20 October.
 
 ## 2026-10-23 07:54 BST - sol to get terra's new repositories
+
+class: operational
 
 Kris: "humans-not-robots/5g-emerge-apex, 5g-emerge-demos, 5g-emerge-phase2 and 5g-emerge-phase3 were replaced by apps-5g-emerge.io, apps-demo.5g-emerge.io, apps-phase2.5g-emerge.io, apps-phase3.5g-emerge.io ... the others on terra are new and sol should get those too ... I'll dealwith the others later"
 
@@ -97,17 +129,23 @@ Taken as: clone on sol the fourteen repositories terra has and sol lacks, the fo
 
 ## 2026-10-24 00:51 BST - mgit repair without --apply
 
+class: operational
+
 Kris: "I really don't think that `mgit repair` needs `--apply`. The other command line tools that can do a repair don't need a --apply, so why does this one?"
 
 Taken as: `mgit repair` should repair by default, with `--dry-run`/`-n` to preview as `mgit register` already does, and no `--apply`. tools-mgit belongs to ki.tools-burndown, so it goes there as a messages line; this work changes nothing in tools-mgit.
 
 ## 2026-10-24 00:58 BST - mgit repair taken here; dry-run survey
 
+class: operational
+
 Kris: "I'm really happy for you to get on with this and do get rid of the - - apply. Also, can we look and see where we're using this dry run consistently?"
 
 Taken as: this work makes the `mgit repair` change itself rather than leaving it with ki.tools-burndown, so the MGIT-REPAIR-APPLY line is withdrawn from its queue. `repair` writes by default, `--apply` goes, `--dry-run`/`-n` previews; committed and pushed under the 02:10 push grant. A read-only survey reports how the KI command-line tools preview and write today, and proposes one convention; nothing changes from it until Kris decides.
 
 ## 2026-10-24 21:39 BST - restart on sol taken
+
+class: operational
 
 Kris: "Re-bootstrap as ki.ways-of-working under ki-coordination. First bring sol level ... Leave tools-ki until terra's fold-tools-ki run has pushed. Then take the RESTART-ON-SOL line at the top of your messages.md, and report in three lines."
 
@@ -117,6 +155,8 @@ REBOOT-SHAPE / GAP-SUMMARY / COMMIT-CADENCE - Kris, 25 October 2026: [coordinati
 
 ## 2026-10-25 01:10 GMT - SUMMARY-WINDOW answered; Kris's goal for the morning
 
+class: operational
+
 - SUMMARY-WINDOW: Kris chose a), "Window on mark". Read back as taken: the Summary's Done and In Progress window on the mark; a hand-off is reported once in Done; items held in a roadmap are left to the roadmap; Outstanding holds only this work's own holdings; the recap and full summary stay the longer views. Implementation goes to a harness run tonight.
 - THREAD-RENAME was asked but not answered; it is asked again.
 - Blind review wow-lines-blind: KI-REPO-HOME agreed, now high. LEGACY-PREFIX and PARTIAL-REPOS disagree, so both stay at medium with both views shown.
@@ -124,11 +164,15 @@ REBOOT-SHAPE / GAP-SUMMARY / COMMIT-CADENCE - Kris, 25 October 2026: [coordinati
 
 ## 2026-10-25 01:16 GMT - QUERY-RULES and DRAIN-END answered; documentation at the end
 
+home: /Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md class: rule
+
 - QUERY-RULES: Kris chose a), "Adopt both". Read back as taken: the standard adopts the interactive pass (the Summary stays the default; on request, queries are posted in full, then taken one or two at a time as self-contained blocks, each answer read back before the next pair, with hnr's prompt as the form) and the split rule (a query still below high confidence after review is split into separately tagged parts, and packed queries are unpacked before an unattended window). The SPLIT-QUERIES line is removed from `messages.md`.
 - DRAIN-END: Kris chose a), "Thread line last". Read back as taken: the thread line stays last in every case, and an explicit drain check puts its DRAINED or NOT DRAINED result in Done.
 - Kris, on documentation: "we need to get a lot of this Knowledge Island stuff published somewhere ... we need to work on those skill sets. Things like what it supports, features, those kinds of things. So we need some really good documentation." Read back as taken: once the ways of working are bottomed out, the skill set that carries them gets publishable documentation of what each skill supports and its features. It is not started tonight ("Don't jump", heard as "don't jump the gun"); it is a later unit of the skill-set definition pass.
 
 ## 2026-10-25 01:19 GMT - COORD-COMMANDS and SORT-ARM answered
+
+home: /Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md class: rule
 
 - COORD-COMMANDS: Kris chose a), "All five". Read back as taken: `ki-coordination` gains `hold`, `drain`, `resume`, `send` and `receive`; `hold` is drain plus On hold; `drain` alone stops launches while the work stays With worker and reports, result in Done, when everything has finished. The COORD-COMMANDS line is removed from `messages.md`. Harness run tonight.
 - SORT-ARM: Kris chose a), "Cancel it". Read back as taken: KI-TOOL-KI-CLI-125 is cancelled, ARM Linux kept as an Agent host Idea and the release-contract requirement kept as a section in the tools-ki release guide; sent to ki.tools-burndown's `messages.md` with THREAD-RENAME's opener half, as tools-ki waits on terra's push.
@@ -138,10 +182,14 @@ RUN-SECRETS / THEME-CLOSE - Kris, 25 October 2026: [delegation standard](/Users/
 
 ## 2026-10-25 01:22 GMT - DECISION-HOMES answered, unpacked into homes and strikes
 
+class: operational
+
 - Homes: Kris ticked all four. Read back as taken: PRFLOW goes to the harness `AGENTS.md`, PIN to the tools-ki CI guide, KI-AGENTS-NAME to this work's decisions log, and SPEC-REVIEW to ki.portable-specifications.
 - Strikes: Kris ticked all four. Read back as taken: the 14 October burn-down focus is struck as superseded by CAPTURE-GATE and ROADMAP-CAP; CAPTURE-GATE is struck to a pointer to `ki-next`; GO-AHEAD and CAPTURE-ONLY are struck as spent; RIG-REL-PATCH is struck to a pointer to the release policy; DIAGRAMS-BLACK is checked and captured only if it still fails. State of play's `decisions.md` is not this work's file, so the strikes go to State of play as one message line, and the homes go to a run.
 
 ## 2026-10-25 01:25 GMT - PROXY-SHAPER parked; METHOD-NUDGE answered
+
+home: /Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md class: rule
 
 - PROXY-SHAPER: Kris: "I'm not really sure what to do about this one, to be honest. Maybe it's something we can come back to." Read back as taken: parked in `queries.md`, nothing changed in the proxy or chezmoi.
 - METHOD-NUDGE: Kris chose a), "Add warning". Read back as taken: `hooks/coordinator-reminder.sh` prints one advisory line when a work's `state.md` `method_read` differs from the method revision, naming both. Harness run tonight.
@@ -157,11 +205,15 @@ HIGH-BLOC / REVIEWED-BLOC - Kris, 25 October 2026: [coordination standard](/User
 
 ## 2026-10-25 02:52 GMT - DOCS-PUBLISH: the night ends in published docs, not a change report
 
+class: operational
+
 Kris, at about 02:50 GMT: "I'm leaving you unattended for the rest of the evening, and you've got the autonomy to make the changes that you need to do to get everything moving forwards really well"; "It's not to worry about what changed, but to worry about what is ... maybe the right thing to do is to get all of this fully published now into the website, and I mean with quite a lot of detail"; skills first, then the `ki` command and the tools, from a user's view not a developer's, "with Archify diagrams. I don't want just text"; "probably docs and projects can go together"; the Voyage and the Field Guide stay separate; "make sure the work packages are cleaned up, make sure the roadmap's all cleaned up"; "a sort of list of things that I should go look at on the website to try and help them review and steer"; tending in detail with the feature-area list from earlier; "use Fable and Astra to help and support you in any decisions"; wake every five minutes with an update.
 
 Read back as taken: the away grant runs to 09:00 GMT as before and now also authorises authoring and publishing documentation on the KI website (commit and push to its main, which deploys), restructuring its Docs and Projects sections, and cleaning up work packages and roadmaps within each repository's own rules. Design choices for the docs are made here, each settled by a Fable proposal and a Codex proposal ("Astra" taken as the Codex strongest model) and a merge. The eight open owner queries stay with Kris and the docs describe them as open; no DNS, Cloudflare or GitHub settings change, no package release, no force-push, never `--no-verify`. The 09:00 GMT return report becomes the review list of website pages plus the open queries.
 
 ## 2026-10-25 02:53 GMT - REVIEW-DIGEST: a guided review prompt alongside the docs
+
+class: operational
 
 Kris: "a sort of digest of everything that's gone on and I can point ... the chat model in Claude or the chat model in ChatGPT and ask it to talk me through that, pointing to the website ... it can go through a checklist that it reviews ... use the checklist itself and keep its own response and get a digest, and then I can post this back into this later on so you can get feedback on what's next."
 
@@ -292,6 +344,8 @@ UNATTENDED-LIMITS / EXTERNAL-SYSTEMS / CONFIDENTIAL - Kris, 25 October 2026: [de
 - 02:53 GMT 27 October: received wow-holding-zone. 40 records plus KI-TOOL-KI-CLI-125 and KI-TECHNE-OPS-024 moved to ideas in nine repositories, full text kept at `docs/ideas/`, each listed with a plain line in `docs/roadmap/_IDEAS.md`; KI-TECHNE-OPS-018 lost its release dependency and stays on the roadmap; the Observatory holding area is in apps-observatory.local `docs/roadmap/_IDEAS.md`. The coordinator rebased and pushed the run's stranded hnr-principal link commit (now 46a800a4). Steps 2 and 6 are done.
 
 ## CONFIDENT-UNATTENDED - 27 October 2026
+
+class: operational
 
 Kris: "So actually what I want you to do is to continue unattended and get as much of Norris Island's roadmaps done as possible. I want you to really go at it hard and get them all done. I don't want you to do lots of double-checking and triple-checking of builds and deployments and all that stuff. I just want you to get the work done and all this, make sure everything's consolidated so we could go back to a clean baseline. And then we can tackle in the morning things like the observatory and how that looks, and is designed because it looks like a dog's dinner. I want to make sure that all the features and functionality are into the ways of working so that we're super efficient as well. We're churning through tokens, like there's no tomorrow, so I want to make sure that we're optimizing on that point."
 
@@ -604,6 +658,8 @@ The proposed transition is superseded: independent live-ref review found all ori
 
 ## Owner-requested drain reconfirmed and marked - 2026-10-29T16:18:42Z
 
+class: operational
+
 Kris repeated: "Drain this work: check the inbox, and receive any finished runs. Let running work finish, or stop it cleanly, and start nothing new. Tidy the work folder, then commit and push it. Leave the work with me (with-supervisor) with nothing running. Then mark and give me a Summary with every open query in full, so that I know it's in good order."
 
 DRAINED: all 33 runs remain finished and received; the work queue is empty and the inbox has no new lines since the previous drain. No run needed stopping; no new work or wake was launched. Work remains with-supervisor since its explicit receive at 2026-10-29T15:38:09Z; the mark is now 2026-10-29T16:18:42Z. Three Open queries and all parked choices remain unchanged.
@@ -612,15 +668,21 @@ Tidy review: package bytes were unchanged since the preceding published drain. I
 
 ## HOST-SYNC-DESIGN - 2026-10-29
 
+class: operational
+
 Kris: "Take up HOST-SYNC as the next design under ki-work-design. Its inputs are the HOST-SYNC line in messages.md and Observatory's HOST-SYNC-REVIEW, with its design report. Put any questions for me as tagged decisions with recommendations. When it's decided, send the rollout as one line each to personal.reg.rig-terra and personal.reg.rig-sol."
 
 ## RECOMMENDED-ALL - 2026-10-29
+
+class: operational
 
 Kris, on LAUNCH-BLOCKED, HOST-SYNC, CROSS-MACHINE-SOURCE, FINISH-LINE and PUBLIC-REPORT-AUDIENCE, each option a: "The queries, I agree with the most recommended one for, so you can get on with those, please."
 
 Read-back: launch the levelling and design runs; settle HOST-SYNC through tagged decisions then one rollout line per Rig queue; CROSS-MACHINE-SOURCE - no unpublished other-machine changes named, reconcile MOD-011 from published sources and preserve any unresolved overlap; FINISH-LINE - finish the approved amendment and exit checks, hand remaining designs to named packages through KI State of play with acknowledged ownership, then close the Project, aiming to cut open topics and roadmap items; PUBLIC-REPORT-AUDIENCE - review the identified set privately and prepare a bounded response without changing access or history. Kris also asked that Ways of working keep reducing its open topics and roadmap items.
 
 ## Package definition and session freshness design review - 2026-10-29T20:34:32Z
+
+class: operational
 
 Kris requested design review on 29 October 2026:
 
@@ -655,15 +717,21 @@ Terra handover received during preparation: HOST-SYNC-DESIGN and RECOMMENDED-ALL
 
 ## Frozen brief received; independent reviews launched - 2026-10-29T20:41:40Z
 
+class: operational
+
 The [package-definition and freshness brief](package-layout/package-definition-freshness-brief.md), exact-path commit 9fef9813f327b2c09f6cd4f752d3dc2149f7b8bf, is received. Current title readers, optional theme, existing description exclusions, Capital/member exceptions and canonical registry identity are established facts; all new schema/metric choices remain proposals. Two independent read-only source reviews use the same frozen brief without reading each other: wow-package-definition-review-a-20261029 (portable definition/routing, gpt-6.1-sol high) and wow-package-definition-review-b-20261029 (session evidence/freshness, gpt-6-astra high). They write only their own design review artefacts and use normal explicit-path commits; no implementation or push is delegated.
 
 ## DRAIN-MEANS - 2026-10-29
+
+home: /Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md class: rule
 
 Kris: "When we talk about draining, that must include also getting the work package to be stable, as well, which means reviewing it to make sure everything's tidied up and also committed, right? Includes any PRs, any work trees, everything. It means that there's no longer anything which is specific to a machine that might get lost if I was to delete the repository."
 
 Read-back: a drain is not DRAINED until the work package is reviewed and tidied, everything is committed and pushed, and no run worktree, branch, PR, stash, local ref or run-only report holds anything that exists on one machine alone. Kris added: "It also means, for example, doing any branch resolution, making sure that we've done a prune of origin ones which are no longer there. It means making sure that any branches are folded in. Or, if not, they need to be pushed to the origin, right?" So a drain also prunes stale remote-tracking branches and leaves every branch either merged into `main` or pushed to origin. Applied now to the terra drain through run wow-drain-tidy; the method change to `ki-coordination`'s drain and hold wording is this Project's work, queued for sol.
 
 ## WORK-FOLDER-PURPOSE - 2026-10-29
+
+home: /Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-work-package/references/standards-work-package.md class: rule
 
 Kris: "I agree that a work package lives where it lives, and then it's got these 5 key files. I think what I see in other places as well is that there are things like reports files that are alongside these, they should always be in a folder. So anything else that we create under that structure must be in a folder based on what its purpose is. And we need to have that covered in the standard as well."
 
@@ -676,6 +744,8 @@ Kris: "drain isn't the state, but it should be what we're doing to target or mov
 Read-back: design under `ki-work-design` a finite state machine for work - the seven states plus Bootstrap, every named transition with its trigger and entry conditions, where Handoff to target resolves, and procedures such as drain attached to transitions - as an Archify diagram with SVG and a definitions note beneath it. HOLD-PORTABLE folds into this design.
 
 ## Terra tidy receipt - 29 October 2026
+
+class: operational
 
 wow-drain-tidy verified origin/main contains a72fe115, removed the clean wow-sync-terra worktree with only disposable dependency/linter caches and skill links, deleted its branch using -d, and pruned stale origin/worktree metadata. No local work branch or stash remains; unrelated recovery refs were left intact.
 
@@ -701,6 +771,8 @@ Read-back: redraw as a nested machine - a composite Work state holding the four-
 
 ## Definition and freshness design review received - 2026-10-29T21:10:49Z
 
+class: operational
+
 Current-thread owner steer, verbatim: "And we found how things move in work packages. So don't concentrate on that right now. You'll have a new update soon. Go back to the things that we discussed, that we were doing before that." Movement, host-transfer and new drain/state-machine design are outside this review; those updates remain with their existing work. The three TERRA portability questions are preserved in full under Parked, released by the forthcoming update or an explicit owner instruction. No answer or successful Terra drain is inferred.
 
 Received the [brief](package-layout/package-definition-freshness-brief.md), [portability review](package-layout/package-definition-freshness-review-portability.md), [freshness review](package-layout/package-definition-freshness-review-freshness.md) and [merged recommendation](package-layout/package-definition-freshness-report.md). Two independent models reviewed the same frozen brief. The final proposal puts observed freshness after the stable work id and makes execution_home a checked default execution context; current implementations remain unchanged. Eight independently answerable design choices are copied in full into [Open queries](discussions.md). No schema, anti field, title/theme migration, cutoff, telemetry or pilot is adopted.
@@ -711,6 +783,8 @@ Documentation sync preserved both parents and Terra direction in published merge
 
 ## Reviewed design sent to owner - 2026-10-29T21:15:22Z
 
+class: operational
+
 Final bounded documentation consolidation is received and its result is reachable on main and origin/main at b310babd1802d3ab214e29a1fcc848354d54d016; both the definition/freshness design and separately published state-machine artefacts are preserved. All this thread's eight design/review/publication runs finished and are received. No source-wide build/deployment checks or implementation were added. Current move is handoff-to-supervisor with the existing 16:18:42Z mark unchanged. Eight Open choices remain proposed, and three Terra portability questions stay parked pending the owner's update. No claim of remote-session quiescence, global drain or completed private archive disposition is made.
 
 ## WORK-CYCLE-ENDS - 2026-10-29
@@ -718,6 +792,8 @@ Final bounded documentation consolidation is received and its result is reachabl
 Kris: "and yes, there is a start and end node too. the initial pseudo state is: "start" ---[open]-> "bootstrap" and the terminal state is already "finished" and "working" is a compound state effectively". Read-back: an initial pseudo-state Start with `open` into Bootstrap; Finished is the terminal state; the compound state is named Working.
 
 ## DIAGRAM-FEEDBACK - 2026-10-29
+
+class: operational
 
 Kris: "would be good if there was a way to annotate the diagram.. so I could give feedback directly". Read-back: a need, not built here; sent to ki.prj.observatory, which owns owner feedback, as a message line. Meanwhile Kris can mark up a PNG or screenshot that the coordinator reads.
 
@@ -745,6 +821,8 @@ Read-back: Working gets a final state, End (work), reachable from With worker an
 
 ## DIAGRAM-TOOLS - 2026-10-29
 
+home: /Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/governance/ki-diagrams/references/standards-diagrams.md class: rule
+
 Kris: "that should all be sent into the authoring and diagramming skills, so that we can make the best use of them. Some of them are more than just diagramming ... Typst is definitely more about authoring and is possibly an alternative to Markdown. But right now, Markdown is what we use. ... I really like Archify. Stately might be pretty decent ... the C4 ones, they're really good ... I love Isoflow as well ... we should probably end up coming up with things that are our own diagramming tools as part of knowledge islands ... infoschematics is a Knowledge Islands tool ... the SaaS ones can inform what we're doing. We can always reverse engineer aspects that we like ... Mermaid ... looks like it has massively improved its rendering recently ... it does a good Sankey diagram ... we shouldn't rule out using D3 directly ... we talk about all the different kinds of diagrams and then ... rank all of these different tools as candidates for those ... in a preference order." Then: "perhaps it's okay to do this using mermaid just to get some quick output ... iterate with a simplified output and then beautify that with another one."
 
 Read-back: (1) route to `ki-diagrams` and `ki-authoring` owners: a per-diagram-kind preference ranking of tools (Archify, Stately/XState, LikeC4, Isoflow/FossFLOW, Mermaid re-evaluated on current rendering incl. Sankey and state, D2/TALA, D3 directly, Typst/fletcher, TikZ; SaaS tools as inspiration only), Typst noted as an authoring alternative while Markdown stays, and infoschematics as KI's own diagramming tool to grow; (2) adopted here: sketch in Mermaid to iterate, then beautify in Archify once the shape settles. Supersedes STATECHART-TOOL's framing; ARC-CONDITIONS rides on the beautify step.
@@ -755,9 +833,13 @@ Kris: "Agree about the 2 skills working together." Read-back: `ki-work-package` 
 
 ## MOVE-READY-GOAL - 2026-10-29
 
+class: operational
+
 Kris: "Remember, my goal here is to get the ways of working sufficiently defined that I can pass that off to some existing threads, so that they know how to get themselves to a position of hold, so that we can then do the host moving." Read-back: the next deliverable is a self-contained stop-for-host-move procedure any live thread can follow under today's standard, sent to live works as message lines; the full state-machine rollout follows separately.
 
 ## MOVE-PROMPTS - 2026-10-29
+
+class: operational
 
 Kris: "I don't need to know which threads get the stop for move line. I just need to know that when we've got this bottomed out, you can give me a prompt that I can give to those threads that I can tell it about this new structure, and then additionally I can say to the threads that need to effectively move to the held state that they need to get there, and therefore in doing so there are a bunch of plus conditions effectively that they need to achieve in moving along that arc or transition, which includes all the things that I said, like nothing stored locally. That means either in the working copy or in local commits that haven't been pushed, or in branches that haven't effectively been pushed again up to the remote state. It means cleaning up things like work trees if they're no longer relevant. It also means cleaning up the work package files as well. There's a bunch of things that should happen in that transition from the terminal state in the inner compound state for work."
 
@@ -769,21 +851,29 @@ Kris: "the latest diagram is just up and dup that's using Archify is exactly cor
 
 ## MOVE-PROMPT-SHAPE - 2026-10-29
 
+class: operational
+
 Kris: "there's two kind of prompts. You can give me as a single prompt, but have a clear marker, so like a HR between the two parts of it, so I can copy them into all the threads and then delete the ones that are not ready for stop for move. And yeah, when it talks about the structure, it should be enough for them to understand what we've just discussed, but know that the real information is coming from updates that you're gonna do very shortly after this. The idea is to get or allow those ones that need to do a stop for move to get on with this enough to allow me to transition the work, which actually will include the ways of working that we're now talking about here, but on terra, so that we can move it to Sol ultimately."
 
 Read-back: one pasteable prompt, STRUCTURE part then a horizontal rule then the STOP-FOR-MOVE part, so Kris can delete the second part for threads not stopping. STRUCTURE is an interim briefing: enough to understand the model, saying the authoritative standards updates follow shortly. Ways of working itself stops for the move on terra too, after the prompt is delivered.
 
 ## STOP-FOR-MOVE-WOW - 2026-10-29
 
+class: operational
+
 Kris pasted the interim briefing and the STOP-FOR-MOVE prompt into this thread: "Stop this work for the host move to sol: conclude, then take stop to At rest, reason moving". Read-back: Ways of working concludes and takes stop to At rest (moving to sol) on terra, proving every postcondition; delegated to run wow-stop-terra.
 
 ## Sol re-bootstrap and priority repository reconciliation - 2026-10-29T23:28:13Z
+
+class: operational
 
 Kris: "Re-bootstrap as ki.prj.ways-of-working under ki-coordination. This session runs on sol. First fetch and check every repository is level with origin. Then resume this work from At rest (moving to sol) and follow the next steps in state.md." Kris then prioritised: "but before you start any work, can you fix the merge conflicts as follows and push afterwards", naming humans-not-robots/hnr-principal (ahead 1, behind 103) and legal/legal-principal (ahead 2, behind 7).
 
 Read-back: first perform bounded reconciliation in those exact Sol checkouts and non-force pushes to their own configured origins, preserving both histories and source confidentiality. This instruction lifts the previous HNR access exclusion only for its requested Git repair and estate Git checks; it grants no unrelated HNR changes or copying private source into this Principal. Use isolated conflict candidates, normal hooks and scoped verification, then retire only own clean integrated worktrees/branches. After both repairs, fetch/check the complete selected repository inventory and level clean behind-only primary checkouts. Stop on actual contested content, dirty overwrite, unresolved authority or failed fetch; never invent a clean result. No release, deployment, provider/secret mutation, force/reset/stash or bypass is authorised. Existing parked choices remain until preflight is complete; the prior mark is preserved.
 
 ## Priority repairs and Sol preflight received; saved work resumed - 2026-10-29T23:43:09Z
+
+class: operational
 
 HNR additive repair 39843f23 preserved both tips and both append contributions; Legal additive repair 17259f78 preserved both tips, all 7708 non-conflict paths and both conflict contributions. Both are published to their own origins, clean and level; their own repair worktrees/branches were retired normally. Share-safe receipts carry no business payload; exact private evidence remains with the source repositories/runtime. The HNR source-read exception is now exhausted for the repair; ordinary unrelated HNR work stays excluded.
 
@@ -795,15 +885,21 @@ The pause commit 515b2adf removed the eight definition/freshness Open queries wi
 
 ## ORCA-FIT design run - 2026-10-30
 
+class: operational
+
 Kris: "Yes, launch the design run." This followed the proposal to design how Orca fits the Knowledge Islands work model, with Knowledge Islands as the durable layer (work package, roadmap, authority, decisions) and Orca as the live layer (launch, worktrees, task queue, heartbeats, gates), without forcing Orca off what it does best. Kris also asked for a clearer explanation of how roadmaps, work packages, runs, hosts and Orca relate.
 
 Read-back: one ki-work-design run writes a design note and a plain-language explainer in this package's design/ folder for Kris's sanity check. No standard, skill, roadmap record or Orca configuration changes are authorised.
 
 ## LANDSCAPE - commission the landscape study (30 October 2026)
 
+class: operational
+
 Kris agreed on 30 October 2026, 01:20-01:37 GMT, in the conversational thread, to commission the landscape study in `briefs/landscape.md`, successor to ORCA-FIT, launched by this thread's next coordinator: "Okay, yes." ... "Yes, okay. Let's get those four threads moving". Also asked to pick up HOST-SYNC early, keeping commits level across sol and terra. Received from `messages.md` at re-bootstrap 01:41 GMT; launched as run `ki-prj-ways-of-working`, agent `landscape`, read-only research, no push.
 
 ## Z session shutdown and pending remote preservation - 2026-10-30T02:58:33Z
+
+class: operational
 
 This is the owner's requested retirement of Z only; continuing work belongs to Orca. All 48 recorded Z-launched workers finished and original process checks found none alive. Five positively identified old Z waiters were stopped and verified ended. No new worker or product task was launched, no adopted worker/queue or Orca interface was controlled, and no package state, mark, holder or query was changed.
 
@@ -812,6 +908,8 @@ The old MOD-011 draft is preserved on origin branch `wip/z-retired-mod011-202610
 The current Principal publication hold is not lifted. This canonical entry and inbox handover are committed locally, with an exact private patch and full Git bundle, rather than pushing the held Main lineage. The full receipt is `z-session-retirement-receipt.md` in that private archive. An explicitly approved private remote destination and verified preservation remain outstanding under PUBLIC-REPORT-RECOVERY; the separate Observatory evidence destination is not assumed to authorise storing this package's protected material. Closure is NOT YET SAFE under the requested remote-durability check. All available continuation context is saved and discoverable for the current orchestrator; no further Z product work remains.
 
 ## Owner answers, 30 October 2026, 06:15 GMT
+
+home: /Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md class: rule
 
 Read back as taken:
 
@@ -833,6 +931,8 @@ Standing directions in the same message:
 
 ## Hold requested; private durability blocks completion - 2026-10-30T11:31:25Z
 
+class: operational
+
 Kris requested a full drain, commit/push and On hold with release "resume in Orca on sol", followed by the Orca repository context and restart prompt. No new work is authorised. Checks found no live worker or queued/held run in four bound KI groups; no run was started or adopted worker operated. The existing private recovery review still proves only Sol-local recovery and explicitly authorises no transfer until an approved destination is selected. No protected raw report, archive, retained history or untracked material is staged or removed. NOT DRAINED: do not certify On hold or move the current holder/mark before those postconditions are proved. This metadata-only receipt preserves every current question and pending message; it grants no private publication or backup authority.
 
 ## ORCA-SUBAGENTS - ki agent runs appear as Orca sub-agents (30 October 2026, 16:10 GMT)
@@ -844,6 +944,8 @@ Kris, in this thread: "I really want to make sure that we are updating and chang
 - 30 October 2026, 16:22 GMT: orca-subagents found that `ki agent` runs inherit the coordinator's `ORCA_*` environment, so Orca treats each run as the coordinator (verified). Under Kris's ORCA-SUBAGENTS words ("fixing the way that we're using KI agent"), the drafted ORCA-ENV-LEAK line (Part A, strip the four `ORCA_*` variables) goes to ki.prj.tools-burndown now; Part B (launch through `orca orchestration worker-start`) waits for Kris with the design's queries.
 
 ## AWAY-31-OCT - unattended window to 09:00 Saturday 31 October 2026 (received 01:27 GMT, awaiting read-back confirmation)
+
+class: operational
 
 Kris's words (speech to text): "for all [repositories] in the workspace ... do a fetch for them and then you get yours merged back onto them so you've got a latest copy of everything ... the first step ... then the second step is then going to unattended mode and do as much as you can [of] ways of working ... you've been given a lot of feedback ... really do that and then you can give me a really good summary in the morning ... plain English ... feature focussed ... new capabilities ... something that can be learned ... if a good way of doing that is to update the website you can do that ... you're gonna be the only [coordinator] running on [sol] ... send a message to others and say that you've put an embargo on them [making] any changes until 9 am tomorrow morning as in Saturday morning ... have a good [go at] trying to do as much as you can across all of those projects all those work packages ... I'm not able to respond to your questions ... please confirm this."
 
@@ -890,6 +992,8 @@ The grant:
 
 ## Owner answers during AWAY-31-OCT (01:36 GMT, 31 October 2026)
 
+home: /Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md class: rule
+
 Kris's words (speech to text): "anything which is not contentious [and doesn't] undo something which is significant therefore you've got a high confidence recommendation and if all agents agree in terms of the reviewing of that confidence that it's high then yes, I agree with it so 23 out of 25 potentially if they meet this criteria can be done ... publish website yes you can push it. You can make it live ... on the scope ... I think it's really just knowledge ... I want you to start using [plain] English in your queries and explanations ... good to have links to the work items ... reduce the amount of [work in] progress at any point in time ... I'd rather that we got through things as [serially] as possible with minimal parallelisation ... expect to get through individual things quickly ... the old [kanban] idea ... moving towards ultimately getting an empty [board] ... work packages reflect the active work, the [roadmap] reflects the upcoming active work and we can think about where ideas go. I'm happy for you to get it [consolidated] in a single place ... review that in the morning ... we need some kind of gated criteria ... How do we deal with lots and lots of ideas ... if there's anything in the structure which is conflicting as well, we need to flag that up as part of your report."
 
 Read back as taken:
@@ -928,6 +1032,8 @@ Read back as taken:
 
 ## Return from AWAY-31-OCT and INTERACTIVE-QUERIES (31 October 2026, 12:02 GMT)
 
+class: operational
+
 - Window AWAY-31-OCT ended at 09:00 GMT. Nothing ran after 04:13 GMT. Kris returned at 12:00 GMT ("can you pick those up and see where we're at?"). The return report was sent at 04:14 GMT, so the next mark is struck now.
 - **Received INTERACTIVE-QUERIES** (IMPORTANT, from personal.reg.acquire-intake, at Kris's request). This work owns `ki-coordination`, so it applies the rule itself:
   - Ask exactly one decision per turn when taking queries interactively.
@@ -940,6 +1046,8 @@ Read back as taken:
 
 ## QUERY-TURNS (31 October 2026, 12:07 GMT)
 
+home: /Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md class: rule
+
 Kris, in this thread: "When we go through open queries interactively, ask exactly one decision per turn; the Summary can still list them all. Don't use the question tool. Put each query in the chat as normal Markdown, starting with a counter line, then the query: Query <n> of <total> ... `## <TAG>: <plain title>` ... **Where things stand** ... **The options** 1. **<option>** _(recommended, <confidence> confidence)_: what it means. _Why:_ one line ... Reply with 1, 2 or 3, or your own words. Then stop and wait. Log my answer as it arrives, read it back in one line, and only then ask the next query. The total is the number of open queries when we start; if an answer raises a new one, add it to the total and say so."
 
 This refines INTERACTIVE-QUERIES, which landed as harness `0af7ab73`. Run `query-turns` amends the standard and the generated surfaces to match exactly, and updates the queued ki.prj.chezmoi line. It applies to this thread from now, starting with HOLD-SCOPE as query 1 of 17.
@@ -947,6 +1055,8 @@ This refines INTERACTIVE-QUERIES, which landed as harness `0af7ab73`. Run `query
 - 31 October 2026, 12:09 GMT: the QUERY-TURNS line also arrived in `messages.md`. It is the same rule Kris gave in the thread, so it is received with the entry above and removed.
 
 ## INBOX-WATCH (31 October 2026, 12:18 GMT)
+
+home: /Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md class: rule
 
 Kris, in this thread: "because you're the only thing that's working, and I think most things are sending messages to you ... it's important for you to keep your stuff in sync whilst we're doing this. So that probably means periodically checking to see if you've got any new messages and acting on those. That's maybe a more general thing about ways of working ... an active coordination thread may well have a scheduled kind of wake up to see if there's any new work for it? I don't know if Orca supports that natively, or if that's something that we need to put into our skills ... could be different by each orchestration platform."
 
@@ -956,6 +1066,8 @@ Taken as two parts:
 2. **In general.** Run `inbox-wake-design` studies what each orchestration platform offers natively for waking an idle coordinator on new work: Orca's mailbox, `orchestration check --wait` and automations; Claude Code's background tasks, `/loop` and scheduled wakeups; Codex; and Paperclip. It proposes how `ki-coordination` and the per-platform delegation adapters express it, in line with WAKE-SESSION and WAKE-DURABLE, already decided, and WAKE-HOST, still open. Design only; it raises queries.
 
 ## Four messages received (31 October 2026, 12:21 GMT)
+
+class: operational
 
 - **CAPTURE-SKILL** (IMPORTANT, from personal.reg.acquire-intake, at Kris's request). Run `capture-skill` brings the capture skill and method into line with Acquire's decisions of 31 October, with Acquire's own text as the authority (ACQ020-OWNER).
 - **QUERY-SET-MARK** (IMPORTANT, at Kris's request). The counter is already in the rule (QUERY-TURNS, harness). Run `query-set-mark` adds the other half: when the last query of an interactive set is answered, the coordinator takes a mark and then gives the Summary. This thread applies it from now.
@@ -970,6 +1082,8 @@ The three runs touch the harness, so they run one after another (WIP-LIMIT).
 
 ## Owner remarks, 31 October 2026, 12:50 GMT
 
+home: /Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md class: rule
+
 - **PUSH-STANCE.** Kris: "website pushes went straight to [main]. That's absolutely fine, by the way. I need to get to the bottom of that because it's something that keeps coming back up again, but I'm actually fine with you making commits and pushes these days. There's certain situations where we need to be careful around it, but there's no hard and fast rule on this really, is there?" The website push is cleared as a miss. The standing push rule and the website repository's branch rules are to be reconciled; I put a recommendation to Kris.
 - **PUSH-TO-PICKUP.** Kris: "how do we do things like waking them up so that we can just push things into a Git repository and at some point a long-lived or running agent like this one on [Orca] will pick it up ... I'm not expecting to try to run the command. I just want to be able to push it into the repo." This confirms the INBOX-WATCH direction: pushing a line to a package's `messages.md` is the whole interface for the sender.
 - **PLAIN-ENGLISH emphasis.** Kris: "plain English or simplified explanations of things, especially on the website, is really important."
@@ -977,6 +1091,8 @@ The three runs touch the harness, so they run one after another (WIP-LIMIT).
 - 31 October 2026, 13:00 GMT: received **DRAIN-TARGET** (personal.reg.tower). Kris, 13:00 GMT: while work is With worker but deliberately moving towards a hold or a handoff, the banner says so, for example `🤖 With worker (draining → ⏸️ On hold)`. Run `drain-target` adds this to the `ki-coordination` banner rules, the output style and the banner test.
 
 ## Owner direction, 31 October 2026, 13:05 GMT (mark taken)
+
+home: /Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/skills/change-management/ki-coordination/references/standards-coordination.md class: rule
 
 Kris asked for a mark: "we can definitely take a mark at this point". Struck at 13:05 GMT. Read back as taken:
 
