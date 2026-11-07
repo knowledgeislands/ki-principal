@@ -98,6 +98,7 @@
 
 ## Outbound
 
+- 2026-11-07 · MSG-6d1b06d6 WAKE-OWNER · to lgl.sop.main · 14:04 GMT · wake ownership and verified limits, asks LEGAL-REGISTER-WAKE · awaiting ACK
 - 2026-11-06 · MSG-b79307a6 HEALTH/PING · to ki.sop.main · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-61a1d864 HEALTH/PING · to hnr.sop.main · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-998473d8 HEALTH/PING · to hnr.prj.5g-emerge-p2ms3 · listener 120 min · awaiting ACK
