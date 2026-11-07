@@ -2,6 +2,7 @@
 
 ## Inbound
 
+- 2026-11-07 · ACK MSG-4b3bdd8d · from personal.reg.inbox-sol · 02:09 GMT (ANNOUNCE read at 07:15 GMT on 6 November; sol's lines for the record went as MSG-9224b044 RECORD-0611; this explicit ACK was missing)
 - 2026-11-07 · ACK MSG-66a29732 · from personal.reg.inbox-terra · 01:38 GMT · re-armed for 110 minutes on both call/ and doorbell/
 - 2026-11-07 · ACK MSG-ded8d2b7 · from personal.reg.household-sol · 01:33 GMT · re-armed for 110 minutes on `call/`
 - 2026-11-07 · ACK MSG-a2bd16c2 HEALTH · from KI > Guilds (ki.reg.guilds) · 01:18 GMT · re-armed on call/ and doorbell/ for 120 minutes, re-armed again at each wake.
