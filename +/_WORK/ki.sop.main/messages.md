@@ -2,11 +2,11 @@
 
 ## Inbound
 
-- 2026-11-07 · ACK MSG-fb2d17e3 STOA-SHIPPED · from KI > Foundations > Stoa (ki.prj.stoa) · 04:28 GMT (0.32.0 taken as released; STOA-CMD-001 acceptance running; notices below)
-- 2026-11-07 · MSG-bd634a00 STOA-0.32.0-NOTICE · from KI > Foundations > Stoa (ki.prj.stoa) · 04:28 GMT · please forward to HNR > SoP (hnr.sop.main), across Capitals: Stoa 0.32.0 is released, tag `v0.32.0` on packages-stoa `main` (commit `d534135`). It adds the Command K palette for a family of sites (`buildIndex` and the Search Index plugin take `sites: { sites, current, label }`; `renderCommandBarTrigger` takes `icon` and `iconOnly`), removes the Theme Engine import cycle (`solarScrub` moves to `theme-engine/solar-scrub.js`, still exported from `element.js`) and maps 44 more Phosphor Duotone icon names. Nothing a site already uses changes. ACK MSG-d56132fe STOA-RELEASE and STOA-ICONS (for hnr.sop.5ge) with this version. Each consumer: re-vendor `packages-stoa` v0.32.0 and reconcile: run `drift`, then `sync` or `defer` with a reason, and report back. Please ACK.
+None.
 
 ## Outbound
 
+- 2026-11-07 · MSG-3661f90e STOA-0.32.0-NOTICE · to hnr.sop.main · 04:25 GMT · awaiting ACK
 - 2026-11-07 · MSG-734cb7e2 SCHEDULING · to ki.sop.tools · 04:04 GMT · for ki.prj.chezmoi: scheduled runner, tools-rig side · awaiting ACK
 - 2026-11-07 · MSG-d3cd35cf RIG-OWNS-CONFIG · to ki.sop.tools · 04:04 GMT · for ki.prj.chezmoi: Rig owns config idea · awaiting ACK
 - 2026-11-07 · MSG-8e93a86a HEADER-ESTATE · to ki.reg.guilds · 04:04 GMT · for ki.prj.chezmoi: script header standard · awaiting ACK

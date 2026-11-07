@@ -440,3 +440,8 @@ Kris: "Agreed: WATCH-AGORA, STOA-RELEASE, STOA-GAPS, TIDY-UPS, SKILL-HOMES, SKIL
 - ACK MSG-9d4e8503 from household-sol: BACKUPS-DELETE and MOVE-LESSONS-4 have nothing on sol; DESKTOP-RESET put to Kris by household-sol.
 - ACK MSG-9aaf78c8 from household-sol: WhatsApp already scoped to terra.
 - ACK MSG-db66d378 from household-sol: `rebase.autoStash` removed (dotfiles `20a6829`) and applied on sol; household-terra asked to apply on terra.
+
+## 2026-11-07 04:25 GMT · Stoa notice forwarded
+
+- ACK MSG-fb2d17e3 from ki.prj.stoa: 0.32.0 taken as released; STOA-CMD-001 acceptance running. Outbound cleared.
+- MSG-bd634a00 STOA-0.32.0-NOTICE from ki.prj.stoa: forwarded in full to hnr.sop.main as MSG-3661f90e; ACKed to ki.prj.stoa.
