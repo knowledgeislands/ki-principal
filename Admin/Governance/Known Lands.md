@@ -19,7 +19,7 @@ Any island may maintain its own chart of useful topics, sources and destinations
 
 ## Internal inventory
 
-The current inventory contains 21 canonical KI repository identities: Knowledge Islands Principal and 20 member islands. This owner-approved inventory agrees with the single ordered territorial roster in `.ki.toml`, including Knowledge Islands Principal. `territory_prefix = "knowledge-islands"` supplies the short selection handle and Paperclip retains organisation code `KIS`. The machine-readable member list is `territory_members` under `[skills.ki-repo]` in Knowledge Islands Principal's `.ki.toml`, and every member names Knowledge Islands Principal in its own `[skills.ki-repo].capital`. A change to this inventory updates both in the same enactment.
+The current inventory contains 22 canonical KI repository identities: Knowledge Islands Principal and 21 member islands. This owner-approved inventory agrees with the single ordered territorial roster in `.ki.toml`, including Knowledge Islands Principal. `territory_prefix = "knowledge-islands"` supplies the short selection handle and Paperclip retains organisation code `KIS`. The machine-readable member list is `territory_members` under `[skills.ki-repo]` in Knowledge Islands Principal's `.ki.toml`, and every member names Knowledge Islands Principal in its own `[skills.ki-repo].capital`. A change to this inventory updates both in the same enactment.
 
 Each island owns its accepted knowledge or executable behaviour within the shared governance. The roles below distinguish Capital, specialist knowledge, reusable capabilities, products, integrations, tools and delivery without turning a product boundary into another territory.
 
@@ -41,6 +41,7 @@ Each island owns its accepted knowledge or executable behaviour within the share
 | [mcp-housekeeping-claude][mcp-housekeeping-claude] | MCP | Claude housekeeping |
 | [mcp-ki-kb-fs][mcp-ki-kb-fs] | MCP | Knowledge Base filesystem |
 | [mcp-m365][mcp-m365] | MCP | Microsoft 365 integration |
+| [packages-stoa][packages-stoa] | Package | Stoa, the shared site units each site vendors |
 | [tools-git-almanac][tools-git-almanac] | Tool | Git chronology |
 | [tools-ki][tools-ki] | Tool | KI governance host |
 | [tools-mgit][tools-mgit] | Tool | Repository operations |
@@ -61,11 +62,7 @@ On 26 October 2026 Kris retired the KB-to-Notion mirror and deleted `knowledgeis
 
 ## Uncharted lands
 
-This repository sits in the `knowledge-islands` workspace and its `.mgit.toml` but has not adopted Knowledge Islands: it carries no `.ki.toml`. Listing it adopts nothing and grants no membership, authority, access or exchange permission; it becomes a member only through an approved enactment.
-
-| Canonical repository | Uncharted land |
-| --- | --- |
-| `knowledgeislands/packages-portal-commons` | Shared portal-site package source, moved from Humans Not Robots on 23 October 2026, where it was `humansnotrobots/apps-packages-portal-framework`; no Knowledge Islands adoption. |
+No repository in the `knowledge-islands` workspace is currently uncharted. `knowledgeislands/packages-stoa`, listed here as `knowledgeislands/packages-portal-commons` until it was renamed on 28 October 2026, became a member on 7 November 2026 on Kris's instruction.
 
 ---
 
@@ -132,6 +129,8 @@ Membership and ownership changes follow the territory's Enactment Process and th
 [mcp-housekeeping-codex]: https://github.com/knowledgeislands/mcp-housekeeping-codex
 [mcp-ki-kb-fs]: https://github.com/knowledgeislands/mcp-ki-kb-fs
 [mcp-m365]: https://github.com/knowledgeislands/mcp-m365
+
+[packages-stoa]: https://github.com/knowledgeislands/packages-stoa
 [tools-git-almanac]: https://github.com/knowledgeislands/tools-git-almanac
 [tools-ki]: https://github.com/knowledgeislands/tools-ki
 [tools-mgit]: https://github.com/knowledgeislands/tools-mgit
