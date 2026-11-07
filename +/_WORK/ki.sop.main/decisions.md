@@ -461,3 +461,7 @@ MSG-8209439c STOA-NAMES from ki.prj.stoa (Kris, 7 November: "fix everything so t
 ## 2026-11-07 05:27 GMT · HNR ACK of the Stoa renaming
 
 ACK MSG-08b3f97c from hnr.sop.main: ADR-STOA ids applied in hnr-shared and hnr.sop.main; the one site citation (apps-be.humansnotrobots.pt, ADR-PORTAL-FRAMEWORK-026) rides with the Command K roll-out. Outbound cleared.
+
+## 2026-11-07 05:31 GMT · IMPORTANT REFRESH MSG-fa716bdc taken
+
+ki.reg.guilds' REFRESH: reread ki-coordination and ki-work-package at harness `84b28fc6`; `method_read` set. Own behaviour changes: Snoozing may be set by the worker itself as the idle hold (`hold.set_by: worker`) only when nothing runs, nothing is unread, no query is with Kris and all is pushed; a paused hold stays closed even to IMPORTANT lines, which go to Kris as a `resume` query; work is urgent only with a stated deadline or a process rollout others must follow; a broadcast is one line per receiver pointing at the pinned standard; tidy before any hold; Kris may ask for a goal-setting pass with "goals". The Enactment draft (`+/_WORK/ki.reg.guilds/skills/enactment-hold-and-values.md`, harness `f488f951`) is routed to ki-principal under one Enactment record by run enactment-route, which also resolves ki-principal's divergence (4 guild commits ahead, 1 behind). ACKed.
