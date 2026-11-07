@@ -1,49 +1,43 @@
 # [Foundations](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Themes/foundations.md) › [Stoa](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Projects/stoa.md) › release-0-32-0
 
-**🤖 → 👤 Handoff to supervisor · Run report at 02:50 GMT · blocked · last mark 02:46 GMT**
+**🤖 → 👤 Handoff to supervisor · blocked · Run report at 04:21 GMT · last mark 02:46 GMT**
 
 ---
 
 ## Done
 
-- `packages-stoa` `main` was clean and level with `origin`, at `e37e43c`; the fast-forward pull brought nothing new.
-- Checks on `e37e43c`: tests pass (253 pass with 1 skipped in Stoa, 3 pass in the workbench), typecheck is clean and lint is clean.
-- Workbench, viewed in the installed Chrome running headless: the four-square trigger opens the Command Bar. With an empty query it lists Home, Lab and Harbour Survey under Sites, leaving out Docs, the current site. Typing "Harbour" finds Harbour Survey at <https://harbour.example.org/>. All 44 new icon names render, giving 137 names in total. The server is stopped.
-- Stopped at acceptance: [STOA-CMD-001](/Users/krisbrown/kis/knowledge-islands/packages-stoa/docs/roadmap/STOA-CMD-001-command-k-palette.md) was not accepted, and 0.32.0 was not released, tagged or pushed. The `ki-accept` skill first needs the repository to name its work-record setup (the "adapter"), and it allows no fallback. `packages-stoa` has no `.ki.toml` and never has had one, so that setup is undeclared and the skill refuses before touching the record. As the brief directs, I released nothing and made no commits. The checkout is still clean at `e37e43c`.
-- Apart from that, the record would pass: it is `awaiting-review`, every Step is ticked, its six-part review packet is in order, and both checks named in its Verify section hold today.
+- I stopped at the first step, as the brief requires when the run before me (`ki-repo-0-32-0`) leaves a blocking query. Its report leaves one: Q1 STOA-RELEASE-STATE.
+- I changed nothing. I made no commits, ran no checks, did not accept [STOA-CMD-001](/Users/krisbrown/kis/knowledge-islands/packages-stoa/docs/roadmap/STOA-CMD-001-command-k-palette.md), created no tag and pushed nothing.
+- I confirmed that query for myself. Stoa 0.32.0 was already released at 03:59 GMT in release commit `d534135`, made by an agent session under Kris's name. The commit sets both version files to `0.32.0` and the `CHANGELOG.md` heading to `## 0.32.0`. Its annotated tag `v0.32.0` has the subject "Stoa 0.32.0: Command K palette, import cycle fix, icon mappings".
+- That tag is already on `origin`, and so is the same tag object. I checked this with one read-only `git ls-remote`, which the brief did not name as an allowed call. The previous run thought the tag was probably local only. It is not.
+- `main` is clean and level with `origin` at `119d6ad`, which is the five repository-setup commits from `ki-repo-0-32-0` on top of the release.
+- [STOA-CMD-001](/Users/krisbrown/kis/knowledge-islands/packages-stoa/docs/roadmap/STOA-CMD-001-command-k-palette.md) is still `awaiting-review`. So the released 0.32.0 ships the Command K palette while its record is not yet accepted.
+- My inbox had nothing in it.
 
 ## In Progress
 
-Nothing. The run is held on the query below.
+Nothing.
 
 ## Queries
 
-### STOA-ADAPTER - Declare packages-stoa's roadmap so STOA-CMD-001 can be accepted
+### Q1 STOA-RELEASE-REBRIEF - 0.32.0 is already released and published; only the acceptance is left · blocking
 
-**Context**
+**Context:** This brief asked me to accept STOA-CMD-001, cut 0.32.0, tag it and push. All of that except the acceptance has already happened. Release commit `d534135` and tag `v0.32.0` were made at 03:59 GMT, and both are on `origin` because a scheduled sync job pushed the commit. The tag subject reads "import cycle fix, icon mappings", not the subject this brief gives. Following the brief would mean creating a tag that already exists, or moving a published tag. This answers the earlier run's Q1 with one correction: the tag is already published, so its option a no longer needs a tag push.
 
-Kris's STOA-RELEASE approval of 7 November 2026, 02:44 GMT, covers accepting STOA-CMD-001 and cutting 0.32.0. `ki-accept` will close a record only when the repository's `.ki.toml` declares how its work records are kept. `packages-stoa` keeps them in `docs/roadmap/`, and its `ROADMAP.md` says so in prose, but it has no `.ki.toml`. The `ki` tool also refuses the repository for the same reason. Everything else needed for the release is ready.
+**Query:** How should the remaining 0.32.0 work go ahead?
 
-**Query**
+**Options:**
 
-How should the missing declaration be handled before the release runs again?
+a) (recommended, confidence high - the release is out and matches the approval, so only the acceptance is still owed) Keep `v0.32.0` and its tag subject as they are. Launch a short run that rechecks and accepts STOA-CMD-001 through `ki-accept` under the STOA-RELEASE entry, commits that alone and pushes `main`. Then send consumers the 0.32.0 notices from the existing CHANGELOG section.
 
-**Options**
+b) Delete `v0.32.0` and re-create it on `d534135` with the subject from this brief. This rewrites a published tag for a wording change.
 
-a) (recommended, confidence high - this fixes the cause with the least scope and keeps the acceptance rule intact) Have a short authorised run add a `.ki.toml` to `packages-stoa` that declares the local `roadmap` adapter (for example with `ki repo init`), check that the roadmap audit passes, and commit it. Then rerun this release brief unchanged.
+c) Move `v0.32.0` to a new commit that includes the acceptance and the repository setup. This rewrites a published release, and any site that has already re-vendored would be pinned to a different tree.
 
-b) Kris waives the declaration check for this one closure, so STOA-CMD-001 can be closed by hand against its `docs/roadmap/` record before the release. The skill says there is no fallback, so the waiver would need his explicit words.
+### 🤖 → 👤 Handoff to supervisor · blocked · at 04:21 GMT
 
-c) Release 0.32.0 now, leave STOA-CMD-001 `awaiting-review` until the declaration exists, and accept it afterwards. This splits what STOA-RELEASE approved as a single step, so it needs a fresh go.
+👤 1 with you
 
-A side note for whoever reruns the release: the STOA-RELEASE entry says to "date the CHANGELOG", but earlier release headings carry the bare version, such as `## 0.31.0`, and the brief asks for `## 0.32.0`. I would keep the bare heading unless Kris wants a date.
-
-Candidate record: adding the `.ki.toml` declaration to `packages-stoa`, if option a) is done as tracked work rather than a direct fix.
-
-### 🤖 → 👤 Handoff to supervisor · blocked · at 02:50 GMT
-
-👤 1 with you · ⛔ 1 blocked
-
-- [blocked] Stoa 0.32.0 release and STOA-CMD-001 acceptance · release-0-32-0 · 02:50 GMT
+- [blocked] Q1 STOA-RELEASE-REBRIEF, 0.32.0 already released; acceptance outstanding · Kris · since 04:21 GMT
 
 🧵 ki.prj.stoa
