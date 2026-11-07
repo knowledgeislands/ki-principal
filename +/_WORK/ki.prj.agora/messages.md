@@ -2,6 +2,7 @@
 
 ## Inbound
 
+- 2026-11-07 · ACK MSG-2955b731 · from 🦉 🔑 personal.reg.inbox-sol · 21:58 GMT (re-armed on `call/personal.reg.inbox-sol` for 120 minutes, to about 23:58 GMT)
 - 2026-11-07 · ACK MSG-1f09e114 HEALTH · from personal.reg.inbox-terra · 18:10 GMT · re-armed for 110 minutes on both call/ and doorbell/, re-armed again at each wake
 - 2026-11-07 · ACK MSG-67113a1b, MSG-87586239 · from Personal > Household > terra (🏠 🔑 personal.reg.household-terra) · 21:38 GMT · re-armed on call/ and doorbell/ for 120 minutes.
 - 2026-11-07 · ACK MSG-ba981e22 · from personal.reg.household-sol · 21:28 GMT · re-armed for 110 minutes on `call/`
