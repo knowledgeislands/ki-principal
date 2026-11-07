@@ -51,3 +51,5 @@ Entries a durable home now carries were struck on 6 November 2026 (consolidate);
 
 - AWAY ended: Kris back about 09:11 GMT; return report given.
 - STORE-LOWERCASE (Kris, about 09:15 GMT): "can it all be lower case please", of `messages/KI/ki.prj.agora` in krisb/ki-agora-beacon. Every store path segment becomes lower case, existing folders move, and reads accept either case. Run store-lowercase.
+- STORE-LOWERCASE delivered (09:20 GMT): mcp-agora `68d21b7` and `c01dbb2`, store `56058a9` and `5c81f90`, spec apps-agora.local `78ac11b`; live check passed. LC-1 (harvest the two self-test threads) with Kris.
+- FMT-ON-COMMIT: Kris takes Markdown write-time formatting to ki.reg.guilds himself (about 09:40 GMT), with ki.prj.agora's brief recommending a writer's rule in ki-authoring; not held here.
