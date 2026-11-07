@@ -6,11 +6,25 @@ None.
 
 ## Outbound
 
+- 2026-11-07 · MSG-dc361030 CHEZMOI-HANDOVER · to personal.reg.household-terra · 04:04 GMT · for ki.prj.chezmoi: handover note; TRUST-COMPLETE, VSCODE-LAYOUT · awaiting ACK
+- 2026-11-07 · MSG-5af13654 MCP-PROCS · to personal.reg.household-terra · 04:04 GMT · for ki.prj.chezmoi: mcporter child count on terra · awaiting ACK
+- 2026-11-07 · MSG-d845825f HNR-JOBS · to personal.reg.household-terra · 04:04 GMT · for ki.prj.chezmoi: HNR terra jobs · awaiting ACK
+- 2026-11-07 · MSG-2c6d513d CF-TOKENS · to personal.reg.household-terra · 04:04 GMT · for ki.prj.chezmoi: cf_token selector and minting-key guide · awaiting ACK
+- 2026-11-07 · MSG-47b31193 ORCA-PREFS · to personal.reg.household-terra · 04:04 GMT · for ki.prj.chezmoi: Orca preferences design · awaiting ACK
+- 2026-11-07 · MSG-65f69c1c MGIT-SYNC-ADOPT · to personal.reg.household-terra · 04:04 GMT · for ki.prj.chezmoi: dotfiles sync through mgit · awaiting ACK
+- 2026-11-07 · MSG-e069a853 INTERACTIVE-QUERIES · to personal.reg.household-terra · 04:04 GMT · for ki.prj.chezmoi: communication.md interactive queries · awaiting ACK
+- 2026-11-07 · MSG-240e5015 MOVE-RESIDUE · to personal.reg.household-terra · 04:04 GMT · for ki.prj.chezmoi: move residue on terra · awaiting ACK
+- 2026-11-07 · MSG-a0c8ba95 CHEZMOI-HANDOVER · to personal.reg.household-sol · 04:04 GMT · for ki.prj.chezmoi: handover note; UTM-SOURCE, WARP-CONTAINER · awaiting ACK
+- 2026-11-07 · MSG-9d4e8503 MOVE-RESIDUE · to personal.reg.household-sol · 04:04 GMT · for ki.prj.chezmoi: move residue on sol · awaiting ACK
+- 2026-11-07 · MSG-9aaf78c8 WHATSAPP-MCP-SCOPE · to personal.reg.household-sol · 04:04 GMT · for ki.prj.chezmoi: WhatsApp MCP terra-only · awaiting ACK
+- 2026-11-07 · MSG-db66d378 AUTOSTASH · to personal.reg.household-sol · 04:04 GMT · for ki.prj.chezmoi: remove rebase autostash · awaiting ACK
+- 2026-11-07 · MSG-734cb7e2 SCHEDULING · to ki.sop.tools · 04:04 GMT · for ki.prj.chezmoi: scheduled runner, tools-rig side · awaiting ACK
+- 2026-11-07 · MSG-d3cd35cf RIG-OWNS-CONFIG · to ki.sop.tools · 04:04 GMT · for ki.prj.chezmoi: Rig owns config idea · awaiting ACK
+- 2026-11-07 · MSG-8e93a86a HEADER-ESTATE · to ki.reg.guilds · 04:04 GMT · for ki.prj.chezmoi: script header standard · awaiting ACK
 - 2026-11-06 · MSG-29a787dc SNOOZE-REASON · to ki.prj.tools-burndown · 23:46 GMT · `hold.reason` accepts `snoozing` · awaiting ACK
 - 2026-11-06 · MSG-e5042dae REFRESH · to ki.prj.agent-host · 20:09 GMT · `056996c0` checks before committing · awaiting ACK
 - 2026-11-06 · MSG-ce659ab9 REFRESH · to ki.prj.agora · 20:09 GMT · `056996c0` checks before committing · awaiting ACK
 - 2026-11-06 · MSG-7d638aa4 REFRESH · to ki.prj.baseline-rollout · 20:09 GMT · `056996c0` checks before committing · awaiting ACK
-- 2026-11-06 · MSG-4efdc82e REFRESH · to ki.prj.chezmoi · 20:09 GMT · `056996c0` checks before committing · awaiting ACK
 - 2026-11-06 · MSG-6aa62dbd REFRESH · to ki.prj.estate-factorisation · 20:09 GMT · `056996c0` checks before committing · awaiting ACK
 - 2026-11-06 · MSG-5aad6b71 REFRESH · to ki.prj.mac-studio-setup · 20:09 GMT · `056996c0` checks before committing · awaiting ACK
 - 2026-11-06 · MSG-4ccaf9a4 REFRESH · to ki.prj.observatory · 20:09 GMT · `056996c0` checks before committing · awaiting ACK
@@ -24,7 +38,6 @@ None.
 - 2026-11-06 · MSG-642d617e REFRESH · to ki.reg.main · 20:09 GMT · `056996c0` checks before committing · awaiting ACK
 - 2026-11-06 · MSG-832e0fdc REFRESH · to ki.prj.agent-host · 20:40 GMT · `27833e5b` FOOTER-COUNTS · awaiting ACK
 - 2026-11-06 · MSG-4e31c2f3 REFRESH · to ki.prj.baseline-rollout · 20:40 GMT · `27833e5b` FOOTER-COUNTS · awaiting ACK
-- 2026-11-06 · MSG-e864cdc7 REFRESH · to ki.prj.chezmoi · 20:40 GMT · `27833e5b` FOOTER-COUNTS · awaiting ACK
 - 2026-11-06 · MSG-66e76788 REFRESH · to ki.prj.estate-factorisation · 20:40 GMT · `27833e5b` FOOTER-COUNTS · awaiting ACK
 - 2026-11-06 · MSG-ceb518fe REFRESH · to ki.prj.mac-studio-setup · 20:40 GMT · `27833e5b` FOOTER-COUNTS · awaiting ACK
 - 2026-11-06 · MSG-37e146cf REFRESH · to ki.prj.observatory · 20:40 GMT · `27833e5b` FOOTER-COUNTS · awaiting ACK

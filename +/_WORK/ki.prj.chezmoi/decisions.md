@@ -242,3 +242,15 @@ Operational: run w-U3 of ki.prj.ways-of-working, under the unattended window AWA
 Operational: State of play's tidy-ups run, under TIDY-UPS a) (Kris, 7 November) and OBSOLETE-DROP a), dropped parked queries whose subject events have overtaken, each checked fresh against its commit:
 
 - WARP-HANDLER: settled on sol by the SOL-SETTLED line of 24 October in this package's `messages.md` (`.toml` opens with Zed; the `-50` record cleared).
+
+## 2026-11-07 04:10 GMT - CHEZMOI-HANDOVER fold disposition
+
+Operational: under CHEZMOI-HANDOVER a) (Kris, 7 November: "Fold and fix"), carrying out his 1 November words, a State of play run folded this package into personal.reg.household-terra and personal.reg.household-sol through the [handover note](_emerging/handover.md) and put it On hold until both ACK. Each Inbound line's disposition, the line removed:
+
+- To personal.reg.household-terra: HANDOVER-HOUSEHOLD as MSG-dc361030 with TRUST-COMPLETE and VSCODE-LAYOUT; MCP-PROCS as MSG-5af13654; TRIAGE-HOURS, TRIAGE-HOURS-APPLY, REROUTE-GRANT and ENGINE-POINTERS as MSG-d845825f; BUILDS-TOKEN-PATH and JOB-TOKENS as MSG-2c6d513d; ORCA-PREFS, ORCA-PREFS-DESIGN, ORCA-READD, ORCA-MOVE-LESSON and MANAGED-COVERAGE as MSG-47b31193; MGIT-SYNC-ADOPT as MSG-65f69c1c; INTERACTIVE-QUERIES as MSG-e069a853; WORKSPACE-LAYOUT, PAPERCLIP-EXTERNAL, MOVE-MAP-ANSWERS, MOVE-WHOLESALE, MOVE-ORCHESTRATE, MOVE-LINKS, MOVE-REBOOT, TOP-FOLDER, MOVE-LESSONS-2 and terra's share of MOVE-LESSONS-4 as MSG-240e5015; MSG-b29708ed ACKed and kept for close-out.
+- To personal.reg.household-sol: UTM-SOURCE, WARP-CONTAINER and SOL-INSTALLS-DONE with the note as MSG-a0c8ba95; DESKTOP-RESET, BACKUPS-DELETE, MOVE-PROCEDURE-STEPS and sol's share of MOVE-LESSONS-4 as MSG-9d4e8503; WHATSAPP-MCP-SCOPE as MSG-9aaf78c8; the rebase autostash removal as MSG-db66d378.
+- To ki.sop.tools (tools-rig lane): WAKE-SUBSTRATE, DISPATCHER, DISPATCHER-REPLY and MGIT-SYNC-JOB as MSG-734cb7e2 (PERSONAL-DOTFILES-UE-126 merged into UE-137, which was cancelled because scheduling moves to Agora and tools-rig); RIG-OWNS-CONFIG as MSG-d3cd35cf.
+- To ki.reg.guilds: HEADER-ESTATE as MSG-8e93a86a; SKILL-HARVEST answered by ACK MSG-c6fa7c81 naming it; REFRESH MSG-4cf14cb8, MSG-d86fa41b, MSG-05928755 and MSG-283f72a5 ACKed as arrived, to be re-read at resume.
+- To ki.sop.main: REFRESH MSG-e864cdc7 and MSG-4efdc82e ACKed by pruning its Outbound lines; MSG-6d5037ab and MSG-01fe305a taken as arrived.
+- Spent, no route: the untagged REFRESH lines of 28 October to 4 November and SUMMARY-NOW (method notices, re-read at resume), MARK-EXPECTED (replaced by SUMMARY-NOW), HEARTBEAT (no live session to answer), DOWNLOADS-RETIRED (nothing here uses Downloads), SOL-SETTLED (WARP-HANDLER settled, below).
+- Dropped as overtaken: ACCEPT-UE106, because PERSONAL-DOTFILES-UE-106 was accepted in chezmoi `c625c662` and pruned in `646d1ff9`; WARP-HANDLER, already dropped under OBSOLETE-DROP above.

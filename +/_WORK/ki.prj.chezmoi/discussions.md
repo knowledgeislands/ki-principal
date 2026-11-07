@@ -2,10 +2,7 @@
 
 ## Open
 
-- ACCEPT-UE106 (Needs: acceptance, Kris; PERSONAL-DOTFILES-UE-106): Tower Assistant at `/Applications` done on terra and sol; a) accept and prune (recommended); b) keep open for apps-tower's attended checks and test-plist follow-up. With Kris 02:48. Note at merge (24 October, 20:50 BST): terra's tidy left PERSONAL-DOTFILES-UE-106 at `draft` for the test-plist follow-up, so acceptance may wait on that.
-- UTM-SOURCE (sol-drift, Needs: decision, Kris): sol's UTM is the Homebrew 4.7.5 copy, the declaration wants the purchased App Store copy. a) attended migration to the App Store copy keeping the app and VM data, with rollback (recommended, high); b) change the declaration to Homebrew. With Kris 21:35.
-- WARP-CONTAINER (warp-retire, Needs: action, Kris on sol): Finder ⇧⌘G `~/Library/Group Containers`, select `2BBY89MBSN.dev.warp`, Delete Immediately (⌥⌘⌫); empty any Warp items from Trash. With Kris 02:21.
-- Not raised: CORE-SET-COMMENTS (stays in the worksheet).
+None. Under CHEZMOI-HANDOVER a) (Kris, 7 November) UTM-SOURCE and WARP-CONTAINER went to personal.reg.household-sol with the [handover note](_emerging/handover.md), CORE-SET-COMMENTS stays in the worksheet and ACCEPT-UE106 was dropped as overtaken; see [decisions](decisions.md).
 
 ## Parked
 

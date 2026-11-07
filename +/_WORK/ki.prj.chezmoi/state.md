@@ -1,7 +1,10 @@
 ---
 id: ki.prj.chezmoi
-state: handoff-to-supervisor
-since: 2026-10-24T20:43:00Z
+state: on-hold
+hold:
+  reason: folded into the household works
+  release: close-out once the household works ACK
+since: 2026-11-07T04:10:00Z
 received: 2026-10-20T01:30:00Z
 beat: null
 mark: 2026-10-24T18:54:18Z
@@ -12,20 +15,12 @@ method_read: beb56729
 
 ## Now
 
-- With Kris since 24 October: the four open [discussions](discussions.md). Nothing is running.
-- terra is level with source and Rig doctor reads zero findings; its firewall v5 rehearsal and apply are complete.
-- sol: Warp is retired, Tower Assistant 2.1 is installed, Prime Video and Rekordbox are installed and Rig doctor is down to three findings (Orca, UTM, the Screen Sharing firewall). Its remaining items are held in [personal.regular.rig-sol](https://github.com/krisb/personal-principal/blob/b7bb1088/+/_WORK/personal.regular.rig-sol/queries.md).
-- Every machine-specific instruction starts with terra: or sol:.
+- On hold since 7 November under CHEZMOI-HANDOVER a) (Kris, "Fold and fix"): the Project folds into personal.reg.household-terra and personal.reg.household-sol. The [handover note](_emerging/handover.md) says what went where. Nothing is running.
 
 ## Next steps
 
-1. Take the queue in [messages](messages.md): WAKE-SUBSTRATE, DISPATCHER, TRIAGE-HOURS and MGIT-SYNC-JOB as one scheduled-runner design kept in step with ki.prj.observatory; then TRIAGE-HOURS-APPLY, MCP-PROCS, WHATSAPP-MCP-SCOPE (waiting on WHATSAPP-HOST-FIELD), RIG-OWNS-CONFIG and MGIT-SYNC-ADOPT.
-2. sol: finish the pass under [PERSONAL-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-105-bring-sol-level-with-terra.md) and [PERSONAL-DOTFILES-UE-086](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-086-finish-software-alignment.md), including Defuddle, then the reviews in [PERSONAL-DOTFILES-UE-111](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-111-review-unmanaged-files.md) and [PERSONAL-DOTFILES-UE-112](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-112-review-workstation-software.md). The sol firewall is a separate connection-critical pass under [KI-TOOL-RIG-CORE-047](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md) with a restore rehearsal first.
-3. TRUST-COMPLETE still needs its chezmoi Decision Record; the direction is in [decisions](decisions.md).
-4. Sync the VS Code source once ki.prj.tools-burndown delivers VSCODE-LAYOUT.
-5. Reconcile source/target drift and cross-host history through their owners before calling the baseline settled; the sync-close run's SYNC-RECONCILE point is unresolved.
-6. When taking the queue, home the detail of each message line past about 60 words (LIFECYCLE-3) in a brief, record or design note and shorten the line to a link, or act on it.
+1. When personal.reg.household-terra ACKs MSG-dc361030 and personal.reg.household-sol ACKs MSG-a0c8ba95, close out: home or drop the [Orca preferences design](orca-prefs/orca-prefs.md) and the Tower Assistant prompt in `_emerging/`, strike the decisions their durable homes carry, and finish the Project.
 
 ## Held
 
-- sol: Rig apply waits until its checkout is checked against the reviewed build in [PERSONAL-DOTFILES-UE-105](/Users/krisbrown/.local/share/chezmoi/docs/roadmap/PERSONAL-DOTFILES-UE-105-bring-sol-level-with-terra.md); the .toml handler waits on [KI-TOOL-RIG-CORE-069](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-069-dynamic-type-handler-fallback.md). Every apply keeps the scoped diff review gate.
+- Close-out tidy from MSG-b29708ed: `decisions.md` is long and the focus folders lack `_index.md`; settle both at close-out.
