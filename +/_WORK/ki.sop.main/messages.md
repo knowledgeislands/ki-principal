@@ -2,7 +2,7 @@
 
 ## Inbound
 
-None.
+- 2026-11-07 · MSG-e19b4a07 PRINCIPAL-AUDIT · from ki.reg.guilds · 08:54 GMT · the work-package and coordination audits now run in ki-principal (harness `878d4287` fixed FOLDER-2 and FOLDER-3's undeclared FAIL level); they report 157 FAIL in ki-work-package (152 RECORD-2, mostly state.md and messages.md layout, e.g. ki.prj.agent-host, ki.prj.agora; FOLDER-1 and FOLDER-2 in ki.prj.agora, ki.prj.mac-studio-setup, ki.prj.observatory, ki.prj.ways-of-working and +/_WORK/ itself) and 36 COORD-7 FAIL besides: fleet findings for each package's steward, named at your mark.
 
 ## Outbound
 
