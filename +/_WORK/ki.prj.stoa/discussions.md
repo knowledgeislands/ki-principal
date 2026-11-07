@@ -2,22 +2,6 @@
 
 ## Open
 
-### STOA-LICENCE - Stoa has no licence
-
-focus: _emerging
-
-**Context:** Now that Stoa is a Knowledge Islands repository, the repository standard wants a `LICENSE` file and a matching licence declaration, and without one assumes MIT. Stoa has neither, so two audit findings fail. Every site copies Stoa's code, and the public sites serve it to anyone. Agora, the other private Knowledge Islands app, is "all rights reserved".
-
-**Query:** Which licence should Stoa carry?
-
-**Options:**
-
-a) (recommended, confidence medium - it matches Agora and changes nothing for your sites) All rights reserved: Agora's `LICENSE` text, declared `UNLICENSED`.
-
-b) MIT, as the public tools use, so anyone may reuse the code they can read on a public site.
-
-c) Leave it for now, and live with the two failing findings.
-
 ### STOA-AUDIT-REST - The rest of the audit findings
 
 focus: _emerging
