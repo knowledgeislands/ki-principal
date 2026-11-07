@@ -140,6 +140,12 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ---
 
+## Stoa
+
+[stoa](stoa.md) builds and releases Stoa, the shared site package in `packages-stoa` that sites vendor whole, taking the asks sites put to it and keeping it free of any list of the sites that use it.
+
+---
+
 ## Timelines
 
 [timelines](timelines.md) extracts a timeline and calendar skill from the 5G Emerge phase 3 calendar component, so each knowledge base keeps its key dates, due dates and milestones and publishes calendar sets to subscribe to.

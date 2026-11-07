@@ -13,6 +13,7 @@ covers:
   - ki.prj.orca-evaluation
   - ki.prj.paperclip-capture-and-rebuild
   - ki.prj.portable-specifications
+  - ki.prj.stoa
   - ki.prj.timelines
   - ki.prj.tools-burndown
   - ki.prj.ways-of-working

@@ -18,22 +18,6 @@ b) You first answer chezmoi's two live open discussions (UTM-SOURCE and WARP-CON
 
 c) Keep the autostash setting and rely on every session overriding it on each pull; run the fold as in a).
 
-### STOA-PROJECT - Open a Stoa Project in Knowledge Islands
-
-focus: _emerging
-
-**Context:** Covers STOA-HOME and the thirteen Stoa lines waiting in `messages.md`, two of them new on 6 November: STOA-LINES (two Stoa defects and HNR's shared page-type proposal) and STOA-RELEASE (your word to release Stoa 0.32.0, which HNR's roll-out waits on). Every sender was told on 6 November that the lines wait here for this answer. On 31 October HNR's State of play wrote that you chose to split HNR's portal-framework work: the Stoa part moves to Knowledge Islands, which owns `knowledgeislands/packages-stoa`, and HNR keeps the humansnotrobots.be platform; on 2 November you confirmed hnr.prj.portal-framework concluded (PORTAL-CLOSE). Waiting for a Stoa work: STOA-NO-CONSUMERS and its addendum (your 1 November words: no list of consumers in Stoa; discover them by scanning the local estate), PRINT-LAYOUT, STOA-CANCELLED, STOA-ICAL-MAPPING, STOA-HANDOVER, STOA-HEADER, STOA-THEME-MENU-CONTRAST, STOA-DIAGRAM-OVERLAY, STOA-TOOLING and STOA-LEGAL (Kit's Legal Command Centre), plus the STOA-ICONS lines routed on 30 October. HNR wants the package id back in hnr.sop.sites' `messages.md`. On 30 October you called the Project cap guidance rather than a limit.
-
-**Query:** Should State of play register a Stoa Project and seed its package on hold, ready for you to open?
-
-**Options:**
-
-a) (recommended, confidence high - it follows your own split decision, and seeding on hold opens no thread and starts no work) A run registers the Stoa Project, seeds `ki.prj.stoa` on hold until you open it, queues the thirteen Stoa lines and STOA-ICONS as its first messages, and replies to hnr.sop.sites with the id.
-
-b) Register and open it now as an active Project thread.
-
-c) Leave Stoa without a Knowledge Islands home for now and tell HNR so.
-
 ### QUARTERMASTER - Create the tools and MCPs agent
 
 focus: _emerging
