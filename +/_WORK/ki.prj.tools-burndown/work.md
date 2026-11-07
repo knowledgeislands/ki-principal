@@ -1,6 +1,6 @@
 ---
 id: ki.prj.tools-burndown
-parent: ki.sop.main
+parent: ki.sop.tools
 level: project
 title: 'KI > Foundations > Tools burndown'
 project: tools-burndown

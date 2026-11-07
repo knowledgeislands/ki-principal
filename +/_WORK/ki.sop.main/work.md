@@ -16,7 +16,6 @@ covers:
   - ki.prj.portable-specifications
   - ki.prj.stoa
   - ki.prj.timelines
-  - ki.prj.tools-burndown
   - ki.prj.ways-of-working
   - ki.prj.website
   - ki.reg.guilds
