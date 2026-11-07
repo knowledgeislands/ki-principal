@@ -427,3 +427,8 @@ Kris: "Agreed: WATCH-AGORA, STOA-RELEASE, STOA-GAPS, TIDY-UPS, SKILL-HOMES, SKIL
 
 - ACK MSG-a4f3326e from personal.reg.inbox-sol: the Orca usage and feedback items (ORCA-UPSTREAM, THREADS-TRY, THREADS-SWEEP, THREADS-FR) are copied in full with the trial log and handover note; the Orca folder may close. Feeds TIDY-UPS ORCA-CLOSE-HOME: close ki.prj.orca-evaluation if the tidy-ups run has not.
 - ACK MSG-3e71ee8c from personal.reg.inbox-sol: mail tool asks go to ki.sop.tools from now on.
+
+## 2026-11-07 04:14 GMT · Inbound taken: terra ACK and REPO-SHAPE-PACKAGES
+
+- ACK MSG-dc361030 from personal.reg.household-terra: CHEZMOI-HANDOVER taken with all eight terra lines; ki.prj.chezmoi may close out on terra's side. Eight Outbound lines cleared.
+- MSG-4b6a0c4e REPO-SHAPE-PACKAGES from ki.prj.stoa: Kris, 7 November, wants a repository-shape skill for package repositories. Routed to ki.reg.guilds, owner of skills and repository shapes, as MSG-7e674180; ACKed to ki.prj.stoa.

@@ -226,6 +226,30 @@ a) (recommended, confidence high - the branch is merged, so deleting it loses no
 
 b) Leave it on GitHub.
 
+### CHAIN-ENTER-LABEL - How a checkout that cannot be entered is shown
+
+**Context:** Under CHAIN-START-ENTER a), a repository mgit cannot enter counts as "failed to start", as built. In the normal output, though, its first step is shown as `1 failed (exit 1)`, as if Git had run it, with the "could not enter" error printed above. In the JSON output the same step is correctly shown as not run. The tally entry reads `(step 1, exit 1)`. This affects [KI-TOOL-MGIT-CLI-032](/Users/krisbrown/kis/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-032-chain-command.md).
+
+**Query:** Should a repository that cannot be entered show all its steps as "not run", with the tally saying it could not be entered, instead of a failed first step?
+
+**Options:**
+
+a) (recommended, confidence medium - the text output would match the JSON and say what really happened; it is a small change but not one the decision asked for, so I left it) Yes, as a small follow-up before acceptance.
+
+b) Leave it as built; the error line above the steps already explains it.
+
+### TERRITORY-TEST - One territory test fails with the installed ki
+
+**Context:** The full test suite has one failure: `real producer blocks selected missing roots and missing member registrations before dispatch`, in `tests/territory-producer.bats`. It fails the same way on the commit before this work. It only runs when the installed `ki` 0.14.1 is used as the territory producer. CI pins ki v0.13.0, so mgit and the newer ki seem to disagree on how missing repositories are reported. Neither record touches this area.
+
+**Query:** Should this be looked into as separate tools-mgit work?
+
+**Options:**
+
+a) (recommended, confidence high - it is real breakage against the ki you run, and it is outside both records under review) Yes: capture it as a new tools-mgit item to bring mgit and its territory tests in line with ki 0.14.
+
+b) Leave it until CI's ki pin is next raised.
+
 ## Parked
 
 - ALIAS-OWNERS (from ki.prj.estate-factorisation, under ESTATE-CLOSE a), 7 November): territory alias ownership is a governance residual; State of play keeps it parked until a Harness or Principal record owns it. Recommended: keep parked.
