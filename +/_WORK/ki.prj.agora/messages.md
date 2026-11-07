@@ -51,9 +51,6 @@
 
 ## Outbound
 
-- 2026-11-06 · MSG-6cb787a3 HEALTH/PING · to personal.reg.inbox-sol · listener 120 min · awaiting ACK
-- 2026-11-06 · MSG-0a358a18 HEALTH/PING · to ki.sop.main · listener 120 min · awaiting ACK
-- 2026-11-06 · MSG-4593c48c HEALTH/PING · to personal.reg.inbox-terra · listener 110 min · awaiting ACK
 - 2026-11-06 · MSG-61a1d864 HEALTH/PING · to hnr.sop.main · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-998473d8 HEALTH/PING · to hnr.prj.5g-emerge-p2ms3 · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-07e6c41e HEALTH/PING · to ki.reg.guilds · listener 120 min · awaiting ACK
