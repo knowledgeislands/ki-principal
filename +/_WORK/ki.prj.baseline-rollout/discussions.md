@@ -11,7 +11,6 @@ Reviews by `review-naming`, `review-themes` and `review-plans-sizes` finished at
 - focus: rollout · TMX-AREA-TITLES - retitle Techmedix `CO` and `KB` in TMX-PRINCIPAL-KB-008; review agrees with changes at high: `CO` = "Company records and compliance", `KB` = "Knowledge base".
 - focus: rollout · AREA-WORDING - adopt the proposed area titles in the four HNR and 5g-emerge records; review agrees a) at high.
 - focus: rollout · DEMO-AREA - keep conformance work in 5g-emerge-demos `DEPLOY`, "Deployment and tooling"; review agrees a) at high.
-- focus: rollout · VA-AREA-TITLES - `GOV` = "Governance and operations", `KNW` = "Knowledge and sources" in VA-PRINCIPAL-GOV-007; review agrees a) at high.
 - focus: rollout · TMX-THEMES - registry pages `company-record` and `knowledge-stewardship`, relabel KB-003; recommended a) at medium; review agrees at high, as confirmation of the theme slice only.
 - focus: rollout · LGL-THEMES - remove three obsolete theme labels from five Legal records under OPS-024's rule; recommended a) at medium; review agrees with changes at medium: remove only the theme field, after LGL-PRINCIPAL-OPS-023 and LGL-PRINCIPAL-OPS-024 are accepted or folded in, and correct the Context to five of seven exceptions.
 - focus: rollout · KB-THEMES - remove `repository-governance` from PERSONAL-PRINCIPAL-011; recommended a) at medium; review agrees at high, and Rig's three parked ideas need not move.

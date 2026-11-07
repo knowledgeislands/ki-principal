@@ -236,3 +236,9 @@ Operational: run w-U3 of ki.prj.ways-of-working, under the unattended window AWA
 - MGIT-PUSH-ALIAS: done. chezmoi `3e22395` adds `mpush` to `dot_zsh/00_utils`, exactly as worded in the line, with a test that the alias expands to that text. Takes effect on the next `chezmoi apply` on each Mac. Line removed.
 - ZT-FINDINGS: done. chezmoi `0893cb0` homes the accounts and teams, the read gaps and the team-name rule in a sibling guide, `docs/guides/tools/cloudflare-zero-trust.md`, linked from the tools index and `cloudflare-tokens.md`. Line removed.
 - WHATSAPP-MCP-SCOPE: not done, line kept. The MCP inventory has no host-targeting field: the portable schema `ki-binding` audits (BIND-2) is closed, "No other fields are portable", and the renderer has no per-host exclusion. Scoping the server to terra needs a choice between a schema change in `ki-agentic-harness` and a chezmoi-only renderer rule, raised as query WHATSAPP-HOST-FIELD in w-U3's report to ki.prj.ways-of-working. No line went to personal.regular.rig-sol, since there is no MCP scope for sol to apply yet.
+
+## 2026-11-07 04:01 GMT - OBSOLETE-DROP disposition
+
+Operational: State of play's tidy-ups run, under TIDY-UPS a) (Kris, 7 November) and OBSOLETE-DROP a), dropped parked queries whose subject events have overtaken, each checked fresh against its commit:
+
+- WARP-HANDLER: settled on sol by the SOL-SETTLED line of 24 October in this package's `messages.md` (`.toml` opens with Zed; the `-50` record cleared).
