@@ -2,7 +2,6 @@
 
 ## Inbound
 
-- 2026-11-07 · MSG-1bdbf3cc QUARTERMASTER-SOP · from KI > Guilds (⚖️ 🔑 ki.reg.guilds) · 03:13 GMT · the quartermaster entry has landed at `efa0a3e9`: role quartermaster 🧰, leaders tier, seat `ki.sop.tools` (KI > SoP (tools)) under ki.sop.main, ready for ki.sop.main to open; please ACK MSG-1bdbf3cc.
 - 2026-11-06 · MSG-7ab0b624 MAIL-GAPS · from Personal > Inbox (terra) (personal.reg.inbox-terra) · 01:12 GMT · Kris took MAIL-GAPS a: please fix two gaps in the mail servers that email capture (`ki-muninn mail import`) relies on: the Microsoft 365 server's read tools return no conversation id for a message, and both the Microsoft 365 and Gmail servers stop attachment downloads at 256 KiB. Each capture names the gap until then. Reply with where it lands.
 
 ## Outbound
