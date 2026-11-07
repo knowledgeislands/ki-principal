@@ -32,21 +32,33 @@ a) (recommended, confidence medium - reviewed, views differ: the blind reviewer 
 
 b) Keep it as built: count it as "failed to start", because a failing first step is the common case worth singling out.
 
-### TIDY-UPS - Housekeeping State of play may do itself
+### OLD-ORPHANS - Where the old orphaned repositories live
 
 focus: _emerging
 
-**Context:** Covers OBSOLETE-DROP, BRANCH-SWEEP, UNMERGED-STRAYS, UNTRACKED-REPORTS, KA-CLOSE, ORCA-CLOSE-HOME, ESTATE-CLOSE, PRE-REBASE-REF and OLD-ORPHANS. Each is a tidy that needs your word only because it touches another work's files, a branch or a close: drop 15 queries in other packages that commits prove obsolete, logging each commit, and bring you the five resting only on sol evidence (OBSOLETE-DROP); remove merged branches and their clean worktrees with Git's non-forcing commands (BRANCH-SWEEP); a read-only comparison of eight unmerged branches with `main`, deleting nothing (UNMERGED-STRAYS); a read-only list of where each of the 11 uncommitted reports in the handed-over works is recorded, deleting nothing (UNTRACKED-REPORTS); close the Finished [ki.prj.knowledge-acquisition](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.knowledge-acquisition/work.md) (KA-CLOSE); keep [ki.prj.orca-evaluation](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.orca-evaluation/work.md) on hold until the Inbox takes its five questions and two notes, then close it (ORCA-CLOSE-HOME); send Estate factorisation's prerequisite and routing messages from [its retirement note](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/_emerging/estate-factorisation-retirement.md), the close waiting for your acceptance (ESTATE-CLOSE, your PROJECT-CLOSE a of 25 October); and delete the terra-only safety branch `fold-harness/pre-rebase-main` in ki-agentic-harness once a check at terra shows `57226cdea` holds nothing unique (PRE-REBASE-REF). OLD-ORPHANS is a question of fact: old orphaned repositories that were to be kept have no checkout under `~/workspaces` and no bundle in OneDrive, and only you can say where they live; nothing is dropped while that is unknown. GRANOLA-MARK-FAULTS (two faults in the tools-ki Granola marking step) has a clear owner, ki.prj.tools-burndown, and State of play routes it there without asking.
+**Context:** A query parked in [ki.prj.mac-studio-setup](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/work.md) concerns old orphaned repositories that were to be kept through the Mac Studio move. The census found no checkout of them under `~/workspaces` and no bundle in OneDrive. If they lived only on a retired disk or host, the last copies may be gone. Nothing is dropped while this is unknown; you kept this open when you agreed TIDY-UPS a) on 7 November.
 
-**Query:** May State of play run these tidies as each was recommended, keeping OLD-ORPHANS open until you say where the old repositories are?
+**Query:** Where do the old orphaned repositories live now, or are they gone?
 
 **Options:**
 
-a) (recommended, confidence high - each reviewed, or restating your own PROJECT-CLOSE and close-out words; every removal is checked fresh and anything dirty, uncertain or unique is left and listed) Yes: run all eight as recommended, bring back the read-only lists and the five sol-evidenced drops for your word, and keep OLD-ORPHANS open in ki.prj.mac-studio-setup until you name the location or confirm they are gone.
+a) (recommended, confidence high - reviewed: only you can say whether another copy exists) You name the location or confirm they are gone, and ki.prj.mac-studio-setup records the answer before its query closes.
 
-b) Run only the read-only ones (UNMERGED-STRAYS, UNTRACKED-REPORTS) and bring the rest to you one by one.
+b) Treat them as lost and close the query.
 
-c) Leave each to its owning Project when it next opens.
+### KA-CLOSE-GATE - Let the Knowledge acquisition close pass two superseded runs
+
+focus: _emerging
+
+**Context:** Under TIDY-UPS a) (7 November) the tidy-ups run tried to close the finished [ki.prj.knowledge-acquisition](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.knowledge-acquisition/work.md). Every package check holds (finished, decisions homed, no open query, no worktree, nothing queued), but `ki agent close` refused: two of its runs, `gov209-link` and `title-fix`, stopped without finishing on 17 to 18 October. Each was re-run as `gov209-link-2` and `title-fix-2`, and both of those finished. The only line in its `messages.md`, household-terra's HK-006 notice, asks for exactly this close-out. Nothing was deleted or archived. Not blind reviewed: this run could not launch a reviewer.
+
+**Query:** May a State of play run close it, telling `ki agent close` to accept those two stopped runs as superseded?
+
+**Options:**
+
+a) (recommended, confidence medium - each stopped run has a finished re-run, and Git keeps the folder) Yes: close with `--accept-exited gov209-link --accept-exited title-fix` (never `--reconciled`), then delete the folder in one commit, `docs(work): ki.prj.knowledge-acquisition close-out`.
+
+b) Leave the folder until you open that work's thread.
 
 ### OTHER-TERRITORIES - Send the cross-territory asks
 
@@ -168,4 +180,5 @@ b) Fold their content into the Work Process note through an Enactment record ins
 
 ## Parked
 
-None.
+- ALIAS-OWNERS (from ki.prj.estate-factorisation, under ESTATE-CLOSE a), 7 November): territory alias ownership is a governance residual; State of play keeps it parked until a Harness or Principal record owns it. Recommended: keep parked.
+- GOVERNANCE (from ki.prj.estate-factorisation, under ESTATE-CLOSE a), 7 November): repository governance and projection follow-ups are State of play residuals, kept only where still real. Recommended: keep parked and check at the next stock-take.

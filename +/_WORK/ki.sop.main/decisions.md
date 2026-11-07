@@ -411,3 +411,14 @@ Kris: "Agreed: WATCH-AGORA, STOA-RELEASE, STOA-GAPS, TIDY-UPS, SKILL-HOMES, SKIL
 - MSG-feae119e KG-OWN-SKILL from ki.reg.guilds: Kris corrects SKILLS-OVER-GRAPH part (2) in his words, "I think the knowledge graph in itself is its own skill. I don't think it's part of the [repo] KB at all." Taken: the knowledge-graph method becomes its own harness skill, not part of `ki-repo-kb`; KNOWLEDGE-PLAN's phase 0 now adopts that skill rather than writing the method into `ki-repo-kb`, and the legal skill waits on it. ACKed.
 - ACK MSG-90c6864b from personal.reg.household-sol: RIG-RETIRE sits with ki.sop.tools. Outbound line cleared.
 - ACK MSG-fc8a7eb5 and MSG-0a60eb79 from ki.reg.guilds: SKILLS-OVER-GRAPH and SKILL-HOMES recorded. Outbound lines cleared.
+
+## 2026-11-07 04:05 GMT · tidy-ups run under TIDY-UPS a)
+
+- OBSOLETE-DROP: seven commit-proven queries dropped with a decisions-log line each in their packages (ki-principal `04da59f3`): HOST-GUARDS, STORE-REPAIR, TRIAGE-OWNERS and DOCK in ki.prj.estate-factorisation, CLI006-PLAN in ki.prj.agent-host, WARP-HANDLER in ki.prj.chezmoi and VA-AREA-TITLES in ki.prj.baseline-rollout. ki.sop.main's eight were already gone. The five sol-evidenced ones in ki.prj.mac-studio-setup go to Kris.
+- BRANCH-SWEEP: on sol only apps-knowledgeislands.info `ways-of-working-learn` remained, merged; deleted locally with `git branch -d`. The six other named branches and their worktrees no longer exist on sol or GitHub. The remote branch `origin/ways-of-working-learn`, merged, is left: deleting it is a remote push outside this run's fast-forward push rule.
+- UNMERGED-STRAYS and UNTRACKED-REPORTS: read-only lists in the tidy-ups report; nothing changed. The 11 reports were all committed in `7109c998` (4 November), so UNTRACKED-REPORTS is moot.
+- KA-CLOSE: stopped at `ki agent close`'s gate (two runs stopped without finishing, each with a finished re-run); nothing deleted or archived. KA-CLOSE-GATE put to Kris.
+- ORCA-CLOSE-HOME: line MSG-a4f3326e sent to personal.reg.inbox-sol (inbox `e1489ee7`); the Orca folder stays on hold until it ACKs.
+- ESTATE-CLOSE: steps 1 and 2 of the retirement note sent as seven lines (HOST-WRITES, RIG-REFS twice, OBS-ACTIVATION, DEPS-HOLD, KI-RELEASE, RECEIVER-ROLLOUT); ALIAS-OWNERS and GOVERNANCE parked here. Step 3, the close, waits for Kris's acceptance.
+- PRE-REBASE-REF: agreed, left for a run on terra; this run was on sol.
+- OLD-ORPHANS: kept open as its own query.

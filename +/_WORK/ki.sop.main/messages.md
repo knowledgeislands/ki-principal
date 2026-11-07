@@ -44,3 +44,11 @@ None.
 - 2026-11-07 · MSG-0d9e3e9b HOME-QUARTERMASTER · to ki.prj.agora · 03:56 GMT · Home shows the quartermaster as `ki.sop.tools` · awaiting ACK
 - 2026-11-07 · MSG-be9bc535 WATCH-AGORA · to ki.prj.tools-burndown · 04:00 GMT · drop `ki work watch`, keeping its design note · awaiting ACK
 - 2026-11-07 · MSG-d42cf322 SKILL-HOMES · to ki.reg.main · 04:00 GMT · CODEX-SESSIONS and DEFUDDLE-SKILL as two separate pieces of work · awaiting ACK
+- 2026-11-07 · MSG-b3409c00 HOST-WRITES · to ki.prj.agent-host · 04:04 GMT · Estate factorisation retirement · awaiting ACK
+- 2026-11-07 · MSG-228b4e4b RIG-REFS · to ki.prj.mac-studio-setup · 04:04 GMT · Estate factorisation retirement · awaiting ACK
+- 2026-11-07 · MSG-dc59c0e6 RIG-REFS · to ki.prj.chezmoi · 04:04 GMT · Estate factorisation retirement · awaiting ACK
+- 2026-11-07 · MSG-f61aa8ca OBS-ACTIVATION · to ki.prj.observatory · 04:04 GMT · Estate factorisation retirement · awaiting ACK
+- 2026-11-07 · MSG-35f55f3c DEPS-HOLD · to ki.prj.ways-of-working · 04:04 GMT · Estate factorisation retirement · awaiting ACK
+- 2026-11-07 · MSG-0262a296 KI-RELEASE · to ki.prj.tools-burndown · 04:04 GMT · Estate factorisation retirement · awaiting ACK
+- 2026-11-07 · MSG-65599bc5 RECEIVER-ROLLOUT · to ki.prj.baseline-rollout · 04:04 GMT · Estate factorisation retirement · awaiting ACK
+- 2026-11-07 · MSG-a4f3326e ORCA-CLOSE-HOME · to personal.reg.inbox-sol · 04:04 GMT · Orca evaluation's four questions and two notes · awaiting ACK
