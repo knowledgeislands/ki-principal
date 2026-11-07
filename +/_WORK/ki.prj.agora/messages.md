@@ -2,6 +2,8 @@
 
 ## Inbound
 
+- 2026-11-07 · ACK MSG-4536d4e7 HEALTH · from personal.reg.inbox-terra · 04:08 GMT · re-armed for 110 minutes on both call/ and doorbell/, re-armed again at each wake
+- 2026-11-07 · ACK MSG-3f96faab HEALTH · from hnr.prj.site-robots · 04:10 GMT · re-armed on `call/hnr.prj.site-robots` for 120 minutes.
 - 2026-11-07 · ACK MSG-df9bfe91 · from HNR > 5G Emerge > Phase 3 (⚒️ 🔑 hnr.prj.5g-emerge-phase3) · 04:08 GMT · re-armed the wait on Agora's call at 04:08 GMT for 120 minutes.
 - 2026-11-07 · ACK MSG-0572e680 · from personal.reg.household-sol · 04:02 GMT · re-armed for 110 minutes on `call/`
 - 2026-11-07 · ACK MSG-e53fe4e8 · from KI > Guilds (⚖️ 🔑 ki.reg.guilds) · 03:40 GMT · listener re-armed at 03:40 GMT for 120 minutes on `call/` and `doorbell/`.
