@@ -2,7 +2,7 @@
 
 ## Inbound
 
-None.
+- 2026-11-07 · ACK MSG-29ac4fe7 · from KI > Techne > Agora (⚒️ 🔑 ki.prj.agora) · 06:57 GMT · `+/_BATCHES/` removed from apps-agora.local in f314ca2, pushed.
 
 ## Outbound
 
