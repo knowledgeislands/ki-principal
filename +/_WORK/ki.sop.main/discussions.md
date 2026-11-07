@@ -50,38 +50,6 @@ b) The standard first, and the Knowledge Islands Principal bootstrap after it.
 
 c) Declare no attachment points until the first slice has settled; otherwise as a).
 
-### HOLD-STATES - Take the seven hold-state choices as recommended
-
-focus: _emerging
-
-**Context:** Covers HOLD-IDLE, HOLD-SELF, HOLD-URGENT, HOLD-LISTEN, HOLD-FOOTER, HOLD-DIAGRAM and HOLD-TERRA from the [hold states design note](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/_emerging/hold-states.design.md), and HOLD-TIDY (your rule of about 18:10 GMT on 4 November, already ACKed) rides with them. You asked for the hold states "thought through before changes go out". The recommended set: idle is "more expected" set by the worker (`hold.set_by: worker`, shown `💤 On hold · idle`), still two reasons; a worker may put its own work into idle only when nothing is running or queued, nothing handed off, no unread message, no query with you and everything pushed, while paused stays your word; an IMPORTANT line on paused work waits and comes to you as a `resume` query; more expected and idle keep listening where listening is switched on, paused never does, which revisits LISTEN-STATUS (31 October) for more expected only; ⏸️ for paused and 💤 for more expected and idle, the reason and release in the heading and listening on its own line, the wording sent to Agora to draw; the state-flow diagram in Mermaid in the Work Process note with a plain-text version, through one Enactment record; household-terra's self-set hold of 3 November left as it is and re-recorded once the standard changes. SOP-ACTS-FOR-IDLE (6 November) is already in hand: run sop-acts-for-idle has State of play act for a package with no session.
-
-**Query:** Should all seven be taken as recommended, with HOLD-TIDY, and landed in one run?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed: an independent reviewer chose the recommended course on all seven) Take all seven as recommended; one run lands them with HOLD-TIDY in the harness standards and, under one Enactment record, the Work Process note, then sends a refresh line to every package and household-terra.
-
-b) Take them one at a time in the interactive pass.
-
-c) Hand them to personal.reg.inbox-sol's coordination spec, which carries coordination matters under COORD-SOLE (5 November), and land them from there.
-
-### METHOD-BATCH - Take the remaining method choices as recommended
-
-focus: _emerging
-
-**Context:** Covers fifteen method questions, each reviewed or recommended at high. From the [how we work design note](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/_emerging/how-we-work.design.md): VALUES-HOME (write the shared values once in the Work Process note under an Enactment record, each `work.md` linking them in an optional `## Values` line), GOAL-SETTING (an owner-invoked "goals" pass walking each focus area), URGENT-CRITERIA (only a stated deadline or a process rollout may be `URGENT`), LIVENESS (live means `status: active`, `listening: on` and activity within 30 minutes, the register becoming an optional `state.md` field), MESSAGE-WORDS (`URGENT`, `ACK` and `SUPERSEDED` as flags in the leading slot) and BROADCAST-POINTER (a broadcast is a one-clause pointer to the pinned standard). Confirmations of delivered changes: REPLY-BLOCK-SUMMARY (the Summary keeps no reply block, as REPLY-BLOCK of 18 October), RENAME-FENCE (a run's record carries over to a renamed work), SUB-PACKAGE-COVERS (a sub-package stays out of `covers`), PUSH-EXCEPTION (drop your 17 October push exception now a push footer exists) and ADR-007 (update [ADR-KI-HARNESS-SKILLS-007](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/docs/decisions/ADR-KI-HARNESS-SKILLS-007-provider-neutral-ai-session-acquisition-and-adapter-pairing.md) in place for the move to `ki-muninn`). Harness follow-ups: AUDIT-ORPHANS (a stopped audit stops the test run it started, as a harness work item) and BOARD-CAPTURE (wait for a second site before a design-board capture step). WATCH-AGORA, where views differ, is asked separately below.
-
-**Query:** Should all fifteen be taken as recommended, landed by one harness run?
-
-**Options:**
-
-a) (recommended, confidence high - each was reviewed by an independent reviewer who chose the same course, or rests on your own earlier words) Take all fifteen as recommended; one harness run lands the method text and the ADR-007 update, with an Enactment record for the Work Process values, and captures the AUDIT-ORPHANS work item.
-
-b) Take the nine confirmations and follow-ups now, and hand the six how-we-work choices to personal.reg.inbox-sol's coordination spec under COORD-SOLE.
-
-c) Take them one at a time in the interactive pass.
-
 ### ACCEPTANCE - Settle the mgit chain output and accept three delivered records
 
 focus: acceptance

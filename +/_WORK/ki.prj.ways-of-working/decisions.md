@@ -1305,3 +1305,9 @@ Run `host-reconcile-plan` writes a one-page plain-English plan and the drafted r
 class: operational
 
 - Coordination taken up by ki.sop.main, 3 Nov, (Kris, 3 Nov about 03:10 GMT: "move all of the work to be coordinated through the SOP main"; SOLE-THREAD in ki.sop.main, 03:14 GMT). The work stays On hold; every parked discussion stays parked, unanswered, for ki.sop.main to bring to Kris. Run handover-intake.
+
+## 2026-11-07 02:28 GMT - ORCA-HOME routing
+
+class: operational
+
+- Kris took ORCA-HOME a) on 7 November (ki.reg.guilds MSG-8125375d, logged in ki.sop.main): the guild takes the sixteen Orca adapter queries and the harness `orca-adapter` branch. ki.sop.main, acting for this held package, routed ORCA-SKILL-KIND, CLOSEOUT-STRIKE, ONE-LAUNCHER, ONE-LAUNCHER-UNIT, OUTLIVE, PROMPT-RENDER, HEARTBEAT-ACK, STOP-VERB, RUN-RECOVERY, QUEUE-PACE, REPORT-HOME, WORKER-SURVIVAL, DELIVERY-REPLAY, RUN-HANDOVER, OWNER-ASK and ADAPTER-MERGE to ki.reg.guilds' `messages.md` (ki-agentic-harness `84f660d3`) and removed them from `discussions.md`. ORCA-CODEX-WAKE, from the same run but not among the sixteen, stays parked here. Nothing else in this package changes.

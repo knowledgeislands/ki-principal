@@ -8,20 +8,6 @@ None; all parked on hand-over to the assistants, 2 November.
 
 Handed to personal.reg.assistant-terra on 2 November 2026 and carried by it.
 
-### SCOPE-SPLIT - Draw the line between this Project and Ways of working, and hand over the method questions
-
-focus: _emerging
-
-**Context:** This Project opened on 30 October to work out how best to use Orca, taking over the trial evidence from Mac Studio setup and, when Ways of working sent them, the ORCA-FIT notes. Since then Ways of working has settled much of how Orca fits the method itself: the wake rule (WAKE-SESSION and WAKE-DURABLE, now in the delegation standard), queued runs going through Orca first (ORCA-QUEUE), Orca's own launch route beside `ki agent` (ORCA-PLACEMENT), worker close-out (ORCA-CLOSE-OUT) and package files holding no Orca Run id (ORCA-ROUTING). Four of this Project's earlier questions are really about the method every worker follows: how a worker commits in a repository whose hook stashes (TRIAL-PUBLISH; Ways of working's HOOK-STASH already asks it), how a question only you can answer travels (TRIAL-ASK), ids, prompt, liveness and report practice (TRIAL-PRACTICE), and stopping `ki agent` runs inheriting Orca's remaining pane and hook variables (ORCA-IDENTITY-LEAK). The ORCA-FIT draft holding those choices never left Ways of working.
-
-**Query:** Should this Project keep only how Orca is used, the Orca evidence and feedback to Orca, and hand the four method questions and the ORCA-FIT open choices to Ways of working?
-
-**Options:**
-
-a) (recommended, confidence high - each of the four is already a live question or a settled rule in Ways of working, keeping them here duplicates it, and a message line is easily withdrawn) Yes. Send five short message lines to Ways of working (the four questions, plus a request to test the Orca wake in Codex during its CODEX-WAKE session), stop expecting the ORCA-FIT notes, and narrow this Project's scope to Orca usage, evidence, the launcher proposal and upstream feedback.
-
-b) No. Keep the four questions here, settle them in the trial, and pass the answers to Ways of working afterwards.
-
 ### ORCA-UPSTREAM - The rest of the feedback to Orca
 
 focus: trial

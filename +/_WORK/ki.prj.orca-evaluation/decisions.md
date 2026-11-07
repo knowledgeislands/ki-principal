@@ -97,3 +97,9 @@
 class: operational
 
 - Coordination taken up by ki.sop.main, 3 Nov, (Kris, 3 Nov about 03:10 GMT: "move all of the work to be coordinated through the SOP main"; SOLE-THREAD in ki.sop.main, 03:14 GMT). The work stays On hold; every parked discussion stays parked, unanswered, for ki.sop.main to bring to Kris. Hold reason set to `paused` (AUDIT-FIXES); the release keeps the close-out once personal.reg.assistant-terra acknowledges the handover. Run handover-intake.
+
+## 2026-11-07 02:28 GMT - ORCA-HOME routing
+
+class: operational
+
+- Kris took ORCA-HOME a) on 7 November (ki.reg.guilds MSG-8125375d, logged in ki.sop.main): the guild takes SCOPE-SPLIT's four method questions; Orca usage evidence and feedback to the Orca team go to the Inbox under ORCA-CLOSE-HOME. ki.sop.main, acting for this held package, routed TRIAL-PUBLISH, TRIAL-ASK, TRIAL-PRACTICE and ORCA-IDENTITY-LEAK to ki.reg.guilds' `messages.md` (ki-agentic-harness `84f660d3`), which settles SCOPE-SPLIT's handover in place of the five lines it proposed to Ways of working, and removed SCOPE-SPLIT from `discussions.md`. ORCA-UPSTREAM, THREADS-TRY, THREADS-SWEEP, THREADS-FR and the `trial/` notes stay for ORCA-CLOSE-HOME.
