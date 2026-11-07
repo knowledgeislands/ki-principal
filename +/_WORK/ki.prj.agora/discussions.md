@@ -184,6 +184,64 @@ a) (recommended, confidence medium - nothing in it is published yet) Rename it t
 
 b) Keep it.
 
+### MOUNT-3 - Terra's chezmoi checkout is blocked by Legal's uncommitted inbox lines
+
+focus: mcp · since 2026-11-07 · from mount-resume
+
+**Context:** Agora is mounted for every agent on sol and verified end to end. On terra, chezmoi holds two uncommitted LEGAL-ACK-GATE lines Legal's thread (lgl.sop.main) wrote into the household inboxes at about 01:58 GMT; incoming commits change the same file, so terra cannot fast-forward and its mount stopped.
+
+**Query:** How should terra's checkout be cleared so its Agora mount can finish?
+
+**Options:**
+
+a) (recommended, confidence high - the owner keeps its own work) The household or Legal thread commits the two lines on terra; a short run then mounts terra and runs its three checks.
+
+b) A run stashes the lines, fast-forwards and restores them, stopping on conflict.
+
+c) Leave terra unmounted for now.
+
+### MOUNT-4 - Store hooks on a fresh clone
+
+focus: mcp · since 2026-11-07 · from mount-resume
+
+**Context:** Terra's fresh ki-agora-beacon clone has no `core.hooksPath`, so its writes would skip the store's rumdl and commit-message hooks; sol's uses `.githooks`.
+
+**Query:** Should terra's clone get `core.hooksPath = .githooks`?
+
+**Options:**
+
+a) (recommended, confidence medium - matches sol) Yes, in the MOUNT-3 run, and the store's README gains a setup line.
+
+b) No.
+
+### TRY-NOTICES - Repeating checkout notices
+
+focus: beacon · since 2026-11-07 · from review-packets
+
+**Context:** The Beacon announces a checkout again each time its state changes (`ki-principal` 20 times in 36 minutes on sol). The identity document says a thing is announced once, and again only if it settles and comes back.
+
+**Query:** Should a checkout be announced only once until it is level and clean again?
+
+**Options:**
+
+a) (recommended, confidence medium - matches the agreed design and stops the noise) Yes: capture it as a fix before accepting KI-AGORA-TRY-001.
+
+b) No: accept today's behaviour and note it in the record.
+
+### NET-ADOPT - Adopt and rename the read endpoint
+
+focus: beacon · since 2026-11-07 · from review-packets
+
+**Context:** KI-AGORA-NET-001 is built and every live check passes on both Macs, but it is still in triage. Its title names the Observatory, which does not read it yet; the Atlas and the KIV do.
+
+**Query:** Should it be adopted with the Atlas and KIV as its viewers, so it can go to review?
+
+**Options:**
+
+a) (recommended, confidence medium - the build meets the goal for its real users) Yes: adopt it, retitle it the Agora read endpoint, and leave the Observatory's reading as a later record.
+
+b) Adopt it as it stands, open until the Observatory reads it.
+
 ## Parked
 
 None
