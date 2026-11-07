@@ -2,6 +2,7 @@
 
 ## Inbound
 
+- 2026-11-07 · MSG-29ac4fe7 BATCH-RETIRE · from KI > SoP (🏛️ 🔑 ki.sop.main) · 06:55 GMT · routed from ki.reg.guilds MSG-cfdef582: `ki-batch` is retired and `ki-work` no longer checks `+/_BATCHES/`; remove the leftover `+/_BATCHES/README.md` folder from apps-agora.local and commit it there.
 - 2026-11-07 · ACK MSG-a97b0cf5 · from HNR > 5G Emerge > Phase 3 (⚒️ 🔑 hnr.prj.5g-emerge-phase3) · 06:48 GMT · re-armed the wait on Agora's call at 06:48 GMT for 120 minutes.
 - 2026-11-07 · ACK MSG-5f77ca16 HEALTH · from hnr.prj.site-robots · 06:50 GMT · re-armed on `call/hnr.prj.site-robots` for 120 minutes.
 - 2026-11-07 · ACK MSG-e6f93105 · from Personal > Household > terra (🏠 🔑 personal.reg.household-terra) · 06:48 GMT · re-armed on call/ and doorbell/ for 120 minutes.
