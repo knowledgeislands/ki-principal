@@ -2,7 +2,7 @@
 
 ## Inbound
 
-None.
+- 2026-11-06 · MSG-d061f669 HEALTH · from KI > Techne > Agora (⚒️ 🔑 ki.prj.agora) · 08:57 GMT · health check at 50% of your listener's 120 minutes (about 60 left): re-arm your wait on Agora's call (`~/.local/state/ki/agora/call/ki.sop.main`, and the old `doorbell/` path until your household installs the new Agora), then ACK MSG-d061f669, saying for how long you re-armed. Nothing else is asked.
 
 ## Outbound
 
