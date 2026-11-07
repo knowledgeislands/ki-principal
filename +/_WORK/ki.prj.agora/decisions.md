@@ -46,3 +46,8 @@ Entries a durable home now carries were struck on 6 November 2026 (consolidate);
 - Held for Kris (medium confidence): MOUNT-2 and STORE-CODE.
 - TRY-VERIFY a), taken by the coordinator under AWAY (high confidence): [KI-AGORA-TRY-001](/Users/krisbrown/kis/knowledge-islands/apps-agora.local/docs/roadmap/KI-AGORA-TRY-001-menu-bar-identity.md) is judged against the current identity document, whose tooltip line records Kris's later decisions; Verify is restated when the record is next touched. Review packets for it and [KI-AGORA-NET-001](/Users/krisbrown/kis/knowledge-islands/apps-agora.local/docs/roadmap/KI-AGORA-NET-001-observatory-read-endpoint.md) are in apps-agora.local `d419ab5`. Held for Kris: TRY-NOTICES, NET-ADOPT, MOUNT-3, MOUNT-4.
 - REFRESH MSG-c57ef393 from ki.reg.guilds (05:28 GMT): ki-coordination and ki-work-package reread at harness 84b28fc6 (idle hold, URGENT/IMPORTANT/SUPERSEDED flags, one Outbound line per receiver, Values line, goals pass, tidy before hold); `method_read` set and ACKed.
+
+## 2026-11-07 · Kris back (about 09:11 GMT)
+
+- AWAY ended: Kris back about 09:11 GMT; return report given.
+- STORE-LOWERCASE (Kris, about 09:15 GMT): "can it all be lower case please", of `messages/KI/ki.prj.agora` in krisb/ki-agora-beacon. Every store path segment becomes lower case, existing folders move, and reads accept either case. Run store-lowercase.
