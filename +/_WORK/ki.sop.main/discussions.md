@@ -2,42 +2,6 @@
 
 ## Open
 
-### CHEZMOI-HANDOVER - Fold the chezmoi Project into the household works now
-
-focus: _emerging
-
-**Context:** Covers CHEZMOI-FOLD and GITCONFIG-AUTOSTASH. [ki.prj.chezmoi](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.chezmoi/state.md) has been with you since 24 October and holds about 50 waiting lines. On 1 November you said it folds into the household works (household-terra and household-sol) through a short handover note followed by a hold; that is the IMPORTANT HANDOVER-HOUSEHOLD line still at the top of its queue, and nobody has acted on it. Since 3 November State of play coordinates all Knowledge Islands work (SOLE-THREAD). Separately, your chezmoi-managed Git configuration (`dot_gitconfig`, line 62) still sets `rebase.autoStash = true` with `pull.rebase = true`, so a plain `git pull` in a busy shared checkout silently stashes every uncommitted change, other sessions' included; it caused the 3 November conflict in the assistant repository, and your never-stash rule of 1 November forbids it. Two of chezmoi's four open discussions are already overtaken: ACCEPT-UE106 (chezmoi `c625c66` accepted PERSONAL-DOTFILES-UE-076 and PERSONAL-DOTFILES-UE-106) and WARP-HANDLER (commit-proven obsolete in the census behind OBSOLETE-DROP).
-
-**Query:** May State of play carry out your 1 November fold of ki.prj.chezmoi now, and have the household works stop turning on rebase autostash?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed: an independent reviewer agreed your recorded words already authorise the handover and hold, and the autostash setting caused the 3 November conflict) One run writes the handover note, sends each live line to household-terra, household-sol, the tools-rig lane or the harness as classified, carries chezmoi's open discussions across with the note and puts chezmoi On hold pending close-out; one line asks personal.reg.household-sol to remove `autoStash = true` from `dot_gitconfig`, review `chezmoi diff` and apply it on both Macs, keeping `pull.rebase`.
-
-b) You first answer chezmoi's two live open discussions (UTM-SOURCE and WARP-CONTAINER) yourself, then State of play runs the fold; the autostash line goes now.
-
-c) Keep the autostash setting and rely on every session overriding it on each pull; run the fold as in a).
-
-### QUARTERMASTER - Create the tools and MCPs agent
-
-focus: _emerging
-
-**Update 03:04 GMT, 7 November:** Kris settled the home: `ki.sop.tools`, a leader seat in ki-principal under ki.sop.main (not `ki.reg.tools` in tools-ki); creation follows the guild's catalogue change. Still open below: reparenting tools-burndown and sending it the Rig intake and the mail backlog.
-
-**Update 03:17 GMT:** the seat's package is drafted, untracked, at `+/_WORK/ki.sop.tools/` (run `sop-tools`). It cannot be committed yet: `ki` and the standard require a secondary State of play's `covers` to name at least one piece of work, and the natural one is ki.prj.tools-burndown. So answering this query's tools-burndown move also completes the seat: `covers: [ki.prj.tools-burndown]`, that Project's `parent` set to ki.sop.tools, then commit, check the opener and tell household-sol. If you'd rather not move it yet, the alternatives are asking the guild to allow a State of play that covers no work, or removing the draft until the move is settled.
-
-**Context:** On 6 November you said "I'm happy to create a new agent that looks after all the tools and MCPs ... I probably think that's a good idea", and sent the role to the guild first. The guild has decided it (TOOLS-STEWARD in ki.reg.guilds' decisions): a quartermaster 🧰, manager tier, seat `ki.reg.tools+quartermaster`, regular work `ki.reg.tools` in tools-ki, State of play its parent. It owns tools-ki, tools-mgit, tools-git-almanac, tools-rig, homebrew-tap and the seven `mcp-*` servers (roadmaps and releases, every release asked first), the MCP inventory and mcporter health, `ki doctor` and `ki repair` for hooks, and the tooling audit you asked for tonight. Skills stay with the guild, the Agora app with Agora's warden, and dispatch and priority with State of play; ki.prj.tools-burndown is reparented to it and closes at zero. This also settles two owner gaps that were asked separately (RIG-LANE and MAIL-OWNER, now folded in): Rig tooling has had no owner since Mac Studio setup (six records KI-TOOL-RIG-CORE-047, 068, 069, 070, 075 and 076, eleven retained Rig request lines and an Adobe removal script), and the mail servers have none (eleven idea records KI-MCP-M365-TOOL-011 to 019 and KI-MCP-GSUITE-TOOL-008 and 009, PERSONAL-DOTFILES-UE-097, four HNR mail asks and MAIL-GAPS, which you took as a).
-
-**Query:** Should State of play create the quartermaster's work and hand it Rig tooling and the mail servers?
-
-**Options:**
-
-a) (recommended, confidence high - it rests on your own words and the guild's decision, and folds two open owner gaps into one named owner) State of play seeds `ki.reg.tools` in tools-ki as the guild set it, reparents ki.prj.tools-burndown, and sends it the Rig intake (four triage records RIG-TUI, RIG-SSH-CHECK, RIG-COMMENT-KIND and one bounded RIG-CLI-CONSISTENCY, the footprint group held with KI-TOOL-RIG-CORE-072, the Adobe script as evidence) and the mail backlog with MAIL-GAPS first, replying to the Inbox and HNR with its id; you open the quartermaster's session when you choose.
-
-b) Create it, but keep Rig tooling with State of play and give the mail servers their own Project, as recommended before.
-
-c) Not now; ask RIG-LANE and MAIL-OWNER again as they stood.
-
 ### KNOWLEDGE-PLAN - Start the knowledge folder as planned
 
 focus: _emerging
@@ -53,22 +17,6 @@ a) (recommended, confidence high - ATTACH-HOW and ATTACH-SET reviewed: an indepe
 b) The standard first, and the Knowledge Islands Principal bootstrap after it.
 
 c) Declare no attachment points until the first slice has settled; otherwise as a).
-
-### ACCEPTANCE - Settle the mgit chain output and accept three delivered records
-
-focus: acceptance
-
-**Context:** Covers ACCEPT-KI-TOOL-MGIT-CLI-032, ACCEPT-KI-TOOL-MGIT-CLI-033, CHAIN-QUIET, CHAIN-START-ENTER and ACCEPT-KI-TOOL-RIG-CORE-070; CHAIN-START-FIRST, where views differ, is asked separately below. [KI-TOOL-MGIT-CLI-032](/Users/krisbrown/kis/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-032-chain-command.md) (`mgit chain`, 151 of 151 tests) and [KI-TOOL-MGIT-CLI-033](/Users/krisbrown/kis/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-033-sync-push-guard.md) (`mgit sync` pushes only with `--push`) are awaiting review. Two output choices come first: CHAIN-QUIET (hide repositories where every step succeeded with no output, as ordinary mgit commands do, `-v` and `--json` showing all) and CHAIN-START-ENTER (a checkout that cannot be entered counts as "failed to start", as built). [KI-TOOL-RIG-CORE-070](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-070-handler-read-back-after-confirmation.md) (Rig waits up to 120 seconds for the macOS default-app prompt) is awaiting review since 27 October; tests pass, and its only outstanding Verify step is one attended `rig apply` that raises the prompt, which only you can do: sol currently opens `.toml` in VS Code instead of Zed, so a `rig apply` there would raise it. Under ACCEPT-BUNDLE (20 October) acceptance comes first in State of play.
-
-**Query:** Should the two chain choices be taken as recommended, then the three records reviewed and accepted, oldest first?
-
-**Options:**
-
-a) (recommended, confidence high - CHAIN-QUIET and CHAIN-START-ENTER reviewed: the reviewer and the build agree; KI-TOOL-RIG-CORE-070's reviewer chose the attended check independently) One run builds the quiet chain output; a fresh review-prep run then prepares KI-TOOL-MGIT-CLI-032 and KI-TOOL-MGIT-CLI-033 for you to accept through `ki-accept`; you run one attended `rig apply` on sol, accept the `.toml` prompt and confirm Rig records Zed on that first run, then accept KI-TOOL-RIG-CORE-070.
-
-b) Keep the chain output as built and accept KI-TOOL-MGIT-CLI-032 and KI-TOOL-MGIT-CLI-033 after review; accept KI-TOOL-RIG-CORE-070 now on the test evidence.
-
-c) Leave all three awaiting review.
 
 ### CHAIN-START-FIRST - A first step that runs and fails
 
@@ -99,38 +47,6 @@ a) (recommended, confidence high - each reviewed, or restating your own PROJECT-
 b) Run only the read-only ones (UNMERGED-STRAYS, UNTRACKED-REPORTS) and bring the rest to you one by one.
 
 c) Leave each to its owning Project when it next opens.
-
-### SKILLS-OVER-GRAPH - Where each new skill lands
-
-focus: _emerging
-
-**Context:** Covers the new SKILLS-OVER-GRAPH line (Inbox terra, 6 November about 02:05 to 02:28 GMT): reusable capability is canonicalised as skills, not embedded in the knowledge graph ("separate out things that are versus things that can inform"). Four asks: (1) a `ki-dodecakrisis` skill for D12, seeded from the Inbox's D12 card, sorting design and trial findings in krisb/inbox; (2) the knowledge-graph method written as a skill; (3) later, a legal skill for evidential material, from the Inbox's `evidential-nodes.md` card ("sometimes you can't just break every input up into smaller pieces"); (4) a `specs-` reference kind beside `standards-` in a skill's references, with `ki-specs` rethought towards succinct understanding rather than test lists. You also said you need to get Knowledge Islands Principal working again. The Inbox keeps its working notes until each skill exists and wants a reply naming where each lands. The knowledge plan already has the harness carry the graph standard in `ki-repo-kb`. These placements are State of play's proposal and have not been blind reviewed. On 6 November all four parts went to ki.reg.guilds' `messages.md` under GUILD-ROUTE and your brief, so the guild now proposes their homes; this query can be cleared once it does.
-
-**Query:** Should the four skills land as proposed?
-
-**Options:**
-
-a) (recommended, confidence medium - each follows an existing owner: the harness for reusable method, `ki-repo-kb` for the graph standard the knowledge plan already sends there, and the Inbox's notes as sources; unreviewed) (1) `ki-dodecakrisis` as a new ki-agentic-harness skill in the `acquire` group beside the exchange-dynamics skill; (2) the graph method written into `ki-repo-kb` as its graph standard, through the knowledge plan's phase 0; (3) the evidential-material skill held as a harness idea until (2) lands, then shaped with Legal; (4) the `specs-` reference kind and the `ki-specs` rethink as one design note under `ki-work-design` before any skill changes. State of play replies to the Inbox with these homes.
-
-b) One design run first, under `ki-work-design`, proposing a home for all four together, before anything is built.
-
-c) Send all four to ki.prj.ways-of-working, which owns method design.
-
-### SKILL-HOMES - Homes for the exchange-dynamics and two acquisition skills
-
-focus: _emerging
-
-**Context:** Covers EDA-HOME and ACQUIRE-HOME. You want a reusable way to analyse a conversation once and present it several ways (Exchange Dynamics Analysis): a method, a JSON data format, a visual layout and agent steps, drawing through `archify` and `dataviz`, which Knowledge Islands does not own ([design note](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.sop.main/_emerging/eda.design.md)). Separately, CODEX-SESSIONS (manage Codex and Zed agent sessions through their local lifecycle from the `ki-housekeeping-chatgpt` inventory) and DEFUDDLE-SKILL (a `ki-acquire-web` provider using the pinned `defuddle` CLI, never its hosted API) lost their owner when Knowledge acquisition completed. Since 5 November `ki acquire` is gone and the acquisition skills point to the Inbox's `ki-muninn`.
-
-**Query:** Should the exchange-dynamics method be a new harness skill, and the two acquisition items go to ki.reg.main?
-
-**Options:**
-
-a) (recommended, confidence high - both reviewed: an independent reviewer chose the same homes, the harness being the strong fit for a reusable method and each acquisition item bounded on its own) A new harness skill `ki-exchange-dynamics` in the `acquire` group, using archify and dataviz to draw, with an optional pointer note in Emerging Concepts; CODEX-SESSIONS and DEFUDDLE-SKILL to [ki.reg.main](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.reg.main/work.md) as separate pieces of harness skill work.
-
-b) The same skill in a new `analysis` group; the two acquisition items to ki.reg.main.
-
-c) A Pillars note only for the method, and both acquisition items to ki.prj.ways-of-working.
 
 ### OTHER-TERRITORIES - Send the cross-territory asks
 
@@ -193,20 +109,6 @@ focus: _emerging
 a) (recommended, confidence medium - reviewed, views differ: no territory has shown the need yet; the independent reviewer chose b) at high, letting each territory choose with its own provenance and access rules) No for now. Revisit when a territory asks.
 
 b) Yes, as each territory chooses.
-
-### WATCH-AGORA - Whether `ki work watch` is still wanted now Agora rings a doorbell
-
-focus: _emerging
-
-**Context:** Carried over unchanged in substance; also written in [ki.prj.tools-burndown's discussions](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.tools-burndown/discussions.md). On 1 November you decided INBOX-VERB: a read-only `ki work watch <work id>` that waits quietly and wakes a thread when a message lands or a run finishes. On 3 November Agora began waking threads itself through a doorbell file (AGORA-DOORBELL). The thread watcher has since died with its session three times (4, 5 and 6 November), each time leaving lines unread until the next owner message.
-
-**Query:** Should tools-ki still build `ki work watch`?
-
-**Options:**
-
-a) (recommended, confidence medium - reviewed, views differ: Agora's doorbell already does the waking, and a second watcher would duplicate it; the independent reviewer chose b) at medium, because the doorbell leaves gaps on hosts or runtimes without Agora) Drop WATCH-VERB as no longer needed now Agora's doorbell exists, keeping its design for reference.
-
-b) Build it anyway, as a bounded fallback for runtimes or hosts without Agora, using Agora's doorbell where it already wakes the thread; the reviewer's choice.
 
 ### RESUME-SPECS - Resume Portable specifications
 

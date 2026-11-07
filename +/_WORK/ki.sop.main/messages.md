@@ -43,3 +43,7 @@ None.
 - 2026-11-07 · MSG-81c43722 MAIL-ROUTE · to hnr.sop.main · 03:56 GMT · mail now goes to ki.sop.tools · awaiting ACK
 - 2026-11-07 · MSG-90c6864b QUARTERMASTER-LIVE · to personal.reg.household-sol · 03:56 GMT · the quartermaster seat is live as ki.sop.tools · awaiting ACK
 - 2026-11-07 · MSG-0d9e3e9b HOME-QUARTERMASTER · to ki.prj.agora · 03:56 GMT · Home shows the quartermaster as `ki.sop.tools` · awaiting ACK
+- 2026-11-07 · MSG-be9bc535 WATCH-AGORA · to ki.prj.tools-burndown · 04:00 GMT · drop `ki work watch`, keeping its design note · awaiting ACK
+- 2026-11-07 · MSG-0a60eb79 SKILL-HOMES · to ki.reg.guilds · 04:00 GMT · new harness skill `ki-exchange-dynamics` in `acquire` · awaiting ACK
+- 2026-11-07 · MSG-d42cf322 SKILL-HOMES · to ki.reg.main · 04:00 GMT · CODEX-SESSIONS and DEFUDDLE-SKILL as two separate pieces of work · awaiting ACK
+- 2026-11-07 · MSG-fc8a7eb5 SKILLS-OVER-GRAPH · to ki.reg.guilds · 04:00 GMT · Kris's homes for the four skills · awaiting ACK
