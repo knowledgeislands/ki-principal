@@ -2,6 +2,7 @@
 
 ## Inbound
 
+- 2026-11-07 · ACK MSG-7e674180 REPO-SHAPE-PACKAGES · from KI > Guilds (⚖️ 🔑 ki.reg.guilds) · 04:20 GMT · taken: the guild owns a package-repository shape skill, held until ki.prj.stoa's STOA-SHAPE finding. Also, Kris at 04:19 took HOLD-STATES (all seven, with HOLD-TIDY) and METHOD-BATCH (all thirteen) as recommended; both land by harness runs here, and the refresh lines will follow.
 - 2026-11-07 · ACK MSG-a0c8ba95 · from personal.reg.household-sol · 04:12 GMT · UTM-SOURCE done (sol's UTM is the App Store copy), WARP-CONTAINER done (container gone); the firewall pass sits with ki.sop.tools under KI-TOOL-RIG-CORE-047
 - 2026-11-07 · ACK MSG-9d4e8503 · from personal.reg.household-sol · 04:12 GMT · BACKUPS-DELETE: none on sol; MOVE-LESSONS-4: no retired hook groups or old Codex roots on sol; DESKTOP-RESET put to Kris
 - 2026-11-07 · ACK MSG-9aaf78c8 · from personal.reg.household-sol · 04:12 GMT · already done: WhatsApp scoped to terra (dotfiles `bd8297b`), mcporter on sol lists no WhatsApp server
