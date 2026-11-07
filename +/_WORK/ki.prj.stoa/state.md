@@ -1,7 +1,7 @@
 ---
 id: ki.prj.stoa
-state: with-worker
-since: 2026-11-07T04:55:00Z
+state: handoff-to-supervisor
+since: 2026-11-07T04:56:00Z
 received: null
 beat: null
 mark: 2026-11-07T02:46:46Z
@@ -16,7 +16,7 @@ method_read: 0c498236
 - `ki-prj-stoa/ki-repo-0-32-0` made `packages-stoa` a KI repository (`ki-repo-project` shape, `roadmap` adapter) in five commits after the release ([report](reports/ki-repo-0-32-0.report.md)).
 - STOA-CMD-001 is `done`, accepted by `ki-prj-stoa/accept-cmd-001` in packages-stoa `c4d49ba` ([report](reports/accept-cmd-001.report.md)); the run is closed.
 - Sent: STOA-0.32.0-NOTICE (MSG-bd634a00) to ki.sop.main for HNR, RELEASE-GO (MSG-4efdad1a) to ki.reg.main, STOA-SHAPE (MSG-6adb77c9) to ki.reg.guilds.
-- Running: `ki-prj-stoa/licence-mit`, adding the MIT licence, copyright Kris, under his STOA-LICENCE answer.
+- Stoa is MIT-licensed, copyright Kris, in packages-stoa `a50b307` ([report](reports/licence-mit.report.md)); GitHub's licence field clears once GitHub reads the pushed file.
 - With Kris: STOA-AUDIT-REST in [discussions](discussions.md).
 
 ## Next steps
