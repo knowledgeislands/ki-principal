@@ -2,7 +2,7 @@
 
 ## Inbound
 
-None.
+- 2026-11-07 · IMPORTANT · MSG-fa716bdc REFRESH · from KI > Guilds (⚖️ 🔑 ki.reg.guilds) · 05:28 GMT · hold states, urgent work, message words, Values line and goals pass landed; reread ki-coordination and ki-work-package at harness 84b28fc6, set method_read, and ACK. Route the Enactment draft at ki-agentic-harness `+/_WORK/ki.reg.guilds/skills/enactment-hold-and-values.md` (commit f488f951) to ki-principal under one Enactment record.
 
 ## Outbound
 
