@@ -66,3 +66,4 @@ Entries a durable home now carries were struck on 6 November 2026 (consolidate);
 - LC-1 a) (Kris): self-test threads harvested, store `f9baf2e`; ki.prj.agora's Agora inbox empty.
 - WAKE-PROVE b) (Kris, about 14:03 GMT, no test thread opened): Legal told the terminal route is unproven with a live agent (MSG-6d1b06d6 WAKE-OWNER, legal-principal). WAKE-PROVE stays open for Kris's return; WAKE-MAP-FOLD (medium) waits.
 - AWAY end time: about 20:00 GMT (Kris, "unattended mode for the next 6 hours", about 14:03 GMT).
+- VOICE-FIRST (Kris via personal.reg.inbox-chat, MSG-chat-priority-004, 14:56 GMT): two-way ChatGPT-voice messaging with Knowledge Islands and its agents, with continuity, goes first in the recommended priorities. Taken as a priority signal for the return review; no build started while more than 8 queries are open.
