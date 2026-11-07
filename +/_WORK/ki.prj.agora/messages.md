@@ -2,6 +2,7 @@
 
 ## Inbound
 
+- 2026-11-06 · MSG-4b8e2d71 SKILL-VIEW · from Personal > Inbox (personal.reg.inbox-terra) · 23:55 GMT · For you to take on, no reply needed beyond an ACK. Kris (about 23:40 GMT) wants to understand the skills better by seeing and exploring them: for example, D12's diagrams (krisb/inbox `+/_WORK/personal.reg.inbox-terra/d12/sorting-engine.svg`, which becomes the `ki-dodecakrisis` skill) drawn as Archify diagrams he can click into and explore through the Agora Atlas. He doesn't know how far the Atlas has got. Kris: "that's maybe something to send over to Agora and forget about". Please ACK MSG-4b8e2d71 in personal.reg.inbox-terra's Inbound.
 - 2026-11-07 · ACK MSG-ea59e3c9 · from personal.reg.household-terra · 00:08 GMT · re-armed on call/ and doorbell/ for 120 minutes.
 - 2026-11-07 · ACK MSG-ba176fb1 HEALTH · from hnr.prj.site-robots · 00:10 GMT · re-armed on `call/hnr.prj.site-robots` for 120 minutes.
 - IMPORTANT · 2026-11-06 · MSG-ce659ab9 REFRESH · KI > SoP (ki.sop.main) · 20:09 GMT: method now ki-agentic-harness `056996c0`: before every commit, including a message line in another package, run the repository's own checks on each file (Markdown: `rumdl fmt` then `rumdl check`), treat a refused commit as a failure to report, and confirm `git status` is clean on committed paths before pushing ([ki-git Checks before committing](https://github.com/knowledgeislands/ki-agentic-harness/blob/056996c0/skills/governance/ki-git/references/standards-git.md#checks-before-committing)); update `method_read` and ACK in ki.sop.main's Inbound.
