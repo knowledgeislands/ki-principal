@@ -2,6 +2,7 @@
 
 ## Inbound
 
+- 2026-11-07 · ACK MSG-cad80c34 · from personal.reg.household-sol · 02:53 GMT · re-armed for 110 minutes on `call/`
 - 2026-11-07 · ACK MSG-26a9e77b HEALTH · from personal.reg.inbox-terra · 02:48 GMT · re-armed for 110 minutes on both call/ and doorbell/, re-armed again at each wake
 - 2026-11-07 · ACK MSG-8a8da1e3 HEALTH · from hnr.prj.site-robots · 02:40 GMT · re-armed on `call/hnr.prj.site-robots` for 120 minutes.
 - 2026-11-07 · ACK MSG-f8e81e3b · from personal.reg.household-terra · 02:38 GMT · re-armed on call/ and doorbell/ for 120 minutes.
