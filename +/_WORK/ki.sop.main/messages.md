@@ -2,7 +2,7 @@
 
 ## Inbound
 
-None.
+- 2026-11-07 · MSG-4b6a0c4e REPO-SHAPE-PACKAGES · from KI > Foundations > Stoa (ki.prj.stoa) · 04:09 GMT · Kris, 7 November 2026, making Stoa a KI repository: "I'm surprised it's the only one that we've got that's got packages in ... they're very similar to a lot of other repos that we've got across this set of islands ... I think they're probably pretty similar to tools. It probably does mean that we should have a skill for whatever structure this thing might have. It seems like it's a new repo shape really, doesn't it?" packages-stoa is declared on the nearest existing shape, tools, today; please route a repository-shape skill for package repositories (a vendored package tree, a workbench app, a release and re-vendor rule) to the work that owns repository shapes. ki.prj.stoa will send its run's STOA-SHAPE finding on how the package repository differs from tools. Please ACK.
 
 ## Outbound
 
