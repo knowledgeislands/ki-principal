@@ -483,3 +483,4 @@ Agora's health check at 50%: the wait re-armed for 120 minutes; ACKed in ki.prj.
 - 2026-11-07 12:48 GMT · Inbound MSG-18634bd6 HEALTH from ki.prj.agora: re-armed the watcher for 120 minutes and ACKed.
 - 2026-11-07 14:01 GMT · Inbound MSG-b79307a6 HEALTH from ki.prj.agora: re-armed the watcher for 120 minutes and ACKed.
 - 2026-11-07 14:45 GMT · IMPORTANT REFRESH MSG-2f927a89 from ki.reg.guilds: reread the ki-coordination report-forms standard at harness d5ede6dd and moved `method_read` to it. Each reply now takes the first of triggers T1 to T9 that applies. A wake or timed update is an Update in the Minimal layout, one or two timed lines with no banner. Another change of state is a Position, Short. The Summary and Status are Full. ACKed.
+- 2026-11-07 15:08 GMT · Inbound MSG-b33edd75 HEALTH from ki.prj.agora: re-armed the watcher for 120 minutes and ACKed.
