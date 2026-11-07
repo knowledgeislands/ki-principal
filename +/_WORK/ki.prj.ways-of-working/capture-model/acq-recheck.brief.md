@@ -1,5 +1,0 @@
-# Brief: acq-recheck (ki.prj.ways-of-working)
-
-Kris decided ACQ-TEXT-RECHECK a on 1 November 2026: once Acquire publishes, compare the `ki-acquire` standard with Acquire's own text and correct wording that differs. Acquire has now published, including a restructure (`knowledge/` became `processed/<territory>/<island>/` mirroring each island's zones; `captures/`, `context/`, `processed/`), the design note `+/_WORK/personal.reg.acquire-intake/design/acquire-structure.md`, and Kris's words on meetings, all in `/Users/krisbrown/kis/personal/acquire` (README, AGENTS, CAPTURE and that package's decisions). Also keep the 1 November holding wording (harness `1118278f`).
-
-In `/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness`, align `ki-acquire` (standards, rubric, references) with Acquire's published text and layout, quoting Acquire's decisions where wording is settled; run tests, type check and audits; commit by explicit path; push `main` fast-forward only. Do not edit Acquire. List any point where Acquire's text and Kris's decisions disagree as a query. Never force, `--no-verify`, rebase, reset or stash. Report as your run packet directs.

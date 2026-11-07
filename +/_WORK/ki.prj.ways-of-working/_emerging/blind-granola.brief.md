@@ -1,3 +1,0 @@
-# Brief: blind-granola - blind review (read-only)
-
-Review one owner query independently: GRANOLA-COUNT, in `/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/discussions.md`. Read only that block's Context, Query and option course text; ignore any "(recommended, confidence ...)" annotation. Do not read anything else in `discussions.md`, nor `decisions.md`, nor any run report. You may read `src/core/acquire/granola/` in `/Users/krisbrown/kis/knowledge-islands/tools-ki` (at `76fcdc48` or later) and its tests. No network. Give your pick, a confidence (high, medium or low) with a one-line reason, any risk missed, and which claims you verified. Change nothing. Report as your run packet directs.

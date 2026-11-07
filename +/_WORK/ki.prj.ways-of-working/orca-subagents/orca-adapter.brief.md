@@ -1,5 +1,0 @@
-# Brief: orca-adapter (ki.prj.ways-of-working)
-
-Kris decided ORCA-SKILL-NOW a on 1 November 2026 ("go with what you recommend on the Orca skills now") and ORCH-NAME-DISPATCH a (adapter name `ki-delegation-orca`). The proposal is `/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.orca-evaluation/trial/orca-launcher.md`, resting on `design/orca-trial.md` there; each statement is marked proved, designed elsewhere or proposed.
-
-In `/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness`, on a new local branch `orca-adapter` (not `main`), draft the `ki-delegation-orca` skill from the proposal, following `ki-skills` for skill shape and keeping `ki-delegation` as the portable contract; carry only proved or designed-elsewhere statements as rules, and proposed ones as clearly marked open points; include the proposal's suggested change to `ki-coordination`'s "Closing out Orca workers" only as a marked proposal. Run tests, type check and audits. Commit on the branch; do not merge or push. Report as your run packet directs, with the diff summary and every open point as a query for Kris. Never force, `--no-verify`, rebase, reset or stash.

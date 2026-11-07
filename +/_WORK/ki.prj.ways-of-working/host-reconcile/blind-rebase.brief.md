@@ -1,3 +1,0 @@
-# Brief: blind-rebase - blind review (read-only)
-
-Review one owner query independently: GIT-REBASE, in `/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/discussions.md`. Read only that block's Context, Query and option course text; ignore any "(recommended, confidence ...)" annotation. Do not read anything else in `queries.md`, nor `decisions.md`, nor any run report. You may read `ki-coordination`, `ki-delegation` and `ki-git` in `/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness` and Git history in ki-principal. No network. Give your pick, a confidence (high, medium or low) with a one-line reason, any risk missed, and which claims you verified. Change nothing. Report as your run packet directs.

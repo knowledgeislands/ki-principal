@@ -1,3 +1,0 @@
-# Brief: acquire-line (ki.prj.ways-of-working)
-
-In `/Users/krisbrown/kis/personal/acquire`, the pre-commit gate cannot run because `node_modules/.bin` lacks lint-staged, syncpack, biome and rumdl. Run `bun install` from the lockfile (no upgrades, no new packages), then commit only `+/_WORK/personal.reg.acquire-intake/messages.md`, whose one uncommitted change is the ASSISTANT-RENAME line from ki.prj.ways-of-working (fix only Markdown spacing if the hook asks), subject `docs(work): personal.reg.acquire-intake message from ki.prj.ways-of-working`. Push `main` fast-forward only; on a pull that cannot fast-forward, merge in a temporary worktree. Leave every other file untouched. Never force, `--no-verify`, rebase, reset or stash. Report as your run packet directs.
