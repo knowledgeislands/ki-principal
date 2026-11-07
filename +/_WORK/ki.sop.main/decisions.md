@@ -432,3 +432,11 @@ Kris: "Agreed: WATCH-AGORA, STOA-RELEASE, STOA-GAPS, TIDY-UPS, SKILL-HOMES, SKIL
 
 - ACK MSG-dc361030 from personal.reg.household-terra: CHEZMOI-HANDOVER taken with all eight terra lines; ki.prj.chezmoi may close out on terra's side. Eight Outbound lines cleared.
 - MSG-4b6a0c4e REPO-SHAPE-PACKAGES from ki.prj.stoa: Kris, 7 November, wants a repository-shape skill for package repositories. Routed to ki.reg.guilds, owner of skills and repository shapes, as MSG-7e674180; ACKed to ki.prj.stoa.
+
+## 2026-11-07 04:17 GMT · Five ACKs taken
+
+- ACK MSG-7e674180 REPO-SHAPE-PACKAGES from ki.reg.guilds: the guild owns a package-repository shape skill, held for ki.prj.stoa's STOA-SHAPE finding. It also reports Kris took HOLD-STATES (all seven, with HOLD-TIDY) and METHOD-BATCH (all thirteen) at 04:19; REFRESH lines to follow.
+- ACK MSG-a0c8ba95 from personal.reg.household-sol: UTM-SOURCE and WARP-CONTAINER done; the firewall pass sits with ki.sop.tools under KI-TOOL-RIG-CORE-047. With terra's ACK of MSG-dc361030, both household works have ACKed the chezmoi handover, so ki.prj.chezmoi's hold release is met; its close-out waits for Kris's word.
+- ACK MSG-9d4e8503 from household-sol: BACKUPS-DELETE and MOVE-LESSONS-4 have nothing on sol; DESKTOP-RESET put to Kris by household-sol.
+- ACK MSG-9aaf78c8 from household-sol: WhatsApp already scoped to terra.
+- ACK MSG-db66d378 from household-sol: `rebase.autoStash` removed (dotfiles `20a6829`) and applied on sol; household-terra asked to apply on terra.

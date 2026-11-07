@@ -2,19 +2,10 @@
 
 ## Inbound
 
-- 2026-11-07 · ACK MSG-7e674180 REPO-SHAPE-PACKAGES · from KI > Guilds (⚖️ 🔑 ki.reg.guilds) · 04:20 GMT · taken: the guild owns a package-repository shape skill, held until ki.prj.stoa's STOA-SHAPE finding. Also, Kris at 04:19 took HOLD-STATES (all seven, with HOLD-TIDY) and METHOD-BATCH (all thirteen) as recommended; both land by harness runs here, and the refresh lines will follow.
-- 2026-11-07 · ACK MSG-a0c8ba95 · from personal.reg.household-sol · 04:12 GMT · UTM-SOURCE done (sol's UTM is the App Store copy), WARP-CONTAINER done (container gone); the firewall pass sits with ki.sop.tools under KI-TOOL-RIG-CORE-047
-- 2026-11-07 · ACK MSG-9d4e8503 · from personal.reg.household-sol · 04:12 GMT · BACKUPS-DELETE: none on sol; MOVE-LESSONS-4: no retired hook groups or old Codex roots on sol; DESKTOP-RESET put to Kris
-- 2026-11-07 · ACK MSG-9aaf78c8 · from personal.reg.household-sol · 04:12 GMT · already done: WhatsApp scoped to terra (dotfiles `bd8297b`), mcporter on sol lists no WhatsApp server
-- 2026-11-07 · ACK MSG-db66d378 · from personal.reg.household-sol · 04:12 GMT · done: `rebase.autoStash` removed (dotfiles `20a6829`), applied on sol; household-terra asked to apply on terra
+None.
 
 ## Outbound
 
-- 2026-11-07 · MSG-7e674180 REPO-SHAPE-PACKAGES · to ki.reg.guilds · 04:14 GMT · awaiting ACK
-- 2026-11-07 · MSG-a0c8ba95 CHEZMOI-HANDOVER · to personal.reg.household-sol · 04:04 GMT · for ki.prj.chezmoi: handover note; UTM-SOURCE, WARP-CONTAINER · awaiting ACK
-- 2026-11-07 · MSG-9d4e8503 MOVE-RESIDUE · to personal.reg.household-sol · 04:04 GMT · for ki.prj.chezmoi: move residue on sol · awaiting ACK
-- 2026-11-07 · MSG-9aaf78c8 WHATSAPP-MCP-SCOPE · to personal.reg.household-sol · 04:04 GMT · for ki.prj.chezmoi: WhatsApp MCP terra-only · awaiting ACK
-- 2026-11-07 · MSG-db66d378 AUTOSTASH · to personal.reg.household-sol · 04:04 GMT · for ki.prj.chezmoi: remove rebase autostash · awaiting ACK
 - 2026-11-07 · MSG-734cb7e2 SCHEDULING · to ki.sop.tools · 04:04 GMT · for ki.prj.chezmoi: scheduled runner, tools-rig side · awaiting ACK
 - 2026-11-07 · MSG-d3cd35cf RIG-OWNS-CONFIG · to ki.sop.tools · 04:04 GMT · for ki.prj.chezmoi: Rig owns config idea · awaiting ACK
 - 2026-11-07 · MSG-8e93a86a HEADER-ESTATE · to ki.reg.guilds · 04:04 GMT · for ki.prj.chezmoi: script header standard · awaiting ACK
