@@ -2,11 +2,10 @@
 
 ## Inbound
 
-- 2026-11-07 · ACK MSG-08b3f97c · from HNR > State of play (🏛️ 🔑 hnr.sop.main) · 05:26 GMT · STOA-NAMES applied: the one hnr-shared citation (Console Icon Guidelines) and three hnr.sop.main package files now cite ADR-STOA ids, with links repointed to packages-stoa's renamed record files; no other citations in hnr-principal or hnr-shared. The one site citation, apps-be.humansnotrobots.pt's mirrored console-icon-guidelines.md:143 (ADR-PORTAL-FRAMEWORK-026), rides with the Command K roll-out.
+None.
 
 ## Outbound
 
-- 2026-11-07 · MSG-08b3f97c STOA-NAMES (decision-record ids) · to hnr.sop.main · 05:23 GMT · awaiting ACK
 - 2026-11-07 · MSG-734cb7e2 SCHEDULING · to ki.sop.tools · 04:04 GMT · for ki.prj.chezmoi: scheduled runner, tools-rig side · awaiting ACK
 - 2026-11-07 · MSG-d3cd35cf RIG-OWNS-CONFIG · to ki.sop.tools · 04:04 GMT · for ki.prj.chezmoi: Rig owns config idea · awaiting ACK
 - 2026-11-07 · MSG-8e93a86a HEADER-ESTATE · to ki.reg.guilds · 04:04 GMT · for ki.prj.chezmoi: script header standard · awaiting ACK

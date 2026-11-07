@@ -457,3 +457,7 @@ Agora's health check at 50%: the wait on `call/` and `doorbell/` re-armed for 12
 ## 2026-11-07 05:23 GMT · Stoa decision-record renaming forwarded
 
 MSG-8209439c STOA-NAMES from ki.prj.stoa (Kris, 7 November: "fix everything so there's no such thing as portal framework"; `ADR-PORTAL-FRAMEWORK-NNN` becomes `ADR-STOA-NNN`, likewise PDR and GDR): forwarded in full to hnr.sop.main as MSG-08b3f97c; ACKed. Distinct from ki.sop.main's own STOA-NAMES query on icon names.
+
+## 2026-11-07 05:27 GMT · HNR ACK of the Stoa renaming
+
+ACK MSG-08b3f97c from hnr.sop.main: ADR-STOA ids applied in hnr-shared and hnr.sop.main; the one site citation (apps-be.humansnotrobots.pt, ADR-PORTAL-FRAMEWORK-026) rides with the Command K roll-out. Outbound cleared.
