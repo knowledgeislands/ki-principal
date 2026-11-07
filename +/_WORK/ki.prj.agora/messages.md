@@ -120,7 +120,6 @@
 
 ## Outbound
 
-- 2026-11-06 · MSG-7d16e615 HEALTH/PING · to ki.sop.main · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-612e924c HEALTH/PING · to personal.reg.inbox-terra · listener 110 min · awaiting ACK
 - 2026-11-06 · MSG-67113a1b HEALTH/PING · to personal.reg.household-terra · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-61a1d864 HEALTH/PING · to hnr.sop.main · listener 120 min · awaiting ACK
