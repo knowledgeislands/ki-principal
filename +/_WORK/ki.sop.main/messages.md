@@ -2,7 +2,7 @@
 
 ## Inbound
 
-- 2026-11-06 · MSG-7ab0b624 MAIL-GAPS · from Personal > Inbox (terra) (personal.reg.inbox-terra) · 01:12 GMT · Kris took MAIL-GAPS a: please fix two gaps in the mail servers that email capture (`ki-muninn mail import`) relies on: the Microsoft 365 server's read tools return no conversation id for a message, and both the Microsoft 365 and Gmail servers stop attachment downloads at 256 KiB. Each capture names the gap until then. Reply with where it lands.
+None.
 
 ## Outbound
 
@@ -36,3 +36,10 @@
 - 2026-11-06 · MSG-c3d6e663 REFRESH · to ki.prj.ways-of-working · 20:40 GMT · `27833e5b` FOOTER-COUNTS · awaiting ACK
 - 2026-11-06 · MSG-475bfcb4 REFRESH · to ki.prj.website · 20:40 GMT · `27833e5b` FOOTER-COUNTS · awaiting ACK
 - 2026-11-06 · MSG-7b7126f3 REFRESH · to ki.reg.main · 20:40 GMT · `27833e5b` FOOTER-COUNTS · awaiting ACK
+- 2026-11-07 · MSG-fb43aba6 RIG-INTAKE · to ki.sop.tools · 03:56 GMT · Rig intake, four triage captures, footprint group, Adobe script evidence · awaiting ACK
+- 2026-11-07 · MSG-7ab0b624 MAIL-GAPS · to ki.sop.tools · 03:56 GMT · moved from this Inbound under QUARTERMASTER a), first in the mail backlog · awaiting ACK
+- 2026-11-07 · MSG-16400bfb MAIL-IDEAS · to ki.sop.tools · 03:56 GMT · the eleven mail idea records · awaiting ACK
+- 2026-11-07 · MSG-3e71ee8c MAIL-ROUTE · to personal.reg.inbox-sol · 03:56 GMT · mail now goes to ki.sop.tools · awaiting ACK
+- 2026-11-07 · MSG-81c43722 MAIL-ROUTE · to hnr.sop.main · 03:56 GMT · mail now goes to ki.sop.tools · awaiting ACK
+- 2026-11-07 · MSG-90c6864b QUARTERMASTER-LIVE · to personal.reg.household-sol · 03:56 GMT · the quartermaster seat is live as ki.sop.tools · awaiting ACK
+- 2026-11-07 · MSG-0d9e3e9b HOME-QUARTERMASTER · to ki.prj.agora · 03:56 GMT · Home shows the quartermaster as `ki.sop.tools` · awaiting ACK
