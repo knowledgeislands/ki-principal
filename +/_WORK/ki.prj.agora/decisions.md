@@ -53,3 +53,11 @@ Entries a durable home now carries were struck on 6 November 2026 (consolidate);
 - STORE-LOWERCASE (Kris, about 09:15 GMT): "can it all be lower case please", of `messages/KI/ki.prj.agora` in krisb/ki-agora-beacon. Every store path segment becomes lower case, existing folders move, and reads accept either case. Run store-lowercase.
 - STORE-LOWERCASE delivered (09:20 GMT): mcp-agora `68d21b7` and `c01dbb2`, store `56058a9` and `5c81f90`, spec apps-agora.local `78ac11b`; live check passed. LC-1 (harvest the two self-test threads) with Kris.
 - FMT-ON-COMMIT: Kris takes Markdown write-time formatting to ki.reg.guilds himself (about 09:40 GMT), with ki.prj.agora's brief recommending a writer's rule in ki-authoring; not held here.
+
+## 2026-11-07 · Before Kris leaves this host (about 13:45 GMT)
+
+- MOUNT-3 a) (Kris): a run commits lgl.sop.main's two stranded LEGAL-ACK-GATE lines in terra's chezmoi unchanged, catches terra up, mounts Agora there and tells Legal and household-terra. Run terra-mount.
+- MOUNT-2 a) (Kris): mcp-agora removes only the files a failed commit created. Run terra-mount.
+- MOUNT-4 a) (Kris): terra's store clone uses `.githooks`, and the store README says so. Run terra-mount.
+- WAKE-NOTE a) (Kris): one research run writes the wake architecture note in apps-agora.local; the coordinator then answers Legal and tells assistant-sol from it. Run wake-note.
+- AWAY (Kris, about 13:47 GMT, same terms as 05:00): coordinator takes only high-confidence, reversible recommendations, finishes and checks the two runs, keeps health rounds and listening; no new build runs while over the query cap; nothing closed, accepted or published. Return report when Kris is back.

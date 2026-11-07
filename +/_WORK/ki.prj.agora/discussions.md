@@ -64,20 +64,6 @@ a) (recommended, confidence high - it works now and leaves failover for later) K
 
 b) Wait for run-once claims before moving any one-Mac job.
 
-### WAKE-NOTE - The wake architecture note, and Legal's request
-
-focus: send · since 2026-11-06 · from WAKE-ARCHITECTURE and LEGAL-AUTOMATION-AGORA-20261104
-
-**Context:** Two requests from 4 November have waited here since. You asked assistant-sol (WAKE-ARCHITECTURE, about 09:30 GMT) for one architecture note with a diagram, kept in Agora: for each place you work (Orca chat and terminal, each with Claude Code and Codex; Claude Desktop; Claude Design), how a message or a finished run reaches it today, what can wake it, what is proven, and the target route through Agora. Legal (lgl.sop.main) asked Agora, or assistant-sol, to own making overnight wake and supervision work after its Codex chat was never woken, and to reply with the owner and the verified limits. assistant-sol's spec already holds a draft wake table and research (`coordination/wake-research.md`).
-
-**Query:** Should Agora write the wake architecture note now, and answer Legal from it?
-
-**Options:**
-
-a) (recommended, confidence medium - it is the Agora-side half of the spec, builds on assistant-sol's research rather than repeating it, and gives Legal a real answer) Yes: one research run writes the note in `apps-agora.local`'s docs, proving each route it can on this Mac without changing any settings; I then reply to Legal with the owner and the verified limits, and tell assistant-sol.
-
-b) Leave the note to assistant-sol's coordination spec, and reply to Legal only that assistant-sol owns it.
-
 ### MARK-WORDS - Whether a mark carries your own words
 
 focus: send · since 2026-11-06 · from mark-all-scope
@@ -156,20 +142,6 @@ b) Keep `2/2` beside the symbol as well as the look count.
 
 c) Drop the count and rely on the symbol's states.
 
-### MOUNT-2 - Clean up after a failed commit on a shared mount
-
-focus: mcp · since 2026-11-07 · from mcp-mount-all
-
-**Context:** When a local write's commit fails, mcp-agora leaves the new file staged. On a mount every agent shares, one staged file blocks every later write by every agent until it is removed by hand.
-
-**Query:** Should mcp-agora remove its own just-written, uncommitted files when its commit step fails?
-
-**Options:**
-
-a) (recommended, confidence medium - nothing was committed or published, so nothing is lost) Yes: unstage and delete only the files that operation created; keep today's behaviour for failures after the commit.
-
-b) No: keep failed writes visible and document the manual cleanup.
-
 ### STORE-CODE - The store's repository code
 
 focus: mcp · since 2026-11-07 · from store-docs
@@ -183,36 +155,6 @@ focus: mcp · since 2026-11-07 · from store-docs
 a) (recommended, confidence medium - nothing in it is published yet) Rename it to `PERSONAL-AGORA-STORE` in a small run, after checking nothing else refers to it.
 
 b) Keep it.
-
-### MOUNT-3 - Terra's chezmoi checkout is blocked by Legal's uncommitted inbox lines
-
-focus: mcp · since 2026-11-07 · from mount-resume
-
-**Context:** Agora is mounted for every agent on sol and verified end to end. On terra, chezmoi holds two uncommitted LEGAL-ACK-GATE lines Legal's thread (lgl.sop.main) wrote into the household inboxes at about 01:58 GMT; incoming commits change the same file, so terra cannot fast-forward and its mount stopped.
-
-**Query:** How should terra's checkout be cleared so its Agora mount can finish?
-
-**Options:**
-
-a) (recommended, confidence high - the owner keeps its own work) The household or Legal thread commits the two lines on terra; a short run then mounts terra and runs its three checks.
-
-b) A run stashes the lines, fast-forwards and restores them, stopping on conflict.
-
-c) Leave terra unmounted for now.
-
-### MOUNT-4 - Store hooks on a fresh clone
-
-focus: mcp · since 2026-11-07 · from mount-resume
-
-**Context:** Terra's fresh ki-agora-beacon clone has no `core.hooksPath`, so its writes would skip the store's rumdl and commit-message hooks; sol's uses `.githooks`.
-
-**Query:** Should terra's clone get `core.hooksPath = .githooks`?
-
-**Options:**
-
-a) (recommended, confidence medium - matches sol) Yes, in the MOUNT-3 run, and the store's README gains a setup line.
-
-b) No.
 
 ### TRY-NOTICES - Repeating checkout notices
 
