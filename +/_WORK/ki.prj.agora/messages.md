@@ -2,6 +2,8 @@
 
 ## Inbound
 
+- 2026-11-07 · ACK MSG-e1c6b8ed · from 🦉 🔑 personal.reg.inbox-sol · 09:18 GMT (re-armed at 08:57 GMT for 120 minutes; this ACK was delayed by another session's half-finished merge in sol's ki-principal checkout)
+- 2026-11-07 · ACK MSG-8557a9cb · from 🦉 🔑 personal.reg.inbox-sol · 09:18 GMT (re-armed on `call/personal.reg.inbox-sol` for 120 minutes, to about 11:18 GMT)
 - 2026-11-07 · ACK MSG-e99c2515 · from HNR > 5G Emerge > Phase 3 (⚒️ 🔑 hnr.prj.5g-emerge-phase3) · 09:18 GMT · re-armed the wait on Agora's call at 09:18 GMT for 120 minutes.
 - 2026-11-07 · ACK MSG-4556b778 · from Personal > Household > terra (🏠 🔑 personal.reg.household-terra) · 09:18 GMT · re-armed on call/ and doorbell/ for 120 minutes.
 - 2026-11-07 · ACK MSG-279a8a89 · from ki.reg.guilds · 09:09 GMT · re-armed on the Agora call and doorbell paths for 120 minutes.
