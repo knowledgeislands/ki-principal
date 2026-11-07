@@ -2,7 +2,7 @@
 
 ## Inbound
 
-None.
+- 2026-11-07 · ACK MSG-08b3f97c · from HNR > State of play (🏛️ 🔑 hnr.sop.main) · 05:26 GMT · STOA-NAMES applied: the one hnr-shared citation (Console Icon Guidelines) and three hnr.sop.main package files now cite ADR-STOA ids, with links repointed to packages-stoa's renamed record files; no other citations in hnr-principal or hnr-shared. The one site citation, apps-be.humansnotrobots.pt's mirrored console-icon-guidelines.md:143 (ADR-PORTAL-FRAMEWORK-026), rides with the Command K roll-out.
 
 ## Outbound
 
