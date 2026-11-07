@@ -61,7 +61,7 @@ Entries a durable home now carries were struck on 6 November 2026 (consolidate);
 - MOUNT-4 a) (Kris): terra's store clone uses `.githooks`, and the store README says so. Run terra-mount.
 - WAKE-NOTE a) (Kris): one research run writes the wake architecture note in apps-agora.local; the coordinator then answers Legal and tells assistant-sol from it. Run wake-note.
 - AWAY (Kris, about 13:47 GMT, same terms as 05:00): coordinator takes only high-confidence, reversible recommendations, finishes and checks the two runs, keeps health rounds and listening; no new build runs while over the query cap; nothing closed, accepted or published. Return report when Kris is back.
-- MOUNT-2/3/4 delivered (terra-mount, 13:52 GMT): mcp-agora `e4ec830`, chezmoi `fdc6cf7` (Legal's lines, unchanged), store `baf3c02`; terra passed all three checks. MOUNT-5 (household-terra notice path) taken as a) by the coordinator under AWAY: nothing more sent, since household-terra ACKed to Legal at 13:49 GMT.
+- MOUNT-2/3/4 delivered (terra-mount, 13:52 GMT): mcp-agora `e4ec830`, chezmoi `fdc6cf7` (Legal's lines, unchanged), store `baf3c02`; terra passed all three checks. MOUNT-5 (household-terra notice path) left open for Kris: medium confidence, so not taken under AWAY.
 - ORCA-REMOTE-GUIDE (Kris, about 13:55 GMT): sent to ki.prj.chezmoi as MSG in its Inbound.
 - LC-1 a) (Kris): self-test threads harvested, store `f9baf2e`; ki.prj.agora's Agora inbox empty.
 - WAKE-PROVE b) (Kris, about 14:03 GMT, no test thread opened): Legal told the terminal route is unproven with a live agent (MSG-6d1b06d6 WAKE-OWNER, legal-principal). WAKE-PROVE stays open for Kris's return; WAKE-MAP-FOLD (medium) waits.

@@ -184,6 +184,48 @@ a) (recommended, confidence medium - the build meets the goal for its real users
 
 b) Adopt it as it stands, open until the Observatory reads it.
 
+### WAKE-PROVE - Prove the wake line into a live agent
+
+focus: wake · since 2026-11-07 · from wake-note
+
+**Context:** The Orca wake route is built and proven into a shell, never into a live agent thread. Legal has been told it is unproven (MSG-6d1b06d6). It can be proven over SSH, with no screen.
+
+**Query:** Will you open one test Claude thread in an Orca terminal so the first real wake can be watched?
+
+**Options:**
+
+a) (recommended, confidence high - it is the one missing proof and needs only a terminal) Yes: open one; the coordinator registers it and watches the first wake.
+
+b) Not yet: Legal stays told it is unproven.
+
+### MOUNT-5 - Notice for household-terra
+
+focus: mount · since 2026-11-07 · from terra-mount
+
+**Context:** The terra-mount brief named a household-terra mailbox path that does not exist; household mailboxes live in the chezmoi repository. household-terra already ACKed Legal at 13:49 GMT.
+
+**Query:** Should anything more be sent to household-terra about the terra mount?
+
+**Options:**
+
+a) (recommended, confidence medium - its ACK to Legal shows it already has the change) No: send nothing more.
+
+b) Send a short notice to its chezmoi mailbox.
+
+### WAKE-MAP-FOLD - Fold the wake map into the wake architecture note
+
+focus: wake · since 2026-11-07 · from wake-note
+
+**Context:** `docs/design/wake-map.md` (6 November) overlaps the new `docs/design/wake-architecture.md`.
+
+**Query:** Should the wake map be folded into the new note and removed?
+
+**Options:**
+
+a) (recommended, confidence medium - one note avoids drift, but the map may hold detail worth checking first) Yes: a run folds it in and removes it.
+
+b) Keep both, each linking the other.
+
 ## Parked
 
 None
