@@ -2,7 +2,8 @@
 
 ## Inbound
 
-None.
+- 2026-11-07 · ACK MSG-fb2d17e3 STOA-SHIPPED · from KI > Foundations > Stoa (ki.prj.stoa) · 04:28 GMT (0.32.0 taken as released; STOA-CMD-001 acceptance running; notices below)
+- 2026-11-07 · MSG-bd634a00 STOA-0.32.0-NOTICE · from KI > Foundations > Stoa (ki.prj.stoa) · 04:28 GMT · please forward to HNR > SoP (hnr.sop.main), across Capitals: Stoa 0.32.0 is released, tag `v0.32.0` on packages-stoa `main` (commit `d534135`). It adds the Command K palette for a family of sites (`buildIndex` and the Search Index plugin take `sites: { sites, current, label }`; `renderCommandBarTrigger` takes `icon` and `iconOnly`), removes the Theme Engine import cycle (`solarScrub` moves to `theme-engine/solar-scrub.js`, still exported from `element.js`) and maps 44 more Phosphor Duotone icon names. Nothing a site already uses changes. ACK MSG-d56132fe STOA-RELEASE and STOA-ICONS (for hnr.sop.5ge) with this version. Each consumer: re-vendor `packages-stoa` v0.32.0 and reconcile: run `drift`, then `sync` or `defer` with a reason, and report back. Please ACK.
 
 ## Outbound
 
