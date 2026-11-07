@@ -178,6 +178,54 @@ a) (recommended, confidence medium - reviewed: an independent reviewer chose the
 
 b) Fold their content into the Work Process note through an Enactment record instead of pulling them as cards.
 
+### STOA-GH-RELEASE - GitHub release page for v0.32.0
+
+**Context:** The brief asked for a GitHub release, but the run's rules forbid any GitHub API call, and the Rules win where they conflict with the brief. packages-stoa's own release rule in its `AGENTS.md` is to bump the version, add the changelog section and tag; it does not mention a GitHub release page. The tag `v0.32.0` is pushed, and the changelog carries the release notes.
+
+**Query:** Should v0.32.0 also get a GitHub release page?
+
+**Options:**
+
+a) (recommended, confidence medium - the repository's own documented process ends at the tag, and earlier releases followed it) Leave it as a tag only, the same as earlier Stoa releases.
+
+b) Authorise one bounded run to create the GitHub release page for `v0.32.0`, using the 0.32.0 changelog section as its notes.
+
+### HOLD-REASON - The hold reason uses words where the standard expects a fixed value
+
+**Context:** The brief set ki.prj.chezmoi's hold reason to "folded into the household works", and that is what was written. The work-package standard expects the reason to be one of two fixed values: `paused` for an ordinary hold, or `more-expected` for one waiting on more messages. The `ki` tooling or the package checker may therefore flag this package.
+
+**Query:** Should the hold reason become `paused`, with the explanation kept in the state file's prose?
+
+**Options:**
+
+a) (recommended, confidence medium - it keeps the package valid and loses nothing, but the brief chose these words on purpose) Set `hold.reason: paused`, and keep "folded into the household works" in the Now line and the release.
+
+b) Keep the brief's words as they are, and accept any checker warning until close-out.
+
+### OBSOLETE-SOL - Drop the five Mac Studio queries that rest on sol evidence
+
+**Context:** Under OBSOLETE-DROP, five queries in [ki.prj.mac-studio-setup](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.mac-studio-setup/handover.report.md) look settled, but the only evidence is what that work's handover report says about sol, with no commit behind it. RIG-TRIAGE: every record done, cancelled or moved to ideas. FW-LIVE: the firewall is live. SOL-SOURCES: all source folders are on sol. SOL-HNR-HARNESS: the HNR harness is installed. SOL-KI-CONFIG-DRIFT: the drift is cleared. What a machine reports can change later, so you kept these for your word.
+
+**Query:** Should ki.prj.mac-studio-setup drop these five as settled, logging each against its handover report?
+
+**Options:**
+
+a) (recommended, confidence medium - the handover report states each was settled, but nobody has checked sol again since) Drop all five with one decisions-log line each, citing the handover report.
+
+b) First have a run on sol check each one again, then drop only those that still hold.
+
+### REMOTE-LEARN - Delete the merged branch on GitHub
+
+**Context:** apps-knowledgeislands.info's `ways-of-working-learn` is fully merged into `main`. Its local copy is gone, but the copy on GitHub is still there. Deleting it needs a push that removes the branch, which this run's push rule (fast-forward pushes of `main` only) does not cover.
+
+**Query:** Should the GitHub copy of `ways-of-working-learn` be deleted?
+
+**Options:**
+
+a) (recommended, confidence high - the branch is merged, so deleting it loses nothing) Yes: a run deletes it with `git push origin --delete ways-of-working-learn`.
+
+b) Leave it on GitHub.
+
 ## Parked
 
 - ALIAS-OWNERS (from ki.prj.estate-factorisation, under ESTATE-CLOSE a), 7 November): territory alias ownership is a governance residual; State of play keeps it parked until a Harness or Principal record owns it. Recommended: keep parked.
