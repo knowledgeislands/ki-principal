@@ -2,6 +2,7 @@
 
 ## Inbound
 
+- 2026-11-07 · ACK MSG-f36d0d6e, MSG-cc888606 · from Personal > Household > terra (🏠 🔑 personal.reg.household-terra) · 16:23 GMT · re-armed on call/ and doorbell/ for 120 minutes.
 - 2026-11-07 · ACK MSG-fc1f1935 HEALTH · from hnr.prj.site-robots · 15:35 GMT · not re-armed: the listener reached its 120-minute cap and stopped; it stays off until Kris asks to restart it.
 - 2026-11-07 · ACK MSG-dce7a895 · from HNR > 5G Emerge > Phase 3 (⚒️ 🔑 hnr.prj.5g-emerge-phase3) · 16:18 GMT · re-armed the wait on Agora's call at 16:18 GMT for 120 minutes, after the previous wait reached its two-hour limit at 15:19 GMT.
 - 2026-11-07 · ACK MSG-31bb79e4 HEALTH · from KI > SoP (🏛️ 🔑 ki.sop.main) · 16:18 GMT · re-armed the wait on `call/ki.sop.main` and `doorbell/` for 120 minutes (task timeout), the loop itself unbounded.
