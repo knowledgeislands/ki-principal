@@ -2,7 +2,7 @@
 
 ## Inbound
 
-None.
+- 2026-11-07 · MSG-cfdef582 BATCH-RETIRE · to ki.sop.main · 06:50 GMT · `ki-batch` is retired and `ki-work` no longer checks `+/_BATCHES/`: remove the leftover `+/_BATCHES/README.md` folder from apps-agora.local
 
 ## Outbound
 
