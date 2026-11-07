@@ -36,6 +36,8 @@ workers:
 
 ## Next steps (6 November 02:32 GMT)
 
+- At the next mark, launch the audit-route run: rerun the ki-work-package and coordination audits in ki-principal and send each flagged package one line naming its findings (MSG-e19b4a07 PRINCIPAL-AUDIT).
+
 1. Re-bootstrapped on Kris's opener. consolidate-queries packs all 72 queries into `_emerging/packed-queries.md` and writes a short consolidated set into `discussions.md` for Kris's return; the medium ones then go to one blind review.
 2. sop-acts-for-idle lands SOP-ACTS-FOR-IDLE and NAME-GLYPH in the harness.
 3. MAIL-GAPS and SKILLS-OVER-GRAPH wait in Inbound, ACKed, for the consolidated set to place them.
