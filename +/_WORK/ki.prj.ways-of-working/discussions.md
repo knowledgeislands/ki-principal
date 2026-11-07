@@ -82,34 +82,6 @@ a) (recommended, confidence high - reviewed; the hook runs in this mode and lint
 
 b) Leave the standards as they are and rely on the general rule against touching other sessions' files.
 
-### SWEEP-GATE - What "both Macs level" means before each repository is swept
-
-since 2026-11-01 · from run/discussions-plan · blind review 1 November
-
-**Context:** On 31 October Kris asked that the rename sweep wait until "host sync has both Macs level", to avoid clashes between the two Macs, sol and terra. Since then the repositories have moved into `~/kis` on both Macs, and each Mac's Rig sync thread is recorded as running every 15 minutes, terra seven minutes after sol. Those records cannot prove a loop is healthy at any given moment, and a scheduled pass is not a lock: two long passes can overlap. The sweep renames a file in 60 work packages across 9 repositories. If either Mac holds unpushed changes to those packages mid-sweep, the two copies drift apart and someone has to merge them by hand.
-
-**Query:** Should each repository's sweep wait for a fresh check that that repository is clean and level on both Macs, or rely on the routine sync passes alone?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; a fresh check tests the actual clash, which a schedule cannot) Just before each repository's run, each Mac's Rig thread or Kris checks that the repository is committed, pushed and level on both Macs, naming the branch and commit on each. Package writes in that repository pause while the run renames and pushes, and the other Mac pulls, and is checked, before any coordinator there writes again.
-
-b) Rely on the routine Rig sync passes, now recorded as running, with no separate check per repository.
-
-### HOST-SYNC-CLOSE - Close the parked host-sync design too?
-
-since 2026-11-01 · from run/stocktake · blind review 1 November · proposed to close: the [host-reconcile plan](host-reconcile/plan.md) and [sol's Rig thread state](/Users/krisbrown/kis/personal/personal-principal/+/_WORK/personal.reg.rig-sol/state.md) already record HOST-SYNC as superseded
-
-**Context:** On 1 November you closed the four HOST-* questions as superseded: "I think we've moved on from some of these points ... it's a step back from where we are now". One older parked query, HOST-SYNC, still asks which primary or secondary order and offset hosts should publish in. The review found this already settled: the host-reconcile plan sets sol's passes on the quarter hour and terra's seven minutes later, with each host's part, and sol's own Rig thread state calls HOST-SYNC superseded. What happens to the six host-sync design notes is now a separate question, HOST-SYNC-NOTES.
-
-**Query:** Should HOST-SYNC be closed as superseded?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; the plan and sol's own state already record it as superseded) Close HOST-SYNC as superseded by your 1 November words and the host-reconcile plan.
-
-b) Keep HOST-SYNC parked until a later design discussion.
-
 ### HOST-SYNC-NOTES - Delete the six host-sync notes after the normal checks?
 
 since 2026-11-01 · from the blind review of HOST-SYNC-CLOSE
@@ -194,48 +166,6 @@ a) (recommended, confidence medium - review disagrees; it empties the folder wit
 
 b) Keep both notes in `design/` until IDEAS-REVISIT is settled (the review's pick).
 
-### TOPIC-SET - Which topic folders to pilot
-
-since 2026-11-01 · from run/stocktake · blind review 1 November
-
-**Context:** On 1 November you said this work's folders "should really be aligned to the topic", each holding its briefs, design and reports. After the clean-up the [stock-take](_emerging/stocktake-2026-11-01.md) proposes 13 topics: `work-model`, `package-layout`, `package-definition`, `discussions`, `capture-model`, `empty-board`, `landscape`, `orca`, `listening`, `host-sync`, `nascent-areas`, `publication-recovery` and `window-31-oct`, with a few notes fitting none, such as the Project's closing plan. Small topics close and can be deleted whole sooner, for example `discussions/` once its rollout lands. A coarser set would mean fewer folders to look through, but puts separate matters, such as package layout and discussions, in one folder that cannot close until all of them are done. Whether each topic has subfolders stays with LAYOUT-SHAPE.
-
-**Query:** Should this package's pilot use the 13 proposed topics, or a coarser set?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; topics that can each close on their own make each folder a natural unit to tidy, and folders can be merged later) The 13 topics as proposed, after naming the exact files each will hold and checking each has one home before anything moves.
-
-b) A coarser set of about eight: `work-model/`, `work-package/`, `capture-model/`, `empty-board/`, `agents/`, `host-sync/`, `nascent-areas/` and `publication-recovery/`, with `window-31-oct/` folded into `work-model/`.
-
-### PILOT-CONTRACT-LINE - Tell the Orca evaluation about the extra pilot checks
-
-since 2026-10-31 · from run/a-3 · from stocktake · blind review 1 November
-
-**Context:** Row 2 already sent the ORCA-SUBAGENT-PILOT line to [ki.prj.orca-evaluation's messages](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.orca-evaluation/messages.md), using the wording drafted before the review. That line asks four things: whether the worker nests in the list, whether it runs without prompts, whether it survives the chat ending, and what it leaves in the inbox. The blind review on ORCA-PLACEMENT added three checks that the pilot must also cover: the run's directories, running without anyone at the keyboard, and authority limits, so that too much access fails as well. These are in the design note, which the line links, but the line itself does not mention them, and the evaluation's next steps still describe an attended pilot. The pilot could run without them, and then Part B's route could not be confirmed.
-
-**Query:** Should the coordinator send ki.prj.orca-evaluation a short follow-up line adding the three checks to the pilot?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; passing the nesting and survival checks alone would not show the route is safe) Send one follow-up line to ki.prj.orca-evaluation's `messages.md` naming the three checks, asking that they go into the pilot's own brief and that each be tested with both an allowed and a forbidden action, and pointing to section 3 of the design.
-
-b) Send nothing, and rely on the pilot reading the linked design note.
-
-### SYNC-UNPUSHED-EXIT - Should leaving a branch unpushed make sync report failure?
-
-since 2026-10-31 · from run/b-U5 · from stocktake · blind review 1 November
-
-**Context:** By default sync now leaves branches that are only ahead unpushed. These are counted as "skipped" but the run still finishes successfully (exit status 0), the same way sync already treats a pull or push the user declines under `-i`. Other skips, such as local changes or divergence, still make sync exit with status 1. A script that relied on sync's exit status to spot unpublished commits would now have to read the summary at the end. The decision's words say nothing about exit status, so this was the run's call, recorded in [KI-TOOL-MGIT-CLI-033](/Users/krisbrown/kis/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-033-sync-push-guard.md) for review. The review confirmed the code and its test behave this way.
-
-**Query:** Should an unpushed branch leave sync's exit status successful, as delivered?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; not pushing is now the intended default, so failing every routine run on a repository with local commits would make the exit status meaningless) Keep it as delivered, and note in the record that a successful sync no longer proves everything is published, so a script needing that runs an explicit clean-and-level check, and that a misconfigured push guard is not counted as an intentional skip.
-
-b) Make an unpushed branch fail the run (exit status 1), like the other skips, so scripts notice unpublished commits.
-
 ### CHECKSUMS-SETTLED - CAPTURE-LEAN also answers the checksum choice
 
 since 2026-11-01 · from run/capture-settled · from stocktake · blind review 1 November
@@ -249,20 +179,6 @@ since 2026-11-01 · from run/capture-settled · from stocktake · blind review 1
 a) (recommended, confidence high - reviewed; the read-back says it in so many words, and reviewers would otherwise test something already decided) Yes: a one-line follow-up marks CHECKSUMS as settled for intake captures only, quoting CAPTURE-LEAN; checksums for required original files and every other route stay as they are.
 
 b) No: leave CHECKSUMS open for the reviews.
-
-### OBS-FEEDBACK-LINE - Should the Observatory also send feedback as a message line?
-
-since 2026-10-31 · from run/listen-and-awake · from stocktake · blind review 1 November
-
-**Context:** Under FEEDBACK-AS-MESSAGE on 31 October 2026, Kris said "we can probably drop the feedback idea. We just send a message with it instead." The hand-written and steward-written feedback files were replaced. The Observatory's own feedback-sending feature still writes a separate feedback file plus a message line linking it, under its own decision, [PDR-KI-OBSERVA-007](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/decisions/PDR-KI-OBSERVA-007-feedback-returns-to-the-producing-work.md), and is owned by the Observatory work, so it was left alone and those files stay readable for now. Until the Observatory changes, the method has two routes for owner feedback.
-
-**Query:** Should this work send the Observatory work a message asking it to send feedback as a message line only, so that the separate feedback file can be retired?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; the product's own decision sets the file route, so only its owner can change it, and the request matches Kris's words) Send one line to the Observatory work's `messages.md`, asking it to move `feedback-send` to message lines that keep each comment, its quoted passage and revision and the existing confirm and undo steps, and to retire the `feedback/` kind only once the old feedback files are homed.
-
-b) Keep the Observatory's feedback file as the one exception, and retire nothing.
 
 ### WP-HEARTBEAT - Bring the Work Process note into line with the quiet watcher
 
@@ -308,20 +224,6 @@ a) (recommended, confidence high - reviewed; it matches the wording to the evide
 
 b) Keep the present wording until specific evidence shows the claimed necessity and the second-compaction cutoff.
 
-### SPLIT-COMMIT - The split was published inside another session's commit
-
-since 2026-10-31 · from run/worker-wait-split · from stocktake · blind review 1 November
-
-**Context:** The brief asked for `queries.md` to be committed alone under "docs(work): ki.prj.ways-of-working split WORKER-WAIT". Before that run committed, another session's host-sync review commit `76beec53` swept the uncommitted `queries.md` into its own commit and pushed it. The content on origin is this run's split; only the commit subject is misleading for that file. The review confirmed locally that `76beec53` changed `queries.md` and is on `origin/main`.
-
-**Query:** Is the split accepted as published under that commit, or should a marker be added?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; the content is on origin, and an empty marker commit would add no evidence) Accept it as published; the coordinator notes at its next receive, as a receive entry rather than an owner decision, that `76beec53` carries the WORKER-WAIT split.
-
-b) Add an empty commit with the brief's subject that names `76beec53` as carrying the split.
-
 ### CLOSE-BLOCKED - The two stale runs cannot close
 
 since 2026-10-31 · from run/wow-tidy · from stocktake · blind review 1 November, which found both run folders still present
@@ -335,34 +237,6 @@ since 2026-10-31 · from run/wow-tidy · from stocktake · blind review 1 Novemb
 a) (recommended, confidence high - reviewed; the close check should be met, not bypassed, and each claimed home needs checking) Run one bounded reconcile pass that records each decision's home or class with `ki agent reconcile`, checking that each claimed home really carries the decision and that no output exists only in the run folders, then retry both closes.
 
 b) Close both with `--reconciled` under an explicit owner waiver. The close note records the waiver, and the decision-home check is left to the next mark.
-
-### AGENT-HOME-IDEA - Who writes the Techné dispatch `Idea:` line
-
-since 2026-10-31 · from run/landscape-rollout · from stocktake · blind review 1 November
-
-**Context:** AGENT-HOME a) also says "Record Techné dispatch agent an `Idea:` line on Techne theme page". The [Techne theme page](/Users/krisbrown/kis/knowledge-islands/ki-principal/Streams/Themes/techne.md) has no such entry yet, and no work package's routing description claims it. Root `AGENTS.md` sends work that no package owns to State of play's `messages.md`.
-
-**Query:** Should the `Idea:` line go to ki.sop.main as a message, or should this package write it itself?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; this package does not own the theme page, and the repository names the route) Send one line to ki.sop.main's `messages.md`, recording the idea only: it authorises no remote dispatch and does not relax the Techné programme focus.
-
-b) This package's coordinator adds the line itself in a bounded run.
-
-### ORCA-REACH-VEGA - Tell ki.prj.agent-host about the `vega` launcher choice
-
-since 2026-10-31 · from run/landscape-rollout · from stocktake · blind review 1 November
-
-**Context:** ORCA-REACH a) keeps `ki agent` as the only launcher on `vega`, by choice. [ki.prj.agent-host](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.agent-host/work.md) builds and runs `vega` and is on hold. The line went only to ki.prj.orca-evaluation, which owns Orca use and keeps its own ORCA-REACH follow-up, due 6 November.
-
-**Query:** Should ki.prj.agent-host also get a line about ORCA-REACH?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; the host package owns `vega` and its `ki` dependencies) Send one ORCA-REACH line to ki.prj.agent-host's `messages.md`, for information when it resumes; it does not release the hold.
-
-b) Leave it with ki.prj.orca-evaluation only.
 
 ### WIP-PACKAGE - How many units may a package have in flight?
 
@@ -526,120 +400,6 @@ a) (recommended, confidence medium - the review picks it and it stops urgent wor
 
 b) Keep sending to the held package, as now.
 
-### QUICK-FIXES - Remove the eight duplicated parked entries here?
-
-since 2026-10-31 · from run/ideas-board · from stocktake · blind review 1 November
-
-**Context:** The proposal bundled three fixes in Knowledge Islands Principal. The review disagrees with bundling them, since each is a different kind of judgement, so they are now three queries: this one, QUICK-FIXES-LIFECYCLE and QUICK-FIXES-FOLDER. Here, this package's Parked section lists HOMES, EXECUTION, HOST, DISPLAY, THEME, ROUTING, SIGNAL and RESTART twice: once as one-line entries and again as full blocks with their options, which hold everything the one-line entries say.
-
-**Query:** Should the eight one-line entries be removed, keeping the full blocks?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed and checked directly; the full blocks hold all of each one-line entry) Yes, in one small commit.
-
-b) Leave both copies until the Parked sections are sorted under PARKED-TO-IDEAS.
-
-### QUICK-FIXES-LIFECYCLE - Change nine Project pages' lifecycles?
-
-since 2026-11-01 · from the blind review of QUICK-FIXES
-
-**Context:** Nine Project pages have a `lifecycle` that disagrees with their package: seven say `active` while their package is on hold, and two say `active` with no package. The proposal was to set the seven to `paused` and the two to `planned`. The review disagrees: a Project's lifecycle is separate from its package's state, and the registry standard requires a paused Project to carry a release condition and a review date.
-
-**Query:** Should the nine Project pages' lifecycles be changed together?
-
-**Options:**
-
-a) (recommended, confidence medium - review disagrees; it removes a visible contradiction, but a held package does not by itself decide a Project's lifecycle) Yes: set the seven to `paused`, each with its package's release condition and a review date, and the two to `planned`, as one bounded change you approve.
-
-b) Put each of the nine to you with its current state, and change only those you confirm (the review's pick).
-
-c) Leave them until the wider rollout after the standards change.
-
-### QUICK-FIXES-FOLDER - Close out the finished Knowledge acquisition folder
-
-since 2026-11-01 · from the blind review of QUICK-FIXES
-
-**Context:** The finished Knowledge acquisition package folder is still present; Git keeps its history. On 1 November you chose FINISHED-TIDY-KICK a): at a mark you authorise, State of play checks that a finished folder's decisions and facts are homed, its design resolved, its findings settled, and that no query, message or run is open, then archives its runs and deletes the folder in one commit, and otherwise deletes nothing and asks. The review found this folder's last mark came before it finished, so it has not yet had that check.
-
-**Query:** Should the Knowledge acquisition folder go through that finished-folder close-out rather than be removed directly?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; it uses the checked close-out you chose and deletes nothing unless the checks pass) Yes: send State of play one line asking it to close the folder out at its next mark under FINISHED-TIDY-KICK.
-
-b) Remove the folder directly in one small run now.
-
-### DONE-PRUNE - Prune the three finished harness records?
-
-since 2026-10-31 · from run/ideas-board · from stocktake · blind review 1 November
-
-**Context:** Seven records are done and accepted but still on their roadmaps; pruning removes a record's file from its roadmap, and Git keeps it. Pruning is yours to approve. The review confirmed all seven have status done and an acceptance statement, but that is only the start of the prune checks: the procedure also needs the closing commits, any trade release and a check that nothing else still links to the record, and none of those has been run. Split by repository, this part covers the KI Agentic Harness records [KI-HARNESS-GOV-232](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-232-any-package-coordination.md), [KI-HARNESS-GOV-233](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-233-typed-work-naming-readers.md) and [KI-HARNESS-GOV-234](/Users/krisbrown/kis/knowledge-islands/ki-agentic-harness/docs/roadmap/KI-HARNESS-GOV-234-footer-markdown-writers.md); DONE-PRUNE-TOOLS-KI and DONE-PRUNE-OBSERVATORY cover the rest.
-
-**Query:** Should the three harness records be pruned?
-
-**Options:**
-
-a) (recommended, confidence medium - reviewed; they are done and accepted, but the full prune checks have not been run and a prune deletes) Yes, through `ki-accept`'s prune once its full checks pass in the harness; any link to repair elsewhere goes as a message line to its owner.
-
-b) Leave them until the harness work's next mark.
-
-### DONE-PRUNE-TOOLS-KI - Prune the three finished tools-ki records?
-
-since 2026-11-01 · from the blind review of DONE-PRUNE
-
-**Context:** Three tools-ki records are done and accepted but still on its roadmap: [KI-TOOL-KI-CLI-173](/Users/krisbrown/kis/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-173-regular-coordination-readers.md), [KI-TOOL-KI-CLI-174](/Users/krisbrown/kis/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-174-typed-work-naming-readers.md) and [KI-TOOL-KI-CLI-175](/Users/krisbrown/kis/knowledge-islands/tools-ki/docs/roadmap/KI-TOOL-KI-CLI-175-footer-markdown-writers.md). The review confirmed each is done with an acceptance statement; the closing commits, trade release and links check have not been run.
-
-**Query:** Should the three tools-ki records be pruned?
-
-**Options:**
-
-a) (recommended, confidence medium - reviewed; they are done and accepted, but the full prune checks have not been run and a prune deletes) Yes, through `ki-accept`'s prune once its full checks pass in tools-ki; any link to repair elsewhere goes as a message line to its owner.
-
-b) Leave them until the tools-ki work's next mark.
-
-### DONE-PRUNE-OBSERVATORY - Prune the finished Observatory record?
-
-since 2026-11-01 · from the blind review of DONE-PRUNE
-
-**Context:** [KI-OBSERVA-BRG-004](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-004-turn-feedback-sending-on.md) is done and accepted but still on the Observatory's roadmap. The review confirmed its status and acceptance statement; the closing commits, trade release and links check have not been run. It also carries one of the two broken `roadmap-sweep` links under SWEEP-NOTE-LINKS.
-
-**Query:** Should the Observatory record be pruned?
-
-**Options:**
-
-a) (recommended, confidence medium - reviewed; it is done and accepted, but the full prune checks have not been run and a prune deletes) Yes, through `ki-accept`'s prune once its full checks pass in the Observatory.
-
-b) Leave it until the Observatory work's next mark.
-
-### PRINCIPAL-READOPT - Whether the 22 records that left adoption are re-adopted
-
-since before 25 October 2026 · from run/fields-personal-principal · from stocktake · blind review 1 November · proposed to close: two of the five are already adopted and the other three were cancelled and pruned in Personal Principal commit `adbb2130`
-
-**Context:** The question was whether to re-adopt five date-bound Personal Principal records that had moved into triage, leaving 17 others there. The review found it already settled: Halloween, [PERSONAL-PRINCIPAL-019](/Users/krisbrown/kis/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-019-plan-halloween-activity.md), is `draft` at Now and Lauren's birthday, [PERSONAL-PRINCIPAL-024](/Users/krisbrown/kis/personal/personal-principal/Streams/Roadmap/PERSONAL-PRINCIPAL-024-plan-laurens-birthday.md), is `draft` at Next; the half-term break, railway tickets and October birthday records were cancelled and then pruned; Personal's roadmap now holds 21 records, all `draft` with a horizon and none in triage. Halloween's date has now passed.
-
-**Query:** Should this query be closed as superseded?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; the records show it directly) Close it as superseded, and send Personal's State of play one line saying that the Halloween record's date has passed.
-
-b) Keep it open.
-
-### PRINCIPAL-KIND-SIZE - Confirming the proposed kind and size
-
-since before 25 October 2026 · from run/fields-personal-principal · from stocktake · blind review 1 November · proposed to close: every surviving Personal Principal record already has a size, and only four lack a kind
-
-**Context:** The batch proposed a kind for 6 adopted records and 26 triage records and a size for 33 records in Personal Principal. The review found it superseded: all 21 surviving records already have a size, and only four lack a kind. That remaining gap is PERSONAL-KINDS.
-
-**Query:** Should this batch be closed as superseded?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; a direct scan of the current records shows only four kinds missing) Close it as superseded, leaving the four missing kinds to PERSONAL-KINDS.
-
-b) Keep it open.
-
 ### PERSONAL-KINDS - Four Personal records have no kind
 
 since 2026-11-01 · from the blind review of PRINCIPAL-KIND-SIZE
@@ -668,64 +428,6 @@ a) (recommended, confidence high - reviewed; the before and after audits gave th
 
 b) Fold it into the next harness release run, and carry on with the front-matter scans meanwhile.
 
-### Z-FILES - Keep the two Z files uncommitted
-
-since 2026-11-01 · from run/wow-cleanup · blind review 1 November
-
-**Context:** The brief asked for every never-committed report, including those in `reports/`, to be committed first. Only two such files are in `reports/`: `hold-request-20261030-z.md` and `z-session-retirement-20261030.md`, about retiring the Z session. The stock-take said to keep them out of any commit until PUBLIC-REPORT-AUDIENCE and PUBLIC-REPORT-RECOVERY are settled. Both were answered "a" on 1 November and wait for Kris to name the permitted audience and a private destination. Committing and pushing them would publish them to GitHub. The review confirmed both exist and are untracked, and noted that `reports/` is no longer ignored by Git here, so a broad `git add` or a later report sweep could pick them up by accident; and that leaving them uncommitted keeps them private but is not a backup, which waits on the private destination.
-
-**Query:** Should the two Z files stay uncommitted until the public-report questions are settled?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; pushing them would publish material whose audience Kris has not yet named, and leaving them as they are changes nothing) Keep them uncommitted, name them as an exception in every report sweep's brief, and dispose of them as PUBLIC-REPORT-AUDIENCE and PUBLIC-REPORT-RECOVERY decide once settled.
-
-b) Commit them into `reports/` now, so Git keeps a copy, and accept that they become public.
-
-### SWEEP-NOTE-LINKS - Tell two roadmap records where `roadmap-sweep` went
-
-since 2026-11-01 · from run/wow-cleanup · blind review 1 November
-
-**Context:** Two records outside this package link to `design/roadmap-sweep.md`, which was deleted as superseded: [KI-OBSERVA-BRG-004](/Users/krisbrown/kis/knowledge-islands/apps-observatory.local/docs/roadmap/KI-OBSERVA-BRG-004-turn-feedback-sending-on.md) (line 89) and [KI-TOOL-RIG-CORE-070](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-070-handler-read-back-after-confirmation.md) (line 90). Both links were already broken before the deletion, because they use the old `~/workspaces/.../ki.ways-of-working/` path. The note's last version is in Git at `f8c70a30`, which the review confirmed locally. KI-OBSERVA-BRG-004 is also proposed for pruning under DONE-PRUNE-OBSERVATORY.
-
-**Query:** Should the owning works be told the note's pinned link?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; both broken links and the pinned version are confirmed, and one message line each lets the owners decide) Send one line to the `messages.md` of the Observatory work and of the work that owns Rig's roadmap, confirmed before sending, giving the pinned link `https://github.com/knowledgeislands/ki-principal/blob/f8c70a3000cdd7a531811ffe363884489eda0e50/+/_WORK/ki.prj.ways-of-working/design/roadmap-sweep.md`.
-
-b) Leave them, since both links were already broken and the records are finished.
-
-### PAPERCLIP-RETIRE - What to do with the Paperclip skill now it is not in use
-
-since 2026-11-01 · from PAPERCLIP-DORMANT · blind review 1 November
-
-**Context:** On 1 November Kris said Paperclip is "pretty much abandoned ... not in active use ... it would need to be considered in a lot more detail to bring it back into play". Earlier the same night the skill was renamed `ki-delegation-paperclip` (harness `8a9f7409`), with an alias so the 54 repositories that still declare `ki-agent-coordination-paperclip` keep resolving; the alias's audit warns in each of them, and three repositories already declare the new name. A rollout to change those 54 declarations was sent to State of play and is now held. The review found that marking the skill dormant does not switch off the harness's standing Paperclip delivery grant, now PAPERCLIP-GRANT.
-
-**Query:** What should happen to the Paperclip skill and the 54 declarations?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; it stops the noise and the churn while keeping everything recoverable for a later, fuller design) Mark the skill dormant in the harness (its description says it is not in use and needs fresh design before use), quiet only the alias's rename warning, withdraw the held rollout line from State of play, and let each repository, including the three already on the new name, drop the declaration whenever it next conforms.
-
-b) Retire it now: remove the skill and the alias from the harness and the declaration from all 54 repositories in one sweep; Git keeps it for a later revival.
-
-c) Leave it as renamed and continue the rollout to the 54 repositories.
-
-### PAPERCLIP-GRANT - Suspend the harness's standing Paperclip delivery grant?
-
-since 2026-11-01 · from the blind review of PAPERCLIP-RETIRE
-
-**Context:** The KI Agentic Harness's `AGENTS.md` has a "Paperclip local delivery" section that still selects Paperclip delivery for the harness: Wright implements, Steward reviews and Convenor integrates into local `main`. On 1 November Kris said Paperclip is "not in active use" and would need much more design to come back. The review pointed out that marking the skill dormant leaves this standing authority in place.
-
-**Query:** Should that section be marked suspended while Paperclip is dormant?
-
-**Options:**
-
-a) (recommended, confidence high - checked directly in the harness's `AGENTS.md`; suspending only narrows authority and is easily undone) Yes: a harness run marks the section suspended, citing Kris's 1 November words and keeping its text as the record of the choice; it grants nothing until a fresh design revives it.
-
-b) Leave the section as it is, since nothing runs under it.
-
 ### CLOSE-GATE - The finished runs cannot be closed one at a time
 
 since 2026-11-01 · from run/wow-tidy-4 · blind review 1 November 05:36 GMT agrees
@@ -739,20 +441,6 @@ since 2026-11-01 · from run/wow-tidy-4 · blind review 1 November 05:36 GMT agr
 a) (recommended, confidence high - reviewed; the gate is clear about what it needs; how much decision-homing work Kris wants is not) Leave the group open for now. When the live runs finish, a bounded run empties the spent temporary folders, then homes or classes the 79 decisions with `ki agent reconcile`, and runs the strict close once Z-FILES is settled.
 
 b) Leave the group open until the Project closes, and accept that its state folder keeps growing in the meantime.
-
-### AGENDA-SHAPE - What to do with the AGENDA block in queries.md
-
-since 2026-11-01 · from run/wow-lint · blind review 1 November 05:36 GMT agrees
-
-**Context:** queries.md starts with an AGENDA entry that groups the open queries into an order for discussion. Under the work-package schema, every heading in queries.md has to be a query with Context, Query and Options, so the audit fails on AGENDA. The file also has an Answered section, and the schema allows only Open and Parked.
-
-**Query:** Should the agenda move out of queries.md, and should the answered queries be cleared at the coordinator's next tidy?
-
-**Options:**
-
-a) (recommended, confidence high - reviewed; this keeps the agenda and follows the existing tidy rule) Move the agenda into state.md's next steps, and clear the Answered section at the next tidy once each answer is in the decisions log.
-
-b) Keep both where they are and accept the audit failures until the query pass ends.
 
 ### DUE-FIELD - Add an optional due date to roadmap records
 
@@ -1094,20 +782,6 @@ a) (recommended, confidence high - Kris's LAYOUT-PILLARS words set the position 
 
 b) Accept Focus either at the top or after Scope, with no warning.
 
-### Z-FILES-HOME - Where the two Z files go
-
-since 2026-11-02 · from run/wow-tidy-5
-
-**Context:** `reports/` still holds `hold-request-20261030-z.md` and `z-session-retirement-20261030.md`. They have never been committed. The open query Z-FILES in [discussions.md](/Users/krisbrown/kis/knowledge-islands/ki-principal/+/_WORK/ki.prj.ways-of-working/discussions.md) says to keep them out of any commit until the public-report questions are settled. The brief asked to move live material into a focus folder with `git mv`, but that would commit them. So I left them where they are, and the audit's one failure for this package remains until they move.
-
-**Query:** Should the two Z files move, uncommitted, into `package-layout/` so that `reports/` can be removed now?
-
-**Options:**
-
-a) (recommended, confidence medium - this clears the audit and keeps Z-FILES's no-commit rule, but it changes the path that Z-FILES names) A small run moves them with a plain `mv` into `package-layout/`, removes `reports/`, and updates the path in Z-FILES.
-
-b) Leave them in `reports/` until Z-FILES is answered.
-
 ### GRANOLA-COUNT - Granola's meeting list no longer gives a screenshot count
 
 since 2026-11-02 · from run/granola-transport · blind review 2 November agrees
@@ -1139,7 +813,6 @@ c) Leave the importer as it is and ask Granola whether `screenshot_count` is com
 - SIGNAL - No reviewed source proves universal telemetry. Package timestamps cannot supply session age. Useful partial evidence can coexist with explicitly unknown signals. Recommended: a) (confidence high - useful without fabricating counters or adding package state) Append evidenced elapsed wall-clock age and user/assistant message volume after `🧵 <id>` on the same final thread line, with coverage, provenance and observation time; preserve stable identity, epoch/reset rules, unknown/stale labels and no new persistent telemetry store. Keep the current footer unchanged until adoption and compatible reader migration.
 - RESTART - The owner requested threshold-triggered advice. The masked review independently supports the same reversible four-hour/100-message convention with medium confidence in workflow fit and low confidence in the particular values. No evidence validates degradation prediction or numerical superiority. Existing pick-up defines safe continuation. Recommended: a) (confidence medium - reviewed workflow fit; numerical values unvalidated; fulfils the requested reminder through an explicitly unvalidated, reversible convention) Use four elapsed hours or 100 evidenced user/assistant messages, with a qualifying usable observation making one reminder pending per current session for the next existing safe resumable boundary. Unknown/stale evidence cannot establish a crossing; label partial coverage. The owner may continue and may request safe continuation earlier. No automatic restart, repeat or escalation; no implementation, pilot or study authority follows.
 - STATE-MACHINE-DECISIONS - Open choices remain in [work-state-machine.md](work-model/work-state-machine.md). Recommended: settle them with the rollout.
-- FOLDER-MIGRATE - This package has been tidied and its root reports moved losslessly into reports/; the wider migration remains open. Recommended: a) tidy, then git mv per package.
 
 Terra portability questions below are deferred pending the owner's forthcoming movement/handover update. No option is selected and no Terra drain completion is claimed.
 
@@ -1180,22 +853,14 @@ a) (recommended, confidence high - preserves retention without disclosure) Have 
 b) Leave recovery location/durability unknown and the drain incomplete.
 
 - PACKAGE-FORWARDING - PKG-POINTER original request preserved at bcb3c1a3:+/_WORK/ki.ways-of-working/messages.md and the Principal enactment report. Owner approved one authoritative package and a Capital discovery reference; principal-only message forwarding remains separate design before any relay or second queue is built.
-- PERM-PROMPTS-SETTINGS - whether to change the chezmoi-managed permission settings; Kris, 25 October: "can we come back to it later?". Recommended: not now, revisit if Kris leaves bypass mode.
 - STEWARD-FIELD - where a package records who looks after it; reviews disagree, the harness carries the model with a marked placeholder and the Valle Armonia pilot runs on `worker` as it is. Recommended: a new dedicated field taking `work/<id>` values only. Parked under the 27 October bulk reading; comes back if the pilot needs it.
 - LEGACY-PREFIX - whether a `repo_code` rename stays a one-sweep change; renames are rare and Personal's runs as one sweep, while an allowance costs two checkers and tools-ki. Recommended: write the one-sweep rename into `ki-work-roadmap`. Parked under the 27 October bulk reading; comes back at the next rename.
 - PARTIAL-REPOS - how a repository with only Pillars and Resources fits the model; Kris's own words defer it and HNR's tracked-notes workaround holds. Recommended: record the idea on the Ways of working Project note and open a `ki-work-design` brief when Kris takes it up. Parked under the 27 October bulk reading; comes back when Kris opens it.
 - UNATTENDED-FIELD - recording unattended eligibility on records; a new record field with reviews disagreeing while the roadmap is cut to next to nothing. Recommended: adopt the optional `unattended` mapping and criteria. Parked under the 27 October bulk reading; comes back if a window plan needs it.
 - UNATTENDED-AND-DUE-DATES - adopting the eight criteria as the unattended assessment; the due-date half is done and the criteria stay Personal's prototype. Recommended: adopt the criteria in `ki-delegation`, leaving UNATTENDED-FIELD to decide where the verdict is recorded. Parked under the 27 October bulk reading; comes back with UNATTENDED-FIELD.
 - CLI-PREVIEW - whether public state-changing commands write by default and preview with `--dry-run`; a fleet-wide tool convention while tools are not ready and releases are deprioritised. Recommended: write by default, `--dry-run` and `-n` preview, both standards reconciled first and each tool changed through its own work. Parked under the 27 October bulk reading; comes back when a repair command is next touched.
-- MGIT-CACHE-SCOPE - what to build first for the mgit cache; Kris asked for the concept in plain language first, and the design note keeps the six routes. Recommended: `--repos-from` with `--to-cache` and `--from-cache` in one record, `sync --push-only` and `--pull-only` in a second. Parked under the 27 October bulk reading; comes back when Kris wants the cache built.
-- MGIT-CACHE-FAILED - whether a checkout the sweep failed on goes into the cached set; same feature as MGIT-CACHE-SCOPE. Recommended: exclude them, keep their names and count as diagnostics, and warn on every `--from-cache` that the selection is incomplete. Parked under the 27 October bulk reading; comes back with MGIT-CACHE-SCOPE.
-- RECORD-2 - work-package schema failures in thirteen folders; forty judgement fixes across live packages with reviews disagreeing on who makes them, and the full audit now runs only in CI. Recommended: one run per territory sweep, read-back of every changed field. Parked under the 27 October bulk reading; comes back when the work-package standard settles or a package is next tidied.
-- FOLDER-1 - extras in two work folders; a rename of nine old reports and a script's home, with the review finding the counts wrong. Recommended: rename the nine to `<name>.report.md`, move `adobe-remove.sh` beside its design note and `spec-sched.brief.md` to `briefs/`. Parked under the 27 October bulk reading; comes back when those packages are next tidied.
-- COORD-7-REST - fifty-one identifiers in reports with no local target; a known floor in old run reports that marks will prune, and fixing it needs a fetch and a rewrite run. Recommended: authorise the fetch of the two personal checkouts, write pruned links and rewrite the 25 tag-like identifiers. Parked under the 27 October bulk reading; comes back if the reports survive pruning.
 - LINT-WHERE - where generated Markdown gets linted; the check-only staged hook of 26 October stops a bad report at commit with CI the backstop, and a generator check is extra machinery. Recommended: check-only in the generator, after FORM-VS-RUMDL. Parked under the 27 October bulk reading; comes back if bad reports still reach `+/_WORK`.
 - MISSING-TOOLS - installing the missing hook tools in three package repositories; the recommendation is itself to wait, and installing would add new software. Recommended: leave them until the second convergence and bring any needed tool to Kris as its own decision. Parked under the 27 October bulk reading; comes back at that convergence.
-- REL-X64-TIMEOUT - local timeout-only repair delivered and verified; release and pin work stays deferred until Kris explicitly reopens releases, under the current local-tools/no-release instruction.
-- MIRROR-TOKEN - the Notion integration token and 1Password item behind the retired mirror; taken under the 27 October bulk reading, but the action is Kris's own and needs Notion and a credential change, both outside the window's limits. Recommended: revoke the integration in Notion and delete the 1Password item after `chezmoi apply` removes the last reference, finishing any HNR Notion page removal first. Parked for Kris to do at the machine.
 
 ### RIG-ATTENDED - Existing Rig attended prerequisites
 
@@ -1210,22 +875,6 @@ since 2026-10-27 · from run/wow-rig-remainder; parked until Kris is available f
 a) (recommended, confidence high - preserves the plans' explicit gates) Arrange the existing attended checks and record the existing owner answers before another bounded delivery run.
 
 b) Leave both drafts parked until those prerequisites are available.
-
-### ANSWER-VECTOR - whether the first slice writes the answer line itself or waits for a `ki work answer` command
-
-**Parked:** Parked with ki.observatory, which owns the feature and redesign. Release when its steward or the owner returns a route decision; neither option is selected here.
-
-**Context:** The proposal's first slice has the Observatory compose the `messages.md` line and commit it through its own declared file effect, the path `feedback-send` already implements and tests, so the slice needs no tools-ki change. The Observatory's contract prefers consuming stable `ki` commands over duplicating work semantics, and a `ki work answer <id> <TAG> --option a --note "..."` command would make the line's shape one tool's and give the Observatory an argument vector instead. Waiting for it adds a tools-ki unit and a pin before anything can be answered in the Observatory; building the file effect first means a later swap to the command.
-
-The review also found that the `ki-work-package` entry points let the owner, through the Observatory, commit a feedback package with its linking message, but grant no standalone answer-line write, so either option needs that authority written into the standard; sending stays off (`FEEDBACK_SENDING` false, KI-OBSERVA-BRG-004 delivered and Awaiting review pending its audit).
-
-**Query:** Should the first slice write the line through the Observatory's own file effect, with the `ki work answer` command as a later record, rather than wait for the command?
-
-**Options:**
-
-a) (recommended, confidence medium - the file effect and its gate exist and are tested, and the swap later is one operation's vector, but the Observatory's own contract leans the other way) Build the first slice on the existing file effect; capture `ki work answer` and `ki work queries` for tools-ki as a later message and the Observatory's KI-OBSERVA-INT-005.
-
-b) (blind review's pick, confidence medium - putting answer validation, the line's shape and the repository effect in one tools-ki command avoids a temporary second implementation; the feedback effect proves the mechanism, not an answer contract) Wait for tools-ki to provide `ki work answer`, and have the Observatory's first slice declare it as its vector from the start.
 
 ### AREA-COLUMN - publish the existing area reading aid?
 
@@ -1244,20 +893,6 @@ b) (blind review's pick, confidence medium - putting answer validation, the line
 a) (recommended, confidence high - reuses the existing model and removes generator-code coupling, with the contract change explicit) Approve that bounded publication extension, then qualify exact harness generator/contract/test paths and the website parser/provenance companion paths. Use local immutable commits and local sync; no release cycle.
 
 b) Retain the diagram-only publication boundary and the current finder/parser coupling; deliver only the independently qualified units above.
-
-### HOST-SYNC - Settle the two-host synchronisation design
-
-since 2026-10-28; parked until owner design discussion, source HOST-SYNC and HOST-SYNC-REPLY · proposed to close under HOST-SYNC-CLOSE.
-
-**Context:** Full received owner words, stopped-sync context, unresolved primary/secondary publication sequence and both Rig reply destinations are in [the live unadopted design](host-sync/host-sync-and-reply-trades.md). Existing seat policy does not select concurrency, timing or a scheduler.
-
-**Query:** Which primary/secondary publication sequence and offset should the equivalent Rig work use, including how primary hosts consume secondary updates?
-
-**Options:**
-
-a) (recommended, confidence medium - preserves the full request without inventing concurrency or scheduling authority) Discuss and settle the existing design choices, then send one bounded rollout line to each Rig queue; Rig and chezmoi own execution.
-
-b) Keep the design parked and leave existing host operations to their owners; no new scheduler or host action is authorised here.
 
 ### STREAM9-SHA - Define the bare SHA-256 boundary
 
@@ -1330,9 +965,7 @@ a) (recommended, confidence high - uses the existing supported route and preserv
 b) Qualify a bounded own-content-only retry for disjoint append races before adoption; the sender's five-attempt count remains a proposal and cannot override divergence, privacy or narrower push rules.
 
 - PROTECTED-PUBLICATION - the current unpublished Principal stack has two protected report blob versions in the existing private safe-sync inventory. Owning Observatory has an IMPORTANT disposition request before any push; preserve peer work/history and infer no publication certification. This remains separate from the earlier remotely exposed report-history audience query.
-- MD-STANDARD-REMAINDER - local writer/exclusion and staged-gate evidence is independently accepted Done in CLI-175; the HNR hook-bypass cause, global historical cleanliness and other-host/provider freshness are still unproved. HNR source/access remains excluded; no estate audit is commissioned. Revisit only under the owning source/access authority.
 - ENACTMENT-ADMIN - the 20 October tiered/Admin-only gate-narrowing choice remains unmade; retain the current gate. Full original decision is retained in decisions.md.
-- PROXY-SHAPER - Kris deferred this on 25 October; no proxy or chezmoi change. Full original owner words remain in decisions.md; revisit only when taken up.
 
 ### HOMES - Repository identity and defaults
 
