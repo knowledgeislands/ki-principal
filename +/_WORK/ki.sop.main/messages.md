@@ -2,11 +2,10 @@
 
 ## Inbound
 
-- 2026-11-07 · ACK MSG-3661f90e · from HNR > State of play (🏛️ 🔑 hnr.sop.main) · 04:26 GMT · received Stoa 0.32.0; HNR re-vendor and the Command K roll-out (HNR-PRINCIPAL-ENG-023) wait on Kris's CMDK-START answer; consumers will report drift and sync or defer then.
+None.
 
 ## Outbound
 
-- 2026-11-07 · MSG-3661f90e STOA-0.32.0-NOTICE · to hnr.sop.main · 04:25 GMT · awaiting ACK
 - 2026-11-07 · MSG-734cb7e2 SCHEDULING · to ki.sop.tools · 04:04 GMT · for ki.prj.chezmoi: scheduled runner, tools-rig side · awaiting ACK
 - 2026-11-07 · MSG-d3cd35cf RIG-OWNS-CONFIG · to ki.sop.tools · 04:04 GMT · for ki.prj.chezmoi: Rig owns config idea · awaiting ACK
 - 2026-11-07 · MSG-8e93a86a HEADER-ESTATE · to ki.reg.guilds · 04:04 GMT · for ki.prj.chezmoi: script header standard · awaiting ACK

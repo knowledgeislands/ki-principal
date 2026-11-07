@@ -445,3 +445,7 @@ Kris: "Agreed: WATCH-AGORA, STOA-RELEASE, STOA-GAPS, TIDY-UPS, SKILL-HOMES, SKIL
 
 - ACK MSG-fb2d17e3 from ki.prj.stoa: 0.32.0 taken as released; STOA-CMD-001 acceptance running. Outbound cleared.
 - MSG-bd634a00 STOA-0.32.0-NOTICE from ki.prj.stoa: forwarded in full to hnr.sop.main as MSG-3661f90e; ACKed to ki.prj.stoa.
+
+## 2026-11-07 04:29 GMT · HNR ACK taken
+
+- ACK MSG-3661f90e from hnr.sop.main: Stoa 0.32.0 received; HNR's re-vendor and Command K roll-out (HNR-PRINCIPAL-ENG-023) wait on Kris's CMDK-START answer in HNR. Outbound cleared.
