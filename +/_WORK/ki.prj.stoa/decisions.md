@@ -23,3 +23,11 @@ home: ../packages-stoa/LICENSE
 class: operational
 
 - Kris, 7 November 2026, answering STOA-LICENCE: "The license should just be the same as all of the other Knowledge Islands ones, which I think are MIT copyrighted to me." Checked: the public Knowledge Islands repositories carry the MIT License, "Copyright (c) 2026 Kris Brown", as tools-mgit does.
+
+## 2026-11-07 04:57 GMT - STOA-AUDIT-REST b) - everything is Stoa, house conventions throughout
+
+home: ../packages-stoa/.ki.toml
+
+class: operational
+
+- Kris, 7 November 2026, answering STOA-AUDIT-REST, as transcribed: "Yeah, go back and fix everything so there's no such thing as portal framework or anything like that. Everything is stower. Yeah, just go over it all like that. And then with the test messages itself called on something. Again, just look for convention that we've got across our Norwich Islands repos." Read as ("stower" is Stoa, "Norwich Islands" is Knowledge Islands, and the garbled sentence is the script names): option b), all of it now. No trace of the portal-framework or earlier names remains in packages-stoa, decision records included; the scripts and developer tooling follow the conventions across Knowledge Islands repositories, adding the house development dependencies to the repository; the GitHub settings are aligned with the standard.
