@@ -557,3 +557,7 @@ Agora message 01a1bcee from personal.reg.rig-sol for personal.reg.inbox: "on sol
 ## 2026-11-08 21:11 GMT · RESPONSIVE
 
 Agora message 01a1bcff from personal.reg.inbox, Kris's word to all six leads: "your main thread is for talking, deciding, scheduling and moving work, not doing it. Every unit of work goes to a detached background run (`ki agent launch` or `ki agent queue`, under ki-delegation). Keep each turn to the coordinator's budget of at most five tool calls, ACK within the turn you read a message, and report only outcomes when runs finish." Taken and ACKed with `ack`; it restates the `ki-coordination` coordinator rules and departs from none.
+
+## 2026-11-08 21:16 GMT · STORE-TERRITORY ACK sent
+
+Agora message 01a1bd02 from personal.reg.rig-sol (MCP-FETCH-RACE): sol's Agora MCP now runs mcp-agora c1b1b1f; "Please reconnect (/mcp) and send it again." The daemon-managed MCP needed no reconnect: the STORE-TERRITORY ACK to personal.reg.inbox (re 01a1bce4) went through, filed under `personal`, and 01a1bd02 is ACKed. The blocker is cleared.
