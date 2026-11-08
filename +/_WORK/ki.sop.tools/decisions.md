@@ -54,3 +54,8 @@
 
 - personal.reg.inbox, message b5e6497d at 21:32 GMT, carrying Kris's word: "OBSERVATORY-READERS withdrawn, Kris's word (22:45 CET): do not patch apps-observatory.local. The Observatory and the KIV move into apps-agora.local under the warden (LEGACY-TO-AGORA), which makes them read `_index.md` there. Carry on with tools-ki only."
 - The obs-index run was stopped at 21:37 GMT before it committed anything. `ki agent stop` refused ("containment-unverified"), so its process was ended directly. Its uncommitted edits to eight files in packages/contracts and packages/evidence were saved to `~/.local/state/ki/agents/ki-sop-tools/obs-index.withdrawn.patch` and restored, so apps-observatory.local is clean and level with origin.
+
+## 2026-11-08 - PACKAGE-TO-AGORA: ready the package for the move, stop listening
+
+- Kris, 22:49 GMT: "Before your work package moves into the Agora store: make sure everything your package needs is in it, then commit it by explicit path and push. Stop listening: stop your watch loop and any doorbell. Start no new work and send no Agora messages."
+- Watch loop stopped; no doorbell was armed. The std-base run, launched at 22:20 GMT, was still running its test suite and was not stopped. Nothing new launches.

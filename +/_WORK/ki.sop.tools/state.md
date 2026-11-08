@@ -9,7 +9,7 @@ mark: null
 host: sol
 workers: []
 listening_enabled: true
-listening_status: on
+listening_status: off
 syncing_enabled: false
 syncing_status: off
 ---
@@ -18,7 +18,10 @@ syncing_status: off
 
 ## Now
 
-- Reset on 8 November (RESET-PARK): everything before is parked; acting only on Kris and the six reset sessions, with personal.reg.inbox coordinating. Listening on the Agora store for `messages/ki/ki.sop.tools/`. Nothing runs.
+- Reset on 8 November (RESET-PARK): everything before is parked; acting only on Kris and the six reset sessions, with personal.reg.inbox coordinating. Messaging is through the Agora store via the Agora MCP.
+- Listening stopped at 22:49 GMT for the package's move into the Agora store (PACKAGE-TO-AGORA); no new work starts and no Agora message goes out until Kris says.
+- Running: std-base in tools-ki (run packet `~/.local/state/ki/agents/ki-sop-tools/std-base.*`, brief `std-base/check.brief.md`), launched 22:20 GMT, at 22:48 GMT running the full test suite. On its report, reply to ki.reg.guilds (brief 01a1bcff) with the commit.
+- Done: tools-rig and the coordinator-footer hook need no `_index.md` change; tools-ki's `_index.md` read landed by ki.reg.guilds in b537df2e; mcp-agora is the warden's; OBSERVATORY-READERS was withdrawn and its run stopped, its edits kept at `~/.local/state/ki/agents/ki-sop-tools/obs-index.withdrawn.patch`.
 
 ## Queue
 
@@ -27,8 +30,9 @@ syncing_status: off
 
 ## Next steps
 
-1. INDEX-ENTRY: tools-rig and the hook need no change; mcp-agora is with the warden. When tools-index reports, finish tools-ki; reply to personal.reg.inbox with what landed and where.
-2. Act on Agora messages from Kris or the six reset sessions as they land; park anything else.
+1. When Kris resumes: re-arm the Agora watch (fetch and compare origin/main only, WATCH-FETCH) at the package's new home.
+2. Receive std-base; reply to ki.reg.guilds with its commit.
+3. INDEX-ENTRY tools-ki: wait for ki.reg.guilds's account of what tools-index covered and whether the installed ki needs a reinstall; finish what's left; then reply to personal.reg.inbox (brief 01a1bcf0) with what landed and where. Any release goes to Kris.
 
 ## Held
 
