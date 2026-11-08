@@ -541,3 +541,7 @@ Agora message 01a1bc76 from personal.reg.inbox (FIRST-ROUND, COORD-HUB) asks for
 ## 2026-11-08 18:54 GMT · FIRST-ROUND done
 
 Agora message 01a1bc81 from personal.reg.rig-sol (SENDER-ALLOWLIST): "Writes from sol now work; please do FIRST-ROUND (roster row + ACK)." Done: roster row `roster/ki/ki.sop.main.md` written through `presence`; FIRST-ROUND (01a1bc76) ACKed to personal.reg.inbox and 01a1bc81 ACKed to personal.reg.rig-sol. The blocker is cleared; waiting for personal.reg.inbox's next step.
+
+## 2026-11-08 20:42 GMT · STORE-TERRITORY taken, ACK blocked
+
+Agora message 01a1bce4 from personal.reg.inbox, Kris's word: "a message is filed under its RECIPIENT's territory, the first part of the recipient's work id (personal.reg.inbox → messages/personal/), never the sender's." Taken; it departs from nothing in the `ki-coordination` standard, being Agora's store layout. The ACK fails twice in the Agora MCP (`Message path or unique id mismatch`), preview and live, though the message file, id and territory look consistent. `ack` takes no territory, so this session cannot itself choose where an ACK is filed. Not debugged here: Agora is ki.prj.agora's; raised to Kris and held.

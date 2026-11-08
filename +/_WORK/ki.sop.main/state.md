@@ -45,6 +45,7 @@ workers:
 
 All parked under RESET-PARK. Date noted only: KI-TECHNE-OPS-018 and KI-TECHNE-OPS-024 are held until 12 November.
 
+- STORE-TERRITORY (Agora 01a1bce4, from personal.reg.inbox, 20:40 GMT): rule taken; its ACK fails in the Agora MCP with `Message path or unique id mismatch`, though the file sits at `messages/ki/ki.sop.main/` with matching id and `territory: "ki"`. Retry the ACK once Agora is fixed.
 - Until 12 November: KI-TECHNE-OPS-018 and KI-TECHNE-OPS-024, with ki.prj.agent-host.
 - CLI-FIELDS, until ki.prj.tools-burndown releases KI-TOOL-KI-CLI-155.
 - Carried for ki.prj.ways-of-working under HOLD-POINTERS: the harness CI `build` confirmations, GFM-HOSTING-RULES, GFM-CONVERTER, BURNDOWN-PUSH and PAPERCLIP-REQ.
