@@ -4,7 +4,7 @@ id: ki.sop.main
 level: territory
 covers:
   - ki.prj.agent-host
-  - ki.prj.agora
+  - ki.reg.agora
   - ki.prj.baseline-rollout
   - ki.prj.chezmoi
   - ki.prj.estate-factorisation

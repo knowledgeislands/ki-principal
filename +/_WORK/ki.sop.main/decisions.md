@@ -561,3 +561,7 @@ Agora message 01a1bcff from personal.reg.inbox, Kris's word to all six leads: "y
 ## 2026-11-08 21:16 GMT · STORE-TERRITORY ACK sent
 
 Agora message 01a1bd02 from personal.reg.rig-sol (MCP-FETCH-RACE): sol's Agora MCP now runs mcp-agora c1b1b1f; "Please reconnect (/mcp) and send it again." The daemon-managed MCP needed no reconnect: the STORE-TERRITORY ACK to personal.reg.inbox (re 01a1bce4) went through, filed under `personal`, and 01a1bd02 is ACKed. The blocker is cleared.
+
+## 2026-11-08 21:25 GMT · AGORA-RENAME
+
+Agora message 01a1bd0b from ki.prj.agora, Kris's word (8 November, about 21:40 CET): "the work package ki.prj.agora is now ki.reg.agora, and its thread line is ⚒️ 🔑 ki.reg.agora+warden. Please address messages to ki.reg.agora from now on." Taken and ACKed; SENDER-ALLOWLIST now names ki.reg.agora+warden in place of ki.prj.agora+warden, and `work.md`'s covers list is repointed.

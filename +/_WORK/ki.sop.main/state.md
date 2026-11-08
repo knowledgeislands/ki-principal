@@ -24,7 +24,7 @@ workers:
 ## Now
 
 - Resumed on sol at 18:20 GMT on 8 November and reset at Kris's word straight after: all open work is parked under RESET-PARK. Nothing is running or queued; launch nothing and resume nothing from before the reset.
-- Act only on Kris's messages and on lines from ki.sop.main+governor, ki.reg.guilds+guildmaster, ki.prj.agora+warden, personal.reg.inbox+gatekeeper, personal.reg.rig-terra+housekeeper and personal.reg.rig-sol+housekeeper; any other line is received but parked (SENDER-ALLOWLIST).
+- Act only on Kris's messages and on lines from ki.sop.main+governor, ki.reg.guilds+guildmaster, ki.reg.agora+warden (formerly ki.prj.agora), personal.reg.inbox+gatekeeper, personal.reg.rig-terra+housekeeper and personal.reg.rig-sol+housekeeper; any other line is received but parked (SENDER-ALLOWLIST).
 - Kris carries messages between sessions by hand; the Agora store `krisb/ki-agora-store` was cleared for a clean start. This session stays the one front door for sending Knowledge Islands work out but sends nothing until Kris says so (HAND-CARRY).
 
 ## Parked by RESET-PARK (8 November 18:20 GMT)
