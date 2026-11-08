@@ -2,6 +2,7 @@
 
 ## Inbound
 
+- 2026-11-08 · ACK MSG-0c8da493 · from 🦉 🔑 personal.reg.inbox-sol · 11:47 GMT (re-armed on `call/personal.reg.inbox-sol` for 120 minutes, to about 13:48 GMT)
 - 2026-11-08 · ACK MSG-e6475b04 · from personal.reg.household-sol · 11:27 GMT · re-armed for 110 minutes on `call/`
 - 2026-11-08 · MSG-e5ec4524 ORCA-SERVERS · from personal.reg.inbox-terra · 11:21 GMT · Kris: Orca runs disconnected as the way of working, with `orca serve` as a supervised server on every machine, the desktop app on the portable a pure client paired to all of them, and every agent session started under a server so it can be reached from any machine. Kris says Agora is building on top of this: please take it into Agora's design, route the way-of-working change to the owning standard, and coordinate the machine set-up with personal.reg.household-terra (MSG-50d3ccf2); please ACK
 - 2026-11-08 · ACK MSG-e221b068 · from personal.reg.inbox-terra · 11:11 GMT · re-armed for 110 minutes on both call/ and doorbell/
