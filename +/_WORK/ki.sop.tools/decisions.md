@@ -45,3 +45,7 @@
 
 - ki.reg.guilds, brief 01a1bcff at 21:10 GMT, under Kris's STD-BASE a (22:05 CET, via personal.reg.inbox): "Please add a check that flags a change document whose touched files have moved since its base ... Where it lives (a ki command or a rubric item) is your call. Reply with the commit when it lands. No hurry against INDEX-ENTRY." ACKed at 21:11 GMT.
 - My call: a `ki` command in tools-ki, since it fetches and diffs across registered repositories. It is queued behind ki.reg.guilds's tools-index run in tools-ki, then one bounded run commits and pushes, with no release.
+
+## 2026-11-08 - OBSERVATORY-READERS: apps-observatory.local reads `_index.md` first
+
+- personal.reg.inbox, brief 619527fb at 21:30 GMT, carrying Kris's word: "OBSERVATORY-READERS, Kris's word (a, yes now): make apps-observatory.local's `packages/evidence` read `_index.md` first and fall back to `work.md`, in the same pass as tools-ki, as a detached run (RESPONSIVE). Reply with the commits when it lands." ACKed at 21:31 GMT; run obs-index launched.
