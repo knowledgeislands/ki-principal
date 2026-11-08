@@ -525,3 +525,7 @@ Kris: "From now on, act only on my messages and on lines from these sessions: ki
 ## 2026-11-08 18:20 GMT · HAND-CARRY
 
 Kris: "For now I carry messages between sessions by hand; you may push your package and messaging commits. The Agora store, krisb/ki-agora-store, has just been cleared for a clean start. You stay the one front door for sending Knowledge Islands work out, but send none until I say so." Departs from the `ki-coordination` standard's routing of handoffs as lines in the receiving work's `messages.md`, and from FOOTER-AGORA's Agora transport; pushes stay limited to this package and messaging commits.
+
+## 2026-11-08 18:27 GMT · RESET-ANSWERS
+
+Kris: "(1) ACK-ALWAYS is paused, as you did; lines from the six reset sessions still get an ACK, others none. (2) The 42 unanswered lines are parked, not written off; don't chase them. (3) personal.reg.tower's run isn't ours; leave it. (4) Note the 12 November date on KI-TECHNE-OPS-018 and -024; nothing else. Wait now for the first message round, which comes through personal.reg.inbox." Taken as written. (1) narrows ACK-ALWAYS to the SENDER-ALLOWLIST sessions, departing from ACK-ALWAYS and the `ki-coordination` message queue's ACK on taking. Not listening: Kris carries the round by hand.

@@ -32,18 +32,18 @@ workers:
 - The 24 queries under `## Parked` in `discussions.md`, and the three ACCEPT records KI-TOOL-MGIT-CLI-033, KI-TOOL-MGIT-CLI-032 and KI-TOOL-RIG-CORE-070.
 - The queue: ki.prj.website seeded on hold until Kris opens it; Host network fifth, after its decision paper and restore path.
 - The next steps of 12:21 GMT, including the audit-route run (MSG-e19b4a07 PRINCIPAL-AUDIT).
-- The 42 Outbound lines awaiting ACK, left in `messages.md` and chased by nobody.
+- The 42 Outbound lines awaiting ACK: parked, not written off, left in `messages.md` and not chased (RESET-ANSWERS).
 - The briefs, reports and design notes in `_emerging/`, left in place.
-- Standing rule ACK-ALWAYS (Kris, about 23:30 GMT 5 Nov), suspended while HAND-CARRY stops all sending.
+- Standing rule ACK-ALWAYS (Kris, about 23:30 GMT 5 Nov) is paused: a line from one of the six SENDER-ALLOWLIST sessions still gets its ACK; any other line gets none (RESET-ANSWERS).
 
 ## Next steps (8 November 18:20 GMT)
 
-1. Wait for Kris's word on the new way of working; launch, resume and send nothing.
+1. Wait for the first message round, which Kris brings through personal.reg.inbox; launch, resume and send nothing else.
 2. Record each change Kris gives in `decisions.md` the turn it arrives, naming the standard it departs from.
 
 ## Held
 
-All parked under RESET-PARK.
+All parked under RESET-PARK. Date noted only: KI-TECHNE-OPS-018 and KI-TECHNE-OPS-024 are held until 12 November.
 
 - Until 12 November: KI-TECHNE-OPS-018 and KI-TECHNE-OPS-024, with ki.prj.agent-host.
 - CLI-FIELDS, until ki.prj.tools-burndown releases KI-TOOL-KI-CLI-155.
