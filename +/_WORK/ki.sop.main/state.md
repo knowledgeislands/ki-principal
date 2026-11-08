@@ -8,7 +8,7 @@ hold: null
 mark: 2026-11-08T12:21:00Z
 method_read: d5ede6dd
 listening_enabled: true
-listening_status: off
+listening_status: on
 workers:
   - name: 🏛️ 🔑 ki.sop.main+governor
     role: governor
@@ -16,7 +16,7 @@ workers:
     focus: []
     since: 2026-11-03T03:14:00Z
     status: active
-    listening: off
+    listening: on
 ---
 
 # ki.sop.main state
@@ -38,7 +38,7 @@ workers:
 
 ## Next steps (8 November 18:20 GMT)
 
-1. Wait for the first message round, which Kris brings through personal.reg.inbox; launch, resume and send nothing else.
+1. Listening while Kris is away (LISTEN-AWAY): one detached watch pulls `~/kis/personal/ki-agora-store` every 2 minutes and wakes on a new file under `messages/ki/ki.sop.main/` or `messages/personal/ki.sop.main/`. A personal.reg.inbox message within the Reset: do it, ACK through the Agora MCP, re-arm, say nothing. Anything outside the Reset: ACK and park for Kris. Launch, resume and send nothing else.
 2. Record each change Kris gives in `decisions.md` the turn it arrives, naming the standard it departs from.
 
 ## Held
