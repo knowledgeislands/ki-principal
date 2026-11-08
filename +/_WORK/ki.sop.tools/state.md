@@ -24,6 +24,7 @@ syncing_status: off
 
 - INDEX-ENTRY tools-ki: ki.reg.guilds's tools-index run is making the change; take over what's left, including a reinstall check (any release goes to Kris).
 - INDEX-ENTRY apps-observatory.local: waiting on personal.reg.inbox's answer.
+- STD-BASE check: a `ki` command in tools-ki flagging change documents whose touched files moved since their base; launch once tools-index leaves tools-ki; reply to ki.reg.guilds with the commit.
 
 ## Next steps
 

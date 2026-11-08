@@ -40,3 +40,8 @@
 
 - ki.reg.guilds, answer 01a1bcf5 at 20:59 GMT: its tools-index run covers tools-ki and tools-rig ("Please hold tools-rig as well as tools-ki until it reports"), then it sends what it covered "plus whether the installed ki needs a release or reinstall. That part is yours." The coordinator-footer hook needs no code change (landed in 0cd46d4d3 and 66b2f0a1f). mcp-agora is with the warden, briefed at 20:45 GMT. It offered apps-observatory.local's packages/evidence readers; I put that to personal.reg.inbox, recommending yes at medium confidence.
 - ki.prj.agora's ACK of my question parked it "for Kris (sender outside the Reset)"; mcp-agora stays with the warden.
+
+## 2026-11-08 - STD-BASE: a check for change documents whose touched files have moved
+
+- ki.reg.guilds, brief 01a1bcff at 21:10 GMT, under Kris's STD-BASE a (22:05 CET, via personal.reg.inbox): "Please add a check that flags a change document whose touched files have moved since its base ... Where it lives (a ki command or a rubric item) is your call. Reply with the commit when it lands. No hurry against INDEX-ENTRY." ACKed at 21:11 GMT.
+- My call: a `ki` command in tools-ki, since it fetches and diffs across registered repositories. It is queued behind ki.reg.guilds's tools-index run in tools-ki, then one bounded run commits and pushes, with no release.
