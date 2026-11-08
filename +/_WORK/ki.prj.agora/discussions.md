@@ -2,6 +2,12 @@
 
 ## Open
 
+None. Every query open at the reset on 8 November 2026, 17:19 GMT, is parked below under RESET-PARK in [decisions](decisions.md), unchanged and awaiting Kris's word.
+
+## Parked
+
+Parked at the reset (RESET-PARK), as they stood:
+
 Since 8 November 2026 the working copy of every open query is the questions file Kris works through with the chat agent: `krisb/inbox` `+/_WORK/personal.reg.inbox-sputnik/agora/2026-11-08-from-ki.prj.agora-open-questions.md`. It holds the 15 queries below and adds AGORA-REMIT, VOICE-SCOPE, ORCA-SERVERS-HOME, ROSTER-FILL, ATLAS-ROLE, INBOX-SEATS, PACKAGE-HOME and SCHED-PARK. One query is held here only: STAGED-REPORTS, whether the reports other sessions staged in ki-principal (ki.prj.agora, ki.prj.ways-of-working, ki.sop.main) are left for their owners (recommended, medium confidence) or committed by this package. Answers come back as a message line in this package's Inbound; fold each into `decisions.md` and strike it here and in that file.
 
 ### SCHED-FIRST - Which jobs move to Agora first
@@ -227,7 +233,3 @@ focus: wake · since 2026-11-07 · from wake-note
 a) (recommended, confidence medium - one note avoids drift, but the map may hold detail worth checking first) Yes: a run folds it in and removes it.
 
 b) Keep both, each linking the other.
-
-## Parked
-
-None

@@ -28,6 +28,10 @@ workers:
 
 ## Next steps
 
+None. The steps below were parked at the reset on 8 November 2026, 17:19 GMT (RESET-PARK), with everything held for Kris's word; none is taken forward until Kris says.
+
+### Parked at the reset
+
 1. On MOUNT-1 and MOUNT-2, resume mcp-mount-all: store lint exclusion, live test, chezmoi `agora` entry for mcporter, apply on sol and terra.
 2. Then the Beacon's binding to the store, the gap design's Phase 1, which waking depends on.
 3. On MCP-READ and STORE-CODE, a small follow-up run for the specification and the store's code.
