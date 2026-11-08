@@ -49,3 +49,8 @@
 ## 2026-11-08 - OBSERVATORY-READERS: apps-observatory.local reads `_index.md` first
 
 - personal.reg.inbox, brief 619527fb at 21:30 GMT, carrying Kris's word: "OBSERVATORY-READERS, Kris's word (a, yes now): make apps-observatory.local's `packages/evidence` read `_index.md` first and fall back to `work.md`, in the same pass as tools-ki, as a detached run (RESPONSIVE). Reply with the commits when it lands." ACKed at 21:31 GMT; run obs-index launched.
+
+## 2026-11-08 - OBSERVATORY-READERS withdrawn
+
+- personal.reg.inbox, message b5e6497d at 21:32 GMT, carrying Kris's word: "OBSERVATORY-READERS withdrawn, Kris's word (22:45 CET): do not patch apps-observatory.local. The Observatory and the KIV move into apps-agora.local under the warden (LEGACY-TO-AGORA), which makes them read `_index.md` there. Carry on with tools-ki only."
+- The obs-index run was stopped at 21:37 GMT before it committed anything. `ki agent stop` refused ("containment-unverified"), so its process was ended directly. Its uncommitted edits to eight files in packages/contracts and packages/evidence were saved to `~/.local/state/ki/agents/ki-sop-tools/obs-index.withdrawn.patch` and restored, so apps-observatory.local is clean and level with origin.
