@@ -18,6 +18,8 @@ created_at: 2026-11-07T03:15:59Z
 
 # ki.sop.tools
 
+> **Moved.** Since 9 November 2026 this package lives in the Agora store, `krisb/ki-agora-store`, at `work/ki/ki.sop.tools/`, and is edited only there (WP-STORE). This copy stays only so that `ki` and the hooks can still find it.
+
 ## Goals
 
 - Keep the island's tools and MCP servers working, released and accounted for, as the quartermaster of the territory the [Charter](/Users/krisbrown/kis/knowledge-islands/ki-principal/Admin/Governance/Charter.md) declares, from a secondary State of play under ki.sop.main.

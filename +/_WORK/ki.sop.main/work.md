@@ -34,6 +34,8 @@ created_at: 2026-10-06T21:07:00Z
 
 # ki.sop.main
 
+> **Moved.** Since 9 November 2026 this package lives in the Agora store, `krisb/ki-agora-store`, at `work/ki/ki.sop.main/`, and is edited only there (WP-STORE). This copy stays only so that `ki` and the hooks can still find it.
+
 ## Goals
 
 - Coordinate the Knowledge Islands territory the [Charter](/Users/krisbrown/kis/knowledge-islands/ki-principal/Admin/Governance/Charter.md) declares, as its State of play: the coordinator of the coordinators, executing nothing.
