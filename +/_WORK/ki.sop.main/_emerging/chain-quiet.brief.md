@@ -1,8 +1,0 @@
-# Brief: quiet `mgit chain` output, then prepare two records for review
-
-Kris answered ACCEPTANCE a) on 2026-11-07 (logged in `+/_WORK/ki.sop.main/decisions.md`), covering CHAIN-QUIET a) and CHAIN-START-ENTER a). Work in `/Users/krisbrown/kis/knowledge-islands/tools-mgit` under its own roadmap rules (`ki-implement` for the build).
-
-1. CHAIN-QUIET: `mgit chain` hides repositories where every step succeeded with no output; `-v` and `--json` show all. CHAIN-START-ENTER: a checkout that cannot be entered counts as "failed to start". Update [KI-TOOL-MGIT-CLI-032](/Users/krisbrown/kis/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-032-chain-command.md)'s Discussion and tests to match. Do not change how a first step that runs and fails is classed: CHAIN-START-FIRST is still open with Kris.
-2. Run the repository's full gates. Commit by explicit path, lower-case Conventional Commit subject, trailer `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`; pull `git -c pull.autostash=false -c rebase.autoStash=false pull --ff-only`; push fast-forward only. Never stash, rebase, reset, force or `--no-verify`. Do not release.
-3. Then, as review prep, read KI-TOOL-MGIT-CLI-032 and [KI-TOOL-MGIT-CLI-033](/Users/krisbrown/kis/knowledge-islands/tools-mgit/docs/roadmap/KI-TOOL-MGIT-CLI-033-sync-push-guard.md) against their acceptance criteria and the code, and give Kris, for each, a short plain-English account of what it does, the evidence, and what he should try himself. Do not accept either record.
-4. Report outcomes and any queries in Context/Query/Options form. Write your report where the launcher's footer says.
