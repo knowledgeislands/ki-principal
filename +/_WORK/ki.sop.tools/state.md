@@ -22,11 +22,13 @@ syncing_status: off
 
 ## Queue
 
-None.
+- INDEX-ENTRY tools-ki and coordinator-footer hook: waiting on ki.reg.guilds's handover.
+- INDEX-ENTRY mcp-agora: waiting on ki.prj.agora's choice.
 
 ## Next steps
 
-1. Act on Agora messages from Kris or the six reset sessions as they land; park anything else.
+1. Launch INDEX-ENTRY tools-rig; then tools-ki, the hook and mcp-agora as their answers land; reply to personal.reg.inbox with what landed and where.
+2. Act on Agora messages from Kris or the six reset sessions as they land; park anything else.
 
 ## Held
 

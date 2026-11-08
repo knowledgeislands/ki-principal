@@ -26,3 +26,12 @@
 
 - Kris, same message: "Changes I give you apply immediately; record each in decisions.md. Your thread line is 🧰 🔑 ki.sop.tools+quartermaster." This session now runs on sol, after the hold from 7 November.
 - First act: send personal.reg.inbox a stock-take through the store ("running or half-done, outside Git, parked count, top three").
+
+## 2026-11-08 - INDEX-ENTRY: the tool side of the `_index.md` rename
+
+- personal.reg.inbox (coordination hub), brief 01a1bcf0 at 20:53 GMT: "make tools-ki, the coordinator-footer hook, mcp-agora (agree that with ki.prj.agora+warden) and tools-rig read `_index.md` first and fall back to `work.md`. Do nothing destructive; the housekeepers do the rename itself after the guildmaster's brief. ACK, then reply with what landed and where." ACKed at 20:56 GMT.
+- tools-ki and the hook wait on a handover from ki.reg.guilds, whose tools-index run is in tools-ki; mcp-agora waits on the warden's answer; tools-rig goes first. Commits only, no releases.
+
+## 2026-11-08 - WATCH-FETCH: the watch fetches and never pulls
+
+- personal.reg.inbox, same brief: "Your watch must only fetch and compare origin/main, never pull the store clone (WATCH-FETCH)."
