@@ -67,3 +67,16 @@ Entries a durable home now carries were struck on 6 November 2026 (consolidate);
 - WAKE-PROVE b) (Kris, about 14:03 GMT, no test thread opened): Legal told the terminal route is unproven with a live agent (MSG-6d1b06d6 WAKE-OWNER, legal-principal). WAKE-PROVE stays open for Kris's return; WAKE-MAP-FOLD (medium) waits.
 - AWAY end time: about 20:00 GMT (Kris, "unattended mode for the next 6 hours", about 14:03 GMT).
 - VOICE-FIRST (Kris via personal.reg.inbox-chat, MSG-chat-priority-004, 14:56 GMT): two-way ChatGPT-voice messaging with Knowledge Islands and its agents, with continuity, goes first in the recommended priorities. Taken as a priority signal for the return review; no build started while more than 8 queries are open.
+
+## 2026-11-08 · Kris back, then draining to move host (about 06:55 to 12:20 GMT)
+
+- AWAY ended: Kris back about 06:55 GMT; return report given.
+- MAKERS (Kris, about 07:10 GMT): the tiers are leaders, managers and makers; "doers" is retired from this package's wording and helpers.
+- AGORA-REMIT (Kris, about 07:10 GMT, to confirm in the open-questions file): Agora is the communication hub, the observability hub (may spin out again) and runs regular jobs as part of communication; apps Beacon, Atlas, Lantern; rigs terra (laptop, often offline), sol, Sputnik (phone).
+- SCHED-FIRST (Kris, about 07:10 GMT): the mechanical jobs Agora can run, but not yet; read as a proposal to park the four jobs queries (SCHED-PARK).
+- README (Kris): a short introduction that maps the docs, not one long document; to capture as a record.
+- PLAIN-QUERY-NAMES (Kris, about 07:02 GMT): sent to ki.reg.guilds as MSG-cee5d1d7; ACKed and agreed, routed to the inbox design session for the reply standard.
+- QUESTIONS-FILE (Kris, about 08:05 GMT): every open query for Kris now lives in `krisb/inbox` `+/_WORK/personal.reg.inbox-sputnik/agora/2026-11-08-from-ki.prj.agora-open-questions.md`, to work through with the chat agent; the coordinator updates it as answers land. Added since: ATLAS-ROLE (Kris: show the agent's role in the Atlas), ORCA-SERVERS-HOME, INBOX-SEATS.
+- ORCA-SERVERS (Kris via inbox-terra MSG-e5ec4524, 11:21 GMT): Orca runs disconnected, `orca serve` on every machine, sessions under a server; taken as the base of the wake work. ACKed.
+- INBOX-ONE (Kris via inbox-terra MSG-f1acac1d, 11:58 GMT): the three inbox packages become `personal.reg.inbox`, one seat per session; ACKed with the one-seat proposal (INBOX-SEATS).
+- DRAIN (Kris, about 12:20 GMT): "drain down ready to stop working, we are moving host". Nothing running; helper rounds and the call watch stopped; the helper scripts in `/tmp/ki-prj-agora/` on sol are not carried over.
