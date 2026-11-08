@@ -31,3 +31,32 @@ home: ../packages-stoa/.ki.toml
 class: operational
 
 - Kris, 7 November 2026, answering STOA-AUDIT-REST, as transcribed: "Yeah, go back and fix everything so there's no such thing as portal framework or anything like that. Everything is stower. Yeah, just go over it all like that. And then with the test messages itself called on something. Again, just look for convention that we've got across our Norwich Islands repos." Read as ("stower" is Stoa, "Norwich Islands" is Knowledge Islands, and the garbled sentence is the script names): option b), all of it now. No trace of the portal-framework or earlier names remains in packages-stoa, decision records included; the scripts and developer tooling follow the conventions across Knowledge Islands repositories, adding the house development dependencies to the repository; the GitHub settings are aligned with the standard.
+
+## 2026-11-08 12:20 GMT - STOA-WINDOW - deliver to review, no release
+
+home: ../packages-stoa/docs/roadmap
+
+class: operational
+
+- Kris, 8 November 2026, answering STOA-WINDOW, chose "Deliver, no release": capture each Stoa inbox request as a roadmap record, plan it, and build the defects and small asks through to awaiting review; plan the bigger designs only, for his look; release nothing.
+
+## 2026-11-08 12:20 GMT - STOA-ACCEPT - Kris accepts
+
+home: ../packages-stoa/docs/roadmap
+
+class: operational
+
+- Kris, 8 November 2026, answering STOA-ACCEPT, chose "No, I'll accept": records stop at awaiting review and come to him as one bundle when he is back.
+
+## 2026-11-08 12:25 GMT - STOA-WINDOW grant - unattended window while Kris is away
+
+home: ../packages-stoa/docs/roadmap
+
+class: operational
+
+- Grant: Kris, 8 November 2026, "Do you want to prompt me on some things if you need that so we can get some items moving while I'm away?", then STOA-WINDOW and STOA-ACCEPT above.
+- Return condition: Kris's next message in this thread, or "stop the wake". No clock end was given; none is assumed.
+- Work: the 14 Stoa request lines in `messages.md`. The coordinator captures each as a roadmap record in `packages-stoa` from run-drafted text, adopts it to `next` under STOA-WINDOW, has it planned to Ready, and delivers the defects and small asks to `awaiting-review` in frozen waves in `packages-stoa`; the bigger designs (heading links, page types, print layout, diagram overlay) are planned only.
+- Permitted: local commits and fast-forward pushes of `main` in `packages-stoa` and of this work folder in `ki-principal`, under the standing push rule; `bun install` of what the lock already pins.
+- Excluded: any release, version bump, tag or consumer re-vendor notice; acceptance, cancellation and pruning; GitHub settings; new software or new dependencies; writes in any other repository beyond message lines this work sends. No deny-list item is lifted.
+- Revisions at entry: `packages-stoa` `origin/main` and `main` `9c657a3`; `ki-principal` `origin/main` and `main` `b8439755`.
