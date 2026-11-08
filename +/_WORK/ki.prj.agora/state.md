@@ -1,10 +1,10 @@
 ---
 id: ki.prj.agora
-state: handoff-to-supervisor
-since: 2026-11-07T04:53:34Z
-received: null
+state: with-supervisor
+since: 2026-11-08T17:17:48Z
+received: 2026-11-08T17:17:48Z
 beat: null
-mark: 2026-11-07T04:53:34Z
+mark: 2026-11-08T17:17:48Z
 listening_enabled: true
 listening_status: off
 method_read: d5ede6dd

@@ -80,3 +80,7 @@ Entries a durable home now carries were struck on 6 November 2026 (consolidate);
 - ORCA-SERVERS (Kris via inbox-terra MSG-e5ec4524, 11:21 GMT): Orca runs disconnected, `orca serve` on every machine, sessions under a server; taken as the base of the wake work. ACKed.
 - INBOX-ONE (Kris via inbox-terra MSG-f1acac1d, 11:58 GMT): the three inbox packages become `personal.reg.inbox`, one seat per session; ACKed with the one-seat proposal (INBOX-SEATS).
 - DRAIN (Kris, about 12:20 GMT): "drain down ready to stop working, we are moving host". Nothing running; helper rounds and the call watch stopped; the helper scripts in `/tmp/ki-prj-agora/` on sol are not carried over.
+
+## 2026-11-08 · Re-bootstrap on sol (about 17:17 GMT)
+
+- PACKAGE-MOVE (Kris): "Re-bootstrap as ki.prj.agora under ki-coordination, working from this repository, apps-agora.local, on sol ... Moving it here is the first change I'll give you after the Reset, so don't move anything yet." The package stays in ki-principal until that instruction; it bears on PACKAGE-HOME.
