@@ -18,6 +18,8 @@ workers:
 
 # ki.prj.agora state
 
+Moved: this package's home is now `knowledgeislands/apps-agora.local` at `+/_WORK/ki.prj.agora/` (PACKAGE-MOVE, Kris, 8 November 2026); this copy stays until Kris confirms the move, and is not worked on here.
+
 ## Now
 
 - Overnight delivery is landed and installed on sol, terra and the phone under NIGHT-INSTALL: Home's Island column and dashes for seats not created, the published role glyphs, the Atlas staying full across a Beacon restart, Lantern (bundle info.knowledgeislands.agora-lantern, icon, details card, Listening and Roadmap views), the revised Atlas designs, the Guilds skill table's layout and its tallies counted without their own choice. No run is going.
