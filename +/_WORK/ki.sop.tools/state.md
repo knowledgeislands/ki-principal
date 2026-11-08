@@ -22,8 +22,8 @@ syncing_status: off
 
 ## Queue
 
-- INDEX-ENTRY tools-ki: ki.reg.guilds's tools-index run is making the change; take over what's left, including a reinstall check (any release goes to Kris).
-- STD-BASE check: a `ki` command in tools-ki flagging change documents whose touched files moved since their base; launch once tools-index leaves tools-ki; reply to ki.reg.guilds with the commit.
+- INDEX-ENTRY tools-ki: ki.reg.guilds's tools-index landed b537df2e at 22:19 GMT; waiting on its account of what it covered, then take over what's left, including a reinstall check (any release goes to Kris).
+- STD-BASE check: run std-base running in tools-ki since 22:20 GMT; reply to ki.reg.guilds with the commit.
 
 ## Next steps
 
