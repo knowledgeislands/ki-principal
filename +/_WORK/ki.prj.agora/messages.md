@@ -158,6 +158,8 @@
 
 ## Outbound
 
+- 2026-11-06 · MSG-619add94 HEALTH/PING · to personal.reg.inbox-sol · listener 120 min · awaiting ACK
+- 2026-11-06 · MSG-b0132216 HEALTH/PING · to personal.reg.household-sol · listener 110 min · awaiting ACK
 - 2026-11-06 · MSG-127158c5 HEALTH/PING · to personal.reg.inbox-terra · listener 110 min · awaiting ACK
 - 2026-11-06 · MSG-2b9de7a1 HEALTH/PING · to personal.reg.household-terra · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-61a1d864 HEALTH/PING · to hnr.sop.main · listener 120 min · awaiting ACK
