@@ -501,3 +501,27 @@ Agora's health check at 50%: the wait re-armed for 120 minutes; ACKed in ki.prj.
 - 2026-11-08 09:48 GMT · Inbound MSG-949e7548 HEALTH from ki.prj.agora: re-armed the watcher for 120 minutes and ACKed.
 - 2026-11-08 11:08 GMT · Inbound MSG-6b75fda3 HEALTH from ki.prj.agora: re-armed the watcher for 120 minutes and ACKed.
 - 2026-11-08 12:21 GMT · Kris: "drain down ready to stop working, we are moving host". Taken as a pause: watcher stopped, nothing running, mark struck, the 24 open queries parked in full, `state: on-hold` (paused, release when Kris resumes on the new host). Listening off.
+
+## 2026-11-08 18:20 GMT · Resumed on sol
+
+Kris: "Re-bootstrap as ki.sop.main under ki-coordination. You were on hold from 12:21 GMT on 8 November; you now run on sol." The paused hold is released; ki-principal and ki-agentic-harness fetched on sol and level with `origin/main`.
+
+## 2026-11-08 18:20 GMT · RESET-PARK
+
+Kris: "Reset. We're moving to a new way of working, and everything before now is set aside until I say otherwise. Park all open work: every open query, queued run, Project in the queue and planned next step, including anything held for my word. Launch nothing and resume nothing from before now. Delete nothing; record the parking in decisions.md as RESET-PARK." Taken as: parked, deleting nothing, the 24 queries already under `## Parked` in `discussions.md`; the three ACCEPT records KI-TOOL-MGIT-CLI-033, KI-TOOL-MGIT-CLI-032 and KI-TOOL-RIG-CORE-070; the queue (ki.prj.website, Host network); the 12:21 GMT next steps with the audit-route run; the held items (KI-TECHNE-OPS-018 and KI-TECHNE-OPS-024, CLI-FIELDS, the HOLD-POINTERS carries); the 42 Outbound lines awaiting ACK; and `_emerging/`'s briefs and reports. No run of this session was running or queued. Every earlier decision in this log is set aside, not struck, until Kris says otherwise.
+
+## 2026-11-08 18:20 GMT · CHANGES-NOW
+
+Kris: "Changes I give you apply immediately, even before the skills catch up. Record each in decisions.md and say which standard it departs from." Departs from the Refreshing this guidance rule of the `ki-coordination` standard, under which behaviour follows the method revision.
+
+## 2026-11-08 18:20 GMT · THREAD-LINE
+
+Kris: "your thread line is <glyph> 🔑 <id>+<role>; rename the session to it." Thread line is now `🏛️ 🔑 ki.sop.main+governor`; the session is renamed to it. Departs from the `ki-coordination` standard's thread line, `<role glyph> 🔑 <work-id>`.
+
+## 2026-11-08 18:20 GMT · SENDER-ALLOWLIST
+
+Kris: "From now on, act only on my messages and on lines from these sessions: ki.sop.main+governor, ki.reg.guilds+guildmaster, ki.prj.agora+warden, personal.reg.inbox+gatekeeper, personal.reg.rig-terra+housekeeper and personal.reg.rig-sol+housekeeper. Treat any other incoming line as received but parked." Departs from the `ki-coordination` standard's message queue (act on every `messages.md` line in queue order), from SOP-ACTS-FOR-IDLE and from ACK-ALWAYS.
+
+## 2026-11-08 18:20 GMT · HAND-CARRY
+
+Kris: "For now I carry messages between sessions by hand; you may push your package and messaging commits. The Agora store, krisb/ki-agora-store, has just been cleared for a clean start. You stay the one front door for sending Knowledge Islands work out, but send none until I say so." Departs from the `ki-coordination` standard's routing of handoffs as lines in the receiving work's `messages.md`, and from FOOTER-AGORA's Agora transport; pushes stay limited to this package and messaging commits.

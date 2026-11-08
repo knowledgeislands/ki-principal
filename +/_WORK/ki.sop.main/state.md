@@ -1,20 +1,16 @@
 ---
 id: ki.sop.main
-state: on-hold
-since: 2026-11-08T12:21:00Z
+state: with-supervisor
+since: 2026-11-08T18:20Z
 received: 2026-10-19T17:58:50Z
 beat: null
-hold:
-  reason: paused
-  release: when Kris resumes this work on its new host, or resume
-  set_by: owner
-  since: 2026-11-08T12:21:00Z
+hold: null
 mark: 2026-11-08T12:21:00Z
 method_read: d5ede6dd
 listening_enabled: true
 listening_status: off
 workers:
-  - name: 🏛️ 🔑 ki.sop.main
+  - name: 🏛️ 🔑 ki.sop.main+governor
     role: governor
     tier: leaders
     focus: []
@@ -27,24 +23,27 @@ workers:
 
 ## Now
 
-- On hold, paused at 12:21 GMT on 8 November: Kris asked to "drain down ready to stop working, we are moving host". Nothing was running; the watcher is stopped and everything is pushed.
-- 24 queries and the three ACCEPT records (KI-TOOL-MGIT-CLI-033, KI-TOOL-MGIT-CLI-032, KI-TOOL-RIG-CORE-070) are parked in `discussions.md`; 42 Outbound lines await their ACKs.
+- Resumed on sol at 18:20 GMT on 8 November and reset at Kris's word straight after: all open work is parked under RESET-PARK. Nothing is running or queued; launch nothing and resume nothing from before the reset.
+- Act only on Kris's messages and on lines from ki.sop.main+governor, ki.reg.guilds+guildmaster, ki.prj.agora+warden, personal.reg.inbox+gatekeeper, personal.reg.rig-terra+housekeeper and personal.reg.rig-sol+housekeeper; any other line is received but parked (SENDER-ALLOWLIST).
+- Kris carries messages between sessions by hand; the Agora store `krisb/ki-agora-store` was cleared for a clean start. This session stays the one front door for sending Knowledge Islands work out but sends nothing until Kris says so (HAND-CARRY).
 
-## Queue
+## Parked by RESET-PARK (8 November 18:20 GMT)
 
-- ki.prj.website is seeded on hold until Kris opens it; Host network opens fifth, after its decision paper and restore path.
+- The 24 queries under `## Parked` in `discussions.md`, and the three ACCEPT records KI-TOOL-MGIT-CLI-033, KI-TOOL-MGIT-CLI-032 and KI-TOOL-RIG-CORE-070.
+- The queue: ki.prj.website seeded on hold until Kris opens it; Host network fifth, after its decision paper and restore path.
+- The next steps of 12:21 GMT, including the audit-route run (MSG-e19b4a07 PRINCIPAL-AUDIT).
+- The 42 Outbound lines awaiting ACK, left in `messages.md` and chased by nobody.
+- The briefs, reports and design notes in `_emerging/`, left in place.
+- Standing rule ACK-ALWAYS (Kris, about 23:30 GMT 5 Nov), suspended while HAND-CARRY stops all sending.
 
-## Standing rule
+## Next steps (8 November 18:20 GMT)
 
-- ACK-ALWAYS (Kris, about 23:30 GMT 5 Nov): every line taken, held or acted on gets its ACK at the top of the sender's Inbound at the moment it is taken, with no exceptions; lines kept in Inbound to act on later are ACKed too.
-
-## Next steps (8 November 12:21 GMT)
-
-1. On resume on the new host: fetch and fast-forward ki-principal and ki-agentic-harness, read `messages.md` (IMPORTANT first), re-arm listening only if Kris asks.
-2. Bring the three ACCEPT records and the 24 parked queries back to Kris.
-3. At the first mark, launch the audit-route run: rerun the ki-work-package and coordination audits in ki-principal and send each flagged package one line naming its findings (MSG-e19b4a07 PRINCIPAL-AUDIT).
+1. Wait for Kris's word on the new way of working; launch, resume and send nothing.
+2. Record each change Kris gives in `decisions.md` the turn it arrives, naming the standard it departs from.
 
 ## Held
+
+All parked under RESET-PARK.
 
 - Until 12 November: KI-TECHNE-OPS-018 and KI-TECHNE-OPS-024, with ki.prj.agent-host.
 - CLI-FIELDS, until ki.prj.tools-burndown releases KI-TOOL-KI-CLI-155.
