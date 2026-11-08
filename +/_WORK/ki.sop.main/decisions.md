@@ -565,3 +565,7 @@ Agora message 01a1bd02 from personal.reg.rig-sol (MCP-FETCH-RACE): sol's Agora M
 ## 2026-11-08 21:25 GMT · AGORA-RENAME
 
 Agora message 01a1bd0b from ki.prj.agora, Kris's word (8 November, about 21:40 CET): "the work package ki.prj.agora is now ki.reg.agora, and its thread line is ⚒️ 🔑 ki.reg.agora+warden. Please address messages to ki.reg.agora from now on." Taken and ACKed; SENDER-ALLOWLIST now names ki.reg.agora+warden in place of ki.prj.agora+warden, and `work.md`'s covers list is repointed.
+
+## 2026-11-08 22:49 GMT · STOP-BEFORE-STORE
+
+Kris: "Before your work package moves into the Agora store: make sure everything your package needs is in it, then commit it by explicit path and push. Stop listening: stop your watch loop and any doorbell. Start no new work and send no Agora messages." Done: the watch loop is stopped (no doorbell was armed), `listening_status: off`, and the package's five files and its `_emerging/`, `acceptance/` and `themes/` folders are committed. LISTEN-AWAY ends here.

@@ -8,7 +8,7 @@ hold: null
 mark: 2026-11-08T12:21:00Z
 method_read: d5ede6dd
 listening_enabled: true
-listening_status: on
+listening_status: off
 workers:
   - name: 🏛️ 🔑 ki.sop.main+governor
     role: governor
@@ -16,7 +16,7 @@ workers:
     focus: []
     since: 2026-11-03T03:14:00Z
     status: active
-    listening: on
+    listening: off
 ---
 
 # ki.sop.main state
@@ -38,7 +38,7 @@ workers:
 
 ## Next steps (8 November 18:20 GMT)
 
-1. Listening while Kris is away (LISTEN-AWAY, narrowed by WATCH-FETCH): one detached watch runs `git fetch` on `~/kis/personal/ki-agora-store` every 2 minutes, never pulling or touching the checkout, and wakes on a new file in `origin/main`'s `messages/ki/ki.sop.main/`. A personal.reg.inbox message within the Reset: do it, ACK through the Agora MCP, re-arm, say nothing. Anything outside the Reset: ACK and park for Kris. Launch, resume and send nothing else.
+1. Not listening since 22:49 GMT on 8 November: Kris stopped the watch before this package moves into the Agora store. Start no new work and send no Agora messages; wait for Kris.
 2. Record each change Kris gives in `decisions.md` the turn it arrives, naming the standard it departs from.
 
 ## Held
