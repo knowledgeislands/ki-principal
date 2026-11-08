@@ -173,9 +173,8 @@
 
 ## Outbound
 
-- 2026-11-06 · MSG-fe68c2b0 HEALTH/PING · to personal.reg.household-sol · listener 110 min · awaiting ACK
+- 2026-11-06 · MSG-2ecb2744 HEALTH/PING · to personal.reg.inbox-sol · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-61a1d864 HEALTH/PING · to hnr.sop.main · listener 120 min · awaiting ACK
-- 2026-11-06 · MSG-7101d4ff HEALTH/PING · to hnr.prj.5g-emerge-phase3 · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-998473d8 HEALTH/PING · to hnr.prj.5g-emerge-p2ms3 · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-0774b658 HEALTH/PING · to hnr.prj.site-robots · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-8d973eb6 HEALTH/PING · to ki.reg.guilds · listener 120 min · awaiting ACK
