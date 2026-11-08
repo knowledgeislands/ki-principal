@@ -1,13 +1,18 @@
 ---
 id: ki.sop.main
-state: with-worker
-since: 2026-11-04T09:29:30Z
+state: on-hold
+since: 2026-11-08T12:21:00Z
 received: 2026-10-19T17:58:50Z
 beat: null
-mark: 2026-11-06T00:03:53Z
+hold:
+  reason: paused
+  release: when Kris resumes this work on its new host, or resume
+  set_by: owner
+  since: 2026-11-08T12:21:00Z
+mark: 2026-11-08T12:21:00Z
 method_read: d5ede6dd
 listening_enabled: true
-listening_status: on
+listening_status: off
 workers:
   - name: 🏛️ 🔑 ki.sop.main
     role: governor
@@ -15,16 +20,15 @@ workers:
     focus: []
     since: 2026-11-03T03:14:00Z
     status: active
-    listening: on
+    listening: off
 ---
 
 # ki.sop.main state
 
 ## Now
 
-- Under BASELINE-CLEAN, State of play tends every KI package except ki.prj.ways-of-working and ki.prj.observatory, bringing each to a clean baseline; this package is tidied.
-- The queue is empty; nine queries are open and 22 parked, eight of them overtaken by events.
-- [KI-TOOL-RIG-CORE-047](/Users/krisbrown/kis/knowledge-islands/tools-rig/docs/roadmap/KI-TOOL-RIG-CORE-047-tailnet-only-listener-firewall.md) stays in progress with ki.prj.chezmoi.
+- On hold, paused at 12:21 GMT on 8 November: Kris asked to "drain down ready to stop working, we are moving host". Nothing was running; the watcher is stopped and everything is pushed.
+- 24 queries and the three ACCEPT records (KI-TOOL-MGIT-CLI-033, KI-TOOL-MGIT-CLI-032, KI-TOOL-RIG-CORE-070) are parked in `discussions.md`; 42 Outbound lines await their ACKs.
 
 ## Queue
 
@@ -34,13 +38,11 @@ workers:
 
 - ACK-ALWAYS (Kris, about 23:30 GMT 5 Nov): every line taken, held or acted on gets its ACK at the top of the sender's Inbound at the moment it is taken, with no exceptions; lines kept in Inbound to act on later are ACKed too.
 
-## Next steps (6 November 02:32 GMT)
+## Next steps (8 November 12:21 GMT)
 
-- At the next mark, launch the audit-route run: rerun the ki-work-package and coordination audits in ki-principal and send each flagged package one line naming its findings (MSG-e19b4a07 PRINCIPAL-AUDIT).
-
-1. Re-bootstrapped on Kris's opener. consolidate-queries packs all 72 queries into `_emerging/packed-queries.md` and writes a short consolidated set into `discussions.md` for Kris's return; the medium ones then go to one blind review.
-2. sop-acts-for-idle lands SOP-ACTS-FOR-IDLE and NAME-GLYPH in the harness.
-3. MAIL-GAPS and SKILLS-OVER-GRAPH wait in Inbound, ACKed, for the consolidated set to place them.
+1. On resume on the new host: fetch and fast-forward ki-principal and ki-agentic-harness, read `messages.md` (IMPORTANT first), re-arm listening only if Kris asks.
+2. Bring the three ACCEPT records and the 24 parked queries back to Kris.
+3. At the first mark, launch the audit-route run: rerun the ki-work-package and coordination audits in ki-principal and send each flagged package one line naming its findings (MSG-e19b4a07 PRINCIPAL-AUDIT).
 
 ## Held
 

@@ -500,3 +500,4 @@ Agora's health check at 50%: the wait re-armed for 120 minutes; ACKed in ki.prj.
 - 2026-11-08 08:38 GMT · Inbound MSG-6cbf99f2 HEALTH from ki.prj.agora: re-armed the watcher for 120 minutes and ACKed.
 - 2026-11-08 09:48 GMT · Inbound MSG-949e7548 HEALTH from ki.prj.agora: re-armed the watcher for 120 minutes and ACKed.
 - 2026-11-08 11:08 GMT · Inbound MSG-6b75fda3 HEALTH from ki.prj.agora: re-armed the watcher for 120 minutes and ACKed.
+- 2026-11-08 12:21 GMT · Kris: "drain down ready to stop working, we are moving host". Taken as a pause: watcher stopped, nothing running, mark struck, the 24 open queries parked in full, `state: on-hold` (paused, release when Kris resumes on the new host). Listening off.

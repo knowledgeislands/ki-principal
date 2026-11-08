@@ -2,6 +2,37 @@
 
 ## Open
 
+None.
+
+## Parked
+
+- KNOWLEDGE-PLAN - Start the knowledge folder as planned; parked 8 November at the host move. Recommended: Attachment points are a front matter flag `attachment: true`, listed on `knowledge/_index.md` and promising a stable id and path retired by pointer, with shadow
+- CHAIN-START-FIRST - A first step that runs and fails; parked 8 November at the host move. Recommended: ) Yes: count it as "stopped", and change the record's Discussion and the tests to match.
+- OLD-ORPHANS - Where the old orphaned repositories live; parked 8 November at the host move. Recommended: You name the location or confirm they are gone, and ki.prj.mac-studio-setup records the answer before its query closes.
+- KA-CLOSE-GATE - Let the Knowledge acquisition close pass two superseded runs; parked 8 November at the host move. Recommended: Yes: close with `--accept-exited gov209-link --accept-exited title-fix` (never `--reconciled`), then delete the folder in one commit, `docs(work): ki.prj.knowle
+- OTHER-TERRITORIES - Send the cross-territory asks; parked 8 November at the host move. Recommended: Send them now: the Access admins line to Equal Remedy, Personal, TechMedix and Valle Armonia quoting you and linking HNR's note; adopt the Capital baseline thro
+- SANCTUARY-STAGE5 - Take the Sanctuary package at stage 5; parked 8 November at the host move. Recommended: Agree now, and set its Project and repository at the stage 4 handover.
+- GRANOLA - Declare Granola acquisition where it runs; parked 8 November at the host move. Recommended: Declare `ki-acquire-granola` in ki, hnr, er, legal, personal and va, and retire the local commands once their routing is in the skill's configuration.
+- RESOURCES-IN - Resources in other territories' graphs; parked 8 November at the host move. Recommended: at high, letting each territory choose with its own provenance and access rules) No for now. Revisit when a territory asks.
+- RESUME-SPECS - Resume Portable specifications; parked 8 November at the host move. Recommended: Resume Portable specifications only: put SPEC-TEXT and HOMING-EDITS to you, then plan its harness records.
+- STOA-NAMES - How icon cards name icons; parked 8 November at the host move. Recommended: Meaning-based names stay Stoa's product defaults, each resolving to one source-qualified identity, and the card says so.
+- PREDICATES - Keep the default related-links the tidy added; parked 8 November at the host move. Recommended: Prune the defaults at pull, keeping only links the card's text supports.
+- WORK-FOLDER - Where the six work-related cards go; parked 8 November at the host move. Recommended: Pull them into `knowledge/work/`, each linking to the Work Process note.
+- STOA-GH-RELEASE - GitHub release page for v0.32.0; parked 8 November at the host move. Recommended: Leave it as a tag only, the same as earlier Stoa releases.
+- HOLD-REASON - The hold reason uses words where the standard expects a fixed value; parked 8 November at the host move. Recommended: Set `hold.reason: paused`, and keep "folded into the household works" in the Now line and the release.
+- OBSOLETE-SOL - Drop the five Mac Studio queries that rest on sol evidence; parked 8 November at the host move. Recommended: Drop all five with one decisions-log line each, citing the handover report.
+- REMOTE-LEARN - Delete the merged branch on GitHub; parked 8 November at the host move. Recommended: Yes: a run deletes it with `git push origin --delete ways-of-working-learn`.
+- CHAIN-ENTER-LABEL - How a checkout that cannot be entered is shown; parked 8 November at the host move. Recommended: Yes, as a small follow-up before acceptance.
+- TERRITORY-TEST - One territory test fails with the installed ki; parked 8 November at the host move. Recommended: Yes: capture it as a new tools-mgit item to bring mgit and its territory tests in line with ki 0.14.
+- LIBRARY-NOW - Open the librarian seat now, alongside the knowledge plan; parked 8 November at the host move. Recommended: ) Open it now in ki-principal, On hold until Kris opens it, with phase 0 as its first message once KNOWLEDGE-PLAN is answered; tell the guild.
+- ADOPT-MOD-012 - Take up the hold-states and values change; parked 8 November at the host move. Recommended: answer, and the harness side has already landed) Adopt it as a draft for Now, as a ways-of-working model change. Then review the draft's exact wording before it
+- DONE-PRUNE - Prune the three finished harness records?; parked 8 November at the host move. Recommended: Yes, through `ki-accept`'s prune once its full checks pass in the harness; any link to repair elsewhere goes as a message line to its owner.
+- DONE-PRUNE-TOOLS-KI - Prune the three finished tools-ki records?; parked 8 November at the host move. Recommended: Yes, through `ki-accept`'s prune once its full checks pass in tools-ki; any link to repair elsewhere goes as a message line to its owner.
+- QUICK-FIXES-LIFECYCLE - Change nine Project pages' lifecycles?; parked 8 November at the host move. Recommended: Yes: set the seven to `paused`, each with its package's release condition and a review date, and the two to `planned`, as one bounded change you approve.
+- MIRROR-TOKEN - Revoke the retired Notion mirror's token; parked 8 November at the host move. Recommended: Yes: after `chezmoi apply` and any HNR Notion page removal, revoke the integration in Notion and delete the 1Password item.
+- ALIAS-OWNERS (from ki.prj.estate-factorisation, under ESTATE-CLOSE a), 7 November): territory alias ownership is a governance residual; State of play keeps it parked until a Harness or Principal record owns it. Recommended: keep parked.
+- GOVERNANCE (from ki.prj.estate-factorisation, under ESTATE-CLOSE a), 7 November): repository governance and projection follow-ups are State of play residuals, kept only where still real. Recommended: keep parked and check at the next stock-take.
+
 ### KNOWLEDGE-PLAN - Start the knowledge folder as planned
 
 focus: _emerging
@@ -331,8 +362,3 @@ a) (recommended, confidence high - the mirror is retired and nothing else uses t
 b) Keep both for now.
 
 _Routed from ki.reg.guilds for ki.prj.ways-of-working, 7 November 08:20 GMT._
-
-## Parked
-
-- ALIAS-OWNERS (from ki.prj.estate-factorisation, under ESTATE-CLOSE a), 7 November): territory alias ownership is a governance residual; State of play keeps it parked until a Harness or Principal record owns it. Recommended: keep parked.
-- GOVERNANCE (from ki.prj.estate-factorisation, under ESTATE-CLOSE a), 7 November): repository governance and projection follow-ups are State of play residuals, kept only where still real. Recommended: keep parked and check at the next stock-take.
