@@ -175,6 +175,8 @@
 
 ## Outbound
 
+- 2026-11-06 · MSG-e97dd32c HEALTH/PING · to personal.reg.inbox-terra · listener 110 min · awaiting ACK
+- 2026-11-06 · MSG-82801412 HEALTH/PING · to personal.reg.household-terra · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-61a1d864 HEALTH/PING · to hnr.sop.main · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-998473d8 HEALTH/PING · to hnr.prj.5g-emerge-p2ms3 · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-0774b658 HEALTH/PING · to hnr.prj.site-robots · listener 120 min · awaiting ACK
