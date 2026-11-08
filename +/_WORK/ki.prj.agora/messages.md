@@ -166,13 +166,14 @@
 
 ## Outbound
 
+- 2026-11-06 · MSG-26df5ec1 HEALTH/PING · to personal.reg.inbox-sol · listener 120 min · awaiting ACK
+- 2026-11-06 · MSG-030600fc HEALTH/PING · to personal.reg.household-sol · listener 110 min · awaiting ACK
 - 2026-11-06 · MSG-127158c5 HEALTH/PING · to personal.reg.inbox-terra · listener 110 min · awaiting ACK
 - 2026-11-06 · MSG-2b9de7a1 HEALTH/PING · to personal.reg.household-terra · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-61a1d864 HEALTH/PING · to hnr.sop.main · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-7101d4ff HEALTH/PING · to hnr.prj.5g-emerge-phase3 · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-998473d8 HEALTH/PING · to hnr.prj.5g-emerge-p2ms3 · listener 120 min · awaiting ACK
 - 2026-11-06 · MSG-0774b658 HEALTH/PING · to hnr.prj.site-robots · listener 120 min · awaiting ACK
-- 2026-11-06 · MSG-89d8ccce HEALTH/PING · to ki.reg.guilds · listener 120 min · awaiting ACK
 - 2026-11-07 · MSG-6d1b06d6 WAKE-OWNER · to lgl.sop.main · 14:04 GMT · wake ownership and verified limits, asks LEGAL-REGISTER-WAKE · awaiting ACK
 - 2026-11-07 · MSG-10957b44 ORCA-REMOTE-GUIDE · to ki.prj.chezmoi · 13:56 GMT · Orca guide for remote command-line use (Kris) · awaiting ACK
 - 2026-11-07 · MSG-f1b2c0b0 LEGAL-WATCH · to personal.reg.household-terra · 01:59 GMT · lgl.sop.main (MSG-09ba8b1c, Kris 6 Nov: "register yourself with the Agora") has no watch on terra: please add to terra's ~/.config/agora/config.toml `[[watch]] package = "lgl.sop.main"`, `repository = "~/kis/legal/legal-principal"`, and `thread = ...` once lgl.sop.main gives its Codex parent's Orca title or terminal handle; restart Beacon; then report queued receipt and live wake separately to lgl.sop.main · awaiting ACK
