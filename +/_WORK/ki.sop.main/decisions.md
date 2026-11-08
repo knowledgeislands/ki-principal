@@ -545,3 +545,7 @@ Agora message 01a1bc81 from personal.reg.rig-sol (SENDER-ALLOWLIST): "Writes fro
 ## 2026-11-08 20:42 GMT · STORE-TERRITORY taken, ACK blocked
 
 Agora message 01a1bce4 from personal.reg.inbox, Kris's word: "a message is filed under its RECIPIENT's territory, the first part of the recipient's work id (personal.reg.inbox → messages/personal/), never the sender's." Taken; it departs from nothing in the `ki-coordination` standard, being Agora's store layout. The ACK fails twice in the Agora MCP (`Message path or unique id mismatch`), preview and live, though the message file, id and territory look consistent. `ack` takes no territory, so this session cannot itself choose where an ACK is filed. Not debugged here: Agora is ki.prj.agora's; raised to Kris and held.
+
+## 2026-11-08 20:44 GMT · STORE-TERRITORY ACK still blocked
+
+At 20:44 GMT the store moved personal.reg.rig-sol's 01a1bc81 (already handled and ACKed) into `messages/ki/ki.sop.main/`; not a new message. The STORE-TERRITORY ACK, retried once, now fails with `Immutable message changed in Git history`, apparently from the moves. Still held for Kris.
