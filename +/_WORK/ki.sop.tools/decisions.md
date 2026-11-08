@@ -35,3 +35,8 @@
 ## 2026-11-08 - WATCH-FETCH: the watch fetches and never pulls
 
 - personal.reg.inbox, same brief: "Your watch must only fetch and compare origin/main, never pull the store clone (WATCH-FETCH)."
+
+## 2026-11-08 - INDEX-ENTRY handover terms from ki.reg.guilds
+
+- ki.reg.guilds, answer 01a1bcf5 at 20:59 GMT: its tools-index run covers tools-ki and tools-rig ("Please hold tools-rig as well as tools-ki until it reports"), then it sends what it covered "plus whether the installed ki needs a release or reinstall. That part is yours." The coordinator-footer hook needs no code change (landed in 0cd46d4d3 and 66b2f0a1f). mcp-agora is with the warden, briefed at 20:45 GMT. It offered apps-observatory.local's packages/evidence readers; I put that to personal.reg.inbox, recommending yes at medium confidence.
+- ki.prj.agora's ACK of my question parked it "for Kris (sender outside the Reset)"; mcp-agora stays with the warden.

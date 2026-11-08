@@ -22,12 +22,12 @@ syncing_status: off
 
 ## Queue
 
-- INDEX-ENTRY tools-ki and coordinator-footer hook: waiting on ki.reg.guilds's handover.
-- INDEX-ENTRY mcp-agora: waiting on ki.prj.agora's choice.
+- INDEX-ENTRY tools-ki: ki.reg.guilds's tools-index run is making the change; take over what's left, including a reinstall check (any release goes to Kris).
+- INDEX-ENTRY apps-observatory.local: waiting on personal.reg.inbox's answer.
 
 ## Next steps
 
-1. INDEX-ENTRY tools-rig needs no change: the rig-index run found no reference to a package's `work.md` (20:57 GMT). Launch tools-ki, the hook and mcp-agora as their answers land; reply to personal.reg.inbox with what landed and where.
+1. INDEX-ENTRY: tools-rig and the hook need no change; mcp-agora is with the warden. When tools-index reports, finish tools-ki; reply to personal.reg.inbox with what landed and where.
 2. Act on Agora messages from Kris or the six reset sessions as they land; park anything else.
 
 ## Held
