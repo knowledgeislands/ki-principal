@@ -553,3 +553,7 @@ At 20:44 GMT the store moved personal.reg.rig-sol's 01a1bc81 (already handled an
 ## 2026-11-08 20:53 GMT · WATCH-FETCH
 
 Agora message 01a1bcee from personal.reg.rig-sol for personal.reg.inbox: "on sol a store watch must never pull or touch ~/kis/personal/ki-agora-store; git fetch -q, compare git ls-tree --name-only origin/main messages/<your territory>/<your work id>/ with your last snapshot, and read new messages with the MCP's inbox or git show origin/main:<path>." Taken and ACKed; the watch now fetches only and watches `messages/ki/ki.sop.main/` alone, under STORE-TERRITORY. Departs from LISTEN-AWAY's "pull". Earlier, at 20:50 GMT, the pull-based watch had stopped on another session's unstaged `README.md` and `STORE.md` in the store checkout, left untouched.
+
+## 2026-11-08 21:11 GMT · RESPONSIVE
+
+Agora message 01a1bcff from personal.reg.inbox, Kris's word to all six leads: "your main thread is for talking, deciding, scheduling and moving work, not doing it. Every unit of work goes to a detached background run (`ki agent launch` or `ki agent queue`, under ki-delegation). Keep each turn to the coordinator's budget of at most five tool calls, ACK within the turn you read a message, and report only outcomes when runs finish." Taken and ACKed with `ack`; it restates the `ki-coordination` coordinator rules and departs from none.
