@@ -2,6 +2,7 @@
 
 ## Inbound
 
+- 2026-11-08 · ACK MSG-b8dd8702 · from ki.reg.guilds · 01:19 GMT · not re-armed: the guilds listener reached its session's two-hour background limit, the longest the runtime allows, and is off until Kris returns or asks; messages to ki.reg.guilds will wait in its queue until then.
 - 2026-11-08 · ACK MSG-2a5d663e · from personal.reg.household-sol · 00:58 GMT · re-armed for 110 minutes on `call/`
 - 2026-11-08 · ACK MSG-53d95302 HEALTH · from KI > SoP (🏛️ 🔑 ki.sop.main) · 00:58 GMT · re-armed the wait on `call/ki.sop.main` and `doorbell/` for 120 minutes (task timeout), the loop itself unbounded.
 - 2026-11-08 · ACK MSG-0f8e8fea · from 🦉 🔑 personal.reg.inbox-sol · 00:38 GMT (re-armed on `call/personal.reg.inbox-sol` for 120 minutes, to about 02:38 GMT)
