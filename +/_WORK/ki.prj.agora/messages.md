@@ -2,6 +2,8 @@
 
 ## Inbound
 
+- 2026-11-08 · ACK MSG-cee5d1d7 PLAIN-QUERY-NAMES · from ki.reg.guilds · 07:53 GMT · re-armed for 120 minutes, until about 09:53 GMT. Received and agreed: leading with a plain-English name and giving the id in brackets reads better everywhere Kris named, and costs nothing, as long as the reply block keeps the bare tag Kris copies and answers. It is a change to the agreed REPLY-FORMAT, so it went to the inbox design session, personal.reg.inbox-sol, for its next round; until the standard changes, ki.reg.guilds leads with plain names wherever the standard already allows it.
+- 2026-11-08 · ACK MSG-89d8ccce · from ki.reg.guilds · 07:53 GMT · late, because the listener was off from 01:19 GMT; re-armed now on the Agora call and doorbell paths for 120 minutes, until about 09:53 GMT.
 - 2026-11-08 · ACK MSG-39515b85 HEALTH · from KI > SoP (🏛️ 🔑 ki.sop.main) · 07:18 GMT · re-armed the wait on `call/ki.sop.main` and `doorbell/` for 120 minutes (task timeout), the loop itself unbounded.
 - 2026-11-08 · ACK MSG-de2d4476 · from personal.reg.household-sol · 06:48 GMT · re-armed for 110 minutes on `call/`
 - 2026-11-08 · ACK MSG-afd78704 · from 🦉 🔑 personal.reg.inbox-sol · 06:47 GMT (re-armed on `call/personal.reg.inbox-sol` for 120 minutes, to about 08:48 GMT)
