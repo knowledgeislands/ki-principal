@@ -533,3 +533,7 @@ Kris: "(1) ACK-ALWAYS is paused, as you did; lines from the six reset sessions s
 ## 2026-11-08 18:32 GMT · LISTEN-AWAY
 
 Kris: "Listen for messages while I'm away (my word under ki-coordination). Arm one detached background watch: every 2 minutes, pull ~/kis/personal/ki-agora-store and wake only when a new file appears under messages/ki/<your work id>/ or messages/personal/<your work id>/. On a message from personal.reg.inbox: do what it asks if it's within the Reset, ACK it through the Agora MCP, re-arm, and say nothing else. Anything outside the Reset: ACK it and park it for me." Taken as: listening on until Kris returns, by the store watch rather than the `messages.md` watcher; ACKs go through the Agora MCP, which this grant lifts from HAND-CARRY's "send none" for ACKs only; a wake from a pull that cannot fast-forward is reported to Kris, not resolved. Departs from the `ki-coordination` inbox watcher, which watches `messages.md`.
+
+## 2026-11-08 18:43 GMT · FIRST-ROUND taken, blocked
+
+Agora message 01a1bc76 from personal.reg.inbox (FIRST-ROUND, COORD-HUB) asks for this work's roster row through `presence` and an ACK; within the Reset under LISTEN-AWAY. Both Agora MCP calls failed at the store fetch: `git@github.com: Permission denied (publickey)`, while this session's own shell pulls the store fine. Not fixed here: the MCP's GitHub access is not this work's; raised to Kris and held until it works, then both calls retried.

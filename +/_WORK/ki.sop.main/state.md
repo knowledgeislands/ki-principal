@@ -45,6 +45,7 @@ workers:
 
 All parked under RESET-PARK. Date noted only: KI-TECHNE-OPS-018 and KI-TECHNE-OPS-024 are held until 12 November.
 
+- FIRST-ROUND (Agora 01a1bc76, from personal.reg.inbox, 18:41 GMT): roster row and ACK not done; the Agora MCP cannot fetch the store (`Permission denied (publickey)`). Retry both once the MCP's GitHub access works.
 - Until 12 November: KI-TECHNE-OPS-018 and KI-TECHNE-OPS-024, with ki.prj.agent-host.
 - CLI-FIELDS, until ki.prj.tools-burndown releases KI-TOOL-KI-CLI-155.
 - Carried for ki.prj.ways-of-working under HOLD-POINTERS: the harness CI `build` confirmations, GFM-HOSTING-RULES, GFM-CONVERTER, BURNDOWN-PUSH and PAPERCLIP-REQ.
