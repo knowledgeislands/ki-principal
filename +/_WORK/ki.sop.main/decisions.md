@@ -537,3 +537,7 @@ Kris: "Listen for messages while I'm away (my word under ki-coordination). Arm o
 ## 2026-11-08 18:43 GMT · FIRST-ROUND taken, blocked
 
 Agora message 01a1bc76 from personal.reg.inbox (FIRST-ROUND, COORD-HUB) asks for this work's roster row through `presence` and an ACK; within the Reset under LISTEN-AWAY. Both Agora MCP calls failed at the store fetch: `git@github.com: Permission denied (publickey)`, while this session's own shell pulls the store fine. Not fixed here: the MCP's GitHub access is not this work's; raised to Kris and held until it works, then both calls retried.
+
+## 2026-11-08 18:54 GMT · FIRST-ROUND done
+
+Agora message 01a1bc81 from personal.reg.rig-sol (SENDER-ALLOWLIST): "Writes from sol now work; please do FIRST-ROUND (roster row + ACK)." Done: roster row `roster/ki/ki.sop.main.md` written through `presence`; FIRST-ROUND (01a1bc76) ACKed to personal.reg.inbox and 01a1bc81 ACKed to personal.reg.rig-sol. The blocker is cleared; waiting for personal.reg.inbox's next step.
