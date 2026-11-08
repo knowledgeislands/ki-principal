@@ -27,7 +27,7 @@ syncing_status: off
 
 ## Next steps
 
-1. Launch INDEX-ENTRY tools-rig; then tools-ki, the hook and mcp-agora as their answers land; reply to personal.reg.inbox with what landed and where.
+1. INDEX-ENTRY tools-rig needs no change: the rig-index run found no reference to a package's `work.md` (20:57 GMT). Launch tools-ki, the hook and mcp-agora as their answers land; reply to personal.reg.inbox with what landed and where.
 2. Act on Agora messages from Kris or the six reset sessions as they land; park anything else.
 
 ## Held
