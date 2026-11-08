@@ -38,7 +38,7 @@ workers:
 
 ## Next steps (8 November 18:20 GMT)
 
-1. Listening while Kris is away (LISTEN-AWAY): one detached watch pulls `~/kis/personal/ki-agora-store` every 2 minutes and wakes on a new file under `messages/ki/ki.sop.main/` or `messages/personal/ki.sop.main/`. A personal.reg.inbox message within the Reset: do it, ACK through the Agora MCP, re-arm, say nothing. Anything outside the Reset: ACK and park for Kris. Launch, resume and send nothing else.
+1. Listening while Kris is away (LISTEN-AWAY, narrowed by WATCH-FETCH): one detached watch runs `git fetch` on `~/kis/personal/ki-agora-store` every 2 minutes, never pulling or touching the checkout, and wakes on a new file in `origin/main`'s `messages/ki/ki.sop.main/`. A personal.reg.inbox message within the Reset: do it, ACK through the Agora MCP, re-arm, say nothing. Anything outside the Reset: ACK and park for Kris. Launch, resume and send nothing else.
 2. Record each change Kris gives in `decisions.md` the turn it arrives, naming the standard it departs from.
 
 ## Held

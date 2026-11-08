@@ -549,3 +549,7 @@ Agora message 01a1bce4 from personal.reg.inbox, Kris's word: "a message is filed
 ## 2026-11-08 20:44 GMT · STORE-TERRITORY ACK still blocked
 
 At 20:44 GMT the store moved personal.reg.rig-sol's 01a1bc81 (already handled and ACKed) into `messages/ki/ki.sop.main/`; not a new message. The STORE-TERRITORY ACK, retried once, now fails with `Immutable message changed in Git history`, apparently from the moves. Still held for Kris.
+
+## 2026-11-08 20:53 GMT · WATCH-FETCH
+
+Agora message 01a1bcee from personal.reg.rig-sol for personal.reg.inbox: "on sol a store watch must never pull or touch ~/kis/personal/ki-agora-store; git fetch -q, compare git ls-tree --name-only origin/main messages/<your territory>/<your work id>/ with your last snapshot, and read new messages with the MCP's inbox or git show origin/main:<path>." Taken and ACKed; the watch now fetches only and watches `messages/ki/ki.sop.main/` alone, under STORE-TERRITORY. Departs from LISTEN-AWAY's "pull". Earlier, at 20:50 GMT, the pull-based watch had stopped on another session's unstaged `README.md` and `STORE.md` in the store checkout, left untouched.
