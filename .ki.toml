@@ -32,7 +32,7 @@ store_roles = [
 territory_name = "Knowledge Islands"
 territory_prefix = "knowledge-islands"
 territory_members = [
-  "https://github.com/knowledgeislands/apps-agora.local",
+  "https://github.com/knowledgeislands/apps-cairn.local",
   "https://github.com/knowledgeislands/apps-knowledgeislands.info",
   "https://github.com/knowledgeislands/apps-observatory.local",
   "https://github.com/knowledgeislands/homebrew-tap",
