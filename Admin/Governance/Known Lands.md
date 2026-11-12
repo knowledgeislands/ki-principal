@@ -25,7 +25,7 @@ Each island owns its accepted knowledge or executable behaviour within the share
 
 | Repository | Role | Owned concern |
 | --- | --- | --- |
-| [apps-agora.local][apps-agora.local] | Product | Always-on meeting place for territories on each rig |
+| [apps-cairn.local][apps-cairn.local] | Product | Always-on meeting place for territories on each rig |
 | [apps-knowledgeislands.info][apps-knowledgeislands.info] | Publication | Public source-labelled website |
 | [apps-observatory.local][apps-observatory.local] | Product | Repository and knowledge reader |
 | [homebrew-tap][homebrew-tap] | Delivery | Homebrew distribution |
@@ -109,7 +109,7 @@ KI and mgit derive repository selection from the Capital's ordered territorial r
 
 Membership and ownership changes follow the territory's Enactment Process and the affected repository's authority. A source repository remains a member until a separately verified consolidation and owner-approved retirement disposition changes this inventory.
 
-[apps-agora.local]: https://github.com/knowledgeislands/apps-agora.local
+[apps-cairn.local]: https://github.com/knowledgeislands/apps-cairn.local
 
 [apps-knowledgeislands.info]: https://github.com/knowledgeislands/apps-knowledgeislands.info
 [apps-observatory.local]: https://github.com/knowledgeislands/apps-observatory.local
