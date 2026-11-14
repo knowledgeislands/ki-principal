@@ -22,7 +22,7 @@ Each entry follows the capture principle in [Fictional Lineage](<../Fictional Li
 
 [gstack][gstack] is Garry Tan's open-source (MIT) set of Claude Code slash-command skills that turns one coding agent into a virtual team of specialist roles - a CEO-style product reviewer, an engineering manager, a designer, a code reviewer, a QA lead, a security officer and a release engineer.
 
-**What it informed.** The separation of planning, implementation, review, QA and reflection, with explicit scope control, which the harness `ki-batch` skill records as taken from gstack ([sources][ki-batch-sources]). It also gave the clearest picture of agents as role-holding workers on isolated islands around one shared, evolving source of truth, which became the "How gstack works" explainer below and, from it, the agentic operating system board. gstack itself was declined as an installed skill set, because it would run beside the KI skills as a second, ungoverned skill system; individual ideas such as threat modelling remain candidates for KI skills ([ADR-KI-HARNESS-TOOLCHAIN-002][toolchain-002]).
+**What it informed.** The separation of planning, implementation, review, QA and reflection, with explicit scope control, which the backpack's since-retired `ki-batch` skill recorded as taken from gstack ([sources][ki-batch-sources]). It also gave the clearest picture of agents as role-holding workers on isolated islands around one shared, evolving source of truth, which became the "How gstack works" explainer below and, from it, the agentic operating system board. gstack itself was declined as an installed skill set, because it would run beside the KI skills as a second, ungoverned skill system; individual ideas such as threat modelling remain candidates for KI skills ([ADR-KI-HARNESS-TOOLCHAIN-002][toolchain-002]).
 
 **Kind.** A current influence on roles and work separation; not adopted as tooling.
 
@@ -90,6 +90,6 @@ Two illustrated boards made while working through these influences. Both predate
 [hermes]: https://github.com/NousResearch/hermes-agent
 [openclaw]: https://github.com/openclaw/openclaw
 [openclaw-register]: https://www.theregister.com/2026/02/16/open_ai_grabs_openclaw
-[ki-batch-sources]: https://github.com/knowledgeislands/ki-agent-backpack/blob/main/skills/change-management/ki-batch/references/sources.md
+[ki-batch-sources]: https://github.com/knowledgeislands/ki-agent-backpack/blob/956a01faaab54a7f2038867d699c4f59746b8bbb/skills/work/ki-batch/references/sources.md
 [toolchain-002]: https://github.com/knowledgeislands/ki-agent-backpack/blob/main/docs/decisions/ADR-KI-HARNESS-TOOLCHAIN-002-complementary-tooling-current-adoptions.md
 [sdr-harness-002]: https://github.com/knowledgeislands/ki-agent-backpack/blob/main/docs/decisions/SDR-KI-HARNESS-002-runtime-portable-contracts-and-executor-positioning.md
