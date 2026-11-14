@@ -17,9 +17,9 @@ Knowledge Islands tooling projects release on demand, not per change. A change l
 
 This note is the canonical overview of the cascade. It explains the flow and who moves each step; the repositories own the mechanics:
 
-- release timing: the `ki-repo-tools` [release-on-demand policy](https://github.com/knowledgeislands/ki-agentic-harness/blob/main/skills/repo-structure/ki-repo-tools/references/standards-release-readiness.md#release-on-demand);
-- release steps: each tool's `docs/guides/developer/releasing.md`, such as the [tools-ki releasing guide](https://github.com/knowledgeislands/tools-ki/blob/main/docs/guides/developer/releasing.md), and the harness [MCP source-release guide](https://github.com/knowledgeislands/ki-agentic-harness/blob/main/docs/guides/developer/mcp-source-releases.md);
-- pin rules: the `ki-engineering` pin receiver contract and [XDR-KI-HARNESS-001](https://github.com/knowledgeislands/ki-agentic-harness/blob/e1c6243e514d4bd5cd43585540b229e58cc4c4ca/docs/decisions/XDR-KI-HARNESS-001-dependabot-security-updates-without-auto-merge.md);
+- release timing: the `ki-repo-tools` [release-on-demand policy](https://github.com/knowledgeislands/ki-agent-backpack/blob/main/skills/repository/ki-repo-tools/references/standards-release-readiness.md#release-on-demand);
+- release steps: each tool's `docs/guides/developer/releasing.md`, such as the [tools-ki releasing guide](https://github.com/knowledgeislands/tools-ki/blob/main/docs/guides/developer/releasing.md), and the harness [MCP source-release guide](https://github.com/knowledgeislands/ki-agent-backpack/blob/main/docs/guides/developer/mcp-source-releases.md);
+- pin rules: the `ki-engineering` pin receiver contract and [XDR-KI-HARNESS-001](https://github.com/knowledgeislands/ki-agent-backpack/blob/e1c6243e514d4bd5cd43585540b229e58cc4c4ca/docs/decisions/XDR-KI-HARNESS-001-dependabot-security-updates-without-auto-merge.md);
 - tap sender operations and the release App's key custody: the [GitHub Apps](<../../Governance/Conventions/Admin Conventions/GitHub Apps.md>) convention and the tap's release-App operations guide.
 
 ![Release Cascade diagram](<Release Cascade.svg>)
@@ -37,7 +37,7 @@ The SVG is exported from the Archify source [beside it](<Release Cascade.archify
 | `tools-rig` | `rig` | As `tools-mgit` | Tap formula `rig` | `~/.local/bin/rig` linked to the checkout |
 | `tools-git-almanac` | `git-almanac` | Pushing a `vX.Y.Z` tag runs the Release workflow | Immutable asset, tap formula `git-almanac` | `~/.local/bin/git-almanac` linked to the checkout |
 | `tools-techne` | `techne` | Dispatch the Release workflow | Tap formula `techne` | `~/.local/bin/techne` runs the checkout's source |
-| `ki-agentic-harness` | Skills and rubrics | No release of its own: reaches CI through the Harness pin inside a `ki` release | Inside `ki` | `ki update` refreshes installed Harnesses |
+| `ki-agent-backpack` | Skills and rubrics | No release of its own: reaches CI through the Harness pin inside a `ki` release | Inside `ki` | `ki update` refreshes installed Harnesses |
 | `mcp-*` servers (9) | MCP servers | Annotated tag and GitHub Release by hand; none tagged yet | Source release, installed by `ki mcp` | Installed or run from source |
 | `ki-techne-harness`, `apps-observatory.local` | - | Not released | - | Used from the checkout |
 | `homebrew-tap` | Formulae | Bot pull requests | The tap itself | `brew upgrade` |
@@ -80,8 +80,8 @@ Every released tool sends one `tool-release-published` event to `homebrew-tap`, 
 
 Consumers take on a new `ki` by moving their **pin**, held in one of two places:
 
-- **The receiver pin file**, `.github/ki-version`, read by CI and moved by the `update-ki-pin.yml` receiver workflow. The receiver verifies a new `tools-ki` release and opens a one-line pin-bump pull request, from the event or from a daily schedule. It requests auto-merge only when the diff is the pin file alone and `main` has a ruleset requiring checks. Only `ki-agentic-harness` has it today. The release bot was installed there on 2026-10-09, behind its `main` ruleset, and a manual run of `update-ki-pin.yml` minted the bot token successfully.
-- **An inline `KI_VERSION`** in `ci.yml`. The other twenty `knowledgeislands` repositories use this, all at `v0.8.4` as of October 2026. Nothing proposes a bump; a person edits the line. `ki repo audit` reports it as a CI-1 warning. The harness plans to convert each of them to a receiver that follows the [`ki-engineering` pin receiver contract](https://github.com/knowledgeislands/ki-agentic-harness/blob/e1c6243e514d4bd5cd43585540b229e58cc4c4ca/skills/governance/ki-engineering/references/standards-engineering.md#ci-workflow).
+- **The receiver pin file**, `.github/ki-version`, read by CI and moved by the `update-ki-pin.yml` receiver workflow. The receiver verifies a new `tools-ki` release and opens a one-line pin-bump pull request, from the event or from a daily schedule. It requests auto-merge only when the diff is the pin file alone and `main` has a ruleset requiring checks. Only `ki-agent-backpack` has it today. The release bot was installed there on 2026-10-09, behind its `main` ruleset, and a manual run of `update-ki-pin.yml` minted the bot token successfully.
+- **An inline `KI_VERSION`** in `ci.yml`. The other twenty `knowledgeislands` repositories use this, all at `v0.8.4` as of October 2026. Nothing proposes a bump; a person edits the line. `ki repo audit` reports it as a CI-1 warning. The harness plans to convert each of them to a receiver that follows the [`ki-engineering` pin receiver contract](https://github.com/knowledgeislands/ki-agent-backpack/blob/e1c6243e514d4bd5cd43585540b229e58cc4c4ca/skills/governance/ki-engineering/references/standards-engineering.md#ci-workflow).
 
 A pin bump merges like any other change, and CI then runs the new `ki` and the Harness it pins. Until then, the repository keeps using its older `ki`; an older pin is not a failure.
 
@@ -107,12 +107,12 @@ To use newly delivered capability, rebuild or pull locally; do not cut a release
 | Notifying the tap | Automatic, with a daily backstop | - |
 | Tap formula pull request | Automatic: the bot opens it and it auto-merges after checks | - |
 | Website registry update | Automatic: the bot opens it and it auto-merges after CI | - |
-| Proposing a `ki` pin bump | Automatic in `ki-agentic-harness`, whose receiver has the release bot since 2026-10-09; inline pins elsewhere are edited by hand | Yes: every `knowledgeislands` repository moves to the receiver pin file and `update-ki-pin.yml`, as the [pin receiver contract](https://github.com/knowledgeislands/ki-agentic-harness/blob/e1c6243e514d4bd5cd43585540b229e58cc4c4ca/skills/governance/ki-engineering/references/standards-engineering.md#ci-workflow) describes; the harness owns the rollout |
+| Proposing a `ki` pin bump | Automatic in `ki-agent-backpack`, whose receiver has the release bot since 2026-10-09; inline pins elsewhere are edited by hand | Yes: every `knowledgeislands` repository moves to the receiver pin file and `update-ki-pin.yml`, as the [pin receiver contract](https://github.com/knowledgeislands/ki-agent-backpack/blob/e1c6243e514d4bd5cd43585540b229e58cc4c4ca/skills/governance/ki-engineering/references/standards-engineering.md#ci-workflow) describes; the harness owns the rollout |
 | Merging a `ki` pin bump | Manual review; the Harness updater already requests auto-merge behind its guards | Yes: auto-merge when the diff touches only the pin, required checks pass and the release checksum verifies |
-| Release bot installation | The tap, the website and `ki-agentic-harness` use it | Yes: across all `knowledgeislands` repositories, never outside the organisation |
+| Release bot installation | The tap, the website and `ki-agent-backpack` use it | Yes: across all `knowledgeislands` repositories, never outside the organisation |
 | `brew upgrade` and local rebuilds | Manual: Kris | Stays manual |
 
-Kris approved the automatic rows on 2026-10-09, when the harness settled whether a pin-only `ki` bump may merge itself; [XDR-KI-HARNESS-001](https://github.com/knowledgeislands/ki-agentic-harness/blob/92c6014286a0711b8badf9a8b9fe6294d0780a8d/docs/decisions/XDR-KI-HARNESS-001-dependabot-security-updates-without-auto-merge.md) now carries the exception. The bot is limited to the `knowledgeislands` GitHub organisation: hnr, infoschematics and personal repositories keep manual, reviewed pins. App installation, the App ID variable and private-key secret, the `main` ruleset and each repository's auto-merge setting are GitHub settings only Kris changes.
+Kris approved the automatic rows on 2026-10-09, when the harness settled whether a pin-only `ki` bump may merge itself; [XDR-KI-HARNESS-001](https://github.com/knowledgeislands/ki-agent-backpack/blob/92c6014286a0711b8badf9a8b9fe6294d0780a8d/docs/decisions/XDR-KI-HARNESS-001-dependabot-security-updates-without-auto-merge.md) now carries the exception. The bot is limited to the `knowledgeislands` GitHub organisation: hnr, infoschematics and personal repositories keep manual, reviewed pins. App installation, the App ID variable and private-key secret, the `main` ruleset and each repository's auto-merge setting are GitHub settings only Kris changes.
 
 ---
 

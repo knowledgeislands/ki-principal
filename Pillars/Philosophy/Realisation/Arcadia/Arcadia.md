@@ -13,7 +13,7 @@ status: current - June 2026
 
 ## Overview
 
-Arcadia is the Capital of the Knowledge Islands territory and the home of the model; its `Pillars/` zone is the [Great Library of Arcadia](<Great Library of Arcadia/Great Library of Arcadia.md>), named as the library of all libraries. The Knowledge Islands website (`apps-knowledgeislands.info`, at knowledgeislands.info) is the public publication for the framework. It makes selected knowledge from this base visible beyond the KB and also publishes the agentic harness and KI Specifications. The website is framework-level rather than Arcadia-territory-scoped; the canonical sources remain this KB for philosophy and model, `ki-agentic-harness` for reusable tooling, and `ki-specifications` for normative portable contracts.
+Arcadia is the Capital of the Knowledge Islands territory and the home of the model; its `Pillars/` zone is the [Great Library of Arcadia](<Great Library of Arcadia/Great Library of Arcadia.md>), named as the library of all libraries. The Knowledge Islands website (`apps-knowledgeislands.info`, at knowledgeislands.info) is the public publication for the framework. It makes selected knowledge from this base visible beyond the KB and also publishes the agentic harness and KI Specifications. The website is framework-level rather than Arcadia-territory-scoped; the canonical sources remain this KB for philosophy and model, `ki-agent-backpack` for reusable tooling, and `ki-specifications` for normative portable contracts.
 
 ## The publication principle
 
@@ -22,11 +22,11 @@ The website is an independently deployable publication, not a third source of tr
 The publication flows are:
 
 ```text
-ki-principal -> ki-agentic-harness
+ki-principal -> ki-agent-backpack
 ki-principal -> ki-specifications
 ki-principal -> apps-knowledgeislands.info
-ki-agentic-harness   -> ki-specifications
-ki-agentic-harness   -> apps-knowledgeislands.info
+ki-agent-backpack   -> ki-specifications
+ki-agent-backpack   -> apps-knowledgeislands.info
 ki-specifications    -> apps-knowledgeislands.info
 ```
 

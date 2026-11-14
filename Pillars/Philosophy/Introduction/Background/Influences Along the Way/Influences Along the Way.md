@@ -14,7 +14,7 @@ author: Written with Claude
 
 These are not the inspirations that started Knowledge Islands. Those are the founding approaches in [Prior Art](<../Prior Art/Prior Art.md>) - Zettelkasten, PARA, LLM-native wikis and the Open Knowledge Format - and the real-world lineage told in [History of Knowledge Systems](<../History of Knowledge Systems/History of Knowledge Systems.md>). The projects below were met later, along the journey, while Knowledge Islands was being put to work with agents. Each one informed it: sometimes by being adopted, sometimes by being tried and set aside, and sometimes only by showing an idea clearly.
 
-Each entry follows the capture principle in [Fictional Lineage](<../Fictional Lineage/Fictional Lineage.md>): the source, the idea it contributes, what in Knowledge Islands it informed, and what kind of influence it is. Where the influence is not yet written down anywhere, it says "to be recorded" rather than guessing. None of these entries is an adoption decision; the [Technology Radar](<../../../../Engineering Practice/Technology/Technology Radar.md>) and the KI Agentic Harness decisions hold the engineering posture.
+Each entry follows the capture principle in [Fictional Lineage](<../Fictional Lineage/Fictional Lineage.md>): the source, the idea it contributes, what in Knowledge Islands it informed, and what kind of influence it is. Where the influence is not yet written down anywhere, it says "to be recorded" rather than guessing. None of these entries is an adoption decision; the [Technology Radar](<../../../../Engineering Practice/Technology/Technology Radar.md>) and the KI Agent Backpack decisions hold the engineering posture.
 
 ---
 
@@ -90,6 +90,6 @@ Two illustrated boards made while working through these influences. Both predate
 [hermes]: https://github.com/NousResearch/hermes-agent
 [openclaw]: https://github.com/openclaw/openclaw
 [openclaw-register]: https://www.theregister.com/2026/02/16/open_ai_grabs_openclaw
-[ki-batch-sources]: https://github.com/knowledgeislands/ki-agentic-harness/blob/main/skills/change-management/ki-batch/references/sources.md
-[toolchain-002]: https://github.com/knowledgeislands/ki-agentic-harness/blob/main/docs/decisions/ADR-KI-HARNESS-TOOLCHAIN-002-complementary-tooling-current-adoptions.md
-[sdr-harness-002]: https://github.com/knowledgeislands/ki-agentic-harness/blob/main/docs/decisions/SDR-KI-HARNESS-002-runtime-portable-contracts-and-executor-positioning.md
+[ki-batch-sources]: https://github.com/knowledgeislands/ki-agent-backpack/blob/main/skills/change-management/ki-batch/references/sources.md
+[toolchain-002]: https://github.com/knowledgeislands/ki-agent-backpack/blob/main/docs/decisions/ADR-KI-HARNESS-TOOLCHAIN-002-complementary-tooling-current-adoptions.md
+[sdr-harness-002]: https://github.com/knowledgeislands/ki-agent-backpack/blob/main/docs/decisions/SDR-KI-HARNESS-002-runtime-portable-contracts-and-executor-positioning.md

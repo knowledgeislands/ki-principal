@@ -21,7 +21,7 @@ The [Work Process](<../../Pillars/Philosophy/Model/Processes/Work Process/Work P
 
 ## Context
 
-ki.reg.guilds drafted the changes and asked, in MSG-fa716bdc of 7 November 2026, that they reach Knowledge Islands Principal under one Enactment record. The draft is pinned at [enactment-hold-and-values.md at ki-agentic-harness `f488f951`](https://github.com/knowledgeislands/ki-agentic-harness/blob/f488f951/+/_WORK/ki.reg.guilds/skills/enactment-hold-and-values.md); its exact proposed wording governs, and this record summarises it.
+ki.reg.guilds drafted the changes and asked, in MSG-fa716bdc of 7 November 2026, that they reach Knowledge Islands Principal under one Enactment record. The draft is pinned at [enactment-hold-and-values.md at ki-agent-backpack `f488f951`](https://github.com/knowledgeislands/ki-agent-backpack/blob/f488f951/+/_WORK/ki.reg.guilds/skills/enactment-hold-and-values.md); its exact proposed wording governs, and this record summarises it.
 
 It carries decisions Kris took on 7 November 2026 in the guilds' interactive pass: HOLD-STATES a), whose Work Process note changes go "under one Enactment record"; VALUES-HOME a), "Write once in the Work Process note under an Enactment record, and give `work.md` an optional one-line `## Values` section linking them and adding any of its own"; and HOLD-DIAGRAM a), "Mermaid, the diagram written as text, in the Work Process note under the seven states, with a plain-text version beside it". SNOOZE, SNOOZE-STATE and SNOOZE-HEADING of 6 November 2026 already renamed "more expected" to Snoozing in the note. The harness side has landed in `ki-coordination`'s Putting work on hold and `ki-work-package`'s Work file sections; the note follows their words where they overlap.
 

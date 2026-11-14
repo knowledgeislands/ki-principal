@@ -31,7 +31,7 @@ This Project sits in [Foundations](../Themes/foundations.md). Kris agreed it on 
 | `tools-ki` | 15 |
 | `apps-observatory.local` | 11 |
 | `tools-rig` | 8 |
-| `ki-agentic-harness` | 7 |
+| `ki-agent-backpack` | 7 |
 | `tools-mgit` | 3 |
 | `mcp-acquire-whatsapp` | 2 |
 | `mcp-ki-kb-fs` | 2 |

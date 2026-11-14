@@ -27,8 +27,8 @@ The organisation's own App for the tool release chain: an immutable `tools-*` re
 | Created | 2026-09-20 |
 | Permissions | Contents write, Pull requests write, Metadata read |
 | App ID | 5008264 |
-| Installation | Selected repositories: `apps-knowledgeislands.info`, `homebrew-tap` and `ki-agentic-harness` |
-| Credential holders | `homebrew-tap`, `apps-knowledgeislands.info`, `ki-agentic-harness`, `tools-ki`, `tools-mgit`, `tools-rig`, `tools-techne` and `tools-git-almanac` - per-repository settings, not organisation-level |
+| Installation | Selected repositories: `apps-knowledgeislands.info`, `homebrew-tap` and `ki-agent-backpack` |
+| Credential holders | `homebrew-tap`, `apps-knowledgeislands.info`, `ki-agent-backpack`, `tools-ki`, `tools-mgit`, `tools-rig`, `tools-techne` and `tools-git-almanac` - per-repository settings, not organisation-level |
 | App ID credential | `KI_TOOLS_RELEASE_BOT_APP_ID` - Actions variable, set to 5008264 |
 | Private key credential | `KI_TOOLS_RELEASE_BOT_PRIVATE_KEY` - Actions secret |
 | Key custody | Kris's 1Password, `Rig` vault, item "ki-tools-release-bot private key", attachment `ki-tools-release-bot.2026-10-05.private-key.pem` |
@@ -42,7 +42,7 @@ The original key generated on 2026-09-20 was lost. A replacement key was generat
 
 ### Credential holders
 
-The App is installed on `apps-knowledgeislands.info`, `homebrew-tap` and `ki-agentic-harness`, the repositories it writes to. The tool repositories (`tools-ki`, `tools-mgit`, `tools-rig`, `tools-techne` and `tools-git-almanac`) are not installation targets: they hold the App ID variable and private key secret only so their release workflows can mint an installation token targeting the tap. All 8 repositories hold the credentials in repository-level settings; there is no organisation-level secret or variable.
+The App is installed on `apps-knowledgeislands.info`, `homebrew-tap` and `ki-agent-backpack`, the repositories it writes to. The tool repositories (`tools-ki`, `tools-mgit`, `tools-rig`, `tools-techne` and `tools-git-almanac`) are not installation targets: they hold the App ID variable and private key secret only so their release workflows can mint an installation token targeting the tap. All 8 repositories hold the credentials in repository-level settings; there is no organisation-level secret or variable.
 
 ### Key rotation
 
@@ -70,7 +70,7 @@ On 2026-10-05 the `homebrew-tap` intake run 37317227744 (`workflow_dispatch`) au
 
 On 2026-10-07 the release chain ran end to end: for the `ki` releases v0.8.1 to v0.9.0 and `mgit` v0.16.0, the App opened and auto-merged `homebrew-tap` formula pull requests #23 to #29 and `apps-knowledgeislands.info` registry pull requests #24 to #28.
 
-On 2026-10-09 a manual run of `update-ki-pin.yml` in `ki-agentic-harness` minted the bot's installation token successfully.
+On 2026-10-09 a manual run of `update-ki-pin.yml` in `ki-agent-backpack` minted the bot's installation token successfully.
 
 The tap's sender-side operating procedures live in its [release App operations guide](https://github.com/knowledgeislands/homebrew-tap/blob/8111c9a9944f9f335a6ecfb1cf8c3a20cea6b4be/docs/guides/maintainer/release-app-operations.md) at revision `8111c9a9944f9f335a6ecfb1cf8c3a20cea6b4be`, which cites this note for key custody and rotation.
 
@@ -80,12 +80,12 @@ The tap's sender-side operating procedures live in its [release App operations g
 | --- | --- | --- |
 | `homebrew-tap` | `propose-tool-releases.yml` | Proposes the formula pull request for a new immutable release |
 | `homebrew-tap` | `ci.yml` (notify-consumers job) | Dispatches `tool-release-published` to consumer repositories once the formula reaches `main` |
-| `ki-agentic-harness` | `update-ki-pin.yml` | Proposes a `.github/ki-version` bump when `tools-ki` publishes an immutable release |
+| `ki-agent-backpack` | `update-ki-pin.yml` | Proposes a `.github/ki-version` bump when `tools-ki` publishes an immutable release |
 | `apps-knowledgeislands.info` | `update-tool-release.yml` | Verifies the release, opens or updates the registry pull request and requests squash auto-merge |
 
 In `apps-knowledgeislands.info` the `main` ruleset requires pull requests and the `build` check, with repository admins as the only bypass actor; the App cannot bypass it. The website's decision is [ODR-KI-WEBSITE-001](https://github.com/knowledgeislands/apps-knowledgeislands.info/blob/a2c064ab535842ebfdc65965f79b4b659596c1f5/docs/decisions/ODR-KI-WEBSITE-001-tool-release-updates-auto-merge.md) in `apps-knowledgeislands.info`; it makes a verified tool release the human gate, so a pin-only tool-release pull request merges itself once `build` passes.
 
-In `ki-agentic-harness`, set up on 2026-10-09, the `main` ruleset allows only repository admins to bypass, requires a pull request with 0 approvals and the `build` check, and blocks deletion and force push.
+In `ki-agent-backpack`, set up on 2026-10-09, the `main` ruleset allows only repository admins to bypass, requires a pull request with 0 approvals and the `build` check, and blocks deletion and force push.
 
 ---
 

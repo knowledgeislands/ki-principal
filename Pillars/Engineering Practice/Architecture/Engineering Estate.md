@@ -47,7 +47,7 @@ The personal-controller role coordinates governed work across deterministic, age
 
 ## Ownership Boundaries
 
-Techne owns the architectural roles, relationships and decision criteria. Before overall V1, `ki-specifications` is dormant; repository-local contracts remain with their owners. `ki-agentic-harness` owns reusable agentic capabilities, while `tools-ki` owns deterministic CLI and platform behaviour it implements. Governance authority does not grant infrastructure-control authority.
+Techne owns the architectural roles, relationships and decision criteria. Before overall V1, `ki-specifications` is dormant; repository-local contracts remain with their owners. `ki-agent-backpack` owns reusable agentic capabilities, while `tools-ki` owns deterministic CLI and platform behaviour it implements. Governance authority does not grant infrastructure-control authority.
 
 `ki-techne-harness` owns implementations of the personal-controller and execution-fabric-operator roles. Knowledge Islands Principal retains their architectural meaning and boundaries; assigning one product repository does not merge the roles or make that repository authoritative for governed work, credentials or accepted outcomes. [Techne Fabric Execution Contract](<Techne Fabric Execution Contract.md>) defines the hand-off those implementations must preserve.
 

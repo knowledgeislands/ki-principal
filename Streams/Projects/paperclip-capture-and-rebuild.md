@@ -28,7 +28,7 @@ This Project sits in [Techne](../Themes/techne.md). Hosting the rebuild on `sol`
 - **Permission-update defect.** The agent permission-update defect has no owner; it goes with the fork if the rebuild keeps it.
 - **One service per host, 2026-10-15.** Kris decided on 15 October, as this Project's part of the [Known World](<../../Pillars/Philosophy/Emerging Concepts/Known World.md>) model: 'one Paperclip service per host; each territory's company live only on its seat host and absent on the standby; the Knowledge Islands company live on the hub, with Terra reaching it over the tailnet. This replaces "build on Sol" in its Design phase and leaves the Techne Programme Hold unchanged.'
 - **Old service files kept but inactive, 2026-10-15.** The old Paperclip service files in the chezmoi source (the launchd declaration, plist and scripts) stay there until the per-host rebuild is designed, but must not be active on `terra` or `sol`. Kris, 15 October: 'Keep them till the per host rebuild is designed. Ensure that it isn't used by either terra or sol for now though.' The Rig: chezmoi thread carries it.
-- **Six agent branches kept, 2026-10-15.** Kris decided on 15 October to keep the six unmerged `paperclip/aligned-20260926/*` branches until the per-host rebuild is planned: hnr-principal HNR-15 and HNR-49, hnr-agentic-harness HNR-30 and HUM-21, hnr-shared HNR-38, and tools-ki KIS-46. When the rebuild is planned, one run per repository triages its branches, bringing each into that repository's roadmap or deleting it.
+- **Six agent branches kept, 2026-10-15.** Kris decided on 15 October to keep the six unmerged `paperclip/aligned-20260926/*` branches until the per-host rebuild is planned: hnr-principal HNR-15 and HNR-49, hnr-agent-backpack HNR-30 and HUM-21, hnr-shared HNR-38, and tools-ki KIS-46. When the rebuild is planned, one run per repository triages its branches, bringing each into that repository's roadmap or deleting it.
 
 ### Capture
 
@@ -53,7 +53,7 @@ Waits on the [ways-of-working](ways-of-working.md) model. Questions to settle:
 - **Heartbeats and continuity.** Whether any timer heartbeat is justified, and which organisations run continuously.
 - **Execution workspaces.** The worktree policy, and how a reviewed candidate reaches local main.
 - **Logins, budgets and skills.** Login isolation per organisation, budgets, and KI skills through mise.
-- **Coordination rules.** Agent instructions should cite the harness [coordination skill](../../../ki-agentic-harness/skills/agentic-systems/ki-agent-coordination-paperclip/SKILL.md) rather than restate its rules, so agents cannot act on a diverged copy.
+- **Coordination rules.** Agent instructions should cite the harness [coordination skill](../../../ki-agent-backpack/skills/agentic-systems/ki-agent-coordination-paperclip/SKILL.md) rather than restate its rules, so agents cannot act on a diverged copy.
 - **Run MCP connection.** Verify that a local Paperclip run reaches the host's mcporter bridge through a granted remote MCP connection, so coordination conformance rests on live evidence.
 - **Naming themes.** Each company's agent naming theme belongs in its home repository: VA Sanskrit role-nouns (confirmed), TMX ordinary first names capped at three (Kris's choice); HNR one-word nicknames, the personal company archaic `-eth` verbs and ER Greek personifications of justice were proposed; LGL Norse law deities and KI trade and office nouns were only inferred.
 

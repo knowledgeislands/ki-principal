@@ -82,7 +82,7 @@ The evidence envelope is proportionate to consequence. A read-only documentation
 
 - **Knowledge Islands Principal** owns the engineering meaning, responsibilities, invariants and decision criteria in this chapter.
 - **`ki-specifications`** remains dormant before overall V1; repository-local schemas and conformance rules remain with their implementation owners.
-- **`ki-agentic-harness`** owns reusable agentic capabilities and harness-compatible semantics that implementations can expose.
+- **`ki-agent-backpack`** owns reusable agentic capabilities and harness-compatible semantics that implementations can expose.
 - **`tools-ki`** owns CLI and deterministic platform behaviour it implements; governance commands do not thereby become fabric operation.
 - **`ki-techne-harness` personal-controller implementation** owns persona continuity, execution identity, context binding, delegated authority, credential brokerage, supervision and result integration in runnable software.
 - **`ki-techne-harness` execution-fabric-operator implementation** owns admission enforcement, provisioning, dispatch, observation, evidence return and cleanup through replaceable adapters.

@@ -59,7 +59,7 @@ The ADR fixes six stages. Each has an owner for its mechanics; the receiving isl
 | Durable knowledge | Accepted notes in canonical zones | Receiving island, under its Enactment Process |
 | Archive or delete source | Retire a staged copy or provider-side source | See [Source retirement](#source-retirement) |
 
-Reusable provider-facing skills and their paired adapter surfaces belong to `ki-agentic-harness`.
+Reusable provider-facing skills and their paired adapter surfaces belong to `ki-agent-backpack`.
 
 ---
 

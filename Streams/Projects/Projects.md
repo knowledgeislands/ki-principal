@@ -154,7 +154,7 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## Tools burndown
 
-[tools-burndown](tools-burndown.md) burns the `tools-ki`, `tools-mgit` and `tools-git-almanac` roadmaps and the CLI-shaped `ki-agentic-harness` records down to zero, ending with the `ki` and `mgit` releases.
+[tools-burndown](tools-burndown.md) burns the `tools-ki`, `tools-mgit` and `tools-git-almanac` roadmaps and the CLI-shaped `ki-agent-backpack` records down to zero, ending with the `ki` and `mgit` releases.
 
 ---
 

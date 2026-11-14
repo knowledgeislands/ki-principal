@@ -15,7 +15,7 @@ author: Written with Claude
 
 ## Outcome
 
-Extract a timeline and calendar skill from the 5G Emerge phase 3 calendar component - its calendar registry, its `.ics` builder, its List, Months and Runway views and its subscribable `.ics` feeds - starting from the existing calendar record in the `ki-agentic-harness` roadmap. Each knowledge base keeps its key dates, due dates and milestones and can publish one or more calendar sets to subscribe to. Each item states its busy status; today the component writes every event as free.
+Extract a timeline and calendar skill from the 5G Emerge phase 3 calendar component - its calendar registry, its `.ics` builder, its List, Months and Runway views and its subscribable `.ics` feeds - starting from the existing calendar record in the `ki-agent-backpack` roadmap. Each knowledge base keeps its key dates, due dates and milestones and can publish one or more calendar sets to subscribe to. Each item states its busy status; today the component writes every event as free.
 
 The first adopters are legal-principal, personal-principal and 5G Emerge. legal-principal's "FR Timeline to FDR" gantt stays as Mermaid until this Project lands.
 

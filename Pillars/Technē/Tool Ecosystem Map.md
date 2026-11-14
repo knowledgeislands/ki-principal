@@ -15,7 +15,7 @@ The Knowledge Islands tooling layer combines governed knowledge, reusable capabi
 | Repository | Role | Owned concern |
 | --- | --- | --- |
 | `ki-principal` | Capital and knowledge | Philosophy, governance and engineering practice |
-| `ki-agentic-harness` | Reusable capabilities | Agent-facing contracts and conformance |
+| `ki-agent-backpack` | Reusable capabilities | Agent-facing contracts and conformance |
 | `tools-ki` | Governance host | Executable KI operations and projections |
 | `ki-techne-harness` | Implementation product | Controller and execution fabric |
 | `tools-techne` | Implementation product | Operator CLI, diagnostics and releases |
@@ -26,7 +26,7 @@ The Knowledge Islands tooling layer combines governed knowledge, reusable capabi
 
 [Engineering Practice](<../Engineering Practice/Engineering Practice.md>) is Knowledge Islands Principal's canonical engineering discipline. [Implementation ownership](../../Admin/Governance/Decisions/ADR-KI-PRINCIPAL-006-techne-implementation-ownership.md) preserves the separate harness and CLI product boundaries; neither product becomes the knowledge owner.
 
-Reusable agentic capabilities belong to the KI Agentic Harness. The `ki` executable owns its implemented governance operations; governance does not become infrastructure control through proximity to a controller or provider.
+Reusable agentic capabilities belong to the KI Agent Backpack. The `ki` executable owns its implemented governance operations; governance does not become infrastructure control through proximity to a controller or provider.
 
 ## Integrations and publication
 

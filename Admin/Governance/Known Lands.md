@@ -29,7 +29,7 @@ Each island owns its accepted knowledge or executable behaviour within the share
 | [apps-knowledgeislands.info][apps-knowledgeislands.info] | Publication | Public source-labelled website |
 | [apps-observatory.local][apps-observatory.local] | Product | Repository and knowledge reader |
 | [homebrew-tap][homebrew-tap] | Delivery | Homebrew distribution |
-| [ki-agentic-harness][ki-agentic-harness] | Capability | Reusable agentic contracts |
+| [ki-agent-backpack][ki-agent-backpack] | Capability | Reusable agentic contracts |
 | [ki-design][ki-design] | Capability | Shared design system |
 | [ki-principal][ki-principal] | Capital | KI governance, model and engineering practice |
 | [ki-specifications][ki-specifications] | Standards | Portable contracts after V1 |
@@ -50,7 +50,7 @@ Each island owns its accepted knowledge or executable behaviour within the share
 
 Knowledge Islands Principal's [Engineering Practice](<../../Pillars/Engineering Practice/Engineering Practice.md>) is the canonical home of Techné's engineering knowledge and decisions. The former source repository, [ki-techne-principal][ki-techne-principal], was retired on 4 October 2026 under [KI-PRINCIPAL-ECO-008](https://github.com/knowledgeislands/ki-principal/blob/7809c906a8e9531d1986ac6123932b03ac062b97/Streams/Roadmap/KI-ARCADIA-ECO-008-disposition-retained-techne-source.md): it is archived read-only as historical evidence, is no longer a member, and holds no live work. The [Techne Programme Focus](<Policies/Techne Programme Focus.md>) narrows Techné Harness and `tools-techne` to building and running the agent host and the Mac Studio, keeping all other Techné work as ideas. The two implementation products retain independent ownership; local development continues under their repository standards, and knowledge adoption does not itself change services or accept candidates.
 
-The former [ki-plugins][ki-plugins] Claude plugin projection was retired on 5 October 2026 under [KI-PRINCIPAL-ECO-010](https://github.com/knowledgeislands/ki-principal/blob/7809c906a8e9531d1986ac6123932b03ac062b97/Streams/Roadmap/KI-ARCADIA-ECO-010-retire-ki-plugins.md) and the harness decision [ADR-KI-HARNESS-015](https://github.com/knowledgeislands/ki-agentic-harness/blob/92c6014286a0711b8badf9a8b9fe6294d0780a8d/docs/decisions/ADR-KI-HARNESS-015-retire-the-claude-plugin-projection.md): it is archived read-only, is no longer a member, and is not a distribution surface. The `ki` CLI installs the harness, and `npx skills add` is the quick skills-only route.
+The former [ki-plugins][ki-plugins] Claude plugin projection was retired on 5 October 2026 under [KI-PRINCIPAL-ECO-010](https://github.com/knowledgeislands/ki-principal/blob/7809c906a8e9531d1986ac6123932b03ac062b97/Streams/Roadmap/KI-ARCADIA-ECO-010-retire-ki-plugins.md) and the harness decision [ADR-KI-HARNESS-015](https://github.com/knowledgeislands/ki-agent-backpack/blob/92c6014286a0711b8badf9a8b9fe6294d0780a8d/docs/decisions/ADR-KI-HARNESS-015-retire-the-claude-plugin-projection.md): it is archived read-only, is no longer a member, and is not a distribution surface. The `ki` CLI installs the harness, and `npx skills add` is the quick skills-only route.
 
 The former [mcp-housekeeping-codex][mcp-housekeeping-codex] Codex housekeeping MCP was retired on 11 October 2026 under state-of-play owner decisions 37 and 40, after its Codex tools merged into [mcp-housekeeping-chatgpt][mcp-housekeeping-chatgpt]: it is archived read-only and is no longer a member.
 
@@ -114,7 +114,7 @@ Membership and ownership changes follow the territory's Enactment Process and th
 [apps-knowledgeislands.info]: https://github.com/knowledgeislands/apps-knowledgeislands.info
 [apps-observatory.local]: https://github.com/knowledgeislands/apps-observatory.local
 [homebrew-tap]: https://github.com/knowledgeislands/homebrew-tap
-[ki-agentic-harness]: https://github.com/knowledgeislands/ki-agentic-harness
+[ki-agent-backpack]: https://github.com/knowledgeislands/ki-agent-backpack
 [ki-design]: https://github.com/knowledgeislands/ki-design
 [ki-principal]: https://github.com/knowledgeislands/ki-principal
 [ki-plugins]: https://github.com/knowledgeislands/ki-plugins
