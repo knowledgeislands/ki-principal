@@ -32,7 +32,7 @@ Each entry follows the capture principle in [Fictional Lineage](<../Fictional Li
 
 [Paperclip][paperclip] is Paperclip Labs' open-source (MIT) orchestration app for teams of AI agents: a server and dashboard with org charts, roles and reporting lines, heartbeats that wake agents for work, budgets and approval gates. Its own framing is that an agent is the employee and Paperclip is the company.
 
-**What it informed.** Knowledge Islands ran Paperclip on `terra` from late September to 14 October 2026, with one company per territory, a CEO agent, a project per repository and a Coordination project. That practice set the position that a coordination plane schedules and tracks agents while repositories remain the authority for knowledge and work, that Paperclip completion is never KI acceptance, and that a CEO cannot review its own work. The lessons are in [Paperclip Operating Lessons](<../../../../Engineering Practice/Operating Model/Paperclip Operating Lessons.md>), and the boundary rules in the harness `ki-agent-coordination-paperclip` skill. Kris stopped the service on 2026-10-14 intending to recreate it fresh with the same approach.
+**What it informed.** Knowledge Islands ran Paperclip on `terra` from late September to 14 October 2026, with one company per territory, a CEO agent, a project per repository and a Coordination project. That practice set the position that a coordination plane schedules and tracks agents while repositories remain the authority for knowledge and work, that Paperclip completion is never KI acceptance, and that a CEO cannot review its own work. The lessons are in [Paperclip Operating Lessons](<../../../../Engineering Practice/Operating Model/Paperclip Operating Lessons.md>), and the boundary rules were in the backpack's `ki-agent-coordination-paperclip` skill, since retired. Kris stopped the service on 2026-10-14 intending to recreate it fresh with the same approach.
 
 **Kind.** A current architectural influence on coordination, roles and independent review.
 
@@ -54,7 +54,7 @@ Each entry follows the capture principle in [Fictional Lineage](<../Fictional Li
 
 **What it informed.** That Knowledge Islands sits above the agent runtime rather than inside one: Hermes is the intended first conforming environment for persistent, scheduled, steward-style work beside Claude Code, and its self-improving skills sharpened the rule that learned behaviour is proposed, never silently promoted ([SDR-KI-HARNESS-002][sdr-harness-002]). In the engineering estate it is a candidate personal-controller reasoning capability, not the definition of the controller role ([Engineering Estate](<../../../../Engineering Practice/Architecture/Engineering Estate.md>), [Technology Radar](<../../../../Engineering Practice/Technology/Technology Radar.md>)).
 
-**Kind.** A current architectural influence on the agent host and harness portability.
+**Kind.** A current architectural influence on the agent host and backpack portability.
 
 ---
 
@@ -62,7 +62,7 @@ Each entry follows the capture principle in [Fictional Lineage](<../Fictional Li
 
 [OpenClaw][openclaw] is an open-source (MIT) personal AI assistant created by Peter Steinberger, which runs on the user's own machine and works through the chat apps they already use - Discord, Slack, Telegram, WhatsApp and others - through one gateway process. It was first called Clawdbot, then Moltbot; Steinberger joined OpenAI in February 2026 and the project is now stewarded by the OpenClaw Foundation ([The Register][openclaw-register]).
 
-**What it informed.** It is one of the runtimes that showed agent tooling settling into layers, with Knowledge Islands as governance above them; OpenClaw is deferred until a multi-channel gateway is specifically needed ([SDR-KI-HARNESS-002][sdr-harness-002]). Its personal-agent model is the "employee" in Paperclip's framing, which fits the Knowledge Islands view of agents as workers. The harness also uses mcporter, Steinberger's MCP toolkit now under the OpenClaw organisation, as its MCP proxy ([ADR-KI-HARNESS-TOOLCHAIN-002][toolchain-002]). Anything further, to be recorded.
+**What it informed.** It is one of the runtimes that showed agent tooling settling into layers, with Knowledge Islands as governance above them; OpenClaw is deferred until a multi-channel gateway is specifically needed ([SDR-KI-HARNESS-002][sdr-harness-002]). Its personal-agent model is the "employee" in Paperclip's framing, which fits the Knowledge Islands view of agents as workers. The backpack also uses mcporter, Steinberger's MCP toolkit now under the OpenClaw organisation, as its MCP proxy ([ADR-KI-HARNESS-TOOLCHAIN-002][toolchain-002]). Anything further, to be recorded.
 
 **Kind.** A point of comparison; deferred.
 
