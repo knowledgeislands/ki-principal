@@ -2,6 +2,8 @@
 
 This is the runtime-neutral working convention for Knowledge Islands Principal, the island: a structured repository of knowledge in folders and Markdown files. The `ki-repo-kb` skill and its overlays declared in `.ki.toml` own the reusable method; this file keeps the island's identity, authority and local choices.
 
+Before substantive island work, read [MEMORY](Admin/MEMORY.md) and follow its scope cascade.
+
 ## Territorial authority
 
 Knowledge Islands Principal is the Capital of the Knowledge Islands territory. [Charter](Admin/Governance/Charter.md) declares its authority and [Known Lands](<Admin/Governance/Known Lands.md>) owns the internal inventory and external signposting. Territory-derived repository selection, registry resolution and Paperclip companies confer no jurisdiction or cross-repository write authority. Each island retains its source access, canonical acceptance and product ownership.
