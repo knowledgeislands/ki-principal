@@ -1,6 +1,6 @@
 ---
 note_type: streams/index
-updated: 2026-10-20T04:14:07Z
+updated: 2026-11-17T03:13:00Z
 author: Written with Claude
 ---
 
@@ -58,7 +58,7 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## Estate factorisation
 
-[estate-factorisation](estate-factorisation.md) finishes factorising the estate: structure vocabulary, ownership seams, MCP policy evidence, a single OpenAI housekeeping product, distribution and per-repository alignment. The note carries the phases and their gates.
+[estate-factorisation](estate-factorisation.md), completed on 17 November 2026, set out to factorise the estate: structure vocabulary, ownership seams, MCP policy evidence, a single OpenAI housekeeping product, distribution and per-repository alignment. It delivered the single OpenAI housekeeping product; the note keeps the other phases as ideas.
 
 ---
 

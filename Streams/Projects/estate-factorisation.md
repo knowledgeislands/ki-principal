@@ -4,10 +4,10 @@ slug: estate-factorisation
 title: Estate factorisation
 outcome: The Knowledge Islands estate is factorised - consistent repository structure vocabulary, explicit ownership seams, behavioural MCP policy evidence, a single OpenAI housekeeping product, observable copies and running systems, and one alignment item per surviving repository.
 theme: foundations
-lifecycle: active
+lifecycle: completed
 lead: Kris Brown
 target: null
-updated: 2026-10-11T02:38:15Z
+updated: 2026-11-17T03:13:00Z
 author: Written with Claude
 ---
 
@@ -24,6 +24,8 @@ This Project sits in [Foundations](../Themes/foundations.md). [baseline-rollout]
 ## Notes
 
 ### Phases
+
+OAI-1 was delivered; the other phases, FND-3 to EVAL-2, are kept here as ideas. None is tracked, and any one is taken up only as a record in its owning repository.
 
 - **FND-3 - repository structure vocabulary.** Owner: Agentic Harness standards; Knowledge Islands Principal keeps the estate structure register.
 - **FND-4 - documentary and configuration drift.** Owner: each affected repository.
@@ -54,4 +56,6 @@ Phase specifications (purpose, deliverables, completion gates, dependencies) are
 
 ### Close-out assessment
 
-Only early groundwork has been delivered against the Outcome. Four records finished: the Harness and its MCPs share one recovery and dry-run safety contract, released `ki` pins bump automatically through a receiver workflow, and Knowledge Islands Principal now documents the release bot App and the release cascade. None of the phase gates is met. FND-3 to EVAL-2 remain untracked ideas in the Phases list above; none has graduated into a record, including FND-5, which opens the rest. OAI-1, retiring `mcp-housekeeping-codex` into `mcp-housekeeping-chatgpt`, was delivered directly on 11 October 2026 under state-of-play owner decisions 37 and 40. No follow-up has been captured. The Project stays `active` until Kris decides whether to capture the next phase in its owning repository or to close the Project and leave the phases as ideas.
+Written 17 November 2026. Delivered against the Outcome: OAI-1, retiring `mcp-housekeeping-codex` into `mcp-housekeeping-chatgpt`, delivered on 11 October 2026 under state-of-play owner decisions 37 and 40; and early groundwork in four finished records: the Harness and its MCPs share one recovery and dry-run safety contract, released `ki` pins bump automatically through a receiver workflow, and Knowledge Islands Principal documents the release bot App and the release cascade.
+
+Not delivered: none of the phase gates is met. FND-3 to EVAL-2 stay in the Phases list above as ideas, none graduated into a record. The retirement note's routed items now live wherever their receivers went: the agent host was deleted on 9 November and is kept as an idea in `ki-techne-harness`, the Observatory is retired, the `ki` CLI work sits with the tools work, the Rig follow-ups with the rig work, and the rollout checkpoint with [baseline-rollout](baseline-rollout.md). Kris chose to retire the Project rather than capture its next phase on 25 October 2026 (PROJECT-CLOSE a), and completed it on 17 November 2026, taking ESTATE-CLOSE a.
