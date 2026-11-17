@@ -3,14 +3,20 @@ note_type: stream-roadmap
 id: KI-PRINCIPAL-MOD-012
 area: MOD
 title: Hold states and values
+kind: deliver
+purpose: governance
+theme: model
+component: model
 priority: medium
 size: s
-status: triage
+status: draft
+horizon: now
 assignee: owner
 blocks: []
 blocked_by: []
+baseline_ref: null
 created_at: 2026-11-07T05:32:00Z
-updated_at: 2026-11-07T05:32:00Z
+updated_at: 2026-11-17T03:36:00Z
 ---
 
 # Hold States and Values in the Work Process Note
@@ -54,3 +60,9 @@ The draft also records an exception, HOLD-TERRA a): `personal.reg.household-terr
 ## Governance
 
 This roadmap record adheres to the [Enactment Process](<../../Admin/Operations/Processes/Enactment Process.md>). Move content to `Admin/`, `Pillars/`, or `Resources/` only on user approval of a `ready` record. Kris's HOLD-STATES a) answer of 7 November 2026 asks for this record; adoption, the exact wording and acceptance are separate owner decisions.
+
+## Discussion
+
+### Adoption
+
+Adopted as a draft for Now on 17 November 2026 under ADOPT-MOD-012 a, taken in ki.summit's legacy change from ki.sop.main on Kris's word, as his HOLD-STATES a) of 7 November 2026 asked. The draft's wording is not yet applied to the Work Process note: the first step re-grounds it against the current note, which still lacks the idle hold, the Values section and the flow diagram, and the exact wording then goes to Kris for Enactment review.
