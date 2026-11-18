@@ -17,7 +17,7 @@ Knowledge Islands tooling projects release on demand, not per change. A change l
 
 This note is the canonical overview of the cascade. It explains the flow and who moves each step; the repositories own the mechanics:
 
-- release timing: the `ki-repo-tools` [release-on-demand policy](https://github.com/knowledgeislands/ki-agent-backpack/blob/main/skills/repository/ki-repo-tools/references/standards-release-readiness.md#release-on-demand);
+- release timing: the `ki-repo-tools` [release-on-demand policy](https://github.com/knowledgeislands/ki-agent-backpack/blob/main/skills/repository/ki-repo-tools/references/standard-release-readiness.md#41-release-on-demand);
 - release steps: each tool's `docs/guides/developer/releasing.md`, such as the [tools-ki releasing guide](https://github.com/knowledgeislands/tools-ki/blob/main/docs/guides/developer/releasing.md), and the harness [MCP source-release guide](https://github.com/knowledgeislands/ki-agent-backpack/blob/main/docs/guides/developer/mcp-source-releases.md);
 - pin rules: the `ki-engineering` pin receiver contract and [XDR-KI-HARNESS-001](https://github.com/knowledgeislands/ki-agent-backpack/blob/e1c6243e514d4bd5cd43585540b229e58cc4c4ca/docs/decisions/XDR-KI-HARNESS-001-dependabot-security-updates-without-auto-merge.md);
 - tap sender operations and the release App's key custody: the [GitHub Apps](<../../Governance/Conventions/Admin Conventions/GitHub Apps.md>) convention and the tap's release-App operations guide.
