@@ -211,7 +211,7 @@ Streams/
 └── diagrams/
 ```
 
-**Git is the logbook.** `git log -- +/_WORK/<id>/` is the history. Every session commits each completed unit by explicit path before its turn ends, under [Committing the work folder](https://github.com/knowledgeislands/ki-agent-backpack/blob/main/skills/work/ki-coordination/references/standard-coordination.md#481-committing-the-work-folder), which owns the commit and sync cadence. Move commits carry the move in their subjects: `docs(work): ki.prj.ways-of-working send to owner`, `docs(work): ki.prj.ways-of-working receive by owner`, `docs(work): ki.prj.ways-of-working hold, paused`.
+**Git is the logbook.** `git log -- +/_WORK/<id>/` is the history. Every session commits each completed unit by explicit path before its turn ends, under [Committing the package](https://github.com/knowledgeislands/ki-agent-backpack/blob/main/skills/work/ki-coordination/references/standard-coordination.md#481-committing-the-package), which owns the commit and sync cadence. Move commits carry the move in their subjects: `docs(work): ki.prj.ways-of-working send to owner`, `docs(work): ki.prj.ways-of-working receive by owner`, `docs(work): ki.prj.ways-of-working hold, paused`.
 
 **Shared history is never rewritten.** A rewrite breaks every clone and every revision link and needs a force-push. Instead, the working area is pruned at every mark, a finished work folder is deleted at the mark that closes it with Git keeping it, and a separate working repository is considered only if clone size or `git log` speed measurably hurts.
 
