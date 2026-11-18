@@ -1,6 +1,6 @@
 ---
 note_type: streams/index
-updated: 2026-11-17T03:13:00Z
+updated: 2026-11-18T03:29:00Z
 author: Written with Claude
 ---
 
@@ -82,7 +82,7 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## Mac Studio setup
 
-[mac-studio-setup](mac-studio-setup.md) brings Kris's Mac Studio, unused for over a month, back to full estate capability: chezmoi, Rig, Homebrew `ki`, the workspace and an agent runtime, so any thread can resume there.
+[mac-studio-setup](mac-studio-setup.md), completed on 18 November 2026, brought Kris's Mac Studio, unused for over a month, back to full estate capability: chezmoi, Rig, Homebrew `ki`, the workspace and an agent runtime, so any thread can resume there. What remains is Rig tooling, kept with Rig's own owners.
 
 ---
 

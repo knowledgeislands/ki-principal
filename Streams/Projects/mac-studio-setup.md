@@ -4,10 +4,10 @@ slug: mac-studio-setup
 title: Mac Studio setup
 outcome: Kris's Mac Studio, unused for over a month, is back to full estate capability - chezmoi applied, Rig declarations reconciled, Homebrew `ki` and `mgit` installed, the workspace cloned and registered, and Claude Code and Zed ready to resume any thread there.
 theme: rig
-lifecycle: active
+lifecycle: completed
 lead: Kris Brown
 target: null
-updated: 2026-10-19T23:16:23Z
+updated: 2026-11-18T03:29:00Z
 author: Written with Claude
 ---
 
@@ -72,7 +72,10 @@ The decisions that still guide `sol`, the Mac Studio, as they stand. The full de
 #### Close
 
 - The Project closes only after the restart test, which Kris runs at `sol` no earlier than Monday evening 2026-10-12. It stays open until Tailscale is proven to relaunch and reconnect after the unlock.
+- Superseded on 18 November 2026: Kris closed the Project without a separate attended test (MSS-CLOSE a), since `sol` had restarted and been reached over Tailscale and Screen Sharing since 14 November.
 
 ### Close-out assessment
 
-As of 27 October 2026, the recorded bootstrap delivered chezmoi application, reconciled Rig declarations and workspace access on `sol`; subsequent machine-alignment work is recorded in the Mac Studio and chezmoi work packages. This does not prove the full Outcome: the required attended restart, unlock and Tailscale reconnect test has no confirmed completion in the evidence reviewed, and remaining machine checks and firewall work have their existing Rig and chezmoi owners. Keep the Project open, preserving the Mac Studio work's hold until Kris releases it; Kris should confirm the restart test and the remaining setup evidence through that work before deciding whether to close. The wider Rig ideas above survive independently of that decision.
+Written 18 November 2026. Delivered against the Outcome: `sol` is back to full estate capability. chezmoi is applied from the current source, Rig declarations are reconciled, the released `ki` passes `ki doctor`, the workspace is cloned and registered, and agents reach `sol` over Tailscale and SSH. `sol` has restarted since 14 November and has been reached over Tailscale and Screen Sharing since, so the restart and reconnect the Close decision asked for has happened in use, though not as a separate attended test.
+
+Not delivered here: what remains is Rig tooling - the Rig ideas and notes above, firewall and tailnet-only listeners, and the wider machine follow-ups - which stays with Rig's and chezmoi's own owners and survives this close. Kris completed the Project on 18 November 2026, taking MSS-CLOSE a; the close-out is personal.rig.sol's change 10, at ki-cairn-store `678de42a` under `work/personal/personal.rig.sol/10-personal-reg-rig-sol-legacy.change.md`.
