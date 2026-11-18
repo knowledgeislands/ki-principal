@@ -78,7 +78,7 @@ Domains the territory holds or plans to hold, recorded from the 2026-10-12 inven
 
 ## Estate territories
 
-The estate has eight territories. Each has a handle, a short alias used in repository names and codes, and a class: entity or individual. Which of Kris's machines tends each territory is personal Rig setup, kept in chezmoi's `.chezmoidata/rigs.yaml`, not Knowledge Islands governance. This list names each territory's Capital for reference only; it grants no membership, authority, access, or permission to exchange material.
+The estate has nine territories. Each has a handle, a short alias used in repository names and codes, and a class: entity or individual. Which of Kris's machines tends each territory is personal Rig setup, kept in chezmoi's `.chezmoidata/rigs.yaml`, not Knowledge Islands governance. This list names each territory's Capital for reference only; it grants no membership, authority, access, or permission to exchange material.
 
 | Territory | Handle | Alias | Class | Capital |
 | --- | --- | --- | --- | --- |
@@ -87,9 +87,12 @@ The estate has eight territories. Each has a handle, a short alias used in repos
 | Equal Remedy | `equal-remedy` | `er` | Entity | `equalremedy/er-principal` |
 | Techmedix | `techmedix` | `tmx` | Entity | `techmedix/tmx-principal` |
 | Valle Armonia | `valle-armonia` | `va` | Entity | `vallearmonia/va-principal` |
+| 5G Emerge | `5ge-principal` | `5ge` | Entity | `5g-emerge/5ge-principal` |
 | Legal | `legal` | `lgl` | Individual | `krisb/legal-principal` |
 | Personal | `personal` | `personal` | Individual | `krisb/personal-principal` |
 | Sacred Inquiry | `sacred-inquiry` | `si` | Individual | `sacred-inquiry/si-principal` |
+
+5G Emerge became a territory on 17 November 2026 by Kris's decision (5GE-CAPITAL a). Its six repositories, `5g-emerge/5g-emerge-testbed`, `5g-emerge/apps-io.5g-emerge`, `5g-emerge/apps-io.5g-emerge.demo`, `5g-emerge/apps-io.5g-emerge.p2ms3`, `5g-emerge/apps-io.5g-emerge.phase2` and `5g-emerge/apps-io.5g-emerge.phase3`, moved from the Humans Not Robots territory to it and name `5g-emerge/5ge-principal` as their Capital; Humans Not Robots keeps its 5G Emerge records as partner work. The territory has no `territory_prefix`, so its handle is its local registry key.
 
 ---
 
