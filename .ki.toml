@@ -65,15 +65,7 @@ territory_members = [
 # -----------------------------------------------------------------------------
 
 [skills.ki-repo-kb]
-
-[skills.ki-repo-kb-streams]
 process_note = "Admin/Operations/Processes/Enactment Process"
-
-[skills.ki-repo-kb-activities]
-
-[skills.ki-repo-kb-live-artifacts]
-
-[skills.ki-repo-kb-principal]
 
 # -----------------------------------------------------------------------------
 # Governance and runtime
