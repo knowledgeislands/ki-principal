@@ -58,4 +58,4 @@ Two independent reviews of the fields then found the first size meanings, given 
 - [GDR-KI-PRINCIPAL-005](GDR-KI-PRINCIPAL-005-the-roadmap-model.md) - the roadmap model, whose fields this decision extends.
 - [GDR-KI-PRINCIPAL-009](GDR-KI-PRINCIPAL-009-the-work-model.md) - the work model, which replaced `initiative` with `theme`.
 - [SDR-KI-PRINCIPAL-004](SDR-KI-PRINCIPAL-004-the-enactment-process.md) - an explicit owner instruction for a bounded change stands in for a proposal.
-- [Work-item format, Priority and size](https://github.com/knowledgeislands/ki-agentic-harness/blob/main/skills/change-management/ki-work-roadmap/references/standards-work-item-format.md#priority-and-size) - the standard that carries this decision.
+- [Work-item format, Priority and size](https://github.com/knowledgeislands/ki-agent-backpack/blob/main/skills/work/ki-work-roadmap/references/standard-work-item-format.md#43-priority-and-size) - the standard that carries this decision.
