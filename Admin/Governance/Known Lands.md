@@ -28,6 +28,7 @@ Each island owns its accepted knowledge or executable behaviour within the share
 | [apps-agenticecosystems.info][apps-agenticecosystems.info] | Publication | Public reference map of agentic ecosystems |
 | [apps-cairn.local][apps-cairn.local] | Product | Always-on meeting place for territories on each rig |
 | [apps-knowledgeislands.info][apps-knowledgeislands.info] | Publication | Public source-labelled website |
+| [apps-knowledgelandscapes.info][apps-knowledgelandscapes.info] | Publication | Holding page for Knowledge Landscapes |
 | [apps-observatory.local][apps-observatory.local] | Product | Repository and knowledge reader |
 | [homebrew-tap][homebrew-tap] | Delivery | Homebrew distribution |
 | [ki-agent-backpack][ki-agent-backpack] | Capability | Reusable agentic contracts |
@@ -117,6 +118,7 @@ Membership and ownership changes follow the territory's Enactment Process and th
 [apps-cairn.local]: https://github.com/knowledgeislands/apps-cairn.local
 
 [apps-knowledgeislands.info]: https://github.com/knowledgeislands/apps-knowledgeislands.info
+[apps-knowledgelandscapes.info]: https://github.com/knowledgeislands/apps-knowledgelandscapes.info
 [apps-observatory.local]: https://github.com/knowledgeislands/apps-observatory.local
 [homebrew-tap]: https://github.com/knowledgeislands/homebrew-tap
 [ki-agent-backpack]: https://github.com/knowledgeislands/ki-agent-backpack
