@@ -25,6 +25,7 @@ Each island owns its accepted knowledge or executable behaviour within the share
 
 | Repository | Role | Owned concern |
 | --- | --- | --- |
+| [apps-agenticecosystems.info][apps-agenticecosystems.info] | Publication | Public reference map of agentic ecosystems |
 | [apps-cairn.local][apps-cairn.local] | Product | Always-on meeting place for territories on each rig |
 | [apps-knowledgeislands.info][apps-knowledgeislands.info] | Publication | Public source-labelled website |
 | [apps-observatory.local][apps-observatory.local] | Product | Repository and knowledge reader |
@@ -112,6 +113,7 @@ KI and mgit derive repository selection from the Capital's ordered territorial r
 
 Membership and ownership changes follow the territory's Enactment Process and the affected repository's authority. A source repository remains a member until a separately verified consolidation and owner-approved retirement disposition changes this inventory.
 
+[apps-agenticecosystems.info]: https://github.com/knowledgeislands/apps-agenticecosystems.info
 [apps-cairn.local]: https://github.com/knowledgeislands/apps-cairn.local
 
 [apps-knowledgeislands.info]: https://github.com/knowledgeislands/apps-knowledgeislands.info
