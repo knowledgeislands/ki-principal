@@ -46,7 +46,7 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## chezmoi
 
-[chezmoi](chezmoi.md), completed on 18 November 2026, worked the open PERSONAL-DOTFILES-UE records in the chezmoi source, keeping the workstation accurate, tidy and observable. PERSONAL-DOTFILES-UE-140 and PERSONAL-DOTFILES-UE-141 stay open in the chezmoi roadmap with the housekeepers.
+[chezmoi](chezmoi.md), completed on 18 November 2026, worked the open PERSONAL-DOTFILES-UE records in the chezmoi source, keeping the workstation accurate, tidy and observable. Two of those records stay open in the chezmoi roadmap with the housekeepers.
 
 ---
 
