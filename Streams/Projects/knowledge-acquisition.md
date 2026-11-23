@@ -24,7 +24,9 @@ This Project sits in [Model](../Themes/model.md).
 ## Notes
 
 - The lifecycle note changes `Pillars/`, so it runs through the [Enactment Process](<../../Admin/Operations/Processes/Enactment Process.md>).
+
 - The harness's AI-session acquisition is the work in flight; whether the lifecycle note should lead the remaining acquisition work depends on what that delivery has learnt.
+
 - **The harness record was narrowed on 2026-10-14.** Kris chose in the state-of-play thread's roadmap census, answering its rescope question for the harness acquisition record with 'rescope now', to narrow the harness's AI-session acquisition record to what it has delivered: the read-only Claude, Codex and ChatGPT source adapters, the `tools-ki` acquisition command and registry, the published `ki-acquire-chatgpt` capability with its project-selector contract, and the one-time conversion and staging of the official ChatGPT account export into its territories with explicit omissions. That record is awaiting review. The unfinished steps of its original plan now sit here until a record is opened for each in its owning repository:
   1. Evaluate the hybrid incremental path: local-cache change nomination, browser retrieval of new or changed readable sessions through the isolated browser trial, and periodic full-export reconciliation before browser coverage is trusted.
   2. Connect ChatGPT acquisition to a readable, authorised source that can enumerate projects and return complete conversations with their write-ups and assets.
@@ -36,7 +38,9 @@ This Project sits in [Model](../Themes/model.md).
   8. Verify one complete ChatGPT project move and one completed agent-session no-op before enabling any source deletion.
 
   Open questions carried with them: the provisional Spirituality project binding, and what happens to the 77 export files referenced by no conversation. The harness's staging checkpoint of 2026-10-14 holds the evidence pattern (immutable project bindings, explicit omissions, checksums from a clean checkout) the Pillars lifecycle note can draw on.
+
 - **Known World part, 2026-10-15.** On 15 October Kris placed the foundations model in [Known World](<../../Pillars/Philosophy/Emerging Concepts/Known World.md>) and gave this Project its part: the inception loop, publishing a seed into acquire's ChatGPT context and folding back the capture that returns with `ki_project`. [Known World](<../../Pillars/Philosophy/Emerging Concepts/Known World.md>) is the loop's first pilot, and an [Emerging Concepts](<../../Pillars/Philosophy/Emerging Concepts/Emerging Concepts.md>) note is a seed and fold-back target as well as a Project's Notes.
+
 - **Dispatch came from Personal, 2026-10-18.** On 18 October Personal retired its Acquire > Dispatch Activity and Kris brought it into this Project.
 
 ### Close-out assessment
