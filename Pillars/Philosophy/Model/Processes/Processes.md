@@ -13,7 +13,7 @@ author: Written with Claude
 
 Processes are how governance is carried out in practice. Within the Model act, this chapter holds the active procedures that move knowledge from an idea to accepted content, as distinct from the conventions that describe what accepted content looks like. They are what give an island's council authority a concrete form.
 
-The chapter has four processes. One governs change within an island; one governs how knowledge passes between a territory and the shared Knowledge Islands model; one describes how external material is acquired and harvested; one describes how coordinated work moves between the people and agents doing it. Each preserves the authority of whoever owns the receiving knowledge.
+The chapter has five processes. One governs change within an island; one governs how knowledge passes between a territory and the shared Knowledge Islands model; one describes how external material is acquired and harvested; one sorts everything that comes in until it is kept or let go; one describes how coordinated work moves between the people and agents doing it. Each preserves the authority of whoever owns the receiving knowledge.
 
 Start with [How Change Happens](<How Change Happens.md>), the narrative chapter note, before reading each process in detail.
 
@@ -40,6 +40,12 @@ Start with [How Change Happens](<How Change Happens.md>), the narrative chapter 
 ## Acquisition Process
 
 [Acquisition Process](<Acquisition Process/Acquisition Process.md>) describes the provider-neutral lifecycle by which material from AI sessions, meetings and other external sources is discovered, acquired, staged, harvested into durable knowledge and eventually retired from its transient source. It tabulates the provenance each source actually provides, records the harvest checkpoint as observed, and states that the archive and deletion threshold is still undecided. Read it when working on acquisition adapters or harvesting captured material.
+
+---
+
+## D12 Dodecakrisis
+
+[D12, the Dodecakrisis](<D12 Dodecakrisis/D12 Dodecakrisis.md>) is the sorting engine for everything that comes in: twelve Ds that say what happens to each delivery, from arrival until it is deposited or deleted. Sorting rules place each delivery in one of seven queues, concluded items cycle back through the rules, and a Docket lane keeps the action items. Read it when designing intake for a source or deciding what is kept.
 
 ---
 

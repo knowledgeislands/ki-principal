@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 620" font-family="-apple-system, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555"/>
+    </marker>
+    <marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#d08a2e"/>
+    </marker>
+    <marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#7a4ea3"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="620" fill="#fbfaf7"/>
+  <text x="700" y="34" text-anchor="middle" font-size="21" font-weight="700" fill="#222">D12 · the Dodecakrisis: a sorting engine for everything that comes in</text>
+
+  <!-- DELIVERIES -->
+  <rect x="25" y="65" width="180" height="380" rx="14" fill="#eef1f6" stroke="#7d8fa8" stroke-width="2.5"/>
+  <text x="115" y="97" text-anchor="middle" font-size="17" font-weight="700" fill="#4a5d78">1 DELIVERIES</text>
+  <text x="115" y="117" text-anchor="middle" font-size="11" fill="#666">what comes in</text>
+  <g font-size="13" fill="#333" text-anchor="middle">
+    <rect x="45" y="135" width="140" height="34" rx="6" fill="#fff" stroke="#9fb2cc"/><text x="115" y="157">Email</text>
+    <rect x="45" y="179" width="140" height="34" rx="6" fill="#fff" stroke="#9fb2cc"/><text x="115" y="201">Meetings</text>
+    <rect x="45" y="223" width="140" height="34" rx="6" fill="#fff" stroke="#9fb2cc"/><text x="115" y="245">Chats</text>
+    <rect x="45" y="267" width="140" height="34" rx="6" fill="#fff" stroke="#9fb2cc"/><text x="115" y="289">Links · files</text>
+    <rect x="45" y="311" width="140" height="34" rx="6" fill="#fff" stroke="#9fb2cc"/><text x="115" y="333">Voice · photos</text>
+    <rect x="45" y="355" width="140" height="34" rx="6" fill="#fff" stroke="#9fb2cc"/><text x="115" y="377">Messages</text>
+  </g>
+  <path d="M205,145 L268,145" stroke="#555" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+
+  <!-- DO -->
+  <rect x="235" y="65" width="840" height="380" rx="14" fill="#fff" stroke="#3a6ea5" stroke-width="2.5"/>
+  <text x="655" y="97" text-anchor="middle" font-size="17" font-weight="700" fill="#3a6ea5">2 DO</text>
+
+  <rect x="275" y="118" width="770" height="50" rx="25" fill="#3a6ea5"/>
+  <text x="660" y="140" text-anchor="middle" font-size="15" font-weight="600" fill="#fff">Sorting rules + automator</text>
+  <text x="660" y="158" text-anchor="middle" font-size="11" fill="#dbe7f5">automatic, or you by hand</text>
+
+  <g stroke="#888" stroke-width="1.5" fill="none" marker-end="url(#a)">
+    <path d="M320,168 L320,211"/><path d="M430,168 L430,211"/><path d="M540,168 L540,211"/><path d="M650,168 L650,211"/>
+    <path d="M760,168 L760,211"/><path d="M870,168 L870,211"/><path d="M980,168 L980,211"/>
+  </g>
+
+  <g font-size="13" font-weight="600" fill="#333" text-anchor="middle">
+    <rect x="270" y="216" width="100" height="130" rx="8" fill="#f6efe2" stroke="#b08a3e"/><text x="320" y="240">3 Determine</text>
+    <rect x="380" y="216" width="100" height="130" rx="8" fill="#eef4fb" stroke="#3a6ea5"/><text x="430" y="240">4 Decide</text>
+    <rect x="490" y="216" width="100" height="130" rx="8" fill="#eef4fb" stroke="#3a6ea5"/><text x="540" y="240">5 Discuss</text>
+    <rect x="600" y="216" width="100" height="130" rx="8" fill="#eef4fb" stroke="#3a6ea5"/><text x="650" y="240">6 Delegate</text>
+    <rect x="710" y="216" width="100" height="130" rx="8" fill="#eef4fb" stroke="#3a6ea5"/><text x="760" y="240">7 Defer</text>
+    <rect x="820" y="216" width="100" height="130" rx="8" fill="#eef4fb" stroke="#3a6ea5"/><text x="870" y="240">8 Dormant</text>
+    <rect x="930" y="216" width="100" height="130" rx="8" fill="#eef4fb" stroke="#3a6ea5"/><text x="980" y="240">9 Digest</text>
+  </g>
+  <g font-size="9.5" fill="#666" text-anchor="middle">
+    <text x="320" y="258">where does it go?</text><text x="320" y="271">rules can't place it</text>
+    <text x="430" y="258">I do something</text><text x="430" y="271">about it</text>
+    <text x="540" y="258">we talk it</text><text x="540" y="271">through</text>
+    <text x="650" y="258">someone else does</text><text x="650" y="271">fire, or send and wait</text>
+    <text x="760" y="258">back on a date ⏰</text><text x="760" y="271">then re-sorted</text>
+    <text x="870" y="258">someday, maybe</text><text x="870" y="271">no date</text>
+    <text x="980" y="258">sits for a time</text><text x="980" y="271">to be absorbed</text>
+  </g>
+  <g font-size="10" fill="#999" text-anchor="middle">
+    <text x="320" y="336">teaches a rule</text>
+    <text x="430" y="336">me</text><text x="540" y="336">us</text><text x="650" y="336">them</text>
+    <text x="760" y="336">when</text><text x="870" y="336">if ever</text><text x="980" y="336">over time</text>
+  </g>
+  <g fill="#c9d9ec">
+    <rect x="290" y="290" width="60" height="10" rx="3"/>
+    <rect x="400" y="290" width="60" height="10" rx="3"/><rect x="400" y="305" width="60" height="10" rx="3"/>
+    <rect x="510" y="290" width="60" height="10" rx="3"/>
+    <rect x="620" y="290" width="60" height="10" rx="3"/>
+    <rect x="730" y="290" width="60" height="10" rx="3"/><rect x="730" y="305" width="60" height="10" rx="3"/>
+    <rect x="840" y="290" width="60" height="10" rx="3"/>
+    <rect x="950" y="290" width="60" height="10" rx="3"/><rect x="950" y="305" width="60" height="10" rx="3"/>
+  </g>
+
+  <g stroke="#d08a2e" stroke-width="2" stroke-dasharray="6 4" fill="none">
+    <path d="M320,346 L320,380"/><path d="M430,346 L430,380"/><path d="M540,346 L540,380"/><path d="M650,346 L650,380"/>
+    <path d="M760,346 L760,380"/><path d="M870,346 L870,380"/><path d="M980,346 L980,380"/>
+    <path d="M1000,380 L252,380 L252,145"/>
+  </g>
+  <path d="M252,148 L252,143 L272,143" stroke="#d08a2e" stroke-width="2" stroke-dasharray="6 4" fill="none" marker-end="url(#o)"/>
+  <text x="655" y="405" text-anchor="middle" font-size="12" fill="#d08a2e" font-weight="600">↺ concluded items come off the bottom and go back through the rules</text>
+
+  <path d="M1045,133 L1118,133" stroke="#2e8b57" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+  <path d="M1045,155 Q1095,155 1100,300 Q1102,345 1118,345" stroke="#b03a2e" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+
+  <rect x="1125" y="65" width="250" height="150" rx="14" fill="#e8f5ee" stroke="#2e8b57" stroke-width="2.5"/>
+  <text x="1250" y="98" text-anchor="middle" font-size="17" font-weight="700" fill="#2e8b57">10 DEPOSIT</text>
+  <text x="1250" y="122" text-anchor="middle" font-size="12" fill="#555">kept for the longer term</text>
+  <text x="1250" y="146" text-anchor="middle" font-size="12" fill="#555">⏳ retention · 🔔 optional reminder</text>
+  <text x="1250" y="182" text-anchor="middle" font-size="11" fill="#888">→ handoff to the knowledge store</text>
+  <text x="1250" y="198" text-anchor="middle" font-size="11" fill="#888">(its own model, set aside)</text>
+
+  <path d="M1250,215 L1250,290" stroke="#555" stroke-width="2" stroke-dasharray="5 4" fill="none" marker-end="url(#a)"/>
+  <text x="1262" y="258" font-size="12" fill="#555">when retention ends</text>
+
+  <rect x="1125" y="295" width="250" height="150" rx="14" fill="#fbecea" stroke="#b03a2e" stroke-width="2.5"/>
+  <text x="1250" y="328" text-anchor="middle" font-size="17" font-weight="700" fill="#b03a2e">11 DELETE</text>
+  <text x="1250" y="352" text-anchor="middle" font-size="12" fill="#555">let go, with a reason:</text>
+  <text x="1250" y="372" text-anchor="middle" font-size="12" fill="#555">junk · no longer needed</text>
+  <text x="1250" y="390" text-anchor="middle" font-size="12" fill="#555">· retention ended</text>
+
+  <rect x="25" y="470" width="1350" height="110" rx="14" fill="#f3eef8" stroke="#7a4ea3" stroke-width="2.5"/>
+  <text x="55" y="502" font-size="17" font-weight="700" fill="#7a4ea3">12 DOCKET</text>
+  <text x="55" y="524" font-size="12" fill="#555">action items made out of the sorter,</text>
+  <text x="55" y="540" font-size="12" fill="#555">so nothing is lost; they point back</text>
+  <text x="55" y="556" font-size="12" fill="#555">to items and pull them through</text>
+  <g font-size="12" fill="#333" text-anchor="middle">
+    <rect x="330" y="500" width="150" height="30" rx="6" fill="#fff" stroke="#b49bd0"/><text x="405" y="520">☐ reply to …</text>
+    <rect x="500" y="500" width="150" height="30" rx="6" fill="#fff" stroke="#b49bd0"/><text x="575" y="520">☐ agenda: …</text>
+    <rect x="670" y="500" width="150" height="30" rx="6" fill="#fff" stroke="#b49bd0"/><text x="745" y="520">☐ chase …</text>
+    <rect x="840" y="500" width="150" height="30" rx="6" fill="#fff" stroke="#b49bd0"/><text x="915" y="520">☐ read …</text>
+    <rect x="1010" y="500" width="150" height="30" rx="6" fill="#fff" stroke="#b49bd0"/><text x="1085" y="520">☐ sign …</text>
+  </g>
+  <g stroke="#7a4ea3" stroke-width="1.6" fill="none" marker-end="url(#p)">
+    <path d="M430,346 Q420,440 405,498"/>
+    <path d="M540,346 Q560,440 575,498"/>
+    <path d="M650,346 Q700,440 740,498"/>
+  </g>
+  <g stroke="#7a4ea3" stroke-width="1.4" stroke-dasharray="3 4" fill="none" marker-end="url(#p)">
+    <path d="M915,500 Q960,430 975,348"/>
+    <path d="M1160,515 Q1105,470 1108,300 Q1110,200 1123,190"/>
+  </g>
+  <text x="745" y="560" text-anchor="middle" font-size="11" fill="#7a4ea3">solid: a queue makes an action · dotted: an action points at an item and pulls it through</text>
+
+  <text x="25" y="605" font-size="12" fill="#444"><tspan font-weight="700">Top:</tspan> Deliveries · Do · Deposit · Delete  ·  <tspan font-weight="700">Queues in Do:</tspan> Determine · Decide · Discuss · Delegate · Defer · Dormant · Digest  ·  <tspan font-weight="700">Lane:</tspan> Docket</text>
+</svg>

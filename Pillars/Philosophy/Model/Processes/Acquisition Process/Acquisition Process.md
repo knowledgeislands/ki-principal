@@ -16,6 +16,8 @@ The Acquisition Process is the operational picture of how material from AI sessi
 
 Acquisition is not session archiving. A source is visible because it holds transient working state; the destination is reviewed, durable island knowledge. Provider mechanics (MCPs, APIs, local parsers, export importers) sit below this boundary and belong to the repositories that own them.
 
+Everything that comes in is first sorted by [D12, the Dodecakrisis](<../D12 Dodecakrisis/D12 Dodecakrisis.md>): only what it deposits goes on to be kept as knowledge, and the rest is worked or let go.
+
 ---
 
 ## End-to-end flow
