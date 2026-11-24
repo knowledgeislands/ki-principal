@@ -5,13 +5,15 @@ area: GOV
 title: Territory alias ownership
 priority: low
 size: s
-status: triage
+status: draft
+horizon: next
+kind: decide
 assignee: owner
 blocks: []
 blocked_by: []
 baseline_ref: null
 created_at: 2026-11-17T03:14:23Z
-updated_at: 2026-11-17T03:14:23Z
+updated_at: 2026-11-24T11:45:00Z
 ---
 
 # Territory Alias Ownership

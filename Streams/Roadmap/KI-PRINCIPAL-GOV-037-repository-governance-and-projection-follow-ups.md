@@ -5,13 +5,15 @@ area: GOV
 title: Repository governance and projection follow-ups
 priority: low
 size: s
-status: triage
+status: draft
+horizon: next
+kind: investigate
 assignee: owner
 blocks: []
 blocked_by: []
 baseline_ref: null
 created_at: 2026-11-17T03:14:23Z
-updated_at: 2026-11-17T03:14:23Z
+updated_at: 2026-11-24T11:45:00Z
 ---
 
 # Repository Governance and Projection Follow-ups
