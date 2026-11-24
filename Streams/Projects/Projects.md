@@ -1,6 +1,6 @@
 ---
 note_type: streams/index
-updated: 2026-11-18T04:05:00Z
+updated: 2026-11-24T11:50:00Z
 author: Written with Claude
 ---
 
@@ -88,13 +88,13 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## Observatory
 
-[Observatory](observatory.md) makes the Observatory the operations centre for one or more territories - per Rig at a uniform address, read-only over knowledge, threads and agent sessions, with a review queue, Git tooling and feedback into the capture cycle. It absorbed Command centre on 2026-10-18.
+[Observatory](observatory.md), cancelled on 24 November 2026 as superseded by Cairn, set out to make the Observatory the operations centre for one or more territories - per Rig at a uniform address, read-only over knowledge, threads and agent sessions, with a review queue, Git tooling and feedback into the capture cycle. It absorbed Command centre on 2026-10-18. Its views come into Cairn's Wayfinder as Kris chooses them.
 
 ---
 
 ## Orca evaluation
 
-[orca-evaluation](orca-evaluation.md) works out how best to use Orca alongside Knowledge Islands, building up the island's knowledge of it as the evaluation goes.
+[orca-evaluation](orca-evaluation.md), completed on 24 November 2026, worked out how best to use Orca alongside Knowledge Islands: Orca was evaluated and kept, with agent work running on Sol.
 
 ---
 
@@ -166,7 +166,7 @@ Links point upwards only: a work record names its Project, and a Project names i
 
 ## Ways of working
 
-[ways-of-working](ways-of-working.md) defines how Kris works with the master and Project threads, background agents and the tools in transferable skills, and gives the state of play a clear view.
+[ways-of-working](ways-of-working.md), completed on 24 November 2026, defined how Kris works with coordinating threads, background agents and the tools in transferable skills, now `ki-coordination`, `ki-delegation` and `ki-work`, with the state of play held by the summits. One record naming it, the Work Process note's cascade amendment, stays open.
 
 ---
 

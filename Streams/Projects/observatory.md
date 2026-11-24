@@ -4,10 +4,10 @@ slug: observatory
 title: Observatory
 outcome: The Observatory is the operations centre for one or more territories - deployed per Rig at a uniform address, read-only over the territory's knowledge, threads and agent sessions, with documents to review found across its repositories, Git tooling, and feedback that returns into the capture cycle.
 theme: model
-lifecycle: active
+lifecycle: cancelled
 lead: Kris Brown
 target: null
-updated: 2026-10-22T02:11:53Z
+updated: 2026-11-24T11:50:00Z
 author: Mixed
 ---
 
@@ -78,3 +78,7 @@ Dispatched by the state-of-play thread from Kris's words of 14 October 2026. The
 - **Idea: token economics in the glass.** Kris: "Another key aspect of this whole command centre piece, the observatory, OTLP, the pub sub mechanism, all of that good stuff, is that we also need to think about token economics as part of it." This Project's part is showing it: per-run and per-thread token totals beside each session, each account's 5-hour and 7-day windows with reset times (read from claude-swap and CodexBar, adding no new provider call), and Beacon attention when a window passes 90 % or a run stops on a limit. Measuring belongs with [AI observability](ai-observability.md) under [Foundations](../Themes/foundations.md), and acting (fallback and concurrency) with [ways-of-working](ways-of-working.md). Evidence: [areas-tokens (deleted)](https://github.com/knowledgeislands/ki-principal/blob/b5bc4956fd1a879a2cedc2dcc01840fb7a795fba/+/_THREADS/state-of-play/areas-tokens.report.md).
 - **OBSERVATORY-ATC, 2026-10-17.** Captured from Kris's intake, no design: "understanding all of the initiatives and projects and work streams and roadmap items that are running within a given territory ... could be really well done through the observatory ... see which threads are running, which sessions, agentic sessions, are associated to those. I don't want to see the updates from those sessions. I want those to still stay ... in ... my main Agentic environment ... But ... observability over those things so I can see when agents are waiting, whether they've got sub-agents that they've subbed out to ... like looking down on ... from the tower in your castle and seeing all the villagers moving around ... a little bit like air traffic control". Goal 7 and unit 1 carry it. Detail: [themes.md](https://github.com/knowledgeislands/ki-principal/blob/2d4722ada/+/_WORK/ki.sop.main/themes/themes.md).
 - **KB-READER, 2026-10-17.** Captured from Kris's GO-AHEAD, no design: "hopefully, all this gets captured back into Knowledge Island in the Knowledge Base, and then there's the observatory's built, we can start to look at and understand all these in a reader-only fashion. Not everything that we do needs to be in the public set of information on the website." The Observatory as a read-only reader over the knowledge base, with a private/public boundary against the website. Goal 3 carries it.
+
+### Close-out assessment
+
+Written 24 November 2026. Not delivered as its own product: `apps-observatory.local` was retired from the Rigs, its code now sits read-only in apps-cairn.local's `legacy/observatory/`, and the operations-centre aim passed to Cairn's Wayfinder, which reads the work tree, the packages and their questions across territories. Each Observatory view comes into the Wayfinder as its own page, or stays behind, as Kris chooses view by view under ki.cairn's change 04 in the Cairn store; that is the follow-up, and it needs no record here. The ideas above stay as ideas. Known Lands still names `apps-observatory.local`, and its removal is a step in ki.summit's change 24. Kris cancelled the Project as superseded by Cairn on 24 November 2026, 11:20 GMT, taking PROJECTS-REGISTER as recommended on Orca item 263.
